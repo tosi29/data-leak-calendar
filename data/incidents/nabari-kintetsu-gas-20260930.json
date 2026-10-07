@@ -1,0 +1,48 @@
+{
+  "id": "nabari-kintetsu-gas-20260930",
+  "organization": {
+    "name": "名張近鉄ガス",
+    "sector": "企業・団体"
+  },
+  "title": "委託先のランサムウェア被害で顧客情報が流出した可能性",
+  "summary": "両毛システムズのファイルサーバー侵害により、プロパンガス利用者約6,800件の情報が漏えいした可能性を公表。",
+  "published_on": "2026-09-30",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-07",
+  "first_published_on": "2026-09-30",
+  "publication_kind": "initial",
+  "verification": "official",
+  "leak_status": "suspected",
+  "impact": [
+    {
+      "count": 6800,
+      "unit": "records",
+      "qualifier": "approximate",
+      "description": "プロパンガス顧客情報"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "料金番号",
+    "電話番号（一部）"
+  ],
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "委託先ファイルサーバーへのランサムウェアによる不正アクセス。",
+    "certainty": "confirmed"
+  },
+  "related_vendor": "両毛システムズ",
+  "sources": [
+    {
+      "url": "https://www.kintetsugas.co.jp/news/p_release/260930pr/index.html",
+      "type": "official",
+      "title": "当社委託先のファイルサーバーへの不正アクセスによるお客さま情報漏洩の可能性について – 名張近鉄ガス",
+      "published_on": "2026-09-30",
+      "checked_on": "2026-10-07"
+    }
+  ],
+  "notes": "",
+  "updates": []
+}

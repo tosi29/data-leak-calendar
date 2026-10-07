@@ -1,0 +1,52 @@
+{
+  "id": "ieej-20260911",
+  "organization": {
+    "name": "日本エネルギー経済研究所",
+    "sector": "研究機関"
+  },
+  "title": "所員6人のMicrosoft 365アカウントが侵害",
+  "summary": "フィッシングによりメール・ファイルが閲覧され、ファイルのダウンロードによる情報漏えいを確認した。",
+  "published_on": "2026-09-11",
+  "occurred_on": null,
+  "detected_on": "2026-07-29",
+  "updated_on": "2026-10-07",
+  "first_published_on": "2026-09-11",
+  "publication_kind": "initial",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "impact": [
+    {
+      "count": 5417,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "メール閲覧の痕跡"
+    },
+    {
+      "count": 3272,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "ファイル閲覧の痕跡（うちダウンロード2,798件）"
+    }
+  ],
+  "data_types": [
+    "メール",
+    "ファイル"
+  ],
+  "cause": {
+    "category": "credentials",
+    "detail": "フィッシング攻撃により所員6人のMicrosoft 365アカウントが侵害された。",
+    "certainty": "confirmed"
+  },
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://eneken.ieej.or.jp/press/press260911.pdf",
+      "type": "official",
+      "title": "不正アクセスによる情報漏えいに関するお詫びとお知らせ",
+      "published_on": "2026-09-11",
+      "checked_on": "2026-10-07"
+    }
+  ],
+  "notes": "件数はアクセスの痕跡であり、漏えいした個人の人数ではない。",
+  "updates": []
+}

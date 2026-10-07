@@ -1,0 +1,45 @@
+{
+  "id": "kur-and-hotel-20260929",
+  "organization": {
+    "name": "クア・アンド・ホテル",
+    "sector": "企業・団体"
+  },
+  "title": "予約管理システムへの不正アクセスで宿泊情報が漏えいした可能性",
+  "summary": "利用するTEMAIRAZUへの不正アクセスを受け、宿泊予約情報への影響を公表。対象範囲・件数を調査中。",
+  "published_on": "2026-09-29",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-07",
+  "first_published_on": "2026-09-29",
+  "publication_kind": "initial",
+  "verification": "official",
+  "leak_status": "suspected",
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "対象規模は確認した資料に記載なし・調査中"
+    }
+  ],
+  "data_types": [
+    "宿泊予約情報"
+  ],
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。侵入手法の詳細は未公表。",
+    "certainty": "unknown"
+  },
+  "related_vendor": "TEMAIRAZU",
+  "sources": [
+    {
+      "url": "https://www.kur-hotel.co.jp/news/attention2/",
+      "type": "official",
+      "title": "【重要】不審なメール・メッセージに関する調査状況のお知らせ｜お知らせ｜クア・アンド・ホテル",
+      "published_on": "2026-09-29",
+      "checked_on": "2026-10-07"
+    }
+  ],
+  "notes": "委託先の共通事案。独立した攻撃回数としては数えない。",
+  "updates": []
+}

@@ -1,0 +1,49 @@
+{
+  "id": "asuchika-20260918",
+  "organization": {
+    "name": "全国ドコデモこども食堂",
+    "sector": "企業・団体"
+  },
+  "title": "利用者情報CSVの誤添付について確報を公表",
+  "summary": "利用者向けアンケートメールに1,142人の個人情報を含むCSVを誤添付。976件の宛先に到達した。",
+  "published_on": "2026-09-18",
+  "occurred_on": "2026-08-20",
+  "detected_on": null,
+  "updated_on": "2026-10-07",
+  "first_published_on": "2026-08-21",
+  "publication_kind": "followup",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "impact": [
+    {
+      "count": 1142,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "対象者数"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "連絡先",
+    "家族構成",
+    "病歴・障害等"
+  ],
+  "cause": {
+    "category": "misdelivery",
+    "detail": "利用者CSVを誤選択して添付し、別担当者の確認なしで送信した。",
+    "certainty": "confirmed"
+  },
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://asuchika.org/docodemo/info/20260918.html",
+      "type": "official",
+      "title": "メール誤送信による個人情報漏えいに関する確報提出と対応状況のご報告｜課題を抱える子どもをサポートする大人を支援する",
+      "published_on": "2026-09-18",
+      "checked_on": "2026-10-07"
+    }
+  ],
+  "notes": "976件は到達先数で、情報が記録された1,142人とは異なる。団体名はサイト表示を確認。",
+  "updates": []
+}

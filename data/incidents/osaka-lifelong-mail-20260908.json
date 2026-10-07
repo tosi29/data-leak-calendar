@@ -1,0 +1,45 @@
+{
+  "id": "osaka-lifelong-mail-20260908",
+  "organization": {
+    "name": "大阪市立総合生涯学習センター",
+    "sector": "自治体"
+  },
+  "title": "講座修了者へのメール誤送信",
+  "summary": "情報配信を希望した受講修了者168人のメールアドレスを宛先欄に表示して送信した。",
+  "published_on": "2026-09-08",
+  "occurred_on": "2026-09-07",
+  "detected_on": null,
+  "updated_on": "2026-10-07",
+  "first_published_on": "2026-09-08",
+  "publication_kind": "initial",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "impact": [
+    {
+      "count": 168,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "対象者数"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "cause": {
+    "category": "misdelivery",
+    "detail": "BCCではなくTO欄に入力し、送信前の複数人確認も不十分だった。",
+    "certainty": "confirmed"
+  },
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.city.osaka.lg.jp/hodoshiryo/kyoiku/0000687145.html",
+      "type": "official",
+      "title": "大阪市：報道発表資料　大阪市立総合生涯学習センターにおけるメール誤送信による個人情報等の漏えいについて",
+      "published_on": "2026-09-08",
+      "checked_on": "2026-10-07"
+    }
+  ],
+  "notes": "",
+  "updates": []
+}

@@ -1,0 +1,47 @@
+{
+  "id": "saga-agriculture-school-20260925",
+  "organization": {
+    "name": "佐賀県立佐賀農業高等学校",
+    "sector": "大学・教育機関"
+  },
+  "title": "生徒120人の教務記録手帳を紛失",
+  "summary": "職員が校内で手帳を紛失し、9月24日に返還された。一定期間の所在不明により第三者閲覧を否定できない。",
+  "published_on": "2026-09-25",
+  "occurred_on": "2026-09-09",
+  "detected_on": null,
+  "updated_on": "2026-10-07",
+  "first_published_on": "2026-09-25",
+  "publication_kind": "initial",
+  "verification": "official",
+  "leak_status": "lost",
+  "impact": [
+    {
+      "count": 120,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "対象者数"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "出席状況",
+    "成績"
+  ],
+  "cause": {
+    "category": "loss",
+    "detail": "教務記録手帳の管理不備。紛失後の管理職への報告も遅れた。",
+    "certainty": "confirmed"
+  },
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.pref.saga.lg.jp/kyouiku/kiji003121220/index.html",
+      "type": "official",
+      "title": "個人情報を含む教務記録手帳の紛失事案について / 教育委員会TOP / 佐賀県",
+      "published_on": "2026-09-25",
+      "checked_on": "2026-10-07"
+    }
+  ],
+  "notes": "",
+  "updates": []
+}

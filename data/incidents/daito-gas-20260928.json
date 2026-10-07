@@ -1,0 +1,50 @@
+{
+  "id": "daito-gas-20260928",
+  "organization": {
+    "name": "大東ガス",
+    "sector": "企業・団体"
+  },
+  "title": "システム委託先の保管ファイルが流出した可能性",
+  "summary": "両毛システムズの社内ネットワークへの侵害により、過去の顧客情報約12万4千件が流出した可能性を公表。稼働中の顧客システムとは分離されている。",
+  "published_on": "2026-09-28",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-07",
+  "first_published_on": "2026-09-28",
+  "publication_kind": "initial",
+  "verification": "official",
+  "leak_status": "suspected",
+  "impact": [
+    {
+      "count": 124000,
+      "unit": "records",
+      "qualifier": "approximate",
+      "description": "過去の顧客情報"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "電話番号",
+    "料金番号",
+    "ガス使用量",
+    "ガス料金"
+  ],
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。侵入手法の詳細は未公表。",
+    "certainty": "unknown"
+  },
+  "related_vendor": "両毛システムズ",
+  "sources": [
+    {
+      "url": "https://www.daitogas.co.jp/info/170",
+      "type": "official",
+      "title": "システムサービス提供事業者へのサイバー攻撃に伴うお客さま情報流出の可能性について｜大東ガスコーポレート",
+      "published_on": "2026-09-28",
+      "checked_on": "2026-10-07"
+    }
+  ],
+  "notes": "",
+  "updates": []
+}

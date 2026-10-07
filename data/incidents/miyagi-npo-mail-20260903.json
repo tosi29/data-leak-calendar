@@ -1,0 +1,45 @@
+{
+  "id": "miyagi-npo-mail-20260903",
+  "organization": {
+    "name": "宮城県民間非営利活動プラザ",
+    "sector": "自治体"
+  },
+  "title": "指定管理者が講座案内メールをTOで一斉送信",
+  "summary": "指定管理者が過去の講座参加団体等80者に案内を送り、メールアドレスが相互閲覧可能となった。",
+  "published_on": "2026-09-03",
+  "occurred_on": "2026-09-02",
+  "detected_on": null,
+  "updated_on": "2026-10-07",
+  "first_published_on": "2026-09-03",
+  "publication_kind": "initial",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "impact": [
+    {
+      "count": 80,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "関係団体等のメールアドレス"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "cause": {
+    "category": "misdelivery",
+    "detail": "BCCで送るべき宛先をTO欄に入力した。",
+    "certainty": "confirmed"
+  },
+  "related_vendor": "杜の伝言板ゆるる",
+  "sources": [
+    {
+      "url": "https://www.pref.miyagi.jp/soshiki/kyosha/press260903.html",
+      "type": "official",
+      "title": "指定管理者による個人情報等の漏えいについて - 宮城県公式ウェブサイト",
+      "published_on": "2026-09-03",
+      "checked_on": "2026-10-07"
+    }
+  ],
+  "notes": "",
+  "updates": []
+}

@@ -1,0 +1,45 @@
+{
+  "id": "keihin-port-mail-20260911",
+  "organization": {
+    "name": "国土交通省関東地方整備局京浜港湾事務所",
+    "sector": "国・公的機関"
+  },
+  "title": "港湾保安対策訓練のメールをCCで誤送信",
+  "summary": "訓練参加者に送ったメールの宛先設定を誤り、他の参加者のメールアドレスが閲覧可能になった。",
+  "published_on": "2026-09-11",
+  "occurred_on": "2026-09-04",
+  "detected_on": null,
+  "updated_on": "2026-10-07",
+  "first_published_on": "2026-09-11",
+  "publication_kind": "initial",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "対象規模は確認した資料に記載なし・調査中"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "cause": {
+    "category": "misdelivery",
+    "detail": "BCCで送るべきメールをCCで送信。",
+    "certainty": "confirmed"
+  },
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.ktr.mlit.go.jp/kisha/kisha_03694.pdf",
+      "type": "official",
+      "title": "メール誤送信による個人情報の漏えいについて",
+      "published_on": "2026-09-11",
+      "checked_on": "2026-10-07"
+    }
+  ],
+  "notes": "",
+  "updates": []
+}

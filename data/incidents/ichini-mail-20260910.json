@@ -1,0 +1,45 @@
+{
+  "id": "ichini-mail-20260910",
+  "organization": {
+    "name": "イチニ（選挙ドットコム）",
+    "sector": "企業・団体"
+  },
+  "title": "打ち合わせ案内メールの宛先を誤設定",
+  "summary": "案内メールをBCCではなく宛先欄に入力して送信し、339件のメールアドレスが漏えいした。",
+  "published_on": "2026-09-10",
+  "occurred_on": "2026-09-06",
+  "detected_on": null,
+  "updated_on": "2026-10-07",
+  "first_published_on": "2026-09-10",
+  "publication_kind": "initial",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "impact": [
+    {
+      "count": 339,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "メールアドレス"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "cause": {
+    "category": "misdelivery",
+    "detail": "一斉メールでBCCではなく宛先欄を使用。",
+    "certainty": "confirmed"
+  },
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://ichi-ni.jp/info/2026091002/",
+      "type": "official",
+      "title": "【重要・お詫び】電子メール誤送信によるメールアドレス漏えいについて - イチニ株式会社のコーポレートサイト。日本をよくする人を前へ。",
+      "published_on": "2026-09-10",
+      "checked_on": "2026-10-07"
+    }
+  ],
+  "notes": "",
+  "updates": []
+}

@@ -1,0 +1,47 @@
+{
+  "id": "sankei-respection-20260911",
+  "organization": {
+    "name": "産経新聞社（RESPECTion!推進委員会事務局）",
+    "sector": "企業・団体"
+  },
+  "title": "シンポジウムの申込フォームで回答が閲覧可能に",
+  "summary": "回答概要の表示機能が有効になり、申込者149人の氏名やメールアドレスなどが外部閲覧可能となった。",
+  "published_on": "2026-09-11",
+  "occurred_on": "2026-08-24",
+  "detected_on": null,
+  "updated_on": "2026-10-07",
+  "first_published_on": "2026-09-11",
+  "publication_kind": "initial",
+  "verification": "official",
+  "leak_status": "exposed",
+  "impact": [
+    {
+      "count": 149,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "対象者数"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "メールアドレス",
+    "出演者への質問"
+  ],
+  "cause": {
+    "category": "configuration",
+    "detail": "申込フォームの回答サマリー表示を有効にしていた。",
+    "certainty": "confirmed"
+  },
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://x.gd/4XUjX",
+      "type": "official",
+      "title": "RESPECTion!シンポジウム参加申込フォームにおける個人情報閲覧可能状態に関するお詫びとご報告",
+      "published_on": "2026-09-11",
+      "checked_on": "2026-10-07"
+    }
+  ],
+  "notes": "項目別の一覧であり、同一人物の氏名とアドレスが紐付いた名簿形式ではない。9月10日に修正。",
+  "updates": []
+}

@@ -1,0 +1,45 @@
+{
+  "id": "edogawa-mail-20260924",
+  "organization": {
+    "name": "江戸川区",
+    "sector": "自治体"
+  },
+  "title": "採用内定者への案内メールを誤送信",
+  "summary": "内定式の案内で内定者96人のメールアドレスをBCCではなく宛先欄に表示して送信した。",
+  "published_on": "2026-09-24",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-07",
+  "first_published_on": "2026-09-24",
+  "publication_kind": "initial",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "impact": [
+    {
+      "count": 96,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "対象者数"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "cause": {
+    "category": "misdelivery",
+    "detail": "一斉メールの宛先をBCCではなくTO欄に入力。",
+    "certainty": "confirmed"
+  },
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.city.edogawa.tokyo.jp/e004/kuseijoho/kohokocho/press/2026/09/0924.html",
+      "type": "official",
+      "title": "2026年9月24日 メール誤送信による個人情報の流出　江戸川区ホームページ",
+      "published_on": "2026-09-24",
+      "checked_on": "2026-10-07"
+    }
+  ],
+  "notes": "",
+  "updates": []
+}
