@@ -1,0 +1,60 @@
+{
+  "id": "rakuten-drive-20261006",
+  "organization": {
+    "name": "楽天グループ株式会社",
+    "sector": "IT・インターネット"
+  },
+  "title": "楽天ドライブの保存データ・アカウント情報への不正アクセス",
+  "published_on": "2026-10-06",
+  "occurred_on": "2026-01-29",
+  "detected_on": null,
+  "updated_on": "2026-10-07",
+  "leak_status": "confirmed",
+  "summary": "管理用アカウントの認証情報が不正取得され、保存データと一部アカウント情報が閲覧・取得された。",
+  "impact": [
+    {
+      "count": 15382,
+      "unit": "accounts",
+      "qualifier": "exact",
+      "description": "写真・文書等の保存データ"
+    },
+    {
+      "count": 687,
+      "unit": "accounts",
+      "qualifier": "exact",
+      "description": "アカウント名・表示名・プロフィール画像URL"
+    },
+    {
+      "count": 313,
+      "unit": "accounts",
+      "qualifier": "exact",
+      "description": "パスワード関連情報等"
+    }
+  ],
+  "data_types": [
+    "保存データ",
+    "アカウント名",
+    "プロフィール画像URL",
+    "パスワード関連情報"
+  ],
+  "cause": {
+    "category": "credentials",
+    "detail": "第三者がシステム管理用アカウントの認証情報を不正に取得してアクセス。",
+    "certainty": "confirmed"
+  },
+  "sources": [
+    {
+      "url": "https://support.rakuten-drive.com/hc/ja/articles/62934949147929",
+      "type": "official",
+      "title": "楽天ドライブにおける不正アクセスの発生について",
+      "published_on": "2026-10-06",
+      "checked_on": "2026-10-07"
+    }
+  ],
+  "notes": "保存データの対象期間は1月29日〜9月17日。その他2区分は8月27日。各区分の重複は不明で、合算しない。",
+  "updates": [],
+  "first_published_on": "2026-10-06",
+  "publication_kind": "initial",
+  "verification": "official",
+  "related_vendor": null
+}

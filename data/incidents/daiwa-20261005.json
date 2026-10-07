@@ -1,0 +1,54 @@
+{
+  "id": "daiwa-20261005",
+  "organization": {
+    "name": "大和証券株式会社",
+    "sector": "金融"
+  },
+  "title": "問い合わせ情報の委託先で不正アクセス",
+  "published_on": "2026-10-05",
+  "occurred_on": "2026-10-02",
+  "detected_on": "2026-10-03",
+  "updated_on": "2026-10-07",
+  "leak_status": "suspected",
+  "summary": "問い合わせ管理サービスの委託先から不正取得の形跡が報告され、顧客情報が漏えいした可能性を公表。",
+  "impact": [
+    {
+      "count": 110000,
+      "unit": "people",
+      "qualifier": "approximate",
+      "description": "氏名・メールアドレス・口座番号等を含む顧客情報"
+    },
+    {
+      "count": 220000,
+      "unit": "records",
+      "qualifier": "approximate",
+      "description": "個人を特定できない問い合わせも含む情報全体"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "メールアドレス",
+    "口座番号",
+    "問い合わせ内容"
+  ],
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "スカラコミュニケーションズのサーバーへの不正アクセス。",
+    "certainty": "unknown"
+  },
+  "sources": [
+    {
+      "url": "https://ssl4.eir-parts.net/doc/8601/tdnet/2891437/00.pdf",
+      "type": "official",
+      "title": "外部委託先への不正アクセスによる情報漏洩の可能性（PDF）",
+      "published_on": "2026-10-05",
+      "checked_on": "2026-10-07"
+    }
+  ],
+  "notes": "約11万人と約22万件は異なる尺度であり合算しない。自社システムへの不正アクセスは確認されていない。",
+  "updates": [],
+  "first_published_on": "2026-10-05",
+  "publication_kind": "initial",
+  "verification": "official",
+  "related_vendor": "スカラコミュニケーションズ"
+}

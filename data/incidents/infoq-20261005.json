@@ -1,0 +1,51 @@
+{
+  "id": "infoq-20261005",
+  "organization": {
+    "name": "GMOリサーチ＆AI株式会社",
+    "sector": "IT・インターネット"
+  },
+  "title": "infoQの会員情報流出とポイント不正交換",
+  "published_on": "2026-10-05",
+  "occurred_on": "2026-10-02",
+  "detected_on": "2026-10-03",
+  "updated_on": "2026-10-07",
+  "leak_status": "confirmed",
+  "summary": "会員情報が外部に持ち出されたことと、ポイントの不正交換を確認。保有する全個人情報を最大の対象件数として公表。",
+  "impact": [
+    {
+      "count": 948498,
+      "unit": "records",
+      "qualifier": "maximum",
+      "description": "10月5日時点で保有する個人情報全件"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "電話番号",
+    "メールアドレス",
+    "生年月日",
+    "暗号化されたパスワード",
+    "会員情報"
+  ],
+  "cause": {
+    "category": "vulnerability",
+    "detail": "サイトで使用していたソフトウェアの脆弱性を悪用した侵入。",
+    "certainty": "confirmed"
+  },
+  "sources": [
+    {
+      "url": "https://gmo-research.ai/pressroom/notice/notice-20261005",
+      "type": "official",
+      "title": "infoQへの不正アクセスによる個人情報漏えいのお知らせ",
+      "published_on": "2026-10-05",
+      "checked_on": "2026-10-07"
+    }
+  ],
+  "notes": "不正なポイント交換611件を確認。最大件数は流出が個別に確定した件数とは区別する。",
+  "updates": [],
+  "first_published_on": "2026-10-05",
+  "publication_kind": "initial",
+  "verification": "official",
+  "related_vendor": null
+}

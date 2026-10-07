@@ -1,0 +1,62 @@
+{
+  "id": "yoshinoya-hanamaru-20260930",
+  "organization": {
+    "name": "吉野家・はなまる",
+    "sector": "飲食"
+  },
+  "title": "ApplyNow経由の応募者・採用担当者情報漏えい",
+  "published_on": "2026-09-30",
+  "occurred_on": "2026-08-09",
+  "detected_on": "2026-09-16",
+  "updated_on": "2026-10-07",
+  "leak_status": "confirmed",
+  "summary": "過去に利用した採用管理プラットフォームで不正アクセスがあり、応募者と採用担当者の情報が流出。",
+  "impact": [
+    {
+      "count": 4998,
+      "unit": "accounts",
+      "qualifier": "exact",
+      "description": "吉野家への応募者情報"
+    },
+    {
+      "count": 368,
+      "unit": "accounts",
+      "qualifier": "exact",
+      "description": "はなまるへの応募者情報"
+    },
+    {
+      "count": 418,
+      "unit": "accounts",
+      "qualifier": "exact",
+      "description": "グループの採用担当者情報"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "メールアドレス",
+    "電話番号",
+    "生年月日",
+    "住所",
+    "暗号化されたパスワード"
+  ],
+  "cause": {
+    "category": "vulnerability",
+    "detail": "委託先ApplyNowのデータ分析ツールの脆弱性を悪用した不正アクセス。",
+    "certainty": "confirmed"
+  },
+  "sources": [
+    {
+      "url": "https://www.yoshinoya.com/wp-content/uploads/2026/09/30185541/news_2026093004.pdf",
+      "type": "official",
+      "title": "ApplyNow採用管理プラットフォームへの不正アクセス（PDF）",
+      "published_on": "2026-09-30",
+      "checked_on": "2026-10-07"
+    }
+  ],
+  "notes": "対象データ件数はアカウント数で、重複を含み人数とは一致しない。契約終了後に残存していた情報が対象。",
+  "updates": [],
+  "first_published_on": "2026-09-30",
+  "publication_kind": "initial",
+  "verification": "official",
+  "related_vendor": "ApplyNow"
+}

@@ -1,0 +1,57 @@
+{
+  "id": "murauchi-20260915",
+  "organization": {
+    "name": "株式会社ムラウチドットコム",
+    "sector": "小売"
+  },
+  "title": "顧客情報流出の調査結果（第二報）",
+  "published_on": "2026-09-15",
+  "occurred_on": null,
+  "detected_on": "2026-07-16",
+  "updated_on": "2026-10-07",
+  "leak_status": "confirmed",
+  "summary": "7月に発覚した不正アクセスについて、調査で顧客情報の外部持ち出しを確認し、対象件数を公表。",
+  "impact": [
+    {
+      "count": 7716811,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "漏えい対象情報。公表原文の単位は件"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "電話番号",
+    "メールアドレス",
+    "生年月日",
+    "性別"
+  ],
+  "cause": {
+    "category": "vulnerability",
+    "detail": "Webシステムの脆弱性を起点に複数のシステムへ不正アクセスされた。",
+    "certainty": "confirmed"
+  },
+  "sources": [
+    {
+      "url": "https://murauchi.com/static-pages/privacy/pressrelease.html",
+      "type": "official",
+      "title": "不正アクセスによるお客様情報漏えいに関する報告",
+      "published_on": "2026-09-15",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "url": "https://murauchi.com/static-pages/privacy/弊社における不正アクセスによるお客様情報漏えいに関するお詫びとご報告（第二報）.pdf",
+      "type": "official",
+      "title": "調査結果・対象件数・原因（第二報PDF）",
+      "published_on": "2026-09-15",
+      "checked_on": "2026-10-07"
+    }
+  ],
+  "notes": "初報は7月24日。7月15日の障害発生と、翌16日の不正アクセスの痕跡確認を区別。",
+  "updates": [],
+  "first_published_on": "2026-07-24",
+  "publication_kind": "followup",
+  "verification": "official",
+  "related_vendor": null
+}

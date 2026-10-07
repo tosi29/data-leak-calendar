@@ -1,0 +1,48 @@
+{
+  "id": "yakiniku-king-20261005",
+  "organization": {
+    "name": "株式会社物語コーポレーション",
+    "sector": "飲食"
+  },
+  "title": "焼肉きんぐ公式アプリの会員情報漏えい",
+  "published_on": "2026-10-05",
+  "occurred_on": null,
+  "detected_on": "2026-10-02",
+  "updated_on": "2026-10-07",
+  "leak_status": "confirmed",
+  "summary": "公式アプリの会員管理システムに不正アクセスがあり、登録会員情報の漏えいを確認。",
+  "impact": [
+    {
+      "count": 10788963,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "流出した会員情報"
+    }
+  ],
+  "data_types": [
+    "会員番号",
+    "氏名（アプリ登録名）",
+    "メールアドレス",
+    "電話番号"
+  ],
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。アクセスが可能になった経緯を調査中。",
+    "certainty": "unknown"
+  },
+  "sources": [
+    {
+      "url": "https://fs2.magicalir.net/tdnet/2026/3097/20261005546223.pdf",
+      "type": "official",
+      "title": "焼肉きんぐ公式アプリ会員管理システムへの不正アクセス（PDF）",
+      "published_on": "2026-10-05",
+      "checked_on": "2026-10-07"
+    }
+  ],
+  "notes": "漏えいは10月3日に確認。パスワード、生年月日、店舗利用履歴等は流出していないと発表。",
+  "updates": [],
+  "first_published_on": "2026-10-05",
+  "publication_kind": "initial",
+  "verification": "official",
+  "related_vendor": null
+}
