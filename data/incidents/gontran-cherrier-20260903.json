@@ -1,0 +1,47 @@
+{
+  "id": "gontran-cherrier-20260903",
+  "organization": {
+    "name": "名鉄協商（ゴントランシェリエ）",
+    "sector": "企業・団体"
+  },
+  "title": "オンラインストアの配送先情報が漏えいしたおそれ",
+  "summary": "サーバーへの不正アクセスの調査で、注文者や配送先の顧客情報が漏えいした可能性を否定できないと公表。",
+  "published_on": "2026-09-03",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-07",
+  "first_published_on": "2026-07-02",
+  "publication_kind": "followup",
+  "verification": "official",
+  "leak_status": "suspected",
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "対象規模は確認した資料に記載なし・調査中"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "電話番号"
+  ],
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。侵入手法の詳細は未公表。",
+    "certainty": "unknown"
+  },
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://gontrancherrier.jp/blogs/news/0903",
+      "type": "official",
+      "title": "不正アクセスによる個人情報漏えいのおそれに関するお詫びとお知らせ\n – ゴントラン シェリエ ジャポン",
+      "published_on": "2026-09-03",
+      "checked_on": "2026-10-07"
+    }
+  ],
+  "notes": "9月3日は個別通知を補完する公表。実際の外部流出は未確認。",
+  "updates": []
+}

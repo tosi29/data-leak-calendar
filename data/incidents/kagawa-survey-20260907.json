@@ -1,0 +1,48 @@
+{
+  "id": "kagawa-survey-20260907",
+  "organization": {
+    "name": "香川県",
+    "sector": "自治体"
+  },
+  "title": "毎月勤労統計調査の記入済み調査票を紛失",
+  "summary": "統計調査員が自宅で保管していた1事業所分の調査票を紛失。労働者の氏名または符号、給与などが記載されていた。",
+  "published_on": "2026-09-07",
+  "occurred_on": null,
+  "detected_on": "2026-08-25",
+  "updated_on": "2026-10-07",
+  "first_published_on": "2026-09-07",
+  "publication_kind": "initial",
+  "verification": "official",
+  "leak_status": "lost",
+  "impact": [
+    {
+      "count": 1,
+      "unit": "organizations",
+      "qualifier": "exact",
+      "description": "紛失した調査票の対象事業所。人数は非公表"
+    }
+  ],
+  "data_types": [
+    "氏名または符号",
+    "年齢",
+    "給与",
+    "労働時間"
+  ],
+  "cause": {
+    "category": "loss",
+    "detail": "統計調査員が自宅で保管していた調査票を紛失。",
+    "certainty": "confirmed"
+  },
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.pref.kagawa.lg.jp/tokei/rodo/maikin/maikin202608.html",
+      "type": "official",
+      "title": "毎月勤労統計調査（特別調査）に関する調査票の紛失について｜香川県",
+      "published_on": "2026-09-07",
+      "checked_on": "2026-10-07"
+    }
+  ],
+  "notes": "調査員は8月25日に気付き、県は8月26日に確認。",
+  "updates": []
+}

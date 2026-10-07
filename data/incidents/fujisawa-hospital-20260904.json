@@ -1,0 +1,48 @@
+{
+  "id": "fujisawa-hospital-20260904",
+  "organization": {
+    "name": "藤沢市民病院",
+    "sector": "医療機関"
+  },
+  "title": "入院患者15人の情報を別患者に誤交付",
+  "summary": "入院患者の氏名や病状が記された書類を、別の患者1人に誤って渡した。",
+  "published_on": "2026-09-04",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-07",
+  "first_published_on": "2026-09-04",
+  "publication_kind": "initial",
+  "verification": "secondary",
+  "leak_status": "confirmed",
+  "impact": [
+    {
+      "count": 15,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "対象者数"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "年齢",
+    "病名",
+    "病状"
+  ],
+  "cause": {
+    "category": "misdelivery",
+    "detail": "別の入院患者に書類を誤交付。",
+    "certainty": "confirmed"
+  },
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.kanaloco.jp/news/government/article-1302157.html",
+      "type": "news",
+      "title": "藤沢市民病院、誤って患者に個人情報渡す 入院１５人分の氏名や年齢、病名 | カナロコ by 神奈川新聞",
+      "published_on": "2026-09-05",
+      "checked_on": "2026-10-07"
+    }
+  ],
+  "notes": "",
+  "updates": []
+}

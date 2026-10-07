@@ -1,0 +1,48 @@
+{
+  "id": "kawasaki-medical-documents-20260903",
+  "organization": {
+    "name": "川崎市",
+    "sector": "自治体"
+  },
+  "title": "公害医療の診療報酬審査書類を紛失",
+  "summary": "医療機関から郵送された患者2人の診療報酬審査書類の紛失を公表。",
+  "published_on": "2026-09-03",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-07",
+  "first_published_on": "2026-09-03",
+  "publication_kind": "initial",
+  "verification": "secondary",
+  "leak_status": "lost",
+  "impact": [
+    {
+      "count": 2,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "対象者数"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "生年月日",
+    "性別",
+    "公害医療手帳の記号番号"
+  ],
+  "cause": {
+    "category": "loss",
+    "detail": "郵送された診療報酬審査書類の紛失。紛失経緯の詳細は未確認。",
+    "certainty": "unknown"
+  },
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.kanaloco.jp/news/government/article-1301929.html",
+      "type": "news",
+      "title": "川崎市が個人情報含む書類紛失 医療機関から郵送、患者２人分 | カナロコ by 神奈川新聞",
+      "published_on": "2026-09-04",
+      "checked_on": "2026-10-07"
+    }
+  ],
+  "notes": "",
+  "updates": []
+}

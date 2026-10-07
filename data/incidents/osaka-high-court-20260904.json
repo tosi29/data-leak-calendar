@@ -1,0 +1,59 @@
+{
+  "id": "osaka-high-court-20260904",
+  "organization": {
+    "name": "大阪高等裁判所",
+    "sector": "国・公的機関"
+  },
+  "title": "Teamsの誤登録で約6,000アカウントの情報が相互閲覧可能に",
+  "summary": "裁判用のチームに無関係な外部利用者と職員を登録し、ユーザー名とメールアドレスが一時的に相互閲覧可能となった。",
+  "published_on": "2026-09-04",
+  "occurred_on": "2026-08-27",
+  "detected_on": "2026-08-27",
+  "updated_on": "2026-10-07",
+  "first_published_on": "2026-09-04",
+  "publication_kind": "initial",
+  "verification": "official",
+  "leak_status": "exposed",
+  "impact": [
+    {
+      "count": 3500,
+      "unit": "accounts",
+      "qualifier": "approximate",
+      "description": "外部ユーザー"
+    },
+    {
+      "count": 2500,
+      "unit": "accounts",
+      "qualifier": "approximate",
+      "description": "裁判所職員"
+    }
+  ],
+  "data_types": [
+    "ユーザー名",
+    "メールアドレス"
+  ],
+  "cause": {
+    "category": "configuration",
+    "detail": "Teamsのチーム作成時に登録メンバーを誤選択。",
+    "certainty": "confirmed"
+  },
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.courts.go.jp/osaka-h/about/osirase/owabi/index.html",
+      "type": "official",
+      "title": "大阪高等裁判所における特定の事件に係るMicrosoft Teamsのチーム作成の誤りについて（お詫び） | 大阪高等裁判所",
+      "published_on": "2026-09-04",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2026/09/16/56245.html",
+      "type": "news",
+      "title": "大阪高等裁判所で特定の事件に係る Microsoft Teams のチーム作成誤り、招待メール・通知からアクセスした際にユーザー名とメールアドレスが閲覧できる状態に | ScanNetSecurity",
+      "published_on": "2026-09-16",
+      "checked_on": "2026-10-07"
+    }
+  ],
+  "notes": "事件の記録情報はアクセス可能になっていない。",
+  "updates": []
+}

@@ -1,0 +1,49 @@
+{
+  "id": "kwansei-20260901",
+  "organization": {
+    "name": "関西学院大学",
+    "sector": "大学・教育機関"
+  },
+  "title": "外部SNSで学生情報が閲覧可能に",
+  "summary": "非常勤講師が授業で利用した外部SNSの公開範囲を適切に管理せず、学生・卒業生1,448人の情報が外部から閲覧できた。",
+  "published_on": "2026-09-01",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-07",
+  "first_published_on": "2026-09-01",
+  "publication_kind": "initial",
+  "verification": "official",
+  "leak_status": "exposed",
+  "impact": [
+    {
+      "count": 1448,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "対象者数"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "学生番号",
+    "成績評価",
+    "顔写真",
+    "レポート"
+  ],
+  "cause": {
+    "category": "configuration",
+    "detail": "授業用SNSの公開設定・公開範囲の管理不備。",
+    "certainty": "confirmed"
+  },
+  "related_vendor": "hyocom",
+  "sources": [
+    {
+      "url": "https://www.kwansei.ac.jp/news/06656.html",
+      "type": "official",
+      "title": "学生の個人情報が閲覧可能な状態にあったことに関するお詫びとお知らせ｜関西学院大学",
+      "published_on": "2026-09-01",
+      "checked_on": "2026-10-07"
+    }
+  ],
+  "notes": "",
+  "updates": []
+}

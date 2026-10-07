@@ -1,0 +1,67 @@
+{
+  "id": "mitsui-fudosan-20260901",
+  "organization": {
+    "name": "三井不動産",
+    "sector": "企業・団体"
+  },
+  "title": "資格情報の不正利用で連絡先情報が漏えいした可能性",
+  "summary": "グループのシステムが侵害され、役職員と社外関係者の連絡先が閲覧された可能性を公表。9月28日の続報でも外部流出の事実は未確認。",
+  "published_on": "2026-09-01",
+  "occurred_on": null,
+  "detected_on": "2026-08-28",
+  "updated_on": "2026-10-07",
+  "first_published_on": "2026-09-01",
+  "publication_kind": "initial",
+  "verification": "official",
+  "leak_status": "suspected",
+  "impact": [
+    {
+      "count": 19000,
+      "unit": "records",
+      "qualifier": "maximum",
+      "description": "役職員等の情報"
+    },
+    {
+      "count": 36000,
+      "unit": "records",
+      "qualifier": "maximum",
+      "description": "社外関係者の情報"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "メールアドレス",
+    "部署",
+    "役職"
+  ],
+  "cause": {
+    "category": "credentials",
+    "detail": "システムの資格情報を攻撃者が不正利用。",
+    "certainty": "confirmed"
+  },
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.mitsuifudosan.co.jp/letter/260901/download/260901.pdf",
+      "type": "official",
+      "title": "不正アクセスによる情報漏えいの可能性について",
+      "published_on": "2026-09-01",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "url": "https://www.mitsuifudosan.co.jp/letter/260928/download/260928.pdf",
+      "type": "official",
+      "title": "不正アクセスによる情報漏えいの可能性について（第二報）",
+      "published_on": "2026-09-28",
+      "checked_on": "2026-10-07"
+    }
+  ],
+  "notes": "",
+  "updates": [
+    {
+      "date": "2026-09-28",
+      "summary": "詳細調査の結果と再発防止策を公表。最大件数は変更なし。",
+      "source_index": 1
+    }
+  ]
+}

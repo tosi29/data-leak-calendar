@@ -1,0 +1,49 @@
+{
+  "id": "kingjim-20260904",
+  "organization": {
+    "name": "キングジム",
+    "sector": "企業・団体"
+  },
+  "title": "旧通販サイトの顧客情報がショップサーブから流出",
+  "summary": "過去のキングジムストア・オフィスオンライン利用者の情報が、旧EC基盤への不正アクセスで漏えいした。現行サイトは別基盤。",
+  "published_on": "2026-09-04",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-07",
+  "first_published_on": "2026-09-04",
+  "publication_kind": "initial",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "対象規模は確認した資料に記載なし・調査中"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "電話番号",
+    "メールアドレス",
+    "勤務先"
+  ],
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。侵入手法の詳細は未公表。",
+    "certainty": "unknown"
+  },
+  "related_vendor": "ショップサーブ",
+  "sources": [
+    {
+      "url": "https://www.kingjim.co.jp/news/detail/858.html",
+      "type": "official",
+      "title": "Eストアー「ショップサーブ」への不正アクセスによる個人情報漏洩に関するお詫びとお知らせ | ニュース 2026年 | ファイルとテプラのキングジム",
+      "published_on": "2026-09-04",
+      "checked_on": "2026-10-07"
+    }
+  ],
+  "notes": "",
+  "updates": []
+}

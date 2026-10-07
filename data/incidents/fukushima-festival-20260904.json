@@ -1,0 +1,47 @@
+{
+  "id": "fukushima-festival-20260904",
+  "organization": {
+    "name": "福島市",
+    "sector": "自治体"
+  },
+  "title": "文化祭の関係者リストをメールに誤添付",
+  "summary": "学習センター職員が文化祭の連絡で、欄外に個人情報が残った資料を送信。130人の情報が漏えいした可能性がある。",
+  "published_on": "2026-09-04",
+  "occurred_on": "2026-09-02",
+  "detected_on": null,
+  "updated_on": "2026-10-07",
+  "first_published_on": "2026-09-04",
+  "publication_kind": "initial",
+  "verification": "secondary",
+  "leak_status": "suspected",
+  "impact": [
+    {
+      "count": 130,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "対象者数"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "電話番号"
+  ],
+  "cause": {
+    "category": "misdelivery",
+    "detail": "配付用資料の欄外に残っていた個人情報を削除せずメールに添付した。",
+    "certainty": "confirmed"
+  },
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.minyu-net.com/news/detail/2026090507191354436",
+      "type": "news",
+      "title": "福島市が130人分の個人情報漏えい　地区文化祭業務でメール誤送信:福島ニュース:福島民友新聞社",
+      "published_on": "2026-09-05",
+      "checked_on": "2026-10-07"
+    }
+  ],
+  "notes": "82人はメールを閲覧した可能性のある受信者数で、漏えい対象者数には加算しない。",
+  "updates": []
+}

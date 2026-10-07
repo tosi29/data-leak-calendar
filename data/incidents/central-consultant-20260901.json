@@ -1,0 +1,49 @@
+{
+  "id": "central-consultant-20260901",
+  "organization": {
+    "name": "セントラルコンサルタント",
+    "sector": "企業・団体"
+  },
+  "title": "企業サイトの脆弱性悪用でフォーム情報が漏えいした可能性",
+  "summary": "不正な管理者アカウントと外部通信を確認。問い合わせ・採用応募データが閲覧・取得可能だったが、取得された内容は特定できない。",
+  "published_on": "2026-09-01",
+  "occurred_on": "2026-07-18",
+  "detected_on": null,
+  "updated_on": "2026-10-07",
+  "first_published_on": "2026-07-31",
+  "publication_kind": "followup",
+  "verification": "official",
+  "leak_status": "suspected",
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "対象規模は確認した資料に記載なし・調査中"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "電話番号",
+    "メールアドレス",
+    "採用応募情報"
+  ],
+  "cause": {
+    "category": "vulnerability",
+    "detail": "Webシステムの脆弱性を悪用した不正アクセス。",
+    "certainty": "confirmed"
+  },
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://central-con.co.jp/news/%E5%BD%93%E7%A4%BE%E3%82%B3%E3%83%BC%E3%83%9D%E3%83%AC%E3%83%BC%E3%83%88%E3%82%B5%E3%82%A4%E3%83%88%E3%81%B8%E3%81%AE%E4%B8%8D%E6%AD%A3%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E3%81%AB%E9%96%A2%E3%81%99/",
+      "type": "official",
+      "title": "当社コーポレートサイトへの不正アクセスに関する調査結果および対応について - セントラルコンサルタント株式会社",
+      "published_on": "2026-09-01",
+      "checked_on": "2026-10-07"
+    }
+  ],
+  "notes": "不正アクセスは7月18〜30日。9月1日は調査結果の公表日。",
+  "updates": []
+}

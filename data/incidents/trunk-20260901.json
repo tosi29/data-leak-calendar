@@ -1,0 +1,48 @@
+{
+  "id": "trunk-20260901",
+  "organization": {
+    "name": "TRUNK",
+    "sector": "企業・団体"
+  },
+  "title": "従業員メールへの不正アクセスと情報漏えい",
+  "summary": "メールアカウントが侵害され、保有情報の一部流出となりすましメール送信を確認。漏えいした可能性のある情報を424件と公表。",
+  "published_on": "2026-09-01",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-07",
+  "first_published_on": "2026-09-01",
+  "publication_kind": "initial",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "impact": [
+    {
+      "count": 424,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "漏えいした可能性のある情報"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "メールアドレス",
+    "勤務先"
+  ],
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。侵入手法の詳細は未公表。",
+    "certainty": "unknown"
+  },
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.trunk-base.com/company/news/20260901/",
+      "type": "official",
+      "title": "不正アクセスによる個人情報漏えいのお詫びと当社メールアカウントを用いた不審メールへの注意喚起について – NEWS（ニュース） – 株式会社TRUNK（トランク）",
+      "published_on": "2026-09-01",
+      "checked_on": "2026-10-07"
+    }
+  ],
+  "notes": "一部流出の確認と、対象情報424件の全件流出の確定は区別する。",
+  "updates": []
+}

@@ -1,0 +1,45 @@
+{
+  "id": "ihi-kenpo-20260902",
+  "organization": {
+    "name": "IHIグループ健康保険組合",
+    "sector": "企業・団体"
+  },
+  "title": "保健指導委託先が対象者情報を生成AIに入力",
+  "summary": "RIZAP従業員がデータ抽出時に加入者210人の情報を生成AIに参照させた。サービス運営者以外の閲覧や学習利用の可能性はないと説明。",
+  "published_on": "2026-09-02",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-07",
+  "first_published_on": "2026-09-02",
+  "publication_kind": "initial",
+  "verification": "official",
+  "leak_status": "suspected",
+  "impact": [
+    {
+      "count": 210,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "対象者数"
+    }
+  ],
+  "data_types": [
+    "特定保健指導対象者の個人情報"
+  ],
+  "cause": {
+    "category": "improper_sharing",
+    "detail": "委託先従業員が保健指導対象者の個人情報を生成AIに参照させた。",
+    "certainty": "confirmed"
+  },
+  "related_vendor": "RIZAP",
+  "sources": [
+    {
+      "url": "https://www.ihikenpo.or.jp/asp/news/news.asp?articleid=189769&page=1",
+      "type": "official",
+      "title": "NEWS & TOPICS | ＩＨＩグループ健康保険組合",
+      "published_on": "2026-09-02",
+      "checked_on": "2026-10-07"
+    }
+  ],
+  "notes": "公表資料は漏えいのおそれとして扱う。210人の第三者流出確認を意味しない。",
+  "updates": []
+}
