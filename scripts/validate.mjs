@@ -53,4 +53,14 @@ export async function loadData() {
   validate(incidents, meta);
   return { meta, incidents: incidents.sort((a, b) => b.published_on.localeCompare(a.published_on) || a.id.localeCompare(b.id)) };
 }
+export function validateCandidates(candidates, incidents, meta) {
+  const ids = new Set(incidents.map(item => item.id));
+  if (!Array.isArray(candidates)) throw new Error('Candidates must be an array');
+  for (const candidate of candidates) {
+    if (!/^[a-z0-9-]+$/.test(candidate.id) || ids.has(candidate.id)) throw new Error(`Duplicate or invalid candidate: ${candidate.id}`);
+    ids.add(candidate.id);
+    if (!validDate(candidate.reported_on) || candidate.reported_on < meta.coverage_start || candidate.reported_on > meta.as_of) throw new Error(`Invalid candidate date: ${candidate.id}`);
+    if (candidate.verification !== 'pending' || !candidate.organization || !candidate.note || !/^https?:\/\//.test(candidate.reference_url)) throw new Error(`Invalid candidate: ${candidate.id}`);
+  }
+}
 if (process.argv[1] === fileURLToPath(import.meta.url)) console.log(`Validated ${(await loadData()).incidents.length} incidents.`);

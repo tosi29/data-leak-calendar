@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import { dailyCounts, yearCells, filterIncidents, formatImpact } from '../public/model.js';
-import { loadData, validate } from '../scripts/validate.mjs';
+import { loadData, validate, validateCandidates } from '../scripts/validate.mjs';
 const data = await loadData();
 test('calendar respects weekdays, leap days and collection boundaries', () => {
   const cells = yearCells(2026, '2026-09-01', '2026-10-07');
@@ -31,4 +31,12 @@ test('rejects malformed dates, duplicate IDs, missing sources, and unsupported c
     const copy = structuredClone(data.incidents); edit(copy[0]); assert.throws(() => validate(copy,data.meta));
   }
   assert.throws(() => validate([...data.incidents,data.incidents[0]],data.meta));
+});
+test('pending research cannot duplicate published records', () => {
+  const candidate = { id: data.incidents[0].id, reported_on:'2026-10-06', organization:'候補', note:'未検証', reference_url:'https://example.com', verification:'pending' };
+  assert.throws(() => validateCandidates([candidate], data.incidents, data.meta));
+  candidate.id = 'new-candidate';
+  assert.doesNotThrow(() => validateCandidates([candidate], data.incidents, data.meta));
+  candidate.reference_url = 'javascript:alert(1)';
+  assert.throws(() => validateCandidates([candidate], data.incidents, data.meta));
 });

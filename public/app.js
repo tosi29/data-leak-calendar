@@ -87,6 +87,12 @@ try {
   $('heatmap').addEventListener('click',event=>{const button=event.target.closest('[data-date]');if(!button)return;const date=button.dataset.date;selectedDate=selectedDate===date?'':date;render();$('heatmap').querySelector(`[data-date="${date}"]`)?.focus();});
   window.addEventListener('hashchange',openHash);
   render(); openHash();
+  // Start narrow viewports at the collection period rather than January.
+  const firstActive = $('heatmap').querySelector('button:not(:disabled)');
+  const scroller = document.querySelector('.heatmap-scroll');
+  if (firstActive && scroller.scrollWidth > scroller.clientWidth) {
+    scroller.scrollLeft = firstActive.getBoundingClientRect().left - scroller.getBoundingClientRect().left - 38;
+  }
   try {
     const response = await fetch('./data/candidates.json');
     if(!response.ok) throw new Error();

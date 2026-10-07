@@ -1,9 +1,8 @@
 import { cp, mkdir, rm, writeFile, readFile } from 'node:fs/promises';
-import { loadData, root } from './validate.mjs';
+import { loadData, root, validateCandidates } from './validate.mjs';
 const data = await loadData();
 const candidates = JSON.parse(await readFile(`${root}data/candidates.json`, 'utf8'));
-const ids = new Set(data.incidents.map(i => i.id));
-if (candidates.some(c => ids.has(c.id))) throw new Error('Candidate already published');
+validateCandidates(candidates, data.incidents, data.meta);
 await rm(`${root}dist`, { recursive: true, force: true });
 await cp(`${root}public`, `${root}dist`, { recursive: true });
 await mkdir(`${root}dist/data`, { recursive: true });
