@@ -47,5 +47,6 @@
     }
   ],
   "notes": "約1,100件は役職員分、約7,400件は機構外。人数ではなくメールアドレス件数。",
-  "updates": []
+  "updates": [],
+  "incident_type": "attack"
 }

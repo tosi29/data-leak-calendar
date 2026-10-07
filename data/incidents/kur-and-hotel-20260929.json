@@ -41,5 +41,6 @@
     }
   ],
   "notes": "委託先の共通事案。独立した攻撃回数としては数えない。",
-  "updates": []
+  "updates": [],
+  "incident_type": "attack"
 }

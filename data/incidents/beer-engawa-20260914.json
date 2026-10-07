@@ -46,5 +46,6 @@
     }
   ],
   "notes": "対象9人のうち決済完了は4人。その他の影響範囲は調査を継続。",
-  "updates": []
+  "updates": [],
+  "incident_type": "attack"
 }

@@ -44,5 +44,6 @@
   "first_published_on": "2026-10-05",
   "publication_kind": "initial",
   "verification": "official",
-  "related_vendor": null
+  "related_vendor": null,
+  "incident_type": "attack"
 }

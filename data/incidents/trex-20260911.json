@@ -48,5 +48,6 @@
     }
   ],
   "notes": "公表時点では外部流出は確認されていない。",
-  "updates": []
+  "updates": [],
+  "incident_type": "attack"
 }

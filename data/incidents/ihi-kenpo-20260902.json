@@ -41,5 +41,6 @@
     }
   ],
   "notes": "公表資料は漏えいのおそれとして扱う。210人の第三者流出確認を意味しない。",
-  "updates": []
+  "updates": [],
+  "incident_type": "improper_handling"
 }

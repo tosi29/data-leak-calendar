@@ -47,5 +47,6 @@
   "first_published_on": "2026-09-09",
   "publication_kind": "initial",
   "verification": "official",
-  "related_vendor": "ApplyNow"
+  "related_vendor": "ApplyNow",
+  "incident_type": "attack"
 }

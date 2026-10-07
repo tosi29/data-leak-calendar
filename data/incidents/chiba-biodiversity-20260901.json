@@ -45,5 +45,6 @@
     }
   ],
   "notes": "約1,500人は氏名・ニックネームのみ。登録項目は団員ごとに異なる。",
-  "updates": []
+  "updates": [],
+  "incident_type": "attack"
 }

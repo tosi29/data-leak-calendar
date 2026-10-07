@@ -43,5 +43,6 @@
     }
   ],
   "notes": "約9,000件は不正送信数であり、漏えい人数ではない。同日公表のGoogle Workspace事案とは別記録。",
-  "updates": []
+  "updates": [],
+  "incident_type": "attack"
 }

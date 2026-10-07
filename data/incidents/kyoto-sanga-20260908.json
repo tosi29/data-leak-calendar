@@ -46,5 +46,6 @@
     }
   ],
   "notes": "取引先でメール・添付ファイルの完全削除を確認。",
-  "updates": []
+  "updates": [],
+  "incident_type": "accident"
 }

@@ -44,5 +44,6 @@
     }
   ],
   "notes": "公式ページは本文が画像のため、本文を確認できたITmediaの報道に基づく。8月初報の調査結果。",
-  "updates": []
+  "updates": [],
+  "incident_type": "attack"
 }

@@ -56,5 +56,6 @@
       "summary": "調査によりメールアドレスは閲覧対象外と訂正。",
       "source_index": 1
     }
-  ]
+  ],
+  "incident_type": "accident"
 }

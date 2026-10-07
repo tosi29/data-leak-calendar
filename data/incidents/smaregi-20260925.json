@@ -45,5 +45,6 @@
     }
   ],
   "notes": "人数・個人データの件数は未公表。4は利用企業数。",
-  "updates": []
+  "updates": [],
+  "incident_type": "attack"
 }

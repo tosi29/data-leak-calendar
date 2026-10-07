@@ -60,5 +60,6 @@
       "summary": "退職者への通知に関する公表で対象情報を案内。",
       "source_index": 1
     }
-  ]
+  ],
+  "incident_type": "attack"
 }

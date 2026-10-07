@@ -43,5 +43,6 @@
     }
   ],
   "notes": "項目別の一覧であり、同一人物の氏名とアドレスが紐付いた名簿形式ではない。9月10日に修正。",
-  "updates": []
+  "updates": [],
+  "incident_type": "accident"
 }

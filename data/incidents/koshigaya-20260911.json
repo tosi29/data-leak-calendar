@@ -44,5 +44,6 @@
     }
   ],
   "notes": "市の9月11日公表を9月15日の地域報道で確認。外部流出は確認されていない。",
-  "updates": []
+  "updates": [],
+  "incident_type": "attack"
 }

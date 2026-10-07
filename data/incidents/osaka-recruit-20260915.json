@@ -43,5 +43,6 @@
     }
   ],
   "notes": "公表本文に事業者名が記載されていないため、関連ベンダーは推定しない。",
-  "updates": []
+  "updates": [],
+  "incident_type": "attack"
 }

@@ -46,5 +46,6 @@
     }
   ],
   "notes": "10月6日追記で端末別の任意登録項目を説明。すべての人に全項目があるわけではない。",
-  "updates": []
+  "updates": [],
+  "incident_type": "attack"
 }

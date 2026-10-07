@@ -41,5 +41,6 @@
     }
   ],
   "notes": "メールアドレス一覧が新たに流出したという公表ではない。",
-  "updates": []
+  "updates": [],
+  "incident_type": "attack"
 }

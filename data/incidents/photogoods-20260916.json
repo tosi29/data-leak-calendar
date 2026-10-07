@@ -46,5 +46,6 @@
     }
   ],
   "notes": "不正プログラムの設置期間は8月6日～9月11日。",
-  "updates": []
+  "updates": [],
+  "incident_type": "attack"
 }

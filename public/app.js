@@ -1,10 +1,10 @@
-import { leakLabels, causeLabels, formatImpact, filterIncidents, dailyCounts, yearCells } from './model.js';
+import { leakLabels, causeLabels, incidentTypeLabels, formatImpact, filterIncidents, dailyCounts, yearCells } from './model.js';
 const $ = id => document.getElementById(id);
 const escape = value => String(value ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const dateLabel = date => date ? date.replaceAll('-', '.') : '不明・未公表';
 const kindLabel = {initial:'初報',followup:'期間内の続報',unknown:'初報日未確認'};
 const shortStatus = {confirmed:'漏えい・取得を確認',suspected:'漏えいの可能性',exposed:'外部から閲覧可能',lost:'紛失',ruled_out:'漏えいを否定',improper_sharing:'同意のない第三者提供'};
-const fields = ['query','month','status','cause','vendor'];
+const fields = ['query','incident_type','month','status','cause','vendor'];
 let data, candidates = [], selectedDate = '';
 function options(id, entries) {
   for (const [value, label] of entries) { const option = document.createElement('option'); option.value = value; option.textContent = label; $(id).append(option); }
@@ -15,7 +15,7 @@ function sourceLink(source) {
 }
 function incidentHTML(item) {
   const impact = item.impact.map(v => `<p><strong>${formatImpact(v)}</strong> — ${escape(v.description)}</p>`).join('');
-  return `<details class="incident" id="${escape(item.id)}"><summary><span class="date">${dateLabel(item.published_on)}${item.publication_kind !== 'initial' ? `<small>${kindLabel[item.publication_kind]}</small>` : ''}</span><span class="identity"><span class="org">${escape(item.organization.name)}</span><span class="title">${escape(item.title)}</span></span><span class="impact-number">${formatImpact(item.impact[0])}${item.impact.length > 1 ? `<span class="impact-more">ほか ${item.impact.length-1} 区分・内訳あり</span>` : ''}</span><span class="status-cell"><span class="badge ${item.leak_status}">${shortStatus[item.leak_status]}</span></span><span class="chevron" aria-hidden="true">›</span></summary><div class="detail"><p>${escape(item.summary)}</p><dl class="detail-grid"><div><dt>対象規模（合算しません）</dt><dd>${impact}</dd></div><div><dt>情報の種類</dt><dd>${escape(item.data_types.join('、') || '公表資料に記載なし')}</dd></div><div><dt>原因 · ${escape(causeLabels[item.cause.category])}</dt><dd>${escape(item.cause.detail)}<p class="source-meta">原因の詳細：${{confirmed:'公表資料で確認',suspected:'可能性として公表',unknown:'不明・調査中'}[item.cause.certainty]}</p></dd></div><div><dt>関連ベンダー・サービス</dt><dd>${escape(item.related_vendor || '関連の記載なし')}<p class="source-meta">業種：${escape(item.organization.sector)}</p></dd></div><div><dt>初報日 / 掲載公表日</dt><dd>${dateLabel(item.first_published_on)} / ${dateLabel(item.published_on)}</dd></div><div><dt>発生日 / 発覚日</dt><dd>${dateLabel(item.occurred_on)} / ${dateLabel(item.detected_on)}</dd></div></dl>${item.notes ? `<p class="detail-note">${escape(item.notes)}</p>` : ''}<h3>出典 <span class="source-meta">${item.verification === 'official' ? '公式資料の本文を確認' : '報道・二次資料を確認'}</span></h3><ul>${item.sources.map(s => `<li>${sourceLink(s)}</li>`).join('')}</ul>${item.updates.length ? `<h3>続報・更新</h3><ul>${item.updates.map(u => `<li>${dateLabel(u.date)} — ${escape(u.summary)} <a href="${escape(item.sources[u.source_index].url)}" target="_blank" rel="noopener noreferrer">出典 ↗</a></li>`).join('')}</ul>` : ''}<p class="source-meta">データ更新：${dateLabel(item.updated_on)}</p><a class="permalink" href="#${escape(item.id)}">この事案へのリンク ↗</a></div></details>`;
+  return `<details class="incident" id="${escape(item.id)}"><summary><span class="date">${dateLabel(item.published_on)}${item.publication_kind !== 'initial' ? `<small>${kindLabel[item.publication_kind]}</small>` : ''}</span><span class="identity"><span class="org">${escape(item.organization.name)}</span><span class="title">${escape(item.title)}</span><span class="incident-type">${escape(incidentTypeLabels[item.incident_type])}</span></span><span class="impact-number">${formatImpact(item.impact[0])}${item.impact.length > 1 ? `<span class="impact-more">ほか ${item.impact.length-1} 区分・内訳あり</span>` : ''}</span><span class="status-cell"><span class="badge ${item.leak_status}">${shortStatus[item.leak_status]}</span></span><span class="chevron" aria-hidden="true">›</span></summary><div class="detail"><p>${escape(item.summary)}</p><dl class="detail-grid"><div><dt>事案の種別</dt><dd>${escape(incidentTypeLabels[item.incident_type])}<p class="source-meta">漏えいの確認状況とは別の分類です。</p></dd></div><div><dt>対象規模（合算しません）</dt><dd>${impact}</dd></div><div><dt>情報の種類</dt><dd>${escape(item.data_types.join('、') || '公表資料に記載なし')}</dd></div><div><dt>原因 · ${escape(causeLabels[item.cause.category])}</dt><dd>${escape(item.cause.detail)}<p class="source-meta">原因の詳細：${{confirmed:'公表資料で確認',suspected:'可能性として公表',unknown:'不明・調査中'}[item.cause.certainty]}</p></dd></div><div><dt>関連ベンダー・サービス</dt><dd>${escape(item.related_vendor || '関連の記載なし')}<p class="source-meta">業種：${escape(item.organization.sector)}</p></dd></div><div><dt>初報日 / 掲載公表日</dt><dd>${dateLabel(item.first_published_on)} / ${dateLabel(item.published_on)}</dd></div><div><dt>発生日 / 発覚日</dt><dd>${dateLabel(item.occurred_on)} / ${dateLabel(item.detected_on)}</dd></div></dl>${item.notes ? `<p class="detail-note">${escape(item.notes)}</p>` : ''}<h3>出典 <span class="source-meta">${item.verification === 'official' ? '公式資料の本文を確認' : '報道・二次資料を確認'}</span></h3><ul>${item.sources.map(s => `<li>${sourceLink(s)}</li>`).join('')}</ul>${item.updates.length ? `<h3>続報・更新</h3><ul>${item.updates.map(u => `<li>${dateLabel(u.date)} — ${escape(u.summary)} <a href="${escape(item.sources[u.source_index].url)}" target="_blank" rel="noopener noreferrer">出典 ↗</a></li>`).join('')}</ul>` : ''}<p class="source-meta">データ更新：${dateLabel(item.updated_on)}</p><a class="permalink" href="#${escape(item.id)}">この事案へのリンク ↗</a></div></details>`;
 }
 function renderCalendar(items) {
   const year = Number($('year').value);
@@ -43,6 +43,7 @@ function render() {
   const base = filterIncidents(data.incidents,filters());
   const results = selectedDate ? base.filter(i => i.published_on === selectedDate) : base;
   renderCalendar(base);
+  $('type-breakdown').textContent = '表示中の内訳：' + Object.entries(incidentTypeLabels).map(([key, label]) => `${label} ${results.filter(i => i.incident_type === key).length}件`).join(' ／ ');
   $('incident-list').innerHTML = results.map(incidentHTML).join('');
   $('result-count').textContent = `${results.length} / ${data.incidents.length}`;
   $('filter-summary').textContent = `${selectedDate ? dateLabel(selectedDate)+' の公表 · ' : ''}${results.length}件を表示 · 公表日の新しい順`;
@@ -73,6 +74,7 @@ try {
   options('year', Array.from({length:Number(data.meta.as_of.slice(0,4))-Number(data.meta.coverage_start.slice(0,4))+1},(_,i)=>{const y=Number(data.meta.coverage_start.slice(0,4))+i;return [String(y),`${y}年`];}));
   $('year').value = data.meta.as_of.slice(0,4);
   options('month',[...new Set(data.incidents.map(i=>i.published_on.slice(0,7)))].sort().reverse().map(m=>[m,m.replace('-','年')+'月']));
+  options('incident_type',Object.entries(incidentTypeLabels));
   options('status',Object.entries(leakLabels).filter(([key])=>data.incidents.some(i=>i.leak_status===key)));
   options('cause',Object.entries(causeLabels).filter(([key])=>data.incidents.some(i=>i.cause.category===key)));
   options('vendor',[...new Set(data.incidents.map(i=>i.related_vendor).filter(Boolean))].sort().map(v=>[v,v]));

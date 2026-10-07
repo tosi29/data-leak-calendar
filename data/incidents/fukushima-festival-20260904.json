@@ -43,5 +43,6 @@
     }
   ],
   "notes": "82人はメールを閲覧した可能性のある受信者数で、漏えい対象者数には加算しない。",
-  "updates": []
+  "updates": [],
+  "incident_type": "accident"
 }

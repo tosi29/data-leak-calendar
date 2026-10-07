@@ -55,5 +55,6 @@
     }
   ],
   "notes": "事件の記録情報はアクセス可能になっていない。",
-  "updates": []
+  "updates": [],
+  "incident_type": "accident"
 }

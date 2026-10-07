@@ -43,5 +43,6 @@
     }
   ],
   "notes": "候補の「流出確認」から、公式第2報の「漏えいの可能性」に修正。",
-  "updates": []
+  "updates": [],
+  "incident_type": "attack"
 }

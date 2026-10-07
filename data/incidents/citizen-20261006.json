@@ -45,5 +45,6 @@
   "first_published_on": "2026-10-06",
   "publication_kind": "initial",
   "verification": "official",
-  "related_vendor": "スカラコミュニケーションズ"
+  "related_vendor": "スカラコミュニケーションズ",
+  "incident_type": "attack"
 }

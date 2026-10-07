@@ -43,5 +43,6 @@
     }
   ],
   "notes": "担当者の個人情報を含むため対象。候補の9月28日は発生日で、確認できた報道日は9月29日。",
-  "updates": []
+  "updates": [],
+  "incident_type": "accident"
 }

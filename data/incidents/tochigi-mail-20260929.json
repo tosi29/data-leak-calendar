@@ -41,5 +41,6 @@
   "first_published_on": "2026-09-29",
   "publication_kind": "initial",
   "verification": "official",
-  "related_vendor": null
+  "related_vendor": null,
+  "incident_type": "accident"
 }

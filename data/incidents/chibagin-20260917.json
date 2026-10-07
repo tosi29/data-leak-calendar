@@ -51,5 +51,6 @@
     }
   ],
   "notes": "個人顧客は約722先、法人顧客は約1,616先。2,338人とは扱わない。",
-  "updates": []
+  "updates": [],
+  "incident_type": "attack"
 }

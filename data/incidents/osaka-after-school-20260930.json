@@ -45,5 +45,6 @@
     }
   ],
   "notes": "児童のうち114人の要配慮情報を含む。公表内の3活動室の被害を1記録として扱う。",
-  "updates": []
+  "updates": [],
+  "incident_type": "attack"
 }

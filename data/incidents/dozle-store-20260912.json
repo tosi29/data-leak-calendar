@@ -46,5 +46,6 @@
     }
   ],
   "notes": "確認したページには9月15日・18日の追記を含む。アプリ名と流出規模は未公表。",
-  "updates": []
+  "updates": [],
+  "incident_type": "attack"
 }

@@ -49,5 +49,6 @@
     }
   ],
   "notes": "流出した登録情報全体2,419件には実験計画書なども含む。",
-  "updates": []
+  "updates": [],
+  "incident_type": "attack"
 }

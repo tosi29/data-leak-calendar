@@ -43,5 +43,6 @@
     }
   ],
   "notes": "9月3日は個別通知を補完する公表。実際の外部流出は未確認。",
-  "updates": []
+  "updates": [],
+  "incident_type": "attack"
 }

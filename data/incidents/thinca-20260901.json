@@ -57,5 +57,6 @@
       "summary": "最終調査結果を公表。個人情報の外部漏えいの事実は確認されず。",
       "source_index": 1
     }
-  ]
+  ],
+  "incident_type": "attack"
 }

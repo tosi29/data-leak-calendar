@@ -5,7 +5,7 @@
 公開先: https://tosi29.github.io/data-leak-calendar/
 
 - GitHub activity風の日別ヒートマップ。日付を選択して絞り込み。
-- 企業名・サービス名・情報の種類、月、原因、確認状況、関連ベンダーによる検索。
+- 企業名・サービス名・情報の種類、月、事案の種別、原因、確認状況、関連ベンダーによる検索。
 - 概要、対象規模、発生日・発覚日、公式出典、続報を各行から展開。
 - 1事案1JSON。外部ライブラリ・APIキー・分析用Cookieは不要。
 
@@ -38,6 +38,7 @@ JSONを採用した理由は、標準のNode.jsだけで検証・ビルドでき
 | `first_published_on` | 事案の初報日。不明ならnull。発生日とは異なる |
 | `publication_kind` | initial / followup / unknown |
 | `occurred_on`, `detected_on` | 発生日・発覚日。不明はnull。期間の場合は開始日とし、範囲をnotesに明記 |
+| `incident_type` | attack / accident / improper_handling / unknown。攻撃・事故・不適切な持ち出しや提供・未確定 |
 | `leak_status` | confirmed / suspected / exposed / lost / ruled_out / improper_sharing |
 | `impact` | 規模の配列。count、unit、qualifier、descriptionを保持 |
 | `cause` | 原因の分類、説明、その詳細の確度。侵入手口が不明ならcertaintyはunknown |
@@ -63,6 +64,8 @@ JSONを採用した理由は、標準のNode.jsだけで検証・ビルドでき
 - 無同意提供、紛失などの境界事例は対象情報と公表内容を確認したうえで判断します。攻撃者の主張だけで流出確定にはしません。
 
 `ruled_out` は続報で漏えいが否定された事案、`improper_sharing` は同意のない第三者提供です。どちらも掲載件数には含みますが、漏えい確認件数とは分けます。
+
+種別は原因カテゴリだけで機械的に決めず、出典の経緯を読みます。設定不備を攻撃者が悪用した集英社は `attack`、無断持ち出し後に紛失したプルデンシャル生命は `improper_handling`。フィッシングやサポート詐欺は、人の操作を伴っても `attack` です。不適切な提供の分類は故意・悪意の認定ではありません。原因不明を事故と推測しません。
 
 ## 収集候補
 

@@ -41,5 +41,6 @@
     }
   ],
   "notes": "被害アカウント1件・不審メール宛先50件は、漏えいした個人情報の件数ではない。",
-  "updates": []
+  "updates": [],
+  "incident_type": "attack"
 }

@@ -42,5 +42,6 @@
     }
   ],
   "notes": "逮捕容疑に関する発表。市は事実関係を確認するとしており、有罪や事実認定の確定を意味しない。",
-  "updates": []
+  "updates": [],
+  "incident_type": "improper_handling"
 }

@@ -1,6 +1,6 @@
 import { readdir, readFile } from 'node:fs/promises';
 import { fileURLToPath } from 'node:url';
-import { leakLabels, causeLabels, unitLabels, qualifierLabels } from '../public/model.js';
+import { leakLabels, causeLabels, unitLabels, qualifierLabels, incidentTypeLabels } from '../public/model.js';
 export const root = fileURLToPath(new URL('../', import.meta.url));
 export function validDate(value) {
   return typeof value === 'string' && /^\d{4}-\d{2}-\d{2}$/.test(value) && !Number.isNaN(Date.parse(value)) && new Date(value).toISOString().slice(0, 10) === value;
@@ -19,6 +19,7 @@ export function validate(items, meta) {
     check(!item.first_published_on || item.first_published_on <= item.published_on, 'First publication after selected publication');
     check(item.organization?.name && item.organization?.sector && item.title && item.summary, 'Required text missing');
     check(Object.hasOwn(leakLabels, item.leak_status), 'Invalid leak status');
+    check(Object.hasOwn(incidentTypeLabels, item.incident_type), 'Invalid incident type');
     check(Object.hasOwn(causeLabels, item.cause?.category) && item.cause.detail, 'Invalid cause');
     check(['confirmed', 'suspected', 'unknown'].includes(item.cause.certainty), 'Invalid cause certainty');
     check(['initial', 'followup', 'unknown'].includes(item.publication_kind), 'Invalid publication kind');

@@ -42,5 +42,6 @@
     }
   ],
   "notes": "理論上の最大対象者数であり、実際に閲覧された人数ではない。外部攻撃の事案ではない。",
-  "updates": []
+  "updates": [],
+  "incident_type": "accident"
 }

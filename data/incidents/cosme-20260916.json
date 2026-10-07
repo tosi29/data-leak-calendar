@@ -43,5 +43,6 @@
     }
   ],
   "notes": "原文の単位は人。URLは社内関係者だけで共有され、第三者による取得は確認されていない。",
-  "updates": []
+  "updates": [],
+  "incident_type": "accident"
 }

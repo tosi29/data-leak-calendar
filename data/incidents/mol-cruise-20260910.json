@@ -45,5 +45,6 @@
     }
   ],
   "notes": "調査対象約20万ファイルを漏えい件数としない。",
-  "updates": []
+  "updates": [],
+  "incident_type": "accident"
 }

@@ -45,5 +45,6 @@
     }
   ],
   "notes": "10月5日の報道が9月15日の公表と明記。8月31日・9月7日・9日に情報取得。",
-  "updates": []
+  "updates": [],
+  "incident_type": "attack"
 }

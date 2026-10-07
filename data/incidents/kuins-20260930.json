@@ -39,5 +39,6 @@
     }
   ],
   "notes": "個人情報の項目・規模は未公表。漏えい確認済みとは扱わない。",
-  "updates": []
+  "updates": [],
+  "incident_type": "attack"
 }

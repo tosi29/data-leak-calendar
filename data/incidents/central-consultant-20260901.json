@@ -45,5 +45,6 @@
     }
   ],
   "notes": "不正アクセスは7月18〜30日。9月1日は調査結果の公表日。",
-  "updates": []
+  "updates": [],
+  "incident_type": "attack"
 }

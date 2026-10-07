@@ -46,5 +46,6 @@
     }
   ],
   "notes": "4,026通は不正送信されたメール数で、漏えい規模とは別。",
-  "updates": []
+  "updates": [],
+  "incident_type": "attack"
 }

@@ -60,3 +60,16 @@ test('maximum estimates and photograph units retain their meaning', () => {
   assert.ok(ruledOut.some(i => i.id === 'kbic-20260911'));
   assert.ok(!filterIncidents(data.incidents, {status:'confirmed'}).some(i => i.id === 'kbic-20260911'));
 });
+
+test('incident type filters compose independently of leak status and cause', () => {
+  const attack = filterIncidents(data.incidents, {incident_type:'attack', cause:'configuration'});
+  assert.ok(attack.some(i => i.id === 'shueisha-20260928'));
+  assert.ok(!attack.some(i => i.id === 'offerbox-20261005'));
+  assert.ok(filterIncidents(data.incidents, {incident_type:'accident', status:'confirmed'}).some(i => i.id === 'kyoto-sanga-20260908'));
+  assert.equal(filterIncidents(data.incidents, {incident_type:'accident', query:'Gyazo'}).length, 0);
+  assert.ok(filterIncidents(data.incidents, {incident_type:'improper_handling', status:'lost'}).some(i => i.id === 'prudential-20260914'));
+  assert.ok(filterIncidents(data.incidents, {incident_type:'attack'}).some(i => i.id === 'ota-plaza-20260904'));
+  const copy = structuredClone(data.incidents);
+  delete copy[0].incident_type;
+  assert.throws(() => validate(copy, data.meta), /Invalid incident type/);
+});

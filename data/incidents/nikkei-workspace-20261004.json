@@ -42,5 +42,6 @@
     }
   ],
   "notes": "公式資料に基づく。読者・取材先は含まれない。Microsoft 365・迷惑メール9,000件とする別の報道とは混同しない。",
-  "updates": []
+  "updates": [],
+  "incident_type": "attack"
 }

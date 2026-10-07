@@ -42,5 +42,6 @@
     }
   ],
   "notes": "決済システムとは独立したキャンペーン専用システム。",
-  "updates": []
+  "updates": [],
+  "incident_type": "attack"
 }

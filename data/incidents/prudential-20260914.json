@@ -46,5 +46,6 @@
     }
   ],
   "notes": "対象1,570人は持ち出した個人情報の範囲。第三者への提供・利用の確認とは区別。",
-  "updates": []
+  "updates": [],
+  "incident_type": "improper_handling"
 }

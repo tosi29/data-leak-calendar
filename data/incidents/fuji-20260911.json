@@ -45,5 +45,6 @@
     }
   ],
   "notes": "原文は約800件。動画データ自体は対象外。",
-  "updates": []
+  "updates": [],
+  "incident_type": "attack"
 }

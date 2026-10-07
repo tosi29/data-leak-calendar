@@ -59,5 +59,6 @@
     }
   ],
   "notes": "初報はシステム障害。項目は対象者ごとに異なり、件数を人数へ換算しない。",
-  "updates": []
+  "updates": [],
+  "incident_type": "attack"
 }

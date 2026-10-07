@@ -48,5 +48,6 @@
       "summary": "通話音声・顧客管理情報の取得の可能性を続報で説明。",
       "source_index": 0
     }
-  ]
+  ],
+  "incident_type": "attack"
 }

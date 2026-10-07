@@ -47,5 +47,6 @@
     }
   ],
   "notes": "公式本文の調査結果は漏えいした情報と記載。単位は人ではなく件。動画データは対象外。",
-  "updates": []
+  "updates": [],
+  "incident_type": "attack"
 }

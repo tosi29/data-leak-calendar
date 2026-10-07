@@ -56,5 +56,6 @@
       "summary": "最終調査で個人情報等の流出なしを確認。",
       "source_index": 1
     }
-  ]
+  ],
+  "incident_type": "attack"
 }

@@ -49,5 +49,6 @@
     }
   ],
   "notes": "2026年6月11日以降の保存ログでは取得を確認できず、それ以前はログがなく不明。",
-  "updates": []
+  "updates": [],
+  "incident_type": "accident"
 }

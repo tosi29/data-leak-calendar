@@ -48,5 +48,6 @@
     }
   ],
   "notes": "3,177件は不審メールの送信数であり、漏えい人数ではない。",
-  "updates": []
+  "updates": [],
+  "incident_type": "attack"
 }

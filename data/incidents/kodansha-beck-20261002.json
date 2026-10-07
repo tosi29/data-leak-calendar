@@ -41,5 +41,6 @@
     }
   ],
   "notes": "侵害アカウント1件・迷惑メール50件を、漏えいした個人情報の件数として扱わない。",
-  "updates": []
+  "updates": [],
+  "incident_type": "attack"
 }

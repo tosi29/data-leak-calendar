@@ -44,5 +44,6 @@
     }
   ],
   "notes": "一部流出の確認と、対象情報424件の全件流出の確定は区別する。",
-  "updates": []
+  "updates": [],
+  "incident_type": "attack"
 }

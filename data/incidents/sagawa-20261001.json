@@ -51,5 +51,6 @@
       "summary": "顧客の個人情報が流出した可能性を公表。",
       "source_index": 0
     }
-  ]
+  ],
+  "incident_type": "attack"
 }

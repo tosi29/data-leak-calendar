@@ -48,5 +48,6 @@
     }
   ],
   "notes": "件数はアクセスの痕跡であり、漏えいした個人の人数ではない。",
-  "updates": []
+  "updates": [],
+  "incident_type": "attack"
 }

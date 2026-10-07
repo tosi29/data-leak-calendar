@@ -41,5 +41,6 @@
     }
   ],
   "notes": "公表時点で情報漏えいの事実は確認されていない。",
-  "updates": []
+  "updates": [],
+  "incident_type": "attack"
 }

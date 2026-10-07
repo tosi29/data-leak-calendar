@@ -45,5 +45,6 @@
     }
   ],
   "notes": "顧客情報の漏えい規模ではない。",
-  "updates": []
+  "updates": [],
+  "incident_type": "attack"
 }

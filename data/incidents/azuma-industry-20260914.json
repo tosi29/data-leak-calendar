@@ -41,5 +41,6 @@
     }
   ],
   "notes": "公表時点では対外的な影響は確認されていない。",
-  "updates": []
+  "updates": [],
+  "incident_type": "attack"
 }
