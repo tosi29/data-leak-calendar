@@ -1,1 +1,138 @@
-[]
+[
+  {
+    "id": "research-next-188534",
+    "organization": "アンビションDXホールディングス",
+    "reported_on": "2026-09-07",
+    "verification": "pending",
+    "reference_url": "https://www.security-next.com/188534",
+    "note": "追加調査で発見。記載日は報道日。発生日の記載はあるが、公表元の公表日を本文・追加検索で確定できず、9月以降の対象か保留。"
+  },
+  {
+    "id": "research-next-189480",
+    "organization": "福岡県（体験入学フォーム）",
+    "reported_on": "2026-09-07",
+    "verification": "pending",
+    "reference_url": "https://www.security-next.com/189480",
+    "note": "追加調査で発見。記載日は報道日。発生日の記載はあるが、公表元の公表日を本文・追加検索で確定できず、9月以降の対象か保留。"
+  },
+  {
+    "id": "research-next-189482",
+    "organization": "秋田工業高等専門学校",
+    "reported_on": "2026-09-10",
+    "verification": "pending",
+    "reference_url": "https://www.security-next.com/189482",
+    "note": "追加調査で発見。記載日は報道日。発生日の記載はあるが、公表元の公表日を本文・追加検索で確定できず、9月以降の対象か保留。"
+  },
+  {
+    "id": "research-next-189535",
+    "organization": "新潟県（起業講座）",
+    "reported_on": "2026-09-01",
+    "verification": "pending",
+    "reference_url": "https://www.security-next.com/189535",
+    "note": "追加調査で発見。記載日は報道日。発生日の記載はあるが、公表元の公表日を本文・追加検索で確定できず、9月以降の対象か保留。"
+  },
+  {
+    "id": "research-next-189735",
+    "organization": "沖縄県（農業関係者メール）",
+    "reported_on": "2026-09-14",
+    "verification": "pending",
+    "reference_url": "https://www.security-next.com/189735",
+    "note": "追加調査で発見。記載日は報道日。発生日の記載はあるが、公表元の公表日を本文・追加検索で確定できず、9月以降の対象か保留。"
+  },
+  {
+    "id": "research-next-189737",
+    "organization": "三重大学（学生証メール）",
+    "reported_on": "2026-09-08",
+    "verification": "pending",
+    "reference_url": "https://www.security-next.com/189737",
+    "note": "追加調査で発見。記載日は報道日。発生日の記載はあるが、公表元の公表日を本文・追加検索で確定できず、9月以降の対象か保留。"
+  },
+  {
+    "id": "research-next-189803",
+    "organization": "札幌市（住宅地図）",
+    "reported_on": "2026-09-03",
+    "verification": "pending",
+    "reference_url": "https://www.security-next.com/189803",
+    "note": "追加調査で発見。記載日は報道日。発生日の記載はあるが、公表元の公表日を本文・追加検索で確定できず、9月以降の対象か保留。"
+  },
+  {
+    "id": "research-next-190055",
+    "organization": "宝塚市立病院",
+    "reported_on": "2026-09-25",
+    "verification": "pending",
+    "reference_url": "https://www.security-next.com/190055",
+    "note": "追加調査で発見。記載日は報道日。発生日の記載はあるが、公表元の公表日を本文・追加検索で確定できず、9月以降の対象か保留。"
+  },
+  {
+    "id": "research-next-190136",
+    "organization": "静岡県（自主防災研修）",
+    "reported_on": "2026-09-15",
+    "verification": "pending",
+    "reference_url": "https://www.security-next.com/190136",
+    "note": "追加調査で発見。記載日は報道日。発生日の記載はあるが、公表元の公表日を本文・追加検索で確定できず、9月以降の対象か保留。"
+  },
+  {
+    "id": "research-next-190386",
+    "organization": "足立区（都市農業公園）",
+    "reported_on": "2026-10-02",
+    "verification": "pending",
+    "reference_url": "https://www.security-next.com/190386",
+    "note": "追加調査で発見。記載日は報道日。発生日の記載はあるが、公表元の公表日を本文・追加検索で確定できず、9月以降の対象か保留。"
+  },
+  {
+    "id": "research-next-190448",
+    "organization": "横浜市（水道料金通知）",
+    "reported_on": "2026-10-05",
+    "verification": "pending",
+    "reference_url": "https://www.security-next.com/190448",
+    "note": "追加調査で発見。記載日は報道日。発生日の記載はあるが、公表元の公表日を本文・追加検索で確定できず、9月以降の対象か保留。"
+  },
+  {
+    "id": "research-next-190516",
+    "organization": "つくば市（地籍図面）",
+    "reported_on": "2026-09-24",
+    "verification": "pending",
+    "reference_url": "https://www.security-next.com/190516",
+    "note": "追加調査で発見。記載日は報道日。発生日の記載はあるが、公表元の公表日を本文・追加検索で確定できず、9月以降の対象か保留。"
+  },
+  {
+    "id": "research-next-190646",
+    "organization": "名古屋市（合唱申込）",
+    "reported_on": "2026-09-24",
+    "verification": "pending",
+    "reference_url": "https://www.security-next.com/190646",
+    "note": "追加調査で発見。記載日は報道日。発生日の記載はあるが、公表元の公表日を本文・追加検索で確定できず、9月以降の対象か保留。"
+  },
+  {
+    "id": "research-next-190687",
+    "organization": "鳥取県（介護事業者メール）",
+    "reported_on": "2026-10-06",
+    "verification": "pending",
+    "reference_url": "https://www.security-next.com/190687",
+    "note": "追加調査で発見。記載日は報道日。発生日の記載はあるが、公表元の公表日を本文・追加検索で確定できず、9月以降の対象か保留。"
+  },
+  {
+    "id": "research-new-tmi46",
+    "organization": "絵具屋三吉",
+    "reported_on": "2026-09-25",
+    "verification": "pending",
+    "reference_url": "https://www.sankichi.com/hpgen/HPB/entries/21.html",
+    "note": "公式本文で漏えい確認を読めたが、公表日は記載なし。9月25日は委託先からの通知日であり、公表日に転用しない。"
+  },
+  {
+    "id": "research-new-tmi60",
+    "organization": "フェリスヴィラスイート",
+    "reported_on": "2026-09-29",
+    "verification": "pending",
+    "reference_url": "https://nikken-hotelmgt.co.jp/ueno/2026/09/29/news_2026_09/",
+    "note": "公式本文で可能性の公表を確認したが日付記載なし。URL内の9月29日を公表日と断定せず保留。"
+  },
+  {
+    "id": "research-new-ibaraki-news",
+    "organization": "茨城県（委託先のメール誤送信）",
+    "reported_on": "2026-09-26",
+    "verification": "pending",
+    "reference_url": "https://ibatoco.jp/news/ibaraki-outsourced-email-leak-2026/",
+    "note": "報道本文で49件の誤送信を確認。記載日は報道日。公式PDFを取得できず、公表日の裏付けを保留。"
+  }
+]

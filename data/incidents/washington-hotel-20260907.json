@@ -1,0 +1,64 @@
+{
+  "id": "washington-hotel-20260907",
+  "organization": {
+    "name": "ワシントンホテル",
+    "sector": "企業・団体"
+  },
+  "title": "ランサムウェア被害の調査結果",
+  "summary": "従業員情報を保存するサーバーが不正アクセスを受け、漏えいの可能性を否定できないと公表。",
+  "published_on": "2026-09-07",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-07",
+  "first_published_on": "2026-02-14",
+  "publication_kind": "followup",
+  "verification": "official",
+  "leak_status": "suspected",
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "対象規模は確認した資料に記載なし・調査中"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "生年月日",
+    "所属",
+    "住所",
+    "履歴書",
+    "基礎年金番号",
+    "銀行口座情報"
+  ],
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "ランサムウェアと推測される不正アクセス。侵入手口は確認した資料に記載なし。",
+    "certainty": "unknown"
+  },
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2026/09/25/56299.html",
+      "type": "news",
+      "title": "実行犯が示唆したダークウェブでの情報公開は確認されず ～ ワシントンホテルにランサムウェア攻撃 | ScanNetSecurity",
+      "published_on": "2026-09-25",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "url": "https://www.washingtonhotel.co.jp/corporation/news/228/",
+      "type": "official",
+      "title": "ランサムウェア感染被害に伴う退職者の皆様の個人情報に関するお知らせ | 【公式】ワシントンホテル株式会社",
+      "published_on": "2026-09-25",
+      "checked_on": "2026-10-07"
+    }
+  ],
+  "notes": "9月7日の最終報について、9月25日の公式通知が参照。項目は入社時期等により異なる。情報窃取の明確な痕跡・外部公開は未確認。",
+  "updates": [
+    {
+      "date": "2026-09-25",
+      "summary": "退職者への通知に関する公表で対象情報を案内。",
+      "source_index": 1
+    }
+  ]
+}

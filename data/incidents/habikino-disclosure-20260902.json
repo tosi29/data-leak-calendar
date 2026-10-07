@@ -1,0 +1,46 @@
+{
+  "id": "habikino-disclosure-20260902",
+  "organization": {
+    "name": "羽曳野市",
+    "sector": "自治体"
+  },
+  "title": "相談記録等の郵送をめぐる職員逮捕の公表",
+  "summary": "家庭児童相談の記録や職員情報を対象家庭へ郵送した容疑で職員が逮捕されたと公表。",
+  "published_on": "2026-09-02",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-07",
+  "first_published_on": "2026-09-02",
+  "publication_kind": "initial",
+  "verification": "official",
+  "leak_status": "suspected",
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "対象規模は確認した資料に記載なし・調査中"
+    }
+  ],
+  "data_types": [
+    "家庭児童相談記録",
+    "職員情報"
+  ],
+  "cause": {
+    "category": "improper_sharing",
+    "detail": "職員による相談記録等の不適切な外部提供の疑い。",
+    "certainty": "suspected"
+  },
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.city.habikino.lg.jp/material/files/group/124/20260902_pressrelease.pdf",
+      "type": "official",
+      "title": "職員の逮捕について",
+      "published_on": "2026-09-02",
+      "checked_on": "2026-10-07"
+    }
+  ],
+  "notes": "逮捕容疑に関する発表。市は事実関係を確認するとしており、有罪や事実認定の確定を意味しない。",
+  "updates": []
+}

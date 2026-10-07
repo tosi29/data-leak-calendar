@@ -1,0 +1,46 @@
+{
+  "id": "hamagin-tt-20260903",
+  "organization": {
+    "name": "浜銀TT証券",
+    "sector": "企業・団体"
+  },
+  "title": "顧客の認証情報窃取と不正取引",
+  "summary": "フィッシングで顧客の口座番号・認証情報が窃取され、不正な投資信託売買が確認された。",
+  "published_on": "2026-09-03",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-07",
+  "first_published_on": "2026-09-03",
+  "publication_kind": "initial",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "対象規模は確認した資料に記載なし・調査中"
+    }
+  ],
+  "data_types": [
+    "口座番号",
+    "パスワード・パスキー登録情報"
+  ],
+  "cause": {
+    "category": "credentials",
+    "detail": "フィッシング詐欺による口座番号・認証情報の窃取。",
+    "certainty": "confirmed"
+  },
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.hamagintt.co.jp/information/pdf/20260903_internet.pdf",
+      "type": "official",
+      "title": "不正アクセス・不正取引の被害発生について",
+      "published_on": "2026-09-03",
+      "checked_on": "2026-10-07"
+    }
+  ],
+  "notes": "証券会社保有データの一括流出ではなく、顧客へのフィッシングによる認証情報取得。対象人数は未公表。",
+  "updates": []
+}

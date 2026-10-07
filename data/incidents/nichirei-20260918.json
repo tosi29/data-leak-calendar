@@ -1,0 +1,63 @@
+{
+  "id": "nichirei-20260918",
+  "organization": {
+    "name": "ニチレイ",
+    "sector": "企業・団体"
+  },
+  "title": "サイバー攻撃で個人情報流出を確認（第7報）",
+  "summary": "サーバーの調査で配送先、取引先役職員、従業員と家族・求職者の個人情報流出を確認。",
+  "published_on": "2026-09-18",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-07",
+  "first_published_on": "2026-07-13",
+  "publication_kind": "followup",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "impact": [
+    {
+      "count": 3308,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "配送先のお客さま"
+    },
+    {
+      "count": 6849,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "取引先役職員"
+    },
+    {
+      "count": 43709,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "従業員・家族・求職者"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "電話番号",
+    "メールアドレス",
+    "生年月日",
+    "給与賞与・人事情報",
+    "在留資格"
+  ],
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。侵入手法の詳細は未公表。",
+    "certainty": "unknown"
+  },
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.nichirei.co.jp/news/2026/524.html",
+      "type": "official",
+      "title": "当社グループでのシステム障害発生について（第7報） | 株式会社ニチレイ",
+      "published_on": "2026-09-18",
+      "checked_on": "2026-10-07"
+    }
+  ],
+  "notes": "初報はシステム障害。項目は対象者ごとに異なり、件数を人数へ換算しない。",
+  "updates": []
+}

@@ -1,0 +1,45 @@
+{
+  "id": "azuma-industry-20260914",
+  "organization": {
+    "name": "東産業",
+    "sector": "企業・団体"
+  },
+  "title": "公式サイトの脆弱性を悪用した不正アクセス",
+  "summary": "問い合わせフォームで取得した顧客情報を対象とする不正アクセスを公表し、影響範囲を調査。",
+  "published_on": "2026-09-14",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-07",
+  "first_published_on": "2026-09-14",
+  "publication_kind": "initial",
+  "verification": "official",
+  "leak_status": "suspected",
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "対象規模は確認した資料に記載なし・調査中"
+    }
+  ],
+  "data_types": [
+    "問い合わせフォームの顧客情報"
+  ],
+  "cause": {
+    "category": "vulnerability",
+    "detail": "公式サイトの脆弱性を悪用した第三者による不正アクセス。",
+    "certainty": "confirmed"
+  },
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.azuma-mie.co.jp/info/important/unauthorized-access-20260908/",
+      "type": "official",
+      "title": "公式サイトへの不正アクセスに関するお知らせ | 株式会社 東産業",
+      "published_on": "2026-09-14",
+      "checked_on": "2026-10-07"
+    }
+  ],
+  "notes": "公表時点では対外的な影響は確認されていない。",
+  "updates": []
+}

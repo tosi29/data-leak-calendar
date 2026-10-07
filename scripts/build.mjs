@@ -11,5 +11,6 @@ await mkdir(`${root}dist/data`, { recursive: true });
 await writeFile(`${root}dist/data/incidents.json`, JSON.stringify(data, null, 2) + '\n');
 await writeFile(`${root}dist/data/candidates.json`, JSON.stringify(candidates, null, 2) + '\n');
 await writeFile(`${root}dist/data/review-log.json`, JSON.stringify(reviews, null, 2) + '\n');
+await cp(`${root}data/research-audit.json`, `${root}dist/data/research-audit.json`);
 await writeFile(`${root}dist/.nojekyll`, '');
 console.log(`Built ${data.incidents.length} verified incidents; ${candidates.length} research candidates.`);

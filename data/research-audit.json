@@ -1,0 +1,235 @@
+{
+  "checked_on": "2026-10-07",
+  "coverage_start": "2026-09-01",
+  "coverage_end": "2026-10-07",
+  "scope": "国内組織・国内サービスの公表。海外事例の独立した掘り起こしは対象外。公表日と報道日・発生日を区別。",
+  "method": [
+    "Pahooの期間該当ページ、ScanNetSecurityの9月・10月一覧、Security NEXTの9月全9ページと10月直近、TMI等の月次集約を横断。",
+    "候補から公式HTML・PDF、取得できない場合は公表日を明記する報道本文へ戻って照合。自治体の一括公表は独立事案を分離。",
+    "9月13日・19日・20日・22日・23日、10月7日を日付指定でも検索。検索結果にないことは発生ゼロの証明にしない。"
+  ],
+  "indexes": [
+    {
+      "url": "https://www.pahoo.org/e-soul/privacy/casestudy/case-023-05.shtm",
+      "title": "紛失・サイバー攻撃等による個人情報流出事件一覧 （１２枚中５枚目）"
+    },
+    {
+      "url": "https://www.pahoo.org/e-soul/privacy/casestudy/case-023-06.shtm",
+      "title": "紛失・サイバー攻撃等による個人情報流出事件一覧 （１２枚中６枚目）"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/category/incident/2026/09/",
+      "title": "2026年9月のインシデント・事故ニュース記事一覧 | ScanNetSecurity"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/category/incident/2026/09/?page=2",
+      "title": "2026年9月のインシデント・事故ニュース記事一覧(2 ページ目) | ScanNetSecurity"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/category/incident/2026/10/",
+      "title": "2026年10月のインシデント・事故ニュース記事一覧 | ScanNetSecurity"
+    },
+    {
+      "url": "https://www.security-next.com/date/2026/09",
+      "title": "2026年09月のセキュリティニュース一覧：Security NEXT"
+    },
+    {
+      "url": "https://www.security-next.com/date/2026/09/page/2",
+      "title": "2026年09月のセキュリティニュース一覧：Security NEXT"
+    },
+    {
+      "url": "https://www.security-next.com/date/2026/09/page/3",
+      "title": "2026年09月のセキュリティニュース一覧：Security NEXT"
+    },
+    {
+      "url": "https://www.security-next.com/date/2026/09/page/4",
+      "title": "2026年09月のセキュリティニュース一覧：Security NEXT"
+    },
+    {
+      "url": "https://www.security-next.com/date/2026/09/page/5",
+      "title": "2026年09月のセキュリティニュース一覧：Security NEXT"
+    },
+    {
+      "url": "https://www.security-next.com/date/2026/09/page/6",
+      "title": "2026年09月のセキュリティニュース一覧：Security NEXT"
+    },
+    {
+      "url": "https://www.security-next.com/date/2026/09/page/7",
+      "title": "2026年09月のセキュリティニュース一覧：Security NEXT"
+    },
+    {
+      "url": "https://www.security-next.com/date/2026/09/page/8",
+      "title": "2026年09月のセキュリティニュース一覧：Security NEXT"
+    },
+    {
+      "url": "https://www.security-next.com/date/2026/09/page/9",
+      "title": "2026年09月のセキュリティニュース一覧：Security NEXT"
+    },
+    {
+      "url": "https://tmiconsulting.co.jp/privacy-security-news/2769/",
+      "title": "2026年9月 情報漏えいインシデントニュースまとめ | TMIプライバシー＆セキュリティコンサルティング株式会社"
+    },
+    {
+      "url": "https://cacco.co.jp/frauddetection/media/news/3522/",
+      "title": "【2026年最新】個人情報漏洩事件・被害事例ニュースまとめ | 不正検知Lab -フセラボ-【かっこ株式会社 公式メディア】"
+    }
+  ],
+  "added_incident_ids": [
+    "aflac-20260901",
+    "asuchika-20260918",
+    "azas-suloop-20260918",
+    "azuma-industry-20260914",
+    "beer-engawa-20260914",
+    "calbee-photogoods-20260917",
+    "central-consultant-20260901",
+    "charm-20260902",
+    "chiba-biodiversity-20260901",
+    "daito-gas-20260928",
+    "dozle-store-20260912",
+    "edogawa-mail-20260924",
+    "fujisawa-hospital-20260904",
+    "fukushima-festival-20260904",
+    "gontran-cherrier-20260903",
+    "gpoint-20260930",
+    "gunma-karakkaze-20260925",
+    "habikino-disclosure-20260902",
+    "hamagin-tt-20260903",
+    "hana-hotel-20260929",
+    "holonic-20260929",
+    "ichini-mail-20260910",
+    "ieej-20260911",
+    "ihi-kenpo-20260902",
+    "japanpt-aflac-20260908",
+    "jcia-mail-20260914",
+    "kagawa-survey-20260907",
+    "kamogawa-survey-20260904",
+    "kanagawa-medical-mail-20260917",
+    "kawasaki-medical-documents-20260903",
+    "keihin-port-mail-20260911",
+    "keio-plaza-20260926",
+    "kingjim-20260904",
+    "kur-and-hotel-20260929",
+    "kwansei-20260901",
+    "kyusai-20260925",
+    "lean-body-20260915",
+    "maisen-20260925",
+    "mie-medical-report-20260905",
+    "mitsui-fudosan-20260901",
+    "miyagi-npo-mail-20260903",
+    "miyazaki-saito-dorm-20260906",
+    "moomoo-japan-20260903",
+    "nabari-kintetsu-gas-20260930",
+    "nerima-yell-20260911",
+    "nichirei-20260918",
+    "nict-speech-20260928",
+    "nihon-law-20260911",
+    "nikkei-bp-20261004",
+    "nikkei-m365-20261004",
+    "osaka-after-school-20260930",
+    "osaka-chuo-care-20260909",
+    "osaka-high-court-20260904",
+    "osaka-konohana-card-20260909",
+    "osaka-lifelong-mail-20260908",
+    "osaka-museum-mail-20260924",
+    "osaka-nishinari-exam-20260909",
+    "osaka-nursery-approval-20260909",
+    "osaka-nursery-notebook-0807-20260909",
+    "osaka-nursery-notebook-20260909",
+    "osaka-recruit-20260915",
+    "osaka-school-app-0724-20260909",
+    "osaka-school-app-0728-20260909",
+    "osaka-tennoji-welfare-20260909",
+    "ota-plaza-20260904",
+    "photogoods-20260916",
+    "revisio-20260908",
+    "rext-20260911",
+    "saga-agriculture-school-20260925",
+    "sakura-internet-20260910",
+    "sankei-respection-20260911",
+    "seibu-52-20260902",
+    "thinca-20260901",
+    "trex-20260911",
+    "trunk-20260901",
+    "unirita-20260929",
+    "up-education-20260904",
+    "washington-hotel-20260907",
+    "yamadabody-20260901"
+  ],
+  "pending_candidate_ids": [
+    "research-next-188534",
+    "research-next-189480",
+    "research-next-189482",
+    "research-next-189535",
+    "research-next-189735",
+    "research-next-189737",
+    "research-next-189803",
+    "research-next-190055",
+    "research-next-190136",
+    "research-next-190386",
+    "research-next-190448",
+    "research-next-190516",
+    "research-next-190646",
+    "research-next-190687",
+    "research-new-tmi46",
+    "research-new-tmi60",
+    "research-new-ibaraki-news"
+  ],
+  "excluded_examples": [
+    {
+      "organization": "三重大学（オープンキャンパス名簿）",
+      "reason": "9月29日の報道だが公表は8月24日。対象期間外。",
+      "url": "https://www.mie-u.ac.jp/news/topics/2026/08/post-4238.html"
+    },
+    {
+      "organization": "厚生労働省（最低賃金調査票）",
+      "reason": "9月28日の報道だが公表は8月28日。対象期間外。",
+      "url": "https://www.mhlw.go.jp/stf/newpage_75810.html"
+    },
+    {
+      "organization": "ウェブライフ",
+      "reason": "初報8月18日、続報8月28日。9月4日の報道日を公表日にしない。",
+      "url": "https://web-life.co.jp/news/6551/"
+    },
+    {
+      "organization": "富津市（民生委員書類）",
+      "reason": "9月18日の報道だが公式公表は8月17日。",
+      "url": "https://www.city.futtsu.lg.jp/0000008624.html"
+    },
+    {
+      "organization": "マネジメントサービスセンター",
+      "reason": "9月18日の報道が8月25日の公表と明記。",
+      "url": "https://scan.netsecurity.ne.jp/article/2026/09/18/56274.html"
+    },
+    {
+      "organization": "繋",
+      "reason": "公式公表は8月27日。9月の報道日を転用しない。",
+      "url": "https://tsng.co.jp/archives/1116"
+    },
+    {
+      "organization": "九州先端科学技術研究所",
+      "reason": "確認した公式資料の対象は自治体向け見積書。個人情報の漏えいは確認できず掲載対象外。",
+      "url": "https://www.isit.or.jp/news/isit/21872/"
+    },
+    {
+      "organization": "PCデポ",
+      "reason": "送信専用の認証情報の不正利用。会員情報閲覧権限はなく、個人情報漏えいは未確認。",
+      "url": "https://www.pcdepot.co.jp/info/information_260911.html"
+    },
+    {
+      "organization": "モンベル・グローバルサイト",
+      "reason": "海外向けサイト。国内向けサイトの漏えいは未確認との報道。今回の国内掘り起こしから除外。",
+      "url": "https://www.gate02.ne.jp/lab/incident-news/mont-bell-20260928/"
+    },
+    {
+      "organization": "大阪市の9月一括公表の2事案",
+      "reason": "11事案のうち2件は8月20日に個別公表済みで、残る9事案を採用。",
+      "url": "https://www.city.osaka.lg.jp/hodoshiryo/somu/0000687040.html"
+    }
+  ],
+  "limitations": [
+    "全自治体・組織の非索引ページまでの完全網羅を保証する調査ではない。",
+    "候補確認待ち0件だった以前の状態は、元の74候補を処理済みという意味であり、未収集がないという意味ではなかった。",
+    "公表元のページ更新で初報日が失われることがある。確定できない候補は集計に含めない。",
+    "10月7日は確認時点までの収集。新しい公表・続報は後日追加する。"
+  ]
+}

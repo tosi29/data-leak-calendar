@@ -1,0 +1,45 @@
+{
+  "id": "ota-plaza-20260904",
+  "organization": {
+    "name": "大田区民プラザ（大田区）",
+    "sector": "自治体・関連機関"
+  },
+  "title": "偽の警告画面を起点とした不正アクセス",
+  "summary": "施設職員が警告画面の連絡先に電話し、指示に従って操作した端末に不正アクセスされた。",
+  "published_on": "2026-09-04",
+  "occurred_on": "2026-08-22",
+  "detected_on": null,
+  "updated_on": "2026-10-07",
+  "first_published_on": "2026-09-04",
+  "publication_kind": "initial",
+  "verification": "official",
+  "leak_status": "suspected",
+  "impact": [
+    {
+      "count": 556,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "職員・施設利用者"
+    }
+  ],
+  "data_types": [
+    "氏名等"
+  ],
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "サポートを装う警告表示と電話で端末操作を誘導された。",
+    "certainty": "confirmed"
+  },
+  "related_vendor": "大田区文化振興協会",
+  "sources": [
+    {
+      "url": "https://www.city.ota.tokyo.jp/kuseijoho/press/releaseR08/2026090402.html",
+      "type": "official",
+      "title": "大田区ホームページ：【プレスリリース】大田区民プラザにおける情報漏えいの可能性のある事故について",
+      "published_on": "2026-09-04",
+      "checked_on": "2026-10-07"
+    }
+  ],
+  "notes": "",
+  "updates": []
+}

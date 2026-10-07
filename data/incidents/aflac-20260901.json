@@ -1,0 +1,52 @@
+{
+  "id": "aflac-20260901",
+  "organization": {
+    "name": "アフラック生命保険",
+    "sector": "企業・団体"
+  },
+  "title": "よりそうネット等の情報漏えい（期間内の案内）",
+  "summary": "契約者向けサイト等への不正アクセスに伴う情報漏えいについて、期間内にも案内を公表。",
+  "published_on": "2026-09-01",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-07",
+  "first_published_on": null,
+  "publication_kind": "followup",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "対象規模は確認した資料に記載なし・調査中"
+    }
+  ],
+  "data_types": [
+    "顧客の個人情報"
+  ],
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。侵入手法の詳細は未公表。",
+    "certainty": "unknown"
+  },
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.aflac.co.jp/info/yorisou_maintenance.html",
+      "type": "official",
+      "title": "システムへの不正アクセスと情報漏えいに関するお詫び",
+      "published_on": "2026-10-01",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "url": "https://www.japanpt.or.jp/info/20260908_223.html",
+      "type": "official",
+      "title": "日本理学療法士協会：アフラックの個人情報漏えいに関する続報",
+      "published_on": "2026-09-08",
+      "checked_on": "2026-10-07"
+    }
+  ],
+  "notes": "日本理学療法士協会の公式続報が9月1日の案内公表を明記。7月以前から公表されている事案であり、9月の新規発生ではない。アフラックの現在の案内ページは10月1日更新。対象規模はこの掲載資料だけでは確定しない。",
+  "updates": []
+}
