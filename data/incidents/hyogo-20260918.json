@@ -1,0 +1,47 @@
+{
+  "id": "hyogo-20260918",
+  "organization": {
+    "name": "兵庫県",
+    "sector": "自治体・公的機関"
+  },
+  "title": "開示した電子文書21件の黒塗りを解除でき、延べ972人分の情報が漏えい",
+  "published_on": "2026-09-18",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-07",
+  "first_published_on": "2026-09-18",
+  "publication_kind": "initial",
+  "verification": "secondary",
+  "leak_status": "exposed",
+  "summary": "開示した電子文書21件の黒塗りを解除でき、延べ972人分の情報が漏えい。",
+  "impact": [
+    {
+      "count": 972,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "対象者数"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "電話番号"
+  ],
+  "cause": {
+    "category": "redaction_error",
+    "detail": "黒塗り後の除去不能化処理が不十分。",
+    "certainty": "confirmed"
+  },
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.daily.co.jp/society/national/2026/09/18/0020834406.shtml",
+      "type": "news",
+      "title": "９７２人情報漏えい、兵庫/社会/社会総合/デイリースポーツ online",
+      "published_on": "2026-09-18",
+      "checked_on": "2026-10-07"
+    }
+  ],
+  "notes": "972は延べ人数。重複を除いた人数は不明。",
+  "updates": []
+}

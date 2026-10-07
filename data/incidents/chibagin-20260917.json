@@ -1,0 +1,55 @@
+{
+  "id": "chibagin-20260917",
+  "organization": {
+    "name": "ちばぎん商店",
+    "sector": "企業・団体"
+  },
+  "title": "コーポレートサイトのサーバーが侵害され、委託されたギフト送付業務の顧客情報が漏えいしたおそれ",
+  "published_on": "2026-09-17",
+  "occurred_on": null,
+  "detected_on": "2026-09-03",
+  "updated_on": "2026-10-07",
+  "first_published_on": "2026-09-17",
+  "publication_kind": "initial",
+  "verification": "official",
+  "leak_status": "suspected",
+  "summary": "コーポレートサイトのサーバーが侵害され、委託されたギフト送付業務の顧客情報が漏えいしたおそれ。",
+  "impact": [
+    {
+      "count": 722,
+      "unit": "records",
+      "qualifier": "approximate",
+      "description": "対象者数"
+    },
+    {
+      "count": 1616,
+      "unit": "organizations",
+      "qualifier": "approximate",
+      "description": "法人顧客：約1,616先"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "配送先住所",
+    "メールアドレス",
+    "電話番号",
+    "申込番号"
+  ],
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。具体的な侵入手法は未公表。",
+    "certainty": "confirmed"
+  },
+  "related_vendor": "ちばぎん商店",
+  "sources": [
+    {
+      "url": "https://www.chibabank.co.jp/news/news20260917_01",
+      "type": "official",
+      "title": "ちばぎん商店：個人情報に関する公表資料",
+      "published_on": "2026-09-17",
+      "checked_on": "2026-10-07"
+    }
+  ],
+  "notes": "個人顧客は約722先、法人顧客は約1,616先。2,338人とは扱わない。",
+  "updates": []
+}

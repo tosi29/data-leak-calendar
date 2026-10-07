@@ -1,0 +1,49 @@
+{
+  "id": "shueisha-20260928",
+  "organization": {
+    "name": "集英社",
+    "sector": "企業・団体"
+  },
+  "title": "HAPPY PLUS COMMUNITYへの不正アクセスで、登録ブロガー情報2,835件などが漏えい",
+  "published_on": "2026-09-28",
+  "occurred_on": "2026-09-09",
+  "detected_on": null,
+  "updated_on": "2026-10-07",
+  "first_published_on": "2026-09-28",
+  "publication_kind": "initial",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "summary": "HAPPY PLUS COMMUNITYへの不正アクセスで、登録ブロガー情報2,835件などが漏えい。",
+  "impact": [
+    {
+      "count": 2835,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "対象者数"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "連絡先",
+    "プロフィール画像",
+    "プロフィール情報",
+    "送信メール"
+  ],
+  "cause": {
+    "category": "configuration",
+    "detail": "CMSの設定不備に起因するAPI認証情報への攻撃で特権ユーザーを作成され、APIを不正実行されたと公表。",
+    "certainty": "confirmed"
+  },
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.shueisha.co.jp/wp-content/uploads/2026/09/Shueisha20260928-1.pdf",
+      "type": "official",
+      "title": "集英社：個人情報に関する公表資料",
+      "published_on": "2026-09-28",
+      "checked_on": "2026-10-07"
+    }
+  ],
+  "notes": "原文の単位は件。ほかに案件情報630件、送信メール11,237件、取引先情報10,780件があり、人数に換算・合算しない。",
+  "updates": []
+}

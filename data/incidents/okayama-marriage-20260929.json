@@ -1,0 +1,50 @@
+{
+  "id": "okayama-marriage-20260929",
+  "organization": {
+    "name": "おかやま結婚推進協会",
+    "sector": "企業・団体"
+  },
+  "title": "婚活イベントの申込フォームの設定ミスで、申込者26人の情報が閲覧可能に",
+  "published_on": "2026-09-29",
+  "occurred_on": null,
+  "detected_on": "2026-09-26",
+  "updated_on": "2026-10-07",
+  "first_published_on": "2026-09-29",
+  "publication_kind": "initial",
+  "verification": "secondary",
+  "leak_status": "exposed",
+  "summary": "婚活イベントの申込フォームの設定ミスで、申込者26人の情報が閲覧可能に。イベントは中止。",
+  "impact": [
+    {
+      "count": 26,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "対象者数"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "年齢",
+    "住所",
+    "職業",
+    "電話番号",
+    "メールアドレス"
+  ],
+  "cause": {
+    "category": "configuration",
+    "detail": "申込フォームの公開設定ミス。",
+    "certainty": "confirmed"
+  },
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://news.ksb.co.jp/article/16922616",
+      "type": "news",
+      "title": "岡山県共催「婚活イベント」が中止　申込者の「氏名」「電話番号」など個人情報が漏えい | KSBニュース | KSB瀬戸内海放送",
+      "published_on": "2026-09-29",
+      "checked_on": "2026-10-07"
+    }
+  ],
+  "notes": "",
+  "updates": []
+}

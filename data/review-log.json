@@ -376,5 +376,446 @@
     "source_urls": [
       "https://corp.benefit-one.co.jp/company/news/news/2026/20260930/20260930.pdf"
     ]
+  },
+  {
+    "candidate": {
+      "id": "asahi-therapeutics-20261006",
+      "reported_on": "2026-10-06",
+      "organization": "旭化成セラピューティクス",
+      "note": "最大約51.4万人＋従業員約700人／可能性",
+      "reference_url": "https://www.pahoo.org/e-soul/privacy/casestudy/case-023-01.shtm",
+      "verification": "pending",
+      "origin": "user_supplied_research_list",
+      "added_on": "2026-10-07"
+    },
+    "reviewed_on": "2026-10-07",
+    "resolution": "published",
+    "incident_ids": [
+      "asahi-therapeutics-20261006"
+    ],
+    "reason": "医療従事者は最大約51.4万人。そのうち約4.4万人はメールアドレスも含む内数であり加算しない。",
+    "source_urls": [
+      "https://www.asahi-kasei.co.jp/pharma/oshirase_20261006.html"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "jogmec-20261002",
+      "reported_on": "2026-10-02",
+      "organization": "JOGMEC",
+      "note": "約8,500メールアドレス／可能性",
+      "reference_url": "https://innovatopia.jp/cyber-security/cyber-security-news/118602/",
+      "verification": "pending",
+      "origin": "user_supplied_research_list",
+      "added_on": "2026-10-07"
+    },
+    "reviewed_on": "2026-10-07",
+    "resolution": "published",
+    "incident_ids": [
+      "jogmec-20261002"
+    ],
+    "reason": "約1,100件は役職員分、約7,400件は機構外。人数ではなくメールアドレス件数。",
+    "source_urls": [
+      "https://www.jogmec.go.jp/news/information/information_00706.html"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "japanpost-20260929",
+      "reported_on": "2026-09-29",
+      "organization": "日本郵政・日本郵便",
+      "note": "郵便局アプリ・ゆうID／19人・69件",
+      "reference_url": "https://rocket-boys.co.jp/security-measures-lab/2026-09-data-breach-cases-summary/",
+      "verification": "pending",
+      "origin": "user_supplied_research_list",
+      "added_on": "2026-10-07"
+    },
+    "reviewed_on": "2026-10-07",
+    "resolution": "published",
+    "incident_ids": [
+      "japanpost-20260929"
+    ],
+    "reason": "出典本文で事案と影響範囲を照合。",
+    "source_urls": [
+      "https://files.japanpost.jp/assets/34d9d11432734cfaa759e78fe395b688/18239b871f714763aa7eb15c25e7b30b/20260929_01.pdf"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "seicomart-20260929",
+      "reported_on": "2026-09-29",
+      "organization": "セイコーマート",
+      "note": "約57万アカウント／9月30日の続報では572,022人の閲覧を確認",
+      "reference_url": "https://rocket-boys.co.jp/security-measures-lab/2026-09-data-breach-cases-summary/",
+      "verification": "pending",
+      "origin": "user_supplied_research_list",
+      "added_on": "2026-10-07"
+    },
+    "reviewed_on": "2026-10-07",
+    "resolution": "published",
+    "incident_ids": [
+      "seicomart-20260929"
+    ],
+    "reason": "本文で確認した9月30日第三報を掲載日とする。候補の「可能性」から閲覧確認へ更新。",
+    "source_urls": [
+      "https://online.seicomart.co.jp/delivery/cms/preview.php?pre_no=121"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "okayama-marriage-20260929",
+      "reported_on": "2026-09-29",
+      "organization": "おかやま結婚推進協会",
+      "note": "婚活イベント／26人",
+      "reference_url": "https://rocket-boys.co.jp/security-measures-lab/2026-09-data-breach-cases-summary/",
+      "verification": "pending",
+      "origin": "user_supplied_research_list",
+      "added_on": "2026-10-07"
+    },
+    "reviewed_on": "2026-10-07",
+    "resolution": "published",
+    "incident_ids": [
+      "okayama-marriage-20260929"
+    ],
+    "reason": "出典本文で事案と影響範囲を照合。",
+    "source_urls": [
+      "https://news.ksb.co.jp/article/16922616"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "shizuoka-education-20260929",
+      "reported_on": "2026-09-29",
+      "organization": "静岡県教育委員会",
+      "note": "621人／紛失",
+      "reference_url": "https://rocket-boys.co.jp/security-measures-lab/2026-09-data-breach-cases-summary/",
+      "verification": "pending",
+      "origin": "user_supplied_research_list",
+      "added_on": "2026-10-07"
+    },
+    "reviewed_on": "2026-10-07",
+    "resolution": "published",
+    "incident_ids": [
+      "shizuoka-education-20260929"
+    ],
+    "reason": "出典本文で事案と影響範囲を照合。",
+    "source_urls": [
+      "https://news.yahoo.co.jp/articles/40fa2193a06c77f8ccf44ff760c5bc84d32afe60"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "fukuoka-20260929",
+      "reported_on": "2026-09-29",
+      "organization": "福岡県",
+      "note": "183人／可能性",
+      "reference_url": "https://rocket-boys.co.jp/security-measures-lab/2026-09-data-breach-cases-summary/",
+      "verification": "pending",
+      "origin": "user_supplied_research_list",
+      "added_on": "2026-10-07"
+    },
+    "reviewed_on": "2026-10-07",
+    "resolution": "published",
+    "incident_ids": [
+      "fukuoka-20260929"
+    ],
+    "reason": "出典本文で事案と影響範囲を照合。",
+    "source_urls": [
+      "https://mainichi.jp/articles/20260929/k00/00m/310/233000c"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "saitama-medical-20260928",
+      "reported_on": "2026-09-28",
+      "organization": "さいたま市民医療センター",
+      "note": "4人／可能性",
+      "reference_url": "https://rocket-boys.co.jp/security-measures-lab/2026-09-latest-cyber-attack-cases/",
+      "verification": "pending",
+      "origin": "user_supplied_research_list",
+      "added_on": "2026-10-07"
+    },
+    "reviewed_on": "2026-10-07",
+    "resolution": "published",
+    "incident_ids": [
+      "saitama-medical-20260928"
+    ],
+    "reason": "職員は2人、患者写真は2枚。候補の「4人」は本文から確定できないため使用しない。",
+    "source_urls": [
+      "https://www.scmc.or.jp/contents/wp-content/uploads/2026/09/fca6d831f95463684a073652fd3b9560.pdf"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "shueisha-20260928",
+      "reported_on": "2026-09-28",
+      "organization": "集英社",
+      "note": "HAPPY PLUS COMMUNITY／2,835人",
+      "reference_url": "https://rocket-boys.co.jp/security-measures-lab/2026-09-latest-cyber-attack-cases/",
+      "verification": "pending",
+      "origin": "user_supplied_research_list",
+      "added_on": "2026-10-07"
+    },
+    "reviewed_on": "2026-10-07",
+    "resolution": "published",
+    "incident_ids": [
+      "shueisha-20260928"
+    ],
+    "reason": "原文の単位は件。ほかに案件情報630件、送信メール11,237件、取引先情報10,780件があり、人数に換算・合算しない。",
+    "source_urls": [
+      "https://www.shueisha.co.jp/wp-content/uploads/2026/09/Shueisha20260928-1.pdf"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "nagoya-20260928",
+      "reported_on": "2026-09-28",
+      "organization": "名古屋市",
+      "note": "572事業者／個人情報該当性と対象範囲を要確認",
+      "reference_url": "https://rocket-boys.co.jp/security-measures-lab/2026-09-latest-cyber-attack-cases/",
+      "verification": "pending",
+      "origin": "user_supplied_research_list",
+      "added_on": "2026-10-07"
+    },
+    "reviewed_on": "2026-10-07",
+    "resolution": "published",
+    "incident_ids": [
+      "nagoya-20260928"
+    ],
+    "reason": "担当者の個人情報を含むため対象。候補の9月28日は発生日で、確認できた報道日は9月29日。",
+    "source_urls": [
+      "https://news.ntv.co.jp/category/society/ctfb140e1836d440f58fbd1df16fe28e8a"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "nippon-rentacar-20260926",
+      "reported_on": "2026-09-26",
+      "organization": "ニッポンレンタカー",
+      "note": "41人／可能性",
+      "reference_url": "https://www.pahoo.org/e-soul/privacy/casestudy/case-023-03.shtm",
+      "verification": "pending",
+      "origin": "user_supplied_research_list",
+      "added_on": "2026-10-07"
+    },
+    "reviewed_on": "2026-10-07",
+    "resolution": "published",
+    "incident_ids": [
+      "nippon-rentacar-20260926"
+    ],
+    "reason": "出典本文で事案と影響範囲を照合。",
+    "source_urls": [
+      "https://www.nipponrentacar.co.jp/info/202609.html"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "toyama-mental-20260926",
+      "reported_on": "2026-09-26",
+      "organization": "富山県心の健康センター",
+      "note": "1人／誤送付",
+      "reference_url": "https://www.pahoo.org/e-soul/privacy/casestudy/case-023-03.shtm",
+      "verification": "pending",
+      "origin": "user_supplied_research_list",
+      "added_on": "2026-10-07"
+    },
+    "reviewed_on": "2026-10-07",
+    "resolution": "published",
+    "incident_ids": [
+      "toyama-mental-20260926"
+    ],
+    "reason": "出典本文で事案と影響範囲を照合。",
+    "source_urls": [
+      "https://newsdig.tbs.co.jp/articles/tut/2969133?display=1"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "smaregi-20260925",
+      "reported_on": "2026-09-25",
+      "organization": "スマレジ",
+      "note": "4社の環境／人数・件数は要確認",
+      "reference_url": "https://www.pahoo.org/e-soul/privacy/casestudy/case-023-03.shtm",
+      "verification": "pending",
+      "origin": "user_supplied_research_list",
+      "added_on": "2026-10-07"
+    },
+    "reviewed_on": "2026-10-07",
+    "resolution": "published",
+    "incident_ids": [
+      "smaregi-20260925"
+    ],
+    "reason": "人数・個人データの件数は未公表。4は利用企業数。",
+    "source_urls": [
+      "https://ec.smaregi.jp/repeat/news/2026925-2/"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "legoland-20260925",
+      "reported_on": "2026-09-25",
+      "organization": "LEGOLAND Japan",
+      "note": "1,557予約／可能性",
+      "reference_url": "https://www.pahoo.org/e-soul/privacy/casestudy/case-023-03.shtm",
+      "verification": "pending",
+      "origin": "user_supplied_research_list",
+      "added_on": "2026-10-07"
+    },
+    "reviewed_on": "2026-10-07",
+    "resolution": "published",
+    "incident_ids": [
+      "legoland-20260925"
+    ],
+    "reason": "予約数を人数として扱わない。",
+    "source_urls": [
+      "https://www.legoland.jp/operation/news/news-release/news20260925/"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "kashihara-20260918",
+      "reported_on": "2026-09-18",
+      "organization": "橿原市",
+      "note": "313人／ApplyNow関連",
+      "reference_url": "https://www.pahoo.org/e-soul/privacy/casestudy/case-023-03.shtm",
+      "verification": "pending",
+      "origin": "user_supplied_research_list",
+      "added_on": "2026-10-07"
+    },
+    "reviewed_on": "2026-10-07",
+    "resolution": "published",
+    "incident_ids": [
+      "kashihara-20260918"
+    ],
+    "reason": "原文は対象件数313件。調査中で数は未確定。選考動画や本人確認書類の画像等は別領域で対象外。",
+    "source_urls": [
+      "https://www.city.kashihara.nara.jp/material/files/group/1/Press_080918_dougasenkou.pdf"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "hyogo-20260918",
+      "reported_on": "2026-09-18",
+      "organization": "兵庫県",
+      "note": "972人／黒塗りを解除可能",
+      "reference_url": "https://www.pahoo.org/e-soul/privacy/casestudy/case-023-03.shtm",
+      "verification": "pending",
+      "origin": "user_supplied_research_list",
+      "added_on": "2026-10-07"
+    },
+    "reviewed_on": "2026-10-07",
+    "resolution": "published",
+    "incident_ids": [
+      "hyogo-20260918"
+    ],
+    "reason": "972は延べ人数。重複を除いた人数は不明。",
+    "source_urls": [
+      "https://www.daily.co.jp/society/national/2026/09/18/0020834406.shtml"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "chibagin-20260917",
+      "reported_on": "2026-09-17",
+      "organization": "ちばぎん商店",
+      "note": "約2,338件／可能性",
+      "reference_url": "https://www.pahoo.org/e-soul/privacy/casestudy/case-023-03.shtm",
+      "verification": "pending",
+      "origin": "user_supplied_research_list",
+      "added_on": "2026-10-07"
+    },
+    "reviewed_on": "2026-10-07",
+    "resolution": "published",
+    "incident_ids": [
+      "chibagin-20260917"
+    ],
+    "reason": "個人顧客は約722先、法人顧客は約1,616先。2,338人とは扱わない。",
+    "source_urls": [
+      "https://www.chibabank.co.jp/news/news20260917_01"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "ichinomiya-20260917",
+      "reported_on": "2026-09-17",
+      "organization": "一宮市",
+      "note": "約600人／ApplyNow関連",
+      "reference_url": "https://www.pahoo.org/e-soul/privacy/casestudy/case-023-03.shtm",
+      "verification": "pending",
+      "origin": "user_supplied_research_list",
+      "added_on": "2026-10-07"
+    },
+    "reviewed_on": "2026-10-07",
+    "resolution": "published",
+    "incident_ids": [
+      "ichinomiya-20260917"
+    ],
+    "reason": "本文の無料公開部分で確認。面接動画は別領域で影響なし。",
+    "source_urls": [
+      "https://www.chunichi.co.jp/article/1312832"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "cosme-20260916",
+      "reported_on": "2026-09-16",
+      "organization": "アイスタイル",
+      "note": "@cosme／10,997件／可能性",
+      "reference_url": "https://www.pahoo.org/e-soul/privacy/casestudy/case-023-03.shtm",
+      "verification": "pending",
+      "origin": "user_supplied_research_list",
+      "added_on": "2026-10-07"
+    },
+    "reviewed_on": "2026-10-07",
+    "resolution": "published",
+    "incident_ids": [
+      "cosme-20260916"
+    ],
+    "reason": "原文の単位は人。URLは社内関係者だけで共有され、第三者による取得は確認されていない。",
+    "source_urls": [
+      "https://www.istyle.co.jp/news/info/2026/09/20260916-3.html"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "seiho-20260914",
+      "reported_on": "2026-09-14",
+      "organization": "生命保険協会",
+      "note": "27,407人・延べ37,929件／可能性",
+      "reference_url": "https://www.pahoo.org/e-soul/privacy/casestudy/case-023-03.shtm",
+      "verification": "pending",
+      "origin": "user_supplied_research_list",
+      "added_on": "2026-10-07"
+    },
+    "reviewed_on": "2026-10-07",
+    "resolution": "published",
+    "incident_ids": [
+      "seiho-20260914"
+    ],
+    "reason": "公式資料は人数ではなく件数表記。実際の個人情報取得は特定に至らず。",
+    "source_urls": [
+      "https://www.seiho.or.jp/info/news/shared/mt-item/20260914.pdf"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "prudential-20260914",
+      "reported_on": "2026-09-14",
+      "organization": "プルデンシャル生命",
+      "note": "1,570人／紛失",
+      "reference_url": "https://www.pahoo.org/e-soul/privacy/casestudy/case-023-03.shtm",
+      "verification": "pending",
+      "origin": "user_supplied_research_list",
+      "added_on": "2026-10-07"
+    },
+    "reviewed_on": "2026-10-07",
+    "resolution": "published",
+    "incident_ids": [
+      "prudential-20260914"
+    ],
+    "reason": "対象1,570人は持ち出した個人情報の範囲。第三者への提供・利用の確認とは区別。",
+    "source_urls": [
+      "https://www.prudential.co.jp/news/pdf/1028/20260914.pdf"
+    ]
   }
 ]

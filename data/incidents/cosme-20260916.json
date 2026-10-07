@@ -1,0 +1,47 @@
+{
+  "id": "cosme-20260916",
+  "organization": {
+    "name": "アイスタイル",
+    "sector": "企業・団体"
+  },
+  "title": "社内でのファイル受け渡しの際、@cosme登録者10,997人の情報が約20分間インターネット上で閲覧可能だった",
+  "published_on": "2026-09-16",
+  "occurred_on": "2026-09-02",
+  "detected_on": null,
+  "updated_on": "2026-10-07",
+  "first_published_on": "2026-09-16",
+  "publication_kind": "initial",
+  "verification": "official",
+  "leak_status": "exposed",
+  "summary": "社内でのファイル受け渡しの際、@cosme登録者10,997人の情報が約20分間インターネット上で閲覧可能だった。",
+  "impact": [
+    {
+      "count": 10997,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "対象者数"
+    }
+  ],
+  "data_types": [
+    "メールアドレス",
+    "メルマガ配信設定",
+    "ユーザーID"
+  ],
+  "cause": {
+    "category": "configuration",
+    "detail": "外部ファイル転送サービスの公開設定不備。",
+    "certainty": "confirmed"
+  },
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.istyle.co.jp/news/info/2026/09/20260916-3.html",
+      "type": "official",
+      "title": "@cosmeご登録の個人情報の漏えいの可能性に関するお知らせとお詫び [istyle 株式会社アイスタイル]",
+      "published_on": "2026-09-16",
+      "checked_on": "2026-10-07"
+    }
+  ],
+  "notes": "原文の単位は人。URLは社内関係者だけで共有され、第三者による取得は確認されていない。",
+  "updates": []
+}

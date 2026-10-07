@@ -1,0 +1,48 @@
+{
+  "id": "ichinomiya-20260917",
+  "organization": {
+    "name": "一宮市",
+    "sector": "自治体・公的機関"
+  },
+  "title": "過去の採用試験で使用したApplyNowの録画面接システムで、受験者約600人の情報が漏えいした可能性",
+  "published_on": "2026-09-17",
+  "occurred_on": null,
+  "detected_on": "2026-09-11",
+  "updated_on": "2026-10-07",
+  "first_published_on": "2026-09-17",
+  "publication_kind": "initial",
+  "verification": "secondary",
+  "leak_status": "suspected",
+  "summary": "過去の採用試験で使用したApplyNowの録画面接システムで、受験者約600人の情報が漏えいした可能性。",
+  "impact": [
+    {
+      "count": 600,
+      "unit": "people",
+      "qualifier": "approximate",
+      "description": "対象者数"
+    }
+  ],
+  "data_types": [
+    "受験番号",
+    "氏名",
+    "電話番号",
+    "メールアドレス"
+  ],
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。具体的な侵入手法は未公表。",
+    "certainty": "confirmed"
+  },
+  "related_vendor": "ApplyNow",
+  "sources": [
+    {
+      "url": "https://www.chunichi.co.jp/article/1312832",
+      "type": "news",
+      "title": "職員採用試験の録画面接システムに不正アクセス　一宮市の受験者の個人情報漏えいか：中日新聞Web",
+      "published_on": "2026-09-17",
+      "checked_on": "2026-10-07"
+    }
+  ],
+  "notes": "本文の無料公開部分で確認。面接動画は別領域で影響なし。",
+  "updates": []
+}

@@ -1,0 +1,51 @@
+{
+  "id": "kashihara-20260918",
+  "organization": {
+    "name": "橿原市",
+    "sector": "自治体・公的機関"
+  },
+  "title": "過去の職員採用試験で使用したApplyNowへの攻撃で、応募者情報が漏えいした可能性",
+  "published_on": "2026-09-18",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-07",
+  "first_published_on": "2026-09-18",
+  "publication_kind": "initial",
+  "verification": "official",
+  "leak_status": "suspected",
+  "summary": "過去の職員採用試験で使用したApplyNowへの攻撃で、応募者情報が漏えいした可能性。",
+  "impact": [
+    {
+      "count": 313,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "対象者数"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "メールアドレス",
+    "電話番号",
+    "生年月日",
+    "性別",
+    "住所",
+    "職業"
+  ],
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。具体的な侵入手法は未公表。",
+    "certainty": "confirmed"
+  },
+  "related_vendor": "ApplyNow",
+  "sources": [
+    {
+      "url": "https://www.city.kashihara.nara.jp/material/files/group/1/Press_080918_dougasenkou.pdf",
+      "type": "official",
+      "title": "橿原市：個人情報に関する公表資料",
+      "published_on": "2026-09-18",
+      "checked_on": "2026-10-07"
+    }
+  ],
+  "notes": "原文は対象件数313件。調査中で数は未確定。選考動画や本人確認書類の画像等は別領域で対象外。",
+  "updates": []
+}

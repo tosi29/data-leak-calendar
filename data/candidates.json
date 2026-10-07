@@ -1,15 +1,5 @@
 [
   {
-    "id": "asahi-therapeutics-20261006",
-    "reported_on": "2026-10-06",
-    "organization": "旭化成セラピューティクス",
-    "note": "最大約51.4万人＋従業員約700人／可能性",
-    "reference_url": "https://www.pahoo.org/e-soul/privacy/casestudy/case-023-01.shtm",
-    "verification": "pending",
-    "origin": "user_supplied_research_list",
-    "added_on": "2026-10-07"
-  },
-  {
     "id": "nakabayashi-20261006",
     "reported_on": "2026-10-06",
     "organization": "ナカバヤシ",
@@ -34,16 +24,6 @@
     "reported_on": "2026-10-04",
     "organization": "日本経済新聞社",
     "note": "Google Workspace／1,646人／可能性",
-    "reference_url": "https://innovatopia.jp/cyber-security/cyber-security-news/118602/",
-    "verification": "pending",
-    "origin": "user_supplied_research_list",
-    "added_on": "2026-10-07"
-  },
-  {
-    "id": "jogmec-20261002",
-    "reported_on": "2026-10-02",
-    "organization": "JOGMEC",
-    "note": "約8,500メールアドレス／可能性",
     "reference_url": "https://innovatopia.jp/cyber-security/cyber-security-news/118602/",
     "verification": "pending",
     "origin": "user_supplied_research_list",
@@ -80,26 +60,6 @@
     "added_on": "2026-10-07"
   },
   {
-    "id": "seicomart-20260929",
-    "reported_on": "2026-09-29",
-    "organization": "セイコーマート",
-    "note": "約57万アカウント／9月30日の続報では572,022人の閲覧を確認",
-    "reference_url": "https://rocket-boys.co.jp/security-measures-lab/2026-09-data-breach-cases-summary/",
-    "verification": "pending",
-    "origin": "user_supplied_research_list",
-    "added_on": "2026-10-07"
-  },
-  {
-    "id": "japanpost-20260929",
-    "reported_on": "2026-09-29",
-    "organization": "日本郵政・日本郵便",
-    "note": "郵便局アプリ・ゆうID／19人・69件",
-    "reference_url": "https://rocket-boys.co.jp/security-measures-lab/2026-09-data-breach-cases-summary/",
-    "verification": "pending",
-    "origin": "user_supplied_research_list",
-    "added_on": "2026-10-07"
-  },
-  {
     "id": "toppan-20260929",
     "reported_on": "2026-09-29",
     "organization": "TOPPAN",
@@ -130,70 +90,10 @@
     "added_on": "2026-10-07"
   },
   {
-    "id": "okayama-marriage-20260929",
-    "reported_on": "2026-09-29",
-    "organization": "おかやま結婚推進協会",
-    "note": "婚活イベント／26人",
-    "reference_url": "https://rocket-boys.co.jp/security-measures-lab/2026-09-data-breach-cases-summary/",
-    "verification": "pending",
-    "origin": "user_supplied_research_list",
-    "added_on": "2026-10-07"
-  },
-  {
-    "id": "shizuoka-education-20260929",
-    "reported_on": "2026-09-29",
-    "organization": "静岡県教育委員会",
-    "note": "621人／紛失",
-    "reference_url": "https://rocket-boys.co.jp/security-measures-lab/2026-09-data-breach-cases-summary/",
-    "verification": "pending",
-    "origin": "user_supplied_research_list",
-    "added_on": "2026-10-07"
-  },
-  {
-    "id": "fukuoka-20260929",
-    "reported_on": "2026-09-29",
-    "organization": "福岡県",
-    "note": "183人／可能性",
-    "reference_url": "https://rocket-boys.co.jp/security-measures-lab/2026-09-data-breach-cases-summary/",
-    "verification": "pending",
-    "origin": "user_supplied_research_list",
-    "added_on": "2026-10-07"
-  },
-  {
-    "id": "shueisha-20260928",
-    "reported_on": "2026-09-28",
-    "organization": "集英社",
-    "note": "HAPPY PLUS COMMUNITY／2,835人",
-    "reference_url": "https://rocket-boys.co.jp/security-measures-lab/2026-09-latest-cyber-attack-cases/",
-    "verification": "pending",
-    "origin": "user_supplied_research_list",
-    "added_on": "2026-10-07"
-  },
-  {
     "id": "kotoura-20260928",
     "reported_on": "2026-09-28",
     "organization": "琴浦町",
     "note": "828人／可能性",
-    "reference_url": "https://rocket-boys.co.jp/security-measures-lab/2026-09-latest-cyber-attack-cases/",
-    "verification": "pending",
-    "origin": "user_supplied_research_list",
-    "added_on": "2026-10-07"
-  },
-  {
-    "id": "nagoya-20260928",
-    "reported_on": "2026-09-28",
-    "organization": "名古屋市",
-    "note": "572事業者／個人情報該当性と対象範囲を要確認",
-    "reference_url": "https://rocket-boys.co.jp/security-measures-lab/2026-09-latest-cyber-attack-cases/",
-    "verification": "pending",
-    "origin": "user_supplied_research_list",
-    "added_on": "2026-10-07"
-  },
-  {
-    "id": "saitama-medical-20260928",
-    "reported_on": "2026-09-28",
-    "organization": "さいたま市民医療センター",
-    "note": "4人／可能性",
     "reference_url": "https://rocket-boys.co.jp/security-measures-lab/2026-09-latest-cyber-attack-cases/",
     "verification": "pending",
     "origin": "user_supplied_research_list",
@@ -210,70 +110,10 @@
     "added_on": "2026-10-07"
   },
   {
-    "id": "nippon-rentacar-20260926",
-    "reported_on": "2026-09-26",
-    "organization": "ニッポンレンタカー",
-    "note": "41人／可能性",
-    "reference_url": "https://www.pahoo.org/e-soul/privacy/casestudy/case-023-03.shtm",
-    "verification": "pending",
-    "origin": "user_supplied_research_list",
-    "added_on": "2026-10-07"
-  },
-  {
-    "id": "toyama-mental-20260926",
-    "reported_on": "2026-09-26",
-    "organization": "富山県心の健康センター",
-    "note": "1人／誤送付",
-    "reference_url": "https://www.pahoo.org/e-soul/privacy/casestudy/case-023-03.shtm",
-    "verification": "pending",
-    "origin": "user_supplied_research_list",
-    "added_on": "2026-10-07"
-  },
-  {
-    "id": "smaregi-20260925",
-    "reported_on": "2026-09-25",
-    "organization": "スマレジ",
-    "note": "4社の環境／人数・件数は要確認",
-    "reference_url": "https://www.pahoo.org/e-soul/privacy/casestudy/case-023-03.shtm",
-    "verification": "pending",
-    "origin": "user_supplied_research_list",
-    "added_on": "2026-10-07"
-  },
-  {
-    "id": "legoland-20260925",
-    "reported_on": "2026-09-25",
-    "organization": "LEGOLAND Japan",
-    "note": "1,557予約／可能性",
-    "reference_url": "https://www.pahoo.org/e-soul/privacy/casestudy/case-023-03.shtm",
-    "verification": "pending",
-    "origin": "user_supplied_research_list",
-    "added_on": "2026-10-07"
-  },
-  {
     "id": "aichi-aicon-20260921",
     "reported_on": "2026-09-21",
     "organization": "愛知県",
     "note": "あいこんナビ／599人／約8年間公開",
-    "reference_url": "https://www.pahoo.org/e-soul/privacy/casestudy/case-023-03.shtm",
-    "verification": "pending",
-    "origin": "user_supplied_research_list",
-    "added_on": "2026-10-07"
-  },
-  {
-    "id": "hyogo-20260918",
-    "reported_on": "2026-09-18",
-    "organization": "兵庫県",
-    "note": "972人／黒塗りを解除可能",
-    "reference_url": "https://www.pahoo.org/e-soul/privacy/casestudy/case-023-03.shtm",
-    "verification": "pending",
-    "origin": "user_supplied_research_list",
-    "added_on": "2026-10-07"
-  },
-  {
-    "id": "kashihara-20260918",
-    "reported_on": "2026-09-18",
-    "organization": "橿原市",
-    "note": "313人／ApplyNow関連",
     "reference_url": "https://www.pahoo.org/e-soul/privacy/casestudy/case-023-03.shtm",
     "verification": "pending",
     "origin": "user_supplied_research_list",
@@ -290,40 +130,10 @@
     "added_on": "2026-10-07"
   },
   {
-    "id": "chibagin-20260917",
-    "reported_on": "2026-09-17",
-    "organization": "ちばぎん商店",
-    "note": "約2,338件／可能性",
-    "reference_url": "https://www.pahoo.org/e-soul/privacy/casestudy/case-023-03.shtm",
-    "verification": "pending",
-    "origin": "user_supplied_research_list",
-    "added_on": "2026-10-07"
-  },
-  {
     "id": "aichi-mental-20260917",
     "reported_on": "2026-09-17",
     "organization": "愛知県精神保健福祉センター",
     "note": "172人／紛失",
-    "reference_url": "https://www.pahoo.org/e-soul/privacy/casestudy/case-023-03.shtm",
-    "verification": "pending",
-    "origin": "user_supplied_research_list",
-    "added_on": "2026-10-07"
-  },
-  {
-    "id": "ichinomiya-20260917",
-    "reported_on": "2026-09-17",
-    "organization": "一宮市",
-    "note": "約600人／ApplyNow関連",
-    "reference_url": "https://www.pahoo.org/e-soul/privacy/casestudy/case-023-03.shtm",
-    "verification": "pending",
-    "origin": "user_supplied_research_list",
-    "added_on": "2026-10-07"
-  },
-  {
-    "id": "cosme-20260916",
-    "reported_on": "2026-09-16",
-    "organization": "アイスタイル",
-    "note": "@cosme／10,997件／可能性",
     "reference_url": "https://www.pahoo.org/e-soul/privacy/casestudy/case-023-03.shtm",
     "verification": "pending",
     "origin": "user_supplied_research_list",
@@ -364,26 +174,6 @@
     "reported_on": "2026-09-15",
     "organization": "ロート製薬",
     "note": "通話音声・顧客管理情報／可能性",
-    "reference_url": "https://www.pahoo.org/e-soul/privacy/casestudy/case-023-03.shtm",
-    "verification": "pending",
-    "origin": "user_supplied_research_list",
-    "added_on": "2026-10-07"
-  },
-  {
-    "id": "seiho-20260914",
-    "reported_on": "2026-09-14",
-    "organization": "生命保険協会",
-    "note": "27,407人・延べ37,929件／可能性",
-    "reference_url": "https://www.pahoo.org/e-soul/privacy/casestudy/case-023-03.shtm",
-    "verification": "pending",
-    "origin": "user_supplied_research_list",
-    "added_on": "2026-10-07"
-  },
-  {
-    "id": "prudential-20260914",
-    "reported_on": "2026-09-14",
-    "organization": "プルデンシャル生命",
-    "note": "1,570人／紛失",
     "reference_url": "https://www.pahoo.org/e-soul/privacy/casestudy/case-023-03.shtm",
     "verification": "pending",
     "origin": "user_supplied_research_list",

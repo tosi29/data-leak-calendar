@@ -1,0 +1,47 @@
+{
+  "id": "legoland-20260925",
+  "organization": {
+    "name": "LEGOLAND Japan",
+    "sector": "企業・団体"
+  },
+  "title": "ホテルの外部予約プラットフォームに不正アクセス",
+  "published_on": "2026-09-25",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-07",
+  "first_published_on": "2026-09-25",
+  "publication_kind": "initial",
+  "verification": "official",
+  "leak_status": "suspected",
+  "summary": "ホテルの外部予約プラットフォームに不正アクセス。1,557予約で連絡先情報への影響の可能性。",
+  "impact": [
+    {
+      "count": 1557,
+      "unit": "bookings",
+      "qualifier": "exact",
+      "description": "対象者数"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "メールアドレス",
+    "電話番号"
+  ],
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。具体的な侵入手法は未公表。",
+    "certainty": "confirmed"
+  },
+  "related_vendor": "Amadeus IT Group",
+  "sources": [
+    {
+      "url": "https://www.legoland.jp/operation/news/news-release/news20260925/",
+      "type": "official",
+      "title": "News20260925",
+      "published_on": "2026-09-25",
+      "checked_on": "2026-10-07"
+    }
+  ],
+  "notes": "予約数を人数として扱わない。",
+  "updates": []
+}

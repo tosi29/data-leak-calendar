@@ -1,0 +1,53 @@
+{
+  "id": "japanpost-20260929",
+  "organization": {
+    "name": "日本郵政・日本郵便",
+    "sector": "企業・団体"
+  },
+  "title": "郵便局アプリへの不正アクセスで、ゆうID・住所録・送り状に関係する19人分69件の情報を取得された",
+  "published_on": "2026-09-29",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-07",
+  "first_published_on": "2026-09-29",
+  "publication_kind": "initial",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "summary": "郵便局アプリへの不正アクセスで、ゆうID・住所録・送り状に関係する19人分69件の情報を取得された。",
+  "impact": [
+    {
+      "count": 19,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "対象者数"
+    },
+    {
+      "count": 69,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "19人分の情報件数"
+    }
+  ],
+  "data_types": [
+    "会員情報",
+    "住所録",
+    "送り状情報"
+  ],
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。具体的な侵入手法は未公表。",
+    "certainty": "confirmed"
+  },
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://files.japanpost.jp/assets/34d9d11432734cfaa759e78fe395b688/18239b871f714763aa7eb15c25e7b30b/20260929_01.pdf",
+      "type": "official",
+      "title": "日本郵政・日本郵便：個人情報に関する公表資料",
+      "published_on": "2026-09-29",
+      "checked_on": "2026-10-07"
+    }
+  ],
+  "notes": "",
+  "updates": []
+}

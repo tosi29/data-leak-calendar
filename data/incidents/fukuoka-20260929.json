@@ -1,0 +1,48 @@
+{
+  "id": "fukuoka-20260929",
+  "organization": {
+    "name": "福岡県",
+    "sector": "自治体・公的機関"
+  },
+  "title": "介護事業者の認証申請で、延べ24法人の役員183人の情報がクラウド上で閲覧可能だった",
+  "published_on": "2026-09-29",
+  "occurred_on": null,
+  "detected_on": "2026-09-17",
+  "updated_on": "2026-10-07",
+  "first_published_on": "2026-09-29",
+  "publication_kind": "initial",
+  "verification": "secondary",
+  "leak_status": "exposed",
+  "summary": "介護事業者の認証申請で、延べ24法人の役員183人の情報がクラウド上で閲覧可能だった。",
+  "impact": [
+    {
+      "count": 183,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "対象者数"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "生年月日",
+    "性別",
+    "役職"
+  ],
+  "cause": {
+    "category": "configuration",
+    "detail": "申請用ファイルをクラウド上で書き込める設定で共有。複数人確認を実施していなかった。",
+    "certainty": "confirmed"
+  },
+  "related_vendor": "麻生教育サービス",
+  "sources": [
+    {
+      "url": "https://mainichi.jp/articles/20260929/k00/00m/310/233000c",
+      "type": "news",
+      "title": "福岡県が個人情報漏えい　介護事業者24法人の役員183人分 | 毎日新聞",
+      "published_on": "2026-09-29",
+      "checked_on": "2026-10-07"
+    }
+  ],
+  "notes": "",
+  "updates": []
+}

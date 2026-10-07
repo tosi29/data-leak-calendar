@@ -1,0 +1,50 @@
+{
+  "id": "toyama-mental-20260926",
+  "organization": {
+    "name": "富山県心の健康センター",
+    "sector": "自治体・公的機関"
+  },
+  "title": "患者1人の自立支援医療受給者証などを別の医療機関へ誤送付",
+  "published_on": "2026-09-26",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-07",
+  "first_published_on": "2026-09-26",
+  "publication_kind": "initial",
+  "verification": "secondary",
+  "leak_status": "confirmed",
+  "summary": "患者1人の自立支援医療受給者証などを別の医療機関へ誤送付。",
+  "impact": [
+    {
+      "count": 1,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "対象者数"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "生年月日",
+    "保険情報",
+    "障害者手帳情報",
+    "疾病名"
+  ],
+  "cause": {
+    "category": "misdelivery",
+    "detail": "指定医療機関名の入力誤り。",
+    "certainty": "confirmed"
+  },
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://newsdig.tbs.co.jp/articles/tut/2969133?display=1",
+      "type": "news",
+      "title": "医療機関からの指摘で判明…富山県「心の健康センター」が患者の個人情報含む「自立支援医療受給者証」などを別医療機関へ誤送付 | 富山のニュース｜天気・防災｜チューリップテレビ (1ページ)",
+      "published_on": "2026-09-26",
+      "checked_on": "2026-10-07"
+    }
+  ],
+  "notes": "",
+  "updates": []
+}

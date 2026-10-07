@@ -1,0 +1,53 @@
+{
+  "id": "saitama-medical-20260928",
+  "organization": {
+    "name": "さいたま市民医療センター",
+    "sector": "自治体・公的機関"
+  },
+  "title": "職員専用ページに添付されたマニュアルが直接アクセス可能で、患者写真と職員情報が閲覧可能だった",
+  "published_on": "2026-09-28",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-07",
+  "first_published_on": "2026-09-28",
+  "publication_kind": "initial",
+  "verification": "official",
+  "leak_status": "exposed",
+  "summary": "職員専用ページに添付されたマニュアルが直接アクセス可能で、患者写真と職員情報が閲覧可能だった。",
+  "impact": [
+    {
+      "count": 2,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "対象者数"
+    },
+    {
+      "count": 2,
+      "unit": "documents",
+      "qualifier": "exact",
+      "description": "患者写真2枚（人数は資料に記載なし）"
+    }
+  ],
+  "data_types": [
+    "患者写真",
+    "職員氏名",
+    "電話番号"
+  ],
+  "cause": {
+    "category": "configuration",
+    "detail": "添付ファイルへの直接アクセスを制限できず、写真も操作により加工前の状態で閲覧可能。",
+    "certainty": "confirmed"
+  },
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.scmc.or.jp/contents/wp-content/uploads/2026/09/fca6d831f95463684a073652fd3b9560.pdf",
+      "type": "official",
+      "title": "さいたま市民医療センター：個人情報に関する公表資料",
+      "published_on": "2026-09-28",
+      "checked_on": "2026-10-07"
+    }
+  ],
+  "notes": "職員は2人、患者写真は2枚。候補の「4人」は本文から確定できないため使用しない。",
+  "updates": []
+}

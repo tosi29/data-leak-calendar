@@ -1,0 +1,50 @@
+{
+  "id": "nippon-rentacar-20260926",
+  "organization": {
+    "name": "ニッポンレンタカー",
+    "sector": "企業・団体"
+  },
+  "title": "ニッポンレンタカーアプリへの不正アクセスで、会員41人の情報が閲覧されたおそれ",
+  "published_on": "2026-09-26",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-07",
+  "first_published_on": "2026-09-26",
+  "publication_kind": "initial",
+  "verification": "official",
+  "leak_status": "suspected",
+  "summary": "ニッポンレンタカーアプリへの不正アクセスで、会員41人の情報が閲覧されたおそれ。",
+  "impact": [
+    {
+      "count": 41,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "対象者数"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "連絡先",
+    "ログインID",
+    "予約・利用履歴",
+    "運転免許証情報",
+    "カード番号下4桁"
+  ],
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。具体的な侵入手法は未公表。",
+    "certainty": "confirmed"
+  },
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.nipponrentacar.co.jp/info/202609.html",
+      "type": "official",
+      "title": "NRアプリへの不正アクセスによる会員情報漏えいに関するお詫びとお知らせ",
+      "published_on": "2026-09-26",
+      "checked_on": "2026-10-07"
+    }
+  ],
+  "notes": "",
+  "updates": []
+}

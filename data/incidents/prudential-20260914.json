@@ -1,0 +1,50 @@
+{
+  "id": "prudential-20260914",
+  "organization": {
+    "name": "プルデンシャル生命",
+    "sector": "企業・団体"
+  },
+  "title": "元営業社員が担当顧客1,570人の個人情報を持ち出し、退職後に帳票類を紛失していた",
+  "published_on": "2026-09-14",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-07",
+  "first_published_on": "2026-07-07",
+  "publication_kind": "followup",
+  "verification": "official",
+  "leak_status": "lost",
+  "summary": "元営業社員が担当顧客1,570人の個人情報を持ち出し、退職後に帳票類を紛失していた。",
+  "impact": [
+    {
+      "count": 1570,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "対象者数"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "連絡先",
+    "加入商品",
+    "証券番号",
+    "勤務先",
+    "契約状況"
+  ],
+  "cause": {
+    "category": "loss",
+    "detail": "業務で取得した帳票類を無断で社外に持ち出し、退職後に紛失。",
+    "certainty": "confirmed"
+  },
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.prudential.co.jp/news/pdf/1028/20260914.pdf",
+      "type": "official",
+      "title": "プルデンシャル生命：個人情報に関する公表資料",
+      "published_on": "2026-09-14",
+      "checked_on": "2026-10-07"
+    }
+  ],
+  "notes": "対象1,570人は持ち出した個人情報の範囲。第三者への提供・利用の確認とは区別。",
+  "updates": []
+}

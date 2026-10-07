@@ -1,0 +1,49 @@
+{
+  "id": "smaregi-20260925",
+  "organization": {
+    "name": "スマレジ",
+    "sector": "企業・団体"
+  },
+  "title": "スマレジECの管理画面ログイン機能の脆弱性を悪用され、4社の環境で個人データを閲覧・取得された可能性",
+  "published_on": "2026-09-25",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-07",
+  "first_published_on": "2026-09-25",
+  "publication_kind": "initial",
+  "verification": "official",
+  "leak_status": "suspected",
+  "summary": "スマレジECの管理画面ログイン機能の脆弱性を悪用され、4社の環境で個人データを閲覧・取得された可能性。",
+  "impact": [
+    {
+      "count": 4,
+      "unit": "organizations",
+      "qualifier": "exact",
+      "description": "対象者数"
+    }
+  ],
+  "data_types": [
+    "顧客情報",
+    "受注情報",
+    "管理者情報",
+    "暗号化パスワード",
+    "プラグイン秘密鍵"
+  ],
+  "cause": {
+    "category": "vulnerability",
+    "detail": "管理画面ログイン機能の脆弱性。9月18日に修正完了。",
+    "certainty": "confirmed"
+  },
+  "related_vendor": "スマレジEC",
+  "sources": [
+    {
+      "url": "https://ec.smaregi.jp/repeat/news/2026925-2/",
+      "type": "official",
+      "title": "スマレジECにおける不正アクセスについて ｜ D2CならスマレジEC・リピート（旧：楽楽リピート）",
+      "published_on": "2026-09-25",
+      "checked_on": "2026-10-07"
+    }
+  ],
+  "notes": "人数・個人データの件数は未公表。4は利用企業数。",
+  "updates": []
+}

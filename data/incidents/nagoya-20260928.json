@@ -1,0 +1,47 @@
+{
+  "id": "nagoya-20260928",
+  "organization": {
+    "name": "名古屋市",
+    "sector": "自治体・公的機関"
+  },
+  "title": "調査案内に担当者情報入りファイルを誤掲載し、572事業者分の情報が約1時間閲覧可能になった",
+  "published_on": "2026-09-29",
+  "occurred_on": "2026-09-28",
+  "detected_on": null,
+  "updated_on": "2026-10-07",
+  "first_published_on": null,
+  "publication_kind": "unknown",
+  "verification": "secondary",
+  "leak_status": "exposed",
+  "summary": "調査案内に担当者情報入りファイルを誤掲載し、572事業者分の情報が約1時間閲覧可能になった。",
+  "impact": [
+    {
+      "count": 572,
+      "unit": "organizations",
+      "qualifier": "exact",
+      "description": "対象者数"
+    }
+  ],
+  "data_types": [
+    "担当者氏名",
+    "電話番号",
+    "メールアドレス"
+  ],
+  "cause": {
+    "category": "configuration",
+    "detail": "掲載ファイルの内容確認が不十分。",
+    "certainty": "confirmed"
+  },
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://news.ntv.co.jp/category/society/ctfb140e1836d440f58fbd1df16fe28e8a",
+      "type": "news",
+      "title": "名古屋市HPで個人情報を誤掲載 572事業者の氏名や電話番号 約1時間閲覧可能に（2026年9月29日掲載）｜日テレNEWS NNN",
+      "published_on": "2026-09-29",
+      "checked_on": "2026-10-07"
+    }
+  ],
+  "notes": "担当者の個人情報を含むため対象。候補の9月28日は発生日で、確認できた報道日は9月29日。",
+  "updates": []
+}

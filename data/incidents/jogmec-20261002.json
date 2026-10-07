@@ -1,0 +1,51 @@
+{
+  "id": "jogmec-20261002",
+  "organization": {
+    "name": "JOGMEC",
+    "sector": "企業・団体"
+  },
+  "title": "情報システムへの不正アクセスにより、役職員と機構外のメールアドレスが漏えいした可能性",
+  "published_on": "2026-10-02",
+  "occurred_on": null,
+  "detected_on": "2026-09-09",
+  "updated_on": "2026-10-07",
+  "first_published_on": "2026-10-02",
+  "publication_kind": "initial",
+  "verification": "official",
+  "leak_status": "suspected",
+  "summary": "情報システムへの不正アクセスにより、役職員と機構外のメールアドレスが漏えいした可能性。",
+  "impact": [
+    {
+      "count": 1100,
+      "unit": "records",
+      "qualifier": "approximate",
+      "description": "対象者数"
+    },
+    {
+      "count": 7400,
+      "unit": "records",
+      "qualifier": "approximate",
+      "description": "機構外のメールアドレス"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。具体的な侵入手法は未公表。",
+    "certainty": "confirmed"
+  },
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.jogmec.go.jp/news/information/information_00706.html",
+      "type": "official",
+      "title": "不正アクセスによる個人情報の漏えいの可能性に関するお詫びとご報告 : お知らせ | 独立行政法人エネルギー・金属鉱物資源機構［JOGMEC］",
+      "published_on": "2026-10-02",
+      "checked_on": "2026-10-07"
+    }
+  ],
+  "notes": "約1,100件は役職員分、約7,400件は機構外。人数ではなくメールアドレス件数。",
+  "updates": []
+}
