@@ -1,0 +1,47 @@
+{
+  "id": "abahouse-20261003",
+  "organization": {
+    "name": "アバハウスインターナショナル",
+    "sector": "企業・団体"
+  },
+  "title": "会員・受注データへの不正アクセスの痕跡を確認",
+  "published_on": "2026-10-03",
+  "occurred_on": null,
+  "detected_on": "2026-09-28",
+  "updated_on": "2026-10-07",
+  "first_published_on": "2026-10-03",
+  "publication_kind": "initial",
+  "verification": "official",
+  "leak_status": "suspected",
+  "summary": "会員・受注データへの不正アクセスの痕跡を確認。注文内容に一致する不審な返金案内メールも発生。",
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "対象者数"
+    }
+  ],
+  "data_types": [
+    "会員情報",
+    "連絡先",
+    "注文情報"
+  ],
+  "cause": {
+    "category": "vulnerability",
+    "detail": "不正ログイン後、システムの不備を悪用したプログラム設置・実行によるデータベース侵入と推定。",
+    "certainty": "suspected"
+  },
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://abahouse.co.jp/news/2005/",
+      "type": "official",
+      "title": "不正アクセスによる個人情報漏えいに関するお詫びとご報告 - ABAHOUSE INTERNATIONAL",
+      "published_on": "2026-10-03",
+      "checked_on": "2026-10-07"
+    }
+  ],
+  "notes": "",
+  "updates": []
+}

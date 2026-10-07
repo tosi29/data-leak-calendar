@@ -1,0 +1,43 @@
+{
+  "id": "kuins-20260930",
+  "organization": {
+    "name": "関西国際大学",
+    "sector": "教育"
+  },
+  "title": "学内システムの不正アクセスを確認し接続を停止",
+  "published_on": "2026-09-30",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-07",
+  "first_published_on": "2026-09-30",
+  "publication_kind": "initial",
+  "verification": "official",
+  "leak_status": "suspected",
+  "summary": "学内システムの不正アクセスを確認し接続を停止。情報漏えいの有無と影響範囲を調査中。",
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "対象者数"
+    }
+  ],
+  "data_types": [],
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。具体的な侵入手法は未公表。",
+    "certainty": "confirmed"
+  },
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.kuins.ac.jp/news/2026/09/post_1448.html",
+      "type": "official",
+      "title": "学内システムへの不正アクセスに関するお知らせ｜関西国際大学",
+      "published_on": "2026-09-30",
+      "checked_on": "2026-10-07"
+    }
+  ],
+  "notes": "個人情報の項目・規模は未公表。漏えい確認済みとは扱わない。",
+  "updates": []
+}

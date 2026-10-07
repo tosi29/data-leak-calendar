@@ -1,0 +1,48 @@
+{
+  "id": "shudo-20260930",
+  "organization": {
+    "name": "修道学園",
+    "sector": "教育"
+  },
+  "title": "管理サーバーへの不正アクセスにより、教職員・一部学生・外部講師などの情報が漏えいしたおそれ",
+  "published_on": "2026-09-30",
+  "occurred_on": null,
+  "detected_on": "2026-09-26",
+  "updated_on": "2026-10-07",
+  "first_published_on": "2026-09-30",
+  "publication_kind": "initial",
+  "verification": "official",
+  "leak_status": "suspected",
+  "summary": "管理サーバーへの不正アクセスにより、教職員・一部学生・外部講師などの情報が漏えいしたおそれ。",
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "対象者数"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "電話番号",
+    "口座情報"
+  ],
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。具体的な侵入手法は未公表。",
+    "certainty": "confirmed"
+  },
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.shudo-u.ac.jp/gakuen/information/b53fil000000008q.html",
+      "type": "official",
+      "title": "不正アクセスによる情報漏えいのおそれに関するお知らせとお詫び | 2026年お知らせ一覧 | 学校法人 修道学園サイト",
+      "published_on": "2026-09-30",
+      "checked_on": "2026-10-07"
+    }
+  ],
+  "notes": "",
+  "updates": []
+}

@@ -1,0 +1,47 @@
+{
+  "id": "etax-20261002",
+  "organization": {
+    "name": "e-Tax",
+    "sector": "自治体・公的機関"
+  },
+  "title": "贈与税申告書などが別の利用者から閲覧できる状態になり、申告者・贈与者・税理士を含む203人の情報に影響",
+  "published_on": "2026-10-02",
+  "occurred_on": "2026-09-24",
+  "detected_on": null,
+  "updated_on": "2026-10-07",
+  "first_published_on": "2026-10-02",
+  "publication_kind": "initial",
+  "verification": "secondary",
+  "leak_status": "exposed",
+  "summary": "贈与税申告書などが別の利用者から閲覧できる状態になり、申告者・贈与者・税理士を含む203人の情報に影響。",
+  "impact": [
+    {
+      "count": 203,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "対象者数"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "財産の種類・金額"
+  ],
+  "cause": {
+    "category": "configuration",
+    "detail": "9月24日のシステム改修の不具合。",
+    "certainty": "confirmed"
+  },
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://news.infoseek.co.jp/article/ntv_2026100207661524/",
+      "type": "news",
+      "title": "「e-Tax」で他人の個人情報が一時閲覧可能に　国税庁｜Infoseekニュース",
+      "published_on": "2026-10-02",
+      "checked_on": "2026-10-07"
+    }
+  ],
+  "notes": "79人分の申告書等に203人の情報を記載。閲覧できた側の19人とは区別。",
+  "updates": []
+}

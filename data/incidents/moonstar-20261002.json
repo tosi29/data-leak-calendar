@@ -1,0 +1,49 @@
+{
+  "id": "moonstar-20261002",
+  "organization": {
+    "name": "ムーンスター",
+    "sector": "企業・団体"
+  },
+  "title": "オンラインストア顧客情報がシステムサーバーへの不正アクセスで取得された可能性を続報で公表",
+  "published_on": "2026-10-02",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-07",
+  "first_published_on": "2026-03-26",
+  "publication_kind": "followup",
+  "verification": "official",
+  "leak_status": "suspected",
+  "summary": "オンラインストア顧客情報がシステムサーバーへの不正アクセスで取得された可能性を続報で公表。",
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "対象者数"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "電話番号",
+    "メールアドレス",
+    "注文情報"
+  ],
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。具体的な侵入手法は未公表。",
+    "certainty": "confirmed"
+  },
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.moonstar.co.jp/information/2026/10/post-4.html",
+      "type": "official",
+      "title": "【重要】弊社システムサーバーに対する不正アクセスの疑いに関するお知らせ<続報> | INFORMATION | MOONSTAR",
+      "published_on": "2026-10-02",
+      "checked_on": "2026-10-07"
+    }
+  ],
+  "notes": "3月26日の初報に対する10月2日の続報。",
+  "updates": []
+}

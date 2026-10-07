@@ -1,0 +1,53 @@
+{
+  "id": "nichii-20261002",
+  "organization": {
+    "name": "ニチイ学館",
+    "sector": "企業・団体"
+  },
+  "title": "介護サイトのバックアップファイルが認証なしで取得可能だった",
+  "published_on": "2026-10-02",
+  "occurred_on": "2020-05-11",
+  "detected_on": "2026-09-11",
+  "updated_on": "2026-10-07",
+  "first_published_on": "2026-10-02",
+  "publication_kind": "initial",
+  "verification": "official",
+  "leak_status": "exposed",
+  "summary": "介護サイトのバックアップファイルが認証なしで取得可能だった。問い合わせ本文に583人の個人情報が含まれる。",
+  "impact": [
+    {
+      "count": 583,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "対象者数"
+    },
+    {
+      "count": 99,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "583人の内数：要配慮個人情報を含む対象者"
+    }
+  ],
+  "data_types": [
+    "問い合わせ本文",
+    "健康状態",
+    "障がいの状況"
+  ],
+  "cause": {
+    "category": "configuration",
+    "detail": "委託先のバックアップファイル管理・削除手続と、委託元の確認手続の不備。",
+    "certainty": "confirmed"
+  },
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.nichiigakkan.co.jp/topics/assets/2ba7ca6c5a8a249293493f6eb40ad90b9be2ce78.pdf",
+      "type": "official",
+      "title": "ニチイ学館：個人情報に関する公表資料",
+      "published_on": "2026-10-02",
+      "checked_on": "2026-10-07"
+    }
+  ],
+  "notes": "2026年6月11日以降の保存ログでは取得を確認できず、それ以前はログがなく不明。",
+  "updates": []
+}

@@ -1,0 +1,50 @@
+{
+  "id": "benefit-one-20260930",
+  "organization": {
+    "name": "ベネフィット・ワン",
+    "sector": "企業・団体"
+  },
+  "title": "アンケート結果のダウンロードに他企業・団体の従業員情報が混入し、13,460人の情報を1社の担当者に提供",
+  "published_on": "2026-09-30",
+  "occurred_on": null,
+  "detected_on": "2026-07-30",
+  "updated_on": "2026-10-07",
+  "first_published_on": "2026-09-30",
+  "publication_kind": "initial",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "summary": "アンケート結果のダウンロードに他企業・団体の従業員情報が混入し、13,460人の情報を1社の担当者に提供。",
+  "impact": [
+    {
+      "count": 13460,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "対象者数"
+    }
+  ],
+  "data_types": [
+    "社員番号",
+    "氏名",
+    "性別",
+    "生年月日",
+    "所属",
+    "入退社情報"
+  ],
+  "cause": {
+    "category": "configuration",
+    "detail": "2025年6月の改修時のプログラム条件設定不備。2025年10月に認知したが解消されていなかった。",
+    "certainty": "confirmed"
+  },
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://corp.benefit-one.co.jp/company/news/news/2026/20260930/20260930.pdf",
+      "type": "official",
+      "title": "ベネフィット・ワン：個人情報に関する公表資料",
+      "published_on": "2026-09-30",
+      "checked_on": "2026-10-07"
+    }
+  ],
+  "notes": "2,322企業・団体に所属する対象者。ダウンロードした担当者による削除を確認。",
+  "updates": []
+}

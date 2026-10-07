@@ -1,0 +1,47 @@
+{
+  "id": "nimoca-20261006",
+  "organization": {
+    "name": "ニモカ",
+    "sector": "企業・団体"
+  },
+  "title": "利用履歴照会サービスへの攻撃により、カード番号など521件の漏えいを確認",
+  "published_on": "2026-10-06",
+  "occurred_on": "2026-10-04",
+  "detected_on": "2026-10-04",
+  "updated_on": "2026-10-07",
+  "first_published_on": "2026-10-06",
+  "publication_kind": "initial",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "summary": "利用履歴照会サービスへの攻撃により、カード番号など521件の漏えいを確認。",
+  "impact": [
+    {
+      "count": 521,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "対象者数"
+    }
+  ],
+  "data_types": [
+    "カード番号",
+    "生年月日",
+    "メールアドレス"
+  ],
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。具体的な侵入手法は未公表。",
+    "certainty": "confirmed"
+  },
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.nimoca.jp/storage/files/information/107/20261006.pdf",
+      "type": "official",
+      "title": "ニモカ：個人情報に関する公表資料",
+      "published_on": "2026-10-06",
+      "checked_on": "2026-10-07"
+    }
+  ],
+  "notes": "",
+  "updates": []
+}

@@ -1,0 +1,380 @@
+[
+  {
+    "candidate": {
+      "id": "nimoca-20261006",
+      "reported_on": "2026-10-06",
+      "organization": "ニモカ",
+      "note": "521件／確認状況と単位を要照合",
+      "reference_url": "https://www.pahoo.org/e-soul/privacy/casestudy/case-023-01.shtm",
+      "verification": "pending",
+      "origin": "user_supplied_research_list",
+      "added_on": "2026-10-07"
+    },
+    "reviewed_on": "2026-10-07",
+    "resolution": "published",
+    "incident_ids": [
+      "nimoca-20261006"
+    ],
+    "reason": "出典本文で事案と影響範囲を照合。",
+    "source_urls": [
+      "https://www.nimoca.jp/storage/files/information/107/20261006.pdf"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "white-essence-20261005",
+      "reported_on": "2026-10-05",
+      "organization": "ホワイトエッセンス",
+      "note": "約105万アカウント／8月初報の続報",
+      "reference_url": "https://www.pahoo.org/e-soul/privacy/casestudy/case-023-01.shtm",
+      "verification": "pending",
+      "origin": "user_supplied_research_list",
+      "added_on": "2026-10-07"
+    },
+    "reviewed_on": "2026-10-07",
+    "resolution": "published",
+    "incident_ids": [
+      "white-essence-20261005"
+    ],
+    "reason": "公式ページは本文が画像のため、本文を確認できたITmediaの報道に基づく。8月初報の調査結果。",
+    "source_urls": [
+      "https://www.itmedia.co.jp/news/article/2610/05/2000002016/"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "studysapuri-20261003",
+      "reported_on": "2026-10-03",
+      "organization": "スタディサプリ",
+      "note": "3,687件のメールアドレスの登録有無を特定された可能性",
+      "reference_url": "https://innovatopia.jp/cyber-security/cyber-security-news/118602/",
+      "verification": "pending",
+      "origin": "user_supplied_research_list",
+      "added_on": "2026-10-07"
+    },
+    "reviewed_on": "2026-10-07",
+    "resolution": "published",
+    "incident_ids": [
+      "studysapuri-20261003"
+    ],
+    "reason": "メールアドレス一覧が新たに流出したという公表ではない。",
+    "source_urls": [
+      "https://studysapuri.jp/info/important/#ssntc_303"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "nichii-20261002",
+      "reported_on": "2026-10-02",
+      "organization": "ニチイ学館",
+      "note": "583人、うち要配慮情報99人／閲覧可能状態",
+      "reference_url": "https://innovatopia.jp/cyber-security/cyber-security-news/118602/",
+      "verification": "pending",
+      "origin": "user_supplied_research_list",
+      "added_on": "2026-10-07"
+    },
+    "reviewed_on": "2026-10-07",
+    "resolution": "published",
+    "incident_ids": [
+      "nichii-20261002"
+    ],
+    "reason": "2026年6月11日以降の保存ログでは取得を確認できず、それ以前はログがなく不明。",
+    "source_urls": [
+      "https://www.nichiigakkan.co.jp/topics/assets/2ba7ca6c5a8a249293493f6eb40ad90b9be2ce78.pdf"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "osaka-metropolitan-20261005",
+      "reported_on": "2026-10-05",
+      "organization": "大阪公立大学",
+      "note": "約13万人規模／漏えい有無を調査中",
+      "reference_url": "https://www.pahoo.org/e-soul/privacy/casestudy/case-023-01.shtm",
+      "verification": "pending",
+      "origin": "user_supplied_research_list",
+      "added_on": "2026-10-07"
+    },
+    "reviewed_on": "2026-10-07",
+    "resolution": "published",
+    "incident_ids": [
+      "osaka-metropolitan-20261005"
+    ],
+    "reason": "出典本文で事案と影響範囲を照合。",
+    "source_urls": [
+      "https://www.toonippo.co.jp/articles/-/2376777"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "daiki-suisan-20261005",
+      "reported_on": "2026-10-05",
+      "organization": "大起水産",
+      "note": "174,933人／可能性",
+      "reference_url": "https://www.pahoo.org/e-soul/privacy/casestudy/case-023-01.shtm",
+      "verification": "pending",
+      "origin": "user_supplied_research_list",
+      "added_on": "2026-10-07"
+    },
+    "reviewed_on": "2026-10-07",
+    "resolution": "published",
+    "incident_ids": [
+      "daiki-suisan-20261005"
+    ],
+    "reason": "10月6日追記で端末別の任意登録項目を説明。すべての人に全項目があるわけではない。",
+    "source_urls": [
+      "https://www.daiki-suisan.co.jp/files/optionallink/00000164_file.pdf"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "abahouse-20261003",
+      "reported_on": "2026-10-03",
+      "organization": "アバハウスインターナショナル",
+      "note": "件数非公表／可能性",
+      "reference_url": "https://innovatopia.jp/cyber-security/cyber-security-news/118602/",
+      "verification": "pending",
+      "origin": "user_supplied_research_list",
+      "added_on": "2026-10-07"
+    },
+    "reviewed_on": "2026-10-07",
+    "resolution": "published",
+    "incident_ids": [
+      "abahouse-20261003"
+    ],
+    "reason": "出典本文で事案と影響範囲を照合。",
+    "source_urls": [
+      "https://abahouse.co.jp/news/2005/"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "daiichi-life-20261002",
+      "reported_on": "2026-10-02",
+      "organization": "第一生命",
+      "note": "約12万人／可能性",
+      "reference_url": "https://innovatopia.jp/cyber-security/cyber-security-news/118602/",
+      "verification": "pending",
+      "origin": "user_supplied_research_list",
+      "added_on": "2026-10-07"
+    },
+    "reviewed_on": "2026-10-07",
+    "resolution": "published",
+    "incident_ids": [
+      "daiichi-life-20261002"
+    ],
+    "reason": "顧客情報の漏えい規模ではない。",
+    "source_urls": [
+      "https://www.dai-ichi-life.co.jp/information/pdf/index_192.pdf"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "777con-pass-20261002",
+      "reported_on": "2026-10-02",
+      "organization": "777CON-PASS",
+      "note": "件数調査中",
+      "reference_url": "https://innovatopia.jp/cyber-security/cyber-security-news/118602/",
+      "verification": "pending",
+      "origin": "user_supplied_research_list",
+      "added_on": "2026-10-07"
+    },
+    "reviewed_on": "2026-10-07",
+    "resolution": "published",
+    "incident_ids": [
+      "777con-pass-20261002"
+    ],
+    "reason": "認証用顔画像・ログイン用メールアドレス・パスワード・氏名は対象外と公表。初報と同日付の続報を参照。",
+    "source_urls": [
+      "https://www.sammy-net.jp/news/2026/10/777con-pass-6.html"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "moonstar-20261002",
+      "reported_on": "2026-10-02",
+      "organization": "ムーンスター",
+      "note": "件数非公表／可能性",
+      "reference_url": "https://innovatopia.jp/cyber-security/cyber-security-news/118602/",
+      "verification": "pending",
+      "origin": "user_supplied_research_list",
+      "added_on": "2026-10-07"
+    },
+    "reviewed_on": "2026-10-07",
+    "resolution": "published",
+    "incident_ids": [
+      "moonstar-20261002"
+    ],
+    "reason": "3月26日の初報に対する10月2日の続報。",
+    "source_urls": [
+      "https://www.moonstar.co.jp/information/2026/10/post-4.html"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "kodansha-beck-20261002",
+      "reported_on": "2026-10-02",
+      "organization": "講談社BECK",
+      "note": "件数非公表／可能性",
+      "reference_url": "https://innovatopia.jp/cyber-security/cyber-security-news/118602/",
+      "verification": "pending",
+      "origin": "user_supplied_research_list",
+      "added_on": "2026-10-07"
+    },
+    "reviewed_on": "2026-10-07",
+    "resolution": "published",
+    "incident_ids": [
+      "kodansha-beck-20261002"
+    ],
+    "reason": "侵害アカウント1件・迷惑メール50件を、漏えいした個人情報の件数として扱わない。",
+    "source_urls": [
+      "https://kodansha-beck.co.jp/news/unauthorizedaccess20261002"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "etax-20261002",
+      "reported_on": "2026-10-02",
+      "organization": "e-Tax",
+      "note": "203人分／別利用者から閲覧可能",
+      "reference_url": "https://innovatopia.jp/cyber-security/cyber-security-news/118602/",
+      "verification": "pending",
+      "origin": "user_supplied_research_list",
+      "added_on": "2026-10-07"
+    },
+    "reviewed_on": "2026-10-07",
+    "resolution": "published",
+    "incident_ids": [
+      "etax-20261002"
+    ],
+    "reason": "79人分の申告書等に203人の情報を記載。閲覧できた側の19人とは区別。",
+    "source_urls": [
+      "https://news.infoseek.co.jp/article/ntv_2026100207661524/"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "jaea-20261001",
+      "reported_on": "2026-10-01",
+      "organization": "日本原子力研究開発機構",
+      "note": "175人・367件／身分証画像・健診結果等",
+      "reference_url": "https://www.pahoo.org/e-soul/privacy/casestudy/case-023-02.shtm",
+      "verification": "pending",
+      "origin": "user_supplied_research_list",
+      "added_on": "2026-10-07"
+    },
+    "reviewed_on": "2026-10-07",
+    "resolution": "published",
+    "incident_ids": [
+      "jaea-20261001"
+    ],
+    "reason": "流出した登録情報全体2,419件には実験計画書なども含む。",
+    "source_urls": [
+      "https://www.daily.co.jp/society/science/2026/10/01/0020881565.shtml"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "ticketplus-20261001",
+      "reported_on": "2026-10-01",
+      "organization": "チケットプラス",
+      "note": "最大429人／可能性",
+      "reference_url": "https://www.pahoo.org/e-soul/privacy/casestudy/case-023-02.shtm",
+      "verification": "pending",
+      "origin": "user_supplied_research_list",
+      "added_on": "2026-10-07"
+    },
+    "reviewed_on": "2026-10-07",
+    "resolution": "published",
+    "incident_ids": [
+      "ticketplus-20261001"
+    ],
+    "reason": "候補の429人は、情報を表示された側107人と他人の情報を見た可能性のある側322人の合計。漏えい対象者数として合算しない。",
+    "source_urls": [
+      "https://tixplus.jp/information/"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "lashinbang-20261001",
+      "reported_on": "2026-10-01",
+      "organization": "らしんばん",
+      "note": "件数非公表／可能性",
+      "reference_url": "https://www.pahoo.org/e-soul/privacy/casestudy/case-023-02.shtm",
+      "verification": "pending",
+      "origin": "user_supplied_research_list",
+      "added_on": "2026-10-07"
+    },
+    "reviewed_on": "2026-10-07",
+    "resolution": "published",
+    "incident_ids": [
+      "lashinbang-20261001"
+    ],
+    "reason": "出典本文で事案と影響範囲を照合。",
+    "source_urls": [
+      "https://www.lashinbang.com/info/26357"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "kuins-20260930",
+      "reported_on": "2026-09-30",
+      "organization": "関西国際大学",
+      "note": "調査中",
+      "reference_url": "https://rocket-boys.co.jp/security-measures-lab/2026-09-latest-cyber-attack-cases/",
+      "verification": "pending",
+      "origin": "user_supplied_research_list",
+      "added_on": "2026-10-07"
+    },
+    "reviewed_on": "2026-10-07",
+    "resolution": "published",
+    "incident_ids": [
+      "kuins-20260930"
+    ],
+    "reason": "個人情報の項目・規模は未公表。漏えい確認済みとは扱わない。",
+    "source_urls": [
+      "https://www.kuins.ac.jp/news/2026/09/post_1448.html"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "shudo-20260930",
+      "reported_on": "2026-09-30",
+      "organization": "修道学園",
+      "note": "件数非公表／可能性",
+      "reference_url": "https://rocket-boys.co.jp/security-measures-lab/2026-09-latest-cyber-attack-cases/",
+      "verification": "pending",
+      "origin": "user_supplied_research_list",
+      "added_on": "2026-10-07"
+    },
+    "reviewed_on": "2026-10-07",
+    "resolution": "published",
+    "incident_ids": [
+      "shudo-20260930"
+    ],
+    "reason": "出典本文で事案と影響範囲を照合。",
+    "source_urls": [
+      "https://www.shudo-u.ac.jp/gakuen/information/b53fil000000008q.html"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "benefit-one-20260930",
+      "reported_on": "2026-09-30",
+      "organization": "ベネフィット・ワン",
+      "note": "13,460人／可能性",
+      "reference_url": "https://rocket-boys.co.jp/security-measures-lab/2026-09-latest-cyber-attack-cases/",
+      "verification": "pending",
+      "origin": "user_supplied_research_list",
+      "added_on": "2026-10-07"
+    },
+    "reviewed_on": "2026-10-07",
+    "resolution": "published",
+    "incident_ids": [
+      "benefit-one-20260930"
+    ],
+    "reason": "2,322企業・団体に所属する対象者。ダウンロードした担当者による削除を確認。",
+    "source_urls": [
+      "https://corp.benefit-one.co.jp/company/news/news/2026/20260930/20260930.pdf"
+    ]
+  }
+]

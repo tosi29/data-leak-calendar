@@ -1,0 +1,50 @@
+{
+  "id": "lashinbang-20261001",
+  "organization": {
+    "name": "らしんばん",
+    "sector": "企業・団体"
+  },
+  "title": "9月14〜16日のサービスへの不正アクセスにより、顧客・買取・注文情報が漏えいした可能性",
+  "published_on": "2026-10-01",
+  "occurred_on": "2026-09-14",
+  "detected_on": null,
+  "updated_on": "2026-10-07",
+  "first_published_on": "2026-10-01",
+  "publication_kind": "initial",
+  "verification": "official",
+  "leak_status": "suspected",
+  "summary": "9月14〜16日のサービスへの不正アクセスにより、顧客・買取・注文情報が漏えいした可能性。",
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "対象者数"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "連絡先",
+    "本人確認書類の番号",
+    "銀行口座",
+    "買取同意書画像",
+    "注文情報"
+  ],
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。具体的な侵入手法は未公表。",
+    "certainty": "confirmed"
+  },
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.lashinbang.com/info/26357",
+      "type": "official",
+      "title": "らしんばん | フィギュア・アクスタなど中古アニメグッズの買取・販売",
+      "published_on": "2026-10-01",
+      "checked_on": "2026-10-07"
+    }
+  ],
+  "notes": "",
+  "updates": []
+}

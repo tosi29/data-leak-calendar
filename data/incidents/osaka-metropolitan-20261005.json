@@ -1,0 +1,48 @@
+{
+  "id": "osaka-metropolitan-20261005",
+  "organization": {
+    "name": "大阪公立大学",
+    "sector": "教育"
+  },
+  "title": "システム障害に伴い、在学生・卒業生約13万人の情報が流出したおそれを公表",
+  "published_on": "2026-10-05",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-07",
+  "first_published_on": null,
+  "publication_kind": "unknown",
+  "verification": "secondary",
+  "leak_status": "suspected",
+  "summary": "システム障害に伴い、在学生・卒業生約13万人の情報が流出したおそれを公表。",
+  "impact": [
+    {
+      "count": 130000,
+      "unit": "people",
+      "qualifier": "approximate",
+      "description": "対象者数"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "メールアドレス",
+    "学生証写真"
+  ],
+  "cause": {
+    "category": "unknown",
+    "detail": "参照した報道では侵入原因の詳細は不明。",
+    "certainty": "unknown"
+  },
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.toonippo.co.jp/articles/-/2376777",
+      "type": "news",
+      "title": "大阪公立大、約１３万人情報流出の恐れ｜全国のニュース｜Web東奥",
+      "published_on": "2026-10-05",
+      "checked_on": "2026-10-07"
+    }
+  ],
+  "notes": "",
+  "updates": []
+}

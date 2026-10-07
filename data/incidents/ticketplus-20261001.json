@@ -1,0 +1,48 @@
+{
+  "id": "ticketplus-20261001",
+  "organization": {
+    "name": "チケットプラス",
+    "sector": "企業・団体"
+  },
+  "title": "キャッシュ設定変更により他人の情報を表示",
+  "published_on": "2026-10-01",
+  "occurred_on": "2026-09-28",
+  "detected_on": "2026-09-29",
+  "updated_on": "2026-10-07",
+  "first_published_on": "2026-10-01",
+  "publication_kind": "initial",
+  "verification": "official",
+  "leak_status": "exposed",
+  "summary": "キャッシュ設定変更により他人の情報を表示。自身の情報を表示された可能性がある利用者は最大107人。",
+  "impact": [
+    {
+      "count": 107,
+      "unit": "people",
+      "qualifier": "maximum",
+      "description": "対象者数"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "連絡先",
+    "カード番号下4桁",
+    "Plus member ID"
+  ],
+  "cause": {
+    "category": "configuration",
+    "detail": "アクセス負荷対策のキャッシュ設定により、同一タイミングのアクセスで別利用者の情報を表示。",
+    "certainty": "confirmed"
+  },
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://tixplus.jp/information/",
+      "type": "official",
+      "title": "チケプラ カンタン便利な電子チケット",
+      "published_on": "2026-10-01",
+      "checked_on": "2026-10-07"
+    }
+  ],
+  "notes": "候補の429人は、情報を表示された側107人と他人の情報を見た可能性のある側322人の合計。漏えい対象者数として合算しない。",
+  "updates": []
+}

@@ -1,0 +1,53 @@
+{
+  "id": "jaea-20261001",
+  "organization": {
+    "name": "日本原子力研究開発機構",
+    "sector": "自治体・公的機関"
+  },
+  "title": "JRR-3利用手続きサイトから情報がダウンロードされ、175人の個人情報367件が漏えい",
+  "published_on": "2026-10-01",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-07",
+  "first_published_on": "2026-10-01",
+  "publication_kind": "initial",
+  "verification": "secondary",
+  "leak_status": "confirmed",
+  "summary": "JRR-3利用手続きサイトから情報がダウンロードされ、175人の個人情報367件が漏えい。",
+  "impact": [
+    {
+      "count": 175,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "対象者数"
+    },
+    {
+      "count": 367,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "175人分の個人情報の件数"
+    }
+  ],
+  "data_types": [
+    "運転免許証画像",
+    "パスポート画像",
+    "健康診断結果"
+  ],
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。具体的な侵入手法は未公表。",
+    "certainty": "confirmed"
+  },
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.daily.co.jp/society/science/2026/10/01/0020881565.shtml",
+      "type": "news",
+      "title": "日本原子力機構に不正アクセス/科学/社会総合/デイリースポーツ online",
+      "published_on": "2026-10-01",
+      "checked_on": "2026-10-07"
+    }
+  ],
+  "notes": "流出した登録情報全体2,419件には実験計画書なども含む。",
+  "updates": []
+}

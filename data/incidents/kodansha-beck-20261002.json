@@ -1,0 +1,45 @@
+{
+  "id": "kodansha-beck-20261002",
+  "organization": {
+    "name": "講談社BECK",
+    "sector": "企業・団体"
+  },
+  "title": "旧講談社ビーシーの従業員メールアカウントへの不正アクセスで、保存された情報が漏えいしたおそれ",
+  "published_on": "2026-10-02",
+  "occurred_on": null,
+  "detected_on": "2026-09-14",
+  "updated_on": "2026-10-07",
+  "first_published_on": "2026-10-02",
+  "publication_kind": "initial",
+  "verification": "official",
+  "leak_status": "suspected",
+  "summary": "旧講談社ビーシーの従業員メールアカウントへの不正アクセスで、保存された情報が漏えいしたおそれ。",
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "対象者数"
+    }
+  ],
+  "data_types": [
+    "メール本文・添付ファイル内の個人情報"
+  ],
+  "cause": {
+    "category": "credentials",
+    "detail": "ID・パスワードを何らかの手法で取得されたと推測。",
+    "certainty": "suspected"
+  },
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://kodansha-beck.co.jp/news/unauthorizedaccess20261002",
+      "type": "official",
+      "title": "不正アクセスによる迷惑メール発信に関するおわびとご報告 | 株式会社講談社BECK",
+      "published_on": "2026-10-02",
+      "checked_on": "2026-10-07"
+    }
+  ],
+  "notes": "侵害アカウント1件・迷惑メール50件を、漏えいした個人情報の件数として扱わない。",
+  "updates": []
+}

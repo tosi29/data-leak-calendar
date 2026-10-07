@@ -1,0 +1,50 @@
+{
+  "id": "777con-pass-20261002",
+  "organization": {
+    "name": "777CON-PASS",
+    "sector": "企業・団体"
+  },
+  "title": "ユーザー・ホール情報の取得要求が不正に実行され、個人情報が流出した可能性",
+  "published_on": "2026-10-02",
+  "occurred_on": "2026-09-25",
+  "detected_on": null,
+  "updated_on": "2026-10-07",
+  "first_published_on": "2026-10-02",
+  "publication_kind": "initial",
+  "verification": "official",
+  "leak_status": "suspected",
+  "summary": "ユーザー・ホール情報の取得要求が不正に実行され、個人情報が流出した可能性。対象件数は調査中。",
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "対象者数"
+    }
+  ],
+  "data_types": [
+    "電話番号",
+    "生年月日",
+    "性別",
+    "ユーザーID",
+    "任意のプロフィール写真",
+    "行動エリア"
+  ],
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。具体的な侵入手法は未公表。",
+    "certainty": "confirmed"
+  },
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.sammy-net.jp/news/2026/10/777con-pass-6.html",
+      "type": "official",
+      "title": "777CON-PASSへの不正アクセスによる個人情報流出の可能性に関するお詫びとお知らせ　※続報 - 株式会社 サミーネットワークス-【Sammy Networks Co., Ltd.】",
+      "published_on": "2026-10-02",
+      "checked_on": "2026-10-07"
+    }
+  ],
+  "notes": "認証用顔画像・ログイン用メールアドレス・パスワード・氏名は対象外と公表。初報と同日付の続報を参照。",
+  "updates": []
+}
