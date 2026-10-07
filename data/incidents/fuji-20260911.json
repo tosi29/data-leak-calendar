@@ -1,0 +1,49 @@
+{
+  "id": "fuji-20260911",
+  "organization": {
+    "name": "富士市",
+    "sector": "自治体・公的機関"
+  },
+  "title": "採用試験の動画選考で利用したApplyNowへの攻撃により、受験者・担当者の情報が漏えいした可能性",
+  "published_on": "2026-09-11",
+  "occurred_on": null,
+  "detected_on": "2026-09-10",
+  "updated_on": "2026-10-07",
+  "first_published_on": "2026-09-11",
+  "publication_kind": "initial",
+  "verification": "official",
+  "leak_status": "suspected",
+  "summary": "採用試験の動画選考で利用したApplyNowへの攻撃により、受験者・担当者の情報が漏えいした可能性。",
+  "impact": [
+    {
+      "count": 800,
+      "unit": "records",
+      "qualifier": "approximate",
+      "description": "対象者数"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "メールアドレス",
+    "電話番号",
+    "受験番号",
+    "担当者情報"
+  ],
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。具体的な侵入手法は未公表。",
+    "certainty": "confirmed"
+  },
+  "related_vendor": "ApplyNow",
+  "sources": [
+    {
+      "url": "https://www.city.fuji.shizuoka.jp/1005250000/p007780.html",
+      "type": "official",
+      "title": "本市職員採用試験（プレゼンテーション動画試験）を受験された方の個人情報の不正流出の可能性について【お知らせとお詫び】 | 静岡県富士市",
+      "published_on": "2026-09-11",
+      "checked_on": "2026-10-07"
+    }
+  ],
+  "notes": "原文は約800件。動画データ自体は対象外。",
+  "updates": []
+}

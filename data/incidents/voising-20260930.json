@@ -1,0 +1,50 @@
+{
+  "id": "voising-20260930",
+  "organization": {
+    "name": "VOISING",
+    "sector": "企業・団体"
+  },
+  "title": "BIツールの既知の脆弱性を悪用した侵入により、約17万件の個人情報の漏えいを確認",
+  "published_on": "2026-09-30",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-07",
+  "first_published_on": "2026-08-18",
+  "publication_kind": "followup",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "summary": "BIツールの既知の脆弱性を悪用した侵入により、約17万件の個人情報の漏えいを確認。",
+  "impact": [
+    {
+      "count": 170000,
+      "unit": "records",
+      "qualifier": "approximate",
+      "description": "対象者数"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "連絡先",
+    "生年月日",
+    "購買履歴",
+    "サービス加入状況",
+    "応援対象タレント"
+  ],
+  "cause": {
+    "category": "vulnerability",
+    "detail": "BIツールの修正プログラム適用前に、既知の脆弱性を悪用された。",
+    "certainty": "confirmed"
+  },
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://voising-official.com/news/1015",
+      "type": "official",
+      "title": "【第四報】当社が利用するBIツールへの不正アクセスおよび個人情報漏えいに関する調査結果と再発防止策について - VOISING【公式】",
+      "published_on": "2026-09-30",
+      "checked_on": "2026-10-07"
+    }
+  ],
+  "notes": "",
+  "updates": []
+}

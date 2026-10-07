@@ -1,0 +1,47 @@
+{
+  "id": "science-tokyo-20260907",
+  "organization": {
+    "name": "東京科学大学",
+    "sector": "教育"
+  },
+  "title": "大学の情報基盤が侵害され、学生・教職員等の個人情報が漏えいした疑い",
+  "published_on": "2026-09-07",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-07",
+  "first_published_on": "2026-09-07",
+  "publication_kind": "initial",
+  "verification": "official",
+  "leak_status": "suspected",
+  "summary": "大学の情報基盤が侵害され、学生・教職員等の個人情報が漏えいした疑い。規模は調査中。",
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "対象者数"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "メールアドレス"
+  ],
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。具体的な侵入手法は未公表。",
+    "certainty": "confirmed"
+  },
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.isct.ac.jp/ja/news/mrep3c3mj6bx",
+      "type": "official",
+      "title": "情報基盤への不正アクセスによる個人情報漏えいの疑いについて（第一報） | Science Tokyo - 東京科学大学",
+      "published_on": "2026-09-07",
+      "checked_on": "2026-10-07"
+    }
+  ],
+  "notes": "旧東京工業大学・旧東京医科歯科大学の統合当時の構成員を含む。病院患者の情報漏えいは確認されていない。",
+  "updates": []
+}

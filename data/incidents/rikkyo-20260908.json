@@ -1,0 +1,47 @@
+{
+  "id": "rikkyo-20260908",
+  "organization": {
+    "name": "立教大学",
+    "sector": "教育"
+  },
+  "title": "学生・卒業生のメールアカウントが侵害され、迷惑メールに教員1人の情報を記載",
+  "published_on": "2026-09-08",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-07",
+  "first_published_on": "2026-09-08",
+  "publication_kind": "initial",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "summary": "学生・卒業生のメールアカウントが侵害され、迷惑メールに教員1人の情報を記載。メールボックスの追加閲覧の可能性もある。",
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "対象者数"
+    }
+  ],
+  "data_types": [
+    "教員氏名",
+    "メールアドレス",
+    "メール本文内の個人情報"
+  ],
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。具体的な侵入手法は未公表。",
+    "certainty": "confirmed"
+  },
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.rikkyo.ac.jp/news/2026/09/mknpps000005brzy.html",
+      "type": "official",
+      "title": "不正アクセスによる迷惑メール送信に関するお詫びと報告 | 立教大学",
+      "published_on": "2026-09-08",
+      "checked_on": "2026-10-07"
+    }
+  ],
+  "notes": "教員1人の情報を記載した迷惑メールを確認。侵害アカウント6件・迷惑メール17,668件を漏えい人数として扱わない。",
+  "updates": []
+}

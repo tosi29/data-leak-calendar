@@ -1,0 +1,46 @@
+{
+  "id": "nikkei-workspace-20261004",
+  "organization": {
+    "name": "日本経済新聞社",
+    "sector": "企業・団体"
+  },
+  "title": "社員のGoogle Workspaceアカウントへの不正ログインにより、社員・取引先など1,646人の情報が漏えいした疑い",
+  "published_on": "2026-10-04",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-07",
+  "first_published_on": "2026-10-04",
+  "publication_kind": "initial",
+  "verification": "official",
+  "leak_status": "suspected",
+  "summary": "社員のGoogle Workspaceアカウントへの不正ログインにより、社員・取引先など1,646人の情報が漏えいした疑い。",
+  "impact": [
+    {
+      "count": 1646,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "対象者数"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "メールアドレス"
+  ],
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。具体的な侵入手法は未公表。",
+    "certainty": "confirmed"
+  },
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.nikkei.co.jp/nikkeiinfo/news/information/1547.html",
+      "type": "official",
+      "title": "不正ログインによる情報漏洩について : 最新情報 | 日本経済新聞社",
+      "published_on": "2026-10-04",
+      "checked_on": "2026-10-07"
+    }
+  ],
+  "notes": "公式資料に基づく。読者・取材先は含まれない。Microsoft 365・迷惑メール9,000件とする別の報道とは混同しない。",
+  "updates": []
+}

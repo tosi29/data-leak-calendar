@@ -1,0 +1,60 @@
+{
+  "id": "kbic-20260911",
+  "organization": {
+    "name": "かわさき新産業創造センター",
+    "sector": "企業・団体"
+  },
+  "title": "Webサイトへの不正アクセスを公表したが、10月6日の最終調査で個人情報の流出がなかったと確認",
+  "published_on": "2026-09-11",
+  "occurred_on": null,
+  "detected_on": "2026-09-04",
+  "updated_on": "2026-10-07",
+  "first_published_on": "2026-09-11",
+  "publication_kind": "initial",
+  "verification": "official",
+  "leak_status": "ruled_out",
+  "summary": "Webサイトへの不正アクセスを公表したが、10月6日の最終調査で個人情報の流出がなかったと確認。",
+  "impact": [
+    {
+      "count": 22,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "対象者数"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "連絡先",
+    "問い合わせ内容"
+  ],
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。具体的な侵入手法は未公表。",
+    "certainty": "confirmed"
+  },
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.kawasaki-net.ne.jp/info20260911/",
+      "type": "official",
+      "title": "かわさき新産業創造センター（KBIC）のWebサイトへの不正アクセス被害について | 公益財団法人 川崎市産業振興財団",
+      "published_on": "2026-09-11",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "url": "https://www.kawasaki-net.ne.jp/info20261006/",
+      "type": "official",
+      "title": "かわさき新産業創造センター（KBIC）のWebサイトへの不正アクセス被害について（最終報） | 公益財団法人 川崎市産業振興財団",
+      "published_on": "2026-10-06",
+      "checked_on": "2026-10-07"
+    }
+  ],
+  "notes": "22人・27件は初報時の調査対象。確定した漏えい人数ではない。",
+  "updates": [
+    {
+      "date": "2026-10-06",
+      "summary": "最終調査で個人情報等の流出なしを確認。",
+      "source_index": 1
+    }
+  ]
+}

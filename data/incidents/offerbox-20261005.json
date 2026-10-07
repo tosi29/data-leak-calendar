@@ -1,0 +1,46 @@
+{
+  "id": "offerbox-20261005",
+  "organization": {
+    "name": "OfferBox",
+    "sector": "企業・団体"
+  },
+  "title": "利用企業向けページの通信データに学生の氏名・メールアドレスが含まれ、最大314,009人分が閲覧可能だった",
+  "published_on": "2026-10-05",
+  "occurred_on": "2026-05-12",
+  "detected_on": null,
+  "updated_on": "2026-10-07",
+  "first_published_on": "2026-10-05",
+  "publication_kind": "initial",
+  "verification": "official",
+  "leak_status": "exposed",
+  "summary": "利用企業向けページの通信データに学生の氏名・メールアドレスが含まれ、最大314,009人分が閲覧可能だった。",
+  "impact": [
+    {
+      "count": 314009,
+      "unit": "people",
+      "qualifier": "maximum",
+      "description": "対象者数"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "メールアドレス"
+  ],
+  "cause": {
+    "category": "configuration",
+    "detail": "画面表示だけを確認し、通信データの内容を検証しなかったシステム設定不備。",
+    "certainty": "confirmed"
+  },
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://i-plug.co.jp/news/11334/",
+      "type": "official",
+      "title": "「OfferBox」システム設定不備に伴うお詫びとお知らせ｜お知らせ｜株式会社i-plug",
+      "published_on": "2026-10-05",
+      "checked_on": "2026-10-07"
+    }
+  ],
+  "notes": "理論上の最大対象者数であり、実際に閲覧された人数ではない。外部攻撃の事案ではない。",
+  "updates": []
+}

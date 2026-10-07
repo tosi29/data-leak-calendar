@@ -10,51 +10,11 @@
     "added_on": "2026-10-07"
   },
   {
-    "id": "offerbox-20261005",
-    "reported_on": "2026-10-05",
-    "organization": "OfferBox",
-    "note": "最大314,009人／可能性",
-    "reference_url": "https://www.pahoo.org/e-soul/privacy/casestudy/case-023-01.shtm",
-    "verification": "pending",
-    "origin": "user_supplied_research_list",
-    "added_on": "2026-10-07"
-  },
-  {
-    "id": "nikkei-workspace-20261004",
-    "reported_on": "2026-10-04",
-    "organization": "日本経済新聞社",
-    "note": "Google Workspace／1,646人／可能性",
-    "reference_url": "https://innovatopia.jp/cyber-security/cyber-security-news/118602/",
-    "verification": "pending",
-    "origin": "user_supplied_research_list",
-    "added_on": "2026-10-07"
-  },
-  {
-    "id": "sia-20261002",
-    "reported_on": "2026-10-02",
-    "organization": "セーファーインターネット協会",
-    "note": "規模・状況を要確認",
-    "reference_url": "https://innovatopia.jp/cyber-security/cyber-security-news/118602/",
-    "verification": "pending",
-    "origin": "user_supplied_research_list",
-    "added_on": "2026-10-07"
-  },
-  {
     "id": "sagawa-20261001",
     "reported_on": "2026-10-01",
     "organization": "佐川急便",
     "note": "件数調査中",
     "reference_url": "https://www.pahoo.org/e-soul/privacy/casestudy/case-023-02.shtm",
-    "verification": "pending",
-    "origin": "user_supplied_research_list",
-    "added_on": "2026-10-07"
-  },
-  {
-    "id": "voising-20260930",
-    "reported_on": "2026-09-30",
-    "organization": "VOISING",
-    "note": "約17万件／8月初報の最終報告",
-    "reference_url": "https://rocket-boys.co.jp/security-measures-lab/2026-09-latest-cyber-attack-cases/",
     "verification": "pending",
     "origin": "user_supplied_research_list",
     "added_on": "2026-10-07"
@@ -100,30 +60,10 @@
     "added_on": "2026-10-07"
   },
   {
-    "id": "temairazu-20260928",
-    "reported_on": "2026-09-28",
-    "organization": "手間いらず",
-    "note": "TEMAIRAZU宿泊者情報／可能性",
-    "reference_url": "https://rocket-boys.co.jp/security-measures-lab/2026-09-latest-cyber-attack-cases/",
-    "verification": "pending",
-    "origin": "user_supplied_research_list",
-    "added_on": "2026-10-07"
-  },
-  {
     "id": "aichi-aicon-20260921",
     "reported_on": "2026-09-21",
     "organization": "愛知県",
     "note": "あいこんナビ／599人／約8年間公開",
-    "reference_url": "https://www.pahoo.org/e-soul/privacy/casestudy/case-023-03.shtm",
-    "verification": "pending",
-    "origin": "user_supplied_research_list",
-    "added_on": "2026-10-07"
-  },
-  {
-    "id": "pfu-20260918",
-    "reported_on": "2026-09-18",
-    "organization": "PFU",
-    "note": "最大169,355注文データ／ショップサーブ関連",
     "reference_url": "https://www.pahoo.org/e-soul/privacy/casestudy/case-023-03.shtm",
     "verification": "pending",
     "origin": "user_supplied_research_list",
@@ -160,26 +100,6 @@
     "added_on": "2026-10-07"
   },
   {
-    "id": "ainokaze-20260915",
-    "reported_on": "2026-09-15",
-    "organization": "あいの風とやま鉄道",
-    "note": "1,409人／可能性",
-    "reference_url": "https://www.pahoo.org/e-soul/privacy/casestudy/case-023-03.shtm",
-    "verification": "pending",
-    "origin": "user_supplied_research_list",
-    "added_on": "2026-10-07"
-  },
-  {
-    "id": "rohto-20260915",
-    "reported_on": "2026-09-15",
-    "organization": "ロート製薬",
-    "note": "通話音声・顧客管理情報／可能性",
-    "reference_url": "https://www.pahoo.org/e-soul/privacy/casestudy/case-023-03.shtm",
-    "verification": "pending",
-    "origin": "user_supplied_research_list",
-    "added_on": "2026-10-07"
-  },
-  {
     "id": "tokushima-plaza-20260914",
     "reported_on": "2026-09-14",
     "organization": "徳島県立障がい者交流プラザ",
@@ -190,60 +110,10 @@
     "added_on": "2026-10-07"
   },
   {
-    "id": "fuji-20260911",
-    "reported_on": "2026-09-11",
-    "organization": "富士市",
-    "note": "約800人／規模・状況を要確認",
-    "reference_url": "https://www.pahoo.org/e-soul/privacy/casestudy/case-023-04.shtm",
-    "verification": "pending",
-    "origin": "user_supplied_research_list",
-    "added_on": "2026-10-07"
-  },
-  {
-    "id": "kbic-20260911",
-    "reported_on": "2026-09-11",
-    "organization": "かわさき新産業創造センター",
-    "note": "KBIC／22人",
-    "reference_url": "https://www.pahoo.org/e-soul/privacy/casestudy/case-023-04.shtm",
-    "verification": "pending",
-    "origin": "user_supplied_research_list",
-    "added_on": "2026-10-07"
-  },
-  {
     "id": "koshigaya-20260911",
     "reported_on": "2026-09-11",
     "organization": "越谷市立学校",
     "note": "36人",
-    "reference_url": "https://www.pahoo.org/e-soul/privacy/casestudy/case-023-04.shtm",
-    "verification": "pending",
-    "origin": "user_supplied_research_list",
-    "added_on": "2026-10-07"
-  },
-  {
-    "id": "fuso-dentsu-20260910",
-    "reported_on": "2026-09-10",
-    "organization": "扶桑電通",
-    "note": "26,489件／流出確認との情報",
-    "reference_url": "https://www.pahoo.org/e-soul/privacy/casestudy/case-023-04.shtm",
-    "verification": "pending",
-    "origin": "user_supplied_research_list",
-    "added_on": "2026-10-07"
-  },
-  {
-    "id": "saitama-20260910",
-    "reported_on": "2026-09-10",
-    "organization": "埼玉県",
-    "note": "536人／可能性",
-    "reference_url": "https://www.pahoo.org/e-soul/privacy/casestudy/case-023-04.shtm",
-    "verification": "pending",
-    "origin": "user_supplied_research_list",
-    "added_on": "2026-10-07"
-  },
-  {
-    "id": "mol-cruise-20260910",
-    "reported_on": "2026-09-10",
-    "organization": "商船三井クルーズ",
-    "note": "調査中",
     "reference_url": "https://www.pahoo.org/e-soul/privacy/casestudy/case-023-04.shtm",
     "verification": "pending",
     "origin": "user_supplied_research_list",
@@ -260,16 +130,6 @@
     "added_on": "2026-10-07"
   },
   {
-    "id": "nagasaki-20260909",
-    "reported_on": "2026-09-09",
-    "organization": "長崎市",
-    "note": "3通／紛失",
-    "reference_url": "https://www.pahoo.org/e-soul/privacy/casestudy/case-023-04.shtm",
-    "verification": "pending",
-    "origin": "user_supplied_research_list",
-    "added_on": "2026-10-07"
-  },
-  {
     "id": "kyoto-sanga-20260908",
     "reported_on": "2026-09-08",
     "organization": "京都サンガF.C.",
@@ -280,60 +140,10 @@
     "added_on": "2026-10-07"
   },
   {
-    "id": "fivefoxes-20260908",
-    "reported_on": "2026-09-08",
-    "organization": "ファイブフォックス",
-    "note": "73,185件／状況を要確認",
-    "reference_url": "https://www.pahoo.org/e-soul/privacy/casestudy/case-023-04.shtm",
-    "verification": "pending",
-    "origin": "user_supplied_research_list",
-    "added_on": "2026-10-07"
-  },
-  {
-    "id": "nihon-university-20260908",
-    "reported_on": "2026-09-08",
-    "organization": "日本大学理工学部",
-    "note": "規模・状況を要確認",
-    "reference_url": "https://www.pahoo.org/e-soul/privacy/casestudy/case-023-04.shtm",
-    "verification": "pending",
-    "origin": "user_supplied_research_list",
-    "added_on": "2026-10-07"
-  },
-  {
-    "id": "rikkyo-20260908",
-    "reported_on": "2026-09-08",
-    "organization": "立教大学",
-    "note": "規模・状況を要確認",
-    "reference_url": "https://www.pahoo.org/e-soul/privacy/casestudy/case-023-04.shtm",
-    "verification": "pending",
-    "origin": "user_supplied_research_list",
-    "added_on": "2026-10-07"
-  },
-  {
-    "id": "coop-yamaguchi-20260907",
-    "reported_on": "2026-09-07",
-    "organization": "コープやまぐち",
-    "note": "217,295件／可能性",
-    "reference_url": "https://www.pahoo.org/e-soul/privacy/casestudy/case-023-04.shtm",
-    "verification": "pending",
-    "origin": "user_supplied_research_list",
-    "added_on": "2026-10-07"
-  },
-  {
     "id": "gangnam-20260907",
     "reported_on": "2026-09-07",
     "organization": "カンナムオンニ",
     "note": "219,665人、うち日本約4.8万人／可能性",
-    "reference_url": "https://www.pahoo.org/e-soul/privacy/casestudy/case-023-04.shtm",
-    "verification": "pending",
-    "origin": "user_supplied_research_list",
-    "added_on": "2026-10-07"
-  },
-  {
-    "id": "science-tokyo-20260907",
-    "reported_on": "2026-09-07",
-    "organization": "東京科学大学",
-    "note": "規模・状況を要確認",
     "reference_url": "https://www.pahoo.org/e-soul/privacy/casestudy/case-023-04.shtm",
     "verification": "pending",
     "origin": "user_supplied_research_list",

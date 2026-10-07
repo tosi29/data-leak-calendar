@@ -1,0 +1,45 @@
+{
+  "id": "nihon-university-20260908",
+  "organization": {
+    "name": "日本大学理工学部",
+    "sector": "教育"
+  },
+  "title": "教職員1人がフィッシングで認証情報を窃取され、メールボックス内の個人情報を閲覧された可能性",
+  "published_on": "2026-09-08",
+  "occurred_on": "2026-08-07",
+  "detected_on": "2026-08-19",
+  "updated_on": "2026-10-07",
+  "first_published_on": "2026-09-08",
+  "publication_kind": "initial",
+  "verification": "official",
+  "leak_status": "suspected",
+  "summary": "教職員1人がフィッシングで認証情報を窃取され、メールボックス内の個人情報を閲覧された可能性。",
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "対象者数"
+    }
+  ],
+  "data_types": [
+    "メールボックス内の個人情報"
+  ],
+  "cause": {
+    "category": "credentials",
+    "detail": "フィッシングメールからアカウント情報を窃取された。",
+    "certainty": "confirmed"
+  },
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.cst.nihon-u.ac.jp/news/%E4%B8%8D%E6%AD%A3%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E3%81%AB%E3%82%88%E3%82%8B%E8%BF%B7%E6%83%91%E3%83%A1%E3%83%BC%E3%83%AB%E7%99%BA%E4%BF%A1%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E3%81%8A%E3%82%8F/",
+      "type": "official",
+      "title": "不正アクセスによる迷惑メール発信に関するおわびと御報告 | 日大理工学部",
+      "published_on": "2026-09-08",
+      "checked_on": "2026-10-07"
+    }
+  ],
+  "notes": "被害アカウント1件・不審メール宛先50件は、漏えいした個人情報の件数ではない。",
+  "updates": []
+}

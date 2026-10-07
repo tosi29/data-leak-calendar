@@ -1,0 +1,46 @@
+{
+  "id": "temairazu-20260928",
+  "organization": {
+    "name": "手間いらず",
+    "sector": "企業・団体"
+  },
+  "title": "予約管理システムへの不正アクセスを確認",
+  "published_on": "2026-09-28",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-07",
+  "first_published_on": "2026-09-28",
+  "publication_kind": "initial",
+  "verification": "official",
+  "leak_status": "suspected",
+  "summary": "予約管理システムへの不正アクセスを確認。宿泊者情報を閲覧・取得された可能性があり、不審な予約関連メッセージとの関係を調査中。",
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "対象者数"
+    }
+  ],
+  "data_types": [
+    "宿泊者情報",
+    "予約関連情報"
+  ],
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "不正アクセスの原因を特定・対策済みと公表。具体的な手法は非公表。",
+    "certainty": "confirmed"
+  },
+  "related_vendor": "TEMAIRAZU",
+  "sources": [
+    {
+      "url": "https://www.temairazu.co.jp/pdf/1206/news-update",
+      "type": "official",
+      "title": "手間いらず：個人情報に関する公表資料",
+      "published_on": "2026-09-28",
+      "checked_on": "2026-10-07"
+    }
+  ],
+  "notes": "",
+  "updates": []
+}

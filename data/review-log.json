@@ -817,5 +817,404 @@
     "source_urls": [
       "https://www.prudential.co.jp/news/pdf/1028/20260914.pdf"
     ]
+  },
+  {
+    "candidate": {
+      "id": "offerbox-20261005",
+      "reported_on": "2026-10-05",
+      "organization": "OfferBox",
+      "note": "最大314,009人／可能性",
+      "reference_url": "https://www.pahoo.org/e-soul/privacy/casestudy/case-023-01.shtm",
+      "verification": "pending",
+      "origin": "user_supplied_research_list",
+      "added_on": "2026-10-07"
+    },
+    "reviewed_on": "2026-10-07",
+    "resolution": "published",
+    "incident_ids": [
+      "offerbox-20261005"
+    ],
+    "reason": "理論上の最大対象者数であり、実際に閲覧された人数ではない。外部攻撃の事案ではない。",
+    "source_urls": [
+      "https://i-plug.co.jp/news/11334/"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "nikkei-workspace-20261004",
+      "reported_on": "2026-10-04",
+      "organization": "日本経済新聞社",
+      "note": "Google Workspace／1,646人／可能性",
+      "reference_url": "https://innovatopia.jp/cyber-security/cyber-security-news/118602/",
+      "verification": "pending",
+      "origin": "user_supplied_research_list",
+      "added_on": "2026-10-07"
+    },
+    "reviewed_on": "2026-10-07",
+    "resolution": "published",
+    "incident_ids": [
+      "nikkei-workspace-20261004"
+    ],
+    "reason": "公式資料に基づく。読者・取材先は含まれない。Microsoft 365・迷惑メール9,000件とする別の報道とは混同しない。",
+    "source_urls": [
+      "https://www.nikkei.co.jp/nikkeiinfo/news/information/1547.html"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "sia-20261002",
+      "reported_on": "2026-10-02",
+      "organization": "セーファーインターネット協会",
+      "note": "規模・状況を要確認",
+      "reference_url": "https://innovatopia.jp/cyber-security/cyber-security-news/118602/",
+      "verification": "pending",
+      "origin": "user_supplied_research_list",
+      "added_on": "2026-10-07"
+    },
+    "reviewed_on": "2026-10-07",
+    "resolution": "published",
+    "incident_ids": [
+      "sia-20261002"
+    ],
+    "reason": "出典本文で事案と影響範囲を照合。",
+    "source_urls": [
+      "https://www.saferinternet.or.jp/info/35403/"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "temairazu-20260928",
+      "reported_on": "2026-09-28",
+      "organization": "手間いらず",
+      "note": "TEMAIRAZU宿泊者情報／可能性",
+      "reference_url": "https://rocket-boys.co.jp/security-measures-lab/2026-09-latest-cyber-attack-cases/",
+      "verification": "pending",
+      "origin": "user_supplied_research_list",
+      "added_on": "2026-10-07"
+    },
+    "reviewed_on": "2026-10-07",
+    "resolution": "published",
+    "incident_ids": [
+      "temairazu-20260928"
+    ],
+    "reason": "出典本文で事案と影響範囲を照合。",
+    "source_urls": [
+      "https://www.temairazu.co.jp/pdf/1206/news-update"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "pfu-20260918",
+      "reported_on": "2026-09-18",
+      "organization": "PFU",
+      "note": "最大169,355注文データ／ショップサーブ関連",
+      "reference_url": "https://www.pahoo.org/e-soul/privacy/casestudy/case-023-03.shtm",
+      "verification": "pending",
+      "origin": "user_supplied_research_list",
+      "added_on": "2026-10-07"
+    },
+    "reviewed_on": "2026-10-07",
+    "resolution": "published",
+    "incident_ids": [
+      "pfu-20260918"
+    ],
+    "reason": "漏えい自体は確認済み。最大値は複数注文を含む対象候補の注文データ数で、確定流出件数・人数とは異なる。",
+    "source_urls": [
+      "https://www.pfu.ricoh.com/news/2026/news260918-2.html"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "voising-20260930",
+      "reported_on": "2026-09-30",
+      "organization": "VOISING",
+      "note": "約17万件／8月初報の最終報告",
+      "reference_url": "https://rocket-boys.co.jp/security-measures-lab/2026-09-latest-cyber-attack-cases/",
+      "verification": "pending",
+      "origin": "user_supplied_research_list",
+      "added_on": "2026-10-07"
+    },
+    "reviewed_on": "2026-10-07",
+    "resolution": "published",
+    "incident_ids": [
+      "voising-20260930"
+    ],
+    "reason": "出典本文で事案と影響範囲を照合。",
+    "source_urls": [
+      "https://voising-official.com/news/1015"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "rohto-20260915",
+      "reported_on": "2026-09-15",
+      "organization": "ロート製薬",
+      "note": "通話音声・顧客管理情報／可能性",
+      "reference_url": "https://www.pahoo.org/e-soul/privacy/casestudy/case-023-03.shtm",
+      "verification": "pending",
+      "origin": "user_supplied_research_list",
+      "added_on": "2026-10-07"
+    },
+    "reviewed_on": "2026-10-07",
+    "resolution": "published",
+    "incident_ids": [
+      "rohto-20260915"
+    ],
+    "reason": "9月11日初報に対する調査状況の続報。",
+    "source_urls": [
+      "https://www.rohto.co.jp/news/whatsnew/2026/0915_01"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "ainokaze-20260915",
+      "reported_on": "2026-09-15",
+      "organization": "あいの風とやま鉄道",
+      "note": "1,409人／可能性",
+      "reference_url": "https://www.pahoo.org/e-soul/privacy/casestudy/case-023-03.shtm",
+      "verification": "pending",
+      "origin": "user_supplied_research_list",
+      "added_on": "2026-10-07"
+    },
+    "reviewed_on": "2026-10-07",
+    "resolution": "published",
+    "incident_ids": [
+      "ainokaze-20260915"
+    ],
+    "reason": "出典本文で事案と影響範囲を照合。",
+    "source_urls": [
+      "https://ainokaze.co.jp/24166"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "fuji-20260911",
+      "reported_on": "2026-09-11",
+      "organization": "富士市",
+      "note": "約800人／規模・状況を要確認",
+      "reference_url": "https://www.pahoo.org/e-soul/privacy/casestudy/case-023-04.shtm",
+      "verification": "pending",
+      "origin": "user_supplied_research_list",
+      "added_on": "2026-10-07"
+    },
+    "reviewed_on": "2026-10-07",
+    "resolution": "published",
+    "incident_ids": [
+      "fuji-20260911"
+    ],
+    "reason": "原文は約800件。動画データ自体は対象外。",
+    "source_urls": [
+      "https://www.city.fuji.shizuoka.jp/1005250000/p007780.html"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "fuso-dentsu-20260910",
+      "reported_on": "2026-09-10",
+      "organization": "扶桑電通",
+      "note": "26,489件／流出確認との情報",
+      "reference_url": "https://www.pahoo.org/e-soul/privacy/casestudy/case-023-04.shtm",
+      "verification": "pending",
+      "origin": "user_supplied_research_list",
+      "added_on": "2026-10-07"
+    },
+    "reviewed_on": "2026-10-07",
+    "resolution": "published",
+    "incident_ids": [
+      "fuso-dentsu-20260910"
+    ],
+    "reason": "候補の「流出確認」から、公式第2報の「漏えいの可能性」に修正。",
+    "source_urls": [
+      "https://www.fusodentsu.co.jp/news/news_cp_20260910.html"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "saitama-20260910",
+      "reported_on": "2026-09-10",
+      "organization": "埼玉県",
+      "note": "536人／可能性",
+      "reference_url": "https://www.pahoo.org/e-soul/privacy/casestudy/case-023-04.shtm",
+      "verification": "pending",
+      "origin": "user_supplied_research_list",
+      "added_on": "2026-10-07"
+    },
+    "reviewed_on": "2026-10-07",
+    "resolution": "published",
+    "incident_ids": [
+      "saitama-20260910"
+    ],
+    "reason": "536は延べ人数。受領者による削除を確認。",
+    "source_urls": [
+      "https://www.pref.saitama.lg.jp/a0204/news/page/news2026091001.html"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "mol-cruise-20260910",
+      "reported_on": "2026-09-10",
+      "organization": "商船三井クルーズ",
+      "note": "調査中",
+      "reference_url": "https://www.pahoo.org/e-soul/privacy/casestudy/case-023-04.shtm",
+      "verification": "pending",
+      "origin": "user_supplied_research_list",
+      "added_on": "2026-10-07"
+    },
+    "reviewed_on": "2026-10-07",
+    "resolution": "published",
+    "incident_ids": [
+      "mol-cruise-20260910"
+    ],
+    "reason": "調査対象約20万ファイルを漏えい件数としない。",
+    "source_urls": [
+      "https://www.mitsuioceancruises.com/news/20260910.html"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "nagasaki-20260909",
+      "reported_on": "2026-09-09",
+      "organization": "長崎市",
+      "note": "3通／紛失",
+      "reference_url": "https://www.pahoo.org/e-soul/privacy/casestudy/case-023-04.shtm",
+      "verification": "pending",
+      "origin": "user_supplied_research_list",
+      "added_on": "2026-10-07"
+    },
+    "reviewed_on": "2026-10-07",
+    "resolution": "published",
+    "incident_ids": [
+      "nagasaki-20260909"
+    ],
+    "reason": "出典本文で事案と影響範囲を照合。",
+    "source_urls": [
+      "https://news.ntv.co.jp/n/nib/category/society/ni5d0671fec31b498faf680473dfa7b2b1"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "nihon-university-20260908",
+      "reported_on": "2026-09-08",
+      "organization": "日本大学理工学部",
+      "note": "規模・状況を要確認",
+      "reference_url": "https://www.pahoo.org/e-soul/privacy/casestudy/case-023-04.shtm",
+      "verification": "pending",
+      "origin": "user_supplied_research_list",
+      "added_on": "2026-10-07"
+    },
+    "reviewed_on": "2026-10-07",
+    "resolution": "published",
+    "incident_ids": [
+      "nihon-university-20260908"
+    ],
+    "reason": "被害アカウント1件・不審メール宛先50件は、漏えいした個人情報の件数ではない。",
+    "source_urls": [
+      "https://www.cst.nihon-u.ac.jp/news/%E4%B8%8D%E6%AD%A3%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E3%81%AB%E3%82%88%E3%82%8B%E8%BF%B7%E6%83%91%E3%83%A1%E3%83%BC%E3%83%AB%E7%99%BA%E4%BF%A1%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E3%81%8A%E3%82%8F/"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "rikkyo-20260908",
+      "reported_on": "2026-09-08",
+      "organization": "立教大学",
+      "note": "規模・状況を要確認",
+      "reference_url": "https://www.pahoo.org/e-soul/privacy/casestudy/case-023-04.shtm",
+      "verification": "pending",
+      "origin": "user_supplied_research_list",
+      "added_on": "2026-10-07"
+    },
+    "reviewed_on": "2026-10-07",
+    "resolution": "published",
+    "incident_ids": [
+      "rikkyo-20260908"
+    ],
+    "reason": "教員1人の情報を記載した迷惑メールを確認。侵害アカウント6件・迷惑メール17,668件を漏えい人数として扱わない。",
+    "source_urls": [
+      "https://www.rikkyo.ac.jp/news/2026/09/mknpps000005brzy.html"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "fivefoxes-20260908",
+      "reported_on": "2026-09-08",
+      "organization": "ファイブフォックス",
+      "note": "73,185件／状況を要確認",
+      "reference_url": "https://www.pahoo.org/e-soul/privacy/casestudy/case-023-04.shtm",
+      "verification": "pending",
+      "origin": "user_supplied_research_list",
+      "added_on": "2026-10-07"
+    },
+    "reviewed_on": "2026-10-07",
+    "resolution": "published",
+    "incident_ids": [
+      "fivefoxes-20260908"
+    ],
+    "reason": "先頭の59,504件は一部ランクの会員情報。区分間の重複排除は未公表で、73,185人とは扱わない。",
+    "source_urls": [
+      "https://www.fivefoxes.co.jp/2026/09/post-23.html"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "coop-yamaguchi-20260907",
+      "reported_on": "2026-09-07",
+      "organization": "コープやまぐち",
+      "note": "217,295件／可能性",
+      "reference_url": "https://www.pahoo.org/e-soul/privacy/casestudy/case-023-04.shtm",
+      "verification": "pending",
+      "origin": "user_supplied_research_list",
+      "added_on": "2026-10-07"
+    },
+    "reviewed_on": "2026-10-07",
+    "resolution": "published",
+    "incident_ids": [
+      "coop-yamaguchi-20260907"
+    ],
+    "reason": "先頭は電子マネー機能付きカードを持たない組合員情報。4区分計217,295件は重複排除した人数ではない。LINEヤフーのデータベースへの攻撃ではない。",
+    "source_urls": [
+      "https://www.yamaguti-coop.or.jp/line-miniapp-incident-report2/"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "science-tokyo-20260907",
+      "reported_on": "2026-09-07",
+      "organization": "東京科学大学",
+      "note": "規模・状況を要確認",
+      "reference_url": "https://www.pahoo.org/e-soul/privacy/casestudy/case-023-04.shtm",
+      "verification": "pending",
+      "origin": "user_supplied_research_list",
+      "added_on": "2026-10-07"
+    },
+    "reviewed_on": "2026-10-07",
+    "resolution": "published",
+    "incident_ids": [
+      "science-tokyo-20260907"
+    ],
+    "reason": "旧東京工業大学・旧東京医科歯科大学の統合当時の構成員を含む。病院患者の情報漏えいは確認されていない。",
+    "source_urls": [
+      "https://www.isct.ac.jp/ja/news/mrep3c3mj6bx"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "kbic-20260911",
+      "reported_on": "2026-09-11",
+      "organization": "かわさき新産業創造センター",
+      "note": "KBIC／22人",
+      "reference_url": "https://www.pahoo.org/e-soul/privacy/casestudy/case-023-04.shtm",
+      "verification": "pending",
+      "origin": "user_supplied_research_list",
+      "added_on": "2026-10-07"
+    },
+    "reviewed_on": "2026-10-07",
+    "resolution": "published",
+    "incident_ids": [
+      "kbic-20260911"
+    ],
+    "reason": "22人・27件は初報時の調査対象。確定した漏えい人数ではない。",
+    "source_urls": [
+      "https://www.kawasaki-net.ne.jp/info20260911/"
+    ]
   }
 ]

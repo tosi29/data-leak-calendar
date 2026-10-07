@@ -1,0 +1,67 @@
+{
+  "id": "fivefoxes-20260908",
+  "organization": {
+    "name": "ファイブフォックス",
+    "sector": "企業・団体"
+  },
+  "title": "グループのシステムへの不正アクセスにより、顧客・従業員の情報が流出した可能性を続報で公表",
+  "published_on": "2026-09-08",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-07",
+  "first_published_on": "2026-07-14",
+  "publication_kind": "followup",
+  "verification": "official",
+  "leak_status": "suspected",
+  "summary": "グループのシステムへの不正アクセスにより、顧客・従業員の情報が流出した可能性を続報で公表。",
+  "impact": [
+    {
+      "count": 59504,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "対象者数"
+    },
+    {
+      "count": 8403,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "問い合わせ顧客情報"
+    },
+    {
+      "count": 2450,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "ファイブフォックス従業員情報"
+    },
+    {
+      "count": 2828,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "コムサ従業員情報"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "連絡先",
+    "会員情報",
+    "人事情報",
+    "口座情報"
+  ],
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。具体的な侵入手法は未公表。",
+    "certainty": "confirmed"
+  },
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.fivefoxes.co.jp/2026/09/post-23.html",
+      "type": "official",
+      "title": "FIVE FOXes（ファイブフォックス）公式サイト - 不正アクセスによる個人情報流出の可能性についてのお知らせとお詫び(第二報)",
+      "published_on": "2026-09-08",
+      "checked_on": "2026-10-07"
+    }
+  ],
+  "notes": "先頭の59,504件は一部ランクの会員情報。区分間の重複排除は未公表で、73,185人とは扱わない。",
+  "updates": []
+}

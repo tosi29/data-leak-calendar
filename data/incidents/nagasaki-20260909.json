@@ -1,0 +1,46 @@
+{
+  "id": "nagasaki-20260909",
+  "organization": {
+    "name": "長崎市",
+    "sector": "自治体・公的機関"
+  },
+  "title": "新生児のマイナンバーカード申請に関する書類3通を紛失",
+  "published_on": "2026-09-09",
+  "occurred_on": null,
+  "detected_on": "2026-09-03",
+  "updated_on": "2026-10-07",
+  "first_published_on": "2026-09-09",
+  "publication_kind": "initial",
+  "verification": "secondary",
+  "leak_status": "lost",
+  "summary": "新生児のマイナンバーカード申請に関する書類3通を紛失。誤廃棄の可能性が高いと説明。",
+  "impact": [
+    {
+      "count": 3,
+      "unit": "documents",
+      "qualifier": "exact",
+      "description": "対象者数"
+    }
+  ],
+  "data_types": [
+    "両親・新生児の氏名",
+    "住所"
+  ],
+  "cause": {
+    "category": "loss",
+    "detail": "地域センターで受領した書類が住民情報課に到着せず、誤廃棄の可能性。",
+    "certainty": "suspected"
+  },
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://news.ntv.co.jp/n/nib/category/society/ni5d0671fec31b498faf680473dfa7b2b1",
+      "type": "news",
+      "title": "長崎市「マイナンバーカード申請書類を紛失」個人情報記載書類を誤って廃棄した可能性《長崎》（2026年9月9日掲載）｜NIB NEWS NNN",
+      "published_on": "2026-09-09",
+      "checked_on": "2026-10-07"
+    }
+  ],
+  "notes": "",
+  "updates": []
+}

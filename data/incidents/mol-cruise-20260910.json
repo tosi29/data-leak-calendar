@@ -1,0 +1,49 @@
+{
+  "id": "mol-cruise-20260910",
+  "organization": {
+    "name": "商船三井クルーズ",
+    "sector": "企業・団体"
+  },
+  "title": "船内PCのデータ移行に使用した外部記憶媒体を紛失",
+  "published_on": "2026-09-10",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-07",
+  "first_published_on": "2026-09-10",
+  "publication_kind": "initial",
+  "verification": "official",
+  "leak_status": "lost",
+  "summary": "船内PCのデータ移行に使用した外部記憶媒体を紛失。顧客・乗組員の個人情報が含まれた可能性を調査中。",
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "対象者数"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "連絡先",
+    "旅券番号",
+    "医療・アレルギー情報",
+    "乗組員人事情報"
+  ],
+  "cause": {
+    "category": "loss",
+    "detail": "船内の乗組員専用室に保管した外部記憶媒体の一部が所在不明。",
+    "certainty": "confirmed"
+  },
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.mitsuioceancruises.com/news/20260910.html",
+      "type": "official",
+      "title": "営業情報を保存した外部記憶媒体の紛失について 【公式】MITSUI OCEAN CRUISES（三井オーシャンクルーズ）",
+      "published_on": "2026-09-10",
+      "checked_on": "2026-10-07"
+    }
+  ],
+  "notes": "調査対象約20万ファイルを漏えい件数としない。",
+  "updates": []
+}

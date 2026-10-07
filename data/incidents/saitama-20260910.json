@@ -1,0 +1,49 @@
+{
+  "id": "saitama-20260910",
+  "organization": {
+    "name": "埼玉県",
+    "sector": "自治体・公的機関"
+  },
+  "title": "開示文書のマスキングが不完全で、授業料等減免対象の学生延べ536人の情報が閲覧可能だった",
+  "published_on": "2026-09-10",
+  "occurred_on": null,
+  "detected_on": "2026-08-27",
+  "updated_on": "2026-10-07",
+  "first_published_on": "2026-09-10",
+  "publication_kind": "initial",
+  "verification": "official",
+  "leak_status": "exposed",
+  "summary": "開示文書のマスキングが不完全で、授業料等減免対象の学生延べ536人の情報が閲覧可能だった。",
+  "impact": [
+    {
+      "count": 536,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "対象者数"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "学科",
+    "学年",
+    "授業料減免情報",
+    "学籍情報"
+  ],
+  "cause": {
+    "category": "redaction_error",
+    "detail": "適切なマスキング手法の課内周知が不十分。",
+    "certainty": "confirmed"
+  },
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.pref.saitama.lg.jp/a0204/news/page/news2026091001.html",
+      "type": "official",
+      "title": "不開示情報のマスキングが不完全な文書の情報開示による個人情報を含む不開示情報の漏えいについて - 埼玉県",
+      "published_on": "2026-09-10",
+      "checked_on": "2026-10-07"
+    }
+  ],
+  "notes": "536は延べ人数。受領者による削除を確認。",
+  "updates": []
+}

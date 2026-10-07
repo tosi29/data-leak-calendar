@@ -1,0 +1,67 @@
+{
+  "id": "coop-yamaguchi-20260907",
+  "organization": {
+    "name": "コープやまぐち",
+    "sector": "企業・団体"
+  },
+  "title": "LINEミニアプリ用データベースへの不正アクセスでデータが削除され、組合員や申込者情報が漏えいしたおそれ",
+  "published_on": "2026-09-07",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-07",
+  "first_published_on": "2026-08-28",
+  "publication_kind": "followup",
+  "verification": "official",
+  "leak_status": "suspected",
+  "summary": "LINEミニアプリ用データベースへの不正アクセスでデータが削除され、組合員や申込者情報が漏えいしたおそれ。",
+  "impact": [
+    {
+      "count": 69586,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "対象者数"
+    },
+    {
+      "count": 143126,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "電子マネー機能付きカード保有組合員"
+    },
+    {
+      "count": 365,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "非組合員の注文・配送関連情報"
+    },
+    {
+      "count": 4218,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "アンケート・申込フォーム情報"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "電話番号",
+    "郵便番号",
+    "カード番号・PIN",
+    "申込情報"
+  ],
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。具体的な侵入手法は未公表。",
+    "certainty": "confirmed"
+  },
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.yamaguti-coop.or.jp/line-miniapp-incident-report2/",
+      "type": "official",
+      "title": "コープやまぐちLINEミニアプリへの不正アクセスによる個人情報漏えいのおそれについて（第二報） | コープやまぐち",
+      "published_on": "2026-09-07",
+      "checked_on": "2026-10-07"
+    }
+  ],
+  "notes": "先頭は電子マネー機能付きカードを持たない組合員情報。4区分計217,295件は重複排除した人数ではない。LINEヤフーのデータベースへの攻撃ではない。",
+  "updates": []
+}

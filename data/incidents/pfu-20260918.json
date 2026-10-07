@@ -1,0 +1,49 @@
+{
+  "id": "pfu-20260918",
+  "organization": {
+    "name": "PFU",
+    "sector": "企業・団体"
+  },
+  "title": "過去に利用したショップサーブへの攻撃でPFUダイレクト本店の顧客情報が漏えい",
+  "published_on": "2026-09-18",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-07",
+  "first_published_on": "2026-09-18",
+  "publication_kind": "initial",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "summary": "過去に利用したショップサーブへの攻撃でPFUダイレクト本店の顧客情報が漏えい。対象候補は最大169,355注文データ。",
+  "impact": [
+    {
+      "count": 169355,
+      "unit": "records",
+      "qualifier": "maximum",
+      "description": "対象者数"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "電話番号",
+    "メールアドレス",
+    "勤務先"
+  ],
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。具体的な侵入手法は未公表。",
+    "certainty": "confirmed"
+  },
+  "related_vendor": "Eストアー（ショップサーブ）",
+  "sources": [
+    {
+      "url": "https://www.pfu.ricoh.com/news/2026/news260918-2.html",
+      "type": "official",
+      "title": "重要なお知らせ | 外部サービスEストアー「ショップサーブ」への不正アクセスに伴う「PFUダイレクト本店」の個人情報漏えいに関するお詫びとお知らせ | PFU",
+      "published_on": "2026-09-18",
+      "checked_on": "2026-10-07"
+    }
+  ],
+  "notes": "漏えい自体は確認済み。最大値は複数注文を含む対象候補の注文データ数で、確定流出件数・人数とは異なる。",
+  "updates": []
+}
