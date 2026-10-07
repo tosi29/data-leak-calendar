@@ -1,0 +1,56 @@
+{
+  "id": "yamato-atobarai-20260929",
+  "organization": {
+    "name": "ヤマト運輸株式会社",
+    "sector": "交通・運輸"
+  },
+  "title": "クロネコ代金後払いサービスへの不正アクセス",
+  "published_on": "2026-09-29",
+  "occurred_on": null,
+  "detected_on": "2026-09-28",
+  "updated_on": "2026-10-07",
+  "leak_status": "suspected",
+  "summary": "代金後払いサービスへの不正アクセスを確認。第2報で利用者・加盟店・担当社員に関する情報が漏えいした可能性を公表。",
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "影響範囲を調査中"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "電話番号",
+    "メールアドレス",
+    "与信番号",
+    "請求・商品情報"
+  ],
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。侵入方法の詳細は公表資料に記載なし。",
+    "certainty": "unknown"
+  },
+  "sources": [
+    {
+      "url": "https://www.yamato-hd.co.jp/important/info_260929_1.html",
+      "type": "official",
+      "title": "クロネコ代金後払いサービスへの不正アクセス（第2報）",
+      "published_on": "2026-10-02",
+      "checked_on": "2026-10-07"
+    }
+  ],
+  "notes": "第2報本文で初報の日付（9月29日）を確認。件数は未公表。",
+  "updates": [
+    {
+      "date": "2026-10-02",
+      "summary": "漏えいした可能性がある情報の種類を公表。",
+      "source_index": 0
+    }
+  ],
+  "first_published_on": "2026-09-29",
+  "publication_kind": "initial",
+  "verification": "official",
+  "related_vendor": null
+}

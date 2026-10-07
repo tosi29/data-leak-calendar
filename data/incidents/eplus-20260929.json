@@ -1,0 +1,49 @@
+{
+  "id": "eplus-20260929",
+  "organization": {
+    "name": "株式会社イープラス",
+    "sector": "エンターテインメント"
+  },
+  "title": "スマチケ払戻し情報の漏えい",
+  "published_on": "2026-09-29",
+  "occurred_on": "2026-09-11",
+  "detected_on": null,
+  "updated_on": "2026-10-07",
+  "leak_status": "confirmed",
+  "summary": "スマチケの払戻しを管理するシステムから、払戻し申請者の情報が流出。対象情報は返金方法により異なる。",
+  "impact": [
+    {
+      "count": 1463,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "払戻し申請者の情報"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "メールアドレス",
+    "銀行口座情報",
+    "住所",
+    "公演情報"
+  ],
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "9月11日から12日にかけて第三者による不正アクセスが発生。具体的な侵入手口は記載なし。",
+    "certainty": "unknown"
+  },
+  "sources": [
+    {
+      "url": "https://support-qa.eplus.jp/hc/ja/articles/62711500727961",
+      "type": "official",
+      "title": "システムへの不正アクセスおよび個人情報漏えいのお知らせ",
+      "published_on": "2026-09-29",
+      "checked_on": "2026-10-07"
+    }
+  ],
+  "notes": "発生期間は9月11〜12日、確認は9月14〜15日。銀行振込751件・カード返金644件・郵便振替68件。カード情報とパスワードは対象外。",
+  "updates": [],
+  "first_published_on": "2026-09-29",
+  "publication_kind": "initial",
+  "verification": "official",
+  "related_vendor": null
+}

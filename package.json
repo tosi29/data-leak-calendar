@@ -1,0 +1,12 @@
+{
+  "name": "data-leak-calendar",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "test": "node --test",
+    "check": "node scripts/validate.mjs",
+    "preview": "python3 -m http.server 4173 --directory dist"
+  },
+  "engines": { "node": ">=22" }
+}

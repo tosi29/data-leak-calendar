@@ -1,0 +1,48 @@
+{
+  "id": "fines-20260925",
+  "organization": {
+    "name": "株式会社ファインズ",
+    "sector": "IT・インターネット"
+  },
+  "title": "予約システムへの不正アクセス",
+  "published_on": "2026-09-25",
+  "occurred_on": null,
+  "detected_on": "2026-09-22",
+  "updated_on": "2026-10-07",
+  "leak_status": "confirmed",
+  "summary": "予約システムへの不正アクセスと情報漏えいを速報として公表。予約者情報153万6,322件を影響範囲として示した。",
+  "impact": [
+    {
+      "count": 1536322,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "速報で公表された対象件数"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "電話番号",
+    "メールアドレス",
+    "予約情報"
+  ],
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。手口の詳細は公表資料に記載なし。",
+    "certainty": "unknown"
+  },
+  "sources": [
+    {
+      "url": "https://e-tenki.co.jp/news/弊社システムへの不正アクセスによる情報漏えい/",
+      "type": "official",
+      "title": "予約システムへの不正アクセスによる情報漏えい（速報）",
+      "published_on": "2026-09-25",
+      "checked_on": "2026-10-07"
+    }
+  ],
+  "notes": "情報漏えいとして公表されているが、影響範囲の特定は継続中。件数は最終確定値ではない。",
+  "updates": [],
+  "first_published_on": "2026-09-25",
+  "publication_kind": "initial",
+  "verification": "official",
+  "related_vendor": null
+}

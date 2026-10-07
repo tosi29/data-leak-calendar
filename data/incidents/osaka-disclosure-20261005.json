@@ -1,0 +1,45 @@
+{
+  "id": "osaka-disclosure-20261005",
+  "organization": {
+    "name": "大阪府",
+    "sector": "行政"
+  },
+  "title": "行政文書の黒塗り漏れによる個人情報開示",
+  "published_on": "2026-10-05",
+  "occurred_on": "2026-06-08",
+  "detected_on": "2026-08-06",
+  "updated_on": "2026-10-07",
+  "leak_status": "confirmed",
+  "summary": "情報公開請求に応じて開示した文書に黒塗りされていない箇所があり、2名の名字が開示された。",
+  "impact": [
+    {
+      "count": 2,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "文書に記載された氏名（名字）"
+    }
+  ],
+  "data_types": [
+    "氏名（名字）"
+  ],
+  "cause": {
+    "category": "redaction_error",
+    "detail": "ファイル準備時に担当者が一人で作業・確認し、公開手続時の二重チェックでも漏れを発見できなかった。",
+    "certainty": "confirmed"
+  },
+  "sources": [
+    {
+      "url": "https://www.pref.osaka.lg.jp/hodo/fumin/o120080/prs_50867.html",
+      "type": "official",
+      "title": "個人情報の漏えいについて",
+      "published_on": "2026-10-05",
+      "checked_on": "2026-10-07"
+    }
+  ],
+  "notes": "6月8日にファイルをアップロードし、6月9日に請求者がダウンロード。",
+  "updates": [],
+  "first_published_on": "2026-10-05",
+  "publication_kind": "initial",
+  "verification": "official",
+  "related_vendor": null
+}

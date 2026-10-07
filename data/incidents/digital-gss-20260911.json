@@ -1,0 +1,48 @@
+{
+  "id": "digital-gss-20260911",
+  "organization": {
+    "name": "デジタル庁",
+    "sector": "行政"
+  },
+  "title": "GSSへの不正アクセス",
+  "published_on": "2026-09-11",
+  "occurred_on": null,
+  "detected_on": "2026-06-25",
+  "updated_on": "2026-10-07",
+  "leak_status": "suspected",
+  "summary": "政府の業務基盤GSSに不正アクセスがあり、職員や業務関係者の情報が流出した可能性を公表。",
+  "impact": [
+    {
+      "count": 246000,
+      "unit": "records",
+      "qualifier": "approximate",
+      "description": "職員・業務関係者の個人情報"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "メールアドレス",
+    "電話番号",
+    "住所"
+  ],
+  "cause": {
+    "category": "vulnerability",
+    "detail": "VPN機器の脆弱性を利用した侵入と、保守運用担当者アカウントの利用を確認。",
+    "certainty": "confirmed"
+  },
+  "sources": [
+    {
+      "url": "https://www.digital.go.jp/news/2026-0911-01",
+      "type": "official",
+      "title": "GSSへの不正アクセスによる個人情報の漏えいの可能性",
+      "published_on": "2026-09-11",
+      "checked_on": "2026-10-07"
+    }
+  ],
+  "notes": "一般の方の個人情報は含まれないと発表。",
+  "updates": [],
+  "first_published_on": "2026-09-11",
+  "publication_kind": "initial",
+  "verification": "official",
+  "related_vendor": null
+}

@@ -1,0 +1,13 @@
+import { cp, mkdir, rm, writeFile, readFile } from 'node:fs/promises';
+import { loadData, root } from './validate.mjs';
+const data = await loadData();
+const candidates = JSON.parse(await readFile(`${root}data/candidates.json`, 'utf8'));
+const ids = new Set(data.incidents.map(i => i.id));
+if (candidates.some(c => ids.has(c.id))) throw new Error('Candidate already published');
+await rm(`${root}dist`, { recursive: true, force: true });
+await cp(`${root}public`, `${root}dist`, { recursive: true });
+await mkdir(`${root}dist/data`, { recursive: true });
+await writeFile(`${root}dist/data/incidents.json`, JSON.stringify(data, null, 2) + '\n');
+await writeFile(`${root}dist/data/candidates.json`, JSON.stringify(candidates, null, 2) + '\n');
+await writeFile(`${root}dist/.nojekyll`, '');
+console.log(`Built ${data.incidents.length} verified incidents; ${candidates.length} research candidates.`);

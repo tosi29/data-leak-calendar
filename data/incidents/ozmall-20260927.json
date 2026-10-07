@@ -1,0 +1,60 @@
+{
+  "id": "ozmall-20260927",
+  "organization": {
+    "name": "スターツ出版株式会社",
+    "sector": "メディア・出版"
+  },
+  "title": "OZmall会員情報が閲覧された可能性",
+  "published_on": "2026-09-27",
+  "occurred_on": null,
+  "detected_on": "2026-09-26",
+  "updated_on": "2026-10-07",
+  "leak_status": "suspected",
+  "summary": "OZmallへの不正アクセスにより、会員と一部退会者のメールアドレスなどが閲覧された可能性。",
+  "impact": [
+    {
+      "count": 442779,
+      "unit": "people",
+      "qualifier": "maximum",
+      "description": "メールアドレス等が閲覧された可能性のある会員・退会者"
+    }
+  ],
+  "data_types": [
+    "メールアドレス",
+    "氏名",
+    "住所（都道府県）"
+  ],
+  "cause": {
+    "category": "vulnerability",
+    "detail": "不正アクセスの原因を特定し、当該脆弱性への対策を実施したと発表。",
+    "certainty": "confirmed"
+  },
+  "sources": [
+    {
+      "url": "https://starts-pub.jp/info20260927",
+      "type": "official",
+      "title": "個人情報流出の可能性に関するお知らせ（第一報）",
+      "published_on": "2026-09-27",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "url": "https://starts-pub.jp/info20261001",
+      "type": "official",
+      "title": "個人情報流出の可能性に関するお知らせ（第2報）",
+      "published_on": "2026-10-01",
+      "checked_on": "2026-10-07"
+    }
+  ],
+  "notes": "第2報で最大447,610名から最大442,779名へ修正。氏名・都道府県は一部の方のみ。",
+  "updates": [
+    {
+      "date": "2026-10-01",
+      "summary": "対象人数を修正し、一部退会者を含むことを公表。",
+      "source_index": 1
+    }
+  ],
+  "first_published_on": "2026-09-27",
+  "publication_kind": "initial",
+  "verification": "official",
+  "related_vendor": null
+}

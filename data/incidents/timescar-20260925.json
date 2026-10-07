@@ -1,0 +1,83 @@
+{
+  "id": "timescar-20260925",
+  "organization": {
+    "name": "タイムズモビリティ株式会社",
+    "sector": "交通・運輸"
+  },
+  "title": "タイムズカー会員情報への不正アクセス",
+  "published_on": "2026-09-25",
+  "occurred_on": null,
+  "detected_on": "2026-09-25",
+  "updated_on": "2026-10-07",
+  "leak_status": "confirmed",
+  "summary": "タイムズカーのWebシステムから会員情報が取得されたことを確認。続報で本人確認書類の対象規模も公表。",
+  "impact": [
+    {
+      "count": 6600000,
+      "unit": "accounts",
+      "qualifier": "approximate",
+      "description": "退会者・入会未完了者等を含む"
+    },
+    {
+      "count": 1600000,
+      "unit": "accounts",
+      "qualifier": "approximate",
+      "description": "本人確認書類情報が漏えいしたアカウント（内数）"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "生年月日",
+    "電話番号",
+    "メールアドレス",
+    "運転免許情報",
+    "本人確認書類",
+    "パスワード（復元できない形式）"
+  ],
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "外部からの不正アクセスを確認。侵入経路の詳細は調査中。",
+    "certainty": "unknown"
+  },
+  "sources": [
+    {
+      "url": "https://www.park24.co.jp/news/2026/09/web1.html",
+      "type": "official",
+      "title": "タイムズカーへの不正アクセス（第1報）",
+      "published_on": "2026-09-25",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "url": "https://www.park24.co.jp/news/2026/09/20260928-1.html",
+      "type": "official",
+      "title": "タイムズカーへの不正アクセス（第2報）",
+      "published_on": "2026-09-28",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "url": "https://www.park24.co.jp/news/2026/09/20260929-1.html",
+      "type": "official",
+      "title": "タイムズカーへの不正アクセス（第3報）",
+      "published_on": "2026-09-29",
+      "checked_on": "2026-10-07"
+    }
+  ],
+  "notes": "公表元はパーク24。本人確認書類の対象は全体の内数であり合算しない。",
+  "updates": [
+    {
+      "date": "2026-09-28",
+      "summary": "約660万アカウントの情報取得を確認。",
+      "source_index": 1
+    },
+    {
+      "date": "2026-09-29",
+      "summary": "本人確認書類の漏えい対象は約160万アカウントと公表。",
+      "source_index": 2
+    }
+  ],
+  "first_published_on": "2026-09-25",
+  "publication_kind": "initial",
+  "verification": "official",
+  "related_vendor": null
+}

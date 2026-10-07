@@ -1,0 +1,45 @@
+{
+  "id": "tochigi-mail-20260929",
+  "organization": {
+    "name": "栃木県",
+    "sector": "行政"
+  },
+  "title": "労働力調査のメール返信先設定による漏えい",
+  "published_on": "2026-09-29",
+  "occurred_on": "2026-09-15",
+  "detected_on": "2026-09-16",
+  "updated_on": "2026-10-07",
+  "leak_status": "confirmed",
+  "summary": "過去のメールを転用して送信した際、別事業所職員のアドレスが返信先に残り、送信相手に伝わった。",
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "別事業所職員のメールアドレス。公表文に総件数の明記なし"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "cause": {
+    "category": "misdelivery",
+    "detail": "メールの再送機能を使用した際に返信先設定が残っていた。",
+    "certainty": "confirmed"
+  },
+  "sources": [
+    {
+      "url": "https://www.pref.tochigi.lg.jp/c04/houdou/houdou/r8-9rouchou.html",
+      "type": "official",
+      "title": "労働力調査に係る情報漏えい事案について",
+      "published_on": "2026-09-29",
+      "checked_on": "2026-10-07"
+    }
+  ],
+  "notes": "",
+  "updates": [],
+  "first_published_on": "2026-09-29",
+  "publication_kind": "initial",
+  "verification": "official",
+  "related_vendor": null
+}

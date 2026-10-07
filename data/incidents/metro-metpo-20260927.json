@@ -1,0 +1,45 @@
+{
+  "id": "metro-metpo-20260927",
+  "organization": {
+    "name": "東京地下鉄株式会社",
+    "sector": "交通・運輸"
+  },
+  "title": "メトポのメールアドレスへの不正アクセス",
+  "published_on": "2026-09-27",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-07",
+  "leak_status": "suspected",
+  "summary": "配信停止中のメールアドレスを保管したサーバーに不正アクセスがあり、閲覧・取得された可能性を公表。",
+  "impact": [
+    {
+      "count": 59000,
+      "unit": "records",
+      "qualifier": "approximate",
+      "description": "メールアドレス"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "不正アクセスを受けた箇所への対策を実施。原因と影響範囲の詳細は調査中。",
+    "certainty": "unknown"
+  },
+  "sources": [
+    {
+      "url": "https://www.tokyometro.jp/info/files/9172e2efa7222d15f8d4f601b6385457.pdf",
+      "type": "official",
+      "title": "メトポ会員向けサービスにおける不正アクセス（PDF）",
+      "published_on": "2026-09-27",
+      "checked_on": "2026-10-07"
+    }
+  ],
+  "notes": "対象サーバーにはメールアドレス以外の会員情報は含まれないと発表。",
+  "updates": [],
+  "first_published_on": "2026-09-27",
+  "publication_kind": "initial",
+  "verification": "official",
+  "related_vendor": null
+}

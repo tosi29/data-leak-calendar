@@ -1,0 +1,79 @@
+{
+  "id": "helpfeel-gyazo-20260916",
+  "organization": {
+    "name": "株式会社Helpfeel",
+    "sector": "IT・インターネット"
+  },
+  "title": "Gyazoのユーザー情報・画像メタデータ流出",
+  "published_on": "2026-09-16",
+  "occurred_on": "2026-09-11",
+  "detected_on": "2026-09-11",
+  "updated_on": "2026-10-07",
+  "leak_status": "confirmed",
+  "summary": "画像アップロードサーバーを経由した侵入により、ユーザー情報と画像に関するメタデータが外部に流出。",
+  "impact": [
+    {
+      "count": 23620000,
+      "unit": "records",
+      "qualifier": "approximate",
+      "description": "ユーザーに関するデータ。人数ではない"
+    },
+    {
+      "count": 490000000,
+      "unit": "records",
+      "qualifier": "approximate",
+      "description": "画像メタデータ"
+    },
+    {
+      "count": 2400000,
+      "unit": "records",
+      "qualifier": "approximate",
+      "description": "条件を絞って取得された画像メタデータ"
+    },
+    {
+      "count": 174000000,
+      "unit": "records",
+      "qualifier": "approximate",
+      "description": "削除済み画像のメタデータ（第二報）"
+    }
+  ],
+  "data_types": [
+    "メールアドレス",
+    "パスワードのハッシュ値",
+    "利用者ID",
+    "画像メタデータ"
+  ],
+  "cause": {
+    "category": "vulnerability",
+    "detail": "画像アップロードサーバーの脆弱性を悪用し、任意のコマンドが実行された。",
+    "certainty": "confirmed"
+  },
+  "sources": [
+    {
+      "url": "https://corp.helpfeel.com/news/news-20260916-1",
+      "type": "official",
+      "title": "Gyazoへの不正アクセスによる情報漏えい（第一報）",
+      "published_on": "2026-09-16",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "url": "https://corp.helpfeel.com/news/news-20260925-01",
+      "type": "official",
+      "title": "Gyazoへの不正アクセスによる情報漏えい（第二報）",
+      "published_on": "2026-09-25",
+      "checked_on": "2026-10-07"
+    }
+  ],
+  "notes": "匿名利用者のデータを含む。個人情報が流出した人数は調査中。メタデータ件数は画像ファイルの流出件数ではなく、各規模は合算しない。",
+  "updates": [
+    {
+      "date": "2026-09-25",
+      "summary": "削除済み画像のメタデータ約1.74億件の流出が新たに判明。",
+      "source_index": 1
+    }
+  ],
+  "first_published_on": "2026-09-16",
+  "publication_kind": "initial",
+  "verification": "official",
+  "related_vendor": null
+}
