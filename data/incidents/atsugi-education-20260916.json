@@ -1,0 +1,47 @@
+{
+  "id": "atsugi-education-20260916",
+  "organization": {
+    "name": "厚木市教育委員会",
+    "sector": "自治体・公的機関"
+  },
+  "title": "市立小中学校13校で、保護者の同意を得ず児童生徒・保護者の名簿をPTAに提供",
+  "published_on": "2026-09-16",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-07",
+  "first_published_on": "2026-09-16",
+  "publication_kind": "initial",
+  "verification": "secondary",
+  "leak_status": "improper_sharing",
+  "summary": "市立小中学校13校で、保護者の同意を得ず児童生徒・保護者の名簿をPTAに提供。",
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "対象規模は確認した出典に記載なし・調査中"
+    }
+  ],
+  "data_types": [
+    "児童生徒氏名",
+    "保護者氏名",
+    "連絡先"
+  ],
+  "cause": {
+    "category": "improper_sharing",
+    "detail": "保護者の同意を得ないままPTAへ名簿を提供。",
+    "certainty": "confirmed"
+  },
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.kanaloco.jp/news/government/article-1304991.html",
+      "type": "news",
+      "title": "厚木市立小中１３校、個人情報記載の名簿をＰＴＡに提供 保護者の同意なく | カナロコ by 神奈川新聞",
+      "published_on": "2026-09-16",
+      "checked_on": "2026-10-07"
+    }
+  ],
+  "notes": "同意のない第三者提供として掲載。13校は人数ではなく、影響人数は本文の無料公開部分では確認できない。",
+  "updates": []
+}

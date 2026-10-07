@@ -1,0 +1,50 @@
+{
+  "id": "kyoto-sanga-20260908",
+  "organization": {
+    "name": "京都サンガF.C.",
+    "sector": "企業・団体"
+  },
+  "title": "取引先へのメールにファンクラブ会員15,612人分の情報を誤添付",
+  "published_on": "2026-09-08",
+  "occurred_on": "2026-09-02",
+  "detected_on": null,
+  "updated_on": "2026-10-07",
+  "first_published_on": "2026-09-08",
+  "publication_kind": "initial",
+  "verification": "secondary",
+  "leak_status": "confirmed",
+  "summary": "取引先へのメールにファンクラブ会員15,612人分の情報を誤添付。受信者11人中2人がファイルを開封。",
+  "impact": [
+    {
+      "count": 15612,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "対象人数"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "連絡先",
+    "生年月日",
+    "会員情報",
+    "JリーグID",
+    "スクール情報"
+  ],
+  "cause": {
+    "category": "misdelivery",
+    "detail": "担当者が別用途の会員情報ファイルを誤って添付し送信。",
+    "certainty": "confirmed"
+  },
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://web.gekisaka.jp/news/jleague/detail/?458481-458481-fl",
+      "type": "news",
+      "title": "京都、ファンクラブ会員1万5612人分の個人情報が外部流出 | ゲキサカ",
+      "published_on": "2026-09-08",
+      "checked_on": "2026-10-07"
+    }
+  ],
+  "notes": "取引先でメール・添付ファイルの完全削除を確認。",
+  "updates": []
+}

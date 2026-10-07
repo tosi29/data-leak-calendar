@@ -19,7 +19,7 @@
       "count": null,
       "unit": "people",
       "qualifier": "unknown",
-      "description": "対象者数"
+      "description": "対象規模は確認した出典に記載なし・調査中"
     }
   ],
   "data_types": [
@@ -32,7 +32,7 @@
   "cause": {
     "category": "unauthorized_access",
     "detail": "第三者による不正アクセス。具体的な侵入手法は未公表。",
-    "certainty": "confirmed"
+    "certainty": "unknown"
   },
   "related_vendor": null,
   "sources": [

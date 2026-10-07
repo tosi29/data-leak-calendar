@@ -1,0 +1,48 @@
+{
+  "id": "yotsukaido-20260929",
+  "organization": {
+    "name": "四街道市社会福祉協議会",
+    "sector": "自治体・公的機関"
+  },
+  "title": "サポート詐欺で業務端末が約30分間遠隔操作可能になり、介護サービス利用者33人の情報が漏えいした可能性",
+  "published_on": "2026-09-29",
+  "occurred_on": "2026-08-30",
+  "detected_on": null,
+  "updated_on": "2026-10-07",
+  "first_published_on": "2026-09-29",
+  "publication_kind": "initial",
+  "verification": "official",
+  "leak_status": "suspected",
+  "summary": "サポート詐欺で業務端末が約30分間遠隔操作可能になり、介護サービス利用者33人の情報が漏えいした可能性。",
+  "impact": [
+    {
+      "count": 33,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "対象人数"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "介護認定区分",
+    "介護サービス利用状況",
+    "病院名"
+  ],
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "偽の警告を信じて連絡し、指示に従って遠隔操作ソフトを導入。",
+    "certainty": "confirmed"
+  },
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.yotsukaido-shakyo.or.jp/info.php?id=941",
+      "type": "official",
+      "title": "社会福祉法人 四街道市社会福祉協議会｜新着情報",
+      "published_on": "2026-09-29",
+      "checked_on": "2026-10-07"
+    }
+  ],
+  "notes": "",
+  "updates": []
+}

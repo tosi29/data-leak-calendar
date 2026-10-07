@@ -19,7 +19,7 @@
       "count": 1050000,
       "unit": "accounts",
       "qualifier": "approximate",
-      "description": "対象者数"
+      "description": "対象アカウント数"
     }
   ],
   "data_types": [

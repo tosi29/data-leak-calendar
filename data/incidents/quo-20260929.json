@@ -1,0 +1,46 @@
+{
+  "id": "quo-20260929",
+  "organization": {
+    "name": "QUOカード",
+    "sector": "企業・団体"
+  },
+  "title": "LINE公式アカウントのキャンペーン用システムへの不正アクセスで、表示名と当選情報が閲覧・流出した可能性",
+  "published_on": "2026-09-29",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-07",
+  "first_published_on": "2026-09-29",
+  "publication_kind": "initial",
+  "verification": "official",
+  "leak_status": "suspected",
+  "summary": "LINE公式アカウントのキャンペーン用システムへの不正アクセスで、表示名と当選情報が閲覧・流出した可能性。",
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "対象規模は確認した出典に記載なし・調査中"
+    }
+  ],
+  "data_types": [
+    "LINE表示名",
+    "キャンペーン当選情報"
+  ],
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。具体的な侵入手法は未公表。",
+    "certainty": "unknown"
+  },
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.quocard.com/newsroom/important/20260929/",
+      "type": "official",
+      "title": "当社LINE公式アカウント キャンペーンシステムへの不正アクセスに関するお詫びとお知らせ｜【公式】ギフトといえばQUOカード・QUOカードPay",
+      "published_on": "2026-09-29",
+      "checked_on": "2026-10-07"
+    }
+  ],
+  "notes": "決済システムとは独立したキャンペーン専用システム。",
+  "updates": []
+}

@@ -1,0 +1,45 @@
+{
+  "id": "gangnam-20260907",
+  "organization": {
+    "name": "カンナムオンニ",
+    "sector": "企業・団体"
+  },
+  "title": "相談履歴照会APIへの不正アクセスによる漏えいを公表",
+  "published_on": "2026-09-07",
+  "occurred_on": "2026-09-04",
+  "detected_on": null,
+  "updated_on": "2026-10-07",
+  "first_published_on": "2026-09-07",
+  "publication_kind": "initial",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "summary": "相談履歴照会APIへの不正アクセスによる漏えいを公表。日本の利用者について対象情報を精査し、写真・カード番号等は含まれないと説明。",
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "対象規模は確認した出典に記載なし・調査中"
+    }
+  ],
+  "data_types": [
+    "相談履歴に関連する個人情報"
+  ],
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。具体的な侵入手法は未公表。",
+    "certainty": "unknown"
+  },
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://prtimes.jp/main/html/rd/p/000000015.000063010.html",
+      "type": "official",
+      "title": "「美容医療プラットフォーム Unni（カンナムオンニ）」個人情報漏えい事案に関するお詫びと漏洩項目精査のご報告 | Healingpaper Co.,Ltd.のプレスリリース",
+      "published_on": "2026-09-10",
+      "checked_on": "2026-10-07"
+    }
+  ],
+  "notes": "日本利用者への影響があるため対象。人数については本文確認できた運営会社の9月10日資料に記載がなく規模未確認として扱う。候補の全世界219,665人・国内約4.8万人は採用せず。口コミ・予約写真等は国内向け続報で漏えいなしと確認。",
+  "updates": []
+}

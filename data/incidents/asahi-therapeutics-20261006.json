@@ -18,13 +18,13 @@
     {
       "count": 514000,
       "unit": "people",
-      "qualifier": "maximum",
-      "description": "対象者数"
+      "qualifier": "maximum_approximate",
+      "description": "医療従事者（メールアドレス対象約4.4万人は内数）"
     },
     {
       "count": 700,
       "unit": "people",
-      "qualifier": "maximum",
+      "qualifier": "maximum_approximate",
       "description": "従業員：最大約700人"
     }
   ],
@@ -39,7 +39,7 @@
   "cause": {
     "category": "unauthorized_access",
     "detail": "第三者による不正アクセス。具体的な侵入手法は未公表。",
-    "certainty": "confirmed"
+    "certainty": "unknown"
   },
   "related_vendor": "医薬情報ネット",
   "sources": [

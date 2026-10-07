@@ -1,0 +1,46 @@
+{
+  "id": "tokushima-plaza-20260914",
+  "organization": {
+    "name": "徳島県立障がい者交流プラザ",
+    "sector": "自治体・公的機関"
+  },
+  "title": "障害者向け講座の申込者の氏名・住所などが、他の申請者も閲覧できる状態だったと県教委が公表",
+  "published_on": "2026-09-14",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-07",
+  "first_published_on": "2026-09-14",
+  "publication_kind": "initial",
+  "verification": "secondary",
+  "leak_status": "exposed",
+  "summary": "障害者向け講座の申込者の氏名・住所などが、他の申請者も閲覧できる状態だったと県教委が公表。",
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "対象規模は確認した出典に記載なし・調査中"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所"
+  ],
+  "cause": {
+    "category": "unknown",
+    "detail": "参照した報道の無料公開部分では詳細原因を確認できない。",
+    "certainty": "unknown"
+  },
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.topics.or.jp/articles/-/1494276",
+      "type": "news",
+      "title": "講座申し込み者の個人情報漏えい　県立障がい者交流プラザ｜社会｜徳島ニュース｜徳島新聞デジタル",
+      "published_on": "2026-09-15",
+      "checked_on": "2026-10-07"
+    }
+  ],
+  "notes": "公表は9月14日、報道は9月15日。規模は確認できる本文に記載なし。",
+  "updates": []
+}

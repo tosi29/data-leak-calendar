@@ -3,7 +3,7 @@ const $ = id => document.getElementById(id);
 const escape = value => String(value ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const dateLabel = date => date ? date.replaceAll('-', '.') : '不明・未公表';
 const kindLabel = {initial:'初報',followup:'期間内の続報',unknown:'初報日未確認'};
-const shortStatus = {confirmed:'漏えい・取得を確認',suspected:'漏えいの可能性',exposed:'外部から閲覧可能',lost:'紛失',ruled_out:'漏えいを否定'};
+const shortStatus = {confirmed:'漏えい・取得を確認',suspected:'漏えいの可能性',exposed:'外部から閲覧可能',lost:'紛失',ruled_out:'漏えいを否定',improper_sharing:'同意のない第三者提供'};
 const fields = ['query','month','status','cause','vendor'];
 let data, candidates = [], selectedDate = '';
 function options(id, entries) {
@@ -99,6 +99,7 @@ try {
     candidates = await response.json();
     $('candidate-count').textContent = `${candidates.length}件`;
     $('candidate-list').innerHTML = candidates.map(c=>`<div class="candidate"><span>${dateLabel(c.reported_on)}</span><span>${escape(c.organization)}</span><span>${escape(c.note)}</span><a href="${escape(c.reference_url)}" target="_blank" rel="noopener noreferrer">参照 ↗</a></div>`).join('');
+    if (!candidates.length) $('candidate-list').textContent = '現在、出典の確認待ちはありません。';
   } catch { $('candidate-list').textContent='候補の読み込みに失敗しました。再読み込みしてください。'; }
 } catch(error) {
   $('error').hidden=false;

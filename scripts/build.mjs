@@ -1,12 +1,15 @@
 import { cp, mkdir, rm, writeFile, readFile } from 'node:fs/promises';
-import { loadData, root, validateCandidates } from './validate.mjs';
+import { loadData, root, validateCandidates, validateReviewLog } from './validate.mjs';
 const data = await loadData();
 const candidates = JSON.parse(await readFile(`${root}data/candidates.json`, 'utf8'));
 validateCandidates(candidates, data.incidents, data.meta);
+const reviews = JSON.parse(await readFile(`${root}data/review-log.json`, 'utf8'));
+validateReviewLog(reviews, candidates, data.incidents, data.meta);
 await rm(`${root}dist`, { recursive: true, force: true });
 await cp(`${root}public`, `${root}dist`, { recursive: true });
 await mkdir(`${root}dist/data`, { recursive: true });
 await writeFile(`${root}dist/data/incidents.json`, JSON.stringify(data, null, 2) + '\n');
 await writeFile(`${root}dist/data/candidates.json`, JSON.stringify(candidates, null, 2) + '\n');
+await writeFile(`${root}dist/data/review-log.json`, JSON.stringify(reviews, null, 2) + '\n');
 await writeFile(`${root}dist/.nojekyll`, '');
 console.log(`Built ${data.incidents.length} verified incidents; ${candidates.length} research candidates.`);

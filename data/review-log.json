@@ -1214,7 +1214,344 @@
     ],
     "reason": "22人・27件は初報時の調査対象。確定した漏えい人数ではない。",
     "source_urls": [
-      "https://www.kawasaki-net.ne.jp/info20260911/"
+      "https://www.kawasaki-net.ne.jp/info20260911/",
+      "https://www.kawasaki-net.ne.jp/info20261006/"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "nakabayashi-20261006",
+      "reported_on": "2026-10-06",
+      "organization": "ナカバヤシ",
+      "note": "1,826人／ApplyNow関連",
+      "reference_url": "https://www.pahoo.org/e-soul/privacy/casestudy/case-023-01.shtm",
+      "verification": "pending",
+      "origin": "user_supplied_research_list",
+      "added_on": "2026-10-07"
+    },
+    "reviewed_on": "2026-10-07",
+    "resolution": "published",
+    "incident_ids": [
+      "nakabayashi-20261006"
+    ],
+    "reason": "公式本文の調査結果は漏えいした情報と記載。単位は人ではなく件。動画データは対象外。",
+    "source_urls": [
+      "https://www.nakabayashi.co.jp/news/2026/info/1384"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "sagawa-20261001",
+      "reported_on": "2026-10-01",
+      "organization": "佐川急便",
+      "note": "件数調査中",
+      "reference_url": "https://www.pahoo.org/e-soul/privacy/casestudy/case-023-02.shtm",
+      "verification": "pending",
+      "origin": "user_supplied_research_list",
+      "added_on": "2026-10-07"
+    },
+    "reviewed_on": "2026-10-07",
+    "resolution": "published",
+    "incident_ids": [
+      "sagawa-20261001"
+    ],
+    "reason": "9月30日の初報は不正アクセスの公表。10月1日の続報で個人情報への影響を公表。件数は調査中。",
+    "source_urls": [
+      "https://www.itmedia.co.jp/news/article/2610/01/2000001933/"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "toppan-20260929",
+      "reported_on": "2026-09-29",
+      "organization": "TOPPAN",
+      "note": "保険会社への誤送付／177,426人",
+      "reference_url": "https://rocket-boys.co.jp/security-measures-lab/2026-09-data-breach-cases-summary/",
+      "verification": "pending",
+      "origin": "user_supplied_research_list",
+      "added_on": "2026-10-07"
+    },
+    "reviewed_on": "2026-10-07",
+    "resolution": "published",
+    "incident_ids": [
+      "toppan-20260929"
+    ],
+    "reason": "公表値177,426人には同一契約者の重複がある可能性。精査で人数が減る場合がある。受信先で削除済み。",
+    "source_urls": [
+      "https://www.holdings.toppan.com/ja/info/toppan_info20260929.pdf"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "yotsukaido-20260929",
+      "reported_on": "2026-09-29",
+      "organization": "四街道市社会福祉協議会",
+      "note": "33人／可能性",
+      "reference_url": "https://rocket-boys.co.jp/security-measures-lab/2026-09-data-breach-cases-summary/",
+      "verification": "pending",
+      "origin": "user_supplied_research_list",
+      "added_on": "2026-10-07"
+    },
+    "reviewed_on": "2026-10-07",
+    "resolution": "published",
+    "incident_ids": [
+      "yotsukaido-20260929"
+    ],
+    "reason": "出典本文で事案と影響範囲を照合。",
+    "source_urls": [
+      "https://www.yotsukaido-shakyo.or.jp/info.php?id=941"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "quo-20260929",
+      "reported_on": "2026-09-29",
+      "organization": "QUOカード",
+      "note": "規模・状況を要確認",
+      "reference_url": "https://rocket-boys.co.jp/security-measures-lab/2026-09-data-breach-cases-summary/",
+      "verification": "pending",
+      "origin": "user_supplied_research_list",
+      "added_on": "2026-10-07"
+    },
+    "reviewed_on": "2026-10-07",
+    "resolution": "published",
+    "incident_ids": [
+      "quo-20260929"
+    ],
+    "reason": "決済システムとは独立したキャンペーン専用システム。",
+    "source_urls": [
+      "https://www.quocard.com/newsroom/important/20260929/"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "kotoura-20260928",
+      "reported_on": "2026-09-28",
+      "organization": "琴浦町",
+      "note": "828人／可能性",
+      "reference_url": "https://rocket-boys.co.jp/security-measures-lab/2026-09-latest-cyber-attack-cases/",
+      "verification": "pending",
+      "origin": "user_supplied_research_list",
+      "added_on": "2026-10-07"
+    },
+    "reviewed_on": "2026-10-07",
+    "resolution": "published",
+    "incident_ids": [
+      "kotoura-20260928"
+    ],
+    "reason": "候補はWeb掲載日の9月28日だったが、公式報道提供資料の日付9月25日を採用。",
+    "source_urls": [
+      "https://www.town.kotoura.tottori.jp/docs/2026092800036/files/juuminnjouhoude-tarouei.pdf"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "aichi-aicon-20260921",
+      "reported_on": "2026-09-21",
+      "organization": "愛知県",
+      "note": "あいこんナビ／599人／約8年間公開",
+      "reference_url": "https://www.pahoo.org/e-soul/privacy/casestudy/case-023-03.shtm",
+      "verification": "pending",
+      "origin": "user_supplied_research_list",
+      "added_on": "2026-10-07"
+    },
+    "reviewed_on": "2026-10-07",
+    "resolution": "published",
+    "incident_ids": [
+      "aichi-aicon-20260921"
+    ],
+    "reason": "2018年から掲載されていた。9月22日にイベント主催団体名を追記。",
+    "source_urls": [
+      "https://www.pref.aichi.jp/press-release/aiconnavikisya202609.html"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "aichi-mental-20260917",
+      "reported_on": "2026-09-17",
+      "organization": "愛知県精神保健福祉センター",
+      "note": "172人／紛失",
+      "reference_url": "https://www.pahoo.org/e-soul/privacy/casestudy/case-023-03.shtm",
+      "verification": "pending",
+      "origin": "user_supplied_research_list",
+      "added_on": "2026-10-07"
+    },
+    "reviewed_on": "2026-10-07",
+    "resolution": "published",
+    "incident_ids": [
+      "aichi-mental-20260917"
+    ],
+    "reason": "172は重複除外した申請者数。書類には家族等の情報も含み、すべての対象者の人数とは限らない。",
+    "source_urls": [
+      "https://www.pref.aichi.jp/press-release/20260917.html"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "atsugi-education-20260916",
+      "reported_on": "2026-09-16",
+      "organization": "厚木市教育委員会",
+      "note": "児童生徒名簿をPTAへ同意なく提供／掲載対象を要確認",
+      "reference_url": "https://www.pahoo.org/e-soul/privacy/casestudy/case-023-03.shtm",
+      "verification": "pending",
+      "origin": "user_supplied_research_list",
+      "added_on": "2026-10-07"
+    },
+    "reviewed_on": "2026-10-07",
+    "resolution": "published",
+    "incident_ids": [
+      "atsugi-education-20260916"
+    ],
+    "reason": "同意のない第三者提供として掲載。13校は人数ではなく、影響人数は本文の無料公開部分では確認できない。",
+    "source_urls": [
+      "https://www.kanaloco.jp/news/government/article-1304991.html"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "docomo-amazon-20260915",
+      "reported_on": "2026-09-15",
+      "organization": "NTTドコモ",
+      "note": "約34万人を同意なくAmazonへ提供／掲載対象を要確認",
+      "reference_url": "https://www.pahoo.org/e-soul/privacy/casestudy/case-023-03.shtm",
+      "verification": "pending",
+      "origin": "user_supplied_research_list",
+      "added_on": "2026-10-07"
+    },
+    "reviewed_on": "2026-10-07",
+    "resolution": "published",
+    "incident_ids": [
+      "docomo-amazon-20260915"
+    ],
+    "reason": "同意のない第三者提供として掲載。提供先で9月12日までに削除したと報道。",
+    "source_urls": [
+      "https://www.yomiuri.co.jp/economy/20260916-GYT1T00015/"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "tokushima-plaza-20260914",
+      "reported_on": "2026-09-14",
+      "organization": "徳島県立障がい者交流プラザ",
+      "note": "規模・状況を要確認",
+      "reference_url": "https://www.pahoo.org/e-soul/privacy/casestudy/case-023-03.shtm",
+      "verification": "pending",
+      "origin": "user_supplied_research_list",
+      "added_on": "2026-10-07"
+    },
+    "reviewed_on": "2026-10-07",
+    "resolution": "published",
+    "incident_ids": [
+      "tokushima-plaza-20260914"
+    ],
+    "reason": "公表は9月14日、報道は9月15日。規模は確認できる本文に記載なし。",
+    "source_urls": [
+      "https://www.topics.or.jp/articles/-/1494276"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "koshigaya-20260911",
+      "reported_on": "2026-09-11",
+      "organization": "越谷市立学校",
+      "note": "36人",
+      "reference_url": "https://www.pahoo.org/e-soul/privacy/casestudy/case-023-04.shtm",
+      "verification": "pending",
+      "origin": "user_supplied_research_list",
+      "added_on": "2026-10-07"
+    },
+    "reviewed_on": "2026-10-07",
+    "resolution": "published",
+    "incident_ids": [
+      "koshigaya-20260911"
+    ],
+    "reason": "市の9月11日公表を9月15日の地域報道で確認。外部流出は確認されていない。",
+    "source_urls": [
+      "https://koshigaya.gayatec.jp/news/152861-20260915/"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "kamakura-20260910",
+      "reported_on": "2026-09-10",
+      "organization": "鎌倉市",
+      "note": "13事案／1事案ずつの分割可否を要確認",
+      "reference_url": "https://www.pahoo.org/e-soul/privacy/casestudy/case-023-04.shtm",
+      "verification": "pending",
+      "origin": "user_supplied_research_list",
+      "added_on": "2026-10-07"
+    },
+    "reviewed_on": "2026-10-07",
+    "resolution": "published",
+    "incident_ids": [
+      "kamakura-20260910"
+    ],
+    "reason": "13は人数や漏えいレコード数ではなく個人情報管理上の問題件数。個別の全容が掲載本文で示されないため、総点検結果の公表を1記録として掲載。すべてが同種の漏えいと確定したものではない。",
+    "source_urls": [
+      "https://www.city.kamakura.kanagawa.jp/kisya/data/2026/20260910.html"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "kyoto-sanga-20260908",
+      "reported_on": "2026-09-08",
+      "organization": "京都サンガF.C.",
+      "note": "15,612人／状況を要確認",
+      "reference_url": "https://www.pahoo.org/e-soul/privacy/casestudy/case-023-04.shtm",
+      "verification": "pending",
+      "origin": "user_supplied_research_list",
+      "added_on": "2026-10-07"
+    },
+    "reviewed_on": "2026-10-07",
+    "resolution": "published",
+    "incident_ids": [
+      "kyoto-sanga-20260908"
+    ],
+    "reason": "取引先でメール・添付ファイルの完全削除を確認。",
+    "source_urls": [
+      "https://web.gekisaka.jp/news/jleague/detail/?458481-458481-fl"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "gangnam-20260907",
+      "reported_on": "2026-09-07",
+      "organization": "カンナムオンニ",
+      "note": "219,665人、うち日本約4.8万人／可能性",
+      "reference_url": "https://www.pahoo.org/e-soul/privacy/casestudy/case-023-04.shtm",
+      "verification": "pending",
+      "origin": "user_supplied_research_list",
+      "added_on": "2026-10-07"
+    },
+    "reviewed_on": "2026-10-07",
+    "resolution": "published",
+    "incident_ids": [
+      "gangnam-20260907"
+    ],
+    "reason": "日本利用者への影響があるため対象。人数については本文確認できた運営会社の9月10日資料に記載がなく未公表扱い。候補の全世界219,665人・国内約4.8万人は採用せず。口コミ・予約写真等は国内向け続報で漏えいなしと確認。",
+    "source_urls": [
+      "https://prtimes.jp/main/html/rd/p/000000015.000063010.html"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "nagano-police-20260907",
+      "reported_on": "2026-09-07",
+      "organization": "長野県警察",
+      "note": "規模・状況を要確認",
+      "reference_url": "https://www.pahoo.org/e-soul/privacy/casestudy/case-023-04.shtm",
+      "verification": "pending",
+      "origin": "user_supplied_research_list",
+      "added_on": "2026-10-07"
+    },
+    "reviewed_on": "2026-10-07",
+    "resolution": "published",
+    "incident_ids": [
+      "nagano-police-20260907"
+    ],
+    "reason": "公式PDFは9月7日付。外部への流出可能性は極めて低いと説明。人数・文書件数は記載なし。",
+    "source_urls": [
+      "https://www.pref.nagano.lg.jp/police/oshirase/oshirase/documents/260907-1006kouhyou.pdf"
     ]
   }
 ]

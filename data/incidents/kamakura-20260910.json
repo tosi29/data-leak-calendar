@@ -1,0 +1,43 @@
+{
+  "id": "kamakura-20260910",
+  "organization": {
+    "name": "鎌倉市",
+    "sector": "自治体・公的機関"
+  },
+  "title": "あおぞら園の総点検で、過去5年間に個人情報の誤送付等の管理上の問題13件を確認",
+  "published_on": "2026-09-10",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-07",
+  "first_published_on": null,
+  "publication_kind": "followup",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "summary": "あおぞら園の総点検で、過去5年間に個人情報の誤送付等の管理上の問題13件を確認。",
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "対象規模は確認した出典に記載なし・調査中"
+    }
+  ],
+  "data_types": [],
+  "cause": {
+    "category": "misdelivery",
+    "detail": "組織的な個人情報保護・報告体制、業務確認等の不備。",
+    "certainty": "confirmed"
+  },
+  "related_vendor": "県央福祉会",
+  "sources": [
+    {
+      "url": "https://www.city.kamakura.kanagawa.jp/kisya/data/2026/20260910.html",
+      "type": "official",
+      "title": "鎌倉市／鎌倉市児童発達支援センターあおぞら園の取組状況について",
+      "published_on": "2026-09-10",
+      "checked_on": "2026-10-07"
+    }
+  ],
+  "notes": "13は人数や漏えいレコード数ではなく個人情報管理上の問題件数。個別の全容が掲載本文で示されないため、総点検結果の公表を1記録として掲載。すべてが同種の漏えいと確定したものではない。",
+  "updates": []
+}

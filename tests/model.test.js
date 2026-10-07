@@ -1,7 +1,8 @@
 import test from 'node:test';
+import { readFile } from 'node:fs/promises';
 import assert from 'node:assert/strict';
 import { dailyCounts, yearCells, filterIncidents, formatImpact } from '../public/model.js';
-import { loadData, validate, validateCandidates } from '../scripts/validate.mjs';
+import { loadData, validate, validateCandidates, validateReviewLog } from '../scripts/validate.mjs';
 const data = await loadData();
 test('calendar respects weekdays, leap days and collection boundaries', () => {
   const cells = yearCells(2026, '2026-09-01', '2026-10-07');
@@ -23,7 +24,7 @@ test('filters compose and normalize full-width search', () => {
   assert.ok(filterIncidents(data.incidents, {date:'2026-09-29'}).every(i => i.published_on === '2026-09-29'));
 });
 test('unknown counts are not displayed as zero and units survive', () => {
-  assert.equal(formatImpact({count:null,unit:'records',qualifier:'unknown'}), '規模未公表');
+  assert.equal(formatImpact({count:null,unit:'records',qualifier:'unknown'}), '規模未確認・未公表');
   assert.equal(formatImpact({count:1600000,unit:'accounts',qualifier:'approximate'}), '約1,600,000アカウント');
 });
 test('rejects malformed dates, duplicate IDs, missing sources, and unsupported certainty', () => {
@@ -39,4 +40,23 @@ test('pending research cannot duplicate published records', () => {
   assert.doesNotThrow(() => validateCandidates([candidate], data.incidents, data.meta));
   candidate.reference_url = 'javascript:alert(1)';
   assert.throws(() => validateCandidates([candidate], data.incidents, data.meta));
+});
+
+test('review history requires published targets and excludes pending duplicates', async () => {
+  const reviews = JSON.parse(await readFile(new URL('../data/review-log.json', import.meta.url), 'utf8'));
+  const candidates = JSON.parse(await readFile(new URL('../data/candidates.json', import.meta.url), 'utf8'));
+  assert.doesNotThrow(() => validateReviewLog(reviews, candidates, data.incidents, data.meta));
+  for (const edit of [r => r.incident_ids = ['missing-incident'], r => r.reason = '', r => r.source_urls = [], r => r.reviewed_on = '2099-01-01']) {
+    const copy = structuredClone(reviews); edit(copy[0]);
+    assert.throws(() => validateReviewLog(copy, candidates, data.incidents, data.meta));
+  }
+  assert.throws(() => validateReviewLog(reviews, [reviews[0].candidate], data.incidents, data.meta));
+  assert.throws(() => validateReviewLog([...reviews, reviews[0]], candidates, data.incidents, data.meta));
+});
+test('maximum estimates and photograph units retain their meaning', () => {
+  assert.equal(formatImpact({count:514000, unit:'people', qualifier:'maximum_approximate'}), '最大約514,000人');
+  assert.equal(formatImpact({count:2, unit:'images', qualifier:'exact'}), '2枚');
+  const ruledOut = filterIncidents(data.incidents, {status:'ruled_out'});
+  assert.ok(ruledOut.some(i => i.id === 'kbic-20260911'));
+  assert.ok(!filterIncidents(data.incidents, {status:'confirmed'}).some(i => i.id === 'kbic-20260911'));
 });

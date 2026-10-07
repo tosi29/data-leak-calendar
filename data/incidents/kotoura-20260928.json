@@ -1,0 +1,49 @@
+{
+  "id": "kotoura-20260928",
+  "organization": {
+    "name": "琴浦町",
+    "sector": "自治体・公的機関"
+  },
+  "title": "委託事業者が住民情報828人分を別自治体の領域に誤格納し、同自治体の職員1人が閲覧",
+  "published_on": "2026-09-25",
+  "occurred_on": "2026-09-07",
+  "detected_on": null,
+  "updated_on": "2026-10-07",
+  "first_published_on": "2026-09-25",
+  "publication_kind": "initial",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "summary": "委託事業者が住民情報828人分を別自治体の領域に誤格納し、同自治体の職員1人が閲覧。",
+  "impact": [
+    {
+      "count": 828,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "対象人数"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "生年月日",
+    "性別",
+    "住所",
+    "手帳種別"
+  ],
+  "cause": {
+    "category": "misdelivery",
+    "detail": "ファイルの取り違えと内容の目視確認不足。",
+    "certainty": "confirmed"
+  },
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.town.kotoura.tottori.jp/docs/2026092800036/files/juuminnjouhoude-tarouei.pdf",
+      "type": "official",
+      "title": "琴浦町：個人情報に関する公表資料",
+      "published_on": "2026-09-25",
+      "checked_on": "2026-10-07"
+    }
+  ],
+  "notes": "候補はWeb掲載日の9月28日だったが、公式報道提供資料の日付9月25日を採用。",
+  "updates": []
+}

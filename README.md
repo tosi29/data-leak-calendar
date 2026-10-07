@@ -38,7 +38,7 @@ JSONを採用した理由は、標準のNode.jsだけで検証・ビルドでき
 | `first_published_on` | 事案の初報日。不明ならnull。発生日とは異なる |
 | `publication_kind` | initial / followup / unknown |
 | `occurred_on`, `detected_on` | 発生日・発覚日。不明はnull。期間の場合は開始日とし、範囲をnotesに明記 |
-| `leak_status` | confirmed / suspected / exposed / lost / ruled_out |
+| `leak_status` | confirmed / suspected / exposed / lost / ruled_out / improper_sharing |
 | `impact` | 規模の配列。count、unit、qualifier、descriptionを保持 |
 | `cause` | 原因の分類、説明、その詳細の確度。侵入手口が不明ならcertaintyはunknown |
 | `related_vendor` | 資料で関係を確認した共通の委託先・サービス。未確認はnull |
@@ -46,8 +46,8 @@ JSONを採用した理由は、標準のNode.jsだけで検証・ビルドでき
 | `sources` | URL・出典種別・タイトル・公表日・確認日 |
 | `updates` | date、summary、source_index（sources配列内の位置） |
 
-`impact.unit`: people / records / accounts / organizations / bookings / documents。
-`impact.qualifier`: exact / approximate / maximum / unknown。
+`impact.unit`: people / records / accounts / organizations / bookings / documents / images。
+`impact.qualifier`: exact / approximate / maximum / maximum_approximate / unknown。
 不明の件数は `count: null` と `qualifier: "unknown"`。0件で代用しません。
 数値の `exact` は「公表された数値が概数ではない」という意味であり、被害全容の最終確定を意味しません。
 
@@ -62,11 +62,17 @@ JSONを採用した理由は、標準のNode.jsだけで検証・ビルドでき
 - 公式発表を優先します。本文を取得できない資料や、日付・単位が曖昧な候補は確認待ちに残します。
 - 無同意提供、紛失などの境界事例は対象情報と公表内容を確認したうえで判断します。攻撃者の主張だけで流出確定にはしません。
 
+`ruled_out` は続報で漏えいが否定された事案、`improper_sharing` は同意のない第三者提供です。どちらも掲載件数には含みますが、漏えい確認件数とは分けます。
+
 ## 収集候補
 
 `data/candidates.json` はユーザー提供の調査候補です。`reported_on`・noteは未検証のメモであり、掲載事案の事実データとは異なります。参照URLは調査の入口で、本文確認済みの出典を意味しません。
 
 確認できた候補は `data/incidents/` に移し、候補から削除します。候補はサイト上でも折りたたんだ別欄に表示し、ヒートマップ・件数・通常の検索に混ぜません。出典本文を確認して修正した例として、MrMaxの一部流出確認、吉野家・はなまるの漏えい確認、OZmallの人数修正があります。
+
+2026年10月7日時点で、確認待ちだった74候補すべてを出典本文と照合し、掲載は94件、確認待ちは0件です。
+
+`data/review-log.json` に候補の元メモ、確認日、修正理由、対応する掲載IDと出典URLを保存します。元メモは未検証時の記録なので、事実の参照には対応する掲載JSONを使用してください。ビルド時に、照合済み候補が確認待ちに残っていないことと、掲載IDへの参照を検証します。
 
 ## GitHub Pages
 

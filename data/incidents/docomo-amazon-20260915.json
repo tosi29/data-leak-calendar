@@ -1,0 +1,46 @@
+{
+  "id": "docomo-amazon-20260915",
+  "organization": {
+    "name": "NTTドコモ",
+    "sector": "企業・団体"
+  },
+  "title": "利用者約34万人の電話番号と料金プラン名を、同意確認の画面を表示せずAmazon日本法人へ提供",
+  "published_on": "2026-09-15",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-07",
+  "first_published_on": "2026-09-15",
+  "publication_kind": "initial",
+  "verification": "secondary",
+  "leak_status": "improper_sharing",
+  "summary": "利用者約34万人の電話番号と料金プラン名を、同意確認の画面を表示せずAmazon日本法人へ提供。",
+  "impact": [
+    {
+      "count": 340000,
+      "unit": "people",
+      "qualifier": "approximate",
+      "description": "対象人数"
+    }
+  ],
+  "data_types": [
+    "電話番号",
+    "料金プラン名"
+  ],
+  "cause": {
+    "category": "improper_sharing",
+    "detail": "申込画面の設定ミスにより第三者提供への同意確認の文言を表示しなかった。",
+    "certainty": "confirmed"
+  },
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.yomiuri.co.jp/economy/20260916-GYT1T00015/",
+      "type": "news",
+      "title": "ＮＴＴドコモ、利用者３４万人分の個人情報を米アマゾン・ドット・コム日本法人に無断提供…設定ミスが原因 : 読売新聞",
+      "published_on": "2026-09-16",
+      "checked_on": "2026-10-07"
+    }
+  ],
+  "notes": "同意のない第三者提供として掲載。提供先で9月12日までに削除したと報道。",
+  "updates": []
+}

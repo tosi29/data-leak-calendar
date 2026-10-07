@@ -63,4 +63,18 @@ export function validateCandidates(candidates, incidents, meta) {
     if (candidate.verification !== 'pending' || !candidate.organization || !candidate.note || !/^https?:\/\//.test(candidate.reference_url)) throw new Error(`Invalid candidate: ${candidate.id}`);
   }
 }
+export function validateReviewLog(reviews, candidates, incidents, meta) {
+  if (!Array.isArray(reviews)) throw new Error('Review log must be an array');
+  const seen = new Set();
+  const pending = new Set(candidates.map(item => item.id));
+  const published = new Set(incidents.map(item => item.id));
+  for (const review of reviews) {
+    const id = review.candidate?.id;
+    if (!id || seen.has(id) || pending.has(id)) throw new Error(`Duplicate or still pending review: ${id}`);
+    seen.add(id);
+    if (!validDate(review.reviewed_on) || review.reviewed_on > meta.as_of || !review.reason) throw new Error(`Invalid review: ${id}`);
+    if (review.resolution !== 'published' || !review.incident_ids?.length || review.incident_ids.some(id => !published.has(id))) throw new Error(`Missing reviewed incident: ${id}`);
+    if (!review.source_urls?.length || review.source_urls.some(url => !/^https?:\/\//.test(url))) throw new Error(`Missing review sources: ${id}`);
+  }
+}
 if (process.argv[1] === fileURLToPath(import.meta.url)) console.log(`Validated ${(await loadData()).incidents.length} incidents.`);

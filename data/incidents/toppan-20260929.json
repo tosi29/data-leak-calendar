@@ -1,0 +1,47 @@
+{
+  "id": "toppan-20260929",
+  "organization": {
+    "name": "TOPPAN",
+    "sector": "企業・団体"
+  },
+  "title": "保険料控除証明書の発行業務で、損保ジャパン契約者のデータを別の保険会社1社に誤送付",
+  "published_on": "2026-09-29",
+  "occurred_on": "2026-09-01",
+  "detected_on": "2026-09-02",
+  "updated_on": "2026-10-07",
+  "first_published_on": "2026-09-29",
+  "publication_kind": "initial",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "summary": "保険料控除証明書の発行業務で、損保ジャパン契約者のデータを別の保険会社1社に誤送付。",
+  "impact": [
+    {
+      "count": 177426,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "対象人数"
+    }
+  ],
+  "data_types": [
+    "カナ氏名",
+    "保険料控除用証券番号",
+    "業務ID"
+  ],
+  "cause": {
+    "category": "misdelivery",
+    "detail": "手動のドラッグ＆ドロップで他社向けZIPにファイルを混入。送信前の内部確認も未実施。",
+    "certainty": "confirmed"
+  },
+  "related_vendor": "TOPPAN",
+  "sources": [
+    {
+      "url": "https://www.holdings.toppan.com/ja/info/toppan_info20260929.pdf",
+      "type": "official",
+      "title": "TOPPAN：個人情報に関する公表資料",
+      "published_on": "2026-09-29",
+      "checked_on": "2026-10-07"
+    }
+  ],
+  "notes": "公表値177,426人には同一契約者の重複がある可能性。精査で人数が減る場合がある。受信先で削除済み。",
+  "updates": []
+}

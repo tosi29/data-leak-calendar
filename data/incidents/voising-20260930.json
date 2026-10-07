@@ -19,7 +19,7 @@
       "count": 170000,
       "unit": "records",
       "qualifier": "approximate",
-      "description": "対象者数"
+      "description": "対象データ件数"
     }
   ],
   "data_types": [

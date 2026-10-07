@@ -1,0 +1,55 @@
+{
+  "id": "sagawa-20261001",
+  "organization": {
+    "name": "佐川急便",
+    "sector": "企業・団体"
+  },
+  "title": "お荷物問い合わせサービスへの不正アクセスにより、送り主・届け先・運賃契約者・スマートクラブの情報が流出した可能性",
+  "published_on": "2026-09-30",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-07",
+  "first_published_on": "2026-09-30",
+  "publication_kind": "initial",
+  "verification": "secondary",
+  "leak_status": "suspected",
+  "summary": "お荷物問い合わせサービスへの不正アクセスにより、送り主・届け先・運賃契約者・スマートクラブの情報が流出した可能性。",
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "対象規模は確認した出典に記載なし・調査中"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "電話番号",
+    "メールアドレス",
+    "会員ID"
+  ],
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。具体的な侵入手法は未公表。",
+    "certainty": "unknown"
+  },
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.itmedia.co.jp/news/article/2610/01/2000001933/",
+      "type": "news",
+      "title": "佐川急便、不正アクセスで個人情報流出か　送り主・届け先の氏名や住所など、約100日分の荷物データ対象 - ITmedia NEWS",
+      "published_on": "2026-10-01",
+      "checked_on": "2026-10-07"
+    }
+  ],
+  "notes": "9月30日の初報は不正アクセスの公表。10月1日の続報で個人情報への影響を公表。件数は調査中。",
+  "updates": [
+    {
+      "date": "2026-10-01",
+      "summary": "顧客の個人情報が流出した可能性を公表。",
+      "source_index": 0
+    }
+  ]
+}

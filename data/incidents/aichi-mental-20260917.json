@@ -1,0 +1,55 @@
+{
+  "id": "aichi-mental-20260917",
+  "organization": {
+    "name": "愛知県精神保健福祉センター",
+    "sector": "自治体・公的機関"
+  },
+  "title": "精神障害者保健福祉手帳・自立支援医療受給者証の申請書類233件を紛失",
+  "published_on": "2026-09-17",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-07",
+  "first_published_on": "2026-09-17",
+  "publication_kind": "initial",
+  "verification": "official",
+  "leak_status": "lost",
+  "summary": "精神障害者保健福祉手帳・自立支援医療受給者証の申請書類233件を紛失。申請者の実人数は172人。",
+  "impact": [
+    {
+      "count": 172,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "対象人数"
+    },
+    {
+      "count": 233,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "手帳申請79件と受給者証申請154件"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "個人番号",
+    "診断書",
+    "家族・代理提出者情報"
+  ],
+  "cause": {
+    "category": "loss",
+    "detail": "文書管理が不十分で誤廃棄等による紛失と推定。原因は特定できず。",
+    "certainty": "suspected"
+  },
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.pref.aichi.jp/press-release/20260917.html",
+      "type": "official",
+      "title": "精神保健福祉センターにおける申請書類の紛失等について",
+      "published_on": "2026-09-17",
+      "checked_on": "2026-10-07"
+    }
+  ],
+  "notes": "172は重複除外した申請者数。書類には家族等の情報も含み、すべての対象者の人数とは限らない。",
+  "updates": []
+}

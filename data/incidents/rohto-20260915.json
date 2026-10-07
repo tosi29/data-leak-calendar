@@ -5,12 +5,12 @@
     "sector": "企業・団体"
   },
   "title": "通信販売のお客様対応の通話音声・付随情報と顧客管理システムの情報を取得された可能性",
-  "published_on": "2026-09-15",
+  "published_on": "2026-09-11",
   "occurred_on": null,
   "detected_on": null,
   "updated_on": "2026-10-07",
   "first_published_on": "2026-09-11",
-  "publication_kind": "followup",
+  "publication_kind": "initial",
   "verification": "official",
   "leak_status": "suspected",
   "summary": "通信販売のお客様対応の通話音声・付随情報と顧客管理システムの情報を取得された可能性。範囲と件数を調査中。",
@@ -19,7 +19,7 @@
       "count": null,
       "unit": "people",
       "qualifier": "unknown",
-      "description": "対象者数"
+      "description": "対象規模は確認した出典に記載なし・調査中"
     }
   ],
   "data_types": [
@@ -29,7 +29,7 @@
   "cause": {
     "category": "unauthorized_access",
     "detail": "第三者による不正アクセス。具体的な侵入手法は未公表。",
-    "certainty": "confirmed"
+    "certainty": "unknown"
   },
   "related_vendor": null,
   "sources": [
@@ -42,5 +42,11 @@
     }
   ],
   "notes": "9月11日初報に対する調査状況の続報。",
-  "updates": []
+  "updates": [
+    {
+      "date": "2026-09-15",
+      "summary": "通話音声・顧客管理情報の取得の可能性を続報で説明。",
+      "source_index": 0
+    }
+  ]
 }

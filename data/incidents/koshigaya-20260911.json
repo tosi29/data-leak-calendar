@@ -1,0 +1,48 @@
+{
+  "id": "koshigaya-20260911",
+  "organization": {
+    "name": "越谷市立学校",
+    "sector": "自治体・公的機関"
+  },
+  "title": "教員の私物PCがサポート詐欺で遠隔操作され、接続USB内の児童生徒情報36件が漏えいしたおそれ",
+  "published_on": "2026-09-11",
+  "occurred_on": "2026-08-13",
+  "detected_on": null,
+  "updated_on": "2026-10-07",
+  "first_published_on": "2026-09-11",
+  "publication_kind": "initial",
+  "verification": "secondary",
+  "leak_status": "suspected",
+  "summary": "教員の私物PCがサポート詐欺で遠隔操作され、接続USB内の児童生徒情報36件が漏えいしたおそれ。",
+  "impact": [
+    {
+      "count": 36,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "対象データ件数"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "生年月日",
+    "電話番号"
+  ],
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "サポート詐欺の誘導で遠隔操作ツールを実行。",
+    "certainty": "confirmed"
+  },
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://koshigaya.gayatec.jp/news/152861-20260915/",
+      "type": "news",
+      "title": "越谷雑談がやてっく｜越谷市のローカルニュースをお届けします！｜越谷市のメディアが閉店開店や飲食、イベントなどの地域情報や本日の最新情報を毎日発信！",
+      "published_on": "2026-09-15",
+      "checked_on": "2026-10-07"
+    }
+  ],
+  "notes": "市の9月11日公表を9月15日の地域報道で確認。外部流出は確認されていない。",
+  "updates": []
+}

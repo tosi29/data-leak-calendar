@@ -1,0 +1,46 @@
+{
+  "id": "nagano-police-20260907",
+  "organization": {
+    "name": "長野県警察",
+    "sector": "自治体・公的機関"
+  },
+  "title": "塩尻警察署で交通安全施設の損壊・意見要望に関する個人情報記載文書が所在不明",
+  "published_on": "2026-09-07",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-07",
+  "first_published_on": "2026-09-07",
+  "publication_kind": "initial",
+  "verification": "official",
+  "leak_status": "lost",
+  "summary": "塩尻警察署で交通安全施設の損壊・意見要望に関する個人情報記載文書が所在不明。",
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "対象規模は確認した出典に記載なし・調査中"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所"
+  ],
+  "cause": {
+    "category": "loss",
+    "detail": "誤廃棄の可能性が高いと公表。",
+    "certainty": "suspected"
+  },
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.pref.nagano.lg.jp/police/oshirase/oshirase/documents/260907-1006kouhyou.pdf",
+      "type": "official",
+      "title": "塩尻警察署：個人情報を記載した文書の所在不明について",
+      "published_on": "2026-09-07",
+      "checked_on": "2026-10-07"
+    }
+  ],
+  "notes": "公式PDFは9月7日付。外部への流出可能性は極めて低いと説明。人数・文書件数は記載なし。",
+  "updates": []
+}
