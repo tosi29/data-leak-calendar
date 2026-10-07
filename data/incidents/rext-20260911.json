@@ -1,0 +1,43 @@
+{
+  "id": "rext-20260911",
+  "organization": {
+    "name": "REXT Holdings・REXT",
+    "sector": "企業・団体"
+  },
+  "title": "ランサムウェア被害に関する第4報",
+  "summary": "社内ネットワークへの攻撃後、流出した可能性のある情報のネット掲載を確認。対象と影響範囲を調査中。",
+  "published_on": "2026-09-11",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-07",
+  "first_published_on": "2026-08-10",
+  "publication_kind": "followup",
+  "verification": "official",
+  "leak_status": "suspected",
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "対象規模は確認した資料に記載なし・調査中"
+    }
+  ],
+  "data_types": [],
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "ランサムウェアによる不正アクセス。侵入経路は未公表。",
+    "certainty": "unknown"
+  },
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.rext.jp/ir/attachment/?id=87&field=0&inline=1&/%E5%BD%93%E7%A4%BE%E3%83%8D%E3%83%83%E3%83%88%E3%83%AF%E3%83%BC%E3%82%AF%E3%81%B8%E3%81%AE%E4%B8%8D%E6%AD%A3%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E3%81%AB%E3%82%88%E3%82%8B%E6%83%85%E5%A0%B1%E6%BC%8F%E3%81%88%E3%81%84%E3%81%AE%E3%81%8A%E3%81%9D%E3%82%8C%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B%E3%81%A8%E3%81%8A%E8%A9%AB%E3%81%B3%EF%BC%88%E7%AC%AC4%E5%A0%B1%EF%BC%89.pdf",
+      "type": "official",
+      "title": "ネットワークへの不正アクセスによる情報漏えいのおそれ（第4報）",
+      "published_on": "2026-09-11",
+      "checked_on": "2026-10-07"
+    }
+  ],
+  "notes": "情報漏えいまたはそのおそれが確認された対象者へ調査完了後に案内予定。個人情報の対象範囲・規模は未確定。",
+  "updates": []
+}

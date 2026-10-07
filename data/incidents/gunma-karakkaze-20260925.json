@@ -1,0 +1,48 @@
+{
+  "id": "gunma-karakkaze-20260925",
+  "organization": {
+    "name": "群馬県",
+    "sector": "自治体"
+  },
+  "title": "ボランティアの保護者同意書の閲覧可能状態",
+  "summary": "イベントの申込フォームで、提出書類を公開フォルダに保存する設定になっていた。",
+  "published_on": "2026-09-25",
+  "occurred_on": null,
+  "detected_on": "2026-09-24",
+  "updated_on": "2026-10-07",
+  "first_published_on": "2026-09-25",
+  "publication_kind": "initial",
+  "verification": "official",
+  "leak_status": "exposed",
+  "impact": [
+    {
+      "count": 7,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "応募者。このほか保護者の情報も対象（人数記載なし）"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "電話番号",
+    "続柄"
+  ],
+  "cause": {
+    "category": "configuration",
+    "detail": "保護者同意書のアップロード先を公開された様式ダウンロード用フォルダに設定した。",
+    "certainty": "confirmed"
+  },
+  "related_vendor": "グローリーハイグレイス",
+  "sources": [
+    {
+      "url": "https://www.pref.gunma.jp/site/houdou/776472.html",
+      "type": "official",
+      "title": "多文化共生イベント「からっかぜパーク」実施業務における個人情報の漏洩について（ぐんま暮らし・外国人活躍推進課） - 報道提供資料 - 群馬県ホームページ(ぐんま暮らし・外国人活躍推進課)",
+      "published_on": "2026-09-25",
+      "checked_on": "2026-10-07"
+    }
+  ],
+  "notes": "",
+  "updates": []
+}

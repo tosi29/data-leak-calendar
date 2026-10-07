@@ -1,0 +1,52 @@
+{
+  "id": "charm-20260902",
+  "organization": {
+    "name": "チャーム",
+    "sector": "企業・団体"
+  },
+  "title": "本店サイトへの不正アクセス（対象件数訂正）",
+  "summary": "追加調査で漏えい確認・可能性の対象を見直し、重複を除いて訂正した。",
+  "published_on": "2026-09-02",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-07",
+  "first_published_on": "2026-08-13",
+  "publication_kind": "followup",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "impact": [
+    {
+      "count": 370000,
+      "unit": "records",
+      "qualifier": "approximate",
+      "description": "漏えい確認分"
+    },
+    {
+      "count": 20000,
+      "unit": "records",
+      "qualifier": "approximate",
+      "description": "漏えいのおそれがある分"
+    }
+  ],
+  "data_types": [
+    "顧客情報",
+    "配送先情報"
+  ],
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。侵入手法の詳細は未公表。",
+    "certainty": "unknown"
+  },
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.charm.co.jp/honten/info/notice/20260901.html",
+      "type": "official",
+      "title": "不正アクセスによるシステム障害発生に関するお知らせとお詫び（第3報）｜チャーム - ペット用品の専門店 ネット通販",
+      "published_on": "2026-09-02",
+      "checked_on": "2026-10-07"
+    }
+  ],
+  "notes": "9月2日の訂正版を掲載。別途、不正ログインを確認した239人は件数に加算しない。退会者の対象範囲は調査中。",
+  "updates": []
+}

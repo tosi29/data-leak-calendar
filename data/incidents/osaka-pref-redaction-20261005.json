@@ -1,0 +1,45 @@
+{
+  "id": "osaka-pref-redaction-20261005",
+  "organization": {
+    "name": "大阪府",
+    "sector": "自治体"
+  },
+  "title": "公開請求への開示文書の黒塗り漏れ",
+  "summary": "情報公開請求に対して開示した文書に、非公開にすべき個人情報が残っていた。",
+  "published_on": "2026-10-05",
+  "occurred_on": null,
+  "detected_on": "2026-08-06",
+  "updated_on": "2026-10-07",
+  "first_published_on": "2026-10-05",
+  "publication_kind": "initial",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "impact": [
+    {
+      "count": 2,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "対象者数"
+    }
+  ],
+  "data_types": [
+    "氏名（名字）"
+  ],
+  "cause": {
+    "category": "redaction_error",
+    "detail": "部分公開文書の個人情報の黒塗りが一部未処理だった。",
+    "certainty": "confirmed"
+  },
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.pref.osaka.lg.jp/hodo/fumin/o120080/prs_50867.html",
+      "type": "official",
+      "title": "個人情報の漏えいについて／大阪府（おおさかふ）ホームページ [Osaka Prefectural Government]",
+      "published_on": "2026-10-05",
+      "checked_on": "2026-10-07"
+    }
+  ],
+  "notes": "",
+  "updates": []
+}

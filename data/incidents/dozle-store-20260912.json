@@ -1,0 +1,50 @@
+{
+  "id": "dozle-store-20260912",
+  "organization": {
+    "name": "ドズル",
+    "sector": "企業・団体"
+  },
+  "title": "ストアから不正な決済ページへの誘導",
+  "summary": "外部アプリを通じて不正なページへ誘導され、利用者が入力した情報を第三者が取得した可能性。",
+  "published_on": "2026-09-12",
+  "occurred_on": null,
+  "detected_on": "2026-09-11",
+  "updated_on": "2026-10-07",
+  "first_published_on": "2026-09-12",
+  "publication_kind": "initial",
+  "verification": "official",
+  "leak_status": "suspected",
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "対象規模は確認した資料に記載なし・調査中"
+    }
+  ],
+  "data_types": [
+    "クレジットカード情報",
+    "ログイン情報",
+    "氏名",
+    "住所",
+    "メールアドレス",
+    "電話番号"
+  ],
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "導入していた外部アプリが不正ページへの誘導原因と特定された。侵入手法は調査中。",
+    "certainty": "unknown"
+  },
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.dozle.jp/news/260912/",
+      "type": "official",
+      "title": "ドズル社 公式サイト | ニュース | 【重要】ドズル社ストアにおける不正なページへの誘導に関するお知らせとお詫び（9/15,9/18追記）",
+      "published_on": "2026-09-12",
+      "checked_on": "2026-10-07"
+    }
+  ],
+  "notes": "確認したページには9月15日・18日の追記を含む。アプリ名と流出規模は未公表。",
+  "updates": []
+}

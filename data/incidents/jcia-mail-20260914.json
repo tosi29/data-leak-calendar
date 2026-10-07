@@ -1,0 +1,50 @@
+{
+  "id": "jcia-mail-20260914",
+  "organization": {
+    "name": "日本化粧品工業会",
+    "sector": "企業・団体"
+  },
+  "title": "Microsoft 365メールの持ち出しの可能性",
+  "summary": "職員アカウントが不正利用され、メールと添付ファイルの一部が持ち出された可能性を調査で確認。",
+  "published_on": "2026-09-14",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-07",
+  "first_published_on": "2026-08-12",
+  "publication_kind": "followup",
+  "verification": "official",
+  "leak_status": "suspected",
+  "impact": [
+    {
+      "count": 475,
+      "unit": "documents",
+      "qualifier": "exact",
+      "description": "持ち出された可能性のあるメール（人数ではない）"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "所属",
+    "住所",
+    "メールアドレス",
+    "電話番号",
+    "メール本文・添付ファイル"
+  ],
+  "cause": {
+    "category": "credentials",
+    "detail": "フィッシングメールを起点に第三者のデバイスコードを承認したと考えられる。",
+    "certainty": "suspected"
+  },
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.jcia.org/pdf/202609%E5%BC%8A%E4%BC%9A%E8%81%B7%E5%93%A1%E3%81%AEMicrosoft-365%E3%83%A1%E3%83%BC%E3%83%AB%E3%82%A2%E3%82%AB%E3%82%A6%E3%83%B3%E3%83%88%E3%81%B8%E3%81%AE%E4%B8%8D%E6%AD%A3%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E3%81%94%E5%A0%B1%E5%91%8A.pdf",
+      "type": "official",
+      "title": "職員のMicrosoft 365メールアカウントへの不正アクセスに関するご報告",
+      "published_on": "2026-09-14",
+      "checked_on": "2026-10-07"
+    }
+  ],
+  "notes": "4,026通は不正送信されたメール数で、漏えい規模とは別。",
+  "updates": []
+}

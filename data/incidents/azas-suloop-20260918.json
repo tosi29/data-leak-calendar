@@ -1,0 +1,63 @@
+{
+  "id": "azas-suloop-20260918",
+  "organization": {
+    "name": "JGC Digital（アザス・するーぷ）",
+    "sector": "企業・団体"
+  },
+  "title": "分析ツールへの不正アクセスで利用者情報を取得",
+  "summary": "Metabaseの脆弱性を悪用され、建設現場向けアザスと衣類回収サービスするーぷの利用者情報を取得された。",
+  "published_on": "2026-09-18",
+  "occurred_on": null,
+  "detected_on": "2026-09-16",
+  "updated_on": "2026-10-07",
+  "first_published_on": "2026-09-18",
+  "publication_kind": "initial",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "impact": [
+    {
+      "count": 40000,
+      "unit": "accounts",
+      "qualifier": "approximate",
+      "description": "アザス"
+    },
+    {
+      "count": 20000,
+      "unit": "accounts",
+      "qualifier": "approximate",
+      "description": "するーぷ"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "生年月日・生年月",
+    "メールアドレス",
+    "体温",
+    "所属",
+    "職業・年収"
+  ],
+  "cause": {
+    "category": "vulnerability",
+    "detail": "Metabaseの脆弱性を悪用した不正アクセス。",
+    "certainty": "confirmed"
+  },
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://sales.azas-token.com/news/news-711/",
+      "type": "official",
+      "title": "アザス ニュースリリース 不正アクセスによる個人情報流出に関するお知らせとお詫び",
+      "published_on": "2026-09-18",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "url": "https://sales.suloop.biz/news/2624/",
+      "type": "official",
+      "title": "不正アクセスによる個人情報流出に関するお知らせとお詫び - するーぷ | “ちょっといい”ことを習慣にする衣類回収サービス",
+      "published_on": "2026-09-18",
+      "checked_on": "2026-10-07"
+    }
+  ],
+  "notes": "同社の同日検知・同一ツールに関する2サービスの公表を1記録にまとめた。項目はサービスで異なる。アカウント数を人数に換算しない。",
+  "updates": []
+}

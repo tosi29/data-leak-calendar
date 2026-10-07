@@ -1,0 +1,50 @@
+{
+  "id": "seibu-52-20260902",
+  "organization": {
+    "name": "西武鉄道",
+    "sector": "企業・団体"
+  },
+  "title": "「52席の至福」予約関連情報の閲覧可能状態",
+  "summary": "委託先が管理する予約サイトの設定不備により、スタッフ間の共有情報を外部から閲覧できた。",
+  "published_on": "2026-09-02",
+  "occurred_on": "2025-01-09",
+  "detected_on": "2026-08-27",
+  "updated_on": "2026-10-07",
+  "first_published_on": "2026-09-02",
+  "publication_kind": "initial",
+  "verification": "official",
+  "leak_status": "exposed",
+  "impact": [
+    {
+      "count": 500,
+      "unit": "people",
+      "qualifier": "approximate",
+      "description": "対象者数"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "電話番号",
+    "メールアドレス",
+    "会員番号",
+    "配慮の要請内容"
+  ],
+  "cause": {
+    "category": "configuration",
+    "detail": "情報共有機能の実装時に誤設定し、符号化された内容を外部から取得・復号できる状態になった。",
+    "certainty": "confirmed"
+  },
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.seiburailway.jp/file.jsp?id=28387",
+      "type": "official",
+      "title": "西武「52席の至福」における予約関連情報の一部漏えいについて",
+      "published_on": "2026-09-02",
+      "checked_on": "2026-10-07"
+    }
+  ],
+  "notes": "閲覧可能期間は2025年1月9日～2026年8月27日。約30人はアレルギーなどの情報を含む内数。",
+  "updates": []
+}

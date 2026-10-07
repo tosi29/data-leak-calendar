@@ -1,0 +1,55 @@
+{
+  "id": "up-education-20260904",
+  "organization": {
+    "name": "アップ",
+    "sector": "企業・団体"
+  },
+  "title": "学習塾サイトへの不正アクセス",
+  "summary": "洛西進学教室・進学館のサイトで、講師応募者と社内管理者の情報が閲覧された可能性。",
+  "published_on": "2026-09-04",
+  "occurred_on": null,
+  "detected_on": "2026-08-24",
+  "updated_on": "2026-10-07",
+  "first_published_on": "2026-09-04",
+  "publication_kind": "initial",
+  "verification": "official",
+  "leak_status": "suspected",
+  "impact": [
+    {
+      "count": 10,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "講師採用応募者"
+    },
+    {
+      "count": 3,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "社内サイト管理者"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "電話番号",
+    "メールアドレス",
+    "採用応募情報"
+  ],
+  "cause": {
+    "category": "vulnerability",
+    "detail": "外部プラグインの脆弱性を悪用され、不正プログラムを設置された。",
+    "certainty": "confirmed"
+  },
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://up-edu.com/sorry/pdf/notification0904.pdf",
+      "type": "official",
+      "title": "不正アクセスによる個人情報漏えいのおそれについて",
+      "published_on": "2026-09-04",
+      "checked_on": "2026-10-07"
+    }
+  ],
+  "notes": "",
+  "updates": []
+}

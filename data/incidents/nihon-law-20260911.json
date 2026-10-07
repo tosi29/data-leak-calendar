@@ -1,0 +1,52 @@
+{
+  "id": "nihon-law-20260911",
+  "organization": {
+    "name": "日本大学法学部",
+    "sector": "大学"
+  },
+  "title": "メールアカウント乗っ取り（続報）",
+  "summary": "職員のアカウントが不正利用され、保存されていた個人情報が第三者に閲覧された可能性。",
+  "published_on": "2026-09-11",
+  "occurred_on": "2026-08-03",
+  "detected_on": "2026-08-07",
+  "updated_on": "2026-10-07",
+  "first_published_on": "2026-08-25",
+  "publication_kind": "followup",
+  "verification": "official",
+  "leak_status": "suspected",
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "対象規模は確認した資料に記載なし・調査中"
+    }
+  ],
+  "data_types": [
+    "メールボックス内の個人情報"
+  ],
+  "cause": {
+    "category": "credentials",
+    "detail": "フィッシングメール経由で認証情報が窃取された。",
+    "certainty": "confirmed"
+  },
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.law.nihon-u.ac.jp/news/32278",
+      "type": "official",
+      "title": "不正アクセスによる迷惑メール発信に関するおわびと御報告（更新） | 日本大学法学部",
+      "published_on": "2026-09-11",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "url": "https://www.law.nihon-u.ac.jp/news/32260",
+      "type": "official",
+      "title": "不正アクセスによる迷惑メール発信に関するおわびと御報告 | 日本大学法学部",
+      "published_on": "2026-08-25",
+      "checked_on": "2026-10-07"
+    }
+  ],
+  "notes": "3,177件は不審メールの送信数であり、漏えい人数ではない。",
+  "updates": []
+}

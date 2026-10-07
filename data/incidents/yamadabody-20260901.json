@@ -1,0 +1,50 @@
+{
+  "id": "yamadabody-20260901",
+  "organization": {
+    "name": "山田ボデー工業所",
+    "sector": "企業・団体"
+  },
+  "title": "サーバーへの不正アクセスの調査結果",
+  "summary": "メールシステムと過去のECサイトのデータベースについて、情報漏えいの可能性を否定できないと公表。",
+  "published_on": "2026-09-01",
+  "occurred_on": null,
+  "detected_on": "2026-05-19",
+  "updated_on": "2026-10-07",
+  "first_published_on": "2026-05-27",
+  "publication_kind": "followup",
+  "verification": "official",
+  "leak_status": "suspected",
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "対象規模は確認した資料に記載なし・調査中"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "電話番号",
+    "メールアドレス",
+    "注文・取引情報",
+    "パスワード（一部）"
+  ],
+  "cause": {
+    "category": "vulnerability",
+    "detail": "サーバー管理ツールの脆弱性を悪用されたと判断。",
+    "certainty": "confirmed"
+  },
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://yamadabody.jp/blog/announce/security-incident_2/",
+      "type": "official",
+      "title": "弊社サーバーへの不正アクセスに関するお知らせ（最終報）",
+      "published_on": "2026-09-01",
+      "checked_on": "2026-10-07"
+    }
+  ],
+  "notes": "ページ初回公表日は9月1日、最終更新日は9月30日。掲載内容は9月30日更新後。",
+  "updates": []
+}

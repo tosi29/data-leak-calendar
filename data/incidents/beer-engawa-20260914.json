@@ -1,0 +1,50 @@
+{
+  "id": "beer-engawa-20260914",
+  "organization": {
+    "name": "原田産業",
+    "sector": "企業・団体"
+  },
+  "title": "「ビールの縁側」の情報流出の可能性（続報）",
+  "summary": "不正プログラムの稼働中に注文画面で情報を入力した利用者が対象。",
+  "published_on": "2026-09-14",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-07",
+  "first_published_on": "2026-08-18",
+  "publication_kind": "followup",
+  "verification": "official",
+  "leak_status": "suspected",
+  "impact": [
+    {
+      "count": 9,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "対象者数"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "メールアドレス",
+    "電話番号",
+    "生年月日",
+    "クレジットカード情報"
+  ],
+  "cause": {
+    "category": "vulnerability",
+    "detail": "システムの脆弱性が悪用され管理者権限を取得された。",
+    "certainty": "confirmed"
+  },
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.haradacorp.co.jp/news/detail.php?id=371",
+      "type": "official",
+      "title": "【重要】「ビールの縁側」における個人情報流出の可能性に関するお詫びとご報告（続報）｜ニュースリリース｜原田産業株式会社",
+      "published_on": "2026-09-14",
+      "checked_on": "2026-10-07"
+    }
+  ],
+  "notes": "対象9人のうち決済完了は4人。その他の影響範囲は調査を継続。",
+  "updates": []
+}

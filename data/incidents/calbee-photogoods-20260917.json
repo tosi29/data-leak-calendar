@@ -1,0 +1,45 @@
+{
+  "id": "calbee-photogoods-20260917",
+  "organization": {
+    "name": "カルビー",
+    "sector": "企業・団体"
+  },
+  "title": "業務提携先PhotoGoodsの漏えいの可能性",
+  "summary": "オリジナルカード等を注文できる業務提携先サービスへの不正アクセスに関する公表。",
+  "published_on": "2026-09-17",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-07",
+  "first_published_on": "2026-09-17",
+  "publication_kind": "initial",
+  "verification": "secondary",
+  "leak_status": "suspected",
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "対象規模は確認した資料に記載なし・調査中"
+    }
+  ],
+  "data_types": [
+    "顧客情報"
+  ],
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。侵入手法の詳細は未公表。",
+    "certainty": "unknown"
+  },
+  "related_vendor": "PhotoGoods（大興印刷）",
+  "sources": [
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2026/09/25/56305.html",
+      "type": "news",
+      "title": "カルビーのプロ野球チップス関連サービス「PhotoGoods」で個人情報漏えいの可能性 | ScanNetSecurity",
+      "published_on": "2026-09-25",
+      "checked_on": "2026-10-07"
+    }
+  ],
+  "notes": "9月25日の報道が公表日を9月17日と明記。サービス運営元とは別組織の公表として掲載。",
+  "updates": []
+}

@@ -1,0 +1,45 @@
+{
+  "id": "keio-plaza-20260926",
+  "organization": {
+    "name": "京王プラザホテル",
+    "sector": "企業・団体"
+  },
+  "title": "ランサムウェア攻撃で顧客情報への影響を調査",
+  "summary": "サーバーが攻撃を受け、顧客情報の流出を含む影響範囲を調査していると公表。",
+  "published_on": "2026-09-26",
+  "occurred_on": null,
+  "detected_on": "2026-09-26",
+  "updated_on": "2026-10-07",
+  "first_published_on": "2026-09-26",
+  "publication_kind": "initial",
+  "verification": "official",
+  "leak_status": "suspected",
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "対象規模は確認した資料に記載なし・調査中"
+    }
+  ],
+  "data_types": [
+    "顧客情報（影響調査中）"
+  ],
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "ランサムウェア攻撃。侵入経路は調査中。",
+    "certainty": "unknown"
+  },
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.keioplaza.co.jp/news/45681/",
+      "type": "official",
+      "title": "ランサムウェア攻撃によるシステム障害に関するお知らせとお詫び｜新着情報｜京王プラザホテル（新宿）【公式】",
+      "published_on": "2026-09-26",
+      "checked_on": "2026-10-07"
+    }
+  ],
+  "notes": "公表時点で情報漏えいの事実は確認されていない。",
+  "updates": []
+}

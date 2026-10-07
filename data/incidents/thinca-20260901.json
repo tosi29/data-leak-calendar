@@ -1,0 +1,61 @@
+{
+  "id": "thinca-20260901",
+  "organization": {
+    "name": "シンカ",
+    "sector": "企業・団体"
+  },
+  "title": "サービス紹介サイトへの不正アクセス（続報）",
+  "summary": "サーバーに不正プログラムが設置され、問い合わせ・セミナー申込者の情報が外部からアクセスされた可能性。",
+  "published_on": "2026-09-01",
+  "occurred_on": null,
+  "detected_on": "2026-08-24",
+  "updated_on": "2026-10-07",
+  "first_published_on": "2026-08-28",
+  "publication_kind": "followup",
+  "verification": "official",
+  "leak_status": "suspected",
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "対象規模は確認した資料に記載なし・調査中"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "会社名",
+    "メールアドレス",
+    "電話番号"
+  ],
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。侵入手法の詳細は未公表。",
+    "certainty": "unknown"
+  },
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.thinca.co.jp/news/20260901_news/",
+      "type": "official",
+      "title": "弊社運営サイトへの不正アクセスおよび全サイトの公開再開に関するお知らせ - 株式会社シンカ",
+      "published_on": "2026-09-01",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "url": "https://www.thinca.co.jp/news/202609017_news/",
+      "type": "official",
+      "title": "弊社運営サービス紹介サイトへの不正アクセスに関する調査結果のお知らせ - 株式会社シンカ",
+      "published_on": "2026-09-17",
+      "checked_on": "2026-10-07"
+    }
+  ],
+  "notes": "9月17日の最終報でも情報漏えいの事実・二次被害は確認されていない。カイクラ本体は別環境で影響なし。",
+  "updates": [
+    {
+      "date": "2026-09-17",
+      "summary": "最終調査結果を公表。個人情報の外部漏えいの事実は確認されず。",
+      "source_index": 1
+    }
+  ]
+}

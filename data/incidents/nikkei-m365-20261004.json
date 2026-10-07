@@ -1,0 +1,47 @@
+{
+  "id": "nikkei-m365-20261004",
+  "organization": {
+    "name": "日本経済新聞社",
+    "sector": "企業・団体"
+  },
+  "title": "Microsoft 365アカウントへの不正アクセス",
+  "summary": "社員アカウントからなりすましメールが送信され、送信先の氏名・メールアドレスやメールの一部が漏えいしたとみられる。",
+  "published_on": "2026-10-04",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-07",
+  "first_published_on": "2026-10-04",
+  "publication_kind": "initial",
+  "verification": "official",
+  "leak_status": "suspected",
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "対象規模は確認した資料に記載なし・調査中"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "メールアドレス",
+    "メール本文"
+  ],
+  "cause": {
+    "category": "credentials",
+    "detail": "第三者による不正アクセス。侵入手法の詳細は未公表。",
+    "certainty": "unknown"
+  },
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.nikkei.co.jp/nikkeiinfo/news/information/1554.html",
+      "type": "official",
+      "title": "サイバー攻撃による情報漏洩、不審メールの送信について : 最新情報 | 日本経済新聞社",
+      "published_on": "2026-10-04",
+      "checked_on": "2026-10-07"
+    }
+  ],
+  "notes": "約9,000件は不正送信数であり、漏えい人数ではない。同日公表のGoogle Workspace事案とは別記録。",
+  "updates": []
+}

@@ -1,0 +1,45 @@
+{
+  "id": "osaka-school-app-0724-20260909",
+  "organization": {
+    "name": "大阪市教育委員会",
+    "sector": "自治体"
+  },
+  "title": "欠席連絡等アプリのメール誤送信",
+  "summary": "市の9月一括公表に掲載された事務処理誤り。欠席連絡等アプリのメール誤送信により個人情報が漏えい。",
+  "published_on": "2026-09-09",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-07",
+  "first_published_on": "2026-09-09",
+  "publication_kind": "initial",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "impact": [
+    {
+      "count": 1,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "対象者数"
+    }
+  ],
+  "data_types": [
+    "通知・書類に含まれる個人情報（項目未公表）"
+  ],
+  "cause": {
+    "category": "misdelivery",
+    "detail": "欠席連絡等アプリのメール誤送信。詳しい発生経緯は一括公表に記載なし。",
+    "certainty": "confirmed"
+  },
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.city.osaka.lg.jp/hodoshiryo/somu/0000687040.html",
+      "type": "official",
+      "title": "大阪市：報道発表資料　大阪市における個人情報に係る事務処理誤り等の状況について（令和8年9月一括公表分）",
+      "published_on": "2026-09-09",
+      "checked_on": "2026-10-07"
+    }
+  ],
+  "notes": "一括公表の市への報告日は2026-07-24。報告日を発生日・公表日には転用しない。8月に個別公表済みの2事案は重複掲載していない。",
+  "updates": []
+}

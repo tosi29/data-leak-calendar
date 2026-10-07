@@ -1,0 +1,50 @@
+{
+  "id": "photogoods-20260916",
+  "organization": {
+    "name": "大興印刷",
+    "sector": "企業・団体"
+  },
+  "title": "PhotoGoodsに情報取得用の不正プログラム",
+  "summary": "決済画面などの入力情報を取得する不正プログラムが設置され、利用者情報が漏えいした可能性。",
+  "published_on": "2026-09-16",
+  "occurred_on": "2026-08-06",
+  "detected_on": "2026-09-11",
+  "updated_on": "2026-10-07",
+  "first_published_on": "2026-09-16",
+  "publication_kind": "initial",
+  "verification": "official",
+  "leak_status": "suspected",
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "対象規模は確認した資料に記載なし・調査中"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "電話番号",
+    "メールアドレス",
+    "クレジットカード情報",
+    "変換して保存したパスワード情報"
+  ],
+  "cause": {
+    "category": "vulnerability",
+    "detail": "システムの脆弱性およびファイルアップロード機能が悪用された。",
+    "certainty": "confirmed"
+  },
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.daiko-printing.co.jp/information/2037/",
+      "type": "official",
+      "title": "【重要なお知らせ】「PhotoGoods」への不正アクセスによる個人情報等の漏えい可能性に関するお詫びとお知らせ｜大興印刷株式会社",
+      "published_on": "2026-09-16",
+      "checked_on": "2026-10-07"
+    }
+  ],
+  "notes": "不正プログラムの設置期間は8月6日～9月11日。",
+  "updates": []
+}

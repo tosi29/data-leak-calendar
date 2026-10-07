@@ -1,0 +1,45 @@
+{
+  "id": "revisio-20260908",
+  "organization": {
+    "name": "REVISIO",
+    "sector": "企業・団体"
+  },
+  "title": "PCのマルウェア感染",
+  "summary": "役職員のPC内に保存された個人情報が漏えいした可能性を否定できないと公表。",
+  "published_on": "2026-09-08",
+  "occurred_on": null,
+  "detected_on": "2026-03-20",
+  "updated_on": "2026-10-07",
+  "first_published_on": "2026-09-08",
+  "publication_kind": "initial",
+  "verification": "secondary",
+  "leak_status": "suspected",
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "対象規模は確認した資料に記載なし・調査中"
+    }
+  ],
+  "data_types": [
+    "PC内の個人情報"
+  ],
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "役職員が使うPCでマルウェア感染を確認。感染経路は確認した資料に記載なし。",
+    "certainty": "unknown"
+  },
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2026/09/10/56189.html",
+      "type": "news",
+      "title": "REVISIO 役職員が使用する PC がマルウェア感染、ローカル環境に保存されていた個人情報が外部漏えいした可能性を否定できず | ScanNetSecurity",
+      "published_on": "2026-09-10",
+      "checked_on": "2026-10-07"
+    }
+  ],
+  "notes": "9月10日の報道が公表日を9月8日と明記。",
+  "updates": []
+}

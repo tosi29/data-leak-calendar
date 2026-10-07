@@ -1,0 +1,46 @@
+{
+  "id": "osaka-museum-mail-20260924",
+  "organization": {
+    "name": "大阪市立美術館",
+    "sector": "自治体・関連機関"
+  },
+  "title": "講座受講者へのメール誤送信",
+  "summary": "個人への返信をグループ宛てに送り、受講者の氏名・アドレスが互いに見える状態になった。",
+  "published_on": "2026-09-24",
+  "occurred_on": "2026-09-10",
+  "detected_on": "2026-09-10",
+  "updated_on": "2026-10-07",
+  "first_published_on": "2026-09-24",
+  "publication_kind": "initial",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "impact": [
+    {
+      "count": 30,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "対象者数"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "メールアドレス"
+  ],
+  "cause": {
+    "category": "misdelivery",
+    "detail": "宛先の誤入力と送信前の再確認不足。",
+    "certainty": "confirmed"
+  },
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.city.osaka.lg.jp/hodoshiryo/keizaisenryaku/0000687654.html",
+      "type": "official",
+      "title": "大阪市：報道発表資料　大阪市立美術館におけるメール誤送信による個人情報の漏えいについて",
+      "published_on": "2026-09-24",
+      "checked_on": "2026-10-07"
+    }
+  ],
+  "notes": "",
+  "updates": []
+}

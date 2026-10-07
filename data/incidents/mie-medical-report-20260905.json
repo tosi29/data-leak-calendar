@@ -1,0 +1,49 @@
+{
+  "id": "mie-medical-report-20260905",
+  "organization": {
+    "name": "三重県",
+    "sector": "自治体"
+  },
+  "title": "診療日誌を含む事業報告書の公開",
+  "summary": "医療法人の提出書類を個人情報の黒塗りなどを行わず県サイトに掲載した。",
+  "published_on": "2026-09-05",
+  "occurred_on": "2026-06-17",
+  "detected_on": "2026-07-02",
+  "updated_on": "2026-10-07",
+  "first_published_on": "2026-09-05",
+  "publication_kind": "initial",
+  "verification": "official",
+  "leak_status": "exposed",
+  "impact": [
+    {
+      "count": 71,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "対象者数"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "診察日",
+    "診察券番号",
+    "請求金額",
+    "疾病等の特記事項"
+  ],
+  "cause": {
+    "category": "redaction_error",
+    "detail": "診療日誌に含まれる個人情報の非公開処理を怠った。",
+    "certainty": "confirmed"
+  },
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.pref.mie.lg.jp/TOPICS/m0015300059.htm",
+      "type": "official",
+      "title": "三重県｜県ホームページでの個人情報の流出について",
+      "published_on": "2026-09-05",
+      "checked_on": "2026-10-07"
+    }
+  ],
+  "notes": "公開期間は6月17日～7月2日。",
+  "updates": []
+}
