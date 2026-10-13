@@ -1,0 +1,53 @@
+{
+  "id": "ibaraki-commons-mail-20260926",
+  "organization": {
+    "name": "茨城NPOセンター・コモンズ（茨城県委託事業）",
+    "sector": "企業・団体"
+  },
+  "title": "セミナー案内メールの宛先誤設定",
+  "summary": "県の委託事業でセミナー案内をCc送信し、受信者間でメールアドレスと一部の氏名が見える状態になった。",
+  "published_on": "2026-09-26",
+  "first_published_on": "2026-09-26",
+  "publication_kind": "initial",
+  "occurred_on": "2026-09-22",
+  "detected_on": "2026-09-22",
+  "updated_on": "2026-10-14",
+  "verification": "official",
+  "incident_type": "accident",
+  "leak_status": "confirmed",
+  "impact": [
+    {
+      "count": 49,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "メールアドレス"
+    },
+    {
+      "count": 8,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "49件のうち氏名も表示された対象者"
+    }
+  ],
+  "data_types": [
+    "メールアドレス",
+    "氏名"
+  ],
+  "cause": {
+    "category": "misdelivery",
+    "detail": "案内メールをBccで送るべきところ、Ccに設定して送信した。",
+    "certainty": "confirmed"
+  },
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.npocommons.org/topics/3791/",
+      "type": "official",
+      "title": "セミナー案内メールの宛先誤設定",
+      "published_on": "2026-09-26",
+      "checked_on": "2026-10-14"
+    }
+  ],
+  "notes": "49件と氏名8件は重複するため合算しない。委託先自身の公式発表日を採用。",
+  "updates": []
+}

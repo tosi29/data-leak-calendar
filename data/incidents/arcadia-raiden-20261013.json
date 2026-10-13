@@ -1,0 +1,48 @@
+{
+  "id": "arcadia-raiden-20261013",
+  "organization": {
+    "name": "アルカディア（SpeeCAN RAIDEN）",
+    "sector": "企業・団体"
+  },
+  "title": "連絡網サービスへの不正アクセス",
+  "summary": "SpeeCAN RAIDENの複数のサービスで、連絡先データや担当者・契約者情報が漏えいした可能性を公表。",
+  "published_on": "2026-10-13",
+  "first_published_on": "2026-10-13",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-10-11",
+  "updated_on": "2026-10-14",
+  "verification": "official",
+  "incident_type": "attack",
+  "leak_status": "suspected",
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "全体の対象人数は未公表"
+    }
+  ],
+  "data_types": [
+    "連絡先データ",
+    "担当者情報",
+    "契約者情報"
+  ],
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。侵入経路は遮断し、影響範囲を調査中。",
+    "certainty": "confirmed"
+  },
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.arcadia.co.jp/wp-content/uploads/2026/10/20261012_SpeeCANRAIDEN_cyberattack.pdf",
+      "type": "official",
+      "title": "連絡網サービスへの不正アクセス",
+      "published_on": "2026-10-13",
+      "checked_on": "2026-10-14"
+    }
+  ],
+  "notes": "公式PDF本文の日付は10月13日。ファイル名の10月12日を公表日に転用しない。横須賀市など利用団体の個別公表との人数合算はしない。",
+  "updates": []
+}

@@ -1,0 +1,52 @@
+{
+  "id": "orixlife-scala-20261008",
+  "organization": {
+    "name": "オリックス生命",
+    "sector": "企業・団体"
+  },
+  "title": "委託先への不正アクセスによる問い合わせ情報漏えいの可能性",
+  "summary": "問い合わせ管理に利用する委託先のサービスへの不正アクセスで、医療情報を含む問い合わせ情報が漏えいした可能性を公表。",
+  "published_on": "2026-10-08",
+  "first_published_on": "2026-10-08",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-14",
+  "verification": "official",
+  "incident_type": "attack",
+  "leak_status": "suspected",
+  "impact": [
+    {
+      "count": 26500,
+      "unit": "records",
+      "qualifier": "approximate",
+      "description": "同一顧客の複数回の問い合わせを含む"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "生年月日",
+    "住所",
+    "電話番号",
+    "メールアドレス",
+    "証券番号",
+    "問い合わせ内容・申告された医療情報"
+  ],
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "スカラコミュニケーションズが提供するサービスへの不正アクセス。原因・影響範囲を調査中。",
+    "certainty": "confirmed"
+  },
+  "related_vendor": "スカラコミュニケーションズ",
+  "sources": [
+    {
+      "url": "https://files.microcms-assets.io/assets/b3cd698c38a74ebea491976d56455ecd/77eb698f1d9543a39440e414940f9f4d/n261008.pdf",
+      "type": "official",
+      "title": "委託先への不正アクセスによる問い合わせ情報漏えいの可能性",
+      "published_on": "2026-10-08",
+      "checked_on": "2026-10-14"
+    }
+  ],
+  "notes": "公式サイトのお知らせデータからリンクされたPDF本文の10月8日を確認。約26,500件は問い合わせ件数であり実人数ではない。マイナンバー・カード番号等は含まれない。",
+  "updates": []
+}

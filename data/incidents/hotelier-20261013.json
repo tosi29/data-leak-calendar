@@ -1,0 +1,52 @@
+{
+  "id": "hotelier-20261013",
+  "organization": {
+    "name": "ホテリエ",
+    "sector": "企業・団体"
+  },
+  "title": "宿泊管理システムの予約者情報流出",
+  "summary": "旧運営会社のアカウントを通じた不正アクセスで、8施設の予約者情報が流出したことを確認。",
+  "published_on": "2026-10-13",
+  "first_published_on": null,
+  "publication_kind": "unknown",
+  "occurred_on": null,
+  "detected_on": "2026-09-15",
+  "updated_on": "2026-10-14",
+  "verification": "official",
+  "incident_type": "attack",
+  "leak_status": "confirmed",
+  "impact": [
+    {
+      "count": 7919,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "8施設の対象予約者"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "電話番号",
+    "メールアドレス",
+    "国籍",
+    "宿泊日",
+    "施設名",
+    "宿泊料金等の予約情報"
+  ],
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "引継ぎ資料に含まれず存在を認知していなかった旧運営会社のアカウントを通じて不正アクセスされた。第三者が利用できた原因は不明。",
+    "certainty": "confirmed"
+  },
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://hotel.inc/wp-content/uploads/2026/10/20261007_apology_ja.pdf",
+      "type": "official",
+      "title": "宿泊管理システムの予約者情報流出",
+      "published_on": "2026-10-13",
+      "checked_on": "2026-10-14"
+    }
+  ],
+  "notes": "公式記事とPDF本文がともに10月13日付であることを確認。ファイル名にある10月7日の初報は裏付けが得られず、初報日・初報か続報かは不明として掲載。対象予約期間は4月8日〜9月14日。住所・カード・パスポート情報は含まれない。",
+  "updates": []
+}

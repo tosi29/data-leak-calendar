@@ -1,0 +1,55 @@
+{
+  "id": "commune-20261009",
+  "organization": {
+    "name": "コミューン",
+    "sector": "企業・団体"
+  },
+  "title": "Commune・Commune for Workの会員情報漏えい",
+  "summary": "システムの不備を悪用した不正アクセスで、一部コミュニティの会員情報が流出した。",
+  "published_on": "2026-10-09",
+  "first_published_on": "2026-10-09",
+  "publication_kind": "initial",
+  "occurred_on": "2026-10-05",
+  "detected_on": "2026-10-06",
+  "updated_on": "2026-10-14",
+  "verification": "official",
+  "incident_type": "attack",
+  "leak_status": "confirmed",
+  "impact": [
+    {
+      "count": 307000,
+      "unit": "people",
+      "qualifier": "approximate",
+      "description": "漏えい対象会員の推計。従業員・テスト用デモアカウントを含む"
+    },
+    {
+      "count": 126000,
+      "unit": "people",
+      "qualifier": "approximate",
+      "description": "全体のうちメールアドレスを含む情報の対象会員"
+    }
+  ],
+  "data_types": [
+    "メールアドレス",
+    "表示名",
+    "自己紹介",
+    "非公開グループの所属等"
+  ],
+  "cause": {
+    "category": "vulnerability",
+    "detail": "システムの不備を突き、非公開コミュニティの招待リンクを不正取得して会員登録し、管理者へのなりすましで情報を閲覧・取得した。",
+    "certainty": "confirmed"
+  },
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://communeinc.com/ja/news/2026oct09",
+      "type": "official",
+      "title": "Commune・Commune for Workの会員情報漏えい",
+      "published_on": "2026-10-09",
+      "checked_on": "2026-10-14"
+    }
+  ],
+  "notes": "公式HTMLの埋め込み記事本文とpublishedAt（10月9日）を照合。約12.6万人には従業員・デモアカウント約4.2万人を含む。内訳と総数、利用企業の個別公表は重複するため合算しない。144名で仮パスワードへの変更があったが、パスワード自体の漏えいは確認されていない。",
+  "updates": []
+}

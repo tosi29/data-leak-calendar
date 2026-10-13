@@ -1,0 +1,46 @@
+{
+  "id": "feliz-villa-20260929",
+  "organization": {
+    "name": "フェリスヴィラスイート",
+    "sector": "企業・団体"
+  },
+  "title": "予約システムへの不正アクセスによる個人情報漏えいの可能性",
+  "summary": "予約システム提供元への不正アクセスに伴う情報漏えいの可能性と、予約を装った不審なメッセージを公表。",
+  "published_on": "2026-09-29",
+  "first_published_on": "2026-09-29",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-14",
+  "verification": "official",
+  "incident_type": "attack",
+  "leak_status": "suspected",
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "対象者数は未公表"
+    }
+  ],
+  "data_types": [
+    "宿泊予約に関する個人情報（項目の詳細は未公表）"
+  ],
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "手間いらずが提供する予約システムへの第三者による不正アクセス。",
+    "certainty": "confirmed"
+  },
+  "related_vendor": "手間いらず",
+  "sources": [
+    {
+      "url": "https://nikken-hotelmgt.co.jp/ueno/2026/09/29/news_2026_09/",
+      "type": "official",
+      "title": "予約システムへの不正アクセスによる個人情報漏えいの可能性",
+      "published_on": "2026-09-29",
+      "checked_on": "2026-10-14"
+    }
+  ],
+  "notes": "公式HTMLの投稿日およびtime要素で9月29日を確認。注意喚起の対象は9月21日までに成立し、同日以降に宿泊する予約。クレジットカード情報は当該システムで扱っていない。",
+  "updates": []
+}

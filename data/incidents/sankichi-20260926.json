@@ -1,0 +1,53 @@
+{
+  "id": "sankichi-20260926",
+  "organization": {
+    "name": "絵具屋三吉",
+    "sector": "企業・団体"
+  },
+  "title": "オンラインストアの購入者情報漏えい",
+  "summary": "利用するショップサーブへの不正アクセスにより、同店の購入者情報も漏えい対象であることを確認。",
+  "published_on": "2026-09-26",
+  "first_published_on": "2026-09-26",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-09-25",
+  "updated_on": "2026-10-14",
+  "verification": "official",
+  "incident_type": "attack",
+  "leak_status": "confirmed",
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "対象者数は未公表"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所・配送先情報",
+    "電話番号・FAX番号",
+    "メールアドレス",
+    "勤務先",
+    "任意入力情報",
+    "会員ID・暗号化パスワード",
+    "クレジットカード情報の一部"
+  ],
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "ショップサーブのサーバーへの第三者による不正アクセス。具体的な侵入経路は調査中。",
+    "certainty": "confirmed"
+  },
+  "related_vendor": "Eストアー",
+  "sources": [
+    {
+      "url": "https://www.sankichi.com/hpgen/HPB/entries/21.html",
+      "type": "official",
+      "title": "オンラインストアの購入者情報漏えい",
+      "published_on": "2026-09-26",
+      "checked_on": "2026-10-14"
+    }
+  ],
+  "notes": "公式本文末尾の2026年9月26日と更新表示を確認。9月25日は委託先からの通知日。カード番号は先頭6桁・下4桁等であり全桁ではない。ベンダー側の公表と人数を合算しない。",
+  "updates": []
+}

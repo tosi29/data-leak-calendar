@@ -1667,5 +1667,158 @@
     "source_urls": [
       "https://www.pref.saitama.lg.jp/a0803/news/page/news2026100702.html"
     ]
+  },
+  {
+    "candidate": {
+      "id": "research-new-tmi46",
+      "organization": "絵具屋三吉",
+      "reported_on": "2026-09-25",
+      "verification": "pending",
+      "reference_url": "https://www.sankichi.com/hpgen/HPB/entries/21.html",
+      "note": "公式本文で漏えい確認を読めたが、公表日は記載なし。9月25日は委託先からの通知日であり、公表日に転用しない。"
+    },
+    "reviewed_on": "2026-10-14",
+    "resolution": "published",
+    "incident_ids": [
+      "sankichi-20260926"
+    ],
+    "reason": "公式本文・公表日と既存データを照合し、新規掲載。",
+    "source_urls": [
+      "https://www.sankichi.com/hpgen/HPB/entries/21.html"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "research-new-tmi60",
+      "organization": "フェリスヴィラスイート",
+      "reported_on": "2026-09-29",
+      "verification": "pending",
+      "reference_url": "https://nikken-hotelmgt.co.jp/ueno/2026/09/29/news_2026_09/",
+      "note": "公式本文で可能性の公表を確認したが日付記載なし。URL内の9月29日を公表日と断定せず保留。"
+    },
+    "reviewed_on": "2026-10-14",
+    "resolution": "published",
+    "incident_ids": [
+      "feliz-villa-20260929"
+    ],
+    "reason": "公式本文・公表日と既存データを照合し、新規掲載。",
+    "source_urls": [
+      "https://nikken-hotelmgt.co.jp/ueno/2026/09/29/news_2026_09/"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "research-new-ibaraki-news",
+      "organization": "茨城県（委託先のメール誤送信）",
+      "reported_on": "2026-09-26",
+      "verification": "pending",
+      "reference_url": "https://ibatoco.jp/news/ibaraki-outsourced-email-leak-2026/",
+      "note": "報道本文で49件の誤送信を確認。記載日は報道日。公式PDFを取得できず、公表日の裏付けを保留。"
+    },
+    "reviewed_on": "2026-10-14",
+    "resolution": "published",
+    "incident_ids": [
+      "ibaraki-commons-mail-20260926"
+    ],
+    "reason": "公式本文・公表日と既存データを照合し、新規掲載。",
+    "source_urls": [
+      "https://www.npocommons.org/topics/3791/"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "research-20261014-commune",
+      "organization": "コミューン",
+      "reported_on": "2026-10-09",
+      "verification": "pending",
+      "reference_url": "https://communeinc.com/ja/news/2026oct09",
+      "note": "2026年10月14日追加調査。公式ページの本文が取得できず、全体の対象範囲・人数の照合待ち。委託元の個別公表とは別候補。"
+    },
+    "reviewed_on": "2026-10-14",
+    "resolution": "published",
+    "incident_ids": [
+      "commune-20261009"
+    ],
+    "reason": "公式本文・公表日と既存データを照合し、新規掲載。",
+    "source_urls": [
+      "https://communeinc.com/ja/news/2026oct09"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "research-20261014-newspicks",
+      "organization": "ユーザベース（NewsPicks）",
+      "reported_on": "2026-10-09",
+      "verification": "pending",
+      "reference_url": "https://corp.newspicks.com/info/20261009",
+      "note": "2026年10月14日追加調査。初報・第二報とも公式本文を取得できず、対象範囲の照合待ち。"
+    },
+    "reviewed_on": "2026-10-14",
+    "resolution": "published",
+    "incident_ids": [
+      "newspicks-20261008"
+    ],
+    "reason": "公式本文・公表日と既存データを照合し、新規掲載。",
+    "source_urls": [
+      "https://corp.newspicks.com/info/20261008",
+      "https://corp.newspicks.com/info/20261009"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "research-20261014-arcadia",
+      "organization": "アルカディア（SpeeCAN RAIDEN）",
+      "reported_on": "2026-10-13",
+      "verification": "pending",
+      "reference_url": "https://www.arcadia.co.jp/info/4076",
+      "note": "2026年10月14日追加調査。公式本文を取得できず、ベンダー全体の範囲の照合待ち。横須賀市の公表は個別に掲載。"
+    },
+    "reviewed_on": "2026-10-14",
+    "resolution": "published",
+    "incident_ids": [
+      "arcadia-raiden-20261013"
+    ],
+    "reason": "公式本文・公表日と既存データを照合し、新規掲載。",
+    "source_urls": [
+      "https://www.arcadia.co.jp/wp-content/uploads/2026/10/20261012_SpeeCANRAIDEN_cyberattack.pdf"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "research-20261014-hotelier",
+      "organization": "ホテリエ",
+      "reported_on": "2026-10-13",
+      "verification": "pending",
+      "reference_url": "https://hotel.inc/wp-content/uploads/2026/10/20261007_apology_ja.pdf",
+      "note": "2026年10月14日追加調査。PDF本文は10月13日付に更新されている。10月7日の初報との関係と公表日を照合中。URLのファイル名だけで公表日を決めない。"
+    },
+    "reviewed_on": "2026-10-14",
+    "resolution": "published",
+    "incident_ids": [
+      "hotelier-20261013"
+    ],
+    "reason": "公式本文・公表日と既存データを照合し、新規掲載。",
+    "source_urls": [
+      "https://hotel.inc/wp-content/uploads/2026/10/20261007_apology_ja.pdf"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "research-20261014-orixlife",
+      "organization": "オリックス生命",
+      "reported_on": "2026-10-08",
+      "verification": "pending",
+      "reference_url": "https://venture-solution.jp/security/cs-117197/",
+      "note": "2026年10月14日追加調査。報道で発見。公式本文および公表日を照合待ち。記載日は報道が示す未検証の公表日。"
+    },
+    "reviewed_on": "2026-10-14",
+    "resolution": "published",
+    "incident_ids": [
+      "orixlife-scala-20261008"
+    ],
+    "reason": "公式本文・公表日と既存データを照合し、新規掲載。",
+    "source_urls": [
+      "https://files.microcms-assets.io/assets/b3cd698c38a74ebea491976d56455ecd/77eb698f1d9543a39440e414940f9f4d/n261008.pdf"
+    ]
   }
 ]

@@ -89,3 +89,5 @@ JSONを採用した理由は、標準のNode.jsだけで検証・ビルドでき
 初回はリポジトリの Settings → Pages → Source を **GitHub Actions** に設定します。出力先は `dist/`。相対URLを使用しているため、`/data-leak-calendar/` のようなサブパスでも動作します。
 
 参考: [GitHub公式のカスタムワークフロー手順](https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages)
+
+同日の確認待ち再調査では23件すべてを照合し、8件を追加掲載（合計209件）、8月公表の13件を期間外として整理しました。残る2件は鳥取県（介護事業者メール）の公表日とIDCフロンティア全体の個人情報への影響が未確定です。候補ごとの判定・根拠URLは `data/research-audit.json` の最後の `subsequent_runs` に保存しています。
