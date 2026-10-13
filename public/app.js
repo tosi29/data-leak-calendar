@@ -9,13 +9,36 @@ let data, candidates = [], selectedDate = '';
 function options(id, entries) {
   for (const [value, label] of entries) { const option = document.createElement('option'); option.value = value; option.textContent = label; $(id).append(option); }
 }
+function setupCategories() {
+  const descriptions = {
+    attack: '不正ログイン・フィッシング・脆弱性の悪用など',
+    accident: '誤送信・誤公開・紛失・システム不具合など',
+    improper_handling: '無断持ち出し・同意のない第三者提供など',
+    unknown: '公表資料から経緯を判断できない事案',
+  };
+  $('category-buttons').innerHTML = ['accident', 'attack', 'improper_handling', 'unknown'].map(type => {
+    const count = data.incidents.filter(item => item.incident_type === type).length;
+    return `<button type="button" class="category-button" data-type="${type}" aria-pressed="false"><span class="category-label">${escape(incidentTypeLabels[type])}</span><span class="category-count">${count}<small>件</small></span><span class="category-description">${descriptions[type]}</span></button>`;
+  }).join('');
+  $('all-types').disabled = false;
+  function selectType(type) {
+    $('incident_type').value = type;
+    selectedDate = '';
+    render();
+  }
+  $('category-buttons').addEventListener('click', event => {
+    const button = event.target.closest('[data-type]');
+    if (button) selectType($('incident_type').value === button.dataset.type ? '' : button.dataset.type);
+  });
+  $('all-types').addEventListener('click', () => selectType(''));
+}
 function filters() { return Object.fromEntries(fields.map(id => [id,$(id).value])); }
 function sourceLink(source) {
   return `<a class="source-link" href="${escape(source.url)}" target="_blank" rel="noopener noreferrer">${escape(source.title)} ↗</a><span class="source-meta">${source.type === 'official' ? '公式発表' : '参考・報道'} · 公表 ${dateLabel(source.published_on)} · 確認 ${dateLabel(source.checked_on)}</span>`;
 }
 function incidentHTML(item) {
   const impact = item.impact.map(v => `<p><strong>${formatImpact(v)}</strong> — ${escape(v.description)}</p>`).join('');
-  return `<details class="incident" id="${escape(item.id)}"><summary><span class="date">${dateLabel(item.published_on)}${item.publication_kind !== 'initial' ? `<small>${kindLabel[item.publication_kind]}</small>` : ''}</span><span class="identity"><span class="org">${escape(item.organization.name)}</span><span class="title">${escape(item.title)}</span><span class="incident-type">${escape(incidentTypeLabels[item.incident_type])}</span></span><span class="impact-number">${formatImpact(item.impact[0])}${item.impact.length > 1 ? `<span class="impact-more">ほか ${item.impact.length-1} 区分・内訳あり</span>` : ''}</span><span class="status-cell"><span class="badge ${item.leak_status}">${shortStatus[item.leak_status]}</span></span><span class="chevron" aria-hidden="true">›</span></summary><div class="detail"><p>${escape(item.summary)}</p><dl class="detail-grid"><div><dt>事案の種別</dt><dd>${escape(incidentTypeLabels[item.incident_type])}<p class="source-meta">漏えいの確認状況とは別の分類です。</p></dd></div><div><dt>対象規模（合算しません）</dt><dd>${impact}</dd></div><div><dt>情報の種類</dt><dd>${escape(item.data_types.join('、') || '公表資料に記載なし')}</dd></div><div><dt>原因 · ${escape(causeLabels[item.cause.category])}</dt><dd>${escape(item.cause.detail)}<p class="source-meta">原因の詳細：${{confirmed:'公表資料で確認',suspected:'可能性として公表',unknown:'不明・調査中'}[item.cause.certainty]}</p></dd></div><div><dt>関連ベンダー・サービス</dt><dd>${escape(item.related_vendor || '関連の記載なし')}<p class="source-meta">業種：${escape(item.organization.sector)}</p></dd></div><div><dt>初報日 / 掲載公表日</dt><dd>${dateLabel(item.first_published_on)} / ${dateLabel(item.published_on)}</dd></div><div><dt>発生日 / 発覚日</dt><dd>${dateLabel(item.occurred_on)} / ${dateLabel(item.detected_on)}</dd></div></dl>${item.notes ? `<p class="detail-note">${escape(item.notes)}</p>` : ''}<h3>出典 <span class="source-meta">${item.verification === 'official' ? '公式資料の本文を確認' : '報道・二次資料を確認'}</span></h3><ul>${item.sources.map(s => `<li>${sourceLink(s)}</li>`).join('')}</ul>${item.updates.length ? `<h3>続報・更新</h3><ul>${item.updates.map(u => `<li>${dateLabel(u.date)} — ${escape(u.summary)} <a href="${escape(item.sources[u.source_index].url)}" target="_blank" rel="noopener noreferrer">出典 ↗</a></li>`).join('')}</ul>` : ''}<p class="source-meta">データ更新：${dateLabel(item.updated_on)}</p><a class="permalink" href="#${escape(item.id)}">この事案へのリンク ↗</a></div></details>`;
+  return `<details class="incident" id="${escape(item.id)}"><summary><span class="date">${dateLabel(item.published_on)}${item.publication_kind !== 'initial' ? `<small>${kindLabel[item.publication_kind]}</small>` : ''}</span><span class="identity"><span class="org">${escape(item.organization.name)}</span><span class="title">${escape(item.title)}</span><span class="incident-type">${escape(incidentTypeLabels[item.incident_type])}</span></span><span class="impact-number">${formatImpact(item.impact[0])}${item.impact.length > 1 ? `<span class="impact-more">ほか ${item.impact.length-1} 区分・内訳あり</span>` : ''}</span><span class="status-cell"><span class="badge ${item.leak_status}">${shortStatus[item.leak_status]}</span></span><span class="chevron" aria-hidden="true">›</span></summary><div class="detail"><p>${escape(item.summary)}</p><dl class="detail-grid"><div><dt>事案の種別</dt><dd>${escape(incidentTypeLabels[item.incident_type])}<p class="source-meta">漏えいの確認状況とは別の分類です。</p></dd></div><div><dt>対象規模（合算しません）</dt><dd>${impact}</dd></div><div><dt>情報の種類</dt><dd>${escape(item.data_types.join('、') || '公表資料に記載なし')}</dd></div><div><dt>原因・手口 · ${escape(causeLabels[item.cause.category])}</dt><dd>${escape(item.cause.detail)}<p class="source-meta">原因の詳細：${{confirmed:'公表資料で確認',suspected:'可能性として公表',unknown:'不明・調査中'}[item.cause.certainty]}</p></dd></div><div><dt>関連ベンダー・サービス</dt><dd>${escape(item.related_vendor || '関連の記載なし')}<p class="source-meta">業種：${escape(item.organization.sector)}</p></dd></div><div><dt>初報日 / 掲載公表日</dt><dd>${dateLabel(item.first_published_on)} / ${dateLabel(item.published_on)}</dd></div><div><dt>発生日 / 発覚日</dt><dd>${dateLabel(item.occurred_on)} / ${dateLabel(item.detected_on)}</dd></div></dl>${item.notes ? `<p class="detail-note">${escape(item.notes)}</p>` : ''}<h3>出典 <span class="source-meta">${item.verification === 'official' ? '公式資料の本文を確認' : '報道・二次資料を確認'}</span></h3><ul>${item.sources.map(s => `<li>${sourceLink(s)}</li>`).join('')}</ul>${item.updates.length ? `<h3>続報・更新</h3><ul>${item.updates.map(u => `<li>${dateLabel(u.date)} — ${escape(u.summary)} <a href="${escape(item.sources[u.source_index].url)}" target="_blank" rel="noopener noreferrer">出典 ↗</a></li>`).join('')}</ul>` : ''}<p class="source-meta">データ更新：${dateLabel(item.updated_on)}</p><a class="permalink" href="#${escape(item.id)}">この事案へのリンク ↗</a></div></details>`;
 }
 function renderCalendar(items) {
   const year = Number($('year').value);
@@ -43,6 +66,10 @@ function render() {
   const base = filterIncidents(data.incidents,filters());
   const results = selectedDate ? base.filter(i => i.published_on === selectedDate) : base;
   renderCalendar(base);
+  for (const button of $('category-buttons').querySelectorAll('[data-type]')) {
+    button.setAttribute('aria-pressed', String(button.dataset.type === $('incident_type').value));
+  }
+  $('all-types').setAttribute('aria-pressed', String(!$('incident_type').value));
   $('type-breakdown').textContent = '表示中の内訳：' + Object.entries(incidentTypeLabels).map(([key, label]) => `${label} ${results.filter(i => i.incident_type === key).length}件`).join(' ／ ');
   $('incident-list').innerHTML = results.map(incidentHTML).join('');
   $('result-count').textContent = `${results.length} / ${data.incidents.length}`;
@@ -88,6 +115,7 @@ try {
   $('reset').addEventListener('click',()=>{for(const field of fields) $(field).value='';selectedDate='';render();});
   $('heatmap').addEventListener('click',event=>{const button=event.target.closest('[data-date]');if(!button)return;const date=button.dataset.date;selectedDate=selectedDate===date?'':date;render();$('heatmap').querySelector(`[data-date="${date}"]`)?.focus();});
   window.addEventListener('hashchange',openHash);
+  setupCategories();
   render(); openHash();
   // Start narrow viewports at the collection period rather than January.
   const firstActive = $('heatmap').querySelector('button:not(:disabled)');
