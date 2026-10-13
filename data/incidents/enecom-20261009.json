@@ -1,0 +1,46 @@
+{
+  "id": "enecom-20261009",
+  "organization": {
+    "name": "エネコム",
+    "sector": "企業・団体"
+  },
+  "title": "社内ネットワークへの不正アクセスと顧客情報流出の可能性",
+  "published_on": "2026-10-09",
+  "first_published_on": "2026-10-09",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-10-06",
+  "updated_on": "2026-10-14",
+  "verification": "official",
+  "incident_type": "attack",
+  "leak_status": "suspected",
+  "summary": "複数ファイルの外部流出の形跡を確認。顧客情報が含まれた可能性があり調査中。",
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "顧客情報の対象範囲を調査中"
+    }
+  ],
+  "data_types": [
+    "顧客情報（詳細調査中）"
+  ],
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。具体的な侵入手法は未公表。",
+    "certainty": "unknown"
+  },
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.enecom.co.jp/information/3920/",
+      "type": "official",
+      "title": "社内ネットワークへの不正アクセスと顧客情報流出の可能性",
+      "published_on": "2026-10-09",
+      "checked_on": "2026-10-14"
+    }
+  ],
+  "notes": "メガ・エッグの顧客情報流出は現時点で未確認。サービス提供への影響はないと公表。",
+  "updates": []
+}

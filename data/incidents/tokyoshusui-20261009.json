@@ -1,0 +1,48 @@
+{
+  "id": "tokyoshusui-20261009",
+  "organization": {
+    "name": "日本酒類販売（東京酒粋）",
+    "sector": "企業・団体"
+  },
+  "title": "メールマガジン配信サービスで情報漏えいのおそれ",
+  "published_on": "2026-10-09",
+  "first_published_on": "2026-10-09",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-10-07",
+  "updated_on": "2026-10-14",
+  "verification": "official",
+  "incident_type": "attack",
+  "leak_status": "suspected",
+  "summary": "future Scenario Castの基盤であるIDCFクラウドへの攻撃により、配信用情報が漏えいした可能性。",
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "配信対象期間・件数は調査中"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "メールアドレス",
+    "誕生月"
+  ],
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。具体的な侵入手法は未公表。",
+    "certainty": "unknown"
+  },
+  "related_vendor": "IDCフロンティア",
+  "sources": [
+    {
+      "url": "https://www.tokyoshusui.com/2026/10/09/news20261009/",
+      "type": "official",
+      "title": "メールマガジン配信サービスで情報漏えいのおそれ",
+      "published_on": "2026-10-09",
+      "checked_on": "2026-10-14"
+    }
+  ],
+  "notes": "直接利用する配信サービスはフューチャーショップのfuture Scenario Cast。住所・電話番号・カード情報・ログインパスワードは対象外。",
+  "updates": []
+}

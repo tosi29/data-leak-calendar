@@ -1553,5 +1553,119 @@
     "source_urls": [
       "https://www.pref.nagano.lg.jp/police/oshirase/oshirase/documents/260907-1006kouhyou.pdf"
     ]
+  },
+  {
+    "candidate": {
+      "id": "research-20261014-lixil-commune",
+      "organization": "LIXIL（コミュニティ）",
+      "reported_on": "2026-10-09",
+      "verification": "pending",
+      "reference_url": "https://www.lixil.co.jp/announce/notice-info-leak.htm",
+      "note": "2026年10月14日追加調査。公式ページの添付資料を含む対象範囲・公表日の本文照合待ち。"
+    },
+    "reviewed_on": "2026-10-14",
+    "resolution": "published",
+    "reason": "公式本文で公表日・対象範囲を確認。既存事案との重複なし。",
+    "incident_ids": [
+      "lixil-commune-20261009"
+    ],
+    "source_urls": [
+      "https://www.lixil.co.jp/announce/notice-info-leak.htm"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "research-20261014-chitose-commune",
+      "organization": "ちとせ研究所",
+      "reported_on": "2026-10-09",
+      "verification": "pending",
+      "reference_url": "https://chitose-bio.com/jp/news/12177/",
+      "note": "2026年10月14日追加調査。公式ページの添付資料を含む対象範囲・公表日の本文照合待ち。"
+    },
+    "reviewed_on": "2026-10-14",
+    "resolution": "published",
+    "reason": "公式本文で公表日・対象範囲を確認。既存事案との重複なし。",
+    "incident_ids": [
+      "chitose-commune-20261009"
+    ],
+    "source_urls": [
+      "https://chitose-bio.com/jp/news/12177/"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "research-20261014-valx-commune",
+      "organization": "VALX",
+      "reported_on": "2026-10-08",
+      "verification": "pending",
+      "reference_url": "https://corp.valx.jp/news/451vhhqdf29c/",
+      "note": "2026年10月14日追加調査。公式ページの添付資料を含む対象範囲・公表日の本文照合待ち。"
+    },
+    "reviewed_on": "2026-10-14",
+    "resolution": "published",
+    "reason": "公式本文で公表日・対象範囲を確認。既存事案との重複なし。",
+    "incident_ids": [
+      "valx-commune-20261008"
+    ],
+    "source_urls": [
+      "https://corp.valx.jp/news/451vhhqdf29c/"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "research-20261014-yamaha-commune",
+      "organization": "ヤマハ発動機（PAS Life）",
+      "reported_on": "2026-10-12",
+      "verification": "pending",
+      "reference_url": "https://global.yamaha-motor.com/jp/news/2026/1012/leakage.html",
+      "note": "2026年10月14日追加調査。公式ページの添付資料を含む対象範囲・公表日の本文照合待ち。"
+    },
+    "reviewed_on": "2026-10-14",
+    "resolution": "published",
+    "reason": "公式本文で公表日・対象範囲を確認。既存事案との重複なし。",
+    "incident_ids": [
+      "yamaha-commune-20261012"
+    ],
+    "source_urls": [
+      "https://global.yamaha-motor.com/jp/news/2026/1012/leakage.html"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "research-20261014-toda",
+      "organization": "戸田建設",
+      "reported_on": "2026-10-07",
+      "verification": "pending",
+      "reference_url": "https://www.toda.co.jp/news/2026/20261007_006350.html",
+      "note": "2026年10月14日追加調査。公式ページの添付資料を含む対象範囲の本文照合待ち。前回収集日の未掲載候補。"
+    },
+    "reviewed_on": "2026-10-14",
+    "resolution": "published",
+    "reason": "公式本文で公表日・対象範囲を確認。既存事案との重複なし。",
+    "incident_ids": [
+      "toda-20261007"
+    ],
+    "source_urls": [
+      "https://www.toda.co.jp/news/2026/20261007_006350.html"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "research-20261014-saitama-mix",
+      "organization": "埼玉県（渋沢MIX）",
+      "reported_on": "2026-10-07",
+      "verification": "pending",
+      "reference_url": "https://www.pref.saitama.lg.jp/a0803/news/page/news2026100702.html",
+      "note": "2026年10月14日追加調査。公式ページの添付資料を含む対象範囲の本文照合待ち。既存の県の別事案との照合が必要。"
+    },
+    "reviewed_on": "2026-10-14",
+    "resolution": "published",
+    "reason": "公式本文で公表日・対象範囲を確認。既存事案との重複なし。",
+    "incident_ids": [
+      "saitama-mix-20261007"
+    ],
+    "source_urls": [
+      "https://www.pref.saitama.lg.jp/a0803/news/page/news2026100702.html"
+    ]
   }
 ]

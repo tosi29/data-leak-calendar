@@ -1,0 +1,47 @@
+{
+  "id": "kindal-20261013",
+  "organization": {
+    "name": "カインドオル",
+    "sector": "企業・団体"
+  },
+  "title": "不正アクセスによる個人情報漏えいの調査完了（第三報）",
+  "published_on": "2026-10-13",
+  "first_published_on": "2026-08-28",
+  "publication_kind": "followup",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-14",
+  "verification": "official",
+  "incident_type": "attack",
+  "leak_status": "confirmed",
+  "summary": "フィッシングによるスタッフ認証情報の窃取を原因とする漏えいの対象者数を確定。",
+  "impact": [
+    {
+      "count": 136464,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "漏えいが確認された対象者"
+    }
+  ],
+  "data_types": [
+    "個人情報",
+    "住所"
+  ],
+  "cause": {
+    "category": "credentials",
+    "detail": "フィッシングメールでスタッフの認証情報が窃取された。",
+    "certainty": "confirmed"
+  },
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://ssl4.eir-parts.net/doc/3093/tdnet/2893776/00.pdf",
+      "type": "official",
+      "title": "不正アクセスによる個人情報漏えいの調査完了（第三報）",
+      "published_on": "2026-10-13",
+      "checked_on": "2026-10-14"
+    }
+  ],
+  "notes": "住所情報を含む109,311名は内数。カード情報とECサイトのログインパスワードは含まない。初報は収集開始前のため調査結果公表日を掲載。",
+  "updates": []
+}

@@ -1,0 +1,51 @@
+{
+  "id": "lixil-commune-20261009",
+  "organization": {
+    "name": "LIXIL",
+    "sector": "企業・団体"
+  },
+  "title": "すまいひろば・猫壁ひろばの登録情報漏えいの可能性",
+  "published_on": "2026-10-09",
+  "first_published_on": "2026-10-09",
+  "publication_kind": "initial",
+  "occurred_on": "2026-10-06",
+  "detected_on": "2026-10-06",
+  "updated_on": "2026-10-14",
+  "verification": "official",
+  "incident_type": "attack",
+  "leak_status": "suspected",
+  "summary": "コミューンのシステムへの不正アクセスにより、コミュニティ会員情報が閲覧・取得された可能性を公表。",
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "影響を受けた可能性のある会員（調査中）"
+    }
+  ],
+  "data_types": [
+    "ニックネーム",
+    "アカウント名",
+    "メールアドレス",
+    "プロフィール",
+    "ポイント",
+    "最終利用日時"
+  ],
+  "cause": {
+    "category": "vulnerability",
+    "detail": "委託先システムの複数の不備が悪用された。",
+    "certainty": "confirmed"
+  },
+  "related_vendor": "コミューン",
+  "sources": [
+    {
+      "url": "https://www.lixil.co.jp/announce/notice-info-leak.htm",
+      "type": "official",
+      "title": "すまいひろば・猫壁ひろばの登録情報漏えいの可能性",
+      "published_on": "2026-10-09",
+      "checked_on": "2026-10-14"
+    }
+  ],
+  "notes": "他のコミュニティの公表と合算しない。",
+  "updates": []
+}

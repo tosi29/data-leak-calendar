@@ -1,0 +1,48 @@
+{
+  "id": "kanagawa-employment-20260903",
+  "organization": {
+    "name": "神奈川県",
+    "sector": "行政"
+  },
+  "title": "障がい者雇用事業の参加企業一覧に担当者情報を誤掲載",
+  "published_on": "2026-09-03",
+  "first_published_on": "2026-09-03",
+  "publication_kind": "initial",
+  "occurred_on": "2026-09-01",
+  "detected_on": "2026-09-02",
+  "updated_on": "2026-10-14",
+  "verification": "official",
+  "incident_type": "accident",
+  "leak_status": "exposed",
+  "summary": "個人情報を削除する前のファイルを誤ってウェブ公開し、翌日に発見・差し替え。",
+  "impact": [
+    {
+      "count": 32,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "参加企業の担当者"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "電話番号",
+    "メールアドレス"
+  ],
+  "cause": {
+    "category": "redaction_error",
+    "detail": "公開前の確認が不十分で、個人情報未削除のファイルを掲載。",
+    "certainty": "confirmed"
+  },
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.pref.kanagawa.jp/docs/sj6/prs/r3606409.html",
+      "type": "official",
+      "title": "障がい者雇用事業の参加企業一覧に担当者情報を誤掲載",
+      "published_on": "2026-09-03",
+      "checked_on": "2026-10-14"
+    }
+  ],
+  "notes": "10月の報道を入口に確認したが、公式公表日は9月3日。",
+  "updates": []
+}

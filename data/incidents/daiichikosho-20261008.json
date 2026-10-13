@@ -1,0 +1,50 @@
+{
+  "id": "daiichikosho-20261008",
+  "organization": {
+    "name": "第一興商",
+    "sector": "企業・団体"
+  },
+  "title": "委託先端末のマルウェア感染による情報漏えいのおそれ",
+  "published_on": "2026-10-08",
+  "first_published_on": "2026-10-08",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-10-01",
+  "updated_on": "2026-10-14",
+  "verification": "official",
+  "incident_type": "attack",
+  "leak_status": "suspected",
+  "summary": "日本コロムビアグループの端末に保存された顧客・従業員情報が漏えいした可能性を公表。実際の流出は未確認。",
+  "impact": [
+    {
+      "count": 8724000,
+      "unit": "records",
+      "qualifier": "approximate",
+      "description": "顧客約863万1千件と従業員約9万3千件を含む公表総数"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "性別",
+    "生年月日",
+    "メールアドレス",
+    "電話番号"
+  ],
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "委託先PC1台がマルウェアに感染。感染経路は調査中。",
+    "certainty": "unknown"
+  },
+  "related_vendor": "日本コロムビアグループ",
+  "sources": [
+    {
+      "url": "https://www.dkkaraoke.co.jp/news/newsletter/261008_2.html",
+      "type": "official",
+      "title": "委託先端末のマルウェア感染による情報漏えいのおそれ",
+      "published_on": "2026-10-08",
+      "checked_on": "2026-10-14"
+    }
+  ],
+  "notes": "委託先で10月1〜2日に感染判明、第一興商は10月5日に報告を受領。顧客区分の重複を調整した公表総数。パスワードは対象外。",
+  "updates": []
+}

@@ -1,0 +1,68 @@
+{
+  "id": "yokosuka-raiden-20261013",
+  "organization": {
+    "name": "横須賀市",
+    "sector": "行政"
+  },
+  "title": "防災・防犯情報配信サービスの登録情報漏えいのおそれ",
+  "published_on": "2026-10-13",
+  "first_published_on": "2026-10-13",
+  "publication_kind": "initial",
+  "occurred_on": "2026-10-11",
+  "detected_on": "2026-10-13",
+  "updated_on": "2026-10-14",
+  "verification": "official",
+  "incident_type": "attack",
+  "leak_status": "suspected",
+  "summary": "SpeeCAN RAIDENへの不正アクセスに伴い、4つの配信サービスの連絡先情報が漏えいした可能性。",
+  "impact": [
+    {
+      "count": 47065,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "防災情報メール登録者"
+    },
+    {
+      "count": 996,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "防災情報FAX登録者"
+    },
+    {
+      "count": 11,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "防災情報電話登録者"
+    },
+    {
+      "count": 10848,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "防犯あんしんメール登録者"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "事業者名",
+    "メールアドレス",
+    "電話番号",
+    "FAX番号"
+  ],
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。具体的な侵入手法は未公表。",
+    "certainty": "unknown"
+  },
+  "related_vendor": "アルカディア（SpeeCAN RAIDEN）",
+  "sources": [
+    {
+      "url": "https://www.city.yokosuka.kanagawa.jp/0525/nagekomi/20261013_roueinoosore.html",
+      "type": "official",
+      "title": "防災・防犯情報配信サービスの登録情報漏えいのおそれ",
+      "published_on": "2026-10-13",
+      "checked_on": "2026-10-14"
+    }
+  ],
+  "notes": "人数は各サービスの登録者数。実際の漏えい件数は未確定。重複が不明のため合算しない。",
+  "updates": []
+}

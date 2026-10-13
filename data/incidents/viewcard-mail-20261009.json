@@ -1,0 +1,46 @@
+{
+  "id": "viewcard-mail-20261009",
+  "organization": {
+    "name": "ビューカード",
+    "sector": "企業・団体"
+  },
+  "title": "外部メール配信基盤への不正アクセスに伴う漏えいの可能性",
+  "published_on": "2026-10-09",
+  "first_published_on": "2026-10-09",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-14",
+  "verification": "official",
+  "incident_type": "attack",
+  "leak_status": "suspected",
+  "summary": "IDCフロンティアで発生した不正アクセスに伴い、メール配信用サービス内の情報が閲覧・取得された可能性を公表。",
+  "impact": [
+    {
+      "count": 4030000,
+      "unit": "records",
+      "qualifier": "approximate",
+      "description": "会員向けメール配信の対象メールアドレス"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。具体的な侵入手法は未公表。",
+    "certainty": "unknown"
+  },
+  "related_vendor": "IDCフロンティア",
+  "sources": [
+    {
+      "url": "https://www.jreast.co.jp/card/news/pdf/20261009.pdf",
+      "type": "official",
+      "title": "外部メール配信基盤への不正アクセスに伴う漏えいの可能性",
+      "published_on": "2026-10-09",
+      "checked_on": "2026-10-14"
+    }
+  ],
+  "notes": "実際に漏えいした件数の確定値ではない。",
+  "updates": []
+}

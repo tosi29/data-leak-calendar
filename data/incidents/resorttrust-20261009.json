@@ -1,0 +1,53 @@
+{
+  "id": "resorttrust-20261009",
+  "organization": {
+    "name": "リゾートトラスト",
+    "sector": "企業・団体"
+  },
+  "title": "ウェブサイトへの不正アクセスによる会員・予約者情報漏えい",
+  "published_on": "2026-10-09",
+  "first_published_on": "2026-10-09",
+  "publication_kind": "initial",
+  "occurred_on": "2026-10-05",
+  "detected_on": "2026-10-06",
+  "updated_on": "2026-10-14",
+  "verification": "official",
+  "incident_type": "attack",
+  "leak_status": "confirmed",
+  "summary": "ウェブサイトの異常を認知し、調査でサーバ内の顧客情報の流出を確認。",
+  "impact": [
+    {
+      "count": 26000,
+      "unit": "records",
+      "qualifier": "approximate",
+      "description": "グループ会員情報"
+    },
+    {
+      "count": 36000,
+      "unit": "records",
+      "qualifier": "approximate",
+      "description": "ザ・カハラホテル＆リゾート 横浜の予約者情報"
+    }
+  ],
+  "data_types": [
+    "会員情報",
+    "予約者情報"
+  ],
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。具体的な侵入手法は未公表。",
+    "certainty": "unknown"
+  },
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.resorttrust.co.jp/wp_api/wp-content/uploads/2026/10/20261009.pdf",
+      "type": "official",
+      "title": "ウェブサイトへの不正アクセスによる会員・予約者情報漏えい",
+      "published_on": "2026-10-09",
+      "checked_on": "2026-10-14"
+    }
+  ],
+  "notes": "10月7日に漏えい確認。区分間の重複が不明のため合算しない。メールアドレス、決済情報、医療情報、本人確認書類等は対象外。",
+  "updates": []
+}

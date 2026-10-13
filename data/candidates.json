@@ -134,5 +134,53 @@
     "verification": "pending",
     "reference_url": "https://ibatoco.jp/news/ibaraki-outsourced-email-leak-2026/",
     "note": "報道本文で49件の誤送信を確認。記載日は報道日。公式PDFを取得できず、公表日の裏付けを保留。"
+  },
+  {
+    "id": "research-20261014-commune",
+    "organization": "コミューン",
+    "reported_on": "2026-10-09",
+    "verification": "pending",
+    "reference_url": "https://communeinc.com/ja/news/2026oct09",
+    "note": "2026年10月14日追加調査。公式ページの本文が取得できず、全体の対象範囲・人数の照合待ち。委託元の個別公表とは別候補。"
+  },
+  {
+    "id": "research-20261014-newspicks",
+    "organization": "ユーザベース（NewsPicks）",
+    "reported_on": "2026-10-09",
+    "verification": "pending",
+    "reference_url": "https://corp.newspicks.com/info/20261009",
+    "note": "2026年10月14日追加調査。初報・第二報とも公式本文を取得できず、対象範囲の照合待ち。"
+  },
+  {
+    "id": "research-20261014-arcadia",
+    "organization": "アルカディア（SpeeCAN RAIDEN）",
+    "reported_on": "2026-10-13",
+    "verification": "pending",
+    "reference_url": "https://www.arcadia.co.jp/info/4076",
+    "note": "2026年10月14日追加調査。公式本文を取得できず、ベンダー全体の範囲の照合待ち。横須賀市の公表は個別に掲載。"
+  },
+  {
+    "id": "research-20261014-hotelier",
+    "organization": "ホテリエ",
+    "reported_on": "2026-10-13",
+    "verification": "pending",
+    "reference_url": "https://hotel.inc/wp-content/uploads/2026/10/20261007_apology_ja.pdf",
+    "note": "2026年10月14日追加調査。PDF本文は10月13日付に更新されている。10月7日の初報との関係と公表日を照合中。URLのファイル名だけで公表日を決めない。"
+  },
+  {
+    "id": "research-20261014-orixlife",
+    "organization": "オリックス生命",
+    "reported_on": "2026-10-08",
+    "verification": "pending",
+    "reference_url": "https://venture-solution.jp/security/cs-117197/",
+    "note": "2026年10月14日追加調査。報道で発見。公式本文および公表日を照合待ち。記載日は報道が示す未検証の公表日。"
+  },
+  {
+    "id": "research-20261014-idcf",
+    "organization": "IDCフロンティア",
+    "reported_on": "2026-10-09",
+    "verification": "pending",
+    "reference_url": "https://www.idcf.jp/news/topics/20261009001",
+    "note": "2026年10月14日追加調査。ランサムウェア被害の第4報を発見。個人情報への影響と掲載対象かを本文照合待ち。委託元の個別公表は別途掲載。"
   }
 ]

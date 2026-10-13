@@ -1,0 +1,57 @@
+{
+  "id": "chitose-commune-20261009",
+  "organization": {
+    "name": "ちとせ研究所",
+    "sector": "企業・団体"
+  },
+  "title": "ちとせアカデミーの登録情報漏えいの可能性",
+  "published_on": "2026-10-09",
+  "first_published_on": "2026-10-09",
+  "publication_kind": "initial",
+  "occurred_on": "2026-10-06",
+  "detected_on": "2026-10-07",
+  "updated_on": "2026-10-14",
+  "verification": "official",
+  "incident_type": "attack",
+  "leak_status": "suspected",
+  "summary": "コミューンのシステムへの不正アクセスにより、コミュニティ会員情報が閲覧・取得された可能性を公表。",
+  "impact": [
+    {
+      "count": 843,
+      "unit": "people",
+      "qualifier": "maximum",
+      "description": "影響を受けた可能性のある会員（調査中）"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "フリガナ",
+    "性別",
+    "メールアドレス",
+    "プロフィール",
+    "サイト利用状況"
+  ],
+  "cause": {
+    "category": "credentials",
+    "detail": "共通のログイン用署名鍵を入手した第三者が管理者になりすました。",
+    "certainty": "confirmed"
+  },
+  "related_vendor": "コミューン",
+  "sources": [
+    {
+      "url": "https://chitose-bio.com/jp/news/12177/",
+      "type": "official",
+      "title": "ちとせアカデミーの登録情報漏えいの可能性",
+      "published_on": "2026-10-09",
+      "checked_on": "2026-10-14"
+    }
+  ],
+  "notes": "他のコミュニティの公表と合算しない。",
+  "updates": [
+    {
+      "date": "2026-10-13",
+      "summary": "段階的な再開予定を追記。当サイトの再開日は未確定。",
+      "source_index": 0
+    }
+  ]
+}

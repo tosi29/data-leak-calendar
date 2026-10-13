@@ -1,0 +1,52 @@
+{
+  "id": "skyticket-server-20261009",
+  "organization": {
+    "name": "アドベンチャー（skyticket）",
+    "sector": "企業・団体"
+  },
+  "title": "サーバへの不正アクセス",
+  "published_on": "2026-10-09",
+  "first_published_on": null,
+  "publication_kind": "unknown",
+  "occurred_on": "2026-10-02",
+  "detected_on": "2026-10-05",
+  "updated_on": "2026-10-14",
+  "verification": "official",
+  "incident_type": "attack",
+  "leak_status": "confirmed",
+  "summary": "管理機能からサーバ・クラウド内の顧客情報にアクセスされ流出。",
+  "impact": [
+    {
+      "count": 14640000,
+      "unit": "records",
+      "qualifier": "approximate",
+      "description": "顧客情報。ハッシュ化パスワード約413万件は内数"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "生年月日",
+    "メールアドレス",
+    "電話番号",
+    "住所",
+    "振込依頼人名義",
+    "ハッシュ化パスワード"
+  ],
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "管理機能の不正操作を経由。詳細な侵入手法は未公表。",
+    "certainty": "unknown"
+  },
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://jp.adventurekk.com/news/apology-notice-unauthorized-access-data-leak/",
+      "type": "official",
+      "title": "サーバへの不正アクセス",
+      "published_on": "2026-10-09",
+      "checked_on": "2026-10-14"
+    }
+  ],
+  "notes": "10月8日に漏えい通知メールの案内があるが、各事象の初報との対応を確定できないため詳細公表日の10月9日を掲載。3事象の規模を合算しない。カード情報・パスポート画像は対象外。発生期間は10月2〜4日。パスポート番号の流出は否定。",
+  "updates": []
+}

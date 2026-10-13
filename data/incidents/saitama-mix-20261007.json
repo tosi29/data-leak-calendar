@@ -1,0 +1,54 @@
+{
+  "id": "saitama-mix-20261007",
+  "organization": {
+    "name": "埼玉県（渋沢MIX）",
+    "sector": "行政"
+  },
+  "title": "渋沢MIX管理システムの会員情報閲覧",
+  "published_on": "2026-10-07",
+  "first_published_on": "2026-10-07",
+  "publication_kind": "initial",
+  "occurred_on": "2026-10-06",
+  "detected_on": "2026-10-06",
+  "updated_on": "2026-10-14",
+  "verification": "official",
+  "incident_type": "attack",
+  "leak_status": "confirmed",
+  "summary": "不正アクセスにより会員等の一覧と、一部の詳細情報が閲覧された。登録情報の改ざんとメール送信も確認。",
+  "impact": [
+    {
+      "count": 2200,
+      "unit": "people",
+      "qualifier": "approximate",
+      "description": "閲覧された一覧に記載された会員等"
+    },
+    {
+      "count": 3,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "さらに詳細情報を閲覧された会員。約2,200名の内数"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "メールアドレス",
+    "会員詳細情報"
+  ],
+  "cause": {
+    "category": "vulnerability",
+    "detail": "管理システムの脆弱性が攻撃されたと考えられるが、詳細調査中。",
+    "certainty": "suspected"
+  },
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.pref.saitama.lg.jp/a0803/news/page/news2026100702.html",
+      "type": "official",
+      "title": "渋沢MIX管理システムの会員情報閲覧",
+      "published_on": "2026-10-07",
+      "checked_on": "2026-10-14"
+    }
+  ],
+  "notes": "公式本文はデータ窃取未確認とする一方、第三者による閲覧を確認しているためconfirmedに分類。",
+  "updates": []
+}

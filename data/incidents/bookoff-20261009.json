@@ -1,0 +1,54 @@
+{
+  "id": "bookoff-20261009",
+  "organization": {
+    "name": "ブックオフグループホールディングス",
+    "sector": "企業・団体"
+  },
+  "title": "会員管理システムへの不正アクセスによる会員情報流出",
+  "published_on": "2026-10-09",
+  "first_published_on": "2026-10-09",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-10-06",
+  "updated_on": "2026-10-14",
+  "verification": "official",
+  "incident_type": "attack",
+  "leak_status": "confirmed",
+  "summary": "子会社の会員管理システムから情報が取得されたことを確認。対象範囲は精査中。",
+  "impact": [
+    {
+      "count": 6430000,
+      "unit": "records",
+      "qualifier": "maximum_approximate",
+      "description": "漏えい可能性のある会員番号。実人数ではない"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "生年月日",
+    "性別",
+    "メールアドレス",
+    "電話番号",
+    "住所",
+    "パスワードのハッシュ値",
+    "ポイントカード番号",
+    "会員番号"
+  ],
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。具体的な侵入手法は未公表。",
+    "certainty": "unknown"
+  },
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://ssl4.eir-parts.net/doc/9278/tdnet/2893077/00.pdf",
+      "type": "official",
+      "title": "会員管理システムへの不正アクセスによる会員情報流出",
+      "published_on": "2026-10-09",
+      "checked_on": "2026-10-14"
+    }
+  ],
+  "notes": "漏えいを確認しているが、最大約643万件すべての流出を確定した数値ではない。決済情報は対象外。",
+  "updates": []
+}

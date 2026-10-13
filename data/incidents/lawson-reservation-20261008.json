@@ -1,0 +1,48 @@
+{
+  "id": "lawson-reservation-20261008",
+  "organization": {
+    "name": "ローソン",
+    "sector": "企業・団体"
+  },
+  "title": "ローソンアプリ予約の個人情報漏えい",
+  "published_on": "2026-10-08",
+  "first_published_on": "2026-10-08",
+  "publication_kind": "initial",
+  "occurred_on": "2026-09-17",
+  "detected_on": "2026-10-07",
+  "updated_on": "2026-10-14",
+  "verification": "official",
+  "incident_type": "attack",
+  "leak_status": "confirmed",
+  "summary": "アプリ予約への不正アクセスで、予約利用者の情報が漏えい。",
+  "impact": [
+    {
+      "count": 26,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "アプリ予約の対象情報。原文の単位は件"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "電話番号",
+    "クレジットカード番号の一部"
+  ],
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。具体的な侵入手法は未公表。",
+    "certainty": "unknown"
+  },
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.lawson.co.jp/contents/cont07/1533174_3310.html",
+      "type": "official",
+      "title": "ローソンアプリ予約の個人情報漏えい",
+      "published_on": "2026-10-08",
+      "checked_on": "2026-10-14"
+    }
+  ],
+  "notes": "ローソンIDの事案とは別記録。予約機能を停止。",
+  "updates": []
+}

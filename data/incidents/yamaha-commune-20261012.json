@@ -1,0 +1,54 @@
+{
+  "id": "yamaha-commune-20261012",
+  "organization": {
+    "name": "ヤマハ発動機",
+    "sector": "企業・団体"
+  },
+  "title": "YAMAHA PAS Lifeの登録情報漏えいの可能性",
+  "published_on": "2026-10-12",
+  "first_published_on": "2026-10-12",
+  "publication_kind": "initial",
+  "occurred_on": "2026-10-06",
+  "detected_on": "2026-10-07",
+  "updated_on": "2026-10-14",
+  "verification": "official",
+  "incident_type": "attack",
+  "leak_status": "suspected",
+  "summary": "コミューンのシステムへの不正アクセスにより、コミュニティ会員情報が閲覧・取得された可能性を公表。",
+  "impact": [
+    {
+      "count": 1600,
+      "unit": "people",
+      "qualifier": "approximate",
+      "description": "影響を受けた可能性のある会員（調査中）"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "生年月日",
+    "性別",
+    "住所",
+    "メールアドレス",
+    "会員ID",
+    "ニックネーム",
+    "自己紹介",
+    "所属グループ"
+  ],
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "委託先サーバへの不正アクセス。詳細な侵入手法は当該公表に記載なし。",
+    "certainty": "unknown"
+  },
+  "related_vendor": "コミューン",
+  "sources": [
+    {
+      "url": "https://global.yamaha-motor.com/jp/news/2026/1012/leakage.html",
+      "type": "official",
+      "title": "YAMAHA PAS Lifeの登録情報漏えいの可能性",
+      "published_on": "2026-10-12",
+      "checked_on": "2026-10-14"
+    }
+  ],
+  "notes": "他のコミュニティの公表と合算しない。",
+  "updates": []
+}

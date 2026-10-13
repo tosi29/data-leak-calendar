@@ -1,0 +1,52 @@
+{
+  "id": "suzuki-commune-20261009",
+  "organization": {
+    "name": "スズキ",
+    "sector": "企業・団体"
+  },
+  "title": "スズキヴィレッジの会員情報漏えいの可能性",
+  "published_on": "2026-10-09",
+  "first_published_on": "2026-10-09",
+  "publication_kind": "initial",
+  "occurred_on": "2026-10-05",
+  "detected_on": "2026-10-07",
+  "updated_on": "2026-10-14",
+  "verification": "official",
+  "incident_type": "attack",
+  "leak_status": "suspected",
+  "summary": "コミューンへの不正アクセスにより、四輪公式コミュニティの登録情報が閲覧・取得された可能性。",
+  "impact": [
+    {
+      "count": 3000,
+      "unit": "people",
+      "qualifier": "approximate",
+      "description": "影響を受けた可能性のある会員"
+    }
+  ],
+  "data_types": [
+    "メールアドレス",
+    "ニックネーム",
+    "参加日",
+    "性別",
+    "年代",
+    "居住都道府県",
+    "所有車名"
+  ],
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。具体的な侵入手法は未公表。",
+    "certainty": "unknown"
+  },
+  "related_vendor": "コミューン",
+  "sources": [
+    {
+      "url": "https://www.suzuki.co.jp/release/d/2026/1009/",
+      "type": "official",
+      "title": "スズキヴィレッジの会員情報漏えいの可能性",
+      "published_on": "2026-10-09",
+      "checked_on": "2026-10-14"
+    }
+  ],
+  "notes": "委託先の不正アクセス期間は10月5〜6日。スズキは10月7日に調査報告を受領。決済情報は対象外。",
+  "updates": []
+}

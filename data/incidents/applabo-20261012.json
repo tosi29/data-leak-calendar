@@ -1,0 +1,47 @@
+{
+  "id": "applabo-20261012",
+  "organization": {
+    "name": "あっぷらぼ",
+    "sector": "企業・団体"
+  },
+  "title": "メールサーバの認証情報が参照された可能性",
+  "published_on": "2026-10-12",
+  "first_published_on": "2026-10-12",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-10-11",
+  "updated_on": "2026-10-14",
+  "verification": "official",
+  "incident_type": "attack",
+  "leak_status": "suspected",
+  "summary": "データベース管理用パスワードが突破され、一部のメールアドレスと暗号化されたパスワードが参照された可能性。",
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "対象件数は未公表"
+    }
+  ],
+  "data_types": [
+    "メールアドレス",
+    "暗号化されたパスワード"
+  ],
+  "cause": {
+    "category": "configuration",
+    "detail": "管理用経路の接続制限が不十分な状態で、管理用パスワードが突破された。",
+    "certainty": "confirmed"
+  },
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.applabo.co.jp/news-blog/?p=954",
+      "type": "official",
+      "title": "メールサーバの認証情報が参照された可能性",
+      "published_on": "2026-10-12",
+      "checked_on": "2026-10-14"
+    }
+  ],
+  "notes": "",
+  "updates": []
+}

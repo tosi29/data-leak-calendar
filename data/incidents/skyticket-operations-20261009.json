@@ -1,0 +1,51 @@
+{
+  "id": "skyticket-operations-20261009",
+  "organization": {
+    "name": "アドベンチャー（skyticket）",
+    "sector": "企業・団体"
+  },
+  "title": "業務管理システムへの不正アクセス",
+  "published_on": "2026-10-09",
+  "first_published_on": null,
+  "publication_kind": "unknown",
+  "occurred_on": "2026-09-20",
+  "detected_on": "2026-09-28",
+  "updated_on": "2026-10-14",
+  "verification": "official",
+  "incident_type": "attack",
+  "leak_status": "confirmed",
+  "summary": "脆弱性を悪用され、返金口座等の情報が流出、または流出したおそれ。",
+  "impact": [
+    {
+      "count": 17780,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "重複を含む対象件数。このほか調査中の情報あり"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "電話番号",
+    "返金先口座情報",
+    "メールアドレス",
+    "生年月日",
+    "住所"
+  ],
+  "cause": {
+    "category": "vulnerability",
+    "detail": "業務管理システムの脆弱性が悪用された。",
+    "certainty": "confirmed"
+  },
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://jp.adventurekk.com/news/apology-notice-unauthorized-access-data-leak/",
+      "type": "official",
+      "title": "業務管理システムへの不正アクセス",
+      "published_on": "2026-10-09",
+      "checked_on": "2026-10-14"
+    }
+  ],
+  "notes": "10月8日に漏えい通知メールの案内があるが、各事象の初報との対応を確定できないため詳細公表日の10月9日を掲載。3事象の規模を合算しない。カード情報・パスポート画像は対象外。対象項目すべての流出を確定したものではない。パスポート番号は調査中。",
+  "updates": []
+}

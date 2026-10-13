@@ -231,5 +231,102 @@
     "候補確認待ち0件だった以前の状態は、元の74候補を処理済みという意味であり、未収集がないという意味ではなかった。",
     "公表元のページ更新で初報日が失われることがある。確定できない候補は集計に含めない。",
     "10月7日は確認時点までの収集。新しい公表・続報は後日追加する。"
+  ],
+  "subsequent_runs": [
+    {
+      "checked_on": "2026-10-14",
+      "coverage_start": "2026-10-08",
+      "coverage_end": "2026-10-14",
+      "scope": "前回収集後の国内公表・続報を中心に調査。新たに見つかった9月・10月7日以前の事案も確認。",
+      "method": [
+        "Security NEXTの10月一覧、ScanNetSecurityの10月一覧、LegalAgentの国内事案一覧を入口として公式HTML・PDF本文に戻って確認。",
+        "10月14日の日付指定検索も実施。報道日と公表日、件数と人数、漏えい確認と可能性を区別。",
+        "既存事案はIDとカレンダー日付を維持して続報を追記。本文・公表日を確認できない候補は集計対象外。"
+      ],
+      "indexes": [
+        {
+          "url": "https://www.security-next.com/date/2026/10",
+          "title": "Security NEXT 2026年10月一覧"
+        },
+        {
+          "url": "https://scan.netsecurity.ne.jp/category/incident/incident/2026/10/",
+          "title": "ScanNetSecurity 2026年10月一覧"
+        },
+        {
+          "url": "https://legalagent.co.jp/legal-lab/security-incidents/",
+          "title": "LegalAgent 国内公表事案一覧"
+        }
+      ],
+      "added_incident_ids": [
+        "bookoff-20261009",
+        "dip-baitoru-20261006",
+        "lawson-id-20261008",
+        "lawson-reservation-20261008",
+        "daiichikosho-20261008",
+        "coconala-20261009",
+        "resorttrust-20261009",
+        "enecom-20261009",
+        "applabo-20261012",
+        "kindal-20261013",
+        "viewcard-mail-20261009",
+        "jrkyushu-mail-20261009",
+        "jreast-mail-20261009",
+        "tokyoshusui-20261009",
+        "yokosuka-raiden-20261013",
+        "kanagawa-employment-20260903",
+        "skyticket-server-20261009",
+        "skyticket-operations-20261009",
+        "skyticket-bus-20261009",
+        "hiho-20261008",
+        "wingarc-commune-20261008",
+        "suzuki-commune-20261009",
+        "lixil-commune-20261009",
+        "chitose-commune-20261009",
+        "valx-commune-20261008",
+        "yamaha-commune-20261012",
+        "toda-20261007",
+        "saitama-mix-20261007"
+      ],
+      "updated_incident_ids": [
+        "rext-20260911",
+        "lashinbang-20261001"
+      ],
+      "pending_candidate_ids": [
+        "research-20261014-commune",
+        "research-20261014-newspicks",
+        "research-20261014-arcadia",
+        "research-20261014-hotelier",
+        "research-20261014-orixlife",
+        "research-20261014-idcf"
+      ],
+      "unresolved_followups": [
+        {
+          "incident_id": "sagawa-20261001",
+          "url": "https://www2.sagawa-exp.co.jp/information/detail/426/",
+          "reason": "10月9日第4報の公式本文はJavaScript表示のため取得できず。既存の掲載情報を維持。"
+        }
+      ],
+      "limitations": [
+        "全組織・自治体の新規公表、全173件の既存事案の続報を網羅した調査ではない。",
+        "Commune・IDCFクラウド・SpeeCAN RAIDENの利用組織の全件調査は未完了。",
+        "既存17候補は今回再検証していない。新たな確認待ち6候補を加えて23候補。",
+        "10月14日は確認時点まで。検索にないことは発生・公表なしを意味しない。"
+      ],
+      "resolved_candidate_ids": [
+        "research-20261014-lixil-commune",
+        "research-20261014-chitose-commune",
+        "research-20261014-valx-commune",
+        "research-20261014-yamaha-commune",
+        "research-20261014-toda",
+        "research-20261014-saitama-mix"
+      ],
+      "excluded_examples": [
+        {
+          "organization": "穴吹ハウジングサービス",
+          "url": "https://www.anabuki-housing.co.jp/news/content.php?news_id=538",
+          "reason": "10月9日の告知は診断に基づく予防的なサービス停止で、これに起因する漏えいの事実は未確認と明記。新規漏えい事案として加算しない。"
+        }
+      ]
+    }
   ]
 }

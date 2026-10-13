@@ -1,0 +1,54 @@
+{
+  "id": "skyticket-bus-20261009",
+  "organization": {
+    "name": "アドベンチャー（skyticket）",
+    "sector": "企業・団体"
+  },
+  "title": "バス予約完了ページの第三者閲覧",
+  "published_on": "2026-10-09",
+  "first_published_on": null,
+  "publication_kind": "unknown",
+  "occurred_on": "2026-08-03",
+  "detected_on": "2026-10-01",
+  "updated_on": "2026-10-14",
+  "verification": "official",
+  "incident_type": "attack",
+  "leak_status": "confirmed",
+  "summary": "ログイン不要で表示できた予約完了ページが機械的に閲覧された。",
+  "impact": [
+    {
+      "count": 12000,
+      "unit": "bookings",
+      "qualifier": "approximate",
+      "description": "対象予約。同伴者を含む人数とは異なる"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "年齢",
+    "性別",
+    "生年月日",
+    "メールアドレス",
+    "電話番号",
+    "会員ID",
+    "予約情報",
+    "同行者情報"
+  ],
+  "cause": {
+    "category": "configuration",
+    "detail": "ログイン不要で予約完了ページを表示できる状態が悪用された。",
+    "certainty": "confirmed"
+  },
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://jp.adventurekk.com/news/apology-notice-unauthorized-access-data-leak/",
+      "type": "official",
+      "title": "バス予約完了ページの第三者閲覧",
+      "published_on": "2026-10-09",
+      "checked_on": "2026-10-14"
+    }
+  ],
+  "notes": "10月8日に漏えい通知メールの案内があるが、各事象の初報との対応を確定できないため詳細公表日の10月9日を掲載。3事象の規模を合算しない。カード情報・パスポート画像は対象外。発生期間は8月3日〜10月1日、10月1日に修正。",
+  "updates": []
+}
