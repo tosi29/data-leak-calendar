@@ -1,0 +1,62 @@
+{
+  "id": "futureshop-mail-20261008",
+  "organization": {
+    "name": "フューチャーショップ",
+    "sector": "企業・団体"
+  },
+  "title": "メール配信オプションの基盤への不正アクセスと個人情報への影響を調査",
+  "published_on": "2026-10-08",
+  "first_published_on": "2026-10-08",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-14",
+  "verification": "official",
+  "incident_type": "attack",
+  "leak_status": "investigating",
+  "summary": "future Scenario CastとfutureCartRecoveryが使用するIDCフロンティアのメール配信基盤への不正アクセスを受け、対象サーバー上の個人情報の流出有無を調査。",
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "対象となる情報の件数は未公表。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス",
+    "氏名",
+    "生年月日",
+    "会員ID"
+  ],
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "IDCフロンティアのクラウド基盤への第三者による不正アクセス。具体的な侵入経路は未公表。",
+    "certainty": "confirmed"
+  },
+  "related_vendor": "IDCフロンティア",
+  "sources": [
+    {
+      "url": "https://www.future-shop.jp/news/2026/10/08.html",
+      "type": "official",
+      "title": "メール配信オプションの基盤への不正アクセスと個人情報への影響を調査",
+      "published_on": "2026-10-08",
+      "checked_on": "2026-10-14"
+    },
+    {
+      "url": "https://www.future-shop.jp/news/2026/10/09.html",
+      "type": "official",
+      "title": "メール配信サービス再開のお知らせ",
+      "published_on": "2026-10-09",
+      "checked_on": "2026-10-14"
+    }
+  ],
+  "notes": "10月7日13時45分にメール配信・データ連携を予防的に停止。対象データは暗号化保存され、通常は送信14日後に自動削除されるが、侵入開始時期が不明のため影響期間は確定していない。住所・電話番号を保存する別基盤は対象外。ログインパスワードは連携せず、カード情報は保持していない。東京酒粋など利用店舗の公表と対象が重複し得るため合算しない。",
+  "updates": [
+    {
+      "date": "2026-10-09",
+      "summary": "別データセンターへ移行し、future Scenario Castを12時20分、futureCartRecoveryを12時30分に再開。再開は情報流出有無の調査完了を意味しない。",
+      "source_index": 1
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "id": "jrcentral-market-20261013",
+  "organization": {
+    "name": "東海旅客鉄道（JR東海MARKET・いいもの探訪）",
+    "sector": "企業・団体"
+  },
+  "title": "メール配信基盤への不正アクセスに伴う個人情報漏えいの可能性",
+  "published_on": "2026-10-13",
+  "first_published_on": "2026-10-13",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-14",
+  "verification": "official",
+  "incident_type": "attack",
+  "leak_status": "suspected",
+  "summary": "委託先IDCフロンティアのメール配信サービスへの不正アクセスにより、保存されていたメールアドレスや本文を第三者が閲覧・取得した可能性を否定できないとして公表。",
+  "impact": [
+    {
+      "count": 15000,
+      "unit": "records",
+      "qualifier": "approximate",
+      "description": "両サービス合計の対象データ約15,000件。漏えい確定件数・実人数ではない。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス",
+    "氏名",
+    "住所",
+    "電話番号",
+    "注文内容",
+    "配送先の氏名・住所",
+    "注文時のアンケート回答・コメント"
+  ],
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "IDCフロンティアのクラウド基盤への第三者による不正アクセス。具体的な侵入経路は未公表。",
+    "certainty": "confirmed"
+  },
+  "related_vendor": "IDCフロンティア",
+  "sources": [
+    {
+      "url": "https://market.jr-central.co.jp/shop/pages/20261013.aspx",
+      "type": "official",
+      "title": "メール配信基盤への不正アクセスに伴う個人情報漏えいの可能性",
+      "published_on": "2026-10-13",
+      "checked_on": "2026-10-14"
+    }
+  ],
+  "notes": "10月7日時点の保存データに基づく件数。10月9日のメール配信障害案内と、10月13日の個人情報漏えいの可能性の公表を区別。クレジットカード情報・ログインパスワードは対象外。外部流出の事実や二次被害は確認されていない。",
+  "updates": []
+}

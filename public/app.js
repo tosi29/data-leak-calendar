@@ -3,7 +3,7 @@ const $ = id => document.getElementById(id);
 const escape = value => String(value ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const dateLabel = date => date ? date.replaceAll('-', '.') : '不明・未公表';
 const kindLabel = {initial:'初報',followup:'期間内の続報',unknown:'初報日未確認'};
-const shortStatus = {confirmed:'漏えい・取得を確認',suspected:'漏えいの可能性',exposed:'外部から閲覧可能',lost:'紛失',ruled_out:'漏えいを否定',improper_sharing:'同意のない第三者提供'};
+const shortStatus = {confirmed:'漏えい・取得を確認',suspected:'漏えいの可能性',investigating:'漏えい有無を調査中',exposed:'外部から閲覧可能',lost:'紛失',ruled_out:'漏えいを否定',improper_sharing:'同意のない第三者提供'};
 const fields = ['query','incident_type','month','status','cause','vendor'];
 let data, candidates = [], selectedDate = '';
 function options(id, entries) {

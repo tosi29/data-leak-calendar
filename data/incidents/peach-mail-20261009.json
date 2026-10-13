@@ -1,0 +1,50 @@
+{
+  "id": "peach-mail-20261009",
+  "organization": {
+    "name": "Peach Aviation",
+    "sector": "企業・団体"
+  },
+  "title": "メール配信基盤への不正アクセスと個人情報の状況",
+  "published_on": "2026-10-09",
+  "first_published_on": "2026-10-09",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-14",
+  "verification": "official",
+  "incident_type": "attack",
+  "leak_status": "investigating",
+  "summary": "IDCフロンティアへの不正アクセスでメール配信システムが影響を受け、対象情報約189万件の状況を公表。公表時点で外部流出は確認されていない。",
+  "impact": [
+    {
+      "count": 1890000,
+      "unit": "records",
+      "qualifier": "approximate",
+      "description": "影響を受けたメール配信システム上の対象情報約189万件。漏えい確定件数・実人数ではない。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス",
+    "氏名（ローマ字）",
+    "電話番号",
+    "予約番号",
+    "旅程"
+  ],
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "IDCフロンティアのクラウド基盤への第三者による不正アクセス。具体的な侵入経路は未公表。",
+    "certainty": "confirmed"
+  },
+  "related_vendor": "IDCフロンティア",
+  "sources": [
+    {
+      "url": "https://www.flypeach.com/news/20261009",
+      "type": "official",
+      "title": "メール配信基盤への不正アクセスと個人情報の状況",
+      "published_on": "2026-10-09",
+      "checked_on": "2026-10-14"
+    }
+  ],
+  "notes": "10月7日3時40分頃に委託先への不正アクセスが発生。10月8日に代替手段でメール配信を再開。クレジットカード情報・パスポート情報は当該サーバーに保存していない。運航への影響はない。公表日は公式お知らせ一覧でも10月9日と確認。外部流出未確認は漏えい否定や調査完了を意味しない。",
+  "updates": []
+}

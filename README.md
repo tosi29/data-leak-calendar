@@ -40,7 +40,7 @@ JSONを採用した理由は、標準のNode.jsだけで検証・ビルドでき
 | `publication_kind` | initial / followup / unknown |
 | `occurred_on`, `detected_on` | 発生日・発覚日。不明はnull。期間の場合は開始日とし、範囲をnotesに明記 |
 | `incident_type` | attack / accident / improper_handling / unknown。攻撃・事故・不適切な持ち出しや提供・未確定 |
-| `leak_status` | confirmed / suspected / exposed / lost / ruled_out / improper_sharing |
+| `leak_status` | confirmed / suspected / investigating / exposed / lost / ruled_out / improper_sharing |
 | `impact` | 規模の配列。count、unit、qualifier、descriptionを保持 |
 | `cause` | 原因の分類、説明、その詳細の確度。侵入手口が不明ならcertaintyはunknown |
 | `related_vendor` | 資料で関係を確認した共通の委託先・サービス。未確認はnull |
@@ -63,6 +63,8 @@ JSONを採用した理由は、標準のNode.jsだけで検証・ビルドでき
 - 「掲載なし」は「発生なし」でも「確認済み」でもありません。未収集・未公表の事案があり得ます。
 - 公式発表を優先します。本文を取得できない資料や、日付・単位が曖昧な候補は確認待ちに残します。
 - 無同意提供、紛失などの境界事例は対象情報と公表内容を確認したうえで判断します。攻撃者の主張だけで流出確定にはしません。
+
+`investigating` は対象システム上の個人情報への影響が公表され、漏えい有無が調査中の事案です。外部流出未確認を漏えい否定とは扱いません。
 
 `ruled_out` は続報で漏えいが否定された事案、`improper_sharing` は同意のない第三者提供です。どちらも掲載件数には含みますが、漏えい確認件数とは分けます。
 
@@ -90,4 +92,6 @@ JSONを採用した理由は、標準のNode.jsだけで検証・ビルドでき
 
 参考: [GitHub公式のカスタムワークフロー手順](https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages)
 
-同日の確認待ち再調査では23件すべてを照合し、8件を追加掲載（合計209件）、8月公表の13件を期間外として整理しました。残る2件は鳥取県（介護事業者メール）の公表日とIDCフロンティア全体の個人情報への影響が未確定です。候補ごとの判定・根拠URLは `data/research-audit.json` の最後の `subsequent_runs` に保存しています。
+同日の確認待ち再調査では23件すべてを照合し、8件を追加掲載（合計209件）、8月公表の13件を期間外として整理しました。残る2件は鳥取県（介護事業者メール）の公表日とIDCフロンティア全体の個人情報への影響が未確定です。候補ごとの判定・根拠URLは `data/research-audit.json` の該当調査回の `subsequent_runs[].candidate_reviews` に保存しています。
+
+IDCフロンティア関連の指定5件を追加調査し、JR東海、フューチャーショップ、Peach、日本ICTテレコムユーザー協会の4件を掲載しました。合計213件、IDC関連の掲載は8件です。スマプラは公式本文で個人情報への影響を確認できましたが公表日を確定できず、確認待ちに追加（全体で3件）。配信事業者と利用企業の対象規模は重複し得るため合算しません。

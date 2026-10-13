@@ -1820,5 +1820,86 @@
     "source_urls": [
       "https://files.microcms-assets.io/assets/b3cd698c38a74ebea491976d56455ecd/77eb698f1d9543a39440e414940f9f4d/n261008.pdf"
     ]
+  },
+  {
+    "candidate": {
+      "id": "research-20261014-jrcentral-market-20261013",
+      "organization": "東海旅客鉄道（JR東海MARKET・いいもの探訪）",
+      "reported_on": "2026-10-14",
+      "verification": "pending",
+      "reference_url": "https://market.jr-central.co.jp/shop/pages/20261013.aspx",
+      "note": "IDC関連5件の追加調査。reported_onは調査日。",
+      "origin": "user_requested_research"
+    },
+    "reviewed_on": "2026-10-14",
+    "resolution": "published",
+    "incident_ids": [
+      "jrcentral-market-20261013"
+    ],
+    "reason": "公式発表の本文と公表日を確認。対象規模と漏えい確認状況を区別して掲載。",
+    "source_urls": [
+      "https://market.jr-central.co.jp/shop/pages/20261013.aspx"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "research-20261014-futureshop-mail-20261008",
+      "organization": "フューチャーショップ",
+      "reported_on": "2026-10-14",
+      "verification": "pending",
+      "reference_url": "https://www.future-shop.jp/news/2026/10/08.html",
+      "note": "IDC関連5件の追加調査。reported_onは調査日。",
+      "origin": "user_requested_research"
+    },
+    "reviewed_on": "2026-10-14",
+    "resolution": "published",
+    "incident_ids": [
+      "futureshop-mail-20261008"
+    ],
+    "reason": "公式発表の本文と公表日を確認。対象規模と漏えい確認状況を区別して掲載。",
+    "source_urls": [
+      "https://www.future-shop.jp/news/2026/10/08.html",
+      "https://www.future-shop.jp/news/2026/10/09.html"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "research-20261014-peach-mail-20261009",
+      "organization": "Peach Aviation",
+      "reported_on": "2026-10-14",
+      "verification": "pending",
+      "reference_url": "https://www.flypeach.com/news/20261009",
+      "note": "IDC関連5件の追加調査。reported_onは調査日。",
+      "origin": "user_requested_research"
+    },
+    "reviewed_on": "2026-10-14",
+    "resolution": "published",
+    "incident_ids": [
+      "peach-mail-20261009"
+    ],
+    "reason": "公式発表の本文と公表日を確認。対象規模と漏えい確認状況を区別して掲載。",
+    "source_urls": [
+      "https://www.flypeach.com/news/20261009"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "research-20261014-jtua-elearning-20261009",
+      "organization": "日本ICTテレコムユーザー協会",
+      "reported_on": "2026-10-14",
+      "verification": "pending",
+      "reference_url": "https://www.jtua.or.jp/jtua_news/44237/",
+      "note": "IDC関連5件の追加調査。reported_onは調査日。",
+      "origin": "user_requested_research"
+    },
+    "reviewed_on": "2026-10-14",
+    "resolution": "published",
+    "incident_ids": [
+      "jtua-elearning-20261009"
+    ],
+    "reason": "公式発表の本文と公表日を確認。対象規模と漏えい確認状況を区別して掲載。",
+    "source_urls": [
+      "https://www.jtua.or.jp/jtua_news/44237/"
+    ]
   }
 ]

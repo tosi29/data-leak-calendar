@@ -1,5 +1,5 @@
 export const incidentTypeLabels = { attack: '攻撃・不正アクセス', accident: '事故・管理ミス', improper_handling: '不適切な持ち出し・提供', unknown: '不明・調査中' };
-export const leakLabels = { confirmed: '漏えい・第三者取得を確認', suspected: '漏えいの可能性', exposed: '外部から閲覧可能', lost: '紛失', ruled_out: '漏えいを否定', improper_sharing: '同意のない第三者提供' };
+export const leakLabels = { confirmed: '漏えい・第三者取得を確認', suspected: '漏えいの可能性', investigating: '漏えい有無を調査中', exposed: '外部から閲覧可能', lost: '紛失', ruled_out: '漏えいを否定', improper_sharing: '同意のない第三者提供' };
 export const causeLabels = { vulnerability: '脆弱性の悪用', unauthorized_access: '不正アクセス（詳細不明）', credentials: '認証情報の不正利用', configuration: '設定・管理不備', misdelivery: '誤送信・誤送付', redaction_error: '黒塗り・公開処理の不備', loss: '紛失', improper_sharing: '不適切な第三者提供', unknown: '原因不明' };
 export const unitLabels = { people: '人', records: '件', accounts: 'アカウント', organizations: '組織', bookings: '予約', documents: '通', images: '枚' };
 export const qualifierLabels = { exact: '', approximate: '約', maximum: '最大', maximum_approximate: '最大約', unknown: '' };

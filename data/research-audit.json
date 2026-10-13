@@ -730,6 +730,123 @@
           ]
         }
       ]
+    },
+    {
+      "checked_on": "2026-10-14",
+      "coverage_start": "2026-09-01",
+      "coverage_end": "2026-10-14",
+      "scope": "ユーザー指定のIDCフロンティア関連5件。JR東海、フューチャーショップ、Peach、ユーザー協会、スマプラ。網羅調査ではない。",
+      "method": [
+        "各社の公式本文と公表日を照合。発生日・報道日を公表日に転用しない。",
+        "同一基盤に起因する利用企業・配信事業者間の対象規模は重複し得るため合算しない。"
+      ],
+      "summary": {
+        "reviewed": 5,
+        "added": 4,
+        "pending_in_this_run": 1,
+        "published_total": 213,
+        "pending_total": 3,
+        "idcf_related_published_total": 8
+      },
+      "candidate_reviews": [
+        {
+          "candidate": {
+            "id": "research-20261014-jrcentral-market-20261013",
+            "organization": "東海旅客鉄道（JR東海MARKET・いいもの探訪）",
+            "reported_on": "2026-10-14",
+            "verification": "pending",
+            "reference_url": "https://market.jr-central.co.jp/shop/pages/20261013.aspx",
+            "note": "IDC関連5件の追加調査。reported_onは調査日。",
+            "origin": "user_requested_research"
+          },
+          "reviewed_on": "2026-10-14",
+          "resolution": "published",
+          "incident_ids": [
+            "jrcentral-market-20261013"
+          ],
+          "reason": "公式発表の本文と公表日を確認。対象規模と漏えい確認状況を区別して掲載。",
+          "source_urls": [
+            "https://market.jr-central.co.jp/shop/pages/20261013.aspx"
+          ]
+        },
+        {
+          "candidate": {
+            "id": "research-20261014-futureshop-mail-20261008",
+            "organization": "フューチャーショップ",
+            "reported_on": "2026-10-14",
+            "verification": "pending",
+            "reference_url": "https://www.future-shop.jp/news/2026/10/08.html",
+            "note": "IDC関連5件の追加調査。reported_onは調査日。",
+            "origin": "user_requested_research"
+          },
+          "reviewed_on": "2026-10-14",
+          "resolution": "published",
+          "incident_ids": [
+            "futureshop-mail-20261008"
+          ],
+          "reason": "公式発表の本文と公表日を確認。対象規模と漏えい確認状況を区別して掲載。",
+          "source_urls": [
+            "https://www.future-shop.jp/news/2026/10/08.html",
+            "https://www.future-shop.jp/news/2026/10/09.html"
+          ]
+        },
+        {
+          "candidate": {
+            "id": "research-20261014-peach-mail-20261009",
+            "organization": "Peach Aviation",
+            "reported_on": "2026-10-14",
+            "verification": "pending",
+            "reference_url": "https://www.flypeach.com/news/20261009",
+            "note": "IDC関連5件の追加調査。reported_onは調査日。",
+            "origin": "user_requested_research"
+          },
+          "reviewed_on": "2026-10-14",
+          "resolution": "published",
+          "incident_ids": [
+            "peach-mail-20261009"
+          ],
+          "reason": "公式発表の本文と公表日を確認。対象規模と漏えい確認状況を区別して掲載。",
+          "source_urls": [
+            "https://www.flypeach.com/news/20261009"
+          ]
+        },
+        {
+          "candidate": {
+            "id": "research-20261014-jtua-elearning-20261009",
+            "organization": "日本ICTテレコムユーザー協会",
+            "reported_on": "2026-10-14",
+            "verification": "pending",
+            "reference_url": "https://www.jtua.or.jp/jtua_news/44237/",
+            "note": "IDC関連5件の追加調査。reported_onは調査日。",
+            "origin": "user_requested_research"
+          },
+          "reviewed_on": "2026-10-14",
+          "resolution": "published",
+          "incident_ids": [
+            "jtua-elearning-20261009"
+          ],
+          "reason": "公式発表の本文と公表日を確認。対象規模と漏えい確認状況を区別して掲載。",
+          "source_urls": [
+            "https://www.jtua.or.jp/jtua_news/44237/"
+          ]
+        },
+        {
+          "candidate": {
+            "id": "research-20261014-avex-sumapura",
+            "organization": "エイベックス（スマプラ）",
+            "reported_on": "2026-10-14",
+            "verification": "pending",
+            "reference_url": "https://sp-movie.jp/",
+            "note": "2026年10月14日調査。公式第2報でIDCフロンティアへの攻撃、サービス停止、対象情報がメールアドレスであること、外部流出未確認を確認。本文の10月7日3時40分は発生日時で、公表日ではない。公表日を確定できず掲載保留。reported_onは調査日。"
+          },
+          "reviewed_on": "2026-10-14",
+          "resolution": "pending",
+          "reason": "2026年10月14日調査。公式第2報でIDCフロンティアへの攻撃、サービス停止、対象情報がメールアドレスであること、外部流出未確認を確認。本文の10月7日3時40分は発生日時で、公表日ではない。公表日を確定できず掲載保留。reported_onは調査日。",
+          "source_urls": [
+            "https://sp-movie.jp/"
+          ]
+        }
+      ]
     }
   ]
 }
