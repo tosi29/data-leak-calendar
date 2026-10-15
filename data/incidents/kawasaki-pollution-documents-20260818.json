@@ -1,0 +1,51 @@
+{
+  "id": "kawasaki-pollution-documents-20260818",
+  "organization": {
+    "name": "川崎市",
+    "sector": "自治体・行政"
+  },
+  "title": "公害認定患者5人分の診療報酬関係書類を紛失",
+  "summary": "市に配達済みの書類2通が所在不明となり、8月5日の問い合わせで判明。外部への漏えいは確認されていない。",
+  "published_on": "2026-08-18",
+  "first_published_on": "2026-08-18",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-16",
+  "incident_type": "accident",
+  "leak_status": "lost",
+  "impact": [
+    {
+      "count": 5,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表された対象規模"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "生年月日",
+    "性別",
+    "疾病名",
+    "公害医療手帳番号",
+    "診療記録"
+  ],
+  "cause": {
+    "category": "loss",
+    "detail": "書類の受領後または庁内振り分け時の管理不備。",
+    "certainty": "unknown"
+  },
+  "sources": [
+    {
+      "url": "https://www.city.kawasaki.jp/templates/prs/cmsfiles/contents/0000189/189481/20260818_houdouhappyou.pdf",
+      "type": "official",
+      "title": "公害認定患者5人分の診療報酬関係書類を紛失",
+      "published_on": "2026-08-18",
+      "checked_on": "2026-10-16"
+    }
+  ],
+  "notes": "",
+  "updates": [],
+  "verification": "official",
+  "related_vendor": null
+}

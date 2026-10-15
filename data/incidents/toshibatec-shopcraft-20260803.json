@@ -1,0 +1,51 @@
+{
+  "id": "toshibatec-shopcraft-20260803",
+  "organization": {
+    "name": "東芝テック",
+    "sector": "企業・団体"
+  },
+  "title": "ShopCraftの管理者用認証情報を誤って案内",
+  "summary": "利用企業1社への案内に管理者用認証情報が含まれ、他の利用企業が登録した顧客情報にアクセスできる状態になった。実際の閲覧は確認されていない。",
+  "published_on": "2026-08-03",
+  "first_published_on": "2026-08-03",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-16",
+  "incident_type": "accident",
+  "leak_status": "exposed",
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "対象規模は未公表"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "生年月日",
+    "性別",
+    "住所",
+    "電話番号",
+    "メールアドレス"
+  ],
+  "cause": {
+    "category": "configuration",
+    "detail": "マニュアルに管理者用認証情報を誤って記載した。",
+    "certainty": "confirmed"
+  },
+  "sources": [
+    {
+      "url": "https://www.toshibatec.co.jp/news/info/20260803-01.html",
+      "type": "official",
+      "title": "ShopCraftの管理者用認証情報を誤って案内",
+      "published_on": "2026-08-03",
+      "checked_on": "2026-10-16"
+    }
+  ],
+  "notes": "1社は誤案内の送付先であり、影響を受けた個人の総数ではない。",
+  "updates": [],
+  "verification": "official",
+  "related_vendor": null
+}

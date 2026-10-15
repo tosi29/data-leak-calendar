@@ -1,0 +1,54 @@
+{
+  "id": "aichi-park-form-20260803",
+  "organization": {
+    "name": "愛知県都市整備協会",
+    "sector": "自治体・行政"
+  },
+  "title": "公園イベント申込者の個人情報が閲覧可能に",
+  "summary": "申込フォームの設定不備により、8月1日の受付開始後16分間、他の申込者の情報を閲覧できる状態だった。",
+  "published_on": "2026-08-03",
+  "first_published_on": "2026-08-03",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-16",
+  "incident_type": "accident",
+  "leak_status": "exposed",
+  "impact": [
+    {
+      "count": 57,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "申込代表者（氏名・電話番号・メールアドレス）"
+    },
+    {
+      "count": 72,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "代表者以外の参加者（氏名）"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "電話番号",
+    "メールアドレス"
+  ],
+  "cause": {
+    "category": "configuration",
+    "detail": "申込フォームの設定不備。",
+    "certainty": "confirmed"
+  },
+  "sources": [
+    {
+      "url": "https://www.pref.aichi.jp/press-release/rouei.html",
+      "type": "official",
+      "title": "公園イベント申込者の個人情報が閲覧可能に",
+      "published_on": "2026-08-03",
+      "checked_on": "2026-10-16"
+    }
+  ],
+  "notes": "",
+  "updates": [],
+  "verification": "official",
+  "related_vendor": null
+}

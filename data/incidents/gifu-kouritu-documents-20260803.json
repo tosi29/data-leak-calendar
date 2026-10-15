@@ -1,0 +1,52 @@
+{
+  "id": "gifu-kouritu-documents-20260803",
+  "organization": {
+    "name": "公立学校共済組合岐阜支部",
+    "sector": "企業・団体"
+  },
+  "title": "公務災害認定通知書23人分を紛失",
+  "summary": "6月19日に文書の所在不明が判明。誤廃棄の可能性が高いとしており、外部への流出は確認されていない。",
+  "published_on": "2026-08-03",
+  "first_published_on": "2026-08-03",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-16",
+  "incident_type": "accident",
+  "leak_status": "lost",
+  "impact": [
+    {
+      "count": 23,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表された対象規模"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "組合員証番号",
+    "所属",
+    "災害発生日",
+    "傷病名",
+    "受診医療機関名",
+    "認定結果"
+  ],
+  "cause": {
+    "category": "loss",
+    "detail": "保管文書を誤って廃棄した可能性。",
+    "certainty": "suspected"
+  },
+  "sources": [
+    {
+      "url": "https://www.kouritu.or.jp/gifu/content/files/20260803owabi.pdf",
+      "type": "official",
+      "title": "公務災害認定通知書23人分を紛失",
+      "published_on": "2026-08-03",
+      "checked_on": "2026-10-16"
+    }
+  ],
+  "notes": "",
+  "updates": [],
+  "verification": "official",
+  "related_vendor": null
+}

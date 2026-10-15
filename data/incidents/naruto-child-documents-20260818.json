@@ -1,0 +1,44 @@
+{
+  "id": "naruto-child-documents-20260818",
+  "organization": {
+    "name": "鳴門市",
+    "sector": "自治体・行政"
+  },
+  "title": "こども家庭センターの相談書類を紛失",
+  "summary": "相談者等の個人情報が記載された書類を紛失。誤廃棄したとみられ、不正利用は確認されていない。",
+  "published_on": "2026-08-18",
+  "first_published_on": "2026-08-18",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-16",
+  "incident_type": "accident",
+  "leak_status": "lost",
+  "impact": [
+    {
+      "count": 55,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "公表された対象規模"
+    }
+  ],
+  "data_types": [],
+  "cause": {
+    "category": "loss",
+    "detail": "書類を誤って廃棄した可能性。",
+    "certainty": "suspected"
+  },
+  "sources": [
+    {
+      "url": "https://www.topics.or.jp/articles/-/1480575",
+      "type": "news",
+      "title": "こども家庭センターの相談書類を紛失",
+      "published_on": "2026-08-19",
+      "checked_on": "2026-10-16"
+    }
+  ],
+  "notes": "延べ55人分であり実人数とは区別。8月19日付記事が市の8月18日公表を明記。",
+  "updates": [],
+  "verification": "secondary",
+  "related_vendor": null
+}

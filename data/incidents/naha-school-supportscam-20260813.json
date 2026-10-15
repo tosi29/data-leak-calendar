@@ -1,0 +1,51 @@
+{
+  "id": "naha-school-supportscam-20260813",
+  "organization": {
+    "name": "那覇市教育委員会",
+    "sector": "自治体・行政"
+  },
+  "title": "校務用PCのサポート詐欺で個人情報漏えいのおそれ",
+  "summary": "教員が遠隔操作アプリを実行したことが後日判明。9月3日の最終報告では、情報漏えいを示す具体的な操作痕跡は確認されなかった。",
+  "published_on": "2026-08-13",
+  "first_published_on": "2026-08-13",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-16",
+  "incident_type": "attack",
+  "leak_status": "suspected",
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "対象規模は未公表"
+    }
+  ],
+  "data_types": [],
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。詳細な侵入手法は未公表。",
+    "certainty": "unknown"
+  },
+  "sources": [
+    {
+      "url": "https://www.city.naha.okinawa.jp/child/school/1002812/1012525.html",
+      "type": "official",
+      "title": "校務用PCのサポート詐欺で個人情報漏えいのおそれ",
+      "published_on": "2026-09-03",
+      "checked_on": "2026-10-16"
+    },
+    {
+      "url": "https://blog.b-son.net/2026/08/sec2026-555-Naha-city.html",
+      "type": "reference",
+      "title": "那覇市教育委員会8月13日初報の転載",
+      "published_on": "2026-08-13",
+      "checked_on": "2026-10-16"
+    }
+  ],
+  "notes": "初報日8月13日は初報の転載資料と照合。公式の最終報告は漏えいの痕跡なしとしており、流出確認済みとは扱わない。対象人数は公式資料に記載なし。",
+  "updates": [],
+  "verification": "official",
+  "related_vendor": null
+}

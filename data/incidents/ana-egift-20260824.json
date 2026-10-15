@@ -1,0 +1,57 @@
+{
+  "id": "ana-egift-20260824",
+  "organization": {
+    "name": "全日空商事",
+    "sector": "企業・団体"
+  },
+  "title": "選べるe-GIFTへの不正アクセス",
+  "summary": "8月11日から12日の不正アクセスで、契約企業担当者の情報が一時閲覧可能になった。ギフトの不正交換も確認した。",
+  "published_on": "2026-08-24",
+  "first_published_on": "2026-08-24",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-16",
+  "incident_type": "attack",
+  "leak_status": "suspected",
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "対象規模は未公表"
+    }
+  ],
+  "data_types": [
+    "担当者名",
+    "企業名",
+    "企業ID",
+    "ログインID",
+    "一部マスク済みメールアドレス"
+  ],
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。詳細な侵入手法は未公表。",
+    "certainty": "unknown"
+  },
+  "sources": [
+    {
+      "url": "https://www.anatc.com/pressroom/20260824_01/",
+      "type": "official",
+      "title": "選べるe-GIFTへの不正アクセス",
+      "published_on": "2026-08-24",
+      "checked_on": "2026-10-16"
+    },
+    {
+      "url": "https://www.anatc.com/pressroom/20260904_01/",
+      "type": "official",
+      "title": "選べるe-GIFT不正アクセス（第2報）",
+      "published_on": "2026-09-04",
+      "checked_on": "2026-10-16"
+    }
+  ],
+  "notes": "ギフト受取人の個人情報、パスワード、金融情報は対象外。9月4日の第2報でも情報の対象範囲は変わらない。",
+  "updates": [],
+  "verification": "official",
+  "related_vendor": null
+}

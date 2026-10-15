@@ -1,0 +1,44 @@
+{
+  "id": "osaka-bulk-aug-13-20260807",
+  "organization": {
+    "name": "大阪市市民局",
+    "sector": "自治体・行政"
+  },
+  "title": "住民票除票の写しを誤交付",
+  "summary": "大阪市の8月一括公表で、住民票除票の写しを誤交付事案を公表した。",
+  "published_on": "2026-08-07",
+  "first_published_on": "2026-08-07",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-16",
+  "incident_type": "accident",
+  "leak_status": "confirmed",
+  "impact": [
+    {
+      "count": 1,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表された対象規模"
+    }
+  ],
+  "data_types": [],
+  "cause": {
+    "category": "misdelivery",
+    "detail": "住民票除票の写しを誤交付。具体的な作業経緯は一括資料に記載なし。",
+    "certainty": "unknown"
+  },
+  "sources": [
+    {
+      "url": "https://www.city.osaka.lg.jp/hodoshiryo/somu/0000684876.html",
+      "type": "official",
+      "title": "住民票除票の写しを誤交付",
+      "published_on": "2026-08-07",
+      "checked_on": "2026-10-16"
+    }
+  ],
+  "notes": "一括公表表の項番13。庁内報告日は7月14日であり、公表日・発生日とは区別する。既に6月・7月に個別公表された5件は重複掲載しない。",
+  "updates": [],
+  "verification": "official",
+  "related_vendor": null
+}

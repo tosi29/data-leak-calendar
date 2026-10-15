@@ -1,0 +1,47 @@
+{
+  "id": "kyoto-kyotv-20260804",
+  "organization": {
+    "name": "京都府",
+    "sector": "企業・団体"
+  },
+  "title": "KYO育tv.のお気に入り利用者情報が公開状態に",
+  "summary": "システム不備で会員氏名等が誰でも閲覧可能になり、86人は検索結果に表示されることを確認。機能停止と検索結果の削除申請を行った。",
+  "published_on": "2026-08-04",
+  "first_published_on": "2026-08-04",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-16",
+  "incident_type": "accident",
+  "leak_status": "exposed",
+  "impact": [
+    {
+      "count": 1338,
+      "unit": "people",
+      "qualifier": "maximum",
+      "description": "公表された対象規模"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "登録年月日"
+  ],
+  "cause": {
+    "category": "configuration",
+    "detail": "お気に入り機能に関するシステム不備。",
+    "certainty": "confirmed"
+  },
+  "sources": [
+    {
+      "url": "https://www.pref.kyoto.jp/press/documents/26080407.pdf",
+      "type": "official",
+      "title": "KYO育tv.のお気に入り利用者情報が公開状態に",
+      "published_on": "2026-08-04",
+      "checked_on": "2026-10-16"
+    }
+  ],
+  "notes": "86人は最大1,338人の内数。",
+  "updates": [],
+  "verification": "official",
+  "related_vendor": null
+}

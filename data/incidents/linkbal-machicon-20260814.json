@@ -1,0 +1,51 @@
+{
+  "id": "linkbal-machicon-20260814",
+  "organization": {
+    "name": "リンクバル",
+    "sector": "企業・団体"
+  },
+  "title": "machicon JAPANで他の利用者情報を表示",
+  "summary": "システム改修後の不具合により、別の顧客の個人情報が表示される状態になった。原因箇所を改修前に戻して対応した。",
+  "published_on": "2026-08-14",
+  "first_published_on": "2026-08-14",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-16",
+  "incident_type": "accident",
+  "leak_status": "exposed",
+  "impact": [
+    {
+      "count": 50,
+      "unit": "people",
+      "qualifier": "approximate",
+      "description": "公表された対象規模"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "電話番号",
+    "メールアドレス",
+    "年齢",
+    "購入履歴",
+    "メッセージ履歴"
+  ],
+  "cause": {
+    "category": "configuration",
+    "detail": "システム改修に伴う表示不具合。",
+    "certainty": "unknown"
+  },
+  "sources": [
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2026/09/04/56131.html",
+      "type": "news",
+      "title": "machicon JAPANで他の利用者情報を表示",
+      "published_on": "2026-09-04",
+      "checked_on": "2026-10-16"
+    }
+  ],
+  "notes": "記事日9月4日ではなく、本文に明記された企業公表日8月14日に掲載。公式PDFは取得できず、報道に基づく。",
+  "updates": [],
+  "verification": "secondary",
+  "related_vendor": null
+}

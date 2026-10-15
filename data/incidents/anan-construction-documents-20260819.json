@@ -1,0 +1,50 @@
+{
+  "id": "anan-construction-documents-20260819",
+  "organization": {
+    "name": "徳島県阿南県土整備事務所",
+    "sector": "自治体・行政"
+  },
+  "title": "工事業者の個人情報を含む書類を紛失",
+  "summary": "工事事業者2社が提出した道路通行止め等の依頼書類を各1部紛失。誤廃棄の可能性が高いと公表した。",
+  "published_on": "2026-08-19",
+  "first_published_on": "2026-08-19",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-16",
+  "incident_type": "accident",
+  "leak_status": "lost",
+  "impact": [
+    {
+      "count": 2,
+      "unit": "documents",
+      "qualifier": "exact",
+      "description": "公表された対象規模"
+    }
+  ],
+  "data_types": [
+    "代表者名",
+    "担当者名",
+    "電話番号",
+    "事業所所在地",
+    "工事内容"
+  ],
+  "cause": {
+    "category": "loss",
+    "detail": "事務処理中の書類を誤廃棄した可能性。",
+    "certainty": "suspected"
+  },
+  "sources": [
+    {
+      "url": "https://news.livedoor.com/article/detail/32107133/",
+      "type": "news",
+      "title": "工事業者の個人情報を含む書類を紛失",
+      "published_on": "2026-08-19",
+      "checked_on": "2026-10-16"
+    }
+  ],
+  "notes": "",
+  "updates": [],
+  "verification": "secondary",
+  "related_vendor": null
+}

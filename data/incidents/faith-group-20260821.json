@@ -1,0 +1,53 @@
+{
+  "id": "faith-group-20260821",
+  "organization": {
+    "name": "フェイス",
+    "sector": "企業・団体"
+  },
+  "title": "ランサムウェア被害後の顧客情報調査結果",
+  "summary": "VPN経由の不正アクセスでサーバーが暗号化された。サーバー内の顧客情報について、流出の直接的証跡はないが可能性を否定できないと公表した。",
+  "published_on": "2026-08-21",
+  "first_published_on": null,
+  "publication_kind": "followup",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-16",
+  "incident_type": "attack",
+  "leak_status": "suspected",
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "対象規模は未公表"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "生年月日",
+    "性別",
+    "住所",
+    "電話番号",
+    "メールアドレス",
+    "ログインID",
+    "パスワード"
+  ],
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "VPN経由で社内ネットワークに侵入され、ランサムウェアによりサーバーが暗号化された。",
+    "certainty": "confirmed"
+  },
+  "sources": [
+    {
+      "url": "https://www.faith-gr.co.jp/news/2026/system-failure_20260821.html",
+      "type": "official",
+      "title": "ランサムウェア被害後の顧客情報調査結果",
+      "published_on": "2026-08-21",
+      "checked_on": "2026-10-16"
+    }
+  ],
+  "notes": "ECサイトそのものへの不正アクセスがあったという公表ではない。",
+  "updates": [],
+  "verification": "official",
+  "related_vendor": null
+}

@@ -1,0 +1,44 @@
+{
+  "id": "elitz-cloud-20260820",
+  "organization": {
+    "name": "エリッツ",
+    "sector": "企業・団体"
+  },
+  "title": "入居申込情報のクラウドアクセス制限に不備",
+  "summary": "入居申込者とのメール情報を保管するクラウドのアクセス制限不備が8月17日に判明し、即日改善した。外部流出の有無と件数を調査している。",
+  "published_on": "2026-08-20",
+  "first_published_on": "2026-08-20",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-16",
+  "incident_type": "accident",
+  "leak_status": "exposed",
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "対象規模は未公表"
+    }
+  ],
+  "data_types": [],
+  "cause": {
+    "category": "configuration",
+    "detail": "クラウド上の保管ファイルのアクセス制限不備。",
+    "certainty": "confirmed"
+  },
+  "sources": [
+    {
+      "url": "https://www.elitz.co.jp/information/information.pdf",
+      "type": "official",
+      "title": "入居申込情報のクラウドアクセス制限に不備",
+      "published_on": "2026-08-20",
+      "checked_on": "2026-10-16"
+    }
+  ],
+  "notes": "2021年4月3日以降のやり取りが対象。具体的な対象人数・情報項目は第1報で未公表。",
+  "updates": [],
+  "verification": "official",
+  "related_vendor": null
+}

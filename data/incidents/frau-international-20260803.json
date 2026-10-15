@@ -1,0 +1,55 @@
+{
+  "id": "frau-international-20260803",
+  "organization": {
+    "name": "フラウ・インターナショナル",
+    "sector": "企業・団体"
+  },
+  "title": "問い合わせメール情報漏えいの調査結果",
+  "summary": "外部のメール対応サービスが不正アクセスを受け、問い合わせメール等の個人情報が流出した可能性を公表した。",
+  "published_on": "2026-08-03",
+  "first_published_on": "2026-07-07",
+  "publication_kind": "followup",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-16",
+  "incident_type": "attack",
+  "leak_status": "suspected",
+  "impact": [
+    {
+      "count": 3560,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "公表された対象規模"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "メールアドレス",
+    "電話番号",
+    "住所",
+    "生年月日",
+    "会員番号",
+    "銀行口座情報",
+    "取引情報",
+    "パスワード",
+    "一部のカード情報"
+  ],
+  "cause": {
+    "category": "credentials",
+    "detail": "外部メールサービスの管理画面への不正ログイン後、正規のデータ出力機能を使ってメール本文が取得された。",
+    "certainty": "confirmed"
+  },
+  "sources": [
+    {
+      "url": "https://www.frau-inter.co.jp/other/20260803_6519/",
+      "type": "official",
+      "title": "問い合わせメール情報漏えいの調査結果",
+      "published_on": "2026-08-03",
+      "checked_on": "2026-10-16"
+    }
+  ],
+  "notes": "3,560件はメール等に含まれる個人情報の件数。カード情報1件を含む。人数に換算しない。",
+  "updates": [],
+  "verification": "official",
+  "related_vendor": null
+}

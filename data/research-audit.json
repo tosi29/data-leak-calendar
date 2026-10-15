@@ -3816,6 +3816,315 @@
         "新規事案の外部ITベンダーについて全役割の追加調査は未実施。",
         "公表日修正後も既存の識別子は維持し、9月・10月の調査結果は同じ記録に残した。"
       ]
+    },
+    {
+      "checked_on": "2026-10-16",
+      "coverage_start": "2026-08-01",
+      "coverage_end": "2026-08-31",
+      "scope": "8月掲載の拾い漏れを補完。自治体の一括公表、企業公式HTML・PDF、月間記事一覧、前回確認待ちを照合。10月全体の更新調査ではない。",
+      "added_incident_ids": [
+        "osaka-bulk-aug-1-20260807",
+        "osaka-bulk-aug-4-20260807",
+        "osaka-bulk-aug-5-20260807",
+        "osaka-bulk-aug-6-20260807",
+        "osaka-bulk-aug-7-20260807",
+        "osaka-bulk-aug-8-20260807",
+        "osaka-bulk-aug-9-20260807",
+        "osaka-bulk-aug-10-20260807",
+        "osaka-bulk-aug-12-20260807",
+        "osaka-bulk-aug-13-20260807",
+        "osaka-bulk-aug-15-20260807",
+        "aichi-park-form-20260803",
+        "gifu-kouritu-documents-20260803",
+        "kyoto-kyotv-20260804",
+        "ana-egift-20260824",
+        "frau-international-20260803",
+        "faith-group-20260821",
+        "toshibatec-shopcraft-20260803",
+        "wadomari-redaction-20260804",
+        "naha-school-supportscam-20260813",
+        "kanazawa-hospital-images-20260819",
+        "aporito-online-20260810",
+        "elitz-cloud-20260820",
+        "linkbal-machicon-20260814",
+        "kawasaki-pollution-documents-20260818",
+        "anan-construction-documents-20260819",
+        "naruto-child-documents-20260818",
+        "niigata-yamagata-health-20260831",
+        "activityjapan-accounts-20260831"
+      ],
+      "candidate_reviews": [
+        {
+          "candidate": {
+            "id": "aug-review-next-189428",
+            "organization": "イベント申込者の個人情報が閲覧可能に - 愛知県都市整備協会",
+            "reported_on": "2026-08-31",
+            "verification": "pending",
+            "reference_url": "https://www.security-next.com/189428",
+            "note": "8月の月間一覧から再取得。日付は報道日。公式公表日・初報と続報の関係、個人情報の影響範囲の照合が未完了のためカレンダーには未掲載。"
+          },
+          "status": "published",
+          "incident_id": "aichi-park-form-20260803",
+          "reason": "公表資料本文と日付・対象範囲を照合し掲載。",
+          "source_urls": [
+            "https://www.pref.aichi.jp/press-release/rouei.html"
+          ]
+        },
+        {
+          "candidate": {
+            "id": "aug-review-next-189328",
+            "organization": "学習サイトで会員の個人情報が閲覧可能に - 京都府",
+            "reported_on": "2026-08-31",
+            "verification": "pending",
+            "reference_url": "https://www.security-next.com/189328",
+            "note": "8月の月間一覧から再取得。日付は報道日。公式公表日・初報と続報の関係、個人情報の影響範囲の照合が未完了のためカレンダーには未掲載。"
+          },
+          "status": "published",
+          "incident_id": "kyoto-kyotv-20260804",
+          "reason": "公表資料本文と日付・対象範囲を照合し掲載。",
+          "source_urls": [
+            "https://www.pref.kyoto.jp/press/documents/26080407.pdf"
+          ]
+        },
+        {
+          "candidate": {
+            "id": "aug-review-next-188972",
+            "organization": "フォーム設定ミス、イベント申込者情報が閲覧可能に - 東海村社会福祉協議会",
+            "reported_on": "2026-08-27",
+            "verification": "pending",
+            "reference_url": "https://www.security-next.com/188972",
+            "note": "8月の月間一覧から再取得。日付は報道日。公式公表日・初報と続報の関係、個人情報の影響範囲の照合が未完了のためカレンダーには未掲載。"
+          },
+          "status": "outside_august",
+          "published_on": "2026-07-28",
+          "source_urls": [
+            "https://www.t-shakyo.or.jp/pdf/info_20260728.pdf"
+          ],
+          "reason": "候補の報道は8月だが、対応する公表資料は期間外。8月の件数に加算しない。"
+        },
+        {
+          "candidate": {
+            "id": "aug-review-next-189336",
+            "organization": "公務災害の認定結果通知書が所在不明 - 公立学校共済組合",
+            "reported_on": "2026-08-27",
+            "verification": "pending",
+            "reference_url": "https://www.security-next.com/189336",
+            "note": "8月の月間一覧から再取得。日付は報道日。公式公表日・初報と続報の関係、個人情報の影響範囲の照合が未完了のためカレンダーには未掲載。"
+          },
+          "status": "published",
+          "incident_id": "gifu-kouritu-documents-20260803",
+          "reason": "公表資料本文と日付・対象範囲を照合し掲載。",
+          "source_urls": [
+            "https://www.kouritu.or.jp/gifu/content/files/20260803owabi.pdf"
+          ]
+        },
+        {
+          "candidate": {
+            "id": "aug-review-next-189424",
+            "organization": "eギフトサービスのシステムが侵害、不正交換も - 全日空商事",
+            "reported_on": "2026-08-26",
+            "verification": "pending",
+            "reference_url": "https://www.security-next.com/189424",
+            "note": "8月の月間一覧から再取得。日付は報道日。公式公表日・初報と続報の関係、個人情報の影響範囲の照合が未完了のためカレンダーには未掲載。"
+          },
+          "status": "published",
+          "incident_id": "ana-egift-20260824",
+          "reason": "公表資料本文と日付・対象範囲を照合し掲載。",
+          "source_urls": [
+            "https://www.anatc.com/pressroom/20260824_01/",
+            "https://www.anatc.com/pressroom/20260904_01/"
+          ]
+        },
+        {
+          "candidate": {
+            "id": "aug-review-next-188709",
+            "organization": "設定変更で他利用者情報が閲覧可能に - レジャー予約サイト",
+            "reported_on": "2026-08-24",
+            "verification": "pending",
+            "reference_url": "https://www.security-next.com/188709",
+            "note": "8月の月間一覧から再取得。日付は報道日。公式公表日・初報と続報の関係、個人情報の影響範囲の照合が未完了のためカレンダーには未掲載。"
+          },
+          "status": "published",
+          "incident_id": "activityjapan-accounts-20260831",
+          "reason": "公表資料本文と日付・対象範囲を照合し掲載。",
+          "source_urls": [
+            "https://activityjapan.com/official/20260831/"
+          ]
+        },
+        {
+          "candidate": {
+            "id": "aug-review-next-189121",
+            "organization": "医療機器会社が手術室でのX線画像を保有、経緯を調査 - 金沢大病院",
+            "reported_on": "2026-08-24",
+            "verification": "pending",
+            "reference_url": "https://www.security-next.com/189121",
+            "note": "8月の月間一覧から再取得。日付は報道日。公式公表日・初報と続報の関係、個人情報の影響範囲の照合が未完了のためカレンダーには未掲載。"
+          },
+          "status": "published",
+          "incident_id": "kanazawa-hospital-images-20260819",
+          "reason": "公表資料本文と日付・対象範囲を照合し掲載。",
+          "source_urls": [
+            "https://web.hosp.kanazawa-u.ac.jp/whatsnew/20260819.html"
+          ]
+        },
+        {
+          "candidate": {
+            "id": "aug-review-next-189196",
+            "organization": "アクセス制限に不備、個人情報流出の可能性 - エリッツHD子会社",
+            "reported_on": "2026-08-21",
+            "verification": "pending",
+            "reference_url": "https://www.security-next.com/189196",
+            "note": "8月の月間一覧から再取得。日付は報道日。公式公表日・初報と続報の関係、個人情報の影響範囲の照合が未完了のためカレンダーには未掲載。"
+          },
+          "status": "published",
+          "incident_id": "elitz-cloud-20260820",
+          "reason": "公表資料本文と日付・対象範囲を照合し掲載。",
+          "source_urls": [
+            "https://www.elitz.co.jp/information/information.pdf"
+          ]
+        },
+        {
+          "candidate": {
+            "id": "aug-review-next-189129",
+            "organization": "広報紙配布の宛名シール、別人宛名に重ね貼り - 大阪市",
+            "reported_on": "2026-08-21",
+            "verification": "pending",
+            "reference_url": "https://www.security-next.com/189129",
+            "note": "8月の月間一覧から再取得。日付は報道日。公式公表日・初報と続報の関係、個人情報の影響範囲の照合が未完了のためカレンダーには未掲載。"
+          },
+          "status": "outside_august",
+          "published_on": "2026-07-27",
+          "source_urls": [
+            "https://www.city.osaka.lg.jp/hodoshiryo/nishi/0000684366.html"
+          ],
+          "reason": "候補の報道は8月だが、対応する公表資料は期間外。8月の件数に加算しない。"
+        },
+        {
+          "candidate": {
+            "id": "aug-review-next-188885",
+            "organization": "抽選販売の応募者情報が外部から閲覧可能に - トレカショップ",
+            "reported_on": "2026-08-19",
+            "verification": "pending",
+            "reference_url": "https://www.security-next.com/188885",
+            "note": "8月の月間一覧から再取得。日付は報道日。公式公表日・初報と続報の関係、個人情報の影響範囲の照合が未完了のためカレンダーには未掲載。"
+          },
+          "status": "outside_august",
+          "published_on": "2026-07-30",
+          "source_urls": [
+            "https://corp.hareruyamtg.com/notice-2026-07-30"
+          ],
+          "reason": "候補の報道は8月だが、対応する公表資料は期間外。8月の件数に加算しない。"
+        },
+        {
+          "candidate": {
+            "id": "aug-review-next-188878",
+            "organization": "教員がサポート詐欺被害、校内研修で被害に気づく - 那覇市",
+            "reported_on": "2026-08-18",
+            "verification": "pending",
+            "reference_url": "https://www.security-next.com/188878",
+            "note": "8月の月間一覧から再取得。日付は報道日。公式公表日・初報と続報の関係、個人情報の影響範囲の照合が未完了のためカレンダーには未掲載。"
+          },
+          "status": "published",
+          "incident_id": "naha-school-supportscam-20260813",
+          "reason": "公表資料本文と日付・対象範囲を照合し掲載。",
+          "source_urls": [
+            "https://www.city.naha.okinawa.jp/child/school/1002812/1012525.html",
+            "https://blog.b-son.net/2026/08/sec2026-555-Naha-city.html"
+          ]
+        },
+        {
+          "candidate": {
+            "id": "aug-review-next-188142",
+            "organization": "VPN機器経由でランサム被害、メアド変更など対策実施 - 丸高興業",
+            "reported_on": "2026-08-13",
+            "verification": "pending",
+            "reference_url": "https://www.security-next.com/188142",
+            "note": "8月の月間一覧から再取得。日付は報道日。公式公表日・初報と続報の関係、個人情報の影響範囲の照合が未完了のためカレンダーには未掲載。"
+          },
+          "status": "outside_august",
+          "published_on": "2026-07-29",
+          "source_urls": [
+            "https://marutakakogyo.com/information/notice-ransomware-personal-information-20260729/"
+          ],
+          "reason": "候補の報道は8月だが、対応する公表資料は期間外。8月の件数に加算しない。"
+        },
+        {
+          "candidate": {
+            "id": "aug-review-next-188371",
+            "organization": "患者情報含むUSBメモリを紛失、座席下から発見 - 名古屋医療センター",
+            "reported_on": "2026-08-07",
+            "verification": "pending",
+            "reference_url": "https://www.security-next.com/188371",
+            "note": "8月の月間一覧から再取得。日付は報道日。公式公表日・初報と続報の関係、個人情報の影響範囲の照合が未完了のためカレンダーには未掲載。"
+          },
+          "status": "outside_august",
+          "published_on": "2026-07-17",
+          "source_urls": [
+            "https://nagoya.hosp.go.jp/news/2026/20260717_01/"
+          ],
+          "reason": "候補の報道は8月だが、対応する公表資料は期間外。8月の件数に加算しない。"
+        },
+        {
+          "candidate": {
+            "id": "aug-review-next-187667",
+            "organization": "本人確認書類画像の保存先クラウドに設定不備 - 宿泊施設向けSaaS",
+            "reported_on": "2026-08-03",
+            "verification": "pending",
+            "reference_url": "https://www.security-next.com/187667",
+            "note": "8月の月間一覧から再取得。日付は報道日。公式公表日・初報と続報の関係、個人情報の影響範囲の照合が未完了のためカレンダーには未掲載。"
+          },
+          "status": "outside_august",
+          "published_on": "2026-06-30",
+          "source_urls": [
+            "https://reqrea.co.jp/news/zb7qsrkz-vjv/"
+          ],
+          "reason": "候補の報道は8月だが、対応する公表資料は期間外。8月の件数に加算しない。"
+        },
+        {
+          "candidate": {
+            "id": "aug-review-next-187748",
+            "organization": "システム侵害で原因や影響など調査 - CRM開発会社",
+            "reported_on": "2026-08-03",
+            "verification": "pending",
+            "reference_url": "https://www.security-next.com/187748",
+            "note": "8月の月間一覧から再取得。日付は報道日。公式公表日・初報と続報の関係、個人情報の影響範囲の照合が未完了のためカレンダーには未掲載。"
+          },
+          "status": "outside_august",
+          "published_on": "2026-07-31",
+          "source_urls": [
+            "https://www.solid-adv.co.jp/20260731-01/"
+          ],
+          "reason": "候補の報道は8月だが、対応する公表資料は期間外。8月の件数に加算しない。"
+        }
+      ],
+      "index_sources": [
+        {
+          "url": "https://s.netsecurity.ne.jp/category/incident/incident/2026/08/?page=1",
+          "status": "retrieved"
+        },
+        {
+          "url": "https://s.netsecurity.ne.jp/category/incident/incident/2026/08/?page=2",
+          "status": "retrieved"
+        }
+      ],
+      "method": [
+        "大阪市8月一括公表16件のうち、6月・7月に個別公表済みの5件を除く11件を独立事案として掲載。庁内報告日を公表日に転用しない。",
+        "報道の月間一覧では7月公表の遅延報道が多数あるため、本文・元資料の日付を照合。",
+        "取得不能な公式PDFについては公表日が明記された報道を使用し、verificationをsecondaryとした。"
+      ],
+      "summary": {
+        "added": 29,
+        "august_published": 101,
+        "total_published": 309,
+        "august_pending": 21,
+        "total_pending": 23
+      },
+      "limitations": [
+        "未確定候補は引き続き集計対象外。8月の全事案を網羅した総数ではない。",
+        "同じ攻撃基盤の運営者と利用組織の公表は重複する場合がある。影響人数を合算しない。",
+        "流出確認済みだけでなく、疑い・公開状態・紛失・不適切共有を含む。",
+        "新規追加の全事案についてベンダー全役割調査・全続報の網羅は実施していない。"
+      ]
     }
   ]
 }

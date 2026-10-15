@@ -1,0 +1,44 @@
+{
+  "id": "activityjapan-accounts-20260831",
+  "organization": {
+    "name": "アクティビティジャパン",
+    "sector": "企業・団体"
+  },
+  "title": "他の利用者情報の閲覧・操作が可能になった事案の調査完了",
+  "summary": "表示高速化の設定変更により、7月23日から24日に他の利用者情報の閲覧・操作が可能となった。本人以外の操作や情報の書き換わりを確認し、復元・訂正を完了した。",
+  "published_on": "2026-08-31",
+  "first_published_on": "2026-07-28",
+  "publication_kind": "followup",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-16",
+  "incident_type": "accident",
+  "leak_status": "exposed",
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "対象規模は未公表"
+    }
+  ],
+  "data_types": [],
+  "cause": {
+    "category": "configuration",
+    "detail": "表示速度改善を目的とする設定変更。",
+    "certainty": "confirmed"
+  },
+  "sources": [
+    {
+      "url": "https://activityjapan.com/official/20260831/",
+      "type": "official",
+      "title": "他の利用者情報の閲覧・操作が可能になった事案の調査完了",
+      "published_on": "2026-08-31",
+      "checked_on": "2026-10-16"
+    }
+  ],
+  "notes": "金融情報は対象外。8月18日にサイトを復旧。閲覧可能だった情報の外部開示や悪用は確認されていない。",
+  "updates": [],
+  "verification": "official",
+  "related_vendor": null
+}

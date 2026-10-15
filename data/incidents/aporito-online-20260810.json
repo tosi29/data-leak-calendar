@@ -1,0 +1,52 @@
+{
+  "id": "aporito-online-20260810",
+  "organization": {
+    "name": "RIZAP（APORITOオンラインストア）",
+    "sector": "企業・団体"
+  },
+  "title": "通販サイトへの不正スクリプト設置",
+  "summary": "8月5日に外部送信プログラムを発見。5月1日から8月5日の利用者について個人情報やカード情報の流出の可能性を公表した。",
+  "published_on": "2026-08-10",
+  "first_published_on": "2026-08-10",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-16",
+  "incident_type": "attack",
+  "leak_status": "suspected",
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "対象規模は未公表"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "電話番号",
+    "メールアドレス",
+    "カード番号",
+    "有効期限",
+    "セキュリティコード"
+  ],
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。詳細な侵入手法は未公表。",
+    "certainty": "unknown"
+  },
+  "sources": [
+    {
+      "url": "https://aporito-online.com/password",
+      "type": "official",
+      "title": "通販サイトへの不正スクリプト設置",
+      "published_on": "2026-08-10",
+      "checked_on": "2026-10-16"
+    }
+  ],
+  "notes": "REXTのランサムウェア被害とは別の事案。対象人数は未公表。",
+  "updates": [],
+  "verification": "official",
+  "related_vendor": null
+}

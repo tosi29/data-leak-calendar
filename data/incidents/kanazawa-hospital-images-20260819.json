@@ -1,0 +1,46 @@
+{
+  "id": "kanazawa-hospital-images-20260819",
+  "organization": {
+    "name": "金沢大学附属病院",
+    "sector": "企業・団体"
+  },
+  "title": "患者のエックス線画像の院外持ち出しを調査",
+  "summary": "医療機器会社の従業員が手術室で撮影した画像15枚について、撮影・持ち出し・社内共有の書面同意を確認できず、経緯を調査している。",
+  "published_on": "2026-08-19",
+  "first_published_on": "2026-08-19",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-16",
+  "incident_type": "improper_handling",
+  "leak_status": "improper_sharing",
+  "impact": [
+    {
+      "count": 15,
+      "unit": "images",
+      "qualifier": "exact",
+      "description": "公表された対象規模"
+    }
+  ],
+  "data_types": [
+    "エックス線画像"
+  ],
+  "cause": {
+    "category": "improper_sharing",
+    "detail": "患者の書面同意を確認できない画像の撮影・院外持ち出し・共有。",
+    "certainty": "unknown"
+  },
+  "sources": [
+    {
+      "url": "https://web.hosp.kanazawa-u.ac.jp/whatsnew/20260819.html",
+      "type": "official",
+      "title": "患者のエックス線画像の院外持ち出しを調査",
+      "published_on": "2026-08-19",
+      "checked_on": "2026-10-16"
+    }
+  ],
+  "notes": "氏名・ID・生年月日など直接識別する情報は含まれていないと病院が確認。15枚を15人に読み替えない。",
+  "updates": [],
+  "verification": "official",
+  "related_vendor": null
+}

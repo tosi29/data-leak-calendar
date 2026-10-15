@@ -1,0 +1,56 @@
+{
+  "id": "niigata-yamagata-health-20260831",
+  "organization": {
+    "name": "新潟市立山潟中学校",
+    "sector": "自治体・行政"
+  },
+  "title": "全校生徒387人分の健康診断票等を紛失",
+  "summary": "校舎改修に伴う資料移動後に健康診断票と歯の記録が所在不明となった。教育委員会は警察に相談し、外部流出は確認されていないとした。",
+  "published_on": "2026-08-31",
+  "first_published_on": "2026-08-31",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-16",
+  "incident_type": "accident",
+  "leak_status": "lost",
+  "impact": [
+    {
+      "count": 387,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表された対象規模"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "生年月日",
+    "健康診断記録",
+    "歯科健診記録"
+  ],
+  "cause": {
+    "category": "loss",
+    "detail": "改修に伴う保管場所移動後に所在不明。原因は調査中。",
+    "certainty": "unknown"
+  },
+  "sources": [
+    {
+      "url": "https://www.niigata-nippo.co.jp/articles/-/898121",
+      "type": "news",
+      "title": "全校生徒387人分の健康診断票等を紛失",
+      "published_on": "2026-08-31",
+      "checked_on": "2026-10-16"
+    },
+    {
+      "url": "https://newsdig.tbs.co.jp/articles/-/2910096?display=1",
+      "type": "news",
+      "title": "山潟中学校の健康診断票等紛失",
+      "published_on": "2026-08-31",
+      "checked_on": "2026-10-16"
+    }
+  ],
+  "notes": "",
+  "updates": [],
+  "verification": "secondary",
+  "related_vendor": null
+}
