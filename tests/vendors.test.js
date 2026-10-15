@@ -12,7 +12,7 @@ test('unclassified related companies are never presented as developers', () => {
   const html = vendorHTML(item);
   assert.equal((html.match(/<span class="source-meta">情報なし<\/span>/g) || []).length, 4);
   assert.match(html, /その他の関連先・サービス名：既存委託先/);
-  assert.match(html, /未確認・未公表/);
+  assert.match(html, /役割未特定/);
   delete item.vendors;
   assert.equal(vendorHTML(item), html);
   assert.doesNotMatch(vendorHTML({...item, related_vendor:null}), /その他の関連先/);
