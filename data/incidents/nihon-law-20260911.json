@@ -4,14 +4,14 @@
     "name": "日本大学法学部",
     "sector": "大学"
   },
-  "title": "メールアカウント乗っ取り（続報）",
+  "title": "メールアカウント乗っ取り",
   "summary": "職員のアカウントが不正利用され、保存されていた個人情報が第三者に閲覧された可能性。",
-  "published_on": "2026-09-11",
+  "published_on": "2026-08-25",
   "occurred_on": "2026-08-03",
   "detected_on": "2026-08-07",
   "updated_on": "2026-10-15",
   "first_published_on": "2026-08-25",
-  "publication_kind": "followup",
+  "publication_kind": "initial",
   "verification": "official",
   "leak_status": "suspected",
   "impact": [
@@ -47,7 +47,7 @@
       "checked_on": "2026-10-15"
     }
   ],
-  "notes": "3,177件は不審メールの送信数であり、漏えい人数ではない。",
+  "notes": "3,177件は不審メールの送信数であり、漏えい人数ではない。 カレンダー掲載日を確認済みの8月の初報日に修正。続報の調査結果は同じ事案に統合。",
   "updates": [],
   "incident_type": "attack",
   "vendor_research": {

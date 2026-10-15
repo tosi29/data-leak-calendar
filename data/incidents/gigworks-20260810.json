@@ -1,0 +1,46 @@
+{
+  "id": "gigworks-20260810",
+  "organization": {
+    "name": "ギグワークス",
+    "sector": "企業・団体"
+  },
+  "title": "扶養控除申請データベースへの不正アクセス（第3報）",
+  "published_on": "2026-08-10",
+  "first_published_on": "2025-12-23",
+  "publication_kind": "followup",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-15",
+  "incident_type": "attack",
+  "leak_status": "suspected",
+  "summary": "持ち出しの痕跡は確認されないが、攻撃者が扶養控除申請の個人情報を目視で閲覧した可能性を完全には否定できないと公表した。",
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "対象規模は未公表・調査中"
+    }
+  ],
+  "data_types": [
+    "扶養控除申請情報"
+  ],
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。侵入手法の詳細は未公表。",
+    "certainty": "unknown"
+  },
+  "sources": [
+    {
+      "url": "https://www.gig.co.jp/ir/news/8383",
+      "type": "official",
+      "title": "扶養控除申請データベースへの不正アクセス（第3報）",
+      "published_on": "2026-08-10",
+      "checked_on": "2026-10-15"
+    }
+  ],
+  "notes": "",
+  "updates": [],
+  "verification": "official",
+  "related_vendor": null
+}

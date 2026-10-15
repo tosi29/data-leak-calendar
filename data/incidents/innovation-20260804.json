@@ -1,0 +1,62 @@
+{
+  "id": "innovation-20260804",
+  "organization": {
+    "name": "イノベーション",
+    "sector": "企業・団体"
+  },
+  "title": "GitHubリポジトリから顧客情報流出",
+  "published_on": "2026-08-04",
+  "first_published_on": "2026-08-04",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-15",
+  "incident_type": "attack",
+  "leak_status": "confirmed",
+  "summary": "設定ファイルに記載された認証情報が悪用され、リポジトリ内に保存していた個人情報が流出。8月10日の訂正で対象を62,689人とした。",
+  "impact": [
+    {
+      "count": 62689,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表資料に記載された対象規模"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "メールアドレス",
+    "電話番号"
+  ],
+  "cause": {
+    "category": "credentials",
+    "detail": "設定ファイル内のアクセストークンが不正取得され、個人情報を含むリポジトリにアクセスされた。",
+    "certainty": "confirmed"
+  },
+  "sources": [
+    {
+      "url": "https://www.innovation.co.jp/2026/08/%e3%80%8egithub%e3%80%8f%e3%81%b8%e3%81%ae%e4%b8%8d%e6%ad%a3%e3%82%a2%e3%82%af%e3%82%bb%e3%82%b9%e7%99%ba%e7%94%9f%e3%81%ab%e9%96%a2%e3%81%99%e3%82%8b%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b%e3%81%a8/",
+      "type": "official",
+      "title": "GitHubリポジトリから顧客情報流出",
+      "published_on": "2026-08-04",
+      "checked_on": "2026-10-15"
+    },
+    {
+      "url": "https://www.innovation.co.jp/2026/08/github%e3%81%b8%e3%81%ae%e4%b8%8d%e6%ad%a3%e3%82%a2%e3%82%af%e3%82%bb%e3%82%b9%e3%81%ab%e9%96%a2%e3%81%99%e3%82%8b%e8%a9%b3%e7%b4%b0%e8%aa%bf%e6%9f%bb%e3%81%ae%e5%ae%8c%e4%ba%86%e3%81%8a%e3%82%88/",
+      "type": "official",
+      "title": "詳細調査完了の確定報",
+      "published_on": "2026-08-07",
+      "checked_on": "2026-10-15"
+    },
+    {
+      "url": "https://www.innovation.co.jp/2026/08/github%E3%81%B8%E3%81%AE%E4%B8%8D%E6%AD%A3%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B%EF%BC%88%E7%A2%BA%E5%AE%9A%E5%A0%B1%EF%BC%89/",
+      "type": "official",
+      "title": "確定報の対象件数訂正",
+      "published_on": "2026-08-10",
+      "checked_on": "2026-10-15"
+    }
+  ],
+  "notes": "",
+  "updates": [],
+  "verification": "official",
+  "related_vendor": null
+}

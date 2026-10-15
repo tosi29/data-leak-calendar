@@ -1,0 +1,47 @@
+{
+  "id": "jst-mail-20260807",
+  "organization": {
+    "name": "科学技術振興機構（JST）",
+    "sector": "企業・団体"
+  },
+  "title": "役職員メールボックスへの不正アクセス",
+  "published_on": "2026-08-07",
+  "first_published_on": "2026-08-07",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-15",
+  "incident_type": "attack",
+  "leak_status": "suspected",
+  "summary": "役職員12人のメールボックス内の情報が流出した可能性。8月28日の精査結果ではメール約18,000件が対象。",
+  "impact": [
+    {
+      "count": 18000,
+      "unit": "records",
+      "qualifier": "approximate",
+      "description": "公表資料に記載された対象規模"
+    }
+  ],
+  "data_types": [
+    "メール情報",
+    "メールアドレス"
+  ],
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。侵入手法の詳細は未公表。",
+    "certainty": "unknown"
+  },
+  "sources": [
+    {
+      "url": "https://www.jst.go.jp/osirase/2026/20260807-2.html",
+      "type": "official",
+      "title": "役職員メールボックスへの不正アクセス",
+      "published_on": "2026-08-07",
+      "checked_on": "2026-10-15"
+    }
+  ],
+  "notes": "メール件数を人数として扱わない。8月28日更新の社外メールアドレス約1,400件、機構内約1,000件はメール件数と合算しない。",
+  "updates": [],
+  "verification": "official",
+  "related_vendor": null
+}

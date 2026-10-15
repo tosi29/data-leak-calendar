@@ -6,12 +6,12 @@
   },
   "title": "本店サイトへの不正アクセス（対象件数訂正）",
   "summary": "追加調査で漏えい確認・可能性の対象を見直し、重複を除いて訂正した。",
-  "published_on": "2026-09-02",
+  "published_on": "2026-08-13",
   "occurred_on": null,
   "detected_on": null,
   "updated_on": "2026-10-15",
   "first_published_on": "2026-08-13",
-  "publication_kind": "followup",
+  "publication_kind": "initial",
   "verification": "official",
   "leak_status": "confirmed",
   "impact": [
@@ -45,9 +45,16 @@
       "title": "不正アクセスによるシステム障害発生に関するお知らせとお詫び（第3報）｜チャーム - ペット用品の専門店 ネット通販",
       "published_on": "2026-09-02",
       "checked_on": "2026-10-15"
+    },
+    {
+      "url": "https://charm.co.jp/honten/info/notice/20260813.html",
+      "type": "official",
+      "title": "個人情報漏えいに関する初報",
+      "published_on": "2026-08-13",
+      "checked_on": "2026-10-15"
     }
   ],
-  "notes": "9月2日の訂正版を掲載。別途、不正ログインを確認した239人は件数に加算しない。退会者の対象範囲は調査中。",
+  "notes": "9月2日の訂正版を掲載。別途、不正ログインを確認した239人は件数に加算しない。退会者の対象範囲は調査中。 カレンダー掲載日を確認済みの8月の初報日に修正。続報の調査結果は同じ事案に統合。",
   "updates": [],
   "incident_type": "attack",
   "vendor_research": {
@@ -57,6 +64,10 @@
     "source_checks": [
       {
         "source_index": 0,
+        "status": "reviewed"
+      },
+      {
+        "source_index": 1,
         "status": "reviewed"
       }
     ]

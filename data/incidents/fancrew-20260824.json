@@ -1,0 +1,63 @@
+{
+  "id": "fancrew-20260824",
+  "organization": {
+    "name": "ファンくる",
+    "sector": "企業・団体"
+  },
+  "title": "モニター会員への不正ログイン",
+  "published_on": "2026-08-24",
+  "first_published_on": "2026-08-24",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-15",
+  "incident_type": "attack",
+  "leak_status": "suspected",
+  "summary": "リスト型攻撃による不正ログインで59,389人の会員情報が閲覧された可能性。9月18日の最終報では2アカウントで不正なポイント交換を確認した。",
+  "impact": [
+    {
+      "count": 59389,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "不正ログインの対象となったモニター会員"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "生年月日",
+    "郵便番号",
+    "電話番号",
+    "メールアドレス"
+  ],
+  "cause": {
+    "category": "credentials",
+    "detail": "リスト型攻撃とみられる不正ログイン。",
+    "certainty": "suspected"
+  },
+  "sources": [
+    {
+      "url": "https://www.fancrew.co.jp/news/news-press-release/2608_notice-of-system-temporary-suspension-and-potential-data-breach-due-to-unauthorized-access.html",
+      "type": "official",
+      "title": "モニター会員への不正ログイン",
+      "published_on": "2026-08-24",
+      "checked_on": "2026-10-15"
+    },
+    {
+      "url": "https://www.fancrew.co.jp/news/news-press-release/2609_final-report-unauthorized-account-access.html",
+      "type": "official",
+      "title": "不正ログインに関する最終報",
+      "published_on": "2026-09-18",
+      "checked_on": "2026-10-15"
+    }
+  ],
+  "notes": "初報は漏えい判明と表現。最終報の「閲覧された可能性」に合わせて状態を記録。不正ログイン試行506万回を対象人数としない。",
+  "updates": [
+    {
+      "date": "2026-09-18",
+      "summary": "最終報で対象59,389人と情報項目を確認。",
+      "source_index": 1
+    }
+  ],
+  "verification": "official",
+  "related_vendor": null
+}

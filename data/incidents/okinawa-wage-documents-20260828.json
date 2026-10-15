@@ -1,0 +1,51 @@
+{
+  "id": "okinawa-wage-documents-20260828",
+  "organization": {
+    "name": "厚生労働省・沖縄労働局",
+    "sector": "自治体・行政"
+  },
+  "title": "最低賃金調査票を配送中に紛失",
+  "published_on": "2026-08-28",
+  "first_published_on": "2026-08-28",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-15",
+  "incident_type": "accident",
+  "leak_status": "lost",
+  "summary": "委託先から返送した86事業所分・101枚の調査票を配送過程で紛失。延べ339人分の労働者情報等が含まれていた。",
+  "impact": [
+    {
+      "count": 339,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "公表資料に記載された対象規模"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "年齢",
+    "性別",
+    "給与額",
+    "就業形態",
+    "勤務条件"
+  ],
+  "cause": {
+    "category": "loss",
+    "detail": "返送荷物を配送過程で紛失。地点と具体的原因は特定できず。",
+    "certainty": "unknown"
+  },
+  "sources": [
+    {
+      "url": "https://www.mhlw.go.jp/content/11302000/001742841.pdf",
+      "type": "official",
+      "title": "最低賃金調査票を配送中に紛失",
+      "published_on": "2026-08-28",
+      "checked_on": "2026-10-15"
+    }
+  ],
+  "notes": "委託先サーベイリサーチセンターの報告書を厚生労働省が公開。延べ人数を実人数に読み替えない。",
+  "updates": [],
+  "verification": "official",
+  "related_vendor": null
+}

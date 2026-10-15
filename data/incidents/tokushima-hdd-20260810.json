@@ -1,0 +1,50 @@
+{
+  "id": "tokushima-hdd-20260810",
+  "organization": {
+    "name": "徳島県",
+    "sector": "自治体・行政"
+  },
+  "title": "住基ネットのHDDを未消去で誤廃棄した可能性",
+  "published_on": "2026-08-10",
+  "first_published_on": "2026-08-10",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-15",
+  "incident_type": "accident",
+  "leak_status": "lost",
+  "summary": "リース返却したHDD2台が所在不明となり、再委託先でデータ未消去のまま破砕された可能性が高いと公表した。",
+  "impact": [
+    {
+      "count": 460000,
+      "unit": "records",
+      "qualifier": "approximate",
+      "description": "公表資料に記載された対象規模"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "生年月日",
+    "性別",
+    "個人番号"
+  ],
+  "cause": {
+    "category": "loss",
+    "detail": "再委託先の仕分け作業で廃棄ルートに混入したと推定。",
+    "certainty": "suspected"
+  },
+  "sources": [
+    {
+      "url": "https://www.pref.tokushima.lg.jp/kenseijoho/hodoteikyoshiryo/7315616/",
+      "type": "official",
+      "title": "住基ネットのHDDを未消去で誤廃棄した可能性",
+      "published_on": "2026-08-10",
+      "checked_on": "2026-10-15"
+    }
+  ],
+  "notes": "延べ件数。うち個人番号を含む約18万件は内数。流出確認済みではない。",
+  "updates": [],
+  "verification": "official",
+  "related_vendor": null
+}

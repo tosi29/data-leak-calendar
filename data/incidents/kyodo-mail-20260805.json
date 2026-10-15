@@ -1,0 +1,49 @@
+{
+  "id": "kyodo-mail-20260805",
+  "organization": {
+    "name": "共同通信社",
+    "sector": "企業・団体"
+  },
+  "title": "メール情報漏えいの可能性",
+  "published_on": "2026-08-05",
+  "first_published_on": "2026-08-05",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-15",
+  "incident_type": "attack",
+  "leak_status": "suspected",
+  "summary": "第三者からの情報提供を受け、職員や加盟社等の関係者情報の流出が疑われることを公表した。",
+  "impact": [
+    {
+      "count": 6000,
+      "unit": "records",
+      "qualifier": "approximate",
+      "description": "公表資料に記載された対象規模"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "メールアドレス",
+    "所属",
+    "役職"
+  ],
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。侵入手法の詳細は未公表。",
+    "certainty": "unknown"
+  },
+  "sources": [
+    {
+      "url": "https://www.kyodonews.jp/information/2026/post-150.html",
+      "type": "official",
+      "title": "メール情報漏えいの可能性",
+      "published_on": "2026-08-05",
+      "checked_on": "2026-10-15"
+    }
+  ],
+  "notes": "職員関係約3,000件と加盟社等約3,000件。延べ件数であり人数と同一ではない。",
+  "updates": [],
+  "verification": "official",
+  "related_vendor": null
+}

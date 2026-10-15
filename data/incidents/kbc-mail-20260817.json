@@ -1,0 +1,47 @@
+{
+  "id": "kbc-mail-20260817",
+  "organization": {
+    "name": "KBC学園",
+    "sector": "企業・団体"
+  },
+  "title": "ダイレクトメールの宛名と住所の取り違え",
+  "published_on": "2026-08-17",
+  "first_published_on": "2026-08-17",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-15",
+  "incident_type": "accident",
+  "leak_status": "confirmed",
+  "summary": "発送データの行削除を誤り、宛名と住所が1行ずれた状態で郵送した。",
+  "impact": [
+    {
+      "count": 2471,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表資料に記載された対象規模"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所"
+  ],
+  "cause": {
+    "category": "misdelivery",
+    "detail": "発送用データ作成時の行削除ミス。",
+    "certainty": "confirmed"
+  },
+  "sources": [
+    {
+      "url": "https://kbcgroup.ac.jp/21134",
+      "type": "official",
+      "title": "ダイレクトメールの宛名と住所の取り違え",
+      "published_on": "2026-08-17",
+      "checked_on": "2026-10-15"
+    }
+  ],
+  "notes": "",
+  "updates": [],
+  "verification": "official",
+  "related_vendor": null
+}

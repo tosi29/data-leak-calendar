@@ -5,9 +5,9 @@
     "sector": "企業・団体"
   },
   "title": "不正アクセスによる個人情報漏えいの調査完了（第三報）",
-  "published_on": "2026-10-13",
+  "published_on": "2026-08-28",
   "first_published_on": "2026-08-28",
-  "publication_kind": "followup",
+  "publication_kind": "initial",
   "occurred_on": null,
   "detected_on": null,
   "updated_on": "2026-10-15",
@@ -40,9 +40,16 @@
       "title": "不正アクセスによる個人情報漏えいの調査完了（第三報）",
       "published_on": "2026-10-13",
       "checked_on": "2026-10-15"
+    },
+    {
+      "url": "https://www.kind.co.jp/notice-20260828",
+      "type": "official",
+      "title": "個人情報漏えいに関する初報",
+      "published_on": "2026-08-28",
+      "checked_on": "2026-10-15"
     }
   ],
-  "notes": "住所情報を含む109,311名は内数。カード情報とECサイトのログインパスワードは含まない。初報は収集開始前のため調査結果公表日を掲載。",
+  "notes": "住所情報を含む109,311名は内数。カード情報とECサイトのログインパスワードは含まない。初報は収集開始前のため調査結果公表日を掲載。 カレンダー掲載日を確認済みの8月の初報日に修正。続報の調査結果は同じ事案に統合。",
   "updates": [],
   "vendor_research": {
     "checked_on": "2026-10-15",
@@ -51,6 +58,10 @@
     "source_checks": [
       {
         "source_index": 0,
+        "status": "reviewed"
+      },
+      {
+        "source_index": 1,
         "status": "reviewed"
       }
     ]

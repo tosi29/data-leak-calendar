@@ -1,0 +1,52 @@
+{
+  "id": "kaga-solnet-20260817",
+  "organization": {
+    "name": "加賀ソルネット",
+    "sector": "企業・団体"
+  },
+  "title": "アカデミコナビの不正アクセス調査結果",
+  "published_on": "2026-08-17",
+  "first_published_on": "2026-07-01",
+  "publication_kind": "followup",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-15",
+  "incident_type": "attack",
+  "leak_status": "confirmed",
+  "summary": "調査の結果、会員165,587人分の個人情報が外部送出されたことを確認。パスワードや決済情報は確認された流出対象に含まれない。",
+  "impact": [
+    {
+      "count": 165587,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表資料に記載された対象規模"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "電話番号",
+    "メールアドレス",
+    "会員ID",
+    "所属校",
+    "購入情報"
+  ],
+  "cause": {
+    "category": "vulnerability",
+    "detail": "サイトの脆弱性を悪用した不正アクセス。",
+    "certainty": "confirmed"
+  },
+  "sources": [
+    {
+      "url": "https://www.solnet.ne.jp/news/20260817",
+      "type": "official",
+      "title": "アカデミコナビの不正アクセス調査結果",
+      "published_on": "2026-08-17",
+      "checked_on": "2026-10-15"
+    }
+  ],
+  "notes": "",
+  "updates": [],
+  "verification": "official",
+  "related_vendor": null
+}

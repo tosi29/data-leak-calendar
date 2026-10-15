@@ -1,0 +1,52 @@
+{
+  "id": "hands-holdings-20260825",
+  "organization": {
+    "name": "ハンズホールディングス",
+    "sector": "企業・団体"
+  },
+  "title": "ランサムウェア侵害による従業員情報漏えいのおそれ",
+  "published_on": "2026-08-25",
+  "first_published_on": null,
+  "publication_kind": "followup",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-15",
+  "incident_type": "attack",
+  "leak_status": "suspected",
+  "summary": "従業員・退職者・扶養者の人事情報に漏えいのおそれがあり、マイナンバーも閲覧された可能性があると公表した。",
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "対象規模は未公表・調査中"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "生年月日",
+    "メールアドレス",
+    "電話番号",
+    "人事労務情報",
+    "個人番号"
+  ],
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。侵入手法の詳細は未公表。",
+    "certainty": "unknown"
+  },
+  "sources": [
+    {
+      "url": "https://www.hands-holdings.co.jp/news/news20260825/",
+      "type": "official",
+      "title": "ランサムウェア侵害による従業員情報漏えいのおそれ",
+      "published_on": "2026-08-25",
+      "checked_on": "2026-10-15"
+    }
+  ],
+  "notes": "6月に発生した侵害の第2報。情報流出自体は確認されていない。",
+  "updates": [],
+  "verification": "official",
+  "related_vendor": null
+}

@@ -1,0 +1,50 @@
+{
+  "id": "leange-20260806",
+  "organization": {
+    "name": "ル・アンジェ",
+    "sector": "企業・団体"
+  },
+  "title": "業務用BANDへの不正アクセス",
+  "published_on": "2026-08-06",
+  "first_published_on": "2026-08-06",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-15",
+  "incident_type": "attack",
+  "leak_status": "suspected",
+  "summary": "業務で利用するBANDに第三者がアクセスし、顧客・スタッフの個人情報が流出した可能性がある。",
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "対象規模は未公表・調査中"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "生年月日",
+    "住所",
+    "電話番号",
+    "メールアドレス"
+  ],
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。侵入手法の詳細は未公表。",
+    "certainty": "unknown"
+  },
+  "sources": [
+    {
+      "url": "https://www.leange.co.jp/corporate_news/post-12669/",
+      "type": "official",
+      "title": "業務用BANDへの不正アクセス",
+      "published_on": "2026-08-06",
+      "checked_on": "2026-10-15"
+    }
+  ],
+  "notes": "攻撃方法は推定段階。カード・銀行口座・マイナンバーは対象外。",
+  "updates": [],
+  "verification": "official",
+  "related_vendor": null
+}

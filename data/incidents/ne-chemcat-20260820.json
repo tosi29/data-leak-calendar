@@ -1,0 +1,51 @@
+{
+  "id": "ne-chemcat-20260820",
+  "organization": {
+    "name": "エヌ・イー ケムキャット",
+    "sector": "企業・団体"
+  },
+  "title": "不正アクセスによる従業員等の個人情報漏えいのおそれ",
+  "published_on": "2026-08-20",
+  "first_published_on": "2026-08-20",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-15",
+  "incident_type": "attack",
+  "leak_status": "suspected",
+  "summary": "アカウントを悪用したアクセスにより、現・元従業員や派遣社員、グループ会社関係者の情報が漏えいした、または漏えいの可能性があると公表した。",
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "対象規模は未公表・調査中"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "生年月日",
+    "住所",
+    "メールアドレス",
+    "電話番号",
+    "人事情報"
+  ],
+  "cause": {
+    "category": "credentials",
+    "detail": "アカウントの不正使用。認証情報取得の原因は調査に基づく推定。",
+    "certainty": "unknown"
+  },
+  "sources": [
+    {
+      "url": "https://www.ne-chemcat.co.jp/new_info/info/2026/0820158.html",
+      "type": "official",
+      "title": "不正アクセスによる従業員等の個人情報漏えいのおそれ",
+      "published_on": "2026-08-20",
+      "checked_on": "2026-10-15"
+    }
+  ],
+  "notes": "",
+  "updates": [],
+  "verification": "official",
+  "related_vendor": null
+}

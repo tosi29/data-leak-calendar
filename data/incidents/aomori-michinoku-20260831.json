@@ -1,0 +1,52 @@
+{
+  "id": "aomori-michinoku-20260831",
+  "organization": {
+    "name": "青森みちのく銀行",
+    "sector": "企業・団体"
+  },
+  "title": "2支店で顧客情報を含む保存書類を紛失",
+  "published_on": "2026-08-31",
+  "first_published_on": "2026-08-31",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-15",
+  "incident_type": "accident",
+  "leak_status": "lost",
+  "summary": "店舗統合作業と全店調査で保存書類の紛失が判明。期限前の書類を誤廃棄した可能性が高いとしており、外部流出は確認されていない。",
+  "impact": [
+    {
+      "count": 13700,
+      "unit": "records",
+      "qualifier": "approximate",
+      "description": "公表資料に記載された対象規模"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "生年月日",
+    "電話番号",
+    "口座番号",
+    "残高",
+    "印影"
+  ],
+  "cause": {
+    "category": "loss",
+    "detail": "保存期限経過前の文書保存箱を誤廃棄した可能性。",
+    "certainty": "suspected"
+  },
+  "sources": [
+    {
+      "url": "https://www.am-bk.co.jp/news/docs/important_20260831.pdf",
+      "type": "official",
+      "title": "2支店で顧客情報を含む保存書類を紛失",
+      "published_on": "2026-08-31",
+      "checked_on": "2026-10-15"
+    }
+  ],
+  "notes": "",
+  "updates": [],
+  "verification": "official",
+  "related_vendor": null
+}

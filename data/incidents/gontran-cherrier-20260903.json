@@ -1,12 +1,12 @@
 {
   "id": "gontran-cherrier-20260903",
   "organization": {
-    "name": "名鉄協商（ゴントランシェリエ）",
+    "name": "名鉄協商（カリテコ・MKPポイントカード・ゴントランシェリエ）",
     "sector": "企業・団体"
   },
-  "title": "オンラインストアの配送先情報が漏えいしたおそれ",
-  "summary": "サーバーへの不正アクセスの調査で、注文者や配送先の顧客情報が漏えいした可能性を否定できないと公表。",
-  "published_on": "2026-09-03",
+  "title": "サーバー侵害による各サービスの顧客情報漏えいのおそれ",
+  "summary": "サーバーへの不正アクセスの調査で、注文者や配送先の顧客情報が漏えいした可能性を否定できないと公表。 同じサーバー侵害について、8月4日にカリテコ、8月27日にMKPポイントカードも漏えいのおそれを公表。",
+  "published_on": "2026-08-04",
   "occurred_on": null,
   "detected_on": null,
   "updated_on": "2026-10-15",
@@ -25,7 +25,10 @@
   "data_types": [
     "氏名",
     "住所",
-    "電話番号"
+    "電話番号",
+    "運転免許証情報",
+    "クレジットカード情報（一部カリテコ会員）",
+    "パスワード（MKP会員）"
   ],
   "cause": {
     "category": "unauthorized_access",
@@ -40,9 +43,23 @@
       "title": "不正アクセスによる個人情報漏えいのおそれに関するお詫びとお知らせ\n – ゴントラン シェリエ ジャポン",
       "published_on": "2026-09-03",
       "checked_on": "2026-10-15"
+    },
+    {
+      "url": "https://www.cariteco.com/news/2026_08_04_17289",
+      "type": "official",
+      "title": "名鉄協商の顧客情報漏えいのおそれに関する公表",
+      "published_on": "2026-08-04",
+      "checked_on": "2026-10-15"
+    },
+    {
+      "url": "https://point.mkp.jp/news/2026/08/27/14-809/",
+      "type": "official",
+      "title": "名鉄協商の顧客情報漏えいのおそれに関する公表",
+      "published_on": "2026-08-27",
+      "checked_on": "2026-10-15"
     }
   ],
-  "notes": "9月3日は個別通知を補完する公表。実際の外部流出は未確認。",
+  "notes": "9月3日は個別通知を補完する公表。実際の外部流出は未確認。 同一侵害として統合し、対象人数は不明。最初の障害公表は7月2日。",
   "updates": [],
   "incident_type": "attack",
   "vendor_research": {
@@ -52,6 +69,14 @@
     "source_checks": [
       {
         "source_index": 0,
+        "status": "reviewed"
+      },
+      {
+        "source_index": 1,
+        "status": "reviewed"
+      },
+      {
+        "source_index": 2,
         "status": "reviewed"
       }
     ]

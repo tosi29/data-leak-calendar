@@ -1,0 +1,56 @@
+{
+  "id": "chuden-mail-20260804",
+  "organization": {
+    "name": "中部電力",
+    "sector": "企業・団体"
+  },
+  "title": "メール情報への不正アクセス",
+  "published_on": "2026-08-04",
+  "first_published_on": "2026-08-04",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-15",
+  "incident_type": "attack",
+  "leak_status": "suspected",
+  "summary": "認証情報の悪用によりメール情報が流出した可能性。社外関係者約2,400人とグループ・委託先関係者約71,700人が対象。",
+  "impact": [
+    {
+      "count": 2400,
+      "unit": "people",
+      "qualifier": "approximate",
+      "description": "社外関係者"
+    },
+    {
+      "count": 71700,
+      "unit": "people",
+      "qualifier": "approximate",
+      "description": "グループ・委託先関係者"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "所属",
+    "役職",
+    "メールアドレス",
+    "電話番号"
+  ],
+  "cause": {
+    "category": "credentials",
+    "detail": "認証情報を悪用した不正アクセス。",
+    "certainty": "unknown"
+  },
+  "sources": [
+    {
+      "url": "https://www.chuden.co.jp/publicity/press/1218169_3273.html",
+      "type": "official",
+      "title": "メール情報への不正アクセス",
+      "published_on": "2026-08-04",
+      "checked_on": "2026-10-15"
+    }
+  ],
+  "notes": "メールの件数と対象者数を区別し、集団間の重複を排除できないため合算しない。",
+  "updates": [],
+  "verification": "official",
+  "related_vendor": null
+}

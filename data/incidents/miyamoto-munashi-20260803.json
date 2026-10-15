@@ -1,0 +1,56 @@
+{
+  "id": "miyamoto-munashi-20260803",
+  "organization": {
+    "name": "M&Sフードサービス（宮本むなし）",
+    "sector": "企業・団体"
+  },
+  "title": "持ち帰り注文サイトへの不正アクセス",
+  "published_on": "2026-08-03",
+  "first_published_on": "2026-08-03",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-15",
+  "incident_type": "attack",
+  "leak_status": "suspected",
+  "summary": "7月29日に不正アクセスを検知。注文者1,030人に対応する最大1,895件の注文情報が流出した可能性がある。",
+  "impact": [
+    {
+      "count": 1030,
+      "unit": "people",
+      "qualifier": "maximum",
+      "description": "公表資料に記載された対象規模"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "電話番号",
+    "メールアドレス",
+    "注文情報"
+  ],
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。侵入手法の詳細は未公表。",
+    "certainty": "unknown"
+  },
+  "sources": [
+    {
+      "url": "https://m-munashi.com/pages/incident202607",
+      "type": "official",
+      "title": "持ち帰り注文サイトへの不正アクセス",
+      "published_on": "2026-08-03",
+      "checked_on": "2026-10-15"
+    },
+    {
+      "url": "https://m-munashi.com/blogs/mm_news",
+      "type": "official",
+      "title": "公式ニュース一覧（公表日確認）",
+      "published_on": "2026-08-03",
+      "checked_on": "2026-10-15"
+    }
+  ],
+  "notes": "公表日は公式ニュース一覧の8月3日を採用。延べ注文件数1,895件とは合算しない。",
+  "updates": [],
+  "verification": "official",
+  "related_vendor": null
+}

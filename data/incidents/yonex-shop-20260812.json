@@ -1,0 +1,44 @@
+{
+  "id": "yonex-shop-20260812",
+  "organization": {
+    "name": "ヨネックス",
+    "sector": "企業・団体"
+  },
+  "title": "公式オンラインショップへの不正ログイン",
+  "published_on": "2026-08-12",
+  "first_published_on": "2026-08-12",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-15",
+  "incident_type": "attack",
+  "leak_status": "suspected",
+  "summary": "リスト型攻撃による不正ログイン3件を確認。うち1件で個人情報が閲覧された可能性がある。",
+  "impact": [
+    {
+      "count": 1,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "公表資料に記載された対象規模"
+    }
+  ],
+  "data_types": [],
+  "cause": {
+    "category": "credentials",
+    "detail": "外部で取得された認証情報を使ったリスト型攻撃。",
+    "certainty": "confirmed"
+  },
+  "sources": [
+    {
+      "url": "https://www.yonex.co.jp/news/2026/4022.html",
+      "type": "official",
+      "title": "公式オンラインショップへの不正ログイン",
+      "published_on": "2026-08-12",
+      "checked_on": "2026-10-15"
+    }
+  ],
+  "notes": "",
+  "updates": [],
+  "verification": "official",
+  "related_vendor": null
+}

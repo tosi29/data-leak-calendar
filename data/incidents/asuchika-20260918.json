@@ -6,12 +6,12 @@
   },
   "title": "利用者情報CSVの誤添付について確報を公表",
   "summary": "利用者向けアンケートメールに1,142人の個人情報を含むCSVを誤添付。976件の宛先に到達した。",
-  "published_on": "2026-09-18",
+  "published_on": "2026-08-21",
   "occurred_on": "2026-08-20",
   "detected_on": null,
   "updated_on": "2026-10-15",
   "first_published_on": "2026-08-21",
-  "publication_kind": "followup",
+  "publication_kind": "initial",
   "verification": "official",
   "leak_status": "confirmed",
   "impact": [
@@ -44,7 +44,7 @@
       "checked_on": "2026-10-15"
     }
   ],
-  "notes": "976件は到達先数で、情報が記録された1,142人とは異なる。団体名はサイト表示を確認。",
+  "notes": "976件は到達先数で、情報が記録された1,142人とは異なる。団体名はサイト表示を確認。 カレンダー掲載日を確認済みの8月の初報日に修正。続報の調査結果は同じ事案に統合。",
   "updates": [],
   "incident_type": "accident",
   "vendor_research": {

@@ -6,12 +6,12 @@
   },
   "title": "ランサムウェア被害の調査結果（第5報）",
   "summary": "調査が完了し、個人情報を含むファイルの公開を確認。別途、漏えいのおそれのある情報の範囲を公表。",
-  "published_on": "2026-09-11",
+  "published_on": "2026-08-10",
   "occurred_on": null,
   "detected_on": null,
   "updated_on": "2026-10-15",
   "first_published_on": "2026-08-10",
-  "publication_kind": "followup",
+  "publication_kind": "initial",
   "verification": "official",
   "leak_status": "confirmed",
   "impact": [
@@ -67,7 +67,7 @@
       "checked_on": "2026-10-15"
     }
   ],
-  "notes": "310ファイル、27名、漏えいのおそれ104万4906件は単位・範囲が異なり合算しない。疑いの範囲では窃取の事実・公開は未確認。カード情報は含まない。",
+  "notes": "310ファイル、27名、漏えいのおそれ104万4906件は単位・範囲が異なり合算しない。疑いの範囲では窃取の事実・公開は未確認。カード情報は含まない。 カレンダー掲載日を確認済みの8月の初報日に修正。続報の調査結果は同じ事案に統合。",
   "updates": [
     {
       "date": "2026-10-09",

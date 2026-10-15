@@ -4,14 +4,14 @@
     "name": "原田産業",
     "sector": "企業・団体"
   },
-  "title": "「ビールの縁側」の情報流出の可能性（続報）",
+  "title": "「ビールの縁側」の情報流出の可能性",
   "summary": "不正プログラムの稼働中に注文画面で情報を入力した利用者が対象。",
-  "published_on": "2026-09-14",
+  "published_on": "2026-08-18",
   "occurred_on": null,
   "detected_on": null,
   "updated_on": "2026-10-15",
   "first_published_on": "2026-08-18",
-  "publication_kind": "followup",
+  "publication_kind": "initial",
   "verification": "official",
   "leak_status": "suspected",
   "impact": [
@@ -43,9 +43,16 @@
       "title": "【重要】「ビールの縁側」における個人情報流出の可能性に関するお詫びとご報告（続報）｜ニュースリリース｜原田産業株式会社",
       "published_on": "2026-09-14",
       "checked_on": "2026-10-15"
+    },
+    {
+      "url": "https://www.haradacorp.co.jp/news/detail.php?id=368",
+      "type": "official",
+      "title": "個人情報漏えいに関する初報",
+      "published_on": "2026-08-18",
+      "checked_on": "2026-10-15"
     }
   ],
-  "notes": "対象9人のうち決済完了は4人。その他の影響範囲は調査を継続。",
+  "notes": "対象9人のうち決済完了は4人。その他の影響範囲は調査を継続。 カレンダー掲載日を確認済みの8月の初報日に修正。続報の調査結果は同じ事案に統合。",
   "updates": [],
   "incident_type": "attack",
   "vendor_research": {
@@ -55,6 +62,10 @@
     "source_checks": [
       {
         "source_index": 0,
+        "status": "reviewed"
+      },
+      {
+        "source_index": 1,
         "status": "reviewed"
       }
     ]

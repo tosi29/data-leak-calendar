@@ -1,0 +1,49 @@
+{
+  "id": "yellowhat-20260828",
+  "organization": {
+    "name": "イエローハット",
+    "sector": "企業・団体"
+  },
+  "title": "不正アクセスによる会員情報漏えいの可能性",
+  "published_on": "2026-08-28",
+  "first_published_on": "2026-08-28",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-15",
+  "incident_type": "attack",
+  "leak_status": "suspected",
+  "summary": "8月18日に不正アクセスを検知。会員の氏名や連絡先などが流出した可能性があると公表した。",
+  "impact": [
+    {
+      "count": 1801499,
+      "unit": "people",
+      "qualifier": "maximum",
+      "description": "公表資料に記載された対象規模"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "電話番号",
+    "メールアドレス",
+    "会員番号"
+  ],
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。侵入手法の詳細は未公表。",
+    "certainty": "unknown"
+  },
+  "sources": [
+    {
+      "url": "https://www.yellowhat.jp/information/yellowhat/202608.html",
+      "type": "official",
+      "title": "不正アクセスによる会員情報漏えいの可能性",
+      "published_on": "2026-08-28",
+      "checked_on": "2026-10-15"
+    }
+  ],
+  "notes": "クレジットカード情報、パスワード、車両情報は対象外。",
+  "updates": [],
+  "verification": "official",
+  "related_vendor": null
+}

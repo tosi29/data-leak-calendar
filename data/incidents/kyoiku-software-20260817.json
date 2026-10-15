@@ -1,0 +1,49 @@
+{
+  "id": "kyoiku-software-20260817",
+  "organization": {
+    "name": "教育ソフトウェア",
+    "sector": "企業・団体"
+  },
+  "title": "旧レンタルサーバーへのランサムウェア攻撃",
+  "published_on": "2026-08-17",
+  "first_published_on": "2026-08-17",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-15",
+  "incident_type": "attack",
+  "leak_status": "suspected",
+  "summary": "使われていなかったサーバーが侵害され、過去の自己採点サービス利用者情報などが流出した可能性を否定できないと公表。",
+  "impact": [
+    {
+      "count": 4627,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "公表資料に記載された対象規模"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "大学名",
+    "学籍番号の一部",
+    "過去のメール"
+  ],
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。侵入手法の詳細は未公表。",
+    "certainty": "unknown"
+  },
+  "sources": [
+    {
+      "url": "https://www.kyoikusw.co.jp/news/20260817/",
+      "type": "official",
+      "title": "旧レンタルサーバーへのランサムウェア攻撃",
+      "published_on": "2026-08-17",
+      "checked_on": "2026-10-15"
+    }
+  ],
+  "notes": "4,627件は公表された自己採点サービス関連情報。その他メール情報の対象数は不明。",
+  "updates": [],
+  "verification": "official",
+  "related_vendor": null
+}

@@ -1,0 +1,62 @@
+{
+  "id": "rakuten-booksnetwork-20260821",
+  "organization": {
+    "name": "楽天ブックスネットワーク",
+    "sector": "企業・団体"
+  },
+  "title": "PCへの不正アクセスで個人情報漏えいの可能性",
+  "published_on": "2026-08-21",
+  "first_published_on": "2026-08-21",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-15",
+  "incident_type": "attack",
+  "leak_status": "suspected",
+  "summary": "4月に検知したPCへの不正アクセスについて、顧客の発送先情報や仕入先・社員情報が流出した可能性を公表。流出自体は確認されていない。",
+  "impact": [
+    {
+      "count": 33333,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "顧客発送先情報"
+    },
+    {
+      "count": 2101,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "仕入先関係者情報"
+    },
+    {
+      "count": 339,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "従業員情報"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "電話番号",
+    "メールアドレス",
+    "生年月日"
+  ],
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。侵入手法の詳細は未公表。",
+    "certainty": "unknown"
+  },
+  "sources": [
+    {
+      "url": "https://www.rakuten-booksnetwork.co.jp/2026/08/21/unauthorized-access-notice/index.html",
+      "type": "official",
+      "title": "PCへの不正アクセスで個人情報漏えいの可能性",
+      "published_on": "2026-08-21",
+      "checked_on": "2026-10-15"
+    }
+  ],
+  "notes": "顧客発送情報33,333件、仕入先2,101件、社員339件。各集団や繰り返し注文の重複を排除できないため合算しない。",
+  "updates": [],
+  "verification": "official",
+  "related_vendor": null
+}

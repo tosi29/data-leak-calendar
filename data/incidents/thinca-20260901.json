@@ -4,14 +4,14 @@
     "name": "シンカ",
     "sector": "企業・団体"
   },
-  "title": "サービス紹介サイトへの不正アクセス（続報）",
+  "title": "サービス紹介サイトへの不正アクセス",
   "summary": "サーバーに不正プログラムが設置され、問い合わせ・セミナー申込者の情報が外部からアクセスされた可能性。",
-  "published_on": "2026-09-01",
+  "published_on": "2026-08-28",
   "occurred_on": null,
   "detected_on": "2026-08-24",
   "updated_on": "2026-10-15",
   "first_published_on": "2026-08-28",
-  "publication_kind": "followup",
+  "publication_kind": "initial",
   "verification": "official",
   "leak_status": "suspected",
   "impact": [
@@ -48,9 +48,16 @@
       "title": "弊社運営サービス紹介サイトへの不正アクセスに関する調査結果のお知らせ - 株式会社シンカ",
       "published_on": "2026-09-17",
       "checked_on": "2026-10-15"
+    },
+    {
+      "url": "https://tdnet-pdf.kabutan.jp/20260828/140120260828528104.pdf",
+      "type": "official",
+      "title": "個人情報漏えいに関する初報",
+      "published_on": "2026-08-28",
+      "checked_on": "2026-10-15"
     }
   ],
-  "notes": "9月17日の最終報でも情報漏えいの事実・二次被害は確認されていない。カイクラ本体は別環境で影響なし。",
+  "notes": "9月17日の最終報でも情報漏えいの事実・二次被害は確認されていない。カイクラ本体は別環境で影響なし。 カレンダー掲載日を確認済みの8月の初報日に修正。続報の調査結果は同じ事案に統合。",
   "updates": [
     {
       "date": "2026-09-17",
@@ -70,6 +77,10 @@
       },
       {
         "source_index": 1,
+        "status": "reviewed"
+      },
+      {
+        "source_index": 2,
         "status": "reviewed"
       }
     ]

@@ -1,0 +1,59 @@
+{
+  "id": "estore-20260801",
+  "organization": {
+    "name": "Ｅストアー",
+    "sector": "企業・団体"
+  },
+  "title": "ショップサーブへの不正アクセスで購入者情報が流出",
+  "published_on": "2026-08-01",
+  "first_published_on": "2026-08-01",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-15",
+  "incident_type": "attack",
+  "leak_status": "confirmed",
+  "summary": "購入者情報の外部送信を確認。第2報で攻撃期間を5月21日～8月1日とし、暗号化された会員ID・パスワードやカード情報の一部も対象と公表。",
+  "impact": [
+    {
+      "count": 8853839,
+      "unit": "records",
+      "qualifier": "maximum",
+      "description": "公表資料に記載された対象規模"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "電話番号",
+    "メールアドレス",
+    "会員ID",
+    "暗号化パスワード",
+    "カード番号の一部"
+  ],
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。侵入手法の詳細は未公表。",
+    "certainty": "unknown"
+  },
+  "sources": [
+    {
+      "url": "https://estore.jp/press/20260801/",
+      "type": "official",
+      "title": "ショップサーブへの不正アクセスで購入者情報が流出",
+      "published_on": "2026-08-01",
+      "checked_on": "2026-10-15"
+    },
+    {
+      "url": "https://estore.jp/press/20260802/",
+      "type": "official",
+      "title": "ショップサーブ不正アクセス（第2報）",
+      "published_on": "2026-08-02",
+      "checked_on": "2026-10-15"
+    }
+  ],
+  "notes": "同一利用者の複数登録を含む延べ件数であり人数ではない。利用店舗側の公表事案と影響範囲が重複するため合算不可。",
+  "updates": [],
+  "verification": "official",
+  "related_vendor": null
+}

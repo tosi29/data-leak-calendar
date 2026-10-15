@@ -1,0 +1,49 @@
+{
+  "id": "sodick-20260805",
+  "organization": {
+    "name": "ソディック",
+    "sector": "企業・団体"
+  },
+  "title": "サーバー侵害の最終調査結果",
+  "published_on": "2026-08-05",
+  "first_published_on": "2026-05-21",
+  "publication_kind": "followup",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-15",
+  "incident_type": "attack",
+  "leak_status": "suspected",
+  "summary": "海外拠点経由の不正アクセスを調査。流出の痕跡はないが、取引先や従業員の個人情報の漏えいを完全には否定できないとした。",
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "対象規模は未公表・調査中"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "電話番号",
+    "メールアドレス"
+  ],
+  "cause": {
+    "category": "vulnerability",
+    "detail": "ネットワーク機器の脆弱性を利用した不正アクセス。",
+    "certainty": "confirmed"
+  },
+  "sources": [
+    {
+      "url": "https://www.sodick.co.jp/pdf/260805130030_20260805_husei_saisyu_JP.pdf",
+      "type": "official",
+      "title": "サーバー侵害の最終調査結果",
+      "published_on": "2026-08-05",
+      "checked_on": "2026-10-15"
+    }
+  ],
+  "notes": "",
+  "updates": [],
+  "verification": "official",
+  "related_vendor": null
+}

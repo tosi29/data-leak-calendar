@@ -1,0 +1,51 @@
+{
+  "id": "semco-20260822",
+  "organization": {
+    "name": "環境機器",
+    "sector": "企業・団体"
+  },
+  "title": "虫退治ドットコムへの不正プログラム設置",
+  "published_on": "2026-08-22",
+  "first_published_on": "2026-08-22",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-15",
+  "incident_type": "attack",
+  "leak_status": "suspected",
+  "summary": "通販サイトの決済ページに不正プログラムが設置され、購入者情報と一部のカード情報が取得された可能性がある。",
+  "impact": [
+    {
+      "count": 15,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表資料に記載された対象規模"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "電話番号",
+    "メールアドレス",
+    "注文情報",
+    "クレジットカード情報"
+  ],
+  "cause": {
+    "category": "vulnerability",
+    "detail": "システムの脆弱性が悪用され、管理者権限が取得されたと推定。",
+    "certainty": "suspected"
+  },
+  "sources": [
+    {
+      "url": "https://www.semco.net/news/detail/12790",
+      "type": "official",
+      "title": "虫退治ドットコムへの不正プログラム設置",
+      "published_on": "2026-08-22",
+      "checked_on": "2026-10-15"
+    }
+  ],
+  "notes": "カード情報の対象6人は購入者15人の内数。",
+  "updates": [],
+  "verification": "official",
+  "related_vendor": null
+}

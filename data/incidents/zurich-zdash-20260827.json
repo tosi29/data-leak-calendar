@@ -1,0 +1,48 @@
+{
+  "id": "zurich-zdash-20260827",
+  "organization": {
+    "name": "チューリッヒ保険会社",
+    "sector": "企業・団体"
+  },
+  "title": "Z-Dashへの不正アクセス",
+  "published_on": "2026-08-27",
+  "first_published_on": "2026-08-27",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-15",
+  "incident_type": "attack",
+  "leak_status": "suspected",
+  "summary": "ドライブレコーダーデータのアップロード用システムの脆弱性を調査したところ、4月の不正アクセスと顧客情報漏えいの可能性が判明した。",
+  "impact": [
+    {
+      "count": 1668,
+      "unit": "people",
+      "qualifier": "maximum",
+      "description": "公表資料に記載された対象規模"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "メールアドレス",
+    "事案管理番号"
+  ],
+  "cause": {
+    "category": "vulnerability",
+    "detail": "対象システムの脆弱性と過去の不正アクセスを確認。",
+    "certainty": "confirmed"
+  },
+  "sources": [
+    {
+      "url": "https://www.zurich.co.jp/aboutus/news/news/2026/0827/",
+      "type": "official",
+      "title": "Z-Dashへの不正アクセス",
+      "published_on": "2026-08-27",
+      "checked_on": "2026-10-15"
+    }
+  ],
+  "notes": "ドライブレコーダー映像、カード・口座情報は対象外。",
+  "updates": [],
+  "verification": "official",
+  "related_vendor": null
+}

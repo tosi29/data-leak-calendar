@@ -1,0 +1,48 @@
+{
+  "id": "digital-license-20260807",
+  "organization": {
+    "name": "デジタル庁",
+    "sector": "自治体・行政"
+  },
+  "title": "国家資格システムのログイン履歴を誤送付",
+  "published_on": "2026-08-07",
+  "first_published_on": "2026-08-07",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-15",
+  "incident_type": "accident",
+  "leak_status": "confirmed",
+  "summary": "他省庁へのログイン履歴提供時、対象外の資格管理団体職員の情報を含むファイルを送付した。",
+  "impact": [
+    {
+      "count": 150,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表資料に記載された対象規模"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "ユーザーID",
+    "所属等のコード"
+  ],
+  "cause": {
+    "category": "misdelivery",
+    "detail": "曖昧な作業手順により対象外ユーザーを抽出した。",
+    "certainty": "confirmed"
+  },
+  "sources": [
+    {
+      "url": "https://www.digital.go.jp/news/6d720c40-a064-4e48-a698-c8123ba53299",
+      "type": "official",
+      "title": "国家資格システムのログイン履歴を誤送付",
+      "published_on": "2026-08-07",
+      "checked_on": "2026-10-15"
+    }
+  ],
+  "notes": "",
+  "updates": [],
+  "verification": "official",
+  "related_vendor": null
+}

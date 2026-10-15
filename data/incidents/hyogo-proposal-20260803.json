@@ -1,0 +1,48 @@
+{
+  "id": "hyogo-proposal-20260803",
+  "organization": {
+    "name": "兵庫県",
+    "sector": "自治体・行政"
+  },
+  "title": "公文書公開資料の黒塗り不備",
+  "published_on": "2026-08-03",
+  "first_published_on": "2026-08-03",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-15",
+  "incident_type": "accident",
+  "leak_status": "exposed",
+  "summary": "さわやか提案箱に寄せられた意見の公開資料で、マスキングした個人情報を一定の操作で閲覧できる状態だった。",
+  "impact": [
+    {
+      "count": 92,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表資料に記載された対象規模"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "メールアドレス"
+  ],
+  "cause": {
+    "category": "redaction_error",
+    "detail": "公開ファイルの結合作業で、スキャン済み資料ではなく元の電子ファイルを使用した。",
+    "certainty": "confirmed"
+  },
+  "sources": [
+    {
+      "url": "https://web.pref.hyogo.lg.jp/kk04/press/20260803.html",
+      "type": "official",
+      "title": "公文書公開資料の黒塗り不備",
+      "published_on": "2026-08-03",
+      "checked_on": "2026-10-15"
+    }
+  ],
+  "notes": "",
+  "updates": [],
+  "verification": "official",
+  "related_vendor": null
+}

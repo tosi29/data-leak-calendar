@@ -5,12 +5,12 @@
     "sector": "企業・団体"
   },
   "title": "予約サイトの脆弱性を経由した不正アクセスで、利用者や加盟院関係者など約105万アカウントの情報が持ち出された",
-  "published_on": "2026-10-05",
+  "published_on": "2026-08-12",
   "occurred_on": null,
   "detected_on": null,
   "updated_on": "2026-10-15",
   "first_published_on": "2026-08-12",
-  "publication_kind": "followup",
+  "publication_kind": "initial",
   "verification": "secondary",
   "leak_status": "confirmed",
   "summary": "予約サイトの脆弱性を経由した不正アクセスで、利用者や加盟院関係者など約105万アカウントの情報が持ち出された。",
@@ -41,9 +41,16 @@
       "title": "ホワイトエッセンス、約105万アカウントの個人情報流出　8月発表の不正アクセス調査で判明 - ITmedia NEWS",
       "published_on": "2026-10-05",
       "checked_on": "2026-10-15"
+    },
+    {
+      "url": "https://www.whiteessence.com/news/news/20260812/",
+      "type": "official",
+      "title": "個人情報漏えいに関する初報",
+      "published_on": "2026-08-12",
+      "checked_on": "2026-10-15"
     }
   ],
-  "notes": "公式ページは本文が画像のため、本文を確認できたITmediaの報道に基づく。8月初報の調査結果。",
+  "notes": "公式ページは本文が画像のため、本文を確認できたITmediaの報道に基づく。8月初報の調査結果。 カレンダー掲載日を確認済みの8月の初報日に修正。続報の調査結果は同じ事案に統合。",
   "updates": [],
   "incident_type": "attack",
   "vendor_research": {
@@ -53,6 +60,10 @@
     "source_checks": [
       {
         "source_index": 0,
+        "status": "reviewed"
+      },
+      {
+        "source_index": 1,
         "status": "reviewed"
       }
     ]

@@ -1,0 +1,50 @@
+{
+  "id": "logicvein-20260817",
+  "organization": {
+    "name": "ロジックベイン",
+    "sector": "企業・団体"
+  },
+  "title": "ランサムウェア事案で個人情報公開を確認",
+  "published_on": "2026-08-17",
+  "first_published_on": "2025-12-08",
+  "publication_kind": "followup",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-15",
+  "incident_type": "attack",
+  "leak_status": "confirmed",
+  "summary": "追加調査でリークサイトへの個人情報掲載を確認。漏えいまたはその可能性がある対象は約97,338人で、うち17,559人は公開を確認した。",
+  "impact": [
+    {
+      "count": 97338,
+      "unit": "people",
+      "qualifier": "approximate",
+      "description": "公表資料に記載された対象規模"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "所属",
+    "住所",
+    "電話番号",
+    "メールアドレス"
+  ],
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "VPN経由の侵入とランサムウェア実行が原因と推定。",
+    "certainty": "suspected"
+  },
+  "sources": [
+    {
+      "url": "https://www.lvi.co.jp/company-news/2026/08/17/post-2244/",
+      "type": "official",
+      "title": "ランサムウェア事案で個人情報公開を確認",
+      "published_on": "2026-08-17",
+      "checked_on": "2026-10-15"
+    }
+  ],
+  "notes": "公開確認17,559人は約97,338人の内数であり合算しない。",
+  "updates": [],
+  "verification": "official",
+  "related_vendor": null
+}

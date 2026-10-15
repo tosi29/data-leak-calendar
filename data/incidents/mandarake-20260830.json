@@ -1,0 +1,48 @@
+{
+  "id": "mandarake-20260830",
+  "organization": {
+    "name": "まんだらけ",
+    "sector": "企業・団体"
+  },
+  "title": "通販サーバーへの不正アクセス",
+  "published_on": "2026-08-30",
+  "first_published_on": "2026-08-30",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-15",
+  "incident_type": "attack",
+  "leak_status": "suspected",
+  "summary": "8月27日にサーバー侵害を検知し、30日に顧客情報流出の可能性を公表。9月4日時点の調査では個人情報そのものの閲覧・取得の証跡は確認されていない。",
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "対象規模は未公表・調査中"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "メールアドレス"
+  ],
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。侵入手法の詳細は未公表。",
+    "certainty": "unknown"
+  },
+  "sources": [
+    {
+      "url": "https://www.mandarake.co.jp/maintenance.html",
+      "type": "official",
+      "title": "通販サーバーへの不正アクセス",
+      "published_on": "2026-08-30",
+      "checked_on": "2026-10-15"
+    }
+  ],
+  "notes": "初報と9月4日の中間報告が同じ公式ページに掲載されている。",
+  "updates": [],
+  "verification": "official",
+  "related_vendor": null
+}

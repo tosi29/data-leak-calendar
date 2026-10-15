@@ -1,0 +1,44 @@
+{
+  "id": "tokyo-gas-pc-20260813",
+  "organization": {
+    "name": "東京ガスネットワーク",
+    "sector": "企業・団体"
+  },
+  "title": "顧客情報を保存した業務用パソコンを紛失",
+  "published_on": "2026-08-13",
+  "first_published_on": "2026-08-13",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-15",
+  "incident_type": "accident",
+  "leak_status": "lost",
+  "summary": "社員が帰宅途中に業務用パソコン入りの鞄を紛失。ガス工事等の顧客情報が保存されていたが、不正利用は確認されていない。",
+  "impact": [
+    {
+      "count": 20000,
+      "unit": "records",
+      "qualifier": "approximate",
+      "description": "公表資料に記載された対象規模"
+    }
+  ],
+  "data_types": [],
+  "cause": {
+    "category": "loss",
+    "detail": "帰宅途中に業務用端末を紛失。",
+    "certainty": "confirmed"
+  },
+  "sources": [
+    {
+      "url": "https://www.tokyo-gas.co.jp/network/news/press/20260813-01.html",
+      "type": "official",
+      "title": "顧客情報を保存した業務用パソコンを紛失",
+      "published_on": "2026-08-13",
+      "checked_on": "2026-10-15"
+    }
+  ],
+  "notes": "約2万件のガス工事顧客情報のほか、供給検討依頼152件を掲載。重複の有無は未確認。",
+  "updates": [],
+  "verification": "official",
+  "related_vendor": null
+}

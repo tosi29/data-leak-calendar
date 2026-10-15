@@ -1,0 +1,50 @@
+{
+  "id": "marukyu-shop-20260805",
+  "organization": {
+    "name": "マルキュー",
+    "sector": "企業・団体"
+  },
+  "title": "通販サイト利用者情報の漏えいの可能性",
+  "published_on": "2026-08-05",
+  "first_published_on": "2026-08-05",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-15",
+  "incident_type": "attack",
+  "leak_status": "suspected",
+  "summary": "ショップサーブへの不正アクセスに伴い、同社オンラインショップの購入者情報も流出した可能性がある。",
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "対象規模は未公表・調査中"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "電話番号",
+    "メールアドレス",
+    "勤務先"
+  ],
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。侵入手法の詳細は未公表。",
+    "certainty": "unknown"
+  },
+  "sources": [
+    {
+      "url": "https://marukyu-shop.co.jp/hpgen/HPB/entries/93.html",
+      "type": "official",
+      "title": "通販サイト利用者情報の漏えいの可能性",
+      "published_on": "2026-08-05",
+      "checked_on": "2026-10-15"
+    }
+  ],
+  "notes": "Ｅストアーの共通基盤事案と対象が重複し得る。",
+  "updates": [],
+  "verification": "official",
+  "related_vendor": null
+}

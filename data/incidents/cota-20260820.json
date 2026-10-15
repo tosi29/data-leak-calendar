@@ -1,0 +1,51 @@
+{
+  "id": "cota-20260820",
+  "organization": {
+    "name": "コタ",
+    "sector": "企業・団体"
+  },
+  "title": "サイバー攻撃後の個人情報調査結果",
+  "published_on": "2026-08-20",
+  "first_published_on": "2026-03-30",
+  "publication_kind": "followup",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-15",
+  "incident_type": "attack",
+  "leak_status": "suspected",
+  "summary": "第三者による閲覧を完全には否定できないとして、従業員・取引先・株主等の情報の対象件数を公表。流出や不正利用自体は未確認。",
+  "impact": [
+    {
+      "count": 109147,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "公表資料に記載された対象規模"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "電話番号",
+    "メールアドレス",
+    "人事情報",
+    "株主情報"
+  ],
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。侵入手法の詳細は未公表。",
+    "certainty": "unknown"
+  },
+  "sources": [
+    {
+      "url": "https://media.cota.co.jp/media/c461e507-b70e-4543-81b6-38210d442a3b.pdf",
+      "type": "official",
+      "title": "サイバー攻撃後の個人情報調査結果",
+      "published_on": "2026-08-20",
+      "checked_on": "2026-10-15"
+    }
+  ],
+  "notes": "公表された8区分（591、684、35,274、16,133、55,408、661、124、272件）の合計。重複の可能性があるため人数としない。",
+  "updates": [],
+  "verification": "official",
+  "related_vendor": null
+}

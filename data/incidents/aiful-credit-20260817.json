@@ -1,0 +1,47 @@
+{
+  "id": "aiful-credit-20260817",
+  "organization": {
+    "name": "アイフル・ライフカード",
+    "sector": "企業・団体"
+  },
+  "title": "信用情報の目的外利用とグループ会社への提供",
+  "published_on": "2026-08-17",
+  "first_published_on": "2026-08-17",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-15",
+  "incident_type": "improper_handling",
+  "leak_status": "improper_sharing",
+  "summary": "返済能力確認等に限って利用すべき信用情報を保険案内対象の分析に使用し、分析結果に基づく顧客情報をライフカードに提供していた。",
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "対象規模は未公表・調査中"
+    }
+  ],
+  "data_types": [
+    "信用情報",
+    "保険案内対象の顧客情報"
+  ],
+  "cause": {
+    "category": "improper_sharing",
+    "detail": "利用目的に関する理解不足と業務内の確認体制不足。",
+    "certainty": "confirmed"
+  },
+  "sources": [
+    {
+      "url": "https://www.aiful.co.jp/notice/a2026061001/",
+      "type": "official",
+      "title": "信用情報の目的外利用とグループ会社への提供",
+      "published_on": "2026-08-17",
+      "checked_on": "2026-10-15"
+    }
+  ],
+  "notes": "グループ外への漏えいは確認されていない。公式FAQに総数の記載はない。",
+  "updates": [],
+  "verification": "official",
+  "related_vendor": null
+}

@@ -6,12 +6,12 @@
   },
   "title": "レンタルサーバー・販売管理システムの調査結果",
   "summary": "複数システムで不正アクセスを確認し、第三者による情報閲覧・取得の可能性がある対象を公表。",
-  "published_on": "2026-09-10",
+  "published_on": "2026-08-17",
   "occurred_on": null,
   "detected_on": null,
   "updated_on": "2026-10-15",
   "first_published_on": "2026-08-17",
-  "publication_kind": "followup",
+  "publication_kind": "initial",
   "verification": "official",
   "leak_status": "suspected",
   "impact": [
@@ -47,9 +47,16 @@
       "title": "当社システムへの不正アクセスに関する調査結果および再発防止策について（第三報） | さくらインターネット",
       "published_on": "2026-09-10",
       "checked_on": "2026-10-15"
+    },
+    {
+      "url": "https://www.sakura.ad.jp/corporate/information/newsreleases/2026/08/17/1968225614/",
+      "type": "official",
+      "title": "個人情報漏えいに関する初報",
+      "published_on": "2026-08-17",
+      "checked_on": "2026-10-15"
     }
   ],
-  "notes": "同一調査報告を1記録にまとめたが、各システムの不正アクセスの関連性は確認されていない。951には関連性未確認の368アカウントを含む。販売管理側の30アカウントでハッシュ化パスワードも対象（内数）。両集団を合算しない。",
+  "notes": "同一調査報告を1記録にまとめたが、各システムの不正アクセスの関連性は確認されていない。951には関連性未確認の368アカウントを含む。販売管理側の30アカウントでハッシュ化パスワードも対象（内数）。両集団を合算しない。 カレンダー掲載日を確認済みの8月の初報日に修正。続報の調査結果は同じ事案に統合。",
   "updates": [],
   "incident_type": "attack",
   "vendor_research": {
@@ -59,6 +66,10 @@
     "source_checks": [
       {
         "source_index": 0,
+        "status": "reviewed"
+      },
+      {
+        "source_index": 1,
         "status": "reviewed"
       }
     ]

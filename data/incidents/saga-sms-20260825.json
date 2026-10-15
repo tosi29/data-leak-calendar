@@ -1,0 +1,48 @@
+{
+  "id": "saga-sms-20260825",
+  "organization": {
+    "name": "佐賀県教育委員会",
+    "sector": "自治体・行政"
+  },
+  "title": "児童の相談記録をSMSで誤送信",
+  "published_on": "2026-08-25",
+  "first_published_on": "2026-08-25",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-15",
+  "incident_type": "accident",
+  "leak_status": "confirmed",
+  "summary": "スクールソーシャルワーカーが公用携帯から私用携帯へ転送する際、電話番号を誤入力した。",
+  "impact": [
+    {
+      "count": 1,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表資料に記載された対象規模"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "在籍校名",
+    "相談内容"
+  ],
+  "cause": {
+    "category": "misdelivery",
+    "detail": "SMS送信先の電話番号の入力ミス。",
+    "certainty": "confirmed"
+  },
+  "sources": [
+    {
+      "url": "https://www.pref.saga.lg.jp/kyouiku/kiji003120819/index.html",
+      "type": "official",
+      "title": "児童の相談記録をSMSで誤送信",
+      "published_on": "2026-08-25",
+      "checked_on": "2026-10-15"
+    }
+  ],
+  "notes": "",
+  "updates": [],
+  "verification": "official",
+  "related_vendor": null
+}

@@ -1,0 +1,49 @@
+{
+  "id": "fukuoka-farming-20260803",
+  "organization": {
+    "name": "福岡県筑後農林事務所",
+    "sector": "自治体・行政"
+  },
+  "title": "管轄外の就農事業申請者情報を誤送信",
+  "published_on": "2026-08-03",
+  "first_published_on": "2026-08-03",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-15",
+  "incident_type": "accident",
+  "leak_status": "confirmed",
+  "summary": "要望調査の送付時、管轄外の申請者情報が含まれたファイルを11機関に送信した。送付先で削除を確認。",
+  "impact": [
+    {
+      "count": 300,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表資料に記載された対象規模"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "年齢",
+    "補助金額",
+    "交付要件の適否"
+  ],
+  "cause": {
+    "category": "misdelivery",
+    "detail": "添付ファイルの対象範囲の確認不足。",
+    "certainty": "confirmed"
+  },
+  "sources": [
+    {
+      "url": "https://www.pref.fukuoka.lg.jp/press-release/mail260803.html",
+      "type": "official",
+      "title": "管轄外の就農事業申請者情報を誤送信",
+      "published_on": "2026-08-03",
+      "checked_on": "2026-10-15"
+    }
+  ],
+  "notes": "",
+  "updates": [],
+  "verification": "official",
+  "related_vendor": null
+}

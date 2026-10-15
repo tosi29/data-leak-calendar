@@ -1,0 +1,49 @@
+{
+  "id": "unko-museum-20260814",
+  "organization": {
+    "name": "たのしいミュージアム",
+    "sector": "企業・団体"
+  },
+  "title": "うんこミュージアムのフォーム情報漏えいのおそれ",
+  "published_on": "2026-08-14",
+  "first_published_on": "2026-08-14",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-15",
+  "incident_type": "attack",
+  "leak_status": "suspected",
+  "summary": "サイトが改ざんされ、8月10日から11日に問い合わせフォームを利用した4人の送信内容が取得された可能性がある。",
+  "impact": [
+    {
+      "count": 4,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表資料に記載された対象規模"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "メールアドレス",
+    "電話番号",
+    "問い合わせ内容"
+  ],
+  "cause": {
+    "category": "vulnerability",
+    "detail": "第三者製ソフトウェアの脆弱性悪用によるサイト改ざん。",
+    "certainty": "confirmed"
+  },
+  "sources": [
+    {
+      "url": "https://unkomuseum.com/news/5244/",
+      "type": "official",
+      "title": "うんこミュージアムのフォーム情報漏えいのおそれ",
+      "published_on": "2026-08-14",
+      "checked_on": "2026-10-15"
+    }
+  ],
+  "notes": "",
+  "updates": [],
+  "verification": "official",
+  "related_vendor": null
+}

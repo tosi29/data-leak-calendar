@@ -1,0 +1,50 @@
+{
+  "id": "nice-mail-20260806",
+  "organization": {
+    "name": "ナイス",
+    "sector": "企業・団体"
+  },
+  "title": "不正アクセスによる連絡先情報漏えいの可能性",
+  "published_on": "2026-08-06",
+  "first_published_on": "2026-08-06",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-15",
+  "incident_type": "attack",
+  "leak_status": "suspected",
+  "summary": "7月22日に検知した不正アクセスで、取引先等の連絡先情報が流出した可能性。8月21日に不審メールに関する追記を公表した。",
+  "impact": [
+    {
+      "count": 2400,
+      "unit": "records",
+      "qualifier": "approximate",
+      "description": "公表資料に記載された対象規模"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "メールアドレス",
+    "電話番号",
+    "会社名",
+    "会社住所"
+  ],
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。侵入手法の詳細は未公表。",
+    "certainty": "unknown"
+  },
+  "sources": [
+    {
+      "url": "https://www.nice.co.jp/release/2026_08_06.html",
+      "type": "official",
+      "title": "不正アクセスによる連絡先情報漏えいの可能性",
+      "published_on": "2026-08-06",
+      "checked_on": "2026-10-15"
+    }
+  ],
+  "notes": "",
+  "updates": [],
+  "verification": "official",
+  "related_vendor": null
+}

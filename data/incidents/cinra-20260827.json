@@ -1,0 +1,52 @@
+{
+  "id": "cinra-20260827",
+  "organization": {
+    "name": "CINRA",
+    "sector": "企業・団体"
+  },
+  "title": "求人サービス会員情報漏えいの可能性",
+  "published_on": "2026-08-27",
+  "first_published_on": "2026-08-27",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-15",
+  "incident_type": "attack",
+  "leak_status": "suspected",
+  "summary": "クラウド環境の認証情報が不正取得され、求人サービスの会員情報が流出した可能性。ログの制約からアクセスの有無を確定できないとした。",
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "対象規模は未公表・調査中"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "生年月日",
+    "住所",
+    "電話番号",
+    "メールアドレス",
+    "学歴・職歴",
+    "応募履歴"
+  ],
+  "cause": {
+    "category": "credentials",
+    "detail": "クラウドデータベース・バックアップ環境の認証情報を不正取得された。",
+    "certainty": "confirmed"
+  },
+  "sources": [
+    {
+      "url": "https://www.cinra.co.jp/news/20260827",
+      "type": "official",
+      "title": "求人サービス会員情報漏えいの可能性",
+      "published_on": "2026-08-27",
+      "checked_on": "2026-10-15"
+    }
+  ],
+  "notes": "",
+  "updates": [],
+  "verification": "official",
+  "related_vendor": null
+}

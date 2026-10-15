@@ -2629,6 +2629,1193 @@
         "既存の9月以降の続報掲載事案について初報日への全面的な再配置は未実施。",
         "今回追加した事案の外部ITベンダーの全役割調査は未実施。"
       ]
+    },
+    {
+      "checked_on": "2026-10-15",
+      "coverage_start": "2026-08-01",
+      "coverage_end": "2026-08-31",
+      "scope": "月間一覧を新規取得し公式公表資料へ遡る8月の再調査。前回の13件追加とは別の調査回。",
+      "added_incident_ids": [
+        "estore-20260801",
+        "designphil-20260803",
+        "kaigetsu-20260803",
+        "kodansha-mail-20260803",
+        "fukuoka-farming-20260803",
+        "hyogo-proposal-20260803",
+        "chuden-mail-20260804",
+        "innovation-20260804",
+        "kyodo-mail-20260805",
+        "marukyu-shop-20260805",
+        "sodick-20260805",
+        "ichimasa-mail-20260806",
+        "nice-mail-20260806",
+        "leange-20260806",
+        "jst-mail-20260807",
+        "digital-license-20260807",
+        "godai-isabou-20260810",
+        "gigworks-20260810",
+        "tokushima-hdd-20260810",
+        "yonex-shop-20260812",
+        "tokyo-gas-pc-20260813",
+        "kbc-mail-20260817",
+        "kaga-solnet-20260817",
+        "logicvein-20260817",
+        "kyoiku-software-20260817",
+        "weblife-20260818",
+        "ne-chemcat-20260820",
+        "expo-subcontractor-20260820",
+        "cota-20260820",
+        "rakuten-booksnetwork-20260821",
+        "imadeya-20260821",
+        "semco-20260822",
+        "fancrew-20260824",
+        "saga-sms-20260825",
+        "zurich-zdash-20260827",
+        "cinra-20260827",
+        "corona-cloud-20260828",
+        "yellowhat-20260828",
+        "okinawa-wage-documents-20260828",
+        "mandarake-20260830",
+        "aomori-michinoku-20260831",
+        "hands-holdings-20260825",
+        "unko-museum-20260814",
+        "aiful-credit-20260817",
+        "miyamoto-munashi-20260803"
+      ],
+      "redated_incidents": [
+        {
+          "id": "thinca-20260901",
+          "from_date": "2026-09-01",
+          "to_date": "2026-08-28"
+        },
+        {
+          "id": "sakura-internet-20260910",
+          "from_date": "2026-09-10",
+          "to_date": "2026-08-17"
+        },
+        {
+          "id": "charm-20260902",
+          "from_date": "2026-09-02",
+          "to_date": "2026-08-13"
+        },
+        {
+          "id": "kindal-20261013",
+          "from_date": "2026-10-13",
+          "to_date": "2026-08-28"
+        },
+        {
+          "id": "asuchika-20260918",
+          "from_date": "2026-09-18",
+          "to_date": "2026-08-21"
+        },
+        {
+          "id": "beer-engawa-20260914",
+          "from_date": "2026-09-14",
+          "to_date": "2026-08-18"
+        },
+        {
+          "id": "rext-20260911",
+          "from_date": "2026-09-11",
+          "to_date": "2026-08-10"
+        },
+        {
+          "id": "nihon-law-20260911",
+          "from_date": "2026-09-11",
+          "to_date": "2026-08-25"
+        },
+        {
+          "id": "voising-20260930",
+          "from_date": "2026-09-30",
+          "to_date": "2026-08-18"
+        },
+        {
+          "id": "jcia-mail-20260914",
+          "from_date": "2026-09-14",
+          "to_date": "2026-08-12"
+        },
+        {
+          "id": "white-essence-20261005",
+          "from_date": "2026-10-05",
+          "to_date": "2026-08-12"
+        },
+        {
+          "id": "coop-yamaguchi-20260907",
+          "from_date": "2026-09-07",
+          "to_date": "2026-08-28"
+        },
+        {
+          "id": "nichirei-20260918",
+          "from_date": "2026-09-18",
+          "to_date": "2026-08-14"
+        },
+        {
+          "id": "gontran-cherrier-20260903",
+          "from_date": "2026-09-03",
+          "to_date": "2026-08-04"
+        }
+      ],
+      "index_sources": [
+        {
+          "url": "https://www.security-next.com/date/2026/08",
+          "status": "retrieved"
+        },
+        {
+          "url": "https://www.security-next.com/date/2026/08/page/2",
+          "status": "retrieved"
+        },
+        {
+          "url": "https://www.security-next.com/date/2026/08/page/3",
+          "status": "retrieved"
+        },
+        {
+          "url": "https://www.security-next.com/date/2026/08/page/4",
+          "status": "retrieved"
+        },
+        {
+          "url": "https://www.security-next.com/date/2026/08/page/5",
+          "status": "retrieved"
+        },
+        {
+          "url": "https://www.security-next.com/date/2026/08/page/6",
+          "status": "retrieved"
+        },
+        {
+          "url": "https://www.security-next.com/date/2026/08/page/7",
+          "status": "retrieved"
+        },
+        {
+          "url": "https://www.security-next.com/date/2026/08/page/8",
+          "status": "retrieved"
+        },
+        {
+          "url": "https://www.security-next.com/date/2026/08/page/9",
+          "status": "retrieved"
+        },
+        {
+          "url": "https://www.security-next.com/date/2026/08/page/10",
+          "status": "retrieved"
+        },
+        {
+          "url": "https://www.security-next.com/date/2026/08/page/11",
+          "status": "unavailable"
+        },
+        {
+          "url": "https://scan.netsecurity.ne.jp/category/incident/2026/08/",
+          "status": "unavailable"
+        },
+        {
+          "url": "https://scan.netsecurity.ne.jp/category/incident/2026/08/?page=2",
+          "status": "unavailable"
+        },
+        {
+          "url": "https://scan.netsecurity.ne.jp/category/incident/2026/08/?page=3",
+          "status": "unavailable"
+        },
+        {
+          "url": "https://scan.netsecurity.ne.jp/category/incident/2026/08/?page=4",
+          "status": "unavailable"
+        },
+        {
+          "url": "https://scan.netsecurity.ne.jp/category/incident/2026/08/?page=5",
+          "status": "unavailable"
+        },
+        {
+          "url": "https://tmiconsulting.co.jp/privacy-security-news/2751/",
+          "status": "retrieved"
+        }
+      ],
+      "secondary_index_urls": [
+        "https://www.pahoo.org/e-soul/privacy/casestudy/case-023-07.shtm",
+        "https://www.pahoo.org/e-soul/privacy/casestudy/case-023-08.shtm",
+        "https://www.pahoo.org/e-soul/privacy/casestudy/case-023-09.shtm",
+        "https://www.pahoo.org/e-soul/privacy/casestudy/case-023-10.shtm",
+        "https://www.pahoo.org/e-soul/privacy/casestudy/case-023-11.shtm"
+      ],
+      "article_dispositions": [
+        {
+          "url": "https://www.security-next.com/189420",
+          "title": "殺虫剤通販サイトに不正アクセス - 個人情報流出の可能性",
+          "status": "published_or_existing",
+          "incident_id": "semco-20260822"
+        },
+        {
+          "url": "https://www.security-next.com/189428",
+          "title": "イベント申込者の個人情報が閲覧可能に - 愛知県都市整備協会",
+          "status": "pending",
+          "candidate_id": "aug-review-next-189428",
+          "reason": "8月の月間一覧から再取得。日付は報道日。公式公表日・初報と続報の関係、個人情報の影響範囲の照合が未完了のためカレンダーには未掲載。"
+        },
+        {
+          "url": "https://www.security-next.com/189328",
+          "title": "学習サイトで会員の個人情報が閲覧可能に - 京都府",
+          "status": "pending",
+          "candidate_id": "aug-review-next-189328",
+          "reason": "8月の月間一覧から再取得。日付は報道日。公式公表日・初報と続報の関係、個人情報の影響範囲の照合が未完了のためカレンダーには未掲載。"
+        },
+        {
+          "url": "https://www.security-next.com/189589",
+          "title": "「作業予約システム」で侵害、会員情報流出か - イエローハット",
+          "status": "published_or_existing",
+          "incident_id": "yellowhat-20260828"
+        },
+        {
+          "url": "https://www.security-next.com/189591",
+          "title": "トレファク子会社ECサイトで個人情報流出 - フィッシングが発端",
+          "status": "published_or_existing",
+          "incident_id": "kindal-20261013"
+        },
+        {
+          "url": "https://www.security-next.com/189528",
+          "title": "社内システムがランサム感染、個人情報流出の可能性 - ハンズHD",
+          "status": "published_or_existing",
+          "incident_id": "hands-holdings-20260825"
+        },
+        {
+          "url": "https://www.security-next.com/189530",
+          "title": "教職員メルアカに不正アクセス、スパムの踏み台に - 日大法学部",
+          "status": "published_or_existing",
+          "incident_id": "nihon-law-20260911"
+        },
+        {
+          "url": "https://www.security-next.com/189564",
+          "title": "Adobe、セキュリティアドバイザリ7件を公開 - 6件がクリティカル",
+          "status": "excluded",
+          "reason": "脆弱性修正情報であり個別の漏えい事案ではない。"
+        },
+        {
+          "url": "https://www.security-next.com/189334",
+          "title": "患者の個人情報が記録されたHDDを紛失 - 国立国際医療センター",
+          "status": "excluded",
+          "reason": "公表日7月31日を別報道で確認。対象期間外。"
+        },
+        {
+          "url": "https://www.security-next.com/188972",
+          "title": "フォーム設定ミス、イベント申込者情報が閲覧可能に - 東海村社会福祉協議会",
+          "status": "pending",
+          "candidate_id": "aug-review-next-188972",
+          "reason": "8月の月間一覧から再取得。日付は報道日。公式公表日・初報と続報の関係、個人情報の影響範囲の照合が未完了のためカレンダーには未掲載。"
+        },
+        {
+          "url": "https://www.security-next.com/189336",
+          "title": "公務災害の認定結果通知書が所在不明 - 公立学校共済組合",
+          "status": "pending",
+          "candidate_id": "aug-review-next-189336",
+          "reason": "8月の月間一覧から再取得。日付は報道日。公式公表日・初報と続報の関係、個人情報の影響範囲の照合が未完了のためカレンダーには未掲載。"
+        },
+        {
+          "url": "https://www.security-next.com/189422",
+          "title": "レンタルサーバ設備で侵害、サービスを一時停止 - NTTスマートコネクト",
+          "status": "excluded",
+          "reason": "サーバー侵害のみで具体的な個人情報影響を確認できない。"
+        },
+        {
+          "url": "https://www.security-next.com/189424",
+          "title": "eギフトサービスのシステムが侵害、不正交換も - 全日空商事",
+          "status": "pending",
+          "candidate_id": "aug-review-next-189424",
+          "reason": "8月の月間一覧から再取得。日付は報道日。公式公表日・初報と続報の関係、個人情報の影響範囲の照合が未完了のためカレンダーには未掲載。"
+        },
+        {
+          "url": "https://www.security-next.com/189036",
+          "title": "学習適応性検査の結果シートが所在不明 - 北教大付属校",
+          "status": "pending",
+          "candidate_id": "aug-review-next-189036",
+          "reason": "8月の月間一覧から再取得。日付は報道日。公式公表日・初報と続報の関係、個人情報の影響範囲の照合が未完了のためカレンダーには未掲載。"
+        },
+        {
+          "url": "https://www.security-next.com/189193",
+          "title": "万博出演者の個人情報などが流出か - 2025年日本国際博覧会協会",
+          "status": "published_or_existing",
+          "incident_id": "expo-subcontractor-20260820"
+        },
+        {
+          "url": "https://www.security-next.com/188144",
+          "title": "メール送信サービスのアクセスキーを第三者が不正利用 - 衣料品会社",
+          "status": "excluded",
+          "reason": "7月事案。個人情報へのアクセスも未確認。"
+        },
+        {
+          "url": "https://www.security-next.com/188709",
+          "title": "設定変更で他利用者情報が閲覧可能に - レジャー予約サイト",
+          "status": "pending",
+          "candidate_id": "aug-review-next-188709",
+          "reason": "8月の月間一覧から再取得。日付は報道日。公式公表日・初報と続報の関係、個人情報の影響範囲の照合が未完了のためカレンダーには未掲載。"
+        },
+        {
+          "url": "https://www.security-next.com/189121",
+          "title": "医療機器会社が手術室でのX線画像を保有、経緯を調査 - 金沢大病院",
+          "status": "pending",
+          "candidate_id": "aug-review-next-189121",
+          "reason": "8月の月間一覧から再取得。日付は報道日。公式公表日・初報と続報の関係、個人情報の影響範囲の照合が未完了のためカレンダーには未掲載。"
+        },
+        {
+          "url": "https://www.security-next.com/188700",
+          "title": "土木情報サイト、パスワード含む会員情報流出の可能性",
+          "status": "published_or_existing",
+          "incident_id": "godai-isabou-20260810"
+        },
+        {
+          "url": "https://www.security-next.com/189254",
+          "title": "注文の配送先情報を含むPCに不正アクセス - 楽天グループ会社",
+          "status": "published_or_existing",
+          "incident_id": "rakuten-booksnetwork-20260821"
+        },
+        {
+          "url": "https://www.security-next.com/189257",
+          "title": "休眠中サーバがランサム被害、内部に個人情報 - システム開発会社",
+          "status": "published_or_existing",
+          "incident_id": "kyoiku-software-20260817"
+        },
+        {
+          "url": "https://www.security-next.com/188363",
+          "title": "企業サイト侵害か、問い合わせ情報流出の可能性 - セントラルコンサルタント",
+          "status": "published_or_existing",
+          "incident_id": "central-consultant-20260901"
+        },
+        {
+          "url": "https://www.security-next.com/189196",
+          "title": "アクセス制限に不備、個人情報流出の可能性 - エリッツHD子会社",
+          "status": "pending",
+          "candidate_id": "aug-review-next-189196",
+          "reason": "8月の月間一覧から再取得。日付は報道日。公式公表日・初報と続報の関係、個人情報の影響範囲の照合が未完了のためカレンダーには未掲載。"
+        },
+        {
+          "url": "https://www.security-next.com/187860",
+          "title": "委託先の患者支援システムで個人情報流出 - 旭化成セラピューティクス",
+          "status": "published_or_existing",
+          "incident_id": "asahi-therapeutics-20261006"
+        },
+        {
+          "url": "https://www.security-next.com/189129",
+          "title": "広報紙配布の宛名シール、別人宛名に重ね貼り - 大阪市",
+          "status": "pending",
+          "candidate_id": "aug-review-next-189129",
+          "reason": "8月の月間一覧から再取得。日付は報道日。公式公表日・初報と続報の関係、個人情報の影響範囲の照合が未完了のためカレンダーには未掲載。"
+        },
+        {
+          "url": "https://www.security-next.com/188970",
+          "title": "調査票発送時の宛名に本来不要な国籍を記載 - 杉並区",
+          "status": "pending",
+          "candidate_id": "aug-review-next-188970",
+          "reason": "8月の月間一覧から再取得。日付は報道日。公式公表日・初報と続報の関係、個人情報の影響範囲の照合が未完了のためカレンダーには未掲載。"
+        },
+        {
+          "url": "https://www.security-next.com/189118",
+          "title": "クラフトビール通販サイトで個人情報流出の可能性",
+          "status": "published_or_existing",
+          "incident_id": "beer-engawa-20260914"
+        },
+        {
+          "url": "https://www.security-next.com/188290",
+          "title": "情報流出の可能性、影響範囲など調査 - 農業用温室メーカー",
+          "status": "pending",
+          "candidate_id": "aug-review-next-188290",
+          "reason": "8月の月間一覧から再取得。日付は報道日。公式公表日・初報と続報の関係、個人情報の影響範囲の照合が未完了のためカレンダーには未掲載。"
+        },
+        {
+          "url": "https://www.security-next.com/189040",
+          "title": "移送作業日と勘違い、歯科健診記録票を誤って廃棄 - 杉並区",
+          "status": "excluded",
+          "reason": "溶解処理による滅失であり外部漏えいの根拠なし。"
+        },
+        {
+          "url": "https://www.security-next.com/189131",
+          "title": "研修案内メール誤送信で就農者のメアド流出 - 松山市",
+          "status": "pending",
+          "candidate_id": "aug-review-next-189131",
+          "reason": "8月の月間一覧から再取得。日付は報道日。公式公表日・初報と続報の関係、個人情報の影響範囲の照合が未完了のためカレンダーには未掲載。"
+        },
+        {
+          "url": "https://www.security-next.com/189072",
+          "title": "さくらのレンサバ顧客環境で侵害 - 販売管理システムも被害か",
+          "status": "published_or_existing",
+          "incident_id": "sakura-internet-20260910"
+        },
+        {
+          "url": "https://www.security-next.com/189028",
+          "title": "信用情報で保険営業先を選定、グループ会社へ提供 - アイフル",
+          "status": "published_or_existing",
+          "incident_id": "aiful-credit-20260817"
+        },
+        {
+          "url": "https://www.security-next.com/188885",
+          "title": "抽選販売の応募者情報が外部から閲覧可能に - トレカショップ",
+          "status": "pending",
+          "candidate_id": "aug-review-next-188885",
+          "reason": "8月の月間一覧から再取得。日付は報道日。公式公表日・初報と続報の関係、個人情報の影響範囲の照合が未完了のためカレンダーには未掲載。"
+        },
+        {
+          "url": "https://www.security-next.com/188449",
+          "title": "トークン漏洩で開発環境が侵害、内部に個人情報 - イノベーション",
+          "status": "published_or_existing",
+          "incident_id": "innovation-20260804"
+        },
+        {
+          "url": "https://www.security-next.com/188599",
+          "title": "従業員メルアカに不正アクセス、情報流出の可能性 - 一正蒲鉾",
+          "status": "published_or_existing",
+          "incident_id": "ichimasa-mail-20260806"
+        },
+        {
+          "url": "https://www.security-next.com/188537",
+          "title": "メルアカに不正アクセス、個人情報流出の可能性 - ナイス",
+          "status": "published_or_existing",
+          "incident_id": "nice-mail-20260806"
+        },
+        {
+          "url": "https://www.security-next.com/188461",
+          "title": "利用予定のウェブシステムに攻撃 - ウォーターサーバ事業者",
+          "status": "pending",
+          "candidate_id": "aug-review-next-188461",
+          "reason": "8月の月間一覧から再取得。日付は報道日。公式公表日・初報と続報の関係、個人情報の影響範囲の照合が未完了のためカレンダーには未掲載。"
+        },
+        {
+          "url": "https://www.security-next.com/188597",
+          "title": "複数役職員のメールアカウントに不正アクセス - 科学技術振興機構",
+          "status": "published_or_existing",
+          "incident_id": "jst-mail-20260807"
+        },
+        {
+          "url": "https://www.security-next.com/188878",
+          "title": "教員がサポート詐欺被害、校内研修で被害に気づく - 那覇市",
+          "status": "pending",
+          "candidate_id": "aug-review-next-188878",
+          "reason": "8月の月間一覧から再取得。日付は報道日。公式公表日・初報と続報の関係、個人情報の影響範囲の照合が未完了のためカレンダーには未掲載。"
+        },
+        {
+          "url": "https://www.security-next.com/188965",
+          "title": "ペット用品通販ショップに不正アクセス - 個人情報流出の可能性",
+          "status": "published_or_existing",
+          "incident_id": "charm-20260902"
+        },
+        {
+          "url": "https://www.security-next.com/188882",
+          "title": "医師が病室に個人情報含む書類を置き忘れ、患者宅から回収 - 川崎市",
+          "status": "pending",
+          "candidate_id": "aug-review-next-188882",
+          "reason": "8月の月間一覧から再取得。日付は報道日。公式公表日・初報と続報の関係、個人情報の影響範囲の照合が未完了のためカレンダーには未掲載。"
+        },
+        {
+          "url": "https://www.security-next.com/188876",
+          "title": "「うんこミュージアム」でサイト改ざん - 個人情報流出の可能性",
+          "status": "published_or_existing",
+          "incident_id": "unko-museum-20260814"
+        },
+        {
+          "url": "https://www.security-next.com/188294",
+          "title": "顧客の個人情報が流出した可能性 - 淡路島の宿泊施設",
+          "status": "published_or_existing",
+          "incident_id": "kaigetsu-20260803"
+        },
+        {
+          "url": "https://www.security-next.com/188705",
+          "title": "児童発達支援センターで個人情報含むUSBメモリを紛失 - 釧路町",
+          "status": "pending",
+          "candidate_id": "aug-review-next-188705",
+          "reason": "8月の月間一覧から再取得。日付は報道日。公式公表日・初報と続報の関係、個人情報の影響範囲の照合が未完了のためカレンダーには未掲載。"
+        },
+        {
+          "url": "https://www.security-next.com/188694",
+          "title": "個人情報含むHDD2台がリース返却後、所在不明に - 徳島県",
+          "status": "published_or_existing",
+          "incident_id": "tokushima-hdd-20260810"
+        },
+        {
+          "url": "https://www.security-next.com/188142",
+          "title": "VPN機器経由でランサム被害、メアド変更など対策実施 - 丸高興業",
+          "status": "pending",
+          "candidate_id": "aug-review-next-188142",
+          "reason": "8月の月間一覧から再取得。日付は報道日。公式公表日・初報と続報の関係、個人情報の影響範囲の照合が未完了のためカレンダーには未掲載。"
+        },
+        {
+          "url": "https://www.security-next.com/187742",
+          "title": "情報共有用のクラウドストレージに不正アクセス - 扶桑電通",
+          "status": "published_or_existing",
+          "incident_id": "fuso-dentsu-20260910"
+        },
+        {
+          "url": "https://www.security-next.com/188374",
+          "title": "健診名簿を会場に置き忘れ、8日後に拾得 - 長崎県健康事業団",
+          "status": "pending",
+          "candidate_id": "aug-review-next-188374",
+          "reason": "8月の月間一覧から再取得。日付は報道日。公式公表日・初報と続報の関係、個人情報の影響範囲の照合が未完了のためカレンダーには未掲載。"
+        },
+        {
+          "url": "https://www.security-next.com/188455",
+          "title": "研修施設のサイトが改ざん被害、影響などを調査 - 東海大",
+          "status": "pending",
+          "candidate_id": "aug-review-next-188455",
+          "reason": "8月の月間一覧から再取得。日付は報道日。公式公表日・初報と続報の関係、個人情報の影響範囲の照合が未完了のためカレンダーには未掲載。"
+        },
+        {
+          "url": "https://www.security-next.com/188151",
+          "title": "複数年度の傷病者情報含む救急活動記録票を誤廃棄 - 伊勢崎市",
+          "status": "pending",
+          "candidate_id": "aug-review-next-188151",
+          "reason": "8月の月間一覧から再取得。日付は報道日。公式公表日・初報と続報の関係、個人情報の影響範囲の照合が未完了のためカレンダーには未掲載。"
+        },
+        {
+          "url": "https://www.security-next.com/188530",
+          "title": "福知山産業支援センターのメールアカウントが侵害 - スパム踏み台に",
+          "status": "excluded",
+          "reason": "迷惑メール送信のみで個人情報流出の根拠なし。"
+        },
+        {
+          "url": "https://www.security-next.com/188714",
+          "title": "税額決定通知書を廃業事業所へ誤送付、所在不明に - 長岡市",
+          "status": "pending",
+          "candidate_id": "aug-review-next-188714",
+          "reason": "8月の月間一覧から再取得。日付は報道日。公式公表日・初報と続報の関係、個人情報の影響範囲の照合が未完了のためカレンダーには未掲載。"
+        },
+        {
+          "url": "https://www.security-next.com/188069",
+          "title": "小学校で健診結果を別の児童に配布、教員間の連携不足で - 矢板市",
+          "status": "pending",
+          "candidate_id": "aug-review-next-188069",
+          "reason": "8月の月間一覧から再取得。日付は報道日。公式公表日・初報と続報の関係、個人情報の影響範囲の照合が未完了のためカレンダーには未掲載。"
+        },
+        {
+          "url": "https://www.security-next.com/188692",
+          "title": "「Adobe Campaign Classic」に緊急更新 - 半月で3度目",
+          "status": "excluded",
+          "reason": "脆弱性修正情報。"
+        },
+        {
+          "url": "https://www.security-next.com/188193",
+          "title": "島根県が管理する共同研究サイトが改ざん - 外部サイトへ誘導",
+          "status": "excluded",
+          "reason": "サイト改ざんのみで個人情報の影響を確認できない。"
+        },
+        {
+          "url": "https://www.security-next.com/188603",
+          "title": "作業手順が曖昧、個人情報を誤って他省庁に送付 - デジタル庁",
+          "status": "published_or_existing",
+          "incident_id": "digital-license-20260807"
+        },
+        {
+          "url": "https://www.security-next.com/188058",
+          "title": "メールサーバに不正アクセス、スパムの踏み台に - 佐賀銀グループ会社",
+          "status": "excluded",
+          "reason": "個人情報の影響を確認できない。"
+        },
+        {
+          "url": "https://www.security-next.com/188594",
+          "title": "海外子会社に不正アクセス、影響範囲など調査 - ヨネックス",
+          "status": "excluded",
+          "reason": "台湾法人への攻撃。国内通販の別事案は掲載。"
+        },
+        {
+          "url": "https://www.security-next.com/188288",
+          "title": "EC構築サービス「ショップサーブ」、購入者や店舗の情報が流出",
+          "status": "published_or_existing",
+          "incident_id": "estore-20260801"
+        },
+        {
+          "url": "https://www.security-next.com/188371",
+          "title": "患者情報含むUSBメモリを紛失、座席下から発見 - 名古屋医療センター",
+          "status": "pending",
+          "candidate_id": "aug-review-next-188371",
+          "reason": "8月の月間一覧から再取得。日付は報道日。公式公表日・初報と続報の関係、個人情報の影響範囲の照合が未完了のためカレンダーには未掲載。"
+        },
+        {
+          "url": "https://www.security-next.com/188543",
+          "title": "児童扶養手当受給資格者の個人情報を自治体宛に誤送信 - 石川県",
+          "status": "pending",
+          "candidate_id": "aug-review-next-188543",
+          "reason": "8月の月間一覧から再取得。日付は報道日。公式公表日・初報と続報の関係、個人情報の影響範囲の照合が未完了のためカレンダーには未掲載。"
+        },
+        {
+          "url": "https://www.security-next.com/188541",
+          "title": "個人情報含むUSBメモリを庁舎内で紛失 - 穴水町",
+          "status": "pending",
+          "candidate_id": "aug-review-next-188541",
+          "reason": "8月の月間一覧から再取得。日付は報道日。公式公表日・初報と続報の関係、個人情報の影響範囲の照合が未完了のためカレンダーには未掲載。"
+        },
+        {
+          "url": "https://www.security-next.com/187812",
+          "title": "NASがランサム被害、内部に関係者連絡先 - 日本ご当地キャラクター協会",
+          "status": "pending",
+          "candidate_id": "aug-review-next-187812",
+          "reason": "8月の月間一覧から再取得。日付は報道日。公式公表日・初報と続報の関係、個人情報の影響範囲の照合が未完了のためカレンダーには未掲載。"
+        },
+        {
+          "url": "https://www.security-next.com/188467",
+          "title": "窓口で公開している台帳図面に個人情報 - 長野県",
+          "status": "pending",
+          "candidate_id": "aug-review-next-188467",
+          "reason": "8月の月間一覧から再取得。日付は報道日。公式公表日・初報と続報の関係、個人情報の影響範囲の照合が未完了のためカレンダーには未掲載。"
+        },
+        {
+          "url": "https://www.security-next.com/188296",
+          "title": "定食チェーンの持帰注文サイトで個人情報流出の可能性",
+          "status": "published_or_existing",
+          "incident_id": "miyamoto-munashi-20260803"
+        },
+        {
+          "url": "https://www.security-next.com/188445",
+          "title": "職員アカウントに不正アクセス、ニュース配信には影響なし - 共同通信",
+          "status": "published_or_existing",
+          "incident_id": "kyodo-mail-20260805"
+        },
+        {
+          "url": "https://www.security-next.com/188369",
+          "title": "イベント参加者の保護者向けメールで誤送信 - 霧島市",
+          "status": "pending",
+          "candidate_id": "aug-review-next-188369",
+          "reason": "8月の月間一覧から再取得。日付は報道日。公式公表日・初報と続報の関係、個人情報の影響範囲の照合が未完了のためカレンダーには未掲載。"
+        },
+        {
+          "url": "https://www.security-next.com/188366",
+          "title": "顧客管理DB侵害、個人情報流出の可能性 - EPARKリラク＆エステ",
+          "status": "published_or_existing",
+          "incident_id": "epark-peakmanager-20260924"
+        },
+        {
+          "url": "https://www.security-next.com/187993",
+          "title": "精神障害者手帳などの申請書が所在不明、交付遅延も - 宮城県",
+          "status": "excluded",
+          "reason": "7月報道の書類紛失。8月公表の根拠を確認できない。"
+        },
+        {
+          "url": "https://www.security-next.com/187998",
+          "title": "個人情報含む学内共有ファイルで公開設定ミス - 同志社大",
+          "status": "pending",
+          "candidate_id": "aug-review-next-187998",
+          "reason": "8月の月間一覧から再取得。日付は報道日。公式公表日・初報と続報の関係、個人情報の影響範囲の照合が未完了のためカレンダーには未掲載。"
+        },
+        {
+          "url": "https://www.security-next.com/188338",
+          "title": "不正アクセスで関係者情報が流出か、電力供給への影響なし - 中部電力",
+          "status": "published_or_existing",
+          "incident_id": "chuden-mail-20260804"
+        },
+        {
+          "url": "https://www.security-next.com/187809",
+          "title": "システム障害で原因調査、産廃回収は継続 - 環境開発工業",
+          "status": "excluded",
+          "reason": "7月21日の初報。個人情報の漏えい未確認。"
+        },
+        {
+          "url": "https://www.security-next.com/188198",
+          "title": "委託先で水道検針データ消失、誤操作で - 宜野湾市",
+          "status": "excluded",
+          "reason": "データ消失であり外部漏えいの根拠なし。"
+        },
+        {
+          "url": "https://www.security-next.com/188200",
+          "title": "教員がサポート詐欺被害、遠隔操作PCに個人情報 - 杏林大",
+          "status": "pending",
+          "candidate_id": "aug-review-next-188200",
+          "reason": "8月の月間一覧から再取得。日付は報道日。公式公表日・初報と続報の関係、個人情報の影響範囲の照合が未完了のためカレンダーには未掲載。"
+        },
+        {
+          "url": "https://www.security-next.com/188284",
+          "title": "従業員がフィッシング被害、連絡先情報が流出 - 講談社",
+          "status": "published_or_existing",
+          "incident_id": "kodansha-mail-20260803"
+        },
+        {
+          "url": "https://www.security-next.com/187667",
+          "title": "本人確認書類画像の保存先クラウドに設定不備 - 宿泊施設向けSaaS",
+          "status": "pending",
+          "candidate_id": "aug-review-next-187667",
+          "reason": "8月の月間一覧から再取得。日付は報道日。公式公表日・初報と続報の関係、個人情報の影響範囲の照合が未完了のためカレンダーには未掲載。"
+        },
+        {
+          "url": "https://www.security-next.com/188148",
+          "title": "県立高のオープンスクール申込フォームで設定ミス - 三重県",
+          "status": "pending",
+          "candidate_id": "aug-review-next-188148",
+          "reason": "8月の月間一覧から再取得。日付は報道日。公式公表日・初報と続報の関係、個人情報の影響範囲の照合が未完了のためカレンダーには未掲載。"
+        },
+        {
+          "url": "https://www.security-next.com/187953",
+          "title": "検針員が個人情報含む資料を一時紛失 - 広島県水道広域連合企業団",
+          "status": "pending",
+          "candidate_id": "aug-review-next-187953",
+          "reason": "8月の月間一覧から再取得。日付は報道日。公式公表日・初報と続報の関係、個人情報の影響範囲の照合が未完了のためカレンダーには未掲載。"
+        },
+        {
+          "url": "https://www.security-next.com/187748",
+          "title": "システム侵害で原因や影響など調査 - CRM開発会社",
+          "status": "pending",
+          "candidate_id": "aug-review-next-187748",
+          "reason": "8月の月間一覧から再取得。日付は報道日。公式公表日・初報と続報の関係、個人情報の影響範囲の照合が未完了のためカレンダーには未掲載。"
+        }
+      ],
+      "additional_source_fetches": [
+        {
+          "url": "https://www.mandarake.co.jp/maintenance.html",
+          "status": "retrieved"
+        },
+        {
+          "url": "https://newsdig.tbs.co.jp/articles/-/2910096?display=1",
+          "status": "retrieved"
+        },
+        {
+          "url": "https://www.niigata-nippo.co.jp/articles/-/898121",
+          "status": "retrieved"
+        },
+        {
+          "url": "https://www.am-bk.co.jp/news/docs/important_20260831.pdf",
+          "status": "retrieved"
+        },
+        {
+          "url": "https://news.ntv.co.jp/category/society/ra4a7bd5383ee94dbbb5a03b8f97d94189",
+          "status": "retrieved"
+        },
+        {
+          "url": "https://www.minpo.jp/articles/-/216861",
+          "status": "retrieved"
+        },
+        {
+          "url": "https://www.f-kankou.jp/news/31941",
+          "status": "retrieved"
+        },
+        {
+          "url": "https://tdnet-pdf.kabutan.jp/20260828/140120260828528104.pdf",
+          "status": "retrieved"
+        },
+        {
+          "url": "https://www.thinca.co.jp/news/202609017_news/",
+          "status": "retrieved"
+        },
+        {
+          "url": "https://point.mkp.jp/news/2026/08/27/14-809/",
+          "status": "retrieved"
+        },
+        {
+          "url": "https://www.mkyosho.co.jp/news/2026/07/28/13-770/?list=1",
+          "status": "retrieved"
+        },
+        {
+          "url": "https://www.bunka758.or.jp/news/headquarters/detail/_1_11.html",
+          "status": "unavailable"
+        },
+        {
+          "url": "https://www.mhlw.go.jp/stf/newpage_75810.html",
+          "status": "retrieved"
+        },
+        {
+          "url": "https://www.mhlw.go.jp/content/11302000/001742841.pdf",
+          "status": "retrieved"
+        },
+        {
+          "url": "https://news.web.nhk/newsweb/na/nd-20260828de47099",
+          "status": "retrieved"
+        },
+        {
+          "url": "https://shop.kind.co.jp/blogs/news/notice-20260828",
+          "status": "retrieved"
+        },
+        {
+          "url": "https://www.yellowhat.jp/information/yellowhat/202608.html",
+          "status": "retrieved"
+        },
+        {
+          "url": "https://www.nikkei.com/nkd/disclosure/tdnr/20260828527904/",
+          "status": "retrieved"
+        },
+        {
+          "url": "https://www.corona.co.jp/news/other/post-439.html",
+          "status": "retrieved"
+        },
+        {
+          "url": "https://www.zurich.co.jp/aboutus/news/news/2026/0827/",
+          "status": "retrieved"
+        },
+        {
+          "url": "https://www.japan.swagelok.com/whatsnew/notice-of-march-2026-cyber-incident",
+          "status": "unavailable"
+        },
+        {
+          "url": "https://www.minyu-net.com/news/detail/2026082607453954005",
+          "status": "unavailable"
+        },
+        {
+          "url": "https://news.ksb.co.jp/article/16836393",
+          "status": "unavailable"
+        },
+        {
+          "url": "https://www.hands-holdings.co.jp/news/news20260825/",
+          "status": "retrieved"
+        },
+        {
+          "url": "https://www.pref.saga.lg.jp/kyouiku/kiji003120819/index.html",
+          "status": "retrieved"
+        },
+        {
+          "url": "https://www.nishinippon.co.jp/item/1530632/",
+          "status": "retrieved"
+        },
+        {
+          "url": "https://voising-official.com/news/937",
+          "status": "unavailable"
+        },
+        {
+          "url": "https://www.fancrew.co.jp/news/news-press-release/2608_notice-of-system-temporary-suspension-and-potential-data-breach-due-to-unauthorized-access.html",
+          "status": "retrieved"
+        },
+        {
+          "url": "https://www.semco.net/news/detail/12790",
+          "status": "retrieved"
+        },
+        {
+          "url": "https://prtimes.jp/main/html/rd/p/000000061.000065209.html",
+          "status": "retrieved"
+        },
+        {
+          "url": "https://www.rakuten-booksnetwork.co.jp/2026/08/21/unauthorized-access-notice/index.html",
+          "status": "retrieved"
+        },
+        {
+          "url": "https://news.jp/i/1463456456778105649?c=428427385053398113",
+          "status": "unavailable"
+        },
+        {
+          "url": "https://internet.watch.impress.co.jp/docs/news/2134682.html",
+          "status": "retrieved"
+        },
+        {
+          "url": "https://www.ne-chemcat.co.jp/new_info/info/2026/0820158.html",
+          "status": "retrieved"
+        },
+        {
+          "url": "https://eat.jp/eat/?ehimenews=ehimenews2084081032020260821",
+          "status": "unavailable"
+        },
+        {
+          "url": "https://news.web.nhk/newsweb/na/nb-8000026983",
+          "status": "unavailable"
+        },
+        {
+          "url": "https://www.expo2025.or.jp/news/news-20260820-01/",
+          "status": "retrieved"
+        },
+        {
+          "url": "https://www.itmedia.co.jp/news/article/2608/20/2000000657/",
+          "status": "retrieved"
+        },
+        {
+          "url": "https://voising-official.com/news/931",
+          "status": "unavailable"
+        },
+        {
+          "url": "https://xtech.nikkei.com/atcl/nxt/column/18/00598/010900379/",
+          "status": "retrieved"
+        },
+        {
+          "url": "https://ssl4.eir-parts.net/doc/5533/tdnet/2876403/00.pdf",
+          "status": "unavailable"
+        },
+        {
+          "url": "https://www.nikkei.com/article/DGXZQOUF208DM0Q6A820C2000000/",
+          "status": "retrieved"
+        },
+        {
+          "url": "https://media.cota.co.jp/media/c461e507-b70e-4543-81b6-38210d442a3b.pdf",
+          "status": "retrieved"
+        },
+        {
+          "url": "https://www.pref.shizuoka.jp/_res/projects/default_project/_page_/001/085/031/02_0819boujou.pdf",
+          "status": "retrieved"
+        },
+        {
+          "url": "https://news.ntv.co.jp/n/jrt/category/society/jr73527de2762444ed863259b6be41f7f9",
+          "status": "unavailable"
+        },
+        {
+          "url": "https://news.livedoor.com/article/detail/32107133/",
+          "status": "retrieved"
+        },
+        {
+          "url": "https://www.sakura.ad.jp/corporate/information/newsreleases/2026/08/19/1968225633/",
+          "status": "retrieved"
+        },
+        {
+          "url": "https://ascii.jp/elem/000/004/427/4427853/",
+          "status": "retrieved"
+        },
+        {
+          "url": "https://www.sakura.ad.jp/corporate/information/newsreleases/2026/09/10/1968225692/",
+          "status": "retrieved"
+        },
+        {
+          "url": "https://www.haradacorp.co.jp/news/detail.php?id=368",
+          "status": "retrieved"
+        },
+        {
+          "url": "https://www.haradacorp.co.jp/news/detail.php?id=371",
+          "status": "retrieved"
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/templates/prs/350/0000189481.html",
+          "status": "retrieved"
+        },
+        {
+          "url": "https://www.kanaloco.jp/news/government/article-1297889.html",
+          "status": "unavailable"
+        },
+        {
+          "url": "https://web-life.co.jp/news/6551/",
+          "status": "retrieved"
+        },
+        {
+          "url": "https://topics.smt.docomo.ne.jp/article/abematimes/nation/abematimes-10268214",
+          "status": "unavailable"
+        },
+        {
+          "url": "https://internet.watch.impress.co.jp/docs/news/2134205.html",
+          "status": "retrieved"
+        },
+        {
+          "url": "https://www.topics.or.jp/articles/-/1480575",
+          "status": "retrieved"
+        },
+        {
+          "url": "https://www.lvi.co.jp/company-news/2026/08/17/post-2244/",
+          "status": "retrieved"
+        },
+        {
+          "url": "https://www.security-next.com/180634",
+          "status": "retrieved"
+        },
+        {
+          "url": "https://kbcgroup.ac.jp/21134",
+          "status": "retrieved"
+        },
+        {
+          "url": "https://www.solnet.ne.jp/news/20260817",
+          "status": "retrieved"
+        },
+        {
+          "url": "https://www.sakura.ad.jp/corporate/information/newsreleases/2026/08/17/1968225614/",
+          "status": "retrieved"
+        },
+        {
+          "url": "https://internet.watch.impress.co.jp/docs/news/2133082.html",
+          "status": "retrieved"
+        },
+        {
+          "url": "https://www.itmedia.co.jp/news/article/2608/17/2000000563/",
+          "status": "retrieved"
+        },
+        {
+          "url": "https://ssl4.eir-parts.net/doc/6046/tdnet/2874138/00.pdf",
+          "status": "unavailable"
+        },
+        {
+          "url": "https://www.nichirei.co.jp/news/2026/530.html",
+          "status": "retrieved"
+        },
+        {
+          "url": "https://www.nichirei.co.jp/news/2026/524.html",
+          "status": "retrieved"
+        },
+        {
+          "url": "https://www.okinawatimes.co.jp/articles/-/1901509",
+          "status": "retrieved"
+        },
+        {
+          "url": "https://cybersecurity-info.com/news/two-months-before-discovery-support-scam-at-a-naha-city-public-schoolpersonal-information-of-students-leaked-to-outside-parties/",
+          "status": "retrieved"
+        },
+        {
+          "url": "https://charm.co.jp/honten/info/notice/20260813.html",
+          "status": "retrieved"
+        },
+        {
+          "url": "https://charm.co.jp/honten/info/notice/20260820.html",
+          "status": "retrieved"
+        },
+        {
+          "url": "https://www.charm.co.jp/honten/info/notice/20260901.html",
+          "status": "retrieved"
+        },
+        {
+          "url": "https://trezor.io/blog/news/recent-customer-data-exposed-in-shipping-provider-incident",
+          "status": "unavailable"
+        },
+        {
+          "url": "https://www.bleepingcomputer.com/news/security/trezor-discloses-data-breach-affecting-nearly-14-000-customers/",
+          "status": "unavailable"
+        },
+        {
+          "url": "https://crypto.news/breaking-trezor-says-shipmonk-breach-exposed-data-of-13689-customers/",
+          "status": "unavailable"
+        },
+        {
+          "url": "https://www.tokyo-gas.co.jp/network/news/press/20260813-01.html",
+          "status": "retrieved"
+        },
+        {
+          "url": "https://news.tv-asahi.co.jp/news_economy/articles/000526105.html",
+          "status": "retrieved"
+        },
+        {
+          "url": "https://www.yomiuri.co.jp/economy/20260813-GYT1T00222/",
+          "status": "retrieved"
+        },
+        {
+          "url": "https://news.web.nhk/newsweb/na/nd-20260813de43666",
+          "status": "retrieved"
+        },
+        {
+          "url": "https://www.yonex.co.jp/news/2026/4022.html",
+          "status": "retrieved"
+        },
+        {
+          "url": "https://yonexshop.jp/news/274",
+          "status": "retrieved"
+        },
+        {
+          "url": "https://www.bci.co.jp/netkeizai/article/20174",
+          "status": "retrieved"
+        },
+        {
+          "url": "https://rizap.co.jp/news/vNh1nMuA",
+          "status": "retrieved"
+        },
+        {
+          "url": "https://aporito-online.com/password",
+          "status": "retrieved"
+        },
+        {
+          "url": "https://news.infoseek.co.jp/article/ksb_16800653/",
+          "status": "unavailable"
+        },
+        {
+          "url": "https://isabou.net/oshirase/index_20260810.asp",
+          "status": "retrieved"
+        },
+        {
+          "url": "https://www.godai.co.jp/post/%E5%80%8B%E4%BA%BA%E6%83%85%E5%A0%B1%E6%BC%8F%E3%81%88%E3%81%84%E3%81%AE%E5%8F%AF%E8%83%BD%E6%80%A7%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B%E3%81%A8%E3%81%8A%E8%A9%AB%E3%81%B3",
+          "status": "retrieved"
+        },
+        {
+          "url": "https://www.gig.co.jp/ir/news/8383",
+          "status": "retrieved"
+        },
+        {
+          "url": "https://www.pref.tokushima.lg.jp/kenseijoho/hodoteikyoshiryo/7315616/",
+          "status": "retrieved"
+        },
+        {
+          "url": "https://www.topics.or.jp/articles/-/1476928",
+          "status": "retrieved"
+        },
+        {
+          "url": "https://www.jst.go.jp/osirase/2026/20260807-2.html",
+          "status": "retrieved"
+        },
+        {
+          "url": "https://www.itmedia.co.jp/news/article/2608/10/2000000480/",
+          "status": "retrieved"
+        },
+        {
+          "url": "https://www.digital.go.jp/news/6d720c40-a064-4e48-a698-c8123ba53299",
+          "status": "retrieved"
+        },
+        {
+          "url": "https://www.city.amagasaki.hyogo.jp/_res/projects/default_project/_page_/001/043/968/260807-01.pdf",
+          "status": "retrieved"
+        },
+        {
+          "url": "https://www.kobe-np.co.jp/news/hanshin/202608/0020688521.shtml",
+          "status": "retrieved"
+        },
+        {
+          "url": "https://contents.xj-storage.jp/xcontents/AS00463/e2f21951/695f/4a06/9479/dab1be29f32e/20260806085229423s.pdf",
+          "status": "retrieved"
+        },
+        {
+          "url": "https://www.nice.co.jp/release/2026_08_06.html",
+          "status": "retrieved"
+        },
+        {
+          "url": "https://www.pref.okinawa.lg.jp/shigoto/nogyo/1010390/1040983.html",
+          "status": "unavailable"
+        },
+        {
+          "url": "https://www.okinawatimes.co.jp/articles/-/1897786",
+          "status": "retrieved"
+        },
+        {
+          "url": "https://m-munashi.com/pages/incident202607",
+          "status": "retrieved"
+        },
+        {
+          "url": "https://www.sodick.co.jp/pdf/260805130030_20260805_husei_saisyu_JP.pdf",
+          "status": "retrieved"
+        },
+        {
+          "url": "https://www.pref.kyoto.jp/press/documents/26080407.pdf",
+          "status": "unavailable"
+        },
+        {
+          "url": "https://www.cariteco.com/news/2026_08_04_17289",
+          "status": "retrieved"
+        },
+        {
+          "url": "https://www.innovation.co.jp/2026/08/github%E3%81%B8%E3%81%AE%E4%B8%8D%E6%AD%A3%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B%EF%BC%88%E7%A2%BA%E5%AE%9A%E5%A0%B1%EF%BC%89/",
+          "status": "retrieved"
+        },
+        {
+          "url": "https://www.innovation.co.jp/2026/08/github%e3%81%b8%e3%81%ae%e4%b8%8d%e6%ad%a3%e3%82%a2%e3%82%af%e3%82%bb%e3%82%b9%e3%81%ab%e9%96%a2%e3%81%99%e3%82%8b%e8%a9%b3%e7%b4%b0%e8%aa%bf%e6%9f%bb%e3%81%ae%e5%ae%8c%e4%ba%86%e3%81%8a%e3%82%88/",
+          "status": "retrieved"
+        },
+        {
+          "url": "https://www.innovation.co.jp/2026/08/%E3%80%8Egithub%E3%80%8F%E3%81%B8%E3%81%AE%E4%B8%8D%E6%AD%A3%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E7%99%BA%E7%94%9F%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B%E3%81%A8/",
+          "status": "retrieved"
+        },
+        {
+          "url": "https://www.chuden.co.jp/publicity/press/1218169_3273.html",
+          "status": "retrieved"
+        },
+        {
+          "url": "https://mainichi.jp/articles/20260804/k00/00m/020/174000c",
+          "status": "retrieved"
+        },
+        {
+          "url": "https://www.pref.fukuoka.lg.jp/press-release/mail260803.html",
+          "status": "retrieved"
+        },
+        {
+          "url": "https://www.nishinippon.co.jp/item/1523246/",
+          "status": "retrieved"
+        },
+        {
+          "url": "https://web.pref.hyogo.lg.jp/kk04/press/20260803.html",
+          "status": "retrieved"
+        },
+        {
+          "url": "https://www.fnn.jp/articles/-/1087902",
+          "status": "unavailable"
+        },
+        {
+          "url": "https://www.kodansha.co.jp/notices/723",
+          "status": "retrieved"
+        },
+        {
+          "url": "https://www.itmedia.co.jp/news/article/2608/03/2000000357/",
+          "status": "retrieved"
+        },
+        {
+          "url": "https://estore.jp/press/20260801/",
+          "status": "retrieved"
+        },
+        {
+          "url": "https://estore.jp/press/20260802/",
+          "status": "retrieved"
+        }
+      ],
+      "limitations": [
+        "Security NEXTの8月一覧10ページから抽出した79記事、TMI月次一覧、Pahooの8月掲載箇所を照合。ScanNetSecurityの月間一覧には取得制限があり全ページを取得できていない。",
+        "取得できた資料すべてを掲載したわけではない。公表日等を確定できない報道は候補へ保存。Pahooのみで拾った未確定資料も取得履歴に保存しており、網羅性は保証しない。",
+        "各社の公表を事案として記録。同じ共通基盤の影響を受けた企業間では人数・件数が重複し得る。",
+        "新規事案の外部ITベンダーについて全役割の追加調査は未実施。",
+        "公表日修正後も既存の識別子は維持し、9月・10月の調査結果は同じ記録に残した。"
+      ]
     }
   ]
 }

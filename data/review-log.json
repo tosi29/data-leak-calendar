@@ -2172,5 +2172,865 @@
     "source_urls": [
       "https://www.bunka758.or.jp/news/headquarters/detail/_1_11.html"
     ]
+  },
+  {
+    "candidate": {
+      "id": "estore-20260801",
+      "organization": "Ｅストアー",
+      "reported_on": "2026-08-01",
+      "verification": "pending",
+      "reference_url": "https://estore.jp/press/20260801/",
+      "note": "8月全月の再取得から抽出した追加事案"
+    },
+    "reviewed_on": "2026-10-15",
+    "resolution": "published",
+    "incident_ids": [
+      "estore-20260801"
+    ],
+    "reason": "公式本文で公表日、対象情報、規模の単位、漏えいの確認状況を照合。",
+    "source_urls": [
+      "https://estore.jp/press/20260801/",
+      "https://estore.jp/press/20260802/"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "designphil-20260803",
+      "organization": "デザインフィル",
+      "reported_on": "2026-08-03",
+      "verification": "pending",
+      "reference_url": "https://www.designphil.co.jp/information/news/entry-8739/",
+      "note": "8月全月の再取得から抽出した追加事案"
+    },
+    "reviewed_on": "2026-10-15",
+    "resolution": "published",
+    "incident_ids": [
+      "designphil-20260803"
+    ],
+    "reason": "公式本文で公表日、対象情報、規模の単位、漏えいの確認状況を照合。",
+    "source_urls": [
+      "https://www.designphil.co.jp/information/news/entry-8739/"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "kaigetsu-20260803",
+      "organization": "海月館グループ",
+      "reported_on": "2026-08-03",
+      "verification": "pending",
+      "reference_url": "https://www.kaigetsu.jp/info/info20260803/",
+      "note": "8月全月の再取得から抽出した追加事案"
+    },
+    "reviewed_on": "2026-10-15",
+    "resolution": "published",
+    "incident_ids": [
+      "kaigetsu-20260803"
+    ],
+    "reason": "公式本文で公表日、対象情報、規模の単位、漏えいの確認状況を照合。",
+    "source_urls": [
+      "https://www.kaigetsu.jp/info/info20260803/"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "kodansha-mail-20260803",
+      "organization": "講談社",
+      "reported_on": "2026-08-03",
+      "verification": "pending",
+      "reference_url": "https://www.kodansha.co.jp/notices/723",
+      "note": "8月全月の再取得から抽出した追加事案"
+    },
+    "reviewed_on": "2026-10-15",
+    "resolution": "published",
+    "incident_ids": [
+      "kodansha-mail-20260803"
+    ],
+    "reason": "公式本文で公表日、対象情報、規模の単位、漏えいの確認状況を照合。",
+    "source_urls": [
+      "https://www.kodansha.co.jp/notices/723"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "fukuoka-farming-20260803",
+      "organization": "福岡県筑後農林事務所",
+      "reported_on": "2026-08-03",
+      "verification": "pending",
+      "reference_url": "https://www.pref.fukuoka.lg.jp/press-release/mail260803.html",
+      "note": "8月全月の再取得から抽出した追加事案"
+    },
+    "reviewed_on": "2026-10-15",
+    "resolution": "published",
+    "incident_ids": [
+      "fukuoka-farming-20260803"
+    ],
+    "reason": "公式本文で公表日、対象情報、規模の単位、漏えいの確認状況を照合。",
+    "source_urls": [
+      "https://www.pref.fukuoka.lg.jp/press-release/mail260803.html"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "hyogo-proposal-20260803",
+      "organization": "兵庫県",
+      "reported_on": "2026-08-03",
+      "verification": "pending",
+      "reference_url": "https://web.pref.hyogo.lg.jp/kk04/press/20260803.html",
+      "note": "8月全月の再取得から抽出した追加事案"
+    },
+    "reviewed_on": "2026-10-15",
+    "resolution": "published",
+    "incident_ids": [
+      "hyogo-proposal-20260803"
+    ],
+    "reason": "公式本文で公表日、対象情報、規模の単位、漏えいの確認状況を照合。",
+    "source_urls": [
+      "https://web.pref.hyogo.lg.jp/kk04/press/20260803.html"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "chuden-mail-20260804",
+      "organization": "中部電力",
+      "reported_on": "2026-08-04",
+      "verification": "pending",
+      "reference_url": "https://www.chuden.co.jp/publicity/press/1218169_3273.html",
+      "note": "8月全月の再取得から抽出した追加事案"
+    },
+    "reviewed_on": "2026-10-15",
+    "resolution": "published",
+    "incident_ids": [
+      "chuden-mail-20260804"
+    ],
+    "reason": "公式本文で公表日、対象情報、規模の単位、漏えいの確認状況を照合。",
+    "source_urls": [
+      "https://www.chuden.co.jp/publicity/press/1218169_3273.html"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "innovation-20260804",
+      "organization": "イノベーション",
+      "reported_on": "2026-08-04",
+      "verification": "pending",
+      "reference_url": "https://www.innovation.co.jp/2026/08/%e3%80%8egithub%e3%80%8f%e3%81%b8%e3%81%ae%e4%b8%8d%e6%ad%a3%e3%82%a2%e3%82%af%e3%82%bb%e3%82%b9%e7%99%ba%e7%94%9f%e3%81%ab%e9%96%a2%e3%81%99%e3%82%8b%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b%e3%81%a8/",
+      "note": "8月全月の再取得から抽出した追加事案"
+    },
+    "reviewed_on": "2026-10-15",
+    "resolution": "published",
+    "incident_ids": [
+      "innovation-20260804"
+    ],
+    "reason": "公式本文で公表日、対象情報、規模の単位、漏えいの確認状況を照合。",
+    "source_urls": [
+      "https://www.innovation.co.jp/2026/08/%e3%80%8egithub%e3%80%8f%e3%81%b8%e3%81%ae%e4%b8%8d%e6%ad%a3%e3%82%a2%e3%82%af%e3%82%bb%e3%82%b9%e7%99%ba%e7%94%9f%e3%81%ab%e9%96%a2%e3%81%99%e3%82%8b%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b%e3%81%a8/",
+      "https://www.innovation.co.jp/2026/08/github%e3%81%b8%e3%81%ae%e4%b8%8d%e6%ad%a3%e3%82%a2%e3%82%af%e3%82%bb%e3%82%b9%e3%81%ab%e9%96%a2%e3%81%99%e3%82%8b%e8%a9%b3%e7%b4%b0%e8%aa%bf%e6%9f%bb%e3%81%ae%e5%ae%8c%e4%ba%86%e3%81%8a%e3%82%88/",
+      "https://www.innovation.co.jp/2026/08/github%E3%81%B8%E3%81%AE%E4%B8%8D%E6%AD%A3%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B%EF%BC%88%E7%A2%BA%E5%AE%9A%E5%A0%B1%EF%BC%89/"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "kyodo-mail-20260805",
+      "organization": "共同通信社",
+      "reported_on": "2026-08-05",
+      "verification": "pending",
+      "reference_url": "https://www.kyodonews.jp/information/2026/post-150.html",
+      "note": "8月全月の再取得から抽出した追加事案"
+    },
+    "reviewed_on": "2026-10-15",
+    "resolution": "published",
+    "incident_ids": [
+      "kyodo-mail-20260805"
+    ],
+    "reason": "公式本文で公表日、対象情報、規模の単位、漏えいの確認状況を照合。",
+    "source_urls": [
+      "https://www.kyodonews.jp/information/2026/post-150.html"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "marukyu-shop-20260805",
+      "organization": "マルキュー",
+      "reported_on": "2026-08-05",
+      "verification": "pending",
+      "reference_url": "https://marukyu-shop.co.jp/hpgen/HPB/entries/93.html",
+      "note": "8月全月の再取得から抽出した追加事案"
+    },
+    "reviewed_on": "2026-10-15",
+    "resolution": "published",
+    "incident_ids": [
+      "marukyu-shop-20260805"
+    ],
+    "reason": "公式本文で公表日、対象情報、規模の単位、漏えいの確認状況を照合。",
+    "source_urls": [
+      "https://marukyu-shop.co.jp/hpgen/HPB/entries/93.html"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "sodick-20260805",
+      "organization": "ソディック",
+      "reported_on": "2026-08-05",
+      "verification": "pending",
+      "reference_url": "https://www.sodick.co.jp/pdf/260805130030_20260805_husei_saisyu_JP.pdf",
+      "note": "8月全月の再取得から抽出した追加事案"
+    },
+    "reviewed_on": "2026-10-15",
+    "resolution": "published",
+    "incident_ids": [
+      "sodick-20260805"
+    ],
+    "reason": "公式本文で公表日、対象情報、規模の単位、漏えいの確認状況を照合。",
+    "source_urls": [
+      "https://www.sodick.co.jp/pdf/260805130030_20260805_husei_saisyu_JP.pdf"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "ichimasa-mail-20260806",
+      "organization": "一正蒲鉾",
+      "reported_on": "2026-08-06",
+      "verification": "pending",
+      "reference_url": "https://contents.xj-storage.jp/xcontents/AS00463/e2f21951/695f/4a06/9479/dab1be29f32e/20260806085229423s.pdf",
+      "note": "8月全月の再取得から抽出した追加事案"
+    },
+    "reviewed_on": "2026-10-15",
+    "resolution": "published",
+    "incident_ids": [
+      "ichimasa-mail-20260806"
+    ],
+    "reason": "公式本文で公表日、対象情報、規模の単位、漏えいの確認状況を照合。",
+    "source_urls": [
+      "https://contents.xj-storage.jp/xcontents/AS00463/e2f21951/695f/4a06/9479/dab1be29f32e/20260806085229423s.pdf"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "nice-mail-20260806",
+      "organization": "ナイス",
+      "reported_on": "2026-08-06",
+      "verification": "pending",
+      "reference_url": "https://www.nice.co.jp/release/2026_08_06.html",
+      "note": "8月全月の再取得から抽出した追加事案"
+    },
+    "reviewed_on": "2026-10-15",
+    "resolution": "published",
+    "incident_ids": [
+      "nice-mail-20260806"
+    ],
+    "reason": "公式本文で公表日、対象情報、規模の単位、漏えいの確認状況を照合。",
+    "source_urls": [
+      "https://www.nice.co.jp/release/2026_08_06.html"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "leange-20260806",
+      "organization": "ル・アンジェ",
+      "reported_on": "2026-08-06",
+      "verification": "pending",
+      "reference_url": "https://www.leange.co.jp/corporate_news/post-12669/",
+      "note": "8月全月の再取得から抽出した追加事案"
+    },
+    "reviewed_on": "2026-10-15",
+    "resolution": "published",
+    "incident_ids": [
+      "leange-20260806"
+    ],
+    "reason": "公式本文で公表日、対象情報、規模の単位、漏えいの確認状況を照合。",
+    "source_urls": [
+      "https://www.leange.co.jp/corporate_news/post-12669/"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "jst-mail-20260807",
+      "organization": "科学技術振興機構（JST）",
+      "reported_on": "2026-08-07",
+      "verification": "pending",
+      "reference_url": "https://www.jst.go.jp/osirase/2026/20260807-2.html",
+      "note": "8月全月の再取得から抽出した追加事案"
+    },
+    "reviewed_on": "2026-10-15",
+    "resolution": "published",
+    "incident_ids": [
+      "jst-mail-20260807"
+    ],
+    "reason": "公式本文で公表日、対象情報、規模の単位、漏えいの確認状況を照合。",
+    "source_urls": [
+      "https://www.jst.go.jp/osirase/2026/20260807-2.html"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "digital-license-20260807",
+      "organization": "デジタル庁",
+      "reported_on": "2026-08-07",
+      "verification": "pending",
+      "reference_url": "https://www.digital.go.jp/news/6d720c40-a064-4e48-a698-c8123ba53299",
+      "note": "8月全月の再取得から抽出した追加事案"
+    },
+    "reviewed_on": "2026-10-15",
+    "resolution": "published",
+    "incident_ids": [
+      "digital-license-20260807"
+    ],
+    "reason": "公式本文で公表日、対象情報、規模の単位、漏えいの確認状況を照合。",
+    "source_urls": [
+      "https://www.digital.go.jp/news/6d720c40-a064-4e48-a698-c8123ba53299"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "godai-isabou-20260810",
+      "organization": "五大開発",
+      "reported_on": "2026-08-10",
+      "verification": "pending",
+      "reference_url": "https://isabou.net/oshirase/index_20260810.asp",
+      "note": "8月全月の再取得から抽出した追加事案"
+    },
+    "reviewed_on": "2026-10-15",
+    "resolution": "published",
+    "incident_ids": [
+      "godai-isabou-20260810"
+    ],
+    "reason": "公式本文で公表日、対象情報、規模の単位、漏えいの確認状況を照合。",
+    "source_urls": [
+      "https://isabou.net/oshirase/index_20260810.asp"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "gigworks-20260810",
+      "organization": "ギグワークス",
+      "reported_on": "2026-08-10",
+      "verification": "pending",
+      "reference_url": "https://www.gig.co.jp/ir/news/8383",
+      "note": "8月全月の再取得から抽出した追加事案"
+    },
+    "reviewed_on": "2026-10-15",
+    "resolution": "published",
+    "incident_ids": [
+      "gigworks-20260810"
+    ],
+    "reason": "公式本文で公表日、対象情報、規模の単位、漏えいの確認状況を照合。",
+    "source_urls": [
+      "https://www.gig.co.jp/ir/news/8383"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "tokushima-hdd-20260810",
+      "organization": "徳島県",
+      "reported_on": "2026-08-10",
+      "verification": "pending",
+      "reference_url": "https://www.pref.tokushima.lg.jp/kenseijoho/hodoteikyoshiryo/7315616/",
+      "note": "8月全月の再取得から抽出した追加事案"
+    },
+    "reviewed_on": "2026-10-15",
+    "resolution": "published",
+    "incident_ids": [
+      "tokushima-hdd-20260810"
+    ],
+    "reason": "公式本文で公表日、対象情報、規模の単位、漏えいの確認状況を照合。",
+    "source_urls": [
+      "https://www.pref.tokushima.lg.jp/kenseijoho/hodoteikyoshiryo/7315616/"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "yonex-shop-20260812",
+      "organization": "ヨネックス",
+      "reported_on": "2026-08-12",
+      "verification": "pending",
+      "reference_url": "https://www.yonex.co.jp/news/2026/4022.html",
+      "note": "8月全月の再取得から抽出した追加事案"
+    },
+    "reviewed_on": "2026-10-15",
+    "resolution": "published",
+    "incident_ids": [
+      "yonex-shop-20260812"
+    ],
+    "reason": "公式本文で公表日、対象情報、規模の単位、漏えいの確認状況を照合。",
+    "source_urls": [
+      "https://www.yonex.co.jp/news/2026/4022.html"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "tokyo-gas-pc-20260813",
+      "organization": "東京ガスネットワーク",
+      "reported_on": "2026-08-13",
+      "verification": "pending",
+      "reference_url": "https://www.tokyo-gas.co.jp/network/news/press/20260813-01.html",
+      "note": "8月全月の再取得から抽出した追加事案"
+    },
+    "reviewed_on": "2026-10-15",
+    "resolution": "published",
+    "incident_ids": [
+      "tokyo-gas-pc-20260813"
+    ],
+    "reason": "公式本文で公表日、対象情報、規模の単位、漏えいの確認状況を照合。",
+    "source_urls": [
+      "https://www.tokyo-gas.co.jp/network/news/press/20260813-01.html"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "kbc-mail-20260817",
+      "organization": "KBC学園",
+      "reported_on": "2026-08-17",
+      "verification": "pending",
+      "reference_url": "https://kbcgroup.ac.jp/21134",
+      "note": "8月全月の再取得から抽出した追加事案"
+    },
+    "reviewed_on": "2026-10-15",
+    "resolution": "published",
+    "incident_ids": [
+      "kbc-mail-20260817"
+    ],
+    "reason": "公式本文で公表日、対象情報、規模の単位、漏えいの確認状況を照合。",
+    "source_urls": [
+      "https://kbcgroup.ac.jp/21134"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "kaga-solnet-20260817",
+      "organization": "加賀ソルネット",
+      "reported_on": "2026-08-17",
+      "verification": "pending",
+      "reference_url": "https://www.solnet.ne.jp/news/20260817",
+      "note": "8月全月の再取得から抽出した追加事案"
+    },
+    "reviewed_on": "2026-10-15",
+    "resolution": "published",
+    "incident_ids": [
+      "kaga-solnet-20260817"
+    ],
+    "reason": "公式本文で公表日、対象情報、規模の単位、漏えいの確認状況を照合。",
+    "source_urls": [
+      "https://www.solnet.ne.jp/news/20260817"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "logicvein-20260817",
+      "organization": "ロジックベイン",
+      "reported_on": "2026-08-17",
+      "verification": "pending",
+      "reference_url": "https://www.lvi.co.jp/company-news/2026/08/17/post-2244/",
+      "note": "8月全月の再取得から抽出した追加事案"
+    },
+    "reviewed_on": "2026-10-15",
+    "resolution": "published",
+    "incident_ids": [
+      "logicvein-20260817"
+    ],
+    "reason": "公式本文で公表日、対象情報、規模の単位、漏えいの確認状況を照合。",
+    "source_urls": [
+      "https://www.lvi.co.jp/company-news/2026/08/17/post-2244/"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "kyoiku-software-20260817",
+      "organization": "教育ソフトウェア",
+      "reported_on": "2026-08-17",
+      "verification": "pending",
+      "reference_url": "https://www.kyoikusw.co.jp/news/20260817/",
+      "note": "8月全月の再取得から抽出した追加事案"
+    },
+    "reviewed_on": "2026-10-15",
+    "resolution": "published",
+    "incident_ids": [
+      "kyoiku-software-20260817"
+    ],
+    "reason": "公式本文で公表日、対象情報、規模の単位、漏えいの確認状況を照合。",
+    "source_urls": [
+      "https://www.kyoikusw.co.jp/news/20260817/"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "weblife-20260818",
+      "organization": "ウェブライフ",
+      "reported_on": "2026-08-18",
+      "verification": "pending",
+      "reference_url": "https://web-life.co.jp/news/6551/",
+      "note": "8月全月の再取得から抽出した追加事案"
+    },
+    "reviewed_on": "2026-10-15",
+    "resolution": "published",
+    "incident_ids": [
+      "weblife-20260818"
+    ],
+    "reason": "公式本文で公表日、対象情報、規模の単位、漏えいの確認状況を照合。",
+    "source_urls": [
+      "https://web-life.co.jp/news/6551/"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "ne-chemcat-20260820",
+      "organization": "エヌ・イー ケムキャット",
+      "reported_on": "2026-08-20",
+      "verification": "pending",
+      "reference_url": "https://www.ne-chemcat.co.jp/new_info/info/2026/0820158.html",
+      "note": "8月全月の再取得から抽出した追加事案"
+    },
+    "reviewed_on": "2026-10-15",
+    "resolution": "published",
+    "incident_ids": [
+      "ne-chemcat-20260820"
+    ],
+    "reason": "公式本文で公表日、対象情報、規模の単位、漏えいの確認状況を照合。",
+    "source_urls": [
+      "https://www.ne-chemcat.co.jp/new_info/info/2026/0820158.html"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "expo-subcontractor-20260820",
+      "organization": "2025年日本国際博覧会協会",
+      "reported_on": "2026-08-20",
+      "verification": "pending",
+      "reference_url": "https://www.expo2025.or.jp/news/news-20260820-01/",
+      "note": "8月全月の再取得から抽出した追加事案"
+    },
+    "reviewed_on": "2026-10-15",
+    "resolution": "published",
+    "incident_ids": [
+      "expo-subcontractor-20260820"
+    ],
+    "reason": "公式本文で公表日、対象情報、規模の単位、漏えいの確認状況を照合。",
+    "source_urls": [
+      "https://www.expo2025.or.jp/news/news-20260820-01/"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "cota-20260820",
+      "organization": "コタ",
+      "reported_on": "2026-08-20",
+      "verification": "pending",
+      "reference_url": "https://media.cota.co.jp/media/c461e507-b70e-4543-81b6-38210d442a3b.pdf",
+      "note": "8月全月の再取得から抽出した追加事案"
+    },
+    "reviewed_on": "2026-10-15",
+    "resolution": "published",
+    "incident_ids": [
+      "cota-20260820"
+    ],
+    "reason": "公式本文で公表日、対象情報、規模の単位、漏えいの確認状況を照合。",
+    "source_urls": [
+      "https://media.cota.co.jp/media/c461e507-b70e-4543-81b6-38210d442a3b.pdf"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "rakuten-booksnetwork-20260821",
+      "organization": "楽天ブックスネットワーク",
+      "reported_on": "2026-08-21",
+      "verification": "pending",
+      "reference_url": "https://www.rakuten-booksnetwork.co.jp/2026/08/21/unauthorized-access-notice/index.html",
+      "note": "8月全月の再取得から抽出した追加事案"
+    },
+    "reviewed_on": "2026-10-15",
+    "resolution": "published",
+    "incident_ids": [
+      "rakuten-booksnetwork-20260821"
+    ],
+    "reason": "公式本文で公表日、対象情報、規模の単位、漏えいの確認状況を照合。",
+    "source_urls": [
+      "https://www.rakuten-booksnetwork.co.jp/2026/08/21/unauthorized-access-notice/index.html"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "imadeya-20260821",
+      "organization": "いまでや",
+      "reported_on": "2026-08-21",
+      "verification": "pending",
+      "reference_url": "https://prtimes.jp/main/html/rd/p/000000061.000065209.html",
+      "note": "8月全月の再取得から抽出した追加事案"
+    },
+    "reviewed_on": "2026-10-15",
+    "resolution": "published",
+    "incident_ids": [
+      "imadeya-20260821"
+    ],
+    "reason": "公式本文で公表日、対象情報、規模の単位、漏えいの確認状況を照合。",
+    "source_urls": [
+      "https://prtimes.jp/main/html/rd/p/000000061.000065209.html"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "semco-20260822",
+      "organization": "環境機器",
+      "reported_on": "2026-08-22",
+      "verification": "pending",
+      "reference_url": "https://www.semco.net/news/detail/12790",
+      "note": "8月全月の再取得から抽出した追加事案"
+    },
+    "reviewed_on": "2026-10-15",
+    "resolution": "published",
+    "incident_ids": [
+      "semco-20260822"
+    ],
+    "reason": "公式本文で公表日、対象情報、規模の単位、漏えいの確認状況を照合。",
+    "source_urls": [
+      "https://www.semco.net/news/detail/12790"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "fancrew-20260824",
+      "organization": "ファンくる",
+      "reported_on": "2026-08-24",
+      "verification": "pending",
+      "reference_url": "https://www.fancrew.co.jp/news/news-press-release/2608_notice-of-system-temporary-suspension-and-potential-data-breach-due-to-unauthorized-access.html",
+      "note": "8月全月の再取得から抽出した追加事案"
+    },
+    "reviewed_on": "2026-10-15",
+    "resolution": "published",
+    "incident_ids": [
+      "fancrew-20260824"
+    ],
+    "reason": "公式本文で公表日、対象情報、規模の単位、漏えいの確認状況を照合。",
+    "source_urls": [
+      "https://www.fancrew.co.jp/news/news-press-release/2608_notice-of-system-temporary-suspension-and-potential-data-breach-due-to-unauthorized-access.html",
+      "https://www.fancrew.co.jp/news/news-press-release/2609_final-report-unauthorized-account-access.html"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "saga-sms-20260825",
+      "organization": "佐賀県教育委員会",
+      "reported_on": "2026-08-25",
+      "verification": "pending",
+      "reference_url": "https://www.pref.saga.lg.jp/kyouiku/kiji003120819/index.html",
+      "note": "8月全月の再取得から抽出した追加事案"
+    },
+    "reviewed_on": "2026-10-15",
+    "resolution": "published",
+    "incident_ids": [
+      "saga-sms-20260825"
+    ],
+    "reason": "公式本文で公表日、対象情報、規模の単位、漏えいの確認状況を照合。",
+    "source_urls": [
+      "https://www.pref.saga.lg.jp/kyouiku/kiji003120819/index.html"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "zurich-zdash-20260827",
+      "organization": "チューリッヒ保険会社",
+      "reported_on": "2026-08-27",
+      "verification": "pending",
+      "reference_url": "https://www.zurich.co.jp/aboutus/news/news/2026/0827/",
+      "note": "8月全月の再取得から抽出した追加事案"
+    },
+    "reviewed_on": "2026-10-15",
+    "resolution": "published",
+    "incident_ids": [
+      "zurich-zdash-20260827"
+    ],
+    "reason": "公式本文で公表日、対象情報、規模の単位、漏えいの確認状況を照合。",
+    "source_urls": [
+      "https://www.zurich.co.jp/aboutus/news/news/2026/0827/"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "cinra-20260827",
+      "organization": "CINRA",
+      "reported_on": "2026-08-27",
+      "verification": "pending",
+      "reference_url": "https://www.cinra.co.jp/news/20260827",
+      "note": "8月全月の再取得から抽出した追加事案"
+    },
+    "reviewed_on": "2026-10-15",
+    "resolution": "published",
+    "incident_ids": [
+      "cinra-20260827"
+    ],
+    "reason": "公式本文で公表日、対象情報、規模の単位、漏えいの確認状況を照合。",
+    "source_urls": [
+      "https://www.cinra.co.jp/news/20260827"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "corona-cloud-20260828",
+      "organization": "コロナ",
+      "reported_on": "2026-08-28",
+      "verification": "pending",
+      "reference_url": "https://www.corona.co.jp/news/other/post-439.html",
+      "note": "8月全月の再取得から抽出した追加事案"
+    },
+    "reviewed_on": "2026-10-15",
+    "resolution": "published",
+    "incident_ids": [
+      "corona-cloud-20260828"
+    ],
+    "reason": "公式本文で公表日、対象情報、規模の単位、漏えいの確認状況を照合。",
+    "source_urls": [
+      "https://www.corona.co.jp/news/other/post-439.html"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "yellowhat-20260828",
+      "organization": "イエローハット",
+      "reported_on": "2026-08-28",
+      "verification": "pending",
+      "reference_url": "https://www.yellowhat.jp/information/yellowhat/202608.html",
+      "note": "8月全月の再取得から抽出した追加事案"
+    },
+    "reviewed_on": "2026-10-15",
+    "resolution": "published",
+    "incident_ids": [
+      "yellowhat-20260828"
+    ],
+    "reason": "公式本文で公表日、対象情報、規模の単位、漏えいの確認状況を照合。",
+    "source_urls": [
+      "https://www.yellowhat.jp/information/yellowhat/202608.html"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "okinawa-wage-documents-20260828",
+      "organization": "厚生労働省・沖縄労働局",
+      "reported_on": "2026-08-28",
+      "verification": "pending",
+      "reference_url": "https://www.mhlw.go.jp/content/11302000/001742841.pdf",
+      "note": "8月全月の再取得から抽出した追加事案"
+    },
+    "reviewed_on": "2026-10-15",
+    "resolution": "published",
+    "incident_ids": [
+      "okinawa-wage-documents-20260828"
+    ],
+    "reason": "公式本文で公表日、対象情報、規模の単位、漏えいの確認状況を照合。",
+    "source_urls": [
+      "https://www.mhlw.go.jp/content/11302000/001742841.pdf"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "mandarake-20260830",
+      "organization": "まんだらけ",
+      "reported_on": "2026-08-30",
+      "verification": "pending",
+      "reference_url": "https://www.mandarake.co.jp/maintenance.html",
+      "note": "8月全月の再取得から抽出した追加事案"
+    },
+    "reviewed_on": "2026-10-15",
+    "resolution": "published",
+    "incident_ids": [
+      "mandarake-20260830"
+    ],
+    "reason": "公式本文で公表日、対象情報、規模の単位、漏えいの確認状況を照合。",
+    "source_urls": [
+      "https://www.mandarake.co.jp/maintenance.html"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "aomori-michinoku-20260831",
+      "organization": "青森みちのく銀行",
+      "reported_on": "2026-08-31",
+      "verification": "pending",
+      "reference_url": "https://www.am-bk.co.jp/news/docs/important_20260831.pdf",
+      "note": "8月全月の再取得から抽出した追加事案"
+    },
+    "reviewed_on": "2026-10-15",
+    "resolution": "published",
+    "incident_ids": [
+      "aomori-michinoku-20260831"
+    ],
+    "reason": "公式本文で公表日、対象情報、規模の単位、漏えいの確認状況を照合。",
+    "source_urls": [
+      "https://www.am-bk.co.jp/news/docs/important_20260831.pdf"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "hands-holdings-20260825",
+      "organization": "ハンズホールディングス",
+      "reported_on": "2026-08-25",
+      "verification": "pending",
+      "reference_url": "https://www.hands-holdings.co.jp/news/news20260825/",
+      "note": "8月全月の再取得から抽出した追加事案"
+    },
+    "reviewed_on": "2026-10-15",
+    "resolution": "published",
+    "incident_ids": [
+      "hands-holdings-20260825"
+    ],
+    "reason": "公式本文で公表日、対象情報、規模の単位、漏えいの確認状況を照合。",
+    "source_urls": [
+      "https://www.hands-holdings.co.jp/news/news20260825/"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "unko-museum-20260814",
+      "organization": "たのしいミュージアム",
+      "reported_on": "2026-08-14",
+      "verification": "pending",
+      "reference_url": "https://unkomuseum.com/news/5244/",
+      "note": "8月全月の再取得から抽出した追加事案"
+    },
+    "reviewed_on": "2026-10-15",
+    "resolution": "published",
+    "incident_ids": [
+      "unko-museum-20260814"
+    ],
+    "reason": "公式本文で公表日、対象情報、規模の単位、漏えいの確認状況を照合。",
+    "source_urls": [
+      "https://unkomuseum.com/news/5244/"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "aiful-credit-20260817",
+      "organization": "アイフル・ライフカード",
+      "reported_on": "2026-08-17",
+      "verification": "pending",
+      "reference_url": "https://www.aiful.co.jp/notice/a2026061001/",
+      "note": "8月全月の再取得から抽出した追加事案"
+    },
+    "reviewed_on": "2026-10-15",
+    "resolution": "published",
+    "incident_ids": [
+      "aiful-credit-20260817"
+    ],
+    "reason": "公式本文で公表日、対象情報、規模の単位、漏えいの確認状況を照合。",
+    "source_urls": [
+      "https://www.aiful.co.jp/notice/a2026061001/"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "miyamoto-munashi-20260803",
+      "organization": "M&Sフードサービス（宮本むなし）",
+      "reported_on": "2026-08-03",
+      "verification": "pending",
+      "reference_url": "https://m-munashi.com/pages/incident202607",
+      "note": "8月全月の再取得から抽出した追加事案"
+    },
+    "reviewed_on": "2026-10-15",
+    "resolution": "published",
+    "incident_ids": [
+      "miyamoto-munashi-20260803"
+    ],
+    "reason": "公式本文で公表日、対象情報、規模の単位、漏えいの確認状況を照合。",
+    "source_urls": [
+      "https://m-munashi.com/pages/incident202607",
+      "https://m-munashi.com/blogs/mm_news"
+    ]
   }
 ]

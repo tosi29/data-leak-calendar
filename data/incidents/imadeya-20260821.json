@@ -1,0 +1,48 @@
+{
+  "id": "imadeya-20260821",
+  "organization": {
+    "name": "いまでや",
+    "sector": "企業・団体"
+  },
+  "title": "顧客の注文情報流出の可能性",
+  "published_on": "2026-08-21",
+  "first_published_on": "2026-08-21",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-15",
+  "incident_type": "attack",
+  "leak_status": "suspected",
+  "summary": "顧客名・注文番号・金額が正確に記載された不審メールが確認され、注文情報が第三者に取得された可能性が高いとして調査を開始した。",
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "対象規模は未公表・調査中"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "注文番号",
+    "注文金額"
+  ],
+  "cause": {
+    "category": "unknown",
+    "detail": "外部連携サービス等への不正アクセスを含め調査中。",
+    "certainty": "unknown"
+  },
+  "sources": [
+    {
+      "url": "https://prtimes.jp/main/html/rd/p/000000061.000065209.html",
+      "type": "official",
+      "title": "顧客の注文情報流出の可能性",
+      "published_on": "2026-08-21",
+      "checked_on": "2026-10-15"
+    }
+  ],
+  "notes": "問い合わせ約30件は被害人数ではない。プラットフォーム側が侵害されたと断定しない。",
+  "updates": [],
+  "verification": "official",
+  "related_vendor": null
+}

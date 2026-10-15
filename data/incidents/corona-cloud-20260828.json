@@ -1,0 +1,48 @@
+{
+  "id": "corona-cloud-20260828",
+  "organization": {
+    "name": "コロナ",
+    "sector": "企業・団体"
+  },
+  "title": "施工管理クラウドへの不正アクセス",
+  "published_on": "2026-08-28",
+  "first_published_on": "2026-08-28",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-15",
+  "incident_type": "attack",
+  "leak_status": "suspected",
+  "summary": "外部クラウドサービスに関する情報提供を受け、施工を請け負った顧客情報が不正に流出した可能性を確認した。",
+  "impact": [
+    {
+      "count": 35000,
+      "unit": "people",
+      "qualifier": "maximum",
+      "description": "公表資料に記載された対象規模"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "施工関連資料"
+  ],
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。侵入手法の詳細は未公表。",
+    "certainty": "unknown"
+  },
+  "sources": [
+    {
+      "url": "https://www.corona.co.jp/news/other/post-439.html",
+      "type": "official",
+      "title": "施工管理クラウドへの不正アクセス",
+      "published_on": "2026-08-28",
+      "checked_on": "2026-10-15"
+    }
+  ],
+  "notes": "",
+  "updates": [],
+  "verification": "official",
+  "related_vendor": null
+}

@@ -5,12 +5,12 @@
     "sector": "企業・団体"
   },
   "title": "LINEミニアプリ用データベースへの不正アクセスでデータが削除され、組合員や申込者情報が漏えいしたおそれ",
-  "published_on": "2026-09-07",
+  "published_on": "2026-08-28",
   "occurred_on": null,
   "detected_on": null,
   "updated_on": "2026-10-15",
   "first_published_on": "2026-08-28",
-  "publication_kind": "followup",
+  "publication_kind": "initial",
   "verification": "official",
   "leak_status": "suspected",
   "summary": "LINEミニアプリ用データベースへの不正アクセスでデータが削除され、組合員や申込者情報が漏えいしたおそれ。",
@@ -62,7 +62,7 @@
       "checked_on": "2026-10-15"
     }
   ],
-  "notes": "先頭は電子マネー機能付きカードを持たない組合員情報。4区分計217,295件は重複排除した人数ではない。LINEヤフーのデータベースへの攻撃ではない。",
+  "notes": "先頭は電子マネー機能付きカードを持たない組合員情報。4区分計217,295件は重複排除した人数ではない。LINEヤフーのデータベースへの攻撃ではない。 カレンダー掲載日を確認済みの8月の初報日に修正。続報の調査結果は同じ事案に統合。",
   "updates": [],
   "incident_type": "attack",
   "vendor_research": {

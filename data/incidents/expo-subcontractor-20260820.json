@@ -1,0 +1,52 @@
+{
+  "id": "expo-subcontractor-20260820",
+  "organization": {
+    "name": "2025年日本国際博覧会協会",
+    "sector": "企業・団体"
+  },
+  "title": "再委託先のメール侵害で関係者情報漏えいのおそれ",
+  "published_on": "2026-08-20",
+  "first_published_on": "2026-08-20",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-15",
+  "incident_type": "attack",
+  "leak_status": "suspected",
+  "summary": "再委託先がフィッシングを受け、Microsoft 365のメール・添付資料に含まれる関係者や出演者の個人情報にアクセスされた可能性がある。",
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "対象規模は未公表・調査中"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "所属",
+    "役職",
+    "連絡先",
+    "勤務シフト",
+    "写真",
+    "出演関連資料"
+  ],
+  "cause": {
+    "category": "credentials",
+    "detail": "再委託先従業員が受信したフィッシングメールを端緒とするアカウント侵害。",
+    "certainty": "confirmed"
+  },
+  "sources": [
+    {
+      "url": "https://www.expo2025.or.jp/news/news-20260820-01/",
+      "type": "official",
+      "title": "再委託先のメール侵害で関係者情報漏えいのおそれ",
+      "published_on": "2026-08-20",
+      "checked_on": "2026-10-15"
+    }
+  ],
+  "notes": "一般来場者の個人情報が含まれていたことは確認されていない。",
+  "updates": [],
+  "verification": "official",
+  "related_vendor": null
+}

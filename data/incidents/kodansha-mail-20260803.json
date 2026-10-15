@@ -1,0 +1,47 @@
+{
+  "id": "kodansha-mail-20260803",
+  "organization": {
+    "name": "講談社",
+    "sector": "企業・団体"
+  },
+  "title": "メールアカウント侵害による連絡先情報流出",
+  "published_on": "2026-08-03",
+  "first_published_on": "2026-08-03",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-15",
+  "incident_type": "attack",
+  "leak_status": "confirmed",
+  "summary": "フィッシングで認証情報が盗まれ、連絡先情報が窃取された。うち553件のメールアドレスに社員を装うメールが送信された。",
+  "impact": [
+    {
+      "count": 3812,
+      "unit": "records",
+      "qualifier": "maximum",
+      "description": "公表資料に記載された対象規模"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "メールアドレス"
+  ],
+  "cause": {
+    "category": "credentials",
+    "detail": "偽ログイン画面に認証情報を入力し、メールアカウントが侵害された。",
+    "certainty": "confirmed"
+  },
+  "sources": [
+    {
+      "url": "https://www.kodansha.co.jp/notices/723",
+      "type": "official",
+      "title": "メールアカウント侵害による連絡先情報流出",
+      "published_on": "2026-08-03",
+      "checked_on": "2026-10-15"
+    }
+  ],
+  "notes": "",
+  "updates": [],
+  "verification": "official",
+  "related_vendor": null
+}
