@@ -8,7 +8,7 @@
   "published_on": "2026-10-02",
   "occurred_on": "2020-05-11",
   "detected_on": "2026-09-11",
-  "updated_on": "2026-10-07",
+  "updated_on": "2026-10-15",
   "first_published_on": "2026-10-02",
   "publication_kind": "initial",
   "verification": "official",
@@ -45,10 +45,21 @@
       "type": "official",
       "title": "ニチイ学館：個人情報に関する公表資料",
       "published_on": "2026-10-02",
-      "checked_on": "2026-10-07"
+      "checked_on": "2026-10-15"
     }
   ],
   "notes": "2026年6月11日以降の保存ログでは取得を確認できず、それ以前はログがなく不明。",
   "updates": [],
-  "incident_type": "accident"
+  "incident_type": "accident",
+  "vendor_research": {
+    "checked_on": "2026-10-15",
+    "result": "not_identified",
+    "note": "ウェブサイトの保守・運用委託先の作業が記載されていますが、社名は特定できませんでした。",
+    "source_checks": [
+      {
+        "source_index": 0,
+        "status": "reviewed"
+      }
+    ]
+  }
 }

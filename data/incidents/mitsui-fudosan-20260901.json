@@ -9,7 +9,7 @@
   "published_on": "2026-09-01",
   "occurred_on": null,
   "detected_on": "2026-08-28",
-  "updated_on": "2026-10-07",
+  "updated_on": "2026-10-15",
   "first_published_on": "2026-09-01",
   "publication_kind": "initial",
   "verification": "official",
@@ -46,14 +46,14 @@
       "type": "official",
       "title": "不正アクセスによる情報漏えいの可能性について",
       "published_on": "2026-09-01",
-      "checked_on": "2026-10-07"
+      "checked_on": "2026-10-15"
     },
     {
       "url": "https://www.mitsuifudosan.co.jp/letter/260928/download/260928.pdf",
       "type": "official",
       "title": "不正アクセスによる情報漏えいの可能性について（第二報）",
       "published_on": "2026-09-28",
-      "checked_on": "2026-10-07"
+      "checked_on": "2026-10-15"
     }
   ],
   "notes": "",
@@ -64,5 +64,20 @@
       "source_index": 1
     }
   ],
-  "incident_type": "attack"
+  "incident_type": "attack",
+  "vendor_research": {
+    "checked_on": "2026-10-15",
+    "result": "not_identified",
+    "note": "掲載出典と追加検索で、当該事案に関係する外部の開発・運用・サービス・基盤会社の社名と役割を特定できませんでした。",
+    "source_checks": [
+      {
+        "source_index": 0,
+        "status": "reviewed"
+      },
+      {
+        "source_index": 1,
+        "status": "reviewed"
+      }
+    ]
+  }
 }

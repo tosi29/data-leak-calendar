@@ -55,5 +55,20 @@
       "summary": "最終調査で5回の不正アクセスを確認。ファイルの閲覧・取得・外部転送の痕跡は確認されず。",
       "source_index": 1
     }
-  ]
+  ],
+  "vendor_research": {
+    "checked_on": "2026-10-15",
+    "result": "not_identified",
+    "note": "システム会社と連携した対応の記載はありますが、社名は特定できませんでした。",
+    "source_checks": [
+      {
+        "source_index": 0,
+        "status": "reviewed"
+      },
+      {
+        "source_index": 1,
+        "status": "unavailable"
+      }
+    ]
+  }
 }

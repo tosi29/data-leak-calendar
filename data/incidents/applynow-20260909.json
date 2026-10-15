@@ -8,7 +8,7 @@
   "published_on": "2026-09-09",
   "occurred_on": "2026-08-09",
   "detected_on": "2026-09-07",
-  "updated_on": "2026-10-07",
+  "updated_on": "2026-10-15",
   "leak_status": "suspected",
   "summary": "採用管理サービスのデータベースへ不正アクセスがあり、応募者・企業担当者・契約者の情報が漏えいした可能性を公表。",
   "impact": [
@@ -39,7 +39,7 @@
       "type": "official",
       "title": "子会社ApplyNowの個人情報漏えいに関するお知らせ（PDF）",
       "published_on": "2026-09-09",
-      "checked_on": "2026-10-07"
+      "checked_on": "2026-10-15"
     }
   ],
   "notes": "サービスにより対象項目が異なる。画像・PDF・面接動画の実体は対象外と発表。顧客企業による公表とは関連する同一の基盤事案。",
@@ -48,5 +48,16 @@
   "publication_kind": "initial",
   "verification": "official",
   "related_vendor": "ApplyNow",
-  "incident_type": "attack"
+  "incident_type": "attack",
+  "vendor_research": {
+    "checked_on": "2026-10-15",
+    "result": "not_identified",
+    "note": "採用管理プラットフォームの提供主体は公表元ApplyNow。侵入経路とされたデータ分析ツールの会社名、外部の開発・運用委託先は今回の資料では特定できませんでした。",
+    "source_checks": [
+      {
+        "source_index": 0,
+        "status": "reviewed"
+      }
+    ]
+  }
 }

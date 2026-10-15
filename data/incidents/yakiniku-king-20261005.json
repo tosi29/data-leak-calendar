@@ -8,7 +8,7 @@
   "published_on": "2026-10-05",
   "occurred_on": null,
   "detected_on": "2026-10-02",
-  "updated_on": "2026-10-07",
+  "updated_on": "2026-10-15",
   "leak_status": "confirmed",
   "summary": "公式アプリの会員管理システムに不正アクセスがあり、登録会員情報の漏えいを確認。",
   "impact": [
@@ -36,7 +36,7 @@
       "type": "official",
       "title": "焼肉きんぐ公式アプリ会員管理システムへの不正アクセス（PDF）",
       "published_on": "2026-10-05",
-      "checked_on": "2026-10-07"
+      "checked_on": "2026-10-15"
     }
   ],
   "notes": "漏えいは10月3日に確認。パスワード、生年月日、店舗利用履歴等は流出していないと発表。",
@@ -45,5 +45,16 @@
   "publication_kind": "initial",
   "verification": "official",
   "related_vendor": null,
-  "incident_type": "attack"
+  "incident_type": "attack",
+  "vendor_research": {
+    "checked_on": "2026-10-15",
+    "result": "not_identified",
+    "note": "公式発表には開発会社・関係会社と対策を進める旨が記載されていますが、開発会社の社名は記載されていません。",
+    "source_checks": [
+      {
+        "source_index": 0,
+        "status": "reviewed"
+      }
+    ]
+  }
 }

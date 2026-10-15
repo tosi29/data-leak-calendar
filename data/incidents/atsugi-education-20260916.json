@@ -8,7 +8,7 @@
   "published_on": "2026-09-16",
   "occurred_on": null,
   "detected_on": null,
-  "updated_on": "2026-10-07",
+  "updated_on": "2026-10-15",
   "first_published_on": "2026-09-16",
   "publication_kind": "initial",
   "verification": "secondary",
@@ -44,5 +44,16 @@
   ],
   "notes": "同意のない第三者提供として掲載。13校は人数ではなく、影響人数は本文の無料公開部分では確認できない。",
   "updates": [],
-  "incident_type": "improper_handling"
+  "incident_type": "improper_handling",
+  "vendor_research": {
+    "checked_on": "2026-10-15",
+    "result": "unavailable",
+    "note": "掲載出典の本文を今回取得できず、追加検索でも役割と会社名を確認できませんでした。「社名非公表」と断定した結果ではありません。",
+    "source_checks": [
+      {
+        "source_index": 0,
+        "status": "unavailable"
+      }
+    ]
+  }
 }

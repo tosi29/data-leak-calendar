@@ -39,7 +39,7 @@
       "type": "official",
       "title": "infoQへの不正アクセスによる個人情報漏えいのお知らせ",
       "published_on": "2026-10-05",
-      "checked_on": "2026-10-07"
+      "checked_on": "2026-10-15"
     },
     {
       "url": "https://gmo-research.ai/pressroom/notice/notice-20261014",
@@ -61,5 +61,20 @@
   "publication_kind": "initial",
   "verification": "official",
   "related_vendor": null,
-  "incident_type": "attack"
+  "incident_type": "attack",
+  "vendor_research": {
+    "checked_on": "2026-10-15",
+    "result": "not_identified",
+    "note": "掲載出典と追加検索で、当該事案に関係する外部の開発・運用・サービス・基盤会社の社名と役割を特定できませんでした。",
+    "source_checks": [
+      {
+        "source_index": 0,
+        "status": "reviewed"
+      },
+      {
+        "source_index": 1,
+        "status": "reviewed"
+      }
+    ]
+  }
 }

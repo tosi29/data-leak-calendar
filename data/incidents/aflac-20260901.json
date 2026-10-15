@@ -9,7 +9,7 @@
   "published_on": "2026-09-01",
   "occurred_on": null,
   "detected_on": null,
-  "updated_on": "2026-10-07",
+  "updated_on": "2026-10-15",
   "first_published_on": null,
   "publication_kind": "followup",
   "verification": "official",
@@ -37,17 +37,32 @@
       "type": "official",
       "title": "システムへの不正アクセスと情報漏えいに関するお詫び",
       "published_on": "2026-10-01",
-      "checked_on": "2026-10-07"
+      "checked_on": "2026-10-15"
     },
     {
       "url": "https://www.japanpt.or.jp/info/20260908_223.html",
       "type": "official",
       "title": "日本理学療法士協会：アフラックの個人情報漏えいに関する続報",
       "published_on": "2026-09-08",
-      "checked_on": "2026-10-07"
+      "checked_on": "2026-10-15"
     }
   ],
   "notes": "日本理学療法士協会の公式続報が9月1日の案内公表を明記。7月以前から公表されている事案であり、9月の新規発生ではない。アフラックの現在の案内ページは10月1日更新。対象規模はこの掲載資料だけでは確定しない。",
   "updates": [],
-  "incident_type": "attack"
+  "incident_type": "attack",
+  "vendor_research": {
+    "checked_on": "2026-10-15",
+    "result": "not_identified",
+    "note": "掲載出典と追加検索で、当該事案に関係する外部の開発・運用・サービス・基盤会社の社名と役割を特定できませんでした。",
+    "source_checks": [
+      {
+        "source_index": 0,
+        "status": "reviewed"
+      },
+      {
+        "source_index": 1,
+        "status": "reviewed"
+      }
+    ]
+  }
 }

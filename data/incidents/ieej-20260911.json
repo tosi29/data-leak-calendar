@@ -9,7 +9,7 @@
   "published_on": "2026-09-11",
   "occurred_on": null,
   "detected_on": "2026-07-29",
-  "updated_on": "2026-10-07",
+  "updated_on": "2026-10-15",
   "first_published_on": "2026-09-11",
   "publication_kind": "initial",
   "verification": "official",
@@ -44,10 +44,29 @@
       "type": "official",
       "title": "不正アクセスによる情報漏えいに関するお詫びとお知らせ",
       "published_on": "2026-09-11",
-      "checked_on": "2026-10-07"
+      "checked_on": "2026-10-15"
     }
   ],
   "notes": "件数はアクセスの痕跡であり、漏えいした個人の人数ではない。",
   "updates": [],
-  "incident_type": "attack"
+  "incident_type": "attack",
+  "vendors": [
+    {
+      "name": "Microsoft",
+      "role": "service",
+      "detail": "不正アクセスを受けたアカウントの業務サービス「Microsoft 365」の提供元。導入・運用委託先や侵入原因の認定ではない。",
+      "source_index": 0
+    }
+  ],
+  "vendor_research": {
+    "checked_on": "2026-10-15",
+    "result": "identified",
+    "note": "以下の役割と会社名を確認しました。記載のない役割は今回の調査では特定できていません。",
+    "source_checks": [
+      {
+        "source_index": 0,
+        "status": "reviewed"
+      }
+    ]
+  }
 }

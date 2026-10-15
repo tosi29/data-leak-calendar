@@ -8,7 +8,7 @@
   "published_on": "2026-09-27",
   "occurred_on": null,
   "detected_on": "2026-09-26",
-  "updated_on": "2026-10-07",
+  "updated_on": "2026-10-15",
   "leak_status": "suspected",
   "summary": "OZmallへの不正アクセスにより、会員と一部退会者のメールアドレスなどが閲覧された可能性。",
   "impact": [
@@ -35,14 +35,14 @@
       "type": "official",
       "title": "個人情報流出の可能性に関するお知らせ（第一報）",
       "published_on": "2026-09-27",
-      "checked_on": "2026-10-07"
+      "checked_on": "2026-10-15"
     },
     {
       "url": "https://starts-pub.jp/info20261001",
       "type": "official",
       "title": "個人情報流出の可能性に関するお知らせ（第2報）",
       "published_on": "2026-10-01",
-      "checked_on": "2026-10-07"
+      "checked_on": "2026-10-15"
     }
   ],
   "notes": "第2報で最大447,610名から最大442,779名へ修正。氏名・都道府県は一部の方のみ。",
@@ -57,5 +57,20 @@
   "publication_kind": "initial",
   "verification": "official",
   "related_vendor": null,
-  "incident_type": "attack"
+  "incident_type": "attack",
+  "vendor_research": {
+    "checked_on": "2026-10-15",
+    "result": "not_identified",
+    "note": "掲載出典と追加検索で、当該事案に関係する外部の開発・運用・サービス・基盤会社の社名と役割を特定できませんでした。",
+    "source_checks": [
+      {
+        "source_index": 0,
+        "status": "reviewed"
+      },
+      {
+        "source_index": 1,
+        "status": "reviewed"
+      }
+    ]
+  }
 }

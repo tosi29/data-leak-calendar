@@ -9,7 +9,7 @@
   "published_on": "2026-09-01",
   "occurred_on": null,
   "detected_on": null,
-  "updated_on": "2026-10-07",
+  "updated_on": "2026-10-15",
   "first_published_on": "2026-09-01",
   "publication_kind": "initial",
   "verification": "official",
@@ -41,10 +41,21 @@
       "type": "official",
       "title": "学生の個人情報が閲覧可能な状態にあったことに関するお詫びとお知らせ｜関西学院大学",
       "published_on": "2026-09-01",
-      "checked_on": "2026-10-07"
+      "checked_on": "2026-10-15"
     }
   ],
   "notes": "",
   "updates": [],
-  "incident_type": "accident"
+  "incident_type": "accident",
+  "vendor_research": {
+    "checked_on": "2026-10-15",
+    "result": "not_identified",
+    "note": "外部SNS「hyocom」の利用は確認できましたが、当該資料では開発・運用会社名を特定できませんでした。",
+    "source_checks": [
+      {
+        "source_index": 0,
+        "status": "reviewed"
+      }
+    ]
+  }
 }

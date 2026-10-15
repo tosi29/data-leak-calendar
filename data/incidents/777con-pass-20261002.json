@@ -8,7 +8,7 @@
   "published_on": "2026-10-02",
   "occurred_on": "2026-09-25",
   "detected_on": null,
-  "updated_on": "2026-10-07",
+  "updated_on": "2026-10-15",
   "first_published_on": "2026-10-02",
   "publication_kind": "initial",
   "verification": "official",
@@ -42,10 +42,21 @@
       "type": "official",
       "title": "777CON-PASSへの不正アクセスによる個人情報流出の可能性に関するお詫びとお知らせ　※続報 - 株式会社 サミーネットワークス-【Sammy Networks Co., Ltd.】",
       "published_on": "2026-10-02",
-      "checked_on": "2026-10-07"
+      "checked_on": "2026-10-15"
     }
   ],
   "notes": "認証用顔画像・ログイン用メールアドレス・パスワード・氏名は対象外と公表。初報と同日付の続報を参照。",
   "updates": [],
-  "incident_type": "attack"
+  "incident_type": "attack",
+  "vendor_research": {
+    "checked_on": "2026-10-15",
+    "result": "not_identified",
+    "note": "掲載出典と追加検索で、当該事案に関係する外部の開発・運用・サービス・基盤会社の社名と役割を特定できませんでした。",
+    "source_checks": [
+      {
+        "source_index": 0,
+        "status": "reviewed"
+      }
+    ]
+  }
 }

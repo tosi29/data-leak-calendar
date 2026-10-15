@@ -9,7 +9,7 @@
   "published_on": "2026-09-12",
   "occurred_on": null,
   "detected_on": "2026-09-11",
-  "updated_on": "2026-10-07",
+  "updated_on": "2026-10-15",
   "first_published_on": "2026-09-12",
   "publication_kind": "initial",
   "verification": "official",
@@ -42,10 +42,29 @@
       "type": "official",
       "title": "ドズル社 公式サイト | ニュース | 【重要】ドズル社ストアにおける不正なページへの誘導に関するお知らせとお詫び（9/15,9/18追記）",
       "published_on": "2026-09-12",
-      "checked_on": "2026-10-07"
+      "checked_on": "2026-10-15"
     }
   ],
   "notes": "確認したページには9月15日・18日の追記を含む。アプリ名と流出規模は未公表。",
   "updates": [],
-  "incident_type": "attack"
+  "incident_type": "attack",
+  "vendors": [
+    {
+      "name": "Shopify",
+      "role": "service",
+      "detail": "ECプラットフォームの提供元。発表で原因とされた外部アプリの開発元は社名未記載。",
+      "source_index": 0
+    }
+  ],
+  "vendor_research": {
+    "checked_on": "2026-10-15",
+    "result": "identified",
+    "note": "EC基盤はShopifyと確認。原因となった外部アプリの名称・開発会社名は記載されていません。",
+    "source_checks": [
+      {
+        "source_index": 0,
+        "status": "reviewed"
+      }
+    ]
+  }
 }

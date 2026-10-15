@@ -9,7 +9,7 @@
   "published_on": "2026-09-04",
   "occurred_on": "2026-08-22",
   "detected_on": null,
-  "updated_on": "2026-10-07",
+  "updated_on": "2026-10-15",
   "first_published_on": "2026-09-04",
   "publication_kind": "initial",
   "verification": "official",
@@ -37,10 +37,21 @@
       "type": "official",
       "title": "大田区ホームページ：【プレスリリース】大田区民プラザにおける情報漏えいの可能性のある事故について",
       "published_on": "2026-09-04",
-      "checked_on": "2026-10-07"
+      "checked_on": "2026-10-15"
     }
   ],
   "notes": "",
   "updates": [],
-  "incident_type": "attack"
+  "incident_type": "attack",
+  "vendor_research": {
+    "checked_on": "2026-10-15",
+    "result": "not_identified",
+    "note": "関連先「大田区文化振興協会」は業務委託・提携等の関係です。当該システムの開発・運用・基盤担当であることは今回の調査では確認できませんでした。",
+    "source_checks": [
+      {
+        "source_index": 0,
+        "status": "reviewed"
+      }
+    ]
+  }
 }

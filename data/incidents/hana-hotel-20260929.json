@@ -9,7 +9,7 @@
   "published_on": "2026-09-29",
   "occurred_on": null,
   "detected_on": null,
-  "updated_on": "2026-10-07",
+  "updated_on": "2026-10-15",
   "first_published_on": "2026-09-29",
   "publication_kind": "initial",
   "verification": "official",
@@ -37,10 +37,29 @@
       "type": "official",
       "title": "【重要】お客様の個人情報漏洩の可能性に関するお詫びと注意喚起のお知らせ | 国済寺天然温泉 ハナホテル 深谷 & スパ | 埼玉 深谷",
       "published_on": "2026-09-29",
-      "checked_on": "2026-10-07"
+      "checked_on": "2026-10-15"
     }
   ],
   "notes": "委託先の共通事案。独立した攻撃回数としては数えない。",
   "updates": [],
-  "incident_type": "attack"
+  "incident_type": "attack",
+  "vendors": [
+    {
+      "name": "手間いらず",
+      "role": "service",
+      "detail": "宿泊予約管理システム「TEMAIRAZU」の提供元。",
+      "source_index": 0
+    }
+  ],
+  "vendor_research": {
+    "checked_on": "2026-10-15",
+    "result": "identified",
+    "note": "以下の役割と会社名を確認しました。記載のない役割は今回の調査では特定できていません。",
+    "source_checks": [
+      {
+        "source_index": 0,
+        "status": "reviewed"
+      }
+    ]
+  }
 }

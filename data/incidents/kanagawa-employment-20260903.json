@@ -10,7 +10,7 @@
   "publication_kind": "initial",
   "occurred_on": "2026-09-01",
   "detected_on": "2026-09-02",
-  "updated_on": "2026-10-14",
+  "updated_on": "2026-10-15",
   "verification": "official",
   "incident_type": "accident",
   "leak_status": "exposed",
@@ -40,9 +40,20 @@
       "type": "official",
       "title": "障がい者雇用事業の参加企業一覧に担当者情報を誤掲載",
       "published_on": "2026-09-03",
-      "checked_on": "2026-10-14"
+      "checked_on": "2026-10-15"
     }
   ],
   "notes": "10月の報道を入口に確認したが、公式公表日は9月3日。",
-  "updates": []
+  "updates": [],
+  "vendor_research": {
+    "checked_on": "2026-10-15",
+    "result": "not_identified",
+    "note": "掲載出典と追加検索で、当該事案に関係する外部の開発・運用・サービス・基盤会社の社名と役割を特定できませんでした。",
+    "source_checks": [
+      {
+        "source_index": 0,
+        "status": "reviewed"
+      }
+    ]
+  }
 }

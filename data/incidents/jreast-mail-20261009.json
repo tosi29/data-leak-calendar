@@ -10,23 +10,23 @@
   "publication_kind": "initial",
   "occurred_on": null,
   "detected_on": null,
-  "updated_on": "2026-10-14",
+  "updated_on": "2026-10-15",
   "verification": "official",
   "incident_type": "attack",
-  "leak_status": "suspected",
-  "summary": "IDCフロンティアへの不正アクセスに伴い、会員向けメール配信サービス内の情報が閲覧・取得された可能性。",
+  "leak_status": "ruled_out",
+  "summary": "外部メール配信サービスへの影響について、10月15日に漏えいはなかったと判断した旨の報告を受けたと公表。",
   "impact": [
     {
       "count": 1670000,
       "unit": "records",
       "qualifier": "maximum_approximate",
-      "description": "えきねっと会員"
+      "description": "えきねっと会員（初報時の最大対象規模。10月15日続報で漏えい否定）"
     },
     {
       "count": 390000,
       "unit": "records",
       "qualifier": "maximum_approximate",
-      "description": "大人の休日倶楽部会員"
+      "description": "大人の休日倶楽部会員（初報時の最大対象規模。10月15日続報で漏えい否定）"
     }
   ],
   "data_types": [
@@ -47,9 +47,34 @@
       "type": "official",
       "title": "外部メール配信基盤への不正アクセスに伴う会員情報漏えいの可能性",
       "published_on": "2026-10-09",
-      "checked_on": "2026-10-14"
+      "checked_on": "2026-10-15"
     }
   ],
   "notes": "えきねっとはメールアドレスのみ（ビジネスえきねっとを除く）。他3項目は大人の休日倶楽部。区分間で合算しない。カード番号等は対象外。",
-  "updates": []
+  "updates": [
+    {
+      "date": "2026-10-15",
+      "summary": "メール配信サービス会社から、えきねっと・大人の休日倶楽部の個人情報の漏えいはなかったと判断した旨の報告を受領。",
+      "source_index": 0
+    }
+  ],
+  "vendors": [
+    {
+      "name": "IDCフロンティア",
+      "role": "infrastructure",
+      "detail": "当該メール配信に関係する外部基盤の事業者。メール配信サービス自体の開発・運用会社とは区別。",
+      "source_index": 0
+    }
+  ],
+  "vendor_research": {
+    "checked_on": "2026-10-15",
+    "result": "identified",
+    "note": "以下の役割と会社名を確認しました。記載のない役割は今回の調査では特定できていません。",
+    "source_checks": [
+      {
+        "source_index": 0,
+        "status": "reviewed"
+      }
+    ]
+  }
 }

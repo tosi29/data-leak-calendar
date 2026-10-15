@@ -10,7 +10,7 @@
   "publication_kind": "initial",
   "occurred_on": null,
   "detected_on": null,
-  "updated_on": "2026-10-14",
+  "updated_on": "2026-10-15",
   "verification": "official",
   "incident_type": "attack",
   "leak_status": "suspected",
@@ -38,9 +38,28 @@
       "type": "official",
       "title": "eラーニング受講者のメールアドレス等が漏えいした可能性",
       "published_on": "2026-10-09",
-      "checked_on": "2026-10-14"
+      "checked_on": "2026-10-15"
     }
   ],
   "notes": "公式発表で具体的に確認できる対象情報は申込時のメールアドレス。メール配信に支障が生じたが、eラーニング受講機能への影響はない。第6回以降の案内は送信元アドレスを変更。漏えい有無は確認中。",
-  "updates": []
+  "updates": [],
+  "vendors": [
+    {
+      "name": "IDCフロンティア",
+      "role": "infrastructure",
+      "detail": "当該メール配信に関係する外部基盤の事業者。メール配信サービス自体の開発・運用会社とは区別。",
+      "source_index": 0
+    }
+  ],
+  "vendor_research": {
+    "checked_on": "2026-10-15",
+    "result": "identified",
+    "note": "以下の役割と会社名を確認しました。記載のない役割は今回の調査では特定できていません。",
+    "source_checks": [
+      {
+        "source_index": 0,
+        "status": "reviewed"
+      }
+    ]
+  }
 }

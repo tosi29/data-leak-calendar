@@ -54,5 +54,16 @@
     }
   ],
   "notes": "対象件数は全件・全項目の流出確定数ではない。クレジットカード情報は対象システムに保存されていない。",
-  "updates": []
+  "updates": [],
+  "vendor_research": {
+    "checked_on": "2026-10-15",
+    "result": "not_identified",
+    "note": "公式発表とFAQを検索経由で確認。会員情報取得APIの開発・運用会社名は特定できませんでした。",
+    "source_checks": [
+      {
+        "source_index": 0,
+        "status": "reviewed"
+      }
+    ]
+  }
 }

@@ -10,7 +10,7 @@
   "publication_kind": "followup",
   "occurred_on": null,
   "detected_on": null,
-  "updated_on": "2026-10-14",
+  "updated_on": "2026-10-15",
   "verification": "official",
   "incident_type": "attack",
   "leak_status": "confirmed",
@@ -39,9 +39,20 @@
       "type": "official",
       "title": "不正アクセスによる個人情報漏えいの調査完了（第三報）",
       "published_on": "2026-10-13",
-      "checked_on": "2026-10-14"
+      "checked_on": "2026-10-15"
     }
   ],
   "notes": "住所情報を含む109,311名は内数。カード情報とECサイトのログインパスワードは含まない。初報は収集開始前のため調査結果公表日を掲載。",
-  "updates": []
+  "updates": [],
+  "vendor_research": {
+    "checked_on": "2026-10-15",
+    "result": "not_identified",
+    "note": "掲載出典と追加検索で、当該事案に関係する外部の開発・運用・サービス・基盤会社の社名と役割を特定できませんでした。",
+    "source_checks": [
+      {
+        "source_index": 0,
+        "status": "reviewed"
+      }
+    ]
+  }
 }

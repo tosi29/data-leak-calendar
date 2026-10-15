@@ -11,7 +11,7 @@
   "publication_kind": "initial",
   "occurred_on": null,
   "detected_on": "2026-09-25",
-  "updated_on": "2026-10-14",
+  "updated_on": "2026-10-15",
   "verification": "official",
   "incident_type": "attack",
   "leak_status": "confirmed",
@@ -45,9 +45,28 @@
       "type": "official",
       "title": "オンラインストアの購入者情報漏えい",
       "published_on": "2026-09-26",
-      "checked_on": "2026-10-14"
+      "checked_on": "2026-10-15"
     }
   ],
   "notes": "公式本文末尾の2026年9月26日と更新表示を確認。9月25日は委託先からの通知日。カード番号は先頭6桁・下4桁等であり全桁ではない。ベンダー側の公表と人数を合算しない。",
-  "updates": []
+  "updates": [],
+  "vendors": [
+    {
+      "name": "Eストアー",
+      "role": "service",
+      "detail": "当該ストアで利用していたECシステム「ショップサーブ」の提供・運営元。利用終了後の保管情報が対象の場合もあるため、時期は事案本文を参照。",
+      "source_index": 0
+    }
+  ],
+  "vendor_research": {
+    "checked_on": "2026-10-15",
+    "result": "identified",
+    "note": "以下の役割と会社名を確認しました。記載のない役割は今回の調査では特定できていません。",
+    "source_checks": [
+      {
+        "source_index": 0,
+        "status": "reviewed"
+      }
+    ]
+  }
 }

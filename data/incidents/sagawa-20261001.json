@@ -8,7 +8,7 @@
   "published_on": "2026-09-30",
   "occurred_on": null,
   "detected_on": null,
-  "updated_on": "2026-10-07",
+  "updated_on": "2026-10-15",
   "first_published_on": "2026-09-30",
   "publication_kind": "initial",
   "verification": "secondary",
@@ -41,7 +41,7 @@
       "type": "news",
       "title": "佐川急便、不正アクセスで個人情報流出か　送り主・届け先の氏名や住所など、約100日分の荷物データ対象 - ITmedia NEWS",
       "published_on": "2026-10-01",
-      "checked_on": "2026-10-07"
+      "checked_on": "2026-10-15"
     }
   ],
   "notes": "9月30日の初報は不正アクセスの公表。10月1日の続報で個人情報への影響を公表。件数は調査中。",
@@ -52,5 +52,16 @@
       "source_index": 0
     }
   ],
-  "incident_type": "attack"
+  "incident_type": "attack",
+  "vendor_research": {
+    "checked_on": "2026-10-15",
+    "result": "not_identified",
+    "note": "掲載出典と追加検索で、当該事案に関係する外部の開発・運用・サービス・基盤会社の社名と役割を特定できませんでした。",
+    "source_checks": [
+      {
+        "source_index": 0,
+        "status": "reviewed"
+      }
+    ]
+  }
 }

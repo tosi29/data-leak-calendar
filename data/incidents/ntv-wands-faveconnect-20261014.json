@@ -51,5 +51,16 @@
     }
   ],
   "notes": "アクセス期間は10月11日～13日。対象は会員および退会後6か月以内の元会員。決済に関する機微情報は含まない。",
-  "updates": []
+  "updates": [],
+  "vendor_research": {
+    "checked_on": "2026-10-15",
+    "result": "not_identified",
+    "note": "掲載出典と追加検索で、当該事案に関係する外部の開発・運用・サービス・基盤会社の社名と役割を特定できませんでした。",
+    "source_checks": [
+      {
+        "source_index": 0,
+        "status": "reviewed"
+      }
+    ]
+  }
 }

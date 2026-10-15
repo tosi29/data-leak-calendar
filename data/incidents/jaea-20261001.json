@@ -8,7 +8,7 @@
   "published_on": "2026-10-01",
   "occurred_on": null,
   "detected_on": null,
-  "updated_on": "2026-10-07",
+  "updated_on": "2026-10-15",
   "first_published_on": "2026-10-01",
   "publication_kind": "initial",
   "verification": "secondary",
@@ -45,10 +45,21 @@
       "type": "news",
       "title": "日本原子力機構に不正アクセス/科学/社会総合/デイリースポーツ online",
       "published_on": "2026-10-01",
-      "checked_on": "2026-10-07"
+      "checked_on": "2026-10-15"
     }
   ],
   "notes": "流出した登録情報全体2,419件には実験計画書なども含む。",
   "updates": [],
-  "incident_type": "attack"
+  "incident_type": "attack",
+  "vendor_research": {
+    "checked_on": "2026-10-15",
+    "result": "not_identified",
+    "note": "掲載出典と追加検索で、当該事案に関係する外部の開発・運用・サービス・基盤会社の社名と役割を特定できませんでした。",
+    "source_checks": [
+      {
+        "source_index": 0,
+        "status": "reviewed"
+      }
+    ]
+  }
 }

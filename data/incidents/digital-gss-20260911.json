@@ -8,7 +8,7 @@
   "published_on": "2026-09-11",
   "occurred_on": null,
   "detected_on": "2026-06-25",
-  "updated_on": "2026-10-07",
+  "updated_on": "2026-10-15",
   "leak_status": "suspected",
   "summary": "政府の業務基盤GSSに不正アクセスがあり、職員や業務関係者の情報が流出した可能性を公表。",
   "impact": [
@@ -36,7 +36,7 @@
       "type": "official",
       "title": "GSSへの不正アクセスによる個人情報の漏えいの可能性",
       "published_on": "2026-09-11",
-      "checked_on": "2026-10-07"
+      "checked_on": "2026-10-15"
     }
   ],
   "notes": "一般の方の個人情報は含まれないと発表。",
@@ -45,5 +45,16 @@
   "publication_kind": "initial",
   "verification": "official",
   "related_vendor": null,
-  "incident_type": "attack"
+  "incident_type": "attack",
+  "vendor_research": {
+    "checked_on": "2026-10-15",
+    "result": "not_identified",
+    "note": "保守運用担当者のアカウントに関する記載はありますが、当該担当会社名は特定できませんでした。一般の調達先を本件の担当会社と推定していません。",
+    "source_checks": [
+      {
+        "source_index": 0,
+        "status": "reviewed"
+      }
+    ]
+  }
 }

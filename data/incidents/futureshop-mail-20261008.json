@@ -10,7 +10,7 @@
   "publication_kind": "initial",
   "occurred_on": null,
   "detected_on": null,
-  "updated_on": "2026-10-14",
+  "updated_on": "2026-10-15",
   "verification": "official",
   "incident_type": "attack",
   "leak_status": "investigating",
@@ -41,14 +41,21 @@
       "type": "official",
       "title": "メール配信オプションの基盤への不正アクセスと個人情報への影響を調査",
       "published_on": "2026-10-08",
-      "checked_on": "2026-10-14"
+      "checked_on": "2026-10-15"
     },
     {
       "url": "https://www.future-shop.jp/news/2026/10/09.html",
       "type": "official",
       "title": "メール配信サービス再開のお知らせ",
       "published_on": "2026-10-09",
-      "checked_on": "2026-10-14"
+      "checked_on": "2026-10-15"
+    },
+    {
+      "url": "https://www.future-shop.jp/news/2026/01/21.html",
+      "type": "official",
+      "title": "future Scenario Castの提供開始・開発時の技術協力に関する公式発表",
+      "published_on": "2026-01-21",
+      "checked_on": "2026-10-15"
     }
   ],
   "notes": "10月7日13時45分にメール配信・データ連携を予防的に停止。対象データは暗号化保存され、通常は送信14日後に自動削除されるが、侵入開始時期が不明のため影響期間は確定していない。住所・電話番号を保存する別基盤は対象外。ログインパスワードは連携せず、カード情報は保持していない。東京酒粋など利用店舗の公表と対象が重複し得るため合算しない。",
@@ -58,5 +65,38 @@
       "summary": "別データセンターへ移行し、future Scenario Castを12時20分、futureCartRecoveryを12時30分に再開。再開は情報流出有無の調査完了を意味しない。",
       "source_index": 1
     }
-  ]
+  ],
+  "vendors": [
+    {
+      "name": "IDCフロンティア",
+      "role": "infrastructure",
+      "detail": "当該メール配信に関係する外部基盤の事業者。メール配信サービス自体の開発・運用会社とは区別。",
+      "source_index": 0
+    },
+    {
+      "name": "イー・エージェンシー",
+      "role": "development",
+      "detail": "「future Scenario Cast」の開発に技術協力し、基盤となる「DATA CAST for futureshop」を提供。製品の開発関係の情報であり、本件の責任や侵入原因を示すものではない。",
+      "source_index": 2
+    }
+  ],
+  "vendor_research": {
+    "checked_on": "2026-10-15",
+    "result": "identified",
+    "note": "以下の役割と会社名を確認しました。記載のない役割は今回の調査では特定できていません。",
+    "source_checks": [
+      {
+        "source_index": 0,
+        "status": "reviewed"
+      },
+      {
+        "source_index": 1,
+        "status": "reviewed"
+      },
+      {
+        "source_index": 2,
+        "status": "reviewed"
+      }
+    ]
+  }
 }

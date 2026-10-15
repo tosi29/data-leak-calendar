@@ -9,7 +9,7 @@
   "published_on": "2026-09-08",
   "occurred_on": null,
   "detected_on": null,
-  "updated_on": "2026-10-07",
+  "updated_on": "2026-10-15",
   "first_published_on": "2026-07-09",
   "publication_kind": "followup",
   "verification": "official",
@@ -37,10 +37,21 @@
       "type": "official",
       "title": "アフラック生命保険株式会社における個人情報漏えいに関するお知らせ（続報）",
       "published_on": "2026-09-08",
-      "checked_on": "2026-10-07"
+      "checked_on": "2026-10-15"
     }
   ],
   "notes": "7月30日までに該当会員への通知を完了。同社事案に関する影響先の公表で、独立した攻撃ではない。",
   "updates": [],
-  "incident_type": "attack"
+  "incident_type": "attack",
+  "vendor_research": {
+    "checked_on": "2026-10-15",
+    "result": "not_identified",
+    "note": "関連先「アフラック生命保険」は業務委託・提携等の関係です。当該システムの開発・運用・基盤担当であることは今回の調査では確認できませんでした。",
+    "source_checks": [
+      {
+        "source_index": 0,
+        "status": "reviewed"
+      }
+    ]
+  }
 }

@@ -8,7 +8,7 @@
   "published_on": "2026-10-05",
   "occurred_on": "2026-05-12",
   "detected_on": null,
-  "updated_on": "2026-10-07",
+  "updated_on": "2026-10-15",
   "first_published_on": "2026-10-05",
   "publication_kind": "initial",
   "verification": "official",
@@ -38,10 +38,21 @@
       "type": "official",
       "title": "「OfferBox」システム設定不備に伴うお詫びとお知らせ｜お知らせ｜株式会社i-plug",
       "published_on": "2026-10-05",
-      "checked_on": "2026-10-07"
+      "checked_on": "2026-10-15"
     }
   ],
   "notes": "理論上の最大対象者数であり、実際に閲覧された人数ではない。外部攻撃の事案ではない。",
   "updates": [],
-  "incident_type": "accident"
+  "incident_type": "accident",
+  "vendor_research": {
+    "checked_on": "2026-10-15",
+    "result": "not_identified",
+    "note": "掲載出典と追加検索で、当該事案に関係する外部の開発・運用・サービス・基盤会社の社名と役割を特定できませんでした。",
+    "source_checks": [
+      {
+        "source_index": 0,
+        "status": "reviewed"
+      }
+    ]
+  }
 }

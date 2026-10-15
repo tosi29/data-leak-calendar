@@ -10,7 +10,7 @@
   "publication_kind": "initial",
   "occurred_on": null,
   "detected_on": "2026-10-06",
-  "updated_on": "2026-10-14",
+  "updated_on": "2026-10-15",
   "verification": "official",
   "incident_type": "attack",
   "leak_status": "confirmed",
@@ -46,9 +46,20 @@
       "type": "official",
       "title": "会員管理システムへの不正アクセスによる会員情報流出",
       "published_on": "2026-10-09",
-      "checked_on": "2026-10-14"
+      "checked_on": "2026-10-15"
     }
   ],
   "notes": "漏えいを確認しているが、最大約643万件すべての流出を確定した数値ではない。決済情報は対象外。",
-  "updates": []
+  "updates": [],
+  "vendor_research": {
+    "checked_on": "2026-10-15",
+    "result": "not_identified",
+    "note": "会員管理システムの事案について公式PDFを確認。外部の開発・運用会社名は記載されていません。",
+    "source_checks": [
+      {
+        "source_index": 0,
+        "status": "reviewed"
+      }
+    ]
+  }
 }

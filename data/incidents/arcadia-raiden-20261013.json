@@ -83,7 +83,7 @@
       "type": "official",
       "title": "連絡網サービスへの不正アクセス",
       "published_on": "2026-10-13",
-      "checked_on": "2026-10-14"
+      "checked_on": "2026-10-15"
     },
     {
       "url": "https://raiden.site.ktaiwork.jp/archives/4597",
@@ -105,5 +105,20 @@
       "summary": "第9報で停止中サービスの復旧完了を公表。情報漏えいの範囲は引き続き調査中。",
       "source_index": 1
     }
-  ]
+  ],
+  "vendor_research": {
+    "checked_on": "2026-10-15",
+    "result": "not_identified",
+    "note": "掲載出典と追加検索で、当該事案に関係する外部の開発・運用・サービス・基盤会社の社名と役割を特定できませんでした。",
+    "source_checks": [
+      {
+        "source_index": 0,
+        "status": "reviewed"
+      },
+      {
+        "source_index": 1,
+        "status": "reviewed"
+      }
+    ]
+  }
 }

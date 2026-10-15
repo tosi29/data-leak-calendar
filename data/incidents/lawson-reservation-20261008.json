@@ -10,7 +10,7 @@
   "publication_kind": "initial",
   "occurred_on": "2026-09-17",
   "detected_on": "2026-10-07",
-  "updated_on": "2026-10-14",
+  "updated_on": "2026-10-15",
   "verification": "official",
   "incident_type": "attack",
   "leak_status": "confirmed",
@@ -40,9 +40,20 @@
       "type": "official",
       "title": "ローソンアプリ予約の個人情報漏えい",
       "published_on": "2026-10-08",
-      "checked_on": "2026-10-14"
+      "checked_on": "2026-10-15"
     }
   ],
   "notes": "ローソンIDの事案とは別記録。予約機能を停止。",
-  "updates": []
+  "updates": [],
+  "vendor_research": {
+    "checked_on": "2026-10-15",
+    "result": "not_identified",
+    "note": "掲載出典と追加検索で、当該事案に関係する外部の開発・運用・サービス・基盤会社の社名と役割を特定できませんでした。",
+    "source_checks": [
+      {
+        "source_index": 0,
+        "status": "reviewed"
+      }
+    ]
+  }
 }

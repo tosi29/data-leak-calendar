@@ -8,7 +8,7 @@
   "published_on": "2026-09-08",
   "occurred_on": null,
   "detected_on": null,
-  "updated_on": "2026-10-07",
+  "updated_on": "2026-10-15",
   "first_published_on": "2026-09-08",
   "publication_kind": "initial",
   "verification": "official",
@@ -39,10 +39,35 @@
       "type": "official",
       "title": "不正アクセスによる迷惑メール送信に関するお詫びと報告 | 立教大学",
       "published_on": "2026-09-08",
-      "checked_on": "2026-10-07"
+      "checked_on": "2026-10-15"
     }
   ],
   "notes": "教員1人の情報を記載した迷惑メールを確認。侵害アカウント6件・迷惑メール17,668件を漏えい人数として扱わない。",
   "updates": [],
-  "incident_type": "attack"
+  "incident_type": "attack",
+  "vendors": [
+    {
+      "name": "Google",
+      "role": "service",
+      "detail": "対象メールサービス「Gmail（Google Workspace）」の提供元。その他のGoogle Workspaceアプリ等への侵入は確認されていない。",
+      "source_index": 0
+    },
+    {
+      "name": "Microsoft",
+      "role": "service",
+      "detail": "別途1アカウントで不審ログイン・プロフィール閲覧の可能性が確認された「Microsoft 365」の提供元。",
+      "source_index": 0
+    }
+  ],
+  "vendor_research": {
+    "checked_on": "2026-10-15",
+    "result": "identified",
+    "note": "以下の役割と会社名を確認しました。記載のない役割は今回の調査では特定できていません。",
+    "source_checks": [
+      {
+        "source_index": 0,
+        "status": "reviewed"
+      }
+    ]
+  }
 }

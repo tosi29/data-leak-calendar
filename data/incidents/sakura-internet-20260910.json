@@ -9,7 +9,7 @@
   "published_on": "2026-09-10",
   "occurred_on": null,
   "detected_on": null,
-  "updated_on": "2026-10-07",
+  "updated_on": "2026-10-15",
   "first_published_on": "2026-08-17",
   "publication_kind": "followup",
   "verification": "official",
@@ -46,10 +46,21 @@
       "type": "official",
       "title": "当社システムへの不正アクセスに関する調査結果および再発防止策について（第三報） | さくらインターネット",
       "published_on": "2026-09-10",
-      "checked_on": "2026-10-07"
+      "checked_on": "2026-10-15"
     }
   ],
   "notes": "同一調査報告を1記録にまとめたが、各システムの不正アクセスの関連性は確認されていない。951には関連性未確認の368アカウントを含む。販売管理側の30アカウントでハッシュ化パスワードも対象（内数）。両集団を合算しない。",
   "updates": [],
-  "incident_type": "attack"
+  "incident_type": "attack",
+  "vendor_research": {
+    "checked_on": "2026-10-15",
+    "result": "not_identified",
+    "note": "掲載出典と追加検索で、当該事案に関係する外部の開発・運用・サービス・基盤会社の社名と役割を特定できませんでした。",
+    "source_checks": [
+      {
+        "source_index": 0,
+        "status": "reviewed"
+      }
+    ]
+  }
 }

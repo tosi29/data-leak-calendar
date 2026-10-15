@@ -9,7 +9,7 @@
   "published_on": "2026-09-28",
   "occurred_on": null,
   "detected_on": null,
-  "updated_on": "2026-10-07",
+  "updated_on": "2026-10-15",
   "first_published_on": "2026-09-28",
   "publication_kind": "initial",
   "verification": "official",
@@ -42,10 +42,29 @@
       "type": "official",
       "title": "システムサービス提供事業者へのサイバー攻撃に伴うお客さま情報流出の可能性について｜大東ガスコーポレート",
       "published_on": "2026-09-28",
-      "checked_on": "2026-10-07"
+      "checked_on": "2026-10-15"
     }
   ],
   "notes": "",
   "updates": [],
-  "incident_type": "attack"
+  "incident_type": "attack",
+  "vendors": [
+    {
+      "name": "両毛システムズ",
+      "role": "service",
+      "detail": "顧客情報管理システムのサービス提供元。今回対象なのは同社内に残存した業務ファイルで、顧客情報システムへの侵入は確認されていない。",
+      "source_index": 0
+    }
+  ],
+  "vendor_research": {
+    "checked_on": "2026-10-15",
+    "result": "identified",
+    "note": "以下の役割と会社名を確認しました。記載のない役割は今回の調査では特定できていません。",
+    "source_checks": [
+      {
+        "source_index": 0,
+        "status": "reviewed"
+      }
+    ]
+  }
 }

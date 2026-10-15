@@ -9,7 +9,7 @@
   "published_on": "2026-09-02",
   "occurred_on": "2025-01-09",
   "detected_on": "2026-08-27",
-  "updated_on": "2026-10-07",
+  "updated_on": "2026-10-15",
   "first_published_on": "2026-09-02",
   "publication_kind": "initial",
   "verification": "official",
@@ -42,10 +42,21 @@
       "type": "official",
       "title": "西武「52席の至福」における予約関連情報の一部漏えいについて",
       "published_on": "2026-09-02",
-      "checked_on": "2026-10-07"
+      "checked_on": "2026-10-15"
     }
   ],
   "notes": "閲覧可能期間は2025年1月9日～2026年8月27日。約30人はアレルギーなどの情報を含む内数。",
   "updates": [],
-  "incident_type": "accident"
+  "incident_type": "accident",
+  "vendor_research": {
+    "checked_on": "2026-10-15",
+    "result": "not_identified",
+    "note": "予約サイトのシステム管理委託先への言及はありますが、社名は記載されていません。",
+    "source_checks": [
+      {
+        "source_index": 0,
+        "status": "reviewed"
+      }
+    ]
+  }
 }

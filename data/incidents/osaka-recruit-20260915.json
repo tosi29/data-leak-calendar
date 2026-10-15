@@ -9,7 +9,7 @@
   "published_on": "2026-09-15",
   "occurred_on": null,
   "detected_on": null,
-  "updated_on": "2026-10-07",
+  "updated_on": "2026-10-15",
   "first_published_on": "2026-09-15",
   "publication_kind": "initial",
   "verification": "official",
@@ -39,10 +39,21 @@
       "type": "official",
       "title": "大阪市：報道発表資料　採用試験録画面接システム事業者における個人情報の漏えいの可能性について",
       "published_on": "2026-09-15",
-      "checked_on": "2026-10-07"
+      "checked_on": "2026-10-15"
     }
   ],
   "notes": "公表本文に事業者名が記載されていないため、関連ベンダーは推定しない。",
   "updates": [],
-  "incident_type": "attack"
+  "incident_type": "attack",
+  "vendor_research": {
+    "checked_on": "2026-10-15",
+    "result": "not_identified",
+    "note": "録画面接システムの提供事業者への言及はありますが社名は記載されていません。他自治体の事案からApplyNowと推定していません。",
+    "source_checks": [
+      {
+        "source_index": 0,
+        "status": "reviewed"
+      }
+    ]
+  }
 }

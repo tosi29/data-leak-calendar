@@ -9,7 +9,7 @@
   "published_on": "2026-09-26",
   "occurred_on": null,
   "detected_on": "2026-09-26",
-  "updated_on": "2026-10-07",
+  "updated_on": "2026-10-15",
   "first_published_on": "2026-09-26",
   "publication_kind": "initial",
   "verification": "official",
@@ -37,10 +37,21 @@
       "type": "official",
       "title": "ランサムウェア攻撃によるシステム障害に関するお知らせとお詫び｜新着情報｜京王プラザホテル（新宿）【公式】",
       "published_on": "2026-09-26",
-      "checked_on": "2026-10-07"
+      "checked_on": "2026-10-15"
     }
   ],
   "notes": "公表時点で情報漏えいの事実は確認されていない。",
   "updates": [],
-  "incident_type": "attack"
+  "incident_type": "attack",
+  "vendor_research": {
+    "checked_on": "2026-10-15",
+    "result": "not_identified",
+    "note": "掲載出典と追加検索で、当該事案に関係する外部の開発・運用・サービス・基盤会社の社名と役割を特定できませんでした。",
+    "source_checks": [
+      {
+        "source_index": 0,
+        "status": "reviewed"
+      }
+    ]
+  }
 }

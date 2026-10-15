@@ -9,7 +9,7 @@
   "published_on": "2026-09-04",
   "occurred_on": "2026-09-02",
   "detected_on": null,
-  "updated_on": "2026-10-07",
+  "updated_on": "2026-10-15",
   "first_published_on": "2026-09-04",
   "publication_kind": "initial",
   "verification": "secondary",
@@ -44,5 +44,16 @@
   ],
   "notes": "82人はメールを閲覧した可能性のある受信者数で、漏えい対象者数には加算しない。",
   "updates": [],
-  "incident_type": "accident"
+  "incident_type": "accident",
+  "vendor_research": {
+    "checked_on": "2026-10-15",
+    "result": "unavailable",
+    "note": "掲載出典の本文を今回取得できず、追加検索でも役割と会社名を確認できませんでした。「社名非公表」と断定した結果ではありません。",
+    "source_checks": [
+      {
+        "source_index": 0,
+        "status": "unavailable"
+      }
+    ]
+  }
 }

@@ -8,7 +8,7 @@
   "published_on": "2026-09-18",
   "occurred_on": null,
   "detected_on": null,
-  "updated_on": "2026-10-07",
+  "updated_on": "2026-10-15",
   "first_published_on": "2026-09-18",
   "publication_kind": "initial",
   "verification": "secondary",
@@ -39,10 +39,21 @@
       "type": "news",
       "title": "９７２人情報漏えい、兵庫/社会/社会総合/デイリースポーツ online",
       "published_on": "2026-09-18",
-      "checked_on": "2026-10-07"
+      "checked_on": "2026-10-15"
     }
   ],
   "notes": "972は延べ人数。重複を除いた人数は不明。",
   "updates": [],
-  "incident_type": "accident"
+  "incident_type": "accident",
+  "vendor_research": {
+    "checked_on": "2026-10-15",
+    "result": "not_identified",
+    "note": "掲載出典と追加検索で、当該事案に関係する外部の開発・運用・サービス・基盤会社の社名と役割を特定できませんでした。",
+    "source_checks": [
+      {
+        "source_index": 0,
+        "status": "reviewed"
+      }
+    ]
+  }
 }

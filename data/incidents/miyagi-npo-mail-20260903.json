@@ -9,7 +9,7 @@
   "published_on": "2026-09-03",
   "occurred_on": "2026-09-02",
   "detected_on": null,
-  "updated_on": "2026-10-07",
+  "updated_on": "2026-10-15",
   "first_published_on": "2026-09-03",
   "publication_kind": "initial",
   "verification": "official",
@@ -37,10 +37,21 @@
       "type": "official",
       "title": "指定管理者による個人情報等の漏えいについて - 宮城県公式ウェブサイト",
       "published_on": "2026-09-03",
-      "checked_on": "2026-10-07"
+      "checked_on": "2026-10-15"
     }
   ],
   "notes": "",
   "updates": [],
-  "incident_type": "accident"
+  "incident_type": "accident",
+  "vendor_research": {
+    "checked_on": "2026-10-15",
+    "result": "not_identified",
+    "note": "関連先「杜の伝言板ゆるる」は業務委託・提携等の関係です。当該システムの開発・運用・基盤担当であることは今回の調査では確認できませんでした。",
+    "source_checks": [
+      {
+        "source_index": 0,
+        "status": "reviewed"
+      }
+    ]
+  }
 }

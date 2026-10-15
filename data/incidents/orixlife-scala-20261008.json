@@ -11,7 +11,7 @@
   "publication_kind": "initial",
   "occurred_on": null,
   "detected_on": null,
-  "updated_on": "2026-10-14",
+  "updated_on": "2026-10-15",
   "verification": "official",
   "incident_type": "attack",
   "leak_status": "suspected",
@@ -44,9 +44,28 @@
       "type": "official",
       "title": "委託先への不正アクセスによる問い合わせ情報漏えいの可能性",
       "published_on": "2026-10-08",
-      "checked_on": "2026-10-14"
+      "checked_on": "2026-10-15"
     }
   ],
   "notes": "公式サイトのお知らせデータからリンクされたPDF本文の10月8日を確認。約26,500件は問い合わせ件数であり実人数ではない。マイナンバー・カード番号等は含まれない。",
-  "updates": []
+  "updates": [],
+  "vendors": [
+    {
+      "name": "スカラコミュニケーションズ",
+      "role": "service",
+      "detail": "問い合わせ内容の管理に利用するサービスの提供元。",
+      "source_index": 0
+    }
+  ],
+  "vendor_research": {
+    "checked_on": "2026-10-15",
+    "result": "identified",
+    "note": "以下の役割と会社名を確認しました。記載のない役割は今回の調査では特定できていません。",
+    "source_checks": [
+      {
+        "source_index": 0,
+        "status": "reviewed"
+      }
+    ]
+  }
 }

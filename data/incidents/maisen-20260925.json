@@ -9,7 +9,7 @@
   "published_on": "2026-09-25",
   "occurred_on": null,
   "detected_on": null,
-  "updated_on": "2026-10-07",
+  "updated_on": "2026-10-15",
   "first_published_on": "2026-09-25",
   "publication_kind": "initial",
   "verification": "official",
@@ -37,10 +37,29 @@
       "type": "official",
       "title": "採用応募者の個人情報漏えいに関するお詫びとお知らせ",
       "published_on": "2026-09-25",
-      "checked_on": "2026-10-07"
+      "checked_on": "2026-10-15"
     }
   ],
   "notes": "",
   "updates": [],
-  "incident_type": "attack"
+  "incident_type": "attack",
+  "vendors": [
+    {
+      "name": "ApplyNow",
+      "role": "service",
+      "detail": "当該採用業務で利用した録画面接・採用管理プラットフォームの提供元。利用時期は事案本文を参照。",
+      "source_index": 0
+    }
+  ],
+  "vendor_research": {
+    "checked_on": "2026-10-15",
+    "result": "identified",
+    "note": "以下の役割と会社名を確認しました。記載のない役割は今回の調査では特定できていません。",
+    "source_checks": [
+      {
+        "source_index": 0,
+        "status": "reviewed"
+      }
+    ]
+  }
 }

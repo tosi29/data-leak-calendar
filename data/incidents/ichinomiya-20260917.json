@@ -8,7 +8,7 @@
   "published_on": "2026-09-17",
   "occurred_on": null,
   "detected_on": "2026-09-11",
-  "updated_on": "2026-10-07",
+  "updated_on": "2026-10-15",
   "first_published_on": "2026-09-17",
   "publication_kind": "initial",
   "verification": "secondary",
@@ -45,5 +45,24 @@
   ],
   "notes": "本文の無料公開部分で確認。面接動画は別領域で影響なし。",
   "updates": [],
-  "incident_type": "attack"
+  "incident_type": "attack",
+  "vendors": [
+    {
+      "name": "ApplyNow",
+      "role": "service",
+      "detail": "当該採用業務で利用した録画面接・採用管理プラットフォームの提供元。利用時期は事案本文を参照。",
+      "source_index": 0
+    }
+  ],
+  "vendor_research": {
+    "checked_on": "2026-10-15",
+    "result": "identified",
+    "note": "以下の役割と会社名を確認しました。記載のない役割は今回の調査では特定できていません。",
+    "source_checks": [
+      {
+        "source_index": 0,
+        "status": "partial"
+      }
+    ]
+  }
 }

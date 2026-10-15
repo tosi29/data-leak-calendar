@@ -8,7 +8,7 @@
   "published_on": "2026-09-24",
   "occurred_on": null,
   "detected_on": null,
-  "updated_on": "2026-10-07",
+  "updated_on": "2026-10-15",
   "leak_status": "confirmed",
   "summary": "予約・顧客管理プラットフォームのデータベースから情報が外部転送されたことを確認。重複を可能な範囲で除外して規模を再集計した。",
   "impact": [
@@ -38,7 +38,7 @@
       "type": "official",
       "title": "不正アクセスと個人情報漏えいに関するお知らせ（第二報）",
       "published_on": "2026-09-24",
-      "checked_on": "2026-10-07"
+      "checked_on": "2026-10-15"
     }
   ],
   "notes": "初報は7月31日。店舗ごとの登録や未入力項目があるため、レコード数を人数には換算できない。",
@@ -47,5 +47,16 @@
   "publication_kind": "followup",
   "verification": "official",
   "related_vendor": null,
-  "incident_type": "attack"
+  "incident_type": "attack",
+  "vendor_research": {
+    "checked_on": "2026-10-15",
+    "result": "not_identified",
+    "note": "掲載出典と追加検索で、当該事案に関係する外部の開発・運用・サービス・基盤会社の社名と役割を特定できませんでした。",
+    "source_checks": [
+      {
+        "source_index": 0,
+        "status": "reviewed"
+      }
+    ]
+  }
 }

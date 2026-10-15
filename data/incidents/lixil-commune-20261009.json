@@ -55,5 +55,16 @@
       "detail": "すまいひろば・猫壁ひろばが利用するプラットフォーム「Commune」の提供元。",
       "source_index": 0
     }
-  ]
+  ],
+  "vendor_research": {
+    "checked_on": "2026-10-15",
+    "result": "identified",
+    "note": "以下の役割と会社名を確認しました。記載のない役割は今回の調査では特定できていません。",
+    "source_checks": [
+      {
+        "source_index": 0,
+        "status": "reviewed"
+      }
+    ]
+  }
 }

@@ -8,7 +8,7 @@
   "published_on": "2026-10-06",
   "occurred_on": "2026-09-06",
   "detected_on": "2026-10-05",
-  "updated_on": "2026-10-07",
+  "updated_on": "2026-10-15",
   "first_published_on": "2026-10-06",
   "publication_kind": "initial",
   "verification": "official",
@@ -43,10 +43,29 @@
       "type": "official",
       "title": "採用管理プラットフォーム「ApplyNow」への不正アクセスに伴う個人情報漏えいに関するお知らせとお詫び | ニュース詳細 | ナカバヤシ株式会社：アルバム・製本・シュレッダー・情報整理の総合サポーター",
       "published_on": "2026-10-06",
-      "checked_on": "2026-10-07"
+      "checked_on": "2026-10-15"
     }
   ],
   "notes": "公式本文の調査結果は漏えいした情報と記載。単位は人ではなく件。動画データは対象外。",
   "updates": [],
-  "incident_type": "attack"
+  "incident_type": "attack",
+  "vendors": [
+    {
+      "name": "ApplyNow",
+      "role": "service",
+      "detail": "当該採用業務で利用した録画面接・採用管理プラットフォームの提供元。利用時期は事案本文を参照。",
+      "source_index": 0
+    }
+  ],
+  "vendor_research": {
+    "checked_on": "2026-10-15",
+    "result": "identified",
+    "note": "以下の役割と会社名を確認しました。記載のない役割は今回の調査では特定できていません。",
+    "source_checks": [
+      {
+        "source_index": 0,
+        "status": "reviewed"
+      }
+    ]
+  }
 }

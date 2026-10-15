@@ -9,7 +9,7 @@
   "published_on": "2026-09-04",
   "occurred_on": "2026-08-27",
   "detected_on": "2026-08-27",
-  "updated_on": "2026-10-07",
+  "updated_on": "2026-10-15",
   "first_published_on": "2026-09-04",
   "publication_kind": "initial",
   "verification": "official",
@@ -44,17 +44,40 @@
       "type": "official",
       "title": "大阪高等裁判所における特定の事件に係るMicrosoft Teamsのチーム作成の誤りについて（お詫び） | 大阪高等裁判所",
       "published_on": "2026-09-04",
-      "checked_on": "2026-10-07"
+      "checked_on": "2026-10-15"
     },
     {
       "url": "https://scan.netsecurity.ne.jp/article/2026/09/16/56245.html",
       "type": "news",
       "title": "大阪高等裁判所で特定の事件に係る Microsoft Teams のチーム作成誤り、招待メール・通知からアクセスした際にユーザー名とメールアドレスが閲覧できる状態に | ScanNetSecurity",
       "published_on": "2026-09-16",
-      "checked_on": "2026-10-07"
+      "checked_on": "2026-10-15"
     }
   ],
   "notes": "事件の記録情報はアクセス可能になっていない。",
   "updates": [],
-  "incident_type": "accident"
+  "incident_type": "accident",
+  "vendors": [
+    {
+      "name": "Microsoft",
+      "role": "service",
+      "detail": "共有範囲の設定が問題となった「Teams」の提供元。設定を行った職員とサービス提供会社の責任を同一視しない。",
+      "source_index": 0
+    }
+  ],
+  "vendor_research": {
+    "checked_on": "2026-10-15",
+    "result": "identified",
+    "note": "以下の役割と会社名を確認しました。記載のない役割は今回の調査では特定できていません。",
+    "source_checks": [
+      {
+        "source_index": 0,
+        "status": "reviewed"
+      },
+      {
+        "source_index": 1,
+        "status": "reviewed"
+      }
+    ]
+  }
 }

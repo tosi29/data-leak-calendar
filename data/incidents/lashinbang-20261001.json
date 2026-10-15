@@ -8,7 +8,7 @@
   "published_on": "2026-10-01",
   "occurred_on": "2026-09-14",
   "detected_on": null,
-  "updated_on": "2026-10-14",
+  "updated_on": "2026-10-15",
   "first_published_on": "2026-10-01",
   "publication_kind": "initial",
   "verification": "official",
@@ -42,14 +42,14 @@
       "type": "official",
       "title": "らしんばん | フィギュア・アクスタなど中古アニメグッズの買取・販売",
       "published_on": "2026-10-01",
-      "checked_on": "2026-10-07"
+      "checked_on": "2026-10-15"
     },
     {
       "url": "https://www.lashinbang.com/info/26357/",
       "type": "official",
       "title": "個人情報漏えい可能性のお知らせ（10月9日追記）",
       "published_on": "2026-10-09",
-      "checked_on": "2026-10-14"
+      "checked_on": "2026-10-15"
     }
   ],
   "notes": "本人確認書類の番号情報・買取同意書画像と、漏えいが否定された本人確認書類画像を区別する。",
@@ -60,5 +60,20 @@
       "source_index": 1
     }
   ],
-  "incident_type": "attack"
+  "incident_type": "attack",
+  "vendor_research": {
+    "checked_on": "2026-10-15",
+    "result": "not_identified",
+    "note": "掲載出典と追加検索で、当該事案に関係する外部の開発・運用・サービス・基盤会社の社名と役割を特定できませんでした。",
+    "source_checks": [
+      {
+        "source_index": 0,
+        "status": "reviewed"
+      },
+      {
+        "source_index": 1,
+        "status": "reviewed"
+      }
+    ]
+  }
 }

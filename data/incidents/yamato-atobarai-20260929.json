@@ -8,7 +8,7 @@
   "published_on": "2026-09-29",
   "occurred_on": null,
   "detected_on": "2026-09-28",
-  "updated_on": "2026-10-07",
+  "updated_on": "2026-10-15",
   "leak_status": "suspected",
   "summary": "代金後払いサービスへの不正アクセスを確認。第2報で利用者・加盟店・担当社員に関する情報が漏えいした可能性を公表。",
   "impact": [
@@ -38,7 +38,7 @@
       "type": "official",
       "title": "クロネコ代金後払いサービスへの不正アクセス（第2報）",
       "published_on": "2026-10-02",
-      "checked_on": "2026-10-07"
+      "checked_on": "2026-10-15"
     }
   ],
   "notes": "第2報本文で初報の日付（9月29日）を確認。件数は未公表。",
@@ -53,5 +53,16 @@
   "publication_kind": "initial",
   "verification": "official",
   "related_vendor": null,
-  "incident_type": "attack"
+  "incident_type": "attack",
+  "vendor_research": {
+    "checked_on": "2026-10-15",
+    "result": "not_identified",
+    "note": "掲載出典と追加検索で、当該事案に関係する外部の開発・運用・サービス・基盤会社の社名と役割を特定できませんでした。",
+    "source_checks": [
+      {
+        "source_index": 0,
+        "status": "reviewed"
+      }
+    ]
+  }
 }

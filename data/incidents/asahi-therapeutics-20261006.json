@@ -8,7 +8,7 @@
   "published_on": "2026-10-06",
   "occurred_on": null,
   "detected_on": "2026-10-02",
-  "updated_on": "2026-10-07",
+  "updated_on": "2026-10-15",
   "first_published_on": "2026-10-06",
   "publication_kind": "initial",
   "verification": "official",
@@ -48,10 +48,29 @@
       "type": "official",
       "title": "2026年10月6日｜プレスリリース｜旭化成セラピューティクス株式会社",
       "published_on": "2026-10-06",
-      "checked_on": "2026-10-07"
+      "checked_on": "2026-10-15"
     }
   ],
   "notes": "医療従事者は最大約51.4万人。そのうち約4.4万人はメールアドレスも含む内数であり加算しない。",
   "updates": [],
-  "incident_type": "attack"
+  "incident_type": "attack",
+  "vendors": [
+    {
+      "name": "医薬情報ネット",
+      "role": "operations",
+      "detail": "対象ウェブサイトの運用および情報管理の委託先。",
+      "source_index": 0
+    }
+  ],
+  "vendor_research": {
+    "checked_on": "2026-10-15",
+    "result": "identified",
+    "note": "以下の役割と会社名を確認しました。記載のない役割は今回の調査では特定できていません。",
+    "source_checks": [
+      {
+        "source_index": 0,
+        "status": "reviewed"
+      }
+    ]
+  }
 }

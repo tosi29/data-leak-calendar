@@ -8,7 +8,7 @@
   "published_on": "2026-09-16",
   "occurred_on": "2026-09-11",
   "detected_on": "2026-09-11",
-  "updated_on": "2026-10-07",
+  "updated_on": "2026-10-15",
   "leak_status": "confirmed",
   "summary": "画像アップロードサーバーを経由した侵入により、ユーザー情報と画像に関するメタデータが外部に流出。",
   "impact": [
@@ -54,14 +54,14 @@
       "type": "official",
       "title": "Gyazoへの不正アクセスによる情報漏えい（第一報）",
       "published_on": "2026-09-16",
-      "checked_on": "2026-10-07"
+      "checked_on": "2026-10-15"
     },
     {
       "url": "https://corp.helpfeel.com/news/news-20260925-01",
       "type": "official",
       "title": "Gyazoへの不正アクセスによる情報漏えい（第二報）",
       "published_on": "2026-09-25",
-      "checked_on": "2026-10-07"
+      "checked_on": "2026-10-15"
     }
   ],
   "notes": "匿名利用者のデータを含む。個人情報が流出した人数は調査中。メタデータ件数は画像ファイルの流出件数ではなく、各規模は合算しない。",
@@ -76,5 +76,20 @@
   "publication_kind": "initial",
   "verification": "official",
   "related_vendor": null,
-  "incident_type": "attack"
+  "incident_type": "attack",
+  "vendor_research": {
+    "checked_on": "2026-10-15",
+    "result": "not_identified",
+    "note": "掲載出典と追加検索で、当該事案に関係する外部の開発・運用・サービス・基盤会社の社名と役割を特定できませんでした。",
+    "source_checks": [
+      {
+        "source_index": 0,
+        "status": "reviewed"
+      },
+      {
+        "source_index": 1,
+        "status": "reviewed"
+      }
+    ]
+  }
 }

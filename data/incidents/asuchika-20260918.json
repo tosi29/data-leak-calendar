@@ -9,7 +9,7 @@
   "published_on": "2026-09-18",
   "occurred_on": "2026-08-20",
   "detected_on": null,
-  "updated_on": "2026-10-07",
+  "updated_on": "2026-10-15",
   "first_published_on": "2026-08-21",
   "publication_kind": "followup",
   "verification": "official",
@@ -41,10 +41,21 @@
       "type": "official",
       "title": "メール誤送信による個人情報漏えいに関する確報提出と対応状況のご報告｜課題を抱える子どもをサポートする大人を支援する",
       "published_on": "2026-09-18",
-      "checked_on": "2026-10-07"
+      "checked_on": "2026-10-15"
     }
   ],
   "notes": "976件は到達先数で、情報が記録された1,142人とは異なる。団体名はサイト表示を確認。",
   "updates": [],
-  "incident_type": "accident"
+  "incident_type": "accident",
+  "vendor_research": {
+    "checked_on": "2026-10-15",
+    "result": "not_identified",
+    "note": "掲載出典と追加検索で、当該事案に関係する外部の開発・運用・サービス・基盤会社の社名と役割を特定できませんでした。",
+    "source_checks": [
+      {
+        "source_index": 0,
+        "status": "reviewed"
+      }
+    ]
+  }
 }

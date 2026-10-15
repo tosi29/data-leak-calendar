@@ -9,7 +9,7 @@
   "published_on": "2026-09-07",
   "occurred_on": null,
   "detected_on": null,
-  "updated_on": "2026-10-07",
+  "updated_on": "2026-10-15",
   "first_published_on": "2026-02-14",
   "publication_kind": "followup",
   "verification": "official",
@@ -43,14 +43,14 @@
       "type": "news",
       "title": "実行犯が示唆したダークウェブでの情報公開は確認されず ～ ワシントンホテルにランサムウェア攻撃 | ScanNetSecurity",
       "published_on": "2026-09-25",
-      "checked_on": "2026-10-07"
+      "checked_on": "2026-10-15"
     },
     {
       "url": "https://www.washingtonhotel.co.jp/corporation/news/228/",
       "type": "official",
       "title": "ランサムウェア感染被害に伴う退職者の皆様の個人情報に関するお知らせ | 【公式】ワシントンホテル株式会社",
       "published_on": "2026-09-25",
-      "checked_on": "2026-10-07"
+      "checked_on": "2026-10-15"
     }
   ],
   "notes": "9月7日の最終報について、9月25日の公式通知が参照。項目は入社時期等により異なる。情報窃取の明確な痕跡・外部公開は未確認。",
@@ -61,5 +61,20 @@
       "source_index": 1
     }
   ],
-  "incident_type": "attack"
+  "incident_type": "attack",
+  "vendor_research": {
+    "checked_on": "2026-10-15",
+    "result": "not_identified",
+    "note": "掲載出典と追加検索で、当該事案に関係する外部の開発・運用・サービス・基盤会社の社名と役割を特定できませんでした。",
+    "source_checks": [
+      {
+        "source_index": 0,
+        "status": "reviewed"
+      },
+      {
+        "source_index": 1,
+        "status": "reviewed"
+      }
+    ]
+  }
 }

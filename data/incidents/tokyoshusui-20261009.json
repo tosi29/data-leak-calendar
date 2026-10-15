@@ -10,7 +10,7 @@
   "publication_kind": "initial",
   "occurred_on": null,
   "detected_on": "2026-10-07",
-  "updated_on": "2026-10-14",
+  "updated_on": "2026-10-15",
   "verification": "official",
   "incident_type": "attack",
   "leak_status": "suspected",
@@ -40,9 +40,51 @@
       "type": "official",
       "title": "メールマガジン配信サービスで情報漏えいのおそれ",
       "published_on": "2026-10-09",
-      "checked_on": "2026-10-14"
+      "checked_on": "2026-10-15"
+    },
+    {
+      "url": "https://www.future-shop.jp/news/2026/01/21.html",
+      "type": "official",
+      "title": "future Scenario Castの提供開始・開発時の技術協力に関する公式発表",
+      "published_on": "2026-01-21",
+      "checked_on": "2026-10-15"
     }
   ],
   "notes": "直接利用する配信サービスはフューチャーショップのfuture Scenario Cast。住所・電話番号・カード情報・ログインパスワードは対象外。",
-  "updates": []
+  "updates": [],
+  "vendors": [
+    {
+      "name": "フューチャーショップ",
+      "role": "service",
+      "detail": "メールマガジン配信に利用する「future Scenario Cast」の提供元。",
+      "source_index": 0
+    },
+    {
+      "name": "IDCフロンティア",
+      "role": "infrastructure",
+      "detail": "メール配信サービスの基盤「IDCFクラウド」の運営元。",
+      "source_index": 0
+    },
+    {
+      "name": "イー・エージェンシー",
+      "role": "development",
+      "detail": "「future Scenario Cast」の開発に技術協力し、基盤となる「DATA CAST for futureshop」を提供。製品の開発関係の情報であり、本件の責任や侵入原因を示すものではない。",
+      "source_index": 1
+    }
+  ],
+  "vendor_research": {
+    "checked_on": "2026-10-15",
+    "result": "identified",
+    "note": "以下の役割と会社名を確認しました。記載のない役割は今回の調査では特定できていません。",
+    "source_checks": [
+      {
+        "source_index": 0,
+        "status": "reviewed"
+      },
+      {
+        "source_index": 1,
+        "status": "reviewed"
+      }
+    ]
+  }
 }

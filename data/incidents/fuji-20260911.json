@@ -8,7 +8,7 @@
   "published_on": "2026-09-11",
   "occurred_on": null,
   "detected_on": "2026-09-10",
-  "updated_on": "2026-10-07",
+  "updated_on": "2026-10-15",
   "first_published_on": "2026-09-11",
   "publication_kind": "initial",
   "verification": "official",
@@ -41,10 +41,29 @@
       "type": "official",
       "title": "本市職員採用試験（プレゼンテーション動画試験）を受験された方の個人情報の不正流出の可能性について【お知らせとお詫び】 | 静岡県富士市",
       "published_on": "2026-09-11",
-      "checked_on": "2026-10-07"
+      "checked_on": "2026-10-15"
     }
   ],
   "notes": "原文は約800件。動画データ自体は対象外。",
   "updates": [],
-  "incident_type": "attack"
+  "incident_type": "attack",
+  "vendors": [
+    {
+      "name": "ApplyNow",
+      "role": "service",
+      "detail": "当該採用業務で利用した録画面接・採用管理プラットフォームの提供元。利用時期は事案本文を参照。",
+      "source_index": 0
+    }
+  ],
+  "vendor_research": {
+    "checked_on": "2026-10-15",
+    "result": "identified",
+    "note": "以下の役割と会社名を確認しました。記載のない役割は今回の調査では特定できていません。",
+    "source_checks": [
+      {
+        "source_index": 0,
+        "status": "reviewed"
+      }
+    ]
+  }
 }

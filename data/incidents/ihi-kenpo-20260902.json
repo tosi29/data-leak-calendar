@@ -9,7 +9,7 @@
   "published_on": "2026-09-02",
   "occurred_on": null,
   "detected_on": null,
-  "updated_on": "2026-10-07",
+  "updated_on": "2026-10-15",
   "first_published_on": "2026-09-02",
   "publication_kind": "initial",
   "verification": "official",
@@ -37,10 +37,21 @@
       "type": "official",
       "title": "NEWS & TOPICS | ＩＨＩグループ健康保険組合",
       "published_on": "2026-09-02",
-      "checked_on": "2026-10-07"
+      "checked_on": "2026-10-15"
     }
   ],
   "notes": "公表資料は漏えいのおそれとして扱う。210人の第三者流出確認を意味しない。",
   "updates": [],
-  "incident_type": "improper_handling"
+  "incident_type": "improper_handling",
+  "vendor_research": {
+    "checked_on": "2026-10-15",
+    "result": "not_identified",
+    "note": "RIZAPは特定保健指導の業務委託先。利用された生成AIの提供会社、システム開発・運用会社は特定できませんでした。",
+    "source_checks": [
+      {
+        "source_index": 0,
+        "status": "reviewed"
+      }
+    ]
+  }
 }

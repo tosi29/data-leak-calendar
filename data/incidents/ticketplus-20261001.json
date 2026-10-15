@@ -8,7 +8,7 @@
   "published_on": "2026-10-01",
   "occurred_on": "2026-09-28",
   "detected_on": "2026-09-29",
-  "updated_on": "2026-10-07",
+  "updated_on": "2026-10-15",
   "first_published_on": "2026-10-01",
   "publication_kind": "initial",
   "verification": "official",
@@ -40,10 +40,21 @@
       "type": "official",
       "title": "チケプラ カンタン便利な電子チケット",
       "published_on": "2026-10-01",
-      "checked_on": "2026-10-07"
+      "checked_on": "2026-10-15"
     }
   ],
   "notes": "候補の429人は、情報を表示された側107人と他人の情報を見た可能性のある側322人の合計。漏えい対象者数として合算しない。",
   "updates": [],
-  "incident_type": "accident"
+  "incident_type": "accident",
+  "vendor_research": {
+    "checked_on": "2026-10-15",
+    "result": "not_identified",
+    "note": "掲載出典と追加検索で、当該事案に関係する外部の開発・運用・サービス・基盤会社の社名と役割を特定できませんでした。",
+    "source_checks": [
+      {
+        "source_index": 0,
+        "status": "reviewed"
+      }
+    ]
+  }
 }

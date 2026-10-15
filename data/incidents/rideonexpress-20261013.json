@@ -50,5 +50,16 @@
     }
   ],
   "notes": "第3報を掲載。先行する障害告知の初報日は未確定。10月13日時点で漏えいの事実・範囲は未特定。家族や配送先の情報を含む可能性がある。サーバー運営会社は本文で社名を確認できずrelated_vendorは未設定。",
-  "updates": []
+  "updates": [],
+  "vendor_research": {
+    "checked_on": "2026-10-15",
+    "result": "not_identified",
+    "note": "サーバーホスティング事業者への言及はありますが社名は記載されていません。同時期の障害から基盤事業者を推定していません。",
+    "source_checks": [
+      {
+        "source_index": 0,
+        "status": "reviewed"
+      }
+    ]
+  }
 }

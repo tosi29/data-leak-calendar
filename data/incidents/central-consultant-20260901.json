@@ -9,7 +9,7 @@
   "published_on": "2026-09-01",
   "occurred_on": "2026-07-18",
   "detected_on": null,
-  "updated_on": "2026-10-07",
+  "updated_on": "2026-10-15",
   "first_published_on": "2026-07-31",
   "publication_kind": "followup",
   "verification": "official",
@@ -41,10 +41,21 @@
       "type": "official",
       "title": "当社コーポレートサイトへの不正アクセスに関する調査結果および対応について - セントラルコンサルタント株式会社",
       "published_on": "2026-09-01",
-      "checked_on": "2026-10-07"
+      "checked_on": "2026-10-15"
     }
   ],
   "notes": "不正アクセスは7月18〜30日。9月1日は調査結果の公表日。",
   "updates": [],
-  "incident_type": "attack"
+  "incident_type": "attack",
+  "vendor_research": {
+    "checked_on": "2026-10-15",
+    "result": "not_identified",
+    "note": "掲載出典と追加検索で、当該事案に関係する外部の開発・運用・サービス・基盤会社の社名と役割を特定できませんでした。",
+    "source_checks": [
+      {
+        "source_index": 0,
+        "status": "reviewed"
+      }
+    ]
+  }
 }

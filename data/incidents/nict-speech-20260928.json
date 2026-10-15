@@ -9,7 +9,7 @@
   "published_on": "2026-09-28",
   "occurred_on": "2026-03-12",
   "detected_on": null,
-  "updated_on": "2026-10-07",
+  "updated_on": "2026-10-15",
   "first_published_on": null,
   "publication_kind": "followup",
   "verification": "official",
@@ -37,10 +37,21 @@
       "type": "official",
       "title": "音声コーパスの誤った公開による情報漏えいとその対応に関するお知らせ（第3報）｜2026年｜NICT-情報通信研究機構",
       "published_on": "2026-09-28",
-      "checked_on": "2026-10-07"
+      "checked_on": "2026-10-15"
     }
   ],
   "notes": "初報日はこの資料では確認できず。5月19日に第2報。115はファイル数ではなく人数。",
   "updates": [],
-  "incident_type": "accident"
+  "incident_type": "accident",
+  "vendor_research": {
+    "checked_on": "2026-10-15",
+    "result": "not_identified",
+    "note": "音声収録業務の委託先への言及はありますが、ITシステムの開発・運用会社を示す記載は確認できませんでした。",
+    "source_checks": [
+      {
+        "source_index": 0,
+        "status": "reviewed"
+      }
+    ]
+  }
 }

@@ -8,7 +8,7 @@
   "published_on": "2026-09-07",
   "occurred_on": null,
   "detected_on": null,
-  "updated_on": "2026-10-07",
+  "updated_on": "2026-10-15",
   "first_published_on": "2026-08-28",
   "publication_kind": "followup",
   "verification": "official",
@@ -59,10 +59,21 @@
       "type": "official",
       "title": "コープやまぐちLINEミニアプリへの不正アクセスによる個人情報漏えいのおそれについて（第二報） | コープやまぐち",
       "published_on": "2026-09-07",
-      "checked_on": "2026-10-07"
+      "checked_on": "2026-10-15"
     }
   ],
   "notes": "先頭は電子マネー機能付きカードを持たない組合員情報。4区分計217,295件は重複排除した人数ではない。LINEヤフーのデータベースへの攻撃ではない。",
   "updates": [],
-  "incident_type": "attack"
+  "incident_type": "attack",
+  "vendor_research": {
+    "checked_on": "2026-10-15",
+    "result": "not_identified",
+    "note": "公式発表には開発・運用を外部事業者へ委託しているとの記載がありますが、事業者名は記載されていません。追加検索でも特定できませんでした。",
+    "source_checks": [
+      {
+        "source_index": 0,
+        "status": "reviewed"
+      }
+    ]
+  }
 }

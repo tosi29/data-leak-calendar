@@ -10,7 +10,7 @@
   "publication_kind": "initial",
   "occurred_on": null,
   "detected_on": "2026-10-01",
-  "updated_on": "2026-10-14",
+  "updated_on": "2026-10-15",
   "verification": "official",
   "incident_type": "attack",
   "leak_status": "suspected",
@@ -42,9 +42,20 @@
       "type": "official",
       "title": "委託先端末のマルウェア感染による情報漏えいのおそれ",
       "published_on": "2026-10-08",
-      "checked_on": "2026-10-14"
+      "checked_on": "2026-10-15"
     }
   ],
   "notes": "委託先で10月1〜2日に感染判明、第一興商は10月5日に報告を受領。顧客区分の重複を調整した公表総数。パスワードは対象外。",
-  "updates": []
+  "updates": [],
+  "vendor_research": {
+    "checked_on": "2026-10-15",
+    "result": "not_identified",
+    "note": "関連先「日本コロムビアグループ」は業務委託・提携等の関係です。当該システムの開発・運用・基盤担当であることは今回の調査では確認できませんでした。",
+    "source_checks": [
+      {
+        "source_index": 0,
+        "status": "reviewed"
+      }
+    ]
+  }
 }

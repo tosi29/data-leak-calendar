@@ -51,5 +51,16 @@
     }
   ],
   "notes": "不正閲覧は確認されたが最大対象人数全員の閲覧が確定した意味ではない。LINE会員やAmazon・楽天のみの利用者は対象外。ログインパスワード、カード番号全桁・セキュリティコードは対象外。",
-  "updates": []
+  "updates": [],
+  "vendor_research": {
+    "checked_on": "2026-10-15",
+    "result": "not_identified",
+    "note": "掲載出典と追加検索で、当該事案に関係する外部の開発・運用・サービス・基盤会社の社名と役割を特定できませんでした。",
+    "source_checks": [
+      {
+        "source_index": 0,
+        "status": "reviewed"
+      }
+    ]
+  }
 }

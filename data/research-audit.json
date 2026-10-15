@@ -958,6 +958,1650 @@
         "役割付き情報は今回確認した4件。全222件の開発会社を追加調査したものではない。",
         "vendors未記入・該当役割なしは情報なしと表示し、未確認・未公表を含む旨を説明。既存の関連先情報は保持。"
       ]
+    },
+    {
+      "checked_on": "2026-10-15",
+      "scope": "掲載済み222事案のベンダー情報調査（新規事案の網羅調査ではない）",
+      "method": [
+        "全掲載出典233 URLを確認し、各事案について追加検索。取得できない本文は直接取得も試行。",
+        "開発・運用保守・サービス提供・基盤を区別。業務委託先、PR窓口、ストア配信者から開発会社を推定しない。",
+        "製品の技術協力関係は公式製品発表で照合し、事故責任の認定と区別。"
+      ],
+      "counts": {
+        "not_identified": 169,
+        "identified": 44,
+        "unavailable": 9
+      },
+      "limitations": [
+        "調査実施は全役割の特定を意味しない。取得不可・部分閲覧は各事案のvendor_research.source_checksに記録。",
+        "同名企業の別システムの導入実績や調達契約は当該事故との関係の根拠にしない。",
+        "出典が更新されるため、情報なしは非公表やベンダー不在を証明しない。"
+      ],
+      "incident_reviews": [
+        {
+          "incident_id": "777con-pass-20261002",
+          "queries": [
+            "\"777CON-PASS\" 2026 個人情報 漏えい 開発 委託 ベンダー"
+          ],
+          "result": "not_identified"
+        },
+        {
+          "incident_id": "abahouse-20261003",
+          "queries": [
+            "\"アバハウスインターナショナル\" 2026 個人情報 漏えい 開発 委託 ベンダー"
+          ],
+          "result": "not_identified"
+        },
+        {
+          "incident_id": "aena-20261014",
+          "queries": [
+            "\"アエナ\" 2026 個人情報 漏えい 開発 委託 ベンダー"
+          ],
+          "result": "not_identified"
+        },
+        {
+          "incident_id": "aflac-20260901",
+          "queries": [
+            "\"アフラック生命保険\" 2026 個人情報 漏えい 開発 委託 ベンダー"
+          ],
+          "result": "not_identified"
+        },
+        {
+          "incident_id": "aichi-aicon-20260921",
+          "queries": [
+            "\"愛知県\" 2026 個人情報 漏えい 開発 委託 ベンダー"
+          ],
+          "result": "not_identified"
+        },
+        {
+          "incident_id": "aichi-mental-20260917",
+          "queries": [
+            "\"愛知県精神保健福祉センター\" 2026 個人情報 漏えい 開発 委託 ベンダー"
+          ],
+          "result": "not_identified"
+        },
+        {
+          "incident_id": "ainokaze-20260915",
+          "queries": [
+            "\"あいの風とやま鉄道\" 2026 個人情報 漏えい 開発 委託 ベンダー"
+          ],
+          "result": "not_identified"
+        },
+        {
+          "incident_id": "applabo-20261012",
+          "queries": [
+            "\"あっぷらぼ\" 2026 個人情報 漏えい 開発 委託 ベンダー"
+          ],
+          "result": "not_identified"
+        },
+        {
+          "incident_id": "applynow-20260909",
+          "queries": [
+            "\"株式会社ApplyNow\" 2026 個人情報 漏えい 開発 委託 ベンダー",
+            "site:www.kichiri.co.jp 株式会社ApplyNow 2026 採用管理プラットフォームへの不正アクセス"
+          ],
+          "result": "not_identified"
+        },
+        {
+          "incident_id": "arcadia-raiden-20261013",
+          "queries": [
+            "\"アルカディア（SpeeCAN RAIDEN・NET119等）\" 2026 個人情報 漏えい 開発 委託 ベンダー"
+          ],
+          "result": "not_identified"
+        },
+        {
+          "incident_id": "asahi-therapeutics-20261006",
+          "queries": [
+            "\"旭化成セラピューティクス\" 2026 個人情報 漏えい 開発 委託 ベンダー"
+          ],
+          "result": "identified"
+        },
+        {
+          "incident_id": "asuchika-20260918",
+          "queries": [
+            "\"全国ドコデモこども食堂\" 2026 個人情報 漏えい 開発 委託 ベンダー"
+          ],
+          "result": "not_identified"
+        },
+        {
+          "incident_id": "atsugi-education-20260916",
+          "queries": [
+            "\"厚木市教育委員会\" 2026 個人情報 漏えい 開発 委託 ベンダー",
+            "site:www.kanaloco.jp 厚木市教育委員会 2026 市立小中学校13校で、保護者の同意を得ず児童生徒・保護者"
+          ],
+          "result": "unavailable"
+        },
+        {
+          "incident_id": "azas-suloop-20260918",
+          "queries": [
+            "\"JGC Digital（アザス・するーぷ）\" 2026 個人情報 漏えい 開発 委託 ベンダー"
+          ],
+          "result": "not_identified"
+        },
+        {
+          "incident_id": "azuma-industry-20260914",
+          "queries": [
+            "\"東産業\" 2026 個人情報 漏えい 開発 委託 ベンダー"
+          ],
+          "result": "not_identified"
+        },
+        {
+          "incident_id": "beer-engawa-20260914",
+          "queries": [
+            "\"原田産業\" 2026 個人情報 漏えい 開発 委託 ベンダー"
+          ],
+          "result": "not_identified"
+        },
+        {
+          "incident_id": "benefit-one-20260930",
+          "queries": [
+            "\"ベネフィット・ワン\" 2026 個人情報 漏えい 開発 委託 ベンダー"
+          ],
+          "result": "not_identified"
+        },
+        {
+          "incident_id": "bookoff-20261009",
+          "queries": [
+            "\"ブックオフグループホールディングス\" 2026 個人情報 漏えい 開発 委託 ベンダー",
+            "site:ssl4.eir-parts.net ブックオフグループホールディングス 2026 会員管理システムへの不正アクセスによる会員情報流出"
+          ],
+          "result": "not_identified"
+        },
+        {
+          "incident_id": "burgerking-20261015",
+          "queries": [
+            "\"ビーケー・ジャパン（バーガーキング）\" 2026 個人情報 漏えい 開発 委託 ベンダー",
+            "site:www.burgerking.co.jp ビーケー・ジャパン（バーガーキング） 2026 公式アプリ会員情報への不正アクセスと漏えい"
+          ],
+          "result": "not_identified"
+        },
+        {
+          "incident_id": "calbee-photogoods-20260917",
+          "queries": [
+            "\"カルビー\" 2026 個人情報 漏えい 開発 委託 ベンダー"
+          ],
+          "result": "not_identified"
+        },
+        {
+          "incident_id": "central-consultant-20260901",
+          "queries": [
+            "\"セントラルコンサルタント\" 2026 個人情報 漏えい 開発 委託 ベンダー"
+          ],
+          "result": "not_identified"
+        },
+        {
+          "incident_id": "charm-20260902",
+          "queries": [
+            "\"チャーム\" 2026 個人情報 漏えい 開発 委託 ベンダー"
+          ],
+          "result": "not_identified"
+        },
+        {
+          "incident_id": "chiba-biodiversity-20260901",
+          "queries": [
+            "\"千葉県生物多様性センター\" 2026 個人情報 漏えい 開発 委託 ベンダー"
+          ],
+          "result": "not_identified"
+        },
+        {
+          "incident_id": "chibagin-20260917",
+          "queries": [
+            "\"ちばぎん商店\" 2026 個人情報 漏えい 開発 委託 ベンダー"
+          ],
+          "result": "not_identified"
+        },
+        {
+          "incident_id": "chitose-commune-20261009",
+          "queries": [
+            "\"ちとせ研究所\" 2026 個人情報 漏えい 開発 委託 ベンダー"
+          ],
+          "result": "identified"
+        },
+        {
+          "incident_id": "citizen-20261006",
+          "queries": [
+            "\"シチズン時計株式会社\" 2026 個人情報 漏えい 開発 委託 ベンダー"
+          ],
+          "result": "identified"
+        },
+        {
+          "incident_id": "coconala-20261009",
+          "queries": [
+            "\"ココナラ\" 2026 個人情報 漏えい 開発 委託 ベンダー"
+          ],
+          "result": "not_identified"
+        },
+        {
+          "incident_id": "commune-20261009",
+          "queries": [
+            "\"コミューン\" 2026 個人情報 漏えい 開発 委託 ベンダー",
+            "site:communeinc.com コミューン 2026 Commune・Commune for Workの会員情"
+          ],
+          "result": "not_identified"
+        },
+        {
+          "incident_id": "coop-yamaguchi-20260907",
+          "queries": [
+            "\"コープやまぐち\" 2026 個人情報 漏えい 開発 委託 ベンダー"
+          ],
+          "result": "not_identified"
+        },
+        {
+          "incident_id": "cosme-20260916",
+          "queries": [
+            "\"アイスタイル\" 2026 個人情報 漏えい 開発 委託 ベンダー"
+          ],
+          "result": "not_identified"
+        },
+        {
+          "incident_id": "daiichi-life-20261002",
+          "queries": [
+            "\"第一生命\" 2026 個人情報 漏えい 開発 委託 ベンダー"
+          ],
+          "result": "not_identified"
+        },
+        {
+          "incident_id": "daiichikosho-20261008",
+          "queries": [
+            "\"第一興商\" 2026 個人情報 漏えい 開発 委託 ベンダー"
+          ],
+          "result": "not_identified"
+        },
+        {
+          "incident_id": "daiki-suisan-20261005",
+          "queries": [
+            "\"大起水産\" 2026 個人情報 漏えい 開発 委託 ベンダー"
+          ],
+          "result": "not_identified"
+        },
+        {
+          "incident_id": "daito-gas-20260928",
+          "queries": [
+            "\"大東ガス\" 2026 個人情報 漏えい 開発 委託 ベンダー"
+          ],
+          "result": "identified"
+        },
+        {
+          "incident_id": "daiwa-20261005",
+          "queries": [
+            "\"大和証券株式会社\" 2026 個人情報 漏えい 開発 委託 ベンダー",
+            "site:ssl4.eir-parts.net 大和証券株式会社 2026 問い合わせ情報の委託先で不正アクセス"
+          ],
+          "result": "identified"
+        },
+        {
+          "incident_id": "digital-gss-20260911",
+          "queries": [
+            "\"デジタル庁\" 2026 個人情報 漏えい 開発 委託 ベンダー"
+          ],
+          "result": "not_identified"
+        },
+        {
+          "incident_id": "dip-baitoru-20261006",
+          "queries": [
+            "\"ディップ\" 2026 個人情報 漏えい 開発 委託 ベンダー",
+            "site:www.dip-net.co.jp ディップ 2026 バイトル・バイトルNEXTのメールアドレス漏えい"
+          ],
+          "result": "not_identified"
+        },
+        {
+          "incident_id": "docomo-amazon-20260915",
+          "queries": [
+            "\"NTTドコモ\" 2026 個人情報 漏えい 開発 委託 ベンダー"
+          ],
+          "result": "not_identified"
+        },
+        {
+          "incident_id": "dozle-store-20260912",
+          "queries": [
+            "\"ドズル\" 2026 個人情報 漏えい 開発 委託 ベンダー"
+          ],
+          "result": "identified"
+        },
+        {
+          "incident_id": "edogawa-mail-20260924",
+          "queries": [
+            "\"江戸川区\" 2026 個人情報 漏えい 開発 委託 ベンダー"
+          ],
+          "result": "not_identified"
+        },
+        {
+          "incident_id": "enecom-20261009",
+          "queries": [
+            "\"エネコム\" 2026 個人情報 漏えい 開発 委託 ベンダー"
+          ],
+          "result": "not_identified"
+        },
+        {
+          "incident_id": "epark-peakmanager-20260924",
+          "queries": [
+            "\"株式会社EPARKリラク＆エステ\" 2026 個人情報 漏えい 開発 委託 ベンダー"
+          ],
+          "result": "not_identified"
+        },
+        {
+          "incident_id": "eplus-20260929",
+          "queries": [
+            "\"株式会社イープラス\" 2026 個人情報 漏えい 開発 委託 ベンダー"
+          ],
+          "result": "not_identified"
+        },
+        {
+          "incident_id": "etax-20261002",
+          "queries": [
+            "\"e-Tax\" 2026 個人情報 漏えい 開発 委託 ベンダー",
+            "site:news.infoseek.co.jp e-Tax 2026 贈与税申告書などが別の利用者から閲覧できる状態になり、申"
+          ],
+          "result": "unavailable"
+        },
+        {
+          "incident_id": "feliz-villa-20260929",
+          "queries": [
+            "\"フェリスヴィラスイート\" 2026 個人情報 漏えい 開発 委託 ベンダー"
+          ],
+          "result": "identified"
+        },
+        {
+          "incident_id": "fines-20260925",
+          "queries": [
+            "\"株式会社ファインズ\" 2026 個人情報 漏えい 開発 委託 ベンダー"
+          ],
+          "result": "not_identified"
+        },
+        {
+          "incident_id": "fivefoxes-20260908",
+          "queries": [
+            "\"ファイブフォックス\" 2026 個人情報 漏えい 開発 委託 ベンダー"
+          ],
+          "result": "not_identified"
+        },
+        {
+          "incident_id": "fuji-20260911",
+          "queries": [
+            "\"富士市\" 2026 個人情報 漏えい 開発 委託 ベンダー"
+          ],
+          "result": "identified"
+        },
+        {
+          "incident_id": "fujisawa-hospital-20260904",
+          "queries": [
+            "藤沢市民病院 2026-09-04 情報漏えい 委託先",
+            "site:www.kanaloco.jp 藤沢市民病院 2026 入院患者15人の情報を別患者に誤交付"
+          ],
+          "result": "unavailable"
+        },
+        {
+          "incident_id": "fukuoka-20260929",
+          "queries": [
+            "福岡県 2026-09-29 情報漏えい 委託先",
+            "site:mainichi.jp 福岡県 2026 介護事業者の認証申請で、延べ24法人の役員183人の情報"
+          ],
+          "result": "unavailable"
+        },
+        {
+          "incident_id": "fukushima-festival-20260904",
+          "queries": [
+            "福島市 2026-09-04 情報漏えい 委託先",
+            "site:www.minyu-net.com 福島市 2026 文化祭の関係者リストをメールに誤添付"
+          ],
+          "result": "unavailable"
+        },
+        {
+          "incident_id": "fuso-dentsu-20260910",
+          "queries": [
+            "扶桑電通 2026-09-10 情報漏えい 委託先"
+          ],
+          "result": "not_identified"
+        },
+        {
+          "incident_id": "futureshop-mail-20261008",
+          "queries": [
+            "フューチャーショップ 2026-10-08 情報漏えい 委託先"
+          ],
+          "result": "identified"
+        },
+        {
+          "incident_id": "gangnam-20260907",
+          "queries": [
+            "カンナムオンニ 2026-09-07 情報漏えい 委託先"
+          ],
+          "result": "not_identified"
+        },
+        {
+          "incident_id": "gontran-cherrier-20260903",
+          "queries": [
+            "名鉄協商（ゴントランシェリエ） 2026-09-03 情報漏えい 委託先"
+          ],
+          "result": "not_identified"
+        },
+        {
+          "incident_id": "gpoint-20260930",
+          "queries": [
+            "ジー・プラン（Gポイント） 2026-09-30 情報漏えい 委託先"
+          ],
+          "result": "not_identified"
+        },
+        {
+          "incident_id": "gunma-karakkaze-20260925",
+          "queries": [
+            "群馬県 2026-09-25 情報漏えい 委託先"
+          ],
+          "result": "not_identified"
+        },
+        {
+          "incident_id": "habikino-disclosure-20260902",
+          "queries": [
+            "羽曳野市 2026-09-02 情報漏えい 委託先"
+          ],
+          "result": "not_identified"
+        },
+        {
+          "incident_id": "halmek-up-20260911",
+          "queries": [
+            "ハルメクホールディングス 2026-09-11 情報漏えい 委託先"
+          ],
+          "result": "not_identified"
+        },
+        {
+          "incident_id": "hamagin-tt-20260903",
+          "queries": [
+            "浜銀TT証券 2026-09-03 情報漏えい 委託先"
+          ],
+          "result": "not_identified"
+        },
+        {
+          "incident_id": "hana-hotel-20260929",
+          "queries": [
+            "リゾート花湯の森（ハナホテル） 2026-09-29 情報漏えい 委託先"
+          ],
+          "result": "identified"
+        },
+        {
+          "incident_id": "helpfeel-gyazo-20260916",
+          "queries": [
+            "株式会社Helpfeel 2026-09-16 情報漏えい 委託先"
+          ],
+          "result": "not_identified"
+        },
+        {
+          "incident_id": "hiho-20261008",
+          "queries": [
+            "ハイホー 2026-10-08 情報漏えい 委託先"
+          ],
+          "result": "not_identified"
+        },
+        {
+          "incident_id": "holonic-20260929",
+          "queries": [
+            "ホロニック 2026-09-29 情報漏えい 委託先"
+          ],
+          "result": "identified"
+        },
+        {
+          "incident_id": "hotelier-20261013",
+          "queries": [
+            "ホテリエ 2026-10-13 情報漏えい 委託先"
+          ],
+          "result": "not_identified"
+        },
+        {
+          "incident_id": "hyogo-20260918",
+          "queries": [
+            "兵庫県 2026-09-18 情報漏えい 委託先",
+            "site:www.daily.co.jp 兵庫県 2026 開示した電子文書21件の黒塗りを解除でき、延べ972人分"
+          ],
+          "result": "not_identified"
+        },
+        {
+          "incident_id": "ibaraki-commons-mail-20260926",
+          "queries": [
+            "茨城NPOセンター・コモンズ（茨城県委託事業） 2026-09-26 情報漏えい 委託先"
+          ],
+          "result": "not_identified"
+        },
+        {
+          "incident_id": "ichini-mail-20260910",
+          "queries": [
+            "イチニ（選挙ドットコム） 2026-09-10 情報漏えい 委託先"
+          ],
+          "result": "not_identified"
+        },
+        {
+          "incident_id": "ichinomiya-20260917",
+          "queries": [
+            "一宮市 2026-09-17 情報漏えい 委託先",
+            "site:www.chunichi.co.jp 一宮市 2026 過去の採用試験で使用したApplyNowの録画面接システ"
+          ],
+          "result": "identified"
+        },
+        {
+          "incident_id": "ichinomiya-raiden-20261014",
+          "queries": [
+            "一宮市 2026-10-14 情報漏えい 委託先"
+          ],
+          "result": "identified"
+        },
+        {
+          "incident_id": "idcf-portal-20261014",
+          "queries": [
+            "IDCフロンティア 2026-10-14 情報漏えい 委託先"
+          ],
+          "result": "not_identified"
+        },
+        {
+          "incident_id": "ieej-20260911",
+          "queries": [
+            "日本エネルギー経済研究所 2026-09-11 情報漏えい 委託先"
+          ],
+          "result": "identified"
+        },
+        {
+          "incident_id": "ihi-kenpo-20260902",
+          "queries": [
+            "IHIグループ健康保険組合 2026-09-02 情報漏えい 委託先"
+          ],
+          "result": "not_identified"
+        },
+        {
+          "incident_id": "infoq-20261005",
+          "queries": [
+            "GMOリサーチ＆AI株式会社 2026-10-05 情報漏えい 委託先"
+          ],
+          "result": "not_identified"
+        },
+        {
+          "incident_id": "jaea-20261001",
+          "queries": [
+            "日本原子力研究開発機構 2026-10-01 情報漏えい 委託先"
+          ],
+          "result": "not_identified"
+        },
+        {
+          "incident_id": "japanpost-20260929",
+          "queries": [
+            "日本郵政・日本郵便 2026-09-29 情報漏えい 委託先"
+          ],
+          "result": "not_identified"
+        },
+        {
+          "incident_id": "japanpt-aflac-20260908",
+          "queries": [
+            "日本理学療法士協会 2026-09-08 情報漏えい 委託先"
+          ],
+          "result": "not_identified"
+        },
+        {
+          "incident_id": "jcia-mail-20260914",
+          "queries": [
+            "日本化粧品工業会 2026-09-14 情報漏えい 委託先",
+            "site:www.jcia.org 日本化粧品工業会 2026 Microsoft 365メールの持ち出しの可能性"
+          ],
+          "result": "identified"
+        },
+        {
+          "incident_id": "jogmec-20261002",
+          "queries": [
+            "JOGMEC 2026-10-02 情報漏えい 委託先"
+          ],
+          "result": "not_identified"
+        },
+        {
+          "incident_id": "jrcentral-market-20261013",
+          "queries": [
+            "東海旅客鉄道（JR東海MARKET・いいもの探訪） 2026-10-13 情報漏えい 委託先"
+          ],
+          "result": "identified"
+        },
+        {
+          "incident_id": "jreast-mail-20261009",
+          "queries": [
+            "東日本旅客鉄道 2026-10-09 情報漏えい 委託先"
+          ],
+          "result": "identified"
+        },
+        {
+          "incident_id": "jrkyushu-mail-20261009",
+          "queries": [
+            "九州旅客鉄道 2026-10-09 情報漏えい 委託先"
+          ],
+          "result": "identified"
+        },
+        {
+          "incident_id": "jtua-elearning-20261009",
+          "queries": [
+            "日本ICTテレコムユーザー協会 2026-10-09 情報漏えい 委託先"
+          ],
+          "result": "identified"
+        },
+        {
+          "incident_id": "kagawa-survey-20260907",
+          "queries": [
+            "香川県 2026-09-07 情報漏えい 委託先"
+          ],
+          "result": "not_identified"
+        },
+        {
+          "incident_id": "kamakura-20260910",
+          "queries": [
+            "鎌倉市 2026-09-10 情報漏えい 委託先",
+            "site:www.city.kamakura.kanagawa.jp 鎌倉市 2026 あおぞら園の総点検で、過去5年間に個人情報の誤送付等の管"
+          ],
+          "result": "not_identified"
+        },
+        {
+          "incident_id": "kamogawa-survey-20260904",
+          "queries": [
+            "鴨川市 2026-09-04 情報漏えい 委託先"
+          ],
+          "result": "not_identified"
+        },
+        {
+          "incident_id": "kanagawa-employment-20260903",
+          "queries": [
+            "神奈川県 2026-09-03 情報漏えい 委託先"
+          ],
+          "result": "not_identified"
+        },
+        {
+          "incident_id": "kanagawa-medical-mail-20260917",
+          "queries": [
+            "神奈川県 2026-09-17 情報漏えい 委託先"
+          ],
+          "result": "not_identified"
+        },
+        {
+          "incident_id": "kashihara-20260918",
+          "queries": [
+            "橿原市 2026-09-18 情報漏えい 委託先",
+            "site:www.city.kashihara.nara.jp 橿原市 2026 過去の職員採用試験で使用したApplyNowへの攻撃で、"
+          ],
+          "result": "identified"
+        },
+        {
+          "incident_id": "kawasaki-medical-documents-20260903",
+          "queries": [
+            "川崎市 2026-09-03 情報漏えい 委託先",
+            "site:www.kanaloco.jp 川崎市 2026 公害医療の診療報酬審査書類を紛失"
+          ],
+          "result": "unavailable"
+        },
+        {
+          "incident_id": "kbic-20260911",
+          "queries": [
+            "かわさき新産業創造センター 2026-09-11 情報漏えい 委託先"
+          ],
+          "result": "not_identified"
+        },
+        {
+          "incident_id": "keihin-port-mail-20260911",
+          "queries": [
+            "国土交通省関東地方整備局京浜港湾事務所 2026-09-11 情報漏えい 委託先"
+          ],
+          "result": "not_identified"
+        },
+        {
+          "incident_id": "keio-plaza-20260926",
+          "queries": [
+            "京王プラザホテル 2026-09-26 情報漏えい 委託先"
+          ],
+          "result": "not_identified"
+        },
+        {
+          "incident_id": "kindal-20261013",
+          "queries": [
+            "カインドオル 2026-10-13 情報漏えい 委託先",
+            "site:ssl4.eir-parts.net カインドオル 2026 不正アクセスによる個人情報漏えいの調査完了（第三報）"
+          ],
+          "result": "not_identified"
+        },
+        {
+          "incident_id": "kingjim-20260904",
+          "queries": [
+            "キングジム 2026-09-04 情報漏えい 委託先"
+          ],
+          "result": "identified"
+        },
+        {
+          "incident_id": "kodansha-beck-20261002",
+          "queries": [
+            "講談社BECK 2026-10-02 情報漏えい 委託先"
+          ],
+          "result": "not_identified"
+        },
+        {
+          "incident_id": "koshigaya-20260911",
+          "queries": [
+            "越谷市立学校 2026-09-11 情報漏えい 委託先",
+            "site:koshigaya.gayatec.jp 越谷市立学校 2026 教員の私物PCがサポート詐欺で遠隔操作され、接続USB内"
+          ],
+          "result": "not_identified"
+        },
+        {
+          "incident_id": "kotoura-20260928",
+          "queries": [
+            "琴浦町 2026-09-25 情報漏えい 委託先",
+            "site:www.town.kotoura.tottori.jp 琴浦町 2026 委託事業者が住民情報828人分を別自治体の領域に誤格納し"
+          ],
+          "result": "not_identified"
+        },
+        {
+          "incident_id": "kuins-20260930",
+          "queries": [
+            "関西国際大学 2026-09-30 情報漏えい 委託先"
+          ],
+          "result": "not_identified"
+        },
+        {
+          "incident_id": "kur-and-hotel-20260929",
+          "queries": [
+            "クア・アンド・ホテル 2026-09-29 情報漏えい 委託先"
+          ],
+          "result": "identified"
+        },
+        {
+          "incident_id": "kwansei-20260901",
+          "queries": [
+            "関西学院大学 2026-09-01 情報漏えい 委託先"
+          ],
+          "result": "not_identified"
+        },
+        {
+          "incident_id": "kyoto-sanga-20260908",
+          "queries": [
+            "京都サンガF.C. 2026-09-08 情報漏えい 委託先"
+          ],
+          "result": "not_identified"
+        },
+        {
+          "incident_id": "kyusai-20260925",
+          "queries": [
+            "キューサイ 2026-09-25 情報漏えい 委託先"
+          ],
+          "result": "not_identified"
+        },
+        {
+          "incident_id": "lashinbang-20261001",
+          "queries": [
+            "らしんばん 2026-10-01 情報漏えい 委託先"
+          ],
+          "result": "not_identified"
+        },
+        {
+          "incident_id": "lawson-id-20261008",
+          "queries": [
+            "ローソン 2026-10-08 情報漏えい 委託先"
+          ],
+          "result": "not_identified"
+        },
+        {
+          "incident_id": "lawson-reservation-20261008",
+          "queries": [
+            "ローソン 2026-10-08 情報漏えい 委託先"
+          ],
+          "result": "not_identified"
+        },
+        {
+          "incident_id": "lean-body-20260915",
+          "queries": [
+            "LEAN BODY 2026-09-15 情報漏えい 委託先"
+          ],
+          "result": "not_identified"
+        },
+        {
+          "incident_id": "legoland-20260925",
+          "queries": [
+            "LEGOLAND Japan 2026-09-25 情報漏えい 委託先"
+          ],
+          "result": "identified"
+        },
+        {
+          "incident_id": "lixil-commune-20261009",
+          "queries": [
+            "LIXIL 2026-10-09 情報漏えい 委託先"
+          ],
+          "result": "identified"
+        },
+        {
+          "incident_id": "maisen-20260925",
+          "queries": [
+            "井筒まい泉 2026-09-25 情報漏えい 委託先"
+          ],
+          "result": "identified"
+        },
+        {
+          "incident_id": "medley-atlink-20261015",
+          "queries": [
+            "メドレー 2026-10-15 情報漏えい 委託先",
+            "site:japanir.jp メドレー 2026 アットリンクへの不正アクセスと患者情報漏えいの可能性"
+          ],
+          "result": "not_identified"
+        },
+        {
+          "incident_id": "metro-metpo-20260927",
+          "queries": [
+            "東京地下鉄株式会社 2026-09-27 情報漏えい 委託先"
+          ],
+          "result": "not_identified"
+        },
+        {
+          "incident_id": "mie-medical-report-20260905",
+          "queries": [
+            "三重県 2026-09-05 情報漏えい 委託先"
+          ],
+          "result": "not_identified"
+        },
+        {
+          "incident_id": "mitsui-fudosan-20260901",
+          "queries": [
+            "三井不動産 2026-09-01 情報漏えい 委託先"
+          ],
+          "result": "not_identified"
+        },
+        {
+          "incident_id": "miyagi-npo-mail-20260903",
+          "queries": [
+            "宮城県民間非営利活動プラザ 2026-09-03 情報漏えい 委託先"
+          ],
+          "result": "not_identified"
+        },
+        {
+          "incident_id": "miyazaki-saito-dorm-20260906",
+          "queries": [
+            "宮崎県立高校西都地区生徒寮 2026-09-06 情報漏えい 委託先"
+          ],
+          "result": "not_identified"
+        },
+        {
+          "incident_id": "mol-cruise-20260910",
+          "queries": [
+            "商船三井クルーズ 2026-09-10 情報漏えい 委託先"
+          ],
+          "result": "not_identified"
+        },
+        {
+          "incident_id": "moomoo-japan-20260903",
+          "queries": [
+            "RBW JAPAN（MOOMOO JAPAN） 2026-09-03 情報漏えい 委託先"
+          ],
+          "result": "not_identified"
+        },
+        {
+          "incident_id": "moonstar-20261002",
+          "queries": [
+            "ムーンスター 2026-10-02 情報漏えい 委託先"
+          ],
+          "result": "not_identified"
+        },
+        {
+          "incident_id": "mrmax-20261006",
+          "queries": [
+            "株式会社ミスターマックス 2026-10-06 情報漏えい 委託先"
+          ],
+          "result": "not_identified"
+        },
+        {
+          "incident_id": "murauchi-20260915",
+          "queries": [
+            "株式会社ムラウチドットコム 2026-09-15 情報漏えい 委託先",
+            "site:murauchi.com 株式会社ムラウチドットコム 2026 顧客情報流出の調査結果（第二報）"
+          ],
+          "result": "unavailable"
+        },
+        {
+          "incident_id": "nabari-kintetsu-gas-20260930",
+          "queries": [
+            "名張近鉄ガス 2026-09-30 情報漏えい 委託先"
+          ],
+          "result": "identified"
+        },
+        {
+          "incident_id": "nagano-police-20260907",
+          "queries": [
+            "長野県警察 2026-09-07 情報漏えい 委託先",
+            "site:www.pref.nagano.lg.jp 長野県警察 2026 塩尻警察署で交通安全施設の損壊・意見要望に関する個人情報"
+          ],
+          "result": "unavailable"
+        },
+        {
+          "incident_id": "nagasaki-20260909",
+          "queries": [
+            "長崎市 2026-09-09 情報漏えい 委託先",
+            "site:news.ntv.co.jp 長崎市 2026 新生児のマイナンバーカード申請に関する書類3通を紛失"
+          ],
+          "result": "not_identified"
+        },
+        {
+          "incident_id": "nagoya-20260928",
+          "queries": [
+            "名古屋市 2026-09-29 情報漏えい 委託先",
+            "site:news.ntv.co.jp 名古屋市 2026 調査案内に担当者情報入りファイルを誤掲載し、572事業者"
+          ],
+          "result": "not_identified"
+        },
+        {
+          "incident_id": "nakabayashi-20261006",
+          "queries": [
+            "ナカバヤシ 2026-10-06 情報漏えい 委託先",
+            "site:www.nakabayashi.co.jp ナカバヤシ 2026 過去の新卒採用で利用したApplyNowへの攻撃により、"
+          ],
+          "result": "identified"
+        },
+        {
+          "incident_id": "nerima-yell-20260911",
+          "queries": [
+            "練馬区立男女共同参画センターえーる 2026-09-11 情報漏えい 委託先"
+          ],
+          "result": "not_identified"
+        },
+        {
+          "incident_id": "newspicks-20261008",
+          "queries": [
+            "ユーザベース（NewsPicks） 2026-10-08 情報漏えい 委託先",
+            "site:corp.newspicks.com ユーザベース（NewsPicks） 2026 業務用管理ツールへの不正アクセス"
+          ],
+          "result": "unavailable"
+        },
+        {
+          "incident_id": "nichii-20261002",
+          "queries": [
+            "ニチイ学館 2026-10-02 情報漏えい 委託先"
+          ],
+          "result": "not_identified"
+        },
+        {
+          "incident_id": "nichirei-20260918",
+          "queries": [
+            "ニチレイ 2026-09-18 情報漏えい 委託先"
+          ],
+          "result": "not_identified"
+        },
+        {
+          "incident_id": "nict-speech-20260928",
+          "queries": [
+            "情報通信研究機構（NICT） 2026-09-28 情報漏えい 委託先"
+          ],
+          "result": "not_identified"
+        },
+        {
+          "incident_id": "nihon-law-20260911",
+          "queries": [
+            "日本大学法学部 2026-09-11 情報漏えい 委託先"
+          ],
+          "result": "not_identified"
+        },
+        {
+          "incident_id": "nihon-university-20260908",
+          "queries": [
+            "日本大学理工学部 2026-09-08 情報漏えい 委託先"
+          ],
+          "result": "not_identified"
+        },
+        {
+          "incident_id": "nikkei-bp-20261004",
+          "queries": [
+            "日経BP 2026-10-04 情報漏えい 委託先",
+            "site:www.nikkeibp.co.jp 日経BP 2026 フィッシングによるメールアカウント侵害"
+          ],
+          "result": "not_identified"
+        },
+        {
+          "incident_id": "nikkei-m365-20261004",
+          "queries": [
+            "日本経済新聞社 2026-10-04 情報漏えい 委託先",
+            "site:www.nikkei.co.jp 日本経済新聞社 2026 Microsoft 365アカウントへの不正アクセス"
+          ],
+          "result": "identified"
+        },
+        {
+          "incident_id": "nikkei-workspace-20261004",
+          "queries": [
+            "日本経済新聞社 2026-10-04 情報漏えい 委託先",
+            "site:www.nikkei.co.jp 日本経済新聞社 2026 社員のGoogle Workspaceアカウントへの不正"
+          ],
+          "result": "identified"
+        },
+        {
+          "incident_id": "nimoca-20261006",
+          "queries": [
+            "ニモカ 2026-10-06 情報漏えい 委託先"
+          ],
+          "result": "not_identified"
+        },
+        {
+          "incident_id": "nippon-rentacar-20260926",
+          "queries": [
+            "ニッポンレンタカー 2026-09-26 情報漏えい 委託先"
+          ],
+          "result": "not_identified"
+        },
+        {
+          "incident_id": "ntv-wands-faveconnect-20261014",
+          "queries": [
+            "日テレWands 2026-10-14 情報漏えい 委託先"
+          ],
+          "result": "not_identified"
+        },
+        {
+          "incident_id": "offerbox-20261005",
+          "queries": [
+            "OfferBox 2026-10-05 情報漏えい 委託先",
+            "site:i-plug.co.jp OfferBox 2026 利用企業向けページの通信データに学生の氏名・メールアドレ"
+          ],
+          "result": "not_identified"
+        },
+        {
+          "incident_id": "okayama-marriage-20260929",
+          "queries": [
+            "おかやま結婚推進協会 2026-09-29 情報漏えい 委託先"
+          ],
+          "result": "not_identified"
+        },
+        {
+          "incident_id": "orixlife-scala-20261008",
+          "queries": [
+            "オリックス生命 2026-10-08 情報漏えい 委託先",
+            "site:files.microcms-assets.io オリックス生命 2026 委託先への不正アクセスによる問い合わせ情報漏えいの可能性"
+          ],
+          "result": "identified"
+        },
+        {
+          "incident_id": "osaka-after-school-20260930",
+          "queries": [
+            "大阪市（児童いきいき放課後事業） 2026-09-30 情報漏えい 委託先"
+          ],
+          "result": "not_identified"
+        },
+        {
+          "incident_id": "osaka-chuo-care-20260909",
+          "queries": [
+            "大阪市中央区 2026-09-09 情報漏えい 委託先"
+          ],
+          "result": "not_identified"
+        },
+        {
+          "incident_id": "osaka-disclosure-20261005",
+          "queries": [
+            "大阪府 2026-10-05 情報漏えい 委託先"
+          ],
+          "result": "not_identified"
+        },
+        {
+          "incident_id": "osaka-high-court-20260904",
+          "queries": [
+            "大阪高等裁判所 2026-09-04 情報漏えい 委託先"
+          ],
+          "result": "identified"
+        },
+        {
+          "incident_id": "osaka-konohana-card-20260909",
+          "queries": [
+            "大阪市此花区 2026-09-09 情報漏えい 委託先"
+          ],
+          "result": "not_identified"
+        },
+        {
+          "incident_id": "osaka-lifelong-mail-20260908",
+          "queries": [
+            "大阪市立総合生涯学習センター 2026-09-08 情報漏えい 委託先"
+          ],
+          "result": "not_identified"
+        },
+        {
+          "incident_id": "osaka-metropolitan-20261005",
+          "queries": [
+            "大阪公立大学 2026-10-05 情報漏えい 委託先",
+            "site:www.toonippo.co.jp 大阪公立大学 2026 システム障害に伴い、在学生・卒業生約13万人の情報が流出"
+          ],
+          "result": "not_identified"
+        },
+        {
+          "incident_id": "osaka-museum-mail-20260924",
+          "queries": [
+            "大阪市立美術館 2026-09-24 情報漏えい 委託先"
+          ],
+          "result": "not_identified"
+        },
+        {
+          "incident_id": "osaka-nishinari-exam-20260909",
+          "queries": [
+            "大阪市西成区 2026-09-09 情報漏えい 委託先"
+          ],
+          "result": "not_identified"
+        },
+        {
+          "incident_id": "osaka-nursery-approval-20260909",
+          "queries": [
+            "大阪市こども青少年局 2026-09-09 情報漏えい 委託先"
+          ],
+          "result": "not_identified"
+        },
+        {
+          "incident_id": "osaka-nursery-notebook-0807-20260909",
+          "queries": [
+            "大阪市こども青少年局 2026-09-09 情報漏えい 委託先"
+          ],
+          "result": "not_identified"
+        },
+        {
+          "incident_id": "osaka-nursery-notebook-20260909",
+          "queries": [
+            "大阪市こども青少年局 2026-09-09 情報漏えい 委託先"
+          ],
+          "result": "not_identified"
+        },
+        {
+          "incident_id": "osaka-recruit-20260915",
+          "queries": [
+            "大阪市（職員採用試験） 2026-09-15 情報漏えい 委託先"
+          ],
+          "result": "not_identified"
+        },
+        {
+          "incident_id": "osaka-school-app-0724-20260909",
+          "queries": [
+            "大阪市教育委員会 2026-09-09 情報漏えい 委託先"
+          ],
+          "result": "not_identified"
+        },
+        {
+          "incident_id": "osaka-school-app-0728-20260909",
+          "queries": [
+            "大阪市教育委員会 2026-09-09 情報漏えい 委託先"
+          ],
+          "result": "not_identified"
+        },
+        {
+          "incident_id": "osaka-tennoji-welfare-20260909",
+          "queries": [
+            "大阪市天王寺区 2026-09-09 情報漏えい 委託先"
+          ],
+          "result": "not_identified"
+        },
+        {
+          "incident_id": "ota-plaza-20260904",
+          "queries": [
+            "大田区民プラザ（大田区） 2026-09-04 情報漏えい 委託先"
+          ],
+          "result": "not_identified"
+        },
+        {
+          "incident_id": "ozmall-20260927",
+          "queries": [
+            "スターツ出版株式会社 2026-09-27 情報漏えい 委託先"
+          ],
+          "result": "not_identified"
+        },
+        {
+          "incident_id": "peach-mail-20261009",
+          "queries": [
+            "Peach Aviation 2026-10-09 情報漏えい 委託先"
+          ],
+          "result": "identified"
+        },
+        {
+          "incident_id": "pfu-20260918",
+          "queries": [
+            "PFU 2026-09-18 情報漏えい 委託先"
+          ],
+          "result": "identified"
+        },
+        {
+          "incident_id": "photogoods-20260916",
+          "queries": [
+            "大興印刷 2026-09-16 情報漏えい 委託先"
+          ],
+          "result": "not_identified"
+        },
+        {
+          "incident_id": "prudential-20260914",
+          "queries": [
+            "プルデンシャル生命 2026-09-14 情報漏えい 委託先"
+          ],
+          "result": "not_identified"
+        },
+        {
+          "incident_id": "quo-20260929",
+          "queries": [
+            "QUOカード 2026-09-29 情報漏えい 委託先"
+          ],
+          "result": "not_identified"
+        },
+        {
+          "incident_id": "rakuten-drive-20261006",
+          "queries": [
+            "楽天グループ株式会社 2026-10-06 情報漏えい 委託先"
+          ],
+          "result": "not_identified"
+        },
+        {
+          "incident_id": "resorttrust-20261009",
+          "queries": [
+            "リゾートトラスト 2026-10-09 情報漏えい 委託先"
+          ],
+          "result": "not_identified"
+        },
+        {
+          "incident_id": "revisio-20260908",
+          "queries": [
+            "REVISIO 2026-09-08 情報漏えい 委託先",
+            "site:scan.netsecurity.ne.jp REVISIO 2026 PCのマルウェア感染"
+          ],
+          "result": "not_identified"
+        },
+        {
+          "incident_id": "rext-20260911",
+          "queries": [
+            "REXT Holdings・REXT 2026-09-11 情報漏えい 委託先"
+          ],
+          "result": "not_identified"
+        },
+        {
+          "incident_id": "rideonexpress-20261013",
+          "queries": [
+            "ライドオンエクスプレスホールディングス 2026-10-13 情報漏えい 委託先"
+          ],
+          "result": "not_identified"
+        },
+        {
+          "incident_id": "rikkyo-20260908",
+          "queries": [
+            "立教大学 2026-09-08 情報漏えい 委託先"
+          ],
+          "result": "identified"
+        },
+        {
+          "incident_id": "rohto-20260915",
+          "queries": [
+            "ロート製薬 2026-09-11 情報漏えい 委託先"
+          ],
+          "result": "not_identified"
+        },
+        {
+          "incident_id": "saga-agriculture-school-20260925",
+          "queries": [
+            "佐賀県立佐賀農業高等学校 2026-09-25 情報漏えい 委託先"
+          ],
+          "result": "not_identified"
+        },
+        {
+          "incident_id": "sagawa-20261001",
+          "queries": [
+            "佐川急便 2026-09-30 情報漏えい 委託先"
+          ],
+          "result": "not_identified"
+        },
+        {
+          "incident_id": "saitama-20260910",
+          "queries": [
+            "埼玉県 2026-09-10 情報漏えい 委託先"
+          ],
+          "result": "not_identified"
+        },
+        {
+          "incident_id": "saitama-medical-20260928",
+          "queries": [
+            "さいたま市民医療センター 2026-09-28 情報漏えい 委託先",
+            "site:www.scmc.or.jp さいたま市民医療センター 2026 職員専用ページに添付されたマニュアルが直接アクセス可能で"
+          ],
+          "result": "not_identified"
+        },
+        {
+          "incident_id": "saitama-mix-20261007",
+          "queries": [
+            "埼玉県（渋沢MIX） 2026-10-07 情報漏えい 委託先"
+          ],
+          "result": "not_identified"
+        },
+        {
+          "incident_id": "sakura-internet-20260910",
+          "queries": [
+            "さくらインターネット 2026-09-10 情報漏えい 委託先"
+          ],
+          "result": "not_identified"
+        },
+        {
+          "incident_id": "sankei-respection-20260911",
+          "queries": [
+            "産経新聞社（RESPECTion!推進委員会事務局） 2026-09-11 情報漏えい 委託先",
+            "site:x.gd 産経新聞社（RESPECTion!推進委員会事務局） 2026 シンポジウムの申込フォームで回答が閲覧可能に"
+          ],
+          "result": "not_identified"
+        },
+        {
+          "incident_id": "sankichi-20260926",
+          "queries": [
+            "絵具屋三吉 2026-09-26 情報漏えい 委託先",
+            "site:www.sankichi.com 絵具屋三吉 2026 オンラインストアの購入者情報漏えい"
+          ],
+          "result": "identified"
+        },
+        {
+          "incident_id": "science-tokyo-20260907",
+          "queries": [
+            "東京科学大学 2026-09-07 情報漏えい 委託先"
+          ],
+          "result": "not_identified"
+        },
+        {
+          "incident_id": "seibu-52-20260902",
+          "queries": [
+            "西武鉄道 2026-09-02 情報漏えい 委託先"
+          ],
+          "result": "not_identified"
+        },
+        {
+          "incident_id": "seicomart-20260929",
+          "queries": [
+            "セイコーマート 2026-09-30 情報漏えい 委託先"
+          ],
+          "result": "not_identified"
+        },
+        {
+          "incident_id": "seiho-20260914",
+          "queries": [
+            "生命保険協会 2026-09-14 情報漏えい 委託先"
+          ],
+          "result": "not_identified"
+        },
+        {
+          "incident_id": "shizuoka-education-20260929",
+          "queries": [
+            "静岡県教育委員会 2026-09-29 情報漏えい 委託先",
+            "site:news.yahoo.co.jp 静岡県教育委員会 2026 県立6校で卒業生621人分の生徒指導要録の紛失を確認"
+          ],
+          "result": "not_identified"
+        },
+        {
+          "incident_id": "shudo-20260930",
+          "queries": [
+            "修道学園 2026-09-30 情報漏えい 委託先"
+          ],
+          "result": "not_identified"
+        },
+        {
+          "incident_id": "shueisha-20260928",
+          "queries": [
+            "集英社 2026-09-28 情報漏えい 委託先"
+          ],
+          "result": "not_identified"
+        },
+        {
+          "incident_id": "sia-20261002",
+          "queries": [
+            "セーファーインターネット協会 2026-10-02 情報漏えい 委託先"
+          ],
+          "result": "identified"
+        },
+        {
+          "incident_id": "skyticket-bus-20261009",
+          "queries": [
+            "アドベンチャー（skyticket） 2026-10-09 情報漏えい 委託先"
+          ],
+          "result": "not_identified"
+        },
+        {
+          "incident_id": "skyticket-operations-20261009",
+          "queries": [
+            "アドベンチャー（skyticket） 2026-10-09 情報漏えい 委託先"
+          ],
+          "result": "not_identified"
+        },
+        {
+          "incident_id": "skyticket-server-20261009",
+          "queries": [
+            "アドベンチャー（skyticket） 2026-10-09 情報漏えい 委託先"
+          ],
+          "result": "not_identified"
+        },
+        {
+          "incident_id": "smaregi-20260925",
+          "queries": [
+            "スマレジ 2026-09-25 情報漏えい 委託先"
+          ],
+          "result": "not_identified"
+        },
+        {
+          "incident_id": "sourcenext-20261015",
+          "queries": [
+            "ソースネクスト 2026-10-15 情報漏えい 委託先",
+            "site:www.sourcenext.com ソースネクスト 2026 会員情報取得APIへの不正アクセスによる情報流出"
+          ],
+          "result": "not_identified"
+        },
+        {
+          "incident_id": "studysapuri-20261003",
+          "queries": [
+            "スタディサプリ 2026-10-03 情報漏えい 委託先"
+          ],
+          "result": "not_identified"
+        },
+        {
+          "incident_id": "suzuki-commune-20261009",
+          "queries": [
+            "スズキ 2026-10-09 情報漏えい 委託先"
+          ],
+          "result": "identified"
+        },
+        {
+          "incident_id": "temairazu-20260928",
+          "queries": [
+            "手間いらず 2026-09-28 情報漏えい 委託先"
+          ],
+          "result": "not_identified"
+        },
+        {
+          "incident_id": "thinca-20260901",
+          "queries": [
+            "シンカ 2026-09-01 情報漏えい 委託先"
+          ],
+          "result": "not_identified"
+        },
+        {
+          "incident_id": "ticketplus-20261001",
+          "queries": [
+            "チケットプラス 2026-10-01 情報漏えい 委託先"
+          ],
+          "result": "not_identified"
+        },
+        {
+          "incident_id": "timescar-20260925",
+          "queries": [
+            "タイムズモビリティ株式会社 2026-09-25 情報漏えい 委託先"
+          ],
+          "result": "not_identified"
+        },
+        {
+          "incident_id": "tochigi-mail-20260929",
+          "queries": [
+            "栃木県 2026-09-29 情報漏えい 委託先"
+          ],
+          "result": "not_identified"
+        },
+        {
+          "incident_id": "toda-20261007",
+          "queries": [
+            "戸田建設 2026-10-07 情報漏えい 委託先"
+          ],
+          "result": "not_identified"
+        },
+        {
+          "incident_id": "tokushima-plaza-20260914",
+          "queries": [
+            "徳島県立障がい者交流プラザ 2026-09-14 情報漏えい 委託先"
+          ],
+          "result": "not_identified"
+        },
+        {
+          "incident_id": "tokyoshusui-20261009",
+          "queries": [
+            "日本酒類販売（東京酒粋） 2026-10-09 情報漏えい 委託先"
+          ],
+          "result": "identified"
+        },
+        {
+          "incident_id": "toppan-20260929",
+          "queries": [
+            "TOPPAN 2026-09-29 情報漏えい 委託先"
+          ],
+          "result": "not_identified"
+        },
+        {
+          "incident_id": "toyama-mental-20260926",
+          "queries": [
+            "富山県心の健康センター 2026-09-26 情報漏えい 委託先"
+          ],
+          "result": "not_identified"
+        },
+        {
+          "incident_id": "trex-20260911",
+          "queries": [
+            "日本トレクス 2026-09-11 情報漏えい 委託先"
+          ],
+          "result": "not_identified"
+        },
+        {
+          "incident_id": "trunk-20260901",
+          "queries": [
+            "TRUNK 2026-09-01 情報漏えい 委託先"
+          ],
+          "result": "not_identified"
+        },
+        {
+          "incident_id": "unirita-20260929",
+          "queries": [
+            "ユニリタ 2026-09-29 情報漏えい 委託先"
+          ],
+          "result": "not_identified"
+        },
+        {
+          "incident_id": "up-education-20260904",
+          "queries": [
+            "アップ 2026-09-04 情報漏えい 委託先"
+          ],
+          "result": "not_identified"
+        },
+        {
+          "incident_id": "valx-commune-20261008",
+          "queries": [
+            "VALX 2026-10-08 情報漏えい 委託先"
+          ],
+          "result": "identified"
+        },
+        {
+          "incident_id": "viewcard-mail-20261009",
+          "queries": [
+            "ビューカード 2026-10-09 情報漏えい 委託先"
+          ],
+          "result": "identified"
+        },
+        {
+          "incident_id": "voising-20260930",
+          "queries": [
+            "VOISING 2026-09-30 情報漏えい 委託先"
+          ],
+          "result": "not_identified"
+        },
+        {
+          "incident_id": "washington-hotel-20260907",
+          "queries": [
+            "ワシントンホテル 2026-09-07 情報漏えい 委託先"
+          ],
+          "result": "not_identified"
+        },
+        {
+          "incident_id": "white-essence-20261005",
+          "queries": [
+            "ホワイトエッセンス 2026-10-05 情報漏えい 委託先"
+          ],
+          "result": "not_identified"
+        },
+        {
+          "incident_id": "wingarc-commune-20261008",
+          "queries": [
+            "ウイングアーク１ｓｔ 2026-10-08 情報漏えい 委託先"
+          ],
+          "result": "identified"
+        },
+        {
+          "incident_id": "yakiniku-king-20261005",
+          "queries": [
+            "株式会社物語コーポレーション 2026-10-05 情報漏えい 委託先"
+          ],
+          "result": "not_identified"
+        },
+        {
+          "incident_id": "yamadabody-20260901",
+          "queries": [
+            "山田ボデー工業所 2026-09-01 情報漏えい 委託先"
+          ],
+          "result": "not_identified"
+        },
+        {
+          "incident_id": "yamaha-commune-20261012",
+          "queries": [
+            "ヤマハ発動機 2026-10-12 情報漏えい 委託先"
+          ],
+          "result": "identified"
+        },
+        {
+          "incident_id": "yamato-atobarai-20260929",
+          "queries": [
+            "ヤマト運輸株式会社 2026-09-29 情報漏えい 委託先"
+          ],
+          "result": "not_identified"
+        },
+        {
+          "incident_id": "yokosuka-raiden-20261013",
+          "queries": [
+            "横須賀市 2026-10-13 情報漏えい 委託先"
+          ],
+          "result": "identified"
+        },
+        {
+          "incident_id": "yoshinoya-hanamaru-20260930",
+          "queries": [
+            "吉野家・はなまる 2026-09-30 情報漏えい 委託先"
+          ],
+          "result": "identified"
+        },
+        {
+          "incident_id": "yotsukaido-20260929",
+          "queries": [
+            "四街道市社会福祉協議会 2026-09-29 情報漏えい 委託先"
+          ],
+          "result": "not_identified"
+        }
+      ],
+      "additional_research": {
+        "queries": [
+          "バーガーキング 2026 不正アクセス 開発会社",
+          "ソースネクスト 2026 10 不正アクセス 委託 システム",
+          "コープやまぐち 2026 注文サイト 開発 委託",
+          "集英社 2026 個人情報 開発会社",
+          "焼肉きんぐ 2026 予約 開発会社 漏えい",
+          "西武 52席の至福 予約サイト 開発 会社",
+          "ハルメク 2026 漏えい システム会社",
+          "hyocom 運営 インフォミーム",
+          "スカラコミュニケーションズ 大和 オリックス 2026 不正アクセス",
+          "富士市 ApplyNow 2026 漏えい",
+          "バーガーキング アプリ 開発 ベンダー",
+          "焼肉きんぐ 予約サイト 制作 実績",
+          "\"future Scenario Cast\" \"開発\" \"共同\"",
+          "\"DATA CAST for futureshop\" 開発 エンバーポイント",
+          "\"hyocom\" \"運営\" \"インフォミーム\"",
+          "site:city.ichinomiya.aichi.jp \"1077245\" アルカディア"
+        ],
+        "urls": [
+          "https://www.future-shop.jp/news/2026/01/21.html",
+          "https://market.jr-central.co.jp/shop/pages/20261015.aspx",
+          "https://www.calbee.co.jp/notice/pdf/67-34315.pdf"
+        ],
+        "notes": [
+          "カルビーの一次資料リンクは404ページに転送されたため、新規のベンダー確定情報に採用していない。",
+          "一宮市Net119・ソースネクスト・Communeの公式本文は検索経由でも確認。",
+          "アプリストアの配信者名や別機能の導入事例は受託開発会社の根拠に採用していない。"
+        ]
+      }
     }
   ]
 }

@@ -8,7 +8,7 @@
   "published_on": "2026-09-11",
   "occurred_on": "2026-08-13",
   "detected_on": null,
-  "updated_on": "2026-10-07",
+  "updated_on": "2026-10-15",
   "first_published_on": "2026-09-11",
   "publication_kind": "initial",
   "verification": "secondary",
@@ -40,10 +40,21 @@
       "type": "news",
       "title": "越谷雑談がやてっく｜越谷市のローカルニュースをお届けします！｜越谷市のメディアが閉店開店や飲食、イベントなどの地域情報や本日の最新情報を毎日発信！",
       "published_on": "2026-09-15",
-      "checked_on": "2026-10-07"
+      "checked_on": "2026-10-15"
     }
   ],
   "notes": "市の9月11日公表を9月15日の地域報道で確認。外部流出は確認されていない。",
   "updates": [],
-  "incident_type": "attack"
+  "incident_type": "attack",
+  "vendor_research": {
+    "checked_on": "2026-10-15",
+    "result": "not_identified",
+    "note": "掲載出典と追加検索で、当該事案に関係する外部の開発・運用・サービス・基盤会社の社名と役割を特定できませんでした。",
+    "source_checks": [
+      {
+        "source_index": 0,
+        "status": "reviewed"
+      }
+    ]
+  }
 }

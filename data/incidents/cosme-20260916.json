@@ -8,7 +8,7 @@
   "published_on": "2026-09-16",
   "occurred_on": "2026-09-02",
   "detected_on": null,
-  "updated_on": "2026-10-07",
+  "updated_on": "2026-10-15",
   "first_published_on": "2026-09-16",
   "publication_kind": "initial",
   "verification": "official",
@@ -39,10 +39,21 @@
       "type": "official",
       "title": "@cosmeご登録の個人情報の漏えいの可能性に関するお知らせとお詫び [istyle 株式会社アイスタイル]",
       "published_on": "2026-09-16",
-      "checked_on": "2026-10-07"
+      "checked_on": "2026-10-15"
     }
   ],
   "notes": "原文の単位は人。URLは社内関係者だけで共有され、第三者による取得は確認されていない。",
   "updates": [],
-  "incident_type": "accident"
+  "incident_type": "accident",
+  "vendor_research": {
+    "checked_on": "2026-10-15",
+    "result": "not_identified",
+    "note": "外部ファイル転送サービスの利用は明記されていますが、サービス名・提供会社名は記載されていません。",
+    "source_checks": [
+      {
+        "source_index": 0,
+        "status": "reviewed"
+      }
+    ]
+  }
 }

@@ -8,7 +8,7 @@
   "published_on": "2026-09-08",
   "occurred_on": null,
   "detected_on": null,
-  "updated_on": "2026-10-07",
+  "updated_on": "2026-10-15",
   "first_published_on": "2026-07-14",
   "publication_kind": "followup",
   "verification": "official",
@@ -59,10 +59,21 @@
       "type": "official",
       "title": "FIVE FOXes（ファイブフォックス）公式サイト - 不正アクセスによる個人情報流出の可能性についてのお知らせとお詫び(第二報)",
       "published_on": "2026-09-08",
-      "checked_on": "2026-10-07"
+      "checked_on": "2026-10-15"
     }
   ],
   "notes": "先頭の59,504件は一部ランクの会員情報。区分間の重複排除は未公表で、73,185人とは扱わない。",
   "updates": [],
-  "incident_type": "attack"
+  "incident_type": "attack",
+  "vendor_research": {
+    "checked_on": "2026-10-15",
+    "result": "not_identified",
+    "note": "掲載出典と追加検索で、当該事案に関係する外部の開発・運用・サービス・基盤会社の社名と役割を特定できませんでした。",
+    "source_checks": [
+      {
+        "source_index": 0,
+        "status": "reviewed"
+      }
+    ]
+  }
 }

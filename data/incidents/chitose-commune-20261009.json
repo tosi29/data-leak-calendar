@@ -10,7 +10,7 @@
   "publication_kind": "initial",
   "occurred_on": "2026-10-06",
   "detected_on": "2026-10-07",
-  "updated_on": "2026-10-14",
+  "updated_on": "2026-10-15",
   "verification": "official",
   "incident_type": "attack",
   "leak_status": "suspected",
@@ -43,7 +43,7 @@
       "type": "official",
       "title": "ちとせアカデミーの登録情報漏えいの可能性",
       "published_on": "2026-10-09",
-      "checked_on": "2026-10-14"
+      "checked_on": "2026-10-15"
     }
   ],
   "notes": "他のコミュニティの公表と合算しない。",
@@ -53,5 +53,24 @@
       "summary": "段階的な再開予定を追記。当サイトの再開日は未確定。",
       "source_index": 0
     }
-  ]
+  ],
+  "vendors": [
+    {
+      "name": "コミューン",
+      "role": "service",
+      "detail": "当該コミュニティで利用する「Commune」の提供元。",
+      "source_index": 0
+    }
+  ],
+  "vendor_research": {
+    "checked_on": "2026-10-15",
+    "result": "identified",
+    "note": "以下の役割と会社名を確認しました。記載のない役割は今回の調査では特定できていません。",
+    "source_checks": [
+      {
+        "source_index": 0,
+        "status": "reviewed"
+      }
+    ]
+  }
 }

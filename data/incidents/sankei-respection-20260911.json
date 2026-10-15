@@ -9,7 +9,7 @@
   "published_on": "2026-09-11",
   "occurred_on": "2026-08-24",
   "detected_on": null,
-  "updated_on": "2026-10-07",
+  "updated_on": "2026-10-15",
   "first_published_on": "2026-09-11",
   "publication_kind": "initial",
   "verification": "official",
@@ -39,10 +39,21 @@
       "type": "official",
       "title": "RESPECTion!シンポジウム参加申込フォームにおける個人情報閲覧可能状態に関するお詫びとご報告",
       "published_on": "2026-09-11",
-      "checked_on": "2026-10-07"
+      "checked_on": "2026-10-15"
     }
   ],
   "notes": "項目別の一覧であり、同一人物の氏名とアドレスが紐付いた名簿形式ではない。9月10日に修正。",
   "updates": [],
-  "incident_type": "accident"
+  "incident_type": "accident",
+  "vendor_research": {
+    "checked_on": "2026-10-15",
+    "result": "not_identified",
+    "note": "申込フォームの設定と機能は説明されていますが、製品名・提供会社名は記載されていません。機能名だけで提供元を推定していません。",
+    "source_checks": [
+      {
+        "source_index": 0,
+        "status": "reviewed"
+      }
+    ]
+  }
 }

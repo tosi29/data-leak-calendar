@@ -9,7 +9,7 @@
   "published_on": "2026-09-01",
   "occurred_on": null,
   "detected_on": "2026-08-24",
-  "updated_on": "2026-10-07",
+  "updated_on": "2026-10-15",
   "first_published_on": "2026-08-28",
   "publication_kind": "followup",
   "verification": "official",
@@ -40,14 +40,14 @@
       "type": "official",
       "title": "弊社運営サイトへの不正アクセスおよび全サイトの公開再開に関するお知らせ - 株式会社シンカ",
       "published_on": "2026-09-01",
-      "checked_on": "2026-10-07"
+      "checked_on": "2026-10-15"
     },
     {
       "url": "https://www.thinca.co.jp/news/202609017_news/",
       "type": "official",
       "title": "弊社運営サービス紹介サイトへの不正アクセスに関する調査結果のお知らせ - 株式会社シンカ",
       "published_on": "2026-09-17",
-      "checked_on": "2026-10-07"
+      "checked_on": "2026-10-15"
     }
   ],
   "notes": "9月17日の最終報でも情報漏えいの事実・二次被害は確認されていない。カイクラ本体は別環境で影響なし。",
@@ -58,5 +58,20 @@
       "source_index": 1
     }
   ],
-  "incident_type": "attack"
+  "incident_type": "attack",
+  "vendor_research": {
+    "checked_on": "2026-10-15",
+    "result": "not_identified",
+    "note": "掲載出典と追加検索で、当該事案に関係する外部の開発・運用・サービス・基盤会社の社名と役割を特定できませんでした。",
+    "source_checks": [
+      {
+        "source_index": 0,
+        "status": "reviewed"
+      },
+      {
+        "source_index": 1,
+        "status": "reviewed"
+      }
+    ]
+  }
 }

@@ -8,7 +8,7 @@
   "published_on": "2026-09-11",
   "occurred_on": null,
   "detected_on": "2026-09-04",
-  "updated_on": "2026-10-07",
+  "updated_on": "2026-10-15",
   "first_published_on": "2026-09-11",
   "publication_kind": "initial",
   "verification": "official",
@@ -39,14 +39,14 @@
       "type": "official",
       "title": "かわさき新産業創造センター（KBIC）のWebサイトへの不正アクセス被害について | 公益財団法人 川崎市産業振興財団",
       "published_on": "2026-09-11",
-      "checked_on": "2026-10-07"
+      "checked_on": "2026-10-15"
     },
     {
       "url": "https://www.kawasaki-net.ne.jp/info20261006/",
       "type": "official",
       "title": "かわさき新産業創造センター（KBIC）のWebサイトへの不正アクセス被害について（最終報） | 公益財団法人 川崎市産業振興財団",
       "published_on": "2026-10-06",
-      "checked_on": "2026-10-07"
+      "checked_on": "2026-10-15"
     }
   ],
   "notes": "22人・27件は初報時の調査対象。確定した漏えい人数ではない。",
@@ -57,5 +57,20 @@
       "source_index": 1
     }
   ],
-  "incident_type": "attack"
+  "incident_type": "attack",
+  "vendor_research": {
+    "checked_on": "2026-10-15",
+    "result": "not_identified",
+    "note": "サーバーの運用・保守を行う委託先への言及はありますが、社名は特定できませんでした。",
+    "source_checks": [
+      {
+        "source_index": 0,
+        "status": "reviewed"
+      },
+      {
+        "source_index": 1,
+        "status": "reviewed"
+      }
+    ]
+  }
 }

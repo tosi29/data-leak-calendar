@@ -8,7 +8,7 @@
   "published_on": "2026-09-07",
   "occurred_on": "2026-09-04",
   "detected_on": null,
-  "updated_on": "2026-10-07",
+  "updated_on": "2026-10-15",
   "first_published_on": "2026-09-07",
   "publication_kind": "initial",
   "verification": "official",
@@ -37,10 +37,21 @@
       "type": "official",
       "title": "「美容医療プラットフォーム Unni（カンナムオンニ）」個人情報漏えい事案に関するお詫びと漏洩項目精査のご報告 | Healingpaper Co.,Ltd.のプレスリリース",
       "published_on": "2026-09-10",
-      "checked_on": "2026-10-07"
+      "checked_on": "2026-10-15"
     }
   ],
   "notes": "日本利用者への影響があるため対象。人数については本文確認できた運営会社の9月10日資料に記載がなく規模未確認として扱う。候補の全世界219,665人・国内約4.8万人は採用せず。口コミ・予約写真等は国内向け続報で漏えいなしと確認。",
   "updates": [],
-  "incident_type": "attack"
+  "incident_type": "attack",
+  "vendor_research": {
+    "checked_on": "2026-10-15",
+    "result": "not_identified",
+    "note": "掲載出典と追加検索で、当該事案に関係する外部の開発・運用・サービス・基盤会社の社名と役割を特定できませんでした。",
+    "source_checks": [
+      {
+        "source_index": 0,
+        "status": "reviewed"
+      }
+    ]
+  }
 }

@@ -11,7 +11,7 @@
   "publication_kind": "unknown",
   "occurred_on": null,
   "detected_on": "2026-09-15",
-  "updated_on": "2026-10-14",
+  "updated_on": "2026-10-15",
   "verification": "official",
   "incident_type": "attack",
   "leak_status": "confirmed",
@@ -44,9 +44,20 @@
       "type": "official",
       "title": "宿泊管理システムの予約者情報流出",
       "published_on": "2026-10-13",
-      "checked_on": "2026-10-14"
+      "checked_on": "2026-10-15"
     }
   ],
   "notes": "公式記事とPDF本文がともに10月13日付であることを確認。ファイル名にある10月7日の初報は裏付けが得られず、初報日・初報か続報かは不明として掲載。対象予約期間は4月8日〜9月14日。住所・カード・パスポート情報は含まれない。",
-  "updates": []
+  "updates": [],
+  "vendor_research": {
+    "checked_on": "2026-10-15",
+    "result": "not_identified",
+    "note": "宿泊管理システム運営会社への言及はありますが社名は記載されていません。他ホテルの事案から提供元を推定していません。",
+    "source_checks": [
+      {
+        "source_index": 0,
+        "status": "reviewed"
+      }
+    ]
+  }
 }

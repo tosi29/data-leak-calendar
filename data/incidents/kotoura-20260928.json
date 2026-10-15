@@ -8,7 +8,7 @@
   "published_on": "2026-09-25",
   "occurred_on": "2026-09-07",
   "detected_on": null,
-  "updated_on": "2026-10-07",
+  "updated_on": "2026-10-15",
   "first_published_on": "2026-09-25",
   "publication_kind": "initial",
   "verification": "official",
@@ -41,10 +41,21 @@
       "type": "official",
       "title": "琴浦町：個人情報に関する公表資料",
       "published_on": "2026-09-25",
-      "checked_on": "2026-10-07"
+      "checked_on": "2026-10-15"
     }
   ],
   "notes": "候補はWeb掲載日の9月28日だったが、公式報道提供資料の日付9月25日を採用。",
   "updates": [],
-  "incident_type": "accident"
+  "incident_type": "accident",
+  "vendor_research": {
+    "checked_on": "2026-10-15",
+    "result": "not_identified",
+    "note": "住民情報システムの構築・運用管理を委託する事業者の作業と公表されていますが、事業者名は記載されていません。",
+    "source_checks": [
+      {
+        "source_index": 0,
+        "status": "reviewed"
+      }
+    ]
+  }
 }

@@ -10,7 +10,7 @@
   "publication_kind": "initial",
   "occurred_on": "2026-10-06",
   "detected_on": "2026-10-06",
-  "updated_on": "2026-10-14",
+  "updated_on": "2026-10-15",
   "verification": "official",
   "incident_type": "attack",
   "leak_status": "confirmed",
@@ -38,7 +38,7 @@
       "type": "official",
       "title": "バイトル・バイトルNEXTのメールアドレス漏えい",
       "published_on": "2026-10-09",
-      "checked_on": "2026-10-14"
+      "checked_on": "2026-10-15"
     }
   ],
   "notes": "10月9日の公式公表に、10月6日にサービス上で告知済みと記載。最大件数の全件流出を意味しない。",
@@ -48,5 +48,16 @@
       "summary": "公式企業サイトで対象範囲と原因を公表。",
       "source_index": 0
     }
-  ]
+  ],
+  "vendor_research": {
+    "checked_on": "2026-10-15",
+    "result": "not_identified",
+    "note": "掲載出典と追加検索で、当該事案に関係する外部の開発・運用・サービス・基盤会社の社名と役割を特定できませんでした。",
+    "source_checks": [
+      {
+        "source_index": 0,
+        "status": "reviewed"
+      }
+    ]
+  }
 }

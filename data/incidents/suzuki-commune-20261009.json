@@ -10,7 +10,7 @@
   "publication_kind": "initial",
   "occurred_on": "2026-10-05",
   "detected_on": "2026-10-07",
-  "updated_on": "2026-10-14",
+  "updated_on": "2026-10-15",
   "verification": "official",
   "incident_type": "attack",
   "leak_status": "suspected",
@@ -44,9 +44,28 @@
       "type": "official",
       "title": "スズキヴィレッジの会員情報漏えいの可能性",
       "published_on": "2026-10-09",
-      "checked_on": "2026-10-14"
+      "checked_on": "2026-10-15"
     }
   ],
   "notes": "委託先の不正アクセス期間は10月5〜6日。スズキは10月7日に調査報告を受領。決済情報は対象外。",
-  "updates": []
+  "updates": [],
+  "vendors": [
+    {
+      "name": "コミューン",
+      "role": "service",
+      "detail": "当該コミュニティで利用する「Commune」の提供元。",
+      "source_index": 0
+    }
+  ],
+  "vendor_research": {
+    "checked_on": "2026-10-15",
+    "result": "identified",
+    "note": "以下の役割と会社名を確認しました。記載のない役割は今回の調査では特定できていません。",
+    "source_checks": [
+      {
+        "source_index": 0,
+        "status": "reviewed"
+      }
+    ]
+  }
 }

@@ -1,4 +1,4 @@
-import { vendorRoleLabels } from '../public/vendors.js';
+import { vendorRoleLabels, vendorResearchLabels } from '../public/vendors.js';
 import { readdir, readFile } from 'node:fs/promises';
 import { fileURLToPath } from 'node:url';
 import { leakLabels, causeLabels, unitLabels, qualifierLabels, incidentTypeLabels } from '../public/model.js';
@@ -51,6 +51,26 @@ export function validate(items, meta) {
         const key = JSON.stringify([vendor.name, vendor.role]);
         check(!seenVendors.has(key), 'Duplicate vendor role');
         seenVendors.add(key);
+      }
+    }
+    if (Object.hasOwn(item, 'vendor_research')) {
+      const research = item.vendor_research;
+      check(research && validDate(research.checked_on) && research.checked_on >= item.published_on &&
+        research.checked_on <= item.updated_on, 'Invalid vendor research date');
+      check(Object.hasOwn(vendorResearchLabels, research.result) &&
+        typeof research.note === 'string' && research.note.trim(), 'Invalid vendor research result');
+      check((research.result === 'identified') === Boolean(item.vendors?.length), 'Vendor research attribution mismatch');
+      check(Array.isArray(research.source_checks) && research.source_checks.length === item.sources.length, 'Missing vendor source checks');
+      const checkedSources = new Set();
+      for (const entry of research.source_checks) {
+        check(entry && Number.isInteger(entry.source_index) && entry.source_index >= 0 &&
+          item.sources[entry.source_index] && !checkedSources.has(entry.source_index) &&
+          ['reviewed', 'partial', 'unavailable'].includes(entry.status), 'Invalid vendor source check');
+        checkedSources.add(entry.source_index);
+      }
+      check((research.result === 'unavailable') === research.source_checks.every(c => c.status === 'unavailable'), 'Vendor source availability mismatch');
+      for (const vendor of item.vendors || []) {
+        check(research.source_checks.some(c => c.source_index === vendor.source_index && c.status !== 'unavailable'), 'Vendor evidence unavailable');
       }
     }
     check(item.verification !== 'official' || item.sources.some(s => s.type === 'official'), 'Official verification needs official source');

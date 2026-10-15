@@ -10,7 +10,7 @@
   "publication_kind": "initial",
   "occurred_on": "2026-10-11",
   "detected_on": "2026-10-13",
-  "updated_on": "2026-10-14",
+  "updated_on": "2026-10-15",
   "verification": "official",
   "incident_type": "attack",
   "leak_status": "suspected",
@@ -60,9 +60,28 @@
       "type": "official",
       "title": "防災・防犯情報配信サービスの登録情報漏えいのおそれ",
       "published_on": "2026-10-13",
-      "checked_on": "2026-10-14"
+      "checked_on": "2026-10-15"
     }
   ],
   "notes": "人数は各サービスの登録者数。実際の漏えい件数は未確定。重複が不明のため合算しない。",
-  "updates": []
+  "updates": [],
+  "vendors": [
+    {
+      "name": "アルカディア",
+      "role": "service",
+      "detail": "防災・防犯メール配信で利用する「SpeeCAN RAIDEN」の提供元。",
+      "source_index": 0
+    }
+  ],
+  "vendor_research": {
+    "checked_on": "2026-10-15",
+    "result": "identified",
+    "note": "以下の役割と会社名を確認しました。記載のない役割は今回の調査では特定できていません。",
+    "source_checks": [
+      {
+        "source_index": 0,
+        "status": "reviewed"
+      }
+    ]
+  }
 }
