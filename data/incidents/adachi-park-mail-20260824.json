@@ -1,0 +1,58 @@
+{
+  "id": "adachi-park-mail-20260824",
+  "organization": {
+    "name": "足立区（都市農業公園）",
+    "sector": "行政"
+  },
+  "title": "都市農業公園のメーリングリストを誤公開",
+  "published_on": "2026-08-24",
+  "first_published_on": "2026-08-24",
+  "publication_kind": "initial",
+  "occurred_on": "2021-04-24",
+  "detected_on": "2026-08-04",
+  "updated_on": "2026-10-15",
+  "incident_type": "accident",
+  "leak_status": "exposed",
+  "summary": "指定管理者のメーリングリストへの投稿が外部から閲覧可能だった。対象メールには50人分の個人情報が含まれていた。",
+  "impact": [
+    {
+      "count": 50,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "対象となった情報。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "電話番号",
+    "メールアドレス",
+    "写真",
+    "動画"
+  ],
+  "cause": {
+    "category": "configuration",
+    "detail": "指定管理者のメーリングリストへの投稿が外部から閲覧可能だった。対象メールには50人分の個人情報が含まれていた。",
+    "certainty": "confirmed"
+  },
+  "sources": [
+    {
+      "url": "https://www.city.adachi.tokyo.jp/juyo/20260824_ml.html",
+      "type": "official",
+      "title": "都市農業公園のメーリングリストを誤公開",
+      "published_on": "2026-08-24",
+      "checked_on": "2026-10-14"
+    },
+    {
+      "url": "https://www.security-next.com/190386",
+      "type": "news",
+      "title": "都市農業公園のメーリングリストを誤公開（Security NEXT）",
+      "published_on": "2026-10-02",
+      "checked_on": "2026-10-15"
+    }
+  ],
+  "notes": "対象メール1,356件の投稿期間は2021年4月24日～2026年8月5日。 公表日は10月14日の公式資料確認記録に基づく。今回は公式本文を再取得できず、内容は報道本文と照合した。",
+  "updates": [],
+  "verification": "secondary",
+  "related_vendor": null
+}

@@ -2602,6 +2602,33 @@
           "アプリストアの配信者名や別機能の導入事例は受託開発会社の根拠に採用していない。"
         ]
       }
+    },
+    {
+      "checked_on": "2026-10-15",
+      "coverage_start": "2026-08-01",
+      "coverage_end": "2026-08-31",
+      "scope": "以前の期間外候補13件の再照合と追加。8月全体の網羅調査ではない。",
+      "added_incident_ids": [
+        "ambition-dx-20260806",
+        "fukuoka-school-form-20260803",
+        "akita-nct-hdd-20260805",
+        "niigata-startup-mail-20260810",
+        "okinawa-farming-mail-20260806",
+        "mie-university-mail-20260807",
+        "sapporo-map-20260807",
+        "takarazuka-hospital-20260817",
+        "shizuoka-disaster-form-20260819",
+        "adachi-park-mail-20260824",
+        "yokohama-water-documents-20260824",
+        "tsukuba-cadastral-map-20260826",
+        "nagoya-chorus-form-20260828"
+      ],
+      "limitations": [
+        "公式本文を再取得できない5件は前回の公表日確認記録と今回取得した報道本文を併用し、verificationをsecondaryとした。",
+        "過去のexcluded_outside_coverage判定は当時の調査履歴として保持。現在の掲載先はreview-logと本調査回で確認できる。",
+        "既存の9月以降の続報掲載事案について初報日への全面的な再配置は未実施。",
+        "今回追加した事案の外部ITベンダーの全役割調査は未実施。"
+      ]
     }
   ]
 }

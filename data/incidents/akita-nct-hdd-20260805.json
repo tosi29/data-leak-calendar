@@ -1,0 +1,57 @@
+{
+  "id": "akita-nct-hdd-20260805",
+  "organization": {
+    "name": "秋田工業高等専門学校",
+    "sector": "教育"
+  },
+  "title": "学生情報を保存した外付けHDDの紛失",
+  "published_on": "2026-08-05",
+  "first_published_on": "2026-08-05",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-06-15",
+  "updated_on": "2026-10-15",
+  "incident_type": "accident",
+  "leak_status": "lost",
+  "summary": "教員がバックアップに使用したHDDの所在が分からなくなった。学生の成績や連絡先等が保存されていた。",
+  "impact": [
+    {
+      "count": 699,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "対象となった情報。"
+    }
+  ],
+  "data_types": [
+    "成績",
+    "出欠状況",
+    "住所",
+    "連絡先",
+    "写真"
+  ],
+  "cause": {
+    "category": "loss",
+    "detail": "教員がバックアップに使用したHDDの所在が分からなくなった。学生の成績や連絡先等が保存されていた。",
+    "certainty": "confirmed"
+  },
+  "sources": [
+    {
+      "url": "https://www.akita-nct.ac.jp/wp-content/uploads/2026/08/2026080501.pdf",
+      "type": "official",
+      "title": "学生情報を保存した外付けHDDの紛失",
+      "published_on": "2026-08-05",
+      "checked_on": "2026-10-14"
+    },
+    {
+      "url": "https://www.security-next.com/189482",
+      "type": "news",
+      "title": "学生情報を保存した外付けHDDの紛失（Security NEXT）",
+      "published_on": "2026-09-10",
+      "checked_on": "2026-10-15"
+    }
+  ],
+  "notes": " 公表日は10月14日の公式資料確認記録に基づく。今回は公式本文を再取得できず、内容は報道本文と照合した。",
+  "updates": [],
+  "verification": "secondary",
+  "related_vendor": null
+}

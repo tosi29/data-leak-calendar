@@ -1,0 +1,46 @@
+{
+  "id": "yokohama-water-documents-20260824",
+  "organization": {
+    "name": "横浜市（水道料金通知）",
+    "sector": "行政"
+  },
+  "title": "水道料金減免の解除通知書等が所在不明",
+  "published_on": "2026-08-24",
+  "first_published_on": "2026-08-24",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-15",
+  "incident_type": "accident",
+  "leak_status": "lost",
+  "summary": "不着で返送された174世帯・219名分の通知書等が所在不明になった。公表時点で流出被害の報告はない。",
+  "impact": [
+    {
+      "count": 219,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "対象となった情報。"
+    }
+  ],
+  "data_types": [
+    "減免解除通知書等の情報"
+  ],
+  "cause": {
+    "category": "loss",
+    "detail": "不着で返送された174世帯・219名分の通知書等が所在不明になった。公表時点で流出被害の報告はない。",
+    "certainty": "confirmed"
+  },
+  "sources": [
+    {
+      "url": "https://www.city.yokohama.lg.jp/city-info/koho-kocho/press/suidou/2026/0824su-sabisu.html",
+      "type": "official",
+      "title": "水道料金減免の解除通知書等が所在不明",
+      "published_on": "2026-08-24",
+      "checked_on": "2026-10-15"
+    }
+  ],
+  "notes": "",
+  "updates": [],
+  "verification": "official",
+  "related_vendor": null
+}

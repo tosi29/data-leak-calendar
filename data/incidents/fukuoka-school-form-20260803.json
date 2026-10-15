@@ -1,0 +1,47 @@
+{
+  "id": "fukuoka-school-form-20260803",
+  "organization": {
+    "name": "福岡県（体験入学フォーム）",
+    "sector": "教育"
+  },
+  "title": "体験入学申込フォームの公開設定ミス",
+  "published_on": "2026-08-03",
+  "first_published_on": "2026-08-03",
+  "publication_kind": "initial",
+  "occurred_on": "2026-07-03",
+  "detected_on": "2026-07-24",
+  "updated_on": "2026-10-15",
+  "incident_type": "accident",
+  "leak_status": "exposed",
+  "summary": "北九州高校の申込フォームで、他の申込者の回答が閲覧できる状態になっていた。",
+  "impact": [
+    {
+      "count": 293,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "対象となった情報。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "相談内容"
+  ],
+  "cause": {
+    "category": "configuration",
+    "detail": "北九州高校の申込フォームで、他の申込者の回答が閲覧できる状態になっていた。",
+    "certainty": "confirmed"
+  },
+  "sources": [
+    {
+      "url": "https://www.pref.fukuoka.lg.jp/press-release/kojinjyouhou.html",
+      "type": "official",
+      "title": "体験入学申込フォームの公開設定ミス",
+      "published_on": "2026-08-03",
+      "checked_on": "2026-10-15"
+    }
+  ],
+  "notes": "閲覧可能期間は7月3日～24日。実際の閲覧数は不明。",
+  "updates": [],
+  "verification": "official",
+  "related_vendor": null
+}

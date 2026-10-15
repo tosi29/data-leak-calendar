@@ -1,0 +1,56 @@
+{
+  "id": "okinawa-farming-mail-20260806",
+  "organization": {
+    "name": "沖縄県（農業関係者メール）",
+    "sector": "行政"
+  },
+  "title": "農業関係者の情報を市町村へ誤送信",
+  "published_on": "2026-08-06",
+  "first_published_on": "2026-08-06",
+  "publication_kind": "initial",
+  "occurred_on": "2026-07-10",
+  "detected_on": null,
+  "updated_on": "2026-10-15",
+  "incident_type": "accident",
+  "leak_status": "confirmed",
+  "summary": "調査依頼の添付資料を前年と同じ空欄様式と思い込み、全対象者の情報を40市町村へ送った。",
+  "impact": [
+    {
+      "count": 200,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "対象となった情報。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "年齢",
+    "営農類型",
+    "交付予定額"
+  ],
+  "cause": {
+    "category": "misdelivery",
+    "detail": "調査依頼の添付資料を前年と同じ空欄様式と思い込み、全対象者の情報を40市町村へ送った。",
+    "certainty": "confirmed"
+  },
+  "sources": [
+    {
+      "url": "https://www.pref.okinawa.jp/shigoto/nogyo/1010390/1040983.html",
+      "type": "official",
+      "title": "農業関係者の情報を市町村へ誤送信",
+      "published_on": "2026-08-06",
+      "checked_on": "2026-10-14"
+    },
+    {
+      "url": "https://www.security-next.com/189735",
+      "type": "news",
+      "title": "農業関係者の情報を市町村へ誤送信（Security NEXT）",
+      "published_on": "2026-09-14",
+      "checked_on": "2026-10-15"
+    }
+  ],
+  "notes": " 公表日は10月14日の公式資料確認記録に基づく。今回は公式本文を再取得できず、内容は報道本文と照合した。",
+  "updates": [],
+  "verification": "secondary",
+  "related_vendor": null
+}

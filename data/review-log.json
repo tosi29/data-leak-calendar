@@ -1920,5 +1920,257 @@
     "source_urls": [
       "https://www.idcf.jp/news/topics/20261014001"
     ]
+  },
+  {
+    "candidate": {
+      "id": "research-next-188534",
+      "organization": "アンビションDXホールディングス",
+      "reported_on": "2026-09-07",
+      "verification": "pending",
+      "reference_url": "https://www.security-next.com/188534",
+      "note": "追加調査で発見。記載日は報道日。発生日の記載はあるが、公表元の公表日を本文・追加検索で確定できず、9月以降の対象か保留。"
+    },
+    "reviewed_on": "2026-10-15",
+    "resolution": "published",
+    "incident_ids": [
+      "ambition-dx-20260806"
+    ],
+    "reason": "収集開始を8月1日に拡大したため、以前の期間外候補を掲載。初報日は前回調査記録の8月6日。個人情報自体の流出確定とは区別する。8月28日の第3報の内容を併記。 公表日は10月14日の公式資料確認記録に基づく。今回は公式本文を再取得できず、内容は報道本文と照合した。",
+    "source_urls": [
+      "https://tdnet-pdf.kabutan.jp/20260828/140120260828527812.pdf",
+      "https://www.security-next.com/188534"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "research-next-189480",
+      "organization": "福岡県（体験入学フォーム）",
+      "reported_on": "2026-09-07",
+      "verification": "pending",
+      "reference_url": "https://www.security-next.com/189480",
+      "note": "追加調査で発見。記載日は報道日。発生日の記載はあるが、公表元の公表日を本文・追加検索で確定できず、9月以降の対象か保留。"
+    },
+    "reviewed_on": "2026-10-15",
+    "resolution": "published",
+    "incident_ids": [
+      "fukuoka-school-form-20260803"
+    ],
+    "reason": "収集開始を8月1日に拡大したため、以前の期間外候補を掲載。閲覧可能期間は7月3日～24日。実際の閲覧数は不明。",
+    "source_urls": [
+      "https://www.pref.fukuoka.lg.jp/press-release/kojinjyouhou.html"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "research-next-189482",
+      "organization": "秋田工業高等専門学校",
+      "reported_on": "2026-09-10",
+      "verification": "pending",
+      "reference_url": "https://www.security-next.com/189482",
+      "note": "追加調査で発見。記載日は報道日。発生日の記載はあるが、公表元の公表日を本文・追加検索で確定できず、9月以降の対象か保留。"
+    },
+    "reviewed_on": "2026-10-15",
+    "resolution": "published",
+    "incident_ids": [
+      "akita-nct-hdd-20260805"
+    ],
+    "reason": "収集開始を8月1日に拡大したため、以前の期間外候補を掲載。 公表日は10月14日の公式資料確認記録に基づく。今回は公式本文を再取得できず、内容は報道本文と照合した。",
+    "source_urls": [
+      "https://www.akita-nct.ac.jp/wp-content/uploads/2026/08/2026080501.pdf",
+      "https://www.security-next.com/189482"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "research-next-189535",
+      "organization": "新潟県（起業講座）",
+      "reported_on": "2026-09-01",
+      "verification": "pending",
+      "reference_url": "https://www.security-next.com/189535",
+      "note": "追加調査で発見。記載日は報道日。発生日の記載はあるが、公表元の公表日を本文・追加検索で確定できず、9月以降の対象か保留。"
+    },
+    "reviewed_on": "2026-10-15",
+    "resolution": "published",
+    "incident_ids": [
+      "niigata-startup-mail-20260810"
+    ],
+    "reason": "収集開始を8月1日に拡大したため、以前の期間外候補を掲載。",
+    "source_urls": [
+      "https://www.pref.niigata.lg.jp/sec/sogyosuishin/mailaddress-roei.html"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "research-next-189735",
+      "organization": "沖縄県（農業関係者メール）",
+      "reported_on": "2026-09-14",
+      "verification": "pending",
+      "reference_url": "https://www.security-next.com/189735",
+      "note": "追加調査で発見。記載日は報道日。発生日の記載はあるが、公表元の公表日を本文・追加検索で確定できず、9月以降の対象か保留。"
+    },
+    "reviewed_on": "2026-10-15",
+    "resolution": "published",
+    "incident_ids": [
+      "okinawa-farming-mail-20260806"
+    ],
+    "reason": "収集開始を8月1日に拡大したため、以前の期間外候補を掲載。 公表日は10月14日の公式資料確認記録に基づく。今回は公式本文を再取得できず、内容は報道本文と照合した。",
+    "source_urls": [
+      "https://www.pref.okinawa.jp/shigoto/nogyo/1010390/1040983.html",
+      "https://www.security-next.com/189735"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "research-next-189737",
+      "organization": "三重大学（学生証メール）",
+      "reported_on": "2026-09-08",
+      "verification": "pending",
+      "reference_url": "https://www.security-next.com/189737",
+      "note": "追加調査で発見。記載日は報道日。発生日の記載はあるが、公表元の公表日を本文・追加検索で確定できず、9月以降の対象か保留。"
+    },
+    "reviewed_on": "2026-10-15",
+    "resolution": "published",
+    "incident_ids": [
+      "mie-university-mail-20260807"
+    ],
+    "reason": "収集開始を8月1日に拡大したため、以前の期間外候補を掲載。配慮の具体的な内容など、要配慮個人情報そのものは誤送信メールに含まれていない。",
+    "source_urls": [
+      "https://www.mie-u.ac.jp/news/topics/2026/08/post-4225.html"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "research-next-189803",
+      "organization": "札幌市（住宅地図）",
+      "reported_on": "2026-09-03",
+      "verification": "pending",
+      "reference_url": "https://www.security-next.com/189803",
+      "note": "追加調査で発見。記載日は報道日。発生日の記載はあるが、公表元の公表日を本文・追加検索で確定できず、9月以降の対象か保留。"
+    },
+    "reviewed_on": "2026-10-15",
+    "resolution": "published",
+    "incident_ids": [
+      "sapporo-map-20260807"
+    ],
+    "reason": "収集開始を8月1日に拡大したため、以前の期間外候補を掲載。対象規模は延べ259件で、実人数ではない。公開は2025年11月18日～2026年5月28日。",
+    "source_urls": [
+      "https://www.city.sapporo.jp/toyohira/public_works_center/r8-7oshirase.html"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "research-next-190055",
+      "organization": "宝塚市立病院",
+      "reported_on": "2026-09-25",
+      "verification": "pending",
+      "reference_url": "https://www.security-next.com/190055",
+      "note": "追加調査で発見。記載日は報道日。発生日の記載はあるが、公表元の公表日を本文・追加検索で確定できず、9月以降の対象か保留。"
+    },
+    "reviewed_on": "2026-10-15",
+    "resolution": "published",
+    "incident_ids": [
+      "takarazuka-hospital-20260817"
+    ],
+    "reason": "収集開始を8月1日に拡大したため、以前の期間外候補を掲載。撮影は2025年9～10月、発覚は2026年6月。日単位では未確定のため日付欄は空欄。人数と画像枚数は合算しない。",
+    "source_urls": [
+      "https://www.sun-tv.co.jp/suntvnews/news/2026/08/17/96243/"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "research-next-190136",
+      "organization": "静岡県（自主防災研修）",
+      "reported_on": "2026-09-15",
+      "verification": "pending",
+      "reference_url": "https://www.security-next.com/190136",
+      "note": "追加調査で発見。記載日は報道日。発生日の記載はあるが、公表元の公表日を本文・追加検索で確定できず、9月以降の対象か保留。"
+    },
+    "reviewed_on": "2026-10-15",
+    "resolution": "published",
+    "incident_ids": [
+      "shizuoka-disaster-form-20260819"
+    ],
+    "reason": "収集開始を8月1日に拡大したため、以前の期間外候補を掲載。 公表日は10月14日の公式資料確認記録に基づく。今回は公式本文を再取得できず、内容は報道本文と照合した。",
+    "source_urls": [
+      "https://www.pref.shizuoka.jp/_res/projects/default_project/_page_/001/085/031/02_0819boujou.pdf",
+      "https://www.security-next.com/190136"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "research-next-190386",
+      "organization": "足立区（都市農業公園）",
+      "reported_on": "2026-10-02",
+      "verification": "pending",
+      "reference_url": "https://www.security-next.com/190386",
+      "note": "追加調査で発見。記載日は報道日。発生日の記載はあるが、公表元の公表日を本文・追加検索で確定できず、9月以降の対象か保留。"
+    },
+    "reviewed_on": "2026-10-15",
+    "resolution": "published",
+    "incident_ids": [
+      "adachi-park-mail-20260824"
+    ],
+    "reason": "収集開始を8月1日に拡大したため、以前の期間外候補を掲載。対象メール1,356件の投稿期間は2021年4月24日～2026年8月5日。 公表日は10月14日の公式資料確認記録に基づく。今回は公式本文を再取得できず、内容は報道本文と照合した。",
+    "source_urls": [
+      "https://www.city.adachi.tokyo.jp/juyo/20260824_ml.html",
+      "https://www.security-next.com/190386"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "research-next-190448",
+      "organization": "横浜市（水道料金通知）",
+      "reported_on": "2026-10-05",
+      "verification": "pending",
+      "reference_url": "https://www.security-next.com/190448",
+      "note": "追加調査で発見。記載日は報道日。発生日の記載はあるが、公表元の公表日を本文・追加検索で確定できず、9月以降の対象か保留。"
+    },
+    "reviewed_on": "2026-10-15",
+    "resolution": "published",
+    "incident_ids": [
+      "yokohama-water-documents-20260824"
+    ],
+    "reason": "収集開始を8月1日に拡大したため、以前の期間外候補を掲載。",
+    "source_urls": [
+      "https://www.city.yokohama.lg.jp/city-info/koho-kocho/press/suidou/2026/0824su-sabisu.html"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "research-next-190516",
+      "organization": "つくば市（地籍図面）",
+      "reported_on": "2026-09-24",
+      "verification": "pending",
+      "reference_url": "https://www.security-next.com/190516",
+      "note": "追加調査で発見。記載日は報道日。発生日の記載はあるが、公表元の公表日を本文・追加検索で確定できず、9月以降の対象か保留。"
+    },
+    "reviewed_on": "2026-10-15",
+    "resolution": "published",
+    "incident_ids": [
+      "tsukuba-cadastral-map-20260826"
+    ],
+    "reason": "収集開始を8月1日に拡大したため、以前の期間外候補を掲載。",
+    "source_urls": [
+      "https://newstsukuba.jp/62223/26/08/"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "research-next-190646",
+      "organization": "名古屋市（合唱申込）",
+      "reported_on": "2026-09-24",
+      "verification": "pending",
+      "reference_url": "https://www.security-next.com/190646",
+      "note": "追加調査で発見。記載日は報道日。発生日の記載はあるが、公表元の公表日を本文・追加検索で確定できず、9月以降の対象か保留。"
+    },
+    "reviewed_on": "2026-10-15",
+    "resolution": "published",
+    "incident_ids": [
+      "nagoya-chorus-form-20260828"
+    ],
+    "reason": "収集開始を8月1日に拡大したため、以前の期間外候補を掲載。各項目は順不同で、相互に関連付けられた表示ではなかった。",
+    "source_urls": [
+      "https://www.bunka758.or.jp/news/headquarters/detail/_1_11.html"
+    ]
   }
 ]

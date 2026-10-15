@@ -1,0 +1,46 @@
+{
+  "id": "takarazuka-hospital-20260817",
+  "organization": {
+    "name": "宝塚市立病院",
+    "sector": "医療"
+  },
+  "title": "患者のX線画像を院外へ持ち出し",
+  "published_on": "2026-08-17",
+  "first_published_on": "2026-08-17",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-15",
+  "incident_type": "improper_handling",
+  "leak_status": "improper_sharing",
+  "summary": "医療機器メーカーの従業員が患者のX線画像14枚を撮影し、社内チャットに投稿。執刀医の許可はあったが患者個別の同意は得ていなかった。",
+  "impact": [
+    {
+      "count": 4,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "対象となった情報。"
+    }
+  ],
+  "data_types": [
+    "X線画像"
+  ],
+  "cause": {
+    "category": "improper_sharing",
+    "detail": "医療機器メーカーの従業員が患者のX線画像14枚を撮影し、社内チャットに投稿。執刀医の許可はあったが患者個別の同意は得ていなかった。",
+    "certainty": "confirmed"
+  },
+  "sources": [
+    {
+      "url": "https://www.sun-tv.co.jp/suntvnews/news/2026/08/17/96243/",
+      "type": "news",
+      "title": "患者のX線画像を院外へ持ち出し",
+      "published_on": "2026-08-17",
+      "checked_on": "2026-10-15"
+    }
+  ],
+  "notes": "撮影は2025年9～10月、発覚は2026年6月。日単位では未確定のため日付欄は空欄。人数と画像枚数は合算しない。",
+  "updates": [],
+  "verification": "secondary",
+  "related_vendor": null
+}

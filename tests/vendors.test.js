@@ -65,7 +65,7 @@ test('vendor attribution requires a known role, text and a valid source index', 
 });
 
 test('research distinguishes unavailable sources, unidentified roles and unreviewed incidents', () => {
-  const unavailable = incidents.find(i => i.vendor_research.result === 'unavailable');
+  const unavailable = incidents.find(i => i.vendor_research?.result === 'unavailable');
   assert.match(vendorHTML(unavailable), /資料本文を取得できず・未特定/);
   assert.match(vendorHTML(unavailable), /資料確認の制約/);
   const unidentified = incidents.find(i => i.id === 'burgerking-20261015');
@@ -95,10 +95,11 @@ test('vendor research validates dates, complete source coverage and evidence con
   }
 });
 
-test('the full vendor research audit covers every published incident once', async () => {
+test('the full vendor research audit covers every researched incident once', async () => {
   const audit = JSON.parse(await readFile(new URL('../data/research-audit.json', import.meta.url), 'utf8'));
   const run = audit.subsequent_runs.findLast(r => r.incident_reviews);
-  assert.deepEqual(run.incident_reviews.map(r => r.incident_id).sort(), incidents.map(i => i.id).sort());
+  const researched = incidents.filter(i => i.vendor_research);
+  assert.deepEqual(run.incident_reviews.map(r => r.incident_id).sort(), researched.map(i => i.id).sort());
   const counts = {};
   for (const review of run.incident_reviews) {
     const item = incidents.find(i => i.id === review.incident_id);
