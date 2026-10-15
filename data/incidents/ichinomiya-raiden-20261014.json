@@ -76,5 +76,13 @@
       "summary": "Net119の登録情報177件にも漏えいの可能性があると公表。",
       "source_index": 1
     }
+  ],
+  "vendors": [
+    {
+      "name": "アルカディア",
+      "role": "service",
+      "detail": "災害時一斉情報配信サービスおよびNet119の運営事業者。",
+      "source_index": 1
+    }
   ]
 }

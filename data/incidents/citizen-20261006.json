@@ -8,7 +8,7 @@
   "published_on": "2026-10-06",
   "occurred_on": "2026-10-02",
   "detected_on": "2026-10-03",
-  "updated_on": "2026-10-07",
+  "updated_on": "2026-10-15",
   "leak_status": "suspected",
   "summary": "外部委託先の問い合わせ管理システムから、各ブランドへの問い合わせ情報が取得された可能性を公表。",
   "impact": [
@@ -37,7 +37,7 @@
       "type": "official",
       "title": "委託先事業者に対する不正アクセスによる情報漏えいの可能性",
       "published_on": "2026-10-06",
-      "checked_on": "2026-10-07"
+      "checked_on": "2026-10-15"
     }
   ],
   "notes": "シチズン自社システムへの不正アクセスは確認されていない。",
@@ -46,5 +46,13 @@
   "publication_kind": "initial",
   "verification": "official",
   "related_vendor": "スカラコミュニケーションズ",
-  "incident_type": "attack"
+  "incident_type": "attack",
+  "vendors": [
+    {
+      "name": "スカラコミュニケーションズ",
+      "role": "service",
+      "detail": "問い合わせ受付システムの提供元・委託先として公表。",
+      "source_index": 0
+    }
+  ]
 }

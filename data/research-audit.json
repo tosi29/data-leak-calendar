@@ -940,6 +940,24 @@
         "total_incidents": 222,
         "pending": 2
       }
+    },
+    {
+      "checked_on": "2026-10-15",
+      "scope": "ベンダーの役割と根拠の整理。",
+      "method": [
+        "シチズン時計・JR東海・LIXILの公式本文を再確認し、一宮市の確認済み公式本文とあわせて役割を記録。",
+        "既存related_vendorの社名のみから開発・運用の担当を推定しない。"
+      ],
+      "updated_incident_ids": [
+        "citizen-20261006",
+        "jrcentral-market-20261013",
+        "lixil-commune-20261009",
+        "ichinomiya-raiden-20261014"
+      ],
+      "limitations": [
+        "役割付き情報は今回確認した4件。全222件の開発会社を追加調査したものではない。",
+        "vendors未記入・該当役割なしは情報なしと表示し、未確認・未公表を含む旨を説明。既存の関連先情報は保持。"
+      ]
     }
   ]
 }

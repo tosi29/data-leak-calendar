@@ -1,3 +1,4 @@
+import { vendorRoleLabels } from '../public/vendors.js';
 import { readdir, readFile } from 'node:fs/promises';
 import { fileURLToPath } from 'node:url';
 import { leakLabels, causeLabels, unitLabels, qualifierLabels, incidentTypeLabels } from '../public/model.js';
@@ -37,6 +38,20 @@ export function validate(items, meta) {
       check(['official', 'news', 'reference'].includes(source.type), 'Invalid source type');
       check(/^https?:\/\//.test(source.url) && Boolean(source.title), 'Invalid source URL or title');
       check(validDate(source.published_on) && validDate(source.checked_on) && source.published_on <= source.checked_on && source.checked_on <= meta.as_of, 'Invalid source dates');
+    }
+    if (Object.hasOwn(item, 'vendors')) {
+      check(Array.isArray(item.vendors), 'Invalid vendors');
+      const seenVendors = new Set();
+      for (const vendor of item.vendors) {
+        check(vendor && typeof vendor.name === 'string' && vendor.name.trim() &&
+          typeof vendor.detail === 'string' && vendor.detail.trim(), 'Invalid vendor text');
+        check(Object.hasOwn(vendorRoleLabels, vendor.role), 'Invalid vendor role');
+        check(Number.isInteger(vendor.source_index) && vendor.source_index >= 0 &&
+          Boolean(item.sources[vendor.source_index]), 'Invalid vendor source');
+        const key = JSON.stringify([vendor.name, vendor.role]);
+        check(!seenVendors.has(key), 'Duplicate vendor role');
+        seenVendors.add(key);
+      }
     }
     check(item.verification !== 'official' || item.sources.some(s => s.type === 'official'), 'Official verification needs official source');
     for (const update of item.updates) check(validDate(update.date) && update.date >= item.published_on && update.date <= meta.as_of && item.sources[update.source_index] && update.summary, 'Invalid update');

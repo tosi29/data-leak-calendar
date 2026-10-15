@@ -10,11 +10,11 @@
   "publication_kind": "initial",
   "occurred_on": null,
   "detected_on": null,
-  "updated_on": "2026-10-14",
+  "updated_on": "2026-10-15",
   "verification": "official",
   "incident_type": "attack",
   "leak_status": "suspected",
-  "summary": "委託先IDCフロンティアのメール配信サービスへの不正アクセスにより、保存されていたメールアドレスや本文を第三者が閲覧・取得した可能性を否定できないとして公表。",
+  "summary": "メール配信サービスが利用するIDCフロンティアのクラウドへの不正アクセスにより、保存されていたメールアドレスや本文を第三者が閲覧・取得した可能性を否定できないとして公表。",
   "impact": [
     {
       "count": 15000,
@@ -44,9 +44,17 @@
       "type": "official",
       "title": "メール配信基盤への不正アクセスに伴う個人情報漏えいの可能性",
       "published_on": "2026-10-13",
-      "checked_on": "2026-10-14"
+      "checked_on": "2026-10-15"
     }
   ],
   "notes": "10月7日時点の保存データに基づく件数。10月9日のメール配信障害案内と、10月13日の個人情報漏えいの可能性の公表を区別。クレジットカード情報・ログインパスワードは対象外。外部流出の事実や二次被害は確認されていない。",
-  "updates": []
+  "updates": [],
+  "vendors": [
+    {
+      "name": "IDCフロンティア",
+      "role": "infrastructure",
+      "detail": "両ECサイトのメール配信サービスが利用するクラウドの運営元。",
+      "source_index": 0
+    }
+  ]
 }
