@@ -1,11 +1,11 @@
 import { vendorHTML, vendorNames } from './vendors.js';
-import { leakLabels, causeLabels, incidentTypeLabels, formatImpact, filterIncidents, dailyCounts, yearCells } from './model.js';
+import { leakLabels, causeLabels, incidentTypeLabels, formatImpact, classificationFilters, filterIncidents, dailyCounts, yearCells } from './model.js';
 const $ = id => document.getElementById(id);
 const escape = value => String(value ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const dateLabel = date => date ? date.replaceAll('-', '.') : '不明・未公表';
 const kindLabel = {initial:'初報',followup:'期間内の続報',unknown:'初報日未確認'};
 const shortStatus = {confirmed:'漏えい・取得を確認',suspected:'漏えいの可能性',investigating:'漏えい有無を調査中',exposed:'外部から閲覧可能',lost:'紛失',ruled_out:'漏えいを否定',improper_sharing:'同意のない第三者提供'};
-const fields = ['query','incident_type','month','status','cause','vendor'];
+const fields = ['query','month','status','classification','vendor'];
 let data, candidates = [], selectedDate = '';
 function options(id, entries) {
   for (const [value, label] of entries) { const option = document.createElement('option'); option.value = value; option.textContent = label; $(id).append(option); }
@@ -23,17 +23,36 @@ function setupCategories() {
   }).join('');
   $('all-types').disabled = false;
   function selectType(type) {
-    $('incident_type').value = type;
+    $('classification').value = type ? `${type}:` : '';
     selectedDate = '';
     render();
   }
   $('category-buttons').addEventListener('click', event => {
     const button = event.target.closest('[data-type]');
-    if (button) selectType($('incident_type').value === button.dataset.type ? '' : button.dataset.type);
+    if (button) selectType(filters().incident_type === button.dataset.type ? '' : button.dataset.type);
   });
   $('all-types').addEventListener('click', () => selectType(''));
 }
-function filters() { return Object.fromEntries(fields.map(id => [id,$(id).value])); }
+function filters() {
+  const { classification, ...values } = Object.fromEntries(fields.map(id => [id,$(id).value]));
+  return { ...values, ...classificationFilters(classification) };
+}
+function setupClassification() {
+  for (const [type, label] of Object.entries(incidentTypeLabels)) {
+    const group = document.createElement('optgroup');
+    group.label = label;
+    const entries = [[`${type}:`, `${label}（すべて）`], ...Object.entries(causeLabels)
+      .filter(([cause]) => data.incidents.some(item => item.incident_type === type && item.cause.category === cause))
+      .map(([cause, name]) => [`${type}:${cause}`, `${label} / ${name}`])];
+    for (const [value, text] of entries) {
+      const option = document.createElement('option');
+      option.value = value;
+      option.textContent = text;
+      group.append(option);
+    }
+    $('classification').append(group);
+  }
+}
 function sourceLink(source) {
   return `<a class="source-link" href="${escape(source.url)}" target="_blank" rel="noopener noreferrer">${escape(source.title)} ↗</a><span class="source-meta">${source.type === 'official' ? '公式発表' : '参考・報道'} · 公表 ${dateLabel(source.published_on)} · 確認 ${dateLabel(source.checked_on)}</span>`;
 }
@@ -68,9 +87,9 @@ function render() {
   const results = selectedDate ? base.filter(i => i.published_on === selectedDate) : base;
   renderCalendar(base);
   for (const button of $('category-buttons').querySelectorAll('[data-type]')) {
-    button.setAttribute('aria-pressed', String(button.dataset.type === $('incident_type').value));
+    button.setAttribute('aria-pressed', String(button.dataset.type === filters().incident_type));
   }
-  $('all-types').setAttribute('aria-pressed', String(!$('incident_type').value));
+  $('all-types').setAttribute('aria-pressed', String(!filters().incident_type));
   $('type-breakdown').textContent = '表示中の内訳：' + Object.entries(incidentTypeLabels).map(([key, label]) => `${label} ${results.filter(i => i.incident_type === key).length}件`).join(' ／ ');
   $('incident-list').innerHTML = results.map(incidentHTML).join('');
   $('result-count').textContent = `${results.length} / ${data.incidents.length}`;
@@ -103,11 +122,20 @@ try {
   options('year', Array.from({length:Number(data.meta.as_of.slice(0,4))-Number(data.meta.coverage_start.slice(0,4))+1},(_,i)=>{const y=Number(data.meta.coverage_start.slice(0,4))+i;return [String(y),`${y}年`];}));
   $('year').value = data.meta.as_of.slice(0,4);
   options('month',[...new Set(data.incidents.map(i=>i.published_on.slice(0,7)))].sort().reverse().map(m=>[m,m.replace('-','年')+'月']));
-  options('incident_type',Object.entries(incidentTypeLabels));
+  setupClassification();
   options('status',Object.entries(leakLabels).filter(([key])=>data.incidents.some(i=>i.leak_status===key)));
-  options('cause',Object.entries(causeLabels).filter(([key])=>data.incidents.some(i=>i.cause.category===key)));
   options('vendor',[...new Set(data.incidents.flatMap(vendorNames))].sort().map(v=>[v,v]));
   const params = new URLSearchParams(location.search);
+  // Keep existing shared URLs, including cause-only searches across types.
+  const type = Object.hasOwn(incidentTypeLabels, params.get('incident_type')) ? params.get('incident_type') : '';
+  const cause = Object.hasOwn(causeLabels, params.get('cause')) ? params.get('cause') : '';
+  if (type || cause) {
+    const value = `${type}:${cause}`;
+    if (![...$('classification').options].some(option => option.value === value)) {
+      options('classification', [[value, `${type ? incidentTypeLabels[type] : 'すべての種別'} / ${causeLabels[cause]}`]]);
+    }
+    $('classification').value = value;
+  }
   for(const field of [...fields,'year']) if(params.has(field)) {const value=params.get(field);if(field==='query'||[...$(field).options].some(o=>o.value===value)) $(field).value=value;}
   const date = params.get('date');
   if(date && yearCells(Number(date.slice(0,4)),data.meta.coverage_start,data.meta.as_of).some(c=>c.active&&c.date===date)){selectedDate=date;$('year').value=date.slice(0,4);}

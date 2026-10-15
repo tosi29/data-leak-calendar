@@ -7,6 +7,10 @@ export const qualifierLabels = { exact: '', approximate: '約', maximum: '最大
 export function formatImpact(item) {
   return item.count === null ? '規模未確認・未公表' : `${qualifierLabels[item.qualifier]}${item.count.toLocaleString('ja-JP')}${unitLabels[item.unit]}`;
 }
+export function classificationFilters(value = '') {
+  const [incident_type = '', cause = ''] = value.split(':');
+  return { incident_type, cause };
+}
 export function filterIncidents(items, { query = '', month = '', cause = '', status = '', vendor = '', incident_type = '', date = '' } = {}) {
   const words = query.trim().normalize('NFKC').toLowerCase().split(/\s+/).filter(Boolean);
   return items.filter(item => (!month || item.published_on.startsWith(month)) && (!date || item.published_on === date)

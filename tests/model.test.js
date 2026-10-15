@@ -1,7 +1,7 @@
 import test from 'node:test';
 import { readFile } from 'node:fs/promises';
 import assert from 'node:assert/strict';
-import { dailyCounts, yearCells, filterIncidents, formatImpact } from '../public/model.js';
+import { dailyCounts, yearCells, classificationFilters, filterIncidents, formatImpact } from '../public/model.js';
 import { loadData, validate, validateCandidates, validateReviewLog } from '../scripts/validate.mjs';
 const data = await loadData();
 test('calendar respects weekdays, leap days and collection boundaries', () => {
@@ -72,4 +72,16 @@ test('incident type filters compose independently of leak status and cause', () 
   const copy = structuredClone(data.incidents);
   delete copy[0].incident_type;
   assert.throws(() => validate(copy, data.meta), /Invalid incident type/);
+});
+
+test('combined classification supports whole types and distinguishes shared causes', () => {
+  const select = value => filterIncidents(data.incidents, classificationFilters(value));
+  assert.equal(select('').length, data.incidents.length);
+  assert.deepEqual(select('attack:'), filterIncidents(data.incidents, {incident_type:'attack'}));
+  const attacks = select('attack:configuration');
+  const accidents = select('accident:configuration');
+  assert.ok(attacks.length > 0 && accidents.length > 0);
+  assert.ok(attacks.every(i => i.incident_type === 'attack' && i.cause.category === 'configuration'));
+  assert.ok(accidents.every(i => i.incident_type === 'accident' && i.cause.category === 'configuration'));
+  assert.equal(select(':configuration').length, attacks.length + accidents.length);
 });
