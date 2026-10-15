@@ -1,0 +1,52 @@
+{
+  "id": "medley-atlink-20261015",
+  "organization": {
+    "name": "メドレー",
+    "sector": "企業・団体"
+  },
+  "title": "アットリンクへの不正アクセスと患者情報漏えいの可能性",
+  "published_on": "2026-10-15",
+  "first_published_on": null,
+  "publication_kind": "unknown",
+  "occurred_on": null,
+  "detected_on": "2026-10-11",
+  "updated_on": "2026-10-15",
+  "verification": "official",
+  "incident_type": "attack",
+  "leak_status": "investigating",
+  "summary": "医療機関向けシステムと患者用アプリへの不正アクセスを確認。患者等の情報への影響を調査している。",
+  "impact": [
+    {
+      "count": 787,
+      "unit": "organizations",
+      "qualifier": "maximum",
+      "description": "対象となる可能性のある利用医療機関"
+    },
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "対象患者等の人数は調査中"
+    }
+  ],
+  "data_types": [
+    "患者等の個人情報（項目調査中）"
+  ],
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。侵入手口の詳細は未公表。",
+    "certainty": "unknown"
+  },
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://japanir.jp/wp-content/uploads/2026/10/4480-20261015-01.pdf",
+      "type": "official",
+      "title": "アットリンクへの不正アクセスと患者情報漏えいの可能性",
+      "published_on": "2026-10-15",
+      "checked_on": "2026-10-15"
+    }
+  ],
+  "notes": "企業作成の適時開示PDF本文を転載先で確認。787は医療機関数であり患者数ではない。10月14日深夜にサービスを停止。先行する利用者通知の存在はあるが、確認した企業開示の日付を採用し初報日は未確定。",
+  "updates": []
+}

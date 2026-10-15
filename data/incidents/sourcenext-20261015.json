@@ -1,0 +1,58 @@
+{
+  "id": "sourcenext-20261015",
+  "organization": {
+    "name": "ソースネクスト",
+    "sector": "企業・団体"
+  },
+  "title": "会員情報取得APIへの不正アクセスによる情報流出",
+  "published_on": "2026-10-15",
+  "first_published_on": "2026-10-15",
+  "publication_kind": "initial",
+  "occurred_on": "2026-10-09",
+  "detected_on": "2026-10-13",
+  "updated_on": "2026-10-15",
+  "verification": "official",
+  "incident_type": "attack",
+  "leak_status": "confirmed",
+  "summary": "会員情報が第三者に取得されたことを確認。流出した可能性のある情報の対象規模を公表。",
+  "impact": [
+    {
+      "count": 22519960,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "流出した可能性のある会員情報の対象件数"
+    }
+  ],
+  "data_types": [
+    "メールアドレス",
+    "パスワード",
+    "氏名",
+    "氏名カナ",
+    "住所",
+    "性別",
+    "電話番号",
+    "FAX番号",
+    "生年月日",
+    "会社名",
+    "役職名",
+    "部署名",
+    "加入サービス・登録日・ログイン日等"
+  ],
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "会員情報取得APIが不正利用された。具体的な侵入手口は調査中。",
+    "certainty": "unknown"
+  },
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.sourcenext.com/support/i/2026/1015_info/",
+      "type": "official",
+      "title": "会員情報取得APIへの不正アクセスによる情報流出",
+      "published_on": "2026-10-15",
+      "checked_on": "2026-10-15"
+    }
+  ],
+  "notes": "対象件数は全件・全項目の流出確定数ではない。クレジットカード情報は対象システムに保存されていない。",
+  "updates": []
+}

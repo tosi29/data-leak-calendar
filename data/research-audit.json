@@ -847,6 +847,73 @@
           ]
         }
       ]
+    },
+    {
+      "checked_on": "2026-10-15",
+      "coverage_start": "2026-10-13",
+      "coverage_end": "2026-10-15",
+      "scope": "10月13～15日の新規公表・続報および既存の確認待ち3件。ハルメクは9月の未収集初報を補完。",
+      "method": [
+        "日付と情報漏えい・不正アクセスで検索し、企業・自治体公式本文または企業作成の適時開示PDFを確認。",
+        "既存213件との重複を照合。一宮市の同じ委託先攻撃の影響拡大は1記録に統合。",
+        "公表日不明のスマプラと鳥取県は引き続き集計から除外。"
+      ],
+      "added_incident_ids": [
+        "sourcenext-20261015",
+        "aena-20261014",
+        "ntv-wands-faveconnect-20261014",
+        "medley-atlink-20261015",
+        "rideonexpress-20261013",
+        "idcf-portal-20261014",
+        "ichinomiya-raiden-20261014",
+        "halmek-up-20260911"
+      ],
+      "updated_incident_ids": [
+        "infoq-20261005",
+        "arcadia-raiden-20261013"
+      ],
+      "candidate_reviews": [
+        {
+          "candidate": {
+            "id": "research-20261014-idcf",
+            "organization": "IDCフロンティア",
+            "reported_on": "2026-10-09",
+            "verification": "pending",
+            "reference_url": "https://www.idcf.jp/news/topics/20261009001",
+            "note": "2026年10月14日再確認。公式第3報（10月8日）・第4報（10月9日）の本文を取得。495の企業・自治体への障害、ランサムウェア攻撃、顧客データの復元困難を確認したが、ベンダー全体の個人情報漏えい・その可能性の明示を確認できず掲載保留。495は漏えい人数ではない。利用企業の個別公表と区別して続報を確認する。"
+          },
+          "reviewed_on": "2026-10-15",
+          "resolution": "published",
+          "incident_ids": [
+            "idcf-portal-20261014"
+          ],
+          "reason": "第5報本文で個人名を含む可能性のあるメールアドレスへの不正照会を確認。仮想サーバー内データの流出否定とは分けて掲載。",
+          "source_urls": [
+            "https://www.idcf.jp/news/topics/20261014001"
+          ]
+        }
+      ],
+      "pending_candidates": [
+        "research-next-190687",
+        "research-20261014-avex-sumapura"
+      ],
+      "limitations": [
+        "全自治体のアルカディア利用事案、全既存事案の続報を網羅した調査ではない。",
+        "追加で見つかったIDARE・イズミ等の企業公表、釧路市の報道、自治体別公表の全件照合は未実施。",
+        "TOPPANペイメンツ10月14日調査結果は個別情報へのアクセス・持ち出しを否定。既存TOPPAN誤送付やシンカとは別事案であり、今回既存記録には転用しない。",
+        "メドレー・ハルメクの適時開示PDFは第三者サイトの転載本文で確認。"
+      ],
+      "reference_urls": [
+        "https://www.pahoo.org/e-soul/privacy/casestudy/case-023-01.shtm",
+        "https://scan.netsecurity.ne.jp/category/incident/incident/2026/10/",
+        "https://thincacloud.toppan.com/newsrelease/20261014/"
+      ],
+      "result": {
+        "added": 8,
+        "updated": 2,
+        "total_incidents": 221,
+        "pending": 2
+      }
     }
   ]
 }

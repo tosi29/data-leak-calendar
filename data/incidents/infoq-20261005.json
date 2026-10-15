@@ -8,15 +8,15 @@
   "published_on": "2026-10-05",
   "occurred_on": "2026-10-02",
   "detected_on": "2026-10-03",
-  "updated_on": "2026-10-07",
+  "updated_on": "2026-10-15",
   "leak_status": "confirmed",
-  "summary": "会員情報が外部に持ち出されたことと、ポイントの不正交換を確認。保有する全個人情報を最大の対象件数として公表。",
+  "summary": "会員情報の外部持ち出し件数を89万4,082件と確定。ポイント不正交換も確認。",
   "impact": [
     {
-      "count": 948498,
+      "count": 894082,
       "unit": "records",
-      "qualifier": "maximum",
-      "description": "10月5日時点で保有する個人情報全件"
+      "qualifier": "exact",
+      "description": "10月14日の第2報で確定した外部持ち出し件数"
     }
   ],
   "data_types": [
@@ -40,10 +40,23 @@
       "title": "infoQへの不正アクセスによる個人情報漏えいのお知らせ",
       "published_on": "2026-10-05",
       "checked_on": "2026-10-07"
+    },
+    {
+      "url": "https://gmo-research.ai/pressroom/notice/notice-20261014",
+      "type": "official",
+      "title": "infoQの個人情報漏えいに関するお知らせ（第2報）",
+      "published_on": "2026-10-14",
+      "checked_on": "2026-10-15"
     }
   ],
-  "notes": "不正なポイント交換611件を確認。最大件数は流出が個別に確定した件数とは区別する。",
-  "updates": [],
+  "notes": "初報の最大948,498件から第2報で894,082件に確定。不正なポイント交換611件を確認。10月7日に全会員のパスワードを無効化。",
+  "updates": [
+    {
+      "date": "2026-10-14",
+      "summary": "外部持ち出し件数を894,082件と確定し、全会員パスワードの無効化を公表。",
+      "source_index": 1
+    }
+  ],
   "first_published_on": "2026-10-05",
   "publication_kind": "initial",
   "verification": "official",

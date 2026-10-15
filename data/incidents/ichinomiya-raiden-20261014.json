@@ -1,0 +1,80 @@
+{
+  "id": "ichinomiya-raiden-20261014",
+  "organization": {
+    "name": "一宮市",
+    "sector": "自治体"
+  },
+  "title": "防災配信・Net119の委託先への不正アクセス",
+  "published_on": "2026-10-14",
+  "first_published_on": "2026-10-14",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-15",
+  "verification": "official",
+  "incident_type": "attack",
+  "leak_status": "suspected",
+  "summary": "アルカディアへの攻撃に伴い、防災配信の登録者や職員等の情報漏えいの可能性を公表。翌日Net119も対象と発表。",
+  "impact": [
+    {
+      "count": 21503,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "あんしん・防災ねっと及び火災メール119の登録メールアドレス"
+    },
+    {
+      "count": 128,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "町会長の連絡先情報"
+    },
+    {
+      "count": 3113,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "災害時連絡用の市職員情報"
+    },
+    {
+      "count": 177,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "Net119登録件数"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "メールアドレス",
+    "電話番号"
+  ],
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。侵入手口の詳細は未公表。",
+    "certainty": "unknown"
+  },
+  "related_vendor": "アルカディア",
+  "sources": [
+    {
+      "url": "https://www.city.ichinomiya.aichi.jp/shisei/houdouhappyo/1068631/1076175/1077223.html",
+      "type": "official",
+      "title": "防災配信・Net119の委託先への不正アクセス",
+      "published_on": "2026-10-14",
+      "checked_on": "2026-10-15"
+    },
+    {
+      "url": "https://www.city.ichinomiya.aichi.jp/shisei/houdouhappyo/1068631/1076175/1077245.html",
+      "type": "official",
+      "title": "Net119緊急通報システムの個人情報漏洩の可能性",
+      "published_on": "2026-10-15",
+      "checked_on": "2026-10-15"
+    }
+  ],
+  "notes": "対象群の重複が不明なため合算しない。9月17日公表の既存一宮市事案とは別件。同じ委託先への攻撃の影響拡大として10月15日のNet119公表を同一記録に統合。",
+  "updates": [
+    {
+      "date": "2026-10-15",
+      "summary": "Net119の登録情報177件にも漏えいの可能性があると公表。",
+      "source_index": 1
+    }
+  ]
+}

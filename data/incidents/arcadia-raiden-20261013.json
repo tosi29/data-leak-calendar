@@ -1,32 +1,75 @@
 {
   "id": "arcadia-raiden-20261013",
   "organization": {
-    "name": "アルカディア（SpeeCAN RAIDEN）",
+    "name": "アルカディア（SpeeCAN RAIDEN・NET119等）",
     "sector": "企業・団体"
   },
   "title": "連絡網サービスへの不正アクセス",
-  "summary": "SpeeCAN RAIDENの複数のサービスで、連絡先データや担当者・契約者情報が漏えいした可能性を公表。",
+  "summary": "連絡網サービスの漏えい可能性に加え、NET119・119RAIDENにも影響を確認。サービスは復旧したが漏えい範囲は調査中。",
   "published_on": "2026-10-13",
   "first_published_on": "2026-10-13",
   "publication_kind": "initial",
   "occurred_on": null,
   "detected_on": "2026-10-11",
-  "updated_on": "2026-10-14",
+  "updated_on": "2026-10-15",
   "verification": "official",
   "incident_type": "attack",
   "leak_status": "suspected",
   "impact": [
     {
-      "count": null,
-      "unit": "people",
-      "qualifier": "unknown",
-      "description": "全体の対象人数は未公表"
+      "count": 3136000,
+      "unit": "records",
+      "qualifier": "maximum_approximate",
+      "description": "SpeeCAN RAIDENのメールアドレス"
+    },
+    {
+      "count": 105000,
+      "unit": "records",
+      "qualifier": "maximum_approximate",
+      "description": "SpeeCAN RAIDENの電話番号"
+    },
+    {
+      "count": 15000,
+      "unit": "records",
+      "qualifier": "maximum_approximate",
+      "description": "SpeeCAN RAIDENのFAX番号"
+    },
+    {
+      "count": 13000,
+      "unit": "records",
+      "qualifier": "maximum_approximate",
+      "description": "NET119の登録情報"
+    },
+    {
+      "count": 97000,
+      "unit": "records",
+      "qualifier": "maximum_approximate",
+      "description": "119RAIDENのメールアドレス"
+    },
+    {
+      "count": 17000,
+      "unit": "records",
+      "qualifier": "maximum_approximate",
+      "description": "119RAIDENの電話番号"
+    },
+    {
+      "count": 400,
+      "unit": "records",
+      "qualifier": "maximum_approximate",
+      "description": "119RAIDENのFAX番号"
     }
   ],
   "data_types": [
-    "連絡先データ",
-    "担当者情報",
-    "契約者情報"
+    "氏名",
+    "生年月日",
+    "性別",
+    "住所",
+    "メールアドレス",
+    "電話番号",
+    "FAX番号",
+    "担当者・契約情報",
+    "保存された配信本文",
+    "登録時入力情報"
   ],
   "cause": {
     "category": "unauthorized_access",
@@ -41,8 +84,26 @@
       "title": "連絡網サービスへの不正アクセス",
       "published_on": "2026-10-13",
       "checked_on": "2026-10-14"
+    },
+    {
+      "url": "https://raiden.site.ktaiwork.jp/archives/4597",
+      "type": "official",
+      "title": "SpeeCAN RAIDENへの不正アクセスに伴う一連の対応（第9報まで）",
+      "published_on": "2026-10-13",
+      "checked_on": "2026-10-15"
     }
   ],
-  "notes": "公式PDF本文の日付は10月13日。ファイル名の10月12日を公表日に転用しない。横須賀市など利用団体の個別公表との人数合算はしない。",
-  "updates": []
+  "notes": "規模はいずれも推定最大件数で、サービス間・情報項目間・利用自治体との重複があるため合算しない。人数ではない。映像通報は対象外。初報PDFのファイル名は10月12日だが本文の10月13日を採用。",
+  "updates": [
+    {
+      "date": "2026-10-14",
+      "summary": "NET119・119RAIDENの漏えい可能性を追加。映像通報と119RAIDENの一部URLは対象外と訂正。",
+      "source_index": 1
+    },
+    {
+      "date": "2026-10-15",
+      "summary": "第9報で停止中サービスの復旧完了を公表。情報漏えいの範囲は引き続き調査中。",
+      "source_index": 1
+    }
+  ]
 }

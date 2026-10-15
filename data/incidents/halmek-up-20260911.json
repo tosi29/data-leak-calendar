@@ -1,0 +1,59 @@
+{
+  "id": "halmek-up-20260911",
+  "organization": {
+    "name": "ハルメクホールディングス",
+    "sector": "企業・団体"
+  },
+  "title": "HALMEK up管理画面への不正アクセスと最終調査結果",
+  "published_on": "2026-09-11",
+  "first_published_on": "2026-09-11",
+  "publication_kind": "initial",
+  "occurred_on": "2026-06-13",
+  "detected_on": "2026-09-09",
+  "updated_on": "2026-10-15",
+  "verification": "official",
+  "incident_type": "attack",
+  "leak_status": "suspected",
+  "summary": "社員の認証情報が不正利用された。最終調査では計5回の不正アクセスを確認したが、個人情報流出の痕跡は確認されなかった。",
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "個人情報への影響人数は公表なし"
+    }
+  ],
+  "data_types": [
+    "顧客管理情報"
+  ],
+  "cause": {
+    "category": "credentials",
+    "detail": "社員1名のID・パスワードの不正利用。取得手口は未公表。",
+    "certainty": "confirmed"
+  },
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://halmek.co.jp/topics/c/notice/17311",
+      "type": "official",
+      "title": "HALMEK up管理画面への不正アクセスと最終調査結果",
+      "published_on": "2026-09-11",
+      "checked_on": "2026-10-15"
+    },
+    {
+      "url": "https://assets.minkabu.jp/news/article_media_content/urn:newsml:tdnet.info:20261015551040/140120261015551040.pdf",
+      "type": "official",
+      "title": "HALMEK upへの不正アクセスに関する調査結果（最終報）",
+      "published_on": "2026-10-15",
+      "checked_on": "2026-10-15"
+    }
+  ],
+  "notes": "不正アクセスは6月13日、8月7日、9月2日・3日・9日の計5回。最終報の「流出痕跡なし」は流出の明示的否定と区別し、漏えい確認には計上しない。最終報は企業作成の適時開示PDFを転載先で確認。",
+  "updates": [
+    {
+      "date": "2026-10-15",
+      "summary": "最終調査で5回の不正アクセスを確認。ファイルの閲覧・取得・外部転送の痕跡は確認されず。",
+      "source_index": 1
+    }
+  ]
+}

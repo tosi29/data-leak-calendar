@@ -1,0 +1,54 @@
+{
+  "id": "rideonexpress-20261013",
+  "organization": {
+    "name": "ライドオンエクスプレスホールディングス",
+    "sector": "企業・団体"
+  },
+  "title": "銀のさら・釜寅・すし上等の登録情報漏えいの可能性",
+  "published_on": "2026-10-13",
+  "first_published_on": null,
+  "publication_kind": "followup",
+  "occurred_on": null,
+  "detected_on": "2026-10-05",
+  "updated_on": "2026-10-15",
+  "verification": "official",
+  "incident_type": "attack",
+  "leak_status": "suspected",
+  "summary": "公式サイト・アプリの登録情報を保管するサーバーへの攻撃を受け、漏えいの可能性を公表。",
+  "impact": [
+    {
+      "count": 6500000,
+      "unit": "records",
+      "qualifier": "maximum_approximate",
+      "description": "漏えいした可能性のある登録情報の総件数"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "電話番号",
+    "メールアドレス",
+    "性別",
+    "生年月日",
+    "パスワードのハッシュ値",
+    "注文履歴",
+    "デリポイント会員ID"
+  ],
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。侵入手口の詳細は未公表。",
+    "certainty": "unknown"
+  },
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.rideonexpresshd.co.jp/news/2026/10/3-33.html",
+      "type": "official",
+      "title": "銀のさら・釜寅・すし上等の登録情報漏えいの可能性",
+      "published_on": "2026-10-13",
+      "checked_on": "2026-10-15"
+    }
+  ],
+  "notes": "第3報を掲載。先行する障害告知の初報日は未確定。10月13日時点で漏えいの事実・範囲は未特定。家族や配送先の情報を含む可能性がある。サーバー運営会社は本文で社名を確認できずrelated_vendorは未設定。",
+  "updates": []
+}

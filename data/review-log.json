@@ -1901,5 +1901,24 @@
     "source_urls": [
       "https://www.jtua.or.jp/jtua_news/44237/"
     ]
+  },
+  {
+    "candidate": {
+      "id": "research-20261014-idcf",
+      "organization": "IDCフロンティア",
+      "reported_on": "2026-10-09",
+      "verification": "pending",
+      "reference_url": "https://www.idcf.jp/news/topics/20261009001",
+      "note": "2026年10月14日再確認。公式第3報（10月8日）・第4報（10月9日）の本文を取得。495の企業・自治体への障害、ランサムウェア攻撃、顧客データの復元困難を確認したが、ベンダー全体の個人情報漏えい・その可能性の明示を確認できず掲載保留。495は漏えい人数ではない。利用企業の個別公表と区別して続報を確認する。"
+    },
+    "reviewed_on": "2026-10-15",
+    "resolution": "published",
+    "incident_ids": [
+      "idcf-portal-20261014"
+    ],
+    "reason": "第5報本文で個人名を含む可能性のあるメールアドレスへの不正照会を確認。仮想サーバー内データの流出否定とは分けて掲載。",
+    "source_urls": [
+      "https://www.idcf.jp/news/topics/20261014001"
+    ]
   }
 ]

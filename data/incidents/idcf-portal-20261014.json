@@ -1,0 +1,56 @@
+{
+  "id": "idcf-portal-20261014",
+  "organization": {
+    "name": "IDCフロンティア",
+    "sector": "企業・団体"
+  },
+  "title": "クラウドポータルの契約者登録情報への不正照会",
+  "published_on": "2026-10-14",
+  "first_published_on": "2026-10-07",
+  "publication_kind": "followup",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-15",
+  "verification": "official",
+  "incident_type": "attack",
+  "leak_status": "suspected",
+  "summary": "48社の登録情報への不正照会を確認。うち2社のメールアドレスに担当者個人名が含まれる可能性がある。",
+  "impact": [
+    {
+      "count": 48,
+      "unit": "organizations",
+      "qualifier": "exact",
+      "description": "登録情報への不正照会を確認した契約企業"
+    },
+    {
+      "count": 2,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "個人名を含む可能性があるメールアドレス（2社各1件、48社の内数）"
+    }
+  ],
+  "data_types": [
+    "企業名",
+    "ログインID",
+    "パスワードのハッシュ値",
+    "企業メールアドレス",
+    "月額利用料金"
+  ],
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。侵入手口の詳細は未公表。",
+    "certainty": "unknown"
+  },
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.idcf.jp/news/topics/20261014001",
+      "type": "official",
+      "title": "クラウドポータルの契約者登録情報への不正照会",
+      "published_on": "2026-10-14",
+      "checked_on": "2026-10-15"
+    }
+  ],
+  "notes": "外部持ち出しの痕跡は未確認。被害4ゾーンの仮想サーバー内データは外部流出なしとの判断であり、ポータル登録情報への不正照会と区別する。障害対象495組織を漏えい規模に転用しない。10月14日は個人情報への影響を確認できた第5報の日付。",
+  "updates": []
+}

@@ -1,0 +1,55 @@
+{
+  "id": "aena-20261014",
+  "organization": {
+    "name": "アエナ",
+    "sector": "企業・団体"
+  },
+  "title": "ECアプリ会員マイページへの不正閲覧",
+  "published_on": "2026-10-14",
+  "first_published_on": "2026-10-14",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-10-13",
+  "updated_on": "2026-10-15",
+  "verification": "official",
+  "incident_type": "attack",
+  "leak_status": "confirmed",
+  "summary": "ECアプリの会員マイページへの不正閲覧を確認し、対象となる可能性のある本会員数を公表。",
+  "impact": [
+    {
+      "count": 817215,
+      "unit": "people",
+      "qualifier": "maximum",
+      "description": "閲覧された可能性のあるアプリ本会員"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "電話番号",
+    "メールアドレス",
+    "生年月日",
+    "性別",
+    "職業",
+    "お届け先情報",
+    "設定情報",
+    "クレジットカード情報の一部"
+  ],
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。侵入手口の詳細は未公表。",
+    "certainty": "unknown"
+  },
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.aena.co.jp/news/detail/7826/",
+      "type": "official",
+      "title": "ECアプリ会員マイページへの不正閲覧",
+      "published_on": "2026-10-14",
+      "checked_on": "2026-10-15"
+    }
+  ],
+  "notes": "不正閲覧は確認されたが最大対象人数全員の閲覧が確定した意味ではない。LINE会員やAmazon・楽天のみの利用者は対象外。ログインパスワード、カード番号全桁・セキュリティコードは対象外。",
+  "updates": []
+}
