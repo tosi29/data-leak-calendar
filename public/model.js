@@ -7,13 +7,11 @@ export const qualifierLabels = { exact: '', approximate: '約', maximum: '最大
 export function formatImpact(item) {
   return item.count === null ? '規模未確認・未公表' : `${qualifierLabels[item.qualifier]}${item.count.toLocaleString('ja-JP')}${unitLabels[item.unit]}`;
 }
-export function filterIncidents(items, { query = '', month = '', cause = '', status = '', vendor = '', vendor_role = '', vendor_research = '', incident_type = '', date = '' } = {}) {
+export function filterIncidents(items, { query = '', month = '', cause = '', status = '', vendor = '', incident_type = '', date = '' } = {}) {
   const words = query.trim().normalize('NFKC').toLowerCase().split(/\s+/).filter(Boolean);
   return items.filter(item => (!month || item.published_on.startsWith(month)) && (!date || item.published_on === date)
     && (!cause || item.cause.category === cause) && (!status || item.leak_status === status)
     && (!vendor || vendorNames(item).includes(vendor))
-    && (!vendor_role || (item.vendors || []).some(v => v.role === vendor_role && (!vendor || v.name === vendor)))
-    && (!vendor_research || (vendor_research === 'unreviewed' ? !item.vendor_research : item.vendor_research?.result === vendor_research))
     && (!incident_type || item.incident_type === incident_type)
     && words.every(word => [item.organization.name, item.title, item.summary, item.cause.detail, ...item.data_types, ...vendorNames(item), ...(item.vendors || []).map(v => v.detail)].join(' ').normalize('NFKC').toLowerCase().includes(word)));
 }
