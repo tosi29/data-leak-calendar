@@ -1,0 +1,55 @@
+{
+  "id": "burgerking-20261015",
+  "organization": {
+    "name": "ビーケー・ジャパン（バーガーキング）",
+    "sector": "外食"
+  },
+  "title": "公式アプリ会員情報への不正アクセスと漏えい",
+  "published_on": "2026-10-15",
+  "first_published_on": "2026-10-15",
+  "publication_kind": "initial",
+  "occurred_on": "2026-10-02",
+  "detected_on": "2026-10-13",
+  "updated_on": "2026-10-15",
+  "verification": "official",
+  "incident_type": "attack",
+  "leak_status": "confirmed",
+  "summary": "公式アプリの会員情報を管理するシステムへの不正アクセスにより、約1,118万件の会員情報の漏えいを確認。",
+  "impact": [
+    {
+      "count": 11180000,
+      "unit": "records",
+      "qualifier": "approximate",
+      "description": "漏えいした公式アプリ会員情報"
+    }
+  ],
+  "data_types": [
+    "会員ID",
+    "メールアドレス",
+    "登録種別",
+    "都道府県",
+    "性別",
+    "生年月日",
+    "氏名（漢字・カナ）",
+    "電話番号",
+    "モバイルオーダー履歴の有無",
+    "メールアドレス認証の有無"
+  ],
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。侵入経緯と詳細な原因は外部専門機関と調査中。",
+    "certainty": "unknown"
+  },
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.burgerking.co.jp/images/notice/2026/10/15/d4d114ca-ebd7-4f3d-94ef-c4ea7a84a139.pdf",
+      "type": "official",
+      "title": "不正アクセスによる公式アプリ会員情報漏えいに関するお詫びとお知らせ",
+      "published_on": "2026-10-15",
+      "checked_on": "2026-10-15"
+    }
+  ],
+  "notes": "不正アクセス期間は10月2日～7日。10月13日は漏えい判明日。対象規模は件数であり人数に換算しない。クレジットカード番号は保有しておらず漏えいなし。ログインパスワードの漏えいと二次被害は公表時点で未確認。",
+  "updates": []
+}

@@ -914,6 +914,32 @@
         "total_incidents": 221,
         "pending": 2
       }
+    },
+    {
+      "checked_on": "2026-10-15",
+      "coverage_start": "2026-10-15",
+      "coverage_end": "2026-10-15",
+      "scope": "ユーザー指定のバーガーキングの掲載漏れを補完。",
+      "method": [
+        "既存データに該当記録がないことを確認。報道のリンクから公式PDFの全文を確認し、日付・対象規模・漏えい状況を照合。"
+      ],
+      "added_incident_ids": [
+        "burgerking-20261015"
+      ],
+      "updated_incident_ids": [],
+      "reference_urls": [
+        "https://www.burgerking.co.jp/images/notice/2026/10/15/d4d114ca-ebd7-4f3d-94ef-c4ea7a84a139.pdf",
+        "https://internet.watch.impress.co.jp/docs/news/2148458.html"
+      ],
+      "limitations": [
+        "指定事案の追加確認であり、同日の全公表事案の網羅調査ではない。"
+      ],
+      "result": {
+        "added": 1,
+        "updated": 0,
+        "total_incidents": 222,
+        "pending": 2
+      }
     }
   ]
 }
