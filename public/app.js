@@ -1,11 +1,11 @@
-import { vendorHTML, vendorNames } from './vendors.js';
+import { vendorHTML, vendorNames, vendorRoleLabels, vendorResearchLabels } from './vendors.js';
 import { leakLabels, causeLabels, incidentTypeLabels, formatImpact, filterIncidents, dailyCounts, yearCells } from './model.js';
 const $ = id => document.getElementById(id);
 const escape = value => String(value ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const dateLabel = date => date ? date.replaceAll('-', '.') : '不明・未公表';
 const kindLabel = {initial:'初報',followup:'期間内の続報',unknown:'初報日未確認'};
 const shortStatus = {confirmed:'漏えい・取得を確認',suspected:'漏えいの可能性',investigating:'漏えい有無を調査中',exposed:'外部から閲覧可能',lost:'紛失',ruled_out:'漏えいを否定',improper_sharing:'同意のない第三者提供'};
-const fields = ['query','incident_type','month','status','cause','vendor'];
+const fields = ['query','incident_type','month','status','cause','vendor','vendor_role','vendor_research'];
 let data, candidates = [], selectedDate = '';
 function options(id, entries) {
   for (const [value, label] of entries) { const option = document.createElement('option'); option.value = value; option.textContent = label; $(id).append(option); }
@@ -74,7 +74,8 @@ function render() {
   $('type-breakdown').textContent = '表示中の内訳：' + Object.entries(incidentTypeLabels).map(([key, label]) => `${label} ${results.filter(i => i.incident_type === key).length}件`).join(' ／ ');
   $('incident-list').innerHTML = results.map(incidentHTML).join('');
   $('result-count').textContent = `${results.length} / ${data.incidents.length}`;
-  $('filter-summary').textContent = `${selectedDate ? dateLabel(selectedDate)+' の公表 · ' : ''}${results.length}件を表示 · 公表日の新しい順`;
+  const conditions = fields.filter(id => $(id).value).map(id => id === 'query' ? `「${$(id).value}」` : $(id).selectedOptions[0].textContent);
+  $('filter-summary').textContent = `${selectedDate ? dateLabel(selectedDate)+' の公表 · ' : ''}${results.length}件を表示 · ${conditions.length ? conditions.join(' / ') : 'すべての事案'} · 公表日の新しい順`;
   $('empty').hidden = results.length > 0;
   const params = new URLSearchParams();
   for(const [key,value] of Object.entries(filters())) if(value) params.set(key,value);
@@ -106,6 +107,8 @@ try {
   options('status',Object.entries(leakLabels).filter(([key])=>data.incidents.some(i=>i.leak_status===key)));
   options('cause',Object.entries(causeLabels).filter(([key])=>data.incidents.some(i=>i.cause.category===key)));
   options('vendor',[...new Set(data.incidents.flatMap(vendorNames))].sort().map(v=>[v,v]));
+  options('vendor_role',Object.entries(vendorRoleLabels).map(([key,label])=>[key,`${label}の会社名を確認`]));
+  options('vendor_research',[...Object.entries(vendorResearchLabels),['unreviewed','全役割の調査未実施']]);
   const params = new URLSearchParams(location.search);
   for(const field of [...fields,'year']) if(params.has(field)) {const value=params.get(field);if(field==='query'||[...$(field).options].some(o=>o.value===value)) $(field).value=value;}
   const date = params.get('date');

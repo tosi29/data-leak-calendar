@@ -39,6 +39,28 @@ test('all vendor names are searchable and filterable without duplicate options',
   assert.equal(filterIncidents([item], {vendor:'ＡＢＣ開発', status:'ruled_out'}).length, 0);
 });
 
+test('vendor role and name must refer to the same attribution', () => {
+  const item = incidents.find(i => i.id === 'tokyoshusui-20261009');
+  assert.equal(filterIncidents([item], {vendor:'イー・エージェンシー', vendor_role:'development'}).length, 1);
+  assert.equal(filterIncidents([item], {vendor:'IDCフロンティア', vendor_role:'development'}).length, 0);
+  assert.equal(filterIncidents([item], {vendor_role:'infrastructure', vendor_research:'identified'}).length, 1);
+  assert.equal(filterIncidents([item], {vendor_role:'development', vendor_research:'not_identified'}).length, 0);
+  assert.equal(filterIncidents([item], {query:'ｆｕｔｕｒｅ 技術協力', vendor_role:'development'}).length, 1);
+  assert.equal(filterIncidents([{...item, vendors:[]}], {vendor_role:'development'}).length, 0);
+});
+
+test('research filters distinguish unreviewed, unavailable and unidentified cases', () => {
+  for (const result of ['identified', 'not_identified', 'unavailable']) {
+    const matches = filterIncidents(incidents, {vendor_research:result});
+    assert.ok(matches.length > 0);
+    assert.ok(matches.every(i => i.vendor_research.result === result));
+  }
+  const item = {...base}; delete item.vendor_research;
+  assert.equal(filterIncidents([item], {vendor_research:'unreviewed'}).length, 1);
+  assert.equal(filterIncidents([item], {vendor_research:'not_identified'}).length, 0);
+  assert.equal(filterIncidents([item], {vendor_research:'unavailable'}).length, 0);
+});
+
 test('vendor attribution requires a known role, text and a valid source index', () => {
   for (const edit of [
     x => x.vendors = null,
