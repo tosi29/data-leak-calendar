@@ -3186,5 +3186,63 @@
       "https://www.city.naha.okinawa.jp/child/school/1002812/1012525.html",
       "https://blog.b-son.net/2026/08/sec2026-555-Naha-city.html"
     ]
+  },
+  {
+    "candidate": {
+      "id": "aug-review-next-188290",
+      "organization": "情報流出の可能性、影響範囲など調査 - 農業用温室メーカー",
+      "reported_on": "2026-08-20",
+      "verification": "pending",
+      "reference_url": "https://www.security-next.com/188290",
+      "note": "8月の月間一覧から再取得。日付は報道日。公式公表日・初報と続報の関係、個人情報の影響範囲の照合が未完了のためカレンダーには未掲載。"
+    },
+    "reviewed_on": "2026-10-18",
+    "resolution": "published",
+    "incident_ids": [
+      "daisen-system-20260803"
+    ],
+    "reason": "公式公表資料の本文・日付・対象範囲を照合して掲載。流出の疑いと確認を区別。",
+    "source_urls": [
+      "https://www.daisen.co.jp/news/000229.html",
+      "https://www.daisen.co.jp/news/000230.html"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "aug-review-next-188461",
+      "organization": "利用予定のウェブシステムに攻撃 - ウォーターサーバ事業者",
+      "reported_on": "2026-08-18",
+      "verification": "pending",
+      "reference_url": "https://www.security-next.com/188461",
+      "note": "8月の月間一覧から再取得。日付は報道日。公式公表日・初報と続報の関係、個人情報の影響範囲の照合が未完了のためカレンダーには未掲載。"
+    },
+    "reviewed_on": "2026-10-18",
+    "resolution": "published",
+    "incident_ids": [
+      "shinai-websystem-20260805"
+    ],
+    "reason": "公式公表資料の本文・日付・対象範囲を照合して掲載。流出の疑いと確認を区別。",
+    "source_urls": [
+      "https://www.shin-ai.jp/391/"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "aug-review-next-188455",
+      "organization": "研修施設のサイトが改ざん被害、影響などを調査 - 東海大",
+      "reported_on": "2026-08-13",
+      "verification": "pending",
+      "reference_url": "https://www.security-next.com/188455",
+      "note": "8月の月間一覧から再取得。日付は報道日。公式公表日・初報と続報の関係、個人情報の影響範囲の照合が未完了のためカレンダーには未掲載。"
+    },
+    "reviewed_on": "2026-10-18",
+    "resolution": "published",
+    "incident_ids": [
+      "tokai-yamanakako-20260805"
+    ],
+    "reason": "公式公表資料の本文・日付・対象範囲を照合して掲載。流出の疑いと確認を区別。",
+    "source_urls": [
+      "https://www.u-tokai.ac.jp/news-notice/1371622/"
+    ]
   }
 ]

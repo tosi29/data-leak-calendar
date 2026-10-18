@@ -1,0 +1,54 @@
+{
+  "id": "tokai-yamanakako-20260805",
+  "organization": {
+    "name": "東海大学山中湖セミナーハウス",
+    "sector": "教育・研究"
+  },
+  "title": "宿泊予約者274人の情報が漏えいした可能性",
+  "summary": "予約サイトの改ざんを受けて調査したところ、不正アクセスの可能性が高いと判明。サーバー内の宿泊予約情報について、外部流出の可能性を否定できないと公表した。",
+  "published_on": "2026-08-05",
+  "first_published_on": "2026-08-05",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-04-22",
+  "updated_on": "2026-10-18",
+  "incident_type": "attack",
+  "leak_status": "suspected",
+  "impact": [
+    {
+      "count": 274,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表された対象規模"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "電話番号",
+    "メールアドレス",
+    "ファクシミリ番号",
+    "教職員番号",
+    "在籍時学生証番号",
+    "団体名",
+    "所属機関",
+    "学部・学科・学校名"
+  ],
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。詳細な侵入手法は未公表。",
+    "certainty": "suspected"
+  },
+  "sources": [
+    {
+      "url": "https://www.u-tokai.ac.jp/news-notice/1371622/",
+      "type": "official",
+      "title": "宿泊予約者274人の情報が漏えいした可能性",
+      "published_on": "2026-08-05",
+      "checked_on": "2026-10-18"
+    }
+  ],
+  "notes": "2022年5月9日から2026年4月22日までの予約サイト利用者が対象。住所・生年月日・カード情報・金融機関口座情報は含まれない。外部流出の有無と範囲は未確定。",
+  "updates": [],
+  "verification": "official",
+  "related_vendor": null
+}

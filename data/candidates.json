@@ -21,47 +21,7 @@
     "reported_on": "2026-08-25",
     "verification": "pending",
     "reference_url": "https://www.security-next.com/189036",
-    "note": "8月の月間一覧から再取得。日付は報道日。公式公表日・初報と続報の関係、個人情報の影響範囲の照合が未完了のためカレンダーには未掲載。"
-  },
-  {
-    "id": "aug-review-next-188970",
-    "organization": "調査票発送時の宛名に本来不要な国籍を記載 - 杉並区",
-    "reported_on": "2026-08-21",
-    "verification": "pending",
-    "reference_url": "https://www.security-next.com/188970",
-    "note": "8月の月間一覧から再取得。日付は報道日。公式公表日・初報と続報の関係、個人情報の影響範囲の照合が未完了のためカレンダーには未掲載。"
-  },
-  {
-    "id": "aug-review-next-188290",
-    "organization": "情報流出の可能性、影響範囲など調査 - 農業用温室メーカー",
-    "reported_on": "2026-08-20",
-    "verification": "pending",
-    "reference_url": "https://www.security-next.com/188290",
-    "note": "8月の月間一覧から再取得。日付は報道日。公式公表日・初報と続報の関係、個人情報の影響範囲の照合が未完了のためカレンダーには未掲載。"
-  },
-  {
-    "id": "aug-review-next-189131",
-    "organization": "研修案内メール誤送信で就農者のメアド流出 - 松山市",
-    "reported_on": "2026-08-20",
-    "verification": "pending",
-    "reference_url": "https://www.security-next.com/189131",
-    "note": "8月の月間一覧から再取得。日付は報道日。公式公表日・初報と続報の関係、個人情報の影響範囲の照合が未完了のためカレンダーには未掲載。"
-  },
-  {
-    "id": "aug-review-next-188461",
-    "organization": "利用予定のウェブシステムに攻撃 - ウォーターサーバ事業者",
-    "reported_on": "2026-08-18",
-    "verification": "pending",
-    "reference_url": "https://www.security-next.com/188461",
-    "note": "8月の月間一覧から再取得。日付は報道日。公式公表日・初報と続報の関係、個人情報の影響範囲の照合が未完了のためカレンダーには未掲載。"
-  },
-  {
-    "id": "aug-review-next-188882",
-    "organization": "医師が病室に個人情報含む書類を置き忘れ、患者宅から回収 - 川崎市",
-    "reported_on": "2026-08-17",
-    "verification": "pending",
-    "reference_url": "https://www.security-next.com/188882",
-    "note": "8月の月間一覧から再取得。日付は報道日。公式公表日・初報と続報の関係、個人情報の影響範囲の照合が未完了のためカレンダーには未掲載。"
+    "note": "8月の月間一覧から再取得。日付は報道日。公式公表日・初報と続報の関係、個人情報の影響範囲の照合が未完了のためカレンダーには未掲載。 2026年10月18日再確認。大学の重要なお知らせ一覧・トピックス・検査名で検索したが、23人分の結果シート紛失の公表日を確定できず。"
   },
   {
     "id": "aug-review-next-188705",
@@ -69,31 +29,7 @@
     "reported_on": "2026-08-14",
     "verification": "pending",
     "reference_url": "https://www.security-next.com/188705",
-    "note": "8月の月間一覧から再取得。日付は報道日。公式公表日・初報と続報の関係、個人情報の影響範囲の照合が未完了のためカレンダーには未掲載。"
-  },
-  {
-    "id": "aug-review-next-188374",
-    "organization": "健診名簿を会場に置き忘れ、8日後に拾得 - 長崎県健康事業団",
-    "reported_on": "2026-08-13",
-    "verification": "pending",
-    "reference_url": "https://www.security-next.com/188374",
-    "note": "8月の月間一覧から再取得。日付は報道日。公式公表日・初報と続報の関係、個人情報の影響範囲の照合が未完了のためカレンダーには未掲載。"
-  },
-  {
-    "id": "aug-review-next-188455",
-    "organization": "研修施設のサイトが改ざん被害、影響などを調査 - 東海大",
-    "reported_on": "2026-08-13",
-    "verification": "pending",
-    "reference_url": "https://www.security-next.com/188455",
-    "note": "8月の月間一覧から再取得。日付は報道日。公式公表日・初報と続報の関係、個人情報の影響範囲の照合が未完了のためカレンダーには未掲載。"
-  },
-  {
-    "id": "aug-review-next-188151",
-    "organization": "複数年度の傷病者情報含む救急活動記録票を誤廃棄 - 伊勢崎市",
-    "reported_on": "2026-08-13",
-    "verification": "pending",
-    "reference_url": "https://www.security-next.com/188151",
-    "note": "8月の月間一覧から再取得。日付は報道日。公式公表日・初報と続報の関係、個人情報の影響範囲の照合が未完了のためカレンダーには未掲載。"
+    "note": "8月の月間一覧から再取得。日付は報道日。公式公表日・初報と続報の関係、個人情報の影響範囲の照合が未完了のためカレンダーには未掲載。 2026年10月18日再確認。報道本文と町名・USB紛失で再検索。7月9日は発覚日、7月16日は町への報告日であり、公開の公表日を確定できず。"
   },
   {
     "id": "aug-review-next-188714",
@@ -101,47 +37,7 @@
     "reported_on": "2026-08-12",
     "verification": "pending",
     "reference_url": "https://www.security-next.com/188714",
-    "note": "8月の月間一覧から再取得。日付は報道日。公式公表日・初報と続報の関係、個人情報の影響範囲の照合が未完了のためカレンダーには未掲載。"
-  },
-  {
-    "id": "aug-review-next-188069",
-    "organization": "小学校で健診結果を別の児童に配布、教員間の連携不足で - 矢板市",
-    "reported_on": "2026-08-12",
-    "verification": "pending",
-    "reference_url": "https://www.security-next.com/188069",
-    "note": "8月の月間一覧から再取得。日付は報道日。公式公表日・初報と続報の関係、個人情報の影響範囲の照合が未完了のためカレンダーには未掲載。"
-  },
-  {
-    "id": "aug-review-next-188543",
-    "organization": "児童扶養手当受給資格者の個人情報を自治体宛に誤送信 - 石川県",
-    "reported_on": "2026-08-07",
-    "verification": "pending",
-    "reference_url": "https://www.security-next.com/188543",
-    "note": "8月の月間一覧から再取得。日付は報道日。公式公表日・初報と続報の関係、個人情報の影響範囲の照合が未完了のためカレンダーには未掲載。"
-  },
-  {
-    "id": "aug-review-next-188541",
-    "organization": "個人情報含むUSBメモリを庁舎内で紛失 - 穴水町",
-    "reported_on": "2026-08-07",
-    "verification": "pending",
-    "reference_url": "https://www.security-next.com/188541",
-    "note": "8月の月間一覧から再取得。日付は報道日。公式公表日・初報と続報の関係、個人情報の影響範囲の照合が未完了のためカレンダーには未掲載。"
-  },
-  {
-    "id": "aug-review-next-187812",
-    "organization": "NASがランサム被害、内部に関係者連絡先 - 日本ご当地キャラクター協会",
-    "reported_on": "2026-08-06",
-    "verification": "pending",
-    "reference_url": "https://www.security-next.com/187812",
-    "note": "8月の月間一覧から再取得。日付は報道日。公式公表日・初報と続報の関係、個人情報の影響範囲の照合が未完了のためカレンダーには未掲載。"
-  },
-  {
-    "id": "aug-review-next-188467",
-    "organization": "窓口で公開している台帳図面に個人情報 - 長野県",
-    "reported_on": "2026-08-06",
-    "verification": "pending",
-    "reference_url": "https://www.security-next.com/188467",
-    "note": "8月の月間一覧から再取得。日付は報道日。公式公表日・初報と続報の関係、個人情報の影響範囲の照合が未完了のためカレンダーには未掲載。"
+    "note": "8月の月間一覧から再取得。日付は報道日。公式公表日・初報と続報の関係、個人情報の影響範囲の照合が未完了のためカレンダーには未掲載。 2026年10月18日再確認。税額決定通知書・廃業事業所・6人分で再検索したが、長岡市の対応資料と公表日を取得できず。5月15日の発送日を転用しない。"
   },
   {
     "id": "aug-review-next-188369",
@@ -149,23 +45,7 @@
     "reported_on": "2026-08-05",
     "verification": "pending",
     "reference_url": "https://www.security-next.com/188369",
-    "note": "8月の月間一覧から再取得。日付は報道日。公式公表日・初報と続報の関係、個人情報の影響範囲の照合が未完了のためカレンダーには未掲載。"
-  },
-  {
-    "id": "aug-review-next-187998",
-    "organization": "個人情報含む学内共有ファイルで公開設定ミス - 同志社大",
-    "reported_on": "2026-08-05",
-    "verification": "pending",
-    "reference_url": "https://www.security-next.com/187998",
-    "note": "8月の月間一覧から再取得。日付は報道日。公式公表日・初報と続報の関係、個人情報の影響範囲の照合が未完了のためカレンダーには未掲載。"
-  },
-  {
-    "id": "aug-review-next-188200",
-    "organization": "教員がサポート詐欺被害、遠隔操作PCに個人情報 - 杏林大",
-    "reported_on": "2026-08-04",
-    "verification": "pending",
-    "reference_url": "https://www.security-next.com/188200",
-    "note": "8月の月間一覧から再取得。日付は報道日。公式公表日・初報と続報の関係、個人情報の影響範囲の照合が未完了のためカレンダーには未掲載。"
+    "note": "8月の月間一覧から再取得。日付は報道日。公式公表日・初報と続報の関係、個人情報の影響範囲の照合が未完了のためカレンダーには未掲載。 2026年10月18日再確認。保護者8人向けメールの事案を再検索。見つかった2023年の子育て支援課資料は別件。6月26日の送信日と6月29日の発覚日を公表日に転用しない。"
   },
   {
     "id": "aug-review-next-188148",
@@ -173,7 +53,7 @@
     "reported_on": "2026-08-03",
     "verification": "pending",
     "reference_url": "https://www.security-next.com/188148",
-    "note": "8月の月間一覧から再取得。日付は報道日。公式公表日・初報と続報の関係、個人情報の影響範囲の照合が未完了のためカレンダーには未掲載。"
+    "note": "8月の月間一覧から再取得。日付は報道日。公式公表日・初報と続報の関係、個人情報の影響範囲の照合が未完了のためカレンダーには未掲載。 2026年10月18日再確認。高校生活入門講座・229人・フォームで再検索。見つかった2025年の神戸高校資料は対象年・経緯が異なるため不採用。2026年事案の公表日は未確定。"
   },
   {
     "id": "aug-review-next-187953",
@@ -181,6 +61,6 @@
     "reported_on": "2026-08-03",
     "verification": "pending",
     "reference_url": "https://www.security-next.com/187953",
-    "note": "8月の月間一覧から再取得。日付は報道日。公式公表日・初報と続報の関係、個人情報の影響範囲の照合が未完了のためカレンダーには未掲載。"
+    "note": "8月の月間一覧から再取得。日付は報道日。公式公表日・初報と続報の関係、個人情報の影響範囲の照合が未完了のためカレンダーには未掲載。 2026年10月18日再確認。水道企業団・検針依頼リストで再検索したが、440件の一時紛失に対応する公表資料を取得できず。7月7日の発生日を転用しない。"
   }
 ]
