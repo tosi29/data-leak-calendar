@@ -1,0 +1,51 @@
+{
+  "id": "murata-mlb-insurance-20260710",
+  "organization": {
+    "name": "村田土地建物（ムラタメイク）",
+    "sector": "金融"
+  },
+  "title": "グループのIT環境への不正アクセスで自動車保険契約情報が流出",
+  "published_on": "2026-07-10",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-18",
+  "first_published_on": "2026-07-10",
+  "publication_kind": "initial",
+  "verification": "secondary",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "summary": "村田製作所のIT環境への不正アクセスに伴い、自動車保険契約者の情報の一部が外部に漏えいした。2015年・2020年・2021年の各時点の契約情報が対象。",
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "公表された対象規模"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "証券番号",
+    "車両番号",
+    "契約保険会社",
+    "保険始期日",
+    "保険満期日"
+  ],
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "村田製作所のIT環境への不正アクセスに伴い、自動車保険契約者の情報の一部が外部に漏えいした。2015年・2020年・2021年の各時点の契約情報が対象。",
+    "certainty": "unknown"
+  },
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://ascii.jp/elem/000/004/419/4419883/",
+      "type": "news",
+      "title": "グループのIT環境への不正アクセスで自動車保険契約情報が流出",
+      "published_on": "2026-07-15",
+      "checked_on": "2026-10-18"
+    }
+  ],
+  "notes": "7月15日付ASCII記事が7月10日の公表を明記。連絡先・口座・カード情報は対象外。",
+  "updates": []
+}

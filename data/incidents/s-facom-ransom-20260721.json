@@ -1,0 +1,56 @@
+{
+  "id": "s-facom-ransom-20260721",
+  "organization": {
+    "name": "新エフエイコム",
+    "sector": "製造"
+  },
+  "title": "ランサムウェア被害の調査で取引先従業員情報の流出可能性",
+  "published_on": "2026-07-21",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-18",
+  "first_published_on": "2026-04-14",
+  "publication_kind": "followup",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "summary": "4月の攻撃を調査し、取引先従業員の個人情報を含むファイルが第三者に閲覧・取得された可能性を公表した。",
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "公表された対象規模"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "勤務先",
+    "所属部署",
+    "取引関連情報"
+  ],
+  "cause": {
+    "category": "credentials",
+    "detail": "第三者がアカウント情報を窃取したうえでネットワークへ不正侵入。",
+    "certainty": "confirmed"
+  },
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://s-facom.jp/news/ua2_/",
+      "type": "official",
+      "title": "ランサムウェア被害の調査で取引先従業員情報の流出可能性",
+      "published_on": "2026-07-21",
+      "checked_on": "2026-10-18"
+    },
+    {
+      "url": "https://s-facom.jp/news/",
+      "type": "official",
+      "title": "公式ニュース一覧：第三者の不正アクセスについて（続報）",
+      "published_on": "2026-07-21",
+      "checked_on": "2026-10-18"
+    }
+  ],
+  "notes": "続報本文に掲載日表示がないため、公式ニュース一覧の7月21日表示と照合。",
+  "updates": []
+}

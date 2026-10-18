@@ -1,0 +1,58 @@
+{
+  "id": "axa-employee-disclosure-20260716",
+  "organization": {
+    "name": "アクサ生命保険",
+    "sector": "金融"
+  },
+  "title": "顧客情報を持ち出した元従業員の逮捕を公表",
+  "published_on": "2026-07-16",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-18",
+  "first_published_on": "2025-09-25",
+  "publication_kind": "followup",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "improper_handling",
+  "summary": "在籍中の従業員から保険代理店に転職した元従業員へ顧客情報が渡り、一部が保険募集に利用された事案。7月16日に元従業員の逮捕を続報として公表した。",
+  "impact": [
+    {
+      "count": 422,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "2025年の初報で漏えいした可能性があるとされた対象者。全員の流出確定人数ではない。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "生年月日",
+    "性別",
+    "保険金受取人氏名",
+    "契約内容",
+    "証券番号"
+  ],
+  "cause": {
+    "category": "improper_sharing",
+    "detail": "在籍中の従業員から保険代理店に転職した元従業員へ顧客情報が渡り、一部が保険募集に利用された事案。7月16日に元従業員の逮捕を続報として公表した。",
+    "certainty": "confirmed"
+  },
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www2.axa.co.jp/info/news/2026/pdf/260716.pdf",
+      "type": "official",
+      "title": "顧客情報を持ち出した元従業員の逮捕を公表",
+      "published_on": "2026-07-16",
+      "checked_on": "2026-10-18"
+    },
+    {
+      "url": "https://www2.axa.co.jp/info/news/2025/pdf/250925.pdf",
+      "type": "official",
+      "title": "元従業員による個人情報漏えいのお詫びとお知らせ",
+      "published_on": "2025-09-25",
+      "checked_on": "2026-10-18"
+    }
+  ],
+  "notes": "",
+  "updates": []
+}

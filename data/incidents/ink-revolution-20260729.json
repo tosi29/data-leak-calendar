@@ -1,0 +1,54 @@
+{
+  "id": "ink-revolution-20260729",
+  "organization": {
+    "name": "シー・コネクト（インク革命）",
+    "sector": "小売・通販"
+  },
+  "title": "不正アクセスで顧客24,166人の個人情報・カード情報が流出した可能性",
+  "published_on": "2026-07-29",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-18",
+  "first_published_on": "2026-07-29",
+  "publication_kind": "initial",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "summary": "サイトの脆弱性を悪用され決済アプリ等が改ざんされた。2025年4月8日から12月10日までに入力された顧客情報とカード情報が対象。",
+  "impact": [
+    {
+      "count": 24166,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表された対象規模"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "電話番号",
+    "生年月日",
+    "メールアドレス",
+    "ハッシュ化パスワード",
+    "カード番号",
+    "カード名義",
+    "有効期限",
+    "セキュリティコード"
+  ],
+  "cause": {
+    "category": "vulnerability",
+    "detail": "サイトの脆弱性を悪用され決済アプリ等が改ざんされた。2025年4月8日から12月10日までに入力された顧客情報とカード情報が対象。",
+    "certainty": "confirmed"
+  },
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://ink-revolution.com/pages/info-2026-07-15",
+      "type": "official",
+      "title": "不正アクセスで顧客24,166人の個人情報・カード情報が流出した可能性",
+      "published_on": "2026-07-29",
+      "checked_on": "2026-10-18"
+    }
+  ],
+  "notes": "URLの日付ではなく本文の2026年7月29日を採用。顧客情報とカード情報の各24,166人は重複するため合算しない。",
+  "updates": []
+}

@@ -1,0 +1,49 @@
+{
+  "id": "mie-hisainorin-form-20260722",
+  "organization": {
+    "name": "三重県立久居農林高等学校",
+    "sector": "教育"
+  },
+  "title": "オープンスクール申込フォームで229人の情報が閲覧可能",
+  "published_on": "2026-07-22",
+  "occurred_on": "2026-07-16",
+  "detected_on": "2026-07-16",
+  "updated_on": "2026-10-18",
+  "first_published_on": "2026-07-22",
+  "publication_kind": "initial",
+  "verification": "official",
+  "leak_status": "exposed",
+  "incident_type": "accident",
+  "summary": "申込フォームの編集時に権限を誤設定し、7月16日の約4時間、申込者情報を他の申込者から閲覧できる状態にした。",
+  "impact": [
+    {
+      "count": 229,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表された対象規模"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "メールアドレス",
+    "中学校名",
+    "中学校の所在市町"
+  ],
+  "cause": {
+    "category": "configuration",
+    "detail": "申込フォームの編集時に権限を誤設定し、7月16日の約4時間、申込者情報を他の申込者から閲覧できる状態にした。",
+    "certainty": "confirmed"
+  },
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.pref.mie.lg.jp/TOPICS/m0053100002.htm",
+      "type": "official",
+      "title": "オープンスクール申込フォームで229人の情報が閲覧可能",
+      "published_on": "2026-07-22",
+      "checked_on": "2026-10-18"
+    }
+  ],
+  "notes": "",
+  "updates": []
+}

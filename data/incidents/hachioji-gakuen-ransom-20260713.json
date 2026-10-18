@@ -1,0 +1,59 @@
+{
+  "id": "hachioji-gakuen-ransom-20260713",
+  "organization": {
+    "name": "八王子学園（八王子中学校・高等学校）",
+    "sector": "教育"
+  },
+  "title": "ランサムウェアによる生徒・保護者・教職員情報の暗号化",
+  "published_on": "2026-07-13",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-18",
+  "first_published_on": "2026-07-13",
+  "publication_kind": "initial",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "summary": "校内サーバーと一部端末のファイルが暗号化された。9月30日の調査結果では外部流出の痕跡は確認されなかったが、一部ログの消去により流出を否定しきれないとしている。",
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "公表された対象規模"
+    }
+  ],
+  "data_types": [
+    "生徒・卒業生・保護者・受験生・教職員の個人情報"
+  ],
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "校内サーバーと一部端末のファイルが暗号化された。9月30日の調査結果では外部流出の痕跡は確認されなかったが、一部ログの消去により流出を否定しきれないとしている。",
+    "certainty": "unknown"
+  },
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.hachioji.ed.jp/information/urgent/4997/",
+      "type": "official",
+      "title": "ランサムウェアによる生徒・保護者・教職員情報の暗号化",
+      "published_on": "2026-07-13",
+      "checked_on": "2026-10-18"
+    },
+    {
+      "url": "https://www.hachioji.ed.jp/information/information-junr/5111/",
+      "type": "official",
+      "title": "調査完了。個人情報を含むファイルの暗号化を確認し、外部流出の明確な痕跡は未確認。",
+      "published_on": "2026-09-30",
+      "checked_on": "2026-10-18"
+    }
+  ],
+  "notes": "暗号化被害と外部への流出を区別。外部流出が否定された事案ではない。",
+  "updates": [
+    {
+      "date": "2026-09-30",
+      "summary": "調査完了。個人情報を含むファイルの暗号化を確認し、外部流出の明確な痕跡は未確認。",
+      "source_index": 1
+    }
+  ]
+}

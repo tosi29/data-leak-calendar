@@ -4,12 +4,12 @@
     "name": "ニチレイ",
     "sector": "企業・団体"
   },
-  "title": "サイバー攻撃で個人情報流出を確認（第7報）",
+  "title": "サイバー攻撃による個人情報流出（第7報で流出を確認）",
   "summary": "サーバーの調査で配送先、取引先役職員、従業員と家族・求職者の個人情報流出を確認。",
-  "published_on": "2026-08-14",
+  "published_on": "2026-07-15",
   "occurred_on": null,
   "detected_on": null,
-  "updated_on": "2026-10-15",
+  "updated_on": "2026-10-18",
   "first_published_on": "2026-07-13",
   "publication_kind": "followup",
   "verification": "official",
@@ -63,13 +63,26 @@
       "title": "システム障害発生について（第6報）",
       "published_on": "2026-08-14",
       "checked_on": "2026-10-15"
+    },
+    {
+      "url": "https://www.nichirei.co.jp/news/2026/513.html",
+      "type": "official",
+      "title": "システム障害発生について（第2報）：個人情報漏洩の可能性",
+      "published_on": "2026-07-15",
+      "checked_on": "2026-10-18"
     }
   ],
-  "notes": "初報はシステム障害。項目は対象者ごとに異なり、件数を人数へ換算しない。 7月13日の障害初報に対し、個人情報漏えいのおそれを記した8月14日の第6報を掲載日とする。",
-  "updates": [],
+  "notes": "7月13日はシステム障害の初報。個人情報を保存したサーバーの被害と漏えいの可能性を明記した7月15日の第2報を掲載日とする。対象規模・流出確認は9月18日の第7報による。件数を人数へ換算しない。",
+  "updates": [
+    {
+      "date": "2026-09-18",
+      "summary": "配送先・取引先役職員・従業員等の情報流出を確認し、対象件数を公表。",
+      "source_index": 0
+    }
+  ],
   "incident_type": "attack",
   "vendor_research": {
-    "checked_on": "2026-10-15",
+    "checked_on": "2026-10-18",
     "result": "not_identified",
     "note": "掲載出典と追加検索で、当該事案に関係する外部の開発・運用・サービス・基盤会社の社名と役割を特定できませんでした。",
     "source_checks": [
@@ -79,6 +92,10 @@
       },
       {
         "source_index": 1,
+        "status": "reviewed"
+      },
+      {
+        "source_index": 2,
         "status": "reviewed"
       }
     ]

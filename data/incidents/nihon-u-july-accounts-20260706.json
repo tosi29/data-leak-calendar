@@ -1,0 +1,46 @@
+{
+  "id": "nihon-u-july-accounts-20260706",
+  "organization": {
+    "name": "日本大学",
+    "sector": "教育"
+  },
+  "title": "学生・卒業生9人のメールアカウントに不正アクセス",
+  "published_on": "2026-07-06",
+  "occurred_on": "2026-06-24",
+  "detected_on": "2026-06-26",
+  "updated_on": "2026-10-18",
+  "first_published_on": "2026-07-06",
+  "publication_kind": "initial",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "summary": "9アカウントが侵害され迷惑メールが送信された。保存メールの閲覧痕跡はないが、個人情報を閲覧された可能性を否定できないと公表。",
+  "impact": [
+    {
+      "count": 9,
+      "unit": "accounts",
+      "qualifier": "exact",
+      "description": "侵害されたアカウント数。漏えい人数ではない。"
+    }
+  ],
+  "data_types": [
+    "メールボックス内の個人情報"
+  ],
+  "cause": {
+    "category": "credentials",
+    "detail": "9アカウントが侵害され迷惑メールが送信された。保存メールの閲覧痕跡はないが、個人情報を閲覧された可能性を否定できないと公表。",
+    "certainty": "confirmed"
+  },
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.nihon-u.ac.jp/hojin_news/others/20260706-267.html",
+      "type": "official",
+      "title": "学生・卒業生9人のメールアカウントに不正アクセス",
+      "published_on": "2026-07-06",
+      "checked_on": "2026-10-18"
+    }
+  ],
+  "notes": "8月の法学部、9月の理工学部等とは発生時期と対象アカウントが異なる。送信された迷惑メール17,864通を漏えい件数にはしない。",
+  "updates": []
+}

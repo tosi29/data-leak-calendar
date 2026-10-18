@@ -1,0 +1,60 @@
+{
+  "id": "fujisawa-programming-mail-20260713",
+  "organization": {
+    "name": "藤沢市・湘南産業振興財団",
+    "sector": "自治体・公的機関"
+  },
+  "title": "プログラミング講座の案内メールで保護者23人のアドレスを誤送信",
+  "published_on": "2026-07-13",
+  "occurred_on": "2026-07-10",
+  "detected_on": "2026-07-11",
+  "updated_on": "2026-10-18",
+  "first_published_on": "2026-07-13",
+  "publication_kind": "initial",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "accident",
+  "summary": "財団が7月10日に講座案内を送る際、宛先をToに設定し、保護者間でメールアドレスが見える状態にした。",
+  "impact": [
+    {
+      "count": 23,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表された対象規模"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "cause": {
+    "category": "misdelivery",
+    "detail": "財団が7月10日に講座案内を送る際、宛先をToに設定し、保護者間でメールアドレスが見える状態にした。",
+    "certainty": "confirmed"
+  },
+  "related_vendor": "公益財団法人湘南産業振興財団",
+  "sources": [
+    {
+      "url": "https://www.city.fujisawa.kanagawa.jp/kyoso/press/20260713press.html",
+      "type": "official",
+      "title": "プログラミング講座の案内メールで保護者23人のアドレスを誤送信",
+      "published_on": "2026-07-13",
+      "checked_on": "2026-10-18"
+    },
+    {
+      "url": "https://shonan.or.jp/1367/",
+      "type": "official",
+      "title": "子ども向けプログラミング講座における電子メールの誤送信について",
+      "published_on": "2026-07-13",
+      "checked_on": "2026-10-18"
+    },
+    {
+      "url": "https://www.city.fujisawa.kanagawa.jp/documents/38817/20260713132651.pdf",
+      "type": "official",
+      "title": "記者発表資料：発生経緯・保護者23人のメールアドレス",
+      "published_on": "2026-07-13",
+      "checked_on": "2026-10-18"
+    }
+  ],
+  "notes": "",
+  "updates": []
+}

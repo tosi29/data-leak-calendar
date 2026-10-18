@@ -1,0 +1,46 @@
+{
+  "id": "delightful-meruhaikun-20260814",
+  "organization": {
+    "name": "ディライトフル（める配くん）",
+    "sector": "IT・通信"
+  },
+  "title": "メール配信サービスへの不正アクセスで配信先情報の一部が流出",
+  "published_on": "2026-08-14",
+  "occurred_on": null,
+  "detected_on": "2026-06-15",
+  "updated_on": "2026-10-18",
+  "first_published_on": "2026-06-19",
+  "publication_kind": "followup",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "summary": "一部サーバーへの不正アクセスについて7月に対策を報告し、8月14日の調査完了報告で、保管していた配信先情報の一部が外部に取得されたことを確認した。",
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "公表された対象規模"
+    }
+  ],
+  "data_types": [
+    "配信先メールアドレス等"
+  ],
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "外部からの不正アクセス。最終報だけでは侵入手法を特定しない。",
+    "certainty": "unknown"
+  },
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.meruhaikun.com/blog/?page_id=3227",
+      "type": "official",
+      "title": "調査完了。一部の配信先メールアドレス等の外部取得を確認。",
+      "published_on": "2026-08-14",
+      "checked_on": "2026-10-18"
+    }
+  ],
+  "notes": "初報は公式最終報が明記する6月19日。7月の対策ページは本文に日付がないため、日付と流出確認を明記した8月14日の最終報を掲載日とする。利用組織の対象規模とは重複し得る。",
+  "updates": []
+}

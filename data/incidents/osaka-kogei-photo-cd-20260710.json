@@ -1,0 +1,46 @@
+{
+  "id": "osaka-kogei-photo-cd-20260710",
+  "organization": {
+    "name": "大阪府立工芸高等学校",
+    "sector": "教育"
+  },
+  "title": "生徒703人の証明写真を保存したCDを紛失",
+  "published_on": "2026-07-10",
+  "occurred_on": null,
+  "detected_on": "2026-04-14",
+  "updated_on": "2026-10-18",
+  "first_published_on": "2026-07-10",
+  "publication_kind": "initial",
+  "verification": "official",
+  "leak_status": "lost",
+  "incident_type": "accident",
+  "summary": "職員室で保管していた生徒写真のCDが見当たらず、4月14日に紛失を確認した。持ち出し管理簿の記録が徹底されていなかった。",
+  "impact": [
+    {
+      "count": 703,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表された対象規模"
+    }
+  ],
+  "data_types": [
+    "証明写真"
+  ],
+  "cause": {
+    "category": "loss",
+    "detail": "職員室で保管していた生徒写真のCDが見当たらず、4月14日に紛失を確認した。持ち出し管理簿の記録が徹底されていなかった。",
+    "certainty": "confirmed"
+  },
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.pref.osaka.lg.jp/hodo/fumin/o180040/prs_51147.html",
+      "type": "official",
+      "title": "生徒703人の証明写真を保存したCDを紛失",
+      "published_on": "2026-07-10",
+      "checked_on": "2026-10-18"
+    }
+  ],
+  "notes": "",
+  "updates": []
+}

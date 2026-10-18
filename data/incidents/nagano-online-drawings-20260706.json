@@ -1,0 +1,66 @@
+{
+  "id": "nagano-online-drawings-20260706",
+  "organization": {
+    "name": "長野県",
+    "sector": "自治体・公的機関"
+  },
+  "title": "入札情報・公共事業評価の図面に個人情報を掲載",
+  "published_on": "2026-07-06",
+  "occurred_on": null,
+  "detected_on": "2026-06-25",
+  "updated_on": "2026-10-18",
+  "first_published_on": "2026-07-06",
+  "publication_kind": "initial",
+  "verification": "official",
+  "leak_status": "exposed",
+  "incident_type": "accident",
+  "summary": "入札情報や公共事業評価の公開図面に氏名・地番が残っていた。7月24日の調査完了時点で、入札情報9,799人、公共事業評価775人の情報掲載を確認した。",
+  "impact": [
+    {
+      "count": 9799,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "入札情報の漏えい実人数（7月24日調査結果）"
+    },
+    {
+      "count": 775,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公共事業評価の漏えい実人数（入札情報との重複不明）"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "地番"
+  ],
+  "cause": {
+    "category": "redaction_error",
+    "detail": "入札情報や公共事業評価の公開図面に氏名・地番が残っていた。7月24日の調査完了時点で、入札情報9,799人、公共事業評価775人の情報掲載を確認した。",
+    "certainty": "confirmed"
+  },
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.pref.nagano.lg.jp/gijukan/happyou/documents/202607061430press.pdf",
+      "type": "official",
+      "title": "入札情報・公共事業評価の図面に個人情報を掲載",
+      "published_on": "2026-07-06",
+      "checked_on": "2026-10-18"
+    },
+    {
+      "url": "https://www.pref.nagano.lg.jp/gijukan/happyou/documents/20260724press.pdf",
+      "type": "official",
+      "title": "入札情報1,107件・9,799人、公共事業評価58件・775人の掲載を確認。",
+      "published_on": "2026-07-24",
+      "checked_on": "2026-10-18"
+    }
+  ],
+  "notes": "公共事業評価775人とは重複の有無が不明なため合算しない。別途公表された道路台帳・下水道管路台帳の閲覧事案とは別記録。",
+  "updates": [
+    {
+      "date": "2026-07-24",
+      "summary": "入札情報1,107件・9,799人、公共事業評価58件・775人の掲載を確認。",
+      "source_index": 1
+    }
+  ]
+}

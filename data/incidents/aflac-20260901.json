@@ -4,26 +4,42 @@
     "name": "アフラック生命保険",
     "sector": "企業・団体"
   },
-  "title": "よりそうネット等の情報漏えい（期間内の案内）",
-  "summary": "契約者向けサイト等への不正アクセスに伴う情報漏えいについて、期間内にも案内を公表。",
-  "published_on": "2026-09-01",
-  "occurred_on": null,
+  "title": "不正アクセスによる契約者約440万人の個人情報漏えい",
+  "summary": "7月13日の第2報で、契約者約440万人の個人情報漏えいを公表。うち約22万人は保険料振替口座情報を含む。初報の件数と侵害開始日を調査により修正した。",
+  "published_on": "2026-07-13",
+  "occurred_on": "2026-06-10",
   "detected_on": null,
-  "updated_on": "2026-10-15",
-  "first_published_on": null,
+  "updated_on": "2026-10-18",
+  "first_published_on": "2026-06-30",
   "publication_kind": "followup",
   "verification": "official",
   "leak_status": "confirmed",
   "impact": [
     {
-      "count": null,
+      "count": 4400000,
       "unit": "people",
-      "qualifier": "unknown",
-      "description": "対象規模は確認した資料に記載なし・調査中"
+      "qualifier": "approximate",
+      "description": "7月13日第2報の契約者人数。口座情報を含む約22万人は内数。"
+    },
+    {
+      "count": 40000,
+      "unit": "organizations",
+      "qualifier": "approximate",
+      "description": "代表者氏名等を含む代理店約4万店。契約者人数と合算しない。"
     }
   ],
   "data_types": [
-    "顧客の個人情報"
+    "氏名",
+    "生年月日",
+    "性別",
+    "住所",
+    "電話番号",
+    "被保険者・受取人情報",
+    "証券番号",
+    "保障内容",
+    "第二連絡先情報",
+    "保険料振替口座情報（一部）",
+    "代理店代表者情報"
   ],
   "cause": {
     "category": "unauthorized_access",
@@ -45,13 +61,20 @@
       "title": "日本理学療法士協会：アフラックの個人情報漏えいに関する続報",
       "published_on": "2026-09-08",
       "checked_on": "2026-10-15"
+    },
+    {
+      "url": "https://www.aflac.co.jp/static/corp/profile/news/2026/20260713.pdf",
+      "type": "official",
+      "title": "不正アクセスの発生および情報漏えいのお詫びとお知らせ（第二報）",
+      "published_on": "2026-07-13",
+      "checked_on": "2026-10-18"
     }
   ],
-  "notes": "日本理学療法士協会の公式続報が9月1日の案内公表を明記。7月以前から公表されている事案であり、9月の新規発生ではない。アフラックの現在の案内ページは10月1日更新。対象規模はこの掲載資料だけでは確定しない。",
+  "notes": "初報は6月30日。期間内の規模・発生時期の訂正を含む7月13日の第2報へ掲載日を修正。約440万人は契約者人数で、他の関係者や代理店を加算しない。後の案内を新規事案として数えない。",
   "updates": [],
   "incident_type": "attack",
   "vendor_research": {
-    "checked_on": "2026-10-15",
+    "checked_on": "2026-10-18",
     "result": "not_identified",
     "note": "掲載出典と追加検索で、当該事案に関係する外部の開発・運用・サービス・基盤会社の社名と役割を特定できませんでした。",
     "source_checks": [
@@ -61,6 +84,10 @@
       },
       {
         "source_index": 1,
+        "status": "reviewed"
+      },
+      {
+        "source_index": 2,
         "status": "reviewed"
       }
     ]

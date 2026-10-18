@@ -1,0 +1,57 @@
+{
+  "id": "kyuden-td-ssd-20260708",
+  "organization": {
+    "name": "九州電力送配電",
+    "sector": "電力"
+  },
+  "title": "顧客情報を保存したバックアップ用SSDの所在不明に関する続報",
+  "published_on": "2026-07-08",
+  "occurred_on": null,
+  "detected_on": "2026-05-26",
+  "updated_on": "2026-10-18",
+  "first_published_on": "2026-06-08",
+  "publication_kind": "followup",
+  "verification": "official",
+  "leak_status": "lost",
+  "incident_type": "accident",
+  "summary": "サーバー室で保管していたSSDが5月26日に所在不明と判明。7月8日に対象規模を精査した結果と再発防止策を公表した。外部流出の事実は確認されていない。",
+  "impact": [
+    {
+      "count": 10030000,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "精査後の個人情報の件数。法人等351万件を含めない。"
+    }
+  ],
+  "data_types": [
+    "需要者名",
+    "供給場所住所",
+    "電話番号（一部）",
+    "電力使用量",
+    "契約情報"
+  ],
+  "cause": {
+    "category": "loss",
+    "detail": "サーバー室で保管していたSSDが5月26日に所在不明と判明。7月8日に対象規模を精査した結果と再発防止策を公表した。外部流出の事実は確認されていない。",
+    "certainty": "confirmed"
+  },
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.kyuden.co.jp/td/press/2026/260708.html",
+      "type": "official",
+      "title": "顧客情報を保存したバックアップ用SSDの所在不明に関する続報",
+      "published_on": "2026-07-08",
+      "checked_on": "2026-10-18"
+    },
+    {
+      "url": "https://www.kyuden.co.jp/var/rev0/0880/1447/td_yA6rC4VD.pdf",
+      "type": "official",
+      "title": "別紙：報告徴収への報告、事実関係・対象規模・再発防止策",
+      "published_on": "2026-07-08",
+      "checked_on": "2026-10-18"
+    }
+  ],
+  "notes": "資料の合計1,354万件のうち個人情報1,003万件。法人等・契約継続中の内数を別に加算しない。氏名表記差などがありユニーク人数ではない。",
+  "updates": []
+}

@@ -1,0 +1,54 @@
+{
+  "id": "jihs-cardiac-hdd-20260731",
+  "organization": {
+    "name": "国立国際医療センター",
+    "sector": "医療"
+  },
+  "title": "患者83,007人の心機能検査情報を保存したHDDを紛失",
+  "published_on": "2026-07-31",
+  "occurred_on": null,
+  "detected_on": "2026-04-16",
+  "updated_on": "2026-10-18",
+  "first_published_on": "2026-07-31",
+  "publication_kind": "initial",
+  "verification": "official",
+  "leak_status": "lost",
+  "incident_type": "accident",
+  "summary": "廃棄のため検査機器から外したHDDが保管倉庫で所在不明となった。保存対象は1998年12月から2023年12月に検査した患者で、外部流出・不正利用は確認されていない。",
+  "impact": [
+    {
+      "count": 83007,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表された対象規模"
+    }
+  ],
+  "data_types": [
+    "患者ID",
+    "氏名",
+    "年齢",
+    "性別",
+    "検査日",
+    "心機能検査結果",
+    "病名",
+    "感染症検査結果",
+    "投薬状況"
+  ],
+  "cause": {
+    "category": "loss",
+    "detail": "廃棄のため検査機器から外したHDDが保管倉庫で所在不明となった。保存対象は1998年12月から2023年12月に検査した患者で、外部流出・不正利用は確認されていない。",
+    "certainty": "confirmed"
+  },
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.jihs.go.jp/content4/20260731_1500.pdf",
+      "type": "official",
+      "title": "患者83,007人の心機能検査情報を保存したHDDを紛失",
+      "published_on": "2026-07-31",
+      "checked_on": "2026-10-18"
+    }
+  ],
+  "notes": "検査実施のための患者情報は生成1か月後に自動削除される設定。全83,007人についてすべての項目が残っていたと断定しない。",
+  "updates": []
+}

@@ -1,0 +1,47 @@
+{
+  "id": "kyushugo-private-sms-20260706",
+  "organization": {
+    "name": "九州急行バス",
+    "sector": "運輸"
+  },
+  "title": "運転士が予約情報を不正取得し顧客へ私的なSMSを送信",
+  "published_on": "2026-07-06",
+  "occurred_on": null,
+  "detected_on": "2026-06-24",
+  "updated_on": "2026-10-18",
+  "first_published_on": "2026-07-06",
+  "publication_kind": "initial",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "improper_handling",
+  "summary": "運行管理者を通じて運転士がバス予約情報を不正に閲覧・取得し、顧客への私的な連絡に使用した。6月24日の顧客からの申し出で発覚した。",
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "公表された対象規模"
+    }
+  ],
+  "data_types": [
+    "予約情報",
+    "電話番号"
+  ],
+  "cause": {
+    "category": "improper_sharing",
+    "detail": "運行管理者を通じて運転士がバス予約情報を不正に閲覧・取得し、顧客への私的な連絡に使用した。6月24日の顧客からの申し出で発覚した。",
+    "certainty": "confirmed"
+  },
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://kyushugo.co.jp/wp-content/uploads/2026/07/f46b2eb1703350120dfda01cc02f42b5.pdf",
+      "type": "official",
+      "title": "運転士が予約情報を不正取得し顧客へ私的なSMSを送信",
+      "published_on": "2026-07-06",
+      "checked_on": "2026-10-18"
+    }
+  ],
+  "notes": "公式発表に対象人数の明記はない。権限外取得・私的利用の事案。",
+  "updates": []
+}

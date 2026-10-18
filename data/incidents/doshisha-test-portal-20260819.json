@@ -1,0 +1,46 @@
+{
+  "id": "doshisha-test-portal-20260819",
+  "organization": {
+    "name": "同志社大学キャリアセンター",
+    "sector": "教育"
+  },
+  "title": "筆記試験対策ポータルへの攻撃で大学メールアドレスが流出した可能性",
+  "published_on": "2026-08-19",
+  "occurred_on": null,
+  "detected_on": "2026-04-19",
+  "updated_on": "2026-10-18",
+  "first_published_on": null,
+  "publication_kind": "unknown",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "summary": "試験対策ポータルのサーバーがランサムウェア被害を受け、利用者が登録した大学メールアドレスが流出した可能性を公表した。",
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "公表された対象規模"
+    }
+  ],
+  "data_types": [
+    "大学発行メールアドレス"
+  ],
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "試験対策ポータルのサーバーがランサムウェア被害を受け、利用者が登録した大学メールアドレスが流出した可能性を公表した。",
+    "certainty": "unknown"
+  },
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://career-center.doshisha.ac.jp/career/news/detail/011-waMBd6.html",
+      "type": "official",
+      "title": "筆記試験対策ポータルへの攻撃で大学メールアドレスが流出した可能性",
+      "published_on": "2026-08-19",
+      "checked_on": "2026-10-18"
+    }
+  ],
+  "notes": "ページに明示された更新日を採用。本文の7月27日は監視時点であり初報日とは断定しない。公式本文に委託先名がないため、ノストラムと推定して登録しない。SharePoint設定事案とは別。",
+  "updates": []
+}

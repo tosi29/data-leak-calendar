@@ -1,0 +1,53 @@
+{
+  "id": "nikkan-newswave21-20260818",
+  "organization": {
+    "name": "日刊工業新聞社",
+    "sector": "メディア"
+  },
+  "title": "旧ニュースウェーブ21の管理画面に不正ログイン",
+  "published_on": "2026-08-18",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-18",
+  "first_published_on": "2026-08-18",
+  "publication_kind": "initial",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "summary": "総当たり攻撃で弱い管理者パスワードが突破された。8月25日の調査結果では、利用者約279人の情報を閲覧された可能性があると公表した。",
+  "impact": [
+    {
+      "count": 279,
+      "unit": "people",
+      "qualifier": "approximate",
+      "description": "公表された対象規模"
+    }
+  ],
+  "data_types": [
+    "メールアドレス",
+    "会社名"
+  ],
+  "cause": {
+    "category": "credentials",
+    "detail": "総当たり攻撃で弱い管理者パスワードが突破された。8月25日の調査結果では、利用者約279人の情報を閲覧された可能性があると公表した。",
+    "certainty": "confirmed"
+  },
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://corp.nikkan.co.jp/topics/view/1472",
+      "type": "official",
+      "title": "旧ニュースウェーブ21の管理画面に不正ログイン",
+      "published_on": "2026-08-25",
+      "checked_on": "2026-10-18"
+    }
+  ],
+  "notes": "8月25日の公式続報が初報日8月18日を明記。2024年の求人サイト事案とは別。",
+  "updates": [
+    {
+      "date": "2026-08-25",
+      "summary": "総当たり攻撃と、約279人の情報への影響可能性を公表。",
+      "source_index": 0
+    }
+  ]
+}

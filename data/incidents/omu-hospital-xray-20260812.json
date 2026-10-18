@@ -1,0 +1,47 @@
+{
+  "id": "omu-hospital-xray-20260812",
+  "organization": {
+    "name": "大阪公立大学医学部附属病院",
+    "sector": "医療"
+  },
+  "title": "医療機器業者が患者の画像13枚を無断撮影・社内共有",
+  "published_on": "2026-08-12",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-18",
+  "first_published_on": "2026-08-12",
+  "publication_kind": "initial",
+  "verification": "secondary",
+  "leak_status": "improper_sharing",
+  "incident_type": "improper_handling",
+  "summary": "医療機器業者の職員が患者の同意なくモニターの画像を撮影し、社内で共有していた。うち1枚に患者名が含まれた。さらなる外部提供は確認されていない。",
+  "impact": [
+    {
+      "count": 13,
+      "unit": "images",
+      "qualifier": "exact",
+      "description": "公表された対象規模"
+    }
+  ],
+  "data_types": [
+    "医療画像",
+    "患者氏名（一部画像）"
+  ],
+  "cause": {
+    "category": "improper_sharing",
+    "detail": "医療機器業者の職員が患者の同意なくモニターの画像を撮影し、社内で共有していた。うち1枚に患者名が含まれた。さらなる外部提供は確認されていない。",
+    "certainty": "confirmed"
+  },
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://rocket-boys.co.jp/security-measures-lab/osaka-metropolitan-univ-hospital-xray-leak/",
+      "type": "news",
+      "title": "医療機器業者が患者の画像13枚を無断撮影・社内共有",
+      "published_on": "2026-08-14",
+      "checked_on": "2026-10-18"
+    }
+  ],
+  "notes": "8月14日の記事が8月12日の病院発表を明記。公式の当該ページは現在別サイトへ転送され本文を再取得できない。13枚を13人とは数えない。10月のサイバー攻撃とは別事案。",
+  "updates": []
+}

@@ -1,0 +1,57 @@
+{
+  "id": "fukuoka-smart-spi-20260709",
+  "organization": {
+    "name": "福岡大学",
+    "sector": "教育"
+  },
+  "title": "委託先の試験対策サイトがランサムウェア被害",
+  "published_on": "2026-07-09",
+  "occurred_on": "2026-04-17",
+  "detected_on": "2026-04-19",
+  "updated_on": "2026-10-18",
+  "first_published_on": "2026-07-09",
+  "publication_kind": "initial",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "summary": "委託先ノストラムのサーバーが侵害され、学生最大33,668人の情報が流出した可能性。氏名を登録した最大800人は内数として扱う。",
+  "impact": [
+    {
+      "count": 33668,
+      "unit": "people",
+      "qualifier": "maximum",
+      "description": "公表された対象規模"
+    }
+  ],
+  "data_types": [
+    "学籍番号",
+    "生年月日",
+    "受験結果",
+    "氏名（一部登録者）"
+  ],
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "委託先ノストラムのサーバーが侵害され、学生最大33,668人の情報が流出した可能性。氏名を登録した最大800人は内数として扱う。",
+    "certainty": "unknown"
+  },
+  "related_vendor": "株式会社ノストラム",
+  "sources": [
+    {
+      "url": "https://www.fukuoka-u.ac.jp/news/26/07/08175927.html",
+      "type": "official",
+      "title": "委託先の試験対策サイトがランサムウェア被害",
+      "published_on": "2026-07-09",
+      "checked_on": "2026-10-18"
+    }
+  ],
+  "notes": "URL内の0708ではなく公式本文の7月9日を採用。",
+  "updates": [],
+  "vendors": [
+    {
+      "name": "株式会社ノストラム",
+      "role": "service",
+      "detail": "大学が利用する筆記試験対策サイトSMART SPIを提供し、被害サーバーを管理。",
+      "source_index": 0
+    }
+  ]
+}

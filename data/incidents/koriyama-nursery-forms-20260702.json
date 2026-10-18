@@ -1,0 +1,47 @@
+{
+  "id": "koriyama-nursery-forms-20260702",
+  "organization": {
+    "name": "郡山市",
+    "sector": "自治体・公的機関"
+  },
+  "title": "保育施設で児童・保護者情報を記載した現況届52通を誤配付",
+  "published_on": "2026-07-02",
+  "occurred_on": null,
+  "detected_on": "2026-06-19",
+  "updated_on": "2026-10-18",
+  "first_published_on": "2026-07-02",
+  "publication_kind": "initial",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "accident",
+  "summary": "様式変更後の現況届に個人情報があると気づかず、3施設で別の保護者へ配付した。52通を回収した。",
+  "impact": [
+    {
+      "count": 52,
+      "unit": "documents",
+      "qualifier": "exact",
+      "description": "公表された対象規模"
+    }
+  ],
+  "data_types": [
+    "児童・保護者の氏名",
+    "住所"
+  ],
+  "cause": {
+    "category": "misdelivery",
+    "detail": "様式変更後の現況届に個人情報があると気づかず、3施設で別の保護者へ配付した。52通を回収した。",
+    "certainty": "confirmed"
+  },
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.city.koriyama.lg.jp/uploaded/attachment/126134.pdf",
+      "type": "official",
+      "title": "保育施設で児童・保護者情報を記載した現況届52通を誤配付",
+      "published_on": "2026-07-02",
+      "checked_on": "2026-10-18"
+    }
+  ],
+  "notes": "",
+  "updates": []
+}

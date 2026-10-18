@@ -1,0 +1,47 @@
+{
+  "id": "tokyo-financial-seminar-20260708",
+  "organization": {
+    "name": "東京都",
+    "sector": "自治体・公的機関"
+  },
+  "title": "金融セミナー申込者20人のデータが一時消失",
+  "published_on": "2026-07-08",
+  "occurred_on": "2026-07-05",
+  "detected_on": "2026-07-06",
+  "updated_on": "2026-10-18",
+  "first_published_on": "2026-07-08",
+  "publication_kind": "initial",
+  "verification": "official",
+  "leak_status": "lost",
+  "incident_type": "attack",
+  "summary": "委託運営サイトへの攻撃痕跡があり、申込者情報が一時消失した。データは復元済みで、外部流出の事実は確認されていない。",
+  "impact": [
+    {
+      "count": 20,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表された対象規模"
+    }
+  ],
+  "data_types": [
+    "氏名（暗号化）",
+    "メールアドレス"
+  ],
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "委託運営サイトへの攻撃痕跡があり、申込者情報が一時消失した。データは復元済みで、外部流出の事実は確認されていない。",
+    "certainty": "suspected"
+  },
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.metro.tokyo.lg.jp/information/press/2026/07/2026070809",
+      "type": "official",
+      "title": "金融セミナー申込者20人のデータが一時消失",
+      "published_on": "2026-07-08",
+      "checked_on": "2026-10-18"
+    }
+  ],
+  "notes": "滅失・復元の事案として掲載。外部流出の確認とは区別。",
+  "updates": []
+}

@@ -1,0 +1,46 @@
+{
+  "id": "weleda-online-access-20260708",
+  "organization": {
+    "name": "ヴェレダ・ジャパン",
+    "sector": "小売・通販"
+  },
+  "title": "公式オンラインショップへの不正アクセスで個人情報流出の懸念",
+  "published_on": "2026-07-08",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-18",
+  "first_published_on": "2026-07-08",
+  "publication_kind": "initial",
+  "verification": "secondary",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "summary": "オンラインショップが第三者に侵害され、個人情報の一部流出が懸念されたため、カード決済とネットワークの一部を停止した。",
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "公表された対象規模"
+    }
+  ],
+  "data_types": [
+    "顧客の個人情報（詳細調査中）"
+  ],
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "オンラインショップが第三者に侵害され、個人情報の一部流出が懸念されたため、カード決済とネットワークの一部を停止した。",
+    "certainty": "unknown"
+  },
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2026/07/27/55784.html",
+      "type": "news",
+      "title": "公式オンラインショップへの不正アクセスで個人情報流出の懸念",
+      "published_on": "2026-07-27",
+      "checked_on": "2026-10-18"
+    }
+  ],
+  "notes": "7月27日付の報道が7月8日の発表を明記。公式旧リンクは現在本文を取得できず、二次資料確認として掲載。",
+  "updates": []
+}

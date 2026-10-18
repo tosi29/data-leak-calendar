@@ -1,0 +1,53 @@
+{
+  "id": "shimane-u-course-mail-20260706",
+  "organization": {
+    "name": "島根県立大学",
+    "sector": "教育"
+  },
+  "title": "公開講座の案内メールで15件のアドレスを誤送信",
+  "published_on": "2026-07-06",
+  "occurred_on": "2026-06-18",
+  "detected_on": "2026-07-01",
+  "updated_on": "2026-10-18",
+  "first_published_on": "2026-07-06",
+  "publication_kind": "initial",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "accident",
+  "summary": "公開講座の事前資料を送る際、宛先をToに設定し、申込者間でアドレスが見える状態にした。受講後のアンケートで発覚。",
+  "impact": [
+    {
+      "count": 15,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "公表された対象規模"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "cause": {
+    "category": "misdelivery",
+    "detail": "公開講座の事前資料を送る際、宛先をToに設定し、申込者間でアドレスが見える状態にした。受講後のアンケートで発覚。",
+    "certainty": "confirmed"
+  },
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.u-shimane.ac.jp/foundation/foundation_news/archives/27.html",
+      "type": "official",
+      "title": "公開講座の案内メールで15件のアドレスを誤送信",
+      "published_on": "2026-07-06",
+      "checked_on": "2026-10-18"
+    },
+    {
+      "url": "https://www.pref.shimane.lg.jp/press_release/2026/iw95yj9cmzck.html",
+      "type": "official",
+      "title": "島根県報道発表：外部へのメール送信に際しての情報流出",
+      "published_on": "2026-07-06",
+      "checked_on": "2026-10-18"
+    }
+  ],
+  "notes": "",
+  "updates": []
+}

@@ -5,10 +5,10 @@
     "sector": "小売"
   },
   "title": "顧客情報流出の調査結果（第二報）",
-  "published_on": "2026-09-15",
+  "published_on": "2026-07-24",
   "occurred_on": null,
   "detected_on": "2026-07-16",
-  "updated_on": "2026-10-15",
+  "updated_on": "2026-10-18",
   "leak_status": "confirmed",
   "summary": "7月に発覚した不正アクセスについて、調査で顧客情報の外部持ち出しを確認し、対象件数を公表。",
   "impact": [
@@ -46,19 +46,32 @@
       "title": "調査結果・対象件数・原因（第二報PDF）",
       "published_on": "2026-09-15",
       "checked_on": "2026-10-07"
+    },
+    {
+      "url": "https://innovatopia.jp/cyber-security/cyber-security-news/118732/",
+      "type": "news",
+      "title": "第一報7月24日と第二報9月15日を明記する報道",
+      "published_on": "2026-10-09",
+      "checked_on": "2026-10-18"
     }
   ],
-  "notes": "初報は7月24日。7月15日の障害発生と、翌16日の不正アクセスの痕跡確認を区別。",
-  "updates": [],
+  "notes": "初報は7月24日。7月15日の障害発生と、翌16日の不正アクセスの痕跡確認を区別。 公式旧ページ・PDFは今回再取得できず。初報7月24日は、同資料を引用する10月9日の報道本文で照合して掲載日へ採用。対象件数は9月15日の第二報で判明した値。",
+  "updates": [
+    {
+      "date": "2026-09-15",
+      "summary": "外部持ち出しを確認し、漏えい対象7,716,811件と原因を公表。",
+      "source_index": 1
+    }
+  ],
   "first_published_on": "2026-07-24",
-  "publication_kind": "followup",
+  "publication_kind": "initial",
   "verification": "official",
   "related_vendor": null,
   "incident_type": "attack",
   "vendor_research": {
-    "checked_on": "2026-10-15",
-    "result": "unavailable",
-    "note": "掲載出典の本文を今回取得できず、追加検索でも役割と会社名を確認できませんでした。「社名非公表」と断定した結果ではありません。",
+    "checked_on": "2026-10-18",
+    "result": "not_identified",
+    "note": "今回取得できた追加資料では、当該事案の外部ITベンダーの社名と役割を特定できず。以前の出典の取得失敗はsource_checksに保持。",
     "source_checks": [
       {
         "source_index": 0,
@@ -67,6 +80,10 @@
       {
         "source_index": 1,
         "status": "unavailable"
+      },
+      {
+        "source_index": 2,
+        "status": "reviewed"
       }
     ]
   }

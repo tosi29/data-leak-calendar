@@ -1,0 +1,69 @@
+{
+  "id": "k9natural-access-20260714",
+  "organization": {
+    "name": "K9ナチュラルジャパン",
+    "sector": "小売・通販"
+  },
+  "title": "販売サイトへの不正アクセスで顧客情報78,763件が流出",
+  "published_on": "2026-07-14",
+  "occurred_on": null,
+  "detected_on": "2026-07-09",
+  "updated_on": "2026-10-18",
+  "first_published_on": "2026-07-14",
+  "publication_kind": "initial",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "summary": "7月9日の警察からの連絡で調査を開始。初報の約6万件を、9月4日の調査結果で78,763件に更新した。カード情報の漏えいはないと確認された。",
+  "impact": [
+    {
+      "count": 78763,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "公表された対象規模"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "電話番号",
+    "メールアドレス",
+    "生年月日",
+    "性別",
+    "職業",
+    "暗号化パスワード",
+    "会員ID",
+    "購入履歴",
+    "保有ポイント"
+  ],
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "7月9日の警察からの連絡で調査を開始。初報の約6万件を、9月4日の調査結果で78,763件に更新した。カード情報の漏えいはないと確認された。",
+    "certainty": "unknown"
+  },
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.k9natural.jp/blogs/news/%E4%B8%8D%E6%AD%A3%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E3%81%AB%E3%82%88%E3%82%8B%E3%81%8A%E5%AE%A2%E6%A7%98%E6%83%85%E5%A0%B1%E6%B5%81%E5%87%BA%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E3%81%8A%E8%A9%AB%E3%81%B3%E3%81%A8%E3%81%8A%E9%A1%98%E3%81%84",
+      "type": "official",
+      "title": "販売サイトへの不正アクセスで顧客情報78,763件が流出",
+      "published_on": "2026-07-14",
+      "checked_on": "2026-10-18"
+    },
+    {
+      "url": "https://www.k9natural.jp/blogs/news/%E4%B8%8D%E6%AD%A3%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E3%81%AB%E3%82%88%E3%82%8B%E3%81%8A%E5%AE%A2%E6%A7%98%E6%83%85%E5%A0%B1%E6%B5%81%E5%87%BA%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E8%AA%BF%E6%9F%BB%E7%B5%90%E6%9E%9C%E3%81%AE%E3%81%94%E5%A0%B1%E5%91%8A",
+      "type": "official",
+      "title": "調査完了。個人情報78,763件の漏えいと、カード情報の漏えいなしを確認。",
+      "published_on": "2026-09-04",
+      "checked_on": "2026-10-18"
+    }
+  ],
+  "notes": "移転後の公式ページで初報・続報を確認。件数を人数に読み替えない。",
+  "updates": [
+    {
+      "date": "2026-09-04",
+      "summary": "調査完了。個人情報78,763件の漏えいと、カード情報の漏えいなしを確認。",
+      "source_index": 1
+    }
+  ]
+}

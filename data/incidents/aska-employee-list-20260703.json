@@ -1,0 +1,52 @@
+{
+  "id": "aska-employee-list-20260703",
+  "organization": {
+    "name": "あすか製薬ホールディングス",
+    "sector": "製薬"
+  },
+  "title": "元従業員が従業員リストを退職後も社外で保管",
+  "published_on": "2026-07-03",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-18",
+  "first_published_on": "2026-07-03",
+  "publication_kind": "initial",
+  "verification": "official",
+  "leak_status": "improper_sharing",
+  "incident_type": "improper_handling",
+  "summary": "元従業員がリストを再就職先のPCへ移管していた。PCへの不正アクセス調査で判明したが、攻撃者がリストを閲覧・取得した痕跡は確認されていない。",
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "公表された対象規模"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "所属部署",
+    "役職",
+    "社員番号",
+    "生年月日",
+    "入社年月日",
+    "退職年月日"
+  ],
+  "cause": {
+    "category": "improper_sharing",
+    "detail": "元従業員がリストを再就職先のPCへ移管していた。PCへの不正アクセス調査で判明したが、攻撃者がリストを閲覧・取得した痕跡は確認されていない。",
+    "certainty": "confirmed"
+  },
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.aska-pharma-hd.co.jp/LinkClick.aspx?fileticket=tzFtBq0Lknw%3d&tabid=199&mid=759",
+      "type": "official",
+      "title": "元従業員が従業員リストを退職後も社外で保管",
+      "published_on": "2026-07-03",
+      "checked_on": "2026-10-18"
+    }
+  ],
+  "notes": "社外持ち出しと、その後のサイバー攻撃による流出の可能性を区別。",
+  "updates": []
+}

@@ -1,0 +1,62 @@
+{
+  "id": "gex-ransom-20260819",
+  "organization": {
+    "name": "ジェックス",
+    "sector": "製造・小売"
+  },
+  "title": "ランサムウェア被害で顧客情報が侵入者に閲覧可能",
+  "published_on": "2026-08-19",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-18",
+  "first_published_on": null,
+  "publication_kind": "unknown",
+  "verification": "official",
+  "leak_status": "exposed",
+  "incident_type": "attack",
+  "summary": "2月のサーバー侵害の調査結果を公表。問い合わせ客の情報が侵入者に閲覧可能だった一方、外部流出・不正利用の事実は確認されていない。",
+  "impact": [
+    {
+      "count": 77619,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "公表された対象規模"
+    },
+    {
+      "count": 1360,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "氏名のみのデータ。77,619件との重複不明。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "電話番号",
+    "メールアドレス"
+  ],
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "2月のサーバー侵害の調査結果を公表。問い合わせ客の情報が侵入者に閲覧可能だった一方、外部流出・不正利用の事実は確認されていない。",
+    "certainty": "unknown"
+  },
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.gex-fp.co.jp/news/20260819/",
+      "type": "official",
+      "title": "ランサムウェア被害で顧客情報が侵入者に閲覧可能",
+      "published_on": "2026-08-19",
+      "checked_on": "2026-10-18"
+    },
+    {
+      "url": "https://www.gex-fp.co.jp/2026/08/",
+      "type": "official",
+      "title": "公式2026年8月アーカイブ（公表日表示）",
+      "published_on": "2026-08-19",
+      "checked_on": "2026-10-18"
+    }
+  ],
+  "notes": "別に氏名のみ1,360件。重複の有無は不明で合算しない。本文に日付がなく公式月別アーカイブで照合。",
+  "updates": []
+}

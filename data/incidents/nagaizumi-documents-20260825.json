@@ -1,0 +1,46 @@
+{
+  "id": "nagaizumi-documents-20260825",
+  "organization": {
+    "name": "長泉町",
+    "sector": "自治体・公的機関"
+  },
+  "title": "職員が個人情報を含む公文書を自宅へ無断持ち出し",
+  "published_on": "2026-08-25",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-18",
+  "first_published_on": "2026-08-25",
+  "publication_kind": "initial",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "improper_handling",
+  "summary": "廃棄対象文書を私的なコピー用紙として使い、自宅に持ち帰っていた。回収文書に個人情報が含まれていたが、その先の情報流出は確認されていない。",
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "公表された対象規模"
+    }
+  ],
+  "data_types": [
+    "公文書に含まれる個人情報（項目未公表）"
+  ],
+  "cause": {
+    "category": "improper_sharing",
+    "detail": "廃棄対象文書を私的なコピー用紙として使い、自宅に持ち帰っていた。回収文書に個人情報が含まれていたが、その先の情報流出は確認されていない。",
+    "certainty": "confirmed"
+  },
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.town.nagaizumi.lg.jp/material/files/group/2/r8choukaishobun0825.pdf",
+      "type": "official",
+      "title": "職員が個人情報を含む公文書を自宅へ無断持ち出し",
+      "published_on": "2026-08-25",
+      "checked_on": "2026-10-18"
+    }
+  ],
+  "notes": "公表は8月25日、懲戒処分は8月20日。公式PDFに対象人数の記載はなく、枚数を人数に転用しない。",
+  "updates": []
+}

@@ -1,0 +1,46 @@
+{
+  "id": "miyoshi-disaster-mail-20260701",
+  "organization": {
+    "name": "三好市（三好市防災士会事務局）",
+    "sector": "自治体・公的機関"
+  },
+  "title": "防災士会の案内メールで会員54人のアドレスを誤送信",
+  "published_on": "2026-07-01",
+  "occurred_on": "2026-06-23",
+  "detected_on": null,
+  "updated_on": "2026-10-18",
+  "first_published_on": "2026-07-01",
+  "publication_kind": "initial",
+  "verification": "secondary",
+  "leak_status": "confirmed",
+  "incident_type": "accident",
+  "summary": "6月23日の研修案内で宛先設定を誤り、会員間でメールアドレスが見える状態になった。",
+  "impact": [
+    {
+      "count": 54,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表された対象規模"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "cause": {
+    "category": "misdelivery",
+    "detail": "6月23日の研修案内で宛先設定を誤り、会員間でメールアドレスが見える状態になった。",
+    "certainty": "confirmed"
+  },
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.topics.or.jp/articles/-/1456496",
+      "type": "news",
+      "title": "防災士会の案内メールで会員54人のアドレスを誤送信",
+      "published_on": "2026-07-02",
+      "checked_on": "2026-10-18"
+    }
+  ],
+  "notes": "徳島新聞7月2日記事が前日1日の発表を明記。",
+  "updates": []
+}

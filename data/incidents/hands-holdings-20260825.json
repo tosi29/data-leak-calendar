@@ -6,11 +6,11 @@
   },
   "title": "ランサムウェア侵害による従業員情報漏えいのおそれ",
   "published_on": "2026-08-25",
-  "first_published_on": null,
+  "first_published_on": "2026-06-22",
   "publication_kind": "followup",
   "occurred_on": null,
   "detected_on": null,
-  "updated_on": "2026-10-15",
+  "updated_on": "2026-10-18",
   "incident_type": "attack",
   "leak_status": "suspected",
   "summary": "従業員・退職者・扶養者の人事情報に漏えいのおそれがあり、マイナンバーも閲覧された可能性があると公表した。",
@@ -43,9 +43,16 @@
       "title": "ランサムウェア侵害による従業員情報漏えいのおそれ",
       "published_on": "2026-08-25",
       "checked_on": "2026-10-15"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2026/07/07/55649.html",
+      "type": "news",
+      "title": "6月22日の初報を明記する報道",
+      "published_on": "2026-07-07",
+      "checked_on": "2026-10-18"
     }
   ],
-  "notes": "6月に発生した侵害の第2報。情報流出自体は確認されていない。",
+  "notes": "6月に発生した侵害の第2報。情報流出自体は確認されていない。 初報は6月22日と報道本文で照合。7月7日は報道日であり掲載日を7月に移さない。",
   "updates": [],
   "verification": "official",
   "related_vendor": null

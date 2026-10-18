@@ -97,17 +97,31 @@ test('vendor research validates dates, complete source coverage and evidence con
 
 test('the full vendor research audit covers every researched incident once', async () => {
   const audit = JSON.parse(await readFile(new URL('../data/research-audit.json', import.meta.url), 'utf8'));
-  const run = audit.subsequent_runs.findLast(r => r.incident_reviews);
+  const latest = new Map();
+  for (const run of audit.subsequent_runs) {
+    if (run.incident_reviews) {
+      const counts = {};
+      const ids = new Set();
+      for (const review of run.incident_reviews) {
+        assert.ok(!ids.has(review.incident_id));
+        ids.add(review.incident_id);
+        counts[review.result] = (counts[review.result] || 0) + 1;
+        latest.set(review.incident_id, review);
+      }
+      assert.deepEqual(run.counts, counts);
+    }
+    for (const review of run.vendor_review_updates || []) {
+      assert.ok(latest.has(review.incident_id), 'An update must reference an earlier review');
+      latest.set(review.incident_id, review);
+    }
+  }
   const researched = incidents.filter(i => i.vendor_research);
-  assert.deepEqual(run.incident_reviews.map(r => r.incident_id).sort(), researched.map(i => i.id).sort());
-  const counts = {};
-  for (const review of run.incident_reviews) {
+  assert.deepEqual([...latest.keys()].sort(), researched.map(i => i.id).sort());
+  for (const review of latest.values()) {
     const item = incidents.find(i => i.id === review.incident_id);
     assert.equal(review.result, item.vendor_research.result);
     assert.ok(review.queries.length > 0);
-    counts[review.result] = (counts[review.result] || 0) + 1;
   }
-  assert.deepEqual(run.counts, counts);
 });
 
 test('product development evidence is scoped separately from incident responsibility', () => {
