@@ -1,0 +1,65 @@
+{
+  "id": "ocs-familylink-20260724",
+  "organization": {
+    "name": "OCS（FAMILY LINK SERVICE）",
+    "sector": "企業・団体"
+  },
+  "title": "海外向け通販サービスへの侵害で顧客情報が流出",
+  "summary": "7月24日に流出の可能性を公表し、28日の調査結果で流出を確認した。8月12日の続報ではプログラムの脆弱性が原因と説明している。",
+  "published_on": "2026-07-24",
+  "first_published_on": "2026-07-23",
+  "publication_kind": "followup",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-18",
+  "incident_type": "attack",
+  "leak_status": "confirmed",
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "対象人数は未公表"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "海外配送先住所",
+    "メールアドレス",
+    "電話番号",
+    "FAX番号",
+    "会員番号"
+  ],
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "7月24日に流出の可能性を公表し、28日の調査結果で流出を確認した。8月12日の続報ではプログラムの脆弱性が原因と説明している。",
+    "certainty": "unknown"
+  },
+  "sources": [
+    {
+      "url": "https://www.ocs.co.jp/5282218",
+      "title": "【お知らせ】「OCS FAMILY LINK SERVICE」システム不具合に伴うサービス一時停止について（第2報）",
+      "type": "official",
+      "published_on": "2026-07-24",
+      "checked_on": "2026-10-18"
+    },
+    {
+      "url": "https://www.ocs.co.jp/5287160",
+      "title": "【お知らせ】「OCS FAMILY LINK SERVICE」システム不具合に伴うサービス一時停止について（第3報）",
+      "type": "official",
+      "published_on": "2026-07-28",
+      "checked_on": "2026-10-18"
+    },
+    {
+      "url": "https://www.ocs.co.jp/5315428",
+      "title": "【お知らせ】「OCS FAMILY LINK SERVICE」システム不具合に伴うサービス一時停止について（第4報）",
+      "type": "official",
+      "published_on": "2026-08-12",
+      "checked_on": "2026-10-18"
+    }
+  ],
+  "notes": "7月23日はサービス停止の初報日。個人情報への影響を公表した7月24日に掲載。クレジットカード等の金融情報は含まれない。",
+  "updates": [],
+  "verification": "official",
+  "related_vendor": null
+}

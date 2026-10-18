@@ -1,0 +1,48 @@
+{
+  "id": "tokyo-govtech-app-mail-20260715",
+  "organization": {
+    "name": "東京都・GovTech東京",
+    "sector": "自治体・行政"
+  },
+  "title": "東京アプリの委託先が利用者情報を別人へ送信",
+  "summary": "コールセンター受託者が電話番号の利用状況を確認するメールを送る際、別の利用者の氏名・連絡先を含めた。",
+  "published_on": "2026-07-15",
+  "first_published_on": "2026-07-15",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-18",
+  "incident_type": "accident",
+  "leak_status": "confirmed",
+  "impact": [
+    {
+      "count": 1,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表された対象規模"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "電話番号",
+    "メールアドレス"
+  ],
+  "cause": {
+    "category": "misdelivery",
+    "detail": "コールセンター受託者が電話番号の利用状況を確認するメールを送る際、別の利用者の氏名・連絡先を含めた。",
+    "certainty": "confirmed"
+  },
+  "sources": [
+    {
+      "url": "https://www.metro.tokyo.lg.jp/information/press/2026/07/2026071601",
+      "title": "個人情報の漏えいについて|7月|都庁総合ホームページ",
+      "type": "official",
+      "published_on": "2026-07-15",
+      "checked_on": "2026-10-18"
+    }
+  ],
+  "notes": "ベルシステム24が7月23日に公表した事案と共通。委託元の共同公表を1記録とし、独立した事故・人数として合算しない。 ベルシステム24：東京アプリのコールセンター業務の受託者。",
+  "updates": [],
+  "verification": "official",
+  "related_vendor": "ベルシステム24"
+}

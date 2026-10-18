@@ -1,0 +1,49 @@
+{
+  "id": "kanagawa-carbon-mail-20260716",
+  "organization": {
+    "name": "神奈川県（温暖化対策計画書制度）",
+    "sector": "自治体・行政"
+  },
+  "title": "委託先が687社の内部管理資料を誤添付",
+  "summary": "委託先が調査結果の報告メールに内部管理ファイルを誤添付。一部の企業について担当者名やメールアドレスも含まれていた。",
+  "published_on": "2026-07-16",
+  "first_published_on": "2026-07-16",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-18",
+  "incident_type": "accident",
+  "leak_status": "confirmed",
+  "impact": [
+    {
+      "count": 687,
+      "unit": "organizations",
+      "qualifier": "exact",
+      "description": "公表された対象規模"
+    }
+  ],
+  "data_types": [
+    "担当者名",
+    "メールアドレス",
+    "電話番号",
+    "FAX番号"
+  ],
+  "cause": {
+    "category": "misdelivery",
+    "detail": "委託先が調査結果の報告メールに内部管理ファイルを誤添付。一部の企業について担当者名やメールアドレスも含まれていた。",
+    "certainty": "confirmed"
+  },
+  "sources": [
+    {
+      "url": "https://www.pref.kanagawa.jp/docs/ap4/prs/r5558156.html",
+      "title": "委託事業者による内部管理用資料の誤送付について - 神奈川県ホームページ",
+      "type": "official",
+      "published_on": "2026-07-16",
+      "checked_on": "2026-10-18"
+    }
+  ],
+  "notes": "687は事業者数であり個人の人数ではない。 エヌエス環境：審査等業務の委託先で、誤添付メールを送信。",
+  "updates": [],
+  "verification": "official",
+  "related_vendor": "エヌエス環境"
+}

@@ -1,0 +1,50 @@
+{
+  "id": "unimat-life-orderform-20260703",
+  "organization": {
+    "name": "ユニマットライフ",
+    "sector": "企業・団体"
+  },
+  "title": "注文書ファイルに残った顧客リストを誤送信",
+  "summary": "取引先へ送った注文書のExcel内に顧客リストが残存していた。全送付先から外部転送なし・削除完了の回答を得たと公表した。",
+  "published_on": "2026-07-03",
+  "first_published_on": "2026-07-03",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-18",
+  "incident_type": "accident",
+  "leak_status": "confirmed",
+  "impact": [
+    {
+      "count": 126947,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "公表された対象規模"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "電話番号",
+    "メールアドレス",
+    "勤務先"
+  ],
+  "cause": {
+    "category": "misdelivery",
+    "detail": "取引先へ送った注文書のExcel内に顧客リストが残存していた。全送付先から外部転送なし・削除完了の回答を得たと公表した。",
+    "certainty": "confirmed"
+  },
+  "sources": [
+    {
+      "url": "https://www.unimat-life.co.jp/pages/news/790",
+      "title": "個人情報漏えいに関するお詫びとお知らせ – 株式会社ユニマットライフ",
+      "type": "official",
+      "published_on": "2026-07-03",
+      "checked_on": "2026-10-18"
+    }
+  ],
+  "notes": "公式表記は126,947件（人）。カード情報と振替口座番号は対象外。旧URLは404だったため移転先の公式記事を確認。",
+  "updates": [],
+  "verification": "official",
+  "related_vendor": null
+}

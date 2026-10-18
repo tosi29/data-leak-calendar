@@ -3529,5 +3529,26 @@
     "source_urls": [
       "https://www.security-next.com/186702"
     ]
+  },
+  {
+    "candidate": {
+      "id": "jul-review-next-187942",
+      "organization": "通販サイトにサイバー攻撃、個人情報流出の可能性 - ANAグループ会社",
+      "reported_on": "2026-07-28",
+      "verification": "pending",
+      "reference_url": "https://www.security-next.com/187942",
+      "note": "7月の月間ニュース一覧から取得。日付は報道日であり、公式公表日は未確定。初報・続報、既存記録との関係、個人情報への影響の照合が必要。6月以前の公表の可能性も含めて確認する。"
+    },
+    "reviewed_on": "2026-10-18",
+    "resolution": "published",
+    "incident_ids": [
+      "ocs-familylink-20260724"
+    ],
+    "reason": "公式第2報から第4報を確認し掲載。",
+    "source_urls": [
+      "https://www.ocs.co.jp/5282218",
+      "https://www.ocs.co.jp/5287160",
+      "https://www.ocs.co.jp/5315428"
+    ]
   }
 ]

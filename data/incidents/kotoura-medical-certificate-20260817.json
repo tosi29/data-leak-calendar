@@ -1,0 +1,49 @@
+{
+  "id": "kotoura-medical-certificate-20260817",
+  "organization": {
+    "name": "琴浦町",
+    "sector": "自治体・行政"
+  },
+  "title": "自立支援医療受給者証を別人の封筒に混入",
+  "summary": "受給者証を別の町民へ送る封筒に混入して発送した。回収と対象者への交付を行い、他の誤送付はないことを確認した。",
+  "published_on": "2026-08-17",
+  "first_published_on": "2026-08-17",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-18",
+  "incident_type": "accident",
+  "leak_status": "confirmed",
+  "impact": [
+    {
+      "count": 1,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表された対象規模"
+    }
+  ],
+  "data_types": [
+    "受給者である旨",
+    "氏名",
+    "住所",
+    "生年月日"
+  ],
+  "cause": {
+    "category": "misdelivery",
+    "detail": "受給者証を別の町民へ送る封筒に混入して発送した。回収と対象者への交付を行い、他の誤送付はないことを確認した。",
+    "certainty": "confirmed"
+  },
+  "sources": [
+    {
+      "url": "https://www.town.kotoura.tottori.jp/docs/2026081200038/",
+      "title": "行政文書の誤送付による個人情報の漏洩について | 鳥取県琴浦町",
+      "type": "official",
+      "published_on": "2026-08-17",
+      "checked_on": "2026-10-18"
+    }
+  ],
+  "notes": "URL内の8月12日ではなく、公式本文の公開日8月17日を採用。",
+  "updates": [],
+  "verification": "official",
+  "related_vendor": null
+}

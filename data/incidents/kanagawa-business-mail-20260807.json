@@ -1,0 +1,49 @@
+{
+  "id": "kanagawa-business-mail-20260807",
+  "organization": {
+    "name": "神奈川県（企業誘致・国際ビジネス課）",
+    "sector": "自治体・行政"
+  },
+  "title": "補助金の調整メールに別企業の役員情報を誤添付",
+  "summary": "補助金の交付先に送るメールに別企業の資料を添付し、役員の個人情報や企業の口座・収支情報が流出した。人数は公表されていない。",
+  "published_on": "2026-08-07",
+  "first_published_on": "2026-08-07",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-18",
+  "incident_type": "accident",
+  "leak_status": "confirmed",
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "対象人数は未公表"
+    }
+  ],
+  "data_types": [
+    "役員氏名",
+    "生年月日",
+    "性別",
+    "住所"
+  ],
+  "cause": {
+    "category": "misdelivery",
+    "detail": "補助金の交付先に送るメールに別企業の資料を添付し、役員の個人情報や企業の口座・収支情報が流出した。人数は公表されていない。",
+    "certainty": "confirmed"
+  },
+  "sources": [
+    {
+      "url": "https://www.pref.kanagawa.jp/docs/pw3/prs/r6773413.html",
+      "title": "企業誘致・国際ビジネス課における個人情報等の流出について - 神奈川県ホームページ",
+      "type": "official",
+      "published_on": "2026-08-07",
+      "checked_on": "2026-10-18"
+    }
+  ],
+  "notes": "企業の口座・収支情報も含む。企業数を個人の人数に換算しない。",
+  "updates": [],
+  "verification": "official",
+  "related_vendor": null
+}

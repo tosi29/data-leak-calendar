@@ -1,0 +1,49 @@
+{
+  "id": "saga-kitoh-welfare-20260813",
+  "organization": {
+    "name": "佐賀県（杵藤保健福祉事務所）",
+    "sector": "自治体・行政"
+  },
+  "title": "生活保護の追加給付通知1人分を誤送付",
+  "summary": "発送リストの誤りにより、追加給付の決定通知を別人へ送付した。謝罪し、誤送付文書を回収した。",
+  "published_on": "2026-08-13",
+  "first_published_on": "2026-08-13",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-18",
+  "incident_type": "accident",
+  "leak_status": "confirmed",
+  "impact": [
+    {
+      "count": 1,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表された対象規模"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "算定対象期間",
+    "追加給付金額"
+  ],
+  "cause": {
+    "category": "misdelivery",
+    "detail": "発送リストの誤りにより、追加給付の決定通知を別人へ送付した。謝罪し、誤送付文書を回収した。",
+    "certainty": "confirmed"
+  },
+  "sources": [
+    {
+      "url": "https://www.pref.saga.lg.jp/kiji003120670/index.html",
+      "title": "﻿",
+      "type": "official",
+      "published_on": "2026-08-13",
+      "checked_on": "2026-10-18"
+    }
+  ],
+  "notes": "発送対象99人のうち誤送付は1人。",
+  "updates": [],
+  "verification": "official",
+  "related_vendor": null
+}

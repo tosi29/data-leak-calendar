@@ -1,0 +1,65 @@
+{
+  "id": "akatake-ransom-20260813",
+  "organization": {
+    "name": "赤武エンジニアリング",
+    "sector": "企業・団体"
+  },
+  "title": "ランサムウェア被害で従業員・取引先情報に漏えいのおそれ",
+  "summary": "サーバー暗号化の被害を公表。10月13日の調査結果では、明確な外部送信の痕跡はないが窃取の可能性を否定できないとして対象情報を公表した。",
+  "published_on": "2026-08-13",
+  "first_published_on": "2026-08-13",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-18",
+  "incident_type": "attack",
+  "leak_status": "suspected",
+  "impact": [
+    {
+      "count": 125,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "従業員"
+    },
+    {
+      "count": 11587,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "取引先担当者"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "生年月日",
+    "性別",
+    "電話番号",
+    "メールアドレス",
+    "マイナンバー"
+  ],
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "サーバー暗号化の被害を公表。10月13日の調査結果では、明確な外部送信の痕跡はないが窃取の可能性を否定できないとして対象情報を公表した。",
+    "certainty": "unknown"
+  },
+  "sources": [
+    {
+      "url": "https://www.akatake.co.jp/news/2026/4527/",
+      "title": "ランサムウェア感染によるシステム障害発生のお知らせとお詫び（第１弾） | ニュースリリース | 粉体ハンドリング技術の赤武エンジニアリング株式会社",
+      "type": "official",
+      "published_on": "2026-08-13",
+      "checked_on": "2026-10-18"
+    },
+    {
+      "url": "https://akatake.co.jp/news/2026/4531/",
+      "title": "ランサムウェア感染によるシステム障害発生のお知らせとお詫び（最終報） | ニュースリリース | 粉体ハンドリング技術の赤武エンジニアリング株式会社",
+      "type": "official",
+      "published_on": "2026-10-13",
+      "checked_on": "2026-10-18"
+    }
+  ],
+  "notes": "規模は10月13日最終報。マイナンバーは暗号化保存。漏えいの事実・二次被害は未確認。",
+  "updates": [],
+  "verification": "official",
+  "related_vendor": null
+}

@@ -128,14 +128,6 @@
     "note": "7月の月間ニュース一覧から取得。日付は報道日であり、公式公表日は未確定。初報・続報、既存記録との関係、個人情報への影響の照合が必要。6月以前の公表の可能性も含めて確認する。"
   },
   {
-    "id": "jul-review-next-187942",
-    "organization": "通販サイトにサイバー攻撃、個人情報流出の可能性 - ANAグループ会社",
-    "reported_on": "2026-07-28",
-    "verification": "pending",
-    "reference_url": "https://www.security-next.com/187942",
-    "note": "7月の月間ニュース一覧から取得。日付は報道日であり、公式公表日は未確定。初報・続報、既存記録との関係、個人情報への影響の照合が必要。6月以前の公表の可能性も含めて確認する。"
-  },
-  {
     "id": "jul-review-next-187867",
     "organization": "高校で生徒証明写真データ含む光ディスクを紛失 - 大阪府",
     "reported_on": "2026-07-28",
@@ -598,5 +590,309 @@
     "verification": "pending",
     "reference_url": "https://www.security-next.com/186577",
     "note": "7月の月間ニュース一覧から取得。日付は報道日であり、公式公表日は未確定。初報・続報、既存記録との関係、個人情報への影響の照合が必要。6月以前の公表の可能性も含めて確認する。"
+  },
+  {
+    "id": "cross-julaug-03329741f0",
+    "organization": "シード・プランニング",
+    "reported_on": "2026-10-18",
+    "verification": "pending",
+    "reference_url": "https://and-secure.com/2026/10/10/incident-report-2026-apr-sep/",
+    "note": "7・8月の別まとめ・除外検索から抽出。reported_onは調査日。まとめ記事等からの候補。公式公表日・個人情報への影響・既存事案との関係の照合が未完了。"
+  },
+  {
+    "id": "cross-julaug-545464c7cb",
+    "organization": "日本大学",
+    "reported_on": "2026-10-18",
+    "verification": "pending",
+    "reference_url": "https://and-secure.com/2026/10/10/incident-report-2026-apr-sep/",
+    "note": "7・8月の別まとめ・除外検索から抽出。reported_onは調査日。7月の学生・卒業生アカウント事案。既掲載の9月通知や法学部事案と同一とは断定しない。"
+  },
+  {
+    "id": "cross-julaug-1de5ace51a",
+    "organization": "佐川急便（スマートクラブ）",
+    "reported_on": "2026-10-18",
+    "verification": "pending",
+    "reference_url": "https://and-secure.com/2026/10/10/incident-report-2026-apr-sep/",
+    "note": "7・8月の別まとめ・除外検索から抽出。reported_onは調査日。まとめ記事等からの候補。公式公表日・個人情報への影響・既存事案との関係の照合が未完了。"
+  },
+  {
+    "id": "cross-julaug-a514713434",
+    "organization": "アクサ生命",
+    "reported_on": "2026-10-18",
+    "verification": "pending",
+    "reference_url": "https://and-secure.com/2026/10/10/incident-report-2026-apr-sep/",
+    "note": "7・8月の別まとめ・除外検索から抽出。reported_onは調査日。まとめ記事等からの候補。公式公表日・個人情報への影響・既存事案との関係の照合が未完了。"
+  },
+  {
+    "id": "cross-julaug-bd7390fee2",
+    "organization": "石川コンピュータ・センター",
+    "reported_on": "2026-10-18",
+    "verification": "pending",
+    "reference_url": "https://and-secure.com/2026/10/10/incident-report-2026-apr-sep/",
+    "note": "7・8月の別まとめ・除外検索から抽出。reported_onは調査日。まとめ記事等からの候補。公式公表日・個人情報への影響・既存事案との関係の照合が未完了。"
+  },
+  {
+    "id": "cross-julaug-4ad25ee442",
+    "organization": "樋口商会",
+    "reported_on": "2026-10-18",
+    "verification": "pending",
+    "reference_url": "https://and-secure.com/2026/10/10/incident-report-2026-apr-sep/",
+    "note": "7・8月の別まとめ・除外検索から抽出。reported_onは調査日。まとめ記事等からの候補。公式公表日・個人情報への影響・既存事案との関係の照合が未完了。"
+  },
+  {
+    "id": "cross-julaug-6df8f11255",
+    "organization": "愛知県農業共済組合",
+    "reported_on": "2026-10-18",
+    "verification": "pending",
+    "reference_url": "https://and-secure.com/2026/10/10/incident-report-2026-apr-sep/",
+    "note": "7・8月の別まとめ・除外検索から抽出。reported_onは調査日。まとめ記事等からの候補。公式公表日・個人情報への影響・既存事案との関係の照合が未完了。"
+  },
+  {
+    "id": "cross-julaug-49cf2b0352",
+    "organization": "福岡大学（委託先ノストラム）",
+    "reported_on": "2026-10-18",
+    "verification": "pending",
+    "reference_url": "https://and-secure.com/2026/10/10/incident-report-2026-apr-sep/",
+    "note": "7・8月の別まとめ・除外検索から抽出。reported_onは調査日。まとめ記事等からの候補。公式公表日・個人情報への影響・既存事案との関係の照合が未完了。"
+  },
+  {
+    "id": "cross-julaug-a113251b0c",
+    "organization": "日本オークション協会",
+    "reported_on": "2026-10-18",
+    "verification": "pending",
+    "reference_url": "https://and-secure.com/2026/10/10/incident-report-2026-apr-sep/",
+    "note": "7・8月の別まとめ・除外検索から抽出。reported_onは調査日。まとめ記事等からの候補。公式公表日・個人情報への影響・既存事案との関係の照合が未完了。"
+  },
+  {
+    "id": "cross-julaug-8f2cc8add0",
+    "organization": "富山県立大学",
+    "reported_on": "2026-10-18",
+    "verification": "pending",
+    "reference_url": "https://and-secure.com/2026/10/10/incident-report-2026-apr-sep/",
+    "note": "7・8月の別まとめ・除外検索から抽出。reported_onは調査日。まとめ記事等からの候補。公式公表日・個人情報への影響・既存事案との関係の照合が未完了。"
+  },
+  {
+    "id": "cross-julaug-6f445d9a47",
+    "organization": "あすか製薬ホールディングス",
+    "reported_on": "2026-10-18",
+    "verification": "pending",
+    "reference_url": "https://and-secure.com/2026/10/10/incident-report-2026-apr-sep/",
+    "note": "7・8月の別まとめ・除外検索から抽出。reported_onは調査日。まとめ記事等からの候補。公式公表日・個人情報への影響・既存事案との関係の照合が未完了。"
+  },
+  {
+    "id": "cross-julaug-069d083316",
+    "organization": "君津市消防本部",
+    "reported_on": "2026-10-18",
+    "verification": "pending",
+    "reference_url": "https://and-secure.com/2026/10/10/incident-report-2026-apr-sep/",
+    "note": "7・8月の別まとめ・除外検索から抽出。reported_onは調査日。まとめ記事等からの候補。公式公表日・個人情報への影響・既存事案との関係の照合が未完了。"
+  },
+  {
+    "id": "cross-julaug-80b22a4248",
+    "organization": "日本テレネット",
+    "reported_on": "2026-10-18",
+    "verification": "pending",
+    "reference_url": "https://and-secure.com/2026/10/10/incident-report-2026-apr-sep/",
+    "note": "7・8月の別まとめ・除外検索から抽出。reported_onは調査日。まとめ記事等からの候補。公式公表日・個人情報への影響・既存事案との関係の照合が未完了。"
+  },
+  {
+    "id": "cross-julaug-24f048e5ef",
+    "organization": "シー・コネクト（インク革命.COM）",
+    "reported_on": "2026-10-18",
+    "verification": "pending",
+    "reference_url": "https://and-secure.com/2026/10/10/incident-report-2026-apr-sep/",
+    "note": "7・8月の別まとめ・除外検索から抽出。reported_onは調査日。まとめ記事等からの候補。公式公表日・個人情報への影響・既存事案との関係の照合が未完了。"
+  },
+  {
+    "id": "cross-julaug-2b6a654f43",
+    "organization": "八王子学園",
+    "reported_on": "2026-10-18",
+    "verification": "pending",
+    "reference_url": "https://and-secure.com/2026/10/10/incident-report-2026-apr-sep/",
+    "note": "7・8月の別まとめ・除外検索から抽出。reported_onは調査日。まとめ記事等からの候補。公式公表日・個人情報への影響・既存事案との関係の照合が未完了。"
+  },
+  {
+    "id": "cross-julaug-e190413cff",
+    "organization": "日本地方キャラクター協会",
+    "reported_on": "2026-10-18",
+    "verification": "pending",
+    "reference_url": "https://and-secure.com/2026/10/10/incident-report-2026-apr-sep/",
+    "note": "7・8月の別まとめ・除外検索から抽出。reported_onは調査日。まとめ記事等からの候補。公式公表日・個人情報への影響・既存事案との関係の照合が未完了。"
+  },
+  {
+    "id": "cross-julaug-151ac58da3",
+    "organization": "日刊工業新聞社",
+    "reported_on": "2026-10-18",
+    "verification": "pending",
+    "reference_url": "https://and-secure.com/2026/10/10/incident-report-2026-apr-sep/",
+    "note": "7・8月の別まとめ・除外検索から抽出。reported_onは調査日。まとめ記事等からの候補。公式公表日・個人情報への影響・既存事案との関係の照合が未完了。"
+  },
+  {
+    "id": "cross-julaug-66218a605a",
+    "organization": "同志社大学（委託先）",
+    "reported_on": "2026-10-18",
+    "verification": "pending",
+    "reference_url": "https://and-secure.com/2026/10/10/incident-report-2026-apr-sep/",
+    "note": "7・8月の別まとめ・除外検索から抽出。reported_onは調査日。まとめ記事等からの候補。公式公表日・個人情報への影響・既存事案との関係の照合が未完了。"
+  },
+  {
+    "id": "cross-julaug-20789ddd22",
+    "organization": "国立国際医療センター",
+    "reported_on": "2026-10-18",
+    "verification": "pending",
+    "reference_url": "https://and-secure.com/2026/10/10/incident-report-2026-apr-sep/",
+    "note": "7・8月の別まとめ・除外検索から抽出。reported_onは調査日。まとめ記事等からの候補。公式公表日・個人情報への影響・既存事案との関係の照合が未完了。"
+  },
+  {
+    "id": "cross-julaug-0d5820eea3",
+    "organization": "札幌国際大学",
+    "reported_on": "2026-10-18",
+    "verification": "pending",
+    "reference_url": "https://satimo.org/2026/10/data-breach-list-2026/",
+    "note": "7・8月の別まとめ・除外検索から抽出。reported_onは調査日。10月14日の公式調査結果は確認。7月11日の初報本文・個人情報影響の確認が必要。"
+  },
+  {
+    "id": "cross-julaug-5fe9efd63a",
+    "organization": "ムラタメイク",
+    "reported_on": "2026-10-18",
+    "verification": "pending",
+    "reference_url": "https://satimo.org/2026/10/data-breach-list-2026/",
+    "note": "7・8月の別まとめ・除外検索から抽出。reported_onは調査日。まとめ記事等からの候補。公式公表日・個人情報への影響・既存事案との関係の照合が未完了。"
+  },
+  {
+    "id": "cross-julaug-089597652a",
+    "organization": "T&K TOKA",
+    "reported_on": "2026-10-18",
+    "verification": "pending",
+    "reference_url": "https://satimo.org/2026/10/data-breach-list-2026/",
+    "note": "7・8月の別まとめ・除外検索から抽出。reported_onは調査日。まとめ記事等からの候補。公式公表日・個人情報への影響・既存事案との関係の照合が未完了。"
+  },
+  {
+    "id": "cross-julaug-cc9b285dcc",
+    "organization": "01銀行",
+    "reported_on": "2026-10-18",
+    "verification": "pending",
+    "reference_url": "https://satimo.org/2026/10/data-breach-list-2026/",
+    "note": "7・8月の別まとめ・除外検索から抽出。reported_onは調査日。まとめ記事等からの候補。公式公表日・個人情報への影響・既存事案との関係の照合が未完了。"
+  },
+  {
+    "id": "cross-julaug-8cbf52aa1d",
+    "organization": "両毛システムズ",
+    "reported_on": "2026-10-18",
+    "verification": "pending",
+    "reference_url": "https://satimo.org/2026/10/data-breach-list-2026/",
+    "note": "7・8月の別まとめ・除外検索から抽出。reported_onは調査日。まとめ記事等からの候補。公式公表日・個人情報への影響・既存事案との関係の照合が未完了。"
+  },
+  {
+    "id": "cross-julaug-792f809bab",
+    "organization": "Toyota GAZOO Racing",
+    "reported_on": "2026-10-18",
+    "verification": "pending",
+    "reference_url": "https://rocket-boys.co.jp/security-measures-lab/2026-07-data-breach-cases-summary/",
+    "note": "7・8月の別まとめ・除外検索から抽出。reported_onは調査日。まとめ記事等からの候補。公式公表日・個人情報への影響・既存事案との関係の照合が未完了。"
+  },
+  {
+    "id": "cross-julaug-fba432c07c",
+    "organization": "Kubota North America",
+    "reported_on": "2026-10-18",
+    "verification": "pending",
+    "reference_url": "https://rocket-boys.co.jp/security-measures-lab/2026-07-data-breach-cases-summary/",
+    "note": "7・8月の別まとめ・除外検索から抽出。reported_onは調査日。海外子会社の事案。国内本社による公表と今回の国内対象範囲との対応が未確認。"
+  },
+  {
+    "id": "cross-julaug-52c65ee4c7",
+    "organization": "長泉町",
+    "reported_on": "2026-10-18",
+    "verification": "pending",
+    "reference_url": "https://rocket-boys.co.jp/security-measures-lab/2026-08-data-breach-cases-summary/",
+    "note": "7・8月の別まとめ・除外検索から抽出。reported_onは調査日。まとめ記事等からの候補。公式公表日・個人情報への影響・既存事案との関係の照合が未完了。"
+  },
+  {
+    "id": "cross-julaug-78b6b332b6",
+    "organization": "日本スウェージロックFST",
+    "reported_on": "2026-10-18",
+    "verification": "pending",
+    "reference_url": "https://rocket-boys.co.jp/security-measures-lab/2026-08-data-breach-cases-summary/",
+    "note": "7・8月の別まとめ・除外検索から抽出。reported_onは調査日。8月26日公表を9月11日報道から発見。公式リンクの本文取得に失敗。"
+  },
+  {
+    "id": "cross-julaug-30ae4efe91",
+    "organization": "ジェックス",
+    "reported_on": "2026-10-18",
+    "verification": "pending",
+    "reference_url": "https://rocket-boys.co.jp/security-measures-lab/2026-08-data-breach-cases-summary/",
+    "note": "7・8月の別まとめ・除外検索から抽出。reported_onは調査日。まとめ記事等からの候補。公式公表日・個人情報への影響・既存事案との関係の照合が未完了。"
+  },
+  {
+    "id": "cross-julaug-ad491fd8e5",
+    "organization": "大阪公立大学医学部附属病院",
+    "reported_on": "2026-10-18",
+    "verification": "pending",
+    "reference_url": "https://rocket-boys.co.jp/security-measures-lab/2026-08-data-breach-cases-summary/",
+    "note": "7・8月の別まとめ・除外検索から抽出。reported_onは調査日。まとめ記事等からの候補。公式公表日・個人情報への影響・既存事案との関係の照合が未完了。"
+  },
+  {
+    "id": "cross-julaug-ebfa5fd45f",
+    "organization": "株式会社GHP",
+    "reported_on": "2026-10-18",
+    "verification": "pending",
+    "reference_url": "https://unitis.jp/articles/24442/",
+    "note": "7・8月の別まとめ・除外検索から抽出。reported_onは調査日。まとめ記事等からの候補。公式公表日・個人情報への影響・既存事案との関係の照合が未完了。"
+  },
+  {
+    "id": "cross-julaug-77601b32c3",
+    "organization": "精電舎電子工業",
+    "reported_on": "2026-10-18",
+    "verification": "pending",
+    "reference_url": "https://legalagent.co.jp/legal-lab/security-incidents/",
+    "note": "7・8月の別まとめ・除外検索から抽出。reported_onは調査日。7月21日公式報告でADサーバーデータの外部転送を確認。個人情報の対象範囲は未記載のため保留。"
+  },
+  {
+    "id": "cross-julaug-63a1e4ac6c",
+    "organization": "環境開発工業",
+    "reported_on": "2026-10-18",
+    "verification": "pending",
+    "reference_url": "https://legalagent.co.jp/legal-lab/security-incidents/",
+    "note": "7・8月の別まとめ・除外検索から抽出。reported_onは調査日。7月21日公式第1報は個人情報流出未確認・調査中。具体的な個人情報影響の確認が必要。"
+  },
+  {
+    "id": "cross-julaug-dc88a02481",
+    "organization": "ノストラム",
+    "reported_on": "2026-10-18",
+    "verification": "pending",
+    "reference_url": "https://legalagent.co.jp/legal-lab/security-incidents/",
+    "note": "7・8月の別まとめ・除外検索から抽出。reported_onは調査日。まとめ記事等からの候補。公式公表日・個人情報への影響・既存事案との関係の照合が未完了。"
+  },
+  {
+    "id": "cross-julaug-981dc92694",
+    "organization": "埼玉県（LPガス補助資料）",
+    "reported_on": "2026-10-18",
+    "verification": "pending",
+    "reference_url": "https://www.pref.saitama.lg.jp/a0403/news/page/news2026082401.html",
+    "note": "7・8月の別まとめ・除外検索から抽出。reported_onは調査日。公式発表日は8月25日（URL内の日付と異なる）。11事業者の口座情報で、個人情報に該当する範囲を未確認。"
+  },
+  {
+    "id": "cross-julaug-762afb71ed",
+    "organization": "多摩市（中学校簿冊）",
+    "reported_on": "2026-10-18",
+    "verification": "pending",
+    "reference_url": "https://www.city.tama.lg.jp/shisei/gyouseiiinkai/kyouiku/1010738/1021030.html",
+    "note": "7・8月の別まとめ・除外検索から抽出。reported_onは調査日。検索では8月29日・生徒33人の簿冊紛失。公式本文の直接取得が404/403で保留。"
+  },
+  {
+    "id": "cross-julaug-5b93a47f16",
+    "organization": "穴水町（健診対象者USB）",
+    "reported_on": "2026-10-18",
+    "verification": "pending",
+    "reference_url": "https://yjk365security.jp/news/anamizu-town-usb-lost-personal-info-2026/",
+    "note": "除外検索から抽出。7月の公表・続報の候補。公式公表日・既存事案との関係を要照合。reported_onは調査日。"
+  },
+  {
+    "id": "cross-julaug-072454ed65",
+    "organization": "九州電力送配電（記憶媒体紛失続報）",
+    "reported_on": "2026-10-18",
+    "verification": "pending",
+    "reference_url": "https://news.livedoor.com/article/detail/31775860/",
+    "note": "除外検索から抽出。7月の公表・続報の候補。公式公表日・既存事案との関係を要照合。reported_onは調査日。"
   }
 ]
