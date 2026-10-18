@@ -1,0 +1,53 @@
+{
+  "id": "kddi-ispmail-20260706",
+  "organization": {
+    "name": "KDDI（ISP向けメール基盤）",
+    "sector": "企業・団体"
+  },
+  "title": "ISP向けメールシステムへの不正アクセスで情報漏えい",
+  "summary": "メール基盤のソフトウェアの脆弱性を悪用された事案について、メールアドレスと一部のパスワードの漏えいを確認したと公表した。",
+  "published_on": "2026-07-06",
+  "first_published_on": "2026-06-23",
+  "publication_kind": "followup",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-18",
+  "incident_type": "attack",
+  "leak_status": "confirmed",
+  "impact": [
+    {
+      "count": 12231954,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表された対象規模"
+    },
+    {
+      "count": 7616173,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "パスワードの漏えい（メールアドレス対象の内数）"
+    }
+  ],
+  "data_types": [
+    "メールアドレス",
+    "パスワード"
+  ],
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "メール基盤のソフトウェアの脆弱性を悪用された事案について、メールアドレスと一部のパスワードの漏えいを確認したと公表した。",
+    "certainty": "unknown"
+  },
+  "sources": [
+    {
+      "url": "https://newsroom.kddi.com/news/assets/2026/kddi_nr_s-73_4619/kddi_nr_s-73_4619_pdf_01.pdf",
+      "title": "ISP 事業者向けメールシステムに対する不正アクセスについての お詫びとご報告",
+      "type": "official",
+      "published_on": "2026-07-21",
+      "checked_on": "2026-10-18"
+    }
+  ],
+  "notes": "人数は7月21日の訂正後。パスワード対象7,616,173人はメールアドレス対象の内数。ISP各社の公表分と重複するため合算しない。",
+  "updates": [],
+  "verification": "official",
+  "related_vendor": null
+}

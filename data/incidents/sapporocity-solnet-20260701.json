@@ -1,0 +1,52 @@
+{
+  "id": "sapporocity-solnet-20260701",
+  "organization": {
+    "name": "札幌市立大学",
+    "sector": "教育・研究"
+  },
+  "title": "案内先の販売サイト侵害に伴う個人情報漏えいの可能性",
+  "summary": "学生・生徒等に案内している加賀ソルネットの販売サイトが不正アクセスを受け、サイトに登録した利用者情報が流出した可能性があると公表した。",
+  "published_on": "2026-07-01",
+  "first_published_on": "2026-07-01",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-18",
+  "incident_type": "attack",
+  "leak_status": "suspected",
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "対象規模は未公表"
+    }
+  ],
+  "data_types": [],
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "学生・生徒等に案内している加賀ソルネットの販売サイトが不正アクセスを受け、サイトに登録した利用者情報が流出した可能性があると公表した。",
+    "certainty": "unknown"
+  },
+  "sources": [
+    {
+      "url": "https://www.scu.ac.jp/department/news/adobecc%E5%AD%A6%E7%94%9F%E7%94%A8%E3%83%A9%E3%82%A4%E3%82%BB%E3%83%B3%E3%82%B9%E3%83%91%E3%83%83%E3%82%AF%E8%B2%A9%E5%A3%B2%E3%82%B5%E3%82%A4%E3%83%88%E3%80%8C%E3%82%A2%E3%82%AB%E3%83%87%E3%83%9F/",
+      "title": "札幌市立大学",
+      "type": "official",
+      "published_on": "2026-07-01",
+      "checked_on": "2026-10-18"
+    }
+  ],
+  "notes": "加賀ソルネットの共通事案についての利用組織別の公表。学校等のシステム自体の侵害ではなく、販売サイトに利用者が登録した情報が対象。組織別人数は未公表で、運営会社の対象数を転記・合算しない。",
+  "updates": [],
+  "verification": "official",
+  "related_vendor": "加賀ソルネット",
+  "vendors": [
+    {
+      "name": "加賀ソルネット",
+      "role": "service",
+      "detail": "学生・生徒等向けの販売サイトを運営。",
+      "source_index": 0
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "id": "motomachi-solnet-20260702",
+  "organization": {
+    "name": "広島市立基町高等学校",
+    "sector": "教育・研究"
+  },
+  "title": "案内先の販売サイト侵害に伴う個人情報漏えいの可能性",
+  "summary": "学生・生徒等に案内している加賀ソルネットの販売サイトが不正アクセスを受け、サイトに登録した利用者情報が流出した可能性があると公表した。",
+  "published_on": "2026-07-02",
+  "first_published_on": "2026-07-02",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-18",
+  "incident_type": "attack",
+  "leak_status": "suspected",
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "対象規模は未公表"
+    }
+  ],
+  "data_types": [],
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "学生・生徒等に案内している加賀ソルネットの販売サイトが不正アクセスを受け、サイトに登録した利用者情報が流出した可能性があると公表した。",
+    "certainty": "unknown"
+  },
+  "sources": [
+    {
+      "url": "https://www.motomachi-hs.jp/archives/25793",
+      "title": "広島市立基町高等学校",
+      "type": "official",
+      "published_on": "2026-07-02",
+      "checked_on": "2026-10-18"
+    }
+  ],
+  "notes": "加賀ソルネットの共通事案についての利用組織別の公表。学校等のシステム自体の侵害ではなく、販売サイトに利用者が登録した情報が対象。組織別人数は未公表で、運営会社の対象数を転記・合算しない。",
+  "updates": [],
+  "verification": "official",
+  "related_vendor": "加賀ソルネット",
+  "vendors": [
+    {
+      "name": "加賀ソルネット",
+      "role": "service",
+      "detail": "学生・生徒等向けの販売サイトを運営。",
+      "source_index": 0
+    }
+  ]
+}

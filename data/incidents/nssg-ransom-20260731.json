@@ -1,0 +1,44 @@
+{
+  "id": "nssg-ransom-20260731",
+  "organization": {
+    "name": "日本資産総研（日東不動産を含む）",
+    "sector": "企業・団体"
+  },
+  "title": "ランサムウェア被害の調査結果",
+  "summary": "認証情報を悪用した不正アクセスでデータが暗号化。一部データの外部送信の可能性が判明したが、対象ファイルは特定できなかった。",
+  "published_on": "2026-07-31",
+  "first_published_on": "2026-05-14",
+  "publication_kind": "followup",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-18",
+  "incident_type": "attack",
+  "leak_status": "suspected",
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "対象規模は未公表"
+    }
+  ],
+  "data_types": [],
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "認証情報を悪用した不正アクセスでデータが暗号化。一部データの外部送信の可能性が判明したが、対象ファイルは特定できなかった。",
+    "certainty": "unknown"
+  },
+  "sources": [
+    {
+      "url": "https://www.nssg.co.jp/news/2026/0731-1300.html",
+      "title": "セキュリティインシデントの発生に関するご報告（第3報） – 株式会社日本資産総研 ＜青山財産ネットワークスグループ",
+      "type": "official",
+      "published_on": "2026-07-31",
+      "checked_on": "2026-10-18"
+    }
+  ],
+  "notes": "日本資産総研とサーバーを共用する日東不動産が対象。他の青山財産ネットワークスグループへの影響は確認されていない。",
+  "updates": [],
+  "verification": "official",
+  "related_vendor": null
+}

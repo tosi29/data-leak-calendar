@@ -62,5 +62,541 @@
     "verification": "pending",
     "reference_url": "https://www.security-next.com/187953",
     "note": "8月の月間一覧から再取得。日付は報道日。公式公表日・初報と続報の関係、個人情報の影響範囲の照合が未完了のためカレンダーには未掲載。 2026年10月18日再確認。水道企業団・検針依頼リストで再検索したが、440件の一時紛失に対応する公表資料を取得できず。7月7日の発生日を転用しない。"
+  },
+  {
+    "id": "jul-review-next-187995",
+    "organization": "講座受講者一覧表を紛失、メモから発覚 - 厚木市",
+    "reported_on": "2026-07-31",
+    "verification": "pending",
+    "reference_url": "https://www.security-next.com/187995",
+    "note": "7月の月間ニュース一覧から取得。日付は報道日であり、公式公表日は未確定。初報・続報、既存記録との関係、個人情報への影響の照合が必要。6月以前の公表の可能性も含めて確認する。"
+  },
+  {
+    "id": "jul-review-next-187991",
+    "organization": "サーバでランサム被害を確認、影響など調査 - 八王子中高校",
+    "reported_on": "2026-07-31",
+    "verification": "pending",
+    "reference_url": "https://www.security-next.com/187991",
+    "note": "7月の月間ニュース一覧から取得。日付は報道日であり、公式公表日は未確定。初報・続報、既存記録との関係、個人情報への影響の照合が必要。6月以前の公表の可能性も含めて確認する。"
+  },
+  {
+    "id": "jul-review-next-188146",
+    "organization": "子ども向けプログラミング講座の案内メールで誤送信 - 藤沢市",
+    "reported_on": "2026-07-31",
+    "verification": "pending",
+    "reference_url": "https://www.security-next.com/188146",
+    "note": "7月の月間ニュース一覧から取得。日付は報道日であり、公式公表日は未確定。初報・続報、既存記録との関係、個人情報への影響の照合が必要。6月以前の公表の可能性も含めて確認する。"
+  },
+  {
+    "id": "jul-review-next-187746",
+    "organization": "ランサム被害で個人情報流出の可能性 - FA機器開発会社",
+    "reported_on": "2026-07-30",
+    "verification": "pending",
+    "reference_url": "https://www.security-next.com/187746",
+    "note": "7月の月間ニュース一覧から取得。日付は報道日であり、公式公表日は未確定。初報・続報、既存記録との関係、個人情報への影響の照合が必要。6月以前の公表の可能性も含めて確認する。"
+  },
+  {
+    "id": "jul-review-next-188056",
+    "organization": "インク通販サイトに不正アクセス - 個人情報流出の可能性",
+    "reported_on": "2026-07-30",
+    "verification": "pending",
+    "reference_url": "https://www.security-next.com/188056",
+    "note": "7月の月間ニュース一覧から取得。日付は報道日であり、公式公表日は未確定。初報・続報、既存記録との関係、個人情報への影響の照合が必要。6月以前の公表の可能性も含めて確認する。"
+  },
+  {
+    "id": "jul-review-next-187814",
+    "organization": "顧客情報含む伝票など誤廃棄 - 東京三協信金",
+    "reported_on": "2026-07-29",
+    "verification": "pending",
+    "reference_url": "https://www.security-next.com/187814",
+    "note": "7月の月間ニュース一覧から取得。日付は報道日であり、公式公表日は未確定。初報・続報、既存記録との関係、個人情報への影響の照合が必要。6月以前の公表の可能性も含めて確認する。"
+  },
+  {
+    "id": "jul-review-next-187944",
+    "organization": "通販サイトにサイバー攻撃、調査を実施 - ヴェレダ・ジャパン",
+    "reported_on": "2026-07-29",
+    "verification": "pending",
+    "reference_url": "https://www.security-next.com/187944",
+    "note": "7月の月間ニュース一覧から取得。日付は報道日であり、公式公表日は未確定。初報・続報、既存記録との関係、個人情報への影響の照合が必要。6月以前の公表の可能性も含めて確認する。"
+  },
+  {
+    "id": "jul-review-next-187664",
+    "organization": "メール本文に講座受講者メアドを誤記載 - 茨城県立こころの医療センター",
+    "reported_on": "2026-07-28",
+    "verification": "pending",
+    "reference_url": "https://www.security-next.com/187664",
+    "note": "7月の月間ニュース一覧から取得。日付は報道日であり、公式公表日は未確定。初報・続報、既存記録との関係、個人情報への影響の照合が必要。6月以前の公表の可能性も含めて確認する。"
+  },
+  {
+    "id": "jul-review-next-187942",
+    "organization": "通販サイトにサイバー攻撃、個人情報流出の可能性 - ANAグループ会社",
+    "reported_on": "2026-07-28",
+    "verification": "pending",
+    "reference_url": "https://www.security-next.com/187942",
+    "note": "7月の月間ニュース一覧から取得。日付は報道日であり、公式公表日は未確定。初報・続報、既存記録との関係、個人情報への影響の照合が必要。6月以前の公表の可能性も含めて確認する。"
+  },
+  {
+    "id": "jul-review-next-187867",
+    "organization": "高校で生徒証明写真データ含む光ディスクを紛失 - 大阪府",
+    "reported_on": "2026-07-28",
+    "verification": "pending",
+    "reference_url": "https://www.security-next.com/187867",
+    "note": "7月の月間ニュース一覧から取得。日付は報道日であり、公式公表日は未確定。初報・続報、既存記録との関係、個人情報への影響の照合が必要。6月以前の公表の可能性も含めて確認する。"
+  },
+  {
+    "id": "jul-review-next-186979",
+    "organization": "フィッシング被害後、攻撃の踏み台に - スペース",
+    "reported_on": "2026-07-27",
+    "verification": "pending",
+    "reference_url": "https://www.security-next.com/186979",
+    "note": "7月の月間ニュース一覧から取得。日付は報道日であり、公式公表日は未確定。初報・続報、既存記録との関係、個人情報への影響の照合が必要。6月以前の公表の可能性も含めて確認する。"
+  },
+  {
+    "id": "jul-review-next-187865",
+    "organization": "サイト公開のPDFファイルでマスキング処理に不備 - 南砺市",
+    "reported_on": "2026-07-27",
+    "verification": "pending",
+    "reference_url": "https://www.security-next.com/187865",
+    "note": "7月の月間ニュース一覧から取得。日付は報道日であり、公式公表日は未確定。初報・続報、既存記録との関係、個人情報への影響の照合が必要。6月以前の公表の可能性も含めて確認する。"
+  },
+  {
+    "id": "jul-review-next-187604",
+    "organization": "従業員リスト持出、再就職先の侵害調査から発覚 - あすか製薬",
+    "reported_on": "2026-07-24",
+    "verification": "pending",
+    "reference_url": "https://www.security-next.com/187604",
+    "note": "7月の月間ニュース一覧から取得。日付は報道日であり、公式公表日は未確定。初報・続報、既存記録との関係、個人情報への影響の照合が必要。6月以前の公表の可能性も含めて確認する。"
+  },
+  {
+    "id": "jul-review-next-187608",
+    "organization": "アンケートフォームで不備、個人情報が閲覧可能に - 関市",
+    "reported_on": "2026-07-24",
+    "verification": "pending",
+    "reference_url": "https://www.security-next.com/187608",
+    "note": "7月の月間ニュース一覧から取得。日付は報道日であり、公式公表日は未確定。初報・続報、既存記録との関係、個人情報への影響の照合が必要。6月以前の公表の可能性も含めて確認する。"
+  },
+  {
+    "id": "jul-review-next-187309",
+    "organization": "代表メールに不正アクセス、スパム送信の踏み台に - 愛知農済",
+    "reported_on": "2026-07-24",
+    "verification": "pending",
+    "reference_url": "https://www.security-next.com/187309",
+    "note": "7月の月間ニュース一覧から取得。日付は報道日であり、公式公表日は未確定。初報・続報、既存記録との関係、個人情報への影響の照合が必要。6月以前の公表の可能性も含めて確認する。"
+  },
+  {
+    "id": "jul-review-next-187597",
+    "organization": "県サイトに個人情報記載の図面を掲載 - 長野県",
+    "reported_on": "2026-07-23",
+    "verification": "pending",
+    "reference_url": "https://www.security-next.com/187597",
+    "note": "7月の月間ニュース一覧から取得。日付は報道日であり、公式公表日は未確定。初報・続報、既存記録との関係、個人情報への影響の照合が必要。6月以前の公表の可能性も含めて確認する。"
+  },
+  {
+    "id": "jul-review-next-187595",
+    "organization": "設定ミスで会員通知メールに他会員情報 - 佐川急便",
+    "reported_on": "2026-07-23",
+    "verification": "pending",
+    "reference_url": "https://www.security-next.com/187595",
+    "note": "7月の月間ニュース一覧から取得。日付は報道日であり、公式公表日は未確定。初報・続報、既存記録との関係、個人情報への影響の照合が必要。6月以前の公表の可能性も含めて確認する。"
+  },
+  {
+    "id": "jul-review-next-187524",
+    "organization": "個人情報含む書類を誤配布、様式変更で印字に気づかず - 郡山市",
+    "reported_on": "2026-07-23",
+    "verification": "pending",
+    "reference_url": "https://www.security-next.com/187524",
+    "note": "7月の月間ニュース一覧から取得。日付は報道日であり、公式公表日は未確定。初報・続報、既存記録との関係、個人情報への影響の照合が必要。6月以前の公表の可能性も含めて確認する。"
+  },
+  {
+    "id": "jul-review-next-187303",
+    "organization": "マルウェア感染で業務に影響、情報漏洩の可能性も - 日本交通",
+    "reported_on": "2026-07-23",
+    "verification": "pending",
+    "reference_url": "https://www.security-next.com/187303",
+    "note": "7月の月間ニュース一覧から取得。日付は報道日であり、公式公表日は未確定。初報・続報、既存記録との関係、個人情報への影響の照合が必要。6月以前の公表の可能性も含めて確認する。"
+  },
+  {
+    "id": "jul-review-next-187660",
+    "organization": "人事情報を不正閲覧した職員を懲戒処分 - 君津市",
+    "reported_on": "2026-07-23",
+    "verification": "pending",
+    "reference_url": "https://www.security-next.com/187660",
+    "note": "7月の月間ニュース一覧から取得。日付は報道日であり、公式公表日は未確定。初報・続報、既存記録との関係、個人情報への影響の照合が必要。6月以前の公表の可能性も含めて確認する。"
+  },
+  {
+    "id": "jul-review-next-187387",
+    "organization": "通販サイト会員の個人情報が流出 - ペットフード販売会社",
+    "reported_on": "2026-07-22",
+    "verification": "pending",
+    "reference_url": "https://www.security-next.com/187387",
+    "note": "7月の月間ニュース一覧から取得。日付は報道日であり、公式公表日は未確定。初報・続報、既存記録との関係、個人情報への影響の照合が必要。6月以前の公表の可能性も含めて確認する。"
+  },
+  {
+    "id": "jul-review-next-187474",
+    "organization": "データのマスキング不備、自主点検で判明 - 北九州市",
+    "reported_on": "2026-07-22",
+    "verification": "pending",
+    "reference_url": "https://www.security-next.com/187474",
+    "note": "7月の月間ニュース一覧から取得。日付は報道日であり、公式公表日は未確定。初報・続報、既存記録との関係、個人情報への影響の照合が必要。6月以前の公表の可能性も含めて確認する。"
+  },
+  {
+    "id": "jul-review-next-187671",
+    "organization": "対象外の関係者より会員情報が閲覧可能に - 情報処理学会",
+    "reported_on": "2026-07-22",
+    "verification": "pending",
+    "reference_url": "https://www.security-next.com/187671",
+    "note": "7月の月間ニュース一覧から取得。日付は報道日であり、公式公表日は未確定。初報・続報、既存記録との関係、個人情報への影響の照合が必要。6月以前の公表の可能性も含めて確認する。"
+  },
+  {
+    "id": "jul-review-next-187220",
+    "organization": "児童発達支援センターで個人情報含む文書を誤廃棄 - 古河市",
+    "reported_on": "2026-07-21",
+    "verification": "pending",
+    "reference_url": "https://www.security-next.com/187220",
+    "note": "7月の月間ニュース一覧から取得。日付は報道日であり、公式公表日は未確定。初報・続報、既存記録との関係、個人情報への影響の照合が必要。6月以前の公表の可能性も含めて確認する。"
+  },
+  {
+    "id": "jul-review-next-187122",
+    "organization": "委託先の就職試験対策サイトがランサムウェア被害 - 福岡大",
+    "reported_on": "2026-07-21",
+    "verification": "pending",
+    "reference_url": "https://www.security-next.com/187122",
+    "note": "7月の月間ニュース一覧から取得。日付は報道日であり、公式公表日は未確定。初報・続報、既存記録との関係、個人情報への影響の照合が必要。6月以前の公表の可能性も含めて確認する。"
+  },
+  {
+    "id": "jul-review-next-187071",
+    "organization": "個人情報を誤提供、システムの改修テストで - 農林中金",
+    "reported_on": "2026-07-21",
+    "verification": "pending",
+    "reference_url": "https://www.security-next.com/187071",
+    "note": "7月の月間ニュース一覧から取得。日付は報道日であり、公式公表日は未確定。初報・続報、既存記録との関係、個人情報への影響の照合が必要。6月以前の公表の可能性も含めて確認する。"
+  },
+  {
+    "id": "jul-review-next-187476",
+    "organization": "公開講座申込者向けの事前メールで誤送信 - 島根県立大",
+    "reported_on": "2026-07-17",
+    "verification": "pending",
+    "reference_url": "https://www.security-next.com/187476",
+    "note": "7月の月間ニュース一覧から取得。日付は報道日であり、公式公表日は未確定。初報・続報、既存記録との関係、個人情報への影響の照合が必要。6月以前の公表の可能性も含めて確認する。"
+  },
+  {
+    "id": "jul-review-next-187519",
+    "organization": "システムにサイバー攻撃か、影響範囲を調査 - 日産化学",
+    "reported_on": "2026-07-17",
+    "verification": "pending",
+    "reference_url": "https://www.security-next.com/187519",
+    "note": "7月の月間ニュース一覧から取得。日付は報道日であり、公式公表日は未確定。初報・続報、既存記録との関係、個人情報への影響の照合が必要。6月以前の公表の可能性も含めて確認する。"
+  },
+  {
+    "id": "jul-review-next-186910",
+    "organization": "職員が患者情報を使用、他医療機関の開業を案内 - 済生会宇都宮病院",
+    "reported_on": "2026-07-16",
+    "verification": "pending",
+    "reference_url": "https://www.security-next.com/186910",
+    "note": "7月の月間ニュース一覧から取得。日付は報道日であり、公式公表日は未確定。初報・続報、既存記録との関係、個人情報への影響の照合が必要。6月以前の公表の可能性も含めて確認する。"
+  },
+  {
+    "id": "jul-review-next-187128",
+    "organization": "設定ミスでイベント申込者情報が閲覧可能に - 開催中止に",
+    "reported_on": "2026-07-16",
+    "verification": "pending",
+    "reference_url": "https://www.security-next.com/187128",
+    "note": "7月の月間ニュース一覧から取得。日付は報道日であり、公式公表日は未確定。初報・続報、既存記録との関係、個人情報への影響の照合が必要。6月以前の公表の可能性も含めて確認する。"
+  },
+  {
+    "id": "jul-review-next-187230",
+    "organization": "委託先コンサルが個人情報含む記憶媒体を紛失 - 旭市",
+    "reported_on": "2026-07-16",
+    "verification": "pending",
+    "reference_url": "https://www.security-next.com/187230",
+    "note": "7月の月間ニュース一覧から取得。日付は報道日であり、公式公表日は未確定。初報・続報、既存記録との関係、個人情報への影響の照合が必要。6月以前の公表の可能性も含めて確認する。"
+  },
+  {
+    "id": "jul-review-next-187470",
+    "organization": "サーバがランサム被害、影響など詳細を調査 - 金子農機",
+    "reported_on": "2026-07-16",
+    "verification": "pending",
+    "reference_url": "https://www.security-next.com/187470",
+    "note": "7月の月間ニュース一覧から取得。日付は報道日であり、公式公表日は未確定。初報・続報、既存記録との関係、個人情報への影響の照合が必要。6月以前の公表の可能性も含めて確認する。"
+  },
+  {
+    "id": "jul-review-next-187225",
+    "organization": "防災士会の事務局で会員向けメールを誤送信 - 三好市",
+    "reported_on": "2026-07-15",
+    "verification": "pending",
+    "reference_url": "https://www.security-next.com/187225",
+    "note": "7月の月間ニュース一覧から取得。日付は報道日であり、公式公表日は未確定。初報・続報、既存記録との関係、個人情報への影響の照合が必要。6月以前の公表の可能性も含めて確認する。"
+  },
+  {
+    "id": "jul-review-next-187300",
+    "organization": "サイバー攻撃でシステム障害、冷凍食品の出荷に影響 - ニチレイ",
+    "reported_on": "2026-07-14",
+    "verification": "pending",
+    "reference_url": "https://www.security-next.com/187300",
+    "note": "7月の月間ニュース一覧から取得。日付は報道日であり、公式公表日は未確定。初報・続報、既存記録との関係、個人情報への影響の照合が必要。6月以前の公表の可能性も含めて確認する。"
+  },
+  {
+    "id": "jul-review-next-186709",
+    "organization": "個人情報含むファイルを誤送信、別ファイルと勘違い - 大阪市",
+    "reported_on": "2026-07-14",
+    "verification": "pending",
+    "reference_url": "https://www.security-next.com/186709",
+    "note": "7月の月間ニュース一覧から取得。日付は報道日であり、公式公表日は未確定。初報・続報、既存記録との関係、個人情報への影響の照合が必要。6月以前の公表の可能性も含めて確認する。"
+  },
+  {
+    "id": "jul-review-next-186975",
+    "organization": "高校で採点済み答案をグループウェアに誤掲載 - 宮城県",
+    "reported_on": "2026-07-13",
+    "verification": "pending",
+    "reference_url": "https://www.security-next.com/186975",
+    "note": "7月の月間ニュース一覧から取得。日付は報道日であり、公式公表日は未確定。初報・続報、既存記録との関係、個人情報への影響の照合が必要。6月以前の公表の可能性も含めて確認する。"
+  },
+  {
+    "id": "jul-review-next-187131",
+    "organization": "支援先事業者宛のメールで誤送信 - いばらき中小企業グローバル推進機構",
+    "reported_on": "2026-07-13",
+    "verification": "pending",
+    "reference_url": "https://www.security-next.com/187131",
+    "note": "7月の月間ニュース一覧から取得。日付は報道日であり、公式公表日は未確定。初報・続報、既存記録との関係、個人情報への影響の照合が必要。6月以前の公表の可能性も含めて確認する。"
+  },
+  {
+    "id": "jul-review-next-186912",
+    "organization": "本人の同意なしに健診結果を家族に説明 - 八重瀬町",
+    "reported_on": "2026-07-10",
+    "verification": "pending",
+    "reference_url": "https://www.security-next.com/186912",
+    "note": "7月の月間ニュース一覧から取得。日付は報道日であり、公式公表日は未確定。初報・続報、既存記録との関係、個人情報への影響の照合が必要。6月以前の公表の可能性も含めて確認する。"
+  },
+  {
+    "id": "jul-review-next-187074",
+    "organization": "説明会の案内状を誤送信、全参加予定者の氏名 - 大阪市",
+    "reported_on": "2026-07-10",
+    "verification": "pending",
+    "reference_url": "https://www.security-next.com/187074",
+    "note": "7月の月間ニュース一覧から取得。日付は報道日であり、公式公表日は未確定。初報・続報、既存記録との関係、個人情報への影響の照合が必要。6月以前の公表の可能性も含めて確認する。"
+  },
+  {
+    "id": "jul-review-next-186977",
+    "organization": "中学校の生徒情報含む私物メディアを鞄ごと紛失 - 江戸川区",
+    "reported_on": "2026-07-10",
+    "verification": "pending",
+    "reference_url": "https://www.security-next.com/186977",
+    "note": "7月の月間ニュース一覧から取得。日付は報道日であり、公式公表日は未確定。初報・続報、既存記録との関係、個人情報への影響の照合が必要。6月以前の公表の可能性も含めて確認する。"
+  },
+  {
+    "id": "jul-review-next-186914",
+    "organization": "ボランティア情報含むページが閲覧可能に - 千歳JAL国際マラソン",
+    "reported_on": "2026-07-10",
+    "verification": "pending",
+    "reference_url": "https://www.security-next.com/186914",
+    "note": "7月の月間ニュース一覧から取得。日付は報道日であり、公式公表日は未確定。初報・続報、既存記録との関係、個人情報への影響の照合が必要。6月以前の公表の可能性も含めて確認する。"
+  },
+  {
+    "id": "jul-review-next-187124",
+    "organization": "通販サイトに不正アクセスか、調査中 - アメニティメーカー",
+    "reported_on": "2026-07-10",
+    "verification": "pending",
+    "reference_url": "https://www.security-next.com/187124",
+    "note": "7月の月間ニュース一覧から取得。日付は報道日であり、公式公表日は未確定。初報・続報、既存記録との関係、個人情報への影響の照合が必要。6月以前の公表の可能性も含めて確認する。"
+  },
+  {
+    "id": "jul-review-next-187062",
+    "organization": "都民向け金融セミナーの申込サイトが一時消失 - 攻撃の痕跡も",
+    "reported_on": "2026-07-10",
+    "verification": "pending",
+    "reference_url": "https://www.security-next.com/187062",
+    "note": "7月の月間ニュース一覧から取得。日付は報道日であり、公式公表日は未確定。初報・続報、既存記録との関係、個人情報への影響の照合が必要。6月以前の公表の可能性も含めて確認する。"
+  },
+  {
+    "id": "jul-review-next-186567",
+    "organization": "クラウドPBXの管理画面に不正アクセス - CCアーキテクト",
+    "reported_on": "2026-07-09",
+    "verification": "pending",
+    "reference_url": "https://www.security-next.com/186567",
+    "note": "7月の月間ニュース一覧から取得。日付は報道日であり、公式公表日は未確定。初報・続報、既存記録との関係、個人情報への影響の照合が必要。6月以前の公表の可能性も含めて確認する。"
+  },
+  {
+    "id": "jul-review-next-186905",
+    "organization": "運転士が予約情報を不正取得、顧客に私的メール - 九州急行バス",
+    "reported_on": "2026-07-09",
+    "verification": "pending",
+    "reference_url": "https://www.security-next.com/186905",
+    "note": "7月の月間ニュース一覧から取得。日付は報道日であり、公式公表日は未確定。初報・続報、既存記録との関係、個人情報への影響の照合が必要。6月以前の公表の可能性も含めて確認する。"
+  },
+  {
+    "id": "jul-review-next-186973",
+    "organization": "複数学生アカウントに不正アクセス、スパムの踏み台に - 日大",
+    "reported_on": "2026-07-09",
+    "verification": "pending",
+    "reference_url": "https://www.security-next.com/186973",
+    "note": "7月の月間ニュース一覧から取得。日付は報道日であり、公式公表日は未確定。初報・続報、既存記録との関係、個人情報への影響の照合が必要。6月以前の公表の可能性も含めて確認する。"
+  },
+  {
+    "id": "jul-review-next-187068",
+    "organization": "クラファンサイトでフィッシング - サービス内メッセージ機能を悪用",
+    "reported_on": "2026-07-09",
+    "verification": "pending",
+    "reference_url": "https://www.security-next.com/187068",
+    "note": "7月の月間ニュース一覧から取得。日付は報道日であり、公式公表日は未確定。初報・続報、既存記録との関係、個人情報への影響の照合が必要。6月以前の公表の可能性も含めて確認する。"
+  },
+  {
+    "id": "jul-review-next-186194",
+    "organization": "メルマガ送信サービスで情報流出、影響範囲など調査 - ディライトフル",
+    "reported_on": "2026-07-08",
+    "verification": "pending",
+    "reference_url": "https://www.security-next.com/186194",
+    "note": "7月の月間ニュース一覧から取得。日付は報道日であり、公式公表日は未確定。初報・続報、既存記録との関係、個人情報への影響の照合が必要。6月以前の公表の可能性も含めて確認する。"
+  },
+  {
+    "id": "jul-review-next-186754",
+    "organization": "個人情報の保存先を誤り、意図せず学生に共有 - 近畿大",
+    "reported_on": "2026-07-08",
+    "verification": "pending",
+    "reference_url": "https://www.security-next.com/186754",
+    "note": "7月の月間ニュース一覧から取得。日付は報道日であり、公式公表日は未確定。初報・続報、既存記録との関係、個人情報への影響の照合が必要。6月以前の公表の可能性も含めて確認する。"
+  },
+  {
+    "id": "jul-review-next-186572",
+    "organization": "配付名簿に不同意者の個人情報、法令を誤解釈 - 阿南市",
+    "reported_on": "2026-07-08",
+    "verification": "pending",
+    "reference_url": "https://www.security-next.com/186572",
+    "note": "7月の月間ニュース一覧から取得。日付は報道日であり、公式公表日は未確定。初報・続報、既存記録との関係、個人情報への影響の照合が必要。6月以前の公表の可能性も含めて確認する。"
+  },
+  {
+    "id": "jul-review-next-186814",
+    "organization": "MS 365アカウントや学生団体サイトの侵害が判明 - 富山県立大",
+    "reported_on": "2026-07-08",
+    "verification": "pending",
+    "reference_url": "https://www.security-next.com/186814",
+    "note": "7月の月間ニュース一覧から取得。日付は報道日であり、公式公表日は未確定。初報・続報、既存記録との関係、個人情報への影響の照合が必要。6月以前の公表の可能性も含めて確認する。"
+  },
+  {
+    "id": "jul-review-next-186711",
+    "organization": "紛失を隠蔽するため文書を偽造、職員を処分 - 海老名市",
+    "reported_on": "2026-07-08",
+    "verification": "pending",
+    "reference_url": "https://www.security-next.com/186711",
+    "note": "7月の月間ニュース一覧から取得。日付は報道日であり、公式公表日は未確定。初報・続報、既存記録との関係、個人情報への影響の照合が必要。6月以前の公表の可能性も含めて確認する。"
+  },
+  {
+    "id": "jul-review-next-186821",
+    "organization": "農業従事者情報を含むデータを誤送信 - フィルタ解除で閲覧可能",
+    "reported_on": "2026-07-07",
+    "verification": "pending",
+    "reference_url": "https://www.security-next.com/186821",
+    "note": "7月の月間ニュース一覧から取得。日付は報道日であり、公式公表日は未確定。初報・続報、既存記録との関係、個人情報への影響の照合が必要。6月以前の公表の可能性も含めて確認する。"
+  },
+  {
+    "id": "jul-review-next-186765",
+    "organization": "学生情報含む書類を宿泊施設に置き忘れて紛失 - 新潟県",
+    "reported_on": "2026-07-07",
+    "verification": "pending",
+    "reference_url": "https://www.security-next.com/186765",
+    "note": "7月の月間ニュース一覧から取得。日付は報道日であり、公式公表日は未確定。初報・続報、既存記録との関係、個人情報への影響の照合が必要。6月以前の公表の可能性も含めて確認する。"
+  },
+  {
+    "id": "jul-review-next-186908",
+    "organization": "社内システムが侵害、マルウェア感染の可能性 - ハンズHD",
+    "reported_on": "2026-07-07",
+    "verification": "pending",
+    "reference_url": "https://www.security-next.com/186908",
+    "note": "7月の月間ニュース一覧から取得。日付は報道日であり、公式公表日は未確定。初報・続報、既存記録との関係、個人情報への影響の照合が必要。6月以前の公表の可能性も含めて確認する。"
+  },
+  {
+    "id": "jul-review-next-186817",
+    "organization": "職員が執務室内の撮影してネット投稿、顧客情報も - 益田信組",
+    "reported_on": "2026-07-07",
+    "verification": "pending",
+    "reference_url": "https://www.security-next.com/186817",
+    "note": "7月の月間ニュース一覧から取得。日付は報道日であり、公式公表日は未確定。初報・続報、既存記録との関係、個人情報への影響の照合が必要。6月以前の公表の可能性も含めて確認する。"
+  },
+  {
+    "id": "jul-review-next-186763",
+    "organization": "講演会参加希望者向けのメールで誤送信 - 妙高市",
+    "reported_on": "2026-07-06",
+    "verification": "pending",
+    "reference_url": "https://www.security-next.com/186763",
+    "note": "7月の月間ニュース一覧から取得。日付は報道日であり、公式公表日は未確定。初報・続報、既存記録との関係、個人情報への影響の照合が必要。6月以前の公表の可能性も含めて確認する。"
+  },
+  {
+    "id": "jul-review-next-186746",
+    "organization": "私的にシステム閲覧、身内に個人情報を漏洩した職員を処分 - 各務原市",
+    "reported_on": "2026-07-06",
+    "verification": "pending",
+    "reference_url": "https://www.security-next.com/186746",
+    "note": "7月の月間ニュース一覧から取得。日付は報道日であり、公式公表日は未確定。初報・続報、既存記録との関係、個人情報への影響の照合が必要。6月以前の公表の可能性も含めて確認する。"
+  },
+  {
+    "id": "jul-review-next-186506",
+    "organization": "関係者リストを誤送信、入力用様式と同一ファイル名で取り違え - 堺市",
+    "reported_on": "2026-07-03",
+    "verification": "pending",
+    "reference_url": "https://www.security-next.com/186506",
+    "note": "7月の月間ニュース一覧から取得。日付は報道日であり、公式公表日は未確定。初報・続報、既存記録との関係、個人情報への影響の照合が必要。6月以前の公表の可能性も含めて確認する。"
+  },
+  {
+    "id": "jul-review-next-186707",
+    "organization": "防災メールサービスが迷惑メール送信に悪用 - 和歌山県",
+    "reported_on": "2026-07-03",
+    "verification": "pending",
+    "reference_url": "https://www.security-next.com/186707",
+    "note": "7月の月間ニュース一覧から取得。日付は報道日であり、公式公表日は未確定。初報・続報、既存記録との関係、個人情報への影響の照合が必要。6月以前の公表の可能性も含めて確認する。"
+  },
+  {
+    "id": "jul-review-next-186646",
+    "organization": "会合で患者の個人情報を示唆、職員を処分 - 佐賀県医療センター好生館",
+    "reported_on": "2026-07-03",
+    "verification": "pending",
+    "reference_url": "https://www.security-next.com/186646",
+    "note": "7月の月間ニュース一覧から取得。日付は報道日であり、公式公表日は未確定。初報・続報、既存記録との関係、個人情報への影響の照合が必要。6月以前の公表の可能性も含めて確認する。"
+  },
+  {
+    "id": "jul-review-next-186451",
+    "organization": "介護サービスの評価システムにサイバー攻撃 - システムを一時停止",
+    "reported_on": "2026-07-02",
+    "verification": "pending",
+    "reference_url": "https://www.security-next.com/186451",
+    "note": "7月の月間ニュース一覧から取得。日付は報道日であり、公式公表日は未確定。初報・続報、既存記録との関係、個人情報への影響の照合が必要。6月以前の公表の可能性も含めて確認する。"
+  },
+  {
+    "id": "jul-review-next-186574",
+    "organization": "売店保有の個人情報、商品取扱業者がカタログ送付に利用 - 山口県",
+    "reported_on": "2026-07-02",
+    "verification": "pending",
+    "reference_url": "https://www.security-next.com/186574",
+    "note": "7月の月間ニュース一覧から取得。日付は報道日であり、公式公表日は未確定。初報・続報、既存記録との関係、個人情報への影響の照合が必要。6月以前の公表の可能性も含めて確認する。"
+  },
+  {
+    "id": "jul-review-next-186643",
+    "organization": "個人情報をメールに誤添付、容量から気づく - 阪教大",
+    "reported_on": "2026-07-02",
+    "verification": "pending",
+    "reference_url": "https://www.security-next.com/186643",
+    "note": "7月の月間ニュース一覧から取得。日付は報道日であり、公式公表日は未確定。初報・続報、既存記録との関係、個人情報への影響の照合が必要。6月以前の公表の可能性も含めて確認する。"
+  },
+  {
+    "id": "jul-review-next-186648",
+    "organization": "サポート詐欺でPC遠隔操作、情報流出を調査 - 東北文化学園大",
+    "reported_on": "2026-07-01",
+    "verification": "pending",
+    "reference_url": "https://www.security-next.com/186648",
+    "note": "7月の月間ニュース一覧から取得。日付は報道日であり、公式公表日は未確定。初報・続報、既存記録との関係、個人情報への影響の照合が必要。6月以前の公表の可能性も含めて確認する。"
+  },
+  {
+    "id": "jul-review-next-186504",
+    "organization": "システムの登録ユーザー情報、ユーザー間で閲覧可能に - コマツ",
+    "reported_on": "2026-07-01",
+    "verification": "pending",
+    "reference_url": "https://www.security-next.com/186504",
+    "note": "7月の月間ニュース一覧から取得。日付は報道日であり、公式公表日は未確定。初報・続報、既存記録との関係、個人情報への影響の照合が必要。6月以前の公表の可能性も含めて確認する。"
+  },
+  {
+    "id": "jul-review-next-186577",
+    "organization": "児童情報を全認定こども園にメール誤送信 - 八王子市",
+    "reported_on": "2026-07-01",
+    "verification": "pending",
+    "reference_url": "https://www.security-next.com/186577",
+    "note": "7月の月間ニュース一覧から取得。日付は報道日であり、公式公表日は未確定。初報・続報、既存記録との関係、個人情報への影響の照合が必要。6月以前の公表の可能性も含めて確認する。"
   }
 ]

@@ -5,12 +5,12 @@
     "sector": "企業・団体"
   },
   "title": "過去の新卒採用で利用したApplyNowへの攻撃により、応募者情報1,826件が漏えいしたと公表",
-  "published_on": "2026-10-06",
+  "published_on": "2026-07-24",
   "occurred_on": "2026-09-06",
   "detected_on": "2026-10-05",
-  "updated_on": "2026-10-15",
-  "first_published_on": "2026-10-06",
-  "publication_kind": "initial",
+  "updated_on": "2026-10-18",
+  "first_published_on": "2026-07-02",
+  "publication_kind": "followup",
   "verification": "official",
   "leak_status": "confirmed",
   "summary": "過去の新卒採用で利用したApplyNowへの攻撃により、応募者情報1,826件が漏えいしたと公表。",
@@ -44,9 +44,16 @@
       "title": "採用管理プラットフォーム「ApplyNow」への不正アクセスに伴う個人情報漏えいに関するお知らせとお詫び | ニュース詳細 | ナカバヤシ株式会社：アルバム・製本・シュレッダー・情報整理の総合サポーター",
       "published_on": "2026-10-06",
       "checked_on": "2026-10-15"
+    },
+    {
+      "url": "https://www.nakabayashi.co.jp/news/2026/info/1369",
+      "title": "弊社製品紹介サイト「REVEX」に対する不正アクセス及び情報漏えいの可能性について【第二報】 | ニュース詳細 | ナカバヤシ株式会社：アルバム・製本・シュレッダー・情報整理の総合サポーター",
+      "type": "official",
+      "published_on": "2026-07-24",
+      "checked_on": "2026-10-18"
     }
   ],
-  "notes": "公式本文の調査結果は漏えいした情報と記載。単位は人ではなく件。動画データは対象外。",
+  "notes": "公式本文の調査結果は漏えいした情報と記載。単位は人ではなく件。動画データは対象外。 7月の公式公表資料を追加確認し、掲載日を期間内の早い公表日に変更。概要・規模・確認状況は掲載済み続報の情報を保持。",
   "updates": [],
   "incident_type": "attack",
   "vendors": [
@@ -64,6 +71,10 @@
     "source_checks": [
       {
         "source_index": 0,
+        "status": "reviewed"
+      },
+      {
+        "source_index": 1,
         "status": "reviewed"
       }
     ]

@@ -1,0 +1,52 @@
+{
+  "id": "nagoya-medical-usb-20260717",
+  "organization": {
+    "name": "名古屋医療センター",
+    "sector": "企業・団体"
+  },
+  "title": "患者情報入りUSBメモリを一時紛失",
+  "summary": "職員が帰宅中に患者情報入りの私物USBメモリを紛失。交通機関で回収されたものを受領し、外部漏えい・不正利用は確認されていないと公表した。",
+  "published_on": "2026-07-17",
+  "first_published_on": "2026-07-17",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-18",
+  "incident_type": "accident",
+  "leak_status": "lost",
+  "impact": [
+    {
+      "count": 591,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表された対象規模"
+    }
+  ],
+  "data_types": [
+    "患者ID",
+    "氏名",
+    "年齢",
+    "手術名",
+    "検査データ",
+    "がんステージ",
+    "病変サイズ"
+  ],
+  "cause": {
+    "category": "loss",
+    "detail": "職員が帰宅中に患者情報入りの私物USBメモリを紛失。交通機関で回収されたものを受領し、外部漏えい・不正利用は確認されていないと公表した。",
+    "certainty": "unknown"
+  },
+  "sources": [
+    {
+      "url": "https://nagoya.hosp.go.jp/news/2026/20260717_01/",
+      "title": "患者様の個人情報を含むUSB メモリ紛失に関するお詫びとご報告について",
+      "type": "official",
+      "published_on": "2026-07-17",
+      "checked_on": "2026-10-18"
+    }
+  ],
+  "notes": "情報項目ごとに対象者数が異なる。検査データ等は591人の内数。",
+  "updates": [],
+  "verification": "official",
+  "related_vendor": null
+}

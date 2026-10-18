@@ -3244,5 +3244,290 @@
     "source_urls": [
       "https://www.u-tokai.ac.jp/news-notice/1371622/"
     ]
+  },
+  {
+    "candidate": {
+      "id": "jul-review-next-187468",
+      "organization": "従業員が顧客クレカをスキミング - サムギョプサル店",
+      "reported_on": "2026-07-31",
+      "verification": "pending",
+      "reference_url": "https://www.security-next.com/187468",
+      "note": "7月の月間ニュース一覧から取得。日付は報道日であり、公式公表日は未確定。初報・続報、既存記録との関係、個人情報への影響の照合が必要。6月以前の公表の可能性も含めて確認する。"
+    },
+    "reviewed_on": "2026-10-18",
+    "resolution": "published",
+    "incident_ids": [
+      "yopu-skimming-20260713"
+    ],
+    "reason": "7月調査で既存記録または公式公表と照合。",
+    "source_urls": [
+      "https://www.security-next.com/187468"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "jul-review-next-188063",
+      "organization": "契約照会システムで利用者の個人情報が閲覧可能に - 生保協会",
+      "reported_on": "2026-07-31",
+      "verification": "pending",
+      "reference_url": "https://www.security-next.com/188063",
+      "note": "7月の月間ニュース一覧から取得。日付は報道日であり、公式公表日は未確定。初報・続報、既存記録との関係、個人情報への影響の照合が必要。6月以前の公表の可能性も含めて確認する。"
+    },
+    "reviewed_on": "2026-10-18",
+    "resolution": "published",
+    "incident_ids": [
+      "seiho-20260914"
+    ],
+    "reason": "7月調査で既存記録または公式公表と照合。",
+    "source_urls": [
+      "https://www.security-next.com/188063"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "jul-review-next-188065",
+      "organization": "講座受講者リストをメールに誤添付 - 北九州市",
+      "reported_on": "2026-07-30",
+      "verification": "pending",
+      "reference_url": "https://www.security-next.com/188065",
+      "note": "7月の月間ニュース一覧から取得。日付は報道日であり、公式公表日は未確定。初報・続報、既存記録との関係、個人情報への影響の照合が必要。6月以前の公表の可能性も含めて確認する。"
+    },
+    "reviewed_on": "2026-10-18",
+    "resolution": "published",
+    "incident_ids": [
+      "kitakyushu-college-mail-20260714"
+    ],
+    "reason": "7月調査で既存記録または公式公表と照合。",
+    "source_urls": [
+      "https://www.security-next.com/188065"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "jul-review-next-187989",
+      "organization": "サーバにランサム攻撃、顧客情報流出の可能性 - 名鉄協商",
+      "reported_on": "2026-07-29",
+      "verification": "pending",
+      "reference_url": "https://www.security-next.com/187989",
+      "note": "7月の月間ニュース一覧から取得。日付は報道日であり、公式公表日は未確定。初報・続報、既存記録との関係、個人情報への影響の照合が必要。6月以前の公表の可能性も含めて確認する。"
+    },
+    "reviewed_on": "2026-10-18",
+    "resolution": "published",
+    "incident_ids": [
+      "gontran-cherrier-20260903"
+    ],
+    "reason": "7月調査で既存記録または公式公表と照合。",
+    "source_urls": [
+      "https://www.security-next.com/187989"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "jul-review-next-187949",
+      "organization": "製品サイトが侵害、サーバ内に個人情報も - ナカバヤシ",
+      "reported_on": "2026-07-28",
+      "verification": "pending",
+      "reference_url": "https://www.security-next.com/187949",
+      "note": "7月の月間ニュース一覧から取得。日付は報道日であり、公式公表日は未確定。初報・続報、既存記録との関係、個人情報への影響の照合が必要。6月以前の公表の可能性も含めて確認する。"
+    },
+    "reviewed_on": "2026-10-18",
+    "resolution": "published",
+    "incident_ids": [
+      "nakabayashi-20261006"
+    ],
+    "reason": "7月調査で既存記録または公式公表と照合。",
+    "source_urls": [
+      "https://www.security-next.com/187949"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "jul-review-next-187382",
+      "organization": "ランサム感染の可能性、店舗に影響なし - ファイブフォックス",
+      "reported_on": "2026-07-27",
+      "verification": "pending",
+      "reference_url": "https://www.security-next.com/187382",
+      "note": "7月の月間ニュース一覧から取得。日付は報道日であり、公式公表日は未確定。初報・続報、既存記録との関係、個人情報への影響の照合が必要。6月以前の公表の可能性も含めて確認する。"
+    },
+    "reviewed_on": "2026-10-18",
+    "resolution": "published",
+    "incident_ids": [
+      "fivefoxes-20260908"
+    ],
+    "reason": "7月調査で既存記録または公式公表と照合。",
+    "source_urls": [
+      "https://www.security-next.com/187382"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "jul-review-next-187370",
+      "organization": "子会社SMS配信システムにサイバー攻撃 - ファブリカHD",
+      "reported_on": "2026-07-27",
+      "verification": "pending",
+      "reference_url": "https://www.security-next.com/187370",
+      "note": "7月の月間ニュース一覧から取得。日付は報道日であり、公式公表日は未確定。初報・続報、既存記録との関係、個人情報への影響の照合が必要。6月以前の公表の可能性も含めて確認する。"
+    },
+    "reviewed_on": "2026-10-18",
+    "resolution": "published",
+    "incident_ids": [
+      "media4u-sms-20260714"
+    ],
+    "reason": "7月調査で既存記録または公式公表と照合。",
+    "source_urls": [
+      "https://www.security-next.com/187370"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "jul-review-next-187307",
+      "organization": "ふるさと納税寄付者向けのメールに他寄付者の個人情報 - 太田市",
+      "reported_on": "2026-07-24",
+      "verification": "pending",
+      "reference_url": "https://www.security-next.com/187307",
+      "note": "7月の月間ニュース一覧から取得。日付は報道日であり、公式公表日は未確定。初報・続報、既存記録との関係、個人情報への影響の照合が必要。6月以前の公表の可能性も含めて確認する。"
+    },
+    "reviewed_on": "2026-10-18",
+    "resolution": "published",
+    "incident_ids": [
+      "ota-donation-mail-20260701"
+    ],
+    "reason": "7月調査で既存記録または公式公表と照合。",
+    "source_urls": [
+      "https://www.security-next.com/187307"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "jul-review-next-187392",
+      "organization": "契約審査員がサポート詐欺被害、PC遠隔操作 - 海外貨物検査",
+      "reported_on": "2026-07-17",
+      "verification": "pending",
+      "reference_url": "https://www.security-next.com/187392",
+      "note": "7月の月間ニュース一覧から取得。日付は報道日であり、公式公表日は未確定。初報・続報、既存記録との関係、個人情報への影響の照合が必要。6月以前の公表の可能性も含めて確認する。"
+    },
+    "reviewed_on": "2026-10-18",
+    "resolution": "published",
+    "incident_ids": [
+      "omic-supportscam-20260714"
+    ],
+    "reason": "7月調査で既存記録または公式公表と照合。",
+    "source_urls": [
+      "https://www.security-next.com/187392"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "jul-review-next-187305",
+      "organization": "ゲーム利用者の内部識別子を広告ツールに外部送信 - LINEヤフー",
+      "reported_on": "2026-07-15",
+      "verification": "pending",
+      "reference_url": "https://www.security-next.com/187305",
+      "note": "7月の月間ニュース一覧から取得。日付は報道日であり、公式公表日は未確定。初報・続報、既存記録との関係、個人情報への影響の照合が必要。6月以前の公表の可能性も含めて確認する。"
+    },
+    "reviewed_on": "2026-10-18",
+    "resolution": "published",
+    "incident_ids": [
+      "line-game-identifiers-20260713"
+    ],
+    "reason": "7月調査で既存記録または公式公表と照合。",
+    "source_urls": [
+      "https://www.security-next.com/187305"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "jul-review-next-186971",
+      "organization": "委託先のサーバから個人情報が流出した可能性 - 韓流エンタメ会社",
+      "reported_on": "2026-07-13",
+      "verification": "pending",
+      "reference_url": "https://www.security-next.com/186971",
+      "note": "7月の月間ニュース一覧から取得。日付は報道日であり、公式公表日は未確定。初報・続報、既存記録との関係、個人情報への影響の照合が必要。6月以前の公表の可能性も含めて確認する。"
+    },
+    "reviewed_on": "2026-10-18",
+    "resolution": "published",
+    "incident_ids": [
+      "frau-international-20260803"
+    ],
+    "reason": "7月調査で既存記録または公式公表と照合。",
+    "source_urls": [
+      "https://www.security-next.com/186971"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "jul-review-next-187218",
+      "organization": "情報流出の可能性、影響など調査 - テレビ朝日子会社",
+      "reported_on": "2026-07-13",
+      "verification": "pending",
+      "reference_url": "https://www.security-next.com/187218",
+      "note": "7月の月間ニュース一覧から取得。日付は報道日であり、公式公表日は未確定。初報・続報、既存記録との関係、個人情報への影響の照合が必要。6月以前の公表の可能性も含めて確認する。"
+    },
+    "reviewed_on": "2026-10-18",
+    "resolution": "published",
+    "incident_ids": [
+      "mediaplex-server-20260703"
+    ],
+    "reason": "7月調査で既存記録または公式公表と照合。",
+    "source_urls": [
+      "https://www.security-next.com/187218"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "jul-review-next-187065",
+      "organization": "代理店に顧客の個人情報含むファイルを誤送信 - オリックス生命",
+      "reported_on": "2026-07-09",
+      "verification": "pending",
+      "reference_url": "https://www.security-next.com/187065",
+      "note": "7月の月間ニュース一覧から取得。日付は報道日であり、公式公表日は未確定。初報・続報、既存記録との関係、個人情報への影響の照合が必要。6月以前の公表の可能性も含めて確認する。"
+    },
+    "reviewed_on": "2026-10-18",
+    "resolution": "published",
+    "incident_ids": [
+      "orixlife-mail-july-20260707"
+    ],
+    "reason": "7月調査で既存記録または公式公表と照合。",
+    "source_urls": [
+      "https://www.security-next.com/187065"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "jul-review-next-186704",
+      "organization": "持込用学習端末のECサイトにサイバー攻撃 - 個人情報流出の可能性",
+      "reported_on": "2026-07-07",
+      "verification": "pending",
+      "reference_url": "https://www.security-next.com/186704",
+      "note": "7月の月間ニュース一覧から取得。日付は報道日であり、公式公表日は未確定。初報・続報、既存記録との関係、個人情報への影響の照合が必要。6月以前の公表の可能性も含めて確認する。"
+    },
+    "reviewed_on": "2026-10-18",
+    "resolution": "published",
+    "incident_ids": [
+      "kaga-solnet-20260817"
+    ],
+    "reason": "7月調査で既存記録または公式公表と照合。",
+    "source_urls": [
+      "https://www.security-next.com/186704"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "jul-review-next-186702",
+      "organization": "グループ会社に不正アクセス、業務関連情報が流出か - ABCテレビ",
+      "reported_on": "2026-07-03",
+      "verification": "pending",
+      "reference_url": "https://www.security-next.com/186702",
+      "note": "7月の月間ニュース一覧から取得。日付は報道日であり、公式公表日は未確定。初報・続報、既存記録との関係、個人情報への影響の照合が必要。6月以前の公表の可能性も含めて確認する。"
+    },
+    "reviewed_on": "2026-10-18",
+    "resolution": "published",
+    "incident_ids": [
+      "inex-cloudmail-20260701"
+    ],
+    "reason": "7月調査で既存記録または公式公表と照合。",
+    "source_urls": [
+      "https://www.security-next.com/186702"
+    ]
   }
 ]

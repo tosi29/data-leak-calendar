@@ -1,0 +1,49 @@
+{
+  "id": "mie-tsu-bid-20260704",
+  "organization": {
+    "name": "三重県津建設事務所",
+    "sector": "自治体・行政"
+  },
+  "title": "入札の回答書に業者担当者の個人情報を掲載",
+  "summary": "入札の質問回答を掲載する際、業者名や担当者の氏名・連絡先を残したまま公開した。情報を削除し、入札を中止した。",
+  "published_on": "2026-07-04",
+  "first_published_on": "2026-07-04",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-18",
+  "incident_type": "accident",
+  "leak_status": "exposed",
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "対象規模は未公表"
+    }
+  ],
+  "data_types": [
+    "担当者氏名",
+    "電話番号",
+    "FAX番号",
+    "会社名"
+  ],
+  "cause": {
+    "category": "redaction_error",
+    "detail": "入札の質問回答を掲載する際、業者名や担当者の氏名・連絡先を残したまま公開した。情報を削除し、入札を中止した。",
+    "certainty": "confirmed"
+  },
+  "sources": [
+    {
+      "url": "https://www.pref.mie.lg.jp/TOPICS/m0038900075.htm",
+      "title": "三重県｜津建設事務所の指名競争入札に係る個人情報の漏えいについて",
+      "type": "official",
+      "published_on": "2026-07-04",
+      "checked_on": "2026-10-18"
+    }
+  ],
+  "notes": "",
+  "updates": [],
+  "verification": "official",
+  "related_vendor": null
+}

@@ -1,0 +1,52 @@
+{
+  "id": "isesaki-ambulance-records-20260710",
+  "organization": {
+    "name": "伊勢崎市消防本部",
+    "sector": "自治体・行政"
+  },
+  "title": "救急活動記録票3,171人分を誤廃棄",
+  "summary": "玉村消防署で保存期間内の救急活動記録票を誤って廃棄した。多くの記録は情報管理システムにも一部保存されており、外部漏えいの報告はないとした。",
+  "published_on": "2026-07-10",
+  "first_published_on": "2026-07-10",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-18",
+  "incident_type": "accident",
+  "leak_status": "lost",
+  "impact": [
+    {
+      "count": 3171,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表された対象規模"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "生年月日",
+    "性別",
+    "住所",
+    "電話番号",
+    "観察・処置結果",
+    "搬送先病院"
+  ],
+  "cause": {
+    "category": "loss",
+    "detail": "玉村消防署で保存期間内の救急活動記録票を誤って廃棄した。多くの記録は情報管理システムにも一部保存されており、外部漏えいの報告はないとした。",
+    "certainty": "confirmed"
+  },
+  "sources": [
+    {
+      "url": "https://www.city.isesaki.lg.jp/soshiki/honbu/shobo/soumu/23650.html",
+      "title": " 救急活動記録票の誤廃棄について／伊勢崎市 ",
+      "type": "official",
+      "published_on": "2026-07-10",
+      "checked_on": "2026-10-18"
+    }
+  ],
+  "notes": "",
+  "updates": [],
+  "verification": "official",
+  "related_vendor": null
+}

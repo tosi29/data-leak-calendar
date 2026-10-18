@@ -1,0 +1,44 @@
+{
+  "id": "kawasaki-ida-paper-20260729",
+  "organization": {
+    "name": "川崎市立井田病院",
+    "sector": "自治体・行政"
+  },
+  "title": "患者35人の情報を含む書類を病室に置き忘れ",
+  "summary": "医師が病室に書類を置き忘れ、その患者の自宅で発見された。病院は入院患者35人分の個人情報が漏えいしたと公表した。",
+  "published_on": "2026-07-29",
+  "first_published_on": "2026-07-29",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-18",
+  "incident_type": "accident",
+  "leak_status": "confirmed",
+  "impact": [
+    {
+      "count": 35,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表された対象規模"
+    }
+  ],
+  "data_types": [],
+  "cause": {
+    "category": "loss",
+    "detail": "医師が病室に書類を置き忘れ、その患者の自宅で発見された。病院は入院患者35人分の個人情報が漏えいしたと公表した。",
+    "certainty": "unknown"
+  },
+  "sources": [
+    {
+      "url": "https://www.city.kawasaki.jp/templates/prs/33/0000189123.html",
+      "title": " 共通メニューなどをスキップして本文へ ",
+      "type": "official",
+      "published_on": "2026-07-29",
+      "checked_on": "2026-10-18"
+    }
+  ],
+  "notes": "",
+  "updates": [],
+  "verification": "official",
+  "related_vendor": null
+}

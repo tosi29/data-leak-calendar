@@ -1,0 +1,56 @@
+{
+  "id": "tokai-shakyo-form-20260728",
+  "organization": {
+    "name": "東海村社会福祉協議会",
+    "sector": "企業・団体"
+  },
+  "title": "児童向け事業の申込フォームで個人情報が閲覧可能に",
+  "summary": "フォーム設定の誤りで、同じ会場の申込者同士で保護者・児童の情報を閲覧できる状態になった。7月7日の指摘後に設定を修正した。",
+  "published_on": "2026-07-28",
+  "first_published_on": "2026-07-28",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-18",
+  "incident_type": "accident",
+  "leak_status": "exposed",
+  "impact": [
+    {
+      "count": 65,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "保護者"
+    },
+    {
+      "count": 80,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "児童"
+    }
+  ],
+  "data_types": [
+    "保護者氏名",
+    "児童氏名",
+    "学年",
+    "メールアドレス",
+    "電話番号"
+  ],
+  "cause": {
+    "category": "configuration",
+    "detail": "フォーム設定の誤りで、同じ会場の申込者同士で保護者・児童の情報を閲覧できる状態になった。7月7日の指摘後に設定を修正した。",
+    "certainty": "confirmed"
+  },
+  "sources": [
+    {
+      "url": "https://t-shakyo.or.jp/pdf/info_20260728.pdf",
+      "title": "WEB 参加申込フォームの設定誤りによる個人情報の漏えいについて",
+      "type": "official",
+      "published_on": "2026-07-28",
+      "checked_on": "2026-10-18"
+    }
+  ],
+  "notes": "",
+  "updates": [],
+  "verification": "official",
+  "related_vendor": null
+}

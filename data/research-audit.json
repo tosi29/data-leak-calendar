@@ -4493,6 +4493,1064 @@
         "追加3件はいずれも漏えいの疑いであり、確認済みの流出として数えない。",
         "新規3件のベンダー全役割調査および全続報の網羅は未実施。"
       ]
+    },
+    {
+      "checked_on": "2026-10-18",
+      "coverage_start": "2026-07-01",
+      "coverage_end": "2026-07-31",
+      "scope": "7月の初回収集。公式公表本文で確認した組織・事案を掲載。",
+      "method": [
+        "Security NEXTの7月一覧11ページと記事91件、個人情報関連の月次集約、TMIの7月一覧から候補を収集。",
+        "候補の公式HTML・PDFを取得し、本文の公表日・対象規模・確認状況を確認できた記録を追加。取得件数を確認済み事案件数には換算しない。",
+        "大阪市一括公表26件のうち6月個別公表済み5件を除き21件を掲載。",
+        "既存9記録は続報の情報を保持して7月公表日に修正。加賀ソルネット関連の学校等の公表21件は共通事案との関係を明記。"
+      ],
+      "added_incident_ids": [
+        "nssg-ransom-20260731",
+        "alsok-joylife-20260731",
+        "line-game-identifiers-20260713",
+        "visualarts-server-20260731",
+        "sen-haicheese-20260731",
+        "solid-advance-20260716",
+        "fujikura-composites-mail-20260731",
+        "mediaplex-server-20260703",
+        "askul-ransom-20260730",
+        "suginami-nationality-label-20260729",
+        "tokai-shakyo-form-20260728",
+        "takaratomy-duelmasters-20260728",
+        "fine-onlineshop-20260727",
+        "nidek-website-20260724",
+        "jr-takashimaya-staff-20260724",
+        "cmic-raconnect-20260724",
+        "yanagawa-agriculture-pdf-20260723",
+        "bell24-tokyoapp-20260723",
+        "first-loan-20260709",
+        "nagoya-medical-usb-20260717",
+        "asahi-group-ransom-20260717",
+        "omikenshi-server-20260717",
+        "kitakyushu-college-mail-20260714",
+        "omic-supportscam-20260714",
+        "canet-kagoshima-20260714",
+        "yopu-skimming-20260713",
+        "network-moving-20260709",
+        "orixlife-mail-july-20260707",
+        "kddi-ispmail-20260706",
+        "mie-tsu-bid-20260704",
+        "ota-donation-mail-20260701",
+        "inex-cloudmail-20260701",
+        "chubugakuin-solnet-20260701",
+        "onomichi-solnet-20260701",
+        "sapporocity-solnet-20260701",
+        "kyotoart-solnet-20260701",
+        "misuzugaoka-solnet-20260701",
+        "anabuki-solnet-20260701",
+        "teikyo-solnet-20260702",
+        "jiu-solnet-20260702",
+        "yokohamashodai-solnet-20260702",
+        "osakasandai-solnet-20260701",
+        "kupartners-solnet-20260702",
+        "motomachi-solnet-20260702",
+        "adachi-solnet-20260702",
+        "juntendo-solnet-20260703",
+        "ogaki-solnet-20260703",
+        "hakuho-solnet-20260703",
+        "kansaiiryo-solnet-20260708",
+        "otsuma-solnet-20260709",
+        "wako-solnet-20260710",
+        "tsm-solnet-20260713",
+        "jissen-solnet-20260717",
+        "matsuyama-farmer-mail-20260729",
+        "kyorin-supportscam-20260708",
+        "osaka-nishi-label-20260727",
+        "marutaka-ransom-20260729",
+        "kawasaki-ida-paper-20260729",
+        "nagasaki-health-list-20260722",
+        "isesaki-ambulance-records-20260710",
+        "ishikawa-childallowance-mail-20260727",
+        "nagano-ledger-maps-20260724",
+        "doshisha-sharepoint-20260713",
+        "media4u-sms-20260714",
+        "osaka-bulk-jul-01-20260709",
+        "osaka-bulk-jul-02-20260709",
+        "osaka-bulk-jul-03-20260709",
+        "osaka-bulk-jul-04-20260709",
+        "osaka-bulk-jul-05-20260709",
+        "osaka-bulk-jul-06-20260709",
+        "osaka-bulk-jul-07-20260709",
+        "osaka-bulk-jul-08-20260709",
+        "osaka-bulk-jul-10-20260709",
+        "osaka-bulk-jul-11-20260709",
+        "osaka-bulk-jul-12-20260709",
+        "osaka-bulk-jul-13-20260709",
+        "osaka-bulk-jul-14-20260709",
+        "osaka-bulk-jul-15-20260709",
+        "osaka-bulk-jul-16-20260709",
+        "osaka-bulk-jul-19-20260709",
+        "osaka-bulk-jul-20-20260709",
+        "osaka-bulk-jul-21-20260709",
+        "osaka-bulk-jul-22-20260709",
+        "osaka-bulk-jul-23-20260709",
+        "osaka-bulk-jul-25-20260709"
+      ],
+      "publication_date_corrections": [
+        {
+          "incident_id": "epark-peakmanager-20260924",
+          "previous_published_on": "2026-09-24",
+          "published_on": "2026-07-31",
+          "source_url": "https://www.epark-relax.co.jp/news/225"
+        },
+        {
+          "incident_id": "central-consultant-20260901",
+          "previous_published_on": "2026-09-01",
+          "published_on": "2026-07-31",
+          "source_url": "https://central-con.co.jp/news/%E5%BD%93%E7%A4%BE%E3%82%B3%E3%83%BC%E3%83%9D%E3%83%AC%E3%83%BC%E3%83%88%E3%82%B5%E3%82%A4%E3%83%88%E3%81%B8%E3%81%AE%E4%B8%8D%E6%AD%A3%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E3%81%AB%E3%82%88%E3%82%8B/"
+        },
+        {
+          "incident_id": "seiho-20260914",
+          "previous_published_on": "2026-09-14",
+          "published_on": "2026-07-29",
+          "source_url": "https://www.seiho.or.jp/info/news/shared/mt-item/20260729.pdf"
+        },
+        {
+          "incident_id": "nakabayashi-20261006",
+          "previous_published_on": "2026-10-06",
+          "published_on": "2026-07-24",
+          "source_url": "https://www.nakabayashi.co.jp/news/2026/info/1369"
+        },
+        {
+          "incident_id": "fuso-dentsu-20260910",
+          "previous_published_on": "2026-09-10",
+          "published_on": "2026-07-22",
+          "source_url": "https://www.fusodentsu.co.jp/news/news_cp_20260722.html"
+        },
+        {
+          "incident_id": "fivefoxes-20260908",
+          "previous_published_on": "2026-09-08",
+          "published_on": "2026-07-14",
+          "source_url": "https://www.fivefoxes.co.jp/2026/07/post-20.html"
+        },
+        {
+          "incident_id": "frau-international-20260803",
+          "previous_published_on": "2026-08-03",
+          "published_on": "2026-07-07",
+          "source_url": "https://www.frau-inter.co.jp/other/20260707_6444/"
+        },
+        {
+          "incident_id": "kaga-solnet-20260817",
+          "previous_published_on": "2026-08-17",
+          "published_on": "2026-07-01",
+          "source_url": "https://www.kgem.co.jp/news/news260701/"
+        },
+        {
+          "incident_id": "gontran-cherrier-20260903",
+          "previous_published_on": "2026-08-04",
+          "published_on": "2026-07-28",
+          "source_url": "https://www.mkyosho.co.jp/news/2026/07/28/13-770/?list=1"
+        }
+      ],
+      "primary_source_reviews": [
+        {
+          "url": "https://www.nssg.co.jp/news/2026/0731-1300.html",
+          "status": "published",
+          "incident_id": "nssg-ransom-20260731"
+        },
+        {
+          "url": "https://www.epark-relax.co.jp/news/225",
+          "status": "merged_existing",
+          "incident_id": "epark-peakmanager-20260924"
+        },
+        {
+          "url": "https://central-con.co.jp/news/%E5%BD%93%E7%A4%BE%E3%82%B3%E3%83%BC%E3%83%9D%E3%83%AC%E3%83%BC%E3%83%88%E3%82%B5%E3%82%A4%E3%83%88%E3%81%B8%E3%81%AE%E4%B8%8D%E6%AD%A3%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E3%81%AB%E3%82%88%E3%82%8B/",
+          "status": "merged_existing",
+          "incident_id": "central-consultant-20260901"
+        },
+        {
+          "url": "https://joylife.alsok.co.jp/files/optionallink/00005870_file.pdf",
+          "status": "published",
+          "incident_id": "alsok-joylife-20260731"
+        },
+        {
+          "url": "https://www.lycorp.co.jp/ja/privacy-security/announcement/020632/",
+          "status": "published",
+          "incident_id": "line-game-identifiers-20260713"
+        },
+        {
+          "url": "https://nhp.visual-arts.jp/wp/wp-content/uploads/2026/07/VA20260731.pdf",
+          "status": "published",
+          "incident_id": "visualarts-server-20260731"
+        },
+        {
+          "url": "https://sencorp.co.jp/12657/",
+          "status": "published",
+          "incident_id": "sen-haicheese-20260731"
+        },
+        {
+          "url": "https://www.solid-adv.co.jp/20260716-01/",
+          "status": "published",
+          "incident_id": "solid-advance-20260716"
+        },
+        {
+          "url": "https://www.fujikuracomposites.jp/main/wp-content/uploads/2026/07/70419dc98de0824033e021e567a73798.pdf",
+          "status": "published",
+          "incident_id": "fujikura-composites-mail-20260731"
+        },
+        {
+          "url": "https://www.mediaplex.co.jp/wp-content/uploads/20260703.pdf",
+          "status": "published",
+          "incident_id": "mediaplex-server-20260703"
+        },
+        {
+          "url": "https://pdf.irpocket.com/C0032/xoA3/Ef45/bBPr/O98H.pdf",
+          "status": "published",
+          "incident_id": "askul-ransom-20260730"
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/news/28152.html",
+          "status": "published",
+          "incident_id": "suginami-nationality-label-20260729"
+        },
+        {
+          "url": "https://www.seiho.or.jp/info/news/shared/mt-item/20260729.pdf",
+          "status": "merged_existing",
+          "incident_id": "seiho-20260914"
+        },
+        {
+          "url": "https://t-shakyo.or.jp/pdf/info_20260728.pdf",
+          "status": "published",
+          "incident_id": "tokai-shakyo-form-20260728"
+        },
+        {
+          "url": "https://www.takaratomy.co.jp/support/pdf/dmp20260728.pdf",
+          "status": "published",
+          "incident_id": "takaratomy-duelmasters-20260728"
+        },
+        {
+          "url": "https://www.fine-revolution.co.jp/info/3879/",
+          "status": "published",
+          "incident_id": "fine-onlineshop-20260727"
+        },
+        {
+          "url": "https://www.nidek.co.jp/news/20260724_news/",
+          "status": "published",
+          "incident_id": "nidek-website-20260724"
+        },
+        {
+          "url": "https://www.jr-takashimaya.co.jp/info/post-287.html",
+          "status": "published",
+          "incident_id": "jr-takashimaya-staff-20260724"
+        },
+        {
+          "url": "https://www.nakabayashi.co.jp/news/2026/info/1369",
+          "status": "merged_existing",
+          "incident_id": "nakabayashi-20261006"
+        },
+        {
+          "url": "https://www.cmic-hci.com/news/20260724",
+          "status": "published",
+          "incident_id": "cmic-raconnect-20260724"
+        },
+        {
+          "url": "https://www.city.yanagawa.fukuoka.jp/sangyo/nogyo/0723.html",
+          "status": "published",
+          "incident_id": "yanagawa-agriculture-pdf-20260723"
+        },
+        {
+          "url": "https://www.bell24.co.jp/ja/news/uploads/20260723.pdf",
+          "status": "published",
+          "incident_id": "bell24-tokyoapp-20260723"
+        },
+        {
+          "url": "https://first-loan.co.jp/information/%ef%bc%bb%e7%b6%9a%e5%a0%b1%ef%bc%bd%e5%80%8b%e4%ba%ba%e6%83%85%e5%a0%b1%e6%bc%8f%e3%81%88%e3%81%84%e3%81%ab%e9%96%a2%e3%81%99%e3%82%8b%e8%aa%bf%e6%9f%bb%e7%b5%90%e6%9e%9c%e3%81%ae%e3%81%94%e5%a0%b1/",
+          "status": "published",
+          "incident_id": "first-loan-20260709"
+        },
+        {
+          "url": "https://www.fusodentsu.co.jp/news/news_cp_20260722.html",
+          "status": "merged_existing",
+          "incident_id": "fuso-dentsu-20260910"
+        },
+        {
+          "url": "https://nagoya.hosp.go.jp/news/2026/20260717_01/",
+          "status": "published",
+          "incident_id": "nagoya-medical-usb-20260717"
+        },
+        {
+          "url": "https://www.asahigroup-holdings.com/newsroom/detail/20260717-0101.html",
+          "status": "published",
+          "incident_id": "asahi-group-ransom-20260717"
+        },
+        {
+          "url": "https://omikenshi.co.jp/wordpress/wp-content/uploads/2026/07/20260717_1.pdf",
+          "status": "published",
+          "incident_id": "omikenshi-server-20260717"
+        },
+        {
+          "url": "https://www.city.kitakyushu.lg.jp/files/001220785.pdf",
+          "status": "published",
+          "incident_id": "kitakyushu-college-mail-20260714"
+        },
+        {
+          "url": "https://omicnet.com/uncategorized/%E5%80%8B%E4%BA%BA%E6%83%85%E5%A0%B1%E6%BC%8F%E6%B4%A9%E3%81%AE%E3%81%8A%E3%81%9D%E3%82%8C%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B%E3%81%A8%E3%81%8A%E8%A9%AB%E3%81%B3/",
+          "status": "published",
+          "incident_id": "omic-supportscam-20260714"
+        },
+        {
+          "url": "https://www.fivefoxes.co.jp/2026/07/post-20.html",
+          "status": "merged_existing",
+          "incident_id": "fivefoxes-20260908"
+        },
+        {
+          "url": "https://canet-k.com/archives/442",
+          "status": "published",
+          "incident_id": "canet-kagoshima-20260714"
+        },
+        {
+          "url": "http://yopu.co.jp/%e5%80%8b%e4%ba%ba%e6%83%85%e5%a0%b1%e6%bc%8f%e3%81%88%e3%81%84%e3%81%ab%e9%96%a2%e3%81%99%e3%82%8b%e3%81%8a%e8%a9%ab%e3%81%b3%e3%81%a8%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b/",
+          "status": "published",
+          "incident_id": "yopu-skimming-20260713"
+        },
+        {
+          "url": "https://www.happiness-to-everyone.com/news/731/",
+          "status": "published",
+          "incident_id": "network-moving-20260709"
+        },
+        {
+          "url": "https://www.orixlife.co.jp/b3cd698c38a74ebea491976d56455ecd/dc1b6713f5a645cd8327b9ccdd587a81/n260707.pdf",
+          "status": "published",
+          "incident_id": "orixlife-mail-july-20260707"
+        },
+        {
+          "url": "https://www.frau-inter.co.jp/other/20260707_6444/",
+          "status": "merged_existing",
+          "incident_id": "frau-international-20260803"
+        },
+        {
+          "url": "https://newsroom.kddi.com/news/assets/2026/kddi_nr_s-73_4619/kddi_nr_s-73_4619_pdf_01.pdf",
+          "status": "published",
+          "incident_id": "kddi-ispmail-20260706"
+        },
+        {
+          "url": "https://www.pref.mie.lg.jp/TOPICS/m0038900075.htm",
+          "status": "published",
+          "incident_id": "mie-tsu-bid-20260704"
+        },
+        {
+          "url": "https://www.city.ota.gunma.jp/site/furusato/1061398.html",
+          "status": "published",
+          "incident_id": "ota-donation-mail-20260701"
+        },
+        {
+          "url": "https://www.i-nex.jp/2026/07/01/security-incident-notice/",
+          "status": "published",
+          "incident_id": "inex-cloudmail-20260701"
+        },
+        {
+          "url": "https://www.kgem.co.jp/news/news260701/",
+          "status": "merged_existing",
+          "incident_id": "kaga-solnet-20260817"
+        },
+        {
+          "url": "https://www.chubu-gu.ac.jp/topics/20260701ec.html",
+          "status": "published",
+          "incident_id": "chubugakuin-solnet-20260701"
+        },
+        {
+          "url": "https://www.onomichi-u.ac.jp/docs/2026070100011/",
+          "status": "published",
+          "incident_id": "onomichi-solnet-20260701"
+        },
+        {
+          "url": "https://www.scu.ac.jp/department/news/adobecc%E5%AD%A6%E7%94%9F%E7%94%A8%E3%83%A9%E3%82%A4%E3%82%BB%E3%83%B3%E3%82%B9%E3%83%91%E3%83%83%E3%82%AF%E8%B2%A9%E5%A3%B2%E3%82%B5%E3%82%A4%E3%83%88%E3%80%8C%E3%82%A2%E3%82%AB%E3%83%87%E3%83%9F/",
+          "status": "published",
+          "incident_id": "sapporocity-solnet-20260701"
+        },
+        {
+          "url": "https://www.kyoto-art.ac.jp/news/info/1648",
+          "status": "published",
+          "incident_id": "kyotoart-solnet-20260701"
+        },
+        {
+          "url": "https://www.misuzugaoka-h.edu.city.hiroshima.jp/assets/apology.pdf",
+          "status": "published",
+          "incident_id": "misuzugaoka-solnet-20260701"
+        },
+        {
+          "url": "https://web.anabuki-college.net/news-general/69435/",
+          "status": "published",
+          "incident_id": "anabuki-solnet-20260701"
+        },
+        {
+          "url": "https://www.teikyo-u.ac.jp/topics/2026/0702-1",
+          "status": "published",
+          "incident_id": "teikyo-solnet-20260702"
+        },
+        {
+          "url": "https://www.jiu.ac.jp/news/detail/id=21437",
+          "status": "published",
+          "incident_id": "jiu-solnet-20260702"
+        },
+        {
+          "url": "https://www.shodai.ac.jp/news-topics/733/",
+          "status": "published",
+          "incident_id": "yokohamashodai-solnet-20260702"
+        },
+        {
+          "url": "https://www.osaka-sandai.ac.jp/news/students/62472/",
+          "status": "published",
+          "incident_id": "osakasandai-solnet-20260701"
+        },
+        {
+          "url": "https://www.ku-partners.co.jp/news/%E9%87%8D%E8%A6%81%E3%83%91%E3%82%BD%E3%82%B3%E3%83%B3%E8%B2%A9%E5%A3%B2%E3%82%B5%E3%82%A4%E3%83%88%E3%81%AB%E5%AF%BE%E3%81%99%E3%82%8B%E4%B8%8D%E6%AD%A3%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E3%81%AB/",
+          "status": "published",
+          "incident_id": "kupartners-solnet-20260702"
+        },
+        {
+          "url": "https://www.motomachi-hs.jp/archives/25793",
+          "status": "published",
+          "incident_id": "motomachi-solnet-20260702"
+        },
+        {
+          "url": "https://www.adachigakuen-jh.ed.jp/archives/60816",
+          "status": "published",
+          "incident_id": "adachi-solnet-20260702"
+        },
+        {
+          "url": "https://www.juntendo.ac.jp/news/27646.html",
+          "status": "published",
+          "incident_id": "juntendo-solnet-20260703"
+        },
+        {
+          "url": "https://www.books-ogaki.co.jp/post/69136",
+          "status": "published",
+          "incident_id": "ogaki-solnet-20260703"
+        },
+        {
+          "url": "https://www.hakuhojoshi-h.ed.jp/news/schoolnews/31574/",
+          "status": "published",
+          "incident_id": "hakuho-solnet-20260703"
+        },
+        {
+          "url": "https://www.kansai.ac.jp/topics/news/732",
+          "status": "published",
+          "incident_id": "kansaiiryo-solnet-20260708"
+        },
+        {
+          "url": "https://www.otsuma.ac.jp/news_campuslife/info/143854/",
+          "status": "published",
+          "incident_id": "otsuma-solnet-20260709"
+        },
+        {
+          "url": "https://www.wako.ac.jp/library/icc/news/solnet-ua.html",
+          "status": "published",
+          "incident_id": "wako-solnet-20260710"
+        },
+        {
+          "url": "https://www.tsm.ac.jp/wp/wp-content/uploads/2026/07/2577169d75bfe24e9d664a5b4a920ee4.pdf",
+          "status": "published",
+          "incident_id": "tsm-solnet-20260713"
+        },
+        {
+          "url": "https://www.jissen.ac.jp/joho/topics/p5e988000002vs8a.html",
+          "status": "published",
+          "incident_id": "jissen-solnet-20260717"
+        },
+        {
+          "url": "https://www.city.matsuyama.ehime.jp/hodo/202607/kojinjouhou.html",
+          "status": "published",
+          "incident_id": "matsuyama-farmer-mail-20260729"
+        },
+        {
+          "url": "https://www.kyorin-u.ac.jp/univ/news/4087/",
+          "status": "published",
+          "incident_id": "kyorin-supportscam-20260708"
+        },
+        {
+          "url": "https://www.city.osaka.lg.jp/hodoshiryo/nishi/0000684366.html",
+          "status": "published",
+          "incident_id": "osaka-nishi-label-20260727"
+        },
+        {
+          "url": "https://marutakakogyo.com/information/notice-ransomware-personal-information-20260729/",
+          "status": "published",
+          "incident_id": "marutaka-ransom-20260729"
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/templates/prs/33/0000189123.html",
+          "status": "published",
+          "incident_id": "kawasaki-ida-paper-20260729"
+        },
+        {
+          "url": "https://www.npmhc.jp/koshin_images/files/20260722.pdf",
+          "status": "published",
+          "incident_id": "nagasaki-health-list-20260722"
+        },
+        {
+          "url": "https://www.city.isesaki.lg.jp/soshiki/honbu/shobo/soumu/23650.html",
+          "status": "published",
+          "incident_id": "isesaki-ambulance-records-20260710"
+        },
+        {
+          "url": "https://www.pref.ishikawa.lg.jp/kisya/r8/documents/0727_15_shoushikataisakukanshitsu.pdf",
+          "status": "published",
+          "incident_id": "ishikawa-childallowance-mail-20260727"
+        },
+        {
+          "url": "https://www.pref.nagano.lg.jp/michikanri/happyou/260724press.html",
+          "status": "published",
+          "incident_id": "nagano-ledger-maps-20260724"
+        },
+        {
+          "url": "https://www.doshisha.ac.jp/news/detail/001-mXSvvv.html",
+          "status": "published",
+          "incident_id": "doshisha-sharepoint-20260713"
+        },
+        {
+          "url": "https://www.mkyosho.co.jp/news/2026/07/28/13-770/?list=1",
+          "status": "merged_existing",
+          "incident_id": "gontran-cherrier-20260903"
+        },
+        {
+          "url": "https://www.media4u.co.jp/news/3351",
+          "status": "published",
+          "incident_id": "media4u-sms-20260714"
+        }
+      ],
+      "osaka_bulk": {
+        "url": "https://www.city.osaka.lg.jp/hodoshiryo/somu/0000683020.html",
+        "published_ids": [
+          "osaka-bulk-jul-01-20260709",
+          "osaka-bulk-jul-02-20260709",
+          "osaka-bulk-jul-03-20260709",
+          "osaka-bulk-jul-04-20260709",
+          "osaka-bulk-jul-05-20260709",
+          "osaka-bulk-jul-06-20260709",
+          "osaka-bulk-jul-07-20260709",
+          "osaka-bulk-jul-08-20260709",
+          "osaka-bulk-jul-10-20260709",
+          "osaka-bulk-jul-11-20260709",
+          "osaka-bulk-jul-12-20260709",
+          "osaka-bulk-jul-13-20260709",
+          "osaka-bulk-jul-14-20260709",
+          "osaka-bulk-jul-15-20260709",
+          "osaka-bulk-jul-16-20260709",
+          "osaka-bulk-jul-19-20260709",
+          "osaka-bulk-jul-20-20260709",
+          "osaka-bulk-jul-21-20260709",
+          "osaka-bulk-jul-22-20260709",
+          "osaka-bulk-jul-23-20260709",
+          "osaka-bulk-jul-25-20260709"
+        ],
+        "excluded_rows": [
+          9,
+          17,
+          18,
+          24,
+          26
+        ]
+      },
+      "news_reviews": [
+        {
+          "url": "https://www.security-next.com/187995",
+          "status": "pending",
+          "candidate_id": "jul-review-next-187995"
+        },
+        {
+          "url": "https://www.security-next.com/187468",
+          "status": "published_or_existing",
+          "incident_ids": [
+            "yopu-skimming-20260713"
+          ]
+        },
+        {
+          "url": "https://www.security-next.com/187991",
+          "status": "pending",
+          "candidate_id": "jul-review-next-187991"
+        },
+        {
+          "url": "https://www.security-next.com/188063",
+          "status": "published_or_existing",
+          "incident_ids": [
+            "seiho-20260914"
+          ]
+        },
+        {
+          "url": "https://www.security-next.com/188146",
+          "status": "pending",
+          "candidate_id": "jul-review-next-188146"
+        },
+        {
+          "url": "https://www.security-next.com/188065",
+          "status": "published_or_existing",
+          "incident_ids": [
+            "kitakyushu-college-mail-20260714"
+          ]
+        },
+        {
+          "url": "https://www.security-next.com/187746",
+          "status": "pending",
+          "candidate_id": "jul-review-next-187746"
+        },
+        {
+          "url": "https://www.security-next.com/188056",
+          "status": "pending",
+          "candidate_id": "jul-review-next-188056"
+        },
+        {
+          "url": "https://www.security-next.com/187989",
+          "status": "published_or_existing",
+          "incident_ids": [
+            "gontran-cherrier-20260903"
+          ]
+        },
+        {
+          "url": "https://www.security-next.com/187814",
+          "status": "pending",
+          "candidate_id": "jul-review-next-187814"
+        },
+        {
+          "url": "https://www.security-next.com/187944",
+          "status": "pending",
+          "candidate_id": "jul-review-next-187944"
+        },
+        {
+          "url": "https://www.security-next.com/187949",
+          "status": "published_or_existing",
+          "incident_ids": [
+            "nakabayashi-20261006"
+          ]
+        },
+        {
+          "url": "https://www.security-next.com/187664",
+          "status": "pending",
+          "candidate_id": "jul-review-next-187664"
+        },
+        {
+          "url": "https://www.security-next.com/187942",
+          "status": "pending",
+          "candidate_id": "jul-review-next-187942"
+        },
+        {
+          "url": "https://www.security-next.com/187867",
+          "status": "pending",
+          "candidate_id": "jul-review-next-187867"
+        },
+        {
+          "url": "https://www.security-next.com/186979",
+          "status": "pending",
+          "candidate_id": "jul-review-next-186979"
+        },
+        {
+          "url": "https://www.security-next.com/187382",
+          "status": "published_or_existing",
+          "incident_ids": [
+            "fivefoxes-20260908"
+          ]
+        },
+        {
+          "url": "https://www.security-next.com/187370",
+          "status": "published_or_existing",
+          "incident_ids": [
+            "media4u-sms-20260714"
+          ]
+        },
+        {
+          "url": "https://www.security-next.com/187865",
+          "status": "pending",
+          "candidate_id": "jul-review-next-187865"
+        },
+        {
+          "url": "https://www.security-next.com/187307",
+          "status": "published_or_existing",
+          "incident_ids": [
+            "ota-donation-mail-20260701"
+          ]
+        },
+        {
+          "url": "https://www.security-next.com/187604",
+          "status": "pending",
+          "candidate_id": "jul-review-next-187604"
+        },
+        {
+          "url": "https://www.security-next.com/187608",
+          "status": "pending",
+          "candidate_id": "jul-review-next-187608"
+        },
+        {
+          "url": "https://www.security-next.com/187309",
+          "status": "pending",
+          "candidate_id": "jul-review-next-187309"
+        },
+        {
+          "url": "https://www.security-next.com/187750",
+          "status": "excluded",
+          "reason": "製品更新・統計・一般動向等で個別の国内漏えい事案ではない"
+        },
+        {
+          "url": "https://www.security-next.com/187597",
+          "status": "pending",
+          "candidate_id": "jul-review-next-187597"
+        },
+        {
+          "url": "https://www.security-next.com/187595",
+          "status": "pending",
+          "candidate_id": "jul-review-next-187595"
+        },
+        {
+          "url": "https://www.security-next.com/187524",
+          "status": "pending",
+          "candidate_id": "jul-review-next-187524"
+        },
+        {
+          "url": "https://www.security-next.com/187303",
+          "status": "pending",
+          "candidate_id": "jul-review-next-187303"
+        },
+        {
+          "url": "https://www.security-next.com/187660",
+          "status": "pending",
+          "candidate_id": "jul-review-next-187660"
+        },
+        {
+          "url": "https://www.security-next.com/187387",
+          "status": "pending",
+          "candidate_id": "jul-review-next-187387"
+        },
+        {
+          "url": "https://www.security-next.com/187696",
+          "status": "excluded",
+          "reason": "製品更新・統計・一般動向等で個別の国内漏えい事案ではない"
+        },
+        {
+          "url": "https://www.security-next.com/187474",
+          "status": "pending",
+          "candidate_id": "jul-review-next-187474"
+        },
+        {
+          "url": "https://www.security-next.com/187671",
+          "status": "pending",
+          "candidate_id": "jul-review-next-187671"
+        },
+        {
+          "url": "https://www.security-next.com/187672",
+          "status": "excluded",
+          "reason": "製品更新・統計・一般動向等で個別の国内漏えい事案ではない"
+        },
+        {
+          "url": "https://www.security-next.com/187220",
+          "status": "pending",
+          "candidate_id": "jul-review-next-187220"
+        },
+        {
+          "url": "https://www.security-next.com/187122",
+          "status": "pending",
+          "candidate_id": "jul-review-next-187122"
+        },
+        {
+          "url": "https://www.security-next.com/187071",
+          "status": "pending",
+          "candidate_id": "jul-review-next-187071"
+        },
+        {
+          "url": "https://www.security-next.com/187476",
+          "status": "pending",
+          "candidate_id": "jul-review-next-187476"
+        },
+        {
+          "url": "https://www.security-next.com/187519",
+          "status": "pending",
+          "candidate_id": "jul-review-next-187519"
+        },
+        {
+          "url": "https://www.security-next.com/186819",
+          "status": "excluded",
+          "reason": "6月に個別公表済みの大阪市絵画紛失"
+        },
+        {
+          "url": "https://www.security-next.com/187392",
+          "status": "published_or_existing",
+          "incident_ids": [
+            "omic-supportscam-20260714"
+          ]
+        },
+        {
+          "url": "https://www.security-next.com/186910",
+          "status": "pending",
+          "candidate_id": "jul-review-next-186910"
+        },
+        {
+          "url": "https://www.security-next.com/187128",
+          "status": "pending",
+          "candidate_id": "jul-review-next-187128"
+        },
+        {
+          "url": "https://www.security-next.com/187230",
+          "status": "pending",
+          "candidate_id": "jul-review-next-187230"
+        },
+        {
+          "url": "https://www.security-next.com/187482",
+          "status": "excluded",
+          "reason": "製品更新・統計・一般動向等で個別の国内漏えい事案ではない"
+        },
+        {
+          "url": "https://www.security-next.com/187470",
+          "status": "pending",
+          "candidate_id": "jul-review-next-187470"
+        },
+        {
+          "url": "https://www.security-next.com/187225",
+          "status": "pending",
+          "candidate_id": "jul-review-next-187225"
+        },
+        {
+          "url": "https://www.security-next.com/187305",
+          "status": "published_or_existing",
+          "incident_ids": [
+            "line-game-identifiers-20260713"
+          ]
+        },
+        {
+          "url": "https://www.security-next.com/187371",
+          "status": "excluded",
+          "reason": "製品更新・統計・一般動向等で個別の国内漏えい事案ではない"
+        },
+        {
+          "url": "https://www.security-next.com/187300",
+          "status": "pending",
+          "candidate_id": "jul-review-next-187300"
+        },
+        {
+          "url": "https://www.security-next.com/186709",
+          "status": "pending",
+          "candidate_id": "jul-review-next-186709"
+        },
+        {
+          "url": "https://www.security-next.com/186336",
+          "status": "excluded",
+          "reason": "製品更新・統計・一般動向等で個別の国内漏えい事案ではない"
+        },
+        {
+          "url": "https://www.security-next.com/186757",
+          "status": "excluded",
+          "reason": "製品更新・統計・一般動向等で個別の国内漏えい事案ではない"
+        },
+        {
+          "url": "https://www.security-next.com/187238",
+          "status": "excluded",
+          "reason": "製品更新・統計・一般動向等で個別の国内漏えい事案ではない"
+        },
+        {
+          "url": "https://www.security-next.com/186975",
+          "status": "pending",
+          "candidate_id": "jul-review-next-186975"
+        },
+        {
+          "url": "https://www.security-next.com/187131",
+          "status": "pending",
+          "candidate_id": "jul-review-next-187131"
+        },
+        {
+          "url": "https://www.security-next.com/186971",
+          "status": "published_or_existing",
+          "incident_ids": [
+            "frau-international-20260803"
+          ]
+        },
+        {
+          "url": "https://www.security-next.com/187218",
+          "status": "published_or_existing",
+          "incident_ids": [
+            "mediaplex-server-20260703"
+          ]
+        },
+        {
+          "url": "https://www.security-next.com/186912",
+          "status": "pending",
+          "candidate_id": "jul-review-next-186912"
+        },
+        {
+          "url": "https://www.security-next.com/187074",
+          "status": "pending",
+          "candidate_id": "jul-review-next-187074"
+        },
+        {
+          "url": "https://www.security-next.com/186977",
+          "status": "pending",
+          "candidate_id": "jul-review-next-186977"
+        },
+        {
+          "url": "https://www.security-next.com/186914",
+          "status": "pending",
+          "candidate_id": "jul-review-next-186914"
+        },
+        {
+          "url": "https://www.security-next.com/187124",
+          "status": "pending",
+          "candidate_id": "jul-review-next-187124"
+        },
+        {
+          "url": "https://www.security-next.com/187062",
+          "status": "pending",
+          "candidate_id": "jul-review-next-187062"
+        },
+        {
+          "url": "https://www.security-next.com/187065",
+          "status": "published_or_existing",
+          "incident_ids": [
+            "orixlife-mail-july-20260707"
+          ]
+        },
+        {
+          "url": "https://www.security-next.com/186567",
+          "status": "pending",
+          "candidate_id": "jul-review-next-186567"
+        },
+        {
+          "url": "https://www.security-next.com/186905",
+          "status": "pending",
+          "candidate_id": "jul-review-next-186905"
+        },
+        {
+          "url": "https://www.security-next.com/186973",
+          "status": "pending",
+          "candidate_id": "jul-review-next-186973"
+        },
+        {
+          "url": "https://www.security-next.com/187068",
+          "status": "pending",
+          "candidate_id": "jul-review-next-187068"
+        },
+        {
+          "url": "https://www.security-next.com/186194",
+          "status": "pending",
+          "candidate_id": "jul-review-next-186194"
+        },
+        {
+          "url": "https://www.security-next.com/186754",
+          "status": "pending",
+          "candidate_id": "jul-review-next-186754"
+        },
+        {
+          "url": "https://www.security-next.com/186572",
+          "status": "pending",
+          "candidate_id": "jul-review-next-186572"
+        },
+        {
+          "url": "https://www.security-next.com/186814",
+          "status": "pending",
+          "candidate_id": "jul-review-next-186814"
+        },
+        {
+          "url": "https://www.security-next.com/186711",
+          "status": "pending",
+          "candidate_id": "jul-review-next-186711"
+        },
+        {
+          "url": "https://www.security-next.com/186704",
+          "status": "published_or_existing",
+          "incident_ids": [
+            "kaga-solnet-20260817"
+          ]
+        },
+        {
+          "url": "https://www.security-next.com/186821",
+          "status": "pending",
+          "candidate_id": "jul-review-next-186821"
+        },
+        {
+          "url": "https://www.security-next.com/186765",
+          "status": "pending",
+          "candidate_id": "jul-review-next-186765"
+        },
+        {
+          "url": "https://www.security-next.com/186908",
+          "status": "pending",
+          "candidate_id": "jul-review-next-186908"
+        },
+        {
+          "url": "https://www.security-next.com/186817",
+          "status": "pending",
+          "candidate_id": "jul-review-next-186817"
+        },
+        {
+          "url": "https://www.security-next.com/186763",
+          "status": "pending",
+          "candidate_id": "jul-review-next-186763"
+        },
+        {
+          "url": "https://www.security-next.com/186746",
+          "status": "pending",
+          "candidate_id": "jul-review-next-186746"
+        },
+        {
+          "url": "https://www.security-next.com/186506",
+          "status": "pending",
+          "candidate_id": "jul-review-next-186506"
+        },
+        {
+          "url": "https://www.security-next.com/186707",
+          "status": "pending",
+          "candidate_id": "jul-review-next-186707"
+        },
+        {
+          "url": "https://www.security-next.com/186646",
+          "status": "pending",
+          "candidate_id": "jul-review-next-186646"
+        },
+        {
+          "url": "https://www.security-next.com/186702",
+          "status": "published_or_existing",
+          "incident_ids": [
+            "inex-cloudmail-20260701"
+          ]
+        },
+        {
+          "url": "https://www.security-next.com/186451",
+          "status": "pending",
+          "candidate_id": "jul-review-next-186451"
+        },
+        {
+          "url": "https://www.security-next.com/186574",
+          "status": "pending",
+          "candidate_id": "jul-review-next-186574"
+        },
+        {
+          "url": "https://www.security-next.com/186643",
+          "status": "pending",
+          "candidate_id": "jul-review-next-186643"
+        },
+        {
+          "url": "https://www.security-next.com/186648",
+          "status": "pending",
+          "candidate_id": "jul-review-next-186648"
+        },
+        {
+          "url": "https://www.security-next.com/186504",
+          "status": "pending",
+          "candidate_id": "jul-review-next-186504"
+        },
+        {
+          "url": "https://www.security-next.com/186577",
+          "status": "pending",
+          "candidate_id": "jul-review-next-186577"
+        }
+      ],
+      "summary": {
+        "added": 85,
+        "corrected_existing": 9,
+        "monthly_counts": {
+          "2026-09": 131,
+          "2026-08": 101,
+          "2026-07": 94,
+          "2026-10": 71
+        },
+        "pending_total": 75
+      },
+      "limitations": [
+        "全件収集を保証しない。候補の一部は公表日または影響範囲が未確認で、カレンダーに未掲載。",
+        "月間ニュースの記事日、発生日、庁内報告日を公式公表日に代用しない。",
+        "共通サービスに関する組織別通知を含むため、掲載件数は独立した攻撃回数・流出確定件数とは異なる。"
+      ]
     }
   ]
 }

@@ -1,0 +1,51 @@
+{
+  "id": "doshisha-sharepoint-20260713",
+  "organization": {
+    "name": "同志社大学",
+    "sector": "企業・団体"
+  },
+  "title": "SharePointの設定不備で学内から個人情報を閲覧可能に",
+  "summary": "教務事務の共有領域が業務上必要な人に限定されず、学内アカウント保持者全員からアクセス可能だった。アクセスした可能性のある人に複製・保持等がないことを確認した。",
+  "published_on": "2026-07-13",
+  "first_published_on": "2026-07-13",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-18",
+  "incident_type": "accident",
+  "leak_status": "exposed",
+  "impact": [
+    {
+      "count": 14,
+      "unit": "documents",
+      "qualifier": "exact",
+      "description": "公表された対象規模"
+    }
+  ],
+  "data_types": [
+    "学生ID",
+    "氏名",
+    "所属",
+    "国籍",
+    "生年月日",
+    "連絡先等"
+  ],
+  "cause": {
+    "category": "configuration",
+    "detail": "教務事務の共有領域が業務上必要な人に限定されず、学内アカウント保持者全員からアクセス可能だった。アクセスした可能性のある人に複製・保持等がないことを確認した。",
+    "certainty": "confirmed"
+  },
+  "sources": [
+    {
+      "url": "https://www.doshisha.ac.jp/news/detail/001-mXSvvv.html",
+      "title": " 個人情報の取扱いに関するご報告とお詫び ｜ニュース一覧｜同志社大学 ",
+      "type": "official",
+      "published_on": "2026-07-13",
+      "checked_on": "2026-10-18"
+    }
+  ],
+  "notes": "14は対象ファイル数。学生・教職員等の実人数ではない。外部からのアクセスはないと大学が説明。",
+  "updates": [],
+  "verification": "official",
+  "related_vendor": null
+}

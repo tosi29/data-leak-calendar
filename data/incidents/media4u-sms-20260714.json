@@ -1,0 +1,55 @@
+{
+  "id": "media4u-sms-20260714",
+  "organization": {
+    "name": "メディア4u",
+    "sector": "企業・団体"
+  },
+  "title": "SMS配信システムのアカウント管理情報が流出",
+  "summary": "第三者による不正アクセスで管理用一覧ファイルが流出。個人情報に該当し得る情報を含むレコードを精査した。SMS配信先の情報は今回の流出ファイルに含まれない。",
+  "published_on": "2026-07-14",
+  "first_published_on": "2026-07-14",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-18",
+  "incident_type": "attack",
+  "leak_status": "confirmed",
+  "impact": [
+    {
+      "count": 22928,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "公表された対象規模"
+    }
+  ],
+  "data_types": [
+    "担当者名",
+    "通知用メールアドレス",
+    "アカウントID等"
+  ],
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセスで管理用一覧ファイルが流出。個人情報に該当し得る情報を含むレコードを精査した。SMS配信先の情報は今回の流出ファイルに含まれない。",
+    "certainty": "unknown"
+  },
+  "sources": [
+    {
+      "url": "https://www.media4u.co.jp/news/3351",
+      "title": "SMS配信システムへの不正アクセスに関するお知らせとお詫び | 株式会社メディア４ｕ",
+      "type": "official",
+      "published_on": "2026-07-14",
+      "checked_on": "2026-10-18"
+    },
+    {
+      "url": "https://www.media4u.co.jp/news/3354",
+      "title": "SMS配信システムへの不正アクセスに関するお知らせとお詫び（第2報） | 株式会社メディア４ｕ",
+      "type": "official",
+      "published_on": "2026-07-17",
+      "checked_on": "2026-10-18"
+    }
+  ],
+  "notes": "流出ファイル95,412件のうち、個人情報を含む可能性がある精査対象22,928件。実人数ではない。親会社ファブリカホールディングスの公表と共通。",
+  "updates": [],
+  "verification": "official",
+  "related_vendor": null
+}

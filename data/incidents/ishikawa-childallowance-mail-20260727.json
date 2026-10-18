@@ -1,0 +1,50 @@
+{
+  "id": "ishikawa-childallowance-mail-20260727",
+  "organization": {
+    "name": "石川県",
+    "sector": "自治体・行政"
+  },
+  "title": "児童扶養手当対象者情報を各町へ誤送信",
+  "summary": "各町分に分けるべきファイルに8町全体の対象者情報を含め、担当課へ送信した。県は各町での削除を確認した。",
+  "published_on": "2026-07-27",
+  "first_published_on": "2026-07-27",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-18",
+  "incident_type": "accident",
+  "leak_status": "confirmed",
+  "impact": [
+    {
+      "count": 824,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表された対象規模"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "離婚日",
+    "別居日",
+    "元配偶者の氏名・住所"
+  ],
+  "cause": {
+    "category": "misdelivery",
+    "detail": "各町分に分けるべきファイルに8町全体の対象者情報を含め、担当課へ送信した。県は各町での削除を確認した。",
+    "certainty": "confirmed"
+  },
+  "sources": [
+    {
+      "url": "https://www.pref.ishikawa.lg.jp/kisya/r8/documents/0727_15_shoushikataisakukanshitsu.pdf",
+      "title": " ",
+      "type": "official",
+      "published_on": "2026-07-27",
+      "checked_on": "2026-10-18"
+    }
+  ],
+  "notes": "",
+  "updates": [],
+  "verification": "official",
+  "related_vendor": null
+}

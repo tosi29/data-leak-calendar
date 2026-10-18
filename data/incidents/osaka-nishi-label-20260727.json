@@ -1,0 +1,47 @@
+{
+  "id": "osaka-nishi-label-20260727",
+  "organization": {
+    "name": "大阪市西区",
+    "sector": "自治体・行政"
+  },
+  "title": "広報紙の宛名シール重ね貼りによる漏えい",
+  "summary": "広報紙配付委託業者が既存の宛名シールの上に別人のシールを貼り、下の住所・氏名を読める状態で配付した。",
+  "published_on": "2026-07-27",
+  "first_published_on": "2026-07-27",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-18",
+  "incident_type": "accident",
+  "leak_status": "confirmed",
+  "impact": [
+    {
+      "count": 67,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表された対象規模"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所"
+  ],
+  "cause": {
+    "category": "misdelivery",
+    "detail": "広報紙配付委託業者が既存の宛名シールの上に別人のシールを貼り、下の住所・氏名を読める状態で配付した。",
+    "certainty": "confirmed"
+  },
+  "sources": [
+    {
+      "url": "https://www.city.osaka.lg.jp/hodoshiryo/nishi/0000684366.html",
+      "title": " 大阪市：報道発表資料　西区役所広報紙配付委託業者における個人情報漏えいについて ",
+      "type": "official",
+      "published_on": "2026-07-27",
+      "checked_on": "2026-10-18"
+    }
+  ],
+  "notes": "",
+  "updates": [],
+  "verification": "official",
+  "related_vendor": null
+}

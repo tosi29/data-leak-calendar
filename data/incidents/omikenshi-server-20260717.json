@@ -1,0 +1,44 @@
+{
+  "id": "omikenshi-server-20260717",
+  "organization": {
+    "name": "オーミケンシ",
+    "sector": "企業・団体"
+  },
+  "title": "従業員と家族の個人情報漏えいの可能性",
+  "summary": "システムへの不正アクセス後の調査で、従業員・退職者と家族の情報が流出した可能性を否定できないと公表し、本人通知を行った。",
+  "published_on": "2026-07-17",
+  "first_published_on": null,
+  "publication_kind": "followup",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-18",
+  "incident_type": "attack",
+  "leak_status": "suspected",
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "対象規模は未公表"
+    }
+  ],
+  "data_types": [],
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "システムへの不正アクセス後の調査で、従業員・退職者と家族の情報が流出した可能性を否定できないと公表し、本人通知を行った。",
+    "certainty": "unknown"
+  },
+  "sources": [
+    {
+      "url": "https://omikenshi.co.jp/wordpress/wp-content/uploads/2026/07/20260717_1.pdf",
+      "title": "個人情報漏えいの可能性に関するお知らせ",
+      "type": "official",
+      "published_on": "2026-07-17",
+      "checked_on": "2026-10-18"
+    }
+  ],
+  "notes": "対象は攻撃者が閲覧できた可能性のある範囲であり、外部で実際に情報を確認したという公表ではない。",
+  "updates": [],
+  "verification": "official",
+  "related_vendor": null
+}

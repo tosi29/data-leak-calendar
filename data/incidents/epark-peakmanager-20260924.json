@@ -5,10 +5,10 @@
     "sector": "IT・インターネット"
   },
   "title": "PeakManagerの顧客情報流出（第二報）",
-  "published_on": "2026-09-24",
+  "published_on": "2026-07-31",
   "occurred_on": null,
   "detected_on": null,
-  "updated_on": "2026-10-15",
+  "updated_on": "2026-10-18",
   "leak_status": "confirmed",
   "summary": "予約・顧客管理プラットフォームのデータベースから情報が外部転送されたことを確認。重複を可能な範囲で除外して規模を再集計した。",
   "impact": [
@@ -39,12 +39,19 @@
       "title": "不正アクセスと個人情報漏えいに関するお知らせ（第二報）",
       "published_on": "2026-09-24",
       "checked_on": "2026-10-15"
+    },
+    {
+      "url": "https://www.epark-relax.co.jp/news/225",
+      "title": "不正アクセスによる個人情報漏えいの可能性に関するお知らせ（第一報）",
+      "type": "official",
+      "published_on": "2026-07-31",
+      "checked_on": "2026-10-18"
     }
   ],
-  "notes": "初報は7月31日。店舗ごとの登録や未入力項目があるため、レコード数を人数には換算できない。",
+  "notes": "初報は7月31日。店舗ごとの登録や未入力項目があるため、レコード数を人数には換算できない。 7月の公式公表資料を追加確認し、掲載日を期間内の早い公表日に変更。概要・規模・確認状況は掲載済み続報の情報を保持。",
   "updates": [],
   "first_published_on": "2026-07-31",
-  "publication_kind": "followup",
+  "publication_kind": "initial",
   "verification": "official",
   "related_vendor": null,
   "incident_type": "attack",
@@ -55,6 +62,10 @@
     "source_checks": [
       {
         "source_index": 0,
+        "status": "reviewed"
+      },
+      {
+        "source_index": 1,
         "status": "reviewed"
       }
     ]

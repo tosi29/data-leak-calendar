@@ -5,12 +5,12 @@
     "sector": "企業・団体"
   },
   "title": "クラウドストレージの認証情報を不正利用され、共有フォルダ内の顧客・担当者情報26,489件が漏えいした可能性",
-  "published_on": "2026-09-10",
+  "published_on": "2026-07-22",
   "occurred_on": null,
   "detected_on": null,
-  "updated_on": "2026-10-15",
+  "updated_on": "2026-10-18",
   "first_published_on": "2026-07-22",
-  "publication_kind": "followup",
+  "publication_kind": "initial",
   "verification": "official",
   "leak_status": "suspected",
   "summary": "クラウドストレージの認証情報を不正利用され、共有フォルダ内の顧客・担当者情報26,489件が漏えいした可能性。",
@@ -40,9 +40,16 @@
       "title": "お知らせ | 扶桑電通株式会社",
       "published_on": "2026-09-10",
       "checked_on": "2026-10-15"
+    },
+    {
+      "url": "https://www.fusodentsu.co.jp/news/news_cp_20260722.html",
+      "title": "お知らせ当社が利用するクラウドストレージへの不正アクセスについて（第1報）",
+      "type": "official",
+      "published_on": "2026-07-22",
+      "checked_on": "2026-10-18"
     }
   ],
-  "notes": "候補の「流出確認」から、公式第2報の「漏えいの可能性」に修正。",
+  "notes": "候補の「流出確認」から、公式第2報の「漏えいの可能性」に修正。 7月の公式公表資料を追加確認し、掲載日を期間内の早い公表日に変更。概要・規模・確認状況は掲載済み続報の情報を保持。",
   "updates": [],
   "incident_type": "attack",
   "vendor_research": {
@@ -52,6 +59,10 @@
     "source_checks": [
       {
         "source_index": 0,
+        "status": "reviewed"
+      },
+      {
+        "source_index": 1,
         "status": "reviewed"
       }
     ]

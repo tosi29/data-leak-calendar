@@ -1,0 +1,77 @@
+{
+  "id": "cmic-raconnect-20260724",
+  "organization": {
+    "name": "シミックヘルスケア・インスティテュート",
+    "sector": "企業・団体"
+  },
+  "title": "患者支援サービスRAコネクトの個人情報漏えい",
+  "summary": "受託運営する患者支援システムが不正アクセスを受け、公開領域のファイル内の個人情報を第三者に取得されたことを確認した。",
+  "published_on": "2026-07-24",
+  "first_published_on": "2026-07-24",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-18",
+  "incident_type": "attack",
+  "leak_status": "confirmed",
+  "impact": [
+    {
+      "count": 30,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "患者の氏名等"
+    },
+    {
+      "count": 216,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "患者のメールアドレスのみ"
+    },
+    {
+      "count": 1535,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "医療従事者"
+    },
+    {
+      "count": 113,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "委託元関係者の氏名等"
+    },
+    {
+      "count": 46,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "委託元関係者の氏名等とメールアドレス"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "年齢",
+    "性別",
+    "電話番号",
+    "都道府県",
+    "医療機関名",
+    "メールアドレス",
+    "営業所名"
+  ],
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "受託運営する患者支援システムが不正アクセスを受け、公開領域のファイル内の個人情報を第三者に取得されたことを確認した。",
+    "certainty": "unknown"
+  },
+  "sources": [
+    {
+      "url": "https://www.cmic-hci.com/news/20260724",
+      "title": "個人情報漏えいに関する調査結果のご報告とお詫び",
+      "type": "official",
+      "published_on": "2026-07-24",
+      "checked_on": "2026-10-18"
+    }
+  ],
+  "notes": "旭化成セラピューティクスの委託事案と共通。区分間の人数や委託元との規模を合算しない。",
+  "updates": [],
+  "verification": "official",
+  "related_vendor": null
+}

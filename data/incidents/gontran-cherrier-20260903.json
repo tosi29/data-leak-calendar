@@ -6,10 +6,10 @@
   },
   "title": "サーバー侵害による各サービスの顧客情報漏えいのおそれ",
   "summary": "サーバーへの不正アクセスの調査で、注文者や配送先の顧客情報が漏えいした可能性を否定できないと公表。 同じサーバー侵害について、8月4日にカリテコ、8月27日にMKPポイントカードも漏えいのおそれを公表。",
-  "published_on": "2026-08-04",
+  "published_on": "2026-07-28",
   "occurred_on": null,
   "detected_on": null,
-  "updated_on": "2026-10-15",
+  "updated_on": "2026-10-18",
   "first_published_on": "2026-07-02",
   "publication_kind": "followup",
   "verification": "official",
@@ -57,9 +57,16 @@
       "title": "名鉄協商の顧客情報漏えいのおそれに関する公表",
       "published_on": "2026-08-27",
       "checked_on": "2026-10-15"
+    },
+    {
+      "url": "https://www.mkyosho.co.jp/news/2026/07/28/13-770/?list=1",
+      "title": "不正アクセスに伴うお客様情報漏洩のおそれに関するお知らせ",
+      "type": "official",
+      "published_on": "2026-07-28",
+      "checked_on": "2026-10-18"
     }
   ],
-  "notes": "9月3日は個別通知を補完する公表。実際の外部流出は未確認。 同一侵害として統合し、対象人数は不明。最初の障害公表は7月2日。",
+  "notes": "9月3日は個別通知を補完する公表。実際の外部流出は未確認。 同一侵害として統合し、対象人数は不明。最初の障害公表は7月2日。 7月の公式公表資料を追加確認し、掲載日を期間内の早い公表日に変更。概要・規模・確認状況は掲載済み続報の情報を保持。",
   "updates": [],
   "incident_type": "attack",
   "vendor_research": {
@@ -77,6 +84,10 @@
       },
       {
         "source_index": 2,
+        "status": "reviewed"
+      },
+      {
+        "source_index": 3,
         "status": "reviewed"
       }
     ]

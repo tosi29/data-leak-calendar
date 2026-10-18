@@ -1,0 +1,44 @@
+{
+  "id": "osaka-bulk-jul-11-20260709",
+  "organization": {
+    "name": "大阪市福祉局",
+    "sector": "自治体・行政"
+  },
+  "title": "医療要否意見書の誤送付",
+  "summary": "大阪市の7月一括公表で、医療要否意見書の誤送付を報告。公表された対象は1人。",
+  "published_on": "2026-07-09",
+  "first_published_on": "2026-07-09",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-18",
+  "incident_type": "accident",
+  "leak_status": "confirmed",
+  "impact": [
+    {
+      "count": 1,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表された対象規模"
+    }
+  ],
+  "data_types": [],
+  "cause": {
+    "category": "misdelivery",
+    "detail": "大阪市の7月一括公表で、医療要否意見書の誤送付を報告。公表された対象は1人。",
+    "certainty": "unknown"
+  },
+  "sources": [
+    {
+      "url": "https://www.city.osaka.lg.jp/hodoshiryo/somu/0000683020.html",
+      "title": "大阪市7月一括公表",
+      "type": "official",
+      "published_on": "2026-07-09",
+      "checked_on": "2026-10-18"
+    }
+  ],
+  "notes": "一括公表の項番11。庁内報告日は2026-06-09であり、公表日・発生日とは区別。6月に個別公表済みの項番9・17・18・24・26は追加対象外。",
+  "updates": [],
+  "verification": "official",
+  "related_vendor": null
+}

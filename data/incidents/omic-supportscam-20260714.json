@@ -1,0 +1,74 @@
+{
+  "id": "omic-supportscam-20260714",
+  "organization": {
+    "name": "海外貨物検査",
+    "sector": "企業・団体"
+  },
+  "title": "契約審査員のサポート詐欺で個人情報流出のおそれ",
+  "summary": "有機JAS認証の契約審査員が偽警告に従って操作し、貸与PCを第三者が遠隔操作できる状態になった。PC内の顧客情報が流出した可能性を公表した。",
+  "published_on": "2026-07-14",
+  "first_published_on": "2026-07-14",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-18",
+  "incident_type": "attack",
+  "leak_status": "suspected",
+  "impact": [
+    {
+      "count": 924,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "氏名"
+    },
+    {
+      "count": 16,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "住所"
+    },
+    {
+      "count": 25,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "生年月日"
+    },
+    {
+      "count": 183,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "職歴"
+    },
+    {
+      "count": 4,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "電話番号"
+    },
+    {
+      "count": 36,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "メールアドレス"
+    }
+  ],
+  "data_types": [],
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "有機JAS認証の契約審査員が偽警告に従って操作し、貸与PCを第三者が遠隔操作できる状態になった。PC内の顧客情報が流出した可能性を公表した。",
+    "certainty": "unknown"
+  },
+  "sources": [
+    {
+      "url": "https://omicnet.com/uncategorized/%E5%80%8B%E4%BA%BA%E6%83%85%E5%A0%B1%E6%BC%8F%E6%B4%A9%E3%81%AE%E3%81%8A%E3%81%9D%E3%82%8C%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B%E3%81%A8%E3%81%8A%E8%A9%AB%E3%81%B3/",
+      "title": "個人情報漏洩のおそれに関するお知らせとお詫びについて",
+      "type": "official",
+      "published_on": "2026-08-18",
+      "checked_on": "2026-10-18"
+    }
+  ],
+  "notes": "掲載日は初報の7月14日。取得した公式ページの情報項目・件数は8月18日更新後の内容。項目間で重複するため人数は合算しない。",
+  "updates": [],
+  "verification": "official",
+  "related_vendor": null
+}

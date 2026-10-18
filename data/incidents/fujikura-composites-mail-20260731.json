@@ -1,0 +1,48 @@
+{
+  "id": "fujikura-composites-mail-20260731",
+  "organization": {
+    "name": "藤倉コンポジット",
+    "sector": "企業・団体"
+  },
+  "title": "メール自動転送設定による漏えいの可能性",
+  "summary": "意図しない外部アドレスへの自動転送設定を確認。調査で2020年まで遡る送信失敗記録が見つかり、2026年6月までの受信メール等が対象となる可能性を公表した。",
+  "published_on": "2026-07-31",
+  "first_published_on": "2026-06-22",
+  "publication_kind": "followup",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-18",
+  "incident_type": "attack",
+  "leak_status": "suspected",
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "対象規模は未公表"
+    }
+  ],
+  "data_types": [
+    "メールアドレス",
+    "メール本文",
+    "添付ファイル"
+  ],
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "意図しない外部アドレスへの自動転送設定を確認。調査で2020年まで遡る送信失敗記録が見つかり、2026年6月までの受信メール等が対象となる可能性を公表した。",
+    "certainty": "unknown"
+  },
+  "sources": [
+    {
+      "url": "https://www.fujikuracomposites.jp/main/wp-content/uploads/2026/07/70419dc98de0824033e021e567a73798.pdf",
+      "title": "70419dc98de0824033e021e567a73798.pdf",
+      "type": "official",
+      "published_on": "2026-07-31",
+      "checked_on": "2026-10-18"
+    }
+  ],
+  "notes": "",
+  "updates": [],
+  "verification": "official",
+  "related_vendor": null
+}

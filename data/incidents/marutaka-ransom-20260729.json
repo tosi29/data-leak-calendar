@@ -1,0 +1,44 @@
+{
+  "id": "marutaka-ransom-20260729",
+  "organization": {
+    "name": "丸高興業",
+    "sector": "企業・団体"
+  },
+  "title": "ランサムウェア被害後の個人情報流出の可能性",
+  "summary": "VPN機器経由で侵入され、サーバーを暗号化された。ログ削除により持ち出しの有無を完全に確認できず、顧客・取引先情報の流出の可能性を公表した。",
+  "published_on": "2026-07-29",
+  "first_published_on": null,
+  "publication_kind": "followup",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-18",
+  "incident_type": "attack",
+  "leak_status": "suspected",
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "対象規模は未公表"
+    }
+  ],
+  "data_types": [],
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "VPN機器経由で侵入され、サーバーを暗号化された。ログ削除により持ち出しの有無を完全に確認できず、顧客・取引先情報の流出の可能性を公表した。",
+    "certainty": "unknown"
+  },
+  "sources": [
+    {
+      "url": "https://marutakakogyo.com/information/notice-ransomware-personal-information-20260729/",
+      "title": " ランサムウェア被害に伴う個人情報漏えいの可能性に関するお知らせとお詫び｜丸高興業株式会社 – 丸高興業 ",
+      "type": "official",
+      "published_on": "2026-07-29",
+      "checked_on": "2026-10-18"
+    }
+  ],
+  "notes": "少なくとも1.5GBのデータに流出のおそれがあるとの公表。容量を個人情報の件数・人数には換算しない。",
+  "updates": [],
+  "verification": "official",
+  "related_vendor": null
+}

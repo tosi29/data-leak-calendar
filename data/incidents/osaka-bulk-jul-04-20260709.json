@@ -1,0 +1,44 @@
+{
+  "id": "osaka-bulk-jul-04-20260709",
+  "organization": {
+    "name": "大阪市消防局",
+    "sector": "自治体・行政"
+  },
+  "title": "議事録送付メールの誤送信",
+  "summary": "大阪市の7月一括公表で、議事録送付メールの誤送信を報告。公表された対象は4人。",
+  "published_on": "2026-07-09",
+  "first_published_on": "2026-07-09",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-18",
+  "incident_type": "accident",
+  "leak_status": "confirmed",
+  "impact": [
+    {
+      "count": 4,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表された対象規模"
+    }
+  ],
+  "data_types": [],
+  "cause": {
+    "category": "misdelivery",
+    "detail": "大阪市の7月一括公表で、議事録送付メールの誤送信を報告。公表された対象は4人。",
+    "certainty": "unknown"
+  },
+  "sources": [
+    {
+      "url": "https://www.city.osaka.lg.jp/hodoshiryo/somu/0000683020.html",
+      "title": "大阪市7月一括公表",
+      "type": "official",
+      "published_on": "2026-07-09",
+      "checked_on": "2026-10-18"
+    }
+  ],
+  "notes": "一括公表の項番4。庁内報告日は2026-05-27であり、公表日・発生日とは区別。6月に個別公表済みの項番9・17・18・24・26は追加対象外。",
+  "updates": [],
+  "verification": "official",
+  "related_vendor": null
+}

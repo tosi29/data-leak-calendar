@@ -1,0 +1,49 @@
+{
+  "id": "fine-onlineshop-20260727",
+  "organization": {
+    "name": "ファイン",
+    "sector": "企業・団体"
+  },
+  "title": "通販サイトの不正プログラムでカード情報流出のおそれ",
+  "summary": "サイトの脆弱性を悪用した不正アクセスとファイル改ざんを確認し、カード決済利用者に流出の可能性を通知した。",
+  "published_on": "2026-07-27",
+  "first_published_on": "2026-07-27",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-18",
+  "incident_type": "attack",
+  "leak_status": "suspected",
+  "impact": [
+    {
+      "count": 912,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "公表された対象規模"
+    }
+  ],
+  "data_types": [
+    "カード名義人名",
+    "カード番号",
+    "有効期限",
+    "セキュリティコード"
+  ],
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "サイトの脆弱性を悪用した不正アクセスとファイル改ざんを確認し、カード決済利用者に流出の可能性を通知した。",
+    "certainty": "unknown"
+  },
+  "sources": [
+    {
+      "url": "https://www.fine-revolution.co.jp/info/3879/",
+      "title": "弊社ECサイトにおける不正アクセスによる、個人情報流出の可能性に関するお詫びとお知らせ",
+      "type": "official",
+      "published_on": "2026-07-27",
+      "checked_on": "2026-10-18"
+    }
+  ],
+  "notes": "2017年11月9日から2026年6月30日のカード決済が対象。",
+  "updates": [],
+  "verification": "official",
+  "related_vendor": null
+}

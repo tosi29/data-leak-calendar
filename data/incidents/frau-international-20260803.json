@@ -6,12 +6,12 @@
   },
   "title": "問い合わせメール情報漏えいの調査結果",
   "summary": "外部のメール対応サービスが不正アクセスを受け、問い合わせメール等の個人情報が流出した可能性を公表した。",
-  "published_on": "2026-08-03",
+  "published_on": "2026-07-07",
   "first_published_on": "2026-07-07",
-  "publication_kind": "followup",
+  "publication_kind": "initial",
   "occurred_on": null,
   "detected_on": null,
-  "updated_on": "2026-10-16",
+  "updated_on": "2026-10-18",
   "incident_type": "attack",
   "leak_status": "suspected",
   "impact": [
@@ -46,9 +46,16 @@
       "title": "問い合わせメール情報漏えいの調査結果",
       "published_on": "2026-08-03",
       "checked_on": "2026-10-16"
+    },
+    {
+      "url": "https://www.frau-inter.co.jp/other/20260707_6444/",
+      "title": "【重要】業務委託先における不正アクセスによるお客様情報漏えいの可能性に関するお詫びとご報告（第1報） | FRAU INTERNATIONAL CO., LTD",
+      "type": "official",
+      "published_on": "2026-07-07",
+      "checked_on": "2026-10-18"
     }
   ],
-  "notes": "3,560件はメール等に含まれる個人情報の件数。カード情報1件を含む。人数に換算しない。",
+  "notes": "3,560件はメール等に含まれる個人情報の件数。カード情報1件を含む。人数に換算しない。 7月の公式公表資料を追加確認し、掲載日を期間内の早い公表日に変更。概要・規模・確認状況は掲載済み続報の情報を保持。",
   "updates": [],
   "verification": "official",
   "related_vendor": null

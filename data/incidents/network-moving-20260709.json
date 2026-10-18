@@ -1,0 +1,51 @@
+{
+  "id": "network-moving-20260709",
+  "organization": {
+    "name": "ネットワーク引越センター",
+    "sector": "企業・団体"
+  },
+  "title": "顧客管理データベースの削除と漏えいのおそれ",
+  "summary": "不正アクセスによって顧客管理データベースが削除され、暗号資産を要求する文書が設置された。持ち出しの有無を完全には確認できず、漏えいのおそれがあると公表した。",
+  "published_on": "2026-07-09",
+  "first_published_on": "2026-07-09",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-18",
+  "incident_type": "attack",
+  "leak_status": "suspected",
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "対象規模は未公表"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "電話番号",
+    "メールアドレス",
+    "引越日",
+    "家財リスト"
+  ],
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "不正アクセスによって顧客管理データベースが削除され、暗号資産を要求する文書が設置された。持ち出しの有無を完全には確認できず、漏えいのおそれがあると公表した。",
+    "certainty": "unknown"
+  },
+  "sources": [
+    {
+      "url": "https://www.happiness-to-everyone.com/news/731/",
+      "title": "お客様情報に関するお知らせとお詫び ｜ ネットワーク引越センター",
+      "type": "official",
+      "published_on": "2026-07-09",
+      "checked_on": "2026-10-18"
+    }
+  ],
+  "notes": "",
+  "updates": [],
+  "verification": "official",
+  "related_vendor": null
+}

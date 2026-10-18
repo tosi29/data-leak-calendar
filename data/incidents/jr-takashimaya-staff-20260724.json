@@ -1,0 +1,44 @@
+{
+  "id": "jr-takashimaya-staff-20260724",
+  "organization": {
+    "name": "ジェイアール東海髙島屋",
+    "sector": "企業・団体"
+  },
+  "title": "アルバイト管理システムの影響対象を追加確認",
+  "summary": "不正アクセスを受けた受付サーバー内に過去の操作ログも残っていたため、対象を7,582人へ見直した。外部流出の痕跡や事実は確認されていない。",
+  "published_on": "2026-07-24",
+  "first_published_on": "2026-05-08",
+  "publication_kind": "followup",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-18",
+  "incident_type": "attack",
+  "leak_status": "suspected",
+  "impact": [
+    {
+      "count": 7582,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表された対象規模"
+    }
+  ],
+  "data_types": [],
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "不正アクセスを受けた受付サーバー内に過去の操作ログも残っていたため、対象を7,582人へ見直した。外部流出の痕跡や事実は確認されていない。",
+    "certainty": "unknown"
+  },
+  "sources": [
+    {
+      "url": "https://www.jr-takashimaya.co.jp/info/post-287.html",
+      "title": "アルバイトスタッフ管理システム不正アクセスに関する追加調査結果のお知らせ | ジェイアール名古屋タカシマヤ",
+      "type": "official",
+      "published_on": "2026-07-24",
+      "checked_on": "2026-10-18"
+    }
+  ],
+  "notes": "",
+  "updates": [],
+  "verification": "official",
+  "related_vendor": null
+}

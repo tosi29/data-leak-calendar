@@ -1,0 +1,44 @@
+{
+  "id": "inex-cloudmail-20260701",
+  "organization": {
+    "name": "アイネックス",
+    "sector": "企業・団体"
+  },
+  "title": "従業員のメールとクラウドに不正アクセス",
+  "summary": "従業員アカウントの不正ログインと不審メールの送信を確認。朝日放送テレビの受託業務関連情報を含め、個人情報を閲覧された可能性があると公表した。",
+  "published_on": "2026-07-01",
+  "first_published_on": "2026-07-01",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-18",
+  "incident_type": "attack",
+  "leak_status": "suspected",
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "対象規模は未公表"
+    }
+  ],
+  "data_types": [],
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "従業員アカウントの不正ログインと不審メールの送信を確認。朝日放送テレビの受託業務関連情報を含め、個人情報を閲覧された可能性があると公表した。",
+    "certainty": "unknown"
+  },
+  "sources": [
+    {
+      "url": "https://www.i-nex.jp/2026/07/01/security-incident-notice/",
+      "title": "メールアカウントおよびクラウドサービスへの不正アクセスに関するお知らせ – 株式会社アイネックスdent-notice/",
+      "type": "official",
+      "published_on": "2026-07-01",
+      "checked_on": "2026-10-18"
+    }
+  ],
+  "notes": "",
+  "updates": [],
+  "verification": "official",
+  "related_vendor": null
+}

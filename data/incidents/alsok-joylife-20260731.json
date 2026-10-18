@@ -1,0 +1,53 @@
+{
+  "id": "alsok-joylife-20260731",
+  "organization": {
+    "name": "ALSOKジョイライフ",
+    "sector": "企業・団体"
+  },
+  "title": "施設入居者情報134件を閲覧された可能性",
+  "summary": "ベルパージュ奈良あやめ池の端末が不正な遠隔操作を受け、入居者の個人情報を閲覧された可能性があると公表した。",
+  "published_on": "2026-07-31",
+  "first_published_on": "2026-07-31",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-18",
+  "incident_type": "attack",
+  "leak_status": "suspected",
+  "impact": [
+    {
+      "count": 134,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "公表された対象規模"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "フリガナ",
+    "性別",
+    "生年月日",
+    "居室番号",
+    "利用者コード",
+    "在所状況",
+    "契約・入退去情報"
+  ],
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "ベルパージュ奈良あやめ池の端末が不正な遠隔操作を受け、入居者の個人情報を閲覧された可能性があると公表した。",
+    "certainty": "unknown"
+  },
+  "sources": [
+    {
+      "url": "https://joylife.alsok.co.jp/files/optionallink/00005870_file.pdf",
+      "title": "外部からの不正アクセスに伴う個人情報漏えいの可能性に関するお詫びとお知らせ",
+      "type": "official",
+      "published_on": "2026-07-31",
+      "checked_on": "2026-10-18"
+    }
+  ],
+  "notes": "",
+  "updates": [],
+  "verification": "official",
+  "related_vendor": null
+}

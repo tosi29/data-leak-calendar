@@ -1,0 +1,49 @@
+{
+  "id": "yopu-skimming-20260713",
+  "organization": {
+    "name": "YOPU（ヨプの王豚塩焼 赤坂店）",
+    "sector": "企業・団体"
+  },
+  "title": "従業員によるカード情報のスキミング",
+  "summary": "店舗従業員がスキミング機器を利用したことが判明。2024年のカード決済利用者について情報漏えいの可能性を公表した。",
+  "published_on": "2026-07-13",
+  "first_published_on": "2026-07-13",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-18",
+  "incident_type": "improper_handling",
+  "leak_status": "suspected",
+  "impact": [
+    {
+      "count": 284,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表された対象規模"
+    }
+  ],
+  "data_types": [
+    "カード名義人名",
+    "カード番号",
+    "有効期限",
+    "セキュリティコード"
+  ],
+  "cause": {
+    "category": "improper_sharing",
+    "detail": "店舗従業員がスキミング機器を利用したことが判明。2024年のカード決済利用者について情報漏えいの可能性を公表した。",
+    "certainty": "unknown"
+  },
+  "sources": [
+    {
+      "url": "http://yopu.co.jp/%e5%80%8b%e4%ba%ba%e6%83%85%e5%a0%b1%e6%bc%8f%e3%81%88%e3%81%84%e3%81%ab%e9%96%a2%e3%81%99%e3%82%8b%e3%81%8a%e8%a9%ab%e3%81%b3%e3%81%a8%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b/",
+      "title": "個人情報漏えいに関するお詫びとお知らせ",
+      "type": "official",
+      "published_on": "2026-07-13",
+      "checked_on": "2026-10-18"
+    }
+  ],
+  "notes": "会社は漏えい事案の発生を認めているが、284人全員の流出確定とは区別する。発生・発覚は2024年で、公表は2026年7月13日。",
+  "updates": [],
+  "verification": "official",
+  "related_vendor": null
+}

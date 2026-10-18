@@ -1,0 +1,68 @@
+{
+  "id": "asahi-group-ransom-20260717",
+  "organization": {
+    "name": "アサヒグループホールディングス",
+    "sector": "企業・団体"
+  },
+  "title": "サイバー攻撃の漏えいのおそれがある範囲を更新",
+  "summary": "継続調査により個人情報の対象範囲を見直し、顧客・従業員・家族・取引先などへの通知対象を修正した。サーバー内情報の外部流出の事実は未確認としている。",
+  "published_on": "2026-07-17",
+  "first_published_on": null,
+  "publication_kind": "followup",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-18",
+  "incident_type": "attack",
+  "leak_status": "suspected",
+  "impact": [
+    {
+      "count": 1525000,
+      "unit": "records",
+      "qualifier": "approximate",
+      "description": "相談室への問い合わせ者"
+    },
+    {
+      "count": 117000,
+      "unit": "records",
+      "qualifier": "approximate",
+      "description": "慶弔関係先"
+    },
+    {
+      "count": 107000,
+      "unit": "records",
+      "qualifier": "approximate",
+      "description": "従業員・退職者"
+    },
+    {
+      "count": 162000,
+      "unit": "records",
+      "qualifier": "approximate",
+      "description": "従業員等の家族"
+    },
+    {
+      "count": 378000,
+      "unit": "records",
+      "qualifier": "approximate",
+      "description": "取引先関係者"
+    }
+  ],
+  "data_types": [],
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "継続調査により個人情報の対象範囲を見直し、顧客・従業員・家族・取引先などへの通知対象を修正した。サーバー内情報の外部流出の事実は未確認としている。",
+    "certainty": "unknown"
+  },
+  "sources": [
+    {
+      "url": "https://www.asahigroup-holdings.com/newsroom/detail/20260717-0101.html",
+      "title": "サイバー攻撃に係る漏えいのおそれがある個人情報について｜ニュースルーム",
+      "type": "official",
+      "published_on": "2026-07-17",
+      "checked_on": "2026-10-18"
+    }
+  ],
+  "notes": "今回の対象は漏えいのおそれがある情報。既報の漏えい確認済み情報とは別区分。区分間の重複を考慮せず総人数には換算しない。",
+  "updates": [],
+  "verification": "official",
+  "related_vendor": null
+}

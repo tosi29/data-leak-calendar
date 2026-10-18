@@ -5,12 +5,12 @@
     "sector": "企業・団体"
   },
   "title": "アカデミコナビの不正アクセス調査結果",
-  "published_on": "2026-08-17",
+  "published_on": "2026-07-01",
   "first_published_on": "2026-07-01",
-  "publication_kind": "followup",
+  "publication_kind": "initial",
   "occurred_on": null,
   "detected_on": null,
-  "updated_on": "2026-10-15",
+  "updated_on": "2026-10-18",
   "incident_type": "attack",
   "leak_status": "confirmed",
   "summary": "調査の結果、会員165,587人分の個人情報が外部送出されたことを確認。パスワードや決済情報は確認された流出対象に含まれない。",
@@ -43,9 +43,16 @@
       "title": "アカデミコナビの不正アクセス調査結果",
       "published_on": "2026-08-17",
       "checked_on": "2026-10-15"
+    },
+    {
+      "url": "https://www.kgem.co.jp/news/news260701/",
+      "title": "当社ECサイトに対する不正アクセスに関するご報告とお詫び | 加賀ソルネットEMカンパニー",
+      "type": "official",
+      "published_on": "2026-07-01",
+      "checked_on": "2026-10-18"
     }
   ],
-  "notes": "",
+  "notes": " 7月の公式公表資料を追加確認し、掲載日を期間内の早い公表日に変更。概要・規模・確認状況は掲載済み続報の情報を保持。",
   "updates": [],
   "verification": "official",
   "related_vendor": null

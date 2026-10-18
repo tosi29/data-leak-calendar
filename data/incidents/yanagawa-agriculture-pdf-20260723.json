@@ -1,0 +1,46 @@
+{
+  "id": "yanagawa-agriculture-pdf-20260723",
+  "organization": {
+    "name": "柳川市",
+    "sector": "自治体・行政"
+  },
+  "title": "地域農業計画で氏名情報を公開",
+  "summary": "市サイトの地域農業計画に、氏名が確認できる状態の一覧を掲載していた。事務処理の誤りで個人情報保護の措置が不十分だったとして、データを差し替えた。",
+  "published_on": "2026-07-23",
+  "first_published_on": "2026-07-23",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-18",
+  "incident_type": "accident",
+  "leak_status": "exposed",
+  "impact": [
+    {
+      "count": 3828,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表された対象規模"
+    }
+  ],
+  "data_types": [
+    "氏名"
+  ],
+  "cause": {
+    "category": "redaction_error",
+    "detail": "市サイトの地域農業計画に、氏名が確認できる状態の一覧を掲載していた。事務処理の誤りで個人情報保護の措置が不十分だったとして、データを差し替えた。",
+    "certainty": "confirmed"
+  },
+  "sources": [
+    {
+      "url": "https://www.city.yanagawa.fukuoka.jp/sangyo/nogyo/0723.html",
+      "title": "柳川市ホームページ個人情報漏えいのおそれがある事案について",
+      "type": "official",
+      "published_on": "2026-07-23",
+      "checked_on": "2026-10-18"
+    }
+  ],
+  "notes": "",
+  "updates": [],
+  "verification": "official",
+  "related_vendor": null
+}

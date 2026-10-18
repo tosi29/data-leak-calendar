@@ -1,0 +1,48 @@
+{
+  "id": "bell24-tokyoapp-20260723",
+  "organization": {
+    "name": "ベルシステム24（東京アプリ窓口）",
+    "sector": "企業・団体"
+  },
+  "title": "問い合わせ対応メールに他の利用者情報を記載",
+  "summary": "東京アプリのコールセンターで、別の利用者へ送る確認メールに問い合わせ者の氏名・連絡先を含めて送信した。",
+  "published_on": "2026-07-23",
+  "first_published_on": "2026-07-23",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-18",
+  "incident_type": "accident",
+  "leak_status": "confirmed",
+  "impact": [
+    {
+      "count": 1,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表された対象規模"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "電話番号",
+    "メールアドレス"
+  ],
+  "cause": {
+    "category": "misdelivery",
+    "detail": "東京アプリのコールセンターで、別の利用者へ送る確認メールに問い合わせ者の氏名・連絡先を含めて送信した。",
+    "certainty": "confirmed"
+  },
+  "sources": [
+    {
+      "url": "https://www.bell24.co.jp/ja/news/uploads/20260723.pdf",
+      "title": "東京都公式アプリ「東京アプリ」の運営に係るコールセンター業務における 個人情報の漏えい",
+      "type": "official",
+      "published_on": "2026-07-23",
+      "checked_on": "2026-10-18"
+    }
+  ],
+  "notes": "",
+  "updates": [],
+  "verification": "official",
+  "related_vendor": null
+}

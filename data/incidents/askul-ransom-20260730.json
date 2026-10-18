@@ -1,0 +1,49 @@
+{
+  "id": "askul-ransom-20260730",
+  "organization": {
+    "name": "アスクル",
+    "sector": "企業・団体"
+  },
+  "title": "ランサムウェア被害の追加通知対象を公表",
+  "summary": "継続調査で外部流出のおそれを否定できない個人情報を追加特定し、本人通知を実施すると公表した。新たな侵害や漏えいが発生したとの発表ではない。",
+  "published_on": "2026-07-30",
+  "first_published_on": null,
+  "publication_kind": "followup",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-18",
+  "incident_type": "attack",
+  "leak_status": "suspected",
+  "impact": [
+    {
+      "count": 600000,
+      "unit": "records",
+      "qualifier": "approximate",
+      "description": "公表された対象規模"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "電話番号",
+    "メールアドレス"
+  ],
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "継続調査で外部流出のおそれを否定できない個人情報を追加特定し、本人通知を実施すると公表した。新たな侵害や漏えいが発生したとの発表ではない。",
+    "certainty": "unknown"
+  },
+  "sources": [
+    {
+      "url": "https://pdf.irpocket.com/C0032/xoA3/Ef45/bBPr/O98H.pdf",
+      "title": "ランサムウェア攻撃に伴う情報漏えいのおそれに関する本人通知の追加実施について（ランサムウェア攻撃によるシステム障害関連・第19報）",
+      "type": "official",
+      "published_on": "2026-07-30",
+      "checked_on": "2026-10-18"
+    }
+  ],
+  "notes": "約60万件は今回の追加通知対象。過去公表分を含む被害総数ではない。追加対象の外部漏えい・不正利用は未確認。",
+  "updates": [],
+  "verification": "official",
+  "related_vendor": null
+}

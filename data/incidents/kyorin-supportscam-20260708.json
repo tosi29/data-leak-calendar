@@ -1,0 +1,47 @@
+{
+  "id": "kyorin-supportscam-20260708",
+  "organization": {
+    "name": "杏林大学",
+    "sector": "企業・団体"
+  },
+  "title": "教員PCのサポート詐欺で情報漏えいのおそれ",
+  "summary": "教員が自宅で業務中に詐欺サイトをクリックし、外部からの遠隔操作を許した。PC内の学生・教員・学会員の個人情報に影響の可能性を公表した。",
+  "published_on": "2026-07-08",
+  "first_published_on": "2026-07-08",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-18",
+  "incident_type": "attack",
+  "leak_status": "suspected",
+  "impact": [
+    {
+      "count": 2500,
+      "unit": "people",
+      "qualifier": "approximate",
+      "description": "公表された対象規模"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所等"
+  ],
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "教員が自宅で業務中に詐欺サイトをクリックし、外部からの遠隔操作を許した。PC内の学生・教員・学会員の個人情報に影響の可能性を公表した。",
+    "certainty": "unknown"
+  },
+  "sources": [
+    {
+      "url": "https://www.kyorin-u.ac.jp/univ/news/4087/",
+      "title": "サポート詐欺による情報漏えいのおそれがある事案の発生について",
+      "type": "official",
+      "published_on": "2026-07-08",
+      "checked_on": "2026-10-18"
+    }
+  ],
+  "notes": "",
+  "updates": [],
+  "verification": "official",
+  "related_vendor": null
+}

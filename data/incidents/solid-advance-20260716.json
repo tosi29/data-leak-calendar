@@ -1,0 +1,51 @@
+{
+  "id": "solid-advance-20260716",
+  "organization": {
+    "name": "ソリッドアドバンス",
+    "sector": "企業・団体"
+  },
+  "title": "社内システムの侵害と情報の滅失・毀損の可能性",
+  "summary": "マルウェア感染が疑われる端末を確認し、保有情報の一部が滅失・毀損した可能性を公表。7月31日の続報でも外部漏えい・不正利用の事実は未確認としている。",
+  "published_on": "2026-07-16",
+  "first_published_on": "2026-07-16",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-18",
+  "incident_type": "attack",
+  "leak_status": "investigating",
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "対象規模は未公表"
+    }
+  ],
+  "data_types": [],
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "マルウェア感染が疑われる端末を確認し、保有情報の一部が滅失・毀損した可能性を公表。7月31日の続報でも外部漏えい・不正利用の事実は未確認としている。",
+    "certainty": "unknown"
+  },
+  "sources": [
+    {
+      "url": "https://www.solid-adv.co.jp/20260716-01/",
+      "title": "当社システムへの不正アクセスの疑いに関するお知らせ – ソリッドアドバンス株式会社",
+      "type": "official",
+      "published_on": "2026-07-16",
+      "checked_on": "2026-10-18"
+    },
+    {
+      "url": "https://www.solid-adv.co.jp/20260731-01/",
+      "title": "当社システムへの不正アクセス事案に関する続報（第二報）",
+      "type": "official",
+      "published_on": "2026-07-31",
+      "checked_on": "2026-10-18"
+    }
+  ],
+  "notes": "",
+  "updates": [],
+  "verification": "official",
+  "related_vendor": null
+}

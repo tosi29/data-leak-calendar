@@ -1,0 +1,54 @@
+{
+  "id": "takaratomy-duelmasters-20260728",
+  "organization": {
+    "name": "タカラトミー",
+    "sector": "企業・団体"
+  },
+  "title": "デュエル・マスターズのアプリ認証に不備",
+  "summary": "認証機能の設計・実装上の脆弱性により、特定の条件下で利用者情報を第三者が閲覧できる可能性があった。7月13日に改修し、実際の閲覧・不正利用は確認されていない。",
+  "published_on": "2026-07-28",
+  "first_published_on": "2026-07-28",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-18",
+  "incident_type": "accident",
+  "leak_status": "exposed",
+  "impact": [
+    {
+      "count": 155000,
+      "unit": "people",
+      "qualifier": "maximum_approximate",
+      "description": "公表された対象規模"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "電話番号",
+    "性別",
+    "生年月日",
+    "メールアドレス",
+    "サービスID",
+    "ハンドルネーム",
+    "XユーザーID"
+  ],
+  "cause": {
+    "category": "configuration",
+    "detail": "認証機能の設計・実装上の脆弱性により、特定の条件下で利用者情報を第三者が閲覧できる可能性があった。7月13日に改修し、実際の閲覧・不正利用は確認されていない。",
+    "certainty": "confirmed"
+  },
+  "sources": [
+    {
+      "url": "https://www.takaratomy.co.jp/support/pdf/dmp20260728.pdf",
+      "title": "「デュエル・マスターズ サポートアプリ」における お客様情報の漏洩可能性に関するお詫びとお知らせ",
+      "type": "official",
+      "published_on": "2026-07-28",
+      "checked_on": "2026-10-18"
+    }
+  ],
+  "notes": "",
+  "updates": [],
+  "verification": "official",
+  "related_vendor": null
+}

@@ -1,0 +1,46 @@
+{
+  "id": "suginami-nationality-label-20260729",
+  "organization": {
+    "name": "杉並区",
+    "sector": "企業・団体"
+  },
+  "title": "郵便物の宛名に不要な国籍情報を印字",
+  "summary": "生活習慣行動調査の宛名ラベルを作成する際に国籍の出力項目を誤って選択し、外国籍の対象者121人の国籍を表示した状態で配達した。",
+  "published_on": "2026-07-29",
+  "first_published_on": "2026-07-29",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-18",
+  "incident_type": "accident",
+  "leak_status": "confirmed",
+  "impact": [
+    {
+      "count": 121,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表された対象規模"
+    }
+  ],
+  "data_types": [
+    "国籍"
+  ],
+  "cause": {
+    "category": "misdelivery",
+    "detail": "生活習慣行動調査の宛名ラベルを作成する際に国籍の出力項目を誤って選択し、外国籍の対象者121人の国籍を表示した状態で配達した。",
+    "certainty": "confirmed"
+  },
+  "sources": [
+    {
+      "url": "https://www.city.suginami.tokyo.jp/news/28152.html",
+      "title": "個人情報（国籍）の漏えいについて（2026年7月29日）",
+      "type": "official",
+      "published_on": "2026-07-29",
+      "checked_on": "2026-10-18"
+    }
+  ],
+  "notes": "",
+  "updates": [],
+  "verification": "official",
+  "related_vendor": null
+}

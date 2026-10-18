@@ -5,12 +5,12 @@
     "sector": "企業・団体"
   },
   "title": "グループのシステムへの不正アクセスにより、顧客・従業員の情報が流出した可能性を続報で公表",
-  "published_on": "2026-09-08",
+  "published_on": "2026-07-14",
   "occurred_on": null,
   "detected_on": null,
-  "updated_on": "2026-10-15",
+  "updated_on": "2026-10-18",
   "first_published_on": "2026-07-14",
-  "publication_kind": "followup",
+  "publication_kind": "initial",
   "verification": "official",
   "leak_status": "suspected",
   "summary": "グループのシステムへの不正アクセスにより、顧客・従業員の情報が流出した可能性を続報で公表。",
@@ -60,9 +60,16 @@
       "title": "FIVE FOXes（ファイブフォックス）公式サイト - 不正アクセスによる個人情報流出の可能性についてのお知らせとお詫び(第二報)",
       "published_on": "2026-09-08",
       "checked_on": "2026-10-15"
+    },
+    {
+      "url": "https://www.fivefoxes.co.jp/2026/07/post-20.html",
+      "title": "FIVE FOXes（ファイブフォックス）公式サイト – ランサムウェア感染の可能性に関するお知らせとお詫び",
+      "type": "official",
+      "published_on": "2026-07-14",
+      "checked_on": "2026-10-18"
     }
   ],
-  "notes": "先頭の59,504件は一部ランクの会員情報。区分間の重複排除は未公表で、73,185人とは扱わない。",
+  "notes": "先頭の59,504件は一部ランクの会員情報。区分間の重複排除は未公表で、73,185人とは扱わない。 7月の公式公表資料を追加確認し、掲載日を期間内の早い公表日に変更。概要・規模・確認状況は掲載済み続報の情報を保持。",
   "updates": [],
   "incident_type": "attack",
   "vendor_research": {
@@ -72,6 +79,10 @@
     "source_checks": [
       {
         "source_index": 0,
+        "status": "reviewed"
+      },
+      {
+        "source_index": 1,
         "status": "reviewed"
       }
     ]

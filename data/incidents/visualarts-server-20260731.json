@@ -1,0 +1,44 @@
+{
+  "id": "visualarts-server-20260731",
+  "organization": {
+    "name": "ビジュアルアーツ",
+    "sector": "企業・団体"
+  },
+  "title": "不正アクセス被害の調査・対応状況の続報",
+  "summary": "社内情報と個人情報が流出した可能性がある事案について、個人情報保護委員会への確報提出と対応状況を公表。初報以降の対象情報の追加は確認されていないとした。",
+  "published_on": "2026-07-31",
+  "first_published_on": "2026-06-04",
+  "publication_kind": "followup",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-18",
+  "incident_type": "attack",
+  "leak_status": "suspected",
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "対象規模は未公表"
+    }
+  ],
+  "data_types": [],
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "社内情報と個人情報が流出した可能性がある事案について、個人情報保護委員会への確報提出と対応状況を公表。初報以降の対象情報の追加は確認されていないとした。",
+    "certainty": "unknown"
+  },
+  "sources": [
+    {
+      "url": "https://nhp.visual-arts.jp/wp/wp-content/uploads/2026/07/VA20260731.pdf",
+      "title": "不正アクセスによる社内情報および個⼈情報漏えいの可能性に関する お知らせとお詫び（第2報）",
+      "type": "official",
+      "published_on": "2026-07-31",
+      "checked_on": "2026-10-18"
+    }
+  ],
+  "notes": "",
+  "updates": [],
+  "verification": "official",
+  "related_vendor": null
+}

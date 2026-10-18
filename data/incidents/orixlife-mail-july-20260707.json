@@ -1,0 +1,51 @@
+{
+  "id": "orixlife-mail-july-20260707",
+  "organization": {
+    "name": "オリックス生命",
+    "sector": "企業・団体"
+  },
+  "title": "代理店に顧客情報を含むファイルを誤送信",
+  "summary": "代理店3社へ共有対象外の顧客情報を含むファイルを送信したことが判明。削除を依頼し、確認を完了した。",
+  "published_on": "2026-07-07",
+  "first_published_on": "2026-07-07",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-18",
+  "incident_type": "accident",
+  "leak_status": "confirmed",
+  "impact": [
+    {
+      "count": 6316,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表された対象規模"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "生年月日",
+    "性別",
+    "証券番号",
+    "契約内容",
+    "意見"
+  ],
+  "cause": {
+    "category": "misdelivery",
+    "detail": "代理店3社へ共有対象外の顧客情報を含むファイルを送信したことが判明。削除を依頼し、確認を完了した。",
+    "certainty": "confirmed"
+  },
+  "sources": [
+    {
+      "url": "https://www.orixlife.co.jp/b3cd698c38a74ebea491976d56455ecd/dc1b6713f5a645cd8327b9ccdd587a81/n260707.pdf",
+      "title": "メール誤送信による個人情報の漏えいに関するお詫び",
+      "type": "official",
+      "published_on": "2026-07-07",
+      "checked_on": "2026-10-18"
+    }
+  ],
+  "notes": "10月のスカラ関連事案とは別件。連絡先・決済情報は含まれない。",
+  "updates": [],
+  "verification": "official",
+  "related_vendor": null
+}
