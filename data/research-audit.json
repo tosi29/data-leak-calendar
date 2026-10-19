@@ -10994,6 +10994,39 @@
           ]
         }
       ]
+    },
+    {
+      "checked_on": "2026-10-19",
+      "scope": "ユーザー指摘のコミックシーモアとRenta!の未収録確認",
+      "queries": [
+        "site.papy.co.jp 2026 10 19 Renta 一時停止",
+        "site.nttsolmare.com 2026 10 15 不正アクセス コミックシーモア",
+        "パピレス 2026年10月19日 サービス一時停止 pdf"
+      ],
+      "added_incident_ids": [
+        "ntt-solmare-cmoa-20261016"
+      ],
+      "added_candidate_ids": [
+        "research-papyless-renta-20261019"
+      ],
+      "source_urls": [
+        "https://www.nttsolmare.com/press/2026/0616-1.html",
+        "https://www.nttsolmare.com/press/2026/1016.html",
+        "https://www.nttsolmare.com/press/2026/1016-1.html",
+        "https://renta.papy.co.jp/renta/sc/frm/info/?id=202610_u_991",
+        "https://ufocatch.com/document/TD2026101900023",
+        "https://www.itmedia.co.jp/news/article/2610/19/2000002379/",
+        "https://gamebiz.jp/news/434271"
+      ],
+      "decisions": [
+        "コミックシーモアは公式初報・第2報・第3報を本文確認し、会員情報流出を掲載。初報は障害・不正アクセスのみのため掲載日は第2報の10月16日。",
+        "Renta!は不正アクセス可能性とサービス停止のみ確認。個人情報への具体的影響が未確認のため候補に追加。公式ページと適時開示PDF本文は取得できず、報道本文を照合。"
+      ],
+      "limitations": [
+        "指定2サービスの確認であり、10月全体や既掲載全件の続報調査ではない。"
+      ],
+      "published_total": 443,
+      "pending_total": 43
     }
   ]
 }

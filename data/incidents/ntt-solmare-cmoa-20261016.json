@@ -1,0 +1,75 @@
+{
+  "id": "ntt-solmare-cmoa-20261016",
+  "organization": {
+    "name": "NTTソルマーレ（コミックシーモア）",
+    "sector": "情報・通信"
+  },
+  "title": "コミックシーモアへの不正アクセスによる会員情報の流出",
+  "summary": "会員情報を管理するシステムへの不正アクセスで、一部会員の登録情報が流出。対象件数は精査中。第3報ではシステムログの閲覧・取得も判明した。",
+  "published_on": "2026-10-16",
+  "first_published_on": "2026-10-15",
+  "publication_kind": "followup",
+  "occurred_on": null,
+  "detected_on": "2026-10-15",
+  "updated_on": "2026-10-19",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "会員情報管理システムへの第三者の不正アクセス。第3報で侵入経路・攻撃手法の特定と対処を発表したが、具体的な手口は公表していない。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "流出した会員情報の対象件数は精査中。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス",
+    "ハッシュ化されたパスワード",
+    "生年月日",
+    "性別",
+    "ニックネーム"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.nttsolmare.com/press/2026/0616-1.html",
+      "type": "official",
+      "title": "『コミックシーモア』の緊急メンテナンスについて (初報)",
+      "published_on": "2026-10-15",
+      "checked_on": "2026-10-19"
+    },
+    {
+      "url": "https://www.nttsolmare.com/press/2026/1016.html",
+      "type": "official",
+      "title": "『コミックシーモア』会員情報の流出に関するお詫びとお願い (第2報)",
+      "published_on": "2026-10-16",
+      "checked_on": "2026-10-19"
+    },
+    {
+      "url": "https://www.nttsolmare.com/press/2026/1016-1.html",
+      "type": "official",
+      "title": "『コミックシーモア』会員情報の流出に関するご報告（第3報）",
+      "published_on": "2026-10-18",
+      "checked_on": "2026-10-19"
+    }
+  ],
+  "updates": [
+    {
+      "date": "2026-10-16",
+      "summary": "会員情報の外部流出を確認した第2報を公表。対象件数は精査中。",
+      "source_index": 1
+    },
+    {
+      "date": "2026-10-18",
+      "summary": "侵入経路・攻撃手法を特定し対処。一部ログも閲覧・取得されており、会員情報の有無を精査中。",
+      "source_index": 2
+    }
+  ],
+  "notes": "カレンダーは個人情報の流出が初めて公表された10月16日を採用。初報は10月15日。クレジットカード情報は対象システムで保有せず流出なし。購入履歴の流出、MY本棚の流出・消失・欠損は第3報時点で未確認。URL中の数字ではなく本文の公表日を採用。"
+}

@@ -517,5 +517,20 @@
     "checked_urls": [
       "https://yjk365security.jp/news/anamizu-town-usb-lost-personal-info-2026/"
     ]
+  },
+  {
+    "id": "research-papyless-renta-20261019",
+    "organization": "パピレス（Renta!）",
+    "reported_on": "2026-10-19",
+    "verification": "pending",
+    "reference_url": "https://www.itmedia.co.jp/news/article/2610/19/2000002379/",
+    "note": "2026-10-19確認：10月18日にサーバーへの不正アクセスの可能性を把握してサービスを停止したと、19日に公表。ITmediaとgamebizの本文を照合。詳細と影響範囲は調査中で、個人情報の流出・閲覧可能性を具体的に示す発表は確認できないため、漏えい事案への掲載を保留。公式お知らせは503、適時開示PDF本文も未取得。情報への影響・対象・件数の続報を要確認。",
+    "reviewed_on": "2026-10-19",
+    "checked_urls": [
+      "https://renta.papy.co.jp/renta/sc/frm/info/?id=202610_u_991",
+      "https://ufocatch.com/document/TD2026101900023",
+      "https://www.itmedia.co.jp/news/article/2610/19/2000002379/",
+      "https://gamebiz.jp/news/434271"
+    ]
   }
 ]
