@@ -1,0 +1,46 @@
+{
+  "id": "sedeco-ad-20260721",
+  "organization": {
+    "name": "精電舎電子工業",
+    "sector": "企業・団体"
+  },
+  "title": "ランサムウェア調査で社員認証情報への影響を報告",
+  "summary": "VPN経由の侵入後、社員の認証情報が取得されたとみられる。ADサーバー上のデータは外部に転送されたと判断している。",
+  "published_on": "2026-07-21",
+  "first_published_on": "2026-05-07",
+  "publication_kind": "followup",
+  "occurred_on": "2026-04-08",
+  "detected_on": "2026-04-22",
+  "updated_on": "2026-10-21",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "credentials",
+    "detail": "VPNから社内へ侵入しADサーバーへログイン。社員認証情報を取得したとみられる。",
+    "certainty": "suspected"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "公表された対象規模。全件の外部流出を意味しない。"
+    }
+  ],
+  "data_types": [
+    "社員の認証情報"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.sedeco.co.jp/news/detail/?dispmid=567&itemid=111",
+      "type": "official",
+      "title": "サイバー攻撃に関するお知らせ",
+      "published_on": "2026-07-21",
+      "checked_on": "2026-10-21"
+    }
+  ],
+  "updates": [],
+  "notes": "公式続報の認証情報に関する記述を再評価し掲載。ADデータ転送は確認されているが、個々の社員情報の範囲・人数は不明のためsuspected。顧客・取引先情報の外部転送の形跡はないとの説明。"
+}

@@ -1,0 +1,48 @@
+{
+  "id": "sagawa-smartclub-mail-20260718",
+  "organization": {
+    "name": "佐川急便",
+    "sector": "企業・団体"
+  },
+  "title": "スマートクラブ通知メールに別の会員情報を表示",
+  "summary": "復旧作業時の設定誤りで、通知メールに別の利用者の氏名等が表示された。約7万人に影響した可能性がある。",
+  "published_on": "2026-07-18",
+  "first_published_on": "2026-07-18",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-07-15",
+  "updated_on": "2026-10-21",
+  "verification": "secondary",
+  "leak_status": "suspected",
+  "incident_type": "accident",
+  "cause": {
+    "category": "configuration",
+    "detail": "システム復旧作業に伴う配達予定通知メールの設定誤り。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 70000,
+      "unit": "people",
+      "qualifier": "approximate",
+      "description": "公表された対象規模。全件の外部流出を意味しない。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "メールアドレス",
+    "お問い合せ送り状No."
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.itmedia.co.jp/news/article/2607/18/1260718021/",
+      "type": "news",
+      "title": "ITmedia：スマートクラブ通知メールに別人情報",
+      "published_on": "2026-07-18",
+      "checked_on": "2026-10-21"
+    }
+  ],
+  "updates": [],
+  "notes": "7月18日公開のITmedia本文が同日の発表と明記。19日とするまとめより同日報道を採用。公式旧URLは404のため二次資料確認。10月の荷物問い合わせサービス侵害とは別事案。"
+}

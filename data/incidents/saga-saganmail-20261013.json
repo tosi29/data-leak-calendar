@@ -1,0 +1,54 @@
+{
+  "id": "saga-saganmail-20261013",
+  "organization": {
+    "name": "佐賀市",
+    "sector": "自治体"
+  },
+  "title": "さがんメールの登録者情報に漏えいの可能性",
+  "summary": "運用会社アルカディアへの不正アクセスに伴い、登録者の氏名・メールアドレスが流出した可能性があるとして配信を停止した。",
+  "published_on": "2026-10-13",
+  "first_published_on": "2026-10-13",
+  "publication_kind": "initial",
+  "occurred_on": "2026-10-11",
+  "detected_on": null,
+  "updated_on": "2026-10-21",
+  "verification": "secondary",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "不正アクセス。具体的な侵入方法は未確定。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": 39657,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表された対象規模。全件の外部流出を意味しない。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "メールアドレス"
+  ],
+  "related_vendor": "アルカディア",
+  "sources": [
+    {
+      "url": "https://kbc.co.jp/news/article.php?id=18309836&ymd=2026-10-13",
+      "type": "news",
+      "title": "KBC：佐賀市の防災メールで個人情報漏えいの可能性",
+      "published_on": "2026-10-13",
+      "checked_on": "2026-10-21"
+    },
+    {
+      "url": "https://www.sagatv.co.jp/news/archives/2026101324679",
+      "type": "news",
+      "title": "サガテレビ：佐賀市の防災情報メール停止",
+      "published_on": "2026-10-13",
+      "checked_on": "2026-10-21"
+    }
+  ],
+  "updates": [],
+  "notes": "KBC本文で10月13日の発表、対象情報、9月末登録者39,657人を確認。全登録者の流出確定ではない。公式ページは復旧案内へ更新されており、初報は二次資料確認として掲載。"
+}

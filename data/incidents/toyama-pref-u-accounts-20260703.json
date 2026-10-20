@@ -1,0 +1,47 @@
+{
+  "id": "toyama-pref-u-accounts-20260703",
+  "organization": {
+    "name": "富山県立大学",
+    "sector": "企業・団体"
+  },
+  "title": "学生のクラウドサービス認証情報が窃取された可能性",
+  "summary": "学生2名のMicrosoft365アカウントから迷惑メールが送信された。本人のPC感染によりID・パスワードを窃取された可能性があると大学が説明した。",
+  "published_on": "2026-07-03",
+  "first_published_on": "2026-07-03",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-21",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "credentials",
+    "detail": "本人PCのマルウェア感染による認証情報窃取の可能性。",
+    "certainty": "suspected"
+  },
+  "impact": [
+    {
+      "count": 2,
+      "unit": "accounts",
+      "qualifier": "exact",
+      "description": "公表された対象規模。全件の外部流出を意味しない。"
+    }
+  ],
+  "data_types": [
+    "学生アカウントのID",
+    "パスワード"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.pu-toyama.ac.jp/tpu/wp-content/uploads/2026/07/d74acb60356ec21bcdb48edf7699debb.pdf",
+      "type": "official",
+      "title": "学生のクラウドサービスアカウント及び学生団体HPに対する不正アクセスについて",
+      "published_on": "2026-07-03",
+      "checked_on": "2026-10-21"
+    }
+  ],
+  "updates": [],
+  "notes": "公式PDFの「原因」に学生ID・パスワードの窃取可能性が明記されているため掲載。迷惑メール4,419件・162件を漏えい人数にしない。学生団体HPの2アカウント侵害も記載されるが、重複と認証情報窃取が未確定のため合算しない。10月の別事案と区別。"
+}

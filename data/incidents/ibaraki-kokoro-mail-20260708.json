@@ -1,0 +1,55 @@
+{
+  "id": "ibaraki-kokoro-mail-20260708",
+  "organization": {
+    "name": "茨城県立こころの医療センター",
+    "sector": "企業・団体"
+  },
+  "title": "講座案内メールの誤記と二次的な相談情報の誤送信",
+  "summary": "受講者のアドレスを本文へ誤記し30人に送信。別の受講者が病院の連絡先と誤認し、氏名・相談内容をそのアドレスへ送った。",
+  "published_on": "2026-07-08",
+  "first_published_on": "2026-07-08",
+  "publication_kind": "initial",
+  "occurred_on": "2026-07-01",
+  "detected_on": "2026-07-04",
+  "updated_on": "2026-10-21",
+  "verification": "secondary",
+  "leak_status": "confirmed",
+  "incident_type": "accident",
+  "cause": {
+    "category": "misdelivery",
+    "detail": "講座案内の本文へ受講者アドレスを誤記。受信者の誤認により別の相談情報も送信された。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 2,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "対象規模。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス",
+    "氏名",
+    "相談内容"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://kmin.news/archives/7972",
+      "type": "news",
+      "title": "公務員ニュース：こころの医療センターの誤送信",
+      "published_on": "2026-07-09",
+      "checked_on": "2026-10-21"
+    },
+    {
+      "url": "https://www.security-next.com/187664",
+      "type": "news",
+      "title": "Security NEXT：メール本文に受講者アドレスを誤記載",
+      "published_on": "2026-07-28",
+      "checked_on": "2026-10-21"
+    }
+  ],
+  "updates": [],
+  "notes": "7月9日の報道本文が「8日発表」と明記。最初のアドレス1人分と別の相談者1人分を区別。公式本文未取得のため二次資料確認として掲載。"
+}

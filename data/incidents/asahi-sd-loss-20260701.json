@@ -1,0 +1,54 @@
+{
+  "id": "asahi-sd-loss-20260701",
+  "organization": {
+    "name": "旭市",
+    "sector": "自治体"
+  },
+  "title": "情報発信業務の委託先が映像入りSDカードを紛失",
+  "summary": "委託先が市の情報発信用に撮影した動画・静止画を保存したSDカードを紛失。約90人の映像が含まれる。",
+  "published_on": "2026-07-01",
+  "first_published_on": "2026-07-01",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-21",
+  "verification": "secondary",
+  "leak_status": "lost",
+  "incident_type": "accident",
+  "cause": {
+    "category": "loss",
+    "detail": "情報発信コンサルティング業務の委託先によるSDカード紛失。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 90,
+      "unit": "people",
+      "qualifier": "approximate",
+      "description": "対象規模。"
+    }
+  ],
+  "data_types": [
+    "動画",
+    "静止画"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.chibanippo.co.jp/articles/1635725",
+      "type": "news",
+      "title": "千葉日報：旭市委託業者がSDカード紛失",
+      "published_on": "2026-07-02",
+      "checked_on": "2026-10-21"
+    },
+    {
+      "url": "https://www.security-next.com/187230",
+      "type": "news",
+      "title": "Security NEXT：旭市委託先の記憶媒体紛失",
+      "published_on": "2026-07-16",
+      "checked_on": "2026-10-21"
+    }
+  ],
+  "updates": [],
+  "notes": "7月2日付千葉日報の公開部分に「旭市は1日」とあり、公表日を補完。影響内容はSecurity NEXT本文で確認。約90は人数であり画像枚数ではない。市への報告は6月15日。"
+}

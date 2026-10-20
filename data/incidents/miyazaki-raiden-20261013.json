@@ -1,0 +1,61 @@
+{
+  "id": "miyazaki-raiden-20261013",
+  "organization": {
+    "name": "宮崎県",
+    "sector": "自治体"
+  },
+  "title": "防災・防犯情報メールの登録情報に漏えいの可能性",
+  "summary": "利用するメール配信システムへの不正アクセスにより、登録メールアドレス等38,959件が漏えいした可能性がある。",
+  "published_on": "2026-10-13",
+  "first_published_on": "2026-10-13",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-21",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "不正アクセス。具体的な侵入方法は未確定。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": 38959,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "公表された対象規模。全件の外部流出を意味しない。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス",
+    "登録グループ（希望市町村）",
+    "氏名（一部）"
+  ],
+  "related_vendor": "アルカディア",
+  "sources": [
+    {
+      "url": "https://www.pref.miyazaki.lg.jp/kiki-kikikanri/press/2026/10/20261013181842.html",
+      "type": "official",
+      "title": "防災・防犯情報メールサービスにおける漏えいの可能性",
+      "published_on": "2026-10-13",
+      "checked_on": "2026-10-21"
+    },
+    {
+      "url": "https://www.pref.miyazaki.lg.jp/kenkozoshin/press/2026/10/20261014094249.html",
+      "type": "official",
+      "title": "健康増進課追加：透析施設情報メール登録者の氏名について",
+      "published_on": "2026-10-14",
+      "checked_on": "2026-10-21"
+    }
+  ],
+  "updates": [
+    {
+      "date": "2026-10-14",
+      "summary": "対象の内数785件の透析施設情報メール登録情報に氏名を含む。うち321件は漢字フルネーム。",
+      "source_index": 1
+    }
+  ],
+  "notes": "公式本文をブラウザーで取得。NECネッツエスアイへの委託でアルカディアのシステムを利用。透析施設情報メール785件は38,959件の内数、そのうち漢字フルネーム登録321件。合算しない。"
+}

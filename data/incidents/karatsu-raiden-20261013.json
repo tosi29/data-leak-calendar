@@ -1,0 +1,46 @@
+{
+  "id": "karatsu-raiden-20261013",
+  "organization": {
+    "name": "唐津市",
+    "sector": "自治体"
+  },
+  "title": "情報メール登録アドレス等に漏えいの可能性",
+  "summary": "メール配信の委託先アルカディアが不正アクセスを受け、登録アドレス等が外部に流出した可能性を公表した。",
+  "published_on": "2026-10-13",
+  "first_published_on": "2026-10-13",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-21",
+  "verification": "secondary",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "不正アクセス。具体的な侵入方法は未確定。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "公表された対象規模。全件の外部流出を意味しない。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス等の登録情報"
+  ],
+  "related_vendor": "アルカディア",
+  "sources": [
+    {
+      "url": "https://s.netsecurity.ne.jp/article/2026/10/19/56492.html",
+      "type": "news",
+      "title": "ScanNetSecurity：唐津市の委託先への不正アクセス",
+      "published_on": "2026-10-19",
+      "checked_on": "2026-10-21"
+    }
+  ],
+  "updates": [],
+  "notes": "ScanNetSecurityの公開本文が10月13日発表と明記。公式現行ページの10月19日は復旧案内であり初報日にしない。登録数と流出範囲の一致は未確認のため件数不明。"
+}

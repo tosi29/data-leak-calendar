@@ -1,0 +1,48 @@
+{
+  "id": "sintoworld-ec-20260818",
+  "organization": {
+    "name": "シントワールド",
+    "sector": "企業・団体"
+  },
+  "title": "通販サイト不正アクセスの調査結果を公表",
+  "summary": "6月21・22日のデータベース改ざん等を確認。個人情報を取得しようとした痕跡はなく、流出の可能性は非常に低いと評価した。",
+  "published_on": "2026-08-18",
+  "first_published_on": null,
+  "publication_kind": "followup",
+  "occurred_on": "2026-06-21",
+  "detected_on": null,
+  "updated_on": "2026-10-21",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "vulnerability",
+    "detail": "通販サイトのアプリケーションの脆弱性が悪用された。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "公表された対象規模。全件の外部流出を意味しない。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "メールアドレス"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://sintoworld.co.jp/news/news-243/",
+      "type": "official",
+      "title": "不正アクセス事案に関する調査結果のお知らせ",
+      "published_on": "2026-08-18",
+      "checked_on": "2026-10-21"
+    }
+  ],
+  "updates": [],
+  "notes": "8月18日続報で個人情報への評価を確認。6月に初報があったが日付未確定。流出の可能性が非常に低いとの評価を、流出確定や完全否定に置き換えない。"
+}

@@ -1,0 +1,52 @@
+{
+  "id": "jrkyushu-food-toypo-20261013",
+  "organization": {
+    "name": "JR九州フードサービス",
+    "sector": "企業・団体"
+  },
+  "title": "トイポアプリ侵害に伴う店舗会員情報の漏えい",
+  "summary": "トイポアプリの不正アクセスで店舗会員の一部情報が漏えいしたと公表。対象となる可能性がある会員は約26,900名。",
+  "published_on": "2026-10-13",
+  "first_published_on": "2026-10-13",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-21",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "vulnerability",
+    "detail": "トイポアプリのAPIの脆弱性により、権限のない第三者が他ユーザーの情報を取得できた。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 26900,
+      "unit": "people",
+      "qualifier": "approximate",
+      "description": "対象規模。"
+    }
+  ],
+  "data_types": [
+    "ユーザーID",
+    "電話番号",
+    "氏名",
+    "性別",
+    "メールアドレス",
+    "住所",
+    "生年月日"
+  ],
+  "related_vendor": "トイポ",
+  "sources": [
+    {
+      "url": "https://tgl-assets.imgix.net/images/9a837c2badb54362ab872287c59dee17.pdf",
+      "type": "official",
+      "title": "株式会社トイポにおける不正アクセスに伴う当社お客さま情報の漏えいについて",
+      "published_on": "2026-10-13",
+      "checked_on": "2026-10-21"
+    }
+  ],
+  "updates": [],
+  "notes": "公式ページの添付PDFを取得。一部漏えいは確認済みだが約26,900名全員の流出確定を意味しない。ユーザーID・電話番号以外は任意登録。約61,500名は全店舗登録会員数であり対象数と区別。"
+}

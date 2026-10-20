@@ -1,0 +1,56 @@
+{
+  "id": "anamizu-health-usb-20260727",
+  "organization": {
+    "name": "穴水町",
+    "sector": "自治体"
+  },
+  "title": "健診対象者情報を保存したUSBメモリが所在不明",
+  "summary": "特定健診・後期高齢者健診の対象者情報を保存したUSBメモリを庁舎内で紛失した。",
+  "published_on": "2026-07-27",
+  "first_published_on": "2026-07-27",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-07-09",
+  "updated_on": "2026-10-21",
+  "verification": "secondary",
+  "leak_status": "lost",
+  "incident_type": "accident",
+  "cause": {
+    "category": "loss",
+    "detail": "業務用USBメモリの庁舎内での紛失。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "対象規模。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "生年月日",
+    "性別"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://cybersecurity-jp.com/news/115706",
+      "type": "news",
+      "title": "サイバーセキュリティ.com：穴水町の健診対象者USB紛失",
+      "published_on": "2026-07-31",
+      "checked_on": "2026-10-21"
+    },
+    {
+      "url": "https://newsdig.tbs.co.jp/articles/mro/2829613?display=1",
+      "type": "news",
+      "title": "MRO北陸放送：穴水町の個人情報入りUSB紛失",
+      "published_on": "2026-07-27",
+      "checked_on": "2026-10-21"
+    }
+  ],
+  "updates": [],
+  "notes": "7月31日報道本文に27日発表と明記され、MROにも27日付記事あり。28日とするまとめの日付を採用しない。MRO見出しに3,500人以上とあるが本文・公式資料で範囲を照合できず人数は不明として掲載。"
+}

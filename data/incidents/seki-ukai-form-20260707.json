@@ -1,0 +1,49 @@
+{
+  "id": "seki-ukai-form-20260707",
+  "organization": {
+    "name": "関市",
+    "sector": "自治体"
+  },
+  "title": "小瀬鵜飼アンケートの回答者情報が閲覧可能",
+  "summary": "アンケート回答後の画面から57人分の氏名・住所等を閲覧できた。7月5日に判明しフォームを閉鎖した。",
+  "published_on": "2026-07-07",
+  "first_published_on": "2026-07-07",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-07-05",
+  "updated_on": "2026-10-21",
+  "verification": "official",
+  "leak_status": "exposed",
+  "incident_type": "accident",
+  "cause": {
+    "category": "configuration",
+    "detail": "Googleフォームの回答表示設定により他の回答者の情報を閲覧可能。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 57,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "対象規模。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "郵便番号",
+    "住所",
+    "電話番号"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.city.seki.lg.jp/0000023364.html",
+      "type": "official",
+      "title": "小瀬鵜飼お客様アンケートにおける個人情報の一部が閲覧可能な状態になっていた件について",
+      "published_on": "2026-07-07",
+      "checked_on": "2026-10-21"
+    }
+  ],
+  "updates": [],
+  "notes": "公式本文の日付7月7日を確認。57人のうち1人は氏名・住所のみ。表示は規則性がなく、個人特定の可能性は低いと市が説明。"
+}

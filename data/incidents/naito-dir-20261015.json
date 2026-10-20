@@ -1,0 +1,52 @@
+{
+  "id": "naito-dir-20261015",
+  "organization": {
+    "name": "内藤証券",
+    "sector": "企業・団体"
+  },
+  "title": "ネット取引の一時データベースへの不正アクセス",
+  "summary": "運用委託先の取引システムが侵害され、攻撃時間帯にログインしていた最大631名の情報が漏えいした可能性がある。",
+  "published_on": "2026-10-15",
+  "first_published_on": "2026-10-15",
+  "publication_kind": "initial",
+  "occurred_on": "2026-10-14",
+  "detected_on": null,
+  "updated_on": "2026-10-21",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "不正アクセス。具体的な侵入方法は未確定。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": 631,
+      "unit": "people",
+      "qualifier": "maximum",
+      "description": "公表された対象規模。全件の外部流出を意味しない。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "電話番号",
+    "メールアドレス",
+    "証券口座番号",
+    "勤務先",
+    "出金先金融機関名・支店名・口座番号"
+  ],
+  "related_vendor": "大和総研",
+  "sources": [
+    {
+      "url": "https://www.dir.co.jp/release/2026101501.pdf",
+      "type": "official",
+      "title": "大和総研：当社運用システムへの不正アクセスによる個人情報漏えいの可能性について",
+      "published_on": "2026-10-15",
+      "checked_on": "2026-10-21"
+    }
+  ],
+  "updates": [],
+  "notes": "内藤証券のPDFは403だったが運用受託先の公式PDFを取得。対象は10月14日4時46分～6時56分のログイン者。資産状況や取引内容を保管する業務用DBには侵害・取得の痕跡なし。"
+}

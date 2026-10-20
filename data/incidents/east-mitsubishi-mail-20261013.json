@@ -1,0 +1,48 @@
+{
+  "id": "east-mitsubishi-mail-20261013",
+  "organization": {
+    "name": "東日本三菱自動車販売",
+    "sector": "企業・団体"
+  },
+  "title": "社員メールアカウント侵害で氏名・アドレスが漏えい",
+  "summary": "社員のMicrosoft365アカウントが侵害され、なりすましメールが送信された。送信先の氏名・アドレスの漏えいと、過去メールの閲覧可能性を公表した。",
+  "published_on": "2026-10-13",
+  "first_published_on": "2026-10-13",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-21",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "credentials",
+    "detail": "社員Microsoft365アカウントへの不正ログイン。侵入方法は未公表。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "対象規模。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "メールアドレス",
+    "過去のメール内容（閲覧可能性）"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.east-mitsubishi-motor-sales.com/custom/%E5%BD%93%E7%A4%BE%E7%A4%BE%E5%93%A1%E3%81%AE%E3%83%A1%E3%83%BC%E3%83%AB%E3%82%A2%E3%82%AB%E3%82%A6%E3%83%B3%E3%83%88%E3%81%B8%E3%81%AE%E4%B8%8D%E6%AD%A3%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E3%81%AB/",
+      "type": "official",
+      "title": "当社社員のメールアカウントへの不正アクセスによるなりすましメール送信に関するお知らせとお詫び",
+      "published_on": "2026-10-13",
+      "checked_on": "2026-10-21"
+    }
+  ],
+  "updates": [],
+  "notes": "今回の公式本文取得で2026.10.13の日付も確認。825件はなりすましメールの送信数であり、漏えい人数・個人情報件数には転用しない。"
+}

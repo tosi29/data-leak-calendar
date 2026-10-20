@@ -1,0 +1,59 @@
+{
+  "id": "nttexc-lstep-idcf-20261013",
+  "organization": {
+    "name": "NTT ExCパートナー（LStep）",
+    "sector": "企業・団体"
+  },
+  "title": "LStepメールアドレスの漏えい可能性と調査結果",
+  "summary": "利用する配信基盤の侵害に伴い最大約9万件のメールアドレスへの影響を告知。10月15日、提供事業者の調査結果を踏まえて漏えいを示す事実はないと判断した。",
+  "published_on": "2026-10-13",
+  "first_published_on": "2026-10-13",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-21",
+  "verification": "official",
+  "leak_status": "ruled_out",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "不正アクセス。具体的な侵入方法は未確定。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": 90000,
+      "unit": "records",
+      "qualifier": "maximum_approximate",
+      "description": "初報で示された最大の影響可能範囲。第2報で漏えいを示す事実なしと判断。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "IDCフロンティア",
+  "sources": [
+    {
+      "url": "https://www.nttexc.co.jp/news/detail20261013/",
+      "type": "official",
+      "title": "IDCフロンティア社の不正アクセスに伴うメールアドレス漏えいの可能性",
+      "published_on": "2026-10-13",
+      "checked_on": "2026-10-21"
+    },
+    {
+      "url": "https://www.nttexc.co.jp/news/detail20261015/",
+      "type": "official",
+      "title": "第2報：メールアドレス漏えいの可能性に係る調査結果",
+      "published_on": "2026-10-15",
+      "checked_on": "2026-10-21"
+    }
+  ],
+  "updates": [
+    {
+      "date": "2026-10-15",
+      "summary": "関係事業者の調査結果から、メールアドレス漏えいを示す事実はないと判断。",
+      "source_index": 1
+    }
+  ],
+  "notes": "公式検索結果で初報・第2報の本文を取得。最大約9万件は初報の影響可能範囲。第2報でIDCフロンティアと配信事業者の調査結果に基づき流出を示す事実なしと判断。サイト方針に従い履歴を掲載し、漏えい確認件数には含めない。"
+}
