@@ -1,0 +1,46 @@
+{
+  "id": "saitama-midorinomori-studio-20261016",
+  "organization": {
+    "name": "埼玉県",
+    "sector": "自治体"
+  },
+  "title": "Studioへの不正アクセスに伴うフォーム情報流出の可能性",
+  "summary": "利用するStudioのクラウド環境への不正アクセスにより、ウェブサイトのフォーム等で取得した個人情報が流出した可能性。",
+  "published_on": "2026-10-16",
+  "first_published_on": "2026-10-16",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-20",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。具体的な侵入手法は調査中または未公表。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 162,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "公表された対象規模。漏えい状況は本文を参照。"
+    }
+  ],
+  "data_types": [
+    "イベント申込・問い合わせ情報"
+  ],
+  "related_vendor": "Studio",
+  "sources": [
+    {
+      "url": "https://www.pref.saitama.lg.jp/a0508/news/page/news2026101603.html",
+      "type": "official",
+      "title": "Studioへの不正アクセスに伴うフォーム情報流出の可能性",
+      "published_on": "2026-10-16",
+      "checked_on": "2026-10-20"
+    }
+  ],
+  "updates": [],
+  "notes": "送信・登録情報の件数であり、同一人物の重複を含み得る。Studio本体や他の利用組織の件数と合算しない。"
+}

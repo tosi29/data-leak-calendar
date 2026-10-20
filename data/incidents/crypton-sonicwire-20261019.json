@@ -1,0 +1,50 @@
+{
+  "id": "crypton-sonicwire-20261019",
+  "organization": {
+    "name": "クリプトン・フューチャー・メディア（SONICWIRE・D2R）",
+    "sector": "企業・団体"
+  },
+  "title": "音源販売サービス会員情報の漏えいの可能性",
+  "summary": "不正アクセスによりSONICWIRE会員情報最大約42万件とD2R登録店舗情報が閲覧・取得された可能性。",
+  "published_on": "2026-10-19",
+  "first_published_on": "2026-10-19",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-20",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。具体的な侵入手法は調査中または未公表。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 420000,
+      "unit": "records",
+      "qualifier": "maximum_approximate",
+      "description": "公表された対象規模。漏えい状況は本文を参照。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "メールアドレス",
+    "ハッシュ化パスワード",
+    "住所",
+    "店舗情報"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.crypton.co.jp/cfm/news/2026/10/20info",
+      "type": "official",
+      "title": "音源販売サービス会員情報の漏えいの可能性",
+      "published_on": "2026-10-19",
+      "checked_on": "2026-10-20"
+    }
+  ],
+  "updates": [],
+  "notes": "42万件はSONICWIRE会員・ニュースレター購読者の範囲。D2Rの件数は未公表。URLは20infoだが本文公表日は10月19日。"
+}

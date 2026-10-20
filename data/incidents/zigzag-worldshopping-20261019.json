@@ -1,0 +1,50 @@
+{
+  "id": "zigzag-worldshopping-20261019",
+  "organization": {
+    "name": "ジグザグ（WorldShopping）",
+    "sector": "企業・団体"
+  },
+  "title": "海外利用者の個人情報漏えい",
+  "summary": "10月15〜16日の不正アクセスで海外利用者301名の個人情報が漏えい。メール配信システムと入力フォームの不備を修正。",
+  "published_on": "2026-10-19",
+  "first_published_on": "2026-10-19",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-20",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。具体的な侵入手法は調査中または未公表。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 301,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表された対象規模。漏えい状況は本文を参照。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "メールアドレス",
+    "住所",
+    "電話番号",
+    "注文情報"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.release.tdnet.info/inbs/140120261019553141.pdf",
+      "type": "official",
+      "title": "海外利用者の個人情報漏えい",
+      "published_on": "2026-10-19",
+      "checked_on": "2026-10-20"
+    }
+  ],
+  "updates": [],
+  "notes": "カード情報・パスワードは対象外。WorldShopping BIZ導入事業者から預かる情報への影響は確認されていない。"
+}

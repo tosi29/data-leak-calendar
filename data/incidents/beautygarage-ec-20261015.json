@@ -1,0 +1,48 @@
+{
+  "id": "beautygarage-ec-20261015",
+  "organization": {
+    "name": "ビューティガレージ",
+    "sector": "企業・団体"
+  },
+  "title": "ECサイトのお客様情報流出",
+  "summary": "10月10〜12日の不正侵入でビューティガレージ・アイラッシュガレージの顧客情報が外部に流出。",
+  "published_on": "2026-10-15",
+  "first_published_on": "2026-10-15",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-20",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。具体的な侵入手法は調査中または未公表。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 775725,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "公表された対象規模。漏えい状況は本文を参照。"
+    }
+  ],
+  "data_types": [
+    "会社名",
+    "サロン名",
+    "顧客名等"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.beautygarage.co.jp/wp/wp-content/uploads/20261015_%E4%B8%8D%E6%AD%A3%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E3%81%AB%E3%82%88%E3%82%8B%E3%81%8A%E5%AE%A2%E6%A7%98%E6%83%85%E5%A0%B1%E6%BC%8F%E6%B4%A9%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E3%81%8A%E8%A9%AB%E3%81%B3%E3%81%A8%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B.pdf",
+      "type": "official",
+      "title": "ECサイトのお客様情報流出",
+      "published_on": "2026-10-15",
+      "checked_on": "2026-10-20"
+    }
+  ],
+  "updates": [],
+  "notes": "2月公表のカード情報漏洩懸念とは別事案。今回、決済情報の漏洩は未確認。"
+}

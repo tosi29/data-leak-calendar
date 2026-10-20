@@ -1,0 +1,52 @@
+{
+  "id": "access-cros-20261015",
+  "organization": {
+    "name": "ACCESS（ACCESS AP TAIWAN）",
+    "sector": "企業・団体"
+  },
+  "title": "台湾子会社のEC支援サービス関連情報流出",
+  "summary": "取引先1社向けBIツールを経由する不正アクセスで、通販利用者の個人情報・受注情報・一部カード情報が流出。",
+  "published_on": "2026-10-15",
+  "first_published_on": "2026-10-15",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-20",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。具体的な侵入手法は調査中または未公表。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 155280,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "公表された対象規模。漏えい状況は本文を参照。"
+    }
+  ],
+  "data_types": [
+    "顧客ID",
+    "氏名",
+    "電話番号",
+    "住所",
+    "メールアドレス",
+    "受注情報",
+    "クレジットカード情報"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.access-company.com/files/2026/10/n261015.pdf",
+      "type": "official",
+      "title": "台湾子会社のEC支援サービス関連情報流出",
+      "published_on": "2026-10-15",
+      "checked_on": "2026-10-20"
+    }
+  ],
+  "updates": [],
+  "notes": "顧客ID155,280件、受注ID231,998件、カード情報1,305アカウントは重複し得る。カード4件はセキュリティコードも含む。CROS本体基盤への直接侵入は検出されていない。"
+}

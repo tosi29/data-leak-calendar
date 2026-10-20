@@ -1,0 +1,46 @@
+{
+  "id": "shimonoseki-raiden-20261013",
+  "organization": {
+    "name": "下関市",
+    "sector": "自治体"
+  },
+  "title": "情報配信サービスへの不正アクセスに伴う個人情報漏えいの可能性",
+  "summary": "利用するメール等の配信システムへの不正アクセスにより、登録者情報が漏えいした可能性。詳細を調査中。",
+  "published_on": "2026-10-13",
+  "first_published_on": "2026-10-13",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-20",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。具体的な侵入手法は調査中または未公表。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 15000,
+      "unit": "records",
+      "qualifier": "approximate",
+      "description": "公表された対象規模。漏えい状況は本文を参照。"
+    }
+  ],
+  "data_types": [
+    "登録情報・メールアドレス等"
+  ],
+  "related_vendor": "アルカディア",
+  "sources": [
+    {
+      "url": "https://www.city.shimonoseki.lg.jp/soshiki/9/164253.html",
+      "type": "official",
+      "title": "情報配信サービスへの不正アクセスに伴う個人情報漏えいの可能性",
+      "published_on": "2026-10-13",
+      "checked_on": "2026-10-20"
+    }
+  ],
+  "updates": [],
+  "notes": "基盤提供元や他の自治体の対象件数と合算しない。複数サービスの規模は重複し得る。"
+}

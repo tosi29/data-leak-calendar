@@ -1,0 +1,48 @@
+{
+  "id": "stands-onboarding-20261016",
+  "organization": {
+    "name": "STANDS（Onboarding）",
+    "sector": "企業・団体"
+  },
+  "title": "管理画面への不正アクセス",
+  "summary": "一部顧客情報の取得とサービス設定の不正変更を確認。担当者の氏名・メールアドレス・権限情報も閲覧された可能性が高い。",
+  "published_on": "2026-10-16",
+  "first_published_on": "2026-10-16",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-20",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。具体的な侵入手法は調査中または未公表。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "公表された対象規模。漏えい状況は本文を参照。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "メールアドレス",
+    "権限情報"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://onboarding.co.jp/news-list/2026-10-16",
+      "type": "official",
+      "title": "管理画面への不正アクセス",
+      "published_on": "2026-10-16",
+      "checked_on": "2026-10-20"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

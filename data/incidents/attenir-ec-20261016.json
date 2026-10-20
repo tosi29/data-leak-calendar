@@ -1,0 +1,52 @@
+{
+  "id": "attenir-ec-20261016",
+  "organization": {
+    "name": "アテニア",
+    "sector": "企業・団体"
+  },
+  "title": "ECサイトへの不正アクセスによる会員情報漏えい",
+  "summary": "10月3〜10日の不正アクセスによりECサイト会員情報が外部へ漏えい。原因機能を停止した。",
+  "published_on": "2026-10-16",
+  "first_published_on": "2026-10-16",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-20",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。具体的な侵入手法は調査中または未公表。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 417312,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表された対象規模。漏えい状況は本文を参照。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "メールアドレス",
+    "住所",
+    "電話番号",
+    "生年月日",
+    "性別",
+    "お客様番号"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.fancl.jp/news/pdf/husei.pdf",
+      "type": "official",
+      "title": "ECサイトへの不正アクセスによる会員情報漏えい",
+      "published_on": "2026-10-16",
+      "checked_on": "2026-10-20"
+    }
+  ],
+  "updates": [],
+  "notes": "公表値は441,162件・417,312名。件数と人数は重複するため合算しない。両社間の対象者重複も未確認。決済情報は対象外。"
+}

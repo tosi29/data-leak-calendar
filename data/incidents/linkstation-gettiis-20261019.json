@@ -1,0 +1,64 @@
+{
+  "id": "linkstation-gettiis-20261019",
+  "organization": {
+    "name": "リンクステーション（GETTIIS）",
+    "sector": "企業・団体"
+  },
+  "title": "チケット販売サービスの会員情報流出",
+  "summary": "Gettii-Liteの脆弱性を悪用されGETTIIS会員情報が流出。20日の第2報で項目別件数を公表。",
+  "published_on": "2026-10-19",
+  "first_published_on": "2026-10-19",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-20",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "vulnerability",
+    "detail": "Gettii-Liteのプログラムの脆弱性を悪用された。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 317971,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "漏えいした会員IDの件数。"
+    }
+  ],
+  "data_types": [
+    "会員ID",
+    "氏名",
+    "電話番号",
+    "メールアドレス",
+    "ハッシュ化パスワード",
+    "カード番号の一部等"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.gettiis.jp/notice/detail/40",
+      "type": "official",
+      "title": "チケット販売サービスの会員情報流出",
+      "published_on": "2026-10-19",
+      "checked_on": "2026-10-20"
+    },
+    {
+      "url": "https://www.gettiis.jp/notice/detail/42",
+      "type": "official",
+      "title": "GETTIIS会員情報漏えい（第二報）",
+      "published_on": "2026-10-20",
+      "checked_on": "2026-10-20"
+    }
+  ],
+  "updates": [
+    {
+      "date": "2026-10-20",
+      "summary": "会員ID317,971件などの項目別件数と対象者への通知を公表。項目別件数は合算しない。",
+      "source_index": 1
+    }
+  ],
+  "notes": "会員ID317,971件、ハッシュ化パスワード311,451件、カード関連情報29,515件。項目間は重複し、合計人数ではない。完全なカード番号・セキュリティコードは保存していない。Gettii・Gettii-ECへの影響は未確認。"
+}

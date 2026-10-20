@@ -1,0 +1,49 @@
+{
+  "id": "nextstage-bi-20261013",
+  "organization": {
+    "name": "NEXT STAGE",
+    "sector": "企業・団体"
+  },
+  "title": "社内BIツールへの不正アクセス",
+  "summary": "BIツール上の不正アカウントからサービスのデータベースを検索できる状態となり、取引先・認定現場監査士の情報が漏えいした可能性。",
+  "published_on": "2026-10-13",
+  "first_published_on": "2026-10-13",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-20",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。具体的な侵入手法は調査中または未公表。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 40000,
+      "unit": "records",
+      "qualifier": "maximum_approximate",
+      "description": "公表された対象規模。漏えい状況は本文を参照。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "電話番号",
+    "メールアドレス",
+    "一部の認証・属性情報"
+  ],
+  "related_vendor": "Metabase",
+  "sources": [
+    {
+      "url": "https://contents.xj-storage.jp/xcontents/AS09415/85ac085b/189e/4649/82f5/c3671d1900c8/140120261013549964.pdf",
+      "type": "official",
+      "title": "社内BIツールへの不正アクセス",
+      "published_on": "2026-10-13",
+      "checked_on": "2026-10-20"
+    }
+  ],
+  "updates": [],
+  "notes": "Qualiz・ACRO5等に関連する情報。Metabase製品利用の記載はあるが、攻撃に使われた具体的脆弱性の特定とは区別する。"
+}

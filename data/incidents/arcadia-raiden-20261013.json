@@ -11,7 +11,7 @@
   "publication_kind": "initial",
   "occurred_on": null,
   "detected_on": "2026-10-11",
-  "updated_on": "2026-10-15",
+  "updated_on": "2026-10-20",
   "verification": "official",
   "incident_type": "attack",
   "leak_status": "suspected",
@@ -35,10 +35,10 @@
       "description": "SpeeCAN RAIDENのFAX番号"
     },
     {
-      "count": 13000,
+      "count": 9020,
       "unit": "records",
-      "qualifier": "maximum_approximate",
-      "description": "NET119の登録情報"
+      "qualifier": "exact",
+      "description": "NET119の対象メールアドレスに紐づく個人情報。10月16日第11報。"
     },
     {
       "count": 97000,
@@ -90,10 +90,10 @@
       "type": "official",
       "title": "SpeeCAN RAIDENへの不正アクセスに伴う一連の対応（第9報まで）",
       "published_on": "2026-10-13",
-      "checked_on": "2026-10-15"
+      "checked_on": "2026-10-20"
     }
   ],
-  "notes": "規模はいずれも推定最大件数で、サービス間・情報項目間・利用自治体との重複があるため合算しない。人数ではない。映像通報は対象外。初報PDFのファイル名は10月12日だが本文の10月13日を採用。",
+  "notes": "規模はいずれも推定最大件数で、サービス間・情報項目間・利用自治体との重複があるため合算しない。人数ではない。映像通報は対象外。初報PDFのファイル名は10月12日だが本文の10月13日を採用。 10月16日第11報でNET119の範囲を更新。要配慮個人情報は漏洩なしと確認。",
   "updates": [
     {
       "date": "2026-10-14",
@@ -104,10 +104,15 @@
       "date": "2026-10-15",
       "summary": "第9報で停止中サービスの復旧完了を公表。情報漏えいの範囲は引き続き調査中。",
       "source_index": 1
+    },
+    {
+      "date": "2026-10-20",
+      "summary": "第11報でNET119の対象を9,020件のメールアドレスに紐づく個人情報と更新。要配慮個人情報の漏洩はないと確認。第13報では報告代行を案内。",
+      "source_index": 1
     }
   ],
   "vendor_research": {
-    "checked_on": "2026-10-15",
+    "checked_on": "2026-10-20",
     "result": "not_identified",
     "note": "掲載出典と追加検索で、当該事案に関係する外部の開発・運用・サービス・基盤会社の社名と役割を特定できませんでした。",
     "source_checks": [

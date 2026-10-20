@@ -1,0 +1,47 @@
+{
+  "id": "nec-vendor-20261020",
+  "organization": {
+    "name": "日本電気（NEC）",
+    "sector": "企業・団体"
+  },
+  "title": "委託先への攻撃に起因する顧客情報漏えい",
+  "summary": "開発・保守委託先が9月下旬に攻撃を受け、盗まれた正規アカウントの認証情報が悪用された。顧客の個人情報等の漏えいを確認。",
+  "published_on": "2026-10-20",
+  "first_published_on": "2026-10-20",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-20",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "credentials",
+    "detail": "委託先から窃取された正規アカウントの認証情報を悪用された。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "公表された対象規模。漏えい状況は本文を参照。"
+    }
+  ],
+  "data_types": [
+    "顧客が保有する個人情報",
+    "システム関連情報"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://jpn.nec.com/news/info/20261020.html",
+      "type": "official",
+      "title": "委託先への攻撃に起因する顧客情報漏えい",
+      "published_on": "2026-10-20",
+      "checked_on": "2026-10-20"
+    }
+  ],
+  "updates": [],
+  "notes": "公式発表の検索経由で取得できた本文を確認。直接取得は403。対象件数・顧客名・委託先名は本調査で確認できず。"
+}

@@ -11027,6 +11027,903 @@
       ],
       "published_total": 443,
       "pending_total": 43
+    },
+    {
+      "checked_on": "2026-10-20",
+      "scope": "10月20日までの新規公表・続報更新。直近の収集が薄かった10月13日以降を重点照合。",
+      "method": [
+        "Security NEXT、ScanNetSecurity、satimo、ITmedia、独立ニュースリンク集から候補を収集。",
+        "公式HTML・企業開示PDFを本文照合。直接取得不可の場合はブラウザーまたは検索経由で補完。日経新規1件は報道本文で確認。",
+        "初報・続報・報道日を区別。初報日未確定の自治体は取得できた公式更新日を採用しunknownと明記。",
+        "共通基盤と利用組織、項目別件数と人数を合算しない。"
+      ],
+      "queries": [
+        "情報漏えい 不正アクセス 2026年10月20日",
+        "情報流出 2026年10月19日 企業",
+        "2026年10月20日 個人情報 誤送信 紛失",
+        "Renta 不正アクセス 第2報 2026年10月20日"
+      ],
+      "indexes": [
+        "https://www.security-next.com/date/2026/10",
+        "https://scan.netsecurity.ne.jp/category/incident/incident/2026/10/",
+        "https://satimo.org/2026/10/data-breach-list-2026/",
+        "https://www.st.ryukoku.ac.jp/~kjm/security/memo/2026/10.html"
+      ],
+      "added_incident_ids": [
+        "ymirlink-cuenote-20261019",
+        "h2o-hankyu-hanshin-20261019",
+        "entouch-toho-20261019",
+        "jetro-web-20261019",
+        "lixil-lpocket-20261019",
+        "zigzag-worldshopping-20261019",
+        "linkstation-gettiis-20261019",
+        "crypton-sonicwire-20261019",
+        "nifty-lines-20261019",
+        "stands-onboarding-20261016",
+        "creave-snapmart-20261016",
+        "japanarts-google-20261016",
+        "wasabi-switch-20261016",
+        "mbc-studio-20261016",
+        "saitama-midorinomori-studio-20261016",
+        "raksul-studio-20261016",
+        "luup-studio-20261016",
+        "linku-studio-20261016",
+        "mgc-t4c-20261016",
+        "iwaicosmo-tradeworks-20261016",
+        "fancl-ec-20261016",
+        "attenir-ec-20261016",
+        "nissay-hospital-supportscam-20261015",
+        "kushiro-school-portus-20261015",
+        "kobo-hasshaorai-20261015",
+        "access-cros-20261015",
+        "beautygarage-ec-20261015",
+        "trustbank-furusato-attack-20261020",
+        "osaka-nishi-redaction-20261020",
+        "chiba-studio-20261020",
+        "kanagawa-venture-studio-20261019",
+        "nec-vendor-20261020",
+        "studio-cloud-20261016",
+        "joshin-network-20261017",
+        "kyoto-studio-20261016",
+        "idare-fivot-20261013",
+        "dcm-myvo-20261013",
+        "nextstage-bi-20261013",
+        "lili-20261014",
+        "mouse-idcf-20261014",
+        "skyperfect-idcf-20261013",
+        "izumi-idcf-20261014",
+        "odawara-raiden-20261015",
+        "oita-raiden-20261014",
+        "chiba-city-raiden-20261014",
+        "zama-raiden-20261016",
+        "sasebo-raiden-20261015",
+        "hakodate-raiden-20261016",
+        "shimonoseki-raiden-20261013",
+        "kagawa-raiden-20261013",
+        "joetsu-raiden-20261016",
+        "ayase-raiden-20261013",
+        "akita-raiden-20261016",
+        "shizuoka-raiden-20261014",
+        "astemo-cloud-20261016",
+        "japanpost-business-toolbox-20261013",
+        "mazda-commune-20261014",
+        "peachjohn-idcf-20261014",
+        "nikkei-development-cloud-20261016"
+      ],
+      "updated_incident_ids": [
+        "skyticket-server-20261009",
+        "yamato-atobarai-20260929",
+        "estore-20260801",
+        "arcadia-raiden-20261013"
+      ],
+      "new_candidate_ids": [
+        "oct20-review-14",
+        "oct20-review-15",
+        "oct20-review-30",
+        "oct20-review-36",
+        "oct20-review-42",
+        "oct20-review-57",
+        "oct20-review-58",
+        "oct20-review-60",
+        "oct20-review-61",
+        "oct20-review-63",
+        "oct20-review-67"
+      ],
+      "resolved_candidate_ids": [],
+      "source_reviews": [
+        {
+          "url": "https://www.release.tdnet.info/inbs/140120261019553124.pdf",
+          "incident_ids": [
+            "ymirlink-cuenote-20261019"
+          ],
+          "candidate_ids": [],
+          "decision": "published_or_existing",
+          "reason": "掲載記録に出典として対応。今回の変更対象はadded_incident_idsとupdated_incident_idsを参照。",
+          "fetch_status": "retrieved"
+        },
+        {
+          "url": "https://data.swcms.net/file/h2o-retailing/ja/news/auto_20261019552921/pdfFile.pdf",
+          "incident_ids": [
+            "h2o-hankyu-hanshin-20261019"
+          ],
+          "candidate_ids": [],
+          "decision": "published_or_existing",
+          "reason": "掲載記録に出典として対応。今回の変更対象はadded_incident_idsとupdated_incident_idsを参照。",
+          "fetch_status": "retrieved"
+        },
+        {
+          "url": "https://www.nikkei.co.jp/nikkeiinfo/news/information/1561.html",
+          "incident_ids": [],
+          "candidate_ids": [],
+          "decision": "alternate_source",
+          "reason": "公式の直接取得は403。日経の開発用クラウド事案は報道本文で確認して二次資料確認として掲載。",
+          "fetch_status": "unavailable_direct"
+        },
+        {
+          "url": "https://raiden.site.ktaiwork.jp/archives/4597",
+          "incident_ids": [
+            "arcadia-raiden-20261013"
+          ],
+          "candidate_ids": [],
+          "decision": "published_or_existing",
+          "reason": "掲載記録に出典として対応。今回の変更対象はadded_incident_idsとupdated_incident_idsを参照。",
+          "fetch_status": "retrieved"
+        },
+        {
+          "url": "https://jp.adventurekk.com/news/news-2026-unauthorized-access-notice-2/",
+          "incident_ids": [
+            "skyticket-server-20261009"
+          ],
+          "candidate_ids": [],
+          "decision": "published_or_existing",
+          "reason": "掲載記録に出典として対応。今回の変更対象はadded_incident_idsとupdated_incident_idsを参照。",
+          "fetch_status": "retrieved"
+        },
+        {
+          "url": "https://www.yamato-hd.co.jp/important/info_260929_1.html",
+          "incident_ids": [
+            "yamato-atobarai-20260929"
+          ],
+          "candidate_ids": [],
+          "decision": "published_or_existing",
+          "reason": "掲載記録に出典として対応。今回の変更対象はadded_incident_idsとupdated_incident_idsを参照。",
+          "fetch_status": "retrieved"
+        },
+        {
+          "url": "https://estore.jp/press/20261016/",
+          "incident_ids": [
+            "estore-20260801"
+          ],
+          "candidate_ids": [],
+          "decision": "published_or_existing",
+          "reason": "掲載記録に出典として対応。今回の変更対象はadded_incident_idsとupdated_incident_idsを参照。",
+          "fetch_status": "retrieved"
+        },
+        {
+          "url": "https://www.release.tdnet.info/inbs/140120261019553091.pdf",
+          "incident_ids": [
+            "entouch-toho-20261019"
+          ],
+          "candidate_ids": [],
+          "decision": "published_or_existing",
+          "reason": "掲載記録に出典として対応。今回の変更対象はadded_incident_idsとupdated_incident_idsを参照。",
+          "fetch_status": "retrieved"
+        },
+        {
+          "url": "https://www.jetro.go.jp/",
+          "incident_ids": [],
+          "candidate_ids": [],
+          "decision": "index",
+          "reason": "トップページから個別発表へ移動してジェトロを掲載。",
+          "fetch_status": "retrieved"
+        },
+        {
+          "url": "https://www.lixil.co.jp/announce/notice-info-leak-20261019.htm",
+          "incident_ids": [
+            "lixil-lpocket-20261019"
+          ],
+          "candidate_ids": [],
+          "decision": "published_or_existing",
+          "reason": "掲載記録に出典として対応。今回の変更対象はadded_incident_idsとupdated_incident_idsを参照。",
+          "fetch_status": "retrieved"
+        },
+        {
+          "url": "https://www.release.tdnet.info/inbs/140120261019553141.pdf",
+          "incident_ids": [
+            "zigzag-worldshopping-20261019"
+          ],
+          "candidate_ids": [],
+          "decision": "published_or_existing",
+          "reason": "掲載記録に出典として対応。今回の変更対象はadded_incident_idsとupdated_incident_idsを参照。",
+          "fetch_status": "retrieved"
+        },
+        {
+          "url": "https://www.gettiis.jp/notice/detail/40",
+          "incident_ids": [
+            "linkstation-gettiis-20261019"
+          ],
+          "candidate_ids": [],
+          "decision": "published_or_existing",
+          "reason": "掲載記録に出典として対応。今回の変更対象はadded_incident_idsとupdated_incident_idsを参照。",
+          "fetch_status": "retrieved"
+        },
+        {
+          "url": "https://www.crypton.co.jp/cfm/news/2026/10/20info",
+          "incident_ids": [
+            "crypton-sonicwire-20261019"
+          ],
+          "candidate_ids": [],
+          "decision": "published_or_existing",
+          "reason": "掲載記録に出典として対応。今回の変更対象はadded_incident_idsとupdated_incident_idsを参照。",
+          "fetch_status": "retrieved"
+        },
+        {
+          "url": "https://www.nifty.co.jp/newsrelease/nifty202610195434.htm",
+          "incident_ids": [
+            "nifty-lines-20261019"
+          ],
+          "candidate_ids": [],
+          "decision": "published_or_existing",
+          "reason": "掲載記録に出典として対応。今回の変更対象はadded_incident_idsとupdated_incident_idsを参照。",
+          "fetch_status": "retrieved"
+        },
+        {
+          "url": "https://www.jfa.jp/news/00036934/",
+          "incident_ids": [],
+          "candidate_ids": [
+            "oct20-review-14"
+          ],
+          "decision": "pending",
+          "reason": "確認待ち記録に具体的な不足事項を保存。",
+          "fetch_status": "retrieved"
+        },
+        {
+          "url": "https://www.carsensor.net/",
+          "incident_ids": [],
+          "candidate_ids": [
+            "oct20-review-15"
+          ],
+          "decision": "pending",
+          "reason": "確認待ち記録に具体的な不足事項を保存。",
+          "fetch_status": "unavailable_direct"
+        },
+        {
+          "url": "https://onboarding.co.jp/news-list/2026-10-16",
+          "incident_ids": [
+            "stands-onboarding-20261016"
+          ],
+          "candidate_ids": [],
+          "decision": "published_or_existing",
+          "reason": "掲載記録に出典として対応。今回の変更対象はadded_incident_idsとupdated_incident_idsを参照。",
+          "fetch_status": "retrieved"
+        },
+        {
+          "url": "https://info.snapmart.jp/notice-20261016/",
+          "incident_ids": [
+            "creave-snapmart-20261016"
+          ],
+          "candidate_ids": [],
+          "decision": "published_or_existing",
+          "reason": "掲載記録に出典として対応。今回の変更対象はadded_incident_idsとupdated_incident_idsを参照。",
+          "fetch_status": "retrieved"
+        },
+        {
+          "url": "https://www.japanarts.co.jp/news/p10043/",
+          "incident_ids": [
+            "japanarts-google-20261016"
+          ],
+          "candidate_ids": [],
+          "decision": "published_or_existing",
+          "reason": "掲載記録に出典として対応。今回の変更対象はadded_incident_idsとupdated_incident_idsを参照。",
+          "fetch_status": "retrieved"
+        },
+        {
+          "url": "https://www.astemo.com/jp/news/pdf/20261016-01.pdf",
+          "incident_ids": [
+            "astemo-cloud-20261016"
+          ],
+          "candidate_ids": [],
+          "decision": "published_or_existing",
+          "reason": "掲載記録に出典として対応。今回の変更対象はadded_incident_idsとupdated_incident_idsを参照。",
+          "fetch_status": "retrieved"
+        },
+        {
+          "url": "https://wasabi-inc.biz/help/news/20261018-02/",
+          "incident_ids": [
+            "wasabi-switch-20261016"
+          ],
+          "candidate_ids": [],
+          "decision": "published_or_existing",
+          "reason": "掲載記録に出典として対応。今回の変更対象はadded_incident_idsとupdated_incident_idsを参照。",
+          "fetch_status": "retrieved"
+        },
+        {
+          "url": "https://www.mbc.co.jp/info/owabi/index.html",
+          "incident_ids": [
+            "mbc-studio-20261016"
+          ],
+          "candidate_ids": [],
+          "decision": "published_or_existing",
+          "reason": "掲載記録に出典として対応。今回の変更対象はadded_incident_idsとupdated_incident_idsを参照。",
+          "fetch_status": "retrieved"
+        },
+        {
+          "url": "https://www.city.kyoto.lg.jp/bunshi/page/0000359411.html",
+          "incident_ids": [
+            "kyoto-studio-20261016"
+          ],
+          "candidate_ids": [],
+          "decision": "published_or_existing",
+          "reason": "掲載記録に出典として対応。今回の変更対象はadded_incident_idsとupdated_incident_idsを参照。",
+          "fetch_status": "unavailable_direct"
+        },
+        {
+          "url": "https://www.pref.saitama.lg.jp/a0508/news/page/news2026101603.html",
+          "incident_ids": [
+            "saitama-midorinomori-studio-20261016"
+          ],
+          "candidate_ids": [],
+          "decision": "published_or_existing",
+          "reason": "掲載記録に出典として対応。今回の変更対象はadded_incident_idsとupdated_incident_idsを参照。",
+          "fetch_status": "retrieved"
+        },
+        {
+          "url": "https://corp.raksul.com/news/press/261016raksul_studio/",
+          "incident_ids": [
+            "raksul-studio-20261016"
+          ],
+          "candidate_ids": [],
+          "decision": "published_or_existing",
+          "reason": "掲載記録に出典として対応。今回の変更対象はadded_incident_idsとupdated_incident_idsを参照。",
+          "fetch_status": "retrieved"
+        },
+        {
+          "url": "https://luup.sc/news/2026-10-16/",
+          "incident_ids": [
+            "luup-studio-20261016"
+          ],
+          "candidate_ids": [],
+          "decision": "published_or_existing",
+          "reason": "掲載記録に出典として対応。今回の変更対象はadded_incident_idsとupdated_incident_idsを参照。",
+          "fetch_status": "retrieved"
+        },
+        {
+          "url": "https://studio.design/ja/whats-new/unauthorized-access-2026-10",
+          "incident_ids": [
+            "studio-cloud-20261016"
+          ],
+          "candidate_ids": [],
+          "decision": "published_or_existing",
+          "reason": "掲載記録に出典として対応。今回の変更対象はadded_incident_idsとupdated_incident_idsを参照。",
+          "fetch_status": "unavailable_direct"
+        },
+        {
+          "url": "https://www.nttsolmare.com/press/2026/1016.html",
+          "incident_ids": [
+            "ntt-solmare-cmoa-20261016"
+          ],
+          "candidate_ids": [],
+          "decision": "published_or_existing",
+          "reason": "掲載記録に出典として対応。今回の変更対象はadded_incident_idsとupdated_incident_idsを参照。",
+          "fetch_status": "retrieved"
+        },
+        {
+          "url": "https://www.mgc.co.jp/corporate/news/2026/261016.html",
+          "incident_ids": [
+            "mgc-t4c-20261016"
+          ],
+          "candidate_ids": [],
+          "decision": "published_or_existing",
+          "reason": "掲載記録に出典として対応。今回の変更対象はadded_incident_idsとupdated_incident_idsを参照。",
+          "fetch_status": "retrieved"
+        },
+        {
+          "url": "https://www.release.tdnet.info/inbs/140120261016552453.pdf",
+          "incident_ids": [
+            "linku-studio-20261016"
+          ],
+          "candidate_ids": [],
+          "decision": "published_or_existing",
+          "reason": "掲載記録に出典として対応。今回の変更対象はadded_incident_idsとupdated_incident_idsを参照。",
+          "fetch_status": "retrieved"
+        },
+        {
+          "url": "https://www.smd-am.co.jp/news/news/2026/news_20261016/",
+          "incident_ids": [],
+          "candidate_ids": [
+            "oct20-review-30"
+          ],
+          "decision": "pending",
+          "reason": "確認待ち記録に具体的な不足事項を保存。",
+          "fetch_status": "retrieved"
+        },
+        {
+          "url": "https://www.iwaicosmo.co.jp/news/2026/10161410.html",
+          "incident_ids": [
+            "iwaicosmo-tradeworks-20261016"
+          ],
+          "candidate_ids": [],
+          "decision": "published_or_existing",
+          "reason": "掲載記録に出典として対応。今回の変更対象はadded_incident_idsとupdated_incident_idsを参照。",
+          "fetch_status": "retrieved"
+        },
+        {
+          "url": "https://www.fancl.jp/news/pdf/husei.pdf",
+          "incident_ids": [
+            "attenir-ec-20261016",
+            "fancl-ec-20261016"
+          ],
+          "candidate_ids": [],
+          "decision": "published_or_existing",
+          "reason": "掲載記録に出典として対応。今回の変更対象はadded_incident_idsとupdated_incident_idsを参照。",
+          "fetch_status": "retrieved"
+        },
+        {
+          "url": "https://www.nissay-hp.or.jp/news/common/20261015_kojinjoho.html",
+          "incident_ids": [
+            "nissay-hospital-supportscam-20261015"
+          ],
+          "candidate_ids": [],
+          "decision": "published_or_existing",
+          "reason": "掲載記録に出典として対応。今回の変更対象はadded_incident_idsとupdated_incident_idsを参照。",
+          "fetch_status": "retrieved"
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/field/disaster/disaster/topics/p42964.html",
+          "incident_ids": [
+            "odawara-raiden-20261015"
+          ],
+          "candidate_ids": [],
+          "decision": "published_or_existing",
+          "reason": "掲載記録に出典として対応。今回の変更対象はadded_incident_idsとupdated_incident_idsを参照。",
+          "fetch_status": "retrieved"
+        },
+        {
+          "url": "https://www.city.kushiro.lg.jp/kosodatekyouiku/kyouiku/1008303/1019759.html",
+          "incident_ids": [
+            "kushiro-school-portus-20261015"
+          ],
+          "candidate_ids": [],
+          "decision": "published_or_existing",
+          "reason": "掲載記録に出典として対応。今回の変更対象はadded_incident_idsとupdated_incident_idsを参照。",
+          "fetch_status": "retrieved"
+        },
+        {
+          "url": "https://www.naito-sec.co.jp/service/pdf/20261015.pdf",
+          "incident_ids": [],
+          "candidate_ids": [
+            "oct20-review-36"
+          ],
+          "decision": "pending",
+          "reason": "確認待ち記録に具体的な不足事項を保存。",
+          "fetch_status": "unavailable_direct"
+        },
+        {
+          "url": "https://www.khobho.co.jp/wp-content/themes/kobo/pdf/20261015.pdf",
+          "incident_ids": [
+            "kobo-hasshaorai-20261015"
+          ],
+          "candidate_ids": [],
+          "decision": "published_or_existing",
+          "reason": "掲載記録に出典として対応。今回の変更対象はadded_incident_idsとupdated_incident_idsを参照。",
+          "fetch_status": "retrieved"
+        },
+        {
+          "url": "https://www.access-company.com/files/2026/10/n261015.pdf",
+          "incident_ids": [
+            "access-cros-20261015"
+          ],
+          "candidate_ids": [],
+          "decision": "published_or_existing",
+          "reason": "掲載記録に出典として対応。今回の変更対象はadded_incident_idsとupdated_incident_idsを参照。",
+          "fetch_status": "retrieved"
+        },
+        {
+          "url": "https://www.beautygarage.co.jp/wp/wp-content/uploads/20261015_%E4%B8%8D%E6%AD%A3%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E3%81%AB%E3%82%88%E3%82%8B%E3%81%8A%E5%AE%A2%E6%A7%98%E6%83%85%E5%A0%B1%E6%BC%8F%E6%B4%A9%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E3%81%8A%E8%A9%AB%E3%81%B3%E3%81%A8%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B.pdf",
+          "incident_ids": [
+            "beautygarage-ec-20261015"
+          ],
+          "candidate_ids": [],
+          "decision": "published_or_existing",
+          "reason": "掲載記録に出典として対応。今回の変更対象はadded_incident_idsとupdated_incident_idsを参照。",
+          "fetch_status": "retrieved"
+        },
+        {
+          "url": "https://www.city.shizuoka.lg.jp/documents/59469/kaiken1014.pdf",
+          "incident_ids": [
+            "shizuoka-raiden-20261014"
+          ],
+          "candidate_ids": [],
+          "decision": "published_or_existing",
+          "reason": "掲載記録に出典として対応。今回の変更対象はadded_incident_idsとupdated_incident_idsを参照。",
+          "fetch_status": "retrieved"
+        },
+        {
+          "url": "https://www.city.oita.oita.jp/o009/fuseiaccess20261013.html",
+          "incident_ids": [
+            "oita-raiden-20261014"
+          ],
+          "candidate_ids": [],
+          "decision": "published_or_existing",
+          "reason": "掲載記録に出典として対応。今回の変更対象はadded_incident_idsとupdated_incident_idsを参照。",
+          "fetch_status": "retrieved"
+        },
+        {
+          "url": "https://www.city.toyokawa.lg.jp/soshiki/kikaku/johoseisaku/2/31497.html",
+          "incident_ids": [],
+          "candidate_ids": [
+            "oct20-review-42"
+          ],
+          "decision": "pending",
+          "reason": "確認待ち記録に具体的な不足事項を保存。",
+          "fetch_status": "unavailable_direct"
+        },
+        {
+          "url": "https://city-chiba.my.site.com/PUB_VF_Detail_Oshirase?key=dWtk8XwcyhjMDw5lzG13ALt2dRTPpTe8wHMOqfZB",
+          "incident_ids": [
+            "chiba-city-raiden-20261014"
+          ],
+          "candidate_ids": [],
+          "decision": "published_or_existing",
+          "reason": "掲載記録に出典として対応。今回の変更対象はadded_incident_idsとupdated_incident_idsを参照。",
+          "fetch_status": "retrieved"
+        },
+        {
+          "url": "https://newsroom.mazda.com/ja/publicity/release/2026/202610/261014a.pdf",
+          "incident_ids": [
+            "mazda-commune-20261014"
+          ],
+          "candidate_ids": [],
+          "decision": "published_or_existing",
+          "reason": "掲載記録に出典として対応。今回の変更対象はadded_incident_idsとupdated_incident_idsを参照。",
+          "fetch_status": "retrieved"
+        },
+        {
+          "url": "https://www.peachjohn.co.jp/information/detail/137",
+          "incident_ids": [
+            "peachjohn-idcf-20261014"
+          ],
+          "candidate_ids": [],
+          "decision": "published_or_existing",
+          "reason": "掲載記録に出典として対応。今回の変更対象はadded_incident_idsとupdated_incident_idsを参照。",
+          "fetch_status": "retrieved"
+        },
+        {
+          "url": "https://www.ntv-wands.co.jp/news/articles/pbs9b02rgl3oubrj.html",
+          "incident_ids": [
+            "ntv-wands-faveconnect-20261014"
+          ],
+          "candidate_ids": [],
+          "decision": "published_or_existing",
+          "reason": "掲載記録に出典として対応。今回の変更対象はadded_incident_idsとupdated_incident_idsを参照。",
+          "fetch_status": "retrieved"
+        },
+        {
+          "url": "https://www2.mouse-jp.co.jp/ssl/user_support2/info.asp?N_ID=535",
+          "incident_ids": [
+            "mouse-idcf-20261014"
+          ],
+          "candidate_ids": [],
+          "decision": "published_or_existing",
+          "reason": "掲載記録に出典として対応。今回の変更対象はadded_incident_idsとupdated_incident_idsを参照。",
+          "fetch_status": "retrieved"
+        },
+        {
+          "url": "https://lili-jo.com/notice/20261014.html",
+          "incident_ids": [
+            "lili-20261014"
+          ],
+          "candidate_ids": [],
+          "decision": "published_or_existing",
+          "reason": "掲載記録に出典として対応。今回の変更対象はadded_incident_idsとupdated_incident_idsを参照。",
+          "fetch_status": "retrieved"
+        },
+        {
+          "url": "https://www.izumi.co.jp/news_release/assets/dc18e543b048e2f1a4d596bb0035aaaf_2.pdf",
+          "incident_ids": [
+            "izumi-idcf-20261014"
+          ],
+          "candidate_ids": [],
+          "decision": "published_or_existing",
+          "reason": "掲載記録に出典として対応。今回の変更対象はadded_incident_idsとupdated_incident_idsを参照。",
+          "fetch_status": "retrieved"
+        },
+        {
+          "url": "https://www.aena.co.jp/news/detail/7826/",
+          "incident_ids": [
+            "aena-20261014"
+          ],
+          "candidate_ids": [],
+          "decision": "published_or_existing",
+          "reason": "掲載記録に出典として対応。今回の変更対象はadded_incident_idsとupdated_incident_idsを参照。",
+          "fetch_status": "retrieved"
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/kurashi/bousai/1014143.html",
+          "incident_ids": [
+            "zama-raiden-20261016"
+          ],
+          "candidate_ids": [],
+          "decision": "published_or_existing",
+          "reason": "掲載記録に出典として対応。今回の変更対象はadded_incident_idsとupdated_incident_idsを参照。",
+          "fetch_status": "retrieved"
+        },
+        {
+          "url": "https://www.city.sasebo.lg.jp/bousai/20261013_arcadia.html",
+          "incident_ids": [
+            "sasebo-raiden-20261015"
+          ],
+          "candidate_ids": [],
+          "decision": "published_or_existing",
+          "reason": "掲載記録に出典として対応。今回の変更対象はadded_incident_idsとupdated_incident_idsを参照。",
+          "fetch_status": "retrieved"
+        },
+        {
+          "url": "https://www.city.hakodate.hokkaido.jp/docs/2026101600015/",
+          "incident_ids": [
+            "hakodate-raiden-20261016"
+          ],
+          "candidate_ids": [],
+          "decision": "published_or_existing",
+          "reason": "掲載記録に出典として対応。今回の変更対象はadded_incident_idsとupdated_incident_idsを参照。",
+          "fetch_status": "retrieved"
+        },
+        {
+          "url": "https://www.city.shimonoseki.lg.jp/soshiki/9/164253.html",
+          "incident_ids": [
+            "shimonoseki-raiden-20261013"
+          ],
+          "candidate_ids": [],
+          "decision": "published_or_existing",
+          "reason": "掲載記録に出典として対応。今回の変更対象はadded_incident_idsとupdated_incident_idsを参照。",
+          "fetch_status": "retrieved"
+        },
+        {
+          "url": "https://www.city.yokosuka.kanagawa.jp/0525/nagekomi/20261013_roueinoosore.html",
+          "incident_ids": [
+            "yokosuka-raiden-20261013"
+          ],
+          "candidate_ids": [],
+          "decision": "published_or_existing",
+          "reason": "掲載記録に出典として対応。今回の変更対象はadded_incident_idsとupdated_incident_idsを参照。",
+          "fetch_status": "retrieved"
+        },
+        {
+          "url": "https://www.skyperfectjsat.space/jp/news/20261013",
+          "incident_ids": [
+            "skyperfect-idcf-20261013"
+          ],
+          "candidate_ids": [],
+          "decision": "published_or_existing",
+          "reason": "掲載記録に出典として対応。今回の変更対象はadded_incident_idsとupdated_incident_idsを参照。",
+          "fetch_status": "retrieved"
+        },
+        {
+          "url": "https://www.city.saga.lg.jp/kinkyu/9027.html",
+          "incident_ids": [],
+          "candidate_ids": [
+            "oct20-review-57"
+          ],
+          "decision": "pending",
+          "reason": "確認待ち記録に具体的な不足事項を保存。",
+          "fetch_status": "retrieved"
+        },
+        {
+          "url": "https://www.nttexc.co.jp/news/detail20261013/",
+          "incident_ids": [],
+          "candidate_ids": [
+            "oct20-review-58"
+          ],
+          "decision": "pending",
+          "reason": "確認待ち記録に具体的な不足事項を保存。",
+          "fetch_status": "retrieved"
+        },
+        {
+          "url": "https://contents.xj-storage.jp/xcontents/AS09415/85ac085b/189e/4649/82f5/c3671d1900c8/140120261013549964.pdf",
+          "incident_ids": [
+            "nextstage-bi-20261013"
+          ],
+          "candidate_ids": [],
+          "decision": "published_or_existing",
+          "reason": "掲載記録に出典として対応。今回の変更対象はadded_incident_idsとupdated_incident_idsを参照。",
+          "fetch_status": "retrieved"
+        },
+        {
+          "url": "https://www.pref.miyazaki.lg.jp/kiki-kikikanri/press/2026/10/20261013181842.html",
+          "incident_ids": [],
+          "candidate_ids": [
+            "oct20-review-60"
+          ],
+          "decision": "pending",
+          "reason": "確認待ち記録に具体的な不足事項を保存。",
+          "fetch_status": "unavailable_direct"
+        },
+        {
+          "url": "https://www.city.karatsu.lg.jp/page/52939.html",
+          "incident_ids": [],
+          "candidate_ids": [
+            "oct20-review-61"
+          ],
+          "decision": "pending",
+          "reason": "確認待ち記録に具体的な不足事項を保存。",
+          "fetch_status": "retrieved"
+        },
+        {
+          "url": "https://www.pref.kagawa.lg.jp/kikikanri/sogo/bosaijoho/bousaijouhoume-ru_ryuusyutu.html",
+          "incident_ids": [
+            "kagawa-raiden-20261013"
+          ],
+          "candidate_ids": [],
+          "decision": "published_or_existing",
+          "reason": "掲載記録に出典として対応。今回の変更対象はadded_incident_idsとupdated_incident_idsを参照。",
+          "fetch_status": "retrieved"
+        },
+        {
+          "url": "https://www.jrfs.co.jp/news/365",
+          "incident_ids": [],
+          "candidate_ids": [
+            "oct20-review-63"
+          ],
+          "decision": "pending",
+          "reason": "確認待ち記録に具体的な不足事項を保存。",
+          "fetch_status": "unavailable_direct"
+        },
+        {
+          "url": "https://www.city.joetsu.niigata.jp/soshiki/shimin-anzen/bouhan-mail-teishi.html",
+          "incident_ids": [
+            "joetsu-raiden-20261016"
+          ],
+          "candidate_ids": [],
+          "decision": "published_or_existing",
+          "reason": "掲載記録に出典として対応。今回の変更対象はadded_incident_idsとupdated_incident_idsを参照。",
+          "fetch_status": "retrieved"
+        },
+        {
+          "url": "https://files.japanpost.jp/assets/34d9d11432734cfaa759e78fe395b688/f3f28b64a67841a1bd88dec64017f917/20261013_03_01.pdf",
+          "incident_ids": [
+            "japanpost-business-toolbox-20261013"
+          ],
+          "candidate_ids": [],
+          "decision": "published_or_existing",
+          "reason": "掲載記録に出典として対応。今回の変更対象はadded_incident_idsとupdated_incident_idsを参照。",
+          "fetch_status": "retrieved"
+        },
+        {
+          "url": "https://idare.jp/news/1926/",
+          "incident_ids": [
+            "idare-fivot-20261013"
+          ],
+          "candidate_ids": [],
+          "decision": "published_or_existing",
+          "reason": "掲載記録に出典として対応。今回の変更対象はadded_incident_idsとupdated_incident_idsを参照。",
+          "fetch_status": "retrieved"
+        },
+        {
+          "url": "https://www.east-mitsubishi-motor-sales.com/custom/%E5%BD%93%E7%A4%BE%E7%A4%BE%E5%93%A1%E3%81%AE%E3%83%A1%E3%83%BC%E3%83%AB%E3%82%A2%E3%82%AB%E3%82%A6%E3%83%B3%E3%83%88%E3%81%B8%E3%81%AE%E4%B8%8D%E6%AD%A3%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E3%81%AB/",
+          "incident_ids": [],
+          "candidate_ids": [
+            "oct20-review-67"
+          ],
+          "decision": "pending",
+          "reason": "確認待ち記録に具体的な不足事項を保存。",
+          "fetch_status": "retrieved"
+        },
+        {
+          "url": "https://www.dcm-hc.co.jp/news/news_file/file/20261013nwes%20.pdf",
+          "incident_ids": [
+            "dcm-myvo-20261013"
+          ],
+          "candidate_ids": [],
+          "decision": "published_or_existing",
+          "reason": "掲載記録に出典として対応。今回の変更対象はadded_incident_idsとupdated_incident_idsを参照。",
+          "fetch_status": "retrieved"
+        },
+        {
+          "url": "https://www.city.ayase.kanagawa.jp/soshiki/kikikanrika/bosai_bohan_anzen_anshin/1/25245.html",
+          "incident_ids": [
+            "ayase-raiden-20261013"
+          ],
+          "candidate_ids": [],
+          "decision": "published_or_existing",
+          "reason": "掲載記録に出典として対応。今回の変更対象はadded_incident_idsとupdated_incident_idsを参照。",
+          "fetch_status": "retrieved"
+        },
+        {
+          "url": "https://www.city.akita.lg.jp/bosai-kinkyu/1011678/1053554.html",
+          "incident_ids": [
+            "akita-raiden-20261016"
+          ],
+          "candidate_ids": [],
+          "decision": "published_or_existing",
+          "reason": "掲載記録に出典として対応。今回の変更対象はadded_incident_idsとupdated_incident_idsを参照。",
+          "fetch_status": "retrieved"
+        },
+        {
+          "url": "https://akatake.co.jp/news/2026/4531/",
+          "incident_ids": [
+            "akatake-ransom-20260813"
+          ],
+          "candidate_ids": [],
+          "decision": "published_or_existing",
+          "reason": "掲載記録に出典として対応。今回の変更対象はadded_incident_idsとupdated_incident_idsを参照。",
+          "fetch_status": "retrieved"
+        },
+        {
+          "url": "https://jpn.nec.com/news/info/20261020.html",
+          "incident_ids": [
+            "nec-vendor-20261020"
+          ],
+          "candidate_ids": [],
+          "decision": "published_or_existing",
+          "reason": "掲載記録に出典として対応。今回の変更対象はadded_incident_idsとupdated_incident_idsを参照。",
+          "fetch_status": "unavailable_direct"
+        },
+        {
+          "url": "https://www.trustbank.co.jp/newsroom/newsrelease/news261020/",
+          "incident_ids": [
+            "trustbank-furusato-attack-20261020"
+          ],
+          "candidate_ids": [],
+          "decision": "published_or_existing",
+          "reason": "掲載記録に出典として対応。今回の変更対象はadded_incident_idsとupdated_incident_idsを参照。",
+          "fetch_status": "retrieved"
+        },
+        {
+          "url": "https://www.city.osaka.lg.jp/hodoshiryo/nishi/0000689349.html",
+          "incident_ids": [
+            "osaka-nishi-redaction-20261020"
+          ],
+          "candidate_ids": [],
+          "decision": "published_or_existing",
+          "reason": "掲載記録に出典として対応。今回の変更対象はadded_incident_idsとupdated_incident_idsを参照。",
+          "fetch_status": "retrieved"
+        },
+        {
+          "url": "https://www.pref.chiba.lg.jp/dejisui/press/2026/20261020incident.html",
+          "incident_ids": [
+            "chiba-studio-20261020"
+          ],
+          "candidate_ids": [],
+          "decision": "published_or_existing",
+          "reason": "掲載記録に出典として対応。今回の変更対象はadded_incident_idsとupdated_incident_idsを参照。",
+          "fetch_status": "retrieved"
+        },
+        {
+          "url": "https://www.pref.kanagawa.jp/docs/sr4/prs/r9000706.html",
+          "incident_ids": [
+            "kanagawa-venture-studio-20261019"
+          ],
+          "candidate_ids": [],
+          "decision": "published_or_existing",
+          "reason": "掲載記録に出典として対応。今回の変更対象はadded_incident_idsとupdated_incident_idsを参照。",
+          "fetch_status": "retrieved"
+        }
+      ],
+      "followup_checks": [
+        {
+          "organization": "パピレス（Renta!）",
+          "result": "個人情報への具体的影響を示す追加発表は確認できず、確認待ち継続。",
+          "urls": [
+            "https://papy.co.jp/ir/sc/index/ir_news.html",
+            "https://www.itmedia.co.jp/news/article/2610/19/2000002379/"
+          ]
+        },
+        {
+          "organization": "NTTソルマーレ",
+          "result": "公式一覧の最新掲載は10月18日の第3報。既掲載内容を維持。",
+          "urls": [
+            "https://www.nttsolmare.com/press/2026/"
+          ]
+        }
+      ],
+      "published_total": 502,
+      "pending_total": 54,
+      "limitations": [
+        "全502事案の続報を個別再調査したものではない。今回の重点範囲と確認対象URLを記録している。",
+        "全自治体・全委託先の網羅を保証しない。確認待ちは残存。",
+        "取得できない公式資料、日付未確定、個人情報影響未確認は理由付きで候補に残した。",
+        "NECは公式検索抽出本文で確認。日経開発クラウドは二次資料確認。新規全件のITベンダー網羅調査は未実施。"
+      ]
     }
   ]
 }

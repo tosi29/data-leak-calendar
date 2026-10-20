@@ -1,0 +1,47 @@
+{
+  "id": "iwaicosmo-tradeworks-20261016",
+  "organization": {
+    "name": "岩井コスモ証券",
+    "sector": "企業・団体"
+  },
+  "title": "委託先への不正アクセスによる顧客情報漏洩",
+  "summary": "インターネット取引の運用・保守委託先トレードワークスのシステムへの不正アクセスで顧客情報が漏洩。",
+  "published_on": "2026-10-16",
+  "first_published_on": "2026-10-16",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-20",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。具体的な侵入手法は調査中または未公表。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 4611,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表された対象規模。漏えい状況は本文を参照。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "メールアドレス等"
+  ],
+  "related_vendor": "トレードワークス",
+  "sources": [
+    {
+      "url": "https://www.iwaicosmo.co.jp/news/2026/10161410.html",
+      "type": "official",
+      "title": "委託先への不正アクセスによる顧客情報漏洩",
+      "published_on": "2026-10-16",
+      "checked_on": "2026-10-20"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

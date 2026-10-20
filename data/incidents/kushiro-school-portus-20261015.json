@@ -1,0 +1,85 @@
+{
+  "id": "kushiro-school-portus-20261015",
+  "organization": {
+    "name": "釧路市",
+    "sector": "自治体"
+  },
+  "title": "委託先サーバーへの侵入による学習用アカウント情報流出の可能性",
+  "summary": "学習用端末の管理運用委託先のサーバーが侵害され、複数年度の児童生徒・教職員の学習用アカウント情報が流出した可能性。",
+  "published_on": "2026-10-15",
+  "first_published_on": "2026-10-15",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-20",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。具体的な侵入手法は調査中または未公表。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 11106,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "令和2年児童生徒。区分間の重複に注意。"
+    },
+    {
+      "count": 879,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "令和2年教職員。区分間の重複に注意。"
+    },
+    {
+      "count": 4,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "令和2年管理者。区分間の重複に注意。"
+    },
+    {
+      "count": 9252,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "令和7年児童生徒。区分間の重複に注意。"
+    },
+    {
+      "count": 871,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "令和7年教職員。区分間の重複に注意。"
+    },
+    {
+      "count": 8284,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "令和8年児童生徒。区分間の重複に注意。"
+    },
+    {
+      "count": 837,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "令和8年教職員。区分間の重複に注意。"
+    }
+  ],
+  "data_types": [
+    "学校名",
+    "氏名",
+    "アカウント名",
+    "パスワード"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.city.kushiro.lg.jp/kosodatekyouiku/kyouiku/1008303/1019759.html",
+      "type": "official",
+      "title": "委託先サーバーへの侵入による学習用アカウント情報流出の可能性",
+      "published_on": "2026-10-15",
+      "checked_on": "2026-10-20"
+    }
+  ],
+  "updates": [],
+  "notes": "年度間・区分間の重複があり得るため人数を合算しない。学校の端末や教育委員会のシステム自体への攻撃ではない。"
+}

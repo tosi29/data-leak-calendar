@@ -10,16 +10,28 @@
   "publication_kind": "initial",
   "occurred_on": null,
   "detected_on": null,
-  "updated_on": "2026-10-15",
+  "updated_on": "2026-10-20",
   "incident_type": "attack",
   "leak_status": "confirmed",
-  "summary": "購入者情報の外部送信を確認。第2報で攻撃期間を5月21日～8月1日とし、暗号化された会員ID・パスワードやカード情報の一部も対象と公表。",
+  "summary": "ショップサーブのアプリケーションの脆弱性を悪用され、購入者・店舗運営者・アフィリエイターの情報が流出。最終報で対象者約2,335万6,000人と公表。",
   "impact": [
     {
-      "count": 8853839,
-      "unit": "records",
-      "qualifier": "maximum",
-      "description": "公表資料に記載された対象規模"
+      "count": 23356000,
+      "unit": "people",
+      "qualifier": "approximate",
+      "description": "名寄せ後の概数。完全に重複を除去できないため概数。"
+    },
+    {
+      "count": 2096900,
+      "unit": "people",
+      "qualifier": "approximate",
+      "description": "カード番号一部等を含む対象者。総対象者の内数。"
+    },
+    {
+      "count": 7858,
+      "unit": "organizations",
+      "qualifier": "exact",
+      "description": "現利用・過去利用を含む対象店舗。"
     }
   ],
   "data_types": [
@@ -29,12 +41,14 @@
     "メールアドレス",
     "会員ID",
     "暗号化パスワード",
-    "カード番号の一部"
+    "カード番号の一部・名義・有効期限",
+    "店舗管理画面の認証情報",
+    "アフィリエイター登録情報"
   ],
   "cause": {
-    "category": "unauthorized_access",
-    "detail": "第三者による不正アクセス。侵入手法の詳細は未公表。",
-    "certainty": "unknown"
+    "category": "vulnerability",
+    "detail": "サーバー上のアプリケーションの脆弱性を悪用され、不正プログラムからデータベース情報を外部へ送信された。",
+    "certainty": "confirmed"
   },
   "sources": [
     {
@@ -50,10 +64,23 @@
       "title": "ショップサーブ不正アクセス（第2報）",
       "published_on": "2026-08-02",
       "checked_on": "2026-10-15"
+    },
+    {
+      "url": "https://estore.jp/press/20261016/",
+      "type": "official",
+      "title": "最終報で対象者約23,356,000人・対象店舗7,858店と確定。店舗メール・FTP認証情報と振込先口座情報は対象外へ訂正。",
+      "published_on": "2026-10-16",
+      "checked_on": "2026-10-20"
     }
   ],
-  "notes": "同一利用者の複数登録を含む延べ件数であり人数ではない。利用店舗側の公表事案と影響範囲が重複するため合算不可。",
-  "updates": [],
+  "notes": "対象者数は名寄せした概数。カード情報一部を含む約209万6,900人は内数。完全なカード番号とセキュリティコードは非保持。第2報の店舗メール・FTP認証情報、振込先口座情報は最終報で対象から除外。利用店舗の事案と重複し得るため合算しない。",
+  "updates": [
+    {
+      "date": "2026-10-16",
+      "summary": "最終報で対象者約23,356,000人・対象店舗7,858店と確定。店舗メール・FTP認証情報と振込先口座情報は対象外へ訂正。",
+      "source_index": 2
+    }
+  ],
   "verification": "official",
   "related_vendor": null
 }

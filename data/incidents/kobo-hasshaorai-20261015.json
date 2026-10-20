@@ -1,0 +1,46 @@
+{
+  "id": "kobo-hasshaorai-20261015",
+  "organization": {
+    "name": "工房（発車オーライネット）",
+    "sector": "企業・団体"
+  },
+  "title": "外部連携APIサーバーからのバス予約情報流出",
+  "summary": "9月16〜19日の不正アクセスで予約情報が流出。最大対象8,341件・対象人数5,614と公表し、最終確認中。",
+  "published_on": "2026-10-15",
+  "first_published_on": "2026-10-15",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-20",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。具体的な侵入手法は調査中または未公表。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 8341,
+      "unit": "records",
+      "qualifier": "maximum",
+      "description": "公表された対象規模。漏えい状況は本文を参照。"
+    }
+  ],
+  "data_types": [
+    "バス予約情報"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.khobho.co.jp/wp-content/themes/kobo/pdf/20261015.pdf",
+      "type": "official",
+      "title": "外部連携APIサーバーからのバス予約情報流出",
+      "published_on": "2026-10-15",
+      "checked_on": "2026-10-20"
+    }
+  ],
+  "updates": [],
+  "notes": "対象人数欄は原文で5,614件と表記されているため、人数へ無条件に読み替えない。"
+}

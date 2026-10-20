@@ -1,0 +1,49 @@
+{
+  "id": "chiba-studio-20261020",
+  "organization": {
+    "name": "千葉県",
+    "sector": "自治体"
+  },
+  "title": "県の委託事業で利用するStudioからの情報漏えいの可能性",
+  "summary": "ちば部、在宅医療支援など複数事業のフォーム・アカウント情報が流出した可能性。",
+  "published_on": "2026-10-20",
+  "first_published_on": "2026-10-20",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-20",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。具体的な侵入手法は調査中または未公表。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "公表された対象規模。漏えい状況は本文を参照。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "メールアドレス",
+    "電話番号",
+    "フォーム送信内容"
+  ],
+  "related_vendor": "Studio",
+  "sources": [
+    {
+      "url": "https://www.pref.chiba.lg.jp/dejisui/press/2026/20261020incident.html",
+      "type": "official",
+      "title": "県の委託事業で利用するStudioからの情報漏えいの可能性",
+      "published_on": "2026-10-20",
+      "checked_on": "2026-10-20"
+    }
+  ],
+  "updates": [],
+  "notes": "事業・フォームごとに対象者と項目が異なる。件数を人数として合算しない。"
+}

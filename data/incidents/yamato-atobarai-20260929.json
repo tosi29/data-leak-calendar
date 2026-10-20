@@ -8,15 +8,27 @@
   "published_on": "2026-09-29",
   "occurred_on": null,
   "detected_on": "2026-09-28",
-  "updated_on": "2026-10-15",
-  "leak_status": "suspected",
-  "summary": "代金後払いサービスへの不正アクセスを確認。第2報で利用者・加盟店・担当社員に関する情報が漏えいした可能性を公表。",
+  "updated_on": "2026-10-20",
+  "leak_status": "confirmed",
+  "summary": "クロネコ代金後払いサービスへの不正アクセスで利用者情報等の持ち出しを確認。10月16日に対象範囲と規模を公表。",
   "impact": [
     {
-      "count": null,
+      "count": 5260000,
       "unit": "records",
-      "qualifier": "unknown",
-      "description": "影響範囲を調査中"
+      "qualifier": "approximate",
+      "description": "利用者情報。メールアドレス約49万件は内数。"
+    },
+    {
+      "count": 50000,
+      "unit": "records",
+      "qualifier": "approximate",
+      "description": "お届け先情報。利用者との重複があり得る。"
+    },
+    {
+      "count": 4100,
+      "unit": "records",
+      "qualifier": "approximate",
+      "description": "加盟店情報。個人数ではない。"
     }
   ],
   "data_types": [
@@ -24,8 +36,10 @@
     "住所",
     "電話番号",
     "メールアドレス",
-    "与信番号",
-    "請求・商品情報"
+    "商品明細",
+    "社内管理用情報",
+    "届け先情報",
+    "加盟店情報"
   ],
   "cause": {
     "category": "unauthorized_access",
@@ -38,14 +52,19 @@
       "type": "official",
       "title": "クロネコ代金後払いサービスへの不正アクセス（第2報）",
       "published_on": "2026-10-02",
-      "checked_on": "2026-10-15"
+      "checked_on": "2026-10-20"
     }
   ],
-  "notes": "第2報本文で初報の日付（9月29日）を確認。件数は未公表。",
+  "notes": "9月29日初報。10月16日公表の区分別件数は重複の可能性があり、人数として合算しない。 請求金額・債権残高・当社社員の氏名の持ち出しは、調査で確認されなかった。",
   "updates": [
     {
       "date": "2026-10-02",
       "summary": "漏えいした可能性がある情報の種類を公表。",
+      "source_index": 0
+    },
+    {
+      "date": "2026-10-16",
+      "summary": "調査によりクロネコ代金後払いサービスの個人情報が不正に持ち出されたことを確認。対象範囲と規模を公表。",
       "source_index": 0
     }
   ],
@@ -55,7 +74,7 @@
   "related_vendor": null,
   "incident_type": "attack",
   "vendor_research": {
-    "checked_on": "2026-10-15",
+    "checked_on": "2026-10-20",
     "result": "not_identified",
     "note": "掲載出典と追加検索で、当該事案に関係する外部の開発・運用・サービス・基盤会社の社名と役割を特定できませんでした。",
     "source_checks": [

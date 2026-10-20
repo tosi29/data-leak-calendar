@@ -1,0 +1,59 @@
+{
+  "id": "wasabi-switch-20261016",
+  "organization": {
+    "name": "ワサビ（WASABI SWITCH）",
+    "sector": "企業・団体"
+  },
+  "title": "EC一元管理サービスからの注文情報流出",
+  "summary": "不正アクセスで店舗の注文情報等が外部に流出。実際の注文情報を記載した返金詐欺とみられるメールが購入者に届いた。",
+  "published_on": "2026-10-16",
+  "first_published_on": "2026-10-16",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-20",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。具体的な侵入手法は調査中または未公表。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "公表された対象規模。漏えい状況は本文を参照。"
+    }
+  ],
+  "data_types": [
+    "注文情報等"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://wasabi-inc.biz/help/news/20261016-01/",
+      "type": "official",
+      "title": "EC一元管理サービスからの注文情報流出",
+      "published_on": "2026-10-16",
+      "checked_on": "2026-10-20"
+    },
+    {
+      "url": "https://wasabi-inc.biz/help/news/20261018-02/",
+      "type": "official",
+      "title": "WASABI SWITCH 第五報",
+      "published_on": "2026-10-18",
+      "checked_on": "2026-10-20"
+    }
+  ],
+  "updates": [
+    {
+      "date": "2026-10-18",
+      "summary": "テンプレート内のPHP機能が悪用されたと判明し、同機能の利用を停止。",
+      "source_index": 1
+    }
+  ],
+  "notes": ""
+}

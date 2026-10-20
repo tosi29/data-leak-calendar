@@ -1,0 +1,47 @@
+{
+  "id": "izumi-idcf-20261014",
+  "organization": {
+    "name": "イズミ",
+    "sector": "企業・団体"
+  },
+  "title": "メール配信基盤への不正アクセスに伴う情報漏えいの可能性",
+  "summary": "委託先が利用するIDCフロンティアの環境への不正アクセスにより、メール配信に用いる情報が漏えいした可能性。実際の漏えいは未確認。",
+  "published_on": "2026-10-14",
+  "first_published_on": "2026-10-14",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-20",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。具体的な侵入手法は調査中または未公表。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 400000,
+      "unit": "records",
+      "qualifier": "maximum_approximate",
+      "description": "ゆめオンライン・ゆめデリバリーのメール配信用情報。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "メールアドレス"
+  ],
+  "related_vendor": "IDCフロンティア",
+  "sources": [
+    {
+      "url": "https://www.izumi.co.jp/news_release/assets/dc18e543b048e2f1a4d596bb0035aaaf_2.pdf",
+      "type": "official",
+      "title": "メール配信基盤への不正アクセスに伴う情報漏えいの可能性",
+      "published_on": "2026-10-14",
+      "checked_on": "2026-10-20"
+    }
+  ],
+  "updates": [],
+  "notes": "配信基盤提供元や他の利用組織の件数との重複を含み得るため合算しない。"
+}

@@ -1,0 +1,49 @@
+{
+  "id": "idare-fivot-20261013",
+  "organization": {
+    "name": "Fivot（IDARE）",
+    "sector": "企業・団体"
+  },
+  "title": "外部ソフトウェアの脆弱性を経由した顧客情報漏えい",
+  "summary": "外部ソフトウェアの脆弱性により、8月10日〜9月27日に顧客情報が第三者へ取得された。",
+  "published_on": "2026-10-13",
+  "first_published_on": "2026-10-13",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-20",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "vulnerability",
+    "detail": "カスタマーサポート等の業務に導入した外部ソフトウェアの脆弱性を悪用された。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 129659,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表された対象規模。漏えい状況は本文を参照。"
+    }
+  ],
+  "data_types": [
+    "登録情報",
+    "残高・取引履歴",
+    "本人確認申請情報",
+    "カード・銀行口座番号の一部"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://idare.jp/news/1926/",
+      "type": "official",
+      "title": "外部ソフトウェアの脆弱性を経由した顧客情報漏えい",
+      "published_on": "2026-10-13",
+      "checked_on": "2026-10-20"
+    }
+  ],
+  "updates": [],
+  "notes": "ログインパスワード、本人確認画像、カード番号全桁等は対象外。"
+}

@@ -1,0 +1,47 @@
+{
+  "id": "osaka-nishi-redaction-20261020",
+  "organization": {
+    "name": "大阪市",
+    "sector": "自治体"
+  },
+  "title": "西区の課外学習支援報告書PDFの黒塗り不備",
+  "summary": "7月17日に提供したPDFに文字・数値データが残り、生徒延べ76名分の氏名等と法人情報が漏えい。",
+  "published_on": "2026-10-20",
+  "first_published_on": "2026-10-20",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-20",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "accident",
+  "cause": {
+    "category": "redaction_error",
+    "detail": "PDFを黒塗りしても内部の文字・数値データが残っていた。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 76,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "公表された対象規模。漏えい状況は本文を参照。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "フリガナ"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.city.osaka.lg.jp/hodoshiryo/nishi/0000689349.html",
+      "type": "official",
+      "title": "西区の課外学習支援報告書PDFの黒塗り不備",
+      "published_on": "2026-10-20",
+      "checked_on": "2026-10-20"
+    }
+  ],
+  "updates": [],
+  "notes": "対象は延べ76名分。実人数とは断定しない。"
+}

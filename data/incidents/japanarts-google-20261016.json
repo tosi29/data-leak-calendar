@@ -1,0 +1,47 @@
+{
+  "id": "japanarts-google-20261016",
+  "organization": {
+    "name": "ジャパン・アーツ",
+    "sector": "企業・団体"
+  },
+  "title": "社員Googleアカウントへの不正アクセス",
+  "summary": "フィッシングで認証情報を入力し端末認証を許可。連絡先や過去のやり取りに含まれる氏名・メールアドレスの流出を確認。",
+  "published_on": "2026-10-16",
+  "first_published_on": "2026-10-16",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-20",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "credentials",
+    "detail": "フィッシングメールのリンク先にパスワードを入力し、端末認証を許可した。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 5376,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "公表された対象規模。漏えい状況は本文を参照。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "メールアドレス"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.japanarts.co.jp/news/p10043/",
+      "type": "official",
+      "title": "社員Googleアカウントへの不正アクセス",
+      "published_on": "2026-10-16",
+      "checked_on": "2026-10-20"
+    }
+  ],
+  "updates": [],
+  "notes": "5,376件は流出した可能性のある連絡先の範囲。チケット会員情報の漏えいは未確認。"
+}

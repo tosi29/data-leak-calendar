@@ -1,0 +1,51 @@
+{
+  "id": "japanpost-business-toolbox-20261013",
+  "organization": {
+    "name": "日本郵便（JP Business Tool Box）",
+    "sector": "企業・団体"
+  },
+  "title": "送り状注文機能での他利用者情報の閲覧可能状態",
+  "summary": "アプリケーションの不具合により、送り状ラベルの発注元情報を他の利用者が閲覧できる状態となった。",
+  "published_on": "2026-10-13",
+  "first_published_on": "2026-10-13",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-20",
+  "verification": "official",
+  "leak_status": "exposed",
+  "incident_type": "accident",
+  "cause": {
+    "category": "unknown",
+    "detail": "送り状注文機能のアプリケーション不具合。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": 4807,
+      "unit": "records",
+      "qualifier": "maximum",
+      "description": "公表された対象規模。漏えい状況は本文を参照。"
+    }
+  ],
+  "data_types": [
+    "法人名",
+    "担当者名",
+    "部署名",
+    "住所",
+    "電話番号",
+    "メールアドレス"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://files.japanpost.jp/assets/34d9d11432734cfaa759e78fe395b688/f3f28b64a67841a1bd88dec64017f917/20261013_03_01.pdf",
+      "type": "official",
+      "title": "送り状注文機能での他利用者情報の閲覧可能状態",
+      "published_on": "2026-10-13",
+      "checked_on": "2026-10-20"
+    }
+  ],
+  "updates": [],
+  "notes": "ダウンロード・利用の形跡は未確認。停止日は10月8日、公表日は10月13日。"
+}

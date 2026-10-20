@@ -1,0 +1,48 @@
+{
+  "id": "nissay-hospital-supportscam-20261015",
+  "organization": {
+    "name": "日本生命病院",
+    "sector": "企業・団体"
+  },
+  "title": "訪問看護ステーションのサポート詐欺被害",
+  "summary": "業務PCと職員個人スマートフォンがサポート詐欺被害を受け、利用者や関係者の個人情報253名分が閲覧された可能性。",
+  "published_on": "2026-10-15",
+  "first_published_on": "2026-10-15",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-20",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "偽の警告に従って端末を操作。院内規定に反して個人情報が保存されていた。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 253,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表された対象規模。漏えい状況は本文を参照。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "連絡先",
+    "災害時に備えた状態評価情報等"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.nissay-hp.or.jp/news/common/20261015_kojinjoho.html",
+      "type": "official",
+      "title": "訪問看護ステーションのサポート詐欺被害",
+      "published_on": "2026-10-15",
+      "checked_on": "2026-10-20"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

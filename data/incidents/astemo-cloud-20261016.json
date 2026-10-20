@@ -1,0 +1,49 @@
+{
+  "id": "astemo-cloud-20261016",
+  "organization": {
+    "name": "Astemo",
+    "sector": "企業・団体"
+  },
+  "title": "委託会社アカウントを経由した共有クラウド情報流出",
+  "summary": "業務委託会社の侵害されたアカウントから共有クラウドに不正アクセスされ、従業員・仕入先・協力会社関係者の個人情報約350名分が流出。",
+  "published_on": "2026-10-16",
+  "first_published_on": "2026-10-16",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-20",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "credentials",
+    "detail": "共有環境への権限を有する業務委託会社従業員のアカウントが侵害された。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 350,
+      "unit": "people",
+      "qualifier": "approximate",
+      "description": "公表された対象規模。漏えい状況は本文を参照。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "メールアドレス",
+    "電話番号",
+    "所属"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.astemo.com/jp/news/pdf/20261016-01.pdf",
+      "type": "official",
+      "title": "委託会社アカウントを経由した共有クラウド情報流出",
+      "published_on": "2026-10-16",
+      "checked_on": "2026-10-20"
+    }
+  ],
+  "updates": [],
+  "notes": "顧客関係者・消費者の個人情報は含まれないと確認。委託会社名は未確認。"
+}

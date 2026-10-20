@@ -1,0 +1,47 @@
+{
+  "id": "nikkei-development-cloud-20261016",
+  "organization": {
+    "name": "日本経済新聞社",
+    "sector": "企業・団体"
+  },
+  "title": "開発用クラウドへの不正アクセスによる情報漏えい",
+  "summary": "開発用クラウドの認証情報を窃取され、約183万件の保存情報が流出。約15万件は氏名・連絡先等を含み、残りは識別子のみ。",
+  "published_on": "2026-10-16",
+  "first_published_on": "2026-10-16",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-20",
+  "verification": "secondary",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "credentials",
+    "detail": "窃取されたクラウドアクセス用認証情報が悪用された。窃取手段は未公表。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 1830000,
+      "unit": "records",
+      "qualifier": "approximate",
+      "description": "公表された対象規模。漏えい状況は本文を参照。"
+    }
+  ],
+  "data_types": [
+    "氏名・連絡先等を含む情報",
+    "識別子"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://rocket-boys.co.jp/security-measures-lab/nikkei-cloud-unauthorized-access-data-leak-1830000-20261016/",
+      "type": "news",
+      "title": "開発用クラウドへの不正アクセスによる情報漏えい",
+      "published_on": "2026-10-16",
+      "checked_on": "2026-10-20"
+    }
+  ],
+  "updates": [],
+  "notes": "公式本文は直接取得できず、公表日と内訳を明記する報道本文で確認。約15万件・メールアドレス約12万件は総件数の内数。183万人の流出とは扱わない。既存のMicrosoft 365・Google Workspace事案とは別。"
+}

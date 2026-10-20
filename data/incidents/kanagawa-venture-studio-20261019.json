@@ -1,0 +1,50 @@
+{
+  "id": "kanagawa-venture-studio-20261019",
+  "organization": {
+    "name": "神奈川県",
+    "sector": "自治体"
+  },
+  "title": "成長期ベンチャー交流拠点事業の提案情報漏えいの可能性",
+  "summary": "受託事業者がStudioの提案受付フォームに保存した担当者・提案情報約85件が取得された可能性。",
+  "published_on": "2026-10-19",
+  "first_published_on": "2026-10-19",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-20",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。具体的な侵入手法は調査中または未公表。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 85,
+      "unit": "records",
+      "qualifier": "approximate",
+      "description": "公表された対象規模。漏えい状況は本文を参照。"
+    }
+  ],
+  "data_types": [
+    "企業名",
+    "担当者名・役職",
+    "電話番号",
+    "メールアドレス",
+    "提案概要"
+  ],
+  "related_vendor": "Studio／eiicon",
+  "sources": [
+    {
+      "url": "https://www.pref.kanagawa.jp/docs/sr4/prs/r9000706.html",
+      "type": "official",
+      "title": "成長期ベンチャー交流拠点事業の提案情報漏えいの可能性",
+      "published_on": "2026-10-19",
+      "checked_on": "2026-10-20"
+    }
+  ],
+  "updates": [],
+  "notes": "資料本文の発表日は10月19日。ページの初期公開・更新表示は10月20日。件数は精査中。"
+}

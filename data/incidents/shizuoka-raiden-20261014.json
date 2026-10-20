@@ -1,0 +1,76 @@
+{
+  "id": "shizuoka-raiden-20261014",
+  "organization": {
+    "name": "静岡市",
+    "sector": "自治体"
+  },
+  "title": "委託先への不正アクセスによるメール配信登録情報漏えい",
+  "summary": "防災メール・認知症しずメールの登録者情報漏えいを公表。電話発信サービスと清水病院緊急連絡システムは漏えいの可能性を調査中。",
+  "published_on": "2026-10-13",
+  "first_published_on": "2026-10-13",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-20",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。具体的な侵入手法は調査中または未公表。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 34336,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "防災メール市民・漏えい確認。区分間の重複に注意。"
+    },
+    {
+      "count": 6915,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "防災メール職員・漏えい確認。区分間の重複に注意。"
+    },
+    {
+      "count": 1779,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "認知症しずメール・漏えい確認。区分間の重複に注意。"
+    },
+    {
+      "count": 21,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "電話発信サービス・漏えい可能性。区分間の重複に注意。"
+    },
+    {
+      "count": 709,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "清水病院緊急連絡・漏えい可能性。区分間の重複に注意。"
+    }
+  ],
+  "data_types": [
+    "登録者情報"
+  ],
+  "related_vendor": "アルカディア",
+  "sources": [
+    {
+      "url": "https://www.city.shizuoka.lg.jp/documents/59469/kaiken1014.pdf",
+      "type": "official",
+      "title": "委託先への不正アクセスによるメール配信登録情報漏えい",
+      "published_on": "2026-10-14",
+      "checked_on": "2026-10-20"
+    }
+  ],
+  "updates": [
+    {
+      "date": "2026-10-14",
+      "summary": "市長会見で確定した漏えいと調査中の区分別範囲を公表。",
+      "source_index": 0
+    }
+  ],
+  "notes": "10月14日市長会見資料に基づく。サービスごとに流出確定と疑いを区別。 会見資料の経緯により10月13日20時の報道資料配布・21時の公式掲載を確認し、掲載日を13日とした。"
+}

@@ -1,0 +1,44 @@
+{
+  "id": "kyoto-studio-20261016",
+  "organization": {
+    "name": "京都市",
+    "sector": "自治体"
+  },
+  "title": "文化事業で利用するサービスへの不正アクセス",
+  "summary": "京都市芸術文化協会に委託するアート×ビジネス推進事業と京の伝統文化体験事業で、利用サービスへの不正アクセスによる個人情報漏洩の可能性。",
+  "published_on": "2026-10-16",
+  "first_published_on": "2026-10-16",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-20",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。具体的な侵入手法は調査中または未公表。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "公表された対象規模。漏えい状況は本文を参照。"
+    }
+  ],
+  "data_types": [],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.city.kyoto.lg.jp/bunshi/page/0000359411.html",
+      "type": "official",
+      "title": "文化事業で利用するサービスへの不正アクセス",
+      "published_on": "2026-10-16",
+      "checked_on": "2026-10-20"
+    }
+  ],
+  "updates": [],
+  "notes": "市の公式本文をブラウザーで確認。詳細な対象件数は本調査で未確認。"
+}

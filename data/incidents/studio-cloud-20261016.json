@@ -1,0 +1,50 @@
+{
+  "id": "studio-cloud-20261016",
+  "organization": {
+    "name": "Studio",
+    "sector": "企業・団体"
+  },
+  "title": "クラウド環境への不正アクセスによる情報流出の可能性",
+  "summary": "登録アカウント情報、フォーム回答、各種認証情報等が外部から取得できる状態になった。実際の取得は未確認。",
+  "published_on": "2026-10-16",
+  "first_published_on": "2026-10-16",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-20",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "vulnerability",
+    "detail": "一部機能の脆弱性を悪用され、クラウド内データが外部から取得できる状態にされた。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "公表された対象規模。漏えい状況は本文を参照。"
+    }
+  ],
+  "data_types": [
+    "ユーザー名",
+    "メールアドレス",
+    "ハッシュ化パスワード",
+    "フォーム回答",
+    "各種認証情報"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://studio.design/ja/whats-new/unauthorized-access-2026-10",
+      "type": "official",
+      "title": "クラウド環境への不正アクセスによる情報流出の可能性",
+      "published_on": "2026-10-16",
+      "checked_on": "2026-10-20"
+    }
+  ],
+  "updates": [],
+  "notes": "公式本文をブラウザーで確認。全登録者が対象となる可能性があり件数精査中。フォームの添付ファイルはファイル名のみが対象。利用組織の公表件数と合算しない。"
+}

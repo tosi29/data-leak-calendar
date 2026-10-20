@@ -10,17 +10,23 @@
   "publication_kind": "unknown",
   "occurred_on": "2026-10-02",
   "detected_on": "2026-10-05",
-  "updated_on": "2026-10-15",
+  "updated_on": "2026-10-20",
   "verification": "official",
   "incident_type": "attack",
   "leak_status": "confirmed",
-  "summary": "管理機能からサーバ・クラウド内の顧客情報にアクセスされ流出。",
+  "summary": "管理機能からサーバ・クラウド内の顧客情報にアクセスされ流出。 10月16日の続報で旧決済ログのカード情報等の流出も確認。",
   "impact": [
     {
       "count": 14640000,
       "unit": "records",
       "qualifier": "approximate",
       "description": "顧客情報。ハッシュ化パスワード約413万件は内数"
+    },
+    {
+      "count": 6140,
+      "unit": "people",
+      "qualifier": "maximum",
+      "description": "旧プレミアム会費決済ログのカード情報対象者。既存顧客規模と合算しない。"
     }
   ],
   "data_types": [
@@ -30,7 +36,11 @@
     "電話番号",
     "住所",
     "振込依頼人名義",
-    "ハッシュ化パスワード"
+    "ハッシュ化パスワード",
+    "クレジットカード番号",
+    "カード名義",
+    "有効期限",
+    "会員特典サービスの認証情報"
   ],
   "cause": {
     "category": "unauthorized_access",
@@ -45,18 +55,36 @@
       "title": "サーバへの不正アクセス",
       "published_on": "2026-10-09",
       "checked_on": "2026-10-15"
+    },
+    {
+      "url": "https://jp.adventurekk.com/news/news-2026-unauthorized-access-notice-2/",
+      "type": "official",
+      "title": "第2報でskyticketプレミアム旧決済ログからカード情報等の流出を確認。第1報のカード番号対象外という説明を訂正。",
+      "published_on": "2026-10-16",
+      "checked_on": "2026-10-20"
     }
   ],
-  "notes": "10月8日に漏えい通知メールの案内があるが、各事象の初報との対応を確定できないため詳細公表日の10月9日を掲載。3事象の規模を合算しない。カード情報・パスポート画像は対象外。発生期間は10月2〜4日。パスポート番号の流出は否定。",
-  "updates": [],
+  "notes": "10月8日に漏えい通知メールの案内があるが、各事象の初報との対応を確定できないため詳細公表日の10月9日を掲載。3事象の規模を合算しない。パスポート画像は対象外。カード情報対象外の説明は第2報で訂正。発生期間は10月2〜4日。パスポート番号の流出は否定。",
+  "updates": [
+    {
+      "date": "2026-10-16",
+      "summary": "第2報でskyticketプレミアム旧決済ログからカード情報等の流出を確認。第1報のカード番号対象外という説明を訂正。",
+      "source_index": 1
+    }
+  ],
   "vendor_research": {
-    "checked_on": "2026-10-15",
+    "checked_on": "2026-10-20",
     "result": "not_identified",
     "note": "掲載出典と追加検索で、当該事案に関係する外部の開発・運用・サービス・基盤会社の社名と役割を特定できませんでした。",
     "source_checks": [
       {
         "source_index": 0,
         "status": "reviewed"
+      },
+      {
+        "source_index": 1,
+        "status": "reviewed",
+        "note": "続報本文を確認。新たなベンダー名・役割の認定なし。"
       }
     ]
   }

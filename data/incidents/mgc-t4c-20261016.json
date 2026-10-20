@@ -1,0 +1,47 @@
+{
+  "id": "mgc-t4c-20261016",
+  "organization": {
+    "name": "三菱ガス化学",
+    "sector": "企業・団体"
+  },
+  "title": "委託先による氏名・社員番号の誤送信",
+  "summary": "人事システム導入の委託先T4Cが、退職者2,092名と現従業員1名の情報を他社へ誤送信。未開封で削除したことを確認。",
+  "published_on": "2026-10-16",
+  "first_published_on": "2026-10-16",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-20",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "accident",
+  "cause": {
+    "category": "misdelivery",
+    "detail": "委託先の従業員が資料を他社宛メールに誤添付した。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 2093,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表された対象規模。漏えい状況は本文を参照。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "社員番号"
+  ],
+  "related_vendor": "T4C",
+  "sources": [
+    {
+      "url": "https://www.mgc.co.jp/corporate/news/2026/261016.html",
+      "type": "official",
+      "title": "委託先による氏名・社員番号の誤送信",
+      "published_on": "2026-10-16",
+      "checked_on": "2026-10-20"
+    }
+  ],
+  "updates": [],
+  "notes": "公表は漏えい等のおそれとしている。退職者と現従業員を分けた公表値の合計。"
+}

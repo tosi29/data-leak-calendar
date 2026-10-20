@@ -1,0 +1,46 @@
+{
+  "id": "joshin-network-20261017",
+  "organization": {
+    "name": "Joshin",
+    "sector": "企業・団体"
+  },
+  "title": "不正アクセスによるシステム障害と情報漏洩のおそれ",
+  "summary": "ネットワークへの不正アクセスを10月16日に認識。個人情報漏洩の可能性を否定できず、範囲を調査中。",
+  "published_on": "2026-10-17",
+  "first_published_on": "2026-10-17",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-20",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。具体的な侵入手法は調査中または未公表。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "公表された対象規模。漏えい状況は本文を参照。"
+    }
+  ],
+  "data_types": [
+    "個人情報（詳細調査中）"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.joshin.co.jp/ja/news/info/info-20261017/main/0/link/20261017Notice%20and%20Apology%20Regarding%20System%20Disruption%20Caused%20by%20Unauthorized%20Access.pdf",
+      "type": "official",
+      "title": "不正アクセスによるシステム障害と情報漏洩のおそれ",
+      "published_on": "2026-10-17",
+      "checked_on": "2026-10-20"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

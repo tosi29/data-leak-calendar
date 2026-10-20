@@ -524,13 +524,146 @@
     "reported_on": "2026-10-19",
     "verification": "pending",
     "reference_url": "https://www.itmedia.co.jp/news/article/2610/19/2000002379/",
-    "note": "2026-10-19確認：10月18日にサーバーへの不正アクセスの可能性を把握してサービスを停止したと、19日に公表。ITmediaとgamebizの本文を照合。詳細と影響範囲は調査中で、個人情報の流出・閲覧可能性を具体的に示す発表は確認できないため、漏えい事案への掲載を保留。公式お知らせは503、適時開示PDF本文も未取得。情報への影響・対象・件数の続報を要確認。",
-    "reviewed_on": "2026-10-19",
+    "note": "2026-10-19確認：10月18日にサーバーへの不正アクセスの可能性を把握してサービスを停止したと、19日に公表。ITmediaとgamebizの本文を照合。詳細と影響範囲は調査中で、個人情報の流出・閲覧可能性を具体的に示す発表は確認できないため、漏えい事案への掲載を保留。公式お知らせは503、適時開示PDF本文も未取得。情報への影響・対象・件数の続報を要確認。 2026-10-20追跡：続報検索とIR一覧を確認したが、個人情報への具体的影響を示す追加発表は確認できず、保留継続。",
+    "reviewed_on": "2026-10-20",
     "checked_urls": [
       "https://renta.papy.co.jp/renta/sc/frm/info/?id=202610_u_991",
       "https://ufocatch.com/document/TD2026101900023",
       "https://www.itmedia.co.jp/news/article/2610/19/2000002379/",
-      "https://gamebiz.jp/news/434271"
+      "https://gamebiz.jp/news/434271",
+      "https://papy.co.jp/ir/sc/index/ir_news.html"
+    ]
+  },
+  {
+    "id": "oct20-review-14",
+    "organization": "日本サッカー協会（JFA Passport）",
+    "reported_on": "2026-10-18",
+    "verification": "pending",
+    "reference_url": "https://www.jfa.jp/news/00036934/",
+    "note": "2026-10-20確認：アプリへの不正アクセスは公式に確認。個人情報を含む利用者情報への影響は調査中で、情報が取得・閲覧可能だった具体的根拠はまだ確認できない。",
+    "reviewed_on": "2026-10-20",
+    "checked_urls": [
+      "https://www.jfa.jp/news/00036934/"
+    ]
+  },
+  {
+    "id": "oct20-review-15",
+    "organization": "リクルート（カーセンサーnet）",
+    "reported_on": "2026-10-17",
+    "verification": "pending",
+    "reference_url": "https://www.carsensor.net/",
+    "note": "2026-10-20確認：関連サービス停止の報道を確認。公式サイトは503で本文未取得。個人情報への具体的影響と公表資料を要確認。",
+    "reviewed_on": "2026-10-20",
+    "checked_urls": [
+      "https://www.carsensor.net/"
+    ]
+  },
+  {
+    "id": "oct20-review-30",
+    "organization": "三井住友DSアセットマネジメント",
+    "reported_on": "2026-10-16",
+    "verification": "pending",
+    "reference_url": "https://www.smd-am.co.jp/news/news/2026/news_20261016/",
+    "note": "2026-10-20確認：委託先システムへの不正アクセスと予防停止・復旧を公式確認。口座情報・取引への影響は未確認であり、漏えい事案としては保留。",
+    "reviewed_on": "2026-10-20",
+    "checked_urls": [
+      "https://www.smd-am.co.jp/news/news/2026/news_20261016/"
+    ]
+  },
+  {
+    "id": "oct20-review-36",
+    "organization": "内藤証券",
+    "reported_on": "2026-10-15",
+    "verification": "pending",
+    "reference_url": "https://www.naito-sec.co.jp/service/pdf/20261015.pdf",
+    "note": "2026-10-20確認：最大631名のネット取引情報への影響の報道があるが、公式PDFを403で取得できないため詳細の一次確認待ち。",
+    "reviewed_on": "2026-10-20",
+    "checked_urls": [
+      "https://www.naito-sec.co.jp/service/pdf/20261015.pdf"
+    ]
+  },
+  {
+    "id": "oct20-review-42",
+    "organization": "豊川市（とよかわ安心メール）",
+    "reported_on": "2026-10-14",
+    "verification": "pending",
+    "reference_url": "https://www.city.toyokawa.lg.jp/soshiki/kikaku/johoseisaku/2/31497.html",
+    "note": "2026-10-20確認：公式ページの本文取得が403。月次まとめの記載から候補として保存し、公表日・対象情報の本文照合待ち。",
+    "reviewed_on": "2026-10-20",
+    "checked_urls": [
+      "https://www.city.toyokawa.lg.jp/soshiki/kikaku/johoseisaku/2/31497.html"
+    ]
+  },
+  {
+    "id": "oct20-review-57",
+    "organization": "佐賀市（さがんメール）",
+    "reported_on": "2026-10-15",
+    "verification": "pending",
+    "reference_url": "https://www.city.saga.lg.jp/kinkyu/9027.html",
+    "note": "2026-10-20確認：公式の復旧案内は取得。個人情報の漏えい可能性を明示した初報の日時と対象範囲は未確定。",
+    "reviewed_on": "2026-10-20",
+    "checked_urls": [
+      "https://www.city.saga.lg.jp/kinkyu/9027.html"
+    ]
+  },
+  {
+    "id": "oct20-review-58",
+    "organization": "NTT ExCパートナー（LStep）",
+    "reported_on": "2026-10-13",
+    "verification": "pending",
+    "reference_url": "https://www.nttexc.co.jp/news/detail20261013/",
+    "note": "2026-10-20確認：公式ページからナビゲーションのみ取得。メールアドレス最大約9万件という候補情報の本文確認待ち。",
+    "reviewed_on": "2026-10-20",
+    "checked_urls": [
+      "https://www.nttexc.co.jp/news/detail20261013/"
+    ]
+  },
+  {
+    "id": "oct20-review-60",
+    "organization": "宮崎県（防災・防犯情報メール）",
+    "reported_on": "2026-10-13",
+    "verification": "pending",
+    "reference_url": "https://www.pref.miyazaki.lg.jp/kiki-kikikanri/press/2026/10/20261013181842.html",
+    "note": "2026-10-20確認：公式ページの本文取得が403。公表日・対象情報の一次資料確認待ち。",
+    "reviewed_on": "2026-10-20",
+    "checked_urls": [
+      "https://www.pref.miyazaki.lg.jp/kiki-kikikanri/press/2026/10/20261013181842.html"
+    ]
+  },
+  {
+    "id": "oct20-review-61",
+    "organization": "唐津市（情報メール配信）",
+    "reported_on": "2026-10-19",
+    "verification": "pending",
+    "reference_url": "https://www.city.karatsu.lg.jp/page/52939.html",
+    "note": "2026-10-20確認：取得ページは10月19日復旧案内。漏えい可能性を公表した初報日と対象情報の資料は未確定。",
+    "reviewed_on": "2026-10-20",
+    "checked_urls": [
+      "https://www.city.karatsu.lg.jp/page/52939.html"
+    ]
+  },
+  {
+    "id": "oct20-review-63",
+    "organization": "JR九州フードサービス",
+    "reported_on": "2026-10-13",
+    "verification": "pending",
+    "reference_url": "https://www.jrfs.co.jp/news/365",
+    "note": "2026-10-20確認：公式資料の取得が403。トイポアプリの対象範囲・公表日の本文照合待ち。",
+    "reviewed_on": "2026-10-20",
+    "checked_urls": [
+      "https://www.jrfs.co.jp/news/365"
+    ]
+  },
+  {
+    "id": "oct20-review-67",
+    "organization": "東日本三菱自動車販売",
+    "reported_on": "2026-10-13",
+    "verification": "pending",
+    "reference_url": "https://www.east-mitsubishi-motor-sales.com/custom/%E5%BD%93%E7%A4%BE%E7%A4%BE%E5%93%A1%E3%81%AE%E3%83%A1%E3%83%BC%E3%83%AB%E3%82%A2%E3%82%AB%E3%82%A6%E3%83%B3%E3%83%88%E3%81%B8%E3%81%AE%E4%B8%8D%E6%AD%A3%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E3%81%AB/",
+    "note": "2026-10-20確認：社員Microsoft 365からのなりすましメールと氏名・メールアドレスの流出は公式本文で確認。本文の公表日が取得できず、まとめの日付のみを転用せず保留。",
+    "reviewed_on": "2026-10-20",
+    "checked_urls": [
+      "https://www.east-mitsubishi-motor-sales.com/custom/%E5%BD%93%E7%A4%BE%E7%A4%BE%E5%93%A1%E3%81%AE%E3%83%A1%E3%83%BC%E3%83%AB%E3%82%A2%E3%82%AB%E3%82%A6%E3%83%B3%E3%83%88%E3%81%B8%E3%81%AE%E4%B8%8D%E6%AD%A3%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E3%81%AB/"
     ]
   }
 ]

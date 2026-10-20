@@ -1,0 +1,56 @@
+{
+  "id": "lili-20261014",
+  "organization": {
+    "name": "Lili運営事務局",
+    "sector": "企業・団体"
+  },
+  "title": "不正アクセスによる会員情報等流出の可能性",
+  "summary": "サーバーに不正プログラムが設置され、会員情報・メッセージ・本人確認画像等が流出した可能性。19日に登録途中の利用者も対象と追記。",
+  "published_on": "2026-10-14",
+  "first_published_on": "2026-10-14",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-20",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。具体的な侵入手法は調査中または未公表。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 98256,
+      "unit": "people",
+      "qualifier": "maximum_approximate",
+      "description": "公表された対象規模。漏えい状況は本文を参照。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス",
+    "パスワード",
+    "生年月日",
+    "メッセージ",
+    "本人確認画像"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://lili-jo.com/notice/20261014.html",
+      "type": "official",
+      "title": "不正アクセスによる会員情報等流出の可能性",
+      "published_on": "2026-10-14",
+      "checked_on": "2026-10-20"
+    }
+  ],
+  "updates": [
+    {
+      "date": "2026-10-19",
+      "summary": "会員登録を途中でやめた方、最大約10,223名を対象範囲に追加。",
+      "source_index": 0
+    }
+  ],
+  "notes": "会員最大約98,256名。本人確認画像最大7,261名は内数。登録途中最大約10,223名、非会員問い合わせ1,364件も対象。重複や単位差があり合算しない。"
+}
