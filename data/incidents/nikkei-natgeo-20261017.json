@@ -1,0 +1,46 @@
+{
+  "id": "nikkei-natgeo-20261017",
+  "organization": {
+    "name": "日経ナショナル ジオグラフィック",
+    "sector": "企業・団体"
+  },
+  "title": "日経システム侵害に伴い利用者情報に漏えいのおそれ",
+  "summary": "日本経済新聞社が公表した漏えい情報に、自社サービス利用者の個人情報が含まれる可能性があると通知した。",
+  "published_on": "2026-10-17",
+  "first_published_on": "2026-10-17",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-21",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。侵入経路の詳細は未確定。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "公表された対象規模。全件の流出確定を意味しない。"
+    }
+  ],
+  "data_types": [
+    "サービス利用者の個人情報（詳細調査中）"
+  ],
+  "related_vendor": "日本経済新聞社",
+  "sources": [
+    {
+      "url": "https://natgeo.nikkeibp.co.jp/atcl/topics/15/271114/101700365/",
+      "type": "official",
+      "title": "日経システム侵害に伴い利用者情報に漏えいのおそれ",
+      "published_on": "2026-10-17",
+      "checked_on": "2026-10-21"
+    }
+  ],
+  "updates": [],
+  "notes": "日経全体の件数を本サービスの人数として転用しない。対象項目・件数は調査中。"
+}

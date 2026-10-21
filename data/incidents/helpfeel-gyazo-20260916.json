@@ -4,19 +4,19 @@
     "name": "株式会社Helpfeel",
     "sector": "IT・インターネット"
   },
-  "title": "Gyazoのユーザー情報・画像メタデータ流出",
+  "title": "Gyazoのユーザー情報・メタデータと一部画像ファイルが流出",
   "published_on": "2026-09-16",
   "occurred_on": "2026-09-11",
   "detected_on": "2026-09-11",
-  "updated_on": "2026-10-15",
+  "updated_on": "2026-10-21",
   "leak_status": "confirmed",
-  "summary": "画像アップロードサーバーを経由した侵入により、ユーザー情報と画像に関するメタデータが外部に流出。",
+  "summary": "動画変換処理の脆弱性を起点とする侵入でユーザー情報・画像メタデータが流出。第3報では133人の画像ファイル432枚の閲覧・取得も確認した。",
   "impact": [
     {
       "count": 23620000,
-      "unit": "records",
+      "unit": "accounts",
       "qualifier": "approximate",
-      "description": "ユーザーに関するデータ。人数ではない"
+      "description": "匿名利用を含む約2,362万アカウント。人数ではない。"
     },
     {
       "count": 490000000,
@@ -35,17 +35,30 @@
       "unit": "records",
       "qualifier": "approximate",
       "description": "削除済み画像のメタデータ（第二報）"
+    },
+    {
+      "count": 432,
+      "unit": "images",
+      "qualifier": "exact",
+      "description": "第三者による閲覧・取得を確認した画像ファイル。"
+    },
+    {
+      "count": 133,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "432枚の画像に対応するユーザー。同一被害の別単位。"
     }
   ],
   "data_types": [
     "メールアドレス",
     "パスワードのハッシュ値",
     "利用者ID",
-    "画像メタデータ"
+    "画像メタデータ",
+    "画像ファイル"
   ],
   "cause": {
     "category": "vulnerability",
-    "detail": "画像アップロードサーバーの脆弱性を悪用し、任意のコマンドが実行された。",
+    "detail": "自社の動画変換処理におけるコマンドインジェクションの脆弱性。",
     "certainty": "confirmed"
   },
   "sources": [
@@ -62,14 +75,26 @@
       "title": "Gyazoへの不正アクセスによる情報漏えい（第二報）",
       "published_on": "2026-09-25",
       "checked_on": "2026-10-15"
+    },
+    {
+      "url": "https://corp.helpfeel.com/news/news-20261021",
+      "type": "official",
+      "title": "第3報で133人の画像ファイル432枚の閲覧・取得を確認。調査結果を公表。",
+      "published_on": "2026-10-21",
+      "checked_on": "2026-10-21"
     }
   ],
-  "notes": "匿名利用者のデータを含む。個人情報が流出した人数は調査中。メタデータ件数は画像ファイルの流出件数ではなく、各規模は合算しない。",
+  "notes": "匿名アカウントを含む。メタデータ件数は画像ファイルの件数ではない。各集計は合算不可。調査完了後も新たな事実が判明した場合は追加案内。",
   "updates": [
     {
       "date": "2026-09-25",
       "summary": "削除済み画像のメタデータ約1.74億件の流出が新たに判明。",
       "source_index": 1
+    },
+    {
+      "date": "2026-10-21",
+      "summary": "第3報で133人の画像ファイル432枚の閲覧・取得を確認。調査結果を公表。",
+      "source_index": 2
     }
   ],
   "first_published_on": "2026-09-16",
@@ -78,9 +103,9 @@
   "related_vendor": null,
   "incident_type": "attack",
   "vendor_research": {
-    "checked_on": "2026-10-15",
+    "checked_on": "2026-10-21",
     "result": "not_identified",
-    "note": "掲載出典と追加検索で、当該事案に関係する外部の開発・運用・サービス・基盤会社の社名と役割を特定できませんでした。",
+    "note": "第3報は自社動画変換処理の脆弱性と説明。外部サービスや他製品への攻撃と混同しない。",
     "source_checks": [
       {
         "source_index": 0,
@@ -88,6 +113,10 @@
       },
       {
         "source_index": 1,
+        "status": "reviewed"
+      },
+      {
+        "source_index": 2,
         "status": "reviewed"
       }
     ]

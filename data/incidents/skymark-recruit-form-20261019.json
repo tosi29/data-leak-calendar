@@ -1,0 +1,50 @@
+{
+  "id": "skymark-recruit-form-20261019",
+  "organization": {
+    "name": "スカイマーク",
+    "sector": "企業・団体"
+  },
+  "title": "採用問い合わせ情報が管理ページの設定不備で閲覧可能",
+  "summary": "2016年3月〜2020年2月に受け付けた採用問い合わせ488人分が、権限制限の不備により閲覧できる状態だった。",
+  "published_on": "2026-10-19",
+  "first_published_on": "2026-10-19",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-10-16",
+  "updated_on": "2026-10-21",
+  "verification": "official",
+  "leak_status": "exposed",
+  "incident_type": "accident",
+  "cause": {
+    "category": "configuration",
+    "detail": "問い合わせ管理ページのアクセス権限設定の不備。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 488,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表された対象規模。全件の流出確定を意味しない。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "ふりがな",
+    "メールアドレス",
+    "学校・学部または勤務先・部署",
+    "問い合わせ内容"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.skymark.co.jp/ja/company/press/pdf/__icsFiles/afieldfile/2026/10/19/press_1019.pdf",
+      "type": "official",
+      "title": "採用問い合わせ情報が管理ページの設定不備で閲覧可能",
+      "published_on": "2026-10-19",
+      "checked_on": "2026-10-21"
+    }
+  ],
+  "updates": [],
+  "notes": "公開状態は2016年3月〜2026年10月16日。保存されている2025年6月9日以降のログでは外部閲覧の痕跡なし。それ以前はログがなく断定できない。"
+}

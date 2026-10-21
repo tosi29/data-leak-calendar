@@ -1,0 +1,47 @@
+{
+  "id": "mie-health-site-20261021",
+  "organization": {
+    "name": "三重県",
+    "sector": "企業・団体"
+  },
+  "title": "健康づくり応援サイトの改ざんと登録情報への影響を調査",
+  "summary": "サイトの改ざんを発見し公開を停止。サーバーに保存していた店舗代表者・担当者氏名等の情報漏えいの可能性を調査している。",
+  "published_on": "2026-10-21",
+  "first_published_on": "2026-10-21",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-10-20",
+  "updated_on": "2026-10-21",
+  "verification": "official",
+  "leak_status": "investigating",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。侵入経路の詳細は未確定。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "公表された対象規模。全件の流出確定を意味しない。"
+    }
+  ],
+  "data_types": [
+    "店舗代表者・担当者氏名",
+    "店舗連絡先情報"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.pref.mie.lg.jp/TOPICS/m0015100352.htm",
+      "type": "official",
+      "title": "健康づくり応援サイトの改ざんと登録情報への影響を調査",
+      "published_on": "2026-10-21",
+      "checked_on": "2026-10-21"
+    }
+  ],
+  "updates": [],
+  "notes": "改ざんは確認済みだが個人情報漏えいの有無は調査中。同じ基盤の15サイトは予防的停止であり被害件数にしない。"
+}

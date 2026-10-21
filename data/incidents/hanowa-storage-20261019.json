@@ -1,0 +1,51 @@
+{
+  "id": "hanowa-storage-20261019",
+  "organization": {
+    "name": "HANOWA",
+    "sector": "企業・団体"
+  },
+  "title": "クラウドストレージの設定不備で最大49,309人分が閲覧可能",
+  "summary": "サービスで保存していた連絡先、本人確認書類等の画像、旧チャット情報がアクセス制限の不備で外部から閲覧可能だった。",
+  "published_on": "2026-10-19",
+  "first_published_on": "2026-10-19",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-10-14",
+  "updated_on": "2026-10-21",
+  "verification": "official",
+  "leak_status": "exposed",
+  "incident_type": "accident",
+  "cause": {
+    "category": "configuration",
+    "detail": "クラウドストレージのアクセス制御設定の不備。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 49309,
+      "unit": "people",
+      "qualifier": "maximum",
+      "description": "公表された対象規模。全件の流出確定を意味しない。"
+    }
+  ],
+  "data_types": [
+    "氏名・ニックネーム",
+    "メールアドレス",
+    "歯科医院情報",
+    "本人確認・資格確認書類画像",
+    "口座確認書類画像",
+    "旧チャット内容・添付ファイル"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://hanowa.co.jp/3fe09d1d0be580f88364c519d5196b72",
+      "type": "official",
+      "title": "クラウドストレージの設定不備で最大49,309人分が閲覧可能",
+      "published_on": "2026-10-19",
+      "checked_on": "2026-10-21"
+    }
+  ],
+  "updates": [],
+  "notes": "49,309人は重複排除後。連絡先等は最大47,683人、書類画像は最大10,311人、旧チャットは最大15,482人には重複があり合算しない。ログがなく実際の第三者閲覧は未確認。カード情報・パスワードは対象外。"
+}

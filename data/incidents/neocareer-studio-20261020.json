@@ -1,0 +1,57 @@
+{
+  "id": "neocareer-studio-20261020",
+  "organization": {
+    "name": "ネオキャリア",
+    "sector": "企業・団体"
+  },
+  "title": "X-TechAgent等の問い合わせ情報に漏えいのおそれ",
+  "summary": "Studioへの不正アクセスによりX-TechAgentとBeeformsの問い合わせ情報が流出した可能性がある。",
+  "published_on": "2026-10-20",
+  "first_published_on": "2026-10-20",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-21",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。侵入経路の詳細は未確定。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "公表された対象規模。全件の流出確定を意味しない。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "メールアドレス",
+    "電話番号",
+    "問い合わせ内容"
+  ],
+  "related_vendor": "Studio",
+  "sources": [
+    {
+      "url": "https://www.neo-career.co.jp/news/article_26461/",
+      "type": "official",
+      "title": "X-TechAgent等の問い合わせ情報に漏えいのおそれ",
+      "published_on": "2026-10-20",
+      "checked_on": "2026-10-21"
+    }
+  ],
+  "updates": [],
+  "notes": "件数未公表。10月16日に提供元から連絡。実際の第三者取得は確認されていない。",
+  "vendors": [
+    {
+      "name": "Studio",
+      "role": "service",
+      "detail": "対象問い合わせフォームのサービス提供元。",
+      "source_index": 0
+    }
+  ]
+}

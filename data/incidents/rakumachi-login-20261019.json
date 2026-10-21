@@ -1,0 +1,54 @@
+{
+  "id": "rakumachi-login-20261019",
+  "organization": {
+    "name": "楽待",
+    "sector": "企業・団体"
+  },
+  "title": "不正ログインで最大3,450人分の情報を閲覧・取得",
+  "summary": "会員・加盟店アカウントへの不正ログインにより、問い合わせ者等の情報が閲覧・取得された。リスト型攻撃と推測している。",
+  "published_on": "2026-10-19",
+  "first_published_on": "2026-10-19",
+  "publication_kind": "initial",
+  "occurred_on": "2026-10-09",
+  "detected_on": null,
+  "updated_on": "2026-10-21",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "credentials",
+    "detail": "外部で取得したメールアドレスとパスワードを用いるリスト型攻撃と推測。",
+    "certainty": "suspected"
+  },
+  "impact": [
+    {
+      "count": 3450,
+      "unit": "people",
+      "qualifier": "maximum",
+      "description": "公表された対象規模。全件の流出確定を意味しない。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "メールアドレス",
+    "電話番号",
+    "生年月日",
+    "職業",
+    "年収・資産情報",
+    "問い合わせ・メッセージ",
+    "物件情報"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://rakumachi.co.jp/20261019/",
+      "type": "official",
+      "title": "不正ログインで最大3,450人分の情報を閲覧・取得",
+      "published_on": "2026-10-19",
+      "checked_on": "2026-10-21"
+    }
+  ],
+  "updates": [],
+  "notes": "公式本文を検索経由で確認。会員最大160人、加盟店7社のログイン侵害と、最大3,450人の情報への影響を区別。各区分は重複し合算不可。カード情報は保有せず、証明書類は取得されていない。"
+}

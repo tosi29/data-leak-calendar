@@ -1,0 +1,58 @@
+{
+  "id": "osaka-u-nec-20261021",
+  "organization": {
+    "name": "大阪大学",
+    "sector": "企業・団体"
+  },
+  "title": "委託先の共有ストレージから77,851人分の個人情報が流出",
+  "summary": "NECと未報告の協力会社が共有・保持していたファイルを第三者が取得。卒業生・在学生・教職員の情報流出を確認した。",
+  "published_on": "2026-10-21",
+  "first_published_on": "2026-10-21",
+  "publication_kind": "initial",
+  "occurred_on": "2026-09-26",
+  "detected_on": null,
+  "updated_on": "2026-10-21",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。侵入経路の詳細は未確定。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": 77851,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表された対象規模。全件の流出確定を意味しない。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "大阪大学個人ID",
+    "大学付与メールアドレス",
+    "学籍番号・職員番号",
+    "所属情報"
+  ],
+  "related_vendor": "日本電気（NEC）",
+  "sources": [
+    {
+      "url": "https://www.osaka-u.ac.jp/ja/news/topics/2026/10/21004",
+      "type": "official",
+      "title": "委託先の共有ストレージから77,851人分の個人情報が流出",
+      "published_on": "2026-10-21",
+      "checked_on": "2026-10-21"
+    }
+  ],
+  "updates": [],
+  "notes": "重複排除後の人数。卒業生59,014人、在学生15,035人、教職員3,802人。大学システム自身への不正アクセス痕跡は確認されていない。10月9日は大学が報告を受けた日。協力会社・クラウド基盤の社名は未公表。",
+  "vendors": [
+    {
+      "name": "日本電気（NEC）",
+      "role": "operations",
+      "detail": "全学教育用電子計算機システムの運用委託先。",
+      "source_index": 0
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "id": "dnp-honto-20261021",
+  "organization": {
+    "name": "大日本印刷（honto）",
+    "sector": "企業・団体"
+  },
+  "title": "メール配信委託先の侵害でhonto利用者情報に漏えいのおそれ",
+  "summary": "ユミルリンクのメール配信システムへの不正アクセスにより、メールマガジン配信を許諾した顧客の情報が漏えいした可能性がある。",
+  "published_on": "2026-10-21",
+  "first_published_on": "2026-10-21",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-21",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。侵入経路の詳細は未確定。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "公表された対象規模。全件の流出確定を意味しない。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "メールアドレス",
+    "システム内部の識別番号"
+  ],
+  "related_vendor": "ユミルリンク",
+  "sources": [
+    {
+      "url": "https://www.dnp.co.jp/securityincident20261021.pdf",
+      "type": "official",
+      "title": "メール配信委託先の侵害でhonto利用者情報に漏えいのおそれ",
+      "published_on": "2026-10-21",
+      "checked_on": "2026-10-21"
+    }
+  ],
+  "updates": [],
+  "notes": "対象件数は調査中。honto全会員が対象との公表ではない。配信システムではパスワード・カード情報・購入履歴を保有していない。DNPグループ自身への不正アクセスは未確認。",
+  "vendors": [
+    {
+      "name": "ユミルリンク",
+      "role": "service",
+      "detail": "hontoのメール配信業務の委託先。",
+      "source_index": 0
+    }
+  ]
+}

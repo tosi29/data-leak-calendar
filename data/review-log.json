@@ -4806,5 +4806,33 @@
     "source_urls": [
       "https://www.east-mitsubishi-motor-sales.com/custom/%E5%BD%93%E7%A4%BE%E7%A4%BE%E5%93%A1%E3%81%AE%E3%83%A1%E3%83%BC%E3%83%AB%E3%82%A2%E3%82%AB%E3%82%A6%E3%83%B3%E3%83%88%E3%81%B8%E3%81%AE%E4%B8%8D%E6%AD%A3%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E3%81%AB/"
     ]
+  },
+  {
+    "candidate": {
+      "id": "oct20-review-15",
+      "organization": "リクルート（カーセンサーnet）",
+      "reported_on": "2026-10-17",
+      "verification": "pending",
+      "reference_url": "https://www.carsensor.net/",
+      "note": "2026-10-21 再調査：カーセンサーの公式サイトは503。FNN・ITmediaの10月19日報道も追加照合したが、サービス停止以上の個人情報への具体的影響は確認できず。",
+      "reviewed_on": "2026-10-21",
+      "checked_urls": [
+        "https://www.carsensor.net/",
+        "https://www.fnn.jp/articles/-/1135518",
+        "https://www.itmedia.co.jp/news/article/2610/19/2000002354/"
+      ]
+    },
+    "reviewed_on": "2026-10-21",
+    "resolution": "published",
+    "incident_ids": [
+      "recruit-carsensor-20261021"
+    ],
+    "reason": "10月21日の公式続報で最大3,709,551件の個人情報への影響を具体的に確認。",
+    "source_urls": [
+      "https://www.carsensor.net/",
+      "https://www.fnn.jp/articles/-/1135518",
+      "https://www.itmedia.co.jp/news/article/2610/19/2000002354/",
+      "https://www.recruit.co.jp/newsroom/pressrelease/2026/1021_149447.html"
+    ]
   }
 ]

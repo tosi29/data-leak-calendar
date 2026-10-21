@@ -1,0 +1,52 @@
+{
+  "id": "recruit-carsensor-20261021",
+  "organization": {
+    "name": "リクルート（カーセンサーnet・C-MATCH）",
+    "sector": "企業・団体"
+  },
+  "title": "カーセンサーの不正アクセスで最大370万9,551件に漏えいのおそれ",
+  "summary": "10月17日に不審なアクセスを検知。調査により問い合わせ者、口コミ投稿者、販売店関係者、従業員等の個人情報への影響範囲を公表した。",
+  "published_on": "2026-10-21",
+  "first_published_on": null,
+  "publication_kind": "unknown",
+  "occurred_on": null,
+  "detected_on": "2026-10-17",
+  "updated_on": "2026-10-21",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。侵入経路の詳細は未確定。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": 3709551,
+      "unit": "records",
+      "qualifier": "maximum",
+      "description": "漏えいのおそれがある情報の最大総件数。人数ではない。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "問い合わせ内容",
+    "電話番号",
+    "メールアドレス",
+    "販売店担当者情報",
+    "口座情報（個人事業主の一部）"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.recruit.co.jp/newsroom/pressrelease/2026/1021_149447.html",
+      "type": "official",
+      "title": "カーセンサーの不正アクセスで最大370万9,551件に漏えいのおそれ",
+      "published_on": "2026-10-21",
+      "checked_on": "2026-10-21"
+    }
+  ],
+  "updates": [],
+  "notes": "10月21日に具体的な個人情報の影響範囲を公表。17日のサービス停止日を個人情報漏えいの初報日とは認定しない。問い合わせ3,210,421件、口コミ5,289件、販売店483,168件、従業員等10,673件。件数は人数ではない。カード情報・パスワードは対象外。"
+}

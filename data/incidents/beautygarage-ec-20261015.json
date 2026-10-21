@@ -11,7 +11,7 @@
   "publication_kind": "initial",
   "occurred_on": null,
   "detected_on": null,
-  "updated_on": "2026-10-20",
+  "updated_on": "2026-10-21",
   "verification": "official",
   "leak_status": "confirmed",
   "incident_type": "attack",
@@ -41,8 +41,21 @@
       "title": "ECサイトのお客様情報流出",
       "published_on": "2026-10-15",
       "checked_on": "2026-10-20"
+    },
+    {
+      "url": "https://www.eyelashgarage.jp/topics/news_unauthorizedaccess2026-2",
+      "type": "official",
+      "title": "アイラッシュガレージ第2報で侵入経路遮断と監視強化、EC通常利用を案内。",
+      "published_on": "2026-10-20",
+      "checked_on": "2026-10-21"
     }
   ],
-  "updates": [],
-  "notes": "2月公表のカード情報漏洩懸念とは別事案。今回、決済情報の漏洩は未確認。"
+  "updates": [
+    {
+      "date": "2026-10-20",
+      "summary": "アイラッシュガレージ第2報で侵入経路遮断と監視強化、EC通常利用を案内。",
+      "source_index": 1
+    }
+  ],
+  "notes": "2月公表のカード情報漏洩懸念とは別事案。今回、決済情報の漏洩は未確認。 10月20日の子会社続報は同一事案へ統合。利用再開は流出情報の回収を意味しない。"
 }

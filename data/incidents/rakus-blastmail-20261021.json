@@ -1,0 +1,52 @@
+{
+  "id": "rakus-blastmail-20261021",
+  "organization": {
+    "name": "ラクスライトクラウド（ブラストメール）",
+    "sector": "企業・団体"
+  },
+  "title": "ブラストメールの契約者情報と一部配信先リストが流出",
+  "summary": "API用サーバーを経由した侵入で、全契約者の販売管理情報と一部利用者の配信先リスト等の持ち出しを確認した。",
+  "published_on": "2026-10-21",
+  "first_published_on": "2026-10-21",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-21",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "API用サーバー2台でコマンドが実行され、販売管理システムとサービスのデータベースからデータが持ち出された。侵入経路は調査中。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "公表された対象規模。全件の流出確定を意味しない。"
+    }
+  ],
+  "data_types": [
+    "担当者名",
+    "会社名",
+    "電話番号",
+    "メールアドレス",
+    "請求先メールアドレス",
+    "契約・支払履歴",
+    "配信先リスト（一部）"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.rakus.co.jp/news/2026/1021-3.html",
+      "type": "official",
+      "title": "ブラストメールの契約者情報と一部配信先リストが流出",
+      "published_on": "2026-10-21",
+      "checked_on": "2026-10-21"
+    }
+  ],
+  "updates": [],
+  "notes": "同日第2報を検索経由の公式本文で確認。直接取得時は予防的メンテナンスの共通案内に置き換わっていた。対象人数・件数は未公表。サーバー2台を被害人数としない。他のラクスサービスの予防的停止とは区別。"
+}

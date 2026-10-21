@@ -1,0 +1,48 @@
+{
+  "id": "globee-abceed-20261020",
+  "organization": {
+    "name": "Globee（abceed）",
+    "sector": "企業・団体"
+  },
+  "title": "abceed関連システムの設定不備でアカウント情報に漏えいのおそれ",
+  "summary": "10月17日に設定不備を悪用するアクセスを検知し、10,834アカウント分のメールアドレス等に影響の可能性が判明した。",
+  "published_on": "2026-10-20",
+  "first_published_on": "2026-10-20",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-10-17",
+  "updated_on": "2026-10-21",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "configuration",
+    "detail": "関連システムの設定不備を悪用したアクセス。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 10834,
+      "unit": "accounts",
+      "qualifier": "exact",
+      "description": "公表された対象規模。全件の流出確定を意味しない。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス",
+    "パスワードハッシュ",
+    "ユーザー名（一部）"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.release.tdnet.info/inbs/140120261020553707.pdf",
+      "type": "official",
+      "title": "abceed関連システムの設定不備でアカウント情報に漏えいのおそれ",
+      "published_on": "2026-10-20",
+      "checked_on": "2026-10-21"
+    }
+  ],
+  "updates": [],
+  "notes": "ユーザー名90件は対象アカウントの内数であり合算しない。人数として集計しない。"
+}

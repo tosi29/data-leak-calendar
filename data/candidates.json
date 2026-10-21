@@ -315,32 +315,6 @@
     ]
   },
   {
-    "id": "oct20-review-14",
-    "organization": "日本サッカー協会（JFA Passport）",
-    "reported_on": "2026-10-18",
-    "verification": "pending",
-    "reference_url": "https://www.jfa.jp/news/00036934/",
-    "note": "2026-10-21 再調査：JFAの10月18日公式通知を再取得し追加検索。不正アクセスは確認済みだが、情報取得・閲覧の対象が具体化した続報は確認できず。",
-    "reviewed_on": "2026-10-21",
-    "checked_urls": [
-      "https://www.jfa.jp/news/00036934/"
-    ]
-  },
-  {
-    "id": "oct20-review-15",
-    "organization": "リクルート（カーセンサーnet）",
-    "reported_on": "2026-10-17",
-    "verification": "pending",
-    "reference_url": "https://www.carsensor.net/",
-    "note": "2026-10-21 再調査：カーセンサーの公式サイトは503。FNN・ITmediaの10月19日報道も追加照合したが、サービス停止以上の個人情報への具体的影響は確認できず。",
-    "reviewed_on": "2026-10-21",
-    "checked_urls": [
-      "https://www.carsensor.net/",
-      "https://www.fnn.jp/articles/-/1135518",
-      "https://www.itmedia.co.jp/news/article/2610/19/2000002354/"
-    ]
-  },
-  {
     "id": "oct20-review-30",
     "organization": "三井住友DSアセットマネジメント",
     "reported_on": "2026-10-16",
@@ -350,6 +324,54 @@
     "reviewed_on": "2026-10-21",
     "checked_urls": [
       "https://www.smd-am.co.jp/news/news/2026/news_20261016/"
+    ]
+  },
+  {
+    "id": "oct21-review-onamae",
+    "organization": "GMOインターネット（お名前.com レンタルサーバー）",
+    "reported_on": "2026-10-21",
+    "verification": "pending",
+    "reference_url": "https://www.onamae.com/news/article/11584/",
+    "note": "26,739サーバーで不正プログラム・閲覧可能性を公表。顧客サーバー内の具体的な個人情報の種類・対象は未確認。サーバー台数を漏えい人数にしない。",
+    "reviewed_on": "2026-10-21",
+    "checked_urls": [
+      "https://www.onamae.com/news/article/11584/"
+    ]
+  },
+  {
+    "id": "oct21-review-futureshop",
+    "organization": "フューチャーショップ",
+    "reported_on": "2026-10-21",
+    "verification": "pending",
+    "reference_url": "https://www.future-shop.jp/news/2026/10/21.html",
+    "note": "不正アクセスを検知し一部サーバーを停止。個人情報への具体的影響は調査中で未確定。既掲載の10月7日メール配信基盤事案とは別の候補。",
+    "reviewed_on": "2026-10-21",
+    "checked_urls": [
+      "https://www.future-shop.jp/news/2026/10/21.html"
+    ]
+  },
+  {
+    "id": "oct21-review-hokan",
+    "organization": "hokan（hokan出納）",
+    "reported_on": "2026-10-19",
+    "verification": "pending",
+    "reference_url": "https://www.corp.hkn.jp/news/category/press/261019",
+    "note": "公式本文を検索経由で確認。利用企業2社のデータ取得は確認したが、漏えいした個人情報の具体的項目・対象を明示していない。カード・口座番号・病歴の項目は漏えい未確認。詳細続報待ち。",
+    "reviewed_on": "2026-10-21",
+    "checked_urls": [
+      "https://www.corp.hkn.jp/news/category/press/261019"
+    ]
+  },
+  {
+    "id": "oct21-review-aeon",
+    "organization": "イオン",
+    "reported_on": "2026-10-21",
+    "verification": "pending",
+    "reference_url": "https://www.aeon.info/wp-content/uploads/news/important/pdf/2026/10/261021R_2.pdf",
+    "note": "一部グループWebサイトへの不正アクセスを検知し個人情報の流出等を調査。具体的な対象情報・人数は未確認。公式PDFを直接取得できず、リンク付きのケータイWatch報道で照合。",
+    "reviewed_on": "2026-10-21",
+    "checked_urls": [
+      "https://www.aeon.info/wp-content/uploads/news/important/pdf/2026/10/261021R_2.pdf"
     ]
   }
 ]

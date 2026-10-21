@@ -1,0 +1,58 @@
+{
+  "id": "edogawa-studio-20261021",
+  "organization": {
+    "name": "江戸川区",
+    "sector": "企業・団体"
+  },
+  "title": "農の風景コンテスト応募フォームの個人情報に漏えいのおそれ",
+  "summary": "委託業務で使用したStudioへの不正アクセスにより、絵画部門への応募者6人の情報が流出した可能性がある。",
+  "published_on": "2026-10-21",
+  "first_published_on": "2026-10-21",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-21",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。侵入経路の詳細は未確定。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": 6,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表された対象規模。全件の流出確定を意味しない。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "生年月日",
+    "住所",
+    "メールアドレス",
+    "電話番号"
+  ],
+  "related_vendor": "Studio",
+  "sources": [
+    {
+      "url": "https://www.city.edogawa.tokyo.jp/e004/kuseijoho/kohokocho/press/2026/10/1021.html",
+      "type": "official",
+      "title": "農の風景コンテスト応募フォームの個人情報に漏えいのおそれ",
+      "published_on": "2026-10-21",
+      "checked_on": "2026-10-21"
+    }
+  ],
+  "updates": [],
+  "notes": "応募期間は7月27日〜9月30日。実際の外部取得は未確認。区は10月20日に委託先から報告を受けた。",
+  "vendors": [
+    {
+      "name": "Studio",
+      "role": "service",
+      "detail": "委託業務の応募フォームに使われたサービスの提供元。",
+      "source_index": 0
+    }
+  ]
+}

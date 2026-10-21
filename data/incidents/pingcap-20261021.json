@@ -1,0 +1,60 @@
+{
+  "id": "pingcap-20261021",
+  "organization": {
+    "name": "PingCAP",
+    "sector": "企業・団体"
+  },
+  "title": "社内システム侵害で国内最大約5万件の個人情報が漏えい",
+  "summary": "盗まれた認証情報を使った侵入とデータ複製を確認。日本向け報告は10月21日にサポートチケット情報の影響も追記した。",
+  "published_on": "2026-10-21",
+  "first_published_on": "2026-10-19",
+  "publication_kind": "followup",
+  "occurred_on": "2026-09-09",
+  "detected_on": "2026-10-07",
+  "updated_on": "2026-10-21",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "credentials",
+    "detail": "不正取得されたサービスアカウントの認証情報を用いた社内システムへの侵入。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 50000,
+      "unit": "records",
+      "qualifier": "maximum_approximate",
+      "description": "公表された対象規模。全件の流出確定を意味しない。"
+    }
+  ],
+  "data_types": [
+    "ユーザー名",
+    "メールアドレス",
+    "氏名",
+    "電話番号",
+    "組織・プロジェクト情報",
+    "SQL実行履歴・エラー",
+    "サポートチケット情報",
+    "取引関連情報"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://pingcap.co.jp/trust-hub/security/security-update-october-2026/",
+      "type": "official",
+      "title": "社内システム侵害で国内最大約5万件の個人情報が漏えい",
+      "published_on": "2026-10-21",
+      "checked_on": "2026-10-21"
+    },
+    {
+      "url": "https://www.pingcap.com/trust-hub/security/security-update-october-2026/",
+      "type": "official",
+      "title": "Security Incident Report: Unauthorized Access to PingCAP",
+      "published_on": "2026-10-19",
+      "checked_on": "2026-10-21"
+    }
+  ],
+  "updates": [],
+  "notes": "英語版の公表表記は10月19日。日本語版の初掲日は未確定のため、明記された10月21日13:05の追記を続報として採用。攻撃期間9月9日〜10月7日と検知日は米国時間。TiDB Cloud自体への侵入・カード情報流出は確認されず、APIキーは暗号化されたPublic Key部分でPrivate Keyは対象外。"
+}

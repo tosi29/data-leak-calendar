@@ -1,0 +1,46 @@
+{
+  "id": "okinawa-tourist-20261021",
+  "organization": {
+    "name": "沖縄ツーリスト",
+    "sector": "企業・団体"
+  },
+  "title": "顧客の個人情報漏えいの可能性を確認し予約受付を停止",
+  "summary": "社外からの指摘を受けた初期調査で個人情報が漏えいした可能性を確認。OTSレンタカー等5サービスの新規予約を停止した。",
+  "published_on": "2026-10-21",
+  "first_published_on": "2026-10-21",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-21",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "unknown",
+  "cause": {
+    "category": "unknown",
+    "detail": "原因・対象情報・影響範囲を外部専門家と調査中。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "公表された対象規模。全件の流出確定を意味しない。"
+    }
+  ],
+  "data_types": [
+    "顧客の個人情報（詳細調査中）"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://otspremium.com/news/3008",
+      "type": "official",
+      "title": "顧客の個人情報漏えいの可能性を確認し予約受付を停止",
+      "published_on": "2026-10-21",
+      "checked_on": "2026-10-21"
+    }
+  ],
+  "updates": [],
+  "notes": "停止した5サービスすべての情報流出が確定したわけではない。件数・項目は未公表。10月18日からアクセス遮断、20日16:30から新規予約停止。"
+}

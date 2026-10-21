@@ -10,25 +10,32 @@
   "publication_kind": "initial",
   "occurred_on": "2026-08-06",
   "detected_on": "2026-08-06",
-  "updated_on": "2026-10-15",
+  "updated_on": "2026-10-21",
   "incident_type": "attack",
-  "leak_status": "suspected",
-  "summary": "社内サーバから一部情報の流出を確認。顧客や入居者、取引先、従業員等の個人情報が含まれる可能性がある。",
+  "leak_status": "confirmed",
+  "summary": "約14万ファイルの持ち出しを確認し、その精査で保険・賃貸契約等の個人情報を特定。約58万件は漏えいのおそれがある広い範囲として公表した。",
   "impact": [
     {
-      "count": null,
-      "unit": "people",
-      "qualifier": "unknown",
-      "description": "対象人数は未確定"
+      "count": 580000,
+      "unit": "records",
+      "qualifier": "approximate",
+      "description": "漏えいのおそれがある個人情報の範囲。全件の流出確定ではない。"
     }
   ],
   "data_types": [
-    "個人情報（詳細調査中）"
+    "氏名",
+    "住所",
+    "連絡先",
+    "生年月日",
+    "勤務先",
+    "保険契約情報",
+    "金融機関・口座情報（一部）",
+    "賃貸契約・入居審査情報"
   ],
   "cause": {
     "category": "unauthorized_access",
-    "detail": "社内サーバから一部情報の流出を確認。顧客や入居者、取引先、従業員等の個人情報が含まれる可能性がある。",
-    "certainty": "unknown"
+    "detail": "ネットワーク機器経由で侵入し、業務文書を持ち出した後にランサムウェア攻撃を行ったと推定。",
+    "certainty": "suspected"
   },
   "sources": [
     {
@@ -44,10 +51,23 @@
       "title": "社内ファイルサーバへの不正アクセス（Security NEXT）",
       "published_on": "2026-09-07",
       "checked_on": "2026-10-15"
+    },
+    {
+      "url": "https://finance.logmi.jp/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBd3hFQmc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--82649ee3bdcdd3bb7541566f96a7ad3a5ca60107/20261020553634_pdf_general.pdf",
+      "type": "official",
+      "title": "最終報で約14万ファイルの持ち出しと、約58万件の個人情報への漏えいのおそれを報告。",
+      "published_on": "2026-10-20",
+      "checked_on": "2026-10-21"
     }
   ],
-  "notes": "初報日は前回調査記録の8月6日。個人情報自体の流出確定とは区別する。8月28日の第3報の内容を併記。 公表日は10月14日の公式資料確認記録に基づく。今回は公式本文を再取得できず、内容は報道本文と照合した。",
-  "updates": [],
-  "verification": "secondary",
+  "notes": "最終報により8月6日の初報日も確認。持ち出し確認区分の精査で個人情報を特定したため漏えい確認に更新。約58万件全体の流出確定とは区別。14万はファイル数で人数ではない。保険金833件・保険契約363件・解約465件・不動産リース449件・賃貸借2件は文書区分別で合算しない。",
+  "updates": [
+    {
+      "date": "2026-10-20",
+      "summary": "最終報で約14万ファイルの持ち出しと、約58万件の個人情報への漏えいのおそれを報告。",
+      "source_index": 2
+    }
+  ],
+  "verification": "official",
   "related_vendor": null
 }

@@ -1,0 +1,59 @@
+{
+  "id": "nagoya-net119-20261021",
+  "organization": {
+    "name": "名古屋市消防局",
+    "sector": "企業・団体"
+  },
+  "title": "Net119の通報履歴等で登録者184人と職員29人に漏えいのおそれ",
+  "summary": "提供元の調査により、通報45人・練習通報139人の情報に影響の可能性を特定。別に職員29人も対象となった。",
+  "published_on": "2026-10-21",
+  "first_published_on": "2026-10-14",
+  "publication_kind": "followup",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-21",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。侵入経路の詳細は未確定。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": 184,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "登録者。通報45人と練習通報139人。"
+    },
+    {
+      "count": 29,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "登録者184人とは別の消防局職員。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "生年月日",
+    "性別",
+    "住所",
+    "電話番号",
+    "メールアドレス",
+    "FAX番号",
+    "登録時入力情報"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.city.nagoya.jp/houdou/3003942/3003949/3006129.html",
+      "type": "official",
+      "title": "Net119の通報履歴等で登録者184人と職員29人に漏えいのおそれ",
+      "published_on": "2026-10-21",
+      "checked_on": "2026-10-21"
+    }
+  ],
+  "updates": [],
+  "notes": "10月14日の初報を同公式第2報で確認。184人のうち練習通報139人はメールアドレスのみ。職員29人は184人とは別枠。"
+}
