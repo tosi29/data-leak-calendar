@@ -10,23 +10,28 @@
   "publication_kind": "initial",
   "occurred_on": null,
   "detected_on": null,
-  "updated_on": "2026-10-15",
+  "updated_on": "2026-10-23",
   "incident_type": "attack",
-  "leak_status": "suspected",
-  "summary": "8月18日に不正アクセスを検知。会員の氏名や連絡先などが流出した可能性があると公表した。",
+  "leak_status": "confirmed",
+  "summary": "WEB作業予約システムへの不正アクセスについて、最終報で会員1,797,124人の情報流出を確認。",
   "impact": [
     {
-      "count": 1801499,
+      "count": 1797124,
       "unit": "people",
-      "qualifier": "maximum",
-      "description": "公表資料に記載された対象規模"
+      "qualifier": "exact",
+      "description": "ログ解析で特定した会員"
     }
   ],
   "data_types": [
     "氏名",
+    "住所",
+    "生年月日",
+    "性別",
     "電話番号",
     "メールアドレス",
-    "会員番号"
+    "会員番号",
+    "ログインID",
+    "パスワード（復元できない形式）"
   ],
   "cause": {
     "category": "unauthorized_access",
@@ -40,10 +45,23 @@
       "title": "不正アクセスによる会員情報漏えいの可能性",
       "published_on": "2026-08-28",
       "checked_on": "2026-10-15"
+    },
+    {
+      "url": "https://www.yellowhat.jp/information/yellowhat/202610_2.html",
+      "type": "official",
+      "title": "最終報で会員1,797,124人の情報流出を確認。住所・生年月日・性別・ログインID・復元できない形式のパスワードの追加漏えいも判明。",
+      "published_on": "2026-10-15",
+      "checked_on": "2026-10-23"
     }
   ],
-  "notes": "クレジットカード情報、パスワード、車両情報は対象外。",
-  "updates": [],
+  "notes": "クレジットカード情報、パスワード、車両情報は対象外。 最終報で会員1,797,124人の情報流出を確認。住所・生年月日・性別・ログインID・復元できない形式のパスワードの追加漏えいも判明。",
+  "updates": [
+    {
+      "date": "2026-10-15",
+      "summary": "最終報で会員1,797,124人の情報流出を確認。住所・生年月日・性別・ログインID・復元できない形式のパスワードの追加漏えいも判明。",
+      "source_index": 1
+    }
+  ],
   "verification": "official",
   "related_vendor": null
 }

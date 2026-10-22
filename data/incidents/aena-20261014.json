@@ -10,7 +10,7 @@
   "publication_kind": "initial",
   "occurred_on": null,
   "detected_on": "2026-10-13",
-  "updated_on": "2026-10-15",
+  "updated_on": "2026-10-23",
   "verification": "official",
   "incident_type": "attack",
   "leak_status": "confirmed",
@@ -48,10 +48,23 @@
       "title": "ECアプリ会員マイページへの不正閲覧",
       "published_on": "2026-10-14",
       "checked_on": "2026-10-15"
+    },
+    {
+      "url": "https://www.aena.co.jp/news/detail/7904/",
+      "type": "official",
+      "title": "10月19日正午にECアプリを再開。初回起動時にパスワード再設定を案内。オンラインストア全体の復旧とは区別する。",
+      "published_on": "2026-10-19",
+      "checked_on": "2026-10-23"
     }
   ],
-  "notes": "不正閲覧は確認されたが最大対象人数全員の閲覧が確定した意味ではない。LINE会員やAmazon・楽天のみの利用者は対象外。ログインパスワード、カード番号全桁・セキュリティコードは対象外。",
-  "updates": [],
+  "notes": "不正閲覧は確認されたが最大対象人数全員の閲覧が確定した意味ではない。LINE会員やAmazon・楽天のみの利用者は対象外。ログインパスワード、カード番号全桁・セキュリティコードは対象外。 10月19日正午にECアプリを再開。初回起動時にパスワード再設定を案内。オンラインストア全体の復旧とは区別する。",
+  "updates": [
+    {
+      "date": "2026-10-19",
+      "summary": "10月19日正午にECアプリを再開。初回起動時にパスワード再設定を案内。オンラインストア全体の復旧とは区別する。",
+      "source_index": 1
+    }
+  ],
   "vendor_research": {
     "checked_on": "2026-10-15",
     "result": "not_identified",
@@ -59,6 +72,10 @@
     "source_checks": [
       {
         "source_index": 0,
+        "status": "reviewed"
+      },
+      {
+        "source_index": 1,
         "status": "reviewed"
       }
     ]

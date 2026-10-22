@@ -1,0 +1,54 @@
+{
+  "id": "review-20261023-2265f64af18e",
+  "organization": {
+    "name": "2027年国際園芸博覧会協会",
+    "sector": "企業・団体"
+  },
+  "title": "ラクスライトクラウドへの不正アクセスに伴う個人情報への影響",
+  "summary": "2027年国際園芸博覧会協会が利用するラクスライトクラウドへの不正アクセスにより、登録情報が漏えいした可能性を公表。",
+  "published_on": "2026-10-22",
+  "first_published_on": "2026-10-22",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-23",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者の不正アクセス。具体的な侵入手法は未公表。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "当該組織の対象規模は未確定"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "ラクスライトクラウド",
+  "sources": [
+    {
+      "url": "https://www.city.yokohama.lg.jp/city-info/koho-kocho/press/kankyo/2026/1022expovolunteer.files/0004_20261022.pdf",
+      "type": "official",
+      "title": "ラクスライトクラウドへの不正アクセスに伴う個人情報への影響",
+      "published_on": "2026-10-22",
+      "checked_on": "2026-10-23"
+    }
+  ],
+  "updates": [],
+  "notes": "共通サービスへの攻撃に関する利用組織の公表。提供元や他組織の対象規模と重複する可能性があり、独立した攻撃回数や被害人数として合算しない。横浜市公式PDFの添付資料にある協会発表を確認。市出展エリアの6,334人とは別の一般ボランティア配信先で、件数を流用しない。",
+  "vendors": [
+    {
+      "name": "ラクスライトクラウド",
+      "role": "service",
+      "detail": "当該公表に記載された利用サービスの提供元。",
+      "source_index": 0
+    }
+  ]
+}

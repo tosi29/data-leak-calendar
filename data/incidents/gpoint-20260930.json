@@ -9,7 +9,7 @@
   "published_on": "2026-09-30",
   "occurred_on": null,
   "detected_on": "2026-09-25",
-  "updated_on": "2026-10-15",
+  "updated_on": "2026-10-23",
   "first_published_on": "2026-09-30",
   "publication_kind": "initial",
   "verification": "official",
@@ -38,10 +38,23 @@
       "title": "「Ｇポイント」システムへの不正アクセス発生について｜ジー・プラン株式会社 G-PLAN INC.",
       "published_on": "2026-09-30",
       "checked_on": "2026-10-15"
+    },
+    {
+      "url": "https://img.gpoint.co.jp/20260930/",
+      "type": "official",
+      "title": "漏えい対象者へ順次個別連絡。保有ポイントの交換に限定したサイトを12月上旬目標で準備中。",
+      "published_on": "2026-10-16",
+      "checked_on": "2026-10-23"
     }
   ],
-  "notes": "",
-  "updates": [],
+  "notes": " 漏えい対象者へ順次個別連絡。保有ポイントの交換に限定したサイトを12月上旬目標で準備中。",
+  "updates": [
+    {
+      "date": "2026-10-16",
+      "summary": "漏えい対象者へ順次個別連絡。保有ポイントの交換に限定したサイトを12月上旬目標で準備中。",
+      "source_index": 1
+    }
+  ],
   "incident_type": "attack",
   "vendor_research": {
     "checked_on": "2026-10-15",
@@ -50,6 +63,10 @@
     "source_checks": [
       {
         "source_index": 0,
+        "status": "reviewed"
+      },
+      {
+        "source_index": 1,
         "status": "reviewed"
       }
     ]

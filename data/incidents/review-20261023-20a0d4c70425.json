@@ -1,0 +1,61 @@
+{
+  "id": "review-20261023-20a0d4c70425",
+  "organization": {
+    "name": "ジュン（JUN）",
+    "sector": "企業・団体"
+  },
+  "title": "委託先クラウド被害に関する調査結果",
+  "summary": "第三報で、預託した顧客メールアドレスの外部流出はなかったと判断。",
+  "published_on": "2026-10-14",
+  "first_published_on": "2026-10-07",
+  "publication_kind": "followup",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-23",
+  "verification": "official",
+  "leak_status": "ruled_out",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者の不正アクセス。具体的な侵入手法は未公表。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "当該組織の対象規模は未確定"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "IDCフロンティア",
+  "sources": [
+    {
+      "url": "https://www.jun.co.jp/news/3_1/",
+      "type": "official",
+      "title": "委託先クラウド被害に関する調査結果",
+      "published_on": "2026-10-14",
+      "checked_on": "2026-10-23"
+    },
+    {
+      "url": "https://www.jun.co.jp/news/2/",
+      "type": "official",
+      "title": "委託先クラウド障害の第二報",
+      "published_on": "2026-10-13",
+      "checked_on": "2026-10-23"
+    }
+  ],
+  "updates": [],
+  "notes": "共通サービスへの攻撃に関する利用組織の公表。提供元や他組織の対象規模と重複する可能性があり、独立した攻撃回数や被害人数として合算しない。10月7日初報、13日第二報。最終評価を反映し漏えい確定には数えない。 カレンダー日は公式ページで確認できた掲載・更新日。初回公表日とは限らない。",
+  "vendors": [
+    {
+      "name": "IDCフロンティア",
+      "role": "service",
+      "detail": "当該公表に記載された利用サービスの提供元。",
+      "source_index": 0
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "id": "review-20261023-c3fa672951f4",
+  "organization": {
+    "name": "国土交通省（住宅省エネ2024キャンペーン）",
+    "sector": "企業・団体"
+  },
+  "title": "キャンペーン事務局システムへの不正アクセス",
+  "summary": "申請受付システムの不正操作で、事業者に関する23,918人分の情報が漏えいした可能性。",
+  "published_on": "2026-10-20",
+  "first_published_on": "2026-10-20",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-23",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者の不正アクセス。具体的な侵入手法は未公表。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 23918,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "速報値の対象者"
+    },
+    {
+      "count": 16950,
+      "unit": "organizations",
+      "qualifier": "exact",
+      "description": "同じ対象の事業者数。人数と合算しない。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "肩書・所属・役職",
+    "住所",
+    "電話番号",
+    "メールアドレス"
+  ],
+  "related_vendor": "博報堂",
+  "sources": [
+    {
+      "url": "https://www.mlit.go.jp/report/press/house04_hh_001366.html",
+      "type": "official",
+      "title": "キャンペーン事務局システムへの不正アクセス",
+      "published_on": "2026-10-20",
+      "checked_on": "2026-10-23"
+    }
+  ],
+  "updates": [],
+  "notes": "共通サービスへの攻撃に関する利用組織の公表。提供元や他組織の対象規模と重複する可能性があり、独立した攻撃回数や被害人数として合算しない。利用消費者の個人情報や別年度キャンペーンは対象外。速報値。",
+  "vendors": [
+    {
+      "name": "博報堂",
+      "role": "operations",
+      "detail": "当該公表に記載された利用サービスの提供元。",
+      "source_index": 0
+    }
+  ]
+}

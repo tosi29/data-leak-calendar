@@ -1,0 +1,49 @@
+{
+  "id": "review-20261023-3872327f5c6d",
+  "organization": {
+    "name": "大阪市保健所",
+    "sector": "企業・団体"
+  },
+  "title": "個人情報を記載した書類の紛失",
+  "summary": "結核患者の書類を庁内便で送付する過程で紛失。重複を除く11人が対象。",
+  "published_on": "2026-10-16",
+  "first_published_on": "2026-10-16",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-23",
+  "verification": "official",
+  "leak_status": "lost",
+  "incident_type": "accident",
+  "cause": {
+    "category": "loss",
+    "detail": "結核患者の書類を庁内便で送付する過程で紛失。重複を除く11人が対象。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 11,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "紛失した書類に含まれる対象"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "生年月日",
+    "住所",
+    "病歴・検査結果・治療情報"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.city.osaka.lg.jp/hodoshiryo/kenko/0000688977.html",
+      "type": "official",
+      "title": "個人情報を記載した書類の紛失",
+      "published_on": "2026-10-16",
+      "checked_on": "2026-10-23"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

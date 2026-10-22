@@ -1,0 +1,67 @@
+{
+  "id": "review-20261023-a84791c998d3",
+  "organization": {
+    "name": "大崎地域広域行政事務組合消防本部",
+    "sector": "企業・団体"
+  },
+  "title": "アルカディアへの不正アクセスに伴う個人情報への影響",
+  "summary": "大崎地域広域行政事務組合消防本部が利用するアルカディアへの不正アクセスにより、登録情報が漏えいした可能性を公表。",
+  "published_on": "2026-10-16",
+  "first_published_on": null,
+  "publication_kind": "unknown",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-23",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者の不正アクセス。具体的な侵入手法は未公表。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 45,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "NET119"
+    },
+    {
+      "count": 80,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "119RAIDEN"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "生年月日",
+    "性別",
+    "住所",
+    "電話番号",
+    "メールアドレス",
+    "FAX番号",
+    "血液型・持病・常備薬・アレルギー・かかりつけ病院（NET119）"
+  ],
+  "related_vendor": "アルカディア",
+  "sources": [
+    {
+      "url": "https://osakikoiki.jp/fire119-doc/2026101400011/file_contents/file_20261016518113_1.pdf",
+      "type": "official",
+      "title": "アルカディアへの不正アクセスに伴う個人情報への影響",
+      "published_on": "2026-10-16",
+      "checked_on": "2026-10-23"
+    }
+  ],
+  "updates": [],
+  "notes": "共通サービスへの攻撃に関する利用組織の公表。提供元や他組織の対象規模と重複する可能性があり、独立した攻撃回数や被害人数として合算しない。 カレンダー日は公式ページで確認できた掲載・更新日。初回公表日とは限らない。 この発表時点での可能性の対象項目。提供元の後日の調査では要配慮個人情報の漏えいはないと公表しており、実際の流出とは区別する。",
+  "vendors": [
+    {
+      "name": "アルカディア",
+      "role": "service",
+      "detail": "当該公表に記載された利用サービスの提供元。",
+      "source_index": 0
+    }
+  ]
+}

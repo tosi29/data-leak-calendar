@@ -384,5 +384,185 @@
     "checked_urls": [
       "https://rocket-boys.co.jp/security-measures-lab/shinryo_cyberattack_system_outage_20261022/"
     ]
+  },
+  {
+    "id": "fortnight-pending-13",
+    "organization": "Schoo",
+    "reported_on": "2026-10-23",
+    "verification": "pending",
+    "reference_url": "https://corp.schoo.jp/post/Hx0CZZOQ",
+    "reviewed_on": "2026-10-23",
+    "checked_urls": [
+      "https://corp.schoo.jp/post/Hx0CZZOQ"
+    ],
+    "note": "集約サイトから告知を発見したが、取得結果はページタイトル等のみで本文を確認できない。公表日・自組織の個人情報への影響範囲は未確定。reported_onは今回の発見日で、初回公表日ではない。"
+  },
+  {
+    "id": "fortnight-pending-22",
+    "organization": "Medii",
+    "reported_on": "2026-10-23",
+    "verification": "pending",
+    "reference_url": "https://medii.jp/news/20261020",
+    "reviewed_on": "2026-10-23",
+    "checked_urls": [
+      "https://medii.jp/news/20261020"
+    ],
+    "note": "集約サイトから告知を発見したが、取得結果はページタイトル等のみで本文を確認できない。公表日・自組織の個人情報への影響範囲は未確定。reported_onは今回の発見日で、初回公表日ではない。"
+  },
+  {
+    "id": "fortnight-pending-41",
+    "organization": "X Mile",
+    "reported_on": "2026-10-23",
+    "verification": "pending",
+    "reference_url": "https://www.xmile.co.jp/news/release328",
+    "reviewed_on": "2026-10-23",
+    "checked_urls": [
+      "https://www.xmile.co.jp/news/release328"
+    ],
+    "note": "集約サイトから告知を発見したが、取得結果はページタイトル等のみで本文を確認できない。公表日・自組織の個人情報への影響範囲は未確定。reported_onは今回の発見日で、初回公表日ではない。"
+  },
+  {
+    "id": "fortnight-pending-43",
+    "organization": "福岡コンベンションセンター",
+    "reported_on": "2026-10-23",
+    "verification": "pending",
+    "reference_url": "https://www.marinemesse.or.jp/news/eXnelHyr",
+    "reviewed_on": "2026-10-23",
+    "checked_urls": [
+      "https://www.marinemesse.or.jp/news/eXnelHyr"
+    ],
+    "note": "集約サイトから告知を発見したが、取得結果はページタイトル等のみで本文を確認できない。公表日・自組織の個人情報への影響範囲は未確定。reported_onは今回の発見日で、初回公表日ではない。"
+  },
+  {
+    "id": "fortnight-pending-50",
+    "organization": "リンクス",
+    "reported_on": "2026-10-23",
+    "verification": "pending",
+    "reference_url": "https://www.linkx.dev/news/studio-incident",
+    "reviewed_on": "2026-10-23",
+    "checked_urls": [
+      "https://www.linkx.dev/news/studio-incident"
+    ],
+    "note": "集約サイトから告知を発見したが、取得結果はページタイトル等のみで本文を確認できない。公表日・自組織の個人情報への影響範囲は未確定。reported_onは今回の発見日で、初回公表日ではない。"
+  },
+  {
+    "id": "fortnight-pending-52",
+    "organization": "ふるさと全国県人会まつり2026",
+    "reported_on": "2026-10-23",
+    "verification": "pending",
+    "reference_url": "https://kenjinkai-matsuri.com/NnfhWpxP/1u2nmIA1",
+    "reviewed_on": "2026-10-23",
+    "checked_urls": [
+      "https://kenjinkai-matsuri.com/NnfhWpxP/1u2nmIA1"
+    ],
+    "note": "集約サイトから告知を発見したが、取得結果はページタイトル等のみで本文を確認できない。公表日・自組織の個人情報への影響範囲は未確定。reported_onは今回の発見日で、初回公表日ではない。"
+  },
+  {
+    "id": "fortnight-pending-53",
+    "organization": "青森市（OPEN CITY AOMORI）",
+    "reported_on": "2026-10-23",
+    "verification": "pending",
+    "reference_url": "https://opencityaomori.studio.site/contact-1",
+    "reviewed_on": "2026-10-23",
+    "checked_urls": [
+      "https://opencityaomori.studio.site/contact-1"
+    ],
+    "note": "集約サイトから告知を発見したが、取得結果はページタイトル等のみで本文を確認できない。公表日・自組織の個人情報への影響範囲は未確定。reported_onは今回の発見日で、初回公表日ではない。"
+  },
+  {
+    "id": "fortnight-pending-56",
+    "organization": "any",
+    "reported_on": "2026-10-23",
+    "verification": "pending",
+    "reference_url": "https://anyinc.jp/news/20261019",
+    "reviewed_on": "2026-10-23",
+    "checked_urls": [
+      "https://anyinc.jp/news/20261019"
+    ],
+    "note": "集約サイトから告知を発見したが、取得結果はページタイトル等のみで本文を確認できない。公表日・自組織の個人情報への影響範囲は未確定。reported_onは今回の発見日で、初回公表日ではない。"
+  },
+  {
+    "id": "fortnight-pending-59",
+    "organization": "STATION Ai",
+    "reported_on": "2026-10-23",
+    "verification": "pending",
+    "reference_url": "https://stationai.co.jp/news/mhv1CXpZ",
+    "reviewed_on": "2026-10-23",
+    "checked_urls": [
+      "https://stationai.co.jp/news/mhv1CXpZ"
+    ],
+    "note": "集約サイトから告知を発見したが、取得結果はページタイトル等のみで本文を確認できない。公表日・自組織の個人情報への影響範囲は未確定。reported_onは今回の発見日で、初回公表日ではない。"
+  },
+  {
+    "id": "fortnight-pending-60",
+    "organization": "アルク社会保険労務士法人",
+    "reported_on": "2026-10-23",
+    "verification": "pending",
+    "reference_url": "https://arcsr.jp/info/024",
+    "reviewed_on": "2026-10-23",
+    "checked_urls": [
+      "https://arcsr.jp/info/024"
+    ],
+    "note": "集約サイトから告知を発見したが、取得結果はページタイトル等のみで本文を確認できない。公表日・自組織の個人情報への影響範囲は未確定。reported_onは今回の発見日で、初回公表日ではない。"
+  },
+  {
+    "id": "fortnight-pending-63",
+    "organization": "ナッジ",
+    "reported_on": "2026-10-23",
+    "verification": "pending",
+    "reference_url": "https://nudge.works/news/20261017",
+    "reviewed_on": "2026-10-23",
+    "checked_urls": [
+      "https://nudge.works/news/20261017"
+    ],
+    "note": "集約サイトから告知を発見したが、取得結果はページタイトル等のみで本文を確認できない。公表日・自組織の個人情報への影響範囲は未確定。reported_onは今回の発見日で、初回公表日ではない。"
+  },
+  {
+    "id": "fortnight-pending-64",
+    "organization": "MAPPA EXPO",
+    "reported_on": "2026-10-23",
+    "verification": "pending",
+    "reference_url": "https://expo.mappa.co.jp/infomation/QVIAWjFu",
+    "reviewed_on": "2026-10-23",
+    "checked_urls": [
+      "https://expo.mappa.co.jp/infomation/QVIAWjFu"
+    ],
+    "note": "集約サイトから告知を発見したが、取得結果はページタイトル等のみで本文を確認できない。公表日・自組織の個人情報への影響範囲は未確定。reported_onは今回の発見日で、初回公表日ではない。"
+  },
+  {
+    "id": "fortnight-pending-a41c704562",
+    "organization": "新日本プロレス",
+    "reported_on": "2026-10-23",
+    "verification": "pending",
+    "reference_url": "https://www.njpw.co.jp/677223",
+    "reviewed_on": "2026-10-23",
+    "checked_urls": [
+      "https://www.njpw.co.jp/677223"
+    ],
+    "note": "集約サイト・検索から告知を発見。公式ページは本文未取得（表示用ページのみ、アクセスエラー等）。公表日と具体的な個人情報への影響は再確認が必要。reported_onは発見日。"
+  },
+  {
+    "id": "fortnight-pending-ddd593ddae",
+    "organization": "デイトナ",
+    "reported_on": "2026-10-23",
+    "verification": "pending",
+    "reference_url": "https://www.daytona.co.jp/news/detail/653/",
+    "reviewed_on": "2026-10-23",
+    "checked_urls": [
+      "https://www.daytona.co.jp/news/detail/653/"
+    ],
+    "note": "集約サイト・検索から告知を発見。公式ページは本文未取得（表示用ページのみ、アクセスエラー等）。公表日と具体的な個人情報への影響は再確認が必要。reported_onは発見日。"
+  },
+  {
+    "id": "fortnight-pending-3f2974b7c3",
+    "organization": "稲沢市",
+    "reported_on": "2026-10-23",
+    "verification": "pending",
+    "reference_url": "https://www.city.inazawa.aichi.jp/0000006084.html",
+    "reviewed_on": "2026-10-23",
+    "checked_urls": [
+      "https://www.city.inazawa.aichi.jp/0000006084.html"
+    ],
+    "note": "集約サイト・検索から告知を発見。公式ページは本文未取得（表示用ページのみ、アクセスエラー等）。公表日と具体的な個人情報への影響は再確認が必要。reported_onは発見日。"
   }
 ]

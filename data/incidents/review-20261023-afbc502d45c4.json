@@ -1,0 +1,54 @@
+{
+  "id": "review-20261023-afbc502d45c4",
+  "organization": {
+    "name": "安達地方広域行政組合",
+    "sector": "企業・団体"
+  },
+  "title": "アルカディアへの不正アクセスに伴う個人情報への影響",
+  "summary": "安達地方広域行政組合が利用するアルカディアへの不正アクセスにより、登録情報が漏えいした可能性を公表。",
+  "published_on": "2026-10-15",
+  "first_published_on": null,
+  "publication_kind": "unknown",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-23",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者の不正アクセス。具体的な侵入手法は未公表。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "当該組織の対象規模は未確定"
+    }
+  ],
+  "data_types": [
+    "登録者の個人情報（項目の詳細は出典参照）"
+  ],
+  "related_vendor": "アルカディア",
+  "sources": [
+    {
+      "url": "https://www.adachikouiki.lg.jp/site/shobo/7047.html",
+      "type": "official",
+      "title": "アルカディアへの不正アクセスに伴う個人情報への影響",
+      "published_on": "2026-10-15",
+      "checked_on": "2026-10-23"
+    }
+  ],
+  "updates": [],
+  "notes": "共通サービスへの攻撃に関する利用組織の公表。提供元や他組織の対象規模と重複する可能性があり、独立した攻撃回数や被害人数として合算しない。 カレンダー日は公式ページで確認できた掲載・更新日。初回公表日とは限らない。",
+  "vendors": [
+    {
+      "name": "アルカディア",
+      "role": "service",
+      "detail": "当該公表に記載された利用サービスの提供元。",
+      "source_index": 0
+    }
+  ]
+}

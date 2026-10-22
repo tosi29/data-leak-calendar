@@ -1,0 +1,54 @@
+{
+  "id": "review-20261023-42f773f8b24f",
+  "organization": {
+    "name": "ゴルフダイジェスト・オンライン",
+    "sector": "企業・団体"
+  },
+  "title": "社内サーバーへの不正アクセスと個人情報流出",
+  "summary": "従業員・退職者・委託先等の情報1,789件が流出。別サーバーでは会員情報55件の照会を確認。",
+  "published_on": "2026-10-16",
+  "first_published_on": "2026-10-16",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-23",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者の不正アクセス。具体的な侵入手法は未公表。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 1789,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "従業員・退職者・委託先等の流出確認"
+    },
+    {
+      "count": 55,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "照会された会員情報。識別子のみ51件、個人情報を含むもの4件。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "社用メールアドレス",
+    "会員の個人情報・識別子ID"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://company.golfdigest.co.jp/corp/pr/2026101601.html",
+      "type": "official",
+      "title": "社内サーバーへの不正アクセスと個人情報流出",
+      "published_on": "2026-10-16",
+      "checked_on": "2026-10-23"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

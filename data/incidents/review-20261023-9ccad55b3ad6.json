@@ -1,0 +1,54 @@
+{
+  "id": "review-20261023-9ccad55b3ad6",
+  "organization": {
+    "name": "高知県（高知の知）",
+    "sector": "企業・団体"
+  },
+  "title": "コミューンへの不正アクセスに伴う個人情報への影響",
+  "summary": "高知県（高知の知）が利用するコミューンへの不正アクセスに伴う個人情報の閲覧・取得を公表。対象規模には調査中の上限を含む。",
+  "published_on": "2026-10-11",
+  "first_published_on": null,
+  "publication_kind": "unknown",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-23",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者の不正アクセス。具体的な侵入手法は未公表。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 358,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表された対象範囲。流出確定範囲と上限は区別。"
+    }
+  ],
+  "data_types": [
+    "登録者の個人情報（項目の詳細は出典参照）"
+  ],
+  "related_vendor": "コミューン",
+  "sources": [
+    {
+      "url": "https://doppuri.kochi-tabi.jp/news/information.html?id=77",
+      "type": "official",
+      "title": "コミューンへの不正アクセスに伴う個人情報への影響",
+      "published_on": "2026-10-11",
+      "checked_on": "2026-10-23"
+    }
+  ],
+  "updates": [],
+  "notes": "共通サービスへの攻撃に関する利用組織の公表。提供元や他組織の対象規模と重複する可能性があり、独立した攻撃回数や被害人数として合算しない。 カレンダー日は公式ページで確認できた掲載・更新日。初回公表日とは限らない。",
+  "vendors": [
+    {
+      "name": "コミューン",
+      "role": "service",
+      "detail": "当該公表に記載された利用サービスの提供元。",
+      "source_index": 0
+    }
+  ]
+}

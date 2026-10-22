@@ -1,0 +1,49 @@
+{
+  "id": "review-20261023-963519fc3310",
+  "organization": {
+    "name": "東京都住宅供給公社",
+    "sector": "企業・団体"
+  },
+  "title": "個人情報を記載した書類の紛失",
+  "summary": "都営住宅の口座振替納付届4件が所在不明。外部漏えいは未確認。",
+  "published_on": "2026-10-21",
+  "first_published_on": "2026-10-21",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-23",
+  "verification": "official",
+  "leak_status": "lost",
+  "incident_type": "accident",
+  "cause": {
+    "category": "loss",
+    "detail": "都営住宅の口座振替納付届4件が所在不明。外部漏えいは未確認。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 4,
+      "unit": "documents",
+      "qualifier": "exact",
+      "description": "紛失した書類に含まれる対象"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "電話番号",
+    "金融機関・口座情報"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.metro.tokyo.lg.jp/information/press/2026/10/2026102116",
+      "type": "official",
+      "title": "個人情報を記載した書類の紛失",
+      "published_on": "2026-10-21",
+      "checked_on": "2026-10-23"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

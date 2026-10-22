@@ -16722,6 +16722,3011 @@
         "公式サイトの取得失敗や本文差し替え、公表日の根拠不足が残る候補は保留。",
         "常総市は確認できた公式ページ更新日を採用し初回公表日不明と明記。"
       ]
+    },
+    {
+      "checked_on": "2026-10-23",
+      "scope": "2026-10-10〜2026-10-23の公表・続報の取りこぼし点検（調査時点まで）",
+      "coverage_start": "2026-10-10",
+      "coverage_end": "2026-10-23",
+      "baseline_commit": "2243f539d3e810a8db09b45b705fc279b71be57f",
+      "added_incident_ids": [
+        "review-20261023-792d513327cb",
+        "review-20261023-aaedccb70698",
+        "review-20261023-94dd56f16886",
+        "review-20261023-201e5509f124",
+        "review-20261023-6392c437ae48",
+        "review-20261023-6b435f901189",
+        "review-20261023-ea10048e6547",
+        "review-20261023-67e3eb9a6f54",
+        "review-20261023-91ce96e7e324",
+        "review-20261023-e4668c2e340a",
+        "review-20261023-f4bb56becc3e",
+        "review-20261023-b6e1f86c274e",
+        "review-20261023-cf44a2f5c4bd",
+        "review-20261023-8a705d7adc00",
+        "review-20261023-4a1435cf713f",
+        "review-20261023-73ef8880a5e0",
+        "review-20261023-2eb45e0dcc48",
+        "review-20261023-ac6f898da47d",
+        "review-20261023-dd85b329f360",
+        "review-20261023-5d90a380df9e",
+        "review-20261023-c67951f07a0a",
+        "review-20261023-ef1ca682d64a",
+        "review-20261023-b5bc798dc23a",
+        "review-20261023-a7a3df5bcb68",
+        "review-20261023-2633d2aeebab",
+        "review-20261023-f848f087044c",
+        "review-20261023-df2aa05ff251",
+        "review-20261023-92ce058855e6",
+        "review-20261023-ce8354fa50c3",
+        "review-20261023-2ebe72d96e96",
+        "review-20261023-6e1ec9e5cd4c",
+        "review-20261023-f3d55675c696",
+        "review-20261023-dfadef193dc7",
+        "review-20261023-825b18074bf1",
+        "review-20261023-241c08fc0789",
+        "review-20261023-5b4cc1336aa2",
+        "review-20261023-6b6acfb5148b",
+        "review-20261023-10be84739a68",
+        "review-20261023-8d7ea26f93c5",
+        "review-20261023-08aa07a0455e",
+        "review-20261023-4717fcf41450",
+        "review-20261023-01db63dec5d2",
+        "review-20261023-c86b25b69cf4",
+        "review-20261023-edc4f96658c1",
+        "review-20261023-2b9f3094c85b",
+        "review-20261023-7e62afc1318f",
+        "review-20261023-b8054582f682",
+        "review-20261023-7dde2a3d8486",
+        "review-20261023-bcf7ae09cdab",
+        "review-20261023-3ceef470f472",
+        "review-20261023-afbc502d45c4",
+        "review-20261023-29a9a31691a2",
+        "review-20261023-67d3cfadbcbb",
+        "review-20261023-643376c0c2c3",
+        "review-20261023-a04ee126a5a4",
+        "review-20261023-48cfff41e6db",
+        "review-20261023-3039c2429d4c",
+        "review-20261023-f6fb37e6593e",
+        "review-20261023-6f66ca912209",
+        "review-20261023-7e2a207d78cf",
+        "review-20261023-cd880de61fc8",
+        "review-20261023-f670b67136f5",
+        "review-20261023-b1e7254e9caa",
+        "review-20261023-d754791ff95f",
+        "review-20261023-da7f6ec66b8d",
+        "review-20261023-92ee5dbf261f",
+        "review-20261023-a49bc2a353f4",
+        "review-20261023-9d9bc4ba0963",
+        "review-20261023-abee322b1b6b",
+        "review-20261023-5c1a050c9a3c",
+        "review-20261023-52166583d134",
+        "review-20261023-659e9fd52e42",
+        "review-20261023-ed16be880927",
+        "review-20261023-3a51cb5b9595",
+        "review-20261023-92b87748dbc1",
+        "review-20261023-8e0bebadf71c",
+        "review-20261023-99080042882b",
+        "review-20261023-d322d462faa3",
+        "review-20261023-28f42bfd0b58",
+        "review-20261023-2757122f6342",
+        "review-20261023-0d0ad091423c",
+        "review-20261023-37b3de4e56a3",
+        "review-20261023-27b23bcab01e",
+        "review-20261023-55ec1cc15788",
+        "review-20261023-cb83c10bc01d",
+        "review-20261023-c208fdfc622d",
+        "review-20261023-590a543233de",
+        "review-20261023-575adae2745f",
+        "review-20261023-7d9d728d1256",
+        "review-20261023-a2c4a7bb862a",
+        "review-20261023-9fbd0fbed829",
+        "review-20261023-f51670bce17a",
+        "review-20261023-5d632fd444fa",
+        "review-20261023-f124ce55ae51",
+        "review-20261023-cec9b722ab32",
+        "review-20261023-3a3e63d7c32e",
+        "review-20261023-77621de23bbb",
+        "review-20261023-3f4c1407cb92",
+        "review-20261023-d4cab9e8d5f4",
+        "review-20261023-6a4a2452e59d",
+        "review-20261023-a85e5238174d",
+        "review-20261023-73a7d4d1d479",
+        "review-20261023-155fa79d736f",
+        "review-20261023-1c5d20344628",
+        "review-20261023-aeab7e2b8d28",
+        "review-20261023-0511286895cf",
+        "review-20261023-cf986c602cda",
+        "review-20261023-92c2dac6e70d",
+        "review-20261023-79b355fb53d4",
+        "review-20261023-c1dc3defed59",
+        "review-20261023-0ae05bc9fb37",
+        "review-20261023-95165d15cfc9",
+        "review-20261023-04db99aee908",
+        "review-20261023-22d2e32f817c",
+        "review-20261023-d66bf30854a6",
+        "review-20261023-53af454f3cea",
+        "review-20261023-9736fe27855d",
+        "review-20261023-e2d9d1685e9c",
+        "review-20261023-6ba2f02d2d25",
+        "review-20261023-5457adb7f3f2",
+        "review-20261023-597cf5acb108",
+        "review-20261023-8c687722e725",
+        "review-20261023-a04fe2e2b9e1",
+        "review-20261023-be3c7efdf762",
+        "review-20261023-cb821cecd717",
+        "review-20261023-8cedd9d89e70",
+        "review-20261023-a909d3882a00",
+        "review-20261023-8a0349807747",
+        "review-20261023-4e85fa7ada8f",
+        "review-20261023-8f8105bb658a",
+        "review-20261023-c20894da0fc2",
+        "review-20261023-f652df2b751d",
+        "review-20261023-978c5e29a908",
+        "review-20261023-e496f3497902",
+        "review-20261023-7569fd0bacd3",
+        "review-20261023-f7e8ef52cc00",
+        "review-20261023-f613db64eac8",
+        "review-20261023-d329e10f58fc",
+        "review-20261023-c3c3585e2036",
+        "review-20261023-5127b28f9ce0",
+        "review-20261023-2bead1f06a87",
+        "review-20261023-9ccad55b3ad6",
+        "review-20261023-5fa03317e6a3",
+        "review-20261023-42f773f8b24f",
+        "review-20261023-386f359194b7",
+        "review-20261023-8d5cba772fa6",
+        "review-20261023-b6919f3b6a07",
+        "review-20261023-9cc333a6a786",
+        "review-20261023-71799733f049",
+        "review-20261023-c30dd270a018",
+        "review-20261023-26c72ae8ec5e",
+        "review-20261023-3179c0da4632",
+        "review-20261023-4dcbe6093602",
+        "review-20261023-c3d82afd70f1",
+        "review-20261023-963519fc3310",
+        "review-20261023-3872327f5c6d",
+        "review-20261023-05c257da8a74",
+        "review-20261023-c2f022857816",
+        "review-20261023-c3fa672951f4",
+        "review-20261023-368d37e8c934",
+        "review-20261023-03a2d6deb3b2",
+        "review-20261023-129745daa867",
+        "review-20261023-f759073a3fad",
+        "review-20261023-ff35dd9e9ed8",
+        "review-20261023-7b9eaefe7c8a",
+        "review-20261023-1d37071f115d",
+        "review-20261023-2265f64af18e",
+        "review-20261023-20a0d4c70425",
+        "review-20261023-6c65334a43a5",
+        "review-20261023-a84791c998d3",
+        "review-20261023-2b3bcd0279bb",
+        "review-20261023-4fba0a0fd965",
+        "review-20261023-0fdeb8e79396",
+        "review-20261023-a3670b08750f",
+        "review-20261023-7284d00a8fbd",
+        "review-20261023-68791b714e05",
+        "review-20261023-0172c2f9d23e",
+        "review-20261023-c7bb826eb905",
+        "review-20261023-f756215a25c0",
+        "review-20261023-6536105b6e30",
+        "review-20261023-6f46bd13d4bc",
+        "review-20261023-137cc90a5993",
+        "review-20261023-a3d768a4b3eb",
+        "review-20261023-0b20cf3839e2",
+        "review-20261023-57a038149f51",
+        "review-20261023-5f5a43a30e5d",
+        "review-20261023-dc0b738a4bf7",
+        "review-20261023-c321d43d2880",
+        "review-20261023-3562d1b82906"
+      ],
+      "updated_incident_ids": [
+        "skyperfect-idcf-20261013",
+        "nidek-website-20260724",
+        "aena-20261014",
+        "lawson-id-20261008",
+        "lawson-reservation-20261008",
+        "idcf-portal-20261014",
+        "timescar-20260925",
+        "gpoint-20260930",
+        "imadeya-20260821",
+        "yellowhat-20260828",
+        "moonstar-20261002",
+        "arcadia-raiden-20261013"
+      ],
+      "new_candidate_ids": [
+        "fortnight-pending-13",
+        "fortnight-pending-22",
+        "fortnight-pending-41",
+        "fortnight-pending-43",
+        "fortnight-pending-50",
+        "fortnight-pending-52",
+        "fortnight-pending-53",
+        "fortnight-pending-56",
+        "fortnight-pending-59",
+        "fortnight-pending-60",
+        "fortnight-pending-63",
+        "fortnight-pending-64",
+        "fortnight-pending-a41c704562",
+        "fortnight-pending-ddd593ddae",
+        "fortnight-pending-3f2974b7c3"
+      ],
+      "lead_review_counts": {
+        "unresolved": 145,
+        "reflected": 188,
+        "related_or_excluded": 8
+      },
+      "source_reviews": [
+        {
+          "url": "https://www.keio.co.jp/news/update/news_release/news_release2026/pdf/nr20261021_newsrelease.pdf",
+          "status": "unresolved",
+          "reason": "本文取得エラー。HTTP Error 503: Service Unavailable",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.kanuma.tochigi.jp/0566/info-0000011583-0.html",
+          "status": "reflected",
+          "reason": "今回の追加・更新に反映。",
+          "incident_ids": [
+            "review-20261023-792d513327cb"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.ashikaga.tochigi.jp/environment/000073/000404/000795/p008834.html",
+          "status": "reflected",
+          "reason": "今回の追加・更新に反映。",
+          "incident_ids": [
+            "review-20261023-aaedccb70698"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.nagaoka.niigata.jp/shisei/cate02/houdou-shiryou/file/20261021-03.pdf",
+          "status": "reflected",
+          "reason": "今回の追加・更新に反映。",
+          "incident_ids": [
+            "review-20261023-4e85fa7ada8f"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.susaki.lg.jp/life/detail.php?hdnKey=6134",
+          "status": "unresolved",
+          "reason": "本文取得エラー。HTTP Error 404: Not Found",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.pref.aomori.lg.jp/release/2026/81624.html",
+          "status": "unresolved",
+          "reason": "本文取得エラー。HTTP Error 403: Forbidden",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.pref.yamanashi.jp/release/san-jin/0810/cuu0810.html",
+          "status": "reflected",
+          "reason": "今回の追加・更新に反映。",
+          "incident_ids": [
+            "review-20261023-9736fe27855d"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.pref.yamanashi.jp/release/san-jin/0810/otonanomanabinaoshi0810.html",
+          "status": "reflected",
+          "reason": "今回の追加・更新に反映。",
+          "incident_ids": [
+            "review-20261023-9736fe27855d"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.release.tdnet.info/inbs/140120261021553964.pdf",
+          "status": "reflected",
+          "reason": "今回の追加・更新に反映。",
+          "incident_ids": [
+            "review-20261023-e2d9d1685e9c"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.ogori.fukuoka.jp/197/702/6038",
+          "status": "reflected",
+          "reason": "今回の追加・更新に反映。",
+          "incident_ids": [
+            "review-20261023-94dd56f16886"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.miyakojima.lg.jp/soshiki/shityo/soumubu/bousaikikikannri/oshirase/2026-1020-1407-269.html",
+          "status": "unresolved",
+          "reason": "本文を取得したが、日付の裏付け・個人情報への具体的影響・既存事案との対応のいずれかを確定できていない。掲載判断の再照合対象。",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.sakaide.lg.jp/soshiki/seisaku/iju.html",
+          "status": "reflected",
+          "reason": "今回の追加・更新に反映。",
+          "incident_ids": [
+            "review-20261023-6ba2f02d2d25"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.skyperfectjsat.space/jp/news/20261020",
+          "status": "reflected",
+          "reason": "今回の追加・更新に反映。",
+          "incident_ids": [
+            "review-20261023-5457adb7f3f2"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://corp.schoo.jp/post/Hx0CZZOQ",
+          "status": "unresolved",
+          "reason": "本文の取得が不十分。タイトルのみ・PDF抽出不全等。",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.hida.gifu.jp/soshiki/5/88316.html",
+          "status": "reflected",
+          "reason": "今回の追加・更新に反映。",
+          "incident_ids": [
+            "review-20261023-597cf5acb108"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.pref.niigata.lg.jp/sec/sangyoritchi/challenge-niigata-husei.html",
+          "status": "reflected",
+          "reason": "今回の追加・更新に反映。",
+          "incident_ids": [
+            "review-20261023-8c687722e725"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.niigata.lg.jp/shisei/koho/houdou/202610.files/261020-3.pdf",
+          "status": "unresolved",
+          "reason": "本文の取得が不十分。タイトルのみ・PDF抽出不全等。",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://tver.co.jp/news/20261020.html",
+          "status": "unresolved",
+          "reason": "本文取得エラー。HTTP Error 404: Not Found",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.tohogas.co.jp/corporate-n/press/1262174_1342.html",
+          "status": "reflected",
+          "reason": "今回の追加・更新に反映。",
+          "incident_ids": [
+            "review-20261023-a04fe2e2b9e1"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.kusatsu.shiga.jp/kurashi/toshikeikaku/kusatsugawaatochi/oshirase/kusatsu_river221019.html",
+          "status": "unresolved",
+          "reason": "本文取得エラー。HTTP Error 403: Forbidden",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.pref.kanagawa.jp/docs/y2w/prs/r7629143.html",
+          "status": "reflected",
+          "reason": "今回の追加・更新に反映。",
+          "incident_ids": [
+            "review-20261023-be3c7efdf762"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://exawizards.com/archives/33142",
+          "status": "reflected",
+          "reason": "今回の追加・更新に反映。",
+          "incident_ids": [
+            "review-20261023-cb821cecd717"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://medii.jp/news/20261020",
+          "status": "unresolved",
+          "reason": "本文の取得が不十分。タイトルのみ・PDF抽出不全等。",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.beautygarage.co.jp/wp/wp-content/uploads/news_unauthorizedaccess20261020.pdf",
+          "status": "unresolved",
+          "reason": "本文を取得したが、日付の裏付け・個人情報への具体的影響・既存事案との対応のいずれかを確定できていない。掲載判断の再照合対象。",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.sourcenext.com/support/i/2026/1015_1/",
+          "status": "unresolved",
+          "reason": "本文取得エラー。HTTP Error 403: Forbidden",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.iwaicosmo.co.jp/info/2026/10201710.html",
+          "status": "unresolved",
+          "reason": "本文取得エラー。HTTP Error 404: Not Found",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://corporate.kumanichi.com/news/news1020/",
+          "status": "reflected",
+          "reason": "今回の追加・更新に反映。",
+          "incident_ids": [
+            "review-20261023-f613db64eac8"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.town.chippubetsu.hokkaido.jp/news/detail.html?news=328",
+          "status": "unresolved",
+          "reason": "本文取得エラー。HTTP Error 503: Service Unavailable",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.kamakura.kanagawa.jp/kisya/data/2026/20261020.html",
+          "status": "unresolved",
+          "reason": "本文を取得したが、日付の裏付け・個人情報への具体的影響・既存事案との対応のいずれかを確定できていない。掲載判断の再照合対象。",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://raiden.site.ktaiwork.jp/wp-content/uploads/sites/2/2026/10/2026_10_19AccessIncident.pdf",
+          "status": "reflected",
+          "reason": "今回の追加・更新に反映。",
+          "incident_ids": [
+            "arcadia-raiden-20261013"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.karatsu.lg.jp/page/52939.html",
+          "status": "unresolved",
+          "reason": "本文を取得したが、日付の裏付け・個人情報への具体的影響・既存事案との対応のいずれかを確定できていない。掲載判断の再照合対象。",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.town.toyono.osaka.jp/gyousei/about/ippanjouhou/page008411.html",
+          "status": "reflected",
+          "reason": "今回の追加・更新に反映。",
+          "incident_ids": [
+            "review-20261023-201e5509f124"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.koganei.lg.jp/kurashi/472/bohan/bohanservice/anzennansinmail.html",
+          "status": "reflected",
+          "reason": "今回の追加・更新に反映。",
+          "incident_ids": [
+            "review-20261023-6392c437ae48"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.shiso.lg.jp/soshiki/shichokoshitsu/hishokoho/oshirase/22489.html",
+          "status": "reflected",
+          "reason": "今回の追加・更新に反映。",
+          "incident_ids": [
+            "review-20261023-6b435f901189"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.hashimoto.lg.jp/guide/kikikanri/osirase/23612.html",
+          "status": "reflected",
+          "reason": "今回の追加・更新に反映。",
+          "incident_ids": [
+            "review-20261023-ea10048e6547"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.honjo.lg.jp/kurashi_tetsuzuki/anzen_anshin/bosai/22763.html",
+          "status": "reflected",
+          "reason": "今回の追加・更新に反映。",
+          "incident_ids": [
+            "review-20261023-67e3eb9a6f54"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.aki.kochi.jp/life/dtl.php?hdnKey=8910",
+          "status": "unresolved",
+          "reason": "本文取得エラー。HTTP Error 404: Not Found",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.saku.nagano.jp/kurashi/iza/bousai_apri/10_19sakunettosaikai.html",
+          "status": "unresolved",
+          "reason": "本文を取得したが、日付の裏付け・個人情報への具体的影響・既存事案との対応のいずれかを確定できていない。掲載判断の再照合対象。",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.kanuma.tochigi.jp/0566/info-0000011589-0.html",
+          "status": "reflected",
+          "reason": "今回の追加・更新に反映。",
+          "incident_ids": [
+            "review-20261023-792d513327cb"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.ichinomiya.aichi.jp/shisei/houdouhappyo/1068631/1076175/1077305.html",
+          "status": "unresolved",
+          "reason": "本文取得エラー。HTTP Error 403: Forbidden",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.town.kami.miyagi.jp/information/6056.html",
+          "status": "reflected",
+          "reason": "今回の追加・更新に反映。",
+          "incident_ids": [
+            "review-20261023-91ce96e7e324"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.xmile.co.jp/news/release328",
+          "status": "unresolved",
+          "reason": "本文の取得が不十分。タイトルのみ・PDF抽出不全等。",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.nagasaki.lg.jp/uploaded/life/93532_627532_misc.pdf",
+          "status": "reflected",
+          "reason": "今回の追加・更新に反映。",
+          "incident_ids": [
+            "review-20261023-8cedd9d89e70"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.marinemesse.or.jp/news/eXnelHyr",
+          "status": "unresolved",
+          "reason": "本文の取得が不十分。タイトルのみ・PDF抽出不全等。",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.release.tdnet.info/inbs/140120261019553073.pdf",
+          "status": "reflected",
+          "reason": "今回の追加・更新に反映。",
+          "incident_ids": [
+            "review-20261023-a909d3882a00"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.niigata.lg.jp/shisei/koho/houdou/202610.files/261019_4.pdf",
+          "status": "reflected",
+          "reason": "今回の追加・更新に反映。",
+          "incident_ids": [
+            "review-20261023-8a0349807747"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://iju.na-nagaoka.jp/news/%e9%95%b7%e5%b2%a1%e5%b8%82%e7%a7%bb%e4%bd%8f%e4%bd%93%e9%a8%93%e3%83%84%e3%82%a2%e3%83%bc%e4%ba%8b%e6%a5%ad%e7%89%b9%e8%a8%ad%e3%82%b5%e3%82%a4%e3%83%88%e3%81%ab%e3%81%8a%e3%81%91%e3%82%8b%e5%80%8b/",
+          "status": "unresolved",
+          "reason": "本文取得エラー。HTTP Error 403: Forbidden",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.nagaoka.niigata.jp/shisei/cate02/houdou-shiryou/file/20261019-05.pdf",
+          "status": "reflected",
+          "reason": "今回の追加・更新に反映。",
+          "incident_ids": [
+            "review-20261023-4e85fa7ada8f"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.mitsuke.niigata.jp/soshiki/19/59434.html",
+          "status": "reflected",
+          "reason": "今回の追加・更新に反映。",
+          "incident_ids": [
+            "review-20261023-8f8105bb658a"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.shima.mie.jp/kakuka/byoinjigyobu/shimashiminbyoin/9828.html",
+          "status": "reflected",
+          "reason": "今回の追加・更新に反映。",
+          "incident_ids": [
+            "review-20261023-c20894da0fc2"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.linkx.dev/news/studio-incident",
+          "status": "unresolved",
+          "reason": "本文の取得が不十分。タイトルのみ・PDF抽出不全等。",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.uzabase.com/jp/info/20261019/",
+          "status": "reflected",
+          "reason": "今回の追加・更新に反映。",
+          "incident_ids": [
+            "review-20261023-f652df2b751d"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://kenjinkai-matsuri.com/NnfhWpxP/1u2nmIA1",
+          "status": "unresolved",
+          "reason": "本文の取得が不十分。タイトルのみ・PDF抽出不全等。",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://opencityaomori.studio.site/contact-1",
+          "status": "unresolved",
+          "reason": "本文の取得が不十分。タイトルのみ・PDF抽出不全等。",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.todoker.com/news/Jrv65COB",
+          "status": "reflected",
+          "reason": "今回の追加・更新に反映。",
+          "incident_ids": [
+            "review-20261023-978c5e29a908"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.pref.gifu.lg.jp/site/pressrelease/522624.html",
+          "status": "reflected",
+          "reason": "今回の追加・更新に反映。",
+          "incident_ids": [
+            "review-20261023-e496f3497902"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://anyinc.jp/news/20261019",
+          "status": "unresolved",
+          "reason": "本文の取得が不十分。タイトルのみ・PDF抽出不全等。",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.koga.fukuoka.jp/news/d/6746",
+          "status": "reflected",
+          "reason": "今回の追加・更新に反映。",
+          "incident_ids": [
+            "review-20261023-d329e10f58fc"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://tomo-ny.com/news/typZnqZQ",
+          "status": "unresolved",
+          "reason": "本文取得エラー。HTTP Error 403: Forbidden",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://stationai.co.jp/news/mhv1CXpZ",
+          "status": "unresolved",
+          "reason": "本文の取得が不十分。タイトルのみ・PDF抽出不全等。",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://arcsr.jp/info/024",
+          "status": "unresolved",
+          "reason": "本文の取得が不十分。タイトルのみ・PDF抽出不全等。",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.tohoku-frontier.co.jp/news/1947/",
+          "status": "reflected",
+          "reason": "今回の追加・更新に反映。",
+          "incident_ids": [
+            "review-20261023-7569fd0bacd3"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://jp.smartround.com/corporate/news/posts/Ab4Kkfrj",
+          "status": "reflected",
+          "reason": "今回の追加・更新に反映。",
+          "incident_ids": [
+            "review-20261023-f7e8ef52cc00"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://nudge.works/news/20261017",
+          "status": "unresolved",
+          "reason": "本文の取得が不十分。タイトルのみ・PDF抽出不全等。",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://expo.mappa.co.jp/infomation/QVIAWjFu",
+          "status": "unresolved",
+          "reason": "本文の取得が不十分。タイトルのみ・PDF抽出不全等。",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.keio.co.jp/news/update/news_release/news_release2026/pdf/nr20261016_newsrelease.pdf",
+          "status": "unresolved",
+          "reason": "本文取得エラー。HTTP Error 503: Service Unavailable",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.saitama.lg.jp/001/011/015/004/002/p134482.html",
+          "status": "reflected",
+          "reason": "今回の追加・更新に反映。",
+          "incident_ids": [
+            "review-20261023-e4668c2e340a"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.mima.lg.jp/gyosei/docs/3131999.html",
+          "status": "reflected",
+          "reason": "今回の追加・更新に反映。",
+          "incident_ids": [
+            "review-20261023-f4bb56becc3e"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.ojiya.niigata.jp/soshiki/bousai/raiden-jyouhou.html",
+          "status": "reflected",
+          "reason": "今回の追加・更新に反映。",
+          "incident_ids": [
+            "review-20261023-b6e1f86c274e"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.inzai.lg.jp/0000022714.html",
+          "status": "reflected",
+          "reason": "今回の追加・更新に反映。",
+          "incident_ids": [
+            "review-20261023-cf44a2f5c4bd"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.yachiyo.lg.jp/soshiki/11/87422.html",
+          "status": "reflected",
+          "reason": "今回の追加・更新に反映。",
+          "incident_ids": [
+            "review-20261023-8a705d7adc00"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.tachikawa.lg.jp/bosai/bohan/1008439/1028484.html",
+          "status": "reflected",
+          "reason": "今回の追加・更新に反映。",
+          "incident_ids": [
+            "review-20261023-4a1435cf713f"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/anzen_anshin/bosai/oshirase/CmsAdmin202610131.html",
+          "status": "reflected",
+          "reason": "今回の追加・更新に反映。",
+          "incident_ids": [
+            "review-20261023-73ef8880a5e0"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.urasoe.lg.jp/doc/2026101400097",
+          "status": "reflected",
+          "reason": "今回の追加・更新に反映。",
+          "incident_ids": [
+            "review-20261023-5f5a43a30e5d"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.hita.oita.jp/site/bousai/19172.html",
+          "status": "unresolved",
+          "reason": "本文を取得したが、日付の裏付け・個人情報への具体的影響・既存事案との対応のいずれかを確定できていない。掲載判断の再照合対象。",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.ichikikushikino.lg.jp/densan1/r8/261013_info.html",
+          "status": "reflected",
+          "reason": "今回の追加・更新に反映。",
+          "incident_ids": [
+            "review-20261023-2eb45e0dcc48"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city-yanai.jp/soshiki/6/bousaimailoshirase.html",
+          "status": "reflected",
+          "reason": "今回の追加・更新に反映。",
+          "incident_ids": [
+            "review-20261023-ac6f898da47d"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.aizuwakamatsu.fukushima.jp/docs/2026101400011/",
+          "status": "reflected",
+          "reason": "今回の追加・更新に反映。",
+          "incident_ids": [
+            "review-20261023-dc0b738a4bf7"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.ishikari.hokkaido.jp/shisei/shiseiunei/1001910/1003581.html",
+          "status": "unresolved",
+          "reason": "本文を取得したが、日付の裏付け・個人情報への具体的影響・既存事案との対応のいずれかを確定できていない。掲載判断の再照合対象。",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.town.yubetsu.lg.jp/administration/news/detail.html?news=2030",
+          "status": "unresolved",
+          "reason": "本文を取得したが、日付の裏付け・個人情報への具体的影響・既存事案との対応のいずれかを確定できていない。掲載判断の再照合対象。",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.town.hokkaido-ikeda.lg.jp/bosai-bohan/bosai/kinkyu.html",
+          "status": "unresolved",
+          "reason": "本文を取得したが、日付の裏付け・個人情報への具体的影響・既存事案との対応のいずれかを確定できていない。掲載判断の再照合対象。",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.town.imakane.lg.jp/gyousei/gyousei_info/post_4956.html",
+          "status": "unresolved",
+          "reason": "本文取得エラー。HTTP Error 503: Service Unavailable",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.town.shibayama.lg.jp/0000006638.html",
+          "status": "reflected",
+          "reason": "今回の追加・更新に反映。",
+          "incident_ids": [
+            "review-20261023-dd85b329f360"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.taito.lg.jp/kusei/sanka/sns/taitomail/teishi20261013.html",
+          "status": "unresolved",
+          "reason": "本文を取得したが、日付の裏付け・個人情報への具体的影響・既存事案との対応のいずれかを確定できていない。掲載判断の再照合対象。",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.atsugi.kanagawa.jp/material/files/group/3/tagengokojinjoho.pdf",
+          "status": "reflected",
+          "reason": "今回の追加・更新に反映。",
+          "incident_ids": [
+            "review-20261023-6c65334a43a5"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.shiga-konan.lg.jp/information/41923.html",
+          "status": "unresolved",
+          "reason": "本文取得エラー。HTTP Error 403: Forbidden",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.okayama.jp/kurashi/cmsfiles/contents/0000086/86126/kouhourennraku_2.pdf",
+          "status": "unresolved",
+          "reason": "本文の取得が不十分。タイトルのみ・PDF抽出不全等。",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://osakikoiki.jp/fire119-doc/2026101400011/file_contents/file_20261016518113_1.pdf",
+          "status": "reflected",
+          "reason": "今回の追加・更新に反映。",
+          "incident_ids": [
+            "review-20261023-a84791c998d3"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.goshogawara.lg.jp/GFD/news/20261016-osirase.html",
+          "status": "unresolved",
+          "reason": "本文を取得したが、日付の裏付け・個人情報への具体的影響・既存事案との対応のいずれかを確定できていない。掲載判断の再照合対象。",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.town.kanda.lg.jp/page/18753.html",
+          "status": "reflected",
+          "reason": "今回の追加・更新に反映。",
+          "incident_ids": [
+            "review-20261023-5d90a380df9e"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.higashine.yamagata.jp/news/3874",
+          "status": "unresolved",
+          "reason": "本文を取得したが、日付の裏付け・個人情報への具体的影響・既存事案との対応のいずれかを確定できていない。掲載判断の再照合対象。",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.town.oishida.yamagata.jp/life/chui_kanki.html",
+          "status": "reflected",
+          "reason": "今回の追加・更新に反映。",
+          "incident_ids": [
+            "review-20261023-c67951f07a0a"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.tome.miyagi.jp/koshitu/shisejoho/happyoshiryo/r8/documents/081016_houdou.pdf",
+          "status": "reflected",
+          "reason": "今回の追加・更新に反映。",
+          "incident_ids": [
+            "review-20261023-2b3bcd0279bb"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.tsuru.yamanashi.jp/shimin/anzen_anshin/bosai/14976.html",
+          "status": "reflected",
+          "reason": "今回の追加・更新に反映。",
+          "incident_ids": [
+            "review-20261023-ef1ca682d64a"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.shima.mie.jp/shobo/news/9827.html",
+          "status": "reflected",
+          "reason": "今回の追加・更新に反映。",
+          "incident_ids": [
+            "review-20261023-b5bc798dc23a"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.takarazuka.hyogo.jp/1060686/1060716/1008153/1008918/1064406.html",
+          "status": "reflected",
+          "reason": "今回の追加・更新に反映。",
+          "incident_ids": [
+            "review-20261023-a7a3df5bcb68"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.japanpost.jp/news/information/20261016_01/",
+          "status": "related_or_excluded",
+          "reason": "日本郵政のサービス停止告知。ゆうIDの個人情報への影響は既存事案で扱う。",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.park24.co.jp/news/2026/10/20261016-1.html",
+          "status": "reflected",
+          "reason": "今回の追加・更新に反映。",
+          "incident_ids": [
+            "timescar-20260925"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://corp.timescar.jp/mail/announce/faq.pdf?20261016-2",
+          "status": "related_or_excluded",
+          "reason": "タイムズカーFAQ。同じ事案の対応情報で、新規事案として数えない。",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.akita.lg.jp/shisei/hoshin-keikaku/1011478/1008502/1053586.html",
+          "status": "reflected",
+          "reason": "今回の追加・更新に反映。",
+          "incident_ids": [
+            "review-20261023-26c72ae8ec5e"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.daisen.lg.jp/archive/p20261016160209",
+          "status": "reflected",
+          "reason": "今回の追加・更新に反映。",
+          "incident_ids": [
+            "review-20261023-3179c0da4632"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.noshiro.lg.jp/city/etc/furusato-nozei/27973",
+          "status": "reflected",
+          "reason": "今回の追加・更新に反映。",
+          "incident_ids": [
+            "review-20261023-3562d1b82906"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://img.gpoint.co.jp/20260930/",
+          "status": "reflected",
+          "reason": "今回の追加・更新に反映。",
+          "incident_ids": [
+            "gpoint-20260930"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://binc.jp/press-room/news/notice/news_20261016",
+          "status": "related_or_excluded",
+          "reason": "BASE子会社Eストアーの既存事案の最終報案内。",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.release.tdnet.info/inbs/140120261016552377.pdf",
+          "status": "related_or_excluded",
+          "reason": "アドベンチャーの既存事案に関する開示。",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://ssl4.eir-parts.net/doc/9278/tdnet/2896130/00.pdf",
+          "status": "unresolved",
+          "reason": "本文取得エラー。Remote end closed connection without response",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.skyperfectjsat.space/jp/news/20261016_2",
+          "status": "reflected",
+          "reason": "今回の追加・更新に反映。",
+          "incident_ids": [
+            "skyperfect-idcf-20261013"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.hokutetsu.co.jp/_wp/wp-content/uploads/2026/10/eebdf5152d5598e94d0e817b3998a2fb-2.pdf",
+          "status": "unresolved",
+          "reason": "本文を取得したが、日付の裏付け・個人情報への具体的影響・既存事案との対応のいずれかを確定できていない。掲載判断の再照合対象。",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.kaetsunou.co.jp/22076/",
+          "status": "reflected",
+          "reason": "今回の追加・更新に反映。",
+          "incident_ids": [
+            "review-20261023-386f359194b7"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.wakayamabus.co.jp/news/roei20261016/",
+          "status": "unresolved",
+          "reason": "本文を取得したが、日付の裏付け・個人情報への具体的影響・既存事案との対応のいずれかを確定できていない。掲載判断の再照合対象。",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://5931bus.com/files/user/pdf/hassyao-rai.pdf",
+          "status": "reflected",
+          "reason": "今回の追加・更新に反映。",
+          "incident_ids": [
+            "review-20261023-f756215a25c0"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.keiseibus.co.jp/wp-content/uploads/2026/10/f61c096fc0e8e4f4e79ba8ab1d90faa4.pdf",
+          "status": "reflected",
+          "reason": "今回の追加・更新に反映。",
+          "incident_ids": [
+            "review-20261023-6536105b6e30"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://travel.willer.co.jp/static/pdf/20261016_notice.pdf",
+          "status": "reflected",
+          "reason": "今回の追加・更新に反映。",
+          "incident_ids": [
+            "review-20261023-6f46bd13d4bc"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.hokto.co.jp/information/49133/",
+          "status": "reflected",
+          "reason": "今回の追加・更新に反映。",
+          "incident_ids": [
+            "review-20261023-8d5cba772fa6"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://shimoden.net/media-download/279/5b7a91228777b12d/PDF/",
+          "status": "reflected",
+          "reason": "今回の追加・更新に反映。",
+          "incident_ids": [
+            "review-20261023-137cc90a5993"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://tomotetsu.co.jp/bus/news/4004/",
+          "status": "reflected",
+          "reason": "今回の追加・更新に反映。",
+          "incident_ids": [
+            "review-20261023-b6919f3b6a07"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.setouchibus.co.jp/news/2026/1016.html",
+          "status": "reflected",
+          "reason": "今回の追加・更新に反映。",
+          "incident_ids": [
+            "review-20261023-9cc333a6a786"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.ryobi-holdings.jp/bus/news-kousoku/%E3%80%8C%E7%99%BA%E8%BB%8A%E3%82%AA%E3%83%BC%E3%83%A9%E3%82%A4%E3%83%8D%E3%83%83%E3%83%88%E3%80%8D%E3%81%B8%E3%81%AE%E4%B8%8D%E6%AD%A3%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E3%81%AB%E3%82%88%E3%82%8B/",
+          "status": "reflected",
+          "reason": "今回の追加・更新に反映。",
+          "incident_ids": [
+            "review-20261023-71799733f049"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.hiroden.co.jp/topics/2026/pdf/1016-access/1016-access.pdf",
+          "status": "reflected",
+          "reason": "今回の追加・更新に反映。",
+          "incident_ids": [
+            "review-20261023-a3d768a4b3eb"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.hiroko-group.co.jp/kanko/oshirase.pdf",
+          "status": "reflected",
+          "reason": "今回の追加・更新に反映。",
+          "incident_ids": [
+            "review-20261023-0b20cf3839e2"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.chugoku-jrbus.co.jp/news/detail/1308",
+          "status": "reflected",
+          "reason": "今回の追加・更新に反映。",
+          "incident_ids": [
+            "review-20261023-c30dd270a018"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.nidek.co.jp/news/20261016_news/",
+          "status": "reflected",
+          "reason": "今回の追加・更新に反映。",
+          "incident_ids": [
+            "nidek-website-20260724"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://company.golfdigest.co.jp/corp/pr/2026101601.html",
+          "status": "reflected",
+          "reason": "今回の追加・更新に反映。",
+          "incident_ids": [
+            "review-20261023-42f773f8b24f"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.town.ikaruga.nara.jp/0000003413.html",
+          "status": "unresolved",
+          "reason": "本文を取得したが、日付の裏付け・個人情報への具体的影響・既存事案との対応のいずれかを確定できていない。掲載判断の再照合対象。",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.kanzaki.saga.jp/main/4410625.html",
+          "status": "unresolved",
+          "reason": "本文を取得したが、日付の裏付け・個人情報への具体的影響・既存事案との対応のいずれかを確定できていない。掲載判断の再照合対象。",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.hakodate.hokkaido.jp/emergency/2026101300052/",
+          "status": "unresolved",
+          "reason": "本文取得エラー。HTTP Error 404: Not Found",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.obihiro.hokkaido.jp/kurashi/bousai/1007325/1025071.html",
+          "status": "unresolved",
+          "reason": "本文を取得したが、日付の裏付け・個人情報への具体的影響・既存事案との対応のいずれかを確定できていない。掲載判断の再照合対象。",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.kitahiroshima.hokkaido.jp/hotnews/detail/00160585.html",
+          "status": "reflected",
+          "reason": "今回の追加・更新に反映。",
+          "incident_ids": [
+            "review-20261023-2633d2aeebab"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.imabari.ehime.jp/kouhou/info/004/",
+          "status": "unresolved",
+          "reason": "本文を取得したが、日付の裏付け・個人情報への具体的影響・既存事案との対応のいずれかを確定できていない。掲載判断の再照合対象。",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.osaka-izumi.lg.jp/kakukano/kousitu/apiruka/gyoumu/izumi_mail/23975.html",
+          "status": "unresolved",
+          "reason": "本文を取得したが、日付の裏付け・個人情報への具体的影響・既存事案との対応のいずれかを確定できていない。掲載判断の再照合対象。",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.nakama.lg.jp/site/bousai/21210.html",
+          "status": "reflected",
+          "reason": "今回の追加・更新に反映。",
+          "incident_ids": [
+            "review-20261023-f848f087044c"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/docs/7532.html",
+          "status": "reflected",
+          "reason": "今回の追加・更新に反映。",
+          "incident_ids": [
+            "review-20261023-df2aa05ff251"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.koriyama.lg.jp/soshiki/5/195747.html",
+          "status": "unresolved",
+          "reason": "本文取得エラー。HTTP Error 404: Not Found",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.fukuoka.lg.jp/bousai/bousaikojinjohorouei.html",
+          "status": "reflected",
+          "reason": "今回の追加・更新に反映。",
+          "incident_ids": [
+            "review-20261023-92ce058855e6"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.shibata.lg.jp/kurashi/iza/anshin/1032874.html",
+          "status": "reflected",
+          "reason": "今回の追加・更新に反映。",
+          "incident_ids": [
+            "review-20261023-ce8354fa50c3"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.hadano.kanagawa.jp/soshiki/3/1016/14264.html",
+          "status": "reflected",
+          "reason": "今回の追加・更新に反映。",
+          "incident_ids": [
+            "review-20261023-2ebe72d96e96"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.mutsu.lg.jp/government/bousai/telfax_johorouei.html",
+          "status": "unresolved",
+          "reason": "本文を取得したが、日付の裏付け・個人情報への具体的影響・既存事案との対応のいずれかを確定できていない。掲載判断の再照合対象。",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.hirosakifd.jp/kyougikai/index.html",
+          "status": "unresolved",
+          "reason": "本文を取得したが、日付の裏付け・個人情報への具体的影響・既存事案との対応のいずれかを確定できていない。掲載判断の再照合対象。",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.uonuma.lg.jp/uploaded/attachment/30745.pdf",
+          "status": "unresolved",
+          "reason": "本文を取得したが、日付の裏付け・個人情報への具体的影響・既存事案との対応のいずれかを確定できていない。掲載判断の再照合対象。",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.town.yorii.saitama.jp/soshiki/28/mailteishi.html",
+          "status": "unresolved",
+          "reason": "本文を取得したが、日付の裏付け・個人情報への具体的影響・既存事案との対応のいずれかを確定できていない。掲載判断の再照合対象。",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.komoro.lg.jp/official/tyui_kanki/18618.html",
+          "status": "reflected",
+          "reason": "今回の追加・更新に反映。",
+          "incident_ids": [
+            "review-20261023-6e1ec9e5cd4c"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.otaru.lg.jp/docs/2026101400011/",
+          "status": "reflected",
+          "reason": "今回の追加・更新に反映。",
+          "incident_ids": [
+            "review-20261023-f3d55675c696"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.takaoka.toyama.jp/soshiki/kikikanrika/2/1/1/3/14408.html",
+          "status": "unresolved",
+          "reason": "本文を取得したが、日付の裏付け・個人情報への具体的影響・既存事案との対応のいずれかを確定できていない。掲載判断の再照合対象。",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.kurobe.toyama.jp/news/detail.aspx?servno=11665",
+          "status": "reflected",
+          "reason": "今回の追加・更新に反映。",
+          "incident_ids": [
+            "review-20261023-dfadef193dc7"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.town.nyuzen.toyama.jp/gyosei/machizukuri/anzen_anshin/3/6969.html",
+          "status": "unresolved",
+          "reason": "本文を取得したが、日付の裏付け・個人情報への具体的影響・既存事案との対応のいずれかを確定できていない。掲載判断の再照合対象。",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.shunan.lg.jp/soshiki/9/153516.html",
+          "status": "reflected",
+          "reason": "今回の追加・更新に反映。",
+          "incident_ids": [
+            "review-20261023-825b18074bf1"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.ikoma.lg.jp/0000042931.html",
+          "status": "reflected",
+          "reason": "今回の追加・更新に反映。",
+          "incident_ids": [
+            "review-20261023-241c08fc0789"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.kashiwa.lg.jp/kohokocho/anshinanzen/security_notice/20261013.html",
+          "status": "reflected",
+          "reason": "今回の追加・更新に反映。",
+          "incident_ids": [
+            "review-20261023-5b4cc1336aa2"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.town.kumiyama.lg.jp/0000006770.html",
+          "status": "reflected",
+          "reason": "今回の追加・更新に反映。",
+          "incident_ids": [
+            "review-20261023-6b6acfb5148b"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.matsuyama.ehime.jp/kurashi/bosai/bousai/all/syusyuhouhou/20261015.html",
+          "status": "unresolved",
+          "reason": "本文を取得したが、日付の裏付け・個人情報への具体的影響・既存事案との対応のいずれかを確定できていない。掲載判断の再照合対象。",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.ichinomiya.aichi.jp/sougouseisaku/kikikanri/1044073/1044446/1044075/1077224.html",
+          "status": "unresolved",
+          "reason": "本文取得エラー。HTTP Error 403: Forbidden",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.inazawa.aichi.jp/0000006091.html",
+          "status": "unresolved",
+          "reason": "本文取得エラー。HTTP Error 403: Forbidden",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.town.shimamoto.lg.jp/soshiki/5/37877.html",
+          "status": "unresolved",
+          "reason": "本文を取得したが、日付の裏付け・個人情報への具体的影響・既存事案との対応のいずれかを確定できていない。掲載判断の再照合対象。",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.amagasaki.hyogo.jp/kurashi/bosai_syobo/information/1044370.html",
+          "status": "reflected",
+          "reason": "今回の追加・更新に反映。",
+          "incident_ids": [
+            "review-20261023-10be84739a68"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.town.inagawa.lg.jp/important_news/10375.html",
+          "status": "reflected",
+          "reason": "今回の追加・更新に反映。",
+          "incident_ids": [
+            "review-20261023-8d7ea26f93c5"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.wakayama.wakayama.jp/kurashi/bousai_bouhan_koutsu/1000032/1036580/1068840.html",
+          "status": "reflected",
+          "reason": "今回の追加・更新に反映。",
+          "incident_ids": [
+            "review-20261023-08aa07a0455e"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.shingu.lg.jp/info/3086",
+          "status": "reflected",
+          "reason": "今回の追加・更新に反映。",
+          "incident_ids": [
+            "review-20261023-4717fcf41450"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.aomori.aomori.jp/anzen_kinkyu/bousai_shoubou/1002609/1002610/1011518.html",
+          "status": "reflected",
+          "reason": "今回の追加・更新に反映。",
+          "incident_ids": [
+            "review-20261023-01db63dec5d2"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.vill.otoineppu.hokkaido.jp/kakuka/soumuzaisei/oshirase/2026-1014-1150-14.html",
+          "status": "unresolved",
+          "reason": "本文を取得したが、日付の裏付け・個人情報への具体的影響・既存事案との対応のいずれかを確定できていない。掲載判断の再照合対象。",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.town.miyagi-matsushima.lg.jp/page/5976.html",
+          "status": "unresolved",
+          "reason": "本文取得エラー。HTTP Error 404: Not Found",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.hanamaki.iwate.jp/kenko_iryo_fukushi/koureinokata/1019854/1026159.html",
+          "status": "reflected",
+          "reason": "今回の追加・更新に反映。",
+          "incident_ids": [
+            "review-20261023-c86b25b69cf4"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.kitakami.iwate.jp/life/emergency/30209.html",
+          "status": "reflected",
+          "reason": "今回の追加・更新に反映。",
+          "incident_ids": [
+            "review-20261023-edc4f96658c1"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.hamamatsu.shizuoka.jp/hfdjoho/1.html",
+          "status": "reflected",
+          "reason": "今回の追加・更新に反映。",
+          "incident_ids": [
+            "review-20261023-2b9f3094c85b"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.suntoizufd119.jp/wp-suntoizu119/wp-content/uploads/2026/10/8261e2ad581bfd5c6e68e7d31b5393e9.pdf",
+          "status": "reflected",
+          "reason": "今回の追加・更新に反映。",
+          "incident_ids": [
+            "review-20261023-4fba0a0fd965"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.town.fujisaki.lg.jp/news/index.cfm/detail.9.23600.html",
+          "status": "unresolved",
+          "reason": "本文を取得したが、日付の裏付け・個人情報への具体的影響・既存事案との対応のいずれかを確定できていない。掲載判断の再照合対象。",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.satsumasendai.lg.jp/gyoseijoho/johokokai/21393.html",
+          "status": "reflected",
+          "reason": "今回の追加・更新に反映。",
+          "incident_ids": [
+            "review-20261023-7e62afc1318f"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.akune.lg.jp/important/7312.html",
+          "status": "reflected",
+          "reason": "今回の追加・更新に反映。",
+          "incident_ids": [
+            "review-20261023-b8054582f682"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.kyohoku-koiki.jp/114343/",
+          "status": "unresolved",
+          "reason": "本文を取得したが、日付の裏付け・個人情報への具体的影響・既存事案との対応のいずれかを確定できていない。掲載判断の再照合対象。",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.nagasaki.lg.jp/uploaded/life/93361_626944_misc.pdf",
+          "status": "unresolved",
+          "reason": "本文取得エラー。HTTP Error 404: Not Found",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.tanabe.lg.jp/material/files/group/1/20261015shoubou.pdf",
+          "status": "reflected",
+          "reason": "今回の追加・更新に反映。",
+          "incident_ids": [
+            "review-20261023-0fdeb8e79396"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://wave.pref.wakayama.lg.jp/news/file/45691_0.pdf",
+          "status": "unresolved",
+          "reason": "本文取得エラー。HTTP Error 403: Forbidden",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.buzen.lg.jp/huseiakusesu.html",
+          "status": "unresolved",
+          "reason": "本文を取得したが、日付の裏付け・個人情報への具体的影響・既存事案との対応のいずれかを確定できていない。掲載判断の再照合対象。",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.town.mamurogawa.yamagata.jp/kinkyu/5806.html",
+          "status": "reflected",
+          "reason": "今回の追加・更新に反映。",
+          "incident_ids": [
+            "review-20261023-7dde2a3d8486"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.murayama.lg.jp/kurashi/anzen_anshin/kasai/shoubouoshirase/net119oshirase.html",
+          "status": "reflected",
+          "reason": "今回の追加・更新に反映。",
+          "incident_ids": [
+            "review-20261023-bcf7ae09cdab"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.shizuoka.lg.jp/s4523/s002772.html",
+          "status": "unresolved",
+          "reason": "本文を取得したが、日付の裏付け・個人情報への具体的影響・既存事案との対応のいずれかを確定できていない。掲載判断の再照合対象。",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/anzen_anshin/bosai/oshirase/Bosai20261015.html",
+          "status": "unresolved",
+          "reason": "本文を取得したが、日付の裏付け・個人情報への具体的影響・既存事案との対応のいずれかを確定できていない。掲載判断の再照合対象。",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.imari-arita119.saga.jp/information/_1855.html",
+          "status": "unresolved",
+          "reason": "本文を取得したが、日付の裏付け・個人情報への具体的影響・既存事案との対応のいずれかを確定できていない。掲載判断の再照合対象。",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.ey119.jp/img/net119fuseiakusesu.pdf",
+          "status": "unresolved",
+          "reason": "本文を取得したが、日付の裏付け・個人情報への具体的影響・既存事案との対応のいずれかを確定できていない。掲載判断の再照合対象。",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.hashima.lg.jp/7014.html",
+          "status": "reflected",
+          "reason": "今回の追加・更新に反映。",
+          "incident_ids": [
+            "review-20261023-3ceef470f472"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.minami-alps.yamanashi.jp/docs/22580.html",
+          "status": "unresolved",
+          "reason": "本文を取得したが、日付の裏付け・個人情報への具体的影響・既存事案との対応のいずれかを確定できていない。掲載判断の再照合対象。",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.hachinohe.aomori.jp/section/koiki/shobo/about/pdf/NET119tyuuikanki.pdf",
+          "status": "unresolved",
+          "reason": "本文を取得したが、日付の裏付け・個人情報への具体的影響・既存事案との対応のいずれかを確定できていない。掲載判断の再照合対象。",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.adachikouiki.lg.jp/site/shobo/7047.html",
+          "status": "reflected",
+          "reason": "今回の追加・更新に反映。",
+          "incident_ids": [
+            "review-20261023-afbc502d45c4"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.pref.shimane.lg.jp/police/emergency/mikopiteishi.html",
+          "status": "unresolved",
+          "reason": "本文を取得したが、日付の裏付け・個人情報への具体的影響・既存事案との対応のいずれかを確定できていない。掲載判断の再照合対象。",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.kamakura.kanagawa.jp/kisya/data/2026/20261015.html",
+          "status": "reflected",
+          "reason": "今回の追加・更新に反映。",
+          "incident_ids": [
+            "review-20261023-29a9a31691a2"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.kitaakita.akita.jp/news/p20261014125347",
+          "status": "reflected",
+          "reason": "今回の追加・更新に反映。",
+          "incident_ids": [
+            "review-20261023-4dcbe6093602"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.semboku.akita.jp/news_topics/whatsnew.php?id=5182",
+          "status": "unresolved",
+          "reason": "本文を取得したが、日付の裏付け・個人情報への具体的影響・既存事案との対応のいずれかを確定できていない。掲載判断の再照合対象。",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.to-me-card.jp/important/202609-01/index.html",
+          "status": "unresolved",
+          "reason": "本文を取得したが、日付の裏付け・個人情報への具体的影響・既存事案との対応のいずれかを確定できていない。掲載判断の再照合対象。",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://southgatehotel.jp/topics/important-apology-and-notice-regarding-unauthorized-access-to-reservation-information-%e3%80%90%e9%87%8d%e8%a6%81%e3%80%91%e3%81%94%e4%ba%88%e7%b4%84%e6%83%85%e5%a0%b1%e3%81%b8%e3%81%ae%e4%b8%8d/",
+          "status": "unresolved",
+          "reason": "本文を取得したが、日付の裏付け・個人情報への具体的影響・既存事案との対応のいずれかを確定できていない。掲載判断の再照合対象。",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.nimoca.jp/news/detail/109",
+          "status": "unresolved",
+          "reason": "本文を取得したが、日付の裏付け・個人情報への具体的影響・既存事案との対応のいずれかを確定できていない。掲載判断の再照合対象。",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.jrkyushu.co.jp/common/inc/news/newtopics/__icsFiles/afieldfile/2026/10/15/202691015_mail_address_access.pdf",
+          "status": "unresolved",
+          "reason": "本文取得エラー。HTTP Error 403: Forbidden",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.yellowhat.jp/information/yellowhat/202610_2.html",
+          "status": "reflected",
+          "reason": "今回の追加・更新に反映。",
+          "incident_ids": [
+            "yellowhat-20260828"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://prtimes.jp/main/html/rd/p/000000063.000065209.html",
+          "status": "reflected",
+          "reason": "今回の追加・更新に反映。",
+          "incident_ids": [
+            "imadeya-20260821"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.moonstar.co.jp/information/2026/10/gg.html",
+          "status": "reflected",
+          "reason": "今回の追加・更新に反映。",
+          "incident_ids": [
+            "moonstar-20261002"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.town.otofuke.hokkaido.jp/bosai/kinkyu/raiden.html",
+          "status": "unresolved",
+          "reason": "本文の取得が不十分。タイトルのみ・PDF抽出不全等。",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.town.naie.hokkaido.jp/oshirase/2314/",
+          "status": "unresolved",
+          "reason": "本文の取得が不十分。タイトルのみ・PDF抽出不全等。",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.hatsukaichi.hiroshima.jp/soshiki/3/145721.html",
+          "status": "reflected",
+          "reason": "今回の追加・更新に反映。",
+          "incident_ids": [
+            "review-20261023-67d3cfadbcbb"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.kinokawa.lg.jp/003/mailhaishin.html",
+          "status": "reflected",
+          "reason": "今回の追加・更新に反映。",
+          "incident_ids": [
+            "review-20261023-643376c0c2c3"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.kizugawa.lg.jp/0000003468.html",
+          "status": "unresolved",
+          "reason": "本文取得エラー。HTTP Error 403: Forbidden",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.tamano.lg.jp/site/bousai/59190.html",
+          "status": "reflected",
+          "reason": "今回の追加・更新に反映。",
+          "incident_ids": [
+            "review-20261023-a04ee126a5a4"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.sazacho-nagasaki.jp/kiji0036435/index.html",
+          "status": "reflected",
+          "reason": "今回の追加・更新に反映。",
+          "incident_ids": [
+            "review-20261023-48cfff41e6db"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.akita.lg.jp/shobo/oshirase/1053565.html",
+          "status": "unresolved",
+          "reason": "本文を取得したが、日付の裏付け・個人情報への具体的影響・既存事案との対応のいずれかを確定できていない。掲載判断の再照合対象。",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.yurihonjo.lg.jp/1001576/1001986/1013930.html",
+          "status": "reflected",
+          "reason": "今回の追加・更新に反映。",
+          "incident_ids": [
+            "review-20261023-3039c2429d4c"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.maebashi.gunma.jp/taisetsu/51475.html",
+          "status": "reflected",
+          "reason": "今回の追加・更新に反映。",
+          "incident_ids": [
+            "review-20261023-f6fb37e6593e"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.minamiboso.chiba.jp/0000025194.html",
+          "status": "reflected",
+          "reason": "今回の追加・更新に反映。",
+          "incident_ids": [
+            "review-20261023-6f66ca912209"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.minamiuonuma.niigata.jp/docs/86988.html",
+          "status": "reflected",
+          "reason": "今回の追加・更新に反映。",
+          "incident_ids": [
+            "review-20261023-7e2a207d78cf"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.ichikawa.lg.jp/page/80942.html",
+          "status": "reflected",
+          "reason": "今回の追加・更新に反映。",
+          "incident_ids": [
+            "review-20261023-cd880de61fc8"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.funabashi.lg.jp/emergency/news/attention1/p150975.html",
+          "status": "reflected",
+          "reason": "今回の追加・更新に反映。",
+          "incident_ids": [
+            "review-20261023-f670b67136f5"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.togane.chiba.jp/emergencyinfo/0000000206.html",
+          "status": "unresolved",
+          "reason": "本文を取得したが、日付の裏付け・個人情報への具体的影響・既存事案との対応のいずれかを確定できていない。掲載判断の再照合対象。",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.mitaka.lg.jp/c_anzen/121/121660.html",
+          "status": "reflected",
+          "reason": "今回の追加・更新に反映。",
+          "incident_ids": [
+            "review-20261023-b1e7254e9caa"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.hino.lg.jp/kurashi/annzen/bousai/mail/1032174.html",
+          "status": "reflected",
+          "reason": "今回の追加・更新に反映。",
+          "incident_ids": [
+            "review-20261023-d754791ff95f"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.higashikurume.lg.jp/kurashi/anzen/bousai/1028208/1029881/index.html",
+          "status": "reflected",
+          "reason": "今回の追加・更新に反映。",
+          "incident_ids": [
+            "review-20261023-da7f6ec66b8d"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.setagaya.lg.jp/02049/36404.html",
+          "status": "unresolved",
+          "reason": "本文を取得したが、日付の裏付け・個人情報への具体的影響・既存事案との対応のいずれかを確定できていない。掲載判断の再照合対象。",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.fukushima.fukushima.jp/soshiki/1/3/20631.html",
+          "status": "reflected",
+          "reason": "今回の追加・更新に反映。",
+          "incident_ids": [
+            "review-20261023-92ee5dbf261f"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.uenohara.yamanashi.jp/page/1027600.html",
+          "status": "reflected",
+          "reason": "今回の追加・更新に反映。",
+          "incident_ids": [
+            "review-20261023-a49bc2a353f4"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.town.kanie.aichi.jp/site/kaniebosaijoho/bosaihuseiakusesu2.html",
+          "status": "unresolved",
+          "reason": "本文取得エラー。HTTP Error 403: Forbidden",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.toyoake.lg.jp/item/35428.htm",
+          "status": "unresolved",
+          "reason": "本文取得エラー。HTTP Error 403: Forbidden",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.owariasahi.lg.jp/page/59192.html",
+          "status": "unresolved",
+          "reason": "本文取得エラー。HTTP Error 403: Forbidden",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.matsusaka.mie.jp/site/koureisya-wel/sosnet.html",
+          "status": "reflected",
+          "reason": "今回の追加・更新に反映。",
+          "incident_ids": [
+            "review-20261023-9d9bc4ba0963"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.town.taki.mie.jp/life/soshiki/kenko_fukushi/koreishafukushi_kaigo/1/5547.html",
+          "status": "reflected",
+          "reason": "今回の追加・更新に反映。",
+          "incident_ids": [
+            "review-20261023-abee322b1b6b"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.suzuka.lg.jp/kurashi/safe/1001523/1018091.html",
+          "status": "reflected",
+          "reason": "今回の追加・更新に反映。",
+          "incident_ids": [
+            "review-20261023-5c1a050c9a3c"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.muko.kyoto.jp/soshiki/11/19422.html",
+          "status": "unresolved",
+          "reason": "本文取得エラー。HTTP Error 403: Forbidden",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.kyoto.lg.jp/gyozai/page/0000359313.html",
+          "status": "unresolved",
+          "reason": "本文取得エラー。HTTP Error 403: Forbidden",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.nagaokakyo.lg.jp/0000013962.html",
+          "status": "unresolved",
+          "reason": "本文取得エラー。HTTP Error 403: Forbidden",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.takasago.lg.jp/soshikikarasagasu/kikikanrishitsu/anzen_anshin/3/5/14357.html",
+          "status": "reflected",
+          "reason": "今回の追加・更新に反映。",
+          "incident_ids": [
+            "review-20261023-52166583d134"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.himeji.lg.jp/emergencyinfo/0000000952.html",
+          "status": "reflected",
+          "reason": "今回の追加・更新に反映。",
+          "incident_ids": [
+            "review-20261023-659e9fd52e42"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.aioi.lg.jp/soshiki/kikikanri/fusei-access.html",
+          "status": "unresolved",
+          "reason": "本文を取得したが、日付の裏付け・個人情報への具体的影響・既存事案との対応のいずれかを確定できていない。掲載判断の再照合対象。",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.gobo.lg.jp/sosiki/somu/bosai/osirase/9002.html",
+          "status": "unresolved",
+          "reason": "本文取得エラー。HTTP Error 404: Not Found",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.town.toyosato.shiga.jp/0000004049.html",
+          "status": "unresolved",
+          "reason": "本文取得エラー。HTTP Error 403: Forbidden",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.nagahama.lg.jp/0000017317.html",
+          "status": "unresolved",
+          "reason": "本文取得エラー。HTTP Error 403: Forbidden",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.takatsuki.osaka.jp/soshiki/6/187835.html",
+          "status": "reflected",
+          "reason": "今回の追加・更新に反映。",
+          "incident_ids": [
+            "review-20261023-ed16be880927"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.izumisano.lg.jp/kakuka/kikikanri/bousai/menu/bou/osirase/19241.html",
+          "status": "unresolved",
+          "reason": "本文を取得したが、日付の裏付け・個人情報への具体的影響・既存事案との対応のいずれかを確定できていない。掲載判断の再照合対象。",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.hirakata.osaka.jp/kikikanri/0000054451.html",
+          "status": "reflected",
+          "reason": "今回の追加・更新に反映。",
+          "incident_ids": [
+            "review-20261023-3a51cb5b9595"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.kainan.lg.jp/kakubusho/soumubu/kikikanrika/oshirase/8590.html",
+          "status": "unresolved",
+          "reason": "本文取得エラー。HTTP Error 404: Not Found",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.isahaya.nagasaki.jp/soshiki/3/50411.html",
+          "status": "reflected",
+          "reason": "今回の追加・更新に反映。",
+          "incident_ids": [
+            "review-20261023-92b87748dbc1"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.omura.nagasaki.jp/bousai/kurashi/anzen/bosai/fusei-access.html",
+          "status": "reflected",
+          "reason": "今回の追加・更新に反映。",
+          "incident_ids": [
+            "review-20261023-8e0bebadf71c"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.kitakyushu.lg.jp/contents/13801401_00003.html",
+          "status": "reflected",
+          "reason": "今回の追加・更新に反映。",
+          "incident_ids": [
+            "review-20261023-99080042882b"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.omuta.lg.jp/kiji00321868/index.html",
+          "status": "reflected",
+          "reason": "今回の追加・更新に反映。",
+          "incident_ids": [
+            "review-20261023-d322d462faa3"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.koga.fukuoka.jp/news/d/6738",
+          "status": "reflected",
+          "reason": "今回の追加・更新に反映。",
+          "incident_ids": [
+            "review-20261023-c321d43d2880"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.takeo.lg.jp/information/2026/10/016140.html",
+          "status": "unresolved",
+          "reason": "本文を取得したが、日付の裏付け・個人情報への具体的影響・既存事案との対応のいずれかを確定できていない。掲載判断の再照合対象。",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.imari.saga.jp/item/39179.htm",
+          "status": "unresolved",
+          "reason": "本文を取得したが、日付の裏付け・個人情報への具体的影響・既存事案との対応のいずれかを確定できていない。掲載判断の再照合対象。",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.miyazaki.miyazaki.jp/life/fire_department/news/418334.html",
+          "status": "unresolved",
+          "reason": "本文取得エラー。HTTP Error 403: Forbidden",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.town.aya.miyazaki.jp/soshiki/soumuka/11182.html",
+          "status": "unresolved",
+          "reason": "本文取得エラー。HTTP Error 403: Forbidden",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city-nakatsu.jp/kinkyudocs/2026101400042/",
+          "status": "reflected",
+          "reason": "今回の追加・更新に反映。",
+          "incident_ids": [
+            "review-20261023-28f42bfd0b58"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.saiki.oita.jp/kiji00312043/index.html",
+          "status": "reflected",
+          "reason": "今回の追加・更新に反映。",
+          "incident_ids": [
+            "review-20261023-2757122f6342"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.makurazaki.lg.jp/soshiki/soumu/30301.html",
+          "status": "reflected",
+          "reason": "今回の追加・更新に反映。",
+          "incident_ids": [
+            "review-20261023-0d0ad091423c"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.fukuyama.hiroshima.jp/site/bosai/415082.html",
+          "status": "reflected",
+          "reason": "今回の追加・更新に反映。",
+          "incident_ids": [
+            "review-20261023-37b3de4e56a3"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.miyoshi.hiroshima.jp/uploaded/attachment/34674.pdf",
+          "status": "unresolved",
+          "reason": "本文の取得が不十分。タイトルのみ・PDF抽出不全等。",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.matsuyama.ehime.jp/kurashi/bosai/bousai/all/syusyuhouhou/20261014.html",
+          "status": "unresolved",
+          "reason": "本文を取得したが、日付の裏付け・個人情報への具体的影響・既存事案との対応のいずれかを確定できていない。掲載判断の再照合対象。",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.pref.shimane.lg.jp/press_release/2026/tliih22sqpum.html",
+          "status": "reflected",
+          "reason": "今回の追加・更新に反映。",
+          "incident_ids": [
+            "review-20261023-27b23bcab01e"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.izumo.shimane.jp/www/contents/1791945688368/index.html",
+          "status": "unresolved",
+          "reason": "本文を取得したが、日付の裏付け・個人情報への具体的影響・既存事案との対応のいずれかを確定できていない。掲載判断の再照合対象。",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.kudamatsu.lg.jp/chiiki/kouhou/osirase_kudamatumail.html",
+          "status": "reflected",
+          "reason": "今回の追加・更新に反映。",
+          "incident_ids": [
+            "review-20261023-55ec1cc15788"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.koshi.lg.jp/kiji00325893/index.html",
+          "status": "reflected",
+          "reason": "今回の追加・更新に反映。",
+          "incident_ids": [
+            "review-20261023-cb83c10bc01d"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.town.kamimine.lg.jp/kiji0031658/index.html",
+          "status": "reflected",
+          "reason": "今回の追加・更新に反映。",
+          "incident_ids": [
+            "review-20261023-c208fdfc622d"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.town.kaita.lg.jp/soshiki/8/148670.html",
+          "status": "reflected",
+          "reason": "今回の追加・更新に反映。",
+          "incident_ids": [
+            "review-20261023-590a543233de"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.town.fuchu.hiroshima.jp/site/kikikannrika/57853.html",
+          "status": "reflected",
+          "reason": "今回の追加・更新に反映。",
+          "incident_ids": [
+            "review-20261023-575adae2745f"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.etajima.hiroshima.jp/cms/articles/show/12421",
+          "status": "unresolved",
+          "reason": "本文取得エラー。HTTP Error 403: Forbidden",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.marugame.lg.jp/site/bousaiinfo/47539.html",
+          "status": "unresolved",
+          "reason": "本文取得エラー。HTTP Error 404: Not Found",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.town.kunitomi.miyazaki.jp/main/disaster/page002556.html",
+          "status": "unresolved",
+          "reason": "本文取得エラー。HTTP Error 403: Forbidden",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.info.city.tsu.mie.jp/shisei/kouhou_kouchou_kouhou/1005965/1007586/1010639/1013896/1014023.html",
+          "status": "reflected",
+          "reason": "今回の追加・更新に反映。",
+          "incident_ids": [
+            "review-20261023-7d9d728d1256"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://osakikoiki.jp/fire119-doc/2026101400011/file_contents/file_20261014320034_1.pdf",
+          "status": "unresolved",
+          "reason": "本文取得エラー。HTTP Error 404: Not Found",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.yokohama.lg.jp/city-info/koho-kocho/press/bousai/2026/1014kinkyu.files/0015_20261014.pdf",
+          "status": "reflected",
+          "reason": "今回の追加・更新に反映。",
+          "incident_ids": [
+            "review-20261023-a3670b08750f"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.date119.jp/control/wp-content/uploads/2026/10/【伊達地方消防組合】不正アクセスによる個人情報漏えいの可能性について.pdf",
+          "status": "unresolved",
+          "reason": "本文取得エラー。'ascii' codec can't encode characters in position 40-73: ordinal not in range(128)",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.vill.tanohata.iwate.jp/docs/2026101400011/",
+          "status": "reflected",
+          "reason": "今回の追加・更新に反映。",
+          "incident_ids": [
+            "review-20261023-a2c4a7bb862a"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.town.yahaba.iwate.jp/soshiki/kikaku/chousei/17919357673068275/",
+          "status": "reflected",
+          "reason": "今回の追加・更新に反映。",
+          "incident_ids": [
+            "review-20261023-9fbd0fbed829"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.town.shizukuishi.iwate.jp/docs/2026101400011/",
+          "status": "unresolved",
+          "reason": "本文取得エラー。HTTP Error 404: Not Found",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.town.yuzawa.lg.jp/kurashinojoho/kurashi_tetsuzuki/2/3/3/1/8104.html",
+          "status": "reflected",
+          "reason": "今回の追加・更新に反映。",
+          "incident_ids": [
+            "review-20261023-f51670bce17a"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.sanjo.niigata.jp/soshiki/somubu/dxsuishinka/security/21283.html",
+          "status": "reflected",
+          "reason": "今回の追加・更新に反映。",
+          "incident_ids": [
+            "review-20261023-5d632fd444fa"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.town.hayama.lg.jp/soshiki/bousaianzen/2/4/17670.html",
+          "status": "unresolved",
+          "reason": "本文を取得したが、日付の裏付け・個人情報への具体的影響・既存事案との対応のいずれかを確定できていない。掲載判断の再照合対象。",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.pref.kanagawa.jp/docs/pf7/r4075583.html",
+          "status": "reflected",
+          "reason": "今回の追加・更新に反映。",
+          "incident_ids": [
+            "review-20261023-f124ce55ae51"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/kinkyu/25377.html",
+          "status": "reflected",
+          "reason": "今回の追加・更新に反映。",
+          "incident_ids": [
+            "review-20261023-cec9b722ab32"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/0000003632.html",
+          "status": "reflected",
+          "reason": "今回の追加・更新に反映。",
+          "incident_ids": [
+            "review-20261023-3a3e63d7c32e"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.chuo.lg.jp/a0003/kusei/kouhoukouchou/press/261014.html",
+          "status": "reflected",
+          "reason": "今回の追加・更新に反映。",
+          "incident_ids": [
+            "review-20261023-77621de23bbb"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.niigata.lg.jp/kurashi/bosai/oshirase_ichiran/20261014bousaijouhou.files/bousaijouhoufusei.pdf",
+          "status": "reflected",
+          "reason": "今回の追加・更新に反映。",
+          "incident_ids": [
+            "review-20261023-7284d00a8fbd"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.ueda.nagano.jp/soshiki/uedapr/138236.html",
+          "status": "reflected",
+          "reason": "今回の追加・更新に反映。",
+          "incident_ids": [
+            "review-20261023-3f4c1407cb92"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.warabi.saitama.jp/anzen/bousai/1012477/1013329.html",
+          "status": "reflected",
+          "reason": "今回の追加・更新に反映。",
+          "incident_ids": [
+            "review-20261023-d4cab9e8d5f4"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.town.tobetsu.hokkaido.jp/soshiki/kiki/55911.html",
+          "status": "unresolved",
+          "reason": "本文取得エラー。HTTP Error 404: Not Found",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.vill.hakuba.lg.jp/gyosei/soshikikarasagasu/somuka/osirase_ibennto_kouhoumusenntou/15345.html",
+          "status": "unresolved",
+          "reason": "本文を取得したが、日付の裏付け・個人情報への具体的影響・既存事案との対応のいずれかを確定できていない。掲載判断の再照合対象。",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.kuki.lg.jp/kurashi/bosai/bosaijoho/1002152/1013704.html",
+          "status": "reflected",
+          "reason": "今回の追加・更新に反映。",
+          "incident_ids": [
+            "review-20261023-6a4a2452e59d"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.iwanuma.miyagi.jp/shisei/policy/kojinjouhoutaiou.html",
+          "status": "reflected",
+          "reason": "今回の追加・更新に反映。",
+          "incident_ids": [
+            "review-20261023-a85e5238174d"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.fukagawa.lg.jp/cms/section/soumu/ai39rj0000001m2e.html",
+          "status": "unresolved",
+          "reason": "本文取得エラー。HTTP Error 503: Service Unavailable",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.wako.lg.jp/kurashi/anshin/1010199/1014124.html",
+          "status": "reflected",
+          "reason": "今回の追加・更新に反映。",
+          "incident_ids": [
+            "review-20261023-73a7d4d1d479"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.chitose.lg.jp/c50/1002703/1002722/1007015.html",
+          "status": "reflected",
+          "reason": "今回の追加・更新に反映。",
+          "incident_ids": [
+            "review-20261023-155fa79d736f"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.town.ozora.hokkaido.jp/soshiki/1010/16/4091.html",
+          "status": "reflected",
+          "reason": "今回の追加・更新に反映。",
+          "incident_ids": [
+            "review-20261023-1c5d20344628"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.tsushima.lg.jp/kurashi/anshinanzen/bousai/bousaioshirase/rouei.html",
+          "status": "unresolved",
+          "reason": "本文取得エラー。HTTP Error 403: Forbidden",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.miyazu.kyoto.jp/site/press/31537.html",
+          "status": "unresolved",
+          "reason": "本文取得エラー。HTTP Error 403: Forbidden",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.kurume.fukuoka.jp/1500soshiki/9096bousai/3010oshirase/files/dai1ppou1.pdf",
+          "status": "reflected",
+          "reason": "今回の追加・更新に反映。",
+          "incident_ids": [
+            "review-20261023-68791b714e05"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.mino.gifu.jp/docs/3134978.html",
+          "status": "unresolved",
+          "reason": "本文を取得したが、日付の裏付け・個人情報への具体的影響・既存事案との対応のいずれかを確定できていない。掲載判断の再照合対象。",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.chiryu.aichi.jp/important/20309.html",
+          "status": "unresolved",
+          "reason": "本文取得エラー。HTTP Error 403: Forbidden",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.kakamigahara.lg.jp/life/bousai/1001268/1001319/1029647.html",
+          "status": "reflected",
+          "reason": "今回の追加・更新に反映。",
+          "incident_ids": [
+            "review-20261023-aeab7e2b8d28"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.okazaki.lg.jp/shisei/koho/1006195/1006358/1016621/1017348.html",
+          "status": "unresolved",
+          "reason": "本文取得エラー。HTTP Error 403: Forbidden",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.kitanagoya.lg.jp/kosodate/1007714.html",
+          "status": "unresolved",
+          "reason": "本文取得エラー。HTTP Error 403: Forbidden",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.nishio.aichi.jp/kurashi/bosai/1008157/1012456.html",
+          "status": "unresolved",
+          "reason": "本文取得エラー。HTTP Error 403: Forbidden",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.ritto.lg.jp/important/18762.html",
+          "status": "unresolved",
+          "reason": "本文取得エラー。HTTP Error 403: Forbidden",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.town.taga.lg.jp/important/2788.html",
+          "status": "unresolved",
+          "reason": "本文取得エラー。HTTP Error 403: Forbidden",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.town.genkai.lg.jp/soshiki/18/96255.html",
+          "status": "reflected",
+          "reason": "今回の追加・更新に反映。",
+          "incident_ids": [
+            "review-20261023-0511286895cf"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.toyooka.lg.jp/_res/projects/default_project/_page_/001/039/180/20261014-3.pdf",
+          "status": "reflected",
+          "reason": "今回の追加・更新に反映。",
+          "incident_ids": [
+            "review-20261023-0172c2f9d23e"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.town.shika.lg.jp/page/10885.html",
+          "status": "reflected",
+          "reason": "今回の追加・更新に反映。",
+          "incident_ids": [
+            "review-20261023-cf986c602cda"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.sakai.lg.jp/kurashi/bosai/shiru/shudan/jyouhou.html",
+          "status": "reflected",
+          "reason": "今回の追加・更新に反映。",
+          "incident_ids": [
+            "review-20261023-92c2dac6e70d"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.town.yubetsu.lg.jp/administration/news/detail.html?news=2026",
+          "status": "unresolved",
+          "reason": "本文を取得したが、日付の裏付け・個人情報への具体的影響・既存事案との対応のいずれかを確定できていない。掲載判断の再照合対象。",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.utashinai.hokkaido.jp/hotnews/detail/00004796.html",
+          "status": "related_or_excluded",
+          "reason": "汎用プログラムの脆弱性に伴うサイト停止告知のみ。個人情報被害の裏付けにしない。",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.memuro.net/administration/soshiki/soumu/2026-1014-1551-15.html",
+          "status": "unresolved",
+          "reason": "本文を取得したが、日付の裏付け・個人情報への具体的影響・既存事案との対応のいずれかを確定できていない。掲載判断の再照合対象。",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.town.shimizu.hokkaido.jp/section/01/details/post_106.html",
+          "status": "unresolved",
+          "reason": "本文を取得したが、日付の裏付け・個人情報への具体的影響・既存事案との対応のいずれかを確定できていない。掲載判断の再照合対象。",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.shintoku-town.jp/oshirase/3652/",
+          "status": "unresolved",
+          "reason": "本文を取得したが、日付の裏付け・個人情報への具体的影響・既存事案との対応のいずれかを確定できていない。掲載判断の再照合対象。",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.town.imakane.lg.jp/gyousei/gyousei_info/post_4953.html",
+          "status": "unresolved",
+          "reason": "本文取得エラー。HTTP Error 503: Service Unavailable",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.wakkanai.hokkaido.jp/kyoiku/seishonenikusei/ikuseikatsudo/haishinstop.html",
+          "status": "unresolved",
+          "reason": "本文を取得したが、日付の裏付け・個人情報への具体的影響・既存事案との対応のいずれかを確定できていない。掲載判断の再照合対象。",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.nagano.nagano.jp/kinkyu/p000005.html",
+          "status": "reflected",
+          "reason": "今回の追加・更新に反映。",
+          "incident_ids": [
+            "review-20261023-79b355fb53d4"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.vill.ogawa.nagano.jp/docs/85007.html",
+          "status": "unresolved",
+          "reason": "本文を取得したが、日付の裏付け・個人情報への具体的影響・既存事案との対応のいずれかを確定できていない。掲載判断の再照合対象。",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.vill.yasuoka.nagano.jp/docs/341222.html",
+          "status": "unresolved",
+          "reason": "本文を取得したが、日付の裏付け・個人情報への具体的影響・既存事案との対応のいずれかを確定できていない。掲載判断の再照合対象。",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.saku.nagano.jp/kurashi/iza/bousai_apri/20261014_sakunetto.html",
+          "status": "reflected",
+          "reason": "今回の追加・更新に反映。",
+          "incident_ids": [
+            "review-20261023-c1dc3defed59"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.town.matsuzaki.shizuoka.jp/docs/2026101400011/",
+          "status": "reflected",
+          "reason": "今回の追加・更新に反映。",
+          "incident_ids": [
+            "review-20261023-0ae05bc9fb37"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.nikaho.akita.jp/soshikikarasagasu/shobohonbu/gyomuannai/3/6959.html",
+          "status": "reflected",
+          "reason": "今回の追加・更新に反映。",
+          "incident_ids": [
+            "review-20261023-95165d15cfc9"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.kfd.or.jp/?p=15617",
+          "status": "reflected",
+          "reason": "今回の追加・更新に反映。",
+          "incident_ids": [
+            "review-20261023-04db99aee908"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.nagasaki.lg.jp/uploaded/life/93361_626943_misc.pdf",
+          "status": "unresolved",
+          "reason": "本文取得エラー。HTTP Error 404: Not Found",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://wave.pref.wakayama.lg.jp/news/file/45671_0.pdf",
+          "status": "unresolved",
+          "reason": "本文取得エラー。HTTP Error 403: Forbidden",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.fuchu.hiroshima.jp/soshiki/kikikanri/kikikanrika/anzen/shobou/11960.html",
+          "status": "reflected",
+          "reason": "今回の追加・更新に反映。",
+          "incident_ids": [
+            "review-20261023-22d2e32f817c"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.iizuka.lg.jp/site/bousai/23691.html",
+          "status": "reflected",
+          "reason": "今回の追加・更新に反映。",
+          "incident_ids": [
+            "review-20261023-d66bf30854a6"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.town.mizumaki.lg.jp/s026/20261014100340.html",
+          "status": "reflected",
+          "reason": "今回の追加・更新に反映。",
+          "incident_ids": [
+            "review-20261023-53af454f3cea"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.town.kawanishi.yamagata.jp/kurashi/bosai/kawanisi1014raiden.html",
+          "status": "unresolved",
+          "reason": "本文を取得したが、日付の裏付け・個人情報への具体的影響・既存事案との対応のいずれかを確定できていない。掲載判断の再照合対象。",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.matsue.lg.jp/material/files/group/5/z101403.pdf",
+          "status": "reflected",
+          "reason": "今回の追加・更新に反映。",
+          "incident_ids": [
+            "review-20261023-c7bb826eb905"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.trans-cosmos.co.jp/company/news/pdf/2026/261014.pdf",
+          "status": "reflected",
+          "reason": "今回の追加・更新に反映。",
+          "incident_ids": [
+            "review-20261023-57a038149f51"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.town.misato.akita.jp/archive/p20261014085213",
+          "status": "reflected",
+          "reason": "今回の追加・更新に反映。",
+          "incident_ids": [
+            "review-20261023-c3d82afd70f1"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://ssl4.eir-parts.net/doc/9278/ir_material10/287328/00.pdf",
+          "status": "unresolved",
+          "reason": "本文取得エラー。Remote end closed connection without response",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.daiwa.jp/",
+          "status": "unresolved",
+          "reason": "本文を取得したが、日付の裏付け・個人情報への具体的影響・既存事案との対応のいずれかを確定できていない。掲載判断の再照合対象。",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://mixi.co.jp/news/2026/1014/58033/",
+          "status": "reflected",
+          "reason": "今回の追加・更新に反映。",
+          "incident_ids": [
+            "review-20261023-c3c3585e2036"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://wanganmaxi-official.com/wanganmaxi6rrplus/jp/news/035.html",
+          "status": "unresolved",
+          "reason": "本文を取得したが、日付の裏付け・個人情報への具体的影響・既存事案との対応のいずれかを確定できていない。掲載判断の再照合対象。",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.hakuhodody-one.co.jp/news/2026/10/o2bryqh9y6/",
+          "status": "reflected",
+          "reason": "今回の追加・更新に反映。",
+          "incident_ids": [
+            "review-20261023-5127b28f9ce0"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.jun.co.jp/news/3_1/",
+          "status": "reflected",
+          "reason": "今回の追加・更新に反映。",
+          "incident_ids": [
+            "review-20261023-20a0d4c70425"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.keio.co.jp/news/update/announce/announce2026/pdf/20260928_dantaijoshaken.pdf",
+          "status": "unresolved",
+          "reason": "本文取得エラー。HTTP Error 503: Service Unavailable",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://corp.timescar.jp/mail/announce/faq.pdf?20261013",
+          "status": "related_or_excluded",
+          "reason": "タイムズカーFAQの別クエリURL。同じ資料。",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://jp.adventurekk.com/news/data-leak-call-center-notice/",
+          "status": "unresolved",
+          "reason": "本文を取得したが、日付の裏付け・個人情報への具体的影響・既存事案との対応のいずれかを確定できていない。掲載判断の再照合対象。",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://ssl4.eir-parts.net/doc/9278/tdnet/2894129/00.pdf",
+          "status": "unresolved",
+          "reason": "本文取得エラー。Remote end closed connection without response",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.bookoff.co.jp/info/news/2026/post_114.html",
+          "status": "unresolved",
+          "reason": "本文を取得したが、日付の裏付け・個人情報への具体的影響・既存事案との対応のいずれかを確定できていない。掲載判断の再照合対象。",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://jr-central.co.jp/news/release/_pdf/000046058.pdf",
+          "status": "unresolved",
+          "reason": "本文取得エラー。HTTP Error 404: Not Found",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://koikeya.co.jp/images/pdf/info_20261009.pdf",
+          "status": "unresolved",
+          "reason": "本文を取得したが、日付の裏付け・個人情報への具体的影響・既存事案との対応のいずれかを確定できていない。掲載判断の再照合対象。",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.unirita.co.jp/news/2026/media_20261013.html",
+          "status": "reflected",
+          "reason": "今回の追加・更新に反映。",
+          "incident_ids": [
+            "review-20261023-2bead1f06a87"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://communeinc.com/ja/news/2026oct13",
+          "status": "unresolved",
+          "reason": "本文の取得が不十分。タイトルのみ・PDF抽出不全等。",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.jun.co.jp/news/2/",
+          "status": "reflected",
+          "reason": "今回の追加・更新に反映。",
+          "incident_ids": [
+            "review-20261023-20a0d4c70425"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www2.jpx.co.jp/disc/30930/140120261013549468.pdf",
+          "status": "related_or_excluded",
+          "reason": "カインドオルの既存事案の第三報。",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://doppuri.kochi-tabi.jp/news/information.html?id=77",
+          "status": "reflected",
+          "reason": "今回の追加・更新に反映。",
+          "incident_ids": [
+            "review-20261023-9ccad55b3ad6"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://fds.or.jp/news/1091/",
+          "status": "reflected",
+          "reason": "今回の追加・更新に反映。",
+          "incident_ids": [
+            "review-20261023-5fa03317e6a3"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://skyticket.jp/news/maintenance/67616",
+          "status": "related_or_excluded",
+          "reason": "スカイチケットのメール復旧案内。新規の漏えいとは数えない。",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        }
+      ],
+      "limitations": [
+        "全件網羅を保証しない。10月23日当日中の後続公表は未収集。",
+        "集約サイトの新規参照先341URLは事案数ではない。unresolvedには同一事案の別URLや復旧告知も含み、未掲載被害件数とは一致しない。",
+        "HTTPエラー、JavaScriptによる本文表示、PDF抽出不全、公表日や既存事案との対応が未確定の参照先を残している。",
+        "利用組織別の記録数は独立した攻撃件数ではなく、対象人数は提供元や他組織と重複し得る。"
+      ]
     }
   ]
 }

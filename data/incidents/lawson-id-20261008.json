@@ -10,7 +10,7 @@
   "publication_kind": "initial",
   "occurred_on": "2026-09-12",
   "detected_on": "2026-10-07",
-  "updated_on": "2026-10-15",
+  "updated_on": "2026-10-23",
   "verification": "official",
   "incident_type": "attack",
   "leak_status": "confirmed",
@@ -43,11 +43,17 @@
       "type": "official",
       "title": "ローソンIDの個人情報漏えい",
       "published_on": "2026-10-08",
-      "checked_on": "2026-10-15"
+      "checked_on": "2026-10-23"
     }
   ],
-  "notes": "不正アクセス期間は9月12〜14日。アプリ予約の事案とは別記録。性別などは入力がある場合。",
-  "updates": [],
+  "notes": "不正アクセス期間は9月12〜14日。アプリ予約の事案とは別記録。性別などは入力がある場合。 停止していたローソンアプリ予約機能を10月19日に再開。アプリ更新が必要。漏えい件数の追加ではない。",
+  "updates": [
+    {
+      "date": "2026-10-19",
+      "summary": "停止していたローソンアプリ予約機能を10月19日に再開。アプリ更新が必要。漏えい件数の追加ではない。",
+      "source_index": 0
+    }
+  ],
   "vendor_research": {
     "checked_on": "2026-10-15",
     "result": "not_identified",

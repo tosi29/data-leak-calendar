@@ -1,0 +1,54 @@
+{
+  "id": "review-20261023-e496f3497902",
+  "organization": {
+    "name": "岐阜県（GIFU新事業共創チャレンジプログラム）",
+    "sector": "企業・団体"
+  },
+  "title": "Studioへの不正アクセスに伴う個人情報への影響",
+  "summary": "岐阜県（GIFU新事業共創チャレンジプログラム）が利用するStudioへの不正アクセスにより、登録情報が漏えいした可能性を公表。",
+  "published_on": "2026-10-19",
+  "first_published_on": null,
+  "publication_kind": "unknown",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-23",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者の不正アクセス。具体的な侵入手法は未公表。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 2,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "問い合わせ・申込フォームの対象情報"
+    }
+  ],
+  "data_types": [
+    "登録者の個人情報（項目の詳細は出典参照）"
+  ],
+  "related_vendor": "Studio",
+  "sources": [
+    {
+      "url": "https://www.pref.gifu.lg.jp/site/pressrelease/522624.html",
+      "type": "official",
+      "title": "Studioへの不正アクセスに伴う個人情報への影響",
+      "published_on": "2026-10-19",
+      "checked_on": "2026-10-23"
+    }
+  ],
+  "updates": [],
+  "notes": "共通サービスへの攻撃に関する利用組織の公表。提供元や他組織の対象規模と重複する可能性があり、独立した攻撃回数や被害人数として合算しない。フォーム送信数と人数は区別。実際の第三者取得の有無は調査中。 カレンダー日は公式ページで確認できた掲載・更新日。初回公表日とは限らない。",
+  "vendors": [
+    {
+      "name": "Studio",
+      "role": "service",
+      "detail": "当該公表に記載された利用サービスの提供元。",
+      "source_index": 0
+    }
+  ]
+}

@@ -10,7 +10,7 @@
   "publication_kind": "followup",
   "occurred_on": null,
   "detected_on": null,
-  "updated_on": "2026-10-15",
+  "updated_on": "2026-10-23",
   "verification": "official",
   "incident_type": "attack",
   "leak_status": "suspected",
@@ -49,10 +49,23 @@
       "title": "クラウドポータルの契約者登録情報への不正照会",
       "published_on": "2026-10-14",
       "checked_on": "2026-10-15"
+    },
+    {
+      "url": "https://www.idcf.jp/news/topics/20261018001",
+      "type": "official",
+      "title": "第6報でバックアップサービス再開を案内。スナップショット機能は停止継続し、被害ゾーン全体の復旧を示すものではない。",
+      "published_on": "2026-10-18",
+      "checked_on": "2026-10-23"
     }
   ],
-  "notes": "外部持ち出しの痕跡は未確認。被害4ゾーンの仮想サーバー内データは外部流出なしとの判断であり、ポータル登録情報への不正照会と区別する。障害対象495組織を漏えい規模に転用しない。10月14日は個人情報への影響を確認できた第5報の日付。",
-  "updates": [],
+  "notes": "外部持ち出しの痕跡は未確認。被害4ゾーンの仮想サーバー内データは外部流出なしとの判断であり、ポータル登録情報への不正照会と区別する。障害対象495組織を漏えい規模に転用しない。10月14日は個人情報への影響を確認できた第5報の日付。 第6報でバックアップサービス再開を案内。スナップショット機能は停止継続し、被害ゾーン全体の復旧を示すものではない。",
+  "updates": [
+    {
+      "date": "2026-10-18",
+      "summary": "第6報でバックアップサービス再開を案内。スナップショット機能は停止継続し、被害ゾーン全体の復旧を示すものではない。",
+      "source_index": 1
+    }
+  ],
   "vendor_research": {
     "checked_on": "2026-10-15",
     "result": "not_identified",
@@ -60,6 +73,10 @@
     "source_checks": [
       {
         "source_index": 0,
+        "status": "reviewed"
+      },
+      {
+        "source_index": 1,
         "status": "reviewed"
       }
     ]

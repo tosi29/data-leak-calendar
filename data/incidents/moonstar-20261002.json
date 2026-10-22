@@ -8,18 +8,18 @@
   "published_on": "2026-10-02",
   "occurred_on": null,
   "detected_on": null,
-  "updated_on": "2026-10-15",
+  "updated_on": "2026-10-23",
   "first_published_on": "2026-03-26",
   "publication_kind": "followup",
   "verification": "official",
-  "leak_status": "suspected",
-  "summary": "オンラインストア顧客情報がシステムサーバーへの不正アクセスで取得された可能性を続報で公表。",
+  "leak_status": "confirmed",
+  "summary": "顧客しか知り得ない注文情報を含むなりすましメールから情報窃取と判断。影響対象は最大593,000人で、全員の流出確定とは区別。",
   "impact": [
     {
-      "count": null,
+      "count": 593000,
       "unit": "people",
-      "qualifier": "unknown",
-      "description": "対象規模は確認した出典に記載なし・調査中"
+      "qualifier": "maximum",
+      "description": "影響を受けた可能性のある顧客の上限"
     }
   ],
   "data_types": [
@@ -42,10 +42,23 @@
       "title": "【重要】弊社システムサーバーに対する不正アクセスの疑いに関するお知らせ<続報> | INFORMATION | MOONSTAR",
       "published_on": "2026-10-02",
       "checked_on": "2026-10-15"
+    },
+    {
+      "url": "https://www.moonstar.co.jp/information/2026/10/gg.html",
+      "type": "official",
+      "title": "第3報で最大約593,000人を対象と公表。なりすましメールに過去の注文情報が含まれ、顧客情報を窃取されたと判断。",
+      "published_on": "2026-10-15",
+      "checked_on": "2026-10-23"
     }
   ],
-  "notes": "3月26日の初報に対する10月2日の続報。",
-  "updates": [],
+  "notes": "3月26日の初報に対する10月2日の続報。 第3報で最大約593,000人を対象と公表。なりすましメールに過去の注文情報が含まれ、顧客情報を窃取されたと判断。",
+  "updates": [
+    {
+      "date": "2026-10-15",
+      "summary": "第3報で最大593,000人を対象と公表。なりすましメールに過去の注文情報が含まれ、顧客情報を窃取されたと判断。",
+      "source_index": 1
+    }
+  ],
   "incident_type": "attack",
   "vendor_research": {
     "checked_on": "2026-10-15",
@@ -54,6 +67,10 @@
     "source_checks": [
       {
         "source_index": 0,
+        "status": "reviewed"
+      },
+      {
+        "source_index": 1,
         "status": "reviewed"
       }
     ]

@@ -5,15 +5,15 @@
     "sector": "企業・団体"
   },
   "title": "メール配信基盤への不正アクセスに伴う情報漏えいの可能性",
-  "summary": "委託先が利用するIDCフロンティアの環境への不正アクセスにより、メール配信に用いる情報が漏えいした可能性。実際の漏えいは未確認。",
+  "summary": "IDCフロンティア関連で疑われたメールアドレス漏えいについて、10月16日の調査結果で閲覧・漏えいがなかったと結論。Studio関連の別事案とは区別する。",
   "published_on": "2026-10-13",
   "first_published_on": "2026-10-13",
   "publication_kind": "initial",
   "occurred_on": null,
   "detected_on": null,
-  "updated_on": "2026-10-20",
+  "updated_on": "2026-10-23",
   "verification": "official",
-  "leak_status": "suspected",
+  "leak_status": "ruled_out",
   "incident_type": "attack",
   "cause": {
     "category": "unauthorized_access",
@@ -39,8 +39,21 @@
       "title": "メール配信基盤への不正アクセスに伴う情報漏えいの可能性",
       "published_on": "2026-10-13",
       "checked_on": "2026-10-20"
+    },
+    {
+      "url": "https://www.skyperfectjsat.space/jp/news/20261016_2",
+      "type": "official",
+      "title": "業務委託先と行った詳細調査の結果、メールアドレスの閲覧・漏えいはなかったと公表。",
+      "published_on": "2026-10-16",
+      "checked_on": "2026-10-23"
     }
   ],
-  "updates": [],
-  "notes": "配信基盤提供元や他の利用組織の件数との重複を含み得るため合算しない。"
+  "updates": [
+    {
+      "date": "2026-10-16",
+      "summary": "業務委託先と行った詳細調査の結果、メールアドレスの閲覧・漏えいはなかったと公表。",
+      "source_index": 1
+    }
+  ],
+  "notes": "配信基盤提供元や他の利用組織の件数との重複を含み得るため合算しない。 業務委託先と行った詳細調査の結果、メールアドレスの閲覧・漏えいはなかったと公表。"
 }

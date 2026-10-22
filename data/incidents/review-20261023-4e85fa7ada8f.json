@@ -1,0 +1,73 @@
+{
+  "id": "review-20261023-4e85fa7ada8f",
+  "organization": {
+    "name": "長岡市（移住体験ツアー・キャンプ場）",
+    "sector": "企業・団体"
+  },
+  "title": "Studioへの不正アクセスに伴う個人情報への影響",
+  "summary": "長岡市（移住体験ツアー・キャンプ場）のフォーム情報がStudioへの不正アクセスにより漏えいした可能性。事業別の公表を同一組織の1事案に統合。",
+  "published_on": "2026-10-19",
+  "first_published_on": null,
+  "publication_kind": "unknown",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-23",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者の不正アクセス。具体的な侵入手法は未公表。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 5,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "移住体験ツアーのフォーム情報"
+    },
+    {
+      "count": 212,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "長岡市（和島オートキャンプ場・うまみち森林公園）：問い合わせ・申込フォームの対象情報"
+    }
+  ],
+  "data_types": [
+    "登録者の個人情報（項目の詳細は出典参照）"
+  ],
+  "related_vendor": "Studio",
+  "sources": [
+    {
+      "url": "https://www.city.nagaoka.niigata.jp/shisei/cate02/houdou-shiryou/file/20261019-05.pdf",
+      "type": "official",
+      "title": "Studioへの不正アクセスに伴う個人情報への影響",
+      "published_on": "2026-10-19",
+      "checked_on": "2026-10-23"
+    },
+    {
+      "url": "https://www.city.nagaoka.niigata.jp/shisei/cate02/houdou-shiryou/file/20261021-03.pdf",
+      "type": "official",
+      "title": "Studioへの不正アクセスに伴う個人情報への影響",
+      "published_on": "2026-10-21",
+      "checked_on": "2026-10-23"
+    }
+  ],
+  "updates": [
+    {
+      "date": "2026-10-21",
+      "summary": "長岡市（和島オートキャンプ場・うまみち森林公園）の対象範囲も確認し統合。",
+      "source_index": 1
+    }
+  ],
+  "notes": "共通サービスへの攻撃に関する利用組織の公表。提供元や他組織の対象規模と重複する可能性があり、独立した攻撃回数や被害人数として合算しない。フォーム送信数と人数は区別。実際の第三者取得の有無は調査中。 カレンダー日は公式ページで確認できた掲載・更新日。初回公表日とは限らない。 各事業間で同じ人の重複があり得るため人数を合算しない。",
+  "vendors": [
+    {
+      "name": "Studio",
+      "role": "service",
+      "detail": "当該公表に記載された利用サービスの提供元。",
+      "source_index": 0
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "id": "review-20261023-c2f022857816",
+  "organization": {
+    "name": "大阪府（障害者就業・生活支援センター）",
+    "sector": "企業・団体"
+  },
+  "title": "委託先のメール誤送信",
+  "summary": "8月4日、2人分の情報を誤ったメーリングリストへ送信。10月16日に公表。",
+  "published_on": "2026-10-16",
+  "first_published_on": "2026-10-16",
+  "publication_kind": "initial",
+  "occurred_on": "2026-08-04",
+  "detected_on": null,
+  "updated_on": "2026-10-23",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "accident",
+  "cause": {
+    "category": "misdelivery",
+    "detail": "宛先の確認不足と使用しないメーリングリストの残存。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 2,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "利用者と企業担当者"
+    }
+  ],
+  "data_types": [
+    "利用者の苗字・勤務状況",
+    "企業担当者の氏名・所属"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.pref.osaka.lg.jp/hodo/fumin/o090060/prs_51175.html",
+      "type": "official",
+      "title": "委託先のメール誤送信",
+      "published_on": "2026-10-16",
+      "checked_on": "2026-10-23"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

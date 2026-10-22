@@ -1,0 +1,58 @@
+{
+  "id": "review-20261023-57a038149f51",
+  "organization": {
+    "name": "トランスコスモス",
+    "sector": "企業・団体"
+  },
+  "title": "ApplyNowへの不正アクセスに伴う個人情報への影響",
+  "summary": "動画面接サービスへの不正アクセスにより、採用応募者4,682人の情報漏えいが判明。",
+  "published_on": "2026-10-14",
+  "first_published_on": "2026-10-14",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-09-16",
+  "updated_on": "2026-10-23",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "vulnerability",
+    "detail": "提供元のデータ分析ツールの脆弱性を悪用した不正アクセス。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 4682,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "コールセンター契約社員採用の応募者"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "メールアドレス",
+    "電話番号",
+    "生年月日",
+    "性別"
+  ],
+  "related_vendor": "ApplyNow",
+  "sources": [
+    {
+      "url": "https://www.trans-cosmos.co.jp/company/news/pdf/2026/261014.pdf",
+      "type": "official",
+      "title": "ApplyNowへの不正アクセスに伴う個人情報への影響",
+      "published_on": "2026-10-14",
+      "checked_on": "2026-10-23"
+    }
+  ],
+  "updates": [],
+  "notes": "共通サービスへの攻撃に関する利用組織の公表。提供元や他組織の対象規模と重複する可能性があり、独立した攻撃回数や被害人数として合算しない。",
+  "vendors": [
+    {
+      "name": "ApplyNow",
+      "role": "service",
+      "detail": "当該公表に記載された利用サービスの提供元。",
+      "source_index": 0
+    }
+  ]
+}
