@@ -8,7 +8,7 @@
   "published_on": "2026-09-27",
   "occurred_on": null,
   "detected_on": null,
-  "updated_on": "2026-10-15",
+  "updated_on": "2026-10-23",
   "leak_status": "suspected",
   "summary": "配信停止中のメールアドレスを保管したサーバーに不正アクセスがあり、閲覧・取得された可能性を公表。",
   "impact": [
@@ -34,10 +34,23 @@
       "title": "メトポ会員向けサービスにおける不正アクセス（PDF）",
       "published_on": "2026-09-27",
       "checked_on": "2026-10-15"
+    },
+    {
+      "url": "https://www.to-me-card.jp/important/202609-01/index.html",
+      "type": "official",
+      "title": "10月15日更新のTo Me CARD公式告知も確認。配信停止中のメールアドレス約59,000件が対象で、他の会員情報は対象サーバーに含まれない。",
+      "published_on": "2026-10-15",
+      "checked_on": "2026-10-23"
     }
   ],
-  "notes": "対象サーバーにはメールアドレス以外の会員情報は含まれないと発表。",
-  "updates": [],
+  "notes": "対象サーバーにはメールアドレス以外の会員情報は含まれないと発表。 10月15日更新のTo Me CARD公式告知も確認。配信停止中のメールアドレス約59,000件が対象で、他の会員情報は対象サーバーに含まれない。",
+  "updates": [
+    {
+      "date": "2026-10-15",
+      "summary": "10月15日更新のTo Me CARD公式告知も確認。配信停止中のメールアドレス約59,000件が対象で、他の会員情報は対象サーバーに含まれない。",
+      "source_index": 1
+    }
+  ],
   "first_published_on": "2026-09-27",
   "publication_kind": "initial",
   "verification": "official",
@@ -50,6 +63,10 @@
     "source_checks": [
       {
         "source_index": 0,
+        "status": "reviewed"
+      },
+      {
+        "source_index": 1,
         "status": "reviewed"
       }
     ]

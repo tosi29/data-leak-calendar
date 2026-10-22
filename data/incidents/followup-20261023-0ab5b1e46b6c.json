@@ -1,0 +1,58 @@
+{
+  "id": "followup-20261023-0ab5b1e46b6c",
+  "organization": {
+    "name": "サウスゲートホテル沖縄",
+    "sector": "企業・団体"
+  },
+  "title": "手間いらず（TEMAIRAZU）への不正アクセスに伴う個人情報への影響",
+  "summary": "サウスゲートホテル沖縄が利用する手間いらず（TEMAIRAZU）への不正アクセスにより、登録・申込情報が漏えいした可能性を公表。",
+  "published_on": "2026-10-15",
+  "first_published_on": "2026-10-15",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-23",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。具体的な侵入手法はこの記録では未確定。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "確認した公表資料では対象規模を確定できない"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "電話番号",
+    "メールアドレス",
+    "宿泊日程・予約番号・料金・支払方法"
+  ],
+  "related_vendor": "手間いらず（TEMAIRAZU）",
+  "sources": [
+    {
+      "url": "https://southgatehotel.jp/topics/important-apology-and-notice-regarding-unauthorized-access-to-reservation-information-%e3%80%90%e9%87%8d%e8%a6%81%e3%80%91%e3%81%94%e4%ba%88%e7%b4%84%e6%83%85%e5%a0%b1%e3%81%b8%e3%81%ae%e4%b8%8d/",
+      "type": "official",
+      "title": "手間いらず（TEMAIRAZU）への不正アクセスに伴う個人情報への影響",
+      "published_on": "2026-10-15",
+      "checked_on": "2026-10-23"
+    }
+  ],
+  "updates": [],
+  "notes": "公式HTMLのarticle:published_timeは2026-10-15T05:58:55+00:00。対象は9月21日までの予約で同日以降の宿泊。カード情報は対象外。偽の決済要求メッセージを確認。 共通サービス提供元や他の利用組織の公表規模と重複し得るため、攻撃回数・被害人数として合算しない。",
+  "vendors": [
+    {
+      "name": "手間いらず（TEMAIRAZU）",
+      "role": "service",
+      "detail": "公式資料に示された利用サービスの提供元。",
+      "source_index": 0
+    }
+  ]
+}

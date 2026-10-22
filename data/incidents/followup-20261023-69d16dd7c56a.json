@@ -1,0 +1,54 @@
+{
+  "id": "followup-20261023-69d16dd7c56a",
+  "organization": {
+    "name": "青森県（関係人口創出・拡大イベント）",
+    "sector": "企業・団体"
+  },
+  "title": "Studioへの不正アクセスに伴う個人情報への影響",
+  "summary": "青森県（関係人口創出・拡大イベント）が利用するStudioへの不正アクセスにより、登録・申込情報が漏えいした可能性を公表。",
+  "published_on": "2026-10-21",
+  "first_published_on": null,
+  "publication_kind": "unknown",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-23",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。具体的な侵入手法はこの記録では未確定。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": 206,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "イベント申込情報"
+    }
+  ],
+  "data_types": [
+    "登録者の個人情報（項目は出典参照）"
+  ],
+  "related_vendor": "Studio",
+  "sources": [
+    {
+      "url": "https://www.pref.aomori.lg.jp/release/2026/81624.html",
+      "type": "official",
+      "title": "Studioへの不正アクセスに伴う個人情報への影響",
+      "published_on": "2026-10-21",
+      "checked_on": "2026-10-23"
+    }
+  ],
+  "updates": [],
+  "notes": "受託者はデーリー東北新聞社。直接取得は403だったがWeb閲覧経路で公式本文を確認。 カレンダー日は公式資料の掲載・更新日。初回公表日は未確定。 共通サービス提供元や他の利用組織の公表規模と重複し得るため、攻撃回数・被害人数として合算しない。",
+  "vendors": [
+    {
+      "name": "Studio",
+      "role": "service",
+      "detail": "公式資料に示された利用サービスの提供元。",
+      "source_index": 0
+    }
+  ]
+}

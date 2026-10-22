@@ -1,0 +1,54 @@
+{
+  "id": "followup-20261023-9bad5ad792e0",
+  "organization": {
+    "name": "バンダイナムコエクスペリエンス（湾岸ミッドナイト アーケードポータル）",
+    "sector": "企業・団体"
+  },
+  "title": "コミューンへの不正アクセスに伴う個人情報への影響",
+  "summary": "バンダイナムコエクスペリエンス（湾岸ミッドナイト アーケードポータル）が利用するコミューンへの不正アクセスにより、登録・申込情報が漏えいした可能性を公表。",
+  "published_on": "2026-10-14",
+  "first_published_on": "2026-10-09",
+  "publication_kind": "followup",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-23",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。具体的な侵入手法はこの記録では未確定。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": 1694,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "会員情報"
+    }
+  ],
+  "data_types": [
+    "登録者の個人情報（項目は出典参照）"
+  ],
+  "related_vendor": "コミューン",
+  "sources": [
+    {
+      "url": "https://wanganmaxi-official.com/wanganmaxi6rrplus/jp/news/035.html",
+      "type": "official",
+      "title": "コミューンへの不正アクセスに伴う個人情報への影響",
+      "published_on": "2026-10-14",
+      "checked_on": "2026-10-23"
+    }
+  ],
+  "updates": [],
+  "notes": " 共通サービス提供元や他の利用組織の公表規模と重複し得るため、攻撃回数・被害人数として合算しない。 10月14日のメンテナンス継続更新を掲載。",
+  "vendors": [
+    {
+      "name": "コミューン",
+      "role": "service",
+      "detail": "公式資料に示された利用サービスの提供元。",
+      "source_index": 0
+    }
+  ]
+}

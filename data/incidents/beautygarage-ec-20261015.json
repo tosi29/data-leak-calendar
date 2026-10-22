@@ -11,7 +11,7 @@
   "publication_kind": "initial",
   "occurred_on": null,
   "detected_on": null,
-  "updated_on": "2026-10-21",
+  "updated_on": "2026-10-23",
   "verification": "official",
   "leak_status": "confirmed",
   "incident_type": "attack",
@@ -48,6 +48,13 @@
       "title": "アイラッシュガレージ第2報で侵入経路遮断と監視強化、EC通常利用を案内。",
       "published_on": "2026-10-20",
       "checked_on": "2026-10-21"
+    },
+    {
+      "url": "https://www.beautygarage.co.jp/wp/wp-content/uploads/news_unauthorizedaccess20261020.pdf",
+      "type": "official",
+      "title": "第2報で侵入経路遮断・監視強化を実施済みと説明。2つのECサイトは通常利用可能。新たな流出件数の公表ではない。",
+      "published_on": "2026-10-20",
+      "checked_on": "2026-10-23"
     }
   ],
   "updates": [
@@ -55,7 +62,12 @@
       "date": "2026-10-20",
       "summary": "アイラッシュガレージ第2報で侵入経路遮断と監視強化、EC通常利用を案内。",
       "source_index": 1
+    },
+    {
+      "date": "2026-10-20",
+      "summary": "第2報で侵入経路遮断・監視強化を実施済みと説明。2つのECサイトは通常利用可能。新たな流出件数の公表ではない。",
+      "source_index": 2
     }
   ],
-  "notes": "2月公表のカード情報漏洩懸念とは別事案。今回、決済情報の漏洩は未確認。 10月20日の子会社続報は同一事案へ統合。利用再開は流出情報の回収を意味しない。"
+  "notes": "2月公表のカード情報漏洩懸念とは別事案。今回、決済情報の漏洩は未確認。 10月20日の子会社続報は同一事案へ統合。利用再開は流出情報の回収を意味しない。 第2報で侵入経路遮断・監視強化を実施済みと説明。2つのECサイトは通常利用可能。新たな流出件数の公表ではない。"
 }

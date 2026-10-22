@@ -1,0 +1,56 @@
+{
+  "id": "followup-20261023-cc7e85ce7d75",
+  "organization": {
+    "name": "MAPPA EXPO運営事務局",
+    "sector": "企業・団体"
+  },
+  "title": "Studioへの不正アクセスに伴う個人情報への影響",
+  "summary": "MAPPA EXPO運営事務局が利用するStudioへの不正アクセスにより、登録・申込情報が漏えいした可能性を公表。",
+  "published_on": "2026-10-17",
+  "first_published_on": "2026-10-17",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-23",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。具体的な侵入手法はこの記録では未確定。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "確認した公表資料では対象規模を確定できない"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "メールアドレス",
+    "フォーム入力内容"
+  ],
+  "related_vendor": "Studio",
+  "sources": [
+    {
+      "url": "https://expo.mappa.co.jp/infomation/QVIAWjFu",
+      "type": "official",
+      "title": "Studioへの不正アクセスに伴う個人情報への影響",
+      "published_on": "2026-10-17",
+      "checked_on": "2026-10-23"
+    }
+  ],
+  "updates": [],
+  "notes": "公式ページ内の表示用JSONに含まれる告知本文を確認。公開日時publishedAtを日本時間で確認（作成日時とは区別）。 共通サービス提供元や他の利用組織の公表規模と重複し得るため、攻撃回数・被害人数として合算しない。",
+  "vendors": [
+    {
+      "name": "Studio",
+      "role": "service",
+      "detail": "公式資料に示された利用サービスの提供元。",
+      "source_index": 0
+    }
+  ]
+}

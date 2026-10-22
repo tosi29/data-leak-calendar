@@ -11,7 +11,7 @@
   "publication_kind": "initial",
   "occurred_on": null,
   "detected_on": null,
-  "updated_on": "2026-10-21",
+  "updated_on": "2026-10-23",
   "verification": "secondary",
   "leak_status": "suspected",
   "incident_type": "attack",
@@ -39,8 +39,21 @@
       "title": "ScanNetSecurity：唐津市の委託先への不正アクセス",
       "published_on": "2026-10-19",
       "checked_on": "2026-10-21"
+    },
+    {
+      "url": "https://www.city.karatsu.lg.jp/page/52939.html",
+      "type": "official",
+      "title": "10月19日17時に情報メールの新規会員受付を再開。",
+      "published_on": "2026-10-19",
+      "checked_on": "2026-10-23"
     }
   ],
-  "updates": [],
-  "notes": "ScanNetSecurityの公開本文が10月13日発表と明記。公式現行ページの10月19日は復旧案内であり初報日にしない。登録数と流出範囲の一致は未確認のため件数不明。"
+  "updates": [
+    {
+      "date": "2026-10-19",
+      "summary": "10月19日17時に情報メールの新規会員受付を再開。",
+      "source_index": 1
+    }
+  ],
+  "notes": "ScanNetSecurityの公開本文が10月13日発表と明記。公式現行ページの10月19日は復旧案内であり初報日にしない。登録数と流出範囲の一致は未確認のため件数不明。 10月19日17時に情報メールの新規会員受付を再開。"
 }

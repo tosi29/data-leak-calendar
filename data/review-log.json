@@ -4932,5 +4932,258 @@
     "source_urls": [
       "https://aeonretail.com/Page/info_20260806_02.aspx"
     ]
+  },
+  {
+    "candidate": {
+      "id": "fortnight-pending-13",
+      "organization": "Schoo",
+      "reported_on": "2026-10-23",
+      "verification": "pending",
+      "reference_url": "https://corp.schoo.jp/post/Hx0CZZOQ",
+      "reviewed_on": "2026-10-23",
+      "checked_urls": [
+        "https://corp.schoo.jp/post/Hx0CZZOQ"
+      ],
+      "note": "集約サイトから告知を発見したが、取得結果はページタイトル等のみで本文を確認できない。公表日・自組織の個人情報への影響範囲は未確定。reported_onは今回の発見日で、初回公表日ではない。"
+    },
+    "reviewed_on": "2026-10-23",
+    "resolution": "published",
+    "incident_ids": [
+      "followup-20261023-9d5b609e9384"
+    ],
+    "reason": "ページ内の公開JSONから告知本文とpublishedAtを確認。日本時間の公表日と対象範囲を裏付け、確認待ちから掲載へ移動。",
+    "source_urls": [
+      "https://corp.schoo.jp/post/Hx0CZZOQ"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "fortnight-pending-22",
+      "organization": "Medii",
+      "reported_on": "2026-10-23",
+      "verification": "pending",
+      "reference_url": "https://medii.jp/news/20261020",
+      "reviewed_on": "2026-10-23",
+      "checked_urls": [
+        "https://medii.jp/news/20261020"
+      ],
+      "note": "集約サイトから告知を発見したが、取得結果はページタイトル等のみで本文を確認できない。公表日・自組織の個人情報への影響範囲は未確定。reported_onは今回の発見日で、初回公表日ではない。"
+    },
+    "reviewed_on": "2026-10-23",
+    "resolution": "published",
+    "incident_ids": [
+      "followup-20261023-79db500d40a2"
+    ],
+    "reason": "ページ内の公開JSONから告知本文とpublishedAtを確認。日本時間の公表日と対象範囲を裏付け、確認待ちから掲載へ移動。",
+    "source_urls": [
+      "https://medii.jp/news/20261020"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "fortnight-pending-41",
+      "organization": "X Mile",
+      "reported_on": "2026-10-23",
+      "verification": "pending",
+      "reference_url": "https://www.xmile.co.jp/news/release328",
+      "reviewed_on": "2026-10-23",
+      "checked_urls": [
+        "https://www.xmile.co.jp/news/release328"
+      ],
+      "note": "集約サイトから告知を発見したが、取得結果はページタイトル等のみで本文を確認できない。公表日・自組織の個人情報への影響範囲は未確定。reported_onは今回の発見日で、初回公表日ではない。"
+    },
+    "reviewed_on": "2026-10-23",
+    "resolution": "published",
+    "incident_ids": [
+      "followup-20261023-ea09927bdb8a"
+    ],
+    "reason": "ページ内の公開JSONから告知本文とpublishedAtを確認。日本時間の公表日と対象範囲を裏付け、確認待ちから掲載へ移動。",
+    "source_urls": [
+      "https://www.xmile.co.jp/news/release328"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "fortnight-pending-43",
+      "organization": "福岡コンベンションセンター",
+      "reported_on": "2026-10-23",
+      "verification": "pending",
+      "reference_url": "https://www.marinemesse.or.jp/news/eXnelHyr",
+      "reviewed_on": "2026-10-23",
+      "checked_urls": [
+        "https://www.marinemesse.or.jp/news/eXnelHyr"
+      ],
+      "note": "集約サイトから告知を発見したが、取得結果はページタイトル等のみで本文を確認できない。公表日・自組織の個人情報への影響範囲は未確定。reported_onは今回の発見日で、初回公表日ではない。"
+    },
+    "reviewed_on": "2026-10-23",
+    "resolution": "published",
+    "incident_ids": [
+      "followup-20261023-edce1926075b"
+    ],
+    "reason": "ページ内の公開JSONから告知本文とpublishedAtを確認。日本時間の公表日と対象範囲を裏付け、確認待ちから掲載へ移動。",
+    "source_urls": [
+      "https://www.marinemesse.or.jp/news/eXnelHyr"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "fortnight-pending-50",
+      "organization": "リンクス",
+      "reported_on": "2026-10-23",
+      "verification": "pending",
+      "reference_url": "https://www.linkx.dev/news/studio-incident",
+      "reviewed_on": "2026-10-23",
+      "checked_urls": [
+        "https://www.linkx.dev/news/studio-incident"
+      ],
+      "note": "集約サイトから告知を発見したが、取得結果はページタイトル等のみで本文を確認できない。公表日・自組織の個人情報への影響範囲は未確定。reported_onは今回の発見日で、初回公表日ではない。"
+    },
+    "reviewed_on": "2026-10-23",
+    "resolution": "published",
+    "incident_ids": [
+      "followup-20261023-bd975cc8227a"
+    ],
+    "reason": "ページ内の公開JSONから告知本文とpublishedAtを確認。日本時間の公表日と対象範囲を裏付け、確認待ちから掲載へ移動。",
+    "source_urls": [
+      "https://www.linkx.dev/news/studio-incident"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "fortnight-pending-52",
+      "organization": "ふるさと全国県人会まつり2026",
+      "reported_on": "2026-10-23",
+      "verification": "pending",
+      "reference_url": "https://kenjinkai-matsuri.com/NnfhWpxP/1u2nmIA1",
+      "reviewed_on": "2026-10-23",
+      "checked_urls": [
+        "https://kenjinkai-matsuri.com/NnfhWpxP/1u2nmIA1"
+      ],
+      "note": "集約サイトから告知を発見したが、取得結果はページタイトル等のみで本文を確認できない。公表日・自組織の個人情報への影響範囲は未確定。reported_onは今回の発見日で、初回公表日ではない。"
+    },
+    "reviewed_on": "2026-10-23",
+    "resolution": "published",
+    "incident_ids": [
+      "followup-20261023-6e651421eea2"
+    ],
+    "reason": "ページ内の公開JSONから告知本文とpublishedAtを確認。日本時間の公表日と対象範囲を裏付け、確認待ちから掲載へ移動。",
+    "source_urls": [
+      "https://kenjinkai-matsuri.com/NnfhWpxP/1u2nmIA1"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "fortnight-pending-56",
+      "organization": "any",
+      "reported_on": "2026-10-23",
+      "verification": "pending",
+      "reference_url": "https://anyinc.jp/news/20261019",
+      "reviewed_on": "2026-10-23",
+      "checked_urls": [
+        "https://anyinc.jp/news/20261019"
+      ],
+      "note": "集約サイトから告知を発見したが、取得結果はページタイトル等のみで本文を確認できない。公表日・自組織の個人情報への影響範囲は未確定。reported_onは今回の発見日で、初回公表日ではない。"
+    },
+    "reviewed_on": "2026-10-23",
+    "resolution": "published",
+    "incident_ids": [
+      "followup-20261023-c35688805a2f"
+    ],
+    "reason": "ページ内の公開JSONから告知本文とpublishedAtを確認。日本時間の公表日と対象範囲を裏付け、確認待ちから掲載へ移動。",
+    "source_urls": [
+      "https://anyinc.jp/news/20261019"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "fortnight-pending-59",
+      "organization": "STATION Ai",
+      "reported_on": "2026-10-23",
+      "verification": "pending",
+      "reference_url": "https://stationai.co.jp/news/mhv1CXpZ",
+      "reviewed_on": "2026-10-23",
+      "checked_urls": [
+        "https://stationai.co.jp/news/mhv1CXpZ"
+      ],
+      "note": "集約サイトから告知を発見したが、取得結果はページタイトル等のみで本文を確認できない。公表日・自組織の個人情報への影響範囲は未確定。reported_onは今回の発見日で、初回公表日ではない。"
+    },
+    "reviewed_on": "2026-10-23",
+    "resolution": "published",
+    "incident_ids": [
+      "followup-20261023-aa6a7e363784"
+    ],
+    "reason": "ページ内の公開JSONから告知本文とpublishedAtを確認。日本時間の公表日と対象範囲を裏付け、確認待ちから掲載へ移動。",
+    "source_urls": [
+      "https://stationai.co.jp/news/mhv1CXpZ"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "fortnight-pending-60",
+      "organization": "アルク社会保険労務士法人",
+      "reported_on": "2026-10-23",
+      "verification": "pending",
+      "reference_url": "https://arcsr.jp/info/024",
+      "reviewed_on": "2026-10-23",
+      "checked_urls": [
+        "https://arcsr.jp/info/024"
+      ],
+      "note": "集約サイトから告知を発見したが、取得結果はページタイトル等のみで本文を確認できない。公表日・自組織の個人情報への影響範囲は未確定。reported_onは今回の発見日で、初回公表日ではない。"
+    },
+    "reviewed_on": "2026-10-23",
+    "resolution": "published",
+    "incident_ids": [
+      "followup-20261023-08646f8f649d"
+    ],
+    "reason": "ページ内の公開JSONから告知本文とpublishedAtを確認。日本時間の公表日と対象範囲を裏付け、確認待ちから掲載へ移動。",
+    "source_urls": [
+      "https://arcsr.jp/info/024"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "fortnight-pending-63",
+      "organization": "ナッジ",
+      "reported_on": "2026-10-23",
+      "verification": "pending",
+      "reference_url": "https://nudge.works/news/20261017",
+      "reviewed_on": "2026-10-23",
+      "checked_urls": [
+        "https://nudge.works/news/20261017"
+      ],
+      "note": "集約サイトから告知を発見したが、取得結果はページタイトル等のみで本文を確認できない。公表日・自組織の個人情報への影響範囲は未確定。reported_onは今回の発見日で、初回公表日ではない。"
+    },
+    "reviewed_on": "2026-10-23",
+    "resolution": "published",
+    "incident_ids": [
+      "followup-20261023-22031ea78d3e"
+    ],
+    "reason": "ページ内の公開JSONから告知本文とpublishedAtを確認。日本時間の公表日と対象範囲を裏付け、確認待ちから掲載へ移動。",
+    "source_urls": [
+      "https://nudge.works/news/20261017"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "fortnight-pending-64",
+      "organization": "MAPPA EXPO",
+      "reported_on": "2026-10-23",
+      "verification": "pending",
+      "reference_url": "https://expo.mappa.co.jp/infomation/QVIAWjFu",
+      "reviewed_on": "2026-10-23",
+      "checked_urls": [
+        "https://expo.mappa.co.jp/infomation/QVIAWjFu"
+      ],
+      "note": "集約サイトから告知を発見したが、取得結果はページタイトル等のみで本文を確認できない。公表日・自組織の個人情報への影響範囲は未確定。reported_onは今回の発見日で、初回公表日ではない。"
+    },
+    "reviewed_on": "2026-10-23",
+    "resolution": "published",
+    "incident_ids": [
+      "followup-20261023-cc7e85ce7d75"
+    ],
+    "reason": "ページ内の公開JSONから告知本文とpublishedAtを確認。日本時間の公表日と対象範囲を裏付け、確認待ちから掲載へ移動。",
+    "source_urls": [
+      "https://expo.mappa.co.jp/infomation/QVIAWjFu"
+    ]
   }
 ]

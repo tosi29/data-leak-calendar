@@ -8,7 +8,7 @@
   "published_on": "2026-10-06",
   "occurred_on": "2026-10-04",
   "detected_on": "2026-10-04",
-  "updated_on": "2026-10-15",
+  "updated_on": "2026-10-23",
   "first_published_on": "2026-10-06",
   "publication_kind": "initial",
   "verification": "official",
@@ -40,10 +40,23 @@
       "title": "ニモカ：個人情報に関する公表資料",
       "published_on": "2026-10-06",
       "checked_on": "2026-10-15"
+    },
+    {
+      "url": "https://www.nimoca.jp/news/detail/109",
+      "type": "official",
+      "title": "安全性確認と対策実施を経て利用履歴照会サービスの再開を案内。パスワードが漏えいした事実はないと説明。",
+      "published_on": "2026-10-15",
+      "checked_on": "2026-10-23"
     }
   ],
-  "notes": "",
-  "updates": [],
+  "notes": " 安全性確認と対策実施を経て利用履歴照会サービスの再開を案内。パスワードが漏えいした事実はないと説明。",
+  "updates": [
+    {
+      "date": "2026-10-15",
+      "summary": "安全性確認と対策実施を経て利用履歴照会サービスの再開を案内。パスワードが漏えいした事実はないと説明。",
+      "source_index": 1
+    }
+  ],
   "incident_type": "attack",
   "vendor_research": {
     "checked_on": "2026-10-15",
@@ -52,6 +65,10 @@
     "source_checks": [
       {
         "source_index": 0,
+        "status": "reviewed"
+      },
+      {
+        "source_index": 1,
         "status": "reviewed"
       }
     ]

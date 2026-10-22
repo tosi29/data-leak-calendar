@@ -220,7 +220,9 @@ Security NEXT、漏えいナビの日別一覧（10〜21日）、ITmedia、Legal
 | 2026-10-22 | 私のアクション！未来のNAGANO創造県民会議 | suspected | [公式](https://www.nagano-action.jp/topics/710/) |
 | 2026-10-22 | 鹿児島市スポーツ振興協会 | suspected | [公式](https://www.kago-spo.or.jp/important/29890/) |
 
-## 未解決の参照先
+## 未解決の参照先（前回点検時点）
+
+その後の[継続確認](research-2026-10-23-followup.md)で145 URL中92 URLを解消し、残りは53 URL。以下の表は前回時点の履歴です。
 
 以下は「漏えいがなかった」判定ではない。日付等が確定できないものをカレンダーへ推測で追加しないため、再確認対象として保持した。
 

@@ -1,0 +1,46 @@
+{
+  "id": "followup-20261023-c2c29f289f62",
+  "organization": {
+    "name": "鎌倉市（住民協定周知事務）",
+    "sector": "企業・団体"
+  },
+  "title": "個人情報流出事案の追加調査結果",
+  "summary": "住民協定資料の誤公開・流出事案について、追加調査報告書を公表。2024年の誤公開と2025年の流出確認に関する続報。",
+  "published_on": "2026-10-20",
+  "first_published_on": "2025-09-22",
+  "publication_kind": "followup",
+  "occurred_on": "2024-04-09",
+  "detected_on": "2025-06-20",
+  "updated_on": "2026-10-23",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "accident",
+  "cause": {
+    "category": "configuration",
+    "detail": "窓口で個人情報を含む資料を誤って閲覧可能にした。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "確認した公表資料では対象規模を確定できない"
+    }
+  ],
+  "data_types": [
+    "住民協定資料に含まれる個人情報"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.city.kamakura.kanagawa.jp/kisya/data/2026/20261020.html",
+      "type": "official",
+      "title": "個人情報流出事案の追加調査結果",
+      "published_on": "2026-10-20",
+      "checked_on": "2026-10-23"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

@@ -1,0 +1,61 @@
+{
+  "id": "followup-20261023-e7e13c6e12fd",
+  "organization": {
+    "name": "湖池屋（湖池屋GOGO！ランド）",
+    "sector": "企業・団体"
+  },
+  "title": "コミューンへの不正アクセスに伴う個人情報への影響",
+  "summary": "委託先への不正アクセスで会員情報の一部漏えいを公表。対象は最大1,800件。13日の続報では復旧延期を案内。",
+  "published_on": "2026-10-13",
+  "first_published_on": "2026-10-09",
+  "publication_kind": "followup",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-23",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。具体的な侵入手法はこの記録では未確定。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": 1800,
+      "unit": "records",
+      "qualifier": "maximum",
+      "description": "対象会員情報"
+    }
+  ],
+  "data_types": [
+    "メールアドレス",
+    "ニックネーム",
+    "アカウント名",
+    "自己紹介",
+    "ポイント",
+    "登録日・最終アクティブ日時",
+    "所属グループ",
+    "カスタムプロフィール"
+  ],
+  "related_vendor": "コミューン",
+  "sources": [
+    {
+      "url": "https://koikeya.co.jp/images/pdf/info_20261009.pdf",
+      "type": "official",
+      "title": "コミューンへの不正アクセスに伴う個人情報への影響",
+      "published_on": "2026-10-13",
+      "checked_on": "2026-10-23"
+    }
+  ],
+  "updates": [],
+  "notes": " 共通サービス提供元や他の利用組織の公表規模と重複し得るため、攻撃回数・被害人数として合算しない。 延期は新たな不正アクセス・情報漏えいを理由とするものではない。",
+  "vendors": [
+    {
+      "name": "コミューン",
+      "role": "service",
+      "detail": "公式資料に示された利用サービスの提供元。",
+      "source_index": 0
+    }
+  ]
+}

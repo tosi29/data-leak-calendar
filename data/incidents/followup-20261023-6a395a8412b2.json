@@ -1,0 +1,54 @@
+{
+  "id": "followup-20261023-6a395a8412b2",
+  "organization": {
+    "name": "綾町",
+    "sector": "企業・団体"
+  },
+  "title": "アルカディアへの不正アクセスに伴う個人情報への影響",
+  "summary": "綾町が利用するアルカディアへの不正アクセスにより、登録・申込情報が漏えいした可能性を公表。",
+  "published_on": "2026-10-14",
+  "first_published_on": null,
+  "publication_kind": "unknown",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-23",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。具体的な侵入手法はこの記録では未確定。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": 400,
+      "unit": "people",
+      "qualifier": "approximate",
+      "description": "防災メール登録者"
+    }
+  ],
+  "data_types": [
+    "登録者の個人情報（項目は出典参照）"
+  ],
+  "related_vendor": "アルカディア",
+  "sources": [
+    {
+      "url": "https://www.town.aya.miyazaki.jp/soshiki/soumuka/11182.html",
+      "type": "official",
+      "title": "アルカディアへの不正アクセスに伴う個人情報への影響",
+      "published_on": "2026-10-14",
+      "checked_on": "2026-10-23"
+    }
+  ],
+  "updates": [],
+  "notes": " カレンダー日は公式資料の掲載・更新日。初回公表日は未確定。 共通サービス提供元や他の利用組織の公表規模と重複し得るため、攻撃回数・被害人数として合算しない。",
+  "vendors": [
+    {
+      "name": "アルカディア",
+      "role": "service",
+      "detail": "公式資料に示された利用サービスの提供元。",
+      "source_index": 0
+    }
+  ]
+}

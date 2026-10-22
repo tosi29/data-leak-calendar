@@ -6,12 +6,12 @@
   },
   "title": "情報配信サービスへの不正アクセスに伴う個人情報漏えいの可能性",
   "summary": "利用するメール等の配信システムへの不正アクセスにより、登録者情報が漏えいした可能性。詳細を調査中。",
-  "published_on": "2026-10-16",
-  "first_published_on": null,
-  "publication_kind": "unknown",
+  "published_on": "2026-10-14",
+  "first_published_on": "2026-10-14",
+  "publication_kind": "initial",
   "occurred_on": null,
   "detected_on": null,
-  "updated_on": "2026-10-20",
+  "updated_on": "2026-10-23",
   "verification": "official",
   "leak_status": "suspected",
   "incident_type": "attack",
@@ -29,7 +29,8 @@
     }
   ],
   "data_types": [
-    "登録情報・メールアドレス等"
+    "登録情報・メールアドレス等",
+    "NET119登録者の氏名・生年月日・性別・住所・電話・FAX・メールアドレス等"
   ],
   "related_vendor": "アルカディア",
   "sources": [
@@ -39,8 +40,21 @@
       "title": "情報配信サービスへの不正アクセスに伴う個人情報漏えいの可能性",
       "published_on": "2026-10-16",
       "checked_on": "2026-10-20"
+    },
+    {
+      "url": "https://www.city.akita.lg.jp/shobo/oshirase/1053565.html",
+      "type": "official",
+      "title": "NET119でも登録者情報の漏えいの可能性を公表。メールアドレスのほか、一部登録者の氏名・生年月日・住所・電話等が対象。",
+      "published_on": "2026-10-14",
+      "checked_on": "2026-10-23"
     }
   ],
-  "updates": [],
-  "notes": "基盤提供元や他の自治体の対象件数と合算しない。複数サービスの規模は重複し得る。 取得したページに表示された公表・更新日を採用。これ以前の初報日は未確定。"
+  "updates": [
+    {
+      "date": "2026-10-14",
+      "summary": "NET119でも登録者情報の漏えいの可能性を公表。メールアドレスのほか、一部登録者の氏名・生年月日・住所・電話等が対象。",
+      "source_index": 1
+    }
+  ],
+  "notes": "基盤提供元や他の自治体の対象件数と合算しない。複数サービスの規模は重複し得る。 取得したページに表示された公表・更新日を採用。これ以前の初報日は未確定。 NET119でも登録者情報の漏えいの可能性を公表。メールアドレスのほか、一部登録者の氏名・生年月日・住所・電話等が対象。 NET119の10月14日公表を確認できたため、当市の同一提供元事案のカレンダー日を16日から14日に補正。"
 }

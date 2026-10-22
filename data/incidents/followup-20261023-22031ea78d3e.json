@@ -1,0 +1,78 @@
+{
+  "id": "followup-20261023-22031ea78d3e",
+  "organization": {
+    "name": "ナッジ",
+    "sector": "企業・団体"
+  },
+  "title": "Studioへの不正アクセスに伴う個人情報への影響",
+  "summary": "ナッジが利用するStudioへの不正アクセスにより、登録・申込情報が漏えいした可能性を公表。",
+  "published_on": "2026-10-17",
+  "first_published_on": "2026-10-17",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-23",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。具体的な侵入手法はこの記録では未確定。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": 748,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "提携問い合わせ"
+    },
+    {
+      "count": 2784,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "事業問い合わせ"
+    },
+    {
+      "count": 2134,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "取材問い合わせ"
+    },
+    {
+      "count": 29,
+      "unit": "records",
+      "qualifier": "maximum",
+      "description": "採用応募"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "メールアドレス",
+    "フォーム入力内容",
+    "会社名",
+    "電話番号",
+    "所在地（提携問い合わせ）",
+    "採用応募内容・添付ファイル（告知時点の記載）"
+  ],
+  "related_vendor": "Studio",
+  "sources": [
+    {
+      "url": "https://nudge.works/news/20261017",
+      "type": "official",
+      "title": "Studioへの不正アクセスに伴う個人情報への影響",
+      "published_on": "2026-10-17",
+      "checked_on": "2026-10-23"
+    }
+  ],
+  "updates": [],
+  "notes": "公式ページ内の表示用JSONに含まれる告知本文を確認。公開日時publishedAtを日本時間で確認（作成日時とは区別）。 共通サービス提供元や他の利用組織の公表規模と重複し得るため、攻撃回数・被害人数として合算しない。 採用応募の添付ファイルは同社告知の記載。提供元の一般的説明や他社のファイル名のみという範囲と混同しない。",
+  "vendors": [
+    {
+      "name": "Studio",
+      "role": "service",
+      "detail": "公式資料に示された利用サービスの提供元。",
+      "source_index": 0
+    }
+  ]
+}

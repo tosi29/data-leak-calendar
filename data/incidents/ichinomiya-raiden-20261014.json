@@ -10,35 +10,35 @@
   "publication_kind": "initial",
   "occurred_on": null,
   "detected_on": null,
-  "updated_on": "2026-10-15",
+  "updated_on": "2026-10-23",
   "verification": "official",
   "incident_type": "attack",
   "leak_status": "suspected",
   "summary": "アルカディアへの攻撃に伴い、防災配信の登録者や職員等の情報漏えいの可能性を公表。翌日Net119も対象と発表。",
   "impact": [
     {
-      "count": 21503,
-      "unit": "records",
+      "count": 16085,
+      "unit": "people",
       "qualifier": "exact",
-      "description": "あんしん・防災ねっと及び火災メール119の登録メールアドレス"
+      "description": "あんしん・防災ねっと。町会長128人を含む。"
     },
     {
-      "count": 128,
-      "unit": "records",
+      "count": 5418,
+      "unit": "people",
       "qualifier": "exact",
-      "description": "町会長の連絡先情報"
+      "description": "火災メール119"
     },
     {
       "count": 3113,
-      "unit": "records",
+      "unit": "people",
       "qualifier": "exact",
-      "description": "災害時連絡用の市職員情報"
+      "description": "安否参集システム"
     },
     {
       "count": 177,
-      "unit": "records",
+      "unit": "people",
       "qualifier": "exact",
-      "description": "Net119登録件数"
+      "description": "NET119"
     }
   ],
   "data_types": [
@@ -67,14 +67,38 @@
       "title": "Net119緊急通報システムの個人情報漏洩の可能性",
       "published_on": "2026-10-15",
       "checked_on": "2026-10-15"
+    },
+    {
+      "url": "https://www.city.ichinomiya.aichi.jp/shisei/houdouhappyo/1068631/1076175/1077305.html",
+      "type": "official",
+      "title": "登録者規模と通知対応を更新。防災ねっと16,085人、火災メール5,418人、職員参集3,113人、NET119は177人。",
+      "published_on": "2026-10-19",
+      "checked_on": "2026-10-23"
+    },
+    {
+      "url": "https://www.city.ichinomiya.aichi.jp/sougouseisaku/kikikanri/1044073/1044446/1044075/1077224.html",
+      "type": "official",
+      "title": "別の市公式ページでも21,503件のメール登録とNET119等の影響範囲を確認。内訳と合算しない。",
+      "published_on": "2026-10-19",
+      "checked_on": "2026-10-23"
     }
   ],
-  "notes": "対象群の重複が不明なため合算しない。9月17日公表の既存一宮市事案とは別件。同じ委託先への攻撃の影響拡大として10月15日のNet119公表を同一記録に統合。",
+  "notes": "対象群の重複が不明なため合算しない。9月17日公表の既存一宮市事案とは別件。同じ委託先への攻撃の影響拡大として10月15日のNet119公表を同一記録に統合。 登録者規模と通知対応を更新。防災ねっと16,085人、火災メール5,418人、職員参集3,113人、NET119は177人。 別の市公式ページでも21,503件のメール登録とNET119等の影響範囲を確認。内訳と合算しない。",
   "updates": [
     {
       "date": "2026-10-15",
       "summary": "Net119の登録情報177件にも漏えいの可能性があると公表。",
       "source_index": 1
+    },
+    {
+      "date": "2026-10-19",
+      "summary": "登録者規模と通知対応を更新。防災ねっと16,085人、火災メール5,418人、職員参集3,113人、NET119は177人。",
+      "source_index": 2
+    },
+    {
+      "date": "2026-10-19",
+      "summary": "別の市公式ページでも21,503件のメール登録とNET119等の影響範囲を確認。内訳と合算しない。",
+      "source_index": 3
     }
   ],
   "vendors": [
@@ -96,6 +120,14 @@
       },
       {
         "source_index": 1,
+        "status": "reviewed"
+      },
+      {
+        "source_index": 2,
+        "status": "reviewed"
+      },
+      {
+        "source_index": 3,
         "status": "reviewed"
       }
     ]

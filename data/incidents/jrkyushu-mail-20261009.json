@@ -10,11 +10,11 @@
   "publication_kind": "initial",
   "occurred_on": null,
   "detected_on": null,
-  "updated_on": "2026-10-15",
+  "updated_on": "2026-10-23",
   "verification": "official",
   "incident_type": "attack",
   "leak_status": "suspected",
-  "summary": "IDCフロンティアで発生した不正アクセスに伴い、メール配信用サービス内の情報が閲覧・取得された可能性を公表。",
+  "summary": "IDCフロンティア関連でメールアドレス漏えいの可能性を公表。10月15日の続報では、調査で漏えいの事実は確認されなかったと説明。",
   "impact": [
     {
       "count": 1300000,
@@ -39,10 +39,23 @@
       "title": "外部メール配信基盤への不正アクセスに伴う漏えいの可能性",
       "published_on": "2026-10-09",
       "checked_on": "2026-10-15"
+    },
+    {
+      "url": "https://www.jrkyushu.co.jp/common/inc/news/newtopics/__icsFiles/afieldfile/2026/10/15/202691015_mail_address_access.pdf",
+      "type": "official",
+      "title": "IDCフロンティアの調査結果に基づき、約130万件のメールアドレスについて漏えいの事実は確認されなかったと公表。",
+      "published_on": "2026-10-15",
+      "checked_on": "2026-10-23"
     }
   ],
-  "notes": "実際に漏えいした件数の確定値ではない。",
-  "updates": [],
+  "notes": "実際に漏えいした件数の確定値ではない。 IDCフロンティアの調査結果に基づき、約130万件のメールアドレスについて漏えいの事実は確認されなかったと公表。",
+  "updates": [
+    {
+      "date": "2026-10-15",
+      "summary": "IDCフロンティアの調査結果に基づき、約130万件のメールアドレスについて漏えいの事実は確認されなかったと公表。",
+      "source_index": 1
+    }
+  ],
   "vendors": [
     {
       "name": "IDCフロンティア",
@@ -58,6 +71,10 @@
     "source_checks": [
       {
         "source_index": 0,
+        "status": "reviewed"
+      },
+      {
+        "source_index": 1,
         "status": "reviewed"
       }
     ]
