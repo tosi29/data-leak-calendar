@@ -1,0 +1,95 @@
+{
+  "id": "growth-next-studio-20261016",
+  "organization": {
+    "name": "Fukuoka Growth Next",
+    "sector": "企業・団体"
+  },
+  "title": "Studioへの不正アクセスに伴うフォーム情報漏えいの可能性",
+  "summary": "問い合わせ・申込フォーム6種類の送信情報が漏えいした可能性を公表。",
+  "published_on": "2026-10-16",
+  "first_published_on": "2026-10-16",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-23",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "vulnerability",
+    "detail": "フォーム基盤Studioの脆弱性を悪用した不正アクセス。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 185,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "FGN日本語問い合わせ"
+    },
+    {
+      "count": 87,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "FGN英語問い合わせ"
+    },
+    {
+      "count": 190,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "スタートアップカフェ問い合わせ"
+    },
+    {
+      "count": 3,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "入居申込"
+    },
+    {
+      "count": 89,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "第1回ブートキャンプHOP・STEP申込"
+    },
+    {
+      "count": 75,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "夏季ブートキャンプ申込"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "会社名",
+    "電話番号",
+    "メールアドレス",
+    "問い合わせ内容",
+    "事業内容・所在地・SNS等（フォームによる）"
+  ],
+  "related_vendor": "Studio",
+  "sources": [
+    {
+      "url": "https://growth-next.com/news/studio-incident-form-data-notice-1",
+      "type": "official",
+      "title": "Studioへの不正アクセスに伴うフォーム情報漏えいの可能性",
+      "published_on": "2026-10-16",
+      "checked_on": "2026-10-23"
+    }
+  ],
+  "updates": [
+    {
+      "date": "2026-10-21",
+      "summary": "公式第一報の対象期間訂正を反映。日本語問い合わせとカフェ問い合わせは10月14日まで。",
+      "source_index": 0
+    }
+  ],
+  "notes": "公式ページの検索インデックス本文で確認。直接取得では本文が表示されない。10月21日の訂正で日本語問い合わせ・カフェ問い合わせの対象終期は10月14日。フォーム送信件数であり人数ではなく、重複排除は未確認。パスワード・カード情報はフォームで取得していない。",
+  "vendors": [
+    {
+      "name": "Studio",
+      "role": "service",
+      "detail": "ウェブサイトのフォーム基盤提供元。",
+      "source_index": 0
+    }
+  ]
+}

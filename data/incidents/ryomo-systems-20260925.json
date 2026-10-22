@@ -1,0 +1,53 @@
+{
+  "id": "ryomo-systems-20260925",
+  "organization": {
+    "name": "両毛システムズ",
+    "sector": "企業・団体"
+  },
+  "title": "ランサムウェア攻撃に伴う個人情報漏えいのおそれ",
+  "summary": "取引先顧客、問い合わせ者、個人顧客、従業員の個人情報が漏えいしたおそれを第三報で公表。",
+  "published_on": "2026-09-25",
+  "first_published_on": "2026-08-15",
+  "publication_kind": "followup",
+  "occurred_on": "2026-08-12",
+  "detected_on": "2026-08-14",
+  "updated_on": "2026-10-23",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "credentials",
+    "detail": "VPNアカウントの悪用により社内ネットワークへ侵入。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "対象件数・項目は精査中"
+    }
+  ],
+  "data_types": [
+    "個人情報（詳細項目は精査中）"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.ryomo.co.jp/news/202609_02.html",
+      "type": "official",
+      "title": "ランサムウェア攻撃に伴う個人情報漏えいのおそれ",
+      "published_on": "2026-09-25",
+      "checked_on": "2026-10-23"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2026/10/15/56461.html",
+      "type": "news",
+      "title": "両毛システムズにランサムウェア攻撃",
+      "published_on": "2026-10-15",
+      "checked_on": "2026-10-23"
+    }
+  ],
+  "updates": [],
+  "notes": "公式第三報本文をWeb閲覧で確認。公式の日付表記は2026年9月までのため、9月25日の発表日はScanNetSecurity記事で補完。個別顧客の公表人数を同社全体の人数としない。"
+}

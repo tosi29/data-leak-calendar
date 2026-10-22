@@ -4834,5 +4834,103 @@
       "https://www.itmedia.co.jp/news/article/2610/19/2000002354/",
       "https://www.recruit.co.jp/newsroom/pressrelease/2026/1021_149447.html"
     ]
+  },
+  {
+    "candidate": {
+      "id": "cross-julaug-8cbf52aa1d",
+      "organization": "両毛システムズ",
+      "reported_on": "2026-10-18",
+      "verification": "pending",
+      "reference_url": "https://satimo.org/2026/10/data-breach-list-2026/",
+      "note": "登録済み参照先の再取得を実施。公表日・個人情報への影響等の未解決事項は解消できず、確認待ち継続。取得成功は内容の確定を意味しない。 前回までの確認事項：2026-10-21 再調査：9月25日第3報に関する追加報道を発見。公式続報はTLSエラーで再取得できず、9月の公表日表記も資料間で異なる。顧客側の公表と提供元の公表を混同せず保留。",
+      "reviewed_on": "2026-10-22",
+      "checked_urls": [
+        "https://satimo.org/2026/10/data-breach-list-2026/",
+        "https://www.ryomo.co.jp/news/202609_02.html",
+        "https://rocket-boys.co.jp/security-measures-lab/ryomo-systems-ransomware-supply-chain-impact-summary-2026/"
+      ]
+    },
+    "reviewed_on": "2026-10-23",
+    "resolution": "published",
+    "incident_ids": [
+      "ryomo-systems-20260925"
+    ],
+    "reason": "取引先顧客、問い合わせ者、個人顧客、従業員の個人情報が漏えいしたおそれを第三報で公表。 公式第三報本文をWeb閲覧で確認。公式の日付表記は2026年9月までのため、9月25日の発表日はScanNetSecurity記事で補完。個別顧客の公表人数を同社全体の人数としない。",
+    "source_urls": [
+      "https://satimo.org/2026/10/data-breach-list-2026/",
+      "https://www.ryomo.co.jp/news/202609_02.html",
+      "https://rocket-boys.co.jp/security-measures-lab/ryomo-systems-ransomware-supply-chain-impact-summary-2026/",
+      "https://scan.netsecurity.ne.jp/article/2026/10/15/56461.html"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "oct22-review-growth-next",
+      "organization": "Fukuoka Growth Next",
+      "reported_on": "2026-10-16",
+      "verification": "pending",
+      "reference_url": "https://growth-next.com/news/studio-incident-form-data-notice-1",
+      "note": "Studio関連のフォーム情報漏えい告知を発見。本文が取得時に表示されず、公表日と対象項目・件数の照合待ち。",
+      "reviewed_on": "2026-10-22",
+      "checked_urls": [
+        "https://growth-next.com/news/studio-incident-form-data-notice-1"
+      ]
+    },
+    "reviewed_on": "2026-10-23",
+    "resolution": "published",
+    "incident_ids": [
+      "growth-next-studio-20261016"
+    ],
+    "reason": "問い合わせ・申込フォーム6種類の送信情報が漏えいした可能性を公表。 公式ページの検索インデックス本文で確認。直接取得では本文が表示されない。10月21日の訂正で日本語問い合わせ・カフェ問い合わせの対象終期は10月14日。フォーム送信件数であり人数ではなく、重複排除は未確認。パスワード・カード情報はフォームで取得していない。",
+    "source_urls": [
+      "https://growth-next.com/news/studio-incident-form-data-notice-1"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "oct22-review-joso-usb",
+      "organization": "常総市",
+      "reported_on": "2026-10-20",
+      "verification": "pending",
+      "reference_url": "https://www.security-next.com/191336",
+      "note": "心理師によるUSB紛失の報道を確認。実際の保存内容と自治体の公表日を未確認。記事日を公表日に転用しない。",
+      "reviewed_on": "2026-10-22",
+      "checked_urls": [
+        "https://www.security-next.com/191336"
+      ]
+    },
+    "reviewed_on": "2026-10-23",
+    "resolution": "published",
+    "incident_ids": [
+      "joso-usb-20260915"
+    ],
+    "reason": "委託先の公認心理師がUSBメモリを紛失。実際に保存されていた情報の件数は不明。 公式ページの検索インデックス本文と更新日9月15日を確認。初回公表日は未確定。直接閲覧は404。市に残る紙の報告書は568件・実人数420人だが、USB内の件数とは断定しない。8月6日に紛失判明、9月4日に市へ報告、9月8日に対象者へ通知。",
+    "source_urls": [
+      "https://www.security-next.com/191336",
+      "https://www.city.joso.lg.jp/kurashi_gyousei/kurashi/kosodate_hoiku/maternal_child_health/usbfunnsyutuowabi.html"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "oct22-review-aeonstyle",
+      "organization": "イオンリテール（イオンスタイルオンライン）",
+      "reported_on": "2026-08-06",
+      "verification": "pending",
+      "reference_url": "https://aeonretail.com/Page/info_20260806_02.aspx",
+      "note": "他利用者情報の表示に関する公式告知を発見。今回の直接取得は403、検索閲覧でも本文を再取得できず、公表日・影響範囲の再確認待ち。10月のイオングループ不正アクセスとは別候補。",
+      "reviewed_on": "2026-10-22",
+      "checked_urls": [
+        "https://aeonretail.com/Page/info_20260806_02.aspx"
+      ]
+    },
+    "reviewed_on": "2026-10-23",
+    "resolution": "published",
+    "incident_ids": [
+      "aeonstyle-display-20260806"
+    ],
+    "reason": "特定の操作で他利用者の氏名とポイント残高が表示される不具合を公表。 7月21日15時頃から8月3日正午まで発生し修正済み。住所・電話番号・カード情報は対象外。公式本文をWeb閲覧で確認。直接取得は403。10月のイオングループ不正アクセスとは別事案。",
+    "source_urls": [
+      "https://aeonretail.com/Page/info_20260806_02.aspx"
+    ]
   }
 ]

@@ -1,0 +1,49 @@
+{
+  "id": "joso-usb-20260915",
+  "organization": {
+    "name": "常総市",
+    "sector": "企業・団体"
+  },
+  "title": "委託心理師による発達検査情報を保存したUSBメモリの紛失",
+  "summary": "委託先の公認心理師がUSBメモリを紛失。実際に保存されていた情報の件数は不明。",
+  "published_on": "2026-09-15",
+  "first_published_on": null,
+  "publication_kind": "unknown",
+  "occurred_on": null,
+  "detected_on": "2026-08-06",
+  "updated_on": "2026-10-23",
+  "verification": "official",
+  "leak_status": "lost",
+  "incident_type": "accident",
+  "cause": {
+    "category": "loss",
+    "detail": "パスワード対策のないUSBメモリを外出先へ持ち出し紛失。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "USB内の実際の対象人数・件数は不明"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "生年月日",
+    "幼稚園・保育園名",
+    "発達検査結果"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.city.joso.lg.jp/kurashi_gyousei/kurashi/kosodate_hoiku/maternal_child_health/usbfunnsyutuowabi.html",
+      "type": "official",
+      "title": "委託心理師による発達検査情報を保存したUSBメモリの紛失",
+      "published_on": "2026-09-15",
+      "checked_on": "2026-10-23"
+    }
+  ],
+  "updates": [],
+  "notes": "公式ページの検索インデックス本文と更新日9月15日を確認。初回公表日は未確定。直接閲覧は404。市に残る紙の報告書は568件・実人数420人だが、USB内の件数とは断定しない。8月6日に紛失判明、9月4日に市へ報告、9月8日に対象者へ通知。"
+}
