@@ -5,13 +5,13 @@
     "sector": "企業・団体"
   },
   "title": "委託先への不正アクセスによる顧客情報漏洩",
-  "summary": "インターネット取引の運用・保守委託先トレードワークスのシステムへの不正アクセスで顧客情報が漏洩。",
+  "summary": "トレードワークスへの不正アクセスによる顧客情報漏洩。再調査で対象が4,975名と判明。",
   "published_on": "2026-10-16",
   "first_published_on": "2026-10-16",
   "publication_kind": "initial",
   "occurred_on": null,
   "detected_on": null,
-  "updated_on": "2026-10-20",
+  "updated_on": "2026-10-23",
   "verification": "official",
   "leak_status": "confirmed",
   "incident_type": "attack",
@@ -22,10 +22,10 @@
   },
   "impact": [
     {
-      "count": 4611,
+      "count": 4975,
       "unit": "people",
       "qualifier": "exact",
-      "description": "公表された対象規模。漏えい状況は本文を参照。"
+      "description": "第2報で確定した対象者数（従来4,611名に364名追加）"
     }
   ],
   "data_types": [
@@ -40,8 +40,21 @@
       "title": "委託先への不正アクセスによる顧客情報漏洩",
       "published_on": "2026-10-16",
       "checked_on": "2026-10-20"
+    },
+    {
+      "url": "https://www.iwaicosmo.co.jp/info/2026/10201710.html",
+      "type": "official",
+      "title": "外部委託先への不正アクセスに伴うお客様情報の漏洩について（第2報）",
+      "published_on": "2026-10-20",
+      "checked_on": "2026-10-23"
     }
   ],
-  "updates": [],
-  "notes": ""
+  "updates": [
+    {
+      "date": "2026-10-20",
+      "summary": "再調査で364名を追加確認し、対象を4,975名へ更新。新たな攻撃による追加漏えいではない。",
+      "source_index": 1
+    }
+  ],
+  "notes": "取引暗証番号は対象外。同日の売買管理システム攻撃による不正注文7口座（うち約定5口座）は漏えい人数に加算しない。公式検索収録本文を確認。直接取得は404。"
 }

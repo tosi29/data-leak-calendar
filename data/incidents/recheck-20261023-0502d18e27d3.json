@@ -1,0 +1,62 @@
+{
+  "id": "recheck-20261023-0502d18e27d3",
+  "organization": {
+    "name": "豊前市",
+    "sector": "自治体・消防"
+  },
+  "title": "豊前市防災情報メールへの不正アクセスに伴う個人情報漏えいの可能性",
+  "summary": "豊前市が利用する豊前市防災情報メールに関し、提供事業者への不正アクセスにより登録情報が漏えいした可能性を公表。",
+  "published_on": "2026-10-15",
+  "first_published_on": null,
+  "publication_kind": "unknown",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-23",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。具体的な侵入手法はこの公表から確定できない。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "対象規模は確認した公式資料では未公表"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "メールアドレス"
+  ],
+  "related_vendor": "アルカディア",
+  "sources": [
+    {
+      "url": "https://www.city.buzen.lg.jp/huseiakusesu.html",
+      "type": "official",
+      "title": "豊前市防災情報メールに関する公式告知",
+      "published_on": "2026-10-15",
+      "checked_on": "2026-10-23"
+    },
+    {
+      "url": "https://www.city.buzen.lg.jp/",
+      "type": "official",
+      "title": "公式新着一覧：対象告知の掲載日を確認",
+      "published_on": "2026-10-15",
+      "checked_on": "2026-10-23"
+    }
+  ],
+  "updates": [],
+  "notes": "公式トップの検索収録本文に10月15日の対象告知を確認。 共通提供元・他の利用組織の対象人数と重複し得るため合算しない。 カレンダー日は確認できた公式掲載・更新日であり、初回公表日は未確定。 日付は公式新着一覧の対象リンクと照合。",
+  "vendors": [
+    {
+      "name": "アルカディア",
+      "role": "service",
+      "detail": "公式告知で確認したサービス提供元。",
+      "source_index": 0
+    }
+  ]
+}

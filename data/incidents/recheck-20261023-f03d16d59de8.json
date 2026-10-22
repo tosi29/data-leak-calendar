@@ -1,0 +1,60 @@
+{
+  "id": "recheck-20261023-f03d16d59de8",
+  "organization": {
+    "name": "東根市",
+    "sector": "自治体・消防"
+  },
+  "title": "東根市登録制メールへの不正アクセスに伴う個人情報漏えいの可能性",
+  "summary": "東根市が利用する東根市登録制メールに関し、提供事業者への不正アクセスにより登録情報が漏えいした可能性を公表。",
+  "published_on": "2026-10-14",
+  "first_published_on": "2026-10-14",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-23",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。具体的な侵入手法はこの公表から確定できない。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": 600,
+      "unit": "people",
+      "qualifier": "approximate",
+      "description": "市の登録者数。全員の漏えい確認数ではなく、対象範囲は3月以降の連絡先データ。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "アルカディア",
+  "sources": [
+    {
+      "url": "https://www.city.higashine.yamagata.jp/news/3874",
+      "type": "official",
+      "title": "東根市登録制メールに関する公式告知",
+      "published_on": "2026-10-14",
+      "checked_on": "2026-10-23"
+    }
+  ],
+  "updates": [
+    {
+      "date": "2026-10-16",
+      "summary": "10月15日17時50分の配信再開を報告。情報漏えいの有無は調査継続。",
+      "source_index": 0
+    }
+  ],
+  "notes": "本文に10月14日掲載分・16日掲載分と明記。新着一覧の19日は初回日として採用しない。 共通提供元・他の利用組織の対象人数と重複し得るため合算しない。",
+  "vendors": [
+    {
+      "name": "アルカディア",
+      "role": "service",
+      "detail": "公式告知で確認したサービス提供元。",
+      "source_index": 0
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "id": "recheck-20261023-9a6e2bfe8cb8",
+  "organization": {
+    "name": "安芸市消防本部",
+    "sector": "自治体・消防"
+  },
+  "title": "NET119への不正アクセスに伴う個人情報漏えいの可能性",
+  "summary": "安芸市消防本部が利用するNET119に関し、提供事業者への不正アクセスにより登録情報が漏えいした可能性を公表。",
+  "published_on": "2026-10-21",
+  "first_published_on": "2026-10-21",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-23",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。具体的な侵入手法はこの公表から確定できない。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": 4,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "NET119対象登録者"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "電話番号",
+    "生年月日",
+    "性別",
+    "メールアドレス"
+  ],
+  "related_vendor": "アルカディア",
+  "sources": [
+    {
+      "url": "https://www.city.aki.kochi.jp/life/dtl.php?hdnKey=8922",
+      "type": "official",
+      "title": "NET119に関する公式告知",
+      "published_on": "2026-10-21",
+      "checked_on": "2026-10-23"
+    }
+  ],
+  "updates": [],
+  "notes": "確認できた別の公式告知。元の未解決URL（hdnKey=8910）と同一内容とは断定しない。 共通提供元・他の利用組織の対象人数と重複し得るため合算しない。",
+  "vendors": [
+    {
+      "name": "アルカディア",
+      "role": "service",
+      "detail": "公式告知で確認したサービス提供元。",
+      "source_index": 0
+    }
+  ]
+}

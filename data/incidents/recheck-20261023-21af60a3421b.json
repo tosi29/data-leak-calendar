@@ -1,0 +1,68 @@
+{
+  "id": "recheck-20261023-21af60a3421b",
+  "organization": {
+    "name": "音威子府村",
+    "sector": "自治体・消防"
+  },
+  "title": "おといねっぷ防災メールへの不正アクセスに伴う個人情報漏えいの可能性",
+  "summary": "音威子府村が利用するおといねっぷ防災メールに関し、提供事業者への不正アクセスにより登録情報が漏えいした可能性を公表。",
+  "published_on": "2026-10-14",
+  "first_published_on": null,
+  "publication_kind": "unknown",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-23",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。具体的な侵入手法はこの公表から確定できない。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "対象規模は確認した公式資料では未公表"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "メールアドレス"
+  ],
+  "related_vendor": "アルカディア",
+  "sources": [
+    {
+      "url": "https://www.vill.otoineppu.hokkaido.jp/kakuka/soumuzaisei/oshirase/2026-1014-1150-14.html",
+      "type": "official",
+      "title": "おといねっぷ防災メールに関する公式告知",
+      "published_on": "2026-10-14",
+      "checked_on": "2026-10-23"
+    },
+    {
+      "url": "https://www.vill.otoineppu.hokkaido.jp/kakuka/soumuzaisei/oshirase/",
+      "type": "official",
+      "title": "公式新着一覧：対象告知の掲載日を確認",
+      "published_on": "2026-10-14",
+      "checked_on": "2026-10-23"
+    }
+  ],
+  "updates": [
+    {
+      "date": "2026-10-15",
+      "summary": "配信再開と対象情報が氏名・メールアドレスであることを告知。",
+      "source_index": 0
+    }
+  ],
+  "notes": "一覧の掲載日14日と本文の15日更新を区別。住所・電話番号は未登録で対象外。LINEの友だち情報・アカウント情報も対象外。 共通提供元・他の利用組織の対象人数と重複し得るため合算しない。 カレンダー日は確認できた公式掲載・更新日であり、初回公表日は未確定。 日付は公式新着一覧の対象リンクと照合。",
+  "vendors": [
+    {
+      "name": "アルカディア",
+      "role": "service",
+      "detail": "公式告知で確認したサービス提供元。",
+      "source_index": 0
+    }
+  ]
+}

@@ -5185,5 +5185,364 @@
     "source_urls": [
       "https://expo.mappa.co.jp/infomation/QVIAWjFu"
     ]
+  },
+  {
+    "candidate": {
+      "id": "continue-date-80",
+      "organization": "池田町（北海道）",
+      "reported_on": "2026-10-23",
+      "verification": "pending",
+      "reference_url": "https://www.town.hokkaido-ikeda.lg.jp/bosai-bohan/bosai/kinkyu.html",
+      "reviewed_on": "2026-10-23",
+      "checked_urls": [
+        "https://www.town.hokkaido-ikeda.lg.jp/bosai-bohan/bosai/kinkyu.html"
+      ],
+      "note": "公式本文で個人情報への影響を確認。公表日が確定できないため、カレンダーへの掲載は保留。reported_onは今回の確認日であり、公表日ではない。"
+    },
+    "reviewed_on": "2026-10-23",
+    "resolution": "published",
+    "incident_ids": [
+      "recheck-20261023-9d8baa326deb"
+    ],
+    "reason": "公式告知本文と公表・更新日を照合して掲載。",
+    "source_urls": [
+      "https://www.town.hokkaido-ikeda.lg.jp/bosai-bohan/bosai/kinkyu.html",
+      "https://www.town.hokkaido-ikeda.lg.jp/"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "continue-date-88",
+      "organization": "五所川原地区消防事務組合",
+      "reported_on": "2026-10-23",
+      "verification": "pending",
+      "reference_url": "https://www.city.goshogawara.lg.jp/GFD/news/20261016-osirase.html",
+      "reviewed_on": "2026-10-23",
+      "checked_urls": [
+        "https://www.city.goshogawara.lg.jp/GFD/news/20261016-osirase.html"
+      ],
+      "note": "公式本文で個人情報への影響を確認。公表日が確定できないため、カレンダーへの掲載は保留。reported_onは今回の確認日であり、公表日ではない。"
+    },
+    "reviewed_on": "2026-10-23",
+    "resolution": "published",
+    "incident_ids": [
+      "recheck-20261023-070be5305a17"
+    ],
+    "reason": "公式告知本文と公表・更新日を照合して掲載。",
+    "source_urls": [
+      "https://www.city.goshogawara.lg.jp/GFD/news/20261016-osirase.html",
+      "https://www.city.goshogawara.lg.jp/GFD/"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "continue-date-90",
+      "organization": "東根市",
+      "reported_on": "2026-10-23",
+      "verification": "pending",
+      "reference_url": "https://www.city.higashine.yamagata.jp/news/3874",
+      "reviewed_on": "2026-10-23",
+      "checked_urls": [
+        "https://www.city.higashine.yamagata.jp/news/3874"
+      ],
+      "note": "公式本文で個人情報への影響を確認。公表日が確定できないため、カレンダーへの掲載は保留。reported_onは今回の確認日であり、公表日ではない。"
+    },
+    "reviewed_on": "2026-10-23",
+    "resolution": "published",
+    "incident_ids": [
+      "recheck-20261023-f03d16d59de8"
+    ],
+    "reason": "公式告知本文と公表・更新日を照合して掲載。",
+    "source_urls": [
+      "https://www.city.higashine.yamagata.jp/news/3874"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "continue-date-109",
+      "organization": "和歌山バス",
+      "reported_on": "2026-10-23",
+      "verification": "pending",
+      "reference_url": "https://www.wakayamabus.co.jp/news/roei20261016/",
+      "reviewed_on": "2026-10-23",
+      "checked_urls": [
+        "https://www.wakayamabus.co.jp/news/roei20261016/"
+      ],
+      "note": "公式本文で個人情報への影響を確認。公表日が確定できないため、カレンダーへの掲載は保留。reported_onは今回の確認日であり、公表日ではない。"
+    },
+    "reviewed_on": "2026-10-23",
+    "resolution": "published",
+    "incident_ids": [
+      "recheck-20261023-ff3732fab434"
+    ],
+    "reason": "公式告知本文と公表・更新日を照合して掲載。",
+    "source_urls": [
+      "https://www.wakayamabus.co.jp/news/roei20261016/"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "continue-date-136",
+      "organization": "むつ市",
+      "reported_on": "2026-10-23",
+      "verification": "pending",
+      "reference_url": "https://www.city.mutsu.lg.jp/government/bousai/telfax_johorouei.html",
+      "reviewed_on": "2026-10-23",
+      "checked_urls": [
+        "https://www.city.mutsu.lg.jp/government/bousai/telfax_johorouei.html"
+      ],
+      "note": "公式本文で個人情報への影響を確認。公表日が確定できないため、カレンダーへの掲載は保留。reported_onは今回の確認日であり、公表日ではない。"
+    },
+    "reviewed_on": "2026-10-23",
+    "resolution": "published",
+    "incident_ids": [
+      "recheck-20261023-268b9a94bbb9"
+    ],
+    "reason": "公式告知本文と公表・更新日を照合して掲載。",
+    "source_urls": [
+      "https://www.city.mutsu.lg.jp/government/bousai/telfax_johorouei.html",
+      "https://www.city.mutsu.lg.jp/"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "continue-date-137",
+      "organization": "弘前・西北五地域共同消防指令センター",
+      "reported_on": "2026-10-23",
+      "verification": "pending",
+      "reference_url": "https://www.hirosakifd.jp/kyougikai/index.html",
+      "reviewed_on": "2026-10-23",
+      "checked_urls": [
+        "https://www.hirosakifd.jp/kyougikai/index.html"
+      ],
+      "note": "公式本文で個人情報への影響を確認。公表日が確定できないため、カレンダーへの掲載は保留。reported_onは今回の確認日であり、公表日ではない。"
+    },
+    "reviewed_on": "2026-10-23",
+    "resolution": "published",
+    "incident_ids": [
+      "recheck-20261023-85954ac18b95"
+    ],
+    "reason": "公式告知本文と公表・更新日を照合して掲載。",
+    "source_urls": [
+      "https://www.hirosakifd.jp/kyougikai/index.html",
+      "https://www.hirosakifd.jp/"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "continue-date-158",
+      "organization": "音威子府村",
+      "reported_on": "2026-10-23",
+      "verification": "pending",
+      "reference_url": "https://www.vill.otoineppu.hokkaido.jp/kakuka/soumuzaisei/oshirase/2026-1014-1150-14.html",
+      "reviewed_on": "2026-10-23",
+      "checked_urls": [
+        "https://www.vill.otoineppu.hokkaido.jp/kakuka/soumuzaisei/oshirase/2026-1014-1150-14.html"
+      ],
+      "note": "公式本文で個人情報への影響を確認。公表日が確定できないため、カレンダーへの掲載は保留。reported_onは今回の確認日であり、公表日ではない。"
+    },
+    "reviewed_on": "2026-10-23",
+    "resolution": "published",
+    "incident_ids": [
+      "recheck-20261023-21af60a3421b"
+    ],
+    "reason": "公式告知本文と公表・更新日を照合して掲載。",
+    "source_urls": [
+      "https://www.vill.otoineppu.hokkaido.jp/kakuka/soumuzaisei/oshirase/2026-1014-1150-14.html",
+      "https://www.vill.otoineppu.hokkaido.jp/kakuka/soumuzaisei/oshirase/"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "continue-date-171",
+      "organization": "豊前市",
+      "reported_on": "2026-10-23",
+      "verification": "pending",
+      "reference_url": "https://www.city.buzen.lg.jp/huseiakusesu.html",
+      "reviewed_on": "2026-10-23",
+      "checked_urls": [
+        "https://www.city.buzen.lg.jp/huseiakusesu.html"
+      ],
+      "note": "公式本文で個人情報への影響を確認。公表日が確定できないため、カレンダーへの掲載は保留。reported_onは今回の確認日であり、公表日ではない。"
+    },
+    "reviewed_on": "2026-10-23",
+    "resolution": "published",
+    "incident_ids": [
+      "recheck-20261023-0502d18e27d3"
+    ],
+    "reason": "公式告知本文と公表・更新日を照合して掲載。",
+    "source_urls": [
+      "https://www.city.buzen.lg.jp/huseiakusesu.html",
+      "https://www.city.buzen.lg.jp/"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "continue-date-176",
+      "organization": "伊万里・有田消防本部",
+      "reported_on": "2026-10-23",
+      "verification": "pending",
+      "reference_url": "https://www.imari-arita119.saga.jp/information/_1855.html",
+      "reviewed_on": "2026-10-23",
+      "checked_urls": [
+        "https://www.imari-arita119.saga.jp/information/_1855.html"
+      ],
+      "note": "公式本文で個人情報への影響を確認。公表日が確定できないため、カレンダーへの掲載は保留。reported_onは今回の確認日であり、公表日ではない。"
+    },
+    "reviewed_on": "2026-10-23",
+    "resolution": "published",
+    "incident_ids": [
+      "recheck-20261023-1fc3ee1d2bdf"
+    ],
+    "reason": "公式告知本文と公表・更新日を照合して掲載。",
+    "source_urls": [
+      "https://www.imari-arita119.saga.jp/information/_1855.html",
+      "https://www.imari-arita119.saga.jp/"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "continue-date-177",
+      "organization": "東山梨消防本部",
+      "reported_on": "2026-10-23",
+      "verification": "pending",
+      "reference_url": "https://www.ey119.jp/img/net119fuseiakusesu.pdf",
+      "reviewed_on": "2026-10-23",
+      "checked_urls": [
+        "https://www.ey119.jp/img/net119fuseiakusesu.pdf"
+      ],
+      "note": "公式本文で個人情報への影響を確認。公表日が確定できないため、カレンダーへの掲載は保留。reported_onは今回の確認日であり、公表日ではない。"
+    },
+    "reviewed_on": "2026-10-23",
+    "resolution": "published",
+    "incident_ids": [
+      "recheck-20261023-2ad7fb6c0da1"
+    ],
+    "reason": "公式告知本文と公表・更新日を照合して掲載。",
+    "source_urls": [
+      "https://www.ey119.jp/img/net119fuseiakusesu.pdf",
+      "https://www.ey119.jp/"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "continue-date-179",
+      "organization": "南アルプス市",
+      "reported_on": "2026-10-23",
+      "verification": "pending",
+      "reference_url": "https://www.city.minami-alps.yamanashi.jp/docs/22580.html",
+      "reviewed_on": "2026-10-23",
+      "checked_urls": [
+        "https://www.city.minami-alps.yamanashi.jp/docs/22580.html"
+      ],
+      "note": "公式本文で個人情報への影響を確認。公表日が確定できないため、カレンダーへの掲載は保留。reported_onは今回の確認日であり、公表日ではない。"
+    },
+    "reviewed_on": "2026-10-23",
+    "resolution": "published",
+    "incident_ids": [
+      "recheck-20261023-bff5dbae4c44"
+    ],
+    "reason": "公式告知本文と公表・更新日を照合して掲載。",
+    "source_urls": [
+      "https://www.city.minami-alps.yamanashi.jp/docs/22580.html",
+      "https://www.city.minami-alps.yamanashi.jp/"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "continue-date-301",
+      "organization": "清水町（北海道）",
+      "reported_on": "2026-10-23",
+      "verification": "pending",
+      "reference_url": "https://www.town.shimizu.hokkaido.jp/section/01/details/post_106.html",
+      "reviewed_on": "2026-10-23",
+      "checked_urls": [
+        "https://www.town.shimizu.hokkaido.jp/section/01/details/post_106.html"
+      ],
+      "note": "公式本文で個人情報への影響を確認。公表日が確定できないため、カレンダーへの掲載は保留。reported_onは今回の確認日であり、公表日ではない。"
+    },
+    "reviewed_on": "2026-10-23",
+    "resolution": "published",
+    "incident_ids": [
+      "recheck-20261023-f7b3541f3927"
+    ],
+    "reason": "公式告知本文と公表・更新日を照合して掲載。",
+    "source_urls": [
+      "https://www.town.shimizu.hokkaido.jp/section/01/details/post_106.html",
+      "https://www.town.shimizu.hokkaido.jp/?vm=r"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "continue-date-306",
+      "organization": "小川村",
+      "reported_on": "2026-10-23",
+      "verification": "pending",
+      "reference_url": "https://www.vill.ogawa.nagano.jp/docs/85007.html",
+      "reviewed_on": "2026-10-23",
+      "checked_urls": [
+        "https://www.vill.ogawa.nagano.jp/docs/85007.html"
+      ],
+      "note": "公式本文で個人情報への影響を確認。公表日が確定できないため、カレンダーへの掲載は保留。reported_onは今回の確認日であり、公表日ではない。"
+    },
+    "reviewed_on": "2026-10-23",
+    "resolution": "published",
+    "incident_ids": [
+      "recheck-20261023-3f57c2de7ef0"
+    ],
+    "reason": "公式告知本文と公表・更新日を照合して掲載。",
+    "source_urls": [
+      "https://www.vill.ogawa.nagano.jp/docs/85007.html",
+      "https://www.vill.ogawa.nagano.jp/information/news/"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "continue-date-307",
+      "organization": "泰阜村",
+      "reported_on": "2026-10-23",
+      "verification": "pending",
+      "reference_url": "https://www.vill.yasuoka.nagano.jp/docs/341222.html",
+      "reviewed_on": "2026-10-23",
+      "checked_urls": [
+        "https://www.vill.yasuoka.nagano.jp/docs/341222.html"
+      ],
+      "note": "公式本文で個人情報への影響を確認。公表日が確定できないため、カレンダーへの掲載は保留。reported_onは今回の確認日であり、公表日ではない。"
+    },
+    "reviewed_on": "2026-10-23",
+    "resolution": "published",
+    "incident_ids": [
+      "recheck-20261023-25b311cd1a53"
+    ],
+    "reason": "公式告知本文と公表・更新日を照合して掲載。",
+    "source_urls": [
+      "https://www.vill.yasuoka.nagano.jp/docs/341222.html",
+      "https://www.vill.yasuoka.nagano.jp/",
+      "https://www.vill.yasuoka.nagano.jp/docs/341321.html"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "continue-date-317",
+      "organization": "川西町（山形県）",
+      "reported_on": "2026-10-23",
+      "verification": "pending",
+      "reference_url": "https://www.town.kawanishi.yamagata.jp/kurashi/bosai/kawanisi1014raiden.html",
+      "reviewed_on": "2026-10-23",
+      "checked_urls": [
+        "https://www.town.kawanishi.yamagata.jp/kurashi/bosai/kawanisi1014raiden.html"
+      ],
+      "note": "公式本文で個人情報への影響を確認。公表日が確定できないため、カレンダーへの掲載は保留。reported_onは今回の確認日であり、公表日ではない。"
+    },
+    "reviewed_on": "2026-10-23",
+    "resolution": "published",
+    "incident_ids": [
+      "recheck-20261023-0b9285c6d51e"
+    ],
+    "reason": "公式告知本文と公表・更新日を照合して掲載。",
+    "source_urls": [
+      "https://www.town.kawanishi.yamagata.jp/kurashi/bosai/kawanisi1014raiden.html",
+      "https://www.town.kawanishi.yamagata.jp/kurashi/ichiran.html"
+    ]
   }
 ]

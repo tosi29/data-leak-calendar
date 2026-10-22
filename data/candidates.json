@@ -434,138 +434,6 @@
     "note": "集約サイト・検索から告知を発見。公式ページは本文未取得（表示用ページのみ、アクセスエラー等）。公表日と具体的な個人情報への影響は再確認が必要。reported_onは発見日。"
   },
   {
-    "id": "continue-date-80",
-    "organization": "池田町（北海道）",
-    "reported_on": "2026-10-23",
-    "verification": "pending",
-    "reference_url": "https://www.town.hokkaido-ikeda.lg.jp/bosai-bohan/bosai/kinkyu.html",
-    "reviewed_on": "2026-10-23",
-    "checked_urls": [
-      "https://www.town.hokkaido-ikeda.lg.jp/bosai-bohan/bosai/kinkyu.html"
-    ],
-    "note": "公式本文で個人情報への影響を確認。公表日が確定できないため、カレンダーへの掲載は保留。reported_onは今回の確認日であり、公表日ではない。"
-  },
-  {
-    "id": "continue-date-88",
-    "organization": "五所川原地区消防事務組合",
-    "reported_on": "2026-10-23",
-    "verification": "pending",
-    "reference_url": "https://www.city.goshogawara.lg.jp/GFD/news/20261016-osirase.html",
-    "reviewed_on": "2026-10-23",
-    "checked_urls": [
-      "https://www.city.goshogawara.lg.jp/GFD/news/20261016-osirase.html"
-    ],
-    "note": "公式本文で個人情報への影響を確認。公表日が確定できないため、カレンダーへの掲載は保留。reported_onは今回の確認日であり、公表日ではない。"
-  },
-  {
-    "id": "continue-date-90",
-    "organization": "東根市",
-    "reported_on": "2026-10-23",
-    "verification": "pending",
-    "reference_url": "https://www.city.higashine.yamagata.jp/news/3874",
-    "reviewed_on": "2026-10-23",
-    "checked_urls": [
-      "https://www.city.higashine.yamagata.jp/news/3874"
-    ],
-    "note": "公式本文で個人情報への影響を確認。公表日が確定できないため、カレンダーへの掲載は保留。reported_onは今回の確認日であり、公表日ではない。"
-  },
-  {
-    "id": "continue-date-109",
-    "organization": "和歌山バス",
-    "reported_on": "2026-10-23",
-    "verification": "pending",
-    "reference_url": "https://www.wakayamabus.co.jp/news/roei20261016/",
-    "reviewed_on": "2026-10-23",
-    "checked_urls": [
-      "https://www.wakayamabus.co.jp/news/roei20261016/"
-    ],
-    "note": "公式本文で個人情報への影響を確認。公表日が確定できないため、カレンダーへの掲載は保留。reported_onは今回の確認日であり、公表日ではない。"
-  },
-  {
-    "id": "continue-date-136",
-    "organization": "むつ市",
-    "reported_on": "2026-10-23",
-    "verification": "pending",
-    "reference_url": "https://www.city.mutsu.lg.jp/government/bousai/telfax_johorouei.html",
-    "reviewed_on": "2026-10-23",
-    "checked_urls": [
-      "https://www.city.mutsu.lg.jp/government/bousai/telfax_johorouei.html"
-    ],
-    "note": "公式本文で個人情報への影響を確認。公表日が確定できないため、カレンダーへの掲載は保留。reported_onは今回の確認日であり、公表日ではない。"
-  },
-  {
-    "id": "continue-date-137",
-    "organization": "弘前・西北五地域共同消防指令センター",
-    "reported_on": "2026-10-23",
-    "verification": "pending",
-    "reference_url": "https://www.hirosakifd.jp/kyougikai/index.html",
-    "reviewed_on": "2026-10-23",
-    "checked_urls": [
-      "https://www.hirosakifd.jp/kyougikai/index.html"
-    ],
-    "note": "公式本文で個人情報への影響を確認。公表日が確定できないため、カレンダーへの掲載は保留。reported_onは今回の確認日であり、公表日ではない。"
-  },
-  {
-    "id": "continue-date-158",
-    "organization": "音威子府村",
-    "reported_on": "2026-10-23",
-    "verification": "pending",
-    "reference_url": "https://www.vill.otoineppu.hokkaido.jp/kakuka/soumuzaisei/oshirase/2026-1014-1150-14.html",
-    "reviewed_on": "2026-10-23",
-    "checked_urls": [
-      "https://www.vill.otoineppu.hokkaido.jp/kakuka/soumuzaisei/oshirase/2026-1014-1150-14.html"
-    ],
-    "note": "公式本文で個人情報への影響を確認。公表日が確定できないため、カレンダーへの掲載は保留。reported_onは今回の確認日であり、公表日ではない。"
-  },
-  {
-    "id": "continue-date-171",
-    "organization": "豊前市",
-    "reported_on": "2026-10-23",
-    "verification": "pending",
-    "reference_url": "https://www.city.buzen.lg.jp/huseiakusesu.html",
-    "reviewed_on": "2026-10-23",
-    "checked_urls": [
-      "https://www.city.buzen.lg.jp/huseiakusesu.html"
-    ],
-    "note": "公式本文で個人情報への影響を確認。公表日が確定できないため、カレンダーへの掲載は保留。reported_onは今回の確認日であり、公表日ではない。"
-  },
-  {
-    "id": "continue-date-176",
-    "organization": "伊万里・有田消防本部",
-    "reported_on": "2026-10-23",
-    "verification": "pending",
-    "reference_url": "https://www.imari-arita119.saga.jp/information/_1855.html",
-    "reviewed_on": "2026-10-23",
-    "checked_urls": [
-      "https://www.imari-arita119.saga.jp/information/_1855.html"
-    ],
-    "note": "公式本文で個人情報への影響を確認。公表日が確定できないため、カレンダーへの掲載は保留。reported_onは今回の確認日であり、公表日ではない。"
-  },
-  {
-    "id": "continue-date-177",
-    "organization": "東山梨消防本部",
-    "reported_on": "2026-10-23",
-    "verification": "pending",
-    "reference_url": "https://www.ey119.jp/img/net119fuseiakusesu.pdf",
-    "reviewed_on": "2026-10-23",
-    "checked_urls": [
-      "https://www.ey119.jp/img/net119fuseiakusesu.pdf"
-    ],
-    "note": "公式本文で個人情報への影響を確認。公表日が確定できないため、カレンダーへの掲載は保留。reported_onは今回の確認日であり、公表日ではない。"
-  },
-  {
-    "id": "continue-date-179",
-    "organization": "南アルプス市",
-    "reported_on": "2026-10-23",
-    "verification": "pending",
-    "reference_url": "https://www.city.minami-alps.yamanashi.jp/docs/22580.html",
-    "reviewed_on": "2026-10-23",
-    "checked_urls": [
-      "https://www.city.minami-alps.yamanashi.jp/docs/22580.html"
-    ],
-    "note": "公式本文で個人情報への影響を確認。公表日が確定できないため、カレンダーへの掲載は保留。reported_onは今回の確認日であり、公表日ではない。"
-  },
-  {
     "id": "continue-date-180",
     "organization": "八戸地域広域市町村圏事務組合消防本部",
     "reported_on": "2026-10-23",
@@ -602,18 +470,6 @@
     "note": "公式本文で個人情報への影響を確認。公表日が確定できないため、カレンダーへの掲載は保留。reported_onは今回の確認日であり、公表日ではない。"
   },
   {
-    "id": "continue-date-301",
-    "organization": "清水町（北海道）",
-    "reported_on": "2026-10-23",
-    "verification": "pending",
-    "reference_url": "https://www.town.shimizu.hokkaido.jp/section/01/details/post_106.html",
-    "reviewed_on": "2026-10-23",
-    "checked_urls": [
-      "https://www.town.shimizu.hokkaido.jp/section/01/details/post_106.html"
-    ],
-    "note": "公式本文で個人情報への影響を確認。公表日が確定できないため、カレンダーへの掲載は保留。reported_onは今回の確認日であり、公表日ではない。"
-  },
-  {
     "id": "continue-date-303",
     "organization": "今金町",
     "reported_on": "2026-10-23",
@@ -622,42 +478,6 @@
     "reviewed_on": "2026-10-23",
     "checked_urls": [
       "https://www.town.imakane.lg.jp/gyousei/gyousei_info/post_4953.html"
-    ],
-    "note": "公式本文で個人情報への影響を確認。公表日が確定できないため、カレンダーへの掲載は保留。reported_onは今回の確認日であり、公表日ではない。"
-  },
-  {
-    "id": "continue-date-306",
-    "organization": "小川村",
-    "reported_on": "2026-10-23",
-    "verification": "pending",
-    "reference_url": "https://www.vill.ogawa.nagano.jp/docs/85007.html",
-    "reviewed_on": "2026-10-23",
-    "checked_urls": [
-      "https://www.vill.ogawa.nagano.jp/docs/85007.html"
-    ],
-    "note": "公式本文で個人情報への影響を確認。公表日が確定できないため、カレンダーへの掲載は保留。reported_onは今回の確認日であり、公表日ではない。"
-  },
-  {
-    "id": "continue-date-307",
-    "organization": "泰阜村",
-    "reported_on": "2026-10-23",
-    "verification": "pending",
-    "reference_url": "https://www.vill.yasuoka.nagano.jp/docs/341222.html",
-    "reviewed_on": "2026-10-23",
-    "checked_urls": [
-      "https://www.vill.yasuoka.nagano.jp/docs/341222.html"
-    ],
-    "note": "公式本文で個人情報への影響を確認。公表日が確定できないため、カレンダーへの掲載は保留。reported_onは今回の確認日であり、公表日ではない。"
-  },
-  {
-    "id": "continue-date-317",
-    "organization": "川西町（山形県）",
-    "reported_on": "2026-10-23",
-    "verification": "pending",
-    "reference_url": "https://www.town.kawanishi.yamagata.jp/kurashi/bosai/kawanisi1014raiden.html",
-    "reviewed_on": "2026-10-23",
-    "checked_urls": [
-      "https://www.town.kawanishi.yamagata.jp/kurashi/bosai/kawanisi1014raiden.html"
     ],
     "note": "公式本文で個人情報への影響を確認。公表日が確定できないため、カレンダーへの掲載は保留。reported_onは今回の確認日であり、公表日ではない。"
   }

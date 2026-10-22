@@ -8,19 +8,25 @@
   "published_on": "2026-10-09",
   "first_published_on": "2026-10-09",
   "publication_kind": "initial",
-  "occurred_on": null,
+  "occurred_on": "2026-10-04",
   "detected_on": "2026-10-06",
-  "updated_on": "2026-10-15",
+  "updated_on": "2026-10-23",
   "verification": "official",
   "incident_type": "attack",
   "leak_status": "confirmed",
-  "summary": "子会社の会員管理システムから情報が取得されたことを確認。対象範囲は精査中。",
+  "summary": "会員管理システムから会員情報の外部取得を確認。第2報で6,427,735件・6,383,279人と確定し、16日の訂正で対象項目を追加。",
   "impact": [
     {
-      "count": 6430000,
+      "count": 6427735,
       "unit": "records",
-      "qualifier": "maximum_approximate",
-      "description": "漏えい可能性のある会員番号。実人数ではない"
+      "qualifier": "exact",
+      "description": "外部送信を記録で確認した会員番号ベースの件数"
+    },
+    {
+      "count": 6383279,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "同一メールアドレスの複数会員データを1人として集計。会員件数と合算しない。"
     }
   ],
   "data_types": [
@@ -32,7 +38,9 @@
     "住所",
     "パスワードのハッシュ値",
     "ポイントカード番号",
-    "会員番号"
+    "会員番号",
+    "職業",
+    "ニックネーム"
   ],
   "cause": {
     "category": "unauthorized_access",
@@ -47,17 +55,50 @@
       "title": "会員管理システムへの不正アクセスによる会員情報流出",
       "published_on": "2026-10-09",
       "checked_on": "2026-10-15"
+    },
+    {
+      "url": "https://ssl4.eir-parts.net/doc/9278/tdnet/2894129/00.pdf",
+      "type": "official",
+      "title": "不正アクセスによる個人情報漏えいに関するお詫びとお知らせ（第2報）",
+      "published_on": "2026-10-13",
+      "checked_on": "2026-10-23"
+    },
+    {
+      "url": "https://ssl4.eir-parts.net/doc/9278/tdnet/2896130/00.pdf",
+      "type": "official",
+      "title": "第2報の一部訂正",
+      "published_on": "2026-10-16",
+      "checked_on": "2026-10-23"
     }
   ],
-  "notes": "漏えいを確認しているが、最大約643万件すべての流出を確定した数値ではない。決済情報は対象外。",
-  "updates": [],
+  "notes": "不正取得期間は10月4日〜6日。人数は有効会員6,170,908人・退会会員212,371人。会員カードのみの利用者、決済・口座情報、宅配買取の本人確認書類画像等は対象外。情報の外部公開やポイント不正利用は公表時点で未確認。",
+  "updates": [
+    {
+      "date": "2026-10-13",
+      "summary": "漏えい対象を会員番号ベース6,427,735件、同一メールアドレスをまとめた対象人数6,383,279人と確定。",
+      "source_index": 1
+    },
+    {
+      "date": "2026-10-16",
+      "summary": "対象項目に職業とニックネームを追記。件数・人数の変更はなし。",
+      "source_index": 2
+    }
+  ],
   "vendor_research": {
-    "checked_on": "2026-10-15",
+    "checked_on": "2026-10-23",
     "result": "not_identified",
     "note": "会員管理システムの事案について公式PDFを確認。外部の開発・運用会社名は記載されていません。",
     "source_checks": [
       {
         "source_index": 0,
+        "status": "reviewed"
+      },
+      {
+        "source_index": 1,
+        "status": "reviewed"
+      },
+      {
+        "source_index": 2,
         "status": "reviewed"
       }
     ]
