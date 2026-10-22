@@ -1,0 +1,54 @@
+{
+  "id": "mwt-mail-20261022",
+  "organization": {
+    "name": "名鉄観光サービス",
+    "sector": "企業・団体"
+  },
+  "title": "メール配信委託先への不正アクセスによる会員情報漏えいの可能性",
+  "summary": "メールマガジン会員の個人情報最大約13万人分が流出した可能性を公表。",
+  "published_on": "2026-10-22",
+  "first_published_on": "2026-10-22",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-22",
+  "verification": "secondary",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者の不正アクセス。具体的な侵入手法は未公表。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 130000,
+      "unit": "people",
+      "qualifier": "maximum_approximate",
+      "description": "メールマガジン会員の対象上限"
+    }
+  ],
+  "data_types": [
+    "氏名など（項目の詳細は未確認）"
+  ],
+  "related_vendor": "ラクスライトクラウド",
+  "sources": [
+    {
+      "url": "https://www.risktaisaku.com/articles/-/116437",
+      "type": "news",
+      "title": "メール配信委託先への不正アクセスによる会員情報漏えいの可能性",
+      "published_on": "2026-10-22",
+      "checked_on": "2026-10-22"
+    }
+  ],
+  "updates": [],
+  "notes": "時事通信配信記事で10月22日の発表を確認。公式本文は未取得。共通委託先の事件と人数を合算しない。",
+  "vendors": [
+    {
+      "name": "ラクスライトクラウド",
+      "role": "service",
+      "detail": "メールマガジン配信サービスの委託先。",
+      "source_index": 0
+    }
+  ]
+}

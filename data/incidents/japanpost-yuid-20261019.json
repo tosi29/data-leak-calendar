@@ -1,0 +1,58 @@
+{
+  "id": "japanpost-yuid-20261019",
+  "organization": {
+    "name": "日本郵政（ゆうID）",
+    "sector": "企業・団体"
+  },
+  "title": "ゆうゆうポイントへの不正ログインと会員情報漏えいの可能性",
+  "summary": "外部流出の認証情報を利用した不正ログインを確認。249アカウントで会員情報を閲覧された可能性。",
+  "published_on": "2026-10-19",
+  "first_published_on": "2026-10-19",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-10-15",
+  "updated_on": "2026-10-22",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "credentials",
+    "detail": "外部で漏えいしたID・パスワードのリストによるなりすましログイン。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 249,
+      "unit": "accounts",
+      "qualifier": "exact",
+      "description": "不正ログインされた可能性のあるアカウント"
+    },
+    {
+      "count": 83,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "上記のうち1アカウントに登録された住所情報。内数・別単位で合算しない。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "生年月日",
+    "性別",
+    "電話番号",
+    "メールアドレス",
+    "勤務先・家族状況・住所録（登録時）"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://files.japanpost.jp/assets/34d9d11432734cfaa759e78fe395b688/8ca4b69b953146bda1823819d3c1f5a3/20261019_01.pdf",
+      "type": "official",
+      "title": "ゆうゆうポイントへの不正ログインと会員情報漏えいの可能性",
+      "published_on": "2026-10-19",
+      "checked_on": "2026-10-22"
+    }
+  ],
+  "updates": [],
+  "notes": "9月29日公表の郵便局アプリ事案とは対象ゆうIDの重複なし。自社システムからの認証情報流出は未確認。"
+}

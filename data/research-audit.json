@@ -14372,6 +14372,1085 @@
         "au PAYは公式の検索結果と報道を照合し二次資料確認として掲載。",
         "岡山市・大阪市のふるさとチョイス一般注意喚起は独自の影響範囲未確定のため重複追加しない。"
       ]
+    },
+    {
+      "checked_on": "2026-10-22",
+      "coverage_start": "2026-07-01",
+      "coverage_end": "2026-10-22",
+      "scope": "10月22日の新規公表・続報、過去日取りこぼし補完、既存確認待ち29件の登録参照先の再取得。",
+      "method": [
+        "公式HTML・PDFと報道本文を照合。公式本文未取得の3件は報道確認として明示。",
+        "初報・続報・記事日を区別。人数・延べ件数・内数を合算しない。",
+        "確認待ち全件の登録参照先を取得試行。直近候補の続報を追加検索。HTTP/TLS失敗を記録。"
+      ],
+      "incident_count_before": 538,
+      "incident_count_after": 547,
+      "candidate_count_before": 29,
+      "candidate_count_after": 34,
+      "decision_counts": {
+        "published": 0,
+        "excluded": 0,
+        "pending": 29
+      },
+      "new_candidate_ids": [
+        "oct22-review-growth-next",
+        "oct22-review-joso-usb",
+        "oct22-review-sawara-library",
+        "oct22-review-shinryo",
+        "oct22-review-aeonstyle"
+      ],
+      "added_incident_ids": [
+        "capcom-id-20261022",
+        "mwt-mail-20261022",
+        "mirarth-dlps-20261022",
+        "np-atobarai-20261022",
+        "fujicco-campaign-20261022",
+        "keio-railway-20261021",
+        "japanpost-yuid-20261019",
+        "japanpost-international-inquiry-20261016",
+        "gogin-vendor-pc-20260914"
+      ],
+      "updated_incident_ids": [
+        "ntt-solmare-cmoa-20261016",
+        "nifty-lines-20261019",
+        "medley-atlink-20261015"
+      ],
+      "candidate_reviews": [
+        {
+          "candidate_id": "research-next-190687",
+          "organization": "鳥取県（介護事業者メール）",
+          "status": "pending",
+          "reason": "登録済み参照先の再取得を実施。公表日・個人情報への影響等の未解決事項は解消できず、確認待ち継続。取得成功は内容の確定を意味しない。",
+          "source_urls": [
+            "https://www.security-next.com/190687"
+          ],
+          "source_checks": [
+            {
+              "url": "https://www.security-next.com/190687",
+              "status": "retrieved"
+            }
+          ],
+          "incident_ids": [],
+          "reviewed_on": "2026-10-22",
+          "candidate": {
+            "id": "research-next-190687",
+            "organization": "鳥取県（介護事業者メール）",
+            "reported_on": "2026-10-06",
+            "verification": "pending",
+            "reference_url": "https://www.security-next.com/190687",
+            "note": "2026-10-21 再調査：報道本文を再取得し163件の誤送信を確認。県名・介護・163・8月28日で再検索したが公表日を特定する公式資料なし。発生日・10月6日の記事日を公表日に転用しない。",
+            "reviewed_on": "2026-10-21",
+            "checked_urls": [
+              "https://www.security-next.com/190687"
+            ]
+          }
+        },
+        {
+          "candidate_id": "research-20261014-avex-sumapura",
+          "organization": "エイベックス（スマプラ）",
+          "status": "pending",
+          "reason": "登録済み参照先の再取得を実施。公表日・個人情報への影響等の未解決事項は解消できず、確認待ち継続。取得成功は内容の確定を意味しない。",
+          "source_urls": [
+            "https://sp-movie.jp/",
+            "https://sp-movie.jp/qa",
+            "https://sp-movie.jp/info/id/29"
+          ],
+          "source_checks": [
+            {
+              "url": "https://sp-movie.jp/",
+              "status": "retrieved"
+            },
+            {
+              "url": "https://sp-movie.jp/qa",
+              "status": "retrieved"
+            },
+            {
+              "url": "https://sp-movie.jp/info/id/29",
+              "status": "retrieved"
+            }
+          ],
+          "incident_ids": [],
+          "reviewed_on": "2026-10-22",
+          "candidate": {
+            "id": "research-20261014-avex-sumapura",
+            "organization": "エイベックス（スマプラ）",
+            "reported_on": "2026-10-14",
+            "verification": "pending",
+            "reference_url": "https://sp-movie.jp/",
+            "note": "2026-10-21 再調査：スマプラ公式サイト・FAQを再取得し、サービス再開関連も検索。現在のお知らせ29はiPadログイン不具合で別件。侵害第2報の公表日を裏付ける資料は依然不足。",
+            "reviewed_on": "2026-10-21",
+            "checked_urls": [
+              "https://sp-movie.jp/",
+              "https://sp-movie.jp/qa",
+              "https://sp-movie.jp/info/id/29"
+            ]
+          }
+        },
+        {
+          "candidate_id": "aug-review-next-189036",
+          "organization": "学習適応性検査の結果シートが所在不明 - 北教大付属校",
+          "status": "pending",
+          "reason": "登録済み参照先の再取得を実施。公表日・個人情報への影響等の未解決事項は解消できず、確認待ち継続。取得成功は内容の確定を意味しない。",
+          "source_urls": [
+            "https://www.security-next.com/189036"
+          ],
+          "source_checks": [
+            {
+              "url": "https://www.security-next.com/189036",
+              "status": "retrieved"
+            }
+          ],
+          "incident_ids": [],
+          "reviewed_on": "2026-10-22",
+          "candidate": {
+            "id": "aug-review-next-189036",
+            "organization": "学習適応性検査の結果シートが所在不明 - 北教大付属校",
+            "reported_on": "2026-08-25",
+            "verification": "pending",
+            "reference_url": "https://www.security-next.com/189036",
+            "note": "2026-10-21 再調査：報道を再取得し23人分の検査結果シート紛失を照合。大学・釧路校・学習適応性検査で再検索したが、2026年3月の発覚とは別の公表日を特定できず。",
+            "reviewed_on": "2026-10-21",
+            "checked_urls": [
+              "https://www.security-next.com/189036"
+            ]
+          }
+        },
+        {
+          "candidate_id": "aug-review-next-188705",
+          "organization": "児童発達支援センターで個人情報含むUSBメモリを紛失 - 釧路町",
+          "status": "pending",
+          "reason": "登録済み参照先の再取得を実施。公表日・個人情報への影響等の未解決事項は解消できず、確認待ち継続。取得成功は内容の確定を意味しない。",
+          "source_urls": [
+            "https://www.security-next.com/188705"
+          ],
+          "source_checks": [
+            {
+              "url": "https://www.security-next.com/188705",
+              "status": "retrieved"
+            }
+          ],
+          "incident_ids": [],
+          "reviewed_on": "2026-10-22",
+          "candidate": {
+            "id": "aug-review-next-188705",
+            "organization": "児童発達支援センターで個人情報含むUSBメモリを紛失 - 釧路町",
+            "reported_on": "2026-08-14",
+            "verification": "pending",
+            "reference_url": "https://www.security-next.com/188705",
+            "note": "2026-10-21 再調査：釧路町・児童発達支援・USBで再検索。7月9日の発覚・16日の町への報告は確認できるが、公表日を示す新資料なし。",
+            "reviewed_on": "2026-10-21",
+            "checked_urls": [
+              "https://www.security-next.com/188705"
+            ]
+          }
+        },
+        {
+          "candidate_id": "aug-review-next-188714",
+          "organization": "税額決定通知書を廃業事業所へ誤送付、所在不明に - 長岡市",
+          "status": "pending",
+          "reason": "登録済み参照先の再取得を実施。公表日・個人情報への影響等の未解決事項は解消できず、確認待ち継続。取得成功は内容の確定を意味しない。",
+          "source_urls": [
+            "https://www.security-next.com/188714"
+          ],
+          "source_checks": [
+            {
+              "url": "https://www.security-next.com/188714",
+              "status": "retrieved"
+            }
+          ],
+          "incident_ids": [],
+          "reviewed_on": "2026-10-22",
+          "candidate": {
+            "id": "aug-review-next-188714",
+            "organization": "税額決定通知書を廃業事業所へ誤送付、所在不明に - 長岡市",
+            "reported_on": "2026-08-12",
+            "verification": "pending",
+            "reference_url": "https://www.security-next.com/188714",
+            "note": "2026-10-21 再調査：長岡市・廃業事業所・税額通知で再検索。6人分の誤送付の本文は再取得できたが、5月15日の発送日とは別の公表日は未確定。",
+            "reviewed_on": "2026-10-21",
+            "checked_urls": [
+              "https://www.security-next.com/188714"
+            ]
+          }
+        },
+        {
+          "candidate_id": "aug-review-next-188369",
+          "organization": "イベント参加者の保護者向けメールで誤送信 - 霧島市",
+          "status": "pending",
+          "reason": "登録済み参照先の再取得を実施。公表日・個人情報への影響等の未解決事項は解消できず、確認待ち継続。取得成功は内容の確定を意味しない。",
+          "source_urls": [
+            "https://www.security-next.com/188369"
+          ],
+          "source_checks": [
+            {
+              "url": "https://www.security-next.com/188369",
+              "status": "retrieved"
+            }
+          ],
+          "incident_ids": [],
+          "reviewed_on": "2026-10-22",
+          "candidate": {
+            "id": "aug-review-next-188369",
+            "organization": "イベント参加者の保護者向けメールで誤送信 - 霧島市",
+            "reported_on": "2026-08-05",
+            "verification": "pending",
+            "reference_url": "https://www.security-next.com/188369",
+            "note": "2026-10-21 再調査：霧島市・保護者8人・6月26日で再検索し報道を再取得。別の14人の誤送信や過年度資料を除外したが、対象事案の公表日資料なし。",
+            "reviewed_on": "2026-10-21",
+            "checked_urls": [
+              "https://www.security-next.com/188369"
+            ]
+          }
+        },
+        {
+          "candidate_id": "aug-review-next-187953",
+          "organization": "検針員が個人情報含む資料を一時紛失 - 広島県水道広域連合企業団",
+          "status": "pending",
+          "reason": "登録済み参照先の再取得を実施。公表日・個人情報への影響等の未解決事項は解消できず、確認待ち継続。取得成功は内容の確定を意味しない。",
+          "source_urls": [
+            "https://www.security-next.com/187953",
+            "https://ks-miyoshi.co.jp/news/",
+            "https://ks-miyoshi.co.jp/2026/07/"
+          ],
+          "source_checks": [
+            {
+              "url": "https://www.security-next.com/187953",
+              "status": "retrieved"
+            },
+            {
+              "url": "https://ks-miyoshi.co.jp/news/",
+              "status": "retrieved"
+            },
+            {
+              "url": "https://ks-miyoshi.co.jp/2026/07/",
+              "status": "retrieved"
+            }
+          ],
+          "incident_ids": [],
+          "reviewed_on": "2026-10-22",
+          "candidate": {
+            "id": "aug-review-next-187953",
+            "organization": "検針員が個人情報含む資料を一時紛失 - 広島県水道広域連合企業団",
+            "reported_on": "2026-08-03",
+            "verification": "pending",
+            "reference_url": "https://www.security-next.com/187953",
+            "note": "2026-10-21 再調査：委託先「暮らしサポートみよし」の検索結果に7月10日付の検針リスト紛失見出しを発見。ただし現行一覧・7月アーカイブから該当記事が消えており、440件の事案との本文照合未完了。8月3日の報道日を転用しない。",
+            "reviewed_on": "2026-10-21",
+            "checked_urls": [
+              "https://www.security-next.com/187953",
+              "https://ks-miyoshi.co.jp/news/",
+              "https://ks-miyoshi.co.jp/2026/07/"
+            ]
+          }
+        },
+        {
+          "candidate_id": "jul-review-next-187814",
+          "organization": "顧客情報含む伝票など誤廃棄 - 東京三協信金",
+          "status": "pending",
+          "reason": "登録済み参照先の再取得を実施。公表日・個人情報への影響等の未解決事項は解消できず、確認待ち継続。取得成功は内容の確定を意味しない。",
+          "source_urls": [
+            "https://www.security-next.com/187814"
+          ],
+          "source_checks": [
+            {
+              "url": "https://www.security-next.com/187814",
+              "status": "retrieved"
+            }
+          ],
+          "incident_ids": [],
+          "reviewed_on": "2026-10-22",
+          "candidate": {
+            "id": "jul-review-next-187814",
+            "organization": "顧客情報含む伝票など誤廃棄 - 東京三協信金",
+            "reported_on": "2026-07-29",
+            "verification": "pending",
+            "reference_url": "https://www.security-next.com/187814",
+            "note": "2026-10-21 再調査：東京三協信用金庫・9箱・伝票の追加検索と報道再取得を実施。誤廃棄と5月14日の発覚は照合できたが、公式公表日を確定できず。",
+            "reviewed_on": "2026-10-21",
+            "checked_urls": [
+              "https://www.security-next.com/187814"
+            ]
+          }
+        },
+        {
+          "candidate_id": "jul-review-next-187865",
+          "organization": "サイト公開のPDFファイルでマスキング処理に不備 - 南砺市",
+          "status": "pending",
+          "reason": "登録済み参照先の再取得を実施。公表日・個人情報への影響等の未解決事項は解消できず、確認待ち継続。取得成功は内容の確定を意味しない。",
+          "source_urls": [
+            "https://www.security-next.com/187865",
+            "https://cybersecurity-jp.com/news/115188",
+            "https://www.city.nanto.toyama.jp/soshiki/nogyo/7427.html"
+          ],
+          "source_checks": [
+            {
+              "url": "https://www.security-next.com/187865",
+              "status": "retrieved"
+            },
+            {
+              "url": "https://cybersecurity-jp.com/news/115188",
+              "status": "retrieved"
+            },
+            {
+              "url": "https://www.city.nanto.toyama.jp/soshiki/nogyo/7427.html",
+              "status": "unavailable",
+              "detail": "HTTP Error 404: Not Found"
+            }
+          ],
+          "incident_ids": [],
+          "reviewed_on": "2026-10-22",
+          "candidate": {
+            "id": "jul-review-next-187865",
+            "organization": "サイト公開のPDFファイルでマスキング処理に不備 - 南砺市",
+            "reported_on": "2026-07-27",
+            "verification": "pending",
+            "reference_url": "https://www.security-next.com/187865",
+            "note": "2026-10-21 再調査：新たな報道本文は7月13日発表とするが、既存の15日表記との食い違いを解消する公式ページは404。1,380件には法人を含む。日付確定を保留。",
+            "reviewed_on": "2026-10-21",
+            "checked_urls": [
+              "https://www.security-next.com/187865",
+              "https://cybersecurity-jp.com/news/115188",
+              "https://www.city.nanto.toyama.jp/soshiki/nogyo/7427.html"
+            ]
+          }
+        },
+        {
+          "candidate_id": "jul-review-next-187309",
+          "organization": "代表メールに不正アクセス、スパム送信の踏み台に - 愛知農済",
+          "status": "pending",
+          "reason": "登録済み参照先の再取得を実施。公表日・個人情報への影響等の未解決事項は解消できず、確認待ち継続。取得成功は内容の確定を意味しない。",
+          "source_urls": [
+            "https://www.security-next.com/187309",
+            "https://www.nosai-aichi.jp/news/entry-1120.html"
+          ],
+          "source_checks": [
+            {
+              "url": "https://www.security-next.com/187309",
+              "status": "retrieved"
+            },
+            {
+              "url": "https://www.nosai-aichi.jp/news/entry-1120.html",
+              "status": "retrieved"
+            }
+          ],
+          "incident_ids": [],
+          "reviewed_on": "2026-10-22",
+          "candidate": {
+            "id": "jul-review-next-187309",
+            "organization": "代表メールに不正アクセス、スパム送信の踏み台に - 愛知農済",
+            "reported_on": "2026-07-24",
+            "verification": "pending",
+            "reference_url": "https://www.security-next.com/187309",
+            "note": "2026-10-21 再調査：公式7月1日通知を再取得し代表アカウント悪用を再確認。追加検索でも保存メール内の個人情報への具体的影響や漏えい続報は確認できず。",
+            "reviewed_on": "2026-10-21",
+            "checked_urls": [
+              "https://www.security-next.com/187309",
+              "https://www.nosai-aichi.jp/news/entry-1120.html"
+            ]
+          }
+        },
+        {
+          "candidate_id": "jul-review-next-187303",
+          "organization": "マルウェア感染で業務に影響、情報漏洩の可能性も - 日本交通",
+          "status": "pending",
+          "reason": "登録済み参照先の再取得を実施。公表日・個人情報への影響等の未解決事項は解消できず、確認待ち継続。取得成功は内容の確定を意味しない。",
+          "source_urls": [
+            "https://www.security-next.com/187303",
+            "https://www.nihon-kotsu.co.jp/news/20260819-3385/",
+            "https://www.nihon-kotsu.co.jp/news/20261005-3432/"
+          ],
+          "source_checks": [
+            {
+              "url": "https://www.security-next.com/187303",
+              "status": "retrieved"
+            },
+            {
+              "url": "https://www.nihon-kotsu.co.jp/news/20260819-3385/",
+              "status": "retrieved"
+            },
+            {
+              "url": "https://www.nihon-kotsu.co.jp/news/20261005-3432/",
+              "status": "retrieved"
+            }
+          ],
+          "incident_ids": [],
+          "reviewed_on": "2026-10-22",
+          "candidate": {
+            "id": "jul-review-next-187303",
+            "organization": "マルウェア感染で業務に影響、情報漏洩の可能性も - 日本交通",
+            "reported_on": "2026-07-23",
+            "verification": "pending",
+            "reference_url": "https://www.security-next.com/187303",
+            "note": "2026-10-21 再調査：新たに8月19日第4報と10月5日復旧案内を取得。保有ファイルの一部流出は確認済みだが、個人情報の対象・種類は示されていないため保留。",
+            "reviewed_on": "2026-10-21",
+            "checked_urls": [
+              "https://www.security-next.com/187303",
+              "https://www.nihon-kotsu.co.jp/news/20260819-3385/",
+              "https://www.nihon-kotsu.co.jp/news/20261005-3432/"
+            ]
+          }
+        },
+        {
+          "candidate_id": "jul-review-next-187470",
+          "organization": "サーバがランサム被害、影響など詳細を調査 - 金子農機",
+          "status": "pending",
+          "reason": "登録済み参照先の再取得を実施。公表日・個人情報への影響等の未解決事項は解消できず、確認待ち継続。取得成功は内容の確定を意味しない。",
+          "source_urls": [
+            "https://www.security-next.com/187470",
+            "https://www.kanekokk.co.jp/important-information/20260820/"
+          ],
+          "source_checks": [
+            {
+              "url": "https://www.security-next.com/187470",
+              "status": "retrieved"
+            },
+            {
+              "url": "https://www.kanekokk.co.jp/important-information/20260820/",
+              "status": "retrieved"
+            }
+          ],
+          "incident_ids": [],
+          "reviewed_on": "2026-10-22",
+          "candidate": {
+            "id": "jul-review-next-187470",
+            "organization": "サーバがランサム被害、影響など詳細を調査 - 金子農機",
+            "reported_on": "2026-07-16",
+            "verification": "pending",
+            "reference_url": "https://www.security-next.com/187470",
+            "note": "2026-10-21 再調査：8月20日の復旧案内まで再取得。ランサムウェア被害後の業務復旧は確認できたが、個人情報の対象・漏えい可能性を特定する記載なし。",
+            "reviewed_on": "2026-10-21",
+            "checked_urls": [
+              "https://www.security-next.com/187470",
+              "https://www.kanekokk.co.jp/important-information/20260820/"
+            ]
+          }
+        },
+        {
+          "candidate_id": "jul-review-next-187068",
+          "organization": "クラファンサイトでフィッシング - サービス内メッセージ機能を悪用",
+          "status": "pending",
+          "reason": "登録済み参照先の再取得を実施。公表日・個人情報への影響等の未解決事項は解消できず、確認待ち継続。取得成功は内容の確定を意味しない。",
+          "source_urls": [
+            "https://www.security-next.com/187068",
+            "https://www.makuake.co.jp/news/archives/385"
+          ],
+          "source_checks": [
+            {
+              "url": "https://www.security-next.com/187068",
+              "status": "retrieved"
+            },
+            {
+              "url": "https://www.makuake.co.jp/news/archives/385",
+              "status": "unavailable",
+              "detail": "HTTP Error 403: Forbidden"
+            }
+          ],
+          "incident_ids": [],
+          "reviewed_on": "2026-10-22",
+          "candidate": {
+            "id": "jul-review-next-187068",
+            "organization": "クラファンサイトでフィッシング - サービス内メッセージ機能を悪用",
+            "reported_on": "2026-07-09",
+            "verification": "pending",
+            "reference_url": "https://www.security-next.com/187068",
+            "note": "2026-10-21 再調査：Makuakeの7月8日注意喚起を検索経由で再確認。悪質なメッセージ・フィッシングの注意喚起はあるが、実際に影響した個人情報の範囲が未確認。",
+            "reviewed_on": "2026-10-21",
+            "checked_urls": [
+              "https://www.security-next.com/187068",
+              "https://www.makuake.co.jp/news/archives/385"
+            ]
+          }
+        },
+        {
+          "candidate_id": "jul-review-next-186763",
+          "organization": "講演会参加希望者向けのメールで誤送信 - 妙高市",
+          "status": "pending",
+          "reason": "登録済み参照先の再取得を実施。公表日・個人情報への影響等の未解決事項は解消できず、確認待ち継続。取得成功は内容の確定を意味しない。",
+          "source_urls": [
+            "https://www.security-next.com/186763",
+            "https://www.city.myoko.niigata.jp/docs/84510.html"
+          ],
+          "source_checks": [
+            {
+              "url": "https://www.security-next.com/186763",
+              "status": "retrieved"
+            },
+            {
+              "url": "https://www.city.myoko.niigata.jp/docs/84510.html",
+              "status": "retrieved"
+            }
+          ],
+          "incident_ids": [],
+          "reviewed_on": "2026-10-22",
+          "candidate": {
+            "id": "jul-review-next-186763",
+            "organization": "講演会参加希望者向けのメールで誤送信 - 妙高市",
+            "reported_on": "2026-07-06",
+            "verification": "pending",
+            "reference_url": "https://www.security-next.com/186763",
+            "note": "2026-10-21 再調査：妙高市・講演会・110人・6月24日で再検索し元記事を再取得。公式参照先は過年度資料で、今回の誤送信の公表日を確定できず。",
+            "reviewed_on": "2026-10-21",
+            "checked_urls": [
+              "https://www.security-next.com/186763",
+              "https://www.city.myoko.niigata.jp/docs/84510.html"
+            ]
+          }
+        },
+        {
+          "candidate_id": "jul-review-next-186707",
+          "organization": "防災メールサービスが迷惑メール送信に悪用 - 和歌山県",
+          "status": "pending",
+          "reason": "登録済み参照先の再取得を実施。公表日・個人情報への影響等の未解決事項は解消できず、確認待ち継続。取得成功は内容の確定を意味しない。",
+          "source_urls": [
+            "https://www.security-next.com/186707",
+            "https://www.pref.wakayama.lg.jp/prefg/011400/important_news.html"
+          ],
+          "source_checks": [
+            {
+              "url": "https://www.security-next.com/186707",
+              "status": "retrieved"
+            },
+            {
+              "url": "https://www.pref.wakayama.lg.jp/prefg/011400/important_news.html",
+              "status": "retrieved"
+            }
+          ],
+          "incident_ids": [],
+          "reviewed_on": "2026-10-22",
+          "candidate": {
+            "id": "jul-review-next-186707",
+            "organization": "防災メールサービスが迷惑メール送信に悪用 - 和歌山県",
+            "reported_on": "2026-07-03",
+            "verification": "pending",
+            "reference_url": "https://www.security-next.com/186707",
+            "note": "2026-10-21 再調査：公式重要情報ページを再取得。防災メール悪用・復旧は確認できるが登録個人情報への流出・閲覧の影響は未確認。迷惑メールの送信数を被害人数としない。",
+            "reviewed_on": "2026-10-21",
+            "checked_urls": [
+              "https://www.security-next.com/186707",
+              "https://www.pref.wakayama.lg.jp/prefg/011400/important_news.html"
+            ]
+          }
+        },
+        {
+          "candidate_id": "cross-julaug-4ad25ee442",
+          "organization": "樋口商会",
+          "status": "pending",
+          "reason": "登録済み参照先の再取得を実施。公表日・個人情報への影響等の未解決事項は解消できず、確認待ち継続。取得成功は内容の確定を意味しない。",
+          "source_urls": [
+            "https://and-secure.com/2026/10/10/incident-report-2026-apr-sep/",
+            "https://www.higuchi-inc.co.jp/",
+            "https://www.higuchi-inc.co.jp/newsrelease/company/"
+          ],
+          "source_checks": [
+            {
+              "url": "https://and-secure.com/2026/10/10/incident-report-2026-apr-sep/",
+              "status": "retrieved"
+            },
+            {
+              "url": "https://www.higuchi-inc.co.jp/",
+              "status": "unavailable",
+              "detail": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1127)>"
+            },
+            {
+              "url": "https://www.higuchi-inc.co.jp/newsrelease/company/",
+              "status": "unavailable",
+              "detail": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1127)>"
+            }
+          ],
+          "incident_ids": [],
+          "reviewed_on": "2026-10-22",
+          "candidate": {
+            "id": "cross-julaug-4ad25ee442",
+            "organization": "樋口商会",
+            "reported_on": "2026-10-18",
+            "verification": "pending",
+            "reference_url": "https://and-secure.com/2026/10/10/incident-report-2026-apr-sep/",
+            "note": "2026-10-21 再調査：公式検索結果に8月5日「調査結果および経過報告」を再確認。公式本文はTLS/502で取得できず、個人情報への影響の結論は確認待ち。",
+            "reviewed_on": "2026-10-21",
+            "checked_urls": [
+              "https://and-secure.com/2026/10/10/incident-report-2026-apr-sep/",
+              "https://www.higuchi-inc.co.jp/",
+              "https://www.higuchi-inc.co.jp/newsrelease/company/"
+            ]
+          }
+        },
+        {
+          "candidate_id": "cross-julaug-80b22a4248",
+          "organization": "日本テレネット",
+          "status": "pending",
+          "reason": "登録済み参照先の再取得を実施。公表日・個人情報への影響等の未解決事項は解消できず、確認待ち継続。取得成功は内容の確定を意味しない。",
+          "source_urls": [
+            "https://and-secure.com/2026/10/10/incident-report-2026-apr-sep/",
+            "https://www.nippon-tele.net/release/20260612_4659/"
+          ],
+          "source_checks": [
+            {
+              "url": "https://and-secure.com/2026/10/10/incident-report-2026-apr-sep/",
+              "status": "retrieved"
+            },
+            {
+              "url": "https://www.nippon-tele.net/release/20260612_4659/",
+              "status": "unavailable",
+              "detail": "HTTP Error 500: Internal Server Error"
+            }
+          ],
+          "incident_ids": [],
+          "reviewed_on": "2026-10-22",
+          "candidate": {
+            "id": "cross-julaug-80b22a4248",
+            "organization": "日本テレネット",
+            "reported_on": "2026-10-18",
+            "verification": "pending",
+            "reference_url": "https://and-secure.com/2026/10/10/incident-report-2026-apr-sep/",
+            "note": "2026-10-21 再調査：6月12日最終報URLを再取得したが500/タイムアウト。検索経由で6月公表を確認したものの、提供元自身の期間内続報と個人情報への影響の対応を本文で確定できず。",
+            "reviewed_on": "2026-10-21",
+            "checked_urls": [
+              "https://and-secure.com/2026/10/10/incident-report-2026-apr-sep/",
+              "https://www.nippon-tele.net/release/20260612_4659/"
+            ]
+          }
+        },
+        {
+          "candidate_id": "cross-julaug-089597652a",
+          "organization": "T&K TOKA",
+          "status": "pending",
+          "reason": "登録済み参照先の再取得を実施。公表日・個人情報への影響等の未解決事項は解消できず、確認待ち継続。取得成功は内容の確定を意味しない。",
+          "source_urls": [
+            "https://satimo.org/2026/10/data-breach-list-2026/",
+            "https://www.toka-global.com/news/detail/post_210.html"
+          ],
+          "source_checks": [
+            {
+              "url": "https://satimo.org/2026/10/data-breach-list-2026/",
+              "status": "retrieved"
+            },
+            {
+              "url": "https://www.toka-global.com/news/detail/post_210.html",
+              "status": "retrieved"
+            }
+          ],
+          "incident_ids": [],
+          "reviewed_on": "2026-10-22",
+          "candidate": {
+            "id": "cross-julaug-089597652a",
+            "organization": "T&K TOKA",
+            "reported_on": "2026-10-18",
+            "verification": "pending",
+            "reference_url": "https://satimo.org/2026/10/data-breach-list-2026/",
+            "note": "2026-10-21 再調査：8月28日公式通知を新たに取得。ネットワーク侵害・業務影響は記載されるが、個人情報への具体的影響の記載を確認できず。",
+            "reviewed_on": "2026-10-21",
+            "checked_urls": [
+              "https://satimo.org/2026/10/data-breach-list-2026/",
+              "https://www.toka-global.com/news/detail/post_210.html"
+            ]
+          }
+        },
+        {
+          "candidate_id": "cross-julaug-cc9b285dcc",
+          "organization": "01銀行",
+          "status": "pending",
+          "reason": "登録済み参照先の再取得を実施。公表日・個人情報への影響等の未解決事項は解消できず、確認待ち継続。取得成功は内容の確定を意味しない。",
+          "source_urls": [
+            "https://satimo.org/2026/10/data-breach-list-2026/",
+            "https://01bank.co.jp/news/pdf/2026/0827.pdf"
+          ],
+          "source_checks": [
+            {
+              "url": "https://satimo.org/2026/10/data-breach-list-2026/",
+              "status": "retrieved"
+            },
+            {
+              "url": "https://01bank.co.jp/news/pdf/2026/0827.pdf",
+              "status": "retrieved"
+            }
+          ],
+          "incident_ids": [],
+          "reviewed_on": "2026-10-22",
+          "candidate": {
+            "id": "cross-julaug-cc9b285dcc",
+            "organization": "01銀行",
+            "reported_on": "2026-10-18",
+            "verification": "pending",
+            "reference_url": "https://satimo.org/2026/10/data-breach-list-2026/",
+            "note": "2026-10-21 再調査：8月27日公式PDFを再取得。窃取された顧客識別情報・メールアドレスの対象は最大100社であり、旧メモの100件を訂正。法人顧客情報と個人情報の対応は未確定。",
+            "reviewed_on": "2026-10-21",
+            "checked_urls": [
+              "https://satimo.org/2026/10/data-breach-list-2026/",
+              "https://01bank.co.jp/news/pdf/2026/0827.pdf"
+            ]
+          }
+        },
+        {
+          "candidate_id": "cross-julaug-8cbf52aa1d",
+          "organization": "両毛システムズ",
+          "status": "pending",
+          "reason": "登録済み参照先の再取得を実施。公表日・個人情報への影響等の未解決事項は解消できず、確認待ち継続。取得成功は内容の確定を意味しない。",
+          "source_urls": [
+            "https://satimo.org/2026/10/data-breach-list-2026/",
+            "https://www.ryomo.co.jp/news/202609_02.html",
+            "https://rocket-boys.co.jp/security-measures-lab/ryomo-systems-ransomware-supply-chain-impact-summary-2026/"
+          ],
+          "source_checks": [
+            {
+              "url": "https://satimo.org/2026/10/data-breach-list-2026/",
+              "status": "retrieved"
+            },
+            {
+              "url": "https://www.ryomo.co.jp/news/202609_02.html",
+              "status": "unavailable",
+              "detail": "<urlopen error [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1127)>"
+            },
+            {
+              "url": "https://rocket-boys.co.jp/security-measures-lab/ryomo-systems-ransomware-supply-chain-impact-summary-2026/",
+              "status": "unavailable",
+              "detail": "HTTP Error 403: Forbidden"
+            }
+          ],
+          "incident_ids": [],
+          "reviewed_on": "2026-10-22",
+          "candidate": {
+            "id": "cross-julaug-8cbf52aa1d",
+            "organization": "両毛システムズ",
+            "reported_on": "2026-10-18",
+            "verification": "pending",
+            "reference_url": "https://satimo.org/2026/10/data-breach-list-2026/",
+            "note": "2026-10-21 再調査：9月25日第3報に関する追加報道を発見。公式続報はTLSエラーで再取得できず、9月の公表日表記も資料間で異なる。顧客側の公表と提供元の公表を混同せず保留。",
+            "reviewed_on": "2026-10-21",
+            "checked_urls": [
+              "https://satimo.org/2026/10/data-breach-list-2026/",
+              "https://www.ryomo.co.jp/news/202609_02.html",
+              "https://rocket-boys.co.jp/security-measures-lab/ryomo-systems-ransomware-supply-chain-impact-summary-2026/"
+            ]
+          }
+        },
+        {
+          "candidate_id": "cross-julaug-78b6b332b6",
+          "organization": "日本スウェージロックFST",
+          "status": "pending",
+          "reason": "登録済み参照先の再取得を実施。公表日・個人情報への影響等の未解決事項は解消できず、確認待ち継続。取得成功は内容の確定を意味しない。",
+          "source_urls": [
+            "https://rocket-boys.co.jp/security-measures-lab/2026-08-data-breach-cases-summary/",
+            "https://scan.netsecurity.ne.jp/article/2026/09/11/56209.html",
+            "https://www.japan.swagelok.com/whatsnew/notice-of-march-2026-cyber-incident"
+          ],
+          "source_checks": [
+            {
+              "url": "https://rocket-boys.co.jp/security-measures-lab/2026-08-data-breach-cases-summary/",
+              "status": "unavailable",
+              "detail": "HTTP Error 403: Forbidden"
+            },
+            {
+              "url": "https://scan.netsecurity.ne.jp/article/2026/09/11/56209.html",
+              "status": "unavailable",
+              "detail": "HTTP Error 403: Forbidden"
+            },
+            {
+              "url": "https://www.japan.swagelok.com/whatsnew/notice-of-march-2026-cyber-incident",
+              "status": "unavailable",
+              "detail": "HTTP Error 404: Not Found"
+            }
+          ],
+          "incident_ids": [],
+          "reviewed_on": "2026-10-22",
+          "candidate": {
+            "id": "cross-julaug-78b6b332b6",
+            "organization": "日本スウェージロックFST",
+            "reported_on": "2026-10-18",
+            "verification": "pending",
+            "reference_url": "https://rocket-boys.co.jp/security-measures-lab/2026-08-data-breach-cases-summary/",
+            "note": "2026-10-21 再調査：ScanNetSecurityの公開本文をブラウザーで再取得し8月26日発表・3月10日攻撃を確認。公式旧URLは404で、公開部分だけでは個人情報の項目・影響の確度を照合できず。",
+            "reviewed_on": "2026-10-21",
+            "checked_urls": [
+              "https://rocket-boys.co.jp/security-measures-lab/2026-08-data-breach-cases-summary/",
+              "https://scan.netsecurity.ne.jp/article/2026/09/11/56209.html",
+              "https://www.japan.swagelok.com/whatsnew/notice-of-march-2026-cyber-incident"
+            ]
+          }
+        },
+        {
+          "candidate_id": "cross-julaug-63a1e4ac6c",
+          "organization": "環境開発工業",
+          "status": "pending",
+          "reason": "登録済み参照先の再取得を実施。公表日・個人情報への影響等の未解決事項は解消できず、確認待ち継続。取得成功は内容の確定を意味しない。",
+          "source_urls": [
+            "https://legalagent.co.jp/legal-lab/security-incidents/",
+            "https://www.kklp.co.jp/3834"
+          ],
+          "source_checks": [
+            {
+              "url": "https://legalagent.co.jp/legal-lab/security-incidents/",
+              "status": "retrieved"
+            },
+            {
+              "url": "https://www.kklp.co.jp/3834",
+              "status": "retrieved"
+            }
+          ],
+          "incident_ids": [],
+          "reviewed_on": "2026-10-22",
+          "candidate": {
+            "id": "cross-julaug-63a1e4ac6c",
+            "organization": "環境開発工業",
+            "reported_on": "2026-10-18",
+            "verification": "pending",
+            "reference_url": "https://legalagent.co.jp/legal-lab/security-incidents/",
+            "note": "2026-10-21 再調査：環境開発工業の旧通知URLは現在該当通知本文を返さない。7月21日の通知を再検索したが、個人情報への具体的影響を示す追加資料なし。",
+            "reviewed_on": "2026-10-21",
+            "checked_urls": [
+              "https://legalagent.co.jp/legal-lab/security-incidents/",
+              "https://www.kklp.co.jp/3834"
+            ]
+          }
+        },
+        {
+          "candidate_id": "cross-julaug-981dc92694",
+          "organization": "埼玉県（LPガス補助資料）",
+          "status": "pending",
+          "reason": "登録済み参照先の再取得を実施。公表日・個人情報への影響等の未解決事項は解消できず、確認待ち継続。取得成功は内容の確定を意味しない。",
+          "source_urls": [
+            "https://www.pref.saitama.lg.jp/a0403/news/page/news2026082401.html"
+          ],
+          "source_checks": [
+            {
+              "url": "https://www.pref.saitama.lg.jp/a0403/news/page/news2026082401.html",
+              "status": "retrieved"
+            }
+          ],
+          "incident_ids": [],
+          "reviewed_on": "2026-10-22",
+          "candidate": {
+            "id": "cross-julaug-981dc92694",
+            "organization": "埼玉県（LPガス補助資料）",
+            "reported_on": "2026-10-18",
+            "verification": "pending",
+            "reference_url": "https://www.pref.saitama.lg.jp/a0403/news/page/news2026082401.html",
+            "note": "2026-10-21 再調査：埼玉県公式本文を再取得しLPガス事業者11件の口座等の誤送付を確認。個人事業主を含むかは不明で、個人情報への影響は未確定。",
+            "reviewed_on": "2026-10-21",
+            "checked_urls": [
+              "https://www.pref.saitama.lg.jp/a0403/news/page/news2026082401.html"
+            ]
+          }
+        },
+        {
+          "candidate_id": "research-papyless-renta-20261019",
+          "organization": "パピレス（Renta!）",
+          "status": "pending",
+          "reason": "10月21日の公式告知を取得。不正アクセスの可能性・サービス停止を説明するが、個人情報の対象項目・範囲は未確定。",
+          "source_urls": [
+            "https://www.itmedia.co.jp/news/article/2610/19/2000002379/",
+            "https://renta.papy.co.jp/renta/sc/frm/info/?id=202610_u_991",
+            "https://ufocatch.com/document/TD2026101900023",
+            "https://gamebiz.jp/news/434271",
+            "https://papy.co.jp/ir/sc/index/ir_news.html",
+            "https://papy.co.jp/news/sc/index/article/2026/20261021.html"
+          ],
+          "source_checks": [
+            {
+              "url": "https://www.itmedia.co.jp/news/article/2610/19/2000002379/",
+              "status": "retrieved"
+            },
+            {
+              "url": "https://renta.papy.co.jp/renta/sc/frm/info/?id=202610_u_991",
+              "status": "unavailable",
+              "detail": "HTTP Error 503: Service Unavailable"
+            },
+            {
+              "url": "https://ufocatch.com/document/TD2026101900023",
+              "status": "unavailable",
+              "detail": "HTTP Error 403: Forbidden"
+            },
+            {
+              "url": "https://gamebiz.jp/news/434271",
+              "status": "unavailable",
+              "detail": "HTTP Error 503: Service Temporarily Unavailable"
+            },
+            {
+              "url": "https://papy.co.jp/ir/sc/index/ir_news.html",
+              "status": "retrieved"
+            },
+            {
+              "url": "https://papy.co.jp/news/sc/index/article/2026/20261021.html",
+              "status": "retrieved"
+            }
+          ],
+          "incident_ids": [],
+          "reviewed_on": "2026-10-22",
+          "candidate": {
+            "id": "research-papyless-renta-20261019",
+            "organization": "パピレス（Renta!）",
+            "reported_on": "2026-10-19",
+            "verification": "pending",
+            "reference_url": "https://www.itmedia.co.jp/news/article/2610/19/2000002379/",
+            "note": "2026-10-21 再調査：Renta!・パピレスの続報とIRを再検索。公式お知らせは503。取得できた10月19日の報道は侵害疑い・サービス停止・影響調査までで、個人情報への具体的影響を示す追加資料を確認できず。",
+            "reviewed_on": "2026-10-21",
+            "checked_urls": [
+              "https://www.itmedia.co.jp/news/article/2610/19/2000002379/",
+              "https://renta.papy.co.jp/renta/sc/frm/info/?id=202610_u_991",
+              "https://ufocatch.com/document/TD2026101900023",
+              "https://gamebiz.jp/news/434271",
+              "https://papy.co.jp/ir/sc/index/ir_news.html"
+            ]
+          }
+        },
+        {
+          "candidate_id": "oct20-review-30",
+          "organization": "三井住友DSアセットマネジメント",
+          "status": "pending",
+          "reason": "登録済み参照先の再取得を実施。公表日・個人情報への影響等の未解決事項は解消できず、確認待ち継続。取得成功は内容の確定を意味しない。",
+          "source_urls": [
+            "https://www.smd-am.co.jp/news/news/2026/news_20261016/"
+          ],
+          "source_checks": [
+            {
+              "url": "https://www.smd-am.co.jp/news/news/2026/news_20261016/",
+              "status": "retrieved"
+            }
+          ],
+          "incident_ids": [],
+          "reviewed_on": "2026-10-22",
+          "candidate": {
+            "id": "oct20-review-30",
+            "organization": "三井住友DSアセットマネジメント",
+            "reported_on": "2026-10-16",
+            "verification": "pending",
+            "reference_url": "https://www.smd-am.co.jp/news/news/2026/news_20261016/",
+            "note": "2026-10-21 再調査：10月16日の公式通知を再取得し続報検索。委託先侵害に伴う停止と復旧は確認したが、口座等の情報の流出・閲覧可能性を示す新たな記載なし。",
+            "reviewed_on": "2026-10-21",
+            "checked_urls": [
+              "https://www.smd-am.co.jp/news/news/2026/news_20261016/"
+            ]
+          }
+        },
+        {
+          "candidate_id": "oct21-review-onamae",
+          "organization": "GMOインターネット（お名前.com デスクトップクラウド）",
+          "status": "pending",
+          "reason": "公式告知を再取得。対象サービス名をデスクトップクラウドに訂正。サーバー台数を個人情報件数と扱わず、個人情報への影響は未確定。",
+          "source_urls": [
+            "https://www.onamae.com/news/article/11584/"
+          ],
+          "source_checks": [
+            {
+              "url": "https://www.onamae.com/news/article/11584/",
+              "status": "retrieved"
+            }
+          ],
+          "incident_ids": [],
+          "reviewed_on": "2026-10-22",
+          "candidate": {
+            "id": "oct21-review-onamae",
+            "organization": "GMOインターネット（お名前.com レンタルサーバー）",
+            "reported_on": "2026-10-21",
+            "verification": "pending",
+            "reference_url": "https://www.onamae.com/news/article/11584/",
+            "note": "26,739サーバーで不正プログラム・閲覧可能性を公表。顧客サーバー内の具体的な個人情報の種類・対象は未確認。サーバー台数を漏えい人数にしない。",
+            "reviewed_on": "2026-10-21",
+            "checked_urls": [
+              "https://www.onamae.com/news/article/11584/"
+            ]
+          }
+        },
+        {
+          "candidate_id": "oct21-review-futureshop",
+          "organization": "フューチャーショップ",
+          "status": "pending",
+          "reason": "登録済み参照先の再取得を実施。公表日・個人情報への影響等の未解決事項は解消できず、確認待ち継続。取得成功は内容の確定を意味しない。",
+          "source_urls": [
+            "https://www.future-shop.jp/news/2026/10/21.html"
+          ],
+          "source_checks": [
+            {
+              "url": "https://www.future-shop.jp/news/2026/10/21.html",
+              "status": "retrieved"
+            }
+          ],
+          "incident_ids": [],
+          "reviewed_on": "2026-10-22",
+          "candidate": {
+            "id": "oct21-review-futureshop",
+            "organization": "フューチャーショップ",
+            "reported_on": "2026-10-21",
+            "verification": "pending",
+            "reference_url": "https://www.future-shop.jp/news/2026/10/21.html",
+            "note": "不正アクセスを検知し一部サーバーを停止。個人情報への具体的影響は調査中で未確定。既掲載の10月7日メール配信基盤事案とは別の候補。",
+            "reviewed_on": "2026-10-21",
+            "checked_urls": [
+              "https://www.future-shop.jp/news/2026/10/21.html"
+            ]
+          }
+        },
+        {
+          "candidate_id": "oct21-review-hokan",
+          "organization": "hokan（hokan出納）",
+          "status": "pending",
+          "reason": "登録済み参照先の再取得を実施。公表日・個人情報への影響等の未解決事項は解消できず、確認待ち継続。取得成功は内容の確定を意味しない。",
+          "source_urls": [
+            "https://www.corp.hkn.jp/news/category/press/261019"
+          ],
+          "source_checks": [
+            {
+              "url": "https://www.corp.hkn.jp/news/category/press/261019",
+              "status": "unavailable",
+              "detail": "HTTP Error 404: Not Found"
+            }
+          ],
+          "incident_ids": [],
+          "reviewed_on": "2026-10-22",
+          "candidate": {
+            "id": "oct21-review-hokan",
+            "organization": "hokan（hokan出納）",
+            "reported_on": "2026-10-19",
+            "verification": "pending",
+            "reference_url": "https://www.corp.hkn.jp/news/category/press/261019",
+            "note": "公式本文を検索経由で確認。利用企業2社のデータ取得は確認したが、漏えいした個人情報の具体的項目・対象を明示していない。カード・口座番号・病歴の項目は漏えい未確認。詳細続報待ち。",
+            "reviewed_on": "2026-10-21",
+            "checked_urls": [
+              "https://www.corp.hkn.jp/news/category/press/261019"
+            ]
+          }
+        },
+        {
+          "candidate_id": "oct21-review-aeon",
+          "organization": "イオン",
+          "status": "pending",
+          "reason": "登録済み参照先の再取得を実施。公表日・個人情報への影響等の未解決事項は解消できず、確認待ち継続。取得成功は内容の確定を意味しない。",
+          "source_urls": [
+            "https://www.aeon.info/wp-content/uploads/news/important/pdf/2026/10/261021R_2.pdf"
+          ],
+          "source_checks": [
+            {
+              "url": "https://www.aeon.info/wp-content/uploads/news/important/pdf/2026/10/261021R_2.pdf",
+              "status": "unavailable",
+              "detail": "HTTP Error 403: Forbidden"
+            }
+          ],
+          "incident_ids": [],
+          "reviewed_on": "2026-10-22",
+          "candidate": {
+            "id": "oct21-review-aeon",
+            "organization": "イオン",
+            "reported_on": "2026-10-21",
+            "verification": "pending",
+            "reference_url": "https://www.aeon.info/wp-content/uploads/news/important/pdf/2026/10/261021R_2.pdf",
+            "note": "一部グループWebサイトへの不正アクセスを検知し個人情報の流出等を調査。具体的な対象情報・人数は未確認。公式PDFを直接取得できず、リンク付きのケータイWatch報道で照合。",
+            "reviewed_on": "2026-10-21",
+            "checked_urls": [
+              "https://www.aeon.info/wp-content/uploads/news/important/pdf/2026/10/261021R_2.pdf"
+            ]
+          }
+        }
+      ],
+      "excluded_examples": [
+        {
+          "organization": "メドレー（一部プロダクトの予防的停止）",
+          "url": "https://www.medley.jp/notice/post-185.html",
+          "reason": "アットリンク事案とは別の予防的対応。新たな漏えい事案として数えない。"
+        }
+      ],
+      "limitations": [
+        "全538既掲載事案の全出典を再点検したものではない。",
+        "確認待ちの参照先再取得は、内容の全件確定・期間全体の網羅を意味しない。"
+      ]
     }
   ]
 }

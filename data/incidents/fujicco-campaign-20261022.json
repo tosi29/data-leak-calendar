@@ -1,0 +1,54 @@
+{
+  "id": "fujicco-campaign-20261022",
+  "organization": {
+    "name": "フジッコ",
+    "sector": "企業・団体"
+  },
+  "title": "キャンペーン応募受付の委託先への不正アクセス",
+  "summary": "2キャンペーンの非会員向け応募情報延べ約15,500件が漏えいした可能性。",
+  "published_on": "2026-10-22",
+  "first_published_on": "2026-10-22",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-10-21",
+  "updated_on": "2026-10-22",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者の不正アクセス。具体的な侵入手法は未公表。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 15500,
+      "unit": "records",
+      "qualifier": "approximate",
+      "description": "同じ人による複数応募を含む延べ件数"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "年齢",
+    "性別",
+    "職業",
+    "婚姻状況",
+    "電話番号",
+    "メールアドレス",
+    "住所",
+    "アンケート情報"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.fujicco.co.jp/upload/pr_261022.pdf",
+      "type": "official",
+      "title": "キャンペーン応募受付の委託先への不正アクセス",
+      "published_on": "2026-10-22",
+      "checked_on": "2026-10-22"
+    }
+  ],
+  "updates": [],
+  "notes": "対象は「もっと！とろぉ～もっちキャンペーン 第2弾」と「フジッコ大感謝祭キャンペーン」の非会員向けWeb応募。会員応募・はがき・X応募は対象外。取得されたものとみなして対応しているが、実際の流出確定とは区別する。委託先名は未公表。"
+}

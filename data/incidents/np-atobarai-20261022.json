@@ -1,0 +1,49 @@
+{
+  "id": "np-atobarai-20261022",
+  "organization": {
+    "name": "ネットプロテクションズ",
+    "sector": "企業・団体"
+  },
+  "title": "NP後払いの請求書再発行システムへの不正アクセス",
+  "summary": "機械的・連続的なリクエストにより、取引情報28,884件への第三者アクセスを確認。",
+  "published_on": "2026-10-22",
+  "first_published_on": "2026-10-22",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-10-14",
+  "updated_on": "2026-10-22",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "請求書再発行システムに通常想定しない機械的・連続的リクエストが行われた。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 28884,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "アクセスを確認した一部取引の情報。人数ではない。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "会社名・部署名（法人利用時）",
+    "請求書未着の情報（返送時）"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://corp.netprotections.com/news/info/corporate/20261022/",
+      "type": "official",
+      "title": "NP後払いの請求書再発行システムへの不正アクセス",
+      "published_on": "2026-10-22",
+      "checked_on": "2026-10-22"
+    }
+  ],
+  "updates": [],
+  "notes": "情報の不正利用は公表時点で未確認。請求書再発行システムの安全確認を進める一方、決済サービス自体は通常稼働。"
+}

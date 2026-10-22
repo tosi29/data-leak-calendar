@@ -1,0 +1,51 @@
+{
+  "id": "japanpost-international-inquiry-20261016",
+  "organization": {
+    "name": "日本郵便",
+    "sector": "企業・団体"
+  },
+  "title": "国際郵便物の調査請求Web受付への不正アクセス",
+  "summary": "申請情報約600件が第三者から閲覧できる状態にあった。実際の閲覧や不正利用は確認できていない。",
+  "published_on": "2026-10-16",
+  "first_published_on": "2026-09-25",
+  "publication_kind": "followup",
+  "occurred_on": "2026-09-25",
+  "detected_on": null,
+  "updated_on": "2026-10-22",
+  "verification": "official",
+  "leak_status": "exposed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者の不正アクセス。具体的な侵入手法は未公表。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 600,
+      "unit": "records",
+      "qualifier": "approximate",
+      "description": "調査請求に登録された情報"
+    }
+  ],
+  "data_types": [
+    "差出人・受取人の氏名",
+    "住所",
+    "電話番号",
+    "メールアドレス",
+    "郵便物お問い合わせ番号",
+    "郵便種別・料金・差出郵便局"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://files.japanpost.jp/assets/34d9d11432734cfaa759e78fe395b688/99a38c8fdea24951b26188d86b797684/20261016_04_01.pdf",
+      "type": "official",
+      "title": "国際郵便物の調査請求Web受付への不正アクセス",
+      "published_on": "2026-10-16",
+      "checked_on": "2026-10-22"
+    }
+  ],
+  "updates": [],
+  "notes": "9月25日の初報では影響調査中。個人情報への影響を明らかにした10月16日の続報をカレンダー日とした。受取人の電話・メールは任意登録。スパム送信も確認したが送信先に登録情報は使われていない。"
+}

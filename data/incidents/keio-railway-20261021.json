@@ -1,0 +1,46 @@
+{
+  "id": "keio-railway-20261021",
+  "organization": {
+    "name": "京王電鉄",
+    "sector": "企業・団体"
+  },
+  "title": "ランサムウェア攻撃に伴う個人情報漏えいの可能性",
+  "summary": "攻撃者が窃取したと主張する情報の公開について外部専門家から報告を受け、個人情報漏えいの可能性を公表。",
+  "published_on": "2026-10-21",
+  "first_published_on": null,
+  "publication_kind": "followup",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-22",
+  "verification": "secondary",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "ランサムウェア攻撃。攻撃者の公開主張だけで流出確定とはしない。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "情報の内容・影響人数は調査中"
+    }
+  ],
+  "data_types": [
+    "個人情報（詳細調査中）"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.risktaisaku.com/articles/-/116384",
+      "type": "news",
+      "title": "ランサムウェア攻撃に伴う個人情報漏えいの可能性",
+      "published_on": "2026-10-21",
+      "checked_on": "2026-10-22"
+    }
+  ],
+  "updates": [],
+  "notes": "時事通信配信記事で10月21日の発表を確認。過去のシステム障害の続報。京王プラザホテルの公表とは別組織の記録であり、影響人数や独立した攻撃件数として合算しない。"
+}

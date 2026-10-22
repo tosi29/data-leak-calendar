@@ -1,0 +1,46 @@
+{
+  "id": "gogin-vendor-pc-20260914",
+  "organization": {
+    "name": "山陰合同銀行",
+    "sector": "企業・団体"
+  },
+  "title": "委託先のパソコン紛失と顧客メールアドレスへの影響",
+  "summary": "委託先が業務用パソコン1台を紛失。顧客メールアドレスが保存されていた可能性がある。",
+  "published_on": "2026-09-14",
+  "first_published_on": "2026-09-14",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-22",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "accident",
+  "cause": {
+    "category": "loss",
+    "detail": "業務委託先でのパソコン紛失。情報が実際に保存されていたかは未確定。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "保存されていた可能性のあるメールアドレスの件数は未公表"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.gogin.co.jp/newsrelease/common/attachmentfile/attachmentfile-file-4972.pdf",
+      "type": "official",
+      "title": "委託先のパソコン紛失と顧客メールアドレスへの影響",
+      "published_on": "2026-09-14",
+      "checked_on": "2026-10-22"
+    }
+  ],
+  "updates": [],
+  "notes": "9月上旬に委託先から報告。氏名・住所・生年月日等は含まれず、不正利用は未確認。端末1台を被害人数や情報件数にしない。委託先名は未公表。"
+}

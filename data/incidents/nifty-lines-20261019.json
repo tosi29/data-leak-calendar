@@ -5,13 +5,13 @@
     "sector": "企業・団体"
   },
   "title": "回線申込・受付管理システムへの不正アクセス",
-  "summary": "2019年以降の回線申込情報最大542,513件が漏えいした可能性。対象は自社Webサイトを除く申込。",
+  "summary": "回線申込管理システムへの不正アクセス。第二報で漏えいの可能性がある範囲を＠nifty光の最大18,000件に絞り込んだ。",
   "published_on": "2026-10-19",
   "first_published_on": "2026-10-19",
   "publication_kind": "initial",
   "occurred_on": null,
-  "detected_on": null,
-  "updated_on": "2026-10-20",
+  "detected_on": "2026-10-19",
+  "updated_on": "2026-10-22",
   "verification": "official",
   "leak_status": "suspected",
   "incident_type": "attack",
@@ -22,10 +22,10 @@
   },
   "impact": [
     {
-      "count": 542513,
+      "count": 18000,
       "unit": "records",
       "qualifier": "maximum",
-      "description": "公表された対象規模。漏えい状況は本文を参照。"
+      "description": "2019年以降の＠nifty光申込（自社Web申込を除く）"
     }
   ],
   "data_types": [
@@ -34,8 +34,7 @@
     "性別",
     "生年月日",
     "住所",
-    "電話番号",
-    "メールアドレス"
+    "電話番号"
   ],
   "related_vendor": null,
   "sources": [
@@ -45,8 +44,21 @@
       "title": "回線申込・受付管理システムへの不正アクセス",
       "published_on": "2026-10-19",
       "checked_on": "2026-10-20"
+    },
+    {
+      "url": "https://www.nifty.co.jp/newsrelease/nifty202610215453.htm",
+      "type": "official",
+      "title": "回線申込・受付管理システムへの不正アクセス（第二報）",
+      "published_on": "2026-10-21",
+      "checked_on": "2026-10-22"
     }
   ],
-  "updates": [],
-  "notes": "対象は@nifty光・@nifty MAX光・@nifty auひかりプラス。口座・カード情報は対象システムで保有せず。"
+  "updates": [
+    {
+      "date": "2026-10-21",
+      "summary": "対象を最大542,513件から最大18,000件へ絞り込み。＠nifty光以外のサービスとメールアドレスは対象外と確認。",
+      "source_index": 1
+    }
+  ],
+  "notes": "第一報の最大542,513件から調査により縮小。＠nifty MAX光・＠nifty auひかりプラス等とメールアドレスは対象外。パスワード・銀行口座・カード情報は対象システムで保有せず。"
 }

@@ -1,0 +1,62 @@
+{
+  "id": "mirarth-dlps-20261022",
+  "organization": {
+    "name": "タカラレーベン（MIRARTHホールディングス）",
+    "sector": "企業・団体"
+  },
+  "title": "DLPS会員情報の漏えいの可能性",
+  "summary": "委託先が利用するブラストメールへの不正アクセスにより、会員約11,300件の情報が漏えいした可能性。",
+  "published_on": "2026-10-22",
+  "first_published_on": "2026-10-22",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-22",
+  "verification": "secondary",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者の不正アクセス。具体的な侵入手法は未公表。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 11300,
+      "unit": "records",
+      "qualifier": "approximate",
+      "description": "DLPS会員情報の対象範囲。実際の流出範囲は調査中。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "メールアドレス",
+    "住所"
+  ],
+  "related_vendor": "Solvvy / ラクスライトクラウド",
+  "sources": [
+    {
+      "url": "https://rocket-boys.co.jp/security-measures-lab/mirarth_dlps_blastmail_11300_possible_leak_20261022/",
+      "type": "news",
+      "title": "DLPS会員情報の漏えいの可能性",
+      "published_on": "2026-10-22",
+      "checked_on": "2026-10-22"
+    }
+  ],
+  "updates": [],
+  "notes": "公式適時開示へのリンクを持つ報道で照合。公式PDF本文は未取得。DLPSアプリのログインを停止。カード情報・暗証番号は対象外。",
+  "vendors": [
+    {
+      "name": "Solvvy",
+      "role": "operations",
+      "detail": "メール配信業務の委託先。",
+      "source_index": 0
+    },
+    {
+      "name": "ラクスライトクラウド",
+      "role": "service",
+      "detail": "委託先が利用するブラストメールの提供元。",
+      "source_index": 0
+    }
+  ]
+}

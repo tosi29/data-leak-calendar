@@ -10,11 +10,11 @@
   "publication_kind": "unknown",
   "occurred_on": null,
   "detected_on": "2026-10-11",
-  "updated_on": "2026-10-15",
+  "updated_on": "2026-10-22",
   "verification": "official",
   "incident_type": "attack",
   "leak_status": "investigating",
-  "summary": "医療機関向けシステムと患者用アプリへの不正アクセスを確認。患者等の情報への影響を調査している。",
+  "summary": "患者等の個人情報への影響範囲を調査中。10月22日10時の発表では、一部機能の提供開始が不具合で遅延し、再開の目処は立っていない。",
   "impact": [
     {
       "count": 787,
@@ -45,17 +45,34 @@
       "title": "アットリンクへの不正アクセスと患者情報漏えいの可能性",
       "published_on": "2026-10-15",
       "checked_on": "2026-10-15"
+    },
+    {
+      "url": "https://at-link.net/information/%e3%82%a2%e3%83%83%e3%83%88%e3%83%aa%e3%83%b3%e3%82%af%e3%81%b8%e3%81%ae%e4%b8%8d%e6%ad%a3%e3%82%a2%e3%82%af%e3%82%bb%e3%82%b9%e3%81%8a%e3%82%88%e3%81%b3%e3%82%b5%e3%83%bc%e3%83%93%e3%82%b9%e3%81%ae/",
+      "type": "official",
+      "title": "アットリンクへの不正アクセスに関する最新情報（10月22日10時更新）",
+      "published_on": "2026-10-22",
+      "checked_on": "2026-10-22"
     }
   ],
-  "notes": "企業作成の適時開示PDF本文を転載先で確認。787は医療機関数であり患者数ではない。10月14日深夜にサービスを停止。先行する利用者通知の存在はあるが、確認した企業開示の日付を採用し初報日は未確定。",
-  "updates": [],
+  "notes": "企業作成の適時開示PDF本文を転載先で確認。787は医療機関数であり患者数ではない。10月14日深夜にサービスを停止。先行する利用者通知の存在はあるが、確認した企業開示の日付を採用し初報日は未確定。 10月22日の別の一部プロダクト提供再開告知と混同せず、アットリンク専用告知を採用。",
+  "updates": [
+    {
+      "date": "2026-10-22",
+      "summary": "個人情報への影響範囲を引き続き調査。一部機能は22日朝の再開予定から遅延し、開始時期は未定。",
+      "source_index": 1
+    }
+  ],
   "vendor_research": {
-    "checked_on": "2026-10-15",
+    "checked_on": "2026-10-22",
     "result": "not_identified",
     "note": "掲載出典と追加検索で、当該事案に関係する外部の開発・運用・サービス・基盤会社の社名と役割を特定できませんでした。",
     "source_checks": [
       {
         "source_index": 0,
+        "status": "reviewed"
+      },
+      {
+        "source_index": 1,
         "status": "reviewed"
       }
     ]

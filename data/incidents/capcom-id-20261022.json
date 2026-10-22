@@ -1,0 +1,57 @@
+{
+  "id": "capcom-id-20261022",
+  "organization": {
+    "name": "カプコン（CAPCOM ID）",
+    "sector": "企業・団体"
+  },
+  "title": "CAPCOM IDへの不正アクセスによる登録情報の漏えい",
+  "summary": "メールアドレス等11,774,247件の流出を確認。このうち43件では生年月日等も流出した。",
+  "published_on": "2026-10-22",
+  "first_published_on": "2026-10-22",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-10-19",
+  "updated_on": "2026-10-22",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者の不正アクセス。具体的な侵入手法は未公表。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 11774247,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "全世界合計のメールアドレス・システム識別情報"
+    },
+    {
+      "count": 43,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "上記の内数。生年月日・性別・国や地域・ニックネーム"
+    }
+  ],
+  "data_types": [
+    "メールアドレス",
+    "アカウント作成日時",
+    "最終ログイン日時・回数",
+    "IPアドレス",
+    "生年月日（43件）",
+    "性別・国や地域・ニックネーム（43件）"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.capcom.co.jp/ir/news/html/261022.html",
+      "type": "official",
+      "title": "CAPCOM IDへの不正アクセスによる登録情報の漏えい",
+      "published_on": "2026-10-22",
+      "checked_on": "2026-10-22"
+    }
+  ],
+  "updates": [],
+  "notes": "196アカウントでパスワードの不正変更も確認しリセット済み。利用者が設定したパスワードの漏えいは未確認。カード情報は対象外。43件と196件はいずれも全体の内数で合算しない。"
+}
