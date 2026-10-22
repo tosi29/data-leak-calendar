@@ -114,6 +114,7 @@ try {
   const response = await fetch('./data/incidents.json');
   if(!response.ok) throw new Error('データを取得できませんでした');
   data = await response.json();
+  $('coverage-start').textContent = data.meta.coverage_start.replaceAll('-', '.');
   $('as-of').textContent = `最終確認 ${dateLabel(data.meta.as_of)}`;
   $('total').textContent = data.incidents.length;
   $('confirmed').textContent = data.incidents.filter(i=>i.leak_status === 'confirmed').length;
