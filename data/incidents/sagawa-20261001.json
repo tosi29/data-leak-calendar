@@ -5,21 +5,21 @@
     "sector": "企業・団体"
   },
   "title": "お荷物問い合わせサービスへの不正アクセスにより、送り主・届け先・運賃契約者・スマートクラブの情報が流出した可能性",
-  "published_on": "2026-09-30",
+  "published_on": "2026-10-23",
   "occurred_on": null,
-  "detected_on": null,
-  "updated_on": "2026-10-15",
+  "detected_on": "2026-09-30",
+  "updated_on": "2026-10-23",
   "first_published_on": "2026-09-30",
-  "publication_kind": "initial",
-  "verification": "secondary",
+  "publication_kind": "followup",
+  "verification": "official",
   "leak_status": "suspected",
-  "summary": "お荷物問い合わせサービスへの不正アクセスにより、送り主・届け先・運賃契約者・スマートクラブの情報が流出した可能性。",
+  "summary": "10月23日更新の公式FAQで、流出した可能性のある情報は最大約5,323万件と公表。一定の名寄せ後も重複を含み、実人数ではない。同日、お荷物問い合わせサービスを再開した。",
   "impact": [
     {
-      "count": null,
-      "unit": "people",
-      "qualifier": "unknown",
-      "description": "対象規模は確認した出典に記載なし・調査中"
+      "count": 53230000,
+      "unit": "records",
+      "qualifier": "maximum_approximate",
+      "description": "一定の名寄せ後も重複を含む情報件数。実人数・流出確定数ではない。"
     }
   ],
   "data_types": [
@@ -42,24 +42,46 @@
       "title": "佐川急便、不正アクセスで個人情報流出か　送り主・届け先の氏名や住所など、約100日分の荷物データ対象 - ITmedia NEWS",
       "published_on": "2026-10-01",
       "checked_on": "2026-10-15"
+    },
+    {
+      "url": "https://www2.sagawa-exp.co.jp/information/detail/425/",
+      "type": "official",
+      "title": "よくあるご質問（FAQ）・10月23日更新",
+      "published_on": "2026-10-23",
+      "checked_on": "2026-10-23"
+    },
+    {
+      "url": "https://www2.sagawa-exp.co.jp/sagawa_xml/importance/importance_detail_425.xml",
+      "type": "official",
+      "title": "公式FAQの表示用公開XML・10月23日更新",
+      "published_on": "2026-10-23",
+      "checked_on": "2026-10-23"
     }
   ],
-  "notes": "9月30日の初報は不正アクセスの公表。10月1日の続報で個人情報への影響を公表。件数は調査中。",
+  "notes": "初報は9月30日の不正アクセス公表、10月1日に個人情報への影響を公表。送り状は6月21日〜9月30日の荷物が対象で手書き分は対象外。運賃契約者・スマートクラブ情報も対象。カード情報・パスワード・銀行口座情報は対象外。最大約5,323万件には重複が残り実人数ではない。配送委託元の公表との対象情報の重複にも注意。7月のスマートクラブ誤表示とは別事案。",
   "updates": [
     {
-      "date": "2026-10-01",
-      "summary": "顧客の個人情報が流出した可能性を公表。",
-      "source_index": 0
+      "date": "2026-10-23",
+      "summary": "最大約5,323万件（重複を含む）の可能性を公表。Webのお荷物問い合わせは再開、API等は停止継続。",
+      "source_index": 1
     }
   ],
   "incident_type": "attack",
   "vendor_research": {
-    "checked_on": "2026-10-15",
+    "checked_on": "2026-10-23",
     "result": "not_identified",
-    "note": "掲載出典と追加検索で、当該事案に関係する外部の開発・運用・サービス・基盤会社の社名と役割を特定できませんでした。",
+    "note": "公式FAQに第三者専門機関への言及はあるが、外部事業者の社名・役割は特定できない。",
     "source_checks": [
       {
         "source_index": 0,
+        "status": "reviewed"
+      },
+      {
+        "source_index": 1,
+        "status": "reviewed"
+      },
+      {
+        "source_index": 2,
         "status": "reviewed"
       }
     ]
