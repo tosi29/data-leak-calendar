@@ -66,7 +66,7 @@ function renderCalendar(items) {
   const weeks = cells.length / 7;
   const labels = cells.map((cell, index) => cell.inYear && cell.date.endsWith('-01') ? `<span style="grid-column:${Math.floor(index/7)+1}">${Number(cell.date.slice(5,7))}月</span>` : '').join('');
   $('heatmap').innerHTML = `<div class="heatmap-layout" style="--weeks:${weeks}"><div class="weekdays" aria-hidden="true"><span></span><span></span><span>月</span><span></span><span>水</span><span></span><span>金</span><span></span></div><div><div class="months" aria-hidden="true">${labels}</div><div class="grid" role="group" aria-label="${year}年の日別掲載事案数">${cells.map(cell => {
-    const level = cell.count === 0 ? 0 : cell.count === 1 ? 1 : cell.count === 2 ? 2 : cell.count < 5 ? 3 : 4;
+    const level = cell.count === 0 ? 0 : cell.count <= 2 ? 1 : cell.count <= 5 ? 2 : cell.count <= 9 ? 3 : 4;
     const label = `${cell.date}：${cell.active ? cell.count + '件掲載' : '収集対象期間外'}`;
     return `<button type="button" class="day ${!cell.inYear ? 'invisible' : cell.active ? 'level-'+level : 'outside'}" ${cell.active ? `data-date="${cell.date}" aria-pressed="${cell.date === selectedDate}"` : 'disabled'} aria-label="${label}" title="${label}"></button>`;
   }).join('')}</div></div></div>`;
