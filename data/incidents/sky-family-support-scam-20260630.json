@@ -1,0 +1,48 @@
+{
+  "id": "sky-family-support-scam-20260630",
+  "organization": {
+    "name": "SKYファミリークリニック",
+    "sector": "企業・団体"
+  },
+  "title": "サポート詐欺により患者情報が閲覧された可能性",
+  "summary": "偽の警告画面を契機に外部からパソコンを遠隔操作された。訪問診療患者の情報について閲覧の可能性を否定できない。",
+  "published_on": "2026-06-30",
+  "first_published_on": "2026-06-30",
+  "publication_kind": "initial",
+  "occurred_on": "2026-04-01",
+  "detected_on": null,
+  "updated_on": "2026-10-23",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "偽の警告画面を契機に外部からパソコンを遠隔操作された。訪問診療患者の情報について閲覧の可能性を否定できない。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "公表対象規模（漏えい確定人数とは限らない）"
+    }
+  ],
+  "data_types": [
+    "患者氏名",
+    "患者ID",
+    "住所"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://sky-familyclinic.com/info/2026-06-30/409/",
+      "type": "official",
+      "title": "不正アクセスによる個人情報閲覧の可能性に関する調査結果とお詫び | さいたま市緑区・豊島区の内科・精神科 訪問診療の医療法人ほしぞら",
+      "published_on": "2026-06-30",
+      "checked_on": "2026-10-23"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

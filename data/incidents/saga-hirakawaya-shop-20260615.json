@@ -1,0 +1,50 @@
+{
+  "id": "saga-hirakawaya-shop-20260615",
+  "organization": {
+    "name": "佐嘉平川屋",
+    "sector": "企業・団体"
+  },
+  "title": "オンラインショップの不正アクセスでカード情報等が漏えいした可能性",
+  "summary": "決済アプリケーションの脆弱性を利用した不正アクセスで、顧客情報やカード情報が漏えいした可能性がある。",
+  "published_on": "2026-06-15",
+  "first_published_on": "2026-06-15",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-03-09",
+  "updated_on": "2026-10-23",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "vulnerability",
+    "detail": "決済アプリケーションの脆弱性を利用した不正アクセスで、顧客情報やカード情報が漏えいした可能性がある。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 30170,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表対象規模（漏えい確定人数とは限らない）"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "電話番号",
+    "メールアドレス",
+    "カード情報"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.saga-hirakawaya.jp/security-notice/",
+      "type": "official",
+      "title": "不正アクセスによる個人情報漏えいのお詫びとご報告 | 佐嘉平川屋 ｜佐賀のお豆腐文化を全国へ",
+      "published_on": "2026-06-15",
+      "checked_on": "2026-10-23"
+    }
+  ],
+  "updates": [],
+  "notes": "一般情報73,213件・30,170人。カード情報6,303件・5,783人は別集計で合算しない。"
+}

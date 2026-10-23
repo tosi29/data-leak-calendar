@@ -1,0 +1,56 @@
+{
+  "id": "mie-documents-culture-20260616",
+  "organization": {
+    "name": "三重県文化振興課",
+    "sector": "企業・団体"
+  },
+  "title": "公文書ファイルの所在不明を公表",
+  "summary": "17冊117文書を紛失。うち37文書に申請者や受講者等の個人情報を含むとみられる。",
+  "published_on": "2026-06-16",
+  "first_published_on": "2026-06-16",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-23",
+  "verification": "official",
+  "leak_status": "lost",
+  "incident_type": "accident",
+  "cause": {
+    "category": "loss",
+    "detail": "17冊117文書を紛失。うち37文書に申請者や受講者等の個人情報を含むとみられる。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 37,
+      "unit": "documents",
+      "qualifier": "exact",
+      "description": "公表対象規模（漏えい確定人数とは限らない）"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "電話番号",
+    "メールアドレス"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.pref.mie.lg.jp/TOPICS/m0359200026.htm",
+      "type": "official",
+      "title": "三重県｜公文書の紛失について",
+      "published_on": "2026-06-16",
+      "checked_on": "2026-10-23"
+    },
+    {
+      "url": "https://www.pref.mie.lg.jp/common/content/001261016.pdf",
+      "type": "official",
+      "title": "環境生活部文化振興課における公文書の紛失について",
+      "published_on": "2026-06-16",
+      "checked_on": "2026-10-23"
+    }
+  ],
+  "updates": [],
+  "notes": "県の一括発表に含まれる部署別の事案。全体194文書を被害人数として数えない。外部流出は確認されていない。"
+}

@@ -1,0 +1,47 @@
+{
+  "id": "nttpc-file-transfer-20260623",
+  "organization": {
+    "name": "NTTPCコミュニケーションズ（ファイル転送サービス）",
+    "sector": "企業・団体"
+  },
+  "title": "ファイル転送サービスへの侵害で保存ファイル等が流出した可能性",
+  "summary": "4月21日の不正アクセスにより保存ファイルや通知先メールアドレス等が流出した可能性を否定できない。",
+  "published_on": "2026-06-23",
+  "first_published_on": "2026-06-23",
+  "publication_kind": "initial",
+  "occurred_on": "2026-04-21",
+  "detected_on": null,
+  "updated_on": "2026-10-23",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "4月21日の不正アクセスにより保存ファイルや通知先メールアドレス等が流出した可能性を否定できない。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 7446,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "公表対象規模（漏えい確定人数とは限らない）"
+    }
+  ],
+  "data_types": [
+    "メールアドレス",
+    "転送ファイル"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.nttpc.co.jp/press/info/2026/06/202606231101.html",
+      "type": "official",
+      "title": "「WebARENA 大容量ファイル転送機能」停止についてのお詫びとご報告｜インフォメーション｜ニュースリリース｜【公式】NTTPC",
+      "published_on": "2026-06-23",
+      "checked_on": "2026-10-23"
+    }
+  ],
+  "updates": [],
+  "notes": "7,446は重複を除くメールアドレス件数。保存4,463ファイル、1,510契約と加算しない。"
+}

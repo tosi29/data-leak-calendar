@@ -1,0 +1,50 @@
+{
+  "id": "ja-sapporo-nochubank-test-20260630",
+  "organization": {
+    "name": "JAさっぽろ／農林中央金庫",
+    "sector": "企業・団体"
+  },
+  "title": "システム改修テストで利用者データを誤提供",
+  "summary": "委託先の農林中央金庫がシステムツールの改修テストで、JAさっぽろの利用者3,176件の情報を関係団体等に誤提供した。",
+  "published_on": "2026-06-30",
+  "first_published_on": "2026-06-30",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-05-27",
+  "updated_on": "2026-10-23",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "accident",
+  "cause": {
+    "category": "improper_sharing",
+    "detail": "委託先の農林中央金庫がシステムツールの改修テストで、JAさっぽろの利用者3,176件の情報を関係団体等に誤提供した。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 3176,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "公表対象規模（漏えい確定人数とは限らない）"
+    }
+  ],
+  "data_types": [
+    "顧客番号",
+    "マンション名・部屋番号",
+    "貯金残高",
+    "貸出残高",
+    "口座開設日"
+  ],
+  "related_vendor": "農林中央金庫",
+  "sources": [
+    {
+      "url": "https://www.ja-sapporo.or.jp/notices/20260630/",
+      "type": "official",
+      "title": "事務委託先（農林中央金庫）における個人情報漏えいに関するお詫びとご報告 - JAさっぽろ",
+      "published_on": "2026-06-30",
+      "checked_on": "2026-10-23"
+    }
+  ],
+  "updates": [],
+  "notes": "氏名・市区町村等・電話番号・生年月日等は含まれない。委託元と委託先の同じ対象データを1件に統合。"
+}

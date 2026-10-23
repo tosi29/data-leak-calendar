@@ -1,0 +1,52 @@
+{
+  "id": "jwa-mail-account-20260624",
+  "organization": {
+    "name": "日本オークション協会",
+    "sector": "企業・団体"
+  },
+  "title": "メールアカウント侵害で顧客・取引先情報が閲覧された可能性",
+  "summary": "らくらく査定等の対応用メールアカウントが侵害され、過去の送受信メールに含まれる523件の情報が閲覧された可能性がある。",
+  "published_on": "2026-06-24",
+  "first_published_on": "2026-06-24",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-06-12",
+  "updated_on": "2026-10-23",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "らくらく査定等の対応用メールアカウントが侵害され、過去の送受信メールに含まれる523件の情報が閲覧された可能性がある。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 523,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "公表対象規模（漏えい確定人数とは限らない）"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "メールアドレス",
+    "住所",
+    "電話番号",
+    "ID・パスワード",
+    "口座情報",
+    "カード番号下4桁"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://jwa.auction/%E3%80%90%E9%87%8D%E8%A6%81%E3%80%91%E5%BC%8A%E7%A4%BE%E3%83%A1%E3%83%BC%E3%83%AB%E3%82%A2%E3%82%AB%E3%82%A6%E3%83%B3%E3%83%88%E3%81%B8%E3%81%AE%E4%B8%8D%E6%AD%A3%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9/",
+      "type": "official",
+      "title": "外部からの不正アクセスによる個人情報漏洩のお詫びとお知らせ | 【公式】株式会社日本オークション協会",
+      "published_on": "2026-06-24",
+      "checked_on": "2026-10-23"
+    }
+  ],
+  "updates": [],
+  "notes": "らくらく査定のデータベース自体への侵害は確認されていない。"
+}

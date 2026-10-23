@@ -482,5 +482,893 @@
       "https://ai.itokoba.com/security-tier/incidents/incident-493/"
     ],
     "note": "共同通信の10月23日記事で2自治体・約3千件の漏えいのおそれを確認。別記事は公式公表10月22日とするが、公式サイトは本文・リンクを取得できず、公式原文と公表日の照合を保留。650自治体を被害先数にしない。"
+  },
+  {
+    "id": "june-review-429efce1362f",
+    "organization": "樋口商会",
+    "reported_on": "2026-06-30",
+    "verification": "pending",
+    "reference_url": "https://www.higuchi-inc.co.jp/newsrelease/company/doc/unauthorized_access_incident.pdf",
+    "note": "6月の発表候補。公式PDFのTLS接続または取得に失敗。個人情報の対象と続報の内容が未確定。",
+    "reviewed_on": "2026-10-23",
+    "checked_urls": [
+      "https://www.higuchi-inc.co.jp/newsrelease/company/doc/unauthorized_access_incident.pdf"
+    ]
+  },
+  {
+    "id": "june-review-c4dc6a9dceb5",
+    "organization": "サッポログループ海外2社",
+    "reported_on": "2026-06-24",
+    "verification": "pending",
+    "reference_url": "https://www.sapporobreweries.com/notice/detail/20260624000010.html",
+    "note": "6月の発表候補。攻撃・障害の本文は確認したが、個人情報への影響を確定できない。",
+    "reviewed_on": "2026-10-23",
+    "checked_urls": [
+      "https://www.sapporobreweries.com/notice/detail/20260624000010.html"
+    ]
+  },
+  {
+    "id": "june-review-ca49c763ec89",
+    "organization": "ファクトリージャパングループ",
+    "reported_on": "2026-06-15",
+    "verification": "pending",
+    "reference_url": "https://factoryjapan.jp/resources/files/0615.pdf",
+    "note": "6月の発表候補。攻撃・障害の本文は確認したが、個人情報への影響を確定できない。",
+    "reviewed_on": "2026-10-23",
+    "checked_urls": [
+      "https://factoryjapan.jp/resources/files/0615.pdf"
+    ]
+  },
+  {
+    "id": "june-review-79a163680ec6",
+    "organization": "食創",
+    "reported_on": "2026-06-04",
+    "verification": "pending",
+    "reference_url": "https://shokusou.co.jp/news/sonota/4366/",
+    "note": "6月の発表候補。一次資料の取得に失敗。個人情報漏えいの対象と公表日を引き続き確認する必要がある。",
+    "reviewed_on": "2026-10-23",
+    "checked_urls": [
+      "https://shokusou.co.jp/news/sonota/4366/"
+    ]
+  },
+  {
+    "id": "june-review-30b782e8b622",
+    "organization": "長崎県警",
+    "reported_on": "2026-06-30",
+    "verification": "pending",
+    "reference_url": "https://www.security-next.com/185868",
+    "note": "6月掲載の記事本文を確認。記事日は公表日とは限らない。6月の公式公表日、既存事案との同一性、対象範囲の確認が残るため掲載保留。",
+    "reviewed_on": "2026-10-23",
+    "checked_urls": [
+      "https://www.security-next.com/185868"
+    ]
+  },
+  {
+    "id": "june-review-5aad3bc12433",
+    "organization": "アイコムソフト",
+    "reported_on": "2026-06-30",
+    "verification": "pending",
+    "reference_url": "https://www.security-next.com/186399",
+    "note": "6月掲載の記事本文を確認。記事日は公表日とは限らない。6月の公式公表日、既存事案との同一性、対象範囲の確認が残るため掲載保留。",
+    "reviewed_on": "2026-10-23",
+    "checked_urls": [
+      "https://www.security-next.com/186399"
+    ]
+  },
+  {
+    "id": "june-review-ad3dd3950572",
+    "organization": "磐田市立病院",
+    "reported_on": "2026-06-29",
+    "verification": "pending",
+    "reference_url": "https://www.security-next.com/186508",
+    "note": "6月掲載の記事本文を確認。記事日は公表日とは限らない。6月の公式公表日、既存事案との同一性、対象範囲の確認が残るため掲載保留。",
+    "reviewed_on": "2026-10-23",
+    "checked_urls": [
+      "https://www.security-next.com/186508"
+    ]
+  },
+  {
+    "id": "june-review-5f3d281ad650",
+    "organization": "NPO法人",
+    "reported_on": "2026-06-26",
+    "verification": "pending",
+    "reference_url": "https://www.security-next.com/185933",
+    "note": "6月掲載の記事本文を確認。記事日は公表日とは限らない。6月の公式公表日、既存事案との同一性、対象範囲の確認が残るため掲載保留。",
+    "reviewed_on": "2026-10-23",
+    "checked_urls": [
+      "https://www.security-next.com/185933"
+    ]
+  },
+  {
+    "id": "june-review-00124945ce62",
+    "organization": "サッポロHD",
+    "reported_on": "2026-06-26",
+    "verification": "pending",
+    "reference_url": "https://www.security-next.com/186438",
+    "note": "6月掲載の記事本文を確認。記事日は公表日とは限らない。6月の公式公表日、既存事案との同一性、対象範囲の確認が残るため掲載保留。",
+    "reviewed_on": "2026-10-23",
+    "checked_urls": [
+      "https://www.security-next.com/186438"
+    ]
+  },
+  {
+    "id": "june-review-cbe755f0c73a",
+    "organization": "札幌市内の郵便局、一部郵便物が所在不明に",
+    "reported_on": "2026-06-26",
+    "verification": "pending",
+    "reference_url": "https://www.security-next.com/186329",
+    "note": "6月掲載の記事本文を確認。記事日は公表日とは限らない。6月の公式公表日、既存事案との同一性、対象範囲の確認が残るため掲載保留。",
+    "reviewed_on": "2026-10-23",
+    "checked_urls": [
+      "https://www.security-next.com/186329"
+    ]
+  },
+  {
+    "id": "june-review-1736d62ef619",
+    "organization": "名古屋市",
+    "reported_on": "2026-06-25",
+    "verification": "pending",
+    "reference_url": "https://www.security-next.com/186334",
+    "note": "6月掲載の記事本文を確認。記事日は公表日とは限らない。6月の公式公表日、既存事案との同一性、対象範囲の確認が残るため掲載保留。",
+    "reviewed_on": "2026-10-23",
+    "checked_urls": [
+      "https://www.security-next.com/186334"
+    ]
+  },
+  {
+    "id": "june-review-5cc20f8f86c7",
+    "organization": "香川県",
+    "reported_on": "2026-06-25",
+    "verification": "pending",
+    "reference_url": "https://www.security-next.com/186338",
+    "note": "6月掲載の記事本文を確認。記事日は公表日とは限らない。6月の公式公表日、既存事案との同一性、対象範囲の確認が残るため掲載保留。",
+    "reviewed_on": "2026-10-23",
+    "checked_urls": [
+      "https://www.security-next.com/186338"
+    ]
+  },
+  {
+    "id": "june-review-bc2be576ed20",
+    "organization": "ダイキョーニシカワ",
+    "reported_on": "2026-06-25",
+    "verification": "pending",
+    "reference_url": "https://www.security-next.com/186263",
+    "note": "6月掲載の記事本文を確認。記事日は公表日とは限らない。6月の公式公表日、既存事案との同一性、対象範囲の確認が残るため掲載保留。",
+    "reviewed_on": "2026-10-23",
+    "checked_urls": [
+      "https://www.security-next.com/186263"
+    ]
+  },
+  {
+    "id": "june-review-39c96c4996c3",
+    "organization": "ニデック",
+    "reported_on": "2026-06-25",
+    "verification": "pending",
+    "reference_url": "https://www.security-next.com/186388",
+    "note": "6月掲載の記事本文を確認。記事日は公表日とは限らない。6月の公式公表日、既存事案との同一性、対象範囲の確認が残るため掲載保留。",
+    "reviewed_on": "2026-10-23",
+    "checked_urls": [
+      "https://www.security-next.com/186388"
+    ]
+  },
+  {
+    "id": "june-review-859b797de1f5",
+    "organization": "京都府",
+    "reported_on": "2026-06-24",
+    "verification": "pending",
+    "reference_url": "https://www.security-next.com/186070",
+    "note": "6月掲載の記事本文を確認。記事日は公表日とは限らない。6月の公式公表日、既存事案との同一性、対象範囲の確認が残るため掲載保留。",
+    "reviewed_on": "2026-10-23",
+    "checked_urls": [
+      "https://www.security-next.com/186070"
+    ]
+  },
+  {
+    "id": "june-review-49013a4336d4",
+    "organization": "仕様確認を担当者に依存",
+    "reported_on": "2026-06-24",
+    "verification": "pending",
+    "reference_url": "https://www.security-next.com/186068",
+    "note": "6月掲載の記事本文を確認。記事日は公表日とは限らない。6月の公式公表日、既存事案との同一性、対象範囲の確認が残るため掲載保留。",
+    "reviewed_on": "2026-10-23",
+    "checked_urls": [
+      "https://www.security-next.com/186068"
+    ]
+  },
+  {
+    "id": "june-review-794f1138e001",
+    "organization": "苫小牧民報",
+    "reported_on": "2026-06-23",
+    "verification": "pending",
+    "reference_url": "https://www.security-next.com/186005",
+    "note": "6月掲載の記事本文を確認。記事日は公表日とは限らない。6月の公式公表日、既存事案との同一性、対象範囲の確認が残るため掲載保留。",
+    "reviewed_on": "2026-10-23",
+    "checked_urls": [
+      "https://www.security-next.com/186005"
+    ]
+  },
+  {
+    "id": "june-review-dcb8bcf58d1a",
+    "organization": "攻撃受けた可能性",
+    "reported_on": "2026-06-22",
+    "verification": "pending",
+    "reference_url": "https://www.security-next.com/186190",
+    "note": "6月掲載の記事本文を確認。記事日は公表日とは限らない。6月の公式公表日、既存事案との同一性、対象範囲の確認が残るため掲載保留。",
+    "reviewed_on": "2026-10-23",
+    "checked_urls": [
+      "https://www.security-next.com/186190"
+    ]
+  },
+  {
+    "id": "june-review-0cf9414ea6e9",
+    "organization": "神奈川県",
+    "reported_on": "2026-06-22",
+    "verification": "pending",
+    "reference_url": "https://www.security-next.com/186135",
+    "note": "6月掲載の記事本文を確認。記事日は公表日とは限らない。6月の公式公表日、既存事案との同一性、対象範囲の確認が残るため掲載保留。",
+    "reviewed_on": "2026-10-23",
+    "checked_urls": [
+      "https://www.security-next.com/186135"
+    ]
+  },
+  {
+    "id": "june-review-16f2003dfc27",
+    "organization": "アソビュー",
+    "reported_on": "2026-06-22",
+    "verification": "pending",
+    "reference_url": "https://www.security-next.com/185170",
+    "note": "6月掲載の記事本文を確認。記事日は公表日とは限らない。6月の公式公表日、既存事案との同一性、対象範囲の確認が残るため掲載保留。",
+    "reviewed_on": "2026-10-23",
+    "checked_urls": [
+      "https://www.security-next.com/185170"
+    ]
+  },
+  {
+    "id": "june-review-f75fe4324584",
+    "organization": "関西医科大病院",
+    "reported_on": "2026-06-22",
+    "verification": "pending",
+    "reference_url": "https://www.security-next.com/185803",
+    "note": "6月掲載の記事本文を確認。記事日は公表日とは限らない。6月の公式公表日、既存事案との同一性、対象範囲の確認が残るため掲載保留。",
+    "reviewed_on": "2026-10-23",
+    "checked_urls": [
+      "https://www.security-next.com/185803"
+    ]
+  },
+  {
+    "id": "june-review-7ac5732f336c",
+    "organization": "兵庫県立大",
+    "reported_on": "2026-06-19",
+    "verification": "pending",
+    "reference_url": "https://www.security-next.com/186139",
+    "note": "6月掲載の記事本文を確認。記事日は公表日とは限らない。6月の公式公表日、既存事案との同一性、対象範囲の確認が残るため掲載保留。",
+    "reviewed_on": "2026-10-23",
+    "checked_urls": [
+      "https://www.security-next.com/186139"
+    ]
+  },
+  {
+    "id": "june-review-33471a56272a",
+    "organization": "小田原市",
+    "reported_on": "2026-06-19",
+    "verification": "pending",
+    "reference_url": "https://www.security-next.com/185935",
+    "note": "6月掲載の記事本文を確認。記事日は公表日とは限らない。6月の公式公表日、既存事案との同一性、対象範囲の確認が残るため掲載保留。",
+    "reviewed_on": "2026-10-23",
+    "checked_urls": [
+      "https://www.security-next.com/185935"
+    ]
+  },
+  {
+    "id": "june-review-bd6ce4eb0ecd",
+    "organization": "浦添市",
+    "reported_on": "2026-06-19",
+    "verification": "pending",
+    "reference_url": "https://www.security-next.com/185198",
+    "note": "6月掲載の記事本文を確認。記事日は公表日とは限らない。6月の公式公表日、既存事案との同一性、対象範囲の確認が残るため掲載保留。",
+    "reviewed_on": "2026-10-23",
+    "checked_urls": [
+      "https://www.security-next.com/185198"
+    ]
+  },
+  {
+    "id": "june-review-8fef270ddf1c",
+    "organization": "スポーツ用品メーカー",
+    "reported_on": "2026-06-19",
+    "verification": "pending",
+    "reference_url": "https://www.security-next.com/186000",
+    "note": "6月掲載の記事本文を確認。記事日は公表日とは限らない。6月の公式公表日、既存事案との同一性、対象範囲の確認が残るため掲載保留。",
+    "reviewed_on": "2026-10-23",
+    "checked_urls": [
+      "https://www.security-next.com/186000"
+    ]
+  },
+  {
+    "id": "june-review-c62bdd0d1419",
+    "organization": "福岡市",
+    "reported_on": "2026-06-18",
+    "verification": "pending",
+    "reference_url": "https://www.security-next.com/185632",
+    "note": "6月掲載の記事本文を確認。記事日は公表日とは限らない。6月の公式公表日、既存事案との同一性、対象範囲の確認が残るため掲載保留。",
+    "reviewed_on": "2026-10-23",
+    "checked_urls": [
+      "https://www.security-next.com/185632"
+    ]
+  },
+  {
+    "id": "june-review-10a6cdf05cb1",
+    "organization": "広島県",
+    "reported_on": "2026-06-18",
+    "verification": "pending",
+    "reference_url": "https://www.security-next.com/185699",
+    "note": "6月掲載の記事本文を確認。記事日は公表日とは限らない。6月の公式公表日、既存事案との同一性、対象範囲の確認が残るため掲載保留。",
+    "reviewed_on": "2026-10-23",
+    "checked_urls": [
+      "https://www.security-next.com/185699"
+    ]
+  },
+  {
+    "id": "june-review-d0b7db08f9db",
+    "organization": "長崎みなとメディカルセンター",
+    "reported_on": "2026-06-18",
+    "verification": "pending",
+    "reference_url": "https://www.security-next.com/185696",
+    "note": "6月掲載の記事本文を確認。記事日は公表日とは限らない。6月の公式公表日、既存事案との同一性、対象範囲の確認が残るため掲載保留。",
+    "reviewed_on": "2026-10-23",
+    "checked_urls": [
+      "https://www.security-next.com/185696"
+    ]
+  },
+  {
+    "id": "june-review-67895ebad85b",
+    "organization": "埼玉病院",
+    "reported_on": "2026-06-17",
+    "verification": "pending",
+    "reference_url": "https://www.security-next.com/185815",
+    "note": "6月掲載の記事本文を確認。記事日は公表日とは限らない。6月の公式公表日、既存事案との同一性、対象範囲の確認が残るため掲載保留。",
+    "reviewed_on": "2026-10-23",
+    "checked_urls": [
+      "https://www.security-next.com/185815"
+    ]
+  },
+  {
+    "id": "june-review-77b08929acc0",
+    "organization": "サービスが一時停止",
+    "reported_on": "2026-06-17",
+    "verification": "pending",
+    "reference_url": "https://www.security-next.com/185799",
+    "note": "6月掲載の記事本文を確認。記事日は公表日とは限らない。6月の公式公表日、既存事案との同一性、対象範囲の確認が残るため掲載保留。",
+    "reviewed_on": "2026-10-23",
+    "checked_urls": [
+      "https://www.security-next.com/185799"
+    ]
+  },
+  {
+    "id": "june-review-d86d66a0f07a",
+    "organization": "取消機能で再発",
+    "reported_on": "2026-06-17",
+    "verification": "pending",
+    "reference_url": "https://www.security-next.com/186010",
+    "note": "6月掲載の記事本文を確認。記事日は公表日とは限らない。6月の公式公表日、既存事案との同一性、対象範囲の確認が残るため掲載保留。",
+    "reviewed_on": "2026-10-23",
+    "checked_urls": [
+      "https://www.security-next.com/186010"
+    ]
+  },
+  {
+    "id": "june-review-da050f3e6c46",
+    "organization": "大阪府",
+    "reported_on": "2026-06-16",
+    "verification": "pending",
+    "reference_url": "https://www.security-next.com/185413",
+    "note": "6月掲載の記事本文を確認。記事日は公表日とは限らない。6月の公式公表日、既存事案との同一性、対象範囲の確認が残るため掲載保留。",
+    "reviewed_on": "2026-10-23",
+    "checked_urls": [
+      "https://www.security-next.com/185413"
+    ]
+  },
+  {
+    "id": "june-review-5df4e2a8ee59",
+    "organization": "田村市",
+    "reported_on": "2026-06-16",
+    "verification": "pending",
+    "reference_url": "https://www.security-next.com/185940",
+    "note": "6月掲載の記事本文を確認。記事日は公表日とは限らない。6月の公式公表日、既存事案との同一性、対象範囲の確認が残るため掲載保留。",
+    "reviewed_on": "2026-10-23",
+    "checked_urls": [
+      "https://www.security-next.com/185940"
+    ]
+  },
+  {
+    "id": "june-review-65ba0dd4945f",
+    "organization": "食創",
+    "reported_on": "2026-06-16",
+    "verification": "pending",
+    "reference_url": "https://www.security-next.com/185737",
+    "note": "6月掲載の記事本文を確認。記事日は公表日とは限らない。6月の公式公表日、既存事案との同一性、対象範囲の確認が残るため掲載保留。",
+    "reviewed_on": "2026-10-23",
+    "checked_urls": [
+      "https://www.security-next.com/185737"
+    ]
+  },
+  {
+    "id": "june-review-6d92ab05b132",
+    "organization": "高知県",
+    "reported_on": "2026-06-15",
+    "verification": "pending",
+    "reference_url": "https://www.security-next.com/185691",
+    "note": "6月掲載の記事本文を確認。記事日は公表日とは限らない。6月の公式公表日、既存事案との同一性、対象範囲の確認が残るため掲載保留。",
+    "reviewed_on": "2026-10-23",
+    "checked_urls": [
+      "https://www.security-next.com/185691"
+    ]
+  },
+  {
+    "id": "june-review-72c768428f73",
+    "organization": "涌谷町",
+    "reported_on": "2026-06-15",
+    "verification": "pending",
+    "reference_url": "https://www.security-next.com/185462",
+    "note": "6月掲載の記事本文を確認。記事日は公表日とは限らない。6月の公式公表日、既存事案との同一性、対象範囲の確認が残るため掲載保留。",
+    "reviewed_on": "2026-10-23",
+    "checked_urls": [
+      "https://www.security-next.com/185462"
+    ]
+  },
+  {
+    "id": "june-review-9851932d564c",
+    "organization": "川崎市",
+    "reported_on": "2026-06-15",
+    "verification": "pending",
+    "reference_url": "https://www.security-next.com/185746",
+    "note": "6月掲載の記事本文を確認。記事日は公表日とは限らない。6月の公式公表日、既存事案との同一性、対象範囲の確認が残るため掲載保留。",
+    "reviewed_on": "2026-10-23",
+    "checked_urls": [
+      "https://www.security-next.com/185746"
+    ]
+  },
+  {
+    "id": "june-review-a2533e16dd1a",
+    "organization": "大気社",
+    "reported_on": "2026-06-15",
+    "verification": "pending",
+    "reference_url": "https://www.security-next.com/185811",
+    "note": "6月掲載の記事本文を確認。記事日は公表日とは限らない。6月の公式公表日、既存事案との同一性、対象範囲の確認が残るため掲載保留。",
+    "reviewed_on": "2026-10-23",
+    "checked_urls": [
+      "https://www.security-next.com/185811"
+    ]
+  },
+  {
+    "id": "june-review-ccdd8fa1e945",
+    "organization": "九大",
+    "reported_on": "2026-06-12",
+    "verification": "pending",
+    "reference_url": "https://www.security-next.com/185733",
+    "note": "6月掲載の記事本文を確認。記事日は公表日とは限らない。6月の公式公表日、既存事案との同一性、対象範囲の確認が残るため掲載保留。",
+    "reviewed_on": "2026-10-23",
+    "checked_urls": [
+      "https://www.security-next.com/185733"
+    ]
+  },
+  {
+    "id": "june-review-1cd33a9e570a",
+    "organization": "名古屋市",
+    "reported_on": "2026-06-12",
+    "verification": "pending",
+    "reference_url": "https://www.security-next.com/185806",
+    "note": "6月掲載の記事本文を確認。記事日は公表日とは限らない。6月の公式公表日、既存事案との同一性、対象範囲の確認が残るため掲載保留。",
+    "reviewed_on": "2026-10-23",
+    "checked_urls": [
+      "https://www.security-next.com/185806"
+    ]
+  },
+  {
+    "id": "june-review-db95d8c0ea0b",
+    "organization": "琵琶湖ホテル",
+    "reported_on": "2026-06-12",
+    "verification": "pending",
+    "reference_url": "https://www.security-next.com/185514",
+    "note": "6月掲載の記事本文を確認。記事日は公表日とは限らない。6月の公式公表日、既存事案との同一性、対象範囲の確認が残るため掲載保留。",
+    "reviewed_on": "2026-10-23",
+    "checked_urls": [
+      "https://www.security-next.com/185514"
+    ]
+  },
+  {
+    "id": "june-review-98b5fb9b5d4b",
+    "organization": "地生いなわしろ",
+    "reported_on": "2026-06-12",
+    "verification": "pending",
+    "reference_url": "https://www.security-next.com/185334",
+    "note": "6月掲載の記事本文を確認。記事日は公表日とは限らない。6月の公式公表日、既存事案との同一性、対象範囲の確認が残るため掲載保留。",
+    "reviewed_on": "2026-10-23",
+    "checked_urls": [
+      "https://www.security-next.com/185334"
+    ]
+  },
+  {
+    "id": "june-review-777839d12f49",
+    "organization": "宮崎県産業振興機構",
+    "reported_on": "2026-06-09",
+    "verification": "pending",
+    "reference_url": "https://www.security-next.com/185420",
+    "note": "6月掲載の記事本文を確認。記事日は公表日とは限らない。6月の公式公表日、既存事案との同一性、対象範囲の確認が残るため掲載保留。",
+    "reviewed_on": "2026-10-23",
+    "checked_urls": [
+      "https://www.security-next.com/185420"
+    ]
+  },
+  {
+    "id": "june-review-28d7377e2cfe",
+    "organization": "大津町",
+    "reported_on": "2026-06-09",
+    "verification": "pending",
+    "reference_url": "https://www.security-next.com/185337",
+    "note": "6月掲載の記事本文を確認。記事日は公表日とは限らない。6月の公式公表日、既存事案との同一性、対象範囲の確認が残るため掲載保留。",
+    "reviewed_on": "2026-10-23",
+    "checked_urls": [
+      "https://www.security-next.com/185337"
+    ]
+  },
+  {
+    "id": "june-review-284db9cd1b9b",
+    "organization": "都職員向けサイトでアクセス制御不備 ‐ 個人情報へアクセス可能に",
+    "reported_on": "2026-06-09",
+    "verification": "pending",
+    "reference_url": "https://www.security-next.com/185459",
+    "note": "6月掲載の記事本文を確認。記事日は公表日とは限らない。6月の公式公表日、既存事案との同一性、対象範囲の確認が残るため掲載保留。",
+    "reviewed_on": "2026-10-23",
+    "checked_urls": [
+      "https://www.security-next.com/185459"
+    ]
+  },
+  {
+    "id": "june-review-d7ffa1756fc6",
+    "organization": "キャリアデザインセンター",
+    "reported_on": "2026-06-09",
+    "verification": "pending",
+    "reference_url": "https://www.security-next.com/185266",
+    "note": "6月掲載の記事本文を確認。記事日は公表日とは限らない。6月の公式公表日、既存事案との同一性、対象範囲の確認が残るため掲載保留。",
+    "reviewed_on": "2026-10-23",
+    "checked_urls": [
+      "https://www.security-next.com/185266"
+    ]
+  },
+  {
+    "id": "june-review-aaa7d6376b85",
+    "organization": "洲本市",
+    "reported_on": "2026-06-09",
+    "verification": "pending",
+    "reference_url": "https://www.security-next.com/185507",
+    "note": "6月掲載の記事本文を確認。記事日は公表日とは限らない。6月の公式公表日、既存事案との同一性、対象範囲の確認が残るため掲載保留。",
+    "reviewed_on": "2026-10-23",
+    "checked_urls": [
+      "https://www.security-next.com/185507"
+    ]
+  },
+  {
+    "id": "june-review-b2d0ab383422",
+    "organization": "建材補修会社",
+    "reported_on": "2026-06-08",
+    "verification": "pending",
+    "reference_url": "https://www.security-next.com/185269",
+    "note": "6月掲載の記事本文を確認。記事日は公表日とは限らない。6月の公式公表日、既存事案との同一性、対象範囲の確認が残るため掲載保留。",
+    "reviewed_on": "2026-10-23",
+    "checked_urls": [
+      "https://www.security-next.com/185269"
+    ]
+  },
+  {
+    "id": "june-review-42f78439c614",
+    "organization": "北陸電力",
+    "reported_on": "2026-06-08",
+    "verification": "pending",
+    "reference_url": "https://www.security-next.com/185512",
+    "note": "6月掲載の記事本文を確認。記事日は公表日とは限らない。6月の公式公表日、既存事案との同一性、対象範囲の確認が残るため掲載保留。",
+    "reviewed_on": "2026-10-23",
+    "checked_urls": [
+      "https://www.security-next.com/185512"
+    ]
+  },
+  {
+    "id": "june-review-faaf384757cb",
+    "organization": "名古屋市",
+    "reported_on": "2026-06-08",
+    "verification": "pending",
+    "reference_url": "https://www.security-next.com/185189",
+    "note": "6月掲載の記事本文を確認。記事日は公表日とは限らない。6月の公式公表日、既存事案との同一性、対象範囲の確認が残るため掲載保留。",
+    "reviewed_on": "2026-10-23",
+    "checked_urls": [
+      "https://www.security-next.com/185189"
+    ]
+  },
+  {
+    "id": "june-review-356d577045c6",
+    "organization": "公益財団法人運営の産廃業者検索サイトで情報流出の可能性",
+    "reported_on": "2026-06-08",
+    "verification": "pending",
+    "reference_url": "https://www.security-next.com/185274",
+    "note": "6月掲載の記事本文を確認。記事日は公表日とは限らない。6月の公式公表日、既存事案との同一性、対象範囲の確認が残るため掲載保留。",
+    "reviewed_on": "2026-10-23",
+    "checked_urls": [
+      "https://www.security-next.com/185274"
+    ]
+  },
+  {
+    "id": "june-review-8133460b4af8",
+    "organization": "石川のSIer",
+    "reported_on": "2026-06-05",
+    "verification": "pending",
+    "reference_url": "https://www.security-next.com/184676",
+    "note": "6月掲載の記事本文を確認。記事日は公表日とは限らない。6月の公式公表日、既存事案との同一性、対象範囲の確認が残るため掲載保留。",
+    "reviewed_on": "2026-10-23",
+    "checked_urls": [
+      "https://www.security-next.com/184676"
+    ]
+  },
+  {
+    "id": "june-review-89e170b71ecf",
+    "organization": "ソディック",
+    "reported_on": "2026-06-05",
+    "verification": "pending",
+    "reference_url": "https://www.security-next.com/185106",
+    "note": "6月掲載の記事本文を確認。記事日は公表日とは限らない。6月の公式公表日、既存事案との同一性、対象範囲の確認が残るため掲載保留。",
+    "reviewed_on": "2026-10-23",
+    "checked_urls": [
+      "https://www.security-next.com/185106"
+    ]
+  },
+  {
+    "id": "june-review-10ad8319d170",
+    "organization": "大郷町",
+    "reported_on": "2026-06-05",
+    "verification": "pending",
+    "reference_url": "https://www.security-next.com/185457",
+    "note": "6月掲載の記事本文を確認。記事日は公表日とは限らない。6月の公式公表日、既存事案との同一性、対象範囲の確認が残るため掲載保留。",
+    "reviewed_on": "2026-10-23",
+    "checked_urls": [
+      "https://www.security-next.com/185457"
+    ]
+  },
+  {
+    "id": "june-review-f239335c9092",
+    "organization": "新潟県",
+    "reported_on": "2026-06-05",
+    "verification": "pending",
+    "reference_url": "https://www.security-next.com/185455",
+    "note": "6月掲載の記事本文を確認。記事日は公表日とは限らない。6月の公式公表日、既存事案との同一性、対象範囲の確認が残るため掲載保留。",
+    "reviewed_on": "2026-10-23",
+    "checked_urls": [
+      "https://www.security-next.com/185455"
+    ]
+  },
+  {
+    "id": "june-review-fcb67e3f069b",
+    "organization": "中央紙器工業",
+    "reported_on": "2026-06-04",
+    "verification": "pending",
+    "reference_url": "https://www.security-next.com/185324",
+    "note": "6月掲載の記事本文を確認。記事日は公表日とは限らない。6月の公式公表日、既存事案との同一性、対象範囲の確認が残るため掲載保留。",
+    "reviewed_on": "2026-10-23",
+    "checked_urls": [
+      "https://www.security-next.com/185324"
+    ]
+  },
+  {
+    "id": "june-review-365ad63392b5",
+    "organization": "大阪府",
+    "reported_on": "2026-06-04",
+    "verification": "pending",
+    "reference_url": "https://www.security-next.com/184751",
+    "note": "6月掲載の記事本文を確認。記事日は公表日とは限らない。6月の公式公表日、既存事案との同一性、対象範囲の確認が残るため掲載保留。",
+    "reviewed_on": "2026-10-23",
+    "checked_urls": [
+      "https://www.security-next.com/184751"
+    ]
+  },
+  {
+    "id": "june-review-15483b3ee8f7",
+    "organization": "東かがわ市",
+    "reported_on": "2026-06-04",
+    "verification": "pending",
+    "reference_url": "https://www.security-next.com/185202",
+    "note": "6月掲載の記事本文を確認。記事日は公表日とは限らない。6月の公式公表日、既存事案との同一性、対象範囲の確認が残るため掲載保留。",
+    "reviewed_on": "2026-10-23",
+    "checked_urls": [
+      "https://www.security-next.com/185202"
+    ]
+  },
+  {
+    "id": "june-review-530e7eec9b67",
+    "organization": "日本郵便",
+    "reported_on": "2026-06-03",
+    "verification": "pending",
+    "reference_url": "https://www.security-next.com/185184",
+    "note": "6月掲載の記事本文を確認。記事日は公表日とは限らない。6月の公式公表日、既存事案との同一性、対象範囲の確認が残るため掲載保留。",
+    "reviewed_on": "2026-10-23",
+    "checked_urls": [
+      "https://www.security-next.com/185184"
+    ]
+  },
+  {
+    "id": "june-review-a2fdcc6b2b4c",
+    "organization": "サッカー総合専門学校",
+    "reported_on": "2026-06-03",
+    "verification": "pending",
+    "reference_url": "https://www.security-next.com/185276",
+    "note": "6月掲載の記事本文を確認。記事日は公表日とは限らない。6月の公式公表日、既存事案との同一性、対象範囲の確認が残るため掲載保留。",
+    "reviewed_on": "2026-10-23",
+    "checked_urls": [
+      "https://www.security-next.com/185276"
+    ]
+  },
+  {
+    "id": "june-review-5577f338df63",
+    "organization": "ポラリスHD",
+    "reported_on": "2026-06-03",
+    "verification": "pending",
+    "reference_url": "https://www.security-next.com/185176",
+    "note": "6月掲載の記事本文を確認。記事日は公表日とは限らない。6月の公式公表日、既存事案との同一性、対象範囲の確認が残るため掲載保留。",
+    "reviewed_on": "2026-10-23",
+    "checked_urls": [
+      "https://www.security-next.com/185176"
+    ]
+  },
+  {
+    "id": "june-review-4fb147d2ef6f",
+    "organization": "沖縄県",
+    "reported_on": "2026-06-03",
+    "verification": "pending",
+    "reference_url": "https://www.security-next.com/184950",
+    "note": "6月掲載の記事本文を確認。記事日は公表日とは限らない。6月の公式公表日、既存事案との同一性、対象範囲の確認が残るため掲載保留。",
+    "reviewed_on": "2026-10-23",
+    "checked_urls": [
+      "https://www.security-next.com/184950"
+    ]
+  },
+  {
+    "id": "june-review-6a5470e69dce",
+    "organization": "TEIKOKU",
+    "reported_on": "2026-06-02",
+    "verification": "pending",
+    "reference_url": "https://www.security-next.com/184367",
+    "note": "6月掲載の記事本文を確認。記事日は公表日とは限らない。6月の公式公表日、既存事案との同一性、対象範囲の確認が残るため掲載保留。",
+    "reviewed_on": "2026-10-23",
+    "checked_urls": [
+      "https://www.security-next.com/184367"
+    ]
+  },
+  {
+    "id": "june-review-8999f0b25914",
+    "organization": "青山財産ネットワークス",
+    "reported_on": "2026-06-02",
+    "verification": "pending",
+    "reference_url": "https://www.security-next.com/184515",
+    "note": "6月掲載の記事本文を確認。記事日は公表日とは限らない。6月の公式公表日、既存事案との同一性、対象範囲の確認が残るため掲載保留。",
+    "reviewed_on": "2026-10-23",
+    "checked_urls": [
+      "https://www.security-next.com/184515"
+    ]
+  },
+  {
+    "id": "june-review-3a593e72e987",
+    "organization": "大阪市",
+    "reported_on": "2026-06-02",
+    "verification": "pending",
+    "reference_url": "https://www.security-next.com/185204",
+    "note": "6月掲載の記事本文を確認。記事日は公表日とは限らない。6月の公式公表日、既存事案との同一性、対象範囲の確認が残るため掲載保留。",
+    "reviewed_on": "2026-10-23",
+    "checked_urls": [
+      "https://www.security-next.com/185204"
+    ]
+  },
+  {
+    "id": "june-review-8d4fd8c3fc11",
+    "organization": "関市",
+    "reported_on": "2026-06-02",
+    "verification": "pending",
+    "reference_url": "https://www.security-next.com/185271",
+    "note": "6月掲載の記事本文を確認。記事日は公表日とは限らない。6月の公式公表日、既存事案との同一性、対象範囲の確認が残るため掲載保留。",
+    "reviewed_on": "2026-10-23",
+    "checked_urls": [
+      "https://www.security-next.com/185271"
+    ]
+  },
+  {
+    "id": "june-review-34e30d48362c",
+    "organization": "津田塾大",
+    "reported_on": "2026-06-01",
+    "verification": "pending",
+    "reference_url": "https://www.security-next.com/184944",
+    "note": "6月掲載の記事本文を確認。記事日は公表日とは限らない。6月の公式公表日、既存事案との同一性、対象範囲の確認が残るため掲載保留。",
+    "reviewed_on": "2026-10-23",
+    "checked_urls": [
+      "https://www.security-next.com/184944"
+    ]
+  },
+  {
+    "id": "june-review-459a8d444b7d",
+    "organization": "郡山広域消防",
+    "reported_on": "2026-06-01",
+    "verification": "pending",
+    "reference_url": "https://www.security-next.com/184749",
+    "note": "6月掲載の記事本文を確認。記事日は公表日とは限らない。6月の公式公表日、既存事案との同一性、対象範囲の確認が残るため掲載保留。",
+    "reviewed_on": "2026-10-23",
+    "checked_urls": [
+      "https://www.security-next.com/184749"
+    ]
+  },
+  {
+    "id": "june-review-12b8623fd0ca",
+    "organization": "東北学院大",
+    "reported_on": "2026-06-01",
+    "verification": "pending",
+    "reference_url": "https://www.security-next.com/185187",
+    "note": "6月掲載の記事本文を確認。記事日は公表日とは限らない。6月の公式公表日、既存事案との同一性、対象範囲の確認が残るため掲載保留。",
+    "reviewed_on": "2026-10-23",
+    "checked_urls": [
+      "https://www.security-next.com/185187"
+    ]
+  },
+  {
+    "id": "june-review-02e84b57bb73",
+    "organization": "大阪市",
+    "reported_on": "2026-06-01",
+    "verification": "pending",
+    "reference_url": "https://www.security-next.com/185110",
+    "note": "6月掲載の記事本文を確認。記事日は公表日とは限らない。6月の公式公表日、既存事案との同一性、対象範囲の確認が残るため掲載保留。",
+    "reviewed_on": "2026-10-23",
+    "checked_urls": [
+      "https://www.security-next.com/185110"
+    ]
+  },
+  {
+    "id": "june-review-c02a89b324a7",
+    "organization": "Kaizen Tech Agent",
+    "reported_on": "2026-06-10",
+    "verification": "pending",
+    "reference_url": "https://kaizentech.co.jp/5388/",
+    "note": "公式URLは404。6月10日の公表は専門記事で確認したが公式本文・対象範囲の検証を保留。",
+    "reviewed_on": "2026-10-23",
+    "checked_urls": [
+      "https://kaizentech.co.jp/5388/"
+    ]
+  },
+  {
+    "id": "june-review-cf1c10f5210a",
+    "organization": "小松島市（農林水産課）",
+    "reported_on": "2026-06-25",
+    "verification": "pending",
+    "reference_url": "https://www.onebe.co.jp/dlpnews/?p=35482",
+    "note": "6月25日公表とする報道候補。公式本文を未確認。",
+    "reviewed_on": "2026-10-23",
+    "checked_urls": [
+      "https://www.onebe.co.jp/dlpnews/?p=35482"
+    ]
+  },
+  {
+    "id": "june-review-4f50df5cbe90",
+    "organization": "函館市（職員による持ち出し）",
+    "reported_on": "2026-06-22",
+    "verification": "pending",
+    "reference_url": "https://rocket-boys.co.jp/security-measures-lab/2026-06-data-breach-cases-summary/",
+    "note": "月次まとめの内部不正事案。今回追加した誤送付・写真販売事案とは別候補。公式発表未特定。",
+    "reviewed_on": "2026-10-23",
+    "checked_urls": [
+      "https://rocket-boys.co.jp/security-measures-lab/2026-06-data-breach-cases-summary/"
+    ]
+  },
+  {
+    "id": "june-review-230b9fbad8c9",
+    "organization": "近畿大学／大阪国税局（6月公表候補）",
+    "reported_on": "2026-06-25",
+    "verification": "pending",
+    "reference_url": "https://note.com/elpayaso/n/n8f69e25e3a76",
+    "note": "6月25日近畿大学・6月19日大阪国税局の候補。原文を確認できず、2事案としての確定掲載は保留。",
+    "reviewed_on": "2026-10-23",
+    "checked_urls": [
+      "https://note.com/elpayaso/n/n8f69e25e3a76"
+    ]
   }
 ]

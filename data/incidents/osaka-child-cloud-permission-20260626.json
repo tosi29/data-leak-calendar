@@ -1,0 +1,51 @@
+{
+  "id": "osaka-child-cloud-permission-20260626",
+  "organization": {
+    "name": "大阪市こども青少年局",
+    "sector": "企業・団体"
+  },
+  "title": "クラウドの閲覧権限誤りで他施設の職員情報を公開",
+  "summary": "閲覧権限設定の誤りにより、職員の個人情報を他施設が閲覧でき、実際の閲覧も確認された。",
+  "published_on": "2026-06-26",
+  "first_published_on": "2026-06-26",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-23",
+  "verification": "official",
+  "leak_status": "exposed",
+  "incident_type": "accident",
+  "cause": {
+    "category": "configuration",
+    "detail": "閲覧権限設定の誤りにより、職員の個人情報を他施設が閲覧でき、実際の閲覧も確認された。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 84,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "公表対象規模（漏えい確定人数とは限らない）"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "生年月日",
+    "性別",
+    "住所",
+    "賃金",
+    "勤務情報"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.city.osaka.lg.jp/hodoshiryo/kodomo/0000682244.html",
+      "type": "official",
+      "title": "大阪市：報道発表資料　こども青少年局におけるクラウドサービスの閲覧権限設定誤りによる個人情報等の漏えいについて",
+      "published_on": "2026-06-26",
+      "checked_on": "2026-10-23"
+    }
+  ],
+  "updates": [],
+  "notes": "59件・24件・1件の公表内訳。重複を除いた人数とは確認できない。"
+}

@@ -5,12 +5,12 @@
     "sector": "IT・通信"
   },
   "title": "メール配信サービスへの不正アクセスで配信先情報の一部が流出",
-  "published_on": "2026-08-14",
+  "published_on": "2026-06-19",
   "occurred_on": null,
   "detected_on": "2026-06-15",
-  "updated_on": "2026-10-18",
+  "updated_on": "2026-10-23",
   "first_published_on": "2026-06-19",
-  "publication_kind": "followup",
+  "publication_kind": "initial",
   "verification": "official",
   "leak_status": "confirmed",
   "incident_type": "attack",
@@ -39,8 +39,15 @@
       "title": "調査完了。一部の配信先メールアドレス等の外部取得を確認。",
       "published_on": "2026-08-14",
       "checked_on": "2026-10-18"
+    },
+    {
+      "url": "https://www.meruhaikun.com/blog/?page_id=3197",
+      "type": "official",
+      "title": "一部サーバーへの第三者による不正アクセスによるシステム障害及び情報漏洩についてのお知らせ - メール配信システムめる配くんBlog",
+      "published_on": "2026-06-19",
+      "checked_on": "2026-10-23"
     }
   ],
-  "notes": "初報は公式最終報が明記する6月19日。7月の対策ページは本文に日付がないため、日付と流出確認を明記した8月14日の最終報を掲載日とする。利用組織の対象規模とは重複し得る。",
+  "notes": "初報は公式最終報が明記する6月19日。7月の対策ページは本文に日付がないため、日付と流出確認を明記した8月14日の最終報を掲載日とする。利用組織の対象規模とは重複し得る。 6月遡及調査により掲載日を2026-08-14から2026-06-19に変更し、最新の被害範囲と続報を同じ事案に保持。",
   "updates": []
 }

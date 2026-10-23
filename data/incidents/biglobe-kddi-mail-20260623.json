@@ -1,0 +1,68 @@
+{
+  "id": "biglobe-kddi-mail-20260623",
+  "organization": {
+    "name": "ビッグローブ",
+    "sector": "企業・団体"
+  },
+  "title": "KDDI共通メール基盤への侵害に伴う利用者情報の漏えい",
+  "summary": "6月23日に公表した共通メール基盤への侵害について、7月の続報で対象範囲を報告した。",
+  "published_on": "2026-06-23",
+  "first_published_on": "2026-06-23",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-23",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "vulnerability",
+    "detail": "6月23日に公表した共通メール基盤への侵害について、7月の続報で対象範囲を報告した。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 5016432,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表対象規模（漏えい確定人数とは限らない）"
+    }
+  ],
+  "data_types": [
+    "メールアドレス",
+    "パスワード等"
+  ],
+  "related_vendor": "KDDI",
+  "sources": [
+    {
+      "url": "https://www.biglobe.co.jp/pressroom/release/2026/06/260623-a",
+      "type": "official",
+      "title": "「BIGLOBEメール」への不正アクセス発生のお詫びとご報告 - ニュース - ビッグローブ株式会社",
+      "published_on": "2026-06-23",
+      "checked_on": "2026-10-23"
+    },
+    {
+      "url": "https://www.biglobe.co.jp/pressroom/release/2026/07/260706-a",
+      "type": "official",
+      "title": "「BIGLOBEメール」への不正アクセス発生のお詫びとご報告（第二報） - ニュース - ビッグローブ株式会社",
+      "published_on": "2026-07-06",
+      "checked_on": "2026-10-23"
+    }
+  ],
+  "updates": [
+    {
+      "date": "2026-07-06",
+      "summary": "続報の内容を同じ事案へ反映。「BIGLOBEメール」への不正アクセス発生のお詫びとご報告（第二報） - ニュース - ビッグローブ株式会社",
+      "source_index": 1
+    }
+  ],
+  "notes": "KDDI共通基盤の同一攻撃に伴う利用者向け発表。KDDIの全体人数と加算しない。6月23日の公表日は続報内でも確認。",
+  "vendors": [
+    {
+      "name": "KDDI",
+      "role": "service",
+      "detail": "侵害されたISP向け共通メール基盤の提供元。",
+      "source_index": 0
+    }
+  ]
+}

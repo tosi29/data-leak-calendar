@@ -1,0 +1,49 @@
+{
+  "id": "kochi-tech-laptop-loss-20260609",
+  "organization": {
+    "name": "高知工科大学",
+    "sector": "企業・団体"
+  },
+  "title": "出張中に個人情報を含むPCを列車内に置き忘れ",
+  "summary": "ログインパスワード未設定の業務用PCを紛失。通信ログから、学生47人分を含む418件のメール情報を流出可能性のある対象とした。",
+  "published_on": "2026-06-09",
+  "first_published_on": "2026-06-09",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-23",
+  "verification": "official",
+  "leak_status": "lost",
+  "incident_type": "accident",
+  "cause": {
+    "category": "loss",
+    "detail": "ログインパスワード未設定の業務用PCを紛失。通信ログから、学生47人分を含む418件のメール情報を流出可能性のある対象とした。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 418,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "公表対象規模（漏えい確定人数とは限らない）"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "メールアドレス",
+    "メール本文",
+    "添付ファイル"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.kochi-tech.ac.jp/news/img/kohyo_260609.pdf",
+      "type": "official",
+      "title": "令 和8年6⽉9⽇",
+      "published_on": "2026-06-09",
+      "checked_on": "2026-10-23"
+    }
+  ],
+  "updates": [],
+  "notes": "418はメール情報の件数で人数ではない。紛失日は5月下旬とされ具体的日付は非公表。"
+}

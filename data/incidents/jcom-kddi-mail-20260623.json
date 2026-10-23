@@ -1,0 +1,92 @@
+{
+  "id": "jcom-kddi-mail-20260623",
+  "organization": {
+    "name": "JCOM",
+    "sector": "企業・団体"
+  },
+  "title": "KDDI共通メール基盤への侵害に伴う利用者情報の漏えい",
+  "summary": "KDDI共通メール基盤への侵害でメールアドレスの漏えいを確認。7月21日訂正後はJ:COM NET利用者2,473,191人、卸提供先の利用者118,752人で、うち1,257人はパスワードも対象。",
+  "published_on": "2026-06-23",
+  "first_published_on": "2026-06-23",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-23",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "vulnerability",
+    "detail": "6月23日に公表した共通メール基盤への侵害について、7月の続報で対象範囲を報告した。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 2473191,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "J:COM NET利用者のメールアドレス"
+    },
+    {
+      "count": 118752,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "卸提供先ケーブルテレビ事業者の利用者（7月21日訂正後）"
+    },
+    {
+      "count": 1257,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "卸提供先のパスワード漏えい（上記の内数）"
+    }
+  ],
+  "data_types": [
+    "メールアドレス",
+    "パスワード等"
+  ],
+  "related_vendor": "KDDI",
+  "sources": [
+    {
+      "url": "https://newsreleases.jcom.co.jp/news/20260623_21351.html",
+      "type": "official",
+      "title": "JCOM：KDDI共通メール基盤への侵害に伴う利用者情報の漏えい",
+      "published_on": "2026-06-23",
+      "checked_on": "2026-10-23"
+    },
+    {
+      "url": "https://newsreleases.jcom.co.jp/news/20260706_21698.html",
+      "type": "official",
+      "title": "JCOM：KDDI共通メール基盤への侵害に伴う利用者情報の漏えい",
+      "published_on": "2026-07-06",
+      "checked_on": "2026-10-23"
+    },
+    {
+      "url": "https://newsreleases.jcom.co.jp/files/2026/07/26072101-2.pdf",
+      "type": "official",
+      "title": "メールサービスへの不正アクセス（7月21日訂正版）",
+      "published_on": "2026-07-21",
+      "checked_on": "2026-10-23"
+    }
+  ],
+  "updates": [
+    {
+      "date": "2026-07-06",
+      "summary": "続報の内容を同じ事案へ反映。JCOM：KDDI共通メール基盤への侵害に伴う利用者情報の漏えい",
+      "source_index": 1
+    },
+    {
+      "date": "2026-07-21",
+      "summary": "続報の内容を同じ事案へ反映。メールサービスへの不正アクセス（7月21日訂正版）",
+      "source_index": 2
+    }
+  ],
+  "notes": "KDDI共通基盤の同一攻撃に伴う利用者向け発表。KDDIの全体人数と加算しない。6月23日の公表日は続報内でも確認。",
+  "vendors": [
+    {
+      "name": "KDDI",
+      "role": "service",
+      "detail": "侵害されたISP向け共通メール基盤の提供元。",
+      "source_index": 0
+    }
+  ]
+}

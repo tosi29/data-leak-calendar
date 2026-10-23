@@ -1,0 +1,48 @@
+{
+  "id": "hakodate-health-ticket-20260608",
+  "organization": {
+    "name": "函館市",
+    "sector": "企業・団体"
+  },
+  "title": "健康診査受診券を別人へ誤送付",
+  "summary": "相続人代表者の届出に関するシステム入力の誤りにより、2人分の健康診査受診券を別人へ送付した。",
+  "published_on": "2026-06-08",
+  "first_published_on": "2026-06-08",
+  "publication_kind": "initial",
+  "occurred_on": "2026-05-26",
+  "detected_on": "2026-06-02",
+  "updated_on": "2026-10-23",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "accident",
+  "cause": {
+    "category": "misdelivery",
+    "detail": "相続人代表者の届出に関するシステム入力の誤りにより、2人分の健康診査受診券を別人へ送付した。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 2,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表対象規模（漏えい確定人数とは限らない）"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "性別",
+    "生年月日"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.city.hakodate.hokkaido.jp/docs/2020102800061/file_contents/20260608shiminbu.pdf",
+      "type": "official",
+      "title": "函 市 国",
+      "published_on": "2026-06-08",
+      "checked_on": "2026-10-23"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

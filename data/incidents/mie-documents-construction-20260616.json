@@ -1,0 +1,53 @@
+{
+  "id": "mie-documents-construction-20260616",
+  "organization": {
+    "name": "三重県伊勢建設事務所",
+    "sector": "企業・団体"
+  },
+  "title": "公文書ファイルの所在不明を公表",
+  "summary": "道路法関係の公文書2冊が所在不明。添付地図の土地所有者氏名等を含み、対象者数は不明。",
+  "published_on": "2026-06-16",
+  "first_published_on": "2026-06-16",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-23",
+  "verification": "official",
+  "leak_status": "lost",
+  "incident_type": "accident",
+  "cause": {
+    "category": "loss",
+    "detail": "道路法関係の公文書2冊が所在不明。添付地図の土地所有者氏名等を含み、対象者数は不明。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "documents",
+      "qualifier": "unknown",
+      "description": "公表対象規模（漏えい確定人数とは限らない）"
+    }
+  ],
+  "data_types": [
+    "土地所有者氏名"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.pref.mie.lg.jp/TOPICS/m0359200026.htm",
+      "type": "official",
+      "title": "三重県｜公文書の紛失について",
+      "published_on": "2026-06-16",
+      "checked_on": "2026-10-23"
+    },
+    {
+      "url": "https://www.pref.mie.lg.jp/common/content/001261017.pdf",
+      "type": "official",
+      "title": "県土整備部伊勢建設事務所における公文書の紛失について",
+      "published_on": "2026-06-16",
+      "checked_on": "2026-10-23"
+    }
+  ],
+  "updates": [],
+  "notes": "県の一括発表に含まれる部署別の事案。全体194文書を被害人数として数えない。外部流出は確認されていない。"
+}

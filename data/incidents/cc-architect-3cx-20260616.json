@@ -1,0 +1,46 @@
+{
+  "id": "cc-architect-3cx-20260616",
+  "organization": {
+    "name": "CCアーキテクト",
+    "sector": "企業・団体"
+  },
+  "title": "監視サービスの認証情報漏えいから3CX管理画面に侵入",
+  "summary": "海外の外部監視サービスに登録したアカウント情報が漏えいし、管理画面へ侵入された。SIPトランク認証情報の閲覧可能性と不正な国際電話発信を確認。",
+  "published_on": "2026-06-16",
+  "first_published_on": "2026-06-16",
+  "publication_kind": "initial",
+  "occurred_on": "2026-05-17",
+  "detected_on": null,
+  "updated_on": "2026-10-23",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "credentials",
+    "detail": "海外の外部監視サービスに登録したアカウント情報が漏えいし、管理画面へ侵入された。SIPトランク認証情報の閲覧可能性と不正な国際電話発信を確認。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "accounts",
+      "qualifier": "unknown",
+      "description": "公表対象規模（漏えい確定人数とは限らない）"
+    }
+  ],
+  "data_types": [
+    "SIPトランク認証情報"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://cc-arc.com/news/3cxcloud_unauthorized-access_0616/",
+      "type": "official",
+      "title": "CCアーキテクト：監視サービスの認証情報漏えいから3CX管理画面に侵入",
+      "published_on": "2026-06-16",
+      "checked_on": "2026-10-23"
+    }
+  ],
+  "updates": [],
+  "notes": "通常ユーザーの認証情報閲覧やデータエクスポートの痕跡は未確認。監視サービスの社名は非公表。"
+}

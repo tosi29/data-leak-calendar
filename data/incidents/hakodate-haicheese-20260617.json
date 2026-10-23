@@ -1,0 +1,57 @@
+{
+  "id": "hakodate-haicheese-20260617",
+  "organization": {
+    "name": "函館市教育委員会",
+    "sector": "企業・団体"
+  },
+  "title": "学校写真販売事業者から購入者情報が漏えいした可能性",
+  "summary": "高丘小学校・北美原小学校の写真販売を受注した千の「はいチーズ！フォト」について、購入者情報の漏えい可能性を公表した。",
+  "published_on": "2026-06-17",
+  "first_published_on": "2026-06-17",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-23",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "高丘小学校・北美原小学校の写真販売を受注した千の「はいチーズ！フォト」について、購入者情報の漏えい可能性を公表した。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "公表対象規模（漏えい確定人数とは限らない）"
+    }
+  ],
+  "data_types": [
+    "購入者氏名",
+    "住所",
+    "電話番号",
+    "学校名"
+  ],
+  "related_vendor": "千株式会社",
+  "sources": [
+    {
+      "url": "https://www.city.hakodate.hokkaido.jp/docs/2020102800238/file_contents/260617.pdf",
+      "type": "official",
+      "title": "函 教 学",
+      "published_on": "2026-06-17",
+      "checked_on": "2026-10-23"
+    }
+  ],
+  "updates": [],
+  "notes": "千のサービス基盤事案と関連。委託元としての通知1件で、学校2校を別々には加算しない。",
+  "vendors": [
+    {
+      "name": "千株式会社",
+      "role": "service",
+      "detail": "はいチーズ！フォトの写真販売事業者。",
+      "source_index": 0
+    }
+  ]
+}

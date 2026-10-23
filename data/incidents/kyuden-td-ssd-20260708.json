@@ -5,12 +5,12 @@
     "sector": "電力"
   },
   "title": "顧客情報を保存したバックアップ用SSDの所在不明に関する続報",
-  "published_on": "2026-07-08",
+  "published_on": "2026-06-08",
   "occurred_on": null,
   "detected_on": "2026-05-26",
-  "updated_on": "2026-10-18",
+  "updated_on": "2026-10-23",
   "first_published_on": "2026-06-08",
-  "publication_kind": "followup",
+  "publication_kind": "initial",
   "verification": "official",
   "leak_status": "lost",
   "incident_type": "accident",
@@ -50,8 +50,15 @@
       "title": "別紙：報告徴収への報告、事実関係・対象規模・再発防止策",
       "published_on": "2026-07-08",
       "checked_on": "2026-10-18"
+    },
+    {
+      "url": "https://www.kyuden.co.jp/td/press/2026/260608.html",
+      "type": "official",
+      "title": "九州電力送配電　お客さま情報を保存した外部記憶媒体の所在不明について",
+      "published_on": "2026-06-08",
+      "checked_on": "2026-10-23"
     }
   ],
-  "notes": "資料の合計1,354万件のうち個人情報1,003万件。法人等・契約継続中の内数を別に加算しない。氏名表記差などがありユニーク人数ではない。",
+  "notes": "資料の合計1,354万件のうち個人情報1,003万件。法人等・契約継続中の内数を別に加算しない。氏名表記差などがありユニーク人数ではない。 6月遡及調査により掲載日を2026-07-08から2026-06-08に変更し、最新の被害範囲と続報を同じ事案に保持。",
   "updates": []
 }

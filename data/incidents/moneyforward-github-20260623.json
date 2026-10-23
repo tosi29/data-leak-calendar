@@ -1,0 +1,67 @@
+{
+  "id": "moneyforward-github-20260623",
+  "organization": {
+    "name": "マネーフォワードグループ",
+    "sector": "企業・団体"
+  },
+  "title": "GitHub侵害に伴う個人データの対象範囲を確定報告",
+  "summary": "ソースコード管理環境に含まれた個人データの範囲を精査し、顧客、取引先、従業員および管理用識別子の対象を公表した。本番データベースへの不正アクセスはないと説明。",
+  "published_on": "2026-06-23",
+  "first_published_on": "2026-05-01",
+  "publication_kind": "followup",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-23",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "credentials",
+    "detail": "ソースコード管理環境に含まれた個人データの範囲を精査し、顧客、取引先、従業員および管理用識別子の対象を公表した。本番データベースへの不正アクセスはないと説明。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 124,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "顧客の氏名またはメールアドレス"
+    },
+    {
+      "count": 28,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "取引先"
+    },
+    {
+      "count": 2300,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "従業員・退職者（名寄せ後）"
+    },
+    {
+      "count": 60449,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "顧客の管理用識別子のみ"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "メールアドレス",
+    "電話番号",
+    "管理用識別子"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://corp.moneyforward.com/news/info/20260623-mf-press-1/",
+      "type": "official",
+      "title": "GitHubへの不正アクセスに関する詳細調査の完了およびセキュリティ対策強化のお知らせ（第四報）｜株式会社マネーフォワード",
+      "published_on": "2026-06-23",
+      "checked_on": "2026-10-23"
+    }
+  ],
+  "updates": [],
+  "notes": "第四報で追加判明した範囲。管理用識別子60,449人分は単体では個人を特定できず、ログインIDでもない。カテゴリ間の重複不明のため合算しない。"
+}

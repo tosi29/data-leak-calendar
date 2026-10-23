@@ -6,12 +6,12 @@
   },
   "title": "ISP向けメールシステムへの不正アクセスで情報漏えい",
   "summary": "メール基盤のソフトウェアの脆弱性を悪用された事案について、メールアドレスと一部のパスワードの漏えいを確認したと公表した。",
-  "published_on": "2026-07-06",
+  "published_on": "2026-06-23",
   "first_published_on": "2026-06-23",
-  "publication_kind": "followup",
+  "publication_kind": "initial",
   "occurred_on": null,
   "detected_on": null,
-  "updated_on": "2026-10-18",
+  "updated_on": "2026-10-23",
   "incident_type": "attack",
   "leak_status": "confirmed",
   "impact": [
@@ -44,9 +44,16 @@
       "type": "official",
       "published_on": "2026-07-21",
       "checked_on": "2026-10-18"
+    },
+    {
+      "url": "https://newsroom.kddi.com/news/assets/2026/kddi_nr_s-71_4593/kddi_nr_s-71_4593_pdf_01.pdf",
+      "type": "official",
+      "title": "2026 年 6 月 23 日",
+      "published_on": "2026-06-23",
+      "checked_on": "2026-10-23"
     }
   ],
-  "notes": "人数は7月21日の訂正後。パスワード対象7,616,173人はメールアドレス対象の内数。ISP各社の公表分と重複するため合算しない。",
+  "notes": "人数は7月21日の訂正後。パスワード対象7,616,173人はメールアドレス対象の内数。ISP各社の公表分と重複するため合算しない。 6月遡及調査で掲載日を2026-07-06から確認済み初報2026-06-23へ変更。同一事案の追加計上はせず、続報の被害範囲を保持。",
   "updates": [],
   "verification": "official",
   "related_vendor": null

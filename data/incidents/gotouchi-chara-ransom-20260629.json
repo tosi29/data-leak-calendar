@@ -1,0 +1,50 @@
+{
+  "id": "gotouchi-chara-ransom-20260629",
+  "organization": {
+    "name": "日本ご当地キャラクター協会",
+    "sector": "企業・団体"
+  },
+  "title": "ランサムウェア感染でキャラクター担当者の連絡先流出の可能性",
+  "summary": "6月2日にランサムウェア感染が判明し、キャラクターの担当者連絡先等が外部に流出した可能性がある。",
+  "published_on": "2026-06-29",
+  "first_published_on": "2026-06-29",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-06-02",
+  "updated_on": "2026-10-23",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "6月2日にランサムウェア感染が判明し、キャラクターの担当者連絡先等が外部に流出した可能性がある。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "公表対象規模（漏えい確定人数とは限らない）"
+    }
+  ],
+  "data_types": [
+    "担当者氏名",
+    "所属",
+    "電話番号",
+    "メールアドレス",
+    "住所"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://gotouchi-chara.jp/7195/",
+      "type": "official",
+      "title": "【重要】ランサムウェア感染によるキャラクター連絡先データ流出の可能性に関するお詫びとご報告 | 日本ご当地キャラクター協会",
+      "published_on": "2026-06-29",
+      "checked_on": "2026-10-23"
+    }
+  ],
+  "updates": [],
+  "notes": "公表日は公式WordPress APIの公開日時2026-06-29を確認。更新日時7月21日とは区別。"
+}

@@ -1,6 +1,6 @@
 {
   "checked_on": "2026-10-21",
-  "coverage_start": "2026-09-01",
+  "coverage_start": "2026-06-01",
   "coverage_end": "2026-10-21",
   "scope": "国内組織・国内サービスの公表。海外事例の独立した掘り起こしは対象外。公表日と報道日・発生日を区別。",
   "method": [
@@ -23371,6 +23371,2397 @@
         "未解決URL数は未掲載事案数ではない。",
         "全案件の網羅は保証しない。",
         "公表日と復旧日・発生日・PDF作成日を区別。"
+      ]
+    },
+    {
+      "checked_on": "2026-10-23",
+      "scope": "2026年6月1日〜30日公表分の遡及調査",
+      "method": [
+        "月次まとめ49候補、Security NEXTの6月一覧11ページ（203記事リンク）から事案候補103記事、他の月次まとめと自治体公式一覧を照合。",
+        "公表日を報道日・発生日と区別。公式本文または公式の初報記載を優先。",
+        "同一組織・同一事案の続報を既存記録へ統合。共通基盤の被害組織数は独立した攻撃回数とは区別。",
+        "取得不能、6月の公表日未確定、個人情報対象未確定の候補を残す。未掲載候補数は未掲載の確定事案数ではない。"
+      ],
+      "stats": {
+        "added": 70,
+        "updated": 9,
+        "june_incidents": 79,
+        "total": 909,
+        "new_pending_candidates": 74,
+        "candidates": 112
+      },
+      "added_incident_ids": [
+        "osaka-child-consult-mail-20260630",
+        "lisb-direct-mail-20260630",
+        "sky-family-support-scam-20260630",
+        "osaka-child-cloud-permission-20260626",
+        "bitstar-bokanii-x-20260626",
+        "ishigaki-school-support-scam-20260625",
+        "jwa-mail-account-20260624",
+        "nttpc-suitex-20260623",
+        "nttpc-file-transfer-20260623",
+        "softsu-test-server-20260622",
+        "gendai-butsudan-server-20260619",
+        "kaze-travel-mail-20260619",
+        "tbgu-support-scam-20260619",
+        "habikino-prescription-20260617",
+        "komatsu-user-permission-20260616",
+        "cc-architect-3cx-20260616",
+        "saga-hirakawaya-shop-20260615",
+        "dm-fax-ransom-20260612",
+        "shimane-mitoya-support-scam-20260612",
+        "en-middle-credential-stuffing-20260605",
+        "jcea-mail-account-20260605",
+        "osaka-health-mail-20260604",
+        "osaka-pref-mail-address-20260604",
+        "jahmc-mail-account-20260604",
+        "fujita-support-scam-20260603",
+        "osaka-school-art-loss-20260619",
+        "edogawa-school-sd-loss-20260629",
+        "tokyo-welfare-mail-subject-20260618",
+        "osaka-mimamoru-attachment-20260619",
+        "osaka-abeno-land-tax-20260622",
+        "osaka-abeno-house-tax-20260622",
+        "tochigi-labour-survey-loss-20260615",
+        "motosu-disaster-mail-20260602",
+        "nippon-telenet-ransom-20260612",
+        "campfire-github-cloud-20260602",
+        "moneyforward-github-20260623",
+        "osaka-bulk-jun-01-20260609",
+        "osaka-bulk-jun-02-20260609",
+        "osaka-bulk-jun-03-20260609",
+        "osaka-bulk-jun-04-20260609",
+        "osaka-bulk-jun-05-20260609",
+        "osaka-bulk-jun-06-20260609",
+        "osaka-bulk-jun-08-20260609",
+        "osaka-bulk-jun-09-20260609",
+        "osaka-bulk-jun-10-20260609",
+        "osaka-bulk-jun-11-20260609",
+        "osaka-bulk-jun-13-20260609",
+        "biglobe-kddi-mail-20260623",
+        "nifty-kddi-mail-20260623",
+        "stnet-kddi-mail-20260623",
+        "ctc-kddi-mail-20260623",
+        "jcom-kddi-mail-20260623",
+        "asahikawa-shinkin-documents-20260608",
+        "kure-shinkin-documents-20260610",
+        "ja-sapporo-nochubank-test-20260630",
+        "pickle-one-plugin-20260630",
+        "kochi-tech-laptop-loss-20260609",
+        "hokkaido-mc-hdd-20260608",
+        "hokkaido-cc-hdd-20260608",
+        "2rinkan-api-20260619",
+        "mie-documents-tax-20260616",
+        "mie-documents-culture-20260616",
+        "mie-documents-construction-20260616",
+        "mie-documents-education-20260616",
+        "kawagoe-cci-mail-20260612",
+        "gotouchi-chara-ransom-20260629",
+        "murase-shop-intrusion-20260617",
+        "hakodate-certificate-post-20260602",
+        "hakodate-health-ticket-20260608",
+        "hakodate-haicheese-20260617"
+      ],
+      "updated_incident_ids": [
+        "kddi-ispmail-20260706",
+        "kwc-cpi-mail-20260706",
+        "fujikura-composites-mail-20260731",
+        "visualarts-server-20260731",
+        "faith-group-20260821",
+        "aflac-20260901",
+        "kyuden-td-ssd-20260708",
+        "sen-haicheese-20260731",
+        "delightful-meruhaikun-20260814"
+      ],
+      "pending_candidate_ids": [
+        "june-review-429efce1362f",
+        "june-review-c4dc6a9dceb5",
+        "june-review-ca49c763ec89",
+        "june-review-79a163680ec6",
+        "june-review-30b782e8b622",
+        "june-review-5aad3bc12433",
+        "june-review-ad3dd3950572",
+        "june-review-5f3d281ad650",
+        "june-review-00124945ce62",
+        "june-review-cbe755f0c73a",
+        "june-review-1736d62ef619",
+        "june-review-5cc20f8f86c7",
+        "june-review-bc2be576ed20",
+        "june-review-39c96c4996c3",
+        "june-review-859b797de1f5",
+        "june-review-49013a4336d4",
+        "june-review-794f1138e001",
+        "june-review-dcb8bcf58d1a",
+        "june-review-0cf9414ea6e9",
+        "june-review-16f2003dfc27",
+        "june-review-f75fe4324584",
+        "june-review-7ac5732f336c",
+        "june-review-33471a56272a",
+        "june-review-bd6ce4eb0ecd",
+        "june-review-8fef270ddf1c",
+        "june-review-c62bdd0d1419",
+        "june-review-10a6cdf05cb1",
+        "june-review-d0b7db08f9db",
+        "june-review-67895ebad85b",
+        "june-review-77b08929acc0",
+        "june-review-d86d66a0f07a",
+        "june-review-da050f3e6c46",
+        "june-review-5df4e2a8ee59",
+        "june-review-65ba0dd4945f",
+        "june-review-6d92ab05b132",
+        "june-review-72c768428f73",
+        "june-review-9851932d564c",
+        "june-review-a2533e16dd1a",
+        "june-review-ccdd8fa1e945",
+        "june-review-1cd33a9e570a",
+        "june-review-db95d8c0ea0b",
+        "june-review-98b5fb9b5d4b",
+        "june-review-777839d12f49",
+        "june-review-28d7377e2cfe",
+        "june-review-284db9cd1b9b",
+        "june-review-d7ffa1756fc6",
+        "june-review-aaa7d6376b85",
+        "june-review-b2d0ab383422",
+        "june-review-42f78439c614",
+        "june-review-faaf384757cb",
+        "june-review-356d577045c6",
+        "june-review-8133460b4af8",
+        "june-review-89e170b71ecf",
+        "june-review-10ad8319d170",
+        "june-review-f239335c9092",
+        "june-review-fcb67e3f069b",
+        "june-review-365ad63392b5",
+        "june-review-15483b3ee8f7",
+        "june-review-530e7eec9b67",
+        "june-review-a2fdcc6b2b4c",
+        "june-review-5577f338df63",
+        "june-review-4fb147d2ef6f",
+        "june-review-6a5470e69dce",
+        "june-review-8999f0b25914",
+        "june-review-3a593e72e987",
+        "june-review-8d4fd8c3fc11",
+        "june-review-34e30d48362c",
+        "june-review-459a8d444b7d",
+        "june-review-12b8623fd0ca",
+        "june-review-02e84b57bb73",
+        "june-review-c02a89b324a7",
+        "june-review-cf1c10f5210a",
+        "june-review-4f50df5cbe90",
+        "june-review-230b9fbad8c9"
+      ],
+      "source_reviews": [
+        {
+          "url": "https://newsroom.kddi.com/news/assets/2026/kddi_nr_s-73_4619/kddi_nr_s-73_4619_pdf_01.pdf",
+          "status": "included",
+          "reason": "掲載事案の出典本文を確認。",
+          "incident_ids": [
+            "kddi-ispmail-20260706"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://newsroom.kddi.com/news/assets/2026/kddi_nr_s-71_4593/kddi_nr_s-71_4593_pdf_01.pdf",
+          "status": "included",
+          "reason": "掲載事案の出典本文を確認。",
+          "incident_ids": [
+            "kddi-ispmail-20260706"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.biglobe.co.jp/pressroom/release/2026/07/260706-a",
+          "status": "included",
+          "reason": "掲載事案の出典本文を確認。",
+          "incident_ids": [
+            "biglobe-kddi-mail-20260623"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.biglobe.co.jp/pressroom/release/2026/06/260623-a",
+          "status": "included",
+          "reason": "掲載事案の出典本文を確認。",
+          "incident_ids": [
+            "biglobe-kddi-mail-20260623"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.aflac.co.jp/static/corp/profile/news/2026/20260630.pdf",
+          "status": "included",
+          "reason": "掲載事案の出典本文を確認。",
+          "incident_ids": [
+            "aflac-20260901"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://newsreleases.jcom.co.jp/news/20260706_21698.html",
+          "status": "included",
+          "reason": "掲載事案の出典本文を確認。",
+          "incident_ids": [
+            "jcom-kddi-mail-20260623"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://newsreleases.jcom.co.jp/news/20260623_21351.html",
+          "status": "included",
+          "reason": "掲載事案の出典本文を確認。",
+          "incident_ids": [
+            "jcom-kddi-mail-20260623"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.nifty.co.jp/newsrelease/nifty202607065260.htm",
+          "status": "included",
+          "reason": "掲載事案の出典本文を確認。",
+          "incident_ids": [
+            "nifty-kddi-mail-20260623"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.osaka.lg.jp/hodoshiryo/kodomo/0000682486.html",
+          "status": "included",
+          "reason": "掲載事案の出典本文を確認。",
+          "incident_ids": [
+            "osaka-child-consult-mail-20260630"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.osaka.lg.jp/hodoshiryo/somu/0000684876.html",
+          "status": "included",
+          "reason": "掲載事案の出典本文を確認。",
+          "incident_ids": [
+            "osaka-bulk-aug-12-20260807",
+            "osaka-bulk-aug-8-20260807",
+            "osaka-bulk-aug-13-20260807",
+            "osaka-bulk-aug-5-20260807",
+            "osaka-bulk-aug-15-20260807",
+            "osaka-bulk-aug-4-20260807",
+            "osaka-bulk-aug-1-20260807",
+            "osaka-bulk-aug-7-20260807",
+            "osaka-bulk-aug-10-20260807",
+            "osaka-bulk-aug-9-20260807",
+            "osaka-bulk-aug-6-20260807"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.nochubank.or.jp/news/news_release/uploads/2026/20260630_%E5%BD%93%E9%87%91%E5%BA%AB%E3%81%8C%E5%8F%96%E3%82%8A%E6%89%B1%E3%81%86%EF%BC%AA%EF%BC%A1%E3%81%95%E3%81%A3%E3%81%BD%E3%82%8D%E3%81%AE%E7%B5%84%E5%90%88%E5%93%A1%E3%83%BB%E5%88%A9%E7%94%A8%E8%80%85%E3%81%AE%E7%9A%86%E6%A7%98%E3%81%AE%E5%80%8B%E4%BA%BA%E6%83%85%E5%A0%B1%E6%BC%8F%E3%81%88%E3%81%84%E4%BA%8B%E6%A1%88%E3%81%AE%E7%99%BA%E7%94%9F%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%EF%BC%88%E3%81%8A%E8%A9%AB%E3%81%B3%EF%BC%89%20.pdf",
+          "status": "matched",
+          "reason": "同一事案の補足資料・続報。一次資料の別経路で照合。",
+          "incident_ids": [
+            "ja-sapporo-nochubank-test-20260630"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://l-is-b.com/ja/news/20260630_25092/",
+          "status": "included",
+          "reason": "掲載事案の出典本文を確認。",
+          "incident_ids": [
+            "lisb-direct-mail-20260630"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://company.pickle-one.com/news/20260630",
+          "status": "included",
+          "reason": "掲載事案の出典本文を確認。",
+          "incident_ids": [
+            "pickle-one-plugin-20260630"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.higuchi-inc.co.jp/newsrelease/company/doc/unauthorized_access_incident.pdf",
+          "status": "unresolved",
+          "reason": "6月の発表候補。公式PDFのTLS接続または取得に失敗。個人情報の対象と続報の内容が未確定。",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.higuchi-inc.co.jp/newsrelease/company/doc/unauthorized_access_incident02.pdf",
+          "status": "unresolved",
+          "reason": "6月の発表候補。公式PDFのTLS接続または取得に失敗。個人情報の対象と続報の内容が未確定。",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://sky-familyclinic.com/info/2026-06-30/409/",
+          "status": "included",
+          "reason": "掲載事案の出典本文を確認。",
+          "incident_ids": [
+            "sky-family-support-scam-20260630"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://gotouchi-chara.jp/7195/",
+          "status": "included",
+          "reason": "掲載事案の出典本文を確認。",
+          "incident_ids": [
+            "gotouchi-chara-ransom-20260629"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.osaka.lg.jp/hodoshiryo/kodomo/0000682244.html",
+          "status": "included",
+          "reason": "掲載事案の出典本文を確認。",
+          "incident_ids": [
+            "osaka-child-cloud-permission-20260626"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.pref.saitama.lg.jp/a0502/news/page/2026062601.html",
+          "status": "excluded",
+          "reason": "事業者のエネルギー使用量等の誤送信。確認した本文に個人情報の記載がない。",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://bitstar.tokyo/corp/news_release/7055/",
+          "status": "included",
+          "reason": "掲載事案の出典本文を確認。",
+          "incident_ids": [
+            "bitstar-bokanii-x-20260626"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.ishigaki.okinawa.jp/soshiki/gakko_kyoiku/1_1/press/12154.html",
+          "status": "included",
+          "reason": "掲載事案の出典本文を確認。",
+          "incident_ids": [
+            "ishigaki-school-support-scam-20260625"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://jwa.auction/%E3%80%90%E9%87%8D%E8%A6%81%E3%80%91%E5%BC%8A%E7%A4%BE%E3%83%A1%E3%83%BC%E3%83%AB%E3%82%A2%E3%82%AB%E3%82%A6%E3%83%B3%E3%83%88%E3%81%B8%E3%81%AE%E4%B8%8D%E6%AD%A3%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9/",
+          "status": "included",
+          "reason": "掲載事案の出典本文を確認。",
+          "incident_ids": [
+            "jwa-mail-account-20260624"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.sapporobreweries.com/notice/detail/20260624000010.html",
+          "status": "unresolved",
+          "reason": "6月の発表候補。攻撃・障害の本文は確認したが、個人情報への影響を確定できない。",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.nttpc.co.jp/press/info/2026/06/202606231102.html",
+          "status": "included",
+          "reason": "掲載事案の出典本文を確認。",
+          "incident_ids": [
+            "nttpc-suitex-20260623"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.nttpc.co.jp/press/info/2026/06/202606231101.html",
+          "status": "included",
+          "reason": "掲載事案の出典本文を確認。",
+          "incident_ids": [
+            "nttpc-file-transfer-20260623"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.pikara.jp/info/2026/260707.html",
+          "status": "matched",
+          "reason": "同一事案の補足資料・続報。一次資料の別経路で照合。",
+          "incident_ids": [
+            "stnet-kddi-mail-20260623"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.stnet.co.jp/archives/001/202607/press_20260706.pdf",
+          "status": "included",
+          "reason": "掲載事案の出典本文を確認。",
+          "incident_ids": [
+            "stnet-kddi-mail-20260623"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.kddi-webcommunications.co.jp/info/5508/",
+          "status": "included",
+          "reason": "掲載事案の出典本文を確認。",
+          "incident_ids": [
+            "kwc-cpi-mail-20260706"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.cpi.ad.jp/news/info/260623-2/",
+          "status": "included",
+          "reason": "掲載事案の出典本文を確認。",
+          "incident_ids": [
+            "kwc-cpi-mail-20260706"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.ctc.co.jp/news/2026/20260706/",
+          "status": "included",
+          "reason": "掲載事案の出典本文を確認。",
+          "incident_ids": [
+            "ctc-kddi-mail-20260623"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.softsu.co.jp/newslist/infomation-260622/",
+          "status": "included",
+          "reason": "掲載事案の出典本文を確認。",
+          "incident_ids": [
+            "softsu-test-server-20260622"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.softsu.co.jp/newslist/infomation-261005/",
+          "status": "included",
+          "reason": "掲載事案の出典本文を確認。",
+          "incident_ids": [
+            "softsu-test-server-20260622"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.faith-gr.co.jp/news/2026/system-failure_20260622.html",
+          "status": "matched",
+          "reason": "同一事案の補足資料・続報。一次資料の別経路で照合。",
+          "incident_ids": [
+            "faith-group-20260821"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.faith-gr.co.jp/news/2026/system-failure_20260625.html",
+          "status": "matched",
+          "reason": "同一事案の補足資料・続報。一次資料の別経路で照合。",
+          "incident_ids": [
+            "faith-group-20260821"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.faith-gr.co.jp/news/2026/system-failure_20260626.html",
+          "status": "included",
+          "reason": "掲載事案の出典本文を確認。",
+          "incident_ids": [
+            "faith-group-20260821"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.faith-gr.co.jp/news/2026/system-failure_20260807.html",
+          "status": "matched",
+          "reason": "同一事案の補足資料・続報。一次資料の別経路で照合。",
+          "incident_ids": [
+            "faith-group-20260821"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.faith-gr.co.jp/news/2026/system-failure_20260821.html",
+          "status": "included",
+          "reason": "掲載事案の出典本文を確認。",
+          "incident_ids": [
+            "faith-group-20260821"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.fujikuracomposites.jp/main/wp-content/uploads/2026/07/70419dc98de0824033e021e567a73798.pdf",
+          "status": "included",
+          "reason": "掲載事案の出典本文を確認。",
+          "incident_ids": [
+            "fujikura-composites-mail-20260731"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.fujikuracomposites.jp/main/wp-content/uploads/2026/06/0b1cad021c41d796a5b92834b4c27cce.pdf",
+          "status": "included",
+          "reason": "掲載事案の出典本文を確認。",
+          "incident_ids": [
+            "fujikura-composites-mail-20260731"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.ec-gendaibutsudan.com/view/news/20260619190311",
+          "status": "included",
+          "reason": "掲載事案の出典本文を確認。",
+          "incident_ids": [
+            "gendai-butsudan-server-20260619"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.kaze-travel.co.jp/news/news-20260619.html",
+          "status": "included",
+          "reason": "掲載事案の出典本文を確認。",
+          "incident_ids": [
+            "kaze-travel-mail-20260619"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.kaze-travel.co.jp/news/news-20260703.html",
+          "status": "matched",
+          "reason": "同一事案の補足資料・続報。一次資料の別経路で照合。",
+          "incident_ids": [
+            "kaze-travel-mail-20260619"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.meruhaikun.com/blog/?page_id=3197",
+          "status": "included",
+          "reason": "掲載事案の出典本文を確認。",
+          "incident_ids": [
+            "delightful-meruhaikun-20260814"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.meruhaikun.com/blog/?p=3201",
+          "status": "matched",
+          "reason": "同一事案の補足資料・続報。一次資料の別経路で照合。",
+          "incident_ids": [
+            "delightful-meruhaikun-20260814"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.tbgu.ac.jp/news/10472/",
+          "status": "included",
+          "reason": "掲載事案の出典本文を確認。",
+          "incident_ids": [
+            "tbgu-support-scam-20260619"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.ra.opho.jp/wp-content/uploads/2021/05/kojinjyoho_20260526.pdf",
+          "status": "included",
+          "reason": "掲載事案の出典本文を確認。",
+          "incident_ids": [
+            "habikino-prescription-20260617"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.ra.opho.jp/news/news-19100/",
+          "status": "included",
+          "reason": "掲載事案の出典本文を確認。",
+          "incident_ids": [
+            "habikino-prescription-20260617"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.ooc.co.jp/news/pdf/20260617.pdf",
+          "status": "excluded",
+          "reason": "障害・攻撃の公表候補。個人情報への影響を確認できず。",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.komatsu.jp/ja/newsroom/2026/20260616_3",
+          "status": "included",
+          "reason": "掲載事案の出典本文を確認。",
+          "incident_ids": [
+            "komatsu-user-permission-20260616"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://cc-arc.com/news/3cxcloud_unauthorized-access_0616/",
+          "status": "included",
+          "reason": "掲載事案の出典本文を確認。",
+          "incident_ids": [
+            "cc-architect-3cx-20260616"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.saga-hirakawaya.jp/news/4525/",
+          "status": "matched",
+          "reason": "同一事案の補足資料・続報。一次資料の別経路で照合。",
+          "incident_ids": [
+            "saga-hirakawaya-shop-20260615"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.saga-hirakawaya.jp/security-notice/",
+          "status": "included",
+          "reason": "掲載事案の出典本文を確認。",
+          "incident_ids": [
+            "saga-hirakawaya-shop-20260615"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://factoryjapan.jp/resources/files/0615.pdf",
+          "status": "unresolved",
+          "reason": "6月の発表候補。攻撃・障害の本文は確認したが、個人情報への影響を確定できない。",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://dmsupporter.jp/news/pdf/20260612.pdf",
+          "status": "included",
+          "reason": "掲載事案の出典本文を確認。",
+          "incident_ids": [
+            "dm-fax-ransom-20260612"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.pref.shimane.lg.jp/press_release/2026/zypol9llpkgy.data/2558b676ea0bb217.pdf",
+          "status": "included",
+          "reason": "掲載事案の出典本文を確認。",
+          "incident_ids": [
+            "shimane-mitoya-support-scam-20260612"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.pref.shimane.lg.jp/press_release/2026/zypol9llpkgy.html",
+          "status": "included",
+          "reason": "掲載事案の出典本文を確認。",
+          "incident_ids": [
+            "shimane-mitoya-support-scam-20260612"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://8122.jp/lp/news",
+          "status": "included",
+          "reason": "掲載事案の出典本文を確認。",
+          "incident_ids": [
+            "sen-haicheese-20260731"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://sencorp.co.jp/12657/",
+          "status": "included",
+          "reason": "掲載事案の出典本文を確認。",
+          "incident_ids": [
+            "sen-haicheese-20260731"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://corp.en-japan.com/newsrelease/2026/45568.html",
+          "status": "included",
+          "reason": "掲載事案の出典本文を確認。",
+          "incident_ids": [
+            "en-middle-credential-stuffing-20260605"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.jc-web.or.jp/pages/2230/",
+          "status": "included",
+          "reason": "掲載事案の出典本文を確認。",
+          "incident_ids": [
+            "jcea-mail-account-20260605"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.osaka.lg.jp/hodoshiryo/kenko/0000680432.html",
+          "status": "included",
+          "reason": "掲載事案の出典本文を確認。",
+          "incident_ids": [
+            "osaka-health-mail-20260604"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.osaka.lg.jp/hodoshiryo/somu/0000683020.html",
+          "status": "included",
+          "reason": "掲載事案の出典本文を確認。",
+          "incident_ids": [
+            "osaka-bulk-jul-20-20260709",
+            "osaka-bulk-jul-13-20260709",
+            "osaka-bulk-jul-19-20260709",
+            "osaka-bulk-jul-15-20260709",
+            "osaka-bulk-jul-21-20260709",
+            "osaka-bulk-jul-11-20260709",
+            "osaka-bulk-jul-07-20260709",
+            "osaka-bulk-jul-23-20260709",
+            "osaka-bulk-jul-08-20260709",
+            "osaka-bulk-jul-10-20260709",
+            "osaka-bulk-jul-16-20260709",
+            "osaka-bulk-jul-01-20260709",
+            "osaka-bulk-jul-05-20260709",
+            "osaka-bulk-jul-04-20260709",
+            "osaka-bulk-jul-02-20260709",
+            "osaka-bulk-jul-12-20260709",
+            "osaka-bulk-jul-06-20260709",
+            "osaka-bulk-jul-25-20260709",
+            "osaka-bulk-jul-03-20260709",
+            "osaka-bulk-jul-14-20260709",
+            "osaka-bulk-jul-22-20260709"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.pref.osaka.lg.jp/hodo/fumin/o120020/prs_51296.html",
+          "status": "included",
+          "reason": "掲載事案の出典本文を確認。",
+          "incident_ids": [
+            "osaka-pref-mail-address-20260604"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://visual-arts.jp/wp/wp-content/uploads/2026/06/VA20260604.pdf",
+          "status": "included",
+          "reason": "掲載事案の出典本文を確認。",
+          "incident_ids": [
+            "visualarts-server-20260731"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://nhp.visual-arts.jp/wp/wp-content/uploads/2026/07/VA20260731.pdf",
+          "status": "included",
+          "reason": "掲載事案の出典本文を確認。",
+          "incident_ids": [
+            "visualarts-server-20260731"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.jahmc.or.jp/topics/30563/",
+          "status": "included",
+          "reason": "掲載事案の出典本文を確認。",
+          "incident_ids": [
+            "jahmc-mail-account-20260604"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://shokusou.co.jp/news/sonota/4366/",
+          "status": "unresolved",
+          "reason": "6月の発表候補。一次資料の取得に失敗。個人情報漏えいの対象と公表日を引き続き確認する必要がある。",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://hospital.fujita-hu.ac.jp/topics/i05j6a0000003uai.html",
+          "status": "included",
+          "reason": "掲載事案の出典本文を確認。",
+          "incident_ids": [
+            "fujita-support-scam-20260603"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.makinohara.shizuoka.jp/soshiki/31/61903.html",
+          "status": "excluded",
+          "reason": "サポート詐欺の金銭被害。個人情報漏えい対象は確認できない。",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.security-next.com/186570",
+          "status": "excluded",
+          "reason": "SNSアカウント乗っ取りの報道。個人情報への影響範囲を確認できない。",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.security-next.com/186597",
+          "status": "matched",
+          "reason": "一次資料を確認した同一事案に照合。記事日を別の公表日として加算しない。",
+          "incident_ids": [
+            "aflac-20260901"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.security-next.com/186510",
+          "status": "matched",
+          "reason": "一次資料を確認した同一事案に照合。記事日を別の公表日として加算しない。",
+          "incident_ids": [
+            "tochigi-labour-survey-loss-20260615"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.security-next.com/185868",
+          "status": "unresolved",
+          "reason": "6月掲載の記事本文を確認。記事日は公表日とは限らない。6月の公式公表日、既存事案との同一性、対象範囲の確認が残るため掲載保留。",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.security-next.com/186441",
+          "status": "matched",
+          "reason": "一次資料を確認した同一事案に照合。記事日を別の公表日として加算しない。",
+          "incident_ids": [
+            "ishigaki-school-support-scam-20260625"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.security-next.com/186399",
+          "status": "unresolved",
+          "reason": "6月掲載の記事本文を確認。記事日は公表日とは限らない。6月の公式公表日、既存事案との同一性、対象範囲の確認が残るため掲載保留。",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.security-next.com/186446",
+          "status": "matched",
+          "reason": "一次資料を確認した同一事案に照合。記事日を別の公表日として加算しない。",
+          "incident_ids": [
+            "jwa-mail-account-20260624"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.security-next.com/186393",
+          "status": "matched",
+          "reason": "一次資料を確認した同一事案に照合。記事日を別の公表日として加算しない。",
+          "incident_ids": [
+            "dm-fax-ransom-20260612"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.security-next.com/186508",
+          "status": "unresolved",
+          "reason": "6月掲載の記事本文を確認。記事日は公表日とは限らない。6月の公式公表日、既存事案との同一性、対象範囲の確認が残るため掲載保留。",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.security-next.com/186453",
+          "status": "matched",
+          "reason": "一次資料を確認した同一事案に照合。記事日を別の公表日として加算しない。",
+          "incident_ids": [
+            "mie-documents-culture-20260616"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.security-next.com/186396",
+          "status": "matched",
+          "reason": "一次資料を確認した同一事案に照合。記事日を別の公表日として加算しない。",
+          "incident_ids": [
+            "softsu-test-server-20260622"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.security-next.com/185933",
+          "status": "unresolved",
+          "reason": "6月掲載の記事本文を確認。記事日は公表日とは限らない。6月の公式公表日、既存事案との同一性、対象範囲の確認が残るため掲載保留。",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.security-next.com/186438",
+          "status": "unresolved",
+          "reason": "6月掲載の記事本文を確認。記事日は公表日とは限らない。6月の公式公表日、既存事案との同一性、対象範囲の確認が残るため掲載保留。",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.security-next.com/186329",
+          "status": "unresolved",
+          "reason": "6月掲載の記事本文を確認。記事日は公表日とは限らない。6月の公式公表日、既存事案との同一性、対象範囲の確認が残るため掲載保留。",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.security-next.com/186390",
+          "status": "excluded",
+          "reason": "システム障害の報道。個人情報漏えいの対象を確認できない。",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.security-next.com/186268",
+          "status": "matched",
+          "reason": "一次資料を確認した同一事案に照合。記事日を別の公表日として加算しない。",
+          "incident_ids": [
+            "gendai-butsudan-server-20260619"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.security-next.com/186334",
+          "status": "unresolved",
+          "reason": "6月掲載の記事本文を確認。記事日は公表日とは限らない。6月の公式公表日、既存事案との同一性、対象範囲の確認が残るため掲載保留。",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.security-next.com/186338",
+          "status": "unresolved",
+          "reason": "6月掲載の記事本文を確認。記事日は公表日とは限らない。6月の公式公表日、既存事案との同一性、対象範囲の確認が残るため掲載保留。",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.security-next.com/186263",
+          "status": "unresolved",
+          "reason": "6月掲載の記事本文を確認。記事日は公表日とは限らない。6月の公式公表日、既存事案との同一性、対象範囲の確認が残るため掲載保留。",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.security-next.com/186388",
+          "status": "unresolved",
+          "reason": "6月掲載の記事本文を確認。記事日は公表日とは限らない。6月の公式公表日、既存事案との同一性、対象範囲の確認が残るため掲載保留。",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.security-next.com/186078",
+          "status": "matched",
+          "reason": "一次資料を確認した同一事案に照合。記事日を別の公表日として加算しない。",
+          "incident_ids": [
+            "asahikawa-shinkin-documents-20260608"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.security-next.com/186137",
+          "status": "matched",
+          "reason": "一次資料を確認した同一事案に照合。記事日を別の公表日として加算しない。",
+          "incident_ids": [
+            "jahmc-mail-account-20260604"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.security-next.com/186131",
+          "status": "matched",
+          "reason": "一次資料を確認した同一事案に照合。記事日を別の公表日として加算しない。",
+          "incident_ids": [
+            "murase-shop-intrusion-20260617"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.security-next.com/186070",
+          "status": "unresolved",
+          "reason": "6月掲載の記事本文を確認。記事日は公表日とは限らない。6月の公式公表日、既存事案との同一性、対象範囲の確認が残るため掲載保留。",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.security-next.com/186332",
+          "status": "matched",
+          "reason": "一次資料を確認した同一事案に照合。記事日を別の公表日として加算しない。",
+          "incident_ids": [
+            "kawagoe-cci-mail-20260612"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.security-next.com/186068",
+          "status": "unresolved",
+          "reason": "6月掲載の記事本文を確認。記事日は公表日とは限らない。6月の公式公表日、既存事案との同一性、対象範囲の確認が残るため掲載保留。",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.security-next.com/186133",
+          "status": "excluded",
+          "reason": "ウェブサイト障害の報道。個人情報への影響未確認。",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.security-next.com/186005",
+          "status": "unresolved",
+          "reason": "6月掲載の記事本文を確認。記事日は公表日とは限らない。6月の公式公表日、既存事案との同一性、対象範囲の確認が残るため掲載保留。",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.security-next.com/186287",
+          "status": "matched",
+          "reason": "一次資料を確認した同一事案に照合。記事日を別の公表日として加算しない。",
+          "incident_ids": [
+            "kddi-ispmail-20260706"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.security-next.com/186270",
+          "status": "matched",
+          "reason": "一次資料を確認した同一事案に照合。記事日を別の公表日として加算しない。",
+          "incident_ids": [
+            "faith-group-20260821"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.security-next.com/186196",
+          "status": "matched",
+          "reason": "一次資料を確認した同一事案に照合。記事日を別の公表日として加算しない。",
+          "incident_ids": [
+            "kure-shinkin-documents-20260610"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.security-next.com/186190",
+          "status": "unresolved",
+          "reason": "6月掲載の記事本文を確認。記事日は公表日とは限らない。6月の公式公表日、既存事案との同一性、対象範囲の確認が残るため掲載保留。",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.security-next.com/186076",
+          "status": "matched",
+          "reason": "一次資料を確認した同一事案に照合。記事日を別の公表日として加算しない。",
+          "incident_ids": [
+            "osaka-health-mail-20260604"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.security-next.com/186135",
+          "status": "unresolved",
+          "reason": "6月掲載の記事本文を確認。記事日は公表日とは限らない。6月の公式公表日、既存事案との同一性、対象範囲の確認が残るため掲載保留。",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.security-next.com/185170",
+          "status": "unresolved",
+          "reason": "6月掲載の記事本文を確認。記事日は公表日とは限らない。6月の公式公表日、既存事案との同一性、対象範囲の確認が残るため掲載保留。",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.security-next.com/185803",
+          "status": "unresolved",
+          "reason": "6月掲載の記事本文を確認。記事日は公表日とは限らない。6月の公式公表日、既存事案との同一性、対象範囲の確認が残るため掲載保留。",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.security-next.com/185864",
+          "status": "matched",
+          "reason": "一次資料を確認した同一事案に照合。記事日を別の公表日として加算しない。",
+          "incident_ids": [
+            "shimane-mitoya-support-scam-20260612"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.security-next.com/186139",
+          "status": "unresolved",
+          "reason": "6月掲載の記事本文を確認。記事日は公表日とは限らない。6月の公式公表日、既存事案との同一性、対象範囲の確認が残るため掲載保留。",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.security-next.com/185994",
+          "status": "matched",
+          "reason": "一次資料を確認した同一事案に照合。記事日を別の公表日として加算しない。",
+          "incident_ids": [
+            "jcea-mail-account-20260605"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.security-next.com/185935",
+          "status": "unresolved",
+          "reason": "6月掲載の記事本文を確認。記事日は公表日とは限らない。6月の公式公表日、既存事案との同一性、対象範囲の確認が残るため掲載保留。",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.security-next.com/185198",
+          "status": "unresolved",
+          "reason": "6月掲載の記事本文を確認。記事日は公表日とは限らない。6月の公式公表日、既存事案との同一性、対象範囲の確認が残るため掲載保留。",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.security-next.com/186000",
+          "status": "unresolved",
+          "reason": "6月掲載の記事本文を確認。記事日は公表日とは限らない。6月の公式公表日、既存事案との同一性、対象範囲の確認が残るため掲載保留。",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.security-next.com/185632",
+          "status": "unresolved",
+          "reason": "6月掲載の記事本文を確認。記事日は公表日とは限らない。6月の公式公表日、既存事案との同一性、対象範囲の確認が残るため掲載保留。",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.security-next.com/185699",
+          "status": "unresolved",
+          "reason": "6月掲載の記事本文を確認。記事日は公表日とは限らない。6月の公式公表日、既存事案との同一性、対象範囲の確認が残るため掲載保留。",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.security-next.com/185696",
+          "status": "unresolved",
+          "reason": "6月掲載の記事本文を確認。記事日は公表日とは限らない。6月の公式公表日、既存事案との同一性、対象範囲の確認が残るため掲載保留。",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.security-next.com/185866",
+          "status": "excluded",
+          "reason": "Teamsのデータ削除であり、第三者への個人情報流出・媒体紛失とは区別。",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.security-next.com/185929",
+          "status": "matched",
+          "reason": "一次資料を確認した同一事案に照合。記事日を別の公表日として加算しない。",
+          "incident_ids": [
+            "saga-hirakawaya-shop-20260615"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.security-next.com/185815",
+          "status": "unresolved",
+          "reason": "6月掲載の記事本文を確認。記事日は公表日とは限らない。6月の公式公表日、既存事案との同一性、対象範囲の確認が残るため掲載保留。",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.security-next.com/185799",
+          "status": "unresolved",
+          "reason": "6月掲載の記事本文を確認。記事日は公表日とは限らない。6月の公式公表日、既存事案との同一性、対象範囲の確認が残るため掲載保留。",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.security-next.com/186010",
+          "status": "unresolved",
+          "reason": "6月掲載の記事本文を確認。記事日は公表日とは限らない。6月の公式公表日、既存事案との同一性、対象範囲の確認が残るため掲載保留。",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.security-next.com/186008",
+          "status": "excluded",
+          "reason": "DDoSによる停止。個人情報漏えいの対象は確認できない。",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.security-next.com/185413",
+          "status": "unresolved",
+          "reason": "6月掲載の記事本文を確認。記事日は公表日とは限らない。6月の公式公表日、既存事案との同一性、対象範囲の確認が残るため掲載保留。",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.security-next.com/185940",
+          "status": "unresolved",
+          "reason": "6月掲載の記事本文を確認。記事日は公表日とは限らない。6月の公式公表日、既存事案との同一性、対象範囲の確認が残るため掲載保留。",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.security-next.com/185737",
+          "status": "unresolved",
+          "reason": "6月掲載の記事本文を確認。記事日は公表日とは限らない。6月の公式公表日、既存事案との同一性、対象範囲の確認が残るため掲載保留。",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.security-next.com/185938",
+          "status": "matched",
+          "reason": "一次資料を確認した同一事案に照合。記事日を別の公表日として加算しない。",
+          "incident_ids": [
+            "hokkaido-cc-hdd-20260608"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.security-next.com/185620",
+          "status": "matched",
+          "reason": "一次資料を確認した同一事案に照合。記事日を別の公表日として加算しない。",
+          "incident_ids": [
+            "hokkaido-mc-hdd-20260608"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.security-next.com/185691",
+          "status": "unresolved",
+          "reason": "6月掲載の記事本文を確認。記事日は公表日とは限らない。6月の公式公表日、既存事案との同一性、対象範囲の確認が残るため掲載保留。",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.security-next.com/185462",
+          "status": "unresolved",
+          "reason": "6月掲載の記事本文を確認。記事日は公表日とは限らない。6月の公式公表日、既存事案との同一性、対象範囲の確認が残るため掲載保留。",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.security-next.com/185746",
+          "status": "unresolved",
+          "reason": "6月掲載の記事本文を確認。記事日は公表日とは限らない。6月の公式公表日、既存事案との同一性、対象範囲の確認が残るため掲載保留。",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.security-next.com/185811",
+          "status": "unresolved",
+          "reason": "6月掲載の記事本文を確認。記事日は公表日とは限らない。6月の公式公表日、既存事案との同一性、対象範囲の確認が残るため掲載保留。",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.security-next.com/185625",
+          "status": "matched",
+          "reason": "一次資料を確認した同一事案に照合。記事日を別の公表日として加算しない。",
+          "incident_ids": [
+            "sen-haicheese-20260731"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.security-next.com/185733",
+          "status": "unresolved",
+          "reason": "6月掲載の記事本文を確認。記事日は公表日とは限らない。6月の公式公表日、既存事案との同一性、対象範囲の確認が残るため掲載保留。",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.security-next.com/185406",
+          "status": "matched",
+          "reason": "一次資料を確認した同一事案に照合。記事日を別の公表日として加算しない。",
+          "incident_ids": [
+            "fujita-support-scam-20260603"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.security-next.com/185806",
+          "status": "unresolved",
+          "reason": "6月掲載の記事本文を確認。記事日は公表日とは限らない。6月の公式公表日、既存事案との同一性、対象範囲の確認が残るため掲載保留。",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.security-next.com/185514",
+          "status": "unresolved",
+          "reason": "6月掲載の記事本文を確認。記事日は公表日とは限らない。6月の公式公表日、既存事案との同一性、対象範囲の確認が残るため掲載保留。",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.security-next.com/185334",
+          "status": "unresolved",
+          "reason": "6月掲載の記事本文を確認。記事日は公表日とは限らない。6月の公式公表日、既存事案との同一性、対象範囲の確認が残るため掲載保留。",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.security-next.com/185010",
+          "status": "excluded",
+          "reason": "ウェブサイト改ざん。個人情報漏えいの対象は確認できない。",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.security-next.com/185744",
+          "status": "matched",
+          "reason": "一次資料を確認した同一事案に照合。記事日を別の公表日として加算しない。",
+          "incident_ids": [
+            "motosu-disaster-mail-20260602"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.security-next.com/185689",
+          "status": "matched",
+          "reason": "一次資料を確認した同一事案に照合。記事日を別の公表日として加算しない。",
+          "incident_ids": [
+            "kochi-tech-laptop-loss-20260609"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.security-next.com/185629",
+          "status": "excluded",
+          "reason": "東京都の一次資料は2026年5月27日付（URLは5月28日）。6月10日は記事日で対象期間外。",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.security-next.com/185616",
+          "status": "matched",
+          "reason": "一次資料を確認した同一事案に照合。記事日を別の公表日として加算しない。",
+          "incident_ids": [
+            "kyuden-td-ssd-20260708"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.security-next.com/185420",
+          "status": "unresolved",
+          "reason": "6月掲載の記事本文を確認。記事日は公表日とは限らない。6月の公式公表日、既存事案との同一性、対象範囲の確認が残るため掲載保留。",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.security-next.com/185337",
+          "status": "unresolved",
+          "reason": "6月掲載の記事本文を確認。記事日は公表日とは限らない。6月の公式公表日、既存事案との同一性、対象範囲の確認が残るため掲載保留。",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.security-next.com/185459",
+          "status": "unresolved",
+          "reason": "6月掲載の記事本文を確認。記事日は公表日とは限らない。6月の公式公表日、既存事案との同一性、対象範囲の確認が残るため掲載保留。",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.security-next.com/185266",
+          "status": "unresolved",
+          "reason": "6月掲載の記事本文を確認。記事日は公表日とは限らない。6月の公式公表日、既存事案との同一性、対象範囲の確認が残るため掲載保留。",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.security-next.com/185507",
+          "status": "unresolved",
+          "reason": "6月掲載の記事本文を確認。記事日は公表日とは限らない。6月の公式公表日、既存事案との同一性、対象範囲の確認が残るため掲載保留。",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.security-next.com/185269",
+          "status": "unresolved",
+          "reason": "6月掲載の記事本文を確認。記事日は公表日とは限らない。6月の公式公表日、既存事案との同一性、対象範囲の確認が残るため掲載保留。",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.security-next.com/185512",
+          "status": "unresolved",
+          "reason": "6月掲載の記事本文を確認。記事日は公表日とは限らない。6月の公式公表日、既存事案との同一性、対象範囲の確認が残るため掲載保留。",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.security-next.com/185189",
+          "status": "unresolved",
+          "reason": "6月掲載の記事本文を確認。記事日は公表日とは限らない。6月の公式公表日、既存事案との同一性、対象範囲の確認が残るため掲載保留。",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.security-next.com/185274",
+          "status": "unresolved",
+          "reason": "6月掲載の記事本文を確認。記事日は公表日とは限らない。6月の公式公表日、既存事案との同一性、対象範囲の確認が残るため掲載保留。",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.security-next.com/185510",
+          "status": "matched",
+          "reason": "一次資料を確認した同一事案に照合。記事日を別の公表日として加算しない。",
+          "incident_ids": [
+            "en-middle-credential-stuffing-20260605"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.security-next.com/184676",
+          "status": "unresolved",
+          "reason": "6月掲載の記事本文を確認。記事日は公表日とは限らない。6月の公式公表日、既存事案との同一性、対象範囲の確認が残るため掲載保留。",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.security-next.com/185106",
+          "status": "unresolved",
+          "reason": "6月掲載の記事本文を確認。記事日は公表日とは限らない。6月の公式公表日、既存事案との同一性、対象範囲の確認が残るため掲載保留。",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.security-next.com/185457",
+          "status": "unresolved",
+          "reason": "6月掲載の記事本文を確認。記事日は公表日とは限らない。6月の公式公表日、既存事案との同一性、対象範囲の確認が残るため掲載保留。",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.security-next.com/185455",
+          "status": "unresolved",
+          "reason": "6月掲載の記事本文を確認。記事日は公表日とは限らない。6月の公式公表日、既存事案との同一性、対象範囲の確認が残るため掲載保留。",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.security-next.com/185451",
+          "status": "matched",
+          "reason": "一次資料を確認した同一事案に照合。記事日を別の公表日として加算しない。",
+          "incident_ids": [
+            "visualarts-server-20260731"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.security-next.com/185324",
+          "status": "unresolved",
+          "reason": "6月掲載の記事本文を確認。記事日は公表日とは限らない。6月の公式公表日、既存事案との同一性、対象範囲の確認が残るため掲載保留。",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.security-next.com/185200",
+          "status": "excluded",
+          "reason": "ウェブサイト改ざん。個人情報漏えいの対象は確認できない。",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.security-next.com/184751",
+          "status": "unresolved",
+          "reason": "6月掲載の記事本文を確認。記事日は公表日とは限らない。6月の公式公表日、既存事案との同一性、対象範囲の確認が残るため掲載保留。",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.security-next.com/185202",
+          "status": "unresolved",
+          "reason": "6月掲載の記事本文を確認。記事日は公表日とは限らない。6月の公式公表日、既存事案との同一性、対象範囲の確認が残るため掲載保留。",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.security-next.com/185184",
+          "status": "unresolved",
+          "reason": "6月掲載の記事本文を確認。記事日は公表日とは限らない。6月の公式公表日、既存事案との同一性、対象範囲の確認が残るため掲載保留。",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.security-next.com/185276",
+          "status": "unresolved",
+          "reason": "6月掲載の記事本文を確認。記事日は公表日とは限らない。6月の公式公表日、既存事案との同一性、対象範囲の確認が残るため掲載保留。",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.security-next.com/185176",
+          "status": "unresolved",
+          "reason": "6月掲載の記事本文を確認。記事日は公表日とは限らない。6月の公式公表日、既存事案との同一性、対象範囲の確認が残るため掲載保留。",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.security-next.com/184950",
+          "status": "unresolved",
+          "reason": "6月掲載の記事本文を確認。記事日は公表日とは限らない。6月の公式公表日、既存事案との同一性、対象範囲の確認が残るため掲載保留。",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.security-next.com/185320",
+          "status": "excluded",
+          "reason": "サポート詐欺の金銭被害。確認資料では個人情報漏えい対象未確認。",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.security-next.com/184367",
+          "status": "unresolved",
+          "reason": "6月掲載の記事本文を確認。記事日は公表日とは限らない。6月の公式公表日、既存事案との同一性、対象範囲の確認が残るため掲載保留。",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.security-next.com/184515",
+          "status": "unresolved",
+          "reason": "6月掲載の記事本文を確認。記事日は公表日とは限らない。6月の公式公表日、既存事案との同一性、対象範囲の確認が残るため掲載保留。",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.security-next.com/185204",
+          "status": "unresolved",
+          "reason": "6月掲載の記事本文を確認。記事日は公表日とは限らない。6月の公式公表日、既存事案との同一性、対象範囲の確認が残るため掲載保留。",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.security-next.com/185271",
+          "status": "unresolved",
+          "reason": "6月掲載の記事本文を確認。記事日は公表日とは限らない。6月の公式公表日、既存事案との同一性、対象範囲の確認が残るため掲載保留。",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.security-next.com/184944",
+          "status": "unresolved",
+          "reason": "6月掲載の記事本文を確認。記事日は公表日とは限らない。6月の公式公表日、既存事案との同一性、対象範囲の確認が残るため掲載保留。",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.security-next.com/184749",
+          "status": "unresolved",
+          "reason": "6月掲載の記事本文を確認。記事日は公表日とは限らない。6月の公式公表日、既存事案との同一性、対象範囲の確認が残るため掲載保留。",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.security-next.com/185187",
+          "status": "unresolved",
+          "reason": "6月掲載の記事本文を確認。記事日は公表日とは限らない。6月の公式公表日、既存事案との同一性、対象範囲の確認が残るため掲載保留。",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.security-next.com/185110",
+          "status": "unresolved",
+          "reason": "6月掲載の記事本文を確認。記事日は公表日とは限らない。6月の公式公表日、既存事案との同一性、対象範囲の確認が残るため掲載保留。",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://jouhourouei.clipmaster.jp/cases/d51b0f7f134a8fea.html",
+          "status": "matched",
+          "reason": "月次まとめから公式本文へ到達し、同一事案を照合。",
+          "incident_ids": [
+            "kddi-ispmail-20260706"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://jouhourouei.clipmaster.jp/cases/57eb0bea6153dc8b.html",
+          "status": "matched",
+          "reason": "月次まとめから公式本文へ到達し、同一事案を照合。",
+          "incident_ids": [
+            "biglobe-kddi-mail-20260623"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://jouhourouei.clipmaster.jp/cases/16c0dd8340f4d94c.html",
+          "status": "matched",
+          "reason": "月次まとめから公式本文へ到達し、同一事案を照合。",
+          "incident_ids": [
+            "aflac-20260901"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://jouhourouei.clipmaster.jp/cases/4cd7ea62f9d35d06.html",
+          "status": "matched",
+          "reason": "月次まとめから公式本文へ到達し、同一事案を照合。",
+          "incident_ids": [
+            "jcom-kddi-mail-20260623"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://jouhourouei.clipmaster.jp/cases/238b92edf45881c2.html",
+          "status": "matched",
+          "reason": "月次まとめから公式本文へ到達し、同一事案を照合。",
+          "incident_ids": [
+            "nifty-kddi-mail-20260623"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://jouhourouei.clipmaster.jp/cases/09a8a76aa7269f27.html",
+          "status": "matched",
+          "reason": "月次まとめから公式本文へ到達し、同一事案を照合。",
+          "incident_ids": [
+            "osaka-bulk-aug-1-20260807",
+            "osaka-bulk-aug-10-20260807",
+            "osaka-bulk-aug-12-20260807",
+            "osaka-bulk-aug-13-20260807",
+            "osaka-bulk-aug-15-20260807",
+            "osaka-bulk-aug-4-20260807",
+            "osaka-bulk-aug-5-20260807",
+            "osaka-bulk-aug-6-20260807",
+            "osaka-bulk-aug-7-20260807",
+            "osaka-bulk-aug-8-20260807",
+            "osaka-bulk-aug-9-20260807",
+            "osaka-child-consult-mail-20260630"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://jouhourouei.clipmaster.jp/cases/bdae5ec0f0f6b878.html",
+          "status": "matched",
+          "reason": "月次まとめから公式本文へ到達し、同一事案を照合。",
+          "incident_ids": [
+            "ja-sapporo-nochubank-test-20260630"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://jouhourouei.clipmaster.jp/cases/3156d6a7e61e8dfe.html",
+          "status": "matched",
+          "reason": "月次まとめから公式本文へ到達し、同一事案を照合。",
+          "incident_ids": [
+            "lisb-direct-mail-20260630"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://jouhourouei.clipmaster.jp/cases/85c07e6c655f39d6.html",
+          "status": "matched",
+          "reason": "月次まとめから公式本文へ到達し、同一事案を照合。",
+          "incident_ids": [
+            "pickle-one-plugin-20260630"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://jouhourouei.clipmaster.jp/cases/97284b3341c8e7b2.html",
+          "status": "unresolved",
+          "reason": "公式資料の取得または個人情報への影響の確定が残る。対応する候補を保持。",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://jouhourouei.clipmaster.jp/cases/5d34912df237f558.html",
+          "status": "matched",
+          "reason": "月次まとめから公式本文へ到達し、同一事案を照合。",
+          "incident_ids": [
+            "sky-family-support-scam-20260630"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://jouhourouei.clipmaster.jp/cases/fa37faa719b9a1ed.html",
+          "status": "matched",
+          "reason": "月次まとめから公式本文へ到達し、同一事案を照合。",
+          "incident_ids": [
+            "gotouchi-chara-ransom-20260629"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://jouhourouei.clipmaster.jp/cases/8f0b35e7ac1f1933.html",
+          "status": "matched",
+          "reason": "月次まとめから公式本文へ到達し、同一事案を照合。",
+          "incident_ids": [
+            "osaka-bulk-aug-1-20260807",
+            "osaka-bulk-aug-10-20260807",
+            "osaka-bulk-aug-12-20260807",
+            "osaka-bulk-aug-13-20260807",
+            "osaka-bulk-aug-15-20260807",
+            "osaka-bulk-aug-4-20260807",
+            "osaka-bulk-aug-5-20260807",
+            "osaka-bulk-aug-6-20260807",
+            "osaka-bulk-aug-7-20260807",
+            "osaka-bulk-aug-8-20260807",
+            "osaka-bulk-aug-9-20260807",
+            "osaka-child-cloud-permission-20260626"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://jouhourouei.clipmaster.jp/cases/e8bc977dabfe3004.html",
+          "status": "excluded",
+          "reason": "個人情報への影響が確認できず、攻撃・金銭被害・事業情報のみでは加算しない。",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://jouhourouei.clipmaster.jp/cases/3a35a3e6bade3443.html",
+          "status": "matched",
+          "reason": "月次まとめから公式本文へ到達し、同一事案を照合。",
+          "incident_ids": [
+            "bitstar-bokanii-x-20260626"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://jouhourouei.clipmaster.jp/cases/736daff98424e069.html",
+          "status": "matched",
+          "reason": "月次まとめから公式本文へ到達し、同一事案を照合。",
+          "incident_ids": [
+            "ishigaki-school-support-scam-20260625"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://jouhourouei.clipmaster.jp/cases/4d17127aa1682280.html",
+          "status": "matched",
+          "reason": "月次まとめから公式本文へ到達し、同一事案を照合。",
+          "incident_ids": [
+            "jwa-mail-account-20260624"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://jouhourouei.clipmaster.jp/cases/bf96232f83c3d1a3.html",
+          "status": "unresolved",
+          "reason": "公式資料の取得または個人情報への影響の確定が残る。対応する候補を保持。",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://jouhourouei.clipmaster.jp/cases/e2a83430e2be1d26.html",
+          "status": "unresolved",
+          "reason": "公式資料の取得または個人情報への影響の確定が残る。対応する候補を保持。",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://jouhourouei.clipmaster.jp/cases/9636cbba2fd52245.html",
+          "status": "matched",
+          "reason": "月次まとめから公式本文へ到達し、同一事案を照合。",
+          "incident_ids": [
+            "nttpc-suitex-20260623"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://jouhourouei.clipmaster.jp/cases/592fecb586e06bb9.html",
+          "status": "matched",
+          "reason": "月次まとめから公式本文へ到達し、同一事案を照合。",
+          "incident_ids": [
+            "nttpc-file-transfer-20260623"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://jouhourouei.clipmaster.jp/cases/8573364bdbd25db9.html",
+          "status": "matched",
+          "reason": "月次まとめから公式本文へ到達し、同一事案を照合。",
+          "incident_ids": [
+            "stnet-kddi-mail-20260623"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://jouhourouei.clipmaster.jp/cases/1a46d15a81f84b61.html",
+          "status": "matched",
+          "reason": "月次まとめから公式本文へ到達し、同一事案を照合。",
+          "incident_ids": [
+            "kwc-cpi-mail-20260706"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://jouhourouei.clipmaster.jp/cases/68acff932b8f1358.html",
+          "status": "matched",
+          "reason": "月次まとめから公式本文へ到達し、同一事案を照合。",
+          "incident_ids": [
+            "ctc-kddi-mail-20260623"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://jouhourouei.clipmaster.jp/cases/2bb748e00dffacf8.html",
+          "status": "matched",
+          "reason": "月次まとめから公式本文へ到達し、同一事案を照合。",
+          "incident_ids": [
+            "softsu-test-server-20260622"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://jouhourouei.clipmaster.jp/cases/dec4582e5beadf8b.html",
+          "status": "matched",
+          "reason": "月次まとめから公式本文へ到達し、同一事案を照合。",
+          "incident_ids": [
+            "faith-group-20260821"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://jouhourouei.clipmaster.jp/cases/875b96abf9628b49.html",
+          "status": "matched",
+          "reason": "月次まとめから公式本文へ到達し、同一事案を照合。",
+          "incident_ids": [
+            "fujikura-composites-mail-20260731"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://jouhourouei.clipmaster.jp/cases/40295619862ea541.html",
+          "status": "matched",
+          "reason": "月次まとめから公式本文へ到達し、同一事案を照合。",
+          "incident_ids": [
+            "gendai-butsudan-server-20260619"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://jouhourouei.clipmaster.jp/cases/64886724d2c232ee.html",
+          "status": "matched",
+          "reason": "月次まとめから公式本文へ到達し、同一事案を照合。",
+          "incident_ids": [
+            "kaze-travel-mail-20260619"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://jouhourouei.clipmaster.jp/cases/da02bbf651493346.html",
+          "status": "matched",
+          "reason": "月次まとめから公式本文へ到達し、同一事案を照合。",
+          "incident_ids": [
+            "delightful-meruhaikun-20260814"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://jouhourouei.clipmaster.jp/cases/66a52232921cd637.html",
+          "status": "matched",
+          "reason": "月次まとめから公式本文へ到達し、同一事案を照合。",
+          "incident_ids": [
+            "tbgu-support-scam-20260619"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://jouhourouei.clipmaster.jp/cases/01c3dc8c66e31aa9.html",
+          "status": "matched",
+          "reason": "月次まとめから公式本文へ到達し、同一事案を照合。",
+          "incident_ids": [
+            "habikino-prescription-20260617"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://jouhourouei.clipmaster.jp/cases/3894d909b4f581d4.html",
+          "status": "excluded",
+          "reason": "個人情報への影響が確認できず、攻撃・金銭被害・事業情報のみでは加算しない。",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://jouhourouei.clipmaster.jp/cases/428a90136d7c301f.html",
+          "status": "matched",
+          "reason": "月次まとめから公式本文へ到達し、同一事案を照合。",
+          "incident_ids": [
+            "komatsu-user-permission-20260616"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://jouhourouei.clipmaster.jp/cases/2550f231ac15bf25.html",
+          "status": "matched",
+          "reason": "月次まとめから公式本文へ到達し、同一事案を照合。",
+          "incident_ids": [
+            "cc-architect-3cx-20260616"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://jouhourouei.clipmaster.jp/cases/18e22a63a01a923c.html",
+          "status": "matched",
+          "reason": "月次まとめから公式本文へ到達し、同一事案を照合。",
+          "incident_ids": [
+            "saga-hirakawaya-shop-20260615"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://jouhourouei.clipmaster.jp/cases/4bb88bb875ecde00.html",
+          "status": "unresolved",
+          "reason": "公式資料の取得または個人情報への影響の確定が残る。対応する候補を保持。",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://jouhourouei.clipmaster.jp/cases/85f767bd620d9f67.html",
+          "status": "matched",
+          "reason": "月次まとめから公式本文へ到達し、同一事案を照合。",
+          "incident_ids": [
+            "dm-fax-ransom-20260612"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://jouhourouei.clipmaster.jp/cases/1e66fb5c371cb587.html",
+          "status": "matched",
+          "reason": "月次まとめから公式本文へ到達し、同一事案を照合。",
+          "incident_ids": [
+            "shimane-mitoya-support-scam-20260612"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://jouhourouei.clipmaster.jp/cases/397b8fedd796dbc8.html",
+          "status": "matched",
+          "reason": "月次まとめから公式本文へ到達し、同一事案を照合。",
+          "incident_ids": [
+            "sen-haicheese-20260731"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://jouhourouei.clipmaster.jp/cases/ad57484a80df4bc3.html",
+          "status": "matched",
+          "reason": "月次まとめから公式本文へ到達し、同一事案を照合。",
+          "incident_ids": [
+            "en-middle-credential-stuffing-20260605"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://jouhourouei.clipmaster.jp/cases/747a03c460ce768e.html",
+          "status": "matched",
+          "reason": "月次まとめから公式本文へ到達し、同一事案を照合。",
+          "incident_ids": [
+            "jcea-mail-account-20260605"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://jouhourouei.clipmaster.jp/cases/4bb4f172e9db5092.html",
+          "status": "matched",
+          "reason": "月次まとめから公式本文へ到達し、同一事案を照合。",
+          "incident_ids": [
+            "osaka-bulk-jul-01-20260709",
+            "osaka-bulk-jul-02-20260709",
+            "osaka-bulk-jul-03-20260709",
+            "osaka-bulk-jul-04-20260709",
+            "osaka-bulk-jul-05-20260709",
+            "osaka-bulk-jul-06-20260709",
+            "osaka-bulk-jul-07-20260709",
+            "osaka-bulk-jul-08-20260709",
+            "osaka-bulk-jul-10-20260709",
+            "osaka-bulk-jul-11-20260709",
+            "osaka-bulk-jul-12-20260709",
+            "osaka-bulk-jul-13-20260709",
+            "osaka-bulk-jul-14-20260709",
+            "osaka-bulk-jul-15-20260709",
+            "osaka-bulk-jul-16-20260709",
+            "osaka-bulk-jul-19-20260709",
+            "osaka-bulk-jul-20-20260709",
+            "osaka-bulk-jul-21-20260709",
+            "osaka-bulk-jul-22-20260709",
+            "osaka-bulk-jul-23-20260709",
+            "osaka-bulk-jul-25-20260709",
+            "osaka-health-mail-20260604"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://jouhourouei.clipmaster.jp/cases/bea9fa9fdd08955e.html",
+          "status": "matched",
+          "reason": "月次まとめから公式本文へ到達し、同一事案を照合。",
+          "incident_ids": [
+            "osaka-pref-mail-address-20260604"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://jouhourouei.clipmaster.jp/cases/e2c5742dd2fec668.html",
+          "status": "matched",
+          "reason": "月次まとめから公式本文へ到達し、同一事案を照合。",
+          "incident_ids": [
+            "visualarts-server-20260731"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://jouhourouei.clipmaster.jp/cases/834105f3ec83ea27.html",
+          "status": "matched",
+          "reason": "月次まとめから公式本文へ到達し、同一事案を照合。",
+          "incident_ids": [
+            "jahmc-mail-account-20260604"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://jouhourouei.clipmaster.jp/cases/58e320e50313c841.html",
+          "status": "unresolved",
+          "reason": "公式資料の取得または個人情報への影響の確定が残る。対応する候補を保持。",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://jouhourouei.clipmaster.jp/cases/29529af06ae22f97.html",
+          "status": "matched",
+          "reason": "月次まとめから公式本文へ到達し、同一事案を照合。",
+          "incident_ids": [
+            "fujita-support-scam-20260603"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://jouhourouei.clipmaster.jp/cases/2a9f8e815cb8e02e.html",
+          "status": "excluded",
+          "reason": "個人情報への影響が確認できず、攻撃・金銭被害・事業情報のみでは加算しない。",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://kaizentech.co.jp/5388/",
+          "status": "unresolved",
+          "reason": "公式URLは404。6月10日の公表は専門記事で確認したが公式本文・対象範囲の検証を保留。",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://satimo.org/2026/10/data-breach-list-2026/",
+          "status": "unresolved",
+          "reason": "まとめの6月19日欄の候補。配信事業者との関係、公表原文と日付を未確認。",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.onebe.co.jp/dlpnews/?p=35482",
+          "status": "unresolved",
+          "reason": "6月25日公表とする報道候補。公式本文を未確認。",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://rocket-boys.co.jp/security-measures-lab/2026-06-data-breach-cases-summary/",
+          "status": "unresolved",
+          "reason": "月次まとめの内部不正事案。今回追加した誤送付・写真販売事案とは別候補。公式発表未特定。",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://note.com/elpayaso/n/n8f69e25e3a76",
+          "status": "unresolved",
+          "reason": "6月25日近畿大学・6月19日大阪国税局の候補。原文を確認できず、2事案としての確定掲載は保留。",
+          "incident_ids": [],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.osaka.lg.jp/hodoshiryo/kyoiku/0000681757.html",
+          "status": "included",
+          "reason": "追加探索で本文・日付を確認。",
+          "incident_ids": [
+            "osaka-school-art-loss-20260619"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.edogawa.tokyo.jp/e004/kuseijoho/kohokocho/press/2026/06/0629.html",
+          "status": "included",
+          "reason": "追加探索で本文・日付を確認。",
+          "incident_ids": [
+            "edogawa-school-sd-loss-20260629"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.metro.tokyo.lg.jp/information/press/2026/06/2026061807",
+          "status": "included",
+          "reason": "追加探索で本文・日付を確認。",
+          "incident_ids": [
+            "tokyo-welfare-mail-subject-20260618"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.osaka.lg.jp/hodoshiryo/kyoiku/0000681837.html",
+          "status": "included",
+          "reason": "追加探索で本文・日付を確認。",
+          "incident_ids": [
+            "osaka-mimamoru-attachment-20260619"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.osaka.lg.jp/hodoshiryo/zaisei/0000681685.html",
+          "status": "included",
+          "reason": "追加探索で本文・日付を確認。",
+          "incident_ids": [
+            "osaka-abeno-land-tax-20260622"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.osaka.lg.jp/hodoshiryo/somu/0000680219.html",
+          "status": "included",
+          "reason": "追加探索で本文・日付を確認。",
+          "incident_ids": [
+            "osaka-bulk-jun-04-20260609",
+            "osaka-bulk-jun-06-20260609",
+            "osaka-bulk-jun-05-20260609",
+            "osaka-bulk-jun-13-20260609",
+            "osaka-bulk-jun-03-20260609",
+            "osaka-bulk-jun-02-20260609",
+            "osaka-bulk-jun-01-20260609",
+            "osaka-bulk-jun-09-20260609",
+            "osaka-bulk-jun-11-20260609",
+            "osaka-bulk-jun-10-20260609",
+            "osaka-bulk-jun-08-20260609"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.pref.tochigi.lg.jp/c04/houdou/houdou/r8-0615roudouryokutyousahunsitsu.html",
+          "status": "included",
+          "reason": "追加探索で本文・日付を確認。",
+          "incident_ids": [
+            "tochigi-labour-survey-loss-20260615"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.shinkin.co.jp/ask/article_source/data/info/files/info260608.pdf",
+          "status": "included",
+          "reason": "追加探索で本文・日付を確認。",
+          "incident_ids": [
+            "asahikawa-shinkin-documents-20260608"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.kure-shinkin.jp/notice/2026/pdf/20260610notice.pdf",
+          "status": "included",
+          "reason": "追加探索で本文・日付を確認。",
+          "incident_ids": [
+            "kure-shinkin-documents-20260610"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.nippon-tele.net/release/20260612_4675/",
+          "status": "included",
+          "reason": "追加探索で本文・日付を確認。",
+          "incident_ids": [
+            "nippon-telenet-ransom-20260612"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.gate02.ne.jp/lab/incident-news/murase-kabanko-20260630/",
+          "status": "included",
+          "reason": "追加探索で本文・日付を確認。",
+          "incident_ids": [
+            "murase-shop-intrusion-20260617"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.osaka.lg.jp/hodoshiryo/zaisei/0000681675.html",
+          "status": "included",
+          "reason": "追加探索で本文・日付を確認。",
+          "incident_ids": [
+            "osaka-abeno-house-tax-20260622"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.motosu.lg.jp/0000003138.html",
+          "status": "included",
+          "reason": "追加探索で本文・日付を確認。",
+          "incident_ids": [
+            "motosu-disaster-mail-20260602"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.pref.mie.lg.jp/TOPICS/m0359200026.htm",
+          "status": "included",
+          "reason": "追加探索で本文・日付を確認。",
+          "incident_ids": [
+            "mie-documents-tax-20260616",
+            "mie-documents-culture-20260616",
+            "mie-documents-construction-20260616",
+            "mie-documents-education-20260616"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://corp.moneyforward.com/news/info/20260623-mf-press-1/",
+          "status": "included",
+          "reason": "追加探索で本文・日付を確認。",
+          "incident_ids": [
+            "moneyforward-github-20260623"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://campfire.co.jp/press/2026/06/02/campfire/",
+          "status": "included",
+          "reason": "追加探索で本文・日付を確認。",
+          "incident_ids": [
+            "campfire-github-cloud-20260602"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.ja-sapporo.or.jp/notices/20260630/",
+          "status": "included",
+          "reason": "追加探索で本文・日付を確認。",
+          "incident_ids": [
+            "ja-sapporo-nochubank-test-20260630"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://finance-frontend-pc-dist.west.edge.storage-yahoo.jp/disclosure/20260619/20260619574803.pdf",
+          "status": "included",
+          "reason": "追加探索で本文・日付を確認。",
+          "incident_ids": [
+            "2rinkan-api-20260619"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.kochi-tech.ac.jp/news/img/kohyo_260609.pdf",
+          "status": "included",
+          "reason": "追加探索で本文・日付を確認。",
+          "incident_ids": [
+            "kochi-tech-laptop-loss-20260609"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://hokkaido-mc.hosp.go.jp/common/img/index/202608.pdf",
+          "status": "included",
+          "reason": "追加探索で本文・日付を確認。",
+          "incident_ids": [
+            "hokkaido-mc-hdd-20260608"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://hokkaido-cc.hosp.go.jp/news/nw1_00021.html",
+          "status": "included",
+          "reason": "追加探索で本文・日付を確認。",
+          "incident_ids": [
+            "hokkaido-cc-hdd-20260608"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.kyuden.co.jp/td/press/2026/260608.html",
+          "status": "included",
+          "reason": "追加探索で本文・日付を確認。",
+          "incident_ids": [
+            "kyuden-td-ssd-20260708"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.pref.mie.lg.jp/common/content/001261015.pdf",
+          "status": "included",
+          "reason": "追加探索で本文・日付を確認。",
+          "incident_ids": [
+            "mie-documents-tax-20260616"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.pref.mie.lg.jp/common/content/001261016.pdf",
+          "status": "included",
+          "reason": "追加探索で本文・日付を確認。",
+          "incident_ids": [
+            "mie-documents-culture-20260616"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.pref.mie.lg.jp/common/content/001261017.pdf",
+          "status": "included",
+          "reason": "追加探索で本文・日付を確認。",
+          "incident_ids": [
+            "mie-documents-construction-20260616"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.pref.mie.lg.jp/common/content/001261018.pdf",
+          "status": "included",
+          "reason": "追加探索で本文・日付を確認。",
+          "incident_ids": [
+            "mie-documents-education-20260616"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.kawagoe.or.jp/xo_event/%E3%80%90%E3%81%8A%E8%A9%AB%E3%81%B3%E3%80%91%E4%BC%9A%E5%93%A1%E6%83%85%E5%A0%B1%E3%81%AE%E6%BC%8F%E3%81%88%E3%81%84%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/",
+          "status": "included",
+          "reason": "追加探索で本文・日付を確認。",
+          "incident_ids": [
+            "kawagoe-cci-mail-20260612"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.murasekabanko.co.jp/archives/custom_news/defect/",
+          "status": "included",
+          "reason": "追加探索で本文・日付を確認。",
+          "incident_ids": [
+            "murase-shop-intrusion-20260617"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.hakodate.hokkaido.jp/docs/2020102800061/file_contents/20260602shiminbu.pdf",
+          "status": "included",
+          "reason": "追加探索で本文・日付を確認。",
+          "incident_ids": [
+            "hakodate-certificate-post-20260602"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.hakodate.hokkaido.jp/docs/2020102800061/file_contents/20260608shiminbu.pdf",
+          "status": "included",
+          "reason": "追加探索で本文・日付を確認。",
+          "incident_ids": [
+            "hakodate-health-ticket-20260608"
+          ],
+          "checked_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.city.hakodate.hokkaido.jp/docs/2020102800238/file_contents/260617.pdf",
+          "status": "included",
+          "reason": "追加探索で本文・日付を確認。",
+          "incident_ids": [
+            "hakodate-haicheese-20260617"
+          ],
+          "checked_on": "2026-10-23"
+        }
+      ],
+      "limitations": [
+        "全公表事案の網羅を保証しない。公式資料の削除・取得制限、公表日の不明確さが残る。",
+        "6月のニュースは5月以前の公表を含む。確認できないものを6月の確定件数へ混ぜない。",
+        "以前の10月再点検の未解決29URLは本調査で解決済みに変更しない。"
       ]
     }
   ],

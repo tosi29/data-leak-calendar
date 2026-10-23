@@ -1,0 +1,48 @@
+{
+  "id": "bitstar-bokanii-x-20260626",
+  "organization": {
+    "name": "BitStar（Boka nii）",
+    "sector": "企業・団体"
+  },
+  "title": "Xアカウント乗っ取りでDMの個人情報が漏えいした可能性",
+  "summary": "ブランドのXアカウントが乗っ取られ、DMに含まれる発送先等の情報が閲覧された可能性がある。",
+  "published_on": "2026-06-26",
+  "first_published_on": "2026-06-26",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-23",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "ブランドのXアカウントが乗っ取られ、DMに含まれる発送先等の情報が閲覧された可能性がある。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 204,
+      "unit": "records",
+      "qualifier": "maximum_approximate",
+      "description": "公表対象規模（漏えい確定人数とは限らない）"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "電話番号"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://bitstar.tokyo/corp/news_release/7055/",
+      "type": "official",
+      "title": "Boka nii公式Xアカウントへの不正アクセスによる個人情報漏えいに関するお知らせとお詫び | 株式会社BitStar (ビットスター)",
+      "published_on": "2026-06-26",
+      "checked_on": "2026-10-23"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

@@ -1,0 +1,49 @@
+{
+  "id": "komatsu-user-permission-20260616",
+  "organization": {
+    "name": "コマツ",
+    "sector": "企業・団体"
+  },
+  "title": "ユーザー情報の閲覧権限不備で他の利用者情報が閲覧可能に",
+  "summary": "システムの権限不備により、ログイン済みの利用者が他のユーザー情報を閲覧できる状態だった。",
+  "published_on": "2026-06-16",
+  "first_published_on": "2026-06-16",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-04-23",
+  "updated_on": "2026-10-23",
+  "verification": "official",
+  "leak_status": "exposed",
+  "incident_type": "accident",
+  "cause": {
+    "category": "configuration",
+    "detail": "システムの権限不備により、ログイン済みの利用者が他のユーザー情報を閲覧できる状態だった。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 139302,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表対象規模（漏えい確定人数とは限らない）"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "メールアドレス",
+    "ユーザー種別",
+    "アクセス日時"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.komatsu.jp/ja/newsroom/2026/20260616_3",
+      "type": "official",
+      "title": "個人情報が閲覧可能な状態にあったことに関するお知らせ | ニュースルーム | コマツ 企業サイト",
+      "published_on": "2026-06-16",
+      "checked_on": "2026-10-23"
+    }
+  ],
+  "updates": [],
+  "notes": "インターネット全体への公開とは異なり、ログイン利用者に対する閲覧権限の不備。"
+}

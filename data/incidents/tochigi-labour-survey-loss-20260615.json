@@ -1,0 +1,46 @@
+{
+  "id": "tochigi-labour-survey-loss-20260615",
+  "organization": {
+    "name": "栃木県",
+    "sector": "企業・団体"
+  },
+  "title": "労働力調査の対象17人の氏名が記載された書類を紛失",
+  "summary": "調査員から提出された書類の点検で調査世帯一覧表1枚の所在不明が判明した。",
+  "published_on": "2026-06-15",
+  "first_published_on": "2026-06-15",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-06-10",
+  "updated_on": "2026-10-23",
+  "verification": "official",
+  "leak_status": "lost",
+  "incident_type": "accident",
+  "cause": {
+    "category": "loss",
+    "detail": "調査員から提出された書類の点検で調査世帯一覧表1枚の所在不明が判明した。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 17,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表対象規模（漏えい確定人数とは限らない）"
+    }
+  ],
+  "data_types": [
+    "氏名"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.pref.tochigi.lg.jp/c04/houdou/houdou/r8-0615roudouryokutyousahunsitsu.html",
+      "type": "official",
+      "title": "栃木県／労働力調査における調査書類の紛失について",
+      "published_on": "2026-06-15",
+      "checked_on": "2026-10-23"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

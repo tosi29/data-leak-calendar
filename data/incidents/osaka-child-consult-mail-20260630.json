@@ -1,0 +1,46 @@
+{
+  "id": "osaka-child-consult-mail-20260630",
+  "organization": {
+    "name": "大阪市こども青少年局",
+    "sector": "企業・団体"
+  },
+  "title": "相談支援の参加者名を含むメールを誤送信",
+  "summary": "参加者への連絡メールに他の参加者の氏名が含まれ、17人分が漏えいした。",
+  "published_on": "2026-06-30",
+  "first_published_on": "2026-06-30",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-23",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "accident",
+  "cause": {
+    "category": "misdelivery",
+    "detail": "参加者への連絡メールに他の参加者の氏名が含まれ、17人分が漏えいした。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 17,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表対象規模（漏えい確定人数とは限らない）"
+    }
+  ],
+  "data_types": [
+    "氏名"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.city.osaka.lg.jp/hodoshiryo/kodomo/0000682486.html",
+      "type": "official",
+      "title": "大阪市：報道発表資料　こども青少年局におけるメール誤送信による個人情報の漏えいについて",
+      "published_on": "2026-06-30",
+      "checked_on": "2026-10-23"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

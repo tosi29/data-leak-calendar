@@ -1,0 +1,53 @@
+{
+  "id": "murase-shop-intrusion-20260617",
+  "organization": {
+    "name": "村瀬鞄行",
+    "sector": "企業・団体"
+  },
+  "title": "オンラインショップ侵害で個人情報の流出を調査",
+  "summary": "オンラインショップへの侵害が判明し、個人情報の一部流出が懸念されるため、外部専門機関による調査と一部サービス停止を実施した。",
+  "published_on": "2026-06-17",
+  "first_published_on": "2026-06-17",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-23",
+  "verification": "official",
+  "leak_status": "investigating",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "オンラインショップへの侵害が判明し、個人情報の一部流出が懸念されるため、外部専門機関による調査と一部サービス停止を実施した。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "公表対象規模（漏えい確定人数とは限らない）"
+    }
+  ],
+  "data_types": [
+    "個人情報（詳細は公表資料参照）"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.murasekabanko.co.jp/archives/custom_news/defect/",
+      "type": "official",
+      "title": "不正アクセスによるシステム侵害発生のお詫びとお知らせ | 名古屋のランドセルメーカー",
+      "published_on": "2026-06-17",
+      "checked_on": "2026-10-23"
+    },
+    {
+      "url": "https://www.gate02.ne.jp/lab/incident-news/murase-kabanko-20260630/",
+      "type": "news",
+      "title": "村瀬鞄行の不正アクセス公表について",
+      "published_on": "2026-06-30",
+      "checked_on": "2026-10-23"
+    }
+  ],
+  "updates": [],
+  "notes": "公式本文に日付表示がないため、6月17日の公表日は専門報道で補完。カード利用者への注意喚起はあるが、カード情報の漏えい確定とは扱わない。"
+}

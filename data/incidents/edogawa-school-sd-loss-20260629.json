@@ -1,0 +1,49 @@
+{
+  "id": "edogawa-school-sd-loss-20260629",
+  "organization": {
+    "name": "江戸川区教育委員会",
+    "sector": "企業・団体"
+  },
+  "title": "904人の生徒情報を含む私物SDカードを紛失",
+  "summary": "教員が無許可で持ち出していた私物SDカードを鞄ごと紛失した。学級通信や進路関係書類等107点に在校生・卒業生904人の情報が含まれる。",
+  "published_on": "2026-06-29",
+  "first_published_on": "2026-06-29",
+  "publication_kind": "initial",
+  "occurred_on": "2026-06-13",
+  "detected_on": null,
+  "updated_on": "2026-10-23",
+  "verification": "official",
+  "leak_status": "lost",
+  "incident_type": "accident",
+  "cause": {
+    "category": "loss",
+    "detail": "教員が無許可で持ち出していた私物SDカードを鞄ごと紛失した。学級通信や進路関係書類等107点に在校生・卒業生904人の情報が含まれる。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 904,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表対象規模（漏えい確定人数とは限らない）"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "生年月日",
+    "写真",
+    "成績"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.city.edogawa.tokyo.jp/e004/kuseijoho/kohokocho/press/2026/06/0629.html",
+      "type": "official",
+      "title": "2026年6月29日 区立中学校における個人情報の入ったSDカードの紛失　江戸川区ホームページ",
+      "published_on": "2026-06-29",
+      "checked_on": "2026-10-23"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

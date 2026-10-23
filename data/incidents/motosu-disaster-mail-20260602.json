@@ -1,0 +1,47 @@
+{
+  "id": "motosu-disaster-mail-20260602",
+  "organization": {
+    "name": "本巣市",
+    "sector": "企業・団体"
+  },
+  "title": "防災士研修の案内メールで53人の宛先が漏えい",
+  "summary": "BCCに設定すべき宛先を通常の宛先欄に入力し、受信者間で氏名とメールアドレスが閲覧できる状態となった。",
+  "published_on": "2026-06-02",
+  "first_published_on": "2026-06-02",
+  "publication_kind": "initial",
+  "occurred_on": "2026-06-02",
+  "detected_on": null,
+  "updated_on": "2026-10-23",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "accident",
+  "cause": {
+    "category": "misdelivery",
+    "detail": "BCCに設定すべき宛先を通常の宛先欄に入力し、受信者間で氏名とメールアドレスが閲覧できる状態となった。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 53,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表対象規模（漏えい確定人数とは限らない）"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "メールアドレス"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.city.motosu.lg.jp/0000003138.html",
+      "type": "official",
+      "title": "個人情報漏えい事案の発生について（お詫び） | 本巣市",
+      "published_on": "2026-06-02",
+      "checked_on": "2026-10-23"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

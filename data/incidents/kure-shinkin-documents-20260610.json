@@ -1,0 +1,50 @@
+{
+  "id": "kure-shinkin-documents-20260610",
+  "organization": {
+    "name": "呉信用金庫",
+    "sector": "企業・団体"
+  },
+  "title": "川尻支店の振込依頼書57枚を紛失",
+  "summary": "2025年2月受付分の振込依頼書の綴りが所在不明となった。対象は個人23先、法人等57先で、誤廃棄の可能性が高いと説明。",
+  "published_on": "2026-06-10",
+  "first_published_on": "2026-06-10",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-23",
+  "verification": "official",
+  "leak_status": "lost",
+  "incident_type": "accident",
+  "cause": {
+    "category": "loss",
+    "detail": "2025年2月受付分の振込依頼書の綴りが所在不明となった。対象は個人23先、法人等57先で、誤廃棄の可能性が高いと説明。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 23,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表対象規模（漏えい確定人数とは限らない）"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "電話番号",
+    "振込金額",
+    "口座情報"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.kure-shinkin.jp/notice/2026/pdf/20260610notice.pdf",
+      "type": "official",
+      "title": "呉信用金庫：川尻支店の振込依頼書57枚を紛失",
+      "published_on": "2026-06-10",
+      "checked_on": "2026-10-23"
+    }
+  ],
+  "updates": [],
+  "notes": "23は重複排除後の個人顧客数。書類57枚・法人等57先と合算しない。"
+}

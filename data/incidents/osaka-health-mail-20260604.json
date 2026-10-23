@@ -1,0 +1,46 @@
+{
+  "id": "osaka-health-mail-20260604",
+  "organization": {
+    "name": "大阪市保健所",
+    "sector": "企業・団体"
+  },
+  "title": "医療機関向けメールで宛先の個人アドレスが漏えい",
+  "summary": "補助金の手続メールをBCCではなく宛先欄で送信し、担当者の個人アドレス57件と組織アドレス54件が表示された。",
+  "published_on": "2026-06-04",
+  "first_published_on": "2026-06-04",
+  "publication_kind": "initial",
+  "occurred_on": "2026-06-03",
+  "detected_on": null,
+  "updated_on": "2026-10-23",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "accident",
+  "cause": {
+    "category": "misdelivery",
+    "detail": "補助金の手続メールをBCCではなく宛先欄で送信し、担当者の個人アドレス57件と組織アドレス54件が表示された。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 57,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "公表対象規模（漏えい確定人数とは限らない）"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.city.osaka.lg.jp/hodoshiryo/kenko/0000680432.html",
+      "type": "official",
+      "title": "大阪市：報道発表資料　大阪市保健所におけるメール誤送信による個人情報等の漏えいについて",
+      "published_on": "2026-06-04",
+      "checked_on": "2026-10-23"
+    }
+  ],
+  "updates": [],
+  "notes": "111は送信対象医療機関数で個人の人数ではない。"
+}

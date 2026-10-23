@@ -1,0 +1,61 @@
+{
+  "id": "softsu-test-server-20260622",
+  "organization": {
+    "name": "ソフツー",
+    "sector": "企業・団体"
+  },
+  "title": "検証用サーバーへの不正アクセスで通話情報が流出したおそれ",
+  "summary": "電話番号や通話日時、文字起こし等の検証データが不正アクセスの対象となった。10月5日の続報で個人データ該当性を確認したが、実際の漏えいは確認されていない。",
+  "published_on": "2026-06-22",
+  "first_published_on": "2026-06-22",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-23",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "電話番号や通話日時、文字起こし等の検証データが不正アクセスの対象となった。10月5日の続報で個人データ該当性を確認したが、実際の漏えいは確認されていない。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 159850,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "公表対象規模（漏えい確定人数とは限らない）"
+    }
+  ],
+  "data_types": [
+    "電話番号",
+    "通話日時",
+    "通話文字起こし"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.softsu.co.jp/newslist/infomation-260622/",
+      "type": "official",
+      "title": "当社一部検証用サーバーへの不正アクセスによる通信記録の侵害のおそれに関するお詫びとお知らせ | 株式会社ソフツー",
+      "published_on": "2026-06-22",
+      "checked_on": "2026-10-23"
+    },
+    {
+      "url": "https://www.softsu.co.jp/newslist/infomation-261005/",
+      "type": "official",
+      "title": "【第二報】当社一部検証用サーバーへの不正アクセスによる通信記録の侵害のおそれに関するお詫びとお知らせ | 株式会社ソフツー",
+      "published_on": "2026-10-05",
+      "checked_on": "2026-10-23"
+    }
+  ],
+  "updates": [
+    {
+      "date": "2026-10-05",
+      "summary": "続報の内容を同じ事案へ反映。【第二報】当社一部検証用サーバーへの不正アクセスによる通信記録の侵害のおそれに関するお詫びとお知らせ | 株式会社ソフツー",
+      "source_index": 1
+    }
+  ],
+  "notes": "159,850は電話番号件数で人数ではない。"
+}

@@ -1,0 +1,46 @@
+{
+  "id": "tokyo-welfare-mail-subject-20260618",
+  "organization": {
+    "name": "東京都福祉局",
+    "sector": "企業・団体"
+  },
+  "title": "メールの件名に別人のアドレスを誤記",
+  "summary": "連絡メールの件名に別人のメールアドレスを誤って記載し、46人へ送信した。",
+  "published_on": "2026-06-18",
+  "first_published_on": "2026-06-18",
+  "publication_kind": "initial",
+  "occurred_on": "2026-05-14",
+  "detected_on": null,
+  "updated_on": "2026-10-23",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "accident",
+  "cause": {
+    "category": "misdelivery",
+    "detail": "連絡メールの件名に別人のメールアドレスを誤って記載し、46人へ送信した。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 1,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表対象規模（漏えい確定人数とは限らない）"
+    }
+  ],
+  "data_types": [
+    "メールアドレス（ローマ字氏名を含む）"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.metro.tokyo.lg.jp/information/press/2026/06/2026061807",
+      "type": "official",
+      "title": "個人情報の漏えいについて|6月|都庁総合ホームページ",
+      "published_on": "2026-06-18",
+      "checked_on": "2026-10-23"
+    }
+  ],
+  "updates": [],
+  "notes": "46人は受信者数で漏えい対象人数ではない。"
+}

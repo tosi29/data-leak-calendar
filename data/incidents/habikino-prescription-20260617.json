@@ -1,0 +1,57 @@
+{
+  "id": "habikino-prescription-20260617",
+  "organization": {
+    "name": "大阪はびきの医療センター",
+    "sector": "企業・団体"
+  },
+  "title": "別の患者の処方箋を誤交付",
+  "summary": "5月26日に他の患者の情報を含む処方箋を誤って交付した。6月17日の公式お知らせから公表日を確認。",
+  "published_on": "2026-06-17",
+  "first_published_on": "2026-06-17",
+  "publication_kind": "initial",
+  "occurred_on": "2026-05-26",
+  "detected_on": null,
+  "updated_on": "2026-10-23",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "accident",
+  "cause": {
+    "category": "misdelivery",
+    "detail": "5月26日に他の患者の情報を含む処方箋を誤って交付した。6月17日の公式お知らせから公表日を確認。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "公表対象規模（漏えい確定人数とは限らない）"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "生年月日",
+    "性別",
+    "患者ID",
+    "診療情報"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.ra.opho.jp/news/news-19100/",
+      "type": "official",
+      "title": "個人情報の漏えい等の事案について（過去の一覧） | 地方独立行政法人大阪府立病院機構 大阪はびきの医療センター",
+      "published_on": "2026-06-17",
+      "checked_on": "2026-10-23"
+    },
+    {
+      "url": "https://www.ra.opho.jp/wp-content/uploads/2021/05/kojinjyoho_20260526.pdf",
+      "type": "official",
+      "title": "個人情報を記載した処方箋の誤交付について",
+      "published_on": "2026-06-17",
+      "checked_on": "2026-10-23"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

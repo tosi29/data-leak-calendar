@@ -1,0 +1,48 @@
+{
+  "id": "osaka-school-art-loss-20260619",
+  "organization": {
+    "name": "大阪市教育委員会",
+    "sector": "企業・団体"
+  },
+  "title": "児童14人分の氏名入り絵画作品を紛失",
+  "summary": "小学校の倉庫に保管した絵画作品が見つからず、児童の学年・組・氏名が記載された14人分を紛失と判断した。",
+  "published_on": "2026-06-19",
+  "first_published_on": "2026-06-19",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-06-18",
+  "updated_on": "2026-10-23",
+  "verification": "official",
+  "leak_status": "lost",
+  "incident_type": "accident",
+  "cause": {
+    "category": "loss",
+    "detail": "小学校の倉庫に保管した絵画作品が見つからず、児童の学年・組・氏名が記載された14人分を紛失と判断した。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 14,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表対象規模（漏えい確定人数とは限らない）"
+    }
+  ],
+  "data_types": [
+    "学年",
+    "組",
+    "氏名"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.city.osaka.lg.jp/hodoshiryo/kyoiku/0000681757.html",
+      "type": "official",
+      "title": "大阪市：報道発表資料　大阪市立小学校における個人情報を含む児童の絵画作品の紛失について",
+      "published_on": "2026-06-19",
+      "checked_on": "2026-10-23"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

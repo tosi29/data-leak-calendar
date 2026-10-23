@@ -6,12 +6,12 @@
   },
   "title": "ランサムウェア被害後の顧客情報調査結果",
   "summary": "VPN経由の不正アクセスでサーバーが暗号化された。サーバー内の顧客情報について、流出の直接的証跡はないが可能性を否定できないと公表した。",
-  "published_on": "2026-08-21",
-  "first_published_on": null,
+  "published_on": "2026-06-26",
+  "first_published_on": "2026-06-22",
   "publication_kind": "followup",
   "occurred_on": null,
   "detected_on": null,
-  "updated_on": "2026-10-16",
+  "updated_on": "2026-10-23",
   "incident_type": "attack",
   "leak_status": "suspected",
   "impact": [
@@ -44,9 +44,16 @@
       "title": "ランサムウェア被害後の顧客情報調査結果",
       "published_on": "2026-08-21",
       "checked_on": "2026-10-16"
+    },
+    {
+      "url": "https://www.faith-gr.co.jp/news/2026/system-failure_20260626.html",
+      "type": "official",
+      "title": "【重要】弊社システム障害発生に関するご案内（第三報）｜お知らせ｜ニュース｜肌結果を約束する　フェースグループ（Faith Group）",
+      "published_on": "2026-06-26",
+      "checked_on": "2026-10-23"
     }
   ],
-  "notes": "ECサイトそのものへの不正アクセスがあったという公表ではない。",
+  "notes": "ECサイトそのものへの不正アクセスがあったという公表ではない。 6月遡及調査で掲載日を2026-08-21から確認済み初報2026-06-26へ変更。同一事案の追加計上はせず、続報の被害範囲を保持。 システム障害の初報は6月22日。6月26日の情報への影響を含む続報で掲載。",
   "updates": [],
   "verification": "official",
   "related_vendor": null

@@ -1,0 +1,48 @@
+{
+  "id": "jahmc-mail-account-20260604",
+  "organization": {
+    "name": "日本医業経営コンサルタント協会",
+    "sector": "企業・団体"
+  },
+  "title": "メールアカウント侵害で過去の連絡先情報が漏えいした可能性",
+  "summary": "4月17日のメールアカウント侵害により、過去の送受信先等1,051件の個人情報が第三者に閲覧された可能性がある。",
+  "published_on": "2026-06-04",
+  "first_published_on": "2026-06-04",
+  "publication_kind": "initial",
+  "occurred_on": "2026-04-17",
+  "detected_on": null,
+  "updated_on": "2026-10-23",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "4月17日のメールアカウント侵害により、過去の送受信先等1,051件の個人情報が第三者に閲覧された可能性がある。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 1051,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "公表対象規模（漏えい確定人数とは限らない）"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "メールアドレス",
+    "所属"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.jahmc.or.jp/topics/30563/",
+      "type": "official",
+      "title": "不正アクセスによる個人情報流出の可能性に関するお詫びとご報告 - 公益社団法人日本医業経営コンサルタント協会",
+      "published_on": "2026-06-04",
+      "checked_on": "2026-10-23"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

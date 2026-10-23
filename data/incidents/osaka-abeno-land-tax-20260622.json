@@ -1,0 +1,46 @@
+{
+  "id": "osaka-abeno-land-tax-20260622",
+  "organization": {
+    "name": "大阪市あべの市税事務所",
+    "sector": "企業・団体"
+  },
+  "title": "土地の課税先誤りで所有者側の税情報が漏えい",
+  "summary": "所有権移転処理の誤りにより別人へ課税し、昭和57年度から令和8年度までの土地の税額等が漏えいした。",
+  "published_on": "2026-06-22",
+  "first_published_on": "2026-06-22",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-06-12",
+  "updated_on": "2026-10-23",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "accident",
+  "cause": {
+    "category": "misdelivery",
+    "detail": "所有権移転処理の誤りにより別人へ課税し、昭和57年度から令和8年度までの土地の税額等が漏えいした。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "公表対象規模（漏えい確定人数とは限らない）"
+    }
+  ],
+  "data_types": [
+    "固定資産税・都市計画税相当税額"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.city.osaka.lg.jp/hodoshiryo/zaisei/0000681685.html",
+      "type": "official",
+      "title": "大阪市：報道発表資料　あべの市税事務所における固定資産税・都市計画税（土地）の課税誤り及び個人情報の漏えいについて",
+      "published_on": "2026-06-22",
+      "checked_on": "2026-10-23"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

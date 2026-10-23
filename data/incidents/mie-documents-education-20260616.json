@@ -1,0 +1,59 @@
+{
+  "id": "mie-documents-education-20260616",
+  "organization": {
+    "name": "三重県教育委員会保健体育課",
+    "sector": "企業・団体"
+  },
+  "title": "公文書ファイルの所在不明を公表",
+  "summary": "要保護・準要保護児童生徒に関する14文書のファイル1冊を紛失し、対象者の特定に至っていない。",
+  "published_on": "2026-06-16",
+  "first_published_on": "2026-06-16",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-23",
+  "verification": "official",
+  "leak_status": "lost",
+  "incident_type": "accident",
+  "cause": {
+    "category": "loss",
+    "detail": "要保護・準要保護児童生徒に関する14文書のファイル1冊を紛失し、対象者の特定に至っていない。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 14,
+      "unit": "documents",
+      "qualifier": "exact",
+      "description": "公表対象規模（漏えい確定人数とは限らない）"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "生年月日",
+    "性別",
+    "学校名",
+    "保護者名",
+    "家族情報",
+    "医療保険証番号"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.pref.mie.lg.jp/TOPICS/m0359200026.htm",
+      "type": "official",
+      "title": "三重県｜公文書の紛失について",
+      "published_on": "2026-06-16",
+      "checked_on": "2026-10-23"
+    },
+    {
+      "url": "https://www.pref.mie.lg.jp/common/content/001261018.pdf",
+      "type": "official",
+      "title": "教育委員会事務局保健体育課における公文書の紛失について",
+      "published_on": "2026-06-16",
+      "checked_on": "2026-10-23"
+    }
+  ],
+  "updates": [],
+  "notes": "県の一括発表に含まれる部署別の事案。全体194文書を被害人数として数えない。外部流出は確認されていない。"
+}

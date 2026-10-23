@@ -6,12 +6,12 @@
   },
   "title": "不正アクセスによる契約者約440万人の個人情報漏えい",
   "summary": "7月13日の第2報で、契約者約440万人の個人情報漏えいを公表。うち約22万人は保険料振替口座情報を含む。初報の件数と侵害開始日を調査により修正した。",
-  "published_on": "2026-07-13",
+  "published_on": "2026-06-30",
   "occurred_on": "2026-06-10",
   "detected_on": null,
-  "updated_on": "2026-10-18",
+  "updated_on": "2026-10-23",
   "first_published_on": "2026-06-30",
-  "publication_kind": "followup",
+  "publication_kind": "initial",
   "verification": "official",
   "leak_status": "confirmed",
   "impact": [
@@ -68,9 +68,16 @@
       "title": "不正アクセスの発生および情報漏えいのお詫びとお知らせ（第二報）",
       "published_on": "2026-07-13",
       "checked_on": "2026-10-18"
+    },
+    {
+      "url": "https://www.aflac.co.jp/static/corp/profile/news/2026/20260630.pdf",
+      "type": "official",
+      "title": "公式発表",
+      "published_on": "2026-06-30",
+      "checked_on": "2026-10-23"
     }
   ],
-  "notes": "初報は6月30日。期間内の規模・発生時期の訂正を含む7月13日の第2報へ掲載日を修正。約440万人は契約者人数で、他の関係者や代理店を加算しない。後の案内を新規事案として数えない。",
+  "notes": "初報は6月30日。期間内の規模・発生時期の訂正を含む7月13日の第2報へ掲載日を修正。約440万人は契約者人数で、他の関係者や代理店を加算しない。後の案内を新規事案として数えない。 6月遡及調査により掲載日を2026-07-13から2026-06-30に変更し、最新の被害範囲と続報を同じ事案に保持。",
   "updates": [],
   "incident_type": "attack",
   "vendor_research": {
@@ -88,6 +95,10 @@
       },
       {
         "source_index": 2,
+        "status": "reviewed"
+      },
+      {
+        "source_index": 3,
         "status": "reviewed"
       }
     ]

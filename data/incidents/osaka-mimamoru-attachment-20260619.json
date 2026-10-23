@@ -1,0 +1,47 @@
+{
+  "id": "osaka-mimamoru-attachment-20260619",
+  "organization": {
+    "name": "大阪市教育委員会",
+    "sector": "企業・団体"
+  },
+  "title": "ミマモルメ配信に児童の支援資料を誤添付",
+  "summary": "学校の連絡配信で児童4人の情報を含む資料を誤添付し、557人の保護者へ送信した。",
+  "published_on": "2026-06-19",
+  "first_published_on": "2026-06-19",
+  "publication_kind": "initial",
+  "occurred_on": "2026-06-18",
+  "detected_on": null,
+  "updated_on": "2026-10-23",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "accident",
+  "cause": {
+    "category": "misdelivery",
+    "detail": "学校の連絡配信で児童4人の情報を含む資料を誤添付し、557人の保護者へ送信した。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 4,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表対象規模（漏えい確定人数とは限らない）"
+    }
+  ],
+  "data_types": [
+    "児童の個人情報",
+    "支援情報"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.city.osaka.lg.jp/hodoshiryo/kyoiku/0000681837.html",
+      "type": "official",
+      "title": "大阪市：報道発表資料　大阪市立小学校におけるミマモルメ誤配信による個人情報等の漏えいについて",
+      "published_on": "2026-06-19",
+      "checked_on": "2026-10-23"
+    }
+  ],
+  "updates": [],
+  "notes": "557人は送信先数。対象児童4人と混同しない。"
+}

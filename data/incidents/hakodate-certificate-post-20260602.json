@@ -1,0 +1,48 @@
+{
+  "id": "hakodate-certificate-post-20260602",
+  "organization": {
+    "name": "函館市",
+    "sector": "企業・団体"
+  },
+  "title": "郵便事業者の誤配で除籍全部事項証明書が別人に届いた",
+  "summary": "請求者へ送付した証明書が別人へ配達され、開封されていた。5月26日に判明し回収した。",
+  "published_on": "2026-06-02",
+  "first_published_on": "2026-06-02",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-05-26",
+  "updated_on": "2026-10-23",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "accident",
+  "cause": {
+    "category": "misdelivery",
+    "detail": "請求者へ送付した証明書が別人へ配達され、開封されていた。5月26日に判明し回収した。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 1,
+      "unit": "documents",
+      "qualifier": "exact",
+      "description": "公表対象規模（漏えい確定人数とは限らない）"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "本籍",
+    "生年月日"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.city.hakodate.hokkaido.jp/docs/2020102800061/file_contents/20260602shiminbu.pdf",
+      "type": "official",
+      "title": "函 市 民",
+      "published_on": "2026-06-02",
+      "checked_on": "2026-10-23"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

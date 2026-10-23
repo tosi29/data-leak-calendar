@@ -6,12 +6,12 @@
   },
   "title": "CPIメールサービスのメールアドレス漏えいを確認",
   "summary": "KDDIのメール基盤への侵害に伴い、CPIの利用者のメールアドレスが漏えいしたことを確認。パスワードそのものの漏えいはないと説明した。",
-  "published_on": "2026-07-06",
+  "published_on": "2026-06-23",
   "first_published_on": "2026-06-23",
-  "publication_kind": "followup",
+  "publication_kind": "initial",
   "occurred_on": null,
   "detected_on": null,
-  "updated_on": "2026-10-18",
+  "updated_on": "2026-10-23",
   "incident_type": "attack",
   "leak_status": "confirmed",
   "impact": [
@@ -37,9 +37,16 @@
       "type": "official",
       "published_on": "2026-07-06",
       "checked_on": "2026-10-18"
+    },
+    {
+      "url": "https://www.cpi.ad.jp/news/info/260623-2/",
+      "type": "official",
+      "title": "弊社メールサービスへの不正アクセスに関するご報告とお詫び｜KDDIグループの法人向けレンタルサーバー CPI",
+      "published_on": "2026-06-23",
+      "checked_on": "2026-10-23"
     }
   ],
-  "notes": "共通のKDDIメール基盤事案。KDDI全体の人数に加算しない。7月6日公表の内容。",
+  "notes": "共通のKDDIメール基盤事案。KDDI全体の人数に加算しない。7月6日公表の内容。 6月遡及調査で掲載日を2026-07-06から確認済み初報2026-06-23へ変更。同一事案の追加計上はせず、続報の被害範囲を保持。",
   "updates": [],
   "verification": "official",
   "related_vendor": "KDDI",

@@ -1,0 +1,46 @@
+{
+  "id": "osaka-pref-mail-address-20260604",
+  "organization": {
+    "name": "大阪府",
+    "sector": "企業・団体"
+  },
+  "title": "申請担当者への連絡メールを誤ったアドレスへ送信",
+  "summary": "宛先の入力誤りにより、申請者側担当者の氏名等を含むメールが別人へ送信された。",
+  "published_on": "2026-06-04",
+  "first_published_on": "2026-06-04",
+  "publication_kind": "initial",
+  "occurred_on": "2026-04-24",
+  "detected_on": null,
+  "updated_on": "2026-10-23",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "accident",
+  "cause": {
+    "category": "misdelivery",
+    "detail": "宛先の入力誤りにより、申請者側担当者の氏名等を含むメールが別人へ送信された。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 1,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表対象規模（漏えい確定人数とは限らない）"
+    }
+  ],
+  "data_types": [
+    "担当者氏名"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.pref.osaka.lg.jp/hodo/fumin/o120020/prs_51296.html",
+      "type": "official",
+      "title": "個人情報が記載されたメールの誤送信について／大阪府（おおさかふ）ホームページ [Osaka Prefectural Government]",
+      "published_on": "2026-06-04",
+      "checked_on": "2026-10-23"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

@@ -1,0 +1,70 @@
+{
+  "id": "nippon-telenet-ransom-20260612",
+  "organization": {
+    "name": "日本テレネット",
+    "sector": "企業・団体"
+  },
+  "title": "ランサムウェア調査で受託業務等の個人情報に漏えいのおそれ",
+  "summary": "3月9日の攻撃について調査結果を公表。ファイルサーバーの暗号化を確認したが、外部転送や情報流通は確認されていない。受託業務等の個人情報に漏えいのおそれがある。",
+  "published_on": "2026-06-12",
+  "first_published_on": null,
+  "publication_kind": "followup",
+  "occurred_on": "2026-03-09",
+  "detected_on": null,
+  "updated_on": "2026-10-23",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "3月9日の攻撃について調査結果を公表。ファイルサーバーの暗号化を確認したが、外部転送や情報流通は確認されていない。受託業務等の個人情報に漏えいのおそれがある。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 602000,
+      "unit": "records",
+      "qualifier": "approximate",
+      "description": "CSS受託業務"
+    },
+    {
+      "count": 404000,
+      "unit": "records",
+      "qualifier": "approximate",
+      "description": "BPO受託業務"
+    },
+    {
+      "count": 33000,
+      "unit": "records",
+      "qualifier": "approximate",
+      "description": "営業・取引先情報"
+    },
+    {
+      "count": 2044,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "従業員・家族情報"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "電話番号",
+    "メールアドレス",
+    "FAX番号",
+    "問い合わせ内容",
+    "家族情報"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.nippon-tele.net/release/20260612_4675/",
+      "type": "official",
+      "title": "サイバー攻撃によるシステム障害発生について - 日本テレネット株式会社",
+      "published_on": "2026-06-12",
+      "checked_on": "2026-10-23"
+    }
+  ],
+  "updates": [],
+  "notes": "CSS60.2万件、BPO40.4万件、顧客・取引先3.3万件、従業員・家族2,044件。区分間の重複不明のため独自の合計人数を作らない。"
+}

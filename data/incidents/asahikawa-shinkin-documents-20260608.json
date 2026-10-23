@@ -1,0 +1,50 @@
+{
+  "id": "asahikawa-shinkin-documents-20260608",
+  "organization": {
+    "name": "旭川信用金庫",
+    "sector": "企業・団体"
+  },
+  "title": "神楽支店の顧客情報入り預かり証控えを紛失",
+  "summary": "融資係が使用した預かり証控えが所在不明となった。金庫は支店内で誤廃棄した可能性が高いと説明している。",
+  "published_on": "2026-06-08",
+  "first_published_on": "2026-06-08",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-23",
+  "verification": "official",
+  "leak_status": "lost",
+  "incident_type": "accident",
+  "cause": {
+    "category": "loss",
+    "detail": "融資係が使用した預かり証控えが所在不明となった。金庫は支店内で誤廃棄した可能性が高いと説明している。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "公表対象規模（漏えい確定人数とは限らない）"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "会社名",
+    "金額",
+    "口座番号",
+    "印影"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.shinkin.co.jp/ask/article_source/data/info/files/info260608.pdf",
+      "type": "official",
+      "title": "旭川信用金庫：神楽支店の顧客情報入り預かり証控えを紛失",
+      "published_on": "2026-06-08",
+      "checked_on": "2026-10-23"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

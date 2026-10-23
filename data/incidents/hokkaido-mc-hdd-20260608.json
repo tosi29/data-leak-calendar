@@ -1,0 +1,53 @@
+{
+  "id": "hokkaido-mc-hdd-20260608",
+  "organization": {
+    "name": "北海道医療センター",
+    "sector": "企業・団体"
+  },
+  "title": "廃棄委託したHDDが破砕されず外部に流通",
+  "summary": "電子カルテ更新で廃棄する端末のHDDが適切に破砕されず流通し、患者情報が外部に接触した可能性を否定できない。",
+  "published_on": "2026-06-08",
+  "first_published_on": "2026-06-08",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-23",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "accident",
+  "cause": {
+    "category": "improper_sharing",
+    "detail": "電子カルテ更新で廃棄する端末のHDDが適切に破砕されず流通し、患者情報が外部に接触した可能性を否定できない。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "公表対象規模（漏えい確定人数とは限らない）"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "患者番号",
+    "生年月日",
+    "住所",
+    "電話番号",
+    "病名",
+    "検査結果",
+    "看護記録"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://hokkaido-mc.hosp.go.jp/common/img/index/202608.pdf",
+      "type": "official",
+      "title": "【重要】個人情報の取扱いに関するお詫びとご報告",
+      "published_on": "2026-06-08",
+      "checked_on": "2026-10-23"
+    }
+  ],
+  "updates": [],
+  "notes": "確認した公式本文は対象人数を掲載していないため人数未公表として記録。2施設の被害は別組織として掲載するが、同一廃棄工程に関連する。"
+}

@@ -1,0 +1,47 @@
+{
+  "id": "nttpc-suitex-20260623",
+  "organization": {
+    "name": "NTTPCコミュニケーションズ（SuiteX）",
+    "sector": "企業・団体"
+  },
+  "title": "SuiteXへの不正アクセスでメール等の情報が流出した可能性",
+  "summary": "サーバーへの不正アクセスによりメールやWeb領域内の情報が漏えいした可能性を否定できない。",
+  "published_on": "2026-06-23",
+  "first_published_on": "2026-06-23",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-23",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "サーバーへの不正アクセスによりメールやWeb領域内の情報が漏えいした可能性を否定できない。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 8203,
+      "unit": "accounts",
+      "qualifier": "exact",
+      "description": "公表対象規模（漏えい確定人数とは限らない）"
+    }
+  ],
+  "data_types": [
+    "メール情報",
+    "Web領域内の情報"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.nttpc.co.jp/press/info/2026/06/202606231102.html",
+      "type": "official",
+      "title": "「WebARENA SuiteX 一部サーバー（dc70.etius.jp）」停止についてのお詫びとご報告｜インフォメーション｜ニュースリリース｜【公式】NTTPC",
+      "published_on": "2026-06-23",
+      "checked_on": "2026-10-23"
+    }
+  ],
+  "updates": [],
+  "notes": "メール8,203アカウント、Web269アカウント、385契約。異なる単位を合算しない。ファイル転送サービスの別事案とは分離。"
+}

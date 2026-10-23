@@ -1,0 +1,61 @@
+{
+  "id": "stnet-kddi-mail-20260623",
+  "organization": {
+    "name": "STNet（ピカラ）",
+    "sector": "企業・団体"
+  },
+  "title": "KDDI共通メール基盤への侵害に伴う利用者情報の漏えい",
+  "summary": "6月23日に公表した共通メール基盤への侵害について、7月の続報で対象範囲を報告した。",
+  "published_on": "2026-06-23",
+  "first_published_on": "2026-06-23",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-23",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "vulnerability",
+    "detail": "6月23日に公表した共通メール基盤への侵害について、7月の続報で対象範囲を報告した。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 397152,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表対象規模（漏えい確定人数とは限らない）"
+    }
+  ],
+  "data_types": [
+    "メールアドレス",
+    "パスワード等"
+  ],
+  "related_vendor": "KDDI",
+  "sources": [
+    {
+      "url": "https://www.stnet.co.jp/archives/001/202607/press_20260706.pdf",
+      "type": "official",
+      "title": "香川県高松市春日町 1735 番地 3",
+      "published_on": "2026-07-06",
+      "checked_on": "2026-10-23"
+    }
+  ],
+  "updates": [
+    {
+      "date": "2026-07-06",
+      "summary": "続報の内容を同じ事案へ反映。香川県高松市春日町 1735 番地 3",
+      "source_index": 0
+    }
+  ],
+  "notes": "KDDI共通基盤の同一攻撃に伴う利用者向け発表。KDDIの全体人数と加算しない。6月23日の公表日は続報内でも確認。",
+  "vendors": [
+    {
+      "name": "KDDI",
+      "role": "service",
+      "detail": "侵害されたISP向け共通メール基盤の提供元。",
+      "source_index": 0
+    }
+  ]
+}

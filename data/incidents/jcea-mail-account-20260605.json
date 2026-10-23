@@ -1,0 +1,46 @@
+{
+  "id": "jcea-mail-account-20260605",
+  "organization": {
+    "name": "日中経済協会",
+    "sector": "企業・団体"
+  },
+  "title": "職員のメールアカウント侵害で保存情報が閲覧された可能性",
+  "summary": "パスワード窃取によって職員のメールアカウントが不正使用され、保存メールの個人情報が第三者に閲覧された可能性がある。",
+  "published_on": "2026-06-05",
+  "first_published_on": "2026-06-05",
+  "publication_kind": "initial",
+  "occurred_on": "2026-06-03",
+  "detected_on": null,
+  "updated_on": "2026-10-23",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "credentials",
+    "detail": "パスワード窃取によって職員のメールアカウントが不正使用され、保存メールの個人情報が第三者に閲覧された可能性がある。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "公表対象規模（漏えい確定人数とは限らない）"
+    }
+  ],
+  "data_types": [
+    "メール内の個人情報"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.jc-web.or.jp/pages/2230/",
+      "type": "official",
+      "title": "【事案報告】不正アクセスによるメール発信に関するお詫びとご報告｜一般財団法人日中経済協会は、対中交流実績と豊富なノウハウ･人脈で､御社の中国ビジネスをサポートします｡",
+      "published_on": "2026-06-05",
+      "checked_on": "2026-10-23"
+    }
+  ],
+  "updates": [],
+  "notes": "565件は不審メールの送信件数で被害人数ではない。"
+}

@@ -6,12 +6,12 @@
   },
   "title": "メール自動転送設定による漏えいの可能性",
   "summary": "意図しない外部アドレスへの自動転送設定を確認。調査で2020年まで遡る送信失敗記録が見つかり、2026年6月までの受信メール等が対象となる可能性を公表した。",
-  "published_on": "2026-07-31",
+  "published_on": "2026-06-22",
   "first_published_on": "2026-06-22",
-  "publication_kind": "followup",
+  "publication_kind": "initial",
   "occurred_on": null,
   "detected_on": null,
-  "updated_on": "2026-10-18",
+  "updated_on": "2026-10-23",
   "incident_type": "attack",
   "leak_status": "suspected",
   "impact": [
@@ -39,9 +39,16 @@
       "type": "official",
       "published_on": "2026-07-31",
       "checked_on": "2026-10-18"
+    },
+    {
+      "url": "https://www.fujikuracomposites.jp/main/wp-content/uploads/2026/06/0b1cad021c41d796a5b92834b4c27cce.pdf",
+      "type": "official",
+      "title": "2026 年６月 22 日",
+      "published_on": "2026-06-22",
+      "checked_on": "2026-10-23"
     }
   ],
-  "notes": "",
+  "notes": " 6月遡及調査で掲載日を2026-07-31から確認済み初報2026-06-22へ変更。同一事案の追加計上はせず、続報の被害範囲を保持。",
   "updates": [],
   "verification": "official",
   "related_vendor": null

@@ -1,0 +1,56 @@
+{
+  "id": "shimane-mitoya-support-scam-20260612",
+  "organization": {
+    "name": "島根県立三刀屋高等学校",
+    "sector": "企業・団体"
+  },
+  "title": "偽サポートへの誘導で生徒69人の情報が流出した可能性",
+  "summary": "教員用PCに不正プログラムが導入され、保存していた生徒の名簿や進路希望等が流出する可能性がある状態となった。",
+  "published_on": "2026-06-12",
+  "first_published_on": "2026-06-12",
+  "publication_kind": "initial",
+  "occurred_on": "2026-06-09",
+  "detected_on": null,
+  "updated_on": "2026-10-23",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "教員用PCに不正プログラムが導入され、保存していた生徒の名簿や進路希望等が流出する可能性がある状態となった。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 69,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表対象規模（漏えい確定人数とは限らない）"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "生年月日",
+    "メールアドレス",
+    "進路希望"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.pref.shimane.lg.jp/press_release/2026/zypol9llpkgy.html",
+      "type": "official",
+      "title": "島根県：外部への個人情報（氏名やメールアドレス等）の流出の可能性について（トップ / 報道発表資料 / 令和8年度）",
+      "published_on": "2026-06-12",
+      "checked_on": "2026-10-23"
+    },
+    {
+      "url": "https://www.pref.shimane.lg.jp/press_release/2026/zypol9llpkgy.data/2558b676ea0bb217.pdf",
+      "type": "official",
+      "title": "外部への個人情報（氏名やメールアドレス等）の流出の可能性について",
+      "published_on": "2026-06-12",
+      "checked_on": "2026-10-23"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

@@ -6,12 +6,12 @@
   },
   "title": "写真販売サービスへの不正アクセスによる個人情報漏えい",
   "summary": "注文に紐づく購入者・送付先情報の漏えいを確認し、対象者への通知と調査結果を公表した。写真そのものとカード情報は対象外としている。",
-  "published_on": "2026-07-31",
-  "first_published_on": "2026-06-05",
+  "published_on": "2026-06-09",
+  "first_published_on": null,
   "publication_kind": "followup",
   "occurred_on": null,
   "detected_on": null,
-  "updated_on": "2026-10-18",
+  "updated_on": "2026-10-23",
   "incident_type": "attack",
   "leak_status": "confirmed",
   "impact": [
@@ -35,9 +35,16 @@
       "type": "official",
       "published_on": "2026-07-31",
       "checked_on": "2026-10-18"
+    },
+    {
+      "url": "https://8122.jp/lp/news",
+      "type": "official",
+      "title": "【第三報】「はいチーズ！フォト」対象のお客様への個別ご連絡（6月10日・11日実施）について",
+      "published_on": "2026-06-09",
+      "checked_on": "2026-10-23"
     }
   ],
-  "notes": "対象件数は二次被害防止のため非公表。写真データの流出としては扱わない。",
+  "notes": "対象件数は二次被害防止のため非公表。写真データの流出としては扱わない。 6月遡及調査により掲載日を2026-07-31から2026-06-09に変更し、最新の被害範囲と続報を同じ事案に保持。 6月9日付第三報本文を確認。6月5日の公表原文は今回未確認で、同日は委員会への速報日でもあるため初報日は未確定に修正。第三報を初報とは表示しない。",
   "updates": [],
   "verification": "official",
   "related_vendor": null
