@@ -1,0 +1,64 @@
+{
+  "id": "mhlw-1fedu-20261022",
+  "organization": {
+    "name": "厚生労働省（1FEdu）",
+    "sector": "自治体・官公庁"
+  },
+  "title": "委託研修サイトで6名の認証情報が漏えい、最大595名に影響の可能性",
+  "summary": "委託先テクノヒルの1FEduへの攻撃で認証情報の漏えいと不正ログインを確認。同じデータベースの受講者情報も対象となる可能性がある。",
+  "published_on": "2026-10-22",
+  "first_published_on": "2026-10-22",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-23",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。詳細な侵入経路は調査中。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": 595,
+      "unit": "people",
+      "qualifier": "maximum",
+      "description": "流出を確認した6名を含む対象受講者の上限。6名のメールアドレス・パスワードは漏えい確認済み。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "ふりがな",
+    "年代",
+    "性別",
+    "所属組織・部署",
+    "役職・職種",
+    "メールアドレス",
+    "パスワード",
+    "電話番号",
+    "原発での経験年数",
+    "登録時の業務"
+  ],
+  "related_vendor": "テクノヒル株式会社",
+  "sources": [
+    {
+      "url": "https://www.mhlw.go.jp/stf/newpage_76892.html",
+      "type": "official",
+      "title": "委託事業に係る個人情報の漏えいについて",
+      "published_on": "2026-10-22",
+      "checked_on": "2026-10-23"
+    }
+  ],
+  "updates": [],
+  "notes": "確定6名と可能性を含む595名を合算しない。パスワードはシステムが機械的に付与するもの。登録項目は個人ごとに異なる。",
+  "vendors": [
+    {
+      "name": "テクノヒル株式会社",
+      "role": "service",
+      "detail": "対象情報を取り扱うサービスの提供・運営事業者。",
+      "source_index": 0
+    }
+  ]
+}

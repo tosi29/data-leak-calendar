@@ -1,0 +1,58 @@
+{
+  "id": "mcat-arica-20261022",
+  "organization": {
+    "name": "MCAT（コワーキングスペースarica）",
+    "sector": "企業・団体"
+  },
+  "title": "Studioに残った法人会員フォーム情報に流出の可能性",
+  "summary": "会員登録フォームの法人会員5件がStudio上に残っており、第三者による取得の可能性を否定できないと公表した。",
+  "published_on": "2026-10-22",
+  "first_published_on": "2026-10-22",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-23",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。詳細な侵入経路は調査中。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": 5,
+      "unit": "records",
+      "qualifier": "maximum",
+      "description": "Studio上に残存していた法人会員の登録情報。流出は未確認。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "フリガナ",
+    "メールアドレス",
+    "電話番号",
+    "住所"
+  ],
+  "related_vendor": "Studio株式会社",
+  "sources": [
+    {
+      "url": "https://www.mcat.co.jp/お詫びとご報告：webサイト制作ツール「studio」への不/",
+      "type": "official",
+      "title": "Studioへの不正アクセスに伴う個人情報流出の可能性について",
+      "published_on": "2026-10-22",
+      "checked_on": "2026-10-23"
+    }
+  ],
+  "updates": [],
+  "notes": "個人会員515件は攻撃前に削除済みで、流出可能性は極めて低いとの説明（Studioへ確認中）。515件を確定流出数へ加算しない。9月28日以降のGoogleフォーム登録分は対象外。",
+  "vendors": [
+    {
+      "name": "Studio株式会社",
+      "role": "service",
+      "detail": "対象情報を取り扱うサービスの提供・運営事業者。",
+      "source_index": 0
+    }
+  ]
+}

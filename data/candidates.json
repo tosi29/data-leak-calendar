@@ -314,18 +314,6 @@
     ]
   },
   {
-    "id": "oct21-review-onamae",
-    "organization": "GMOインターネット（お名前.com デスクトップクラウド）",
-    "reported_on": "2026-10-21",
-    "verification": "pending",
-    "reference_url": "https://www.onamae.com/news/article/11584/",
-    "note": "公式告知を再取得。デスクトップクラウドの26,739台はサーバー台数。個人情報の件数・流出有無を示すものではなく、影響の続報待ち。",
-    "reviewed_on": "2026-10-23",
-    "checked_urls": [
-      "https://www.onamae.com/news/article/11584/"
-    ]
-  },
-  {
     "id": "oct21-review-futureshop",
     "organization": "フューチャーショップ",
     "reported_on": "2026-10-21",
@@ -480,5 +468,19 @@
       "https://www.town.imakane.lg.jp/gyousei/gyousei_info/post_4953.html"
     ],
     "note": "公式本文で個人情報への影響を確認。公表日が確定できないため、カレンダーへの掲載は保留。reported_onは今回の確認日であり、公表日ではない。"
+  },
+  {
+    "id": "oct23-review-spiral-locas",
+    "organization": "スパイラルローキャス（職員参集システム）",
+    "reported_on": "2026-10-23",
+    "verification": "pending",
+    "reference_url": "https://news.livedoor.com/article/detail/32639288/",
+    "reviewed_on": "2026-10-23",
+    "checked_urls": [
+      "https://news.livedoor.com/article/detail/32639288/",
+      "https://spiral-locas.co.jp/",
+      "https://ai.itokoba.com/security-tier/incidents/incident-493/"
+    ],
+    "note": "共同通信の10月23日記事で2自治体・約3千件の漏えいのおそれを確認。別記事は公式公表10月22日とするが、公式サイトは本文・リンクを取得できず、公式原文と公表日の照合を保留。650自治体を被害先数にしない。"
   }
 ]

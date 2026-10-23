@@ -6,12 +6,12 @@
   },
   "title": "ブラストメールの契約者情報と一部配信先リストが流出",
   "summary": "API用サーバーを経由した侵入で、全契約者の販売管理情報と一部利用者の配信先リスト等の持ち出しを確認した。",
-  "published_on": "2026-10-21",
+  "published_on": "2026-10-23",
   "first_published_on": "2026-10-21",
-  "publication_kind": "initial",
+  "publication_kind": "followup",
   "occurred_on": null,
   "detected_on": null,
-  "updated_on": "2026-10-21",
+  "updated_on": "2026-10-23",
   "verification": "official",
   "leak_status": "confirmed",
   "incident_type": "attack",
@@ -25,7 +25,7 @@
       "count": null,
       "unit": "records",
       "qualifier": "unknown",
-      "description": "公表された対象規模。全件の流出確定を意味しない。"
+      "description": "全契約者の販売管理情報が流出。人数・情報レコードの総数は未公表。契約者情報以外の漏えいが確認された契約は288件。"
     }
   ],
   "data_types": [
@@ -45,8 +45,21 @@
       "title": "ブラストメールの契約者情報と一部配信先リストが流出",
       "published_on": "2026-10-21",
       "checked_on": "2026-10-21"
+    },
+    {
+      "url": "https://info.blastmail.jp/information_20261021.html",
+      "type": "official",
+      "title": "ブラストメールの緊急停止および個人情報漏えいに関するお詫びとご報告（17時更新）",
+      "published_on": "2026-10-23",
+      "checked_on": "2026-10-23"
     }
   ],
-  "updates": [],
-  "notes": "同日第2報を検索経由の公式本文で確認。直接取得時は予防的メンテナンスの共通案内に置き換わっていた。対象人数・件数は未公表。サーバー2台を被害人数としない。他のラクスサービスの予防的停止とは区別。"
+  "updates": [
+    {
+      "date": "2026-10-23",
+      "summary": "17時時点で配信先リスト等の漏えいが確認された288契約への個別連絡が完了。調査は継続中。",
+      "source_index": 1
+    }
+  ],
+  "notes": "288件は契約者情報以外の漏えいが確認された契約数であり、人数や流出情報件数ではない。全契約者の販売管理情報の流出とは区別する。10月24日の内部調査完了は予定であり、外部調査も継続中。"
 }

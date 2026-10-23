@@ -23373,5 +23373,28 @@
         "公表日と復旧日・発生日・PDF作成日を区別。"
       ]
     }
+  ],
+  "daily_updates": [
+    {
+      "checked_on": "2026-10-23",
+      "added_incident_ids": [
+        "digital-studio-20261022",
+        "mhlw-1fedu-20261022",
+        "digitalarts-20261021",
+        "valtec-20261023",
+        "onamae-desktop-20261023",
+        "mcat-arica-20261022"
+      ],
+      "updated_incident_ids": [
+        "rakus-blastmail-20261021"
+      ],
+      "promoted_candidate_ids": [
+        "oct21-review-onamae"
+      ],
+      "new_candidate_ids": [
+        "oct23-review-spiral-locas"
+      ],
+      "notes": "公式当日続報と21〜22日未掲載公表を確認。以前の未解決29URLの一括再調査は今回未実施。詳細はdocs/research-2026-10-23-update.md。"
+    }
   ]
 }

@@ -1,0 +1,62 @@
+{
+  "id": "onamae-desktop-20261023",
+  "organization": {
+    "name": "GMOインターネット（お名前.com デスクトップクラウド）",
+    "sector": "企業・団体"
+  },
+  "title": "取引口座のログイン情報が取得・不正利用された可能性",
+  "summary": "第3報で取引ツール等に保存された認証情報への影響を公表。個別の取得・不正利用の有無と範囲は引き続き調査中。",
+  "published_on": "2026-10-23",
+  "first_published_on": "2026-10-21",
+  "publication_kind": "followup",
+  "occurred_on": null,
+  "detected_on": "2026-10-20",
+  "updated_on": "2026-10-23",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。詳細な侵入経路は調査中。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "対象となり得るサーバーは26,739件。被害人数・情報流出件数は未確定。"
+    }
+  ],
+  "data_types": [
+    "取引口座ログイン情報",
+    "保存されたID・パスワード",
+    "サーバー内の保存情報"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.onamae.com/news/article/11584/",
+      "type": "official",
+      "title": "不正アクセスに関するお詫びとお知らせ（第1報）",
+      "published_on": "2026-10-21",
+      "checked_on": "2026-10-23"
+    },
+    {
+      "url": "https://internet.gmo/news/article/248/",
+      "type": "official",
+      "title": "不正アクセスに関するお詫びとお知らせ（第3報）",
+      "published_on": "2026-10-23",
+      "checked_on": "2026-10-23"
+    },
+    {
+      "url": "https://internet.gmo/ir/pdf/irlibrary/gmointernet_j_disclose_20261023.pdf",
+      "type": "official",
+      "title": "当社の提供サービスへの不正アクセスに関するお知らせ",
+      "published_on": "2026-10-23",
+      "checked_on": "2026-10-23"
+    }
+  ],
+  "updates": [],
+  "notes": "26,739は対象となり得るサーバー数であり、流出件数や人数ではない。事業者は決済情報を当該サーバーに保持しないが、顧客自身の保存情報は対象。確認待ちoct21-review-onamaeから移行。"
+}

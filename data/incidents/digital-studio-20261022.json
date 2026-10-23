@@ -1,0 +1,89 @@
+{
+  "id": "digital-studio-20261022",
+  "organization": {
+    "name": "デジタル庁",
+    "sector": "自治体・官公庁"
+  },
+  "title": "Studio関連のお問合せフォーム・アカウント情報に漏えいの可能性",
+  "summary": "過去のフォーム入力情報と職員・委託事業従事者のStudioアカウント情報が漏えいした可能性を公表。",
+  "published_on": "2026-10-22",
+  "first_published_on": "2026-10-22",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-10-16",
+  "updated_on": "2026-10-23",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。詳細な侵入経路は調査中。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": 8833,
+      "unit": "records",
+      "qualifier": "maximum",
+      "description": "一般的なご意見・ご要望"
+    },
+    {
+      "count": 250,
+      "unit": "records",
+      "qualifier": "maximum",
+      "description": "採用に関する問合せ"
+    },
+    {
+      "count": 3661,
+      "unit": "records",
+      "qualifier": "maximum",
+      "description": "接種証明書アプリに関する問合せ"
+    },
+    {
+      "count": 117,
+      "unit": "records",
+      "qualifier": "maximum",
+      "description": "マイナちゃん着ぐるみ借用の問合せ"
+    },
+    {
+      "count": 462,
+      "unit": "records",
+      "qualifier": "maximum",
+      "description": "ワークショップ等の参加関連"
+    },
+    {
+      "count": 35,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "職員・委託事業従事者のStudioアカウント。流出確定数ではない。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "メールアドレス",
+    "電話番号",
+    "問合せ内容",
+    "所属",
+    "送付先住所"
+  ],
+  "related_vendor": "Studio株式会社",
+  "sources": [
+    {
+      "url": "https://www.digital.go.jp/press/a0a8f66c-b32d-4695-9372-bcd5d4280f22",
+      "type": "official",
+      "title": "Studio株式会社における不正アクセスによる個人情報の漏えいの可能性について",
+      "published_on": "2026-10-22",
+      "checked_on": "2026-10-23"
+    }
+  ],
+  "updates": [],
+  "notes": "フォームの対象期間は2021年5月〜2023年3月。各区分は人数ではなく件数。任意項目は記入された場合に限る。Studio全体の被害規模との重複に注意。",
+  "vendors": [
+    {
+      "name": "Studio株式会社",
+      "role": "service",
+      "detail": "対象情報を取り扱うサービスの提供・運営事業者。",
+      "source_index": 0
+    }
+  ]
+}

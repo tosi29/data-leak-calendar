@@ -1,0 +1,56 @@
+{
+  "id": "valtec-20261023",
+  "organization": {
+    "name": "バルテック",
+    "sector": "企業・団体"
+  },
+  "title": "顧客情報流出の可能性について第2報、漏えい自体は未確認",
+  "summary": "10月20日にサーバーへマルウェアが設置され、各種サービスの氏名・電話番号・メールアドレス等が漏えいした可能性を公表した。",
+  "published_on": "2026-10-23",
+  "first_published_on": "2026-10-22",
+  "publication_kind": "followup",
+  "occurred_on": "2026-10-20",
+  "detected_on": null,
+  "updated_on": "2026-10-23",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "vulnerability",
+    "detail": "初報の説明を訂正し、自社サービス自体の脆弱性を悪用されたと公表。詳細は調査中。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "POS・勤怠・予約・文書管理等の顧客情報。件数は調査中。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "電話番号",
+    "メールアドレス",
+    "顧客情報"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.webjapan.co.jp/maintenance/serviceteishi261022/",
+      "type": "official",
+      "title": "不正アクセスによるお客様情報流出の可能性および一部サービス停止のお知らせ（原因訂正あり）",
+      "published_on": "2026-10-22",
+      "checked_on": "2026-10-23"
+    },
+    {
+      "url": "https://www.webjapan.co.jp/maintenance/serviceteishi261023/",
+      "type": "official",
+      "title": "《第二報》不正アクセスによるお知らせ",
+      "published_on": "2026-10-23",
+      "checked_on": "2026-10-23"
+    }
+  ],
+  "updates": [],
+  "notes": "第2報では実際の漏えいは確認できていないと明記。初報の原因説明は訂正済み。最短10月26日の復旧は予定であり完了ではない。"
+}

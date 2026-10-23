@@ -1,0 +1,46 @@
+{
+  "id": "digitalarts-20261021",
+  "organization": {
+    "name": "デジタルアーツ",
+    "sector": "企業・団体"
+  },
+  "title": "クラウド運用環境への侵入で顧客情報が閲覧された可能性",
+  "summary": "運用用認証情報の不正取得によりクラウド環境に侵入された。一部顧客情報への影響を調査しており、外部への持ち出しは未確認。",
+  "published_on": "2026-10-21",
+  "first_published_on": "2026-10-21",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-10-09",
+  "updated_on": "2026-10-23",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "credentials",
+    "detail": "クラウド運用用の認証情報を第三者が不正取得し、運用環境へ侵入。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "一部クラウド利用顧客。対象件数は未公表。"
+    }
+  ],
+  "data_types": [
+    "顧客情報（詳細項目未公表）"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://pages.daj.jp/webtopics/1354/",
+      "type": "official",
+      "title": "当社への不正アクセスに関するお知らせとお詫び",
+      "published_on": "2026-10-21",
+      "checked_on": "2026-10-23"
+    }
+  ],
+  "updates": [],
+  "notes": "10月9日の点検で発見。2025年7月頃に遡る痕跡を含む。クラウド6サービスが対象でソフトウェア版は対象外。パスワード変更要請をパスワード流出確認と解釈しない。"
+}
