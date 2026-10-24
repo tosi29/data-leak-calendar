@@ -1,0 +1,51 @@
+{
+  "id": "hiroshima-seminar-qr-20260602",
+  "organization": {
+    "name": "広島県",
+    "sector": "企業・団体"
+  },
+  "title": "新聞広告に管理者用二次元コードを掲載",
+  "summary": "受託者がセミナー広告に管理画面用のコードを誤掲載し、申込者86人の情報が閲覧可能となった。疾病に関する相談内容も一部に含まれる。",
+  "published_on": "2026-06-02",
+  "first_published_on": "2026-06-02",
+  "publication_kind": "initial",
+  "occurred_on": "2026-05-29",
+  "detected_on": null,
+  "updated_on": "2026-10-24",
+  "verification": "official",
+  "leak_status": "exposed",
+  "incident_type": "accident",
+  "cause": {
+    "category": "configuration",
+    "detail": "受託者がセミナー広告に管理画面用のコードを誤掲載し、申込者86人の情報が閲覧可能となった。疾病に関する相談内容も一部に含まれる。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 86,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表対象規模（漏えい確定人数とは限らない）"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "電話番号",
+    "年齢区分",
+    "属性",
+    "質問・疾病相談"
+  ],
+  "related_vendor": "ホームテレビ映像",
+  "sources": [
+    {
+      "url": "https://www.pref.hiroshima.lg.jp/uploaded/attachment/670967.pdf",
+      "type": "official",
+      "title": "県民公開セミナー申込者の個人情報漏洩事案の発生について",
+      "published_on": "2026-06-02",
+      "checked_on": "2026-10-24"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

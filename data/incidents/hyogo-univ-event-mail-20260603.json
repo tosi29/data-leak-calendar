@@ -1,0 +1,47 @@
+{
+  "id": "hyogo-univ-event-mail-20260603",
+  "organization": {
+    "name": "兵庫県立大学",
+    "sector": "企業・団体"
+  },
+  "title": "イベント当選メールの宛先設定を誤る",
+  "summary": "学生23人のメールアドレスが相互に閲覧可能になった。うち4人は氏名も判明する可能性がある。",
+  "published_on": "2026-06-03",
+  "first_published_on": "2026-06-03",
+  "publication_kind": "initial",
+  "occurred_on": "2026-06-02",
+  "detected_on": null,
+  "updated_on": "2026-10-24",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "accident",
+  "cause": {
+    "category": "misdelivery",
+    "detail": "学生23人のメールアドレスが相互に閲覧可能になった。うち4人は氏名も判明する可能性がある。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 23,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表対象規模（漏えい確定人数とは限らない）"
+    }
+  ],
+  "data_types": [
+    "メールアドレス",
+    "氏名（一部）"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.u-hyogo.ac.jp/news/news/20260603newsko.html",
+      "type": "official",
+      "title": "学内イベント当選者通知メールにおけるメールアドレスの当選者内漏洩について | 兵庫県立大学",
+      "published_on": "2026-06-03",
+      "checked_on": "2026-10-24"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

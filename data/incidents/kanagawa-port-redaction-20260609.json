@@ -1,0 +1,51 @@
+{
+  "id": "kanagawa-port-redaction-20260609",
+  "organization": {
+    "name": "神奈川県東部漁港事務所",
+    "sector": "企業・団体"
+  },
+  "title": "公開請求文書の黒塗りをせず交付",
+  "summary": "個人情報を秘匿すべき文書を黒塗りせず交付し、故人を含む22人分の情報が対象となった。",
+  "published_on": "2026-06-09",
+  "first_published_on": "2026-06-09",
+  "publication_kind": "initial",
+  "occurred_on": "2025-12-09",
+  "detected_on": "2026-06-05",
+  "updated_on": "2026-10-24",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "accident",
+  "cause": {
+    "category": "redaction_error",
+    "detail": "個人情報を秘匿すべき文書を黒塗りせず交付し、故人を含む22人分の情報が対象となった。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 22,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表対象規模（漏えい確定人数とは限らない）"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "電話番号",
+    "職業",
+    "印影",
+    "不動産取引等の経緯"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.pref.kanagawa.jp/docs/kb2/kisyahappyou_suisan.html",
+      "type": "official",
+      "title": "個人情報及び秘匿すべき情報の漏洩について - 神奈川県ホームページ",
+      "published_on": "2026-06-09",
+      "checked_on": "2026-10-24"
+    }
+  ],
+  "updates": [],
+  "notes": "別に法人4件の情報。人数と法人件数は加算しない。"
+}

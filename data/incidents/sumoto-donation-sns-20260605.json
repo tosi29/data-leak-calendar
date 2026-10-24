@@ -1,0 +1,56 @@
+{
+  "id": "sumoto-donation-sns-20260605",
+  "organization": {
+    "name": "洲本市",
+    "sector": "企業・団体"
+  },
+  "title": "ふるさと納税者の情報がSNSに投稿された",
+  "summary": "市民のふるさと納税情報23件（重複込み63件）のSNS投稿を確認。元リストの漏えい可能性も調査している。",
+  "published_on": "2026-06-05",
+  "first_published_on": null,
+  "publication_kind": "unknown",
+  "occurred_on": null,
+  "detected_on": "2026-05-29",
+  "updated_on": "2026-10-24",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "accident",
+  "cause": {
+    "category": "unknown",
+    "detail": "市民のふるさと納税情報23件（重複込み63件）のSNS投稿を確認。元リストの漏えい可能性も調査している。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": 23,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "SNS投稿で確認した重複を除く件数（重複込み63件）"
+    },
+    {
+      "count": 23000,
+      "unit": "records",
+      "qualifier": "maximum_approximate",
+      "description": "元データが漏えいしていた場合の範囲。重複込み約43,000件。全件流出の確認ではない"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "寄付額",
+    "入金日",
+    "返礼品"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.city.sumoto.lg.jp/soshiki/10/37115.html",
+      "type": "official",
+      "title": "洲本市個人情報漏洩事案の発生について - 洲本市ホームページ",
+      "published_on": "2026-06-05",
+      "checked_on": "2026-10-24"
+    }
+  ],
+  "updates": [],
+  "notes": "確認できた公式公表は6月5日。最大範囲と確認済み範囲は別であり、合計しない。"
+}

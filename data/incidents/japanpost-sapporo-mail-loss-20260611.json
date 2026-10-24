@@ -1,0 +1,53 @@
+{
+  "id": "japanpost-sapporo-mail-loss-20260611",
+  "organization": {
+    "name": "日本郵便北海道支社",
+    "sector": "企業・団体"
+  },
+  "title": "札幌市内で郵便物を紛失",
+  "summary": "配達中の郵便物約5通が所在不明となり、経路・局内を捜索しても発見できなかった。",
+  "published_on": "2026-06-11",
+  "first_published_on": "2026-06-11",
+  "publication_kind": "initial",
+  "occurred_on": "2026-06-04",
+  "detected_on": null,
+  "updated_on": "2026-10-24",
+  "verification": "secondary",
+  "leak_status": "lost",
+  "incident_type": "accident",
+  "cause": {
+    "category": "loss",
+    "detail": "配達中の郵便物約5通が所在不明となり、経路・局内を捜索しても発見できなかった。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 5,
+      "unit": "documents",
+      "qualifier": "approximate",
+      "description": "公表対象規模（漏えい確定人数とは限らない）"
+    }
+  ],
+  "data_types": [
+    "郵便物の宛名等"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.uhb.jp/news/single.html?id=60007",
+      "type": "news",
+      "title": "『お心当たりのあるお客様…連絡をお願いします』配達中に郵便物約5個を紛失…経路や局内を調べるも見つからず＿日本郵便北海道支社が発表",
+      "published_on": "2026-06-11",
+      "checked_on": "2026-10-24"
+    },
+    {
+      "url": "https://www.security-next.com/186329",
+      "type": "news",
+      "title": "【セキュリティ ニュース】札幌市内の郵便局、一部郵便物が所在不明に（1ページ目 / 全1ページ）：Security NEXT",
+      "published_on": "2026-06-26",
+      "checked_on": "2026-10-24"
+    }
+  ],
+  "updates": [],
+  "notes": "6月11日の発表を北海道文化放送が明記。差出人・受取人が不明であり、約5通を5人と扱わない。"
+}

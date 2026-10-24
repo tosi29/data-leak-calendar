@@ -1,0 +1,56 @@
+{
+  "id": "kyoto-housing-document-20260603",
+  "organization": {
+    "name": "京都府",
+    "sector": "企業・団体"
+  },
+  "title": "府営住宅募集案内に個人情報書類を混入",
+  "summary": "募集案内に身体障害者の審査票と団体代表者の氏名を含む文書が混入し、公共施設等へ配布された。",
+  "published_on": "2026-06-03",
+  "first_published_on": "2026-06-03",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-24",
+  "verification": "secondary",
+  "leak_status": "confirmed",
+  "incident_type": "accident",
+  "cause": {
+    "category": "misdelivery",
+    "detail": "募集案内に身体障害者の審査票と団体代表者の氏名を含む文書が混入し、公共施設等へ配布された。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "公表対象規模（漏えい確定人数とは限らない）"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "年齢",
+    "障害区分・等級・状態",
+    "団体代表者氏名"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.onebe.co.jp/dlpnews/?p=35199",
+      "type": "news",
+      "title": "京都府、書類誤混入で個人情報が流出 | パソコンの情報漏洩ニュース",
+      "published_on": "2026-06-03",
+      "checked_on": "2026-10-24"
+    },
+    {
+      "url": "https://www.security-next.com/186070",
+      "type": "news",
+      "title": "【セキュリティ ニュース】府営住宅の募集案内書に個人情報混入、公共施設で配布 - 京都府（1ページ目 / 全1ページ）：Security NEXT",
+      "published_on": "2026-06-24",
+      "checked_on": "2026-10-24"
+    }
+  ],
+  "updates": [],
+  "notes": "審査票1人分と団体代表者情報。重複の有無が不明で合計人数は未確定。 公式原文の取得ができないため報道確認。記事に明記された公表日を採用し、記事掲載日と区別。"
+}

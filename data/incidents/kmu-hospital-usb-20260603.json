@@ -1,0 +1,57 @@
+{
+  "id": "kmu-hospital-usb-20260603",
+  "organization": {
+    "name": "関西医科大学附属病院",
+    "sector": "企業・団体"
+  },
+  "title": "患者情報の入ったUSBメモリを一時紛失",
+  "summary": "勤務医が患者約1,800人の情報を保存したUSBメモリを一時紛失し、数日後に回収した。情報の不正利用は確認されていない。",
+  "published_on": "2026-06-03",
+  "first_published_on": "2026-06-03",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-24",
+  "verification": "secondary",
+  "leak_status": "lost",
+  "incident_type": "accident",
+  "cause": {
+    "category": "loss",
+    "detail": "勤務医が患者約1,800人の情報を保存したUSBメモリを一時紛失し、数日後に回収した。情報の不正利用は確認されていない。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 1800,
+      "unit": "people",
+      "qualifier": "approximate",
+      "description": "公表対象規模（漏えい確定人数とは限らない）"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "患者ID",
+    "性別",
+    "病名",
+    "入退院日"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.onebe.co.jp/dlpnews/?p=35135",
+      "type": "news",
+      "title": "関西医科大学付属病院、患者個人情報含むUSBメモリが一時紛失 | パソコンの情報漏洩ニュース",
+      "published_on": "2026-06-03",
+      "checked_on": "2026-10-24"
+    },
+    {
+      "url": "https://www.security-next.com/185803",
+      "type": "news",
+      "title": "【セキュリティ ニュース】患者情報含むUSBメモリを一時紛失 - 関西医科大病院（1ページ目 / 全1ページ）：Security NEXT",
+      "published_on": "2026-06-22",
+      "checked_on": "2026-10-24"
+    }
+  ],
+  "updates": [],
+  "notes": " 公式原文の取得ができないため報道確認。記事に明記された公表日を採用し、記事掲載日と区別。"
+}

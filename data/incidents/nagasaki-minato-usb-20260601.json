@@ -1,0 +1,48 @@
+{
+  "id": "nagasaki-minato-usb-20260601",
+  "organization": {
+    "name": "長崎みなとメディカルセンター",
+    "sector": "企業・団体"
+  },
+  "title": "患者情報を保存したUSBメモリを紛失",
+  "summary": "検査依頼用のUSBメモリを部署内で紛失。患者11人の氏名、ID、検査項目等が保存されていた。",
+  "published_on": "2026-06-01",
+  "first_published_on": "2026-06-01",
+  "publication_kind": "initial",
+  "occurred_on": "2026-05-28",
+  "detected_on": null,
+  "updated_on": "2026-10-24",
+  "verification": "official",
+  "leak_status": "lost",
+  "incident_type": "accident",
+  "cause": {
+    "category": "loss",
+    "detail": "検査依頼用のUSBメモリを部署内で紛失。患者11人の氏名、ID、検査項目等が保存されていた。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 11,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表対象規模（漏えい確定人数とは限らない）"
+    }
+  ],
+  "data_types": [
+    "患者氏名",
+    "患者ID",
+    "検査項目"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://nmh.jp/uploads/2026/06/report20260601.pdf",
+      "type": "official",
+      "title": "地長機第59 号",
+      "published_on": "2026-06-01",
+      "checked_on": "2026-10-24"
+    }
+  ],
+  "updates": [],
+  "notes": "パスワード設定あり。外部流出や不正利用を確認した事案ではない。"
+}

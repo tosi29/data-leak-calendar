@@ -1,0 +1,56 @@
+{
+  "id": "nagasaki-omura-documents-20260612",
+  "organization": {
+    "name": "長崎県警察大村警察署",
+    "sector": "企業・団体"
+  },
+  "title": "保存期間未満の申請書を誤廃棄した可能性",
+  "summary": "道路使用許可・高齢者講習等の申請書が所在不明となった。署内での誤廃棄とみられ、外部流出は確認されていない。",
+  "published_on": "2026-06-12",
+  "first_published_on": "2026-06-12",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-24",
+  "verification": "secondary",
+  "leak_status": "lost",
+  "incident_type": "accident",
+  "cause": {
+    "category": "loss",
+    "detail": "道路使用許可・高齢者講習等の申請書が所在不明となった。署内での誤廃棄とみられ、外部流出は確認されていない。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 4682,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "公表対象規模（漏えい確定人数とは限らない）"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "生年月日",
+    "連絡先"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.onebe.co.jp/dlpnews/?p=35529",
+      "type": "news",
+      "title": "長崎県警察、個人情報含む書類を紛失 | パソコンの情報漏洩ニュース",
+      "published_on": "2026-06-12",
+      "checked_on": "2026-10-24"
+    },
+    {
+      "url": "https://www.security-next.com/185868",
+      "type": "news",
+      "title": "【セキュリティ ニュース】過去年度の申請書を誤って廃棄か - 長崎県警（1ページ目 / 全1ページ）：Security NEXT",
+      "published_on": "2026-06-30",
+      "checked_on": "2026-10-24"
+    }
+  ],
+  "updates": [],
+  "notes": "4,682件はワンビの報道値。重複を除いた人数としては扱わない。 公式原文の取得ができないため報道確認。記事に明記された公表日を採用し、記事掲載日と区別。"
+}

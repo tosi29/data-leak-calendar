@@ -1,0 +1,55 @@
+{
+  "id": "yaese-school-form-20260609",
+  "organization": {
+    "name": "八重瀬町教育委員会",
+    "sector": "企業・団体"
+  },
+  "title": "家庭調査票フォームで他世帯の回答を公開",
+  "summary": "町立具志頭中学校のフォーム設定に不備があり、25世帯126人分の家庭情報が他の回答者から閲覧可能になった。",
+  "published_on": "2026-06-09",
+  "first_published_on": "2026-06-09",
+  "publication_kind": "initial",
+  "occurred_on": "2026-04-08",
+  "detected_on": null,
+  "updated_on": "2026-10-24",
+  "verification": "secondary",
+  "leak_status": "exposed",
+  "incident_type": "accident",
+  "cause": {
+    "category": "configuration",
+    "detail": "町立具志頭中学校のフォーム設定に不備があり、25世帯126人分の家庭情報が他の回答者から閲覧可能になった。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 126,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表対象規模（漏えい確定人数とは限らない）"
+    }
+  ],
+  "data_types": [
+    "住所",
+    "家族構成",
+    "保護者の職業"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://ryukyushimpo.jp/national/entry-5302571.html",
+      "type": "news",
+      "title": "具志頭中、126人分の個人情報が漏えい　アンケートの設定誤り　沖縄・八重瀬町",
+      "published_on": "2026-06-10",
+      "checked_on": "2026-10-24"
+    },
+    {
+      "url": "https://www.security-next.com/186068",
+      "type": "news",
+      "title": "【セキュリティ ニュース】学校家庭調査で回答を誤公開 - 仕様確認を担当者に依存（1ページ目 / 全1ページ）：Security NEXT",
+      "published_on": "2026-06-24",
+      "checked_on": "2026-10-24"
+    }
+  ],
+  "updates": [],
+  "notes": "6月9日の発表を琉球新報が明記。 公式原文の取得ができないため報道確認。記事に明記された公表日を採用し、記事掲載日と区別。"
+}

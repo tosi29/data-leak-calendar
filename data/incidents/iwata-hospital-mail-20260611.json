@@ -1,0 +1,54 @@
+{
+  "id": "iwata-hospital-mail-20260611",
+  "organization": {
+    "name": "磐田市立総合病院",
+    "sector": "企業・団体"
+  },
+  "title": "台風注意喚起メールで患者情報を誤送信",
+  "summary": "受診予定患者32人への注意喚起メールの宛先設定により、受信者間で患者情報が閲覧可能になった。",
+  "published_on": "2026-06-11",
+  "first_published_on": "2026-06-11",
+  "publication_kind": "initial",
+  "occurred_on": "2026-06-02",
+  "detected_on": null,
+  "updated_on": "2026-10-24",
+  "verification": "secondary",
+  "leak_status": "confirmed",
+  "incident_type": "accident",
+  "cause": {
+    "category": "misdelivery",
+    "detail": "受診予定患者32人への注意喚起メールの宛先設定により、受信者間で患者情報が閲覧可能になった。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 32,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表対象規模（漏えい確定人数とは限らない）"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "メールアドレス"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://news.livedoor.com/article/detail/31520513/",
+      "type": "news",
+      "title": "【情報流出】磐田市立総合病院で患者32人の個人情報漏洩 台風6号の接近に伴い特定の患者に注意喚起のメールを送り患者からの指摘で発覚（静岡） - ライブドアニュース",
+      "published_on": "2026-06-11",
+      "checked_on": "2026-10-24"
+    },
+    {
+      "url": "https://www.security-next.com/186508",
+      "type": "news",
+      "title": "【セキュリティ ニュース】患者向けの台風注意喚起メールで誤送信 - 磐田市立病院（1ページ目 / 全1ページ）：Security NEXT",
+      "published_on": "2026-06-29",
+      "checked_on": "2026-10-24"
+    }
+  ],
+  "updates": [],
+  "notes": " 公式原文の取得ができないため報道確認。記事に明記された公表日を採用し、記事掲載日と区別。"
+}

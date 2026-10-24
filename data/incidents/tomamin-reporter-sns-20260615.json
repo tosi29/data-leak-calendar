@@ -1,0 +1,53 @@
+{
+  "id": "tomamin-reporter-sns-20260615",
+  "organization": {
+    "name": "苫小牧民報社",
+    "sector": "企業・団体"
+  },
+  "title": "記者が個人情報を含む警察発表を私的SNSに投稿",
+  "summary": "記者が取材で得た警察発表の少なくとも1文書の一部を私的なSNSに投稿。個人情報の対象人数は不明。",
+  "published_on": "2026-06-15",
+  "first_published_on": "2026-06-15",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-24",
+  "verification": "secondary",
+  "leak_status": "confirmed",
+  "incident_type": "improper_handling",
+  "cause": {
+    "category": "improper_sharing",
+    "detail": "記者が取材で得た警察発表の少なくとも1文書の一部を私的なSNSに投稿。個人情報の対象人数は不明。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "公表対象規模（漏えい確定人数とは限らない）"
+    }
+  ],
+  "data_types": [
+    "個人情報（詳細非公表）"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.onebe.co.jp/dlpnews/?p=35187",
+      "type": "news",
+      "title": "苫小牧民報社、個人情報含む広報情報を個人SNSに投稿 | パソコンの情報漏洩ニュース",
+      "published_on": "2026-06-15",
+      "checked_on": "2026-10-24"
+    },
+    {
+      "url": "https://www.security-next.com/186005",
+      "type": "news",
+      "title": "【セキュリティ ニュース】個人情報含む警察発表を記者が個人SNSに投稿 - 苫小牧民報（1ページ目 / 全1ページ）：Security NEXT",
+      "published_on": "2026-06-23",
+      "checked_on": "2026-10-24"
+    }
+  ],
+  "updates": [],
+  "notes": "約100件という値はアカウント全体の投稿数で漏えい件数ではない。 公式原文の取得ができないため報道確認。記事に明記された公表日を採用し、記事掲載日と区別。"
+}

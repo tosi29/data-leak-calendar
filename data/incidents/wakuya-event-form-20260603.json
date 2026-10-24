@@ -1,0 +1,56 @@
+{
+  "id": "wakuya-event-form-20260603",
+  "organization": {
+    "name": "涌谷町",
+    "sector": "企業・団体"
+  },
+  "title": "イベント申込フォームで回答を公開",
+  "summary": "Googleフォームの設定に不備があり、申込者26人の回答が他の回答者から閲覧可能となった。",
+  "published_on": "2026-06-03",
+  "first_published_on": "2026-06-03",
+  "publication_kind": "initial",
+  "occurred_on": "2026-05-18",
+  "detected_on": null,
+  "updated_on": "2026-10-24",
+  "verification": "secondary",
+  "leak_status": "exposed",
+  "incident_type": "accident",
+  "cause": {
+    "category": "configuration",
+    "detail": "Googleフォームの設定に不備があり、申込者26人の回答が他の回答者から閲覧可能となった。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 26,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表対象規模（漏えい確定人数とは限らない）"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "電話番号",
+    "年齢",
+    "メールアドレス"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.onebe.co.jp/dlpnews/?p=34992",
+      "type": "news",
+      "title": "涌谷町、フォームの設定ミスで個人情報が閲覧可能状態 | パソコンの情報漏洩ニュース",
+      "published_on": "2026-06-03",
+      "checked_on": "2026-10-24"
+    },
+    {
+      "url": "https://www.security-next.com/185462",
+      "type": "news",
+      "title": "【セキュリティ ニュース】イベント申込フォームで個人情報が閲覧可能に - 涌谷町（1ページ目 / 全1ページ）：Security NEXT",
+      "published_on": "2026-06-15",
+      "checked_on": "2026-10-24"
+    }
+  ],
+  "updates": [],
+  "notes": " 公式原文の取得ができないため報道確認。記事に明記された公表日を採用し、記事掲載日と区別。"
+}

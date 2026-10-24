@@ -1,0 +1,68 @@
+{
+  "id": "icc-attachment-server-20260629",
+  "organization": {
+    "name": "石川コンピュータ・センター",
+    "sector": "企業・団体"
+  },
+  "title": "添付ファイル分離メールサーバへの侵害の最終報告",
+  "summary": "Webシステムの脆弱性を悪用した侵害を確認。外部への窃取の痕跡はないが、メール関連情報が一時的にアクセス可能となった。",
+  "published_on": "2026-06-29",
+  "first_published_on": "2026-05-19",
+  "publication_kind": "followup",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-24",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "vulnerability",
+    "detail": "Webシステムの脆弱性を悪用した侵害を確認。外部への窃取の痕跡はないが、メール関連情報が一時的にアクセス可能となった。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 14071,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "ログ内の社外メールアドレス（重複除外）"
+    },
+    {
+      "count": 2551,
+      "unit": "documents",
+      "qualifier": "exact",
+      "description": "添付ファイル数。添付メール1,929件。人数ではない"
+    }
+  ],
+  "data_types": [
+    "メールアドレス",
+    "メールタイトル",
+    "添付ファイル"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.icc.co.jp/news/2026/20260629.html",
+      "type": "official",
+      "title": "不正アクセスによる情報漏えいの可能性に関するお詫びとお知らせ(最終報)｜新着情報｜ICC 石川コンピュータ・センター",
+      "published_on": "2026-06-29",
+      "checked_on": "2026-10-24"
+    },
+    {
+      "url": "https://www.icc.co.jp/news/2026/20260519.html",
+      "type": "official",
+      "title": "不正アクセスによる情報漏えいの可能性に関するお詫びとお知らせ｜新着情報｜ICC 石川コンピュータ・センター",
+      "published_on": "2026-05-19",
+      "checked_on": "2026-10-24"
+    },
+    {
+      "url": "https://www.icc.co.jp/news/2026/20260527.html",
+      "type": "official",
+      "title": "不正アクセスによる情報漏えいの可能性に関するお詫びとお知らせ(第二報)｜新着情報｜ICC 石川コンピュータ・センター",
+      "published_on": "2026-05-27",
+      "checked_on": "2026-10-24"
+    }
+  ],
+  "updates": [],
+  "notes": "6月5日の報道日ではなく6月29日の公式最終報告で掲載。メール本文は含まれない。"
+}

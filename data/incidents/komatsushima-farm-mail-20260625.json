@@ -1,0 +1,51 @@
+{
+  "id": "komatsushima-farm-mail-20260625",
+  "organization": {
+    "name": "小松島市農林水産課",
+    "sector": "企業・団体"
+  },
+  "title": "農地管理データを誤送信",
+  "summary": "農業法人1社へのメールに、他の農業者の情報も閲覧できるファイルを添付した。対象は1,906件。",
+  "published_on": "2026-06-25",
+  "first_published_on": "2026-06-25",
+  "publication_kind": "initial",
+  "occurred_on": "2026-06-16",
+  "detected_on": "2026-06-19",
+  "updated_on": "2026-10-24",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "accident",
+  "cause": {
+    "category": "misdelivery",
+    "detail": "農業法人1社へのメールに、他の農業者の情報も閲覧できるファイルを添付した。対象は1,906件。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 1906,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "公表対象規模（漏えい確定人数とは限らない）"
+    }
+  ],
+  "data_types": [
+    "農業者氏名",
+    "農地所在地",
+    "面積",
+    "作物名",
+    "申請状況",
+    "貸借契約期間"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.city.komatsushima.lg.jp/docs/5924575.html",
+      "type": "official",
+      "title": "経営所得安定対策関係データの誤送信による個人情報漏えいについて - 小松島市",
+      "published_on": "2026-06-25",
+      "checked_on": "2026-10-24"
+    }
+  ],
+  "updates": [],
+  "notes": "15,372筆は農地の数。1,906件と加算しない。"
+}

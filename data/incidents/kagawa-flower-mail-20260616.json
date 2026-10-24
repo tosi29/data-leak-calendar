@@ -1,0 +1,46 @@
+{
+  "id": "kagawa-flower-mail-20260616",
+  "organization": {
+    "name": "香川県農業生産流通課",
+    "sector": "企業・団体"
+  },
+  "title": "花いけバトルの案内メールをCCで誤送信",
+  "summary": "県内学校へのイベント案内で、県立高校事務職員29人のメールアドレスが受信者間で閲覧可能になった。",
+  "published_on": "2026-06-16",
+  "first_published_on": "2026-06-16",
+  "publication_kind": "initial",
+  "occurred_on": "2026-06-15",
+  "detected_on": null,
+  "updated_on": "2026-10-24",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "accident",
+  "cause": {
+    "category": "misdelivery",
+    "detail": "県内学校へのイベント案内で、県立高校事務職員29人のメールアドレスが受信者間で閲覧可能になった。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 29,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表対象規模（漏えい確定人数とは限らない）"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.pref.kagawa.lg.jp/seiryu/flower/20260616jouhou.html",
+      "type": "official",
+      "title": "メール誤送信による個人情報（メールアドレス）の流出について ｜香川県",
+      "published_on": "2026-06-16",
+      "checked_on": "2026-10-24"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

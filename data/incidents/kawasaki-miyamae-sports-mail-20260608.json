@@ -1,0 +1,46 @@
+{
+  "id": "kawasaki-miyamae-sports-mail-20260608",
+  "organization": {
+    "name": "川崎市宮前スポーツセンター",
+    "sector": "企業・団体"
+  },
+  "title": "スポーツ教室当選メールを誤送信",
+  "summary": "指定管理者のTo欄設定ミスにより、25教室の当選者552人のメールアドレスが同じ教室の受信者間に漏えいした。取消通知でも同じ宛先が表示された。",
+  "published_on": "2026-06-08",
+  "first_published_on": "2026-06-08",
+  "publication_kind": "initial",
+  "occurred_on": "2026-06-03",
+  "detected_on": null,
+  "updated_on": "2026-10-24",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "accident",
+  "cause": {
+    "category": "misdelivery",
+    "detail": "指定管理者のTo欄設定ミスにより、25教室の当選者552人のメールアドレスが同じ教室の受信者間に漏えいした。取消通知でも同じ宛先が表示された。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 552,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表対象規模（漏えい確定人数とは限らない）"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "みやまえフューチャーデザインパートナーズ（代表：東急スポーツシステム、構成員：旺栄）",
+  "sources": [
+    {
+      "url": "https://www.city.kawasaki.jp/templates/prs/cmsfiles/contents/0000187/187967/20260608_miyasupo.pdf",
+      "type": "official",
+      "title": "令和 ８ 年 ６ 月８ 日",
+      "published_on": "2026-06-08",
+      "checked_on": "2026-10-24"
+    }
+  ],
+  "updates": [],
+  "notes": "取消通知は同一事故の対応過程であり別件にしない。"
+}

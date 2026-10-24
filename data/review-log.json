@@ -5567,5 +5567,614 @@
     "source_urls": [
       "https://internet.gmo/news/article/248/"
     ]
+  },
+  {
+    "candidate": {
+      "id": "june-review-30b782e8b622",
+      "organization": "長崎県警",
+      "reported_on": "2026-06-30",
+      "verification": "pending",
+      "reference_url": "https://www.security-next.com/185868",
+      "note": "6月掲載の記事本文を確認。記事日は公表日とは限らない。6月の公式公表日、既存事案との同一性、対象範囲の確認が残るため掲載保留。",
+      "reviewed_on": "2026-10-23",
+      "checked_urls": [
+        "https://www.security-next.com/185868"
+      ]
+    },
+    "reviewed_on": "2026-10-24",
+    "resolution": "published",
+    "incident_ids": [
+      "nagasaki-omura-documents-20260612"
+    ],
+    "reason": "公表日と対象範囲を出典本文で確認。同一事案を別記事日で重複計上しない。",
+    "source_urls": [
+      "https://www.onebe.co.jp/dlpnews/?p=35529",
+      "https://www.security-next.com/185868"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "june-review-ad3dd3950572",
+      "organization": "磐田市立病院",
+      "reported_on": "2026-06-29",
+      "verification": "pending",
+      "reference_url": "https://www.security-next.com/186508",
+      "note": "6月掲載の記事本文を確認。記事日は公表日とは限らない。6月の公式公表日、既存事案との同一性、対象範囲の確認が残るため掲載保留。",
+      "reviewed_on": "2026-10-23",
+      "checked_urls": [
+        "https://www.security-next.com/186508"
+      ]
+    },
+    "reviewed_on": "2026-10-24",
+    "resolution": "published",
+    "incident_ids": [
+      "iwata-hospital-mail-20260611"
+    ],
+    "reason": "公表日と対象範囲を出典本文で確認。同一事案を別記事日で重複計上しない。",
+    "source_urls": [
+      "https://news.livedoor.com/article/detail/31520513/",
+      "https://www.security-next.com/186508"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "june-review-cbe755f0c73a",
+      "organization": "札幌市内の郵便局、一部郵便物が所在不明に",
+      "reported_on": "2026-06-26",
+      "verification": "pending",
+      "reference_url": "https://www.security-next.com/186329",
+      "note": "6月掲載の記事本文を確認。記事日は公表日とは限らない。6月の公式公表日、既存事案との同一性、対象範囲の確認が残るため掲載保留。",
+      "reviewed_on": "2026-10-23",
+      "checked_urls": [
+        "https://www.security-next.com/186329"
+      ]
+    },
+    "reviewed_on": "2026-10-24",
+    "resolution": "published",
+    "incident_ids": [
+      "japanpost-sapporo-mail-loss-20260611"
+    ],
+    "reason": "公表日と対象範囲を出典本文で確認。同一事案を別記事日で重複計上しない。",
+    "source_urls": [
+      "https://www.uhb.jp/news/single.html?id=60007",
+      "https://www.security-next.com/186329"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "june-review-1736d62ef619",
+      "organization": "名古屋市",
+      "reported_on": "2026-06-25",
+      "verification": "pending",
+      "reference_url": "https://www.security-next.com/186334",
+      "note": "6月掲載の記事本文を確認。記事日は公表日とは限らない。6月の公式公表日、既存事案との同一性、対象範囲の確認が残るため掲載保留。",
+      "reviewed_on": "2026-10-23",
+      "checked_urls": [
+        "https://www.security-next.com/186334"
+      ]
+    },
+    "reviewed_on": "2026-10-24",
+    "resolution": "published",
+    "incident_ids": [
+      "nagoya-oe-school-trip-20260615"
+    ],
+    "reason": "公表日と対象範囲を出典本文で確認。同一事案を別記事日で重複計上しない。",
+    "source_urls": [
+      "https://www.city.nagoya.jp/houdou/3003942/3003945/3004895.html"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "june-review-5cc20f8f86c7",
+      "organization": "香川県",
+      "reported_on": "2026-06-25",
+      "verification": "pending",
+      "reference_url": "https://www.security-next.com/186338",
+      "note": "6月掲載の記事本文を確認。記事日は公表日とは限らない。6月の公式公表日、既存事案との同一性、対象範囲の確認が残るため掲載保留。",
+      "reviewed_on": "2026-10-23",
+      "checked_urls": [
+        "https://www.security-next.com/186338"
+      ]
+    },
+    "reviewed_on": "2026-10-24",
+    "resolution": "published",
+    "incident_ids": [
+      "kagawa-flower-mail-20260616"
+    ],
+    "reason": "公表日と対象範囲を出典本文で確認。同一事案を別記事日で重複計上しない。",
+    "source_urls": [
+      "https://www.pref.kagawa.lg.jp/seiryu/flower/20260616jouhou.html"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "june-review-859b797de1f5",
+      "organization": "京都府",
+      "reported_on": "2026-06-24",
+      "verification": "pending",
+      "reference_url": "https://www.security-next.com/186070",
+      "note": "6月掲載の記事本文を確認。記事日は公表日とは限らない。6月の公式公表日、既存事案との同一性、対象範囲の確認が残るため掲載保留。",
+      "reviewed_on": "2026-10-23",
+      "checked_urls": [
+        "https://www.security-next.com/186070"
+      ]
+    },
+    "reviewed_on": "2026-10-24",
+    "resolution": "published",
+    "incident_ids": [
+      "kyoto-housing-document-20260603"
+    ],
+    "reason": "公表日と対象範囲を出典本文で確認。同一事案を別記事日で重複計上しない。",
+    "source_urls": [
+      "https://www.onebe.co.jp/dlpnews/?p=35199",
+      "https://www.security-next.com/186070"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "june-review-49013a4336d4",
+      "organization": "仕様確認を担当者に依存",
+      "reported_on": "2026-06-24",
+      "verification": "pending",
+      "reference_url": "https://www.security-next.com/186068",
+      "note": "6月掲載の記事本文を確認。記事日は公表日とは限らない。6月の公式公表日、既存事案との同一性、対象範囲の確認が残るため掲載保留。",
+      "reviewed_on": "2026-10-23",
+      "checked_urls": [
+        "https://www.security-next.com/186068"
+      ]
+    },
+    "reviewed_on": "2026-10-24",
+    "resolution": "published",
+    "incident_ids": [
+      "yaese-school-form-20260609"
+    ],
+    "reason": "公表日と対象範囲を出典本文で確認。同一事案を別記事日で重複計上しない。",
+    "source_urls": [
+      "https://ryukyushimpo.jp/national/entry-5302571.html",
+      "https://www.security-next.com/186068"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "june-review-794f1138e001",
+      "organization": "苫小牧民報",
+      "reported_on": "2026-06-23",
+      "verification": "pending",
+      "reference_url": "https://www.security-next.com/186005",
+      "note": "6月掲載の記事本文を確認。記事日は公表日とは限らない。6月の公式公表日、既存事案との同一性、対象範囲の確認が残るため掲載保留。",
+      "reviewed_on": "2026-10-23",
+      "checked_urls": [
+        "https://www.security-next.com/186005"
+      ]
+    },
+    "reviewed_on": "2026-10-24",
+    "resolution": "published",
+    "incident_ids": [
+      "tomamin-reporter-sns-20260615"
+    ],
+    "reason": "公表日と対象範囲を出典本文で確認。同一事案を別記事日で重複計上しない。",
+    "source_urls": [
+      "https://www.onebe.co.jp/dlpnews/?p=35187",
+      "https://www.security-next.com/186005"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "june-review-0cf9414ea6e9",
+      "organization": "神奈川県",
+      "reported_on": "2026-06-22",
+      "verification": "pending",
+      "reference_url": "https://www.security-next.com/186135",
+      "note": "6月掲載の記事本文を確認。記事日は公表日とは限らない。6月の公式公表日、既存事案との同一性、対象範囲の確認が残るため掲載保留。",
+      "reviewed_on": "2026-10-23",
+      "checked_urls": [
+        "https://www.security-next.com/186135"
+      ]
+    },
+    "reviewed_on": "2026-10-24",
+    "resolution": "published",
+    "incident_ids": [
+      "kanagawa-port-redaction-20260609"
+    ],
+    "reason": "公表日と対象範囲を出典本文で確認。同一事案を別記事日で重複計上しない。",
+    "source_urls": [
+      "https://www.pref.kanagawa.jp/docs/kb2/kisyahappyou_suisan.html"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "june-review-f75fe4324584",
+      "organization": "関西医科大病院",
+      "reported_on": "2026-06-22",
+      "verification": "pending",
+      "reference_url": "https://www.security-next.com/185803",
+      "note": "6月掲載の記事本文を確認。記事日は公表日とは限らない。6月の公式公表日、既存事案との同一性、対象範囲の確認が残るため掲載保留。",
+      "reviewed_on": "2026-10-23",
+      "checked_urls": [
+        "https://www.security-next.com/185803"
+      ]
+    },
+    "reviewed_on": "2026-10-24",
+    "resolution": "published",
+    "incident_ids": [
+      "kmu-hospital-usb-20260603"
+    ],
+    "reason": "公表日と対象範囲を出典本文で確認。同一事案を別記事日で重複計上しない。",
+    "source_urls": [
+      "https://www.onebe.co.jp/dlpnews/?p=35135",
+      "https://www.security-next.com/185803"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "june-review-7ac5732f336c",
+      "organization": "兵庫県立大",
+      "reported_on": "2026-06-19",
+      "verification": "pending",
+      "reference_url": "https://www.security-next.com/186139",
+      "note": "6月掲載の記事本文を確認。記事日は公表日とは限らない。6月の公式公表日、既存事案との同一性、対象範囲の確認が残るため掲載保留。",
+      "reviewed_on": "2026-10-23",
+      "checked_urls": [
+        "https://www.security-next.com/186139"
+      ]
+    },
+    "reviewed_on": "2026-10-24",
+    "resolution": "published",
+    "incident_ids": [
+      "hyogo-univ-event-mail-20260603"
+    ],
+    "reason": "公表日と対象範囲を出典本文で確認。同一事案を別記事日で重複計上しない。",
+    "source_urls": [
+      "https://www.u-hyogo.ac.jp/news/news/20260603newsko.html"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "june-review-33471a56272a",
+      "organization": "小田原市",
+      "reported_on": "2026-06-19",
+      "verification": "pending",
+      "reference_url": "https://www.security-next.com/185935",
+      "note": "6月掲載の記事本文を確認。記事日は公表日とは限らない。6月の公式公表日、既存事案との同一性、対象範囲の確認が残るため掲載保留。",
+      "reviewed_on": "2026-10-23",
+      "checked_urls": [
+        "https://www.security-next.com/185935"
+      ]
+    },
+    "reviewed_on": "2026-10-24",
+    "resolution": "published",
+    "incident_ids": [
+      "odawara-pta-sharing-20260605"
+    ],
+    "reason": "公表日と対象範囲を出典本文で確認。同一事案を別記事日で重複計上しない。",
+    "source_urls": [
+      "https://www.city.odawara.kanagawa.jp/field/edu-ch/education/topics/p41790.html"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "june-review-8fef270ddf1c",
+      "organization": "スポーツ用品メーカー",
+      "reported_on": "2026-06-19",
+      "verification": "pending",
+      "reference_url": "https://www.security-next.com/186000",
+      "note": "6月掲載の記事本文を確認。記事日は公表日とは限らない。6月の公式公表日、既存事案との同一性、対象範囲の確認が残るため掲載保留。",
+      "reviewed_on": "2026-10-23",
+      "checked_urls": [
+        "https://www.security-next.com/186000"
+      ]
+    },
+    "reviewed_on": "2026-10-24",
+    "resolution": "published",
+    "incident_ids": [
+      "mikasa-disposed-pc-20260616"
+    ],
+    "reason": "公表日と対象範囲を出典本文で確認。同一事案を別記事日で重複計上しない。",
+    "source_urls": [
+      "https://mikasasports.co.jp/%E9%87%8D%E8%A6%81%E3%81%AA%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B/20520/"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "june-review-10a6cdf05cb1",
+      "organization": "広島県",
+      "reported_on": "2026-06-18",
+      "verification": "pending",
+      "reference_url": "https://www.security-next.com/185699",
+      "note": "6月掲載の記事本文を確認。記事日は公表日とは限らない。6月の公式公表日、既存事案との同一性、対象範囲の確認が残るため掲載保留。",
+      "reviewed_on": "2026-10-23",
+      "checked_urls": [
+        "https://www.security-next.com/185699"
+      ]
+    },
+    "reviewed_on": "2026-10-24",
+    "resolution": "published",
+    "incident_ids": [
+      "hiroshima-seminar-qr-20260602"
+    ],
+    "reason": "公表日と対象範囲を出典本文で確認。同一事案を別記事日で重複計上しない。",
+    "source_urls": [
+      "https://www.pref.hiroshima.lg.jp/uploaded/attachment/670967.pdf"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "june-review-d0b7db08f9db",
+      "organization": "長崎みなとメディカルセンター",
+      "reported_on": "2026-06-18",
+      "verification": "pending",
+      "reference_url": "https://www.security-next.com/185696",
+      "note": "6月掲載の記事本文を確認。記事日は公表日とは限らない。6月の公式公表日、既存事案との同一性、対象範囲の確認が残るため掲載保留。",
+      "reviewed_on": "2026-10-23",
+      "checked_urls": [
+        "https://www.security-next.com/185696"
+      ]
+    },
+    "reviewed_on": "2026-10-24",
+    "resolution": "published",
+    "incident_ids": [
+      "nagasaki-minato-usb-20260601"
+    ],
+    "reason": "公表日と対象範囲を出典本文で確認。同一事案を別記事日で重複計上しない。",
+    "source_urls": [
+      "https://nmh.jp/uploads/2026/06/report20260601.pdf"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "june-review-d86d66a0f07a",
+      "organization": "取消機能で再発",
+      "reported_on": "2026-06-17",
+      "verification": "pending",
+      "reference_url": "https://www.security-next.com/186010",
+      "note": "6月掲載の記事本文を確認。記事日は公表日とは限らない。6月の公式公表日、既存事案との同一性、対象範囲の確認が残るため掲載保留。",
+      "reviewed_on": "2026-10-23",
+      "checked_urls": [
+        "https://www.security-next.com/186010"
+      ]
+    },
+    "reviewed_on": "2026-10-24",
+    "resolution": "published",
+    "incident_ids": [
+      "kawasaki-miyamae-sports-mail-20260608"
+    ],
+    "reason": "公表日と対象範囲を出典本文で確認。同一事案を別記事日で重複計上しない。",
+    "source_urls": [
+      "https://www.city.kawasaki.jp/templates/prs/cmsfiles/contents/0000187/187967/20260608_miyasupo.pdf"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "june-review-5df4e2a8ee59",
+      "organization": "田村市",
+      "reported_on": "2026-06-16",
+      "verification": "pending",
+      "reference_url": "https://www.security-next.com/185940",
+      "note": "6月掲載の記事本文を確認。記事日は公表日とは限らない。6月の公式公表日、既存事案との同一性、対象範囲の確認が残るため掲載保留。",
+      "reviewed_on": "2026-10-23",
+      "checked_urls": [
+        "https://www.security-next.com/185940"
+      ]
+    },
+    "reviewed_on": "2026-10-24",
+    "resolution": "published",
+    "incident_ids": [
+      "tamura-event-mail-20260603"
+    ],
+    "reason": "公表日と対象範囲を出典本文で確認。同一事案を別記事日で重複計上しない。",
+    "source_urls": [
+      "https://www.city.tamura.lg.jp/soshiki/2/assets/%E3%83%97%E3%83%AC%E3%82%B9%E3%83%AA%E3%83%AA%E3%83%BC%E3%82%B9%E6%A7%98%E5%BC%8F%28%E8%AA%A4%E9%80%81%E4%BF%A1%29.pdf"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "june-review-72c768428f73",
+      "organization": "涌谷町",
+      "reported_on": "2026-06-15",
+      "verification": "pending",
+      "reference_url": "https://www.security-next.com/185462",
+      "note": "6月掲載の記事本文を確認。記事日は公表日とは限らない。6月の公式公表日、既存事案との同一性、対象範囲の確認が残るため掲載保留。",
+      "reviewed_on": "2026-10-23",
+      "checked_urls": [
+        "https://www.security-next.com/185462"
+      ]
+    },
+    "reviewed_on": "2026-10-24",
+    "resolution": "published",
+    "incident_ids": [
+      "wakuya-event-form-20260603"
+    ],
+    "reason": "公表日と対象範囲を出典本文で確認。同一事案を別記事日で重複計上しない。",
+    "source_urls": [
+      "https://www.onebe.co.jp/dlpnews/?p=34992",
+      "https://www.security-next.com/185462"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "june-review-9851932d564c",
+      "organization": "川崎市",
+      "reported_on": "2026-06-15",
+      "verification": "pending",
+      "reference_url": "https://www.security-next.com/185746",
+      "note": "6月掲載の記事本文を確認。記事日は公表日とは限らない。6月の公式公表日、既存事案との同一性、対象範囲の確認が残るため掲載保留。",
+      "reviewed_on": "2026-10-23",
+      "checked_urls": [
+        "https://www.security-next.com/185746"
+      ]
+    },
+    "reviewed_on": "2026-10-24",
+    "resolution": "published",
+    "incident_ids": [
+      "kawasaki-education-redaction-20260603"
+    ],
+    "reason": "公表日と対象範囲を出典本文で確認。同一事案を別記事日で重複計上しない。",
+    "source_urls": [
+      "https://www.city.kawasaki.jp/templates/prs/880/0000187821.html"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "june-review-ccdd8fa1e945",
+      "organization": "九大",
+      "reported_on": "2026-06-12",
+      "verification": "pending",
+      "reference_url": "https://www.security-next.com/185733",
+      "note": "6月掲載の記事本文を確認。記事日は公表日とは限らない。6月の公式公表日、既存事案との同一性、対象範囲の確認が残るため掲載保留。",
+      "reviewed_on": "2026-10-23",
+      "checked_urls": [
+        "https://www.security-next.com/185733"
+      ]
+    },
+    "reviewed_on": "2026-10-24",
+    "resolution": "published",
+    "incident_ids": [
+      "kyushu-univ-research-ransom-20260610"
+    ],
+    "reason": "公表日と対象範囲を出典本文で確認。同一事案を別記事日で重複計上しない。",
+    "source_urls": [
+      "https://ccsi.jp/11934/",
+      "https://www.security-next.com/185733"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "june-review-1cd33a9e570a",
+      "organization": "名古屋市",
+      "reported_on": "2026-06-12",
+      "verification": "pending",
+      "reference_url": "https://www.security-next.com/185806",
+      "note": "6月掲載の記事本文を確認。記事日は公表日とは限らない。6月の公式公表日、既存事案との同一性、対象範囲の確認が残るため掲載保留。",
+      "reviewed_on": "2026-10-23",
+      "checked_urls": [
+        "https://www.security-next.com/185806"
+      ]
+    },
+    "reviewed_on": "2026-10-24",
+    "resolution": "published",
+    "incident_ids": [
+      "nagoya-asian-games-form-20260603"
+    ],
+    "reason": "公表日と対象範囲を出典本文で確認。同一事案を別記事日で重複計上しない。",
+    "source_urls": [
+      "https://www.city.nagoya.jp/houdou/3003942/3003945/3004801.html"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "june-review-aaa7d6376b85",
+      "organization": "洲本市",
+      "reported_on": "2026-06-09",
+      "verification": "pending",
+      "reference_url": "https://www.security-next.com/185507",
+      "note": "6月掲載の記事本文を確認。記事日は公表日とは限らない。6月の公式公表日、既存事案との同一性、対象範囲の確認が残るため掲載保留。",
+      "reviewed_on": "2026-10-23",
+      "checked_urls": [
+        "https://www.security-next.com/185507"
+      ]
+    },
+    "reviewed_on": "2026-10-24",
+    "resolution": "published",
+    "incident_ids": [
+      "sumoto-donation-sns-20260605"
+    ],
+    "reason": "公表日と対象範囲を出典本文で確認。同一事案を別記事日で重複計上しない。",
+    "source_urls": [
+      "https://www.city.sumoto.lg.jp/soshiki/10/37115.html"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "june-review-8133460b4af8",
+      "organization": "石川のSIer",
+      "reported_on": "2026-06-05",
+      "verification": "pending",
+      "reference_url": "https://www.security-next.com/184676",
+      "note": "6月掲載の記事本文を確認。記事日は公表日とは限らない。6月の公式公表日、既存事案との同一性、対象範囲の確認が残るため掲載保留。",
+      "reviewed_on": "2026-10-23",
+      "checked_urls": [
+        "https://www.security-next.com/184676"
+      ]
+    },
+    "reviewed_on": "2026-10-24",
+    "resolution": "published",
+    "incident_ids": [
+      "icc-attachment-server-20260629"
+    ],
+    "reason": "公表日と対象範囲を出典本文で確認。同一事案を別記事日で重複計上しない。",
+    "source_urls": [
+      "https://www.icc.co.jp/news/2026/20260629.html",
+      "https://www.icc.co.jp/news/2026/20260519.html",
+      "https://www.icc.co.jp/news/2026/20260527.html"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "june-review-c02a89b324a7",
+      "organization": "Kaizen Tech Agent",
+      "reported_on": "2026-06-10",
+      "verification": "pending",
+      "reference_url": "https://kaizentech.co.jp/5388/",
+      "note": "公式URLは404。6月10日の公表は専門記事で確認したが公式本文・対象範囲の検証を保留。",
+      "reviewed_on": "2026-10-23",
+      "checked_urls": [
+        "https://kaizentech.co.jp/5388/"
+      ]
+    },
+    "reviewed_on": "2026-10-24",
+    "resolution": "published",
+    "incident_ids": [
+      "kaizen-tech-former-employee-20260610"
+    ],
+    "reason": "公表日と対象範囲を出典本文で確認。同一事案を別記事日で重複計上しない。",
+    "source_urls": [
+      "https://www.gate02.ne.jp/lab/incident-news/kaizen-tech-agent-20260612/"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "june-review-cf1c10f5210a",
+      "organization": "小松島市（農林水産課）",
+      "reported_on": "2026-06-25",
+      "verification": "pending",
+      "reference_url": "https://www.onebe.co.jp/dlpnews/?p=35482",
+      "note": "6月25日公表とする報道候補。公式本文を未確認。",
+      "reviewed_on": "2026-10-23",
+      "checked_urls": [
+        "https://www.onebe.co.jp/dlpnews/?p=35482"
+      ]
+    },
+    "reviewed_on": "2026-10-24",
+    "resolution": "published",
+    "incident_ids": [
+      "komatsushima-farm-mail-20260625"
+    ],
+    "reason": "公表日と対象範囲を出典本文で確認。同一事案を別記事日で重複計上しない。",
+    "source_urls": [
+      "https://www.city.komatsushima.lg.jp/docs/5924575.html"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "june-review-4f50df5cbe90",
+      "organization": "函館市（職員による持ち出し）",
+      "reported_on": "2026-06-22",
+      "verification": "pending",
+      "reference_url": "https://rocket-boys.co.jp/security-measures-lab/2026-06-data-breach-cases-summary/",
+      "note": "月次まとめの内部不正事案。今回追加した誤送付・写真販売事案とは別候補。公式発表未特定。",
+      "reviewed_on": "2026-10-23",
+      "checked_urls": [
+        "https://rocket-boys.co.jp/security-measures-lab/2026-06-data-breach-cases-summary/"
+      ]
+    },
+    "reviewed_on": "2026-10-24",
+    "resolution": "published",
+    "incident_ids": [
+      "hakodate-employee-removal-20260622"
+    ],
+    "reason": "公表日と対象範囲を出典本文で確認。同一事案を別記事日で重複計上しない。",
+    "source_urls": [
+      "https://www.city.hakodate.hokkaido.jp/docs/2026052900141/file_contents/0622-05.pdf"
+    ]
   }
 ]

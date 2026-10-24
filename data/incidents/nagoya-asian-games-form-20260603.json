@@ -1,0 +1,51 @@
+{
+  "id": "nagoya-asian-games-form-20260603",
+  "organization": {
+    "name": "名古屋市",
+    "sector": "企業・団体"
+  },
+  "title": "大会PRグッズ販売フォームで他の購入者情報を表示",
+  "summary": "受託者のフォーム設定に不備があり、購入者26人の申込情報が他の購入者から閲覧可能となった。",
+  "published_on": "2026-06-03",
+  "first_published_on": "2026-06-03",
+  "publication_kind": "initial",
+  "occurred_on": "2026-06-01",
+  "detected_on": null,
+  "updated_on": "2026-10-24",
+  "verification": "official",
+  "leak_status": "exposed",
+  "incident_type": "accident",
+  "cause": {
+    "category": "configuration",
+    "detail": "受託者のフォーム設定に不備があり、購入者26人の申込情報が他の購入者から閲覧可能となった。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 26,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表対象規模（漏えい確定人数とは限らない）"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "ふりがな",
+    "住所",
+    "電話番号",
+    "メールアドレス",
+    "質問・コメント"
+  ],
+  "related_vendor": "愛知県セルプセンター",
+  "sources": [
+    {
+      "url": "https://www.city.nagoya.jp/houdou/3003942/3003945/3004801.html",
+      "type": "official",
+      "title": "「アジア・アジアパラ競技大会 NAGOYAビジョン PRグッズ販売」受託事業者による個人情報の漏えいについて｜名古屋市公式ウェブサイト",
+      "published_on": "2026-06-03",
+      "checked_on": "2026-10-24"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

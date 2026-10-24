@@ -1,0 +1,51 @@
+{
+  "id": "kawasaki-education-redaction-20260603",
+  "organization": {
+    "name": "川崎市教育委員会",
+    "sector": "企業・団体"
+  },
+  "title": "公開会議資料のマスキング不備",
+  "summary": "会議資料の不開示部分が操作により判読可能だった。点検で64資料、重複を除く71人分を確認した。",
+  "published_on": "2026-06-03",
+  "first_published_on": "2026-06-03",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-04-06",
+  "updated_on": "2026-10-24",
+  "verification": "official",
+  "leak_status": "exposed",
+  "incident_type": "accident",
+  "cause": {
+    "category": "redaction_error",
+    "detail": "会議資料の不開示部分が操作により判読可能だった。点検で64資料、重複を除く71人分を確認した。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 71,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表対象規模（漏えい確定人数とは限らない）"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "電話番号",
+    "印影",
+    "所属",
+    "生年"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.city.kawasaki.jp/templates/prs/880/0000187821.html",
+      "type": "official",
+      "title": "川崎市 : 【報道発表資料】 教育委員会会議資料のホームページ掲載における不開示情報のマスキングの不備について",
+      "published_on": "2026-06-03",
+      "checked_on": "2026-10-24"
+    }
+  ],
+  "updates": [],
+  "notes": "64は資料数であり人数とは別。"
+}

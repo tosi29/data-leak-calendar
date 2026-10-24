@@ -1,0 +1,82 @@
+{
+  "id": "odawara-pta-sharing-20260605",
+  "organization": {
+    "name": "小田原市",
+    "sector": "企業・団体"
+  },
+  "title": "保護者の同意なくPTA等へ園児・児童生徒情報を提供",
+  "summary": "市立幼稚園・小中学校・保育所が、保護者の同意を得ずPTA等へ名簿情報を提供していた。年度をまたぐ同一人の重複があり得るため合計人数は算出しない。",
+  "published_on": "2026-06-05",
+  "first_published_on": null,
+  "publication_kind": "unknown",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-24",
+  "verification": "official",
+  "leak_status": "improper_sharing",
+  "incident_type": "improper_handling",
+  "cause": {
+    "category": "improper_sharing",
+    "detail": "市立幼稚園・小中学校・保育所が、保護者の同意を得ずPTA等へ名簿情報を提供していた。年度をまたぐ同一人の重複があり得るため合計人数は算出しない。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 140,
+      "unit": "records",
+      "qualifier": "approximate",
+      "description": "2025年度幼稚園"
+    },
+    {
+      "count": 125,
+      "unit": "records",
+      "qualifier": "approximate",
+      "description": "2026年度幼稚園"
+    },
+    {
+      "count": 7700,
+      "unit": "records",
+      "qualifier": "approximate",
+      "description": "2025年度小中学校"
+    },
+    {
+      "count": 2200,
+      "unit": "records",
+      "qualifier": "approximate",
+      "description": "2026年度小中学校"
+    },
+    {
+      "count": 340,
+      "unit": "records",
+      "qualifier": "approximate",
+      "description": "2025年度保育所"
+    },
+    {
+      "count": 310,
+      "unit": "records",
+      "qualifier": "approximate",
+      "description": "2026年度保育所"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "学年・学級",
+    "性別",
+    "保護者氏名",
+    "電話番号",
+    "兄弟姉妹情報",
+    "特別支援学級の情報"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.city.odawara.kanagawa.jp/field/edu-ch/education/topics/p41790.html",
+      "type": "official",
+      "title": "小田原市 | 市立幼稚園・小中学校等におけるPTA等に対する個人情報の提供について",
+      "published_on": "2026-06-05",
+      "checked_on": "2026-10-24"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

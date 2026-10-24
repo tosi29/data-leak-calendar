@@ -1,0 +1,50 @@
+{
+  "id": "nagoya-oe-school-trip-20260615",
+  "organization": {
+    "name": "名古屋市立大江中学校",
+    "sector": "企業・団体"
+  },
+  "title": "修学旅行の教員用しおりを紛失",
+  "summary": "教員が都内でしおりを紛失。在籍生徒126人の名簿と、参加者の座席・部屋割り、一部のアレルギー情報が含まれていた。",
+  "published_on": "2026-06-15",
+  "first_published_on": "2026-06-15",
+  "publication_kind": "initial",
+  "occurred_on": "2026-06-10",
+  "detected_on": null,
+  "updated_on": "2026-10-24",
+  "verification": "official",
+  "leak_status": "lost",
+  "incident_type": "accident",
+  "cause": {
+    "category": "loss",
+    "detail": "教員が都内でしおりを紛失。在籍生徒126人の名簿と、参加者の座席・部屋割り、一部のアレルギー情報が含まれていた。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 126,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表対象規模（漏えい確定人数とは限らない）"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "クラス",
+    "出席番号",
+    "座席・部屋割り",
+    "アレルギー情報（一部）"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.city.nagoya.jp/houdou/3003942/3003945/3004895.html",
+      "type": "official",
+      "title": "市立中学校（南区）における個人情報が含まれる書類の紛失について｜名古屋市公式ウェブサイト",
+      "published_on": "2026-06-15",
+      "checked_on": "2026-10-24"
+    }
+  ],
+  "updates": [],
+  "notes": "参加者120人・アレルギー情報11人は126人の内数。"
+}
