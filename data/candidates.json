@@ -489,12 +489,14 @@
     "reported_on": "2026-06-30",
     "verification": "pending",
     "reference_url": "https://www.higuchi-inc.co.jp/newsrelease/company/doc/unauthorized_access_incident.pdf",
-    "note": "8月5日第2報PDFの取得もTLS証明書検証エラー。財務・取引情報の報道はあるが個人情報の対象が未確定。",
+    "note": "8月5日調査報告の存在を公式一覧で再確認。PDFはTLS証明書検証エラーで取得できず。二次資料の財務・取引先情報は自然人の情報と特定できないため保留。",
     "reviewed_on": "2026-10-24",
     "checked_urls": [
       "https://www.higuchi-inc.co.jp/newsrelease/company/doc/unauthorized_access_incident.pdf",
       "https://www.higuchi-inc.co.jp/newsrelease/company/doc/unauthorized_access_incident02.pdf",
-      "https://scan.netsecurity.ne.jp/article/2026/07/21/55739.html"
+      "https://scan.netsecurity.ne.jp/article/2026/07/21/55739.html",
+      "https://www.higuchi-inc.co.jp/newsrelease/",
+      "https://humanhacker.ai/media/summary/"
     ]
   },
   {
@@ -503,7 +505,7 @@
     "reported_on": "2026-06-24",
     "verification": "pending",
     "reference_url": "https://www.sapporobreweries.com/notice/detail/20260624000010.html",
-    "note": "6月24日公式本文と追加検索を再確認。海外2社への別々の攻撃が記載されるが、個人情報の漏えい対象は未公表。10月のWeb停止と混同しない。",
+    "note": "公式お知らせ一覧と海外報道を再探索。PokkaとSleemanの別々の攻撃について、個人情報の対象を確定する公式続報は今回見つからず。攻撃者の主張は確認済み漏えいと扱わない。",
     "reviewed_on": "2026-10-24",
     "checked_urls": [
       "https://www.sapporobreweries.com/notice/detail/20260624000010.html",
@@ -517,11 +519,12 @@
     "reported_on": "2026-06-15",
     "verification": "pending",
     "reference_url": "https://factoryjapan.jp/resources/files/0615.pdf",
-    "note": "6月15日自社サーバー侵害の個人情報への影響は不明。8月4日PeakManagerは別システムの事案として新規掲載したが、これを6月案件の解決とは扱わない。",
+    "note": "公式ニュース一覧を再確認。6月15日の自社サーバー侵害は個人情報への影響が未確定。掲載済みの8月4日PeakManager事案と分離して保留を継続。",
     "reviewed_on": "2026-10-24",
     "checked_urls": [
       "https://factoryjapan.jp/resources/files/0615.pdf",
-      "https://factoryjapan.jp/wp/wp-content/uploads/2026/08/0804-1.pdf"
+      "https://factoryjapan.jp/wp/wp-content/uploads/2026/08/0804-1.pdf",
+      "https://factoryjapan.jp/news_other"
     ]
   },
   {
@@ -530,11 +533,12 @@
     "reported_on": "2026-06-04",
     "verification": "pending",
     "reference_url": "https://shokusou.co.jp/news/sonota/4366/",
-    "note": "6月4日の公式発表本文をWeb検索結果でも確認。6月2日の暗号化と調査中の記載のみで、個人情報の対象は不明。直接取得は503が継続。",
+    "note": "6月4日公式発表の検索収録本文と6月10日十勝毎日新聞を確認。報道時点で漏えいは確認されていないが、最終的な否定・対象範囲の確定ではない。個人情報への影響を示す続報は今回見つからず。",
     "reviewed_on": "2026-10-24",
     "checked_urls": [
       "https://shokusou.co.jp/news/sonota/4366/",
-      "https://www.security-next.com/185737"
+      "https://www.security-next.com/185737",
+      "https://kachimai.jp/article/index.php?no=2026061000296"
     ]
   },
   {
@@ -543,14 +547,15 @@
     "reported_on": "2026-06-25",
     "verification": "pending",
     "reference_url": "https://www.security-next.com/186263",
-    "note": "公式サイト一覧から移転後PDFを特定。6月19日外部送信確認、7月3日インターネット掲載確認。ただし掲載情報に個人情報が含まれるかは調査中。",
+    "note": "公式トピックス一覧を再確認。6月19日外部送信、7月3日公開確認の続報はあるが、個人情報の対象を確定できず。一般の社内情報流出だけで個人情報漏えいには計上しない。",
     "reviewed_on": "2026-10-24",
     "checked_urls": [
       "https://www.security-next.com/186263",
       "https://www.daikyonishikawa.co.jp/Portals/0/0619%E3%83%88%E3%83%94%E3%83%83%E3%82%AF%E3%82%B9%E3%81%9D%E3%81%AE%E4%BB%96_%E3%82%B0%E3%83%AB%E3%83%BC%E3%83%97%E4%BC%9A%E7%A4%BE%E3%81%B8%E3%81%AE%E4%B8%8D%E6%AD%A3%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6.pdf",
       "https://www.daikyonishikawa.co.jp/Portals/0/0703%E3%83%88%E3%83%94%E3%83%83%E3%82%AF%E3%82%B9%E3%81%9D%E3%81%AE%E4%BB%96_%E3%82%B0%E3%83%AB%E3%83%BC%E3%83%97%E4%BC%9A%E7%A4%BE%E3%81%B8%E3%81%AE%E4%B8%8D%E6%AD%A3%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6(%E7%AC%AC%EF%BC%92%E5%A0%B1%EF%BC%89.pdf",
       "https://www.daikyonishikawa.co.jp/Portals/0/news/jp/2026/20260703/20260703_Unauthorized%20Access%20to%20a%20Group%20Company%282nd%20Update%29.pdf",
-      "https://www.daikyonishikawa.co.jp/Portals/0/news/jp/2026/20260619/20260619_Unauthorized%20Access%20to%20a%20Group%20Company.pdf"
+      "https://www.daikyonishikawa.co.jp/Portals/0/news/jp/2026/20260619/20260619_Unauthorized%20Access%20to%20a%20Group%20Company.pdf",
+      "https://www.daikyonishikawa.co.jp/topics/"
     ]
   },
   {
@@ -559,12 +564,13 @@
     "reported_on": "2026-06-25",
     "verification": "pending",
     "reference_url": "https://www.security-next.com/186388",
-    "note": "8月4日公式第2報を確認。フォルダ・ファイル名リストの一部公開を確認したが、ファイル本体の公開や個人情報の対象は未確認。",
+    "note": "公式2026年ニュース一覧を再確認。8月4日第2報はファイル名等の公開であり、ファイル本体の公開・個人情報の対象を確認する新たな続報は今回見つからず。",
     "reviewed_on": "2026-10-24",
     "checked_urls": [
       "https://www.security-next.com/186388",
       "https://www.nidec.com/files/user/www-nidec-com/corporate/news/2026/0624-01/260624-01jp.pdf",
-      "https://www.nidec.com/files/user/www-nidec-com/corporate/news/2026/0804-01/260804-01jp.pdf"
+      "https://www.nidec.com/files/user/www-nidec-com/corporate/news/2026/0804-01/260804-01jp.pdf",
+      "https://www.nidec.com/jp/corporate/news/2026/"
     ]
   },
   {
@@ -573,11 +579,12 @@
     "reported_on": "2026-06-17",
     "verification": "pending",
     "reference_url": "https://www.security-next.com/185799",
-    "note": "8月12日サービス再開の公式案内を確認。保有マネーの不正利用なしとの説明はあるが、個人情報流出の有無・範囲は未確定。",
+    "note": "公式スタッフブログの再開案内も確認。8月12日を目処とする再開とマネー不正利用なしの説明はあるが、個人情報漏えい否定とは扱えないため保留。",
     "reviewed_on": "2026-10-24",
     "checked_urls": [
       "https://www.security-next.com/185799",
-      "https://support.d-money.jp/hc/ja/articles/61069824277657"
+      "https://support.d-money.jp/hc/ja/articles/61069824277657",
+      "https://ameblo.jp/dotmoney/entry-12974161885.html"
     ]
   },
   {
@@ -586,7 +593,7 @@
     "reported_on": "2026-06-15",
     "verification": "pending",
     "reference_url": "https://www.security-next.com/185811",
-    "note": "6月10日公式PDFはメールアカウントの不正利用と不審メール送信を記載。9月18日のマレーシア事案とは別。インドネシア事案の個人情報への影響は未確定。",
+    "note": "公式2026年ニュース一覧を再確認。6月10日のインドネシア事案について個人情報への影響を確定する追加発表は今回見つからず。9月18日のマレーシア事案は別件。",
     "reviewed_on": "2026-10-24",
     "checked_urls": [
       "https://www.security-next.com/185811",
@@ -600,12 +607,15 @@
     "reported_on": "2026-06-04",
     "verification": "pending",
     "reference_url": "https://www.security-next.com/185324",
-    "note": "第2報の6月2日追記を二次資料で確認。公式PDFと公式サイトが取得不能で、流出情報の個人情報への該当が未確定。別一覧の9月日付は裏付けられず不採用。",
+    "note": "9月24日の最終報告と個人データへの影響を記す二次資料、新たな公式PDFリンクを発見。公式PDFはHTTP 503／接続不能で本文未確認。6月の公表日と対象情報の一次裏付けを引き続き要確認。二次資料の記載を漏えい確定として計上しない。",
     "reviewed_on": "2026-10-24",
     "checked_urls": [
       "https://www.security-next.com/185324",
       "https://www.onebe.co.jp/dlpnews/?p=34887",
-      "http://www.mcpack.co.jp/news/file/97ccc7231e5e5a757a5da0e9ba15c6e74dc39545.pdf"
+      "http://www.mcpack.co.jp/news/file/97ccc7231e5e5a757a5da0e9ba15c6e74dc39545.pdf",
+      "https://humanhacker.ai/media/summary/",
+      "https://openbizgraph.com/ja/detail/10546",
+      "http://www.mcpack.co.jp/news/file/64ef5c4b14c0e7c2fb2e3d03823d13a74a2f9df1.pdf"
     ]
   },
   {
@@ -614,11 +624,14 @@
     "reported_on": "2026-06-17",
     "verification": "pending",
     "reference_url": "https://www.ooc.co.jp/news/pdf/20260617.pdf",
-    "note": "別一覧にWeb障害の復旧として掲載。公式PDFは503。個人情報への影響は未確認。",
+    "note": "Security NEXT 6月23日とScanNetSecurity配信記事を確認。6月17日復旧・影響調査中は裏付けられたが個人情報の対象は未記載。別まとめの問い合わせ情報への影響という記述は公式PDF（503）で確認できず保留。",
     "reviewed_on": "2026-10-24",
     "checked_urls": [
       "https://www.ooc.co.jp/news/pdf/20260617.pdf",
-      "https://legalagent.co.jp/legal-lab/security-incidents/"
+      "https://legalagent.co.jp/legal-lab/security-incidents/",
+      "https://www.security-next.com/186133",
+      "https://www.excite.co.jp/news/article/Scannetsecurity_55607/",
+      "https://humanhacker.ai/media/summary/"
     ]
   },
   {
@@ -627,24 +640,13 @@
     "reported_on": "2026-06-05",
     "verification": "pending",
     "reference_url": "https://www.corp.musenet.co.jp/pages/23?detail=1&b_id=106&r_id=37#block106",
-    "note": "別一覧は6月5日とするがリンク先公式本文は5月18日。ランサム被害・業務再開は確認できるものの、6月の公表と個人情報への影響は未確認。",
+    "note": "10月13日IBM i専門誌の取材記事まで確認したが、個人情報の対象は特定できず。検索で見つかった6月5日付公式ページは新刊案内で、漏えい公表日の裏付けには使えない。6月公表日と個人情報への影響の両方を保留。",
     "reviewed_on": "2026-10-24",
     "checked_urls": [
       "https://www.corp.musenet.co.jp/pages/23?detail=1&b_id=106&r_id=37#block106",
-      "https://legalagent.co.jp/legal-lab/security-incidents/"
-    ]
-  },
-  {
-    "id": "june-discovery-asahiseiki-20261024",
-    "organization": "旭精機工業",
-    "reported_on": "2026-06-01",
-    "verification": "pending",
-    "reference_url": "https://www.asahiseiki-mfg.co.jp/info/20260601.pdf",
-    "note": "6月1日のWeb障害続報は検索結果で確認。個人情報の流出対象を確認できないため保留。",
-    "reviewed_on": "2026-10-24",
-    "checked_urls": [
-      "https://www.asahiseiki-mfg.co.jp/info/20260601.pdf",
-      "https://legalagent.co.jp/legal-lab/security-incidents/"
+      "https://legalagent.co.jp/legal-lab/security-incidents/",
+      "https://www.imagazine.co.jp/ransomware-report2026/",
+      "https://www.musenet.co.jp/%E6%96%B0%E5%88%8A%E6%A1%88%E5%86%85-104"
     ]
   }
 ]
