@@ -1,0 +1,47 @@
+{
+  "id": "miyako-health-record-loss-20260605",
+  "organization": {
+    "name": "沖縄県宮古保健所",
+    "sector": "企業・団体"
+  },
+  "title": "結核患者の診断書を紛失",
+  "summary": "会議資料を作成した後に保管していた診断書の原本が所在不明となった。会議資料と一緒に裁断した可能性が高いと説明した。",
+  "published_on": "2026-06-05",
+  "first_published_on": "2026-06-05",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-24",
+  "verification": "secondary",
+  "leak_status": "lost",
+  "incident_type": "accident",
+  "cause": {
+    "category": "loss",
+    "detail": "会議資料を作成した後に保管していた診断書の原本が所在不明となった。会議資料と一緒に裁断した可能性が高いと説明した。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 3,
+      "unit": "documents",
+      "qualifier": "exact",
+      "description": "紛失した診断書"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "診断情報"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.onebe.co.jp/dlpnews/?p=34866",
+      "type": "news",
+      "title": "沖縄県宮古保健所、個人情報含む書類を紛失",
+      "published_on": "2026-06-05",
+      "checked_on": "2026-10-24"
+    }
+  ],
+  "updates": [],
+  "notes": "公式リンクは404。発表日を明示する報道で確認。5月11～15日に紛失。情報悪用は未確認。"
+}

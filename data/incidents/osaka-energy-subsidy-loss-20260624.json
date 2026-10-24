@@ -1,0 +1,51 @@
+{
+  "id": "osaka-energy-subsidy-loss-20260624",
+  "organization": {
+    "name": "大阪府脱炭素・エネルギー政策課",
+    "sector": "企業・団体"
+  },
+  "title": "委託先で補助金申請書類を紛失",
+  "summary": "委託先が保管していた法人の申請書類一式が所在不明となった。警察の捜査に配慮し、公表まで日数を要したと説明した。",
+  "published_on": "2026-06-24",
+  "first_published_on": "2026-06-24",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2023-08-31",
+  "updated_on": "2026-10-24",
+  "verification": "official",
+  "leak_status": "lost",
+  "incident_type": "accident",
+  "cause": {
+    "category": "loss",
+    "detail": "委託先が保管していた法人の申請書類一式が所在不明となった。警察の捜査に配慮し、公表まで日数を要したと説明した。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 1,
+      "unit": "organizations",
+      "qualifier": "exact",
+      "description": "申請書類の対象法人。役員の実人数は未公表"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "生年月日",
+    "性別",
+    "住所",
+    "続柄",
+    "保有株式数"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.pref.osaka.lg.jp/hodo/fumin/o120020/prs_51301.html",
+      "type": "official",
+      "title": "個人情報が記載された書類の紛失について",
+      "published_on": "2026-06-24",
+      "checked_on": "2026-10-24"
+    }
+  ],
+  "updates": [],
+  "notes": "紛失発覚は2023年8月31日、公表は2026年6月24日。持ち出し・処分の疑いはあるが断定しない。"
+}

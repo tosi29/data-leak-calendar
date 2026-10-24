@@ -1,0 +1,55 @@
+{
+  "id": "osaka-nta-fake-police-20260619",
+  "organization": {
+    "name": "大阪国税局",
+    "sector": "企業・団体"
+  },
+  "title": "警察官を装う相手への納税者情報送信の続報",
+  "summary": "職員が警察官を名乗る相手の要求に従い、納税者情報を送信。6月19日に懲戒処分と二次的な不審電話について公表した。",
+  "published_on": "2026-06-19",
+  "first_published_on": "2026-04-15",
+  "publication_kind": "followup",
+  "occurred_on": "2026-04-13",
+  "detected_on": null,
+  "updated_on": "2026-10-24",
+  "verification": "secondary",
+  "leak_status": "confirmed",
+  "incident_type": "improper_handling",
+  "cause": {
+    "category": "improper_sharing",
+    "detail": "職員が警察官を名乗る相手の要求に従い、納税者情報を送信。6月19日に懲戒処分と二次的な不審電話について公表した。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 259,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "個人・法人の納税者情報。画像108枚と重複加算しない"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "法人名",
+    "電話番号"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://cybersecurity-jp.com/news/114438",
+      "type": "news",
+      "title": "警察名乗る電話受け納税者情報259件漏えい、二次被害も確認される",
+      "published_on": "2026-06-23",
+      "checked_on": "2026-10-24"
+    },
+    {
+      "url": "https://mikata-c.co.jp/news/260417.html",
+      "type": "reference",
+      "title": "大阪国税局における情報漏洩事案への対応について",
+      "published_on": "2026-04-17",
+      "checked_on": "2026-10-24"
+    }
+  ],
+  "updates": [],
+  "notes": "6月19日は処分等の続報。4月15日の259件漏えい公表と同一の事案として1件に整理。職員の年代は報道間で一致しないため採用しない。"
+}

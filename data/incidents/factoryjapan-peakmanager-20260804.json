@@ -1,0 +1,51 @@
+{
+  "id": "factoryjapan-peakmanager-20260804",
+  "organization": {
+    "name": "ファクトリージャパングループ",
+    "sector": "企業・団体"
+  },
+  "title": "予約管理システムPeakManager経由の漏えいの可能性",
+  "summary": "利用する外部予約管理システムへの不正アクセスについて通知を受け、顧客の連絡先等が流出した可能性を公表した。",
+  "published_on": "2026-08-04",
+  "first_published_on": "2026-08-04",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-24",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "利用する外部予約管理システムへの不正アクセスについて通知を受け、顧客の連絡先等が流出した可能性を公表した。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "対象人数は未公表"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "電話番号",
+    "メールアドレス",
+    "生年月日",
+    "性別",
+    "住所"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://factoryjapan.jp/wp/wp-content/uploads/2026/08/0804-1.pdf",
+      "type": "official",
+      "title": "予約システムにおける不正アクセスに関するお知らせとお詫び",
+      "published_on": "2026-08-04",
+      "checked_on": "2026-10-24"
+    }
+  ],
+  "updates": [],
+  "notes": "運営元はEPARKリラク＆エステ。6月の自社サーバー侵害とは対象システムが異なるため統合しない。共通サービス経由の利用組織の公表であり独立した攻撃数ではない。"
+}

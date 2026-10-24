@@ -1,0 +1,56 @@
+{
+  "id": "reqrea-tabiq-images-20260629",
+  "organization": {
+    "name": "リクリエ（Tabiq）",
+    "sector": "企業・団体"
+  },
+  "title": "本人確認書類等の画像が外部からアクセス可能に",
+  "summary": "電子チェックインシステムの画像保存先の設定不備により、本人確認書類等が第三者からアクセス可能だった。5月14日に遮断し、調査結果を公表した。",
+  "published_on": "2026-06-29",
+  "first_published_on": "2026-06-29",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-05-13",
+  "updated_on": "2026-10-24",
+  "verification": "official",
+  "leak_status": "exposed",
+  "incident_type": "accident",
+  "cause": {
+    "category": "configuration",
+    "detail": "電子チェックインシステムの画像保存先の設定不備により、本人確認書類等が第三者からアクセス可能だった。5月14日に遮断し、調査結果を公表した。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 1060338,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "2020年1月20日～2026年5月14日に取得した画像情報の対象者。国内居住者に限定した数ではない"
+    }
+  ],
+  "data_types": [
+    "顔写真",
+    "署名画像",
+    "パスポート画像",
+    "運転免許証画像"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://files.reqrea.co.jp/corporate/20260629_hp-announcement.pdf",
+      "type": "official",
+      "title": "Tabiqにおける個人情報の取り扱いに関するお知らせとお詫び（正式公表PDF）",
+      "published_on": "2026-06-29",
+      "checked_on": "2026-10-24"
+    },
+    {
+      "url": "https://reqrea.co.jp/news/zb7qsrkz-vjv/",
+      "type": "official",
+      "title": "Tabiqにおける個人情報の取り扱いに関するお知らせとお詫び",
+      "published_on": "2026-06-30",
+      "checked_on": "2026-10-24"
+    }
+  ],
+  "updates": [],
+  "notes": "正式PDFとWeb記事ヘッダーは6月29日、Web本文は6月30日と不一致。正式PDFの日付を採用。予約情報・カード情報等の画像以外は対象外。不正取得・悪用等は未確認。保存先はAmazon S3で、サービス自体の侵害ではなく設定不備。"
+}

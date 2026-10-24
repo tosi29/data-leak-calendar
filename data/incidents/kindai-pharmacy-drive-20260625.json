@@ -1,0 +1,58 @@
+{
+  "id": "kindai-pharmacy-drive-20260625",
+  "organization": {
+    "name": "近畿大学薬学部",
+    "sector": "企業・団体"
+  },
+  "title": "Googleドライブで学生情報を誤共有",
+  "summary": "教員が学生情報のファイルをゼミ学生が閲覧できるフォルダに置いた。学生による閲覧と、報告目的のダウンロード等を確認し、削除した。",
+  "published_on": "2026-06-25",
+  "first_published_on": "2026-06-25",
+  "publication_kind": "initial",
+  "occurred_on": "2026-04-06",
+  "detected_on": null,
+  "updated_on": "2026-10-24",
+  "verification": "secondary",
+  "leak_status": "confirmed",
+  "incident_type": "accident",
+  "cause": {
+    "category": "configuration",
+    "detail": "教員が学生情報のファイルをゼミ学生が閲覧できるフォルダに置いた。学生による閲覧と、報告目的のダウンロード等を確認し、削除した。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 249,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "個人情報ファイルの対象学生。成績等の別ファイルの人数を加算しない"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "性別",
+    "メールアドレス",
+    "住所",
+    "電話番号",
+    "成績"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.onebe.co.jp/dlpnews/?p=35499",
+      "type": "news",
+      "title": "近畿大学、ファイル誤共有により個人情報が学生から閲覧可能状態",
+      "published_on": "2026-06-25",
+      "checked_on": "2026-10-24"
+    },
+    {
+      "url": "https://newsdig.tbs.co.jp/articles/mbs/2757439?display=1",
+      "type": "news",
+      "title": "近畿大学薬学部の個人情報流出に関するMBS報道",
+      "published_on": "2026-06-25",
+      "checked_on": "2026-10-24"
+    }
+  ],
+  "updates": [],
+  "notes": "大学公式URLは404。発表日を明示する二次資料と当日の報道で確認。9月30日の国際学部事案とは別。"
+}

@@ -1,0 +1,57 @@
+{
+  "id": "icomsoft-final-20260622",
+  "organization": {
+    "name": "アイコムソフト",
+    "sector": "企業・団体"
+  },
+  "title": "Web・メールサーバー侵害の最終報告",
+  "summary": "サーバ管理ソフトの脆弱性を悪用された。情報窃取の痕跡はないが、管理権限を取得されており、メール関連の個人情報流出を否定できないとした。",
+  "published_on": "2026-06-22",
+  "first_published_on": "2026-05-27",
+  "publication_kind": "followup",
+  "occurred_on": null,
+  "detected_on": "2026-05-01",
+  "updated_on": "2026-10-24",
+  "verification": "secondary",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "vulnerability",
+    "detail": "サーバ管理ソフトの脆弱性を悪用された。情報窃取の痕跡はないが、管理権限を取得されており、メール関連の個人情報流出を否定できないとした。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "対象人数は未公表"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "メールアドレス",
+    "電話番号",
+    "会社名",
+    "部署名"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.onebe.co.jp/dlpnews/?p=35524",
+      "type": "news",
+      "title": "アイコムソフト、サーバへの不正アクセスを確認（6月22日追記）",
+      "published_on": "2026-06-22",
+      "checked_on": "2026-10-24"
+    },
+    {
+      "url": "https://www.excite.co.jp/news/article/Scannetsecurity_55667/",
+      "type": "news",
+      "title": "アイコムソフトが最終報告（ScanNetSecurity配信）",
+      "published_on": "2026-07-09",
+      "checked_on": "2026-10-24"
+    }
+  ],
+  "updates": [],
+  "notes": "公式最終報URLは503で取得不能。発表日6月22日はScanNetSecurity配信記事で確認。流出の可能性は低いとの評価で、確定漏えいではない。"
+}

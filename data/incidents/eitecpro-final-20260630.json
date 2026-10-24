@@ -1,0 +1,50 @@
+{
+  "id": "eitecpro-final-20260630",
+  "organization": {
+    "name": "エイテックプロ",
+    "sector": "企業・団体"
+  },
+  "title": "社内システムへの侵害に関する最終報告",
+  "summary": "リモート接続機能から侵入され、ランサムウェアでサーバーが暗号化。ログ欠損のため漏えいの可能性を否定できないと報告した。",
+  "published_on": "2026-06-30",
+  "first_published_on": "2026-04-30",
+  "publication_kind": "followup",
+  "occurred_on": null,
+  "detected_on": "2026-04-22",
+  "updated_on": "2026-10-24",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "vulnerability",
+    "detail": "リモート接続機能から侵入され、ランサムウェアでサーバーが暗号化。ログ欠損のため漏えいの可能性を否定できないと報告した。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 70000,
+      "unit": "records",
+      "qualifier": "approximate",
+      "description": "取引先担当者、施工先顧客、従業員に関する個人情報"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "電話番号",
+    "メールアドレス",
+    "従業員情報"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.eitecpro.co.jp/news/217/",
+      "type": "official",
+      "title": "弊社社内システムへの不正アクセスに関するご報告（最終）",
+      "published_on": "2026-06-30",
+      "checked_on": "2026-10-24"
+    }
+  ],
+  "updates": [],
+  "notes": "実際の個人情報漏えいの痕跡や二次被害は未確認。最終報本文で初報4月30日を確認。"
+}

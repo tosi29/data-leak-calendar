@@ -6176,5 +6176,107 @@
     "source_urls": [
       "https://www.city.hakodate.hokkaido.jp/docs/2026052900141/file_contents/0622-05.pdf"
     ]
+  },
+  {
+    "candidate": {
+      "id": "june-review-5aad3bc12433",
+      "organization": "アイコムソフト",
+      "reported_on": "2026-06-30",
+      "verification": "pending",
+      "reference_url": "https://www.security-next.com/186399",
+      "note": "5月27日初報を検索結果で確認。公式初報・最終報は503で本文取得不能。メールの個人情報への影響は報道で確認できるが、最終報の公表日と初報との差分を未確認。",
+      "reviewed_on": "2026-10-24",
+      "checked_urls": [
+        "https://www.security-next.com/186399",
+        "https://www.icomsoft.co.jp/news/info-news/entry-306.html",
+        "https://www.icomsoft.co.jp/news/info-news/entry-307.html"
+      ]
+    },
+    "reviewed_on": "2026-10-24",
+    "resolution": "published",
+    "reason": "6月22日最終報の公表日をScanNetSecurity配信で確認。公式503のため二次資料確認として掲載。",
+    "source_urls": [
+      "https://www.excite.co.jp/news/article/Scannetsecurity_55667/",
+      "https://www.onebe.co.jp/dlpnews/?p=35524"
+    ],
+    "incident_ids": [
+      "icomsoft-final-20260622"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "june-review-bd6ce4eb0ecd",
+      "organization": "浦添市",
+      "reported_on": "2026-06-19",
+      "verification": "pending",
+      "reference_url": "https://www.security-next.com/185198",
+      "note": "初公表は5月29日。公式ページには6月・10月1日の追記もあり、続報での掲載対象となる差分・既存事案との統合方針の確認が残る。",
+      "reviewed_on": "2026-10-24",
+      "checked_urls": [
+        "https://www.security-next.com/185198",
+        "https://www.city.urasoe.lg.jp/doc/2026052600058/"
+      ]
+    },
+    "reviewed_on": "2026-10-24",
+    "resolution": "published",
+    "reason": "5月29日初報、6月3日は無関係企業の訂正。7月10日解析結果を続報として掲載し、10月1日の調査状況も反映。",
+    "source_urls": [
+      "https://www.city.urasoe.lg.jp/doc/2026052600058/"
+    ],
+    "incident_ids": [
+      "urasoe-pc-theft-20260710"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "june-review-b2d0ab383422",
+      "organization": "エイテックプロ",
+      "reported_on": "2026-06-08",
+      "verification": "pending",
+      "reference_url": "https://www.security-next.com/185269",
+      "note": "記事本文を再確認。4月22日の攻撃・システム障害を報道するが、6月の公式公表日と個人情報の対象は未確認。",
+      "reviewed_on": "2026-10-24",
+      "checked_urls": [
+        "https://www.security-next.com/185269"
+      ]
+    },
+    "reviewed_on": "2026-10-24",
+    "resolution": "published",
+    "reason": "6月30日公式最終報で約7万件の個人情報漏えいの可能性を確認。4月初報の続報として掲載。",
+    "source_urls": [
+      "https://www.eitecpro.co.jp/news/217/"
+    ],
+    "incident_ids": [
+      "eitecpro-final-20260630"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "june-review-230b9fbad8c9",
+      "organization": "近畿大学薬学部／大阪国税局（公表日再確認）",
+      "reported_on": "2026-06-25",
+      "verification": "pending",
+      "reference_url": "https://note.com/elpayaso/n/n8f69e25e3a76",
+      "note": "近畿大学薬学部249人の共有設定ミスを6月25日のMBS報道で確認したが、大学の公表原文・公表日が未特定。大阪国税局259件は4月公表の報道もあり、6月19日の処分公表と同一事案かの照合が残る。別々の確認事項として保持。",
+      "reviewed_on": "2026-10-24",
+      "checked_urls": [
+        "https://note.com/elpayaso/n/n8f69e25e3a76",
+        "https://newsdig.tbs.co.jp/articles/mbs/2757439?display=1",
+        "https://www.itmedia.co.jp/news/article/2604/16/1260416065/"
+      ]
+    },
+    "reviewed_on": "2026-10-24",
+    "resolution": "published",
+    "reason": "近畿大学薬学部は6月25日公表。大阪国税局は4月15日初報の6月19日処分等の続報として掲載。異なる2事案を分離し、各事案の報道を重複計上しない。",
+    "source_urls": [
+      "https://www.onebe.co.jp/dlpnews/?p=35499",
+      "https://newsdig.tbs.co.jp/articles/mbs/2757439?display=1",
+      "https://cybersecurity-jp.com/news/114438",
+      "https://mikata-c.co.jp/news/260417.html"
+    ],
+    "incident_ids": [
+      "kindai-pharmacy-drive-20260625",
+      "osaka-nta-fake-police-20260619"
+    ]
   }
 ]

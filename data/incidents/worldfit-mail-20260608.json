@@ -1,0 +1,47 @@
+{
+  "id": "worldfit-mail-20260608",
+  "organization": {
+    "name": "ワールドフィット",
+    "sector": "企業・団体"
+  },
+  "title": "顧客名簿の誤添付と再発防止策の公表",
+  "summary": "メール配信先の名簿ファイルを誤って添付し、230件の送信先に送信した。6月8日に本部への送信業務集約などの再発防止策を追記した。",
+  "published_on": "2026-06-08",
+  "first_published_on": "2026-05-29",
+  "publication_kind": "followup",
+  "occurred_on": "2026-05-28",
+  "detected_on": "2026-05-28",
+  "updated_on": "2026-10-24",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "accident",
+  "cause": {
+    "category": "misdelivery",
+    "detail": "メール配信先の名簿ファイルを誤って添付し、230件の送信先に送信した。6月8日に本部への送信業務集約などの再発防止策を追記した。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 565,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "漏えいした氏名・メールアドレス。送信先230件とは別の数値"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "メールアドレス"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://world-fit.co.jp/news/11583/",
+      "type": "official",
+      "title": "メールアドレス等の漏えいに関するお詫びとご報告（6月8日追記）",
+      "published_on": "2026-06-08",
+      "checked_on": "2026-10-24"
+    }
+  ],
+  "updates": [],
+  "notes": "6月の新規漏えいではなく、収集開始前に公表された事案の続報として1件のみ掲載。"
+}

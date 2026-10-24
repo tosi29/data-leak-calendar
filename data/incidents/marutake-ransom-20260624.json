@@ -1,0 +1,56 @@
+{
+  "id": "marutake-ransom-20260624",
+  "organization": {
+    "name": "マルタケ",
+    "sector": "企業・団体"
+  },
+  "title": "ランサムウェアによる情報の持ち出し・公開を確認",
+  "summary": "不正に作成されたアカウントを使った侵入により、サーバー内の情報が暗号化・持ち出され、攻撃者のサイトに掲載されたことを第4報で確認した。",
+  "published_on": "2026-06-24",
+  "first_published_on": "2026-04-28",
+  "publication_kind": "followup",
+  "occurred_on": "2026-04-27",
+  "detected_on": null,
+  "updated_on": "2026-10-24",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "credentials",
+    "detail": "不正に作成されたアカウントを使った侵入により、サーバー内の情報が暗号化・持ち出され、攻撃者のサイトに掲載されたことを第4報で確認した。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "取引先、株主、自社・関連会社の役員および社員情報。対象人数未公表"
+    }
+  ],
+  "data_types": [
+    "取引先情報",
+    "株主情報",
+    "役員情報",
+    "社員情報"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.kk-marutake.co.jp/2026/06/24/6737",
+      "type": "official",
+      "title": "システム障害に関するお知らせ（第4報）",
+      "published_on": "2026-06-24",
+      "checked_on": "2026-10-24"
+    },
+    {
+      "url": "https://www.kk-marutake.co.jp/2026/04/28/6610",
+      "type": "official",
+      "title": "システム障害発生に関するお知らせ（第1報）",
+      "published_on": "2026-04-28",
+      "checked_on": "2026-10-24"
+    }
+  ],
+  "updates": [],
+  "notes": "6月24日の第4報を掲載。初報は4月28日の公式第1報。情報持ち出しとリークサイト掲載は確認済みだが、公開データの詳細範囲は精査中。"
+}
