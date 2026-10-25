@@ -1,0 +1,48 @@
+{
+  "id": "espec-mail-20260421",
+  "organization": {
+    "name": "エスペック",
+    "sector": "企業・団体"
+  },
+  "title": "従業員メールの侵害で署名情報等に漏えいのおそれ",
+  "summary": "不審メール送信を確認し、過去のメール情報が閲覧された可能性を否定できないと公表。",
+  "published_on": "2026-04-21",
+  "first_published_on": "2026-04-21",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-04-10",
+  "updated_on": "2026-10-26",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "credentials",
+    "detail": "ブルートフォース攻撃による認証情報窃取の可能性があると説明。",
+    "certainty": "suspected"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "対象規模は未公表。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス",
+    "会社名",
+    "氏名"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.espec.co.jp/news/data/20260421.pdf",
+      "title": "個人情報漏えいのおそれに関するお知らせとお詫び",
+      "type": "official",
+      "published_on": "2026-04-21",
+      "checked_on": "2026-10-26"
+    }
+  ],
+  "updates": [],
+  "notes": "暗号化PDFを検索・閲覧経由で全文確認。侵害1アカウントを対象人数へ転用しない。"
+}

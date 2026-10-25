@@ -1,0 +1,48 @@
+{
+  "id": "cynd-beautymerit-20260427",
+  "organization": {
+    "name": "サインド（BeautyMerit）",
+    "sector": "企業・団体"
+  },
+  "title": "予約管理システムへの侵害で顧客情報に漏えいのおそれ",
+  "summary": "外部調査で持ち出し痕跡は未確認だが、不正に閲覧できた範囲の漏えいリスクを否定できないと公表。",
+  "published_on": "2026-04-27",
+  "first_published_on": "2026-03-24",
+  "publication_kind": "followup",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-26",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。具体的な侵入手口は未特定。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "対象規模は未公表。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "電話番号",
+    "メールアドレス"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://cynd.co.jp/2026/04/27/announce02/",
+      "title": "サイバー攻撃による不正アクセスの検知と情報漏えいの可能性に関するお詫びとご報告 （第二報）",
+      "type": "official",
+      "published_on": "2026-04-27",
+      "checked_on": "2026-10-26"
+    }
+  ],
+  "updates": [],
+  "notes": "漏えい否定とは扱わない。カード・決済情報はシステム内に保持しない。"
+}

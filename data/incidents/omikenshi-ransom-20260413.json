@@ -1,0 +1,59 @@
+{
+  "id": "omikenshi-ransom-20260413",
+  "organization": {
+    "name": "オーミケンシ",
+    "sector": "企業・団体"
+  },
+  "title": "ランサムウェア被害後、従業員情報の外部送信を確認",
+  "summary": "4月21日続報で、データの外部送信があったサーバーに従業員情報が含まれたと公表。",
+  "published_on": "2026-04-13",
+  "first_published_on": "2026-03-23",
+  "publication_kind": "followup",
+  "occurred_on": "2026-03-16",
+  "detected_on": null,
+  "updated_on": "2026-10-26",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。具体的な侵入手口は未特定。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "対象規模は未公表。"
+    }
+  ],
+  "data_types": [
+    "従業員の氏名等"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://omikenshi.co.jp/wordpress/wp-content/uploads/2026/04/20260413_1.pdf",
+      "title": "サイバー攻撃によるシステム障害についてのお知らせ",
+      "type": "official",
+      "published_on": "2026-04-13",
+      "checked_on": "2026-10-26"
+    },
+    {
+      "url": "https://omikenshi.co.jp/wordpress/wp-content/uploads/2026/04/20260421_1.pdf",
+      "title": "サイバー攻撃によるシステム障害に関するご報告",
+      "type": "official",
+      "published_on": "2026-04-21",
+      "checked_on": "2026-10-26"
+    }
+  ],
+  "updates": [
+    {
+      "date": "2026-04-21",
+      "summary": "外部送信されたサーバー内の対象情報は従業員情報に限定。取引先・顧客情報は含まれないと説明。",
+      "source_index": 1
+    }
+  ],
+  "notes": "発生日3月16日、初報3月23日、今回の掲載公表日4月13日を区別。送信確認は4月21日続報による。"
+}

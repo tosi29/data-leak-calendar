@@ -1,0 +1,49 @@
+{
+  "id": "nyk-fuel-system-20260409",
+  "organization": {
+    "name": "日本郵船",
+    "sector": "企業・団体"
+  },
+  "title": "船舶燃料調達システムから個人情報を含むデータが流出",
+  "summary": "システムへの不正アクセスで、従業員や取引先担当者の連絡先情報を含むデータが持ち出された。",
+  "published_on": "2026-04-09",
+  "first_published_on": "2026-04-09",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-03-24",
+  "updated_on": "2026-10-26",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。具体的な侵入手口は未特定。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "対象規模は未公表。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "会社名",
+    "電話番号",
+    "メールアドレス"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.nyk.com/news/2026/20260409_01.html",
+      "title": "個人情報漏えいについて | 日本郵船株式会社",
+      "type": "official",
+      "published_on": "2026-04-09",
+      "checked_on": "2026-10-26"
+    }
+  ],
+  "updates": [],
+  "notes": "本文の項目は一部または全部。暗号化や金銭要求は確認されていないため、ランサムウェアと推定しない。"
+}

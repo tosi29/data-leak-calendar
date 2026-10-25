@@ -1,0 +1,52 @@
+{
+  "id": "tokyustay-csv-mail-20260403",
+  "organization": {
+    "name": "東急リゾーツ＆ステイ",
+    "sector": "企業・団体"
+  },
+  "title": "宿泊客95,986人分のCSVを協力会社へ誤送信",
+  "summary": "社内部署宛てのメールを協力会社従業員へ誤送信し、添付した宿泊客情報が漏えいした。",
+  "published_on": "2026-04-03",
+  "first_published_on": "2026-04-03",
+  "publication_kind": "initial",
+  "occurred_on": "2026-03-25",
+  "detected_on": "2026-03-25",
+  "updated_on": "2026-10-26",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "accident",
+  "cause": {
+    "category": "misdelivery",
+    "detail": "メール送信時の宛先確認が不十分だった。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 95986,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表対象は95,986人。全件の流出確定とは限らない。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "勤務先",
+    "予約番号",
+    "利用施設",
+    "部屋タイプ",
+    "到着日",
+    "出発日"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.tokyustay.co.jp/news/docs/a063edc313cae8596ca81221b53acfeb1834533d.pdf",
+      "title": "メール誤送信による個人情報漏えいに関するお詫びとお知らせ",
+      "type": "official",
+      "published_on": "2026-04-03",
+      "checked_on": "2026-10-26"
+    }
+  ],
+  "updates": [],
+  "notes": "対象は大阪本町・大阪なんば・渋谷の宿泊客。住所・生年月日・連絡先・決済情報は含まれない。"
+}

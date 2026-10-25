@@ -1,0 +1,52 @@
+{
+  "id": "udemy-business-contact-20260430",
+  "organization": {
+    "name": "Udemy（日本向け告知：ベネッセコーポレーション）",
+    "sector": "企業・団体"
+  },
+  "title": "不正アクセスで業務用連絡先情報が不正取得",
+  "summary": "IT環境の一部への侵害を確認。5月12日更新で、限定的な業務用連絡先情報の不正取得を説明。",
+  "published_on": "2026-04-30",
+  "first_published_on": "2026-04-30",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-26",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。具体的な侵入手口は未特定。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "対象規模は未公表。"
+    }
+  ],
+  "data_types": [
+    "業務用連絡先情報"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://udemy.benesse.co.jp/wp-content/uploads/312bca6d239f67a09f49d141b2fb6066-2.pdf",
+      "title": "不正アクセスに関するご報告",
+      "type": "official",
+      "published_on": "2026-05-12",
+      "checked_on": "2026-10-26"
+    }
+  ],
+  "updates": [
+    {
+      "date": "2026-05-12",
+      "summary": "更新版で業務用連絡先情報の不正取得を確認。学習者プラットフォームや認証情報等への影響を示す証拠は未確認。",
+      "source_index": 0
+    }
+  ],
+  "notes": "更新版PDFに速報日4月30日を明記。学習者の情報流出と混同しない。"
+}

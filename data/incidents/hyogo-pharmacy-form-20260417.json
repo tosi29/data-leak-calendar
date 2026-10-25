@@ -1,0 +1,49 @@
+{
+  "id": "hyogo-pharmacy-form-20260417",
+  "organization": {
+    "name": "兵庫県（薬務課）",
+    "sector": "行政・自治体"
+  },
+  "title": "麻薬廃棄届を別薬局へ誤送信し患者等の情報が漏えい",
+  "summary": "オンライン届出システムで控えの電子ファイルを別薬局に送信した。",
+  "published_on": "2026-04-17",
+  "first_published_on": "2026-04-17",
+  "publication_kind": "initial",
+  "occurred_on": "2026-04-10",
+  "detected_on": "2026-04-14",
+  "updated_on": "2026-10-26",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "accident",
+  "cause": {
+    "category": "misdelivery",
+    "detail": "届出控えの返信先を誤った。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 2,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表対象は2人。全件の流出確定とは限らない。"
+    }
+  ],
+  "data_types": [
+    "患者氏名",
+    "医薬品名称",
+    "届出担当者氏名",
+    "メールアドレス"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://web.pref.hyogo.lg.jp/kf18/press/20260416.html",
+      "title": "兵庫県／個人情報の漏えい（患者氏名及び薬局が廃棄した医薬品名称等）について",
+      "type": "official",
+      "published_on": "2026-04-17",
+      "checked_on": "2026-10-26"
+    }
+  ],
+  "updates": [],
+  "notes": "患者1人と届出担当者1人。URL末尾20260416ではなく公式発表日時4月17日を採用。"
+}

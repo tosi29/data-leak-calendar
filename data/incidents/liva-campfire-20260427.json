@@ -1,0 +1,54 @@
+{
+  "id": "liva-campfire-20260427",
+  "organization": {
+    "name": "リヴァ（双極はたらくラボ）",
+    "sector": "企業・団体"
+  },
+  "title": "CAMPFIREの侵害でラボ立ち上げ支援者情報に漏えいのおそれ",
+  "summary": "2021年の立ち上げプロジェクトで利用したサービスの情報漏えい可能性を公表。",
+  "published_on": "2026-04-27",
+  "first_published_on": "2026-04-27",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-26",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。具体的な侵入手口は未特定。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "対象規模は未公表。"
+    }
+  ],
+  "data_types": [
+    "クラウドファンディング登録情報"
+  ],
+  "related_vendor": "CAMPFIRE",
+  "sources": [
+    {
+      "url": "https://bipolar-work.com/news/9420",
+      "title": "「双極はたらくラボ」クラウドファンディングでの個人情報漏えいの可能性に関するお詫びとお知らせ",
+      "type": "official",
+      "published_on": "2026-04-27",
+      "checked_on": "2026-10-26"
+    }
+  ],
+  "updates": [],
+  "notes": "",
+  "vendors": [
+    {
+      "name": "CAMPFIRE",
+      "role": "service",
+      "detail": "当該事案に関係するサービス・業務の提供元として公式本文に記載。",
+      "source_index": 0
+    }
+  ]
+}

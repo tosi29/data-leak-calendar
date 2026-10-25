@@ -1,0 +1,53 @@
+{
+  "id": "okayama-ud-mail-20260430",
+  "organization": {
+    "name": "岡山県（UD協働のパートナー事業）",
+    "sector": "行政・自治体"
+  },
+  "title": "委託先の会議通知メールでアドレスが閲覧可能",
+  "summary": "おかやまUDアンバサダーへの通知を、他の送信先アドレスが見える状態で送信した。",
+  "published_on": "2026-04-30",
+  "first_published_on": "2026-04-30",
+  "publication_kind": "initial",
+  "occurred_on": "2026-04-27",
+  "detected_on": "2026-04-28",
+  "updated_on": "2026-10-26",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "accident",
+  "cause": {
+    "category": "misdelivery",
+    "detail": "委託事業者が宛先を閲覧可能な状態でメールを送信。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 84,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "公表対象は84件。全件の流出確定とは限らない。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.pref.okayama.jp/site/presssystem/1034482.html",
+      "title": "委託先におけるメール誤送信による個人情報（メールアドレス）の漏洩について",
+      "type": "official",
+      "published_on": "2026-04-30",
+      "checked_on": "2026-10-26"
+    },
+    {
+      "url": "https://www.pref.okayama.jp/uploaded/life/1034482_10008958_misc.pdf",
+      "title": "メールアドレス漏えいに関する報道発表資料",
+      "type": "official",
+      "published_on": "2026-04-30",
+      "checked_on": "2026-10-26"
+    }
+  ],
+  "updates": [],
+  "notes": "84件のうち個人名を含む57件は内数。"
+}

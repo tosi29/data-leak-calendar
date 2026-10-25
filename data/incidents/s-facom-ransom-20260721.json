@@ -5,12 +5,12 @@
     "sector": "製造"
   },
   "title": "ランサムウェア被害の調査で取引先従業員情報の流出可能性",
-  "published_on": "2026-07-21",
+  "published_on": "2026-04-14",
   "occurred_on": null,
   "detected_on": null,
-  "updated_on": "2026-10-18",
+  "updated_on": "2026-10-26",
   "first_published_on": "2026-04-14",
-  "publication_kind": "followup",
+  "publication_kind": "initial",
   "verification": "official",
   "leak_status": "suspected",
   "incident_type": "attack",
@@ -49,8 +49,21 @@
       "title": "公式ニュース一覧：第三者の不正アクセスについて（続報）",
       "published_on": "2026-07-21",
       "checked_on": "2026-10-18"
+    },
+    {
+      "url": "https://s-facom.jp/news/ua/",
+      "title": "第三者の不正アクセスによるシステム障害について | お知らせ | 新エフエイコム – 工場自動化（FA）・DX推進",
+      "type": "official",
+      "published_on": "2026-04-14",
+      "checked_on": "2026-10-26"
     }
   ],
-  "notes": "続報本文に掲載日表示がないため、公式ニュース一覧の7月21日表示と照合。",
-  "updates": []
+  "notes": "続報本文に掲載日表示がないため、公式ニュース一覧の7月21日表示と照合。 2026年4月遡及調査で掲載日を2026-07-21から2026-04-14へ修正。ID・後続の対象規模と調査結果を保持。初報本文に日付表示がないため、公式お知らせ一覧の4月14日表示も照合。",
+  "updates": [
+    {
+      "date": "2026-07-21",
+      "summary": "後続の公表・調査結果を同一記録に保持。",
+      "source_index": 0
+    }
+  ]
 }

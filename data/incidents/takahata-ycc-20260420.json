@@ -1,0 +1,58 @@
+{
+  "id": "takahata-ycc-20260420",
+  "organization": {
+    "name": "高畠町（転作水田管理システム）",
+    "sector": "行政・自治体"
+  },
+  "title": "YCC侵害で農業関係者2,354人分に漏えいのおそれ",
+  "summary": "保守等を委託していたシステムのデータが委託先サーバーに格納されていた。",
+  "published_on": "2026-04-20",
+  "first_published_on": "2026-04-20",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-26",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。具体的な侵入手口は未特定。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": 2354,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表対象は2,354人。全件の流出確定とは限らない。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "電話番号",
+    "共済組合員等コード",
+    "口座情報"
+  ],
+  "related_vendor": "YCC情報システム",
+  "sources": [
+    {
+      "url": "https://www.town.takahata.yamagata.jp/soshiki/2/3820.html",
+      "title": "株式会社YCC情報システムに対する不正アクセス事案について – 高畠町ホームページ（企画課）",
+      "type": "official",
+      "published_on": "2026-04-20",
+      "checked_on": "2026-10-26"
+    }
+  ],
+  "updates": [],
+  "notes": "",
+  "vendors": [
+    {
+      "name": "YCC情報システム",
+      "role": "operations",
+      "detail": "当該事案に関係するサービス・業務の提供元として公式本文に記載。",
+      "source_index": 0
+    }
+  ]
+}

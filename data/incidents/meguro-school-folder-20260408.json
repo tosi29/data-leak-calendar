@@ -1,0 +1,52 @@
+{
+  "id": "meguro-school-folder-20260408",
+  "organization": {
+    "name": "目黒区教育委員会（区立小学校）",
+    "sector": "行政・自治体"
+  },
+  "title": "共有フォルダに会議録を保存し児童9人の情報が漏えい",
+  "summary": "児童もアクセスできる場所へ生活指導等の会議記録を保存し、児童が内容を閲覧した。",
+  "published_on": "2026-04-08",
+  "first_published_on": "2026-04-08",
+  "publication_kind": "initial",
+  "occurred_on": "2025-12-02",
+  "detected_on": "2025-12-03",
+  "updated_on": "2026-10-26",
+  "verification": "official",
+  "leak_status": "exposed",
+  "incident_type": "accident",
+  "cause": {
+    "category": "configuration",
+    "detail": "会議録を児童等がアクセス可能な共有フォルダへ保存した。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 9,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表対象は9人。全件の流出確定とは限らない。"
+    }
+  ],
+  "data_types": [
+    "学年",
+    "学級",
+    "氏名",
+    "学習支援情報",
+    "生活指導情報",
+    "登校支援情報",
+    "見守り情報"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.city.meguro.tokyo.jp/kouhou/kusei/kouhou/pr20260408.html",
+      "title": "区立小学校における個人情報の漏えいにつきまして（令和8年4月8日）",
+      "type": "official",
+      "published_on": "2026-04-08",
+      "checked_on": "2026-10-26"
+    }
+  ],
+  "updates": [],
+  "notes": "公表日はページ見出しの4月8日。更新日4月14日と区別する。学校内の発見12月3日と教育委員会への報告12月25日も区別。"
+}

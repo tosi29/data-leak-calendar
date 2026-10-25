@@ -1,0 +1,67 @@
+{
+  "id": "rise-ielove-20260410",
+  "organization": {
+    "name": "RISEグループ",
+    "sector": "企業・団体"
+  },
+  "title": "いえらぶCLOUDの顧客情報流出を調査、続報で否定",
+  "summary": "当初は顧客情報への影響を調査。4月30日の最終回答で、自社データの不正アクセス・持ち出しは認められないと公表。",
+  "published_on": "2026-04-10",
+  "first_published_on": "2026-04-10",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-26",
+  "verification": "official",
+  "leak_status": "ruled_out",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。具体的な侵入手口は未特定。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "対象規模は未公表。"
+    }
+  ],
+  "data_types": [
+    "顧客情報"
+  ],
+  "related_vendor": "いえらぶGROUP",
+  "sources": [
+    {
+      "url": "https://rise-g.co.jp/2026/04/10/unauthorized-access/",
+      "title": "【重要】弊社が利用する外部システムへの不正アクセスによる個人情報流出の可能性について | RISEグループ",
+      "type": "official",
+      "published_on": "2026-04-10",
+      "checked_on": "2026-10-26"
+    },
+    {
+      "url": "https://rise-g.co.jp/2026/04/30/unauthorized-access2/",
+      "title": "【重要】弊社利用システムへの不正アクセスに関する調査結果について | RISEグループ",
+      "type": "official",
+      "published_on": "2026-04-30",
+      "checked_on": "2026-10-26"
+    }
+  ],
+  "updates": [
+    {
+      "date": "2026-04-30",
+      "summary": "提供元調査で自社顧客情報の外部流出はなかったと公表。",
+      "source_index": 1
+    }
+  ],
+  "notes": "否定された事案として記録し、漏えい確認件数には含めない。",
+  "vendors": [
+    {
+      "name": "いえらぶGROUP",
+      "role": "service",
+      "detail": "当該事案に関係するサービス・業務の提供元として公式本文に記載。",
+      "source_index": 0
+    }
+  ]
+}

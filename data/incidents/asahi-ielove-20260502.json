@@ -6,9 +6,9 @@
   },
   "title": "いえらぶCLOUD経由の顧客情報2,092件の流出を確認",
   "summary": "第二報で調査結果と顧客情報の対象範囲を公表。",
-  "published_on": "2026-05-02",
+  "published_on": "2026-04-25",
   "first_published_on": "2026-04-25",
-  "publication_kind": "followup",
+  "publication_kind": "initial",
   "occurred_on": null,
   "detected_on": null,
   "updated_on": "2026-10-26",
@@ -46,10 +46,23 @@
       "type": "official",
       "published_on": "2026-05-02",
       "checked_on": "2026-10-26"
+    },
+    {
+      "url": "https://asahijyutaku-corporate.jp/news/archives/235",
+      "title": "【重要】株式会社いえらぶGROUPのクラウドサービスに対する不正アクセス発生に伴う個人情報流出に関するお知らせ（第一報）",
+      "type": "official",
+      "published_on": "2026-04-25",
+      "checked_on": "2026-10-26"
     }
   ],
-  "updates": [],
-  "notes": "",
+  "updates": [
+    {
+      "date": "2026-05-02",
+      "summary": "後続の公表・調査結果を同一記録に保持。",
+      "source_index": 0
+    }
+  ],
+  "notes": "2026年4月遡及調査で掲載日を2026-05-02から2026-04-25へ修正。ID・後続の対象規模と調査結果を保持。",
   "vendors": [
     {
       "name": "いえらぶGROUP",

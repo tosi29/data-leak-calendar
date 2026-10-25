@@ -1,0 +1,47 @@
+{
+  "id": "ncsol-staff-list-20260407",
+  "organization": {
+    "name": "日本カーソリューションズ",
+    "sector": "企業・団体"
+  },
+  "title": "役員を装うメールに社員名簿・連絡先を送信",
+  "summary": "第三者からのなりすまし要求に応じ、社員情報を含むファイルが流出した。",
+  "published_on": "2026-04-07",
+  "first_published_on": "2026-04-07",
+  "publication_kind": "initial",
+  "occurred_on": "2026-03-31",
+  "detected_on": null,
+  "updated_on": "2026-10-26",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "役員名を騙ったメールにより、社員が名簿ファイルを送信した。攻撃により情報を取得された事案。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "対象規模は未公表。"
+    }
+  ],
+  "data_types": [
+    "社員名簿",
+    "連絡先"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.ncsol.co.jp/cms/wp-content/uploads/2026/04/20260407_NewRelease-jyouhou.pdf",
+      "title": "【注意喚起】弊社社員名簿および連絡先の流出事案発生のご報告",
+      "type": "official",
+      "published_on": "2026-04-07",
+      "checked_on": "2026-10-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

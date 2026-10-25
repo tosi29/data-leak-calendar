@@ -6,10 +6,10 @@
   },
   "title": "ランサムウェア被害の調査結果",
   "summary": "従業員情報を保存するサーバーが不正アクセスを受け、漏えいの可能性を否定できないと公表。",
-  "published_on": "2026-09-07",
+  "published_on": "2026-04-06",
   "occurred_on": null,
   "detected_on": null,
-  "updated_on": "2026-10-15",
+  "updated_on": "2026-10-26",
   "first_published_on": "2026-02-14",
   "publication_kind": "followup",
   "verification": "official",
@@ -51,9 +51,16 @@
       "title": "ランサムウェア感染被害に伴う退職者の皆様の個人情報に関するお知らせ | 【公式】ワシントンホテル株式会社",
       "published_on": "2026-09-25",
       "checked_on": "2026-10-15"
+    },
+    {
+      "url": "https://www.washingtonhotel.co.jp/corporation/news/207/",
+      "title": "ランサムウェア感染被害のお知らせ（第3報） | 【公式】ワシントンホテル株式会社",
+      "type": "official",
+      "published_on": "2026-04-06",
+      "checked_on": "2026-10-26"
     }
   ],
-  "notes": "9月7日の最終報について、9月25日の公式通知が参照。項目は入社時期等により異なる。情報窃取の明確な痕跡・外部公開は未確認。",
+  "notes": "9月7日の最終報について、9月25日の公式通知が参照。項目は入社時期等により異なる。情報窃取の明確な痕跡・外部公開は未確認。 2026年4月遡及調査で掲載日を2026-09-07から2026-04-06へ修正。ID・後続の対象規模と調査結果を保持。4月の第3報を期間内続報として追加。9月公表で案内された従業員情報への影響は保持。",
   "updates": [
     {
       "date": "2026-09-25",
@@ -63,9 +70,9 @@
   ],
   "incident_type": "attack",
   "vendor_research": {
-    "checked_on": "2026-10-15",
+    "checked_on": "2026-10-26",
     "result": "not_identified",
-    "note": "掲載出典と追加検索で、当該事案に関係する外部の開発・運用・サービス・基盤会社の社名と役割を特定できませんでした。",
+    "note": "掲載出典と追加検索で、当該事案に関係する外部の開発・運用・サービス・基盤会社の社名と役割を特定できませんでした。 4月に追加した公表も確認し、外部ITベンダーの社名・役割を特定できず。",
     "source_checks": [
       {
         "source_index": 0,
@@ -73,6 +80,10 @@
       },
       {
         "source_index": 1,
+        "status": "reviewed"
+      },
+      {
+        "source_index": 2,
         "status": "reviewed"
       }
     ]

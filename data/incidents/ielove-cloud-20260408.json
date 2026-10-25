@@ -1,0 +1,64 @@
+{
+  "id": "ielove-cloud-20260408",
+  "organization": {
+    "name": "いえらぶGROUP",
+    "sector": "企業・団体"
+  },
+  "title": "いえらぶCLOUDへの侵害でデータの不正取得を確認",
+  "summary": "不動産会社等が利用するクラウドサービスで、関係者の情報が不正に読み出された。",
+  "published_on": "2026-04-08",
+  "first_published_on": "2026-04-08",
+  "publication_kind": "initial",
+  "occurred_on": "2026-04-05",
+  "detected_on": "2026-04-06",
+  "updated_on": "2026-10-26",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "vulnerability",
+    "detail": "システムの脆弱性と不正取得された可能性の高い利用組織アカウントが悪用された。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "対象規模は未公表。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "メールアドレス",
+    "電話番号",
+    "住所",
+    "希望物件条件",
+    "問い合わせ履歴"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.ielove-group.jp/news/detail-1371",
+      "title": "当社のクラウドサービスへの不正アクセスに関するお知らせ｜株式会社いえらぶGROUP",
+      "type": "official",
+      "published_on": "2026-04-08",
+      "checked_on": "2026-10-26"
+    },
+    {
+      "url": "https://www.ielove-group.jp/news/detail-1379",
+      "title": "【第二報】当社のクラウドサービスへの不正アクセスに関する調査状況および今後の対応について｜株式会社いえらぶGROUP",
+      "type": "official",
+      "published_on": "2026-04-30",
+      "checked_on": "2026-10-26"
+    }
+  ],
+  "updates": [
+    {
+      "date": "2026-04-30",
+      "summary": "外部専門機関の調査と対象項目を公表。利用組織のアカウント窃取は可能性が高いとの説明。",
+      "source_index": 1
+    }
+  ],
+  "notes": "サービス提供元としての記録。利用組織各社の公表と独立した攻撃として数えない。"
+}

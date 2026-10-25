@@ -1,0 +1,83 @@
+{
+  "id": "higashine-ycc-20260427",
+  "organization": {
+    "name": "東根市（各業務システム）",
+    "sector": "行政・自治体"
+  },
+  "title": "YCC侵害で住民記録等に漏えいのおそれ",
+  "summary": "委託先のサーバーに構築・運用時のデータが残り、住民記録や税情報等が対象となる可能性を公表。",
+  "published_on": "2026-04-27",
+  "first_published_on": "2026-04-27",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-26",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。具体的な侵入手口は未特定。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": 110000,
+      "unit": "records",
+      "qualifier": "approximate",
+      "description": "住民記録約110,000件。"
+    },
+    {
+      "count": 55000,
+      "unit": "records",
+      "qualifier": "approximate",
+      "description": "国民健康保険約55,000件。"
+    },
+    {
+      "count": 19000,
+      "unit": "records",
+      "qualifier": "approximate",
+      "description": "固定資産税約19,000件。"
+    },
+    {
+      "count": 34000,
+      "unit": "records",
+      "qualifier": "approximate",
+      "description": "軽自動車税約34,000件。"
+    },
+    {
+      "count": 10,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "申告支援10件。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "生年月日",
+    "マイナンバー",
+    "給与情報",
+    "車両情報"
+  ],
+  "related_vendor": "YCC情報システム",
+  "sources": [
+    {
+      "url": "https://www.city.higashine.yamagata.jp/news/3508",
+      "title": "株式会社YCC情報システムに対する不正アクセス発生に関する報告について | 東根市 「ようこそ果樹王国ひがしねへ」",
+      "type": "official",
+      "published_on": "2026-04-27",
+      "checked_on": "2026-10-26"
+    }
+  ],
+  "updates": [],
+  "notes": "公表では同一人の重複あり。各業務の件数を実人数へ変換しない。マイナンバーは一部の対象情報のみ。",
+  "vendors": [
+    {
+      "name": "YCC情報システム",
+      "role": "operations",
+      "detail": "当該事案に関係するサービス・業務の提供元として公式本文に記載。",
+      "source_index": 0
+    }
+  ]
+}

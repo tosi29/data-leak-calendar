@@ -1,0 +1,46 @@
+{
+  "id": "fmu-patient-sharing-20260427",
+  "organization": {
+    "name": "福島県立医科大学附属病院",
+    "sector": "企業・団体"
+  },
+  "title": "職員が患者1人の情報を第三者へ不適切に伝達",
+  "summary": "医療従事者が業務上知った患者情報を、本来共有すべきでない第三者へ伝えていた。",
+  "published_on": "2026-04-27",
+  "first_published_on": "2026-04-27",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-26",
+  "verification": "official",
+  "leak_status": "improper_sharing",
+  "incident_type": "improper_handling",
+  "cause": {
+    "category": "improper_sharing",
+    "detail": "職員が業務上知り得た患者情報を権限のない第三者へ伝達。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 1,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表対象は1人。全件の流出確定とは限らない。"
+    }
+  ],
+  "data_types": [
+    "患者情報（詳細項目は未公表）"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.fmu.ac.jp/hospitals/hikarigaoka/news/info/20260427_1.html",
+      "title": "【お詫び】附属病院職員による患者情報の不適切な取扱い事案について",
+      "type": "official",
+      "published_on": "2026-04-27",
+      "checked_on": "2026-10-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

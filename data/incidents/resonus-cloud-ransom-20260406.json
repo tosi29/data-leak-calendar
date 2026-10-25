@@ -1,0 +1,46 @@
+{
+  "id": "resonus-cloud-ransom-20260406",
+  "organization": {
+    "name": "日本美容医療研究機構（リゾナスフェイスクリニック東京）",
+    "sector": "企業・団体"
+  },
+  "title": "クラウドサーバーの侵害で患者369人の情報が不正取得",
+  "summary": "ランサムウェアを用いた攻撃を受け、患者の個人情報の一部が取得されたと公表。",
+  "published_on": "2026-04-06",
+  "first_published_on": "2026-04-06",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-03-11",
+  "updated_on": "2026-10-26",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。具体的な侵入手口は未特定。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": 369,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表対象は369人。全件の流出確定とは限らない。"
+    }
+  ],
+  "data_types": [
+    "患者の個人情報（詳細項目は非公表）"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://yamaguchisensei.com/2026/04/06/news202604/",
+      "title": "患者様の個人情報に関する不正アクセス発生のご報告とお詫び",
+      "type": "official",
+      "published_on": "2026-04-06",
+      "checked_on": "2026-10-26"
+    }
+  ],
+  "updates": [],
+  "notes": "個別通知を優先し、公開ページでは不正取得された項目の詳細を非公表。項目を推測して追加しない。"
+}

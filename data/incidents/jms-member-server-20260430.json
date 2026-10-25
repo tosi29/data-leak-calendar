@@ -1,0 +1,59 @@
+{
+  "id": "jms-member-server-20260430",
+  "organization": {
+    "name": "トヨタモビリティパーツ（ジェームス）",
+    "sector": "企業・団体"
+  },
+  "title": "サーバーへの不正アクセスで会員情報に漏えいのおそれ",
+  "summary": "4月25・26日に不正アクセスを検知。会員氏名・連絡先などへの影響を公表。",
+  "published_on": "2026-04-30",
+  "first_published_on": "2026-04-30",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-04-25",
+  "updated_on": "2026-10-26",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。具体的な侵入手口は未特定。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "対象規模は未公表。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "郵便番号",
+    "住所",
+    "電話番号",
+    "生年月日",
+    "性別",
+    "会員番号",
+    "メールアドレス"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.jms-car.com/news/016719.html",
+      "title": "【お詫び】ジェームスにおける個人情報漏えいの可能性に関するご報告｜ニュース｜タイヤ交換・オイル交換はお任せください｜カー用品のジェームス(jms)",
+      "type": "official",
+      "published_on": "2026-04-30",
+      "checked_on": "2026-10-26"
+    }
+  ],
+  "updates": [
+    {
+      "date": "2026-07-21",
+      "summary": "アプリ本体のセキュリティ・不正アクセス監視の強化を追記。",
+      "source_index": 0
+    }
+  ],
+  "notes": "公表4月30日と同じページの7月21日追記を区別。クレジットカード情報は保有せず対象外。"
+}

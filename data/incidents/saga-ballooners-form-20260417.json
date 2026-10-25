@@ -1,0 +1,51 @@
+{
+  "id": "saga-ballooners-form-20260417",
+  "organization": {
+    "name": "佐賀バルーナーズ",
+    "sector": "企業・団体"
+  },
+  "title": "チケット申込フォームの設定ミスで他人の回答が閲覧可能",
+  "summary": "自動締切を設定する操作時に、回答者が他人の申込情報も見られる状態となった。",
+  "published_on": "2026-04-17",
+  "first_published_on": "2026-04-17",
+  "publication_kind": "initial",
+  "occurred_on": "2026-04-14",
+  "detected_on": "2026-04-15",
+  "updated_on": "2026-10-26",
+  "verification": "official",
+  "leak_status": "exposed",
+  "incident_type": "accident",
+  "cause": {
+    "category": "configuration",
+    "detail": "Googleフォームの設定操作を誤り、変更後の確認も不足していた。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "対象規模は未公表。"
+    }
+  ],
+  "data_types": [
+    "氏名・フリガナ",
+    "メールアドレス",
+    "電話番号",
+    "性別",
+    "年代",
+    "居住県・市等"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://ballooners.jp/news/detail/id=49268?nf=1",
+      "title": "「初観戦者限定！ワンコインチケット」での個人情報漏洩に関するお詫びとお知らせ | 佐賀バルーナーズ",
+      "type": "official",
+      "published_on": "2026-04-17",
+      "checked_on": "2026-10-26"
+    }
+  ],
+  "updates": [],
+  "notes": "2025年8月26日〜2026年4月14日の申込者が対象。人数は未公表。"
+}

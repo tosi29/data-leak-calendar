@@ -1,0 +1,54 @@
+{
+  "id": "stardom-campfire-20260428",
+  "organization": {
+    "name": "スターダム",
+    "sector": "企業・団体"
+  },
+  "title": "CAMPFIREの侵害で記念興行支援者情報に漏えいのおそれ",
+  "summary": "なつぽい・安納サオリ10周年記念興行のプロジェクト支援者も対象となる可能性を公表。",
+  "published_on": "2026-04-28",
+  "first_published_on": "2026-04-28",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-26",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。具体的な侵入手口は未特定。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "対象規模は未公表。"
+    }
+  ],
+  "data_types": [
+    "プロジェクト支援者の個人情報"
+  ],
+  "related_vendor": "CAMPFIRE",
+  "sources": [
+    {
+      "url": "https://wwr-stardom.com/news/20260428_news/",
+      "title": "クラウドファンディング「CAMPFIRE」不正アクセスに伴う、当社プロジェクト支援者様へのお知らせ | ニュース",
+      "type": "official",
+      "published_on": "2026-04-28",
+      "checked_on": "2026-10-26"
+    }
+  ],
+  "updates": [],
+  "notes": "提供元全体の被害人数は当社の支援者数へ転用しない。",
+  "vendors": [
+    {
+      "name": "CAMPFIRE",
+      "role": "service",
+      "detail": "当該事案に関係するサービス・業務の提供元として公式本文に記載。",
+      "source_index": 0
+    }
+  ]
+}

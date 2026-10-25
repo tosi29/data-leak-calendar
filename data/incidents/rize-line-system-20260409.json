@@ -1,0 +1,62 @@
+{
+  "id": "rize-line-system-20260409",
+  "organization": {
+    "name": "リゼクリニック",
+    "sector": "企業・団体"
+  },
+  "title": "LINE配信システムへの侵害で患者情報に漏えいのおそれ",
+  "summary": "不審メッセージ配信後、LINE表示名や相談トーク等が流出・閲覧された可能性を公表。",
+  "published_on": "2026-04-09",
+  "first_published_on": "2026-04-09",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-26",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。具体的な侵入手口は未特定。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "対象規模は未公表。"
+    }
+  ],
+  "data_types": [
+    "LINE上の表示名",
+    "登録院名",
+    "関心のあるキャンペーン",
+    "相談トーク履歴"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.rizeclinic.com/news/37201.html",
+      "title": "【重要】公式LINEアカウントにおける不審なメッセージ配信に関するお詫びとお知らせ | 医療脱毛専門のリゼクリニック",
+      "type": "official",
+      "published_on": "2026-04-09",
+      "checked_on": "2026-10-26"
+    },
+    {
+      "url": "https://www.rizeclinic.com/news/37246.html",
+      "title": "【重要】LINE配信システムの不正アクセスによる調査状況のご報告 | 医療脱毛専門のリゼクリニック",
+      "type": "official",
+      "published_on": "2026-04-17",
+      "checked_on": "2026-10-26"
+    }
+  ],
+  "updates": [
+    {
+      "date": "2026-04-17",
+      "summary": "表示名等の流出と一部相談履歴の閲覧可能性を公表。4月27日に不審URLの状況等を追記。",
+      "source_index": 1
+    }
+  ],
+  "notes": "カルテの氏名・電話番号等、LINEパスワードは配信システム内に保管せず対象外。"
+}

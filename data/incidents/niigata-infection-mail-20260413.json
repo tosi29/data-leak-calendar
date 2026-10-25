@@ -1,0 +1,46 @@
+{
+  "id": "niigata-infection-mail-20260413",
+  "organization": {
+    "name": "新潟県（感染症週報速報）",
+    "sector": "行政・自治体"
+  },
+  "title": "感染症週報の誤送信で個人アドレス13件が漏えい",
+  "summary": "90件へのメールを宛先欄で送信し、公開済みや機関アドレスを除く13件が対象となった。",
+  "published_on": "2026-04-13",
+  "first_published_on": "2026-04-13",
+  "publication_kind": "initial",
+  "occurred_on": "2026-04-09",
+  "detected_on": "2026-04-10",
+  "updated_on": "2026-10-26",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "accident",
+  "cause": {
+    "category": "misdelivery",
+    "detail": "複数の送信先をTo欄で設定した。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 13,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "公表対象は13件。全件の流出確定とは限らない。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.pref.niigata.lg.jp/sec/kanyaku/2026413houdoushyuuhou.html",
+      "title": "メール送信によるメールアドレスの漏えい事案の発生について – 新潟県ホームページ",
+      "type": "official",
+      "published_on": "2026-04-13",
+      "checked_on": "2026-10-26"
+    }
+  ],
+  "updates": [],
+  "notes": "全送信先90件を非公開の個人アドレス数へ転用しない。"
+}

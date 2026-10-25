@@ -1,0 +1,59 @@
+{
+  "id": "matsuyama-housing-anabuki-20260417",
+  "organization": {
+    "name": "松山市営住宅管理センター（穴吹ハウジングサービス）",
+    "sector": "企業・団体"
+  },
+  "title": "指定管理者の侵害で住宅入居者情報7,237件が漏えい",
+  "summary": "攻撃者公開データの精査で、住宅入居者の氏名・生年月日等の流出を確認。",
+  "published_on": "2026-04-17",
+  "first_published_on": "2026-04-17",
+  "publication_kind": "initial",
+  "occurred_on": "2026-02-03",
+  "detected_on": null,
+  "updated_on": "2026-10-26",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。具体的な侵入手口は未特定。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": 7237,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "公表対象は7,237件。全件の流出確定とは限らない。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "団地名",
+    "部屋番号",
+    "生年月日",
+    "生活保護受給の有無",
+    "障がい者手帳等の有無"
+  ],
+  "related_vendor": "穴吹ハウジングサービス",
+  "sources": [
+    {
+      "url": "https://matsuyama-shijyu.com/news/entry-107.html",
+      "title": "ランサムウェア攻撃による市営住宅入居者の情報漏えいに関するお知らせとお詫び",
+      "type": "official",
+      "published_on": "2026-04-17",
+      "checked_on": "2026-10-26"
+    }
+  ],
+  "updates": [],
+  "notes": "生活保護488件と障がい者手帳等663件は7,237件の内数。合算しない。穴吹グループ全体・香川県営住宅の公表とは対象が異なる。",
+  "vendors": [
+    {
+      "name": "穴吹ハウジングサービス",
+      "role": "operations",
+      "detail": "当該事案に関係するサービス・業務の提供元として公式本文に記載。",
+      "source_index": 0
+    }
+  ]
+}

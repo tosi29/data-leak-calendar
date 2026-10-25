@@ -1,0 +1,59 @@
+{
+  "id": "kaneyama-ycc-20260417",
+  "organization": {
+    "name": "金山町（町立金山診療所）",
+    "sector": "行政・自治体"
+  },
+  "title": "YCC侵害で診療所保有情報約13,000件に漏えいのおそれ",
+  "summary": "医療事務システム関連データが委託先サーバーに格納されていた。",
+  "published_on": "2026-04-17",
+  "first_published_on": "2026-04-17",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-26",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。具体的な侵入手口は未特定。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": 13000,
+      "unit": "records",
+      "qualifier": "approximate",
+      "description": "公表対象は13,000件。全件の流出確定とは限らない。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "性別",
+    "生年月日",
+    "保険情報",
+    "住所",
+    "電話番号"
+  ],
+  "related_vendor": "YCC情報システム",
+  "sources": [
+    {
+      "url": "https://www.town.kaneyama.yamagata.jp/machinososhiki/shinryojo/1/4645.html",
+      "title": "株式会社YCC情報システム社に対するサイバー攻撃に係る町立金山診療所保有個人情報の漏えいの恐れがある事案について",
+      "type": "official",
+      "published_on": "2026-04-17",
+      "checked_on": "2026-10-26"
+    }
+  ],
+  "updates": [],
+  "notes": "マイナンバー・カード番号・銀行口座情報は対象外。",
+  "vendors": [
+    {
+      "name": "YCC情報システム",
+      "role": "service",
+      "detail": "当該事案に関係するサービス・業務の提供元として公式本文に記載。",
+      "source_index": 0
+    }
+  ]
+}

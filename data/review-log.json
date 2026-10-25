@@ -6470,5 +6470,144 @@
     "incident_ids": [
       "imakane-raiden-20261014"
     ]
+  },
+  {
+    "candidate": {
+      "id": "may-review-1038fe3552ca",
+      "organization": "メルアカに不正アクセス、総当り攻撃受け - エスペック",
+      "reported_on": "2026-10-26",
+      "verification": "pending",
+      "reference_url": "https://www.security-next.com/184469",
+      "note": "5月遡及調査で発見。reported_onは発見日であり公表日ではない。5月の報道で発見したが、組織の公表日と一次資料・対象情報の照合を完了していない。報道日や発生日を掲載公表日には採用しない。",
+      "reviewed_on": "2026-10-26",
+      "checked_urls": [
+        "https://www.security-next.com/184469"
+      ]
+    },
+    "reviewed_on": "2026-10-26",
+    "resolution": "published",
+    "incident_ids": [
+      "espec-mail-20260421"
+    ],
+    "reason": "4月の公式本文で対象情報・規模と公表日を照合。5月の報道日を公表日とせず、同一事案として掲載。",
+    "source_urls": [
+      "https://www.espec.co.jp/news/data/20260421.pdf"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "may-review-3ec3f988db5c",
+      "organization": "職員が患者情報を第三者に漏洩 - 福島県立医科大病院",
+      "reported_on": "2026-10-26",
+      "verification": "pending",
+      "reference_url": "https://www.security-next.com/184355",
+      "note": "5月遡及調査で発見。reported_onは発見日であり公表日ではない。5月の報道で発見したが、組織の公表日と一次資料・対象情報の照合を完了していない。報道日や発生日を掲載公表日には採用しない。",
+      "reviewed_on": "2026-10-26",
+      "checked_urls": [
+        "https://www.security-next.com/184355"
+      ]
+    },
+    "reviewed_on": "2026-10-26",
+    "resolution": "published",
+    "incident_ids": [
+      "fmu-patient-sharing-20260427"
+    ],
+    "reason": "4月の公式本文で対象情報・規模と公表日を照合。5月の報道日を公表日とせず、同一事案として掲載。",
+    "source_urls": [
+      "https://www.fmu.ac.jp/hospitals/hikarigaoka/news/info/20260427_1.html"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "may-review-831ccd5fc8b8",
+      "organization": "委託先がランサム被害、サーバ内部に組合員の個人情報 - コープいしかわ",
+      "reported_on": "2026-10-26",
+      "verification": "pending",
+      "reference_url": "https://www.security-next.com/184416",
+      "note": "5月遡及調査で発見。reported_onは発見日であり公表日ではない。5月の報道で発見したが、組織の公表日と一次資料・対象情報の照合を完了していない。報道日や発生日を掲載公表日には採用しない。",
+      "reviewed_on": "2026-10-26",
+      "checked_urls": [
+        "https://www.security-next.com/184416"
+      ]
+    },
+    "reviewed_on": "2026-10-26",
+    "resolution": "published",
+    "incident_ids": [
+      "ishikawa-coop-gift-20260424"
+    ],
+    "reason": "4月の公式本文で対象情報・規模と公表日を照合。5月の報道日を公表日とせず、同一事案として掲載。",
+    "source_urls": [
+      "https://www.ishikawa.coop/news/137349/"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "may-review-325f41d5a17f",
+      "organization": "ワンコインチケットの申込フォームで設定ミス - 佐賀バスケチーム",
+      "reported_on": "2026-10-26",
+      "verification": "pending",
+      "reference_url": "https://www.security-next.com/184034",
+      "note": "5月遡及調査で発見。reported_onは発見日であり公表日ではない。5月の報道で発見したが、組織の公表日と一次資料・対象情報の照合を完了していない。報道日や発生日を掲載公表日には採用しない。",
+      "reviewed_on": "2026-10-26",
+      "checked_urls": [
+        "https://www.security-next.com/184034"
+      ]
+    },
+    "reviewed_on": "2026-10-26",
+    "resolution": "published",
+    "incident_ids": [
+      "saga-ballooners-form-20260417"
+    ],
+    "reason": "4月の公式本文で対象情報・規模と公表日を照合。5月の報道日を公表日とせず、同一事案として掲載。",
+    "source_urls": [
+      "https://ballooners.jp/news/detail/id=49268?nf=1"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "may-review-daca55d53d4b",
+      "organization": "3R宣言事業者向けのメールで誤送信 - 岡山県",
+      "reported_on": "2026-10-26",
+      "verification": "pending",
+      "reference_url": "https://www.security-next.com/184186",
+      "note": "5月遡及調査で発見。reported_onは発見日であり公表日ではない。5月の報道で発見したが、組織の公表日と一次資料・対象情報の照合を完了していない。報道日や発生日を掲載公表日には採用しない。",
+      "reviewed_on": "2026-10-26",
+      "checked_urls": [
+        "https://www.security-next.com/184186"
+      ]
+    },
+    "reviewed_on": "2026-10-26",
+    "resolution": "published",
+    "incident_ids": [
+      "okayama-3r-mail-20260427"
+    ],
+    "reason": "4月の公式本文で対象情報・規模と公表日を照合。5月の報道日を公表日とせず、同一事案として掲載。",
+    "source_urls": [
+      "https://www.pref.okayama.jp/site/presssystem/1034210.html",
+      "https://www.pref.okayama.jp/uploaded/attachment/412992.pdf"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "may-review-f79839fe4b4f",
+      "organization": "画像診断委託先でクラウド設定ミス、患者情報が閲覧可能に - マツダ病院",
+      "reported_on": "2026-10-26",
+      "verification": "pending",
+      "reference_url": "https://www.security-next.com/184223",
+      "note": "5月遡及調査で発見。reported_onは発見日であり公表日ではない。5月の報道で発見したが、組織の公表日と一次資料・対象情報の照合を完了していない。報道日や発生日を掲載公表日には採用しない。",
+      "reviewed_on": "2026-10-26",
+      "checked_urls": [
+        "https://www.security-next.com/184223"
+      ]
+    },
+    "reviewed_on": "2026-10-26",
+    "resolution": "published",
+    "incident_ids": [
+      "mazda-hospital-cloud-20260423"
+    ],
+    "reason": "4月の公式本文で対象情報・規模と公表日を照合。5月の報道日を公表日とせず、同一事案として掲載。",
+    "source_urls": [
+      "https://hospital.mazda.co.jp/news/20260423/index.html"
+    ]
   }
 ]

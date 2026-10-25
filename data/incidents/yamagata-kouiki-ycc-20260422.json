@@ -1,0 +1,57 @@
+{
+  "id": "yamagata-kouiki-ycc-20260422",
+  "organization": {
+    "name": "山形県後期高齢者医療広域連合",
+    "sector": "行政・自治体"
+  },
+  "title": "YCC侵害で療養費請求データ1,112件に漏えいのおそれ",
+  "summary": "国保連に委託しYCCへ一部再委託した審査支払業務のデータが対象。",
+  "published_on": "2026-04-22",
+  "first_published_on": "2026-04-22",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-26",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。具体的な侵入手口は未特定。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": 1112,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "公表対象は1,112件。全件の流出確定とは限らない。"
+    }
+  ],
+  "data_types": [
+    "保険者番号",
+    "被保険者記号番号",
+    "性別コード",
+    "生年月日コード"
+  ],
+  "related_vendor": "YCC情報システム",
+  "sources": [
+    {
+      "url": "https://www.yamagata-kouiki.jp/news/entry-365.html",
+      "title": "株式会社YCC情報システムに対するサイバー攻撃に係る個人情報の漏えいの恐れがある事案について | お知らせ | 山形県後期高齢者医療広域連合",
+      "type": "official",
+      "published_on": "2026-04-22",
+      "checked_on": "2026-10-26"
+    }
+  ],
+  "updates": [],
+  "notes": "2018年5月審査分。住所・氏名・電話番号・施術所名・負傷名は含まれない。国保連本体の候補は日付未確定のため別途保留。",
+  "vendors": [
+    {
+      "name": "YCC情報システム",
+      "role": "operations",
+      "detail": "国保連から審査支払業務の一部を再委託された事業者。",
+      "source_index": 0
+    }
+  ]
+}

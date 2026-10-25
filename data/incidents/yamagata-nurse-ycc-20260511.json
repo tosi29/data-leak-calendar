@@ -1,13 +1,13 @@
 {
   "id": "yamagata-nurse-ycc-20260511",
   "organization": {
-    "name": "山形県（看護職員業務従事者届）",
+    "name": "山形県（YCC委託業務）",
     "sector": "行政・自治体"
   },
-  "title": "委託先のランサムウェア被害で看護職員届出情報に漏えいのおそれ",
-  "summary": "平成26年度のデータ入力業務を委託したYCC情報システムにデータが残っていた。",
-  "published_on": "2026-05-11",
-  "first_published_on": "2026-05-11",
+  "title": "YCC侵害で県保有情報約26,800件に漏えいのおそれ",
+  "summary": "職員健康管理・看護職員届・医療・移住相談等のデータが委託先サーバーに保存されていた。",
+  "published_on": "2026-04-17",
+  "first_published_on": "2026-04-17",
   "publication_kind": "initial",
   "occurred_on": null,
   "detected_on": null,
@@ -22,19 +22,18 @@
   },
   "impact": [
     {
-      "count": null,
+      "count": 26800,
       "unit": "records",
-      "qualifier": "unknown",
-      "description": "対象人数・件数は未公表。"
+      "qualifier": "approximate",
+      "description": "4月16日時点の保管対象約26,800件。複数業務の延べ件数であり実人数・確定流出数ではない。"
     }
   ],
   "data_types": [
-    "看護職員免許登録番号",
-    "免許登録年月日",
-    "氏名（カタカナ）",
-    "性別",
-    "生年月日",
-    "住所地・業務従事場所のコード"
+    "職員健康管理情報",
+    "退職手当債権者登録情報",
+    "看護職員届出情報",
+    "患者情報",
+    "移住定住相談情報"
   ],
   "related_vendor": "YCC情報システム",
   "sources": [
@@ -44,10 +43,30 @@
       "type": "official",
       "published_on": "2026-05-11",
       "checked_on": "2026-10-26"
+    },
+    {
+      "url": "https://www.pref.yamagata.jp/020023/johokokai/yccpress.html",
+      "title": "県委託事業者へのサイバー攻撃について | 山形県",
+      "type": "official",
+      "published_on": "2026-04-17",
+      "checked_on": "2026-10-26"
+    },
+    {
+      "url": "https://www.pref.yamagata.jp/documents/51972/080417yccpress.pdf",
+      "title": "県委託事業者へのサイバー攻撃について（保管情報・件数一覧）",
+      "type": "official",
+      "published_on": "2026-04-17",
+      "checked_on": "2026-10-26"
     }
   ],
-  "updates": [],
-  "notes": "公式ページの更新表示日11日を採用。添付本人通知は7日付だが、その日をWeb公表日と断定しない。",
+  "updates": [
+    {
+      "date": "2026-05-11",
+      "summary": "看護職員業務従事者届の対象項目と本人への通知に関する公表。",
+      "source_index": 0
+    }
+  ],
+  "notes": "4月17日の県全体の公表と5月11日の看護職員届の公表は、同じ組織・同じ委託先侵害のため1記録に統合。看護職員届約15,000件は総数約26,800件の内数。IDは既存参照を保持。5月の看護職員届の具体的項目は元出典0で確認でき、4月の他業務すべてへ当てはめない。県の業務システム本体への影響は未確認。",
   "vendors": [
     {
       "name": "YCC情報システム",

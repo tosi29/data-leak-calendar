@@ -1,0 +1,60 @@
+{
+  "id": "jfa-campfire-20260425",
+  "organization": {
+    "name": "日本サッカー協会（JFAクラウドファンディング）",
+    "sector": "企業・団体"
+  },
+  "title": "CAMPFIREの侵害でプロジェクト支援者情報に漏えいのおそれ",
+  "summary": "利用していたクラウドファンディング基盤での不正アクセスを受けて支援者への影響を公表。",
+  "published_on": "2026-04-25",
+  "first_published_on": "2026-04-25",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-26",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。具体的な侵入手口は未特定。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "対象規模は未公表。"
+    }
+  ],
+  "data_types": [
+    "支援者のサービス登録情報"
+  ],
+  "related_vendor": "CAMPFIRE",
+  "sources": [
+    {
+      "url": "https://www.jfa.jp/news/00036277/",
+      "title": "JFAクラウドファンディング 個人情報漏えいの可能性に関するお詫びとお知らせ",
+      "type": "official",
+      "published_on": "2026-04-25",
+      "checked_on": "2026-10-26"
+    }
+  ],
+  "updates": [
+    {
+      "date": "2026-06-12",
+      "summary": "提供元の6月2日調査結果を踏まえ、6月11日から募集を再開した旨を追記。",
+      "source_index": 0
+    }
+  ],
+  "notes": "",
+  "vendors": [
+    {
+      "name": "CAMPFIRE",
+      "role": "service",
+      "detail": "当該事案に関係するサービス・業務の提供元として公式本文に記載。",
+      "source_index": 0
+    }
+  ]
+}

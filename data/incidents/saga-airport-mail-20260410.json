@@ -1,0 +1,46 @@
+{
+  "id": "saga-airport-mail-20260410",
+  "organization": {
+    "name": "佐賀県（空港課）",
+    "sector": "行政・自治体"
+  },
+  "title": "旅行会社担当者108人のメールアドレスを誤送信",
+  "summary": "宛先欄をToにして送信し、受信者間で他のアドレスが確認できる状態となった。",
+  "published_on": "2026-04-10",
+  "first_published_on": "2026-04-10",
+  "publication_kind": "initial",
+  "occurred_on": "2026-04-09",
+  "detected_on": null,
+  "updated_on": "2026-10-26",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "accident",
+  "cause": {
+    "category": "misdelivery",
+    "detail": "一斉送信の宛先設定を誤った。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 108,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表対象は108人。全件の流出確定とは限らない。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.pref.saga.lg.jp/kiji003118994/index.html",
+      "title": "メールの誤送信がありました（空港課） / 佐賀県",
+      "type": "official",
+      "published_on": "2026-04-10",
+      "checked_on": "2026-10-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

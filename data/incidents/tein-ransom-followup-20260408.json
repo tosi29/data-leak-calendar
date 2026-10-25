@@ -1,0 +1,54 @@
+{
+  "id": "tein-ransom-followup-20260408",
+  "organization": {
+    "name": "テイン",
+    "sector": "企業・団体"
+  },
+  "title": "ランサムウェア調査で社員・株主7,304人に漏えいのおそれ",
+  "summary": "外部への持ち出し痕跡は未確認だが、侵害環境でファイル操作が可能であったと公表。",
+  "published_on": "2026-04-08",
+  "first_published_on": "2025-10-31",
+  "publication_kind": "followup",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-26",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "vulnerability",
+    "detail": "システムの一部の脆弱性を悪用した第三者の侵入。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 7304,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表対象は7,304人。全件の流出確定とは限らない。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "生年月日",
+    "性別",
+    "電話番号",
+    "メールアドレス",
+    "保有株式数",
+    "基礎年金番号",
+    "マイナンバー"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.tein.co.jp/2026/04/08/37433/",
+      "title": "ランサムウェア感染によるシステム障害発生についてのお詫びとお知らせ（最終報） – 株式会社テイン",
+      "type": "official",
+      "published_on": "2026-04-08",
+      "checked_on": "2026-10-26"
+    }
+  ],
+  "updates": [],
+  "notes": "情報項目は対象者ごとに異なる。株主・社員・退職者等の内訳を総数7,304人に重ねて加算しない。"
+}

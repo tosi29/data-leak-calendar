@@ -1,0 +1,60 @@
+{
+  "id": "canet-hokkaido-login-20260424",
+  "organization": {
+    "name": "キャネット（北海道）",
+    "sector": "企業・団体"
+  },
+  "title": "会員ページ侵害を公表、同日続報で認証情報の漏えいを否定",
+  "summary": "初報はログイン情報への影響を公表。同日続報でID・パスワードに漏えいのおそれはないと訂正した。",
+  "published_on": "2026-04-24",
+  "first_published_on": "2026-04-24",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-04-23",
+  "updated_on": "2026-10-26",
+  "verification": "official",
+  "leak_status": "ruled_out",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。具体的な侵入手口は未特定。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": 13237,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表対象は13,237人。全件の流出確定とは限らない。"
+    }
+  ],
+  "data_types": [
+    "ログインID",
+    "ログインパスワード"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://canet-f.com/news/?p=1779366830KMY3Q",
+      "title": "不正アクセスによる個人情報流出事案に関するお詫びとご案内",
+      "type": "official",
+      "published_on": "2026-04-24",
+      "checked_on": "2026-10-26"
+    },
+    {
+      "url": "https://canet-f.com/news/?p=1779367136AXJsu",
+      "title": "（続報）不正アクセスによる個人情報流出事案について｜キャネット（公式サイト）",
+      "type": "official",
+      "published_on": "2026-04-24",
+      "checked_on": "2026-10-26"
+    }
+  ],
+  "updates": [
+    {
+      "date": "2026-04-24",
+      "summary": "ID・パスワードはいずれも漏えいのおそれなしと訂正。不正アクセスの事実は確認し調査は継続。",
+      "source_index": 1
+    }
+  ],
+  "notes": "13,237人は初報の対象規模。続報でこの情報の漏えいを否定したため流出確認数ではない。同名の京都・鹿児島の法人とは区別。"
+}

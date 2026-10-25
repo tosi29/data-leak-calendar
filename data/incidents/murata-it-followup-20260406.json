@@ -1,0 +1,74 @@
+{
+  "id": "murata-it-followup-20260406",
+  "organization": {
+    "name": "村田製作所",
+    "sector": "企業・団体"
+  },
+  "title": "IT環境侵害で従業員・取引先情報の不正取得を確認",
+  "summary": "4月27日続報で従業員等約7.3万件、社外関係者約1.5万件の対象情報を公表。",
+  "published_on": "2026-04-06",
+  "first_published_on": null,
+  "publication_kind": "followup",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-26",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。具体的な侵入手口は未特定。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": 73000,
+      "unit": "records",
+      "qualifier": "approximate",
+      "description": "従業員・家族・退職者等の対象データ約73,000件。"
+    },
+    {
+      "count": 15000,
+      "unit": "records",
+      "qualifier": "approximate",
+      "description": "顧客・仕入先等の社外関係者データ約15,000件。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "メールアドレス",
+    "電話番号",
+    "所属",
+    "生年月日",
+    "性別",
+    "住所",
+    "口座情報",
+    "健康情報",
+    "人事労務情報"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://corporate.murata.com/ja-jp/newsroom/news/company/general/2026/0406",
+      "title": "当社のIT環境への不正アクセスに関するお知らせ（第二報）",
+      "type": "official",
+      "published_on": "2026-04-06",
+      "checked_on": "2026-10-26"
+    },
+    {
+      "url": "https://corporate.murata.com/ja-jp/newsroom/news/company/general/2026/0427",
+      "title": "当社のIT環境への不正アクセスに関するお知らせ（第三報） | 村田製作所",
+      "type": "official",
+      "published_on": "2026-04-27",
+      "checked_on": "2026-10-26"
+    }
+  ],
+  "updates": [
+    {
+      "date": "2026-04-27",
+      "summary": "対象者の区分・情報項目と概数を公表。対象者ごとに全項目が含まれるわけではなく、同一人の重複もあり得る。",
+      "source_index": 1
+    }
+  ],
+  "notes": "初報日は今回の本文だけでは未特定。個人情報の不正取得は公式に確認済みだが、表示対象全件の窃取確定を意味しない。村田土地建物の保険情報に関する7月公表とは対象組織が異なる。"
+}

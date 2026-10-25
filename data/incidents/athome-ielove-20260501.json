@@ -6,9 +6,9 @@
   },
   "title": "外部連携サービス経由の問い合わせ情報に漏えいのおそれ",
   "summary": "いえらぶCLOUDを通じて、同社を含む連携各社へ問い合わせた顧客の情報に影響の可能性。",
-  "published_on": "2026-05-01",
+  "published_on": "2026-04-10",
   "first_published_on": "2026-04-10",
-  "publication_kind": "followup",
+  "publication_kind": "initial",
   "occurred_on": null,
   "detected_on": null,
   "updated_on": "2026-10-26",
@@ -39,10 +39,23 @@
       "type": "official",
       "published_on": "2026-05-01",
       "checked_on": "2026-10-26"
+    },
+    {
+      "url": "https://www.athome.co.jp/corporate/news/topics/oshirase-202604/",
+      "title": "一部メディア・SNS等における情報漏えいの指摘について",
+      "type": "official",
+      "published_on": "2026-04-10",
+      "checked_on": "2026-10-26"
     }
   ],
-  "updates": [],
-  "notes": "同社自身のシステムの侵害や保有・管理情報の流出は未確認。外部連携先の情報への影響と区別する。",
+  "updates": [
+    {
+      "date": "2026-05-01",
+      "summary": "後続の公表・調査結果を同一記録に保持。",
+      "source_index": 0
+    }
+  ],
+  "notes": "同社自身のシステムの侵害や保有・管理情報の流出は未確認。外部連携先の情報への影響と区別する。 2026年4月遡及調査で掲載日を2026-05-01から2026-04-10へ修正。ID・後続の対象規模と調査結果を保持。",
   "vendors": [
     {
       "name": "いえらぶGROUP",

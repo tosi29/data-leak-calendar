@@ -1,0 +1,52 @@
+{
+  "id": "yokosuka-tax-mail-20260416",
+  "organization": {
+    "name": "横須賀市（納税課）",
+    "sector": "行政・自治体"
+  },
+  "title": "納税相談者145人分の情報を別法人へ誤送信",
+  "summary": "添付するファイルを取り違え、相談者の氏名・滞納額・相談内容等を送信した。",
+  "published_on": "2026-04-16",
+  "first_published_on": "2026-04-16",
+  "publication_kind": "initial",
+  "occurred_on": "2026-04-08",
+  "detected_on": "2026-04-15",
+  "updated_on": "2026-10-26",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "accident",
+  "cause": {
+    "category": "misdelivery",
+    "detail": "送信時に添付ファイルを取り違え、ダブルチェックでも添付内容を確認していなかった。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 145,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表対象は145人。全件の流出確定とは限らない。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "面談日",
+    "市税等滞納額",
+    "滞納原因",
+    "相談内容",
+    "提案内容",
+    "入金額"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.city.yokosuka.kanagawa.jp/2320/nagekomi/20270416.html",
+      "title": "個人情報等データの誤送付について｜横須賀市",
+      "type": "official",
+      "published_on": "2026-04-16",
+      "checked_on": "2026-10-26"
+    }
+  ],
+  "updates": [],
+  "notes": "対象には法人12社の税情報も含むが人数に加算しない。URLに2027の文字列があるが、公式更新日と本文は2026年4月16日。"
+}

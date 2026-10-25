@@ -6,9 +6,9 @@
   },
   "title": "再委託先の侵害で国保加入者等34,330人への影響を調査",
   "summary": "平成25年導入時の資格・レセプト情報が再委託先に残っていたことを第二報で公表。",
-  "published_on": "2026-05-25",
+  "published_on": "2026-04-17",
   "first_published_on": "2026-04-17",
-  "publication_kind": "followup",
+  "publication_kind": "initial",
   "occurred_on": null,
   "detected_on": null,
   "updated_on": "2026-10-26",
@@ -40,10 +40,23 @@
       "type": "official",
       "published_on": "2026-05-25",
       "checked_on": "2026-10-26"
+    },
+    {
+      "url": "https://www.city.satte.lg.jp/soshiki/hokennenkin/3/15557.html",
+      "title": "サイバー攻撃による不正アクセスについて（第1報）令和8年4月17日／幸手市",
+      "type": "official",
+      "published_on": "2026-04-17",
+      "checked_on": "2026-10-26"
     }
   ],
-  "updates": [],
-  "notes": "AGSがYCC情報システムへ保守業務を再委託。34,330人は重複を除いた保有対象数であり流出確認人数ではない。",
+  "updates": [
+    {
+      "date": "2026-05-25",
+      "summary": "後続の公表・調査結果を同一記録に保持。",
+      "source_index": 0
+    }
+  ],
+  "notes": "AGSがYCC情報システムへ保守業務を再委託。34,330人は重複を除いた保有対象数であり流出確認人数ではない。 2026年4月遡及調査で掲載日を2026-05-25から2026-04-17へ修正。ID・後続の対象規模と調査結果を保持。",
   "vendors": [
     {
       "name": "AGS",

@@ -6,9 +6,9 @@
   },
   "title": "ランサムウェア被害の調査で受託・保管情報への影響を報告",
   "summary": "ファイルサーバーへアクセス可能な状況があり、情報流出を完全には否定できないと第五報で公表。",
-  "published_on": "2026-05-20",
+  "published_on": "2026-04-03",
   "first_published_on": "2026-04-03",
-  "publication_kind": "followup",
+  "publication_kind": "initial",
   "occurred_on": "2026-04-02",
   "detected_on": null,
   "updated_on": "2026-10-26",
@@ -39,8 +39,21 @@
       "type": "official",
       "published_on": "2026-05-20",
       "checked_on": "2026-10-26"
+    },
+    {
+      "url": "https://www.yamagata-ycc.co.jp/news/20260403-1/",
+      "title": "【重要】当社サーバーへの不正アクセスに関するご報告 | 株式会社 YCC情報システム",
+      "type": "official",
+      "published_on": "2026-04-03",
+      "checked_on": "2026-10-26"
     }
   ],
-  "updates": [],
-  "notes": "外部送信・外部公開の明確な痕跡は未確認。可能性が残るため漏えい否定とはしない。"
+  "updates": [
+    {
+      "date": "2026-05-20",
+      "summary": "後続の公表・調査結果を同一記録に保持。",
+      "source_index": 0
+    }
+  ],
+  "notes": "外部送信・外部公開の明確な痕跡は未確認。可能性が残るため漏えい否定とはしない。 2026年4月遡及調査で掲載日を2026-05-20から2026-04-03へ修正。ID・後続の対象規模と調査結果を保持。"
 }

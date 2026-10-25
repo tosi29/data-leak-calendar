@@ -6,12 +6,12 @@
   },
   "title": "会員ページへの不正アクセスの調査結果",
   "summary": "認証管理またはプログラムの脆弱性を突いたアクセスにより、会員のログイン情報等を閲覧できる状態だったと公表した。",
-  "published_on": "2026-07-09",
+  "published_on": "2026-04-28",
   "first_published_on": "2026-04-28",
-  "publication_kind": "followup",
+  "publication_kind": "initial",
   "occurred_on": null,
   "detected_on": null,
-  "updated_on": "2026-10-18",
+  "updated_on": "2026-10-26",
   "incident_type": "attack",
   "leak_status": "suspected",
   "impact": [
@@ -43,10 +43,30 @@
       "type": "official",
       "published_on": "2026-07-09",
       "checked_on": "2026-10-18"
+    },
+    {
+      "url": "https://first-loan.co.jp/information/%ef%bc%bb%e9%87%8d%e8%a6%81%ef%bc%bd%e4%b8%8d%e6%ad%a3%e3%82%a2%e3%82%af%e3%82%bb%e3%82%b9%e3%81%ab%e3%82%88%e3%82%8b%e5%80%8b%e4%ba%ba%e6%83%85%e5%a0%b1%e6%b5%81%e5%87%ba%e4%ba%8b%e6%a1%88%e3%81%ab/",
+      "title": "［重要］不正アクセスによる個人情報流出事案に関する お詫びとご案内",
+      "type": "official",
+      "published_on": "2026-04-28",
+      "checked_on": "2026-10-26"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2026/07/31/55834.html",
+      "title": "ファーストの会員ページに不正アクセス、債務の状況が漏えいした可能性",
+      "type": "news",
+      "published_on": "2026-07-31",
+      "checked_on": "2026-10-26"
     }
   ],
-  "notes": "",
-  "updates": [],
+  "notes": "2026年4月遡及調査で掲載日を2026-07-09から2026-04-28へ修正。ID・後続の対象規模と調査結果を保持。日付表示のない初報本文と、7月31日のScanNetSecurityが明記した初報4月28日を照合。",
+  "updates": [
+    {
+      "date": "2026-07-09",
+      "summary": "後続の公表・調査結果を同一記録に保持。",
+      "source_index": 0
+    }
+  ],
   "verification": "official",
   "related_vendor": null
 }

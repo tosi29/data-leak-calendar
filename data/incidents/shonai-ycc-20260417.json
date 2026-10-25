@@ -1,0 +1,65 @@
+{
+  "id": "shonai-ycc-20260417",
+  "organization": {
+    "name": "庄内町・コメっちわくわくクラブ",
+    "sector": "行政・自治体"
+  },
+  "title": "YCC侵害で図書館・運動施設利用者情報に漏えいのおそれ",
+  "summary": "構築・運用委託時のデータが委託先ファイルサーバーに格納されていた。",
+  "published_on": "2026-04-17",
+  "first_published_on": "2026-04-17",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-26",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。具体的な侵入手口は未特定。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": 9257,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "図書館利用者情報9,257件。"
+    },
+    {
+      "count": 3739,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "トレーニングルーム利用者情報3,739件。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "生年月日",
+    "性別",
+    "電話番号",
+    "メールアドレス"
+  ],
+  "related_vendor": "YCC情報システム",
+  "sources": [
+    {
+      "url": "https://www.town.shonai.lg.jp/gyousei/johokokai/incident.html",
+      "title": "株式会社YCC情報システムに対する不正アクセス発生に関する報告について",
+      "type": "official",
+      "published_on": "2026-04-17",
+      "checked_on": "2026-10-26"
+    }
+  ],
+  "updates": [],
+  "notes": "町と指定管理団体の共同公表を1記録とする。施設間の重複を除けず合算しない。",
+  "vendors": [
+    {
+      "name": "YCC情報システム",
+      "role": "operations",
+      "detail": "当該事案に関係するサービス・業務の提供元として公式本文に記載。",
+      "source_index": 0
+    }
+  ]
+}

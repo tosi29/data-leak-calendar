@@ -1,0 +1,54 @@
+{
+  "id": "tokyo-sento-novelty-20260402",
+  "organization": {
+    "name": "東京都（東京型銭湯PR）",
+    "sector": "行政・自治体"
+  },
+  "title": "ノベルティ配送で最大94人の氏名を取り違え",
+  "summary": "委託先が当選者の氏名を確認せず配送手配し、別当選者の氏名で届いた。",
+  "published_on": "2026-04-02",
+  "first_published_on": "2026-04-02",
+  "publication_kind": "initial",
+  "occurred_on": "2026-03-30",
+  "detected_on": null,
+  "updated_on": "2026-10-26",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "accident",
+  "cause": {
+    "category": "misdelivery",
+    "detail": "配送手配で当選者氏名の照合が不十分だった。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 94,
+      "unit": "people",
+      "qualifier": "maximum",
+      "description": "公表対象は94人。全件の流出確定とは限らない。"
+    }
+  ],
+  "data_types": [
+    "氏名"
+  ],
+  "related_vendor": "吉本興業",
+  "sources": [
+    {
+      "url": "https://www.metro.tokyo.lg.jp/information/press/2026/04/2026040305",
+      "title": "受託者における個人情報の漏えいについて|4月|都庁総合ホームページ",
+      "type": "official",
+      "published_on": "2026-04-02",
+      "checked_on": "2026-10-26"
+    }
+  ],
+  "updates": [],
+  "notes": "公式本文の報道発表日4月2日を採用。URLの20260403から公表日を推定しない。",
+  "vendors": [
+    {
+      "name": "吉本興業",
+      "role": "operations",
+      "detail": "東京型銭湯PR・スタンプラリー等の業務受託先。ITシステム開発元を示すものではない。",
+      "source_index": 0
+    }
+  ]
+}

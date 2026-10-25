@@ -1,0 +1,48 @@
+{
+  "id": "ecommit-mail-20260422",
+  "organization": {
+    "name": "ECOMMIT",
+    "sector": "企業・団体"
+  },
+  "title": "従業員メールの侵害で氏名・アドレス等に漏えいのおそれ",
+  "summary": "従業員1人のアカウントが侵害され、フィッシング送信と過去のメール・添付情報の閲覧可能性を確認。",
+  "published_on": "2026-04-22",
+  "first_published_on": "2026-04-22",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-04-21",
+  "updated_on": "2026-10-26",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。具体的な侵入手口は未特定。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "対象規模は未公表。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス",
+    "氏名",
+    "メール本文・添付ファイルの情報"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.ecommit.jp/news/61zad-9o4f/",
+      "title": "当社従業員メールアカウントへの不正アクセスに伴う個人情報等の漏えい可能性に関するお詫びとお知らせ | ECOMMIT",
+      "type": "official",
+      "published_on": "2026-04-22",
+      "checked_on": "2026-10-26"
+    }
+  ],
+  "updates": [],
+  "notes": "1は侵害された従業員アカウント数であり、情報の対象人数は未公表。MFA未設定は確認済みだが認証情報の窃取経路は未特定。"
+}

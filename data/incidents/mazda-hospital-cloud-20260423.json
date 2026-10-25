@@ -1,0 +1,51 @@
+{
+  "id": "mazda-hospital-cloud-20260423",
+  "organization": {
+    "name": "マツダ病院",
+    "sector": "企業・団体"
+  },
+  "title": "委託先クラウドの共有設定不備で患者626人分が閲覧可能",
+  "summary": "画像診断委託先が保管した患者管理データに適切なアクセス制限がなかった。",
+  "published_on": "2026-04-23",
+  "first_published_on": "2026-04-23",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-26",
+  "verification": "official",
+  "leak_status": "exposed",
+  "incident_type": "accident",
+  "cause": {
+    "category": "configuration",
+    "detail": "画像診断委託先がクラウド保管時の共有設定を誤った。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 626,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表対象は626人。全件の流出確定とは限らない。"
+    }
+  ],
+  "data_types": [
+    "患者ID",
+    "氏名",
+    "撮影日",
+    "撮影種別",
+    "撮影部位",
+    "部位数"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://hospital.mazda.co.jp/news/20260423/index.html",
+      "title": "個人情報漏えいのおそれに関するお知らせとお詫び | 病院からのお知らせ | マツダ病院",
+      "type": "official",
+      "published_on": "2026-04-23",
+      "checked_on": "2026-10-26"
+    }
+  ],
+  "updates": [],
+  "notes": "対象は2021年2〜3月の撮影患者。閲覧可能期間は2023年4月上旬〜2024年12月中旬。委託先社名は未公表。"
+}

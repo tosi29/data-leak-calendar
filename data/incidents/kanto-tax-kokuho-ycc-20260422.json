@@ -1,0 +1,54 @@
+{
+  "id": "kanto-tax-kokuho-ycc-20260422",
+  "organization": {
+    "name": "関東信越税理士国民健康保険組合",
+    "sector": "企業・団体"
+  },
+  "title": "高額療養費システムの開発会社が侵害を受け調査",
+  "summary": "過去に利用していたシステムの開発担当会社への攻撃について、影響範囲等を調査中と公表。",
+  "published_on": "2026-04-22",
+  "first_published_on": "2026-04-22",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-26",
+  "verification": "official",
+  "leak_status": "investigating",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。具体的な侵入手口は未特定。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "対象規模は未公表。"
+    }
+  ],
+  "data_types": [
+    "高額療養費管理システム関連情報（詳細調査中）"
+  ],
+  "related_vendor": "YCC情報システム",
+  "sources": [
+    {
+      "url": "https://www.ka-z-kokuho.or.jp/news.html?id=252",
+      "title": "サーバー攻撃による不正アクセスについて（第1報）",
+      "type": "official",
+      "published_on": "2026-04-22",
+      "checked_on": "2026-10-26"
+    }
+  ],
+  "updates": [],
+  "notes": "対象人数・件数と具体的項目は調査中。マイナンバーは含まれないと説明。",
+  "vendors": [
+    {
+      "name": "YCC情報システム",
+      "role": "development",
+      "detail": "平成25〜30年に利用した高額療養費管理システムの開発担当会社。",
+      "source_index": 0
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "id": "kawasaki-seed-followup-20260430",
+  "organization": {
+    "name": "川崎市（ウェルフェアイノベーション推進業務）",
+    "sector": "行政・自治体"
+  },
+  "title": "委託先侵害の調査で市業務の情報流出なしと確認",
+  "summary": "3月に可能性を公表した委託先事故について、最終調査で当該業務の流出がなかったと公表。",
+  "published_on": "2026-04-30",
+  "first_published_on": "2026-03-26",
+  "publication_kind": "followup",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-26",
+  "verification": "official",
+  "leak_status": "ruled_out",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。具体的な侵入手口は未特定。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": 2000,
+      "unit": "records",
+      "qualifier": "approximate",
+      "description": "公表対象は2,000件。全件の流出確定とは限らない。"
+    }
+  ],
+  "data_types": [
+    "事業利用者等の個人情報"
+  ],
+  "related_vendor": "シード・プランニング",
+  "sources": [
+    {
+      "url": "https://www.city.kawasaki.jp/templates/prs/280/0000186895.html",
+      "title": "川崎市 : 【報道発表資料】 委託事業者サーバーへの不正アクセス被害について（最終報）",
+      "type": "official",
+      "published_on": "2026-04-30",
+      "checked_on": "2026-10-26"
+    },
+    {
+      "url": "https://www.city.kawasaki.jp/templates/prs/280/0000186072.html",
+      "title": "委託事業者サーバーへの不正アクセス被害について（初報）",
+      "type": "official",
+      "published_on": "2026-03-26",
+      "checked_on": "2026-10-26"
+    }
+  ],
+  "updates": [],
+  "notes": "約2,000件は初報で説明した保管対象であり流出人数ではない。続報で当該業務の流出を否定。",
+  "vendors": [
+    {
+      "name": "シード・プランニング",
+      "role": "operations",
+      "detail": "令和7年度ウェルフェアイノベーション推進業務の受託事業者。システム開発元の認定ではない。",
+      "source_index": 0
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "id": "gmoaozora-hidden-sheet-20260403",
+  "organization": {
+    "name": "GMOあおぞらネット銀行",
+    "sector": "企業・団体"
+  },
+  "title": "委託先が再利用した非表示シートから顧客情報1,820件が流出",
+  "summary": "業務様式を他行へ転用した際、非表示ワークシート内に口座等の情報が残存していた。",
+  "published_on": "2026-04-03",
+  "first_published_on": "2026-04-03",
+  "publication_kind": "initial",
+  "occurred_on": "2024-11-28",
+  "detected_on": "2026-03-27",
+  "updated_on": "2026-10-26",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "accident",
+  "cause": {
+    "category": "misdelivery",
+    "detail": "委託先がデータ様式を他行に転用する際、非表示ワークシート内の顧客情報を削除していなかった。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 1820,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "公表対象は1,820件。全件の流出確定とは限らない。"
+    }
+  ],
+  "data_types": [
+    "口座名義",
+    "支店口座番号",
+    "残高",
+    "顧客識別情報",
+    "口座管理記録",
+    "問い合わせ状況"
+  ],
+  "related_vendor": "SocioFuture",
+  "sources": [
+    {
+      "url": "https://gmo-aozora.com/assets/news/pdf/2026/20260403_kouhyou.pdf",
+      "title": "業務委託先による他金融機関への当社お客さま情報流出に関するお詫びとご報告",
+      "type": "official",
+      "published_on": "2026-04-03",
+      "checked_on": "2026-10-26"
+    }
+  ],
+  "updates": [],
+  "notes": "委託元の同意のない様式転用が発端だが、顧客データの流出は非表示シートの残存による事故。暗号化PDFを閲覧経由で確認。",
+  "vendors": [
+    {
+      "name": "SocioFuture",
+      "role": "operations",
+      "detail": "銀行の事務業務の受託先としてファイルの転用・送付を実施。",
+      "source_index": 0
+    }
+  ]
+}

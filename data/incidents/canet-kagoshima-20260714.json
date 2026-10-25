@@ -6,12 +6,12 @@
   },
   "title": "会員情報漏えいのおそれについて調査結果を公表",
   "summary": "会員ページへの不正アクセスでログイン情報等が閲覧可能となった事案について、調査結果と再発防止策を公表した。",
-  "published_on": "2026-07-14",
+  "published_on": "2026-04-24",
   "first_published_on": "2026-04-24",
-  "publication_kind": "followup",
+  "publication_kind": "initial",
   "occurred_on": null,
   "detected_on": null,
-  "updated_on": "2026-10-18",
+  "updated_on": "2026-10-26",
   "incident_type": "attack",
   "leak_status": "suspected",
   "impact": [
@@ -43,10 +43,23 @@
       "type": "official",
       "published_on": "2026-07-14",
       "checked_on": "2026-10-18"
+    },
+    {
+      "url": "https://canet-k.com/archives/384",
+      "title": "不正アクセスによる個人情報流出事案に関するお詫びとご案内 – キャッシングのキャネット",
+      "type": "official",
+      "published_on": "2026-04-24",
+      "checked_on": "2026-10-26"
     }
   ],
-  "notes": "同名の他地域の会社と区別。",
-  "updates": [],
+  "notes": "同名の他地域の会社と区別。 2026年4月遡及調査で掲載日を2026-07-14から2026-04-24へ修正。ID・後続の対象規模と調査結果を保持。4月24日初報を取得。5月8日続報の検知日表現の不整合は未解決のため、発生日は推定しない。",
+  "updates": [
+    {
+      "date": "2026-07-14",
+      "summary": "後続の公表・調査結果を同一記録に保持。",
+      "source_index": 0
+    }
+  ],
   "verification": "official",
   "related_vendor": null
 }

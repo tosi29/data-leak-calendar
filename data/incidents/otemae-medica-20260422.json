@@ -1,0 +1,58 @@
+{
+  "id": "otemae-medica-20260422",
+  "organization": {
+    "name": "大手前大学（国際看護学部）",
+    "sector": "企業・団体"
+  },
+  "title": "メディカ出版への攻撃で学生431人分に漏えいのおそれ",
+  "summary": "2019〜2023年度入学生の電子教科書登録情報が委託先のサーバーに保存されていた。",
+  "published_on": "2026-04-22",
+  "first_published_on": "2026-04-22",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-26",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。具体的な侵入手口は未特定。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": 431,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表対象は431人。全件の流出確定とは限らない。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "メールアドレス",
+    "住所",
+    "電話番号",
+    "都道府県"
+  ],
+  "related_vendor": "メディカ出版",
+  "sources": [
+    {
+      "url": "https://www.otemae.ac.jp/news/2026/67565/",
+      "title": "【お知らせ】株式会社メディカ出版へのランサムウェア攻撃による学生情報漏えいの可能性について | 大手前大学",
+      "type": "official",
+      "published_on": "2026-04-22",
+      "checked_on": "2026-10-26"
+    }
+  ],
+  "updates": [],
+  "notes": "情報項目は入学年度により異なり、431人全員に全項目が含まれるわけではない。提供元全体の件数とは別。",
+  "vendors": [
+    {
+      "name": "メディカ出版",
+      "role": "service",
+      "detail": "当該事案に関係するサービス・業務の提供元として公式本文に記載。",
+      "source_index": 0
+    }
+  ]
+}

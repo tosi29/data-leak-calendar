@@ -1,0 +1,47 @@
+{
+  "id": "sendai-teacher-sns-20260421",
+  "organization": {
+    "name": "仙台市教育委員会（市立小学校）",
+    "sector": "企業・団体"
+  },
+  "title": "教員が別の教員の氏名を含む校務画面をSNSへ投稿",
+  "summary": "職員会議用のクラスルーム画面を撮影・投稿し、学校名と別教員1人の氏名が表示された。",
+  "published_on": "2026-04-21",
+  "first_published_on": "2026-04-21",
+  "publication_kind": "initial",
+  "occurred_on": "2026-04-20",
+  "detected_on": null,
+  "updated_on": "2026-10-26",
+  "verification": "official",
+  "leak_status": "exposed",
+  "incident_type": "improper_handling",
+  "cause": {
+    "category": "improper_sharing",
+    "detail": "教員が校務画面を私用スマートフォンで撮影しSNSへ投稿。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 1,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表対象は1人。全件の流出確定とは限らない。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "所属学校名"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.city.sendai.jp/kyoikukate/kishahappyou/20260421nagekomi.html",
+      "title": "市立小学校教員によるSNSへの画像投稿について｜仙台市",
+      "type": "official",
+      "published_on": "2026-04-21",
+      "checked_on": "2026-10-26"
+    }
+  ],
+  "updates": [],
+  "notes": "公表は4月21日。二次まとめにある児童情報との説明は採用せず、公式本文どおり別教員1人を対象とする。"
+}

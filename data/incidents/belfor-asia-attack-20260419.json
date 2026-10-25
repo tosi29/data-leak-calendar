@@ -1,0 +1,70 @@
+{
+  "id": "belfor-asia-attack-20260419",
+  "organization": {
+    "name": "BELFOR Japan（BELFOR Asia）",
+    "sector": "企業・団体"
+  },
+  "title": "アジア地域のシステム侵害で個人情報を含むデータが流出",
+  "summary": "4月29日続報で、盗まれたデータが公開され、個人情報も含まれることを確認。",
+  "published_on": "2026-04-19",
+  "first_published_on": "2026-04-19",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-26",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。具体的な侵入手口は未特定。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "対象規模は未公表。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "メールアドレス",
+    "電話番号",
+    "業務関連資料"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.belfor.com/jp/ja/resources/important-information-following-a-cyberattack-at-belfor-asia/",
+      "title": "BELFORアジアにおけるサイバー攻撃に関する重要なお知らせ",
+      "type": "official",
+      "published_on": "2026-04-19",
+      "checked_on": "2026-10-26"
+    },
+    {
+      "url": "https://www.belfor.com/jp/ja/resources/important-information-following-a-cyberattack-at-belfor-asia-update-1/",
+      "title": "BELFORアジアにおけるサイバー攻撃に関する重要なお知らせ – アップデート1",
+      "type": "official",
+      "published_on": "2026-04-22",
+      "checked_on": "2026-10-26"
+    },
+    {
+      "url": "https://www.belfor.com/jp/ja/resources/important-information-following-a-cyberattack-at-belfor-asia-update-2/",
+      "title": "BELFOR Asiaにおけるサイバー攻撃に関する重要なお知らせ – 更新情報 2",
+      "type": "official",
+      "published_on": "2026-04-29",
+      "checked_on": "2026-10-26"
+    }
+  ],
+  "updates": [
+    {
+      "date": "2026-04-29",
+      "summary": "公開データに業務関連の連絡先等の個人情報を含むことを公表。",
+      "source_index": 2
+    }
+  ],
+  "notes": "日本法人が日本語で公表したアジア地域の事案。日本国内の対象人数とは断定しない。初報19日と月次索引の掲載日を混同しない。"
+}

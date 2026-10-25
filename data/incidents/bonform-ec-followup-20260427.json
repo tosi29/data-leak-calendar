@@ -1,0 +1,63 @@
+{
+  "id": "bonform-ec-followup-20260427",
+  "organization": {
+    "name": "ボンフォーム",
+    "sector": "企業・団体"
+  },
+  "title": "通販サイト侵害でカード情報等に漏えいのおそれ",
+  "summary": "決済ページの改ざんが判明し、カード決済利用者や会員情報への影響を公表。",
+  "published_on": "2026-04-27",
+  "first_published_on": "2026-01-16",
+  "publication_kind": "followup",
+  "occurred_on": "2021-03-25",
+  "detected_on": "2026-01-14",
+  "updated_on": "2026-10-26",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "vulnerability",
+    "detail": "システムの一部の脆弱性を悪用し、決済ページのJavaScriptが改ざんされた。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 3268,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "カード情報対象者3,268人。"
+    },
+    {
+      "count": 3463,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "カード情報対象3,463件。"
+    },
+    {
+      "count": 735,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "その他の会員個人情報735人。カード対象者との重複を含む。"
+    }
+  ],
+  "data_types": [
+    "カード名義人名",
+    "カード番号",
+    "有効期限",
+    "セキュリティコード",
+    "会員情報",
+    "認証情報"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.bonform.co.jp/ec_site/information/detail/140",
+      "title": "第三者不正アクセスに関するフォレンジック調査完了および判明事項についてのお知らせ",
+      "type": "official",
+      "published_on": "2026-04-27",
+      "checked_on": "2026-10-26"
+    }
+  ],
+  "updates": [],
+  "notes": "カードの人数・件数・会員内数を合算しない。対象期間は2021年3月25日〜2024年11月8日。購入に至らなかった入力分はカード番号を特定できていない。"
+}

@@ -1,0 +1,50 @@
+{
+  "id": "whiteessence-meguree-20260417",
+  "organization": {
+    "name": "ホワイトエッセンス（メグリー）",
+    "sector": "企業・団体"
+  },
+  "title": "転職サイト侵害で登録者情報に漏えいのおそれ",
+  "summary": "歯科衛生士転職サイトのデータベースが窃取された可能性が高いとの調査結果を公表。",
+  "published_on": "2026-04-17",
+  "first_published_on": "2026-03-06",
+  "publication_kind": "followup",
+  "occurred_on": null,
+  "detected_on": "2026-02-18",
+  "updated_on": "2026-10-26",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "vulnerability",
+    "detail": "Webアプリケーション開発ツールの脆弱性が悪用されたと推測。",
+    "certainty": "suspected"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "対象規模は未公表。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "歯科医院名",
+    "ログイン情報",
+    "ポイント購入・使用履歴",
+    "問い合わせ内容"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.whiteessence.co.jp/news/?action=detail&id=47&p=1",
+      "title": "「メグリー」への不正アクセスに基づく個人データの漏えいの可能性に関するお知らせ",
+      "type": "official",
+      "published_on": "2026-04-17",
+      "checked_on": "2026-10-26"
+    }
+  ],
+  "updates": [],
+  "notes": "LINE IDとログインパスワードはハッシュ化。8月初報・10月続報のホワイトエッセンス別事案とは区別する。"
+}

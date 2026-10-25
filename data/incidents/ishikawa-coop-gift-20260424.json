@@ -1,0 +1,55 @@
+{
+  "id": "ishikawa-coop-gift-20260424",
+  "organization": {
+    "name": "生活協同組合コープいしかわ",
+    "sector": "企業・団体"
+  },
+  "title": "ギフト通販委託先の侵害で組合員・届け先情報に漏えいのおそれ",
+  "summary": "ランサムウェア被害を受けた委託先サーバーに、ギフト利用者と届け先のデータが保存されていた。",
+  "published_on": "2026-04-24",
+  "first_published_on": "2026-04-24",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-04-10",
+  "updated_on": "2026-10-26",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。具体的な侵入手口は未特定。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": 1756,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "組合員データ1,756件。"
+    },
+    {
+      "count": 4264,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "届け先データ4,264件。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "電話番号",
+    "ギフト注文履歴"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.ishikawa.coop/news/137349/",
+      "title": "委託先への不正アクセスによる個人情報流出の可能性に関するお知らせとお詫び | 生活協同組合コープいしかわ",
+      "type": "official",
+      "published_on": "2026-04-24",
+      "checked_on": "2026-10-26"
+    }
+  ],
+  "updates": [],
+  "notes": "組合員と届け先の重複を除けず合算しない。連合会全体と各生協の記録にも重複があり、独立した攻撃回数ではない。委託先の社名は本文未記載。"
+}

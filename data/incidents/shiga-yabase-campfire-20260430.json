@@ -1,0 +1,58 @@
+{
+  "id": "shiga-yabase-campfire-20260430",
+  "organization": {
+    "name": "滋賀県（矢橋帰帆島公園）",
+    "sector": "行政・自治体"
+  },
+  "title": "CAMPFIREの侵害で公園支援者情報に漏えいのおそれ",
+  "summary": "公園遊具のクラウドファンディング支援者のうちPayPal決済利用者が対象となる可能性を公表。",
+  "published_on": "2026-04-30",
+  "first_published_on": "2026-04-30",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-26",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。具体的な侵入手口は未特定。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "対象規模は未公表。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "電話番号",
+    "メールアドレス",
+    "口座情報"
+  ],
+  "related_vendor": "CAMPFIRE",
+  "sources": [
+    {
+      "url": "https://www.pref.shiga.lg.jp/kensei/koho/e-shinbun/oshirase/350229.html",
+      "title": "令和6年度矢橋帰帆島公園遊具リニューアルクラウドファンディングの委託業者システムへの不正アクセスについて｜滋賀県ホームページ",
+      "type": "official",
+      "published_on": "2026-04-30",
+      "checked_on": "2026-10-26"
+    }
+  ],
+  "updates": [],
+  "notes": "延べ99人は支援者全体であり、対象となるPayPal利用者の人数は未公表。99人全員を流出対象としない。",
+  "vendors": [
+    {
+      "name": "CAMPFIRE",
+      "role": "service",
+      "detail": "当該事案に関係するサービス・業務の提供元として公式本文に記載。",
+      "source_index": 0
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": "mikawa-ycc-20260423",
+  "organization": {
+    "name": "三川町（介護予防調査）",
+    "sector": "行政・自治体"
+  },
+  "title": "YCC侵害で高齢者1,974人分に漏えいのおそれ",
+  "summary": "2017年の介護予防・日常生活圏域ニーズ調査で使用したデータが委託先に保管されていた。",
+  "published_on": "2026-04-23",
+  "first_published_on": "2026-04-23",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-26",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。具体的な侵入手口は未特定。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": 1974,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表対象は1,974人。全件の流出確定とは限らない。"
+    }
+  ],
+  "data_types": [
+    "宛名情報",
+    "被保険者情報",
+    "氏名",
+    "生年月日",
+    "住所"
+  ],
+  "related_vendor": "YCC情報システム",
+  "sources": [
+    {
+      "url": "https://www.town.mikawa.yamagata.jp/infomation/YCCkinnkyu.html",
+      "title": "不審な郵便物にご注意ください！",
+      "type": "official",
+      "published_on": "2026-04-23",
+      "checked_on": "2026-10-26"
+    }
+  ],
+  "updates": [],
+  "notes": "公式更新日4月23日を採用。調査データ作成年2017年や攻撃日4月2日とは異なる。",
+  "vendors": [
+    {
+      "name": "YCC情報システム",
+      "role": "service",
+      "detail": "当該事案に関係するサービス・業務の提供元として公式本文に記載。",
+      "source_index": 0
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "id": "chiba-u-m365-20260417",
+  "organization": {
+    "name": "千葉大学",
+    "sector": "企業・団体"
+  },
+  "title": "Microsoft 365侵害で学生・教員48人の氏名に漏えいのおそれ",
+  "summary": "4アカウントの侵害を確認し、うち3アカウントの共有フォルダ内データが閲覧された可能性を公表。",
+  "published_on": "2026-04-17",
+  "first_published_on": "2026-04-17",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-01-30",
+  "updated_on": "2026-10-26",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。具体的な侵入手口は未特定。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": 48,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表対象は48人。全件の流出確定とは限らない。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "授業レポート等の課題データ"
+  ],
+  "related_vendor": "Microsoft",
+  "sources": [
+    {
+      "url": "https://www.chiba-u.ac.jp/news/notice/security_2026.html",
+      "title": "本学クラウドサービス利用者アカウントへの不正アクセス及び迷惑メールの送信について | 国立大学法人 千葉大学｜Chiba University",
+      "type": "official",
+      "published_on": "2026-04-17",
+      "checked_on": "2026-10-26"
+    }
+  ],
+  "updates": [],
+  "notes": "学生47人と教員1人。侵害4アカウントや迷惑メール1,301通は被害人数へ加算しない。侵入手口は未確定。",
+  "vendors": [
+    {
+      "name": "Microsoft",
+      "role": "service",
+      "detail": "侵害されたMicrosoft 365のクラウドサービス提供元。攻撃の責任を示すものではない。",
+      "source_index": 0
+    }
+  ]
+}

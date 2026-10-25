@@ -1,0 +1,63 @@
+{
+  "id": "yamakobus-ycc-20260417",
+  "organization": {
+    "name": "山形交通",
+    "sector": "企業・団体"
+  },
+  "title": "YCC侵害でバス・ハイヤー顧客等の情報に漏えいのおそれ",
+  "summary": "構築委託時の個人情報データが委託先サーバーに残っていた。",
+  "published_on": "2026-04-17",
+  "first_published_on": "2026-04-17",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-26",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。具体的な侵入手口は未特定。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": 1307,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "バス基幹システム1,307件。"
+    },
+    {
+      "count": 120573,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "ハイヤー基幹システム120,573件。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "電話番号",
+    "社員氏名"
+  ],
+  "related_vendor": "YCC情報システム",
+  "sources": [
+    {
+      "url": "https://www.yamakobus.jp/b69b3474172b989ad449c3c9999d7c413a119659.pdf",
+      "title": "株式会社YCC情報システム社に対するサイバー攻撃に係る  当社個人情報の漏えいの事案について",
+      "type": "official",
+      "published_on": "2026-04-17",
+      "checked_on": "2026-10-26"
+    }
+  ],
+  "updates": [],
+  "notes": "各件数は同一人の重複を含む。実人数や確認流出数ではない。",
+  "vendors": [
+    {
+      "name": "YCC情報システム",
+      "role": "development",
+      "detail": "対象のバス・ハイヤー基幹システムの構築委託先。",
+      "source_index": 0
+    }
+  ]
+}
