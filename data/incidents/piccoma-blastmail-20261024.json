@@ -1,0 +1,54 @@
+{
+  "id": "piccoma-blastmail-20261024",
+  "organization": {
+    "name": "カカオピッコマ（ピッコマ）",
+    "sector": "企業・団体"
+  },
+  "title": "メールマガジンの配信先メールアドレス1,002,404件が流出",
+  "summary": "委託先ブラストメールへの不正アクセスにより、メールマガジン1回分の宛先メールアドレスが流出したと公表。",
+  "published_on": "2026-10-24",
+  "first_published_on": "2026-10-24",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-26",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "メール配信を委託するブラストメールへの第三者による不正アクセス。ピッコマのアプリ・Webサービスと同社システムへの侵入ではない。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 1002404,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "メールマガジン1回分の配信先メールアドレス1,002,404件。重複を除いた実人数や全利用者数ではない。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "ラクスライトクラウド（ブラストメール）",
+  "sources": [
+    {
+      "url": "https://jp.piccoma.com/web/notice_detail/7503",
+      "type": "official",
+      "title": "株式会社ラクスライトクラウドのメール配信システム「ブラストメール」への不正アクセスによるお客様のメールアドレス流出に関するお知らせとお詫び（第1報）",
+      "published_on": "2026-10-24",
+      "checked_on": "2026-10-26"
+    }
+  ],
+  "updates": [],
+  "notes": "10月24日に委託先から流出報告を受領。21日0時30分頃の検知は委託先側の事実であり、同社の検知日として転用しない。パスワードは委託先に預けておらず、アカウント・購入情報への影響はないと説明。ピッコマノベルズのメールマガジンは24日時点で流出未確認。",
+  "vendors": [
+    {
+      "name": "ラクスライトクラウド",
+      "role": "service",
+      "detail": "メール配信サービス「ブラストメール」の提供元。",
+      "source_index": 0
+    }
+  ]
+}
