@@ -1,0 +1,49 @@
+{
+  "id": "system5-20261024",
+  "organization": {
+    "name": "システムファイブ",
+    "sector": "企業・団体"
+  },
+  "title": "オンラインショップ連携システムから顧客情報が流出",
+  "summary": "一部顧客の個人情報の不正取得を確認。最大約15,000人の氏名・メールアドレス等が対象となる可能性を公表。",
+  "published_on": "2026-10-24",
+  "first_published_on": "2026-10-22",
+  "publication_kind": "followup",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-25",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "オンラインショップと連携する一部システムへの不正アクセス。侵入経路は未公表。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 15000,
+      "unit": "people",
+      "qualifier": "maximum_approximate",
+      "description": "漏えいした可能性のある顧客の上限。個別対象を調査中。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "メールアドレス",
+    "ポイント情報",
+    "商品レビュー関連情報"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://info.system5.jp/whatsnew/apology-20261024",
+      "type": "official",
+      "title": "オンラインショップ連携システムから顧客情報が流出",
+      "published_on": "2026-10-24",
+      "checked_on": "2026-10-25"
+    }
+  ],
+  "updates": [],
+  "notes": "一部の不正取得は確認済みだが、15,000人全員の流出が確定したという意味ではない。カード・パスワードは同社システムで保有せず対象外。"
+}

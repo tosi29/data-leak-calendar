@@ -1,0 +1,52 @@
+{
+  "id": "maaru-blastmail-20261024",
+  "organization": {
+    "name": "静岡市こどもクリエイティブタウン ま・あ・る",
+    "sector": "自治体・公共施設"
+  },
+  "title": "案内メール配信サービス経由の個人情報漏えいの可能性",
+  "summary": "10月24日14時時点で利用者情報の漏えい報告はないが、調査継続中で可能性を否定できないと公表。",
+  "published_on": "2026-10-24",
+  "first_published_on": "2026-10-24",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-25",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "委託先ブラストメールへの第三者の不正アクセス。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "対象人数・件数は未公表。"
+    }
+  ],
+  "data_types": [],
+  "related_vendor": "ラクスライトクラウド（ブラストメール）",
+  "sources": [
+    {
+      "url": "https://maaru-ct.jp/news/270383/",
+      "type": "official",
+      "title": "案内メール配信サービス経由の個人情報漏えいの可能性",
+      "published_on": "2026-10-24",
+      "checked_on": "2026-10-25"
+    }
+  ],
+  "updates": [],
+  "notes": "対象情報の具体的項目と件数は未公表。漏えい確認済みとは扱わない。",
+  "vendors": [
+    {
+      "name": "ラクスライトクラウド",
+      "role": "service",
+      "detail": "メール配信サービス「ブラストメール」の提供元。",
+      "source_index": 0
+    }
+  ]
+}

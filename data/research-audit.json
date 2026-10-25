@@ -27550,6 +27550,44 @@
         "sagawa-20261001"
       ],
       "notes": "ユーザー指摘による取りこぼし補完。公式FAQ表示用XMLから10月23日の件数・再開状況を確認。総数839件を維持。佐川関連8記録を照合：当該事故本体1、委託自治体6、別原因の7月事故1。"
+    },
+    {
+      "checked_on": "2026-10-25",
+      "scope": "10月24〜25日公表・続報の点検、探索で判明した23日未掲載分の補完",
+      "added_incident_ids": [
+        "system5-20261024",
+        "ejudo-blastmail-20261025",
+        "maaru-blastmail-20261024",
+        "yamada-shoten-blastmail-20261024",
+        "shizuoka-ekipa-20261024",
+        "fujichild-blastmail-20261024",
+        "akb48shop-blastmail-20261023",
+        "acto-kameido-blastmail-20261023",
+        "nagasaki-museum-blastmail-20261023"
+      ],
+      "updated_incident_ids": [
+        "rakus-blastmail-20261021",
+        "onamae-desktop-20261023"
+      ],
+      "stats": {
+        "added": 9,
+        "updated": 2,
+        "total": 956,
+        "pending": 49
+      },
+      "not_added": [
+        {
+          "organization": "自動車技術会",
+          "source_url": "https://jsae.or.jp/news/detail/2872/",
+          "reason": "内部調査で受信者情報漏えい未確認、同会はほぼ否定と説明。外部調査は継続。現段階で新規漏えいとして追加しない。"
+        },
+        {
+          "organization": "心のともしび",
+          "source_url": "https://tomoshibi.or.jp/",
+          "reason": "公式トップで読者情報は流出していないと説明。告知自体の日付は未確定。"
+        }
+      ],
+      "notes": "全9件を公式本文で確認。保留49候補の一括再調査は未実施。全件網羅の保証ではない。詳細はdocs/research-2026-10-25-update.md。"
     }
   ]
 }

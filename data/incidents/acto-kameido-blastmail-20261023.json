@@ -1,0 +1,54 @@
+{
+  "id": "acto-kameido-blastmail-20261023",
+  "organization": {
+    "name": "一般社団法人ACTO亀戸（Be ACTO亀戸）",
+    "sector": "企業・団体"
+  },
+  "title": "登録メールアドレスが漏えいした可能性",
+  "summary": "会員・登録者向け配信の委託先に不正アクセス。対象範囲は精査中だが漏えいしたものとみなして対応すると公表。",
+  "published_on": "2026-10-23",
+  "first_published_on": "2026-10-23",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-25",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "委託先ブラストメールへの第三者の不正アクセス。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "対象人数・件数は未公表。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "ラクスライトクラウド（ブラストメール）",
+  "sources": [
+    {
+      "url": "https://be-acto-kameido.net/event/16276",
+      "type": "official",
+      "title": "登録メールアドレスが漏えいした可能性",
+      "published_on": "2026-10-23",
+      "checked_on": "2026-10-25"
+    }
+  ],
+  "updates": [],
+  "notes": "対応方針として漏えい扱いしていることと、実際の流出確認は区別。",
+  "vendors": [
+    {
+      "name": "ラクスライトクラウド",
+      "role": "service",
+      "detail": "メール配信サービス「ブラストメール」の提供元。",
+      "source_index": 0
+    }
+  ]
+}

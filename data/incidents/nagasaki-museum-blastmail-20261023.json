@@ -1,0 +1,52 @@
+{
+  "id": "nagasaki-museum-blastmail-20261023",
+  "organization": {
+    "name": "長崎県美術館",
+    "sector": "企業・団体"
+  },
+  "title": "メールマガジン登録者情報への影響を継続調査",
+  "summary": "第2報で同館の登録者情報の漏えいは確認されていないと公表。委託先の調査は継続中。",
+  "published_on": "2026-10-23",
+  "first_published_on": "2026-10-22",
+  "publication_kind": "followup",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-25",
+  "verification": "official",
+  "leak_status": "investigating",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "委託先ブラストメールへの第三者の不正アクセス。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "対象人数・件数は未公表。"
+    }
+  ],
+  "data_types": [],
+  "related_vendor": "ラクスライトクラウド（ブラストメール）",
+  "sources": [
+    {
+      "url": "https://www.nagasaki-museum.jp/archives/news/34408",
+      "type": "official",
+      "title": "メールマガジン登録者情報への影響を継続調査",
+      "published_on": "2026-10-23",
+      "checked_on": "2026-10-25"
+    }
+  ],
+  "updates": [],
+  "notes": "23日時点の未確認であり、漏えいを最終否定したという意味ではない。22日の初報と1件に統合。",
+  "vendors": [
+    {
+      "name": "ラクスライトクラウド",
+      "role": "service",
+      "detail": "メール配信サービス「ブラストメール」の提供元。",
+      "source_index": 0
+    }
+  ]
+}

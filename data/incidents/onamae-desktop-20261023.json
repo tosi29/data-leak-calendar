@@ -4,16 +4,16 @@
     "name": "GMOインターネット（お名前.com デスクトップクラウド）",
     "sector": "企業・団体"
   },
-  "title": "取引口座のログイン情報が取得・不正利用された可能性",
-  "summary": "第3報で取引ツール等に保存された認証情報への影響を公表。個別の取得・不正利用の有無と範囲は引き続き調査中。",
+  "title": "デスクトップクラウドの顧客情報の外部持ち出しを確認",
+  "summary": "10月24日第4報で外部持ち出しを確認したと公表。個別の取得情報・不正取引の範囲は調査中。第5報で利用者端末の確認と全セッション切断等を案内。",
   "published_on": "2026-10-23",
   "first_published_on": "2026-10-21",
   "publication_kind": "followup",
   "occurred_on": null,
   "detected_on": "2026-10-20",
-  "updated_on": "2026-10-23",
+  "updated_on": "2026-10-25",
   "verification": "official",
-  "leak_status": "suspected",
+  "leak_status": "confirmed",
   "incident_type": "attack",
   "cause": {
     "category": "unauthorized_access",
@@ -55,8 +55,33 @@
       "title": "当社の提供サービスへの不正アクセスに関するお知らせ",
       "published_on": "2026-10-23",
       "checked_on": "2026-10-23"
+    },
+    {
+      "url": "https://www.onamae.com/news/article/11598",
+      "type": "official",
+      "title": "お名前.com デスクトップクラウド 不正アクセス関連（第4報）",
+      "published_on": "2026-10-24",
+      "checked_on": "2026-10-25"
+    },
+    {
+      "url": "https://www.onamae.com/news/article/11599",
+      "type": "official",
+      "title": "お名前.com デスクトップクラウド 不正アクセス関連（第5報）",
+      "published_on": "2026-10-24",
+      "checked_on": "2026-10-25"
     }
   ],
-  "updates": [],
-  "notes": "26,739は対象となり得るサーバー数であり、流出件数や人数ではない。事業者は決済情報を当該サーバーに保持しないが、顧客自身の保存情報は対象。確認待ちoct21-review-onamaeから移行。"
+  "updates": [
+    {
+      "date": "2026-10-24",
+      "summary": "第4報で顧客情報の外部持ち出しを確認。代替環境・見舞金等を案内。",
+      "source_index": 3
+    },
+    {
+      "date": "2026-10-24",
+      "summary": "第5報で端末確認、バックアップ、パスワード変更に加え全セッション切断を要請。",
+      "source_index": 4
+    }
+  ],
+  "notes": "26,739は対象となり得るサーバー数であり、流出件数や人数ではない。事業者は決済情報を当該サーバーに保持しないが、顧客自身の保存情報は対象。確認待ちoct21-review-onamaeから移行。 第4報の確認により漏えい確認済みへ変更。既存1件の続報として反映し、選択公表日23日は維持。"
 }

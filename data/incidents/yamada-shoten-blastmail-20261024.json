@@ -1,0 +1,52 @@
+{
+  "id": "yamada-shoten-blastmail-20261024",
+  "organization": {
+    "name": "山田書店（山田書店美術部）",
+    "sector": "企業・団体"
+  },
+  "title": "メールマガジン配信先リストへの影響を調査",
+  "summary": "委託先の不正アクセスを受け、自社の配信先リストが漏えい対象か確認中と公表。",
+  "published_on": "2026-10-24",
+  "first_published_on": "2026-10-24",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-25",
+  "verification": "official",
+  "leak_status": "investigating",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "委託先ブラストメールへの第三者の不正アクセス。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "対象人数・件数は未公表。"
+    }
+  ],
+  "data_types": [],
+  "related_vendor": "ラクスライトクラウド（ブラストメール）",
+  "sources": [
+    {
+      "url": "https://www.yamada-shoten.com/onlinestore/blog/?p=28370",
+      "type": "official",
+      "title": "メールマガジン配信先リストへの影響を調査",
+      "published_on": "2026-10-24",
+      "checked_on": "2026-10-25"
+    }
+  ],
+  "updates": [],
+  "notes": "344件は提供元全体の契約数。山田書店の読者数や漏えい確認数ではない。契約者の販売管理情報と読者リストを区別。",
+  "vendors": [
+    {
+      "name": "ラクスライトクラウド",
+      "role": "service",
+      "detail": "メール配信サービス「ブラストメール」の提供元。",
+      "source_index": 0
+    }
+  ]
+}

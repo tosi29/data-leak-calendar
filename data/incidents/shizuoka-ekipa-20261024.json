@@ -1,0 +1,50 @@
+{
+  "id": "shizuoka-ekipa-20261024",
+  "organization": {
+    "name": "静岡市（静岡駅前地下駐車場エキパ）",
+    "sector": "自治体・公共施設"
+  },
+  "title": "駐車券紛失届に記載された個人情報が流出したおそれ",
+  "summary": "書類の買い取りを要求する電話を受け、該当書類の所在を確認できず。市は個人情報流出のおそれとして調査中。",
+  "published_on": "2026-10-24",
+  "first_published_on": "2026-10-24",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-25",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "unknown",
+  "cause": {
+    "category": "unknown",
+    "detail": "書類の所在と外部流出の可能性を調査中。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "対象人数・件数は未公表。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "電話番号",
+    "運転免許証番号",
+    "車種"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.city.shizuoka.lg.jp/documents/1394/20261024001.pdf",
+      "type": "official",
+      "title": "駐車券紛失届に記載された個人情報が流出したおそれ",
+      "published_on": "2026-10-24",
+      "checked_on": "2026-10-25"
+    }
+  ],
+  "updates": [],
+  "notes": "約300枚は電話相手の主張で、確認された紛失・漏えい件数ではない。読み上げられた2人も総被害人数と扱わない。流出経路と件数は未確定。"
+}

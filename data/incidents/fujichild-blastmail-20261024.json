@@ -1,0 +1,58 @@
+{
+  "id": "fujichild-blastmail-20261024",
+  "organization": {
+    "name": "富士チャイルドアカデミー",
+    "sector": "企業・団体"
+  },
+  "title": "在籍生の個人情報が委託先のメール配信サービスから流出",
+  "summary": "10月21日に委託先から漏えいの報告を受けたと公表。10月在籍生の氏名、生年月日等が対象。",
+  "published_on": "2026-10-24",
+  "first_published_on": null,
+  "publication_kind": "followup",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-25",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "委託先ブラストメールへの第三者の不正アクセス。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "対象人数・件数は未公表。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス",
+    "生徒氏名（漢字・フリガナ）",
+    "生年月日",
+    "性別",
+    "通塾教室"
+  ],
+  "related_vendor": "ラクスライトクラウド（ブラストメール）",
+  "sources": [
+    {
+      "url": "https://fujichild.jp/news/%e4%b8%80%e6%96%89%e9%85%8d%e4%bf%a1%e3%83%a1%e3%83%bc%e3%83%ab%e5%81%9c%e6%ad%a2%e3%80%80%e7%b5%8c%e7%b7%af%e3%81%ab%e3%81%a4%e3%81%84%e3%81%a6%e8%bf%bd%e5%8a%a0%e3%81%ae%e3%81%8a%e7%9f%a5%e3%82%89/",
+      "type": "official",
+      "title": "在籍生の個人情報が委託先のメール配信サービスから流出",
+      "published_on": "2026-10-24",
+      "checked_on": "2026-10-25"
+    }
+  ],
+  "updates": [],
+  "notes": "情報項目は「漏えいした、または漏えいした可能性のある情報」と公表され、全項目・全員の確定とは扱わない。9月末までの退会者情報は削除済み。前の配信停止告知の公表日は未確定。",
+  "vendors": [
+    {
+      "name": "ラクスライトクラウド",
+      "role": "service",
+      "detail": "メール配信サービス「ブラストメール」の提供元。",
+      "source_index": 0
+    }
+  ]
+}

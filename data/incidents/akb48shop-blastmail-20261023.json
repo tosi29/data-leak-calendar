@@ -1,0 +1,54 @@
+{
+  "id": "akb48shop-blastmail-20261023",
+  "organization": {
+    "name": "AKB48 Official Shop（BEENOS Entertainment・DH）",
+    "sector": "企業・団体"
+  },
+  "title": "メールマガジン登録メールアドレスが流出",
+  "summary": "10月23日に委託先から登録情報の漏えい連絡を受領。対象人数は確認中。",
+  "published_on": "2026-10-23",
+  "first_published_on": "2026-10-23",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-25",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "委託先ブラストメールへの第三者の不正アクセス。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "対象人数・件数は未公表。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "ラクスライトクラウド（ブラストメール）",
+  "sources": [
+    {
+      "url": "https://ameblo.jp/akihabara48/entry-12982474093.html",
+      "type": "official",
+      "title": "メールマガジン登録メールアドレスが流出",
+      "published_on": "2026-10-23",
+      "checked_on": "2026-10-25"
+    }
+  ],
+  "updates": [],
+  "notes": "24日のまとめ記事の日付ではなく、公式公表日23日を採用。氏名・決済情報・注文情報などは対象外。",
+  "vendors": [
+    {
+      "name": "ラクスライトクラウド",
+      "role": "service",
+      "detail": "メール配信サービス「ブラストメール」の提供元。",
+      "source_index": 0
+    }
+  ]
+}

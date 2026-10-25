@@ -1,0 +1,54 @@
+{
+  "id": "ejudo-blastmail-20261025",
+  "organization": {
+    "name": "eJudo",
+    "sector": "企業・団体"
+  },
+  "title": "過去の会員を含む配信先メールアドレスが流出",
+  "summary": "委託先から登録した配信先リスト全件の漏えい報告を受領したと公表。件数は未公表。",
+  "published_on": "2026-10-25",
+  "first_published_on": "2026-10-25",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-25",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "委託先ブラストメールへの第三者の不正アクセス。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "対象人数・件数は未公表。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "ラクスライトクラウド（ブラストメール）",
+  "sources": [
+    {
+      "url": "https://ejudo.info/articles/34272",
+      "type": "official",
+      "title": "過去の会員を含む配信先メールアドレスが流出",
+      "published_on": "2026-10-25",
+      "checked_on": "2026-10-25"
+    }
+  ],
+  "updates": [],
+  "notes": "記事公開日とトップ一覧は10月25日、本文末尾は10月24日。公開表示日を採用。氏名・カード情報は登録しておらず対象外。10月21日の配信停止告知とは別計上しない。",
+  "vendors": [
+    {
+      "name": "ラクスライトクラウド",
+      "role": "service",
+      "detail": "メール配信サービス「ブラストメール」の提供元。",
+      "source_index": 0
+    }
+  ]
+}
