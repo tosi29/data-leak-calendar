@@ -6,12 +6,12 @@
   },
   "title": "添付ファイル分離メールサーバへの侵害の最終報告",
   "summary": "Webシステムの脆弱性を悪用した侵害を確認。外部への窃取の痕跡はないが、メール関連情報が一時的にアクセス可能となった。",
-  "published_on": "2026-06-29",
+  "published_on": "2026-05-19",
   "first_published_on": "2026-05-19",
-  "publication_kind": "followup",
+  "publication_kind": "initial",
   "occurred_on": null,
   "detected_on": null,
-  "updated_on": "2026-10-24",
+  "updated_on": "2026-10-26",
   "verification": "official",
   "leak_status": "suspected",
   "incident_type": "attack",
@@ -53,7 +53,7 @@
       "type": "official",
       "title": "不正アクセスによる情報漏えいの可能性に関するお詫びとお知らせ｜新着情報｜ICC 石川コンピュータ・センター",
       "published_on": "2026-05-19",
-      "checked_on": "2026-10-24"
+      "checked_on": "2026-10-26"
     },
     {
       "url": "https://www.icc.co.jp/news/2026/20260527.html",
@@ -63,6 +63,12 @@
       "checked_on": "2026-10-24"
     }
   ],
-  "updates": [],
-  "notes": "6月5日の報道日ではなく6月29日の公式最終報告で掲載。メール本文は含まれない。"
+  "updates": [
+    {
+      "date": "2026-06-29",
+      "summary": "後続の公表：不正アクセスによる情報漏えいの可能性に関するお詫びとお知らせ(最終報)｜新着情報｜ICC 石川コンピュータ・センター。5月の公表を確認したため同一記録に保持。",
+      "source_index": 0
+    }
+  ],
+  "notes": "6月5日の報道日ではなく6月29日の公式最終報告で掲載。メール本文は含まれない。 2026年5月の遡及調査で掲載公表日を2026-06-29から2026-05-19へ変更。IDと後続の調査結果を保持。"
 }

@@ -1,0 +1,59 @@
+{
+  "id": "tokio-shinken-20260511",
+  "organization": {
+    "name": "東京海上日動火災保険",
+    "sector": "企業・団体"
+  },
+  "title": "損害査定委託先の侵害で約1,500件に漏えいのおそれ",
+  "summary": "新日本検定協会のランサムウェア被害に関連する顧客・事故相手方等への影響を公表。",
+  "published_on": "2026-05-11",
+  "first_published_on": "2026-05-11",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-26",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。具体的な侵入手口は未確定。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 1500,
+      "unit": "records",
+      "qualifier": "approximate",
+      "description": "公表された対象規模は1,500。流出確定数とは限らない。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "電話番号",
+    "証券番号",
+    "事故受付番号",
+    "メールアドレス"
+  ],
+  "related_vendor": "新日本検定協会",
+  "sources": [
+    {
+      "url": "https://www.tokiomarine-nichido.co.jp/company/release/pdf/260511_01.pdf",
+      "title": "損害査定委託先の侵害で約1,500件に漏えいのおそれ",
+      "type": "official",
+      "published_on": "2026-05-11",
+      "checked_on": "2026-10-26"
+    }
+  ],
+  "updates": [],
+  "notes": "",
+  "vendors": [
+    {
+      "name": "新日本検定協会",
+      "role": "service",
+      "detail": "当該事案に関係する業務・サービスの提供元。役割は公表本文に基づく。",
+      "source_index": 0
+    }
+  ]
+}

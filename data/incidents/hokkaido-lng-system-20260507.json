@@ -1,0 +1,49 @@
+{
+  "id": "hokkaido-lng-system-20260507",
+  "organization": {
+    "name": "北海道ガス・北海道LNG",
+    "sector": "企業・団体"
+  },
+  "title": "LNG受発注システムの担当者・従業員情報に流出のおそれ",
+  "summary": "サーバーへの不正アクセスにより、取引先担当者と従業員情報の一部が流出した可能性を公表。",
+  "published_on": "2026-05-07",
+  "first_published_on": "2026-05-07",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-01-22",
+  "updated_on": "2026-10-26",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。具体的な侵入手口は未確定。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 296,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "公表された対象規模は296。流出確定数とは限らない。"
+    }
+  ],
+  "data_types": [
+    "会社名",
+    "氏名",
+    "メールアドレス",
+    "暗号化されたログイン用パスワード"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.hokkaido-gas.co.jp/wp-content/uploads/2026/05/6ef98421dbe01a77cf34e6619881e797.pdf",
+      "title": "「ＬＮＧ受発注システム」への不正アクセスに関するお詫びとお知らせ",
+      "type": "official",
+      "published_on": "2026-05-07",
+      "checked_on": "2026-10-26"
+    }
+  ],
+  "updates": [],
+  "notes": "通知完了283件と通知未完了13件の合計296件。法人取引先の担当者情報を含む。共同公表を1事案にまとめる。"
+}

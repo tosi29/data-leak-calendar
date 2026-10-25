@@ -1,0 +1,55 @@
+{
+  "id": "zennoh-enessance-20260511",
+  "organization": {
+    "name": "全農東北エネルギー",
+    "sector": "企業・団体"
+  },
+  "title": "業務委託先への攻撃で顧客情報1,435件に流出またはそのおそれ",
+  "summary": "委託先グループの公開情報精査と最終報告を受けて影響を公表。",
+  "published_on": "2026-05-11",
+  "first_published_on": "2026-05-11",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-26",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。具体的な侵入手口は未確定。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 1435,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "公表された対象規模は1,435。流出確定数とは限らない。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所"
+  ],
+  "related_vendor": "エネサンスホールディングスグループ",
+  "sources": [
+    {
+      "url": "https://zennoh-energy.co.jp/company/resource/%E3%82%B5%E3%82%A4%E3%83%90%E3%83%BC%E6%94%BB%E6%92%83%E3%81%AB%E3%82%88%E3%82%8B%E5%80%8B%E4%BA%BA%E6%83%85%E5%A0%B1%E6%BC%8F%E3%81%88%E3%81%84%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E3%81%8A%E8%A9%AB%E3%81%B3%E3%81%A8%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B.pdf",
+      "title": "サイバー攻撃による個人情報漏えいに関するお詫びとお知らせ",
+      "type": "official",
+      "published_on": "2026-05-11",
+      "checked_on": "2026-10-26"
+    }
+  ],
+  "updates": [],
+  "notes": "委託先が情報公開を確認した事案。1,435件全件・全項目の流出確定とは扱わない。",
+  "vendors": [
+    {
+      "name": "エネサンスホールディングスグループ",
+      "role": "service",
+      "detail": "当該事案に関係する業務・サービスの提供元。役割は公表本文に基づく。",
+      "source_index": 0
+    }
+  ]
+}

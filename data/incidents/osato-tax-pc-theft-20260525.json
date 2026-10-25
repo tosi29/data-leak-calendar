@@ -1,0 +1,64 @@
+{
+  "id": "osato-tax-pc-theft-20260525",
+  "organization": {
+    "name": "大郷町（税務課）",
+    "sector": "行政・自治体"
+  },
+  "title": "税務課のパソコン盗難で家屋所有者等の情報に漏えいのおそれ",
+  "summary": "ワイヤーロックを切断され、端末内の保存ファイルに影響の可能性。",
+  "published_on": "2026-05-25",
+  "first_published_on": "2026-05-25",
+  "publication_kind": "initial",
+  "occurred_on": "2026-05-12",
+  "detected_on": null,
+  "updated_on": "2026-10-26",
+  "verification": "official",
+  "leak_status": "lost",
+  "incident_type": "accident",
+  "cause": {
+    "category": "loss",
+    "detail": "庁内で施錠されたパソコンと周辺機器が盗難。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 100,
+      "unit": "records",
+      "qualifier": "maximum",
+      "description": "令和4〜6年度の新築家屋所有者情報、最大100件（法人・団体を含む）。"
+    },
+    {
+      "count": 100,
+      "unit": "records",
+      "qualifier": "maximum",
+      "description": "令和4〜6年度の建築計画概要書、最大100件（法人・団体を含む）。重複の有無は未確定。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "家屋所在地",
+    "家屋情報",
+    "評価額",
+    "建築計画概要書"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.town.miyagi-osato.lg.jp/soshiki/soumu/koukai20260525.html",
+      "title": "個人情報が漏えいした可能性のある事案について",
+      "type": "official",
+      "published_on": "2026-05-25",
+      "checked_on": "2026-10-26"
+    },
+    {
+      "url": "https://www.town.miyagi-osato.lg.jp/uploaded/life/17171_18165_misc.pdf",
+      "title": "個人情報が漏えいした可能性のある事案のご報告とお詫び",
+      "type": "official",
+      "published_on": "2026-05-25",
+      "checked_on": "2026-10-26"
+    }
+  ],
+  "updates": [],
+  "notes": "2区分を人数や重複を除いた200件へ換算しない。専用回線接続が必要なシステムそのものと端末内ファイルを区別する。"
+}

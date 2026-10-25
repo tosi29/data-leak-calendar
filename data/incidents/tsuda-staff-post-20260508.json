@@ -1,0 +1,54 @@
+{
+  "id": "tsuda-staff-post-20260508",
+  "organization": {
+    "name": "津田塾大学",
+    "sector": "企業・団体"
+  },
+  "title": "元職員が学生等9人の情報を掲示板へ投稿",
+  "summary": "投稿9人を確認し、学事システムの権限不備による22,444人への影響可能性も公表。",
+  "published_on": "2026-05-08",
+  "first_published_on": "2026-05-08",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2025-07-13",
+  "updated_on": "2026-10-26",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "improper_handling",
+  "cause": {
+    "category": "improper_sharing",
+    "detail": "元職員による個人情報の無断投稿。閲覧権限設定にも不備があった。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 9,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "掲示板への投稿が確認された9人。"
+    },
+    {
+      "count": 22444,
+      "unit": "people",
+      "qualifier": "maximum",
+      "description": "漏えいの可能性がある学事システムの情報保有者22,444人。9人との重複を除けないため合算しない。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "学籍番号",
+    "学事システム上の個人情報"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.tsuda.ac.jp/news/2026/0508_2.html",
+      "title": "個人情報漏えいに関するお詫びとお知らせ｜津田塾大学",
+      "type": "official",
+      "published_on": "2026-05-08",
+      "checked_on": "2026-10-26"
+    }
+  ],
+  "updates": [],
+  "notes": "22,444人全員の流出を確認したものではない。確認9人と可能性の範囲を分ける。"
+}

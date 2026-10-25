@@ -1,0 +1,46 @@
+{
+  "id": "tochigi-npo-redaction-20260501",
+  "organization": {
+    "name": "栃木県（NPO法人役員名簿等）",
+    "sector": "行政・自治体"
+  },
+  "title": "PDFの黒塗り処理不備で役員2,653人の住所が閲覧可能",
+  "summary": "NPO法人ポータルサイト上の190法人の名簿等で、黒塗りした住所を読み取れる状態だった。",
+  "published_on": "2026-05-01",
+  "first_published_on": "2026-05-01",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-04-23",
+  "updated_on": "2026-10-26",
+  "verification": "official",
+  "leak_status": "exposed",
+  "incident_type": "accident",
+  "cause": {
+    "category": "redaction_error",
+    "detail": "PDFにデータが残る方法で黒塗り処理を実施していた。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 2653,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表された対象規模は2,653。流出確定数とは限らない。"
+    }
+  ],
+  "data_types": [
+    "住所"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.pref.tochigi.lg.jp/c01/houdou/npokannkei/jyouhou.html",
+      "title": "栃木県／特定非営利活動法人役員等の個人情報漏えいについて",
+      "type": "official",
+      "published_on": "2026-05-01",
+      "checked_on": "2026-10-26"
+    }
+  ],
+  "updates": [],
+  "notes": "190法人は掲載法人の数であり、人数には2,653人を用いる。"
+}

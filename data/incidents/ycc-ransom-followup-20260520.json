@@ -1,0 +1,46 @@
+{
+  "id": "ycc-ransom-followup-20260520",
+  "organization": {
+    "name": "YCC情報システム",
+    "sector": "企業・団体"
+  },
+  "title": "ランサムウェア被害の調査で受託・保管情報への影響を報告",
+  "summary": "ファイルサーバーへアクセス可能な状況があり、情報流出を完全には否定できないと第五報で公表。",
+  "published_on": "2026-05-20",
+  "first_published_on": "2026-04-03",
+  "publication_kind": "followup",
+  "occurred_on": "2026-04-02",
+  "detected_on": null,
+  "updated_on": "2026-10-26",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "credentials",
+    "detail": "ネットワーク機器の管理者認証情報を推測または取得し、内部へ侵入した可能性。",
+    "certainty": "suspected"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "対象人数・件数は未公表。"
+    }
+  ],
+  "data_types": [
+    "取引先から受託・保管した情報（個人情報を含む）"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.yamagata-ycc.co.jp/news/20260520-1/",
+      "title": "【重要】ランサムウェア攻撃に関するお知らせ（第五報）",
+      "type": "official",
+      "published_on": "2026-05-20",
+      "checked_on": "2026-10-26"
+    }
+  ],
+  "updates": [],
+  "notes": "外部送信・外部公開の明確な痕跡は未確認。可能性が残るため漏えい否定とはしない。"
+}

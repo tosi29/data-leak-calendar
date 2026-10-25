@@ -1,0 +1,50 @@
+{
+  "id": "medica-ransom-20260513",
+  "organization": {
+    "name": "メディカ出版",
+    "sector": "企業・団体"
+  },
+  "title": "ランサムウェア調査で延べ約64万1,000人に漏えいのおそれ",
+  "summary": "外部専門機関の調査結果と対象範囲を公表。持ち出しを直接示す確定的証拠は未確認。",
+  "published_on": "2026-05-13",
+  "first_published_on": null,
+  "publication_kind": "followup",
+  "occurred_on": "2026-03-13",
+  "detected_on": null,
+  "updated_on": "2026-10-26",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "credentials",
+    "detail": "第三者が正規アカウント情報を用いて社内ネットワークへ侵入。認証情報の漏えい経路は未特定。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 641000,
+      "unit": "people",
+      "qualifier": "approximate",
+      "description": "公表された対象規模は641,000。流出確定数とは限らない。"
+    }
+  ],
+  "data_types": [
+    "顧客情報",
+    "医療・教育機関関係者情報",
+    "著者・講師情報",
+    "取引先担当者情報",
+    "従業員・採用応募者情報"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.medica.co.jp/news/information/3544/",
+      "title": "不正アクセス（ランサムウェア）事案に関する調査結果および再発防止策のご報告 | メディカ出版",
+      "type": "official",
+      "published_on": "2026-05-13",
+      "checked_on": "2026-10-26"
+    }
+  ],
+  "updates": [],
+  "notes": "初報は収集開始前だが公表日未特定。公式本文の概算合計641,000人を採用し、月次まとめの77.2万件へ置き換えない。同一人物の重複を含む可能性あり。"
+}

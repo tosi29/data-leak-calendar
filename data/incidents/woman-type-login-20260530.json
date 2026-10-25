@@ -1,0 +1,46 @@
+{
+  "id": "woman-type-login-20260530",
+  "organization": {
+    "name": "キャリアデザインセンター（女の転職type）",
+    "sector": "企業・団体"
+  },
+  "title": "不正ログインで18,253人の会員情報が閲覧されたおそれ",
+  "summary": "5月26〜28日の不正ログイン試行を調査し、対象アプリ利用者へ案内。",
+  "published_on": "2026-05-30",
+  "first_published_on": "2026-05-30",
+  "publication_kind": "initial",
+  "occurred_on": "2026-05-26",
+  "detected_on": null,
+  "updated_on": "2026-10-26",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "credentials",
+    "detail": "外部から入手した認証情報によるリスト型攻撃と推測。",
+    "certainty": "suspected"
+  },
+  "impact": [
+    {
+      "count": 18253,
+      "unit": "people",
+      "qualifier": "maximum",
+      "description": "公表された対象規模は18,253。流出確定数とは限らない。"
+    }
+  ],
+  "data_types": [
+    "会員情報（詳細項目は未公表）"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://cdc.type.jp/uploads/important/common/20260530.pdf",
+      "title": "転職サイト『女の転職type』における不正アクセス発生による  お客様の個人情報流出の可能性のお知らせとお詫びについて",
+      "type": "official",
+      "published_on": "2026-05-30",
+      "checked_on": "2026-10-26"
+    }
+  ],
+  "updates": [],
+  "notes": "1,141,828件はログイン試行、38,442件は不正ログイン操作、18,253人はユニークユーザー数。ログイン回数を流出件数としない。18,253人全員の閲覧・流出が確認されたものではない。"
+}

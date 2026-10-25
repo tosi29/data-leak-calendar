@@ -1,0 +1,54 @@
+{
+  "id": "hirota-ielove-20260501",
+  "organization": {
+    "name": "不動産のデパートひろた",
+    "sector": "企業・団体"
+  },
+  "title": "いえらぶCLOUDへの不正アクセスで顧客情報の流出を確認",
+  "summary": "利用する賃貸業務システムで流出があり、自社の顧客情報も含まれていると公表。",
+  "published_on": "2026-05-01",
+  "first_published_on": "2026-05-01",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-26",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。具体的な侵入手口は未確定。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "対象人数・件数は未公表。"
+    }
+  ],
+  "data_types": [
+    "顧客のお問い合わせ情報"
+  ],
+  "related_vendor": "いえらぶGROUP",
+  "sources": [
+    {
+      "url": "https://www.kitakyushuchintai.net/news/detail/423963",
+      "title": "「いえらぶCLOUD」への不正アクセスによる個人情報流出に関するお知らせとお詫び | 【公式】北九州賃貸ネット｜不動産のデパートひろた",
+      "type": "official",
+      "published_on": "2026-05-01",
+      "checked_on": "2026-10-26"
+    }
+  ],
+  "updates": [],
+  "notes": "",
+  "vendors": [
+    {
+      "name": "いえらぶGROUP",
+      "role": "service",
+      "detail": "当該事案に関係する業務・サービスの提供元。役割は公表本文に基づく。",
+      "source_index": 0
+    }
+  ]
+}

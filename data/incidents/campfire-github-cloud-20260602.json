@@ -6,12 +6,12 @@
   },
   "title": "GitHub認証情報の流出から社内クラウドへ侵入",
   "summary": "個人開発サーバーに置かれたGitHub認証情報が不正利用され、社内クラウドにも侵入された。個人情報を含む1件のクエリ出力を確認し、ログの欠落から広い範囲の閲覧可能性も否定できない。",
-  "published_on": "2026-06-02",
+  "published_on": "2026-05-11",
   "first_published_on": "2026-04-03",
   "publication_kind": "followup",
   "occurred_on": null,
   "detected_on": null,
-  "updated_on": "2026-10-23",
+  "updated_on": "2026-10-26",
   "verification": "official",
   "leak_status": "suspected",
   "incident_type": "attack",
@@ -43,8 +43,21 @@
       "title": "不正アクセス事案にかかる調査結果について - 株式会社CAMPFIRE",
       "published_on": "2026-06-02",
       "checked_on": "2026-10-23"
+    },
+    {
+      "url": "https://camp-fire.jp/news/2026/05/11/campfire",
+      "title": "【重要】弊社システムへの不正アクセスによる個人情報漏えい可能性の経緯と対応状況について – CAMPFIRE (キャンプファイヤー)",
+      "type": "official",
+      "published_on": "2026-05-11",
+      "checked_on": "2026-10-26"
     }
   ],
-  "updates": [],
-  "notes": "225,846は重複を除く対象ユーザー件数で全件漏えい確定ではない。別に開発従事者の氏名・メール413件。クレジットカード情報は対象外。"
+  "updates": [
+    {
+      "date": "2026-06-02",
+      "summary": "後続の公表：不正アクセス事案にかかる調査結果について - 株式会社CAMPFIRE。5月の公表を確認したため同一記録に保持。",
+      "source_index": 0
+    }
+  ],
+  "notes": "225,846は重複を除く対象ユーザー件数で全件漏えい確定ではない。別に開発従事者の氏名・メール413件。クレジットカード情報は対象外。 2026年5月の遡及調査で掲載公表日を2026-06-02から2026-05-11へ変更。IDと後続の調査結果を保持。初報4月3日は収集期間より前。5月11日の期間内続報を採用。"
 }

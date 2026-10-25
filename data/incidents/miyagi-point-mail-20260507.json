@@ -1,0 +1,55 @@
+{
+  "id": "miyagi-point-mail-20260507",
+  "organization": {
+    "name": "宮城県（みやぎポイント事業）",
+    "sector": "行政・自治体"
+  },
+  "title": "参加店舗へのメール誤送信でアドレス100件等が漏えい",
+  "summary": "委託事業者が事務局変更の案内をTo欄で送信した。",
+  "published_on": "2026-05-07",
+  "first_published_on": "2026-05-07",
+  "publication_kind": "initial",
+  "occurred_on": "2026-04-30",
+  "detected_on": "2026-04-30",
+  "updated_on": "2026-10-26",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "accident",
+  "cause": {
+    "category": "misdelivery",
+    "detail": "Bccで送るべき参加店100件へのメールをTo欄で送信。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 100,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "公表された対象規模は100。流出確定数とは限らない。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス",
+    "表示名"
+  ],
+  "related_vendor": "ユーメディア",
+  "sources": [
+    {
+      "url": "https://www.pref.miyagi.jp/soshiki/jyoho/pressmiyapo260507.html",
+      "title": "受託事業者による個人情報等の漏えいについて – 宮城県公式ウェブサイト",
+      "type": "official",
+      "published_on": "2026-05-07",
+      "checked_on": "2026-10-26"
+    }
+  ],
+  "updates": [],
+  "notes": "3,632店舗は案内対象全体。漏えい対象はメールアドレス100件、うち表示名1件。",
+  "vendors": [
+    {
+      "name": "ユーメディア",
+      "role": "service",
+      "detail": "当該事案に関係する業務・サービスの提供元。役割は公表本文に基づく。",
+      "source_index": 0
+    }
+  ]
+}

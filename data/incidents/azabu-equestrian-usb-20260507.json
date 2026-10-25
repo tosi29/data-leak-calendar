@@ -1,0 +1,49 @@
+{
+  "id": "azabu-equestrian-usb-20260507",
+  "organization": {
+    "name": "麻布大学",
+    "sector": "企業・団体"
+  },
+  "title": "馬術大会の個人情報約230件を含むUSBメモリを一時紛失",
+  "summary": "無施錠の部室倉庫で発見したが、漏えいの可能性がある事案として調査。",
+  "published_on": "2026-05-07",
+  "first_published_on": "2026-05-07",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-26",
+  "verification": "official",
+  "leak_status": "lost",
+  "incident_type": "accident",
+  "cause": {
+    "category": "loss",
+    "detail": "部活動で管理するUSBメモリの所在が一時不明。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 230,
+      "unit": "records",
+      "qualifier": "approximate",
+      "description": "公表された対象規模は230。流出確定数とは限らない。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "電話番号",
+    "大会運営資料"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.azabu-u.ac.jp/topics/2026/0507_48657.html",
+      "title": "個人情報が記録されたUSBメモリの一時紛失について | 麻布大学l",
+      "type": "official",
+      "published_on": "2026-05-07",
+      "checked_on": "2026-10-26"
+    }
+  ],
+  "updates": [],
+  "notes": "延べ約230件であり実人数ではない。2026年1月20日に回収済みだが、流出未確認を漏えい否定とは扱わない。"
+}

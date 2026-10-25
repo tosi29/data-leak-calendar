@@ -1,0 +1,55 @@
+{
+  "id": "jf-shinken-20260511",
+  "organization": {
+    "name": "全国共済水産業協同組合連合会（JF共水連）",
+    "sector": "企業・団体"
+  },
+  "title": "損害調査委託先の侵害で7,548契約の情報に漏えいのおそれ",
+  "summary": "新日本検定協会のランサムウェア被害に関連する共済契約の影響を公表。",
+  "published_on": "2026-05-11",
+  "first_published_on": "2026-05-11",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-26",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。具体的な侵入手口は未確定。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 7548,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "公表された対象規模は7,548。流出確定数とは限らない。"
+    }
+  ],
+  "data_types": [
+    "共済契約情報",
+    "損害調査・鑑定関連データ"
+  ],
+  "related_vendor": "新日本検定協会",
+  "sources": [
+    {
+      "url": "https://www.kyosuiren.or.jp/news/news-detail/103/",
+      "title": "業務委託先における不正アクセス被害に伴う個人情報漏えいの可能性 に関するお詫びと調査結果のご報告について",
+      "type": "official",
+      "published_on": "2026-05-11",
+      "checked_on": "2026-10-26"
+    }
+  ],
+  "updates": [],
+  "notes": "7,548件は対象契約数であり、重複を除いた実人数や確定流出件数ではない。",
+  "vendors": [
+    {
+      "name": "新日本検定協会",
+      "role": "service",
+      "detail": "当該事案に関係する業務・サービスの提供元。役割は公表本文に基づく。",
+      "source_index": 0
+    }
+  ]
+}

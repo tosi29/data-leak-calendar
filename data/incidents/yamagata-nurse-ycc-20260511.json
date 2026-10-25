@@ -1,0 +1,59 @@
+{
+  "id": "yamagata-nurse-ycc-20260511",
+  "organization": {
+    "name": "山形県（看護職員業務従事者届）",
+    "sector": "行政・自治体"
+  },
+  "title": "委託先のランサムウェア被害で看護職員届出情報に漏えいのおそれ",
+  "summary": "平成26年度のデータ入力業務を委託したYCC情報システムにデータが残っていた。",
+  "published_on": "2026-05-11",
+  "first_published_on": "2026-05-11",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-26",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。具体的な侵入手口は未確定。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "対象人数・件数は未公表。"
+    }
+  ],
+  "data_types": [
+    "看護職員免許登録番号",
+    "免許登録年月日",
+    "氏名（カタカナ）",
+    "性別",
+    "生年月日",
+    "住所地・業務従事場所のコード"
+  ],
+  "related_vendor": "YCC情報システム",
+  "sources": [
+    {
+      "url": "https://www.pref.yamagata.jp/090013/h26kangotodoke.html",
+      "title": "平成26年度保健師・助産師・看護師・准看護師業務従事者届に係る個人情報の漏えいのおそれについて | 山形県",
+      "type": "official",
+      "published_on": "2026-05-11",
+      "checked_on": "2026-10-26"
+    }
+  ],
+  "updates": [],
+  "notes": "公式ページの更新表示日11日を採用。添付本人通知は7日付だが、その日をWeb公表日と断定しない。",
+  "vendors": [
+    {
+      "name": "YCC情報システム",
+      "role": "service",
+      "detail": "当該事案に関係する業務・サービスの提供元。役割は公表本文に基づく。",
+      "source_index": 0
+    }
+  ]
+}

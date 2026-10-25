@@ -1,0 +1,46 @@
+{
+  "id": "osaka-bulk-may-11-20260508",
+  "organization": {
+    "name": "大阪市教育委員会",
+    "sector": "行政・自治体"
+  },
+  "title": "欠席連絡等アプリによるメールの誤送信",
+  "summary": "5月一括公表資料の項番11に掲載された別事案。",
+  "published_on": "2026-05-08",
+  "first_published_on": "2026-05-08",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-26",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "accident",
+  "cause": {
+    "category": "misdelivery",
+    "detail": "文書等の管理・取扱い上の誤り。詳細な発生原因は公表資料に記載なし。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": 1,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表された対象規模は1。流出確定数とは限らない。"
+    }
+  ],
+  "data_types": [
+    "当該書類・メールに含まれる個人情報（項目未公表）"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.city.osaka.lg.jp/hodoshiryo/somu/0000678369.html",
+      "title": "欠席連絡等アプリによるメールの誤送信",
+      "type": "official",
+      "published_on": "2026-05-08",
+      "checked_on": "2026-10-26"
+    }
+  ],
+  "updates": [],
+  "notes": "公式表の項番11。報告日（発生時速報日）を公表日・発生日へ転用しない。項番9と13、11と14は同じ見出しでも異なる報告日の別事案。対象人数は公式表を採用。"
+}

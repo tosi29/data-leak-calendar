@@ -1,0 +1,54 @@
+{
+  "id": "himi-volunteer-mail-20260510",
+  "organization": {
+    "name": "氷見市社会福祉協議会",
+    "sector": "企業・団体"
+  },
+  "title": "災害ボランティア登録者954人の氏名・メールアドレスを誤送信",
+  "summary": "募集案内をCCで一斉送信し、受信者間で情報が閲覧できる状態となった。",
+  "published_on": "2026-05-10",
+  "first_published_on": "2026-05-10",
+  "publication_kind": "initial",
+  "occurred_on": "2026-05-08",
+  "detected_on": null,
+  "updated_on": "2026-10-26",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "accident",
+  "cause": {
+    "category": "misdelivery",
+    "detail": "募集メールの送信先をBccではなくCCへ設定。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 954,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表された対象規模は954。流出確定数とは限らない。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "メールアドレス"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.himi-shakyo.jp/important/%e7%81%bd%e5%ae%b3%e3%83%9c%e3%83%a9%e3%83%b3%e3%83%86%e3%82%a3%e3%82%a2%e3%81%ab%e3%81%94%e7%99%bb%e9%8c%b2%e3%81%95%e3%82%8c%e3%81%a6%e3%81%84%e3%82%8b%e6%96%b9%e3%81%ae%e5%80%8b%e4%ba%ba%e6%83%85/",
+      "title": "災害ボランティアにご登録されている方の個人情報の漏洩について",
+      "type": "official",
+      "published_on": "2026-05-10",
+      "checked_on": "2026-10-26"
+    },
+    {
+      "url": "https://www.himi-shakyo.jp/wp-content/uploads/cdcc86f043b2d59d1b7a5547490da8fe.pdf",
+      "title": "災害ボランティア登録者の個人情報の漏洩について（報道資料）",
+      "type": "official",
+      "published_on": "2026-05-09",
+      "checked_on": "2026-10-26"
+    }
+  ],
+  "updates": [],
+  "notes": "公式ページの公表表示日は10日。添付報道資料は9日付で、送信955人のうち職員1人を除いた登録者954人を掲載。資料作成日を初報日と断定しない。"
+}

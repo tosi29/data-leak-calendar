@@ -1,0 +1,55 @@
+{
+  "id": "tokai-higashiyama-20260528",
+  "organization": {
+    "name": "トーカイ（福祉用具サービス）",
+    "sector": "企業・団体"
+  },
+  "title": "業務委託先の被害で福祉用具利用者情報に漏えいのおそれ",
+  "summary": "東山産業のランサムウェア被害について、利用者情報への影響を公表。",
+  "published_on": "2026-05-28",
+  "first_published_on": "2026-05-28",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-26",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。具体的な侵入手口は未確定。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "対象人数・件数は未公表。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "福祉用具サービス利用者の情報（項目は出典参照）"
+  ],
+  "related_vendor": "東山産業",
+  "sources": [
+    {
+      "url": "https://www.tokai-corp.com/silver/newstopics/newstopics-5891/",
+      "title": "委託先企業への不正アクセスによる個人情報漏えいの可能性に関するお知らせとお詫び | 株式会社トーカイ｜福祉用具サービス",
+      "type": "official",
+      "published_on": "2026-05-28",
+      "checked_on": "2026-10-26"
+    }
+  ],
+  "updates": [],
+  "notes": "提供元が漏えいを判断したとの説明があるが、個々の利用者・全対象情報の流出確定数は未公表。",
+  "vendors": [
+    {
+      "name": "東山産業",
+      "role": "service",
+      "detail": "当該事案に関係する業務・サービスの提供元。役割は公表本文に基づく。",
+      "source_index": 0
+    }
+  ]
+}

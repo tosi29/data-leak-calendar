@@ -1,0 +1,59 @@
+{
+  "id": "kitakyu-univ-remote-20260526",
+  "organization": {
+    "name": "北九州市立大学",
+    "sector": "企業・団体"
+  },
+  "title": "偽警告からの遠隔操作で教員・学生等の情報に漏えいのおそれ",
+  "summary": "職員端末上の教員57人・学生等8人の情報が閲覧された可能性。",
+  "published_on": "2026-05-26",
+  "first_published_on": "2026-05-26",
+  "publication_kind": "initial",
+  "occurred_on": "2026-05-25",
+  "detected_on": "2026-05-25",
+  "updated_on": "2026-10-26",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "ファイル共有サービス利用中に偽の警告画面へ誘導され、ファイル実行後に不正な遠隔操作が行われた。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 65,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表された対象規模は65。流出確定数とは限らない。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "生年月日",
+    "前職",
+    "採用・退職日",
+    "学籍番号",
+    "携帯電話番号",
+    "メールアドレス"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.kitakyu-u.ac.jp/news/2026/05/006600.html",
+      "title": "不正アクセスによる個人情報漏洩のおそれに関するお知らせとお詫び | 公立大学法人北九州市立大学",
+      "type": "official",
+      "published_on": "2026-05-26",
+      "checked_on": "2026-10-26"
+    },
+    {
+      "url": "https://www.kitakyu-u.ac.jp/news/2026/05/27/uploads/e9977c1443cf6721348810ee580e7873.pdf",
+      "title": "不正アクセスによる個人情報漏洩の恐れに関するお知らせ",
+      "type": "official",
+      "published_on": "2026-05-26",
+      "checked_on": "2026-10-26"
+    }
+  ],
+  "updates": [],
+  "notes": "教員57人と学生等8人の合計65人（精査中）。5月23日・8件とする月次集計ではなく公式本文を採用。"
+}

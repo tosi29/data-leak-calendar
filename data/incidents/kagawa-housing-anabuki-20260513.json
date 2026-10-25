@@ -1,0 +1,64 @@
+{
+  "id": "kagawa-housing-anabuki-20260513",
+  "organization": {
+    "name": "香川県（県営住宅）",
+    "sector": "行政・自治体"
+  },
+  "title": "指定管理者の侵害で県営住宅入居者474人の情報が漏えい",
+  "summary": "県営住宅30団地の指定管理者から調査結果を受領して詳細を公表。",
+  "published_on": "2026-05-13",
+  "first_published_on": null,
+  "publication_kind": "followup",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-26",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。具体的な侵入手口は未確定。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 474,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表された対象規模は474。流出確定数とは限らない。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "団地名",
+    "部屋番号",
+    "電話番号"
+  ],
+  "related_vendor": "あなぶき公営住宅コンソーシアム",
+  "sources": [
+    {
+      "url": "https://www.pref.kagawa.lg.jp/jutaku/keneijutaku/anabuki080513.html",
+      "title": "（株）穴吹ハウジングサービス等のランサムウエア感染による個人情報の漏えいについて",
+      "type": "official",
+      "published_on": "2026-05-13",
+      "checked_on": "2026-10-26"
+    },
+    {
+      "url": "https://www.pref.kagawa.lg.jp/documents/61458/r08512houdou.pdf",
+      "title": "県営住宅関連の個人情報漏えいに関する調査結果",
+      "type": "official",
+      "published_on": "2026-05-13",
+      "checked_on": "2026-10-26"
+    }
+  ],
+  "updates": [],
+  "notes": "入居中397人と退去済み77人の合計474人。電話番号は397人分。5月8日は県への報告日であり、公表日は13日を採用。初報日未特定の続報。",
+  "vendors": [
+    {
+      "name": "あなぶき公営住宅コンソーシアム",
+      "role": "operations",
+      "detail": "当該事案に関係する業務・サービスの提供元。役割は公表本文に基づく。",
+      "source_index": 0
+    }
+  ]
+}

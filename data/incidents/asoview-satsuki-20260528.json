@@ -1,0 +1,74 @@
+{
+  "id": "asoview-satsuki-20260528",
+  "organization": {
+    "name": "アソビュー（satsuki）",
+    "sector": "企業・団体"
+  },
+  "title": "予約者情報27,163件とパートナー情報が流出",
+  "summary": "予約管理システムへの不正ログインと認証情報の悪用による外部流出を確認。",
+  "published_on": "2026-05-28",
+  "first_published_on": "2026-05-28",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-05-20",
+  "updated_on": "2026-10-26",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "credentials",
+    "detail": "パートナーアカウントへの不正ログイン後、認証情報の悪用により別パートナーの情報にもアクセス。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 27163,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "satsuki経由の一部予約者の情報27,163件。"
+    },
+    {
+      "count": 111,
+      "unit": "organizations",
+      "qualifier": "exact",
+      "description": "不正ログインが確認されたパートナー111件。"
+    },
+    {
+      "count": 14400,
+      "unit": "organizations",
+      "qualifier": "exact",
+      "description": "その他のパートナー14,400件。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "性別",
+    "生年月日",
+    "電話番号",
+    "住所",
+    "予約情報",
+    "代表者・請求担当者氏名",
+    "請求先住所",
+    "口座情報",
+    "メールアドレス"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.asoview.co.jp/news/articles/wMidTEDr",
+      "title": "【お客様各位】弊社システムへのサイバー攻撃による情報流出に関するお詫びとお知らせ |NEWS|アソビュー株式会社",
+      "type": "official",
+      "published_on": "2026-05-28",
+      "checked_on": "2026-10-26"
+    },
+    {
+      "url": "https://www.asoview.co.jp/news/articles/II8ODR7h",
+      "title": "【お取引先様各位】弊社システムへのサイバー攻撃による情報流出に関するお詫びとお知らせ |NEWS|アソビュー株式会社",
+      "type": "official",
+      "published_on": "2026-05-28",
+      "checked_on": "2026-10-26"
+    }
+  ],
+  "updates": [],
+  "notes": "同じ不正アクセスに関する予約者向け・取引先向け公表を1件へ統合。111件・14,400件はパートナー数で人数ではない。予約者のメールアドレス・パスワード・カード情報は対象外。メールアドレス・口座情報はパートナー側の対象。公式ページの表示用JSON内に本文と最終更新日を確認。"
+}

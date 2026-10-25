@@ -1,0 +1,61 @@
+{
+  "id": "shizuoka-police-redaction-20260522",
+  "organization": {
+    "name": "静岡県警察",
+    "sector": "行政・自治体"
+  },
+  "title": "開示PDFの黒塗り不備で14,239人の情報が閲覧可能",
+  "summary": "公文書10件で氏名や電話番号のデータが残り、特定の操作で読み取れる状態だった。",
+  "published_on": "2026-05-22",
+  "first_published_on": "2026-05-22",
+  "publication_kind": "initial",
+  "occurred_on": "2025-06-05",
+  "detected_on": "2026-04-28",
+  "updated_on": "2026-10-26",
+  "verification": "secondary",
+  "leak_status": "exposed",
+  "incident_type": "accident",
+  "cause": {
+    "category": "redaction_error",
+    "detail": "開示したPDFの黒塗り処理に不備があり文字データが残存。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 14239,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表された対象規模は14,239。流出確定数とは限らない。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "電話番号"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://look.satv.co.jp/content_news/incident/87799",
+      "title": "静岡県警が1万4239人分の氏名・電話番号の漏えいを発表（静岡朝日テレビ）",
+      "type": "news",
+      "published_on": "2026-05-22",
+      "checked_on": "2026-10-26"
+    },
+    {
+      "url": "https://news.livedoor.com/article/detail/31346176/",
+      "title": "マスキングに不備発覚、静岡県警が発表（静岡第一テレビ）",
+      "type": "news",
+      "published_on": "2026-05-22",
+      "checked_on": "2026-10-26"
+    },
+    {
+      "url": "https://rocket-boys.co.jp/security-measures-lab/shizuoka-police-pdf-redaction-failure/",
+      "title": "静岡県警、公文書開示データの黒塗り処理に不備",
+      "type": "news",
+      "published_on": "2026-05-27",
+      "checked_on": "2026-10-26"
+    }
+  ],
+  "updates": [],
+  "notes": "5月22日の静岡朝日テレビ・静岡第一テレビの記事で発表日・人数・4月28日の発覚を照合。公式本文は未取得のため二次資料確認。第三の出典で交付期間2025年6月5日〜2026年2月17日を確認。10件は公文書数であり人数ではない。"
+}

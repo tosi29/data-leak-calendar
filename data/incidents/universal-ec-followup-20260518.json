@@ -1,0 +1,52 @@
+{
+  "id": "universal-ec-followup-20260518",
+  "organization": {
+    "name": "ユニバーサル ミュージック",
+    "sector": "企業・団体"
+  },
+  "title": "ECサイトの顧客情報3,105,585件の流出を確認",
+  "summary": "UNIVERSAL MUSIC STORE等への不正アクセスについて調査結果を公表。",
+  "published_on": "2026-05-18",
+  "first_published_on": null,
+  "publication_kind": "followup",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-26",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。具体的な侵入手口は未確定。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 3105585,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "公表された対象規模は3,105,585。流出確定数とは限らない。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "電話番号",
+    "メールアドレス",
+    "生年月日",
+    "性別",
+    "購入履歴"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.universal-music.co.jp/press-releases/2026-05-18/",
+      "title": "ECサイトの顧客情報3,105,585件の流出を確認",
+      "type": "official",
+      "published_on": "2026-05-18",
+      "checked_on": "2026-10-26"
+    }
+  ],
+  "updates": [],
+  "notes": "初報は2025年10月と本文にあるが、正確な公表日は未特定。2025年10月25日は調査開始日であり初報日へ転用しない。パスワードと決済情報の流出は未確認。"
+}

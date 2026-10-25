@@ -1,0 +1,56 @@
+{
+  "id": "thcu-medica-20260527",
+  "organization": {
+    "name": "東京医療保健大学",
+    "sector": "企業・団体"
+  },
+  "title": "委託先のランサムウェア被害で卒業生105人に漏えいのおそれ",
+  "summary": "メディカ出版から、2022年度看護学科4年生の情報への影響報告を受領。",
+  "published_on": "2026-05-27",
+  "first_published_on": "2026-05-27",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-26",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。具体的な侵入手口は未確定。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 105,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表された対象規模は105。流出確定数とは限らない。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "メディカコンクールID"
+  ],
+  "related_vendor": "メディカ出版",
+  "sources": [
+    {
+      "url": "https://www.thcu.ac.jp/topics/detail.html?id=3225",
+      "title": "株式会社メディカ出版におけるランサムウェア被害について | 東京医療保健大学",
+      "type": "official",
+      "published_on": "2026-05-27",
+      "checked_on": "2026-10-26"
+    }
+  ],
+  "updates": [],
+  "notes": "本文の公表表示日27日を採用。月次まとめの28日と混同しない。アカウント情報は4月17日に変更済み。",
+  "vendors": [
+    {
+      "name": "メディカ出版",
+      "role": "service",
+      "detail": "当該事案に関係する業務・サービスの提供元。役割は公表本文に基づく。",
+      "source_index": 0
+    }
+  ]
+}

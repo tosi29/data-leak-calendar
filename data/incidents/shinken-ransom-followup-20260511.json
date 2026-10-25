@@ -1,0 +1,61 @@
+{
+  "id": "shinken-ransom-followup-20260511",
+  "organization": {
+    "name": "新日本検定協会",
+    "sector": "企業・団体"
+  },
+  "title": "ランサムウェア調査で受託情報等に流出のおそれ",
+  "summary": "ファイル転送ツールの実行痕跡から、受託情報や従業員・採用候補者情報が外部流出した可能性が高いと判断。",
+  "published_on": "2026-05-11",
+  "first_published_on": "2025-11-27",
+  "publication_kind": "followup",
+  "occurred_on": "2025-11-26",
+  "detected_on": "2025-11-26",
+  "updated_on": "2026-10-26",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "vulnerability",
+    "detail": "ネットワーク機器の脆弱性を悪用した侵入と管理者アカウントの不正利用の痕跡を確認。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 30000,
+      "unit": "records",
+      "qualifier": "approximate",
+      "description": "業務に関連して受領した関係者の個人データ約30,000件。"
+    },
+    {
+      "count": 300,
+      "unit": "records",
+      "qualifier": "approximate",
+      "description": "従業員・退職者・その他関係者の個人データ約300件。"
+    },
+    {
+      "count": 50,
+      "unit": "records",
+      "qualifier": "approximate",
+      "description": "採用候補者の個人データ約50件。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "電話番号",
+    "メールアドレス"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.shinken.or.jp/archives/infomation/15527",
+      "title": "サイバー攻撃によるシステム障害における調査結果等について",
+      "type": "official",
+      "published_on": "2026-05-11",
+      "checked_on": "2026-10-26"
+    }
+  ],
+  "updates": [],
+  "notes": "初報2025年11月27日は収集期間外のため5月の調査結果を掲載。3区分は重複を除けず合算しない。取引先各社の公表とは組織別に記録しており、独立した攻撃回数ではない。外部公開・不正利用は未確認。"
+}

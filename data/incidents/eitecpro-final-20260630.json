@@ -6,12 +6,12 @@
   },
   "title": "社内システムへの侵害に関する最終報告",
   "summary": "リモート接続機能から侵入され、ランサムウェアでサーバーが暗号化。ログ欠損のため漏えいの可能性を否定できないと報告した。",
-  "published_on": "2026-06-30",
+  "published_on": "2026-05-11",
   "first_published_on": "2026-04-30",
   "publication_kind": "followup",
   "occurred_on": null,
   "detected_on": "2026-04-22",
-  "updated_on": "2026-10-24",
+  "updated_on": "2026-10-26",
   "verification": "official",
   "leak_status": "suspected",
   "incident_type": "attack",
@@ -43,8 +43,28 @@
       "title": "弊社社内システムへの不正アクセスに関するご報告（最終）",
       "published_on": "2026-06-30",
       "checked_on": "2026-10-24"
+    },
+    {
+      "url": "https://www.eitecpro.co.jp/w_dp_s/wp-content/uploads/2026/05/20260511.pdf",
+      "title": "【重要】弊社社内システムへの不正アクセスに関するご報告とお詫び",
+      "type": "official",
+      "published_on": "2026-05-11",
+      "checked_on": "2026-10-26"
+    },
+    {
+      "url": "https://www.onebe.co.jp/dlpnews/?p=34937",
+      "title": "エイテックプロ、システム障害が発生、不正アクセスを確認（5月11日追記）",
+      "type": "news",
+      "published_on": "2026-05-11",
+      "checked_on": "2026-10-26"
     }
   ],
-  "updates": [],
-  "notes": "実際の個人情報漏えいの痕跡や二次被害は未確認。最終報本文で初報4月30日を確認。"
+  "updates": [
+    {
+      "date": "2026-06-30",
+      "summary": "後続の公表：弊社社内システムへの不正アクセスに関するご報告（最終）。5月の公表を確認したため同一記録に保持。",
+      "source_index": 0
+    }
+  ],
+  "notes": "実際の個人情報漏えいの痕跡や二次被害は未確認。最終報本文で初報4月30日を確認。 2026年5月の遡及調査で掲載公表日を2026-06-30から2026-05-11へ変更。IDと後続の調査結果を保持。日付を記載していない公式PDFの本文と、ワンビ記事の5月11日追記を照合。URLのファイル名だけでは判定しない。6月最終報の約7万件は保持。"
 }

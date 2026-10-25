@@ -1,0 +1,54 @@
+{
+  "id": "kakamigahara-campfire-20260501",
+  "organization": {
+    "name": "各務原市（事業者応援クラウドファンディング事業）",
+    "sector": "行政・自治体"
+  },
+  "title": "利用するCAMPFIREの登録者情報に漏えいのおそれ",
+  "summary": "令和4年度の事業で利用したサービスの不正アクセスについて注意喚起。",
+  "published_on": "2026-05-01",
+  "first_published_on": "2026-05-01",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-26",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。具体的な侵入手口は未確定。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "対象人数・件数は未公表。"
+    }
+  ],
+  "data_types": [
+    "プロジェクトオーナー・支援者の個人情報"
+  ],
+  "related_vendor": "CAMPFIRE",
+  "sources": [
+    {
+      "url": "https://www.city.kakamigahara.lg.jp/shisei/shisaku/sangyo/1008446/1008449/1027542.html",
+      "title": "【お知らせ】令和4年度「事業者応援クラウドファンディング事業」におけるクラウドファンディングサイト運営業者システムへの不正アクセスについて｜各務原市公式ウェブサイト",
+      "type": "official",
+      "published_on": "2026-05-01",
+      "checked_on": "2026-10-26"
+    }
+  ],
+  "updates": [],
+  "notes": "CAMPFIRE全体の規模を市事業の被害人数として転用しない。",
+  "vendors": [
+    {
+      "name": "CAMPFIRE",
+      "role": "service",
+      "detail": "当該事案に関係する業務・サービスの提供元。役割は公表本文に基づく。",
+      "source_index": 0
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "miura-system-followup-20260518",
+  "organization": {
+    "name": "三浦工業",
+    "sector": "企業・団体"
+  },
+  "title": "ネットワーク侵害の調査で最大5,021件に流出またはその可能性",
+  "summary": "グループの社員等に関する暗号化された個人情報の対象範囲を最終報告。",
+  "published_on": "2026-05-18",
+  "first_published_on": "2025-08-15",
+  "publication_kind": "followup",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-26",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。具体的な侵入手口は未確定。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 5021,
+      "unit": "records",
+      "qualifier": "maximum",
+      "description": "公表された対象規模は5,021。流出確定数とは限らない。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "業務用携帯電話番号",
+    "業務用メールアドレス",
+    "システム利用時のパスワード"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.miuraz.co.jp/news/newsrelease/2026/1956.php",
+      "title": "当社ネットワークへの不正アクセスによるシステム障害について（最終報）｜新着情報",
+      "type": "official",
+      "published_on": "2026-05-18",
+      "checked_on": "2026-10-26"
+    }
+  ],
+  "updates": [],
+  "notes": "32台などの設備数を個人情報の数と混ぜない。最大5,021件の全件が流出確定とは扱わない。"
+}

@@ -1,0 +1,57 @@
+{
+  "id": "aeonhousing-ielove-20260501",
+  "organization": {
+    "name": "イオンモール（イオンハウジング）",
+    "sector": "企業・団体"
+  },
+  "title": "いえらぶCLOUDで顧客情報が漏えいした可能性",
+  "summary": "直営店で利用するクラウドサービスへの不正アクセスを公表。加盟店への影響は調査中。",
+  "published_on": "2026-05-01",
+  "first_published_on": "2026-05-01",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-26",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。具体的な侵入手口は未確定。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "対象人数・件数は未公表。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "メールアドレス",
+    "電話番号",
+    "住所"
+  ],
+  "related_vendor": "いえらぶGROUP",
+  "sources": [
+    {
+      "url": "https://www.aeonhousing.com/blog/entry-781283/",
+      "title": "当社が利用するクラウドサービスにおける不正アクセスに関するお知らせ｜イオンハウジング",
+      "type": "official",
+      "published_on": "2026-05-01",
+      "checked_on": "2026-10-26"
+    }
+  ],
+  "updates": [],
+  "notes": "",
+  "vendors": [
+    {
+      "name": "いえらぶGROUP",
+      "role": "service",
+      "detail": "当該事案に関係する業務・サービスの提供元。役割は公表本文に基づく。",
+      "source_index": 0
+    }
+  ]
+}

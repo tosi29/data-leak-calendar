@@ -1,0 +1,55 @@
+{
+  "id": "satte-ycc-followup-20260525",
+  "organization": {
+    "name": "幸手市（高額療養費管理システム）",
+    "sector": "行政・自治体"
+  },
+  "title": "再委託先の侵害で国保加入者等34,330人への影響を調査",
+  "summary": "平成25年導入時の資格・レセプト情報が再委託先に残っていたことを第二報で公表。",
+  "published_on": "2026-05-25",
+  "first_published_on": "2026-04-17",
+  "publication_kind": "followup",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-26",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。具体的な侵入手口は未確定。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 34330,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表された対象規模は34,330。流出確定数とは限らない。"
+    }
+  ],
+  "data_types": [
+    "国民健康保険の資格情報",
+    "レセプト情報"
+  ],
+  "related_vendor": "AGS",
+  "sources": [
+    {
+      "url": "https://www.city.satte.lg.jp/soshiki/hokennenkin/3/15559.html",
+      "title": "業務を委託する事業者におけるサイバー攻撃による不正アクセスについて（第2報）令和8年5月25日",
+      "type": "official",
+      "published_on": "2026-05-25",
+      "checked_on": "2026-10-26"
+    }
+  ],
+  "updates": [],
+  "notes": "AGSがYCC情報システムへ保守業務を再委託。34,330人は重複を除いた保有対象数であり流出確認人数ではない。",
+  "vendors": [
+    {
+      "name": "AGS",
+      "role": "operations",
+      "detail": "当該事案に関係する業務・サービスの提供元。役割は公表本文に基づく。",
+      "source_index": 0
+    }
+  ]
+}

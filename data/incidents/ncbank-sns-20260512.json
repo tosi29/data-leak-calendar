@@ -1,0 +1,46 @@
+{
+  "id": "ncbank-sns-20260512",
+  "organization": {
+    "name": "西日本シティ銀行",
+    "sector": "企業・団体"
+  },
+  "title": "職員のSNS投稿で顧客8人の情報が閲覧可能",
+  "summary": "職場内の不適切な撮影・投稿について追加調査結果を公表。",
+  "published_on": "2026-05-12",
+  "first_published_on": "2026-04-30",
+  "publication_kind": "followup",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-26",
+  "verification": "official",
+  "leak_status": "exposed",
+  "incident_type": "improper_handling",
+  "cause": {
+    "category": "improper_sharing",
+    "detail": "職員による職場内の不適切な撮影とSNSへの投稿。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 8,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表された対象規模は8。流出確定数とは限らない。"
+    }
+  ],
+  "data_types": [
+    "顧客に関する情報（項目未公表）"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.ncbank.co.jp/assets/a5d6dd906a3c43e5bbf96d8adc3d2a13/f8235fc9ef124975a1252a3345384992/osirase260512-01.pdf",
+      "title": "お詫びとお知らせ",
+      "type": "official",
+      "published_on": "2026-05-12",
+      "checked_on": "2026-10-26"
+    }
+  ],
+  "updates": [],
+  "notes": "個人顧客8人に加えて法人顧客19社の名称が対象。19社を人数に足さない。"
+}

@@ -1,0 +1,47 @@
+{
+  "id": "osaka-fishing-fax-20260508",
+  "organization": {
+    "name": "大阪府（水産課）",
+    "sector": "企業・団体"
+  },
+  "title": "漁業許可証案を誤ってファクス送信",
+  "summary": "スキャンと同時に他自治体へファクスを送信し、漁業者1人の情報が漏えいした。",
+  "published_on": "2026-05-08",
+  "first_published_on": "2026-05-08",
+  "publication_kind": "initial",
+  "occurred_on": "2026-04-20",
+  "detected_on": "2026-04-20",
+  "updated_on": "2026-10-26",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "accident",
+  "cause": {
+    "category": "misdelivery",
+    "detail": "複合機でスキャン保存先とファクス送信先を同時に選択して実行。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 1,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表された対象規模は1。流出確定数とは限らない。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.pref.osaka.lg.jp/hodo/fumin/o120130/prs_51011.html",
+      "title": "個人情報の漏えいについて／大阪府（おおさかふ）ホームページ [Osaka Prefectural Government]",
+      "type": "official",
+      "published_on": "2026-05-08",
+      "checked_on": "2026-10-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

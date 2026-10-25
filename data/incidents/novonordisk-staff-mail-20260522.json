@@ -1,0 +1,49 @@
+{
+  "id": "novonordisk-staff-mail-20260522",
+  "organization": {
+    "name": "ノボ ノルディスク ファーマ",
+    "sector": "企業・団体"
+  },
+  "title": "退職予定者が個人情報を含む社内資料を私用メールへ送信",
+  "summary": "医療関係者・役職員・元役職員の情報の無断持ち出しを確認。",
+  "published_on": "2026-05-22",
+  "first_published_on": "2026-05-22",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-26",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "improper_handling",
+  "cause": {
+    "category": "improper_sharing",
+    "detail": "社用デバイスから私用メールへ資料を無断送信。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "対象人数・件数は未公表。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "所属",
+    "診療科",
+    "役職員・元役職員の個人情報"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.novonordisk.co.jp/content/dam/nncorp/jp/ja/news/media/2026/05/20260522_1.pdf",
+      "title": "退職予定者が個人情報を含む社内資料を私用メールへ送信",
+      "type": "official",
+      "published_on": "2026-05-22",
+      "checked_on": "2026-10-26"
+    }
+  ],
+  "updates": [],
+  "notes": "送信した資料は削除済み。第三者への流出や二次被害は未確認。対象人数は未公表。"
+}

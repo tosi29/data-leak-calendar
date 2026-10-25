@@ -1,0 +1,54 @@
+{
+  "id": "yrit-jan-mail-20260518",
+  "organization": {
+    "name": "山形県工業技術センター",
+    "sector": "行政・自治体"
+  },
+  "title": "メールマガジン委託先サーバーへの不正アクセスを調査",
+  "summary": "日本・アルカディア・ネットワークから通知を受け、対象範囲を調査中と公表。",
+  "published_on": "2026-05-18",
+  "first_published_on": "2026-05-18",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-26",
+  "verification": "official",
+  "leak_status": "investigating",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。具体的な侵入手口は未確定。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "対象人数・件数は未公表。"
+    }
+  ],
+  "data_types": [
+    "メールマガジン利用者の情報（対象範囲・項目は調査中）"
+  ],
+  "related_vendor": "日本・アルカディア・ネットワーク",
+  "sources": [
+    {
+      "url": "https://yrit.jp/%E3%82%B5%E3%83%BC%E3%83%90%E3%83%BC%E3%81%B8%E3%81%AE%E4%B8%8D%E6%AD%A3%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/",
+      "title": "サーバーへの不正アクセスについて | 山形県工業技術センター",
+      "type": "official",
+      "published_on": "2026-05-18",
+      "checked_on": "2026-10-26"
+    }
+  ],
+  "updates": [],
+  "notes": "情報漏えいは未確認。メールマガジンを利用する同センターの公表として記録する。",
+  "vendors": [
+    {
+      "name": "日本・アルカディア・ネットワーク",
+      "role": "service",
+      "detail": "当該事案に関係する業務・サービスの提供元。役割は公表本文に基づく。",
+      "source_index": 0
+    }
+  ]
+}

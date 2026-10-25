@@ -5,12 +5,12 @@
     "sector": "企業・団体"
   },
   "title": "サーバー侵害の最終調査結果",
-  "published_on": "2026-08-05",
+  "published_on": "2026-05-21",
   "first_published_on": "2026-05-21",
-  "publication_kind": "followup",
+  "publication_kind": "initial",
   "occurred_on": null,
   "detected_on": null,
-  "updated_on": "2026-10-15",
+  "updated_on": "2026-10-26",
   "incident_type": "attack",
   "leak_status": "suspected",
   "summary": "海外拠点経由の不正アクセスを調査。流出の痕跡はないが、取引先や従業員の個人情報の漏えいを完全には否定できないとした。",
@@ -40,10 +40,23 @@
       "title": "サーバー侵害の最終調査結果",
       "published_on": "2026-08-05",
       "checked_on": "2026-10-15"
+    },
+    {
+      "url": "https://www.sodick.co.jp/pdf/260521151114_20260521_husei.pdf",
+      "title": "当社サーバーへの不正アクセスに関するお知らせ",
+      "type": "official",
+      "published_on": "2026-05-21",
+      "checked_on": "2026-10-26"
     }
   ],
-  "notes": "",
-  "updates": [],
+  "notes": "2026年5月の遡及調査で掲載公表日を2026-08-05から2026-05-21へ変更。IDと後続の調査結果を保持。",
+  "updates": [
+    {
+      "date": "2026-08-05",
+      "summary": "後続の公表：サーバー侵害の最終調査結果。5月の公表を確認したため同一記録に保持。",
+      "source_index": 0
+    }
+  ],
   "verification": "official",
   "related_vendor": null
 }

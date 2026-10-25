@@ -1,0 +1,54 @@
+{
+  "id": "shinsanami-enessance-20260515",
+  "organization": {
+    "name": "シンサナミ",
+    "sector": "企業・団体"
+  },
+  "title": "LPガス配送委託先の侵害で顧客情報約256件に漏えいのおそれ",
+  "summary": "エネサンス関東への業務委託に関連する情報への影響を公表。",
+  "published_on": "2026-05-15",
+  "first_published_on": "2026-05-15",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-26",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。具体的な侵入手口は未確定。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 256,
+      "unit": "records",
+      "qualifier": "approximate",
+      "description": "公表された対象規模は256。流出確定数とは限らない。"
+    }
+  ],
+  "data_types": [
+    "LPガス配送に必要な顧客情報"
+  ],
+  "related_vendor": "エネサンス関東",
+  "sources": [
+    {
+      "url": "https://www.shinsanami.co.jp/archives/28968",
+      "title": "当社の業務委託先におけるお客さま情報漏えいの可能性に関する重要なお知らせとお詫び | 株式会社シンサナミ",
+      "type": "official",
+      "published_on": "2026-05-15",
+      "checked_on": "2026-10-26"
+    }
+  ],
+  "updates": [],
+  "notes": "公式本文の「約256件」を保持。銀行口座・カード等の支払情報とメールアドレスは対象外。",
+  "vendors": [
+    {
+      "name": "エネサンス関東",
+      "role": "service",
+      "detail": "当該事案に関係する業務・サービスの提供元。役割は公表本文に基づく。",
+      "source_index": 0
+    }
+  ]
+}

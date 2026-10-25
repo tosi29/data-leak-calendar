@@ -1,0 +1,49 @@
+{
+  "id": "sanpainet-attack-20260528",
+  "organization": {
+    "name": "産業廃棄物処理事業振興財団（優良さんぱいナビ）",
+    "sector": "企業・団体"
+  },
+  "title": "不正アクセスで利用者の認証情報等が漏えいした可能性",
+  "summary": "データベースの異常な高負荷を検知後、第三者の不正アクセスを確認。",
+  "published_on": "2026-05-28",
+  "first_published_on": "2026-05-28",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-05-25",
+  "updated_on": "2026-10-26",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。具体的な侵入手口は未確定。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "対象人数・件数は未公表。"
+    }
+  ],
+  "data_types": [
+    "入力担当者氏名",
+    "ID",
+    "パスワード",
+    "メールアドレス"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.sanpainet.or.jp/kanri/output.php?file=news.237.1.pdf&org=20260528_oshirase2.pdf",
+      "title": "「優良さんぱいナビ」への不正アクセスの発生について（お詫びとお知らせ）",
+      "type": "official",
+      "published_on": "2026-05-28",
+      "checked_on": "2026-10-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

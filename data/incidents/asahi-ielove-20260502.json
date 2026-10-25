@@ -1,0 +1,61 @@
+{
+  "id": "asahi-ielove-20260502",
+  "organization": {
+    "name": "朝日住宅（島根県松江市）",
+    "sector": "行政・自治体"
+  },
+  "title": "いえらぶCLOUD経由の顧客情報2,092件の流出を確認",
+  "summary": "第二報で調査結果と顧客情報の対象範囲を公表。",
+  "published_on": "2026-05-02",
+  "first_published_on": "2026-04-25",
+  "publication_kind": "followup",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-26",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。具体的な侵入手口は未確定。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 2092,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "公表された対象規模は2,092。流出確定数とは限らない。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "電話番号",
+    "メールアドレス",
+    "現住所",
+    "職業",
+    "年収",
+    "希望物件情報",
+    "備考"
+  ],
+  "related_vendor": "いえらぶGROUP",
+  "sources": [
+    {
+      "url": "https://asahijyutaku-corporate.jp/news/archives/237",
+      "title": "【重要】株式会社いえらぶGROUPのクラウドサービスに対する不正アクセス発生に伴う個人情報流出に関するお知らせ（第二報）",
+      "type": "official",
+      "published_on": "2026-05-02",
+      "checked_on": "2026-10-26"
+    }
+  ],
+  "updates": [],
+  "notes": "",
+  "vendors": [
+    {
+      "name": "いえらぶGROUP",
+      "role": "service",
+      "detail": "当該事案に関係する業務・サービスの提供元。役割は公表本文に基づく。",
+      "source_index": 0
+    }
+  ]
+}

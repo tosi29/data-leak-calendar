@@ -490,15 +490,16 @@
     "reported_on": "2026-06-04",
     "verification": "pending",
     "reference_url": "https://www.security-next.com/185324",
-    "note": "9月24日最終報告とされる公式PDFを再取得したが503。二次資料の個人データへの影響について一次資料の裏付けは得られず、保留継続。",
-    "reviewed_on": "2026-10-25",
+    "note": "9月24日最終報告とされる公式PDFを再取得したが503。二次資料の個人データへの影響について一次資料の裏付けは得られず、保留継続。 5月遡及調査でも公式PDFは503で取得できず。",
+    "reviewed_on": "2026-10-26",
     "checked_urls": [
       "https://www.security-next.com/185324",
       "https://www.onebe.co.jp/dlpnews/?p=34887",
       "http://www.mcpack.co.jp/news/file/97ccc7231e5e5a757a5da0e9ba15c6e74dc39545.pdf",
       "https://humanhacker.ai/media/summary/",
       "https://openbizgraph.com/ja/detail/10546",
-      "http://www.mcpack.co.jp/news/file/64ef5c4b14c0e7c2fb2e3d03823d13a74a2f9df1.pdf"
+      "http://www.mcpack.co.jp/news/file/64ef5c4b14c0e7c2fb2e3d03823d13a74a2f9df1.pdf",
+      "http://www.mcpack.co.jp/news/file/95e5f973f40d41e5895893be3c83b8df61106ed5.pdf"
     ]
   },
   {
@@ -523,13 +524,825 @@
     "reported_on": "2026-06-05",
     "verification": "pending",
     "reference_url": "https://www.corp.musenet.co.jp/pages/23?detail=1&b_id=106&r_id=37#block106",
-    "note": "10月13日IBM i専門誌の取材記事まで確認したが、個人情報の対象は特定できず。検索で見つかった6月5日付公式ページは新刊案内で、漏えい公表日の裏付けには使えない。6月公表日と個人情報への影響の両方を保留。",
-    "reviewed_on": "2026-10-24",
+    "note": "10月13日IBM i専門誌の取材記事まで確認したが、個人情報の対象は特定できず。検索で見つかった6月5日付公式ページは新刊案内で、漏えい公表日の裏付けには使えない。6月公表日と個人情報への影響の両方を保留。 5月のSecurity NEXT記事も確認したが、公式公表日と個人情報への具体的影響は未解決。",
+    "reviewed_on": "2026-10-26",
     "checked_urls": [
       "https://www.corp.musenet.co.jp/pages/23?detail=1&b_id=106&r_id=37#block106",
       "https://legalagent.co.jp/legal-lab/security-incidents/",
       "https://www.imagazine.co.jp/ransomware-report2026/",
-      "https://www.musenet.co.jp/%E6%96%B0%E5%88%8A%E6%A1%88%E5%86%85-104"
+      "https://www.musenet.co.jp/%E6%96%B0%E5%88%8A%E6%A1%88%E5%86%85-104",
+      "https://www.security-next.com/185103"
+    ]
+  },
+  {
+    "id": "may-review-bcba43268ce2",
+    "organization": "小牧市（YCC情報システム）",
+    "reported_on": "2026-10-26",
+    "verification": "pending",
+    "reference_url": "https://www.city.komaki.aichi.jp/admin/soshiki/fukushi/hokeniryou/51791.html",
+    "note": "5月遡及調査で発見。reported_onは発見日であり公表日ではない。公式URLが403。本文と公表日・対象範囲を確認できず。",
+    "reviewed_on": "2026-10-26",
+    "checked_urls": [
+      "https://www.city.komaki.aichi.jp/admin/soshiki/fukushi/hokeniryou/51791.html"
+    ]
+  },
+  {
+    "id": "may-review-d0ee4ddb1cff",
+    "organization": "ポラリス・ホールディングス",
+    "reported_on": "2026-10-26",
+    "verification": "pending",
+    "reference_url": "https://www.polaris-holdings.com/wp-content/uploads/2026/05/Release_Unauthorized_Access_260528_JP.pdf",
+    "note": "5月遡及調査で発見。reported_onは発見日であり公表日ではない。公式PDFが404。Booking.comアカウント侵害と個人情報への影響を原文で未確認。",
+    "reviewed_on": "2026-10-26",
+    "checked_urls": [
+      "https://www.polaris-holdings.com/wp-content/uploads/2026/05/Release_Unauthorized_Access_260528_JP.pdf"
+    ]
+  },
+  {
+    "id": "may-review-7248718ea450",
+    "organization": "四條畷荘",
+    "reported_on": "2026-10-26",
+    "verification": "pending",
+    "reference_url": "https://4jou.jp/information/2026-05-27",
+    "note": "5月遡及調査で発見。reported_onは発見日であり公表日ではない。参照URLは現在別のお知らせ。申込フォーム事故の原文と公表日を再確認する必要がある。",
+    "reviewed_on": "2026-10-26",
+    "checked_urls": [
+      "https://4jou.jp/information/2026-05-27"
+    ]
+  },
+  {
+    "id": "may-review-1c78baa82b60",
+    "organization": "興亜硝子",
+    "reported_on": "2026-10-26",
+    "verification": "pending",
+    "reference_url": "https://www.koaglass.co.jp/wp-content/uploads/2026/05/News_20260526_jp.pdf",
+    "note": "5月遡及調査で発見。reported_onは発見日であり公表日ではない。公式PDFを取得したが本文を抽出できず。個人情報への影響と公表日を未確認。",
+    "reviewed_on": "2026-10-26",
+    "checked_urls": [
+      "https://www.koaglass.co.jp/wp-content/uploads/2026/05/News_20260526_jp.pdf"
+    ]
+  },
+  {
+    "id": "may-review-32651e5fa847",
+    "organization": "涌谷町（花時雨御披露目会）",
+    "reported_on": "2026-10-26",
+    "verification": "pending",
+    "reference_url": "https://www.town.wakuya.miyagi.jp/hanasigurejouhou.html",
+    "note": "5月遡及調査で発見。reported_onは発見日であり公表日ではない。公式URLが該当記事を返さない。公表日と対象範囲は未確認。",
+    "reviewed_on": "2026-10-26",
+    "checked_urls": [
+      "https://www.town.wakuya.miyagi.jp/hanasigurejouhou.html"
+    ]
+  },
+  {
+    "id": "may-review-0b47ce627e1f",
+    "organization": "琵琶湖ホテル",
+    "reported_on": "2026-10-26",
+    "verification": "pending",
+    "reference_url": "https://www.keihanhotels-resorts.co.jp/biwakohotel/info/notice-202605/",
+    "note": "5月遡及調査で発見。reported_onは発見日であり公表日ではない。Booking.comアカウント侵害と不正メッセージを確認したが、個人情報の対象・流出有無の裏付けが不十分。",
+    "reviewed_on": "2026-10-26",
+    "checked_urls": [
+      "https://www.keihanhotels-resorts.co.jp/biwakohotel/info/notice-202605/"
+    ]
+  },
+  {
+    "id": "may-review-fcd9c94777aa",
+    "organization": "京都センチュリーホテル",
+    "reported_on": "2026-10-26",
+    "verification": "pending",
+    "reference_url": "https://www.keihanhotels-resorts.co.jp/kyoto-centuryhotel/news/notice-202605/",
+    "note": "5月遡及調査で発見。reported_onは発見日であり公表日ではない。Booking.comアカウント侵害と不正メッセージを確認したが、個人情報の対象・流出有無の裏付けが不十分。",
+    "reviewed_on": "2026-10-26",
+    "checked_urls": [
+      "https://www.keihanhotels-resorts.co.jp/kyoto-centuryhotel/news/notice-202605/"
+    ]
+  },
+  {
+    "id": "may-review-41163b21f351",
+    "organization": "AGS",
+    "reported_on": "2026-10-26",
+    "verification": "pending",
+    "reference_url": "https://www.ags.co.jp/topics/20260525.html",
+    "note": "5月遡及調査で発見。reported_onは発見日であり公表日ではない。第2報本文の情報漏えい記載だけでは自然人の対象が明確でない。幸手市の公表は別途掲載済み。",
+    "reviewed_on": "2026-10-26",
+    "checked_urls": [
+      "https://www.ags.co.jp/topics/20260525.html"
+    ]
+  },
+  {
+    "id": "may-review-920b6f07f644",
+    "organization": "LINEヤフー（Yahoo! JAPANビジネスID）",
+    "reported_on": "2026-10-26",
+    "verification": "pending",
+    "reference_url": "https://www.lycorp.co.jp/ja/privacy-security/announcement/020436/",
+    "note": "5月遡及調査で発見。reported_onは発見日であり公表日ではない。誤表示された事業者IDと自然人情報の関係が未確定。事業者の数を人数に転用しない。",
+    "reviewed_on": "2026-10-26",
+    "checked_urls": [
+      "https://www.lycorp.co.jp/ja/privacy-security/announcement/020436/"
+    ]
+  },
+  {
+    "id": "may-review-ab835f3a8f04",
+    "organization": "日鉄精密加工",
+    "reported_on": "2026-10-26",
+    "verification": "pending",
+    "reference_url": "https://www.nspm.nipponsteel.com/pr/pr2026052201.pdf",
+    "note": "5月遡及調査で発見。reported_onは発見日であり公表日ではない。公式PDFの暗号化により本文抽出不可。個人情報の対象範囲は未確認。",
+    "reviewed_on": "2026-10-26",
+    "checked_urls": [
+      "https://www.nspm.nipponsteel.com/pr/pr2026052201.pdf"
+    ]
+  },
+  {
+    "id": "may-review-7a038ca9be43",
+    "organization": "新潟県（県立新潟高等学校）",
+    "reported_on": "2026-10-26",
+    "verification": "pending",
+    "reference_url": "https://www.pref.niigata.lg.jp/site/kyoiku/r8-houdou4.html",
+    "note": "5月遡及調査で発見。reported_onは発見日であり公表日ではない。公式URLが404。対象情報・公表日を未確認。",
+    "reviewed_on": "2026-10-26",
+    "checked_urls": [
+      "https://www.pref.niigata.lg.jp/site/kyoiku/r8-houdou4.html"
+    ]
+  },
+  {
+    "id": "may-review-a3bed6cf72e4",
+    "organization": "関市（市立学校）",
+    "reported_on": "2026-10-26",
+    "verification": "pending",
+    "reference_url": "https://www.city.seki.lg.jp/0000023194.html",
+    "note": "5月遡及調査で発見。reported_onは発見日であり公表日ではない。USB紛失の公式URLが404。人数・公表日を原文で未確認。",
+    "reviewed_on": "2026-10-26",
+    "checked_urls": [
+      "https://www.city.seki.lg.jp/0000023194.html"
+    ]
+  },
+  {
+    "id": "may-review-2267ad7ce9a6",
+    "organization": "あなぶきハウジングサービス",
+    "reported_on": "2026-10-26",
+    "verification": "pending",
+    "reference_url": "https://www.anabuki-housing.co.jp/news/content.php?news_id=530&news_category_cd=0",
+    "note": "5月遡及調査で発見。reported_onは発見日であり公表日ではない。第6報の公式URLが429。グループ全体の人数を原文で未確認。香川県営住宅474人の公表とは区別。",
+    "reviewed_on": "2026-10-26",
+    "checked_urls": [
+      "https://www.anabuki-housing.co.jp/news/content.php?news_id=530&news_category_cd=0"
+    ]
+  },
+  {
+    "id": "may-review-05b50d1cce3e",
+    "organization": "タクエーホーム",
+    "reported_on": "2026-10-26",
+    "verification": "pending",
+    "reference_url": "https://www.takuei-home.co.jp/news/0519.pdf",
+    "note": "5月遡及調査で発見。reported_onは発見日であり公表日ではない。参照PDFは現在合併案内を返す。クラウド侵害の元資料を未取得。",
+    "reviewed_on": "2026-10-26",
+    "checked_urls": [
+      "https://www.takuei-home.co.jp/news/0519.pdf"
+    ]
+  },
+  {
+    "id": "may-review-9ae059aa84b8",
+    "organization": "エムシー",
+    "reported_on": "2026-10-26",
+    "verification": "pending",
+    "reference_url": "https://www.welcome-mc.co.jp/2026/05/15/%E8%A8%BA%E6%96%AD%E7%94%A8%E6%A9%9F%E5%99%A8%E3%81%AE%E7%B4%9B%E5%A4%B1%E3%81%AB%E4%BC%B4%E3%81%86%E5%80%8B%E4%BA%BA%E6%83%85%E5%A0%B1%E6%B5%81%E5%87%BA%E3%81%AE%E3%81%8A%E3%81%9D%E3%82%8C%E3%81%AB/",
+    "note": "5月遡及調査で発見。reported_onは発見日であり公表日ではない。診断機器紛失の公式ページが404。病院側の事案との役割・件数の関係も未確定。",
+    "reviewed_on": "2026-10-26",
+    "checked_urls": [
+      "https://www.welcome-mc.co.jp/2026/05/15/%E8%A8%BA%E6%96%AD%E7%94%A8%E6%A9%9F%E5%99%A8%E3%81%AE%E7%B4%9B%E5%A4%B1%E3%81%AB%E4%BC%B4%E3%81%86%E5%80%8B%E4%BA%BA%E6%83%85%E5%A0%B1%E6%B5%81%E5%87%BA%E3%81%AE%E3%81%8A%E3%81%9D%E3%82%8C%E3%81%AB/"
+    ]
+  },
+  {
+    "id": "may-review-523b6606a6f1",
+    "organization": "市立奈良病院",
+    "reported_on": "2026-10-26",
+    "verification": "pending",
+    "reference_url": "https://nara-jadecom.jp/uploads/2026/05/0497422741f5279d0e42a8135a6d4965.pdf",
+    "note": "5月遡及調査で発見。reported_onは発見日であり公表日ではない。公式PDFが404。システム復旧と個人情報の影響を区別して確認する必要がある。",
+    "reviewed_on": "2026-10-26",
+    "checked_urls": [
+      "https://nara-jadecom.jp/uploads/2026/05/0497422741f5279d0e42a8135a6d4965.pdf"
+    ]
+  },
+  {
+    "id": "may-review-e7116afa402a",
+    "organization": "フィーチャ",
+    "reported_on": "2026-10-26",
+    "verification": "pending",
+    "reference_url": "https://ssl4.eir-parts.net/doc/4052/tdnet/2807047/00.pdf",
+    "note": "5月遡及調査で発見。reported_onは発見日であり公表日ではない。最終報にファイル等の流出記載はあるが、自然人の情報の対象を特定できず。サーバー・リポジトリ数を人数にしない。",
+    "reviewed_on": "2026-10-26",
+    "checked_urls": [
+      "https://ssl4.eir-parts.net/doc/4052/tdnet/2807047/00.pdf"
+    ]
+  },
+  {
+    "id": "may-review-06b2f4fd1047",
+    "organization": "東京鋪装工業",
+    "reported_on": "2026-10-26",
+    "verification": "pending",
+    "reference_url": "https://www.tokyohoso.co.jp/news/1366/",
+    "note": "5月遡及調査で発見。reported_onは発見日であり公表日ではない。公式ページが503。報道の個人情報への影響と実際の公表日を原文で照合できず。",
+    "reviewed_on": "2026-10-26",
+    "checked_urls": [
+      "https://www.tokyohoso.co.jp/news/1366/"
+    ]
+  },
+  {
+    "id": "may-review-0a51ddb01905",
+    "organization": "DeNA（DeNAアカウント）",
+    "reported_on": "2026-10-26",
+    "verification": "pending",
+    "reference_url": "https://support.accounts.dena.com/hc/ja/articles/57840440271513--%E6%B3%A8%E6%84%8F%E5%96%9A%E8%B5%B7-2026-05-12-%E3%83%A1%E3%83%BC%E3%83%AB%E3%82%A2%E3%83%89%E3%83%AC%E3%82%B9%E3%81%AE%E4%B8%8D%E6%AD%A3%E5%88%A9%E7%94%A8%E3%81%8C%E7%A2%BA%E8%AA%8D%E3%81%95%E3%82%8C%E3%81%A6%E3%81%84%E3%81%BE%E3%81%99",
+    "note": "5月遡及調査で発見。reported_onは発見日であり公表日ではない。公式注意喚起が403。メールアドレス不正利用とサービスからの漏えいを区別する必要がある。",
+    "reviewed_on": "2026-10-26",
+    "checked_urls": [
+      "https://support.accounts.dena.com/hc/ja/articles/57840440271513--%E6%B3%A8%E6%84%8F%E5%96%9A%E8%B5%B7-2026-05-12-%E3%83%A1%E3%83%BC%E3%83%AB%E3%82%A2%E3%83%89%E3%83%AC%E3%82%B9%E3%81%AE%E4%B8%8D%E6%AD%A3%E5%88%A9%E7%94%A8%E3%81%8C%E7%A2%BA%E8%AA%8D%E3%81%95%E3%82%8C%E3%81%A6%E3%81%84%E3%81%BE%E3%81%99"
+    ]
+  },
+  {
+    "id": "may-review-d06e5126a896",
+    "organization": "日本・アルカディア・ネットワーク",
+    "reported_on": "2026-10-26",
+    "verification": "pending",
+    "reference_url": "https://jan.jp/news/4707/",
+    "note": "5月遡及調査で発見。reported_onは発見日であり公表日ではない。不審ファイル等の確認と個人情報への具体的影響の関係が未確定。",
+    "reviewed_on": "2026-10-26",
+    "checked_urls": [
+      "https://jan.jp/news/4707/"
+    ]
+  },
+  {
+    "id": "may-review-8485cff410fd",
+    "organization": "キャンディル／キャンディルパートナーズ",
+    "reported_on": "2026-10-26",
+    "verification": "pending",
+    "reference_url": "https://www.candeal.co.jp/post_prnews/6095/",
+    "note": "5月遡及調査で発見。reported_onは発見日であり公表日ではない。公式はメンテナンス表示のみ。親会社・対象子会社の記録単位と人数を未照合。",
+    "reviewed_on": "2026-10-26",
+    "checked_urls": [
+      "https://www.candeal.co.jp/post_prnews/6095/"
+    ]
+  },
+  {
+    "id": "may-review-58e6712e9636",
+    "organization": "Palette UP",
+    "reported_on": "2026-10-26",
+    "verification": "pending",
+    "reference_url": "https://palette-up.jp/compromise/",
+    "note": "5月遡及調査で発見。reported_onは発見日であり公表日ではない。公式告知が404。対象情報・公表日を未確認。",
+    "reviewed_on": "2026-10-26",
+    "checked_urls": [
+      "https://palette-up.jp/compromise/"
+    ]
+  },
+  {
+    "id": "may-review-c51a8b31f729",
+    "organization": "山王病院",
+    "reported_on": "2026-10-26",
+    "verification": "pending",
+    "reference_url": "https://www.sannoclc.or.jp/hospital/info/2026/05/12/9490",
+    "note": "5月遡及調査で発見。reported_onは発見日であり公表日ではない。公式告知が404。ホームページへの侵害と個人情報への影響を未確認。",
+    "reviewed_on": "2026-10-26",
+    "checked_urls": [
+      "https://www.sannoclc.or.jp/hospital/info/2026/05/12/9490"
+    ]
+  },
+  {
+    "id": "may-review-b2012b684501",
+    "organization": "愛知県（NPO法人役員等）",
+    "reported_on": "2026-10-26",
+    "verification": "pending",
+    "reference_url": "https://www.pref.aichi.jp/press-release/20260512syakaikatsudo.html",
+    "note": "5月遡及調査で発見。reported_onは発見日であり公表日ではない。公式URLが403。対象人数・公表日・黒塗りの対象項目を原文で未確認。",
+    "reviewed_on": "2026-10-26",
+    "checked_urls": [
+      "https://www.pref.aichi.jp/press-release/20260512syakaikatsudo.html"
+    ]
+  },
+  {
+    "id": "may-review-d5c125266dd9",
+    "organization": "共栄火災海上保険",
+    "reported_on": "2026-10-26",
+    "verification": "pending",
+    "reference_url": "https://www.kyoeikasai.co.jp/info/info20260512.pdf",
+    "note": "5月遡及調査で発見。reported_onは発見日であり公表日ではない。公式PDFはTLSエラー／取得エラー。委託先被害による対象情報と単位を原文で未確認。",
+    "reviewed_on": "2026-10-26",
+    "checked_urls": [
+      "https://www.kyoeikasai.co.jp/info/info20260512.pdf"
+    ]
+  },
+  {
+    "id": "may-review-55872cb90009",
+    "organization": "楽天損害保険",
+    "reported_on": "2026-10-26",
+    "verification": "pending",
+    "reference_url": "https://www.rakuten-sonpo.co.jp/news/tabid/85/Default.aspx?itemid=806&dispmid=753",
+    "note": "5月遡及調査で発見。reported_onは発見日であり公表日ではない。公式URLは一覧と告知リンクを返すが対象本文を取得できず。委託先被害の人数・項目は未確認。",
+    "reviewed_on": "2026-10-26",
+    "checked_urls": [
+      "https://www.rakuten-sonpo.co.jp/news/tabid/85/Default.aspx?itemid=806&dispmid=753"
+    ]
+  },
+  {
+    "id": "may-review-90acedc57935",
+    "organization": "東海大学（業務委託先・問い合わせ窓口変更）",
+    "reported_on": "2026-10-26",
+    "verification": "pending",
+    "reference_url": "https://www.u-tokai.ac.jp/news-notice/1367157/",
+    "note": "5月遡及調査で発見。reported_onは発見日であり公表日ではない。5月の告知は窓口変更。収集期間内の対象情報公表と過去の委託先事故の関係を未照合。東山産業関連の5月28日公表と混同しない。",
+    "reviewed_on": "2026-10-26",
+    "checked_urls": [
+      "https://www.u-tokai.ac.jp/news-notice/1367157/"
+    ]
+  },
+  {
+    "id": "may-review-d7b25aca85cd",
+    "organization": "資生堂美容室",
+    "reported_on": "2026-10-26",
+    "verification": "pending",
+    "reference_url": "https://salon.shiseido.co.jp/news/p20260507_25673/",
+    "note": "5月遡及調査で発見。reported_onは発見日であり公表日ではない。予約システム委託先の公式告知が503。対象情報と公表日を原文で未確認。",
+    "reviewed_on": "2026-10-26",
+    "checked_urls": [
+      "https://salon.shiseido.co.jp/news/p20260507_25673/"
+    ]
+  },
+  {
+    "id": "may-review-d58fcb2ecbbe",
+    "organization": "日本ベーリンガーインゲルハイム",
+    "reported_on": "2026-10-26",
+    "verification": "pending",
+    "reference_url": "https://www.boehringer-ingelheim.com/jp/about-us/news/news-26-0501",
+    "note": "5月遡及調査で発見。reported_onは発見日であり公表日ではない。元従業員情報に関する公式URLが403。対象範囲と公表日を未確認。",
+    "reviewed_on": "2026-10-26",
+    "checked_urls": [
+      "https://www.boehringer-ingelheim.com/jp/about-us/news/news-26-0501"
+    ]
+  },
+  {
+    "id": "may-review-9ed546ad278b",
+    "organization": "FJネクストホールディングス",
+    "reported_on": "2026-10-26",
+    "verification": "pending",
+    "reference_url": "https://www.fjnext-hd.co.jp/news/notice/info/4642.html",
+    "note": "5月遡及調査で発見。reported_onは発見日であり公表日ではない。公式続報URLがタイムアウト。対象範囲と期間内の公表日を未確認。",
+    "reviewed_on": "2026-10-26",
+    "checked_urls": [
+      "https://www.fjnext-hd.co.jp/news/notice/info/4642.html"
+    ]
+  },
+  {
+    "id": "may-review-071d07945d4e",
+    "organization": "東北大学",
+    "reported_on": "2026-10-26",
+    "verification": "pending",
+    "reference_url": "https://www.tohoku.ac.jp/japanese/2026/05/news20260501-public.html",
+    "note": "5月遡及調査で発見。reported_onは発見日であり公表日ではない。公式告知が404。対象情報と公表日を原文で未確認。",
+    "reviewed_on": "2026-10-26",
+    "checked_urls": [
+      "https://www.tohoku.ac.jp/japanese/2026/05/news20260501-public.html"
+    ]
+  },
+  {
+    "id": "may-review-582bbf92c2b7",
+    "organization": "STATION Ai",
+    "reported_on": "2026-10-26",
+    "verification": "pending",
+    "reference_url": "https://www.pref.aichi.jp/press-release/20260501stationai.html",
+    "note": "5月遡及調査で発見。reported_onは発見日であり公表日ではない。愛知県の公式URLがリダイレクトを繰り返す。対象情報と公表日を未確認。",
+    "reviewed_on": "2026-10-26",
+    "checked_urls": [
+      "https://www.pref.aichi.jp/press-release/20260501stationai.html"
+    ]
+  },
+  {
+    "id": "may-review-6faed4f8d7ac",
+    "organization": "京阪ホテルズ＆リゾーツ系ホテル",
+    "reported_on": "2026-10-26",
+    "verification": "pending",
+    "reference_url": "https://www.hotelkeihan.co.jp/yodoyabashi/news/42/",
+    "note": "5月遡及調査で発見。reported_onは発見日であり公表日ではない。淀屋橋・仙台・浅草・築地銀座の公式告知が取得不可。施設別の対象と同一事案かを未確認。",
+    "reviewed_on": "2026-10-26",
+    "checked_urls": [
+      "https://www.hotelkeihan.co.jp/yodoyabashi/news/42/",
+      "https://www.hotelkeihan.co.jp/sendai/news/193/",
+      "https://www.hotelkeihan.co.jp/asakusa/news/49/",
+      "https://www.hotelkeihan.co.jp/tsukijiginza/news/78/"
+    ]
+  },
+  {
+    "id": "may-review-fad3aae558ec",
+    "organization": "CKCネットワーク・学参（明倫ゼミナール・ナビ個別指導学院）",
+    "reported_on": "2026-10-26",
+    "verification": "pending",
+    "reference_url": "https://www.ckc.co.jp/announcement.pdf",
+    "note": "5月遡及調査で発見。reported_onは発見日であり公表日ではない。公式PDF・告知は404／410。共通の問い合わせシステムへの影響と組織ごとの記録単位を未確認。",
+    "reviewed_on": "2026-10-26",
+    "checked_urls": [
+      "https://www.ckc.co.jp/announcement.pdf",
+      "https://meirin-zemi.jp/news/%e3%80%90%e9%87%8d%e8%a6%81%e3%80%91%e3%83%a9%e3%83%b3%e3%82%b5%e3%83%a0%e3%82%a6%e3%82%a7%e3%82%a2%e3%81%ab%e3%82%88%e3%82%8b%e5%80%8b%e4%ba%ba%e6%83%85%e5%a0%b1%e6%bc%8f%e3%81%88%e3%81%84%e3%81%ae/",
+      "https://www.navi-school.com/news/492516.html",
+      "https://www.aozora.com/announcement.pdf",
+      "https://www.security-next.com/184513"
+    ]
+  },
+  {
+    "id": "may-review-04b029037046",
+    "organization": "住民の個人情報含むデータを福祉事業所に誤送信 - 鷹栖町",
+    "reported_on": "2026-10-26",
+    "verification": "pending",
+    "reference_url": "https://www.security-next.com/185108",
+    "note": "5月遡及調査で発見。reported_onは発見日であり公表日ではない。5月の報道で発見したが、組織の公表日と一次資料・対象情報の照合を完了していない。報道日や発生日を掲載公表日には採用しない。",
+    "reviewed_on": "2026-10-26",
+    "checked_urls": [
+      "https://www.security-next.com/185108"
+    ]
+  },
+  {
+    "id": "may-review-b817873ae915",
+    "organization": "住宅相談者の個人情報含む書類が所在不明に - 港区",
+    "reported_on": "2026-10-26",
+    "verification": "pending",
+    "reference_url": "https://www.security-next.com/185018",
+    "note": "5月遡及調査で発見。reported_onは発見日であり公表日ではない。5月の報道で発見したが、組織の公表日と一次資料・対象情報の照合を完了していない。報道日や発生日を掲載公表日には採用しない。",
+    "reviewed_on": "2026-10-26",
+    "checked_urls": [
+      "https://www.security-next.com/185018"
+    ]
+  },
+  {
+    "id": "may-review-39d621cb1f7d",
+    "organization": "市教委、保護者向けの案内メールで誤送信 - 佐渡市",
+    "reported_on": "2026-10-26",
+    "verification": "pending",
+    "reference_url": "https://www.security-next.com/185016",
+    "note": "5月遡及調査で発見。reported_onは発見日であり公表日ではない。5月の報道で発見したが、組織の公表日と一次資料・対象情報の照合を完了していない。報道日や発生日を掲載公表日には採用しない。",
+    "reviewed_on": "2026-10-26",
+    "checked_urls": [
+      "https://www.security-next.com/185016"
+    ]
+  },
+  {
+    "id": "may-review-75e4f7ac1b97",
+    "organization": "委託業者が患者情報含む診断用機器を紛失 - 東邦大大森病院",
+    "reported_on": "2026-10-26",
+    "verification": "pending",
+    "reference_url": "https://www.security-next.com/184680",
+    "note": "5月遡及調査で発見。reported_onは発見日であり公表日ではない。5月の報道で発見したが、組織の公表日と一次資料・対象情報の照合を完了していない。報道日や発生日を掲載公表日には採用しない。エムシー側の機器紛失候補との関係を確認する必要がある。",
+    "reviewed_on": "2026-10-26",
+    "checked_urls": [
+      "https://www.security-next.com/184680"
+    ]
+  },
+  {
+    "id": "may-review-1038fe3552ca",
+    "organization": "メルアカに不正アクセス、総当り攻撃受け - エスペック",
+    "reported_on": "2026-10-26",
+    "verification": "pending",
+    "reference_url": "https://www.security-next.com/184469",
+    "note": "5月遡及調査で発見。reported_onは発見日であり公表日ではない。5月の報道で発見したが、組織の公表日と一次資料・対象情報の照合を完了していない。報道日や発生日を掲載公表日には採用しない。",
+    "reviewed_on": "2026-10-26",
+    "checked_urls": [
+      "https://www.security-next.com/184469"
+    ]
+  },
+  {
+    "id": "may-review-aa6744e73470",
+    "organization": "県内高校で生徒情報含む連携支援シートを紛失 - 新潟県",
+    "reported_on": "2026-10-26",
+    "verification": "pending",
+    "reference_url": "https://www.security-next.com/184953",
+    "note": "5月遡及調査で発見。reported_onは発見日であり公表日ではない。5月の報道で発見したが、組織の公表日と一次資料・対象情報の照合を完了していない。報道日や発生日を掲載公表日には採用しない。県立新潟高校の候補と同じ事案かも未確定。",
+    "reviewed_on": "2026-10-26",
+    "checked_urls": [
+      "https://www.security-next.com/184953"
+    ]
+  },
+  {
+    "id": "may-review-b26835e8266e",
+    "organization": "交通指導員が小学校児童の登下校用名簿を紛失 - 名古屋市",
+    "reported_on": "2026-10-26",
+    "verification": "pending",
+    "reference_url": "https://www.security-next.com/184673",
+    "note": "5月遡及調査で発見。reported_onは発見日であり公表日ではない。5月の報道で発見したが、組織の公表日と一次資料・対象情報の照合を完了していない。報道日や発生日を掲載公表日には採用しない。",
+    "reviewed_on": "2026-10-26",
+    "checked_urls": [
+      "https://www.security-next.com/184673"
+    ]
+  },
+  {
+    "id": "may-review-d854b230868c",
+    "organization": "配達員がバイクで用水路に転落、郵便物が所在不明に - 郵便局",
+    "reported_on": "2026-10-26",
+    "verification": "pending",
+    "reference_url": "https://www.security-next.com/184478",
+    "note": "5月遡及調査で発見。reported_onは発見日であり公表日ではない。5月の報道で発見したが、組織の公表日と一次資料・対象情報の照合を完了していない。報道日や発生日を掲載公表日には採用しない。",
+    "reviewed_on": "2026-10-26",
+    "checked_urls": [
+      "https://www.security-next.com/184478"
+    ]
+  },
+  {
+    "id": "may-review-94895e5df181",
+    "organization": "SNS公開のインタビュー動画に患者が映り込み - 大田記念病院",
+    "reported_on": "2026-10-26",
+    "verification": "pending",
+    "reference_url": "https://www.security-next.com/184742",
+    "note": "5月遡及調査で発見。reported_onは発見日であり公表日ではない。5月の報道で発見したが、組織の公表日と一次資料・対象情報の照合を完了していない。報道日や発生日を掲載公表日には採用しない。",
+    "reviewed_on": "2026-10-26",
+    "checked_urls": [
+      "https://www.security-next.com/184742"
+    ]
+  },
+  {
+    "id": "may-review-6eb0d2e9ed36",
+    "organization": "成人祝賀イベントの参加者向けメールで誤送信 - 酒田市",
+    "reported_on": "2026-10-26",
+    "verification": "pending",
+    "reference_url": "https://www.security-next.com/184745",
+    "note": "5月遡及調査で発見。reported_onは発見日であり公表日ではない。5月の報道で発見したが、組織の公表日と一次資料・対象情報の照合を完了していない。報道日や発生日を掲載公表日には採用しない。",
+    "reviewed_on": "2026-10-26",
+    "checked_urls": [
+      "https://www.security-next.com/184745"
+    ]
+  },
+  {
+    "id": "may-review-dce6124f12d9",
+    "organization": "県立校で生徒の成績情報を含むUSBメモリを紛失 - 茨城県",
+    "reported_on": "2026-10-26",
+    "verification": "pending",
+    "reference_url": "https://www.security-next.com/184584",
+    "note": "5月遡及調査で発見。reported_onは発見日であり公表日ではない。5月の報道で発見したが、組織の公表日と一次資料・対象情報の照合を完了していない。報道日や発生日を掲載公表日には採用しない。",
+    "reviewed_on": "2026-10-26",
+    "checked_urls": [
+      "https://www.security-next.com/184584"
+    ]
+  },
+  {
+    "id": "may-review-3b244f2cca7c",
+    "organization": "生活保護相談者の個人情報含む記録票を紛失 - 熊本市",
+    "reported_on": "2026-10-26",
+    "verification": "pending",
+    "reference_url": "https://www.security-next.com/184471",
+    "note": "5月遡及調査で発見。reported_onは発見日であり公表日ではない。5月の報道で発見したが、組織の公表日と一次資料・対象情報の照合を完了していない。報道日や発生日を掲載公表日には採用しない。",
+    "reviewed_on": "2026-10-26",
+    "checked_urls": [
+      "https://www.security-next.com/184471"
+    ]
+  },
+  {
+    "id": "may-review-c90fa16b479d",
+    "organization": "交通違反者の個人情報含む引継簿が所在不明 - 道警",
+    "reported_on": "2026-10-26",
+    "verification": "pending",
+    "reference_url": "https://www.security-next.com/184300",
+    "note": "5月遡及調査で発見。reported_onは発見日であり公表日ではない。5月の報道で発見したが、組織の公表日と一次資料・対象情報の照合を完了していない。報道日や発生日を掲載公表日には採用しない。",
+    "reviewed_on": "2026-10-26",
+    "checked_urls": [
+      "https://www.security-next.com/184300"
+    ]
+  },
+  {
+    "id": "may-review-3ec3f988db5c",
+    "organization": "職員が患者情報を第三者に漏洩 - 福島県立医科大病院",
+    "reported_on": "2026-10-26",
+    "verification": "pending",
+    "reference_url": "https://www.security-next.com/184355",
+    "note": "5月遡及調査で発見。reported_onは発見日であり公表日ではない。5月の報道で発見したが、組織の公表日と一次資料・対象情報の照合を完了していない。報道日や発生日を掲載公表日には採用しない。",
+    "reviewed_on": "2026-10-26",
+    "checked_urls": [
+      "https://www.security-next.com/184355"
+    ]
+  },
+  {
+    "id": "may-review-af7c83cf0ddc",
+    "organization": "薬局で処方箋コピーを裁断せず廃棄 - 処理場で中身見える状態",
+    "reported_on": "2026-10-26",
+    "verification": "pending",
+    "reference_url": "https://www.security-next.com/184361",
+    "note": "5月遡及調査で発見。reported_onは発見日であり公表日ではない。5月の報道で発見したが、組織の公表日と一次資料・対象情報の照合を完了していない。報道日や発生日を掲載公表日には採用しない。",
+    "reviewed_on": "2026-10-26",
+    "checked_urls": [
+      "https://www.security-next.com/184361"
+    ]
+  },
+  {
+    "id": "may-review-ed6ac6b4684e",
+    "organization": "27店舗で印鑑届の紛失が判明、誤廃棄の可能性 - 豊川信金",
+    "reported_on": "2026-10-26",
+    "verification": "pending",
+    "reference_url": "https://www.security-next.com/184476",
+    "note": "5月遡及調査で発見。reported_onは発見日であり公表日ではない。5月の報道で発見したが、組織の公表日と一次資料・対象情報の照合を完了していない。報道日や発生日を掲載公表日には採用しない。",
+    "reviewed_on": "2026-10-26",
+    "checked_urls": [
+      "https://www.security-next.com/184476"
+    ]
+  },
+  {
+    "id": "may-review-831ccd5fc8b8",
+    "organization": "委託先がランサム被害、サーバ内部に組合員の個人情報 - コープいしかわ",
+    "reported_on": "2026-10-26",
+    "verification": "pending",
+    "reference_url": "https://www.security-next.com/184416",
+    "note": "5月遡及調査で発見。reported_onは発見日であり公表日ではない。5月の報道で発見したが、組織の公表日と一次資料・対象情報の照合を完了していない。報道日や発生日を掲載公表日には採用しない。",
+    "reviewed_on": "2026-10-26",
+    "checked_urls": [
+      "https://www.security-next.com/184416"
+    ]
+  },
+  {
+    "id": "may-review-d521df31c7f6",
+    "organization": "修学旅行の添乗員が生徒の個人情報含む資料を紛失 - 北広島市",
+    "reported_on": "2026-10-26",
+    "verification": "pending",
+    "reference_url": "https://www.security-next.com/184221",
+    "note": "5月遡及調査で発見。reported_onは発見日であり公表日ではない。5月の報道で発見したが、組織の公表日と一次資料・対象情報の照合を完了していない。報道日や発生日を掲載公表日には採用しない。",
+    "reviewed_on": "2026-10-26",
+    "checked_urls": [
+      "https://www.security-next.com/184221"
+    ]
+  },
+  {
+    "id": "may-review-debb622a1a91",
+    "organization": "患者の顔写真含む記憶媒体が所在不明 - 大阪の病院",
+    "reported_on": "2026-10-26",
+    "verification": "pending",
+    "reference_url": "https://www.security-next.com/184116",
+    "note": "5月遡及調査で発見。reported_onは発見日であり公表日ではない。5月の報道で発見したが、組織の公表日と一次資料・対象情報の照合を完了していない。報道日や発生日を掲載公表日には採用しない。",
+    "reviewed_on": "2026-10-26",
+    "checked_urls": [
+      "https://www.security-next.com/184116"
+    ]
+  },
+  {
+    "id": "may-review-c8bd7720149b",
+    "organization": "ランサム被害で個人情報流出の可能性 - エネサンスHD",
+    "reported_on": "2026-10-26",
+    "verification": "pending",
+    "reference_url": "https://www.security-next.com/184352",
+    "note": "5月遡及調査で発見。reported_onは発見日であり公表日ではない。5月の報道で発見したが、組織の公表日と一次資料・対象情報の照合を完了していない。報道日や発生日を掲載公表日には採用しない。",
+    "reviewed_on": "2026-10-26",
+    "checked_urls": [
+      "https://www.security-next.com/184352"
+    ]
+  },
+  {
+    "id": "may-review-325f41d5a17f",
+    "organization": "ワンコインチケットの申込フォームで設定ミス - 佐賀バスケチーム",
+    "reported_on": "2026-10-26",
+    "verification": "pending",
+    "reference_url": "https://www.security-next.com/184034",
+    "note": "5月遡及調査で発見。reported_onは発見日であり公表日ではない。5月の報道で発見したが、組織の公表日と一次資料・対象情報の照合を完了していない。報道日や発生日を掲載公表日には採用しない。",
+    "reviewed_on": "2026-10-26",
+    "checked_urls": [
+      "https://www.security-next.com/184034"
+    ]
+  },
+  {
+    "id": "may-review-41e0eafac779",
+    "organization": "投票所で作成した衆院選投票録が所在不明 - 横浜市鶴見区",
+    "reported_on": "2026-10-26",
+    "verification": "pending",
+    "reference_url": "https://www.security-next.com/184171",
+    "note": "5月遡及調査で発見。reported_onは発見日であり公表日ではない。5月の報道で発見したが、組織の公表日と一次資料・対象情報の照合を完了していない。報道日や発生日を掲載公表日には採用しない。",
+    "reviewed_on": "2026-10-26",
+    "checked_urls": [
+      "https://www.security-next.com/184171"
+    ]
+  },
+  {
+    "id": "may-review-69345bdf63d3",
+    "organization": "アルバイト応募者情報が流出、従業員SNS投稿で - 餃子専門店",
+    "reported_on": "2026-10-26",
+    "verification": "pending",
+    "reference_url": "https://www.security-next.com/184107",
+    "note": "5月遡及調査で発見。reported_onは発見日であり公表日ではない。5月の報道で発見したが、組織の公表日と一次資料・対象情報の照合を完了していない。報道日や発生日を掲載公表日には採用しない。",
+    "reviewed_on": "2026-10-26",
+    "checked_urls": [
+      "https://www.security-next.com/184107"
+    ]
+  },
+  {
+    "id": "may-review-daca55d53d4b",
+    "organization": "3R宣言事業者向けのメールで誤送信 - 岡山県",
+    "reported_on": "2026-10-26",
+    "verification": "pending",
+    "reference_url": "https://www.security-next.com/184186",
+    "note": "5月遡及調査で発見。reported_onは発見日であり公表日ではない。5月の報道で発見したが、組織の公表日と一次資料・対象情報の照合を完了していない。報道日や発生日を掲載公表日には採用しない。",
+    "reviewed_on": "2026-10-26",
+    "checked_urls": [
+      "https://www.security-next.com/184186"
+    ]
+  },
+  {
+    "id": "may-review-f79839fe4b4f",
+    "organization": "画像診断委託先でクラウド設定ミス、患者情報が閲覧可能に - マツダ病院",
+    "reported_on": "2026-10-26",
+    "verification": "pending",
+    "reference_url": "https://www.security-next.com/184223",
+    "note": "5月遡及調査で発見。reported_onは発見日であり公表日ではない。5月の報道で発見したが、組織の公表日と一次資料・対象情報の照合を完了していない。報道日や発生日を掲載公表日には採用しない。",
+    "reviewed_on": "2026-10-26",
+    "checked_urls": [
+      "https://www.security-next.com/184223"
+    ]
+  },
+  {
+    "id": "may-review-0e90b72664f4",
+    "organization": "「MS 365」に不正ログイン、個人情報流出の可能性 - 日経米子会社",
+    "reported_on": "2026-10-26",
+    "verification": "pending",
+    "reference_url": "https://www.security-next.com/184168",
+    "note": "5月遡及調査で発見。reported_onは発見日であり公表日ではない。5月の報道で発見したが、組織の公表日と一次資料・対象情報の照合を完了していない。報道日や発生日を掲載公表日には採用しない。",
+    "reviewed_on": "2026-10-26",
+    "checked_urls": [
+      "https://www.security-next.com/184168"
+    ]
+  },
+  {
+    "id": "may-review-33cf3d841d3a",
+    "organization": "開示文書の墨塗り個人情報、出力ミスで参照可能に - 北九州市",
+    "reported_on": "2026-10-26",
+    "verification": "pending",
+    "reference_url": "https://www.security-next.com/184173",
+    "note": "5月遡及調査で発見。reported_onは発見日であり公表日ではない。5月の報道で発見したが、組織の公表日と一次資料・対象情報の照合を完了していない。報道日や発生日を掲載公表日には採用しない。掲載済み7月3日の北九州市マスキング点検（1,139人）とは数値が異なり、同一事案か未確定。",
+    "reviewed_on": "2026-10-26",
+    "checked_urls": [
+      "https://www.security-next.com/184173"
+    ]
+  },
+  {
+    "id": "may-review-e20438e6ef2d",
+    "organization": "事業者宛てメールで複数の誤送信が判明 - 公共施設の管理運営会社",
+    "reported_on": "2026-10-26",
+    "verification": "pending",
+    "reference_url": "https://www.security-next.com/184109",
+    "note": "5月遡及調査で発見。reported_onは発見日であり公表日ではない。5月の報道で発見したが、組織の公表日と一次資料・対象情報の照合を完了していない。報道日や発生日を掲載公表日には採用しない。",
+    "reviewed_on": "2026-10-26",
+    "checked_urls": [
+      "https://www.security-next.com/184109"
+    ]
+  },
+  {
+    "id": "may-review-17e49f529e32",
+    "organization": "動作確認ページ残存、ボランティア登録者メアドが閲覧可能に - 名古屋市",
+    "reported_on": "2026-10-26",
+    "verification": "pending",
+    "reference_url": "https://www.security-next.com/184029",
+    "note": "5月遡及調査で発見。reported_onは発見日であり公表日ではない。5月の報道で発見したが、組織の公表日と一次資料・対象情報の照合を完了していない。報道日や発生日を掲載公表日には採用しない。",
+    "reviewed_on": "2026-10-26",
+    "checked_urls": [
+      "https://www.security-next.com/184029"
+    ]
+  },
+  {
+    "id": "may-review-718c187a2583",
+    "organization": "ファイル転送サーバに不正アクセス、個人情報流出か - 沖縄総合事務局",
+    "reported_on": "2026-10-26",
+    "verification": "pending",
+    "reference_url": "https://www.security-next.com/183999",
+    "note": "5月遡及調査で発見。reported_onは発見日であり公表日ではない。5月の報道で発見したが、組織の公表日と一次資料・対象情報の照合を完了していない。報道日や発生日を掲載公表日には採用しない。",
+    "reviewed_on": "2026-10-26",
+    "checked_urls": [
+      "https://www.security-next.com/183999"
+    ]
+  },
+  {
+    "id": "may-review-0563442fe952",
+    "organization": "小中20校で児童生徒の個人情報を同意なしにPTAへ提供 - 静岡市",
+    "reported_on": "2026-10-26",
+    "verification": "pending",
+    "reference_url": "https://www.security-next.com/184008",
+    "note": "5月遡及調査で発見。reported_onは発見日であり公表日ではない。5月の報道で発見したが、組織の公表日と一次資料・対象情報の照合を完了していない。報道日や発生日を掲載公表日には採用しない。",
+    "reviewed_on": "2026-10-26",
+    "checked_urls": [
+      "https://www.security-next.com/184008"
+    ]
+  },
+  {
+    "id": "may-review-ddf8707c9c4d",
+    "organization": "複数Chatworkアカウントが侵害、不正な請求書送信も - 鉄道設備機器メーカー",
+    "reported_on": "2026-10-26",
+    "verification": "pending",
+    "reference_url": "https://www.security-next.com/184004",
+    "note": "5月遡及調査で発見。reported_onは発見日であり公表日ではない。5月の報道で発見したが、組織の公表日と一次資料・対象情報の照合を完了していない。報道日や発生日を掲載公表日には採用しない。",
+    "reviewed_on": "2026-10-26",
+    "checked_urls": [
+      "https://www.security-next.com/184004"
+    ]
+  },
+  {
+    "id": "may-review-15d19c8c1a4b",
+    "organization": "手術室のタブレット端末が所在不明 - 荻窪病院",
+    "reported_on": "2026-10-26",
+    "verification": "pending",
+    "reference_url": "https://www.security-next.com/184010",
+    "note": "5月遡及調査で発見。reported_onは発見日であり公表日ではない。5月の報道で発見したが、組織の公表日と一次資料・対象情報の照合を完了していない。報道日や発生日を掲載公表日には採用しない。",
+    "reviewed_on": "2026-10-26",
+    "checked_urls": [
+      "https://www.security-next.com/184010"
     ]
   }
 ]

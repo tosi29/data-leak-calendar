@@ -1,0 +1,46 @@
+{
+  "id": "nict-voice-corpus-20260519",
+  "organization": {
+    "name": "情報通信研究機構（NICT）",
+    "sector": "企業・団体"
+  },
+  "title": "音声コーパスの誤公開について第二報を公表",
+  "summary": "人の呼称を含む音声ファイルを誤って公開し、一部アクセス元を特定できず調査を継続。",
+  "published_on": "2026-05-19",
+  "first_published_on": "2026-03-19",
+  "publication_kind": "followup",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-26",
+  "verification": "official",
+  "leak_status": "exposed",
+  "incident_type": "accident",
+  "cause": {
+    "category": "configuration",
+    "detail": "音声データの公開前の確認プロセスに不備。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "対象人数・件数は未公表。"
+    }
+  ],
+  "data_types": [
+    "話者の氏名等の呼称"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.nict.go.jp/publicity/topics/2026/05/19-1.html",
+      "title": "音声コーパスの誤った公開による情報漏えいとその対応に関するお知らせ（第２報） ｜2026年",
+      "type": "official",
+      "published_on": "2026-05-19",
+      "checked_on": "2026-10-26"
+    }
+  ],
+  "updates": [],
+  "notes": "最大12件はアクセス数であり人数・音声ファイル件数ではないため影響規模へ使用しない。"
+}

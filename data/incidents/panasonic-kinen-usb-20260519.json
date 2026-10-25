@@ -1,0 +1,50 @@
+{
+  "id": "panasonic-kinen-usb-20260519",
+  "organization": {
+    "name": "松下記念病院",
+    "sector": "企業・団体"
+  },
+  "title": "患者情報を含むUSBメモリを院内で紛失",
+  "summary": "パスワード保護された媒体を捜索中と公表。",
+  "published_on": "2026-05-19",
+  "first_published_on": "2026-05-19",
+  "publication_kind": "initial",
+  "occurred_on": "2026-05-19",
+  "detected_on": "2026-05-19",
+  "updated_on": "2026-10-26",
+  "verification": "official",
+  "leak_status": "lost",
+  "incident_type": "accident",
+  "cause": {
+    "category": "loss",
+    "detail": "患者情報を収めたUSBメモリの院内紛失。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "対象人数・件数は未公表。"
+    }
+  ],
+  "data_types": [
+    "患者ID",
+    "氏名",
+    "性別",
+    "年齢",
+    "病名"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://kenpo.jpn.panasonic.com/kinen/img/information/20260519.pdf",
+      "title": "患者様の個人情報を含むUSBメモリの紛失について  (お詫びとご報告)",
+      "type": "official",
+      "published_on": "2026-05-19",
+      "checked_on": "2026-10-26"
+    }
+  ],
+  "updates": [],
+  "notes": "院外には持ち出していないと説明。パスワード保護を理由に紛失事実を漏えい否定へ変更しない。"
+}

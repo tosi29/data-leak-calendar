@@ -6,12 +6,12 @@
   },
   "title": "ランサムウェア調査で社員認証情報への影響を報告",
   "summary": "VPN経由の侵入後、社員の認証情報が取得されたとみられる。ADサーバー上のデータは外部に転送されたと判断している。",
-  "published_on": "2026-07-21",
+  "published_on": "2026-05-07",
   "first_published_on": "2026-05-07",
-  "publication_kind": "followup",
+  "publication_kind": "initial",
   "occurred_on": "2026-04-08",
   "detected_on": "2026-04-22",
-  "updated_on": "2026-10-21",
+  "updated_on": "2026-10-26",
   "verification": "official",
   "leak_status": "suspected",
   "incident_type": "attack",
@@ -39,8 +39,21 @@
       "title": "サイバー攻撃に関するお知らせ",
       "published_on": "2026-07-21",
       "checked_on": "2026-10-21"
+    },
+    {
+      "url": "https://www.sedeco.co.jp/news/detail/?itemid=105&dispmid=567",
+      "title": "サイバー攻撃の可能性があるシステム障害に関するお知らせ",
+      "type": "official",
+      "published_on": "2026-05-07",
+      "checked_on": "2026-10-26"
     }
   ],
-  "updates": [],
-  "notes": "公式続報の認証情報に関する記述を再評価し掲載。ADデータ転送は確認されているが、個々の社員情報の範囲・人数は不明のためsuspected。顧客・取引先情報の外部転送の形跡はないとの説明。"
+  "updates": [
+    {
+      "date": "2026-07-21",
+      "summary": "後続の公表：サイバー攻撃に関するお知らせ。5月の公表を確認したため同一記録に保持。",
+      "source_index": 0
+    }
+  ],
+  "notes": "公式続報の認証情報に関する記述を再評価し掲載。ADデータ転送は確認されているが、個々の社員情報の範囲・人数は不明のためsuspected。顧客・取引先情報の外部転送の形跡はないとの説明。 2026年5月の遡及調査で掲載公表日を2026-07-21から2026-05-07へ変更。IDと後続の調査結果を保持。"
 }

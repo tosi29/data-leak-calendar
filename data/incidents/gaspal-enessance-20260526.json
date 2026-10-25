@@ -1,0 +1,56 @@
+{
+  "id": "gaspal-enessance-20260526",
+  "organization": {
+    "name": "ガスパル・ガスパル九州",
+    "sector": "企業・団体"
+  },
+  "title": "LPガス関連業務委託先の被害で顧客情報69件に流出またはそのおそれ",
+  "summary": "エネサンスグループへの業務委託に関連する影響を共同公表。",
+  "published_on": "2026-05-26",
+  "first_published_on": "2026-05-26",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-26",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。具体的な侵入手口は未確定。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 69,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "公表された対象規模は69。流出確定数とは限らない。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "電話番号"
+  ],
+  "related_vendor": "エネサンスホールディングスグループ",
+  "sources": [
+    {
+      "url": "https://www.gas-pal.com/news/20260526/3365/",
+      "title": "㈱ガスパルおよび㈱ガスパル九州の業務委託先におけるサイバー攻撃による個人情報漏えいに関するお詫びとお知らせ | 株式会社ガスパル",
+      "type": "official",
+      "published_on": "2026-05-26",
+      "checked_on": "2026-10-26"
+    }
+  ],
+  "updates": [],
+  "notes": "共同公表を1件にまとめる。69件全員・全項目の流出確認数とは扱わない。",
+  "vendors": [
+    {
+      "name": "エネサンスホールディングスグループ",
+      "role": "service",
+      "detail": "当該事案に関係する業務・サービスの提供元。役割は公表本文に基づく。",
+      "source_index": 0
+    }
+  ]
+}

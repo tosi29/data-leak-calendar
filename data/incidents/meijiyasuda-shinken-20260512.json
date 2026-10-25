@@ -1,0 +1,60 @@
+{
+  "id": "meijiyasuda-shinken-20260512",
+  "organization": {
+    "name": "明治安田損害保険",
+    "sector": "企業・団体"
+  },
+  "title": "損害調査委託先の侵害で10人の情報に流出のおそれ",
+  "summary": "火災保険顧客5人と損害調査の照会先5人に関する情報が対象。",
+  "published_on": "2026-05-12",
+  "first_published_on": "2026-05-12",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-26",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。具体的な侵入手口は未確定。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 10,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表された対象規模は10。流出確定数とは限らない。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "電話番号",
+    "職業",
+    "勤務先",
+    "家屋損害情報",
+    "会社名"
+  ],
+  "related_vendor": "新日本検定協会",
+  "sources": [
+    {
+      "url": "https://www.meijiyasuda-sonpo.co.jp/download_file.php?name=00397_20260512_0.pdf",
+      "title": "損害調査委託先の侵害で10人の情報に流出のおそれ",
+      "type": "official",
+      "published_on": "2026-05-12",
+      "checked_on": "2026-10-26"
+    }
+  ],
+  "updates": [],
+  "notes": "",
+  "vendors": [
+    {
+      "name": "新日本検定協会",
+      "role": "service",
+      "detail": "当該事案に関係する業務・サービスの提供元。役割は公表本文に基づく。",
+      "source_index": 0
+    }
+  ]
+}

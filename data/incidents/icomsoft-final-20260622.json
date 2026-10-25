@@ -6,13 +6,13 @@
   },
   "title": "Web・メールサーバー侵害の最終報告",
   "summary": "サーバ管理ソフトの脆弱性を悪用された。情報窃取の痕跡はないが、管理権限を取得されており、メール関連の個人情報流出を否定できないとした。",
-  "published_on": "2026-06-22",
+  "published_on": "2026-05-27",
   "first_published_on": "2026-05-27",
-  "publication_kind": "followup",
+  "publication_kind": "initial",
   "occurred_on": null,
   "detected_on": "2026-05-01",
-  "updated_on": "2026-10-24",
-  "verification": "secondary",
+  "updated_on": "2026-10-26",
+  "verification": "official",
   "leak_status": "suspected",
   "incident_type": "attack",
   "cause": {
@@ -50,8 +50,21 @@
       "title": "アイコムソフトが最終報告（ScanNetSecurity配信）",
       "published_on": "2026-07-09",
       "checked_on": "2026-10-24"
+    },
+    {
+      "url": "https://www.icomsoft.co.jp/news/info-news/entry-307.html",
+      "title": "弊社サーバーへの不正アクセスに関するお知らせ（最終報）",
+      "type": "official",
+      "published_on": "2026-06-22",
+      "checked_on": "2026-10-26"
     }
   ],
-  "updates": [],
-  "notes": "公式最終報URLは503で取得不能。発表日6月22日はScanNetSecurity配信記事で確認。流出の可能性は低いとの評価で、確定漏えいではない。"
+  "updates": [
+    {
+      "date": "2026-06-22",
+      "summary": "後続の公表：アイコムソフト、サーバへの不正アクセスを確認（6月22日追記）。5月の公表を確認したため同一記録に保持。",
+      "source_index": 0
+    }
+  ],
+  "notes": "公式最終報は直接取得503だが、今回検索収録本文で確認。発表日6月22日はScanNetSecurity配信記事で確認。流出の可能性は低いとの評価で、確定漏えいではない。 2026年5月の遡及調査で掲載公表日を2026-06-22から2026-05-27へ変更。IDと後続の調査結果を保持。最終報の公式検索収録本文が初報5月27日を明記。直接取得503と区別して記録。"
 }

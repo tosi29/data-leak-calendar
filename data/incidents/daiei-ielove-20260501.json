@@ -1,0 +1,55 @@
+{
+  "id": "daiei-ielove-20260501",
+  "organization": {
+    "name": "大英産業",
+    "sector": "企業・団体"
+  },
+  "title": "建売ナビの顧客情報が漏えいした可能性",
+  "summary": "外部委託先のクラウドシステムへの不正アクセスによる影響を公表。",
+  "published_on": "2026-05-01",
+  "first_published_on": "2026-05-01",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-26",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。具体的な侵入手口は未確定。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "対象人数・件数は未公表。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "顧客情報（項目は出典参照）"
+  ],
+  "related_vendor": "いえらぶGROUP",
+  "sources": [
+    {
+      "url": "https://www.daieisangyo.co.jp/news/3118",
+      "title": "個人情報漏えいに関するお詫びとお知らせ | ニュース | 大英産業株式会社｜分譲マンション、戸建て",
+      "type": "official",
+      "published_on": "2026-05-01",
+      "checked_on": "2026-10-26"
+    }
+  ],
+  "updates": [],
+  "notes": "",
+  "vendors": [
+    {
+      "name": "いえらぶGROUP",
+      "role": "service",
+      "detail": "当該事案に関係する業務・サービスの提供元。役割は公表本文に基づく。",
+      "source_index": 0
+    }
+  ]
+}

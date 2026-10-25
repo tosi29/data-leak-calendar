@@ -1,0 +1,46 @@
+{
+  "id": "osaka-ikuno-mail-20260519",
+  "organization": {
+    "name": "大阪市生野区",
+    "sector": "行政・自治体"
+  },
+  "title": "居場所づくり事業の保護者アドレス10件を誤送信",
+  "summary": "委託事業者が事務連絡をCCで送信し、受信者間でアドレスが表示された。",
+  "published_on": "2026-05-19",
+  "first_published_on": "2026-05-19",
+  "publication_kind": "initial",
+  "occurred_on": "2026-05-16",
+  "detected_on": "2026-05-16",
+  "updated_on": "2026-10-26",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "accident",
+  "cause": {
+    "category": "misdelivery",
+    "detail": "委託事業者がBccで送るべき連絡をCCで送信。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 10,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "公表された対象規模は10。流出確定数とは限らない。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.city.osaka.lg.jp/hodoshiryo/ikuno/0000679194.html",
+      "title": "大阪市：報道発表資料 生野区役所におけるメール誤送信による個人情報の漏えいについて",
+      "type": "official",
+      "published_on": "2026-05-19",
+      "checked_on": "2026-10-26"
+    }
+  ],
+  "updates": [],
+  "notes": "6月一括公表で再掲された事案を、5月19日個別公表で1件として掲載。委託事業者名は本文に記載がなく推定しない。"
+}

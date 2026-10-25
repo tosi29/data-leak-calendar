@@ -1,0 +1,58 @@
+{
+  "id": "baystars-campfire-20260522",
+  "organization": {
+    "name": "横浜DeNAベイスターズ",
+    "sector": "企業・団体"
+  },
+  "title": "優勝パレードのクラウドファンディング支援者情報に漏えいのおそれ",
+  "summary": "業務で利用したCAMPFIREへの不正アクセスに関連し、支援者への影響を公表。",
+  "published_on": "2026-05-22",
+  "first_published_on": "2026-05-22",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-26",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。具体的な侵入手口は未確定。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "対象人数・件数は未公表。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "電話番号",
+    "メールアドレス",
+    "口座情報"
+  ],
+  "related_vendor": "CAMPFIRE",
+  "sources": [
+    {
+      "url": "https://www.baystars.co.jp/news/2026/05/0522_07.php",
+      "title": "【重要】弊社が利用する外部サービスへの不正アクセスによる個人情報漏洩の可能性に関する注意喚起のお知らせ ｜ 横浜DeNAベイスターズ",
+      "type": "official",
+      "published_on": "2026-05-22",
+      "checked_on": "2026-10-26"
+    }
+  ],
+  "updates": [],
+  "notes": "CAMPFIRE全体の件数や他の決済期間を、当該プロジェクトの被害人数へ転用しない。",
+  "vendors": [
+    {
+      "name": "CAMPFIRE",
+      "role": "service",
+      "detail": "当該事案に関係する業務・サービスの提供元。役割は公表本文に基づく。",
+      "source_index": 0
+    }
+  ]
+}

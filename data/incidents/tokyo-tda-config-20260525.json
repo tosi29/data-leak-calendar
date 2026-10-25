@@ -1,0 +1,48 @@
+{
+  "id": "tokyo-tda-config-20260525",
+  "organization": {
+    "name": "東京都デジタルサービス局（東京デジタルアカデミー）",
+    "sector": "行政・自治体"
+  },
+  "title": "ポータルサイトから最大2,438人の情報が漏えい",
+  "summary": "アクセス制限の不備を発見し、過去に不正アクセスでCSVがダウンロードされていたことを確認。",
+  "published_on": "2026-05-25",
+  "first_published_on": "2026-05-25",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-05-20",
+  "updated_on": "2026-10-26",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "configuration",
+    "detail": "個人情報を格納した領域のアクセス制限の不備を第三者が悪用。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 2438,
+      "unit": "people",
+      "qualifier": "maximum",
+      "description": "公表された対象規模は2,438。流出確定数とは限らない。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "業務用メールアドレス",
+    "ハッシュ化パスワード"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.digitalservice.metro.tokyo.lg.jp/information/press/2026/05/20260525",
+      "title": "個人情報の漏えいについて|５月|東京都デジタルサービス局",
+      "type": "official",
+      "published_on": "2026-05-25",
+      "checked_on": "2026-10-26"
+    }
+  ],
+  "updates": [],
+  "notes": "主に行政職員で、うち一般市民2人を含む。2人を総数に加算しない。設定不備を悪用した不正アクセスのため種別はattack。"
+}

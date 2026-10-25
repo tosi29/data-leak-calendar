@@ -1,0 +1,84 @@
+{
+  "id": "axa-pet-followup-20260515",
+  "organization": {
+    "name": "アクサ損害保険（ペット保険システム）",
+    "sector": "企業・団体"
+  },
+  "title": "漏えい可能性のある情報の区分別内訳を訂正",
+  "summary": "自動車保険顧客の一部がペット保険システムに登録されていたことを第三報で公表。",
+  "published_on": "2026-05-15",
+  "first_published_on": "2025-07-25",
+  "publication_kind": "followup",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-26",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。具体的な侵入手口は未確定。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 143000,
+      "unit": "records",
+      "qualifier": "approximate",
+      "description": "既契約者・被保険者の情報約14.3万件。"
+    },
+    {
+      "count": 64000,
+      "unit": "records",
+      "qualifier": "approximate",
+      "description": "ペット保険に関する操作を通じ登録された自動車保険顧客等の情報約6.4万件。"
+    },
+    {
+      "count": 335000,
+      "unit": "records",
+      "qualifier": "approximate",
+      "description": "見積り・資料請求者の情報約33.5万件。"
+    },
+    {
+      "count": 1000,
+      "unit": "records",
+      "qualifier": "approximate",
+      "description": "賠償責任保険の被害者情報約1千件。"
+    },
+    {
+      "count": 10000,
+      "unit": "records",
+      "qualifier": "approximate",
+      "description": "動物医療機関・医療調査協力先の情報約1万件。"
+    },
+    {
+      "count": 199,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "保険代理店情報199件。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "性別",
+    "生年月日",
+    "電話番号",
+    "メールアドレス",
+    "証券番号",
+    "保険金給付情報",
+    "金融機関口座情報"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.axa-direct.co.jp/company/official_info/announce/2026/260515.html",
+      "title": "当社システムに対する不正アクセスの発生および情報流出の可能性について（第3報）",
+      "type": "official",
+      "published_on": "2026-05-15",
+      "checked_on": "2026-10-26"
+    }
+  ],
+  "updates": [],
+  "notes": "第二報から総件数の増加はなく内訳の訂正。機関・個人が混在する各区分と内数の口座数を合算しない。"
+}

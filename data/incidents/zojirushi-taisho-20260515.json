@@ -1,0 +1,48 @@
+{
+  "id": "zojirushi-taisho-20260515",
+  "organization": {
+    "name": "象印マホービン（台湾子会社・台象）",
+    "sector": "企業・団体"
+  },
+  "title": "台湾子会社の顧客・従業員情報が流出した可能性",
+  "summary": "サイバー攻撃後の調査で個人情報等への影響が判明。日本国内・他拠点への影響はないと説明。",
+  "published_on": "2026-05-15",
+  "first_published_on": "2026-05-15",
+  "publication_kind": "initial",
+  "occurred_on": "2026-04-13",
+  "detected_on": "2026-04-13",
+  "updated_on": "2026-10-26",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。具体的な侵入手口は未確定。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "対象人数・件数は未公表。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "メールアドレス",
+    "従業員のパスポート情報"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.zojirushi.co.jp/corp/news/2026/260515/information.html",
+      "title": "台湾子会社の顧客・従業員情報が流出した可能性",
+      "type": "official",
+      "published_on": "2026-05-15",
+      "checked_on": "2026-10-26"
+    }
+  ],
+  "updates": [],
+  "notes": "国内企業による海外子会社の公表として掲載。国内の被害人数へ換算しない。"
+}

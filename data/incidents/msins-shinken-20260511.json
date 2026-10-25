@@ -1,0 +1,59 @@
+{
+  "id": "msins-shinken-20260511",
+  "organization": {
+    "name": "三井住友海上火災保険",
+    "sector": "企業・団体"
+  },
+  "title": "損害調査委託先から顧客等の情報6,176件が漏えい",
+  "summary": "新日本検定協会から流出報告を受け、対象情報を公表。",
+  "published_on": "2026-05-11",
+  "first_published_on": "2026-05-11",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-26",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。具体的な侵入手口は未確定。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 6176,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "公表された対象規模は6,176。流出確定数とは限らない。"
+    }
+  ],
+  "data_types": [
+    "保険証券番号",
+    "氏名",
+    "住所",
+    "電話番号",
+    "メールアドレス",
+    "事故番号"
+  ],
+  "related_vendor": "新日本検定協会",
+  "sources": [
+    {
+      "url": "https://www.ms-ins.com/news/fy2026/pdf/0511_1.pdf",
+      "title": "業務委託先におけるサイバー攻撃被害に伴う情報漏えいについて",
+      "type": "official",
+      "published_on": "2026-05-11",
+      "checked_on": "2026-10-26"
+    }
+  ],
+  "updates": [],
+  "notes": "",
+  "vendors": [
+    {
+      "name": "新日本検定協会",
+      "role": "service",
+      "detail": "当該事案に関係する業務・サービスの提供元。役割は公表本文に基づく。",
+      "source_index": 0
+    }
+  ]
+}

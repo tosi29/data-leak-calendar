@@ -1,0 +1,54 @@
+{
+  "id": "athome-ielove-20260501",
+  "organization": {
+    "name": "アットホーム",
+    "sector": "企業・団体"
+  },
+  "title": "外部連携サービス経由の問い合わせ情報に漏えいのおそれ",
+  "summary": "いえらぶCLOUDを通じて、同社を含む連携各社へ問い合わせた顧客の情報に影響の可能性。",
+  "published_on": "2026-05-01",
+  "first_published_on": "2026-04-10",
+  "publication_kind": "followup",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-26",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。具体的な侵入手口は未確定。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "対象人数・件数は未公表。"
+    }
+  ],
+  "data_types": [
+    "問い合わせ顧客の個人情報（詳細未公表）"
+  ],
+  "related_vendor": "いえらぶGROUP",
+  "sources": [
+    {
+      "url": "https://www.athome.co.jp/corporate/news/topics/oshirase-202605/",
+      "title": "他社サービスにおける個人情報の漏えいと弊社サービスへの影響について",
+      "type": "official",
+      "published_on": "2026-05-01",
+      "checked_on": "2026-10-26"
+    }
+  ],
+  "updates": [],
+  "notes": "同社自身のシステムの侵害や保有・管理情報の流出は未確認。外部連携先の情報への影響と区別する。",
+  "vendors": [
+    {
+      "name": "いえらぶGROUP",
+      "role": "service",
+      "detail": "当該事案に関係する業務・サービスの提供元。役割は公表本文に基づく。",
+      "source_index": 0
+    }
+  ]
+}

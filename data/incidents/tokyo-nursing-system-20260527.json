@@ -1,0 +1,55 @@
+{
+  "id": "tokyo-nursing-system-20260527",
+  "organization": {
+    "name": "東京都保健医療局（看護師等修学資金）",
+    "sector": "行政・自治体"
+  },
+  "title": "貸付事務システムで他施設の個人情報が閲覧可能",
+  "summary": "権限設定の不備により、被貸与者等437人と連帯保証人128人の情報に影響。",
+  "published_on": "2026-05-27",
+  "first_published_on": "2026-05-27",
+  "publication_kind": "initial",
+  "occurred_on": "2026-04-20",
+  "detected_on": "2026-05-01",
+  "updated_on": "2026-10-26",
+  "verification": "official",
+  "leak_status": "exposed",
+  "incident_type": "accident",
+  "cause": {
+    "category": "configuration",
+    "detail": "特定の端末操作により、他施設分の個人情報を参照できる設定だった。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 437,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "被貸与者等437人の情報。"
+    },
+    {
+      "count": 128,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "連帯保証人128人の情報。人物の重複有無が未確定のため合算しない。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "電話番号",
+    "貸与金額"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.metro.tokyo.lg.jp/information/press/2026/05/2026052807",
+      "title": "個人情報の漏えいについて|5月|都庁総合ホームページ",
+      "type": "official",
+      "published_on": "2026-05-27",
+      "checked_on": "2026-10-26"
+    }
+  ],
+  "updates": [],
+  "notes": "URL末尾は2026052807だが、本文の報道発表日は5月27日。URLの日付から公表日を推定しない。3施設4人の閲覧確認は人数規模へ加算しない。"
+}

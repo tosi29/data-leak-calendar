@@ -6,12 +6,12 @@
   },
   "title": "アルバイト管理システムの影響対象を追加確認",
   "summary": "不正アクセスを受けた受付サーバー内に過去の操作ログも残っていたため、対象を7,582人へ見直した。外部流出の痕跡や事実は確認されていない。",
-  "published_on": "2026-07-24",
+  "published_on": "2026-05-08",
   "first_published_on": "2026-05-08",
-  "publication_kind": "followup",
+  "publication_kind": "initial",
   "occurred_on": null,
   "detected_on": null,
-  "updated_on": "2026-10-18",
+  "updated_on": "2026-10-26",
   "incident_type": "attack",
   "leak_status": "suspected",
   "impact": [
@@ -35,10 +35,23 @@
       "type": "official",
       "published_on": "2026-07-24",
       "checked_on": "2026-10-18"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2026/08/10/55899.html",
+      "title": "ジェイアール東海高島屋のアルバイトスタッフ管理システムに不正アクセス（初報5月8日を明記）",
+      "type": "news",
+      "published_on": "2026-08-10",
+      "checked_on": "2026-10-26"
     }
   ],
-  "notes": "",
-  "updates": [],
+  "notes": "2026年5月の遡及調査で掲載公表日を2026-07-24から2026-05-08へ変更。IDと後続の調査結果を保持。今回の公式サイトは停止案内のみ。ScanNetSecurityの続報で5月8日初報を照合。7月の対象7,582人は保持。",
+  "updates": [
+    {
+      "date": "2026-07-24",
+      "summary": "後続の公表：アルバイトスタッフ管理システム不正アクセスに関する追加調査結果のお知らせ | ジェイアール名古屋タカシマヤ。5月の公表を確認したため同一記録に保持。",
+      "source_index": 0
+    }
+  ],
   "verification": "official",
   "related_vendor": null
 }
