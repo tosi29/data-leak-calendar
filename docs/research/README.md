@@ -23,6 +23,8 @@
 
 - [更新見込みのある保留10候補の優先確認（2026-10-25）](../research-2026-10-25-priority-pending.md)
 
+- [保留候補の追加10件調査（2026-10-25）](../research-2026-10-25-priority-pending-2.md)
+
 ## 履歴と元データ
 
 - [過去の更新メモ](../update-history.md)：旧READMEの作業履歴。

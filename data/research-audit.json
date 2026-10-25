@@ -27765,6 +27765,253 @@
         }
       ],
       "limitations": "公表・検索で確認できた範囲。検索に出ないことは続報不存在の証明ではない。futureshopの23日公表案件は、21日候補との関連未確定につき独立登録。"
+    },
+    {
+      "checked_on": "2026-10-25",
+      "scope": "前回とは別の保留10候補の再確認。公表日未確定の自治体告知、企業続報、既存記録との照合。",
+      "stats": {
+        "reviewed_candidates": 10,
+        "added_incidents": 5,
+        "merged_candidates": 1,
+        "still_pending_reviewed_candidates": 4,
+        "total_incidents": 965,
+        "total_pending": 39
+      },
+      "added_incident_ids": [
+        "aomori-open-city-studio-20261019",
+        "hachinohe-net119-20261015",
+        "shimane-police-mikopi-20261015",
+        "toyoake-mimamori-20261014",
+        "imakane-raiden-20261014"
+      ],
+      "decisions": [
+        {
+          "candidate": {
+            "id": "cross-julaug-80b22a4248",
+            "organization": "日本テレネット",
+            "reported_on": "2026-10-18",
+            "verification": "pending",
+            "reference_url": "https://and-secure.com/2026/10/10/incident-report-2026-apr-sep/",
+            "note": "公式の6月12日調査結果を検索で確認。外部流出の痕跡・公開・悪用は未確認との内容。7月1日以降の提供元の続報は未発見で、対象期間に該当するかが未解決。",
+            "reviewed_on": "2026-10-23",
+            "checked_urls": [
+              "https://and-secure.com/2026/10/10/incident-report-2026-apr-sep/",
+              "https://www.nippon-tele.net/release/20260612_4659/"
+            ]
+          },
+          "resolution": "merged",
+          "reason": "6月12日公式原文を取得し掲載済み nippon-telenet-ransom-20260612 と同一事案と確認。対象期間が6月からに拡張済みのため、旧7・8月調査時の期間外懸念を解消。新規計上せず候補を統合。",
+          "source_urls": [
+            "https://www.nippon-tele.net/release/20260612_4675/"
+          ],
+          "incident_ids": [
+            "nippon-telenet-ransom-20260612"
+          ]
+        },
+        {
+          "candidate": {
+            "id": "cross-julaug-cc9b285dcc",
+            "organization": "01銀行",
+            "reported_on": "2026-10-18",
+            "verification": "pending",
+            "reference_url": "https://satimo.org/2026/10/data-breach-list-2026/",
+            "note": "公式資料を再取得。最大100社は企業数であり被害人数ではない。対象の識別子・メールアドレスと個人情報の関係は未確定。",
+            "reviewed_on": "2026-10-23",
+            "checked_urls": [
+              "https://satimo.org/2026/10/data-breach-list-2026/",
+              "https://01bank.co.jp/news/pdf/2026/0827.pdf"
+            ]
+          },
+          "resolution": "unresolved",
+          "reason": "8月27日公式PDFと公式ニュース一覧を再確認。顧客識別情報・メールアドレスの流出は確認済みだが、自然人の情報かは未特定。最大100社を個人情報件数・人数に換算せず保留。追加の調査結果は今回確認できず。",
+          "source_urls": [
+            "https://01bank.co.jp/news/pdf/2026/0827.pdf",
+            "https://01bank.co.jp/news/index.html"
+          ],
+          "incident_ids": []
+        },
+        {
+          "candidate": {
+            "id": "cross-julaug-78b6b332b6",
+            "organization": "日本スウェージロックFST",
+            "reported_on": "2026-10-18",
+            "verification": "pending",
+            "reference_url": "https://rocket-boys.co.jp/security-measures-lab/2026-08-data-breach-cases-summary/",
+            "note": "8月26日公表の報道を再検索。3月10日の攻撃発生と区別したが、公式旧URLは404で個人情報の対象範囲が未確認。",
+            "reviewed_on": "2026-10-23",
+            "checked_urls": [
+              "https://rocket-boys.co.jp/security-measures-lab/2026-08-data-breach-cases-summary/",
+              "https://scan.netsecurity.ne.jp/article/2026/09/11/56209.html",
+              "https://www.japan.swagelok.com/whatsnew/notice-of-march-2026-cyber-incident"
+            ]
+          },
+          "resolution": "unresolved",
+          "reason": "9月11日ScanNetSecurityの公開部分で8月26日発表と3月10日の攻撃を確認。リンク先の公式告知は404。個人情報漏えい等の可能性という告知名は確認できるが、従業員等の対象情報を原文で裏付けられず保留。",
+          "source_urls": [
+            "https://scan.netsecurity.ne.jp/article/2026/09/11/56209.html",
+            "https://www.japan.swagelok.com/whatsnew/notice-of-march-2026-cyber-incident"
+          ],
+          "incident_ids": []
+        },
+        {
+          "candidate": {
+            "id": "oct20-review-30",
+            "organization": "三井住友DSアセットマネジメント",
+            "reported_on": "2026-10-16",
+            "verification": "pending",
+            "reference_url": "https://www.smd-am.co.jp/news/news/2026/news_20261016/",
+            "note": "登録公式URLはサービス停止の案内のみとなっており、当初の告知本文を再取得できない。報道でも停止は確認できるが個人情報への影響は未確定。",
+            "reviewed_on": "2026-10-23",
+            "checked_urls": [
+              "https://www.smd-am.co.jp/news/news/2026/news_20261016/"
+            ]
+          },
+          "resolution": "unresolved",
+          "reason": "10月16日公式告知の本文を取得。取引委託先の不正アクセス検知による予防的停止と復旧を説明し、現時点で口座情報・取引への影響は未確認。個人情報流出の対象を示す新たな情報は得られず保留。",
+          "source_urls": [
+            "https://www.smd-am.co.jp/news/news/2026/news_20261016/"
+          ],
+          "incident_ids": []
+        },
+        {
+          "candidate": {
+            "id": "fortnight-pending-53",
+            "organization": "青森市（OPEN CITY AOMORI）",
+            "reported_on": "2026-10-23",
+            "verification": "pending",
+            "reference_url": "https://opencityaomori.studio.site/contact-1",
+            "reviewed_on": "2026-10-23",
+            "checked_urls": [
+              "https://opencityaomori.studio.site/contact-1"
+            ],
+            "note": "取得した公式ページと表示用JSONに対象告知の本文を確認できない。移転先または別の公式発表の確認が必要。"
+          },
+          "resolution": "published",
+          "reason": "公式本文と日付の裏付けを確認し掲載へ移行。JavaScript実行後の公式ページ本文で公表日と11件の対象を確認。添付ファイルの中身は含まれない。ページの共通メタデータにある2023年の日付を今回の公表日には使用しない。",
+          "source_urls": [
+            "https://opencityaomori.studio.site/contact-1"
+          ],
+          "incident_ids": [
+            "aomori-open-city-studio-20261019"
+          ]
+        },
+        {
+          "candidate": {
+            "id": "fortnight-pending-3f2974b7c3",
+            "organization": "稲沢市",
+            "reported_on": "2026-10-23",
+            "verification": "pending",
+            "reference_url": "https://www.city.inazawa.aichi.jp/0000006084.html",
+            "reviewed_on": "2026-10-23",
+            "checked_urls": [
+              "https://www.city.inazawa.aichi.jp/0000006084.html"
+            ],
+            "note": "集約サイト・検索から告知を発見。公式ページは本文未取得（表示用ページのみ、アクセスエラー等）。公表日と具体的な個人情報への影響は再確認が必要。reported_onは発見日。"
+          },
+          "resolution": "unresolved",
+          "reason": "公式原文を確認。10月13日公表の住基ネットへのテストデータ217件の誤送信。カード等失効や他自治体への通知誤送信25件・3件があるが、テストデータに実在個人の情報がどの範囲で含まれるかは未特定。217件を個人情報流出件数としない。掲載済みのNET119（59件）とは別事案。",
+          "source_urls": [
+            "https://www.city.inazawa.aichi.jp/0000006084.html",
+            "https://www.city.inazawa.aichi.jp/0000006091.html"
+          ],
+          "incident_ids": []
+        },
+        {
+          "candidate": {
+            "id": "continue-date-180",
+            "organization": "八戸地域広域市町村圏事務組合消防本部",
+            "reported_on": "2026-10-23",
+            "verification": "pending",
+            "reference_url": "https://www.city.hachinohe.aomori.jp/section/koiki/shobo/about/pdf/NET119tyuuikanki.pdf",
+            "reviewed_on": "2026-10-23",
+            "checked_urls": [
+              "https://www.city.hachinohe.aomori.jp/section/koiki/shobo/about/pdf/NET119tyuuikanki.pdf"
+            ],
+            "note": "公式本文で個人情報への影響を確認。公表日が確定できないため、カレンダーへの掲載は保留。reported_onは今回の確認日であり、公表日ではない。"
+          },
+          "resolution": "published",
+          "reason": "公式本文と日付の裏付けを確認し掲載へ移行。初報の公表日は公式お知らせ一覧で10月15日と確認。PDFの発生日記載を公表日に転用しない。第2報は同一案件に追記し別件として計上しない。119RAIDENの調査中分は46人に含めない。",
+          "source_urls": [
+            "https://www.city.hachinohe.aomori.jp/section/koiki/shobo/about/pdf/NET119tyuuikanki.pdf",
+            "https://www.city.hachinohe.aomori.jp/section/koiki/shobo/news.html",
+            "https://www.city.hachinohe.aomori.jp/section/koiki/shobo/about/pdf/chuuikannki2.pdf"
+          ],
+          "incident_ids": [
+            "hachinohe-net119-20261015"
+          ]
+        },
+        {
+          "candidate": {
+            "id": "continue-date-182",
+            "organization": "島根県警察",
+            "reported_on": "2026-10-23",
+            "verification": "pending",
+            "reference_url": "https://www.pref.shimane.lg.jp/police/emergency/mikopiteishi.html",
+            "reviewed_on": "2026-10-23",
+            "checked_urls": [
+              "https://www.pref.shimane.lg.jp/police/emergency/mikopiteishi.html"
+            ],
+            "note": "公式本文で個人情報への影響を確認。公表日が確定できないため、カレンダーへの掲載は保留。reported_onは今回の確認日であり、公表日ではない。"
+          },
+          "resolution": "published",
+          "reason": "公式本文と日付の裏付けを確認し掲載へ移行。県公式新着一覧で10月15日公表を確認。サービス停止日の10月13日を公表日には使用しない。",
+          "source_urls": [
+            "https://www.pref.shimane.lg.jp/police/emergency/mikopiteishi.html",
+            "https://www1.pref.shimane.lg.jp/top_news.html"
+          ],
+          "incident_ids": [
+            "shimane-police-mikopi-20261015"
+          ]
+        },
+        {
+          "candidate": {
+            "id": "continue-date-215",
+            "organization": "豊明市",
+            "reported_on": "2026-10-23",
+            "verification": "pending",
+            "reference_url": "https://www.city.toyoake.lg.jp/item/35428.htm",
+            "reviewed_on": "2026-10-23",
+            "checked_urls": [
+              "https://www.city.toyoake.lg.jp/item/35428.htm"
+            ],
+            "note": "公式本文で個人情報への影響を確認。公表日が確定できないため、カレンダーへの掲載は保留。reported_onは今回の確認日であり、公表日ではない。"
+          },
+          "resolution": "published",
+          "reason": "公式本文と日付の裏付けを確認し掲載へ移行。公式検索収録本文と長寿課一覧で10月14日公表を確認。事業者からの連絡・登録者への配信日13日と区別。",
+          "source_urls": [
+            "https://www.city.toyoake.lg.jp/item/35428.htm",
+            "https://www.city.toyoake.lg.jp/1087.htm"
+          ],
+          "incident_ids": [
+            "toyoake-mimamori-20261014"
+          ]
+        },
+        {
+          "candidate": {
+            "id": "continue-date-303",
+            "organization": "今金町",
+            "reported_on": "2026-10-23",
+            "verification": "pending",
+            "reference_url": "https://www.town.imakane.lg.jp/gyousei/gyousei_info/post_4953.html",
+            "reviewed_on": "2026-10-23",
+            "checked_urls": [
+              "https://www.town.imakane.lg.jp/gyousei/gyousei_info/post_4953.html"
+            ],
+            "note": "公式本文で個人情報への影響を確認。公表日が確定できないため、カレンダーへの掲載は保留。reported_onは今回の確認日であり、公表日ではない。"
+          },
+          "resolution": "published",
+          "reason": "公式本文と日付の裏付けを確認し掲載へ移行。公式一覧で初報10月14日、復旧告知16日を確認。停止13日・復旧15日と公表日を区別。サービス復旧を個人情報流出否定とは扱わない。",
+          "source_urls": [
+            "https://www.town.imakane.lg.jp/gyousei/gyousei_info/post_4953.html",
+            "https://www.town.imakane.lg.jp/gyousei/gyousei_info/",
+            "https://www.town.imakane.lg.jp/gyousei/gyousei_info/post_4956.html"
+          ],
+          "incident_ids": [
+            "imakane-raiden-20261014"
+          ]
+        }
+      ],
+      "limitations": "残る35候補は今回の再確認対象外。検索未発見を不存在とは扱わない。最大100社やテストデータ217件を個人情報人数・件数に転用しない。"
     }
   ],
   "daily_updates": [

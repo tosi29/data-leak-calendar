@@ -6349,5 +6349,126 @@
     "incident_ids": [
       "spiral-locas-20261022"
     ]
+  },
+  {
+    "candidate": {
+      "id": "fortnight-pending-53",
+      "organization": "青森市（OPEN CITY AOMORI）",
+      "reported_on": "2026-10-23",
+      "verification": "pending",
+      "reference_url": "https://opencityaomori.studio.site/contact-1",
+      "reviewed_on": "2026-10-23",
+      "checked_urls": [
+        "https://opencityaomori.studio.site/contact-1"
+      ],
+      "note": "取得した公式ページと表示用JSONに対象告知の本文を確認できない。移転先または別の公式発表の確認が必要。"
+    },
+    "reviewed_on": "2026-10-25",
+    "resolution": "published",
+    "reason": "公式本文と日付の裏付けを確認し掲載へ移行。JavaScript実行後の公式ページ本文で公表日と11件の対象を確認。添付ファイルの中身は含まれない。ページの共通メタデータにある2023年の日付を今回の公表日には使用しない。",
+    "source_urls": [
+      "https://opencityaomori.studio.site/contact-1"
+    ],
+    "incident_ids": [
+      "aomori-open-city-studio-20261019"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "continue-date-180",
+      "organization": "八戸地域広域市町村圏事務組合消防本部",
+      "reported_on": "2026-10-23",
+      "verification": "pending",
+      "reference_url": "https://www.city.hachinohe.aomori.jp/section/koiki/shobo/about/pdf/NET119tyuuikanki.pdf",
+      "reviewed_on": "2026-10-23",
+      "checked_urls": [
+        "https://www.city.hachinohe.aomori.jp/section/koiki/shobo/about/pdf/NET119tyuuikanki.pdf"
+      ],
+      "note": "公式本文で個人情報への影響を確認。公表日が確定できないため、カレンダーへの掲載は保留。reported_onは今回の確認日であり、公表日ではない。"
+    },
+    "reviewed_on": "2026-10-25",
+    "resolution": "published",
+    "reason": "公式本文と日付の裏付けを確認し掲載へ移行。初報の公表日は公式お知らせ一覧で10月15日と確認。PDFの発生日記載を公表日に転用しない。第2報は同一案件に追記し別件として計上しない。119RAIDENの調査中分は46人に含めない。",
+    "source_urls": [
+      "https://www.city.hachinohe.aomori.jp/section/koiki/shobo/about/pdf/NET119tyuuikanki.pdf",
+      "https://www.city.hachinohe.aomori.jp/section/koiki/shobo/news.html",
+      "https://www.city.hachinohe.aomori.jp/section/koiki/shobo/about/pdf/chuuikannki2.pdf"
+    ],
+    "incident_ids": [
+      "hachinohe-net119-20261015"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "continue-date-182",
+      "organization": "島根県警察",
+      "reported_on": "2026-10-23",
+      "verification": "pending",
+      "reference_url": "https://www.pref.shimane.lg.jp/police/emergency/mikopiteishi.html",
+      "reviewed_on": "2026-10-23",
+      "checked_urls": [
+        "https://www.pref.shimane.lg.jp/police/emergency/mikopiteishi.html"
+      ],
+      "note": "公式本文で個人情報への影響を確認。公表日が確定できないため、カレンダーへの掲載は保留。reported_onは今回の確認日であり、公表日ではない。"
+    },
+    "reviewed_on": "2026-10-25",
+    "resolution": "published",
+    "reason": "公式本文と日付の裏付けを確認し掲載へ移行。県公式新着一覧で10月15日公表を確認。サービス停止日の10月13日を公表日には使用しない。",
+    "source_urls": [
+      "https://www.pref.shimane.lg.jp/police/emergency/mikopiteishi.html",
+      "https://www1.pref.shimane.lg.jp/top_news.html"
+    ],
+    "incident_ids": [
+      "shimane-police-mikopi-20261015"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "continue-date-215",
+      "organization": "豊明市",
+      "reported_on": "2026-10-23",
+      "verification": "pending",
+      "reference_url": "https://www.city.toyoake.lg.jp/item/35428.htm",
+      "reviewed_on": "2026-10-23",
+      "checked_urls": [
+        "https://www.city.toyoake.lg.jp/item/35428.htm"
+      ],
+      "note": "公式本文で個人情報への影響を確認。公表日が確定できないため、カレンダーへの掲載は保留。reported_onは今回の確認日であり、公表日ではない。"
+    },
+    "reviewed_on": "2026-10-25",
+    "resolution": "published",
+    "reason": "公式本文と日付の裏付けを確認し掲載へ移行。公式検索収録本文と長寿課一覧で10月14日公表を確認。事業者からの連絡・登録者への配信日13日と区別。",
+    "source_urls": [
+      "https://www.city.toyoake.lg.jp/item/35428.htm",
+      "https://www.city.toyoake.lg.jp/1087.htm"
+    ],
+    "incident_ids": [
+      "toyoake-mimamori-20261014"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "continue-date-303",
+      "organization": "今金町",
+      "reported_on": "2026-10-23",
+      "verification": "pending",
+      "reference_url": "https://www.town.imakane.lg.jp/gyousei/gyousei_info/post_4953.html",
+      "reviewed_on": "2026-10-23",
+      "checked_urls": [
+        "https://www.town.imakane.lg.jp/gyousei/gyousei_info/post_4953.html"
+      ],
+      "note": "公式本文で個人情報への影響を確認。公表日が確定できないため、カレンダーへの掲載は保留。reported_onは今回の確認日であり、公表日ではない。"
+    },
+    "reviewed_on": "2026-10-25",
+    "resolution": "published",
+    "reason": "公式本文と日付の裏付けを確認し掲載へ移行。公式一覧で初報10月14日、復旧告知16日を確認。停止13日・復旧15日と公表日を区別。サービス復旧を個人情報流出否定とは扱わない。",
+    "source_urls": [
+      "https://www.town.imakane.lg.jp/gyousei/gyousei_info/post_4953.html",
+      "https://www.town.imakane.lg.jp/gyousei/gyousei_info/",
+      "https://www.town.imakane.lg.jp/gyousei/gyousei_info/post_4956.html"
+    ],
+    "incident_ids": [
+      "imakane-raiden-20261014"
+    ]
   }
 ]

@@ -1,0 +1,61 @@
+{
+  "id": "shimane-police-mikopi-20261015",
+  "organization": {
+    "name": "島根県警察",
+    "sector": "行政・自治体"
+  },
+  "title": "みこぴー安全メール登録情報が漏えいした可能性",
+  "summary": "提供元の不正アクセスに伴い配信等を停止。県警分の流出・悪用は現時点で未確認。",
+  "published_on": "2026-10-15",
+  "first_published_on": "2026-10-15",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-25",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "利用サービス提供元への第三者の不正アクセス。具体的な侵入手法は未確定。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "対象件数は未公表。"
+    }
+  ],
+  "data_types": [
+    "登録者の個人情報（具体的な項目は未公表）"
+  ],
+  "related_vendor": "アルカディア",
+  "sources": [
+    {
+      "url": "https://www.pref.shimane.lg.jp/police/emergency/mikopiteishi.html",
+      "title": "みこぴー安全メール登録情報が漏えいした可能性",
+      "type": "official",
+      "published_on": "2026-10-15",
+      "checked_on": "2026-10-25"
+    },
+    {
+      "url": "https://www1.pref.shimane.lg.jp/top_news.html",
+      "title": "県公式新着一覧（みこぴー安全メール告知）",
+      "type": "official",
+      "published_on": "2026-10-15",
+      "checked_on": "2026-10-25"
+    }
+  ],
+  "updates": [],
+  "notes": "県公式新着一覧で10月15日公表を確認。サービス停止日の10月13日を公表日には使用しない。",
+  "vendors": [
+    {
+      "name": "アルカディア",
+      "role": "service",
+      "detail": "対象サービスの提供元。",
+      "source_index": 0
+    }
+  ]
+}

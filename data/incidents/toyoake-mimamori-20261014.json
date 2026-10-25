@@ -1,0 +1,65 @@
+{
+  "id": "toyoake-mimamori-20261014",
+  "organization": {
+    "name": "豊明市",
+    "sector": "行政・自治体"
+  },
+  "title": "見守りネットワーカー580人の登録情報が漏えいした可能性",
+  "summary": "高齢者見守りネットワークの登録情報と保存された配信本文が対象。",
+  "published_on": "2026-10-14",
+  "first_published_on": "2026-10-14",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-25",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "利用サービス提供元への第三者の不正アクセス。具体的な侵入手法は未確定。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 580,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "漏えいの可能性がある登録情報。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "電話番号",
+    "FAX番号",
+    "登録町名等",
+    "配信本文"
+  ],
+  "related_vendor": "アルカディア",
+  "sources": [
+    {
+      "url": "https://www.city.toyoake.lg.jp/item/35428.htm",
+      "title": "見守りネットワーカー580人の登録情報が漏えいした可能性",
+      "type": "official",
+      "published_on": "2026-10-14",
+      "checked_on": "2026-10-25"
+    },
+    {
+      "url": "https://www.city.toyoake.lg.jp/1087.htm",
+      "title": "長寿課のお知らせ一覧",
+      "type": "official",
+      "published_on": "2026-10-14",
+      "checked_on": "2026-10-25"
+    }
+  ],
+  "updates": [],
+  "notes": "公式検索収録本文と長寿課一覧で10月14日公表を確認。事業者からの連絡・登録者への配信日13日と区別。",
+  "vendors": [
+    {
+      "name": "アルカディア",
+      "role": "service",
+      "detail": "対象サービスの提供元。",
+      "source_index": 0
+    }
+  ]
+}

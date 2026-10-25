@@ -11,7 +11,7 @@
   "publication_kind": "followup",
   "occurred_on": "2026-03-09",
   "detected_on": null,
-  "updated_on": "2026-10-23",
+  "updated_on": "2026-10-25",
   "verification": "official",
   "leak_status": "suspected",
   "incident_type": "attack",
@@ -62,7 +62,7 @@
       "type": "official",
       "title": "サイバー攻撃によるシステム障害発生について - 日本テレネット株式会社",
       "published_on": "2026-06-12",
-      "checked_on": "2026-10-23"
+      "checked_on": "2026-10-25"
     }
   ],
   "updates": [],

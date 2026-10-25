@@ -1,0 +1,81 @@
+{
+  "id": "hachinohe-net119-20261015",
+  "organization": {
+    "name": "八戸地域広域市町村圏事務組合消防本部",
+    "sector": "行政・自治体"
+  },
+  "title": "NET119登録者等の個人情報が漏えいした可能性",
+  "summary": "10月23日の第2報で当初63人のうち19人は流出なし、元登録者2人を追加。119RAIDENは引き続き調査中。",
+  "published_on": "2026-10-15",
+  "first_published_on": "2026-10-15",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-25",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "利用サービス提供元への第三者の不正アクセス。具体的な侵入手法は未確定。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 46,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "NET119の対象46人（公表内訳63−19＋2から算出）。実際の流出人数の確定値ではない。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "生年月日",
+    "性別",
+    "住所",
+    "電話番号",
+    "メールアドレス",
+    "FAX番号",
+    "障がいの内容"
+  ],
+  "related_vendor": "アルカディア",
+  "sources": [
+    {
+      "url": "https://www.city.hachinohe.aomori.jp/section/koiki/shobo/about/pdf/NET119tyuuikanki.pdf",
+      "title": "NET119登録者等の個人情報が漏えいした可能性",
+      "type": "official",
+      "published_on": "2026-10-15",
+      "checked_on": "2026-10-25"
+    },
+    {
+      "url": "https://www.city.hachinohe.aomori.jp/section/koiki/shobo/news.html",
+      "title": "公式お知らせ一覧（初報15日・第2報23日）",
+      "type": "official",
+      "published_on": "2026-10-23",
+      "checked_on": "2026-10-25"
+    },
+    {
+      "url": "https://www.city.hachinohe.aomori.jp/section/koiki/shobo/about/pdf/chuuikannki2.pdf",
+      "title": "NET119緊急通報システムへの不正アクセスについて（第2報）",
+      "type": "official",
+      "published_on": "2026-10-23",
+      "checked_on": "2026-10-25"
+    }
+  ],
+  "updates": [
+    {
+      "date": "2026-10-23",
+      "summary": "NET119の対象は当初63人から流出なしの19人を除外し、元登録者2人を追加（算出46人）。119RAIDENは調査中。",
+      "source_index": 2
+    }
+  ],
+  "notes": "初報の公表日は公式お知らせ一覧で10月15日と確認。PDFの発生日記載を公表日に転用しない。第2報は同一案件に追記し別件として計上しない。119RAIDENの調査中分は46人に含めない。",
+  "vendors": [
+    {
+      "name": "アルカディア",
+      "role": "service",
+      "detail": "対象サービスの提供元。",
+      "source_index": 0
+    }
+  ]
+}

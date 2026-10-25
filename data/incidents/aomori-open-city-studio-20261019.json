@@ -1,0 +1,62 @@
+{
+  "id": "aomori-open-city-studio-20261019",
+  "organization": {
+    "name": "青森市（OPEN CITY AOMORI）",
+    "sector": "行政・自治体"
+  },
+  "title": "提案フォーム11件の情報が漏えいした可能性",
+  "summary": "2023年7月〜2024年1月の特定期間に受け付けた提案が対象。",
+  "published_on": "2026-10-19",
+  "first_published_on": "2026-10-19",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-25",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "利用サービス提供元への第三者の不正アクセス。具体的な侵入手法は未確定。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 11,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "漏えいの可能性がある登録情報。"
+    }
+  ],
+  "data_types": [
+    "企業・団体名",
+    "部署・役職",
+    "担当者名",
+    "所在地",
+    "電話番号",
+    "メールアドレス",
+    "件名",
+    "提案内容",
+    "添付ファイル名"
+  ],
+  "related_vendor": "Studio",
+  "sources": [
+    {
+      "url": "https://opencityaomori.studio.site/contact-1",
+      "title": "提案フォーム11件の情報が漏えいした可能性",
+      "type": "official",
+      "published_on": "2026-10-19",
+      "checked_on": "2026-10-25"
+    }
+  ],
+  "updates": [],
+  "notes": "JavaScript実行後の公式ページ本文で公表日と11件の対象を確認。添付ファイルの中身は含まれない。ページの共通メタデータにある2023年の日付を今回の公表日には使用しない。",
+  "vendors": [
+    {
+      "name": "Studio",
+      "role": "service",
+      "detail": "対象サービスの提供元。",
+      "source_index": 0
+    }
+  ]
+}

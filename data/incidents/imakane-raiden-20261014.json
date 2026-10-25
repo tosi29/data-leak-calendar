@@ -1,0 +1,74 @@
+{
+  "id": "imakane-raiden-20261014",
+  "organization": {
+    "name": "今金町",
+    "sector": "行政・自治体"
+  },
+  "title": "緊急情報一斉伝達システムで個人情報が漏えいした可能性",
+  "summary": "SpeeCAN RAIDENへの不正アクセスに伴い配信を停止。町への具体的な影響範囲は調査中。",
+  "published_on": "2026-10-14",
+  "first_published_on": "2026-10-14",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-25",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "利用サービス提供元への第三者の不正アクセス。具体的な侵入手法は未確定。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "対象件数は未公表。"
+    }
+  ],
+  "data_types": [
+    "登録者の個人情報（具体的な項目は未公表）"
+  ],
+  "related_vendor": "アルカディア",
+  "sources": [
+    {
+      "url": "https://www.town.imakane.lg.jp/gyousei/gyousei_info/post_4953.html",
+      "title": "緊急情報一斉伝達システムで個人情報が漏えいした可能性",
+      "type": "official",
+      "published_on": "2026-10-14",
+      "checked_on": "2026-10-25"
+    },
+    {
+      "url": "https://www.town.imakane.lg.jp/gyousei/gyousei_info/",
+      "title": "行政からのお知らせ一覧",
+      "type": "official",
+      "published_on": "2026-10-16",
+      "checked_on": "2026-10-25"
+    },
+    {
+      "url": "https://www.town.imakane.lg.jp/gyousei/gyousei_info/post_4956.html",
+      "title": "緊急情報一斉伝達システム配信サービスの復旧完了について",
+      "type": "official",
+      "published_on": "2026-10-16",
+      "checked_on": "2026-10-25"
+    }
+  ],
+  "updates": [
+    {
+      "date": "2026-10-16",
+      "summary": "15日15時頃の配信サービス復旧を公表。不審な連絡への注意喚起を継続。",
+      "source_index": 2
+    }
+  ],
+  "notes": "公式一覧で初報10月14日、復旧告知16日を確認。停止13日・復旧15日と公表日を区別。サービス復旧を個人情報流出否定とは扱わない。",
+  "vendors": [
+    {
+      "name": "アルカディア",
+      "role": "service",
+      "detail": "対象サービスの提供元。",
+      "source_index": 0
+    }
+  ]
+}
