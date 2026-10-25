@@ -27519,6 +27519,252 @@
         "検索収録本文・二次資料の確認を公式PDF本文の取得成功とは扱わない。",
         "6月全件の網羅性を保証する調査ではない。"
       ]
+    },
+    {
+      "checked_on": "2026-10-25",
+      "scope": "更新の見込みがある保留10候補を優先確認。残る39候補は今回未再調査。",
+      "stats": {
+        "reviewed_candidates": 10,
+        "published_candidates": 3,
+        "excluded_candidates": 1,
+        "still_pending_reviewed_candidates": 6,
+        "added_incidents": 4,
+        "total_incidents": 960,
+        "total_pending": 45
+      },
+      "added_incident_ids": [
+        "daytona-blastmail-20261022",
+        "njpw-blastmail-20261022",
+        "spiral-locas-20261022",
+        "futureshop-member-20261023"
+      ],
+      "decisions": [
+        {
+          "candidate": {
+            "id": "research-20261014-avex-sumapura",
+            "organization": "エイベックス（スマプラ）",
+            "reported_on": "2026-10-14",
+            "verification": "pending",
+            "reference_url": "https://sp-movie.jp/",
+            "note": "公式サイトと続報を再検索。サービス障害・再開情報は確認できるが、個人情報の対象と公表日の組合せを確定できず。第二報の日時・対象情報の照合が必要。",
+            "reviewed_on": "2026-10-23",
+            "checked_urls": [
+              "https://sp-movie.jp/",
+              "https://sp-movie.jp/qa",
+              "https://sp-movie.jp/info/id/29"
+            ]
+          },
+          "resolution": "excluded",
+          "reason": "公式の再開告知でメールアドレス・パスワードの外部流出なしと明記。10月20日にサービス再開。個人情報漏えい案件としては掲載せず保留を解消。",
+          "source_urls": [
+            "https://sp-movie.jp/info/id/48"
+          ],
+          "incident_ids": []
+        },
+        {
+          "candidate": {
+            "id": "research-papyless-renta-20261019",
+            "organization": "パピレス（Renta!）",
+            "reported_on": "2026-10-19",
+            "verification": "pending",
+            "reference_url": "https://www.itmedia.co.jp/news/article/2610/19/2000002379/",
+            "note": "10月21日の公式告知と続報検索を再確認。不正アクセスの可能性・サービス停止の説明はあるが、個人情報の漏えい有無や対象項目は確定していない。",
+            "reviewed_on": "2026-10-23",
+            "checked_urls": [
+              "https://www.itmedia.co.jp/news/article/2610/19/2000002379/",
+              "https://renta.papy.co.jp/renta/sc/frm/info/?id=202610_u_991",
+              "https://ufocatch.com/document/TD2026101900023",
+              "https://gamebiz.jp/news/434271",
+              "https://papy.co.jp/ir/sc/index/ir_news.html",
+              "https://papy.co.jp/news/sc/index/article/2026/20261021.html"
+            ]
+          },
+          "resolution": "unresolved",
+          "reason": "10月21日公式告知を再確認。影響範囲は精査中で、個人情報の対象・漏えい有無を示す追加公表は今回の検索で確認できず。",
+          "source_urls": [
+            "https://papy.co.jp/news/sc/index/article/2026/20261021.html"
+          ],
+          "incident_ids": []
+        },
+        {
+          "candidate": {
+            "id": "oct21-review-futureshop",
+            "organization": "フューチャーショップ",
+            "reported_on": "2026-10-21",
+            "verification": "pending",
+            "reference_url": "https://www.future-shop.jp/news/2026/10/21.html",
+            "note": "10月21日の公式第一報を再取得。対象はc02・c05・c12・g06。影響範囲は調査中で、サービス再開案内だけでは個人情報漏えいを確定できない。",
+            "reviewed_on": "2026-10-23",
+            "checked_urls": [
+              "https://www.future-shop.jp/news/2026/10/21.html"
+            ]
+          },
+          "resolution": "unresolved",
+          "reason": "10月22日第二報では21日検知の攻撃について個人情報の閲覧・取得の痕跡なし。23日公表の314万7469件流出は17日侵入・19日検知という別の時系列で、関係が明記されていないため同一事案と断定せず、21日分は保留継続。",
+          "source_urls": [
+            "https://www.future-shop.jp/news/2026/10/22.html",
+            "https://www.future-shop.jp/news/2026/10/23.html"
+          ],
+          "incident_ids": []
+        },
+        {
+          "candidate": {
+            "id": "oct21-review-hokan",
+            "organization": "hokan（hokan出納）",
+            "reported_on": "2026-10-19",
+            "verification": "pending",
+            "reference_url": "https://www.corp.hkn.jp/news/category/press/261019",
+            "note": "公式第一報を検索インデックスで再確認（直接取得404）。2社のデータ取得との説明だけでは個人情報の具体的対象が確定しない。",
+            "reviewed_on": "2026-10-23",
+            "checked_urls": [
+              "https://www.corp.hkn.jp/news/category/press/261019"
+            ]
+          },
+          "resolution": "unresolved",
+          "reason": "10月19日公式第一報の検索収録本文を確認。2社の情報流出は確認済みだが、個人情報の具体的な対象項目は未確定。公式一覧には23日のサイト再開案内があるが、出納の漏えい範囲確定とは扱わない。",
+          "source_urls": [
+            "https://www.corp.hkn.jp/news/category/press/261019",
+            "https://www.corp.hkn.jp/"
+          ],
+          "incident_ids": []
+        },
+        {
+          "candidate": {
+            "id": "oct21-review-aeon",
+            "organization": "イオン",
+            "reported_on": "2026-10-21",
+            "verification": "pending",
+            "reference_url": "https://www.aeon.info/wp-content/uploads/news/important/pdf/2026/10/261021R_2.pdf",
+            "note": "10月21日の公式PDFは直接取得403。報道の13社42サイトは組織・サイト数であり個人情報件数ではない。漏えい有無の調査結果待ち。",
+            "reviewed_on": "2026-10-23",
+            "checked_urls": [
+              "https://www.aeon.info/wp-content/uploads/news/important/pdf/2026/10/261021R_2.pdf"
+            ]
+          },
+          "resolution": "unresolved",
+          "reason": "公式重要告知一覧の最新関連告知は10月21日。PDFは直接取得403が継続。13社42サイトを個人情報件数とせず、個人情報への影響を確定する続報待ち。",
+          "source_urls": [
+            "https://www.aeon.info/important/"
+          ],
+          "incident_ids": []
+        },
+        {
+          "candidate": {
+            "id": "oct22-review-shinryo",
+            "organization": "新菱冷熱工業",
+            "reported_on": "2026-10-21",
+            "verification": "pending",
+            "reference_url": "https://rocket-boys.co.jp/security-measures-lab/shinryo_cyberattack_system_outage_20261022/",
+            "note": "10月21日の発表を扱う報道を再確認。10月17日の攻撃・システム障害と、個人情報の流出は区別。具体的な個人情報への影響は続報待ち。",
+            "reviewed_on": "2026-10-23",
+            "checked_urls": [
+              "https://rocket-boys.co.jp/security-measures-lab/shinryo_cyberattack_system_outage_20261022/"
+            ]
+          },
+          "resolution": "unresolved",
+          "reason": "10月21日公式原文を確認。現時点で個人情報・顧客データの外部流出は未確認、調査継続との説明。公式ニュース一覧でも追加結果を確認できず、最終的な流出否定とは扱わない。",
+          "source_urls": [
+            "https://www.shinryo.com/news/20261021.html",
+            "https://www.shinryo.com/news/"
+          ],
+          "incident_ids": []
+        },
+        {
+          "candidate": {
+            "id": "fortnight-pending-a41c704562",
+            "organization": "新日本プロレス",
+            "reported_on": "2026-10-23",
+            "verification": "pending",
+            "reference_url": "https://www.njpw.co.jp/677223",
+            "reviewed_on": "2026-10-23",
+            "checked_urls": [
+              "https://www.njpw.co.jp/677223"
+            ],
+            "note": "集約サイト・検索から告知を発見。公式ページは本文未取得（表示用ページのみ、アクセスエラー等）。公表日と具体的な個人情報への影響は再確認が必要。reported_onは発見日。"
+          },
+          "resolution": "published",
+          "reason": "公表日を10月22日と確認し、個人情報への具体的影響を確認したため掲載へ移行。10月22日付スポニチ報道で同日の公式発表と対象情報を確認。公式ページ https://www.njpw.co.jp/677223 は表示用ページのみ取得でき、本文は未取得。Team NJPWのメールマガジンは別システムで対象外。",
+          "source_urls": [
+            "https://news.livedoor.com/article/detail/32629491/"
+          ],
+          "incident_ids": [
+            "njpw-blastmail-20261022"
+          ]
+        },
+        {
+          "candidate": {
+            "id": "fortnight-pending-ddd593ddae",
+            "organization": "デイトナ",
+            "reported_on": "2026-10-23",
+            "verification": "pending",
+            "reference_url": "https://www.daytona.co.jp/news/detail/653/",
+            "reviewed_on": "2026-10-23",
+            "checked_urls": [
+              "https://www.daytona.co.jp/news/detail/653/"
+            ],
+            "note": "集約サイト・検索から告知を発見。公式ページは本文未取得（表示用ページのみ、アクセスエラー等）。公表日と具体的な個人情報への影響は再確認が必要。reported_onは発見日。"
+          },
+          "resolution": "published",
+          "reason": "公表日を10月22日と確認し、個人情報への具体的影響を確認したため掲載へ移行。公式ページの検索収録本文で日付・対象情報を確認。直接取得は403。DIOSの受発注・在庫照会は別システムで影響なし。",
+          "source_urls": [
+            "https://www.daytona.co.jp/news/detail/653/"
+          ],
+          "incident_ids": [
+            "daytona-blastmail-20261022"
+          ]
+        },
+        {
+          "candidate": {
+            "id": "oct23-review-spiral-locas",
+            "organization": "スパイラルローキャス（職員参集システム）",
+            "reported_on": "2026-10-23",
+            "verification": "pending",
+            "reference_url": "https://news.livedoor.com/article/detail/32639288/",
+            "reviewed_on": "2026-10-23",
+            "checked_urls": [
+              "https://news.livedoor.com/article/detail/32639288/",
+              "https://spiral-locas.co.jp/",
+              "https://ai.itokoba.com/security-tier/incidents/incident-493/"
+            ],
+            "note": "共同通信の10月23日記事で2自治体・約3千件の漏えいのおそれを確認。別記事は公式公表10月22日とするが、公式サイトは本文・リンクを取得できず、公式原文と公表日の照合を保留。650自治体を被害先数にしない。"
+          },
+          "resolution": "published",
+          "reason": "公表日を10月22日と確認し、個人情報への具体的影響を確認したため掲載へ移行。公式告知の検索収録本文で10月22日公表を確認。発生期間は10月20日夜間〜21日早朝。2件は顧客環境数であり個人情報件数ではない。約650自治体を被害先数としない。",
+          "source_urls": [
+            "https://spiral-locas.co.jp/news/hFSe1IFH"
+          ],
+          "incident_ids": [
+            "spiral-locas-20261022"
+          ]
+        },
+        {
+          "candidate": {
+            "id": "june-review-fcb67e3f069b",
+            "organization": "中央紙器工業",
+            "reported_on": "2026-06-04",
+            "verification": "pending",
+            "reference_url": "https://www.security-next.com/185324",
+            "note": "9月24日の最終報告と個人データへの影響を記す二次資料、新たな公式PDFリンクを発見。公式PDFはHTTP 503／接続不能で本文未確認。6月の公表日と対象情報の一次裏付けを引き続き要確認。二次資料の記載を漏えい確定として計上しない。",
+            "reviewed_on": "2026-10-24",
+            "checked_urls": [
+              "https://www.security-next.com/185324",
+              "https://www.onebe.co.jp/dlpnews/?p=34887",
+              "http://www.mcpack.co.jp/news/file/97ccc7231e5e5a757a5da0e9ba15c6e74dc39545.pdf",
+              "https://humanhacker.ai/media/summary/",
+              "https://openbizgraph.com/ja/detail/10546",
+              "http://www.mcpack.co.jp/news/file/64ef5c4b14c0e7c2fb2e3d03823d13a74a2f9df1.pdf"
+            ]
+          },
+          "resolution": "unresolved",
+          "reason": "9月24日最終報告とされる公式PDFを再取得したが503。二次資料の個人データへの影響について一次資料の裏付けは得られず、保留継続。",
+          "source_urls": [
+            "http://www.mcpack.co.jp/news/file/64ef5c4b14c0e7c2fb2e3d03823d13a74a2f9df1.pdf",
+            "https://www.security-next.com/185324"
+          ],
+          "incident_ids": []
+        }
+      ],
+      "limitations": "公表・検索で確認できた範囲。検索に出ないことは続報不存在の証明ではない。futureshopの23日公表案件は、21日候補との関連未確定につき独立登録。"
     }
   ],
   "daily_updates": [

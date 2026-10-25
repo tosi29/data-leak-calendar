@@ -1,0 +1,57 @@
+{
+  "id": "daytona-blastmail-20261022",
+  "organization": {
+    "name": "デイトナ",
+    "sector": "企業・団体"
+  },
+  "title": "メール配信先の担当者情報が漏えいした可能性",
+  "summary": "DIOS登録取引先と2026年茶ミーティング出展社の配信先情報が対象。デイトナ分の漏えいは未確認。",
+  "published_on": "2026-10-22",
+  "first_published_on": "2026-10-22",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-25",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "委託先ブラストメールへの第三者の不正アクセス。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "対象件数は未公表。"
+    }
+  ],
+  "data_types": [
+    "会社名",
+    "担当者名",
+    "Bコード",
+    "メールアドレス"
+  ],
+  "related_vendor": "ラクスライトクラウド（ブラストメール）",
+  "sources": [
+    {
+      "url": "https://www.daytona.co.jp/news/detail/653/",
+      "type": "official",
+      "title": "メール配信先の担当者情報が漏えいした可能性",
+      "published_on": "2026-10-22",
+      "checked_on": "2026-10-25"
+    }
+  ],
+  "updates": [],
+  "notes": "公式ページの検索収録本文で日付・対象情報を確認。直接取得は403。DIOSの受発注・在庫照会は別システムで影響なし。",
+  "vendors": [
+    {
+      "name": "ラクスライトクラウド",
+      "role": "service",
+      "detail": "メール配信サービス「ブラストメール」の提供元。",
+      "source_index": 0
+    }
+  ]
+}

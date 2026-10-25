@@ -1,0 +1,47 @@
+{
+  "id": "spiral-locas-20261022",
+  "organization": {
+    "name": "スパイラルローキャス（職員参集システム）",
+    "sector": "企業・団体"
+  },
+  "title": "職員参集システムの約3,000件が漏えいした可能性",
+  "summary": "2顧客の管理画面への不正ログインを確認。登録者の氏名・所属情報等が対象。",
+  "published_on": "2026-10-22",
+  "first_published_on": "2026-10-22",
+  "publication_kind": "initial",
+  "occurred_on": "2026-10-20",
+  "detected_on": null,
+  "updated_on": "2026-10-25",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 3000,
+      "unit": "records",
+      "qualifier": "approximate",
+      "description": "職員参集システムの約3,000件が漏えいした可能性"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "所属情報等"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://spiral-locas.co.jp/news/hFSe1IFH",
+      "type": "official",
+      "title": "職員参集システムの約3,000件が漏えいした可能性",
+      "published_on": "2026-10-22",
+      "checked_on": "2026-10-25"
+    }
+  ],
+  "updates": [],
+  "notes": "公式告知の検索収録本文で10月22日公表を確認。発生期間は10月20日夜間〜21日早朝。2件は顧客環境数であり個人情報件数ではない。約650自治体を被害先数としない。"
+}

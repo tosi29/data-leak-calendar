@@ -1,0 +1,56 @@
+{
+  "id": "futureshop-member-20261023",
+  "organization": {
+    "name": "フューチャーショップ",
+    "sector": "企業・団体"
+  },
+  "title": "1店舗の会員情報3,147,469件の漏えいを確認",
+  "summary": "10月17日の侵入後、18日に会員情報が取得され、19日に不審なアクセスを検知。",
+  "published_on": "2026-10-23",
+  "first_published_on": "2026-10-23",
+  "publication_kind": "initial",
+  "occurred_on": "2026-10-17",
+  "detected_on": "2026-10-19",
+  "updated_on": "2026-10-25",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "vulnerability",
+    "detail": "futureshopサーバーで使用するソフトウェアの脆弱性の悪用。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 3147469,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "1店舗の会員情報3,147,469件の漏えいを確認"
+    }
+  ],
+  "data_types": [
+    "会員ID",
+    "氏名",
+    "メールアドレス",
+    "住所",
+    "生年月日",
+    "電話番号",
+    "性別",
+    "メールマガジン受信設定",
+    "登録店舗情報",
+    "ハッシュ化済みパスワード",
+    "その他会員情報"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.future-shop.jp/news/2026/10/23.html",
+      "type": "official",
+      "title": "1店舗の会員情報3,147,469件の漏えいを確認",
+      "published_on": "2026-10-23",
+      "checked_on": "2026-10-25"
+    }
+  ],
+  "updates": [],
+  "notes": "対象店舗名は未公表。クレジットカード情報は対象外。10月21日検知の障害とは時系列が異なり、公式に関連は明記されていないため、21日の保留候補をこの公表で解消しない。10月8日のIDCF関連メールサービス事案とも区別。"
+}

@@ -6278,5 +6278,76 @@
       "kindai-pharmacy-drive-20260625",
       "osaka-nta-fake-police-20260619"
     ]
+  },
+  {
+    "candidate": {
+      "id": "fortnight-pending-a41c704562",
+      "organization": "新日本プロレス",
+      "reported_on": "2026-10-23",
+      "verification": "pending",
+      "reference_url": "https://www.njpw.co.jp/677223",
+      "reviewed_on": "2026-10-23",
+      "checked_urls": [
+        "https://www.njpw.co.jp/677223"
+      ],
+      "note": "集約サイト・検索から告知を発見。公式ページは本文未取得（表示用ページのみ、アクセスエラー等）。公表日と具体的な個人情報への影響は再確認が必要。reported_onは発見日。"
+    },
+    "reviewed_on": "2026-10-25",
+    "resolution": "published",
+    "reason": "公表日を10月22日と確認し、個人情報への具体的影響を確認したため掲載へ移行。10月22日付スポニチ報道で同日の公式発表と対象情報を確認。公式ページ https://www.njpw.co.jp/677223 は表示用ページのみ取得でき、本文は未取得。Team NJPWのメールマガジンは別システムで対象外。",
+    "source_urls": [
+      "https://news.livedoor.com/article/detail/32629491/"
+    ],
+    "incident_ids": [
+      "njpw-blastmail-20261022"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "fortnight-pending-ddd593ddae",
+      "organization": "デイトナ",
+      "reported_on": "2026-10-23",
+      "verification": "pending",
+      "reference_url": "https://www.daytona.co.jp/news/detail/653/",
+      "reviewed_on": "2026-10-23",
+      "checked_urls": [
+        "https://www.daytona.co.jp/news/detail/653/"
+      ],
+      "note": "集約サイト・検索から告知を発見。公式ページは本文未取得（表示用ページのみ、アクセスエラー等）。公表日と具体的な個人情報への影響は再確認が必要。reported_onは発見日。"
+    },
+    "reviewed_on": "2026-10-25",
+    "resolution": "published",
+    "reason": "公表日を10月22日と確認し、個人情報への具体的影響を確認したため掲載へ移行。公式ページの検索収録本文で日付・対象情報を確認。直接取得は403。DIOSの受発注・在庫照会は別システムで影響なし。",
+    "source_urls": [
+      "https://www.daytona.co.jp/news/detail/653/"
+    ],
+    "incident_ids": [
+      "daytona-blastmail-20261022"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "oct23-review-spiral-locas",
+      "organization": "スパイラルローキャス（職員参集システム）",
+      "reported_on": "2026-10-23",
+      "verification": "pending",
+      "reference_url": "https://news.livedoor.com/article/detail/32639288/",
+      "reviewed_on": "2026-10-23",
+      "checked_urls": [
+        "https://news.livedoor.com/article/detail/32639288/",
+        "https://spiral-locas.co.jp/",
+        "https://ai.itokoba.com/security-tier/incidents/incident-493/"
+      ],
+      "note": "共同通信の10月23日記事で2自治体・約3千件の漏えいのおそれを確認。別記事は公式公表10月22日とするが、公式サイトは本文・リンクを取得できず、公式原文と公表日の照合を保留。650自治体を被害先数にしない。"
+    },
+    "reviewed_on": "2026-10-25",
+    "resolution": "published",
+    "reason": "公表日を10月22日と確認し、個人情報への具体的影響を確認したため掲載へ移行。公式告知の検索収録本文で10月22日公表を確認。発生期間は10月20日夜間〜21日早朝。2件は顧客環境数であり個人情報件数ではない。約650自治体を被害先数としない。",
+    "source_urls": [
+      "https://spiral-locas.co.jp/news/hFSe1IFH"
+    ],
+    "incident_ids": [
+      "spiral-locas-20261022"
+    ]
   }
 ]
