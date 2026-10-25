@@ -89,7 +89,7 @@ function render() {
   renderCalendar(base);
   const year = $('year').value;
   renderImpactChart($('impact-chart'), base, {
-    unit: $('impact-unit').value, mode: $('impact-mode').value,
+    unit: $('impact-unit').value,
     start: data.meta.coverage_start > `${year}-01-01` ? data.meta.coverage_start : `${year}-01-01`,
     end: data.meta.as_of < `${year}-12-31` ? data.meta.as_of : `${year}-12-31`,
   });
@@ -147,7 +147,7 @@ try {
   for(const field of [...fields,'year']) if(params.has(field)) {const value=params.get(field);if(field==='query'||[...$(field).options].some(o=>o.value===value)) $(field).value=value;}
   const date = params.get('date');
   if(date && yearCells(Number(date.slice(0,4)),data.meta.coverage_start,data.meta.as_of).some(c=>c.active&&c.date===date)){selectedDate=date;$('year').value=date.slice(0,4);}
-  for (const id of ['impact-unit', 'impact-mode']) $(id).addEventListener('change', render);
+  $('impact-unit').addEventListener('change', render);
   $('filters').addEventListener('submit',event=>event.preventDefault());
   for(const field of fields) $(field).addEventListener(field==='query'?'input':'change',()=>{selectedDate='';render();});
   $('year').addEventListener('change',()=>{selectedDate='';render();});
