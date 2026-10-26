@@ -1,0 +1,71 @@
+{
+  "id": "loglass-blastmail-20261023",
+  "organization": {
+    "name": "ログラス",
+    "sector": "企業・団体"
+  },
+  "title": "障害告知メールの配信先情報が漏えいしたおそれ",
+  "summary": "ブラストメールに登録したLoglass利用者の氏名・メールアドレス等が漏えいしたおそれを公表。26日の続報では持ち出しは未確認。",
+  "published_on": "2026-10-23",
+  "first_published_on": "2026-10-23",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-26",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "委託先サービスへの第三者による不正アクセス。侵入経路の詳細は未公表。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "対象人数・件数は未公表。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "メールアドレス",
+    "所属会社名",
+    "権限（ロール）",
+    "ユーザーID"
+  ],
+  "related_vendor": "ラクスライトクラウド",
+  "sources": [
+    {
+      "url": "https://loglass.co.jp/news/press-20261023",
+      "type": "official",
+      "title": "外部メール配信サービスへの不正アクセスに伴う情報漏えいのおそれ",
+      "published_on": "2026-10-23",
+      "checked_on": "2026-10-26"
+    },
+    {
+      "url": "https://loglass.co.jp/news/press-20261026",
+      "type": "official",
+      "title": "外部メール配信サービスへの不正アクセスに関するお知らせ（第2報）",
+      "published_on": "2026-10-26",
+      "checked_on": "2026-10-26"
+    }
+  ],
+  "updates": [
+    {
+      "date": "2026-10-26",
+      "summary": "10時時点で漏えい対象の個別連絡は受領しておらず、同社情報の持ち出しは未確認。外部調査は継続。",
+      "source_index": 1
+    }
+  ],
+  "notes": "Loglassのログインパスワード等の認証情報・業務データは対象に含まれない。個別連絡未受領を漏えい否定とは扱わない。",
+  "vendors": [
+    {
+      "name": "ラクスライトクラウド",
+      "role": "service",
+      "detail": "メール配信サービス「ブラストメール」の提供元。",
+      "source_index": 0
+    }
+  ]
+}

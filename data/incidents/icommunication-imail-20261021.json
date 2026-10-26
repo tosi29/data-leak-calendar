@@ -1,0 +1,70 @@
+{
+  "id": "icommunication-imail-20261021",
+  "organization": {
+    "name": "アイ・コミュニケーション（アイ・メール）",
+    "sector": "企業・団体"
+  },
+  "title": "メール配信基盤への不正アクセスに伴う情報漏えいの可能性",
+  "summary": "配信基盤への不正アクセスの影響範囲にアイ・メールも含まれると公表。配信先リストの漏えいは未確認で、認証情報への影響も確認中。",
+  "published_on": "2026-10-21",
+  "first_published_on": "2026-10-21",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-26",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "委託先サービスへの第三者による不正アクセス。侵入経路の詳細は未公表。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "対象人数・件数は未公表。"
+    }
+  ],
+  "data_types": [
+    "配信先リスト（詳細未公表）",
+    "ログインID",
+    "パスワード",
+    "APIキー"
+  ],
+  "related_vendor": "ラクスライトクラウド",
+  "sources": [
+    {
+      "url": "https://www.sc-p.jp/news/20261021/",
+      "type": "official",
+      "title": "アイ・メールのサービス停止および配信基盤への不正アクセスについて",
+      "published_on": "2026-10-21",
+      "checked_on": "2026-10-26"
+    },
+    {
+      "url": "https://www.sc-p.jp/news/20261021/",
+      "type": "official",
+      "title": "アイ・メールのサービス停止および配信基盤への不正アクセスについて（10月26日更新）",
+      "published_on": "2026-10-26",
+      "checked_on": "2026-10-26"
+    }
+  ],
+  "updates": [
+    {
+      "date": "2026-10-26",
+      "summary": "配信先リストの漏えいは内部調査で未確認。ログインID・パスワード・APIキーは漏えいの可能性があるとして確認を継続。",
+      "source_index": 1
+    }
+  ],
+  "notes": "一般のブラストメールと環境は分離されていないと説明。配信先リストは内部調査で漏えい未確認だが、外部調査は継続中。",
+  "vendors": [
+    {
+      "name": "ラクスライトクラウド",
+      "role": "service",
+      "detail": "アイ・メールが利用するメール配信基盤「ブラストメール」の提供元。",
+      "source_index": 0
+    }
+  ]
+}

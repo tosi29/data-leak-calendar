@@ -5,13 +5,13 @@
     "sector": "企業・団体"
   },
   "title": "メール配信サービスへの不正アクセスと情報流出",
-  "summary": "5システムで不正アクセスとデータ出力を確認。個人情報の持ち出しを確認し、出力情報は延べ約900万件と試算。",
+  "summary": "Cuenote FCの49システムでデータ出力を確認し、対象情報は延べ51,628,280件と公表。Cuenote BASEの契約者情報190件も閲覧可能だった。",
   "published_on": "2026-10-19",
   "first_published_on": "2026-10-19",
   "publication_kind": "initial",
   "occurred_on": null,
-  "detected_on": null,
-  "updated_on": "2026-10-20",
+  "detected_on": "2026-10-16",
+  "updated_on": "2026-10-26",
   "verification": "official",
   "leak_status": "confirmed",
   "incident_type": "attack",
@@ -22,14 +22,27 @@
   },
   "impact": [
     {
-      "count": 9000000,
+      "count": 51628280,
       "unit": "records",
-      "qualifier": "approximate",
-      "description": "公表された対象規模。漏えい状況は本文を参照。"
+      "qualifier": "exact",
+      "description": "Cuenote FCの漏えいのおそれがある延べ情報件数。16システムは件数を調査中で増加の可能性あり。"
+    },
+    {
+      "count": 190,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "Cuenote BASEで閲覧可能だった契約者情報。FCの流出確認と区別する。"
     }
   ],
   "data_types": [
-    "メールアドレス等"
+    "メールアドレス",
+    "氏名",
+    "住所・都道府県",
+    "生年月日",
+    "電話番号",
+    "企業名",
+    "配信記録・Webアクセス記録",
+    "その他登録情報（利用企業により異なる）"
   ],
   "related_vendor": null,
   "sources": [
@@ -39,8 +52,21 @@
       "title": "メール配信サービスへの不正アクセスと情報流出",
       "published_on": "2026-10-19",
       "checked_on": "2026-10-20"
+    },
+    {
+      "url": "https://www.cuenote.jp/information/news/unauthorizedaccess2.html",
+      "type": "official",
+      "title": "当社システムへの不正なアクセスに関するご報告（第二報）",
+      "published_on": "2026-10-26",
+      "checked_on": "2026-10-26"
     }
   ],
-  "updates": [],
-  "notes": "出力件数の試算であり、人数や外部流出した全情報の確定件数ではない。"
+  "updates": [
+    {
+      "date": "2026-10-26",
+      "summary": "FCのデータ出力確認が49システム、対象規模が延べ51,628,280件へ拡大。BASEの契約者情報190件が閲覧可能だったことも公表。",
+      "source_index": 1
+    }
+  ],
+  "notes": "FCはデータ出力を確認しているが、51,628,280件は公表上の漏えいのおそれがある延べ件数で実人数ではない。BASEの190件は閲覧可能状態として区別し合算しない。個人情報の不特定多数への公開・不正利用は未確認。"
 }

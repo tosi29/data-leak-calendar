@@ -1,0 +1,54 @@
+{
+  "id": "jfrl-blastmail-20261026",
+  "organization": {
+    "name": "日本食品分析センター（情報宅配）",
+    "sector": "企業・団体"
+  },
+  "title": "メールマガジン登録者情報への影響を継続調査",
+  "summary": "ブラストメールへの不正アクセスについて第4報を公表。配信先リスト漏えい対象の個別連絡は未受領で、登録者情報への影響は確認中。",
+  "published_on": "2026-10-26",
+  "first_published_on": null,
+  "publication_kind": "followup",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-26",
+  "verification": "official",
+  "leak_status": "investigating",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "委託先サービスへの第三者による不正アクセス。侵入経路の詳細は未公表。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "対象人数・件数は未公表。"
+    }
+  ],
+  "data_types": [
+    "登録メンバー情報（詳細未公表）"
+  ],
+  "related_vendor": "ラクスライトクラウド",
+  "sources": [
+    {
+      "url": "https://www.jfrl.or.jp/information/2880",
+      "type": "official",
+      "title": "メールマガジン登録者情報への影響を継続調査",
+      "published_on": "2026-10-26",
+      "checked_on": "2026-10-26"
+    }
+  ],
+  "updates": [],
+  "notes": "初報の公表日は未特定。第4報は10月26日10時時点の状況で、登録者情報が漏えい対象に含まれるかは確認中。",
+  "vendors": [
+    {
+      "name": "ラクスライトクラウド",
+      "role": "service",
+      "detail": "メール配信サービス「ブラストメール」の提供元。",
+      "source_index": 0
+    }
+  ]
+}

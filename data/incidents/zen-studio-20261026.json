@@ -1,0 +1,59 @@
+{
+  "id": "zen-studio-20261026",
+  "organization": {
+    "name": "ZEN大学",
+    "sector": "学校・教育"
+  },
+  "title": "問い合わせフォームの送信情報最大107件が流出した可能性",
+  "summary": "Studioへの不正アクセスに伴い、入学相談などの問い合わせ情報が外部へ流出した可能性を公表。",
+  "published_on": "2026-10-26",
+  "first_published_on": "2026-10-26",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-26",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "委託先サービスへの第三者による不正アクセス。侵入経路の詳細は未公表。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": 107,
+      "unit": "records",
+      "qualifier": "maximum",
+      "description": "2025年12月1日〜2026年10月16日の対象フォーム送信分。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "メールアドレス",
+    "電話番号",
+    "入学希望時期",
+    "手続状況",
+    "問い合わせ項目・内容"
+  ],
+  "related_vendor": "Studio",
+  "sources": [
+    {
+      "url": "https://zen.ac.jp/news/202610_announcement_studio",
+      "type": "official",
+      "title": "問い合わせフォームの送信情報最大107件が流出した可能性",
+      "published_on": "2026-10-26",
+      "checked_on": "2026-10-26"
+    }
+  ],
+  "updates": [],
+  "notes": "対象フォームは10月16日に閉鎖。報告受領日は侵入の検知日として扱わない。全学生の情報を対象とする公表ではない。",
+  "vendors": [
+    {
+      "name": "Studio",
+      "role": "service",
+      "detail": "対象問い合わせフォームの構築・運用に利用するWeb制作プラットフォームの提供元。",
+      "source_index": 0
+    }
+  ]
+}

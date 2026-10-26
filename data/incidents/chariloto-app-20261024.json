@@ -1,0 +1,57 @@
+{
+  "id": "chariloto-app-20261024",
+  "organization": {
+    "name": "チャリ・ロト（チャリロト）",
+    "sector": "企業・団体"
+  },
+  "title": "アプリ利用者373人の会員情報・口座情報等が流出",
+  "summary": "チャリカ会員373人の情報の不正取得を確認。会員情報、銀行口座情報、カード番号下4桁、投票履歴等が対象。",
+  "published_on": "2026-10-24",
+  "first_published_on": "2026-10-24",
+  "publication_kind": "initial",
+  "occurred_on": "2026-10-21",
+  "detected_on": "2026-10-22",
+  "updated_on": "2026-10-26",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "vulnerability",
+    "detail": "チャリロトのシステムの脆弱性を悪用した第三者による不正アクセス。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 373,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "情報の不正取得が確認された一部のチャリカ会員。"
+    }
+  ],
+  "data_types": [
+    "会員ID",
+    "氏名",
+    "生年月日",
+    "性別",
+    "住所・郵便番号",
+    "メールアドレス",
+    "電話番号",
+    "会員属性・設定",
+    "銀行口座情報",
+    "カード名義・番号下4桁・有効期限・ブランド",
+    "残高・入出金・精算履歴",
+    "投票履歴"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://chariloto.jp/news/20261024/",
+      "type": "official",
+      "title": "アプリ利用者373人の会員情報・口座情報等が流出",
+      "published_on": "2026-10-24",
+      "checked_on": "2026-10-26"
+    }
+  ],
+  "updates": [],
+  "notes": "不正アクセスは21日9時30分頃〜13時頃。23日に脆弱性修正後アプリを再開し、24日に取得情報を特定・公表。パスワード、カード番号全桁、セキュリティコードは漏えいしていない。"
+}

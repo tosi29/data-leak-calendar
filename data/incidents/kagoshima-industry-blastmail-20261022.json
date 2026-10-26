@@ -1,0 +1,89 @@
+{
+  "id": "kagoshima-industry-blastmail-20261022",
+  "organization": {
+    "name": "鹿児島市（産業創出課）",
+    "sector": "自治体"
+  },
+  "title": "産業支援事業のメール配信先情報が漏えいした可能性",
+  "summary": "ソーホーかごしまの登録者約500人と、mark MEIZAN等の延べ約4,300人の情報漏えいの可能性を公表。",
+  "published_on": "2026-10-22",
+  "first_published_on": "2026-10-22",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-26",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "委託先サービスへの第三者による不正アクセス。侵入経路の詳細は未公表。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": 500,
+      "unit": "people",
+      "qualifier": "approximate",
+      "description": "ソーホーかごしまのメールマガジン登録者。"
+    },
+    {
+      "count": 4300,
+      "unit": "people",
+      "qualifier": "approximate",
+      "description": "第2報の追加対象事業の延べ人数。実人数ではない。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス",
+    "氏名",
+    "フリガナ",
+    "社名",
+    "任意登録項目"
+  ],
+  "related_vendor": "ラクスライトクラウド",
+  "sources": [
+    {
+      "url": "https://www.city.kagoshima.lg.jp/soumu/soumu/soumu/documents/roueikouhyou30_1.pdf",
+      "type": "official",
+      "title": "ソーホーかごしまの情報漏えいのおそれ（第1報）",
+      "published_on": "2026-10-22",
+      "checked_on": "2026-10-26"
+    },
+    {
+      "url": "https://www.city.kagoshima.lg.jp/soumu/soumu/soumu/documents/roueikouhyou30-2.pdf",
+      "type": "official",
+      "title": "産業創出課所管事業の情報漏えいのおそれ（第2報）",
+      "published_on": "2026-10-23",
+      "checked_on": "2026-10-26"
+    },
+    {
+      "url": "https://www.city.kagoshima.lg.jp/san-sousyutu/shisetsu/sangyo/san-sou-oshirase20261026.html",
+      "type": "official",
+      "title": "産業創出課所管分の情報漏えいの可能性（10月26日更新）",
+      "published_on": "2026-10-26",
+      "checked_on": "2026-10-26"
+    }
+  ],
+  "updates": [
+    {
+      "date": "2026-10-23",
+      "summary": "mark MEIZAN、オープンイノベーション事業、職場見学会の対象者を追加公表。",
+      "source_index": 1
+    },
+    {
+      "date": "2026-10-26",
+      "summary": "所管業務の委託先へ配信先情報の漏えいに関する個別連絡は届いていないと公表。",
+      "source_index": 2
+    }
+  ],
+  "notes": "22日に初報、23日に対象事業を追加、26日に状況を更新。第2報の約4,300人は延べ人数であり、約500人との重複を排除した実人数は不明。配信先情報の流出は未確認。",
+  "vendors": [
+    {
+      "name": "ラクスライトクラウド",
+      "role": "service",
+      "detail": "メール配信サービス「ブラストメール」の提供元。",
+      "source_index": 0
+    }
+  ]
+}

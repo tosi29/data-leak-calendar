@@ -1,0 +1,54 @@
+{
+  "id": "regza-blastmail-20261026",
+  "organization": {
+    "name": "TVS REGZA（レグザメンバーズ）",
+    "sector": "企業・団体"
+  },
+  "title": "会員のメールアドレスが漏えいした可能性",
+  "summary": "メール配信委託先への不正アクセスにより、レグザメンバーズ会員のメールアドレスが流出した可能性を公表。",
+  "published_on": "2026-10-26",
+  "first_published_on": "2026-10-26",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-26",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "委託先サービスへの第三者による不正アクセス。侵入経路の詳細は未公表。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "対象人数・件数は未公表。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "ラクスライトクラウド",
+  "sources": [
+    {
+      "url": "https://www.regza.com/news/2026-news/20261026",
+      "type": "official",
+      "title": "会員のメールアドレスが漏えいした可能性",
+      "published_on": "2026-10-26",
+      "checked_on": "2026-10-26"
+    }
+  ],
+  "updates": [],
+  "notes": "10月26日10時時点で実際の流出は未確認。氏名・住所・電話番号などは同サービスへ登録していない。",
+  "vendors": [
+    {
+      "name": "ラクスライトクラウド",
+      "role": "service",
+      "detail": "メール配信サービス「ブラストメール」の提供元。",
+      "source_index": 0
+    }
+  ]
+}

@@ -5,31 +5,54 @@
     "sector": "企業・団体"
   },
   "title": "不正アクセスによるシステム障害と情報漏洩のおそれ",
-  "summary": "ネットワークへの不正アクセスを10月16日に認識。個人情報漏洩の可能性を否定できず、範囲を調査中。",
+  "summary": "会員情報最大約600万件、サブスク情報最大約23万件、リフォーム関連情報最大約800件が漏えいした可能性を公表。",
   "published_on": "2026-10-17",
   "first_published_on": "2026-10-17",
   "publication_kind": "initial",
   "occurred_on": null,
-  "detected_on": null,
-  "updated_on": "2026-10-20",
+  "detected_on": "2026-10-16",
+  "updated_on": "2026-10-26",
   "verification": "official",
   "leak_status": "suspected",
   "incident_type": "attack",
   "cause": {
     "category": "unauthorized_access",
     "detail": "第三者による不正アクセス。具体的な侵入手法は調査中または未公表。",
-    "certainty": "confirmed"
+    "certainty": "unknown"
   },
   "impact": [
     {
-      "count": null,
+      "count": 6000000,
       "unit": "records",
-      "qualifier": "unknown",
-      "description": "公表された対象規模。漏えい状況は本文を参照。"
+      "qualifier": "maximum_approximate",
+      "description": "会員情報データベース。流出確定件数ではない。"
+    },
+    {
+      "count": 230000,
+      "unit": "records",
+      "qualifier": "maximum_approximate",
+      "description": "ジョーシンのサブスク。会員情報等と重複し得る。"
+    },
+    {
+      "count": 800,
+      "unit": "records",
+      "qualifier": "maximum_approximate",
+      "description": "リフォーム写真アップロードシステム。画像・口座情報等を含む。"
     }
   ],
   "data_types": [
-    "個人情報（詳細調査中）"
+    "氏名",
+    "住所",
+    "電話番号",
+    "会員番号",
+    "手書きサイン",
+    "ログインID・初期パスワード",
+    "請求履歴",
+    "契約番号・デバイスID・有効化コード",
+    "免許証画像",
+    "マイナンバーカード",
+    "口座番号",
+    "工事写真"
   ],
   "related_vendor": null,
   "sources": [
@@ -39,8 +62,21 @@
       "title": "不正アクセスによるシステム障害と情報漏洩のおそれ",
       "published_on": "2026-10-17",
       "checked_on": "2026-10-20"
+    },
+    {
+      "url": "https://www.joshin.co.jp/ja/ir/news/auto_20261026556267/pdfFile.pdf",
+      "type": "official",
+      "title": "不正アクセスによるシステム障害発生のお詫びとお知らせ（第2報）",
+      "published_on": "2026-10-26",
+      "checked_on": "2026-10-26"
     }
   ],
-  "updates": [],
-  "notes": ""
+  "updates": [
+    {
+      "date": "2026-10-26",
+      "summary": "3システムの対象情報と最大規模を公表。漏えいの有無・範囲は調査中。",
+      "source_index": 1
+    }
+  ],
+  "notes": "3システム間で対象者が重複する可能性があり、件数は実人数ではない。リフォーム関連の内訳は免許証画像2件、マイナンバーカード1件、口座番号5件で、最大約800件の内数。クレジットカード情報は非保持。"
 }

@@ -1,0 +1,52 @@
+{
+  "id": "office3o-awamori-20261026",
+  "organization": {
+    "name": "オフィススリーオー（泡盛ストリート）",
+    "sector": "企業・団体"
+  },
+  "title": "決済画面の改ざんによるカード情報漏えいの可能性",
+  "summary": "8月11〜19日にカード情報を入力した顧客1人のカード情報等が漏えいした可能性を公表。",
+  "published_on": "2026-10-26",
+  "first_published_on": "2026-10-26",
+  "publication_kind": "initial",
+  "occurred_on": "2026-08-11",
+  "detected_on": "2026-08-19",
+  "updated_on": "2026-10-26",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "vulnerability",
+    "detail": "サイトの脆弱性を悪用した不正アクセスにより、決済アプリケーションが改ざんされた。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 1,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "対象期間に決済画面でカード情報を入力した顧客。決済未完了も含む。"
+    }
+  ],
+  "data_types": [
+    "カード名義人名",
+    "クレジットカード番号",
+    "有効期限",
+    "セキュリティコード",
+    "氏名",
+    "生年月日",
+    "電話番号"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://awamori-street.net/info/20261026.html",
+      "type": "official",
+      "title": "決済画面の改ざんによるカード情報漏えいの可能性",
+      "published_on": "2026-10-26",
+      "checked_on": "2026-10-26"
+    }
+  ],
+  "updates": [],
+  "notes": "対象期間は8月11〜19日。9月24日に外部調査が完了し、10月26日に公表。1人は漏えいの可能性のある対象者数。"
+}

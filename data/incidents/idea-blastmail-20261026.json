@@ -1,0 +1,56 @@
+{
+  "id": "idea-blastmail-20261026",
+  "organization": {
+    "name": "いであ（地域循環共生圏メールマガジン等）",
+    "sector": "企業・団体"
+  },
+  "title": "メールマガジンの配信先情報が漏えいした可能性",
+  "summary": "ブラストメールへの不正アクセスに伴い、配信先のメールアドレス・氏名・属性の漏えいの可能性を公表。",
+  "published_on": "2026-10-26",
+  "first_published_on": "2026-10-26",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-26",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "委託先サービスへの第三者による不正アクセス。侵入経路の詳細は未公表。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "対象人数・件数は未公表。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス",
+    "氏名",
+    "属性"
+  ],
+  "related_vendor": "ラクスライトクラウド",
+  "sources": [
+    {
+      "url": "https://www.ideacon.co.jp/news/detail/20261026114623.html",
+      "type": "official",
+      "title": "メールマガジンの配信先情報が漏えいした可能性",
+      "published_on": "2026-10-26",
+      "checked_on": "2026-10-26"
+    }
+  ],
+  "updates": [],
+  "notes": "10月26日10時時点で本件の配信先情報の漏えいは未確認。環境省の関連する公表と対象が重複し得る。",
+  "vendors": [
+    {
+      "name": "ラクスライトクラウド",
+      "role": "service",
+      "detail": "メール配信サービス「ブラストメール」の提供元。",
+      "source_index": 0
+    }
+  ]
+}

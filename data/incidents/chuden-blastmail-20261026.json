@@ -1,0 +1,55 @@
+{
+  "id": "chuden-blastmail-20261026",
+  "organization": {
+    "name": "中部電力・中電クラビス",
+    "sector": "企業・団体"
+  },
+  "title": "イベントのメールマガジン登録者324人の情報漏えいの可能性",
+  "summary": "「みんなの美尻フェスタin掛川」のメールマガジン配信先の氏名・メールアドレスが漏えいした可能性を公表。",
+  "published_on": "2026-10-26",
+  "first_published_on": "2026-10-26",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-26",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "委託先サービスへの第三者による不正アクセス。侵入経路の詳細は未公表。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": 324,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "イベントのメールマガジン配信を希望した顧客。実際の漏えいは未確認。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "メールアドレス"
+  ],
+  "related_vendor": "ラクスライトクラウド",
+  "sources": [
+    {
+      "url": "https://www.chuden.co.jp/publicity/press/1218551_3273.html",
+      "type": "official",
+      "title": "イベントのメールマガジン登録者324人の情報漏えいの可能性",
+      "published_on": "2026-10-26",
+      "checked_on": "2026-10-26"
+    }
+  ],
+  "updates": [],
+  "notes": "中電クラビスの再委託先が利用する配信システムの事案。8月公表の中部電力の電子メール不正閲覧とは別事案。共同公表を1件として記録。",
+  "vendors": [
+    {
+      "name": "ラクスライトクラウド",
+      "role": "service",
+      "detail": "メール配信サービス「ブラストメール」の提供元。",
+      "source_index": 0
+    }
+  ]
+}

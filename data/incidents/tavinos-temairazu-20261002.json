@@ -1,0 +1,72 @@
+{
+  "id": "tavinos-temairazu-20261002",
+  "organization": {
+    "name": "WHGホテルタビノス",
+    "sector": "企業・団体"
+  },
+  "title": "予約管理システムへの不正アクセスに伴う宿泊者情報漏えいの可能性",
+  "summary": "ホテルタビノス3施設の予約者に不審な通知が送付され、氏名・連絡先・宿泊日程等を閲覧・取得された可能性を公表。",
+  "published_on": "2026-10-02",
+  "first_published_on": "2026-10-02",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-09-22",
+  "updated_on": "2026-10-26",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "委託先サービスへの第三者による不正アクセス。侵入経路の詳細は未公表。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "対象人数・件数は未公表。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "電話番号",
+    "メールアドレス",
+    "宿泊施設名",
+    "チェックイン・チェックアウト日",
+    "宿泊料金"
+  ],
+  "related_vendor": "手間いらず",
+  "sources": [
+    {
+      "url": "https://hoteltavinos.com/notices-events/about-phishing-scams/",
+      "type": "official",
+      "title": "お客さま情報の漏えいに関しまして",
+      "published_on": "2026-10-02",
+      "checked_on": "2026-10-26"
+    },
+    {
+      "url": "https://hoteltavinos.com/important/about-phishing-scams2/",
+      "type": "official",
+      "title": "お客さま情報の漏えいに関しまして（続報）",
+      "published_on": "2026-10-26",
+      "checked_on": "2026-10-26"
+    }
+  ],
+  "updates": [
+    {
+      "date": "2026-10-26",
+      "summary": "対象施設と予約条件、第三者に閲覧・取得された可能性のある項目を公表。",
+      "source_index": 1
+    }
+  ],
+  "notes": "対象施設は浜松町・浅草・京都。9月21日までに成立し同日以降に宿泊する予約の一部で不審なメッセージを確認。予約管理システムはカード情報・予約サイトのログイン情報を保有していない。",
+  "vendors": [
+    {
+      "name": "手間いらず",
+      "role": "service",
+      "detail": "予約管理システム「TEMAIRAZUシリーズ」の提供元。",
+      "source_index": 0
+    }
+  ]
+}
