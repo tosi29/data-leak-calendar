@@ -1,0 +1,73 @@
+{
+  "id": "rakuten-travel-overseas-20261026",
+  "organization": {
+    "name": "楽天グループ株式会社",
+    "sector": "企業・団体"
+  },
+  "title": "楽天トラベルの海外ホテル予約ページへの不正アクセス",
+  "summary": "海外ホテル予約の一部ページで、ログイン利用者の連絡先や予約者・同伴者の情報が不正アクセスの対象となった。",
+  "published_on": "2026-10-26",
+  "first_published_on": "2026-10-26",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-09-10",
+  "updated_on": "2026-10-26",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。侵入経路の詳細は公表されていない。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": 2600000,
+      "unit": "records",
+      "qualifier": "maximum_approximate",
+      "description": "対象ページのログイン利用者情報。人数ではなく公表上の件数。"
+    },
+    {
+      "count": 40000,
+      "unit": "records",
+      "qualifier": "maximum_approximate",
+      "description": "対象ページの予約者情報。同伴者情報も対象。ログイン情報との重複は不明。"
+    },
+    {
+      "count": 36000,
+      "unit": "records",
+      "qualifier": "maximum_approximate",
+      "description": "予約者情報最大約4万件のうち支払情報を含む内数。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "メールアドレス",
+    "電話番号",
+    "居住国",
+    "社内用識別番号",
+    "予約情報",
+    "同伴者の氏名・居住国",
+    "クレジットカードの一部情報"
+  ],
+  "related_vendor": "Rakuten Travel Xchange",
+  "sources": [
+    {
+      "url": "https://travel.rakuten.co.jp/info/announce/20261026.html",
+      "type": "official",
+      "title": "海外ホテル予約サイトの一部ページならびに多言語予約サイトに関するお詫びとお知らせ",
+      "published_on": "2026-10-26",
+      "checked_on": "2026-10-27"
+    }
+  ],
+  "updates": [],
+  "notes": "公式発表の事象①。9月16日に改修完了。不正アクセスと対象情報は確認されているが、外部への持ち出しの確定とは区別する。各件数は重複・内数を含み得るため合算しない。支払情報は発行者識別番号・下4桁・名義・有効期限・ブランドで、カード番号全桁・セキュリティコード・パスワード・住所等は含まない。多言語サイトの事象②と、既存の楽天ドライブ事案は別記録。",
+  "vendors": [
+    {
+      "name": "Rakuten Travel Xchange",
+      "role": "operations",
+      "detail": "楽天グループ子会社として、対象の海外ホテル予約ページの一部を管理・運営。",
+      "source_index": 0
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "id": "mainichi-cuenote-20261026",
+  "organization": {
+    "name": "株式会社毎日新聞社",
+    "sector": "企業・団体"
+  },
+  "title": "メール配信委託先への不正アクセスで登録情報に漏えいのおそれ",
+  "summary": "Cuenote FCの提供元からデータを不正取得された可能性が高いと連絡を受け、ニュース・イベント案内等のメール配信を停止した。",
+  "published_on": "2026-10-26",
+  "first_published_on": "2026-10-26",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-10-18",
+  "updated_on": "2026-10-26",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。侵入経路の詳細は公表されていない。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "ニュース・イベント案内等のメール配信登録者。対象範囲・件数は確認中。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス",
+    "その他メール配信登録情報"
+  ],
+  "related_vendor": "ユミルリンク株式会社",
+  "sources": [
+    {
+      "url": "https://www.mainichi.co.jp/info/news/20261026.html",
+      "type": "official",
+      "title": "外部メール配信サービス運営会社への不正アクセスに伴うメールアドレス等の漏えいの可能性について",
+      "published_on": "2026-10-26",
+      "checked_on": "2026-10-27"
+    }
+  ],
+  "updates": [],
+  "notes": "10月18日に不正アクセスの連絡を受け配信を停止し、漏えい未確認との報告により21日に再開。26日に不正取得の可能性が高いとの連絡を受け再停止した。クレジットカード情報は含まない。提供元ユミルリンクの公表件数と重複し得るため合算しない。",
+  "vendors": [
+    {
+      "name": "ユミルリンク株式会社",
+      "role": "service",
+      "detail": "メールマガジン等の配信サービスCuenote FCの提供元。",
+      "source_index": 0
+    }
+  ]
+}

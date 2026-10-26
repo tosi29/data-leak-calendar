@@ -1,0 +1,56 @@
+{
+  "id": "furukawa-feps-20261026",
+  "organization": {
+    "name": "古河電工パワーシステムズ株式会社",
+    "sector": "企業・団体"
+  },
+  "title": "防災製品の出荷管理Webシステムへの不正アクセスの疑い",
+  "summary": "出荷管理システムで異常を検知し停止。発注者と製品送付先の担当者情報が閲覧・取得された可能性がある。",
+  "published_on": "2026-10-26",
+  "first_published_on": "2026-10-26",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-10-14",
+  "updated_on": "2026-10-26",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "出荷管理Webシステムで外部からの不正アクセスが疑われる事象を確認。原因と影響範囲は調査中。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "システム登録の発注者および製品送付先の担当者。対象者・件数を精査中。"
+    }
+  ],
+  "data_types": [
+    "会社名",
+    "氏名",
+    "住所",
+    "電話番号"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.feps.co.jp/news/20261026/",
+      "type": "official",
+      "title": "個人情報漏えいの可能性に関するお知らせとお詫び",
+      "published_on": "2026-10-26",
+      "checked_on": "2026-10-27"
+    },
+    {
+      "url": "https://www.furukawaelectric.com/news/2026/update_20261026.html",
+      "type": "official",
+      "title": "当社グループ会社における個人情報漏えいの可能性に関するお知らせとお詫び",
+      "published_on": "2026-10-26",
+      "checked_on": "2026-10-27"
+    }
+  ],
+  "updates": [],
+  "notes": "10月14日にシステムと関連サーバーを停止。他システムへの影響はなく、当該システムではカード・口座情報は取り扱っていない。情報の公開・不正利用は未確認。古河電工の親会社公表と子会社公表は同一事案としてまとめる。"
+}

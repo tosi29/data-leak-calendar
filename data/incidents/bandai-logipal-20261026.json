@@ -1,0 +1,56 @@
+{
+  "id": "bandai-logipal-20261026",
+  "organization": {
+    "name": "バンダイナムコHD・BANDAI SPIRITS・バンダイロジパル",
+    "sector": "企業・団体"
+  },
+  "title": "バンダイロジパルへの不正アクセスで一番くじONLINE配送情報に漏えいのおそれ",
+  "summary": "物流システムでアカウントの不正利用を確認。一番くじONLINEの配送に使用する氏名・住所・電話番号が漏えいした可能性がある。",
+  "published_on": "2026-10-26",
+  "first_published_on": "2026-10-26",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-10-21",
+  "updated_on": "2026-10-26",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "credentials",
+    "detail": "ロジパルのアカウントの不正利用による操作を確認。認証情報の取得方法は公表されていない。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "一番くじONLINEの配送情報。対象件数は調査中。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "電話番号"
+  ],
+  "related_vendor": "株式会社バンダイロジパル",
+  "sources": [
+    {
+      "url": "https://www.bandainamco.co.jp/files/2026102620HPE794A820E4B88DE6ADA3E382A2E382AFE382BB.pdf",
+      "type": "official",
+      "title": "株式会社バンダイロジパルへの不正アクセスについてのお知らせ（第1報）",
+      "published_on": "2026-10-26",
+      "checked_on": "2026-10-27"
+    }
+  ],
+  "updates": [],
+  "notes": "3社共同公表を1記録とする。10月22日に配送情報格納サーバーへの侵入痕跡と漏えいの疑いを把握し、26日に公表。クレジットカード情報は含まず、不正使用等も未確認。10月のバンダイナムコグループの別システム・別サービスの事案とは区別する。",
+  "vendors": [
+    {
+      "name": "株式会社バンダイロジパル",
+      "role": "operations",
+      "detail": "BANDAI SPIRITSから商品配送を受託し、対象の配送情報を格納する物流システムを管理。",
+      "source_index": 0
+    }
+  ]
+}

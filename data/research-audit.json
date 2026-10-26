@@ -34435,6 +34435,37 @@
       ],
       "notes": "詳細な候補ごとの判断・参照URLの取得結果・横断347URLの採否はdata/research-2026-10-27-apr-oct-audit.json。解説はdocs/research-2026-10-27-apr-oct-audit.md。",
       "limitations": "10月26日公表分までの再点検。原候補156件、新規横断31URLに未確認事項があり、全件網羅を断定しない。"
+    },
+    {
+      "checked_on": "2026-10-27",
+      "scope": "ユーザー指摘を受けた楽天トラベル・EX予約の掲載漏れと周辺公表の補完。前回横断調査の対象期間内の取りこぼし。",
+      "added_incident_ids": [
+        "rakuten-travel-overseas-20261026",
+        "rakuten-travel-multilingual-20261026",
+        "jr-ex-smart-ex-20261026",
+        "mainichi-cuenote-20261026",
+        "bandai-logipal-20261026",
+        "furukawa-feps-20261026",
+        "giftee-blastmail-20261022"
+      ],
+      "updated_incident_ids": [],
+      "report": "docs/research-2026-10-27-rakuten-ex-correction.md",
+      "method": [
+        "サービス名・提供元名・公式ドメイン指定で検索し、既存掲載と照合",
+        "転載元を除外する検索から一次資料を探索",
+        "JavaScriptで取得される公式発表一覧とリンク先PDFを確認"
+      ],
+      "excluded": [
+        {
+          "organization": "ギフティグループ（eギフト不正発行）",
+          "url": "https://www.release.tdnet.info/inbs/140120261026556413.pdf",
+          "reason": "個人情報漏えいは未確認で個人情報への影響が示されていない。別のブラストメール関連公表は追加。"
+        }
+      ],
+      "limitations": [
+        "今回は指摘されたサービスと周辺公表の補完であり、4～10月全体の網羅を保証しない。",
+        "楽天トラベルの対象区分は重複・内数を合算しない。JRの約17万件はCBC報道値で公式共同発表PDFは件数確認中。"
+      ]
     }
   ]
 }

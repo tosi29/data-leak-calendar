@@ -1,0 +1,54 @@
+{
+  "id": "rakuten-travel-multilingual-20261026",
+  "organization": {
+    "name": "楽天グループ株式会社",
+    "sector": "企業・団体"
+  },
+  "title": "楽天トラベルの多言語予約サイトへの不正アクセス",
+  "summary": "多言語予約サイトの利用者情報と、管理画面に入力された宿泊施設従業員の情報が不正アクセスの対象となった。",
+  "published_on": "2026-10-26",
+  "first_published_on": "2026-10-26",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-10-20",
+  "updated_on": "2026-10-26",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。侵入経路の詳細は公表されていない。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": 860000,
+      "unit": "records",
+      "qualifier": "maximum_approximate",
+      "description": "多言語予約サイトのログイン利用者情報。"
+    },
+    {
+      "count": 40000,
+      "unit": "records",
+      "qualifier": "maximum_approximate",
+      "description": "管理画面に入力された宿泊施設従業員の情報。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス",
+    "社内用識別番号",
+    "アカウント名"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://travel.rakuten.co.jp/info/announce/20261026.html",
+      "type": "official",
+      "title": "海外ホテル予約サイトの一部ページならびに多言語予約サイトに関するお詫びとお知らせ",
+      "published_on": "2026-10-26",
+      "checked_on": "2026-10-27"
+    }
+  ],
+  "updates": [],
+  "notes": "公式発表の事象②。10月21日に改修完了。不正アクセスの対象となった情報の公表であり、外部への持ち出しの確定とは区別する。利用者と施設従業員の件数は実人数とせず、事象①との重複も不明のため合算しない。"
+}

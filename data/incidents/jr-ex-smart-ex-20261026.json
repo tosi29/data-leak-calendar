@@ -1,0 +1,71 @@
+{
+  "id": "jr-ex-smart-ex-20261026",
+  "organization": {
+    "name": "JR東海・JR西日本・JR九州",
+    "sector": "企業・団体"
+  },
+  "title": "エクスプレス予約・スマートEX会員情報がメール配信委託先で漏えい",
+  "summary": "ユミルリンクのCuenote FCを使った販促・案内メールの一部受信者のメールアドレス、会員ID、カタカナ氏名、会員種別が閲覧または取得された。",
+  "published_on": "2026-10-26",
+  "first_published_on": "2026-10-26",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-10-26",
+  "updated_on": "2026-10-26",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "メール配信委託先ユミルリンクのサービスへの不正アクセスにより、第三者の閲覧または取得が確認された。JR共同発表では侵入手口の詳細は説明されていない。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": 170000,
+      "unit": "records",
+      "qualifier": "approximate",
+      "description": "10月26日22時19分のCBC NEWS報道によるJR3社の会員情報合計。共同発表PDFでは件数確認中。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス",
+    "会員ID",
+    "氏名（カタカナ）",
+    "会員種別"
+  ],
+  "related_vendor": "ユミルリンク株式会社",
+  "sources": [
+    {
+      "url": "https://jr-central.co.jp/news/release/_pdf/000046119.pdf",
+      "type": "official",
+      "title": "ユミルリンク株式会社で発生した不正アクセスに伴うメールアドレス等の漏えいについて",
+      "published_on": "2026-10-26",
+      "checked_on": "2026-10-27"
+    },
+    {
+      "url": "https://www.westjr.co.jp/press/article/2026/10/26/items/261026_00_press_ex.pdf",
+      "type": "official",
+      "title": "JR3社共同発表：メールアドレス等の漏えいについて",
+      "published_on": "2026-10-26",
+      "checked_on": "2026-10-27"
+    },
+    {
+      "url": "https://newsdig.tbs.co.jp/articles/cbc/3039610?display=1",
+      "type": "news",
+      "title": "新幹線のネット予約サービスの会員情報漏えい…JR3社で計約17万件",
+      "published_on": "2026-10-26",
+      "checked_on": "2026-10-27"
+    }
+  ],
+  "updates": [],
+  "notes": "JR3社の共同公表を1記録とする。提供元は10月16日時点では影響なしと報告したが、26日に閲覧・取得の連絡があった。JR東海保有の予約システムからの漏えいは未確認。対象はCuenote FCで特定のメールを配信した会員で、全会員とは限らない。住所・電話番号・カード情報等は対象外。約17万件は報道値で実人数への換算はしない。ユミルリンク全体の延べ件数と重複し得る。10月のIDCフロンティア関連のJR各社事案とは別。",
+  "vendors": [
+    {
+      "name": "ユミルリンク株式会社",
+      "role": "service",
+      "detail": "エクスプレス予約・スマートEXの一部会員メール配信にCuenote FCを提供。",
+      "source_index": 0
+    }
+  ]
+}

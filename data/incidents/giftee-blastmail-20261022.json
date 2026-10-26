@@ -1,0 +1,73 @@
+{
+  "id": "giftee-blastmail-20261022",
+  "organization": {
+    "name": "株式会社ギフティ",
+    "sector": "企業・団体"
+  },
+  "title": "ブラストメールへの不正アクセスで利用者・取引先情報に漏えいのおそれ",
+  "summary": "旅先納税ID、e街プラットフォーム、giftee Benefitのメール配信用登録情報に影響の可能性を公表。26日時点で流出確認済み契約には含まれていない。",
+  "published_on": "2026-10-22",
+  "first_published_on": "2026-10-22",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-26",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "メール配信サービス「ブラストメール」提供元への不正アクセス。ギフティ側の配信先情報の漏えいの有無は外部調査中。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "旅先納税ID・giftee Benefitの登録者とe街プラットフォームの法人・自治体担当者。件数未公表。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス",
+    "旅先納税ID",
+    "giftee Benefit ID",
+    "企業ログインURL",
+    "自治体名・企業名",
+    "担当者名",
+    "所属部署"
+  ],
+  "related_vendor": "株式会社ラクスライトクラウド",
+  "sources": [
+    {
+      "url": "https://giftee.co.jp/press/news/info20261026/",
+      "type": "official",
+      "title": "ラクスライトクラウドで発生した不正アクセスに伴う個人情報漏えいの可能性について（初報を含む）",
+      "published_on": "2026-10-22",
+      "checked_on": "2026-10-27"
+    },
+    {
+      "url": "https://giftee.co.jp/press/news/info20261026/",
+      "type": "official",
+      "title": "第3報：ラクスライトクラウドで発生した不正アクセスに伴う個人情報漏えいの可能性について",
+      "published_on": "2026-10-26",
+      "checked_on": "2026-10-27"
+    }
+  ],
+  "updates": [
+    {
+      "date": "2026-10-26",
+      "summary": "提供元が配信先情報の流出を確認した344契約にギフティの契約は含まれないと確認。外部調査は継続中。",
+      "source_index": 1
+    }
+  ],
+  "notes": "10月26日時点で配信先情報の流出を確認した344契約にギフティの契約は含まれないが、外部調査は継続中のため漏えい否定とはしない。344は提供元の契約数であり利用者情報の件数として採用しない。同日公表されたeギフト不正発行の別事案とは区別する。",
+  "vendors": [
+    {
+      "name": "株式会社ラクスライトクラウド",
+      "role": "service",
+      "detail": "情報発信に利用するブラストメールの提供元。",
+      "source_index": 0
+    }
+  ]
+}
