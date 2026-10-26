@@ -5,28 +5,37 @@
     "sector": "企業・団体"
   },
   "title": "従業員のメールとクラウドに不正アクセス",
-  "summary": "従業員アカウントの不正ログインと不審メールの送信を確認。朝日放送テレビの受託業務関連情報を含め、個人情報を閲覧された可能性があると公表した。",
+  "summary": "従業員アカウントへの不正アクセスでメールアドレス373件が漏えい。最終調査で46件の氏名・携帯電話番号等にも漏えいのおそれを確認。",
   "published_on": "2026-07-01",
   "first_published_on": "2026-07-01",
   "publication_kind": "initial",
-  "occurred_on": null,
-  "detected_on": null,
-  "updated_on": "2026-10-18",
+  "occurred_on": "2026-06-17",
+  "detected_on": "2026-06-24",
+  "updated_on": "2026-10-27",
   "incident_type": "attack",
-  "leak_status": "suspected",
+  "leak_status": "confirmed",
   "impact": [
     {
-      "count": null,
-      "unit": "people",
-      "qualifier": "unknown",
-      "description": "対象規模は未公表"
+      "count": 373,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "不審メール送信により漏えいしたメールアドレス。"
+    },
+    {
+      "count": 46,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "閲覧された可能性を否定できない32通のメール内の個人情報。373件との重複は未公表。"
     }
   ],
-  "data_types": [],
+  "data_types": [
+    "メールアドレス",
+    "氏名・携帯電話番号（一部・可能性）"
+  ],
   "cause": {
-    "category": "unauthorized_access",
-    "detail": "従業員アカウントの不正ログインと不審メールの送信を確認。朝日放送テレビの受託業務関連情報を含め、個人情報を閲覧された可能性があると公表した。",
-    "certainty": "unknown"
+    "category": "credentials",
+    "detail": "取引先を装うフィッシングサイトへログイン情報を入力したことが原因と推測。",
+    "certainty": "suspected"
   },
   "sources": [
     {
@@ -34,11 +43,24 @@
       "title": "メールアカウントおよびクラウドサービスへの不正アクセスに関するお知らせ – 株式会社アイネックスdent-notice/",
       "type": "official",
       "published_on": "2026-07-01",
-      "checked_on": "2026-10-18"
+      "checked_on": "2026-10-27"
+    },
+    {
+      "url": "https://www.i-nex.jp/2026/08/24/security-incident-notice-2/",
+      "type": "official",
+      "title": "公式公表",
+      "published_on": "2026-08-24",
+      "checked_on": "2026-10-27"
     }
   ],
-  "notes": "",
-  "updates": [],
+  "notes": "確認済み373件の内訳は自社従業員217件・取引先112件・朝日放送グループ44件。可能性46件と合算しない。",
+  "updates": [
+    {
+      "date": "2026-08-24",
+      "summary": "最終調査で373件のアドレス漏えいを確認。別に46件の個人情報に閲覧のおそれ。",
+      "source_index": 1
+    }
+  ],
   "verification": "official",
   "related_vendor": null
 }

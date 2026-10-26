@@ -1,0 +1,70 @@
+{
+  "id": "sweep-b58c3468415e-20261023",
+  "organization": {
+    "name": "ゼビオHD（GALLERY・2）",
+    "sector": "企業・団体"
+  },
+  "title": "EC基盤への不正アクセスで購入者情報最大約12.8万件等が漏えいした可能性",
+  "summary": "Commerbleの管理用認証情報が不正取得され、GALLERY・2の顧客データを表示する操作と支払入力画面の改ざんを確認。",
+  "published_on": "2026-10-23",
+  "first_published_on": "2026-10-23",
+  "publication_kind": "initial",
+  "occurred_on": "2026-10-16",
+  "detected_on": null,
+  "updated_on": "2026-10-27",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "credentials",
+    "detail": "ECプラットフォームの管理用認証情報が不正取得され、管理用クラウド環境から顧客データベースへアクセスされた。アクセス制限の設定不備等の悪用を調査中。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 128000,
+      "unit": "records",
+      "qualifier": "maximum_approximate",
+      "description": "公表された対象規模。漏えいの可能性を含む。"
+    },
+    {
+      "count": 122000,
+      "unit": "records",
+      "qualifier": "maximum_approximate",
+      "description": "住所情報。購入者情報と重複あり。"
+    },
+    {
+      "count": 158000,
+      "unit": "records",
+      "qualifier": "maximum_approximate",
+      "description": "メール送信履歴。購入者・住所情報と重複あり。"
+    }
+  ],
+  "data_types": [
+    "購入者名",
+    "メールアドレス",
+    "住所・配送先住所",
+    "電話番号",
+    "注文確認メール本文"
+  ],
+  "related_vendor": "Commerble",
+  "sources": [
+    {
+      "url": "https://www.release.tdnet.info/inbs/140120261022554661.pdf",
+      "type": "official",
+      "title": "EC基盤への不正アクセスで購入者情報最大約12.8万件等が漏えいした可能性",
+      "published_on": "2026-10-23",
+      "checked_on": "2026-10-27"
+    }
+  ],
+  "updates": [],
+  "notes": "購入者最大約12.8万件、住所最大約12.2万件、送信履歴最大約15.8万件には重複があり、合算しない。外部持ち出しは未確認。フューチャーショップの事案とは別。",
+  "vendors": [
+    {
+      "name": "Commerble",
+      "role": "service",
+      "detail": "GALLERY・2が利用するECプラットフォームの提供元。",
+      "source_index": 0
+    }
+  ]
+}

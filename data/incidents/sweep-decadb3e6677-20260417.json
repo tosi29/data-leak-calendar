@@ -1,0 +1,47 @@
+{
+  "id": "sweep-decadb3e6677-20260417",
+  "organization": {
+    "name": "岩谷産業",
+    "sector": "企業・団体"
+  },
+  "title": "不正アクセスで社員等の個人情報が取得されたおそれ",
+  "summary": "通信機器経由の不正アクセスにより、同社・グループ会社社員の個人情報と取引先情報が不正取得されたおそれを公表。",
+  "published_on": "2026-04-17",
+  "first_published_on": "2026-03-16",
+  "publication_kind": "followup",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-27",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "一部通信機器からの不正アクセスと特定。機器製品名や具体的な手法は未公表。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "公表された対象規模。漏えいの可能性を含む。"
+    }
+  ],
+  "data_types": [
+    "社員の個人情報（項目未公表）",
+    "取引先情報（詳細未公表）"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.iwatani.co.jp/jpn/news/files/2026/20260417_news.pdf",
+      "type": "official",
+      "title": "不正アクセスで社員等の個人情報が取得されたおそれ",
+      "published_on": "2026-04-17",
+      "checked_on": "2026-10-27"
+    }
+  ],
+  "updates": [],
+  "notes": "グループ会社取引先情報は対象外。取得懸念と、情報の公開・悪用未確認を区別。"
+}

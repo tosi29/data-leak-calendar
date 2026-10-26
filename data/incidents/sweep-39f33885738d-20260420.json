@@ -1,0 +1,46 @@
+{
+  "id": "sweep-39f33885738d-20260420",
+  "organization": {
+    "name": "ウチヤマホールディングス",
+    "sector": "企業・団体"
+  },
+  "title": "ランサムウェア感染で従業員情報が流出した可能性",
+  "summary": "3月に検知した感染を調査し、社内ネットワーク内の一部従業員情報の外部流出可能性を公表。",
+  "published_on": "2026-04-20",
+  "first_published_on": "2026-03-09",
+  "publication_kind": "followup",
+  "occurred_on": null,
+  "detected_on": "2026-03-07",
+  "updated_on": "2026-10-27",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "ランサムウェア感染を伴う社内ネットワークへの不正アクセス。侵入経路の詳細は未公表。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "公表された対象規模。漏えいの可能性を含む。"
+    }
+  ],
+  "data_types": [
+    "従業員情報（詳細項目未公表）"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.uchiyama-gr.jp/ir/upload_file/tdnrelease/6059_20260417506153_P01_.pdf",
+      "type": "official",
+      "title": "ランサムウェア感染で従業員情報が流出した可能性",
+      "published_on": "2026-04-20",
+      "checked_on": "2026-10-27"
+    }
+  ],
+  "updates": [],
+  "notes": "PDFファイル名の日付ではなく本文記載の4月20日を採用。顧客・取引先情報の流出は未確認。"
+}

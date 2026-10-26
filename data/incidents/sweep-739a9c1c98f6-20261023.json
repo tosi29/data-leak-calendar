@@ -1,0 +1,59 @@
+{
+  "id": "sweep-739a9c1c98f6-20261023",
+  "organization": {
+    "name": "Mizkan（Mizkan Asia Pacific）",
+    "sector": "企業・団体"
+  },
+  "title": "問い合わせフォーム最大355件が流出した可能性",
+  "summary": "Studioへの不正アクセスで、サイトのフォーム送信内容が外部から取得可能な状態にあった。",
+  "published_on": "2026-10-23",
+  "first_published_on": "2026-10-23",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-27",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "vulnerability",
+    "detail": "Studioの一部機能の脆弱性を悪用した不正アクセス。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 355,
+      "unit": "records",
+      "qualifier": "maximum",
+      "description": "公表された対象規模。漏えいの可能性を含む。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "メールアドレス",
+    "電話番号",
+    "国名",
+    "会社名",
+    "問い合わせ内容"
+  ],
+  "related_vendor": "Studio",
+  "sources": [
+    {
+      "url": "https://www.mizkan.co.jp/file.jsp?id=2021_Renewal/files/pdf/emg/news/oshirase15.pdf",
+      "type": "official",
+      "title": "問い合わせフォーム最大355件が流出した可能性",
+      "published_on": "2026-10-23",
+      "checked_on": "2026-10-27"
+    }
+  ],
+  "updates": [],
+  "notes": "355件にはテスト送信等を含む。テスト等を除いた問い合わせは332件と推計。対象人数は確認中。",
+  "vendors": [
+    {
+      "name": "Studio",
+      "role": "service",
+      "detail": "ウェブサイト制作・運用プラットフォームの提供元。",
+      "source_index": 0
+    }
+  ]
+}

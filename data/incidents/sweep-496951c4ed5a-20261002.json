@@ -1,0 +1,47 @@
+{
+  "id": "sweep-496951c4ed5a-20261002",
+  "organization": {
+    "name": "沖縄県立芸術大学",
+    "sector": "教育・研究"
+  },
+  "title": "記念演奏会申込者207名のメールアドレスが漏えい",
+  "summary": "鑑賞案内メールの宛先をBccではなくToで一斉送信し、アドレスと一部氏名が相互に閲覧可能となった。",
+  "published_on": "2026-10-02",
+  "first_published_on": "2026-10-02",
+  "publication_kind": "initial",
+  "occurred_on": "2026-09-17",
+  "detected_on": "2026-09-17",
+  "updated_on": "2026-10-27",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "accident",
+  "cause": {
+    "category": "misdelivery",
+    "detail": "送信先・交付先または対象書類の確認が不十分だった。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 207,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表された対象規模。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス",
+    "氏名（一部）"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.okigei.ac.jp/news/%e9%96%8b%e5%ad%a640%e5%91%a8%e5%b9%b4%e8%a8%98%e5%bf%b5%e6%bc%94%e5%a5%8f%e4%bc%9a%e3%81%ae%e3%81%94%e6%a1%88%e5%86%85%e3%81%ab%e3%81%8a%e3%81%91%e3%82%8b%e9%9b%bb%e5%ad%90%e3%83%a1%e3%83%bc%e3%83%ab.html",
+      "type": "official",
+      "title": "記念演奏会申込者207名のメールアドレスが漏えい",
+      "published_on": "2026-10-02",
+      "checked_on": "2026-10-27"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

@@ -1,0 +1,59 @@
+{
+  "id": "sweep-e255ef64467c-20261023",
+  "organization": {
+    "name": "登米市（結婚支援事業）",
+    "sector": "自治体"
+  },
+  "title": "結婚支援事業の申込者39人の情報が漏えいした可能性",
+  "summary": "事業委託先の親会社サンケイリビング新聞社への不正アクセスで、申込者の連絡先・勤務先等に漏えいの可能性。",
+  "published_on": "2026-10-23",
+  "first_published_on": "2026-10-23",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-10-22",
+  "updated_on": "2026-10-27",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "外部サービスへの第三者による不正アクセス。具体的な侵入経路は未公表。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": 39,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表された対象規模。漏えいの可能性を含む。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "生年月日",
+    "電話番号",
+    "勤務先・業種",
+    "メールアドレス"
+  ],
+  "related_vendor": "サンケイリビング新聞社",
+  "sources": [
+    {
+      "url": "https://www.city.tome.miyagi.jp/koshitu/shisejoho/happyoshiryo/r8/documents/081023_houdou.pdf",
+      "type": "official",
+      "title": "結婚支援事業の申込者39人の情報が漏えいした可能性",
+      "published_on": "2026-10-23",
+      "checked_on": "2026-10-27"
+    }
+  ],
+  "updates": [],
+  "notes": "",
+  "vendors": [
+    {
+      "name": "サンケイリビング新聞社",
+      "role": "service",
+      "detail": "委託事業者の親会社。不正アクセスを受けたサーバー管理元。",
+      "source_index": 0
+    }
+  ]
+}

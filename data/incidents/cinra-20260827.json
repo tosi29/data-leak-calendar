@@ -10,16 +10,16 @@
   "publication_kind": "initial",
   "occurred_on": null,
   "detected_on": null,
-  "updated_on": "2026-10-15",
+  "updated_on": "2026-10-27",
   "incident_type": "attack",
   "leak_status": "suspected",
   "summary": "クラウド環境の認証情報が不正取得され、求人サービスの会員情報が流出した可能性。ログの制約からアクセスの有無を確定できないとした。",
   "impact": [
     {
-      "count": null,
+      "count": 21508,
       "unit": "people",
-      "qualifier": "unknown",
-      "description": "対象規模は未公表・調査中"
+      "qualifier": "exact",
+      "description": "漏えいの可能性がある登録会員。退会者を含む。"
     }
   ],
   "data_types": [
@@ -42,11 +42,24 @@
       "type": "official",
       "title": "求人サービス会員情報漏えいの可能性",
       "published_on": "2026-08-27",
-      "checked_on": "2026-10-15"
+      "checked_on": "2026-10-27"
+    },
+    {
+      "url": "https://www.cinra.co.jp/news/20261006",
+      "type": "official",
+      "title": "求人サービス「CINRA JOB」への不正アクセスによる個人情報漏えいのおそれに関する調査結果のご報告（最終報告）",
+      "published_on": "2026-10-06",
+      "checked_on": "2026-10-27"
     }
   ],
   "notes": "",
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-10-06",
+      "summary": "最終調査で対象会員21,508名を公表。記録の制約により漏えい可能性を否定できないと結論。",
+      "source_index": 1
+    }
+  ],
   "verification": "official",
   "related_vendor": null
 }

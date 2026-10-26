@@ -1,0 +1,71 @@
+{
+  "id": "sweep-c16e96688fd7-20261022",
+  "organization": {
+    "name": "新潟日報社",
+    "sector": "企業・団体"
+  },
+  "title": "新潟日報パスポート全会員の情報が漏えい",
+  "summary": "ブラストメールへの不正アクセスに伴い、最大約25万3千人分の情報が漏えいしたと公表。",
+  "published_on": "2026-10-22",
+  "first_published_on": "2026-10-22",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-27",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "外部サービスへの第三者による不正アクセス。具体的な侵入経路は未公表。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": 253000,
+      "unit": "people",
+      "qualifier": "maximum_approximate",
+      "description": "公表された対象規模。"
+    }
+  ],
+  "data_types": [
+    "氏名（カタカナ）",
+    "都道府県・市町村",
+    "メールアドレス",
+    "性別・年代",
+    "購読商品・メルマガサービス名"
+  ],
+  "related_vendor": "ラクスライトクラウド",
+  "sources": [
+    {
+      "url": "https://www.niigata-nippo.co.jp/articles/-/929006",
+      "type": "official",
+      "title": "当社会員の個人情報漏えいについて（第2報）",
+      "published_on": "2026-10-22",
+      "checked_on": "2026-10-27"
+    },
+    {
+      "url": "https://www.niigata-nippo.co.jp/articles/-/929743",
+      "type": "official",
+      "title": "当社会員の個人情報漏えいについて（第3報）",
+      "published_on": "2026-10-23",
+      "checked_on": "2026-10-27"
+    }
+  ],
+  "updates": [
+    {
+      "date": "2026-10-23",
+      "summary": "にいがた鮭プロジェクト会員約7,000人は現時点の確認済み流出対象に含まれないと説明。",
+      "source_index": 1
+    }
+  ],
+  "notes": "初報がさらに早いことを確認できないため、取得した第2報の初回公開10月22日を採用。鮭プロ会員約7,000人は確認済み人数へ加算しない。",
+  "vendors": [
+    {
+      "name": "ラクスライトクラウド",
+      "role": "service",
+      "detail": "メール配信サービス「ブラストメール」の提供元。",
+      "source_index": 0
+    }
+  ]
+}

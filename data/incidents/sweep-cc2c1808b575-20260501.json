@@ -1,0 +1,46 @@
+{
+  "id": "sweep-cc2c1808b575-20260501",
+  "organization": {
+    "name": "愛知県（STATION Ai）",
+    "sector": "自治体"
+  },
+  "title": "施設申込者3人のメールアドレスを宛先欄へ記載して送信",
+  "summary": "イベントスペース・貸し会議室の利用計画提出依頼を一斉送信する際、申込者同士でメールアドレスが見える状態にした。",
+  "published_on": "2026-05-01",
+  "first_published_on": "2026-05-01",
+  "publication_kind": "initial",
+  "occurred_on": "2026-04-30",
+  "detected_on": null,
+  "updated_on": "2026-10-27",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "accident",
+  "cause": {
+    "category": "misdelivery",
+    "detail": "送信先・交付先または対象書類の確認が不十分だった。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 3,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表された対象規模。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.pref.aichi.jp/press-release/20260501stationai.html",
+      "type": "official",
+      "title": "施設申込者3人のメールアドレスを宛先欄へ記載して送信",
+      "published_on": "2026-05-01",
+      "checked_on": "2026-10-27"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

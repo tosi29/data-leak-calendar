@@ -1,0 +1,55 @@
+{
+  "id": "sweep-a9de56164363-20261022",
+  "organization": {
+    "name": "東北電力フロンティア（eポイントモール）",
+    "sector": "企業・団体"
+  },
+  "title": "メール配信先最大約10万件が漏えいした可能性",
+  "summary": "運営委託先ADDIXが利用するブラストメールへの不正アクセスで、メールアドレス・内部管理IDに漏えいの可能性。",
+  "published_on": "2026-10-22",
+  "first_published_on": "2026-10-22",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-10-21",
+  "updated_on": "2026-10-27",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "外部サービスへの第三者による不正アクセス。具体的な侵入経路は未公表。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": 100000,
+      "unit": "records",
+      "qualifier": "maximum_approximate",
+      "description": "公表された対象規模。漏えいの可能性を含む。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス",
+    "内部管理ID"
+  ],
+  "related_vendor": "ラクスライトクラウド",
+  "sources": [
+    {
+      "url": "https://www.tohoku-frontier.co.jp/news/1960/",
+      "type": "official",
+      "title": "メール配信先最大約10万件が漏えいした可能性",
+      "published_on": "2026-10-22",
+      "checked_on": "2026-10-27"
+    }
+  ],
+  "updates": [],
+  "notes": "Studioのフォーム事案とは別。氏名・住所・パスワード・契約情報は当該サービスに連携していない。",
+  "vendors": [
+    {
+      "name": "ラクスライトクラウド",
+      "role": "service",
+      "detail": "ADDIXが利用するメール配信サービス提供元。",
+      "source_index": 0
+    }
+  ]
+}

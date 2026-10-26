@@ -1,0 +1,55 @@
+{
+  "id": "sweep-1161f0082359-20261008",
+  "organization": {
+    "name": "八十二長野銀行",
+    "sector": "企業・団体"
+  },
+  "title": "職員のメールアカウントが不正アクセスされ個人情報34名分が漏えいした可能性",
+  "summary": "フィッシングによる認証操作を通じて職員1名のメールアカウントが侵入され、個人情報等が閲覧された可能性。",
+  "published_on": "2026-10-08",
+  "first_published_on": "2026-10-08",
+  "publication_kind": "initial",
+  "occurred_on": "2026-10-07",
+  "detected_on": null,
+  "updated_on": "2026-10-27",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "credentials",
+    "detail": "海外企業を騙るフィッシングメールの認証操作を行い、正規の認証機能を悪用されて不正アクセスされた。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 34,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表された対象規模。漏えいの可能性を含む。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "勤務先",
+    "電話番号",
+    "メールアドレス"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://bank.82group.jp/file.jsp?id=release/2026/pdf/news20261019.pdf",
+      "type": "official",
+      "title": "職員のメールアカウントが不正アクセスされ個人情報34名分が漏えいした可能性",
+      "published_on": "2026-10-08",
+      "checked_on": "2026-10-27"
+    }
+  ],
+  "updates": [
+    {
+      "date": "2026-10-19",
+      "summary": "対象を個人34名、法人627社、その他11機関に特定。初報の35メールアドレスは関係機関分と説明。",
+      "source_index": 0
+    }
+  ],
+  "notes": "第2報が初報10月8日を明示。法人627社・関係11機関と個人34名は別集計。初報の35名表記を35個人として加算しない。"
+}

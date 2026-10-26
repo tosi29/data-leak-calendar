@@ -1,0 +1,47 @@
+{
+  "id": "sweep-219bd134a92a-20260706",
+  "organization": {
+    "name": "名古屋市（昭和区民生子ども課）",
+    "sector": "自治体"
+  },
+  "title": "家族現況報告書の提出依頼を別人へ誤送付",
+  "summary": "児童入所施設徴収金額を決めるための依頼文書を取り違え、住所・氏名が漏えいした。",
+  "published_on": "2026-07-06",
+  "first_published_on": "2026-07-06",
+  "publication_kind": "initial",
+  "occurred_on": "2026-07-01",
+  "detected_on": "2026-07-02",
+  "updated_on": "2026-10-27",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "accident",
+  "cause": {
+    "category": "misdelivery",
+    "detail": "送信先・交付先または対象書類の確認が不十分だった。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 1,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表された対象規模。"
+    }
+  ],
+  "data_types": [
+    "住所",
+    "氏名"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.city.nagoya.jp/houdou/press-showa/3004007/3005112.html",
+      "type": "official",
+      "title": "家族現況報告書の提出依頼を別人へ誤送付",
+      "published_on": "2026-07-06",
+      "checked_on": "2026-10-27"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

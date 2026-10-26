@@ -1,0 +1,53 @@
+{
+  "id": "sweep-55b4f0db68d0-20261009",
+  "organization": {
+    "name": "H.B.P HOTEL",
+    "sector": "企業・団体"
+  },
+  "title": "過去に利用した宿泊管理システムから宿泊者情報が漏えい",
+  "summary": "9月18日夜から19日夕方の不正アクセスにより、旧宿泊管理システム内の個人情報が漏えいした。",
+  "published_on": "2026-10-09",
+  "first_published_on": "2026-10-09",
+  "publication_kind": "initial",
+  "occurred_on": "2026-09-18",
+  "detected_on": null,
+  "updated_on": "2026-10-27",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。具体的な侵入経路は未公表。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "公表された対象規模。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "メールアドレス",
+    "電話番号",
+    "郵便番号・住所",
+    "生年月日・性別",
+    "職業・国籍",
+    "予約・滞在先情報",
+    "事前チェックイン番号"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://hbphotel.jp/column/archives/570",
+      "type": "official",
+      "title": "過去に利用した宿泊管理システムから宿泊者情報が漏えい",
+      "published_on": "2026-10-09",
+      "checked_on": "2026-10-27"
+    }
+  ],
+  "updates": [],
+  "notes": "現在利用しているシステムとは異なる。漏えい対象人数は未公表。"
+}

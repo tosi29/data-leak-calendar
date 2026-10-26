@@ -1,0 +1,52 @@
+{
+  "id": "sweep-941ea0749f2c-20260827",
+  "organization": {
+    "name": "ホテル白菊",
+    "sector": "企業・団体"
+  },
+  "title": "予約・販売管理システムから宿泊者情報が流出したと最終報告",
+  "summary": "ホテル内のパソコン1台のマルウェア感染を経由し、予約システムへの不正アクセスと一部個人データの流出を確認。",
+  "published_on": "2026-08-27",
+  "first_published_on": null,
+  "publication_kind": "followup",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-27",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "ホテル内パソコンのマルウェア感染を経由して宿泊予約・販売管理システムへ不正アクセス。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "公表された対象規模。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "電話番号",
+    "メールアドレス",
+    "年齢・性別",
+    "宿泊日",
+    "利用人数"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.shiragiku.co.jp/news/%e3%80%90%e6%9c%80%e7%b5%82%e5%a0%b1%e5%91%8a%e3%80%91-%e5%ae%bf%e6%b3%8a%e4%ba%88%e7%b4%84%e3%83%bb%e8%b2%a9%e5%a3%b2%e7%ae%a1%e7%90%86%e3%82%b7%e3%82%b9%e3%83%86%e3%83%a0%e3%81%b8%e3%81%ae%e4%b8%8d/",
+      "type": "official",
+      "title": "予約・販売管理システムから宿泊者情報が流出したと最終報告",
+      "published_on": "2026-08-27",
+      "checked_on": "2026-10-27"
+    }
+  ],
+  "updates": [],
+  "notes": "初報・中間報告の正確な公表日は未確定。取得した最終報告8月27日へ掲載。情報の対象宿泊日は発生日に置き換えない。"
+}

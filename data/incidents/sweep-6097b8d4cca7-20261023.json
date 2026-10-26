@@ -1,0 +1,59 @@
+{
+  "id": "sweep-6097b8d4cca7-20261023",
+  "organization": {
+    "name": "モニクルフィナンシャル",
+    "sector": "企業・団体"
+  },
+  "title": "旧サイトのフォーム情報994件が漏えいしたおそれ",
+  "summary": "Studioへの不正アクセスで、サイトのフォーム送信内容が外部から取得可能な状態にあった。",
+  "published_on": "2026-10-23",
+  "first_published_on": "2026-10-23",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-27",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "vulnerability",
+    "detail": "Studioの一部機能の脆弱性を悪用した不正アクセス。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 737,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表された対象規模。漏えいの可能性を含む。"
+    }
+  ],
+  "data_types": [
+    "氏名・フリガナ",
+    "会社名",
+    "電話番号",
+    "メールアドレス",
+    "問い合わせ内容",
+    "採用・経歴・資格・年齢層・性別等"
+  ],
+  "related_vendor": "Studio",
+  "sources": [
+    {
+      "url": "https://moniclefinancial.co.jp/news/20261023",
+      "type": "official",
+      "title": "旧サイトのフォーム情報994件が漏えいしたおそれ",
+      "published_on": "2026-10-23",
+      "checked_on": "2026-10-27"
+    }
+  ],
+  "updates": [],
+  "notes": "送信データ994件、対象人数737名。件数と人数を重複計上しない。",
+  "vendors": [
+    {
+      "name": "Studio",
+      "role": "service",
+      "detail": "ウェブサイト制作・運用プラットフォームの提供元。",
+      "source_index": 0
+    }
+  ]
+}

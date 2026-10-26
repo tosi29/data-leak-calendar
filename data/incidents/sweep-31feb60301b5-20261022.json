@@ -1,0 +1,57 @@
+{
+  "id": "sweep-31feb60301b5-20261022",
+  "organization": {
+    "name": "周南市（ファンクラブメールマガジン）",
+    "sector": "自治体"
+  },
+  "title": "メールマガジン登録情報302件が漏えいした可能性",
+  "summary": "メール配信サービスへの不正アクセスにより、登録者の氏名・住所・電話番号・メールアドレス等に漏えいの可能性。",
+  "published_on": "2026-10-22",
+  "first_published_on": "2026-10-22",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-27",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "外部サービスへの第三者による不正アクセス。具体的な侵入経路は未公表。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": 302,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "公表された対象規模。漏えいの可能性を含む。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "電話番号",
+    "メールアドレス"
+  ],
+  "related_vendor": "ラクスライトクラウド",
+  "sources": [
+    {
+      "url": "https://www.city.shunan.lg.jp/soshiki/101/153883.html",
+      "type": "official",
+      "title": "メールマガジン登録情報302件が漏えいした可能性",
+      "published_on": "2026-10-22",
+      "checked_on": "2026-10-27"
+    }
+  ],
+  "updates": [],
+  "notes": "同市のアルカディア関連の事案とは別のサービス。件数・追加項目は確認中。",
+  "vendors": [
+    {
+      "name": "ラクスライトクラウド",
+      "role": "service",
+      "detail": "メール配信サービス「ブラストメール」の提供元。",
+      "source_index": 0
+    }
+  ]
+}

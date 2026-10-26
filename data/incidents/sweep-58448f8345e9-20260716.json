@@ -1,0 +1,50 @@
+{
+  "id": "sweep-58448f8345e9-20260716",
+  "organization": {
+    "name": "東海国立大学機構",
+    "sector": "教育・研究"
+  },
+  "title": "SharePointの権限設定不備で教職員・学生の情報を権限外の利用者が閲覧可能",
+  "summary": "権限設定の誤変更でファイルの閲覧・ダウンロードを確認。教職員18,635名と125名、学生3名の情報が含まれていた。",
+  "published_on": "2026-07-16",
+  "first_published_on": "2026-07-16",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-06-17",
+  "updated_on": "2026-10-27",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "accident",
+  "cause": {
+    "category": "configuration",
+    "detail": "SharePointサイト構築作業中にアクセス権限設定を誤変更。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "公表された対象規模。漏えいの可能性を含む。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "所属",
+    "機構メールアドレス",
+    "機構アカウント",
+    "生年月日（一部）"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.thers.ac.jp/news/2026/07/20260716.html",
+      "type": "official",
+      "title": "SharePointの権限設定不備で教職員・学生の情報を権限外の利用者が閲覧可能",
+      "published_on": "2026-07-16",
+      "checked_on": "2026-10-27"
+    }
+  ],
+  "updates": [],
+  "notes": "教職員18,635名と125名の相互の重複・内外数が明示されないため一意人数に合算しない。学生3名。Microsoftは製品提供元であり、設定不備を行った委託先としては扱わない。"
+}

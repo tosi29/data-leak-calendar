@@ -1,0 +1,51 @@
+{
+  "id": "sweep-0609510e5e70-20260403",
+  "organization": {
+    "name": "あなぶき興産",
+    "sector": "企業・団体"
+  },
+  "title": "ランサムウェア攻撃に伴う個人情報の外部漏えいを確認",
+  "summary": "不動産取引の顧客、中途採用候補者、役員・従業員・退職者の情報の一部が漏えいした、または可能性があると公表。",
+  "published_on": "2026-04-03",
+  "first_published_on": null,
+  "publication_kind": "followup",
+  "occurred_on": null,
+  "detected_on": "2026-02-03",
+  "updated_on": "2026-10-27",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "vulnerability",
+    "detail": "通信機器の脆弱性を悪用して侵入し、管理者権限を奪取して複数サーバーをランサムウェアで暗号化した。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "公表された対象規模。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "電話番号",
+    "職務経歴",
+    "生年月日",
+    "異動履歴"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.anabuki.ne.jp/cms_upload/news/429/20260403_higaihassei4.pdf",
+      "type": "official",
+      "title": "ランサムウェア攻撃に伴う個人情報の外部漏えいを確認",
+      "published_on": "2026-04-03",
+      "checked_on": "2026-10-27"
+    }
+  ],
+  "updates": [],
+  "notes": "一部の個人情報の外部漏えいを確認。対象者・項目・件数には未確定部分が残る。JOINTアルファ会員情報は対象外。初報日は未特定。"
+}

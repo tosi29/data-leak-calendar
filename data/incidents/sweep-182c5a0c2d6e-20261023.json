@@ -1,0 +1,54 @@
+{
+  "id": "sweep-182c5a0c2d6e-20261023",
+  "organization": {
+    "name": "富山県（Smart Lab TOYAMA）",
+    "sector": "自治体"
+  },
+  "title": "働き方改革コミュニティ登録情報214件が漏えいしたおそれ",
+  "summary": "メール配信システムへの不正アクセスで、Smart Lab TOYAMA登録情報の漏えいのおそれを公表。",
+  "published_on": "2026-10-23",
+  "first_published_on": "2026-10-23",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-27",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "外部メール配信サービス「ブラストメール」への不正アクセス。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": 214,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "公表された対象規模。漏えいの可能性を含む。"
+    }
+  ],
+  "data_types": [
+    "メール配信登録者情報（詳細項目未公表）"
+  ],
+  "related_vendor": "ラクスライトクラウド",
+  "sources": [
+    {
+      "url": "https://www.pref.toyama.jp/130331/20261023sumarabo.html",
+      "type": "official",
+      "title": "働き方改革コミュニティ登録情報214件が漏えいしたおそれ",
+      "published_on": "2026-10-23",
+      "checked_on": "2026-10-27"
+    }
+  ],
+  "updates": [],
+  "notes": "",
+  "vendors": [
+    {
+      "name": "ラクスライトクラウド",
+      "role": "service",
+      "detail": "「ブラストメール」の提供元。",
+      "source_index": 0
+    }
+  ]
+}

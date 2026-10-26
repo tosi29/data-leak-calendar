@@ -8,12 +8,12 @@
   "published_on": "2026-09-30",
   "occurred_on": null,
   "detected_on": "2026-09-26",
-  "updated_on": "2026-10-15",
+  "updated_on": "2026-10-27",
   "first_published_on": "2026-09-30",
   "publication_kind": "initial",
   "verification": "official",
   "leak_status": "suspected",
-  "summary": "管理サーバーへの不正アクセスにより、教職員・一部学生・外部講師などの情報が漏えいしたおそれ。",
+  "summary": "管理サーバーへの不正アクセスにより教職員等の情報が漏えいしたおそれ。第2報では学生情報は対象に含まれないと確認した。",
   "impact": [
     {
       "count": null,
@@ -40,19 +40,36 @@
       "type": "official",
       "title": "不正アクセスによる情報漏えいのおそれに関するお知らせとお詫び | 2026年お知らせ一覧 | 学校法人 修道学園サイト",
       "published_on": "2026-09-30",
-      "checked_on": "2026-10-15"
+      "checked_on": "2026-10-27"
+    },
+    {
+      "url": "https://www.shudo-u.ac.jp/gakuen/information/mh85jl0000000021.html",
+      "type": "official",
+      "title": "不正アクセスによる情報漏えいのおそれに関するお知らせとお詫び（第２報）",
+      "published_on": "2026-10-08",
+      "checked_on": "2026-10-27"
     }
   ],
   "notes": "",
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-10-08",
+      "summary": "第2報で、漏えいのおそれがある情報に学生情報は含まれないと確認。",
+      "source_index": 1
+    }
+  ],
   "incident_type": "attack",
   "vendor_research": {
-    "checked_on": "2026-10-15",
+    "checked_on": "2026-10-27",
     "result": "not_identified",
     "note": "掲載出典と追加検索で、当該事案に関係する外部の開発・運用・サービス・基盤会社の社名と役割を特定できませんでした。",
     "source_checks": [
       {
         "source_index": 0,
+        "status": "reviewed"
+      },
+      {
+        "source_index": 1,
         "status": "reviewed"
       }
     ]

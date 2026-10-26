@@ -1,0 +1,56 @@
+{
+  "id": "sweep-f22971ea147b-20261023",
+  "organization": {
+    "name": "環境省（関連メールマガジン）",
+    "sector": "行政"
+  },
+  "title": "関連メールマガジン6種類の配信先情報が漏えいした可能性",
+  "summary": "ブラストメールへの不正アクセスにより、GEOC・地域循環共生圏・東北EPO・福島環境再生プラザ・関東ESD・きんき環境館の配信先に影響の可能性。",
+  "published_on": "2026-10-23",
+  "first_published_on": "2026-10-23",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-27",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "外部サービスへの第三者による不正アクセス。具体的な侵入経路は未公表。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "公表された対象規模。漏えいの可能性を含む。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス",
+    "氏名（一部）",
+    "属性・所属・居住地・登録動機（一部）"
+  ],
+  "related_vendor": "ラクスライトクラウド",
+  "sources": [
+    {
+      "url": "https://www.env.go.jp/press/press_05784.html",
+      "type": "official",
+      "title": "関連メールマガジン6種類の配信先情報が漏えいした可能性",
+      "published_on": "2026-10-23",
+      "checked_on": "2026-10-27"
+    }
+  ],
+  "updates": [],
+  "notes": "6種類はメールマガジン数。いであによる地域循環共生圏等の個別公表と対象が重複するため、人数・件数の合算に利用しない。",
+  "vendors": [
+    {
+      "name": "ラクスライトクラウド",
+      "role": "service",
+      "detail": "各メールマガジンのメール配信サービス提供元。",
+      "source_index": 0
+    }
+  ]
+}

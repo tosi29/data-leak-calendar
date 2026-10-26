@@ -1,0 +1,46 @@
+{
+  "id": "sweep-1f9174b98b06-20261009",
+  "organization": {
+    "name": "キッセイ商事・キッセイ薬品工業",
+    "sector": "企業・団体"
+  },
+  "title": "グループ会社への不正アクセスで要配慮個人情報等が流出した可能性",
+  "summary": "キッセイ商事で不正アクセスを確認。第三者からデータ窃取を通知され、要配慮個人情報等を含む影響範囲を調査中。",
+  "published_on": "2026-10-09",
+  "first_published_on": "2026-10-09",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-10-07",
+  "updated_on": "2026-10-27",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。具体的な侵入経路は未公表。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "公表された対象規模。漏えいの可能性を含む。"
+    }
+  ],
+  "data_types": [
+    "要配慮個人情報等（詳細項目未公表）"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.kissei.co.jp/news/uploaded/8799a42c0104c787a0519f1fabd3b2a5.pdf",
+      "type": "official",
+      "title": "グループ会社への不正アクセスで要配慮個人情報等が流出した可能性",
+      "published_on": "2026-10-09",
+      "checked_on": "2026-10-27"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

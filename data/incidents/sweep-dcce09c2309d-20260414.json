@@ -1,0 +1,69 @@
+{
+  "id": "sweep-dcce09c2309d-20260414",
+  "organization": {
+    "name": "モビリティプラットフォーム（MaaS Car）",
+    "sector": "企業・団体"
+  },
+  "title": "コールセンター再委託先で会員情報が漏えいした可能性",
+  "summary": "日本テレネットへのランサムウェア攻撃に伴い、氏名・電話番号・コールセンター対応履歴が漏えいした可能性。",
+  "published_on": "2026-04-14",
+  "first_published_on": "2026-04-14",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-04-13",
+  "updated_on": "2026-10-27",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "コールセンター再委託先へのランサムウェア型サイバー攻撃。侵入経路の詳細は未公表。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "公表された対象規模。漏えいの可能性を含む。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "電話番号",
+    "対応履歴"
+  ],
+  "related_vendor": "日本テレネット",
+  "sources": [
+    {
+      "url": "https://mobilityplatform.jp/information/20260414/",
+      "type": "official",
+      "title": "再委託先への不正アクセスによる個人情報漏えいの可能性について",
+      "published_on": "2026-04-14",
+      "checked_on": "2026-10-27"
+    },
+    {
+      "url": "https://mobilityplatform.jp/information/20260527/",
+      "type": "official",
+      "title": "調査結果と再発防止策の最終報告",
+      "published_on": "2026-05-27",
+      "checked_on": "2026-10-27"
+    }
+  ],
+  "updates": [
+    {
+      "date": "2026-05-27",
+      "summary": "調査結果と対策を報告。流出・悪用の具体的な痕跡は未確認で監視を継続。",
+      "source_index": 1
+    }
+  ],
+  "notes": "3月19日の漏えいなしとの報告が4月13日に漏えい可能性ありへ変わった。カード情報・運転免許証はサーバーに保存していない。",
+  "vendors": [
+    {
+      "name": "日本テレネット",
+      "role": "service",
+      "detail": "ユーピーアールを通じたコールセンター業務の再委託先。",
+      "source_index": 0
+    }
+  ]
+}

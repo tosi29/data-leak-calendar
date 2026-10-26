@@ -1,0 +1,54 @@
+{
+  "id": "sweep-31a9713d1de7-20261017",
+  "organization": {
+    "name": "ウィズねこちゃん",
+    "sector": "企業・団体"
+  },
+  "title": "旧予約システムの顧客予約情報が漏えい",
+  "summary": "過去に利用したファインズの予約システムへの不正アクセスにより、同店の予約者情報も漏えい対象になった。",
+  "published_on": "2026-10-17",
+  "first_published_on": "2026-10-17",
+  "publication_kind": "initial",
+  "occurred_on": "2026-09-21",
+  "detected_on": null,
+  "updated_on": "2026-10-27",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "旧予約システム提供元への第三者による不正アクセス。具体的な侵入経路は未公表。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "公表された対象規模。"
+    }
+  ],
+  "data_types": [
+    "予約情報（氏名・連絡先等）"
+  ],
+  "related_vendor": "ファインズ",
+  "sources": [
+    {
+      "url": "https://www.with-necochan.com/news/4582",
+      "type": "official",
+      "title": "旧予約システムの顧客予約情報が漏えい",
+      "published_on": "2026-10-17",
+      "checked_on": "2026-10-27"
+    }
+  ],
+  "updates": [],
+  "notes": "対象データの期間は2020年1月8日～2025年1月31日。実人数や個別の範囲は調査中。住所・生年月日・性別等の追加項目は漏えいのおそれとして調査中。",
+  "vendors": [
+    {
+      "name": "ファインズ",
+      "role": "service",
+      "detail": "以前利用していた予約システムの提供元。",
+      "source_index": 0
+    }
+  ]
+}

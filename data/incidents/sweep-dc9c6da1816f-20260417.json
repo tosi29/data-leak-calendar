@@ -1,0 +1,49 @@
+{
+  "id": "sweep-dc9c6da1816f-20260417",
+  "organization": {
+    "name": "サンテック（カービューティシャンサンテック東京）",
+    "sector": "企業・団体"
+  },
+  "title": "サーバー侵害で顧客約10人の個人情報が流出した可能性",
+  "summary": "サーバーのデータベースが改ざんされ、保存されていた顧客の住所・氏名・連絡先に影響した可能性を公表。",
+  "published_on": "2026-04-17",
+  "first_published_on": "2026-04-17",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-27",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "外部攻撃で管理権限を持つサーバーのデータベース情報が改ざんされた。侵入手法の詳細は未公表。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": 10,
+      "unit": "people",
+      "qualifier": "approximate",
+      "description": "公表された対象規模。漏えいの可能性を含む。"
+    }
+  ],
+  "data_types": [
+    "住所",
+    "氏名または法人名",
+    "電話番号",
+    "メールアドレス"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.sk-suntech.co.jp/news/info/entry-99.html",
+      "type": "official",
+      "title": "サーバー侵害で顧客約10人の個人情報が流出した可能性",
+      "published_on": "2026-04-17",
+      "checked_on": "2026-10-27"
+    }
+  ],
+  "updates": [],
+  "notes": "2月末頃からサイトが閲覧できない状態となった。法人名を含むが、公表単位の「約10名分」を保持。カード情報は対象外。"
+}

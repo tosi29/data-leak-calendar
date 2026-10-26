@@ -1,0 +1,53 @@
+{
+  "id": "sweep-922d651794ae-20261020",
+  "organization": {
+    "name": "富士急ハイランド",
+    "sector": "企業・団体"
+  },
+  "title": "CLUBフジQの159名のアカウントに不正ログイン",
+  "summary": "リスト型攻撃により公式アプリ・会員サイトの159名のアカウントへログインされ、会員情報が閲覧された可能性。",
+  "published_on": "2026-10-20",
+  "first_published_on": "2026-10-20",
+  "publication_kind": "initial",
+  "occurred_on": "2026-09-04",
+  "detected_on": null,
+  "updated_on": "2026-10-27",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "credentials",
+    "detail": "外部で入手されたメールアドレスとパスワードの一覧を用いたリスト型攻撃。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 159,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表された対象規模。漏えいの可能性を含む。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "メールアドレス",
+    "生年月日・性別",
+    "電話番号",
+    "郵便番号・都道府県",
+    "会員番号",
+    "一部の購入・チケット情報",
+    "カード番号の一部・有効期限・名義"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.fujiq.jp/news/20261020_oshirase.html",
+      "type": "official",
+      "title": "CLUBフジQの159名のアカウントに不正ログイン",
+      "published_on": "2026-10-20",
+      "checked_on": "2026-10-27"
+    }
+  ],
+  "updates": [],
+  "notes": "不正ログインは9月7日まで。159名へのログインは確認済み。個別情報の閲覧は可能性。"
+}

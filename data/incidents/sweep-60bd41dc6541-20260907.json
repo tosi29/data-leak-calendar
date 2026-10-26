@@ -1,0 +1,47 @@
+{
+  "id": "sweep-60bd41dc6541-20260907",
+  "organization": {
+    "name": "学校法人武蔵野大学",
+    "sector": "教育・研究"
+  },
+  "title": "ランサムウェア調査で氏名・住所を含むファイル流出を確認",
+  "summary": "6月15日のサーバー攻撃を調査し、共有フォルダー内の複数ファイルが流出し一部に個人情報があると第2報で公表。",
+  "published_on": "2026-09-07",
+  "first_published_on": null,
+  "publication_kind": "followup",
+  "occurred_on": "2026-06-15",
+  "detected_on": null,
+  "updated_on": "2026-10-27",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "法人管理サーバーへのランサムウェア攻撃。具体的な侵入経路は未公表。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "公表された対象規模。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所等"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://ef.musashino-u.ac.jp/news/20260907-8715.html",
+      "type": "official",
+      "title": "ランサムウェア調査で氏名・住所を含むファイル流出を確認",
+      "published_on": "2026-09-07",
+      "checked_on": "2026-10-27"
+    }
+  ],
+  "updates": [],
+  "notes": "初報の正確な公表日は未確定。取得した第2報9月7日へ掲載。対象者・件数・追加項目は調査中。"
+}

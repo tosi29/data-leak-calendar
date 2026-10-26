@@ -1,0 +1,46 @@
+{
+  "id": "sweep-5dc2d7793441-20261008",
+  "organization": {
+    "name": "大手前病院",
+    "sector": "医療・福祉"
+  },
+  "title": "メールアカウントへの不正アクセスで職員等の個人情報が漏えいした可能性",
+  "summary": "使用するメールアカウントへの第三者の不正アクセスを確認。職員等の情報が対象で、患者情報は含まれない。",
+  "published_on": "2026-10-08",
+  "first_published_on": "2026-10-08",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-27",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "病院が使用するメールアカウントへの不正アクセス。具体的な侵入経路は未公表。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "公表された対象規模。漏えいの可能性を含む。"
+    }
+  ],
+  "data_types": [
+    "職員等の個人情報（項目未公表）"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://otemae.kkr.or.jp/news/20261008_10834.html",
+      "type": "official",
+      "title": "メールアカウントへの不正アクセスで職員等の個人情報が漏えいした可能性",
+      "published_on": "2026-10-08",
+      "checked_on": "2026-10-27"
+    }
+  ],
+  "updates": [],
+  "notes": "4月公表のメディカ出版関連の情報とは別のメールアカウント被害。"
+}

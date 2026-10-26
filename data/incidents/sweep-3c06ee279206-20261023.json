@@ -1,0 +1,51 @@
+{
+  "id": "sweep-3c06ee279206-20261023",
+  "organization": {
+    "name": "日本ピザハット",
+    "sector": "企業・団体"
+  },
+  "title": "決済APIへの不正アクセスで顧客情報の漏えいを確認",
+  "summary": "国内オンライン注文サービスの決済APIを経由し、顧客ID・メールアドレス等が取得された。",
+  "published_on": "2026-10-23",
+  "first_published_on": "2026-10-23",
+  "publication_kind": "initial",
+  "occurred_on": "2026-10-19",
+  "detected_on": null,
+  "updated_on": "2026-10-27",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "決済APIへの不正アクセスにより、顧客情報等を含むデータベースから一部情報が取得された。詳細な原因は調査中。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "公表された対象規模。"
+    }
+  ],
+  "data_types": [
+    "顧客ID",
+    "メールアドレス",
+    "電話番号",
+    "削除済み顧客情報の記録",
+    "セッションログイントークン",
+    "取引記録"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://corp.pizzahut.jp/info/5540",
+      "type": "official",
+      "title": "決済APIへの不正アクセスで顧客情報の漏えいを確認",
+      "published_on": "2026-10-23",
+      "checked_on": "2026-10-27"
+    }
+  ],
+  "updates": [],
+  "notes": "クレジットカード情報は含まれない。"
+}

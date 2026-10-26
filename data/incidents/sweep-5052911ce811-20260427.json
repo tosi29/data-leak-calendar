@@ -1,0 +1,48 @@
+{
+  "id": "sweep-5052911ce811-20260427",
+  "organization": {
+    "name": "呉市（障害福祉課）",
+    "sector": "自治体"
+  },
+  "title": "障害福祉サービス支給決定通知書1名分を別人へ誤送付",
+  "summary": "2枚重なった通知書に気付かず、別人の封筒に同封して個人情報が漏えいした。",
+  "published_on": "2026-04-27",
+  "first_published_on": "2026-04-27",
+  "publication_kind": "initial",
+  "occurred_on": "2026-04-21",
+  "detected_on": "2026-04-24",
+  "updated_on": "2026-10-27",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "accident",
+  "cause": {
+    "category": "misdelivery",
+    "detail": "封入時の確認不足に加え、書類不足に気付いた際に他の封筒への混入を確認しなかった。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 1,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表された対象規模。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "障害福祉サービス支給決定内容"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.city.kure.lg.jp/uploaded/attachment/111027.pdf",
+      "type": "official",
+      "title": "障害福祉サービス支給決定通知書1名分を別人へ誤送付",
+      "published_on": "2026-04-27",
+      "checked_on": "2026-10-27"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

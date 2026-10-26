@@ -6,11 +6,11 @@
   },
   "title": "講座用チャットで受講者情報が閲覧可能に",
   "summary": "デジタルスキル講座の受講者71人の氏名とメールアドレスが、他の受講者・講師から閲覧可能になっていた。",
-  "published_on": "2026-09-11",
+  "published_on": "2026-09-09",
   "occurred_on": "2026-07-14",
-  "detected_on": null,
-  "updated_on": "2026-10-15",
-  "first_published_on": "2026-09-11",
+  "detected_on": "2026-08-31",
+  "updated_on": "2026-10-27",
+  "first_published_on": "2026-09-09",
   "publication_kind": "initial",
   "verification": "official",
   "leak_status": "exposed",
@@ -38,19 +38,36 @@
       "type": "official",
       "title": "講座受講者の個人情報の漏えいについて – 練馬区立男女共同参画センターえーる",
       "published_on": "2026-09-11",
-      "checked_on": "2026-10-15"
+      "checked_on": "2026-10-27"
+    },
+    {
+      "url": "https://www.city.nerima.tokyo.jp/kusei/koho/hodo/r8/r809/20260909.files/20260909.pdf",
+      "type": "official",
+      "title": "練馬区プレスリリース送付日 2026 年（令和８年）９月９日 講座受講者の個人情報の漏えいについて とき ９月９日（水）発表 ８月31日（月）、男女共同参画センター（指定管理者：特定非営利活動法人練馬区障害者 福祉推進機構）で実施している「女性のためのデジタル",
+      "published_on": "2026-09-09",
+      "checked_on": "2026-10-27"
     }
   ],
-  "notes": "7月27日に非表示化。ホテル運営の株式会社TRUNKのメール事案とは別件。",
-  "updates": [],
+  "notes": "委託先は7月25日に指摘を受け27日に修正したが、区の認知は8月31日。初回公表は公式プレス資料の9月9日。",
+  "updates": [
+    {
+      "date": "2026-09-09",
+      "summary": "公式資料で初回公表日9月9日を確認し、掲載日を報道日の9月11日から修正。",
+      "source_index": 1
+    }
+  ],
   "incident_type": "accident",
   "vendor_research": {
-    "checked_on": "2026-10-15",
+    "checked_on": "2026-10-27",
     "result": "not_identified",
     "note": "関連先「TRUNK株式会社（講座運営）」は業務委託・提携等の関係です。当該システムの開発・運用・基盤担当であることは今回の調査では確認できませんでした。",
     "source_checks": [
       {
         "source_index": 0,
+        "status": "reviewed"
+      },
+      {
+        "source_index": 1,
         "status": "reviewed"
       }
     ]

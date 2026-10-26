@@ -1,0 +1,54 @@
+{
+  "id": "sweep-a1f93cc9881f-20261009",
+  "organization": {
+    "name": "LINEヤフー（DS.LAB）",
+    "sector": "企業・団体"
+  },
+  "title": "コミュニティ利用者1,750名の情報が閲覧・取得された可能性",
+  "summary": "DS.LABで利用する委託先システムへの不正アクセスで、ユーザー情報に漏えいの可能性。",
+  "published_on": "2026-10-09",
+  "first_published_on": "2026-10-09",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-10-06",
+  "updated_on": "2026-10-27",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "外部コミュニティサービスへの第三者による不正アクセス。具体的な侵入経路は未公表。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": 1750,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表された対象規模。漏えいの可能性を含む。"
+    }
+  ],
+  "data_types": [
+    "コミュニティ登録情報（プロフィール等）"
+  ],
+  "related_vendor": "コミューン",
+  "sources": [
+    {
+      "url": "https://www.lycorp.co.jp/ja/privacy-security/announcement/020892/",
+      "type": "official",
+      "title": "コミュニティ利用者1,750名の情報が閲覧・取得された可能性",
+      "published_on": "2026-10-09",
+      "checked_on": "2026-10-27"
+    }
+  ],
+  "updates": [],
+  "notes": "",
+  "vendors": [
+    {
+      "name": "コミューン",
+      "role": "service",
+      "detail": "コミュニティプラットフォーム「Commune」の提供元。",
+      "source_index": 0
+    }
+  ]
+}

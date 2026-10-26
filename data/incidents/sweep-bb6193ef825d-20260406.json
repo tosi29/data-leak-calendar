@@ -1,0 +1,49 @@
+{
+  "id": "sweep-bb6193ef825d-20260406",
+  "organization": {
+    "name": "室町殖産・室町建物",
+    "sector": "企業・団体"
+  },
+  "title": "危機管理関連サービスで緊急連絡先情報が漏えいした可能性",
+  "summary": "外部サービスへのサイバー攻撃に伴い、社員・協力会社・ビル入居者等の緊急連絡先情報の流出可能性を公表。",
+  "published_on": "2026-04-06",
+  "first_published_on": "2026-04-06",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-27",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "外部事業者の危機管理関連サービスに対する不正アクセス。事業者名・侵入経路は未公表。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "公表された対象規模。漏えいの可能性を含む。"
+    }
+  ],
+  "data_types": [
+    "会社名",
+    "氏名",
+    "電話番号",
+    "メールアドレス"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://tm.muromachi.jp/cms/wp-content/uploads/2026/04/df97cc539e91558bb9226750d3f00c76.pdf",
+      "type": "official",
+      "title": "危機管理関連サービスで緊急連絡先情報が漏えいした可能性",
+      "published_on": "2026-04-06",
+      "checked_on": "2026-10-27"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

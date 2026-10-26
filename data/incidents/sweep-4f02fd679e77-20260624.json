@@ -1,0 +1,55 @@
+{
+  "id": "sweep-4f02fd679e77-20260624",
+  "organization": {
+    "name": "はこだてHotWeb",
+    "sector": "企業・団体"
+  },
+  "title": "メールアカウントとハッシュ化パスワードが漏えいした可能性",
+  "summary": "上位メールサーバー管理会社のシステムへの不正アクセスにより、利用者の認証情報が漏えいした可能性を公表。",
+  "published_on": "2026-06-24",
+  "first_published_on": "2026-06-24",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-06-23",
+  "updated_on": "2026-10-27",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "vulnerability",
+    "detail": "メールシステムで利用する第三者製ソフトウェアの脆弱性を悪用した不正アクセス。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "公表された対象規模。漏えいの可能性を含む。"
+    }
+  ],
+  "data_types": [
+    "メールアカウント",
+    "ハッシュ化パスワード"
+  ],
+  "related_vendor": "KDDI",
+  "sources": [
+    {
+      "url": "https://www.hotweb.or.jp/20260624i/",
+      "type": "official",
+      "title": "メールアカウントとハッシュ化パスワードが漏えいした可能性",
+      "published_on": "2026-06-24",
+      "checked_on": "2026-10-27"
+    }
+  ],
+  "updates": [],
+  "notes": "",
+  "vendors": [
+    {
+      "name": "KDDI",
+      "role": "service",
+      "detail": "公式案内で参照されたISP事業者向けメールシステムの提供元。",
+      "source_index": 0
+    }
+  ]
+}

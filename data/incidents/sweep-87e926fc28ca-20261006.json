@@ -1,0 +1,47 @@
+{
+  "id": "sweep-87e926fc28ca-20261006",
+  "organization": {
+    "name": "山口大学",
+    "sector": "教育・研究"
+  },
+  "title": "教職員メールアカウントから連絡先967件が漏えいした可能性",
+  "summary": "フィッシングでアカウントが乗っ取られ、氏名・メールアドレス631件とメールアドレスのみ336件が第三者の閲覧可能な状態に。",
+  "published_on": "2026-10-06",
+  "first_published_on": "2026-10-06",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-27",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "credentials",
+    "detail": "フィッシングサイトに入力したアカウント・パスワードを窃取されてアカウントが乗っ取られた。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 967,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "公表された対象規模。漏えいの可能性を含む。"
+    }
+  ],
+  "data_types": [
+    "氏名（一部）",
+    "メールアドレス"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.yamaguchi-u.ac.jp/news/52728/index.html",
+      "type": "official",
+      "title": "教職員メールアカウントから連絡先967件が漏えいした可能性",
+      "published_on": "2026-10-06",
+      "checked_on": "2026-10-27"
+    }
+  ],
+  "updates": [],
+  "notes": "8月26日の不審メール送信先463件は連絡先967件の内数で、漏えい件数に加算しない。"
+}

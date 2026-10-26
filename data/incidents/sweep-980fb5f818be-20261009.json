@@ -1,0 +1,46 @@
+{
+  "id": "sweep-980fb5f818be-20261009",
+  "organization": {
+    "name": "Mapion",
+    "sector": "企業・団体"
+  },
+  "title": "地図検索サービスのメールアドレス1,185件が流出",
+  "summary": "アプリ・ウェブサイトへの不正アクセスにより、利用者のメールアドレスが取得された。",
+  "published_on": "2026-10-09",
+  "first_published_on": "2026-10-09",
+  "publication_kind": "initial",
+  "occurred_on": "2026-10-07",
+  "detected_on": null,
+  "updated_on": "2026-10-27",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "Mapionのシステムの一部に対する不正アクセス。侵入経路の詳細は未公表。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": 1185,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "公表された対象規模。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://help.mapion.co.jp/maintenance20261009.html",
+      "type": "official",
+      "title": "地図検索サービスのメールアドレス1,185件が流出",
+      "published_on": "2026-10-09",
+      "checked_on": "2026-10-27"
+    }
+  ],
+  "updates": [],
+  "notes": "10月9日16時30分に告知を掲載と本文で明示。氏名・パスワード・決済情報は対象外。"
+}

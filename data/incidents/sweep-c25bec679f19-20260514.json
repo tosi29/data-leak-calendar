@@ -1,0 +1,46 @@
+{
+  "id": "sweep-c25bec679f19-20260514",
+  "organization": {
+    "name": "佐賀県（唐津青翔高校の見守り業務）",
+    "sector": "自治体"
+  },
+  "title": "生徒6人の記録を別の保護者へチャットで誤送信",
+  "summary": "見守り業務の受託先NOWAが、生徒の個人情報を含む記録の送信先を取り違えた。",
+  "published_on": "2026-05-14",
+  "first_published_on": "2026-05-14",
+  "publication_kind": "initial",
+  "occurred_on": "2026-05-12",
+  "detected_on": null,
+  "updated_on": "2026-10-27",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "accident",
+  "cause": {
+    "category": "misdelivery",
+    "detail": "送信先・交付先または対象書類の確認が不十分だった。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 6,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表された対象規模。"
+    }
+  ],
+  "data_types": [
+    "生徒の個人情報（記録の詳細項目は未公表）"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.pref.saga.lg.jp/kiji003119380/index.html",
+      "type": "official",
+      "title": "生徒6人の記録を別の保護者へチャットで誤送信",
+      "published_on": "2026-05-14",
+      "checked_on": "2026-10-27"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

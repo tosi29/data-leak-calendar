@@ -1,0 +1,58 @@
+{
+  "id": "sweep-fc2e660556c0-20261009",
+  "organization": {
+    "name": "プログリット（ONE GRITTERS）",
+    "sector": "企業・団体"
+  },
+  "title": "英語学習コミュニティ会員約2,300名の情報が漏えい",
+  "summary": "コミューンへの不正アクセスで、退会者を含む会員情報・利用状況・プロフィール等が漏えいした。",
+  "published_on": "2026-10-09",
+  "first_published_on": "2026-10-09",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-10-07",
+  "updated_on": "2026-10-27",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "提供元システムの不備を悪用して非公開コミュニティへ登録し、管理者になりすまして情報を閲覧・取得。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 2300,
+      "unit": "people",
+      "qualifier": "approximate",
+      "description": "公表された対象規模。"
+    }
+  ],
+  "data_types": [
+    "ユーザーID",
+    "ニックネーム・アカウント名",
+    "メールアドレス",
+    "コミュニティ利用状況",
+    "自己紹介・英語学習目的等"
+  ],
+  "related_vendor": "コミューン",
+  "sources": [
+    {
+      "url": "https://api-about.progrit.co.jp/news/20261009/",
+      "type": "official",
+      "title": "英語学習コミュニティ会員約2,300名の情報が漏えい",
+      "published_on": "2026-10-09",
+      "checked_on": "2026-10-27"
+    }
+  ],
+  "updates": [],
+  "notes": "",
+  "vendors": [
+    {
+      "name": "コミューン",
+      "role": "service",
+      "detail": "コミュニティ基盤「Commune」の提供元。",
+      "source_index": 0
+    }
+  ]
+}

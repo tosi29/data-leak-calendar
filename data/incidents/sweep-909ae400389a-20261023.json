@@ -1,0 +1,60 @@
+{
+  "id": "sweep-909ae400389a-20261023",
+  "organization": {
+    "name": "郡山市（3つのStudio利用事業）",
+    "sector": "自治体"
+  },
+  "title": "委託事業のフォーム送信データ140件が漏えいした可能性",
+  "summary": "鯉に恋する郡山、地域資源リノベーション、起業家教育の各フォームに入力された個人情報が取得可能な状態にあった。",
+  "published_on": "2026-10-23",
+  "first_published_on": "2026-10-23",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-27",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "vulnerability",
+    "detail": "Studioの一部機能の脆弱性を悪用した不正アクセス。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 140,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "公表された対象規模。漏えいの可能性を含む。"
+    }
+  ],
+  "data_types": [
+    "氏名・ふりがな",
+    "メールアドレス",
+    "年齢・性別",
+    "郵便番号・住所",
+    "電話番号",
+    "所属・学校名・学年",
+    "問い合わせ・参加理由等"
+  ],
+  "related_vendor": "Studio",
+  "sources": [
+    {
+      "url": "https://www.city.koriyama.lg.jp/uploaded/attachment/132275.pdf",
+      "type": "official",
+      "title": "委託事業のフォーム送信データ140件が漏えいした可能性",
+      "published_on": "2026-10-23",
+      "checked_on": "2026-10-27"
+    }
+  ],
+  "updates": [],
+  "notes": "23件・55件・55件・5件・2件のフォーム送信データ合計。重複除去済み人数ではない。アルカディア関連公表とは別の事案。",
+  "vendors": [
+    {
+      "name": "Studio",
+      "role": "service",
+      "detail": "各委託事業のウェブフォーム用クラウドサービス提供元。",
+      "source_index": 0
+    }
+  ]
+}

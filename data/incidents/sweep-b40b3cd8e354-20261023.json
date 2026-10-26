@@ -1,0 +1,57 @@
+{
+  "id": "sweep-b40b3cd8e354-20261023",
+  "organization": {
+    "name": "ホウライ",
+    "sector": "企業・団体"
+  },
+  "title": "メール会員情報最大75,140件が流出した可能性",
+  "summary": "ブラストメールへの不正アクセスに伴い、複数の会員リストに登録された氏名・メールアドレス等の流出可能性を公表。",
+  "published_on": "2026-10-23",
+  "first_published_on": "2026-10-23",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-27",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "外部メール配信サービスへの不正アクセス。具体的な侵入経路は未公表。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": 75140,
+      "unit": "records",
+      "qualifier": "maximum",
+      "description": "公表された対象規模。漏えいの可能性を含む。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "メールアドレス",
+    "生年月日",
+    "住所（都道府県）"
+  ],
+  "related_vendor": "ラクスライトクラウド",
+  "sources": [
+    {
+      "url": "https://www.horai-kk.co.jp/topics/info_20261023_news.pdf",
+      "type": "official",
+      "title": "メール会員情報最大75,140件が流出した可能性",
+      "published_on": "2026-10-23",
+      "checked_on": "2026-10-27"
+    }
+  ],
+  "updates": [],
+  "notes": "10,000件・65,000件・140件の3つの配信先リストの合計。流出有無や実際の件数は確認中。",
+  "vendors": [
+    {
+      "name": "ラクスライトクラウド",
+      "role": "service",
+      "detail": "メール配信サービス「ブラストメール」の提供元。",
+      "source_index": 0
+    }
+  ]
+}

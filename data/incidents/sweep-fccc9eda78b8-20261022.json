@@ -1,0 +1,55 @@
+{
+  "id": "sweep-fccc9eda78b8-20261022",
+  "organization": {
+    "name": "損保ジャパンDC証券",
+    "sector": "企業・団体"
+  },
+  "title": "通知メール情報最大約25万件が漏えいした可能性",
+  "summary": "ブラストメールへの不正アクセスに伴い、メールアドレスや一部の氏名が漏えいした可能性を公表。",
+  "published_on": "2026-10-22",
+  "first_published_on": "2026-10-22",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-27",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "外部メール配信システムへの第三者の不正アクセス。具体的な侵入経路は未公表。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": 250000,
+      "unit": "records",
+      "qualifier": "maximum_approximate",
+      "description": "公表された対象規模。漏えいの可能性を含む。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス",
+    "氏名（一部の送信履歴）"
+  ],
+  "related_vendor": "ラクスライトクラウド",
+  "sources": [
+    {
+      "url": "https://www.sjdc.co.jp/-/media/sjnkdc/files/information/20261022_03.pdf?la=ja-JP",
+      "type": "official",
+      "title": "通知メール情報最大約25万件が漏えいした可能性",
+      "published_on": "2026-10-22",
+      "checked_on": "2026-10-27"
+    }
+  ],
+  "updates": [],
+  "notes": "2022年9月以降に通知メールを配信した加入者。氏名は約1万件の送信履歴に含まれる内数。",
+  "vendors": [
+    {
+      "name": "ラクスライトクラウド",
+      "role": "service",
+      "detail": "メール配信サービス「ブラストメール」の提供元。",
+      "source_index": 0
+    }
+  ]
+}

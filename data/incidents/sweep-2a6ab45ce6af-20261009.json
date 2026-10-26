@@ -1,0 +1,57 @@
+{
+  "id": "sweep-2a6ab45ce6af-20261009",
+  "organization": {
+    "name": "ZENB JAPAN",
+    "sector": "企業・団体"
+  },
+  "title": "ZENB GARDEN会員897名の情報漏えいを確認",
+  "summary": "メールアドレスやプロフィール情報が漏えい。全会員949名に対象が及ぶ可能性がある。",
+  "published_on": "2026-10-09",
+  "first_published_on": "2026-10-09",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-10-07",
+  "updated_on": "2026-10-27",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "外部コミュニティサービスへの第三者による不正アクセス。具体的な侵入経路は未公表。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": 897,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表された対象規模。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス",
+    "性別",
+    "ニックネーム・アカウント名",
+    "自己紹介等プロフィール"
+  ],
+  "related_vendor": "コミューン",
+  "sources": [
+    {
+      "url": "https://zenb.jp/blogs/news/20261009",
+      "type": "official",
+      "title": "ZENB GARDEN会員897名の情報漏えいを確認",
+      "published_on": "2026-10-09",
+      "checked_on": "2026-10-27"
+    }
+  ],
+  "updates": [],
+  "notes": "897名は確認済み、全会員949名は可能性のある最大範囲であり合算しない。全会員数は10月9日に947名から949名へ訂正。",
+  "vendors": [
+    {
+      "name": "コミューン",
+      "role": "service",
+      "detail": "コミュニティプラットフォーム「Commune」の提供元。",
+      "source_index": 0
+    }
+  ]
+}

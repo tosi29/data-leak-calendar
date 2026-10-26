@@ -1,0 +1,54 @@
+{
+  "id": "sweep-3cc459c90ef1-20261001",
+  "organization": {
+    "name": "湯元舘",
+    "sector": "企業・団体"
+  },
+  "title": "予約管理サービスへの不正アクセスで宿泊者情報が漏えいした可能性",
+  "summary": "手間いらずから不正アクセスによる予約情報の漏えい可能性の報告を受けた。",
+  "published_on": "2026-10-01",
+  "first_published_on": "2026-10-01",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-27",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。具体的な侵入経路は未公表。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "公表された対象規模。漏えいの可能性を含む。"
+    }
+  ],
+  "data_types": [
+    "宿泊予約者情報（詳細項目未公表）"
+  ],
+  "related_vendor": "手間いらず",
+  "sources": [
+    {
+      "url": "https://www.yumotokan.co.jp/blog/2026/10/01/%E6%89%8B%E9%96%93%E3%81%84%E3%82%89%E3%81%9A%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BE%E3%81%AB%E3%82%88%E3%82%8B%E5%80%8B%E4%BA%BA%E6%83%85%E5%A0%B1%E6%BC%8F%E6%B4%A9%E3%81%AE%E5%8F%AF%E8%83%BD%E6%80%A7/",
+      "type": "official",
+      "title": "予約管理サービスへの不正アクセスで宿泊者情報が漏えいした可能性",
+      "published_on": "2026-10-01",
+      "checked_on": "2026-10-27"
+    }
+  ],
+  "updates": [],
+  "notes": "9月21日までに成立し、同日以降に宿泊予定の一部予約が対象。",
+  "vendors": [
+    {
+      "name": "手間いらず",
+      "role": "service",
+      "detail": "宿泊予約管理システムの提供元。",
+      "source_index": 0
+    }
+  ]
+}

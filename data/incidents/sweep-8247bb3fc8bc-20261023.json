@@ -1,0 +1,57 @@
+{
+  "id": "sweep-8247bb3fc8bc-20261023",
+  "organization": {
+    "name": "NHK出版（みんなの趣味の園芸）",
+    "sector": "企業・団体"
+  },
+  "title": "メールマガジン会員情報約12万7千件が漏えい",
+  "summary": "ブラストメールの運営元から配信先リスト全件の漏えい確認の報告を受けた。",
+  "published_on": "2026-10-23",
+  "first_published_on": "2026-10-23",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-10-23",
+  "updated_on": "2026-10-27",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "委託先メール配信サービスへの第三者の不正アクセス。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": 127000,
+      "unit": "records",
+      "qualifier": "approximate",
+      "description": "公表された対象規模。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス",
+    "ニックネーム",
+    "性別",
+    "都道府県"
+  ],
+  "related_vendor": "ラクスライトクラウド",
+  "sources": [
+    {
+      "url": "https://news.nhk-book.co.jp/archives/35481",
+      "type": "official",
+      "title": "メールマガジン会員情報約12万7千件が漏えい",
+      "published_on": "2026-10-23",
+      "checked_on": "2026-10-27"
+    }
+  ],
+  "updates": [],
+  "notes": "",
+  "vendors": [
+    {
+      "name": "ラクスライトクラウド",
+      "role": "service",
+      "detail": "メール配信サービス「ブラストメール」の提供元。",
+      "source_index": 0
+    }
+  ]
+}

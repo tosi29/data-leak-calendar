@@ -1,0 +1,46 @@
+{
+  "id": "sweep-9b6a72ccbee0-20261007",
+  "organization": {
+    "name": "セレス（ポイントインカム）",
+    "sector": "企業・団体"
+  },
+  "title": "会員・従業員等の個人情報195件が閲覧された可能性",
+  "summary": "不正アクセスを調査し、会員情報88件と従業員等情報107件が第三者に閲覧された可能性を公表。",
+  "published_on": "2026-10-07",
+  "first_published_on": "2026-10-07",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-10-05",
+  "updated_on": "2026-10-27",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "ポイントサイトへの第三者による不正アクセス。具体的な侵入経路は未公表。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": 195,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "公表された対象規模。漏えいの可能性を含む。"
+    }
+  ],
+  "data_types": [
+    "会員・従業員等の個人情報（項目未公表）"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://ceres-inc.jp/news/detail/20261007-2",
+      "type": "official",
+      "title": "会員・従業員等の個人情報195件が閲覧された可能性",
+      "published_on": "2026-10-07",
+      "checked_on": "2026-10-27"
+    }
+  ],
+  "updates": [],
+  "notes": "195件は会員88件と従業員等107件の合計。決済関連情報はサーバーに保有していない。"
+}

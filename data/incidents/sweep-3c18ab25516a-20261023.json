@@ -1,0 +1,54 @@
+{
+  "id": "sweep-3c18ab25516a-20261023",
+  "organization": {
+    "name": "山日YBSグループ（DDタウン）",
+    "sector": "企業・団体"
+  },
+  "title": "通販サイト登録者1万人のメールアドレスが漏えい",
+  "summary": "メール配信サービスへの不正アクセスに伴い、DDタウンの配信先情報1万人分の漏えいを公表。",
+  "published_on": "2026-10-23",
+  "first_published_on": "2026-10-23",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-10-23",
+  "updated_on": "2026-10-27",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "外部メール配信サービス「ブラストメール」への不正アクセス。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": 10000,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表された対象規模。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "ラクスライトクラウド",
+  "sources": [
+    {
+      "url": "https://www.ddtown.jp/maintenance/notification.pdf",
+      "type": "official",
+      "title": "通販サイト登録者1万人のメールアドレスが漏えい",
+      "published_on": "2026-10-23",
+      "checked_on": "2026-10-27"
+    }
+  ],
+  "updates": [],
+  "notes": "氏名・生年月日・電話番号・カード情報は含まれない。山日YBS企業ガイダンス・山日わーくとは異なる事業。",
+  "vendors": [
+    {
+      "name": "ラクスライトクラウド",
+      "role": "service",
+      "detail": "配信先情報を登録していた「ブラストメール」の提供元。",
+      "source_index": 0
+    }
+  ]
+}

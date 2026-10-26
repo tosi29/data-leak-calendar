@@ -1,0 +1,62 @@
+{
+  "id": "sweep-cf28e2ebcc0d-20261007",
+  "organization": {
+    "name": "損害保険ジャパン（SMILING ROAD）",
+    "sector": "企業・団体"
+  },
+  "title": "問い合わせ情報延べ約6万件が漏えいした可能性",
+  "summary": "スカラコミュニケーションズへの不正アクセスで、事業者向けサービスの問い合わせ情報が漏えいした可能性。",
+  "published_on": "2026-10-07",
+  "first_published_on": "2026-10-07",
+  "publication_kind": "initial",
+  "occurred_on": "2026-10-02",
+  "detected_on": "2026-10-03",
+  "updated_on": "2026-10-27",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。具体的な侵入経路は未公表。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": 60000,
+      "unit": "records",
+      "qualifier": "approximate",
+      "description": "公表された対象規模。漏えいの可能性を含む。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "電話番号",
+    "住所",
+    "メールアドレス",
+    "勤務先情報",
+    "ドライバーID",
+    "運転アラート情報",
+    "利用機器情報",
+    "問い合わせ内容"
+  ],
+  "related_vendor": "スカラコミュニケーションズ",
+  "sources": [
+    {
+      "url": "https://www.sompo-japan.co.jp/-/media/SJNK/files/news/2026/20261007_1.pdf",
+      "type": "official",
+      "title": "問い合わせ情報延べ約6万件が漏えいした可能性",
+      "published_on": "2026-10-07",
+      "checked_on": "2026-10-27"
+    }
+  ],
+  "updates": [],
+  "notes": "約6万件は問い合わせ単位の延べ件数。同一顧客の繰り返しを含み、人数ではない。",
+  "vendors": [
+    {
+      "name": "スカラコミュニケーションズ",
+      "role": "service",
+      "detail": "よくある質問・問い合わせ機能の提供元。",
+      "source_index": 0
+    }
+  ]
+}

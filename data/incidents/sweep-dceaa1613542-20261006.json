@@ -1,0 +1,48 @@
+{
+  "id": "sweep-dceaa1613542-20261006",
+  "organization": {
+    "name": "スカラコミュニケーションズ",
+    "sector": "企業・団体"
+  },
+  "title": "i-ask利用企業の問い合わせ情報最大713,126件が漏えいした可能性",
+  "summary": "管理サイトへの不正ログインと不正プログラム設置により、同一サーバー上の最大5社の問い合わせデータベースが影響を受けた。",
+  "published_on": "2026-10-06",
+  "first_published_on": "2026-10-06",
+  "publication_kind": "initial",
+  "occurred_on": "2026-10-02",
+  "detected_on": "2026-10-03",
+  "updated_on": "2026-10-27",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。具体的な侵入経路は未公表。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": 713126,
+      "unit": "records",
+      "qualifier": "maximum",
+      "description": "公表された対象規模。漏えいの可能性を含む。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "メールアドレス",
+    "問い合わせ内容等"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.scala-com.jp/news/2026/10-1/",
+      "type": "official",
+      "title": "i-ask利用企業の問い合わせ情報最大713,126件が漏えいした可能性",
+      "published_on": "2026-10-06",
+      "checked_on": "2026-10-27"
+    }
+  ],
+  "updates": [],
+  "notes": "最大713,126件は問い合わせ単位の延べ件数。最大5社は利用企業数。利用企業の個別公表と対象が重複する。"
+}

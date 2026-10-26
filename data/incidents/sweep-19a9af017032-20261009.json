@@ -1,0 +1,56 @@
+{
+  "id": "sweep-19a9af017032-20261009",
+  "organization": {
+    "name": "日本能率協会マネジメントセンター",
+    "sector": "企業・団体"
+  },
+  "title": "時間〈とき〉ラボ会員2,950名の情報が漏えい",
+  "summary": "コミュニティへの不正アクセスにより、表示名・メールアドレス・プロフィール等の漏えいを確認。",
+  "published_on": "2026-10-09",
+  "first_published_on": "2026-10-09",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-10-07",
+  "updated_on": "2026-10-27",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "外部コミュニティサービスへの第三者による不正アクセス。具体的な侵入経路は未公表。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": 2950,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表された対象規模。"
+    }
+  ],
+  "data_types": [
+    "表示名・ユーザー名",
+    "メールアドレス",
+    "プロフィール（氏名・住所・年齢・電話番号を含む）"
+  ],
+  "related_vendor": "コミューン",
+  "sources": [
+    {
+      "url": "https://www.jmam.co.jp/assets/images/topics/toki-labo_20261009.pdf",
+      "type": "official",
+      "title": "時間〈とき〉ラボ会員2,950名の情報が漏えい",
+      "published_on": "2026-10-09",
+      "checked_on": "2026-10-27"
+    }
+  ],
+  "updates": [],
+  "notes": "5月12日のサイトリニューアル後の登録者が対象。5月12日は公表日ではない。",
+  "vendors": [
+    {
+      "name": "コミューン",
+      "role": "service",
+      "detail": "コミュニティプラットフォーム「Commune」の提供元。",
+      "source_index": 0
+    }
+  ]
+}

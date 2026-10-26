@@ -1,0 +1,56 @@
+{
+  "id": "sweep-d37bb6e38f35-20261023",
+  "organization": {
+    "name": "東京都農林水産振興財団",
+    "sector": "企業・団体"
+  },
+  "title": "援農ボランティア事業の配信先最大約16,000件が漏えい",
+  "summary": "ブラストメールへの不正アクセスに伴い、生産者・ボランティア参加者の氏名・メールアドレス・属性が漏えいしたと公表。",
+  "published_on": "2026-10-23",
+  "first_published_on": "2026-10-23",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-27",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "メール配信事業者のAPI用サーバーへ侵入し、サービスデータベース等から情報を持ち出した。侵入経路は調査中。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": 16000,
+      "unit": "records",
+      "qualifier": "maximum_approximate",
+      "description": "公表された対象規模。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "メールアドレス",
+    "属性"
+  ],
+  "related_vendor": "ラクスライトクラウド",
+  "sources": [
+    {
+      "url": "https://www.metro.tokyo.lg.jp/information/press/2026/10/2026102317",
+      "type": "official",
+      "title": "援農ボランティア事業の配信先最大約16,000件が漏えい",
+      "published_on": "2026-10-23",
+      "checked_on": "2026-10-27"
+    }
+  ],
+  "updates": [],
+  "notes": "",
+  "vendors": [
+    {
+      "name": "ラクスライトクラウド",
+      "role": "service",
+      "detail": "委託先事業者が利用するメール配信サービス「ブラストメール」の提供元。",
+      "source_index": 0
+    }
+  ]
+}

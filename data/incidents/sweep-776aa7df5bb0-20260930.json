@@ -1,0 +1,51 @@
+{
+  "id": "sweep-776aa7df5bb0-20260930",
+  "organization": {
+    "name": "大阪府（大阪労働協会・労働センター）",
+    "sector": "自治体"
+  },
+  "title": "代表メールの不正転送で利用者等88名の情報が漏えい",
+  "summary": "指定管理者構成員の大阪労働協会のメールアカウントが侵入され、自動転送されたメールに含まれる個人情報が漏えいした。",
+  "published_on": "2026-09-30",
+  "first_published_on": "2026-09-30",
+  "publication_kind": "initial",
+  "occurred_on": "2026-07-13",
+  "detected_on": null,
+  "updated_on": "2026-10-27",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "代表メールアカウントへの不正アクセスにより、自動転送設定が追加された。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 88,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表された対象規模。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "電話番号",
+    "FAX番号",
+    "利用者番号",
+    "メールアドレス"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.pref.osaka.lg.jp/hodo/fumin/o110090/prs_51152.html",
+      "type": "official",
+      "title": "代表メールの不正転送で利用者等88名の情報が漏えい",
+      "published_on": "2026-09-30",
+      "checked_on": "2026-10-27"
+    }
+  ],
+  "updates": [],
+  "notes": "自動転送271通のうち175通が個人情報を含み、対象は88名。通数と人数を合算しない。"
+}

@@ -1,0 +1,54 @@
+{
+  "id": "sweep-0ac5dbbb2ae1-20261023",
+  "organization": {
+    "name": "日本赤十字社東京都支部",
+    "sector": "企業・団体"
+  },
+  "title": "NT NEWS登録情報が漏えいした可能性",
+  "summary": "ブラストメールへの不正アクセスを受け、NT NEWS登録者が対象に含まれるかを運営元が調査中と公表。",
+  "published_on": "2026-10-23",
+  "first_published_on": "2026-10-23",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-27",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "外部サービスへの第三者による不正アクセス。具体的な侵入経路は未公表。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "公表された対象規模。漏えいの可能性を含む。"
+    }
+  ],
+  "data_types": [
+    "メールマガジン登録情報（項目未公表）"
+  ],
+  "related_vendor": "ラクスライトクラウド",
+  "sources": [
+    {
+      "url": "https://www.jrc.or.jp/chapter/tokyo/news/2026/1023_056631.html",
+      "type": "official",
+      "title": "NT NEWS登録情報が漏えいした可能性",
+      "published_on": "2026-10-23",
+      "checked_on": "2026-10-27"
+    }
+  ],
+  "updates": [],
+  "notes": "",
+  "vendors": [
+    {
+      "name": "ラクスライトクラウド",
+      "role": "service",
+      "detail": "NT NEWSの配信サービス提供元。",
+      "source_index": 0
+    }
+  ]
+}

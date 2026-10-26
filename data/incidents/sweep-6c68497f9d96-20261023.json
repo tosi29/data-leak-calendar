@@ -1,0 +1,54 @@
+{
+  "id": "sweep-6c68497f9d96-20261023",
+  "organization": {
+    "name": "広島市（産業振興センター）",
+    "sector": "自治体"
+  },
+  "title": "産業情報メールマガジン登録情報が漏えいした可能性",
+  "summary": "ブラストメールへの不正アクセスにより、産業振興センターNEWS3,372件と産学官連携ニュース1,052件の登録情報が漏えいした可能性。",
+  "published_on": "2026-10-23",
+  "first_published_on": "2026-10-23",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-27",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "委託事業で利用する外部メール配信サービスへの第三者の不正アクセス。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": 4424,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "公表された対象規模。漏えいの可能性を含む。"
+    }
+  ],
+  "data_types": [
+    "メールマガジン登録情報（詳細項目未公表）"
+  ],
+  "related_vendor": "ラクスライトクラウド",
+  "sources": [
+    {
+      "url": "https://www.city.hiroshima.lg.jp/shisei/kouhou/1004010/1045546/1053867/1054693.html",
+      "type": "official",
+      "title": "産業情報メールマガジン登録情報が漏えいした可能性",
+      "published_on": "2026-10-23",
+      "checked_on": "2026-10-27"
+    }
+  ],
+  "updates": [],
+  "notes": "2つのリストの登録件数の合計。重複を除いた人数ではない。",
+  "vendors": [
+    {
+      "name": "ラクスライトクラウド",
+      "role": "service",
+      "detail": "産業情報システムで利用する「ブラストメール」の提供元。",
+      "source_index": 0
+    }
+  ]
+}

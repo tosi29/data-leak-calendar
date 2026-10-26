@@ -1,0 +1,50 @@
+{
+  "id": "sweep-b3c0512eb075-20260522",
+  "organization": {
+    "name": "大阪府立岬高校",
+    "sector": "教育・研究"
+  },
+  "title": "全学年180名分の生徒情報を複数の生徒が閲覧",
+  "summary": "教室の机内に残された教育支援・指導計画や保護者聴取内容等を、権限のない生徒が閲覧した。",
+  "published_on": "2026-05-22",
+  "first_published_on": "2026-05-22",
+  "publication_kind": "initial",
+  "occurred_on": "2025-11-10",
+  "detected_on": "2025-11-11",
+  "updated_on": "2026-10-27",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "accident",
+  "cause": {
+    "category": "loss",
+    "detail": "個人情報を含む資料を生徒が利用する教室へ持ち込み、退室時に置き忘れた。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 180,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表された対象規模。"
+    }
+  ],
+  "data_types": [
+    "個別教育支援計画",
+    "懲戒・指導経過",
+    "個別指導計画",
+    "保護者からの聴取内容",
+    "生徒に関する教職員の見立て"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.pref.osaka.lg.jp/hodo/fumin/o180030/prs_50734.html",
+      "type": "official",
+      "title": "全学年180名分の生徒情報を複数の生徒が閲覧",
+      "published_on": "2026-05-22",
+      "checked_on": "2026-10-27"
+    }
+  ],
+  "updates": [],
+  "notes": "11名分の個別支援・指導資料は全学年180名の内数として扱い、加算しない。"
+}

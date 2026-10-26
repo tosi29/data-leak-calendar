@@ -10,10 +10,10 @@
   "publication_kind": "initial",
   "occurred_on": null,
   "detected_on": null,
-  "updated_on": "2026-10-23",
+  "updated_on": "2026-10-27",
   "incident_type": "attack",
   "leak_status": "confirmed",
-  "summary": "顧客名・注文番号・金額が正確に記載された不審メールが確認され、注文情報が第三者に取得された可能性が高いとして調査を開始した。",
+  "summary": "連携アプリの認証情報が不正取得・悪用され、顧客情報が流出したと第2報で確認。カード情報の漏えいはないと説明。",
   "impact": [
     {
       "count": null,
@@ -29,7 +29,7 @@
   ],
   "cause": {
     "category": "credentials",
-    "detail": "自社構築のShopify連携アプリのAdmin APIトークンを第三者が取得・悪用。",
+    "detail": "システム連携アプリのアクセストークンが不正取得・悪用された。",
     "certainty": "confirmed"
   },
   "sources": [
@@ -38,14 +38,21 @@
       "type": "official",
       "title": "顧客の注文情報流出の可能性",
       "published_on": "2026-08-21",
-      "checked_on": "2026-10-15"
+      "checked_on": "2026-10-27"
     },
     {
       "url": "https://prtimes.jp/main/html/rd/p/000000063.000065209.html",
       "type": "official",
       "title": "自社構築のShopify連携アプリのAPIトークンが不正取得・悪用されたと確認。カード情報の漏えいはないと確認。",
       "published_on": "2026-10-15",
-      "checked_on": "2026-10-23"
+      "checked_on": "2026-10-27"
+    },
+    {
+      "url": "https://imadeya.co.jp/blogs/news/%E7%AC%AC%E4%BA%8C%E5%A0%B1",
+      "type": "official",
+      "title": "【第二報】個人情報流出の可能性に関するお詫び",
+      "published_on": "2026-10-15",
+      "checked_on": "2026-10-27"
     }
   ],
   "notes": "問い合わせ約30件は被害人数ではない。プラットフォーム側が侵害されたと断定しない。 自社構築のShopify連携アプリのAPIトークンが不正取得・悪用されたと確認。カード情報の漏えいはないと確認。",
@@ -54,6 +61,11 @@
       "date": "2026-10-15",
       "summary": "自社構築のShopify連携アプリのAPIトークンが不正取得・悪用されたと確認。カード情報の漏えいはないと確認。",
       "source_index": 1
+    },
+    {
+      "date": "2026-10-15",
+      "summary": "連携アプリのアクセストークンの不正取得・悪用により顧客情報の流出を確認。",
+      "source_index": 2
     }
   ],
   "verification": "official",

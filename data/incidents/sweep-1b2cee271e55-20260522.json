@@ -1,0 +1,46 @@
+{
+  "id": "sweep-1b2cee271e55-20260522",
+  "organization": {
+    "name": "熊本市（桜木東小学校）",
+    "sector": "自治体"
+  },
+  "title": "保健調査票を別の児童に誤配付",
+  "summary": "月次一括公表で保健調査票を別の児童に誤配付を公表。",
+  "published_on": "2026-05-22",
+  "first_published_on": "2026-05-22",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-27",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "accident",
+  "cause": {
+    "category": "misdelivery",
+    "detail": "月次資料では確認不足や処理手順の不備などを原因として説明。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 4,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表された対象規模。"
+    }
+  ],
+  "data_types": [
+    "保健調査情報"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.city.kumamoto.jp/kiji00370972/3_70972_504582_up_djwzzv8u.pdf",
+      "type": "official",
+      "title": "保健調査票を別の児童に誤配付",
+      "published_on": "2026-05-22",
+      "checked_on": "2026-10-27"
+    }
+  ],
+  "updates": [],
+  "notes": "月次一括公表資料による。前月中に報告された事案を公表しており、発生・発覚の正確な日は未公表。"
+}

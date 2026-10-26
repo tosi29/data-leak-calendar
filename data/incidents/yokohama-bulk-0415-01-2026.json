@@ -1,0 +1,46 @@
+{
+  "id": "yokohama-bulk-0415-01-2026",
+  "organization": {
+    "name": "横浜市（旭区 生活支援課）",
+    "sector": "自治体"
+  },
+  "title": "生活保護関係書類の誤送付",
+  "summary": "月次公表で生活保護関係書類の誤送付を報告。対象規模は1人で、漏えいのおそれを含む。",
+  "published_on": "2026-04-15",
+  "first_published_on": "2026-04-15",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-27",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "accident",
+  "cause": {
+    "category": "misdelivery",
+    "detail": "月次資料で生活保護関係書類の誤送付と公表。具体的な作業手順・原因の詳細は未公表。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": 1,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表された対象規模。漏えいの可能性を含む。"
+    }
+  ],
+  "data_types": [
+    "当該書類・手続に関する個人情報（項目未公表）"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.city.yokohama.lg.jp/city-info/koho-kocho/press/somu/2026/0415jimusyorimisu.files/0107_20260414.pdf",
+      "type": "official",
+      "title": "生活保護関係書類の誤送付",
+      "published_on": "2026-04-15",
+      "checked_on": "2026-10-27"
+    }
+  ],
+  "updates": [],
+  "notes": "資料の所管課による報告受領日は2026-03-02。発生日は特定されていない。公表人数には実際の漏えいとそのおそれを含む。"
+}

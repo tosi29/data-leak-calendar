@@ -5,8 +5,8 @@
     "reported_on": "2026-10-06",
     "verification": "pending",
     "reference_url": "https://www.security-next.com/190687",
-    "note": "163件のメール誤送信の報道を再確認。8月28日は発生日、10月6日は記事日。自治体の公表日を裏付ける一次資料が未発見。",
-    "reviewed_on": "2026-10-23",
+    "note": "4～10月横断再調査：公式8月31日本文で介護事業者163件のメールアドレス誤送信を確認。個人アドレスの内訳が未公表。 前回調査メモ：163件のメール誤送信の報道を再確認。8月28日は発生日、10月6日は記事日。自治体の公表日を裏付ける一次資料が未発見。",
+    "reviewed_on": "2026-10-27",
     "checked_urls": [
       "https://www.security-next.com/190687"
     ]
@@ -17,8 +17,8 @@
     "reported_on": "2026-08-25",
     "verification": "pending",
     "reference_url": "https://www.security-next.com/189036",
-    "note": "結果シート23枚の所在不明を報道で確認。3月16日の判明日と8月25日の記事日を公表日に転用せず、学校の発表日を継続確認。",
-    "reviewed_on": "2026-10-23",
+    "note": "4～10月横断再調査：参照URLの応答を再取得。公表日・自然人の対象情報・既存事案との対応について掲載を確定する根拠が揃わず、保留を継続。 前回調査メモ：結果シート23枚の所在不明を報道で確認。3月16日の判明日と8月25日の記事日を公表日に転用せず、学校の発表日を継続確認。",
+    "reviewed_on": "2026-10-27",
     "checked_urls": [
       "https://www.security-next.com/189036"
     ]
@@ -29,8 +29,8 @@
     "reported_on": "2026-08-14",
     "verification": "pending",
     "reference_url": "https://www.security-next.com/188705",
-    "note": "USB内の写真9人分・文書4人分の報道を再確認。7月9日の紛失判明、16日の町への報告と、自治体による公表日は別。公表日未確認。",
-    "reviewed_on": "2026-10-23",
+    "note": "4～10月横断再調査：参照URLの応答を再取得。公表日・自然人の対象情報・既存事案との対応について掲載を確定する根拠が揃わず、保留を継続。 前回調査メモ：USB内の写真9人分・文書4人分の報道を再確認。7月9日の紛失判明、16日の町への報告と、自治体による公表日は別。公表日未確認。",
+    "reviewed_on": "2026-10-27",
     "checked_urls": [
       "https://www.security-next.com/188705"
     ]
@@ -41,8 +41,8 @@
     "reported_on": "2026-08-12",
     "verification": "pending",
     "reference_url": "https://www.security-next.com/188714",
-    "note": "6人分の税額通知の誤送付を報道で再確認。5月15日の発送と8月12日の記事だけでは対象期間内の公表日が確定しない。",
-    "reviewed_on": "2026-10-23",
+    "note": "4～10月横断再調査：参照URLの応答を再取得。公表日・自然人の対象情報・既存事案との対応について掲載を確定する根拠が揃わず、保留を継続。 前回調査メモ：6人分の税額通知の誤送付を報道で再確認。5月15日の発送と8月12日の記事だけでは対象期間内の公表日が確定しない。",
+    "reviewed_on": "2026-10-27",
     "checked_urls": [
       "https://www.security-next.com/188714"
     ]
@@ -53,8 +53,8 @@
     "reported_on": "2026-08-05",
     "verification": "pending",
     "reference_url": "https://www.security-next.com/188369",
-    "note": "保護者8人への誤送信を再検索。6月26日送信、29日判明、8月5日記事。公式検索で出た別年の事案とは区別し、公表日未確定を維持。",
-    "reviewed_on": "2026-10-23",
+    "note": "4～10月横断再調査：参照URLの応答を再取得。公表日・自然人の対象情報・既存事案との対応について掲載を確定する根拠が揃わず、保留を継続。 前回調査メモ：保護者8人への誤送信を再検索。6月26日送信、29日判明、8月5日記事。公式検索で出た別年の事案とは区別し、公表日未確定を維持。",
+    "reviewed_on": "2026-10-27",
     "checked_urls": [
       "https://www.security-next.com/188369"
     ]
@@ -65,8 +65,8 @@
     "reported_on": "2026-08-03",
     "verification": "pending",
     "reference_url": "https://www.security-next.com/187953",
-    "note": "440件の資料の一時紛失を再確認。暮らしサポートみよしの告知本文を確認できず、水道企業団の委託情報だけでは事故の公表日を確定できない。",
-    "reviewed_on": "2026-10-23",
+    "note": "4～10月横断再調査：参照URLの応答を再取得。公表日・自然人の対象情報・既存事案との対応について掲載を確定する根拠が揃わず、保留を継続。 前回調査メモ：440件の資料の一時紛失を再確認。暮らしサポートみよしの告知本文を確認できず、水道企業団の委託情報だけでは事故の公表日を確定できない。",
+    "reviewed_on": "2026-10-27",
     "checked_urls": [
       "https://www.security-next.com/187953",
       "https://ks-miyoshi.co.jp/news/",
@@ -79,8 +79,8 @@
     "reported_on": "2026-07-29",
     "verification": "pending",
     "reference_url": "https://www.security-next.com/187814",
-    "note": "9箱の伝票等の誤廃棄報道を再確認。5月14日の判明日と7月の記事日を区別し、信金の公表日を引き続き確認する。",
-    "reviewed_on": "2026-10-23",
+    "note": "4～10月横断再調査：参照URLの応答を再取得。公表日・自然人の対象情報・既存事案との対応について掲載を確定する根拠が揃わず、保留を継続。 前回調査メモ：9箱の伝票等の誤廃棄報道を再確認。5月14日の判明日と7月の記事日を区別し、信金の公表日を引き続き確認する。",
+    "reviewed_on": "2026-10-27",
     "checked_urls": [
       "https://www.security-next.com/187814"
     ]
@@ -91,8 +91,8 @@
     "reported_on": "2026-07-27",
     "verification": "pending",
     "reference_url": "https://www.security-next.com/187865",
-    "note": "PDFのマスキング不備は報道で確認。公式参照先は404。二次資料の日付に7月13日と15日の相違があり、公式の発表日を確定できず。",
-    "reviewed_on": "2026-10-23",
+    "note": "4～10月横断再調査：参照URLの応答を再取得。公表日・自然人の対象情報・既存事案との対応について掲載を確定する根拠が揃わず、保留を継続。 前回調査メモ：PDFのマスキング不備は報道で確認。公式参照先は404。二次資料の日付に7月13日と15日の相違があり、公式の発表日を確定できず。",
+    "reviewed_on": "2026-10-27",
     "checked_urls": [
       "https://www.security-next.com/187865",
       "https://cybersecurity-jp.com/news/115188",
@@ -105,8 +105,8 @@
     "reported_on": "2026-07-24",
     "verification": "pending",
     "reference_url": "https://www.security-next.com/187309",
-    "note": "7月1日の公式告知を再取得。代表メールの不正使用・スパム送信は確認できるが、個人情報への影響を裏付ける続報は未発見。",
-    "reviewed_on": "2026-10-23",
+    "note": "4～10月横断再調査：参照URLの応答を再取得。公表日・自然人の対象情報・既存事案との対応について掲載を確定する根拠が揃わず、保留を継続。 前回調査メモ：7月1日の公式告知を再取得。代表メールの不正使用・スパム送信は確認できるが、個人情報への影響を裏付ける続報は未発見。",
+    "reviewed_on": "2026-10-27",
     "checked_urls": [
       "https://www.security-next.com/187309",
       "https://www.nosai-aichi.jp/news/entry-1120.html"
@@ -118,8 +118,8 @@
     "reported_on": "2026-07-23",
     "verification": "pending",
     "reference_url": "https://www.security-next.com/187303",
-    "note": "8月19日第四報と10月5日の復旧告知を再取得。ファイル漏えいへの言及はあるが、個人情報の対象項目・範囲は確定できない。",
-    "reviewed_on": "2026-10-23",
+    "note": "4～10月横断再調査：参照URLの応答を再取得。公表日・自然人の対象情報・既存事案との対応について掲載を確定する根拠が揃わず、保留を継続。 前回調査メモ：8月19日第四報と10月5日の復旧告知を再取得。ファイル漏えいへの言及はあるが、個人情報の対象項目・範囲は確定できない。",
+    "reviewed_on": "2026-10-27",
     "checked_urls": [
       "https://www.security-next.com/187303",
       "https://www.nihon-kotsu.co.jp/news/20260819-3385/",
@@ -132,8 +132,8 @@
     "reported_on": "2026-07-16",
     "verification": "pending",
     "reference_url": "https://www.security-next.com/187470",
-    "note": "8月20日の公式復旧告知を再取得。ランサムウェア被害と復旧は確認できるが、個人情報漏えいの具体的対象は未確認。",
-    "reviewed_on": "2026-10-23",
+    "note": "4～10月横断再調査：参照URLの応答を再取得。公表日・自然人の対象情報・既存事案との対応について掲載を確定する根拠が揃わず、保留を継続。 前回調査メモ：8月20日の公式復旧告知を再取得。ランサムウェア被害と復旧は確認できるが、個人情報漏えいの具体的対象は未確認。",
+    "reviewed_on": "2026-10-27",
     "checked_urls": [
       "https://www.security-next.com/187470",
       "https://www.kanekokk.co.jp/important-information/20260820/"
@@ -145,8 +145,8 @@
     "reported_on": "2026-07-09",
     "verification": "pending",
     "reference_url": "https://www.security-next.com/187068",
-    "note": "7月8日のフィッシング注意喚起を再検索。メッセージの悪用と、実際の個人情報の流出被害は区別する。被害の公表を未確認。",
-    "reviewed_on": "2026-10-23",
+    "note": "4～10月横断再調査：参照URLの応答を再取得。公表日・自然人の対象情報・既存事案との対応について掲載を確定する根拠が揃わず、保留を継続。 前回調査メモ：7月8日のフィッシング注意喚起を再検索。メッセージの悪用と、実際の個人情報の流出被害は区別する。被害の公表を未確認。",
+    "reviewed_on": "2026-10-27",
     "checked_urls": [
       "https://www.security-next.com/187068",
       "https://www.makuake.co.jp/news/archives/385"
@@ -158,8 +158,8 @@
     "reported_on": "2026-07-06",
     "verification": "pending",
     "reference_url": "https://www.security-next.com/186763",
-    "note": "110人への誤送信報道を再確認。6月24日は発生日。登録公式URLは対象事案の本文ではなく、公表日が未確定。",
-    "reviewed_on": "2026-10-23",
+    "note": "4～10月横断再調査：参照URLの応答を再取得。公表日・自然人の対象情報・既存事案との対応について掲載を確定する根拠が揃わず、保留を継続。 前回調査メモ：110人への誤送信報道を再確認。6月24日は発生日。登録公式URLは対象事案の本文ではなく、公表日が未確定。",
+    "reviewed_on": "2026-10-27",
     "checked_urls": [
       "https://www.security-next.com/186763",
       "https://www.city.myoko.niigata.jp/docs/84510.html"
@@ -171,8 +171,8 @@
     "reported_on": "2026-07-03",
     "verification": "pending",
     "reference_url": "https://www.security-next.com/186707",
-    "note": "県公式の重要なお知らせを再取得。防災メールの不正送信について個人情報流出は確認されていないとの説明。別の10月の事案と混同せず、個人情報への影響を継続確認。",
-    "reviewed_on": "2026-10-23",
+    "note": "4～10月横断再調査：参照URLの応答を再取得。公表日・自然人の対象情報・既存事案との対応について掲載を確定する根拠が揃わず、保留を継続。 前回調査メモ：県公式の重要なお知らせを再取得。防災メールの不正送信について個人情報流出は確認されていないとの説明。別の10月の事案と混同せず、個人情報への影響を継続確認。",
+    "reviewed_on": "2026-10-27",
     "checked_urls": [
       "https://www.security-next.com/186707",
       "https://www.pref.wakayama.lg.jp/prefg/011400/important_news.html"
@@ -184,8 +184,8 @@
     "reported_on": "2026-10-18",
     "verification": "pending",
     "reference_url": "https://and-secure.com/2026/10/10/incident-report-2026-apr-sep/",
-    "note": "公式索引の8月5日調査結果・経過報告を検索で確認。ただし告知本文を取得できず、6月の初報から個人情報の評価が変わったか未確認。",
-    "reviewed_on": "2026-10-23",
+    "note": "4～10月横断再調査：参照URLの応答を再取得。公表日・自然人の対象情報・既存事案との対応について掲載を確定する根拠が揃わず、保留を継続。 前回調査メモ：公式索引の8月5日調査結果・経過報告を検索で確認。ただし告知本文を取得できず、6月の初報から個人情報の評価が変わったか未確認。",
+    "reviewed_on": "2026-10-27",
     "checked_urls": [
       "https://and-secure.com/2026/10/10/incident-report-2026-apr-sep/",
       "https://www.higuchi-inc.co.jp/",
@@ -198,8 +198,8 @@
     "reported_on": "2026-10-18",
     "verification": "pending",
     "reference_url": "https://satimo.org/2026/10/data-breach-list-2026/",
-    "note": "8月28日の公式告知を再取得。不正アクセスへの対応は確認できるが、個人情報の対象を示す続報は未発見。",
-    "reviewed_on": "2026-10-23",
+    "note": "4～10月横断再調査：参照URLの応答を再取得。公表日・自然人の対象情報・既存事案との対応について掲載を確定する根拠が揃わず、保留を継続。 前回調査メモ：8月28日の公式告知を再取得。不正アクセスへの対応は確認できるが、個人情報の対象を示す続報は未発見。",
+    "reviewed_on": "2026-10-27",
     "checked_urls": [
       "https://satimo.org/2026/10/data-breach-list-2026/",
       "https://www.toka-global.com/news/detail/post_210.html"
@@ -211,8 +211,8 @@
     "reported_on": "2026-10-18",
     "verification": "pending",
     "reference_url": "https://satimo.org/2026/10/data-breach-list-2026/",
-    "note": "8月27日公式PDFと公式ニュース一覧を再確認。顧客識別情報・メールアドレスの流出は確認済みだが、自然人の情報かは未特定。最大100社を個人情報件数・人数に換算せず保留。追加の調査結果は今回確認できず。",
-    "reviewed_on": "2026-10-25",
+    "note": "4～10月横断再調査：公式8月27日PDFを確認。最大100社の識別情報・メールアドレスが対象。自然人情報の含有範囲は未確定。 前回調査メモ：8月27日公式PDFと公式ニュース一覧を再確認。顧客識別情報・メールアドレスの流出は確認済みだが、自然人の情報かは未特定。最大100社を個人情報件数・人数に換算せず保留。追加の調査結果は今回確認できず。",
+    "reviewed_on": "2026-10-27",
     "checked_urls": [
       "https://satimo.org/2026/10/data-breach-list-2026/",
       "https://01bank.co.jp/news/pdf/2026/0827.pdf",
@@ -225,8 +225,8 @@
     "reported_on": "2026-10-18",
     "verification": "pending",
     "reference_url": "https://rocket-boys.co.jp/security-measures-lab/2026-08-data-breach-cases-summary/",
-    "note": "9月11日ScanNetSecurityの公開部分で8月26日発表と3月10日の攻撃を確認。リンク先の公式告知は404。個人情報漏えい等の可能性という告知名は確認できるが、従業員等の対象情報を原文で裏付けられず保留。",
-    "reviewed_on": "2026-10-25",
+    "note": "4～10月横断再調査：参照URLの応答を再取得。公表日・自然人の対象情報・既存事案との対応について掲載を確定する根拠が揃わず、保留を継続。 前回調査メモ：9月11日ScanNetSecurityの公開部分で8月26日発表と3月10日の攻撃を確認。リンク先の公式告知は404。個人情報漏えい等の可能性という告知名は確認できるが、従業員等の対象情報を原文で裏付けられず保留。",
+    "reviewed_on": "2026-10-27",
     "checked_urls": [
       "https://rocket-boys.co.jp/security-measures-lab/2026-08-data-breach-cases-summary/",
       "https://scan.netsecurity.ne.jp/article/2026/09/11/56209.html",
@@ -239,8 +239,8 @@
     "reported_on": "2026-10-18",
     "verification": "pending",
     "reference_url": "https://legalagent.co.jp/legal-lab/security-incidents/",
-    "note": "7月21日の公表を扱う二次資料を再確認。第三者アクセスと情報流出を区別。公式の旧参照先は別内容となっており、個人情報への影響を確認できず。",
-    "reviewed_on": "2026-10-23",
+    "note": "4～10月横断再調査：参照URLの応答を再取得。公表日・自然人の対象情報・既存事案との対応について掲載を確定する根拠が揃わず、保留を継続。 前回調査メモ：7月21日の公表を扱う二次資料を再確認。第三者アクセスと情報流出を区別。公式の旧参照先は別内容となっており、個人情報への影響を確認できず。",
+    "reviewed_on": "2026-10-27",
     "checked_urls": [
       "https://legalagent.co.jp/legal-lab/security-incidents/",
       "https://www.kklp.co.jp/3834"
@@ -252,27 +252,10 @@
     "reported_on": "2026-10-18",
     "verification": "pending",
     "reference_url": "https://www.pref.saitama.lg.jp/a0403/news/page/news2026082401.html",
-    "note": "11事業者の口座情報等に関する資料を再確認。事業者数を人数とせず、個人事業主等の個人情報が含まれるかの裏付け待ち。",
-    "reviewed_on": "2026-10-23",
+    "note": "4～10月横断再調査：公式8月25日発表で11事業者の口座情報の誤送信を確認。自然人の口座・担当者情報が含まれるかは未確認。 前回調査メモ：11事業者の口座情報等に関する資料を再確認。事業者数を人数とせず、個人事業主等の個人情報が含まれるかの裏付け待ち。",
+    "reviewed_on": "2026-10-27",
     "checked_urls": [
       "https://www.pref.saitama.lg.jp/a0403/news/page/news2026082401.html"
-    ]
-  },
-  {
-    "id": "research-papyless-renta-20261019",
-    "organization": "パピレス（Renta!）",
-    "reported_on": "2026-10-19",
-    "verification": "pending",
-    "reference_url": "https://www.itmedia.co.jp/news/article/2610/19/2000002379/",
-    "note": "10月21日公式告知を再確認。影響範囲は精査中で、個人情報の対象・漏えい有無を示す追加公表は今回の検索で確認できず。",
-    "reviewed_on": "2026-10-25",
-    "checked_urls": [
-      "https://www.itmedia.co.jp/news/article/2610/19/2000002379/",
-      "https://renta.papy.co.jp/renta/sc/frm/info/?id=202610_u_991",
-      "https://ufocatch.com/document/TD2026101900023",
-      "https://gamebiz.jp/news/434271",
-      "https://papy.co.jp/ir/sc/index/ir_news.html",
-      "https://papy.co.jp/news/sc/index/article/2026/20261021.html"
     ]
   },
   {
@@ -281,8 +264,8 @@
     "reported_on": "2026-10-16",
     "verification": "pending",
     "reference_url": "https://www.smd-am.co.jp/news/news/2026/news_20261016/",
-    "note": "10月16日公式告知の本文を取得。取引委託先の不正アクセス検知による予防的停止と復旧を説明し、現時点で口座情報・取引への影響は未確認。個人情報流出の対象を示す新たな情報は得られず保留。",
-    "reviewed_on": "2026-10-25",
+    "note": "4～10月横断再調査：参照URLの応答を再取得。公表日・自然人の対象情報・既存事案との対応について掲載を確定する根拠が揃わず、保留を継続。 前回調査メモ：10月16日公式告知の本文を取得。取引委託先の不正アクセス検知による予防的停止と復旧を説明し、現時点で口座情報・取引への影響は未確認。個人情報流出の対象を示す新たな情報は得られず保留。",
+    "reviewed_on": "2026-10-27",
     "checked_urls": [
       "https://www.smd-am.co.jp/news/news/2026/news_20261016/"
     ]
@@ -293,8 +276,8 @@
     "reported_on": "2026-10-21",
     "verification": "pending",
     "reference_url": "https://www.future-shop.jp/news/2026/10/21.html",
-    "note": "10月22日第二報では21日検知の攻撃について個人情報の閲覧・取得の痕跡なし。23日公表の314万7469件流出は17日侵入・19日検知という別の時系列で、関係が明記されていないため同一事案と断定せず、21日分は保留継続。",
-    "reviewed_on": "2026-10-25",
+    "note": "4～10月横断再調査：10月25日の説明も再確認。10月21日検知の攻撃と17日侵入の会員情報被害との関係が明示されず、別時系列として保留。 前回調査メモ：10月22日第二報では21日検知の攻撃について個人情報の閲覧・取得の痕跡なし。23日公表の314万7469件流出は17日侵入・19日検知という別の時系列で、関係が明記されていないため同一事案と断定せず、21日分は保留継続。",
+    "reviewed_on": "2026-10-27",
     "checked_urls": [
       "https://www.future-shop.jp/news/2026/10/21.html",
       "https://www.future-shop.jp/news/2026/10/22.html",
@@ -307,8 +290,8 @@
     "reported_on": "2026-10-19",
     "verification": "pending",
     "reference_url": "https://www.corp.hkn.jp/news/category/press/261019",
-    "note": "10月19日公式第一報の検索収録本文を確認。2社の情報流出は確認済みだが、個人情報の具体的な対象項目は未確定。公式一覧には23日のサイト再開案内があるが、出納の漏えい範囲確定とは扱わない。",
-    "reviewed_on": "2026-10-25",
+    "note": "4～10月横断再調査：参照URLの応答を再取得。公表日・自然人の対象情報・既存事案との対応について掲載を確定する根拠が揃わず、保留を継続。 前回調査メモ：10月19日公式第一報の検索収録本文を確認。2社の情報流出は確認済みだが、個人情報の具体的な対象項目は未確定。公式一覧には23日のサイト再開案内があるが、出納の漏えい範囲確定とは扱わない。",
+    "reviewed_on": "2026-10-27",
     "checked_urls": [
       "https://www.corp.hkn.jp/news/category/press/261019",
       "https://www.corp.hkn.jp/"
@@ -320,8 +303,8 @@
     "reported_on": "2026-10-21",
     "verification": "pending",
     "reference_url": "https://www.aeon.info/wp-content/uploads/news/important/pdf/2026/10/261021R_2.pdf",
-    "note": "公式重要告知一覧の最新関連告知は10月21日。PDFは直接取得403が継続。13社42サイトを個人情報件数とせず、個人情報への影響を確定する続報待ち。",
-    "reviewed_on": "2026-10-25",
+    "note": "4～10月横断再調査：参照URLの応答を再取得。公表日・自然人の対象情報・既存事案との対応について掲載を確定する根拠が揃わず、保留を継続。 前回調査メモ：公式重要告知一覧の最新関連告知は10月21日。PDFは直接取得403が継続。13社42サイトを個人情報件数とせず、個人情報への影響を確定する続報待ち。",
+    "reviewed_on": "2026-10-27",
     "checked_urls": [
       "https://www.aeon.info/wp-content/uploads/news/important/pdf/2026/10/261021R_2.pdf",
       "https://www.aeon.info/important/"
@@ -333,8 +316,8 @@
     "reported_on": "2026-10-15",
     "verification": "pending",
     "reference_url": "https://www.security-next.com/191406",
-    "note": "45人へのメール誤送信を報道で再確認。9月6日発生、15日判明、10月15日記事。図書館・市による公表日を裏付ける一次資料が未発見。",
-    "reviewed_on": "2026-10-23",
+    "note": "4～10月横断再調査：参照URLの応答を再取得。公表日・自然人の対象情報・既存事案との対応について掲載を確定する根拠が揃わず、保留を継続。 前回調査メモ：45人へのメール誤送信を報道で再確認。9月6日発生、15日判明、10月15日記事。図書館・市による公表日を裏付ける一次資料が未発見。",
+    "reviewed_on": "2026-10-27",
     "checked_urls": [
       "https://www.security-next.com/191406"
     ]
@@ -345,8 +328,8 @@
     "reported_on": "2026-10-21",
     "verification": "pending",
     "reference_url": "https://rocket-boys.co.jp/security-measures-lab/shinryo_cyberattack_system_outage_20261022/",
-    "note": "10月21日公式原文を確認。現時点で個人情報・顧客データの外部流出は未確認、調査継続との説明。公式ニュース一覧でも追加結果を確認できず、最終的な流出否定とは扱わない。",
-    "reviewed_on": "2026-10-25",
+    "note": "4～10月横断再調査：参照URLの応答を再取得。公表日・自然人の対象情報・既存事案との対応について掲載を確定する根拠が揃わず、保留を継続。 前回調査メモ：10月21日公式原文を確認。現時点で個人情報・顧客データの外部流出は未確認、調査継続との説明。公式ニュース一覧でも追加結果を確認できず、最終的な流出否定とは扱わない。",
+    "reviewed_on": "2026-10-27",
     "checked_urls": [
       "https://rocket-boys.co.jp/security-measures-lab/shinryo_cyberattack_system_outage_20261022/",
       "https://www.shinryo.com/news/20261021.html",
@@ -359,12 +342,12 @@
     "reported_on": "2026-10-23",
     "verification": "pending",
     "reference_url": "https://www.city.inazawa.aichi.jp/0000006084.html",
-    "reviewed_on": "2026-10-25",
+    "reviewed_on": "2026-10-27",
     "checked_urls": [
       "https://www.city.inazawa.aichi.jp/0000006084.html",
       "https://www.city.inazawa.aichi.jp/0000006091.html"
     ],
-    "note": "公式原文を確認。10月13日公表の住基ネットへのテストデータ217件の誤送信。カード等失効や他自治体への通知誤送信25件・3件があるが、テストデータに実在個人の情報がどの範囲で含まれるかは未特定。217件を個人情報流出件数としない。掲載済みのNET119（59件）とは別事案。"
+    "note": "4～10月横断再調査：参照URLの再取得を試みたが本文取得に至らず、従来の未確認事項を解消できないため保留を継続。 前回調査メモ：公式原文を確認。10月13日公表の住基ネットへのテストデータ217件の誤送信。カード等失効や他自治体への通知誤送信25件・3件があるが、テストデータに実在個人の情報がどの範囲で含まれるかは未特定。217件を個人情報流出件数としない。掲載済みのNET119（59件）とは別事案。"
   },
   {
     "id": "june-review-429efce1362f",
@@ -372,8 +355,8 @@
     "reported_on": "2026-06-30",
     "verification": "pending",
     "reference_url": "https://www.higuchi-inc.co.jp/newsrelease/company/doc/unauthorized_access_incident.pdf",
-    "note": "8月5日調査報告の存在を公式一覧で再確認。PDFはTLS証明書検証エラーで取得できず。二次資料の財務・取引先情報は自然人の情報と特定できないため保留。",
-    "reviewed_on": "2026-10-24",
+    "note": "4～10月横断再調査：参照URLの再取得を試みたが本文取得に至らず、従来の未確認事項を解消できないため保留を継続。 前回調査メモ：8月5日調査報告の存在を公式一覧で再確認。PDFはTLS証明書検証エラーで取得できず。二次資料の財務・取引先情報は自然人の情報と特定できないため保留。",
+    "reviewed_on": "2026-10-27",
     "checked_urls": [
       "https://www.higuchi-inc.co.jp/newsrelease/company/doc/unauthorized_access_incident.pdf",
       "https://www.higuchi-inc.co.jp/newsrelease/company/doc/unauthorized_access_incident02.pdf",
@@ -388,8 +371,8 @@
     "reported_on": "2026-06-24",
     "verification": "pending",
     "reference_url": "https://www.sapporobreweries.com/notice/detail/20260624000010.html",
-    "note": "公式お知らせ一覧と海外報道を再探索。PokkaとSleemanの別々の攻撃について、個人情報の対象を確定する公式続報は今回見つからず。攻撃者の主張は確認済み漏えいと扱わない。",
-    "reviewed_on": "2026-10-24",
+    "note": "4～10月横断再調査：参照URLの応答を再取得。公表日・自然人の対象情報・既存事案との対応について掲載を確定する根拠が揃わず、保留を継続。 前回調査メモ：公式お知らせ一覧と海外報道を再探索。PokkaとSleemanの別々の攻撃について、個人情報の対象を確定する公式続報は今回見つからず。攻撃者の主張は確認済み漏えいと扱わない。",
+    "reviewed_on": "2026-10-27",
     "checked_urls": [
       "https://www.sapporobreweries.com/notice/detail/20260624000010.html",
       "https://www.security-next.com/186438",
@@ -402,8 +385,8 @@
     "reported_on": "2026-06-15",
     "verification": "pending",
     "reference_url": "https://factoryjapan.jp/resources/files/0615.pdf",
-    "note": "公式ニュース一覧を再確認。6月15日の自社サーバー侵害は個人情報への影響が未確定。掲載済みの8月4日PeakManager事案と分離して保留を継続。",
-    "reviewed_on": "2026-10-24",
+    "note": "4～10月横断再調査：参照URLの応答を再取得。公表日・自然人の対象情報・既存事案との対応について掲載を確定する根拠が揃わず、保留を継続。 前回調査メモ：公式ニュース一覧を再確認。6月15日の自社サーバー侵害は個人情報への影響が未確定。掲載済みの8月4日PeakManager事案と分離して保留を継続。",
+    "reviewed_on": "2026-10-27",
     "checked_urls": [
       "https://factoryjapan.jp/resources/files/0615.pdf",
       "https://factoryjapan.jp/wp/wp-content/uploads/2026/08/0804-1.pdf",
@@ -416,8 +399,8 @@
     "reported_on": "2026-06-04",
     "verification": "pending",
     "reference_url": "https://shokusou.co.jp/news/sonota/4366/",
-    "note": "6月4日公式発表の検索収録本文と6月10日十勝毎日新聞を確認。報道時点で漏えいは確認されていないが、最終的な否定・対象範囲の確定ではない。個人情報への影響を示す続報は今回見つからず。",
-    "reviewed_on": "2026-10-24",
+    "note": "4～10月横断再調査：参照URLの再取得を試みたが本文取得に至らず、従来の未確認事項を解消できないため保留を継続。 前回調査メモ：6月4日公式発表の検索収録本文と6月10日十勝毎日新聞を確認。報道時点で漏えいは確認されていないが、最終的な否定・対象範囲の確定ではない。個人情報への影響を示す続報は今回見つからず。",
+    "reviewed_on": "2026-10-27",
     "checked_urls": [
       "https://shokusou.co.jp/news/sonota/4366/",
       "https://www.security-next.com/185737",
@@ -430,8 +413,8 @@
     "reported_on": "2026-06-25",
     "verification": "pending",
     "reference_url": "https://www.security-next.com/186263",
-    "note": "公式トピックス一覧を再確認。6月19日外部送信、7月3日公開確認の続報はあるが、個人情報の対象を確定できず。一般の社内情報流出だけで個人情報漏えいには計上しない。",
-    "reviewed_on": "2026-10-24",
+    "note": "4～10月横断再調査：参照URLの応答を再取得。公表日・自然人の対象情報・既存事案との対応について掲載を確定する根拠が揃わず、保留を継続。 前回調査メモ：公式トピックス一覧を再確認。6月19日外部送信、7月3日公開確認の続報はあるが、個人情報の対象を確定できず。一般の社内情報流出だけで個人情報漏えいには計上しない。",
+    "reviewed_on": "2026-10-27",
     "checked_urls": [
       "https://www.security-next.com/186263",
       "https://www.daikyonishikawa.co.jp/Portals/0/0619%E3%83%88%E3%83%94%E3%83%83%E3%82%AF%E3%82%B9%E3%81%9D%E3%81%AE%E4%BB%96_%E3%82%B0%E3%83%AB%E3%83%BC%E3%83%97%E4%BC%9A%E7%A4%BE%E3%81%B8%E3%81%AE%E4%B8%8D%E6%AD%A3%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6.pdf",
@@ -447,8 +430,8 @@
     "reported_on": "2026-06-25",
     "verification": "pending",
     "reference_url": "https://www.security-next.com/186388",
-    "note": "公式2026年ニュース一覧を再確認。8月4日第2報はファイル名等の公開であり、ファイル本体の公開・個人情報の対象を確認する新たな続報は今回見つからず。",
-    "reviewed_on": "2026-10-24",
+    "note": "4～10月横断再調査：参照URLの応答を再取得。公表日・自然人の対象情報・既存事案との対応について掲載を確定する根拠が揃わず、保留を継続。 前回調査メモ：公式2026年ニュース一覧を再確認。8月4日第2報はファイル名等の公開であり、ファイル本体の公開・個人情報の対象を確認する新たな続報は今回見つからず。",
+    "reviewed_on": "2026-10-27",
     "checked_urls": [
       "https://www.security-next.com/186388",
       "https://www.nidec.com/files/user/www-nidec-com/corporate/news/2026/0624-01/260624-01jp.pdf",
@@ -462,8 +445,8 @@
     "reported_on": "2026-06-17",
     "verification": "pending",
     "reference_url": "https://www.security-next.com/185799",
-    "note": "公式スタッフブログの再開案内も確認。8月12日を目処とする再開とマネー不正利用なしの説明はあるが、個人情報漏えい否定とは扱えないため保留。",
-    "reviewed_on": "2026-10-24",
+    "note": "4～10月横断再調査：参照URLの応答を再取得。公表日・自然人の対象情報・既存事案との対応について掲載を確定する根拠が揃わず、保留を継続。 前回調査メモ：公式スタッフブログの再開案内も確認。8月12日を目処とする再開とマネー不正利用なしの説明はあるが、個人情報漏えい否定とは扱えないため保留。",
+    "reviewed_on": "2026-10-27",
     "checked_urls": [
       "https://www.security-next.com/185799",
       "https://support.d-money.jp/hc/ja/articles/61069824277657",
@@ -476,8 +459,8 @@
     "reported_on": "2026-06-15",
     "verification": "pending",
     "reference_url": "https://www.security-next.com/185811",
-    "note": "公式2026年ニュース一覧を再確認。6月10日のインドネシア事案について個人情報への影響を確定する追加発表は今回見つからず。9月18日のマレーシア事案は別件。",
-    "reviewed_on": "2026-10-24",
+    "note": "4～10月横断再調査：参照URLの応答を再取得。公表日・自然人の対象情報・既存事案との対応について掲載を確定する根拠が揃わず、保留を継続。 前回調査メモ：公式2026年ニュース一覧を再確認。6月10日のインドネシア事案について個人情報への影響を確定する追加発表は今回見つからず。9月18日のマレーシア事案は別件。",
+    "reviewed_on": "2026-10-27",
     "checked_urls": [
       "https://www.security-next.com/185811",
       "https://www.taikisha.co.jp/common/mtimg/20260610.pdf",
@@ -490,8 +473,8 @@
     "reported_on": "2026-06-04",
     "verification": "pending",
     "reference_url": "https://www.security-next.com/185324",
-    "note": "9月24日最終報告とされる公式PDFを再取得したが503。二次資料の個人データへの影響について一次資料の裏付けは得られず、保留継続。 5月遡及調査でも公式PDFは503で取得できず。",
-    "reviewed_on": "2026-10-26",
+    "note": "4～10月横断再調査：参照URLの応答を再取得。公表日・自然人の対象情報・既存事案との対応について掲載を確定する根拠が揃わず、保留を継続。 前回調査メモ：9月24日最終報告とされる公式PDFを再取得したが503。二次資料の個人データへの影響について一次資料の裏付けは得られず、保留継続。 5月遡及調査でも公式PDFは503で取得できず。",
+    "reviewed_on": "2026-10-27",
     "checked_urls": [
       "https://www.security-next.com/185324",
       "https://www.onebe.co.jp/dlpnews/?p=34887",
@@ -508,8 +491,8 @@
     "reported_on": "2026-06-17",
     "verification": "pending",
     "reference_url": "https://www.ooc.co.jp/news/pdf/20260617.pdf",
-    "note": "Security NEXT 6月23日とScanNetSecurity配信記事を確認。6月17日復旧・影響調査中は裏付けられたが個人情報の対象は未記載。別まとめの問い合わせ情報への影響という記述は公式PDF（503）で確認できず保留。",
-    "reviewed_on": "2026-10-24",
+    "note": "4～10月横断再調査：参照URLの再取得を試みたが本文取得に至らず、従来の未確認事項を解消できないため保留を継続。 前回調査メモ：Security NEXT 6月23日とScanNetSecurity配信記事を確認。6月17日復旧・影響調査中は裏付けられたが個人情報の対象は未記載。別まとめの問い合わせ情報への影響という記述は公式PDF（503）で確認できず保留。",
+    "reviewed_on": "2026-10-27",
     "checked_urls": [
       "https://www.ooc.co.jp/news/pdf/20260617.pdf",
       "https://legalagent.co.jp/legal-lab/security-incidents/",
@@ -524,8 +507,8 @@
     "reported_on": "2026-06-05",
     "verification": "pending",
     "reference_url": "https://www.corp.musenet.co.jp/pages/23?detail=1&b_id=106&r_id=37#block106",
-    "note": "10月13日IBM i専門誌の取材記事まで確認したが、個人情報の対象は特定できず。検索で見つかった6月5日付公式ページは新刊案内で、漏えい公表日の裏付けには使えない。6月公表日と個人情報への影響の両方を保留。 5月のSecurity NEXT記事も確認したが、公式公表日と個人情報への具体的影響は未解決。",
-    "reviewed_on": "2026-10-26",
+    "note": "4～10月横断再調査：参照URLの応答を再取得。公表日・自然人の対象情報・既存事案との対応について掲載を確定する根拠が揃わず、保留を継続。 前回調査メモ：10月13日IBM i専門誌の取材記事まで確認したが、個人情報の対象は特定できず。検索で見つかった6月5日付公式ページは新刊案内で、漏えい公表日の裏付けには使えない。6月公表日と個人情報への影響の両方を保留。 5月のSecurity NEXT記事も確認したが、公式公表日と個人情報への具体的影響は未解決。",
+    "reviewed_on": "2026-10-27",
     "checked_urls": [
       "https://www.corp.musenet.co.jp/pages/23?detail=1&b_id=106&r_id=37#block106",
       "https://legalagent.co.jp/legal-lab/security-incidents/",
@@ -535,26 +518,13 @@
     ]
   },
   {
-    "id": "may-review-bcba43268ce2",
-    "organization": "小牧市（YCC情報システム）",
-    "reported_on": "2026-10-26",
-    "verification": "pending",
-    "reference_url": "https://www.city.komaki.aichi.jp/admin/soshiki/fukushi/hokeniryou/51791.html",
-    "note": "5月遡及調査で発見。reported_onは発見日であり公表日ではない。公式URLが403。本文と公表日・対象範囲を確認できず。 4月調査：4月初報URLも403。公表日と対象を未確認。",
-    "reviewed_on": "2026-10-26",
-    "checked_urls": [
-      "https://www.city.komaki.aichi.jp/admin/soshiki/fukushi/hokeniryou/51791.html",
-      "https://www.city.komaki.aichi.jp/admin/soshiki/fukushi/hokeniryou/51580.html"
-    ]
-  },
-  {
     "id": "may-review-d0ee4ddb1cff",
     "organization": "ポラリス・ホールディングス",
     "reported_on": "2026-10-26",
     "verification": "pending",
     "reference_url": "https://www.polaris-holdings.com/wp-content/uploads/2026/05/Release_Unauthorized_Access_260528_JP.pdf",
-    "note": "5月遡及調査で発見。reported_onは発見日であり公表日ではない。公式PDFが404。Booking.comアカウント侵害と個人情報への影響を原文で未確認。",
-    "reviewed_on": "2026-10-26",
+    "note": "4～10月横断再調査：参照URLの再取得を試みたが本文取得に至らず、従来の未確認事項を解消できないため保留を継続。 前回調査メモ：5月遡及調査で発見。reported_onは発見日であり公表日ではない。公式PDFが404。Booking.comアカウント侵害と個人情報への影響を原文で未確認。",
+    "reviewed_on": "2026-10-27",
     "checked_urls": [
       "https://www.polaris-holdings.com/wp-content/uploads/2026/05/Release_Unauthorized_Access_260528_JP.pdf"
     ]
@@ -565,8 +535,8 @@
     "reported_on": "2026-10-26",
     "verification": "pending",
     "reference_url": "https://4jou.jp/information/2026-05-27",
-    "note": "5月遡及調査で発見。reported_onは発見日であり公表日ではない。参照URLは現在別のお知らせ。申込フォーム事故の原文と公表日を再確認する必要がある。",
-    "reviewed_on": "2026-10-26",
+    "note": "4～10月横断再調査：参照URLの応答を再取得。公表日・自然人の対象情報・既存事案との対応について掲載を確定する根拠が揃わず、保留を継続。 前回調査メモ：5月遡及調査で発見。reported_onは発見日であり公表日ではない。参照URLは現在別のお知らせ。申込フォーム事故の原文と公表日を再確認する必要がある。",
+    "reviewed_on": "2026-10-27",
     "checked_urls": [
       "https://4jou.jp/information/2026-05-27"
     ]
@@ -577,8 +547,8 @@
     "reported_on": "2026-10-26",
     "verification": "pending",
     "reference_url": "https://www.koaglass.co.jp/wp-content/uploads/2026/05/News_20260526_jp.pdf",
-    "note": "5月遡及調査で発見。reported_onは発見日であり公表日ではない。公式PDFを取得したが本文を抽出できず。個人情報への影響と公表日を未確認。",
-    "reviewed_on": "2026-10-26",
+    "note": "4～10月横断再調査：参照URLの応答を再取得。公表日・自然人の対象情報・既存事案との対応について掲載を確定する根拠が揃わず、保留を継続。 前回調査メモ：5月遡及調査で発見。reported_onは発見日であり公表日ではない。公式PDFを取得したが本文を抽出できず。個人情報への影響と公表日を未確認。",
+    "reviewed_on": "2026-10-27",
     "checked_urls": [
       "https://www.koaglass.co.jp/wp-content/uploads/2026/05/News_20260526_jp.pdf"
     ]
@@ -589,8 +559,8 @@
     "reported_on": "2026-10-26",
     "verification": "pending",
     "reference_url": "https://www.town.wakuya.miyagi.jp/hanasigurejouhou.html",
-    "note": "5月遡及調査で発見。reported_onは発見日であり公表日ではない。公式URLが該当記事を返さない。公表日と対象範囲は未確認。",
-    "reviewed_on": "2026-10-26",
+    "note": "4～10月横断再調査：参照URLの応答を再取得。公表日・自然人の対象情報・既存事案との対応について掲載を確定する根拠が揃わず、保留を継続。 前回調査メモ：5月遡及調査で発見。reported_onは発見日であり公表日ではない。公式URLが該当記事を返さない。公表日と対象範囲は未確認。",
+    "reviewed_on": "2026-10-27",
     "checked_urls": [
       "https://www.town.wakuya.miyagi.jp/hanasigurejouhou.html"
     ]
@@ -601,8 +571,8 @@
     "reported_on": "2026-10-26",
     "verification": "pending",
     "reference_url": "https://www.keihanhotels-resorts.co.jp/biwakohotel/info/notice-202605/",
-    "note": "5月遡及調査で発見。reported_onは発見日であり公表日ではない。Booking.comアカウント侵害と不正メッセージを確認したが、個人情報の対象・流出有無の裏付けが不十分。",
-    "reviewed_on": "2026-10-26",
+    "note": "4～10月横断再調査：参照URLの応答を再取得。公表日・自然人の対象情報・既存事案との対応について掲載を確定する根拠が揃わず、保留を継続。 前回調査メモ：5月遡及調査で発見。reported_onは発見日であり公表日ではない。Booking.comアカウント侵害と不正メッセージを確認したが、個人情報の対象・流出有無の裏付けが不十分。",
+    "reviewed_on": "2026-10-27",
     "checked_urls": [
       "https://www.keihanhotels-resorts.co.jp/biwakohotel/info/notice-202605/"
     ]
@@ -613,8 +583,8 @@
     "reported_on": "2026-10-26",
     "verification": "pending",
     "reference_url": "https://www.keihanhotels-resorts.co.jp/kyoto-centuryhotel/news/notice-202605/",
-    "note": "5月遡及調査で発見。reported_onは発見日であり公表日ではない。Booking.comアカウント侵害と不正メッセージを確認したが、個人情報の対象・流出有無の裏付けが不十分。",
-    "reviewed_on": "2026-10-26",
+    "note": "4～10月横断再調査：参照URLの応答を再取得。公表日・自然人の対象情報・既存事案との対応について掲載を確定する根拠が揃わず、保留を継続。 前回調査メモ：5月遡及調査で発見。reported_onは発見日であり公表日ではない。Booking.comアカウント侵害と不正メッセージを確認したが、個人情報の対象・流出有無の裏付けが不十分。",
+    "reviewed_on": "2026-10-27",
     "checked_urls": [
       "https://www.keihanhotels-resorts.co.jp/kyoto-centuryhotel/news/notice-202605/"
     ]
@@ -625,23 +595,11 @@
     "reported_on": "2026-10-26",
     "verification": "pending",
     "reference_url": "https://www.ags.co.jp/topics/20260525.html",
-    "note": "5月遡及調査で発見。reported_onは発見日であり公表日ではない。第2報本文の情報漏えい記載だけでは自然人の対象が明確でない。幸手市の公表は別途掲載済み。 4月調査：4月17日初報も情報漏えいのおそれとの表現。自然人の対象が明確でなく保留継続。",
-    "reviewed_on": "2026-10-26",
+    "note": "4～10月横断再調査：公式5月25日第2報本文を取得。YCCからの情報流出痕跡なしとの調査結果を確認したが、AGS自身の個人情報の対象項目・人数は未特定。 前回調査メモ：5月遡及調査で発見。reported_onは発見日であり公表日ではない。第2報本文の情報漏えい記載だけでは自然人の対象が明確でない。幸手市の公表は別途掲載済み。 4月調査：4月17日初報も情報漏えいのおそれとの表現。自然人の対象が明確でなく保留継続。",
+    "reviewed_on": "2026-10-27",
     "checked_urls": [
       "https://www.ags.co.jp/topics/20260525.html",
       "https://www.ags.co.jp/topics/20260417.html"
-    ]
-  },
-  {
-    "id": "may-review-920b6f07f644",
-    "organization": "LINEヤフー（Yahoo! JAPANビジネスID）",
-    "reported_on": "2026-10-26",
-    "verification": "pending",
-    "reference_url": "https://www.lycorp.co.jp/ja/privacy-security/announcement/020436/",
-    "note": "5月遡及調査で発見。reported_onは発見日であり公表日ではない。誤表示された事業者IDと自然人情報の関係が未確定。事業者の数を人数に転用しない。",
-    "reviewed_on": "2026-10-26",
-    "checked_urls": [
-      "https://www.lycorp.co.jp/ja/privacy-security/announcement/020436/"
     ]
   },
   {
@@ -650,8 +608,8 @@
     "reported_on": "2026-10-26",
     "verification": "pending",
     "reference_url": "https://www.nspm.nipponsteel.com/pr/pr2026052201.pdf",
-    "note": "5月遡及調査で発見。reported_onは発見日であり公表日ではない。公式PDFの暗号化により本文抽出不可。個人情報の対象範囲は未確認。",
-    "reviewed_on": "2026-10-26",
+    "note": "4～10月横断再調査：公式5月22日PDFを取得。メールサーバーの停止・復旧の案内で個人情報の具体的影響を確認できない。 前回調査メモ：5月遡及調査で発見。reported_onは発見日であり公表日ではない。公式PDFの暗号化により本文抽出不可。個人情報の対象範囲は未確認。",
+    "reviewed_on": "2026-10-27",
     "checked_urls": [
       "https://www.nspm.nipponsteel.com/pr/pr2026052201.pdf"
     ]
@@ -662,8 +620,8 @@
     "reported_on": "2026-10-26",
     "verification": "pending",
     "reference_url": "https://www.pref.niigata.lg.jp/site/kyoiku/r8-houdou4.html",
-    "note": "5月遡及調査で発見。reported_onは発見日であり公表日ではない。公式URLが404。対象情報・公表日を未確認。",
-    "reviewed_on": "2026-10-26",
+    "note": "4～10月横断再調査：参照URLの再取得を試みたが本文取得に至らず、従来の未確認事項を解消できないため保留を継続。 前回調査メモ：5月遡及調査で発見。reported_onは発見日であり公表日ではない。公式URLが404。対象情報・公表日を未確認。",
+    "reviewed_on": "2026-10-27",
     "checked_urls": [
       "https://www.pref.niigata.lg.jp/site/kyoiku/r8-houdou4.html"
     ]
@@ -674,8 +632,8 @@
     "reported_on": "2026-10-26",
     "verification": "pending",
     "reference_url": "https://www.city.seki.lg.jp/0000023194.html",
-    "note": "5月遡及調査で発見。reported_onは発見日であり公表日ではない。USB紛失の公式URLが404。人数・公表日を原文で未確認。",
-    "reviewed_on": "2026-10-26",
+    "note": "4～10月横断再調査：参照URLの再取得を試みたが本文取得に至らず、従来の未確認事項を解消できないため保留を継続。 前回調査メモ：5月遡及調査で発見。reported_onは発見日であり公表日ではない。USB紛失の公式URLが404。人数・公表日を原文で未確認。",
+    "reviewed_on": "2026-10-27",
     "checked_urls": [
       "https://www.city.seki.lg.jp/0000023194.html"
     ]
@@ -686,8 +644,8 @@
     "reported_on": "2026-10-26",
     "verification": "pending",
     "reference_url": "https://www.anabuki-housing.co.jp/news/content.php?news_id=530&news_category_cd=0",
-    "note": "5月遡及調査で発見。reported_onは発見日であり公表日ではない。第6報の公式URLが429。グループ全体の人数を原文で未確認。香川県営住宅474人の公表とは区別。 4月調査：4月の第5報も429。対象全体の規模は未確認。",
-    "reviewed_on": "2026-10-26",
+    "note": "4～10月横断再調査：参照URLの再取得を試みたが本文取得に至らず、従来の未確認事項を解消できないため保留を継続。 前回調査メモ：5月遡及調査で発見。reported_onは発見日であり公表日ではない。第6報の公式URLが429。グループ全体の人数を原文で未確認。香川県営住宅474人の公表とは区別。 4月調査：4月の第5報も429。対象全体の規模は未確認。",
+    "reviewed_on": "2026-10-27",
     "checked_urls": [
       "https://www.anabuki-housing.co.jp/news/content.php?news_id=530&news_category_cd=0",
       "https://www.anabuki-housing.co.jp/news/content.php?news_id=525"
@@ -699,8 +657,8 @@
     "reported_on": "2026-10-26",
     "verification": "pending",
     "reference_url": "https://www.takuei-home.co.jp/news/0519.pdf",
-    "note": "5月遡及調査で発見。reported_onは発見日であり公表日ではない。参照PDFは現在合併案内を返す。クラウド侵害の元資料を未取得。",
-    "reviewed_on": "2026-10-26",
+    "note": "4～10月横断再調査：参照URLは合併・営業継続の案内を返す。当該事故の本文として確認できない。 前回調査メモ：5月遡及調査で発見。reported_onは発見日であり公表日ではない。参照PDFは現在合併案内を返す。クラウド侵害の元資料を未取得。",
+    "reviewed_on": "2026-10-27",
     "checked_urls": [
       "https://www.takuei-home.co.jp/news/0519.pdf"
     ]
@@ -711,8 +669,8 @@
     "reported_on": "2026-10-26",
     "verification": "pending",
     "reference_url": "https://www.welcome-mc.co.jp/2026/05/15/%E8%A8%BA%E6%96%AD%E7%94%A8%E6%A9%9F%E5%99%A8%E3%81%AE%E7%B4%9B%E5%A4%B1%E3%81%AB%E4%BC%B4%E3%81%86%E5%80%8B%E4%BA%BA%E6%83%85%E5%A0%B1%E6%B5%81%E5%87%BA%E3%81%AE%E3%81%8A%E3%81%9D%E3%82%8C%E3%81%AB/",
-    "note": "5月遡及調査で発見。reported_onは発見日であり公表日ではない。診断機器紛失の公式ページが404。病院側の事案との役割・件数の関係も未確定。",
-    "reviewed_on": "2026-10-26",
+    "note": "4～10月横断再調査：参照URLの再取得を試みたが本文取得に至らず、従来の未確認事項を解消できないため保留を継続。 前回調査メモ：5月遡及調査で発見。reported_onは発見日であり公表日ではない。診断機器紛失の公式ページが404。病院側の事案との役割・件数の関係も未確定。",
+    "reviewed_on": "2026-10-27",
     "checked_urls": [
       "https://www.welcome-mc.co.jp/2026/05/15/%E8%A8%BA%E6%96%AD%E7%94%A8%E6%A9%9F%E5%99%A8%E3%81%AE%E7%B4%9B%E5%A4%B1%E3%81%AB%E4%BC%B4%E3%81%86%E5%80%8B%E4%BA%BA%E6%83%85%E5%A0%B1%E6%B5%81%E5%87%BA%E3%81%AE%E3%81%8A%E3%81%9D%E3%82%8C%E3%81%AB/"
     ]
@@ -723,8 +681,8 @@
     "reported_on": "2026-10-26",
     "verification": "pending",
     "reference_url": "https://nara-jadecom.jp/uploads/2026/05/0497422741f5279d0e42a8135a6d4965.pdf",
-    "note": "5月遡及調査で発見。reported_onは発見日であり公表日ではない。公式PDFが404。システム復旧と個人情報の影響を区別して確認する必要がある。 4月調査：4月の診療再開PDFも404。個人情報への具体的影響を未確認。",
-    "reviewed_on": "2026-10-26",
+    "note": "4～10月横断再調査：参照URLの再取得を試みたが本文取得に至らず、従来の未確認事項を解消できないため保留を継続。 前回調査メモ：5月遡及調査で発見。reported_onは発見日であり公表日ではない。公式PDFが404。システム復旧と個人情報の影響を区別して確認する必要がある。 4月調査：4月の診療再開PDFも404。個人情報への具体的影響を未確認。",
+    "reviewed_on": "2026-10-27",
     "checked_urls": [
       "https://nara-jadecom.jp/uploads/2026/05/0497422741f5279d0e42a8135a6d4965.pdf",
       "https://nara-jadecom.jp/uploads/2026/04/3f51b370d19cade541f134951808cf13.pdf"
@@ -736,8 +694,8 @@
     "reported_on": "2026-10-26",
     "verification": "pending",
     "reference_url": "https://ssl4.eir-parts.net/doc/4052/tdnet/2807047/00.pdf",
-    "note": "5月遡及調査で発見。reported_onは発見日であり公表日ではない。最終報にファイル等の流出記載はあるが、自然人の情報の対象を特定できず。サーバー・リポジトリ数を人数にしない。",
-    "reviewed_on": "2026-10-26",
+    "note": "4～10月横断再調査：公式最終調査PDFを取得。サーバーやリポジトリの被害は記載されるが自然人の対象情報は未特定。 前回調査メモ：5月遡及調査で発見。reported_onは発見日であり公表日ではない。最終報にファイル等の流出記載はあるが、自然人の情報の対象を特定できず。サーバー・リポジトリ数を人数にしない。",
+    "reviewed_on": "2026-10-27",
     "checked_urls": [
       "https://ssl4.eir-parts.net/doc/4052/tdnet/2807047/00.pdf"
     ]
@@ -748,8 +706,8 @@
     "reported_on": "2026-10-26",
     "verification": "pending",
     "reference_url": "https://www.tokyohoso.co.jp/news/1366/",
-    "note": "5月遡及調査で発見。reported_onは発見日であり公表日ではない。公式ページが503。報道の個人情報への影響と実際の公表日を原文で照合できず。",
-    "reviewed_on": "2026-10-26",
+    "note": "4～10月横断再調査：参照URLの再取得を試みたが本文取得に至らず、従来の未確認事項を解消できないため保留を継続。 前回調査メモ：5月遡及調査で発見。reported_onは発見日であり公表日ではない。公式ページが503。報道の個人情報への影響と実際の公表日を原文で照合できず。",
+    "reviewed_on": "2026-10-27",
     "checked_urls": [
       "https://www.tokyohoso.co.jp/news/1366/"
     ]
@@ -760,8 +718,8 @@
     "reported_on": "2026-10-26",
     "verification": "pending",
     "reference_url": "https://support.accounts.dena.com/hc/ja/articles/57840440271513--%E6%B3%A8%E6%84%8F%E5%96%9A%E8%B5%B7-2026-05-12-%E3%83%A1%E3%83%BC%E3%83%AB%E3%82%A2%E3%83%89%E3%83%AC%E3%82%B9%E3%81%AE%E4%B8%8D%E6%AD%A3%E5%88%A9%E7%94%A8%E3%81%8C%E7%A2%BA%E8%AA%8D%E3%81%95%E3%82%8C%E3%81%A6%E3%81%84%E3%81%BE%E3%81%99",
-    "note": "5月遡及調査で発見。reported_onは発見日であり公表日ではない。公式注意喚起が403。メールアドレス不正利用とサービスからの漏えいを区別する必要がある。",
-    "reviewed_on": "2026-10-26",
+    "note": "4～10月横断再調査：参照URLはプライバシーポリシー改定のページを返す。当該不正アクセス事故の本文として確認できない。 前回調査メモ：5月遡及調査で発見。reported_onは発見日であり公表日ではない。公式注意喚起が403。メールアドレス不正利用とサービスからの漏えいを区別する必要がある。",
+    "reviewed_on": "2026-10-27",
     "checked_urls": [
       "https://support.accounts.dena.com/hc/ja/articles/57840440271513--%E6%B3%A8%E6%84%8F%E5%96%9A%E8%B5%B7-2026-05-12-%E3%83%A1%E3%83%BC%E3%83%AB%E3%82%A2%E3%83%89%E3%83%AC%E3%82%B9%E3%81%AE%E4%B8%8D%E6%AD%A3%E5%88%A9%E7%94%A8%E3%81%8C%E7%A2%BA%E8%AA%8D%E3%81%95%E3%82%8C%E3%81%A6%E3%81%84%E3%81%BE%E3%81%99"
     ]
@@ -772,8 +730,8 @@
     "reported_on": "2026-10-26",
     "verification": "pending",
     "reference_url": "https://jan.jp/news/4707/",
-    "note": "5月遡及調査で発見。reported_onは発見日であり公表日ではない。不審ファイル等の確認と個人情報への具体的影響の関係が未確定。",
-    "reviewed_on": "2026-10-26",
+    "note": "4～10月横断再調査：参照URLの応答を再取得。公表日・自然人の対象情報・既存事案との対応について掲載を確定する根拠が揃わず、保留を継続。 前回調査メモ：5月遡及調査で発見。reported_onは発見日であり公表日ではない。不審ファイル等の確認と個人情報への具体的影響の関係が未確定。",
+    "reviewed_on": "2026-10-27",
     "checked_urls": [
       "https://jan.jp/news/4707/"
     ]
@@ -784,8 +742,8 @@
     "reported_on": "2026-10-26",
     "verification": "pending",
     "reference_url": "https://www.candeal.co.jp/post_prnews/6095/",
-    "note": "5月遡及調査で発見。reported_onは発見日であり公表日ではない。公式はメンテナンス表示のみ。親会社・対象子会社の記録単位と人数を未照合。",
-    "reviewed_on": "2026-10-26",
+    "note": "4～10月横断再調査：参照URLの応答を再取得。公表日・自然人の対象情報・既存事案との対応について掲載を確定する根拠が揃わず、保留を継続。 前回調査メモ：5月遡及調査で発見。reported_onは発見日であり公表日ではない。公式はメンテナンス表示のみ。親会社・対象子会社の記録単位と人数を未照合。",
+    "reviewed_on": "2026-10-27",
     "checked_urls": [
       "https://www.candeal.co.jp/post_prnews/6095/"
     ]
@@ -796,8 +754,8 @@
     "reported_on": "2026-10-26",
     "verification": "pending",
     "reference_url": "https://palette-up.jp/compromise/",
-    "note": "5月遡及調査で発見。reported_onは発見日であり公表日ではない。公式告知が404。対象情報・公表日を未確認。",
-    "reviewed_on": "2026-10-26",
+    "note": "4～10月横断再調査：参照URLの再取得を試みたが本文取得に至らず、従来の未確認事項を解消できないため保留を継続。 前回調査メモ：5月遡及調査で発見。reported_onは発見日であり公表日ではない。公式告知が404。対象情報・公表日を未確認。",
+    "reviewed_on": "2026-10-27",
     "checked_urls": [
       "https://palette-up.jp/compromise/"
     ]
@@ -808,22 +766,10 @@
     "reported_on": "2026-10-26",
     "verification": "pending",
     "reference_url": "https://www.sannoclc.or.jp/hospital/info/2026/05/12/9490",
-    "note": "5月遡及調査で発見。reported_onは発見日であり公表日ではない。公式告知が404。ホームページへの侵害と個人情報への影響を未確認。",
-    "reviewed_on": "2026-10-26",
+    "note": "4～10月横断再調査：参照URLの再取得を試みたが本文取得に至らず、従来の未確認事項を解消できないため保留を継続。 前回調査メモ：5月遡及調査で発見。reported_onは発見日であり公表日ではない。公式告知が404。ホームページへの侵害と個人情報への影響を未確認。",
+    "reviewed_on": "2026-10-27",
     "checked_urls": [
       "https://www.sannoclc.or.jp/hospital/info/2026/05/12/9490"
-    ]
-  },
-  {
-    "id": "may-review-b2012b684501",
-    "organization": "愛知県（NPO法人役員等）",
-    "reported_on": "2026-10-26",
-    "verification": "pending",
-    "reference_url": "https://www.pref.aichi.jp/press-release/20260512syakaikatsudo.html",
-    "note": "5月遡及調査で発見。reported_onは発見日であり公表日ではない。公式URLが403。対象人数・公表日・黒塗りの対象項目を原文で未確認。",
-    "reviewed_on": "2026-10-26",
-    "checked_urls": [
-      "https://www.pref.aichi.jp/press-release/20260512syakaikatsudo.html"
     ]
   },
   {
@@ -832,8 +778,8 @@
     "reported_on": "2026-10-26",
     "verification": "pending",
     "reference_url": "https://www.kyoeikasai.co.jp/info/info20260512.pdf",
-    "note": "5月遡及調査で発見。reported_onは発見日であり公表日ではない。公式PDFはTLSエラー／取得エラー。委託先被害による対象情報と単位を原文で未確認。",
-    "reviewed_on": "2026-10-26",
+    "note": "4～10月横断再調査：参照URLの再取得を試みたが本文取得に至らず、従来の未確認事項を解消できないため保留を継続。 前回調査メモ：5月遡及調査で発見。reported_onは発見日であり公表日ではない。公式PDFはTLSエラー／取得エラー。委託先被害による対象情報と単位を原文で未確認。",
+    "reviewed_on": "2026-10-27",
     "checked_urls": [
       "https://www.kyoeikasai.co.jp/info/info20260512.pdf"
     ]
@@ -844,8 +790,8 @@
     "reported_on": "2026-10-26",
     "verification": "pending",
     "reference_url": "https://www.rakuten-sonpo.co.jp/news/tabid/85/Default.aspx?itemid=806&dispmid=753",
-    "note": "5月遡及調査で発見。reported_onは発見日であり公表日ではない。公式URLは一覧と告知リンクを返すが対象本文を取得できず。委託先被害の人数・項目は未確認。",
-    "reviewed_on": "2026-10-26",
+    "note": "4～10月横断再調査：参照URLの応答は取得できるが一覧とリンクが中心で、対象の告知本文・範囲は未取得。 前回調査メモ：5月遡及調査で発見。reported_onは発見日であり公表日ではない。公式URLは一覧と告知リンクを返すが対象本文を取得できず。委託先被害の人数・項目は未確認。",
+    "reviewed_on": "2026-10-27",
     "checked_urls": [
       "https://www.rakuten-sonpo.co.jp/news/tabid/85/Default.aspx?itemid=806&dispmid=753"
     ]
@@ -856,8 +802,8 @@
     "reported_on": "2026-10-26",
     "verification": "pending",
     "reference_url": "https://www.u-tokai.ac.jp/news-notice/1367157/",
-    "note": "5月遡及調査で発見。reported_onは発見日であり公表日ではない。5月の告知は窓口変更。収集期間内の対象情報公表と過去の委託先事故の関係を未照合。東山産業関連の5月28日公表と混同しない。",
-    "reviewed_on": "2026-10-26",
+    "note": "4～10月横断再調査：参照URLの応答を再取得。公表日・自然人の対象情報・既存事案との対応について掲載を確定する根拠が揃わず、保留を継続。 前回調査メモ：5月遡及調査で発見。reported_onは発見日であり公表日ではない。5月の告知は窓口変更。収集期間内の対象情報公表と過去の委託先事故の関係を未照合。東山産業関連の5月28日公表と混同しない。",
+    "reviewed_on": "2026-10-27",
     "checked_urls": [
       "https://www.u-tokai.ac.jp/news-notice/1367157/"
     ]
@@ -868,8 +814,8 @@
     "reported_on": "2026-10-26",
     "verification": "pending",
     "reference_url": "https://salon.shiseido.co.jp/news/p20260507_25673/",
-    "note": "5月遡及調査で発見。reported_onは発見日であり公表日ではない。予約システム委託先の公式告知が503。対象情報と公表日を原文で未確認。",
-    "reviewed_on": "2026-10-26",
+    "note": "4～10月横断再調査：参照URLの再取得を試みたが本文取得に至らず、従来の未確認事項を解消できないため保留を継続。 前回調査メモ：5月遡及調査で発見。reported_onは発見日であり公表日ではない。予約システム委託先の公式告知が503。対象情報と公表日を原文で未確認。",
+    "reviewed_on": "2026-10-27",
     "checked_urls": [
       "https://salon.shiseido.co.jp/news/p20260507_25673/"
     ]
@@ -880,8 +826,8 @@
     "reported_on": "2026-10-26",
     "verification": "pending",
     "reference_url": "https://www.boehringer-ingelheim.com/jp/about-us/news/news-26-0501",
-    "note": "5月遡及調査で発見。reported_onは発見日であり公表日ではない。元従業員情報に関する公式URLが403。対象範囲と公表日を未確認。",
-    "reviewed_on": "2026-10-26",
+    "note": "4～10月横断再調査：参照URLの再取得を試みたが本文取得に至らず、従来の未確認事項を解消できないため保留を継続。 前回調査メモ：5月遡及調査で発見。reported_onは発見日であり公表日ではない。元従業員情報に関する公式URLが403。対象範囲と公表日を未確認。",
+    "reviewed_on": "2026-10-27",
     "checked_urls": [
       "https://www.boehringer-ingelheim.com/jp/about-us/news/news-26-0501"
     ]
@@ -892,8 +838,8 @@
     "reported_on": "2026-10-26",
     "verification": "pending",
     "reference_url": "https://www.fjnext-hd.co.jp/news/notice/info/4642.html",
-    "note": "5月遡及調査で発見。reported_onは発見日であり公表日ではない。公式続報URLがタイムアウト。対象範囲と期間内の公表日を未確認。 4月調査：4月の初報URLもタイムアウト。対象情報と日付を原文で確認できず。",
-    "reviewed_on": "2026-10-26",
+    "note": "4～10月横断再調査：参照URLの再取得を試みたが本文取得に至らず、従来の未確認事項を解消できないため保留を継続。 前回調査メモ：5月遡及調査で発見。reported_onは発見日であり公表日ではない。公式続報URLがタイムアウト。対象範囲と期間内の公表日を未確認。 4月調査：4月の初報URLもタイムアウト。対象情報と日付を原文で確認できず。",
+    "reviewed_on": "2026-10-27",
     "checked_urls": [
       "https://www.fjnext-hd.co.jp/news/notice/info/4642.html",
       "https://www.fjnext-hd.co.jp/news/notice/info/4639.html"
@@ -905,22 +851,10 @@
     "reported_on": "2026-10-26",
     "verification": "pending",
     "reference_url": "https://www.tohoku.ac.jp/japanese/2026/05/news20260501-public.html",
-    "note": "5月遡及調査で発見。reported_onは発見日であり公表日ではない。公式告知が404。対象情報と公表日を原文で未確認。",
-    "reviewed_on": "2026-10-26",
+    "note": "4～10月横断再調査：参照URLの再取得を試みたが本文取得に至らず、従来の未確認事項を解消できないため保留を継続。 前回調査メモ：5月遡及調査で発見。reported_onは発見日であり公表日ではない。公式告知が404。対象情報と公表日を原文で未確認。",
+    "reviewed_on": "2026-10-27",
     "checked_urls": [
       "https://www.tohoku.ac.jp/japanese/2026/05/news20260501-public.html"
-    ]
-  },
-  {
-    "id": "may-review-582bbf92c2b7",
-    "organization": "STATION Ai",
-    "reported_on": "2026-10-26",
-    "verification": "pending",
-    "reference_url": "https://www.pref.aichi.jp/press-release/20260501stationai.html",
-    "note": "5月遡及調査で発見。reported_onは発見日であり公表日ではない。愛知県の公式URLがリダイレクトを繰り返す。対象情報と公表日を未確認。",
-    "reviewed_on": "2026-10-26",
-    "checked_urls": [
-      "https://www.pref.aichi.jp/press-release/20260501stationai.html"
     ]
   },
   {
@@ -929,8 +863,8 @@
     "reported_on": "2026-10-26",
     "verification": "pending",
     "reference_url": "https://www.hotelkeihan.co.jp/yodoyabashi/news/42/",
-    "note": "5月遡及調査で発見。reported_onは発見日であり公表日ではない。淀屋橋・仙台・浅草・築地銀座の公式告知が取得不可。施設別の対象と同一事案かを未確認。",
-    "reviewed_on": "2026-10-26",
+    "note": "4～10月横断再調査：参照URLの再取得を試みたが本文取得に至らず、従来の未確認事項を解消できないため保留を継続。 前回調査メモ：5月遡及調査で発見。reported_onは発見日であり公表日ではない。淀屋橋・仙台・浅草・築地銀座の公式告知が取得不可。施設別の対象と同一事案かを未確認。",
+    "reviewed_on": "2026-10-27",
     "checked_urls": [
       "https://www.hotelkeihan.co.jp/yodoyabashi/news/42/",
       "https://www.hotelkeihan.co.jp/sendai/news/193/",
@@ -944,8 +878,8 @@
     "reported_on": "2026-10-26",
     "verification": "pending",
     "reference_url": "https://www.ckc.co.jp/announcement.pdf",
-    "note": "5月遡及調査で発見。reported_onは発見日であり公表日ではない。公式PDF・告知は404／410。共通の問い合わせシステムへの影響と組織ごとの記録単位を未確認。",
-    "reviewed_on": "2026-10-26",
+    "note": "4～10月横断再調査：参照URLの再取得を試みたが本文取得に至らず、従来の未確認事項を解消できないため保留を継続。 前回調査メモ：5月遡及調査で発見。reported_onは発見日であり公表日ではない。公式PDF・告知は404／410。共通の問い合わせシステムへの影響と組織ごとの記録単位を未確認。",
+    "reviewed_on": "2026-10-27",
     "checked_urls": [
       "https://www.ckc.co.jp/announcement.pdf",
       "https://meirin-zemi.jp/news/%e3%80%90%e9%87%8d%e8%a6%81%e3%80%91%e3%83%a9%e3%83%b3%e3%82%b5%e3%83%a0%e3%82%a6%e3%82%a7%e3%82%a2%e3%81%ab%e3%82%88%e3%82%8b%e5%80%8b%e4%ba%ba%e6%83%85%e5%a0%b1%e6%bc%8f%e3%81%88%e3%81%84%e3%81%ae/",
@@ -960,8 +894,8 @@
     "reported_on": "2026-10-26",
     "verification": "pending",
     "reference_url": "https://www.security-next.com/185108",
-    "note": "5月遡及調査で発見。reported_onは発見日であり公表日ではない。5月の報道で発見したが、組織の公表日と一次資料・対象情報の照合を完了していない。報道日や発生日を掲載公表日には採用しない。",
-    "reviewed_on": "2026-10-26",
+    "note": "4～10月横断再調査：参照URLの応答を再取得。公表日・自然人の対象情報・既存事案との対応について掲載を確定する根拠が揃わず、保留を継続。 前回調査メモ：5月遡及調査で発見。reported_onは発見日であり公表日ではない。5月の報道で発見したが、組織の公表日と一次資料・対象情報の照合を完了していない。報道日や発生日を掲載公表日には採用しない。",
+    "reviewed_on": "2026-10-27",
     "checked_urls": [
       "https://www.security-next.com/185108"
     ]
@@ -972,8 +906,8 @@
     "reported_on": "2026-10-26",
     "verification": "pending",
     "reference_url": "https://www.security-next.com/185018",
-    "note": "5月遡及調査で発見。reported_onは発見日であり公表日ではない。5月の報道で発見したが、組織の公表日と一次資料・対象情報の照合を完了していない。報道日や発生日を掲載公表日には採用しない。",
-    "reviewed_on": "2026-10-26",
+    "note": "4～10月横断再調査：参照URLの応答を再取得。公表日・自然人の対象情報・既存事案との対応について掲載を確定する根拠が揃わず、保留を継続。 前回調査メモ：5月遡及調査で発見。reported_onは発見日であり公表日ではない。5月の報道で発見したが、組織の公表日と一次資料・対象情報の照合を完了していない。報道日や発生日を掲載公表日には採用しない。",
+    "reviewed_on": "2026-10-27",
     "checked_urls": [
       "https://www.security-next.com/185018"
     ]
@@ -984,8 +918,8 @@
     "reported_on": "2026-10-26",
     "verification": "pending",
     "reference_url": "https://www.security-next.com/185016",
-    "note": "5月遡及調査で発見。reported_onは発見日であり公表日ではない。5月の報道で発見したが、組織の公表日と一次資料・対象情報の照合を完了していない。報道日や発生日を掲載公表日には採用しない。",
-    "reviewed_on": "2026-10-26",
+    "note": "4～10月横断再調査：参照URLの応答を再取得。公表日・自然人の対象情報・既存事案との対応について掲載を確定する根拠が揃わず、保留を継続。 前回調査メモ：5月遡及調査で発見。reported_onは発見日であり公表日ではない。5月の報道で発見したが、組織の公表日と一次資料・対象情報の照合を完了していない。報道日や発生日を掲載公表日には採用しない。",
+    "reviewed_on": "2026-10-27",
     "checked_urls": [
       "https://www.security-next.com/185016"
     ]
@@ -996,8 +930,8 @@
     "reported_on": "2026-10-26",
     "verification": "pending",
     "reference_url": "https://www.security-next.com/184680",
-    "note": "5月遡及調査で発見。reported_onは発見日であり公表日ではない。5月の報道で発見したが、組織の公表日と一次資料・対象情報の照合を完了していない。報道日や発生日を掲載公表日には採用しない。エムシー側の機器紛失候補との関係を確認する必要がある。",
-    "reviewed_on": "2026-10-26",
+    "note": "4～10月横断再調査：参照URLの応答を再取得。公表日・自然人の対象情報・既存事案との対応について掲載を確定する根拠が揃わず、保留を継続。 前回調査メモ：5月遡及調査で発見。reported_onは発見日であり公表日ではない。5月の報道で発見したが、組織の公表日と一次資料・対象情報の照合を完了していない。報道日や発生日を掲載公表日には採用しない。エムシー側の機器紛失候補との関係を確認する必要がある。",
+    "reviewed_on": "2026-10-27",
     "checked_urls": [
       "https://www.security-next.com/184680"
     ]
@@ -1008,8 +942,8 @@
     "reported_on": "2026-10-26",
     "verification": "pending",
     "reference_url": "https://www.security-next.com/184953",
-    "note": "5月遡及調査で発見。reported_onは発見日であり公表日ではない。5月の報道で発見したが、組織の公表日と一次資料・対象情報の照合を完了していない。報道日や発生日を掲載公表日には採用しない。県立新潟高校の候補と同じ事案かも未確定。",
-    "reviewed_on": "2026-10-26",
+    "note": "4～10月横断再調査：参照URLの応答を再取得。公表日・自然人の対象情報・既存事案との対応について掲載を確定する根拠が揃わず、保留を継続。 前回調査メモ：5月遡及調査で発見。reported_onは発見日であり公表日ではない。5月の報道で発見したが、組織の公表日と一次資料・対象情報の照合を完了していない。報道日や発生日を掲載公表日には採用しない。県立新潟高校の候補と同じ事案かも未確定。",
+    "reviewed_on": "2026-10-27",
     "checked_urls": [
       "https://www.security-next.com/184953"
     ]
@@ -1020,8 +954,8 @@
     "reported_on": "2026-10-26",
     "verification": "pending",
     "reference_url": "https://www.security-next.com/184673",
-    "note": "5月遡及調査で発見。reported_onは発見日であり公表日ではない。5月の報道で発見したが、組織の公表日と一次資料・対象情報の照合を完了していない。報道日や発生日を掲載公表日には採用しない。",
-    "reviewed_on": "2026-10-26",
+    "note": "4～10月横断再調査：参照URLの応答を再取得。公表日・自然人の対象情報・既存事案との対応について掲載を確定する根拠が揃わず、保留を継続。 前回調査メモ：5月遡及調査で発見。reported_onは発見日であり公表日ではない。5月の報道で発見したが、組織の公表日と一次資料・対象情報の照合を完了していない。報道日や発生日を掲載公表日には採用しない。",
+    "reviewed_on": "2026-10-27",
     "checked_urls": [
       "https://www.security-next.com/184673"
     ]
@@ -1032,8 +966,8 @@
     "reported_on": "2026-10-26",
     "verification": "pending",
     "reference_url": "https://www.security-next.com/184478",
-    "note": "5月遡及調査で発見。reported_onは発見日であり公表日ではない。5月の報道で発見したが、組織の公表日と一次資料・対象情報の照合を完了していない。報道日や発生日を掲載公表日には採用しない。",
-    "reviewed_on": "2026-10-26",
+    "note": "4～10月横断再調査：参照URLの応答を再取得。公表日・自然人の対象情報・既存事案との対応について掲載を確定する根拠が揃わず、保留を継続。 前回調査メモ：5月遡及調査で発見。reported_onは発見日であり公表日ではない。5月の報道で発見したが、組織の公表日と一次資料・対象情報の照合を完了していない。報道日や発生日を掲載公表日には採用しない。",
+    "reviewed_on": "2026-10-27",
     "checked_urls": [
       "https://www.security-next.com/184478"
     ]
@@ -1044,8 +978,8 @@
     "reported_on": "2026-10-26",
     "verification": "pending",
     "reference_url": "https://www.security-next.com/184742",
-    "note": "5月遡及調査で発見。reported_onは発見日であり公表日ではない。5月の報道で発見したが、組織の公表日と一次資料・対象情報の照合を完了していない。報道日や発生日を掲載公表日には採用しない。",
-    "reviewed_on": "2026-10-26",
+    "note": "4～10月横断再調査：参照URLの応答を再取得。公表日・自然人の対象情報・既存事案との対応について掲載を確定する根拠が揃わず、保留を継続。 前回調査メモ：5月遡及調査で発見。reported_onは発見日であり公表日ではない。5月の報道で発見したが、組織の公表日と一次資料・対象情報の照合を完了していない。報道日や発生日を掲載公表日には採用しない。",
+    "reviewed_on": "2026-10-27",
     "checked_urls": [
       "https://www.security-next.com/184742"
     ]
@@ -1056,8 +990,8 @@
     "reported_on": "2026-10-26",
     "verification": "pending",
     "reference_url": "https://www.security-next.com/184745",
-    "note": "5月遡及調査で発見。reported_onは発見日であり公表日ではない。5月の報道で発見したが、組織の公表日と一次資料・対象情報の照合を完了していない。報道日や発生日を掲載公表日には採用しない。",
-    "reviewed_on": "2026-10-26",
+    "note": "4～10月横断再調査：参照URLの応答を再取得。公表日・自然人の対象情報・既存事案との対応について掲載を確定する根拠が揃わず、保留を継続。 前回調査メモ：5月遡及調査で発見。reported_onは発見日であり公表日ではない。5月の報道で発見したが、組織の公表日と一次資料・対象情報の照合を完了していない。報道日や発生日を掲載公表日には採用しない。",
+    "reviewed_on": "2026-10-27",
     "checked_urls": [
       "https://www.security-next.com/184745"
     ]
@@ -1068,8 +1002,8 @@
     "reported_on": "2026-10-26",
     "verification": "pending",
     "reference_url": "https://www.security-next.com/184584",
-    "note": "5月遡及調査で発見。reported_onは発見日であり公表日ではない。5月の報道で発見したが、組織の公表日と一次資料・対象情報の照合を完了していない。報道日や発生日を掲載公表日には採用しない。",
-    "reviewed_on": "2026-10-26",
+    "note": "4～10月横断再調査：参照URLの応答を再取得。公表日・自然人の対象情報・既存事案との対応について掲載を確定する根拠が揃わず、保留を継続。 前回調査メモ：5月遡及調査で発見。reported_onは発見日であり公表日ではない。5月の報道で発見したが、組織の公表日と一次資料・対象情報の照合を完了していない。報道日や発生日を掲載公表日には採用しない。",
+    "reviewed_on": "2026-10-27",
     "checked_urls": [
       "https://www.security-next.com/184584"
     ]
@@ -1080,8 +1014,8 @@
     "reported_on": "2026-10-26",
     "verification": "pending",
     "reference_url": "https://www.security-next.com/184471",
-    "note": "5月遡及調査で発見。reported_onは発見日であり公表日ではない。5月の報道で発見したが、組織の公表日と一次資料・対象情報の照合を完了していない。報道日や発生日を掲載公表日には採用しない。",
-    "reviewed_on": "2026-10-26",
+    "note": "4～10月横断再調査：参照URLの応答を再取得。公表日・自然人の対象情報・既存事案との対応について掲載を確定する根拠が揃わず、保留を継続。 前回調査メモ：5月遡及調査で発見。reported_onは発見日であり公表日ではない。5月の報道で発見したが、組織の公表日と一次資料・対象情報の照合を完了していない。報道日や発生日を掲載公表日には採用しない。",
+    "reviewed_on": "2026-10-27",
     "checked_urls": [
       "https://www.security-next.com/184471"
     ]
@@ -1092,8 +1026,8 @@
     "reported_on": "2026-10-26",
     "verification": "pending",
     "reference_url": "https://www.security-next.com/184300",
-    "note": "5月遡及調査で発見。reported_onは発見日であり公表日ではない。5月の報道で発見したが、組織の公表日と一次資料・対象情報の照合を完了していない。報道日や発生日を掲載公表日には採用しない。",
-    "reviewed_on": "2026-10-26",
+    "note": "4～10月横断再調査：参照URLの応答を再取得。公表日・自然人の対象情報・既存事案との対応について掲載を確定する根拠が揃わず、保留を継続。 前回調査メモ：5月遡及調査で発見。reported_onは発見日であり公表日ではない。5月の報道で発見したが、組織の公表日と一次資料・対象情報の照合を完了していない。報道日や発生日を掲載公表日には採用しない。",
+    "reviewed_on": "2026-10-27",
     "checked_urls": [
       "https://www.security-next.com/184300"
     ]
@@ -1104,8 +1038,8 @@
     "reported_on": "2026-10-26",
     "verification": "pending",
     "reference_url": "https://www.security-next.com/184361",
-    "note": "5月遡及調査で発見。reported_onは発見日であり公表日ではない。5月の報道で発見したが、組織の公表日と一次資料・対象情報の照合を完了していない。報道日や発生日を掲載公表日には採用しない。",
-    "reviewed_on": "2026-10-26",
+    "note": "4～10月横断再調査：参照URLの応答を再取得。公表日・自然人の対象情報・既存事案との対応について掲載を確定する根拠が揃わず、保留を継続。 前回調査メモ：5月遡及調査で発見。reported_onは発見日であり公表日ではない。5月の報道で発見したが、組織の公表日と一次資料・対象情報の照合を完了していない。報道日や発生日を掲載公表日には採用しない。",
+    "reviewed_on": "2026-10-27",
     "checked_urls": [
       "https://www.security-next.com/184361"
     ]
@@ -1116,8 +1050,8 @@
     "reported_on": "2026-10-26",
     "verification": "pending",
     "reference_url": "https://www.security-next.com/184476",
-    "note": "5月遡及調査で発見。reported_onは発見日であり公表日ではない。5月の報道で発見したが、組織の公表日と一次資料・対象情報の照合を完了していない。報道日や発生日を掲載公表日には採用しない。",
-    "reviewed_on": "2026-10-26",
+    "note": "4～10月横断再調査：参照URLの応答を再取得。公表日・自然人の対象情報・既存事案との対応について掲載を確定する根拠が揃わず、保留を継続。 前回調査メモ：5月遡及調査で発見。reported_onは発見日であり公表日ではない。5月の報道で発見したが、組織の公表日と一次資料・対象情報の照合を完了していない。報道日や発生日を掲載公表日には採用しない。",
+    "reviewed_on": "2026-10-27",
     "checked_urls": [
       "https://www.security-next.com/184476"
     ]
@@ -1128,8 +1062,8 @@
     "reported_on": "2026-10-26",
     "verification": "pending",
     "reference_url": "https://www.security-next.com/184221",
-    "note": "5月遡及調査で発見。reported_onは発見日であり公表日ではない。5月の報道で発見したが、組織の公表日と一次資料・対象情報の照合を完了していない。報道日や発生日を掲載公表日には採用しない。",
-    "reviewed_on": "2026-10-26",
+    "note": "4～10月横断再調査：参照URLの応答を再取得。公表日・自然人の対象情報・既存事案との対応について掲載を確定する根拠が揃わず、保留を継続。 前回調査メモ：5月遡及調査で発見。reported_onは発見日であり公表日ではない。5月の報道で発見したが、組織の公表日と一次資料・対象情報の照合を完了していない。報道日や発生日を掲載公表日には採用しない。",
+    "reviewed_on": "2026-10-27",
     "checked_urls": [
       "https://www.security-next.com/184221"
     ]
@@ -1140,8 +1074,8 @@
     "reported_on": "2026-10-26",
     "verification": "pending",
     "reference_url": "https://www.security-next.com/184116",
-    "note": "5月遡及調査で発見。reported_onは発見日であり公表日ではない。5月の報道で発見したが、組織の公表日と一次資料・対象情報の照合を完了していない。報道日や発生日を掲載公表日には採用しない。",
-    "reviewed_on": "2026-10-26",
+    "note": "4～10月横断再調査：参照URLの応答を再取得。公表日・自然人の対象情報・既存事案との対応について掲載を確定する根拠が揃わず、保留を継続。 前回調査メモ：5月遡及調査で発見。reported_onは発見日であり公表日ではない。5月の報道で発見したが、組織の公表日と一次資料・対象情報の照合を完了していない。報道日や発生日を掲載公表日には採用しない。",
+    "reviewed_on": "2026-10-27",
     "checked_urls": [
       "https://www.security-next.com/184116"
     ]
@@ -1152,22 +1086,10 @@
     "reported_on": "2026-10-26",
     "verification": "pending",
     "reference_url": "https://www.security-next.com/184352",
-    "note": "5月遡及調査で発見。reported_onは発見日であり公表日ではない。5月の報道で発見したが、組織の公表日と一次資料・対象情報の照合を完了していない。報道日や発生日を掲載公表日には採用しない。",
-    "reviewed_on": "2026-10-26",
+    "note": "4～10月横断再調査：参照URLの応答を再取得。公表日・自然人の対象情報・既存事案との対応について掲載を確定する根拠が揃わず、保留を継続。 前回調査メモ：5月遡及調査で発見。reported_onは発見日であり公表日ではない。5月の報道で発見したが、組織の公表日と一次資料・対象情報の照合を完了していない。報道日や発生日を掲載公表日には採用しない。",
+    "reviewed_on": "2026-10-27",
     "checked_urls": [
       "https://www.security-next.com/184352"
-    ]
-  },
-  {
-    "id": "may-review-41e0eafac779",
-    "organization": "投票所で作成した衆院選投票録が所在不明 - 横浜市鶴見区",
-    "reported_on": "2026-10-26",
-    "verification": "pending",
-    "reference_url": "https://www.security-next.com/184171",
-    "note": "5月遡及調査で発見。reported_onは発見日であり公表日ではない。5月の報道で発見したが、組織の公表日と一次資料・対象情報の照合を完了していない。報道日や発生日を掲載公表日には採用しない。",
-    "reviewed_on": "2026-10-26",
-    "checked_urls": [
-      "https://www.security-next.com/184171"
     ]
   },
   {
@@ -1176,8 +1098,8 @@
     "reported_on": "2026-10-26",
     "verification": "pending",
     "reference_url": "https://www.security-next.com/184107",
-    "note": "5月遡及調査で発見。reported_onは発見日であり公表日ではない。5月の報道で発見したが、組織の公表日と一次資料・対象情報の照合を完了していない。報道日や発生日を掲載公表日には採用しない。",
-    "reviewed_on": "2026-10-26",
+    "note": "4～10月横断再調査：参照URLの応答を再取得。公表日・自然人の対象情報・既存事案との対応について掲載を確定する根拠が揃わず、保留を継続。 前回調査メモ：5月遡及調査で発見。reported_onは発見日であり公表日ではない。5月の報道で発見したが、組織の公表日と一次資料・対象情報の照合を完了していない。報道日や発生日を掲載公表日には採用しない。",
+    "reviewed_on": "2026-10-27",
     "checked_urls": [
       "https://www.security-next.com/184107"
     ]
@@ -1188,8 +1110,8 @@
     "reported_on": "2026-10-26",
     "verification": "pending",
     "reference_url": "https://www.security-next.com/184168",
-    "note": "5月遡及調査で発見。reported_onは発見日であり公表日ではない。5月の報道で発見したが、組織の公表日と一次資料・対象情報の照合を完了していない。報道日や発生日を掲載公表日には採用しない。",
-    "reviewed_on": "2026-10-26",
+    "note": "4～10月横断再調査：参照URLの応答を再取得。公表日・自然人の対象情報・既存事案との対応について掲載を確定する根拠が揃わず、保留を継続。 前回調査メモ：5月遡及調査で発見。reported_onは発見日であり公表日ではない。5月の報道で発見したが、組織の公表日と一次資料・対象情報の照合を完了していない。報道日や発生日を掲載公表日には採用しない。",
+    "reviewed_on": "2026-10-27",
     "checked_urls": [
       "https://www.security-next.com/184168"
     ]
@@ -1200,8 +1122,8 @@
     "reported_on": "2026-10-26",
     "verification": "pending",
     "reference_url": "https://www.security-next.com/184173",
-    "note": "5月遡及調査で発見。reported_onは発見日であり公表日ではない。5月の報道で発見したが、組織の公表日と一次資料・対象情報の照合を完了していない。報道日や発生日を掲載公表日には採用しない。掲載済み7月3日の北九州市マスキング点検（1,139人）とは数値が異なり、同一事案か未確定。",
-    "reviewed_on": "2026-10-26",
+    "note": "4～10月横断再調査：参照URLの応答を再取得。公表日・自然人の対象情報・既存事案との対応について掲載を確定する根拠が揃わず、保留を継続。 前回調査メモ：5月遡及調査で発見。reported_onは発見日であり公表日ではない。5月の報道で発見したが、組織の公表日と一次資料・対象情報の照合を完了していない。報道日や発生日を掲載公表日には採用しない。掲載済み7月3日の北九州市マスキング点検（1,139人）とは数値が異なり、同一事案か未確定。",
+    "reviewed_on": "2026-10-27",
     "checked_urls": [
       "https://www.security-next.com/184173"
     ]
@@ -1212,8 +1134,8 @@
     "reported_on": "2026-10-26",
     "verification": "pending",
     "reference_url": "https://www.security-next.com/184109",
-    "note": "5月遡及調査で発見。reported_onは発見日であり公表日ではない。5月の報道で発見したが、組織の公表日と一次資料・対象情報の照合を完了していない。報道日や発生日を掲載公表日には採用しない。",
-    "reviewed_on": "2026-10-26",
+    "note": "4～10月横断再調査：参照URLの応答を再取得。公表日・自然人の対象情報・既存事案との対応について掲載を確定する根拠が揃わず、保留を継続。 前回調査メモ：5月遡及調査で発見。reported_onは発見日であり公表日ではない。5月の報道で発見したが、組織の公表日と一次資料・対象情報の照合を完了していない。報道日や発生日を掲載公表日には採用しない。",
+    "reviewed_on": "2026-10-27",
     "checked_urls": [
       "https://www.security-next.com/184109"
     ]
@@ -1224,8 +1146,8 @@
     "reported_on": "2026-10-26",
     "verification": "pending",
     "reference_url": "https://www.security-next.com/184029",
-    "note": "5月遡及調査で発見。reported_onは発見日であり公表日ではない。5月の報道で発見したが、組織の公表日と一次資料・対象情報の照合を完了していない。報道日や発生日を掲載公表日には採用しない。",
-    "reviewed_on": "2026-10-26",
+    "note": "4～10月横断再調査：参照URLの応答を再取得。公表日・自然人の対象情報・既存事案との対応について掲載を確定する根拠が揃わず、保留を継続。 前回調査メモ：5月遡及調査で発見。reported_onは発見日であり公表日ではない。5月の報道で発見したが、組織の公表日と一次資料・対象情報の照合を完了していない。報道日や発生日を掲載公表日には採用しない。",
+    "reviewed_on": "2026-10-27",
     "checked_urls": [
       "https://www.security-next.com/184029"
     ]
@@ -1236,8 +1158,8 @@
     "reported_on": "2026-10-26",
     "verification": "pending",
     "reference_url": "https://www.security-next.com/183999",
-    "note": "5月遡及調査で発見。reported_onは発見日であり公表日ではない。5月の報道で発見したが、組織の公表日と一次資料・対象情報の照合を完了していない。報道日や発生日を掲載公表日には採用しない。",
-    "reviewed_on": "2026-10-26",
+    "note": "4～10月横断再調査：参照URLの応答を再取得。公表日・自然人の対象情報・既存事案との対応について掲載を確定する根拠が揃わず、保留を継続。 前回調査メモ：5月遡及調査で発見。reported_onは発見日であり公表日ではない。5月の報道で発見したが、組織の公表日と一次資料・対象情報の照合を完了していない。報道日や発生日を掲載公表日には採用しない。",
+    "reviewed_on": "2026-10-27",
     "checked_urls": [
       "https://www.security-next.com/183999"
     ]
@@ -1248,8 +1170,8 @@
     "reported_on": "2026-10-26",
     "verification": "pending",
     "reference_url": "https://www.security-next.com/184008",
-    "note": "5月遡及調査で発見。reported_onは発見日であり公表日ではない。5月の報道で発見したが、組織の公表日と一次資料・対象情報の照合を完了していない。報道日や発生日を掲載公表日には採用しない。",
-    "reviewed_on": "2026-10-26",
+    "note": "4～10月横断再調査：参照URLの応答を再取得。公表日・自然人の対象情報・既存事案との対応について掲載を確定する根拠が揃わず、保留を継続。 前回調査メモ：5月遡及調査で発見。reported_onは発見日であり公表日ではない。5月の報道で発見したが、組織の公表日と一次資料・対象情報の照合を完了していない。報道日や発生日を掲載公表日には採用しない。",
+    "reviewed_on": "2026-10-27",
     "checked_urls": [
       "https://www.security-next.com/184008"
     ]
@@ -1260,8 +1182,8 @@
     "reported_on": "2026-10-26",
     "verification": "pending",
     "reference_url": "https://www.security-next.com/184004",
-    "note": "5月遡及調査で発見。reported_onは発見日であり公表日ではない。5月の報道で発見したが、組織の公表日と一次資料・対象情報の照合を完了していない。報道日や発生日を掲載公表日には採用しない。 4月調査：最終報本文で最大60件と初報3月26日を確認したが、最終報自体の公開日は表示がなく未確定。",
-    "reviewed_on": "2026-10-26",
+    "note": "4～10月横断再調査：参照URLの応答を再取得。公表日・自然人の対象情報・既存事案との対応について掲載を確定する根拠が揃わず、保留を継続。 前回調査メモ：5月遡及調査で発見。reported_onは発見日であり公表日ではない。5月の報道で発見したが、組織の公表日と一次資料・対象情報の照合を完了していない。報道日や発生日を掲載公表日には採用しない。 4月調査：最終報本文で最大60件と初報3月26日を確認したが、最終報自体の公開日は表示がなく未確定。",
+    "reviewed_on": "2026-10-27",
     "checked_urls": [
       "https://www.security-next.com/184004",
       "https://yutaka-d.co.jp/information/news/000074.html"
@@ -1273,8 +1195,8 @@
     "reported_on": "2026-10-26",
     "verification": "pending",
     "reference_url": "https://www.security-next.com/184010",
-    "note": "5月遡及調査で発見。reported_onは発見日であり公表日ではない。5月の報道で発見したが、組織の公表日と一次資料・対象情報の照合を完了していない。報道日や発生日を掲載公表日には採用しない。",
-    "reviewed_on": "2026-10-26",
+    "note": "4～10月横断再調査：参照URLの応答を再取得。公表日・自然人の対象情報・既存事案との対応について掲載を確定する根拠が揃わず、保留を継続。 前回調査メモ：5月遡及調査で発見。reported_onは発見日であり公表日ではない。5月の報道で発見したが、組織の公表日と一次資料・対象情報の照合を完了していない。報道日や発生日を掲載公表日には採用しない。",
+    "reviewed_on": "2026-10-27",
     "checked_urls": [
       "https://www.security-next.com/184010"
     ]
@@ -1285,8 +1207,8 @@
     "reported_on": "2026-10-26",
     "verification": "pending",
     "reference_url": "https://www.alpsalpine.com/cms.media/20260427_ja_Unauthorized_access_58835542a8.pdf",
-    "note": "4月遡及調査で発見。reported_onは発見日であり公表日ではない。公式PDFが403。システム用個人情報の対象・規模を原文で照合できず。",
-    "reviewed_on": "2026-10-26",
+    "note": "4～10月横断再調査：参照URLの再取得を試みたが本文取得に至らず、従来の未確認事項を解消できないため保留を継続。 前回調査メモ：4月遡及調査で発見。reported_onは発見日であり公表日ではない。公式PDFが403。システム用個人情報の対象・規模を原文で照合できず。",
+    "reviewed_on": "2026-10-27",
     "checked_urls": [
       "https://www.alpsalpine.com/cms.media/20260427_ja_Unauthorized_access_58835542a8.pdf"
     ]
@@ -1297,8 +1219,8 @@
     "reported_on": "2026-10-26",
     "verification": "pending",
     "reference_url": "https://www.tokyokeiki.jp/topics/?itemid=861&dispmid=1123",
-    "note": "4月遡及調査で発見。reported_onは発見日であり公表日ではない。4月27日の侵害・フィッシング告知を確認したが、個人情報の対象と流出の有無は未確定。後続URLも調査結果本文を取得できず。",
-    "reviewed_on": "2026-10-26",
+    "note": "4～10月横断再調査：参照URLの応答を再取得。公表日・自然人の対象情報・既存事案との対応について掲載を確定する根拠が揃わず、保留を継続。 前回調査メモ：4月遡及調査で発見。reported_onは発見日であり公表日ではない。4月27日の侵害・フィッシング告知を確認したが、個人情報の対象と流出の有無は未確定。後続URLも調査結果本文を取得できず。",
+    "reviewed_on": "2026-10-27",
     "checked_urls": [
       "https://www.tokyokeiki.jp/topics/?itemid=861&dispmid=1123"
     ]
@@ -1309,8 +1231,8 @@
     "reported_on": "2026-10-26",
     "verification": "pending",
     "reference_url": "https://hashimoto-hsp.jp/news/20260427.html",
-    "note": "4月遡及調査で発見。reported_onは発見日であり公表日ではない。4月27日に実習時の電子カルテ不正アクセスを公表。個人情報流出は未確認であり、具体的な閲覧対象・範囲の確定が必要。",
-    "reviewed_on": "2026-10-26",
+    "note": "4～10月横断再調査：参照URLの応答を再取得。公表日・自然人の対象情報・既存事案との対応について掲載を確定する根拠が揃わず、保留を継続。 前回調査メモ：4月遡及調査で発見。reported_onは発見日であり公表日ではない。4月27日に実習時の電子カルテ不正アクセスを公表。個人情報流出は未確認であり、具体的な閲覧対象・範囲の確定が必要。",
+    "reviewed_on": "2026-10-27",
     "checked_urls": [
       "https://hashimoto-hsp.jp/news/20260427.html"
     ]
@@ -1321,8 +1243,8 @@
     "reported_on": "2026-10-26",
     "verification": "pending",
     "reference_url": "https://www.emori.co.jp/wp-content/uploads/2026/04/20260427_information.pdf",
-    "note": "4月遡及調査で発見。reported_onは発見日であり公表日ではない。4月27日第4報は流出痕跡未確認と説明。具体的な個人情報の対象・影響を特定できず。",
-    "reviewed_on": "2026-10-26",
+    "note": "4～10月横断再調査：公式最終調査を取得。持ち出しの明確な痕跡なしとの説明で、自然人の個人情報の具体的対象は未特定。 前回調査メモ：4月遡及調査で発見。reported_onは発見日であり公表日ではない。4月27日第4報は流出痕跡未確認と説明。具体的な個人情報の対象・影響を特定できず。",
+    "reviewed_on": "2026-10-27",
     "checked_urls": [
       "https://www.emori.co.jp/wp-content/uploads/2026/04/20260427_information.pdf"
     ]
@@ -1333,8 +1255,8 @@
     "reported_on": "2026-10-26",
     "verification": "pending",
     "reference_url": "https://www.tokiomarine-nichido.co.jp/company/release/pdf/260427_01.pdf",
-    "note": "4月遡及調査で発見。reported_onは発見日であり公表日ではない。各社の持ち出し告知は読んだが、対象情報・人数が原文に明示されず、報道の約2万人を採用しない。",
-    "reviewed_on": "2026-10-26",
+    "note": "4～10月横断再調査：参照URLの応答を再取得。公表日・自然人の対象情報・既存事案との対応について掲載を確定する根拠が揃わず、保留を継続。 前回調査メモ：4月遡及調査で発見。reported_onは発見日であり公表日ではない。各社の持ち出し告知は読んだが、対象情報・人数が原文に明示されず、報道の約2万人を採用しない。",
+    "reviewed_on": "2026-10-27",
     "checked_urls": [
       "https://www.tokiomarine-nichido.co.jp/company/release/pdf/260427_01.pdf",
       "https://www.aioinissaydowa.co.jp/corporate/about/news/pdf/2026/news_2026042401491.pdf",
@@ -1347,8 +1269,8 @@
     "reported_on": "2026-10-26",
     "verification": "pending",
     "reference_url": "https://www.city.yonezawa.yamagata.jp/category/iryo_kenko_fukushi/1/7/11089.html",
-    "note": "4月遡及調査で発見。reported_onは発見日であり公表日ではない。公式URLが404。個人情報の対象範囲と公表日を未確認。",
-    "reviewed_on": "2026-10-26",
+    "note": "4～10月横断再調査：参照URLの再取得を試みたが本文取得に至らず、従来の未確認事項を解消できないため保留を継続。 前回調査メモ：4月遡及調査で発見。reported_onは発見日であり公表日ではない。公式URLが404。個人情報の対象範囲と公表日を未確認。",
+    "reviewed_on": "2026-10-27",
     "checked_urls": [
       "https://www.city.yonezawa.yamagata.jp/category/iryo_kenko_fukushi/1/7/11089.html"
     ]
@@ -1359,8 +1281,8 @@
     "reported_on": "2026-10-26",
     "verification": "pending",
     "reference_url": "https://www.issei-syoji.co.jp/news/news260424/",
-    "note": "4月遡及調査で発見。reported_onは発見日であり公表日ではない。公式告知が503。対象・公表日を本文で未確認。",
-    "reviewed_on": "2026-10-26",
+    "note": "4～10月横断再調査：参照URLの応答を再取得。公表日・自然人の対象情報・既存事案との対応について掲載を確定する根拠が揃わず、保留を継続。 前回調査メモ：4月遡及調査で発見。reported_onは発見日であり公表日ではない。公式告知が503。対象・公表日を本文で未確認。",
+    "reviewed_on": "2026-10-27",
     "checked_urls": [
       "https://www.issei-syoji.co.jp/news/news260424/"
     ]
@@ -1371,8 +1293,8 @@
     "reported_on": "2026-10-26",
     "verification": "pending",
     "reference_url": "https://www.ymgt-kokuho.org/topics/2026/04/ycc.html",
-    "note": "4月遡及調査で発見。reported_onは発見日であり公表日ではない。対象2,783件の本文は確認したが公表日表示を未発見。広域連合の4月22日公表とは別組織であり、日付をそのまま転用しない。",
-    "reviewed_on": "2026-10-26",
+    "note": "4～10月横断再調査：YCC関連で療養費請求データ1,671件・1,112件の漏えいの恐れを確認。本文の初回公表日を確定できない。 前回調査メモ：4月遡及調査で発見。reported_onは発見日であり公表日ではない。対象2,783件の本文は確認したが公表日表示を未発見。広域連合の4月22日公表とは別組織であり、日付をそのまま転用しない。",
+    "reviewed_on": "2026-10-27",
     "checked_urls": [
       "https://www.ymgt-kokuho.org/topics/2026/04/ycc.html"
     ]
@@ -1383,8 +1305,8 @@
     "reported_on": "2026-10-26",
     "verification": "pending",
     "reference_url": "https://www.shobo.koriyama.fukushima.jp/information/cat57/005501.html#5501",
-    "note": "4月遡及調査で発見。reported_onは発見日であり公表日ではない。公式告知が404。救急搬送情報の対象と公表日を未確認。",
-    "reviewed_on": "2026-10-26",
+    "note": "4～10月横断再調査：参照URLの再取得を試みたが本文取得に至らず、従来の未確認事項を解消できないため保留を継続。 前回調査メモ：4月遡及調査で発見。reported_onは発見日であり公表日ではない。公式告知が404。救急搬送情報の対象と公表日を未確認。",
+    "reviewed_on": "2026-10-27",
     "checked_urls": [
       "https://www.shobo.koriyama.fukushima.jp/information/cat57/005501.html#5501"
     ]
@@ -1395,46 +1317,10 @@
     "reported_on": "2026-10-26",
     "verification": "pending",
     "reference_url": "https://www.yamagata-u.ac.jp/jp/information/important/20260420_01/",
-    "note": "4月遡及調査で発見。reported_onは発見日であり公表日ではない。公式URLがアクセス禁止表示。記事本文と個人情報の対象範囲を確認できず。",
-    "reviewed_on": "2026-10-26",
+    "note": "4～10月横断再調査：参照URLの応答を再取得。公表日・自然人の対象情報・既存事案との対応について掲載を確定する根拠が揃わず、保留を継続。 前回調査メモ：4月遡及調査で発見。reported_onは発見日であり公表日ではない。公式URLがアクセス禁止表示。記事本文と個人情報の対象範囲を確認できず。",
+    "reviewed_on": "2026-10-27",
     "checked_urls": [
       "https://www.yamagata-u.ac.jp/jp/information/important/20260420_01/"
-    ]
-  },
-  {
-    "id": "apr-review-7e6703e67269",
-    "organization": "ウチヤマホールディングス",
-    "reported_on": "2026-10-26",
-    "verification": "pending",
-    "reference_url": "https://www.uchiyama-gr.jp/ir/upload_file/tdnrelease/6059_20260417506153_P01_.pdf",
-    "note": "4月遡及調査で発見。reported_onは発見日であり公表日ではない。公式第3報PDFが503。対象情報と続報日を原文で未確認。",
-    "reviewed_on": "2026-10-26",
-    "checked_urls": [
-      "https://www.uchiyama-gr.jp/ir/upload_file/tdnrelease/6059_20260417506153_P01_.pdf"
-    ]
-  },
-  {
-    "id": "apr-review-a32644d51a43",
-    "organization": "サンテック",
-    "reported_on": "2026-10-26",
-    "verification": "pending",
-    "reference_url": "https://www.sk-suntech.co.jp/news/info/entry-99.html",
-    "note": "4月遡及調査で発見。reported_onは発見日であり公表日ではない。公式告知が503。対象情報と日付を原文で未確認。",
-    "reviewed_on": "2026-10-26",
-    "checked_urls": [
-      "https://www.sk-suntech.co.jp/news/info/entry-99.html"
-    ]
-  },
-  {
-    "id": "apr-review-57c53f125028",
-    "organization": "岩谷産業",
-    "reported_on": "2026-10-26",
-    "verification": "pending",
-    "reference_url": "https://www.iwatani.co.jp/jpn/news/files/2026/20260417_news.pdf",
-    "note": "4月遡及調査で発見。reported_onは発見日であり公表日ではない。URLは現在メンテナンス案内を返す。4月17日当時の第2報本文は未取得。",
-    "reviewed_on": "2026-10-26",
-    "checked_urls": [
-      "https://www.iwatani.co.jp/jpn/news/files/2026/20260417_news.pdf"
     ]
   },
   {
@@ -1443,8 +1329,8 @@
     "reported_on": "2026-10-26",
     "verification": "pending",
     "reference_url": "https://www.yamagata-np.jp/achive_kiji/info202604030001.php",
-    "note": "4月遡及調査で発見。reported_onは発見日であり公表日ではない。現在のページはYCC調査結果の本文だが当該告知の公表日が不明。ページ上部の本日の日付やURLを公表日へ転用しない。",
-    "reviewed_on": "2026-10-26",
+    "note": "4～10月横断再調査：購読者情報の流出可能性の本文を再取得。本文に初回公表日がなく、上部の本日日付やURLを公表日に転用しない。 前回調査メモ：4月遡及調査で発見。reported_onは発見日であり公表日ではない。現在のページはYCC調査結果の本文だが当該告知の公表日が不明。ページ上部の本日の日付やURLを公表日へ転用しない。",
+    "reviewed_on": "2026-10-27",
     "checked_urls": [
       "https://www.yamagata-np.jp/achive_kiji/info202604030001.php"
     ]
@@ -1455,8 +1341,8 @@
     "reported_on": "2026-10-26",
     "verification": "pending",
     "reference_url": "https://www.town.oguni.yamagata.jp/soshiki/choumin/8843.html",
-    "note": "4月遡及調査で発見。reported_onは発見日であり公表日ではない。現行本文は5月18日更新。4月20日は調査判明日であり公表日ではないため、4月公表の裏付けを未確定とする。",
-    "reviewed_on": "2026-10-26",
+    "note": "4～10月横断再調査：公式本文を取得したが、4月20日は発覚日。初回の正確な公表日が未確定。 前回調査メモ：4月遡及調査で発見。reported_onは発見日であり公表日ではない。現行本文は5月18日更新。4月20日は調査判明日であり公表日ではないため、4月公表の裏付けを未確定とする。",
+    "reviewed_on": "2026-10-27",
     "checked_urls": [
       "https://www.town.oguni.yamagata.jp/soshiki/choumin/8843.html"
     ]
@@ -1467,8 +1353,8 @@
     "reported_on": "2026-10-26",
     "verification": "pending",
     "reference_url": "https://www.sato-kyoto.com/dnt2/_sato//access/files/7/1776329219_f_one_osirase.pdf",
-    "note": "4月遡及調査で発見。reported_onは発見日であり公表日ではない。委託先エフワンに関する公式PDFが503。原文と公表日を未確認。",
-    "reviewed_on": "2026-10-26",
+    "note": "4～10月横断再調査：参照URLの再取得を試みたが本文取得に至らず、従来の未確認事項を解消できないため保留を継続。 前回調査メモ：4月遡及調査で発見。reported_onは発見日であり公表日ではない。委託先エフワンに関する公式PDFが503。原文と公表日を未確認。",
+    "reviewed_on": "2026-10-27",
     "checked_urls": [
       "https://www.sato-kyoto.com/dnt2/_sato//access/files/7/1776329219_f_one_osirase.pdf"
     ]
@@ -1479,8 +1365,8 @@
     "reported_on": "2026-10-26",
     "verification": "pending",
     "reference_url": "https://www.ichiko.co.jp/info-others/%e3%82%b5%e3%82%a4%e3%83%90%e3%83%bc%e6%94%bb%e6%92%83%e3%81%ab%e3%82%88%e3%82%8b%e8%a2%ab%e5%ae%b3%e3%81%ae%e7%99%ba%e7%94%9f%e3%81%ab%e3%81%a4%e3%81%84%e3%81%a6%e7%ac%ac%e4%ba%8c%e5%a0%b1",
-    "note": "4月遡及調査で発見。reported_onは発見日であり公表日ではない。4月16日の調査状況を確認したが、具体的な個人情報への影響の特定が未完了。",
-    "reviewed_on": "2026-10-26",
+    "note": "4～10月横断再調査：参照URLの応答を再取得。公表日・自然人の対象情報・既存事案との対応について掲載を確定する根拠が揃わず、保留を継続。 前回調査メモ：4月遡及調査で発見。reported_onは発見日であり公表日ではない。4月16日の調査状況を確認したが、具体的な個人情報への影響の特定が未完了。",
+    "reviewed_on": "2026-10-27",
     "checked_urls": [
       "https://www.ichiko.co.jp/info-others/%e3%82%b5%e3%82%a4%e3%83%90%e3%83%bc%e6%94%bb%e6%92%83%e3%81%ab%e3%82%88%e3%82%8b%e8%a2%ab%e5%ae%b3%e3%81%ae%e7%99%ba%e7%94%9f%e3%81%ab%e3%81%a4%e3%81%84%e3%81%a6%e7%ac%ac%e4%ba%8c%e5%a0%b1"
     ]
@@ -1491,8 +1377,8 @@
     "reported_on": "2026-10-26",
     "verification": "pending",
     "reference_url": "https://www.city.kagoshima.lg.jp/suido/ryoukin/tonanowabi.html",
-    "note": "4月遡及調査で発見。reported_onは発見日であり公表日ではない。現行ページは5月7日更新。4月15日は盗難発生日であり、当初の公表日を未確定とする。",
-    "reviewed_on": "2026-10-26",
+    "note": "4～10月横断再調査：現行の公式案内を取得したが、表示更新日と当初の公表日が異なる可能性があり初回公表日が未確定。 前回調査メモ：4月遡及調査で発見。reported_onは発見日であり公表日ではない。現行ページは5月7日更新。4月15日は盗難発生日であり、当初の公表日を未確定とする。",
+    "reviewed_on": "2026-10-27",
     "checked_urls": [
       "https://www.city.kagoshima.lg.jp/suido/ryoukin/tonanowabi.html"
     ]
@@ -1503,8 +1389,8 @@
     "reported_on": "2026-10-26",
     "verification": "pending",
     "reference_url": "https://www.city.yamagata-yamagata.lg.jp/shiseijoho/it/1012825/1018734.html",
-    "note": "4月遡及調査で発見。reported_onは発見日であり公表日ではない。現行ページは7月30日更新。対象3区分の本文は読めるが、4月の初回公表日を確認できず。",
-    "reviewed_on": "2026-10-26",
+    "note": "4～10月横断再調査：公式の現行案内を取得。対象範囲に関する更新と初回公表日との対応を特定できず保留。 前回調査メモ：4月遡及調査で発見。reported_onは発見日であり公表日ではない。現行ページは7月30日更新。対象3区分の本文は読めるが、4月の初回公表日を確認できず。",
+    "reviewed_on": "2026-10-27",
     "checked_urls": [
       "https://www.city.yamagata-yamagata.lg.jp/shiseijoho/it/1012825/1018734.html"
     ]
@@ -1515,8 +1401,8 @@
     "reported_on": "2026-10-26",
     "verification": "pending",
     "reference_url": "https://access-international.jp/posts/notice_20260415",
-    "note": "4月遡及調査で発見。reported_onは発見日であり公表日ではない。ページ本文を取得できず、調査結果と個人情報の対象範囲を未確認。",
-    "reviewed_on": "2026-10-26",
+    "note": "4～10月横断再調査：参照URLの応答を再取得。公表日・自然人の対象情報・既存事案との対応について掲載を確定する根拠が揃わず、保留を継続。 前回調査メモ：4月遡及調査で発見。reported_onは発見日であり公表日ではない。ページ本文を取得できず、調査結果と個人情報の対象範囲を未確認。",
+    "reviewed_on": "2026-10-27",
     "checked_urls": [
       "https://access-international.jp/posts/notice_20260415"
     ]
@@ -1527,8 +1413,8 @@
     "reported_on": "2026-10-26",
     "verification": "pending",
     "reference_url": "https://www.release.tdnet.info/inbs/140120260415505003.pdf",
-    "note": "4月遡及調査で発見。reported_onは発見日であり公表日ではない。第3報PDFは404。第2報を含め個人情報への具体的影響を照合できず。",
-    "reviewed_on": "2026-10-26",
+    "note": "4～10月横断再調査：参照URLの再取得を試みたが本文取得に至らず、従来の未確認事項を解消できないため保留を継続。 前回調査メモ：4月遡及調査で発見。reported_onは発見日であり公表日ではない。第3報PDFは404。第2報を含め個人情報への具体的影響を照合できず。",
+    "reviewed_on": "2026-10-27",
     "checked_urls": [
       "https://www.release.tdnet.info/inbs/140120260415505003.pdf"
     ]
@@ -1539,22 +1425,10 @@
     "reported_on": "2026-10-26",
     "verification": "pending",
     "reference_url": "https://www.jijiphoto.jp/resource/html/ext/info/20260414.html",
-    "note": "4月遡及調査で発見。reported_onは発見日であり公表日ではない。公式告知が403。パスワード変更案内と具体的な漏えい対象を未照合。",
-    "reviewed_on": "2026-10-26",
+    "note": "4～10月横断再調査：公式4月14日本文を取得。不正ログインの可能性は記載されるが、個人情報の具体的対象・項目の影響範囲は未公表。 前回調査メモ：4月遡及調査で発見。reported_onは発見日であり公表日ではない。公式告知が403。パスワード変更案内と具体的な漏えい対象を未照合。",
+    "reviewed_on": "2026-10-27",
     "checked_urls": [
       "https://www.jijiphoto.jp/resource/html/ext/info/20260414.html"
-    ]
-  },
-  {
-    "id": "apr-review-120ff646d2e0",
-    "organization": "Custodiem",
-    "reported_on": "2026-10-26",
-    "verification": "pending",
-    "reference_url": "https://support.custodiem.com/hc/ja/articles/44983623821581--%E7%B6%9A%E5%A0%B1-%E3%82%AF%E3%83%A9%E3%82%A6%E3%83%89%E7%92%B0%E5%A2%83%E3%81%AE%E8%AA%A4%E8%A8%AD%E5%AE%9A%E3%81%AB%E3%82%88%E3%82%8B%E3%81%8A%E5%AE%A2%E6%A7%98%E6%83%85%E5%A0%B1%E6%BC%8F%E3%81%88%E3%81%84%E5%8F%AF%E8%83%BD%E6%80%A7%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E3%81%8A%E8%A9%AB%E3%81%B3%E3%81%A8%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B",
-    "note": "4月遡及調査で発見。reported_onは発見日であり公表日ではない。公式続報が403。設定不備の対象情報と続報の公表日を未確認。",
-    "reviewed_on": "2026-10-26",
-    "checked_urls": [
-      "https://support.custodiem.com/hc/ja/articles/44983623821581--%E7%B6%9A%E5%A0%B1-%E3%82%AF%E3%83%A9%E3%82%A6%E3%83%89%E7%92%B0%E5%A2%83%E3%81%AE%E8%AA%A4%E8%A8%AD%E5%AE%9A%E3%81%AB%E3%82%88%E3%82%8B%E3%81%8A%E5%AE%A2%E6%A7%98%E6%83%85%E5%A0%B1%E6%BC%8F%E3%81%88%E3%81%84%E5%8F%AF%E8%83%BD%E6%80%A7%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E3%81%8A%E8%A9%AB%E3%81%B3%E3%81%A8%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B"
     ]
   },
   {
@@ -1563,8 +1437,8 @@
     "reported_on": "2026-10-26",
     "verification": "pending",
     "reference_url": "https://www.fuk.hotelokura.co.jp/news/archives/269",
-    "note": "4月遡及調査で発見。reported_onは発見日であり公表日ではない。公式告知が404。従業員情報に関する報道と公表日・項目を原文で未照合。",
-    "reviewed_on": "2026-10-26",
+    "note": "4～10月横断再調査：参照URLの再取得を試みたが本文取得に至らず、従来の未確認事項を解消できないため保留を継続。 前回調査メモ：4月遡及調査で発見。reported_onは発見日であり公表日ではない。公式告知が404。従業員情報に関する報道と公表日・項目を原文で未照合。",
+    "reviewed_on": "2026-10-27",
     "checked_urls": [
       "https://www.fuk.hotelokura.co.jp/news/archives/269",
       "https://www.security-next.com/183382"
@@ -1576,8 +1450,8 @@
     "reported_on": "2026-10-26",
     "verification": "pending",
     "reference_url": "https://corp.up-sider.com/260410-2/",
-    "note": "4月遡及調査で発見。reported_onは発見日であり公表日ではない。4月10日公式調査状況は個人情報DBの不審アクセス・漏えい未確認と説明。影響の具体化や最終調査結果を未確認。",
-    "reviewed_on": "2026-10-26",
+    "note": "4～10月横断再調査：公式4月10日続報を取得。顧客データベースへの不審アクセス・漏えいは確認されておらず、外部調査を継続。 前回調査メモ：4月遡及調査で発見。reported_onは発見日であり公表日ではない。4月10日公式調査状況は個人情報DBの不審アクセス・漏えい未確認と説明。影響の具体化や最終調査結果を未確認。",
+    "reviewed_on": "2026-10-27",
     "checked_urls": [
       "https://corp.up-sider.com/260410-2/"
     ]
@@ -1588,8 +1462,8 @@
     "reported_on": "2026-10-26",
     "verification": "pending",
     "reference_url": "https://zigexn.co.jp/16079/",
-    "note": "4月遡及調査で発見。reported_onは発見日であり公表日ではない。4月9日の指摘への告知を確認したが、自社・連携先の対象範囲と個人情報への影響が未確定。",
-    "reviewed_on": "2026-10-26",
+    "note": "4～10月横断再調査：参照URLの応答を再取得。公表日・自然人の対象情報・既存事案との対応について掲載を確定する根拠が揃わず、保留を継続。 前回調査メモ：4月遡及調査で発見。reported_onは発見日であり公表日ではない。4月9日の指摘への告知を確認したが、自社・連携先の対象範囲と個人情報への影響が未確定。",
+    "reviewed_on": "2026-10-27",
     "checked_urls": [
       "https://zigexn.co.jp/16079/"
     ]
@@ -1600,8 +1474,8 @@
     "reported_on": "2026-10-26",
     "verification": "pending",
     "reference_url": "https://www.jorsa.or.jp/ja/news/detail2320.html",
-    "note": "4月遡及調査で発見。reported_onは発見日であり公表日ではない。公式URLが404。対象情報・日付を未確認。",
-    "reviewed_on": "2026-10-26",
+    "note": "4～10月横断再調査：参照URLの再取得を試みたが本文取得に至らず、従来の未確認事項を解消できないため保留を継続。 前回調査メモ：4月遡及調査で発見。reported_onは発見日であり公表日ではない。公式URLが404。対象情報・日付を未確認。",
+    "reviewed_on": "2026-10-27",
     "checked_urls": [
       "https://www.jorsa.or.jp/ja/news/detail2320.html"
     ]
@@ -1612,8 +1486,8 @@
     "reported_on": "2026-10-26",
     "verification": "pending",
     "reference_url": "https://f-one.co.jp/_include/pdf/information20260408.pdf",
-    "note": "4月遡及調査で発見。reported_onは発見日であり公表日ではない。4月最終報PDFが404。取得できた別月の告知を4月公表の根拠には用いない。",
-    "reviewed_on": "2026-10-26",
+    "note": "4～10月横断再調査：参照URLの再取得を試みたが本文取得に至らず、従来の未確認事項を解消できないため保留を継続。 前回調査メモ：4月遡及調査で発見。reported_onは発見日であり公表日ではない。4月最終報PDFが404。取得できた別月の告知を4月公表の根拠には用いない。",
+    "reviewed_on": "2026-10-27",
     "checked_urls": [
       "https://f-one.co.jp/_include/pdf/information20260408.pdf"
     ]
@@ -1624,8 +1498,8 @@
     "reported_on": "2026-10-26",
     "verification": "pending",
     "reference_url": "https://www.systemsoft.co.jp/wp-content/uploads/2026/04/ransomware20260408.pdf",
-    "note": "4月遡及調査で発見。reported_onは発見日であり公表日ではない。4月8日のランサムウェア被害告知を確認したが個人情報の具体的な影響は未確認。",
-    "reviewed_on": "2026-10-26",
+    "note": "4～10月横断再調査：参照URLの応答を再取得。公表日・自然人の対象情報・既存事案との対応について掲載を確定する根拠が揃わず、保留を継続。 前回調査メモ：4月遡及調査で発見。reported_onは発見日であり公表日ではない。4月8日のランサムウェア被害告知を確認したが個人情報の具体的な影響は未確認。",
+    "reviewed_on": "2026-10-27",
     "checked_urls": [
       "https://www.systemsoft.co.jp/wp-content/uploads/2026/04/ransomware20260408.pdf"
     ]
@@ -1636,8 +1510,8 @@
     "reported_on": "2026-10-26",
     "verification": "pending",
     "reference_url": "https://marutakakogyo.co.jp/information/pressrelease_20260406/",
-    "note": "4月遡及調査で発見。reported_onは発見日であり公表日ではない。公式サイトへの接続が拒否され本文取得不可。4月続報の対象情報を未確認。",
-    "reviewed_on": "2026-10-26",
+    "note": "4～10月横断再調査：参照URLの再取得を試みたが本文取得に至らず、従来の未確認事項を解消できないため保留を継続。 前回調査メモ：4月遡及調査で発見。reported_onは発見日であり公表日ではない。公式サイトへの接続が拒否され本文取得不可。4月続報の対象情報を未確認。",
+    "reviewed_on": "2026-10-27",
     "checked_urls": [
       "https://marutakakogyo.co.jp/information/pressrelease_20260406/"
     ]
@@ -1648,8 +1522,8 @@
     "reported_on": "2026-10-26",
     "verification": "pending",
     "reference_url": "https://www.kindai.ac.jp/nursing/news/important/2026/04/049951.html",
-    "note": "4月遡及調査で発見。reported_onは発見日であり公表日ではない。公式告知が404。学生等の対象と公表日を原文で未確認。",
-    "reviewed_on": "2026-10-26",
+    "note": "4～10月横断再調査：参照URLの再取得を試みたが本文取得に至らず、従来の未確認事項を解消できないため保留を継続。 前回調査メモ：4月遡及調査で発見。reported_onは発見日であり公表日ではない。公式告知が404。学生等の対象と公表日を原文で未確認。",
+    "reviewed_on": "2026-10-27",
     "checked_urls": [
       "https://www.kindai.ac.jp/nursing/news/important/2026/04/049951.html"
     ]
@@ -1660,8 +1534,8 @@
     "reported_on": "2026-10-26",
     "verification": "pending",
     "reference_url": "https://www.musatoku.com/news/detail.php?id=455",
-    "note": "4月遡及調査で発見。reported_onは発見日であり公表日ではない。公式初報・第2報URLは現在トップページを返す。SNS投稿の元本文・日付・範囲を未確認。",
-    "reviewed_on": "2026-10-26",
+    "note": "4～10月横断再調査：参照URLの応答を再取得。公表日・自然人の対象情報・既存事案との対応について掲載を確定する根拠が揃わず、保留を継続。 前回調査メモ：4月遡及調査で発見。reported_onは発見日であり公表日ではない。公式初報・第2報URLは現在トップページを返す。SNS投稿の元本文・日付・範囲を未確認。",
+    "reviewed_on": "2026-10-27",
     "checked_urls": [
       "https://www.musatoku.com/news/detail.php?id=455",
       "https://www.musatoku.com/news/detail.php?id=454"
@@ -1673,8 +1547,8 @@
     "reported_on": "2026-10-26",
     "verification": "pending",
     "reference_url": "https://www.scft.co.jp/news/h_y9ux8ubark",
-    "note": "4月遡及調査で発見。reported_onは発見日であり公表日ではない。旧公式URLは現行ニュース一覧へ遷移。委託元GMOあおぞら銀行の公表は掲載済みだが、受託元自身の記録は本文の復元が必要。",
-    "reviewed_on": "2026-10-26",
+    "note": "4～10月横断再調査：参照URLの応答を再取得。公表日・自然人の対象情報・既存事案との対応について掲載を確定する根拠が揃わず、保留を継続。 前回調査メモ：4月遡及調査で発見。reported_onは発見日であり公表日ではない。旧公式URLは現行ニュース一覧へ遷移。委託元GMOあおぞら銀行の公表は掲載済みだが、受託元自身の記録は本文の復元が必要。",
+    "reviewed_on": "2026-10-27",
     "checked_urls": [
       "https://www.scft.co.jp/news/h_y9ux8ubark"
     ]
@@ -1685,22 +1559,10 @@
     "reported_on": "2026-10-26",
     "verification": "pending",
     "reference_url": "https://exidea.co.jp/news/20260403/",
-    "note": "4月遡及調査で発見。reported_onは発見日であり公表日ではない。公式告知が404。従業員アカウントへの侵害と個人情報への影響を未確認。",
-    "reviewed_on": "2026-10-26",
+    "note": "4～10月横断再調査：参照URLの再取得を試みたが本文取得に至らず、従来の未確認事項を解消できないため保留を継続。 前回調査メモ：4月遡及調査で発見。reported_onは発見日であり公表日ではない。公式告知が404。従業員アカウントへの侵害と個人情報への影響を未確認。",
+    "reviewed_on": "2026-10-27",
     "checked_urls": [
       "https://exidea.co.jp/news/20260403/"
-    ]
-  },
-  {
-    "id": "apr-review-ec86cff7cfbe",
-    "organization": "あなぶき興産",
-    "reported_on": "2026-10-26",
-    "verification": "pending",
-    "reference_url": "https://www.anabuki.ne.jp/cms_upload/news/429/20260403_higaihassei4.pdf",
-    "note": "4月遡及調査で発見。reported_onは発見日であり公表日ではない。公式第4報PDFを取得したが暗号化のため本文を抽出できず。個人情報の対象範囲を未確認。",
-    "reviewed_on": "2026-10-26",
-    "checked_urls": [
-      "https://www.anabuki.ne.jp/cms_upload/news/429/20260403_higaihassei4.pdf"
     ]
   },
   {
@@ -1709,8 +1571,8 @@
     "reported_on": "2026-10-26",
     "verification": "pending",
     "reference_url": "https://www.iju-join.jp/news/11545.html",
-    "note": "4月遡及調査で発見。reported_onは発見日であり公表日ではない。本文に出展者64団体の情報への影響があるが、告知の公表日表示を確認できず。64団体を人数へ転用しない。",
-    "reviewed_on": "2026-10-26",
+    "note": "4～10月横断再調査：参照URLの応答を再取得。公表日・自然人の対象情報・既存事案との対応について掲載を確定する根拠が揃わず、保留を継続。 前回調査メモ：4月遡及調査で発見。reported_onは発見日であり公表日ではない。本文に出展者64団体の情報への影響があるが、告知の公表日表示を確認できず。64団体を人数へ転用しない。",
+    "reviewed_on": "2026-10-27",
     "checked_urls": [
       "https://www.iju-join.jp/news/11545.html"
     ]
@@ -1721,22 +1583,10 @@
     "reported_on": "2026-10-26",
     "verification": "pending",
     "reference_url": "https://www.security-next.com/183864",
-    "note": "4月遡及調査で発見。reported_onは発見日であり公表日ではない。4月の記事から発見した候補。組織による公表日、一次資料、既存事案との重複の照合が未完了。記事配信日や発生日だけで掲載日を決めない。",
-    "reviewed_on": "2026-10-26",
+    "note": "4～10月横断再調査：参照URLの応答を再取得。公表日・自然人の対象情報・既存事案との対応について掲載を確定する根拠が揃わず、保留を継続。 前回調査メモ：4月遡及調査で発見。reported_onは発見日であり公表日ではない。4月の記事から発見した候補。組織による公表日、一次資料、既存事案との重複の照合が未完了。記事配信日や発生日だけで掲載日を決めない。",
+    "reviewed_on": "2026-10-27",
     "checked_urls": [
       "https://www.security-next.com/183864"
-    ]
-  },
-  {
-    "id": "apr-review-26ae474b99da",
-    "organization": "県立公園において複数回にわたりメール誤送信 - 群馬県",
-    "reported_on": "2026-10-26",
-    "verification": "pending",
-    "reference_url": "https://www.security-next.com/183862",
-    "note": "4月遡及調査で発見。reported_onは発見日であり公表日ではない。4月14日の公表を報道で確認したが、県の一次資料と送信対象の個人・法人内訳を未照合。",
-    "reviewed_on": "2026-10-26",
-    "checked_urls": [
-      "https://www.security-next.com/183862"
     ]
   },
   {
@@ -1745,8 +1595,8 @@
     "reported_on": "2026-10-26",
     "verification": "pending",
     "reference_url": "https://www.security-next.com/183770",
-    "note": "4月遡及調査で発見。reported_onは発見日であり公表日ではない。4月の記事から発見した候補。組織による公表日、一次資料、既存事案との重複の照合が未完了。記事配信日や発生日だけで掲載日を決めない。",
-    "reviewed_on": "2026-10-26",
+    "note": "4～10月横断再調査：参照URLの応答を再取得。公表日・自然人の対象情報・既存事案との対応について掲載を確定する根拠が揃わず、保留を継続。 前回調査メモ：4月遡及調査で発見。reported_onは発見日であり公表日ではない。4月の記事から発見した候補。組織による公表日、一次資料、既存事案との重複の照合が未完了。記事配信日や発生日だけで掲載日を決めない。",
+    "reviewed_on": "2026-10-27",
     "checked_urls": [
       "https://www.security-next.com/183770"
     ]
@@ -1757,8 +1607,8 @@
     "reported_on": "2026-10-26",
     "verification": "pending",
     "reference_url": "https://www.security-next.com/183720",
-    "note": "4月遡及調査で発見。reported_onは発見日であり公表日ではない。4月の記事から発見した候補。組織による公表日、一次資料、既存事案との重複の照合が未完了。記事配信日や発生日だけで掲載日を決めない。",
-    "reviewed_on": "2026-10-26",
+    "note": "4～10月横断再調査：参照URLの応答を再取得。公表日・自然人の対象情報・既存事案との対応について掲載を確定する根拠が揃わず、保留を継続。 前回調査メモ：4月遡及調査で発見。reported_onは発見日であり公表日ではない。4月の記事から発見した候補。組織による公表日、一次資料、既存事案との重複の照合が未完了。記事配信日や発生日だけで掲載日を決めない。",
+    "reviewed_on": "2026-10-27",
     "checked_urls": [
       "https://www.security-next.com/183720"
     ]
@@ -1769,8 +1619,8 @@
     "reported_on": "2026-10-26",
     "verification": "pending",
     "reference_url": "https://www.security-next.com/183766",
-    "note": "4月遡及調査で発見。reported_onは発見日であり公表日ではない。4月の記事から発見した候補。組織による公表日、一次資料、既存事案との重複の照合が未完了。記事配信日や発生日だけで掲載日を決めない。",
-    "reviewed_on": "2026-10-26",
+    "note": "4～10月横断再調査：参照URLの応答を再取得。公表日・自然人の対象情報・既存事案との対応について掲載を確定する根拠が揃わず、保留を継続。 前回調査メモ：4月遡及調査で発見。reported_onは発見日であり公表日ではない。4月の記事から発見した候補。組織による公表日、一次資料、既存事案との重複の照合が未完了。記事配信日や発生日だけで掲載日を決めない。",
+    "reviewed_on": "2026-10-27",
     "checked_urls": [
       "https://www.security-next.com/183766"
     ]
@@ -1781,8 +1631,8 @@
     "reported_on": "2026-10-26",
     "verification": "pending",
     "reference_url": "https://www.security-next.com/183821",
-    "note": "4月遡及調査で発見。reported_onは発見日であり公表日ではない。4月の記事から発見した候補。組織による公表日、一次資料、既存事案との重複の照合が未完了。記事配信日や発生日だけで掲載日を決めない。",
-    "reviewed_on": "2026-10-26",
+    "note": "4～10月横断再調査：参照URLの応答を再取得。公表日・自然人の対象情報・既存事案との対応について掲載を確定する根拠が揃わず、保留を継続。 前回調査メモ：4月遡及調査で発見。reported_onは発見日であり公表日ではない。4月の記事から発見した候補。組織による公表日、一次資料、既存事案との重複の照合が未完了。記事配信日や発生日だけで掲載日を決めない。",
+    "reviewed_on": "2026-10-27",
     "checked_urls": [
       "https://www.security-next.com/183821"
     ]
@@ -1793,8 +1643,8 @@
     "reported_on": "2026-10-26",
     "verification": "pending",
     "reference_url": "https://www.security-next.com/183612",
-    "note": "4月遡及調査で発見。reported_onは発見日であり公表日ではない。4月の記事から発見した候補。組織による公表日、一次資料、既存事案との重複の照合が未完了。記事配信日や発生日だけで掲載日を決めない。",
-    "reviewed_on": "2026-10-26",
+    "note": "4～10月横断再調査：参照URLの応答を再取得。公表日・自然人の対象情報・既存事案との対応について掲載を確定する根拠が揃わず、保留を継続。 前回調査メモ：4月遡及調査で発見。reported_onは発見日であり公表日ではない。4月の記事から発見した候補。組織による公表日、一次資料、既存事案との重複の照合が未完了。記事配信日や発生日だけで掲載日を決めない。",
+    "reviewed_on": "2026-10-27",
     "checked_urls": [
       "https://www.security-next.com/183612"
     ]
@@ -1805,8 +1655,8 @@
     "reported_on": "2026-10-26",
     "verification": "pending",
     "reference_url": "https://www.security-next.com/183598",
-    "note": "4月遡及調査で発見。reported_onは発見日であり公表日ではない。4月の記事から発見した候補。組織による公表日、一次資料、既存事案との重複の照合が未完了。記事配信日や発生日だけで掲載日を決めない。",
-    "reviewed_on": "2026-10-26",
+    "note": "4～10月横断再調査：参照URLの応答を再取得。公表日・自然人の対象情報・既存事案との対応について掲載を確定する根拠が揃わず、保留を継続。 前回調査メモ：4月遡及調査で発見。reported_onは発見日であり公表日ではない。4月の記事から発見した候補。組織による公表日、一次資料、既存事案との重複の照合が未完了。記事配信日や発生日だけで掲載日を決めない。",
+    "reviewed_on": "2026-10-27",
     "checked_urls": [
       "https://www.security-next.com/183598"
     ]
@@ -1817,22 +1667,10 @@
     "reported_on": "2026-10-26",
     "verification": "pending",
     "reference_url": "https://www.security-next.com/183529",
-    "note": "4月遡及調査で発見。reported_onは発見日であり公表日ではない。4月の記事から発見した候補。組織による公表日、一次資料、既存事案との重複の照合が未完了。記事配信日や発生日だけで掲載日を決めない。",
-    "reviewed_on": "2026-10-26",
+    "note": "4～10月横断再調査：参照URLの応答を再取得。公表日・自然人の対象情報・既存事案との対応について掲載を確定する根拠が揃わず、保留を継続。 前回調査メモ：4月遡及調査で発見。reported_onは発見日であり公表日ではない。4月の記事から発見した候補。組織による公表日、一次資料、既存事案との重複の照合が未完了。記事配信日や発生日だけで掲載日を決めない。",
+    "reviewed_on": "2026-10-27",
     "checked_urls": [
       "https://www.security-next.com/183529"
-    ]
-  },
-  {
-    "id": "apr-review-6c45df3ae785",
-    "organization": "複数団体宛てのメールに個人メアドを誤掲載 - 埼玉県",
-    "reported_on": "2026-10-26",
-    "verification": "pending",
-    "reference_url": "https://www.security-next.com/183459",
-    "note": "4月遡及調査で発見。reported_onは発見日であり公表日ではない。4月の記事から発見した候補。組織による公表日、一次資料、既存事案との重複の照合が未完了。記事配信日や発生日だけで掲載日を決めない。",
-    "reviewed_on": "2026-10-26",
-    "checked_urls": [
-      "https://www.security-next.com/183459"
     ]
   },
   {
@@ -1841,22 +1679,10 @@
     "reported_on": "2026-10-26",
     "verification": "pending",
     "reference_url": "https://www.security-next.com/183312",
-    "note": "4月遡及調査で発見。reported_onは発見日であり公表日ではない。4月の記事から発見した候補。組織による公表日、一次資料、既存事案との重複の照合が未完了。記事配信日や発生日だけで掲載日を決めない。",
-    "reviewed_on": "2026-10-26",
+    "note": "4～10月横断再調査：参照URLの応答を再取得。公表日・自然人の対象情報・既存事案との対応について掲載を確定する根拠が揃わず、保留を継続。 前回調査メモ：4月遡及調査で発見。reported_onは発見日であり公表日ではない。4月の記事から発見した候補。組織による公表日、一次資料、既存事案との重複の照合が未完了。記事配信日や発生日だけで掲載日を決めない。",
+    "reviewed_on": "2026-10-27",
     "checked_urls": [
       "https://www.security-next.com/183312"
-    ]
-  },
-  {
-    "id": "apr-review-bb6a9bb61134",
-    "organization": "コールセンターの再委託先でランサム被害 - カーシェアリングサービス",
-    "reported_on": "2026-10-26",
-    "verification": "pending",
-    "reference_url": "https://www.security-next.com/183450",
-    "note": "4月遡及調査で発見。reported_onは発見日であり公表日ではない。4月の記事から発見した候補。組織による公表日、一次資料、既存事案との重複の照合が未完了。記事配信日や発生日だけで掲載日を決めない。",
-    "reviewed_on": "2026-10-26",
-    "checked_urls": [
-      "https://www.security-next.com/183450"
     ]
   },
   {
@@ -1865,8 +1691,8 @@
     "reported_on": "2026-10-26",
     "verification": "pending",
     "reference_url": "https://www.security-next.com/182900",
-    "note": "4月遡及調査で発見。reported_onは発見日であり公表日ではない。4月の記事から発見した候補。組織による公表日、一次資料、既存事案との重複の照合が未完了。記事配信日や発生日だけで掲載日を決めない。",
-    "reviewed_on": "2026-10-26",
+    "note": "4～10月横断再調査：参照URLの応答を再取得。公表日・自然人の対象情報・既存事案との対応について掲載を確定する根拠が揃わず、保留を継続。 前回調査メモ：4月遡及調査で発見。reported_onは発見日であり公表日ではない。4月の記事から発見した候補。組織による公表日、一次資料、既存事案との重複の照合が未完了。記事配信日や発生日だけで掲載日を決めない。",
+    "reviewed_on": "2026-10-27",
     "checked_urls": [
       "https://www.security-next.com/182900"
     ]
@@ -1877,8 +1703,8 @@
     "reported_on": "2026-10-26",
     "verification": "pending",
     "reference_url": "https://www.security-next.com/183228",
-    "note": "4月遡及調査で発見。reported_onは発見日であり公表日ではない。4月の記事から発見した候補。組織による公表日、一次資料、既存事案との重複の照合が未完了。記事配信日や発生日だけで掲載日を決めない。",
-    "reviewed_on": "2026-10-26",
+    "note": "4～10月横断再調査：参照URLの応答を再取得。公表日・自然人の対象情報・既存事案との対応について掲載を確定する根拠が揃わず、保留を継続。 前回調査メモ：4月遡及調査で発見。reported_onは発見日であり公表日ではない。4月の記事から発見した候補。組織による公表日、一次資料、既存事案との重複の照合が未完了。記事配信日や発生日だけで掲載日を決めない。",
+    "reviewed_on": "2026-10-27",
     "checked_urls": [
       "https://www.security-next.com/183228"
     ]
@@ -1889,8 +1715,8 @@
     "reported_on": "2026-10-26",
     "verification": "pending",
     "reference_url": "https://www.security-next.com/183094",
-    "note": "4月遡及調査で発見。reported_onは発見日であり公表日ではない。4月の記事から発見した候補。組織による公表日、一次資料、既存事案との重複の照合が未完了。記事配信日や発生日だけで掲載日を決めない。",
-    "reviewed_on": "2026-10-26",
+    "note": "4～10月横断再調査：参照URLの応答を再取得。公表日・自然人の対象情報・既存事案との対応について掲載を確定する根拠が揃わず、保留を継続。 前回調査メモ：4月遡及調査で発見。reported_onは発見日であり公表日ではない。4月の記事から発見した候補。組織による公表日、一次資料、既存事案との重複の照合が未完了。記事配信日や発生日だけで掲載日を決めない。",
+    "reviewed_on": "2026-10-27",
     "checked_urls": [
       "https://www.security-next.com/183094"
     ]
@@ -1901,8 +1727,8 @@
     "reported_on": "2026-10-26",
     "verification": "pending",
     "reference_url": "https://www.security-next.com/183270",
-    "note": "4月遡及調査で発見。reported_onは発見日であり公表日ではない。4月の記事から発見した候補。組織による公表日、一次資料、既存事案との重複の照合が未完了。記事配信日や発生日だけで掲載日を決めない。",
-    "reviewed_on": "2026-10-26",
+    "note": "4～10月横断再調査：参照URLの応答を再取得。公表日・自然人の対象情報・既存事案との対応について掲載を確定する根拠が揃わず、保留を継続。 前回調査メモ：4月遡及調査で発見。reported_onは発見日であり公表日ではない。4月の記事から発見した候補。組織による公表日、一次資料、既存事案との重複の照合が未完了。記事配信日や発生日だけで掲載日を決めない。",
+    "reviewed_on": "2026-10-27",
     "checked_urls": [
       "https://www.security-next.com/183270"
     ]
@@ -1913,8 +1739,8 @@
     "reported_on": "2026-10-26",
     "verification": "pending",
     "reference_url": "https://www.security-next.com/183314",
-    "note": "4月遡及調査で発見。reported_onは発見日であり公表日ではない。4月の記事から発見した候補。組織による公表日、一次資料、既存事案との重複の照合が未完了。記事配信日や発生日だけで掲載日を決めない。",
-    "reviewed_on": "2026-10-26",
+    "note": "4～10月横断再調査：参照URLの応答を再取得。公表日・自然人の対象情報・既存事案との対応について掲載を確定する根拠が揃わず、保留を継続。 前回調査メモ：4月遡及調査で発見。reported_onは発見日であり公表日ではない。4月の記事から発見した候補。組織による公表日、一次資料、既存事案との重複の照合が未完了。記事配信日や発生日だけで掲載日を決めない。",
+    "reviewed_on": "2026-10-27",
     "checked_urls": [
       "https://www.security-next.com/183314"
     ]
@@ -1925,8 +1751,8 @@
     "reported_on": "2026-10-26",
     "verification": "pending",
     "reference_url": "https://www.security-next.com/183272",
-    "note": "4月遡及調査で発見。reported_onは発見日であり公表日ではない。4月の記事から発見した候補。組織による公表日、一次資料、既存事案との重複の照合が未完了。記事配信日や発生日だけで掲載日を決めない。",
-    "reviewed_on": "2026-10-26",
+    "note": "4～10月横断再調査：参照URLの応答を再取得。公表日・自然人の対象情報・既存事案との対応について掲載を確定する根拠が揃わず、保留を継続。 前回調査メモ：4月遡及調査で発見。reported_onは発見日であり公表日ではない。4月の記事から発見した候補。組織による公表日、一次資料、既存事案との重複の照合が未完了。記事配信日や発生日だけで掲載日を決めない。",
+    "reviewed_on": "2026-10-27",
     "checked_urls": [
       "https://www.security-next.com/183272"
     ]
@@ -1937,8 +1763,8 @@
     "reported_on": "2026-10-26",
     "verification": "pending",
     "reference_url": "https://www.security-next.com/183278",
-    "note": "4月遡及調査で発見。reported_onは発見日であり公表日ではない。4月の記事から発見した候補。組織による公表日、一次資料、既存事案との重複の照合が未完了。記事配信日や発生日だけで掲載日を決めない。",
-    "reviewed_on": "2026-10-26",
+    "note": "4～10月横断再調査：参照URLの応答を再取得。公表日・自然人の対象情報・既存事案との対応について掲載を確定する根拠が揃わず、保留を継続。 前回調査メモ：4月遡及調査で発見。reported_onは発見日であり公表日ではない。4月の記事から発見した候補。組織による公表日、一次資料、既存事案との重複の照合が未完了。記事配信日や発生日だけで掲載日を決めない。",
+    "reviewed_on": "2026-10-27",
     "checked_urls": [
       "https://www.security-next.com/183278"
     ]
@@ -1949,8 +1775,8 @@
     "reported_on": "2026-10-26",
     "verification": "pending",
     "reference_url": "https://www.security-next.com/182964",
-    "note": "4月遡及調査で発見。reported_onは発見日であり公表日ではない。4月の記事から発見した候補。組織による公表日、一次資料、既存事案との重複の照合が未完了。記事配信日や発生日だけで掲載日を決めない。",
-    "reviewed_on": "2026-10-26",
+    "note": "4～10月横断再調査：参照URLの応答を再取得。公表日・自然人の対象情報・既存事案との対応について掲載を確定する根拠が揃わず、保留を継続。 前回調査メモ：4月遡及調査で発見。reported_onは発見日であり公表日ではない。4月の記事から発見した候補。組織による公表日、一次資料、既存事案との重複の照合が未完了。記事配信日や発生日だけで掲載日を決めない。",
+    "reviewed_on": "2026-10-27",
     "checked_urls": [
       "https://www.security-next.com/182964"
     ]
@@ -1961,8 +1787,8 @@
     "reported_on": "2026-10-26",
     "verification": "pending",
     "reference_url": "https://www.security-next.com/183155",
-    "note": "4月遡及調査で発見。reported_onは発見日であり公表日ではない。4月の記事から発見した候補。組織による公表日、一次資料、既存事案との重複の照合が未完了。記事配信日や発生日だけで掲載日を決めない。",
-    "reviewed_on": "2026-10-26",
+    "note": "4～10月横断再調査：参照URLの応答を再取得。公表日・自然人の対象情報・既存事案との対応について掲載を確定する根拠が揃わず、保留を継続。 前回調査メモ：4月遡及調査で発見。reported_onは発見日であり公表日ではない。4月の記事から発見した候補。組織による公表日、一次資料、既存事案との重複の照合が未完了。記事配信日や発生日だけで掲載日を決めない。",
+    "reviewed_on": "2026-10-27",
     "checked_urls": [
       "https://www.security-next.com/183155"
     ]
@@ -1973,8 +1799,8 @@
     "reported_on": "2026-10-26",
     "verification": "pending",
     "reference_url": "https://www.security-next.com/183160",
-    "note": "4月遡及調査で発見。reported_onは発見日であり公表日ではない。4月の記事から発見した候補。組織による公表日、一次資料、既存事案との重複の照合が未完了。記事配信日や発生日だけで掲載日を決めない。",
-    "reviewed_on": "2026-10-26",
+    "note": "4～10月横断再調査：参照URLの応答を再取得。公表日・自然人の対象情報・既存事案との対応について掲載を確定する根拠が揃わず、保留を継続。 前回調査メモ：4月遡及調査で発見。reported_onは発見日であり公表日ではない。4月の記事から発見した候補。組織による公表日、一次資料、既存事案との重複の照合が未完了。記事配信日や発生日だけで掲載日を決めない。",
+    "reviewed_on": "2026-10-27",
     "checked_urls": [
       "https://www.security-next.com/183160"
     ]
@@ -1985,8 +1811,8 @@
     "reported_on": "2026-10-26",
     "verification": "pending",
     "reference_url": "https://www.security-next.com/183157",
-    "note": "4月遡及調査で発見。reported_onは発見日であり公表日ではない。4月の記事から発見した候補。組織による公表日、一次資料、既存事案との重複の照合が未完了。記事配信日や発生日だけで掲載日を決めない。",
-    "reviewed_on": "2026-10-26",
+    "note": "4～10月横断再調査：参照URLの応答を再取得。公表日・自然人の対象情報・既存事案との対応について掲載を確定する根拠が揃わず、保留を継続。 前回調査メモ：4月遡及調査で発見。reported_onは発見日であり公表日ではない。4月の記事から発見した候補。組織による公表日、一次資料、既存事案との重複の照合が未完了。記事配信日や発生日だけで掲載日を決めない。",
+    "reviewed_on": "2026-10-27",
     "checked_urls": [
       "https://www.security-next.com/183157"
     ]
@@ -1997,8 +1823,8 @@
     "reported_on": "2026-10-26",
     "verification": "pending",
     "reference_url": "https://www.security-next.com/183100",
-    "note": "4月遡及調査で発見。reported_onは発見日であり公表日ではない。4月の記事から発見した候補。組織による公表日、一次資料、既存事案との重複の照合が未完了。記事配信日や発生日だけで掲載日を決めない。",
-    "reviewed_on": "2026-10-26",
+    "note": "4～10月横断再調査：参照URLの応答を再取得。公表日・自然人の対象情報・既存事案との対応について掲載を確定する根拠が揃わず、保留を継続。 前回調査メモ：4月遡及調査で発見。reported_onは発見日であり公表日ではない。4月の記事から発見した候補。組織による公表日、一次資料、既存事案との重複の照合が未完了。記事配信日や発生日だけで掲載日を決めない。",
+    "reviewed_on": "2026-10-27",
     "checked_urls": [
       "https://www.security-next.com/183100"
     ]
@@ -2009,8 +1835,8 @@
     "reported_on": "2026-10-26",
     "verification": "pending",
     "reference_url": "https://www.security-next.com/182782",
-    "note": "4月遡及調査で発見。reported_onは発見日であり公表日ではない。4月の記事から発見した候補。組織による公表日、一次資料、既存事案との重複の照合が未完了。記事配信日や発生日だけで掲載日を決めない。",
-    "reviewed_on": "2026-10-26",
+    "note": "4～10月横断再調査：参照URLの応答を再取得。公表日・自然人の対象情報・既存事案との対応について掲載を確定する根拠が揃わず、保留を継続。 前回調査メモ：4月遡及調査で発見。reported_onは発見日であり公表日ではない。4月の記事から発見した候補。組織による公表日、一次資料、既存事案との重複の照合が未完了。記事配信日や発生日だけで掲載日を決めない。",
+    "reviewed_on": "2026-10-27",
     "checked_urls": [
       "https://www.security-next.com/182782"
     ]
@@ -2021,8 +1847,8 @@
     "reported_on": "2026-10-26",
     "verification": "pending",
     "reference_url": "https://www.security-next.com/183012",
-    "note": "4月遡及調査で発見。reported_onは発見日であり公表日ではない。4月の記事から発見した候補。組織による公表日、一次資料、既存事案との重複の照合が未完了。記事配信日や発生日だけで掲載日を決めない。",
-    "reviewed_on": "2026-10-26",
+    "note": "4～10月横断再調査：参照URLの応答を再取得。公表日・自然人の対象情報・既存事案との対応について掲載を確定する根拠が揃わず、保留を継続。 前回調査メモ：4月遡及調査で発見。reported_onは発見日であり公表日ではない。4月の記事から発見した候補。組織による公表日、一次資料、既存事案との重複の照合が未完了。記事配信日や発生日だけで掲載日を決めない。",
+    "reviewed_on": "2026-10-27",
     "checked_urls": [
       "https://www.security-next.com/183012"
     ]
@@ -2033,8 +1859,8 @@
     "reported_on": "2026-10-26",
     "verification": "pending",
     "reference_url": "https://www.security-next.com/182897",
-    "note": "4月遡及調査で発見。reported_onは発見日であり公表日ではない。4月の記事から発見した候補。組織による公表日、一次資料、既存事案との重複の照合が未完了。記事配信日や発生日だけで掲載日を決めない。",
-    "reviewed_on": "2026-10-26",
+    "note": "4～10月横断再調査：参照URLの応答を再取得。公表日・自然人の対象情報・既存事案との対応について掲載を確定する根拠が揃わず、保留を継続。 前回調査メモ：4月遡及調査で発見。reported_onは発見日であり公表日ではない。4月の記事から発見した候補。組織による公表日、一次資料、既存事案との重複の照合が未完了。記事配信日や発生日だけで掲載日を決めない。",
+    "reviewed_on": "2026-10-27",
     "checked_urls": [
       "https://www.security-next.com/182897"
     ]
@@ -2045,8 +1871,8 @@
     "reported_on": "2026-10-26",
     "verification": "pending",
     "reference_url": "https://www.security-next.com/182907",
-    "note": "4月遡及調査で発見。reported_onは発見日であり公表日ではない。4月の記事から発見した候補。組織による公表日、一次資料、既存事案との重複の照合が未完了。記事配信日や発生日だけで掲載日を決めない。",
-    "reviewed_on": "2026-10-26",
+    "note": "4～10月横断再調査：参照URLの応答を再取得。公表日・自然人の対象情報・既存事案との対応について掲載を確定する根拠が揃わず、保留を継続。 前回調査メモ：4月遡及調査で発見。reported_onは発見日であり公表日ではない。4月の記事から発見した候補。組織による公表日、一次資料、既存事案との重複の照合が未完了。記事配信日や発生日だけで掲載日を決めない。",
+    "reviewed_on": "2026-10-27",
     "checked_urls": [
       "https://www.security-next.com/182907"
     ]
@@ -2057,8 +1883,8 @@
     "reported_on": "2026-10-26",
     "verification": "pending",
     "reference_url": "https://www.security-next.com/182969",
-    "note": "4月遡及調査で発見。reported_onは発見日であり公表日ではない。4月の記事から発見した候補。組織による公表日、一次資料、既存事案との重複の照合が未完了。記事配信日や発生日だけで掲載日を決めない。",
-    "reviewed_on": "2026-10-26",
+    "note": "4～10月横断再調査：参照URLの応答を再取得。公表日・自然人の対象情報・既存事案との対応について掲載を確定する根拠が揃わず、保留を継続。 前回調査メモ：4月遡及調査で発見。reported_onは発見日であり公表日ではない。4月の記事から発見した候補。組織による公表日、一次資料、既存事案との重複の照合が未完了。記事配信日や発生日だけで掲載日を決めない。",
+    "reviewed_on": "2026-10-27",
     "checked_urls": [
       "https://www.security-next.com/182969"
     ]
@@ -2069,8 +1895,8 @@
     "reported_on": "2026-10-26",
     "verification": "pending",
     "reference_url": "https://www.security-next.com/182950",
-    "note": "4月遡及調査で発見。reported_onは発見日であり公表日ではない。4月の記事から発見した候補。組織による公表日、一次資料、既存事案との重複の照合が未完了。記事配信日や発生日だけで掲載日を決めない。",
-    "reviewed_on": "2026-10-26",
+    "note": "4～10月横断再調査：参照URLの応答を再取得。公表日・自然人の対象情報・既存事案との対応について掲載を確定する根拠が揃わず、保留を継続。 前回調査メモ：4月遡及調査で発見。reported_onは発見日であり公表日ではない。4月の記事から発見した候補。組織による公表日、一次資料、既存事案との重複の照合が未完了。記事配信日や発生日だけで掲載日を決めない。",
+    "reviewed_on": "2026-10-27",
     "checked_urls": [
       "https://www.security-next.com/182950"
     ]
@@ -2081,8 +1907,8 @@
     "reported_on": "2026-10-26",
     "verification": "pending",
     "reference_url": "https://www.security-next.com/182892",
-    "note": "4月遡及調査で発見。reported_onは発見日であり公表日ではない。4月の記事から発見した候補。組織による公表日、一次資料、既存事案との重複の照合が未完了。記事配信日や発生日だけで掲載日を決めない。",
-    "reviewed_on": "2026-10-26",
+    "note": "4～10月横断再調査：参照URLの応答を再取得。公表日・自然人の対象情報・既存事案との対応について掲載を確定する根拠が揃わず、保留を継続。 前回調査メモ：4月遡及調査で発見。reported_onは発見日であり公表日ではない。4月の記事から発見した候補。組織による公表日、一次資料、既存事案との重複の照合が未完了。記事配信日や発生日だけで掲載日を決めない。",
+    "reviewed_on": "2026-10-27",
     "checked_urls": [
       "https://www.security-next.com/182892"
     ]
@@ -2093,8 +1919,8 @@
     "reported_on": "2026-10-26",
     "verification": "pending",
     "reference_url": "https://www.security-next.com/182955",
-    "note": "4月遡及調査で発見。reported_onは発見日であり公表日ではない。調査関連USB紛失の報道。個人情報の具体的な対象と組織の公表日が未確認。バイト数を人数として扱わない。",
-    "reviewed_on": "2026-10-26",
+    "note": "4～10月横断再調査：参照URLの応答を再取得。公表日・自然人の対象情報・既存事案との対応について掲載を確定する根拠が揃わず、保留を継続。 前回調査メモ：4月遡及調査で発見。reported_onは発見日であり公表日ではない。調査関連USB紛失の報道。個人情報の具体的な対象と組織の公表日が未確認。バイト数を人数として扱わない。",
+    "reviewed_on": "2026-10-27",
     "checked_urls": [
       "https://www.security-next.com/182955"
     ]
@@ -2105,8 +1931,8 @@
     "reported_on": "2026-10-26",
     "verification": "pending",
     "reference_url": "https://www.security-next.com/182845",
-    "note": "4月遡及調査で発見。reported_onは発見日であり公表日ではない。4月の記事から発見した候補。組織による公表日、一次資料、既存事案との重複の照合が未完了。記事配信日や発生日だけで掲載日を決めない。",
-    "reviewed_on": "2026-10-26",
+    "note": "4～10月横断再調査：参照URLの応答を再取得。公表日・自然人の対象情報・既存事案との対応について掲載を確定する根拠が揃わず、保留を継続。 前回調査メモ：4月遡及調査で発見。reported_onは発見日であり公表日ではない。4月の記事から発見した候補。組織による公表日、一次資料、既存事案との重複の照合が未完了。記事配信日や発生日だけで掲載日を決めない。",
+    "reviewed_on": "2026-10-27",
     "checked_urls": [
       "https://www.security-next.com/182845"
     ]
@@ -2117,8 +1943,8 @@
     "reported_on": "2026-10-26",
     "verification": "pending",
     "reference_url": "https://www.security-next.com/182773",
-    "note": "4月遡及調査で発見。reported_onは発見日であり公表日ではない。4月の記事から発見した候補。組織による公表日、一次資料、既存事案との重複の照合が未完了。記事配信日や発生日だけで掲載日を決めない。",
-    "reviewed_on": "2026-10-26",
+    "note": "4～10月横断再調査：参照URLの応答を再取得。公表日・自然人の対象情報・既存事案との対応について掲載を確定する根拠が揃わず、保留を継続。 前回調査メモ：4月遡及調査で発見。reported_onは発見日であり公表日ではない。4月の記事から発見した候補。組織による公表日、一次資料、既存事案との重複の照合が未完了。記事配信日や発生日だけで掲載日を決めない。",
+    "reviewed_on": "2026-10-27",
     "checked_urls": [
       "https://www.security-next.com/182773"
     ]

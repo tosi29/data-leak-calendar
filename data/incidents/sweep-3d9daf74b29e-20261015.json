@@ -1,0 +1,63 @@
+{
+  "id": "sweep-3d9daf74b29e-20261015",
+  "organization": {
+    "name": "エムスリー",
+    "sector": "企業・団体"
+  },
+  "title": "MR君への不正アクセスで会員・製薬企業担当者の情報が漏えい",
+  "summary": "MR君への不正アクセスによりm3.com会員等25,775名と製薬企業担当者2,260名の情報の漏えいを確認。",
+  "published_on": "2026-10-15",
+  "first_published_on": "2026-10-15",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-10-14",
+  "updated_on": "2026-10-27",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "製薬企業向けサービス「MR君」への第三者の不正アクセス。具体的な侵入経路は未公表。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": 28035,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表された対象規模。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "勤務先",
+    "一部のメールアドレス",
+    "サービス利用情報",
+    "製薬企業との担当関係等"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://corporate.m3.com/assets.ctfassets.net/1pwj74siywcy/4YBQ3JACTocGVgQmIVkSHe/c7865f094fe436292d7c81e1116a9c7f/20261015_Public_J.pdf",
+      "type": "official",
+      "title": "不正アクセスによる個人情報漏えいに関するお詫びとお知らせ",
+      "published_on": "2026-10-15",
+      "checked_on": "2026-10-27"
+    },
+    {
+      "url": "https://corporate.m3.com/assets.ctfassets.net/1pwj74siywcy/TYwLIgktADUIxwA5M6XFE/3bcb64e5e6857ebaf8e5a5a4efd8f25f/20261023_Public_J.pdf",
+      "type": "official",
+      "title": "不正アクセスによる個人情報漏えいに関するお詫びとお知らせ（第2報）",
+      "published_on": "2026-10-23",
+      "checked_on": "2026-10-27"
+    }
+  ],
+  "updates": [
+    {
+      "date": "2026-10-23",
+      "summary": "会員等25,775名と製薬企業担当者2,260名の漏えいを確認し、影響範囲を公表。",
+      "source_index": 1
+    }
+  ],
+  "notes": "内訳は会員等25,775名、製薬企業担当者2,260名。メールアドレスを含む人数はそれぞれ6名、264名。"
+}

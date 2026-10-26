@@ -1,0 +1,49 @@
+{
+  "id": "sweep-42cb336bdd70-20260827",
+  "organization": {
+    "name": "繋",
+    "sector": "企業・団体"
+  },
+  "title": "問い合わせフォーム157件の個人情報が漏えいした可能性",
+  "summary": "不正作成された管理者アカウントやバックドアを確認。記録が限定されるためフォーム情報の漏えい可能性を否定できないと公表。",
+  "published_on": "2026-08-27",
+  "first_published_on": "2026-08-27",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-06-29",
+  "updated_on": "2026-10-27",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "管理者権限アカウントが不正作成され、バックドア等が設置されていた。最初の侵入経路は記録の制約で特定できない。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": 157,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "公表された対象規模。漏えいの可能性を含む。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "メールアドレス",
+    "住所",
+    "電話番号"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://tsng.co.jp/pdf/2026/20260827_01.pdf",
+      "type": "official",
+      "title": "問い合わせフォーム157件の個人情報が漏えいした可能性",
+      "published_on": "2026-08-27",
+      "checked_on": "2026-10-27"
+    }
+  ],
+  "updates": [],
+  "notes": "7つの対象期間に保持された投稿157件。一意人数ではない。外部持ち出しを直接示す証跡は未確認。"
+}

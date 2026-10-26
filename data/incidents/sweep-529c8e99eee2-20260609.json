@@ -1,0 +1,64 @@
+{
+  "id": "sweep-529c8e99eee2-20260609",
+  "organization": {
+    "name": "海城中学高等学校（トーコロ）",
+    "sector": "教育・研究"
+  },
+  "title": "写真販売サービスから生徒関係者の注文情報が漏えい",
+  "summary": "トーコロが委託するはいチーズ！フォトで、中学校430名・高校193名の情報漏えいを確認したと公表。",
+  "published_on": "2026-06-09",
+  "first_published_on": "2026-06-09",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-06-05",
+  "updated_on": "2026-10-27",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "委託先の写真販売システムへの不正アクセス。脆弱性修正済みと報告。具体的な侵入経路は未公表。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": 430,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "中学校分。高校分との重複は未公表。"
+    },
+    {
+      "count": 193,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "高校分。中学校分との重複は未公表。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "電話番号",
+    "学校名",
+    "注文写真の縮小サムネイルURL"
+  ],
+  "related_vendor": "千",
+  "sources": [
+    {
+      "url": "https://www.kaijo.ed.jp/wp-content/uploads/2026/06/b09bbd9f3141689d0b9c18c0c65e7808.pdf",
+      "type": "official",
+      "title": "写真販売サービスから生徒関係者の注文情報が漏えい",
+      "published_on": "2026-06-09",
+      "checked_on": "2026-10-27"
+    }
+  ],
+  "updates": [],
+  "notes": "学校段階別の人数は複数年度にまたがるため合計を重複除去済み人数としない。メールアドレス・パスワードは対象外。原本写真の流出は未確認。",
+  "vendors": [
+    {
+      "name": "千",
+      "role": "service",
+      "detail": "トーコロの写真販売業務の再委託先。「はいチーズ！フォト」の提供元。",
+      "source_index": 0
+    }
+  ]
+}

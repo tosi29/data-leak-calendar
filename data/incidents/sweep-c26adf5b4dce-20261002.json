@@ -1,0 +1,60 @@
+{
+  "id": "sweep-c26adf5b4dce-20261002",
+  "organization": {
+    "name": "ジャパンタイムズ・ニューズ・ツー・ユーホールディングス",
+    "sector": "企業・団体"
+  },
+  "title": "旧管理部門サーバーへの攻撃で人事・取引先情報が漏えいしたおそれ",
+  "summary": "ランサムウェア攻撃後、攻撃者が窃取を主張するデータの外部公開を確認し、旧ファイルサーバー内の人事等の情報への影響を調査中。",
+  "published_on": "2026-10-02",
+  "first_published_on": "2026-10-02",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-09-18",
+  "updated_on": "2026-10-27",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "グループの管理部門用ファイルサーバーへのランサムウェア攻撃。具体的な侵入経路は未公表。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "公表された対象規模。漏えいの可能性を含む。"
+    }
+  ],
+  "data_types": [
+    "人事関連情報",
+    "取引先情報（詳細項目未公表）"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.japantimes.co.jp/press/2026/10/02/noticeransomware-incident-jp/",
+      "type": "official",
+      "title": "グループ管理サーバーへの不正アクセスについて",
+      "published_on": "2026-10-02",
+      "checked_on": "2026-10-27"
+    },
+    {
+      "url": "https://www.japantimes.co.jp/press/2026/10/16/notice-ransomware-incident-second-report-jp/",
+      "type": "official",
+      "title": "不正アクセスと情報漏えいの可能性について（第2報）",
+      "published_on": "2026-10-16",
+      "checked_on": "2026-10-27"
+    }
+  ],
+  "updates": [
+    {
+      "date": "2026-10-16",
+      "summary": "10月15日に攻撃者によるデータ公開を確認し、2001年～2022年8月の人事・取引先情報への影響を調査。",
+      "source_index": 1
+    }
+  ],
+  "notes": "2022年8月以降のデータは当該サーバーに含まれない。電子版サービス・購読者データベース・決済システムは独立。"
+}

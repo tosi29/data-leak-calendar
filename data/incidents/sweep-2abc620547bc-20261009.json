@@ -1,0 +1,64 @@
+{
+  "id": "sweep-2abc620547bc-20261009",
+  "organization": {
+    "name": "Sansan（Sansan User Forum）",
+    "sector": "企業・団体"
+  },
+  "title": "会員1,325名の情報漏えいを確認し、別に8,687名にも可能性",
+  "summary": "コミュニティ会員のメールアドレス・表示名等の漏えいを確認。メールを除くプロフィールにも漏えいの可能性。",
+  "published_on": "2026-10-09",
+  "first_published_on": "2026-10-09",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-10-06",
+  "updated_on": "2026-10-27",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "外部コミュニティサービスへの第三者による不正アクセス。具体的な侵入経路は未公表。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": 1325,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表された対象規模。"
+    },
+    {
+      "count": 8687,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "プロフィール等の漏えいの可能性がある人数。1,325名との重複関係は未公表。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス（一部）",
+    "表示名",
+    "自己紹介",
+    "プロフィール画像",
+    "グループ所属"
+  ],
+  "related_vendor": "コミューン",
+  "sources": [
+    {
+      "url": "https://jp.corp-sansan.com/news/2026/1009.html",
+      "type": "official",
+      "title": "会員1,325名の情報漏えいを確認し、別に8,687名にも可能性",
+      "published_on": "2026-10-09",
+      "checked_on": "2026-10-27"
+    }
+  ],
+  "updates": [],
+  "notes": "確認済み1,325名と可能性8,687名は別枠の公表。両者の重複関係が明示されないため一意人数へ合算しない。",
+  "vendors": [
+    {
+      "name": "コミューン",
+      "role": "service",
+      "detail": "コミュニティプラットフォーム「Commune」の提供元。",
+      "source_index": 0
+    }
+  ]
+}

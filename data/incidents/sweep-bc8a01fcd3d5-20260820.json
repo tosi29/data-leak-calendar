@@ -1,0 +1,46 @@
+{
+  "id": "sweep-bc8a01fcd3d5-20260820",
+  "organization": {
+    "name": "熊本市（南区役所城南交流室）",
+    "sector": "自治体"
+  },
+  "title": "ホール使用許可書・領収書を同姓同名の別人へ誤交付",
+  "summary": "月次一括公表でホール使用許可書・領収書を同姓同名の別人へ誤交付を公表。",
+  "published_on": "2026-08-20",
+  "first_published_on": "2026-08-20",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-27",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "accident",
+  "cause": {
+    "category": "misdelivery",
+    "detail": "月次資料では確認不足や処理手順の不備などを原因として説明。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "公表された対象規模。"
+    }
+  ],
+  "data_types": [
+    "施設使用許可書・領収書の記載情報"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.city.kumamoto.jp/kiji00372576/3_72576_514902_up_sb1a4d28.pdf",
+      "type": "official",
+      "title": "ホール使用許可書・領収書を同姓同名の別人へ誤交付",
+      "published_on": "2026-08-20",
+      "checked_on": "2026-10-27"
+    }
+  ],
+  "updates": [],
+  "notes": "月次一括公表資料による。前月中に報告された事案を公表しており、発生・発覚の正確な日は未公表。"
+}

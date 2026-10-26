@@ -1,0 +1,48 @@
+{
+  "id": "sweep-bc5f8047cd17-20260730",
+  "organization": {
+    "name": "新札幌豊和会病院",
+    "sector": "医療・福祉"
+  },
+  "title": "廃棄委託したハードディスクが転売され患者情報が漏えい",
+  "summary": "破砕すべき旧電子カルテ端末のディスクが別の部品に組み込まれ、ネットオークションで販売されていた。",
+  "published_on": "2026-07-30",
+  "first_published_on": "2026-07-30",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-27",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "improper_handling",
+  "cause": {
+    "category": "improper_sharing",
+    "detail": "外部の廃棄事業者に委託したハードディスクが物理破砕されず、他のパソコン部品に組み込まれて転売された。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "公表された対象規模。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "生年月日",
+    "診療情報"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.houwa.or.jp/information/%e5%80%8b%e4%ba%ba%e6%83%85%e5%a0%b1%e6%bc%8f%e3%81%88%e3%81%84%e3%81%ab%e9%96%a2%e3%81%99%e3%82%8b%e3%81%8a%e8%a9%ab%e3%81%b3%e3%81%a8%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b/",
+      "type": "official",
+      "title": "廃棄委託したハードディスクが転売され患者情報が漏えい",
+      "published_on": "2026-07-30",
+      "checked_on": "2026-10-27"
+    }
+  ],
+  "updates": [],
+  "notes": "回収・調査で患者情報の漏えいを確認。廃棄委託事業者名、対象人数・漏えい発生日は未公表。旧端末の入替は2023年9月頃。"
+}

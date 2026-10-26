@@ -1,0 +1,46 @@
+{
+  "id": "sweep-05a14ebacf46-20261020",
+  "organization": {
+    "name": "熊本市（都市デザイン課・公共交通推進課）",
+    "sector": "自治体"
+  },
+  "title": "屋外広告物許可申請書が庁内で所在不明",
+  "summary": "月次一括公表で屋外広告物許可申請書が庁内で所在不明を公表。",
+  "published_on": "2026-10-20",
+  "first_published_on": "2026-10-20",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-27",
+  "verification": "official",
+  "leak_status": "lost",
+  "incident_type": "accident",
+  "cause": {
+    "category": "loss",
+    "detail": "月次資料では確認不足や処理手順の不備などを原因として説明。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 1,
+      "unit": "documents",
+      "qualifier": "exact",
+      "description": "公表された対象規模。"
+    }
+  ],
+  "data_types": [
+    "屋外広告物許可申請書記載の個人情報"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.city.kumamoto.jp/kiji00373427/3_73427_521577_up_esb6b2na.pdf",
+      "type": "official",
+      "title": "屋外広告物許可申請書が庁内で所在不明",
+      "published_on": "2026-10-20",
+      "checked_on": "2026-10-27"
+    }
+  ],
+  "updates": [],
+  "notes": "月次一括公表資料による。前月中に報告された事案を公表しており、発生・発覚の正確な日は未公表。"
+}

@@ -1,0 +1,59 @@
+{
+  "id": "sweep-6ceea3683288-20261023",
+  "organization": {
+    "name": "広島県（ひろしま県民だより）",
+    "sector": "自治体"
+  },
+  "title": "プレゼント申込情報1,470件が漏えいした可能性",
+  "summary": "サンケイリビング新聞社のサーバーへの不正アクセスで、県民だよりの7月号・10月号のプレゼント応募情報が影響を受けた可能性。",
+  "published_on": "2026-10-23",
+  "first_published_on": "2026-10-23",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-27",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "外部サービスへの第三者による不正アクセス。具体的な侵入経路は未公表。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": 1470,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "公表された対象規模。漏えいの可能性を含む。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "年齢",
+    "住所",
+    "電話番号",
+    "メールアドレス（一部）",
+    "アンケート回答"
+  ],
+  "related_vendor": "サンケイリビング新聞社",
+  "sources": [
+    {
+      "url": "https://www.pref.hiroshima.lg.jp/dayori/notice-20261023.html",
+      "type": "official",
+      "title": "プレゼント申込情報1,470件が漏えいした可能性",
+      "published_on": "2026-10-23",
+      "checked_on": "2026-10-27"
+    }
+  ],
+  "updates": [],
+  "notes": "723件と747件の申込データの合計。一意人数ではない。",
+  "vendors": [
+    {
+      "name": "サンケイリビング新聞社",
+      "role": "service",
+      "detail": "プレゼントフォーム運用に利用するサーバーの管理元。広島リビング新聞社が県の受託者。",
+      "source_index": 0
+    }
+  ]
+}

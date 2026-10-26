@@ -1,0 +1,50 @@
+{
+  "id": "sweep-c2342bd8e289-20261007",
+  "organization": {
+    "name": "エイチ・アイ・エス（タイ法人）",
+    "sector": "企業・団体"
+  },
+  "title": "タイ法人のファイルサーバーから旅券情報等が流出した可能性",
+  "summary": "2025年12月に検知した侵入を調査し、日本で取得した最大627名のパスポート・アレルギー情報等の流出可能性を公表。",
+  "published_on": "2026-10-07",
+  "first_published_on": "2026-10-07",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2025-12-11",
+  "updated_on": "2026-10-27",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "タイ現地法人ファイルサーバーへの第三者による不正アクセス。具体的な侵入経路は未公表。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": 627,
+      "unit": "people",
+      "qualifier": "maximum",
+      "description": "公表された対象規模。漏えいの可能性を含む。"
+    }
+  ],
+  "data_types": [
+    "氏名・署名欄の名前",
+    "性別",
+    "生年月日",
+    "旅券番号・有効期限",
+    "アレルギー情報"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.his.co.jp/assets/20261007.pdf",
+      "type": "official",
+      "title": "タイ法人のファイルサーバーから旅券情報等が流出した可能性",
+      "published_on": "2026-10-07",
+      "checked_on": "2026-10-27"
+    }
+  ],
+  "updates": [],
+  "notes": "関係機関への報告日や個別連絡日と公表日を区別し、公式サイトでの公表10月7日に掲載。電話番号・住所・メールアドレス・カード情報は含まれない。"
+}

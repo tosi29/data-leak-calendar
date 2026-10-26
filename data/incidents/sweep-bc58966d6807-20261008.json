@@ -1,0 +1,56 @@
+{
+  "id": "sweep-bc58966d6807-20261008",
+  "organization": {
+    "name": "青森県（青森びいき）",
+    "sector": "自治体"
+  },
+  "title": "公式コミュニティ会員最大2,950人の情報が漏えいした可能性",
+  "summary": "コミューンへの不正アクセスで、青森びいきのメールアドレスやプロフィール情報等に漏えいの可能性。",
+  "published_on": "2026-10-08",
+  "first_published_on": "2026-10-08",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-27",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "外部サービスへの第三者による不正アクセス。具体的な侵入経路は未公表。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": 2950,
+      "unit": "people",
+      "qualifier": "maximum",
+      "description": "公表された対象規模。漏えいの可能性を含む。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス",
+    "ニックネーム・アカウント名",
+    "プロフィール等"
+  ],
+  "related_vendor": "コミューン",
+  "sources": [
+    {
+      "url": "https://www.pref.aomori.lg.jp/release/files/2026/81562.pdf",
+      "type": "official",
+      "title": "公式コミュニティ会員最大2,950人の情報が漏えいした可能性",
+      "published_on": "2026-10-08",
+      "checked_on": "2026-10-27"
+    }
+  ],
+  "updates": [],
+  "notes": "全会員15,847人を影響人数へ置き換えない。別事業のStudio関連事案とは区別。",
+  "vendors": [
+    {
+      "name": "コミューン",
+      "role": "service",
+      "detail": "青森県公式ファンコミュニティの基盤提供元。",
+      "source_index": 0
+    }
+  ]
+}

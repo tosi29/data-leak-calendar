@@ -1,0 +1,50 @@
+{
+  "id": "sweep-bb19580017f6-20261005",
+  "organization": {
+    "name": "トラストバンク（ふるさとチョイス・Amazon Pay申込）",
+    "sector": "企業・団体"
+  },
+  "title": "申込復元処理の不具合で他の寄付者情報254件が閲覧可能",
+  "summary": "Amazon Payによる寄付手続きで利用者識別情報の確認が不十分なため、別の利用者の申込情報を表示する可能性があった。",
+  "published_on": "2026-10-05",
+  "first_published_on": "2026-10-05",
+  "publication_kind": "initial",
+  "occurred_on": "2025-11-13",
+  "detected_on": null,
+  "updated_on": "2026-10-27",
+  "verification": "official",
+  "leak_status": "exposed",
+  "incident_type": "accident",
+  "cause": {
+    "category": "configuration",
+    "detail": "認証後の申込情報復元処理で利用者を識別する情報が取得できない場合に処理を止めず、別人の情報を取得する可能性が生じた。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 254,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "公表された対象規模。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "電話番号",
+    "メールアドレス",
+    "返礼品配送先情報等"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.trustbank.co.jp/newsroom/news/news261005/",
+      "type": "official",
+      "title": "申込復元処理の不具合で他の寄付者情報254件が閲覧可能",
+      "published_on": "2026-10-05",
+      "checked_on": "2026-10-27"
+    }
+  ],
+  "updates": [],
+  "notes": "10月17日の不正アクセス事案とは別のシステム不具合。254件は閲覧可能だった申込データ数。Amazon Pay決済機能自体の不具合ではない。"
+}

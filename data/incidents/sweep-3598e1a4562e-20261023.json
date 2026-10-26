@@ -1,0 +1,61 @@
+{
+  "id": "sweep-3598e1a4562e-20261023",
+  "organization": {
+    "name": "トレジャー・ファクトリー",
+    "sector": "企業・団体"
+  },
+  "title": "出張買取・引越の案件管理システムから顧客情報等が不正取得",
+  "summary": "データベースへのアクセスに関する脆弱性が悪用され、顧客情報746,277件等が不正に取得された。",
+  "published_on": "2026-10-23",
+  "first_published_on": "2026-10-23",
+  "publication_kind": "initial",
+  "occurred_on": "2026-10-20",
+  "detected_on": "2026-10-20",
+  "updated_on": "2026-10-27",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "vulnerability",
+    "detail": "データベースへのアクセスに関する脆弱性の悪用とみて調査中。PHPの脆弱性とは無関係と確認。",
+    "certainty": "suspected"
+  },
+  "impact": [
+    {
+      "count": 746277,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "公表された対象規模。"
+    },
+    {
+      "count": 750,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "取引先業者・従業員等の氏名・メールアドレス。"
+    },
+    {
+      "count": 1000,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "取引先業者・従業員等の端末識別情報。重複を除く人数ではない。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス",
+    "氏名・住所（一部顧客）",
+    "取引先・従業員等の氏名・メールアドレス",
+    "氏名・端末識別情報"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.release.tdnet.info/inbs/140120261023555328.pdf",
+      "type": "official",
+      "title": "出張買取・引越の案件管理システムから顧客情報等が不正取得",
+      "published_on": "2026-10-23",
+      "checked_on": "2026-10-27"
+    }
+  ],
+  "updates": [],
+  "notes": "顧客情報746,277件のうち11件に氏名・住所を含む。取引先・従業員情報750件と端末情報1,000件は別集計。カインドオルの事案とは別の侵入経路・事案。"
+}

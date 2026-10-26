@@ -1,0 +1,58 @@
+{
+  "id": "sweep-7340c0fb3799-20261023",
+  "organization": {
+    "name": "グッドスマイルカンパニー",
+    "sector": "企業・団体"
+  },
+  "title": "公式ショップ会員情報への不正な閲覧を確認",
+  "summary": "公式ショップの脆弱性を通じた不正アクセスを確認。顧客の基本情報や注文情報等が閲覧された可能性がある。",
+  "published_on": "2026-10-23",
+  "first_published_on": "2026-10-23",
+  "publication_kind": "initial",
+  "occurred_on": "2026-10-19",
+  "detected_on": "2026-10-23",
+  "updated_on": "2026-10-27",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "vulnerability",
+    "detail": "公式ショップの脆弱性による不正アクセスと認識し調査中。10月26日の追記でPHPの脆弱性によるものではないと説明。",
+    "certainty": "suspected"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "公表された対象規模。漏えいの可能性を含む。"
+    }
+  ],
+  "data_types": [
+    "氏名・読み仮名",
+    "性別",
+    "住所",
+    "電話番号",
+    "メールアドレス",
+    "注文・配送先情報",
+    "カードブランド・番号下4桁・有効期限"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://support.goodsmile.com/hc/ja/articles/63547468806297",
+      "type": "official",
+      "title": "公式ショップ会員情報への不正な閲覧を確認",
+      "published_on": "2026-10-23",
+      "checked_on": "2026-10-27"
+    }
+  ],
+  "updates": [
+    {
+      "date": "2026-10-26",
+      "summary": "認知日時と決済情報の範囲を追記し、PHPの脆弱性が原因ではないと説明。",
+      "source_index": 0
+    }
+  ],
+  "notes": "不正閲覧は10月22日まで。個人情報の対象範囲・人数は調査中。カード番号全桁・名義・セキュリティコードは対象外。"
+}

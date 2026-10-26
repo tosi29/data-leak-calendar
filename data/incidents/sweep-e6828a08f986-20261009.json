@@ -1,0 +1,46 @@
+{
+  "id": "sweep-e6828a08f986-20261009",
+  "organization": {
+    "name": "南海放送",
+    "sector": "企業・団体"
+  },
+  "title": "健康フェスタ当選者58人のメールアドレスをCCで誤送信",
+  "summary": "当選通知メールの送信時にBccにすべきアドレスをCC欄へ入力し、受信者間で表示された。",
+  "published_on": "2026-10-09",
+  "first_published_on": "2026-10-09",
+  "publication_kind": "initial",
+  "occurred_on": "2026-10-09",
+  "detected_on": "2026-10-09",
+  "updated_on": "2026-10-27",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "accident",
+  "cause": {
+    "category": "misdelivery",
+    "detail": "送信先・交付先または対象書類の確認が不十分だった。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 58,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表された対象規模。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.rnb.co.jp/press/node/2803.php",
+      "type": "official",
+      "title": "健康フェスタ当選者58人のメールアドレスをCCで誤送信",
+      "published_on": "2026-10-09",
+      "checked_on": "2026-10-27"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

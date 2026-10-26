@@ -1,0 +1,58 @@
+{
+  "id": "sweep-b0ddf066abea-20261022",
+  "organization": {
+    "name": "SmartHRグループ",
+    "sector": "企業・団体"
+  },
+  "title": "グループの問い合わせフォーム利用者2,012名の情報が流出した可能性",
+  "summary": "Studioを利用した5社のウェブサイトのフォーム情報に流出可能性があると公表。",
+  "published_on": "2026-10-22",
+  "first_published_on": "2026-10-22",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-27",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "vulnerability",
+    "detail": "Studioの一部機能の脆弱性を悪用した第三者の不正アクセス。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 2012,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表された対象規模。漏えいの可能性を含む。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "会社名",
+    "電話番号",
+    "メールアドレス",
+    "問い合わせ内容等"
+  ],
+  "related_vendor": "Studio",
+  "sources": [
+    {
+      "url": "https://smarthr.co.jp/news/info/20261022/",
+      "type": "official",
+      "title": "グループの問い合わせフォーム利用者2,012名の情報が流出した可能性",
+      "published_on": "2026-10-22",
+      "checked_on": "2026-10-27"
+    }
+  ],
+  "updates": [],
+  "notes": "各社サービス本体に保存されたデータは含まれない。グループ共同公表の合計人数を採用。",
+  "vendors": [
+    {
+      "name": "Studio",
+      "role": "service",
+      "detail": "SmartHR、Smart相談室、AIRVISA、BYARD、Looperの一部サイト制作・運用サービス。",
+      "source_index": 0
+    }
+  ]
+}

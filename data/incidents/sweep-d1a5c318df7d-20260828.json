@@ -1,0 +1,48 @@
+{
+  "id": "sweep-d1a5c318df7d-20260828",
+  "organization": {
+    "name": "埼玉県（川越高等技術専門校）",
+    "sector": "自治体"
+  },
+  "title": "講習申込者1名のアドレス・申請パスワードを別人へ誤送信",
+  "summary": "過去の確認メールの文面を流用し、以前の申込者の情報を削除しないまま送信した。",
+  "published_on": "2026-08-28",
+  "first_published_on": "2026-08-28",
+  "publication_kind": "initial",
+  "occurred_on": "2026-08-27",
+  "detected_on": "2026-08-27",
+  "updated_on": "2026-10-27",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "accident",
+  "cause": {
+    "category": "misdelivery",
+    "detail": "過去のメールを流用した際に前の申込者の個人情報を削除しなかった。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 1,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表された対象規模。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス",
+    "電子申請整理番号",
+    "電子申請パスワード"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.pref.saitama.lg.jp/b0806/news/news2026082801.html",
+      "type": "official",
+      "title": "講習申込者1名のアドレス・申請パスワードを別人へ誤送信",
+      "published_on": "2026-08-28",
+      "checked_on": "2026-10-27"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

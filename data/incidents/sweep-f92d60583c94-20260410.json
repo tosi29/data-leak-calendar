@@ -1,0 +1,52 @@
+{
+  "id": "sweep-f92d60583c94-20260410",
+  "organization": {
+    "name": "Custodiem（旧FTX Japan）",
+    "sector": "企業・団体"
+  },
+  "title": "クラウド設定不備による顧客情報漏えいの可能性を追加公表",
+  "summary": "顧客約24万5千人の帳票・顧客ID・連絡先・取引履歴等への影響が当初説明より広範だったと公表。",
+  "published_on": "2026-04-10",
+  "first_published_on": "2025-08-22",
+  "publication_kind": "followup",
+  "occurred_on": "2024-10-17",
+  "detected_on": null,
+  "updated_on": "2026-10-27",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "accident",
+  "cause": {
+    "category": "configuration",
+    "detail": "顧客データ移転等の作業に伴う、海外委託先によるクラウド環境の設定誤り。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 245000,
+      "unit": "people",
+      "qualifier": "approximate",
+      "description": "公表された対象規模。漏えいの可能性を含む。"
+    }
+  ],
+  "data_types": [
+    "顧客ID",
+    "メールアドレス",
+    "氏名",
+    "住所",
+    "口座番号",
+    "取引・残高・入出金履歴",
+    "マイナンバー（一部）"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://support.custodiem.com/hc/ja/articles/44983623821581--%E7%B6%9A%E5%A0%B1-%E3%82%AF%E3%83%A9%E3%82%A6%E3%83%89%E7%92%B0%E5%A2%83%E3%81%AE%E8%AA%A4%E8%A8%AD%E5%AE%9A%E3%81%AB%E3%82%88%E3%82%8B%E3%81%8A%E5%AE%A2%E6%A7%98%E6%83%85%E5%A0%B1%E6%BC%8F%E3%81%88%E3%81%84%E5%8F%AF%E8%83%BD%E6%80%A7%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E3%81%8A%E8%A9%AB%E3%81%B3%E3%81%A8%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B",
+      "type": "official",
+      "title": "クラウド設定不備による顧客情報漏えいの可能性を追加公表",
+      "published_on": "2026-04-10",
+      "checked_on": "2026-10-27"
+    }
+  ],
+  "updates": [],
+  "notes": "アクセス制限が不適切だった期間は2024年10月17日〜2025年8月6日。マイナンバーの対象1,262人は内数。カード番号・パスワードは非保持。設定は修正済み。"
+}

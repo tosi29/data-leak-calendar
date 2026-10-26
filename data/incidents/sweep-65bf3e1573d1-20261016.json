@@ -1,0 +1,61 @@
+{
+  "id": "sweep-65bf3e1573d1-20261016",
+  "organization": {
+    "name": "マンション管理センター・日建学院",
+    "sector": "企業・団体"
+  },
+  "title": "事前確認講習システムの受講者3,597名の情報が流出した可能性",
+  "summary": "日建学院が運営する講習システムへの不正アクセスで、受講者情報の流出可能性を共同公表。",
+  "published_on": "2026-10-16",
+  "first_published_on": "2026-10-16",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-27",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "事前確認講習システムに対する第三者の不正アクセス。侵入経路の詳細は未公表。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": 3597,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表された対象規模。漏えいの可能性を含む。"
+    }
+  ],
+  "data_types": [
+    "登録番号",
+    "氏名・ふりがな",
+    "生年月日",
+    "住所",
+    "電話番号",
+    "メールアドレス",
+    "ログインID",
+    "受講・合否・入金確認情報"
+  ],
+  "related_vendor": "日建学院",
+  "sources": [
+    {
+      "url": "https://nik-g.com/news/261016_news.aspx",
+      "type": "official",
+      "title": "事前確認講習システムの受講者3,597名の情報が流出した可能性",
+      "published_on": "2026-10-16",
+      "checked_on": "2026-10-27"
+    }
+  ],
+  "updates": [],
+  "notes": "",
+  "vendors": [
+    {
+      "name": "日建学院",
+      "role": "service",
+      "detail": "マンション管理センターの事前確認講習システムの運営。",
+      "source_index": 0
+    }
+  ]
+}

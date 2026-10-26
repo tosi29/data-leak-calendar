@@ -1,0 +1,58 @@
+{
+  "id": "sweep-8eccbc285063-20261023",
+  "organization": {
+    "name": "ホビージャパン",
+    "sector": "企業・団体"
+  },
+  "title": "ホビージャパンウェブのメールマガジン情報が漏えいした可能性",
+  "summary": "ブラストメールで管理する会員の氏名・メールアドレス等の漏えい可能性を公表。",
+  "published_on": "2026-10-23",
+  "first_published_on": "2026-10-23",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-27",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "外部メール配信サービス「ブラストメール」への第三者による不正アクセス。具体的な侵入経路は未公表。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "公表された対象規模。漏えいの可能性を含む。"
+    }
+  ],
+  "data_types": [
+    "氏名またはハンドルネーム",
+    "メールアドレス",
+    "生年月日",
+    "性別",
+    "都道府県"
+  ],
+  "related_vendor": "ラクスライトクラウド",
+  "sources": [
+    {
+      "url": "https://hjweb.jp/news/2867395/",
+      "type": "official",
+      "title": "ホビージャパンウェブのメールマガジン情報が漏えいした可能性",
+      "published_on": "2026-10-23",
+      "checked_on": "2026-10-27"
+    }
+  ],
+  "updates": [],
+  "notes": "",
+  "vendors": [
+    {
+      "name": "ラクスライトクラウド",
+      "role": "service",
+      "detail": "メール配信サービス「ブラストメール」の提供元。",
+      "source_index": 0
+    }
+  ]
+}

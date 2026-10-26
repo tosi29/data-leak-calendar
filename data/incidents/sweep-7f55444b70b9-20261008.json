@@ -1,0 +1,56 @@
+{
+  "id": "sweep-7f55444b70b9-20261008",
+  "organization": {
+    "name": "オープンスマイル（ワラウ）",
+    "sector": "企業・団体"
+  },
+  "title": "認証連携トークンの流出と会員情報の取得可能性を公表",
+  "summary": "不正アクセスでYahoo! JAPAN ID連携トークンが取得され、続報で氏名・ログイン情報・口座情報等も取得された可能性があると初報を訂正した。",
+  "published_on": "2026-10-08",
+  "first_published_on": "2026-10-08",
+  "publication_kind": "initial",
+  "occurred_on": "2026-10-04",
+  "detected_on": "2026-10-04",
+  "updated_on": "2026-10-27",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "vulnerability",
+    "detail": "サイトの一部の入力欄の脆弱性を悪用した不正アクセス。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "公表された対象規模。漏えいの可能性を含む。"
+    }
+  ],
+  "data_types": [
+    "Yahoo! JAPAN ID連携トークン（取得確認）",
+    "氏名・生年月日・性別・メールアドレス",
+    "ハッシュ化パスワード・秘密の質問と答え",
+    "ログイン・ポイント履歴",
+    "振込先口座情報（一部）"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.opensmile.co.jp/corp/news/note/20261015",
+      "type": "official",
+      "title": "認証連携トークンの流出と会員情報の取得可能性を公表",
+      "published_on": "2026-10-08",
+      "checked_on": "2026-10-27"
+    }
+  ],
+  "updates": [
+    {
+      "date": "2026-10-15",
+      "summary": "トークン以外の会員情報にも取得可能性があると訂正。一部トークンは攻撃時点で有効だった。",
+      "source_index": 0
+    }
+  ],
+  "notes": "トークンの取得は確認済み、追加会員情報は取得可能性として公表。全体の対象人数は未公表。10月5日以降の追加侵入による取得痕跡は未確認。"
+}

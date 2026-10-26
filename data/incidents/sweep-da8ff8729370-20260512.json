@@ -1,0 +1,46 @@
+{
+  "id": "sweep-da8ff8729370-20260512",
+  "organization": {
+    "name": "愛知県（NPO法人役員等）",
+    "sector": "自治体"
+  },
+  "title": "黒塗り不備でNPO法人役員等79人の住所が閲覧可能",
+  "summary": "所轄庁変更を受けた7法人の事業報告書等で、電子的な黒塗りを解除して住所を読める状態だった。",
+  "published_on": "2026-05-12",
+  "first_published_on": "2026-05-12",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-05-08",
+  "updated_on": "2026-10-27",
+  "verification": "official",
+  "leak_status": "exposed",
+  "incident_type": "accident",
+  "cause": {
+    "category": "redaction_error",
+    "detail": "所轄庁変更前の名古屋市が登録した電子的な黒塗り済みデータを、そのまま掲載していた。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 79,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表された対象規模。"
+    }
+  ],
+  "data_types": [
+    "住所"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.pref.aichi.jp/press-release/20260512syakaikatsudo.html",
+      "type": "official",
+      "title": "黒塗り不備でNPO法人役員等79人の住所が閲覧可能",
+      "published_on": "2026-05-12",
+      "checked_on": "2026-10-27"
+    }
+  ],
+  "updates": [],
+  "notes": "7法人は対象法人の数であり、対象者79人とは別の単位。二次被害は未確認。"
+}

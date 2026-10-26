@@ -1,0 +1,56 @@
+{
+  "id": "sweep-74763916247b-20260713",
+  "organization": {
+    "name": "リンドスポーツ",
+    "sector": "企業・団体"
+  },
+  "title": "過去のFAX送信委託先に保管された担当者情報3,075件が流出した可能性",
+  "summary": "2014年に日本テレネットへ提供した顧客担当者情報が、攻撃対象のシステム領域に残されていた。",
+  "published_on": "2026-07-13",
+  "first_published_on": "2026-07-13",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-06-19",
+  "updated_on": "2026-10-27",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "以前のFAX送信業務委託先へのサイバー攻撃。具体的な侵入経路は未公表。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": 3075,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "公表された対象規模。漏えいの可能性を含む。"
+    }
+  ],
+  "data_types": [
+    "顧客名",
+    "担当者氏名",
+    "FAX番号"
+  ],
+  "related_vendor": "日本テレネット",
+  "sources": [
+    {
+      "url": "https://www.lindsp.com/f/info12",
+      "type": "official",
+      "title": "過去のFAX送信委託先に保管された担当者情報3,075件が流出した可能性",
+      "published_on": "2026-07-13",
+      "checked_on": "2026-10-27"
+    }
+  ],
+  "updates": [],
+  "notes": "2014年6月時点の取引先情報が対象。同年11月に取引を終了。持ち出し・公開・不正利用の事実は未確認。",
+  "vendors": [
+    {
+      "name": "日本テレネット",
+      "role": "service",
+      "detail": "2014年当時のFAX送信業務委託先。",
+      "source_index": 0
+    }
+  ]
+}

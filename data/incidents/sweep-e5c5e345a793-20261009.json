@@ -1,0 +1,58 @@
+{
+  "id": "sweep-e5c5e345a793-20261009",
+  "organization": {
+    "name": "ヤマハ（ネットワークエンジニア会）",
+    "sector": "企業・団体"
+  },
+  "title": "ネットワークエンジニア会の約1,600名分の会員情報が漏えい",
+  "summary": "委託先コミューンへの不正アクセスにより、メールアドレス・表示名・プロフィール等が漏えいした。",
+  "published_on": "2026-10-09",
+  "first_published_on": "2026-10-09",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-10-06",
+  "updated_on": "2026-10-27",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。具体的な侵入経路は未公表。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": 1600,
+      "unit": "people",
+      "qualifier": "approximate",
+      "description": "公表された対象規模。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス",
+    "表示名・アカウント名",
+    "自己紹介",
+    "アイコン",
+    "所属グループ"
+  ],
+  "related_vendor": "コミューン",
+  "sources": [
+    {
+      "url": "https://www.yamaha.com/ja/news_release/files/news/26100901/pdf/2610090101.pdf",
+      "type": "official",
+      "title": "ネットワークエンジニア会の約1,600名分の会員情報が漏えい",
+      "published_on": "2026-10-09",
+      "checked_on": "2026-10-27"
+    }
+  ],
+  "updates": [],
+  "notes": "ヤマハ発動機のPAS Lifeとは異なる組織・コミュニティ。同じ概数でも統合しない。",
+  "vendors": [
+    {
+      "name": "コミューン",
+      "role": "service",
+      "detail": "ヤマハネットワークエンジニア会のシステム提供元。",
+      "source_index": 0
+    }
+  ]
+}

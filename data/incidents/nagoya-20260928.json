@@ -8,10 +8,10 @@
   "published_on": "2026-09-29",
   "occurred_on": "2026-09-28",
   "detected_on": null,
-  "updated_on": "2026-10-15",
+  "updated_on": "2026-10-27",
   "first_published_on": null,
   "publication_kind": "unknown",
-  "verification": "secondary",
+  "verification": "official",
   "leak_status": "exposed",
   "summary": "調査案内に担当者情報入りファイルを誤掲載し、572事業者分の情報が約1時間閲覧可能になった。",
   "impact": [
@@ -39,19 +39,36 @@
       "type": "news",
       "title": "名古屋市HPで個人情報を誤掲載 572事業者の氏名や電話番号 約1時間閲覧可能に（2026年9月29日掲載）｜日テレNEWS NNN",
       "published_on": "2026-09-29",
-      "checked_on": "2026-10-15"
+      "checked_on": "2026-10-27"
+    },
+    {
+      "url": "https://www.city.nagoya.jp/houdou/3003942/3003948/3005885.html",
+      "type": "official",
+      "title": "環境局大気環境対策課における個人情報の漏えいについて",
+      "published_on": "2026-09-29",
+      "checked_on": "2026-10-27"
     }
   ],
   "notes": "担当者の個人情報を含むため対象。候補の9月28日は発生日で、確認できた報道日は9月29日。",
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-09-29",
+      "summary": "公式の報道発表本文を追加し、担当者情報の対象と公表日を確認。",
+      "source_index": 1
+    }
+  ],
   "incident_type": "accident",
   "vendor_research": {
-    "checked_on": "2026-10-15",
+    "checked_on": "2026-10-27",
     "result": "not_identified",
     "note": "掲載出典と追加検索で、当該事案に関係する外部の開発・運用・サービス・基盤会社の社名と役割を特定できませんでした。",
     "source_checks": [
       {
         "source_index": 0,
+        "status": "reviewed"
+      },
+      {
+        "source_index": 1,
         "status": "reviewed"
       }
     ]

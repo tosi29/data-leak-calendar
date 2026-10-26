@@ -1,0 +1,46 @@
+{
+  "id": "sweep-51326b2d99be-20260420",
+  "organization": {
+    "name": "熊本市（帯山中学校）",
+    "sector": "自治体"
+  },
+  "title": "成長曲線・肥満度曲線プリントの誤配付",
+  "summary": "月次一括公表で成長曲線・肥満度曲線プリントの誤配付を公表。",
+  "published_on": "2026-04-20",
+  "first_published_on": "2026-04-20",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-27",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "accident",
+  "cause": {
+    "category": "misdelivery",
+    "detail": "月次資料では確認不足や処理手順の不備などを原因として説明。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 1,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表された対象規模。"
+    }
+  ],
+  "data_types": [
+    "身長・体重・肥満度"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.city.kumamoto.jp/kiji00370485/3_70485_499813_up_2qqsznjh.pdf",
+      "type": "official",
+      "title": "成長曲線・肥満度曲線プリントの誤配付",
+      "published_on": "2026-04-20",
+      "checked_on": "2026-10-27"
+    }
+  ],
+  "updates": [],
+  "notes": "月次一括公表資料による。前月中に報告された事案を公表しており、発生・発覚の正確な日は未公表。"
+}

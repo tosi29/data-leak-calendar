@@ -1,0 +1,54 @@
+{
+  "id": "sweep-5c54fca8a0eb-20261023",
+  "organization": {
+    "name": "野村證券（i-Port）",
+    "sector": "企業・団体"
+  },
+  "title": "加入者向けメール配信委託先でメールアドレス等が漏えいした可能性",
+  "summary": "ユミルリンクへの不正アクセスに伴い、i-Portの加入者向け配信業務で保存した連絡先情報の漏えい可能性を公表。",
+  "published_on": "2026-10-23",
+  "first_published_on": "2026-10-23",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-10-22",
+  "updated_on": "2026-10-27",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。具体的な侵入経路は未公表。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "公表された対象規模。漏えいの可能性を含む。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス等の配信関連情報"
+  ],
+  "related_vendor": "ユミルリンク",
+  "sources": [
+    {
+      "url": "https://www.nomuraholdings.com/jp/news/topics/20261023.html",
+      "type": "official",
+      "title": "加入者向けメール配信委託先でメールアドレス等が漏えいした可能性",
+      "published_on": "2026-10-23",
+      "checked_on": "2026-10-27"
+    }
+  ],
+  "updates": [],
+  "notes": "ポートフォリオ情報や証券取引口座情報は対象外。",
+  "vendors": [
+    {
+      "name": "ユミルリンク",
+      "role": "service",
+      "detail": "i-Port加入者向けのメール配信業務委託先。",
+      "source_index": 0
+    }
+  ]
+}

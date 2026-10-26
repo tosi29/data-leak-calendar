@@ -1,0 +1,58 @@
+{
+  "id": "sweep-af9b4aa5dca5-20261023",
+  "organization": {
+    "name": "志摩市（Shima Blue Creator）",
+    "sector": "自治体"
+  },
+  "title": "問い合わせフォーム送信情報3件が漏えいした可能性",
+  "summary": "Studioへの不正アクセスで、サイトのフォーム送信内容が外部から取得可能な状態にあった。",
+  "published_on": "2026-10-23",
+  "first_published_on": "2026-10-23",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-27",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "vulnerability",
+    "detail": "Studioの一部機能の脆弱性を悪用した不正アクセス。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 3,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "公表された対象規模。漏えいの可能性を含む。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "所属",
+    "電話番号",
+    "メールアドレス",
+    "問い合わせ内容"
+  ],
+  "related_vendor": "Studio",
+  "sources": [
+    {
+      "url": "https://www.city.shima.mie.jp/kakuka/sangyoshinkobu/shoko/kigyouyuuchi/9840.html",
+      "type": "official",
+      "title": "問い合わせフォーム送信情報3件が漏えいした可能性",
+      "published_on": "2026-10-23",
+      "checked_on": "2026-10-27"
+    }
+  ],
+  "updates": [],
+  "notes": "",
+  "vendors": [
+    {
+      "name": "Studio",
+      "role": "service",
+      "detail": "ウェブサイト制作・運用プラットフォームの提供元。",
+      "source_index": 0
+    }
+  ]
+}

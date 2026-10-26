@@ -1,0 +1,49 @@
+{
+  "id": "sweep-77462aa1b57d-20261006",
+  "organization": {
+    "name": "気象キャスターネットワーク",
+    "sector": "企業・団体"
+  },
+  "title": "ウェブサイトへの不正アクセスで最大15,959件の個人情報が漏えいした可能性",
+  "summary": "会員登録、講座申込、問い合わせ等で取得した氏名・メールアドレス等の漏えい可能性を公表。",
+  "published_on": "2026-10-06",
+  "first_published_on": "2026-10-06",
+  "publication_kind": "initial",
+  "occurred_on": "2026-09-24",
+  "detected_on": "2026-09-27",
+  "updated_on": "2026-10-27",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "ウェブサイトへの第三者の不正アクセスと改ざん。具体的な侵入経路は未公表。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": 15959,
+      "unit": "records",
+      "qualifier": "maximum",
+      "description": "公表された対象規模。漏えいの可能性を含む。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "メールアドレス",
+    "住所",
+    "電話番号"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://weathercaster.jp/notices/20261006_notice.pdf",
+      "type": "official",
+      "title": "ウェブサイトへの不正アクセスで最大15,959件の個人情報が漏えいした可能性",
+      "published_on": "2026-10-06",
+      "checked_on": "2026-10-27"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

@@ -1,0 +1,46 @@
+{
+  "id": "sweep-2278defbb874-20261020",
+  "organization": {
+    "name": "熊本市（東区役所保護第一課）",
+    "sector": "自治体"
+  },
+  "title": "生活保護の施術券を異なる指定施術者に誤送付",
+  "summary": "月次一括公表で生活保護の施術券を異なる指定施術者に誤送付を公表。",
+  "published_on": "2026-10-20",
+  "first_published_on": "2026-10-20",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-27",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "accident",
+  "cause": {
+    "category": "misdelivery",
+    "detail": "月次資料では確認不足や処理手順の不備などを原因として説明。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "公表された対象規模。"
+    }
+  ],
+  "data_types": [
+    "生活保護の施術券記載情報"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.city.kumamoto.jp/kiji00373427/3_73427_521577_up_esb6b2na.pdf",
+      "type": "official",
+      "title": "生活保護の施術券を異なる指定施術者に誤送付",
+      "published_on": "2026-10-20",
+      "checked_on": "2026-10-27"
+    }
+  ],
+  "updates": [],
+  "notes": "月次一括公表資料による。前月中に報告された事案を公表しており、発生・発覚の正確な日は未公表。対象は1世帯。世帯人数は不明。"
+}

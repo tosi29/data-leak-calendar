@@ -1,0 +1,63 @@
+{
+  "id": "sweep-040d300d78a0-20260828",
+  "organization": {
+    "name": "教育産業",
+    "sector": "企業・団体"
+  },
+  "title": "職員メールアカウントへの不正アクセスで取引先担当者情報が漏えいしたおそれ",
+  "summary": "職員1名のMicrosoft 365アカウントが侵入され、メール内の取引先担当者情報が閲覧されたおそれ。",
+  "published_on": "2026-08-28",
+  "first_published_on": "2026-08-28",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-08-24",
+  "updated_on": "2026-10-27",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "credentials",
+    "detail": "フィッシングメールによる認証情報窃取が原因と考えられる。",
+    "certainty": "suspected"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "公表された対象規模。漏えいの可能性を含む。"
+    }
+  ],
+  "data_types": [
+    "会社名",
+    "部署",
+    "氏名",
+    "メールアドレス",
+    "電話番号（一部）"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://ksg.co.jp/topics/entry-60.html",
+      "type": "official",
+      "title": "当社メールアカウントへの不正アクセスのお知らせ",
+      "published_on": "2026-08-28",
+      "checked_on": "2026-10-27"
+    },
+    {
+      "url": "https://ksg.co.jp/topics/entry-62.html",
+      "type": "official",
+      "title": "当社メールアカウントへの不正アクセスのお知らせ（最終報）",
+      "published_on": "2026-09-18",
+      "checked_on": "2026-10-27"
+    }
+  ],
+  "updates": [
+    {
+      "date": "2026-09-18",
+      "summary": "最終調査で担当者情報の閲覧可能性とフィッシングによる認証情報窃取を説明。",
+      "source_index": 1
+    }
+  ],
+  "notes": ""
+}

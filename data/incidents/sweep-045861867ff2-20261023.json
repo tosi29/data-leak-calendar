@@ -1,0 +1,56 @@
+{
+  "id": "sweep-045861867ff2-20261023",
+  "organization": {
+    "name": "山梨日日新聞社（就活・求人事業）",
+    "sector": "企業・団体"
+  },
+  "title": "就活・求人サービス登録者計5,040人分の情報が漏えい",
+  "summary": "山日YBS企業ガイダンス4,433人、山日わーく607人の登録情報の漏えいを運営元から通知された。",
+  "published_on": "2026-10-23",
+  "first_published_on": "2026-10-23",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-10-23",
+  "updated_on": "2026-10-27",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "メール配信サービス「ブラストメール」への不正アクセス。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": 5040,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表された対象規模。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "メールアドレス",
+    "生年・性別"
+  ],
+  "related_vendor": "ラクスライトクラウド",
+  "sources": [
+    {
+      "url": "https://www.sannichi.co.jp/article/2026/10/23/80729588",
+      "type": "official",
+      "title": "就活・求人サービス登録者計5,040人分の情報が漏えい",
+      "published_on": "2026-10-23",
+      "checked_on": "2026-10-27"
+    }
+  ],
+  "updates": [],
+  "notes": "内訳は企業ガイダンス4,433人、山日わーく607人。新聞社公表の計5,040人を採用。",
+  "vendors": [
+    {
+      "name": "ラクスライトクラウド",
+      "role": "service",
+      "detail": "両事業のメール配信サービス提供元。",
+      "source_index": 0
+    }
+  ]
+}

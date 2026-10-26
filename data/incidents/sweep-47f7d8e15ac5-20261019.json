@@ -1,0 +1,59 @@
+{
+  "id": "sweep-47f7d8e15ac5-20261019",
+  "organization": {
+    "name": "パピレス（Renta！）",
+    "sector": "企業・団体"
+  },
+  "title": "電子書籍サイトへの不正アクセスで会員情報が流出したおそれ",
+  "summary": "10月18日にサーバーへの不正アクセスを確認し、23日の続報で一部会員のメールアドレス等の流出のおそれを公表。",
+  "published_on": "2026-10-19",
+  "first_published_on": "2026-10-19",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-10-18",
+  "updated_on": "2026-10-27",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "電子書籍販売サイトのサーバーに対する第三者の不正アクセス。原因の詳細は調査中。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "公表された対象規模。漏えいの可能性を含む。"
+    }
+  ],
+  "data_types": [
+    "会員メールアドレス等"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.release.tdnet.info/inbs/140120261019552777.pdf",
+      "type": "official",
+      "title": "電子書籍販売サイトRenta！への不正アクセスについて",
+      "published_on": "2026-10-19",
+      "checked_on": "2026-10-27"
+    },
+    {
+      "url": "https://www.papy.co.jp/news/sc/index/article/2026/20261023.html",
+      "type": "official",
+      "title": "電子書籍販売サイトRenta！への不正アクセスに関するご報告とお詫び",
+      "published_on": "2026-10-23",
+      "checked_on": "2026-10-27"
+    }
+  ],
+  "updates": [
+    {
+      "date": "2026-10-23",
+      "summary": "一部会員情報の流出のおそれを公表。決済情報は保有せず、購入履歴や本棚情報の流出は未確認。",
+      "source_index": 1
+    }
+  ],
+  "notes": ""
+}

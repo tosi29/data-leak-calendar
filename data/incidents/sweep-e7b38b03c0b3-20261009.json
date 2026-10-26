@@ -1,0 +1,60 @@
+{
+  "id": "sweep-e7b38b03c0b3-20261009",
+  "organization": {
+    "name": "森永乳業（マウントカフェ部）",
+    "sector": "企業・団体"
+  },
+  "title": "コミュニティ会員291名の情報が閲覧・取得された可能性",
+  "summary": "マウントカフェ部会員のメールアドレス、プロフィール、活動情報等の漏えい可能性を公表。",
+  "published_on": "2026-10-09",
+  "first_published_on": "2026-10-09",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-27",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "外部コミュニティサービスへの第三者による不正アクセス。具体的な侵入経路は未公表。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": 291,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表された対象規模。漏えいの可能性を含む。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス",
+    "表示名・ユーザー名",
+    "自己紹介",
+    "カスタムプロフィール",
+    "所属グループ",
+    "ポイント",
+    "最終アクティブ日時"
+  ],
+  "related_vendor": "コミューン",
+  "sources": [
+    {
+      "url": "https://www.morinagamilk.co.jp/information/newsentry-4168.html",
+      "type": "official",
+      "title": "コミュニティ会員291名の情報が閲覧・取得された可能性",
+      "published_on": "2026-10-09",
+      "checked_on": "2026-10-27"
+    }
+  ],
+  "updates": [],
+  "notes": "",
+  "vendors": [
+    {
+      "name": "コミューン",
+      "role": "service",
+      "detail": "コミュニティプラットフォーム「Commune」の提供元。",
+      "source_index": 0
+    }
+  ]
+}

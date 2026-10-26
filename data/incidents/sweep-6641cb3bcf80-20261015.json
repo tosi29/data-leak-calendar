@@ -1,0 +1,46 @@
+{
+  "id": "sweep-6641cb3bcf80-20261015",
+  "organization": {
+    "name": "小池酸素工業",
+    "sector": "企業・団体"
+  },
+  "title": "サイバー攻撃後に公開されたファイルと個人情報への影響を調査",
+  "summary": "被害サーバーに個人情報が含まれており、自社から流出した疑いのある電子ファイルの公開を確認したと公表。",
+  "published_on": "2026-10-15",
+  "first_published_on": null,
+  "publication_kind": "unknown",
+  "occurred_on": null,
+  "detected_on": "2026-10-05",
+  "updated_on": "2026-10-27",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "社内環境へのサイバー攻撃。具体的な侵入経路は未公表。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "公表された対象規模。漏えいの可能性を含む。"
+    }
+  ],
+  "data_types": [
+    "被害サーバー内の個人情報（詳細項目・範囲は調査中）"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://koike-japan.com/pages/1?b_id=206&detail=1&r_id=524",
+      "type": "official",
+      "title": "サイバー攻撃後に公開されたファイルと個人情報への影響を調査",
+      "published_on": "2026-10-15",
+      "checked_on": "2026-10-27"
+    }
+  ],
+  "updates": [],
+  "notes": "記事の表示日と構造化データのdatePublishedは10月15日。サイト更新時刻を公表日に転用しない。先行する初報の有無は未確定。"
+}

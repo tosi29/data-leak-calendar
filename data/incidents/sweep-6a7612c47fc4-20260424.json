@@ -1,0 +1,65 @@
+{
+  "id": "sweep-6a7612c47fc4-20260424",
+  "organization": {
+    "name": "小牧市（福祉医療システム）",
+    "sector": "自治体"
+  },
+  "title": "委託先へのランサムウェア攻撃に伴う福祉医療情報漏えいのおそれ",
+  "summary": "受給者の氏名・診療情報・金融機関情報等が保管された委託先サーバーが攻撃を受けた。5月の調査報告では流出の明確な痕跡は未確認。",
+  "published_on": "2026-04-24",
+  "first_published_on": "2026-04-24",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-27",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "委託先YCC情報システムのファイルサーバーへのランサムウェア攻撃。侵入経路の詳細は未公表。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "公表された対象規模。漏えいの可能性を含む。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "生年月日",
+    "性別",
+    "住所",
+    "診療情報",
+    "金融機関情報"
+  ],
+  "related_vendor": "YCC情報システム",
+  "sources": [
+    {
+      "url": "https://www.city.komaki.aichi.jp/admin/soshiki/fukushi/hokeniryou/51791.html",
+      "type": "official",
+      "title": "YCC情報システムへのサイバー攻撃に関する調査結果報告",
+      "published_on": "2026-05-29",
+      "checked_on": "2026-10-27"
+    }
+  ],
+  "updates": [
+    {
+      "date": "2026-05-29",
+      "summary": "外部送信の明確な痕跡は確認されず、監視を継続。",
+      "source_index": 0
+    }
+  ],
+  "notes": "5月29日の公式続報で4月24日付の初回公表を確認。流出の有無にかかわらず監視は継続し、漏えいが否定されたとはしていない。",
+  "vendors": [
+    {
+      "name": "YCC情報システム",
+      "role": "service",
+      "detail": "福祉医療に関するシステム導入業務の委託先。",
+      "source_index": 0
+    }
+  ]
+}

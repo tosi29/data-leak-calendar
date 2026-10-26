@@ -1,0 +1,58 @@
+{
+  "id": "sweep-6d54fe02a501-20261023",
+  "organization": {
+    "name": "長野県（3事業サイト）",
+    "sector": "自治体"
+  },
+  "title": "結婚・就職・就農支援のメールマガジン登録情報が漏えいした可能性",
+  "summary": "チアフルながの、シューカツNAGANO、デジタル農活信州の登録情報約4,300件に漏えいの可能性。",
+  "published_on": "2026-10-23",
+  "first_published_on": "2026-10-23",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-27",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "外部メール配信サービス「ブラストメール」への第三者による不正アクセス。具体的な侵入経路は未公表。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": 4300,
+      "unit": "records",
+      "qualifier": "approximate",
+      "description": "公表された対象規模。漏えいの可能性を含む。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "メールアドレス",
+    "居住地",
+    "性別・年代（一部）",
+    "学校種別・卒業予定年度等"
+  ],
+  "related_vendor": "ラクスライトクラウド",
+  "sources": [
+    {
+      "url": "https://www.pref.nagano.lg.jp/jisedai/happyou/20261023press.html",
+      "type": "official",
+      "title": "結婚・就職・就農支援のメールマガジン登録情報が漏えいした可能性",
+      "published_on": "2026-10-23",
+      "checked_on": "2026-10-27"
+    }
+  ],
+  "updates": [],
+  "notes": "リスト別約1,200件・約2,900件・約200件の合計で、一意人数ではない。一部で番地まで入力。",
+  "vendors": [
+    {
+      "name": "ラクスライトクラウド",
+      "role": "service",
+      "detail": "メール配信サービス「ブラストメール」の提供元。",
+      "source_index": 0
+    }
+  ]
+}

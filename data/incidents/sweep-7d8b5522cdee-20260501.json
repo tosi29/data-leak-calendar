@@ -1,0 +1,46 @@
+{
+  "id": "sweep-7d8b5522cdee-20260501",
+  "organization": {
+    "name": "シン・コーポレーション",
+    "sector": "企業・団体"
+  },
+  "title": "従業員がPOS画面をSNSに投稿し顧客5名の氏名が漏えい",
+  "summary": "アルバイト従業員がPOSレジ画面を私用スマートフォンで撮影し、BeRealへ投稿した。",
+  "published_on": "2026-05-01",
+  "first_published_on": "2026-05-01",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-05-01",
+  "updated_on": "2026-10-27",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "improper_handling",
+  "cause": {
+    "category": "improper_sharing",
+    "detail": "従業員が執務エリアのPOS画面を無断撮影してSNSへ投稿。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 5,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表された対象規模。"
+    }
+  ],
+  "data_types": [
+    "氏名（カタカナ）"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.shincorp.co.jp/corp-data/shin_news_20260501.pdf",
+      "type": "official",
+      "title": "従業員がPOS画面をSNSに投稿し顧客5名の氏名が漏えい",
+      "published_on": "2026-05-01",
+      "checked_on": "2026-10-27"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

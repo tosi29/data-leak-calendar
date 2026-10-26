@@ -1,0 +1,55 @@
+{
+  "id": "sweep-f707bb543b51-20261022",
+  "organization": {
+    "name": "横浜市（市出展エリアボランティア）",
+    "sector": "自治体"
+  },
+  "title": "エクスポ市出展エリア応募者6,334人の情報が漏えいした可能性",
+  "summary": "ブラストメールへの不正アクセスに伴い、市出展エリアで活動するボランティア応募者の氏名・メールアドレスに漏えいの可能性。",
+  "published_on": "2026-10-22",
+  "first_published_on": "2026-10-22",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-10-21",
+  "updated_on": "2026-10-27",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "メール配信サービスへの第三者による不正アクセス。具体的な侵入経路は未公表。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": 6334,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表された対象規模。漏えいの可能性を含む。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "メールアドレス"
+  ],
+  "related_vendor": "ラクスライトクラウド",
+  "sources": [
+    {
+      "url": "https://www.city.yokohama.lg.jp/city-info/koho-kocho/press/kankyo/2026/1022expovolunteer.files/0004_20261022.pdf",
+      "type": "official",
+      "title": "エクスポ市出展エリア応募者6,334人の情報が漏えいした可能性",
+      "published_on": "2026-10-22",
+      "checked_on": "2026-10-27"
+    }
+  ],
+  "updates": [],
+  "notes": "市出展エリア6,334人と、協会が別途募集するGREEN×EXPO 2027ボランティアの登録情報は対象を区別する。",
+  "vendors": [
+    {
+      "name": "ラクスライトクラウド",
+      "role": "service",
+      "detail": "ボランティア応募者へのメール配信サービス提供元。",
+      "source_index": 0
+    }
+  ]
+}

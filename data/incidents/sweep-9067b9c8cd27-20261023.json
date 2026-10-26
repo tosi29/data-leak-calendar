@@ -1,0 +1,67 @@
+{
+  "id": "sweep-9067b9c8cd27-20261023",
+  "organization": {
+    "name": "リンツ＆シュプルングリージャパン",
+    "sector": "企業・団体"
+  },
+  "title": "委託先への不正アクセスで会員情報3,147,469件が漏えい",
+  "summary": "フューチャーショップへの不正アクセスにより、オンラインショップ・公式アプリ共通の会員情報が取得された。",
+  "published_on": "2026-10-23",
+  "first_published_on": "2026-10-23",
+  "publication_kind": "initial",
+  "occurred_on": "2026-10-17",
+  "detected_on": "2026-10-19",
+  "updated_on": "2026-10-27",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "vulnerability",
+    "detail": "委託先サーバーのソフトウェアの脆弱性を悪用した不正アクセス。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 3147469,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "公表された対象規模。"
+    }
+  ],
+  "data_types": [
+    "会員ID",
+    "氏名・フリガナ",
+    "メールアドレス",
+    "住所",
+    "電話番号",
+    "生年月日・性別",
+    "ハッシュ化パスワード",
+    "登録・利用日時等"
+  ],
+  "related_vendor": "フューチャーショップ",
+  "sources": [
+    {
+      "url": "https://www.lindt.jp/contents/chocolat-cafe/notice_20261023/",
+      "type": "official",
+      "title": "委託先への不正アクセスで会員情報3,147,469件が漏えい",
+      "published_on": "2026-10-23",
+      "checked_on": "2026-10-27"
+    }
+  ],
+  "updates": [
+    {
+      "date": "2026-10-26",
+      "summary": "対象会員のパスワード強制リセットとアプリの新規ダウンロード停止を追記。",
+      "source_index": 0
+    }
+  ],
+  "notes": "取得時点で退会済みの会員は対象外。クレジットカード情報等の支払情報は含まれない。",
+  "vendors": [
+    {
+      "name": "フューチャーショップ",
+      "role": "service",
+      "detail": "オンラインショップシステム提供・会員情報管理。",
+      "source_index": 0
+    }
+  ]
+}

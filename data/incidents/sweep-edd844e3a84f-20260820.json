@@ -1,0 +1,47 @@
+{
+  "id": "sweep-edd844e3a84f-20260820",
+  "organization": {
+    "name": "大阪市（北消防署）",
+    "sector": "自治体"
+  },
+  "title": "自衛消防協議会担当者73名の氏名・メールアドレスが漏えい",
+  "summary": "開催案内2通のメールをBccにすべきところ宛先欄で送信し、担当者情報が受信者間で表示された。",
+  "published_on": "2026-08-20",
+  "first_published_on": "2026-08-20",
+  "publication_kind": "initial",
+  "occurred_on": "2026-08-18",
+  "detected_on": "2026-08-18",
+  "updated_on": "2026-10-27",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "accident",
+  "cause": {
+    "category": "misdelivery",
+    "detail": "送信先・交付先または対象書類の確認が不十分だった。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 73,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表された対象規模。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "メールアドレス"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.city.osaka.lg.jp/hodoshiryo/shobo/0000685876.html",
+      "type": "official",
+      "title": "自衛消防協議会担当者73名の氏名・メールアドレスが漏えい",
+      "published_on": "2026-08-20",
+      "checked_on": "2026-10-27"
+    }
+  ],
+  "updates": [],
+  "notes": "同じ宛先への2通送信を146名に倍増させない。"
+}

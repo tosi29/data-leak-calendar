@@ -8,7 +8,7 @@
   "published_on": "2026-09-25",
   "occurred_on": null,
   "detected_on": "2026-09-25",
-  "updated_on": "2026-10-23",
+  "updated_on": "2026-10-27",
   "leak_status": "confirmed",
   "summary": "タイムズカーのWebシステムから会員情報が取得されたことを確認。続報で本人確認書類の対象規模も公表。",
   "impact": [
@@ -16,13 +16,13 @@
       "count": 6600000,
       "unit": "accounts",
       "qualifier": "approximate",
-      "description": "退会者・入会未完了者等を含む"
+      "description": "従来公表された会員情報の対象概数。退会者・入会未完了者等を含む。"
     },
     {
-      "count": 1600000,
-      "unit": "accounts",
+      "count": 1460000,
+      "unit": "images",
       "qualifier": "approximate",
-      "description": "本人確認書類情報が漏えいしたアカウント（内数）"
+      "description": "第5報で外部送信の痕跡を確認した暗号化本人確認書類画像。人数・アカウント数ではない。"
     }
   ],
   "data_types": [
@@ -46,31 +46,38 @@
       "type": "official",
       "title": "タイムズカーへの不正アクセス（第1報）",
       "published_on": "2026-09-25",
-      "checked_on": "2026-10-15"
+      "checked_on": "2026-10-27"
     },
     {
       "url": "https://www.park24.co.jp/news/2026/09/20260928-1.html",
       "type": "official",
       "title": "タイムズカーへの不正アクセス（第2報）",
       "published_on": "2026-09-28",
-      "checked_on": "2026-10-07"
+      "checked_on": "2026-10-27"
     },
     {
       "url": "https://www.park24.co.jp/news/2026/09/20260929-1.html",
       "type": "official",
       "title": "タイムズカーへの不正アクセス（第3報）",
       "published_on": "2026-09-29",
-      "checked_on": "2026-10-15"
+      "checked_on": "2026-10-27"
     },
     {
       "url": "https://www.park24.co.jp/news/2026/10/20261016-1.html",
       "type": "official",
       "title": "本人確認書類画像は申出の有無にかかわらず10月末までに削除する方針。調査結果の案内予定を10月23日へ延期。",
       "published_on": "2026-10-16",
-      "checked_on": "2026-10-23"
+      "checked_on": "2026-10-27"
+    },
+    {
+      "url": "https://www.park24.co.jp/news/2026/10/20261023-1.html",
+      "type": "official",
+      "title": "ニュースリリース",
+      "published_on": "2026-10-23",
+      "checked_on": "2026-10-27"
     }
   ],
-  "notes": "公表元はパーク24。本人確認書類の対象は全体の内数であり合算しない。 本人確認書類画像は申出の有無にかかわらず10月末までに削除する方針。調査結果の案内予定を10月23日へ延期。",
+  "notes": "約160万件は従来の本人確認画像の影響見込み。第5報では約146万件の暗号化画像に外部送信痕跡を確認。暗号化画像が直ちに閲覧可能だったことを意味しない。連携IDの漏えいは9件から4件へ訂正され、WESTER IDは0件。",
   "updates": [
     {
       "date": "2026-09-28",
@@ -86,6 +93,11 @@
       "date": "2026-10-16",
       "summary": "本人確認書類画像は申出の有無にかかわらず10月末までに削除する方針。調査結果の案内予定を10月23日へ延期。",
       "source_index": 3
+    },
+    {
+      "date": "2026-10-23",
+      "summary": "第5報で本人確認画像の外部送信痕跡は約146万件と訂正。画像の暗号化と閲覧可能性を区別。",
+      "source_index": 4
     }
   ],
   "first_published_on": "2026-09-25",
@@ -94,7 +106,7 @@
   "related_vendor": null,
   "incident_type": "attack",
   "vendor_research": {
-    "checked_on": "2026-10-15",
+    "checked_on": "2026-10-27",
     "result": "not_identified",
     "note": "掲載出典と追加検索で、当該事案に関係する外部の開発・運用・サービス・基盤会社の社名と役割を特定できませんでした。",
     "source_checks": [
@@ -112,6 +124,10 @@
       },
       {
         "source_index": 3,
+        "status": "reviewed"
+      },
+      {
+        "source_index": 4,
         "status": "reviewed"
       }
     ]

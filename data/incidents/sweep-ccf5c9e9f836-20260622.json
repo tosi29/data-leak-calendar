@@ -1,0 +1,46 @@
+{
+  "id": "sweep-ccf5c9e9f836-20260622",
+  "organization": {
+    "name": "熊本市（介護事業指導課）",
+    "sector": "自治体"
+  },
+  "title": "調査依頼メールの件名欄に個人メールアドレスを誤記",
+  "summary": "月次一括公表で調査依頼メールの件名欄に個人メールアドレスを誤記を公表。",
+  "published_on": "2026-06-22",
+  "first_published_on": "2026-06-22",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-27",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "accident",
+  "cause": {
+    "category": "misdelivery",
+    "detail": "月次資料では確認不足や処理手順の不備などを原因として説明。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 1,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表された対象規模。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.city.kumamoto.jp/kiji00371457/3_71457_507923_up_br1rxerz.pdf",
+      "type": "official",
+      "title": "調査依頼メールの件名欄に個人メールアドレスを誤記",
+      "published_on": "2026-06-22",
+      "checked_on": "2026-10-27"
+    }
+  ],
+  "updates": [],
+  "notes": "月次一括公表資料による。前月中に報告された事案を公表しており、発生・発覚の正確な日は未公表。"
+}
