@@ -1,0 +1,46 @@
+{
+  "id": "kagoshima-meter-device-20260507",
+  "organization": {
+    "name": "鹿児島市",
+    "sector": "自治体"
+  },
+  "title": "検針業務用機器の盗難に伴う個人情報漏えいのおそれ",
+  "summary": "水道メーター検針用の機器が盗難に遭い、個人情報漏えい等のおそれが発生したと公表。",
+  "published_on": "2026-05-07",
+  "first_published_on": null,
+  "publication_kind": "followup",
+  "occurred_on": "2026-04-15",
+  "detected_on": null,
+  "updated_on": "2026-05-07",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "accident",
+  "cause": {
+    "category": "loss",
+    "detail": "検針業務に使用する機器が盗難に遭った。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "対象人数・件数は未公表。"
+    }
+  ],
+  "data_types": [
+    "検針業務で取り扱う個人情報（項目未公表）"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.city.kagoshima.lg.jp/suido/ryoukin/tonanowabi.html",
+      "type": "official",
+      "title": "検針業務用機器の盗難に伴う個人情報漏えいのおそれ",
+      "published_on": "2026-05-07",
+      "checked_on": "2026-10-27"
+    }
+  ],
+  "updates": [],
+  "notes": "公式ページの更新日を採用し初報日は未確定。対象地区は捜査・セキュリティ上の理由から非公表。"
+}

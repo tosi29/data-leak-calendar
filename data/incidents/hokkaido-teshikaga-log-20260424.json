@@ -1,0 +1,55 @@
+{
+  "id": "hokkaido-teshikaga-log-20260424",
+  "organization": {
+    "name": "北海道警察（弟子屈警察署）",
+    "sector": "行政機関"
+  },
+  "title": "12名の交通違反情報を記載した引継簿を紛失",
+  "summary": "2022年度作成の交通切符等引継簿が所在不明となり、12名の氏名や違反種別等が対象となった。",
+  "published_on": "2026-04-24",
+  "first_published_on": "2026-04-24",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-04-24",
+  "verification": "secondary",
+  "leak_status": "lost",
+  "incident_type": "accident",
+  "cause": {
+    "category": "loss",
+    "detail": "交通切符等引継簿が所在不明。紛失の詳細な原因は未公表。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 12,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "紛失した引継簿に記載された対象者。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "交通違反種別",
+    "交通切符使用日"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://scan.netsecurity.ne.jp/special/109/recent/%E7%B4%9B%E5%A4%B1?page=1",
+      "type": "news",
+      "title": "12名の個人情報記載した交通切符等引継簿紛失（5月12日記事の一覧）",
+      "published_on": "2026-05-12",
+      "checked_on": "2026-10-27"
+    },
+    {
+      "url": "https://www.security-next.com/184300",
+      "type": "news",
+      "title": "交通違反者の個人情報含む引継簿が所在不明",
+      "published_on": "2026-05-19",
+      "checked_on": "2026-10-27"
+    }
+  ],
+  "updates": [],
+  "notes": "ScanNetSecurityの紹介文で4月24日発表と確認。5月12日・19日は記事日であり採用公表日ではない。"
+}

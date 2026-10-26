@@ -1,0 +1,46 @@
+{
+  "id": "sado-kids-mail-20260511",
+  "organization": {
+    "name": "佐渡市",
+    "sector": "自治体"
+  },
+  "title": "公民館のキッズダンス申込者の保護者へメール誤送信",
+  "summary": "金井地区公民館の講座案内をBCCにせず送信し、保護者15名のメールアドレスが他の受信者に表示された。",
+  "published_on": "2026-05-11",
+  "first_published_on": "2026-05-11",
+  "publication_kind": "initial",
+  "occurred_on": "2026-05-11",
+  "detected_on": "2026-05-11",
+  "updated_on": "2026-05-11",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "accident",
+  "cause": {
+    "category": "misdelivery",
+    "detail": "宛先をBCCではなく他の受信者に見える形式で設定した。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 15,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "配信対象の保護者。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.city.sado.niigata.jp/uploaded/attachment/59689.pdf",
+      "type": "official",
+      "title": "公民館のキッズダンス申込者の保護者へメール誤送信",
+      "published_on": "2026-05-11",
+      "checked_on": "2026-10-27"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

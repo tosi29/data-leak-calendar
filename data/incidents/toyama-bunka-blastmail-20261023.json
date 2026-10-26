@@ -1,0 +1,55 @@
+{
+  "id": "toyama-bunka-blastmail-20261023",
+  "organization": {
+    "name": "公益財団法人富山県文化振興財団",
+    "sector": "企業・団体"
+  },
+  "title": "富山県民会館文化友の会の配信登録情報に漏えいのおそれ",
+  "summary": "ブラストメールへの不正アクセスに伴い、文化友の会メール会員の氏名・メールアドレス・会員番号に漏えいの可能性を公表。",
+  "published_on": "2026-10-23",
+  "first_published_on": "2026-10-23",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-23",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。侵入手口の詳細は調査中。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "文化友の会メール会員。対象件数未公表。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "メールアドレス",
+    "会員番号"
+  ],
+  "related_vendor": "株式会社ラクスライトクラウド",
+  "sources": [
+    {
+      "url": "https://www.bunka-toyama.jp/news/info_detail.php?im_id=1900",
+      "type": "official",
+      "title": "メール配信サービスへの不正アクセスに伴う情報漏洩の可能性と対応について",
+      "published_on": "2026-10-23",
+      "checked_on": "2026-10-27"
+    },
+    {
+      "url": "https://www.bunka-toyama.jp/",
+      "type": "official",
+      "title": "公式お知らせ一覧（当該告知の公表日を確認）",
+      "published_on": "2026-10-23",
+      "checked_on": "2026-10-27"
+    }
+  ],
+  "updates": [],
+  "notes": "公表日は財団公式トップのお知らせ一覧で確認。公表時点で会員情報の外部漏えいの連絡は受けていない。カード情報等は含まない。提供元の件数と重複し得る。"
+}

@@ -8859,5 +8859,42 @@
     "横浜市の表の日付は報告受領日であり発生日ではない。公表人数には漏えいのおそれを含むため、一括して確定漏えい人数としない。",
     "件数・人数・アカウント・画像・団体数を区別。提供元と利用組織の公表は対象が重複し、合計被害人数や独立攻撃数として合算できない。",
     "同じサイトの200応答でもトップページ・メンテナンス・別案内の場合があるため、取得成功のみでは掲載可としていない。"
+  ],
+  "followup_reviews": [
+    {
+      "checked_on": "2026-10-27",
+      "audit": "data/research-2026-10-27-pending-resolution.json",
+      "report": "docs/research-2026-10-27-pending-resolution.md",
+      "stats": {
+        "candidates": {
+          "total": 156,
+          "excluded": 49,
+          "unresolved": 58,
+          "published": 46,
+          "merged": 1,
+          "existing": 2
+        },
+        "crosscheck": {
+          "total": 31,
+          "published": 12,
+          "unresolved": 8,
+          "excluded": 10,
+          "existing": 1
+        },
+        "unavailable": {
+          "total": 35,
+          "published": 7,
+          "existing": 17,
+          "unresolved": 6,
+          "excluded": 5
+        },
+        "baseline_incidents": 1520,
+        "added_incidents": 72,
+        "updated_incidents": 3,
+        "total_incidents": 1592,
+        "pending_candidates": 58,
+        "candidate_search_queries": 156
+      }
+    }
   ]
 }

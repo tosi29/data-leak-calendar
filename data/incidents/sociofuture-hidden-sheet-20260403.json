@@ -1,0 +1,58 @@
+{
+  "id": "sociofuture-hidden-sheet-20260403",
+  "organization": {
+    "name": "SocioFuture株式会社",
+    "sector": "企業・団体"
+  },
+  "title": "委託元銀行の顧客情報を残したファイルを別の金融機関へ提供",
+  "summary": "GMOあおぞらネット銀行からの受託業務で使用するファイル様式を転用した際、非表示シートに残った顧客情報が他行へ流出。",
+  "published_on": "2026-04-03",
+  "first_published_on": "2026-04-03",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-04-03",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "accident",
+  "cause": {
+    "category": "misdelivery",
+    "detail": "他行へ転用したファイル様式の非表示シートに委託元顧客情報が残存していた。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 1820,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "委託元銀行が公表した対象情報件数。同じ事故の委託元記録と重複する。"
+    }
+  ],
+  "data_types": [
+    "口座名義",
+    "支店・口座番号",
+    "残高",
+    "顧客識別情報",
+    "口座管理記録",
+    "問い合わせ状況"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.scft.co.jp/news/",
+      "type": "official",
+      "title": "委託元金融機関のお客さま情報流出に関するお詫びとご報告（4月3日付ニュース一覧）",
+      "published_on": "2026-04-03",
+      "checked_on": "2026-10-27"
+    },
+    {
+      "url": "https://gmo-aozora.com/assets/news/pdf/2026/20260403_kouhyou.pdf",
+      "type": "official",
+      "title": "業務委託先による他金融機関への当社お客さま情報流出に関するお詫びとご報告",
+      "published_on": "2026-04-03",
+      "checked_on": "2026-10-27"
+    }
+  ],
+  "updates": [],
+  "notes": "受託者の4月3日公式ニュース一覧の本文と委託元の公式資料を照合。GMOあおぞらネット銀行の既存記録とは公表組織が異なるが対象データは同じであり、独立した人数として合算しない。"
+}

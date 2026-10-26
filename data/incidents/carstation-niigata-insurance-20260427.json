@@ -1,0 +1,56 @@
+{
+  "id": "carstation-niigata-insurance-20260427",
+  "organization": {
+    "name": "株式会社カーステーション新潟",
+    "sector": "企業・団体"
+  },
+  "title": "保険申込情報の流出懸念に関する調査結果を公表",
+  "summary": "ココセレクトほけんの申込情報流出のおそれを調査し、外部漏えいや不正閲覧・利用の事実は確認されなかったと報告。",
+  "published_on": "2026-04-27",
+  "first_published_on": "2026-03-30",
+  "publication_kind": "followup",
+  "occurred_on": null,
+  "detected_on": "2026-03-25",
+  "updated_on": "2026-04-27",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "unknown",
+  "cause": {
+    "category": "unknown",
+    "detail": "保険申込情報の流出懸念を受け調査。外部からの誘導や端末操作の有無を含め原因は未確定。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "初報で懸念された保険申込者の人数は未公表。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "電話番号",
+    "生年月日"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.cocoselect.jp/event/%E5%80%8B%E4%BA%BA%E6%83%85%E5%A0%B1%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E8%AA%BF%E6%9F%BB%E7%B5%90%E6%9E%9C%E3%81%AE%E3%81%94%E5%A0%B1%E5%91%8A/",
+      "type": "official",
+      "title": "個人情報に関する調査結果のご報告",
+      "published_on": "2026-04-27",
+      "checked_on": "2026-10-27"
+    },
+    {
+      "url": "https://www.security-next.com/182900",
+      "type": "news",
+      "title": "保険申込情報流出の可能性、外部から端末を不正操作か",
+      "published_on": "2026-04-14",
+      "checked_on": "2026-10-27"
+    }
+  ],
+  "updates": [],
+  "notes": "4月27日公式続報で初報が3月30日付と確認。流出事実が確認されなかったとの説明を、技術的に流出なしを証明したとの認定には置き換えない。"
+}

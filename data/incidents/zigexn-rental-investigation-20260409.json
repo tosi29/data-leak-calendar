@@ -1,0 +1,46 @@
+{
+  "id": "zigexn-rental-investigation-20260409",
+  "organization": {
+    "name": "株式会社じげん",
+    "sector": "企業・団体"
+  },
+  "title": "賃貸情報サイトの顧客情報流出に関する報道を受け調査",
+  "summary": "賃貸情報サイトの顧客情報が外部流出した可能性との指摘について、事実関係を含め関係各所と調査中であると公表。",
+  "published_on": "2026-04-09",
+  "first_published_on": "2026-04-09",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-04-09",
+  "verification": "official",
+  "leak_status": "investigating",
+  "incident_type": "unknown",
+  "cause": {
+    "category": "unknown",
+    "detail": "報道された流出可能性について事実関係を調査中。原因は未確定。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "対象人数・件数は未確定。"
+    }
+  ],
+  "data_types": [
+    "賃貸情報サイトの顧客情報（項目未特定）"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://zigexn.co.jp/16079/",
+      "type": "official",
+      "title": "一部メディア等における、当社賃貸情報サイトの報道について",
+      "published_on": "2026-04-09",
+      "checked_on": "2026-10-27"
+    }
+  ],
+  "updates": [],
+  "notes": "自社顧客情報への影響調査を公表した事案として掲載。流出の確定や、特定の外部サービスを原因とする認定ではない。"
+}

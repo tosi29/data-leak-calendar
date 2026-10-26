@@ -1,0 +1,52 @@
+{
+  "id": "okazaki-blastmail-20261022",
+  "organization": {
+    "name": "岡崎市",
+    "sector": "自治体"
+  },
+  "title": "防犯情報・市営住宅募集メールの配信登録情報に漏えいのおそれ",
+  "summary": "情報配信システムの提供元への不正アクセスに伴い、防犯情報メール約26,000件と市営住宅募集メールの登録情報に漏えいの可能性を公表。",
+  "published_on": "2026-10-22",
+  "first_published_on": "2026-10-22",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-22",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。侵入手口の詳細は調査中。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": 26000,
+      "unit": "records",
+      "qualifier": "approximate",
+      "description": "防犯情報メールの登録アドレス。"
+    },
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "市営住宅募集メールの登録アドレス。件数確認中。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "株式会社ラクスライトクラウド",
+  "sources": [
+    {
+      "url": "https://www.city.okazaki.lg.jp/shisei/koho/1006195/1006358/1016621/1017457.html",
+      "type": "official",
+      "title": "防犯情報・市営住宅募集メールの配信登録情報に漏えいのおそれ",
+      "published_on": "2026-10-22",
+      "checked_on": "2026-10-27"
+    }
+  ],
+  "updates": [],
+  "notes": "10月14日のアルカディア関連公表とは別サービスの事案。防犯情報約26,000件と件数不明の市営住宅募集メールを合算しない。"
+}

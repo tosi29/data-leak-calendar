@@ -1,0 +1,50 @@
+{
+  "id": "kashiwa-tax-consult-20260723",
+  "organization": {
+    "name": "柏市",
+    "sector": "自治体"
+  },
+  "title": "税務相談申込者一覧を相談者へ誤交付",
+  "summary": "税理士が資料を返却する際、他の相談者の個人情報を記載した一覧を誤って渡した。",
+  "published_on": "2026-07-23",
+  "first_published_on": "2026-07-23",
+  "publication_kind": "initial",
+  "occurred_on": "2026-07-10",
+  "detected_on": "2026-07-14",
+  "updated_on": "2026-07-23",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "accident",
+  "cause": {
+    "category": "misdelivery",
+    "detail": "送付先・封入内容・交付物の確認が不十分で誤送付・誤送信・誤交付。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 7,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表本文の対象者数。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "電話番号",
+    "年齢",
+    "相談概要"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.city.kashiwa.lg.jp/documents/42514/kohyo_koho.pdf",
+      "type": "official",
+      "title": "税務相談申込者一覧を相談者へ誤交付",
+      "published_on": "2026-07-23",
+      "checked_on": "2026-10-27"
+    }
+  ],
+  "updates": [],
+  "notes": "一覧の更新日ではなく個別の公式公表資料の日付を採用。相談者8名の一覧のうち、誤交付先本人を除く7名の情報が対象。"
+}

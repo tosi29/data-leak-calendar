@@ -1,0 +1,62 @@
+{
+  "id": "finatext-studio-20261016",
+  "organization": {
+    "name": "株式会社Finatextホールディングス",
+    "sector": "企業・団体"
+  },
+  "title": "Studio連携の問い合わせ情報への不正アクセスと漏えい",
+  "summary": "Studioから接続できたGoogleスプレッドシート内の問い合わせ情報に漏えいの形跡を確認。グループサイトと少額短期保険の問い合わせが対象。",
+  "published_on": "2026-10-16",
+  "first_published_on": "2026-10-16",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-10-16",
+  "updated_on": "2026-10-21",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。侵入手口の詳細は調査中。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "グループサイトの全問い合わせ7,241件のうち最大18%程度に不正アクセス。対象件数の整数は未公表。"
+    },
+    {
+      "count": 12,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "スマートプラス少額短期保険のキャンセル保険問い合わせ情報。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "法人名・団体名",
+    "部署名",
+    "メールアドレス",
+    "電話番号"
+  ],
+  "related_vendor": "Studio株式会社",
+  "sources": [
+    {
+      "url": "https://finatext.com/hd/news/20261016",
+      "type": "official",
+      "title": "Studio連携の問い合わせ情報への不正アクセスと漏えい",
+      "published_on": "2026-10-16",
+      "checked_on": "2026-10-27"
+    }
+  ],
+  "updates": [
+    {
+      "date": "2026-10-21",
+      "summary": "Studioを使わない方式へ変更し問い合わせフォームを再開。",
+      "source_index": 0
+    }
+  ],
+  "notes": "公開CMSの本文とpublishedAtを確認。7,241件は母数であり漏えい件数には採用せず、18%を人数・整数件数に換算しない。問い合わせ情報はStudio上に保存せず連携先のGoogleスプレッドシートに保存。10月21日に別方式でフォーム再開。提供元公表との重複あり。"
+}

@@ -1,0 +1,48 @@
+{
+  "id": "kashiwa-resident-tax-20260701",
+  "organization": {
+    "name": "柏市",
+    "sector": "自治体"
+  },
+  "title": "海外転出者の納税通知書を旧住所の入居者へ誤送付",
+  "summary": "海外転出した納税義務者宛ての通知を従前住所へ送り、別の入居者が開封した。",
+  "published_on": "2026-07-01",
+  "first_published_on": "2026-07-01",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-06-23",
+  "updated_on": "2026-07-01",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "accident",
+  "cause": {
+    "category": "misdelivery",
+    "detail": "送付先・封入内容・交付物の確認が不十分で誤送付・誤送信・誤交付。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 1,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表本文の対象者数。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "課税情報"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.city.kashiwa.lg.jp/documents/42514/0701shiminzei.pdf",
+      "type": "official",
+      "title": "海外転出者の納税通知書を旧住所の入居者へ誤送付",
+      "published_on": "2026-07-01",
+      "checked_on": "2026-10-27"
+    }
+  ],
+  "updates": [],
+  "notes": "一覧の更新日ではなく個別の公式公表資料の日付を採用。"
+}

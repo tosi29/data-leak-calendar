@@ -1,0 +1,53 @@
+{
+  "id": "seki-school-library-usb-20260521",
+  "organization": {
+    "name": "関市",
+    "sector": "自治体"
+  },
+  "title": "児童生徒816名の図書貸出記録を含むUSBメモリーを紛失",
+  "summary": "学校の図書管理システム用パソコンのバックアップUSBメモリーが所在不明となった。蔵書情報のほか児童生徒の貸出記録に関する個人情報を含む。",
+  "published_on": "2026-05-21",
+  "first_published_on": "2026-05-21",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-05-21",
+  "verification": "secondary",
+  "leak_status": "lost",
+  "incident_type": "accident",
+  "cause": {
+    "category": "loss",
+    "detail": "バックアップ用USBメモリーが所在不明となった。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 816,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "貸出記録に係る児童生徒。"
+    }
+  ],
+  "data_types": [
+    "図書貸出記録に係る児童生徒の個人情報"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.excite.co.jp/news/article/Scannetsecurity_55425/",
+      "type": "news",
+      "title": "関市の学校で図書管理システムのバックアップUSBメモリ紛失",
+      "published_on": "2026-06-04",
+      "checked_on": "2026-10-27"
+    },
+    {
+      "url": "https://bose50.hatenadiary.org/entry/2026/05/04/230628",
+      "type": "reference",
+      "title": "2026年5月公表のITセキュリティ事案一覧（関市の公表引用）",
+      "published_on": "2026-05-04",
+      "checked_on": "2026-10-27"
+    }
+  ],
+  "updates": [],
+  "notes": "ScanNetSecurityの本文で5月21日発表と確認。公式ページを直接取得できないため二次資料による確認。 月次一覧の出典日付は一覧の作成日であり、本事案の公表日を示すものではない。"
+}

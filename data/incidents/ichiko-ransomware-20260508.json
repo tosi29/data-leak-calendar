@@ -1,0 +1,53 @@
+{
+  "id": "ichiko-ransomware-20260508",
+  "organization": {
+    "name": "第一工業株式会社",
+    "sector": "企業・団体"
+  },
+  "title": "ランサムウェア被害後に従業員・取引先等の個人情報への影響を公表",
+  "summary": "第三報で従業員・退職者・社外関係者の情報が閲覧された可能性を否定できないと公表。流出を示す証跡は確認されず、漏えいの蓋然性は低いと説明。",
+  "published_on": "2026-05-08",
+  "first_published_on": null,
+  "publication_kind": "followup",
+  "occurred_on": null,
+  "detected_on": "2026-03-25",
+  "updated_on": "2026-05-08",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。侵入手口の詳細は調査中。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "具体的な対象人数・件数は未公表。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "生年月日",
+    "性別",
+    "電話番号",
+    "メールアドレス",
+    "健康情報",
+    "人事・福利厚生情報"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.ichiko.co.jp/info-others/%E3%82%B5%E3%82%A4%E3%83%90%E3%83%BC%E6%94%BB%E6%92%83%E3%81%AB%E3%82%88%E3%82%8B%E8%A2%AB%E5%AE%B3%E3%81%AE%E7%99%BA%E7%94%9F%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%EF%BC%88%E7%AC%AC%E4%B8%89%E5%A0%B1",
+      "type": "official",
+      "title": "ランサムウェア被害後に従業員・取引先等の個人情報への影響を公表",
+      "published_on": "2026-05-08",
+      "checked_on": "2026-10-27"
+    }
+  ],
+  "updates": [],
+  "notes": "5月8日第三報を掲載。VPN装置からの侵入の可能性が高いと説明するが手口は断定されていない。ログ消去等の制約により漏えいしていないことの技術的証明も困難としており、否定には分類しない。"
+}

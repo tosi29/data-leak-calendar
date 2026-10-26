@@ -1,0 +1,50 @@
+{
+  "id": "ibaraki-school-usb-20260428",
+  "organization": {
+    "name": "茨城県教育委員会",
+    "sector": "教育機関"
+  },
+  "title": "生徒延べ438名分の成績等を保存した私物USBメモリーを紛失",
+  "summary": "県立勝田中等教育学校と水戸第一高校等で勤務する非常勤講師が、許可なく成績を保存していた私物USBメモリーを紛失。",
+  "published_on": "2026-04-28",
+  "first_published_on": "2026-04-28",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-04-17",
+  "updated_on": "2026-04-28",
+  "verification": "official",
+  "leak_status": "lost",
+  "incident_type": "accident",
+  "cause": {
+    "category": "loss",
+    "detail": "私物USBメモリーを許可なく使用・携行し紛失。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 438,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "複数年度・学校にわたる延べ人数。実人数とは限らない。"
+    }
+  ],
+  "data_types": [
+    "成績",
+    "評定",
+    "順位",
+    "観点別評価",
+    "欠席日数"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://kyoiku.pref.ibaraki.jp/wp-content/uploads/2026/04/a5f1cb08e942020d01119f4317733702.pdf",
+      "type": "official",
+      "title": "生徒延べ438名分の成績等を保存した私物USBメモリーを紛失",
+      "published_on": "2026-04-28",
+      "checked_on": "2026-10-27"
+    }
+  ],
+  "updates": [],
+  "notes": "紛失日は4月10日ごろとされるため日付欄では断定しない。漏えいの確認ではなく媒体の紛失として掲載。"
+}

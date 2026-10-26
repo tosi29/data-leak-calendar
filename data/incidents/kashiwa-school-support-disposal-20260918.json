@@ -1,0 +1,50 @@
+{
+  "id": "kashiwa-school-support-disposal-20260918",
+  "organization": {
+    "name": "柏市",
+    "sector": "自治体"
+  },
+  "title": "特別支援教育就学奨励費の申請書類を誤廃棄",
+  "summary": "担任が申請書原本を写しと勘違いし、シュレッダーで廃棄していたことが判明した。",
+  "published_on": "2026-09-18",
+  "first_published_on": "2026-09-18",
+  "publication_kind": "initial",
+  "occurred_on": "2026-08-31",
+  "detected_on": "2026-09-08",
+  "updated_on": "2026-09-18",
+  "verification": "official",
+  "leak_status": "lost",
+  "incident_type": "accident",
+  "cause": {
+    "category": "loss",
+    "detail": "書類原本を写しと誤認して裁断。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "対象人数は公表されていない。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "電話番号",
+    "家族状況",
+    "口座番号"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.city.kashiwa.lg.jp/documents/42514/kohyo.pdf",
+      "type": "official",
+      "title": "特別支援教育就学奨励費の申請書類を誤廃棄",
+      "published_on": "2026-09-18",
+      "checked_on": "2026-10-27"
+    }
+  ],
+  "updates": [],
+  "notes": "一覧の更新日ではなく個別の公式公表資料の日付を採用。"
+}

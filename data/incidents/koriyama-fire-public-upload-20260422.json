@@ -1,0 +1,58 @@
+{
+  "id": "koriyama-fire-public-upload-20260422",
+  "organization": {
+    "name": "郡山地方広域消防組合",
+    "sector": "行政機関"
+  },
+  "title": "救急搬送記録を誤って公開ウェブサイトへ掲載",
+  "summary": "契約するクラウドへ保存すべき救急記録を外部機関の公開サイトに誤掲載。傷病者3名と通報者・医師等8名の情報が漏えいした。",
+  "published_on": "2026-04-22",
+  "first_published_on": "2026-04-22",
+  "publication_kind": "initial",
+  "occurred_on": "2026-04-10",
+  "detected_on": "2026-04-15",
+  "updated_on": "2026-04-22",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "accident",
+  "cause": {
+    "category": "misdelivery",
+    "detail": "職員がアップロード先を取り違え、公開サイトに個人情報を掲載した。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 3,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "傷病者本人。"
+    },
+    {
+      "count": 8,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "通報者・同乗者・医師等。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "生年月日",
+    "性別",
+    "住所",
+    "電話番号",
+    "病歴",
+    "救急搬送に至る経過"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.shobo.koriyama.fukushima.jp/information/files/ee4b808c5e235fc6a8d588b20b4d34c86d8d8388.pdf",
+      "type": "official",
+      "title": "救急搬送記録を誤って公開ウェブサイトへ掲載",
+      "published_on": "2026-04-22",
+      "checked_on": "2026-10-27"
+    }
+  ],
+  "updates": [],
+  "notes": "14件は電子ファイルへのアクセス数であり対象人数ではない。"
+}

@@ -1,0 +1,50 @@
+{
+  "id": "takuei-home-ielove-20260519",
+  "organization": {
+    "name": "タクエーホーム株式会社",
+    "sector": "企業・団体"
+  },
+  "title": "いえらぶCLOUDへの不正アクセスに伴う顧客情報への影響",
+  "summary": "利用するクラウドサービスで関係者情報が不正取得されたと報告を受領。氏名や連絡先等が対象となる可能性を公表。",
+  "published_on": "2026-05-19",
+  "first_published_on": "2026-05-19",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-05-19",
+  "verification": "secondary",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。侵入手口の詳細は調査中。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "当社の対象件数・人数は未公表。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "メールアドレス",
+    "電話番号",
+    "住所",
+    "連絡先"
+  ],
+  "related_vendor": "株式会社いえらぶGROUP",
+  "sources": [
+    {
+      "url": "https://cybersecurity-jp.com/news/113726",
+      "type": "news",
+      "title": "タクエーホーム、利用クラウドサービスへの不正アクセスを公表",
+      "published_on": "2026-05-28",
+      "checked_on": "2026-10-27"
+    }
+  ],
+  "updates": [],
+  "notes": "記事本文に5月19日公表と明記。元の公式PDFは現在別内容になっているため二次資料での確認として掲載。提供元や他の利用組織と影響が重複し得る。"
+}

@@ -1,0 +1,46 @@
+{
+  "id": "hrvision-blastmail-20261023",
+  "organization": {
+    "name": "株式会社HRビジョン",
+    "sector": "企業・団体"
+  },
+  "title": "日本の人事部のメールマガジン登録アドレスが配信委託先で漏えい",
+  "summary": "ブラストメールへの不正アクセスに伴い、メールマガジン登録者のメールアドレスが外部へ漏えいしたことを確認。",
+  "published_on": "2026-10-23",
+  "first_published_on": "2026-10-23",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-23",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。侵入手口の詳細は調査中。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": 212243,
+      "unit": "records",
+      "qualifier": "maximum",
+      "description": "10月20日23時55分時点の配信登録アドレス数。正確な流出件数は調査中。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "株式会社ラクスライトクラウド",
+  "sources": [
+    {
+      "url": "https://jinjibu.jp/info/detl/2012/",
+      "type": "official",
+      "title": "メールマガジン配信用外部サービスへの不正アクセス、および配信先メールアドレスの漏えいに関するお詫びとお知らせ",
+      "published_on": "2026-10-23",
+      "checked_on": "2026-10-27"
+    }
+  ],
+  "updates": [],
+  "notes": "会員約42万人全員ではなく、当該メールマガジン登録者が対象。212,243件は登録件数で流出確定件数とは区別する。氏名・勤務先・パスワード等は共有していない。提供元公表との重複あり。"
+}

@@ -1,0 +1,51 @@
+{
+  "id": "alpsalpine-vpn-20260427",
+  "organization": {
+    "name": "アルプスアルパイン株式会社",
+    "sector": "企業・団体"
+  },
+  "title": "外部VPNシステムへの不正アクセスでシステム利用者情報に影響",
+  "summary": "役員・従業員・退職者や委託先従業員の一部のシステム登録情報が、外部から閲覧された可能性を否定できないと公表。",
+  "published_on": "2026-04-27",
+  "first_published_on": "2026-04-27",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-04-03",
+  "updated_on": "2026-04-27",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。侵入手口の詳細は調査中。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "対象件数・人数は未公表。"
+    }
+  ],
+  "data_types": [
+    "ログインID",
+    "氏名",
+    "会社メールアドレス",
+    "役職",
+    "部門名",
+    "システムID"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.alpsalpine.com/cms.media/20260427_ja_Unauthorized_access_f1cf4a06a0.pdf",
+      "type": "official",
+      "title": "社内システムアクセス用の個人情報に対する不正アクセスについて",
+      "published_on": "2026-04-27",
+      "checked_on": "2026-10-27"
+    }
+  ],
+  "updates": [],
+  "notes": "4月13日に自社サーバーへの侵害が判明。顧客情報・取引先情報を対象に加えない。委託先事業者の名称は未公表。"
+}

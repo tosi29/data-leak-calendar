@@ -1,0 +1,50 @@
+{
+  "id": "kashiwa-water-slip-20260819",
+  "organization": {
+    "name": "柏市",
+    "sector": "自治体"
+  },
+  "title": "集合住宅の水道検針票を別の使用者へ誤配付",
+  "summary": "部屋番号を誤認し、別の使用者の検針票をポストへ投函した。",
+  "published_on": "2026-08-19",
+  "first_published_on": "2026-08-19",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-08-10",
+  "updated_on": "2026-08-19",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "accident",
+  "cause": {
+    "category": "misdelivery",
+    "detail": "送付先・封入内容・交付物の確認が不十分で誤送付・誤送信・誤交付。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "対象人数は公表されていない。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "水道番号",
+    "使用水量",
+    "水道料金"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.city.kashiwa.lg.jp/documents/42514/0819_kohyo.pdf",
+      "type": "official",
+      "title": "集合住宅の水道検針票を別の使用者へ誤配付",
+      "published_on": "2026-08-19",
+      "checked_on": "2026-10-27"
+    }
+  ],
+  "updates": [],
+  "notes": "一覧の更新日ではなく個別の公式公表資料の日付を採用。"
+}

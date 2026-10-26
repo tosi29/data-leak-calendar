@@ -1,0 +1,46 @@
+{
+  "id": "tomony-studio-20261018",
+  "organization": {
+    "name": "秋田県里親支援センターTOMONY",
+    "sector": "企業・団体"
+  },
+  "title": "Studioへの不正アクセスで問い合わせ情報19名分に漏えいのおそれ",
+  "summary": "Web制作サービスStudioへの不正アクセスにより、問い合わせフォームを利用した19名の情報が取得された可能性を公表。",
+  "published_on": "2026-10-18",
+  "first_published_on": "2026-10-18",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-18",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。侵入手口の詳細は調査中。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": 19,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "問い合わせフォーム利用者。"
+    }
+  ],
+  "data_types": [
+    "問い合わせフォームの個人情報（詳細確認中）"
+  ],
+  "related_vendor": "Studio株式会社",
+  "sources": [
+    {
+      "url": "https://tomo-ny.com/news/typZnqZQ",
+      "type": "official",
+      "title": "Studioへの不正アクセスで問い合わせ情報19名分に漏えいのおそれ",
+      "published_on": "2026-10-18",
+      "checked_on": "2026-10-27"
+    }
+  ],
+  "updates": [],
+  "notes": "公式ページの公開CMSデータ内の本文とpublishedAt（2026年10月18日）を確認。実際の第三者取得は未確認。19名へ電話・メールで個別連絡済み。提供元公表との重複あり。"
+}

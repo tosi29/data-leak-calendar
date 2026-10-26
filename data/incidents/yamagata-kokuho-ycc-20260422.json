@@ -1,0 +1,68 @@
+{
+  "id": "yamagata-kokuho-ycc-20260422",
+  "organization": {
+    "name": "山形県国民健康保険団体連合会",
+    "sector": "団体・組合"
+  },
+  "title": "YCCへの攻撃で療養費請求データに漏えいのおそれ",
+  "summary": "委託先YCCのファイルサーバーへの攻撃により、柔道整復師施術療養費の審査支払に使うデータが流出したおそれ。6月続報でも漏えいや二次被害は未確認と説明。",
+  "published_on": "2026-04-22",
+  "first_published_on": "2026-04-22",
+  "publication_kind": "initial",
+  "occurred_on": "2026-04-02",
+  "detected_on": null,
+  "updated_on": "2026-06-30",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。侵入手口の詳細は調査中。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": 1671,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "国民健康保険の2018年5月審査分。"
+    },
+    {
+      "count": 1112,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "後期高齢者医療の2018年5月審査分。"
+    }
+  ],
+  "data_types": [
+    "保険者番号",
+    "被保険者記号番号",
+    "性別コード",
+    "生年月日コード"
+  ],
+  "related_vendor": "株式会社YCC情報システム",
+  "sources": [
+    {
+      "url": "https://www.ymgt-kokuho.org/topics/2026/04/ycc.html",
+      "type": "official",
+      "title": "株式会社YCC情報システムに対するサイバー攻撃に係る個人情報の漏えいの恐れがある事案について",
+      "published_on": "2026-04-22",
+      "checked_on": "2026-10-27"
+    },
+    {
+      "url": "https://www.ymgt-kokuho.org/topics/2026/06/ycc-1.html",
+      "type": "official",
+      "title": "株式会社YCC情報システムに対するサイバー攻撃に係る個人情報の漏えいの恐れがある事案について（二報）",
+      "published_on": "2026-06-30",
+      "checked_on": "2026-10-27"
+    }
+  ],
+  "updates": [
+    {
+      "date": "2026-06-30",
+      "summary": "委託先から原因と再発防止策の報告を受け、管理強化を申し入れ。漏えい・二次被害は未確認。",
+      "source_index": 1
+    }
+  ],
+  "notes": "二報本文で初報が4月22日と確認。氏名・住所・電話番号・施術所名・負傷名は含まれない。保険者等の別組織による公表と対象が重複し得る。"
+}

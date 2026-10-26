@@ -1,0 +1,54 @@
+{
+  "id": "okinawa-bureau-filezen-20260428",
+  "organization": {
+    "name": "内閣府沖縄総合事務局",
+    "sector": "行政機関"
+  },
+  "title": "FileZen専用サーバーへの不正アクセスで個人情報漏えいのおそれ",
+  "summary": "大容量ファイル転送サービスの脆弱性を悪用した侵害で、土地原簿、催し参加者等の計15,091人の情報が漏えいした可能性を公表。",
+  "published_on": "2026-04-28",
+  "first_published_on": "2026-04-28",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-04-28",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "vulnerability",
+    "detail": "FileZen専用サーバーの脆弱性を悪用した不正アクセス。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 15091,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公式資料に示された対象者の計。項目は資料ごとに異なる。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "メールアドレス",
+    "生年月日",
+    "顔写真",
+    "電話番号",
+    "学歴",
+    "職歴",
+    "資格情報"
+  ],
+  "related_vendor": "株式会社ソリトンシステムズ",
+  "sources": [
+    {
+      "url": "https://www.ogb.go.jp/-/media/Files/OGB/Soumu/sintyaku/fuseiakusesu.pdf",
+      "type": "official",
+      "title": "FileZen専用サーバーへの不正アクセスで個人情報漏えいのおそれ",
+      "published_on": "2026-04-28",
+      "checked_on": "2026-10-27"
+    }
+  ],
+  "updates": [],
+  "notes": "侵害は2026年1月。ソリトンシステムズはFileZenの開発元として記載され、運用受託を推定しない。"
+}

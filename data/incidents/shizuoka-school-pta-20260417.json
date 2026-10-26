@@ -1,0 +1,48 @@
+{
+  "id": "shizuoka-school-pta-20260417",
+  "organization": {
+    "name": "静岡市教育委員会",
+    "sector": "教育機関"
+  },
+  "title": "小中20校で約9,200人分の情報を同意なくPTA役員へ提供",
+  "summary": "2024～2026年度に、小学校15校・中学校5校が児童生徒等の情報を保護者の同意なくPTA役員に提供していたと公表。",
+  "published_on": "2026-04-17",
+  "first_published_on": "2026-04-17",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-04-01",
+  "updated_on": "2026-04-17",
+  "verification": "official",
+  "leak_status": "improper_sharing",
+  "incident_type": "improper_handling",
+  "cause": {
+    "category": "improper_sharing",
+    "detail": "学校が保有する個人情報を、保護者の同意なくPTA活動に使うためPTA役員へ提供。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 9200,
+      "unit": "people",
+      "qualifier": "approximate",
+      "description": "20校における個人情報提供の対象規模。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "その他児童生徒等の情報"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.city.shizuoka.lg.jp/documents/58413/20260417006.pdf",
+      "type": "official",
+      "title": "静岡市立小中学校における個人情報の不適切な取扱いについて",
+      "published_on": "2026-04-17",
+      "checked_on": "2026-10-27"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

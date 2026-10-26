@@ -1,0 +1,46 @@
+{
+  "id": "nanjo-marathon-blastmail-20261026",
+  "organization": {
+    "name": "南城市",
+    "sector": "自治体"
+  },
+  "title": "尚巴志ハーフマラソンのアンケート配信登録情報に漏えいのおそれ",
+  "summary": "ブラストメールへの不正アクセスに伴い、過去5年の大会申込者のメールアドレスに漏えいの可能性を公表。第3報では確認済み流出対象に含まれず外部調査が続くと説明。",
+  "published_on": "2026-10-26",
+  "first_published_on": null,
+  "publication_kind": "followup",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-26",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。侵入手口の詳細は調査中。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "具体的な対象件数は未公表。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "沖縄広告株式会社／株式会社ラクスライトクラウド",
+  "sources": [
+    {
+      "url": "https://www.city.nanjo.okinawa.jp/topics/1792646187/",
+      "type": "official",
+      "title": "尚巴志ハーフマラソンのアンケート配信登録情報に漏えいのおそれ",
+      "published_on": "2026-10-26",
+      "checked_on": "2026-10-27"
+    }
+  ],
+  "updates": [],
+  "notes": "第3報の公表日を掲載日とし、初報日は不明。現時点で確認された流出対象には含まれないが外部調査継続中であり、否定とは扱わない。氏名・住所は対象外。"
+}

@@ -6915,5 +6915,1128 @@
     "source_urls": [
       "https://www.city.yokohama.lg.jp/city-info/koho-kocho/press/somu/2026/0415jimusyorimisu.files/0107_20260414.pdf"
     ]
+  },
+  {
+    "candidate": {
+      "id": "aug-review-next-188714",
+      "organization": "税額決定通知書を廃業事業所へ誤送付、所在不明に - 長岡市",
+      "reported_on": "2026-08-12",
+      "verification": "pending",
+      "reference_url": "https://www.security-next.com/188714",
+      "note": "4～10月横断再調査：参照URLの応答を再取得。公表日・自然人の対象情報・既存事案との対応について掲載を確定する根拠が揃わず、保留を継続。 前回調査メモ：6人分の税額通知の誤送付を報道で再確認。5月15日の発送と8月12日の記事だけでは対象期間内の公表日が確定しない。",
+      "reviewed_on": "2026-10-27",
+      "checked_urls": [
+        "https://www.security-next.com/188714"
+      ]
+    },
+    "reviewed_on": "2026-10-27",
+    "resolution": "published",
+    "incident_ids": [
+      "nagaoka-tax-notices-20260728"
+    ],
+    "reason": "公式本文・発表一覧で公表日と対象情報を照合して掲載。",
+    "source_urls": [
+      "https://www.city.nagaoka.niigata.jp/shisei/cate02/houdou-shiryou/file/20260728-02.pdf"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "may-review-d0ee4ddb1cff",
+      "organization": "ポラリス・ホールディングス",
+      "reported_on": "2026-10-26",
+      "verification": "pending",
+      "reference_url": "https://www.polaris-holdings.com/wp-content/uploads/2026/05/Release_Unauthorized_Access_260528_JP.pdf",
+      "note": "4～10月横断再調査：参照URLの再取得を試みたが本文取得に至らず、従来の未確認事項を解消できないため保留を継続。 前回調査メモ：5月遡及調査で発見。reported_onは発見日であり公表日ではない。公式PDFが404。Booking.comアカウント侵害と個人情報への影響を原文で未確認。",
+      "reviewed_on": "2026-10-27",
+      "checked_urls": [
+        "https://www.polaris-holdings.com/wp-content/uploads/2026/05/Release_Unauthorized_Access_260528_JP.pdf"
+      ]
+    },
+    "reviewed_on": "2026-10-27",
+    "resolution": "published",
+    "incident_ids": [
+      "polaris-booking-20260528"
+    ],
+    "reason": "新たに判明した公式資料または公表日を明記する報道により掲載根拠を補完。",
+    "source_urls": [
+      "https://www.polaris-holdings.com/wp-content/uploads/2026/05/Release_Unauthorized_Access_260528_JP.pdf"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "may-review-a3bed6cf72e4",
+      "organization": "関市（市立学校）",
+      "reported_on": "2026-10-26",
+      "verification": "pending",
+      "reference_url": "https://www.city.seki.lg.jp/0000023194.html",
+      "note": "4～10月横断再調査：参照URLの再取得を試みたが本文取得に至らず、従来の未確認事項を解消できないため保留を継続。 前回調査メモ：5月遡及調査で発見。reported_onは発見日であり公表日ではない。USB紛失の公式URLが404。人数・公表日を原文で未確認。",
+      "reviewed_on": "2026-10-27",
+      "checked_urls": [
+        "https://www.city.seki.lg.jp/0000023194.html"
+      ]
+    },
+    "reviewed_on": "2026-10-27",
+    "resolution": "published",
+    "incident_ids": [
+      "seki-school-library-usb-20260521"
+    ],
+    "reason": "公表日を明示した公式発表または報道で日付・対象情報を照合。記事配信日を公表日に転用していない。",
+    "source_urls": [
+      "https://www.excite.co.jp/news/article/Scannetsecurity_55425/",
+      "https://bose50.hatenadiary.org/entry/2026/05/04/230628"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "may-review-2267ad7ce9a6",
+      "organization": "あなぶきハウジングサービス",
+      "reported_on": "2026-10-26",
+      "verification": "pending",
+      "reference_url": "https://www.anabuki-housing.co.jp/news/content.php?news_id=530&news_category_cd=0",
+      "note": "4～10月横断再調査：参照URLの再取得を試みたが本文取得に至らず、従来の未確認事項を解消できないため保留を継続。 前回調査メモ：5月遡及調査で発見。reported_onは発見日であり公表日ではない。第6報の公式URLが429。グループ全体の人数を原文で未確認。香川県営住宅474人の公表とは区別。 4月調査：4月の第5報も429。対象全体の規模は未確認。",
+      "reviewed_on": "2026-10-27",
+      "checked_urls": [
+        "https://www.anabuki-housing.co.jp/news/content.php?news_id=530&news_category_cd=0",
+        "https://www.anabuki-housing.co.jp/news/content.php?news_id=525"
+      ]
+    },
+    "reviewed_on": "2026-10-27",
+    "resolution": "published",
+    "incident_ids": [
+      "anabuki-housing-20260521"
+    ],
+    "reason": "公表日を明示した公式発表または報道で日付・対象情報を照合。記事配信日を公表日に転用していない。",
+    "source_urls": [
+      "https://www.anabuki-housing.co.jp/news/content.php?news_category_cd=0&news_id=530"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "may-review-05b50d1cce3e",
+      "organization": "タクエーホーム",
+      "reported_on": "2026-10-26",
+      "verification": "pending",
+      "reference_url": "https://www.takuei-home.co.jp/news/0519.pdf",
+      "note": "4～10月横断再調査：参照URLは合併・営業継続の案内を返す。当該事故の本文として確認できない。 前回調査メモ：5月遡及調査で発見。reported_onは発見日であり公表日ではない。参照PDFは現在合併案内を返す。クラウド侵害の元資料を未取得。",
+      "reviewed_on": "2026-10-27",
+      "checked_urls": [
+        "https://www.takuei-home.co.jp/news/0519.pdf"
+      ]
+    },
+    "reviewed_on": "2026-10-27",
+    "resolution": "published",
+    "incident_ids": [
+      "takuei-home-ielove-20260519"
+    ],
+    "reason": "公表日を明示した公式発表または報道で日付・対象情報を照合。記事配信日を公表日に転用していない。",
+    "source_urls": [
+      "https://cybersecurity-jp.com/news/113726"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "may-review-06b2f4fd1047",
+      "organization": "東京鋪装工業",
+      "reported_on": "2026-10-26",
+      "verification": "pending",
+      "reference_url": "https://www.tokyohoso.co.jp/news/1366/",
+      "note": "4～10月横断再調査：参照URLの再取得を試みたが本文取得に至らず、従来の未確認事項を解消できないため保留を継続。 前回調査メモ：5月遡及調査で発見。reported_onは発見日であり公表日ではない。公式ページが503。報道の個人情報への影響と実際の公表日を原文で照合できず。",
+      "reviewed_on": "2026-10-27",
+      "checked_urls": [
+        "https://www.tokyohoso.co.jp/news/1366/"
+      ]
+    },
+    "reviewed_on": "2026-10-27",
+    "resolution": "published",
+    "incident_ids": [
+      "tokyohoso-ransomware-20260512"
+    ],
+    "reason": "公表日を明示した公式発表または報道で日付・対象情報を照合。記事配信日を公表日に転用していない。",
+    "source_urls": [
+      "https://cybersecurity-info.com/news/ransomware-attack-on-road-paving-contractor-tokyo-paving-industry/",
+      "https://www.excite.co.jp/news/article/Scannetsecurity_55356/"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "may-review-0a51ddb01905",
+      "organization": "DeNA（DeNAアカウント）",
+      "reported_on": "2026-10-26",
+      "verification": "pending",
+      "reference_url": "https://support.accounts.dena.com/hc/ja/articles/57840440271513--%E6%B3%A8%E6%84%8F%E5%96%9A%E8%B5%B7-2026-05-12-%E3%83%A1%E3%83%BC%E3%83%AB%E3%82%A2%E3%83%89%E3%83%AC%E3%82%B9%E3%81%AE%E4%B8%8D%E6%AD%A3%E5%88%A9%E7%94%A8%E3%81%8C%E7%A2%BA%E8%AA%8D%E3%81%95%E3%82%8C%E3%81%A6%E3%81%84%E3%81%BE%E3%81%99",
+      "note": "4～10月横断再調査：参照URLはプライバシーポリシー改定のページを返す。当該不正アクセス事故の本文として確認できない。 前回調査メモ：5月遡及調査で発見。reported_onは発見日であり公表日ではない。公式注意喚起が403。メールアドレス不正利用とサービスからの漏えいを区別する必要がある。",
+      "reviewed_on": "2026-10-27",
+      "checked_urls": [
+        "https://support.accounts.dena.com/hc/ja/articles/57840440271513--%E6%B3%A8%E6%84%8F%E5%96%9A%E8%B5%B7-2026-05-12-%E3%83%A1%E3%83%BC%E3%83%AB%E3%82%A2%E3%83%89%E3%83%AC%E3%82%B9%E3%81%AE%E4%B8%8D%E6%AD%A3%E5%88%A9%E7%94%A8%E3%81%8C%E7%A2%BA%E8%AA%8D%E3%81%95%E3%82%8C%E3%81%A6%E3%81%84%E3%81%BE%E3%81%99"
+      ]
+    },
+    "reviewed_on": "2026-10-27",
+    "resolution": "published",
+    "incident_ids": [
+      "dena-account-takeover-20260512"
+    ],
+    "reason": "公表日を明示した公式発表または報道で日付・対象情報を照合。記事配信日を公表日に転用していない。",
+    "source_urls": [
+      "https://support.accounts.dena.com/hc/ja/articles/57840440271513--%E6%B3%A8%E6%84%8F%E5%96%9A%E8%B5%B7-2026-05-12-%E3%83%A1%E3%83%BC%E3%83%AB%E3%82%A2%E3%83%89%E3%83%AC%E3%82%B9%E3%81%AE%E4%B8%8D%E6%AD%A3%E5%88%A9%E7%94%A8%E3%81%8C%E7%A2%BA%E8%AA%8D%E3%81%95%E3%82%8C%E3%81%A6%E3%81%84%E3%81%BE%E3%81%99"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "may-review-d5c125266dd9",
+      "organization": "共栄火災海上保険",
+      "reported_on": "2026-10-26",
+      "verification": "pending",
+      "reference_url": "https://www.kyoeikasai.co.jp/info/info20260512.pdf",
+      "note": "4～10月横断再調査：参照URLの再取得を試みたが本文取得に至らず、従来の未確認事項を解消できないため保留を継続。 前回調査メモ：5月遡及調査で発見。reported_onは発見日であり公表日ではない。公式PDFはTLSエラー／取得エラー。委託先被害による対象情報と単位を原文で未確認。",
+      "reviewed_on": "2026-10-27",
+      "checked_urls": [
+        "https://www.kyoeikasai.co.jp/info/info20260512.pdf"
+      ]
+    },
+    "reviewed_on": "2026-10-27",
+    "resolution": "published",
+    "incident_ids": [
+      "kyoei-shinken-20260512"
+    ],
+    "reason": "公式本文・発表一覧で公表日と対象情報を照合して掲載。",
+    "source_urls": [
+      "https://www.kyoeikasai.co.jp/info/info20260512.pdf"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "may-review-90acedc57935",
+      "organization": "東海大学（業務委託先・問い合わせ窓口変更）",
+      "reported_on": "2026-10-26",
+      "verification": "pending",
+      "reference_url": "https://www.u-tokai.ac.jp/news-notice/1367157/",
+      "note": "4～10月横断再調査：参照URLの応答を再取得。公表日・自然人の対象情報・既存事案との対応について掲載を確定する根拠が揃わず、保留を継続。 前回調査メモ：5月遡及調査で発見。reported_onは発見日であり公表日ではない。5月の告知は窓口変更。収集期間内の対象情報公表と過去の委託先事故の関係を未照合。東山産業関連の5月28日公表と混同しない。",
+      "reviewed_on": "2026-10-27",
+      "checked_urls": [
+        "https://www.u-tokai.ac.jp/news-notice/1367157/"
+      ]
+    },
+    "reviewed_on": "2026-10-27",
+    "resolution": "published",
+    "incident_ids": [
+      "tokai-outsourced-server-20260509"
+    ],
+    "reason": "公式本文・公表日を照合して掲載。二次確認の場合は出典と確認区分を明示。",
+    "source_urls": [
+      "https://www.u-tokai.ac.jp/news-notice/1367157/",
+      "https://www.u-tokai.ac.jp/uploads/2026/02/8f619ff70dd54597ac4189dff04c9dea.pdf"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "may-review-d7b25aca85cd",
+      "organization": "資生堂美容室",
+      "reported_on": "2026-10-26",
+      "verification": "pending",
+      "reference_url": "https://salon.shiseido.co.jp/news/p20260507_25673/",
+      "note": "4～10月横断再調査：参照URLの再取得を試みたが本文取得に至らず、従来の未確認事項を解消できないため保留を継続。 前回調査メモ：5月遡及調査で発見。reported_onは発見日であり公表日ではない。予約システム委託先の公式告知が503。対象情報と公表日を原文で未確認。",
+      "reviewed_on": "2026-10-27",
+      "checked_urls": [
+        "https://salon.shiseido.co.jp/news/p20260507_25673/"
+      ]
+    },
+    "reviewed_on": "2026-10-27",
+    "resolution": "published",
+    "incident_ids": [
+      "shiseido-salon-cynd-20260507"
+    ],
+    "reason": "新たに判明した公式資料または公表日を明記する報道により掲載根拠を補完。",
+    "source_urls": [
+      "https://rocket-boys.co.jp/security-measures-lab/shiseido-salon-vendor-breach-no-data-leak-found/"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "may-review-071d07945d4e",
+      "organization": "東北大学",
+      "reported_on": "2026-10-26",
+      "verification": "pending",
+      "reference_url": "https://www.tohoku.ac.jp/japanese/2026/05/news20260501-public.html",
+      "note": "4～10月横断再調査：参照URLの再取得を試みたが本文取得に至らず、従来の未確認事項を解消できないため保留を継続。 前回調査メモ：5月遡及調査で発見。reported_onは発見日であり公表日ではない。公式告知が404。対象情報と公表日を原文で未確認。",
+      "reviewed_on": "2026-10-27",
+      "checked_urls": [
+        "https://www.tohoku.ac.jp/japanese/2026/05/news20260501-public.html"
+      ]
+    },
+    "reviewed_on": "2026-10-27",
+    "resolution": "published",
+    "incident_ids": [
+      "tohoku-university-nas-20260501"
+    ],
+    "reason": "公式本文で公表日と対象情報を照合し掲載。続報の場合は初報日を推定しない。",
+    "source_urls": [
+      "https://www.tohoku.ac.jp/japanese/2026/06/news20260501-public.html"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "may-review-fad3aae558ec",
+      "organization": "CKCネットワーク・学参（明倫ゼミナール・ナビ個別指導学院）",
+      "reported_on": "2026-10-26",
+      "verification": "pending",
+      "reference_url": "https://www.ckc.co.jp/announcement.pdf",
+      "note": "4～10月横断再調査：参照URLの再取得を試みたが本文取得に至らず、従来の未確認事項を解消できないため保留を継続。 前回調査メモ：5月遡及調査で発見。reported_onは発見日であり公表日ではない。公式PDF・告知は404／410。共通の問い合わせシステムへの影響と組織ごとの記録単位を未確認。",
+      "reviewed_on": "2026-10-27",
+      "checked_urls": [
+        "https://www.ckc.co.jp/announcement.pdf",
+        "https://meirin-zemi.jp/news/%e3%80%90%e9%87%8d%e8%a6%81%e3%80%91%e3%83%a9%e3%83%b3%e3%82%b5%e3%83%a0%e3%82%a6%e3%82%a7%e3%82%a2%e3%81%ab%e3%82%88%e3%82%8b%e5%80%8b%e4%ba%ba%e6%83%85%e5%a0%b1%e6%bc%8f%e3%81%88%e3%81%84%e3%81%ae/",
+        "https://www.navi-school.com/news/492516.html",
+        "https://www.aozora.com/announcement.pdf",
+        "https://www.security-next.com/184513"
+      ]
+    },
+    "reviewed_on": "2026-10-27",
+    "resolution": "published",
+    "incident_ids": [
+      "ckc-gakusan-20260515"
+    ],
+    "reason": "公式本文・発表一覧で公表日と対象情報を照合して掲載。",
+    "source_urls": [
+      "https://www.ckc.co.jp/announcement.pdf"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "may-review-b817873ae915",
+      "organization": "住宅相談者の個人情報含む書類が所在不明に - 港区",
+      "reported_on": "2026-10-26",
+      "verification": "pending",
+      "reference_url": "https://www.security-next.com/185018",
+      "note": "4～10月横断再調査：参照URLの応答を再取得。公表日・自然人の対象情報・既存事案との対応について掲載を確定する根拠が揃わず、保留を継続。 前回調査メモ：5月遡及調査で発見。reported_onは発見日であり公表日ではない。5月の報道で発見したが、組織の公表日と一次資料・対象情報の照合を完了していない。報道日や発生日を掲載公表日には採用しない。",
+      "reviewed_on": "2026-10-27",
+      "checked_urls": [
+        "https://www.security-next.com/185018"
+      ]
+    },
+    "reviewed_on": "2026-10-27",
+    "resolution": "published",
+    "incident_ids": [
+      "minato-housing-documents-20260514"
+    ],
+    "reason": "新たに判明した公式資料または公表日を明記する報道により掲載根拠を補完。",
+    "source_urls": [
+      "https://www.city.minato.tokyo.jp/houdou/kuse/koho/press/202605/20260514.html"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "may-review-39d621cb1f7d",
+      "organization": "市教委、保護者向けの案内メールで誤送信 - 佐渡市",
+      "reported_on": "2026-10-26",
+      "verification": "pending",
+      "reference_url": "https://www.security-next.com/185016",
+      "note": "4～10月横断再調査：参照URLの応答を再取得。公表日・自然人の対象情報・既存事案との対応について掲載を確定する根拠が揃わず、保留を継続。 前回調査メモ：5月遡及調査で発見。reported_onは発見日であり公表日ではない。5月の報道で発見したが、組織の公表日と一次資料・対象情報の照合を完了していない。報道日や発生日を掲載公表日には採用しない。",
+      "reviewed_on": "2026-10-27",
+      "checked_urls": [
+        "https://www.security-next.com/185016"
+      ]
+    },
+    "reviewed_on": "2026-10-27",
+    "resolution": "published",
+    "incident_ids": [
+      "sado-kids-mail-20260511"
+    ],
+    "reason": "公式本文で公表日と対象情報を照合し掲載。続報の場合は初報日を推定しない。",
+    "source_urls": [
+      "https://www.city.sado.niigata.jp/uploaded/attachment/59689.pdf"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "may-review-6eb0d2e9ed36",
+      "organization": "成人祝賀イベントの参加者向けメールで誤送信 - 酒田市",
+      "reported_on": "2026-10-26",
+      "verification": "pending",
+      "reference_url": "https://www.security-next.com/184745",
+      "note": "4～10月横断再調査：参照URLの応答を再取得。公表日・自然人の対象情報・既存事案との対応について掲載を確定する根拠が揃わず、保留を継続。 前回調査メモ：5月遡及調査で発見。reported_onは発見日であり公表日ではない。5月の報道で発見したが、組織の公表日と一次資料・対象情報の照合を完了していない。報道日や発生日を掲載公表日には採用しない。",
+      "reviewed_on": "2026-10-27",
+      "checked_urls": [
+        "https://www.security-next.com/184745"
+      ]
+    },
+    "reviewed_on": "2026-10-27",
+    "resolution": "published",
+    "incident_ids": [
+      "sakata-coming-age-mail-20260505"
+    ],
+    "reason": "公表日を明示した公式発表または報道で日付・対象情報を照合。記事配信日を公表日に転用していない。",
+    "source_urls": [
+      "https://news.livedoor.com/article/detail/31184047/",
+      "https://www.security-next.com/184745"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "may-review-dce6124f12d9",
+      "organization": "県立校で生徒の成績情報を含むUSBメモリを紛失 - 茨城県",
+      "reported_on": "2026-10-26",
+      "verification": "pending",
+      "reference_url": "https://www.security-next.com/184584",
+      "note": "4～10月横断再調査：参照URLの応答を再取得。公表日・自然人の対象情報・既存事案との対応について掲載を確定する根拠が揃わず、保留を継続。 前回調査メモ：5月遡及調査で発見。reported_onは発見日であり公表日ではない。5月の報道で発見したが、組織の公表日と一次資料・対象情報の照合を完了していない。報道日や発生日を掲載公表日には採用しない。",
+      "reviewed_on": "2026-10-27",
+      "checked_urls": [
+        "https://www.security-next.com/184584"
+      ]
+    },
+    "reviewed_on": "2026-10-27",
+    "resolution": "published",
+    "incident_ids": [
+      "ibaraki-school-usb-20260428"
+    ],
+    "reason": "公式本文で公表日と対象情報を照合し掲載。続報の場合は初報日を推定しない。",
+    "source_urls": [
+      "https://kyoiku.pref.ibaraki.jp/wp-content/uploads/2026/04/a5f1cb08e942020d01119f4317733702.pdf"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "may-review-c90fa16b479d",
+      "organization": "交通違反者の個人情報含む引継簿が所在不明 - 道警",
+      "reported_on": "2026-10-26",
+      "verification": "pending",
+      "reference_url": "https://www.security-next.com/184300",
+      "note": "4～10月横断再調査：参照URLの応答を再取得。公表日・自然人の対象情報・既存事案との対応について掲載を確定する根拠が揃わず、保留を継続。 前回調査メモ：5月遡及調査で発見。reported_onは発見日であり公表日ではない。5月の報道で発見したが、組織の公表日と一次資料・対象情報の照合を完了していない。報道日や発生日を掲載公表日には採用しない。",
+      "reviewed_on": "2026-10-27",
+      "checked_urls": [
+        "https://www.security-next.com/184300"
+      ]
+    },
+    "reviewed_on": "2026-10-27",
+    "resolution": "published",
+    "incident_ids": [
+      "hokkaido-teshikaga-log-20260424"
+    ],
+    "reason": "公表日を明示した公式発表または報道で日付・対象情報を照合。記事配信日を公表日に転用していない。",
+    "source_urls": [
+      "https://scan.netsecurity.ne.jp/special/109/recent/%E7%B4%9B%E5%A4%B1?page=1",
+      "https://www.security-next.com/184300"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "may-review-ed6ac6b4684e",
+      "organization": "27店舗で印鑑届の紛失が判明、誤廃棄の可能性 - 豊川信金",
+      "reported_on": "2026-10-26",
+      "verification": "pending",
+      "reference_url": "https://www.security-next.com/184476",
+      "note": "4～10月横断再調査：参照URLの応答を再取得。公表日・自然人の対象情報・既存事案との対応について掲載を確定する根拠が揃わず、保留を継続。 前回調査メモ：5月遡及調査で発見。reported_onは発見日であり公表日ではない。5月の報道で発見したが、組織の公表日と一次資料・対象情報の照合を完了していない。報道日や発生日を掲載公表日には採用しない。",
+      "reviewed_on": "2026-10-27",
+      "checked_urls": [
+        "https://www.security-next.com/184476"
+      ]
+    },
+    "reviewed_on": "2026-10-27",
+    "resolution": "published",
+    "incident_ids": [
+      "toyokawa-shinkin-seals-20260424"
+    ],
+    "reason": "公式本文で公表日と対象情報を照合し掲載。続報の場合は初報日を推定しない。",
+    "source_urls": [
+      "https://www.kawa-shin.co.jp/_news/contents/21379/20260424_inkantodokefunshitsunikansuruowabitogohoukoku.pdf"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "may-review-0e90b72664f4",
+      "organization": "「MS 365」に不正ログイン、個人情報流出の可能性 - 日経米子会社",
+      "reported_on": "2026-10-26",
+      "verification": "pending",
+      "reference_url": "https://www.security-next.com/184168",
+      "note": "4～10月横断再調査：参照URLの応答を再取得。公表日・自然人の対象情報・既存事案との対応について掲載を確定する根拠が揃わず、保留を継続。 前回調査メモ：5月遡及調査で発見。reported_onは発見日であり公表日ではない。5月の報道で発見したが、組織の公表日と一次資料・対象情報の照合を完了していない。報道日や発生日を掲載公表日には採用しない。",
+      "reviewed_on": "2026-10-27",
+      "checked_urls": [
+        "https://www.security-next.com/184168"
+      ]
+    },
+    "reviewed_on": "2026-10-27",
+    "resolution": "published",
+    "incident_ids": [
+      "nikkei-america-m365-20260507"
+    ],
+    "reason": "対象情報・公表日を本文で確認。報道日や事故発生日と区別して掲載。",
+    "source_urls": [
+      "https://www.onebe.co.jp/dlpnews/?p=35336",
+      "https://www.security-next.com/184168"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "may-review-33cf3d841d3a",
+      "organization": "開示文書の墨塗り個人情報、出力ミスで参照可能に - 北九州市",
+      "reported_on": "2026-10-26",
+      "verification": "pending",
+      "reference_url": "https://www.security-next.com/184173",
+      "note": "4～10月横断再調査：参照URLの応答を再取得。公表日・自然人の対象情報・既存事案との対応について掲載を確定する根拠が揃わず、保留を継続。 前回調査メモ：5月遡及調査で発見。reported_onは発見日であり公表日ではない。5月の報道で発見したが、組織の公表日と一次資料・対象情報の照合を完了していない。報道日や発生日を掲載公表日には採用しない。掲載済み7月3日の北九州市マスキング点検（1,139人）とは数値が異なり、同一事案か未確定。",
+      "reviewed_on": "2026-10-27",
+      "checked_urls": [
+        "https://www.security-next.com/184173"
+      ]
+    },
+    "reviewed_on": "2026-10-27",
+    "resolution": "published",
+    "incident_ids": [
+      "kitakyushu-teacher-redaction-20260421"
+    ],
+    "reason": "公表日を明示した公式発表または報道で日付・対象情報を照合。記事配信日を公表日に転用していない。",
+    "source_urls": [
+      "https://www.excite.co.jp/news/article/kbc_1419334205548823118/",
+      "https://www.security-next.com/184173"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "may-review-17e49f529e32",
+      "organization": "動作確認ページ残存、ボランティア登録者メアドが閲覧可能に - 名古屋市",
+      "reported_on": "2026-10-26",
+      "verification": "pending",
+      "reference_url": "https://www.security-next.com/184029",
+      "note": "4～10月横断再調査：参照URLの応答を再取得。公表日・自然人の対象情報・既存事案との対応について掲載を確定する根拠が揃わず、保留を継続。 前回調査メモ：5月遡及調査で発見。reported_onは発見日であり公表日ではない。5月の報道で発見したが、組織の公表日と一次資料・対象情報の照合を完了していない。報道日や発生日を掲載公表日には採用しない。",
+      "reviewed_on": "2026-10-27",
+      "checked_urls": [
+        "https://www.security-next.com/184029"
+      ]
+    },
+    "reviewed_on": "2026-10-27",
+    "resolution": "published",
+    "incident_ids": [
+      "nagoya-welcome-supporter-20260417"
+    ],
+    "reason": "公式本文で公表日と対象情報を照合し掲載。続報の場合は初報日を推定しない。",
+    "source_urls": [
+      "https://www.city.nagoya.jp/houdou/3003942/3003943/3004479.html"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "may-review-718c187a2583",
+      "organization": "ファイル転送サーバに不正アクセス、個人情報流出か - 沖縄総合事務局",
+      "reported_on": "2026-10-26",
+      "verification": "pending",
+      "reference_url": "https://www.security-next.com/183999",
+      "note": "4～10月横断再調査：参照URLの応答を再取得。公表日・自然人の対象情報・既存事案との対応について掲載を確定する根拠が揃わず、保留を継続。 前回調査メモ：5月遡及調査で発見。reported_onは発見日であり公表日ではない。5月の報道で発見したが、組織の公表日と一次資料・対象情報の照合を完了していない。報道日や発生日を掲載公表日には採用しない。",
+      "reviewed_on": "2026-10-27",
+      "checked_urls": [
+        "https://www.security-next.com/183999"
+      ]
+    },
+    "reviewed_on": "2026-10-27",
+    "resolution": "published",
+    "incident_ids": [
+      "okinawa-bureau-filezen-20260428"
+    ],
+    "reason": "公式本文で公表日と対象情報を照合し掲載。続報の場合は初報日を推定しない。",
+    "source_urls": [
+      "https://www.ogb.go.jp/-/media/Files/OGB/Soumu/sintyaku/fuseiakusesu.pdf"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "may-review-0563442fe952",
+      "organization": "小中20校で児童生徒の個人情報を同意なしにPTAへ提供 - 静岡市",
+      "reported_on": "2026-10-26",
+      "verification": "pending",
+      "reference_url": "https://www.security-next.com/184008",
+      "note": "4～10月横断再調査：参照URLの応答を再取得。公表日・自然人の対象情報・既存事案との対応について掲載を確定する根拠が揃わず、保留を継続。 前回調査メモ：5月遡及調査で発見。reported_onは発見日であり公表日ではない。5月の報道で発見したが、組織の公表日と一次資料・対象情報の照合を完了していない。報道日や発生日を掲載公表日には採用しない。",
+      "reviewed_on": "2026-10-27",
+      "checked_urls": [
+        "https://www.security-next.com/184008"
+      ]
+    },
+    "reviewed_on": "2026-10-27",
+    "resolution": "published",
+    "incident_ids": [
+      "shizuoka-school-pta-20260417"
+    ],
+    "reason": "新たに判明した公式資料または公表日を明記する報道により掲載根拠を補完。",
+    "source_urls": [
+      "https://www.city.shizuoka.lg.jp/documents/58413/20260417006.pdf"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "may-review-ddf8707c9c4d",
+      "organization": "複数Chatworkアカウントが侵害、不正な請求書送信も - 鉄道設備機器メーカー",
+      "reported_on": "2026-10-26",
+      "verification": "pending",
+      "reference_url": "https://www.security-next.com/184004",
+      "note": "4～10月横断再調査：参照URLの応答を再取得。公表日・自然人の対象情報・既存事案との対応について掲載を確定する根拠が揃わず、保留を継続。 前回調査メモ：5月遡及調査で発見。reported_onは発見日であり公表日ではない。5月の報道で発見したが、組織の公表日と一次資料・対象情報の照合を完了していない。報道日や発生日を掲載公表日には採用しない。 4月調査：最終報本文で最大60件と初報3月26日を確認したが、最終報自体の公開日は表示がなく未確定。",
+      "reviewed_on": "2026-10-27",
+      "checked_urls": [
+        "https://www.security-next.com/184004",
+        "https://yutaka-d.co.jp/information/news/000074.html"
+      ]
+    },
+    "reviewed_on": "2026-10-27",
+    "resolution": "published",
+    "incident_ids": [
+      "yutaka-chatwork-20260424"
+    ],
+    "reason": "公式本文・発表一覧で公表日と対象情報を照合して掲載。",
+    "source_urls": [
+      "https://yutaka-d.co.jp/information/news/000074.html"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "may-review-15d19c8c1a4b",
+      "organization": "手術室のタブレット端末が所在不明 - 荻窪病院",
+      "reported_on": "2026-10-26",
+      "verification": "pending",
+      "reference_url": "https://www.security-next.com/184010",
+      "note": "4～10月横断再調査：参照URLの応答を再取得。公表日・自然人の対象情報・既存事案との対応について掲載を確定する根拠が揃わず、保留を継続。 前回調査メモ：5月遡及調査で発見。reported_onは発見日であり公表日ではない。5月の報道で発見したが、組織の公表日と一次資料・対象情報の照合を完了していない。報道日や発生日を掲載公表日には採用しない。",
+      "reviewed_on": "2026-10-27",
+      "checked_urls": [
+        "https://www.security-next.com/184010"
+      ]
+    },
+    "reviewed_on": "2026-10-27",
+    "resolution": "published",
+    "incident_ids": [
+      "ogikubo-hospital-ipad-20260420"
+    ],
+    "reason": "公式本文で公表日と対象情報を照合し掲載。続報の場合は初報日を推定しない。",
+    "source_urls": [
+      "https://www.ogikubo-hospital.or.jp/2026/04/20/24319/"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "apr-review-a78f7ff81a19",
+      "organization": "アルプスアルパイン",
+      "reported_on": "2026-10-26",
+      "verification": "pending",
+      "reference_url": "https://www.alpsalpine.com/cms.media/20260427_ja_Unauthorized_access_58835542a8.pdf",
+      "note": "4～10月横断再調査：参照URLの再取得を試みたが本文取得に至らず、従来の未確認事項を解消できないため保留を継続。 前回調査メモ：4月遡及調査で発見。reported_onは発見日であり公表日ではない。公式PDFが403。システム用個人情報の対象・規模を原文で照合できず。",
+      "reviewed_on": "2026-10-27",
+      "checked_urls": [
+        "https://www.alpsalpine.com/cms.media/20260427_ja_Unauthorized_access_58835542a8.pdf"
+      ]
+    },
+    "reviewed_on": "2026-10-27",
+    "resolution": "published",
+    "incident_ids": [
+      "alpsalpine-vpn-20260427"
+    ],
+    "reason": "公式本文・公表日を照合して掲載。二次確認の場合は出典と確認区分を明示。",
+    "source_urls": [
+      "https://www.alpsalpine.com/cms.media/20260427_ja_Unauthorized_access_f1cf4a06a0.pdf"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "apr-review-cdac0436c051",
+      "organization": "橋本市民病院",
+      "reported_on": "2026-10-26",
+      "verification": "pending",
+      "reference_url": "https://hashimoto-hsp.jp/news/20260427.html",
+      "note": "4～10月横断再調査：参照URLの応答を再取得。公表日・自然人の対象情報・既存事案との対応について掲載を確定する根拠が揃わず、保留を継続。 前回調査メモ：4月遡及調査で発見。reported_onは発見日であり公表日ではない。4月27日に実習時の電子カルテ不正アクセスを公表。個人情報流出は未確認であり、具体的な閲覧対象・範囲の確定が必要。",
+      "reviewed_on": "2026-10-27",
+      "checked_urls": [
+        "https://hashimoto-hsp.jp/news/20260427.html"
+      ]
+    },
+    "reviewed_on": "2026-10-27",
+    "resolution": "published",
+    "incident_ids": [
+      "hashimoto-hospital-record-access-20260427"
+    ],
+    "reason": "公式本文・公表日を照合して掲載。二次確認の場合は出典と確認区分を明示。",
+    "source_urls": [
+      "https://hashimoto-hsp.jp/news/20260427.html"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "apr-review-04354849be42",
+      "organization": "一誠商事",
+      "reported_on": "2026-10-26",
+      "verification": "pending",
+      "reference_url": "https://www.issei-syoji.co.jp/news/news260424/",
+      "note": "4～10月横断再調査：参照URLの応答を再取得。公表日・自然人の対象情報・既存事案との対応について掲載を確定する根拠が揃わず、保留を継続。 前回調査メモ：4月遡及調査で発見。reported_onは発見日であり公表日ではない。公式告知が503。対象・公表日を本文で未確認。",
+      "reviewed_on": "2026-10-27",
+      "checked_urls": [
+        "https://www.issei-syoji.co.jp/news/news260424/"
+      ]
+    },
+    "reviewed_on": "2026-10-27",
+    "resolution": "published",
+    "incident_ids": [
+      "issei-ielove-20260424"
+    ],
+    "reason": "公式本文・公表日を照合して掲載。二次確認の場合は出典と確認区分を明示。",
+    "source_urls": [
+      "https://www.issei-syoji.co.jp/news/news260424/"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "apr-review-c417279583d8",
+      "organization": "山形県国民健康保険団体連合会",
+      "reported_on": "2026-10-26",
+      "verification": "pending",
+      "reference_url": "https://www.ymgt-kokuho.org/topics/2026/04/ycc.html",
+      "note": "4～10月横断再調査：YCC関連で療養費請求データ1,671件・1,112件の漏えいの恐れを確認。本文の初回公表日を確定できない。 前回調査メモ：4月遡及調査で発見。reported_onは発見日であり公表日ではない。対象2,783件の本文は確認したが公表日表示を未発見。広域連合の4月22日公表とは別組織であり、日付をそのまま転用しない。",
+      "reviewed_on": "2026-10-27",
+      "checked_urls": [
+        "https://www.ymgt-kokuho.org/topics/2026/04/ycc.html"
+      ]
+    },
+    "reviewed_on": "2026-10-27",
+    "resolution": "published",
+    "incident_ids": [
+      "yamagata-kokuho-ycc-20260422"
+    ],
+    "reason": "対象情報・公表日を本文で確認。報道日や事故発生日と区別して掲載。",
+    "source_urls": [
+      "https://www.ymgt-kokuho.org/topics/2026/04/ycc.html",
+      "https://www.ymgt-kokuho.org/topics/2026/06/ycc-1.html",
+      "https://www.ymgt-kokuho.org/topics/"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "apr-review-eae922ff89ec",
+      "organization": "郡山地方広域消防組合",
+      "reported_on": "2026-10-26",
+      "verification": "pending",
+      "reference_url": "https://www.shobo.koriyama.fukushima.jp/information/cat57/005501.html#5501",
+      "note": "4～10月横断再調査：参照URLの再取得を試みたが本文取得に至らず、従来の未確認事項を解消できないため保留を継続。 前回調査メモ：4月遡及調査で発見。reported_onは発見日であり公表日ではない。公式告知が404。救急搬送情報の対象と公表日を未確認。",
+      "reviewed_on": "2026-10-27",
+      "checked_urls": [
+        "https://www.shobo.koriyama.fukushima.jp/information/cat57/005501.html#5501"
+      ]
+    },
+    "reviewed_on": "2026-10-27",
+    "resolution": "published",
+    "incident_ids": [
+      "koriyama-fire-public-upload-20260422"
+    ],
+    "reason": "公式本文で公表日と対象情報を照合し掲載。続報の場合は初報日を推定しない。",
+    "source_urls": [
+      "https://www.shobo.koriyama.fukushima.jp/information/files/ee4b808c5e235fc6a8d588b20b4d34c86d8d8388.pdf"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "apr-review-ee8305ddea11",
+      "organization": "山形大学（YCC）",
+      "reported_on": "2026-10-26",
+      "verification": "pending",
+      "reference_url": "https://www.yamagata-u.ac.jp/jp/information/important/20260420_01/",
+      "note": "4～10月横断再調査：参照URLの応答を再取得。公表日・自然人の対象情報・既存事案との対応について掲載を確定する根拠が揃わず、保留を継続。 前回調査メモ：4月遡及調査で発見。reported_onは発見日であり公表日ではない。公式URLがアクセス禁止表示。記事本文と個人情報の対象範囲を確認できず。",
+      "reviewed_on": "2026-10-27",
+      "checked_urls": [
+        "https://www.yamagata-u.ac.jp/jp/information/important/20260420_01/"
+      ]
+    },
+    "reviewed_on": "2026-10-27",
+    "resolution": "published",
+    "incident_ids": [
+      "yamagata-university-ycc-20260420"
+    ],
+    "reason": "対象情報・公表日を本文で確認。報道日や事故発生日と区別して掲載。",
+    "source_urls": [
+      "https://rocket-boys.co.jp/security-measures-lab/yamagata-university-ycc-80k-personal-data-leak/"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "apr-review-2c68c876e746",
+      "organization": "小国町（YCC）",
+      "reported_on": "2026-10-26",
+      "verification": "pending",
+      "reference_url": "https://www.town.oguni.yamagata.jp/soshiki/choumin/8843.html",
+      "note": "4～10月横断再調査：公式本文を取得したが、4月20日は発覚日。初回の正確な公表日が未確定。 前回調査メモ：4月遡及調査で発見。reported_onは発見日であり公表日ではない。現行本文は5月18日更新。4月20日は調査判明日であり公表日ではないため、4月公表の裏付けを未確定とする。",
+      "reviewed_on": "2026-10-27",
+      "checked_urls": [
+        "https://www.town.oguni.yamagata.jp/soshiki/choumin/8843.html"
+      ]
+    },
+    "reviewed_on": "2026-10-27",
+    "resolution": "published",
+    "incident_ids": [
+      "oguni-ycc-20260518"
+    ],
+    "reason": "公式本文で公表日と対象情報を照合し掲載。続報の場合は初報日を推定しない。",
+    "source_urls": [
+      "https://www.town.oguni.yamagata.jp/soshiki/choumin/8843.html"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "apr-review-f3a3b4547009",
+      "organization": "さとうグループ",
+      "reported_on": "2026-10-26",
+      "verification": "pending",
+      "reference_url": "https://www.sato-kyoto.com/dnt2/_sato//access/files/7/1776329219_f_one_osirase.pdf",
+      "note": "4～10月横断再調査：参照URLの再取得を試みたが本文取得に至らず、従来の未確認事項を解消できないため保留を継続。 前回調査メモ：4月遡及調査で発見。reported_onは発見日であり公表日ではない。委託先エフワンに関する公式PDFが503。原文と公表日を未確認。",
+      "reviewed_on": "2026-10-27",
+      "checked_urls": [
+        "https://www.sato-kyoto.com/dnt2/_sato//access/files/7/1776329219_f_one_osirase.pdf"
+      ]
+    },
+    "reviewed_on": "2026-10-27",
+    "resolution": "published",
+    "incident_ids": [
+      "sato-f-one-20260416"
+    ],
+    "reason": "対象情報・公表日を本文で確認。報道日や事故発生日と区別して掲載。",
+    "source_urls": [
+      "https://www.sato-kyoto.com/dnt2/_sato/access/files/7/1776329219_f_one_osirase.pdf"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "apr-review-fa833dbde14a",
+      "organization": "第一工業",
+      "reported_on": "2026-10-26",
+      "verification": "pending",
+      "reference_url": "https://www.ichiko.co.jp/info-others/%e3%82%b5%e3%82%a4%e3%83%90%e3%83%bc%e6%94%bb%e6%92%83%e3%81%ab%e3%82%88%e3%82%8b%e8%a2%ab%e5%ae%b3%e3%81%ae%e7%99%ba%e7%94%9f%e3%81%ab%e3%81%a4%e3%81%84%e3%81%a6%e7%ac%ac%e4%ba%8c%e5%a0%b1",
+      "note": "4～10月横断再調査：参照URLの応答を再取得。公表日・自然人の対象情報・既存事案との対応について掲載を確定する根拠が揃わず、保留を継続。 前回調査メモ：4月遡及調査で発見。reported_onは発見日であり公表日ではない。4月16日の調査状況を確認したが、具体的な個人情報への影響の特定が未完了。",
+      "reviewed_on": "2026-10-27",
+      "checked_urls": [
+        "https://www.ichiko.co.jp/info-others/%e3%82%b5%e3%82%a4%e3%83%90%e3%83%bc%e6%94%bb%e6%92%83%e3%81%ab%e3%82%88%e3%82%8b%e8%a2%ab%e5%ae%b3%e3%81%ae%e7%99%ba%e7%94%9f%e3%81%ab%e3%81%a4%e3%81%84%e3%81%a6%e7%ac%ac%e4%ba%8c%e5%a0%b1"
+      ]
+    },
+    "reviewed_on": "2026-10-27",
+    "resolution": "published",
+    "incident_ids": [
+      "ichiko-ransomware-20260508"
+    ],
+    "reason": "公式本文で公表日と対象情報を照合し掲載。続報の場合は初報日を推定しない。",
+    "source_urls": [
+      "https://www.ichiko.co.jp/info-others/%E3%82%B5%E3%82%A4%E3%83%90%E3%83%BC%E6%94%BB%E6%92%83%E3%81%AB%E3%82%88%E3%82%8B%E8%A2%AB%E5%AE%B3%E3%81%AE%E7%99%BA%E7%94%9F%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%EF%BC%88%E7%AC%AC%E4%B8%89%E5%A0%B1"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "apr-review-e7a4af3f87ba",
+      "organization": "鹿児島市（水道検針機器）",
+      "reported_on": "2026-10-26",
+      "verification": "pending",
+      "reference_url": "https://www.city.kagoshima.lg.jp/suido/ryoukin/tonanowabi.html",
+      "note": "4～10月横断再調査：現行の公式案内を取得したが、表示更新日と当初の公表日が異なる可能性があり初回公表日が未確定。 前回調査メモ：4月遡及調査で発見。reported_onは発見日であり公表日ではない。現行ページは5月7日更新。4月15日は盗難発生日であり、当初の公表日を未確定とする。",
+      "reviewed_on": "2026-10-27",
+      "checked_urls": [
+        "https://www.city.kagoshima.lg.jp/suido/ryoukin/tonanowabi.html"
+      ]
+    },
+    "reviewed_on": "2026-10-27",
+    "resolution": "published",
+    "incident_ids": [
+      "kagoshima-meter-device-20260507"
+    ],
+    "reason": "公式本文で公表日と対象情報を照合し掲載。続報の場合は初報日を推定しない。",
+    "source_urls": [
+      "https://www.city.kagoshima.lg.jp/suido/ryoukin/tonanowabi.html"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "apr-review-ad5058be4331",
+      "organization": "山形市（YCC）",
+      "reported_on": "2026-10-26",
+      "verification": "pending",
+      "reference_url": "https://www.city.yamagata-yamagata.lg.jp/shiseijoho/it/1012825/1018734.html",
+      "note": "4～10月横断再調査：公式の現行案内を取得。対象範囲に関する更新と初回公表日との対応を特定できず保留。 前回調査メモ：4月遡及調査で発見。reported_onは発見日であり公表日ではない。現行ページは7月30日更新。対象3区分の本文は読めるが、4月の初回公表日を確認できず。",
+      "reviewed_on": "2026-10-27",
+      "checked_urls": [
+        "https://www.city.yamagata-yamagata.lg.jp/shiseijoho/it/1012825/1018734.html"
+      ]
+    },
+    "reviewed_on": "2026-10-27",
+    "resolution": "published",
+    "incident_ids": [
+      "yamagata-city-ycc-20260730"
+    ],
+    "reason": "公式本文で公表日と対象情報を照合し掲載。続報の場合は初報日を推定しない。",
+    "source_urls": [
+      "https://www.city.yamagata-yamagata.lg.jp/shiseijoho/it/1012825/1018734.html"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "apr-review-2b5ec7900ce8",
+      "organization": "コタ（COTA）",
+      "reported_on": "2026-10-26",
+      "verification": "pending",
+      "reference_url": "https://www.release.tdnet.info/inbs/140120260415505003.pdf",
+      "note": "4～10月横断再調査：参照URLの再取得を試みたが本文取得に至らず、従来の未確認事項を解消できないため保留を継続。 前回調査メモ：4月遡及調査で発見。reported_onは発見日であり公表日ではない。第3報PDFは404。第2報を含め個人情報への具体的影響を照合できず。",
+      "reviewed_on": "2026-10-27",
+      "checked_urls": [
+        "https://www.release.tdnet.info/inbs/140120260415505003.pdf"
+      ]
+    },
+    "reviewed_on": "2026-10-27",
+    "resolution": "published",
+    "incident_ids": [
+      "cota-20260820"
+    ],
+    "reason": "8月20日公式本文が3月30日初報の同じサイバー攻撃事案と明示。4月15日の障害続報候補は既存の個人情報影響記録へ対応付け。",
+    "source_urls": [
+      "https://media.cota.co.jp/media/c461e507-b70e-4543-81b6-38210d442a3b.pdf"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "apr-review-4232939b7d28",
+      "organization": "ホテルオークラ福岡",
+      "reported_on": "2026-10-26",
+      "verification": "pending",
+      "reference_url": "https://www.fuk.hotelokura.co.jp/news/archives/269",
+      "note": "4～10月横断再調査：参照URLの再取得を試みたが本文取得に至らず、従来の未確認事項を解消できないため保留を継続。 前回調査メモ：4月遡及調査で発見。reported_onは発見日であり公表日ではない。公式告知が404。従業員情報に関する報道と公表日・項目を原文で未照合。",
+      "reviewed_on": "2026-10-27",
+      "checked_urls": [
+        "https://www.fuk.hotelokura.co.jp/news/archives/269",
+        "https://www.security-next.com/183382"
+      ]
+    },
+    "reviewed_on": "2026-10-27",
+    "resolution": "published",
+    "incident_ids": [
+      "okura-fukuoka-hr-20260410"
+    ],
+    "reason": "公式本文・公表日を照合して掲載。二次確認の場合は出典と確認区分を明示。",
+    "source_urls": [
+      "https://ccsi.jp/9229/"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "apr-review-cb99ac1924bf",
+      "organization": "UPSIDER",
+      "reported_on": "2026-10-26",
+      "verification": "pending",
+      "reference_url": "https://corp.up-sider.com/260410-2/",
+      "note": "4～10月横断再調査：公式4月10日続報を取得。顧客データベースへの不審アクセス・漏えいは確認されておらず、外部調査を継続。 前回調査メモ：4月遡及調査で発見。reported_onは発見日であり公表日ではない。4月10日公式調査状況は個人情報DBの不審アクセス・漏えい未確認と説明。影響の具体化や最終調査結果を未確認。",
+      "reviewed_on": "2026-10-27",
+      "checked_urls": [
+        "https://corp.up-sider.com/260410-2/"
+      ]
+    },
+    "reviewed_on": "2026-10-27",
+    "resolution": "published",
+    "incident_ids": [
+      "upsider-intrusion-20260410"
+    ],
+    "reason": "公表日を明示した公式発表または報道で日付・対象情報を照合。記事配信日を公表日に転用していない。",
+    "source_urls": [
+      "https://corp.up-sider.com/260410-2/"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "apr-review-23ee2cfebd2b",
+      "organization": "じげん",
+      "reported_on": "2026-10-26",
+      "verification": "pending",
+      "reference_url": "https://zigexn.co.jp/16079/",
+      "note": "4～10月横断再調査：参照URLの応答を再取得。公表日・自然人の対象情報・既存事案との対応について掲載を確定する根拠が揃わず、保留を継続。 前回調査メモ：4月遡及調査で発見。reported_onは発見日であり公表日ではない。4月9日の指摘への告知を確認したが、自社・連携先の対象範囲と個人情報への影響が未確定。",
+      "reviewed_on": "2026-10-27",
+      "checked_urls": [
+        "https://zigexn.co.jp/16079/"
+      ]
+    },
+    "reviewed_on": "2026-10-27",
+    "resolution": "published",
+    "incident_ids": [
+      "zigexn-rental-investigation-20260409"
+    ],
+    "reason": "公式本文・公表日を照合して掲載。二次確認の場合は出典と確認区分を明示。",
+    "source_urls": [
+      "https://zigexn.co.jp/16079/"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "apr-review-a2bbffd65715",
+      "organization": "日本鉄道システム輸出組合",
+      "reported_on": "2026-10-26",
+      "verification": "pending",
+      "reference_url": "https://www.jorsa.or.jp/ja/news/detail2320.html",
+      "note": "4～10月横断再調査：参照URLの再取得を試みたが本文取得に至らず、従来の未確認事項を解消できないため保留を継続。 前回調査メモ：4月遡及調査で発見。reported_onは発見日であり公表日ではない。公式URLが404。対象情報・日付を未確認。",
+      "reviewed_on": "2026-10-27",
+      "checked_urls": [
+        "https://www.jorsa.or.jp/ja/news/detail2320.html"
+      ]
+    },
+    "reviewed_on": "2026-10-27",
+    "resolution": "published",
+    "incident_ids": [
+      "jorsa-file-transfer-20260408"
+    ],
+    "reason": "公式本文・公表日を照合して掲載。二次確認の場合は出典と確認区分を明示。",
+    "source_urls": [
+      "https://www.jorsa.or.jp/ja/news/detail2320.html"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "apr-review-2f0f3ab6f960",
+      "organization": "SocioFuture",
+      "reported_on": "2026-10-26",
+      "verification": "pending",
+      "reference_url": "https://www.scft.co.jp/news/h_y9ux8ubark",
+      "note": "4～10月横断再調査：参照URLの応答を再取得。公表日・自然人の対象情報・既存事案との対応について掲載を確定する根拠が揃わず、保留を継続。 前回調査メモ：4月遡及調査で発見。reported_onは発見日であり公表日ではない。旧公式URLは現行ニュース一覧へ遷移。委託元GMOあおぞら銀行の公表は掲載済みだが、受託元自身の記録は本文の復元が必要。",
+      "reviewed_on": "2026-10-27",
+      "checked_urls": [
+        "https://www.scft.co.jp/news/h_y9ux8ubark"
+      ]
+    },
+    "reviewed_on": "2026-10-27",
+    "resolution": "published",
+    "incident_ids": [
+      "sociofuture-hidden-sheet-20260403"
+    ],
+    "reason": "受託者の公式ニュース一覧と、同一事案を扱う委託元の公式資料を照合。",
+    "source_urls": [
+      "https://www.scft.co.jp/news/",
+      "https://gmo-aozora.com/assets/news/pdf/2026/20260403_kouhyou.pdf"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "apr-review-44c45907aec0",
+      "organization": "キャビネットで管理していた心理相談予約簿が所在不明 - 熊本市",
+      "reported_on": "2026-10-26",
+      "verification": "pending",
+      "reference_url": "https://www.security-next.com/183720",
+      "note": "4～10月横断再調査：参照URLの応答を再取得。公表日・自然人の対象情報・既存事案との対応について掲載を確定する根拠が揃わず、保留を継続。 前回調査メモ：4月遡及調査で発見。reported_onは発見日であり公表日ではない。4月の記事から発見した候補。組織による公表日、一次資料、既存事案との重複の照合が未完了。記事配信日や発生日だけで掲載日を決めない。",
+      "reviewed_on": "2026-10-27",
+      "checked_urls": [
+        "https://www.security-next.com/183720"
+      ]
+    },
+    "reviewed_on": "2026-10-27",
+    "resolution": "published",
+    "incident_ids": [
+      "kumamoto-psychology-reservations-20260408"
+    ],
+    "reason": "新たに判明した公式資料または公表日を明記する報道により掲載根拠を補完。",
+    "source_urls": [
+      "https://www.city.kumamoto.jp/kiji00370316/3_70316_498223_up_8ywjizhz.pdf"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "apr-review-8f4a6cd242d3",
+      "organization": "廃棄予定PCの紛失判明、約8カ月倉庫で保管 - 東京モノレール",
+      "reported_on": "2026-10-26",
+      "verification": "pending",
+      "reference_url": "https://www.security-next.com/183821",
+      "note": "4～10月横断再調査：参照URLの応答を再取得。公表日・自然人の対象情報・既存事案との対応について掲載を確定する根拠が揃わず、保留を継続。 前回調査メモ：4月遡及調査で発見。reported_onは発見日であり公表日ではない。4月の記事から発見した候補。組織による公表日、一次資料、既存事案との重複の照合が未完了。記事配信日や発生日だけで掲載日を決めない。",
+      "reviewed_on": "2026-10-27",
+      "checked_urls": [
+        "https://www.security-next.com/183821"
+      ]
+    },
+    "reviewed_on": "2026-10-27",
+    "resolution": "published",
+    "incident_ids": [
+      "tokyo-monorail-pc-20260423"
+    ],
+    "reason": "新たに判明した公式資料または公表日を明記する報道により掲載根拠を補完。",
+    "source_urls": [
+      "https://cybersecurity-info.com/news/tokyo-monorail-lost-one-business-computer-that-was-being-used-at-haneda-airport-terminal-2-station/",
+      "https://www.security-next.com/183821"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "apr-review-0ea20f70a036",
+      "organization": "振込依頼書1冊が所在不明、誤廃棄か - 呉信金",
+      "reported_on": "2026-10-26",
+      "verification": "pending",
+      "reference_url": "https://www.security-next.com/183598",
+      "note": "4～10月横断再調査：参照URLの応答を再取得。公表日・自然人の対象情報・既存事案との対応について掲載を確定する根拠が揃わず、保留を継続。 前回調査メモ：4月遡及調査で発見。reported_onは発見日であり公表日ではない。4月の記事から発見した候補。組織による公表日、一次資料、既存事案との重複の照合が未完了。記事配信日や発生日だけで掲載日を決めない。",
+      "reviewed_on": "2026-10-27",
+      "checked_urls": [
+        "https://www.security-next.com/183598"
+      ]
+    },
+    "reviewed_on": "2026-10-27",
+    "resolution": "published",
+    "incident_ids": [
+      "kure-shinkin-kojinh-documents-20260403"
+    ],
+    "reason": "公式本文で公表日と対象情報を照合し掲載。続報の場合は初報日を推定しない。",
+    "source_urls": [
+      "https://www.kure-shinkin.jp/notice/2026/pdf/20260403_customer_information.pdf"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "apr-review-382a2ec1623e",
+      "organization": "小学校で児童の個人情報含む指導計画を紛失 - 柏市",
+      "reported_on": "2026-10-26",
+      "verification": "pending",
+      "reference_url": "https://www.security-next.com/183529",
+      "note": "4～10月横断再調査：参照URLの応答を再取得。公表日・自然人の対象情報・既存事案との対応について掲載を確定する根拠が揃わず、保留を継続。 前回調査メモ：4月遡及調査で発見。reported_onは発見日であり公表日ではない。4月の記事から発見した候補。組織による公表日、一次資料、既存事案との重複の照合が未完了。記事配信日や発生日だけで掲載日を決めない。",
+      "reviewed_on": "2026-10-27",
+      "checked_urls": [
+        "https://www.security-next.com/183529"
+      ]
+    },
+    "reviewed_on": "2026-10-27",
+    "resolution": "published",
+    "incident_ids": [
+      "kashiwa-instruction-log-20260403"
+    ],
+    "reason": "新たに判明した公式資料または公表日を明記する報道により掲載根拠を補完。",
+    "source_urls": [
+      "https://news.jp/i/1413699116562383369"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "apr-review-4c9d577faaf7",
+      "organization": "保険申込情報流出の可能性、外部から端末を不正操作か - 自動車販売店",
+      "reported_on": "2026-10-26",
+      "verification": "pending",
+      "reference_url": "https://www.security-next.com/182900",
+      "note": "4～10月横断再調査：参照URLの応答を再取得。公表日・自然人の対象情報・既存事案との対応について掲載を確定する根拠が揃わず、保留を継続。 前回調査メモ：4月遡及調査で発見。reported_onは発見日であり公表日ではない。4月の記事から発見した候補。組織による公表日、一次資料、既存事案との重複の照合が未完了。記事配信日や発生日だけで掲載日を決めない。",
+      "reviewed_on": "2026-10-27",
+      "checked_urls": [
+        "https://www.security-next.com/182900"
+      ]
+    },
+    "reviewed_on": "2026-10-27",
+    "resolution": "published",
+    "incident_ids": [
+      "carstation-niigata-insurance-20260427"
+    ],
+    "reason": "新たに判明した公式資料または公表日を明記する報道により掲載根拠を補完。",
+    "source_urls": [
+      "https://www.cocoselect.jp/event/%E5%80%8B%E4%BA%BA%E6%83%85%E5%A0%B1%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E8%AA%BF%E6%9F%BB%E7%B5%90%E6%9E%9C%E3%81%AE%E3%81%94%E5%A0%B1%E5%91%8A/",
+      "https://www.security-next.com/182900"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "apr-review-edde38f8527d",
+      "organization": "サーバに不正アクセス、影響など調査中 - ムーンスター",
+      "reported_on": "2026-10-26",
+      "verification": "pending",
+      "reference_url": "https://www.security-next.com/182892",
+      "note": "4～10月横断再調査：参照URLの応答を再取得。公表日・自然人の対象情報・既存事案との対応について掲載を確定する根拠が揃わず、保留を継続。 前回調査メモ：4月遡及調査で発見。reported_onは発見日であり公表日ではない。4月の記事から発見した候補。組織による公表日、一次資料、既存事案との重複の照合が未完了。記事配信日や発生日だけで掲載日を決めない。",
+      "reviewed_on": "2026-10-27",
+      "checked_urls": [
+        "https://www.security-next.com/182892"
+      ]
+    },
+    "reviewed_on": "2026-10-27",
+    "resolution": "published",
+    "incident_ids": [
+      "moonstar-20261002"
+    ],
+    "reason": "3月26日初報のムーンスター事案は10月2日・15日の続報として既に掲載済み。同じ侵害のため重複追加しない。",
+    "source_urls": [
+      "https://www.moonstar.co.jp/information/2026/10/gg.html"
+    ]
   }
 ]

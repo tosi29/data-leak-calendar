@@ -1,0 +1,50 @@
+{
+  "id": "shiseido-salon-cynd-20260507",
+  "organization": {
+    "name": "資生堂美容室",
+    "sector": "企業・団体"
+  },
+  "title": "予約・顧客管理の委託先への侵害で顧客情報に閲覧のおそれ",
+  "summary": "委託先サインドへの攻撃について、顧客情報が閲覧された可能性を否定できないとの報告を受け公表。外部流出の痕跡や二次被害は未確認。",
+  "published_on": "2026-05-07",
+  "first_published_on": "2026-05-07",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-05-07",
+  "verification": "secondary",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。侵入手口の詳細は調査中。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "当社顧客の対象人数・件数は未公表。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "電話番号",
+    "メールアドレス",
+    "性別",
+    "その他顧客の入力情報"
+  ],
+  "related_vendor": "株式会社サインド",
+  "sources": [
+    {
+      "url": "https://rocket-boys.co.jp/security-measures-lab/shiseido-salon-vendor-breach-no-data-leak-found/",
+      "type": "news",
+      "title": "資生堂美容室、業務委託先への不正アクセスで顧客情報を閲覧された可能性",
+      "published_on": "2026-05-12",
+      "checked_on": "2026-10-27"
+    }
+  ],
+  "updates": [],
+  "notes": "報道本文が5月7日公表と明記。提供元の検知日は3月10日、当社への報告日は4月24日で、公表日と区別する。カード・決済情報は対象外。"
+}

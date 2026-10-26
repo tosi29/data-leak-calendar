@@ -1,0 +1,46 @@
+{
+  "id": "keio-ransomware-20261021",
+  "organization": {
+    "name": "京王電鉄株式会社",
+    "sector": "教育機関"
+  },
+  "title": "ランサムウェア攻撃後に公開された情報について個人情報漏えいの可能性を調査",
+  "summary": "攻撃者を名乗る組織が窃取を主張する情報の公開を外部専門家から報告され、個人情報漏えいの可能性も含め調査し当局へ報告。",
+  "published_on": "2026-10-21",
+  "first_published_on": null,
+  "publication_kind": "followup",
+  "occurred_on": "2026-09-26",
+  "detected_on": null,
+  "updated_on": "2026-10-21",
+  "verification": "official",
+  "leak_status": "investigating",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。侵入手口の詳細は調査中。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "具体的な対象件数は未公表。"
+    }
+  ],
+  "data_types": [
+    "個人情報（項目・対象範囲を調査中）"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.keio.co.jp/news/update/news_release/news_release2026/pdf/nr20261021_newsrelease.pdf",
+      "type": "official",
+      "title": "ランサムウェア攻撃後に公開された情報について個人情報漏えいの可能性を調査",
+      "published_on": "2026-10-21",
+      "checked_on": "2026-10-27"
+    }
+  ],
+  "updates": [],
+  "notes": "第3報を掲載し初報日は未確定。攻撃者の主張と情報公開の報告であり、内容の真正性や個人情報の流出確認とは区別する。既存候補の障害だけの発表とは異なり、当該続報は個人情報への影響調査を明記。"
+}

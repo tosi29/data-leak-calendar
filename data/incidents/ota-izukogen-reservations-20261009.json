@@ -1,0 +1,47 @@
+{
+  "id": "ota-izukogen-reservations-20261009",
+  "organization": {
+    "name": "大田区（大田区立伊豆高原学園）",
+    "sector": "自治体"
+  },
+  "title": "宿泊予約管理システムの侵害で69件の個人情報に漏えいのおそれ",
+  "summary": "指定管理施設の予約情報を含む不審メールの連絡から、8月23日～9月21日のWEB予約69件の氏名等に漏えいの可能性が判明。",
+  "published_on": "2026-10-09",
+  "first_published_on": "2026-10-09",
+  "publication_kind": "initial",
+  "occurred_on": "2026-09-21",
+  "detected_on": "2026-10-06",
+  "updated_on": "2026-10-09",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。侵入手口の詳細は調査中。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": 69,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "施設の一般利用に関する予約情報。人数ではない。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "その他宿泊予約情報"
+  ],
+  "related_vendor": "伊豆高原学園PFI株式会社",
+  "sources": [
+    {
+      "url": "https://www.city.ota.tokyo.jp/kuseijoho/press/releaseR08/2026100901.html",
+      "type": "official",
+      "title": "宿泊予約管理システムの侵害で69件の個人情報に漏えいのおそれ",
+      "published_on": "2026-10-09",
+      "checked_on": "2026-10-27"
+    }
+  ],
+  "updates": [],
+  "notes": "指定管理者を明記するが、予約管理システム事業者名は区の本文に記載されていないため推定しない。区立小学校の移動教室の児童情報、口座・要配慮情報は対象外。"
+}

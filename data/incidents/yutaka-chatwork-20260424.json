@@ -1,0 +1,57 @@
+{
+  "id": "yutaka-chatwork-20260424",
+  "organization": {
+    "name": "ユタカ電業株式会社",
+    "sector": "企業・団体"
+  },
+  "title": "Chatworkアカウント侵害で最大60件の個人データに漏えいのおそれ",
+  "summary": "認証情報を利用したChatworkへの不正ログインを調査。従業員・退職者・取引先関係者の個人データが閲覧された可能性を否定できないと説明。",
+  "published_on": "2026-04-24",
+  "first_published_on": "2026-03-26",
+  "publication_kind": "followup",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-04-24",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "credentials",
+    "detail": "認証情報を何らかの手段で取得され不正ログインされたと推測。",
+    "certainty": "suspected"
+  },
+  "impact": [
+    {
+      "count": 60,
+      "unit": "records",
+      "qualifier": "maximum",
+      "description": "漏えいまたはそのおそれのある個人データの上限。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "メールアドレス",
+    "電話番号",
+    "会社名",
+    "部署名"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://yutaka-d.co.jp/information/news/000074.html",
+      "type": "official",
+      "title": "Chatworkアカウント侵害で最大60件の個人データに漏えいのおそれ",
+      "published_on": "2026-04-24",
+      "checked_on": "2026-10-27"
+    },
+    {
+      "url": "https://yutaka-d.co.jp/information/",
+      "type": "official",
+      "title": "インフォメーション（4月24日付最終報の掲載）",
+      "published_on": "2026-04-24",
+      "checked_on": "2026-10-27"
+    }
+  ],
+  "updates": [],
+  "notes": "本文に公表日の記載がないため公式インフォメーション一覧の4月24日付で確認。復旧日を公表日に転用したものではない。フィッシングは可能性として言及されるが確定していない。"
+}

@@ -1,0 +1,47 @@
+{
+  "id": "ehealthcare-blastmail-20261023",
+  "organization": {
+    "name": "東邦ホールディングス株式会社・株式会社eヘルスケア",
+    "sector": "企業・団体"
+  },
+  "title": "ブラストメールへの不正アクセスで医師情報に漏えいのおそれ",
+  "summary": "医師向けアンケートや病院なびPRサービスのメール配信登録情報について、提供元への不正アクセスに伴う漏えいの可能性を公表。",
+  "published_on": "2026-10-23",
+  "first_published_on": "2026-10-23",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-23",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。侵入手口の詳細は調査中。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": 8000,
+      "unit": "records",
+      "qualifier": "approximate",
+      "description": "医師氏名・メールアドレス。病院なびPR関係約1,000件を含む。"
+    }
+  ],
+  "data_types": [
+    "医師氏名",
+    "メールアドレス"
+  ],
+  "related_vendor": "株式会社ラクスライトクラウド",
+  "sources": [
+    {
+      "url": "https://www.tohohd.co.jp/news/files/261023.pdf",
+      "type": "official",
+      "title": "ブラストメールへの不正アクセスで医師情報に漏えいのおそれ",
+      "published_on": "2026-10-23",
+      "checked_on": "2026-10-27"
+    }
+  ],
+  "updates": [],
+  "notes": "確認済み288契約に当該契約IDは含まれないが、調査で変動する可能性があり流出なしと確定していない。約1,000件は約8,000件の内数。病院なび等本体の侵害とは区別し、エンタッチの別事案とも区別する。"
+}

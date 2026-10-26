@@ -1,0 +1,49 @@
+{
+  "id": "kumamoto-psychology-reservations-20260408",
+  "organization": {
+    "name": "熊本市",
+    "sector": "自治体"
+  },
+  "title": "子どもの心理相談予約簿220名分を紛失",
+  "summary": "中央区保健こども課が保管していた2025年度の心理相談予約簿が所在不明。年度末の異動準備中の誤廃棄の可能性があると説明。",
+  "published_on": "2026-04-08",
+  "first_published_on": "2026-04-08",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-04-01",
+  "updated_on": "2026-04-08",
+  "verification": "official",
+  "leak_status": "lost",
+  "incident_type": "accident",
+  "cause": {
+    "category": "loss",
+    "detail": "鍵付きキャビネットで管理していた予約簿が所在不明となった。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 220,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "予約簿に記載された対象者。"
+    }
+  ],
+  "data_types": [
+    "子どもの氏名",
+    "子どもの生年月日",
+    "保護者の電話番号",
+    "居住する小学校区"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.city.kumamoto.jp/kiji00370316/3_70316_498223_up_8ywjizhz.pdf",
+      "type": "official",
+      "title": "予約簿ファイルの紛失について",
+      "published_on": "2026-04-08",
+      "checked_on": "2026-10-27"
+    }
+  ],
+  "updates": [],
+  "notes": "ウェブページは4月9日更新だが、リンク先の報道資料は4月8日付であり後者を採用。"
+}

@@ -1,0 +1,51 @@
+{
+  "id": "jorsa-file-transfer-20260408",
+  "organization": {
+    "name": "日本鉄道システム輸出組合",
+    "sector": "企業・団体"
+  },
+  "title": "ファイル転送サービスへのSQLインジェクションで利用者情報130件が漏えい",
+  "summary": "組合員向けホームページのシステム領域を利用するファイル転送サービスが侵害され、利用者の氏名や付与されたパスワード等が漏えいした。",
+  "published_on": "2026-04-08",
+  "first_published_on": "2026-04-08",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-03-18",
+  "updated_on": "2026-04-08",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "vulnerability",
+    "detail": "増設した転送サービスのセキュリティ対策が不十分で、SQLインジェクションを受けた。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 130,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "ファイル転送サービス利用者の個人情報。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "所属企業名",
+    "メールアドレス",
+    "付与パスワード",
+    "登録日",
+    "会員種別"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.jorsa.or.jp/ja/news/detail2320.html",
+      "type": "official",
+      "title": "不正アクセスによる個人情報漏洩について",
+      "published_on": "2026-04-08",
+      "checked_on": "2026-10-27"
+    }
+  ],
+  "updates": [],
+  "notes": "公式ページは直接取得では正常に読めなかったが検索経由で公表日・全文を確認。"
+}

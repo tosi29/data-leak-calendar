@@ -1,0 +1,54 @@
+{
+  "id": "toyokawa-shinkin-seals-20260424",
+  "organization": {
+    "name": "豊川信用金庫",
+    "sector": "金融"
+  },
+  "title": "27店舗で休眠口座等の印鑑届13,640件を紛失",
+  "summary": "全店調査で睡眠・雑益編入・休眠口座に係る印鑑届の紛失が判明。誤廃棄の可能性があると説明。",
+  "published_on": "2026-04-24",
+  "first_published_on": "2026-04-24",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-04-24",
+  "verification": "official",
+  "leak_status": "lost",
+  "incident_type": "accident",
+  "cause": {
+    "category": "loss",
+    "detail": "保管すべき印鑑届が所在不明。誤廃棄と推測される。",
+    "certainty": "suspected"
+  },
+  "impact": [
+    {
+      "count": 13640,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "印鑑届の件数。人数ではなく、元々提出されていなかった可能性のある届も含む。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "生年月日",
+    "電話番号",
+    "性別",
+    "印影",
+    "顧客番号",
+    "口座番号",
+    "取引科目"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.kawa-shin.co.jp/_news/contents/21379/20260424_inkantodokefunshitsunikansuruowabitogohoukoku.pdf",
+      "type": "official",
+      "title": "27店舗で休眠口座等の印鑑届13,640件を紛失",
+      "published_on": "2026-04-24",
+      "checked_on": "2026-10-27"
+    }
+  ],
+  "updates": [],
+  "notes": "2025年度の別の印鑑届紛失を受けた調査で、新たに判明した休眠口座等の事案。漏えいの証拠は未確認。"
+}

@@ -1,0 +1,52 @@
+{
+  "id": "kyoei-shinken-20260512",
+  "organization": {
+    "name": "共栄火災海上保険株式会社",
+    "sector": "企業・団体"
+  },
+  "title": "新日本検定協会への不正アクセスで顧客等31件の情報に漏えいのおそれ",
+  "summary": "損害調査等の委託先サーバーがランサムウェア被害を受け、顧客・調査関係先・従業員の情報に漏えいのおそれがあると公表。",
+  "published_on": "2026-05-12",
+  "first_published_on": "2026-05-12",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-05-12",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。侵入手口の詳細は調査中。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": 31,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "顧客・調査関係先・従業員の対象情報。項目は対象ごとに異なる。"
+    }
+  ],
+  "data_types": [
+    "証券番号",
+    "事故番号",
+    "氏名",
+    "生年月日",
+    "住所",
+    "電話番号",
+    "メールアドレス"
+  ],
+  "related_vendor": "一般財団法人新日本検定協会",
+  "sources": [
+    {
+      "url": "https://www.kyoeikasai.co.jp/info/info20260512.pdf",
+      "type": "official",
+      "title": "新日本検定協会への不正アクセスで顧客等31件の情報に漏えいのおそれ",
+      "published_on": "2026-05-12",
+      "checked_on": "2026-10-27"
+    }
+  ],
+  "updates": [],
+  "notes": "公式PDFの検索経由の本文で5月12日と31件を確認。委託先や他社公表との重複を合算しない。侵害発覚は2025年11月26日。"
+}

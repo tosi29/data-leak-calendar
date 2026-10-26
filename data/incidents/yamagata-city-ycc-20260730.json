@@ -1,0 +1,65 @@
+{
+  "id": "yamagata-city-ycc-20260730",
+  "organization": {
+    "name": "山形市",
+    "sector": "自治体"
+  },
+  "title": "YCCへの攻撃に伴う人事給与・健康・児童相談情報の漏えいのおそれ",
+  "summary": "委託先サーバーへの攻撃に伴い、給与・健康・児童相談の各システムの情報に漏えいのおそれ。7月29日までに対象者への通知を発送した。",
+  "published_on": "2026-07-30",
+  "first_published_on": null,
+  "publication_kind": "followup",
+  "occurred_on": "2026-04-02",
+  "detected_on": null,
+  "updated_on": "2026-07-30",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。侵入手口の詳細は調査中。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": 6167,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "人事給与システムの対象者。"
+    },
+    {
+      "count": 31766,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "健康情報システムの対象者。"
+    },
+    {
+      "count": 2185,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "児童相談システムの対象者。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "生年月日",
+    "マイナンバー",
+    "給与・手当",
+    "受診・検診情報",
+    "被保険者番号",
+    "電話番号"
+  ],
+  "related_vendor": "株式会社YCC情報システム",
+  "sources": [
+    {
+      "url": "https://www.city.yamagata-yamagata.lg.jp/shiseijoho/it/1012825/1018734.html",
+      "type": "official",
+      "title": "YCCへの攻撃に伴う人事給与・健康・児童相談情報の漏えいのおそれ",
+      "published_on": "2026-07-30",
+      "checked_on": "2026-10-27"
+    }
+  ],
+  "updates": [],
+  "notes": "7月30日更新の通知完了に関する続報として掲載し初報日は未確定。各システム間の重複人数が不明なため単純合計を実人数として示さない。提供元公表との重複にも注意。"
+}

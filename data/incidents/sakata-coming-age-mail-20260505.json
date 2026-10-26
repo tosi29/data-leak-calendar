@@ -1,0 +1,54 @@
+{
+  "id": "sakata-coming-age-mail-20260505",
+  "organization": {
+    "name": "酒田市",
+    "sector": "自治体"
+  },
+  "title": "二十歳を祝う集いの参加者649人へメール誤送信",
+  "summary": "参加者への受付案内をTOで一斉送信し、649人の氏名・メールアドレスが他の参加者から見える状態となった。",
+  "published_on": "2026-05-05",
+  "first_published_on": "2026-05-05",
+  "publication_kind": "initial",
+  "occurred_on": "2026-05-04",
+  "detected_on": null,
+  "updated_on": "2026-05-05",
+  "verification": "secondary",
+  "leak_status": "confirmed",
+  "incident_type": "accident",
+  "cause": {
+    "category": "misdelivery",
+    "detail": "BCCにすべき送信先をTOに設定して送信。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 649,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "誤送信の対象となった参加者。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "メールアドレス"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://news.livedoor.com/article/detail/31184047/",
+      "type": "news",
+      "title": "アドレスや氏名649人分誤送信で酒田市が陳謝",
+      "published_on": "2026-05-05",
+      "checked_on": "2026-10-27"
+    },
+    {
+      "url": "https://www.security-next.com/184745",
+      "type": "news",
+      "title": "成人祝賀イベントの参加者向けメールで誤送信",
+      "published_on": "2026-05-21",
+      "checked_on": "2026-10-27"
+    }
+  ],
+  "updates": [],
+  "notes": "5月5日の報道で市の発表・陳謝を確認。市の公表に対応する日付であり、後日のSecurity NEXT記事日とは区別。"
+}

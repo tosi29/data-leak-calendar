@@ -1,0 +1,56 @@
+{
+  "id": "kitakyushu-teacher-redaction-20260421",
+  "organization": {
+    "name": "北九州市教育委員会",
+    "sector": "教育機関"
+  },
+  "title": "教員採用試験の開示PDFで黒塗りした個人情報が参照可能に",
+  "summary": "開示請求者へ交付したPDFに文字データが残り、教員採用試験申込者の氏名等が参照可能だった。",
+  "published_on": "2026-04-21",
+  "first_published_on": "2026-04-21",
+  "publication_kind": "initial",
+  "occurred_on": "2026-03-18",
+  "detected_on": "2026-04-20",
+  "updated_on": "2026-04-21",
+  "verification": "secondary",
+  "leak_status": "exposed",
+  "incident_type": "accident",
+  "cause": {
+    "category": "redaction_error",
+    "detail": "黒塗り後に画像化せず文字データが残るPDFを出力した。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 5217,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "公表された延べ個人情報件数。対象者の実人数として換算しない。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "受験番号",
+    "年齢",
+    "性別"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.excite.co.jp/news/article/kbc_1419334205548823118/",
+      "type": "news",
+      "title": "コピペするとマスキング解除 教員試験合否者など漏洩（KBC）",
+      "published_on": "2026-04-21",
+      "checked_on": "2026-10-27"
+    },
+    {
+      "url": "https://www.security-next.com/184173",
+      "type": "news",
+      "title": "開示文書の墨塗り個人情報、出力ミスで参照可能に",
+      "published_on": "2026-05-08",
+      "checked_on": "2026-10-27"
+    }
+  ],
+  "updates": [],
+  "notes": "KBC報道の4月21日発表で日付を補完。5年間の申込者4,135人との記載は報道間で延べ人数の表現に差があるため、ここでは延べ5,217件のみを記録。"
+}

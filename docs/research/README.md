@@ -4,6 +4,8 @@
 
 ## 個別の調査
 
+- [保留156候補・横断31 URL・旧取得不能35 URLの再調査（2026-10-27）](../research-2026-10-27-pending-resolution.md)
+
 - [楽天トラベル・EX予約の掲載漏れ7件補完（2026-10-27）](../research-2026-10-27-rakuten-ex-correction.md)
 
 - [4～10月の横断再点検・392件補完（2026-10-27）](../research-2026-10-27-apr-oct-audit.md)

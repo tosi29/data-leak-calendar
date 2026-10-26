@@ -1,0 +1,57 @@
+{
+  "id": "tokyohoso-ransomware-20260512",
+  "organization": {
+    "name": "東京鋪装工業株式会社",
+    "sector": "企業・団体"
+  },
+  "title": "ランサムウェア被害で顧客・取引先・従業員情報に漏えいのおそれ",
+  "summary": "システムへの攻撃を調査し、取引先担当者や従業員の氏名・連絡先等の流出を否定できないと公表。",
+  "published_on": "2026-05-12",
+  "first_published_on": "2026-05-12",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-04-02",
+  "updated_on": "2026-05-12",
+  "verification": "secondary",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。侵入手口の詳細は調査中。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "対象人数・件数は未公表。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "メールアドレス",
+    "口座情報",
+    "住所",
+    "生年月日"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://cybersecurity-info.com/news/ransomware-attack-on-road-paving-contractor-tokyo-paving-industry/",
+      "type": "news",
+      "title": "東京鋪装工業のランサムウェア被害と個人情報への影響",
+      "published_on": "2026-05-25",
+      "checked_on": "2026-10-27"
+    },
+    {
+      "url": "https://www.excite.co.jp/news/article/Scannetsecurity_55356/",
+      "type": "news",
+      "title": "東京鋪装工業にランサムウェア攻撃（ScanNetSecurity配信）",
+      "published_on": "2026-05-27",
+      "checked_on": "2026-10-27"
+    }
+  ],
+  "updates": [],
+  "notes": "両報道が5月12日公表と明記。公式URL https://www.tokyohoso.co.jp/news/1366/ の本文は直接取得できず、二次資料での確認として掲載。"
+}

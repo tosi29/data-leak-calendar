@@ -1,0 +1,47 @@
+{
+  "id": "kashiwa-brand-logo-20260605",
+  "organization": {
+    "name": "柏市",
+    "sector": "自治体"
+  },
+  "title": "ブランドロゴ使用承認通知を別人へ誤送信",
+  "summary": "申請者の所属団体名・氏名を記載したメールと承認通知書を別の申請者へ送信した。",
+  "published_on": "2026-06-05",
+  "first_published_on": "2026-06-05",
+  "publication_kind": "initial",
+  "occurred_on": "2026-05-27",
+  "detected_on": "2026-05-27",
+  "updated_on": "2026-06-05",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "accident",
+  "cause": {
+    "category": "misdelivery",
+    "detail": "送付先・封入内容・交付物の確認が不十分で誤送付・誤送信・誤交付。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 1,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表本文の対象者数。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "所属団体名"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.city.kashiwa.lg.jp/documents/42514/kohyo_1.pdf",
+      "type": "official",
+      "title": "ブランドロゴ使用承認通知を別人へ誤送信",
+      "published_on": "2026-06-05",
+      "checked_on": "2026-10-27"
+    }
+  ],
+  "updates": [],
+  "notes": "一覧の更新日ではなく個別の公式公表資料の日付を採用。"
+}

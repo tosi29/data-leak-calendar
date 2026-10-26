@@ -1,0 +1,46 @@
+{
+  "id": "yamagata-university-ycc-20260420",
+  "organization": {
+    "name": "山形大学",
+    "sector": "教育機関"
+  },
+  "title": "データ処理委託先YCCへの攻撃で延べ80,091件に漏えいのおそれ",
+  "summary": "YCCにデータ処理を委託した在学生・卒業生等の個人情報が流出したおそれ。契約を終了した処理に関する情報も対象に含まれると報じられた。",
+  "published_on": "2026-04-20",
+  "first_published_on": "2026-04-20",
+  "publication_kind": "initial",
+  "occurred_on": "2026-04-02",
+  "detected_on": null,
+  "updated_on": "2026-04-20",
+  "verification": "secondary",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。侵入手口の詳細は調査中。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": 80091,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "延べ件数。人数や重複を除いた件数ではない。"
+    }
+  ],
+  "data_types": [
+    "学生等の個人情報（具体的な項目は未公表）"
+  ],
+  "related_vendor": "株式会社YCC情報システム",
+  "sources": [
+    {
+      "url": "https://rocket-boys.co.jp/security-measures-lab/yamagata-university-ycc-80k-personal-data-leak/",
+      "type": "news",
+      "title": "山形大学、YCC情報システムへのサイバー攻撃で8万件超の個人情報漏洩の恐れ",
+      "published_on": "2026-04-22",
+      "checked_on": "2026-10-27"
+    }
+  ],
+  "updates": [],
+  "notes": "報道が大学の4月20日公表と延べ80,091件を明記。報道中の情報項目に関する推測は採用せず、具体的な項目を未公表として記録。委託先や他委託元の件数と重複し得る。"
+}

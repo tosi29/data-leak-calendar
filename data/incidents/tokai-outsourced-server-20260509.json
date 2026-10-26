@@ -1,0 +1,61 @@
+{
+  "id": "tokai-outsourced-server-20260509",
+  "organization": {
+    "name": "学校法人東海大学",
+    "sector": "教育機関"
+  },
+  "title": "委託先サーバーの個人情報漏えい事案について問い合わせ窓口の移行を公表",
+  "summary": "2025年公表の委託先サーバー侵害について、専用電話窓口を5月15日に終了しフォームへ移すと発表。2月の調査報告では学生・保護者・教職員等の情報漏えいを確認している。",
+  "published_on": "2026-05-09",
+  "first_published_on": "2025-11-14",
+  "publication_kind": "followup",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-05-09",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "credentials",
+    "detail": "委託先のネットワーク認証情報を不正入手され、ランサムウェア攻撃を受けた。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 193118,
+      "unit": "people",
+      "qualifier": "maximum",
+      "description": "2月18日の調査報告に示された最大の延べ対象者数。ID単位で数えるなど重複を含む。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "生年月日",
+    "電話番号",
+    "メールアドレス",
+    "ID・パスワード",
+    "学籍・教職員番号",
+    "健診情報",
+    "口座情報"
+  ],
+  "related_vendor": "株式会社東海ソフト開発",
+  "sources": [
+    {
+      "url": "https://www.u-tokai.ac.jp/news-notice/1367157/",
+      "type": "official",
+      "title": "個人情報お問い合わせ窓口の変更（移行）について",
+      "published_on": "2026-05-09",
+      "checked_on": "2026-10-27"
+    },
+    {
+      "url": "https://www.u-tokai.ac.jp/uploads/2026/02/8f619ff70dd54597ac4189dff04c9dea.pdf",
+      "type": "official",
+      "title": "第2報 業務委託先サーバへの不正アクセスに関する調査状況と対応",
+      "published_on": "2026-02-18",
+      "checked_on": "2026-10-27"
+    }
+  ],
+  "updates": [],
+  "notes": "5月9日は窓口移行の続報であり、新規の漏えい確認日ではない。対象範囲・件数は2月18日公式報告に基づく。情報の項目は対象区分ごとに異なる。"
+}

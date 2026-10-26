@@ -1,0 +1,57 @@
+{
+  "id": "ckc-gakusan-20260515",
+  "organization": {
+    "name": "CKCネットワーク株式会社／株式会社学参",
+    "sector": "企業・団体"
+  },
+  "title": "共同運用システムへのランサムウェア攻撃で問い合わせ・会員情報に漏えいのおそれ",
+  "summary": "共同運用サーバーへの攻撃について、6月10日の調査報告で問い合わせ情報・会員情報の対象範囲を説明。データ持ち出しの痕跡は確認されていないが漏えいの可能性を否定できないと公表。",
+  "published_on": "2026-05-15",
+  "first_published_on": "2026-05-15",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-05-02",
+  "updated_on": "2026-06-10",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "vulnerability",
+    "detail": "サーバー管理ソフトウェアの脆弱性を悪用した不正アクセス。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 664000,
+      "unit": "records",
+      "qualifier": "approximate",
+      "description": "問い合わせ情報。連絡先を含む約9,900件はこの内数。"
+    },
+    {
+      "count": 53000,
+      "unit": "records",
+      "qualifier": "approximate",
+      "description": "会員番号・姓を含む会員情報。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "学年",
+    "電話番号",
+    "住所",
+    "メールアドレス",
+    "会員番号"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.ckc.co.jp/announcement.pdf",
+      "type": "official",
+      "title": "共同運用システムへのランサムウェア攻撃で問い合わせ・会員情報に漏えいのおそれ",
+      "published_on": "2026-05-15",
+      "checked_on": "2026-10-27"
+    }
+  ],
+  "updates": [],
+  "notes": "両社共同公表のため1記録。公式第二報の検索経由本文で初報5月15日・続報6月10日と対象表を確認。問い合わせ情報と会員情報の重複は不明。"
+}

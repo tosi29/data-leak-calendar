@@ -1,0 +1,46 @@
+{
+  "id": "gyokuhokan-temairazu-20261001",
+  "organization": {
+    "name": "玉峰館",
+    "sector": "企業・団体"
+  },
+  "title": "手間いらずへの侵害に伴う宿泊予約情報への影響を公表",
+  "summary": "利用する外部予約管理システムへの不正アクセスにより、宿泊者情報が第三者に閲覧・取得された可能性を案内した。",
+  "published_on": "2026-10-01",
+  "first_published_on": "2026-10-01",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-01",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。侵入手口の詳細は調査中。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "施設別の対象人数・予約件数は未公表。"
+    }
+  ],
+  "data_types": [
+    "宿泊者・予約情報（項目の詳細は未公表）"
+  ],
+  "related_vendor": "手間いらず株式会社",
+  "sources": [
+    {
+      "url": "https://gyokuhokan.jp/news/detail.html?id=2303",
+      "type": "official",
+      "title": "手間いらずへの侵害に伴う宿泊予約情報への影響を公表",
+      "published_on": "2026-10-01",
+      "checked_on": "2026-10-27"
+    }
+  ],
+  "updates": [],
+  "notes": "9月21日までに成立し同日以降を宿泊日とする予約が対象となる可能性。システムはカード情報を保有しないと説明。"
+}

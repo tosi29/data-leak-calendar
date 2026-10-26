@@ -1,0 +1,46 @@
+{
+  "id": "issei-ielove-20260424",
+  "organization": {
+    "name": "一誠商事株式会社",
+    "sector": "企業・団体"
+  },
+  "title": "いえらぶCLOUDへの侵害に伴う部屋探し利用者情報の漏えい可能性",
+  "summary": "利用クラウドサービスでデータが不正取得され、自社を通じて部屋探し等をした顧客の情報の一部にも流出の可能性があると公表。",
+  "published_on": "2026-04-24",
+  "first_published_on": "2026-04-24",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-04-24",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。侵入手口の詳細は調査中。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "自社顧客の対象人数・件数は未公表。"
+    }
+  ],
+  "data_types": [
+    "部屋探し等の顧客情報（詳細項目未公表）"
+  ],
+  "related_vendor": "株式会社いえらぶGROUP",
+  "sources": [
+    {
+      "url": "https://www.issei-syoji.co.jp/news/news260424/",
+      "type": "official",
+      "title": "いえらぶGROUPのクラウドサービスにおける不正アクセスおよび情報流出の可能性について",
+      "published_on": "2026-04-24",
+      "checked_on": "2026-10-27"
+    }
+  ],
+  "updates": [],
+  "notes": "公式4月24日公表。提供元の公表規模を自社顧客数として転記しない。"
+}

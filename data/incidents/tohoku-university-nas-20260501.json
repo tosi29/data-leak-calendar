@@ -1,0 +1,51 @@
+{
+  "id": "tohoku-university-nas-20260501",
+  "organization": {
+    "name": "東北大学",
+    "sector": "教育機関"
+  },
+  "title": "病院の治験資料を保管するNASへの不正アクセス",
+  "summary": "大学への不正アクセス調査で病院の治験資料を保管するNASの侵害が判明。患者・治験分担医師の個人情報が漏えいした可能性を公表。",
+  "published_on": "2026-05-01",
+  "first_published_on": "2026-05-01",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-04-16",
+  "updated_on": "2026-06-17",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。侵入手口の詳細は調査中。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "患者・治験分担医師の対象総数は未公表。"
+    }
+  ],
+  "data_types": [
+    "患者番号",
+    "氏名",
+    "性別",
+    "診療科",
+    "最終受診日",
+    "メールアドレス"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.tohoku.ac.jp/japanese/2026/06/news20260501-public.html",
+      "type": "official",
+      "title": "病院の治験資料を保管するNASへの不正アクセス",
+      "published_on": "2026-05-01",
+      "checked_on": "2026-10-27"
+    }
+  ],
+  "updates": [],
+  "notes": "本文に明記された掲載日5月1日を初報日として採用。6月17日追記で連絡先不明の患者・退職医師への案内を確認。患者の項目は2003～2013年の入院患者等に関する案内であり全対象者に共通とは限らない。"
+}

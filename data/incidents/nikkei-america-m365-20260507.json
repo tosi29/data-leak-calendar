@@ -1,0 +1,55 @@
+{
+  "id": "nikkei-america-m365-20260507",
+  "organization": {
+    "name": "日経アメリカ社",
+    "sector": "企業・団体"
+  },
+  "title": "従業員のMicrosoft 365アカウントに不正ログイン",
+  "summary": "従業員アカウントが侵害され、従業員や取引先291人の連絡先情報が流出した可能性。取引先へのなりすましメールで被害を把握し、パスワードを変更した。",
+  "published_on": "2026-05-07",
+  "first_published_on": "2026-05-07",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-05-07",
+  "verification": "secondary",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。侵入手口の詳細は調査中。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": 291,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "従業員および取引先の対象者。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "会社名",
+    "メールアドレス"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.onebe.co.jp/dlpnews/?p=35336",
+      "type": "news",
+      "title": "日本経済新聞社、米国子会社のMicrosoft 365 アカウントが不正ログイン被害",
+      "published_on": "2026-05-07",
+      "checked_on": "2026-10-27"
+    },
+    {
+      "url": "https://www.security-next.com/184168",
+      "type": "news",
+      "title": "「MS 365」に不正ログイン、個人情報流出の可能性 - 日経米子会社",
+      "published_on": "2026-05-08",
+      "checked_on": "2026-10-27"
+    }
+  ],
+  "updates": [],
+  "notes": "ワンビが発表日を5月7日と明記。291人の単位・項目はSecurity NEXT本文で照合。読者・取材に関する情報は含まれない。クラウド基盤自体への侵入を認定したものではない。"
+}

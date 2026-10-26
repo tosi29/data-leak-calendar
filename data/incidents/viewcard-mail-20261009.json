@@ -4,17 +4,17 @@
     "name": "ビューカード",
     "sector": "企業・団体"
   },
-  "title": "外部メール配信基盤への不正アクセスに伴う漏えいの可能性",
+  "title": "外部メール配信サービスへの侵害について続報で漏えい否定を報告",
   "published_on": "2026-10-09",
   "first_published_on": "2026-10-09",
   "publication_kind": "initial",
   "occurred_on": null,
   "detected_on": null,
-  "updated_on": "2026-10-15",
+  "updated_on": "2026-10-27",
   "verification": "official",
   "incident_type": "attack",
-  "leak_status": "suspected",
-  "summary": "IDCフロンティアで発生した不正アクセスに伴い、メール配信用サービス内の情報が閲覧・取得された可能性を公表。",
+  "leak_status": "ruled_out",
+  "summary": "10月9日に約403万件のメールアドレスの漏えい可能性を公表。10月15日には、外部メール配信サービス会社から漏えいはなかったとの報告を受けたと説明した。",
   "impact": [
     {
       "count": 4030000,
@@ -39,10 +39,23 @@
       "title": "外部メール配信基盤への不正アクセスに伴う漏えいの可能性",
       "published_on": "2026-10-09",
       "checked_on": "2026-10-15"
+    },
+    {
+      "url": "https://news.livedoor.com/article/detail/32586521/",
+      "type": "news",
+      "title": "ビューカード、個人情報漏えいなし（Traicy配信）",
+      "published_on": "2026-10-16",
+      "checked_on": "2026-10-27"
     }
   ],
-  "notes": "実際に漏えいした件数の確定値ではない。",
-  "updates": [],
+  "notes": "実際に漏えいした件数の確定値ではない。 10月15日続報の内容はTraicyの10月16日配信記事で確認。否定判断は外部サービス会社から受けた報告であり、ビューカード独自の調査による結論としない。規模は初報の懸念対象で、流出確定件数ではない。",
+  "updates": [
+    {
+      "date": "2026-10-15",
+      "summary": "外部メール配信サービス会社から個人情報の漏えいはなかったとの報告を受領したと公表。",
+      "source_index": 1
+    }
+  ],
   "vendors": [
     {
       "name": "IDCフロンティア",
@@ -52,12 +65,16 @@
     }
   ],
   "vendor_research": {
-    "checked_on": "2026-10-15",
+    "checked_on": "2026-10-27",
     "result": "identified",
     "note": "以下の役割と会社名を確認しました。記載のない役割は今回の調査では特定できていません。",
     "source_checks": [
       {
         "source_index": 0,
+        "status": "reviewed"
+      },
+      {
+        "source_index": 1,
         "status": "reviewed"
       }
     ]

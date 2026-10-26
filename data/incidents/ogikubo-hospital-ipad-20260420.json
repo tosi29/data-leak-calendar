@@ -1,0 +1,49 @@
+{
+  "id": "ogikubo-hospital-ipad-20260420",
+  "organization": {
+    "name": "荻窪病院",
+    "sector": "医療機関"
+  },
+  "title": "手術関連の患者情報を含むiPadを紛失",
+  "summary": "手術室で使用するiPadの紛失を公表。患者50～52名程度の手術関連情報が保存されていた可能性がある。",
+  "published_on": "2026-04-20",
+  "first_published_on": "2026-04-20",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-03-18",
+  "updated_on": "2026-04-20",
+  "verification": "official",
+  "leak_status": "lost",
+  "incident_type": "accident",
+  "cause": {
+    "category": "loss",
+    "detail": "手術室で用いるiPadが所在不明となった。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 52,
+      "unit": "people",
+      "qualifier": "maximum_approximate",
+      "description": "公表範囲は50～52名程度。上限の概数であり確定人数ではない。"
+    }
+  ],
+  "data_types": [
+    "カタカナ氏名",
+    "手術日",
+    "術式",
+    "使用材料名"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.ogikubo-hospital.or.jp/2026/04/20/24319/",
+      "type": "official",
+      "title": "手術関連の患者情報を含むiPadを紛失",
+      "published_on": "2026-04-20",
+      "checked_on": "2026-10-27"
+    }
+  ],
+  "updates": [],
+  "notes": "公式記事の公開メタデータは4月20日。遠隔ロック処理を行ったが、接続によるロック通知は確認できていないと説明。"
+}

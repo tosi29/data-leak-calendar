@@ -1,0 +1,55 @@
+{
+  "id": "tokyo-monorail-pc-20260423",
+  "organization": {
+    "name": "東京モノレール株式会社",
+    "sector": "企業・団体"
+  },
+  "title": "廃棄予定パソコンを紛失、約3,400人分の情報を保存",
+  "summary": "駅事務室で使用後に廃棄のため倉庫で保管していたパソコン1台が所在不明。顧客への対応記録や従業員の勤務記録等が含まれる。",
+  "published_on": "2026-04-23",
+  "first_published_on": "2026-04-23",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-04-23",
+  "verification": "secondary",
+  "leak_status": "lost",
+  "incident_type": "accident",
+  "cause": {
+    "category": "loss",
+    "detail": "廃棄前に倉庫で保管していたパソコンの所在が分からなくなった。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 3400,
+      "unit": "people",
+      "qualifier": "approximate",
+      "description": "顧客・従業員等の対象者数。"
+    }
+  ],
+  "data_types": [
+    "顧客の連絡先",
+    "相談対応記録",
+    "従業員の勤怠情報"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://cybersecurity-info.com/news/tokyo-monorail-lost-one-business-computer-that-was-being-used-at-haneda-airport-terminal-2-station/",
+      "type": "news",
+      "title": "東京モノレール、業務用パソコンが所在不明",
+      "published_on": "2026-04-24",
+      "checked_on": "2026-10-27"
+    },
+    {
+      "url": "https://www.security-next.com/183821",
+      "type": "news",
+      "title": "廃棄予定PCの紛失判明、約8カ月倉庫で保管",
+      "published_on": "2026-04-24",
+      "checked_on": "2026-10-27"
+    }
+  ],
+  "updates": [],
+  "notes": "報道本文が4月23日公表と明記。保存していた時期や発覚日を公表日にはしない。"
+}

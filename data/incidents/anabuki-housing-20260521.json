@@ -1,0 +1,46 @@
+{
+  "id": "anabuki-housing-20260521",
+  "organization": {
+    "name": "株式会社穴吹ハウジングサービス（あなぶきハウジンググループ）",
+    "sector": "企業・団体"
+  },
+  "title": "ランサムウェア被害の調査で個人情報207,773件の対象範囲を公表",
+  "summary": "第6報で漏えいの可能性がある個人情報を207,773件と精査。一部情報の外部漏えいは確認されているが、全件の流出確定とは区別する。",
+  "published_on": "2026-05-21",
+  "first_published_on": "2026-02-03",
+  "publication_kind": "followup",
+  "occurred_on": null,
+  "detected_on": "2026-02-03",
+  "updated_on": "2026-05-21",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "vulnerability",
+    "detail": "グループ会社のネットワーク機器の脆弱性を悪用され、侵入後の横展開が発生。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 207773,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "調査で確定した漏えいの可能性がある個人情報の対象件数。全件流出の確認数ではない。"
+    }
+  ],
+  "data_types": [
+    "個人情報（項目は対象者ごとに異なる）"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.anabuki-housing.co.jp/news/content.php?news_category_cd=0&news_id=530",
+      "type": "official",
+      "title": "情報漏えいに関する調査結果および今後の取り組みについて（第6報）",
+      "published_on": "2026-05-21",
+      "checked_on": "2026-10-27"
+    }
+  ],
+  "updates": [],
+  "notes": "公式本文を検索経由で確認。以前の最大約49万6千件から対象範囲を精査した数値であり追加被害として加算しない。"
+}

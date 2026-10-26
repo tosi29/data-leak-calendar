@@ -1,0 +1,48 @@
+{
+  "id": "nagaoka-tax-notices-20260728",
+  "organization": {
+    "name": "長岡市",
+    "sector": "自治体"
+  },
+  "title": "廃業済みの別事業所へ納税者6人分の通知書を誤送付",
+  "summary": "社名が似た別事業所を課税システムに登録し、住民税の税額決定通知書を誤送付。廃業済みの宛先を調査したが発見できていない。",
+  "published_on": "2026-07-28",
+  "first_published_on": "2026-07-28",
+  "publication_kind": "initial",
+  "occurred_on": "2026-05-15",
+  "detected_on": "2026-06-03",
+  "updated_on": "2026-07-28",
+  "verification": "official",
+  "leak_status": "lost",
+  "incident_type": "accident",
+  "cause": {
+    "category": "misdelivery",
+    "detail": "給与支払関係情報を社名の似た別事業所に誤登録し通知書を送付。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 6,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "納税者の対象人数。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "個人住民税額"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.city.nagaoka.niigata.jp/shisei/cate02/houdou-shiryou/file/20260728-02.pdf",
+      "type": "official",
+      "title": "廃業済みの別事業所へ納税者6人分の通知書を誤送付",
+      "published_on": "2026-07-28",
+      "checked_on": "2026-10-27"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

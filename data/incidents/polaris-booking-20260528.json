@@ -1,0 +1,46 @@
+{
+  "id": "polaris-booking-20260528",
+  "organization": {
+    "name": "ポラリス・ホールディングス株式会社",
+    "sector": "企業・団体"
+  },
+  "title": "Booking.comアカウント侵害に伴う宿泊予約者情報への影響を調査",
+  "summary": "グループアカウント侵害と宿泊予約者への不審メッセージを確認。不正アクセスで取得された情報が悪用された可能性や外部予約管理システム経由の漏えいを調査。",
+  "published_on": "2026-05-28",
+  "first_published_on": "2026-05-28",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-05-23",
+  "updated_on": "2026-05-28",
+  "verification": "official",
+  "leak_status": "investigating",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。侵入手口の詳細は調査中。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "予約者情報の対象人数・件数は未公表。"
+    }
+  ],
+  "data_types": [
+    "宿泊予約者に関する情報（項目・範囲を調査中）"
+  ],
+  "related_vendor": "Booking.com",
+  "sources": [
+    {
+      "url": "https://www.polaris-holdings.com/wp-content/uploads/2026/05/Release_Unauthorized_Access_260528_JP.pdf",
+      "type": "official",
+      "title": "不正アクセス（Booking.comアカウント）に関するお知らせ",
+      "published_on": "2026-05-28",
+      "checked_on": "2026-10-27"
+    }
+  ],
+  "updates": [],
+  "notes": "約900万円は口座改ざんによる不正送金の金銭損失であり、個人情報件数ではない。ホテル数も対象人数にしない。9～10月のTEMAIRAZU関連公表とは別の5月事案。"
+}

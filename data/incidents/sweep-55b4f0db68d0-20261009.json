@@ -5,7 +5,7 @@
     "sector": "企業・団体"
   },
   "title": "過去に利用した宿泊管理システムから宿泊者情報が漏えい",
-  "summary": "9月18日夜から19日夕方の不正アクセスにより、旧宿泊管理システム内の個人情報が漏えいした。",
+  "summary": "過去に利用していた宿泊管理システムの旧方式ログイン情報が悪用され、2020年11月30日～2025年9月5日の宿泊・予約客の個人情報が漏えいした。",
   "published_on": "2026-10-09",
   "first_published_on": "2026-10-09",
   "publication_kind": "initial",
@@ -16,9 +16,9 @@
   "leak_status": "confirmed",
   "incident_type": "attack",
   "cause": {
-    "category": "unauthorized_access",
-    "detail": "第三者による不正アクセス。具体的な侵入経路は未公表。",
-    "certainty": "unknown"
+    "category": "credentials",
+    "detail": "提供会社側に残っていた旧方式のログイン情報を第三者が不正使用。",
+    "certainty": "confirmed"
   },
   "impact": [
     {
@@ -49,5 +49,5 @@
     }
   ],
   "updates": [],
-  "notes": "現在利用しているシステムとは異なる。漏えい対象人数は未公表。"
+  "notes": "不正アクセスは9月18日夜～19日夕方。2025年に利用を終了した旧サービスの事案。提供会社名は公表本文では未確認。カード情報やメール等のパスワードは含まれない。"
 }

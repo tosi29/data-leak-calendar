@@ -1,0 +1,47 @@
+{
+  "id": "dena-account-takeover-20260512",
+  "organization": {
+    "name": "株式会社ディー・エヌ・エー（DeNAアカウント）",
+    "sector": "企業・団体"
+  },
+  "title": "メールアカウントの乗っ取りを介したDeNAアカウント不正利用",
+  "summary": "利用者の外部メールアカウントが乗っ取られ、メール認証によるDeNAアカウントへのログイン、登録情報変更や残高利用等が行われた可能性を公表。",
+  "published_on": "2026-05-12",
+  "first_published_on": "2026-05-12",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-05-12",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "credentials",
+    "detail": "フィッシング等で取得された外部メールの認証情報を悪用し、メール認証でサービスにログインした可能性。",
+    "certainty": "suspected"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "accounts",
+      "qualifier": "unknown",
+      "description": "複数件とされるが正確な対象数は未公表。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス",
+    "アカウント登録情報（項目未特定）"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://support.accounts.dena.com/hc/ja/articles/57840440271513--%E6%B3%A8%E6%84%8F%E5%96%9A%E8%B5%B7-2026-05-12-%E3%83%A1%E3%83%BC%E3%83%AB%E3%82%A2%E3%83%89%E3%83%AC%E3%82%B9%E3%81%AE%E4%B8%8D%E6%AD%A3%E5%88%A9%E7%94%A8%E3%81%8C%E7%A2%BA%E8%AA%8D%E3%81%95%E3%82%8C%E3%81%A6%E3%81%84%E3%81%BE%E3%81%99",
+      "type": "official",
+      "title": "2026/05/12 メールアドレスの不正利用が確認されています",
+      "published_on": "2026-05-12",
+      "checked_on": "2026-10-27"
+    }
+  ],
+  "updates": [],
+  "notes": "DeNA側サーバーからの認証情報流出が確認された事案とは解釈しない。登録情報変更・残高利用等の可能性を公表した利用者アカウントへの影響として掲載。"
+}

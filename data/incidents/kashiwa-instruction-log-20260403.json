@@ -1,0 +1,48 @@
+{
+  "id": "kashiwa-instruction-log-20260403",
+  "organization": {
+    "name": "柏市",
+    "sector": "自治体"
+  },
+  "title": "小学校で児童85人の指導計画・記録簿を紛失",
+  "summary": "小学校で学習計画や指導内容を記録する冊子が所在不明となり、児童85人の氏名や健康上の配慮情報が対象となった。",
+  "published_on": "2026-04-03",
+  "first_published_on": "2026-04-03",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-03-24",
+  "updated_on": "2026-04-03",
+  "verification": "secondary",
+  "leak_status": "lost",
+  "incident_type": "accident",
+  "cause": {
+    "category": "loss",
+    "detail": "指導計画・記録簿の取扱いに関する校内ルールの周知が不十分だった。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 85,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "所在不明の記録簿に含まれる児童。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "指導内容",
+    "健康上の配慮情報"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://news.jp/i/1413699116562383369",
+      "type": "news",
+      "title": "柏市の小学校で児童85人分の個人情報紛失（チバテレ配信）",
+      "published_on": "2026-04-06",
+      "checked_on": "2026-10-27"
+    }
+  ],
+  "updates": [],
+  "notes": "報道本文が4月3日公表と明記。2025年12月に覚知し2026年2月6日に公表した別の記録簿紛失とは区別。"
+}

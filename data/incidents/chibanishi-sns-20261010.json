@@ -1,0 +1,46 @@
+{
+  "id": "chibanishi-sns-20261010",
+  "organization": {
+    "name": "千葉西総合病院",
+    "sector": "医療機関"
+  },
+  "title": "職員による個人情報を含む不適切なSNS動画投稿",
+  "summary": "職員2名が関わった個人情報を含む動画のSNS投稿を公表し、処分と再発防止策を報告。",
+  "published_on": "2026-10-10",
+  "first_published_on": null,
+  "publication_kind": "followup",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-10",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "improper_handling",
+  "cause": {
+    "category": "improper_sharing",
+    "detail": "職員が個人情報を含む動画を撮影・作成しSNSへ投稿。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "具体的な対象件数は未公表。"
+    }
+  ],
+  "data_types": [
+    "動画に含まれる個人情報（詳細未公表）"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.chibanishi-hp.or.jp/archives/news/important/24370",
+      "type": "official",
+      "title": "職員による個人情報を含む不適切なSNS動画投稿",
+      "published_on": "2026-10-10",
+      "checked_on": "2026-10-27"
+    }
+  ],
+  "updates": [],
+  "notes": "公式第3報を期間内の続報として掲載。初報日は未確定。職員2名・共有グループ3名は関与者数であり被害者数ではない。"
+}

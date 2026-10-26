@@ -1,0 +1,46 @@
+{
+  "id": "grandhill-temairazu-20260929",
+  "organization": {
+    "name": "ホテルグランドヒル市ヶ谷",
+    "sector": "企業・団体"
+  },
+  "title": "予約管理委託先への不正アクセスで宿泊者情報に漏えいのおそれ",
+  "summary": "手間いらずのシステムへの不正アクセスに伴い、宿泊者情報が第三者に閲覧または取得された可能性を否定できないと公表。",
+  "published_on": "2026-09-29",
+  "first_published_on": "2026-09-29",
+  "publication_kind": "initial",
+  "occurred_on": "2026-09-21",
+  "detected_on": null,
+  "updated_on": "2026-09-29",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。侵入手口の詳細は調査中。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "対象となる宿泊者の範囲・情報項目を確認中。"
+    }
+  ],
+  "data_types": [
+    "宿泊者・予約情報（詳細確認中）"
+  ],
+  "related_vendor": "手間いらず株式会社",
+  "sources": [
+    {
+      "url": "https://www.ghi.gr.jp/information/news/post-215.html",
+      "type": "official",
+      "title": "予約管理委託先への不正アクセスで宿泊者情報に漏えいのおそれ",
+      "published_on": "2026-09-29",
+      "checked_on": "2026-10-27"
+    }
+  ],
+  "updates": [],
+  "notes": "公式告知の日付2026.09.29を確認。予約者へWhatsAppの不審なメッセージが送られる事象も説明している。提供元の公表件数との重複あり。"
+}
