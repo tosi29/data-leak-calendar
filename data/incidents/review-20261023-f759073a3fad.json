@@ -5,15 +5,15 @@
     "sector": "企業・団体"
   },
   "title": "ラクスライトクラウドへの不正アクセスに伴う個人情報への影響",
-  "summary": "ラプラス・システムが利用するラクスライトクラウドへの不正アクセスにより、登録情報が漏えいした可能性を公表。",
+  "summary": "ブラストメールへ登録した氏名・アドレス等への影響を調査。26日追記で現時点の漏えい未確認と説明し、調査は継続。L・eye監視画面のエラーメールは別配信系統で影響対象外。",
   "published_on": "2026-10-22",
   "first_published_on": "2026-10-22",
   "publication_kind": "initial",
   "occurred_on": null,
   "detected_on": null,
-  "updated_on": "2026-10-23",
+  "updated_on": "2026-10-27",
   "verification": "official",
-  "leak_status": "suspected",
+  "leak_status": "investigating",
   "incident_type": "attack",
   "cause": {
     "category": "unauthorized_access",
@@ -40,9 +40,22 @@
       "title": "ラクスライトクラウドへの不正アクセスに伴う個人情報への影響",
       "published_on": "2026-10-22",
       "checked_on": "2026-10-23"
+    },
+    {
+      "url": "https://www.lapsys.co.jp/topics/2026/10/post-379.html",
+      "type": "official",
+      "title": "メール配信サービスの不正アクセスによる情報漏えい可能性（26日10時更新）",
+      "published_on": "2026-10-26",
+      "checked_on": "2026-10-27"
     }
   ],
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-10-26",
+      "summary": "提供元から、現時点で顧客の個人情報の漏えいは確認されていないと報告。調査継続中。",
+      "source_index": 1
+    }
+  ],
   "notes": "共通サービスへの攻撃に関する利用組織の公表。提供元や他組織の対象規模と重複する可能性があり、独立した攻撃回数や被害人数として合算しない。",
   "vendors": [
     {

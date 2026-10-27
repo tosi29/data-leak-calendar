@@ -1,0 +1,51 @@
+{
+  "id": "yomisen-west-20261026",
+  "organization": {
+    "name": "株式会社読宣（読宣WEST四国支社）",
+    "sector": "企業・団体"
+  },
+  "title": "ヨミポスト利用者少なくとも1,700人の情報に流出のおそれ",
+  "summary": "四国支社サイトの表示不具合を14日に確認し、調査で侵害痕跡を発見。ウェブでの申込・退会情報に外部流出の可能性がある。",
+  "published_on": "2026-10-26",
+  "first_published_on": "2026-10-26",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-26",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。侵入手口の詳細は調査中。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": 1700,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表は「少なくとも1,700人」。全対象の確定値ではない。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "年齢",
+    "性別",
+    "電話番号",
+    "メールアドレス"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.yomisen.co.jp/news/info/2603.html",
+      "type": "official",
+      "title": "ヨミポスト利用者少なくとも1,700人の情報に流出のおそれ",
+      "published_on": "2026-10-26",
+      "checked_on": "2026-10-27"
+    }
+  ],
+  "updates": [],
+  "notes": "少なくとも1,700人という下限の公表であり、対象総数は未確定。カード・マイナンバーカード情報は含まれない。"
+}

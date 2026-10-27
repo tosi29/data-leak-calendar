@@ -1,0 +1,97 @@
+{
+  "id": "sonet-database-20261027",
+  "organization": {
+    "name": "ソニーネットワークコミュニケーションズ株式会社",
+    "sector": "企業・団体"
+  },
+  "title": "So-net会員データベースから会員情報・一部認証情報が漏えい",
+  "summary": "10月19日の侵害を23日に検知し、24日に漏えいを確認。So-net・plala（Sコース）の会員情報と、一部メールサービスの認証情報、口座情報・通知書情報が対象。",
+  "published_on": "2026-10-27",
+  "first_published_on": "2026-10-27",
+  "publication_kind": "initial",
+  "occurred_on": "2026-10-19",
+  "detected_on": "2026-10-23",
+  "updated_on": "2026-10-27",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。侵入手口の詳細は調査中。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": 2141986,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "So-net現・元会員情報。現会員1,869,771件と元会員272,215件の計。"
+    },
+    {
+      "count": 443495,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "plala（Sコース）現・元会員情報。現会員422,365件と元会員21,130件の計。"
+    },
+    {
+      "count": 24655,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "メールサービス（G）のメールアドレスとパスワード。"
+    },
+    {
+      "count": 17672,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "A-Boxのメールアドレスとパスワード。"
+    },
+    {
+      "count": 7005,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "ソネットVAIOメールのメールアドレスとパスワード。"
+    },
+    {
+      "count": 5069,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "PostPetのメールアドレスとパスワード。"
+    },
+    {
+      "count": 16,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "銀行口座情報。会員情報等と重複し得る。"
+    },
+    {
+      "count": 7,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "パスワード再設定用通知書情報。会員情報等と重複し得る。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "電話番号",
+    "メールアドレス",
+    "ユーザーID",
+    "生年月日",
+    "性別",
+    "インターネット接続用ID",
+    "一部メールアドレスのパスワード",
+    "一部銀行口座情報",
+    "パスワード再設定用通知書情報"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.so-net.ne.jp/info/2026/20261027_0001.html",
+      "type": "official",
+      "title": "So-net会員データベースから会員情報・一部認証情報が漏えい",
+      "published_on": "2026-10-27",
+      "checked_on": "2026-10-27"
+    }
+  ],
+  "updates": [],
+  "notes": "区分間の重複を除いた人数は未公表で合算しない。会員情報のログインパスワードは漏えいなしだが、一部メールサービスのパスワードは漏えいし27日に初期化。カード情報は対象外。"
+}

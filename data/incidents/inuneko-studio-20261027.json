@@ -1,0 +1,56 @@
+{
+  "id": "inuneko-studio-20261027",
+  "organization": {
+    "name": "犬猫生活株式会社",
+    "sector": "企業・団体"
+  },
+  "title": "往診クリニックの問い合わせフォーム148件に漏えいのおそれ",
+  "summary": "サイトで利用するStudioへの侵害により、2024年4月23日～2026年10月3日の問い合わせ入力情報148件が流出した可能性。往診予約の入力情報・決済情報は対象外。",
+  "published_on": "2026-10-27",
+  "first_published_on": "2026-10-27",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-27",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。侵入手口の詳細は調査中。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": 148,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "公表された対象件数。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "メールアドレス",
+    "問い合わせ内容"
+  ],
+  "related_vendor": "Studio株式会社",
+  "sources": [
+    {
+      "url": "https://www.release.tdnet.info/inbs/140120261027556466.pdf",
+      "type": "official",
+      "title": "往診クリニックの問い合わせフォーム148件に漏えいのおそれ",
+      "published_on": "2026-10-27",
+      "checked_on": "2026-10-27"
+    }
+  ],
+  "updates": [],
+  "notes": "",
+  "vendors": [
+    {
+      "name": "Studio株式会社",
+      "role": "service",
+      "detail": "対象情報を登録していた外部サービスの提供元。",
+      "source_index": 0
+    }
+  ]
+}

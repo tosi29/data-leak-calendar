@@ -1,0 +1,63 @@
+{
+  "id": "mmdlabo-blastmail-20261026",
+  "organization": {
+    "name": "MMDLabo株式会社",
+    "sector": "企業・団体"
+  },
+  "title": "MMD研究所メルマガ登録者の情報漏えいを確認",
+  "summary": "ブラストメールへの侵害を受けた26日の案内に、27日付で会社名・氏名・都道府県・メールアドレスの流出確認を追記した。",
+  "published_on": "2026-10-26",
+  "first_published_on": null,
+  "publication_kind": "followup",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-27",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。侵入手口の詳細は調査中。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "対象人数・情報件数は調査中または未公表。"
+    }
+  ],
+  "data_types": [
+    "会社名",
+    "氏名",
+    "都道府県",
+    "メールアドレス"
+  ],
+  "related_vendor": "株式会社ラクスライトクラウド",
+  "sources": [
+    {
+      "url": "https://mmdlabo.jp/press_release/detail_2582.html",
+      "type": "official",
+      "title": "MMD研究所メルマガ登録者の情報漏えいを確認",
+      "published_on": "2026-10-26",
+      "checked_on": "2026-10-27"
+    }
+  ],
+  "updates": [
+    {
+      "date": "2026-10-27",
+      "summary": "配信を許諾した登録者の会社名・氏名・都道府県・メールアドレスの漏えいを確認したと追記。",
+      "source_index": 0
+    }
+  ],
+  "notes": "ページは26日掲載と表示する一方、27日追記は21日の案内に言及する。初報の原資料は未確認のため初報日は確定せず、26日案内と27日続報を記録。",
+  "vendors": [
+    {
+      "name": "株式会社ラクスライトクラウド",
+      "role": "service",
+      "detail": "対象情報を登録していた外部サービスの提供元。",
+      "source_index": 0
+    }
+  ]
+}

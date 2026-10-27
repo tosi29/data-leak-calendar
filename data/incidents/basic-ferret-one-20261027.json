@@ -1,0 +1,47 @@
+{
+  "id": "basic-ferret-one-20261027",
+  "organization": {
+    "name": "株式会社ベーシック",
+    "sector": "企業・団体"
+  },
+  "title": "ferret Oneで顧客のログイン用メールアドレスに漏えいのおそれ",
+  "summary": "内部管理機能の不備を利用され、顧客のログイン用メールアドレスが閲覧・取得された可能性。当社と顧客の計6アカウントで不正ログインを確認。",
+  "published_on": "2026-10-27",
+  "first_published_on": "2026-10-27",
+  "publication_kind": "initial",
+  "occurred_on": "2026-10-14",
+  "detected_on": "2026-10-26",
+  "updated_on": "2026-10-27",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。侵入手口の詳細は調査中。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "メールアドレスの対象件数は未公表。6件は不正ログインを確認した自社・顧客アカウント数で、漏えい人数ではない。"
+    }
+  ],
+  "data_types": [
+    "ログイン用メールアドレス",
+    "不正ログイン先での取得情報（調査中）"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.release.tdnet.info/inbs/140120261027556805.pdf",
+      "type": "official",
+      "title": "ferret Oneで顧客のログイン用メールアドレスに漏えいのおそれ",
+      "published_on": "2026-10-27",
+      "checked_on": "2026-10-27"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

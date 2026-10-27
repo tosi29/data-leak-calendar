@@ -5,13 +5,13 @@
     "sector": "企業・団体"
   },
   "title": "オンラインショップ連携システムから顧客情報が流出",
-  "summary": "一部顧客の個人情報の不正取得を確認。最大約15,000人の氏名・メールアドレス等が対象となる可能性を公表。",
+  "summary": "オンラインショップと連携するシステムへの侵害で一部の情報の不正取得を確認。27日の調査結果では、氏名・アドレス・顧客ID・ポイント・レビュー情報が対象となり得る顧客を最大15,671名と公表。",
   "published_on": "2026-10-24",
   "first_published_on": "2026-10-22",
   "publication_kind": "followup",
   "occurred_on": null,
   "detected_on": null,
-  "updated_on": "2026-10-25",
+  "updated_on": "2026-10-27",
   "verification": "official",
   "leak_status": "confirmed",
   "incident_type": "attack",
@@ -22,17 +22,18 @@
   },
   "impact": [
     {
-      "count": 15000,
+      "count": 15671,
       "unit": "people",
-      "qualifier": "maximum_approximate",
-      "description": "漏えいした可能性のある顧客の上限。個別対象を調査中。"
+      "qualifier": "maximum",
+      "description": "不正取得された可能性がある登録顧客。"
     }
   ],
   "data_types": [
     "氏名",
     "メールアドレス",
     "ポイント情報",
-    "商品レビュー関連情報"
+    "商品レビュー関連情報",
+    "顧客ID"
   ],
   "related_vendor": null,
   "sources": [
@@ -42,8 +43,21 @@
       "title": "オンラインショップ連携システムから顧客情報が流出",
       "published_on": "2026-10-24",
       "checked_on": "2026-10-25"
+    },
+    {
+      "url": "https://info.system5.jp/whatsnew/apology-20261027",
+      "type": "official",
+      "title": "不正アクセスによる情報流出に関するお詫びと調査結果のご報告",
+      "published_on": "2026-10-27",
+      "checked_on": "2026-10-27"
     }
   ],
-  "updates": [],
-  "notes": "一部の不正取得は確認済みだが、15,000人全員の流出が確定したという意味ではない。カード・パスワードは同社システムで保有せず対象外。"
+  "updates": [
+    {
+      "date": "2026-10-27",
+      "summary": "対象を最大15,671名と特定し、顧客IDも含まれると公表。カード・パスワード・電話番号・住所は対象外。",
+      "source_index": 1
+    }
+  ],
+  "notes": "一部の不正取得は確認済みだが、最大15,671名全員の流出が確定した意味ではない。カード・パスワード・電話番号・住所は本件の対象外。"
 }

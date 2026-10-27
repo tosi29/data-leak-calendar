@@ -1,0 +1,61 @@
+{
+  "id": "cells-blastmail-20261023",
+  "organization": {
+    "name": "株式会社セルズ",
+    "sector": "企業・団体"
+  },
+  "title": "メール配信先情報への影響を調査、26日時点で確認対象外",
+  "summary": "ブラストメールへの侵害を受け、顧客の氏名・メールアドレス等への影響を調査。26日の追記では、判明している流出対象に自社配信先リストは含まれていないと説明。",
+  "published_on": "2026-10-23",
+  "first_published_on": "2026-10-23",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-27",
+  "verification": "official",
+  "leak_status": "investigating",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。侵入手口の詳細は調査中。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "対象人数・件数は未公表。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "メールアドレス等の配信先情報"
+  ],
+  "related_vendor": "株式会社ラクスライトクラウド",
+  "sources": [
+    {
+      "url": "https://www.cells.co.jp/news/115953",
+      "type": "official",
+      "title": "メール配信サービスへの不正アクセスに伴うお客様情報の漏えいのおそれ（26日追記）",
+      "published_on": "2026-10-23",
+      "checked_on": "2026-10-27"
+    }
+  ],
+  "updates": [
+    {
+      "date": "2026-10-26",
+      "summary": "11時追記で、現時点の確認対象に自社リストは含まれていないと説明。提供元による対象調査は継続。",
+      "source_index": 0
+    }
+  ],
+  "notes": "対象外との報告は現時点の確認状況。調査が続いており、漏えい否定が確定したものとしない。",
+  "vendors": [
+    {
+      "name": "株式会社ラクスライトクラウド",
+      "role": "service",
+      "detail": "メルマガ等の配信に利用するブラストメールの運営会社。",
+      "source_index": 0
+    }
+  ]
+}

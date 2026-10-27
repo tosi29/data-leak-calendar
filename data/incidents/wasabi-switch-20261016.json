@@ -11,7 +11,7 @@
   "publication_kind": "initial",
   "occurred_on": null,
   "detected_on": null,
-  "updated_on": "2026-10-20",
+  "updated_on": "2026-10-27",
   "verification": "official",
   "leak_status": "confirmed",
   "incident_type": "attack",
@@ -46,6 +46,13 @@
       "title": "WASABI SWITCH 第五報",
       "published_on": "2026-10-18",
       "checked_on": "2026-10-20"
+    },
+    {
+      "url": "https://incident-support.wasabi-inc.biz/report",
+      "type": "official",
+      "title": "不正アクセスの調査結果と現在の対応（26日公表、27日更新）",
+      "published_on": "2026-10-26",
+      "checked_on": "2026-10-27"
     }
   ],
   "updates": [
@@ -53,7 +60,12 @@
       "date": "2026-10-18",
       "summary": "テンプレート内のPHP機能が悪用されたと判明し、同機能の利用を停止。",
       "source_index": 1
+    },
+    {
+      "date": "2026-10-26",
+      "summary": "外部調査で特定した取得条件をDB上で再現し、対象データを照合。25日に利用店舗への個別案内を完了し、安全性の検証と購入者の対象確認を継続。",
+      "source_index": 2
     }
   ],
-  "notes": ""
+  "notes": " 26日報告は店舗ごとに対象項目・件数が異なると説明。侵入経路遮断は18日20時30分完了。個別店舗の件数と重複し得る。"
 }

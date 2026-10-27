@@ -1,0 +1,64 @@
+{
+  "id": "kyoto-bunkyo-airscorer-20261026",
+  "organization": {
+    "name": "京都文教大学",
+    "sector": "教育機関"
+  },
+  "title": "AI採点サービスへの侵害で教員18名・学生197名に漏えいのおそれ",
+  "summary": "AI.R-Scorerのサーバーが2025年12月5日～2026年10月21日に閲覧・取得可能な状態だったと提供元から報告。実際の持ち出しは未確認。",
+  "published_on": "2026-10-26",
+  "first_published_on": "2026-10-26",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-26",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。侵入手口の詳細は調査中。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": 18,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "教員。"
+    },
+    {
+      "count": 197,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "2026年度総合社会学部入学生（編入生を除く）。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "学籍番号",
+    "大学メールアドレス",
+    "学校名・クラス名・学年",
+    "提出作文・結果"
+  ],
+  "related_vendor": "株式会社レベルエンター",
+  "sources": [
+    {
+      "url": "https://www.cyber.kbu.ac.jp/kbu/whatnew/2026/10/post-288.html",
+      "type": "official",
+      "title": "AI採点サービスへの侵害で教員18名・学生197名に漏えいのおそれ",
+      "published_on": "2026-10-26",
+      "checked_on": "2026-10-27"
+    }
+  ],
+  "updates": [],
+  "notes": "大学の公式お知らせ一覧で10月26日公表と照合。提供元・他大学の対象規模と重複し得る。",
+  "vendors": [
+    {
+      "name": "株式会社レベルエンター",
+      "role": "service",
+      "detail": "対象情報を登録していた外部サービスの提供元。",
+      "source_index": 0
+    }
+  ]
+}

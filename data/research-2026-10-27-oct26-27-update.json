@@ -1,0 +1,2378 @@
+{
+  "checked_on": "2026-10-27",
+  "coverage_start": "2026-10-26",
+  "coverage_end": "2026-10-27",
+  "scope": "26～27日の新規公表と続報の確認・反映",
+  "stats": {
+    "baseline_incidents": 1592,
+    "added_incidents": 34,
+    "updated_incidents": 10,
+    "total_incidents": 1626,
+    "baseline_candidates": 58,
+    "new_candidates": 1,
+    "pending_candidates": 59,
+    "index_leads": {
+      "total": 45,
+      "published": 29,
+      "existing": 7,
+      "excluded": 8,
+      "unresolved": 1
+    },
+    "followup_index_checks": 11,
+    "search_queries": 35
+  },
+  "search_queries": [
+    "\"2026年10月27日\" \"個人情報\" 漏えい",
+    "\"2026年10月26日\" \"個人情報\" 漏えい -site:security-next.com -楽天 -ユミルリンク -JR",
+    "\"2026年10月27日\" \"不正アクセス\"",
+    "\"2026年10月26日\" \"漏洩\" -site:security-next.com -楽天 -ユミルリンク",
+    "\"2026年10月27日\" \"漏えい\" -site:privacy-incident-notebook.asumi.chatgpt.site -site:incidentlog.jp",
+    "\"2026年10月27日\" \"個人情報\" \"お詫び\"",
+    "\"2026年10月26日\" \"誤送信\" 個人情報",
+    "\"2026年10月27日\" \"個人情報\" \"紛失\"",
+    "\"2026年10月27日\" \"個人情報\" -site:privacy-incident-notebook.asumi.chatgpt.site -site:rouei-navi.jp -site:incidentlog.jp -site:reddit.com -site:jouhourouei.clipmaster.jp -site:security-karte.jp -site:legalagent.co.jp",
+    "\"2026年10月26日\" \"情報漏えい\" -楽天 -ユミルリンク -バンダイ -site:security-next.com",
+    "\"2026年10月27日\" \"漏洩\" -site:reddit.com",
+    "\"2026年10月26日\" \"紛失\" \"個人情報\"",
+    "グッドスマイルカンパニー 不正アクセス 2026年10月27日",
+    "\"2026年10月26日\" cotta アスマーク トライシクル FTF",
+    "\"2026/10/27\" \"個人情報\"",
+    "\"2026.10.27\" \"漏えい\"",
+    "\"2026年10月26日\" \"アスマーク\" \"個人情報\"",
+    "\"2026年10月26日\" \"cotta\" 不正アクセス",
+    "\"2026年10月26日\" \"トライシクル\" \"FTF\"",
+    "site:internet.gmo \"2026年10月27日\" \"第\"",
+    "site:internet.gmo/news/article/ \"2026年10月27日\" -255 -254",
+    "\"2026年10月27日\" \"個人情報\" -site:reddit.com -site:privacy-incident-notebook.asumi.chatgpt.site -site:incidentlog.jp -site:jouhourouei.clipmaster.jp -site:legalagent.co.jp -site:rouei-navi.jp -site:security-karte.jp -site:scan.netsecurity.ne.jp -site:s.netsecurity.ne.jp",
+    "\"2026年10月26日\" \"情報漏えい\" \"続報\" -site:jouhourouei.clipmaster.jp -site:privacy-incident-notebook.asumi.chatgpt.site",
+    "\"2026年10月27日\" \"誤送信\"",
+    "site:city.shizuoka.lg.jp 駐車券 紛失 2026 10月26日",
+    "\"2026年10月27日\" \"漏えい\" -site:jouhourouei.clipmaster.jp -site:privacy-incident-notebook.asumi.chatgpt.site -site:incidentlog.jp -site:rouei-navi.jp -site:legalagent.co.jp -site:security-karte.jp -楽天 -ユミルリンク -site:reddit.com",
+    "\"2026年10月26日\" \"漏えい\" -楽天 -ユミルリンク -ブラストメール -Cuenote -site:jouhourouei.clipmaster.jp -site:incidentlog.jp -site:privacy-incident-notebook.asumi.chatgpt.site",
+    "\"りそな\" \"ユミルリンク\" \"2026年10月27日\"",
+    "site:impress.co.jp \"2026\" \"20261027\" \"漏えい\"",
+    "site:tokuma.jp \"2026/10/26\" \"不正アクセス\"",
+    "\"2026年10月27日\" \"不正アクセス\" -楽天 -GMO -site:reddit.com -site:incidentlog.jp -site:privacy-incident-notebook.asumi.chatgpt.site -site:jouhourouei.clipmaster.jp",
+    "site:resona-gr.co.jp \"ユミルリンク\" \"2026\"",
+    "site:impress.co.jp \"メール配信\" \"2026年10月27日\"",
+    "site:tokuma.jp \"n65028\"",
+    "site:cyber.kbu.ac.jp \"2026.10.26\" \"不正アクセス\""
+  ],
+  "method": [
+    "10月26・27日を日本語の年月日・スラッシュ・ドット表記で検索し、転載元・既掲載の大規模事案を除外した検索も実施。",
+    "Security NEXT、ScanNetSecurity、ITmedia、INTERNET Watchおよび日付別・続報索引から公式HTML・PDFへ戻る。索引の漏えい確度や単位は転記しない。",
+    "公式本文で公表日、対象情報、人数・件数、漏えいの確認・おそれ・調査中の別を確認。同一組織・同一事案の続報は既存IDへ追記。",
+    "件数の内数や重複を合算しない。So-netのメール認証情報、会員情報・口座情報等は別区分、KOMOJUの決済系とCRMも別の対象範囲として保持。",
+    "本文の取得成功をそのまま照合完了としない。取得制限が残るインプレスは検索経由の公式本文で照合。日付が本文にない徳間書店・京都文教大学は公式一覧で照合。"
+  ],
+  "added_incident_ids": [
+    "asahi-cuenote-20261026",
+    "asmarq-cuenote-20261026",
+    "basic-ferret-one-20261027",
+    "cells-blastmail-20261023",
+    "chitose-blastmail-20261027",
+    "cotta-investigation-20261026",
+    "cybozu-cuenote-20261026",
+    "dou-shuppan-ymail-20261027",
+    "doutor-employees-20261026",
+    "ftf-wasabi-20261026",
+    "goweb-sql-injection-20261026",
+    "gunosy-business-accounts-20261026",
+    "higashimatsushima-living-20261026",
+    "hiroshima-education-living-20261026",
+    "impress-cuenote-20261027",
+    "inuneko-studio-20261027",
+    "komoju-systems-20261022",
+    "kyoto-bunkyo-airscorer-20261026",
+    "mmdlabo-blastmail-20261026",
+    "moneyforward-group-studio-20261026",
+    "osaka-nishiyodogawa-redaction-20261026",
+    "resona-group-cuenote-20261027",
+    "sendai-gender-blastmail-20261026",
+    "sendenkaigi-cuenote-20261027",
+    "sonet-database-20261027",
+    "sonicmoov-comsbi-20261026",
+    "taiwa-living-20261026",
+    "tokuma-goodspress-20261026",
+    "tokyo-foodloss-mail-20261027",
+    "tokyo-water-survey-bag-20261026",
+    "tricycle-wasabi-20261026",
+    "valuecommerce-cuenote-20261026",
+    "yomisen-west-20261026",
+    "yugitsushin-blastmail-20261027"
+  ],
+  "updated_incident_ids": [
+    "idcf-portal-20261014",
+    "onamae-desktop-20261023",
+    "rakus-blastmail-20261021",
+    "hrvision-blastmail-20261023",
+    "system5-20261024",
+    "futaba-ymail-20261024",
+    "nanjo-marathon-blastmail-20261026",
+    "review-20261023-f759073a3fad",
+    "trustbank-furusato-attack-20261020",
+    "wasabi-switch-20261016"
+  ],
+  "new_candidate_ids": [
+    "oct27-update-jmam-cuenote"
+  ],
+  "index_checks": [
+    {
+      "index": 0,
+      "discovery_url": "https://jouhourouei.clipmaster.jp/cases/79867f6e4b022b08",
+      "official_url": "https://www.yugitsushin.jp/announcement/%E3%83%A1%E3%83%BC%E3%83%AB%E3%83%9E%E3%82%AC%E3%82%B8%E3%83%B3%E9%85%8D%E4%BF%A1%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E3%80%8C%E3%83%96%E3%83%A9%E3%82%B9%E3%83%88%E3%83%A1%E3%83%BC%E3%83%AB%E3%80%8D/",
+      "resolution": "published",
+      "reason": "公式本文で対象情報・漏えいの確度を確認し、公表日を照合。",
+      "incident_ids": [
+        "yugitsushin-blastmail-20261027"
+      ],
+      "source_urls": [
+        "https://www.yugitsushin.jp/announcement/%E3%83%A1%E3%83%BC%E3%83%AB%E3%83%9E%E3%82%AC%E3%82%B8%E3%83%B3%E9%85%8D%E4%BF%A1%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E3%80%8C%E3%83%96%E3%83%A9%E3%82%B9%E3%83%88%E3%83%A1%E3%83%BC%E3%83%AB%E3%80%8D/"
+      ]
+    },
+    {
+      "index": 1,
+      "discovery_url": "https://jouhourouei.clipmaster.jp/cases/7d1ab3119d86659e",
+      "official_url": "https://www.release.tdnet.info/inbs/140120261027556805.pdf",
+      "resolution": "published",
+      "reason": "公式本文で対象情報・漏えいの確度を確認し、公表日を照合。",
+      "incident_ids": [
+        "basic-ferret-one-20261027"
+      ],
+      "source_urls": [
+        "https://www.release.tdnet.info/inbs/140120261027556805.pdf"
+      ]
+    },
+    {
+      "index": 2,
+      "discovery_url": "https://jouhourouei.clipmaster.jp/cases/eeb5ad2228cb13be",
+      "official_url": "https://www.release.tdnet.info/inbs/140120261027556466.pdf",
+      "resolution": "published",
+      "reason": "公式本文で対象情報・漏えいの確度を確認し、公表日を照合。",
+      "incident_ids": [
+        "inuneko-studio-20261027"
+      ],
+      "source_urls": [
+        "https://www.release.tdnet.info/inbs/140120261027556466.pdf"
+      ]
+    },
+    {
+      "index": 3,
+      "discovery_url": "https://jouhourouei.clipmaster.jp/cases/73c117391da8beda",
+      "official_url": "https://www.city.chitose.lg.jp/c70/1002860/1007035.html",
+      "resolution": "published",
+      "reason": "公式本文で対象情報・漏えいの確度を確認し、公表日を照合。",
+      "incident_ids": [
+        "chitose-blastmail-20261027"
+      ],
+      "source_urls": [
+        "https://www.city.chitose.lg.jp/c70/1002860/1007035.html"
+      ]
+    },
+    {
+      "index": 4,
+      "discovery_url": "https://jouhourouei.clipmaster.jp/cases/7c9e3fd32801537e",
+      "official_url": "https://prtimes.jp/main/html/rd/p/000000856.000002888.html",
+      "resolution": "published",
+      "reason": "公式本文で対象情報・漏えいの確度を確認し、公表日を照合。",
+      "incident_ids": [
+        "sendenkaigi-cuenote-20261027"
+      ],
+      "source_urls": [
+        "https://prtimes.jp/main/html/rd/p/000000856.000002888.html"
+      ]
+    },
+    {
+      "index": 5,
+      "discovery_url": "https://jouhourouei.clipmaster.jp/cases/57757c5a35d13477",
+      "official_url": "https://www.impress.co.jp/newsrelease/2026/10/info20261027.html",
+      "resolution": "published",
+      "reason": "公式本文で対象情報・漏えいの確度を確認し、公表日を照合。",
+      "incident_ids": [
+        "impress-cuenote-20261027"
+      ],
+      "source_urls": [
+        "https://www.impress.co.jp/newsrelease/2026/10/info20261027.html"
+      ]
+    },
+    {
+      "index": 6,
+      "discovery_url": "https://jouhourouei.clipmaster.jp/cases/d5631a8ca2101aa3",
+      "official_url": "https://www.so-net.ne.jp/info/2026/20261027_0001.html",
+      "resolution": "published",
+      "reason": "公式本文で対象情報・漏えいの確度を確認し、公表日を照合。",
+      "incident_ids": [
+        "sonet-database-20261027"
+      ],
+      "source_urls": [
+        "https://www.so-net.ne.jp/info/2026/20261027_0001.html"
+      ]
+    },
+    {
+      "index": 7,
+      "discovery_url": "https://jouhourouei.clipmaster.jp/cases/be6da00682f315e0",
+      "official_url": "https://www.metro.tokyo.lg.jp/information/press/2026/10/2026102713",
+      "resolution": "published",
+      "reason": "公式本文で対象情報・漏えいの確度を確認し、公表日を照合。",
+      "incident_ids": [
+        "tokyo-foodloss-mail-20261027"
+      ],
+      "source_urls": [
+        "https://www.metro.tokyo.lg.jp/information/press/2026/10/2026102713"
+      ]
+    },
+    {
+      "index": 8,
+      "discovery_url": "https://jouhourouei.clipmaster.jp/cases/f01d0a65d5353f75",
+      "official_url": "https://bandai-a.akamaihd.net/corp/press/100001496525137.pdf",
+      "resolution": "existing",
+      "reason": "同じ組織・同じ事案の公表を既存掲載で確認。重複追加しない。",
+      "incident_ids": [
+        "bandai-logipal-20261026"
+      ],
+      "source_urls": [
+        "https://bandai-a.akamaihd.net/corp/press/100001496525137.pdf"
+      ]
+    },
+    {
+      "index": 9,
+      "discovery_url": "https://jouhourouei.clipmaster.jp/cases/8e0b64be460b2e0d",
+      "official_url": "https://www.release.tdnet.info/inbs/140120261026556413.pdf",
+      "resolution": "excluded",
+      "reason": "eギフト不正発行の26日開示と27日補足を確認。個人情報の具体的な影響は示されず現時点の掲載対象外。別のブラストメール事案は既存掲載。",
+      "incident_ids": [],
+      "source_urls": [
+        "https://www.release.tdnet.info/inbs/140120261026556413.pdf"
+      ]
+    },
+    {
+      "index": 10,
+      "discovery_url": "https://jouhourouei.clipmaster.jp/cases/cb135ec117ee88cb",
+      "official_url": "https://www.cotta.jp/information/security-incident-2026-01.php",
+      "resolution": "published",
+      "reason": "公式本文で対象情報・漏えいの確度を確認し、公表日を照合。",
+      "incident_ids": [
+        "cotta-investigation-20261026"
+      ],
+      "source_urls": [
+        "https://www.cotta.jp/information/security-incident-2026-01.php"
+      ]
+    },
+    {
+      "index": 11,
+      "discovery_url": "https://jouhourouei.clipmaster.jp/cases/278853df8a90637c",
+      "official_url": "https://www.pref.hiroshima.lg.jp/uploaded/attachment/687440.pdf",
+      "resolution": "published",
+      "reason": "公式本文で対象情報・漏えいの確度を確認し、公表日を照合。",
+      "incident_ids": [
+        "hiroshima-education-living-20261026"
+      ],
+      "source_urls": [
+        "https://www.pref.hiroshima.lg.jp/uploaded/attachment/687440.pdf"
+      ]
+    },
+    {
+      "index": 12,
+      "discovery_url": "https://jouhourouei.clipmaster.jp/cases/8c7cfa4563209499",
+      "official_url": "https://dstyleweb.com/information/past/detail/241",
+      "resolution": "published",
+      "reason": "公式本文で対象情報・漏えいの確度を確認し、公表日を照合。",
+      "incident_ids": [
+        "asmarq-cuenote-20261026"
+      ],
+      "source_urls": [
+        "https://dstyleweb.com/information/past/detail/241"
+      ]
+    },
+    {
+      "index": 13,
+      "discovery_url": "https://jouhourouei.clipmaster.jp/cases/5628792b76531fb0",
+      "official_url": "https://tricycle-ce.com/archives/599",
+      "resolution": "published",
+      "reason": "公式本文で対象情報・漏えいの確度を確認し、公表日を照合。",
+      "incident_ids": [
+        "tricycle-wasabi-20261026"
+      ],
+      "source_urls": [
+        "https://tricycle-ce.com/archives/599"
+      ]
+    },
+    {
+      "index": 14,
+      "discovery_url": "https://jouhourouei.clipmaster.jp/cases/753099d5eb252a26",
+      "official_url": "https://ftfinc.co.jp/%E3%80%90%E9%87%8D%E8%A6%81%E3%80%91%E3%80%8Cwasabi-switch%E3%80%8D%E3%81%B8%E3%81%AE%E4%B8%8D%E6%AD%A3%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E3%81%8A%E7%9F%A5/",
+      "resolution": "published",
+      "reason": "公式本文で対象情報・漏えいの確度を確認し、公表日を照合。",
+      "incident_ids": [
+        "ftf-wasabi-20261026"
+      ],
+      "source_urls": [
+        "https://ftfinc.co.jp/%E3%80%90%E9%87%8D%E8%A6%81%E3%80%91%E3%80%8Cwasabi-switch%E3%80%8D%E3%81%B8%E3%81%AE%E4%B8%8D%E6%AD%A3%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E3%81%8A%E7%9F%A5/"
+      ]
+    },
+    {
+      "index": 15,
+      "discovery_url": "https://jouhourouei.clipmaster.jp/cases/d9eb5ecc49ac7047",
+      "official_url": "https://travel.rakuten.co.jp/info/announce/20261026.html",
+      "resolution": "existing",
+      "reason": "同じ組織・同じ事案の公表を既存掲載で確認。重複追加しない。",
+      "incident_ids": [
+        "rakuten-travel-overseas-20261026",
+        "rakuten-travel-multilingual-20261026"
+      ],
+      "source_urls": [
+        "https://travel.rakuten.co.jp/info/announce/20261026.html"
+      ]
+    },
+    {
+      "index": 16,
+      "discovery_url": "https://jouhourouei.clipmaster.jp/cases/48c42718d4773581",
+      "official_url": "https://www.westjr.co.jp/press/article/2026/10/26/items/261026_00_press_ex.pdf",
+      "resolution": "existing",
+      "reason": "同じ組織・同じ事案の公表を既存掲載で確認。重複追加しない。",
+      "incident_ids": [
+        "jr-ex-smart-ex-20261026"
+      ],
+      "source_urls": [
+        "https://www.westjr.co.jp/press/article/2026/10/26/items/261026_00_press_ex.pdf"
+      ]
+    },
+    {
+      "index": 17,
+      "discovery_url": "https://jouhourouei.clipmaster.jp/cases/bd3b53eb0deda348",
+      "official_url": "https://www.feps.co.jp/news/20261026/",
+      "resolution": "existing",
+      "reason": "同じ組織・同じ事案の公表を既存掲載で確認。重複追加しない。",
+      "incident_ids": [
+        "furukawa-feps-20261026"
+      ],
+      "source_urls": [
+        "https://www.feps.co.jp/news/20261026/"
+      ]
+    },
+    {
+      "index": 18,
+      "discovery_url": "https://jouhourouei.clipmaster.jp/cases/73f9cd42d328eee0",
+      "official_url": "https://www.wiseman.co.jp/news/corp/security-incident-20261026/",
+      "resolution": "excluded",
+      "reason": "26日PDFと27日の復旧報告を確認。サービスへの侵害と停止が対象で、個人情報の漏えいは未確認。具体的な閲覧・取得の対象を示すものではなく現時点の掲載対象外。",
+      "incident_ids": [],
+      "source_urls": [
+        "https://www.wiseman.co.jp/news/corp/security-incident-20261026/"
+      ]
+    },
+    {
+      "index": 19,
+      "discovery_url": "https://jouhourouei.clipmaster.jp/cases/9c1f4f2cba651716",
+      "official_url": "https://sonicmoov.com/news/xr5qdn-cnfsn",
+      "resolution": "published",
+      "reason": "公式本文で対象情報・漏えいの確度を確認し、公表日を照合。",
+      "incident_ids": [
+        "sonicmoov-comsbi-20261026"
+      ],
+      "source_urls": [
+        "https://sonicmoov.com/news/xr5qdn-cnfsn"
+      ]
+    },
+    {
+      "index": 20,
+      "discovery_url": "https://jouhourouei.clipmaster.jp/cases/fd172d1921204e7f",
+      "official_url": "https://www.asahi.com/corporate/info/16995713",
+      "resolution": "published",
+      "reason": "公式本文で対象情報・漏えいの確度を確認し、公表日を照合。",
+      "incident_ids": [
+        "asahi-cuenote-20261026"
+      ],
+      "source_urls": [
+        "https://www.asahi.com/corporate/info/16995713"
+      ]
+    },
+    {
+      "index": 21,
+      "discovery_url": "https://jouhourouei.clipmaster.jp/cases/67e1d14558a9798c",
+      "official_url": "https://www.mainichi.co.jp/info/news/20261026.html",
+      "resolution": "existing",
+      "reason": "同じ組織・同じ事案の公表を既存掲載で確認。重複追加しない。",
+      "incident_ids": [
+        "mainichi-cuenote-20261026"
+      ],
+      "source_urls": [
+        "https://www.mainichi.co.jp/info/news/20261026.html"
+      ]
+    },
+    {
+      "index": 22,
+      "discovery_url": "https://jouhourouei.clipmaster.jp/cases/3c7cd100fcdd54c5",
+      "official_url": "https://topics.cybozu.co.jp/news/2026/10/26-19556.html",
+      "resolution": "published",
+      "reason": "公式本文で対象情報・漏えいの確度を確認し、公表日を照合。",
+      "incident_ids": [
+        "cybozu-cuenote-20261026"
+      ],
+      "source_urls": [
+        "https://topics.cybozu.co.jp/news/2026/10/26-19556.html"
+      ]
+    },
+    {
+      "index": 23,
+      "discovery_url": "https://jouhourouei.clipmaster.jp/cases/f2be715b77de28a8",
+      "official_url": "https://www.valuecommerce.co.jp/news/c_news/6819/",
+      "resolution": "published",
+      "reason": "公式本文で対象情報・漏えいの確度を確認し、公表日を照合。",
+      "incident_ids": [
+        "valuecommerce-cuenote-20261026"
+      ],
+      "source_urls": [
+        "https://www.valuecommerce.co.jp/news/c_news/6819/"
+      ]
+    },
+    {
+      "index": 24,
+      "discovery_url": "https://jouhourouei.clipmaster.jp/cases/182f61fa7e14ec08",
+      "official_url": "https://www.jmam.co.jp/assets/images/topics/cuenote_20261026.pdf",
+      "resolution": "unresolved",
+      "reason": "メール配信情報の漏えいを公表しているが、具体的な項目・自然人の対象をまだ特定できない。提供元の全体公表から個別対象を推定しない。",
+      "incident_ids": [],
+      "source_urls": [
+        "https://www.jmam.co.jp/assets/images/topics/cuenote_20261026.pdf"
+      ]
+    },
+    {
+      "index": 25,
+      "discovery_url": "https://jouhourouei.clipmaster.jp/cases/3b14baca0dd1145a",
+      "official_url": "https://gowebcloud.co.jp/news-ir/803",
+      "resolution": "published",
+      "reason": "公式本文で対象情報・漏えいの確度を確認し、公表日を照合。",
+      "incident_ids": [
+        "goweb-sql-injection-20261026"
+      ],
+      "source_urls": [
+        "https://gowebcloud.co.jp/news-ir/803"
+      ]
+    },
+    {
+      "index": 26,
+      "discovery_url": "https://jouhourouei.clipmaster.jp/cases/7160c6f3f3e9bfdf",
+      "official_url": "https://www.nichibei.ac.jp/news/20261026/",
+      "resolution": "excluded",
+      "reason": "個人情報はメールアドレスのみ登録と説明する一方、漏えい対象との通知は受けていない。顧客情報の具体的な影響の公表がないため現時点の掲載対象外。",
+      "incident_ids": [],
+      "source_urls": [
+        "https://www.nichibei.ac.jp/news/20261026/"
+      ]
+    },
+    {
+      "index": 27,
+      "discovery_url": "https://jouhourouei.clipmaster.jp/cases/42b87b674f84f0c6",
+      "official_url": "https://audiobrains.com/news/20261026/",
+      "resolution": "excluded",
+      "reason": "サービス停止・一般的な契約者情報流出の説明で、自社配信先の漏えい連絡は受けていない。自社顧客の情報への具体的影響が未確認のため対象外。",
+      "incident_ids": [],
+      "source_urls": [
+        "https://audiobrains.com/news/20261026/"
+      ]
+    },
+    {
+      "index": 28,
+      "discovery_url": "https://jouhourouei.clipmaster.jp/cases/a0f22a9c950fcce9",
+      "official_url": "https://www.chuden.co.jp/publicity/press/1218551_3273.html",
+      "resolution": "existing",
+      "reason": "同じ組織・同じ事案の公表を既存掲載で確認。重複追加しない。",
+      "incident_ids": [
+        "chuden-blastmail-20261026"
+      ],
+      "source_urls": [
+        "https://www.chuden.co.jp/publicity/press/1218551_3273.html"
+      ]
+    },
+    {
+      "index": 29,
+      "discovery_url": "https://jouhourouei.clipmaster.jp/cases/a64a8a946f1fbb84",
+      "official_url": "https://corp.moneyforward.com/news/info/20261026-mf-press-1/",
+      "resolution": "published",
+      "reason": "公式本文で対象情報・漏えいの確度を確認し、公表日を照合。",
+      "incident_ids": [
+        "moneyforward-group-studio-20261026"
+      ],
+      "source_urls": [
+        "https://corp.moneyforward.com/news/info/20261026-mf-press-1/"
+      ]
+    },
+    {
+      "index": 30,
+      "discovery_url": "https://jouhourouei.clipmaster.jp/cases/643fc7ab474dd4b6",
+      "official_url": "https://www.doutor.co.jp/news/newsrelease/detail/20261026144748.html",
+      "resolution": "published",
+      "reason": "公式本文で対象情報・漏えいの確度を確認し、公表日を照合。",
+      "incident_ids": [
+        "doutor-employees-20261026"
+      ],
+      "source_urls": [
+        "https://www.doutor.co.jp/news/newsrelease/detail/20261026144748.html"
+      ]
+    },
+    {
+      "index": 31,
+      "discovery_url": "https://jouhourouei.clipmaster.jp/cases/147d3b8c1d5a833c",
+      "official_url": "https://www.yomisen.co.jp/news/info/2603.html",
+      "resolution": "published",
+      "reason": "公式本文で対象情報・漏えいの確度を確認し、公表日を照合。",
+      "incident_ids": [
+        "yomisen-west-20261026"
+      ],
+      "source_urls": [
+        "https://www.yomisen.co.jp/news/info/2603.html"
+      ]
+    },
+    {
+      "index": 32,
+      "discovery_url": "https://jouhourouei.clipmaster.jp/cases/45157cf38c930494",
+      "official_url": "https://www.tokuma.jp/news/n65028.html",
+      "resolution": "published",
+      "reason": "公式本文で対象情報・漏えいの確度を確認し、公表日を照合。",
+      "incident_ids": [
+        "tokuma-goodspress-20261026"
+      ],
+      "source_urls": [
+        "https://www.tokuma.jp/news/n65028.html"
+      ]
+    },
+    {
+      "index": 33,
+      "discovery_url": "https://jouhourouei.clipmaster.jp/cases/1866c4ccfe84c120",
+      "official_url": "https://www.lawson.co.jp/contents/cont07/1533805_3310.html",
+      "resolution": "excluded",
+      "reason": "店舗検索停止のみ。公式は自社システム・顧客情報への影響なしと説明。別のローソンID事案と区別。",
+      "incident_ids": [],
+      "source_urls": [
+        "https://www.lawson.co.jp/contents/cont07/1533805_3310.html"
+      ]
+    },
+    {
+      "index": 34,
+      "discovery_url": "https://jouhourouei.clipmaster.jp/cases/43409578534c18d8",
+      "official_url": "https://www.tamaweb.or.jp/archives/51410",
+      "resolution": "excluded",
+      "reason": "メルマガ停止と注意喚起。登録情報の具体的な影響を示す公表がなく、現時点の掲載対象外。",
+      "incident_ids": [],
+      "source_urls": [
+        "https://www.tamaweb.or.jp/archives/51410"
+      ]
+    },
+    {
+      "index": 35,
+      "discovery_url": "https://jouhourouei.clipmaster.jp/cases/0e852989e826c9f7",
+      "official_url": "https://corp.sbishinseibank.co.jp/ja/news_service_notice.html",
+      "resolution": "excluded",
+      "reason": "提供元から当行利用環境は対象外と確認された予防的な休止。漏えい事案として追加しない。",
+      "incident_ids": [],
+      "source_urls": [
+        "https://corp.sbishinseibank.co.jp/ja/news_service_notice.html"
+      ]
+    },
+    {
+      "index": 36,
+      "discovery_url": "https://jouhourouei.clipmaster.jp/cases/03faafd2fbd8224e",
+      "official_url": "https://zen.ac.jp/news/202610_announcement_studio",
+      "resolution": "existing",
+      "reason": "同じ組織・同じ事案の公表を既存掲載で確認。重複追加しない。",
+      "incident_ids": [
+        "zen-studio-20261026"
+      ],
+      "source_urls": [
+        "https://zen.ac.jp/news/202610_announcement_studio"
+      ]
+    },
+    {
+      "index": 37,
+      "discovery_url": "https://jouhourouei.clipmaster.jp/cases/6bd13cb3973f46c7",
+      "official_url": "https://www.ki21.jp/informations/phishing-alert/",
+      "resolution": "excluded",
+      "reason": "ワイメール経由のフィッシング送信に関する公表。対象となる自然人情報の閲覧・取得について具体的説明がなく、現時点の掲載対象外。",
+      "incident_ids": [],
+      "source_urls": [
+        "https://www.ki21.jp/informations/phishing-alert/"
+      ]
+    },
+    {
+      "index": 38,
+      "discovery_url": "https://jouhourouei.clipmaster.jp/cases/0dcefc77cd69cdc3",
+      "official_url": "https://gunosy.co.jp/news/464",
+      "resolution": "published",
+      "reason": "公式本文で対象情報・漏えいの確度を確認し、公表日を照合。",
+      "incident_ids": [
+        "gunosy-business-accounts-20261026"
+      ],
+      "source_urls": [
+        "https://gunosy.co.jp/news/464"
+      ]
+    },
+    {
+      "index": 39,
+      "discovery_url": "https://jouhourouei.clipmaster.jp/cases/0488cc9359c641e2",
+      "official_url": "https://www.cyber.kbu.ac.jp/kbu/whatnew/2026/10/post-288.html",
+      "resolution": "published",
+      "reason": "公式本文で対象情報・漏えいの確度を確認し、公表日を照合。",
+      "incident_ids": [
+        "kyoto-bunkyo-airscorer-20261026"
+      ],
+      "source_urls": [
+        "https://www.cyber.kbu.ac.jp/kbu/whatnew/2026/10/post-288.html"
+      ]
+    },
+    {
+      "index": 40,
+      "discovery_url": "https://jouhourouei.clipmaster.jp/cases/e82651a97400aeb3",
+      "official_url": "https://mmdlabo.jp/press_release/detail_2582.html",
+      "resolution": "published",
+      "reason": "公式本文で対象情報・漏えいの確度を確認し、公表日を照合。",
+      "incident_ids": [
+        "mmdlabo-blastmail-20261026"
+      ],
+      "source_urls": [
+        "https://mmdlabo.jp/press_release/detail_2582.html"
+      ]
+    },
+    {
+      "index": 41,
+      "discovery_url": "https://jouhourouei.clipmaster.jp/cases/dfbaa806f3d00250",
+      "official_url": "https://www.metro.tokyo.lg.jp/information/press/2026/10/2026102601",
+      "resolution": "published",
+      "reason": "公式本文で対象情報・漏えいの確度を確認し、公表日を照合。",
+      "incident_ids": [
+        "tokyo-water-survey-bag-20261026"
+      ],
+      "source_urls": [
+        "https://www.metro.tokyo.lg.jp/information/press/2026/10/2026102601"
+      ]
+    },
+    {
+      "index": 42,
+      "discovery_url": "https://jouhourouei.clipmaster.jp/cases/fe750bd10e9bd181",
+      "official_url": "https://www.city.higashimatsushima.miyagi.jp/kurashi/manabu-tanoshimu/kekkonshien/261026.files/1.pdf",
+      "resolution": "published",
+      "reason": "公式本文で対象情報・漏えいの確度を確認し、公表日を照合。",
+      "incident_ids": [
+        "higashimatsushima-living-20261026"
+      ],
+      "source_urls": [
+        "https://www.city.higashimatsushima.miyagi.jp/kurashi/manabu-tanoshimu/kekkonshien/261026.files/1.pdf"
+      ]
+    },
+    {
+      "index": 43,
+      "discovery_url": "https://jouhourouei.clipmaster.jp/cases/95465832157eef13",
+      "official_url": "https://www.town.taiwa.miyagi.jp/material/files/group/3/2026_10_26.pdf",
+      "resolution": "published",
+      "reason": "公式本文で対象情報・漏えいの確度を確認し、公表日を照合。",
+      "incident_ids": [
+        "taiwa-living-20261026"
+      ],
+      "source_urls": [
+        "https://www.town.taiwa.miyagi.jp/material/files/group/3/2026_10_26.pdf"
+      ]
+    },
+    {
+      "index": 44,
+      "discovery_url": "https://jouhourouei.clipmaster.jp/cases/a21daa30f009fb8a",
+      "official_url": "https://www.city.osaka.lg.jp/hodoshiryo/nishiyodogawa/0000689857.html",
+      "resolution": "published",
+      "reason": "公式本文で対象情報・漏えいの確度を確認し、公表日を照合。",
+      "incident_ids": [
+        "osaka-nishiyodogawa-redaction-20261026"
+      ],
+      "source_urls": [
+        "https://www.city.osaka.lg.jp/hodoshiryo/nishiyodogawa/0000689857.html"
+      ]
+    }
+  ],
+  "followup_checks": [
+    {
+      "index": 0,
+      "discovery_url": "https://jouhourouei.clipmaster.jp/cases/03d65b66f96420ec",
+      "resolution": "updated",
+      "incident_ids": [
+        "futaba-ymail-20261024"
+      ],
+      "reason": "最大60件の氏名・アドレスに漏えいのおそれと判明。",
+      "source_urls": [
+        "https://www.town.fukushima-futaba.lg.jp/12943.htm",
+        "https://www.town.fukushima-futaba.lg.jp/12944.htm"
+      ]
+    },
+    {
+      "index": 1,
+      "discovery_url": "https://jouhourouei.clipmaster.jp/cases/4c26b6e1fedae816",
+      "resolution": "published",
+      "incident_ids": [
+        "dou-shuppan-ymail-20261027"
+      ],
+      "reason": "27日続報で氏名・アドレスの漏えいのおそれを具体化。",
+      "source_urls": [
+        "https://www.dou-shuppan.com/20261027-3/",
+        "https://www.dou-shuppan.com/20261024-2/"
+      ]
+    },
+    {
+      "index": 2,
+      "discovery_url": "https://jouhourouei.clipmaster.jp/cases/aa7860df3fdbf0ab",
+      "resolution": "updated",
+      "incident_ids": [
+        "hrvision-blastmail-20261023"
+      ],
+      "reason": "213,294件の漏えい確定値を反映。",
+      "source_urls": [
+        "https://jinjibu.jp/info/detl/2012/"
+      ]
+    },
+    {
+      "index": 3,
+      "discovery_url": "https://jouhourouei.clipmaster.jp/cases/58b7d7470b9158e4",
+      "resolution": "updated",
+      "incident_ids": [
+        "system5-20261024"
+      ],
+      "reason": "最大15,671名と顧客IDの対象追加を反映。",
+      "source_urls": [
+        "https://www.system5.jp/",
+        "https://info.system5.jp/whatsnew/apology-20261027",
+        "https://info.system5.jp/whatsnew/apology-20261024"
+      ]
+    },
+    {
+      "index": 4,
+      "discovery_url": "https://jouhourouei.clipmaster.jp/cases/6aa535e6aac345fd",
+      "resolution": "published",
+      "incident_ids": [
+        "cells-blastmail-20261023"
+      ],
+      "reason": "初報と26日時点の確認対象外・調査継続を記録。",
+      "source_urls": [
+        "https://www.cells.co.jp/news/115953"
+      ]
+    },
+    {
+      "index": 5,
+      "discovery_url": "https://jouhourouei.clipmaster.jp/cases/61072074dbaada91",
+      "resolution": "published",
+      "incident_ids": [
+        "komoju-systems-20261022"
+      ],
+      "reason": "22日初報と26日第二報の2システムの対象を区分して掲載。",
+      "source_urls": [
+        "https://ja.komoju.com/news/1022-notice/",
+        "https://23804948.fs1.hubspotusercontent-na1.net/hubfs/23804948/KOMOJU%20%E3%81%B8%E3%81%AE%E4%B8%8D%E6%AD%A3%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E3%81%8A%E3%82%88%E3%81%B3%E6%B1%BA%E6%B8%88%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9%E3%81%B8%E3%81%AE%E5%BD%B1%E9%9F%BF%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6.pdf",
+        "https://ja.komoju.com/news/1026-notice/"
+      ]
+    },
+    {
+      "index": 6,
+      "discovery_url": "https://jouhourouei.clipmaster.jp/cases/5b03a672ce6bd975",
+      "resolution": "published",
+      "incident_ids": [
+        "sendai-gender-blastmail-20261026"
+      ],
+      "reason": "26日更新時点の確認対象外と外部調査継続を記録。",
+      "source_urls": [
+        "https://www.sendai-l.jp/information/19786.html"
+      ]
+    },
+    {
+      "index": 7,
+      "discovery_url": "https://jouhourouei.clipmaster.jp/cases/607ae84852225dd8",
+      "resolution": "excluded",
+      "incident_ids": [],
+      "reason": "26日続報では自社登録情報の不正アクセス・流出は未確認。初報に対応する自然人の具体的対象を確認できず、現時点の掲載対象外。",
+      "source_urls": [
+        "https://www.katabami.co.jp/news/news_detail.php?nid=100000599"
+      ]
+    },
+    {
+      "index": 8,
+      "discovery_url": "https://jouhourouei.clipmaster.jp/cases/8781824890bcefa4",
+      "resolution": "updated",
+      "incident_ids": [
+        "trustbank-furusato-attack-20261020"
+      ],
+      "reason": "管理システムのみ再開し、寄附受付と寄附者向けサイトは停止継続。",
+      "source_urls": [
+        "https://www.trustbank.co.jp/newsroom/news/news261019/",
+        "https://www.trustbank.co.jp/newsroom/newsrelease/news20261023/",
+        "https://www.release.tdnet.info/inbs/140120261023555364.pdf",
+        "https://www.trustbank.co.jp/newsroom/newsrelease/new20261026/",
+        "https://www.release.tdnet.info/inbs/140120261026556007.pdf",
+        "https://www.trustbank.co.jp/newsroom/newsrelease/news261020/",
+        "https://www.release.tdnet.info/inbs/140120261020553586.pdf"
+      ]
+    },
+    {
+      "index": 9,
+      "discovery_url": "https://jouhourouei.clipmaster.jp/cases/18c5e5394f44f40c",
+      "resolution": "updated",
+      "incident_ids": [
+        "wasabi-switch-20261016"
+      ],
+      "reason": "対象データの照合・店舗通知完了と安全性検証継続を反映。",
+      "source_urls": [
+        "https://wasabi-inc.biz/help/news/20261016-01/",
+        "https://wasabi-inc.biz/help/news/20261020-01/",
+        "https://incident-support.wasabi-inc.biz/report",
+        "https://wasabi-inc.biz/help/news/20261017-03/",
+        "https://wasabi-inc.biz/help/news/20261018-01/",
+        "https://wasabi-inc.biz/help/news/20261018-02/"
+      ]
+    },
+    {
+      "index": 10,
+      "discovery_url": "https://jouhourouei.clipmaster.jp/cases/39f4c1eb852d23a6",
+      "resolution": "excluded",
+      "incident_ids": [],
+      "reason": "障害・不正アクセスの続報と個人情報保護委員会への速報を確認。自然人の具体的な対象・影響は未公表で現時点の掲載対象外。",
+      "source_urls": [
+        "https://maruki-ms.co.jp/archives/8428",
+        "https://maruki-ms.co.jp/archives/8405"
+      ]
+    }
+  ],
+  "additional_checks": [
+    {
+      "resolution": "published",
+      "incident_ids": [
+        "resona-group-cuenote-20261027"
+      ],
+      "reason": "公式の26～27日公表・続報本文で確認。",
+      "source_urls": [
+        "https://www.resona-gr.co.jp/holdings/news/newsrelease_c/2026/files/20261027_1t.pdf"
+      ]
+    },
+    {
+      "resolution": "published",
+      "incident_ids": [
+        "dou-shuppan-ymail-20261027"
+      ],
+      "reason": "公式の26～27日公表・続報本文で確認。",
+      "source_urls": [
+        "https://www.dou-shuppan.com/20261027-3/",
+        "https://www.dou-shuppan.com/20261024-2/"
+      ]
+    },
+    {
+      "resolution": "published",
+      "incident_ids": [
+        "komoju-systems-20261022"
+      ],
+      "reason": "公式の26～27日公表・続報本文で確認。",
+      "source_urls": [
+        "https://23804948.fs1.hubspotusercontent-na1.net/hubfs/23804948/KOMOJU%20%E3%81%B8%E3%81%AE%E4%B8%8D%E6%AD%A3%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E3%81%8A%E3%82%88%E3%81%B3%E6%B1%BA%E6%B8%88%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9%E3%81%B8%E3%81%AE%E5%BD%B1%E9%9F%BF%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6.pdf",
+        "https://23804948.fs1.hubspotusercontent-na1.net/hubfs/23804948/Website%20%E3%83%80%E3%82%A6%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%89%E8%B3%87%E6%96%99/%E3%80%90%E7%AC%AC%E4%BA%8C%E5%A0%B1%E3%80%91%E5%BD%93%E7%A4%BE%20CRM%20%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E3%81%AB%E3%81%8A%E3%81%91%E3%82%8B%E5%80%8B%E4%BA%BA%E3%83%87%E3%83%BC%E3%82%BF%E3%81%AE%E6%BC%8F%E3%81%88%E3%81%84%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6.pdf"
+      ]
+    },
+    {
+      "resolution": "published",
+      "incident_ids": [
+        "cells-blastmail-20261023"
+      ],
+      "reason": "公式の26～27日公表・続報本文で確認。",
+      "source_urls": [
+        "https://www.cells.co.jp/news/115953"
+      ]
+    },
+    {
+      "resolution": "published",
+      "incident_ids": [
+        "sendai-gender-blastmail-20261026"
+      ],
+      "reason": "公式の26～27日公表・続報本文で確認。",
+      "source_urls": [
+        "https://www.sendai-l.jp/information/19786.html"
+      ]
+    },
+    {
+      "resolution": "updated",
+      "incident_ids": [
+        "idcf-portal-20261014"
+      ],
+      "reason": "26～27日の公式続報を既存記録に追記。",
+      "source_urls": [
+        "https://www.idcf.jp/news/topics/20261027001"
+      ]
+    },
+    {
+      "resolution": "updated",
+      "incident_ids": [
+        "onamae-desktop-20261023"
+      ],
+      "reason": "26～27日の公式続報を既存記録に追記。",
+      "source_urls": [
+        "https://internet.gmo/news/article/252/",
+        "https://internet.gmo/news/article/253/",
+        "https://internet.gmo/news/article/255/",
+        "https://internet.gmo/news/article/256/",
+        "https://internet.gmo/news/article/258/"
+      ]
+    },
+    {
+      "resolution": "updated",
+      "incident_ids": [
+        "rakus-blastmail-20261021"
+      ],
+      "reason": "26～27日の公式続報を既存記録に追記。",
+      "source_urls": [
+        "https://info.blastmail.jp/information_20261021.html",
+        "https://info.blastmail.jp/information_20261021.html"
+      ]
+    },
+    {
+      "resolution": "updated",
+      "incident_ids": [
+        "nanjo-marathon-blastmail-20261026"
+      ],
+      "reason": "26～27日の公式続報を既存記録に追記。",
+      "source_urls": [
+        "https://www.city.nanjo.okinawa.jp/topics/1792646187/"
+      ]
+    },
+    {
+      "resolution": "updated",
+      "incident_ids": [
+        "review-20261023-f759073a3fad"
+      ],
+      "reason": "26～27日の公式続報を既存記録に追記。",
+      "source_urls": [
+        "https://www.lapsys.co.jp/topics/2026/10/post-379.html"
+      ]
+    },
+    {
+      "resolution": "existing",
+      "incident_ids": [
+        "sweep-7340c0fb3799-20261023"
+      ],
+      "reason": "グッドスマイルカンパニーの26日追記は既存記録へ反映済み。27日は報道日であり新規事案として追加しない。",
+      "source_urls": [
+        "https://support.goodsmile.com/hc/ja/articles/63547468806297"
+      ]
+    },
+    {
+      "resolution": "existing",
+      "incident_ids": [
+        "shizuoka-ekipa-20261024"
+      ],
+      "reason": "27日放送の駐車券紛失届事案は24日公表の既存掲載。報道日で再加算しない。",
+      "source_urls": [
+        "https://www.kfb.co.jp/news/article/16996912"
+      ]
+    }
+  ],
+  "source_retrievals": [
+    {
+      "batch": "leak-oct2627-1-results",
+      "url": "https://www.idcf.jp/news/topics/20261027001",
+      "final_url": "https://www.idcf.jp/news/topics/20261027001",
+      "status": "retrieved",
+      "size": 152205,
+      "mime": "text/html"
+    },
+    {
+      "batch": "leak-oct2627-1-results",
+      "url": "https://internet.gmo/news/article/255/",
+      "final_url": "https://internet.gmo/news/article/255/",
+      "status": "retrieved",
+      "size": 33398,
+      "mime": "text/html"
+    },
+    {
+      "batch": "leak-oct2627-1-results",
+      "url": "https://internet.gmo/en/news/article/255/",
+      "final_url": "https://internet.gmo/en/news/article/255/",
+      "status": "retrieved",
+      "size": 32891,
+      "mime": "text/html"
+    },
+    {
+      "batch": "leak-oct2627-1-results",
+      "url": "https://www.metro.tokyo.lg.jp/ja/information/press/2026/10/2026102601",
+      "final_url": "https://www.metro.tokyo.lg.jp/ja/information/press/2026/10/2026102601",
+      "status": "retrieved",
+      "size": 519451,
+      "mime": "text/html"
+    },
+    {
+      "batch": "leak-oct2627-1-results",
+      "url": "https://www.security-next.com/date/2026/10",
+      "final_url": "https://www.security-next.com/date/2026/10",
+      "status": "retrieved",
+      "size": 25751,
+      "mime": "text/html"
+    },
+    {
+      "batch": "leak-oct2627-1-results",
+      "url": "https://jouhourouei.clipmaster.jp/topics/2026",
+      "final_url": "https://jouhourouei.clipmaster.jp/topics/2026",
+      "status": "retrieved",
+      "size": 474566,
+      "mime": "text/html"
+    },
+    {
+      "batch": "leak-oct2627-1-results",
+      "url": "https://www.itmedia.co.jp/news/archive/2610",
+      "final_url": "https://www.itmedia.co.jp/news/archive/2610",
+      "status": "retrieved",
+      "size": 1241518,
+      "mime": "text/html"
+    },
+    {
+      "batch": "leak-oct2627-cases-results",
+      "url": "https://jouhourouei.clipmaster.jp/cases/79867f6e4b022b08",
+      "final_url": "https://jouhourouei.clipmaster.jp/cases/79867f6e4b022b08",
+      "status": "retrieved",
+      "size": 19418,
+      "mime": "text/html"
+    },
+    {
+      "batch": "leak-oct2627-cases-results",
+      "url": "https://jouhourouei.clipmaster.jp/cases/7d1ab3119d86659e",
+      "final_url": "https://jouhourouei.clipmaster.jp/cases/7d1ab3119d86659e",
+      "status": "retrieved",
+      "size": 19681,
+      "mime": "text/html"
+    },
+    {
+      "batch": "leak-oct2627-cases-results",
+      "url": "https://jouhourouei.clipmaster.jp/cases/eeb5ad2228cb13be",
+      "final_url": "https://jouhourouei.clipmaster.jp/cases/eeb5ad2228cb13be",
+      "status": "retrieved",
+      "size": 18692,
+      "mime": "text/html"
+    },
+    {
+      "batch": "leak-oct2627-cases-results",
+      "url": "https://jouhourouei.clipmaster.jp/cases/73c117391da8beda",
+      "final_url": "https://jouhourouei.clipmaster.jp/cases/73c117391da8beda",
+      "status": "retrieved",
+      "size": 18638,
+      "mime": "text/html"
+    },
+    {
+      "batch": "leak-oct2627-cases-results",
+      "url": "https://jouhourouei.clipmaster.jp/cases/7c9e3fd32801537e",
+      "final_url": "https://jouhourouei.clipmaster.jp/cases/7c9e3fd32801537e",
+      "status": "retrieved",
+      "size": 19738,
+      "mime": "text/html"
+    },
+    {
+      "batch": "leak-oct2627-cases-results",
+      "url": "https://jouhourouei.clipmaster.jp/cases/57757c5a35d13477",
+      "final_url": "https://jouhourouei.clipmaster.jp/cases/57757c5a35d13477",
+      "status": "retrieved",
+      "size": 18701,
+      "mime": "text/html"
+    },
+    {
+      "batch": "leak-oct2627-cases-results",
+      "url": "https://jouhourouei.clipmaster.jp/cases/d5631a8ca2101aa3",
+      "final_url": "https://jouhourouei.clipmaster.jp/cases/d5631a8ca2101aa3",
+      "status": "retrieved",
+      "size": 22902,
+      "mime": "text/html"
+    },
+    {
+      "batch": "leak-oct2627-cases-results",
+      "url": "https://jouhourouei.clipmaster.jp/cases/be6da00682f315e0",
+      "final_url": "https://jouhourouei.clipmaster.jp/cases/be6da00682f315e0",
+      "status": "retrieved",
+      "size": 20750,
+      "mime": "text/html"
+    },
+    {
+      "batch": "leak-oct2627-cases-results",
+      "url": "https://jouhourouei.clipmaster.jp/cases/f01d0a65d5353f75",
+      "final_url": "https://jouhourouei.clipmaster.jp/cases/f01d0a65d5353f75",
+      "status": "retrieved",
+      "size": 20410,
+      "mime": "text/html"
+    },
+    {
+      "batch": "leak-oct2627-cases-results",
+      "url": "https://jouhourouei.clipmaster.jp/cases/8e0b64be460b2e0d",
+      "final_url": "https://jouhourouei.clipmaster.jp/cases/8e0b64be460b2e0d",
+      "status": "retrieved",
+      "size": 26349,
+      "mime": "text/html"
+    },
+    {
+      "batch": "leak-oct2627-cases-results",
+      "url": "https://jouhourouei.clipmaster.jp/cases/cb135ec117ee88cb",
+      "final_url": "https://jouhourouei.clipmaster.jp/cases/cb135ec117ee88cb",
+      "status": "retrieved",
+      "size": 18079,
+      "mime": "text/html"
+    },
+    {
+      "batch": "leak-oct2627-cases-results",
+      "url": "https://jouhourouei.clipmaster.jp/cases/278853df8a90637c",
+      "final_url": "https://jouhourouei.clipmaster.jp/cases/278853df8a90637c",
+      "status": "retrieved",
+      "size": 20501,
+      "mime": "text/html"
+    },
+    {
+      "batch": "leak-oct2627-cases-results",
+      "url": "https://jouhourouei.clipmaster.jp/cases/8c7cfa4563209499",
+      "final_url": "https://jouhourouei.clipmaster.jp/cases/8c7cfa4563209499",
+      "status": "retrieved",
+      "size": 19154,
+      "mime": "text/html"
+    },
+    {
+      "batch": "leak-oct2627-cases-results",
+      "url": "https://jouhourouei.clipmaster.jp/cases/5628792b76531fb0",
+      "final_url": "https://jouhourouei.clipmaster.jp/cases/5628792b76531fb0",
+      "status": "retrieved",
+      "size": 20256,
+      "mime": "text/html"
+    },
+    {
+      "batch": "leak-oct2627-cases-results",
+      "url": "https://jouhourouei.clipmaster.jp/cases/753099d5eb252a26",
+      "final_url": "https://jouhourouei.clipmaster.jp/cases/753099d5eb252a26",
+      "status": "retrieved",
+      "size": 20518,
+      "mime": "text/html"
+    },
+    {
+      "batch": "leak-oct2627-cases-results",
+      "url": "https://jouhourouei.clipmaster.jp/cases/d9eb5ecc49ac7047",
+      "final_url": "https://jouhourouei.clipmaster.jp/cases/d9eb5ecc49ac7047",
+      "status": "retrieved",
+      "size": 27940,
+      "mime": "text/html"
+    },
+    {
+      "batch": "leak-oct2627-cases-results",
+      "url": "https://jouhourouei.clipmaster.jp/cases/48c42718d4773581",
+      "final_url": "https://jouhourouei.clipmaster.jp/cases/48c42718d4773581",
+      "status": "retrieved",
+      "size": 20861,
+      "mime": "text/html"
+    },
+    {
+      "batch": "leak-oct2627-cases-results",
+      "url": "https://jouhourouei.clipmaster.jp/cases/bd3b53eb0deda348",
+      "final_url": "https://jouhourouei.clipmaster.jp/cases/bd3b53eb0deda348",
+      "status": "retrieved",
+      "size": 19312,
+      "mime": "text/html"
+    },
+    {
+      "batch": "leak-oct2627-cases-results",
+      "url": "https://jouhourouei.clipmaster.jp/cases/73f9cd42d328eee0",
+      "final_url": "https://jouhourouei.clipmaster.jp/cases/73f9cd42d328eee0",
+      "status": "retrieved",
+      "size": 22627,
+      "mime": "text/html"
+    },
+    {
+      "batch": "leak-oct2627-cases-results",
+      "url": "https://jouhourouei.clipmaster.jp/cases/9c1f4f2cba651716",
+      "final_url": "https://jouhourouei.clipmaster.jp/cases/9c1f4f2cba651716",
+      "status": "retrieved",
+      "size": 19788,
+      "mime": "text/html"
+    },
+    {
+      "batch": "leak-oct2627-cases-results",
+      "url": "https://jouhourouei.clipmaster.jp/cases/fd172d1921204e7f",
+      "final_url": "https://jouhourouei.clipmaster.jp/cases/fd172d1921204e7f",
+      "status": "retrieved",
+      "size": 19407,
+      "mime": "text/html"
+    },
+    {
+      "batch": "leak-oct2627-cases-results",
+      "url": "https://jouhourouei.clipmaster.jp/cases/67e1d14558a9798c",
+      "final_url": "https://jouhourouei.clipmaster.jp/cases/67e1d14558a9798c",
+      "status": "retrieved",
+      "size": 20320,
+      "mime": "text/html"
+    },
+    {
+      "batch": "leak-oct2627-cases-results",
+      "url": "https://jouhourouei.clipmaster.jp/cases/3c7cd100fcdd54c5",
+      "final_url": "https://jouhourouei.clipmaster.jp/cases/3c7cd100fcdd54c5",
+      "status": "retrieved",
+      "size": 18530,
+      "mime": "text/html"
+    },
+    {
+      "batch": "leak-oct2627-cases-results",
+      "url": "https://jouhourouei.clipmaster.jp/cases/f2be715b77de28a8",
+      "final_url": "https://jouhourouei.clipmaster.jp/cases/f2be715b77de28a8",
+      "status": "retrieved",
+      "size": 19797,
+      "mime": "text/html"
+    },
+    {
+      "batch": "leak-oct2627-cases-results",
+      "url": "https://jouhourouei.clipmaster.jp/cases/182f61fa7e14ec08",
+      "final_url": "https://jouhourouei.clipmaster.jp/cases/182f61fa7e14ec08",
+      "status": "retrieved",
+      "size": 19418,
+      "mime": "text/html"
+    },
+    {
+      "batch": "leak-oct2627-cases-results",
+      "url": "https://jouhourouei.clipmaster.jp/cases/3b14baca0dd1145a",
+      "final_url": "https://jouhourouei.clipmaster.jp/cases/3b14baca0dd1145a",
+      "status": "retrieved",
+      "size": 19700,
+      "mime": "text/html"
+    },
+    {
+      "batch": "leak-oct2627-cases-results",
+      "url": "https://jouhourouei.clipmaster.jp/cases/7160c6f3f3e9bfdf",
+      "final_url": "https://jouhourouei.clipmaster.jp/cases/7160c6f3f3e9bfdf",
+      "status": "retrieved",
+      "size": 18502,
+      "mime": "text/html"
+    },
+    {
+      "batch": "leak-oct2627-cases-results",
+      "url": "https://jouhourouei.clipmaster.jp/cases/42b87b674f84f0c6",
+      "final_url": "https://jouhourouei.clipmaster.jp/cases/42b87b674f84f0c6",
+      "status": "retrieved",
+      "size": 18269,
+      "mime": "text/html"
+    },
+    {
+      "batch": "leak-oct2627-cases-results",
+      "url": "https://jouhourouei.clipmaster.jp/cases/a0f22a9c950fcce9",
+      "final_url": "https://jouhourouei.clipmaster.jp/cases/a0f22a9c950fcce9",
+      "status": "retrieved",
+      "size": 19158,
+      "mime": "text/html"
+    },
+    {
+      "batch": "leak-oct2627-cases-results",
+      "url": "https://jouhourouei.clipmaster.jp/cases/a64a8a946f1fbb84",
+      "final_url": "https://jouhourouei.clipmaster.jp/cases/a64a8a946f1fbb84",
+      "status": "retrieved",
+      "size": 25961,
+      "mime": "text/html"
+    },
+    {
+      "batch": "leak-oct2627-cases-results",
+      "url": "https://jouhourouei.clipmaster.jp/cases/643fc7ab474dd4b6",
+      "final_url": "https://jouhourouei.clipmaster.jp/cases/643fc7ab474dd4b6",
+      "status": "retrieved",
+      "size": 19818,
+      "mime": "text/html"
+    },
+    {
+      "batch": "leak-oct2627-cases-results",
+      "url": "https://jouhourouei.clipmaster.jp/cases/147d3b8c1d5a833c",
+      "final_url": "https://jouhourouei.clipmaster.jp/cases/147d3b8c1d5a833c",
+      "status": "retrieved",
+      "size": 19519,
+      "mime": "text/html"
+    },
+    {
+      "batch": "leak-oct2627-cases-results",
+      "url": "https://jouhourouei.clipmaster.jp/cases/45157cf38c930494",
+      "final_url": "https://jouhourouei.clipmaster.jp/cases/45157cf38c930494",
+      "status": "retrieved",
+      "size": 19023,
+      "mime": "text/html"
+    },
+    {
+      "batch": "leak-oct2627-cases-results",
+      "url": "https://jouhourouei.clipmaster.jp/cases/1866c4ccfe84c120",
+      "final_url": "https://jouhourouei.clipmaster.jp/cases/1866c4ccfe84c120",
+      "status": "retrieved",
+      "size": 19387,
+      "mime": "text/html"
+    },
+    {
+      "batch": "leak-oct2627-cases-results",
+      "url": "https://jouhourouei.clipmaster.jp/cases/43409578534c18d8",
+      "final_url": "https://jouhourouei.clipmaster.jp/cases/43409578534c18d8",
+      "status": "retrieved",
+      "size": 20101,
+      "mime": "text/html"
+    },
+    {
+      "batch": "leak-oct2627-cases-results",
+      "url": "https://jouhourouei.clipmaster.jp/cases/0e852989e826c9f7",
+      "final_url": "https://jouhourouei.clipmaster.jp/cases/0e852989e826c9f7",
+      "status": "retrieved",
+      "size": 18945,
+      "mime": "text/html"
+    },
+    {
+      "batch": "leak-oct2627-cases-results",
+      "url": "https://jouhourouei.clipmaster.jp/cases/03faafd2fbd8224e",
+      "final_url": "https://jouhourouei.clipmaster.jp/cases/03faafd2fbd8224e",
+      "status": "retrieved",
+      "size": 19052,
+      "mime": "text/html"
+    },
+    {
+      "batch": "leak-oct2627-cases-results",
+      "url": "https://jouhourouei.clipmaster.jp/cases/6bd13cb3973f46c7",
+      "final_url": "https://jouhourouei.clipmaster.jp/cases/6bd13cb3973f46c7",
+      "status": "retrieved",
+      "size": 18748,
+      "mime": "text/html"
+    },
+    {
+      "batch": "leak-oct2627-cases-results",
+      "url": "https://jouhourouei.clipmaster.jp/cases/0dcefc77cd69cdc3",
+      "final_url": "https://jouhourouei.clipmaster.jp/cases/0dcefc77cd69cdc3",
+      "status": "retrieved",
+      "size": 19507,
+      "mime": "text/html"
+    },
+    {
+      "batch": "leak-oct2627-cases-results",
+      "url": "https://jouhourouei.clipmaster.jp/cases/0488cc9359c641e2",
+      "final_url": "https://jouhourouei.clipmaster.jp/cases/0488cc9359c641e2",
+      "status": "retrieved",
+      "size": 19906,
+      "mime": "text/html"
+    },
+    {
+      "batch": "leak-oct2627-cases-results",
+      "url": "https://jouhourouei.clipmaster.jp/cases/e82651a97400aeb3",
+      "final_url": "https://jouhourouei.clipmaster.jp/cases/e82651a97400aeb3",
+      "status": "retrieved",
+      "size": 18954,
+      "mime": "text/html"
+    },
+    {
+      "batch": "leak-oct2627-cases-results",
+      "url": "https://jouhourouei.clipmaster.jp/cases/dfbaa806f3d00250",
+      "final_url": "https://jouhourouei.clipmaster.jp/cases/dfbaa806f3d00250",
+      "status": "retrieved",
+      "size": 18448,
+      "mime": "text/html"
+    },
+    {
+      "batch": "leak-oct2627-cases-results",
+      "url": "https://jouhourouei.clipmaster.jp/cases/fe750bd10e9bd181",
+      "final_url": "https://jouhourouei.clipmaster.jp/cases/fe750bd10e9bd181",
+      "status": "retrieved",
+      "size": 20110,
+      "mime": "text/html"
+    },
+    {
+      "batch": "leak-oct2627-cases-results",
+      "url": "https://jouhourouei.clipmaster.jp/cases/95465832157eef13",
+      "final_url": "https://jouhourouei.clipmaster.jp/cases/95465832157eef13",
+      "status": "retrieved",
+      "size": 20471,
+      "mime": "text/html"
+    },
+    {
+      "batch": "leak-oct2627-cases-results",
+      "url": "https://jouhourouei.clipmaster.jp/cases/a21daa30f009fb8a",
+      "final_url": "https://jouhourouei.clipmaster.jp/cases/a21daa30f009fb8a",
+      "status": "retrieved",
+      "size": 19184,
+      "mime": "text/html"
+    },
+    {
+      "batch": "leak-oct2627-extra-results",
+      "url": "https://www.wiseman.co.jp/wp-content/uploads/2026/10/release_20261026.pdf",
+      "final_url": "https://www.wiseman.co.jp/wp-content/uploads/2026/10/release_20261026.pdf",
+      "status": "retrieved",
+      "size": 578681,
+      "mime": "application/pdf"
+    },
+    {
+      "batch": "leak-oct2627-extra-results",
+      "url": "https://www.wiseman.co.jp/news/corp/security-incident-20261027-2/",
+      "final_url": "https://www.wiseman.co.jp/news/corp/security-incident-20261027-2/",
+      "status": "retrieved",
+      "size": 57662,
+      "mime": "text/html"
+    },
+    {
+      "batch": "leak-oct2627-extra-results",
+      "url": "https://www.wiseman.co.jp/news/corp/security-incident-20261027-1/",
+      "final_url": "https://www.wiseman.co.jp/news/corp/security-incident-20261027-1/",
+      "status": "retrieved",
+      "size": 57460,
+      "mime": "text/html"
+    },
+    {
+      "batch": "leak-oct2627-extra-results",
+      "url": "https://www.tokuma.jp/news/",
+      "final_url": "https://www.tokuma.jp/news/",
+      "status": "retrieved",
+      "size": 67792,
+      "mime": "text/html"
+    },
+    {
+      "batch": "leak-oct2627-extra-results",
+      "url": "https://www.cyber.kbu.ac.jp/kbu/whatnew/",
+      "final_url": "https://www.cyber.kbu.ac.jp/kbu/whatnew/",
+      "status": "retrieved",
+      "size": 214169,
+      "mime": "text/html"
+    },
+    {
+      "batch": "leak-oct2627-extra-results",
+      "url": "https://info.blastmail.jp/information_20261021.html",
+      "final_url": "https://info.blastmail.jp/information_20261021.html",
+      "status": "retrieved",
+      "size": 7159,
+      "mime": "text/html"
+    },
+    {
+      "batch": "leak-oct2627-extra-results",
+      "url": "https://www.cuenote.jp/information/news/unauthorizedaccess2.html",
+      "final_url": "https://www.cuenote.jp/information/news/unauthorizedaccess2.html",
+      "status": "retrieved",
+      "size": 57892,
+      "mime": "text/html"
+    },
+    {
+      "batch": "leak-oct2627-extra-results",
+      "url": "https://www.cuenote.jp/support/news-incident.html",
+      "final_url": "https://www.cuenote.jp/support/news-incident.html",
+      "status": "retrieved",
+      "size": 59256,
+      "mime": "text/html"
+    },
+    {
+      "batch": "leak-oct2627-extra-results",
+      "url": "https://www.asmarq.co.jp/news/external_service_20261026/",
+      "final_url": "https://www.asmarq.co.jp/news/external_service_20261026/",
+      "status": "retrieved",
+      "size": 89824,
+      "mime": "text/html"
+    },
+    {
+      "batch": "leak-oct2627-final-sources-results",
+      "url": "https://internet.gmo/news/article/256/",
+      "final_url": "https://internet.gmo/news/article/256/",
+      "status": "retrieved",
+      "size": 36446,
+      "mime": "text/html"
+    },
+    {
+      "batch": "leak-oct2627-final-sources-results",
+      "url": "https://internet.gmo/news/article/257/",
+      "final_url": "https://internet.gmo/news/article/257/",
+      "status": "retrieved",
+      "size": 34536,
+      "mime": "text/html"
+    },
+    {
+      "batch": "leak-oct2627-final-sources-results",
+      "url": "https://internet.gmo/news/article/258/",
+      "final_url": "https://internet.gmo/news/article/258/",
+      "status": "retrieved",
+      "size": 48219,
+      "mime": "text/html"
+    },
+    {
+      "batch": "leak-oct2627-final-sources-results",
+      "url": "https://rocket-boys.co.jp/security-measures-lab/resona-three-banks-cuenote-fc-customer-data-possible-leak/",
+      "final_url": "https://rocket-boys.co.jp/security-measures-lab/resona-three-banks-cuenote-fc-customer-data-possible-leak/",
+      "status": "retrieved",
+      "size": 596505,
+      "mime": "text/html"
+    },
+    {
+      "batch": "leak-oct2627-final-sources-results",
+      "url": "https://jouhourouei.clipmaster.jp/followups",
+      "final_url": "https://jouhourouei.clipmaster.jp/followups",
+      "status": "retrieved",
+      "size": 329826,
+      "mime": "text/html"
+    },
+    {
+      "batch": "leak-oct2627-final-sources-results",
+      "url": "https://www.jmam.co.jp/topics/cuenote_20261026.html",
+      "status": "unavailable",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "batch": "leak-oct2627-followup-cases-results",
+      "url": "https://jouhourouei.clipmaster.jp/cases/03d65b66f96420ec",
+      "final_url": "https://jouhourouei.clipmaster.jp/cases/03d65b66f96420ec",
+      "status": "retrieved",
+      "size": 22681,
+      "mime": "text/html"
+    },
+    {
+      "batch": "leak-oct2627-followup-cases-results",
+      "url": "https://jouhourouei.clipmaster.jp/cases/4c26b6e1fedae816",
+      "final_url": "https://jouhourouei.clipmaster.jp/cases/4c26b6e1fedae816",
+      "status": "retrieved",
+      "size": 20962,
+      "mime": "text/html"
+    },
+    {
+      "batch": "leak-oct2627-followup-cases-results",
+      "url": "https://jouhourouei.clipmaster.jp/cases/aa7860df3fdbf0ab",
+      "final_url": "https://jouhourouei.clipmaster.jp/cases/aa7860df3fdbf0ab",
+      "status": "retrieved",
+      "size": 21025,
+      "mime": "text/html"
+    },
+    {
+      "batch": "leak-oct2627-followup-cases-results",
+      "url": "https://jouhourouei.clipmaster.jp/cases/58b7d7470b9158e4",
+      "final_url": "https://jouhourouei.clipmaster.jp/cases/58b7d7470b9158e4",
+      "status": "retrieved",
+      "size": 30351,
+      "mime": "text/html"
+    },
+    {
+      "batch": "leak-oct2627-followup-cases-results",
+      "url": "https://jouhourouei.clipmaster.jp/cases/6aa535e6aac345fd",
+      "final_url": "https://jouhourouei.clipmaster.jp/cases/6aa535e6aac345fd",
+      "status": "retrieved",
+      "size": 21832,
+      "mime": "text/html"
+    },
+    {
+      "batch": "leak-oct2627-followup-cases-results",
+      "url": "https://jouhourouei.clipmaster.jp/cases/61072074dbaada91",
+      "final_url": "https://jouhourouei.clipmaster.jp/cases/61072074dbaada91",
+      "status": "retrieved",
+      "size": 29819,
+      "mime": "text/html"
+    },
+    {
+      "batch": "leak-oct2627-followup-cases-results",
+      "url": "https://jouhourouei.clipmaster.jp/cases/5b03a672ce6bd975",
+      "final_url": "https://jouhourouei.clipmaster.jp/cases/5b03a672ce6bd975",
+      "status": "retrieved",
+      "size": 20829,
+      "mime": "text/html"
+    },
+    {
+      "batch": "leak-oct2627-followup-cases-results",
+      "url": "https://jouhourouei.clipmaster.jp/cases/607ae84852225dd8",
+      "final_url": "https://jouhourouei.clipmaster.jp/cases/607ae84852225dd8",
+      "status": "retrieved",
+      "size": 19709,
+      "mime": "text/html"
+    },
+    {
+      "batch": "leak-oct2627-followup-cases-results",
+      "url": "https://jouhourouei.clipmaster.jp/cases/8781824890bcefa4",
+      "final_url": "https://jouhourouei.clipmaster.jp/cases/8781824890bcefa4",
+      "status": "retrieved",
+      "size": 36114,
+      "mime": "text/html"
+    },
+    {
+      "batch": "leak-oct2627-followup-cases-results",
+      "url": "https://jouhourouei.clipmaster.jp/cases/18c5e5394f44f40c",
+      "final_url": "https://jouhourouei.clipmaster.jp/cases/18c5e5394f44f40c",
+      "status": "retrieved",
+      "size": 25205,
+      "mime": "text/html"
+    },
+    {
+      "batch": "leak-oct2627-followup-cases-results",
+      "url": "https://jouhourouei.clipmaster.jp/cases/39f4c1eb852d23a6",
+      "final_url": "https://jouhourouei.clipmaster.jp/cases/39f4c1eb852d23a6",
+      "status": "retrieved",
+      "size": 20498,
+      "mime": "text/html"
+    },
+    {
+      "batch": "leak-oct2627-followup-official-results",
+      "url": "https://www.town.fukushima-futaba.lg.jp/12943.htm",
+      "final_url": "https://www.town.fukushima-futaba.lg.jp/12943.htm",
+      "status": "retrieved",
+      "size": 63291,
+      "mime": "text/html"
+    },
+    {
+      "batch": "leak-oct2627-followup-official-results",
+      "url": "https://www.town.fukushima-futaba.lg.jp/12944.htm",
+      "final_url": "https://www.town.fukushima-futaba.lg.jp/12944.htm",
+      "status": "retrieved",
+      "size": 68749,
+      "mime": "text/html"
+    },
+    {
+      "batch": "leak-oct2627-followup-official-results",
+      "url": "https://www.dou-shuppan.com/20261027-3/",
+      "final_url": "https://www.dou-shuppan.com/20261027-3/",
+      "status": "retrieved",
+      "size": 55198,
+      "mime": "text/html"
+    },
+    {
+      "batch": "leak-oct2627-followup-official-results",
+      "url": "https://www.dou-shuppan.com/20261024-2/",
+      "final_url": "https://www.dou-shuppan.com/20261024-2/",
+      "status": "retrieved",
+      "size": 54965,
+      "mime": "text/html"
+    },
+    {
+      "batch": "leak-oct2627-followup-official-results",
+      "url": "https://jinjibu.jp/info/detl/2012/",
+      "final_url": "https://jinjibu.jp/info/detl/2012/",
+      "status": "retrieved",
+      "size": 92023,
+      "mime": "text/html"
+    },
+    {
+      "batch": "leak-oct2627-followup-official-results",
+      "url": "https://www.system5.jp/",
+      "final_url": "https://www.system5.jp/",
+      "status": "retrieved",
+      "size": 710378,
+      "mime": "text/html"
+    },
+    {
+      "batch": "leak-oct2627-followup-official-results",
+      "url": "https://info.system5.jp/whatsnew/apology-20261027",
+      "final_url": "https://info.system5.jp/whatsnew/apology-20261027",
+      "status": "retrieved",
+      "size": 273289,
+      "mime": "text/html"
+    },
+    {
+      "batch": "leak-oct2627-followup-official-results",
+      "url": "https://info.system5.jp/whatsnew/apology-20261024",
+      "final_url": "https://info.system5.jp/whatsnew/apology-20261024",
+      "status": "retrieved",
+      "size": 275527,
+      "mime": "text/html"
+    },
+    {
+      "batch": "leak-oct2627-followup-official-results",
+      "url": "https://www.cells.co.jp/news/115953",
+      "final_url": "https://www.cells.co.jp/news/115953",
+      "status": "retrieved",
+      "size": 51852,
+      "mime": "text/html"
+    },
+    {
+      "batch": "leak-oct2627-followup-official-results",
+      "url": "https://ja.komoju.com/news/1022-notice/",
+      "final_url": "https://ja.komoju.com/news/1022-notice/",
+      "status": "retrieved",
+      "size": 302658,
+      "mime": "text/html"
+    },
+    {
+      "batch": "leak-oct2627-followup-official-results",
+      "url": "https://23804948.fs1.hubspotusercontent-na1.net/hubfs/23804948/KOMOJU%20%E3%81%B8%E3%81%AE%E4%B8%8D%E6%AD%A3%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E3%81%8A%E3%82%88%E3%81%B3%E6%B1%BA%E6%B8%88%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9%E3%81%B8%E3%81%AE%E5%BD%B1%E9%9F%BF%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6.pdf",
+      "final_url": "https://23804948.fs1.hubspotusercontent-na1.net/hubfs/23804948/KOMOJU%20%E3%81%B8%E3%81%AE%E4%B8%8D%E6%AD%A3%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E3%81%8A%E3%82%88%E3%81%B3%E6%B1%BA%E6%B8%88%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9%E3%81%B8%E3%81%AE%E5%BD%B1%E9%9F%BF%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6.pdf",
+      "status": "retrieved",
+      "size": 152118,
+      "mime": "application/pdf"
+    },
+    {
+      "batch": "leak-oct2627-followup-official-results",
+      "url": "https://ja.komoju.com/news/1026-notice/",
+      "final_url": "https://ja.komoju.com/news/1026-notice/",
+      "status": "retrieved",
+      "size": 301257,
+      "mime": "text/html"
+    },
+    {
+      "batch": "leak-oct2627-followup-official-results",
+      "url": "https://www.sendai-l.jp/information/19786.html",
+      "final_url": "https://www.sendai-l.jp/information/19786.html",
+      "status": "retrieved",
+      "size": 25754,
+      "mime": "text/html"
+    },
+    {
+      "batch": "leak-oct2627-followup-official-results",
+      "url": "https://www.katabami.co.jp/news/news_detail.php?nid=100000599",
+      "final_url": "https://www.katabami.co.jp/news/news_detail.php?nid=100000599",
+      "status": "retrieved",
+      "size": 6194,
+      "mime": "text/html"
+    },
+    {
+      "batch": "leak-oct2627-followup-official-results",
+      "url": "https://www.trustbank.co.jp/newsroom/news/news261019/",
+      "final_url": "https://www.trustbank.co.jp/newsroom/news/news261019/",
+      "status": "retrieved",
+      "size": 27191,
+      "mime": "text/html"
+    },
+    {
+      "batch": "leak-oct2627-followup-official-results",
+      "url": "https://www.trustbank.co.jp/newsroom/newsrelease/news20261023/",
+      "final_url": "https://www.trustbank.co.jp/newsroom/newsrelease/news20261023/",
+      "status": "retrieved",
+      "size": 29479,
+      "mime": "text/html"
+    },
+    {
+      "batch": "leak-oct2627-followup-official-results",
+      "url": "https://www.release.tdnet.info/inbs/140120261023555364.pdf",
+      "final_url": "https://www.release.tdnet.info/inbs/140120261023555364.pdf",
+      "status": "retrieved",
+      "size": 153953,
+      "mime": "application/pdf"
+    },
+    {
+      "batch": "leak-oct2627-followup-official-results",
+      "url": "https://www.trustbank.co.jp/newsroom/newsrelease/new20261026/",
+      "final_url": "https://www.trustbank.co.jp/newsroom/newsrelease/new20261026/",
+      "status": "retrieved",
+      "size": 29887,
+      "mime": "text/html"
+    },
+    {
+      "batch": "leak-oct2627-followup-official-results",
+      "url": "https://www.release.tdnet.info/inbs/140120261026556007.pdf",
+      "final_url": "https://www.release.tdnet.info/inbs/140120261026556007.pdf",
+      "status": "retrieved",
+      "size": 168385,
+      "mime": "application/pdf"
+    },
+    {
+      "batch": "leak-oct2627-followup-official-results",
+      "url": "https://www.trustbank.co.jp/newsroom/newsrelease/news261020/",
+      "final_url": "https://www.trustbank.co.jp/newsroom/newsrelease/news261020/",
+      "status": "retrieved",
+      "size": 31099,
+      "mime": "text/html"
+    },
+    {
+      "batch": "leak-oct2627-followup-official-results",
+      "url": "https://www.release.tdnet.info/inbs/140120261020553586.pdf",
+      "final_url": "https://www.release.tdnet.info/inbs/140120261020553586.pdf",
+      "status": "retrieved",
+      "size": 176653,
+      "mime": "application/pdf"
+    },
+    {
+      "batch": "leak-oct2627-followup-official-results",
+      "url": "https://wasabi-inc.biz/help/news/20261016-01/",
+      "final_url": "https://wasabi-inc.biz/help/news/20261016-01/",
+      "status": "retrieved",
+      "size": 53645,
+      "mime": "text/html"
+    },
+    {
+      "batch": "leak-oct2627-followup-official-results",
+      "url": "https://wasabi-inc.biz/help/news/20261020-01/",
+      "final_url": "https://wasabi-inc.biz/help/news/20261020-01/",
+      "status": "retrieved",
+      "size": 54460,
+      "mime": "text/html"
+    },
+    {
+      "batch": "leak-oct2627-followup-official-results",
+      "url": "https://incident-support.wasabi-inc.biz/report",
+      "final_url": "https://incident-support.wasabi-inc.biz/report",
+      "status": "retrieved",
+      "size": 44029,
+      "mime": "text/html"
+    },
+    {
+      "batch": "leak-oct2627-followup-official-results",
+      "url": "https://wasabi-inc.biz/help/news/20261017-03/",
+      "final_url": "https://wasabi-inc.biz/help/news/20261017-03/",
+      "status": "retrieved",
+      "size": 77383,
+      "mime": "text/html"
+    },
+    {
+      "batch": "leak-oct2627-followup-official-results",
+      "url": "https://wasabi-inc.biz/help/news/20261018-01/",
+      "final_url": "https://wasabi-inc.biz/help/news/20261018-01/",
+      "status": "retrieved",
+      "size": 56349,
+      "mime": "text/html"
+    },
+    {
+      "batch": "leak-oct2627-followup-official-results",
+      "url": "https://wasabi-inc.biz/help/news/20261018-02/",
+      "final_url": "https://wasabi-inc.biz/help/news/20261018-02/",
+      "status": "retrieved",
+      "size": 61313,
+      "mime": "text/html"
+    },
+    {
+      "batch": "leak-oct2627-followup-official-results",
+      "url": "https://maruki-ms.co.jp/archives/8428",
+      "final_url": "https://maruki-ms.co.jp/archives/8428",
+      "status": "retrieved",
+      "size": 114422,
+      "mime": "text/html"
+    },
+    {
+      "batch": "leak-oct2627-followup-official-results",
+      "url": "https://maruki-ms.co.jp/archives/8405",
+      "final_url": "https://maruki-ms.co.jp/archives/8405",
+      "status": "retrieved",
+      "size": 114484,
+      "mime": "text/html"
+    },
+    {
+      "batch": "leak-oct2627-followup-sources-results",
+      "url": "https://www.city.nanjo.okinawa.jp/topics/1792646187/",
+      "final_url": "https://www.city.nanjo.okinawa.jp/topics/1792646187/",
+      "status": "retrieved",
+      "size": 31589,
+      "mime": "text/html"
+    },
+    {
+      "batch": "leak-oct2627-followup-sources-results",
+      "url": "https://www.town.fukushima-futaba.lg.jp/12943.htm",
+      "final_url": "https://www.town.fukushima-futaba.lg.jp/12943.htm",
+      "status": "retrieved",
+      "size": 63291,
+      "mime": "text/html"
+    },
+    {
+      "batch": "leak-oct2627-followup-sources-results",
+      "url": "https://www.town.fukushima-futaba.lg.jp/12944.htm",
+      "final_url": "https://www.town.fukushima-futaba.lg.jp/12944.htm",
+      "status": "retrieved",
+      "size": 68749,
+      "mime": "text/html"
+    },
+    {
+      "batch": "leak-oct2627-followup-sources-results",
+      "url": "https://www.trustbank.co.jp/newsroom/news/news261005/",
+      "final_url": "https://www.trustbank.co.jp/newsroom/news/news261005/",
+      "status": "retrieved",
+      "size": 31374,
+      "mime": "text/html"
+    },
+    {
+      "batch": "leak-oct2627-followup-sources-results",
+      "url": "https://jinjibu.jp/info/detl/2012/",
+      "final_url": "https://jinjibu.jp/info/detl/2012/",
+      "status": "retrieved",
+      "size": 92023,
+      "mime": "text/html"
+    },
+    {
+      "batch": "leak-oct2627-followup-sources-results",
+      "url": "https://wasabi-inc.biz/help/news/20261016-01/",
+      "final_url": "https://wasabi-inc.biz/help/news/20261016-01/",
+      "status": "retrieved",
+      "size": 53645,
+      "mime": "text/html"
+    },
+    {
+      "batch": "leak-oct2627-followup-sources-results",
+      "url": "https://wasabi-inc.biz/help/news/20261018-02/",
+      "final_url": "https://wasabi-inc.biz/help/news/20261018-02/",
+      "status": "retrieved",
+      "size": 61313,
+      "mime": "text/html"
+    },
+    {
+      "batch": "leak-oct2627-followup-sources-results",
+      "url": "https://info.system5.jp/whatsnew/apology-20261024",
+      "final_url": "https://info.system5.jp/whatsnew/apology-20261024",
+      "status": "retrieved",
+      "size": 275527,
+      "mime": "text/html"
+    },
+    {
+      "batch": "leak-oct2627-followup-sources-results",
+      "url": "https://www.lapsys.co.jp/topics/2026/10/post-379.html",
+      "final_url": "https://www.lapsys.co.jp/topics/2026/10/post-379.html",
+      "status": "retrieved",
+      "size": 47013,
+      "mime": "text/html"
+    },
+    {
+      "batch": "leak-oct2627-followup-sources-results",
+      "url": "https://www.trustbank.co.jp/newsroom/newsrelease/news261020/",
+      "final_url": "https://www.trustbank.co.jp/newsroom/newsrelease/news261020/",
+      "status": "retrieved",
+      "size": 31099,
+      "mime": "text/html"
+    },
+    {
+      "batch": "leak-oct2627-followup-sources-results",
+      "url": "https://www.resona-gr.co.jp/holdings/news/newsrelease_c/2026/files/20261027_1t.pdf",
+      "final_url": "https://www.resona-gr.co.jp/holdings/news/newsrelease_c/2026/files/20261027_1t.pdf",
+      "status": "retrieved",
+      "size": 177441,
+      "mime": "application/pdf"
+    },
+    {
+      "batch": "leak-oct2627-komoju-pdf-results",
+      "url": "https://23804948.fs1.hubspotusercontent-na1.net/hubfs/23804948/Website%20%E3%83%80%E3%82%A6%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%89%E8%B3%87%E6%96%99/%E3%80%90%E7%AC%AC%E4%BA%8C%E5%A0%B1%E3%80%91%E5%BD%93%E7%A4%BE%20CRM%20%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E3%81%AB%E3%81%8A%E3%81%91%E3%82%8B%E5%80%8B%E4%BA%BA%E3%83%87%E3%83%BC%E3%82%BF%E3%81%AE%E6%BC%8F%E3%81%88%E3%81%84%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6.pdf",
+      "final_url": "https://23804948.fs1.hubspotusercontent-na1.net/hubfs/23804948/Website%20%E3%83%80%E3%82%A6%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%89%E8%B3%87%E6%96%99/%E3%80%90%E7%AC%AC%E4%BA%8C%E5%A0%B1%E3%80%91%E5%BD%93%E7%A4%BE%20CRM%20%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E3%81%AB%E3%81%8A%E3%81%91%E3%82%8B%E5%80%8B%E4%BA%BA%E3%83%87%E3%83%BC%E3%82%BF%E3%81%AE%E6%BC%8F%E3%81%88%E3%81%84%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6.pdf",
+      "status": "retrieved",
+      "size": 153761,
+      "mime": "application/pdf"
+    },
+    {
+      "batch": "leak-oct2627-komoju-pdf-results",
+      "url": "https://toc.komoju.com/toc/komoju-service-agreement-ja.pdf",
+      "final_url": "https://toc.komoju.com/toc/komoju-service-agreement-ja.pdf",
+      "status": "retrieved",
+      "size": 492263,
+      "mime": "application/pdf"
+    },
+    {
+      "batch": "leak-oct2627-komoju-pdf-results",
+      "url": "https://toc.komoju.com/toc/komoju-service-agreement-ja.pdf",
+      "final_url": "https://toc.komoju.com/toc/komoju-service-agreement-ja.pdf",
+      "status": "retrieved",
+      "size": 492263,
+      "mime": "application/pdf"
+    },
+    {
+      "batch": "leak-oct2627-primary-results",
+      "url": "https://www.yugitsushin.jp/announcement/%E3%83%A1%E3%83%BC%E3%83%AB%E3%83%9E%E3%82%AC%E3%82%B8%E3%83%B3%E9%85%8D%E4%BF%A1%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E3%80%8C%E3%83%96%E3%83%A9%E3%82%B9%E3%83%88%E3%83%A1%E3%83%BC%E3%83%AB%E3%80%8D/",
+      "final_url": "https://www.yugitsushin.jp/announcement/%E3%83%A1%E3%83%BC%E3%83%AB%E3%83%9E%E3%82%AC%E3%82%B8%E3%83%B3%E9%85%8D%E4%BF%A1%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E3%80%8C%E3%83%96%E3%83%A9%E3%82%B9%E3%83%88%E3%83%A1%E3%83%BC%E3%83%AB%E3%80%8D/",
+      "status": "retrieved",
+      "size": 105749,
+      "mime": "text/html"
+    },
+    {
+      "batch": "leak-oct2627-primary-results",
+      "url": "https://www.release.tdnet.info/inbs/140120261027556805.pdf",
+      "final_url": "https://www.release.tdnet.info/inbs/140120261027556805.pdf",
+      "status": "retrieved",
+      "size": 428121,
+      "mime": "application/pdf"
+    },
+    {
+      "batch": "leak-oct2627-primary-results",
+      "url": "https://www.release.tdnet.info/inbs/140120261027556466.pdf",
+      "final_url": "https://www.release.tdnet.info/inbs/140120261027556466.pdf",
+      "status": "retrieved",
+      "size": 458774,
+      "mime": "application/pdf"
+    },
+    {
+      "batch": "leak-oct2627-primary-results",
+      "url": "https://www.city.chitose.lg.jp/c70/1002860/1007035.html",
+      "final_url": "https://www.city.chitose.lg.jp/c70/1002860/1007035.html",
+      "status": "retrieved",
+      "size": 35261,
+      "mime": "text/html"
+    },
+    {
+      "batch": "leak-oct2627-primary-results",
+      "url": "https://prtimes.jp/main/html/rd/p/000000856.000002888.html",
+      "final_url": "https://prtimes.jp/main/html/rd/p/000000856.000002888.html",
+      "status": "retrieved",
+      "size": 237664,
+      "mime": "text/html"
+    },
+    {
+      "batch": "leak-oct2627-primary-results",
+      "url": "https://www.impress.co.jp/newsrelease/2026/10/info20261027.html",
+      "status": "unavailable",
+      "error": "<urlopen error [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1127)>"
+    },
+    {
+      "batch": "leak-oct2627-primary-results",
+      "url": "https://www.so-net.ne.jp/info/2026/20261027_0001.html",
+      "final_url": "https://www.so-net.ne.jp/info/2026/20261027_0001.html",
+      "status": "retrieved",
+      "size": 43537,
+      "mime": "text/html"
+    },
+    {
+      "batch": "leak-oct2627-primary-results",
+      "url": "https://www.metro.tokyo.lg.jp/information/press/2026/10/2026102713",
+      "final_url": "https://www.metro.tokyo.lg.jp/information/press/2026/10/2026102713",
+      "status": "retrieved",
+      "size": 519628,
+      "mime": "text/html"
+    },
+    {
+      "batch": "leak-oct2627-primary-results",
+      "url": "https://bandai-a.akamaihd.net/corp/press/100001496525137.pdf",
+      "final_url": "https://bandai-a.akamaihd.net/corp/press/100001496525137.pdf",
+      "status": "retrieved",
+      "size": 432175,
+      "mime": "application/pdf"
+    },
+    {
+      "batch": "leak-oct2627-primary-results",
+      "url": "https://www.release.tdnet.info/inbs/140120261026556413.pdf",
+      "final_url": "https://www.release.tdnet.info/inbs/140120261026556413.pdf",
+      "status": "retrieved",
+      "size": 127876,
+      "mime": "application/pdf"
+    },
+    {
+      "batch": "leak-oct2627-primary-results",
+      "url": "https://giftee.co.jp/press/news/info20261027/",
+      "final_url": "https://giftee.co.jp/press/news/info20261027/",
+      "status": "retrieved",
+      "size": 61998,
+      "mime": "text/html"
+    },
+    {
+      "batch": "leak-oct2627-primary-results",
+      "url": "https://www.cotta.jp/information/security-incident-2026-01.php",
+      "final_url": "https://www.cotta.jp/information/security-incident-2026-01.php",
+      "status": "retrieved",
+      "size": 105706,
+      "mime": "text/html"
+    },
+    {
+      "batch": "leak-oct2627-primary-results",
+      "url": "https://www.pref.hiroshima.lg.jp/uploaded/attachment/687440.pdf",
+      "final_url": "https://www.pref.hiroshima.lg.jp/uploaded/attachment/687440.pdf",
+      "status": "retrieved",
+      "size": 69583,
+      "mime": "application/pdf"
+    },
+    {
+      "batch": "leak-oct2627-primary-results",
+      "url": "https://dstyleweb.com/information/past/detail/241",
+      "final_url": "https://dstyleweb.com/information/past/detail/241",
+      "status": "retrieved",
+      "size": 27942,
+      "mime": "text/html"
+    },
+    {
+      "batch": "leak-oct2627-primary-results",
+      "url": "https://tricycle-ce.com/archives/599",
+      "final_url": "https://tricycle-ce.com/archives/599",
+      "status": "retrieved",
+      "size": 61161,
+      "mime": "text/html"
+    },
+    {
+      "batch": "leak-oct2627-primary-results",
+      "url": "https://ftfinc.co.jp/%E3%80%90%E9%87%8D%E8%A6%81%E3%80%91%E3%80%8Cwasabi-switch%E3%80%8D%E3%81%B8%E3%81%AE%E4%B8%8D%E6%AD%A3%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E3%81%8A%E7%9F%A5/",
+      "final_url": "https://ftfinc.co.jp/%E3%80%90%E9%87%8D%E8%A6%81%E3%80%91%E3%80%8Cwasabi-switch%E3%80%8D%E3%81%B8%E3%81%AE%E4%B8%8D%E6%AD%A3%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E3%81%8A%E7%9F%A5/",
+      "status": "retrieved",
+      "size": 77750,
+      "mime": "text/html"
+    },
+    {
+      "batch": "leak-oct2627-primary-results",
+      "url": "https://travel.rakuten.co.jp/info/announce/20261026.html",
+      "final_url": "https://travel.rakuten.co.jp/info/announce/20261026.html",
+      "status": "retrieved",
+      "size": 24081,
+      "mime": "text/html"
+    },
+    {
+      "batch": "leak-oct2627-primary-results",
+      "url": "https://www.westjr.co.jp/press/article/2026/10/26/items/261026_00_press_ex.pdf",
+      "final_url": "https://www.westjr.co.jp/press/article/2026/10/26/items/261026_00_press_ex.pdf",
+      "status": "retrieved",
+      "size": 93428,
+      "mime": "application/pdf"
+    },
+    {
+      "batch": "leak-oct2627-primary-results",
+      "url": "https://www.feps.co.jp/news/20261026/",
+      "final_url": "https://www.feps.co.jp/news/20261026/",
+      "status": "retrieved",
+      "size": 55249,
+      "mime": "text/html"
+    },
+    {
+      "batch": "leak-oct2627-primary-results",
+      "url": "https://www.wiseman.co.jp/news/corp/security-incident-20261026/",
+      "final_url": "https://www.wiseman.co.jp/news/corp/security-incident-20261026/",
+      "status": "retrieved",
+      "size": 57093,
+      "mime": "text/html"
+    },
+    {
+      "batch": "leak-oct2627-primary-results",
+      "url": "https://www.wiseman.co.jp/wp-content/uploads/2026/10/release_20261026.pdf",
+      "final_url": "https://www.wiseman.co.jp/wp-content/uploads/2026/10/release_20261026.pdf",
+      "status": "retrieved",
+      "size": 578681,
+      "mime": "application/pdf"
+    },
+    {
+      "batch": "leak-oct2627-primary-results",
+      "url": "https://www.wiseman.co.jp/news/corp/security-incident-20261027-1/",
+      "final_url": "https://www.wiseman.co.jp/news/corp/security-incident-20261027-1/",
+      "status": "retrieved",
+      "size": 57460,
+      "mime": "text/html"
+    },
+    {
+      "batch": "leak-oct2627-primary-results",
+      "url": "https://www.wiseman.co.jp/news/corp/security-incident-20261027-2/",
+      "final_url": "https://www.wiseman.co.jp/news/corp/security-incident-20261027-2/",
+      "status": "retrieved",
+      "size": 57662,
+      "mime": "text/html"
+    },
+    {
+      "batch": "leak-oct2627-primary-results",
+      "url": "https://sonicmoov.com/news/xr5qdn-cnfsn",
+      "final_url": "https://sonicmoov.com/news/xr5qdn-cnfsn",
+      "status": "retrieved",
+      "size": 43226,
+      "mime": "text/html"
+    },
+    {
+      "batch": "leak-oct2627-primary-results",
+      "url": "https://www.asahi.com/corporate/info/16995713",
+      "final_url": "https://www.asahi.com/corporate/info/16995713",
+      "status": "retrieved",
+      "size": 60720,
+      "mime": "text/html"
+    },
+    {
+      "batch": "leak-oct2627-primary-results",
+      "url": "https://www.mainichi.co.jp/info/news/20261026.html",
+      "final_url": "https://www.mainichi.co.jp/info/news/20261026.html",
+      "status": "retrieved",
+      "size": 25932,
+      "mime": "text/html"
+    },
+    {
+      "batch": "leak-oct2627-primary-results",
+      "url": "https://topics.cybozu.co.jp/news/2026/10/26-19556.html",
+      "final_url": "https://topics.cybozu.co.jp/news/2026/10/26-19556.html",
+      "status": "retrieved",
+      "size": 14489,
+      "mime": "text/html"
+    },
+    {
+      "batch": "leak-oct2627-primary-results",
+      "url": "https://www.valuecommerce.co.jp/news/c_news/6819/",
+      "final_url": "https://www.valuecommerce.co.jp/news/c_news/6819/",
+      "status": "retrieved",
+      "size": 45433,
+      "mime": "text/html"
+    },
+    {
+      "batch": "leak-oct2627-primary-results",
+      "url": "https://www.jmam.co.jp/assets/images/topics/cuenote_20261026.pdf",
+      "final_url": "https://www.jmam.co.jp/assets/images/topics/cuenote_20261026.pdf",
+      "status": "retrieved",
+      "size": 651970,
+      "mime": "application/pdf"
+    },
+    {
+      "batch": "leak-oct2627-primary-results",
+      "url": "https://gowebcloud.co.jp/news-ir/803",
+      "final_url": "https://gowebcloud.co.jp/news-ir/803",
+      "status": "retrieved",
+      "size": 43657,
+      "mime": "text/html"
+    },
+    {
+      "batch": "leak-oct2627-primary-results",
+      "url": "https://www.nichibei.ac.jp/news/20261026/",
+      "final_url": "https://www.nichibei.ac.jp/news/20261026/",
+      "status": "retrieved",
+      "size": 43060,
+      "mime": "text/html"
+    },
+    {
+      "batch": "leak-oct2627-primary-results",
+      "url": "https://audiobrains.com/news/20261026/",
+      "final_url": "https://audiobrains.com/news/20261026/",
+      "status": "retrieved",
+      "size": 85294,
+      "mime": "text/html"
+    },
+    {
+      "batch": "leak-oct2627-primary-results",
+      "url": "https://www.chuden.co.jp/publicity/press/1218551_3273.html",
+      "final_url": "https://www.chuden.co.jp/publicity/press/1218551_3273.html",
+      "status": "retrieved",
+      "size": 78692,
+      "mime": "text/html"
+    },
+    {
+      "batch": "leak-oct2627-primary-results",
+      "url": "https://corp.moneyforward.com/news/info/20261026-mf-press-1/",
+      "final_url": "https://corp.moneyforward.com/news/info/20261026-mf-press-1/",
+      "status": "retrieved",
+      "size": 33216,
+      "mime": "text/html"
+    },
+    {
+      "batch": "leak-oct2627-primary-results",
+      "url": "https://www.doutor.co.jp/news/newsrelease/detail/20261026144748.html",
+      "final_url": "https://www.doutor.co.jp/news/newsrelease/detail/20261026144748.html",
+      "status": "retrieved",
+      "size": 20141,
+      "mime": "text/html"
+    },
+    {
+      "batch": "leak-oct2627-primary-results",
+      "url": "https://www.yomisen.co.jp/news/info/2603.html",
+      "final_url": "https://www.yomisen.co.jp/news/info/2603.html",
+      "status": "retrieved",
+      "size": 53778,
+      "mime": "text/html"
+    },
+    {
+      "batch": "leak-oct2627-primary-results",
+      "url": "https://www.tokuma.jp/news/n65028.html",
+      "final_url": "https://www.tokuma.jp/news/n65028.html",
+      "status": "retrieved",
+      "size": 47251,
+      "mime": "text/html"
+    },
+    {
+      "batch": "leak-oct2627-primary-results",
+      "url": "https://www.lawson.co.jp/contents/cont07/1533805_3310.html",
+      "final_url": "https://www.lawson.co.jp/contents/cont07/1533805_3310.html",
+      "status": "retrieved",
+      "size": 2908,
+      "mime": "text/html"
+    },
+    {
+      "batch": "leak-oct2627-primary-results",
+      "url": "https://www.tamaweb.or.jp/archives/51410",
+      "final_url": "https://www.tamaweb.or.jp/archives/51410",
+      "status": "retrieved",
+      "size": 65413,
+      "mime": "text/html"
+    },
+    {
+      "batch": "leak-oct2627-primary-results",
+      "url": "https://corp.sbishinseibank.co.jp/ja/news_service_notice.html",
+      "final_url": "https://corp.sbishinseibank.co.jp/ja/news_service_notice.html",
+      "status": "retrieved",
+      "size": 37024,
+      "mime": "text/html"
+    },
+    {
+      "batch": "leak-oct2627-primary-results",
+      "url": "https://zen.ac.jp/news/202610_announcement_studio",
+      "final_url": "https://zen.ac.jp/news/202610_announcement_studio",
+      "status": "retrieved",
+      "size": 208893,
+      "mime": "text/html"
+    },
+    {
+      "batch": "leak-oct2627-primary-results",
+      "url": "https://www.ki21.jp/informations/phishing-alert/",
+      "final_url": "https://www.ki21.jp/informations/phishing-alert/",
+      "status": "retrieved",
+      "size": 39908,
+      "mime": "text/html"
+    },
+    {
+      "batch": "leak-oct2627-primary-results",
+      "url": "https://gunosy.co.jp/news/464",
+      "final_url": "https://gunosy.co.jp/news/464",
+      "status": "retrieved",
+      "size": 23567,
+      "mime": "text/html"
+    },
+    {
+      "batch": "leak-oct2627-primary-results",
+      "url": "https://www.cyber.kbu.ac.jp/kbu/whatnew/2026/10/post-288.html",
+      "final_url": "https://www.cyber.kbu.ac.jp/kbu/whatnew/2026/10/post-288.html",
+      "status": "retrieved",
+      "size": 15077,
+      "mime": "text/html"
+    },
+    {
+      "batch": "leak-oct2627-primary-results",
+      "url": "https://mmdlabo.jp/press_release/detail_2582.html",
+      "final_url": "https://mmdlabo.jp/press_release/detail_2582.html",
+      "status": "retrieved",
+      "size": 29767,
+      "mime": "text/html"
+    },
+    {
+      "batch": "leak-oct2627-primary-results",
+      "url": "https://www.metro.tokyo.lg.jp/information/press/2026/10/2026102601",
+      "final_url": "https://www.metro.tokyo.lg.jp/information/press/2026/10/2026102601",
+      "status": "retrieved",
+      "size": 519179,
+      "mime": "text/html"
+    },
+    {
+      "batch": "leak-oct2627-primary-results",
+      "url": "https://www.city.higashimatsushima.miyagi.jp/kurashi/manabu-tanoshimu/kekkonshien/261026.files/1.pdf",
+      "final_url": "https://www.city.higashimatsushima.miyagi.jp/kurashi/manabu-tanoshimu/kekkonshien/261026.files/1.pdf",
+      "status": "retrieved",
+      "size": 95091,
+      "mime": "application/pdf"
+    },
+    {
+      "batch": "leak-oct2627-primary-results",
+      "url": "https://www.town.taiwa.miyagi.jp/material/files/group/3/2026_10_26.pdf",
+      "final_url": "https://www.town.taiwa.miyagi.jp/material/files/group/3/2026_10_26.pdf",
+      "status": "retrieved",
+      "size": 115075,
+      "mime": "application/pdf"
+    },
+    {
+      "batch": "leak-oct2627-primary-results",
+      "url": "https://www.city.osaka.lg.jp/hodoshiryo/nishiyodogawa/0000689857.html",
+      "final_url": "https://www.city.osaka.lg.jp/hodoshiryo/nishiyodogawa/0000689857.html",
+      "status": "retrieved",
+      "size": 30803,
+      "mime": "text/html"
+    },
+    {
+      "batch": "leak-oct2627-primary-results",
+      "url": "https://internet.gmo/news/article/252/",
+      "final_url": "https://internet.gmo/news/article/252/",
+      "status": "retrieved",
+      "size": 31525,
+      "mime": "text/html"
+    },
+    {
+      "batch": "leak-oct2627-primary-results",
+      "url": "https://internet.gmo/news/article/253/",
+      "final_url": "https://internet.gmo/news/article/253/",
+      "status": "retrieved",
+      "size": 34237,
+      "mime": "text/html"
+    },
+    {
+      "batch": "leak-oct2627-primary-results",
+      "url": "https://internet.gmo/news/article/254/",
+      "final_url": "https://internet.gmo/news/article/254/",
+      "status": "retrieved",
+      "size": 33187,
+      "mime": "text/html"
+    },
+    {
+      "batch": "leak-oct2627-primary-results",
+      "url": "https://internet.gmo/news/",
+      "final_url": "https://internet.gmo/news/",
+      "status": "retrieved",
+      "size": 59520,
+      "mime": "text/html"
+    },
+    {
+      "batch": "leak-oct2627-primary-results",
+      "url": "https://support.goodsmile.com/hc/ja/articles/63547468806297",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "batch": "leak-oct2627-primary-results",
+      "url": "https://www.city.osaka.lg.jp/hodoshiryo/nishiyodogawa/0000689857.html",
+      "final_url": "https://www.city.osaka.lg.jp/hodoshiryo/nishiyodogawa/0000689857.html",
+      "status": "retrieved",
+      "size": 30803,
+      "mime": "text/html"
+    }
+  ],
+  "source_retrieval_note": "自動取得の試行結果。retrievedは告知の本文照合済みを意味しない。採否は各判定と掲載出典に従い、検索等の別経路で確認できた本文は自動取得失敗と両立する。",
+  "limitations": [
+    "調査時点で取得・確認できた10月26～27日の公表と続報。GMOは27日19時10分時点の第12報まで確認。以後の公表や未索引資料を含む完全な網羅は保証しない。",
+    "新規34件には、26～27日の続報で具体的な個人情報への影響を確認して新たに収録した、22日・23日等初報の事案も含む。",
+    "同じ委託先の利用組織や同じ事案の区分間で対象が重複し得る。追加件数は独立した攻撃回数ではない。",
+    "日本能率協会マネジメントセンターの候補1件は、漏えい項目と自然人の対象が未確定のため確認待ちに追加。従来58候補の未確認事項は今回も解消済みとしない。",
+    "対象外とした公表は、停止のみ、予防的な休止、自社対象外の確認、対象となる自然人情報の公表がないもの。調査中の漏えい未確認を最終的な漏えい否定へ置き換えない。"
+  ]
+}

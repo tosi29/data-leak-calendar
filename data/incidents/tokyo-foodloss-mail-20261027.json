@@ -1,0 +1,46 @@
+{
+  "id": "tokyo-foodloss-mail-20261027",
+  "organization": {
+    "name": "東京都環境局",
+    "sector": "自治体"
+  },
+  "title": "食品ロス調査の参加者向けメールを宛先欄で誤送信",
+  "summary": "受託者がモニターへの再周知メールをBCCではなく宛先欄で送信。16件のアドレスに個人名が含まれていた。",
+  "published_on": "2026-10-27",
+  "first_published_on": "2026-10-27",
+  "publication_kind": "initial",
+  "occurred_on": "2026-10-24",
+  "detected_on": "2026-10-24",
+  "updated_on": "2026-10-27",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "accident",
+  "cause": {
+    "category": "misdelivery",
+    "detail": "BCC欄ではなく宛先欄へメールアドレスを入力して送信。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 16,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "個人名を含むメールアドレスの件数。送信先全体の件数とは限らない。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス（個人名を含むものあり）"
+  ],
+  "related_vendor": "合同会社デロイトトーマツ",
+  "sources": [
+    {
+      "url": "https://www.metro.tokyo.lg.jp/information/press/2026/10/2026102713",
+      "type": "official",
+      "title": "食品ロス調査の参加者向けメールを宛先欄で誤送信",
+      "published_on": "2026-10-27",
+      "checked_on": "2026-10-27"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

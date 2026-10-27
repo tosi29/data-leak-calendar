@@ -730,5 +730,17 @@
     "checked_urls": [
       "https://www.security-next.com/182845"
     ]
+  },
+  {
+    "id": "oct27-update-jmam-cuenote",
+    "organization": "株式会社日本能率協会マネジメントセンター",
+    "reported_on": "2026-10-27",
+    "verification": "pending",
+    "reference_url": "https://www.jmam.co.jp/assets/images/topics/cuenote_20261026.pdf",
+    "note": "メール配信情報の漏えいを公表しているが、具体的な項目・自然人の対象をまだ特定できない。提供元の全体公表から個別対象を推定しない。",
+    "reviewed_on": "2026-10-27",
+    "checked_urls": [
+      "https://www.jmam.co.jp/assets/images/topics/cuenote_20261026.pdf"
+    ]
   }
 ]

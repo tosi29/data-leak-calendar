@@ -1,0 +1,57 @@
+{
+  "id": "yugitsushin-blastmail-20261027",
+  "organization": {
+    "name": "株式会社遊技通信社",
+    "sector": "企業・団体"
+  },
+  "title": "法人会員メルマガの登録情報に漏えいのおそれ",
+  "summary": "ブラストメールへの侵害を受け、法人会員の配信先として登録した個人情報に流出の可能性。自社の対象件数・流出有無は調査中。",
+  "published_on": "2026-10-27",
+  "first_published_on": "2026-10-27",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-27",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。侵入手口の詳細は調査中。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "対象人数・情報件数は調査中または未公表。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス",
+    "氏名",
+    "会社名",
+    "所属部署・役職"
+  ],
+  "related_vendor": "株式会社ラクスライトクラウド",
+  "sources": [
+    {
+      "url": "https://www.yugitsushin.jp/announcement/%E3%83%A1%E3%83%BC%E3%83%AB%E3%83%9E%E3%82%AC%E3%82%B8%E3%83%B3%E9%85%8D%E4%BF%A1%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E3%80%8C%E3%83%96%E3%83%A9%E3%82%B9%E3%83%88%E3%83%A1%E3%83%BC%E3%83%AB%E3%80%8D/",
+      "type": "official",
+      "title": "法人会員メルマガの登録情報に漏えいのおそれ",
+      "published_on": "2026-10-27",
+      "checked_on": "2026-10-27"
+    }
+  ],
+  "updates": [],
+  "notes": "",
+  "vendors": [
+    {
+      "name": "株式会社ラクスライトクラウド",
+      "role": "service",
+      "detail": "対象情報を登録していた外部サービスの提供元。",
+      "source_index": 0
+    }
+  ]
+}

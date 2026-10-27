@@ -1,0 +1,56 @@
+{
+  "id": "gunosy-business-accounts-20261026",
+  "organization": {
+    "name": "株式会社Gunosy",
+    "sector": "企業・団体"
+  },
+  "title": "取引先25名・役職員等107名の情報が流出",
+  "summary": "21日に社内業務用アカウントの不正利用を検知。メールの一部が閲覧され、業務ツールの利用者情報が取得された。",
+  "published_on": "2026-10-26",
+  "first_published_on": "2026-10-26",
+  "publication_kind": "initial",
+  "occurred_on": "2026-10-21",
+  "detected_on": "2026-10-21",
+  "updated_on": "2026-10-26",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "credentials",
+    "detail": "不正入手した社内業務用アカウントのID・パスワードでクラウド・業務ツールへログイン。入手経路は調査中。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 25,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "取引先担当者。"
+    },
+    {
+      "count": 107,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "役員・従業員・退職者等。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "メールアドレス",
+    "会社名・所属・役職・連絡先",
+    "メール本文",
+    "一部の復旧用連絡先"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://gunosy.co.jp/news/464",
+      "type": "official",
+      "title": "取引先25名・役職員等107名の情報が流出",
+      "published_on": "2026-10-26",
+      "checked_on": "2026-10-27"
+    }
+  ],
+  "updates": [],
+  "notes": "グノシー等のサービス利用者情報の流出は未確認。添付ファイルを開いた記録はない。"
+}

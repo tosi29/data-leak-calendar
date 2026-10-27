@@ -1,0 +1,56 @@
+{
+  "id": "hiroshima-education-living-20261026",
+  "organization": {
+    "name": "広島県教育委員会",
+    "sector": "教育機関"
+  },
+  "title": "家庭教育支援資料のモニター申込情報65件に漏えいのおそれ",
+  "summary": "広島リビング新聞社に委託した資料のアンケート募集で、親会社サンケイリビング新聞社のサーバー侵害に伴う流出の可能性を公表。",
+  "published_on": "2026-10-26",
+  "first_published_on": "2026-10-26",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-26",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。侵入手口の詳細は調査中。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": 65,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "公表された対象件数。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "メールアドレス",
+    "ニックネーム"
+  ],
+  "related_vendor": "株式会社サンケイリビング新聞社",
+  "sources": [
+    {
+      "url": "https://www.pref.hiroshima.lg.jp/uploaded/attachment/687440.pdf",
+      "type": "official",
+      "title": "家庭教育支援資料のモニター申込情報65件に漏えいのおそれ",
+      "published_on": "2026-10-26",
+      "checked_on": "2026-10-27"
+    }
+  ],
+  "updates": [],
+  "notes": "10月9日～22日の申込情報。広島リビング新聞社が企画・制作を受託し、親会社サーバーを利用。他組織の同じ委託先事案と対象が重複し得る。",
+  "vendors": [
+    {
+      "name": "株式会社サンケイリビング新聞社",
+      "role": "service",
+      "detail": "対象情報を登録していた外部サービスの提供元。",
+      "source_index": 0
+    }
+  ]
+}

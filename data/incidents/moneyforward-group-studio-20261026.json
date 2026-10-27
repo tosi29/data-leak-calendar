@@ -1,0 +1,83 @@
+{
+  "id": "moneyforward-group-studio-20261026",
+  "organization": {
+    "name": "マネーフォワードおよびグループ4社",
+    "sector": "企業・団体"
+  },
+  "title": "5社の問い合わせフォーム計8,109件に漏えいのおそれ",
+  "summary": "Studioへの侵害で、採用・コーポレート・サービスサイトの問い合わせ入力情報に流出の可能性。対象フォームを停止し別システムへ移行した。",
+  "published_on": "2026-10-26",
+  "first_published_on": "2026-10-26",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-26",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。侵入手口の詳細は調査中。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": 4150,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "マネーフォワード採用サイトの問い合わせ。"
+    },
+    {
+      "count": 713,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "マネーフォワードホームの問い合わせ。"
+    },
+    {
+      "count": 257,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "マネーフォワードエックスの問い合わせ。"
+    },
+    {
+      "count": 2984,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "マネーフォワードケッサイの問い合わせ。"
+    },
+    {
+      "count": 5,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "アウトルックコンサルティング採用サイトの問い合わせ。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "企業名",
+    "メールアドレス",
+    "電話番号",
+    "問い合わせ内容",
+    "その他フォーム入力情報"
+  ],
+  "related_vendor": "Studio株式会社",
+  "sources": [
+    {
+      "url": "https://corp.moneyforward.com/news/info/20261026-mf-press-1/",
+      "type": "official",
+      "title": "5社の問い合わせフォーム計8,109件に漏えいのおそれ",
+      "published_on": "2026-10-26",
+      "checked_on": "2026-10-27"
+    }
+  ],
+  "updates": [],
+  "notes": "グループ共同公表を1記録とする。合計は入力データ件数で実人数ではない。採用応募情報、マネーフォワードME・クラウド等のサービス本体は影響対象外。5月のGitHub事案とは別。",
+  "vendors": [
+    {
+      "name": "Studio株式会社",
+      "role": "service",
+      "detail": "対象情報を登録していた外部サービスの提供元。",
+      "source_index": 0
+    }
+  ]
+}

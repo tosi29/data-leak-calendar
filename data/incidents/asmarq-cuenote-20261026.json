@@ -1,0 +1,56 @@
+{
+  "id": "asmarq-cuenote-20261026",
+  "organization": {
+    "name": "株式会社アスマーク",
+    "sector": "企業・団体"
+  },
+  "title": "顧客・取引先・アンケートモニターの配信先情報に漏えいのおそれ",
+  "summary": "利用するCuenote FC環境から10月16日午後にデータが出力された形跡について26日に連絡を受領。氏名・メールアドレス等の対象を調査している。",
+  "published_on": "2026-10-26",
+  "first_published_on": "2026-10-26",
+  "publication_kind": "initial",
+  "occurred_on": "2026-10-16",
+  "detected_on": null,
+  "updated_on": "2026-10-26",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。侵入手口の詳細は調査中。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "対象人数・情報件数は調査中または未公表。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス",
+    "氏名",
+    "所属企業名等（配信内容により異なる）"
+  ],
+  "related_vendor": "ユミルリンク株式会社",
+  "sources": [
+    {
+      "url": "https://dstyleweb.com/information/past/detail/241",
+      "type": "official",
+      "title": "顧客・取引先・アンケートモニターの配信先情報に漏えいのおそれ",
+      "published_on": "2026-10-26",
+      "checked_on": "2026-10-27"
+    }
+  ],
+  "updates": [],
+  "notes": "",
+  "vendors": [
+    {
+      "name": "ユミルリンク株式会社",
+      "role": "service",
+      "detail": "対象情報を登録していた外部サービスの提供元。",
+      "source_index": 0
+    }
+  ]
+}

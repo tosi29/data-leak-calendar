@@ -1,0 +1,54 @@
+{
+  "id": "cybozu-cuenote-20261026",
+  "organization": {
+    "name": "サイボウズ株式会社",
+    "sector": "企業・団体"
+  },
+  "title": "各種お知らせの配信先アドレス等に漏えいのおそれ",
+  "summary": "20日に対象外との回答を受けていたが、26日13時15分に利用環境から情報が流出した可能性が高いと連絡を受領した。",
+  "published_on": "2026-10-26",
+  "first_published_on": "2026-10-26",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-26",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。侵入手口の詳細は調査中。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "対象人数・情報件数は調査中または未公表。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス等の配信先登録情報"
+  ],
+  "related_vendor": "ユミルリンク株式会社",
+  "sources": [
+    {
+      "url": "https://topics.cybozu.co.jp/news/2026/10/26-19556.html",
+      "type": "official",
+      "title": "各種お知らせの配信先アドレス等に漏えいのおそれ",
+      "published_on": "2026-10-26",
+      "checked_on": "2026-10-27"
+    }
+  ],
+  "updates": [],
+  "notes": "kintone・Garoon・サイボウズOffice・メールワイズ等の顧客預かりデータへの影響はないと説明。",
+  "vendors": [
+    {
+      "name": "ユミルリンク株式会社",
+      "role": "service",
+      "detail": "対象情報を登録していた外部サービスの提供元。",
+      "source_index": 0
+    }
+  ]
+}

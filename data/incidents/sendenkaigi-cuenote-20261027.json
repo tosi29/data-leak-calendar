@@ -1,0 +1,58 @@
+{
+  "id": "sendenkaigi-cuenote-20261027",
+  "organization": {
+    "name": "株式会社宣伝会議",
+    "sector": "企業・団体"
+  },
+  "title": "メールマガジンの登録情報が流出したおそれ",
+  "summary": "当初は対象外とされたが、10月26日の訂正通知でCuenote FCのアドレス帳が流出した可能性が高いと判明。件数を確認中。",
+  "published_on": "2026-10-27",
+  "first_published_on": "2026-10-27",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-27",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。侵入手口の詳細は調査中。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "対象人数・情報件数は調査中または未公表。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス",
+    "氏名",
+    "会社名・部署名・役職",
+    "職種",
+    "都道府県"
+  ],
+  "related_vendor": "ユミルリンク株式会社",
+  "sources": [
+    {
+      "url": "https://prtimes.jp/main/html/rd/p/000000856.000002888.html",
+      "type": "official",
+      "title": "メールマガジンの登録情報が流出したおそれ",
+      "published_on": "2026-10-27",
+      "checked_on": "2026-10-27"
+    }
+  ],
+  "updates": [],
+  "notes": "",
+  "vendors": [
+    {
+      "name": "ユミルリンク株式会社",
+      "role": "service",
+      "detail": "対象情報を登録していた外部サービスの提供元。",
+      "source_index": 0
+    }
+  ]
+}

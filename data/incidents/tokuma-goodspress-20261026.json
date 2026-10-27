@@ -1,0 +1,48 @@
+{
+  "id": "tokuma-goodspress-20261026",
+  "organization": {
+    "name": "株式会社徳間書店",
+    "sector": "企業・団体"
+  },
+  "title": "GoodsPress Webのテスト環境で取引先103件に漏えいのおそれ",
+  "summary": "保守・運用委託先から22日に侵害を報告され、不正な管理者作成とページ改ざんを確認。執筆者等のアカウント情報が閲覧された可能性。",
+  "published_on": "2026-10-26",
+  "first_published_on": "2026-10-26",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-10-22",
+  "updated_on": "2026-10-26",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。侵入手口の詳細は調査中。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": 103,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "個人事業者・取引先のユーザー情報。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "ニックネーム",
+    "メールアドレス"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.tokuma.jp/news/n65028.html",
+      "type": "official",
+      "title": "GoodsPress Webのテスト環境で取引先103件に漏えいのおそれ",
+      "published_on": "2026-10-26",
+      "checked_on": "2026-10-27"
+    }
+  ],
+  "updates": [],
+  "notes": "公式お知らせ一覧で10月26日公表と照合。本番環境・読者への影響は確認されていない。"
+}

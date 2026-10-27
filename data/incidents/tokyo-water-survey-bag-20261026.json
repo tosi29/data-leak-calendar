@@ -1,0 +1,49 @@
+{
+  "id": "tokyo-water-survey-bag-20261026",
+  "organization": {
+    "name": "東京都水道局",
+    "sector": "自治体"
+  },
+  "title": "委託先社員が家屋調査84軒分の書類を電車内に置き忘れ紛失",
+  "summary": "東京用地補償の社員が20日に、調査対象84軒の氏名・連絡先・対応記録を含む鞄を紛失。22日に報告を受け、対象者への説明を開始した。",
+  "published_on": "2026-10-26",
+  "first_published_on": "2026-10-26",
+  "publication_kind": "initial",
+  "occurred_on": "2026-10-20",
+  "detected_on": "2026-10-20",
+  "updated_on": "2026-10-26",
+  "verification": "official",
+  "leak_status": "lost",
+  "incident_type": "accident",
+  "cause": {
+    "category": "loss",
+    "detail": "個人情報を含む書類等の入った鞄を電車内に置き忘れ。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 84,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "調査対象84軒分の顧客情報。人数・書類の枚数ではない。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "電話番号",
+    "対応記録"
+  ],
+  "related_vendor": "株式会社東京用地補償",
+  "sources": [
+    {
+      "url": "https://www.metro.tokyo.lg.jp/information/press/2026/10/2026102601",
+      "type": "official",
+      "title": "委託先社員が家屋調査84軒分の書類を電車内に置き忘れ紛失",
+      "published_on": "2026-10-26",
+      "checked_on": "2026-10-27"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

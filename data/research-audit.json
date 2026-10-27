@@ -34653,6 +34653,95 @@
         "サイト停止・不正メール送信だけで個人情報への影響を認定しない。対象外は被害なしの証明ではなく現時点の収集範囲に関する判断。",
         "閲覧できない資料や公表日の明記がない報道が残り、4～10月の完全な網羅・全件解消は保証しない。"
       ]
+    },
+    {
+      "checked_on": "2026-10-27",
+      "scope": "26～27日の新規公表と続報の確認・反映",
+      "stats": {
+        "baseline_incidents": 1592,
+        "added_incidents": 34,
+        "updated_incidents": 10,
+        "total_incidents": 1626,
+        "baseline_candidates": 58,
+        "new_candidates": 1,
+        "pending_candidates": 59,
+        "index_leads": {
+          "total": 45,
+          "published": 29,
+          "existing": 7,
+          "excluded": 8,
+          "unresolved": 1
+        },
+        "followup_index_checks": 11,
+        "search_queries": 35
+      },
+      "added_incident_ids": [
+        "asahi-cuenote-20261026",
+        "asmarq-cuenote-20261026",
+        "basic-ferret-one-20261027",
+        "cells-blastmail-20261023",
+        "chitose-blastmail-20261027",
+        "cotta-investigation-20261026",
+        "cybozu-cuenote-20261026",
+        "dou-shuppan-ymail-20261027",
+        "doutor-employees-20261026",
+        "ftf-wasabi-20261026",
+        "goweb-sql-injection-20261026",
+        "gunosy-business-accounts-20261026",
+        "higashimatsushima-living-20261026",
+        "hiroshima-education-living-20261026",
+        "impress-cuenote-20261027",
+        "inuneko-studio-20261027",
+        "komoju-systems-20261022",
+        "kyoto-bunkyo-airscorer-20261026",
+        "mmdlabo-blastmail-20261026",
+        "moneyforward-group-studio-20261026",
+        "osaka-nishiyodogawa-redaction-20261026",
+        "resona-group-cuenote-20261027",
+        "sendai-gender-blastmail-20261026",
+        "sendenkaigi-cuenote-20261027",
+        "sonet-database-20261027",
+        "sonicmoov-comsbi-20261026",
+        "taiwa-living-20261026",
+        "tokuma-goodspress-20261026",
+        "tokyo-foodloss-mail-20261027",
+        "tokyo-water-survey-bag-20261026",
+        "tricycle-wasabi-20261026",
+        "valuecommerce-cuenote-20261026",
+        "yomisen-west-20261026",
+        "yugitsushin-blastmail-20261027"
+      ],
+      "updated_incident_ids": [
+        "idcf-portal-20261014",
+        "onamae-desktop-20261023",
+        "rakus-blastmail-20261021",
+        "hrvision-blastmail-20261023",
+        "system5-20261024",
+        "futaba-ymail-20261024",
+        "nanjo-marathon-blastmail-20261026",
+        "review-20261023-f759073a3fad",
+        "trustbank-furusato-attack-20261020",
+        "wasabi-switch-20261016"
+      ],
+      "new_candidate_ids": [
+        "oct27-update-jmam-cuenote"
+      ],
+      "report": "docs/research-2026-10-27-oct26-27-update.md",
+      "audit": "data/research-2026-10-27-oct26-27-update.json",
+      "method": [
+        "10月26・27日を日本語の年月日・スラッシュ・ドット表記で検索し、転載元・既掲載の大規模事案を除外した検索も実施。",
+        "Security NEXT、ScanNetSecurity、ITmedia、INTERNET Watchおよび日付別・続報索引から公式HTML・PDFへ戻る。索引の漏えい確度や単位は転記しない。",
+        "公式本文で公表日、対象情報、人数・件数、漏えいの確認・おそれ・調査中の別を確認。同一組織・同一事案の続報は既存IDへ追記。",
+        "件数の内数や重複を合算しない。So-netのメール認証情報、会員情報・口座情報等は別区分、KOMOJUの決済系とCRMも別の対象範囲として保持。",
+        "本文の取得成功をそのまま照合完了としない。取得制限が残るインプレスは検索経由の公式本文で照合。日付が本文にない徳間書店・京都文教大学は公式一覧で照合。"
+      ],
+      "limitations": [
+        "調査時点で取得・確認できた10月26～27日の公表と続報。GMOは27日19時10分時点の第12報まで確認。以後の公表や未索引資料を含む完全な網羅は保証しない。",
+        "新規34件には、26～27日の続報で具体的な個人情報への影響を確認して新たに収録した、22日・23日等初報の事案も含む。",
+        "同じ委託先の利用組織や同じ事案の区分間で対象が重複し得る。追加件数は独立した攻撃回数ではない。",
+        "日本能率協会マネジメントセンターの候補1件は、漏えい項目と自然人の対象が未確定のため確認待ちに追加。従来58候補の未確認事項は今回も解消済みとしない。",
+        "対象外とした公表は、停止のみ、予防的な休止、自社対象外の確認、対象となる自然人情報の公表がないもの。調査中の漏えい未確認を最終的な漏えい否定へ置き換えない。"
+      ]
     }
   ]
 }

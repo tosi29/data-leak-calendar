@@ -1,0 +1,58 @@
+{
+  "id": "tricycle-wasabi-20261026",
+  "organization": {
+    "name": "トライシクル株式会社",
+    "sector": "企業・団体"
+  },
+  "title": "受注管理サービスへの侵害で注文情報に漏えいのおそれ",
+  "summary": "WASABI SWITCHへの10月14日・16日の不正アクセスを受け、自社のオンライン販売に関する注文情報が流出した可能性を公表。",
+  "published_on": "2026-10-26",
+  "first_published_on": "2026-10-26",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-26",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。侵入手口の詳細は調査中。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": 312,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "注文データの件数。購入者の実人数とは異なる。"
+    }
+  ],
+  "data_types": [
+    "注文者氏名",
+    "配送先住所",
+    "電話番号",
+    "メールアドレス",
+    "注文日時・商品名・注文金額"
+  ],
+  "related_vendor": "株式会社ワサビ",
+  "sources": [
+    {
+      "url": "https://tricycle-ce.com/archives/599",
+      "type": "official",
+      "title": "受注管理サービスへの侵害で注文情報に漏えいのおそれ",
+      "published_on": "2026-10-26",
+      "checked_on": "2026-10-27"
+    }
+  ],
+  "updates": [],
+  "notes": "カード情報はサービス内に保持されていない。提供元・利用店舗側の件数は重複し得る。",
+  "vendors": [
+    {
+      "name": "株式会社ワサビ",
+      "role": "service",
+      "detail": "対象情報を登録していた外部サービスの提供元。",
+      "source_index": 0
+    }
+  ]
+}

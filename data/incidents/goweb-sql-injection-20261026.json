@@ -1,0 +1,53 @@
+{
+  "id": "goweb-sql-injection-20261026",
+  "organization": {
+    "name": "株式会社GoWebクラウド",
+    "sector": "企業・団体"
+  },
+  "title": "入居申込サービスへのSQLインジェクションで個人情報に影響のおそれ",
+  "summary": "10月15日に開発・保守会社からの報告で侵害を認知。複数の利用会社の申込者・同居人・緊急連絡先情報等が対象となった可能性があり、外部持ち出しと人数を調査中。",
+  "published_on": "2026-10-26",
+  "first_published_on": "2026-10-26",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-10-15",
+  "updated_on": "2026-10-26",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "vulnerability",
+    "detail": "プログラムの脆弱性を突くSQLインジェクション。脆弱性は修正済み。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "対象人数・情報件数は調査中または未公表。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "生年月日",
+    "性別",
+    "住所",
+    "電話番号",
+    "メールアドレス",
+    "続柄",
+    "仲介会社のアカウント情報"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://gowebcloud.co.jp/news-ir/803",
+      "type": "official",
+      "title": "入居申込サービスへのSQLインジェクションで個人情報に影響のおそれ",
+      "published_on": "2026-10-26",
+      "checked_on": "2026-10-27"
+    }
+  ],
+  "updates": [],
+  "notes": "本人確認書類の画像には不正アクセスがなかったと説明。カード情報は保有していない。"
+}

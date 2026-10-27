@@ -10,26 +10,27 @@
   "publication_kind": "followup",
   "occurred_on": null,
   "detected_on": null,
-  "updated_on": "2026-10-23",
+  "updated_on": "2026-10-27",
   "verification": "official",
   "incident_type": "attack",
   "leak_status": "suspected",
-  "summary": "48社の登録情報への不正照会を確認。うち2社のメールアドレスに担当者個人名が含まれる可能性がある。",
+  "summary": "認証システムのOSS脆弱性を悪用された侵害の調査が完了。最大71社の登録情報への不正照会があり、個人名や個人名を含み得るメールアドレス等は最大31社31件。",
   "impact": [
     {
-      "count": 48,
+      "count": 71,
       "unit": "organizations",
-      "qualifier": "exact",
-      "description": "登録情報への不正照会を確認した契約企業"
+      "qualifier": "maximum",
+      "description": "登録情報への不正照会を確認した契約企業。"
     },
     {
-      "count": 2,
+      "count": 31,
       "unit": "records",
-      "qualifier": "exact",
-      "description": "個人名を含む可能性があるメールアドレス（2社各1件、48社の内数）"
+      "qualifier": "maximum",
+      "description": "個人名・個人名を含む可能性のあるメールアドレス等。最大31社、71社の内数。"
     }
   ],
   "data_types": [
+    "個人名",
     "企業名",
     "ログインID",
     "パスワードのハッシュ値",
@@ -37,9 +38,9 @@
     "月額利用料金"
   ],
   "cause": {
-    "category": "unauthorized_access",
-    "detail": "第三者による不正アクセス。侵入手口の詳細は未公表。",
-    "certainty": "unknown"
+    "category": "vulnerability",
+    "detail": "IDCFクラウドポータルの認証システムが利用するOSSの脆弱性を悪用され、管理者権限を不正取得。",
+    "certainty": "confirmed"
   },
   "related_vendor": null,
   "sources": [
@@ -56,18 +57,30 @@
       "title": "第6報でバックアップサービス再開を案内。スナップショット機能は停止継続し、被害ゾーン全体の復旧を示すものではない。",
       "published_on": "2026-10-18",
       "checked_on": "2026-10-23"
+    },
+    {
+      "url": "https://www.idcf.jp/news/topics/20261027001",
+      "type": "official",
+      "title": "第7報：不正アクセスに関する調査結果および今後の対応について",
+      "published_on": "2026-10-27",
+      "checked_on": "2026-10-27"
     }
   ],
-  "notes": "外部持ち出しの痕跡は未確認。被害4ゾーンの仮想サーバー内データは外部流出なしとの判断であり、ポータル登録情報への不正照会と区別する。障害対象495組織を漏えい規模に転用しない。10月14日は個人情報への影響を確認できた第5報の日付。 第6報でバックアップサービス再開を案内。スナップショット機能は停止継続し、被害ゾーン全体の復旧を示すものではない。",
+  "notes": "10月27日第7報で対象規模を更新。不正照会情報の外部持ち出しの痕跡は未確認。仮想サーバー内のデータは外部流出なしとの判断であり、ポータル登録情報と区別。障害対象495組織やバックアップ取出可能206組織は漏えい規模ではない。最大4件のログインパスワード不正変更はリセット済み。",
   "updates": [
     {
       "date": "2026-10-18",
       "summary": "第6報でバックアップサービス再開を案内。スナップショット機能は停止継続し、被害ゾーン全体の復旧を示すものではない。",
       "source_index": 1
+    },
+    {
+      "date": "2026-10-27",
+      "summary": "調査完了。不正照会が最大71社、個人名・個人名を含む可能性があるメールアドレス等が最大31社31件に拡大。最大4件のパスワード不正変更も確認。",
+      "source_index": 2
     }
   ],
   "vendor_research": {
-    "checked_on": "2026-10-15",
+    "checked_on": "2026-10-27",
     "result": "not_identified",
     "note": "掲載出典と追加検索で、当該事案に関係する外部の開発・運用・サービス・基盤会社の社名と役割を特定できませんでした。",
     "source_checks": [
@@ -77,6 +90,10 @@
       },
       {
         "source_index": 1,
+        "status": "reviewed"
+      },
+      {
+        "source_index": 2,
         "status": "reviewed"
       }
     ]

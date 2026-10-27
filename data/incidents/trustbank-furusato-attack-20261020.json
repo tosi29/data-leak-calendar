@@ -11,7 +11,7 @@
   "publication_kind": "initial",
   "occurred_on": null,
   "detected_on": null,
-  "updated_on": "2026-10-20",
+  "updated_on": "2026-10-27",
   "verification": "official",
   "leak_status": "confirmed",
   "incident_type": "attack",
@@ -44,8 +44,21 @@
       "title": "不正アクセスによる寄附者情報流出",
       "published_on": "2026-10-20",
       "checked_on": "2026-10-20"
+    },
+    {
+      "url": "https://www.trustbank.co.jp/newsroom/newsrelease/new20261026/",
+      "type": "official",
+      "title": "寄附者情報の外部流出に関する第3報：自治体・事業者向け管理システム再開",
+      "published_on": "2026-10-26",
+      "checked_on": "2026-10-27"
     }
   ],
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-10-26",
+      "summary": "安全対策と検証を経て寄附管理システムの運用を順次再開。新規寄附受付・寄附者向けサイトの再開ではない。",
+      "source_index": 1
+    }
+  ],
   "notes": "10月5日公表のAmazon Pay利用時の表示不具合とは別件。10月19日の停止告知と10月20日の流出公表を区別。件数は調査で変動し得る。"
 }

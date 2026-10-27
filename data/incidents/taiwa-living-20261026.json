@@ -1,0 +1,66 @@
+{
+  "id": "taiwa-living-20261026",
+  "organization": {
+    "name": "大和町",
+    "sector": "自治体"
+  },
+  "title": "縁結び事業61人・観光バスツアー29人の申込情報に漏えいのおそれ",
+  "summary": "仙台リビング新聞社に委託する2事業の情報について、親会社サンケイリビング新聞社への不正アクセスに伴う流出の可能性を公表。",
+  "published_on": "2026-10-26",
+  "first_published_on": "2026-10-26",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-26",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。侵入手口の詳細は調査中。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": 61,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "縁結び応援事業。"
+    },
+    {
+      "count": 29,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "観光PRバスツアー。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "生年月日または年齢",
+    "性別",
+    "勤務先または業種",
+    "電話番号",
+    "メールアドレス"
+  ],
+  "related_vendor": "株式会社サンケイリビング新聞社",
+  "sources": [
+    {
+      "url": "https://www.town.taiwa.miyagi.jp/material/files/group/3/2026_10_26.pdf",
+      "type": "official",
+      "title": "縁結び事業61人・観光バスツアー29人の申込情報に漏えいのおそれ",
+      "published_on": "2026-10-26",
+      "checked_on": "2026-10-27"
+    }
+  ],
+  "updates": [],
+  "notes": "事業別の人数を保持し、両事業間の重複を除いた人数とはみなさない。提供元等の件数とも重複し得る。",
+  "vendors": [
+    {
+      "name": "株式会社サンケイリビング新聞社",
+      "role": "service",
+      "detail": "対象情報を登録していた外部サービスの提供元。",
+      "source_index": 0
+    }
+  ]
+}

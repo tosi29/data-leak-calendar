@@ -1,0 +1,54 @@
+{
+  "id": "dou-shuppan-ymail-20261027",
+  "organization": {
+    "name": "どう出版",
+    "sector": "企業・団体"
+  },
+  "title": "メールマガジン登録者の氏名・アドレスに漏えいのおそれ",
+  "summary": "24日の不審メール配信に関する続報で、ワイメール運営会社から登録者の氏名・メールアドレスが流出したおそれを通知されたと説明。",
+  "published_on": "2026-10-27",
+  "first_published_on": "2026-10-24",
+  "publication_kind": "followup",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-27",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。侵入手口の詳細は調査中。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "対象人数・件数は未公表。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "メールアドレス"
+  ],
+  "related_vendor": "ワイメール",
+  "sources": [
+    {
+      "url": "https://www.dou-shuppan.com/20261027-3/",
+      "type": "official",
+      "title": "どう出版を名乗る不審メールにご注意ください（続報）",
+      "published_on": "2026-10-27",
+      "checked_on": "2026-10-27"
+    },
+    {
+      "url": "https://www.dou-shuppan.com/20261024-2/",
+      "type": "official",
+      "title": "どう出版を名乗る不審メールにご注意ください",
+      "published_on": "2026-10-24",
+      "checked_on": "2026-10-27"
+    }
+  ],
+  "updates": [],
+  "notes": "24日公表は不審メールへの警告。個人情報の漏えいのおそれを具体的に説明した27日続報を掲載日とする。対象範囲・件数は調査中。"
+}

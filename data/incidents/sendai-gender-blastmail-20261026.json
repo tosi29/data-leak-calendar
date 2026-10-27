@@ -1,0 +1,55 @@
+{
+  "id": "sendai-gender-blastmail-20261026",
+  "organization": {
+    "name": "公益財団法人せんだい男女共同参画財団",
+    "sector": "企業・団体"
+  },
+  "title": "メルマガ配信先への影響を調査、現時点の漏えい対象には含まれず",
+  "summary": "メールdeえるなびっで利用するブラストメールへの侵害について、氏名・メールアドレスの漏えいの可能性を確認中。26日16時時点の確認対象には含まれていないと公表。",
+  "published_on": "2026-10-26",
+  "first_published_on": null,
+  "publication_kind": "followup",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-26",
+  "verification": "official",
+  "leak_status": "investigating",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。侵入手口の詳細は調査中。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "対象人数・件数は未公表。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "メールアドレス"
+  ],
+  "related_vendor": "株式会社ラクスライトクラウド",
+  "sources": [
+    {
+      "url": "https://www.sendai-l.jp/information/19786.html",
+      "type": "official",
+      "title": "メール配信サービスへの不正アクセスについて（26日16時更新）",
+      "published_on": "2026-10-26",
+      "checked_on": "2026-10-27"
+    }
+  ],
+  "updates": [],
+  "notes": "同じURLの初回掲載日を本文から確定できず、明記された26日更新を続報として記録。外部調査は継続しており、漏えい否定が確定したものとしない。",
+  "vendors": [
+    {
+      "name": "株式会社ラクスライトクラウド",
+      "role": "service",
+      "detail": "メールマガジン配信に利用するブラストメールの提供元。",
+      "source_index": 0
+    }
+  ]
+}

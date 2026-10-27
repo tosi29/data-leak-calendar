@@ -1,0 +1,73 @@
+{
+  "id": "komoju-systems-20261022",
+  "organization": {
+    "name": "株式会社KOMOJU",
+    "sector": "企業・団体"
+  },
+  "title": "決済システムとCRMの問い合わせ記録から個人データが漏えい",
+  "summary": "非本番環境の脆弱性を起点とする侵害で、決済システムの約4,100件の漏えいを確認。26日第二報では、APIキーを悪用したCRMアクセスと問い合わせ記録の漏えいも確認した。",
+  "published_on": "2026-10-22",
+  "first_published_on": "2026-10-22",
+  "publication_kind": "initial",
+  "occurred_on": "2026-10-13",
+  "detected_on": "2026-10-14",
+  "updated_on": "2026-10-27",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "vulnerability",
+    "detail": "非本番環境の脆弱性を悪用し社内管理画面等に侵入。CRMへは接続用APIキーを使用。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 4100,
+      "unit": "records",
+      "qualifier": "approximate",
+      "description": "対象システム1（決済システム）の個人データ。CRM漏えいは含めない。"
+    },
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "対象システム2（CRM）の問い合わせ記録の件数は未公表。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス",
+    "問い合わせ履歴",
+    "氏名",
+    "電話番号",
+    "住所",
+    "生年月日",
+    "金融機関口座情報",
+    "公的身分証明書類",
+    "加盟店のAPI認証情報"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://23804948.fs1.hubspotusercontent-na1.net/hubfs/23804948/KOMOJU%20%E3%81%B8%E3%81%AE%E4%B8%8D%E6%AD%A3%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E3%81%8A%E3%82%88%E3%81%B3%E6%B1%BA%E6%B8%88%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9%E3%81%B8%E3%81%AE%E5%BD%B1%E9%9F%BF%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6.pdf",
+      "type": "official",
+      "title": "当社システムへの不正アクセスおよび決済サービスへの影響について",
+      "published_on": "2026-10-22",
+      "checked_on": "2026-10-27"
+    },
+    {
+      "url": "https://23804948.fs1.hubspotusercontent-na1.net/hubfs/23804948/Website%20%E3%83%80%E3%82%A6%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%89%E8%B3%87%E6%96%99/%E3%80%90%E7%AC%AC%E4%BA%8C%E5%A0%B1%E3%80%91%E5%BD%93%E7%A4%BE%20CRM%20%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E3%81%AB%E3%81%8A%E3%81%91%E3%82%8B%E5%80%8B%E4%BA%BA%E3%83%87%E3%83%BC%E3%82%BF%E3%81%AE%E6%BC%8F%E3%81%88%E3%81%84%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6.pdf",
+      "type": "official",
+      "title": "第二報：当社CRMシステムにおける個人データの漏洩について",
+      "published_on": "2026-10-26",
+      "checked_on": "2026-10-27"
+    }
+  ],
+  "updates": [
+    {
+      "date": "2026-10-26",
+      "summary": "CRMの問い合わせ記録にも漏えいを確認。返金対応等の口座情報、加盟店審査時の身分証明書類等が問い合わせ内容に応じ含まれる。",
+      "source_index": 1
+    }
+  ],
+  "notes": "共通の侵入起点について1記録とし、決済システムとCRMは別の漏えい範囲として保持。CRM全データベースの持ち出しを認定するものではない。カード情報は漏えいしていないと確認。"
+}

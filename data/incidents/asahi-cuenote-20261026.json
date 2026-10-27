@@ -1,0 +1,61 @@
+{
+  "id": "asahi-cuenote-20261026",
+  "organization": {
+    "name": "株式会社朝日新聞社",
+    "sector": "企業・団体"
+  },
+  "title": "イベント等のメール配信先情報が流出したおそれ",
+  "summary": "Cuenote FCに登録したアドレス帳が10月16日午後に不正出力された可能性。27日追記で、対象は主にイベント関連の登録情報で大半はメールアドレスと説明した。",
+  "published_on": "2026-10-26",
+  "first_published_on": "2026-10-26",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-27",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。侵入手口の詳細は調査中。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "対象人数・情報件数は調査中または未公表。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス",
+    "氏名等（詳細確認中）"
+  ],
+  "related_vendor": "ユミルリンク株式会社",
+  "sources": [
+    {
+      "url": "https://www.asahi.com/corporate/info/16995713",
+      "type": "official",
+      "title": "イベント等のメール配信先情報が流出したおそれ",
+      "published_on": "2026-10-26",
+      "checked_on": "2026-10-27"
+    }
+  ],
+  "updates": [
+    {
+      "date": "2026-10-27",
+      "summary": "カード情報・ログインパスワードは対象外と追記。イベント等関連の登録者が中心で、大半はメールアドレスと説明。",
+      "source_index": 0
+    }
+  ],
+  "notes": "",
+  "vendors": [
+    {
+      "name": "ユミルリンク株式会社",
+      "role": "service",
+      "detail": "対象情報を登録していた外部サービスの提供元。",
+      "source_index": 0
+    }
+  ]
+}
