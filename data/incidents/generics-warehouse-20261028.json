@@ -1,0 +1,55 @@
+{
+  "id": "generics-warehouse-20261028",
+  "organization": {
+    "name": "ジェネリック製薬",
+    "sector": "企業・団体"
+  },
+  "title": "配送委託先の倉庫管理システムから顧客情報が漏えいした可能性",
+  "summary": "配送事業者の倉庫管理システムへの不正アクセスにより、10月23日以前に発送を手配した顧客情報が外部へ漏えいした可能性が高いと公表。",
+  "published_on": "2026-10-28",
+  "first_published_on": "2026-10-28",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-28",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。侵入手口の詳細は調査中。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "対象情報。人数・件数の公表がない場合は不明。"
+    }
+  ],
+  "data_types": [
+    "氏名・フリガナ",
+    "性別",
+    "電話番号・FAX",
+    "メールアドレス",
+    "住所",
+    "顧客番号",
+    "支払方法・金額・ポイント",
+    "購入明細・定期情報",
+    "自由項目",
+    "後払い取引ID・請求書情報"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://shop.generics.co.jp/shop/information/gene20261028",
+      "type": "official",
+      "title": "配送委託先の倉庫管理システムから顧客情報が漏えいした可能性",
+      "published_on": "2026-10-28",
+      "checked_on": "2026-10-28"
+    }
+  ],
+  "updates": [],
+  "notes": "配送・システム事業者名は公表本文にない。10月24日以降の初回利用者は対象外。パスワード・カード番号は現時点で対象として確認されていない。"
+}

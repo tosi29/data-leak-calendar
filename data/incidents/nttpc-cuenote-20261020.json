@@ -1,0 +1,67 @@
+{
+  "id": "nttpc-cuenote-20261020",
+  "organization": {
+    "name": "NTTPCコミュニケーションズ",
+    "sector": "企業・団体"
+  },
+  "title": "各種サービスの連絡先メールアドレス等の漏えい",
+  "summary": "Cuenote FCの不正アクセスについて、27日の続報で一部顧客の情報が漏えい対象に含まれるとの報告を受けたと公表。",
+  "published_on": "2026-10-20",
+  "first_published_on": "2026-10-20",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-28",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。侵入手口の詳細は調査中。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "対象情報。人数・件数の公表がない場合は不明。"
+    }
+  ],
+  "data_types": [
+    "連絡先メールアドレス等"
+  ],
+  "related_vendor": "ユミルリンク",
+  "sources": [
+    {
+      "url": "https://www.nttpc.co.jp/press/info/2026/10/202610201600.html",
+      "type": "official",
+      "title": "メール配信先情報への影響に関する初報",
+      "published_on": "2026-10-20",
+      "checked_on": "2026-10-28"
+    },
+    {
+      "url": "https://www.nttpc.co.jp/press/info/2026/10/202610271600.html",
+      "type": "official",
+      "title": "一部顧客情報が漏えい対象に含まれると報告（続報）",
+      "published_on": "2026-10-27",
+      "checked_on": "2026-10-28"
+    }
+  ],
+  "updates": [
+    {
+      "date": "2026-10-27",
+      "summary": "26日に一部顧客情報が漏えい対象と提供元から報告された。件数・詳細項目は確認中。",
+      "source_index": 1
+    }
+  ],
+  "notes": "6月のSuiteX・ファイル転送サービス事案とは別。同じ提供元の事案や他の利用組織と対象が重複し得るため、被害人数・件数として単純合算しない。",
+  "vendors": [
+    {
+      "name": "ユミルリンク",
+      "role": "service",
+      "detail": "当該公表に記載された対象サービスの提供元。",
+      "source_index": 0
+    }
+  ]
+}

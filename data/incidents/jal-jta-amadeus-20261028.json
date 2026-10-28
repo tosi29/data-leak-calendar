@@ -1,0 +1,59 @@
+{
+  "id": "jal-jta-amadeus-20261028",
+  "organization": {
+    "name": "日本航空・日本トランスオーシャン航空",
+    "sector": "企業・団体"
+  },
+  "title": "委託先の旅客サービスシステムで予約情報が外部から参照された形跡",
+  "summary": "Amadeusの旅客サービスシステムへの不正アクセスにより、約92,000名の予約情報が外部から参照された形跡を確認。",
+  "published_on": "2026-10-28",
+  "first_published_on": "2026-10-28",
+  "publication_kind": "initial",
+  "occurred_on": "2023-08-10",
+  "detected_on": null,
+  "updated_on": "2026-10-28",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。侵入手口の詳細は調査中。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": 92000,
+      "unit": "people",
+      "qualifier": "approximate",
+      "description": "予約情報の対象総人数。うち約2,000名はパスポート番号等も対象。内数を加算しない。"
+    }
+  ],
+  "data_types": [
+    "予約番号",
+    "氏名",
+    "搭乗日・搭乗区間・搭乗クラス",
+    "メールアドレス・電話番号（一部）",
+    "パスポート番号・国籍（一部）",
+    "マイレージ番号・航空会社・便名・航空券番号・座席番号（一部）"
+  ],
+  "related_vendor": "Amadeus IT Group, S.A.",
+  "sources": [
+    {
+      "url": "https://www.jal.co.jp/ja-jp/news/general/2026/other/261028.html",
+      "type": "official",
+      "title": "Amadeus社が提供する旅客サービスシステムへの不正アクセスについて",
+      "published_on": "2026-10-28",
+      "checked_on": "2026-10-28"
+    }
+  ],
+  "updates": [],
+  "notes": "2社の共同公表を1記録とする。2023年8月10日～2026年9月23日は外部参照の形跡がある期間であり、予約受付期間ではない。約90,000名の基本的な予約情報と、約2,000名の追加項目を含む情報の計約92,000名。カード番号・各種パスワードは対象外。10月23日は委託先から報告を受けた日。",
+  "vendors": [
+    {
+      "name": "Amadeus IT Group, S.A.",
+      "role": "service",
+      "detail": "予約・発券・搭乗手続き等を統合処理する旅客サービスシステムの委託先。",
+      "source_index": 0
+    }
+  ]
+}

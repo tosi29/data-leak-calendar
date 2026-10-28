@@ -742,5 +742,69 @@
     "checked_urls": [
       "https://www.jmam.co.jp/assets/images/topics/cuenote_20261026.pdf"
     ]
+  },
+  {
+    "id": "oct28-update-kyushufg",
+    "organization": "九州FG証券",
+    "reported_on": "2026-10-28",
+    "verification": "pending",
+    "reference_url": "https://www.kyushu-fg-sec.co.jp/article/data/info/files/a9f275749841d4f9ea6c35fa1b62a90f0b990bb0.pdf",
+    "note": "索引が示す漏えい公表PDFは取得制限で本文未確認。公式一覧から27日のセミナー受付停止・28日の口座開設停止は確認したが、これらは漏えいを示す本文ではない。項目・確度・公表日を確定してから掲載。",
+    "reviewed_on": "2026-10-28",
+    "checked_urls": [
+      "https://www.kyushu-fg-sec.co.jp/article/data/info/files/a9f275749841d4f9ea6c35fa1b62a90f0b990bb0.pdf",
+      "https://www.kyushu-fg-sec.co.jp/info/",
+      "https://www.kyushu-fg-sec.co.jp/article/data/info/files/dbd4624077a6ceac9fed5a011cf10ca7cd8bd122.pdf",
+      "https://www.kyushu-fg-sec.co.jp/article/data/info/files/20261028_170000_001.pdf"
+    ]
+  },
+  {
+    "id": "oct28-update-sonylife",
+    "organization": "ソニー生命保険",
+    "reported_on": "2026-10-28",
+    "verification": "pending",
+    "reference_url": "https://www.sonylife.co.jp/info/popup/261028_oshirase2.pdf",
+    "note": "索引掲載の公式PDFはTLS接続エラー等で本文を取得できず、自然人の対象情報・確度を確認できない。検索でも当該公表本文に到達せず、停止情報だけで掲載しない。",
+    "reviewed_on": "2026-10-28",
+    "checked_urls": [
+      "https://www.sonylife.co.jp/info/popup/261028_oshirase2.pdf"
+    ]
+  },
+  {
+    "id": "oct28-update-tbs-shopping",
+    "organization": "TBSショッピング",
+    "reported_on": "2026-10-28",
+    "verification": "pending",
+    "reference_url": "https://shopping.tbs.co.jp/tbs/info",
+    "note": "公式ページのモーダル本文で最大49,995人分（延べ人数）のメールアドレス等の流出を確認。10月16日は流出を確認した日で、公表日と断定できない。索引の28日を裏付ける公式掲載日が未確認。会員約110万人を被害人数にしない。",
+    "reviewed_on": "2026-10-28",
+    "checked_urls": [
+      "https://shopping.tbs.co.jp/tbs/info"
+    ]
+  },
+  {
+    "id": "oct28-update-icc-support",
+    "organization": "石川コンピュータ・センター（サポートサイト）",
+    "reported_on": "2026-10-28",
+    "verification": "pending",
+    "reference_url": "https://www.icc.co.jp/news/2026/20261027.html",
+    "note": "17日初報・27日続報を確認。85件のID・パスワードに関する侵害を説明するが、自然人に結び付く対象かを確定できない。問い合わせ16,132件・添付1,833件への不正アクセスは確認されていない。6月の別の添付ファイル事案と合算しない。",
+    "reviewed_on": "2026-10-28",
+    "checked_urls": [
+      "https://www.icc.co.jp/news/2026/20261017.html",
+      "https://www.icc.co.jp/news/2026/20261027.html"
+    ]
+  },
+  {
+    "id": "oct28-update-yakult",
+    "organization": "ヤクルト本社",
+    "reported_on": "2026-10-28",
+    "verification": "pending",
+    "reference_url": "https://www.yakult.co.jp/maintenance/",
+    "note": "公式の26日19時公表で顧客情報への影響を調査中と説明。28日の報道で再確認したが、対象となる個人情報・範囲は未公表。サイト停止だけで漏えいを認定せず、具体的影響の続報待ち。",
+    "reviewed_on": "2026-10-28",
+    "checked_urls": [
+      "https://www.yakult.co.jp/maintenance/"
+    ]
   }
 ]

@@ -1,0 +1,50 @@
+{
+  "id": "h2int-directgames-20261028",
+  "organization": {
+    "name": "H2INT",
+    "sector": "企業・団体"
+  },
+  "title": "DIRECT GAMES会員情報の漏えい",
+  "summary": "10月17～18日の不正アクセスで会員情報の漏えいが判明。全会員にパスワード再設定を案内。",
+  "published_on": "2026-10-28",
+  "first_published_on": "2026-10-28",
+  "publication_kind": "initial",
+  "occurred_on": "2026-10-17",
+  "detected_on": "2026-10-18",
+  "updated_on": "2026-10-28",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。侵入手口の詳細は調査中。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "対象情報。人数・件数の公表がない場合は不明。"
+    }
+  ],
+  "data_types": [
+    "会員ID（メールアドレス）",
+    "暗号化されたログインパスワード",
+    "生年月日",
+    "氏名",
+    "注文履歴"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.h2int.jp/news/news_view.html?idx=456",
+      "type": "official",
+      "title": "DIRECT GAMES会員情報の漏えい",
+      "published_on": "2026-10-28",
+      "checked_on": "2026-10-28"
+    }
+  ],
+  "updates": [],
+  "notes": "人数は未公表。氏名・生年月日は任意入力。カード番号は保有しておらず漏えい対象外。"
+}

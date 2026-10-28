@@ -1,0 +1,59 @@
+{
+  "id": "starplatinum-ec-20261014",
+  "organization": {
+    "name": "スタープラチナ",
+    "sector": "企業・団体"
+  },
+  "title": "テレビ壁掛けショップ本店の顧客情報への影響を調査",
+  "summary": "本店のシステム侵害に伴い顧客情報の流出が懸念され全ショップを停止。27日の第2報で、外部調査を28日から開始し12月中旬に最終報告をまとめる予定と公表。",
+  "published_on": "2026-10-14",
+  "first_published_on": "2026-10-14",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-10-13",
+  "updated_on": "2026-10-28",
+  "verification": "official",
+  "leak_status": "investigating",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。侵入手口の詳細は調査中。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "対象情報。人数・件数の公表がない場合は不明。"
+    }
+  ],
+  "data_types": [
+    "顧客情報（項目調査中）"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://starplatinum.co.jp/wp-content/uploads/2026/10/infomation_20261014.pdf",
+      "type": "official",
+      "title": "システム侵害発生の初報",
+      "published_on": "2026-10-14",
+      "checked_on": "2026-10-28"
+    },
+    {
+      "url": "https://starplatinum.co.jp/wp-content/uploads/2026/10/infomation_20261027.pdf",
+      "type": "official",
+      "title": "外部調査の予定に関する第2報",
+      "published_on": "2026-10-27",
+      "checked_on": "2026-10-28"
+    }
+  ],
+  "updates": [
+    {
+      "date": "2026-10-27",
+      "summary": "28日から詳細な外部調査に着手予定。最終報告の取りまとめは12月中旬の見込み。",
+      "source_index": 1
+    }
+  ],
+  "notes": "カード情報はデータベースに保有していない。10月11～13日の本店カード決済利用者への注意喚起は、カード流出確定の意味ではない。"
+}

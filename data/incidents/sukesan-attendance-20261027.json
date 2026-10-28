@@ -1,0 +1,62 @@
+{
+  "id": "sukesan-attendance-20261027",
+  "organization": {
+    "name": "資さん",
+    "sector": "企業・団体"
+  },
+  "title": "勤怠システムの設定不備による従業員情報の閲覧可能性",
+  "summary": "管理・運用委託先カホエンタープライズのサーバー設定不備により、2021年10月～2026年10月に在籍した従業員・退職者の情報が外部から閲覧できた可能性。",
+  "published_on": "2026-10-27",
+  "first_published_on": "2026-10-27",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-28",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "accident",
+  "cause": {
+    "category": "configuration",
+    "detail": "委託先が管理・運用するサーバーの一部設定不備。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "対象情報。人数・件数の公表がない場合は不明。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "生年月日",
+    "性別",
+    "電話番号",
+    "賃金履歴",
+    "勤怠実績",
+    "入社日・退社日（一部）",
+    "退職理由（一部）",
+    "社会保険加入履歴（一部）"
+  ],
+  "related_vendor": "カホエンタープライズ",
+  "sources": [
+    {
+      "url": "https://www.sukesanudon.mom/news/news-8014/",
+      "type": "official",
+      "title": "勤怠システムの設定不備による従業員情報の閲覧可能性",
+      "published_on": "2026-10-27",
+      "checked_on": "2026-10-28"
+    }
+  ],
+  "updates": [],
+  "notes": "公式本文で対象人数は未公表のため不明とする。実際の閲覧や不正利用を確認したという意味ではない。",
+  "vendors": [
+    {
+      "name": "カホエンタープライズ",
+      "role": "operations",
+      "detail": "対象サーバーの管理・運用受託先。",
+      "source_index": 0
+    }
+  ]
+}

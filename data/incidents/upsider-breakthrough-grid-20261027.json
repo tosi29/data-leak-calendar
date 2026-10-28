@@ -1,0 +1,50 @@
+{
+  "id": "upsider-breakthrough-grid-20261027",
+  "organization": {
+    "name": "UPSIDER",
+    "sector": "企業・団体"
+  },
+  "title": "Breakthrough GRID会員情報の漏えい",
+  "summary": "会員向けサイトへの不正アクセスで現会員・退会者の情報が持ち出された。所属企業情報やイベント情報、議事録も対象とみなし対応。",
+  "published_on": "2026-10-27",
+  "first_published_on": "2026-10-27",
+  "publication_kind": "initial",
+  "occurred_on": "2026-10-27",
+  "detected_on": null,
+  "updated_on": "2026-10-28",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。侵入手口の詳細は調査中。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "対象情報。人数・件数の公表がない場合は不明。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "メールアドレス",
+    "所属企業・部署",
+    "イベント情報",
+    "ディスカッション議事録"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://corp-news.up-sider.com/261027-pr-2/",
+      "type": "official",
+      "title": "Breakthrough GRID会員情報の漏えい",
+      "published_on": "2026-10-27",
+      "checked_on": "2026-10-28"
+    }
+  ],
+  "updates": [],
+  "notes": "法人カードUPSIDER・PRESIDENT CARDなど他サービスの会員情報・決済情報を管理するシステムへの侵入や流出はないと説明。"
+}

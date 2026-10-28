@@ -1,0 +1,61 @@
+{
+  "id": "kyushu-alumni-blastmail-20261028",
+  "organization": {
+    "name": "九州大学（校友会）",
+    "sector": "教育・研究"
+  },
+  "title": "校友会のメール配信情報の漏えい",
+  "summary": "校友会サイトで利用するブラストメールから同窓生等の氏名・メールアドレスの漏えいを確認。実際の対象件数は確認中。",
+  "published_on": "2026-10-28",
+  "first_published_on": null,
+  "publication_kind": "followup",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-28",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。侵入手口の詳細は調査中。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": 9999,
+      "unit": "records",
+      "qualifier": "maximum",
+      "description": "サービス登録情報の最大件数。実際の漏えい件数は確認中。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "メールアドレス"
+  ],
+  "related_vendor": "ラクスライトクラウド",
+  "sources": [
+    {
+      "url": "https://www.kyushu-u.ac.jp/ja/notices/view/3198",
+      "type": "official",
+      "title": "校友会のメール配信情報の漏えい",
+      "published_on": "2026-10-28",
+      "checked_on": "2026-10-28"
+    }
+  ],
+  "updates": [],
+  "notes": "校友会サイトで先行して注意喚起した旨の記載があるが初報日は未確認。病院のQLIFICA事案とは別記録。同じ提供元の事案や他の利用組織と対象が重複し得るため、被害人数・件数として単純合算しない。",
+  "vendors": [
+    {
+      "name": "ラクスライトクラウド",
+      "role": "service",
+      "detail": "ブラストメールの提供元。",
+      "source_index": 0
+    },
+    {
+      "name": "QTmedia",
+      "role": "operations",
+      "detail": "九州大学校友会サイトの運用受託者。ブラストメールを同社経由で利用。",
+      "source_index": 0
+    }
+  ]
+}

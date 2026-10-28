@@ -11,7 +11,7 @@
   "publication_kind": "initial",
   "occurred_on": null,
   "detected_on": "2026-10-26",
-  "updated_on": "2026-10-26",
+  "updated_on": "2026-10-28",
   "verification": "official",
   "leak_status": "confirmed",
   "incident_type": "attack",
@@ -56,9 +56,22 @@
       "title": "新幹線のネット予約サービスの会員情報漏えい…JR3社で計約17万件",
       "published_on": "2026-10-26",
       "checked_on": "2026-10-27"
+    },
+    {
+      "url": "https://smart-ex.jp/topics/detail/?id=889",
+      "type": "official",
+      "title": "公式サービス案内でもメールアドレス・会員ID・カタカナ氏名・会員種別の漏えいを説明。対象を精査し特定後に個別連絡する予定。",
+      "published_on": "2026-10-27",
+      "checked_on": "2026-10-28"
     }
   ],
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-10-27",
+      "summary": "公式サービス案内でもメールアドレス・会員ID・カタカナ氏名・会員種別の漏えいを説明。対象を精査し特定後に個別連絡する予定。",
+      "source_index": 3
+    }
+  ],
   "notes": "JR3社の共同公表を1記録とする。提供元は10月16日時点では影響なしと報告したが、26日に閲覧・取得の連絡があった。JR東海保有の予約システムからの漏えいは未確認。対象はCuenote FCで特定のメールを配信した会員で、全会員とは限らない。住所・電話番号・カード情報等は対象外。約17万件は報道値で実人数への換算はしない。ユミルリンク全体の延べ件数と重複し得る。10月のIDCフロンティア関連のJR各社事案とは別。",
   "vendors": [
     {

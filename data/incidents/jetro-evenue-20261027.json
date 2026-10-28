@@ -1,0 +1,50 @@
+{
+  "id": "jetro-evenue-20261027",
+  "organization": {
+    "name": "日本貿易振興機構（ジェトロ）",
+    "sector": "行政"
+  },
+  "title": "e-Venue利用者の個人情報が漏えいした可能性",
+  "summary": "9月24日・25日と10月14日にe-Venueへ不正アクセスがあり、本来非公開の情報が取得されたとみられる。",
+  "published_on": "2026-10-27",
+  "first_published_on": "2026-10-27",
+  "publication_kind": "initial",
+  "occurred_on": "2026-09-24",
+  "detected_on": null,
+  "updated_on": "2026-10-28",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。侵入手口の詳細は調査中。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": 133,
+      "unit": "records",
+      "qualifier": "maximum",
+      "description": "漏えいした可能性のある個人情報"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "メールアドレス",
+    "電話番号",
+    "携帯番号",
+    "FAX番号"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.jetro.go.jp/news/announcement/2026/5eebe72f41bc2230.html",
+      "type": "official",
+      "title": "e-Venue利用者の個人情報が漏えいした可能性",
+      "published_on": "2026-10-27",
+      "checked_on": "2026-10-28"
+    }
+  ],
+  "updates": [],
+  "notes": "外部環境上のシステムの構築・運用・保守は委託しているが会社名は未公表。"
+}

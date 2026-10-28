@@ -1,0 +1,67 @@
+{
+  "id": "nitta-airscorer-20261027",
+  "organization": {
+    "name": "新田高等学校",
+    "sector": "教育・研究"
+  },
+  "title": "作文添削サービスに保管された卒業生・教職員情報の漏えいのおそれ",
+  "summary": "AI.R-Scorerへの侵入により、2025年度に利用した卒業生281名・教職員7名の答案・アカウント情報等に漏えいのおそれ。",
+  "published_on": "2026-10-27",
+  "first_published_on": "2026-10-27",
+  "publication_kind": "initial",
+  "occurred_on": "2025-12-05",
+  "detected_on": "2026-10-21",
+  "updated_on": "2026-10-28",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。侵入手口の詳細は調査中。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": 281,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "2025年度3年生のうちサービスを利用した卒業生"
+    },
+    {
+      "count": 7,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "利用教職員"
+    }
+  ],
+  "data_types": [
+    "メールアドレス",
+    "クラス・学籍番号相当の番号",
+    "ハッシュ化パスワード",
+    "最終ログイン日時",
+    "答案・採点結果・講評",
+    "手書き答案画像（一部）",
+    "氏名（一部）",
+    "教職員の課題"
+  ],
+  "related_vendor": "レベルエンター",
+  "sources": [
+    {
+      "url": "https://www.nitta.ac.jp/news/8998/",
+      "type": "official",
+      "title": "作文添削サービスに保管された卒業生・教職員情報の漏えいのおそれ",
+      "published_on": "2026-10-27",
+      "checked_on": "2026-10-28"
+    }
+  ],
+  "updates": [],
+  "notes": "2026年10月21日までデータを閲覧・取得できる状態。学校での利用は2025年11月に終了していたがデータが残っていた。生徒の氏名欄は一部を除き番号で、全員の氏名登録を意味しない。実際の持出しは未確認。",
+  "vendors": [
+    {
+      "name": "レベルエンター",
+      "role": "service",
+      "detail": "当該公表に記載された対象サービスの提供元。",
+      "source_index": 0
+    }
+  ]
+}

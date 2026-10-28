@@ -1,0 +1,67 @@
+{
+  "id": "leanonme-metabase-20260928",
+  "organization": {
+    "name": "Lean on Me",
+    "sector": "企業・団体"
+  },
+  "title": "Metabaseへの不正アクセスで顧客82,723人の情報取得",
+  "summary": "分析ツールMetabaseの脆弱性悪用によりSpecial Learning・Special Shift等の顧客情報が取得された。10月27日の確報で82,723人と要配慮個人情報の含有を確認。",
+  "published_on": "2026-09-28",
+  "first_published_on": "2026-09-28",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-28",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "vulnerability",
+    "detail": "Metabaseのセキュリティ上の脆弱性を悪用。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 82723,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "対象情報。人数・件数の公表がない場合は不明。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "メールアドレス",
+    "所属法人・事業所",
+    "ハッシュ化パスワード",
+    "LINE ID",
+    "電話番号・勤務先",
+    "商談・契約状況・契約金額",
+    "問い合わせ履歴",
+    "レポート内の要配慮個人情報"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://leanonme.co.jp/2026-09-28/",
+      "type": "official",
+      "title": "不正アクセスによるお客様情報の漏洩に関するお知らせとお詫び",
+      "published_on": "2026-09-28",
+      "checked_on": "2026-10-28"
+    },
+    {
+      "url": "https://leanonme.co.jp/2026-10-27/",
+      "type": "official",
+      "title": "個人データ82,723人・要配慮個人情報の含有を確認（確報）",
+      "published_on": "2026-10-27",
+      "checked_on": "2026-10-28"
+    }
+  ],
+  "updates": [
+    {
+      "date": "2026-10-27",
+      "summary": "取得された個人データの本人を82,723人と確定。Special Learningのレポートの一部に要配慮個人情報を確認。",
+      "source_index": 1
+    }
+  ],
+  "notes": "SalesforceからMetabaseへ連携した情報も対象だがSalesforce自体への侵入は未確認。"
+}

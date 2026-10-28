@@ -1,0 +1,78 @@
+{
+  "id": "consortium-osaka-20261028",
+  "organization": {
+    "name": "大学コンソーシアム大阪",
+    "sector": "教育・研究"
+  },
+  "title": "単位互換・就業体験の出願管理情報が漏えいしたおそれ",
+  "summary": "出願管理システムの脆弱性を悪用した不正アクセスにより学生・受入企業・大学担当者の情報に漏えいのおそれ。実際の持出しを示す証拠は未確認。",
+  "published_on": "2026-10-28",
+  "first_published_on": "2026-10-28",
+  "publication_kind": "initial",
+  "occurred_on": "2026-10-20",
+  "detected_on": "2026-10-21",
+  "updated_on": "2026-10-28",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "vulnerability",
+    "detail": "出願・管理システムの脆弱性を悪用。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 1557,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "学生情報の延べ人数（年度・事業間で重複あり）"
+    },
+    {
+      "count": 319,
+      "unit": "organizations",
+      "qualifier": "exact",
+      "description": "受入企業・団体情報の延べ社数"
+    },
+    {
+      "count": 43,
+      "unit": "organizations",
+      "qualifier": "exact",
+      "description": "管理用アカウント情報の対象大学。実アカウント数・重複は精査中。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "大学・学部・学科・学年・学籍番号",
+    "生年月日・性別・一部国籍",
+    "住所・電話・メール・緊急連絡先",
+    "出願情報",
+    "ログインID・パスワード",
+    "企業・団体・担当者情報"
+  ],
+  "related_vendor": "遊文舎",
+  "sources": [
+    {
+      "url": "https://www.consortium-osaka.gr.jp/storage/DLsvuIxvY6itYRfVUA2MSvA0x1gqRgwjB2OapKHT.pdf",
+      "type": "official",
+      "title": "単位互換・就業体験の出願管理情報が漏えいしたおそれ",
+      "published_on": "2026-10-28",
+      "checked_on": "2026-10-28"
+    }
+  ],
+  "updates": [],
+  "notes": "学生635・604・176・142人分の合計が延べ1,557人。企業111・112・96社分の合計が延べ319社。同じサーバーの日誌管理システムへの不正ログイン・持出し・改ざんは未確認。",
+  "vendors": [
+    {
+      "name": "遊文舎",
+      "role": "development",
+      "detail": "侵害された出願・管理システムの開発。",
+      "source_index": 0
+    },
+    {
+      "name": "遊文舎",
+      "role": "operations",
+      "detail": "同システムの保守。別システムの委託先名は未公表。",
+      "source_index": 0
+    }
+  ]
+}

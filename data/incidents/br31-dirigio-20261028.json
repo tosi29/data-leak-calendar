@@ -1,0 +1,64 @@
+{
+  "id": "br31-dirigio-20261028",
+  "organization": {
+    "name": "B-R サーティワン アイスクリーム",
+    "sector": "企業・団体"
+  },
+  "title": "31モバイルオーダー顧客情報の漏えい",
+  "summary": "サービス提供元DIRIGIOへの不正アクセスで、190店舗のモバイルオーダー利用者情報の一部が漏えい。対象は最大8,174名、注文情報9,799件。",
+  "published_on": "2026-10-28",
+  "first_published_on": "2026-10-28",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-28",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。侵入手口の詳細は調査中。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": 8174,
+      "unit": "people",
+      "qualifier": "maximum",
+      "description": "対象顧客の最大人数。注文情報9,799件と同じ対象を別単位で表示。"
+    },
+    {
+      "count": 9799,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "対象注文情報。対象顧客数と合算しない。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス",
+    "電話番号",
+    "氏名",
+    "31Club会員ID",
+    "配送先住所（1名）"
+  ],
+  "related_vendor": "DIRIGIO",
+  "sources": [
+    {
+      "url": "https://www.br31.jp/contents/topics/261028_01.html",
+      "type": "official",
+      "title": "31モバイルオーダー顧客情報の漏えい",
+      "published_on": "2026-10-28",
+      "checked_on": "2026-10-28"
+    }
+  ],
+  "updates": [],
+  "notes": "カード・パスワードは対象外。31Clubアプリとは別システム。同じ提供元の事案や他の利用組織と対象が重複し得るため、被害人数・件数として単純合算しない。",
+  "vendors": [
+    {
+      "name": "DIRIGIO",
+      "role": "service",
+      "detail": "当該公表に記載された対象サービスの提供元。",
+      "source_index": 0
+    }
+  ]
+}

@@ -11,7 +11,7 @@
   "publication_kind": "initial",
   "occurred_on": null,
   "detected_on": "2026-10-21",
-  "updated_on": "2026-10-22",
+  "updated_on": "2026-10-28",
   "verification": "official",
   "leak_status": "suspected",
   "incident_type": "attack",
@@ -47,8 +47,21 @@
       "title": "キャンペーン応募受付の委託先への不正アクセス",
       "published_on": "2026-10-22",
       "checked_on": "2026-10-22"
+    },
+    {
+      "url": "https://www.fujicco.co.jp/newsrelease/archive/detail_2902.html",
+      "type": "official",
+      "title": "安全性を確認した会員向け応募システムに限りキャンペーンを一部再開。すべての応募システムの再開ではない。",
+      "published_on": "2026-10-27",
+      "checked_on": "2026-10-28"
     }
   ],
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-10-27",
+      "summary": "安全性を確認した会員向け応募システムに限りキャンペーンを一部再開。すべての応募システムの再開ではない。",
+      "source_index": 1
+    }
+  ],
   "notes": "対象は「もっと！とろぉ～もっちキャンペーン 第2弾」と「フジッコ大感謝祭キャンペーン」の非会員向けWeb応募。会員応募・はがき・X応募は対象外。取得されたものとみなして対応しているが、実際の流出確定とは区別する。委託先名は未公表。"
 }

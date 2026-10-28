@@ -1,0 +1,71 @@
+{
+  "id": "oanda-vps-logins-20261022",
+  "organization": {
+    "name": "OANDA証券",
+    "sector": "企業・団体"
+  },
+  "title": "外部VPSから流出した可能性のある認証情報による不正取引",
+  "summary": "お名前.comデスクトップクラウド上で利用するMT4・MT5のログイン情報に閲覧のおそれ。26日に不正ログイン・取引を確認し、27日に自社環境からの流出はないと説明。",
+  "published_on": "2026-10-22",
+  "first_published_on": "2026-10-22",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-28",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "credentials",
+    "detail": "外部VPSから漏えいした可能性のあるID・パスワードが不正ログインに使用された。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "対象情報。人数・件数の公表がない場合は不明。"
+    }
+  ],
+  "data_types": [
+    "ログインID・パスワード"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.oanda.jp/info/1456",
+      "type": "official",
+      "title": "外部VPS被害による認証情報閲覧のおそれ（第1報）",
+      "published_on": "2026-10-22",
+      "checked_on": "2026-10-28"
+    },
+    {
+      "url": "https://www.oanda.jp/info/1459",
+      "type": "official",
+      "title": "不正ログイン・不正取引の確認（第2報）",
+      "published_on": "2026-10-26",
+      "checked_on": "2026-10-28"
+    },
+    {
+      "url": "https://www.oanda.jp/info/1461",
+      "type": "official",
+      "title": "報道と自社システムの安全性に関する説明",
+      "published_on": "2026-10-27",
+      "checked_on": "2026-10-28"
+    }
+  ],
+  "updates": [
+    {
+      "date": "2026-10-26",
+      "summary": "一部顧客への不正ログインと不正取引を確認し取引制限を実施。",
+      "source_index": 1
+    },
+    {
+      "date": "2026-10-27",
+      "summary": "自社の取引システムや社内ネットワークからの顧客情報漏えいは確認されていないと説明。",
+      "source_index": 2
+    }
+  ],
+  "notes": "自社システムへの侵害を認定しない。外部VPSでの認証情報流出は可能性として保持。提供元の被害と重複し得る。"
+}

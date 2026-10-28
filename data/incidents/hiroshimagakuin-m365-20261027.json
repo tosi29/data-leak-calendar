@@ -1,0 +1,48 @@
+{
+  "id": "hiroshimagakuin-m365-20261027",
+  "organization": {
+    "name": "広島学院中学校・高等学校",
+    "sector": "教育・研究"
+  },
+  "title": "Microsoft 365アカウントへの不正ログインで個人情報閲覧のおそれ",
+  "summary": "在籍生4名・卒業生2名・教員2名のアカウントに侵入され、学校配付アカウント保有者の氏名・メールアドレス等を閲覧できた可能性を公表。",
+  "published_on": "2026-10-27",
+  "first_published_on": "2026-10-27",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-10-14",
+  "updated_on": "2026-10-28",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。侵入手口の詳細は調査中。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "対象情報。人数・件数の公表がない場合は不明。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "学校配付メールアドレス",
+    "所属・一部Teams所属"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.hiroshimagakuin.ed.jp/oshirase/oshirase-82418/",
+      "type": "official",
+      "title": "Microsoft 365アカウントへの不正ログインで個人情報閲覧のおそれ",
+      "published_on": "2026-10-27",
+      "checked_on": "2026-10-28"
+    }
+  ],
+  "updates": [],
+  "notes": "8アカウントは侵入対象数であり、情報閲覧の対象人数ではない。閲覧記録が残らず実閲覧は未確認。2024年の別のアカウント乗っ取りとは分ける。"
+}

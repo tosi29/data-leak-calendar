@@ -1,0 +1,56 @@
+{
+  "id": "donki-group-cox-20261028",
+  "organization": {
+    "name": "ドン・キホーテ・長崎屋・橘百貨店・UDリテール",
+    "sector": "企業・団体"
+  },
+  "title": "時計修理の委託先で顧客情報が漏えいした可能性",
+  "summary": "修理業務の委託先コックスのサーバーがランサムウェアで暗号化。2025年9月以降に時計修理を依頼した顧客の氏名等に漏えいの可能性。",
+  "published_on": "2026-10-28",
+  "first_published_on": "2026-10-28",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-09-15",
+  "updated_on": "2026-10-28",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。侵入手口の詳細は調査中。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "対象情報。人数・件数の公表がない場合は不明。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所（一部）",
+    "電話番号（一部）"
+  ],
+  "related_vendor": "コックス",
+  "sources": [
+    {
+      "url": "https://www.donki.com/updata/news/info_84zw5.pdf?pre=ip",
+      "type": "official",
+      "title": "時計修理の委託先で顧客情報が漏えいした可能性",
+      "published_on": "2026-10-28",
+      "checked_on": "2026-10-28"
+    }
+  ],
+  "updates": [],
+  "notes": "4社の共同公表を1記録とする。9月25日に委託元へ報告。外部流出は未確認で調査中。",
+  "vendors": [
+    {
+      "name": "コックス",
+      "role": "operations",
+      "detail": "時計修理業務の委託先。対象情報を保存するサーバーを運用・管理。",
+      "source_index": 0
+    }
+  ]
+}

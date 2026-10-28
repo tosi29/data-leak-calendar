@@ -34742,6 +34742,104 @@
         "日本能率協会マネジメントセンターの候補1件は、漏えい項目と自然人の対象が未確定のため確認待ちに追加。従来58候補の未確認事項は今回も解消済みとしない。",
         "対象外とした公表は、停止のみ、予防的な休止、自社対象外の確認、対象となる自然人情報の公表がないもの。調査中の漏えい未確認を最終的な漏えい否定へ置き換えない。"
       ]
+    },
+    {
+      "checked_on": "2026-10-28",
+      "scope": "27～28日の新規公表と続報の確認・反映",
+      "stats": {
+        "baseline_incidents": 1626,
+        "added_incidents": 43,
+        "updated_incidents": 9,
+        "total_incidents": 1669,
+        "baseline_candidates": 59,
+        "new_candidates": 5,
+        "pending_candidates": 64,
+        "index_checks": 77,
+        "index_decisions": {
+          "published": 41,
+          "excluded": 8,
+          "existing": 16,
+          "unresolved": 4,
+          "updated": 8
+        }
+      },
+      "added_incident_ids": [
+        "aichi-bar-misdelivery-20261028",
+        "alteed-payment-20261027",
+        "bandai-gundambase-cuenote-20261027",
+        "benefitone-tokukai-20261028",
+        "betterhome-blastmail-20261028",
+        "br31-dirigio-20261028",
+        "bushiroad-ournote-20261027",
+        "consortium-osaka-20261028",
+        "daihatsu-blastmail-20261027",
+        "docomo-plala-sonet-20261027",
+        "donki-group-cox-20261028",
+        "epc-blastmail-20261027",
+        "fabrica-blastmail-20261023",
+        "fujicco-blastmail-20261027",
+        "fukuoka-household-form-loss-20261028",
+        "gaitamefinest-logins-20261021",
+        "generics-warehouse-20261028",
+        "gifu-palan-stamprally-20261027",
+        "h2int-directgames-20261028",
+        "hana-cupid-20261028",
+        "hiroshimagakuin-m365-2024-disclosed-20261027",
+        "hiroshimagakuin-m365-20261027",
+        "jal-jta-amadeus-20261028",
+        "jetro-evenue-20261027",
+        "kyushu-alumni-blastmail-20261028",
+        "kyushu-hospital-qlifica-20261028",
+        "leanonme-metabase-20260928",
+        "medinet-eha-cvx-20261027",
+        "mos-ownly-20261027",
+        "nitta-airscorer-20261027",
+        "nttpc-cuenote-20261020",
+        "oanda-vps-logins-20261022",
+        "okamura-blastmail-20261023",
+        "osaka-growth-form-20261027",
+        "persona-cuenote-20261028",
+        "riseup-morecontact-cuenote-20261028",
+        "smartshare-ownly-20261027",
+        "sourcenext-cuenote-20261027",
+        "starplatinum-ec-20261014",
+        "sukesan-attendance-20261027",
+        "upsider-breakthrough-grid-20261027",
+        "welcome-deandeluca-dirigio-20261027",
+        "zigexn-minaoshi-blastmail-20261027"
+      ],
+      "updated_incident_ids": [
+        "cybozu-cuenote-20261026",
+        "skyticket-server-20261009",
+        "shizuoka-raiden-20261014",
+        "trustbank-furusato-attack-20261020",
+        "rakus-blastmail-20261021",
+        "onamae-desktop-20261023",
+        "fujicco-campaign-20261022",
+        "studio-cloud-20261016",
+        "jr-ex-smart-ex-20261026"
+      ],
+      "new_candidate_ids": [
+        "oct28-update-kyushufg",
+        "oct28-update-sonylife",
+        "oct28-update-tbs-shopping",
+        "oct28-update-icc-support",
+        "oct28-update-yakult"
+      ],
+      "report": "docs/research-2026-10-28-oct27-28-update.md",
+      "audit": "data/research-2026-10-28-oct27-28-update.json",
+      "method": [
+        "10月27・28日を年月日・スラッシュ・ドット表記と漏えい・漏洩・不正アクセス・紛失・誤送信等で検索。既掲載の大規模事案や転載サイトを除外した検索も併用。",
+        "日付別・続報索引、専門報道、自治体・企業の公式発表から一次資料へ戻り、本文を照合。索引77行は重複を含み、掲載件数とは一致しない。",
+        "公表日と発生日・報道日、人数と件数、確定と可能性、提供元と利用組織の重複を区別。同一組織の続報は既存IDへ追記。",
+        "PDF抽出が空の図研は別の抽出方法で本文を確認。TBSの本文はHTMLのモーダル属性を確認。JALは通常取得が制限されたため検索経由の公式本文で照合。"
+      ],
+      "limitations": [
+        "28日に取得・確認できた公表と続報が対象。GMOは28日18時20分の第14報まで確認。以後の公表・未索引資料を含めた完全な網羅を保証するものではない。",
+        "新規43件には、27～28日の調査・続報から判明した過去初報の未掲載事案を含む。43件すべてがこの2日間に発生した攻撃ではない。",
+        "従来の確認待ち59件は今回解消済みとせず維持。新たな5件は本文・公表日・自然人の対象範囲等を確認待ちとして残す。",
+        "対象外とした公表で「漏えい未確認」を漏えいの最終否定に置き換えない。複数組織・区分間で被害人数や件数を単純合算しない。"
+      ]
     }
   ]
 }

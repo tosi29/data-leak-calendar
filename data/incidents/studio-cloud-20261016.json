@@ -11,7 +11,7 @@
   "publication_kind": "initial",
   "occurred_on": null,
   "detected_on": null,
-  "updated_on": "2026-10-20",
+  "updated_on": "2026-10-28",
   "verification": "official",
   "leak_status": "suspected",
   "incident_type": "attack",
@@ -43,8 +43,21 @@
       "title": "クラウド環境への不正アクセスによる情報流出の可能性",
       "published_on": "2026-10-16",
       "checked_on": "2026-10-20"
+    },
+    {
+      "url": "https://studio.design/ja/security/notice/2026-10-incident",
+      "type": "official",
+      "title": "28日0時30分更新：個人情報保護委員会への連名報告の受付開始を11月上旬に予定すると案内。",
+      "published_on": "2026-10-28",
+      "checked_on": "2026-10-28"
     }
   ],
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-10-28",
+      "summary": "28日0時30分更新：個人情報保護委員会への連名報告の受付開始を11月上旬に予定すると案内。",
+      "source_index": 1
+    }
+  ],
   "notes": "公式本文をブラウザーで確認。全登録者が対象となる可能性があり件数精査中。フォームの添付ファイルはファイル名のみが対象。利用組織の公表件数と合算しない。"
 }

@@ -1,0 +1,56 @@
+{
+  "id": "fujicco-blastmail-20261027",
+  "organization": {
+    "name": "フジッコ",
+    "sector": "企業・団体"
+  },
+  "title": "フジッコ通信の配信先情報が漏えいした可能性",
+  "summary": "委託先が利用するブラストメールへの不正アクセスで、メールマガジン購読者のメールアドレス・申込時の属性情報等に漏えいの可能性。",
+  "published_on": "2026-10-27",
+  "first_published_on": "2026-10-27",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-28",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。侵入手口の詳細は調査中。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "対象情報。人数・件数の公表がない場合は不明。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス",
+    "年代・性別・都道府県・職業",
+    "申込時アンケート情報"
+  ],
+  "related_vendor": "ラクスライトクラウド",
+  "sources": [
+    {
+      "url": "https://www.fujicco.co.jp/upload/pr_261027.pdf",
+      "type": "official",
+      "title": "フジッコ通信の配信先情報が漏えいした可能性",
+      "published_on": "2026-10-27",
+      "checked_on": "2026-10-28"
+    }
+  ],
+  "updates": [],
+  "notes": "10月22日公表のキャンペーン受付システム事案とは別。申込時以外のアンケートやプレゼント発送先情報は別サーバーで対象外。同じ提供元の事案や他の利用組織と対象が重複し得るため、被害人数・件数として単純合算しない。",
+  "vendors": [
+    {
+      "name": "ラクスライトクラウド",
+      "role": "service",
+      "detail": "当該公表に記載された対象サービスの提供元。",
+      "source_index": 0
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "id": "epc-blastmail-20261027",
+  "organization": {
+    "name": "環境パートナーシップ会議",
+    "sector": "企業・団体"
+  },
+  "title": "3メールマガジンの配信先情報への影響を調査",
+  "summary": "GEOC・関東地方ESD活動支援センター・サステナビリティCSOフォーラムで利用するブラストメールへの不正アクセスを公表。28日12時時点で配信先情報の漏えいは未確認で調査中。",
+  "published_on": "2026-10-27",
+  "first_published_on": null,
+  "publication_kind": "followup",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-28",
+  "verification": "official",
+  "leak_status": "investigating",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。侵入手口の詳細は調査中。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "対象情報。人数・件数の公表がない場合は不明。"
+    }
+  ],
+  "data_types": [
+    "メールマガジン配信先情報"
+  ],
+  "related_vendor": "ラクスライトクラウド",
+  "sources": [
+    {
+      "url": "https://epc.or.jp/news/blastmail20261021",
+      "type": "official",
+      "title": "3メールマガジンの配信先情報への影響を調査",
+      "published_on": "2026-10-27",
+      "checked_on": "2026-10-28"
+    }
+  ],
+  "updates": [
+    {
+      "date": "2026-10-28",
+      "summary": "12時時点で3メールマガジンの配信先漏えいは未確認と追記。調査を継続。",
+      "source_index": 0
+    }
+  ],
+  "notes": "各メールマガジンのサイトで先行告知した旨があるが初報日は未確認。GEOC・関東ESDは環境省の公表と重複。3件はメールマガジン数であり被害件数ではない。",
+  "vendors": [
+    {
+      "name": "ラクスライトクラウド",
+      "role": "service",
+      "detail": "当該公表に記載された対象サービスの提供元。",
+      "source_index": 0
+    }
+  ]
+}

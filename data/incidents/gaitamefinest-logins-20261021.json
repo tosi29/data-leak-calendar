@@ -1,0 +1,59 @@
+{
+  "id": "gaitamefinest-logins-20261021",
+  "organization": {
+    "name": "外為ファイネスト",
+    "sector": "企業・団体"
+  },
+  "title": "流出した可能性のある認証情報を用いた不正ログイン・取引",
+  "summary": "一部顧客のID・パスワードが悪用され、不正ログインと不正取引を確認。27日にVPS被害への対応と追加認証の必須化予定を公表。",
+  "published_on": "2026-10-21",
+  "first_published_on": "2026-10-21",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-28",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "credentials",
+    "detail": "他社サービス等から漏えいした可能性のあるID・パスワードによる不正ログイン。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "対象情報。人数・件数の公表がない場合は不明。"
+    }
+  ],
+  "data_types": [
+    "口座ログインID・パスワード"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.gaitamefinest.com/news/6dBMXb",
+      "type": "official",
+      "title": "不正ログイン・不正取引に関する初報",
+      "published_on": "2026-10-21",
+      "checked_on": "2026-10-28"
+    },
+    {
+      "url": "https://www.gaitamefinest.com/news/1aMqAa",
+      "type": "official",
+      "title": "お名前.comデスクトップクラウドの不正アクセスへの対応（第3報）",
+      "published_on": "2026-10-27",
+      "checked_on": "2026-10-28"
+    }
+  ],
+  "updates": [
+    {
+      "date": "2026-10-27",
+      "summary": "11月2日からMT4のワンタイムパスワード・MT5のSSL証明書設定を必須化予定と公表。",
+      "source_index": 1
+    }
+  ],
+  "notes": "不正取引は確認済みだが認証情報の流出は可能性の表現。自社システムからの認証情報・個人情報漏えいは未確認。VPS提供元の被害と重複し得る。"
+}

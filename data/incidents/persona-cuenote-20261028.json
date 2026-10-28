@@ -1,0 +1,54 @@
+{
+  "id": "persona-cuenote-20261028",
+  "organization": {
+    "name": "ペルソナ（エイチ・ツー・オー リテイリング）",
+    "sector": "企業・団体"
+  },
+  "title": "会員のメールアドレス28,052件が漏えいした可能性",
+  "summary": "Cuenote FCで外部取得の可能性が高いとの報告を受け、メール配信を再停止。2024年11月～2026年2月入会の会員のうち28,052件が対象。",
+  "published_on": "2026-10-28",
+  "first_published_on": "2026-10-28",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-28",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。侵入手口の詳細は調査中。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": 28052,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "対象情報。人数・件数の公表がない場合は不明。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "ユミルリンク",
+  "sources": [
+    {
+      "url": "https://www.h2o-retailing.co.jp/ja/news/news3907232089918425776/main/0/link/PERSONA_20261028.pdf",
+      "type": "official",
+      "title": "会員のメールアドレス28,052件が漏えいした可能性",
+      "published_on": "2026-10-28",
+      "checked_on": "2026-10-28"
+    }
+  ],
+  "updates": [],
+  "notes": "その他の個人情報は含まれないと説明。対象期間外の入会者は対象外。親会社との共同公表。同じ提供元の事案や他の利用組織と対象が重複し得るため、被害人数・件数として単純合算しない。",
+  "vendors": [
+    {
+      "name": "ユミルリンク",
+      "role": "service",
+      "detail": "当該公表に記載された対象サービスの提供元。",
+      "source_index": 0
+    }
+  ]
+}

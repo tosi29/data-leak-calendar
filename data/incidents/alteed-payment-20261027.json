@@ -1,0 +1,57 @@
+{
+  "id": "alteed-payment-20261027",
+  "organization": {
+    "name": "オートランド東京",
+    "sector": "企業・団体"
+  },
+  "title": "ALTEED利用者2名のカード情報等が漏えいした可能性",
+  "summary": "決済機能の脆弱性を悪用した不正アクセスでペイメントアプリが改ざんされ、8月10～18日のカード決済利用者2名の情報に漏えいのおそれ。",
+  "published_on": "2026-10-27",
+  "first_published_on": "2026-10-27",
+  "publication_kind": "initial",
+  "occurred_on": "2026-08-10",
+  "detected_on": null,
+  "updated_on": "2026-10-28",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "vulnerability",
+    "detail": "イーシーキューブ提供と公表されたAmazonpay決済機能の脆弱性を悪用した改ざん。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 2,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "対象情報。人数・件数の公表がない場合は不明。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "電話番号",
+    "カード名義・番号・有効期限・セキュリティコード"
+  ],
+  "related_vendor": "イーシーキューブ",
+  "sources": [
+    {
+      "url": "https://alteed.co.jp/oshirase2610.pdf",
+      "type": "official",
+      "title": "ALTEED利用者2名のカード情報等が漏えいした可能性",
+      "published_on": "2026-10-27",
+      "checked_on": "2026-10-28"
+    }
+  ],
+  "updates": [],
+  "notes": "公表上の決済機能名を保持。Amazon本体のシステムへの侵害を意味しない。8月14日に脆弱性懸念の連絡、17日に停止、9月7日に調査完了。",
+  "vendors": [
+    {
+      "name": "イーシーキューブ",
+      "role": "service",
+      "detail": "当該公表に記載された対象サービスの提供元。",
+      "source_index": 0
+    }
+  ]
+}

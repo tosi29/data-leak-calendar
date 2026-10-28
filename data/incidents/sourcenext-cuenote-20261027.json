@@ -1,0 +1,54 @@
+{
+  "id": "sourcenext-cuenote-20261027",
+  "organization": {
+    "name": "ソースネクスト",
+    "sector": "企業・団体"
+  },
+  "title": "Cuenote FCに登録した顧客情報が流出した可能性",
+  "summary": "メール配信サービスへの不正アクセスとデータ外部出力の形跡の報告を受け、対象件数・項目を確認中。",
+  "published_on": "2026-10-27",
+  "first_published_on": "2026-10-27",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-28",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。侵入手口の詳細は調査中。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "対象情報。人数・件数の公表がない場合は不明。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス等"
+  ],
+  "related_vendor": "ユミルリンク",
+  "sources": [
+    {
+      "url": "https://www.sourcenext.com/support/i/2026/1027_info/",
+      "type": "official",
+      "title": "Cuenote FCに登録した顧客情報が流出した可能性",
+      "published_on": "2026-10-27",
+      "checked_on": "2026-10-28"
+    }
+  ],
+  "updates": [],
+  "notes": "10月15日公表の自社サイトへの不正アクセスとは別で関連なしと明記。パスワード・カード情報は登録していない。同じ提供元の事案や他の利用組織と対象が重複し得るため、被害人数・件数として単純合算しない。",
+  "vendors": [
+    {
+      "name": "ユミルリンク",
+      "role": "service",
+      "detail": "当該公表に記載された対象サービスの提供元。",
+      "source_index": 0
+    }
+  ]
+}
