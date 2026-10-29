@@ -1,0 +1,55 @@
+{
+  "id": "paydon-arara-20261028",
+  "organization": {
+    "name": "鹿児島銀行・南日本銀行・鹿児島相互信用金庫・鹿児島信用金庫",
+    "sector": "企業・団体"
+  },
+  "title": "Payどんのメール通知情報に漏えいのおそれ",
+  "summary": "送信委託先アララへの不正アクセスにより利用者・加盟店のメールアドレスや決済情報に漏えいの可能性。通知機能と新規登録を停止。",
+  "published_on": "2026-10-28",
+  "first_published_on": "2026-10-28",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-29",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。侵入手口の詳細は調査中。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "対象人数・件数は未公表または調査中。"
+    }
+  ],
+  "data_types": [
+    "利用者・加盟店メールアドレス",
+    "決済日時・店舗名・支払金額"
+  ],
+  "related_vendor": "アララ",
+  "sources": [
+    {
+      "url": "https://www.kagin.co.jp/important/emergency_20261029_3.html",
+      "type": "official",
+      "title": "Payどんのメール通知情報に漏えいのおそれ",
+      "published_on": "2026-10-28",
+      "checked_on": "2026-10-29"
+    }
+  ],
+  "updates": [],
+  "notes": "4行庫の共同公表を1記録とする。URLは29日を含むが本文の公表日は28日。提供元や他の利用組織の公表と対象が重複し得るため単純合算しない。",
+  "vendors": [
+    {
+      "name": "アララ",
+      "role": "service",
+      "detail": "公表に記載された対象サービスの提供元。",
+      "source_index": 0
+    }
+  ]
+}

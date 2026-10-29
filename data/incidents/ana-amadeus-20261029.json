@@ -1,0 +1,54 @@
+{
+  "id": "ana-amadeus-20261029",
+  "organization": {
+    "name": "全日本空輸（ANA）",
+    "sector": "企業・団体"
+  },
+  "title": "委託先の予約情報に外部参照の形跡",
+  "summary": "アマデウスからANA便の予約情報に不正アクセスがあり、一部個人情報が参照された形跡があるとの報告を受けたと発表。影響範囲を調査中。",
+  "published_on": "2026-10-29",
+  "first_published_on": "2026-10-29",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-29",
+  "verification": "secondary",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。侵入手口の詳細は調査中。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "対象人数・件数は未公表または調査中。"
+    }
+  ],
+  "data_types": [
+    "予約情報に含まれる個人情報（項目は未公表）"
+  ],
+  "related_vendor": "Amadeus IT Group, S.A.",
+  "sources": [
+    {
+      "url": "https://finance.yahoo.co.jp/news/detail/8b830bba672dfe7254c2d339cd0a124c2eb3b549",
+      "type": "news",
+      "title": "ロイター：全日空、顧客情報が一部参照された可能性",
+      "published_on": "2026-10-29",
+      "checked_on": "2026-10-29"
+    }
+  ],
+  "updates": [],
+  "notes": "当事者の29日発表を報じるロイター本文で確認。公式一覧・検索では当該本文に到達できず二次資料扱い。JAL・JTAの人数・項目・侵入期間をANAへ転用しない。confirmedは参照の形跡確認を示し、持出しや全容の確定を意味しない。",
+  "vendors": [
+    {
+      "name": "Amadeus IT Group, S.A.",
+      "role": "service",
+      "detail": "公表に記載された対象サービスの提供元。",
+      "source_index": 0
+    }
+  ]
+}

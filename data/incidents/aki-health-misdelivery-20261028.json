@@ -1,0 +1,49 @@
+{
+  "id": "aki-health-misdelivery-20261028",
+  "organization": {
+    "name": "安芸市",
+    "sector": "自治体"
+  },
+  "title": "精密検査依頼文書の誤送付",
+  "summary": "要精密検査対象者の文書1通を別人の健診結果に同封。受領者の医療機関で開封し、氏名の相違から16日に判明。",
+  "published_on": "2026-10-28",
+  "first_published_on": "2026-10-28",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-10-16",
+  "updated_on": "2026-10-29",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "accident",
+  "cause": {
+    "category": "misdelivery",
+    "detail": "封入時の宛名照合と発送前の再チェックが不徹底。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 1,
+      "unit": "documents",
+      "qualifier": "exact",
+      "description": "公表された対象規模。実際の流出確認範囲とは区別する。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "健診受診日・受診番号",
+    "総合判定",
+    "有所見の健診結果"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.city.aki.kochi.jp/life/dtl.php?hdnKey=8930",
+      "type": "official",
+      "title": "精密検査依頼文書の誤送付",
+      "published_on": "2026-10-28",
+      "checked_on": "2026-10-29"
+    }
+  ],
+  "updates": [],
+  "notes": "8月31日は健診実施日であり、誤送付日とは扱わない。"
+}

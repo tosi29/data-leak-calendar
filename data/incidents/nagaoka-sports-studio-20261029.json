@@ -1,0 +1,63 @@
+{
+  "id": "nagaoka-sports-studio-20261029",
+  "organization": {
+    "name": "長岡市",
+    "sector": "自治体"
+  },
+  "title": "指定管理スポーツ施設の問い合わせ情報に漏えいのおそれ",
+  "summary": "悠久山野球場と栃尾体育施設の指定管理者が使うStudioへの侵入で、フォーム情報79件に漏えいの可能性。実際の流出は未確認。",
+  "published_on": "2026-10-29",
+  "first_published_on": "2026-10-29",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-29",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。侵入手口の詳細は調査中。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": 63,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "悠久山野球場の2023年7月4日～2026年10月16日送信分。"
+    },
+    {
+      "count": 16,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "栃尾体育施設の2025年4月1日～2026年10月16日送信分。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "電話番号",
+    "メールアドレス",
+    "住所（栃尾体育施設）"
+  ],
+  "related_vendor": "Studio",
+  "sources": [
+    {
+      "url": "https://www.city.nagaoka.niigata.jp/shisei/cate02/houdou-shiryou/file/20261029-05.pdf",
+      "type": "official",
+      "title": "指定管理スポーツ施設の問い合わせ情報に漏えいのおそれ",
+      "published_on": "2026-10-29",
+      "checked_on": "2026-10-29"
+    }
+  ],
+  "updates": [],
+  "notes": "提供元や他の利用組織の公表と対象が重複し得るため単純合算しない。",
+  "vendors": [
+    {
+      "name": "Studio",
+      "role": "service",
+      "detail": "公表に記載された対象サービスの提供元。",
+      "source_index": 0
+    }
+  ]
+}

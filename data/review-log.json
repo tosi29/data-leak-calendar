@@ -8038,5 +8038,52 @@
     "source_urls": [
       "https://www.moonstar.co.jp/information/2026/10/gg.html"
     ]
+  },
+  {
+    "candidate": {
+      "id": "oct28-update-sonylife",
+      "organization": "ソニー生命保険",
+      "reported_on": "2026-10-28",
+      "verification": "pending",
+      "reference_url": "https://www.sonylife.co.jp/info/popup/261028_oshirase2.pdf",
+      "note": "索引掲載の公式PDFはTLS接続エラー等で本文を取得できず、自然人の対象情報・確度を確認できない。検索でも当該公表本文に到達せず、停止情報だけで掲載しない。",
+      "reviewed_on": "2026-10-28",
+      "checked_urls": [
+        "https://www.sonylife.co.jp/info/popup/261028_oshirase2.pdf"
+      ]
+    },
+    "reviewed_on": "2026-10-29",
+    "resolution": "published",
+    "incident_ids": [
+      "sonylife-medicare-20261028"
+    ],
+    "reason": "直接PDFは取得不能だが、保険契約の当事者メディケア生命の28日付公式資料がソニー生命での漏えい・項目・規模を確認しているため掲載。",
+    "source_urls": [
+      "https://news.medicarelife.com/info/down2.php?attach_id=SsDCRvieTHw%3D&category=588&page=2&seq=12715"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "oct28-update-tbs-shopping",
+      "organization": "TBSショッピング",
+      "reported_on": "2026-10-28",
+      "verification": "pending",
+      "reference_url": "https://shopping.tbs.co.jp/tbs/info",
+      "note": "公式ページのモーダル本文で最大49,995人分（延べ人数）のメールアドレス等の流出を確認。10月16日は流出を確認した日で、公表日と断定できない。索引の28日を裏付ける公式掲載日が未確認。会員約110万人を被害人数にしない。",
+      "reviewed_on": "2026-10-28",
+      "checked_urls": [
+        "https://shopping.tbs.co.jp/tbs/info"
+      ]
+    },
+    "reviewed_on": "2026-10-29",
+    "resolution": "published",
+    "incident_ids": [
+      "tbs-shopping-mail-20261028"
+    ],
+    "reason": "公式本文の内容に加え、共同通信の28日付記事で同日の発表を確認。流出確認日16日と区別して掲載。",
+    "source_urls": [
+      "https://shopping.tbs.co.jp/tbs/info",
+      "https://news.livedoor.com/article/detail/32677756/"
+    ]
   }
 ]

@@ -1,0 +1,71 @@
+{
+  "id": "geniee-studio-20261021",
+  "organization": {
+    "name": "ジーニー",
+    "sector": "企業・団体"
+  },
+  "title": "Studioのフォーム送信情報に漏えいのおそれ",
+  "summary": "アドインサイトの317件に加え、29日にGENIEE DMSとチデジのコピーの24件が対象と判明。実際の取得は未確認。",
+  "published_on": "2026-10-21",
+  "first_published_on": "2026-10-21",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-29",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。侵入手口の詳細は調査中。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": 317,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "初報のアドインサイト送信情報。"
+    },
+    {
+      "count": 24,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "29日追記の2プロジェクト送信情報。人数とは異なる。"
+    }
+  ],
+  "data_types": [
+    "企業名",
+    "氏名",
+    "メールアドレス",
+    "電話番号",
+    "担当メディア名",
+    "役職"
+  ],
+  "related_vendor": "Studio",
+  "sources": [
+    {
+      "url": "https://geniee.co.jp/ir/news/17343/",
+      "type": "official",
+      "title": "外部サービスへの不正アクセス（初報21日・29日追記）",
+      "published_on": "2026-10-29",
+      "checked_on": "2026-10-29"
+    }
+  ],
+  "updates": [
+    {
+      "date": "2026-10-29",
+      "summary": "初報の317件に加え、別の2プロジェクトで24件の対象を確認。",
+      "source_index": 0
+    }
+  ],
+  "notes": "本文で初回掲載日が21日であることを確認。ページの日付が29日に変わっていても初報を移動しない。提供元や他の利用組織の公表と対象が重複し得るため単純合算しない。",
+  "vendors": [
+    {
+      "name": "Studio",
+      "role": "service",
+      "detail": "公表に記載された対象サービスの提供元。",
+      "source_index": 0
+    }
+  ]
+}

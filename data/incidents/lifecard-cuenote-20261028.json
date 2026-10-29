@@ -1,0 +1,57 @@
+{
+  "id": "lifecard-cuenote-20261028",
+  "organization": {
+    "name": "ライフカード",
+    "sector": "企業・団体"
+  },
+  "title": "メール配信先339,610契約の情報漏えいのおそれ",
+  "summary": "Cuenote FCへの不正アクセスで、氏名・メールアドレス等が流出した可能性があると26日に連絡を受けた。",
+  "published_on": "2026-10-28",
+  "first_published_on": "2026-10-28",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-29",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。侵入手口の詳細は調査中。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": 339610,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "公表された対象規模。実際の流出確認範囲とは区別する。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "メールアドレス",
+    "カード名称",
+    "ETCカード番号の一部（60件）"
+  ],
+  "related_vendor": "ユミルリンク",
+  "sources": [
+    {
+      "url": "https://www.lifecard.co.jp/info/important-notice.html",
+      "type": "official",
+      "title": "メール配信先339,610契約の情報漏えいのおそれ",
+      "published_on": "2026-10-28",
+      "checked_on": "2026-10-29"
+    }
+  ],
+  "updates": [],
+  "notes": "339,610は契約数で人数ではない。ETCカード番号の一部60件は内数。提供元や他の利用組織の公表と対象が重複し得るため単純合算しない。",
+  "vendors": [
+    {
+      "name": "ユミルリンク",
+      "role": "service",
+      "detail": "公表に記載された対象サービスの提供元。",
+      "source_index": 0
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "id": "eneos-power-denki-20261028",
+  "organization": {
+    "name": "ENEOS Power",
+    "sector": "企業・団体"
+  },
+  "title": "電力サービス利用者57名の個人情報漏えい",
+  "summary": "ENEOSでんき・でんきサービスのシステムに10月19～20日の不正アクセスがあり、57名分の顧客情報が漏えい。27日未明に判明。",
+  "published_on": "2026-10-28",
+  "first_published_on": "2026-10-28",
+  "publication_kind": "initial",
+  "occurred_on": "2026-10-19",
+  "detected_on": "2026-10-27",
+  "updated_on": "2026-10-29",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。侵入手口の詳細は調査中。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": 57,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表された対象規模。実際の流出確認範囲とは区別する。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "ログインID・パスワード",
+    "顧客・契約・供給地点識別番号",
+    "契約名義・使用期間・料金プラン・容量・使用量",
+    "支払方法の区分・請求金額・振替予定日・利用明細"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.eneos-power.co.jp/denkigas/information/uploads/denki-important-20261028-394.pdf",
+      "type": "official",
+      "title": "電力サービス利用者57名の個人情報漏えい",
+      "published_on": "2026-10-28",
+      "checked_on": "2026-10-29"
+    }
+  ],
+  "updates": [],
+  "notes": "27日の案内はセキュリティ対応による閲覧停止のみ。侵入と個人情報漏えいの公表は28日。銀行口座・カード情報は含まれない。"
+}

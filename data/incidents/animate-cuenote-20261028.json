@@ -1,0 +1,57 @@
+{
+  "id": "animate-cuenote-20261028",
+  "organization": {
+    "name": "アニメイト",
+    "sector": "企業・団体"
+  },
+  "title": "通販・ポケドラのメルマガ登録情報漏えい",
+  "summary": "Cuenote FCへの不正アクセスでアニメイト通販・ポケットドラマCDの登録情報が漏えい。20日の影響なしとの報告が27日に変更された。",
+  "published_on": "2026-10-28",
+  "first_published_on": "2026-10-28",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-29",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。侵入手口の詳細は調査中。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "対象人数・件数は未公表または調査中。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス",
+    "性別",
+    "居住都道府県",
+    "アニメイト会員コード"
+  ],
+  "related_vendor": "ユミルリンク",
+  "sources": [
+    {
+      "url": "https://www.animate.co.jp/news/53375/",
+      "type": "official",
+      "title": "通販・ポケドラのメルマガ登録情報漏えい",
+      "published_on": "2026-10-28",
+      "checked_on": "2026-10-29"
+    }
+  ],
+  "updates": [],
+  "notes": "件数は提供元で調査中。氏名・詳細住所・年齢・電話・カード・パスワードは対象外。提供元や他の利用組織の公表と対象が重複し得るため単純合算しない。",
+  "vendors": [
+    {
+      "name": "ユミルリンク",
+      "role": "service",
+      "detail": "公表に記載された対象サービスの提供元。",
+      "source_index": 0
+    }
+  ]
+}

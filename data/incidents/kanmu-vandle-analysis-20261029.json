@@ -1,0 +1,55 @@
+{
+  "id": "kanmu-vandle-analysis-20261029",
+  "organization": {
+    "name": "カンム",
+    "sector": "企業・団体"
+  },
+  "title": "分析委託先への顧客情報の誤送信",
+  "summary": "バンドルカードのアプリ・サポートサイトが本来送るべきでない顧客情報を分析委託先へ送信。送信停止と強制更新を実施し、蓄積データの削除完了を確認中。",
+  "published_on": "2026-10-29",
+  "first_published_on": "2026-10-29",
+  "publication_kind": "initial",
+  "occurred_on": "2017-11-21",
+  "detected_on": null,
+  "updated_on": "2026-10-29",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "accident",
+  "cause": {
+    "category": "misdelivery",
+    "detail": "分析サービスへ送信するプログラムの不備で対象外の情報を含めた。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 5161998,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "アプリ利用者。サポートサイトと重複あり。"
+    },
+    {
+      "count": 590594,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "サポートサイトのフォームを開いた利用者。アプリと重複あり。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス",
+    "氏名（漢字・かな）",
+    "ユーザー名",
+    "電話番号"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://kanmu.co.jp/news/20261029-corporate-announcement/",
+      "type": "official",
+      "title": "分析委託先への顧客情報の誤送信",
+      "published_on": "2026-10-29",
+      "checked_on": "2026-10-29"
+    }
+  ],
+  "updates": [],
+  "notes": "アプリ対象期間は2019年11月22日～2026年10月22日、サポートサイトは2017年11月21日～2026年10月22日。人数は公式表画像で確認。侵害による漏えいではなく、送信先からの再流出は未確認。カード番号・セキュリティコード・ログインパスワードは対象外。"
+}

@@ -1,0 +1,58 @@
+{
+  "id": "piece-sanjo-wasimil-20261029",
+  "organization": {
+    "name": "PIECE（PIECE HOSTEL SANJO）",
+    "sector": "企業・団体"
+  },
+  "title": "宿泊予約・チェックイン情報に漏えいのおそれ",
+  "summary": "ホテル管理システムWASIMILへの侵入により、10月19日以前の予約者情報が流出した可能性。予約詳細を含む不審メッセージも確認。",
+  "published_on": "2026-10-29",
+  "first_published_on": "2026-10-29",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-29",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。侵入手口の詳細は調査中。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "対象人数・件数は未公表または調査中。"
+    }
+  ],
+  "data_types": [
+    "氏名・性別・年齢・生年月日・国籍",
+    "メール・電話・住所・緊急連絡先",
+    "予約番号・宿泊日・部屋・人数・同行者・料金",
+    "パスポート番号",
+    "オンラインチェックイン入力情報"
+  ],
+  "related_vendor": "AZOO",
+  "sources": [
+    {
+      "url": "https://piecehotel.com/jp/news/quPsYLsN",
+      "type": "official",
+      "title": "宿泊予約・チェックイン情報に漏えいのおそれ",
+      "published_on": "2026-10-29",
+      "checked_on": "2026-10-29"
+    }
+  ],
+  "updates": [],
+  "notes": "英語の当事者公表はPIECE HOSTEL SANJOを対象としている。全系列ホテルの対象とは推定しない。カード情報は保存していない。提供元や他の利用組織の公表と対象が重複し得るため単純合算しない。",
+  "vendors": [
+    {
+      "name": "AZOO",
+      "role": "service",
+      "detail": "公表に記載された対象サービスの提供元。",
+      "source_index": 0
+    }
+  ]
+}

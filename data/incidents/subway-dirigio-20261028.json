@@ -1,0 +1,65 @@
+{
+  "id": "subway-dirigio-20261028",
+  "organization": {
+    "name": "WATAMI FAST CASUAL MANAGEMENT（サブウェイ）",
+    "sector": "企業・団体"
+  },
+  "title": "モバイルオーダー利用者7名の情報漏えいのおそれ",
+  "summary": "DIRIGIOのPICKSへの不正アクセスにより3店舗の7注文・7名分の情報に漏えいの可能性。29日に対策後の注文受付再開を案内。",
+  "published_on": "2026-10-28",
+  "first_published_on": "2026-10-28",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-10-27",
+  "updated_on": "2026-10-29",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。侵入手口の詳細は調査中。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": 7,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表された対象規模。実際の流出確認範囲とは区別する。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "メールアドレス",
+    "電話番号",
+    "生年月日",
+    "性別",
+    "注文商品・金額・日時・状態"
+  ],
+  "related_vendor": "DIRIGIO",
+  "sources": [
+    {
+      "url": "https://www.subway.co.jp/news/bhi2h9kf00mf",
+      "type": "official",
+      "title": "SUBWAY公式モバイルオーダーへの不正アクセス（29日更新）",
+      "published_on": "2026-10-28",
+      "checked_on": "2026-10-29"
+    }
+  ],
+  "updates": [
+    {
+      "date": "2026-10-29",
+      "summary": "提供元が侵入箇所の対策と診断を行い、29日から順次受付再開。",
+      "source_index": 0
+    }
+  ],
+  "notes": "7注文と7名は同じ対象。カード・会員ID・配送先情報は現時点の対象外。提供元や他の利用組織の公表と対象が重複し得るため単純合算しない。",
+  "vendors": [
+    {
+      "name": "DIRIGIO",
+      "role": "service",
+      "detail": "公表に記載された対象サービスの提供元。",
+      "source_index": 0
+    }
+  ]
+}

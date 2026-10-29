@@ -1,0 +1,69 @@
+{
+  "id": "broadleaf-monodukuri-blastmail-20261023",
+  "organization": {
+    "name": "ブロードリーフ",
+    "sector": "企業・団体"
+  },
+  "title": "ものづくりドットコムのメール配信先情報漏えい",
+  "summary": "ブラストメールへの不正アクセスで配信先リストが流出。29日の第2報で氏名・メールアドレス等の詳細項目を公表。",
+  "published_on": "2026-10-23",
+  "first_published_on": "2026-10-23",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-29",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。侵入手口の詳細は調査中。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "対象人数・件数は未公表または調査中。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス",
+    "氏名",
+    "会社名・職種・役職・都道府県・生まれ年・業種・従業員数・購読メルマガ（一部）"
+  ],
+  "related_vendor": "ラクスライトクラウド",
+  "sources": [
+    {
+      "url": "https://www.broadleaf.co.jp/company/news/news_detail/?itemid=371&dispmid=1001",
+      "type": "official",
+      "title": "メール配信サービスへの不正アクセスに伴う情報漏洩",
+      "published_on": "2026-10-23",
+      "checked_on": "2026-10-29"
+    },
+    {
+      "url": "https://www.broadleaf.co.jp/company/news/news_detail/?dispmid=1001&itemid=372",
+      "type": "official",
+      "title": "メール配信サービスへの不正アクセス（第2報）",
+      "published_on": "2026-10-29",
+      "checked_on": "2026-10-29"
+    }
+  ],
+  "updates": [
+    {
+      "date": "2026-10-29",
+      "summary": "提供元から漏えい項目の詳細報告を受け、別配信環境で個別案内を進める。",
+      "source_index": 1
+    }
+  ],
+  "notes": "カード・ログインパスワードは含まれない。提供元や他の利用組織の公表と対象が重複し得るため単純合算しない。",
+  "vendors": [
+    {
+      "name": "ラクスライトクラウド",
+      "role": "service",
+      "detail": "公表に記載された対象サービスの提供元。",
+      "source_index": 0
+    }
+  ]
+}

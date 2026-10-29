@@ -1,0 +1,56 @@
+{
+  "id": "energia-sagawa-20261029",
+  "organization": {
+    "name": "中国電力",
+    "sector": "企業・団体"
+  },
+  "title": "ポイント交換商品の配送先情報に漏えいのおそれ",
+  "summary": "佐川急便のお荷物問い合わせサービスへの不正アクセスで、エネルギアポイントの商品配送先情報約17,600件が対象となった可能性。",
+  "published_on": "2026-10-29",
+  "first_published_on": "2026-10-29",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-29",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。侵入手口の詳細は調査中。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": 17600,
+      "unit": "records",
+      "qualifier": "approximate",
+      "description": "2026年6月21日～9月30日の対象配送情報。重複を含む。"
+    }
+  ],
+  "data_types": [
+    "配送先氏名",
+    "住所",
+    "電話番号"
+  ],
+  "related_vendor": "佐川急便",
+  "sources": [
+    {
+      "url": "https://www.energia.co.jp/assets/info/2026/info20261029.pdf",
+      "type": "official",
+      "title": "ポイント交換商品の配送先情報に漏えいのおそれ",
+      "published_on": "2026-10-29",
+      "checked_on": "2026-10-29"
+    }
+  ],
+  "updates": [],
+  "notes": "提供元や他の利用組織の公表と対象が重複し得るため単純合算しない。",
+  "vendors": [
+    {
+      "name": "佐川急便",
+      "role": "service",
+      "detail": "公表に記載された対象サービスの提供元。",
+      "source_index": 0
+    }
+  ]
+}

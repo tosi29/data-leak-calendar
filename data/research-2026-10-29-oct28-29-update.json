@@ -1,0 +1,1410 @@
+{
+  "checked_on": "2026-10-29",
+  "scope": "28～29日の新規公表・続報と前回保留5件の確認",
+  "stats": {
+    "baseline_incidents": 1669,
+    "added_incidents": 27,
+    "updated_incidents": 7,
+    "total_incidents": 1696,
+    "baseline_candidates": 64,
+    "resolved_candidates": 2,
+    "new_candidates": 0,
+    "pending_candidates": 62,
+    "index_checks": 72,
+    "index_decisions": {
+      "published": 31,
+      "excluded": 11,
+      "existing": 23,
+      "unresolved": 1,
+      "updated": 6
+    }
+  },
+  "added_incident_ids": [
+    "kanmu-vandle-analysis-20261029",
+    "nel-osina-20261029",
+    "energia-sagawa-20261029",
+    "nagaoka-sports-studio-20261029",
+    "moi-twitcasting-20261028",
+    "eneos-power-denki-20261028",
+    "sonylife-medicare-20261028",
+    "medicarelife-sonylife-20261028",
+    "arara-message-20261028",
+    "storiiy-warehouse-20261028",
+    "animate-cuenote-20261028",
+    "lifecard-cuenote-20261028",
+    "kawagoe-school-studio-20261028",
+    "miyagi-island-living-20261028",
+    "gametrade-20261028",
+    "paydon-arara-20261028",
+    "hiroshima-childcare-diaries-20261028",
+    "goods-oldshop-20261029",
+    "piece-sanjo-wasimil-20261029",
+    "wowow-sagawa-20261029",
+    "subway-dirigio-20261028",
+    "tbs-shopping-mail-20261028",
+    "ana-amadeus-20261029",
+    "jfe-chemical-20261021",
+    "geniee-studio-20261021",
+    "broadleaf-monodukuri-blastmail-20261023",
+    "aki-health-misdelivery-20261028"
+  ],
+  "updated_incident_ids": [
+    "asahi-cuenote-20261026",
+    "impress-cuenote-20261027",
+    "sweep-7340c0fb3799-20261023",
+    "ntt-solmare-cmoa-20261016",
+    "onamae-desktop-20261023",
+    "rakus-blastmail-20261021",
+    "sukesan-attendance-20261027"
+  ],
+  "resolved_candidate_ids": [
+    "oct28-update-sonylife",
+    "oct28-update-tbs-shopping"
+  ],
+  "reviewed_pending_candidate_ids": [
+    "oct28-update-kyushufg",
+    "oct28-update-icc-support",
+    "oct28-update-yakult"
+  ],
+  "report": "docs/research-2026-10-29-oct28-29-update.md",
+  "audit": "data/research-2026-10-29-oct28-29-update.json",
+  "method": [
+    "10月28・29日の年月日・スラッシュ・ドット表記と、漏えい・漏洩・不正アクセス・紛失・誤送信等を組み合わせて検索。転載サイトや既掲載の大規模事案を除外した検索も併用。",
+    "日付別索引33行、横断索引23行、対象日の続報16行を照合。計72行には重複があり、事案件数とは異なる。収集キャッシュ全件を精査したという意味ではない。",
+    "公式HTML・PDFの本文を優先。カンムの人数表は画像を確認。TBSのモーダル本文と公表日の報道、ソニー生命については関係当事者メディケア生命の公式資料で補完。",
+    "提供元と利用組織、人数と契約・カード・文書件数、公表日と発生日を区別。同一組織・事案の続報は既存IDを維持。"
+  ],
+  "limitations": [
+    "29日に確認できた公表・続報が対象。完全な網羅や29日終了までの公表を保証しない。",
+    "新規27件には21日・23日初報の未掲載事案の補完を含む。27件すべてが28～29日に発生したものではない。",
+    "ANAはReuters配信記事で確認し、verificationはsecondary。ソニー生命の自社PDFは直接取得できず、メディケア生命の公式発表を根拠とした。",
+    "前回追加の保留5件中2件を解消。九州FG証券・ICC・ヤクルトは保留継続。従来の候補すべてを再調査したものではない。",
+    "複数組織・区分間で対象者が重なるため単純合算しない。カンムの2区分、ソニー生命とメディケア生命、提供元と利用組織が該当する。"
+  ],
+  "decisions": [
+    {
+      "group": "leads",
+      "index": 0,
+      "discovery_url": "https://jouhourouei.clipmaster.jp/cases/0f537e0941f166f5",
+      "source_urls": [
+        "https://kanmu.co.jp/news/20261029-corporate-announcement/"
+      ],
+      "incident_ids": [
+        "kanmu-vandle-analysis-20261029"
+      ],
+      "resolution": "published",
+      "reason": "出典・対象範囲・日付・単位を既掲載データと照合。続報は既存IDに統合。"
+    },
+    {
+      "group": "leads",
+      "index": 1,
+      "discovery_url": "https://jouhourouei.clipmaster.jp/cases/0abc16b0308cd62d",
+      "source_urls": [
+        "https://www.nel-all.com/news/632/"
+      ],
+      "incident_ids": [
+        "nel-osina-20261029"
+      ],
+      "resolution": "published",
+      "reason": "出典・対象範囲・日付・単位を既掲載データと照合。続報は既存IDに統合。"
+    },
+    {
+      "group": "leads",
+      "index": 2,
+      "discovery_url": "https://jouhourouei.clipmaster.jp/cases/ebdfce5690ad3905",
+      "source_urls": [
+        "https://cacco.co.jp/news/20261029_information/"
+      ],
+      "incident_ids": [],
+      "resolution": "excluded",
+      "reason": "認証情報悪用による迷惑メール送信。自然人情報の漏えい・具体的な影響範囲は未確認。"
+    },
+    {
+      "group": "leads",
+      "index": 3,
+      "discovery_url": "https://jouhourouei.clipmaster.jp/cases/74c70fcf8a37bc81",
+      "source_urls": [
+        "https://www.energia.co.jp/assets/info/2026/info20261029.pdf"
+      ],
+      "incident_ids": [
+        "energia-sagawa-20261029"
+      ],
+      "resolution": "published",
+      "reason": "出典・対象範囲・日付・単位を既掲載データと照合。続報は既存IDに統合。"
+    },
+    {
+      "group": "leads",
+      "index": 4,
+      "discovery_url": "https://jouhourouei.clipmaster.jp/cases/d1565f021105c832",
+      "source_urls": [
+        "https://www.city.nagaoka.niigata.jp/shisei/cate02/houdou-shiryou/file/20261029-05.pdf"
+      ],
+      "incident_ids": [
+        "nagaoka-sports-studio-20261029"
+      ],
+      "resolution": "published",
+      "reason": "出典・対象範囲・日付・単位を既掲載データと照合。続報は既存IDに統合。"
+    },
+    {
+      "group": "leads",
+      "index": 5,
+      "discovery_url": "https://jouhourouei.clipmaster.jp/cases/6bb509fa7079eb7d",
+      "source_urls": [
+        "https://www.kyushu-u.ac.jp/ja/notices/view/3198"
+      ],
+      "incident_ids": [
+        "kyushu-alumni-blastmail-20261028",
+        "kyushu-hospital-qlifica-20261028"
+      ],
+      "resolution": "existing",
+      "reason": "出典・対象範囲・日付・単位を既掲載データと照合。続報は既存IDに統合。"
+    },
+    {
+      "group": "leads",
+      "index": 6,
+      "discovery_url": "https://jouhourouei.clipmaster.jp/cases/bf7ef806937383c6",
+      "source_urls": [
+        "https://www.hana-cupid.co.jp/news/news/20261028/"
+      ],
+      "incident_ids": [
+        "hana-cupid-20261028"
+      ],
+      "resolution": "existing",
+      "reason": "出典・対象範囲・日付・単位を既掲載データと照合。続報は既存IDに統合。"
+    },
+    {
+      "group": "leads",
+      "index": 7,
+      "discovery_url": "https://jouhourouei.clipmaster.jp/cases/b8832f11f23cb19f",
+      "source_urls": [
+        "https://www.h2int.jp/news/news_view.html?idx=456"
+      ],
+      "incident_ids": [
+        "h2int-directgames-20261028"
+      ],
+      "resolution": "existing",
+      "reason": "出典・対象範囲・日付・単位を既掲載データと照合。続報は既存IDに統合。"
+    },
+    {
+      "group": "leads",
+      "index": 8,
+      "discovery_url": "https://jouhourouei.clipmaster.jp/cases/53b6c841ebcf847a",
+      "source_urls": [
+        "https://www.release.tdnet.info/inbs/140120261028558252.pdf",
+        "https://www.release.tdnet.info/inbs/140120261029559851.pdf"
+      ],
+      "incident_ids": [
+        "moi-twitcasting-20261028"
+      ],
+      "resolution": "published",
+      "reason": "出典・対象範囲・日付・単位を既掲載データと照合。続報は既存IDに統合。"
+    },
+    {
+      "group": "leads",
+      "index": 9,
+      "discovery_url": "https://jouhourouei.clipmaster.jp/cases/7aa040f027bca3e2",
+      "source_urls": [
+        "https://www.release.tdnet.info/inbs/140120261027557047.pdf"
+      ],
+      "incident_ids": [],
+      "resolution": "excluded",
+      "reason": "海外子会社のランサムウェア被害。自然人情報への具体的な影響は未公表。"
+    },
+    {
+      "group": "leads",
+      "index": 10,
+      "discovery_url": "https://jouhourouei.clipmaster.jp/cases/05add40e95f8191a",
+      "source_urls": [
+        "https://www.donki.com/updata/news/info_84zw5.pdf?pre=ip"
+      ],
+      "incident_ids": [
+        "donki-group-cox-20261028"
+      ],
+      "resolution": "existing",
+      "reason": "出典・対象範囲・日付・単位を既掲載データと照合。続報は既存IDに統合。"
+    },
+    {
+      "group": "leads",
+      "index": 11,
+      "discovery_url": "https://jouhourouei.clipmaster.jp/cases/2f58e63361915067",
+      "source_urls": [
+        "https://r-up.jp/news/2026-10-28-cuenote-fc/"
+      ],
+      "incident_ids": [
+        "riseup-morecontact-cuenote-20261028"
+      ],
+      "resolution": "existing",
+      "reason": "出典・対象範囲・日付・単位を既掲載データと照合。続報は既存IDに統合。"
+    },
+    {
+      "group": "leads",
+      "index": 12,
+      "discovery_url": "https://jouhourouei.clipmaster.jp/cases/a3206730f45eb21f",
+      "source_urls": [
+        "https://www.h2o-retailing.co.jp/ja/news/news3907232089918425776/main/0/link/PERSONA_20261028.pdf"
+      ],
+      "incident_ids": [
+        "persona-cuenote-20261028"
+      ],
+      "resolution": "existing",
+      "reason": "出典・対象範囲・日付・単位を既掲載データと照合。続報は既存IDに統合。"
+    },
+    {
+      "group": "leads",
+      "index": 13,
+      "discovery_url": "https://jouhourouei.clipmaster.jp/cases/88ec5696e6ad12d0",
+      "source_urls": [
+        "https://www.betterhome.jp/info/48303"
+      ],
+      "incident_ids": [
+        "betterhome-blastmail-20261028"
+      ],
+      "resolution": "existing",
+      "reason": "出典・対象範囲・日付・単位を既掲載データと照合。続報は既存IDに統合。"
+    },
+    {
+      "group": "leads",
+      "index": 14,
+      "discovery_url": "https://jouhourouei.clipmaster.jp/cases/4ae371ff75c83014",
+      "source_urls": [
+        "https://www.eneos-power.co.jp/denkigas/information/uploads/denki-important-20261027-392.pdf",
+        "https://www.eneos-power.co.jp/denkigas/information/uploads/denki-important-20261028-394.pdf"
+      ],
+      "incident_ids": [
+        "eneos-power-denki-20261028"
+      ],
+      "resolution": "published",
+      "reason": "出典・対象範囲・日付・単位を既掲載データと照合。続報は既存IDに統合。"
+    },
+    {
+      "group": "leads",
+      "index": 15,
+      "discovery_url": "https://jouhourouei.clipmaster.jp/cases/50a85cdc15d302a6",
+      "source_urls": [
+        "https://corp.benefit-one.co.jp/company/news/news/2026/20261028/20261028.pdf"
+      ],
+      "incident_ids": [
+        "benefitone-tokukai-20261028"
+      ],
+      "resolution": "existing",
+      "reason": "出典・対象範囲・日付・単位を既掲載データと照合。続報は既存IDに統合。"
+    },
+    {
+      "group": "leads",
+      "index": 16,
+      "discovery_url": "https://jouhourouei.clipmaster.jp/cases/70a2f63d04871906",
+      "source_urls": [
+        "https://www.sonylife.co.jp/info/popup/261028_oshirase2.pdf",
+        "https://www.sonylife.co.jp/info/popup/261028_oshirase.pdf"
+      ],
+      "incident_ids": [
+        "sonylife-medicare-20261028"
+      ],
+      "resolution": "published",
+      "reason": "出典・対象範囲・日付・単位を既掲載データと照合。続報は既存IDに統合。"
+    },
+    {
+      "group": "leads",
+      "index": 17,
+      "discovery_url": "https://jouhourouei.clipmaster.jp/cases/027dd8349a5838d8",
+      "source_urls": [
+        "https://news.medicarelife.com/info/down2.php?attach_id=SsDCRvieTHw%3D&category=588&page=2&seq=12715"
+      ],
+      "incident_ids": [
+        "medicarelife-sonylife-20261028"
+      ],
+      "resolution": "published",
+      "reason": "出典・対象範囲・日付・単位を既掲載データと照合。続報は既存IDに統合。"
+    },
+    {
+      "group": "leads",
+      "index": 18,
+      "discovery_url": "https://jouhourouei.clipmaster.jp/cases/49c5ef01e95e50f3",
+      "source_urls": [
+        "https://am.arara.com/news/2026102801",
+        "https://am.arara.com/news/2026102802",
+        "https://www.release.tdnet.info/inbs/140120261029558961.pdf"
+      ],
+      "incident_ids": [
+        "arara-message-20261028"
+      ],
+      "resolution": "published",
+      "reason": "出典・対象範囲・日付・単位を既掲載データと照合。続報は既存IDに統合。"
+    },
+    {
+      "group": "leads",
+      "index": 19,
+      "discovery_url": "https://jouhourouei.clipmaster.jp/cases/c811d31caa70744b",
+      "source_urls": [
+        "https://www.meti.go.jp/press/2026/10/20261028003.html"
+      ],
+      "incident_ids": [],
+      "resolution": "excluded",
+      "reason": "事業者の報告サイトへの侵入・停止。自然人情報への具体的な影響は未公表。"
+    },
+    {
+      "group": "leads",
+      "index": 20,
+      "discovery_url": "https://jouhourouei.clipmaster.jp/cases/04622a50d6e40226",
+      "source_urls": [
+        "https://shop.generics.co.jp/shop/information/gene20261028"
+      ],
+      "incident_ids": [
+        "generics-warehouse-20261028"
+      ],
+      "resolution": "existing",
+      "reason": "出典・対象範囲・日付・単位を既掲載データと照合。続報は既存IDに統合。"
+    },
+    {
+      "group": "leads",
+      "index": 21,
+      "discovery_url": "https://jouhourouei.clipmaster.jp/cases/56142240af315a52",
+      "source_urls": [
+        "https://storiiy.com/notice/20261028/"
+      ],
+      "incident_ids": [
+        "storiiy-warehouse-20261028"
+      ],
+      "resolution": "published",
+      "reason": "出典・対象範囲・日付・単位を既掲載データと照合。続報は既存IDに統合。"
+    },
+    {
+      "group": "leads",
+      "index": 22,
+      "discovery_url": "https://jouhourouei.clipmaster.jp/cases/26ff87bb45c0ddee",
+      "source_urls": [
+        "https://www.br31.jp/contents/topics/261028_01.html"
+      ],
+      "incident_ids": [
+        "br31-dirigio-20261028"
+      ],
+      "resolution": "existing",
+      "reason": "出典・対象範囲・日付・単位を既掲載データと照合。続報は既存IDに統合。"
+    },
+    {
+      "group": "leads",
+      "index": 23,
+      "discovery_url": "https://jouhourouei.clipmaster.jp/cases/5e738a69c5229a24",
+      "source_urls": [
+        "https://www.animate.co.jp/news/53375/"
+      ],
+      "incident_ids": [
+        "animate-cuenote-20261028"
+      ],
+      "resolution": "published",
+      "reason": "出典・対象範囲・日付・単位を既掲載データと照合。続報は既存IDに統合。"
+    },
+    {
+      "group": "leads",
+      "index": 24,
+      "discovery_url": "https://jouhourouei.clipmaster.jp/cases/39399f968bae4346",
+      "source_urls": [
+        "https://www.lifecard.co.jp/info/important-notice.html"
+      ],
+      "incident_ids": [
+        "lifecard-cuenote-20261028"
+      ],
+      "resolution": "published",
+      "reason": "出典・対象範囲・日付・単位を既掲載データと照合。続報は既存IDに統合。"
+    },
+    {
+      "group": "leads",
+      "index": 25,
+      "discovery_url": "https://jouhourouei.clipmaster.jp/cases/be62e5ad93855a64",
+      "source_urls": [
+        "https://www.pref.saitama.lg.jp/f2207/news/page/news2026102801.html"
+      ],
+      "incident_ids": [
+        "kawagoe-school-studio-20261028"
+      ],
+      "resolution": "published",
+      "reason": "出典・対象範囲・日付・単位を既掲載データと照合。続報は既存IDに統合。"
+    },
+    {
+      "group": "leads",
+      "index": 26,
+      "discovery_url": "https://jouhourouei.clipmaster.jp/cases/d36024366d541b8e",
+      "source_urls": [
+        "https://www.jumonji-u.ac.jp/important/systemfailure_20261028/"
+      ],
+      "incident_ids": [],
+      "resolution": "excluded",
+      "reason": "組織のドメイン等の外部掲載とシステム障害。個人情報の具体的な対象範囲は未公表。"
+    },
+    {
+      "group": "leads",
+      "index": 27,
+      "discovery_url": "https://jouhourouei.clipmaster.jp/cases/ea766250d047a169",
+      "source_urls": [
+        "https://note.com/akb48_official/n/nea1b6447752f"
+      ],
+      "incident_ids": [],
+      "resolution": "excluded",
+      "reason": "アプリの侵入・停止。流出の形跡は未確認で、対象となる個人情報の具体的範囲は未公表。"
+    },
+    {
+      "group": "leads",
+      "index": 28,
+      "discovery_url": "https://jouhourouei.clipmaster.jp/cases/b492613f5a88817d",
+      "source_urls": [
+        "https://www.pref.miyagi.jp/soshiki/sinkou/ritou_20261028.html"
+      ],
+      "incident_ids": [
+        "miyagi-island-living-20261028"
+      ],
+      "resolution": "published",
+      "reason": "出典・対象範囲・日付・単位を既掲載データと照合。続報は既存IDに統合。"
+    },
+    {
+      "group": "leads",
+      "index": 29,
+      "discovery_url": "https://jouhourouei.clipmaster.jp/cases/52969927d4040e31",
+      "source_urls": [
+        "https://miyagi-ijuguide.pref.miyagi.jp/news/46793"
+      ],
+      "incident_ids": [],
+      "resolution": "excluded",
+      "reason": "登録メール約2,000件は母数。漏えいの事実・可能性とも確認されていないとの予防的告知。"
+    },
+    {
+      "group": "leads",
+      "index": 30,
+      "discovery_url": "https://jouhourouei.clipmaster.jp/cases/835e3cf5777c9b6f",
+      "source_urls": [
+        "https://gametrade.jp/official_notifications/283"
+      ],
+      "incident_ids": [
+        "gametrade-20261028"
+      ],
+      "resolution": "published",
+      "reason": "出典・対象範囲・日付・単位を既掲載データと照合。続報は既存IDに統合。"
+    },
+    {
+      "group": "leads",
+      "index": 31,
+      "discovery_url": "https://jouhourouei.clipmaster.jp/cases/94b5646094de80a6",
+      "source_urls": [
+        "https://www.kagin.co.jp/important/emergency_20261028.html",
+        "https://www.kagin.co.jp/important/emergency_20261029_3.html"
+      ],
+      "incident_ids": [
+        "paydon-arara-20261028"
+      ],
+      "resolution": "published",
+      "reason": "出典・対象範囲・日付・単位を既掲載データと照合。続報は既存IDに統合。"
+    },
+    {
+      "group": "leads",
+      "index": 32,
+      "discovery_url": "https://jouhourouei.clipmaster.jp/cases/515d5ee0efb778cc",
+      "source_urls": [
+        "https://www.city.hiroshima.lg.jp/shisei/kouhou/1004010/1045546/1053867/1054734.html"
+      ],
+      "incident_ids": [
+        "hiroshima-childcare-diaries-20261028"
+      ],
+      "resolution": "published",
+      "reason": "出典・対象範囲・日付・単位を既掲載データと照合。続報は既存IDに統合。"
+    },
+    {
+      "group": "cross",
+      "index": 0,
+      "discovery_url": null,
+      "source_urls": [
+        "https://www.goods-co.net/blogs/news/security-incident-20261029"
+      ],
+      "incident_ids": [
+        "goods-oldshop-20261029"
+      ],
+      "resolution": "published",
+      "reason": "出典・対象範囲・日付・単位を既掲載データと照合。続報は既存IDに統合。"
+    },
+    {
+      "group": "cross",
+      "index": 1,
+      "discovery_url": null,
+      "source_urls": [
+        "https://piecehotel.com/jp/news/quPsYLsN"
+      ],
+      "incident_ids": [
+        "piece-sanjo-wasimil-20261029"
+      ],
+      "resolution": "published",
+      "reason": "出典・対象範囲・日付・単位を既掲載データと照合。続報は既存IDに統合。"
+    },
+    {
+      "group": "cross",
+      "index": 2,
+      "discovery_url": null,
+      "source_urls": [
+        "https://news.wowow.co.jp/5826.html"
+      ],
+      "incident_ids": [
+        "wowow-sagawa-20261029"
+      ],
+      "resolution": "published",
+      "reason": "出典・対象範囲・日付・単位を既掲載データと照合。続報は既存IDに統合。"
+    },
+    {
+      "group": "cross",
+      "index": 3,
+      "discovery_url": null,
+      "source_urls": [
+        "https://www.nel-all.com/news/632/"
+      ],
+      "incident_ids": [
+        "nel-osina-20261029"
+      ],
+      "resolution": "published",
+      "reason": "出典・対象範囲・日付・単位を既掲載データと照合。続報は既存IDに統合。"
+    },
+    {
+      "group": "cross",
+      "index": 4,
+      "discovery_url": null,
+      "source_urls": [
+        "https://www.meti.go.jp/press/2026/10/20261028003.html"
+      ],
+      "incident_ids": [],
+      "resolution": "excluded",
+      "reason": "事業者の報告サイトへの侵入・停止。自然人情報への具体的な影響は未公表。"
+    },
+    {
+      "group": "cross",
+      "index": 5,
+      "discovery_url": null,
+      "source_urls": [
+        "https://gametrade.jp/official_notifications/283"
+      ],
+      "incident_ids": [
+        "gametrade-20261028"
+      ],
+      "resolution": "published",
+      "reason": "出典・対象範囲・日付・単位を既掲載データと照合。続報は既存IDに統合。"
+    },
+    {
+      "group": "cross",
+      "index": 6,
+      "discovery_url": null,
+      "source_urls": [
+        "https://www.kyushu-u.ac.jp/ja/notices/view/3198/"
+      ],
+      "incident_ids": [
+        "kyushu-alumni-blastmail-20261028",
+        "kyushu-hospital-qlifica-20261028"
+      ],
+      "resolution": "existing",
+      "reason": "出典・対象範囲・日付・単位を既掲載データと照合。続報は既存IDに統合。"
+    },
+    {
+      "group": "cross",
+      "index": 7,
+      "discovery_url": null,
+      "source_urls": [
+        "https://www.kagin.co.jp/important/emergency_20261029_3.html"
+      ],
+      "incident_ids": [
+        "paydon-arara-20261028"
+      ],
+      "resolution": "published",
+      "reason": "出典・対象範囲・日付・単位を既掲載データと照合。続報は既存IDに統合。"
+    },
+    {
+      "group": "cross",
+      "index": 8,
+      "discovery_url": null,
+      "source_urls": [
+        "https://am.arara.com/news/2026102802",
+        "https://contents.xj-storage.jp/xcontents/AS71226/cb37cf8a/2f67/4ca0/93e3/49e7924ad375/140120261029558961.pdf"
+      ],
+      "incident_ids": [
+        "arara-message-20261028"
+      ],
+      "resolution": "published",
+      "reason": "出典・対象範囲・日付・単位を既掲載データと照合。続報は既存IDに統合。"
+    },
+    {
+      "group": "cross",
+      "index": 9,
+      "discovery_url": null,
+      "source_urls": [
+        "https://corp.benefit-one.co.jp/company/news/news/2026/20261028/20261028.pdf"
+      ],
+      "incident_ids": [
+        "benefitone-tokukai-20261028"
+      ],
+      "resolution": "existing",
+      "reason": "出典・対象範囲・日付・単位を既掲載データと照合。続報は既存IDに統合。"
+    },
+    {
+      "group": "cross",
+      "index": 10,
+      "discovery_url": null,
+      "source_urls": [
+        "https://www.kyushu-fg-sec.co.jp/article/data/info/files/a9f275749841d4f9ea6c35fa1b62a90f0b990bb0.pdf"
+      ],
+      "incident_ids": [],
+      "resolution": "unresolved",
+      "reason": "九州FG証券のPDF本文が403。対象項目・範囲の一次確認を保留。"
+    },
+    {
+      "group": "cross",
+      "index": 11,
+      "discovery_url": null,
+      "source_urls": [
+        "https://ameblo.jp/akihabara48/entry-12982937036.html"
+      ],
+      "incident_ids": [],
+      "resolution": "excluded",
+      "reason": "アプリの侵入・停止。流出の形跡は未確認で、対象となる個人情報の具体的範囲は未公表。"
+    },
+    {
+      "group": "cross",
+      "index": 12,
+      "discovery_url": null,
+      "source_urls": [
+        "https://www.jal.co.jp/ja-jp/news/general/2026/other/261028.html"
+      ],
+      "incident_ids": [
+        "jal-jta-amadeus-20261028"
+      ],
+      "resolution": "existing",
+      "reason": "出典・対象範囲・日付・単位を既掲載データと照合。続報は既存IDに統合。"
+    },
+    {
+      "group": "cross",
+      "index": 13,
+      "discovery_url": null,
+      "source_urls": [
+        "https://www.sonylife.co.jp/info/popup/261028_oshirase2.pdf"
+      ],
+      "incident_ids": [
+        "sonylife-medicare-20261028"
+      ],
+      "resolution": "published",
+      "reason": "出典・対象範囲・日付・単位を既掲載データと照合。続報は既存IDに統合。"
+    },
+    {
+      "group": "cross",
+      "index": 14,
+      "discovery_url": null,
+      "source_urls": [
+        "https://www.donki.com/updata/news/info_84zw5.pdf"
+      ],
+      "incident_ids": [
+        "donki-group-cox-20261028"
+      ],
+      "resolution": "existing",
+      "reason": "出典・対象範囲・日付・単位を既掲載データと照合。続報は既存IDに統合。"
+    },
+    {
+      "group": "cross",
+      "index": 15,
+      "discovery_url": null,
+      "source_urls": [
+        "https://www.release.tdnet.info/inbs/140120261027557101.pdf",
+        "https://jp.adventurekk.com/news/apology-notice-unauthorized-access-data-leak/"
+      ],
+      "incident_ids": [
+        "skyticket-server-20261009"
+      ],
+      "resolution": "existing",
+      "reason": "出典・対象範囲・日付・単位を既掲載データと照合。続報は既存IDに統合。"
+    },
+    {
+      "group": "cross",
+      "index": 16,
+      "discovery_url": null,
+      "source_urls": [
+        "https://www.subway.co.jp/news/bhi2h9kf00mf"
+      ],
+      "incident_ids": [
+        "subway-dirigio-20261028"
+      ],
+      "resolution": "published",
+      "reason": "出典・対象範囲・日付・単位を既掲載データと照合。続報は既存IDに統合。"
+    },
+    {
+      "group": "cross",
+      "index": 17,
+      "discovery_url": null,
+      "source_urls": [
+        "https://www.br31.jp/contents/topics/261028_01.html"
+      ],
+      "incident_ids": [
+        "br31-dirigio-20261028"
+      ],
+      "resolution": "existing",
+      "reason": "出典・対象範囲・日付・単位を既掲載データと照合。続報は既存IDに統合。"
+    },
+    {
+      "group": "cross",
+      "index": 18,
+      "discovery_url": null,
+      "source_urls": [
+        "https://shopping.tbs.co.jp/tbs/info"
+      ],
+      "incident_ids": [
+        "tbs-shopping-mail-20261028"
+      ],
+      "resolution": "published",
+      "reason": "出典・対象範囲・日付・単位を既掲載データと照合。続報は既存IDに統合。"
+    },
+    {
+      "group": "cross",
+      "index": 19,
+      "discovery_url": null,
+      "source_urls": [
+        "https://www.release.tdnet.info/inbs/140120261029559851.pdf",
+        "https://twitcasting.tv/"
+      ],
+      "incident_ids": [
+        "moi-twitcasting-20261028"
+      ],
+      "resolution": "published",
+      "reason": "出典・対象範囲・日付・単位を既掲載データと照合。続報は既存IDに統合。"
+    },
+    {
+      "group": "cross",
+      "index": 20,
+      "discovery_url": null,
+      "source_urls": [
+        "https://www.hana-cupid.co.jp/news/news/20261028/"
+      ],
+      "incident_ids": [
+        "hana-cupid-20261028"
+      ],
+      "resolution": "existing",
+      "reason": "出典・対象範囲・日付・単位を既掲載データと照合。続報は既存IDに統合。"
+    },
+    {
+      "group": "cross",
+      "index": 21,
+      "discovery_url": null,
+      "source_urls": [
+        "https://www.consortium-osaka.gr.jp/storage/DLsvuIxvY6itYRfVUA2MSvA0x1gqRgwjB2OapKHT.pdf"
+      ],
+      "incident_ids": [
+        "consortium-osaka-20261028"
+      ],
+      "resolution": "existing",
+      "reason": "出典・対象範囲・日付・単位を既掲載データと照合。続報は既存IDに統合。"
+    },
+    {
+      "group": "cross",
+      "index": 22,
+      "discovery_url": null,
+      "source_urls": [
+        "https://www.h2int.jp/news/news_view.html?idx=456"
+      ],
+      "incident_ids": [
+        "h2int-directgames-20261028"
+      ],
+      "resolution": "existing",
+      "reason": "出典・対象範囲・日付・単位を既掲載データと照合。続報は既存IDに統合。"
+    },
+    {
+      "group": "follow",
+      "index": 0,
+      "discovery_url": "https://jouhourouei.clipmaster.jp/cases/53b6c841ebcf847a",
+      "source_urls": [
+        "https://www.release.tdnet.info/inbs/140120261028558252.pdf",
+        "https://www.release.tdnet.info/inbs/140120261029559851.pdf"
+      ],
+      "incident_ids": [
+        "moi-twitcasting-20261028"
+      ],
+      "resolution": "published",
+      "reason": "出典・対象範囲・日付・単位を既掲載データと照合。続報は既存IDに統合。"
+    },
+    {
+      "group": "follow",
+      "index": 1,
+      "discovery_url": "https://jouhourouei.clipmaster.jp/cases/49c5ef01e95e50f3",
+      "source_urls": [
+        "https://am.arara.com/news/2026102801",
+        "https://am.arara.com/news/2026102802",
+        "https://www.release.tdnet.info/inbs/140120261029558961.pdf"
+      ],
+      "incident_ids": [
+        "arara-message-20261028"
+      ],
+      "resolution": "published",
+      "reason": "出典・対象範囲・日付・単位を既掲載データと照合。続報は既存IDに統合。"
+    },
+    {
+      "group": "follow",
+      "index": 2,
+      "discovery_url": "https://jouhourouei.clipmaster.jp/cases/fd172d1921204e7f",
+      "source_urls": [
+        "https://www.asahi.com/corporate/info/17004624",
+        "https://www.asahi.com/corporate/info/16995713"
+      ],
+      "incident_ids": [
+        "asahi-cuenote-20261026"
+      ],
+      "resolution": "updated",
+      "reason": "出典・対象範囲・日付・単位を既掲載データと照合。続報は既存IDに統合。"
+    },
+    {
+      "group": "follow",
+      "index": 3,
+      "discovery_url": "https://jouhourouei.clipmaster.jp/cases/ba95a38bfc7cae73",
+      "source_urls": [
+        "https://support.goodsmile.com/hc/ja/articles/63547468806297",
+        "https://support.goodsmile.com/hc/ja/articles/63718007508761"
+      ],
+      "incident_ids": [
+        "sweep-7340c0fb3799-20261023"
+      ],
+      "resolution": "updated",
+      "reason": "出典・対象範囲・日付・単位を既掲載データと照合。続報は既存IDに統合。"
+    },
+    {
+      "group": "follow",
+      "index": 4,
+      "discovery_url": "https://jouhourouei.clipmaster.jp/cases/d32ed71279466de1",
+      "source_urls": [
+        "https://www.shochiku.co.jp/cinemakabuki/news/3513/",
+        "https://www.shochiku.co.jp/wp-content/uploads/2026/10/shochiku20261029-2.pdf"
+      ],
+      "incident_ids": [],
+      "resolution": "excluded",
+      "reason": "停止の初報と29日の中間報告。現段階で確認された漏えい情報に同社情報は含まれない。漏えいの最終否定とは扱わない。"
+    },
+    {
+      "group": "follow",
+      "index": 5,
+      "discovery_url": "https://jouhourouei.clipmaster.jp/cases/2246469a88f184df",
+      "source_urls": [
+        "https://internet.gmo/news/article/249/",
+        "https://www.release.tdnet.info/inbs/140120261024555624.pdf",
+        "https://internet.gmo/news/article/255/",
+        "https://internet.gmo/news/article/258/",
+        "https://www.release.tdnet.info/inbs/140120261027557106.pdf",
+        "https://group.gmo/info/alert/20261022/",
+        "https://group.gmo/info/alert/20261023/",
+        "https://www.release.tdnet.info/inbs/140120261023555560.pdf",
+        "https://internet.gmo/news/article/250/",
+        "https://www.release.tdnet.info/inbs/140120261024555606.pdf",
+        "https://www.onamae.com/news/article/11584",
+        "https://internet.gmo/news/article/254/",
+        "https://internet.gmo/news/article/256/",
+        "https://internet.gmo/news/article/257/",
+        "https://internet.gmo/news/article/253/",
+        "https://internet.gmo/news/article/261/",
+        "https://www.release.tdnet.info/inbs/140120261027557045.pdf",
+        "https://internet.gmo/news/article/259/",
+        "https://internet.gmo/news/article/260/"
+      ],
+      "incident_ids": [
+        "onamae-desktop-20261023"
+      ],
+      "resolution": "updated",
+      "reason": "出典・対象範囲・日付・単位を既掲載データと照合。続報は既存IDに統合。"
+    },
+    {
+      "group": "follow",
+      "index": 6,
+      "discovery_url": "https://jouhourouei.clipmaster.jp/cases/3124a4916d121639",
+      "source_urls": [
+        "https://info.blastmail.jp/information_20261021.html",
+        "https://www.rakus.co.jp/news/2026/1021-2.html",
+        "https://www.rakus.co.jp/news/2026/1021-3.html"
+      ],
+      "incident_ids": [
+        "rakus-blastmail-20261021"
+      ],
+      "resolution": "updated",
+      "reason": "出典・対象範囲・日付・単位を既掲載データと照合。続報は既存IDに統合。"
+    },
+    {
+      "group": "follow",
+      "index": 7,
+      "discovery_url": "https://jouhourouei.clipmaster.jp/cases/03f6b9e40956d388",
+      "source_urls": [
+        "https://www.nttsolmare.com/press/2026/1016-1.html",
+        "https://www.nttsolmare.com/press/2026/0616-1.html",
+        "https://www.nttsolmare.com/press/2026/1021.html",
+        "https://www.nttsolmare.com/press/2026/1016.html",
+        "https://www.nttsolmare.com/press/2026/1029.html"
+      ],
+      "incident_ids": [
+        "ntt-solmare-cmoa-20261016"
+      ],
+      "resolution": "updated",
+      "reason": "出典・対象範囲・日付・単位を既掲載データと照合。続報は既存IDに統合。"
+    },
+    {
+      "group": "follow",
+      "index": 8,
+      "discovery_url": "https://jouhourouei.clipmaster.jp/cases/57757c5a35d13477",
+      "source_urls": [
+        "https://www.impress.co.jp/newsrelease/2026/10/info20261027.html",
+        "https://www.impress.co.jp/newsrelease/2026/10/info20261028.html"
+      ],
+      "incident_ids": [
+        "impress-cuenote-20261027"
+      ],
+      "resolution": "updated",
+      "reason": "出典・対象範囲・日付・単位を既掲載データと照合。続報は既存IDに統合。"
+    },
+    {
+      "group": "follow",
+      "index": 9,
+      "discovery_url": "https://jouhourouei.clipmaster.jp/cases/718345bffd9b6a35",
+      "source_urls": [
+        "https://dearcare.almediaweb.jp/maintenance/maintenance.html"
+      ],
+      "incident_ids": [],
+      "resolution": "excluded",
+      "reason": "プログラム改変の公表。自然人情報への具体的な影響範囲は未公表。"
+    },
+    {
+      "group": "follow",
+      "index": 10,
+      "discovery_url": "https://jouhourouei.clipmaster.jp/cases/1a2c10d0a2431f5b",
+      "source_urls": [
+        "https://igreks.jp/archives/782"
+      ],
+      "incident_ids": [],
+      "resolution": "excluded",
+      "reason": "提供元のポータルの公表。自然人情報への具体的な影響を確認できず、利用組織の事案とは分けて判断。"
+    },
+    {
+      "group": "follow",
+      "index": 11,
+      "discovery_url": "https://jouhourouei.clipmaster.jp/cases/f2ee0dd46d6f1fa3",
+      "source_urls": [
+        "https://www.jfe-chem.com/uploads/2026/10/baa6f7b08015cd87b11014e01d51141e.pdf",
+        "https://www.jfe-chem.com/uploads/2026/10/5d39f850d21f5b45caec8589b42bacf9.pdf"
+      ],
+      "incident_ids": [
+        "jfe-chemical-20261021"
+      ],
+      "resolution": "published",
+      "reason": "出典・対象範囲・日付・単位を既掲載データと照合。続報は既存IDに統合。"
+    },
+    {
+      "group": "follow",
+      "index": 12,
+      "discovery_url": "https://jouhourouei.clipmaster.jp/cases/8781824890bcefa4",
+      "source_urls": [
+        "https://www.trustbank.co.jp/newsroom/news/news261019/",
+        "https://www.trustbank.co.jp/newsroom/newsrelease/news20261023/",
+        "https://www.release.tdnet.info/inbs/140120261023555364.pdf",
+        "https://www.trustbank.co.jp/newsroom/newsrelease/new20261026/",
+        "https://www.release.tdnet.info/inbs/140120261026556007.pdf",
+        "https://www.trustbank.co.jp/newsroom/newsrelease/news261020/",
+        "https://www.release.tdnet.info/inbs/140120261028558254.pdf",
+        "https://www.release.tdnet.info/inbs/140120261020553586.pdf"
+      ],
+      "incident_ids": [
+        "trustbank-furusato-attack-20261020"
+      ],
+      "resolution": "existing",
+      "reason": "出典・対象範囲・日付・単位を既掲載データと照合。続報は既存IDに統合。"
+    },
+    {
+      "group": "follow",
+      "index": 13,
+      "discovery_url": "https://jouhourouei.clipmaster.jp/cases/32ebb5e13a18bf11",
+      "source_urls": [
+        "https://studio.design/ja/whats-new/unauthorized-access-2026-10",
+        "https://studio.design/ja/whats-new/unauthorized-access-2026-10-form",
+        "https://studio.design/ja/security/notice/2026-10-incident"
+      ],
+      "incident_ids": [
+        "studio-cloud-20261016"
+      ],
+      "resolution": "existing",
+      "reason": "出典・対象範囲・日付・単位を既掲載データと照合。続報は既存IDに統合。"
+    },
+    {
+      "group": "follow",
+      "index": 14,
+      "discovery_url": "https://jouhourouei.clipmaster.jp/cases/18c5e5394f44f40c",
+      "source_urls": [
+        "https://wasabi-inc.biz/help/news/20261016-01/",
+        "https://wasabi-inc.biz/help/news/20261020-01/",
+        "https://incident-support.wasabi-inc.biz/report",
+        "https://wasabi-inc.biz/help/news/20261026-01/",
+        "https://wasabi-inc.biz/help/news/20261017-03/",
+        "https://wasabi-inc.biz/help/news/20261018-01/",
+        "https://wasabi-inc.biz/help/news/20261018-02/"
+      ],
+      "incident_ids": [
+        "wasabi-switch-20261016"
+      ],
+      "resolution": "existing",
+      "reason": "ページ上部は29日表記だが、報告本文は26日付。既掲載内容を変更する新たな事実は確認できない。"
+    },
+    {
+      "group": "follow",
+      "index": 15,
+      "discovery_url": "https://jouhourouei.clipmaster.jp/cases/73b99131a5dd94a6",
+      "source_urls": [
+        "https://jp.adventurekk.com/news/news-2026-unauthorized-access-notice-2/",
+        "https://www.release.tdnet.info/inbs/140120261016552377.pdf",
+        "https://www.release.tdnet.info/inbs/140120261027557101.pdf",
+        "https://jp.adventurekk.com/news/apology-unauthorized-access-data-leak/",
+        "https://jp.adventurekk.com/news/apology-notice-unauthorized-access-data-leak/"
+      ],
+      "incident_ids": [
+        "skyticket-server-20261009"
+      ],
+      "resolution": "existing",
+      "reason": "出典・対象範囲・日付・単位を既掲載データと照合。続報は既存IDに統合。"
+    }
+  ],
+  "additional_decisions": [
+    {
+      "incident_ids": [
+        "ana-amadeus-20261029"
+      ],
+      "resolution": "published",
+      "source_urls": [
+        "https://finance.yahoo.co.jp/news/detail/8b830bba672dfe7254c2d339cd0a124c2eb3b549"
+      ],
+      "reason": "対象日の続報・検索から発見し、初報日と対象範囲を照合。"
+    },
+    {
+      "incident_ids": [
+        "geniee-studio-20261021"
+      ],
+      "resolution": "published",
+      "source_urls": [
+        "https://geniee.co.jp/ir/news/17343/"
+      ],
+      "reason": "対象日の続報・検索から発見し、初報日と対象範囲を照合。"
+    },
+    {
+      "incident_ids": [
+        "broadleaf-monodukuri-blastmail-20261023"
+      ],
+      "resolution": "published",
+      "source_urls": [
+        "https://www.broadleaf.co.jp/company/news/news_detail/?itemid=371&dispmid=1001",
+        "https://www.broadleaf.co.jp/company/news/news_detail/?dispmid=1001&itemid=372"
+      ],
+      "reason": "対象日の続報・検索から発見し、初報日と対象範囲を照合。"
+    },
+    {
+      "incident_ids": [
+        "aki-health-misdelivery-20261028"
+      ],
+      "resolution": "published",
+      "source_urls": [
+        "https://www.city.aki.kochi.jp/life/dtl.php?hdnKey=8930"
+      ],
+      "reason": "対象日の続報・検索から発見し、初報日と対象範囲を照合。"
+    },
+    {
+      "incident_ids": [
+        "sukesan-attendance-20261027"
+      ],
+      "resolution": "updated",
+      "source_urls": [
+        "https://www.sukesanudon.com/news/news-8014/",
+        "https://www.sukesanudon.com/news/news-8023/"
+      ],
+      "reason": "対象日の続報・検索から発見し、初報日と対象範囲を照合。"
+    },
+    {
+      "organization": "三条市",
+      "resolution": "excluded",
+      "source_urls": [
+        "https://www.city.sanjo.niigata.jp/soshiki/keizaibu/eigyosenryakushitsu/furusato/21314.html"
+      ],
+      "reason": "提供元の公表の案内で、市固有の対象者・漏えい項目は未確認。市の新規事案として重複計上しない。"
+    },
+    {
+      "organization": "豊前市",
+      "resolution": "excluded",
+      "source_urls": [
+        "https://www.city.buzen.lg.jp/furusato/huseiakusesu3.html"
+      ],
+      "reason": "提供元の公表の案内で、市固有の対象者・漏えい項目は未確認。市の新規事案として重複計上しない。"
+    }
+  ],
+  "added_sources": {
+    "kanmu-vandle-analysis-20261029": [
+      {
+        "url": "https://kanmu.co.jp/news/20261029-corporate-announcement/",
+        "type": "official",
+        "title": "分析委託先への顧客情報の誤送信",
+        "published_on": "2026-10-29",
+        "checked_on": "2026-10-29"
+      }
+    ],
+    "nel-osina-20261029": [
+      {
+        "url": "https://www.nel-all.com/news/632/",
+        "type": "official",
+        "title": "osina会員・取引先担当者等の情報漏えい",
+        "published_on": "2026-10-29",
+        "checked_on": "2026-10-29"
+      }
+    ],
+    "energia-sagawa-20261029": [
+      {
+        "url": "https://www.energia.co.jp/assets/info/2026/info20261029.pdf",
+        "type": "official",
+        "title": "ポイント交換商品の配送先情報に漏えいのおそれ",
+        "published_on": "2026-10-29",
+        "checked_on": "2026-10-29"
+      }
+    ],
+    "nagaoka-sports-studio-20261029": [
+      {
+        "url": "https://www.city.nagaoka.niigata.jp/shisei/cate02/houdou-shiryou/file/20261029-05.pdf",
+        "type": "official",
+        "title": "指定管理スポーツ施設の問い合わせ情報に漏えいのおそれ",
+        "published_on": "2026-10-29",
+        "checked_on": "2026-10-29"
+      }
+    ],
+    "moi-twitcasting-20261028": [
+      {
+        "url": "https://www.release.tdnet.info/inbs/140120261028558252.pdf",
+        "type": "official",
+        "title": "サーバーへの不正アクセス（第1報）",
+        "published_on": "2026-10-28",
+        "checked_on": "2026-10-29"
+      },
+      {
+        "url": "https://www.release.tdnet.info/inbs/140120261029559851.pdf",
+        "type": "official",
+        "title": "サーバーへの不正アクセス（第2報）",
+        "published_on": "2026-10-29",
+        "checked_on": "2026-10-29"
+      }
+    ],
+    "eneos-power-denki-20261028": [
+      {
+        "url": "https://www.eneos-power.co.jp/denkigas/information/uploads/denki-important-20261028-394.pdf",
+        "type": "official",
+        "title": "電力サービス利用者57名の個人情報漏えい",
+        "published_on": "2026-10-28",
+        "checked_on": "2026-10-29"
+      }
+    ],
+    "sonylife-medicare-20261028": [
+      {
+        "url": "https://news.medicarelife.com/info/down2.php?attach_id=SsDCRvieTHw%3D&category=588&page=2&seq=12715",
+        "type": "official",
+        "title": "保険代理店のシステムへの不正アクセスに伴うお客さま情報の漏えいについて",
+        "published_on": "2026-10-28",
+        "checked_on": "2026-10-29"
+      }
+    ],
+    "medicarelife-sonylife-20261028": [
+      {
+        "url": "https://news.medicarelife.com/info/down2.php?attach_id=SsDCRvieTHw%3D&category=588&page=2&seq=12715",
+        "type": "official",
+        "title": "保険代理店のシステムへの不正アクセスに伴うお客さま情報の漏えいについて",
+        "published_on": "2026-10-28",
+        "checked_on": "2026-10-29"
+      }
+    ],
+    "arara-message-20261028": [
+      {
+        "url": "https://am.arara.com/news/2026102802",
+        "type": "official",
+        "title": "メール配信サービス停止および個人情報流出の報告",
+        "published_on": "2026-10-28",
+        "checked_on": "2026-10-29"
+      },
+      {
+        "url": "https://www.release.tdnet.info/inbs/140120261029558961.pdf",
+        "type": "official",
+        "title": "子会社システムへの不正アクセスに関するお知らせ",
+        "published_on": "2026-10-29",
+        "checked_on": "2026-10-29"
+      }
+    ],
+    "storiiy-warehouse-20261028": [
+      {
+        "url": "https://storiiy.com/notice/20261028/",
+        "type": "official",
+        "title": "配送委託先の倉庫管理システムから顧客情報漏えいのおそれ",
+        "published_on": "2026-10-28",
+        "checked_on": "2026-10-29"
+      }
+    ],
+    "animate-cuenote-20261028": [
+      {
+        "url": "https://www.animate.co.jp/news/53375/",
+        "type": "official",
+        "title": "通販・ポケドラのメルマガ登録情報漏えい",
+        "published_on": "2026-10-28",
+        "checked_on": "2026-10-29"
+      }
+    ],
+    "lifecard-cuenote-20261028": [
+      {
+        "url": "https://www.lifecard.co.jp/info/important-notice.html",
+        "type": "official",
+        "title": "メール配信先339,610契約の情報漏えいのおそれ",
+        "published_on": "2026-10-28",
+        "checked_on": "2026-10-29"
+      }
+    ],
+    "kawagoe-school-studio-20261028": [
+      {
+        "url": "https://www.pref.saitama.lg.jp/f2207/news/page/news2026102801.html",
+        "type": "official",
+        "title": "文化祭問い合わせフォームの39名分に漏えいのおそれ",
+        "published_on": "2026-10-28",
+        "checked_on": "2026-10-29"
+      }
+    ],
+    "miyagi-island-living-20261028": [
+      {
+        "url": "https://www.pref.miyagi.jp/soshiki/sinkou/ritou_20261028.html",
+        "type": "official",
+        "title": "離島キャンペーンのフォトコンテスト申込者情報に漏えいのおそれ",
+        "published_on": "2026-10-28",
+        "checked_on": "2026-10-29"
+      }
+    ],
+    "gametrade-20261028": [
+      {
+        "url": "https://gametrade.jp/official_notifications/283",
+        "type": "official",
+        "title": "登録顧客情報の漏えいの可能性",
+        "published_on": "2026-10-28",
+        "checked_on": "2026-10-29"
+      }
+    ],
+    "paydon-arara-20261028": [
+      {
+        "url": "https://www.kagin.co.jp/important/emergency_20261029_3.html",
+        "type": "official",
+        "title": "Payどんのメール通知情報に漏えいのおそれ",
+        "published_on": "2026-10-28",
+        "checked_on": "2026-10-29"
+      }
+    ],
+    "hiroshima-childcare-diaries-20261028": [
+      {
+        "url": "https://www.city.hiroshima.lg.jp/shisei/kouhou/1004010/1045546/1053867/1054734.html",
+        "type": "official",
+        "title": "児童館・放課後児童クラブの日誌の紛失と誤廃棄",
+        "published_on": "2026-10-28",
+        "checked_on": "2026-10-29"
+      }
+    ],
+    "goods-oldshop-20261029": [
+      {
+        "url": "https://www.goods-co.net/blogs/news/security-incident-20261029",
+        "type": "official",
+        "title": "旧通販サイト約19,000名分の情報漏えいのおそれ",
+        "published_on": "2026-10-29",
+        "checked_on": "2026-10-29"
+      }
+    ],
+    "piece-sanjo-wasimil-20261029": [
+      {
+        "url": "https://piecehotel.com/jp/news/quPsYLsN",
+        "type": "official",
+        "title": "宿泊予約・チェックイン情報に漏えいのおそれ",
+        "published_on": "2026-10-29",
+        "checked_on": "2026-10-29"
+      }
+    ],
+    "wowow-sagawa-20261029": [
+      {
+        "url": "https://news.wowow.co.jp/5826.html",
+        "type": "official",
+        "title": "配送先200名の個人情報漏えいのおそれ",
+        "published_on": "2026-10-29",
+        "checked_on": "2026-10-29"
+      }
+    ],
+    "subway-dirigio-20261028": [
+      {
+        "url": "https://www.subway.co.jp/news/bhi2h9kf00mf",
+        "type": "official",
+        "title": "SUBWAY公式モバイルオーダーへの不正アクセス（29日更新）",
+        "published_on": "2026-10-28",
+        "checked_on": "2026-10-29"
+      }
+    ],
+    "tbs-shopping-mail-20261028": [
+      {
+        "url": "https://shopping.tbs.co.jp/tbs/info",
+        "type": "official",
+        "title": "個人情報漏洩に関するお詫びとお知らせ",
+        "published_on": "2026-10-28",
+        "checked_on": "2026-10-29"
+      },
+      {
+        "url": "https://news.livedoor.com/article/detail/32677756/",
+        "type": "news",
+        "title": "共同通信：TBS、業務委託先で流出（28日の発表と報道）",
+        "published_on": "2026-10-28",
+        "checked_on": "2026-10-29"
+      }
+    ],
+    "ana-amadeus-20261029": [
+      {
+        "url": "https://finance.yahoo.co.jp/news/detail/8b830bba672dfe7254c2d339cd0a124c2eb3b549",
+        "type": "news",
+        "title": "ロイター：全日空、顧客情報が一部参照された可能性",
+        "published_on": "2026-10-29",
+        "checked_on": "2026-10-29"
+      }
+    ],
+    "jfe-chemical-20261021": [
+      {
+        "url": "https://www.jfe-chem.com/uploads/2026/10/baa6f7b08015cd87b11014e01d51141e.pdf",
+        "type": "official",
+        "title": "IT環境への不正アクセスと情報漏洩（第一報）",
+        "published_on": "2026-10-21",
+        "checked_on": "2026-10-29"
+      },
+      {
+        "url": "https://www.jfe-chem.com/uploads/2026/10/5d39f850d21f5b45caec8589b42bacf9.pdf",
+        "type": "official",
+        "title": "IT環境への不正アクセスと情報漏洩（第二報）",
+        "published_on": "2026-10-28",
+        "checked_on": "2026-10-29"
+      }
+    ],
+    "geniee-studio-20261021": [
+      {
+        "url": "https://geniee.co.jp/ir/news/17343/",
+        "type": "official",
+        "title": "外部サービスへの不正アクセス（初報21日・29日追記）",
+        "published_on": "2026-10-29",
+        "checked_on": "2026-10-29"
+      }
+    ],
+    "broadleaf-monodukuri-blastmail-20261023": [
+      {
+        "url": "https://www.broadleaf.co.jp/company/news/news_detail/?itemid=371&dispmid=1001",
+        "type": "official",
+        "title": "メール配信サービスへの不正アクセスに伴う情報漏洩",
+        "published_on": "2026-10-23",
+        "checked_on": "2026-10-29"
+      },
+      {
+        "url": "https://www.broadleaf.co.jp/company/news/news_detail/?dispmid=1001&itemid=372",
+        "type": "official",
+        "title": "メール配信サービスへの不正アクセス（第2報）",
+        "published_on": "2026-10-29",
+        "checked_on": "2026-10-29"
+      }
+    ],
+    "aki-health-misdelivery-20261028": [
+      {
+        "url": "https://www.city.aki.kochi.jp/life/dtl.php?hdnKey=8930",
+        "type": "official",
+        "title": "精密検査依頼文書の誤送付",
+        "published_on": "2026-10-28",
+        "checked_on": "2026-10-29"
+      }
+    ]
+  }
+}

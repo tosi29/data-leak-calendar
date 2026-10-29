@@ -1,5 +1,5 @@
 {
-  "checked_on": "2026-10-21",
+  "checked_on": "2026-10-29",
   "coverage_start": "2026-06-01",
   "coverage_end": "2026-10-21",
   "scope": "国内組織・国内サービスの公表。海外事例の独立した掘り起こしは対象外。公表日と報道日・発生日を区別。",
@@ -34839,6 +34839,90 @@
         "新規43件には、27～28日の調査・続報から判明した過去初報の未掲載事案を含む。43件すべてがこの2日間に発生した攻撃ではない。",
         "従来の確認待ち59件は今回解消済みとせず維持。新たな5件は本文・公表日・自然人の対象範囲等を確認待ちとして残す。",
         "対象外とした公表で「漏えい未確認」を漏えいの最終否定に置き換えない。複数組織・区分間で被害人数や件数を単純合算しない。"
+      ]
+    },
+    {
+      "checked_on": "2026-10-29",
+      "scope": "28～29日の新規公表・続報と前回保留5件の確認",
+      "stats": {
+        "baseline_incidents": 1669,
+        "added_incidents": 27,
+        "updated_incidents": 7,
+        "total_incidents": 1696,
+        "baseline_candidates": 64,
+        "resolved_candidates": 2,
+        "new_candidates": 0,
+        "pending_candidates": 62,
+        "index_checks": 72,
+        "index_decisions": {
+          "published": 31,
+          "excluded": 11,
+          "existing": 23,
+          "unresolved": 1,
+          "updated": 6
+        }
+      },
+      "added_incident_ids": [
+        "kanmu-vandle-analysis-20261029",
+        "nel-osina-20261029",
+        "energia-sagawa-20261029",
+        "nagaoka-sports-studio-20261029",
+        "moi-twitcasting-20261028",
+        "eneos-power-denki-20261028",
+        "sonylife-medicare-20261028",
+        "medicarelife-sonylife-20261028",
+        "arara-message-20261028",
+        "storiiy-warehouse-20261028",
+        "animate-cuenote-20261028",
+        "lifecard-cuenote-20261028",
+        "kawagoe-school-studio-20261028",
+        "miyagi-island-living-20261028",
+        "gametrade-20261028",
+        "paydon-arara-20261028",
+        "hiroshima-childcare-diaries-20261028",
+        "goods-oldshop-20261029",
+        "piece-sanjo-wasimil-20261029",
+        "wowow-sagawa-20261029",
+        "subway-dirigio-20261028",
+        "tbs-shopping-mail-20261028",
+        "ana-amadeus-20261029",
+        "jfe-chemical-20261021",
+        "geniee-studio-20261021",
+        "broadleaf-monodukuri-blastmail-20261023",
+        "aki-health-misdelivery-20261028"
+      ],
+      "updated_incident_ids": [
+        "asahi-cuenote-20261026",
+        "impress-cuenote-20261027",
+        "sweep-7340c0fb3799-20261023",
+        "ntt-solmare-cmoa-20261016",
+        "onamae-desktop-20261023",
+        "rakus-blastmail-20261021",
+        "sukesan-attendance-20261027"
+      ],
+      "resolved_candidate_ids": [
+        "oct28-update-sonylife",
+        "oct28-update-tbs-shopping"
+      ],
+      "reviewed_pending_candidate_ids": [
+        "oct28-update-kyushufg",
+        "oct28-update-icc-support",
+        "oct28-update-yakult"
+      ],
+      "report": "docs/research-2026-10-29-oct28-29-update.md",
+      "audit": "data/research-2026-10-29-oct28-29-update.json",
+      "method": [
+        "10月28・29日の年月日・スラッシュ・ドット表記と、漏えい・漏洩・不正アクセス・紛失・誤送信等を組み合わせて検索。転載サイトや既掲載の大規模事案を除外した検索も併用。",
+        "日付別索引33行、横断索引23行、対象日の続報16行を照合。計72行には重複があり、事案件数とは異なる。収集キャッシュ全件を精査したという意味ではない。",
+        "公式HTML・PDFの本文を優先。カンムの人数表は画像を確認。TBSのモーダル本文と公表日の報道、ソニー生命については関係当事者メディケア生命の公式資料で補完。",
+        "提供元と利用組織、人数と契約・カード・文書件数、公表日と発生日を区別。同一組織・事案の続報は既存IDを維持。"
+      ],
+      "limitations": [
+        "29日に確認できた公表・続報が対象。完全な網羅や29日終了までの公表を保証しない。",
+        "新規27件には21日・23日初報の未掲載事案の補完を含む。27件すべてが28～29日に発生したものではない。",
+        "ANAはReuters配信記事で確認し、verificationはsecondary。ソニー生命の自社PDFは直接取得できず、メディケア生命の公式発表を根拠とした。",
+        "前回追加の保留5件中2件を解消。九州FG証券・ICC・ヤクルトは保留継続。従来の候補すべてを再調査したものではない。",
+        "複数組織・区分間で対象者が重なるため単純合算しない。カンムの2区分、ソニー生命とメディケア生命、提供元と利用組織が該当する。"
       ]
     }
   ]

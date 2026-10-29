@@ -1,0 +1,62 @@
+{
+  "id": "jfe-chemical-20261021",
+  "organization": {
+    "name": "JFEケミカル",
+    "sector": "企業・団体"
+  },
+  "title": "IT環境への侵入による取引先・社員等の個人情報漏えい",
+  "summary": "28日の第2報で、取得されたデータに個人情報が含まれることを確認。取得済みまたは取得のおそれがある規模を最大約23万件と公表。",
+  "published_on": "2026-10-21",
+  "first_published_on": "2026-10-21",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-10-14",
+  "updated_on": "2026-10-29",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。侵入手口の詳細は調査中。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": 230000,
+      "unit": "records",
+      "qualifier": "maximum_approximate",
+      "description": "流出確認と流出のおそれのある情報を含む最大規模。重複や単独では個人を特定できない情報も含む。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "所属先",
+    "電話番号",
+    "メールアドレス等"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.jfe-chem.com/uploads/2026/10/baa6f7b08015cd87b11014e01d51141e.pdf",
+      "type": "official",
+      "title": "IT環境への不正アクセスと情報漏洩（第一報）",
+      "published_on": "2026-10-21",
+      "checked_on": "2026-10-29"
+    },
+    {
+      "url": "https://www.jfe-chem.com/uploads/2026/10/5d39f850d21f5b45caec8589b42bacf9.pdf",
+      "type": "official",
+      "title": "IT環境への不正アクセスと情報漏洩（第二報）",
+      "published_on": "2026-10-28",
+      "checked_on": "2026-10-29"
+    }
+  ],
+  "updates": [
+    {
+      "date": "2026-10-28",
+      "summary": "個人情報を含む流出を確認し、最大約23万件の対象規模を公表。",
+      "source_index": 1
+    }
+  ],
+  "notes": "取引先・社外関係者のカード・口座情報の流出は確認範囲で否定。社員分まで一律に否定したとは扱わない。"
+}

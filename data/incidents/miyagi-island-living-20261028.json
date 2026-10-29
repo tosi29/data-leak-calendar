@@ -1,0 +1,65 @@
+{
+  "id": "miyagi-island-living-20261028",
+  "organization": {
+    "name": "宮城県",
+    "sector": "自治体"
+  },
+  "title": "離島キャンペーンのフォトコンテスト申込者情報に漏えいのおそれ",
+  "summary": "委託先仙台リビング新聞社が使う親会社サンケイリビング新聞社のサーバーへの侵入で、フォーム申込者18名の情報に漏えいの可能性。",
+  "published_on": "2026-10-28",
+  "first_published_on": "2026-10-28",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-29",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。侵入手口の詳細は調査中。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": 18,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表された対象規模。実際の流出確認範囲とは区別する。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "生年月日",
+    "電話番号",
+    "メールアドレス",
+    "応募写真"
+  ],
+  "related_vendor": "仙台リビング新聞社",
+  "sources": [
+    {
+      "url": "https://www.pref.miyagi.jp/soshiki/sinkou/ritou_20261028.html",
+      "type": "official",
+      "title": "離島キャンペーンのフォトコンテスト申込者情報に漏えいのおそれ",
+      "published_on": "2026-10-28",
+      "checked_on": "2026-10-29"
+    }
+  ],
+  "updates": [],
+  "notes": "Instagram応募と別システムのデジタルスタンプラリーは対象外。提供元や他の利用組織の公表と対象が重複し得るため単純合算しない。",
+  "vendors": [
+    {
+      "name": "仙台リビング新聞社",
+      "role": "operations",
+      "detail": "離島へ行こうキャンペーン実施業務の委託先。",
+      "source_index": 0
+    },
+    {
+      "name": "サンケイリビング新聞社",
+      "role": "operations",
+      "detail": "委託先が利用する侵害対象サーバーを運営。",
+      "source_index": 0
+    }
+  ]
+}

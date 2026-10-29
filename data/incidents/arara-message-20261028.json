@@ -1,0 +1,59 @@
+{
+  "id": "arara-message-20261028",
+  "organization": {
+    "name": "アララ（ペイクラウドホールディングス）",
+    "sector": "企業・団体"
+  },
+  "title": "アララ メッセージの宛先メールアドレス約301万件流出",
+  "summary": "メール配信サービスの一部環境から宛先リストのメールアドレス約301万件が流出。29日に親会社がWebサーバーの脆弱性悪用を公表。",
+  "published_on": "2026-10-28",
+  "first_published_on": "2026-10-28",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-10-28",
+  "updated_on": "2026-10-29",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "vulnerability",
+    "detail": "対象環境のWebサーバーの脆弱性を第三者が悪用。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 3010000,
+      "unit": "records",
+      "qualifier": "approximate",
+      "description": "環境bvam001のエンドユーザーリスト。利用企業別の対象は調査中。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://am.arara.com/news/2026102802",
+      "type": "official",
+      "title": "メール配信サービス停止および個人情報流出の報告",
+      "published_on": "2026-10-28",
+      "checked_on": "2026-10-29"
+    },
+    {
+      "url": "https://www.release.tdnet.info/inbs/140120261029558961.pdf",
+      "type": "official",
+      "title": "子会社システムへの不正アクセスに関するお知らせ",
+      "published_on": "2026-10-29",
+      "checked_on": "2026-10-29"
+    }
+  ],
+  "updates": [
+    {
+      "date": "2026-10-29",
+      "summary": "親会社がWebサーバーの脆弱性を原因と公表。",
+      "source_index": 1
+    }
+  ],
+  "notes": "28日時点でメールアドレス以外の流出は未確認。再開時期は未定。提供元や他の利用組織の公表と対象が重複し得るため単純合算しない。"
+}

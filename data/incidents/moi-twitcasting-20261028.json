@@ -1,0 +1,68 @@
+{
+  "id": "moi-twitcasting-20261028",
+  "organization": {
+    "name": "モイ",
+    "sector": "企業・団体"
+  },
+  "title": "ツイキャスの個人情報7件への外部アクセス",
+  "summary": "29日の第2報で個人情報7件へのアクセス痕跡を確認。アカウントID・メールアドレスを一部含むサーバーログへのアクセスも確認し、範囲を調査中。",
+  "published_on": "2026-10-28",
+  "first_published_on": "2026-10-28",
+  "publication_kind": "initial",
+  "occurred_on": "2026-10-28",
+  "detected_on": "2026-10-28",
+  "updated_on": "2026-10-29",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。侵入手口の詳細は調査中。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": 7,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "アクセスの痕跡を確認した個人情報。カード関連1件とメール等6件。"
+    },
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "サーバーログの対象規模は調査中。7件と合算しない。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス",
+    "活動履歴",
+    "カード有効期限・暗号化された名義（1件）",
+    "アカウントID（ログの一部）"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.release.tdnet.info/inbs/140120261028558252.pdf",
+      "type": "official",
+      "title": "サーバーへの不正アクセス（第1報）",
+      "published_on": "2026-10-28",
+      "checked_on": "2026-10-29"
+    },
+    {
+      "url": "https://www.release.tdnet.info/inbs/140120261029559851.pdf",
+      "type": "official",
+      "title": "サーバーへの不正アクセス（第2報）",
+      "published_on": "2026-10-29",
+      "checked_on": "2026-10-29"
+    }
+  ],
+  "updates": [
+    {
+      "date": "2026-10-29",
+      "summary": "個人情報7件およびサーバーログへのアクセスを公表。",
+      "source_index": 1
+    }
+  ],
+  "notes": "28日は停止・侵入の公表のみで掲載を見送っていたが、29日の具体的な個人情報へのアクセス確認により初報日に収録。カード番号・セキュリティコードは保持していない。大規模流出や本人確認書類の流出可能性は現段階で認められないと説明。"
+}

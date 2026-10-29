@@ -5,13 +5,13 @@
     "sector": "企業・団体"
   },
   "title": "イベント等のメール配信先情報が流出したおそれ",
-  "summary": "Cuenote FCに登録したアドレス帳が10月16日午後に不正出力された可能性。27日追記で、対象は主にイベント関連の登録情報で大半はメールアドレスと説明した。",
+  "summary": "Cuenote FCのアドレス帳から、イベント等で登録された延べ70,921件の情報が流出したおそれ。購読登録情報は対象外。",
   "published_on": "2026-10-26",
   "first_published_on": "2026-10-26",
   "publication_kind": "initial",
   "occurred_on": null,
   "detected_on": null,
-  "updated_on": "2026-10-27",
+  "updated_on": "2026-10-29",
   "verification": "official",
   "leak_status": "suspected",
   "incident_type": "attack",
@@ -22,15 +22,15 @@
   },
   "impact": [
     {
-      "count": null,
+      "count": 70921,
       "unit": "records",
-      "qualifier": "unknown",
-      "description": "対象人数・情報件数は調査中または未公表。"
+      "qualifier": "exact",
+      "description": "イベント等の登録情報の延べ件数。購読登録情報とは別。"
     }
   ],
   "data_types": [
     "メールアドレス",
-    "氏名等（詳細確認中）"
+    "氏名・学校名等（一部）"
   ],
   "related_vendor": "ユミルリンク株式会社",
   "sources": [
@@ -40,6 +40,13 @@
       "title": "イベント等のメール配信先情報が流出したおそれ",
       "published_on": "2026-10-26",
       "checked_on": "2026-10-27"
+    },
+    {
+      "url": "https://www.asahi.com/corporate/info/17004624",
+      "type": "official",
+      "title": "対象は延べ70,921件。9割超はメールアドレスのみで、一部に氏名・学校名等を含む。",
+      "published_on": "2026-10-29",
+      "checked_on": "2026-10-29"
     }
   ],
   "updates": [
@@ -47,6 +54,11 @@
       "date": "2026-10-27",
       "summary": "カード情報・ログインパスワードは対象外と追記。イベント等関連の登録者が中心で、大半はメールアドレスと説明。",
       "source_index": 0
+    },
+    {
+      "date": "2026-10-29",
+      "summary": "対象は延べ70,921件。9割超はメールアドレスのみで、一部に氏名・学校名等を含む。",
+      "source_index": 1
     }
   ],
   "notes": "",

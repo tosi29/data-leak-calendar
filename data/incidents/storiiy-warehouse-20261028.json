@@ -1,0 +1,51 @@
+{
+  "id": "storiiy-warehouse-20261028",
+  "organization": {
+    "name": "STORiiY",
+    "sector": "企業・団体"
+  },
+  "title": "配送委託先の倉庫管理システムから顧客情報漏えいのおそれ",
+  "summary": "配送委託先が利用する倉庫管理システムへの侵入で、10月23日以前の発送手配客の情報が流出した可能性が高いと確認。",
+  "published_on": "2026-10-28",
+  "first_published_on": "2026-10-28",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-29",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。侵入手口の詳細は調査中。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "対象人数・件数は未公表または調査中。"
+    }
+  ],
+  "data_types": [
+    "氏名・フリガナ",
+    "性別",
+    "電話番号・メールアドレス・FAX・住所",
+    "顧客番号",
+    "支払方法・金額・ポイント・購入明細・定期情報・自由項目",
+    "後払い取引ID・請求額・期限・支払用番号"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://storiiy.com/notice/20261028/",
+      "type": "official",
+      "title": "配送委託先の倉庫管理システムから顧客情報漏えいのおそれ",
+      "published_on": "2026-10-28",
+      "checked_on": "2026-10-29"
+    }
+  ],
+  "updates": [],
+  "notes": "24日以降の初回利用者は対象外。配送・システム事業者名は未公表。ログインパスワード・カード番号は現時点の対象に含まれない。"
+}

@@ -5,13 +5,13 @@
     "sector": "企業・団体"
   },
   "title": "勤怠システムの設定不備による従業員情報の閲覧可能性",
-  "summary": "管理・運用委託先カホエンタープライズのサーバー設定不備により、2021年10月～2026年10月に在籍した従業員・退職者の情報が外部から閲覧できた可能性。",
+  "summary": "委託先サーバーの設定不備を公表。29日の調査では格納領域に認証があり、実際の漏えい・改ざんは確認されていないが、可能性を完全には排除できず調査を継続。",
   "published_on": "2026-10-27",
   "first_published_on": "2026-10-27",
   "publication_kind": "initial",
   "occurred_on": null,
   "detected_on": null,
-  "updated_on": "2026-10-28",
+  "updated_on": "2026-10-29",
   "verification": "official",
   "leak_status": "suspected",
   "incident_type": "accident",
@@ -36,21 +36,34 @@
     "賃金履歴",
     "勤怠実績",
     "入社日・退社日（一部）",
-    "退職理由（一部）",
+    "退職理由の管理用区分数字（一部）",
     "社会保険加入履歴（一部）"
   ],
   "related_vendor": "カホエンタープライズ",
   "sources": [
     {
-      "url": "https://www.sukesanudon.mom/news/news-8014/",
+      "url": "https://www.sukesanudon.com/news/news-8014/",
       "type": "official",
       "title": "勤怠システムの設定不備による従業員情報の閲覧可能性",
       "published_on": "2026-10-27",
-      "checked_on": "2026-10-28"
+      "checked_on": "2026-10-29"
+    },
+    {
+      "url": "https://www.sukesanudon.com/news/news-8023/",
+      "type": "official",
+      "title": "第2報：格納領域は別途認証が必要で自由な閲覧状態ではなかったと説明。退職理由は区分数字のみ。調査の技術的限界により漏えいの可能性は完全には否定せず。",
+      "published_on": "2026-10-29",
+      "checked_on": "2026-10-29"
     }
   ],
-  "updates": [],
-  "notes": "公式本文で対象人数は未公表のため不明とする。実際の閲覧や不正利用を確認したという意味ではない。",
+  "updates": [
+    {
+      "date": "2026-10-29",
+      "summary": "第2報：格納領域は別途認証が必要で自由な閲覧状態ではなかったと説明。退職理由は区分数字のみ。調査の技術的限界により漏えいの可能性は完全には否定せず。",
+      "source_index": 1
+    }
+  ],
+  "notes": "第2報に基づき退職理由の具体的経緯・事情は含まれず、銀行口座情報も含まれないと追記。漏えい可能性を完全に排除できないためsuspectedを維持。初報を公式.comの同内容で再確認しURLを修正。",
   "vendors": [
     {
       "name": "カホエンタープライズ",

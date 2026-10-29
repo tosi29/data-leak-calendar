@@ -1,0 +1,48 @@
+{
+  "id": "hiroshima-childcare-diaries-20261028",
+  "organization": {
+    "name": "広島市",
+    "sector": "自治体"
+  },
+  "title": "児童館・放課後児童クラブの日誌の紛失と誤廃棄",
+  "summary": "全施設の点検で4施設の日誌紛失と2施設の期限前廃棄が判明。日誌に記載された児童の姓・学年・活動情報が対象。",
+  "published_on": "2026-10-28",
+  "first_published_on": "2026-10-28",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-08-28",
+  "updated_on": "2026-10-29",
+  "verification": "official",
+  "leak_status": "lost",
+  "incident_type": "accident",
+  "cause": {
+    "category": "loss",
+    "detail": "書庫への返却等の管理不徹底と保存期限の誤認識。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "対象人数・件数は未公表または調査中。"
+    }
+  ],
+  "data_types": [
+    "児童の姓",
+    "学年",
+    "クラブ内活動の様子"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.city.hiroshima.lg.jp/shisei/kouhou/1004010/1045546/1053867/1054734.html",
+      "type": "official",
+      "title": "児童館・放課後児童クラブの日誌の紛失と誤廃棄",
+      "published_on": "2026-10-28",
+      "checked_on": "2026-10-29"
+    }
+  ],
+  "updates": [],
+  "notes": "4紛失施設の在籍・登録児童数は184・115・103・35人、廃棄2施設は73・36人。ただし全児童が日誌に記載されるわけではないため、対象人数として集計しない。9月11日の一斉点検で追加判明した6施設を、市の一括公表に対応する1記録として区分を保持。"
+}

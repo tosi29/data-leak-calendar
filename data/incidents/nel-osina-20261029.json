@@ -1,0 +1,53 @@
+{
+  "id": "nel-osina-20261029",
+  "organization": {
+    "name": "NEL",
+    "sector": "企業・団体"
+  },
+  "title": "osina会員・取引先担当者等の情報漏えい",
+  "summary": "データ分析ツールの脆弱性を悪用した侵入で個人情報が流出。個人情報保護委員会への速報対象者数は235,329人。",
+  "published_on": "2026-10-29",
+  "first_published_on": "2026-10-29",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-10-14",
+  "updated_on": "2026-10-29",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "vulnerability",
+    "detail": "利用するデータ分析ツールの脆弱性を悪用。ツール名は公表されていない。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 235329,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表された対象規模。実際の流出確認範囲とは区別する。"
+    }
+  ],
+  "data_types": [
+    "会員の氏名・住所・電話番号・生年月日",
+    "銀行口座情報・報酬額",
+    "SNSアカウント名・連携認証情報",
+    "外部ログインID・利用履歴",
+    "取引先担当者の氏名・メールアドレス・ハッシュ化パスワード",
+    "問い合わせ情報",
+    "提携候補クリエイターの活動名・年齢・性別・居住地・SNS情報",
+    "IPアドレス等"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.nel-all.com/news/632/",
+      "type": "official",
+      "title": "osina会員・取引先担当者等の情報漏えい",
+      "published_on": "2026-10-29",
+      "checked_on": "2026-10-29"
+    }
+  ],
+  "updates": [],
+  "notes": "235,329人は10月17日提出の速報の人数。会員のメールアドレス・パスワードは保有していないが、取引先担当者の同項目は対象。カード情報は取り扱っていない。"
+}

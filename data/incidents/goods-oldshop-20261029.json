@@ -1,0 +1,51 @@
+{
+  "id": "goods-oldshop-20261029",
+  "organization": {
+    "name": "グッズ",
+    "sector": "企業・団体"
+  },
+  "title": "旧通販サイト約19,000名分の情報漏えいのおそれ",
+  "summary": "管理会社の点検で不正プログラムと顧客情報取得を試みた痕跡を確認。旧通販サイトを廃止し新サイトへ移行。",
+  "published_on": "2026-10-29",
+  "first_published_on": "2026-10-29",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-10-22",
+  "updated_on": "2026-10-29",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。侵入手口の詳細は調査中。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": 19000,
+      "unit": "people",
+      "qualifier": "approximate",
+      "description": "旧サイト登録会員。実際の持出しはログ不足で特定できない。"
+    }
+  ],
+  "data_types": [
+    "氏名・フリガナ",
+    "住所・電話・FAX・メール",
+    "性別・職業・生年月日（一部）",
+    "会社名・屋号・担当者名（一部）",
+    "購入履歴",
+    "変換して保存した旧ログインパスワード"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.goods-co.net/blogs/news/security-incident-20261029",
+      "type": "official",
+      "title": "旧通販サイト約19,000名分の情報漏えいのおそれ",
+      "published_on": "2026-10-29",
+      "checked_on": "2026-10-29"
+    }
+  ],
+  "updates": [],
+  "notes": "カード決済を扱っておらずカード情報は対象外。28日は新サイトの公開日、侵入・漏えい可能性の公表は29日。"
+}

@@ -1,0 +1,53 @@
+{
+  "id": "tbs-shopping-mail-20261028",
+  "organization": {
+    "name": "TBSグロウディア（TBSショッピング）",
+    "sector": "企業・団体"
+  },
+  "title": "会員メールアドレス等の流出",
+  "summary": "業務委託先が使うメール配信システムへの不正アクセスにより、最大49,995人分（延べ人数）のメールアドレス等の流出を確認。",
+  "published_on": "2026-10-28",
+  "first_published_on": "2026-10-28",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-29",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。侵入手口の詳細は調査中。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": 49995,
+      "unit": "people",
+      "qualifier": "maximum",
+      "description": "延べ人数による最大対象。総会員約110万人は被害人数ではない。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス等"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://shopping.tbs.co.jp/tbs/info",
+      "type": "official",
+      "title": "個人情報漏洩に関するお詫びとお知らせ",
+      "published_on": "2026-10-28",
+      "checked_on": "2026-10-29"
+    },
+    {
+      "url": "https://news.livedoor.com/article/detail/32677756/",
+      "type": "news",
+      "title": "共同通信：TBS、業務委託先で流出（28日の発表と報道）",
+      "published_on": "2026-10-28",
+      "checked_on": "2026-10-29"
+    }
+  ],
+  "updates": [],
+  "notes": "公式モーダル本文で内容を確認し、28日の発表日を共同通信で補完。10月16日は流出の確認日。氏名・住所・電話・カードは対象外。委託先・配信システム名は未公表。"
+}

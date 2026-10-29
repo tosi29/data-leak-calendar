@@ -11,7 +11,7 @@
   "publication_kind": "followup",
   "occurred_on": null,
   "detected_on": null,
-  "updated_on": "2026-10-28",
+  "updated_on": "2026-10-29",
   "verification": "official",
   "leak_status": "confirmed",
   "incident_type": "attack",
@@ -80,6 +80,13 @@
       "title": "28日12時更新：外部調査を継続し、11月11日のサービス再開を目標と案内。OEM版の再開時期は未定。",
       "published_on": "2026-10-28",
       "checked_on": "2026-10-28"
+    },
+    {
+      "url": "https://info.blastmail.jp/information_20261021.html",
+      "type": "official",
+      "title": "29日更新：新たな漏えい判明はなく345契約のまま。総務省への報告・警視庁への通報と、自治体の個人情報保護委員会への代行報告受付を案内。",
+      "published_on": "2026-10-29",
+      "checked_on": "2026-10-29"
     }
   ],
   "updates": [
@@ -107,6 +114,11 @@
       "date": "2026-10-28",
       "summary": "28日12時更新：外部調査を継続し、11月11日のサービス再開を目標と案内。OEM版の再開時期は未定。",
       "source_index": 5
+    },
+    {
+      "date": "2026-10-29",
+      "summary": "29日更新：新たな漏えい判明はなく345契約のまま。総務省への報告・警視庁への通報と、自治体の個人情報保護委員会への代行報告受付を案内。",
+      "source_index": 6
     }
   ],
   "notes": "345件は契約数であり、人数や流出情報件数ではない。27日12時30分時点も外部調査は継続し再開日は未定。"

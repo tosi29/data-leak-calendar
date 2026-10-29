@@ -1,0 +1,52 @@
+{
+  "id": "sonylife-medicare-20261028",
+  "organization": {
+    "name": "ソニー生命保険",
+    "sector": "企業・団体"
+  },
+  "title": "代理店システムへの不正アクセスによる保険契約情報漏えい",
+  "summary": "ソニー生命の契約者専用サイト等への不正アクセスで、同社が代理店として扱うメディケア生命の契約者・被保険者情報約38.5万件が漏えい。",
+  "published_on": "2026-10-28",
+  "first_published_on": "2026-10-28",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-29",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。侵入手口の詳細は調査中。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": 385000,
+      "unit": "records",
+      "qualifier": "approximate",
+      "description": "ソニー生命が募集したメディケア生命契約の情報。両社の公表は同じ対象。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "生年月日",
+    "性別",
+    "住所",
+    "電話番号",
+    "証券番号",
+    "契約内容"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://news.medicarelife.com/info/down2.php?attach_id=SsDCRvieTHw%3D&category=588&page=2&seq=12715",
+      "type": "official",
+      "title": "保険代理店のシステムへの不正アクセスに伴うお客さま情報の漏えいについて",
+      "published_on": "2026-10-28",
+      "checked_on": "2026-10-29"
+    }
+  ],
+  "updates": [],
+  "notes": "メディケア生命の当事者公式資料で確認。ソニー生命の直接PDFはTLS接続失敗のため本文未確認であり、確認済み出典には含めない。マイナンバー・カード・保険料振替口座は対象外。提供元や他の利用組織の公表と対象が重複し得るため単純合算しない。"
+}

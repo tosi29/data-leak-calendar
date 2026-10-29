@@ -1,0 +1,56 @@
+{
+  "id": "wowow-sagawa-20261029",
+  "organization": {
+    "name": "WOWOW",
+    "sector": "企業・団体"
+  },
+  "title": "配送先200名の個人情報漏えいのおそれ",
+  "summary": "佐川急便のお荷物問い合わせサービスへの侵入で、委託先経由のe飛伝による賞品発送等の配送先が対象となった可能性。",
+  "published_on": "2026-10-29",
+  "first_published_on": "2026-10-29",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-29",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。侵入手口の詳細は調査中。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": 200,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表された対象規模。実際の流出確認範囲とは区別する。"
+    }
+  ],
+  "data_types": [
+    "配送先氏名",
+    "住所",
+    "電話番号"
+  ],
+  "related_vendor": "佐川急便",
+  "sources": [
+    {
+      "url": "https://news.wowow.co.jp/5826.html",
+      "type": "official",
+      "title": "配送先200名の個人情報漏えいのおそれ",
+      "published_on": "2026-10-29",
+      "checked_on": "2026-10-29"
+    }
+  ],
+  "updates": [],
+  "notes": "2026年6～9月の対象配送先。契約者以外の賞品送付先も含む。カード・口座・ログインパスワードは対象外。提供元や他の利用組織の公表と対象が重複し得るため単純合算しない。",
+  "vendors": [
+    {
+      "name": "佐川急便",
+      "role": "service",
+      "detail": "公表に記載された対象サービスの提供元。",
+      "source_index": 0
+    }
+  ]
+}
