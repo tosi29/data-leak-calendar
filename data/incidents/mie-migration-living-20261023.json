@@ -1,0 +1,55 @@
+{
+  "id": "mie-migration-living-20261023",
+  "organization": {
+    "name": "三重県",
+    "sector": "自治体"
+  },
+  "title": "移住セミナー委託先サイトから申込・アンケート情報が流出した可能性",
+  "summary": "移住セミナー委託先サイトから申込・アンケート情報が流出した可能性。",
+  "published_on": "2026-10-23",
+  "first_published_on": "2026-10-23",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-31",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。侵入手口の詳細は未公表または調査中。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": 156,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "申込者の延べ人数。"
+    },
+    {
+      "count": 75,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "アンケート回答の延べ人数。申込者と重複し得る。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "メールアドレス",
+    "住所・電話番号（任意）",
+    "アンケート回答"
+  ],
+  "related_vendor": "株式会社サンケイリビング新聞社",
+  "sources": [
+    {
+      "url": "https://www.ijyu.pref.mie.lg.jp/news/notice/16517/",
+      "type": "official",
+      "title": "移住セミナー委託先サイトから申込・アンケート情報が流出した可能性",
+      "published_on": "2026-10-23",
+      "checked_on": "2026-10-31"
+    }
+  ],
+  "updates": [],
+  "notes": "30日公表のメール配信サービス側の別侵害と区別する。"
+}

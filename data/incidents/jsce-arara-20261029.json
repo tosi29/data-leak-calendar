@@ -1,0 +1,46 @@
+{
+  "id": "jsce-arara-20261029",
+  "organization": {
+    "name": "土木学会",
+    "sector": "企業・団体"
+  },
+  "title": "メールニュース等の配信先情報への影響を調査",
+  "summary": "メールニュース等の配信先情報への影響を調査。",
+  "published_on": "2026-10-29",
+  "first_published_on": "2026-10-29",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-31",
+  "verification": "official",
+  "leak_status": "investigating",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。侵入手口の詳細は未公表または調査中。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "対象件数は未公表または調査中。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "アララ株式会社（アララ メッセージ）",
+  "sources": [
+    {
+      "url": "https://committees.jsce.or.jp/jsceoffice/node/218",
+      "type": "official",
+      "title": "メールニュース等の配信先情報への影響を調査",
+      "published_on": "2026-10-29",
+      "checked_on": "2026-10-31"
+    }
+  ],
+  "updates": [],
+  "notes": "提供元の漏えいに学会登録アドレスが含まれるか調査中。提供元全体の件数を転用しない。"
+}

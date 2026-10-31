@@ -1,0 +1,47 @@
+{
+  "id": "mofa-network-20261030",
+  "organization": {
+    "name": "外務省",
+    "sector": "官公庁"
+  },
+  "title": "外部通信用ネットワークへの侵入でメール等に漏えいのおそれ",
+  "summary": "外部通信用ネットワークへの侵入でメール等に漏えいのおそれ。",
+  "published_on": "2026-10-30",
+  "first_published_on": "2026-10-30",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-07-27",
+  "updated_on": "2026-10-31",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。侵入手口の詳細は未公表または調査中。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": 3600,
+      "unit": "records",
+      "qualifier": "approximate",
+      "description": "公表された対象規模。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス",
+    "氏名等"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.mofa.go.jp/mofaj/press/release/pressit_000001_04395.html",
+      "type": "official",
+      "title": "外部通信用ネットワークへの侵入でメール等に漏えいのおそれ",
+      "published_on": "2026-10-30",
+      "checked_on": "2026-10-31"
+    }
+  ],
+  "updates": [],
+  "notes": "約900件の省外関係者情報は約3,600件の内数。機密性の高い情報を扱う閉域ネットワークではなく、機密情報の混入も未確認。"
+}

@@ -1,0 +1,53 @@
+{
+  "id": "alc-news-blastmail-20261023",
+  "organization": {
+    "name": "アルク",
+    "sector": "企業・団体"
+  },
+  "title": "ALC News +のメール配信先情報が漏えい",
+  "summary": "ALC News +のメール配信先情報が漏えい。",
+  "published_on": "2026-10-23",
+  "first_published_on": "2026-10-23",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-10-22",
+  "updated_on": "2026-10-31",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。侵入手口の詳細は未公表または調査中。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": 320000,
+      "unit": "records",
+      "qualifier": "approximate",
+      "description": "公表された対象規模。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス",
+    "内部管理番号・テキスト（一部）"
+  ],
+  "related_vendor": "株式会社ラクスライトクラウド（ブラストメール）",
+  "sources": [
+    {
+      "url": "https://www.alc.co.jp/2026/10/23/1996",
+      "type": "official",
+      "title": "ALC News +のメール配信先情報が漏えい",
+      "published_on": "2026-10-30",
+      "checked_on": "2026-10-31"
+    }
+  ],
+  "updates": [
+    {
+      "date": "2026-10-30",
+      "summary": "一部利用者の内部管理番号・テキストも対象と説明。他メールマガジンの漏えいは未確認。",
+      "source_index": 0
+    }
+  ],
+  "notes": "30日時点の第2報を確認。氏名・住所・電話・パスワード・カード情報は配信環境に登録していない。"
+}

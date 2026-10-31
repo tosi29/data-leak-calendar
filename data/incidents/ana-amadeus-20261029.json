@@ -11,8 +11,8 @@
   "publication_kind": "initial",
   "occurred_on": null,
   "detected_on": null,
-  "updated_on": "2026-10-29",
-  "verification": "secondary",
+  "updated_on": "2026-10-31",
+  "verification": "official",
   "leak_status": "confirmed",
   "incident_type": "attack",
   "cause": {
@@ -39,10 +39,23 @@
       "title": "ロイター：全日空、顧客情報が一部参照された可能性",
       "published_on": "2026-10-29",
       "checked_on": "2026-10-29"
+    },
+    {
+      "url": "https://www.anahd.co.jp/group/pr/202610/notification.html",
+      "type": "official",
+      "title": "29日付ANA公式公表を確認し、確認区分を二次資料から公式資料へ更新。",
+      "published_on": "2026-10-29",
+      "checked_on": "2026-10-31"
     }
   ],
-  "updates": [],
-  "notes": "当事者の29日発表を報じるロイター本文で確認。公式一覧・検索では当該本文に到達できず二次資料扱い。JAL・JTAの人数・項目・侵入期間をANAへ転用しない。confirmedは参照の形跡確認を示し、持出しや全容の確定を意味しない。",
+  "updates": [
+    {
+      "date": "2026-10-29",
+      "summary": "29日付ANA公式公表を確認し、確認区分を二次資料から公式資料へ更新。",
+      "source_index": 1
+    }
+  ],
+  "notes": "ANA公式本文でアマデウスからの報告と個人情報参照の形跡を確認。対象者・項目・件数は未公表。JAL・JTAの件数や項目を転用しない。参照の形跡確認であり、持ち出しの全容確定ではない。",
   "vendors": [
     {
       "name": "Amadeus IT Group, S.A.",

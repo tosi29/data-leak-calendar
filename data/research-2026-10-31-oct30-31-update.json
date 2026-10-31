@@ -1,0 +1,1334 @@
+{
+  "checked_on": "2026-10-31",
+  "scope": "30～31日までの新着・続報と29日の未掲載分、過去初報・前回保留の補完",
+  "stats": {
+    "baseline_incidents": 1696,
+    "added_incidents": 46,
+    "updated_incidents": 11,
+    "total_incidents": 1742,
+    "baseline_candidates": 62,
+    "resolved_candidates": 2,
+    "new_candidates": 2,
+    "pending_candidates": 62,
+    "index_checks": 80,
+    "index_decisions": {
+      "published": 45,
+      "existing": 13,
+      "excluded": 7,
+      "updated": 13,
+      "unresolved": 2
+    }
+  },
+  "added_incident_ids": [
+    "world-tinpanalley-20261030",
+    "matsuya-app-20261030",
+    "tokyu-land-green-20261030",
+    "ryohin-muji-app-20261030",
+    "praise-net-cuenote-20261030",
+    "coade-hanikujiland-20261030",
+    "ryobi-aitel-20261030",
+    "west-mitsubishi-mail-20261030",
+    "japanticket-analysis-20261030",
+    "yamanashi-fuji-japanticket-20261030",
+    "csc-jfg-japanticket-20261030",
+    "ltr-chiikawa-japanticket-20261030",
+    "kddi-lifenet-link-20261030",
+    "atami-travelzip-20261030",
+    "kanagawa-onkana-blastmail-20261029",
+    "japanpost-international-mail-20261029",
+    "elestyle-oneqr-elepay-20261029",
+    "cuisine-kingdom-20261029",
+    "jsce-arara-20261029",
+    "clubnets-cnpoint-20261029",
+    "imano-osaka-wasimil-20261029",
+    "ntt-smile-ecomegane-20261029",
+    "dirigio-picks-20261030",
+    "nihon-kotsu-system-20260713",
+    "dhc-shop-20261030",
+    "ganesha-shogun-dirigio-20261030",
+    "eplus-porno-fesapp-20261030",
+    "vook-analysis-20261030",
+    "katashina-wymail-20261025",
+    "alc-news-blastmail-20261023",
+    "speee-property-logins-20261022",
+    "thinq-studio-20261022",
+    "mie-migration-living-20261023",
+    "mie-migration-cuenote-20261030",
+    "saga-univ-ransom-20260925",
+    "ramrock-ec-20260825",
+    "mofa-network-20261030",
+    "ehime-park-mail-20261030",
+    "yakult-website-20261026",
+    "kyushufg-seminar-20261028",
+    "jinjer-leafea-studio-20261030",
+    "chuo-oshigoto-studio-20261030",
+    "okinawa-mice-blastmail-20261030",
+    "panasonic-hr-ai-20261023",
+    "refact-nurikae-20261022",
+    "nagoya-naka-medical-documents-20261030"
+  ],
+  "updated_incident_ids": [
+    "hana-cupid-20261028",
+    "arara-message-20261028",
+    "valuecommerce-cuenote-20261026",
+    "sweep-9067b9c8cd27-20261023",
+    "east-mitsubishi-mail-20261013",
+    "onamae-desktop-20261023",
+    "rakus-blastmail-20261021",
+    "sweep-7340c0fb3799-20261023",
+    "piece-sanjo-wasimil-20261029",
+    "ana-amadeus-20261029",
+    "kagoshima-industry-blastmail-20261022"
+  ],
+  "resolved_candidate_ids": [
+    "oct28-update-kyushufg",
+    "oct28-update-yakult"
+  ],
+  "reviewed_pending_candidate_ids": [
+    "oct28-update-icc-support"
+  ],
+  "new_candidate_ids": [
+    "oct31-update-ida",
+    "oct31-update-irisplaza"
+  ],
+  "method": [
+    "10月29～31日の日付表記、漏えい・漏洩・不正アクセス・誤送信・紛失を組み合わせ、既出大規模事案や転載サイトの除外検索も併用。",
+    "日付別索引31行、横断索引24行、続報索引25行の計80行を照合。索引行数は重複を含み、事案件数や全取得ページの精査件数ではない。",
+    "公式HTML・PDFを優先。自治体の報道発表、企業の公式一覧、前回保留候補の続報も調査。九州FG証券・パナソニックは直接取得の制限をブラウザー経由で補完。",
+    "既存IDを維持して続報・件数訂正を追記。人数、延べ件数、アカウント、カード、注文を区別し、提供元と利用組織の対象者を合算しない。"
+  ],
+  "limitations": [
+    "31日の調査時点で確認できた公表を対象とする。31日終了までの公表や完全な網羅を保証しない。",
+    "新規46件には7～10月の初報の未掲載分も含む。46件すべてが30～31日に発生・公表されたものではない。",
+    "31日付で確認したワイズマンの復旧案内は、個人情報の具体的影響が確認できず除外。新規掲載の初報日は30日以前。",
+    "iDAは公式本文を取得できず、アイリスプラザは具体的影響待ち。ICCは公式一覧の確認であり、従来の候補62件すべてを再調査したものではない。",
+    "サイト停止・一般的な注意喚起だけでは漏えいと認定しない。漏えい未確認と、漏えいがないとの確定判断を区別する。"
+  ],
+  "report": "docs/research-2026-10-31-oct30-31-update.md",
+  "audit": "data/research-2026-10-31-oct30-31-update.json",
+  "index_checks": [
+    {
+      "group": "leads",
+      "row": 1,
+      "index_url": "https://jouhourouei.clipmaster.jp/cases/87a338bf1f35b4ac",
+      "title": "2026/10/30   ワールド（連結子会社 ティンパンアレイ） ティンパンアレイの業務サーバー（会員情報）   A 外部攻撃 漏えいのおそれ  会員情報 延べ約120万件（対象者・件数の詳細は確認中）",
+      "source_urls": [
+        "https://www.release.tdnet.info/inbs/140120261030560364.pdf"
+      ],
+      "decision": "published",
+      "incident_ids": [
+        "world-tinpanalley-20261030"
+      ],
+      "reason": "公式本文と既存記録を照合。組織・同一事案の重複は追加件数に数えない。"
+    },
+    {
+      "group": "leads",
+      "row": 2,
+      "index_url": "https://jouhourouei.clipmaster.jp/cases/399bfc2e52cdd7e9",
+      "title": "2026/10/30   松屋フーズホールディングス 松屋公式アプリ（松弁ネット・モバイルオーダー・松弁デリバリー）の管理システム   A 外部攻撃 漏えい確認  松弁ネット・モバイルオーダー・松弁デリバリーの利用者 2,377,127件、アプリ会員 2,000件（最大3,000件となる可能性）",
+      "source_urls": [
+        "https://www.release.tdnet.info/inbs/140120261030561172.pdf"
+      ],
+      "decision": "published",
+      "incident_ids": [
+        "matsuya-app-20261030"
+      ],
+      "reason": "公式本文と既存記録を照合。組織・同一事案の重複は追加件数に数えない。"
+    },
+    {
+      "group": "leads",
+      "row": 3,
+      "index_url": "https://jouhourouei.clipmaster.jp/cases/564f072e359134be",
+      "title": "2026/10/30   東急不動産 「GREEN CROSS PARK 公式サイト」「GREENUP Cooldown Project 公式サイト」（AWS 共同サーバー環境）   A 外部攻撃 漏えいのおそれ  4,082件（GREEN CROSS PARK 会員登録情報 4,079件、GREENUP Cooldown Project 問い合わせ情報 3件）",
+      "source_urls": [
+        "https://www.tokyu-land.co.jp/news/uploads/4e81382e895fcd779559705843fcb56f83846c28.pdf"
+      ],
+      "decision": "published",
+      "incident_ids": [
+        "tokyu-land-green-20261030"
+      ],
+      "reason": "公式本文と既存記録を照合。組織・同一事案の重複は追加件数に数えない。"
+    },
+    {
+      "group": "leads",
+      "row": 4,
+      "index_url": "https://jouhourouei.clipmaster.jp/cases/1317612069e67181",
+      "title": "2026/10/30   良品計画 無印良品の公式アプリ「MUJIアプリ」   A 外部攻撃 漏えいのおそれ  最大 約2,726万件（退会した顧客の情報を含む）",
+      "source_urls": [
+        "https://prtimes.jp/main/html/rd/p/000001877.000000987.html"
+      ],
+      "decision": "published",
+      "incident_ids": [
+        "ryohin-muji-app-20261030"
+      ],
+      "reason": "公式本文と既存記録を照合。組織・同一事案の重複は追加件数に数えない。"
+    },
+    {
+      "group": "leads",
+      "row": 5,
+      "index_url": "https://jouhourouei.clipmaster.jp/cases/0eaa97971cbc30a1",
+      "title": "2026/10/30   日本製薬団体連合会・日本製薬工業協会・東京医薬品工業協会・関西医薬品協会（Cuenote FC不正アクセス） 会員団体・企業向けシステム「PRAISE-NET」のメール配信   A 外部攻撃 漏えいのおそれ  メールアドレス 30,750件（2026年10月29日確認時点）",
+      "source_urls": [
+        "https://www.jpma.or.jp/news_room/release/2026/261030.html"
+      ],
+      "decision": "published",
+      "incident_ids": [
+        "praise-net-cuenote-20261030"
+      ],
+      "reason": "公式本文と既存記録を照合。組織・同一事案の重複は追加件数に数えない。"
+    },
+    {
+      "group": "leads",
+      "row": 6,
+      "index_url": "https://jouhourouei.clipmaster.jp/cases/5562f29cb942d55a",
+      "title": "2026/10/30   コアデ オンラインくじサイト「はにくじランド」   A 外部攻撃 漏えいのおそれ  最大 7,622名",
+      "source_urls": [
+        "https://www.coade-net.co.jp/blog/topics/38538/"
+      ],
+      "decision": "published",
+      "incident_ids": [
+        "coade-hanikujiland-20261030"
+      ],
+      "reason": "公式本文と既存記録を照合。組織・同一事案の重複は追加件数に数えない。"
+    },
+    {
+      "group": "leads",
+      "row": 7,
+      "index_url": "https://jouhourouei.clipmaster.jp/cases/5373f67b80d2be5c",
+      "title": "2026/10/30   両備システムズ 健診予約システム「AITEL」   A 外部攻撃 漏えい確認  778件（漏えい 1団体・773件、漏えいのおそれ 3団体・5件）",
+      "source_urls": [
+        "https://www.ryobi.co.jp/news/2026/202061030"
+      ],
+      "decision": "published",
+      "incident_ids": [
+        "ryobi-aitel-20261030"
+      ],
+      "reason": "公式本文と既存記録を照合。組織・同一事案の重複は追加件数に数えない。"
+    },
+    {
+      "group": "leads",
+      "row": 8,
+      "index_url": "https://jouhourouei.clipmaster.jp/cases/eb0127d40e251009",
+      "title": "2026/10/30   西日本三菱自動車販売 社員の業務用 Microsoft 365 アカウント（メール）   A 外部攻撃 漏えいのおそれ  非公表",
+      "source_urls": [
+        "https://west-mitsubishi-motor-sales.com/news/p=112040"
+      ],
+      "decision": "published",
+      "incident_ids": [
+        "west-mitsubishi-mail-20261030"
+      ],
+      "reason": "公式本文と既存記録を照合。組織・同一事案の重複は追加件数に数えない。"
+    },
+    {
+      "group": "leads",
+      "row": 9,
+      "index_url": "https://jouhourouei.clipmaster.jp/cases/d8cb378f79022bc3",
+      "title": "2026/10/30   Japanticket 予約・販売サービス「JapanTicket」が利用する外部分析ツール   A 外部攻撃 漏えい確認  最大約26.4万件（精査中）",
+      "source_urls": [
+        "https://www.japanticket.com/news-20261029/"
+      ],
+      "decision": "published",
+      "incident_ids": [
+        "japanticket-analysis-20261030"
+      ],
+      "reason": "公式本文と既存記録を照合。組織・同一事案の重複は追加件数に数えない。"
+    },
+    {
+      "group": "leads",
+      "row": 10,
+      "index_url": "https://jouhourouei.clipmaster.jp/cases/9b928b66e236e071",
+      "title": "2026/10/30   山梨県（Japanticket不正アクセス） 令和6年度「山梨県富士山吉田ルート通行予約システム」の利用者（受託企業 JapanTicket）   A 外部攻撃 漏えいのおそれ  約7万件（最大約26.4万件の漏えい分に含まれるかは調査中）",
+      "source_urls": [
+        "https://www.pref.yamanashi.jp/fujisan/261030.html"
+      ],
+      "decision": "published",
+      "incident_ids": [
+        "yamanashi-fuji-japanticket-20261030"
+      ],
+      "reason": "公式本文と既存記録を照合。組織・同一事案の重複は追加件数に数えない。"
+    },
+    {
+      "group": "leads",
+      "row": 11,
+      "index_url": "https://jouhourouei.clipmaster.jp/cases/eda098f9d64793a1",
+      "title": "2026/10/30   CS-C（Japanticket不正アクセス） インバウンド向け飲食店・食体験予約サービス「Japan Food Guide」   A 外部攻撃 漏えい確認  非公表（Japanticketに特定を要請中）",
+      "source_urls": [
+        "https://s-cs-c.com/news/20261030/"
+      ],
+      "decision": "published",
+      "incident_ids": [
+        "csc-jfg-japanticket-20261030"
+      ],
+      "reason": "公式本文と既存記録を照合。組織・同一事案の重複は追加件数に数えない。"
+    },
+    {
+      "group": "leads",
+      "row": 12,
+      "index_url": "https://jouhourouei.clipmaster.jp/cases/e8bebeb1d9e38918",
+      "title": "2026/10/30   ちいかわベーカリー（Japanticket不正アクセス） 優先入場券の予約サイト「Japanticket」   A 外部攻撃 漏えい確認  非公表",
+      "source_urls": [
+        "https://chiikawabakery.jp/20261030_news/"
+      ],
+      "decision": "published",
+      "incident_ids": [
+        "ltr-chiikawa-japanticket-20261030"
+      ],
+      "reason": "公式本文と既存記録を照合。組織・同一事案の重複は追加件数に数えない。"
+    },
+    {
+      "group": "leads",
+      "row": 13,
+      "index_url": "https://jouhourouei.clipmaster.jp/cases/232cb260cbeeecc2",
+      "title": "2026/10/30   KDDI・ライフネット生命保険 ライフネット生命のKDDI連携システム（「auの生命ほけん」）   A 外部攻撃 漏えいのおそれ  22,541件",
+      "source_urls": [
+        "https://newsroom.kddi.com/news/assets/2026/kddi_nr_s-82_4796/kddi_nr_s-82_4796_pdf_01.pdf"
+      ],
+      "decision": "published",
+      "incident_ids": [
+        "kddi-lifenet-link-20261030"
+      ],
+      "reason": "公式本文と既存記録を照合。組織・同一事案の重複は追加件数に数えない。"
+    },
+    {
+      "group": "leads",
+      "row": 14,
+      "index_url": "https://jouhourouei.clipmaster.jp/cases/69a91375fcd605e1",
+      "title": "2026/10/30   熱海市観光協会（トラベルジップへの不正アクセス） 観光協会公式サイト「あたみニュース」のお問い合わせフォーム   A 外部攻撃 漏えい確認  966件（重複を除く）",
+      "source_urls": [
+        "https://www.ataminews.gr.jp/notices/471"
+      ],
+      "decision": "published",
+      "incident_ids": [
+        "atami-travelzip-20261030"
+      ],
+      "reason": "公式本文と既存記録を照合。組織・同一事案の重複は追加件数に数えない。"
+    },
+    {
+      "group": "leads",
+      "row": 15,
+      "index_url": "https://jouhourouei.clipmaster.jp/cases/0f537e0941f166f5",
+      "title": "2026/10/29   カンム プリペイドカード「バンドルカード」のアプリ・サポートサイト   E 誤送付等 委託先サービスへの誤送信（第三者への流出は確認されていない）  アプリ 5,161,998人、サポートサイト 590,594人（公表時点。重複あり）",
+      "source_urls": [
+        "https://kanmu.co.jp/news/20261029-corporate-announcement/"
+      ],
+      "decision": "existing",
+      "incident_ids": [
+        "kanmu-vandle-analysis-20261029"
+      ],
+      "reason": "公式本文と既存記録を照合。組織・同一事案の重複は追加件数に数えない。"
+    },
+    {
+      "group": "leads",
+      "row": 16,
+      "index_url": "https://jouhourouei.clipmaster.jp/cases/0abc16b0308cd62d",
+      "title": "2026/10/29   NEL 推しとブランドを繋げるプラットフォーム「osina」   A 外部攻撃 漏えい確認  235,329人（10/17に個人情報保護委員会へ提出した速報の人数）",
+      "source_urls": [
+        "https://www.nel-all.com/news/632/"
+      ],
+      "decision": "existing",
+      "incident_ids": [
+        "nel-osina-20261029"
+      ],
+      "reason": "公式本文と既存記録を照合。組織・同一事案の重複は追加件数に数えない。"
+    },
+    {
+      "group": "leads",
+      "row": 17,
+      "index_url": "https://jouhourouei.clipmaster.jp/cases/ebdfce5690ad3905",
+      "title": "2026/10/29   かっこ アドフラウド対策サービス「X-log」が利用するメール配信サービス   A 外部攻撃 漏えいは確認されていない  資料に明記なし",
+      "source_urls": [
+        "https://cacco.co.jp/news/20261029_information/"
+      ],
+      "decision": "excluded",
+      "incident_ids": [],
+      "reason": "メール配信停止・調査のお知らせ。自社顧客情報の具体的な漏えい影響は未確認。"
+    },
+    {
+      "group": "leads",
+      "row": 18,
+      "index_url": "https://jouhourouei.clipmaster.jp/cases/74c70fcf8a37bc81",
+      "title": "2026/10/29   中国電力（佐川急便「お荷物問い合わせサービス」事案） 会員制WEBサイト「ぐっとずっと。クラブ」エネルギアポイントサービスの商品交換の配送先   A 外部攻撃 漏えいのおそれ  約17,600件（重複を含む）",
+      "source_urls": [
+        "https://www.energia.co.jp/assets/info/2026/info20261029.pdf"
+      ],
+      "decision": "existing",
+      "incident_ids": [
+        "energia-sagawa-20261029"
+      ],
+      "reason": "公式本文と既存記録を照合。組織・同一事案の重複は追加件数に数えない。"
+    },
+    {
+      "group": "leads",
+      "row": 19,
+      "index_url": "https://jouhourouei.clipmaster.jp/cases/d1565f021105c832",
+      "title": "2026/10/29   長岡市（Studio不正アクセス） 指定管理施設「悠久山野球場」「栃尾体育施設」ホームページのお問い合わせフォーム   A 外部攻撃 漏えいのおそれ（調査中）  79件（悠久山野球場63件、栃尾体育施設16件）",
+      "source_urls": [
+        "https://www.city.nagaoka.niigata.jp/shisei/cate02/houdou-shiryou/file/20261029-05.pdf"
+      ],
+      "decision": "existing",
+      "incident_ids": [
+        "nagaoka-sports-studio-20261029"
+      ],
+      "reason": "公式本文と既存記録を照合。組織・同一事案の重複は追加件数に数えない。"
+    },
+    {
+      "group": "leads",
+      "row": 20,
+      "index_url": "https://jouhourouei.clipmaster.jp/cases/22a65f59720cfbb7",
+      "title": "2026/10/29   神奈川県（ブラストメール不正アクセス） 「かながわ地球温暖化防止活動支援コーナー」のメールマガジン「温カナ！news」（委託先 かながわアジェンダ推進センターが利用）   A 外部攻撃 漏えいのおそれ  メールアドレス 約7,800件",
+      "source_urls": [
+        "https://www.pref.kanagawa.jp/docs/ap4/prs/r5309411.html"
+      ],
+      "decision": "published",
+      "incident_ids": [
+        "kanagawa-onkana-blastmail-20261029"
+      ],
+      "reason": "公式本文と既存記録を照合。組織・同一事案の重複は追加件数に数えない。"
+    },
+    {
+      "group": "leads",
+      "row": 21,
+      "index_url": "https://jouhourouei.clipmaster.jp/cases/b52d21ddbb49cfe0",
+      "title": "2026/10/29   日本郵便（委託先のメール配信サービスへの不正アクセス） 「国際郵便マイページサービス」会員向け案内メールの配信   A 外部攻撃 漏えいのおそれ  非公表（各種案内メールの配信を希望した一部の会員）",
+      "source_urls": [
+        "https://www.post.japanpost.jp/newsrelease/pressrelease/01175116571.html"
+      ],
+      "decision": "published",
+      "incident_ids": [
+        "japanpost-international-mail-20261029"
+      ],
+      "reason": "公式本文と既存記録を照合。組織・同一事案の重複は追加件数に数えない。"
+    },
+    {
+      "group": "leads",
+      "row": 22,
+      "index_url": "https://jouhourouei.clipmaster.jp/cases/8a8736c8cf3731ac",
+      "title": "2026/10/29   鹿児島相互信用金庫（アララ メッセージ不正アクセス） キャッシュレス決済アプリ「Payどん」のメール通知   A 外部攻撃 漏えいのおそれ  資料に明記なし",
+      "source_urls": [
+        "https://www.shinkin.co.jp/kasosin/news/pdf/2026/fba0bd9119ab7a209214529bc83bbfd18618f3ef.pdf"
+      ],
+      "decision": "existing",
+      "incident_ids": [
+        "paydon-arara-20261028"
+      ],
+      "reason": "公式本文と既存記録を照合。組織・同一事案の重複は追加件数に数えない。"
+    },
+    {
+      "group": "leads",
+      "row": 23,
+      "index_url": "https://jouhourouei.clipmaster.jp/cases/a57a703d15441ddf",
+      "title": "2026/10/29   ELESTYLE 「OneQR」「elepay」の管理システムの一部機能   A 外部攻撃 漏えいのおそれ  加盟店の登録情報 7,162件",
+      "source_urls": [
+        "https://elestyle.jp/20261029-report"
+      ],
+      "decision": "published",
+      "incident_ids": [
+        "elestyle-oneqr-elepay-20261029"
+      ],
+      "reason": "公式本文と既存記録を照合。組織・同一事案の重複は追加件数に数えない。"
+    },
+    {
+      "group": "leads",
+      "row": 24,
+      "index_url": "https://jouhourouei.clipmaster.jp/cases/2a42c2056fb823e3",
+      "title": "2026/10/29   「料理王国」編集部 「料理王国ウェブマガジン」   A 外部攻撃 漏えい確認  約8,000件（延べ件数）",
+      "source_urls": [
+        "https://cuisine-kingdom.com/pdf/202610.pdf"
+      ],
+      "decision": "published",
+      "incident_ids": [
+        "cuisine-kingdom-20261029"
+      ],
+      "reason": "公式本文と既存記録を照合。組織・同一事案の重複は追加件数に数えない。"
+    },
+    {
+      "group": "leads",
+      "row": 25,
+      "index_url": "https://jouhourouei.clipmaster.jp/cases/2a555df0b0ee0647",
+      "title": "2026/10/29   グッズ 旧通販サイト「goods-co.net」のサーバー   A 外部攻撃 漏えいのおそれ  旧サイトの会員 約19,000名（会員登録せずに注文した利用者は調査中）",
+      "source_urls": [
+        "https://www.goods-co.net/blogs/news/security-incident-20261029"
+      ],
+      "decision": "existing",
+      "incident_ids": [
+        "goods-oldshop-20261029"
+      ],
+      "reason": "公式本文と既存記録を照合。組織・同一事案の重複は追加件数に数えない。"
+    },
+    {
+      "group": "leads",
+      "row": 26,
+      "index_url": "https://jouhourouei.clipmaster.jp/cases/53a90d2bf516ea01",
+      "title": "2026/10/29   土木学会（アララ メッセージ不正アクセス） メールニュース・会員相談窓口などのメール配信（アララメッセージ）   A 外部攻撃 漏えいのおそれ  調査中",
+      "source_urls": [
+        "https://committees.jsce.or.jp/jsceoffice/node/218"
+      ],
+      "decision": "published",
+      "incident_ids": [
+        "jsce-arara-20261029"
+      ],
+      "reason": "公式本文と既存記録を照合。組織・同一事案の重複は追加件数に数えない。"
+    },
+    {
+      "group": "leads",
+      "row": 27,
+      "index_url": "https://jouhourouei.clipmaster.jp/cases/6087936852175a51",
+      "title": "2026/10/29   クラブネッツ 「CNポイント」のサテライトシステム（CNエクスチェンジ・CNコンテンツ・CNモニター）   A 外部攻撃 漏えいのおそれ  CN会員ID・氏名 16,936件、CN会員ID・氏名・メールアドレス・電話番号・住所 2,857件（いずれもユニーク件数、別々のデータベース）",
+      "source_urls": [
+        "https://www.clubnets.jp/infos/id/221"
+      ],
+      "decision": "published",
+      "incident_ids": [
+        "clubnets-cnpoint-20261029"
+      ],
+      "reason": "公式本文と既存記録を照合。組織・同一事案の重複は追加件数に数えない。"
+    },
+    {
+      "group": "leads",
+      "row": 28,
+      "index_url": "https://jouhourouei.clipmaster.jp/cases/60a92eb77d247443",
+      "title": "2026/10/29   PIECE HOSTEL SANJO（株式会社PIECE）（WASIMIL不正アクセス） ホテル管理システム「WASIMIL」   A 外部攻撃 漏えいのおそれ  非公表",
+      "source_urls": [
+        "https://piecehotel.com/jp/news/6xIeAuj4"
+      ],
+      "decision": "updated",
+      "incident_ids": [
+        "piece-sanjo-wasimil-20261029"
+      ],
+      "reason": "公式本文と既存記録を照合。組織・同一事案の重複は追加件数に数えない。"
+    },
+    {
+      "group": "leads",
+      "row": 29,
+      "index_url": "https://jouhourouei.clipmaster.jp/cases/906dfc752a66f690",
+      "title": "2026/10/29   30 PIECES Namba（株式会社PIECE）（WASIMIL不正アクセス） ホテル管理システム「WASIMIL」   A 外部攻撃 漏えいのおそれ  非公表",
+      "source_urls": [
+        "https://piecehotel.com/jp/news/D6clIOiF"
+      ],
+      "decision": "updated",
+      "incident_ids": [
+        "piece-sanjo-wasimil-20261029"
+      ],
+      "reason": "公式本文と既存記録を照合。組織・同一事案の重複は追加件数に数えない。"
+    },
+    {
+      "group": "leads",
+      "row": 30,
+      "index_url": "https://jouhourouei.clipmaster.jp/cases/bd7862e81ff6734a",
+      "title": "2026/10/29   IMANO OSAKA SHINSAIBASHI HOSTEL（WASIMIL不正アクセス） 宿泊管理システム「WASIMIL」   A 外部攻撃 漏えい確認  非公表（項目・件数は調査中）",
+      "source_urls": [
+        "https://imano.jp/osaka/204-2/"
+      ],
+      "decision": "published",
+      "incident_ids": [
+        "imano-osaka-wasimil-20261029"
+      ],
+      "reason": "公式本文と既存記録を照合。組織・同一事案の重複は追加件数に数えない。"
+    },
+    {
+      "group": "leads",
+      "row": 31,
+      "index_url": "https://jouhourouei.clipmaster.jp/cases/2fa099a362af7f0a",
+      "title": "2026/10/29   NTTスマイルエナジー 太陽光発電遠隔監視サービス「エコめがね」   A 外部攻撃 漏えいのおそれ  精査中",
+      "source_urls": [
+        "https://nttse.com/news/2026/10-29/3284/",
+        "https://nttse.com/news/pressrelease/2026/10-30/3288/"
+      ],
+      "decision": "published",
+      "incident_ids": [
+        "ntt-smile-ecomegane-20261029"
+      ],
+      "reason": "公式本文と既存記録を照合。組織・同一事案の重複は追加件数に数えない。"
+    },
+    {
+      "group": "cross",
+      "row": 1,
+      "index_url": null,
+      "title": "10/30  DIRIGIO（モバイルオーダー「PICKS」の提供元）  10月27日、第三者がAPI経由で客情報の管理システムに侵入し情報を持ち出していたことが判明。全サービスを止め、29日10時か",
+      "source_urls": [
+        "https://dirigio.jp/news/release20261030"
+      ],
+      "decision": "published",
+      "incident_ids": [
+        "dirigio-picks-20261030"
+      ],
+      "reason": "公式本文と既存記録を照合。組織・同一事案の重複は追加件数に数えない。"
+    },
+    {
+      "group": "cross",
+      "row": 2,
+      "index_url": null,
+      "title": "10/30    日本交通  （社内システム。ハイヤー・採用・人事など）  7月11日の社内システムへの不正アクセス（マルウェア感染）について、外部専門機関の調査結果をもとに、個人情報が漏えいした可能",
+      "source_urls": [
+        "https://www.nihon-kotsu.co.jp/news/20261030-3479/"
+      ],
+      "decision": "published",
+      "incident_ids": [
+        "nihon-kotsu-system-20260713"
+      ],
+      "reason": "公式本文と既存記録を照合。組織・同一事案の重複は追加件数に数えない。"
+    },
+    {
+      "group": "cross",
+      "row": 3,
+      "index_url": null,
+      "title": "10/30   DHC （DHCオンラインショップ）  10月28日、第三者による不正アクセスと会員情報の書き換えを確認。一部アカウントの会員情報の変更、不正な新規会員登録、不正な注文があった。原因の",
+      "source_urls": [
+        "https://dhc-corporate.co.jp/cms_dH8vjpRq/wp-content/uploads/2026/10/0deb6f2426f1d5ab2b2b1824288b374d.pdf"
+      ],
+      "decision": "published",
+      "incident_ids": [
+        "dhc-shop-20261030"
+      ],
+      "reason": "公式本文と既存記録を照合。組織・同一事案の重複は追加件数に数えない。"
+    },
+    {
+      "group": "cross",
+      "row": 4,
+      "index_url": null,
+      "title": "10/30   KDDI・ライフネット生命 （「auの生命ほけん」の連携システム）  ライフネット生命のKDDI連携システムが不正アクセスを受け、その脆弱性を通じてKDDIのシステムが持つ客の情報の一",
+      "source_urls": [
+        "https://www.lifenet-seimei.co.jp/shared/pdf/202610-30-news.pdf"
+      ],
+      "decision": "published",
+      "incident_ids": [
+        "kddi-lifenet-link-20261030"
+      ],
+      "reason": "公式本文と既存記録を照合。組織・同一事案の重複は追加件数に数えない。"
+    },
+    {
+      "group": "cross",
+      "row": 5,
+      "index_url": null,
+      "title": "10/30  ラムロック（ECサイト ramrock-eyes.jp）  ECサイトのサーバが不正アクセスを受け、注文した客の情報が漏洩した可能性。見守りカメラの管理サーバは別で、漏洩の恐れはないとし",
+      "source_urls": [
+        "https://www.ramrock.co.jp/uncategorized/%e3%80%90%e4%bb%a3%e7%90%86%e5%ba%97%e6%a7%98%e5%90%91%e3%81%91%e3%80%91%e5%bc%8a%e7%a4%beec%e3%82%b5%e3%82%a4%e3%83%88%e3%81%b8%e3%81%ae%e4%b8%8d%e6%ad%a3%e3%82%a2%e3%82%af%e3%82%bb%e3%82%b9%e3%81%8a/"
+      ],
+      "decision": "published",
+      "incident_ids": [
+        "ramrock-ec-20260825"
+      ],
+      "reason": "公式本文と既存記録を照合。組織・同一事案の重複は追加件数に数えない。"
+    },
+    {
+      "group": "cross",
+      "row": 6,
+      "index_url": null,
+      "title": "10/30  ガネーシャ（SHOGUN BURGER公式アプリ。システム運営会社はDIRIGIO）  アプリで利用しているシステムへの第三者の不正アクセスで、一部の客の個人情報の漏えいが判明。モバイル",
+      "source_urls": [
+        "https://shogun-burger.com/news/217"
+      ],
+      "decision": "published",
+      "incident_ids": [
+        "ganesha-shogun-dirigio-20261030"
+      ],
+      "reason": "公式本文と既存記録を照合。組織・同一事案の重複は追加件数に数えない。"
+    },
+    {
+      "group": "cross",
+      "row": 7,
+      "index_url": null,
+      "title": "10/30  iDA（求人サイト「MyBRANDS」）  10月21日〜22日、委託先で使っていたクラウドの管理用アクセスキーが不正に使われ、複製したデータベースから外部へデータが送られた記録を26日",
+      "source_urls": [
+        "https://ida-mode.com/lp/news/unauthorized-access-2026-10/"
+      ],
+      "decision": "unresolved",
+      "incident_ids": [],
+      "reason": "確認待ち候補に記録し、掲載・集計から除外。"
+    },
+    {
+      "group": "cross",
+      "row": 8,
+      "index_url": null,
+      "title": "10/30  イープラス（『ポルノ超特急2021』専用アプリ「FESアプリ」の管理システム）  前方指定観覧エリアの申込み情報を管理するシステムに、10月11日、管理画面への総当たり攻撃で第三者が侵入",
+      "source_urls": [
+        "https://support-qa.eplus.jp/hc/ja/articles/63706552326425"
+      ],
+      "decision": "published",
+      "incident_ids": [
+        "eplus-porno-fesapp-20261030"
+      ],
+      "reason": "公式本文と既存記録を照合。組織・同一事案の重複は追加件数に数えない。"
+    },
+    {
+      "group": "cross",
+      "row": 9,
+      "index_url": null,
+      "title": "10/30  外務省  報道によると、外部と通信できる外務省のネットワークへの侵入を発表。外務省サイトへの掲載は10/30時点で未確認  メールアドレスや氏名など（報道）  約3,600件（うち外務省",
+      "source_urls": [
+        "https://news.yahoo.co.jp/articles/796c48ca5f561fdba161f45dc164d3b26beb0eaf"
+      ],
+      "decision": "published",
+      "incident_ids": [
+        "mofa-network-20261030"
+      ],
+      "reason": "索引では公式未確認だったが、外務省の30日付公式本文を別途確認し掲載。"
+    },
+    {
+      "group": "cross",
+      "row": 10,
+      "index_url": null,
+      "title": "10/30    良品計画  （無印良品の公式アプリ「MUJIアプリ」）  アプリへの外部からの不正なアクセスを検知し、客の情報の一部が外部に流出した可能性を確認。該当箇所へのアクセスを遮断し修正を適",
+      "source_urls": [
+        "https://www.ryohin-keikaku.jp/news/articles/2026_1030_01"
+      ],
+      "decision": "published",
+      "incident_ids": [
+        "ryohin-muji-app-20261030"
+      ],
+      "reason": "公式本文と既存記録を照合。組織・同一事案の重複は追加件数に数えない。"
+    },
+    {
+      "group": "cross",
+      "row": 11,
+      "index_url": null,
+      "title": "10/30  Vook（映像制作メディア）  社内業務で使うデータ分析ツールの脆弱性を悪用され、ツール経由でデータベースに不正アクセス。10/14に不審なアカウントを見つけ、22日に情報取得の可能性を",
+      "source_urls": [
+        "https://vook.co.jp/574"
+      ],
+      "decision": "published",
+      "incident_ids": [
+        "vook-analysis-20261030"
+      ],
+      "reason": "公式本文と既存記録を照合。組織・同一事案の重複は追加件数に数えない。"
+    },
+    {
+      "group": "cross",
+      "row": 12,
+      "index_url": null,
+      "title": "10/30  両備システムズ（健診予約システム「AITEL」）  10月27日、利用者アカウントへの不正アクセスが疑われる形跡を確認。そのアカウントから他の利用者の個人情報へのアクセスが試みられ、閲覧",
+      "source_urls": [
+        "https://www.ryobi.co.jp/news/2026/202061030"
+      ],
+      "decision": "published",
+      "incident_ids": [
+        "ryobi-aitel-20261030"
+      ],
+      "reason": "公式本文と既存記録を照合。組織・同一事案の重複は追加件数に数えない。"
+    },
+    {
+      "group": "cross",
+      "row": 13,
+      "index_url": null,
+      "title": "10/30    松屋フーズHD  （松屋公式アプリ・松弁ネット・モバイルオーダー・松弁デリバリーの管理システム）  10月28日、アプリの管理システムへの第三者の不正アクセスで、登録された会員情報な",
+      "source_urls": [
+        "https://www.release.tdnet.info/inbs/140120261030561172.pdf"
+      ],
+      "decision": "published",
+      "incident_ids": [
+        "matsuya-app-20261030"
+      ],
+      "reason": "公式本文と既存記録を照合。組織・同一事案の重複は追加件数に数えない。"
+    },
+    {
+      "group": "cross",
+      "row": 14,
+      "index_url": null,
+      "title": "10/30    ワールド  （連結子会社ティンパンアレイの業務サーバー）  10月17日14時51分ごろ第三者が業務サーバーに侵入しデータを抽出。28日12時08分ごろに検知してサーバーを隔離し、経",
+      "source_urls": [
+        "https://www.release.tdnet.info/inbs/140120261030560364.pdf"
+      ],
+      "decision": "published",
+      "incident_ids": [
+        "world-tinpanalley-20261030"
+      ],
+      "reason": "公式本文と既存記録を照合。組織・同一事案の重複は追加件数に数えない。"
+    },
+    {
+      "group": "cross",
+      "row": 15,
+      "index_url": null,
+      "title": "10/29  クラブネッツ（CNポイントのサテライトシステム）  外部からの不正アクセスを確認し、CNエクスチェンジ・CNコンテンツ・CNモニターを停止。CNポイント本体は稼働中  CN会員ID・氏名",
+      "source_urls": [
+        "https://www.clubnets.jp/infos/id/221"
+      ],
+      "decision": "published",
+      "incident_ids": [
+        "clubnets-cnpoint-20261029"
+      ],
+      "reason": "公式本文と既存記録を照合。組織・同一事案の重複は追加件数に数えない。"
+    },
+    {
+      "group": "cross",
+      "row": 16,
+      "index_url": null,
+      "title": "10/29  ELESTYLE（決済の「elepay」・モバイルオーダーの「OneQR」）  10月25日9時半頃から16時頃まで、管理システムの一部機能のアクセス制御の不備を悪用した不正アクセス。同",
+      "source_urls": [
+        "https://elestyle.jp/20261029-report"
+      ],
+      "decision": "published",
+      "incident_ids": [
+        "elestyle-oneqr-elepay-20261029"
+      ],
+      "reason": "公式本文と既存記録を照合。組織・同一事案の重複は追加件数に数えない。"
+    },
+    {
+      "group": "cross",
+      "row": 17,
+      "index_url": null,
+      "title": "10/29  医薬品医療機器総合機構（PMDA）（医療機器WEB申請プラットフォーム「DWAP」）  10月23日から26日までの間、DWAPへの不正アクセスを確認。システム上の脆弱性への対応のため当",
+      "source_urls": [
+        "https://www.pmda.go.jp/about-pmda/news-release/0105.html"
+      ],
+      "decision": "excluded",
+      "incident_ids": [],
+      "reason": "DWAPへの侵入・停止で、具体的な個人情報の影響を確認できず。"
+    },
+    {
+      "group": "cross",
+      "row": 18,
+      "index_url": null,
+      "title": "10/29  アイリスプラザ（アイリスオーヤマ公式通販）  ECサイトで不正アクセスを確認し、サイトを一時停止。情報漏えいの可能性を含めて調査中  調査中。クレジットカード情報の漏えいは現時点で確認さ",
+      "source_urls": [
+        "https://www.irisohyama.co.jp/news/2026/?date=1029"
+      ],
+      "decision": "unresolved",
+      "incident_ids": [],
+      "reason": "確認待ち候補に記録し、掲載・集計から除外。"
+    },
+    {
+      "group": "cross",
+      "row": 19,
+      "index_url": null,
+      "title": "10/29  神奈川県（メールマガジン「温カナ!news」。配信はブラストメール）  委託先のかながわアジェンダ推進センターが使うメール配信サービス（ラクスライトクラウド）への不正アクセスで、登録者の",
+      "source_urls": [
+        "https://www.pref.kanagawa.jp/docs/ap4/prs/r5309411.html"
+      ],
+      "decision": "published",
+      "incident_ids": [
+        "kanagawa-onkana-blastmail-20261029"
+      ],
+      "reason": "公式本文と既存記録を照合。組織・同一事案の重複は追加件数に数えない。"
+    },
+    {
+      "group": "cross",
+      "row": 20,
+      "index_url": null,
+      "title": "10/29   全日本空輸（ANA） （旅客サービスシステムの委託先Amadeus）  Amadeusから、ANA便の予約情報に第三者の不正アクセスがあり、一部の客の個人情報が参照された形跡があると報",
+      "source_urls": [
+        "https://www.anahd.co.jp/group/pr/202610/notification.html"
+      ],
+      "decision": "updated",
+      "incident_ids": [
+        "ana-amadeus-20261029"
+      ],
+      "reason": "公式本文と既存記録を照合。組織・同一事案の重複は追加件数に数えない。"
+    },
+    {
+      "group": "cross",
+      "row": 21,
+      "index_url": null,
+      "title": "10/29  グッズ（旧通販サイト goods-co.net）  10月22日、サーバー管理会社の点検で旧サイトのサーバーに不正なプログラムが置かれていることが判明。23日に旧サイトを停止し、28日に",
+      "source_urls": [
+        "https://www.goods-co.net/blogs/news/security-incident-20261029"
+      ],
+      "decision": "existing",
+      "incident_ids": [
+        "goods-oldshop-20261029"
+      ],
+      "reason": "公式本文と既存記録を照合。組織・同一事案の重複は追加件数に数えない。"
+    },
+    {
+      "group": "cross",
+      "row": 22,
+      "index_url": null,
+      "title": "10/29  PIECE（京都などのホテル・ホステル。ホテルシステムはAZOOの「WASIMIL」）  WASIMILへの不正アクセスで、10月19日以前に予約した宿泊者の情報が漏えいした可能性。予約",
+      "source_urls": [
+        "https://piecehotel.com/jp/news/quPsYLsN"
+      ],
+      "decision": "updated",
+      "incident_ids": [
+        "piece-sanjo-wasimil-20261029"
+      ],
+      "reason": "公式本文と既存記録を照合。組織・同一事案の重複は追加件数に数えない。"
+    },
+    {
+      "group": "cross",
+      "row": 23,
+      "index_url": null,
+      "title": "10/29  WOWOW（プレゼント賞品などの配送。再委託先は佐川急便）  佐川急便の「お荷物問い合わせサービス」への不正アクセスを受けて調べたところ、6月〜9月に送り状発行システム「e飛伝」で配送を",
+      "source_urls": [
+        "https://news.wowow.co.jp/5826.html"
+      ],
+      "decision": "existing",
+      "incident_ids": [
+        "wowow-sagawa-20261029"
+      ],
+      "reason": "公式本文と既存記録を照合。組織・同一事案の重複は追加件数に数えない。"
+    },
+    {
+      "group": "cross",
+      "row": 24,
+      "index_url": null,
+      "title": "10/29   NEL（推し活のプラットフォーム「osina」）   利用していたデータ分析ツールの脆弱性を突かれ、個人情報が外部に流出（10月14日に発見、17日に個人情報保護委員会へ速報）  os",
+      "source_urls": [
+        "https://www.nel-all.com/news/632/"
+      ],
+      "decision": "existing",
+      "incident_ids": [
+        "nel-osina-20261029"
+      ],
+      "reason": "公式本文と既存記録を照合。組織・同一事案の重複は追加件数に数えない。"
+    },
+    {
+      "group": "follow",
+      "row": 1,
+      "index_url": "https://jouhourouei.clipmaster.jp/cases/bf7ef806937383c6",
+      "title": null,
+      "source_urls": [
+        "https://www.hana-cupid.co.jp/news/news/20261028/"
+      ],
+      "decision": "updated",
+      "incident_ids": [
+        "hana-cupid-20261028"
+      ],
+      "reason": "公式本文と既存記録を照合。組織・同一事案の重複は追加件数に数えない。"
+    },
+    {
+      "group": "follow",
+      "row": 2,
+      "index_url": "https://jouhourouei.clipmaster.jp/cases/49c5ef01e95e50f3",
+      "title": null,
+      "source_urls": [
+        "https://am.arara.com/news/2026102801",
+        "https://am.arara.com/news/2026102802",
+        "https://www.release.tdnet.info/inbs/140120261029558961.pdf",
+        "https://am.arara.com/news/2026103001"
+      ],
+      "decision": "updated",
+      "incident_ids": [
+        "arara-message-20261028"
+      ],
+      "reason": "公式本文と既存記録を照合。組織・同一事案の重複は追加件数に数えない。"
+    },
+    {
+      "group": "follow",
+      "row": 3,
+      "index_url": "https://jouhourouei.clipmaster.jp/cases/181e53bfc6448b93",
+      "title": null,
+      "source_urls": [
+        "https://www.city.yawatahama.ehime.jp/doc/2026102800063/"
+      ],
+      "decision": "excluded",
+      "incident_ids": [],
+      "reason": "30日続報で八幡浜市は対象外と確認。"
+    },
+    {
+      "group": "follow",
+      "row": 4,
+      "index_url": "https://jouhourouei.clipmaster.jp/cases/f2be715b77de28a8",
+      "title": null,
+      "source_urls": [
+        "https://www.valuecommerce.co.jp/news/c_news/6819/"
+      ],
+      "decision": "updated",
+      "incident_ids": [
+        "valuecommerce-cuenote-20261026"
+      ],
+      "reason": "公式本文と既存記録を照合。組織・同一事案の重複は追加件数に数えない。"
+    },
+    {
+      "group": "follow",
+      "row": 5,
+      "index_url": "https://jouhourouei.clipmaster.jp/cases/57f7087708ea0a9a",
+      "title": null,
+      "source_urls": [
+        "https://katashinakogen.co.jp/20261024topics/",
+        "https://katashinakogen.co.jp/?p=110127",
+        "https://katashinakogen.co.jp/20261030topics/"
+      ],
+      "decision": "published",
+      "incident_ids": [
+        "katashina-wymail-20261025"
+      ],
+      "reason": "公式本文と既存記録を照合。組織・同一事案の重複は追加件数に数えない。"
+    },
+    {
+      "group": "follow",
+      "row": 6,
+      "index_url": "https://jouhourouei.clipmaster.jp/cases/44743b8e87ced3bf",
+      "title": null,
+      "source_urls": [
+        "https://www.lindt.jp/contents/chocolat-cafe/notice_20261023/"
+      ],
+      "decision": "updated",
+      "incident_ids": [
+        "sweep-9067b9c8cd27-20261023"
+      ],
+      "reason": "公式本文と既存記録を照合。組織・同一事案の重複は追加件数に数えない。"
+    },
+    {
+      "group": "follow",
+      "row": 7,
+      "index_url": "https://jouhourouei.clipmaster.jp/cases/160d576dd7f600cc",
+      "title": null,
+      "source_urls": [
+        "https://www.alc.co.jp/2026/10/23/1996"
+      ],
+      "decision": "published",
+      "incident_ids": [
+        "alc-news-blastmail-20261023"
+      ],
+      "reason": "公式本文と既存記録を照合。組織・同一事案の重複は追加件数に数えない。"
+    },
+    {
+      "group": "follow",
+      "row": 8,
+      "index_url": "https://jouhourouei.clipmaster.jp/cases/87cd9c04b3eb14b4",
+      "title": null,
+      "source_urls": [
+        "https://speee.jp/api/wp-media/2026/10/20261030_Speee_UnauthorizedAccess_update.pdf",
+        "https://speee.jp/news/35298",
+        "https://speee.jp/api/wp-media/2026/10/20261022_Speee_UnauthorizedAccess.pdf",
+        "https://speee.jp/api/wp-media/2026/10/20261022_ReFact_UnauthorizedAccess.pdf"
+      ],
+      "decision": "published",
+      "incident_ids": [
+        "speee-property-logins-20261022",
+        "refact-nurikae-20261022"
+      ],
+      "reason": "公式本文と既存記録を照合。組織・同一事案の重複は追加件数に数えない。"
+    },
+    {
+      "group": "follow",
+      "row": 9,
+      "index_url": "https://jouhourouei.clipmaster.jp/cases/a4b016daac1b0ecb",
+      "title": null,
+      "source_urls": [
+        "https://cmpl.jp/news/info-20261022"
+      ],
+      "decision": "published",
+      "incident_ids": [
+        "thinq-studio-20261022"
+      ],
+      "reason": "公式本文と既存記録を照合。組織・同一事案の重複は追加件数に数えない。"
+    },
+    {
+      "group": "follow",
+      "row": 10,
+      "index_url": "https://jouhourouei.clipmaster.jp/cases/70053a8bbd7cd728",
+      "title": null,
+      "source_urls": [
+        "https://www.pref.mie.lg.jp/TOPICS/m0346800027.htm",
+        "https://www.ijyu.pref.mie.lg.jp/news/notice/16517/"
+      ],
+      "decision": "published",
+      "incident_ids": [
+        "mie-migration-living-20261023"
+      ],
+      "reason": "公式本文と既存記録を照合。組織・同一事案の重複は追加件数に数えない。"
+    },
+    {
+      "group": "follow",
+      "row": 11,
+      "index_url": "https://jouhourouei.clipmaster.jp/cases/2246469a88f184df",
+      "title": null,
+      "source_urls": [
+        "https://internet.gmo/news/article/249/",
+        "https://www.release.tdnet.info/inbs/140120261024555624.pdf",
+        "https://internet.gmo/news/article/255/",
+        "https://internet.gmo/news/article/258/",
+        "https://www.release.tdnet.info/inbs/140120261027557106.pdf",
+        "https://group.gmo/info/alert/20261022/",
+        "https://group.gmo/info/alert/20261023/",
+        "https://www.release.tdnet.info/inbs/140120261023555560.pdf",
+        "https://internet.gmo/news/article/250/",
+        "https://www.release.tdnet.info/inbs/140120261024555606.pdf",
+        "https://www.onamae.com/news/article/11584",
+        "https://internet.gmo/news/article/254/",
+        "https://internet.gmo/news/article/256/",
+        "https://internet.gmo/news/article/257/",
+        "https://internet.gmo/news/article/253/",
+        "https://internet.gmo/news/article/261/",
+        "https://internet.gmo/news/article/263/",
+        "https://www.release.tdnet.info/inbs/140120261027557045.pdf",
+        "https://internet.gmo/news/article/259/",
+        "https://internet.gmo/news/article/260/",
+        "https://internet.gmo/news/article/262/"
+      ],
+      "decision": "updated",
+      "incident_ids": [
+        "onamae-desktop-20261023"
+      ],
+      "reason": "公式本文と既存記録を照合。組織・同一事案の重複は追加件数に数えない。"
+    },
+    {
+      "group": "follow",
+      "row": 12,
+      "index_url": "https://jouhourouei.clipmaster.jp/cases/3124a4916d121639",
+      "title": null,
+      "source_urls": [
+        "https://info.blastmail.jp/information_20261021.html",
+        "https://www.rakus.co.jp/news/2026/1021-2.html",
+        "https://www.rakus.co.jp/news/2026/1021-3.html"
+      ],
+      "decision": "updated",
+      "incident_ids": [
+        "rakus-blastmail-20261021"
+      ],
+      "reason": "公式本文と既存記録を照合。組織・同一事案の重複は追加件数に数えない。"
+    },
+    {
+      "group": "follow",
+      "row": 13,
+      "index_url": "https://jouhourouei.clipmaster.jp/cases/08185c08955085d0",
+      "title": null,
+      "source_urls": [
+        "https://subsclife.com/feature/2026102101"
+      ],
+      "decision": "excluded",
+      "incident_ids": [],
+      "reason": "30日時点で漏えいは未確認、提供元から漏えい連絡もなし。最終的な漏えい否定とは扱わない。"
+    },
+    {
+      "group": "follow",
+      "row": 14,
+      "index_url": "https://jouhourouei.clipmaster.jp/cases/14782e8e72c94ebd",
+      "title": null,
+      "source_urls": [
+        "https://www.east-mitsubishi-motor-sales.com/custom/fuseiaccess2/",
+        "https://www.east-mitsubishi-motor-sales.com/custom/%E5%BD%93%E7%A4%BE%E7%A4%BE%E5%93%A1%E3%81%AE%E3%83%A1%E3%83%BC%E3%83%AB%E3%82%A2%E3%82%AB%E3%82%A6%E3%83%B3%E3%83%88%E3%81%B8%E3%81%AE%E4%B8%8D%E6%AD%A3%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E3%81%AB/"
+      ],
+      "decision": "updated",
+      "incident_ids": [
+        "east-mitsubishi-mail-20261013"
+      ],
+      "reason": "公式本文と既存記録を照合。組織・同一事案の重複は追加件数に数えない。"
+    },
+    {
+      "group": "follow",
+      "row": 15,
+      "index_url": "https://jouhourouei.clipmaster.jp/cases/a3293a9d95a4773c",
+      "title": null,
+      "source_urls": [
+        "https://www.saga-u.ac.jp/koho/press/2026092541515",
+        "https://www.saga-u.ac.jp/koho/press/2026092841520",
+        "https://www.saga-u.ac.jp/koho/press/2026103041765",
+        "https://www.saga-u.ac.jp/koho/press/2026103041773"
+      ],
+      "decision": "published",
+      "incident_ids": [
+        "saga-univ-ransom-20260925"
+      ],
+      "reason": "公式本文と既存記録を照合。組織・同一事案の重複は追加件数に数えない。"
+    },
+    {
+      "group": "follow",
+      "row": 16,
+      "index_url": "https://jouhourouei.clipmaster.jp/cases/53b6c841ebcf847a",
+      "title": null,
+      "source_urls": [
+        "https://www.release.tdnet.info/inbs/140120261028558252.pdf",
+        "https://www.release.tdnet.info/inbs/140120261029559851.pdf"
+      ],
+      "decision": "existing",
+      "incident_ids": [
+        "moi-twitcasting-20261028"
+      ],
+      "reason": "公式本文と既存記録を照合。組織・同一事案の重複は追加件数に数えない。"
+    },
+    {
+      "group": "follow",
+      "row": 17,
+      "index_url": "https://jouhourouei.clipmaster.jp/cases/73f9cd42d328eee0",
+      "title": null,
+      "source_urls": [
+        "https://www.wiseman.co.jp/news/corp/security-incident-20261026/",
+        "https://www.wiseman.co.jp/wp-content/uploads/2026/10/release_20261026.pdf",
+        "https://www.wiseman.co.jp/news/corp/security-incident-20261027-1/",
+        "https://www.wiseman.co.jp/news/corp/security-incident-20261027-2/",
+        "https://www.wiseman.co.jp/news/corp/security-incident-20261029/",
+        "https://www.wiseman.co.jp/news/corp/security-incident-20261030-2/",
+        "https://www.wiseman.co.jp/news/corp/security-incident-20261031/"
+      ],
+      "decision": "excluded",
+      "incident_ids": [],
+      "reason": "31日までの復旧続報を確認。具体的な個人情報への影響を確認できず、停止・復旧のみでは掲載しない。"
+    },
+    {
+      "group": "follow",
+      "row": 18,
+      "index_url": "https://jouhourouei.clipmaster.jp/cases/fd172d1921204e7f",
+      "title": null,
+      "source_urls": [
+        "https://www.asahi.com/corporate/info/17004624",
+        "https://www.asahi.com/corporate/info/16995713"
+      ],
+      "decision": "existing",
+      "incident_ids": [
+        "asahi-cuenote-20261026"
+      ],
+      "reason": "公式本文と既存記録を照合。組織・同一事案の重複は追加件数に数えない。"
+    },
+    {
+      "group": "follow",
+      "row": 19,
+      "index_url": "https://jouhourouei.clipmaster.jp/cases/ba95a38bfc7cae73",
+      "title": null,
+      "source_urls": [
+        "https://support.goodsmile.com/hc/ja/articles/63547468806297",
+        "https://support.goodsmile.com/hc/ja/articles/63718007508761"
+      ],
+      "decision": "updated",
+      "incident_ids": [
+        "sweep-7340c0fb3799-20261023"
+      ],
+      "reason": "公式本文と既存記録を照合。組織・同一事案の重複は追加件数に数えない。"
+    },
+    {
+      "group": "follow",
+      "row": 20,
+      "index_url": "https://jouhourouei.clipmaster.jp/cases/ab5a284bf385c568",
+      "title": null,
+      "source_urls": [
+        "https://www.city.kagoshima.lg.jp/soumu/soumu/soumu/documents/roueikouhyou31_1.pdf",
+        "https://www.city.kagoshima.lg.jp/soumu/soumu/soumu/documents/roueikouhyou30_1.pdf",
+        "https://www.city.kagoshima.lg.jp/soumu/soumu/soumu/documents/roueikouhyou30-2.pdf",
+        "https://www.city.kagoshima.lg.jp/san-sousyutu/shisetsu/sangyo/san-sou-oshirase20261026.html"
+      ],
+      "decision": "updated",
+      "incident_ids": [
+        "kagoshima-industry-blastmail-20261022"
+      ],
+      "reason": "公式本文と既存記録を照合。組織・同一事案の重複は追加件数に数えない。"
+    },
+    {
+      "group": "follow",
+      "row": 21,
+      "index_url": "https://jouhourouei.clipmaster.jp/cases/d32ed71279466de1",
+      "title": null,
+      "source_urls": [
+        "https://www.shochiku.co.jp/cinemakabuki/news/3513/",
+        "https://www.shochiku.co.jp/wp-content/uploads/2026/10/shochiku20261029-2.pdf"
+      ],
+      "decision": "excluded",
+      "incident_ids": [],
+      "reason": "29日続報で漏えい確認データに含まれないと説明。新規の漏えい事案として掲載しない。"
+    },
+    {
+      "group": "follow",
+      "row": 22,
+      "index_url": "https://jouhourouei.clipmaster.jp/cases/03f6b9e40956d388",
+      "title": null,
+      "source_urls": [
+        "https://www.nttsolmare.com/press/2026/1016-1.html",
+        "https://www.nttsolmare.com/press/2026/0616-1.html",
+        "https://www.nttsolmare.com/press/2026/1021.html",
+        "https://www.nttsolmare.com/press/2026/1016.html",
+        "https://www.nttsolmare.com/press/2026/1029.html"
+      ],
+      "decision": "existing",
+      "incident_ids": [
+        "ntt-solmare-cmoa-20261016"
+      ],
+      "reason": "公式本文と既存記録を照合。組織・同一事案の重複は追加件数に数えない。"
+    },
+    {
+      "group": "follow",
+      "row": 23,
+      "index_url": "https://jouhourouei.clipmaster.jp/cases/3e0bfc60e5ba8887",
+      "title": null,
+      "source_urls": [
+        "https://www.release.tdnet.info/inbs/140120261013549728.pdf",
+        "https://www.release.tdnet.info/inbs/140120261008548127.pdf",
+        "https://www.release.tdnet.info/inbs/140120261029558983.pdf"
+      ],
+      "decision": "existing",
+      "incident_ids": [
+        "rideonexpress-20261013"
+      ],
+      "reason": "業績予想の取り下げに関する続報。個人情報の件数・範囲の変更はなく既存記録のまま。"
+    },
+    {
+      "group": "follow",
+      "row": 24,
+      "index_url": "https://jouhourouei.clipmaster.jp/cases/42dd9a45923ddab0",
+      "title": null,
+      "source_urls": [
+        "https://www.release.tdnet.info/inbs/140120261029559717.pdf",
+        "https://contents.xj-storage.jp/xcontents/AS80344/c92d3897/982b/4350/bcf3/b2915d0f621f/140120260904531534.pdf"
+      ],
+      "decision": "excluded",
+      "incident_ids": [],
+      "reason": "クラウドサービスの不正利用料金免除の続報。個人情報漏えいは生じていないとの説明。"
+    },
+    {
+      "group": "follow",
+      "row": 25,
+      "index_url": "https://jouhourouei.clipmaster.jp/cases/61e0f715dcc80fae",
+      "title": null,
+      "source_urls": [
+        "https://www.ramrock.co.jp/information/%e4%b8%8d%e6%ad%a3%e3%82%a2%e3%82%af%e3%82%bb%e3%82%b9%e3%81%ab%e3%82%88%e3%82%8b%e3%82%b7%e3%82%b9%e3%83%86%e3%83%a0%e4%be%b5%e5%ae%b3%e7%99%ba%e7%94%9f%e3%81%ae%e3%81%8a%e8%a9%ab%e3%81%b3%e3%81%a8/",
+        "https://www.ramrock.co.jp/information/%e5%bc%8a%e7%a4%be%e3%80%8c%e3%81%bf%e3%81%be%e3%82%82%e3%82%8acube%e3%80%8d%e3%83%9b%e3%83%bc%e3%83%a0%e3%83%9a%e3%83%bc%e3%82%b8%e3%81%ab%e3%81%8a%e3%81%91%e3%82%8b-%e4%b8%8d%e6%ad%a3%e3%82%a2/"
+      ],
+      "decision": "published",
+      "incident_ids": [
+        "ramrock-ec-20260825"
+      ],
+      "reason": "公式本文と既存記録を照合。組織・同一事案の重複は追加件数に数えない。"
+    }
+  ],
+  "additional_checks": [
+    {
+      "incident_id": "mie-migration-cuenote-20261030",
+      "source_urls": [
+        "https://www.pref.mie.lg.jp/TOPICS/m0346800028.htm"
+      ]
+    },
+    {
+      "incident_id": "ehime-park-mail-20261030",
+      "source_urls": [
+        "https://www.pref.ehime.jp/uploaded/attachment/193510.pdf"
+      ]
+    },
+    {
+      "incident_id": "yakult-website-20261026",
+      "source_urls": [
+        "https://www.yakult.co.jp/maintenance/"
+      ]
+    },
+    {
+      "incident_id": "kyushufg-seminar-20261028",
+      "source_urls": [
+        "https://www.kyushu-fg-sec.co.jp/article/data/info/files/a9f275749841d4f9ea6c35fa1b62a90f0b990bb0.pdf"
+      ]
+    },
+    {
+      "incident_id": "jinjer-leafea-studio-20261030",
+      "source_urls": [
+        "https://jinjer.co.jp/news/post-14906/"
+      ]
+    },
+    {
+      "incident_id": "chuo-oshigoto-studio-20261030",
+      "source_urls": [
+        "https://www.city.chuo.lg.jp/a0016/shigoto/koyouroudou/mensetsukai/shuuroukoyoushienhuseiakusesu.html"
+      ]
+    },
+    {
+      "incident_id": "okinawa-mice-blastmail-20261030",
+      "source_urls": [
+        "https://www.pref.okinawa.lg.jp/bunkakoryu/sport/1009786/1041818.html",
+        "https://www.pref.okinawa.lg.jp/shigoto/ringyo/1010912/1041813.html"
+      ]
+    },
+    {
+      "incident_id": "panasonic-hr-ai-20261023",
+      "source_urls": [
+        "https://holdings.panasonic/jp/information/topics/20261023.html"
+      ]
+    },
+    {
+      "incident_id": "nagoya-naka-medical-documents-20261030",
+      "source_urls": [
+        "https://www.city.nagoya.jp/houdou/press-naka/3004006/3006240.html"
+      ]
+    }
+  ],
+  "additional_existing_checks": [
+    {
+      "incident_id": "aichi-mental-20260917",
+      "reason": "233書類・実人数172名の紛失は9月17日初報の既掲載事案。10月の新規公表としない。"
+    }
+  ]
+}

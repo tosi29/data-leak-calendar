@@ -1,0 +1,57 @@
+{
+  "id": "tokyu-land-green-20261030",
+  "organization": {
+    "name": "東急不動産",
+    "sector": "企業・団体"
+  },
+  "title": "共同サーバー上の2サイトから登録・問い合わせ情報が流出した可能性",
+  "summary": "管理する2サイトで脆弱性等を悪用した侵入を確認。ログ調査では流出の有無を特定できず、可能性を否定できないとして対応。",
+  "published_on": "2026-10-30",
+  "first_published_on": "2026-10-30",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-10-19",
+  "updated_on": "2026-10-31",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "vulnerability",
+    "detail": "CMSの脆弱性とサーバー内のアクセス権限設定不備を悪用した攻撃。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 4079,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "GREEN CROSS PARK会員登録情報。"
+    },
+    {
+      "count": 3,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "GREENUP Cooldown Project問い合わせ情報。"
+    }
+  ],
+  "data_types": [
+    "氏名・フリガナ",
+    "メールアドレス",
+    "電話番号",
+    "会社名・部署名",
+    "関心のあるプロジェクト",
+    "問い合わせ内容"
+  ],
+  "related_vendor": "Amazon Web Services（AWS）",
+  "sources": [
+    {
+      "url": "https://www.tokyu-land.co.jp/news/uploads/4e81382e895fcd779559705843fcb56f83846c28.pdf",
+      "type": "official",
+      "title": "共同サーバー上の2サイトから登録・問い合わせ情報が流出した可能性",
+      "published_on": "2026-10-30",
+      "checked_on": "2026-10-31"
+    }
+  ],
+  "updates": [],
+  "notes": "AWS共同サーバー環境との記載。AWS自体の侵害を示す発表ではない。"
+}

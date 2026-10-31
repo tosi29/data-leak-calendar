@@ -1,0 +1,84 @@
+{
+  "id": "ramrock-ec-20260825",
+  "organization": {
+    "name": "ラムロック",
+    "sector": "企業・団体"
+  },
+  "title": "みまもりCUBE通販サイトから個人・カード情報が流出した可能性",
+  "summary": "みまもりCUBE通販サイトから個人・カード情報が流出した可能性。",
+  "published_on": "2026-08-25",
+  "first_published_on": "2026-08-25",
+  "publication_kind": "initial",
+  "occurred_on": "2025-05-14",
+  "detected_on": "2026-08-07",
+  "updated_on": "2026-10-31",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "vulnerability",
+    "detail": "ECサイトの脆弱性を悪用して不正プログラムを設置。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 5400,
+      "unit": "records",
+      "qualifier": "approximate",
+      "description": "個人情報の対象件数。"
+    },
+    {
+      "count": 190,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "カード情報。個人情報と重複し得るため合算しない。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "生年月日",
+    "住所",
+    "電話番号",
+    "メールアドレス",
+    "暗号化パスワード",
+    "本人確認書類画像",
+    "カード名義・番号・有効期限・セキュリティコード"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.ramrock.co.jp/information/%e4%b8%8d%e6%ad%a3%e3%82%a2%e3%82%af%e3%82%bb%e3%82%b9%e3%81%ab%e3%82%88%e3%82%8b%e3%82%b7%e3%82%b9%e3%83%86%e3%83%a0%e4%be%b5%e5%ae%b3%e7%99%ba%e7%94%9f%e3%81%ae%e3%81%8a%e8%a9%ab%e3%81%b3%e3%81%a8/",
+      "type": "official",
+      "title": "みまもりCUBE通販サイトから個人・カード情報が流出した可能性",
+      "published_on": "2026-08-25",
+      "checked_on": "2026-10-31"
+    },
+    {
+      "url": "https://www.ramrock.co.jp/information/%e5%bc%8a%e7%a4%be%e3%80%8c%e3%81%bf%e3%81%be%e3%82%82%e3%82%8acube%e3%80%8d%e3%83%9b%e3%83%bc%e3%83%a0%e3%83%9a%e3%83%bc%e3%82%b8%e3%81%ab%e3%81%8a%e3%81%91%e3%82%8b-%e4%b8%8d%e6%ad%a3%e3%82%a2/",
+      "type": "official",
+      "title": "フォレンジック調査結果：個人情報約5,400件、カード情報190件に漏えいのおそれ。",
+      "published_on": "2026-10-29",
+      "checked_on": "2026-10-31"
+    },
+    {
+      "url": "https://www.ramrock.co.jp/uncategorized/%e3%80%90%e4%bb%a3%e7%90%86%e5%ba%97%e6%a7%98%e5%90%91%e3%81%91%e3%80%91%e5%bc%8a%e7%a4%beec%e3%82%b5%e3%82%a4%e3%83%88%e3%81%b8%e3%81%ae%e4%b8%8d%e6%ad%a3%e3%82%a2%e3%82%af%e3%82%bb%e3%82%b9%e3%81%8a/",
+      "type": "official",
+      "title": "代理店向けにECサイトとカメラ管理サーバーの違い、対象範囲を説明。",
+      "published_on": "2026-10-30",
+      "checked_on": "2026-10-31"
+    }
+  ],
+  "updates": [
+    {
+      "date": "2026-10-29",
+      "summary": "フォレンジック調査結果：個人情報約5,400件、カード情報190件に漏えいのおそれ。",
+      "source_index": 1
+    },
+    {
+      "date": "2026-10-30",
+      "summary": "代理店向けにECサイトとカメラ管理サーバーの違い、対象範囲を説明。",
+      "source_index": 2
+    }
+  ],
+  "notes": "2025年5月14日～2026年8月7日に不正取得可能な状態。持ち出しの確定的証拠は未確認。カメラ管理サーバーは別で、映像・カメラログイン情報は対象外。"
+}

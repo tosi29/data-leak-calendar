@@ -1,0 +1,51 @@
+{
+  "id": "kddi-lifenet-link-20261030",
+  "organization": {
+    "name": "KDDI・ライフネット生命保険",
+    "sector": "企業・団体"
+  },
+  "title": "連携システムの脆弱性を通じたKDDI顧客情報流出のおそれ",
+  "summary": "連携システムの脆弱性を通じたKDDI顧客情報流出のおそれ。",
+  "published_on": "2026-10-30",
+  "first_published_on": "2026-10-30",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-10-23",
+  "updated_on": "2026-10-31",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "vulnerability",
+    "detail": "ライフネット生命のKDDI連携システムの一部機能の脆弱性を悪用。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 22541,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "公表された対象規模。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "郵便番号",
+    "電話番号",
+    "メールアドレス",
+    "会員識別子",
+    "性別・生年月日（一部）"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://newsroom.kddi.com/news/assets/2026/kddi_nr_s-82_4796/kddi_nr_s-82_4796_pdf_01.pdf",
+      "type": "official",
+      "title": "連携システムの脆弱性を通じたKDDI顧客情報流出のおそれ",
+      "published_on": "2026-10-30",
+      "checked_on": "2026-10-31"
+    }
+  ],
+  "updates": [],
+  "notes": "共同公表を1件とする。件数は項目別6区分（4,524、226、8,434、3,662、4,888、807件）の合計。保険契約情報・本人確認書類・パスワード・決済情報は対象外。"
+}

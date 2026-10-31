@@ -1,17 +1,17 @@
 {
   "id": "kagoshima-industry-blastmail-20261022",
   "organization": {
-    "name": "鹿児島市（産業創出課）",
+    "name": "鹿児島市（産業創出課・こども政策課）",
     "sector": "自治体"
   },
-  "title": "産業支援事業のメール配信先情報が漏えいした可能性",
-  "summary": "ソーホーかごしまの登録者約500人と、mark MEIZAN等の延べ約4,300人の情報漏えいの可能性を公表。",
+  "title": "産業支援・子育て事業のメール配信先情報が漏えいした可能性",
+  "summary": "産業支援事業の約500人・延べ約4,300人に加え、子育て情報「すくすくメール」約1,500件の漏えいのおそれを公表。各委託先が利用する配信サービスへの侵入による。",
   "published_on": "2026-10-22",
   "first_published_on": "2026-10-22",
   "publication_kind": "initial",
   "occurred_on": null,
   "detected_on": null,
-  "updated_on": "2026-10-26",
+  "updated_on": "2026-10-31",
   "verification": "official",
   "leak_status": "suspected",
   "incident_type": "attack",
@@ -32,6 +32,12 @@
       "unit": "people",
       "qualifier": "approximate",
       "description": "第2報の追加対象事業の延べ人数。実人数ではない。"
+    },
+    {
+      "count": 1500,
+      "unit": "records",
+      "qualifier": "approximate",
+      "description": "すくすくメールの登録情報。産業支援分と対象・単位を区別。"
     }
   ],
   "data_types": [
@@ -39,7 +45,8 @@
     "氏名",
     "フリガナ",
     "社名",
-    "任意登録項目"
+    "任意登録項目",
+    "子どもの生年月日（すくすくメールの任意項目）"
   ],
   "related_vendor": "ラクスライトクラウド",
   "sources": [
@@ -62,7 +69,14 @@
       "type": "official",
       "title": "産業創出課所管分の情報漏えいの可能性（10月26日更新）",
       "published_on": "2026-10-26",
-      "checked_on": "2026-10-26"
+      "checked_on": "2026-10-31"
+    },
+    {
+      "url": "https://www.city.kagoshima.lg.jp/soumu/soumu/soumu/documents/roueikouhyou31_1.pdf",
+      "type": "official",
+      "title": "すくすくメールの情報漏えいのおそれ",
+      "published_on": "2026-10-22",
+      "checked_on": "2026-10-31"
     }
   ],
   "updates": [
@@ -75,9 +89,14 @@
       "date": "2026-10-26",
       "summary": "所管業務の委託先へ配信先情報の漏えいに関する個別連絡は届いていないと公表。",
       "source_index": 2
+    },
+    {
+      "date": "2026-10-29",
+      "summary": "29日時点でも委託先に配信先リストの漏えいに関する個別連絡は届いていない。流出確認には変更しない。",
+      "source_index": 2
     }
   ],
-  "notes": "22日に初報、23日に対象事業を追加、26日に状況を更新。第2報の約4,300人は延べ人数であり、約500人との重複を排除した実人数は不明。配信先情報の流出は未確認。",
+  "notes": "22日に初報、23日に対象事業を追加、26日に状況を更新。第2報の約4,300人は延べ人数であり、約500人との重複を排除した実人数は不明。配信先情報の流出は未確認。 22日付のこども政策課の公表を今回補完。同じ市・提供元の事案として統合し、別委託先の渕上印刷と対象区分を区別。29日の個別連絡未着は産業創出課所管分の説明。",
   "vendors": [
     {
       "name": "ラクスライトクラウド",

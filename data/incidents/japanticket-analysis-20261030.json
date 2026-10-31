@@ -1,0 +1,51 @@
+{
+  "id": "japanticket-analysis-20261030",
+  "organization": {
+    "name": "Japanticket",
+    "sector": "企業・団体"
+  },
+  "title": "外部分析ツール経由で予約・購入者情報が漏えい",
+  "summary": "外部分析ツール経由で予約・購入者情報が漏えい。",
+  "published_on": "2026-10-30",
+  "first_published_on": "2026-10-30",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-10-28",
+  "updated_on": "2026-10-31",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。侵入手口の詳細は未公表または調査中。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": 264000,
+      "unit": "records",
+      "qualifier": "maximum_approximate",
+      "description": "公表された対象規模。"
+    }
+  ],
+  "data_types": [
+    "氏名・フリガナ",
+    "メールアドレス",
+    "電話番号",
+    "国・地域",
+    "予約・注文内容",
+    "備考欄の記入内容"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.japanticket.com/news-20261029/",
+      "type": "official",
+      "title": "外部分析ツール経由で予約・購入者情報が漏えい",
+      "published_on": "2026-10-30",
+      "checked_on": "2026-10-31"
+    }
+  ],
+  "updates": [],
+  "notes": "URL中は29日だが本文の公表日は30日。9月15日以前の持ち出しの可能性があり、16日以降の持ち出し記録は未確認。カード下4桁を含めカード情報は対象外。利用施設側の発表と対象者が重複する。"
+}

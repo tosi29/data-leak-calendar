@@ -1,0 +1,56 @@
+{
+  "id": "clubnets-cnpoint-20261029",
+  "organization": {
+    "name": "クラブネッツ",
+    "sector": "企業・団体"
+  },
+  "title": "CNポイント関連システムから会員情報が流出した可能性",
+  "summary": "CNポイント関連システムから会員情報が流出した可能性。",
+  "published_on": "2026-10-29",
+  "first_published_on": "2026-10-29",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-31",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。侵入手口の詳細は未公表または調査中。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": 16936,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "会員ID・氏名。データベース内のユニーク件数。"
+    },
+    {
+      "count": 2857,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "会員ID・氏名・メール・電話・住所。別データベース内のユニーク件数。"
+    }
+  ],
+  "data_types": [
+    "CN会員ID",
+    "氏名",
+    "メールアドレス",
+    "電話番号",
+    "住所"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.clubnets.jp/infos/id/221",
+      "type": "official",
+      "title": "CNポイント関連システムから会員情報が流出した可能性",
+      "published_on": "2026-10-29",
+      "checked_on": "2026-10-31"
+    }
+  ],
+  "updates": [],
+  "notes": "異なるデータベース間の重複は不明のため合算しない。パスワード流出は未確認。"
+}

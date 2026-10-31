@@ -1,0 +1,53 @@
+{
+  "id": "katashina-wymail-20261025",
+  "organization": {
+    "name": "大都開発（かたしな高原）",
+    "sector": "企業・団体"
+  },
+  "title": "メール配信環境の不正ログインで登録者情報に閲覧のおそれ",
+  "summary": "メール配信環境の不正ログインで登録者情報に閲覧のおそれ。",
+  "published_on": "2026-10-25",
+  "first_published_on": "2026-10-25",
+  "publication_kind": "initial",
+  "occurred_on": "2026-10-24",
+  "detected_on": null,
+  "updated_on": "2026-10-31",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。侵入手口の詳細は未公表または調査中。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": 253,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表された対象規模。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス",
+    "氏名（登録者のみ）"
+  ],
+  "related_vendor": "株式会社イグレックス（ワイメール）",
+  "sources": [
+    {
+      "url": "https://katashinakogen.co.jp/20261030topics/",
+      "type": "official",
+      "title": "メール配信環境の不正ログインで登録者情報に閲覧のおそれ",
+      "published_on": "2026-10-30",
+      "checked_on": "2026-10-31"
+    }
+  ],
+  "updates": [
+    {
+      "date": "2026-10-30",
+      "summary": "一覧画面で253人分が閲覧されたおそれを公表。持ち出し記録は未確認。",
+      "source_index": 0
+    }
+  ],
+  "notes": "30日調査結果で25日の初報を明記。約30,800件はフィッシングメール送信先数で、閲覧されたおそれのある253人とは異なる。"
+}

@@ -744,43 +744,41 @@
     ]
   },
   {
-    "id": "oct28-update-kyushufg",
-    "organization": "九州FG証券",
-    "reported_on": "2026-10-28",
-    "verification": "pending",
-    "reference_url": "https://www.kyushu-fg-sec.co.jp/article/data/info/files/a9f275749841d4f9ea6c35fa1b62a90f0b990bb0.pdf",
-    "note": "索引が示す漏えい公表PDFは取得制限で本文未確認。公式一覧から27日のセミナー受付停止・28日の口座開設停止は確認したが、これらは漏えいを示す本文ではない。項目・確度・公表日を確定してから掲載。 2026年10月29日再確認：当該資料の再取得・照合でも前回の未確認事項は解消せず、確認待ちを継続。",
-    "reviewed_on": "2026-10-29",
-    "checked_urls": [
-      "https://www.kyushu-fg-sec.co.jp/article/data/info/files/a9f275749841d4f9ea6c35fa1b62a90f0b990bb0.pdf",
-      "https://www.kyushu-fg-sec.co.jp/info/",
-      "https://www.kyushu-fg-sec.co.jp/article/data/info/files/dbd4624077a6ceac9fed5a011cf10ca7cd8bd122.pdf",
-      "https://www.kyushu-fg-sec.co.jp/article/data/info/files/20261028_170000_001.pdf"
-    ]
-  },
-  {
     "id": "oct28-update-icc-support",
     "organization": "石川コンピュータ・センター（サポートサイト）",
     "reported_on": "2026-10-28",
     "verification": "pending",
     "reference_url": "https://www.icc.co.jp/news/2026/20261027.html",
-    "note": "17日初報・27日続報を確認。85件のID・パスワードに関する侵害を説明するが、自然人に結び付く対象かを確定できない。問い合わせ16,132件・添付1,833件への不正アクセスは確認されていない。6月の別の添付ファイル事案と合算しない。 2026年10月29日再確認：当該資料の再取得・照合でも前回の未確認事項は解消せず、確認待ちを継続。",
-    "reviewed_on": "2026-10-29",
+    "note": "17日初報・27日続報を確認。85件のID・パスワードに関する侵害を説明するが、自然人に結び付く対象かを確定できない。問い合わせ16,132件・添付1,833件への不正アクセスは確認されていない。6月の別の添付ファイル事案と合算しない。 2026年10月29日再確認：当該資料の再取得・照合でも前回の未確認事項は解消せず、確認待ちを継続。 31日に公式新着一覧を確認。サポートサイト事案の新しい公表は27日の第2報までで、自然人の対象範囲を確定する新情報を確認できず保留継続。",
+    "reviewed_on": "2026-10-31",
     "checked_urls": [
       "https://www.icc.co.jp/news/2026/20261017.html",
-      "https://www.icc.co.jp/news/2026/20261027.html"
+      "https://www.icc.co.jp/news/2026/20261027.html",
+      "https://www.icc.co.jp/news/2026/"
     ]
   },
   {
-    "id": "oct28-update-yakult",
-    "organization": "ヤクルト本社",
-    "reported_on": "2026-10-28",
+    "id": "oct31-update-ida",
+    "organization": "iDA（MyBRANDS）",
+    "reported_on": "2026-10-30",
     "verification": "pending",
-    "reference_url": "https://www.yakult.co.jp/maintenance/",
-    "note": "公式の26日19時公表で顧客情報への影響を調査中と説明。28日の報道で再確認したが、対象となる個人情報・範囲は未公表。サイト停止だけで漏えいを認定せず、具体的影響の続報待ち。 2026年10月29日再確認：当該資料の再取得・照合でも前回の未確認事項は解消せず、確認待ちを継続。",
-    "reviewed_on": "2026-10-29",
+    "reference_url": "https://ida-mode.com/lp/news/unauthorized-access-2026-10/",
+    "note": "索引から公式公表URLを特定したが、直接取得はHTTP 200でも本文が空、ブラウザー経由も取得不能。最大約13.5万アカウントという索引の数値を公式確認済みにせず、本文・対象範囲の確認待ち。",
+    "reviewed_on": "2026-10-31",
     "checked_urls": [
-      "https://www.yakult.co.jp/maintenance/"
+      "https://ida-mode.com/lp/news/unauthorized-access-2026-10/"
+    ]
+  },
+  {
+    "id": "oct31-update-irisplaza",
+    "organization": "アイリスプラザ",
+    "reported_on": "2026-10-29",
+    "verification": "pending",
+    "reference_url": "https://www.irisohyama.co.jp/news/2026/?date=1029",
+    "note": "公式発表で不正アクセス・サイト停止と情報漏えいの可能性を含む調査は確認できるが、影響する個人情報の項目・具体的範囲は未公表。カード流出は未確認。停止だけで漏えい事案を確定しない。",
+    "reviewed_on": "2026-10-31",
+    "checked_urls": [
+      "https://www.irisohyama.co.jp/news/2026/?date=1029"
     ]
   }
 ]

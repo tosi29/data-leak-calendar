@@ -11,7 +11,7 @@
   "publication_kind": "followup",
   "occurred_on": null,
   "detected_on": null,
-  "updated_on": "2026-10-29",
+  "updated_on": "2026-10-31",
   "verification": "official",
   "leak_status": "confirmed",
   "incident_type": "attack",
@@ -51,7 +51,7 @@
       "type": "official",
       "title": "ブラストメールの緊急停止および個人情報漏えいに関するお詫びとご報告（17時更新）",
       "published_on": "2026-10-23",
-      "checked_on": "2026-10-23"
+      "checked_on": "2026-10-31"
     },
     {
       "url": "https://info.blastmail.jp/information_20261021.html",
@@ -119,6 +119,11 @@
       "date": "2026-10-29",
       "summary": "29日更新：新たな漏えい判明はなく345契約のまま。総務省への報告・警視庁への通報と、自治体の個人情報保護委員会への代行報告受付を案内。",
       "source_index": 6
+    },
+    {
+      "date": "2026-10-30",
+      "summary": "30日12時：配信先等の漏えい確認は345契約で変動なし。連名・代行報告の第2次受付を開始。次回31日中という予定は実施済み続報として扱わない。",
+      "source_index": 1
     }
   ],
   "notes": "345件は契約数であり、人数や流出情報件数ではない。27日12時30分時点も外部調査は継続し再開日は未定。"

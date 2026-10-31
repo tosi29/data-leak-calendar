@@ -1,0 +1,64 @@
+{
+  "id": "okinawa-mice-blastmail-20261030",
+  "organization": {
+    "name": "沖縄県",
+    "sector": "自治体"
+  },
+  "title": "MICE事業・県民の森のメール配信先情報に漏えいのおそれ",
+  "summary": "MICE事業の配信先8,152件に漏えいのおそれ。県民の森の「なっぷ」利用者情報も提供元の漏えいに含まれる可能性を調査。同じ配信サービスへの侵入を県の記録として統合。",
+  "published_on": "2026-10-30",
+  "first_published_on": "2026-10-30",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-31",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。侵入手口の詳細は未公表または調査中。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": 8152,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "MICE誘致事業のメール配信先。県民の森の利用者数とは異なる。"
+    },
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "県民の森の利用履歴がある「なっぷ」利用者の一部。含まれるか調査中で件数未公表。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "メールアドレス",
+    "ニックネーム",
+    "居住都道府県",
+    "なっぷ会員ID",
+    "利用状況"
+  ],
+  "related_vendor": "株式会社ラクスライトクラウド",
+  "sources": [
+    {
+      "url": "https://www.pref.okinawa.lg.jp/bunkakoryu/sport/1009786/1041818.html",
+      "type": "official",
+      "title": "MICE誘致事業のメール配信先情報に漏えいのおそれ",
+      "published_on": "2026-10-30",
+      "checked_on": "2026-10-31"
+    },
+    {
+      "url": "https://www.pref.okinawa.lg.jp/shigoto/ringyo/1010912/1041813.html",
+      "type": "official",
+      "title": "キャンプ場予約サービスのメール配信先情報への影響を調査",
+      "published_on": "2026-10-30",
+      "checked_on": "2026-10-31"
+    }
+  ],
+  "updates": [],
+  "notes": "MICE分は氏名・メールアドレス8,152件で、委託先は沖縄観光コンベンションビューロー。県民の森分は指定管理者沖縄文化スポーツの案内で、R.projectのなっぷを経由。ニックネーム・居住都道府県・会員ID・利用状況は県民の森分であり、氏名は同区分の対象外。両者とも配信提供元はラクスライトクラウド。県民の森の利用者が漏えい対象に含まれるかは調査中。"
+}

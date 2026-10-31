@@ -8085,5 +8085,54 @@
       "https://shopping.tbs.co.jp/tbs/info",
       "https://news.livedoor.com/article/detail/32677756/"
     ]
+  },
+  {
+    "candidate": {
+      "id": "oct28-update-kyushufg",
+      "organization": "九州FG証券",
+      "reported_on": "2026-10-28",
+      "verification": "pending",
+      "reference_url": "https://www.kyushu-fg-sec.co.jp/article/data/info/files/a9f275749841d4f9ea6c35fa1b62a90f0b990bb0.pdf",
+      "note": "索引が示す漏えい公表PDFは取得制限で本文未確認。公式一覧から27日のセミナー受付停止・28日の口座開設停止は確認したが、これらは漏えいを示す本文ではない。項目・確度・公表日を確定してから掲載。 2026年10月29日再確認：当該資料の再取得・照合でも前回の未確認事項は解消せず、確認待ちを継続。",
+      "reviewed_on": "2026-10-29",
+      "checked_urls": [
+        "https://www.kyushu-fg-sec.co.jp/article/data/info/files/a9f275749841d4f9ea6c35fa1b62a90f0b990bb0.pdf",
+        "https://www.kyushu-fg-sec.co.jp/info/",
+        "https://www.kyushu-fg-sec.co.jp/article/data/info/files/dbd4624077a6ceac9fed5a011cf10ca7cd8bd122.pdf",
+        "https://www.kyushu-fg-sec.co.jp/article/data/info/files/20261028_170000_001.pdf"
+      ]
+    },
+    "reviewed_on": "2026-10-31",
+    "resolution": "published",
+    "incident_ids": [
+      "kyushufg-seminar-20261028"
+    ],
+    "reason": "公式PDFの本文をブラウザー経由で確認し、対象1,708名と公表日を確定。",
+    "source_urls": [
+      "https://www.kyushu-fg-sec.co.jp/article/data/info/files/a9f275749841d4f9ea6c35fa1b62a90f0b990bb0.pdf"
+    ]
+  },
+  {
+    "candidate": {
+      "id": "oct28-update-yakult",
+      "organization": "ヤクルト本社",
+      "reported_on": "2026-10-28",
+      "verification": "pending",
+      "reference_url": "https://www.yakult.co.jp/maintenance/",
+      "note": "公式の26日19時公表で顧客情報への影響を調査中と説明。28日の報道で再確認したが、対象となる個人情報・範囲は未公表。サイト停止だけで漏えいを認定せず、具体的影響の続報待ち。 2026年10月29日再確認：当該資料の再取得・照合でも前回の未確認事項は解消せず、確認待ちを継続。",
+      "reviewed_on": "2026-10-29",
+      "checked_urls": [
+        "https://www.yakult.co.jp/maintenance/"
+      ]
+    },
+    "reviewed_on": "2026-10-31",
+    "resolution": "published",
+    "incident_ids": [
+      "yakult-website-20261026"
+    ],
+    "reason": "30日第2報で約4万件の漏えいと対象項目が公表され、掲載条件を満たした。",
+    "source_urls": [
+      "https://www.yakult.co.jp/maintenance/"
+    ]
   }
 ]

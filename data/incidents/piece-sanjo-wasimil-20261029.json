@@ -5,13 +5,13 @@
     "sector": "企業・団体"
   },
   "title": "宿泊予約・チェックイン情報に漏えいのおそれ",
-  "summary": "ホテル管理システムWASIMILへの侵入により、10月19日以前の予約者情報が流出した可能性。予約詳細を含む不審メッセージも確認。",
+  "summary": "WASIMILへの不正アクセスで、PIECE HOSTEL SANJOと30 PIECES Nambaの10月19日以前の予約者情報が流出した可能性。予約情報を含む不審メッセージも確認。",
   "published_on": "2026-10-29",
   "first_published_on": "2026-10-29",
   "publication_kind": "initial",
   "occurred_on": null,
   "detected_on": null,
-  "updated_on": "2026-10-29",
+  "updated_on": "2026-10-31",
   "verification": "official",
   "leak_status": "suspected",
   "incident_type": "attack",
@@ -43,10 +43,30 @@
       "title": "宿泊予約・チェックイン情報に漏えいのおそれ",
       "published_on": "2026-10-29",
       "checked_on": "2026-10-29"
+    },
+    {
+      "url": "https://piecehotel.com/jp/news/D6clIOiF",
+      "type": "official",
+      "title": "29日付日本語公表を追加確認し、同じ運営会社の30 PIECES Nambaを対象施設へ追加。",
+      "published_on": "2026-10-29",
+      "checked_on": "2026-10-31"
+    },
+    {
+      "url": "https://piecehotel.com/jp/news/6xIeAuj4",
+      "type": "official",
+      "title": "PIECE HOSTEL SANJOの日本語公表",
+      "published_on": "2026-10-29",
+      "checked_on": "2026-10-31"
     }
   ],
-  "updates": [],
-  "notes": "英語の当事者公表はPIECE HOSTEL SANJOを対象としている。全系列ホテルの対象とは推定しない。カード情報は保存していない。提供元や他の利用組織の公表と対象が重複し得るため単純合算しない。",
+  "updates": [
+    {
+      "date": "2026-10-29",
+      "summary": "29日付日本語公表を追加確認し、同じ運営会社の30 PIECES Nambaを対象施設へ追加。",
+      "source_index": 1
+    }
+  ],
+  "notes": "PIECE HOSTEL SANJOと30 PIECES Nambaの同一運営会社・同一提供元事案を統合。全系列ホテルへの拡張はしない。パスポート番号はSANJO側の記載でありNambaへ転用しない。カード情報は保存していない。",
   "vendors": [
     {
       "name": "AZOO",

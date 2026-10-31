@@ -1,0 +1,50 @@
+{
+  "id": "coade-hanikujiland-20261030",
+  "organization": {
+    "name": "コアデ",
+    "sector": "企業・団体"
+  },
+  "title": "はにくじランドへの侵入で会員情報に流出のおそれ",
+  "summary": "はにくじランドへの侵入で会員情報に流出のおそれ。",
+  "published_on": "2026-10-30",
+  "first_published_on": "2026-10-30",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-31",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。侵入手口の詳細は未公表または調査中。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": 7622,
+      "unit": "people",
+      "qualifier": "maximum",
+      "description": "公表された対象規模。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "電話番号",
+    "メールアドレス",
+    "購入履歴"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.coade-net.co.jp/blog/topics/38538/",
+      "type": "official",
+      "title": "はにくじランドへの侵入で会員情報に流出のおそれ",
+      "published_on": "2026-10-30",
+      "checked_on": "2026-10-31"
+    }
+  ],
+  "updates": [],
+  "notes": "9月の問い合わせフォーム不具合を契機に調査。第三者によるコマンド実行・認証情報不正利用を確認。カード情報は自社で保持していない。"
+}

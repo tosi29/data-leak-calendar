@@ -1,0 +1,59 @@
+{
+  "id": "matsuya-app-20261030",
+  "organization": {
+    "name": "松屋フーズホールディングス",
+    "sector": "企業・団体"
+  },
+  "title": "公式アプリ管理システムから会員・配送先情報が漏えい",
+  "summary": "公式アプリ管理システムから会員・配送先情報が漏えい。",
+  "published_on": "2026-10-30",
+  "first_published_on": "2026-10-30",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-10-28",
+  "updated_on": "2026-10-31",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。侵入手口の詳細は未公表または調査中。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": 3000,
+      "unit": "records",
+      "qualifier": "maximum",
+      "description": "アプリ登録情報。2,000件の漏えいを確認し、最大3,000件となる可能性。"
+    },
+    {
+      "count": 2377127,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "松弁ネット・モバイルオーダー・松弁デリバリー利用者の会員ID、配送先住所、氏名、電話番号、ポイント。"
+    }
+  ],
+  "data_types": [
+    "会員ID",
+    "都道府県・住所",
+    "氏名",
+    "電話番号",
+    "生年月日",
+    "メールアドレス",
+    "暗号化されたパスワード",
+    "松屋ポイント"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.release.tdnet.info/inbs/140120261030561172.pdf",
+      "type": "official",
+      "title": "公式アプリ管理システムから会員・配送先情報が漏えい",
+      "published_on": "2026-10-30",
+      "checked_on": "2026-10-31"
+    }
+  ],
+  "updates": [],
+  "notes": "2区分を合算しない。パスワード等はアプリ登録情報区分。カード情報は保持していない。"
+}

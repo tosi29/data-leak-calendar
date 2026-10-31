@@ -1,0 +1,52 @@
+{
+  "id": "cuisine-kingdom-20261029",
+  "organization": {
+    "name": "料理王国編集部",
+    "sector": "企業・団体"
+  },
+  "title": "ウェブマガジンの会員・問い合わせ情報が漏えい",
+  "summary": "ウェブマガジンの会員・問い合わせ情報が漏えい。",
+  "published_on": "2026-10-29",
+  "first_published_on": "2026-10-29",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-10-19",
+  "updated_on": "2026-10-31",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。侵入手口の詳細は未公表または調査中。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": 8000,
+      "unit": "records",
+      "qualifier": "approximate",
+      "description": "公表された対象規模。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "会社名",
+    "ID",
+    "メールアドレス",
+    "住所",
+    "電話番号",
+    "ハッシュ化パスワード"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://cuisine-kingdom.com/pdf/202610.pdf",
+      "type": "official",
+      "title": "ウェブマガジンの会員・問い合わせ情報が漏えい",
+      "published_on": "2026-10-29",
+      "checked_on": "2026-10-31"
+    }
+  ],
+  "updates": [],
+  "notes": "27日に延べ約8,000件の漏えいを確認。カード情報は保持していない。"
+}

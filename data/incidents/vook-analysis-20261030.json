@@ -1,0 +1,56 @@
+{
+  "id": "vook-analysis-20261030",
+  "organization": {
+    "name": "Vook",
+    "sector": "企業・団体"
+  },
+  "title": "分析ツール経由の侵入で会員・取引先等の情報に漏えいのおそれ",
+  "summary": "分析ツール経由の侵入で会員・取引先等の情報に漏えいのおそれ。",
+  "published_on": "2026-10-30",
+  "first_published_on": "2026-10-30",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-10-14",
+  "updated_on": "2026-10-31",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "vulnerability",
+    "detail": "社内データ分析ツールの脆弱性を悪用したデータベースへのアクセス。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "対象件数は未公表または調査中。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "メールアドレス",
+    "電話番号",
+    "住所",
+    "生年月日",
+    "勤務先・職歴・学歴",
+    "ログイン認証情報（無効化済み）",
+    "登録作品の閲覧パスワード",
+    "IPアドレス・SNSプロフィール",
+    "決済サービス顧客ID",
+    "アンケート回答・通知内容"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://vook.co.jp/574",
+      "type": "official",
+      "title": "分析ツール経由の侵入で会員・取引先等の情報に漏えいのおそれ",
+      "published_on": "2026-10-30",
+      "checked_on": "2026-10-31"
+    }
+  ],
+  "updates": [],
+  "notes": "会員ログインパスワードは対象外だが、登録作品の閲覧パスワードは対象。両者を区別。ツール名は未公表。"
+}

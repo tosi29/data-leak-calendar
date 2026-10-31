@@ -1,0 +1,58 @@
+{
+  "id": "ryobi-aitel-20261030",
+  "organization": {
+    "name": "両備システムズ",
+    "sector": "企業・団体"
+  },
+  "title": "AITELで他利用者情報への不正アクセスを確認",
+  "summary": "AITELで他利用者情報への不正アクセスを確認。",
+  "published_on": "2026-10-30",
+  "first_published_on": "2026-10-30",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-10-27",
+  "updated_on": "2026-10-31",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。侵入手口の詳細は未公表または調査中。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": 773,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "1団体の漏えい確認。氏名・カナ・性別・生年月日。一部728件にメールアドレス。"
+    },
+    {
+      "count": 5,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "3団体のなりすましログインによる漏えいのおそれ。連絡先・住所等を含み、予約情報はうち1件。"
+    }
+  ],
+  "data_types": [
+    "氏名・カナ氏名",
+    "性別",
+    "生年月日",
+    "メールアドレス",
+    "電話番号",
+    "郵便番号・住所",
+    "予約情報"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.ryobi.co.jp/news/2026/202061030",
+      "type": "official",
+      "title": "AITELで他利用者情報への不正アクセスを確認",
+      "published_on": "2026-10-30",
+      "checked_on": "2026-10-31"
+    }
+  ],
+  "updates": [],
+  "notes": "合計778件のうち確定とおそれを区別。病歴・健診結果・パスワードの流出は未確認。"
+}

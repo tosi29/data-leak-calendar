@@ -34924,6 +34924,115 @@
         "前回追加の保留5件中2件を解消。九州FG証券・ICC・ヤクルトは保留継続。従来の候補すべてを再調査したものではない。",
         "複数組織・区分間で対象者が重なるため単純合算しない。カンムの2区分、ソニー生命とメディケア生命、提供元と利用組織が該当する。"
       ]
+    },
+    {
+      "checked_on": "2026-10-31",
+      "scope": "30～31日までの新着・続報と29日の未掲載分、過去初報・前回保留の補完",
+      "stats": {
+        "baseline_incidents": 1696,
+        "added_incidents": 46,
+        "updated_incidents": 11,
+        "total_incidents": 1742,
+        "baseline_candidates": 62,
+        "resolved_candidates": 2,
+        "new_candidates": 2,
+        "pending_candidates": 62,
+        "index_checks": 80,
+        "index_decisions": {
+          "published": 45,
+          "existing": 13,
+          "excluded": 7,
+          "updated": 13,
+          "unresolved": 2
+        }
+      },
+      "added_incident_ids": [
+        "world-tinpanalley-20261030",
+        "matsuya-app-20261030",
+        "tokyu-land-green-20261030",
+        "ryohin-muji-app-20261030",
+        "praise-net-cuenote-20261030",
+        "coade-hanikujiland-20261030",
+        "ryobi-aitel-20261030",
+        "west-mitsubishi-mail-20261030",
+        "japanticket-analysis-20261030",
+        "yamanashi-fuji-japanticket-20261030",
+        "csc-jfg-japanticket-20261030",
+        "ltr-chiikawa-japanticket-20261030",
+        "kddi-lifenet-link-20261030",
+        "atami-travelzip-20261030",
+        "kanagawa-onkana-blastmail-20261029",
+        "japanpost-international-mail-20261029",
+        "elestyle-oneqr-elepay-20261029",
+        "cuisine-kingdom-20261029",
+        "jsce-arara-20261029",
+        "clubnets-cnpoint-20261029",
+        "imano-osaka-wasimil-20261029",
+        "ntt-smile-ecomegane-20261029",
+        "dirigio-picks-20261030",
+        "nihon-kotsu-system-20260713",
+        "dhc-shop-20261030",
+        "ganesha-shogun-dirigio-20261030",
+        "eplus-porno-fesapp-20261030",
+        "vook-analysis-20261030",
+        "katashina-wymail-20261025",
+        "alc-news-blastmail-20261023",
+        "speee-property-logins-20261022",
+        "thinq-studio-20261022",
+        "mie-migration-living-20261023",
+        "mie-migration-cuenote-20261030",
+        "saga-univ-ransom-20260925",
+        "ramrock-ec-20260825",
+        "mofa-network-20261030",
+        "ehime-park-mail-20261030",
+        "yakult-website-20261026",
+        "kyushufg-seminar-20261028",
+        "jinjer-leafea-studio-20261030",
+        "chuo-oshigoto-studio-20261030",
+        "okinawa-mice-blastmail-20261030",
+        "panasonic-hr-ai-20261023",
+        "refact-nurikae-20261022",
+        "nagoya-naka-medical-documents-20261030"
+      ],
+      "updated_incident_ids": [
+        "hana-cupid-20261028",
+        "arara-message-20261028",
+        "valuecommerce-cuenote-20261026",
+        "sweep-9067b9c8cd27-20261023",
+        "east-mitsubishi-mail-20261013",
+        "onamae-desktop-20261023",
+        "rakus-blastmail-20261021",
+        "sweep-7340c0fb3799-20261023",
+        "piece-sanjo-wasimil-20261029",
+        "ana-amadeus-20261029",
+        "kagoshima-industry-blastmail-20261022"
+      ],
+      "resolved_candidate_ids": [
+        "oct28-update-kyushufg",
+        "oct28-update-yakult"
+      ],
+      "reviewed_pending_candidate_ids": [
+        "oct28-update-icc-support"
+      ],
+      "new_candidate_ids": [
+        "oct31-update-ida",
+        "oct31-update-irisplaza"
+      ],
+      "method": [
+        "10月29～31日の日付表記、漏えい・漏洩・不正アクセス・誤送信・紛失を組み合わせ、既出大規模事案や転載サイトの除外検索も併用。",
+        "日付別索引31行、横断索引24行、続報索引25行の計80行を照合。索引行数は重複を含み、事案件数や全取得ページの精査件数ではない。",
+        "公式HTML・PDFを優先。自治体の報道発表、企業の公式一覧、前回保留候補の続報も調査。九州FG証券・パナソニックは直接取得の制限をブラウザー経由で補完。",
+        "既存IDを維持して続報・件数訂正を追記。人数、延べ件数、アカウント、カード、注文を区別し、提供元と利用組織の対象者を合算しない。"
+      ],
+      "limitations": [
+        "31日の調査時点で確認できた公表を対象とする。31日終了までの公表や完全な網羅を保証しない。",
+        "新規46件には7～10月の初報の未掲載分も含む。46件すべてが30～31日に発生・公表されたものではない。",
+        "31日付で確認したワイズマンの復旧案内は、個人情報の具体的影響が確認できず除外。新規掲載の初報日は30日以前。",
+        "iDAは公式本文を取得できず、アイリスプラザは具体的影響待ち。ICCは公式一覧の確認であり、従来の候補62件すべてを再調査したものではない。",
+        "サイト停止・一般的な注意喚起だけでは漏えいと認定しない。漏えい未確認と、漏えいがないとの確定判断を区別する。"
+      ],
+      "report": "docs/research-2026-10-31-oct30-31-update.md",
+      "audit": "data/research-2026-10-31-oct30-31-update.json"
     }
   ]
 }

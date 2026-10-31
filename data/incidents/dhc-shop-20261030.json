@@ -1,0 +1,49 @@
+{
+  "id": "dhc-shop-20261030",
+  "organization": {
+    "name": "ディーエイチシー",
+    "sector": "企業・団体"
+  },
+  "title": "オンラインショップの会員情報改変と不正閲覧のおそれ",
+  "summary": "オンラインショップの会員情報改変と不正閲覧のおそれ。",
+  "published_on": "2026-10-30",
+  "first_published_on": "2026-10-30",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-10-28",
+  "updated_on": "2026-10-31",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "vulnerability",
+    "detail": "オンラインショップの脆弱性を悪用した不正アクセス。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 5096,
+      "unit": "accounts",
+      "qualifier": "exact",
+      "description": "公表された対象規模。"
+    }
+  ],
+  "data_types": [
+    "会員番号",
+    "配送先氏名・住所・電話番号",
+    "購入履歴",
+    "カード番号下4桁"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://dhc-corporate.co.jp/cms_dH8vjpRq/wp-content/uploads/2026/10/0deb6f2426f1d5ab2b2b1824288b374d.pdf",
+      "type": "official",
+      "title": "オンラインショップの会員情報改変と不正閲覧のおそれ",
+      "published_on": "2026-10-30",
+      "checked_on": "2026-10-31"
+    }
+  ],
+  "updates": [],
+  "notes": "5,096アカウントで書換えを確認。住所最大5,520件、不審注文27件、不正登録71件は別指標として合算しない。閲覧は可能性、外部持出し痕跡は未確認。"
+}

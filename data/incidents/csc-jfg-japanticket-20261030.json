@@ -1,0 +1,50 @@
+{
+  "id": "csc-jfg-japanticket-20261030",
+  "organization": {
+    "name": "CS-C",
+    "sector": "企業・団体"
+  },
+  "title": "Japan Food Guideの予約情報が提携先経由で漏えい",
+  "summary": "Japan Food Guideの予約情報が提携先経由で漏えい。",
+  "published_on": "2026-10-30",
+  "first_published_on": "2026-10-30",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-31",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。侵入手口の詳細は未公表または調査中。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "対象件数は未公表または調査中。"
+    }
+  ],
+  "data_types": [
+    "氏名・カナ",
+    "メールアドレス",
+    "電話番号",
+    "予約・注文内容",
+    "備考欄の記入内容"
+  ],
+  "related_vendor": "株式会社Japanticket",
+  "sources": [
+    {
+      "url": "https://s-cs-c.com/news/20261030/",
+      "type": "official",
+      "title": "Japan Food Guideの予約情報が提携先経由で漏えい",
+      "published_on": "2026-10-30",
+      "checked_on": "2026-10-31"
+    }
+  ],
+  "updates": [],
+  "notes": "9月15日以前のJFG経由予約・注文が対象。件数は特定依頼中。提供元全体の26.4万件を同社の件数に転用しない。"
+}

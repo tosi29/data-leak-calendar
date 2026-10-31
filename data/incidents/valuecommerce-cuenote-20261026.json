@@ -5,13 +5,13 @@
     "sector": "企業・団体"
   },
   "title": "メール配信先のアドレス帳情報が流出した可能性",
-  "summary": "Cuenote FCの自社利用環境で10月16日のアドレス帳データ不正出力を確認したと通知された。項目・件数や対象者の特定は調査中。",
+  "summary": "Cuenote FCの自社環境からアドレス帳が不正に出力された。30日追記で対象メールアドレス6,096件（重複除外）と公表。他の情報項目は確認中。",
   "published_on": "2026-10-26",
   "first_published_on": "2026-10-26",
   "publication_kind": "initial",
   "occurred_on": "2026-10-16",
   "detected_on": null,
-  "updated_on": "2026-10-26",
+  "updated_on": "2026-10-31",
   "verification": "official",
   "leak_status": "suspected",
   "incident_type": "attack",
@@ -22,14 +22,15 @@
   },
   "impact": [
     {
-      "count": null,
+      "count": 6096,
       "unit": "records",
-      "qualifier": "unknown",
-      "description": "対象人数・情報件数は調査中または未公表。"
+      "qualifier": "exact",
+      "description": "重複を除いたメールアドレス。延べ7,588件とは合算しない。"
     }
   ],
   "data_types": [
-    "配信先アドレス帳の顧客情報（詳細項目調査中）"
+    "メールアドレス",
+    "その他の登録項目（調査中）"
   ],
   "related_vendor": "ユミルリンク株式会社",
   "sources": [
@@ -38,10 +39,16 @@
       "type": "official",
       "title": "メール配信先のアドレス帳情報が流出した可能性",
       "published_on": "2026-10-26",
-      "checked_on": "2026-10-27"
+      "checked_on": "2026-10-31"
     }
   ],
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-10-30",
+      "summary": "30日追記：対象メールアドレスは重複を除き6,096件（延べ7,588件）。他項目は調査中。",
+      "source_index": 0
+    }
+  ],
   "notes": "",
   "vendors": [
     {

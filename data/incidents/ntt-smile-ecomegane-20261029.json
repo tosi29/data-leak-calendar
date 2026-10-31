@@ -1,0 +1,63 @@
+{
+  "id": "ntt-smile-ecomegane-20261029",
+  "organization": {
+    "name": "NTTスマイルエナジー",
+    "sector": "企業・団体"
+  },
+  "title": "エコめがねへの侵入で利用者情報に漏えいのおそれ",
+  "summary": "エコめがねへの侵入で利用者情報に漏えいのおそれ。",
+  "published_on": "2026-10-29",
+  "first_published_on": "2026-10-29",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-10-28",
+  "updated_on": "2026-10-31",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。侵入手口の詳細は未公表または調査中。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "対象件数は未公表または調査中。"
+    }
+  ],
+  "data_types": [
+    "氏名・企業名",
+    "住所",
+    "電話番号",
+    "メールアドレス",
+    "ログインID・パスワード"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://nttse.com/news/2026/10-29/3284/",
+      "type": "official",
+      "title": "エコめがねへの侵入で利用者情報に漏えいのおそれ",
+      "published_on": "2026-10-29",
+      "checked_on": "2026-10-31"
+    },
+    {
+      "url": "https://nttse.com/news/pressrelease/2026/10-30/3288/",
+      "type": "official",
+      "title": "データベースへの攻撃痕跡を確認し、施主・パートナー企業の連絡先とログイン情報に漏えいのおそれ。件数は精査中。",
+      "published_on": "2026-10-30",
+      "checked_on": "2026-10-31"
+    }
+  ],
+  "updates": [
+    {
+      "date": "2026-10-30",
+      "summary": "データベースへの攻撃痕跡を確認し、施主・パートナー企業の連絡先とログイン情報に漏えいのおそれ。件数は精査中。",
+      "source_index": 1
+    }
+  ],
+  "notes": "29日初報では漏えい未確認。30日の続報で個人情報の対象項目と流出可能性を公表。検知時刻は続報の28日20時20分を採用。"
+}

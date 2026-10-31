@@ -1,0 +1,46 @@
+{
+  "id": "ltr-chiikawa-japanticket-20261030",
+  "organization": {
+    "name": "エルティーアール（ちいかわベーカリー）",
+    "sector": "企業・団体"
+  },
+  "title": "優先入場券予約サイトの委託先で顧客情報が漏えい",
+  "summary": "優先入場券予約サイトの委託先で顧客情報が漏えい。",
+  "published_on": "2026-10-30",
+  "first_published_on": "2026-10-30",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-31",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。侵入手口の詳細は未公表または調査中。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "対象件数は未公表または調査中。"
+    }
+  ],
+  "data_types": [
+    "予約者の個人情報（自社対象の項目詳細は未公表）"
+  ],
+  "related_vendor": "株式会社Japanticket",
+  "sources": [
+    {
+      "url": "https://chiikawabakery.jp/20261030_news/",
+      "type": "official",
+      "title": "優先入場券予約サイトの委託先で顧客情報が漏えい",
+      "published_on": "2026-10-30",
+      "checked_on": "2026-10-31"
+    }
+  ],
+  "updates": [],
+  "notes": "チケットシステム本体への侵入やデータ改ざん・削除は未確認。対象者にはJapanticketから連絡。"
+}

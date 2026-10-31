@@ -1,0 +1,90 @@
+{
+  "id": "nihon-kotsu-system-20260713",
+  "organization": {
+    "name": "日本交通",
+    "sector": "企業・団体"
+  },
+  "title": "社内システムへの侵入で顧客・従業員等の情報に漏えいのおそれ",
+  "summary": "社内システムへの侵入で顧客・従業員等の情報に漏えいのおそれ。",
+  "published_on": "2026-07-13",
+  "first_published_on": "2026-07-13",
+  "publication_kind": "initial",
+  "occurred_on": "2026-07-11",
+  "detected_on": null,
+  "updated_on": "2026-10-31",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。侵入手口の詳細は未公表または調査中。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": 13100,
+      "unit": "people",
+      "qualifier": "approximate",
+      "description": "ハイヤー顧客。"
+    },
+    {
+      "count": 60100,
+      "unit": "people",
+      "qualifier": "approximate",
+      "description": "退職者を含む乗務員・職員。"
+    },
+    {
+      "count": 107900,
+      "unit": "people",
+      "qualifier": "approximate",
+      "description": "過去の採用応募者を含む。"
+    },
+    {
+      "count": 37700,
+      "unit": "people",
+      "qualifier": "approximate",
+      "description": "従業員家族。"
+    },
+    {
+      "count": 2100,
+      "unit": "people",
+      "qualifier": "approximate",
+      "description": "取引先担当者。"
+    },
+    {
+      "count": 72000,
+      "unit": "people",
+      "qualifier": "approximate",
+      "description": "事故等の相手方。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "生年月日・性別",
+    "連絡先",
+    "本人確認書類・顔写真",
+    "人事・給与・口座情報",
+    "マイナンバー（一部）",
+    "健康診断・負傷情報",
+    "応募書類・学歴・職歴"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.nihon-kotsu.co.jp/news/20261030-3479/",
+      "type": "official",
+      "title": "社内システムへの侵入で顧客・従業員等の情報に漏えいのおそれ",
+      "published_on": "2026-10-30",
+      "checked_on": "2026-10-31"
+    }
+  ],
+  "updates": [
+    {
+      "date": "2026-10-30",
+      "summary": "第6報で対象6区分と項目・人数を公表。",
+      "source_index": 0
+    }
+  ],
+  "notes": "30日の第6報が初報日13日を明記。対象項目は区分・個人ごとに異なる。タクシー乗客の配車・乗車情報は対象外。複数区分を合算しない。"
+}

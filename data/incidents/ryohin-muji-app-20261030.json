@@ -1,0 +1,48 @@
+{
+  "id": "ryohin-muji-app-20261030",
+  "organization": {
+    "name": "良品計画",
+    "sector": "企業・団体"
+  },
+  "title": "MUJIアプリの登録情報に流出のおそれ",
+  "summary": "MUJIアプリの登録情報に流出のおそれ。",
+  "published_on": "2026-10-30",
+  "first_published_on": "2026-10-30",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-31",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。侵入手口の詳細は未公表または調査中。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": 27260000,
+      "unit": "records",
+      "qualifier": "maximum_approximate",
+      "description": "公表された対象規模。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス",
+    "生年月日",
+    "性別"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://prtimes.jp/main/html/rd/p/000001877.000000987.html",
+      "type": "official",
+      "title": "良品計画による発表：MUJIアプリにおけるお客様情報流出の可能性",
+      "published_on": "2026-10-30",
+      "checked_on": "2026-10-31"
+    }
+  ],
+  "updates": [],
+  "notes": "退会者を含む。氏名・住所・電話番号・カード情報は対象外。外部流出や悪用の確認には至っていない。"
+}

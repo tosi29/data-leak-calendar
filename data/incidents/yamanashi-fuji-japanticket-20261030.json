@@ -1,0 +1,51 @@
+{
+  "id": "yamanashi-fuji-japanticket-20261030",
+  "organization": {
+    "name": "山梨県",
+    "sector": "自治体"
+  },
+  "title": "2024年度富士山吉田ルート予約情報への影響を調査",
+  "summary": "2024年度富士山吉田ルート予約情報への影響を調査。",
+  "published_on": "2026-10-30",
+  "first_published_on": "2026-10-30",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-31",
+  "verification": "official",
+  "leak_status": "investigating",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。侵入手口の詳細は未公表または調査中。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": 70000,
+      "unit": "records",
+      "qualifier": "approximate",
+      "description": "公表された対象規模。"
+    }
+  ],
+  "data_types": [
+    "氏名・フリガナ",
+    "メールアドレス",
+    "電話番号",
+    "国・地域",
+    "予約内容",
+    "備考欄の記入内容"
+  ],
+  "related_vendor": "株式会社Japanticket",
+  "sources": [
+    {
+      "url": "https://www.pref.yamanashi.jp/fujisan/261030.html",
+      "type": "official",
+      "title": "2024年度富士山吉田ルート予約情報への影響を調査",
+      "published_on": "2026-10-30",
+      "checked_on": "2026-10-31"
+    }
+  ],
+  "updates": [],
+  "notes": "約7万件は対象となり得る2024年度の利用者情報。提供元の漏えい約26.4万件に含まれるかを調査中。2025・2026年度は対象外。"
+}

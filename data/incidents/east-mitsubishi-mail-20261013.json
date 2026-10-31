@@ -5,13 +5,13 @@
     "sector": "企業・団体"
   },
   "title": "社員メールアカウント侵害で氏名・アドレスが漏えい",
-  "summary": "社員のMicrosoft365アカウントが侵害され、なりすましメールが送信された。送信先の氏名・アドレスの漏えいと、過去メールの閲覧可能性を公表した。",
+  "summary": "社員のMicrosoft 365アカウントへの不正ログイン後の調査で、顧客情報24,480件の保存を確認。外部持ち出しの可能性を調査している。",
   "published_on": "2026-10-13",
   "first_published_on": "2026-10-13",
   "publication_kind": "initial",
   "occurred_on": null,
   "detected_on": null,
-  "updated_on": "2026-10-21",
+  "updated_on": "2026-10-31",
   "verification": "official",
   "leak_status": "confirmed",
   "incident_type": "attack",
@@ -22,16 +22,17 @@
   },
   "impact": [
     {
-      "count": null,
+      "count": 24480,
       "unit": "records",
-      "qualifier": "unknown",
-      "description": "対象規模。"
+      "qualifier": "exact",
+      "description": "2024年11月～2026年9月の取引顧客情報。"
     }
   ],
   "data_types": [
     "氏名",
-    "メールアドレス",
-    "過去のメール内容（閲覧可能性）"
+    "車両登録番号",
+    "営業店舗名・担当者氏名",
+    "車両購入諸費用・修理代金等"
   ],
   "related_vendor": null,
   "sources": [
@@ -41,8 +42,21 @@
       "title": "当社社員のメールアカウントへの不正アクセスによるなりすましメール送信に関するお知らせとお詫び",
       "published_on": "2026-10-13",
       "checked_on": "2026-10-21"
+    },
+    {
+      "url": "https://www.east-mitsubishi-motor-sales.com/custom/fuseiaccess2/",
+      "type": "official",
+      "title": "第2報：侵入されたメールアカウントに顧客情報24,480件が保存されていた。持ち出しの痕跡は未確認。",
+      "published_on": "2026-10-30",
+      "checked_on": "2026-10-31"
     }
   ],
-  "updates": [],
-  "notes": "今回の公式本文取得で2026.10.13の日付も確認。825件はなりすましメールの送信数であり、漏えい人数・個人情報件数には転用しない。"
+  "updates": [
+    {
+      "date": "2026-10-30",
+      "summary": "第2報：侵入されたメールアカウントに顧客情報24,480件が保存されていた。持ち出しの痕跡は未確認。",
+      "source_index": 1
+    }
+  ],
+  "notes": "住所・電話番号・銀行口座・カード情報は対象外。初報のなりすましメール825件は送信件数であり、顧客情報の件数とは異なる。"
 }

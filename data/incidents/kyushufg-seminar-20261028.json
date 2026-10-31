@@ -1,0 +1,46 @@
+{
+  "id": "kyushufg-seminar-20261028",
+  "organization": {
+    "name": "九州FG証券",
+    "sector": "企業・団体"
+  },
+  "title": "セミナー受付システムからメールアドレスが漏えいした可能性",
+  "summary": "セミナー受付システムからメールアドレスが漏えいした可能性。",
+  "published_on": "2026-10-28",
+  "first_published_on": "2026-10-28",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-10-27",
+  "updated_on": "2026-10-31",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。侵入手口の詳細は未公表または調査中。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": 1708,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表された対象規模。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.kyushu-fg-sec.co.jp/article/data/info/files/a9f275749841d4f9ea6c35fa1b62a90f0b990bb0.pdf",
+      "type": "official",
+      "title": "セミナー受付システムからメールアドレスが漏えいした可能性",
+      "published_on": "2026-10-28",
+      "checked_on": "2026-10-31"
+    }
+  ],
+  "updates": [],
+  "notes": "2022年12月以降の申込者。証券口座・取引情報・オンライントレードパスワードは別システムで、侵入・漏えい未確認。"
+}

@@ -1,0 +1,46 @@
+{
+  "id": "kanagawa-onkana-blastmail-20261029",
+  "organization": {
+    "name": "神奈川県",
+    "sector": "自治体"
+  },
+  "title": "温カナ！newsのメール配信先情報に漏えいのおそれ",
+  "summary": "温カナ！newsのメール配信先情報に漏えいのおそれ。",
+  "published_on": "2026-10-29",
+  "first_published_on": "2026-10-29",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-31",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。侵入手口の詳細は未公表または調査中。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": 7800,
+      "unit": "records",
+      "qualifier": "approximate",
+      "description": "公表された対象規模。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "株式会社ラクスライトクラウド",
+  "sources": [
+    {
+      "url": "https://www.pref.kanagawa.jp/docs/ap4/prs/r5309411.html",
+      "type": "official",
+      "title": "温カナ！newsのメール配信先情報に漏えいのおそれ",
+      "published_on": "2026-10-29",
+      "checked_on": "2026-10-31"
+    }
+  ],
+  "updates": [],
+  "notes": "委託先はかながわアジェンダ推進センター。メールアドレス以外の項目・件数は確認中。"
+}

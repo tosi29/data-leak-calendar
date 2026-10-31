@@ -1,0 +1,48 @@
+{
+  "id": "elestyle-oneqr-elepay-20261029",
+  "organization": {
+    "name": "ELESTYLE",
+    "sector": "企業・団体"
+  },
+  "title": "加盟店の登録情報に不正取得のおそれ",
+  "summary": "加盟店の登録情報に不正取得のおそれ。",
+  "published_on": "2026-10-29",
+  "first_published_on": "2026-10-29",
+  "publication_kind": "initial",
+  "occurred_on": "2026-10-25",
+  "detected_on": "2026-10-25",
+  "updated_on": "2026-10-31",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "vulnerability",
+    "detail": "一部機能のアクセス制御不備を悪用。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 7162,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "公表された対象規模。"
+    }
+  ],
+  "data_types": [
+    "ユーザー名（氏名・企業名を登録した場合は当該情報）",
+    "メールアドレス",
+    "システム内部識別子"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://elestyle.jp/20261029-report",
+      "type": "official",
+      "title": "加盟店の登録情報に不正取得のおそれ",
+      "published_on": "2026-10-29",
+      "checked_on": "2026-10-31"
+    }
+  ],
+  "updates": [],
+  "notes": "25日9時半頃～16時頃のアクセス。加盟店登録情報でありエンドユーザー情報・カード・口座・取引情報は対象外。サーバー侵入・管理画面の不正ログインは未確認。"
+}

@@ -1,0 +1,68 @@
+{
+  "id": "panasonic-hr-ai-20261023",
+  "organization": {
+    "name": "パナソニック オペレーショナルエクセレンス",
+    "sector": "企業・団体"
+  },
+  "title": "禁止された外部生成AIへ従業員・家族の個人情報をアップロード",
+  "summary": "禁止された外部生成AIへ従業員・家族の個人情報をアップロード。",
+  "published_on": "2026-10-23",
+  "first_published_on": "2026-10-23",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-31",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "improper_handling",
+  "cause": {
+    "category": "improper_sharing",
+    "detail": "人事情報システム導入プロジェクトで利用禁止の外部生成AIへデータを送信。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 75000,
+      "unit": "people",
+      "qualifier": "approximate",
+      "description": "従業員。氏名は含まない。"
+    },
+    {
+      "count": 178000,
+      "unit": "people",
+      "qualifier": "approximate",
+      "description": "元従業員。氏名は含まない。"
+    },
+    {
+      "count": 55000,
+      "unit": "people",
+      "qualifier": "approximate",
+      "description": "従業員の緊急連絡先家族。"
+    },
+    {
+      "count": 26000,
+      "unit": "people",
+      "qualifier": "approximate",
+      "description": "元従業員の緊急連絡先家族。"
+    }
+  ],
+  "data_types": [
+    "社員番号",
+    "住所",
+    "電話番号",
+    "メールアドレス",
+    "家族の氏名"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://holdings.panasonic/jp/information/topics/20261023.html",
+      "type": "official",
+      "title": "禁止された外部生成AIへ従業員・家族の個人情報をアップロード",
+      "published_on": "2026-10-23",
+      "checked_on": "2026-10-31"
+    }
+  ],
+  "updates": [],
+  "notes": "送信を確認したもので、一般公開・攻撃者への漏えいの確認ではない。AI学習は無効。削除後30日保持を経て10月25日以降は事業者内でも保持されないと説明。9月29日の報告日を発生日にしない。サービス名未公表。"
+}

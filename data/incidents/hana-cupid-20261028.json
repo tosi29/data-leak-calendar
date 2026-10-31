@@ -11,7 +11,7 @@
   "publication_kind": "initial",
   "occurred_on": "2026-10-14",
   "detected_on": "2026-10-19",
-  "updated_on": "2026-10-28",
+  "updated_on": "2026-10-31",
   "verification": "official",
   "leak_status": "confirmed",
   "incident_type": "attack",
@@ -30,7 +30,7 @@
   ],
   "data_types": [
     "ユーザーID",
-    "不可逆に暗号化されたパスワード",
+    "ハッシュ化されたパスワード",
     "PC用・携帯用メールアドレス"
   ],
   "related_vendor": null,
@@ -40,9 +40,15 @@
       "type": "official",
       "title": "会員のID・メールアドレス等の漏えい",
       "published_on": "2026-10-28",
-      "checked_on": "2026-10-28"
+      "checked_on": "2026-10-31"
     }
   ],
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-10-30",
+      "summary": "30日の訂正でパスワードの表記を「暗号化」から「ハッシュ化・不可逆な変換」へ修正。",
+      "source_index": 0
+    }
+  ],
   "notes": "不正アクセス期間は10月14～15日。氏名・住所・電話番号・カード番号等は対象外。"
 }

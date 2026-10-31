@@ -1,0 +1,49 @@
+{
+  "id": "chuo-oshigoto-studio-20261030",
+  "organization": {
+    "name": "東京都中央区",
+    "sector": "自治体"
+  },
+  "title": "おしごとWEBの問い合わせ情報に流出のおそれ",
+  "summary": "おしごとWEBの問い合わせ情報に流出のおそれ。",
+  "published_on": "2026-10-30",
+  "first_published_on": "2026-10-30",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-31",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。侵入手口の詳細は未公表または調査中。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": 14,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "公表された対象規模。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "メールアドレス",
+    "電話番号",
+    "法人名・団体名"
+  ],
+  "related_vendor": "株式会社HRP、Studio株式会社",
+  "sources": [
+    {
+      "url": "https://www.city.chuo.lg.jp/a0016/shigoto/koyouroudou/mensetsukai/shuuroukoyoushienhuseiakusesu.html",
+      "type": "official",
+      "title": "おしごとWEBの問い合わせ情報に流出のおそれ",
+      "published_on": "2026-10-30",
+      "checked_on": "2026-10-31"
+    }
+  ],
+  "updates": [],
+  "notes": "28日に委託先経由で報告。公表の対象者数の単位は14件であり人数に変換しない。"
+}

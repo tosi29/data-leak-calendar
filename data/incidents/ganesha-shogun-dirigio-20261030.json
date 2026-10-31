@@ -1,0 +1,51 @@
+{
+  "id": "ganesha-shogun-dirigio-20261030",
+  "organization": {
+    "name": "ガネーシャ",
+    "sector": "企業・団体"
+  },
+  "title": "SHOGUN BURGER公式アプリの顧客情報が漏えい",
+  "summary": "SHOGUN BURGER公式アプリの顧客情報が漏えい。",
+  "published_on": "2026-10-30",
+  "first_published_on": "2026-10-30",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-31",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。侵入手口の詳細は未公表または調査中。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "対象件数は未公表または調査中。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "メールアドレス",
+    "電話番号",
+    "生年月日",
+    "性別",
+    "注文内容"
+  ],
+  "related_vendor": "株式会社DIRIGIO",
+  "sources": [
+    {
+      "url": "https://shogun-burger.com/news/217",
+      "type": "official",
+      "title": "SHOGUN BURGER公式アプリの顧客情報が漏えい",
+      "published_on": "2026-10-30",
+      "checked_on": "2026-10-31"
+    }
+  ],
+  "updates": [],
+  "notes": "漏えい発生を確認。個別項目・詳細範囲は調査中。提供元の総件数を転用しない。"
+}

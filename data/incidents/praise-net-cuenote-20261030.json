@@ -1,0 +1,46 @@
+{
+  "id": "praise-net-cuenote-20261030",
+  "organization": {
+    "name": "日本製薬団体連合会・日本製薬工業協会・東京医薬品工業協会・関西医薬品協会",
+    "sector": "企業・団体"
+  },
+  "title": "PRAISE-NETのメール配信先情報に漏えいのおそれ",
+  "summary": "PRAISE-NETのメール配信先情報に漏えいのおそれ。",
+  "published_on": "2026-10-30",
+  "first_published_on": "2026-10-30",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-31",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。侵入手口の詳細は未公表または調査中。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": 30750,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "公表された対象規模。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "ユミルリンク株式会社（Cuenote FC）",
+  "sources": [
+    {
+      "url": "https://www.jpma.or.jp/news_room/release/2026/261030.html",
+      "type": "official",
+      "title": "PRAISE-NETのメール配信先情報に漏えいのおそれ",
+      "published_on": "2026-10-30",
+      "checked_on": "2026-10-31"
+    }
+  ],
+  "updates": [],
+  "notes": "4団体の共同公表。29日確認時点の登録件数。PRAISE-NET本体の侵入ではなく、ID・氏名・会社名等は配信サービスに登録されていない。"
+}

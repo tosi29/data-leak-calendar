@@ -1,0 +1,72 @@
+{
+  "id": "saga-univ-ransom-20260925",
+  "organization": {
+    "name": "佐賀大学",
+    "sector": "教育・研究"
+  },
+  "title": "事務システムのランサムウェア被害で個人情報に流出のおそれ",
+  "summary": "事務システムのランサムウェア被害で個人情報に流出のおそれ。",
+  "published_on": "2026-09-25",
+  "first_published_on": "2026-09-25",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-09-24",
+  "updated_on": "2026-10-31",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "事務部門のNASでランサムウェア被害。侵入経路は調査中。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": 80000,
+      "unit": "people",
+      "qualifier": "approximate",
+      "description": "学生・教職員・元学生・元教職員・関係者等。"
+    },
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "対象件数は未公表または調査中。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "生年月日",
+    "性別",
+    "住所",
+    "電話番号",
+    "メールアドレス",
+    "パスワード",
+    "診療科・傷病名・受診日等"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.saga-u.ac.jp/koho/press/2026092541515",
+      "type": "official",
+      "title": "事務システムのランサムウェア被害で個人情報に流出のおそれ",
+      "published_on": "2026-09-25",
+      "checked_on": "2026-10-31"
+    },
+    {
+      "url": "https://www.saga-u.ac.jp/koho/press/2026103041765",
+      "type": "official",
+      "title": "約8万人分の学生・教職員等の情報と患者情報に流出のおそれ。患者情報の規模は調査中。",
+      "published_on": "2026-10-30",
+      "checked_on": "2026-10-31"
+    }
+  ],
+  "updates": [
+    {
+      "date": "2026-10-30",
+      "summary": "約8万人分の学生・教職員等の情報と患者情報に流出のおそれ。患者情報の規模は調査中。",
+      "source_index": 1
+    }
+  ],
+  "notes": "9月25日の初報と28日の事務端末再開報を経て、10月30日に個人情報の対象項目を公表。患者人数は約8万人に含めず別に不明として保持。"
+}

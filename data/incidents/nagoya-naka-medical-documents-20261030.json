@@ -1,0 +1,52 @@
+{
+  "id": "nagoya-naka-medical-documents-20261030",
+  "organization": {
+    "name": "名古屋市中区",
+    "sector": "自治体"
+  },
+  "title": "国民健康保険療養費の申請書等を紛失",
+  "summary": "国民健康保険療養費の申請書等を紛失。",
+  "published_on": "2026-10-30",
+  "first_published_on": "2026-10-30",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-31",
+  "verification": "official",
+  "leak_status": "lost",
+  "incident_type": "accident",
+  "cause": {
+    "category": "loss",
+    "detail": "受領・支給後に保管すべき申請書等が所在不明。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 1,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "療養費申請者1名。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "生年月日",
+    "住所",
+    "電話番号",
+    "国民健康保険の記号番号",
+    "疾病名",
+    "本人確認書類の写し"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.city.nagoya.jp/houdou/press-naka/3004006/3006240.html",
+      "type": "official",
+      "title": "国民健康保険療養費の申請書等を紛失",
+      "published_on": "2026-10-30",
+      "checked_on": "2026-10-31"
+    }
+  ],
+  "updates": [],
+  "notes": "22日は申請受付日。紛失・発覚の日時は特定しない。29日に本人へ説明・謝罪。"
+}

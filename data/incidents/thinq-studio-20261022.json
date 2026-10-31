@@ -1,0 +1,58 @@
+{
+  "id": "thinq-studio-20261022",
+  "organization": {
+    "name": "ThinQ Healthcare",
+    "sector": "企業・団体"
+  },
+  "title": "コンプル・WorQの製品紹介フォーム情報に漏えいのおそれ",
+  "summary": "コンプル・WorQの製品紹介フォーム情報に漏えいのおそれ。",
+  "published_on": "2026-10-22",
+  "first_published_on": "2026-10-22",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-31",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "vulnerability",
+    "detail": "Studioの一部機能の脆弱性を悪用した不正アクセス。データ取得可能な状態は10月14日の対処まで継続。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "対象件数は未公表または調査中。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "メールアドレス",
+    "電話番号",
+    "会社名",
+    "部署・役職",
+    "所在地",
+    "問い合わせ内容・意見等"
+  ],
+  "related_vendor": "Studio株式会社",
+  "sources": [
+    {
+      "url": "https://cmpl.jp/news/info-20261022",
+      "type": "official",
+      "title": "コンプル・WorQの製品紹介フォーム情報に漏えいのおそれ",
+      "published_on": "2026-10-30",
+      "checked_on": "2026-10-31"
+    }
+  ],
+  "updates": [
+    {
+      "date": "2026-10-30",
+      "summary": "フォーム対象期間を10月14日までに拡大。新規侵入ではなく取得可能だった期間に合わせた変更。",
+      "source_index": 0
+    }
+  ],
+  "notes": "対象は2022年7月14日～2026年10月14日のフォーム送信。サービス本体のデータは対象外。30日続報で終期を10月1日から14日に拡大。"
+}

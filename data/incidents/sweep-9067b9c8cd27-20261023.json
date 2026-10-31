@@ -11,7 +11,7 @@
   "publication_kind": "initial",
   "occurred_on": "2026-10-17",
   "detected_on": "2026-10-19",
-  "updated_on": "2026-10-27",
+  "updated_on": "2026-10-31",
   "verification": "official",
   "leak_status": "confirmed",
   "incident_type": "attack",
@@ -22,10 +22,10 @@
   },
   "impact": [
     {
-      "count": 3147469,
+      "count": 3147377,
       "unit": "records",
       "qualifier": "exact",
-      "description": "公表された対象規模。"
+      "description": "同一会員の重複計上を除いた会員情報。"
     }
   ],
   "data_types": [
@@ -45,13 +45,18 @@
       "type": "official",
       "title": "委託先への不正アクセスで会員情報3,147,469件が漏えい",
       "published_on": "2026-10-23",
-      "checked_on": "2026-10-27"
+      "checked_on": "2026-10-31"
     }
   ],
   "updates": [
     {
       "date": "2026-10-26",
       "summary": "対象会員のパスワード強制リセットとアプリの新規ダウンロード停止を追記。",
+      "source_index": 0
+    },
+    {
+      "date": "2026-10-30",
+      "summary": "30日訂正：同一会員の重複計上を解消し、対象件数を3,147,469件から3,147,377件へ修正。",
       "source_index": 0
     }
   ],

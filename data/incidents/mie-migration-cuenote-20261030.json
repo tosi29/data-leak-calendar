@@ -1,0 +1,47 @@
+{
+  "id": "mie-migration-cuenote-20261030",
+  "organization": {
+    "name": "三重県",
+    "sector": "自治体"
+  },
+  "title": "移住セミナーのメール配信先情報に漏えいのおそれ",
+  "summary": "移住セミナーのメール配信先情報に漏えいのおそれ。",
+  "published_on": "2026-10-30",
+  "first_published_on": "2026-10-30",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-31",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。侵入手口の詳細は未公表または調査中。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": 156,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表された対象規模。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "メールアドレス"
+  ],
+  "related_vendor": "ユミルリンク株式会社",
+  "sources": [
+    {
+      "url": "https://www.pref.mie.lg.jp/TOPICS/m0346800028.htm",
+      "type": "official",
+      "title": "移住セミナーのメール配信先情報に漏えいのおそれ",
+      "published_on": "2026-10-30",
+      "checked_on": "2026-10-31"
+    }
+  ],
+  "updates": [],
+  "notes": "延べ人数。委託先サンケイリビング新聞社から29日に連絡。23日の委託先サイト侵害とは別のメール配信環境の事案だが対象者は重複する。"
+}
