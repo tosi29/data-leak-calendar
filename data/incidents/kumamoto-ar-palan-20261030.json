@@ -1,0 +1,49 @@
+{
+  "id": "kumamoto-ar-palan-20261030",
+  "organization": {
+    "name": "熊本市",
+    "sector": "自治体"
+  },
+  "title": "ARスタンプラリー参加者1,084名分の情報が漏えい",
+  "summary": "ARスタンプラリー参加者1,084名分の情報が漏えい。",
+  "published_on": "2026-10-30",
+  "first_published_on": "2026-10-30",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "secondary",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。侵入経路の詳細は未公表または調査中。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": 1084,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "2024年実施のAR式デジタルスタンプラリー参加者。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス",
+    "ユーザーネーム（一部本名）",
+    "居住エリア",
+    "年代"
+  ],
+  "related_vendor": "TOPPAN株式会社、株式会社palan",
+  "sources": [
+    {
+      "url": "https://www.fnn.jp/articles/-/1143445",
+      "type": "news",
+      "title": "ARスタンプラリー参加者1,084名分の情報が漏えい",
+      "published_on": "2026-10-30",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": "テレビ熊本の30日報道が同日の市発表を明記。市公式の該当本文に到達できず二次資料扱い。TOPPANの再委託先palanが利用するシステムへの不正アクセスで、PHPの脆弱性によるものではないと説明。"
+}

@@ -5,15 +5,15 @@
     "sector": "企業・団体"
   },
   "title": "音源販売サービス会員情報の漏えいの可能性",
-  "summary": "不正アクセスによりSONICWIRE会員情報最大約42万件とD2R登録店舗情報が閲覧・取得された可能性。",
+  "summary": "SONICWIRE会員情報362,137件等の取得を確認。30日には未使用コード808本の漏えいも公表し、SONICWIRE・D2Rを再開。",
   "published_on": "2026-10-19",
   "first_published_on": "2026-10-19",
   "publication_kind": "initial",
   "occurred_on": null,
   "detected_on": null,
-  "updated_on": "2026-10-20",
+  "updated_on": "2026-11-01",
   "verification": "official",
-  "leak_status": "suspected",
+  "leak_status": "confirmed",
   "incident_type": "attack",
   "cause": {
     "category": "unauthorized_access",
@@ -22,18 +22,30 @@
   },
   "impact": [
     {
-      "count": 420000,
+      "count": 362137,
       "unit": "records",
-      "qualifier": "maximum_approximate",
-      "description": "公表された対象規模。漏えい状況は本文を参照。"
+      "qualifier": "exact",
+      "description": "SONICWIRE会員の登録情報。"
+    },
+    {
+      "count": 671,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "2021年11月19日までの領収書・請求書・見積書の発行時入力情報。"
+    },
+    {
+      "count": 11,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "SONICWIRE会員を除くニュースレター購読者情報。"
     }
   ],
   "data_types": [
     "氏名",
     "メールアドレス",
-    "ハッシュ化パスワード",
-    "住所",
-    "店舗情報"
+    "ソルト付きハッシュ化パスワード",
+    "登録日・最終ログイン日等",
+    "会社名・所属名・住所・電話番号（帳票発行時入力分）"
   ],
   "related_vendor": null,
   "sources": [
@@ -42,9 +54,20 @@
       "type": "official",
       "title": "音源販売サービス会員情報の漏えいの可能性",
       "published_on": "2026-10-19",
-      "checked_on": "2026-10-20"
+      "checked_on": "2026-11-01"
     }
   ],
-  "updates": [],
-  "notes": "42万件はSONICWIRE会員・ニュースレター購読者の範囲。D2Rの件数は未公表。URLは20infoだが本文公表日は10月19日。"
+  "updates": [
+    {
+      "date": "2026-10-22",
+      "summary": "調査結果で会員登録情報362,137件、帳票発行時671件、会員以外のニュースレター11件の取得を確認。",
+      "source_index": 0
+    },
+    {
+      "date": "2026-10-30",
+      "summary": "30日更新：SONICWIRE・D2Rを再開。未使用アクティベートコード808本の漏えいを確認し無効化・再発行。",
+      "source_index": 0
+    }
+  ],
+  "notes": "22日調査結果の3区分を補完し、初報の最大約42万件から更新。区分間の重複を除いた人数は不明。30日判明の808本は製品コードで個人情報件数へ加算しない。ライセンス登録済みシリアルとカード情報、関連ECストアからの漏えいは否定。"
 }

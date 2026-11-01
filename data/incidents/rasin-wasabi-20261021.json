@@ -1,0 +1,60 @@
+{
+  "id": "rasin-wasabi-20261021",
+  "organization": {
+    "name": "羅針（GINZA RASIN）",
+    "sector": "企業・団体"
+  },
+  "title": "公式通販・モール店舗の注文情報386件の流出を確認",
+  "summary": "公式通販・モール店舗の注文情報386件の流出を確認。",
+  "published_on": "2026-10-21",
+  "first_published_on": "2026-10-21",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。侵入経路の詳細は未公表または調査中。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": 386,
+      "unit": "bookings",
+      "qualifier": "exact",
+      "description": "10月10～16日の対象注文。人数ではない。"
+    }
+  ],
+  "data_types": [
+    "氏名・フリガナ",
+    "メールアドレス",
+    "電話番号",
+    "郵便番号・住所",
+    "配送先情報",
+    "注文内容",
+    "購入金額",
+    "支払方法",
+    "備考・メッセージ"
+  ],
+  "related_vendor": "株式会社ワサビ",
+  "sources": [
+    {
+      "url": "https://www.rasin.co.jp/contents/news.html",
+      "type": "official",
+      "title": "公式通販・モール店舗の注文情報386件の流出を確認",
+      "published_on": "2026-10-31",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [
+    {
+      "date": "2026-10-31",
+      "summary": "31日更新で自社注文386件が流出データに含まれると確認。",
+      "source_index": 0
+    }
+  ],
+  "notes": "31日版に初回掲載21日と明記。提供元の全体件数を転用しない。カード情報は保持しておらず対象外。自社サイト自体への不正アクセスは未確認。"
+}

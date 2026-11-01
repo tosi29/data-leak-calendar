@@ -1,0 +1,51 @@
+{
+  "id": "jrwest-bond-platform-20261031",
+  "organization": {
+    "name": "西日本旅客鉄道",
+    "sector": "企業・団体"
+  },
+  "title": "第80回社債の購入者情報2件に漏えいのおそれ",
+  "summary": "第80回社債の購入者情報2件に漏えいのおそれ。",
+  "published_on": "2026-10-31",
+  "first_published_on": "2026-10-31",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。侵入経路の詳細は未公表または調査中。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": 2,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "第80回無担保社債の購入者情報。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "電話番号",
+    "メールアドレス",
+    "性別",
+    "生年月日"
+  ],
+  "related_vendor": "株式会社NTTデータ",
+  "sources": [
+    {
+      "url": "https://www.westjr.co.jp/press/article/2026/10/31/items/261031_00_press_gaibuservice.pdf",
+      "type": "official",
+      "title": "第80回社債の購入者情報2件に漏えいのおそれ",
+      "published_on": "2026-10-31",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": "NTTデータの委託先が提供するデジタル証券プラットフォームの事案。他の販売会社・発行会社の公表と対象が重複し得るため合算しない。30日に報告受領。対象者には販売元の楽天証券から個別連絡。エクスプレス予約等の別事案とは区別。"
+}

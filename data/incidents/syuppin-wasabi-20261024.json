@@ -1,0 +1,65 @@
+{
+  "id": "syuppin-wasabi-20261024",
+  "organization": {
+    "name": "シュッピン",
+    "sector": "企業・団体"
+  },
+  "title": "外部モールの注文情報2,269件と管理アカウント31件が流出",
+  "summary": "外部モールの注文情報2,269件と管理アカウント31件が流出。",
+  "published_on": "2026-10-24",
+  "first_published_on": null,
+  "publication_kind": "followup",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。侵入経路の詳細は未公表または調査中。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": 2269,
+      "unit": "bookings",
+      "qualifier": "exact",
+      "description": "外部モールの注文情報。2,216件から53件増に訂正。"
+    },
+    {
+      "count": 31,
+      "unit": "accounts",
+      "qualifier": "exact",
+      "description": "管理アカウント。顧客パスワードとは異なる。"
+    }
+  ],
+  "data_types": [
+    "氏名・フリガナ",
+    "メールアドレス",
+    "電話番号",
+    "住所",
+    "支払方法",
+    "合計金額",
+    "会員ID",
+    "管理者ID・ログインID・暗号化パスワード"
+  ],
+  "related_vendor": "株式会社ワサビ",
+  "sources": [
+    {
+      "url": "https://www.syuppin.co.jp/news/【重要なお知らせ】委託先である株式会社ワサビ/",
+      "type": "official",
+      "title": "外部モールの注文情報2,269件と管理アカウント31件が流出",
+      "published_on": "2026-10-24",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [
+    {
+      "date": "2026-10-28",
+      "summary": "28日更新までの件数・対象期間訂正と、海外顧客への個別通知開始を補完。",
+      "source_index": 0
+    }
+  ],
+  "notes": "確認できた流出公表本文は24日掲載・28日更新。22日時点の「流出報告なし」説明を引用するが初報日を断定しない。対象期間は14～17日に訂正。カード番号は対象外。自社直営サイトの受注管理にはWASABI SWITCHを利用していない。"
+}

@@ -1,0 +1,47 @@
+{
+  "id": "mufg-ms-bond-platform-20261031",
+  "organization": {
+    "name": "三菱UFJモルガン・スタンレー証券",
+    "sector": "企業・団体"
+  },
+  "title": "近鉄社債の購入顧客95名に情報漏えいのおそれ",
+  "summary": "近鉄社債の購入顧客95名に情報漏えいのおそれ。",
+  "published_on": "2026-10-31",
+  "first_published_on": "2026-10-31",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。侵入経路の詳細は未公表または調査中。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": 95,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "同社を通じて近鉄第135回社債を購入した対象顧客。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "社債の購入金額"
+  ],
+  "related_vendor": "株式会社NTTデータ",
+  "sources": [
+    {
+      "url": "https://www.sc.mufg.jp/company/news/inform/info20261031.html",
+      "type": "official",
+      "title": "近鉄社債の購入顧客95名に情報漏えいのおそれ",
+      "published_on": "2026-10-31",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": "NTTデータの委託先が提供するデジタル証券プラットフォームの事案。他の販売会社・発行会社の公表と対象が重複し得るため合算しない。証券会社自体への侵入ではない。証券口座番号・パスワードは対象外。"
+}

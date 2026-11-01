@@ -5,15 +5,15 @@
     "sector": "企業・団体"
   },
   "title": "登録顧客情報の漏えいの可能性",
-  "summary": "27日に不正アクセスを検知・遮断し、28日に登録情報の一部に漏えいの可能性を確認。対象範囲を精査中。",
+  "summary": "27日の不正プログラム実行によりデータベース情報が持ち出された。30日第3報で項目別件数と対象外の情報を公表。",
   "published_on": "2026-10-28",
   "first_published_on": "2026-10-28",
   "publication_kind": "initial",
-  "occurred_on": null,
+  "occurred_on": "2026-10-27",
   "detected_on": "2026-10-27",
-  "updated_on": "2026-10-29",
+  "updated_on": "2026-11-01",
   "verification": "official",
-  "leak_status": "suspected",
+  "leak_status": "confirmed",
   "incident_type": "attack",
   "cause": {
     "category": "unauthorized_access",
@@ -22,20 +22,36 @@
   },
   "impact": [
     {
-      "count": null,
+      "count": 3385480,
       "unit": "records",
-      "qualifier": "unknown",
-      "description": "対象人数・件数は未公表または調査中。"
+      "qualifier": "exact",
+      "description": "メールアドレス。退会済みを含む。"
+    },
+    {
+      "count": 1499990,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "ハッシュ化パスワード。"
+    },
+    {
+      "count": 945148,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "電話番号。"
+    },
+    {
+      "count": 246931,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "銀行名・支店名・口座種別・番号・名義。"
     }
   ],
   "data_types": [
-    "電話番号",
     "メールアドレス",
-    "氏名",
-    "生年月日",
-    "性別",
-    "住所",
-    "ハッシュ化パスワード"
+    "ハッシュ化パスワード",
+    "電話番号",
+    "銀行口座情報",
+    "取引上のメッセージ・デジタルギフトコード（件数調査中）"
   ],
   "related_vendor": null,
   "sources": [
@@ -45,8 +61,21 @@
       "title": "登録顧客情報の漏えいの可能性",
       "published_on": "2026-10-28",
       "checked_on": "2026-10-29"
+    },
+    {
+      "url": "https://gametrade.jp/official_notifications/286",
+      "type": "official",
+      "title": "第3報：データ持ち出しを確認し、メール・ハッシュ化パスワード・電話・口座の件数を公表。生年月日・本人確認氏名・登録住所の持ち出しを否定。",
+      "published_on": "2026-10-30",
+      "checked_on": "2026-11-01"
     }
   ],
-  "updates": [],
-  "notes": ""
+  "updates": [
+    {
+      "date": "2026-10-30",
+      "summary": "第3報：データ持ち出しを確認し、メール・ハッシュ化パスワード・電話・口座の件数を公表。生年月日・本人確認氏名・登録住所の持ち出しを否定。",
+      "source_index": 1
+    }
+  ],
+  "notes": "不正プログラム実行は27日10時14分～18時59分、持ち出しは10時42分～16時52分。項目間の重複があるため合算しない。登録住所・生年月日・本人確認氏名は持ち出しなしだが、メッセージに自ら入力した氏名・住所は含まれる可能性。カード番号・本人確認書類・マイナンバーは漏えいなし。"
 }

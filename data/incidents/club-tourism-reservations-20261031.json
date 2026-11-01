@@ -1,0 +1,54 @@
+{
+  "id": "club-tourism-reservations-20261031",
+  "organization": {
+    "name": "クラブツーリズム",
+    "sector": "企業・団体"
+  },
+  "title": "予約システムのインターネット会員情報約432万件に流出のおそれ",
+  "summary": "予約システムのインターネット会員情報約432万件に流出のおそれ。",
+  "published_on": "2026-10-31",
+  "first_published_on": "2026-10-31",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-10-30",
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。侵入経路の詳細は未公表または調査中。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": 4320000,
+      "unit": "records",
+      "qualifier": "approximate",
+      "description": "公表された対象情報の件数。"
+    }
+  ],
+  "data_types": [
+    "氏名・フリガナ",
+    "国籍",
+    "性別",
+    "生年月日・年齢",
+    "住所",
+    "電話番号",
+    "メールアドレス",
+    "会員ID",
+    "緊急連絡先"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.club-tourism.co.jp/jpn/news/2026/1031/",
+      "type": "official",
+      "title": "予約システムのインターネット会員情報約432万件に流出のおそれ",
+      "published_on": "2026-10-31",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": "30日5時45分に検知。ログインパスワード・旅券・カード・口座番号は対象外。インターネット会員登録歴のない顧客への影響は否定。2024年公表の別事案と混同しない。"
+}

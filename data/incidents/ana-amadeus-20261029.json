@@ -5,13 +5,13 @@
     "sector": "企業・団体"
   },
   "title": "委託先の予約情報に外部参照の形跡",
-  "summary": "アマデウスからANA便の予約情報に不正アクセスがあり、一部個人情報が参照された形跡があるとの報告を受けたと発表。影響範囲を調査中。",
+  "summary": "アマデウスの旅客サービスシステムへの侵入で顧客予約情報が参照された形跡を確認。30日続報で対象約37,800名と項目を公表。",
   "published_on": "2026-10-29",
   "first_published_on": "2026-10-29",
   "publication_kind": "initial",
   "occurred_on": null,
   "detected_on": null,
-  "updated_on": "2026-10-31",
+  "updated_on": "2026-11-01",
   "verification": "official",
   "leak_status": "confirmed",
   "incident_type": "attack",
@@ -22,14 +22,24 @@
   },
   "impact": [
     {
-      "count": null,
-      "unit": "records",
-      "qualifier": "unknown",
-      "description": "対象人数・件数は未公表または調査中。"
+      "count": 36100,
+      "unit": "people",
+      "qualifier": "approximate",
+      "description": "氏名・予約番号・旅行日・旅程・搭乗クラス。"
+    },
+    {
+      "count": 1700,
+      "unit": "people",
+      "qualifier": "approximate",
+      "description": "左記に加えメール・電話・旅券番号・国籍・マイレージ番号・航空会社・便名・eチケット番号・座席番号等。"
     }
   ],
   "data_types": [
-    "予約情報に含まれる個人情報（項目は未公表）"
+    "氏名",
+    "予約番号・旅行日・旅程・搭乗クラス",
+    "メールアドレス・電話番号（一部）",
+    "旅券番号・国籍（一部）",
+    "マイレージ番号・航空会社・便名・eチケット番号・座席番号等（一部）"
   ],
   "related_vendor": "Amadeus IT Group, S.A.",
   "sources": [
@@ -46,6 +56,13 @@
       "title": "29日付ANA公式公表を確認し、確認区分を二次資料から公式資料へ更新。",
       "published_on": "2026-10-29",
       "checked_on": "2026-10-31"
+    },
+    {
+      "url": "https://www.ana.co.jp/en/us/special-notice/001615.html?p1=top&p2=en&p3=global",
+      "type": "official",
+      "title": "30日続報で対象約37,800名と情報項目を公表。",
+      "published_on": "2026-10-30",
+      "checked_on": "2026-11-01"
     }
   ],
   "updates": [
@@ -53,9 +70,14 @@
       "date": "2026-10-29",
       "summary": "29日付ANA公式公表を確認し、確認区分を二次資料から公式資料へ更新。",
       "source_index": 1
+    },
+    {
+      "date": "2026-10-30",
+      "summary": "30日続報で対象約37,800名と情報項目を公表。",
+      "source_index": 2
     }
   ],
-  "notes": "ANA公式本文でアマデウスからの報告と個人情報参照の形跡を確認。対象者・項目・件数は未公表。JAL・JTAの件数や項目を転用しない。参照の形跡確認であり、持ち出しの全容確定ではない。",
+  "notes": "2023年8月10日～2026年9月23日にANAで予約した顧客が対象で、この期間を侵入期間にはしない。約1,700名は約37,800名の内数。カード番号・アカウントパスワードは対象外。日本語続報は取得できずANA英語版で確認。",
   "vendors": [
     {
       "name": "Amadeus IT Group, S.A.",

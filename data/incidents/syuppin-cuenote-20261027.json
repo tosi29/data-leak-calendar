@@ -1,0 +1,62 @@
+{
+  "id": "syuppin-cuenote-20261027",
+  "organization": {
+    "name": "シュッピン",
+    "sector": "企業・団体"
+  },
+  "title": "マップカメラのメール配信登録情報77,204件の流出を報告",
+  "summary": "マップカメラのメール配信登録情報77,204件の流出を報告。",
+  "published_on": "2026-10-27",
+  "first_published_on": "2026-10-27",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。侵入経路の詳細は未公表または調査中。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": 77204,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "マップカメラの対象メールアドレス数。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス",
+    "保有ポイント残高",
+    "ポイント有効期限",
+    "都道府県名"
+  ],
+  "related_vendor": "ユミルリンク株式会社",
+  "sources": [
+    {
+      "url": "https://www.syuppin.co.jp/20261027",
+      "type": "official",
+      "title": "マップカメラのメール配信登録情報77,204件の流出を報告",
+      "published_on": "2026-10-27",
+      "checked_on": "2026-11-01"
+    },
+    {
+      "url": "https://www.syuppin.co.jp/20261030",
+      "type": "official",
+      "title": "30日続報で対象をマップカメラの77,204件と具体化。",
+      "published_on": "2026-10-30",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [
+    {
+      "date": "2026-10-30",
+      "summary": "30日続報で対象をマップカメラの77,204件と具体化。",
+      "source_index": 1
+    }
+  ],
+  "notes": "30日版の冒頭・FAQで不正取得・流出の報告を説明。個々の対象範囲は調査時点のもの。詳細住所・電話・パスワード・決済情報は登録されていない。GMT・KINGDOM NOTE・OneToOne配信が対象との報告は受けていない。ワサビ経由の注文情報流出とは別事案。"
+}

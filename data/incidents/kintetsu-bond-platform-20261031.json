@@ -1,0 +1,47 @@
+{
+  "id": "kintetsu-bond-platform-20261031",
+  "organization": {
+    "name": "近鉄グループホールディングス",
+    "sector": "企業・団体"
+  },
+  "title": "社債購入者情報2,678件に漏えいのおそれ",
+  "summary": "社債購入者情報2,678件に漏えいのおそれ。",
+  "published_on": "2026-10-31",
+  "first_published_on": "2026-10-31",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。侵入経路の詳細は未公表または調査中。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": 2678,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "第135回無担保社債を100万円以上購入した投資家全員。特典申込者に限定しない。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "社債の購入金額"
+  ],
+  "related_vendor": "株式会社NTTデータ",
+  "sources": [
+    {
+      "url": "https://files.microcms-assets.io/assets/b5bb8ced8fa1487390ad071605410061/3d5fea5cb2814f86a6e7f89d5aec14a0/20261031hd.pdf",
+      "type": "official",
+      "title": "社債購入者情報2,678件に漏えいのおそれ",
+      "published_on": "2026-10-31",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": "NTTデータの委託先が提供するデジタル証券プラットフォームの事案。他の販売会社・発行会社の公表と対象が重複し得るため合算しない。30日に報告受領。証券口座番号・パスワードは保持していない。"
+}

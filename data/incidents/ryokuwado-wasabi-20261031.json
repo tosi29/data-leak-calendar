@@ -1,0 +1,52 @@
+{
+  "id": "ryokuwado-wasabi-20261031",
+  "organization": {
+    "name": "緑和堂",
+    "sector": "企業・団体"
+  },
+  "title": "ECサイト受注情報の漏えいを確認し最大351名の対象範囲を公表",
+  "summary": "ECサイト受注情報の漏えいを確認し最大351名の対象範囲を公表。",
+  "published_on": "2026-10-31",
+  "first_published_on": "2026-10-31",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。侵入経路の詳細は未公表または調査中。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": 351,
+      "unit": "people",
+      "qualifier": "maximum",
+      "description": "漏えいした可能性がある対象人数。全員・全項目の確定ではない。"
+    }
+  ],
+  "data_types": [
+    "氏名・フリガナ",
+    "郵便番号・住所",
+    "電話番号",
+    "メールアドレス",
+    "支払方法の種類",
+    "購入金額",
+    "会員ID"
+  ],
+  "related_vendor": "株式会社ワサビ",
+  "sources": [
+    {
+      "url": "https://www.ryokuwado.com/96780/",
+      "type": "official",
+      "title": "ECサイト受注情報の漏えいを確認し最大351名の対象範囲を公表",
+      "published_on": "2026-10-31",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": "冒頭で自社顧客情報の一部漏えいを確認と説明する一方、最大351名の範囲は可能性として公表。10月14日4時47分～16日4時18分は公表上の対象期間。店頭・出張買取や神栄会は影響なし。"
+}

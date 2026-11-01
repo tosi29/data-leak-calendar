@@ -1,0 +1,376 @@
+{
+  "checked_on": "2026-11-01",
+  "scope": "前回確認後から11月1日までの新着・続報、30日の未反映分と保留候補の再確認",
+  "stats": {
+    "baseline_incidents": 1742,
+    "added_incidents": 15,
+    "updated_incidents": 5,
+    "total_incidents": 1757,
+    "baseline_candidates": 62,
+    "resolved_candidates": 0,
+    "new_candidates": 1,
+    "pending_candidates": 63
+  },
+  "added_incident_ids": [
+    "kintetsu-bond-platform-20261031",
+    "club-tourism-reservations-20261031",
+    "rakuten-sec-bond-platform-20261031",
+    "nomura-bond-platform-20261031",
+    "nttdata-stdirect-20261031",
+    "mufg-ms-bond-platform-20261031",
+    "jrwest-bond-platform-20261031",
+    "kagome-bond-platform-20261031",
+    "saison-realestate-platform-20261031",
+    "ryokuwado-wasabi-20261031",
+    "rasin-wasabi-20261021",
+    "igreks-wymail-20261024",
+    "syuppin-cuenote-20261027",
+    "syuppin-wasabi-20261024",
+    "kumamoto-ar-palan-20261030"
+  ],
+  "updated_incident_ids": [
+    "rakus-blastmail-20261021",
+    "ana-amadeus-20261029",
+    "gametrade-20261028",
+    "crypton-sonicwire-20261019",
+    "okinawa-mice-blastmail-20261030"
+  ],
+  "reviewed_pending_candidate_ids": [
+    "oct31-update-ida",
+    "oct31-update-irisplaza",
+    "oct28-update-icc-support"
+  ],
+  "new_candidate_ids": [
+    "nov1-update-meti-betsunana"
+  ],
+  "method": [
+    "10月31日・11月1日と漏えい／漏洩・不正アクセス・誤送信・紛失を組み合わせて検索。社債・クラブツーリズム・転載サイトを除いた検索も行った。",
+    "日付別索引の31日公表6行と複数の横断索引・続報一覧を入口に、公式HTML・PDFを照合。30日の未反映続報や前回保留3件も確認。取得した全ページや全過去候補を精査したという意味ではない。",
+    "同一組織の続報は既存IDに統合。社債の発行会社・販売会社・提供元は別記録とし、対象者の重複を明記。セゾンの委託先を、根拠なくNTTデータの委託先と同一視しない。",
+    "本文取得制限時は公式英語版・ブラウザー経由を併用。熊本市は市発表日を明記したテレビ熊本の記事を根拠にsecondaryで掲載。"
+  ],
+  "limitations": [
+    "11月1日の調査時点で確認できた公表が対象で、当日終了までの情報や完全な網羅を保証しない。",
+    "新規15件には21～30日初報の補完を含む。15件すべてが31日以降に発生したものではない。11月1日付で反映したのは既存事案の続報。",
+    "熊本市の公式該当本文は未確認。ANAは日本語続報が404だったため英語版を使用。シュッピンは直接取得が制限され、ブラウザー経由で公式本文を確認。",
+    "iDA・アイリスプラザ・ICCは保留継続。ベツナナは記事本文と公式公表の確認待ちとして追加。",
+    "通知対象・潜在対象と流出確認、人数・件数・注文・製品コードを区別。コード808本を個人情報件数に加算しない。"
+  ],
+  "report": "docs/research-2026-11-01-update.md",
+  "audit": "data/research-2026-11-01-update.json",
+  "checks": [
+    {
+      "organization": "近鉄グループホールディングス",
+      "decision": "published",
+      "incident_ids": [
+        "kintetsu-bond-platform-20261031"
+      ],
+      "source_urls": [
+        "https://files.microcms-assets.io/assets/b5bb8ced8fa1487390ad071605410061/3d5fea5cb2814f86a6e7f89d5aec14a0/20261031hd.pdf"
+      ],
+      "reason": "NTTデータの委託先が提供するデジタル証券プラットフォームの事案。他の販売会社・発行会社の公表と対象が重複し得るため合算しない。30日に報告受領。証券口座番号・パスワードは保持していない。",
+      "verification": "official"
+    },
+    {
+      "organization": "クラブツーリズム",
+      "decision": "published",
+      "incident_ids": [
+        "club-tourism-reservations-20261031"
+      ],
+      "source_urls": [
+        "https://www.club-tourism.co.jp/jpn/news/2026/1031/"
+      ],
+      "reason": "30日5時45分に検知。ログインパスワード・旅券・カード・口座番号は対象外。インターネット会員登録歴のない顧客への影響は否定。2024年公表の別事案と混同しない。",
+      "verification": "official"
+    },
+    {
+      "organization": "楽天証券",
+      "decision": "published",
+      "incident_ids": [
+        "rakuten-sec-bond-platform-20261031"
+      ],
+      "source_urls": [
+        "https://www.rakuten-sec.co.jp/web/info/info20261031-01.html"
+      ],
+      "reason": "NTTデータの委託先が提供するデジタル証券プラットフォームの事案。他の販売会社・発行会社の公表と対象が重複し得るため合算しない。対象はカゴメ第1回・JR西日本第80回の一部購入者と、近鉄第135回の100万円以上購入者。公式の「発生日時」欄は30日だが、報告受領の説明と区別できないため侵入発生日には転記しない。楽天証券のID・パスワード・取引に必要な情報は対象外。",
+      "verification": "official"
+    },
+    {
+      "organization": "野村證券",
+      "decision": "published",
+      "incident_ids": [
+        "nomura-bond-platform-20261031"
+      ],
+      "source_urls": [
+        "https://www.nomuraholdings.com/jp/news/topics/20261031.html"
+      ],
+      "reason": "NTTデータの委託先が提供するデジタル証券プラットフォームの事案。他の販売会社・発行会社の公表と対象が重複し得るため合算しない。30日に連絡受領。証券口座番号・パスワード等は同環境に保持していない。野村證券自体への侵入は未確認。",
+      "verification": "official"
+    },
+    {
+      "organization": "NTTデータ",
+      "decision": "published",
+      "incident_ids": [
+        "nttdata-stdirect-20261031"
+      ],
+      "source_urls": [
+        "https://www.nttdata.com/global/ja/news/release/2026/103101/"
+      ],
+      "reason": "社債購入者への特典付与支援サービス。委託先名は未公表。現時点では特典付与対象の社債がなく、停止による特典付与業務への影響はないとの説明。停止だけでなく個人情報への影響が公表されているため掲載。",
+      "verification": "official"
+    },
+    {
+      "organization": "三菱UFJモルガン・スタンレー証券",
+      "decision": "published",
+      "incident_ids": [
+        "mufg-ms-bond-platform-20261031"
+      ],
+      "source_urls": [
+        "https://www.sc.mufg.jp/company/news/inform/info20261031.html"
+      ],
+      "reason": "NTTデータの委託先が提供するデジタル証券プラットフォームの事案。他の販売会社・発行会社の公表と対象が重複し得るため合算しない。証券会社自体への侵入ではない。証券口座番号・パスワードは対象外。",
+      "verification": "official"
+    },
+    {
+      "organization": "西日本旅客鉄道",
+      "decision": "published",
+      "incident_ids": [
+        "jrwest-bond-platform-20261031"
+      ],
+      "source_urls": [
+        "https://www.westjr.co.jp/press/article/2026/10/31/items/261031_00_press_gaibuservice.pdf"
+      ],
+      "reason": "NTTデータの委託先が提供するデジタル証券プラットフォームの事案。他の販売会社・発行会社の公表と対象が重複し得るため合算しない。30日に報告受領。対象者には販売元の楽天証券から個別連絡。エクスプレス予約等の別事案とは区別。",
+      "verification": "official"
+    },
+    {
+      "organization": "カゴメ",
+      "decision": "published",
+      "incident_ids": [
+        "kagome-bond-platform-20261031"
+      ],
+      "source_urls": [
+        "https://www.kagome.co.jp/s3-contents/notification/20261031054555.pdf"
+      ],
+      "reason": "NTTデータの委託先が提供するデジタル証券プラットフォームの事案。他の販売会社・発行会社の公表と対象が重複し得るため合算しない。30日に報告受領。販売元の楽天証券から個別連絡。",
+      "verification": "official"
+    },
+    {
+      "organization": "クレディセゾン",
+      "decision": "published",
+      "incident_ids": [
+        "saison-realestate-platform-20261031"
+      ],
+      "source_urls": [
+        "https://www.saisoncard.co.jp/customer-support/information/20261031/"
+      ],
+      "reason": "29日3時42分～6時17分の侵入。委託先名は未公表で、他社債プラットフォームと同一事業者とは断定しない。資産記録の改変・ブロックチェーン上の資産移転は未確認。カード情報は保持していない。",
+      "verification": "official"
+    },
+    {
+      "organization": "緑和堂",
+      "decision": "published",
+      "incident_ids": [
+        "ryokuwado-wasabi-20261031"
+      ],
+      "source_urls": [
+        "https://www.ryokuwado.com/96780/"
+      ],
+      "reason": "冒頭で自社顧客情報の一部漏えいを確認と説明する一方、最大351名の範囲は可能性として公表。10月14日4時47分～16日4時18分は公表上の対象期間。店頭・出張買取や神栄会は影響なし。",
+      "verification": "official"
+    },
+    {
+      "organization": "羅針（GINZA RASIN）",
+      "decision": "published",
+      "incident_ids": [
+        "rasin-wasabi-20261021"
+      ],
+      "source_urls": [
+        "https://www.rasin.co.jp/contents/news.html"
+      ],
+      "reason": "31日版に初回掲載21日と明記。提供元の全体件数を転用しない。カード情報は保持しておらず対象外。自社サイト自体への不正アクセスは未確認。",
+      "verification": "official"
+    },
+    {
+      "organization": "イグレックス",
+      "decision": "published",
+      "incident_ids": [
+        "igreks-wymail-20261024"
+      ],
+      "source_urls": [
+        "https://igreks.jp/archives/782"
+      ],
+      "reason": "ポータルから取得されたセットアップ情報を悪用して契約者の配信環境へ侵入。第6報で1メルマガ当たり最大30件のアドレス閲覧の可能性を説明したが、全体件数は不明。ポータル側に個人情報を含まないとの第7報の説明を、配信環境全体の漏えい否定にしない。",
+      "verification": "official"
+    },
+    {
+      "organization": "シュッピン",
+      "decision": "published",
+      "incident_ids": [
+        "syuppin-cuenote-20261027"
+      ],
+      "source_urls": [
+        "https://www.syuppin.co.jp/20261027",
+        "https://www.syuppin.co.jp/20261030"
+      ],
+      "reason": "30日版の冒頭・FAQで不正取得・流出の報告を説明。個々の対象範囲は調査時点のもの。詳細住所・電話・パスワード・決済情報は登録されていない。GMT・KINGDOM NOTE・OneToOne配信が対象との報告は受けていない。ワサビ経由の注文情報流出とは別事案。",
+      "verification": "official"
+    },
+    {
+      "organization": "シュッピン",
+      "decision": "published",
+      "incident_ids": [
+        "syuppin-wasabi-20261024"
+      ],
+      "source_urls": [
+        "https://www.syuppin.co.jp/news/【重要なお知らせ】委託先である株式会社ワサビ/"
+      ],
+      "reason": "確認できた流出公表本文は24日掲載・28日更新。22日時点の「流出報告なし」説明を引用するが初報日を断定しない。対象期間は14～17日に訂正。カード番号は対象外。自社直営サイトの受注管理にはWASABI SWITCHを利用していない。",
+      "verification": "official"
+    },
+    {
+      "organization": "熊本市",
+      "decision": "published",
+      "incident_ids": [
+        "kumamoto-ar-palan-20261030"
+      ],
+      "source_urls": [
+        "https://www.fnn.jp/articles/-/1143445"
+      ],
+      "reason": "テレビ熊本の30日報道が同日の市発表を明記。市公式の該当本文に到達できず二次資料扱い。TOPPANの再委託先palanが利用するシステムへの不正アクセスで、PHPの脆弱性によるものではないと説明。",
+      "verification": "secondary"
+    },
+    {
+      "organization": "ラクスライトクラウド（ブラストメール）",
+      "decision": "updated",
+      "incident_ids": [
+        "rakus-blastmail-20261021"
+      ],
+      "source_urls": [
+        "https://www.rakus.co.jp/news/2026/1021-3.html",
+        "https://info.blastmail.jp/information_20261021.html",
+        "https://info.blastmail.jp/information_20261021.html",
+        "https://info.blastmail.jp/information_20261021.html",
+        "https://info.blastmail.jp/information_20261021.html",
+        "https://info.blastmail.jp/information_20261021.html",
+        "https://info.blastmail.jp/information_20261021.html"
+      ],
+      "reason": "11月1日12時更新：新たな漏えい判明はなく345契約で変動なし。11月11日頃の再開目標は継続、OEM版は未定。次回は2日中の予定。",
+      "verification": "official"
+    },
+    {
+      "organization": "全日本空輸（ANA）",
+      "decision": "updated",
+      "incident_ids": [
+        "ana-amadeus-20261029"
+      ],
+      "source_urls": [
+        "https://finance.yahoo.co.jp/news/detail/8b830bba672dfe7254c2d339cd0a124c2eb3b549",
+        "https://www.anahd.co.jp/group/pr/202610/notification.html",
+        "https://www.ana.co.jp/en/us/special-notice/001615.html?p1=top&p2=en&p3=global"
+      ],
+      "reason": "30日続報で対象約37,800名と情報項目を公表。",
+      "verification": "official"
+    },
+    {
+      "organization": "ゲームトレード",
+      "decision": "updated",
+      "incident_ids": [
+        "gametrade-20261028"
+      ],
+      "source_urls": [
+        "https://gametrade.jp/official_notifications/283",
+        "https://gametrade.jp/official_notifications/286"
+      ],
+      "reason": "第3報：データ持ち出しを確認し、メール・ハッシュ化パスワード・電話・口座の件数を公表。生年月日・本人確認氏名・登録住所の持ち出しを否定。",
+      "verification": "official"
+    },
+    {
+      "organization": "クリプトン・フューチャー・メディア（SONICWIRE・D2R）",
+      "decision": "updated",
+      "incident_ids": [
+        "crypton-sonicwire-20261019"
+      ],
+      "source_urls": [
+        "https://www.crypton.co.jp/cfm/news/2026/10/20info"
+      ],
+      "reason": "30日更新：SONICWIRE・D2Rを再開。未使用アクティベートコード808本の漏えいを確認し無効化・再発行。",
+      "verification": "official"
+    },
+    {
+      "organization": "沖縄県",
+      "decision": "updated",
+      "incident_ids": [
+        "okinawa-mice-blastmail-20261030"
+      ],
+      "source_urls": [
+        "https://www.pref.okinawa.lg.jp/bunkakoryu/sport/1009786/1041818.html",
+        "https://www.pref.okinawa.lg.jp/shigoto/ringyo/1010912/1041813.html",
+        "https://www.pref.okinawa.lg.jp/machizukuri/park/1041826.html"
+      ],
+      "reason": "30日付公表（31日ページ更新）を補完。県民の森に加え中城公園の利用者もなっぷの漏えい対象に含まれる可能性を調査。",
+      "verification": "official"
+    },
+    {
+      "organization": "石川コンピュータ・センター（サポートサイト）",
+      "decision": "pending",
+      "candidate_id": "oct28-update-icc-support",
+      "source_urls": [
+        "https://www.icc.co.jp/news/2026/20261017.html",
+        "https://www.icc.co.jp/news/2026/20261027.html",
+        "https://www.icc.co.jp/news/2026/"
+      ],
+      "reason": "11月1日再確認：公式新着一覧の該当最新公表は27日第2報。自然人への影響範囲を確定する追加資料を確認できず保留継続。"
+    },
+    {
+      "organization": "iDA（MyBRANDS）",
+      "decision": "pending",
+      "candidate_id": "oct31-update-ida",
+      "source_urls": [
+        "https://ida-mode.com/lp/news/unauthorized-access-2026-10/"
+      ],
+      "reason": "11月1日再確認：公式URLを直接再取得したが本文が空で、検索でも当該公式本文を補完できず。索引の件数・項目を確定値として採用しない。"
+    },
+    {
+      "organization": "アイリスプラザ",
+      "decision": "pending",
+      "candidate_id": "oct31-update-irisplaza",
+      "source_urls": [
+        "https://www.irisohyama.co.jp/news/2026/?date=1029"
+      ],
+      "reason": "11月1日再確認：29日付公式発表と公式新着一覧を確認。具体的な個人情報の対象項目・範囲の追加公表は確認できず、保留継続。"
+    },
+    {
+      "organization": "経済産業省（ベツナナ）",
+      "decision": "pending",
+      "candidate_id": "nov1-update-meti-betsunana",
+      "source_urls": [
+        "https://www.yomiuri.co.jp/economy/20261031-GYT1T00010/"
+      ],
+      "reason": "31日付報道への索引で会員制交流スペース予約管理システムの情報漏えいのおそれを発見。報道本文を取得できず、公式の当該本文・初公表日・対象項目を確認できないため保留。約1,100人という索引の数値は未検証。別件デントリネットへの不正アクセスと混同しない。"
+    },
+    {
+      "organization": "峡西シーエーテーブイ",
+      "decision": "excluded",
+      "source_urls": [
+        "https://www.cvk.ne.jp/20261017-01-2/"
+      ],
+      "reason": "30日公表・31日ページ更新で自社取扱製品のシリアル番号は漏えい対象外と確認。既存掲載はなく、新規漏えい事案として加算しない。"
+    },
+    {
+      "organization": "Northflank",
+      "decision": "out_of_scope",
+      "source_urls": [
+        "https://thinktwice.tech/posts/6b004bae377cfc98ce01815af54e25ca/"
+      ],
+      "reason": "海外提供元の事案を索引で発見。今回の国内組織による公表の更新対象から除外。公式本文を確認済みと扱わない。"
+    }
+  ],
+  "discovery_sources": [
+    "https://jouhourouei.clipmaster.jp/months/2026-10",
+    "https://jouhourouei.clipmaster.jp/followups",
+    "https://thinktwice.tech/posts/6b004bae377cfc98ce01815af54e25ca/",
+    "https://incidentnews.jp/",
+    "https://skikkh.github.io/jp-security-announcement/breaches.html"
+  ]
+}

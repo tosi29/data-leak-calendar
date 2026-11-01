@@ -1,0 +1,57 @@
+{
+  "id": "igreks-wymail-20261024",
+  "organization": {
+    "name": "イグレックス",
+    "sector": "企業・団体"
+  },
+  "title": "ワイメールの契約者配信環境で宛先情報が閲覧された可能性",
+  "summary": "ワイメールの契約者配信環境で宛先情報が閲覧された可能性。",
+  "published_on": "2026-10-24",
+  "first_published_on": "2026-10-24",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "credentials",
+    "detail": "ポータル側から取得された認証関連情報を利用した契約者配信環境への侵入。",
+    "certainty": "suspected"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "対象人数・件数は未公表または調査中。"
+    }
+  ],
+  "data_types": [
+    "メール配信先のメールアドレス"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://igreks.jp/archives/782",
+      "type": "official",
+      "title": "ワイメールの契約者配信環境で宛先情報が閲覧された可能性",
+      "published_on": "2026-10-24",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [
+    {
+      "date": "2026-10-31",
+      "summary": "第17報：対策版を適用し外部診断中。11月4日頃から順次再開する見込みで、ポータルの再開時期は未定。",
+      "source_index": 0
+    },
+    {
+      "date": "2026-11-01",
+      "summary": "第18報：電話システム保守の影響で問い合わせ電話の転送に支障。メールでの受付を案内。",
+      "source_index": 0
+    }
+  ],
+  "notes": "ポータルから取得されたセットアップ情報を悪用して契約者の配信環境へ侵入。第6報で1メルマガ当たり最大30件のアドレス閲覧の可能性を説明したが、全体件数は不明。ポータル側に個人情報を含まないとの第7報の説明を、配信環境全体の漏えい否定にしない。"
+}

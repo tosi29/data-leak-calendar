@@ -1,0 +1,46 @@
+{
+  "id": "rakuten-sec-bond-platform-20261031",
+  "organization": {
+    "name": "楽天証券",
+    "sector": "企業・団体"
+  },
+  "title": "デジタル特典付き社債の顧客情報延べ362件に漏えいのおそれ",
+  "summary": "デジタル特典付き社債の顧客情報延べ362件に漏えいのおそれ。",
+  "published_on": "2026-10-31",
+  "first_published_on": "2026-10-31",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。侵入経路の詳細は未公表または調査中。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": 362,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "3銘柄の対象顧客情報の延べ件数。実人数ではない。"
+    }
+  ],
+  "data_types": [
+    "社債購入者に関する情報（本公表では具体的項目未記載）"
+  ],
+  "related_vendor": "株式会社NTTデータ",
+  "sources": [
+    {
+      "url": "https://www.rakuten-sec.co.jp/web/info/info20261031-01.html",
+      "type": "official",
+      "title": "デジタル特典付き社債の顧客情報延べ362件に漏えいのおそれ",
+      "published_on": "2026-10-31",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": "NTTデータの委託先が提供するデジタル証券プラットフォームの事案。他の販売会社・発行会社の公表と対象が重複し得るため合算しない。対象はカゴメ第1回・JR西日本第80回の一部購入者と、近鉄第135回の100万円以上購入者。公式の「発生日時」欄は30日だが、報告受領の説明と区別できないため侵入発生日には転記しない。楽天証券のID・パスワード・取引に必要な情報は対象外。"
+}
