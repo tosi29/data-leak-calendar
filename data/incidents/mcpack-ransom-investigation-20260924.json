@@ -1,0 +1,81 @@
+{
+  "id": "mcpack-ransom-investigation-20260924",
+  "organization": {
+    "name": "中央紙器工業",
+    "sector": "製造業"
+  },
+  "title": "一部データの持ち出し・公開を確認、株主・応募者・従業員等の情報に漏えいのおそれ",
+  "summary": "ランサムウェア被害の調査で一部データの外部持ち出し・公開を確認。元株主等、採用応募者、従業員・退職者の個人情報に漏えいのおそれがあると公表した。",
+  "published_on": "2026-09-24",
+  "first_published_on": "2026-05-13",
+  "publication_kind": "followup",
+  "occurred_on": null,
+  "detected_on": "2026-04-27",
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "confirmed",
+    "detail": "一部システムがランサムウェア攻撃の被害を受けた。具体的な侵入経路は未公表。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "個人データの対象人数・件数は未公表。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "電話番号",
+    "メールアドレス",
+    "生年月日",
+    "性別",
+    "金融機関口座番号",
+    "履歴書・職務経歴書の写し",
+    "選考結果・評価",
+    "マイナンバー",
+    "運転免許証・パスポートの写し",
+    "給与・賞与・源泉徴収情報",
+    "社会保険・扶養情報",
+    "人事評価",
+    "健康診断結果",
+    "産休・育児休業等の申請書類"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://web.archive.org/web/20260606024733id_/http://www.mcpack.co.jp/news/file/95e5f973f40d41e5895893be3c83b8df61106ed5.pdf",
+      "type": "official",
+      "title": "ランサムウェア被害の発生および対応状況について（公式PDF保存版）",
+      "published_on": "2026-05-13",
+      "checked_on": "2026-11-01"
+    },
+    {
+      "url": "https://web.archive.org/web/20260604230055id_/http://www.mcpack.co.jp/news/file/97ccc7231e5e5a757a5da0e9ba15c6e74dc39545.pdf",
+      "type": "official",
+      "title": "ランサムウェア被害の発生および対応状況について（第2報）（公式PDF保存版）",
+      "published_on": "2026-06-02",
+      "checked_on": "2026-11-01"
+    },
+    {
+      "url": "https://web.archive.org/web/20261009160559id_/http://www.mcpack.co.jp/news/file/64ef5c4b14c0e7c2fb2e3d03823d13a74a2f9df1.pdf",
+      "type": "official",
+      "title": "サイバー攻撃による情報漏えいのおそれに関する調査結果および今後の対応について（公式PDF保存版）",
+      "published_on": "2026-09-24",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [
+    {
+      "date": "2026-09-24",
+      "source_index": 2,
+      "summary": "調査で一部データの外部持ち出し・公開との報告を受領。元株主等、採用応募者、従業員・退職者の情報に漏えいのおそれがあると説明。"
+    }
+  ],
+  "notes": "4月27日のシステム障害を受け5月13日に初報、6月2日の第2報で一部情報の外部送信・漏えいを確認。9月24日は個人データの対象を示す調査結果の公表日。一部データの流出確認と、表に列挙された個人データすべての流出確定は区別する。対象者により保有項目は異なり、全員に全項目が含まれるわけではない。元株主等の口座の暗証番号・ID・パスワードは保有していない。9月24日時点で不正利用等の二次被害は未確認。"
+}

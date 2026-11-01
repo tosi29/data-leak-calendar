@@ -35836,6 +35836,31 @@
       ],
       "report": "docs/research-2026-11-01-pending113-review.md",
       "audit": "data/research-2026-11-01-pending113-review.json"
+    },
+    {
+      "checked_on": "2026-11-01",
+      "scope": "中央紙器工業の保留解消：公式PDF保存版3報を確認",
+      "stats": {
+        "baseline_incidents": 2078,
+        "added_incidents": 1,
+        "total_incidents": 2079,
+        "baseline_candidates": 85,
+        "resolved_candidates": 1,
+        "pending_candidates": 84
+      },
+      "added_incident_ids": [
+        "mcpack-ransom-investigation-20260924"
+      ],
+      "resolved_candidate_ids": [
+        "june-review-fcb67e3f069b"
+      ],
+      "reason": "公式サイトの取得制限が続くため公開アーカイブを探索。初報・第2報・9月24日の公式PDF保存版を全て取得し、日付・対象・個人データの項目を原文で照合できたため保留を解消。",
+      "limitations": [
+        "9月24日以降の新たな調査結果を確認できたという意味ではない。現行サイトの直接取得は失敗し、保存版の内容に基づく。",
+        "データの持ち出し・公開は確認されているが、公表は対象の個人データを漏えいのおそれとして列挙しているため、個人情報の状態はsuspectedとした。人数・件数は未公表。"
+      ],
+      "report": "docs/research-2026-11-01-mcpack-review.md",
+      "audit": "data/research-2026-11-01-mcpack-review.json"
     }
   ]
 }

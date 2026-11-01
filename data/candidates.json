@@ -212,24 +212,6 @@
     ]
   },
   {
-    "id": "june-review-fcb67e3f069b",
-    "organization": "中央紙器工業",
-    "reported_on": "2026-06-04",
-    "verification": "pending",
-    "reference_url": "https://www.security-next.com/185324",
-    "note": "2026年11月1日再調査：中央紙器工業の9月24日付調査結果PDFを取得できない。株主・採用応募者等という集約情報を公式本文で裏付けられず、対象・件数を保留。 今回も公表日・対象を確定する追加の本文を確認できず、元の未解決点を継続。",
-    "reviewed_on": "2026-11-01",
-    "checked_urls": [
-      "https://www.security-next.com/185324",
-      "https://www.onebe.co.jp/dlpnews/?p=34887",
-      "http://www.mcpack.co.jp/news/file/97ccc7231e5e5a757a5da0e9ba15c6e74dc39545.pdf",
-      "https://humanhacker.ai/media/summary/",
-      "https://openbizgraph.com/ja/detail/10546",
-      "http://www.mcpack.co.jp/news/file/64ef5c4b14c0e7c2fb2e3d03823d13a74a2f9df1.pdf",
-      "http://www.mcpack.co.jp/news/file/95e5f973f40d41e5895893be3c83b8df61106ed5.pdf"
-    ]
-  },
-  {
     "id": "june-discovery-ooc-20261024",
     "organization": "大阪有機化学工業",
     "reported_on": "2026-06-17",
