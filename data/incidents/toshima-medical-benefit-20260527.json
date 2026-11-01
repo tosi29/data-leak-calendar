@@ -1,0 +1,49 @@
+{
+  "id": "toshima-medical-benefit-20260527",
+  "organization": {
+    "name": "豊島区",
+    "sector": "自治体"
+  },
+  "title": "療養費支給決定通知40件を別の機関へ誤送付",
+  "summary": "療養費支給決定通知40件を別の機関へ誤送付。",
+  "published_on": "2026-05-27",
+  "first_published_on": "2026-05-27",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "accident",
+  "cause": {
+    "category": "misdelivery",
+    "detail": "療養費支給決定通知40件を別の機関へ誤送付。具体的な経緯は公表資料を参照。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 40,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "公表資料の対象規模。内数・重複は注記参照。"
+    }
+  ],
+  "data_types": [
+    "被保険者氏名",
+    "総医療費",
+    "振込予定日",
+    "振込明細"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.city.toshima.lg.jp/108/2605271111.html",
+      "type": "official",
+      "title": "療養費支給決定通知40件を別の機関へ誤送付",
+      "published_on": "2026-05-27",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": "40は誤送付した通知の件数で被保険者の総人数ではない。"
+}

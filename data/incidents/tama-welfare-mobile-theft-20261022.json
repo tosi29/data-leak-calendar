@@ -1,0 +1,48 @@
+{
+  "id": "tama-welfare-mobile-theft-20261022",
+  "organization": {
+    "name": "多摩市",
+    "sector": "自治体"
+  },
+  "title": "貸与モバイルPCの盗難で委員等89人の情報に漏えいのおそれ",
+  "summary": "貸与モバイルPCの盗難で委員等89人の情報に漏えいのおそれ。",
+  "published_on": "2026-10-22",
+  "first_published_on": null,
+  "publication_kind": "followup",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "lost",
+  "incident_type": "accident",
+  "cause": {
+    "category": "loss",
+    "detail": "貸与モバイルPCの盗難で委員等89人の情報に漏えいのおそれ。具体的な経緯は公表資料を参照。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 89,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表資料の対象規模。内数・重複は注記参照。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "電話番号",
+    "PCのメールアドレス"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.city.tama.lg.jp/shisei/1008239/sonota/1021561.html",
+      "type": "official",
+      "title": "貸与モバイルPCの盗難で委員等89人の情報に漏えいのおそれ",
+      "published_on": "2026-10-22",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": "現行ページは10月22日更新。8月9日は発覚日で、公表日には転用しない。"
+}

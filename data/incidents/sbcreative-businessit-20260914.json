@@ -1,0 +1,49 @@
+{
+  "id": "sbcreative-businessit-20260914",
+  "organization": {
+    "name": "SBクリエイティブ株式会社",
+    "sector": "企業・団体"
+  },
+  "title": "ビジネス＋ITへの侵入で取引先担当者情報に不正取得のおそれ",
+  "summary": "ビジネス＋ITへの侵入で取引先担当者情報に不正取得のおそれ。",
+  "published_on": "2026-09-14",
+  "first_published_on": "2026-08-10",
+  "publication_kind": "followup",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "vulnerability",
+    "detail": "ビジネス＋ITへの侵入で取引先担当者情報に不正取得のおそれ。具体的な経緯は公表資料を参照。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 1132,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表資料の対象規模。内数・重複は注記参照。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "会社名",
+    "メールアドレス",
+    "電話番号"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.softbankcr.co.jp/ja/news/2026/0914_it-22/",
+      "type": "official",
+      "title": "ビジネス＋ITへの侵入で取引先担当者情報に不正取得のおそれ",
+      "published_on": "2026-09-14",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": "9月14日の最終調査結果。対象1,137件・1,132人を区別。一般会員情報等の漏えいは否定。"
+}

@@ -1,0 +1,46 @@
+{
+  "id": "saitama-budokan-mail-20260921",
+  "organization": {
+    "name": "埼玉県立武道館／指定管理者共同事業体",
+    "sector": "自治体"
+  },
+  "title": "親子運動会の過去参加者35人のメールアドレスを誤送信",
+  "summary": "親子運動会の過去参加者35人のメールアドレスを誤送信。",
+  "published_on": "2026-09-21",
+  "first_published_on": "2026-09-21",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "accident",
+  "cause": {
+    "category": "misdelivery",
+    "detail": "親子運動会の過去参加者35人のメールアドレスを誤送信。具体的な経緯は公表資料を参照。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 35,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表資料の対象規模。内数・重複は注記参照。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.pref.saitama.lg.jp/a0312/news/news2026092101.html",
+      "type": "official",
+      "title": "親子運動会の過去参加者35人のメールアドレスを誤送信",
+      "published_on": "2026-09-21",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

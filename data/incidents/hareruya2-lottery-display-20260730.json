@@ -1,0 +1,51 @@
+{
+  "id": "hareruya2-lottery-display-20260730",
+  "organization": {
+    "name": "株式会社晴れる屋",
+    "sector": "企業・団体"
+  },
+  "title": "購入抽選の応募情報28,490件が外部から閲覧可能に",
+  "summary": "購入抽選の応募情報28,490件が外部から閲覧可能に。",
+  "published_on": "2026-07-30",
+  "first_published_on": "2026-07-30",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "exposed",
+  "incident_type": "accident",
+  "cause": {
+    "category": "configuration",
+    "detail": "購入抽選の応募情報28,490件が外部から閲覧可能に。具体的な経緯は公表資料を参照。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 28490,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "公表資料の対象規模。内数・重複は注記参照。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "メールアドレス",
+    "電話番号",
+    "会員番号",
+    "申込店舗",
+    "当落結果"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://corp.hareruyamtg.com/notice-2026-07-30",
+      "type": "official",
+      "title": "購入抽選の応募情報28,490件が外部から閲覧可能に",
+      "published_on": "2026-07-30",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": "7月23日に発生。カード・パスワードは対象外。"
+}

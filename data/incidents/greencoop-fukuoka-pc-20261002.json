@@ -1,0 +1,46 @@
+{
+  "id": "greencoop-fukuoka-pc-20261002",
+  "organization": {
+    "name": "グリーンコープ生協ふくおか",
+    "sector": "企業・団体"
+  },
+  "title": "車上荒らしで33,526人の情報を含む業務PCが盗難",
+  "summary": "車上荒らしで33,526人の情報を含む業務PCが盗難。",
+  "published_on": "2026-10-02",
+  "first_published_on": "2026-10-02",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "lost",
+  "incident_type": "accident",
+  "cause": {
+    "category": "loss",
+    "detail": "車上荒らしで33,526人の情報を含む業務PCが盗難。具体的な経緯は公表資料を参照。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 33526,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表資料の対象規模。内数・重複は注記参照。"
+    }
+  ],
+  "data_types": [
+    "個人情報（詳細項目未公表）"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://greencoop-fukuoka.jp/info/%E5%80%8B%E4%BA%BA%E6%83%85%E5%A0%B1%E3%81%AE%E5%85%A5%E3%81%A3%E3%81%9F%E6%A5%AD%E5%8B%99%E7%94%A8%E3%83%91%E3%82%BD%E3%82%B3%E3%83%B3%E7%9B%97%E9%9B%A3%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/",
+      "type": "official",
+      "title": "車上荒らしで33,526人の情報を含む業務PCが盗難",
+      "published_on": "2026-10-02",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": "9月17日発生。ログインパスワードあり。不正利用等の二次被害は未確認。"
+}

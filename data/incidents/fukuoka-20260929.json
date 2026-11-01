@@ -8,7 +8,7 @@
   "published_on": "2026-09-29",
   "occurred_on": null,
   "detected_on": "2026-09-17",
-  "updated_on": "2026-10-15",
+  "updated_on": "2026-11-01",
   "first_published_on": "2026-09-29",
   "publication_kind": "initial",
   "verification": "secondary",
@@ -41,19 +41,36 @@
       "title": "福岡県が個人情報漏えい　介護事業者24法人の役員183人分 | 毎日新聞",
       "published_on": "2026-09-29",
       "checked_on": "2026-10-07"
+    },
+    {
+      "url": "https://www.pref.fukuoka.lg.jp/press-release/nkojinjyouhou.html",
+      "type": "official",
+      "title": "介護職場認証の申請ファイル設定不備で役員183人の情報が閲覧可能に",
+      "published_on": "2026-09-29",
+      "checked_on": "2026-11-01"
     }
   ],
   "notes": "",
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-09-29",
+      "source_index": 1,
+      "summary": "別URLの公式出典を照合。同じ事案として出典を補完。"
+    }
+  ],
   "incident_type": "accident",
   "vendor_research": {
-    "checked_on": "2026-10-15",
-    "result": "unavailable",
-    "note": "関連先「麻生教育サービス」は業務委託・提携等の関係です。当該システムの開発・運用・基盤担当であることは今回の調査では確認できませんでした。",
+    "checked_on": "2026-11-01",
+    "result": "not_identified",
+    "note": "今回の公式本文を取得して確認。業務委託先への言及はあるが、ITシステムの開発・運用会社としての役割は未特定。",
     "source_checks": [
       {
         "source_index": 0,
         "status": "unavailable"
+      },
+      {
+        "source_index": 1,
+        "status": "reviewed"
       }
     ]
   }

@@ -1,0 +1,46 @@
+{
+  "id": "kagawa-isf-mail-20260216",
+  "organization": {
+    "name": "かがわ産業支援財団",
+    "sector": "企業・団体"
+  },
+  "title": "セミナー申込者のメールアドレス20件を誤送信",
+  "summary": "セミナー申込者のメールアドレス20件を誤送信。",
+  "published_on": "2026-02-16",
+  "first_published_on": "2026-02-16",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "accident",
+  "cause": {
+    "category": "misdelivery",
+    "detail": "セミナー申込者のメールアドレス20件を誤送信。具体的な経緯は公表資料を参照。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 20,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "公表資料の対象規模。内数・重複は注記参照。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.kagawa-isf.jp/news/17935/",
+      "type": "official",
+      "title": "セミナー申込者のメールアドレス20件を誤送信",
+      "published_on": "2026-02-16",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

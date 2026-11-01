@@ -1,0 +1,52 @@
+{
+  "id": "nagoya-npo-address-20260521",
+  "organization": {
+    "name": "名古屋市",
+    "sector": "自治体"
+  },
+  "title": "NPO閲覧資料のマスキング不備で役員・社員の住所が閲覧可能に",
+  "summary": "NPO閲覧資料のマスキング不備で役員・社員の住所が閲覧可能に。",
+  "published_on": "2026-05-21",
+  "first_published_on": "2026-05-07",
+  "publication_kind": "followup",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "exposed",
+  "incident_type": "accident",
+  "cause": {
+    "category": "redaction_error",
+    "detail": "NPO閲覧資料のマスキング不備で役員・社員の住所が閲覧可能に。具体的な経緯は公表資料を参照。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 6480,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "役員。"
+    },
+    {
+      "count": 9815,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "社員。役員との重複あり。"
+    }
+  ],
+  "data_types": [
+    "住所・居所"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.city.nagoya.jp/houdou/3003942/3003944/3004701.html",
+      "type": "official",
+      "title": "NPO閲覧資料のマスキング不備で役員・社員の住所が閲覧可能に",
+      "published_on": "2026-05-21",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": "866法人の役員6,480人、社員9,815人。両者は重複し得るので合算しない。"
+}

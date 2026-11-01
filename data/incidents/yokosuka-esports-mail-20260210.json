@@ -1,0 +1,46 @@
+{
+  "id": "yokosuka-esports-mail-20260210",
+  "organization": {
+    "name": "横須賀市",
+    "sector": "企業・団体"
+  },
+  "title": "イベント当選者1人の氏名を別応募者へ誤送信",
+  "summary": "イベント当選者1人の氏名を別応募者へ誤送信。",
+  "published_on": "2026-02-10",
+  "first_published_on": "2026-02-10",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "accident",
+  "cause": {
+    "category": "misdelivery",
+    "detail": "イベント当選者1人の氏名を別応募者へ誤送信。具体的な経緯は公表資料を参照。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 1,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表資料の対象規模。内数・重複は注記参照。"
+    }
+  ],
+  "data_types": [
+    "氏名"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.city.yokosuka.kanagawa.jp/2150/20260210mail.html",
+      "type": "official",
+      "title": "イベント当選者1人の氏名を別応募者へ誤送信",
+      "published_on": "2026-02-10",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

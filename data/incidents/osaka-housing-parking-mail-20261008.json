@@ -1,0 +1,48 @@
+{
+  "id": "osaka-housing-parking-mail-20261008",
+  "organization": {
+    "name": "大阪府住宅供給公社",
+    "sector": "企業・団体"
+  },
+  "title": "別契約者の駐車場使用契約書データを誤送付",
+  "summary": "別契約者の駐車場使用契約書データを誤送付。",
+  "published_on": "2026-10-08",
+  "first_published_on": "2026-10-08",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "accident",
+  "cause": {
+    "category": "misdelivery",
+    "detail": "別契約者の駐車場使用契約書データを誤送付。具体的な経緯は公表資料を参照。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 1,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表資料の対象規模。内数・重複は注記参照。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "自動車登録番号",
+    "車台番号"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.osaka-kousha.or.jp/x-whatsnew/pdf/information2026-10-08.pdf",
+      "type": "official",
+      "title": "別契約者の駐車場使用契約書データを誤送付",
+      "published_on": "2026-10-08",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

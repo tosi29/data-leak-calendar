@@ -1,0 +1,46 @@
+{
+  "id": "kansai-welfare-mail-20261002",
+  "organization": {
+    "name": "関西福祉大学",
+    "sector": "教育・研究"
+  },
+  "title": "合格発表対象者131人のメールアドレスを誤送信",
+  "summary": "合格発表対象者131人のメールアドレスを誤送信。",
+  "published_on": "2026-10-02",
+  "first_published_on": "2026-10-02",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "accident",
+  "cause": {
+    "category": "misdelivery",
+    "detail": "合格発表対象者131人のメールアドレスを誤送信。具体的な経緯は公表資料を参照。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 131,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表資料の対象規模。内数・重複は注記参照。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.kusw.ac.jp/topics/topics-25954",
+      "type": "official",
+      "title": "合格発表対象者131人のメールアドレスを誤送信",
+      "published_on": "2026-10-02",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

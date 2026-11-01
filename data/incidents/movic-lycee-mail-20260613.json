@@ -1,0 +1,47 @@
+{
+  "id": "movic-lycee-mail-20260613",
+  "organization": {
+    "name": "株式会社ムービック",
+    "sector": "企業・団体"
+  },
+  "title": "抽選結果メールの宛先違いで812件の情報が漏えい",
+  "summary": "抽選結果メールの宛先違いで812件の情報が漏えい。",
+  "published_on": "2026-06-13",
+  "first_published_on": "2026-06-13",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "accident",
+  "cause": {
+    "category": "misdelivery",
+    "detail": "抽選結果メールの宛先違いで812件の情報が漏えい。具体的な経緯は公表資料を参照。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 812,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "公表資料の対象規模。内数・重複は注記参照。"
+    }
+  ],
+  "data_types": [
+    "本名",
+    "ふりがな"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://lycee-tcg.com/pages/page_0970984.html",
+      "type": "official",
+      "title": "抽選結果メールの宛先違いで812件の情報が漏えい",
+      "published_on": "2026-06-13",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

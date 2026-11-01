@@ -1,0 +1,48 @@
+{
+  "id": "tottori-furusato-order-mail-20261014",
+  "organization": {
+    "name": "鳥取県／株式会社エッグ",
+    "sector": "企業・団体"
+  },
+  "title": "ふるさと納税寄附者1人の発送情報を別事業者へ誤送信",
+  "summary": "ふるさと納税寄附者1人の発送情報を別事業者へ誤送信。",
+  "published_on": "2026-10-14",
+  "first_published_on": "2026-10-14",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "accident",
+  "cause": {
+    "category": "misdelivery",
+    "detail": "ふるさと納税寄附者1人の発送情報を別事業者へ誤送信。具体的な経緯は公表資料を参照。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 1,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表資料の対象規模。内数・重複は注記参照。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "電話番号"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "http://db.pref.tottori.jp/pressrelease.nsf/webview/C513594F3E7355FB49258E900018F62C?OpenDocument",
+      "type": "official",
+      "title": "ふるさと納税寄附者1人の発送情報を別事業者へ誤送信",
+      "published_on": "2026-10-14",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

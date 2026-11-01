@@ -1,0 +1,47 @@
+{
+  "id": "osaka-history-museum-mail-20261008",
+  "organization": {
+    "name": "大阪市",
+    "sector": "自治体"
+  },
+  "title": "ボランティア4人のメールアドレス等を誤送信",
+  "summary": "ボランティア4人のメールアドレス等を誤送信。",
+  "published_on": "2026-10-08",
+  "first_published_on": "2026-10-08",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "accident",
+  "cause": {
+    "category": "misdelivery",
+    "detail": "ボランティア4人のメールアドレス等を誤送信。具体的な経緯は公表資料を参照。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 4,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表資料の対象規模。内数・重複は注記参照。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス",
+    "氏名（一部）"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.city.osaka.lg.jp/hodoshiryo/keizaisenryaku/0000688772.html",
+      "type": "official",
+      "title": "ボランティア4人のメールアドレス等を誤送信",
+      "published_on": "2026-10-08",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": "氏名が含まれる1人は内数。8月・9月の市立美術館の事故とは別。"
+}

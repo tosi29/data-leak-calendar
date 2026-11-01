@@ -1,0 +1,47 @@
+{
+  "id": "osaka-kyoiku-attachment-20260623",
+  "organization": {
+    "name": "大阪教育大学",
+    "sector": "教育・研究"
+  },
+  "title": "学生・教職員の個人情報1,529件を含むデータを誤送信",
+  "summary": "学生・教職員の個人情報1,529件を含むデータを誤送信。",
+  "published_on": "2026-06-23",
+  "first_published_on": "2026-06-23",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "accident",
+  "cause": {
+    "category": "misdelivery",
+    "detail": "学生・教職員の個人情報1,529件を含むデータを誤送信。具体的な経緯は公表資料を参照。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 1529,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "公表資料の対象規模。内数・重複は注記参照。"
+    }
+  ],
+  "data_types": [
+    "学生・教職員の個人情報",
+    "要配慮個人情報（一部）"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://osaka-kyoiku.ac.jp/news/detail.html?dispmid=5662&itemid=9722",
+      "type": "official",
+      "title": "学生・教職員の個人情報1,529件を含むデータを誤送信",
+      "published_on": "2026-06-23",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": "学生等1,476件と職員53件。要配慮7件は内数。2月の宛先欄誤りとは別。"
+}

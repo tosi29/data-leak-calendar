@@ -10,7 +10,7 @@
   "publication_kind": "initial",
   "occurred_on": "2021-04-24",
   "detected_on": "2026-08-04",
-  "updated_on": "2026-10-15",
+  "updated_on": "2026-11-01",
   "incident_type": "accident",
   "leak_status": "exposed",
   "summary": "指定管理者のメーリングリストへの投稿が外部から閲覧可能だった。対象メールには50人分の個人情報が含まれていた。",
@@ -49,10 +49,23 @@
       "title": "都市農業公園のメーリングリストを誤公開（Security NEXT）",
       "published_on": "2026-10-02",
       "checked_on": "2026-10-15"
+    },
+    {
+      "url": "https://www.city.adachi.tokyo.jp/k-iji/2608toshinou.html",
+      "type": "official",
+      "title": "公園のメーリングリスト公開設定により50人の情報が閲覧可能に",
+      "published_on": "2026-08-24",
+      "checked_on": "2026-11-01"
     }
   ],
   "notes": "対象メール1,356件の投稿期間は2021年4月24日～2026年8月5日。 公表日は10月14日の公式資料確認記録に基づく。今回は公式本文を再取得できず、内容は報道本文と照合した。",
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-08-24",
+      "source_index": 2,
+      "summary": "別URLの公式出典を照合。同じ事案として出典を補完。"
+    }
+  ],
   "verification": "secondary",
   "related_vendor": null
 }

@@ -1,0 +1,46 @@
+{
+  "id": "saitama-brain-support-mail-20260914",
+  "organization": {
+    "name": "埼玉県／医療法人真正会霞ヶ関南病院",
+    "sector": "自治体"
+  },
+  "title": "研修参加者等58人への連絡でメールアドレスを誤送信",
+  "summary": "研修参加者等58人への連絡でメールアドレスを誤送信。",
+  "published_on": "2026-09-14",
+  "first_published_on": "2026-09-14",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "accident",
+  "cause": {
+    "category": "misdelivery",
+    "detail": "研修参加者等58人への連絡でメールアドレスを誤送信。具体的な経緯は公表資料を参照。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 58,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表資料の対象規模。内数・重複は注記参照。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.pref.saitama.lg.jp/a0604/news/page/news2026091401.html",
+      "type": "official",
+      "title": "研修参加者等58人への連絡でメールアドレスを誤送信",
+      "published_on": "2026-09-14",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": "参加者と事業所のアドレスを含む。"
+}

@@ -1,0 +1,46 @@
+{
+  "id": "niigata-mental-certificate-loss-20260407",
+  "organization": {
+    "name": "新潟県精神保健福祉センター",
+    "sector": "自治体"
+  },
+  "title": "精神障害者保健福祉手帳の判定用診断書1人分を紛失",
+  "summary": "精神障害者保健福祉手帳の判定用診断書1人分を紛失。",
+  "published_on": "2026-04-07",
+  "first_published_on": "2026-04-07",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "lost",
+  "incident_type": "accident",
+  "cause": {
+    "category": "loss",
+    "detail": "精神障害者保健福祉手帳の判定用診断書1人分を紛失。具体的な経緯は公表資料を参照。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 1,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表資料の対象規模。内数・重複は注記参照。"
+    }
+  ],
+  "data_types": [
+    "診断書記載の個人情報"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.pref.niigata.lg.jp/sec/seishin/houdou1.html",
+      "type": "official",
+      "title": "精神障害者保健福祉手帳の判定用診断書1人分を紛失",
+      "published_on": "2026-04-07",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

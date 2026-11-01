@@ -1,0 +1,46 @@
+{
+  "id": "fcsoft-data-mail-20260123",
+  "organization": {
+    "name": "ビーシステム（ファーストケア）",
+    "sector": "企業・団体"
+  },
+  "title": "取引先の個人情報を含むデータを別取引先へ誤送付",
+  "summary": "取引先の個人情報を含むデータを別取引先へ誤送付。",
+  "published_on": "2026-01-23",
+  "first_published_on": "2026-01-23",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "accident",
+  "cause": {
+    "category": "misdelivery",
+    "detail": "取引先の個人情報を含むデータを別取引先へ誤送付。具体的な経緯は公表資料を参照。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "対象規模は未公表。"
+    }
+  ],
+  "data_types": [
+    "送付データ内の個人情報（詳細項目未公表）"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.fc-soft.jp/news/20260123-NP-01/",
+      "type": "official",
+      "title": "取引先の個人情報を含むデータを別取引先へ誤送付",
+      "published_on": "2026-01-23",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": "2025年12月23日に送信、2026年1月5日に判明。第三者への更なる流出は否定。"
+}

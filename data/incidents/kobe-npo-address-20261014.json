@@ -1,0 +1,58 @@
+{
+  "id": "kobe-npo-address-20261014",
+  "organization": {
+    "name": "神戸市",
+    "sector": "自治体"
+  },
+  "title": "NPO法人の公開資料で住所のマスキングが不完全",
+  "summary": "NPO法人の公開資料で住所のマスキングが不完全。",
+  "published_on": "2026-10-14",
+  "first_published_on": "2026-10-14",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "exposed",
+  "incident_type": "accident",
+  "cause": {
+    "category": "redaction_error",
+    "detail": "NPO法人の公開資料で住所のマスキングが不完全。具体的な経緯は公表資料を参照。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 265,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "縦覧資料の役員。"
+    },
+    {
+      "count": 93,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "ポータル資料の役員。"
+    },
+    {
+      "count": 76,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "ポータル資料の社員。"
+    }
+  ],
+  "data_types": [
+    "住所"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.city.kobe.lg.jp/a52374/589208669066.html",
+      "type": "official",
+      "title": "NPO法人の公開資料で住所のマスキングが不完全",
+      "published_on": "2026-10-14",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": "縦覧資料の役員265人、ポータル資料の役員93人・社員76人。区分間の重複不明のため合算しない。"
+}

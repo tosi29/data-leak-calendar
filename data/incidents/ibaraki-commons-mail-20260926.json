@@ -6,12 +6,12 @@
   },
   "title": "セミナー案内メールの宛先誤設定",
   "summary": "県の委託事業でセミナー案内をCc送信し、受信者間でメールアドレスと一部の氏名が見える状態になった。",
-  "published_on": "2026-09-26",
-  "first_published_on": "2026-09-26",
+  "published_on": "2026-09-25",
+  "first_published_on": "2026-09-25",
   "publication_kind": "initial",
   "occurred_on": "2026-09-22",
   "detected_on": "2026-09-22",
-  "updated_on": "2026-10-15",
+  "updated_on": "2026-11-01",
   "verification": "official",
   "incident_type": "accident",
   "leak_status": "confirmed",
@@ -46,17 +46,34 @@
       "title": "セミナー案内メールの宛先誤設定",
       "published_on": "2026-09-26",
       "checked_on": "2026-10-15"
+    },
+    {
+      "url": "https://www.pref.ibaraki.jp/somu/hodo/hodo/pressrelease/hodohappyoushiryou/2203/documents/260925tayousei.pdf",
+      "type": "official",
+      "title": "セミナー申込者のメールアドレス49件を誤送信",
+      "published_on": "2026-09-25",
+      "checked_on": "2026-11-01"
     }
   ],
-  "notes": "49件と氏名8件は重複するため合算しない。委託先自身の公式発表日を採用。",
-  "updates": [],
+  "notes": "49件と氏名8件は重複するため合算しない。委託先自身の公式発表日を採用。 本文の9月25日公表を確認し、旧掲載日の26日から補正。",
+  "updates": [
+    {
+      "date": "2026-09-25",
+      "source_index": 1,
+      "summary": "別URLの公式出典を照合。同じ事案として出典を補完。"
+    }
+  ],
   "vendor_research": {
-    "checked_on": "2026-10-15",
+    "checked_on": "2026-11-01",
     "result": "not_identified",
     "note": "掲載出典と追加検索で、当該事案に関係する外部の開発・運用・サービス・基盤会社の社名と役割を特定できませんでした。",
     "source_checks": [
       {
         "source_index": 0,
+        "status": "reviewed"
+      },
+      {
+        "source_index": 1,
         "status": "reviewed"
       }
     ]

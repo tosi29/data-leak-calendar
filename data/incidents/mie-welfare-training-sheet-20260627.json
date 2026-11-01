@@ -1,0 +1,48 @@
+{
+  "id": "mie-welfare-training-sheet-20260627",
+  "organization": {
+    "name": "三重県／三重県社会福祉協議会",
+    "sector": "企業・団体"
+  },
+  "title": "研修用Excelに児童と支援責任者の情報を残して公開",
+  "summary": "研修用Excelに児童と支援責任者の情報を残して公開。",
+  "published_on": "2026-06-27",
+  "first_published_on": "2026-06-27",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "exposed",
+  "incident_type": "accident",
+  "cause": {
+    "category": "redaction_error",
+    "detail": "研修用Excelに児童と支援責任者の情報を残して公開。具体的な経緯は公表資料を参照。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "対象規模は未公表。"
+    }
+  ],
+  "data_types": [
+    "児童氏名",
+    "個別支援計画",
+    "児童発達支援管理責任者氏名"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.pref.mie.lg.jp/TOPICS/m0324000270.htm",
+      "type": "official",
+      "title": "研修用Excelに児童と支援責任者の情報を残して公開",
+      "published_on": "2026-06-27",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": "児童1人と責任者2人の情報。閲覧可能な受講生240人を対象人数にしない。"
+}

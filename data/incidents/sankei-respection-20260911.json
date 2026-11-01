@@ -9,7 +9,7 @@
   "published_on": "2026-09-11",
   "occurred_on": "2026-08-24",
   "detected_on": null,
-  "updated_on": "2026-10-15",
+  "updated_on": "2026-11-01",
   "first_published_on": "2026-09-11",
   "publication_kind": "initial",
   "verification": "official",
@@ -40,18 +40,35 @@
       "title": "RESPECTion!シンポジウム参加申込フォームにおける個人情報閲覧可能状態に関するお詫びとご報告",
       "published_on": "2026-09-11",
       "checked_on": "2026-10-15"
+    },
+    {
+      "url": "https://www.sankei.jp/wp-content/uploads/2026/09/%E3%80%90RESPECTion%E3%80%91%E5%80%8B%E4%BA%BA%E6%83%85%E5%A0%B1%E9%96%B2%E8%A6%A7%E5%8F%AF%E8%83%BD%E7%8A%B6%E6%85%8B%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E3%81%8A%E8%A9%AB%E3%81%B3%E3%81%A8%E3%81%94%E5%A0%B1%E5%91%8A.pdf",
+      "type": "official",
+      "title": "シンポジウム申込149人の回答が閲覧可能に",
+      "published_on": "2026-09-11",
+      "checked_on": "2026-11-01"
     }
   ],
   "notes": "項目別の一覧であり、同一人物の氏名とアドレスが紐付いた名簿形式ではない。9月10日に修正。",
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-09-11",
+      "source_index": 1,
+      "summary": "別URLの公式出典を照合。同じ事案として出典を補完。"
+    }
+  ],
   "incident_type": "accident",
   "vendor_research": {
-    "checked_on": "2026-10-15",
+    "checked_on": "2026-11-01",
     "result": "not_identified",
     "note": "申込フォームの設定と機能は説明されていますが、製品名・提供会社名は記載されていません。機能名だけで提供元を推定していません。",
     "source_checks": [
       {
         "source_index": 0,
+        "status": "reviewed"
+      },
+      {
+        "source_index": 1,
         "status": "reviewed"
       }
     ]

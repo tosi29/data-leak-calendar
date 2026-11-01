@@ -1,0 +1,46 @@
+{
+  "id": "ichinomiya-tour-mail-20260930",
+  "organization": {
+    "name": "一宮市",
+    "sector": "企業・団体"
+  },
+  "title": "見学会当選者12人のメールアドレスを誤送信",
+  "summary": "見学会当選者12人のメールアドレスを誤送信。",
+  "published_on": "2026-09-30",
+  "first_published_on": "2026-09-30",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "accident",
+  "cause": {
+    "category": "misdelivery",
+    "detail": "見学会当選者12人のメールアドレスを誤送信。具体的な経緯は公表資料を参照。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 12,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表資料の対象規模。内数・重複は注記参照。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.city.ichinomiya.aichi.jp/shisei/houdouhappyo/1068631/1075827/1077092.html",
+      "type": "official",
+      "title": "見学会当選者12人のメールアドレスを誤送信",
+      "published_on": "2026-09-30",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

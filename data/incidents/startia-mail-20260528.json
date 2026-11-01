@@ -1,0 +1,48 @@
+{
+  "id": "startia-mail-20260528",
+  "organization": {
+    "name": "スターティア",
+    "sector": "企業・団体"
+  },
+  "title": "顧客向けメールで別顧客の担当者氏名等を誤表示",
+  "summary": "顧客向けメールで別顧客の担当者氏名等を誤表示。",
+  "published_on": "2026-05-28",
+  "first_published_on": "2026-05-28",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "accident",
+  "cause": {
+    "category": "misdelivery",
+    "detail": "顧客向けメールで別顧客の担当者氏名等を誤表示。具体的な経緯は公表資料を参照。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "対象規模は未公表。"
+    }
+  ],
+  "data_types": [
+    "会社名",
+    "担当者氏名",
+    "優待券特別コード"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.startia.co.jp/news/detail/?id=2491&site_name=startia",
+      "type": "official",
+      "title": "顧客向けメールで別顧客の担当者氏名等を誤表示",
+      "published_on": "2026-05-28",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": "3,113社は一斉配信対象の企業数。個人の漏えい人数として採用しない。メールアドレス・住所・電話番号は漏えい対象外。"
+}

@@ -1,0 +1,46 @@
+{
+  "id": "kashiwa-school-council-mail-20261008",
+  "organization": {
+    "name": "柏市教育委員会 教育総務部教育施設課",
+    "sector": "企業・団体"
+  },
+  "title": "学校統合の地域協議会委員4人のメールアドレスを誤送信",
+  "summary": "学校統合の地域協議会委員4人のメールアドレスを誤送信。",
+  "published_on": "2026-10-08",
+  "first_published_on": "2026-10-08",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "accident",
+  "cause": {
+    "category": "misdelivery",
+    "detail": "学校統合の地域協議会委員4人のメールアドレスを誤送信。具体的な経緯は公表資料を参照。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 4,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表資料の対象規模。内数・重複は注記参照。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.city.kashiwa.lg.jp/documents/42514/kohyo_kyoushisetu.pdf",
+      "type": "official",
+      "title": "学校統合の地域協議会委員4人のメールアドレスを誤送信",
+      "published_on": "2026-10-08",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

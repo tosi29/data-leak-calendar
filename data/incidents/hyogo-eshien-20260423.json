@@ -1,0 +1,46 @@
+{
+  "id": "hyogo-eshien-20260423",
+  "organization": {
+    "name": "兵庫県教育委員会",
+    "sector": "自治体"
+  },
+  "title": "就学支援金オンライン申請システムで個人情報4件が漏えい",
+  "summary": "就学支援金オンライン申請システムで個人情報4件が漏えい。",
+  "published_on": "2026-04-23",
+  "first_published_on": "2026-04-23",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "accident",
+  "cause": {
+    "category": "unknown",
+    "detail": "就学支援金オンライン申請システムで個人情報4件が漏えい。具体的な経緯は公表資料を参照。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": 4,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "公表資料の対象規模。内数・重複は注記参照。"
+    }
+  ],
+  "data_types": [
+    "就学支援金申請に係る個人情報"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://web.pref.hyogo.lg.jp/kk35/press/20260423.html",
+      "type": "official",
+      "title": "就学支援金オンライン申請システムで個人情報4件が漏えい",
+      "published_on": "2026-04-23",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

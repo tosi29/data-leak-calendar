@@ -1,0 +1,58 @@
+{
+  "id": "nagoya-meito-elderly-list-20260116",
+  "organization": {
+    "name": "名古屋市名東区",
+    "sector": "自治体"
+  },
+  "title": "民生委員が高齢者名簿等を自宅で紛失",
+  "summary": "民生委員が高齢者名簿等を自宅で紛失。",
+  "published_on": "2026-01-16",
+  "first_published_on": "2026-01-16",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "lost",
+  "incident_type": "accident",
+  "cause": {
+    "category": "loss",
+    "detail": "民生委員が高齢者名簿等を自宅で紛失。具体的な経緯は公表資料を参照。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 111,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "名簿。"
+    },
+    {
+      "count": 6,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "基本調査票。名簿との重複不明。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "電話番号",
+    "要介護度",
+    "就労情報",
+    "高齢者世帯情報",
+    "生年月日"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.city.nagoya.jp/houdou/press-meito/3002786/3003731.html",
+      "type": "official",
+      "title": "民生委員が高齢者名簿等を自宅で紛失",
+      "published_on": "2026-01-16",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": "名簿111人分と基本調査票6人分。区分間の重複が未確認のため合算しない。"
+}

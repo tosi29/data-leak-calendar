@@ -1,0 +1,48 @@
+{
+  "id": "ihj-opac-account-20260929",
+  "organization": {
+    "name": "公益財団法人国際文化会館",
+    "sector": "企業・団体"
+  },
+  "title": "蔵書検索システムへの侵入で利用者情報に漏えいのおそれ",
+  "summary": "蔵書検索システムへの侵入で利用者情報に漏えいのおそれ。",
+  "published_on": "2026-09-29",
+  "first_published_on": "2026-09-29",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "蔵書検索システムへの侵入で利用者情報に漏えいのおそれ。具体的な経緯は公表資料を参照。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "対象規模は未公表。"
+    }
+  ],
+  "data_types": [
+    "法人会員の会社名",
+    "代表会員のパスワード",
+    "元職員の初期パスワード"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://ihj.global/news/new/lib_opac/",
+      "type": "official",
+      "title": "蔵書検索システムへの侵入で利用者情報に漏えいのおそれ",
+      "published_on": "2026-09-29",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": "会社名・代表会員・元スタッフの3区分。住所等の読み出しを試みた形跡や一括取得の形跡は確認されていない。"
+}

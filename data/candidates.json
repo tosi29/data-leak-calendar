@@ -1185,5 +1185,209 @@
     "checked_urls": [
       "https://renatus-group.co.jp/wp-content/uploads/2026/01/20260122_news_company.pdf"
     ]
+  },
+  {
+    "id": "year-recheck-a9a6321bf8f1",
+    "organization": "株式会社ポータス／釧路市教育委員会",
+    "reported_on": "2026-10-14",
+    "verification": "pending",
+    "reference_url": "https://www.portusinc.co.jp/update20261014/",
+    "note": "記事本文はPDF添付への案内のみ。影響範囲の照合が未完了。 reported_onは探索日付で、掲載用の公表日としては未確定。",
+    "reviewed_on": "2026-11-01",
+    "checked_urls": [
+      "https://www.portusinc.co.jp/update20261014/"
+    ]
+  },
+  {
+    "id": "year-recheck-76db6c126605",
+    "organization": "JR札幌病院（北海道旅客鉄道株式会社）",
+    "reported_on": "2026-10-13",
+    "verification": "pending",
+    "reference_url": "https://www.jrhokkaido.co.jp/CM/Info/press/pdf/20261013_KO_JR-sapporobyouin_SNS.pdf",
+    "note": "PDFから本文を抽出できず、画像資料の確認が必要。 reported_onは探索日付で、掲載用の公表日としては未確定。",
+    "reviewed_on": "2026-11-01",
+    "checked_urls": [
+      "https://www.jrhokkaido.co.jp/CM/Info/press/pdf/20261013_KO_JR-sapporobyouin_SNS.pdf"
+    ]
+  },
+  {
+    "id": "year-recheck-8af0fd971d98",
+    "organization": "こしの都ネットワーク株式会社",
+    "reported_on": "2026-10-07",
+    "verification": "pending",
+    "reference_url": "https://koshinomiyako.jp/info/important/phishing-email2/",
+    "note": "本文の日付が抽出できず、公表日と続報日の確認が必要。 reported_onは探索日付で、掲載用の公表日としては未確定。",
+    "reviewed_on": "2026-11-01",
+    "checked_urls": [
+      "https://koshinomiyako.jp/info/important/phishing-email2/"
+    ]
+  },
+  {
+    "id": "year-recheck-9d79d69f9257",
+    "organization": "池上通信機株式会社",
+    "reported_on": "2026-09-30",
+    "verification": "pending",
+    "reference_url": "https://www.ikegami.co.jp/news/detail/573/",
+    "note": "企業資料の掲載は確認されているが、個人情報の対象範囲は調査中。 reported_onは探索日付で、掲載用の公表日としては未確定。",
+    "reviewed_on": "2026-11-01",
+    "checked_urls": [
+      "https://www.ikegami.co.jp/news/detail/573/"
+    ]
+  },
+  {
+    "id": "year-recheck-b47cbd98fe27",
+    "organization": "公益財団法人日産厚生会玉川病院",
+    "reported_on": "2026-09-29",
+    "verification": "pending",
+    "reference_url": "https://www.tamagawa-hosp.jp/2026/09/29/18582/",
+    "note": "診療画像8枚の不適切な持ち出し。直接識別情報は除かれており個人情報としての掲載範囲を要確認。 reported_onは探索日付で、掲載用の公表日としては未確定。",
+    "reviewed_on": "2026-11-01",
+    "checked_urls": [
+      "https://www.tamagawa-hosp.jp/2026/09/29/18582/"
+    ]
+  },
+  {
+    "id": "year-recheck-7929210252ce",
+    "organization": "愛媛大学",
+    "reported_on": "2026-09-18",
+    "verification": "pending",
+    "reference_url": "https://www.ehime-u.ac.jp/data_news/20260918_sou/",
+    "note": "リンク先が大学ホームへ遷移しており対象本文を確認できない。 reported_onは探索日付で、掲載用の公表日としては未確定。",
+    "reviewed_on": "2026-11-01",
+    "checked_urls": [
+      "https://www.ehime-u.ac.jp/data_news/20260918_sou/"
+    ]
+  },
+  {
+    "id": "year-recheck-dcfd5e41a551",
+    "organization": "旭化成株式会社",
+    "reported_on": "2026-09-17",
+    "verification": "pending",
+    "reference_url": "https://www.asahi-kasei.com/jp/news/2026/ze260917",
+    "note": "抽出本文が索引に近く、個別事案の公表と対象範囲が未確定。 reported_onは探索日付で、掲載用の公表日としては未確定。",
+    "reviewed_on": "2026-11-01",
+    "checked_urls": [
+      "https://www.asahi-kasei.com/jp/news/2026/ze260917"
+    ]
+  },
+  {
+    "id": "year-recheck-836da5cc8947",
+    "organization": "宇部市健康増進課／検診結果発送委託業者",
+    "reported_on": "2026-09-17",
+    "verification": "pending",
+    "reference_url": "https://www.city.ube.yamaguchi.jp/shisei/kouhou/kishahappyou/1008059/1030251/1030596.html",
+    "note": "抽出本文が索引に近く、個別事案の公表と対象範囲が未確定。 reported_onは探索日付で、掲載用の公表日としては未確定。",
+    "reviewed_on": "2026-11-01",
+    "checked_urls": [
+      "https://www.city.ube.yamaguchi.jp/shisei/kouhou/kishahappyou/1008059/1030251/1030596.html"
+    ]
+  },
+  {
+    "id": "year-recheck-32074e76fc82",
+    "organization": "サンメッセ株式会社",
+    "reported_on": "2026-09-08",
+    "verification": "pending",
+    "reference_url": "https://www.sunmesse.co.jp/news/file/20260908171625.pdf",
+    "note": "PDFの抽出本文が一部のみで日付と対象情報が未確定。 reported_onは探索日付で、掲載用の公表日としては未確定。",
+    "reviewed_on": "2026-11-01",
+    "checked_urls": [
+      "https://www.sunmesse.co.jp/news/file/20260908171625.pdf"
+    ]
+  },
+  {
+    "id": "year-recheck-27314646eb60",
+    "organization": "岡山県危機管理課",
+    "reported_on": "2026-08-26",
+    "verification": "pending",
+    "reference_url": "https://www.pref.okayama.jp/site/presssystem/1053698.html",
+    "note": "添付PDFの内容確認が必要。 reported_onは探索日付で、掲載用の公表日としては未確定。",
+    "reviewed_on": "2026-11-01",
+    "checked_urls": [
+      "https://www.pref.okayama.jp/site/presssystem/1053698.html"
+    ]
+  },
+  {
+    "id": "year-recheck-3900d38bfe32",
+    "organization": "株式会社菱熱",
+    "reported_on": "2026-07-28",
+    "verification": "pending",
+    "reference_url": "https://www.ryonetsu.co.jp/news/detail/5bcf55e7-106c-4349-86e0-d6be0ae8ea22",
+    "note": "不正メール送信は確認。個人情報の漏えいの有無は調査中。 reported_onは探索日付で、掲載用の公表日としては未確定。",
+    "reviewed_on": "2026-11-01",
+    "checked_urls": [
+      "https://www.ryonetsu.co.jp/news/detail/5bcf55e7-106c-4349-86e0-d6be0ae8ea22"
+    ]
+  },
+  {
+    "id": "year-recheck-e3934c75637a",
+    "organization": "堺市（市小学校）",
+    "reported_on": "2026-04-27",
+    "verification": "pending",
+    "reference_url": "https://www.city.sakai.lg.jp/shisei/koho/hodo/hodoteikyoshiryo/kakohodo/r8/r804/080427_02.html",
+    "note": "添付PDFの内容確認が必要。 reported_onは探索日付で、掲載用の公表日としては未確定。",
+    "reviewed_on": "2026-11-01",
+    "checked_urls": [
+      "https://www.city.sakai.lg.jp/shisei/koho/hodo/hodoteikyoshiryo/kakohodo/r8/r804/080427_02.html"
+    ]
+  },
+  {
+    "id": "year-recheck-fe4a962985d8",
+    "organization": "トヨタ自動車",
+    "reported_on": "2026-11-01",
+    "verification": "pending",
+    "reference_url": "https://global.toyota/pages/global_toyota/sustainability/privacy/posts/publication/202602_1.pdf",
+    "note": "公式PDFに事案と対象情報はあるが、公表日の記載を確認できない。 reported_onは探索日付で、掲載用の公表日としては未確定。",
+    "reviewed_on": "2026-11-01",
+    "checked_urls": [
+      "https://global.toyota/pages/global_toyota/sustainability/privacy/posts/publication/202602_1.pdf"
+    ]
+  },
+  {
+    "id": "year-recheck-768f1d219b47",
+    "organization": "要本文照合：www.city.kashiwazaki.lg.jp",
+    "reported_on": "2026-11-01",
+    "verification": "pending",
+    "reference_url": "https://www.city.kashiwazaki.lg.jp/material/files/group/3/kohyo_202601.pdf",
+    "note": "画像PDF等で本文を抽出できない。 reported_onは探索日付で、掲載用の公表日としては未確定。",
+    "reviewed_on": "2026-11-01",
+    "checked_urls": [
+      "https://www.city.kashiwazaki.lg.jp/material/files/group/3/kohyo_202601.pdf"
+    ]
+  },
+  {
+    "id": "year-recheck-c7d84d648c42",
+    "organization": "要本文照合：www.city.miyazaki.miyazaki.jp",
+    "reported_on": "2026-11-01",
+    "verification": "pending",
+    "reference_url": "https://www.city.miyazaki.miyazaki.jp/fs/8/7/8/2/1/9/_/__8_3_______________.pdf",
+    "note": "画像PDF等で本文を抽出できない。 reported_onは探索日付で、掲載用の公表日としては未確定。",
+    "reviewed_on": "2026-11-01",
+    "checked_urls": [
+      "https://www.city.miyazaki.miyazaki.jp/fs/8/7/8/2/1/9/_/__8_3_______________.pdf"
+    ]
+  },
+  {
+    "id": "year-recheck-d00ff7d68e30",
+    "organization": "要本文照合：www.city.kashiwazaki.lg.jp",
+    "reported_on": "2026-11-01",
+    "verification": "pending",
+    "reference_url": "https://www.city.kashiwazaki.lg.jp/material/files/group/3/kohyo_202603415_.pdf",
+    "note": "画像PDF等で本文を抽出できない。 reported_onは探索日付で、掲載用の公表日としては未確定。",
+    "reviewed_on": "2026-11-01",
+    "checked_urls": [
+      "https://www.city.kashiwazaki.lg.jp/material/files/group/3/kohyo_202603415_.pdf"
+    ]
+  },
+  {
+    "id": "year-recheck-434463991ed8",
+    "organization": "要本文照合：www.pref.saitama.lg.jp",
+    "reported_on": "2026-11-01",
+    "verification": "pending",
+    "reference_url": "https://www.pref.saitama.lg.jp/a0403/news/page/news2026082401.html",
+    "note": "事業者口座情報。個人名義の情報を含むか未確定。 reported_onは探索日付で、掲載用の公表日としては未確定。",
+    "reviewed_on": "2026-11-01",
+    "checked_urls": [
+      "https://www.pref.saitama.lg.jp/a0403/news/page/news2026082401.html"
+    ]
   }
 ]

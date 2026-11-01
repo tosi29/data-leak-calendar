@@ -1,0 +1,52 @@
+{
+  "id": "osaka-school-growth-september-20260909",
+  "organization": {
+    "name": "大阪市立小学校（校名非公表）",
+    "sector": "自治体"
+  },
+  "title": "小学校で成長曲線等の書類18人分を誤配付",
+  "summary": "小学校で成長曲線等の書類18人分を誤配付。",
+  "published_on": "2026-09-09",
+  "first_published_on": "2026-09-09",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "accident",
+  "cause": {
+    "category": "misdelivery",
+    "detail": "小学校で成長曲線等の書類18人分を誤配付。具体的な経緯は公表資料を参照。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 18,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表資料の対象規模。内数・重複は注記参照。"
+    }
+  ],
+  "data_types": [
+    "学年",
+    "組",
+    "出席番号",
+    "氏名",
+    "生年月日",
+    "身長",
+    "体重"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.city.osaka.lg.jp/hodoshiryo/kyoiku/0000687217.html",
+      "type": "official",
+      "title": "小学校で成長曲線等の書類18人分を誤配付",
+      "published_on": "2026-09-09",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": "1月一括公表と7月の小中学校の事案とは別。"
+}

@@ -1,0 +1,51 @@
+{
+  "id": "urasoe-prescription-loss-20260217",
+  "organization": {
+    "name": "浦添市",
+    "sector": "自治体"
+  },
+  "title": "補装具申請に係る1人分の処方箋が所在不明に",
+  "summary": "補装具申請に係る1人分の処方箋が所在不明に。",
+  "published_on": "2026-02-17",
+  "first_published_on": "2026-02-17",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "lost",
+  "incident_type": "accident",
+  "cause": {
+    "category": "loss",
+    "detail": "補装具申請に係る1人分の処方箋が所在不明に。具体的な経緯は公表資料を参照。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 1,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表資料の対象規模。内数・重複は注記参照。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "生年月日",
+    "疾患名",
+    "障害名",
+    "職業"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.city.urasoe.lg.jp/doc/2026021700031/",
+      "type": "official",
+      "title": "補装具申請に係る1人分の処方箋が所在不明に",
+      "published_on": "2026-02-17",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

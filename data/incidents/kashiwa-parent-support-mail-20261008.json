@@ -1,0 +1,47 @@
+{
+  "id": "kashiwa-parent-support-mail-20261008",
+  "organization": {
+    "name": "柏市こども部子育て支援課",
+    "sector": "企業・団体"
+  },
+  "title": "子育て支援団体向けメールで氏名58件を含むファイルを誤添付",
+  "summary": "子育て支援団体向けメールで氏名58件を含むファイルを誤添付。",
+  "published_on": "2026-10-08",
+  "first_published_on": "2026-10-08",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "accident",
+  "cause": {
+    "category": "misdelivery",
+    "detail": "子育て支援団体向けメールで氏名58件を含むファイルを誤添付。具体的な経緯は公表資料を参照。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 58,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "公表資料の対象規模。内数・重複は注記参照。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "メールアドレス"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.city.kashiwa.lg.jp/documents/42514/kohyo_kosodate.pdf",
+      "type": "official",
+      "title": "子育て支援団体向けメールで氏名58件を含むファイルを誤添付",
+      "published_on": "2026-10-08",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": "メールアドレス55件は内数。送信先39団体と合算しない。"
+}

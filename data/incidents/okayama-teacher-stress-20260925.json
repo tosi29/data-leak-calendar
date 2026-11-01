@@ -1,0 +1,49 @@
+{
+  "id": "okayama-teacher-stress-20260925",
+  "organization": {
+    "name": "岡山県教育庁福利課／ソーシャルアドバンス株式会社",
+    "sector": "企業・団体"
+  },
+  "title": "ストレスチェック個人結果1件を別の教職員へ誤送付",
+  "summary": "ストレスチェック個人結果1件を別の教職員へ誤送付。",
+  "published_on": "2026-09-25",
+  "first_published_on": "2026-09-25",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "accident",
+  "cause": {
+    "category": "misdelivery",
+    "detail": "ストレスチェック個人結果1件を別の教職員へ誤送付。具体的な経緯は公表資料を参照。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 1,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "公表資料の対象規模。内数・重複は注記参照。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "所属",
+    "心理的負担の判定結果",
+    "ストレス度の点数"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.pref.okayama.jp/uploaded/life/1058333_10254284_misc.pdf",
+      "type": "official",
+      "title": "ストレスチェック個人結果1件を別の教職員へ誤送付",
+      "published_on": "2026-09-25",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

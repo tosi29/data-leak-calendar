@@ -1,0 +1,47 @@
+{
+  "id": "ibaraki-building-mail-20260109",
+  "organization": {
+    "name": "茨城県建築指導課",
+    "sector": "自治体"
+  },
+  "title": "建築届出の返信に別届出の主任技術者名等を誤添付",
+  "summary": "建築届出の返信に別届出の主任技術者名等を誤添付。",
+  "published_on": "2026-01-09",
+  "first_published_on": "2026-01-09",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "accident",
+  "cause": {
+    "category": "misdelivery",
+    "detail": "建築届出の返信に別届出の主任技術者名等を誤添付。具体的な経緯は公表資料を参照。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "対象規模は未公表。"
+    }
+  ],
+  "data_types": [
+    "主任技術者名",
+    "工事請負代金"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.pref.ibaraki.jp/somu/hodo/hodo/pressrelease/hodohappyoushiryou/2203/documents/260109kenchikushido.pdf",
+      "type": "official",
+      "title": "建築届出の返信に別届出の主任技術者名等を誤添付",
+      "published_on": "2026-01-09",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

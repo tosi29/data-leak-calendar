@@ -1,0 +1,47 @@
+{
+  "id": "odawara-eng-mail-20260915",
+  "organization": {
+    "name": "株式会社小田原エンジニアリング",
+    "sector": "企業・団体"
+  },
+  "title": "出向従業員のメールへの侵入で取引先情報を閲覧",
+  "summary": "出向従業員のメールへの侵入で取引先情報を閲覧。",
+  "published_on": "2026-09-15",
+  "first_published_on": "2026-09-15",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "credentials",
+    "detail": "出向従業員のメールへの侵入で取引先情報を閲覧。具体的な経緯は公表資料を参照。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 3500,
+      "unit": "documents",
+      "qualifier": "approximate",
+      "description": "公表資料の対象規模。内数・重複は注記参照。"
+    }
+  ],
+  "data_types": [
+    "メール本文",
+    "取引先担当者の個人情報"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://odawara-eng.co.jp/wp-content/uploads/2026/09/20260915.pdf",
+      "type": "official",
+      "title": "出向従業員のメールへの侵入で取引先情報を閲覧",
+      "published_on": "2026-09-15",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": "約3,500は閲覧確認したメールの通数で人数ではない。3月27日～8月31日に継続的なアクセス。"
+}

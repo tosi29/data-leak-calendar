@@ -1,0 +1,46 @@
+{
+  "id": "act1000-work-server-20260615",
+  "organization": {
+    "name": "アクト・セン株式会社",
+    "sector": "企業・団体"
+  },
+  "title": "作業管理サーバーへの侵入で従業員等の情報に漏えいのおそれ",
+  "summary": "作業管理サーバーへの侵入で従業員等の情報に漏えいのおそれ。",
+  "published_on": "2026-06-15",
+  "first_published_on": "2026-06-15",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "作業管理サーバーへの侵入で従業員等の情報に漏えいのおそれ。具体的な経緯は公表資料を参照。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "対象規模は未公表。"
+    }
+  ],
+  "data_types": [
+    "現職者・退職者の個人情報"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://act1000.jp/wp-content/uploads/2026/06/%E5%80%8B%E4%BA%BA%E6%83%85%E5%A0%B1%E6%BC%8F%E3%81%88%E3%81%84%E3%81%AE%E5%8F%AF%E8%83%BD%E6%80%A7%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B%E3%81%A8%E3%81%8A%E8%A9%AB%E3%81%B3.pdf",
+      "type": "official",
+      "title": "作業管理サーバーへの侵入で従業員等の情報に漏えいのおそれ",
+      "published_on": "2026-06-15",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": "4社の従業員等が対象。5月1日にランサムウェアとみられる暗号化を確認。"
+}

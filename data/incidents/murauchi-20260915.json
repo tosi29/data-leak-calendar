@@ -8,7 +8,7 @@
   "published_on": "2026-07-24",
   "occurred_on": null,
   "detected_on": "2026-07-16",
-  "updated_on": "2026-10-18",
+  "updated_on": "2026-11-01",
   "leak_status": "confirmed",
   "summary": "7月に発覚した不正アクセスについて、調査で顧客情報の外部持ち出しを確認し、対象件数を公表。",
   "impact": [
@@ -53,10 +53,22 @@
       "title": "第一報7月24日と第二報9月15日を明記する報道",
       "published_on": "2026-10-09",
       "checked_on": "2026-10-18"
+    },
+    {
+      "url": "https://murauchi.com/static-pages/privacy/%E5%BC%8A%E7%A4%BE%E3%81%AB%E3%81%8A%E3%81%91%E3%82%8B%E4%B8%8D%E6%AD%A3%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E3%81%AB%E3%82%88%E3%82%8B%E3%81%8A%E5%AE%A2%E6%A7%98%E6%83%85%E5%A0%B1%E6%BC%8F%E3%81%88%E3%81%84%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E3%81%8A%E8%A9%AB%E3%81%B3%E3%81%A8%E3%81%94%E5%A0%B1%E5%91%8A%EF%BC%88%E7%AC%AC%E4%B8%80%E5%A0%B1%EF%BC%89.pdf",
+      "type": "official",
+      "title": "不正アクセスに関する第一報",
+      "published_on": "2026-07-24",
+      "checked_on": "2026-11-01"
     }
   ],
   "notes": "初報は7月24日。7月15日の障害発生と、翌16日の不正アクセスの痕跡確認を区別。 公式旧ページ・PDFは今回再取得できず。初報7月24日は、同資料を引用する10月9日の報道本文で照合して掲載日へ採用。対象件数は9月15日の第二報で判明した値。",
   "updates": [
+    {
+      "date": "2026-07-24",
+      "source_index": 3,
+      "summary": "個人情報漏えいの痕跡を公表した初報を追加。後続の対象範囲を保持。"
+    },
     {
       "date": "2026-09-15",
       "summary": "外部持ち出しを確認し、漏えい対象7,716,811件と原因を公表。",
@@ -69,7 +81,7 @@
   "related_vendor": null,
   "incident_type": "attack",
   "vendor_research": {
-    "checked_on": "2026-10-18",
+    "checked_on": "2026-11-01",
     "result": "not_identified",
     "note": "今回取得できた追加資料では、当該事案の外部ITベンダーの社名と役割を特定できず。以前の出典の取得失敗はsource_checksに保持。",
     "source_checks": [
@@ -83,6 +95,10 @@
       },
       {
         "source_index": 2,
+        "status": "reviewed"
+      },
+      {
+        "source_index": 3,
         "status": "reviewed"
       }
     ]

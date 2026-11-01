@@ -1,0 +1,59 @@
+{
+  "id": "suita-sick-child-records-20260203",
+  "organization": {
+    "name": "吹田市（病児・病後児保育室ぶろっこりー）",
+    "sector": "自治体"
+  },
+  "title": "病児保育の児童・保護者の登録票等を紛失",
+  "summary": "病児保育の児童・保護者の登録票等を紛失。",
+  "published_on": "2026-02-03",
+  "first_published_on": "2026-02-03",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "lost",
+  "incident_type": "accident",
+  "cause": {
+    "category": "loss",
+    "detail": "病児保育の児童・保護者の登録票等を紛失。具体的な経緯は公表資料を参照。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 30,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "利用児童。"
+    },
+    {
+      "count": 28,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "保護者。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "生年月日",
+    "性別",
+    "住所",
+    "連絡先",
+    "予防接種・感染状況",
+    "病歴",
+    "アレルギー"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.city.suita.osaka.jp/shisei/1018880/1018886/1039260/1041983/1041987.html",
+      "type": "official",
+      "title": "病児保育の児童・保護者の登録票等を紛失",
+      "published_on": "2026-02-03",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": "児童30人と保護者28人、27世帯。人・世帯を合算しない。更新日は3月2日だが資料提供日は2月3日。"
+}

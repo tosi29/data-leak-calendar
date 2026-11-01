@@ -33808,6 +33808,19 @@
         "現在の更新日しか残らないページは初回の公表日と同一と断定しない。小国町・鹿児島市・山形市等の初回公表日は保留。",
         "89件は4月の完全な網羅を保証しない。未確認候補には個人情報への影響自体が不明・期間外・重複の可能性が残る。"
       ]
+    },
+    {
+      "checked_on": "2026-11-01",
+      "scope": "1～10月再点検で取得不能だった公式出典を補完",
+      "vendor_review_updates": [
+        {
+          "incident_id": "fukuoka-20260929",
+          "result": "not_identified",
+          "queries": [
+            "https://www.pref.fukuoka.lg.jp/press-release/nkojinjyouhou.html"
+          ]
+        }
+      ]
     }
   ],
   "daily_updates": [
@@ -35525,6 +35538,220 @@
       },
       "report": "docs/research-2026-q1-deep-review.md",
       "audit": "data/research-2026-q1-deep-review.json"
+    },
+    {
+      "checked_on": "2026-11-01",
+      "coverage_start": "2026-01-01",
+      "coverage_end": "2026-10-31",
+      "stats": {
+        "baseline_incidents": 1969,
+        "added_incidents": 88,
+        "updated_incidents": 8,
+        "total_incidents": 2057,
+        "monthly_before": {
+          "2026-01": 52,
+          "2026-02": 48,
+          "2026-03": 64,
+          "2026-04": 159,
+          "2026-05": 147,
+          "2026-06": 143,
+          "2026-07": 185,
+          "2026-08": 161,
+          "2026-09": 162,
+          "2026-10": 848
+        },
+        "monthly_after": {
+          "2026-01": 57,
+          "2026-02": 54,
+          "2026-03": 68,
+          "2026-04": 165,
+          "2026-05": 153,
+          "2026-06": 151,
+          "2026-07": 191,
+          "2026-08": 164,
+          "2026-09": 173,
+          "2026-10": 881
+        },
+        "monthly_added": {
+          "2026-01": 5,
+          "2026-02": 6,
+          "2026-03": 4,
+          "2026-04": 6,
+          "2026-05": 6,
+          "2026-06": 8,
+          "2026-07": 6,
+          "2026-08": 3,
+          "2026-09": 11,
+          "2026-10": 33
+        },
+        "new_candidates": 17,
+        "resolved_candidates": 0,
+        "pending_candidates": 113
+      },
+      "added_incident_ids": [
+        "kobe-higashinada-resident-20261015",
+        "kobe-npo-address-20261014",
+        "feiler-design-loss-20261014",
+        "tottori-furusato-order-mail-20261014",
+        "rakuten-mobile-payment-certificate-20261013",
+        "osaka-history-museum-mail-20261008",
+        "saga-shiroishi-scholarship-20261005",
+        "kanonji-vaccine-mail-20261005",
+        "kansai-welfare-mail-20261002",
+        "niigata-minamiuonuma-tablet-20261002",
+        "ehime-rosai-reservation-slip-20261002",
+        "greencoop-fukuoka-pc-20261002",
+        "ichinomiya-tour-mail-20260930",
+        "ihj-opac-account-20260929",
+        "okayama-teacher-stress-20260925",
+        "saga-karatsu-classi-20260925",
+        "saitama-budokan-mail-20260921",
+        "kazuno-health-cdr-20260918",
+        "fukuoka-sawara-library-mail-20260916",
+        "odawara-eng-mail-20260915",
+        "saitama-brain-support-mail-20260914",
+        "sbcreative-businessit-20260914",
+        "hacobu-movo-tablet-20260730",
+        "hareruya2-lottery-display-20260730",
+        "mie-welfare-training-sheet-20260627",
+        "sagamihara-yeg-form-20260630",
+        "osaka-kyoiku-attachment-20260623",
+        "act1000-work-server-20260615",
+        "nagoya-park-mail-20260615",
+        "movic-lycee-mail-20260613",
+        "toshima-medical-benefit-20260527",
+        "nagoya-npo-address-20260521",
+        "ota-hospital-recruit-video-20260501",
+        "kumamoto-welfare-mail-20260501",
+        "aomori-hospital-staff-disclosure-20260430",
+        "niigata-family-loan-mail-20260428",
+        "hyogo-eshien-20260423",
+        "kansai-system-recruit-20260415",
+        "kanko-morioka-mail-20260409",
+        "fcsoft-data-mail-20260123",
+        "caa-payroll-eltax-20260331",
+        "osaka-career-resume-20260331",
+        "kagawa-isf-mail-20260216",
+        "yokosuka-esports-mail-20260210",
+        "urasoe-prescription-loss-20260217",
+        "saga-policy-mail-20260327",
+        "shimanto-mail-20260316",
+        "osaka-izuo-student-loss-20260724",
+        "niigata-mental-certificate-loss-20260407",
+        "startia-mail-20260528",
+        "osaka-central-library-mail-20260710",
+        "bunkyo-futsal-mail-20260605",
+        "osaka-sano-baseball-fax-20261023",
+        "kashiwa-parent-support-mail-20261008",
+        "osaka-housing-parking-mail-20261008",
+        "kashiwa-school-council-mail-20261008",
+        "class-earth-volunteer-mail-20261007",
+        "acros-fukuoka-mail-20261007",
+        "osaka-museum-owner-mail-20260819",
+        "tama-welfare-mobile-theft-20261022",
+        "osaka-misaki-study-loss-20260227",
+        "osaka-dispatched-attendance-loss-20261023",
+        "osaka-suminoe-redaction-20261020",
+        "osaka-sakuyakonohana-form-20261015",
+        "osaka-school-growth-september-20260909",
+        "mie-univ-campus-list-20260824",
+        "nonoichi-private-family-register-20260713",
+        "osaka-middle-growth-july-20260713",
+        "osaka-oct-bulk-1-20261009",
+        "osaka-oct-bulk-2-20261009",
+        "osaka-oct-bulk-3-20261009",
+        "osaka-oct-bulk-4-20261009",
+        "osaka-oct-bulk-5-20261009",
+        "osaka-oct-bulk-6-20261009",
+        "osaka-oct-bulk-7-20261009",
+        "osaka-oct-bulk-9-20261009",
+        "osaka-oct-bulk-11-20261009",
+        "osaka-oct-bulk-12-20261009",
+        "osaka-oct-bulk-13-20261009",
+        "nagoya-club-portal-mail-20260116",
+        "ibaraki-building-mail-20260109",
+        "nagoya-showa-infant-list-20260122",
+        "nagoya-meito-elderly-list-20260116",
+        "nagoya-food-safety-mail-20260219",
+        "suita-sick-child-records-20260203",
+        "ichinomiya-hospital-usb-20260501",
+        "shinagawa-outdoor-document-20260601",
+        "sabae-bus-tour-mail-20260820"
+      ],
+      "updated_incident_ids": [
+        "chibanishi-sns-20261010",
+        "murauchi-20260915",
+        "kuins-20260930",
+        "sankei-respection-20260911",
+        "kawasaki-miyamae-sports-mail-20260608",
+        "fukuoka-20260929",
+        "ibaraki-commons-mail-20260926",
+        "adachi-park-mail-20260824"
+      ],
+      "new_candidate_ids": [
+        "year-recheck-a9a6321bf8f1",
+        "year-recheck-76db6c126605",
+        "year-recheck-8af0fd971d98",
+        "year-recheck-9d79d69f9257",
+        "year-recheck-b47cbd98fe27",
+        "year-recheck-7929210252ce",
+        "year-recheck-dcfd5e41a551",
+        "year-recheck-836da5cc8947",
+        "year-recheck-32074e76fc82",
+        "year-recheck-27314646eb60",
+        "year-recheck-3900d38bfe32",
+        "year-recheck-e3934c75637a",
+        "year-recheck-fe4a962985d8",
+        "year-recheck-768f1d219b47",
+        "year-recheck-c7d84d648c42",
+        "year-recheck-d00ff7d68e30",
+        "year-recheck-434463991ed8"
+      ],
+      "resolved_candidate_ids": [],
+      "method": [
+        "1～10月それぞれで一般漏えい、誤送信、紛失の検索を実施。専門媒体を-siteで除外し、既知の大規模事故が占める検索結果を補った。除外条件を重ねすぎて無関係な結果が増える検索は別の条件でも再検索。",
+        "公開索引817行から対象期間内・除外なし・未統合の807行を抽出。既存公式出典を正規化して照合し、不一致248行・重複排除229 URLを追加取得。URL違いだけで未掲載と判定しない。",
+        "検索で見つけた追加60 URLと自治体の旧ドメイン等15 URLも取得。取得成功を本文確認済みと同一視せず、採否と未精査を監査データで分けた。",
+        "新規は公式本文の公表日・対象情報・対象規模を照合。大阪市10月一括公表の13行は、既に個別公表された2行を除く11件を掲載。発生日・市内部の報告日・ページ更新日を公表日へ流用しない。",
+        "同一事案の初報・続報は既存IDへ追記し、後続調査結果を保持。組織名が同じでも対象・経緯が異なる事故は別件にする。"
+      ],
+      "limitations": [
+        "網羅完了や漏れゼロの宣言ではない。807索引行の照合、248不一致行の取得、新規掲載した公式本文の精査は異なる作業量であり合算しない。",
+        "監査のdiscovery_onlyは資料を探索・取得しただけの行。本文精査や同一事案の確定は未完了。検索は既知組織やサイトの除外により取りこぼすため、除外しない索引照合と組み合わせた。",
+        "リンク切れ・画像PDF・日付のない文書・企業情報のみ等は、索引の要約や記事日から推測して掲載しない。新たな確認待ち候補と未精査一覧を保存した。",
+        "掲載内容は確認した各資料時点。年内の全続報の追跡や国内の全自治体の全月次一括公表の精査を完了したものではない。"
+      ],
+      "discovery_stats": {
+        "watch_rows": 807,
+        "unmatched_rows": 248,
+        "unmatched_unique_urls": 229,
+        "search_primary_urls": 60,
+        "extra_primary_urls": 15
+      },
+      "report": "docs/research-2026-01-10-recheck.md",
+      "audit": "data/research-2026-01-10-recheck.json",
+      "deduplicated_during_review": [
+        {
+          "discarded_draft_id": "sankei-respection-form-20260911",
+          "retained_id": "sankei-respection-20260911"
+        },
+        {
+          "discarded_draft_id": "tokyu-sports-miyamae-mail-20260608",
+          "retained_id": "kawasaki-miyamae-sports-mail-20260608"
+        },
+        {
+          "discarded_draft_id": "fukuoka-care-cert-form-20260929",
+          "retained_id": "fukuoka-20260929"
+        },
+        {
+          "discarded_draft_id": "ibaraki-npo-mail-20260925",
+          "retained_id": "ibaraki-commons-mail-20260926"
+        },
+        {
+          "discarded_draft_id": "adachi-agriculture-ml-20260824",
+          "retained_id": "adachi-park-mail-20260824"
+        }
+      ]
     }
   ]
 }

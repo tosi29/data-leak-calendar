@@ -1,0 +1,48 @@
+{
+  "id": "mie-univ-campus-list-20260824",
+  "organization": {
+    "name": "三重大学",
+    "sector": "教育・研究"
+  },
+  "title": "オープンキャンパス受付名簿292人分を紛失",
+  "summary": "オープンキャンパス受付名簿292人分を紛失。",
+  "published_on": "2026-08-24",
+  "first_published_on": "2026-08-24",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "lost",
+  "incident_type": "accident",
+  "cause": {
+    "category": "loss",
+    "detail": "オープンキャンパス受付名簿292人分を紛失。具体的な経緯は公表資料を参照。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 292,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表資料の対象規模。内数・重複は注記参照。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "フリガナ",
+    "性別"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.mie-u.ac.jp/news/topics/2026/08/post-4238.html",
+      "type": "official",
+      "title": "オープンキャンパス受付名簿292人分を紛失",
+      "published_on": "2026-08-24",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": "8月7日公表のメール誤送信とは別件。"
+}

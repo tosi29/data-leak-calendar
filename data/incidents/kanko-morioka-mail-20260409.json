@@ -1,0 +1,46 @@
+{
+  "id": "kanko-morioka-mail-20260409",
+  "organization": {
+    "name": "カンコーショップ盛岡",
+    "sector": "企業・団体"
+  },
+  "title": "制服購入者533人のメールアドレスを誤送信",
+  "summary": "制服購入者533人のメールアドレスを誤送信。",
+  "published_on": "2026-04-09",
+  "first_published_on": "2026-04-09",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "accident",
+  "cause": {
+    "category": "misdelivery",
+    "detail": "制服購入者533人のメールアドレスを誤送信。具体的な経緯は公表資料を参照。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 533,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表資料の対象規模。内数・重複は注記参照。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.kanko-shop-morioka.com/",
+      "type": "official",
+      "title": "制服購入者533人のメールアドレスを誤送信",
+      "published_on": "2026-04-09",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

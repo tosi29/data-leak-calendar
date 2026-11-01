@@ -6,12 +6,12 @@
   },
   "title": "職員による個人情報を含む不適切なSNS動画投稿",
   "summary": "職員2名が関わった個人情報を含む動画のSNS投稿を公表し、処分と再発防止策を報告。",
-  "published_on": "2026-10-10",
-  "first_published_on": null,
-  "publication_kind": "followup",
+  "published_on": "2026-10-08",
+  "first_published_on": "2026-10-08",
+  "publication_kind": "initial",
   "occurred_on": null,
   "detected_on": null,
-  "updated_on": "2026-10-10",
+  "updated_on": "2026-11-01",
   "verification": "official",
   "leak_status": "confirmed",
   "incident_type": "improper_handling",
@@ -39,8 +39,26 @@
       "title": "職員による個人情報を含む不適切なSNS動画投稿",
       "published_on": "2026-10-10",
       "checked_on": "2026-10-27"
+    },
+    {
+      "url": "https://www.chibanishi-hp.or.jp/archives/news/important/24310",
+      "type": "official",
+      "title": "職員によるSNS投稿（初報）",
+      "published_on": "2026-10-08",
+      "checked_on": "2026-11-01"
     }
   ],
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-10-08",
+      "source_index": 1,
+      "summary": "患者が映り込んだ動画の無断投稿を公表。10月10日の続報を保持。"
+    },
+    {
+      "date": "2026-10-10",
+      "source_index": 0,
+      "summary": "職員2名が関わった個人情報を含む動画のSNS投稿を公表し、処分と再発防止策を報告。"
+    }
+  ],
   "notes": "公式第3報を期間内の続報として掲載。初報日は未確定。職員2名・共有グループ3名は関与者数であり被害者数ではない。"
 }

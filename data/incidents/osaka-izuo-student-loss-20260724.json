@@ -1,0 +1,53 @@
+{
+  "id": "osaka-izuo-student-loss-20260724",
+  "organization": {
+    "name": "大阪府立泉尾工業高等学校",
+    "sector": "教育・研究"
+  },
+  "title": "生徒個人調査票1人分を紛失",
+  "summary": "生徒個人調査票1人分を紛失。",
+  "published_on": "2026-07-24",
+  "first_published_on": "2026-07-24",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "lost",
+  "incident_type": "accident",
+  "cause": {
+    "category": "loss",
+    "detail": "生徒個人調査票1人分を紛失。具体的な経緯は公表資料を参照。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 1,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表資料の対象規模。内数・重複は注記参照。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "生年月日",
+    "現住所",
+    "電話番号",
+    "保護者情報",
+    "学歴",
+    "趣味",
+    "家族構成"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.pref.osaka.lg.jp/hodo/fumin/o180040/prs_51153.html",
+      "type": "official",
+      "title": "生徒個人調査票1人分を紛失",
+      "published_on": "2026-07-24",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

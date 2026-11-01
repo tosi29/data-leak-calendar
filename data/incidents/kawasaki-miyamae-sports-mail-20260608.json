@@ -11,7 +11,7 @@
   "publication_kind": "initial",
   "occurred_on": "2026-06-03",
   "detected_on": null,
-  "updated_on": "2026-10-24",
+  "updated_on": "2026-11-01",
   "verification": "official",
   "leak_status": "confirmed",
   "incident_type": "accident",
@@ -39,8 +39,21 @@
       "title": "令和 ８ 年 ６ 月８ 日",
       "published_on": "2026-06-08",
       "checked_on": "2026-10-24"
+    },
+    {
+      "url": "https://www.tokyu-sports.com/company/news/20260608.pdf",
+      "type": "official",
+      "title": "スポーツ教室当選者のメールアドレス552件が流出",
+      "published_on": "2026-06-08",
+      "checked_on": "2026-11-01"
     }
   ],
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-06-08",
+      "source_index": 1,
+      "summary": "別URLの公式出典を照合。同じ事案として出典を補完。"
+    }
+  ],
   "notes": "取消通知は同一事故の対応過程であり別件にしない。"
 }

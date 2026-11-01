@@ -1,0 +1,46 @@
+{
+  "id": "osaka-central-library-mail-20260710",
+  "organization": {
+    "name": "大阪府立中央図書館",
+    "sector": "企業・団体"
+  },
+  "title": "複写申込者1人の氏名を別人へ誤送信",
+  "summary": "複写申込者1人の氏名を別人へ誤送信。",
+  "published_on": "2026-07-10",
+  "first_published_on": "2026-07-10",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "accident",
+  "cause": {
+    "category": "misdelivery",
+    "detail": "複写申込者1人の氏名を別人へ誤送信。具体的な経緯は公表資料を参照。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 1,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表資料の対象規模。内数・重複は注記参照。"
+    }
+  ],
+  "data_types": [
+    "氏名"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.pref.osaka.lg.jp/hodo/fumin/o180190/prs_49300.html",
+      "type": "official",
+      "title": "複写申込者1人の氏名を別人へ誤送信",
+      "published_on": "2026-07-10",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

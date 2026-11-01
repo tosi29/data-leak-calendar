@@ -1,0 +1,48 @@
+{
+  "id": "osaka-museum-owner-mail-20260819",
+  "organization": {
+    "name": "大阪市立美術館",
+    "sector": "自治体"
+  },
+  "title": "美術館関係者1人の所有作品情報等を誤添付",
+  "summary": "美術館関係者1人の所有作品情報等を誤添付。",
+  "published_on": "2026-08-19",
+  "first_published_on": "2026-08-19",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "accident",
+  "cause": {
+    "category": "misdelivery",
+    "detail": "美術館関係者1人の所有作品情報等を誤添付。具体的な経緯は公表資料を参照。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 1,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表資料の対象規模。内数・重複は注記参照。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "所有作品情報"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.city.osaka.lg.jp/hodoshiryo/keizaisenryaku/0000685813.html",
+      "type": "official",
+      "title": "美術館関係者1人の所有作品情報等を誤添付",
+      "published_on": "2026-08-19",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": "9月24日公表のメール事故と別件。"
+}

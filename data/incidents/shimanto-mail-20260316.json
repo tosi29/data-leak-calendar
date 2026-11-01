@@ -1,0 +1,46 @@
+{
+  "id": "shimanto-mail-20260316",
+  "organization": {
+    "name": "四万十市",
+    "sector": "企業・団体"
+  },
+  "title": "説明会案内で10人のメールアドレスを誤送信",
+  "summary": "説明会案内で10人のメールアドレスを誤送信。",
+  "published_on": "2026-03-16",
+  "first_published_on": "2026-03-16",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "accident",
+  "cause": {
+    "category": "misdelivery",
+    "detail": "説明会案内で10人のメールアドレスを誤送信。具体的な経緯は公表資料を参照。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 10,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表資料の対象規模。内数・重複は注記参照。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.city.shimanto.lg.jp/soshiki/4/25156.html",
+      "type": "official",
+      "title": "説明会案内で10人のメールアドレスを誤送信",
+      "published_on": "2026-03-16",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

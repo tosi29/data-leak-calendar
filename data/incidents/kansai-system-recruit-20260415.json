@@ -1,0 +1,55 @@
+{
+  "id": "kansai-system-recruit-20260415",
+  "organization": {
+    "name": "関西総合システム",
+    "sector": "企業・団体"
+  },
+  "title": "前年のランサムウェア被害で採用応募者情報に漏えいのおそれ",
+  "summary": "前年のランサムウェア被害で採用応募者情報に漏えいのおそれ。",
+  "published_on": "2026-04-15",
+  "first_published_on": "2026-01-23",
+  "publication_kind": "followup",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "credentials",
+    "detail": "前年のランサムウェア被害で採用応募者情報に漏えいのおそれ。具体的な経緯は公表資料を参照。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "対象規模は未公表。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "生年月日",
+    "性別",
+    "電話番号",
+    "メールアドレス",
+    "学歴",
+    "職歴",
+    "写真",
+    "履歴書記載事項"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.kisnet.co.jp/2026/01/23/3909/",
+      "type": "official",
+      "title": "前年のランサムウェア被害で採用応募者情報に漏えいのおそれ",
+      "published_on": "2026-04-15",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": "4月15日の追記で応募者情報への影響を具体化。初出欄1月23日と区別。"
+}

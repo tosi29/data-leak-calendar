@@ -1,0 +1,46 @@
+{
+  "id": "osaka-oct-bulk-4-20261009",
+  "organization": {
+    "name": "大阪市住之江区",
+    "sector": "自治体"
+  },
+  "title": "介護保険被保険者証の誤送付",
+  "summary": "介護保険被保険者証の誤送付。",
+  "published_on": "2026-10-09",
+  "first_published_on": "2026-10-09",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "accident",
+  "cause": {
+    "category": "misdelivery",
+    "detail": "介護保険被保険者証の誤送付。具体的な経緯は公表資料を参照。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 1,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表資料の対象規模。内数・重複は注記参照。"
+    }
+  ],
+  "data_types": [
+    "当該文書等に含まれる個人情報（詳細項目非公表）"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.city.osaka.lg.jp/hodoshiryo/somu/0000688424.html",
+      "type": "official",
+      "title": "介護保険被保険者証の誤送付",
+      "published_on": "2026-10-09",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": "10月9日一括公表の項番4。表の報告日・発生時速報日を公表日へ転用しない。"
+}

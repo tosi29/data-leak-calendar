@@ -1,0 +1,3424 @@
+{
+  "checked_on": "2026-11-01",
+  "coverage_start": "2026-01-01",
+  "coverage_end": "2026-10-31",
+  "stats": {
+    "baseline_incidents": 1969,
+    "added_incidents": 88,
+    "updated_incidents": 8,
+    "total_incidents": 2057,
+    "monthly_before": {
+      "2026-01": 52,
+      "2026-02": 48,
+      "2026-03": 64,
+      "2026-04": 159,
+      "2026-05": 147,
+      "2026-06": 143,
+      "2026-07": 185,
+      "2026-08": 161,
+      "2026-09": 162,
+      "2026-10": 848
+    },
+    "monthly_after": {
+      "2026-01": 57,
+      "2026-02": 54,
+      "2026-03": 68,
+      "2026-04": 165,
+      "2026-05": 153,
+      "2026-06": 151,
+      "2026-07": 191,
+      "2026-08": 164,
+      "2026-09": 173,
+      "2026-10": 881
+    },
+    "monthly_added": {
+      "2026-01": 5,
+      "2026-02": 6,
+      "2026-03": 4,
+      "2026-04": 6,
+      "2026-05": 6,
+      "2026-06": 8,
+      "2026-07": 6,
+      "2026-08": 3,
+      "2026-09": 11,
+      "2026-10": 33
+    },
+    "new_candidates": 17,
+    "resolved_candidates": 0,
+    "pending_candidates": 113
+  },
+  "added_incident_ids": [
+    "kobe-higashinada-resident-20261015",
+    "kobe-npo-address-20261014",
+    "feiler-design-loss-20261014",
+    "tottori-furusato-order-mail-20261014",
+    "rakuten-mobile-payment-certificate-20261013",
+    "osaka-history-museum-mail-20261008",
+    "saga-shiroishi-scholarship-20261005",
+    "kanonji-vaccine-mail-20261005",
+    "kansai-welfare-mail-20261002",
+    "niigata-minamiuonuma-tablet-20261002",
+    "ehime-rosai-reservation-slip-20261002",
+    "greencoop-fukuoka-pc-20261002",
+    "ichinomiya-tour-mail-20260930",
+    "ihj-opac-account-20260929",
+    "okayama-teacher-stress-20260925",
+    "saga-karatsu-classi-20260925",
+    "saitama-budokan-mail-20260921",
+    "kazuno-health-cdr-20260918",
+    "fukuoka-sawara-library-mail-20260916",
+    "odawara-eng-mail-20260915",
+    "saitama-brain-support-mail-20260914",
+    "sbcreative-businessit-20260914",
+    "hacobu-movo-tablet-20260730",
+    "hareruya2-lottery-display-20260730",
+    "mie-welfare-training-sheet-20260627",
+    "sagamihara-yeg-form-20260630",
+    "osaka-kyoiku-attachment-20260623",
+    "act1000-work-server-20260615",
+    "nagoya-park-mail-20260615",
+    "movic-lycee-mail-20260613",
+    "toshima-medical-benefit-20260527",
+    "nagoya-npo-address-20260521",
+    "ota-hospital-recruit-video-20260501",
+    "kumamoto-welfare-mail-20260501",
+    "aomori-hospital-staff-disclosure-20260430",
+    "niigata-family-loan-mail-20260428",
+    "hyogo-eshien-20260423",
+    "kansai-system-recruit-20260415",
+    "kanko-morioka-mail-20260409",
+    "fcsoft-data-mail-20260123",
+    "caa-payroll-eltax-20260331",
+    "osaka-career-resume-20260331",
+    "kagawa-isf-mail-20260216",
+    "yokosuka-esports-mail-20260210",
+    "urasoe-prescription-loss-20260217",
+    "saga-policy-mail-20260327",
+    "shimanto-mail-20260316",
+    "osaka-izuo-student-loss-20260724",
+    "niigata-mental-certificate-loss-20260407",
+    "startia-mail-20260528",
+    "osaka-central-library-mail-20260710",
+    "bunkyo-futsal-mail-20260605",
+    "osaka-sano-baseball-fax-20261023",
+    "kashiwa-parent-support-mail-20261008",
+    "osaka-housing-parking-mail-20261008",
+    "kashiwa-school-council-mail-20261008",
+    "class-earth-volunteer-mail-20261007",
+    "acros-fukuoka-mail-20261007",
+    "osaka-museum-owner-mail-20260819",
+    "tama-welfare-mobile-theft-20261022",
+    "osaka-misaki-study-loss-20260227",
+    "osaka-dispatched-attendance-loss-20261023",
+    "osaka-suminoe-redaction-20261020",
+    "osaka-sakuyakonohana-form-20261015",
+    "osaka-school-growth-september-20260909",
+    "mie-univ-campus-list-20260824",
+    "nonoichi-private-family-register-20260713",
+    "osaka-middle-growth-july-20260713",
+    "osaka-oct-bulk-1-20261009",
+    "osaka-oct-bulk-2-20261009",
+    "osaka-oct-bulk-3-20261009",
+    "osaka-oct-bulk-4-20261009",
+    "osaka-oct-bulk-5-20261009",
+    "osaka-oct-bulk-6-20261009",
+    "osaka-oct-bulk-7-20261009",
+    "osaka-oct-bulk-9-20261009",
+    "osaka-oct-bulk-11-20261009",
+    "osaka-oct-bulk-12-20261009",
+    "osaka-oct-bulk-13-20261009",
+    "nagoya-club-portal-mail-20260116",
+    "ibaraki-building-mail-20260109",
+    "nagoya-showa-infant-list-20260122",
+    "nagoya-meito-elderly-list-20260116",
+    "nagoya-food-safety-mail-20260219",
+    "suita-sick-child-records-20260203",
+    "ichinomiya-hospital-usb-20260501",
+    "shinagawa-outdoor-document-20260601",
+    "sabae-bus-tour-mail-20260820"
+  ],
+  "updated_incident_ids": [
+    "chibanishi-sns-20261010",
+    "murauchi-20260915",
+    "kuins-20260930",
+    "sankei-respection-20260911",
+    "kawasaki-miyamae-sports-mail-20260608",
+    "fukuoka-20260929",
+    "ibaraki-commons-mail-20260926",
+    "adachi-park-mail-20260824"
+  ],
+  "new_candidate_ids": [
+    "year-recheck-a9a6321bf8f1",
+    "year-recheck-76db6c126605",
+    "year-recheck-8af0fd971d98",
+    "year-recheck-9d79d69f9257",
+    "year-recheck-b47cbd98fe27",
+    "year-recheck-7929210252ce",
+    "year-recheck-dcfd5e41a551",
+    "year-recheck-836da5cc8947",
+    "year-recheck-32074e76fc82",
+    "year-recheck-27314646eb60",
+    "year-recheck-3900d38bfe32",
+    "year-recheck-e3934c75637a",
+    "year-recheck-fe4a962985d8",
+    "year-recheck-768f1d219b47",
+    "year-recheck-c7d84d648c42",
+    "year-recheck-d00ff7d68e30",
+    "year-recheck-434463991ed8"
+  ],
+  "resolved_candidate_ids": [],
+  "method": [
+    "1～10月それぞれで一般漏えい、誤送信、紛失の検索を実施。専門媒体を-siteで除外し、既知の大規模事故が占める検索結果を補った。除外条件を重ねすぎて無関係な結果が増える検索は別の条件でも再検索。",
+    "公開索引817行から対象期間内・除外なし・未統合の807行を抽出。既存公式出典を正規化して照合し、不一致248行・重複排除229 URLを追加取得。URL違いだけで未掲載と判定しない。",
+    "検索で見つけた追加60 URLと自治体の旧ドメイン等15 URLも取得。取得成功を本文確認済みと同一視せず、採否と未精査を監査データで分けた。",
+    "新規は公式本文の公表日・対象情報・対象規模を照合。大阪市10月一括公表の13行は、既に個別公表された2行を除く11件を掲載。発生日・市内部の報告日・ページ更新日を公表日へ流用しない。",
+    "同一事案の初報・続報は既存IDへ追記し、後続調査結果を保持。組織名が同じでも対象・経緯が異なる事故は別件にする。"
+  ],
+  "limitations": [
+    "網羅完了や漏れゼロの宣言ではない。807索引行の照合、248不一致行の取得、新規掲載した公式本文の精査は異なる作業量であり合算しない。",
+    "監査のdiscovery_onlyは資料を探索・取得しただけの行。本文精査や同一事案の確定は未完了。検索は既知組織やサイトの除外により取りこぼすため、除外しない索引照合と組み合わせた。",
+    "リンク切れ・画像PDF・日付のない文書・企業情報のみ等は、索引の要約や記事日から推測して掲載しない。新たな確認待ち候補と未精査一覧を保存した。",
+    "掲載内容は確認した各資料時点。年内の全続報の追跡や国内の全自治体の全月次一括公表の精査を完了したものではない。"
+  ],
+  "search_queries": [
+    "\"2026年1月\" (\"誤送信\" OR \"紛失\" OR \"誤公開\") \"個人情報\" -site:security-next.com -site:netsecurity.ne.jp -site:rocket-boys.co.jp -site:incident-radar.com -site:clipmaster.jp -site:jumpstack.co.jp -アサヒ -アスクル",
+    "\"2026年2月\" (\"誤送信\" OR \"紛失\" OR \"誤公開\") \"個人情報\" -site:security-next.com -site:netsecurity.ne.jp -site:rocket-boys.co.jp -site:incident-radar.com -site:clipmaster.jp -site:jumpstack.co.jp -アサヒ -アスクル",
+    "\"2026年3月\" (\"誤送信\" OR \"紛失\" OR \"誤公開\") \"個人情報\" -site:security-next.com -site:netsecurity.ne.jp -site:rocket-boys.co.jp -site:incident-radar.com -site:clipmaster.jp -site:jumpstack.co.jp -アサヒ -アスクル",
+    "\"2026年4月\" (\"誤送信\" OR \"紛失\" OR \"誤公開\") \"個人情報\" -site:security-next.com -site:netsecurity.ne.jp -site:rocket-boys.co.jp -site:incident-radar.com -site:clipmaster.jp -site:jumpstack.co.jp -アサヒ -アスクル",
+    "\"2026年5月\" (\"誤送信\" OR \"紛失\" OR \"誤公開\") \"個人情報\" -site:security-next.com -site:netsecurity.ne.jp -site:rocket-boys.co.jp -site:incident-radar.com -site:clipmaster.jp -site:jumpstack.co.jp -アサヒ -アスクル",
+    "\"2026年6月\" (\"誤送信\" OR \"紛失\" OR \"誤公開\") \"個人情報\" -site:security-next.com -site:netsecurity.ne.jp -site:rocket-boys.co.jp -site:incident-radar.com -site:clipmaster.jp -site:jumpstack.co.jp -アサヒ -アスクル",
+    "\"2026年7月\" (\"誤送信\" OR \"紛失\" OR \"誤公開\") \"個人情報\" -site:security-next.com -site:netsecurity.ne.jp -site:rocket-boys.co.jp -site:incident-radar.com -site:clipmaster.jp -site:jumpstack.co.jp -アサヒ -アスクル",
+    "\"2026年8月\" (\"誤送信\" OR \"紛失\" OR \"誤公開\") \"個人情報\" -site:security-next.com -site:netsecurity.ne.jp -site:rocket-boys.co.jp -site:incident-radar.com -site:clipmaster.jp -site:jumpstack.co.jp -アサヒ -アスクル",
+    "\"2026年9月\" (\"誤送信\" OR \"紛失\" OR \"誤公開\") \"個人情報\" -site:security-next.com -site:netsecurity.ne.jp -site:rocket-boys.co.jp -site:incident-radar.com -site:clipmaster.jp -site:jumpstack.co.jp -アサヒ -アスクル",
+    "\"2026年10月\" (\"誤送信\" OR \"紛失\" OR \"誤公開\") \"個人情報\" -site:security-next.com -site:netsecurity.ne.jp -site:rocket-boys.co.jp -site:incident-radar.com -site:clipmaster.jp -site:jumpstack.co.jp -アサヒ -アスクル",
+    "\"2026年1月\" \"個人情報\" \"誤送信\" -site:security-next.com -site:netsecurity.ne.jp",
+    "\"2026年1月\" \"個人情報\" \"紛失\" -site:security-next.com -site:netsecurity.ne.jp",
+    "2026年1月 個人情報 漏えい -site:security-next.com -site:netsecurity.ne.jp -アサヒ -アスクル",
+    "\"2026年2月\" \"個人情報\" \"誤送信\" -site:security-next.com -site:netsecurity.ne.jp",
+    "\"2026年2月\" \"個人情報\" \"紛失\" -site:security-next.com -site:netsecurity.ne.jp",
+    "2026年2月 個人情報 漏えい -site:security-next.com -site:netsecurity.ne.jp -アサヒ -アスクル",
+    "\"2026年3月\" \"個人情報\" \"誤送信\" -site:security-next.com -site:netsecurity.ne.jp",
+    "\"2026年3月\" \"個人情報\" \"紛失\" -site:security-next.com -site:netsecurity.ne.jp",
+    "2026年3月 個人情報 漏えい -site:security-next.com -site:netsecurity.ne.jp -アサヒ -アスクル",
+    "\"2026年4月\" \"個人情報\" \"誤送信\" -site:security-next.com -site:netsecurity.ne.jp",
+    "\"2026年4月\" \"個人情報\" \"紛失\" -site:security-next.com -site:netsecurity.ne.jp",
+    "2026年4月 個人情報 漏えい -site:security-next.com -site:netsecurity.ne.jp -アサヒ -アスクル",
+    "\"2026年5月\" \"個人情報\" \"誤送信\" -site:security-next.com -site:netsecurity.ne.jp",
+    "\"2026年5月\" \"個人情報\" \"紛失\" -site:security-next.com -site:netsecurity.ne.jp",
+    "2026年5月 個人情報 漏えい -site:security-next.com -site:netsecurity.ne.jp -アサヒ -アスクル",
+    "\"2026年6月\" \"個人情報\" \"誤送信\" -site:security-next.com -site:netsecurity.ne.jp",
+    "\"2026年6月\" \"個人情報\" \"紛失\" -site:security-next.com -site:netsecurity.ne.jp",
+    "2026年6月 個人情報 漏えい -site:security-next.com -site:netsecurity.ne.jp -アサヒ -アスクル",
+    "\"2026年7月\" \"個人情報\" \"誤送信\" -site:security-next.com -site:netsecurity.ne.jp",
+    "\"2026年7月\" \"個人情報\" \"紛失\" -site:security-next.com -site:netsecurity.ne.jp",
+    "2026年7月 個人情報 漏えい -site:security-next.com -site:netsecurity.ne.jp -アサヒ -アスクル",
+    "\"2026年8月\" \"個人情報\" \"誤送信\" -site:security-next.com -site:netsecurity.ne.jp",
+    "\"2026年8月\" \"個人情報\" \"紛失\" -site:security-next.com -site:netsecurity.ne.jp",
+    "2026年8月 個人情報 漏えい -site:security-next.com -site:netsecurity.ne.jp -アサヒ -アスクル",
+    "\"2026年9月\" \"個人情報\" \"誤送信\" -site:security-next.com -site:netsecurity.ne.jp",
+    "\"2026年9月\" \"個人情報\" \"紛失\" -site:security-next.com -site:netsecurity.ne.jp",
+    "2026年9月 個人情報 漏えい -site:security-next.com -site:netsecurity.ne.jp -アサヒ -アスクル",
+    "\"2026年10月\" \"個人情報\" \"誤送信\" -site:security-next.com -site:netsecurity.ne.jp",
+    "\"2026年10月\" \"個人情報\" \"紛失\" -site:security-next.com -site:netsecurity.ne.jp",
+    "2026年10月 個人情報 漏えい -site:security-next.com -site:netsecurity.ne.jp -アサヒ -アスクル"
+  ],
+  "search_result_urls": [
+    "https://www.oflight.co.jp/ja/news",
+    "https://www.st.ryukoku.ac.jp/~kjm/security/memo/2025/12.html",
+    "https://www.city.kitahiroshima.hokkaido.jp/hotnews/sitemap/",
+    "https://poku.blog/scandal/corporate-2025.html",
+    "https://www.call4.jp/search.php?items_id=I0000150&items_id_PAL%5B%5D=match+comp&run=true&type=material",
+    "https://www.scribd.com/document/749421201/2024eju-%E6%A1%88%E5%86%85",
+    "https://biz-search.net/bidsnav/index.php?end_date=&keyword=%28+%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0+OR+%E3%83%84%E3%83%BC%E3%83%AB+%29+AND+%28+%E4%BA%BA%E4%BA%8B+OR+%E7%B5%A6%E4%B8%8E+OR+%E5%8B%A4%E6%80%A0+OR+%E5%8B%A4%E5%8B%99+OR+%E5%87%BA%E5%8B%A4+%29&mode=5&organization=&per_page=50&search_target=project&start_date=2026-01-01",
+    "https://www.scribd.com/document/1067524805/chuo",
+    "https://www.scribd.com/document/1052490186/Httpswww-chuo-u-ac-Jpcommon-Dconnectadmission2026special15-1-New0711-PDF",
+    "https://www.scribd.com/document/1004098640/2026-SILS-ApplicationGuide-Domestic-Final",
+    "https://skikkh.github.io/jp-security-announcement/about.html",
+    "https://dprofessions.co.jp/%E4%BC%81%E6%A5%AD%E6%B3%95%E5%8B%99/%E5%B0%B1%E6%A5%AD%E8%A6%8F%E5%89%87%E7%A4%BE%E5%86%85%E8%A6%8F%E7%A8%8B%E6%95%B4%E5%82%99/SNS%E5%88%A9%E7%94%A8%E5%80%8B%E4%BA%BA%E6%83%85%E5%A0%B1%E5%8F%96%E6%89%B1%E8%A6%8F%E7%A8%8B/",
+    "https://www.scribd.com/document/976247752/2026-youkou-1",
+    "https://rewrite-co.com/legal/",
+    "https://global.toyota/pages/global_toyota/sustainability/privacy/posts/publication/202602_1.pdf",
+    "https://ai-sen.or.jp/leak/2026/02/%E6%83%85%E5%A0%B1%E3%82%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%86%E3%82%A3%E4%BA%8B%E6%95%85%E3%81%AE%E7%99%BA%E7%94%9F%E7%8A%B6%E6%B3%81%EF%BC%882026%E5%B9%B41%E6%9C%88%EF%BC%89/",
+    "https://www.ia-ibaraki.or.jp/post-8396/",
+    "https://www.fc-soft.jp/news/20260123-NP-01/",
+    "https://www.city.nagoya.jp/houdou/pressr7/3002888/3003744.html",
+    "https://www.pref.ibaraki.jp/somu/hodo/hodo/pressrelease/hodohappyoushiryou/2203/documents/260109kenchikushido.pdf",
+    "https://cybersecurity-jp.com/news/112328",
+    "https://www.caa.go.jp/notice/entry/045704/",
+    "https://internet.watch.impress.co.jp/docs/news/2080285.html",
+    "https://gate02.ne.jp/lab/incident-news/ibaraki-international-association-20260213/",
+    "https://www.pref.osaka.lg.jp/hodo/fumin/o110100/prs_50972.html",
+    "https://www.itmedia.co.jp/mobile/articles/2601/28/news074.html",
+    "https://cybersecurity-jp.com/news/112280",
+    "https://venture-solution.jp/security/cs-112328/",
+    "https://www.city.kashiwazaki.lg.jp/material/files/group/3/kohyo_202601.pdf",
+    "https://school-security.jp/wp/wp-content/uploads/2026/02/319.pdf",
+    "https://www.tokyustay.co.jp/news/docs/a063edc313cae8596ca81221b53acfeb1834533d.pdf",
+    "https://www.city.miyazaki.miyazaki.jp/fs/8/7/2/2/2/0/_/01___8_1_______________.pdf",
+    "https://www.city.nagoya.jp/houdou/press-showa/3002771/3003791.html",
+    "https://www.city.nagoya.jp/houdou/press-meito/3002786/3003731.html",
+    "https://www.st.keio.ac.jp/news/files/8b49a8bc9fd8370a319fa0421a0a2260.pdf",
+    "https://incidentnews.jp/type/loss/",
+    "https://rocket-boys.co.jp/security-measures-lab/juntendo-university-nerima-hospital-lost-doctor-personal-pc-no-data-leak/",
+    "https://self-plus.co.jp/knowledge/ec-news/member-data-leaks-timescar-seicomart-eplus/",
+    "https://incidentnews.jp/learn/loss/",
+    "https://incidentnews.jp/incidents/2026-01-30-0024/",
+    "https://www.onebe.co.jp/dlpnews/?p=35381",
+    "https://cybersecurity-jp.com/news/112686",
+    "https://venture-solution.jp/security/cs-112686/",
+    "https://incidentnews.jp/incidents/page/6/",
+    "https://onedata.jp/%E6%83%85%E5%A0%B1%E6%BC%8F%E3%81%88%E3%81%84%E4%BA%8B%E6%95%85%E3%80%802026-1-1%E3%81%8B%E3%82%892026-1-12%E3%81%BE%E3%81%A7/",
+    "https://www.keishin.jp/common/pdf/personal_infomation_protection.pdf",
+    "https://www.jipdec.or.jp/archives/publications/h2le1c000000bl0u-att/ITresarch2026results.pdf",
+    "https://www.nagashima.com/wp-content/uploads/2026/01/asia_no262.pdf",
+    "https://kyoto.bvits.com/rinri/publish_document.aspx?ID=9495",
+    "https://incidents.seory.co.jp/",
+    "https://moreta.jp/",
+    "https://security-karte.jp/type/data-leak/",
+    "https://security-karte.jp/incidents/",
+    "https://www.ark-audit.com/cms_jwZsum6WkaHG/wp-content/uploads/2026/01/b7a959339a58b3c44433c28b4f933638-2.pdf",
+    "https://github.com/Synctank-jp/jp-data-breach-2026/blob/main/README.md",
+    "https://zenn.dev/shirochan/articles/9bf0965017d2db",
+    "https://incident-radar.com/archive/2026/",
+    "https://tmiconsulting.co.jp/privacy-security-news/2673/",
+    "https://bankenjp.com/incidents/year/2026",
+    "https://incidents.seory.co.jp/monthly/2026-01/",
+    "https://www.shinjoho.com/security/2%E6%9C%8815%E6%97%A5%E6%9B%B4%E6%96%B0%E3%80%802026%E5%B9%B41%E6%9C%88%E3%81%AB%E5%85%AC%E8%A1%A8%E3%81%95%E3%82%8C%E3%81%9F%E3%82%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%86%E3%82%A3%E4%BA%8B%E6%A1%88/",
+    "https://www.shizutetsu-retailing.com/wp/wp-content/uploads/2026/03/6a8d5d4f9e23974c82976084017283cf.pdf",
+    "https://ai-sen.or.jp/leak/2026/03/%E6%83%85%E5%A0%B1%E3%82%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%86%E3%82%A3%E4%BA%8B%E6%95%85%E3%81%AE%E7%99%BA%E7%94%9F%E7%8A%B6%E6%B3%81%EF%BC%882026%E5%B9%B42%E6%9C%88%EF%BC%89/",
+    "https://www.city.nagoya.jp/houdou/pressr7/3002889/3004027.html",
+    "https://www.kagawa-isf.jp/news/17935/",
+    "https://www.city.yokosuka.kanagawa.jp/2150/20260210mail.html",
+    "https://www.city.osaka.lg.jp/hodoshiryo/kodomo/0000674351.html",
+    "https://www.pref.niigata.lg.jp/sec/kankyoseisaku/security.html",
+    "https://www.evessa.com/news/260317_04/",
+    "https://www.pref.saga.lg.jp/kiji003118123/index.html",
+    "https://japanir.jp/company/company-6960/ir/6960-20260209-01_wp_general_ir/",
+    "https://www.city.hokuto.yamanashi.jp/docs/33503.html",
+    "https://cybersecurity-jp.com/news/112423",
+    "https://www.orangesoft.co.jp/blog/know-how/saga-prefecture-industry-department-email-error-exposes-52-addresses-in-subject-line/",
+    "https://www.city.miyazaki.miyazaki.jp/fs/8/7/4/9/2/6/_/01___8_2_______________.pdf",
+    "https://www.nmiri.city.nagoya.jp/wp-content/uploads/2025/11/260203.pdf",
+    "https://www.jsae.net/files/chubu/seminar/R7JKA260203.pdf",
+    "https://www.city.kumamoto.jp/kiji00369437/3_69437_490647_up_i46jsitk.pdf",
+    "https://lifecraft.co.jp/wp-content/uploads/2026/02/31afc82a712e88e21c851a4a144666d8.pdf",
+    "https://look.satv.co.jp/content_news/incident/80390",
+    "https://sfc.subaru.co.jp/topics/20260304163505/",
+    "https://www.onebe.co.jp/dlpnews/?p=35080",
+    "https://web.sapmed.ac.jp/jp/news/press/dbvk0g0000000x2a-att/dbvk0g0000000x4e.pdf",
+    "https://www.city.kawasaki.jp/templates/prs/450/0000184412.html",
+    "https://sfc.subaru.co.jp/topics/20260217154233/",
+    "https://jrsendai-hospital.jp/wp-content/uploads/2026/02/1771408577.pdf",
+    "https://personal-leak.sokuho-guide.com/news/kmu-hospital-20260603/",
+    "https://www.metro.tokyo.lg.jp/information/press/2026/03/2026030611",
+    "https://www.city.urasoe.lg.jp/doc/2026021700031/",
+    "https://jrsendai-hospital.jp/wp-content/uploads/2026/03/1773278632.pdf",
+    "https://www.city.suita.osaka.jp/shisei/1018880/1018886/1039260/1041983/1041987.html",
+    "https://www.hokutobank.co.jp/cms_source/data/hokuto/info/files/20260203-1.pdf",
+    "https://47club-production.s3-ap-northeast-1.amazonaws.com/front/contents/images/corporate/pdf/47CLUBnotice_20260206.pdf",
+    "https://security-karte.jp/leaks/2026/",
+    "https://zenn.dev/nnnnnnnok/articles/ad8dcc9c928260",
+    "https://www.watch.impress.co.jp/docs/news/2152535.html",
+    "https://vivisec.net/2026-unauthorized-access-incidents/",
+    "https://incidents.seory.co.jp/monthly/2026-02/",
+    "https://www.gate02.ne.jp/lab/security-article/incident-news-summary-202602/",
+    "https://www.tokai-denshi.co.jp/uploads/pdfs/20260226/699f90facf127.pdf",
+    "https://www.jipdec.or.jp/project/protection_org/u71kba0000010dg5-att/jipdec20260218pm2.pdf.pdf",
+    "https://www.ipa.go.jp/security/10threats/omgdg50000008fi8-att/kaisetsu_2026_soshiki.pdf",
+    "https://www.niigata-u.ac.jp/news/2026/1062263/",
+    "https://www.kirinholdings.com/jp/newsroom/release/2026/0306_03.html",
+    "https://www.pref.saga.lg.jp/kiji003118804/index.html",
+    "https://www.city.shimanto.lg.jp/soshiki/4/25156.html",
+    "https://cybersecurity-jp.com/news/113118",
+    "https://www.pref.gunma.jp/site/houdou/753051.html",
+    "https://cybersecurity-jp.com/leakage-of-personal-information",
+    "https://ai-sen.or.jp/leak/2026/04/20260409/",
+    "https://www.sanko-inc.co.jp/pdf/20260302_newsrelease.pdf",
+    "https://info.kirinholdings.com/down.php?attach_id=36&uid=8841",
+    "https://www.nic-retails.co.jp/wp/wp-content/uploads/2026/03/4e5a5a2d7fd91be78ecb7256d6bee6b0.pdf",
+    "https://www.orangesoft.co.jp/blog/know-how/tokyu-resorts-email-leak-95k-personal-data/",
+    "https://www.shinjoho.com/wp-content/uploads/2026/03/260318-1-nhk.pdf",
+    "https://www.city.miyazaki.miyazaki.jp/fs/8/7/8/2/1/9/_/__8_3_______________.pdf",
+    "https://cybersecurity-jp.com/date/2026/03",
+    "https://www.city.urasoe.lg.jp/doc/2026031200033/",
+    "https://www.toshiseibi.metro.tokyo.lg.jp/information/press/r7/03/2026030602",
+    "https://joho-rouei.jp/data/sensitive?view=card",
+    "https://joho-rouei.jp/data/sensitive?view=list",
+    "https://www.city.kashiwazaki.lg.jp/material/files/group/3/kohyo_202603415_.pdf",
+    "https://cybersecurity-jp.com/news/113334",
+    "https://www.onebe.co.jp/dlpnews/?p=34398",
+    "https://www.anabuki-enter.jp/media-download/636/49f3e5a6127603fc/",
+    "https://newsroom.mazda.com/ja/publicity/release/2026/202603/260319b.pdf",
+    "https://rocket-boys.co.jp/security-measures-lab/2026-03-data-breach-cases-summary/",
+    "https://tmiconsulting.co.jp/privacy-security-news/2701/",
+    "https://satimo.org/2026/10/data-breach-list-2026/",
+    "https://www.ppc.go.jp/files/pdf/260311_shiryou-3-2.pdf",
+    "https://www.oricon.jp/news/notice/10784/",
+    "https://www.pref.osaka.lg.jp/hodo/fumin/o120020/prs_51296.html",
+    "https://jumpstack.co.jp/blog/roei-kakunin-ichiran-2026.html",
+    "https://www.pref.saga.lg.jp/kiji003118897/index.html",
+    "https://www.pref.osaka.lg.jp/hodo/fumin/o120130/prs_51011.html",
+    "https://www.pref.okayama.jp/site/presssystem/1034210.html",
+    "https://www.shinjoho.com/security/2026%E5%B9%B44%E6%9C%88%E3%81%AB%E5%85%AC%E8%A1%A8%E3%81%95%E3%82%8C%E3%81%9Fit%E3%82%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%86%E3%82%A3%E4%BA%8B%E6%A1%88%E3%81%AE%E4%B8%80%E8%A6%A7/",
+    "https://incident.yagurasec.com/status/resolved/",
+    "https://ai-sen.or.jp/leak/",
+    "https://cybersecurity-jp.com/news/112974",
+    "https://www.city.kumamoto.jp/kiji00370485/3_70485_499813_up_2qqsznjh.pdf",
+    "https://www.gshs.keio.ac.jp/for-alumni/shomeshohakko.pdf",
+    "https://www.seiho.or.jp/quality/wg/pdf/24_9.pdf",
+    "https://www.seiho.or.jp/quality/wg/pdf/23_9.pdf",
+    "https://kyoiku.pref.ibaraki.jp/wp-content/uploads/2026/04/a5f1cb08e942020d01119f4317733702.pdf",
+    "https://www.qab.co.jp/news/20260620297296.html",
+    "https://cybersecurity-jp.com/news/113538",
+    "https://www.pref.osaka.lg.jp/hodo/fumin/o180040/prs_51153.html",
+    "https://www.city.osaka.lg.jp/hodoshiryo/kyoiku/0000678874.html",
+    "https://www.pref.niigata.lg.jp/sec/seishin/houdou1.html",
+    "https://www.pref.osaka.lg.jp/hodo/fumin/o180040/prs_51147.html",
+    "https://www.kumanichi.com/articles/1983630",
+    "https://www.rouei-navi.jp/incidents/kyuden-2026/",
+    "https://ai-sen.or.jp/wp-content/uploads/2026/06/sample_securityreport1.pdf",
+    "https://and-secure.com/2026/10/10/incident-report-2026-apr-sep/",
+    "https://itdef.net/ja/learn/security-incidents-2026",
+    "https://wizsafe.iij.ad.jp/periodic_reports/2026q2/",
+    "https://legalagent.co.jp/legal-lab/security-incidents/",
+    "https://tm.muromachi.jp/cms/wp-content/uploads/2026/04/d9c020c4b377f395e6c755a13316ab5f.pdf",
+    "https://www.sharp-sesj.co.jp/sesj-260428.pdf",
+    "https://www2.jpx.co.jp/disc/31110/140120260413502702.pdf",
+    "https://www.city.nagoya.jp/houdou/3003942/3003944/3004729.html",
+    "https://www.kagawa-isf.jp/news/18655/",
+    "https://www.pref.saga.lg.jp/kiji003119380/index.html",
+    "https://sv1.tohoku-gakuin.ac.jp/info/top/260515-1.html",
+    "https://www.startia.co.jp/news/detail/?id=2491&site_name=startia",
+    "https://www.pref.osaka.lg.jp/hodo/fumin/o180190/prs_49300.html",
+    "https://www.city.bunkyo.lg.jp/b003/p008248.html",
+    "https://www.city.osaka.lg.jp/hodoshiryo/ikuno/0000679194.html",
+    "https://www.pref.osaka.lg.jp/hodo/fumin/o180070/prs_50751.html",
+    "https://ai-sen.or.jp/leak/2026/06/20260611/",
+    "https://news.livedoor.com/article/detail/31246637/",
+    "https://world-fit.co.jp/news/11583/",
+    "https://www.city.kumamoto.jp/kiji00370972/3_70972_504582_up_djwzzv8u.pdf",
+    "https://medcsc.org/wp-content/uploads/2026/05/c1cf940de43e3550fd3f71fe7cafba0e.pdf",
+    "https://www.e-fmca.com/wp-content/uploads/2025/02/cyber_insurance.pdf",
+    "https://www.yuskin.co.jp/Portals/0/images/topics/sisora_uvmilk_sampling.pdf",
+    "https://www.japanbandclinic.com/2026/file/application.pdf",
+    "https://www.city.ichinomiya.aichi.jp/shisei/houdouhappyo/1068631/1074627/1075438.html",
+    "https://news.livedoor.com/article/detail/31257760/",
+    "https://rocket-boys.co.jp/security-measures-lab/2026-05-data-breach-cases-summary/",
+    "https://joho-rouei.jp/data/sensitive",
+    "https://phio.panasonic.co.jp/news/pdf/2026/11.pdf",
+    "https://gate02.ne.jp/lab/incident-news/azabu-university-20260515/",
+    "https://www.gate02.ne.jp/lab/security-article/incident-news-summary-202605/",
+    "https://joho-rouei.jp/cause/insider?view=list",
+    "https://www.meti.go.jp/press/2026/04/20260403003/20260403003-b.pdf",
+    "https://www.movic.jp/shop/t/t1011/",
+    "https://www.tokyu-sports.com/company/news/20260608.pdf",
+    "https://l-is-b.com/ja/news/20260630_25092/",
+    "https://www.city.tamura.lg.jp/soshiki/2/assets/%E3%83%97%E3%83%AC%E3%82%B9%E3%83%AA%E3%83%AA%E3%83%BC%E3%82%B9%E6%A7%98%E5%BC%8F%28%E8%AA%A4%E9%80%81%E4%BF%A1%29.pdf",
+    "https://news.livedoor.com/article/detail/31655546/",
+    "https://www.city.edogawa.tokyo.jp/e004/kuseijoho/kohokocho/press/2026/06/0629.html",
+    "https://www.pref.osaka.lg.jp/hodo/fumin/o120020/prs_51301.html",
+    "https://www.city.shinagawa.tokyo.jp/kusei/press_release/1008314/1009324.html",
+    "https://joho-rouei.jp/incident/2026-0398",
+    "https://joho-rouei.jp/",
+    "https://www.digital.go.jp/press/5fc99139-a4e2-4b7b-8b0c-d475e926143f",
+    "https://internet.watch.impress.co.jp/category/topic/security/incident/index2.html",
+    "https://joho-rouei.jp/cause/insider",
+    "https://jouhourouei.clipmaster.jp/months/2026-06",
+    "https://catorce.jp/st/knowledge-security-incident-db",
+    "https://security.entamec.com/data-breach/",
+    "https://innovatopia.jp/cyber-security/cyber-security-news/119065/",
+    "https://www.pref.kanagawa.jp/docs/ap4/prs/r5558156.html",
+    "https://cybersecurity-jp.com/news/116065",
+    "https://breachcheckjp.com/incidents/headlines/",
+    "https://incidents.hatenablog.com/entry/Incident_202607",
+    "https://www.shinjoho.com/security/2026%E5%B9%B47%E6%9C%88%E3%81%AB%E5%85%AC%E8%A1%A8%E3%81%95%E3%82%8C%E3%81%9Fit%E3%82%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%86%E3%82%A3%E4%BA%8B%E6%A1%88%E3%81%AE%E4%B8%80%E8%A6%A7/",
+    "https://news.livedoor.com/article/detail/32273677/",
+    "https://www.pref.saga.lg.jp/kiji003120236/index.html",
+    "https://www.city.hachioji.tokyo.jp/emergency/bousai/m7914685/010/p005640_d/fil/shiengaiyou-r8.pdf",
+    "https://www.city.higashiosaka.lg.jp/cmsfiles/contents/0000004/4100/rosei202606_5.pdf",
+    "https://www.city.tama.lg.jp/shisei/gyouseiiinkai/kyouiku/1010738/1021030.html",
+    "https://joho-rouei.jp/cause/lost/page/2",
+    "https://joho-rouei.jp/data/id_document?view=list",
+    "https://personal-leak.sokuho-guide.com/",
+    "https://www.itmedia.co.jp/news/article/2607/18/1260718021/",
+    "https://joho-rouei.jp/cause/insider?view=card",
+    "https://www.city.osaka.lg.jp/hodoshiryo/keizaisenryaku/0000685813.html",
+    "https://www.pref.saitama.lg.jp/a0403/news/page/news2026082401.html",
+    "https://www.pref.saitama.lg.jp/b0806/news/news2026082801.html",
+    "https://www.pref.fukuoka.lg.jp/press-release/mail260803.html",
+    "https://www.city.osaka.lg.jp/hodoshiryo/shobo/0000685876.html",
+    "https://www.pref.osaka.lg.jp/hodo/fumin/o090060/prs_51175.html",
+    "https://asuchika.org/docodemo/info/20260918.html",
+    "https://www.city.sabae.fukui.jp/kosodate_kyoiku/manabenoyakata/oshirase/Bunka012026082008424.html",
+    "https://www.nb-service.co.jp/fwp/wp-content/uploads/2025.07.17_%E5%BC%81%E7%90%86%E5%A3%AB%E8%B3%A0%E4%BD%BF%E7%94%A8%E8%80%85%E8%B3%A0_%E4%B8%AD%E9%80%94%E5%8A%A0%E5%85%A5%E3%83%81%E3%83%A9%E3%82%B7.pdf",
+    "https://www.town.fukui-wakasa.lg.jp/material/files/group/10/r8oubokiyaku.pdf",
+    "https://joho-rouei.jp/cause/lost",
+    "https://www.city.tama.lg.jp/shisei/1008239/sonota/1021561.html",
+    "https://cybersecurity-jp.com/news/116417",
+    "https://www.pahoo.org/e-soul/privacy/casestudy/case-023-02.shtm",
+    "https://joho-rouei.jp/data/health",
+    "https://www.digital.go.jp/news/6d720c40-a064-4e48-a698-c8123ba53299",
+    "https://rocket-boys.co.jp/security-measures-lab/2026-08-data-breach-cases-summary/",
+    "https://www.city.osaka.lg.jp/hodoshiryo/kyoiku/0000687145.html",
+    "https://www.city.osaka.lg.jp/hodoshiryo/keizaisenryaku/0000687654.html",
+    "https://www.city.ichinomiya.aichi.jp/shisei/houdouhappyo/1068631/1075827/1077092.html",
+    "https://ai.itokoba.com/security-tier/incidents/incident-181/",
+    "https://blog.b-son.net/2026/09/sec2026-687-sanga-fc.html",
+    "https://incidentlog.jp/incidents/kyoto-sanga-20260908",
+    "https://site-113000297287.gslb6.sakura.ne.jp/koho/kuse/koho/pressrelease/r8/r809/20260914.html",
+    "https://www.rouei-navi.jp/incidents/osaka-museum-2026/",
+    "https://www.rikuden.co.jp/campaign/attach/2026_arigatoW_kiyaku.pdf",
+    "https://www.pref.saga.lg.jp/kyouiku/kiji003121220/index.html",
+    "https://www.rouei-navi.jp/",
+    "https://www.rouei-navi.jp/incidents/niigata-2026/",
+    "https://www.pref.osaka.lg.jp/hodo/fumin/o180040/prs_51130.html",
+    "https://act1.co.jp/2026-09-15-01/",
+    "https://procurement.japanpost.jp/general/b00-10-20251209-0206.pdf",
+    "https://www.tokiomarinehd.com/sustainability/pdf/sustainability_web_2025.pdf",
+    "https://www.kansai-u.ac.jp/Gr_sch/admission/graduate/asset/2026/WebEntryInfo_2026.pdf",
+    "https://www.digital.go.jp/news/2026-0911-01",
+    "https://rocket-boys.co.jp/security-measures-lab/2026-09-data-breach-cases-summary/",
+    "https://rocket-boys.co.jp/security-measures-lab/2026-sep-oct-japan-data-breach-exposure-scale/",
+    "https://leak-response-2026.hosted-by.tanzaku.io/index.html",
+    "https://innovatopia.jp/cyber-security/cyber-security-news/119067/",
+    "https://www.city.osaka.lg.jp/hodoshiryo/keizaisenryaku/0000688772.html",
+    "https://www.pref.ehime.jp/page/163068.html",
+    "https://www.iat.co.jp/news-iat/news-2299216/",
+    "https://www.pref.gunma.jp/site/houdou/781192.html",
+    "https://www.city.inazawa.aichi.jp/0000006084.html",
+    "https://privacy-incident-notebook.asumi.chatgpt.site/",
+    "https://www.aiben.jp/news/2026/10/post-109.html",
+    "https://incidentnews.jp/learn/misdelivery/",
+    "https://tdbc.assets.newt.so/v1/3b76dfd2-bf01-422d-b4c5-b74e99bab13c/20260309_%E3%82%B5%E3%82%A4%E3%83%90%E3%83%BC%E3%83%AA%E3%82%B9%E3%82%AF%E3%82%BB%E3%83%9F%E3%83%8A%E3%83%BC_%E7%AC%AC%E4%BA%8C%E9%83%A8.pdf",
+    "https://www.metro.tokyo.lg.jp/information/press/2026/10/2026102601",
+    "https://www.metro.tokyo.lg.jp/ja/information/press/2026/10/2026102316",
+    "https://www.pref.osaka.lg.jp/hodo/fumin/o180140/prs_50185.html",
+    "https://personal-leak.sokuho-guide.com/incidents/?from=2026-10-01&to=2026-11-01",
+    "https://www.pref.niigata.lg.jp/sec/minamiuonuma_seibi/0858847.html",
+    "https://www.caa.go.jp/notice/entry/047974/",
+    "https://www.ppc.go.jp/news/press/2026/261007_houdou/",
+    "https://www.ppc.go.jp/aboutus/minutes/2026/20261007/",
+    "https://fixit.co.jp/insights/personal-data-leaks-october-2026/",
+    "https://skikkh.github.io/jp-security-announcement/breaches.html",
+    "https://www.sp2.or.jp/information/1450/",
+    "https://www.digital.go.jp/assets/contents/node/basic_page/field_ref_resources/b37edb39-2a1c-4a1f-8c5e-431fcc299cd5/3940f366/20260203_digital-cybersecurity.outline.05.pdf",
+    "https://www.meti.go.jp/policy/economy/consumer/credit/n2403261000.pdf"
+  ],
+  "checks": [
+    {
+      "discovery_key": "W0",
+      "url": "https://kahomusen-holdings.co.jp/%E3%82%AB%E3%83%9B%E3%82%A8%E3%83%B3%E3%82%BF%E3%83%BC%E3%83%97%E3%83%A9%E3%82%A4%E3%82%BA%E5%8F%97%E8%A8%97%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E3%81%AB%E3%81%8A%E3%81%91%E3%82%8B%E5%80%8B%E4%BA%BA/",
+      "retrieval_status": "retrieved",
+      "decision": "discovery_only",
+      "incident_ids": [],
+      "reason": "探索資料として保存。採否の最終確定は未完了。"
+    },
+    {
+      "discovery_key": "W1",
+      "url": "https://prtimes.jp/main/html/rd/p/000000259.000019448.html",
+      "retrieval_status": "retrieved",
+      "decision": "discovery_only",
+      "incident_ids": [],
+      "reason": "探索資料として保存。採否の最終確定は未完了。"
+    },
+    {
+      "discovery_key": "W2",
+      "url": "https://www.pref.aichi.jp/press-release/20261022.html",
+      "retrieval_status": "unavailable",
+      "decision": "pending",
+      "incident_ids": [],
+      "reason": "探索資料として保存。採否の最終確定は未完了。"
+    },
+    {
+      "discovery_key": "W3",
+      "url": "https://www.city.osaka.lg.jp/hodoshiryo/suminoe/0000689080.html",
+      "retrieval_status": "retrieved",
+      "decision": "published",
+      "incident_ids": [
+        "osaka-suminoe-redaction-20261020"
+      ],
+      "reason": "公式本文で照合し掲載。"
+    },
+    {
+      "discovery_key": "W4",
+      "url": "https://www.ra.opho.jp/wp-content/uploads/2026/10/kojinjoho_20260925.pdf",
+      "retrieval_status": "retrieved",
+      "decision": "discovery_only",
+      "incident_ids": [],
+      "reason": "探索資料として保存。採否の最終確定は未完了。"
+    },
+    {
+      "discovery_key": "W5",
+      "url": "https://www.iwaicosmo-hd.jp/news/pdf/discl20261016-2.pdf",
+      "retrieval_status": "retrieved",
+      "decision": "discovery_only",
+      "incident_ids": [],
+      "reason": "探索資料として保存。採否の最終確定は未完了。"
+    },
+    {
+      "discovery_key": "W6",
+      "url": "https://www.pref.yamagata.jp/documents/54806/press_ginoukentei.pdf",
+      "retrieval_status": "retrieved",
+      "decision": "discovery_only",
+      "incident_ids": [],
+      "reason": "探索資料として保存。採否の最終確定は未完了。"
+    },
+    {
+      "discovery_key": "W7",
+      "url": "https://www.metro.tokyo.lg.jp/ja/information/press/2026/10/2026101605",
+      "retrieval_status": "retrieved",
+      "decision": "discovery_only",
+      "incident_ids": [],
+      "reason": "探索資料として保存。採否の最終確定は未完了。"
+    },
+    {
+      "discovery_key": "W8",
+      "url": "https://wasabi-inc.biz/help/news/20261017-03/",
+      "retrieval_status": "retrieved",
+      "decision": "discovery_only",
+      "incident_ids": [],
+      "reason": "探索資料として保存。採否の最終確定は未完了。"
+    },
+    {
+      "discovery_key": "W9",
+      "url": "https://ssl4.eir-parts.net/doc/4480/tdnet/2895027/00.pdf",
+      "retrieval_status": "retrieved",
+      "decision": "discovery_only",
+      "incident_ids": [],
+      "reason": "探索資料として保存。採否の最終確定は未完了。"
+    },
+    {
+      "discovery_key": "W10",
+      "url": "https://www.city.osaka.lg.jp/hodoshiryo/keizaisenryaku/0000689168.html",
+      "retrieval_status": "retrieved",
+      "decision": "published",
+      "incident_ids": [
+        "osaka-sakuyakonohana-form-20261015"
+      ],
+      "reason": "公式本文で照合し掲載。"
+    },
+    {
+      "discovery_key": "W11",
+      "url": "https://www.city.saitama.lg.jp/006/014/008/003/015/007/p134286.html",
+      "retrieval_status": "retrieved",
+      "decision": "discovery_only",
+      "incident_ids": [],
+      "reason": "探索資料として保存。採否の最終確定は未完了。"
+    },
+    {
+      "discovery_key": "W12",
+      "url": "https://www.city.saitama.lg.jp/006/014/008/003/015/007/p134286.html",
+      "retrieval_status": "retrieved",
+      "decision": "discovery_only",
+      "incident_ids": [],
+      "reason": "探索資料として保存。採否の最終確定は未完了。"
+    },
+    {
+      "discovery_key": "W13",
+      "url": "https://www.city.saitama.lg.jp/006/014/008/003/015/007/p134286.html",
+      "retrieval_status": "retrieved",
+      "decision": "discovery_only",
+      "incident_ids": [],
+      "reason": "探索資料として保存。採否の最終確定は未完了。"
+    },
+    {
+      "discovery_key": "W14",
+      "url": "https://www.pref.osaka.lg.jp/hodo/fumin/o120110/prs_51055.html",
+      "retrieval_status": "retrieved",
+      "decision": "discovery_only",
+      "incident_ids": [],
+      "reason": "探索資料として保存。採否の最終確定は未完了。"
+    },
+    {
+      "discovery_key": "W15",
+      "url": "https://www.pref.saitama.lg.jp/a1106/news/page/news2026101501.html",
+      "retrieval_status": "retrieved",
+      "decision": "discovery_only",
+      "incident_ids": [],
+      "reason": "探索資料として保存。採否の最終確定は未完了。"
+    },
+    {
+      "discovery_key": "W16",
+      "url": "https://corporate.m3.com/assets.ctfassets.net/1pwj74siywcy/4YBQ3JACTocGVgQmIVkSHe/bed9ff0b11db690e1217e0329c484104/20261015_Public_J.pdf",
+      "retrieval_status": "retrieved",
+      "decision": "discovery_only",
+      "incident_ids": [],
+      "reason": "探索資料として保存。採否の最終確定は未完了。"
+    },
+    {
+      "discovery_key": "W17",
+      "url": "https://www.city.kobe.lg.jp/b29146/756181468326.html",
+      "retrieval_status": "retrieved",
+      "decision": "published",
+      "incident_ids": [
+        "kobe-higashinada-resident-20261015"
+      ],
+      "reason": "公式本文で照合し掲載。"
+    },
+    {
+      "discovery_key": "W18",
+      "url": "https://www.city.toyooka.lg.jp/_res/projects/default_project/_page_/001/030/510/202609.pdf",
+      "retrieval_status": "retrieved",
+      "decision": "discovery_only",
+      "incident_ids": [],
+      "reason": "探索資料として保存。採否の最終確定は未完了。"
+    },
+    {
+      "discovery_key": "W19",
+      "url": "https://www.city.kobe.lg.jp/a52374/589208669066.html",
+      "retrieval_status": "retrieved",
+      "decision": "published",
+      "incident_ids": [
+        "kobe-npo-address-20261014"
+      ],
+      "reason": "公式本文で照合し掲載。"
+    },
+    {
+      "discovery_key": "W20",
+      "url": "https://www.pref.kanagawa.jp/docs/kd8/prs/r81014.html",
+      "retrieval_status": "retrieved",
+      "decision": "discovery_only",
+      "incident_ids": [],
+      "reason": "探索資料として保存。採否の最終確定は未完了。"
+    },
+    {
+      "discovery_key": "W21",
+      "url": "https://www.feiler-jp.com/information/detail/269",
+      "retrieval_status": "retrieved",
+      "decision": "published",
+      "incident_ids": [
+        "feiler-design-loss-20261014"
+      ],
+      "reason": "公式本文で照合し掲載。"
+    },
+    {
+      "discovery_key": "W22",
+      "url": "https://www.portusinc.co.jp/update20261014/",
+      "retrieval_status": "retrieved",
+      "decision": "pending",
+      "incident_ids": [],
+      "reason": "記事本文はPDF添付への案内のみ。影響範囲の照合が未完了。"
+    },
+    {
+      "discovery_key": "W23",
+      "url": "http://db.pref.tottori.jp/pressrelease.nsf/webview/C513594F3E7355FB49258E900018F62C?OpenDocument",
+      "retrieval_status": "retrieved",
+      "decision": "published",
+      "incident_ids": [
+        "tottori-furusato-order-mail-20261014"
+      ],
+      "reason": "公式本文で照合し掲載。"
+    },
+    {
+      "discovery_key": "W24",
+      "url": "https://network.mobile.rakuten.co.jp/information/news/other/3888/",
+      "retrieval_status": "retrieved",
+      "decision": "published",
+      "incident_ids": [
+        "rakuten-mobile-payment-certificate-20261013"
+      ],
+      "reason": "公式本文で照合し掲載。"
+    },
+    {
+      "discovery_key": "W25",
+      "url": "https://www.jrhokkaido.co.jp/CM/Info/press/pdf/20261013_KO_JR-sapporobyouin_SNS.pdf",
+      "retrieval_status": "retrieved",
+      "decision": "pending",
+      "incident_ids": [],
+      "reason": "PDFから本文を抽出できず、画像資料の確認が必要。"
+    },
+    {
+      "discovery_key": "W26",
+      "url": "https://www.city.osaka.lg.jp/hodoshiryo/somu/0000688424.html",
+      "retrieval_status": "retrieved",
+      "decision": "published",
+      "incident_ids": [
+        "osaka-oct-bulk-1-20261009",
+        "osaka-oct-bulk-2-20261009",
+        "osaka-oct-bulk-3-20261009",
+        "osaka-oct-bulk-4-20261009",
+        "osaka-oct-bulk-5-20261009",
+        "osaka-oct-bulk-6-20261009",
+        "osaka-oct-bulk-7-20261009",
+        "osaka-oct-bulk-9-20261009",
+        "osaka-oct-bulk-11-20261009",
+        "osaka-oct-bulk-12-20261009",
+        "osaka-oct-bulk-13-20261009"
+      ],
+      "reason": "公式本文で照合し掲載。"
+    },
+    {
+      "discovery_key": "W27",
+      "url": "https://www.city.osaka.lg.jp/hodoshiryo/somu/0000688424.html",
+      "retrieval_status": "retrieved",
+      "decision": "existing_source_match",
+      "incident_ids": [
+        "osaka-oct-bulk-1-20261009",
+        "osaka-oct-bulk-2-20261009",
+        "osaka-oct-bulk-3-20261009",
+        "osaka-oct-bulk-4-20261009",
+        "osaka-oct-bulk-5-20261009",
+        "osaka-oct-bulk-6-20261009",
+        "osaka-oct-bulk-7-20261009",
+        "osaka-oct-bulk-9-20261009",
+        "osaka-oct-bulk-11-20261009",
+        "osaka-oct-bulk-12-20261009",
+        "osaka-oct-bulk-13-20261009"
+      ],
+      "reason": "URL照合のみ。本文精査済みとは扱わない。"
+    },
+    {
+      "discovery_key": "W28",
+      "url": "https://www.city.osaka.lg.jp/hodoshiryo/somu/0000688424.html",
+      "retrieval_status": "retrieved",
+      "decision": "existing_source_match",
+      "incident_ids": [
+        "osaka-oct-bulk-1-20261009",
+        "osaka-oct-bulk-2-20261009",
+        "osaka-oct-bulk-3-20261009",
+        "osaka-oct-bulk-4-20261009",
+        "osaka-oct-bulk-5-20261009",
+        "osaka-oct-bulk-6-20261009",
+        "osaka-oct-bulk-7-20261009",
+        "osaka-oct-bulk-9-20261009",
+        "osaka-oct-bulk-11-20261009",
+        "osaka-oct-bulk-12-20261009",
+        "osaka-oct-bulk-13-20261009"
+      ],
+      "reason": "URL照合のみ。本文精査済みとは扱わない。"
+    },
+    {
+      "discovery_key": "W29",
+      "url": "https://www.city.osaka.lg.jp/hodoshiryo/somu/0000688424.html",
+      "retrieval_status": "retrieved",
+      "decision": "existing_source_match",
+      "incident_ids": [
+        "osaka-oct-bulk-1-20261009",
+        "osaka-oct-bulk-2-20261009",
+        "osaka-oct-bulk-3-20261009",
+        "osaka-oct-bulk-4-20261009",
+        "osaka-oct-bulk-5-20261009",
+        "osaka-oct-bulk-6-20261009",
+        "osaka-oct-bulk-7-20261009",
+        "osaka-oct-bulk-9-20261009",
+        "osaka-oct-bulk-11-20261009",
+        "osaka-oct-bulk-12-20261009",
+        "osaka-oct-bulk-13-20261009"
+      ],
+      "reason": "URL照合のみ。本文精査済みとは扱わない。"
+    },
+    {
+      "discovery_key": "W30",
+      "url": "https://www.city.osaka.lg.jp/hodoshiryo/somu/0000688424.html",
+      "retrieval_status": "retrieved",
+      "decision": "existing_source_match",
+      "incident_ids": [
+        "osaka-oct-bulk-1-20261009",
+        "osaka-oct-bulk-2-20261009",
+        "osaka-oct-bulk-3-20261009",
+        "osaka-oct-bulk-4-20261009",
+        "osaka-oct-bulk-5-20261009",
+        "osaka-oct-bulk-6-20261009",
+        "osaka-oct-bulk-7-20261009",
+        "osaka-oct-bulk-9-20261009",
+        "osaka-oct-bulk-11-20261009",
+        "osaka-oct-bulk-12-20261009",
+        "osaka-oct-bulk-13-20261009"
+      ],
+      "reason": "URL照合のみ。本文精査済みとは扱わない。"
+    },
+    {
+      "discovery_key": "W31",
+      "url": "https://www.city.osaka.lg.jp/hodoshiryo/somu/0000688424.html",
+      "retrieval_status": "retrieved",
+      "decision": "existing_source_match",
+      "incident_ids": [
+        "osaka-oct-bulk-1-20261009",
+        "osaka-oct-bulk-2-20261009",
+        "osaka-oct-bulk-3-20261009",
+        "osaka-oct-bulk-4-20261009",
+        "osaka-oct-bulk-5-20261009",
+        "osaka-oct-bulk-6-20261009",
+        "osaka-oct-bulk-7-20261009",
+        "osaka-oct-bulk-9-20261009",
+        "osaka-oct-bulk-11-20261009",
+        "osaka-oct-bulk-12-20261009",
+        "osaka-oct-bulk-13-20261009"
+      ],
+      "reason": "URL照合のみ。本文精査済みとは扱わない。"
+    },
+    {
+      "discovery_key": "W32",
+      "url": "https://www.city.osaka.lg.jp/hodoshiryo/somu/0000688424.html",
+      "retrieval_status": "retrieved",
+      "decision": "existing_source_match",
+      "incident_ids": [
+        "osaka-oct-bulk-1-20261009",
+        "osaka-oct-bulk-2-20261009",
+        "osaka-oct-bulk-3-20261009",
+        "osaka-oct-bulk-4-20261009",
+        "osaka-oct-bulk-5-20261009",
+        "osaka-oct-bulk-6-20261009",
+        "osaka-oct-bulk-7-20261009",
+        "osaka-oct-bulk-9-20261009",
+        "osaka-oct-bulk-11-20261009",
+        "osaka-oct-bulk-12-20261009",
+        "osaka-oct-bulk-13-20261009"
+      ],
+      "reason": "URL照合のみ。本文精査済みとは扱わない。"
+    },
+    {
+      "discovery_key": "W33",
+      "url": "https://www.city.osaka.lg.jp/hodoshiryo/somu/0000688424.html",
+      "retrieval_status": "retrieved",
+      "decision": "existing_source_match",
+      "incident_ids": [
+        "osaka-oct-bulk-1-20261009",
+        "osaka-oct-bulk-2-20261009",
+        "osaka-oct-bulk-3-20261009",
+        "osaka-oct-bulk-4-20261009",
+        "osaka-oct-bulk-5-20261009",
+        "osaka-oct-bulk-6-20261009",
+        "osaka-oct-bulk-7-20261009",
+        "osaka-oct-bulk-9-20261009",
+        "osaka-oct-bulk-11-20261009",
+        "osaka-oct-bulk-12-20261009",
+        "osaka-oct-bulk-13-20261009"
+      ],
+      "reason": "URL照合のみ。本文精査済みとは扱わない。"
+    },
+    {
+      "discovery_key": "W34",
+      "url": "https://www.city.osaka.lg.jp/hodoshiryo/somu/0000688424.html",
+      "retrieval_status": "retrieved",
+      "decision": "existing_source_match",
+      "incident_ids": [
+        "osaka-oct-bulk-1-20261009",
+        "osaka-oct-bulk-2-20261009",
+        "osaka-oct-bulk-3-20261009",
+        "osaka-oct-bulk-4-20261009",
+        "osaka-oct-bulk-5-20261009",
+        "osaka-oct-bulk-6-20261009",
+        "osaka-oct-bulk-7-20261009",
+        "osaka-oct-bulk-9-20261009",
+        "osaka-oct-bulk-11-20261009",
+        "osaka-oct-bulk-12-20261009",
+        "osaka-oct-bulk-13-20261009"
+      ],
+      "reason": "URL照合のみ。本文精査済みとは扱わない。"
+    },
+    {
+      "discovery_key": "W35",
+      "url": "https://www.city.osaka.lg.jp/hodoshiryo/somu/0000688424.html",
+      "retrieval_status": "retrieved",
+      "decision": "existing_source_match",
+      "incident_ids": [
+        "osaka-oct-bulk-1-20261009",
+        "osaka-oct-bulk-2-20261009",
+        "osaka-oct-bulk-3-20261009",
+        "osaka-oct-bulk-4-20261009",
+        "osaka-oct-bulk-5-20261009",
+        "osaka-oct-bulk-6-20261009",
+        "osaka-oct-bulk-7-20261009",
+        "osaka-oct-bulk-9-20261009",
+        "osaka-oct-bulk-11-20261009",
+        "osaka-oct-bulk-12-20261009",
+        "osaka-oct-bulk-13-20261009"
+      ],
+      "reason": "URL照合のみ。本文精査済みとは扱わない。"
+    },
+    {
+      "discovery_key": "W36",
+      "url": "https://www.pref.niigata.lg.jp/sec/itoigawa_seibi/houdousiryou.html",
+      "retrieval_status": "retrieved",
+      "decision": "excluded",
+      "incident_ids": [],
+      "reason": "予定価格のみ。本文に個人情報なしと明記。"
+    },
+    {
+      "discovery_key": "W37",
+      "url": "https://www.cct-inc.co.jp/news/company/info-20261009/",
+      "retrieval_status": "retrieved",
+      "decision": "discovery_only",
+      "incident_ids": [],
+      "reason": "探索資料として保存。採否の最終確定は未完了。"
+    },
+    {
+      "discovery_key": "W38",
+      "url": "https://www.shobo.koriyama.fukushima.jp/information/files/21d66502c523042e01bcb2b7da835dc3bceadb77.pdf",
+      "retrieval_status": "retrieved",
+      "decision": "discovery_only",
+      "incident_ids": [],
+      "reason": "探索資料として保存。採否の最終確定は未完了。"
+    },
+    {
+      "discovery_key": "W39",
+      "url": "https://www.city.osaka.lg.jp/hodoshiryo/keizaisenryaku/0000688772.html",
+      "retrieval_status": "retrieved",
+      "decision": "published",
+      "incident_ids": [
+        "osaka-history-museum-mail-20261008"
+      ],
+      "reason": "公式本文で照合し掲載。"
+    },
+    {
+      "discovery_key": "W40",
+      "url": "https://www.chibanishi-hp.or.jp/archives/news/important/24310",
+      "retrieval_status": "retrieved",
+      "decision": "published",
+      "incident_ids": [
+        "chibanishi-sns-20261010"
+      ],
+      "reason": "公式本文で照合し掲載。"
+    },
+    {
+      "discovery_key": "W41",
+      "url": "https://bank.82group.jp/file.jsp?id=release%2F2026%2Fpdf%2Fnews20261008.pdf",
+      "retrieval_status": "retrieved",
+      "decision": "discovery_only",
+      "incident_ids": [],
+      "reason": "探索資料として保存。採否の最終確定は未完了。"
+    },
+    {
+      "discovery_key": "W42",
+      "url": "https://www.city.kashiwa.lg.jp/documents/42514/kohyo_kosodate.pdf",
+      "retrieval_status": "retrieved",
+      "decision": "published",
+      "incident_ids": [
+        "kashiwa-parent-support-mail-20261008"
+      ],
+      "reason": "公式本文で照合し掲載。"
+    },
+    {
+      "discovery_key": "W43",
+      "url": "https://www.osaka-kousha.or.jp/x-whatsnew/pdf/information2026-10-08.pdf",
+      "retrieval_status": "retrieved",
+      "decision": "published",
+      "incident_ids": [
+        "osaka-housing-parking-mail-20261008"
+      ],
+      "reason": "公式本文で照合し掲載。"
+    },
+    {
+      "discovery_key": "W44",
+      "url": "https://www.city.kashiwa.lg.jp/documents/42514/kohyo_kyoushisetu.pdf",
+      "retrieval_status": "retrieved",
+      "decision": "published",
+      "incident_ids": [
+        "kashiwa-school-council-mail-20261008"
+      ],
+      "reason": "公式本文で照合し掲載。"
+    },
+    {
+      "discovery_key": "W45",
+      "url": "https://class-earth.com/news/1007_esf/",
+      "retrieval_status": "retrieved",
+      "decision": "published",
+      "incident_ids": [
+        "class-earth-volunteer-mail-20261007"
+      ],
+      "reason": "公式本文で照合し掲載。"
+    },
+    {
+      "discovery_key": "W46",
+      "url": "https://acros.or.jp/news/2523.html",
+      "retrieval_status": "retrieved",
+      "decision": "published",
+      "incident_ids": [
+        "acros-fukuoka-mail-20261007"
+      ],
+      "reason": "公式本文で照合し掲載。"
+    },
+    {
+      "discovery_key": "W47",
+      "url": "https://koshinomiyako.jp/info/important/phishing-email2/",
+      "retrieval_status": "retrieved",
+      "decision": "pending",
+      "incident_ids": [],
+      "reason": "本文の日付が抽出できず、公表日と続報日の確認が必要。"
+    },
+    {
+      "discovery_key": "W48",
+      "url": "https://www.city.nagasaki.lg.jp/uploaded/life/92629_624655_misc.pdf",
+      "retrieval_status": "unavailable",
+      "decision": "pending",
+      "incident_ids": [],
+      "reason": "探索資料として保存。採否の最終確定は未完了。"
+    },
+    {
+      "discovery_key": "W49",
+      "url": "https://www.city.nagasaki.lg.jp/uploaded/life/92629_624655_misc.pdf",
+      "retrieval_status": "unavailable",
+      "decision": "pending",
+      "incident_ids": [],
+      "reason": "探索資料として保存。採否の最終確定は未完了。"
+    },
+    {
+      "discovery_key": "W50",
+      "url": "https://www.city.nagasaki.lg.jp/uploaded/life/92629_624655_misc.pdf",
+      "retrieval_status": "unavailable",
+      "decision": "pending",
+      "incident_ids": [],
+      "reason": "探索資料として保存。採否の最終確定は未完了。"
+    },
+    {
+      "discovery_key": "W51",
+      "url": "https://www.city.nagasaki.lg.jp/uploaded/life/92629_624655_misc.pdf",
+      "retrieval_status": "unavailable",
+      "decision": "pending",
+      "incident_ids": [],
+      "reason": "探索資料として保存。採否の最終確定は未完了。"
+    },
+    {
+      "discovery_key": "W52",
+      "url": "https://www.city.nagasaki.lg.jp/uploaded/life/92629_624655_misc.pdf",
+      "retrieval_status": "unavailable",
+      "decision": "pending",
+      "incident_ids": [],
+      "reason": "探索資料として保存。採否の最終確定は未完了。"
+    },
+    {
+      "discovery_key": "W53",
+      "url": "https://www.city.nagasaki.lg.jp/uploaded/life/92629_624655_misc.pdf",
+      "retrieval_status": "unavailable",
+      "decision": "pending",
+      "incident_ids": [],
+      "reason": "探索資料として保存。採否の最終確定は未完了。"
+    },
+    {
+      "discovery_key": "W54",
+      "url": "https://www.city.nagasaki.lg.jp/uploaded/life/92629_624655_misc.pdf",
+      "retrieval_status": "unavailable",
+      "decision": "pending",
+      "incident_ids": [],
+      "reason": "探索資料として保存。採否の最終確定は未完了。"
+    },
+    {
+      "discovery_key": "W55",
+      "url": "https://www.egmkt.co.jp/newsroom/news/2026/10982/",
+      "retrieval_status": "unavailable",
+      "decision": "pending",
+      "incident_ids": [],
+      "reason": "探索資料として保存。採否の最終確定は未完了。"
+    },
+    {
+      "discovery_key": "W56",
+      "url": "https://www.city-kirishima.jp/soumu/kojinnjyouhou/rouei/documents/2026_10_6kosodatesiennka.pdf",
+      "retrieval_status": "retrieved",
+      "decision": "discovery_only",
+      "incident_ids": [],
+      "reason": "探索資料として保存。採否の最終確定は未完了。"
+    },
+    {
+      "discovery_key": "W57",
+      "url": "https://www.kuins.ac.jp/news/2026/10/post_1450.html",
+      "retrieval_status": "retrieved",
+      "decision": "published",
+      "incident_ids": [
+        "kuins-20260930"
+      ],
+      "reason": "公式本文で照合し掲載。"
+    },
+    {
+      "discovery_key": "W58",
+      "url": "https://www.monogatari.co.jp/news/261005_news/",
+      "retrieval_status": "retrieved",
+      "decision": "discovery_only",
+      "incident_ids": [],
+      "reason": "探索資料として保存。採否の最終確定は未完了。"
+    },
+    {
+      "discovery_key": "W59",
+      "url": "https://www.whiteessence.com/news/news/20261005/",
+      "retrieval_status": "retrieved",
+      "decision": "discovery_only",
+      "incident_ids": [],
+      "reason": "探索資料として保存。採否の最終確定は未完了。"
+    },
+    {
+      "discovery_key": "W60",
+      "url": "https://www.pref.osaka.lg.jp/hodo/fumin/o100070/prs_51261.html",
+      "retrieval_status": "retrieved",
+      "decision": "discovery_only",
+      "incident_ids": [],
+      "reason": "探索資料として保存。採否の最終確定は未完了。"
+    },
+    {
+      "discovery_key": "W61",
+      "url": "https://www.pref.osaka.lg.jp/hodo/fumin/o100220/prs_50774.html",
+      "retrieval_status": "retrieved",
+      "decision": "discovery_only",
+      "incident_ids": [],
+      "reason": "探索資料として保存。採否の最終確定は未完了。"
+    },
+    {
+      "discovery_key": "W62",
+      "url": "https://www.pref.saitama.lg.jp/b0805/news/page/news2026100501.html",
+      "retrieval_status": "retrieved",
+      "decision": "discovery_only",
+      "incident_ids": [],
+      "reason": "探索資料として保存。採否の最終確定は未完了。"
+    },
+    {
+      "discovery_key": "W63",
+      "url": "https://www.pref.saga.lg.jp/kyouiku/kiji003121357/index.html",
+      "retrieval_status": "retrieved",
+      "decision": "published",
+      "incident_ids": [
+        "saga-shiroishi-scholarship-20261005"
+      ],
+      "reason": "公式本文で照合し掲載。"
+    },
+    {
+      "discovery_key": "W64",
+      "url": "https://www.city.kanonji.kagawa.jp/site/pressrelease/70888.html",
+      "retrieval_status": "retrieved",
+      "decision": "published",
+      "incident_ids": [
+        "kanonji-vaccine-mail-20261005"
+      ],
+      "reason": "公式本文で照合し掲載。"
+    },
+    {
+      "discovery_key": "W65",
+      "url": "https://kufu.co.jp/2026/10/13/kufu-announce-2/",
+      "retrieval_status": "retrieved",
+      "decision": "discovery_only",
+      "incident_ids": [],
+      "reason": "探索資料として保存。採否の最終確定は未完了。"
+    },
+    {
+      "discovery_key": "W66",
+      "url": "https://www.docomo.ne.jp/info/notice/page/261004_00.html",
+      "retrieval_status": "retrieved",
+      "decision": "discovery_only",
+      "incident_ids": [],
+      "reason": "探索資料として保存。採否の最終確定は未完了。"
+    },
+    {
+      "discovery_key": "W67",
+      "url": "https://www.kusw.ac.jp/topics/topics-25954",
+      "retrieval_status": "retrieved",
+      "decision": "published",
+      "incident_ids": [
+        "kansai-welfare-mail-20261002"
+      ],
+      "reason": "公式本文で照合し掲載。"
+    },
+    {
+      "discovery_key": "W68",
+      "url": "https://www.pref.niigata.lg.jp/sec/minamiuonuma_seibi/0858847.html",
+      "retrieval_status": "retrieved",
+      "decision": "published",
+      "incident_ids": [
+        "niigata-minamiuonuma-tablet-20261002"
+      ],
+      "reason": "公式本文で照合し掲載。"
+    },
+    {
+      "discovery_key": "W69",
+      "url": "https://www.ehimeh.johas.go.jp/news/2026/000886.html",
+      "retrieval_status": "retrieved",
+      "decision": "published",
+      "incident_ids": [
+        "ehime-rosai-reservation-slip-20261002"
+      ],
+      "reason": "公式本文で照合し掲載。"
+    },
+    {
+      "discovery_key": "W70",
+      "url": "https://www.sammy-net.jp/news/2026/10/777con-pass-5.html",
+      "retrieval_status": "retrieved",
+      "decision": "discovery_only",
+      "incident_ids": [],
+      "reason": "探索資料として保存。採否の最終確定は未完了。"
+    },
+    {
+      "discovery_key": "W71",
+      "url": "https://greencoop-fukuoka.jp/info/%E5%80%8B%E4%BA%BA%E6%83%85%E5%A0%B1%E3%81%AE%E5%85%A5%E3%81%A3%E3%81%9F%E6%A5%AD%E5%8B%99%E7%94%A8%E3%83%91%E3%82%BD%E3%82%B3%E3%83%B3%E7%9B%97%E9%9B%A3%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/",
+      "retrieval_status": "retrieved",
+      "decision": "published",
+      "incident_ids": [
+        "greencoop-fukuoka-pc-20261002"
+      ],
+      "reason": "公式本文で照合し掲載。"
+    },
+    {
+      "discovery_key": "W72",
+      "url": "https://www.city.fukuoka.lg.jp/shisei/kouhou-hodo/hodo-happyo/2026/documents/261002_kojinjohoryuushutsujian.pdf",
+      "retrieval_status": "retrieved",
+      "decision": "discovery_only",
+      "incident_ids": [],
+      "reason": "探索資料として保存。採否の最終確定は未完了。"
+    },
+    {
+      "discovery_key": "W73",
+      "url": "https://www.nipponrentacar.co.jp/info/202610_2.html",
+      "retrieval_status": "retrieved",
+      "decision": "discovery_only",
+      "incident_ids": [],
+      "reason": "探索資料として保存。採否の最終確定は未完了。"
+    },
+    {
+      "discovery_key": "W74",
+      "url": "https://www2.sagawa-exp.co.jp/information/detail/430/",
+      "retrieval_status": "retrieved",
+      "decision": "discovery_only",
+      "incident_ids": [],
+      "reason": "探索資料として保存。採否の最終確定は未完了。"
+    },
+    {
+      "discovery_key": "W75",
+      "url": "https://www.jaea.go.jp/02/press2026/p26100105/",
+      "retrieval_status": "retrieved",
+      "decision": "discovery_only",
+      "incident_ids": [],
+      "reason": "探索資料として保存。採否の最終確定は未完了。"
+    },
+    {
+      "discovery_key": "W76",
+      "url": "https://www.ikegami.co.jp/news/detail/573/",
+      "retrieval_status": "retrieved",
+      "decision": "pending",
+      "incident_ids": [],
+      "reason": "企業資料の掲載は確認されているが、個人情報の対象範囲は調査中。"
+    },
+    {
+      "discovery_key": "W77",
+      "url": "https://www.city.ichinomiya.aichi.jp/shisei/houdouhappyo/1068631/1075827/1077092.html",
+      "retrieval_status": "retrieved",
+      "decision": "published",
+      "incident_ids": [
+        "ichinomiya-tour-mail-20260930"
+      ],
+      "reason": "公式本文で照合し掲載。"
+    },
+    {
+      "discovery_key": "W78",
+      "url": "https://support-qa.eplus.jp/hc/ja/articles/62711500727961-%E5%BC%8A%E7%A4%BE%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E3%81%AB%E5%AF%BE%E3%81%99%E3%82%8B%E4%B8%8D%E6%AD%A3%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E3%81%AE%E7%99%BA-%E3%81%8A%E3%82%88%E3%81%B3%E5%80%8B-%E6%83%85%E5%A0%B1-%E6%BC%8F%E3%81%88%E3%81%84%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E3%81%8A%E8%A9%AB%E3%81%B3%E3%81%A8%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B",
+      "retrieval_status": "retrieved",
+      "decision": "discovery_only",
+      "incident_ids": [],
+      "reason": "探索資料として保存。採否の最終確定は未完了。"
+    },
+    {
+      "discovery_key": "W79",
+      "url": "https://www.post.japanpost.jp/newsrelease/pressrelease/3340166500.html",
+      "retrieval_status": "retrieved",
+      "decision": "discovery_only",
+      "incident_ids": [],
+      "reason": "探索資料として保存。採否の最終確定は未完了。"
+    },
+    {
+      "discovery_key": "W80",
+      "url": "https://www.pref.fukuoka.lg.jp/press-release/nkojinjyouhou.html",
+      "retrieval_status": "retrieved",
+      "decision": "published",
+      "incident_ids": [
+        "fukuoka-20260929"
+      ],
+      "reason": "公式本文で照合し掲載。"
+    },
+    {
+      "discovery_key": "W81",
+      "url": "https://online.seicomart.co.jp/delivery/cms/preview.php?pre_no=119",
+      "retrieval_status": "retrieved",
+      "decision": "discovery_only",
+      "incident_ids": [],
+      "reason": "探索資料として保存。採否の最終確定は未完了。"
+    },
+    {
+      "discovery_key": "W82",
+      "url": "https://www.tamagawa-hosp.jp/2026/09/29/18582/",
+      "retrieval_status": "retrieved",
+      "decision": "pending",
+      "incident_ids": [],
+      "reason": "診療画像8枚の不適切な持ち出し。直接識別情報は除かれており個人情報としての掲載範囲を要確認。"
+    },
+    {
+      "discovery_key": "W83",
+      "url": "https://www.unirita.co.jp/news/2026/media_20261014.html",
+      "retrieval_status": "retrieved",
+      "decision": "discovery_only",
+      "incident_ids": [],
+      "reason": "探索資料として保存。採否の最終確定は未完了。"
+    },
+    {
+      "discovery_key": "W84",
+      "url": "https://ihj.global/news/new/lib_opac/",
+      "retrieval_status": "retrieved",
+      "decision": "published",
+      "incident_ids": [
+        "ihj-opac-account-20260929"
+      ],
+      "reason": "公式本文で照合し掲載。"
+    },
+    {
+      "discovery_key": "W85",
+      "url": "https://www.pref.okayama.jp/uploaded/life/1058909_10259922_misc.pdf",
+      "retrieval_status": "retrieved",
+      "decision": "discovery_only",
+      "incident_ids": [],
+      "reason": "探索資料として保存。採否の最終確定は未完了。"
+    },
+    {
+      "discovery_key": "W86",
+      "url": "https://www.temairazu.co.jp/pdf/1212/ir-news",
+      "retrieval_status": "retrieved",
+      "decision": "discovery_only",
+      "incident_ids": [],
+      "reason": "探索資料として保存。採否の最終確定は未完了。"
+    },
+    {
+      "discovery_key": "W87",
+      "url": "https://www.pref.toyama.jp/1281/202609press.html",
+      "retrieval_status": "retrieved",
+      "decision": "discovery_only",
+      "incident_ids": [],
+      "reason": "探索資料として保存。採否の最終確定は未完了。"
+    },
+    {
+      "discovery_key": "W88",
+      "url": "https://www.pref.ibaraki.jp/somu/hodo/hodo/pressrelease/hodohappyoushiryou/2203/documents/260925tayousei.pdf",
+      "retrieval_status": "retrieved",
+      "decision": "published",
+      "incident_ids": [
+        "ibaraki-commons-mail-20260926"
+      ],
+      "reason": "公式本文で照合し掲載。"
+    },
+    {
+      "discovery_key": "W89",
+      "url": "https://www.pref.okayama.jp/uploaded/life/1058333_10254284_misc.pdf",
+      "retrieval_status": "retrieved",
+      "decision": "published",
+      "incident_ids": [
+        "okayama-teacher-stress-20260925"
+      ],
+      "reason": "公式本文で照合し掲載。"
+    },
+    {
+      "discovery_key": "W90",
+      "url": "https://ec.smaregi.jp/b2b/news/2026925-2/",
+      "retrieval_status": "retrieved",
+      "decision": "discovery_only",
+      "incident_ids": [],
+      "reason": "探索資料として保存。採否の最終確定は未完了。"
+    },
+    {
+      "discovery_key": "W91",
+      "url": "https://www.timesmobi.co.jp/news/2026/09/web1.html",
+      "retrieval_status": "retrieved",
+      "decision": "discovery_only",
+      "incident_ids": [],
+      "reason": "探索資料として保存。採否の最終確定は未完了。"
+    },
+    {
+      "discovery_key": "W92",
+      "url": "https://www.pref.saga.lg.jp/kyouiku/kiji003121221/index.html",
+      "retrieval_status": "retrieved",
+      "decision": "published",
+      "incident_ids": [
+        "saga-karatsu-classi-20260925"
+      ],
+      "reason": "公式本文で照合し掲載。"
+    },
+    {
+      "discovery_key": "W93",
+      "url": "https://www.pref.saitama.lg.jp/a0312/news/news2026092101.html",
+      "retrieval_status": "retrieved",
+      "decision": "published",
+      "incident_ids": [
+        "saitama-budokan-mail-20260921"
+      ],
+      "reason": "公式本文で照合し掲載。"
+    },
+    {
+      "discovery_key": "W94",
+      "url": "https://www.ehime-u.ac.jp/data_news/20260918_sou/",
+      "retrieval_status": "retrieved",
+      "decision": "pending",
+      "incident_ids": [],
+      "reason": "リンク先が大学ホームへ遷移しており対象本文を確認できない。"
+    },
+    {
+      "discovery_key": "W95",
+      "url": "https://www.pref.saitama.lg.jp/f2207/news/page/news2026091802.html",
+      "retrieval_status": "retrieved",
+      "decision": "discovery_only",
+      "incident_ids": [],
+      "reason": "探索資料として保存。採否の最終確定は未完了。"
+    },
+    {
+      "discovery_key": "W96",
+      "url": "https://www.city.kazuno.lg.jp/soshiki/ikiikikenko/1/oshirase/14947.html",
+      "retrieval_status": "retrieved",
+      "decision": "published",
+      "incident_ids": [
+        "kazuno-health-cdr-20260918"
+      ],
+      "reason": "公式本文で照合し掲載。"
+    },
+    {
+      "discovery_key": "W97",
+      "url": "https://www.ktr.mlit.go.jp/kisha/kisha_03715.pdf",
+      "retrieval_status": "retrieved",
+      "decision": "discovery_only",
+      "incident_ids": [],
+      "reason": "探索資料として保存。採否の最終確定は未完了。"
+    },
+    {
+      "discovery_key": "W98",
+      "url": "https://www.landhousing.co.jp/news/49",
+      "retrieval_status": "retrieved",
+      "decision": "excluded",
+      "incident_ids": [],
+      "reason": "物件の鍵情報。個人情報が含まれる範囲を確認できない。"
+    },
+    {
+      "discovery_key": "W99",
+      "url": "https://shop.c-value.jp/view/news/20260917153001",
+      "retrieval_status": "retrieved",
+      "decision": "discovery_only",
+      "incident_ids": [],
+      "reason": "探索資料として保存。採否の最終確定は未完了。"
+    },
+    {
+      "discovery_key": "W100",
+      "url": "https://www.asahi-kasei.com/jp/news/2026/ze260917",
+      "retrieval_status": "retrieved",
+      "decision": "pending",
+      "incident_ids": [],
+      "reason": "抽出本文が索引に近く、個別事案の公表と対象範囲が未確定。"
+    },
+    {
+      "discovery_key": "W101",
+      "url": "https://www.city.ube.yamaguchi.jp/shisei/kouhou/kishahappyou/1008059/1030251/1030596.html",
+      "retrieval_status": "retrieved",
+      "decision": "pending",
+      "incident_ids": [],
+      "reason": "抽出本文が索引に近く、個別事案の公表と対象範囲が未確定。"
+    },
+    {
+      "discovery_key": "W102",
+      "url": "https://www.city.fukuoka.lg.jp/shisei/kouhou-hodo/hodo-happyo/2026/documents/20260916kojinjouhounoryuushutujiannituite.pdf",
+      "retrieval_status": "retrieved",
+      "decision": "published",
+      "incident_ids": [
+        "fukuoka-sawara-library-mail-20260916"
+      ],
+      "reason": "公式本文で照合し掲載。"
+    },
+    {
+      "discovery_key": "W103",
+      "url": "https://www.city.osaka.lg.jp/hodoshiryo/gyouseiiinkai/0000688062.html",
+      "retrieval_status": "retrieved",
+      "decision": "discovery_only",
+      "incident_ids": [],
+      "reason": "探索資料として保存。採否の最終確定は未完了。"
+    },
+    {
+      "discovery_key": "W104",
+      "url": "https://odawara-eng.co.jp/wp-content/uploads/2026/09/20260915.pdf",
+      "retrieval_status": "retrieved",
+      "decision": "published",
+      "incident_ids": [
+        "odawara-eng-mail-20260915"
+      ],
+      "reason": "公式本文で照合し掲載。"
+    },
+    {
+      "discovery_key": "W105",
+      "url": "https://www.city.saitama.lg.jp/006/014/008/003/015/006/p133553.html",
+      "retrieval_status": "retrieved",
+      "decision": "discovery_only",
+      "incident_ids": [],
+      "reason": "探索資料として保存。採否の最終確定は未完了。"
+    },
+    {
+      "discovery_key": "W106",
+      "url": "https://www.city.saitama.lg.jp/006/014/008/003/015/006/p133553.html",
+      "retrieval_status": "retrieved",
+      "decision": "discovery_only",
+      "incident_ids": [],
+      "reason": "探索資料として保存。採否の最終確定は未完了。"
+    },
+    {
+      "discovery_key": "W107",
+      "url": "https://www.pref.saitama.lg.jp/a0604/news/page/news2026091401.html",
+      "retrieval_status": "retrieved",
+      "decision": "published",
+      "incident_ids": [
+        "saitama-brain-support-mail-20260914"
+      ],
+      "reason": "公式本文で照合し掲載。"
+    },
+    {
+      "discovery_key": "W108",
+      "url": "https://www.sankei.jp/wp-content/uploads/2026/09/%E3%80%90RESPECTion%E3%80%91%E5%80%8B%E4%BA%BA%E6%83%85%E5%A0%B1%E9%96%B2%E8%A6%A7%E5%8F%AF%E8%83%BD%E7%8A%B6%E6%85%8B%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E3%81%8A%E8%A9%AB%E3%81%B3%E3%81%A8%E3%81%94%E5%A0%B1%E5%91%8A.pdf",
+      "retrieval_status": "retrieved",
+      "decision": "published",
+      "incident_ids": [
+        "sankei-respection-20260911"
+      ],
+      "reason": "公式本文で照合し掲載。"
+    },
+    {
+      "discovery_key": "W109",
+      "url": "https://www.ra.opho.jp/wp-content/uploads/2026/09/kojinjyoho_20260822.pdf",
+      "retrieval_status": "retrieved",
+      "decision": "discovery_only",
+      "incident_ids": [],
+      "reason": "探索資料として保存。採否の最終確定は未完了。"
+    },
+    {
+      "discovery_key": "W110",
+      "url": "https://www.e-nexco.co.jp/news/important_info/2026/0911/00016604.html",
+      "retrieval_status": "retrieved",
+      "decision": "discovery_only",
+      "incident_ids": [],
+      "reason": "探索資料として保存。採否の最終確定は未完了。"
+    },
+    {
+      "discovery_key": "W111",
+      "url": "https://www.city.fukushima.fukushima.jp/material/files/group/1/press202609010-03.pdf",
+      "retrieval_status": "retrieved",
+      "decision": "discovery_only",
+      "incident_ids": [],
+      "reason": "探索資料として保存。採否の最終確定は未完了。"
+    },
+    {
+      "discovery_key": "W112",
+      "url": "https://applynow.co.jp/news/20260909",
+      "retrieval_status": "retrieved",
+      "decision": "discovery_only",
+      "incident_ids": [],
+      "reason": "探索資料として保存。採否の最終確定は未完了。"
+    },
+    {
+      "discovery_key": "W113",
+      "url": "https://www.city.nerima.tokyo.jp/kurashi/jinken/oshirase/dx-kojinjyoho.html",
+      "retrieval_status": "unavailable",
+      "decision": "pending",
+      "incident_ids": [],
+      "reason": "探索資料として保存。採否の最終確定は未完了。"
+    },
+    {
+      "discovery_key": "W114",
+      "url": "https://www.city.osaka.lg.jp/hodoshiryo/kyoiku/0000687217.html",
+      "retrieval_status": "retrieved",
+      "decision": "published",
+      "incident_ids": [
+        "osaka-school-growth-september-20260909"
+      ],
+      "reason": "公式本文で照合し掲載。"
+    },
+    {
+      "discovery_key": "W115",
+      "url": "https://www.isit.or.jp/news/isit/21872/",
+      "retrieval_status": "retrieved",
+      "decision": "excluded",
+      "incident_ids": [],
+      "reason": "サービス見積書。個人情報の漏えいは未確認。"
+    },
+    {
+      "discovery_key": "W116",
+      "url": "https://www.sanga-fc.jp/news/detail/21401",
+      "retrieval_status": "retrieved",
+      "decision": "discovery_only",
+      "incident_ids": [],
+      "reason": "探索資料として保存。採否の最終確定は未完了。"
+    },
+    {
+      "discovery_key": "W117",
+      "url": "https://www.sunmesse.co.jp/news/file/20260908171625.pdf",
+      "retrieval_status": "retrieved",
+      "decision": "pending",
+      "incident_ids": [],
+      "reason": "PDFの抽出本文が一部のみで日付と対象情報が未確定。"
+    },
+    {
+      "discovery_key": "W118",
+      "url": "https://www.city.yubari.lg.jp/soshiki/3/10638.html",
+      "retrieval_status": "unavailable",
+      "decision": "pending",
+      "incident_ids": [],
+      "reason": "探索資料として保存。採否の最終確定は未完了。"
+    },
+    {
+      "discovery_key": "W119",
+      "url": "https://revisio.co.jp/news/qlqXjTs7",
+      "retrieval_status": "retrieved",
+      "decision": "discovery_only",
+      "incident_ids": [],
+      "reason": "探索資料として保存。採否の最終確定は未完了。"
+    },
+    {
+      "discovery_key": "W120",
+      "url": "https://www.pref.miyazaki.lg.jp/kokokyoiku/press/2026/09/20260905133926.html",
+      "retrieval_status": "unavailable",
+      "decision": "pending",
+      "incident_ids": [],
+      "reason": "探索資料として保存。採否の最終確定は未完了。"
+    },
+    {
+      "discovery_key": "W121",
+      "url": "https://up-edu.com/sorry-info/pdf/notification0904.pdf",
+      "retrieval_status": "retrieved",
+      "decision": "discovery_only",
+      "incident_ids": [],
+      "reason": "探索資料として保存。採否の最終確定は未完了。"
+    },
+    {
+      "discovery_key": "W122",
+      "url": "https://fujisawacity-hosp.jp/news/news/20260904.html",
+      "retrieval_status": "retrieved",
+      "decision": "discovery_only",
+      "incident_ids": [],
+      "reason": "探索資料として保存。採否の最終確定は未完了。"
+    },
+    {
+      "discovery_key": "W123",
+      "url": "https://www.city.fukushima.fukushima.jp/material/files/group/1/press20260904-01.pdf",
+      "retrieval_status": "retrieved",
+      "decision": "discovery_only",
+      "incident_ids": [],
+      "reason": "探索資料として保存。採否の最終確定は未完了。"
+    },
+    {
+      "discovery_key": "W124",
+      "url": "https://www.city.fukushima.fukushima.jp/material/files/group/1/press20260903-01.pdf",
+      "retrieval_status": "retrieved",
+      "decision": "discovery_only",
+      "incident_ids": [],
+      "reason": "探索資料として保存。採否の最終確定は未完了。"
+    },
+    {
+      "discovery_key": "W125",
+      "url": "https://www.corona.co.jp/report/safety/post_152.html",
+      "retrieval_status": "retrieved",
+      "decision": "discovery_only",
+      "incident_ids": [],
+      "reason": "探索資料として保存。採否の最終確定は未完了。"
+    },
+    {
+      "discovery_key": "W126",
+      "url": "https://www.mhlw.go.jp/stf/newpage_75810.html",
+      "retrieval_status": "retrieved",
+      "decision": "discovery_only",
+      "incident_ids": [],
+      "reason": "探索資料として保存。採否の最終確定は未完了。"
+    },
+    {
+      "discovery_key": "W127",
+      "url": "https://www.pref.okayama.jp/site/presssystem/1053698.html",
+      "retrieval_status": "retrieved",
+      "decision": "pending",
+      "incident_ids": [],
+      "reason": "添付PDFの内容確認が必要。"
+    },
+    {
+      "discovery_key": "W128",
+      "url": "https://hololive-official-cardgame.com/news_detail/news_260825/",
+      "retrieval_status": "retrieved",
+      "decision": "discovery_only",
+      "incident_ids": [],
+      "reason": "探索資料として保存。採否の最終確定は未完了。"
+    },
+    {
+      "discovery_key": "W129",
+      "url": "https://rakko.inc/news/incident2608_2/",
+      "retrieval_status": "retrieved",
+      "decision": "discovery_only",
+      "incident_ids": [],
+      "reason": "探索資料として保存。採否の最終確定は未完了。"
+    },
+    {
+      "discovery_key": "W130",
+      "url": "https://www.pref.saitama.lg.jp/a0403/news/page/news2026082401.html",
+      "retrieval_status": "retrieved",
+      "decision": "discovery_only",
+      "incident_ids": [],
+      "reason": "探索資料として保存。採否の最終確定は未完了。"
+    },
+    {
+      "discovery_key": "W131",
+      "url": "https://www.city.adachi.tokyo.jp/k-iji/2608toshinou.html",
+      "retrieval_status": "retrieved",
+      "decision": "published",
+      "incident_ids": [
+        "adachi-park-mail-20260824"
+      ],
+      "reason": "公式本文で照合し掲載。"
+    },
+    {
+      "discovery_key": "W132",
+      "url": "https://www.fukujo.ac.jp/university/news/archives/1708",
+      "retrieval_status": "retrieved",
+      "decision": "excluded",
+      "incident_ids": [],
+      "reason": "予防的なサイト停止で情報漏えい被害を否定。"
+    },
+    {
+      "discovery_key": "W133",
+      "url": "https://www.mie-u.ac.jp/news/topics/2026/08/post-4238.html",
+      "retrieval_status": "retrieved",
+      "decision": "published",
+      "incident_ids": [
+        "mie-univ-campus-list-20260824"
+      ],
+      "reason": "公式本文で照合し掲載。"
+    },
+    {
+      "discovery_key": "W134",
+      "url": "https://www.city.okawa.lg.jp/s026/020/20260818163728.html",
+      "retrieval_status": "retrieved",
+      "decision": "discovery_only",
+      "incident_ids": [],
+      "reason": "探索資料として保存。採否の最終確定は未完了。"
+    },
+    {
+      "discovery_key": "W135",
+      "url": "https://www.city.osaka.lg.jp/hodoshiryo/keizaisenryaku/0000685813.html",
+      "retrieval_status": "retrieved",
+      "decision": "existing_source_match",
+      "incident_ids": [
+        "osaka-museum-owner-mail-20260819"
+      ],
+      "reason": "URL照合のみ。本文精査済みとは扱わない。"
+    },
+    {
+      "discovery_key": "W136",
+      "url": "https://www.city.kawasaki.jp/templates/prs/350/0000189481.html",
+      "retrieval_status": "retrieved",
+      "decision": "discovery_only",
+      "incident_ids": [],
+      "reason": "探索資料として保存。採否の最終確定は未完了。"
+    },
+    {
+      "discovery_key": "W137",
+      "url": "https://voising-official.com/news/931",
+      "retrieval_status": "retrieved",
+      "decision": "discovery_only",
+      "incident_ids": [],
+      "reason": "探索資料として保存。採否の最終確定は未完了。"
+    },
+    {
+      "discovery_key": "W138",
+      "url": "https://www.charm.co.jp/honten/info/notice/20261007.html",
+      "retrieval_status": "retrieved",
+      "decision": "discovery_only",
+      "incident_ids": [],
+      "reason": "探索資料として保存。採否の最終確定は未完了。"
+    },
+    {
+      "discovery_key": "W139",
+      "url": "https://www.godai.co.jp/post/%E5%80%8B%E4%BA%BA%E6%83%85%E5%A0%B1%E6%BC%8F%E3%81%88%E3%81%84%E3%81%AE%E5%8F%AF%E8%83%BD%E6%80%A7%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B%E3%81%A8%E3%81%8A%E8%A9%AB%E3%81%B3",
+      "retrieval_status": "retrieved",
+      "decision": "discovery_only",
+      "incident_ids": [],
+      "reason": "探索資料として保存。採否の最終確定は未完了。"
+    },
+    {
+      "discovery_key": "W140",
+      "url": "https://www.softbankcr.co.jp/ja/news/2026/0914_it-22/",
+      "retrieval_status": "retrieved",
+      "decision": "published",
+      "incident_ids": [
+        "sbcreative-businessit-20260914"
+      ],
+      "reason": "公式本文で照合し掲載。"
+    },
+    {
+      "discovery_key": "W141",
+      "url": "https://www.gig.co.jp/?p=8383",
+      "retrieval_status": "retrieved",
+      "decision": "discovery_only",
+      "incident_ids": [],
+      "reason": "探索資料として保存。採否の最終確定は未完了。"
+    },
+    {
+      "discovery_key": "W142",
+      "url": "https://www.rizapgroup.com/news/detail?topics_id=1567",
+      "retrieval_status": "retrieved",
+      "decision": "discovery_only",
+      "incident_ids": [],
+      "reason": "探索資料として保存。採否の最終確定は未完了。"
+    },
+    {
+      "discovery_key": "W143",
+      "url": "https://hacobu.jp/news/20079/",
+      "retrieval_status": "retrieved",
+      "decision": "published",
+      "incident_ids": [
+        "hacobu-movo-tablet-20260730"
+      ],
+      "reason": "公式本文で照合し掲載。"
+    },
+    {
+      "discovery_key": "W144",
+      "url": "https://corp.hareruyamtg.com/notice-2026-07-30",
+      "retrieval_status": "retrieved",
+      "decision": "published",
+      "incident_ids": [
+        "hareruya2-lottery-display-20260730"
+      ],
+      "reason": "公式本文で照合し掲載。"
+    },
+    {
+      "discovery_key": "W145",
+      "url": "https://activityjapan.com/official/20260728/",
+      "retrieval_status": "retrieved",
+      "decision": "discovery_only",
+      "incident_ids": [],
+      "reason": "探索資料として保存。採否の最終確定は未完了。"
+    },
+    {
+      "discovery_key": "W146",
+      "url": "https://www.pref.niigata.lg.jp/sec/chiikiiryo/chiikiiryo20260728.html",
+      "retrieval_status": "retrieved",
+      "decision": "excluded",
+      "incident_ids": [],
+      "reason": "法人の申請書・口座・収支情報。自然人の情報への影響は未確認。"
+    },
+    {
+      "discovery_key": "W147",
+      "url": "https://www.ryonetsu.co.jp/news/detail/5bcf55e7-106c-4349-86e0-d6be0ae8ea22",
+      "retrieval_status": "retrieved",
+      "decision": "pending",
+      "incident_ids": [],
+      "reason": "不正メール送信は確認。個人情報の漏えいの有無は調査中。"
+    },
+    {
+      "discovery_key": "W148",
+      "url": "https://www.town.anamizu.lg.jp/page/108229.html",
+      "retrieval_status": "retrieved",
+      "decision": "discovery_only",
+      "incident_ids": [],
+      "reason": "探索資料として保存。採否の最終確定は未完了。"
+    },
+    {
+      "discovery_key": "W149",
+      "url": "https://www.revex.jp/post/%E5%BC%8A%E7%A4%BE%E8%A3%BD%E5%93%81%E7%B4%B9%E4%BB%8B%E3%82%B5%E3%82%A4%E3%83%88%E3%80%8Crevex%E3%80%8D%E3%81%AB%E5%AF%BE%E3%81%99%E3%82%8B%E4%B8%8D%E6%AD%A3%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E5%8F%8A%E3%81%B3%E6%83%85%E5%A0%B1%E6%BC%8F%E3%81%88%E3%81%84%E3%81%AE%E5%8F%AF%E8%83%BD%E6%80%A7%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%E3%80%90%E6%9C%80%E7%B5%82%E5%A0%B1%E3%80%91",
+      "retrieval_status": "retrieved",
+      "decision": "discovery_only",
+      "incident_ids": [],
+      "reason": "探索資料として保存。採否の最終確定は未完了。"
+    },
+    {
+      "discovery_key": "W150",
+      "url": "https://murauchi.com/static-pages/privacy/%E5%BC%8A%E7%A4%BE%E3%81%AB%E3%81%8A%E3%81%91%E3%82%8B%E4%B8%8D%E6%AD%A3%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E3%81%AB%E3%82%88%E3%82%8B%E3%81%8A%E5%AE%A2%E6%A7%98%E6%83%85%E5%A0%B1%E6%BC%8F%E3%81%88%E3%81%84%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E3%81%8A%E8%A9%AB%E3%81%B3%E3%81%A8%E3%81%94%E5%A0%B1%E5%91%8A%EF%BC%88%E7%AC%AC%E4%B8%80%E5%A0%B1%EF%BC%89.pdf",
+      "retrieval_status": "retrieved",
+      "decision": "published",
+      "incident_ids": [
+        "murauchi-20260915"
+      ],
+      "reason": "公式本文で照合し掲載。"
+    },
+    {
+      "discovery_key": "W151",
+      "url": "https://www.nihon-kotsu.co.jp/news/20260722-3343/",
+      "retrieval_status": "retrieved",
+      "decision": "discovery_only",
+      "incident_ids": [],
+      "reason": "探索資料として保存。採否の最終確定は未完了。"
+    },
+    {
+      "discovery_key": "W152",
+      "url": "https://www.city.osaka.lg.jp/hodoshiryo/kyoiku/0000683842.html",
+      "retrieval_status": "retrieved",
+      "decision": "discovery_only",
+      "incident_ids": [],
+      "reason": "探索資料として保存。採否の最終確定は未完了。"
+    },
+    {
+      "discovery_key": "W153",
+      "url": "https://www.govtechtokyo.or.jp/news/2026/07/15/5185/",
+      "retrieval_status": "retrieved",
+      "decision": "discovery_only",
+      "incident_ids": [],
+      "reason": "探索資料として保存。採否の最終確定は未完了。"
+    },
+    {
+      "discovery_key": "W154",
+      "url": "https://www.city.nanto.toyama.jp/soshiki/nogyo/7427.html",
+      "retrieval_status": "unavailable",
+      "decision": "pending",
+      "incident_ids": [],
+      "reason": "探索資料として保存。採否の最終確定は未完了。"
+    },
+    {
+      "discovery_key": "W155",
+      "url": "https://www.city.saitama.lg.jp/006/014/008/003/015/004/p132016.html",
+      "retrieval_status": "retrieved",
+      "decision": "discovery_only",
+      "incident_ids": [],
+      "reason": "探索資料として保存。採否の最終確定は未完了。"
+    },
+    {
+      "discovery_key": "W156",
+      "url": "https://www.city.nonoichi.lg.jp/uploaded/attachment/44622.pdf",
+      "retrieval_status": "retrieved",
+      "decision": "published",
+      "incident_ids": [
+        "nonoichi-private-family-register-20260713"
+      ],
+      "reason": "公式本文で照合し掲載。"
+    },
+    {
+      "discovery_key": "W157",
+      "url": "https://www.city.osaka.lg.jp/hodoshiryo/kyoiku/0000683607.html",
+      "retrieval_status": "retrieved",
+      "decision": "published",
+      "incident_ids": [
+        "osaka-middle-growth-july-20260713"
+      ],
+      "reason": "公式本文で照合し掲載。"
+    },
+    {
+      "discovery_key": "W158",
+      "url": "https://www.siu.ac.jp/news/detail.html?news=1849",
+      "retrieval_status": "retrieved",
+      "decision": "discovery_only",
+      "incident_ids": [],
+      "reason": "探索資料として保存。採否の最終確定は未完了。"
+    },
+    {
+      "discovery_key": "W159",
+      "url": "https://www.pref.ibaraki.jp/somu/hodo/hodo/pressrelease/hodohappyoushiryou/2203/documents/260708kokoronoiryou.pdf",
+      "retrieval_status": "retrieved",
+      "decision": "discovery_only",
+      "incident_ids": [],
+      "reason": "探索資料として保存。採否の最終確定は未完了。"
+    },
+    {
+      "discovery_key": "W160",
+      "url": "https://wasabi-inc.biz/help/news/20260706-04/",
+      "retrieval_status": "retrieved",
+      "decision": "discovery_only",
+      "incident_ids": [],
+      "reason": "探索資料として保存。採否の最終確定は未完了。"
+    },
+    {
+      "discovery_key": "W161",
+      "url": "https://www.unimat-life.co.jp/pages/news/333",
+      "retrieval_status": "unavailable",
+      "decision": "pending",
+      "incident_ids": [],
+      "reason": "探索資料として保存。採否の最終確定は未完了。"
+    },
+    {
+      "discovery_key": "W162",
+      "url": "https://www.frontale.co.jp/info/2026/0702_3.html",
+      "retrieval_status": "retrieved",
+      "decision": "discovery_only",
+      "incident_ids": [],
+      "reason": "探索資料として保存。採否の最終確定は未完了。"
+    },
+    {
+      "discovery_key": "W163",
+      "url": "https://www.aflac.co.jp/static/corp/profile/news/2026/2026073100.pdf",
+      "retrieval_status": "retrieved",
+      "decision": "discovery_only",
+      "incident_ids": [],
+      "reason": "探索資料として保存。採否の最終確定は未完了。"
+    },
+    {
+      "discovery_key": "W164",
+      "url": "https://www.pref.osaka.lg.jp/hodo/fumin/o100030/prs_51186.html",
+      "retrieval_status": "retrieved",
+      "decision": "discovery_only",
+      "incident_ids": [],
+      "reason": "探索資料として保存。採否の最終確定は未完了。"
+    },
+    {
+      "discovery_key": "W165",
+      "url": "https://www.city.kawasaki.jp/templates/prs/asao/0000188384.html",
+      "retrieval_status": "retrieved",
+      "decision": "discovery_only",
+      "incident_ids": [],
+      "reason": "探索資料として保存。採否の最終確定は未完了。"
+    },
+    {
+      "discovery_key": "W166",
+      "url": "https://www.pref.mie.lg.jp/TOPICS/m0324000270.htm",
+      "retrieval_status": "retrieved",
+      "decision": "published",
+      "incident_ids": [
+        "mie-welfare-training-sheet-20260627"
+      ],
+      "reason": "公式本文で照合し掲載。"
+    },
+    {
+      "discovery_key": "W167",
+      "url": "https://chitose-jal-marathon.jp/info/%E5%80%8B%E4%BA%BA%E6%83%85%E5%A0%B1%E3%81%AE%E6%BC%8F%E3%81%88%E3%81%84%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/",
+      "retrieval_status": "retrieved",
+      "decision": "discovery_only",
+      "incident_ids": [],
+      "reason": "探索資料として保存。採否の最終確定は未完了。"
+    },
+    {
+      "discovery_key": "W168",
+      "url": "https://s-yeg.gr.jp/archives/788",
+      "retrieval_status": "retrieved",
+      "decision": "published",
+      "incident_ids": [
+        "sagamihara-yeg-form-20260630"
+      ],
+      "reason": "公式本文で照合し掲載。"
+    },
+    {
+      "discovery_key": "W169",
+      "url": "https://osaka-kyoiku.ac.jp/news/detail.html?dispmid=5662&itemid=9722",
+      "retrieval_status": "retrieved",
+      "decision": "published",
+      "incident_ids": [
+        "osaka-kyoiku-attachment-20260623"
+      ],
+      "reason": "公式本文で照合し掲載。"
+    },
+    {
+      "discovery_key": "W170",
+      "url": "https://www.fujikuracomposites.jp/news/1190/",
+      "retrieval_status": "retrieved",
+      "decision": "discovery_only",
+      "incident_ids": [],
+      "reason": "探索資料として保存。採否の最終確定は未完了。"
+    },
+    {
+      "discovery_key": "W171",
+      "url": "https://act1000.jp/wp-content/uploads/2026/06/%E5%80%8B%E4%BA%BA%E6%83%85%E5%A0%B1%E6%BC%8F%E3%81%88%E3%81%84%E3%81%AE%E5%8F%AF%E8%83%BD%E6%80%A7%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B%E3%81%A8%E3%81%8A%E8%A9%AB%E3%81%B3.pdf",
+      "retrieval_status": "retrieved",
+      "decision": "published",
+      "incident_ids": [
+        "act1000-work-server-20260615"
+      ],
+      "reason": "公式本文で照合し掲載。"
+    },
+    {
+      "discovery_key": "W172",
+      "url": "https://www.city.nagoya.jp/houdou/3003942/3003945/3004888.html",
+      "retrieval_status": "retrieved",
+      "decision": "published",
+      "incident_ids": [
+        "nagoya-park-mail-20260615"
+      ],
+      "reason": "公式本文で照合し掲載。"
+    },
+    {
+      "discovery_key": "W173",
+      "url": "https://www.saga-hirakawaya.jp/documents/pdf/202606-public-notice.pdf",
+      "retrieval_status": "retrieved",
+      "decision": "discovery_only",
+      "incident_ids": [],
+      "reason": "探索資料として保存。採否の最終確定は未完了。"
+    },
+    {
+      "discovery_key": "W174",
+      "url": "https://lycee-tcg.com/pages/page_0970984.html",
+      "retrieval_status": "retrieved",
+      "decision": "published",
+      "incident_ids": [
+        "movic-lycee-mail-20260613"
+      ],
+      "reason": "公式本文で照合し掲載。"
+    },
+    {
+      "discovery_key": "W175",
+      "url": "https://www.rext.jp/ir/attachment/?/%E9%80%A3%E7%B5%90%E5%AD%90%E4%BC%9A%E7%A4%BE%E3%81%AB%E3%81%8A%E3%81%91%E3%82%8B%E3%82%B5%E3%83%BC%E3%83%90%E3%83%BC%E3%81%B8%E3%81%AE%E4%B8%8D%E6%AD%A3%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E3%81%8A%E8%A9%AB%E3%81%B3%E3%81%A8%E3%81%94%E5%A0%B1%E5%91%8A.pdf=&field=0&id=81&inline=1",
+      "retrieval_status": "retrieved",
+      "decision": "discovery_only",
+      "incident_ids": [],
+      "reason": "探索資料として保存。採否の最終確定は未完了。"
+    },
+    {
+      "discovery_key": "W176",
+      "url": "https://www.city.sakai.lg.jp/shisei/koho/hodo/hodoteikyoshiryo/kakohodo/r8/r806/080612_03.files/0612_03.pdf",
+      "retrieval_status": "retrieved",
+      "decision": "discovery_only",
+      "incident_ids": [],
+      "reason": "探索資料として保存。採否の最終確定は未完了。"
+    },
+    {
+      "discovery_key": "W177",
+      "url": "https://www3.pref.shimane.jp/houdou/uploads/165852/148242/8946286151ba952f0cca82d7cd2b1879.pdf",
+      "retrieval_status": "unavailable",
+      "decision": "pending",
+      "incident_ids": [],
+      "reason": "探索資料として保存。採否の最終確定は未完了。"
+    },
+    {
+      "discovery_key": "W178",
+      "url": "https://www.tokyu-sports.com/company/news/20260608.pdf",
+      "retrieval_status": "retrieved",
+      "decision": "published",
+      "incident_ids": [
+        "kawasaki-miyamae-sports-mail-20260608"
+      ],
+      "reason": "公式本文で照合し掲載。"
+    },
+    {
+      "discovery_key": "W179",
+      "url": "https://hp.kmu.ac.jp/news/detail/170",
+      "retrieval_status": "unavailable",
+      "decision": "pending",
+      "incident_ids": [],
+      "reason": "探索資料として保存。採否の最終確定は未完了。"
+    },
+    {
+      "discovery_key": "W180",
+      "url": "https://nmh.jp/news/medical/20260601a/",
+      "retrieval_status": "retrieved",
+      "decision": "discovery_only",
+      "incident_ids": [],
+      "reason": "探索資料として保存。採否の最終確定は未完了。"
+    },
+    {
+      "discovery_key": "W181",
+      "url": "https://cdc.type.jp/important/1476/",
+      "retrieval_status": "retrieved",
+      "decision": "discovery_only",
+      "incident_ids": [],
+      "reason": "探索資料として保存。採否の最終確定は未完了。"
+    },
+    {
+      "discovery_key": "W182",
+      "url": "https://www.city.toshima.lg.jp/108/2605271111.html",
+      "retrieval_status": "retrieved",
+      "decision": "published",
+      "incident_ids": [
+        "toshima-medical-benefit-20260527"
+      ],
+      "reason": "公式本文で照合し掲載。"
+    },
+    {
+      "discovery_key": "W183",
+      "url": "https://www.kitakyu-u.ac.jp/news/2026/05/26/uploads/566219432a987e14db00cf64f372e27c.pdf",
+      "retrieval_status": "retrieved",
+      "decision": "discovery_only",
+      "incident_ids": [],
+      "reason": "探索資料として保存。採否の最終確定は未完了。"
+    },
+    {
+      "discovery_key": "W184",
+      "url": "https://www.metro.tokyo.lg.jp/information/press/2026/05/2026052601",
+      "retrieval_status": "retrieved",
+      "decision": "discovery_only",
+      "incident_ids": [],
+      "reason": "探索資料として保存。採否の最終確定は未完了。"
+    },
+    {
+      "discovery_key": "W185",
+      "url": "https://www.lycorp.co.jp/ja/privacy-security/announcement/020436/",
+      "retrieval_status": "retrieved",
+      "decision": "discovery_only",
+      "incident_ids": [],
+      "reason": "探索資料として保存。採否の最終確定は未完了。"
+    },
+    {
+      "discovery_key": "W186",
+      "url": "https://www.city.toyooka.lg.jp/shisei/johokokai/1030510.html",
+      "retrieval_status": "retrieved",
+      "decision": "discovery_only",
+      "incident_ids": [],
+      "reason": "探索資料として保存。採否の最終確定は未完了。"
+    },
+    {
+      "discovery_key": "W187",
+      "url": "https://www.city.kumamoto.jp/kiji00371155/index.html",
+      "retrieval_status": "retrieved",
+      "decision": "discovery_only",
+      "incident_ids": [],
+      "reason": "探索資料として保存。採否の最終確定は未完了。"
+    },
+    {
+      "discovery_key": "W188",
+      "url": "https://www.tokyohoso.co.jp/news/1366/",
+      "retrieval_status": "unavailable",
+      "decision": "pending",
+      "incident_ids": [],
+      "reason": "探索資料として保存。採否の最終確定は未完了。"
+    },
+    {
+      "discovery_key": "W189",
+      "url": "https://www.himi-shakyo.jp/info/%E7%81%BD%E5%AE%B3%E3%83%9C%E3%83%A9%E3%83%B3%E3%83%86%E3%82%A3%E3%82%A2%E3%81%AB%E3%81%94%E7%99%BB%E9%8C%B2%E3%81%95%E3%82%8C%E3%81%A6%E3%81%84%E3%82%8B%E6%96%B9%E3%81%AE%E5%80%8B%E4%BA%BA%E6%83%85/",
+      "retrieval_status": "retrieved",
+      "decision": "discovery_only",
+      "incident_ids": [],
+      "reason": "探索資料として保存。採否の最終確定は未完了。"
+    },
+    {
+      "discovery_key": "W190",
+      "url": "https://www.city.nagoya.jp/houdou/3003942/3003944/3004701.html",
+      "retrieval_status": "retrieved",
+      "decision": "published",
+      "incident_ids": [
+        "nagoya-npo-address-20260521"
+      ],
+      "reason": "公式本文で照合し掲載。"
+    },
+    {
+      "discovery_key": "W191",
+      "url": "https://www.shouwa.or.jp/2026/05/01/%E5%80%8B%E4%BA%BA%E6%83%85%E5%A0%B1%E6%BC%8F%E6%B4%A9%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E3%81%8A%E8%A9%AB%E3%81%B3%E3%81%A8%E3%81%94%E5%A0%B1%E5%91%8A/",
+      "retrieval_status": "retrieved",
+      "decision": "published",
+      "incident_ids": [
+        "ota-hospital-recruit-video-20260501"
+      ],
+      "reason": "公式本文で照合し掲載。"
+    },
+    {
+      "discovery_key": "W192",
+      "url": "https://www.city.kumamoto.jp/kiji00370730/3_70730_502489_up_5637zu7m.pdf",
+      "retrieval_status": "retrieved",
+      "decision": "published",
+      "incident_ids": [
+        "kumamoto-welfare-mail-20260501"
+      ],
+      "reason": "公式本文で照合し掲載。"
+    },
+    {
+      "discovery_key": "W193",
+      "url": "https://aomori-kenbyo.jp/posts/33504/",
+      "retrieval_status": "retrieved",
+      "decision": "published",
+      "incident_ids": [
+        "aomori-hospital-staff-disclosure-20260430"
+      ],
+      "reason": "公式本文で照合し掲載。"
+    },
+    {
+      "discovery_key": "W194",
+      "url": "https://www.pref.niigata.lg.jp/sec/kodomokatei/20260428katei.html",
+      "retrieval_status": "retrieved",
+      "decision": "published",
+      "incident_ids": [
+        "niigata-family-loan-mail-20260428"
+      ],
+      "reason": "公式本文で照合し掲載。"
+    },
+    {
+      "discovery_key": "W195",
+      "url": "https://www.city.sakai.lg.jp/shisei/koho/hodo/hodoteikyoshiryo/kakohodo/r8/r804/080427_02.html",
+      "retrieval_status": "retrieved",
+      "decision": "pending",
+      "incident_ids": [],
+      "reason": "添付PDFの内容確認が必要。"
+    },
+    {
+      "discovery_key": "W196",
+      "url": "https://www.canet.co.jp/information/post_5192/",
+      "retrieval_status": "retrieved",
+      "decision": "discovery_only",
+      "incident_ids": [],
+      "reason": "探索資料として保存。採否の最終確定は未完了。"
+    },
+    {
+      "discovery_key": "W197",
+      "url": "https://2rinkan.jp/annai/20260423/",
+      "retrieval_status": "retrieved",
+      "decision": "discovery_only",
+      "incident_ids": [],
+      "reason": "探索資料として保存。採否の最終確定は未完了。"
+    },
+    {
+      "discovery_key": "W198",
+      "url": "https://web.pref.hyogo.lg.jp/kk35/press/20260423.html",
+      "retrieval_status": "retrieved",
+      "decision": "published",
+      "incident_ids": [
+        "hyogo-eshien-20260423"
+      ],
+      "reason": "公式本文で照合し掲載。"
+    },
+    {
+      "discovery_key": "W199",
+      "url": "https://www.sojitz-ti.com/press/uploads/obentonet_information_apology.pdf",
+      "retrieval_status": "retrieved",
+      "decision": "discovery_only",
+      "incident_ids": [],
+      "reason": "探索資料として保存。採否の最終確定は未完了。"
+    },
+    {
+      "discovery_key": "W200",
+      "url": "https://www.kisnet.co.jp/2026/01/23/3909/",
+      "retrieval_status": "retrieved",
+      "decision": "published",
+      "incident_ids": [
+        "kansai-system-recruit-20260415"
+      ],
+      "reason": "公式本文で照合し掲載。"
+    },
+    {
+      "discovery_key": "W201",
+      "url": "https://www.kanko-shop-morioka.com/",
+      "retrieval_status": "retrieved",
+      "decision": "published",
+      "incident_ids": [
+        "kanko-morioka-mail-20260409"
+      ],
+      "reason": "公式本文で照合し掲載。"
+    },
+    {
+      "discovery_key": "W202",
+      "url": "https://tm.muromachi.jp/cms/wp-content/uploads/2026/04/d9c020c4b377f395e6c755a13316ab5f.pdf",
+      "retrieval_status": "retrieved",
+      "decision": "discovery_only",
+      "incident_ids": [],
+      "reason": "探索資料として保存。採否の最終確定は未完了。"
+    },
+    {
+      "discovery_key": "W203",
+      "url": "https://yamaguchisensei.com/2026/06/05/news/",
+      "retrieval_status": "retrieved",
+      "decision": "discovery_only",
+      "incident_ids": [],
+      "reason": "探索資料として保存。採否の最終確定は未完了。"
+    },
+    {
+      "discovery_key": "W204",
+      "url": "https://www.awabank.co.jp/kojin/benri/awagin_app/news/2026/news20260603a/index.html",
+      "retrieval_status": "retrieved",
+      "decision": "discovery_only",
+      "incident_ids": [],
+      "reason": "探索資料として保存。採否の最終確定は未完了。"
+    },
+    {
+      "discovery_key": "W205",
+      "url": "https://www.pref.okinawa.lg.jp/kensei/gyosei/1014355/1039299.html",
+      "retrieval_status": "unavailable",
+      "decision": "pending",
+      "incident_ids": [],
+      "reason": "探索資料として保存。採否の最終確定は未完了。"
+    },
+    {
+      "discovery_key": "W206",
+      "url": "https://www.cocoselect.jp/event/%E5%80%8B%E4%BA%BA%E6%83%85%E5%A0%B1%E6%B5%81%E5%87%BA%E3%81%AE%E6%81%90%E3%82%8C%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E3%81%8A%E8%A9%AB%E3%81%B3%E3%81%A8%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B/",
+      "retrieval_status": "retrieved",
+      "decision": "discovery_only",
+      "incident_ids": [],
+      "reason": "探索資料として保存。採否の最終確定は未完了。"
+    },
+    {
+      "discovery_key": "W207",
+      "url": "https://www.town.kadogawa.lg.jp/administration/cat2/page005526.html",
+      "retrieval_status": "retrieved",
+      "decision": "discovery_only",
+      "incident_ids": [],
+      "reason": "探索資料として保存。採否の最終確定は未完了。"
+    },
+    {
+      "discovery_key": "W208",
+      "url": "https://yutaka-d.co.jp/information/news/000070.html",
+      "retrieval_status": "retrieved",
+      "decision": "discovery_only",
+      "incident_ids": [],
+      "reason": "探索資料として保存。採否の最終確定は未完了。"
+    },
+    {
+      "discovery_key": "W209",
+      "url": "https://www.city.osaka.lg.jp/hodoshiryo/keizaisenryaku/0000675916.html",
+      "retrieval_status": "retrieved",
+      "decision": "discovery_only",
+      "incident_ids": [],
+      "reason": "探索資料として保存。採否の最終確定は未完了。"
+    },
+    {
+      "discovery_key": "W210",
+      "url": "https://www.town.seika.kyoto.jp/kakuka/kankyo/29989.html",
+      "retrieval_status": "retrieved",
+      "decision": "discovery_only",
+      "incident_ids": [],
+      "reason": "探索資料として保存。採否の最終確定は未完了。"
+    },
+    {
+      "discovery_key": "W211",
+      "url": "https://www.nexus-e.jp/news/%E5%BD%93%E7%A4%BE%E3%81%AB%E3%81%8A%E3%81%91%E3%82%8B%E3%83%A9%E3%83%B3%E3%82%B5%E3%83%A0%E3%82%A6%E3%82%A7%E3%82%A2%E6%84%9F%E6%9F%93%E8%A2%AB%E5%AE%B3%E3%81%A8%E5%80%8B%E4%BA%BA%E6%83%85%E5%A0%B1",
+      "retrieval_status": "unavailable",
+      "decision": "pending",
+      "incident_ids": [],
+      "reason": "探索資料として保存。採否の最終確定は未完了。"
+    },
+    {
+      "discovery_key": "W212",
+      "url": "https://www.tokyu-sports.com/fitness/atriodue-next/info/20260313.pdf",
+      "retrieval_status": "unavailable",
+      "decision": "pending",
+      "incident_ids": [],
+      "reason": "探索資料として保存。採否の最終確定は未完了。"
+    },
+    {
+      "discovery_key": "W213",
+      "url": "https://www.pref.tottori.lg.jp/322678.htm",
+      "retrieval_status": "retrieved",
+      "decision": "discovery_only",
+      "incident_ids": [],
+      "reason": "探索資料として保存。採否の最終確定は未完了。"
+    },
+    {
+      "discovery_key": "W214",
+      "url": "https://www.pref.aichi.jp/press-release/20260311np.html",
+      "retrieval_status": "unavailable",
+      "decision": "pending",
+      "incident_ids": [],
+      "reason": "探索資料として保存。採否の最終確定は未完了。"
+    },
+    {
+      "discovery_key": "W215",
+      "url": "https://www.city.itami.lg.jp/SOSIKI/SOMU/KIKIKANRI/SAIGAINISONAETE/YOUHAIRYOSYA_HINANKOUDOUYOUSIENSYA_SIEN/47665.html",
+      "retrieval_status": "retrieved",
+      "decision": "discovery_only",
+      "incident_ids": [],
+      "reason": "探索資料として保存。採否の最終確定は未完了。"
+    },
+    {
+      "discovery_key": "W216",
+      "url": "https://www.kanehara-shuppan.co.jp/news/index.html?no=261",
+      "retrieval_status": "retrieved",
+      "decision": "discovery_only",
+      "incident_ids": [],
+      "reason": "探索資料として保存。採否の最終確定は未完了。"
+    },
+    {
+      "discovery_key": "W217",
+      "url": "https://www.sanko-inc.co.jp/pdf/20260302_newsrelease.pdf",
+      "retrieval_status": "retrieved",
+      "decision": "discovery_only",
+      "incident_ids": [],
+      "reason": "探索資料として保存。採否の最終確定は未完了。"
+    },
+    {
+      "discovery_key": "W218",
+      "url": "https://ssl4.eir-parts.net/doc/4052/tdnet/2768101/00.pdf",
+      "retrieval_status": "retrieved",
+      "decision": "discovery_only",
+      "incident_ids": [],
+      "reason": "探索資料として保存。採否の最終確定は未完了。"
+    },
+    {
+      "discovery_key": "W219",
+      "url": "https://www.mizuhobank.co.jp/release/pdf/20260226release_jp.pdf",
+      "retrieval_status": "unavailable",
+      "decision": "pending",
+      "incident_ids": [],
+      "reason": "探索資料として保存。採否の最終確定は未完了。"
+    },
+    {
+      "discovery_key": "W220",
+      "url": "https://www.ms-primary.com/news/ir/assets/shukkosha.pdf",
+      "retrieval_status": "retrieved",
+      "decision": "discovery_only",
+      "incident_ids": [],
+      "reason": "探索資料として保存。採否の最終確定は未完了。"
+    },
+    {
+      "discovery_key": "W221",
+      "url": "https://www.pref.kochi.lg.jp/doc/2026021000308/",
+      "retrieval_status": "unavailable",
+      "decision": "pending",
+      "incident_ids": [],
+      "reason": "探索資料として保存。採否の最終確定は未完了。"
+    },
+    {
+      "discovery_key": "W222",
+      "url": "https://www.mizuho-rt.co.jp/company/release/2026/20260220_release_jp.pdf",
+      "retrieval_status": "unavailable",
+      "decision": "pending",
+      "incident_ids": [],
+      "reason": "探索資料として保存。採否の最終確定は未完了。"
+    },
+    {
+      "discovery_key": "W223",
+      "url": "https://www.sando-sanyo.co.jp/contents/news/p0139.html",
+      "retrieval_status": "retrieved",
+      "decision": "discovery_only",
+      "incident_ids": [],
+      "reason": "探索資料として保存。採否の最終確定は未完了。"
+    },
+    {
+      "discovery_key": "W224",
+      "url": "https://www.daiwair.co.jp/td_download.cgi?c=259A&i=3160792",
+      "retrieval_status": "unavailable",
+      "decision": "pending",
+      "incident_ids": [],
+      "reason": "探索資料として保存。採否の最終確定は未完了。"
+    },
+    {
+      "discovery_key": "W225",
+      "url": "https://www.city.takatsuki.osaka.jp/uploaded/attachment/61527.pdf",
+      "retrieval_status": "unavailable",
+      "decision": "pending",
+      "incident_ids": [],
+      "reason": "探索資料として保存。採否の最終確定は未完了。"
+    },
+    {
+      "discovery_key": "W226",
+      "url": "https://www.pref.shizuoka.jp/_res/projects/default_project/_page_/001/081/423/202602pressrelease2.pdf",
+      "retrieval_status": "unavailable",
+      "decision": "pending",
+      "incident_ids": [],
+      "reason": "探索資料として保存。採否の最終確定は未完了。"
+    },
+    {
+      "discovery_key": "W227",
+      "url": "https://www.nippan-group.co.jp/wp-content/uploads/2026/05/20260519.pdf",
+      "retrieval_status": "retrieved",
+      "decision": "excluded",
+      "incident_ids": [],
+      "reason": "一般消費者の個人情報は含まれない企業情報の漏えい。"
+    },
+    {
+      "discovery_key": "W228",
+      "url": "https://gala.co.jp/winter/cmsw/wp-content/uploads/2026/02/4d9ec3b44f7b4d83e237592fec8655f4.pdf",
+      "retrieval_status": "unavailable",
+      "decision": "pending",
+      "incident_ids": [],
+      "reason": "探索資料として保存。採否の最終確定は未完了。"
+    },
+    {
+      "discovery_key": "W229",
+      "url": "https://www.anabuki-housing.co.jp/news/content.php?news_id=518",
+      "retrieval_status": "retrieved",
+      "decision": "discovery_only",
+      "incident_ids": [],
+      "reason": "探索資料として保存。採否の最終確定は未完了。"
+    },
+    {
+      "discovery_key": "W230",
+      "url": "https://contents.xj-storage.jp/xcontents/AS08903/3ca77925/6bbc/4c12/b3ea/c040bd0e920d/140120260210554408.pdf",
+      "retrieval_status": "retrieved",
+      "decision": "excluded",
+      "incident_ids": [],
+      "reason": "決算等の企業情報。個人情報漏えいは未確認。"
+    },
+    {
+      "discovery_key": "W231",
+      "url": "https://www.fukuda.co.jp/press/2026/pdf/260209.pdf",
+      "retrieval_status": "unavailable",
+      "decision": "pending",
+      "incident_ids": [],
+      "reason": "探索資料として保存。採否の最終確定は未完了。"
+    },
+    {
+      "discovery_key": "W232",
+      "url": "https://www.sumitomolife.co.jp/about/newsrelease/pdf/2025/260209.pdf",
+      "retrieval_status": "retrieved",
+      "decision": "discovery_only",
+      "incident_ids": [],
+      "reason": "探索資料として保存。採否の最終確定は未完了。"
+    },
+    {
+      "discovery_key": "W233",
+      "url": "https://www.beautygarage.co.jp/news/card-issue-list",
+      "retrieval_status": "retrieved",
+      "decision": "discovery_only",
+      "incident_ids": [],
+      "reason": "探索資料として保存。採否の最終確定は未完了。"
+    },
+    {
+      "discovery_key": "W234",
+      "url": "https://ameblo.jp/dotmoney/entry-12955635184.html",
+      "retrieval_status": "retrieved",
+      "decision": "discovery_only",
+      "incident_ids": [],
+      "reason": "探索資料として保存。採否の最終確定は未完了。"
+    },
+    {
+      "discovery_key": "W235",
+      "url": "https://f-one.co.jp/_include/pdf/information20260204.pdf",
+      "retrieval_status": "unavailable",
+      "decision": "pending",
+      "incident_ids": [],
+      "reason": "探索資料として保存。採否の最終確定は未完了。"
+    },
+    {
+      "discovery_key": "W236",
+      "url": "https://dev.umds.ac.jp/?p=415710",
+      "retrieval_status": "unavailable",
+      "decision": "pending",
+      "incident_ids": [],
+      "reason": "探索資料として保存。採否の最終確定は未完了。"
+    },
+    {
+      "discovery_key": "W237",
+      "url": "https://www.meijiyasuda.co.jp/profile/news/release/2025/pdf/20260126_01.pdf",
+      "retrieval_status": "retrieved",
+      "decision": "discovery_only",
+      "incident_ids": [],
+      "reason": "探索資料として保存。採否の最終確定は未完了。"
+    },
+    {
+      "discovery_key": "W238",
+      "url": "https://www.pref.shizuoka.jp/_res/projects/default_project/_page_/001/081/423/202601pressrelease2.pdf",
+      "retrieval_status": "unavailable",
+      "decision": "pending",
+      "incident_ids": [],
+      "reason": "探索資料として保存。採否の最終確定は未完了。"
+    },
+    {
+      "discovery_key": "W239",
+      "url": "https://www.city.saitama.lg.jp/006/014/008/003/014/010/p127346.html",
+      "retrieval_status": "retrieved",
+      "decision": "discovery_only",
+      "incident_ids": [],
+      "reason": "探索資料として保存。採否の最終確定は未完了。"
+    },
+    {
+      "discovery_key": "W240",
+      "url": "https://renatus-group.co.jp/wp-content/uploads/2026/01/20260122_news_company.pdf",
+      "retrieval_status": "retrieved",
+      "decision": "discovery_only",
+      "incident_ids": [],
+      "reason": "探索資料として保存。採否の最終確定は未完了。"
+    },
+    {
+      "discovery_key": "W241",
+      "url": "https://www.pref.shizuoka.jp/_res/projects/default_project/_page_/001/081/423/202601pressrelease2.pdf",
+      "retrieval_status": "unavailable",
+      "decision": "pending",
+      "incident_ids": [],
+      "reason": "探索資料として保存。採否の最終確定は未完了。"
+    },
+    {
+      "discovery_key": "W242",
+      "url": "https://cocoloni.com/news/%E3%80%90%E9%87%8D%E8%A6%81%E3%81%AA%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B%E3%80%91%E4%B8%8D%E6%AD%A3%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E3%81%AB%E3%82%88%E3%82%8B%E3%83%A1%E3%83%BC%E3%83%AB%E3%82%A2/",
+      "retrieval_status": "retrieved",
+      "decision": "discovery_only",
+      "incident_ids": [],
+      "reason": "探索資料として保存。採否の最終確定は未完了。"
+    },
+    {
+      "discovery_key": "W243",
+      "url": "https://www.city.edogawa.tokyo.jp/e004/kuseijoho/kohokocho/press/2026/01/0121.html",
+      "retrieval_status": "retrieved",
+      "decision": "excluded",
+      "incident_ids": [],
+      "reason": "定期考査の問題。個人情報の漏えいではない。"
+    },
+    {
+      "discovery_key": "W244",
+      "url": "https://www.balance-b.jp/3192/",
+      "retrieval_status": "retrieved",
+      "decision": "discovery_only",
+      "incident_ids": [],
+      "reason": "探索資料として保存。採否の最終確定は未完了。"
+    },
+    {
+      "discovery_key": "W245",
+      "url": "https://www.amknet.jp/news/2026/03/10/2464/",
+      "retrieval_status": "retrieved",
+      "decision": "discovery_only",
+      "incident_ids": [],
+      "reason": "探索資料として保存。採否の最終確定は未完了。"
+    },
+    {
+      "discovery_key": "W246",
+      "url": "https://smaregi.jp/news/press/20260113.php",
+      "retrieval_status": "retrieved",
+      "decision": "discovery_only",
+      "incident_ids": [],
+      "reason": "探索資料として保存。採否の最終確定は未完了。"
+    },
+    {
+      "discovery_key": "W247",
+      "url": "https://www.houjin-tmu.ac.jp/news/news38235/",
+      "retrieval_status": "retrieved",
+      "decision": "discovery_only",
+      "incident_ids": [],
+      "reason": "探索資料として保存。採否の最終確定は未完了。"
+    },
+    {
+      "discovery_key": "S0",
+      "url": "https://www.oflight.co.jp/ja/news",
+      "retrieval_status": "retrieved",
+      "decision": "excluded",
+      "incident_ids": [],
+      "reason": "通常のお知らせ一覧。漏えい事案ではない。"
+    },
+    {
+      "discovery_key": "S1",
+      "url": "https://www.st.ryukoku.ac.jp/~kjm/security/memo/2025/12.html",
+      "retrieval_status": "retrieved",
+      "decision": "excluded",
+      "incident_ids": [],
+      "reason": "2025年の参考記事。対象期間外。"
+    },
+    {
+      "discovery_key": "S2",
+      "url": "https://www.fc-soft.jp/news/20260123-NP-01/",
+      "retrieval_status": "retrieved",
+      "decision": "published",
+      "incident_ids": [
+        "fcsoft-data-mail-20260123"
+      ],
+      "reason": "公式本文で照合し掲載。"
+    },
+    {
+      "discovery_key": "S3",
+      "url": "https://www.caa.go.jp/notice/entry/045704/",
+      "retrieval_status": "retrieved",
+      "decision": "published",
+      "incident_ids": [
+        "caa-payroll-eltax-20260331"
+      ],
+      "reason": "公式本文で照合し掲載。"
+    },
+    {
+      "discovery_key": "S4",
+      "url": "https://www.pref.osaka.lg.jp/hodo/fumin/o110100/prs_50972.html",
+      "retrieval_status": "retrieved",
+      "decision": "published",
+      "incident_ids": [
+        "osaka-career-resume-20260331"
+      ],
+      "reason": "公式本文で照合し掲載。"
+    },
+    {
+      "discovery_key": "S5",
+      "url": "https://www.city.kashiwazaki.lg.jp/material/files/group/3/kohyo_202601.pdf",
+      "retrieval_status": "unavailable",
+      "decision": "pending",
+      "incident_ids": [],
+      "reason": "画像PDF等で本文を抽出できない。"
+    },
+    {
+      "discovery_key": "S6",
+      "url": "https://www.city.miyazaki.miyazaki.jp/fs/8/7/2/2/2/0/_/01___8_1_______________.pdf",
+      "retrieval_status": "retrieved",
+      "decision": "discovery_only",
+      "incident_ids": [],
+      "reason": "探索資料として保存。採否の最終確定は未完了。"
+    },
+    {
+      "discovery_key": "S7",
+      "url": "https://www.st.keio.ac.jp/news/files/8b49a8bc9fd8370a319fa0421a0a2260.pdf",
+      "retrieval_status": "retrieved",
+      "decision": "discovery_only",
+      "incident_ids": [],
+      "reason": "探索資料として保存。採否の最終確定は未完了。"
+    },
+    {
+      "discovery_key": "S8",
+      "url": "https://www.kagawa-isf.jp/news/17935/",
+      "retrieval_status": "retrieved",
+      "decision": "published",
+      "incident_ids": [
+        "kagawa-isf-mail-20260216"
+      ],
+      "reason": "公式本文で照合し掲載。"
+    },
+    {
+      "discovery_key": "S9",
+      "url": "https://www.city.yokosuka.kanagawa.jp/2150/20260210mail.html",
+      "retrieval_status": "retrieved",
+      "decision": "published",
+      "incident_ids": [
+        "yokosuka-esports-mail-20260210"
+      ],
+      "reason": "公式本文で照合し掲載。"
+    },
+    {
+      "discovery_key": "S10",
+      "url": "https://www.pref.niigata.lg.jp/sec/kankyoseisaku/security.html",
+      "retrieval_status": "retrieved",
+      "decision": "discovery_only",
+      "incident_ids": [],
+      "reason": "探索資料として保存。採否の最終確定は未完了。"
+    },
+    {
+      "discovery_key": "S11",
+      "url": "https://www.evessa.com/news/260317_04/",
+      "retrieval_status": "retrieved",
+      "decision": "excluded",
+      "incident_ids": [],
+      "reason": "配信希望設定の無視であり、他者への個人情報流出は確認されていない。"
+    },
+    {
+      "discovery_key": "S12",
+      "url": "https://sfc.subaru.co.jp/topics/20260304163505/",
+      "retrieval_status": "retrieved",
+      "decision": "discovery_only",
+      "incident_ids": [],
+      "reason": "探索資料として保存。採否の最終確定は未完了。"
+    },
+    {
+      "discovery_key": "S13",
+      "url": "https://sfc.subaru.co.jp/topics/20260217154233/",
+      "retrieval_status": "retrieved",
+      "decision": "discovery_only",
+      "incident_ids": [],
+      "reason": "探索資料として保存。採否の最終確定は未完了。"
+    },
+    {
+      "discovery_key": "S14",
+      "url": "https://www.city.urasoe.lg.jp/doc/2026021700031/",
+      "retrieval_status": "retrieved",
+      "decision": "published",
+      "incident_ids": [
+        "urasoe-prescription-loss-20260217"
+      ],
+      "reason": "公式本文で照合し掲載。"
+    },
+    {
+      "discovery_key": "S15",
+      "url": "https://jrsendai-hospital.jp/wp-content/uploads/2026/03/1773278632.pdf",
+      "retrieval_status": "retrieved",
+      "decision": "discovery_only",
+      "incident_ids": [],
+      "reason": "探索資料として保存。採否の最終確定は未完了。"
+    },
+    {
+      "discovery_key": "S16",
+      "url": "https://www.ipa.go.jp/security/10threats/omgdg50000008fi8-att/kaisetsu_2026_soshiki.pdf",
+      "retrieval_status": "retrieved",
+      "decision": "excluded",
+      "incident_ids": [],
+      "reason": "一般的な対策資料。個別事案の公表ではない。"
+    },
+    {
+      "discovery_key": "S17",
+      "url": "https://www.pref.saga.lg.jp/kiji003118804/index.html",
+      "retrieval_status": "retrieved",
+      "decision": "published",
+      "incident_ids": [
+        "saga-policy-mail-20260327"
+      ],
+      "reason": "公式本文で照合し掲載。"
+    },
+    {
+      "discovery_key": "S18",
+      "url": "https://www.city.shimanto.lg.jp/soshiki/4/25156.html",
+      "retrieval_status": "retrieved",
+      "decision": "published",
+      "incident_ids": [
+        "shimanto-mail-20260316"
+      ],
+      "reason": "公式本文で照合し掲載。"
+    },
+    {
+      "discovery_key": "S19",
+      "url": "https://www.sanko-inc.co.jp/pdf/20260302_newsrelease.pdf",
+      "retrieval_status": "retrieved",
+      "decision": "discovery_only",
+      "incident_ids": [],
+      "reason": "探索資料として保存。採否の最終確定は未完了。"
+    },
+    {
+      "discovery_key": "S20",
+      "url": "https://www.city.miyazaki.miyazaki.jp/fs/8/7/8/2/1/9/_/__8_3_______________.pdf",
+      "retrieval_status": "unavailable",
+      "decision": "pending",
+      "incident_ids": [],
+      "reason": "画像PDF等で本文を抽出できない。"
+    },
+    {
+      "discovery_key": "S21",
+      "url": "https://www.toshiseibi.metro.tokyo.lg.jp/information/press/r7/03/2026030602",
+      "retrieval_status": "retrieved",
+      "decision": "discovery_only",
+      "incident_ids": [],
+      "reason": "探索資料として保存。採否の最終確定は未完了。"
+    },
+    {
+      "discovery_key": "S22",
+      "url": "https://www.city.kashiwazaki.lg.jp/material/files/group/3/kohyo_202603415_.pdf",
+      "retrieval_status": "unavailable",
+      "decision": "pending",
+      "incident_ids": [],
+      "reason": "画像PDF等で本文を抽出できない。"
+    },
+    {
+      "discovery_key": "S23",
+      "url": "https://www.ppc.go.jp/files/pdf/260311_shiryou-3-2.pdf",
+      "retrieval_status": "retrieved",
+      "decision": "excluded",
+      "incident_ids": [],
+      "reason": "審議会資料。個別事案として採用しない。"
+    },
+    {
+      "discovery_key": "S24",
+      "url": "https://www.gshs.keio.ac.jp/for-alumni/shomeshohakko.pdf",
+      "retrieval_status": "retrieved",
+      "decision": "excluded",
+      "incident_ids": [],
+      "reason": "証明書発行の申請様式。事故公表ではない。"
+    },
+    {
+      "discovery_key": "S25",
+      "url": "https://www.pref.osaka.lg.jp/hodo/fumin/o180040/prs_51153.html",
+      "retrieval_status": "retrieved",
+      "decision": "published",
+      "incident_ids": [
+        "osaka-izuo-student-loss-20260724"
+      ],
+      "reason": "公式本文で照合し掲載。"
+    },
+    {
+      "discovery_key": "S26",
+      "url": "https://www.pref.niigata.lg.jp/sec/seishin/houdou1.html",
+      "retrieval_status": "retrieved",
+      "decision": "published",
+      "incident_ids": [
+        "niigata-mental-certificate-loss-20260407"
+      ],
+      "reason": "公式本文で照合し掲載。"
+    },
+    {
+      "discovery_key": "S27",
+      "url": "https://sv1.tohoku-gakuin.ac.jp/info/top/260515-1.html",
+      "retrieval_status": "unavailable",
+      "decision": "pending",
+      "incident_ids": [],
+      "reason": "探索資料として保存。採否の最終確定は未完了。"
+    },
+    {
+      "discovery_key": "S28",
+      "url": "https://www.startia.co.jp/news/detail/?id=2491&site_name=startia",
+      "retrieval_status": "retrieved",
+      "decision": "published",
+      "incident_ids": [
+        "startia-mail-20260528"
+      ],
+      "reason": "公式本文で照合し掲載。"
+    },
+    {
+      "discovery_key": "S29",
+      "url": "https://www.pref.osaka.lg.jp/hodo/fumin/o180190/prs_49300.html",
+      "retrieval_status": "retrieved",
+      "decision": "published",
+      "incident_ids": [
+        "osaka-central-library-mail-20260710"
+      ],
+      "reason": "公式本文で照合し掲載。"
+    },
+    {
+      "discovery_key": "S30",
+      "url": "https://www.city.bunkyo.lg.jp/b003/p008248.html",
+      "retrieval_status": "retrieved",
+      "decision": "published",
+      "incident_ids": [
+        "bunkyo-futsal-mail-20260605"
+      ],
+      "reason": "公式本文で照合し掲載。"
+    },
+    {
+      "discovery_key": "S31",
+      "url": "https://www.pref.osaka.lg.jp/hodo/fumin/o180070/prs_50751.html",
+      "retrieval_status": "retrieved",
+      "decision": "published",
+      "incident_ids": [
+        "osaka-sano-baseball-fax-20261023"
+      ],
+      "reason": "公式本文で照合し掲載。"
+    },
+    {
+      "discovery_key": "S32",
+      "url": "https://www.meti.go.jp/press/2026/04/20260403003/20260403003-b.pdf",
+      "retrieval_status": "unavailable",
+      "decision": "pending",
+      "incident_ids": [],
+      "reason": "探索資料として保存。採否の最終確定は未完了。"
+    },
+    {
+      "discovery_key": "S33",
+      "url": "https://www.movic.jp/shop/t/t1011/",
+      "retrieval_status": "retrieved",
+      "decision": "discovery_only",
+      "incident_ids": [],
+      "reason": "探索資料として保存。採否の最終確定は未完了。"
+    },
+    {
+      "discovery_key": "S34",
+      "url": "https://www.tokyu-sports.com/company/news/20260608.pdf",
+      "retrieval_status": "retrieved",
+      "decision": "existing_source_match",
+      "incident_ids": [
+        "kawasaki-miyamae-sports-mail-20260608"
+      ],
+      "reason": "URL照合のみ。本文精査済みとは扱わない。"
+    },
+    {
+      "discovery_key": "S35",
+      "url": "https://www.digital.go.jp/press/5fc99139-a4e2-4b7b-8b0c-d475e926143f",
+      "retrieval_status": "retrieved",
+      "decision": "discovery_only",
+      "incident_ids": [],
+      "reason": "探索資料として保存。採否の最終確定は未完了。"
+    },
+    {
+      "discovery_key": "S36",
+      "url": "https://news.livedoor.com/article/detail/32273677/",
+      "retrieval_status": "unavailable",
+      "decision": "pending",
+      "incident_ids": [],
+      "reason": "探索資料として保存。採否の最終確定は未完了。"
+    },
+    {
+      "discovery_key": "S37",
+      "url": "https://www.city.higashiosaka.lg.jp/cmsfiles/contents/0000004/4100/rosei202606_5.pdf",
+      "retrieval_status": "retrieved",
+      "decision": "excluded",
+      "incident_ids": [],
+      "reason": "広報資料。今回の掲載案件の根拠として採用しない。"
+    },
+    {
+      "discovery_key": "S38",
+      "url": "https://www.city.osaka.lg.jp/hodoshiryo/keizaisenryaku/0000685813.html",
+      "retrieval_status": "retrieved",
+      "decision": "published",
+      "incident_ids": [
+        "osaka-museum-owner-mail-20260819"
+      ],
+      "reason": "公式本文で照合し掲載。"
+    },
+    {
+      "discovery_key": "S39",
+      "url": "https://www.pref.saitama.lg.jp/a0403/news/page/news2026082401.html",
+      "retrieval_status": "retrieved",
+      "decision": "pending",
+      "incident_ids": [],
+      "reason": "事業者口座情報。個人名義の情報を含むか未確定。"
+    },
+    {
+      "discovery_key": "S40",
+      "url": "https://www.town.fukui-wakasa.lg.jp/material/files/group/10/r8oubokiyaku.pdf",
+      "retrieval_status": "unavailable",
+      "decision": "excluded",
+      "incident_ids": [],
+      "reason": "応募規約。事故公表ではない。"
+    },
+    {
+      "discovery_key": "S41",
+      "url": "https://www.city.tama.lg.jp/shisei/1008239/sonota/1021561.html",
+      "retrieval_status": "retrieved",
+      "decision": "published",
+      "incident_ids": [
+        "tama-welfare-mobile-theft-20261022"
+      ],
+      "reason": "公式本文で照合し掲載。"
+    },
+    {
+      "discovery_key": "S42",
+      "url": "https://www.city.ichinomiya.aichi.jp/shisei/houdouhappyo/1068631/1075827/1077092.html",
+      "retrieval_status": "retrieved",
+      "decision": "existing_source_match",
+      "incident_ids": [
+        "ichinomiya-tour-mail-20260930"
+      ],
+      "reason": "URL照合のみ。本文精査済みとは扱わない。"
+    },
+    {
+      "discovery_key": "S43",
+      "url": "https://ai.itokoba.com/security-tier/incidents/incident-181/",
+      "retrieval_status": "retrieved",
+      "decision": "discovery_only",
+      "incident_ids": [],
+      "reason": "探索資料として保存。採否の最終確定は未完了。"
+    },
+    {
+      "discovery_key": "S44",
+      "url": "https://incidentlog.jp/incidents/kyoto-sanga-20260908",
+      "retrieval_status": "retrieved",
+      "decision": "discovery_only",
+      "incident_ids": [],
+      "reason": "探索資料として保存。採否の最終確定は未完了。"
+    },
+    {
+      "discovery_key": "S45",
+      "url": "https://www.pref.osaka.lg.jp/hodo/fumin/o180040/prs_51130.html",
+      "retrieval_status": "retrieved",
+      "decision": "published",
+      "incident_ids": [
+        "osaka-misaki-study-loss-20260227"
+      ],
+      "reason": "公式本文で照合し掲載。"
+    },
+    {
+      "discovery_key": "S46",
+      "url": "https://www.kansai-u.ac.jp/Gr_sch/admission/graduate/asset/2026/WebEntryInfo_2026.pdf",
+      "retrieval_status": "unavailable",
+      "decision": "excluded",
+      "incident_ids": [],
+      "reason": "入学出願の説明。事故公表ではない。"
+    },
+    {
+      "discovery_key": "S47",
+      "url": "https://www.city.osaka.lg.jp/hodoshiryo/keizaisenryaku/0000688772.html",
+      "retrieval_status": "retrieved",
+      "decision": "existing_source_match",
+      "incident_ids": [
+        "osaka-history-museum-mail-20261008"
+      ],
+      "reason": "URL照合のみ。本文精査済みとは扱わない。"
+    },
+    {
+      "discovery_key": "S48",
+      "url": "https://www.pref.ehime.jp/page/163068.html",
+      "retrieval_status": "retrieved",
+      "decision": "discovery_only",
+      "incident_ids": [],
+      "reason": "探索資料として保存。採否の最終確定は未完了。"
+    },
+    {
+      "discovery_key": "S49",
+      "url": "https://www.city.inazawa.aichi.jp/0000006084.html",
+      "retrieval_status": "unavailable",
+      "decision": "pending",
+      "incident_ids": [],
+      "reason": "探索資料として保存。採否の最終確定は未完了。"
+    },
+    {
+      "discovery_key": "S50",
+      "url": "https://incidentnews.jp/learn/misdelivery/",
+      "retrieval_status": "retrieved",
+      "decision": "discovery_only",
+      "incident_ids": [],
+      "reason": "探索資料として保存。採否の最終確定は未完了。"
+    },
+    {
+      "discovery_key": "S51",
+      "url": "https://www.metro.tokyo.lg.jp/ja/information/press/2026/10/2026102316",
+      "retrieval_status": "retrieved",
+      "decision": "discovery_only",
+      "incident_ids": [],
+      "reason": "探索資料として保存。採否の最終確定は未完了。"
+    },
+    {
+      "discovery_key": "S52",
+      "url": "https://www.pref.osaka.lg.jp/hodo/fumin/o180140/prs_50185.html",
+      "retrieval_status": "retrieved",
+      "decision": "published",
+      "incident_ids": [
+        "osaka-dispatched-attendance-loss-20261023"
+      ],
+      "reason": "公式本文で照合し掲載。"
+    },
+    {
+      "discovery_key": "S53",
+      "url": "https://www.pref.niigata.lg.jp/sec/minamiuonuma_seibi/0858847.html",
+      "retrieval_status": "retrieved",
+      "decision": "existing_source_match",
+      "incident_ids": [
+        "niigata-minamiuonuma-tablet-20261002"
+      ],
+      "reason": "URL照合のみ。本文精査済みとは扱わない。"
+    },
+    {
+      "discovery_key": "S54",
+      "url": "https://www.caa.go.jp/notice/entry/047974/",
+      "retrieval_status": "retrieved",
+      "decision": "excluded",
+      "incident_ids": [],
+      "reason": "注意喚起。新たな個別事故公表ではない。"
+    },
+    {
+      "discovery_key": "S55",
+      "url": "https://www.ppc.go.jp/news/press/2026/261007_houdou/",
+      "retrieval_status": "retrieved",
+      "decision": "excluded",
+      "incident_ids": [],
+      "reason": "注意喚起。新たな個別事故公表ではない。"
+    },
+    {
+      "discovery_key": "S56",
+      "url": "https://www.ppc.go.jp/aboutus/minutes/2026/20261007/",
+      "retrieval_status": "retrieved",
+      "decision": "excluded",
+      "incident_ids": [],
+      "reason": "委員会議事。新たな個別事故公表ではない。"
+    },
+    {
+      "discovery_key": "S57",
+      "url": "https://www.sp2.or.jp/information/1450/",
+      "retrieval_status": "retrieved",
+      "decision": "excluded",
+      "incident_ids": [],
+      "reason": "注意喚起の紹介。新たな個別事故公表ではない。"
+    },
+    {
+      "discovery_key": "S58",
+      "url": "https://www.digital.go.jp/assets/contents/node/basic_page/field_ref_resources/b37edb39-2a1c-4a1f-8c5e-431fcc299cd5/3940f366/20260203_digital-cybersecurity.outline.05.pdf",
+      "retrieval_status": "retrieved",
+      "decision": "excluded",
+      "incident_ids": [],
+      "reason": "会議参考資料。新たな個別事故公表ではない。"
+    },
+    {
+      "discovery_key": "S59",
+      "url": "https://www.meti.go.jp/policy/economy/consumer/credit/n2403261000.pdf",
+      "retrieval_status": "retrieved",
+      "decision": "excluded",
+      "incident_ids": [],
+      "reason": "報告制度変更の周知。個別事故公表ではない。"
+    },
+    {
+      "discovery_key": "E0",
+      "url": "https://www.city.kitahiroshima.hokkaido.jp/hotnews/sitemap/",
+      "retrieval_status": "retrieved",
+      "decision": "excluded",
+      "incident_ids": [],
+      "reason": "サイトマップ。個別公表の根拠にしない。"
+    },
+    {
+      "discovery_key": "E1",
+      "url": "https://global.toyota/pages/global_toyota/sustainability/privacy/posts/publication/202602_1.pdf",
+      "retrieval_status": "retrieved",
+      "decision": "pending",
+      "incident_ids": [],
+      "reason": "公式PDFに事案と対象情報はあるが、公表日の記載を確認できない。"
+    },
+    {
+      "discovery_key": "E2",
+      "url": "https://www.city.nagoya.jp/houdou/pressr7/3002888/3003744.html",
+      "retrieval_status": "retrieved",
+      "decision": "published",
+      "incident_ids": [
+        "nagoya-club-portal-mail-20260116"
+      ],
+      "reason": "公式本文で照合し掲載。"
+    },
+    {
+      "discovery_key": "E3",
+      "url": "https://www.pref.ibaraki.jp/somu/hodo/hodo/pressrelease/hodohappyoushiryou/2203/documents/260109kenchikushido.pdf",
+      "retrieval_status": "retrieved",
+      "decision": "published",
+      "incident_ids": [
+        "ibaraki-building-mail-20260109"
+      ],
+      "reason": "公式本文で照合し掲載。"
+    },
+    {
+      "discovery_key": "E4",
+      "url": "https://www.city.nagoya.jp/houdou/press-showa/3002771/3003791.html",
+      "retrieval_status": "retrieved",
+      "decision": "published",
+      "incident_ids": [
+        "nagoya-showa-infant-list-20260122"
+      ],
+      "reason": "公式本文で照合し掲載。"
+    },
+    {
+      "discovery_key": "E5",
+      "url": "https://www.city.nagoya.jp/houdou/press-meito/3002786/3003731.html",
+      "retrieval_status": "retrieved",
+      "decision": "published",
+      "incident_ids": [
+        "nagoya-meito-elderly-list-20260116"
+      ],
+      "reason": "公式本文で照合し掲載。"
+    },
+    {
+      "discovery_key": "E6",
+      "url": "https://www.city.nagoya.jp/houdou/pressr7/3002889/3004027.html",
+      "retrieval_status": "retrieved",
+      "decision": "published",
+      "incident_ids": [
+        "nagoya-food-safety-mail-20260219"
+      ],
+      "reason": "公式本文で照合し掲載。"
+    },
+    {
+      "discovery_key": "E7",
+      "url": "https://www.city.miyazaki.miyazaki.jp/fs/8/7/4/9/2/6/_/01___8_2_______________.pdf",
+      "retrieval_status": "retrieved",
+      "decision": "discovery_only",
+      "incident_ids": [],
+      "reason": "探索資料として保存。採否の最終確定は未完了。"
+    },
+    {
+      "discovery_key": "E8",
+      "url": "https://www.nmiri.city.nagoya.jp/wp-content/uploads/2025/11/260203.pdf",
+      "retrieval_status": "retrieved",
+      "decision": "excluded",
+      "incident_ids": [],
+      "reason": "講演会の募集案内。事故公表ではない。"
+    },
+    {
+      "discovery_key": "E9",
+      "url": "https://www.city.kumamoto.jp/kiji00369437/3_69437_490647_up_i46jsitk.pdf",
+      "retrieval_status": "retrieved",
+      "decision": "discovery_only",
+      "incident_ids": [],
+      "reason": "探索資料として保存。採否の最終確定は未完了。"
+    },
+    {
+      "discovery_key": "E10",
+      "url": "https://www.city.suita.osaka.jp/shisei/1018880/1018886/1039260/1041983/1041987.html",
+      "retrieval_status": "retrieved",
+      "decision": "published",
+      "incident_ids": [
+        "suita-sick-child-records-20260203"
+      ],
+      "reason": "公式本文で照合し掲載。"
+    },
+    {
+      "discovery_key": "E11",
+      "url": "https://www.city.ichinomiya.aichi.jp/shisei/houdouhappyo/1068631/1074627/1075438.html",
+      "retrieval_status": "retrieved",
+      "decision": "published",
+      "incident_ids": [
+        "ichinomiya-hospital-usb-20260501"
+      ],
+      "reason": "公式本文で照合し掲載。"
+    },
+    {
+      "discovery_key": "E12",
+      "url": "https://www.city.shinagawa.tokyo.jp/kusei/press_release/1008314/1009324.html",
+      "retrieval_status": "retrieved",
+      "decision": "published",
+      "incident_ids": [
+        "shinagawa-outdoor-document-20260601"
+      ],
+      "reason": "公式本文で照合し掲載。"
+    },
+    {
+      "discovery_key": "E13",
+      "url": "https://www.city.hachioji.tokyo.jp/emergency/bousai/m7914685/010/p005640_d/fil/shiengaiyou-r8.pdf",
+      "retrieval_status": "retrieved",
+      "decision": "excluded",
+      "incident_ids": [],
+      "reason": "防犯支援の申請案内。事故公表ではない。"
+    },
+    {
+      "discovery_key": "E14",
+      "url": "https://www.city.sabae.fukui.jp/kosodate_kyoiku/manabenoyakata/oshirase/Bunka012026082008424.html",
+      "retrieval_status": "retrieved",
+      "decision": "published",
+      "incident_ids": [
+        "sabae-bus-tour-mail-20260820"
+      ],
+      "reason": "公式本文で照合し掲載。"
+    }
+  ],
+  "discovery_stats": {
+    "watch_rows": 807,
+    "unmatched_rows": 248,
+    "unmatched_unique_urls": 229,
+    "search_primary_urls": 60,
+    "extra_primary_urls": 15
+  },
+  "report": "docs/research-2026-01-10-recheck.md",
+  "audit": "data/research-2026-01-10-recheck.json",
+  "deduplicated_during_review": [
+    {
+      "discarded_draft_id": "sankei-respection-form-20260911",
+      "retained_id": "sankei-respection-20260911"
+    },
+    {
+      "discarded_draft_id": "tokyu-sports-miyamae-mail-20260608",
+      "retained_id": "kawasaki-miyamae-sports-mail-20260608"
+    },
+    {
+      "discarded_draft_id": "fukuoka-care-cert-form-20260929",
+      "retained_id": "fukuoka-20260929"
+    },
+    {
+      "discarded_draft_id": "ibaraki-npo-mail-20260925",
+      "retained_id": "ibaraki-commons-mail-20260926"
+    },
+    {
+      "discarded_draft_id": "adachi-agriculture-ml-20260824",
+      "retained_id": "adachi-park-mail-20260824"
+    }
+  ]
+}

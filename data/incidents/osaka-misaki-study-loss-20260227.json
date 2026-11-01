@@ -1,0 +1,50 @@
+{
+  "id": "osaka-misaki-study-loss-20260227",
+  "organization": {
+    "name": "大阪府立岬高等学校",
+    "sector": "教育・研究"
+  },
+  "title": "校外学習マニュアル紛失で生徒332人の情報に影響",
+  "summary": "校外学習マニュアル紛失で生徒332人の情報に影響。",
+  "published_on": "2026-02-27",
+  "first_published_on": "2026-02-27",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "lost",
+  "incident_type": "accident",
+  "cause": {
+    "category": "loss",
+    "detail": "校外学習マニュアル紛失で生徒332人の情報に影響。具体的な経緯は公表資料を参照。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 332,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表資料の対象規模。内数・重複は注記参照。"
+    }
+  ],
+  "data_types": [
+    "学年",
+    "組",
+    "出席番号",
+    "氏名",
+    "当日の出欠"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.pref.osaka.lg.jp/hodo/fumin/o180040/prs_51130.html",
+      "type": "official",
+      "title": "校外学習マニュアル紛失で生徒332人の情報に影響",
+      "published_on": "2026-02-27",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": "2025年9月19日発生。2月27日の報道提供日を採用。"
+}

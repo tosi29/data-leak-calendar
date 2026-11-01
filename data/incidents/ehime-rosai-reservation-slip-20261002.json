@@ -1,0 +1,51 @@
+{
+  "id": "ehime-rosai-reservation-slip-20261002",
+  "organization": {
+    "name": "独立行政法人労働者健康安全機構 愛媛労災病院",
+    "sector": "企業・団体"
+  },
+  "title": "患者の予約票を別患者の家族へ誤交付",
+  "summary": "患者の予約票を別患者の家族へ誤交付。",
+  "published_on": "2026-10-02",
+  "first_published_on": "2026-10-02",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "accident",
+  "cause": {
+    "category": "misdelivery",
+    "detail": "患者の予約票を別患者の家族へ誤交付。具体的な経緯は公表資料を参照。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "対象規模は未公表。"
+    }
+  ],
+  "data_types": [
+    "患者氏名",
+    "患者ID",
+    "受診科",
+    "予約日時",
+    "主治医苗字",
+    "発行職員氏名"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.ehimeh.johas.go.jp/news/2026/000886.html",
+      "type": "official",
+      "title": "患者の予約票を別患者の家族へ誤交付",
+      "published_on": "2026-10-02",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": "患者1人と職員情報を含むが、重複を含む総人数は未確定。"
+}

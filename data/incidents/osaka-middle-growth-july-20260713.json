@@ -1,0 +1,51 @@
+{
+  "id": "osaka-middle-growth-july-20260713",
+  "organization": {
+    "name": "大阪市教育委員会",
+    "sector": "自治体"
+  },
+  "title": "中学校の個人懇談で20人の成長曲線等の書類を誤配付",
+  "summary": "中学校の個人懇談で20人の成長曲線等の書類を誤配付。",
+  "published_on": "2026-07-13",
+  "first_published_on": "2026-07-13",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "accident",
+  "cause": {
+    "category": "misdelivery",
+    "detail": "中学校の個人懇談で20人の成長曲線等の書類を誤配付。具体的な経緯は公表資料を参照。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 20,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表資料の対象規模。内数・重複は注記参照。"
+    }
+  ],
+  "data_types": [
+    "学年",
+    "組",
+    "出席番号",
+    "氏名",
+    "身長",
+    "体重"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.city.osaka.lg.jp/hodoshiryo/kyoiku/0000683607.html",
+      "type": "official",
+      "title": "中学校の個人懇談で20人の成長曲線等の書類を誤配付",
+      "published_on": "2026-07-13",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

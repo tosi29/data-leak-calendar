@@ -1,0 +1,46 @@
+{
+  "id": "sabae-bus-tour-mail-20260820",
+  "organization": {
+    "name": "鯖江市教育委員会文化課",
+    "sector": "自治体"
+  },
+  "title": "バスツアー応募者19人のメールアドレスを誤送信",
+  "summary": "バスツアー応募者19人のメールアドレスを誤送信。",
+  "published_on": "2026-08-20",
+  "first_published_on": "2026-08-20",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "accident",
+  "cause": {
+    "category": "misdelivery",
+    "detail": "バスツアー応募者19人のメールアドレスを誤送信。具体的な経緯は公表資料を参照。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 19,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表資料の対象規模。内数・重複は注記参照。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.city.sabae.fukui.jp/kosodate_kyoiku/manabenoyakata/oshirase/Bunka012026082008424.html",
+      "type": "official",
+      "title": "バスツアー応募者19人のメールアドレスを誤送信",
+      "published_on": "2026-08-20",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}
