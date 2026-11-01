@@ -1,0 +1,48 @@
+{
+  "id": "osaka-suminoe-election-mail-20260203",
+  "organization": {
+    "name": "大阪市住之江区選挙管理委員会",
+    "sector": "自治体"
+  },
+  "title": "投票管理者等57人の内部資料を選挙関係書類へ誤封入",
+  "summary": "投票管理者等57人の内部資料を選挙関係書類へ誤封入。",
+  "published_on": "2026-02-03",
+  "first_published_on": "2026-02-03",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "accident",
+  "cause": {
+    "category": "misdelivery",
+    "detail": "担当者が内部資料を送付対象と誤認し、確認でも発見できず同封した。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 57,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表時点の対象規模。内数・重複・確度は注記参照。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "電話番号"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.city.osaka.lg.jp/hodoshiryo/suminoe/0000672499.html",
+      "type": "official",
+      "title": "投票管理者等57人の内部資料を選挙関係書類へ誤封入",
+      "published_on": "2026-02-03",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": "発送先55人と漏えい対象57人を混同しない。"
+}

@@ -1,0 +1,47 @@
+{
+  "id": "kashiwa-school-plan-loss-20260206",
+  "organization": {
+    "name": "柏市立小学校",
+    "sector": "教育・研究"
+  },
+  "title": "児童の要配慮情報を含む指導計画・記録簿を紛失",
+  "summary": "児童の要配慮情報を含む指導計画・記録簿を紛失。",
+  "published_on": "2026-02-06",
+  "first_published_on": "2026-02-06",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "lost",
+  "incident_type": "accident",
+  "cause": {
+    "category": "loss",
+    "detail": "指導計画・記録簿が所在不明。保管場所・持ち出し制限等の取り決めが不徹底だった。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "対象件数は未公表。"
+    }
+  ],
+  "data_types": [
+    "児童の指導情報",
+    "健康に関する要配慮情報"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.city.kashiwa.lg.jp/koho/pressrelease/r7houdou/2gatsu/r8020603.html",
+      "type": "official",
+      "title": "児童の要配慮情報を含む指導計画・記録簿を紛失",
+      "published_on": "2026-02-06",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": "2月6日報道発表。ページ更新日7日と区別。"
+}

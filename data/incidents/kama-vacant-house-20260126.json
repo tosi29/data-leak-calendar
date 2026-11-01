@@ -1,0 +1,48 @@
+{
+  "id": "kama-vacant-house-20260126",
+  "organization": {
+    "name": "嘉麻市",
+    "sector": "自治体"
+  },
+  "title": "空き家バンクの物件ページに個人情報入りPDFを掲載",
+  "summary": "空き家バンクの物件ページに個人情報入りPDFを掲載。",
+  "published_on": "2026-01-26",
+  "first_published_on": "2026-01-26",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "exposed",
+  "incident_type": "accident",
+  "cause": {
+    "category": "redaction_error",
+    "detail": "市ホームページに個人情報を残したPDFを掲載した。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "対象件数は未公表。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "電話番号"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.city.kama.lg.jp/soshiki/0/41631.html",
+      "type": "official",
+      "title": "空き家バンクの物件ページに個人情報入りPDFを掲載",
+      "published_on": "2026-01-26",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

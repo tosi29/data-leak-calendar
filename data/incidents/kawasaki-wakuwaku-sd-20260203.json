@@ -1,0 +1,53 @@
+{
+  "id": "kawasaki-wakuwaku-sd-20260203",
+  "organization": {
+    "name": "川崎市／かわさき市民活動センター",
+    "sector": "企業・団体"
+  },
+  "title": "児童等約100人の写真を含むSDカードを指定管理者が紛失",
+  "summary": "児童等約100人の写真を含むSDカードを指定管理者が紛失。",
+  "published_on": "2026-02-03",
+  "first_published_on": "2026-02-03",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "lost",
+  "incident_type": "accident",
+  "cause": {
+    "category": "loss",
+    "detail": "施設間の作業で持ち出したSDカードを返却し忘れ、帰宅後に所在不明となった。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 100,
+      "unit": "people",
+      "qualifier": "approximate",
+      "description": "公表時点の対象規模。内数・重複・確度は注記参照。"
+    }
+  ],
+  "data_types": [
+    "児童等の写真"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.city.kawasaki.jp/templates/prs/450/0000184412.html",
+      "type": "official",
+      "title": "児童等約100人の写真を含むSDカードを指定管理者が紛失",
+      "published_on": "2026-02-03",
+      "checked_on": "2026-11-01"
+    },
+    {
+      "url": "https://www.city.kawasaki.jp/templates/prs/cmsfiles/contents/0000184/184412/houdouhappyou.pdf",
+      "type": "official",
+      "title": "公表資料（添付PDF）",
+      "published_on": "2026-02-03",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

@@ -1,0 +1,54 @@
+{
+  "id": "marimo-employee-phishing-20260306",
+  "organization": {
+    "name": "マリモホールディングス（グループ14社）",
+    "sector": "企業・団体"
+  },
+  "title": "役員を装うフィッシングで従業員約1,360人の情報が不正取得",
+  "summary": "役員を装うフィッシングで従業員約1,360人の情報が不正取得。",
+  "published_on": "2026-03-06",
+  "first_published_on": "2026-03-06",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "credentials",
+    "detail": "グループ役員をかたる業務依頼メールにより従業員情報を不正取得された。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 1360,
+      "unit": "people",
+      "qualifier": "approximate",
+      "description": "公表時点の対象規模。内数・重複・確度は注記参照。"
+    }
+  ],
+  "data_types": [
+    "所属会社",
+    "社員コード",
+    "氏名",
+    "カナ",
+    "入社年月日",
+    "社員区分",
+    "部署",
+    "勤務地",
+    "業務用メールアドレス"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://files.microcms-assets.io/assets/e37a046fa7724ecd9d522441341223e0/59febbd1aa98460e9fde5d5065dbb300/20260306.pdf",
+      "type": "official",
+      "title": "役員を装うフィッシングで従業員約1,360人の情報が不正取得",
+      "published_on": "2026-03-06",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": "2025年12月18日に発生。グループ14社が対象。"
+}

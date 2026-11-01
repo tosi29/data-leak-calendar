@@ -1,0 +1,55 @@
+{
+  "id": "yamagata-medical-form-20260213",
+  "organization": {
+    "name": "山形県（山形県医療機関等物価高騰対策支援事業・受託事業者）",
+    "sector": "企業・団体"
+  },
+  "title": "医療支援金の申請ページで別事業者の代表者・担当者情報を誤表示",
+  "summary": "医療支援金の申請ページで別事業者の代表者・担当者情報を誤表示。",
+  "published_on": "2026-02-13",
+  "first_published_on": "2026-02-13",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "exposed",
+  "incident_type": "accident",
+  "cause": {
+    "category": "configuration",
+    "detail": "委託先が別事業のデータを申請ページへ誤って紐付けた。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "対象件数は未公表。"
+    }
+  ],
+  "data_types": [
+    "代表者情報",
+    "口座名義人情報",
+    "担当者情報"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.pref.yamagata.jp/090013/20260212.html",
+      "type": "official",
+      "title": "医療支援金の申請ページで別事業者の代表者・担当者情報を誤表示",
+      "published_on": "2026-02-13",
+      "checked_on": "2026-11-01"
+    },
+    {
+      "url": "https://www.pref.yamagata.jp/documents/50854/press3.pdf",
+      "type": "official",
+      "title": "公表資料（添付PDF）",
+      "published_on": "2026-02-13",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": "誤結合12施設、閲覧確認7施設。施設数を個人の人数・件数として集計しない。"
+}

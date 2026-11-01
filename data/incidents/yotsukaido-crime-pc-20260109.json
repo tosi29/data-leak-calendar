@@ -1,0 +1,51 @@
+{
+  "id": "yotsukaido-crime-pc-20260109",
+  "organization": {
+    "name": "四街道市防犯協会",
+    "sector": "企業・団体"
+  },
+  "title": "サポート詐欺で端末が遠隔操作され名簿約1,700件等に漏えいのおそれ",
+  "summary": "サポート詐欺で端末が遠隔操作され名簿約1,700件等に漏えいのおそれ。",
+  "published_on": "2026-01-09",
+  "first_published_on": "2026-01-09",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "credentials",
+    "detail": "偽のウイルス警告を契機に外部へ不正接続し、約30分遠隔操作可能になった。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 1700,
+      "unit": "records",
+      "qualifier": "approximate",
+      "description": "公表時点の対象規模。内数・重複・確度は注記参照。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "生年月日",
+    "電話番号",
+    "メールアドレス",
+    "本人識別可能な画像"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.city.yotsukaido.chiba.jp/shisei/koho/houdou_kouhyou/2025houdou/20260109_houdou.html",
+      "type": "official",
+      "title": "サポート詐欺で端末が遠隔操作され名簿約1,700件等に漏えいのおそれ",
+      "published_on": "2026-01-09",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": "名簿約1,700件のほか画像約100件。画像件数を人数に換算しない。"
+}

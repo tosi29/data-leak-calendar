@@ -1,0 +1,48 @@
+{
+  "id": "yamashita-higashiyama-20260330",
+  "organization": {
+    "name": "ヤマシタ",
+    "sector": "企業・団体"
+  },
+  "title": "福祉用具レンタルの委託先侵害で顧客情報に漏えいのおそれ",
+  "summary": "福祉用具レンタルの委託先侵害で顧客情報に漏えいのおそれ。",
+  "published_on": "2026-03-30",
+  "first_published_on": "2026-03-30",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。具体的な侵入経路は未公表または調査中。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "対象件数は未公表。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "電話番号",
+    "住所"
+  ],
+  "related_vendor": "東山産業",
+  "sources": [
+    {
+      "url": "https://www.yco.co.jp/news/20260330_4997/",
+      "type": "official",
+      "title": "福祉用具レンタルの委託先侵害で顧客情報に漏えいのおそれ",
+      "published_on": "2026-03-30",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": "3月10日に東山産業のシステムでランサムウェア被害。ヤマシタ自社システムへの攻撃とは区別。"
+}

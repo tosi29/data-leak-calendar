@@ -1,0 +1,48 @@
+{
+  "id": "tokyo-kosha-upgrade-20260316",
+  "organization": {
+    "name": "東京都中小企業振興公社／TOKYO UPGRADE SQUARE",
+    "sector": "企業・団体"
+  },
+  "title": "TOKYO UPGRADE SQUARE侵害で会員情報に閲覧のおそれ",
+  "summary": "TOKYO UPGRADE SQUARE侵害で会員情報に閲覧のおそれ。",
+  "published_on": "2026-03-16",
+  "first_published_on": "2026-01-16",
+  "publication_kind": "followup",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。具体的な侵入経路は未公表または調査中。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "対象件数は未公表。"
+    }
+  ],
+  "data_types": [
+    "会員氏名",
+    "メールアドレス",
+    "その他取扱情報"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.tokyo-kosha.or.jp/topics/2603/0010.html",
+      "type": "official",
+      "title": "TOKYO UPGRADE SQUARE侵害で会員情報に閲覧のおそれ",
+      "published_on": "2026-03-16",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": "1月16日のサイト侵害公表に続く第2報で、個人情報への影響を具体化。初報の取得は今回未実施。"
+}

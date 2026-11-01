@@ -1,0 +1,53 @@
+{
+  "id": "kagawa-teacher-stat-mail-20260310",
+  "organization": {
+    "name": "香川県教育委員会",
+    "sector": "企業・団体"
+  },
+  "title": "教員35人の統計調査データを別高校へ誤送信",
+  "summary": "教員35人の統計調査データを別高校へ誤送信。",
+  "published_on": "2026-03-10",
+  "first_published_on": "2026-03-10",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "accident",
+  "cause": {
+    "category": "misdelivery",
+    "detail": "送信時の確認不足で別高校の調査データを添付した。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 35,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表時点の対象規模。内数・重複・確度は注記参照。"
+    }
+  ],
+  "data_types": [
+    "性別",
+    "年齢",
+    "職名",
+    "勤務年数",
+    "学歴",
+    "免許",
+    "授業担当状況",
+    "給料月額"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.pref.kagawa.lg.jp/kenkyoui/kyoisomu/syokai/sonota/20260310mail.html",
+      "type": "official",
+      "title": "教員35人の統計調査データを別高校へ誤送信",
+      "published_on": "2026-03-10",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": "氏名は整理番号だが職名等から個人を特定できる可能性がある。"
+}

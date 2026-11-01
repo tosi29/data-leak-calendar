@@ -1,0 +1,46 @@
+{
+  "id": "yamagata-teacher-age-20260310",
+  "organization": {
+    "name": "山形大学",
+    "sector": "教育・研究"
+  },
+  "title": "教員等の年齢延べ2,149件を公開資料から削除せず掲載",
+  "summary": "教員等の年齢延べ2,149件を公開資料から削除せず掲載。",
+  "published_on": "2026-03-10",
+  "first_published_on": "2026-03-10",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "exposed",
+  "incident_type": "accident",
+  "cause": {
+    "category": "redaction_error",
+    "detail": "公表資料の教員・役員名簿から年齢を削除せず公開した。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 2149,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "公表時点の対象規模。内数・重複・確度は注記参照。"
+    }
+  ],
+  "data_types": [
+    "年齢"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.yamagata-u.ac.jp/jp/information/info/20260308/",
+      "type": "official",
+      "title": "教員等の年齢延べ2,149件を公開資料から削除せず掲載",
+      "published_on": "2026-03-10",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": "延べ件数で重複あり。実人数として扱わない。"
+}

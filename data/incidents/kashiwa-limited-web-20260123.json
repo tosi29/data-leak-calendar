@@ -1,0 +1,49 @@
+{
+  "id": "kashiwa-limited-web-20260123",
+  "organization": {
+    "name": "柏市広報広聴課／医療公社管理課",
+    "sector": "企業・団体"
+  },
+  "title": "限定公開ページの資料に約150件の個人情報を掲載",
+  "summary": "限定公開ページの資料に約150件の個人情報を掲載。",
+  "published_on": "2026-01-23",
+  "first_published_on": "2026-01-23",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "exposed",
+  "incident_type": "accident",
+  "cause": {
+    "category": "configuration",
+    "detail": "事業者向けページに認証を設けず、個人情報入りファイルへ外部からアクセス可能だった。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 150,
+      "unit": "records",
+      "qualifier": "approximate",
+      "description": "公表時点の対象規模。内数・重複・確度は注記参照。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "設計者・施工者・職員の氏名",
+    "印影"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.city.kashiwa.lg.jp/documents/42514/kouhou_kohyo.pdf",
+      "type": "official",
+      "title": "限定公開ページの資料に約150件の個人情報を掲載",
+      "published_on": "2026-01-23",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": "住宅地図の96件は内数。検索除外のみでアクセス制限されたとは扱わない。"
+}

@@ -1,0 +1,52 @@
+{
+  "id": "justcurtain-ec-20260126",
+  "organization": {
+    "name": "インテリックス（ジャストカーテン）",
+    "sector": "企業・団体"
+  },
+  "title": "通販サイトで顧客60,663人・うちカード利用者10,423人の情報に漏えいのおそれ",
+  "summary": "通販サイトで顧客60,663人・うちカード利用者10,423人の情報に漏えいのおそれ。",
+  "published_on": "2026-01-26",
+  "first_published_on": null,
+  "publication_kind": "followup",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "vulnerability",
+    "detail": "システムの脆弱性を突いた不正アクセスで決済アプリケーションが改ざんされた。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 60663,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表時点の対象規模。内数・重複・確度は注記参照。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "電話番号",
+    "メールアドレス",
+    "パスワード",
+    "生年月日",
+    "カード名義・番号・有効期限・セキュリティコード"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.justcurtain.com/html/user_data/justcurtain_news2.pdf",
+      "type": "official",
+      "title": "通販サイトで顧客60,663人・うちカード利用者10,423人の情報に漏えいのおそれ",
+      "published_on": "2026-01-26",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": "カード情報10,423人は顧客範囲の内数で合算しない。カード・顧客情報で対象期間が異なる。店舗購入は対象外。"
+}

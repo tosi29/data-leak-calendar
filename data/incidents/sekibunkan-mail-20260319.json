@@ -1,0 +1,46 @@
+{
+  "id": "sekibunkan-mail-20260319",
+  "organization": {
+    "name": "株式会社積文館書店",
+    "sector": "企業・団体"
+  },
+  "title": "教科書販売案内で顧客320人のメールアドレスを誤送信",
+  "summary": "教科書販売案内で顧客320人のメールアドレスを誤送信。",
+  "published_on": "2026-03-19",
+  "first_published_on": "2026-03-19",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "accident",
+  "cause": {
+    "category": "misdelivery",
+    "detail": "BCCではなくCC欄へ宛先を入力して一斉送信した。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 320,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表時点の対象規模。内数・重複・確度は注記参照。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.nic-retails.co.jp/wp/wp-content/uploads/2026/03/4e5a5a2d7fd91be78ecb7256d6bee6b0.pdf",
+      "type": "official",
+      "title": "教科書販売案内で顧客320人のメールアドレスを誤送信",
+      "published_on": "2026-03-19",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

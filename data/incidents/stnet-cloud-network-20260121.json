@@ -1,0 +1,51 @@
+{
+  "id": "stnet-cloud-network-20260121",
+  "organization": {
+    "name": "STNet",
+    "sector": "企業・団体"
+  },
+  "title": "クラウド構築・運用ネットワークへの侵入で担当者20,846人の情報に漏えいのおそれ",
+  "summary": "クラウド構築・運用ネットワークへの侵入で担当者20,846人の情報に漏えいのおそれ。",
+  "published_on": "2026-01-21",
+  "first_published_on": "2025-11-21",
+  "publication_kind": "followup",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "credentials",
+    "detail": "侵入後、サーバー内に保存したリモートアクセス用設定ファイルを利用された。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 20846,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表時点の対象規模。内数・重複・確度は注記参照。"
+    }
+  ],
+  "data_types": [
+    "会社名",
+    "氏名",
+    "メールアドレス",
+    "電話番号",
+    "生年月日",
+    "システムID・パスワード"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.stnet.co.jp/news/oshirase_20260121.html",
+      "type": "official",
+      "title": "クラウド構築・運用ネットワークへの侵入で担当者20,846人の情報に漏えいのおそれ",
+      "published_on": "2026-01-21",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": "個人情報は一部企業・団体の担当者分。約44万ファイルは調査対象で、流出人数ではない。ピカラのKDDIメール基盤事案とは別。"
+}

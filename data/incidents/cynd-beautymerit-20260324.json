@@ -1,0 +1,48 @@
+{
+  "id": "cynd-beautymerit-20260324",
+  "organization": {
+    "name": "株式会社サインド／BeautyMerit",
+    "sector": "企業・団体"
+  },
+  "title": "BeautyMeritへの攻撃で利用者情報に漏えいのおそれ",
+  "summary": "BeautyMeritへの攻撃で利用者情報に漏えいのおそれ。",
+  "published_on": "2026-03-24",
+  "first_published_on": "2026-03-24",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。具体的な侵入経路は未公表または調査中。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "対象件数は未公表。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "電話番号",
+    "メールアドレス"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://cynd.co.jp/2026/03/24/announce01/",
+      "type": "official",
+      "title": "BeautyMeritへの攻撃で利用者情報に漏えいのおそれ",
+      "published_on": "2026-03-24",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": "3月10日に不審なアクセスを検知。カード情報は保持していない。"
+}

@@ -1,0 +1,49 @@
+{
+  "id": "ntp-recall-mail-20260207",
+  "organization": {
+    "name": "NTP名古屋トヨペット",
+    "sector": "企業・団体"
+  },
+  "title": "リコール案内DMの誤封入で顧客50人の情報が漏えい",
+  "summary": "リコール案内DMの誤封入で顧客50人の情報が漏えい。",
+  "published_on": "2026-02-07",
+  "first_published_on": "2026-02-07",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "accident",
+  "cause": {
+    "category": "misdelivery",
+    "detail": "委託先の封入確認と自社の最終検品が不十分で別顧客の宛名用紙が混入した。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 50,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表時点の対象規模。内数・重複・確度は注記参照。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "登録番号",
+    "車台番号"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://nagoya.toyopet-dealer.jp/file/special/14701/4989/news/%E3%80%8C%E3%83%97%E3%83%AA%E3%82%A6%E3%82%B9%20%E3%83%AA%E3%82%B3%E3%83%BC%E3%83%AB%E6%A1%88%E5%86%85DM%E3%80%8D%E3%81%AB%E3%81%8A%E3%81%91%E3%82%8B%E5%80%8B%E4%BA%BA%E6%83%85%E5%A0%B1%E3%81%AE%E8%AA%A4%E9%80%81%E4%BB%98%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E3%81%8A%E8%A9%AB%E3%81%B3%E3%81%A8%E3%81%8A%E9%A1%98%E3%81%84.pdf",
+      "type": "official",
+      "title": "リコール案内DMの誤封入で顧客50人の情報が漏えい",
+      "published_on": "2026-02-07",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": "452件の発送全件を被害数としない。"
+}

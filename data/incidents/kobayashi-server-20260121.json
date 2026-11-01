@@ -1,0 +1,56 @@
+{
+  "id": "kobayashi-server-20260121",
+  "organization": {
+    "name": "コバヤシ",
+    "sector": "企業・団体"
+  },
+  "title": "求人応募者・従業員等の個人情報8,149件が漏えい",
+  "summary": "求人応募者・従業員等の個人情報8,149件が漏えい。",
+  "published_on": "2026-01-21",
+  "first_published_on": null,
+  "publication_kind": "followup",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "vulnerability",
+    "detail": "システムの一部の脆弱性を悪用し不正プログラムを設置された。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 8149,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "公表時点の対象規模。内数・重複・確度は注記参照。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "生年月日",
+    "連絡先",
+    "口座番号",
+    "報酬額",
+    "パスポート番号",
+    "被保険者証番号",
+    "家族情報",
+    "基礎年金番号",
+    "マイナンバー（一部）"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.kbjapan.co.jp/jpn/2026_1_21",
+      "type": "official",
+      "title": "求人応募者・従業員等の個人情報8,149件が漏えい",
+      "published_on": "2026-01-21",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": "求人応募者4,984件、従業員等3,074件、個人事業主35件・56件。対象項目は区分・人ごとに異なる。最終報。5月15日は問い合わせ窓口の修正日。"
+}

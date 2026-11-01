@@ -1,0 +1,52 @@
+{
+  "id": "tokyofm-analytics-20260106",
+  "organization": {
+    "name": "株式会社エフエム東京（TOKYO FM）",
+    "sector": "企業・団体"
+  },
+  "title": "外部クラウドの分析用ユーザー属性情報が流出",
+  "summary": "外部クラウドの分析用ユーザー属性情報が流出。",
+  "published_on": "2026-01-06",
+  "first_published_on": "2026-01-06",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "unknown",
+  "cause": {
+    "category": "unknown",
+    "detail": "外部クラウド上のデータが流出。原因は提供事業者と調査中。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "対象件数は未公表。"
+    }
+  ],
+  "data_types": [
+    "ユーザー名・ラジオネーム",
+    "性別",
+    "年齢",
+    "職業種別",
+    "都道府県",
+    "投稿本文",
+    "一部メールアドレス"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.tfm.co.jp/company/about/ir/news/47630",
+      "type": "official",
+      "title": "外部クラウドの分析用ユーザー属性情報が流出",
+      "published_on": "2026-01-06",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": "旧AuDeeや番組関連サービスの一部。放送局自社サーバー侵害の痕跡はない。氏名・住所・電話・パスワード・カードは対象外。"
+}

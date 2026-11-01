@@ -1,0 +1,53 @@
+{
+  "id": "tane-hospital-usb-20260317",
+  "organization": {
+    "name": "多根総合病院",
+    "sector": "企業・団体"
+  },
+  "title": "委託先が患者379人の診療情報を保存したUSBを紛失",
+  "summary": "委託先が患者379人の診療情報を保存したUSBを紛失。",
+  "published_on": "2026-03-17",
+  "first_published_on": "2026-03-17",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "lost",
+  "incident_type": "accident",
+  "cause": {
+    "category": "loss",
+    "detail": "院内の保管場所から委託先所有のUSBメモリが所在不明となった。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 379,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表時点の対象規模。内数・重複・確度は注記参照。"
+    }
+  ],
+  "data_types": [
+    "患者ID",
+    "氏名",
+    "性別",
+    "生年月日",
+    "病名",
+    "術式",
+    "麻酔情報",
+    "手術担当者情報"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://general.tane.or.jp/archives/13759",
+      "type": "official",
+      "title": "委託先が患者379人の診療情報を保存したUSBを紛失",
+      "published_on": "2026-03-17",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": "暗号化なし。379は患者数でスタッフ等を含む総人数ではない。"
+}

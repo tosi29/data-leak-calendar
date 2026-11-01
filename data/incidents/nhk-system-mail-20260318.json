@@ -1,0 +1,46 @@
+{
+  "id": "nhk-system-mail-20260318",
+  "organization": {
+    "name": "日本放送協会（NHK）",
+    "sector": "企業・団体"
+  },
+  "title": "作業申請システムのメール誤送信で32,940人のアドレスが相互表示",
+  "summary": "作業申請システムのメール誤送信で32,940人のアドレスが相互表示。",
+  "published_on": "2026-03-18",
+  "first_published_on": "2026-03-18",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "accident",
+  "cause": {
+    "category": "misdelivery",
+    "detail": "保守ベンダーの担当者が承認依頼メールの対象を全登録者へ誤設定した。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 32940,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表時点の対象規模。内数・重複・確度は注記参照。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.nhk.or.jp/info/pressrelease/assets/pdf/2025/20260318.pdf",
+      "type": "official",
+      "title": "作業申請システムのメール誤送信で32,940人のアドレスが相互表示",
+      "published_on": "2026-03-18",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": "3月17日に100人ずつのグループ単位で送信。全員が全32,940人のアドレスを閲覧できたわけではない。"
+}

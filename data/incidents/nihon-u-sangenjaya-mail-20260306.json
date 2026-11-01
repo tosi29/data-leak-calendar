@@ -1,0 +1,46 @@
+{
+  "id": "nihon-u-sangenjaya-mail-20260306",
+  "organization": {
+    "name": "日本大学三軒茶屋キャンパス",
+    "sector": "教育・研究"
+  },
+  "title": "職員メールの乗っ取りでメールボックス内の個人情報に閲覧のおそれ",
+  "summary": "職員メールの乗っ取りでメールボックス内の個人情報に閲覧のおそれ。",
+  "published_on": "2026-03-06",
+  "first_published_on": "2026-03-06",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "credentials",
+    "detail": "クラウドサービスを装うフィッシングで認証情報を窃取された。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "対象件数は未公表。"
+    }
+  ],
+  "data_types": [
+    "メールボックス内の個人情報"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.crm.nihon-u.ac.jp/gs/important/nurmg/",
+      "type": "official",
+      "title": "職員メールの乗っ取りでメールボックス内の個人情報に閲覧のおそれ",
+      "published_on": "2026-03-06",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": "321は不審メール送信件数であり漏えい人数ではない。"
+}

@@ -1,0 +1,49 @@
+{
+  "id": "niigata-student-sheet-20260324",
+  "organization": {
+    "name": "新潟大学",
+    "sector": "教育・研究"
+  },
+  "title": "学生1,478人と保証人の情報を含む学籍シートを誤送信",
+  "summary": "学生1,478人と保証人の情報を含む学籍シートを誤送信。",
+  "published_on": "2026-03-24",
+  "first_published_on": "2026-03-24",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "accident",
+  "cause": {
+    "category": "misdelivery",
+    "detail": "参照元シートを削除し忘れたExcelファイルを学生・指導教員へ送信した。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 1478,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表時点の対象規模。内数・重複・確度は注記参照。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "学籍番号",
+    "住所",
+    "保証人氏名"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.niigata-u.ac.jp/news/2026/1062263/",
+      "type": "official",
+      "title": "学生1,478人と保証人の情報を含む学籍シートを誤送信",
+      "published_on": "2026-03-24",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": "1,478は学生数。保証人を含む実人数は未確定。送信先58人を加算しない。"
+}

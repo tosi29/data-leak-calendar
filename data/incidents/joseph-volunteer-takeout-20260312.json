@@ -1,0 +1,50 @@
+{
+  "id": "joseph-volunteer-takeout-20260312",
+  "organization": {
+    "name": "社会福祉法人聖テレジア会 聖ヨゼフ病院",
+    "sector": "企業・団体"
+  },
+  "title": "元職員がボランティア名簿を持ち出し勧誘に使用",
+  "summary": "元職員がボランティア名簿を持ち出し勧誘に使用。",
+  "published_on": "2026-03-12",
+  "first_published_on": "2026-03-12",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "improper_handling",
+  "cause": {
+    "category": "improper_sharing",
+    "detail": "元職員が外部媒体へ名簿を記録して持ち出し、退職後の私的な勧誘へ利用した。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "対象件数は未公表。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "生年月日",
+    "住所",
+    "電話番号",
+    "メールアドレス"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.st-joseph.jp/wp/wp-content/uploads/2026/03/apologies-and-Notice-20260312.pdf",
+      "type": "official",
+      "title": "元職員がボランティア名簿を持ち出し勧誘に使用",
+      "published_on": "2026-03-12",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

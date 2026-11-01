@@ -1,0 +1,46 @@
+{
+  "id": "kanagawa-form-document-20260310",
+  "organization": {
+    "name": "神奈川県",
+    "sector": "自治体"
+  },
+  "title": "問い合わせフォーム利用者5人の氏名を自治体向け掲示板で誤共有",
+  "summary": "問い合わせフォーム利用者5人の氏名を自治体向け掲示板で誤共有。",
+  "published_on": "2026-03-10",
+  "first_published_on": "2026-03-10",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "exposed",
+  "incident_type": "accident",
+  "cause": {
+    "category": "redaction_error",
+    "detail": "機能改善資料の氏名を削除する処理が不完全だった。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 5,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表時点の対象規模。内数・重複・確度は注記参照。"
+    }
+  ],
+  "data_types": [
+    "氏名"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.pref.kanagawa.jp/docs/fz7/prs/r8871598.html",
+      "type": "official",
+      "title": "問い合わせフォーム利用者5人の氏名を自治体向け掲示板で誤共有",
+      "published_on": "2026-03-10",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

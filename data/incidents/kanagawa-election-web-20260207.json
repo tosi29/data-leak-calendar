@@ -1,0 +1,49 @@
+{
+  "id": "kanagawa-election-web-20260207",
+  "organization": {
+    "name": "神奈川県選挙管理委員会",
+    "sector": "企業・団体"
+  },
+  "title": "候補者の届出書に記載された10人の情報を誤公開",
+  "summary": "候補者の届出書に記載された10人の情報を誤公開。",
+  "published_on": "2026-02-07",
+  "first_published_on": "2026-02-07",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "exposed",
+  "incident_type": "accident",
+  "cause": {
+    "category": "redaction_error",
+    "detail": "ホームページ更新時に公開対象外の届出書の電子データへ誤ってリンクした。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 10,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表時点の対象規模。内数・重複・確度は注記参照。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "年齢",
+    "性別"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.pref.kanagawa.jp/docs/em7/prs/r9113648.html",
+      "type": "official",
+      "title": "候補者の届出書に記載された10人の情報を誤公開",
+      "published_on": "2026-02-07",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

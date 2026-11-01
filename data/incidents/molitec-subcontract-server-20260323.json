@@ -1,0 +1,46 @@
+{
+  "id": "molitec-subcontract-server-20260323",
+  "organization": {
+    "name": "モリテックスチール株式会社",
+    "sector": "企業・団体"
+  },
+  "title": "再委託先のサーバー侵害で受注備考欄等の個人情報に影響のおそれ",
+  "summary": "再委託先のサーバー侵害で受注備考欄等の個人情報に影響のおそれ。",
+  "published_on": "2026-03-23",
+  "first_published_on": "2026-03-23",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。具体的な侵入経路は未公表または調査中。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "対象件数は未公表。"
+    }
+  ],
+  "data_types": [
+    "受注情報の自由記載欄に含まれる氏名等"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.molitec.co.jp/wp/wp-content/uploads/2026/03/unauthorized_access_20260323.pdf",
+      "type": "official",
+      "title": "再委託先のサーバー侵害で受注備考欄等の個人情報に影響のおそれ",
+      "published_on": "2026-03-23",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": "主要項目はマスキング済みだが自由記載欄は未処理。個人情報を含む範囲は調査中。"
+}

@@ -1,0 +1,51 @@
+{
+  "id": "osaka-school-exam-list-20260312",
+  "organization": {
+    "name": "大阪市立中学校（校名非公表）",
+    "sector": "教育・研究"
+  },
+  "title": "受験校等を記載した生徒56人の名簿を路上で一時紛失",
+  "summary": "受験校等を記載した生徒56人の名簿を路上で一時紛失。",
+  "published_on": "2026-03-12",
+  "first_published_on": "2026-03-12",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "lost",
+  "incident_type": "accident",
+  "cause": {
+    "category": "loss",
+    "detail": "教員が生徒の通過確認に使った名簿を携行中に紛失した。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 56,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表時点の対象規模。内数・重複・確度は注記参照。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "組",
+    "出席番号",
+    "性別",
+    "受験校",
+    "受験学科"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.city.osaka.lg.jp/hodoshiryo/kyoiku/0000675331.html",
+      "type": "official",
+      "title": "受験校等を記載した生徒56人の名簿を路上で一時紛失",
+      "published_on": "2026-03-12",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": "3月11日15時頃に学校と駅の間の路上で発見。"
+}

@@ -1,0 +1,48 @@
+{
+  "id": "yoichi-furusato-display-20260312",
+  "organization": {
+    "name": "余市町／ユニメディア（ふるさとプレミアム）",
+    "sector": "企業・団体"
+  },
+  "title": "ふるさと納税の非公開希望者情報約1,500件を誤表示",
+  "summary": "ふるさと納税の非公開希望者情報約1,500件を誤表示。",
+  "published_on": "2026-03-12",
+  "first_published_on": "2026-03-12",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "exposed",
+  "incident_type": "accident",
+  "cause": {
+    "category": "configuration",
+    "detail": "受託事業者のシステム不具合で非公開設定が表示へ反映されなかった。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 1500,
+      "unit": "records",
+      "qualifier": "approximate",
+      "description": "公表時点の対象規模。内数・重複・確度は注記参照。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "都道府県・市区町村名",
+    "寄附金額"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.town.yoichi.hokkaido.jp/oshirase/2026/2026-0312-1627-11.html",
+      "type": "official",
+      "title": "ふるさと納税の非公開希望者情報約1,500件を誤表示",
+      "published_on": "2026-03-12",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": "3月11日時点で全件非公開化。カード・住所詳細・電話番号は対象外。"
+}

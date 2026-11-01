@@ -1,0 +1,46 @@
+{
+  "id": "kagoshima-match-mail-20260203",
+  "organization": {
+    "name": "鹿児島市（企業・団体間交流・出会いサポート事業）",
+    "sector": "企業・団体"
+  },
+  "title": "婚活イベント参加者等10人のメールアドレスを誤送信",
+  "summary": "婚活イベント参加者等10人のメールアドレスを誤送信。",
+  "published_on": "2026-02-03",
+  "first_published_on": "2026-02-03",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "accident",
+  "cause": {
+    "category": "misdelivery",
+    "detail": "受託事業者が一斉送信時の手続きを守らずアドレスが表示される形で送信した。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 10,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表時点の対象規模。内数・重複・確度は注記参照。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.city.kagoshima.lg.jp/soumu/soumu/soumu/documents/roueikouhyou32.pdf",
+      "type": "official",
+      "title": "婚活イベント参加者等10人のメールアドレスを誤送信",
+      "published_on": "2026-02-03",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

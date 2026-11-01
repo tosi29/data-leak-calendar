@@ -1,0 +1,51 @@
+{
+  "id": "cosmos-initia-mail-20260317",
+  "organization": {
+    "name": "株式会社コスモスイニシア",
+    "sector": "企業・団体"
+  },
+  "title": "メールアカウントへの侵入で取引先の署名情報等が漏えい",
+  "summary": "メールアカウントへの侵入で取引先の署名情報等が漏えい。",
+  "published_on": "2026-03-17",
+  "first_published_on": "2026-03-17",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "credentials",
+    "detail": "特定のメールアカウントが不正利用された。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 82,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "公表時点の対象規模。内数・重複・確度は注記参照。"
+    }
+  ],
+  "data_types": [
+    "メール内容",
+    "署名情報",
+    "会社名",
+    "会社住所",
+    "電話番号",
+    "メールアドレス"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.cigr.co.jp/app/uploads/sites/6/2026/03/date-leakage_0317.pdf",
+      "type": "official",
+      "title": "メールアカウントへの侵入で取引先の署名情報等が漏えい",
+      "published_on": "2026-03-17",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": "82は送受信対象のメールアドレス数で人数ではない。2024～2025年に不正利用の履歴を確認。"
+}

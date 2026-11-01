@@ -1,0 +1,46 @@
+{
+  "id": "yamaguchi-elementary-mail-20260206",
+  "organization": {
+    "name": "山口大学",
+    "sector": "教育・研究"
+  },
+  "title": "附属小学校の説明会申込者82件のメールアドレスを誤送信",
+  "summary": "附属小学校の説明会申込者82件のメールアドレスを誤送信。",
+  "published_on": "2026-02-06",
+  "first_published_on": "2026-02-06",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "accident",
+  "cause": {
+    "category": "misdelivery",
+    "detail": "申込者への案内をBCCではなくTOで一斉送信した。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 82,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "公表時点の対象規模。内数・重複・確度は注記参照。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.yamaguchi-u.ac.jp/news/47064/index.html",
+      "type": "official",
+      "title": "附属小学校の説明会申込者82件のメールアドレスを誤送信",
+      "published_on": "2026-02-06",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": "2025年11月25日に発生。2026年2月6日の対外公表で掲載。"
+}

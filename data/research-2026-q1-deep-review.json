@@ -1,0 +1,4752 @@
+{
+  "checked_on": "2026-11-01",
+  "coverage_start": "2026-01-01",
+  "coverage_end": "2026-03-31",
+  "scope": "初回38件に対する1～3月の収集不足補完",
+  "stats": {
+    "baseline_incidents": 1850,
+    "added_incidents": 120,
+    "updated_incidents": 14,
+    "merged_duplicates": 1,
+    "total_incidents": 1969,
+    "monthly_publications": {
+      "2026-01": 52,
+      "2026-02": 48,
+      "2026-03": 64
+    },
+    "quarter_publications": 164,
+    "new_candidates": 21,
+    "resolved_candidates": 0,
+    "pending_candidates": 96
+  },
+  "added_incident_ids": [
+    "asahikawa-welfare-disposal-20260114",
+    "tokai-oneoffice-20260123",
+    "cac-academic-navi-20260113",
+    "yahoo-store-address-20260213",
+    "btcbox-shared-material-20260205",
+    "dormy-senior-phishing-20260205",
+    "kamaasa-coastline-20260127",
+    "justcurtain-ec-20260126",
+    "maff-payroll-mail-20260123",
+    "kobayashi-server-20260121",
+    "stnet-cloud-network-20260121",
+    "mazda-thailand-warehouse-20260319",
+    "princess-kyoto-expedia-20260319",
+    "unitedarrows-takeout-20260316",
+    "takakatsu-ransom-20260317",
+    "nihonmatsu-private-query-20260309",
+    "fundex-aoyama-20260310",
+    "jnj-academic-navi-20260309",
+    "nhk-system-mail-20260318",
+    "tokyo-seed-research-20260309",
+    "seedplanning-ransom-20260306",
+    "anabuki-kosan-ransom-20260311",
+    "sekisho-data-loss-20260226",
+    "jiho-cloudmail-20260226",
+    "ja-akitakita-life-20260220",
+    "mino-employee-ransom-20260219",
+    "juntendo-nerima-pc-20260121",
+    "jrkyushu-group-network-20260119",
+    "odakyu-yamano-hotel-20260115",
+    "mm-chiyoda-mail-20260113",
+    "yotsukaido-crime-pc-20260109",
+    "okinawa-nursing-ransom-20260108",
+    "osaka-bluteon-mail-20260107",
+    "tokyofm-analytics-20260106",
+    "canvass-ransom-20260129",
+    "gracehotel-booking-20260127",
+    "hyogo-medical-mail-20260127",
+    "authense-m365-20260126",
+    "ibaraki-exchange-mail-20260126",
+    "kama-vacant-house-20260126",
+    "kashiwa-limited-web-20260123",
+    "miyazaki-nichidai-scam-20260123",
+    "nagoya-international-form-20260122",
+    "osaka-jan-bulk-1-20260109",
+    "osaka-jan-bulk-2-20260109",
+    "osaka-jan-bulk-3-20260109",
+    "osaka-jan-bulk-4-20260109",
+    "osaka-jan-bulk-6-20260109",
+    "osaka-jan-bulk-7-20260109",
+    "osaka-jan-bulk-8-20260109",
+    "osaka-jan-bulk-9-20260109",
+    "osaka-jan-bulk-10-20260109",
+    "osaka-jan-bulk-11-20260109",
+    "osaka-jan-bulk-12-20260109",
+    "osaka-jan-bulk-13-20260109",
+    "kenpo-yamagata-mail-20260228",
+    "osaka-ikiiki-mail-20260227",
+    "meijigakuin-teams-20260220",
+    "jr-sendai-storage-20260218",
+    "jogmec-takeout-20260217",
+    "saga-subject-mail-20260216",
+    "kama-agriculture-web-20260216",
+    "miyazaki-accounting-loss-20260216",
+    "hokuto-fanclub-mail-20260214",
+    "komae-election-sd-20260213",
+    "jinji-exam-loss-20260212",
+    "kagawa-tourism-mail-20260212",
+    "mikawawan-misdelivery-20260210",
+    "kanagawa-election-web-20260207",
+    "ntp-recall-mail-20260207",
+    "kashiwa-school-plan-loss-20260206",
+    "niigata-zeh-share-20260206",
+    "yamaguchi-elementary-mail-20260206",
+    "hokutobank-document-loss-20260203",
+    "meti-env-mizuho-survey-20260220",
+    "columbia-network-20260331",
+    "nagoya-asfeel-mail-20260331",
+    "sharoushi-seminar-cloud-20260331",
+    "yamashita-higashiyama-20260330",
+    "saitama-univ-kempos-20260330",
+    "fukuokabank-metlife-20260327",
+    "tsad-training-sheet-20260327",
+    "zetton-old-mail-20260327",
+    "joyfull-zynas-20260326",
+    "niigata-hospital-usb-20260325",
+    "cynd-beautymerit-20260324",
+    "niigata-student-sheet-20260324",
+    "molitec-subcontract-server-20260323",
+    "sada-chart-sns-20260323",
+    "miyakonojo-school-usb-20260320",
+    "sekibunkan-mail-20260319",
+    "hirogin-metlife-20260318",
+    "cosmos-initia-mail-20260317",
+    "tane-hospital-usb-20260317",
+    "tokyo-kosha-upgrade-20260316",
+    "chukai-dm-20260313",
+    "urasoe-minatogawa-hdd-20260313",
+    "osaka-school-exam-list-20260312",
+    "joseph-volunteer-takeout-20260312",
+    "yoichi-furusato-display-20260312",
+    "kagawa-teacher-stat-mail-20260310",
+    "kanagawa-form-document-20260310",
+    "yamagata-teacher-age-20260310",
+    "inpit-shiga-mail-20260306",
+    "kirin-whisky-mail-20260306",
+    "marimo-employee-phishing-20260306",
+    "whiteessence-meguree-20260306",
+    "nihon-u-sangenjaya-mail-20260306",
+    "tokyo-construction-document-20260306",
+    "wealth-group-mail-20260306",
+    "hyogo-felissimo-mail-20260305",
+    "amed-mail-20260303",
+    "yamagata-medical-form-20260213",
+    "sapmed-lecturer-pc-20260209",
+    "kawasaki-wakuwaku-sd-20260203",
+    "osaka-suminoe-election-mail-20260203",
+    "kagoshima-match-mail-20260203",
+    "osaka-kyoiku-mail-20260202",
+    "miyagi-jobcafe-mail-20260309",
+    "fukuoka-club-list-loss-20260303"
+  ],
+  "updated_incident_ids": [
+    "asahi-group-ransom-20260717",
+    "integral-web-followup-20260417",
+    "nippon-telenet-ransom-20260612",
+    "nict-voice-corpus-20260519",
+    "logicvein-20260817",
+    "anabuki-housing-20260521",
+    "nsbio-shop-20260218",
+    "nms-kosugi-ransom-20260213",
+    "smaregi-external-app-20260108",
+    "coastline-smaregi-app-20260110",
+    "ebara-club-display-20260123",
+    "nittai-ntrading-20260209",
+    "shiraume-toyooka-ransom-20260303",
+    "soumu-survey-display-20260206"
+  ],
+  "merges": [
+    {
+      "removed_id": "nict-speech-20260928",
+      "retained_id": "nict-voice-corpus-20260519",
+      "reason": "同じ3月12日の音声コーパス誤公開。第1～3報を統合。"
+    }
+  ],
+  "new_candidate_ids": [
+    "q1-deep-2477e172ffa2",
+    "q1-deep-014b9a880a78",
+    "q1-deep-04d4f29ccadc",
+    "q1-deep-3769da019066",
+    "q1-deep-e1c9b4efa608",
+    "q1-deep-6c8f8a0f5305",
+    "q1-deep-7ed5d8fc1d70",
+    "q1-deep-1562b8a66995",
+    "q1-deep-4c8c6b15293d",
+    "q1-deep-1a277b73b7a8",
+    "q1-deep-8905df882a71",
+    "q1-deep-20c26572a941",
+    "q1-deep-afe9cd419f40",
+    "q1-deep-3e8e97d98b59",
+    "q1-deep-1a09e3c998d0",
+    "q1-deep-99b568ba3863",
+    "q1-deep-abe618eca6c7",
+    "q1-deep-1e79daf4b77a",
+    "q1-deep-4674ef15562b",
+    "q1-deep-bd6e173fbb3e",
+    "q1-deep-bf0226cc40ed"
+  ],
+  "resolved_candidate_ids": [],
+  "method": [
+    "Security NEXTの1～3月の月次索引から527記事行を収集し、事故・漏えい関連212記事（199件と追加13件）の本文を取得。索引全行が個人情報漏えい事案とは限らず、全記事の掲載判定完了件数とは区別。",
+    "ScanNetSecurityの1～3月事故カテゴリ189記事と関連一次資料245 URLを探索。漏洩ウォッチの公開APIから174行・公式出典162 URLを追加探索。複数索引の同一事案・続報・前年公表を照合。",
+    "新規掲載は公式本文の公表日・対象情報・規模を確認。小規模事故も対象とし、大阪市の1月一括公表は前年に個別公表済みの2件を除いて12事案に分割。",
+    "同じ組織名だけで同一事件とせず、対象サービス・公表資料・発生経緯で照合。アサヒ・インテグラル・日本テレネットは既存IDへ統合し、NICTの二重掲載を解消。",
+    "人数、件数、ファイル数、送信件数、施設数を区別。内数・重複不明の区分は合算せず、未確認を確定漏えいとしない。"
+  ],
+  "limitations": [
+    "今回の月別件数は掲載データの件数であり、日本国内の発生総数ではない。前回の合計38件は初回収集不足によるもので、月内全体の少なさを示さない。",
+    "探索記事のすべてについて一次資料の精査・採否確定を完了したものではない。新規掲載・既存補完と、取得しただけの探索行を区別して保存。",
+    "リンク切れ、画像PDF、更新後本文しか残らない資料等の未解決候補を保留。探索索引の誤った組織名・日付は採用しない。",
+    "年内の全続報の追跡を保証しない。既存記録の後日の調査結果は保持した。スマレジとアプリ提供元は公表時点・集計範囲が異なるため双方の数を合算しない。"
+  ],
+  "discovery_stats": {
+    "security_next_index_rows": 527,
+    "security_next_selected_articles": 212,
+    "scannetsecurity_articles": 189,
+    "scan_primary_urls": 245,
+    "watch_rows": 174,
+    "watch_primary_urls": 162
+  },
+  "watch_checks": [
+    {
+      "discovery_index": 0,
+      "organization": "日本コロムビア株式会社",
+      "discovery_date": "2026-03-31",
+      "source_url": "https://columbia.jp/oshirase/info260331.html",
+      "decision": "published_match",
+      "incident_ids": [
+        "columbia-network-20260331"
+      ],
+      "reason": "公式出典を掲載記録へ照合。"
+    },
+    {
+      "discovery_index": 1,
+      "organization": "名古屋市／アスフィール株式会社",
+      "discovery_date": "2026-03-31",
+      "source_url": "https://www.city.nagoya.jp/houdou/pressr7/3002890/3004330.html",
+      "decision": "published_match",
+      "incident_ids": [
+        "nagoya-asfeel-mail-20260331"
+      ],
+      "reason": "公式出典を掲載記録へ照合。"
+    },
+    {
+      "discovery_index": 2,
+      "organization": "沖縄県",
+      "discovery_date": "2026-03-31",
+      "source_url": "https://www.pref.okinawa.lg.jp/kensei/gyosei/1014355/1039299.html",
+      "decision": "pending",
+      "incident_ids": [],
+      "reason": "公式資料を取得できず、公表本文の照合が未完了。"
+    },
+    {
+      "discovery_index": 3,
+      "organization": "全国社会保険労務士会連合会／厚生労働省",
+      "discovery_date": "2026-03-31",
+      "source_url": "https://www.shakaihokenroumushi.jp/Portals/0/doc/nsec/kouhou/2025/20260331_itakujigyo_houkoku.pdf",
+      "decision": "published_match",
+      "incident_ids": [
+        "sharoushi-seminar-cloud-20260331"
+      ],
+      "reason": "公式出典を掲載記録へ照合。"
+    },
+    {
+      "discovery_index": 4,
+      "organization": "株式会社カーステーション新潟",
+      "discovery_date": "2026-03-30",
+      "source_url": "https://www.cocoselect.jp/event/%E5%80%8B%E4%BA%BA%E6%83%85%E5%A0%B1%E6%B5%81%E5%87%BA%E3%81%AE%E6%81%90%E3%82%8C%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E3%81%8A%E8%A9%AB%E3%81%B3%E3%81%A8%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B/",
+      "decision": "discovery_only",
+      "incident_ids": [],
+      "reason": "索引の探索情報。別URLの既存事案・続報を含み、個別採否はこの行からは確定しない。"
+    },
+    {
+      "discovery_index": 5,
+      "organization": "東山産業株式会社／ヤマシタ等委託元",
+      "discovery_date": "2026-03-30",
+      "source_url": "https://www.yco.co.jp/news/20260330_4997/",
+      "decision": "published_match",
+      "incident_ids": [
+        "yamashita-higashiyama-20260330"
+      ],
+      "reason": "公式出典を掲載記録へ照合。"
+    },
+    {
+      "discovery_index": 6,
+      "organization": "門川町",
+      "discovery_date": "2026-03-30",
+      "source_url": "https://www.town.kadogawa.lg.jp/administration/cat2/page005526.html",
+      "decision": "pending",
+      "incident_ids": [],
+      "reason": "USB紛失と児童情報は確認したが、対外公表日を本文から確定できない。"
+    },
+    {
+      "discovery_index": 7,
+      "organization": "埼玉大学",
+      "discovery_date": "2026-03-30",
+      "source_url": "https://www.saitama-u.ac.jp/news_archives/202603301100.html",
+      "decision": "published_match",
+      "incident_ids": [
+        "saitama-univ-kempos-20260330"
+      ],
+      "reason": "公式出典を掲載記録へ照合。"
+    },
+    {
+      "discovery_index": 8,
+      "organization": "福岡銀行",
+      "discovery_date": "2026-03-27",
+      "source_url": "https://www.fukuokabank.co.jp/pdf/20260327_release.pdf",
+      "decision": "published_match",
+      "incident_ids": [
+        "fukuokabank-metlife-20260327"
+      ],
+      "reason": "公式出典を掲載記録へ照合。"
+    },
+    {
+      "discovery_index": 9,
+      "organization": "東京都障害者スポーツ協会",
+      "discovery_date": "2026-03-27",
+      "source_url": "https://tsad-portal.com/tsad/topics/32515",
+      "decision": "published_match",
+      "incident_ids": [
+        "tsad-training-sheet-20260327"
+      ],
+      "reason": "公式出典を掲載記録へ照合。"
+    },
+    {
+      "discovery_index": 10,
+      "organization": "株式会社ゼットン",
+      "discovery_date": "2026-03-27",
+      "source_url": "https://www.zetton.co.jp/news/20260327",
+      "decision": "published_match",
+      "incident_ids": [
+        "zetton-old-mail-20260327"
+      ],
+      "reason": "公式出典を掲載記録へ照合。"
+    },
+    {
+      "discovery_index": 11,
+      "organization": "株式会社ジョイフル／株式会社ザイナス",
+      "discovery_date": "2026-03-26",
+      "source_url": "https://zynas.co.jp/post/1052",
+      "decision": "published_match",
+      "incident_ids": [
+        "joyfull-zynas-20260326"
+      ],
+      "reason": "公式出典を掲載記録へ照合。"
+    },
+    {
+      "discovery_index": 12,
+      "organization": "佐藤工業株式会社",
+      "discovery_date": "2026-03-26",
+      "source_url": "https://www.satokogyo.co.jp/up_data/1774410486.pdf",
+      "decision": "published_match",
+      "incident_ids": [
+        "satokogyo-nas-20260326"
+      ],
+      "reason": "公式出典を掲載記録へ照合。"
+    },
+    {
+      "discovery_index": 13,
+      "organization": "ユタカ電業株式会社",
+      "discovery_date": "2026-03-26",
+      "source_url": "https://yutaka-d.co.jp/information/news/000070.html",
+      "decision": "pending",
+      "incident_ids": [],
+      "reason": "Chatworkへの侵入と会話閲覧の可能性は公表されているが、個人情報の対象範囲が不明。"
+    },
+    {
+      "discovery_index": 14,
+      "organization": "新潟大学医歯学総合病院",
+      "discovery_date": "2026-03-25",
+      "source_url": "https://www.nuh.niigata-u.ac.jp/news/archives/20260325",
+      "decision": "published_match",
+      "incident_ids": [
+        "niigata-hospital-usb-20260325"
+      ],
+      "reason": "公式出典を掲載記録へ照合。"
+    },
+    {
+      "discovery_index": 15,
+      "organization": "大阪マラソン組織委員会",
+      "discovery_date": "2026-03-25",
+      "source_url": "https://www.city.osaka.lg.jp/hodoshiryo/keizaisenryaku/0000675916.html",
+      "decision": "discovery_only",
+      "incident_ids": [],
+      "reason": "索引の探索情報。別URLの既存事案・続報を含み、個別採否はこの行からは確定しない。"
+    },
+    {
+      "discovery_index": 16,
+      "organization": "精華町／エックス都市研究所",
+      "discovery_date": "2026-03-25",
+      "source_url": "https://www.town.seika.kyoto.jp/kakuka/kankyo/29989.html",
+      "decision": "pending",
+      "incident_ids": [],
+      "reason": "USB紛失と調査データは公表されているが、個人情報を含むか未確定。"
+    },
+    {
+      "discovery_index": 17,
+      "organization": "株式会社サインド／BeautyMerit",
+      "discovery_date": "2026-03-24",
+      "source_url": "https://cynd.co.jp/2026/03/24/announce01/",
+      "decision": "published_match",
+      "incident_ids": [
+        "cynd-beautymerit-20260324"
+      ],
+      "reason": "公式出典を掲載記録へ照合。"
+    },
+    {
+      "discovery_index": 18,
+      "organization": "新潟大学",
+      "discovery_date": "2026-03-24",
+      "source_url": "https://www.niigata-u.ac.jp/news/2026/1062263/",
+      "decision": "published_match",
+      "incident_ids": [
+        "niigata-student-sheet-20260324"
+      ],
+      "reason": "公式出典を掲載記録へ照合。"
+    },
+    {
+      "discovery_index": 19,
+      "organization": "モリテックスチール株式会社",
+      "discovery_date": "2026-03-23",
+      "source_url": "https://www.molitec.co.jp/wp/wp-content/uploads/2026/03/unauthorized_access_20260323.pdf",
+      "decision": "published_match",
+      "incident_ids": [
+        "molitec-subcontract-server-20260323"
+      ],
+      "reason": "公式出典を掲載記録へ照合。"
+    },
+    {
+      "discovery_index": 20,
+      "organization": "佐田病院",
+      "discovery_date": "2026-03-23",
+      "source_url": "https://www.sada.or.jp/wp-sada/wp-content/uploads/2026/03/20260323-2.pdf",
+      "decision": "published_match",
+      "incident_ids": [
+        "sada-chart-sns-20260323"
+      ],
+      "reason": "公式出典を掲載記録へ照合。"
+    },
+    {
+      "discovery_index": 21,
+      "organization": "都城市教育委員会／市内小学校",
+      "discovery_date": "2026-03-20",
+      "source_url": "https://www.city.miyakonojo.miyazaki.jp/soshiki/59/83924.html",
+      "decision": "published_match",
+      "incident_ids": [
+        "miyakonojo-school-usb-20260320"
+      ],
+      "reason": "公式出典を掲載記録へ照合。"
+    },
+    {
+      "discovery_index": 22,
+      "organization": "サクラ工業株式会社",
+      "discovery_date": "2026-03-20",
+      "source_url": "https://www.sakura-kogyo.co.jp/wp-content/uploads/2026/03/%E5%85%AC%E8%A1%A8%E6%96%871.pdf",
+      "decision": "published_match",
+      "incident_ids": [
+        "sakura-kogyo-phishing-20260320"
+      ],
+      "reason": "公式出典を掲載記録へ照合。"
+    },
+    {
+      "discovery_index": 23,
+      "organization": "マツダ株式会社",
+      "discovery_date": "2026-03-19",
+      "source_url": "https://newsroom.mazda.com/ja/publicity/release/2026/202603/260319b.pdf",
+      "decision": "published_match",
+      "incident_ids": [
+        "mazda-thailand-warehouse-20260319"
+      ],
+      "reason": "公式出典を掲載記録へ照合。"
+    },
+    {
+      "discovery_index": 24,
+      "organization": "ネクサスエナジー株式会社",
+      "discovery_date": "2026-03-19",
+      "source_url": "https://www.nexus-e.jp/news/%E5%BD%93%E7%A4%BE%E3%81%AB%E3%81%8A%E3%81%91%E3%82%8B%E3%83%A9%E3%83%B3%E3%82%B5%E3%83%A0%E3%82%A6%E3%82%A7%E3%82%A2%E6%84%9F%E6%9F%93%E8%A2%AB%E5%AE%B3%E3%81%A8%E5%80%8B%E4%BA%BA%E6%83%85%E5%A0%B1",
+      "decision": "pending",
+      "incident_ids": [],
+      "reason": "公式ページを取得できず、個人情報の範囲・公表本文の照合が未完了。"
+    },
+    {
+      "discovery_index": 25,
+      "organization": "情報通信研究機構（NICT）",
+      "discovery_date": "2026-03-19",
+      "source_url": "https://www.nict.go.jp/publicity/topics/2026/03/19-2.html",
+      "decision": "published_match",
+      "incident_ids": [
+        "nict-voice-corpus-20260519"
+      ],
+      "reason": "公式出典を掲載記録へ照合。"
+    },
+    {
+      "discovery_index": 26,
+      "organization": "ホテル日航プリンセス京都",
+      "discovery_date": "2026-03-19",
+      "source_url": "https://www.princess-kyoto.co.jp/info/133371/",
+      "decision": "published_match",
+      "incident_ids": [
+        "princess-kyoto-expedia-20260319"
+      ],
+      "reason": "公式出典を掲載記録へ照合。"
+    },
+    {
+      "discovery_index": 27,
+      "organization": "株式会社積文館書店",
+      "discovery_date": "2026-03-19",
+      "source_url": "https://www.nic-retails.co.jp/wp/wp-content/uploads/2026/03/4e5a5a2d7fd91be78ecb7256d6bee6b0.pdf",
+      "decision": "published_match",
+      "incident_ids": [
+        "sekibunkan-mail-20260319"
+      ],
+      "reason": "公式出典を掲載記録へ照合。"
+    },
+    {
+      "discovery_index": 28,
+      "organization": "日本放送協会（NHK）",
+      "discovery_date": "2026-03-18",
+      "source_url": "https://www.nhk.or.jp/info/pressrelease/assets/pdf/2025/20260318.pdf",
+      "decision": "published_match",
+      "incident_ids": [
+        "nhk-system-mail-20260318"
+      ],
+      "reason": "公式出典を掲載記録へ照合。"
+    },
+    {
+      "discovery_index": 29,
+      "organization": "国際武道大学",
+      "discovery_date": "2026-03-18",
+      "source_url": "https://www.budo-u.ac.jp/news/2026/03/post_328.html",
+      "decision": "published_match",
+      "incident_ids": [
+        "budo-vendor-20260318"
+      ],
+      "reason": "公式出典を掲載記録へ照合。"
+    },
+    {
+      "discovery_index": 30,
+      "organization": "広島銀行",
+      "discovery_date": "2026-03-18",
+      "source_url": "https://www.hirogin.co.jp/information/info260318-2/info260318-2.pdf",
+      "decision": "published_match",
+      "incident_ids": [
+        "hirogin-metlife-20260318"
+      ],
+      "reason": "公式出典を掲載記録へ照合。"
+    },
+    {
+      "discovery_index": 31,
+      "organization": "株式会社コスモスイニシア",
+      "discovery_date": "2026-03-17",
+      "source_url": "https://www.cigr.co.jp/app/uploads/sites/6/2026/03/date-leakage_0317.pdf",
+      "decision": "published_match",
+      "incident_ids": [
+        "cosmos-initia-mail-20260317"
+      ],
+      "reason": "公式出典を掲載記録へ照合。"
+    },
+    {
+      "discovery_index": 32,
+      "organization": "株式会社メディカ出版・関係会社",
+      "discovery_date": "2026-03-17",
+      "source_url": "https://www.medica.co.jp/_sys/wp-content/uploads/2026/03/260317_News-Release.pdf",
+      "decision": "published_match",
+      "incident_ids": [
+        "medica-ransom-20260513"
+      ],
+      "reason": "公式出典を掲載記録へ照合。"
+    },
+    {
+      "discovery_index": 33,
+      "organization": "日本テレネット株式会社",
+      "discovery_date": "2026-03-17",
+      "source_url": "https://www.nippon-tele.net/release/20260317_4599/",
+      "decision": "published_match",
+      "incident_ids": [
+        "nippon-telenet-ransom-20260612"
+      ],
+      "reason": "公式出典を掲載記録へ照合。"
+    },
+    {
+      "discovery_index": 34,
+      "organization": "タカカツグループホールディングス",
+      "discovery_date": "2026-03-17",
+      "source_url": "https://www.takakatsu.co.jp/pdf/news_20260317.pdf",
+      "decision": "published_match",
+      "incident_ids": [
+        "takakatsu-ransom-20260317"
+      ],
+      "reason": "公式出典を掲載記録へ照合。"
+    },
+    {
+      "discovery_index": 35,
+      "organization": "多根総合病院",
+      "discovery_date": "2026-03-17",
+      "source_url": "https://general.tane.or.jp/archives/13759",
+      "decision": "published_match",
+      "incident_ids": [
+        "tane-hospital-usb-20260317"
+      ],
+      "reason": "公式出典を掲載記録へ照合。"
+    },
+    {
+      "discovery_index": 36,
+      "organization": "東京都中小企業振興公社／TOKYO UPGRADE SQUARE",
+      "discovery_date": "2026-03-16",
+      "source_url": "https://www.tokyo-kosha.or.jp/topics/2603/0010.html",
+      "decision": "published_match",
+      "incident_ids": [
+        "tokyo-kosha-upgrade-20260316"
+      ],
+      "reason": "公式出典を掲載記録へ照合。"
+    },
+    {
+      "discovery_index": 37,
+      "organization": "株式会社ユナイテッドアローズ",
+      "discovery_date": "2026-03-16",
+      "source_url": "https://www.united-arrows.co.jp/news/15175/",
+      "decision": "published_match",
+      "incident_ids": [
+        "unitedarrows-takeout-20260316"
+      ],
+      "reason": "公式出典を掲載記録へ照合。"
+    },
+    {
+      "discovery_index": 38,
+      "organization": "株式会社中海テレビ放送",
+      "discovery_date": "2026-03-13",
+      "source_url": "https://www.chukai.co.jp/corporate/2026/03/dm/",
+      "decision": "published_match",
+      "incident_ids": [
+        "chukai-dm-20260313"
+      ],
+      "reason": "公式出典を掲載記録へ照合。"
+    },
+    {
+      "discovery_index": 39,
+      "organization": "東急スポーツシステム株式会社",
+      "discovery_date": "2026-03-13",
+      "source_url": "https://www.tokyu-sports.com/fitness/atriodue-next/info/20260313.pdf",
+      "decision": "pending",
+      "incident_ids": [],
+      "reason": "公式PDFを取得できず、公表本文の照合が未完了。"
+    },
+    {
+      "discovery_index": 40,
+      "organization": "浦添市立港川中学校／浦添市教育委員会",
+      "discovery_date": "2026-03-13",
+      "source_url": "https://www.city.urasoe.lg.jp/doc/2026031200033/",
+      "decision": "published_match",
+      "incident_ids": [
+        "urasoe-minatogawa-hdd-20260313"
+      ],
+      "reason": "公式出典を掲載記録へ照合。"
+    },
+    {
+      "discovery_index": 41,
+      "organization": "大阪市立中学校（校名非公表）",
+      "discovery_date": "2026-03-12",
+      "source_url": "https://www.city.osaka.lg.jp/hodoshiryo/kyoiku/0000675331.html",
+      "decision": "published_match",
+      "incident_ids": [
+        "osaka-school-exam-list-20260312"
+      ],
+      "reason": "公式出典を掲載記録へ照合。"
+    },
+    {
+      "discovery_index": 42,
+      "organization": "社会福祉法人聖テレジア会 聖ヨゼフ病院",
+      "discovery_date": "2026-03-12",
+      "source_url": "https://www.st-joseph.jp/wp/wp-content/uploads/2026/03/apologies-and-Notice-20260312.pdf",
+      "decision": "published_match",
+      "incident_ids": [
+        "joseph-volunteer-takeout-20260312"
+      ],
+      "reason": "公式出典を掲載記録へ照合。"
+    },
+    {
+      "discovery_index": 43,
+      "organization": "鳥取県／ジェイエムインテグラル",
+      "discovery_date": "2026-03-12",
+      "source_url": "https://www.pref.tottori.lg.jp/322678.htm",
+      "decision": "pending",
+      "incident_ids": [],
+      "reason": "県の月次索引に掲載はあるが、個別公表資料を取得できない。"
+    },
+    {
+      "discovery_index": 44,
+      "organization": "余市町／ユニメディア（ふるさとプレミアム）",
+      "discovery_date": "2026-03-12",
+      "source_url": "https://www.town.yoichi.hokkaido.jp/oshirase/2026/2026-0312-1627-11.html",
+      "decision": "published_match",
+      "incident_ids": [
+        "yoichi-furusato-display-20260312"
+      ],
+      "reason": "公式出典を掲載記録へ照合。"
+    },
+    {
+      "discovery_index": 45,
+      "organization": "愛知県／日本総合研究所",
+      "discovery_date": "2026-03-11",
+      "source_url": "https://www.pref.aichi.jp/press-release/20260311np.html",
+      "decision": "pending",
+      "incident_ids": [],
+      "reason": "公式ページを取得できず、公表本文の照合が未完了。"
+    },
+    {
+      "discovery_index": 46,
+      "organization": "香川県教育委員会",
+      "discovery_date": "2026-03-10",
+      "source_url": "https://www.pref.kagawa.lg.jp/kenkyoui/kyoisomu/syokai/sonota/20260310mail.html",
+      "decision": "published_match",
+      "incident_ids": [
+        "kagawa-teacher-stat-mail-20260310"
+      ],
+      "reason": "公式出典を掲載記録へ照合。"
+    },
+    {
+      "discovery_index": 47,
+      "organization": "神奈川県",
+      "discovery_date": "2026-03-10",
+      "source_url": "https://www.pref.kanagawa.jp/docs/fz7/prs/r8871598.html",
+      "decision": "published_match",
+      "incident_ids": [
+        "kanagawa-form-document-20260310"
+      ],
+      "reason": "公式出典を掲載記録へ照合。"
+    },
+    {
+      "discovery_index": 48,
+      "organization": "山形大学",
+      "discovery_date": "2026-03-10",
+      "source_url": "https://www.yamagata-u.ac.jp/jp/information/info/20260308/",
+      "decision": "published_match",
+      "incident_ids": [
+        "yamagata-teacher-age-20260310"
+      ],
+      "reason": "公式出典を掲載記録へ照合。"
+    },
+    {
+      "discovery_index": 49,
+      "organization": "伊丹市",
+      "discovery_date": "2026-03-10",
+      "source_url": "https://www.city.itami.lg.jp/SOSIKI/SOMU/KIKIKANRI/SAIGAINISONAETE/YOUHAIRYOSYA_HINANKOUDOUYOUSIENSYA_SIEN/47665.html",
+      "decision": "pending",
+      "incident_ids": [],
+      "reason": "現行ページは4月6日更新。3月10日の対外公表を裏づける資料が未確認。"
+    },
+    {
+      "discovery_index": 50,
+      "organization": "宮城県／富士通Japan（みやぎジョブカフェ）",
+      "discovery_date": "2026-03-09",
+      "source_url": "https://www.pref.miyagi.jp/soshiki/koyou/jobcafe.html",
+      "decision": "published_match",
+      "incident_ids": [
+        "miyagi-jobcafe-mail-20260309"
+      ],
+      "reason": "公式出典を掲載記録へ照合。"
+    },
+    {
+      "discovery_index": 51,
+      "organization": "二本松市",
+      "discovery_date": "2026-03-09",
+      "source_url": "https://www.city.nihonmatsu.lg.jp/shisei/saiyou/page013866.html",
+      "decision": "published_match",
+      "incident_ids": [
+        "nihonmatsu-private-query-20260309"
+      ],
+      "reason": "公式出典を掲載記録へ照合。"
+    },
+    {
+      "discovery_index": 52,
+      "organization": "工業所有権情報・研修館／滋賀県発明協会",
+      "discovery_date": "2026-03-06",
+      "source_url": "https://www.inpit.go.jp/about/topic/20260306.html",
+      "decision": "published_match",
+      "incident_ids": [
+        "inpit-shiga-mail-20260306"
+      ],
+      "reason": "公式出典を掲載記録へ照合。"
+    },
+    {
+      "discovery_index": 53,
+      "organization": "キリンビール",
+      "discovery_date": "2026-03-06",
+      "source_url": "https://www.kirinholdings.com/jp/newsroom/release/2026/0306_03.html",
+      "decision": "published_match",
+      "incident_ids": [
+        "kirin-whisky-mail-20260306"
+      ],
+      "reason": "公式出典を掲載記録へ照合。"
+    },
+    {
+      "discovery_index": 54,
+      "organization": "マリモホールディングス（グループ14社）",
+      "discovery_date": "2026-03-06",
+      "source_url": "https://files.microcms-assets.io/assets/e37a046fa7724ecd9d522441341223e0/59febbd1aa98460e9fde5d5065dbb300/20260306.pdf",
+      "decision": "published_match",
+      "incident_ids": [
+        "marimo-employee-phishing-20260306"
+      ],
+      "reason": "公式出典を掲載記録へ照合。"
+    },
+    {
+      "discovery_index": 55,
+      "organization": "ホワイトエッセンス（歯科衛生士転職サイト「メグリー」）",
+      "discovery_date": "2026-03-06",
+      "source_url": "https://whiteessence.co.jp/news/?action=detail&id=43&p=1",
+      "decision": "published_match",
+      "incident_ids": [
+        "whiteessence-meguree-20260306"
+      ],
+      "reason": "公式出典を掲載記録へ照合。"
+    },
+    {
+      "discovery_index": 56,
+      "organization": "村田製作所",
+      "discovery_date": "2026-03-06",
+      "source_url": "https://corporate.murata.com/ja-jp/newsroom/news/company/general/2026/0306",
+      "decision": "published_match",
+      "incident_ids": [
+        "murata-it-followup-20260406"
+      ],
+      "reason": "公式出典を掲載記録へ照合。"
+    },
+    {
+      "discovery_index": 57,
+      "organization": "日本大学三軒茶屋キャンパス",
+      "discovery_date": "2026-03-06",
+      "source_url": "https://www.crm.nihon-u.ac.jp/gs/important/nurmg/",
+      "decision": "published_match",
+      "incident_ids": [
+        "nihon-u-sangenjaya-mail-20260306"
+      ],
+      "reason": "公式出典を掲載記録へ照合。"
+    },
+    {
+      "discovery_index": 58,
+      "organization": "シード・プランニング（自社保有情報）",
+      "discovery_date": "2026-03-06",
+      "source_url": "https://www.waterworks.metro.tokyo.lg.jp/information/press/r8/03/2026030601",
+      "decision": "published_match",
+      "incident_ids": [
+        "tokyo-water-seed-20260306"
+      ],
+      "reason": "公式出典を掲載記録へ照合。"
+    },
+    {
+      "discovery_index": 59,
+      "organization": "東京都都市整備局",
+      "discovery_date": "2026-03-06",
+      "source_url": "https://www.metro.tokyo.lg.jp/information/press/2026/03/2026030611",
+      "decision": "published_match",
+      "incident_ids": [
+        "tokyo-construction-document-20260306"
+      ],
+      "reason": "公式出典を掲載記録へ照合。"
+    },
+    {
+      "discovery_index": 60,
+      "organization": "ウェルス・マネジメントグループ",
+      "discovery_date": "2026-03-06",
+      "source_url": "https://www.wealth-mngt.com/news/20260306",
+      "decision": "published_match",
+      "incident_ids": [
+        "wealth-group-mail-20260306"
+      ],
+      "reason": "公式出典を掲載記録へ照合。"
+    },
+    {
+      "discovery_index": 61,
+      "organization": "兵庫県／フェリシモ（ひょうごッシモ）",
+      "discovery_date": "2026-03-05",
+      "source_url": "https://web.pref.hyogo.lg.jp/sr16/20260305.html",
+      "decision": "published_match",
+      "incident_ids": [
+        "hyogo-felissimo-mail-20260305"
+      ],
+      "reason": "公式出典を掲載記録へ照合。"
+    },
+    {
+      "discovery_index": 62,
+      "organization": "日本医療研究開発機構（AMED）",
+      "discovery_date": "2026-03-03",
+      "source_url": "https://www.amed.go.jp/news/other/20260303.html",
+      "decision": "published_match",
+      "incident_ids": [
+        "amed-mail-20260303"
+      ],
+      "reason": "公式出典を掲載記録へ照合。"
+    },
+    {
+      "discovery_index": 63,
+      "organization": "福岡市放課後児童クラブ",
+      "discovery_date": "2026-03-03",
+      "source_url": "https://www.city.fukuoka.lg.jp/shisei/kouhou-hodo/hodo-happyo/2025/documents/20260303hokagojidoculb_.pdf",
+      "decision": "published_match",
+      "incident_ids": [
+        "fukuoka-club-list-loss-20260303"
+      ],
+      "reason": "公式出典を掲載記録へ照合。"
+    },
+    {
+      "discovery_index": 64,
+      "organization": "金原出版（臨検国試オンライン）",
+      "discovery_date": "2026-03-03",
+      "source_url": "https://www.kanehara-shuppan.co.jp/news/index.html?no=261",
+      "decision": "discovery_only",
+      "incident_ids": [],
+      "reason": "索引の探索情報。別URLの既存事案・続報を含み、個別採否はこの行からは確定しない。"
+    },
+    {
+      "discovery_index": 65,
+      "organization": "白梅会（白梅豊岡病院・白梅豊岡ケアホーム）",
+      "discovery_date": "2026-03-03",
+      "source_url": "https://www.shiraume.or.jp/news/%E7%99%BD%E6%A2%85%E8%B1%8A%E5%B2%A1%E7%97%85%E9%99%A2%E3%81%B8%E3%81%AE%E3%82%B5%E3%82%A4%E3%83%90%E3%83%BC%E6%94%BB%E6%92%83%E3%81%AB%E3%82%88%E3%82%8B%E5%80%8B%E4%BA%BA%E6%83%85%E5%A0%B1%E6%BC%8F/",
+      "decision": "discovery_only",
+      "incident_ids": [],
+      "reason": "索引の探索情報。別URLの既存事案・続報を含み、個別採否はこの行からは確定しない。"
+    },
+    {
+      "discovery_index": 66,
+      "organization": "木更津市市民活動支援センター／三幸",
+      "discovery_date": "2026-03-02",
+      "source_url": "https://www.sanko-inc.co.jp/pdf/20260302_newsrelease.pdf",
+      "decision": "discovery_only",
+      "incident_ids": [],
+      "reason": "索引の探索情報。別URLの既存事案・続報を含み、個別採否はこの行からは確定しない。"
+    },
+    {
+      "discovery_index": 67,
+      "organization": "全国健康保険協会山形支部（委託先）",
+      "discovery_date": "2026-02-28",
+      "source_url": "https://www.kyoukaikenpo.or.jp/shibu/yamagata/disclosure/administrative_processing_error/r07/518.html",
+      "decision": "published_match",
+      "incident_ids": [
+        "kenpo-yamagata-mail-20260228"
+      ],
+      "reason": "公式出典を掲載記録へ照合。"
+    },
+    {
+      "discovery_index": 68,
+      "organization": "大阪市こども青少年局（児童いきいき放課後事業・入退室管理システム運用委託先）",
+      "discovery_date": "2026-02-27",
+      "source_url": "https://www.city.osaka.lg.jp/hodoshiryo/kodomo/0000674351.html",
+      "decision": "published_match",
+      "incident_ids": [
+        "osaka-ikiiki-mail-20260227"
+      ],
+      "reason": "公式出典を掲載記録へ照合。"
+    },
+    {
+      "discovery_index": 69,
+      "organization": "フィーチャ",
+      "discovery_date": "2026-02-26",
+      "source_url": "https://ssl4.eir-parts.net/doc/4052/tdnet/2768101/00.pdf",
+      "decision": "pending",
+      "incident_ids": [],
+      "reason": "情報の外部流出は公表されたが、個人情報への影響は調査中。"
+    },
+    {
+      "discovery_index": 70,
+      "organization": "じほう／じほうビジネスサービス",
+      "discovery_date": "2026-02-26",
+      "source_url": "https://www.jiho.co.jp/blogs/information/20260226",
+      "decision": "published_match",
+      "incident_ids": [
+        "jiho-cloudmail-20260226"
+      ],
+      "reason": "公式出典を掲載記録へ照合。"
+    },
+    {
+      "discovery_index": 71,
+      "organization": "みずほ銀行",
+      "discovery_date": "2026-02-26",
+      "source_url": "https://www.mizuhobank.co.jp/release/pdf/20260226release_jp.pdf",
+      "decision": "pending",
+      "incident_ids": [],
+      "reason": "公式本文未取得。"
+    },
+    {
+      "discovery_index": 72,
+      "organization": "三井住友海上プライマリー生命",
+      "discovery_date": "2026-02-26",
+      "source_url": "https://www.ms-primary.com/news/ir/assets/shukkosha.pdf",
+      "decision": "outside_or_unconfirmed_personal_data",
+      "incident_ids": [],
+      "reason": "個人情報の漏えいを確認できず。"
+    },
+    {
+      "discovery_index": 73,
+      "organization": "高知県／adear",
+      "discovery_date": "2026-02-24",
+      "source_url": "https://www.pref.kochi.lg.jp/doc/2026021000308/",
+      "decision": "pending",
+      "incident_ids": [],
+      "reason": "報道で検体の紛失は確認できるが、公式本文と対外公表日が未照合。"
+    },
+    {
+      "discovery_index": 74,
+      "organization": "みずほリサーチ＆テクノロジーズ／経済産業省／環境省",
+      "discovery_date": "2026-02-20",
+      "source_url": "https://www.mizuho-rt.co.jp/company/release/2026/20260220_release_jp.pdf",
+      "decision": "discovery_only",
+      "incident_ids": [],
+      "reason": "索引の探索情報。別URLの既存事案・続報を含み、個別採否はこの行からは確定しない。"
+    },
+    {
+      "discovery_index": 75,
+      "organization": "山藤三陽印刷",
+      "discovery_date": "2026-02-20",
+      "source_url": "https://www.sando-sanyo.co.jp/contents/news/p0139.html",
+      "decision": "discovery_only",
+      "incident_ids": [],
+      "reason": "索引の探索情報。別URLの既存事案・続報を含み、個別採否はこの行からは確定しない。"
+    },
+    {
+      "discovery_index": 76,
+      "organization": "JAあきた北ライフサービス",
+      "discovery_date": "2026-02-20",
+      "source_url": "https://ja-akitakita-ls.jp/files/libs/783/202602211226496737.pdf",
+      "decision": "published_match",
+      "incident_ids": [
+        "ja-akitakita-life-20260220"
+      ],
+      "reason": "公式出典を掲載記録へ照合。"
+    },
+    {
+      "discovery_index": 77,
+      "organization": "明治学院大学",
+      "discovery_date": "2026-02-20",
+      "source_url": "https://www.meijigakuin.ac.jp/news/05921.html",
+      "decision": "published_match",
+      "incident_ids": [
+        "meijigakuin-teams-20260220"
+      ],
+      "reason": "公式出典を掲載記録へ照合。"
+    },
+    {
+      "discovery_index": 78,
+      "organization": "ケイ・ウノ",
+      "discovery_date": "2026-02-19",
+      "source_url": "https://www.daiwair.co.jp/td_download.cgi?c=259A&i=3160792",
+      "decision": "pending",
+      "incident_ids": [],
+      "reason": "公式本文未取得。"
+    },
+    {
+      "discovery_index": 79,
+      "organization": "FABRIC TOKYO",
+      "discovery_date": "2026-02-19",
+      "source_url": "https://fabric-tokyo.com/news/show/20260219-to-all-customers",
+      "decision": "published_match",
+      "incident_ids": [
+        "fabric-tokyo-display-20260219"
+      ],
+      "reason": "公式出典を掲載記録へ照合。"
+    },
+    {
+      "discovery_index": 80,
+      "organization": "JR仙台病院",
+      "discovery_date": "2026-02-18",
+      "source_url": "https://jrsendai-hospital.jp/wp-content/uploads/2026/02/1771408577.pdf",
+      "decision": "published_match",
+      "incident_ids": [
+        "jr-sendai-storage-20260218"
+      ],
+      "reason": "公式出典を掲載記録へ照合。"
+    },
+    {
+      "discovery_index": 81,
+      "organization": "高槻市",
+      "discovery_date": "2026-02-18",
+      "source_url": "https://www.city.takatsuki.osaka.jp/uploaded/attachment/61527.pdf",
+      "decision": "pending",
+      "incident_ids": [],
+      "reason": "報道で選挙資料紛失は確認できるが、公式本文と対外公表日が未照合。"
+    },
+    {
+      "discovery_index": 82,
+      "organization": "エネルギー・金属鉱物資源機構（JOGMEC）",
+      "discovery_date": "2026-02-17",
+      "source_url": "https://www.jogmec.go.jp/news/information/information_00687.html",
+      "decision": "published_match",
+      "incident_ids": [
+        "jogmec-takeout-20260217"
+      ],
+      "reason": "公式出典を掲載記録へ照合。"
+    },
+    {
+      "discovery_index": 83,
+      "organization": "静岡県",
+      "discovery_date": "2026-02-17",
+      "source_url": "https://www.pref.shizuoka.jp/_res/projects/default_project/_page_/001/081/423/202602pressrelease2.pdf",
+      "decision": "pending",
+      "incident_ids": [],
+      "reason": "公式本文未取得。"
+    },
+    {
+      "discovery_index": 84,
+      "organization": "佐賀県企業立地課",
+      "discovery_date": "2026-02-16",
+      "source_url": "https://www.pref.saga.lg.jp/kiji003118123/index.html",
+      "decision": "published_match",
+      "incident_ids": [
+        "saga-subject-mail-20260216"
+      ],
+      "reason": "公式出典を掲載記録へ照合。"
+    },
+    {
+      "discovery_index": 85,
+      "organization": "嘉麻市",
+      "discovery_date": "2026-02-16",
+      "source_url": "https://www.city.kama.lg.jp/soshiki/0/41910.html",
+      "decision": "published_match",
+      "incident_ids": [
+        "kama-agriculture-web-20260216"
+      ],
+      "reason": "公式出典を掲載記録へ照合。"
+    },
+    {
+      "discovery_index": 86,
+      "organization": "宮崎県",
+      "discovery_date": "2026-02-16",
+      "source_url": "https://www.pref.miyazaki.lg.jp/kaikei/press/2026/02/20260213152304.html",
+      "decision": "published_match",
+      "incident_ids": [
+        "miyazaki-accounting-loss-20260216"
+      ],
+      "reason": "公式出典を掲載記録へ照合。"
+    },
+    {
+      "discovery_index": 87,
+      "organization": "山梨県北杜市（ほくとファンクラブ委託先）",
+      "discovery_date": "2026-02-14",
+      "source_url": "https://www.city.hokuto.yamanashi.jp/docs/33503.html",
+      "decision": "published_match",
+      "incident_ids": [
+        "hokuto-fanclub-mail-20260214"
+      ],
+      "reason": "公式出典を掲載記録へ照合。"
+    },
+    {
+      "discovery_index": 88,
+      "organization": "狛江市選挙管理委員会",
+      "discovery_date": "2026-02-13",
+      "source_url": "https://www.city.komae.tokyo.jp/index.cfm/4%2C142012%2C143%2Chtml",
+      "decision": "published_match",
+      "incident_ids": [
+        "komae-election-sd-20260213"
+      ],
+      "reason": "公式出典を掲載記録へ照合。"
+    },
+    {
+      "discovery_index": 89,
+      "organization": "日販グループホールディングス／日本出版販売",
+      "discovery_date": "2026-02-13",
+      "source_url": "https://www.nippan-group.co.jp/wp-content/uploads/2026/05/20260519.pdf",
+      "decision": "outside_or_unconfirmed_personal_data",
+      "incident_ids": [],
+      "reason": "一般顧客の個人情報を含まない企業情報漏えい。"
+    },
+    {
+      "discovery_index": 90,
+      "organization": "日本医科大学武蔵小杉病院",
+      "discovery_date": "2026-02-13",
+      "source_url": "https://www.nms.ac.jp/kosugi-h/news/_28830.html",
+      "decision": "published_match",
+      "incident_ids": [
+        "nms-kosugi-ransom-20260213"
+      ],
+      "reason": "公式出典を掲載記録へ照合。"
+    },
+    {
+      "discovery_index": 91,
+      "organization": "ショップエアライン（BEENOS）",
+      "discovery_date": "2026-02-13",
+      "source_url": "https://beenos.com/news-center/detail/20260213_bns_info/",
+      "decision": "published_match",
+      "incident_ids": [
+        "sekaimon-server-20260213"
+      ],
+      "reason": "公式出典を掲載記録へ照合。"
+    },
+    {
+      "discovery_index": 92,
+      "organization": "東京都都市整備局（委託先：ホーン）",
+      "discovery_date": "2026-02-13",
+      "source_url": "https://www.metro.tokyo.lg.jp/information/press/2026/02/2026021601",
+      "decision": "published_match",
+      "incident_ids": [
+        "tokyo-rekiken-form-20260213"
+      ],
+      "reason": "公式出典を掲載記録へ照合。"
+    },
+    {
+      "discovery_index": 93,
+      "organization": "練馬区",
+      "discovery_date": "2026-02-13",
+      "source_url": "https://www.city.nerima.tokyo.jp/kusei/koho/hodo/r8/r802/20260213.files/20260213.pdf",
+      "decision": "published_match",
+      "incident_ids": [
+        "nerima-job-form-20260213"
+      ],
+      "reason": "公式出典を掲載記録へ照合。"
+    },
+    {
+      "discovery_index": 94,
+      "organization": "山形県（山形県医療機関等物価高騰対策支援事業・受託事業者）",
+      "discovery_date": "2026-02-13",
+      "source_url": "https://www.pref.yamagata.jp/090013/20260212.html",
+      "decision": "published_match",
+      "incident_ids": [
+        "yamagata-medical-form-20260213"
+      ],
+      "reason": "公式出典を掲載記録へ照合。"
+    },
+    {
+      "discovery_index": 95,
+      "organization": "ガーラ湯沢",
+      "discovery_date": "2026-02-12",
+      "source_url": "https://gala.co.jp/winter/cmsw/wp-content/uploads/2026/02/4d9ec3b44f7b4d83e237592fec8655f4.pdf",
+      "decision": "discovery_only",
+      "incident_ids": [],
+      "reason": "索引の探索情報。別URLの既存事案・続報を含み、個別採否はこの行からは確定しない。"
+    },
+    {
+      "discovery_index": 96,
+      "organization": "人事院",
+      "discovery_date": "2026-02-12",
+      "source_url": "https://www.jinji.go.jp/kouho_houdo/kisya/2506/00005_00002.html",
+      "decision": "published_match",
+      "incident_ids": [
+        "jinji-exam-loss-20260212"
+      ],
+      "reason": "公式出典を掲載記録へ照合。"
+    },
+    {
+      "discovery_index": 97,
+      "organization": "香川県観光協会",
+      "discovery_date": "2026-02-12",
+      "source_url": "https://www.pref.kagawa.lg.jp/documents/59493/20260212_houdouteikyou.pdf",
+      "decision": "published_match",
+      "incident_ids": [
+        "kagawa-tourism-mail-20260212"
+      ],
+      "reason": "公式出典を掲載記録へ照合。"
+    },
+    {
+      "discovery_index": 98,
+      "organization": "マイナビ",
+      "discovery_date": "2026-02-12",
+      "source_url": "https://www.mynavi.jp/topics/post_52080.html",
+      "decision": "published_match",
+      "incident_ids": [
+        "mynavi-cloud-20260212"
+      ],
+      "reason": "公式出典を掲載記録へ照合。"
+    },
+    {
+      "discovery_index": 99,
+      "organization": "穴吹ハウジングサービス／あなぶきハウジンググループ",
+      "discovery_date": "2026-02-12",
+      "source_url": "https://www.anabuki-housing.co.jp/news/content.php?news_id=518",
+      "decision": "discovery_only",
+      "incident_ids": [],
+      "reason": "索引の探索情報。別URLの既存事案・続報を含み、個別採否はこの行からは確定しない。"
+    },
+    {
+      "discovery_index": 100,
+      "organization": "NSバイオジャパン",
+      "discovery_date": "2026-02-11",
+      "source_url": "https://nsbj.jp/information_leakage_20260211/",
+      "decision": "published_match",
+      "incident_ids": [
+        "nsbio-shop-20260218"
+      ],
+      "reason": "公式出典を掲載記録へ照合。"
+    },
+    {
+      "discovery_index": 101,
+      "organization": "ランディックス／フィスコ",
+      "discovery_date": "2026-02-10",
+      "source_url": "https://contents.xj-storage.jp/xcontents/AS08903/3ca77925/6bbc/4c12/b3ea/c040bd0e920d/140120260210554408.pdf",
+      "decision": "outside_or_unconfirmed_personal_data",
+      "incident_ids": [],
+      "reason": "決算等の企業情報で個人情報漏えいを確認できず。"
+    },
+    {
+      "discovery_index": 102,
+      "organization": "三河湾ネットワーク",
+      "discovery_date": "2026-02-10",
+      "source_url": "https://www.sky-1.co.jp/news/info/ct75532/",
+      "decision": "published_match",
+      "incident_ids": [
+        "mikawawan-misdelivery-20260210"
+      ],
+      "reason": "公式出典を掲載記録へ照合。"
+    },
+    {
+      "discovery_index": 103,
+      "organization": "フクダライフテック東京（フクダ電子）",
+      "discovery_date": "2026-02-09",
+      "source_url": "https://www.fukuda.co.jp/press/2026/pdf/260209.pdf",
+      "decision": "pending",
+      "incident_ids": [],
+      "reason": "公式本文未取得。"
+    },
+    {
+      "discovery_index": 104,
+      "organization": "ニッタイ工業（日創グループ）",
+      "discovery_date": "2026-02-09",
+      "source_url": "https://ssl4.eir-parts.net/doc/3440/tdnet/2754068/00.pdf",
+      "decision": "published_match",
+      "incident_ids": [
+        "nittai-ntrading-20260209"
+      ],
+      "reason": "公式出典を掲載記録へ照合。"
+    },
+    {
+      "discovery_index": 105,
+      "organization": "セゾンテクノロジー",
+      "discovery_date": "2026-02-09",
+      "source_url": "https://www.saison-technology.com/company/news/20260209_personal_information_leaked/",
+      "decision": "published_match",
+      "incident_ids": [
+        "saison-tech-storage-20260209"
+      ],
+      "reason": "公式出典を掲載記録へ照合。"
+    },
+    {
+      "discovery_index": 106,
+      "organization": "札幌医科大学",
+      "discovery_date": "2026-02-09",
+      "source_url": "https://web.sapmed.ac.jp/jp/news/press/dbvk0g0000000x2a.html",
+      "decision": "published_match",
+      "incident_ids": [
+        "sapmed-lecturer-pc-20260209"
+      ],
+      "reason": "公式出典を掲載記録へ照合。"
+    },
+    {
+      "discovery_index": 107,
+      "organization": "住友生命保険",
+      "discovery_date": "2026-02-09",
+      "source_url": "https://www.sumitomolife.co.jp/about/newsrelease/pdf/2025/260209.pdf",
+      "decision": "outside_or_unconfirmed_personal_data",
+      "incident_ids": [],
+      "reason": "企業・代理店の業務情報と個人情報の区別が未解決。"
+    },
+    {
+      "discovery_index": 108,
+      "organization": "神奈川県選挙管理委員会",
+      "discovery_date": "2026-02-07",
+      "source_url": "https://www.pref.kanagawa.jp/docs/em7/prs/r9113648.html",
+      "decision": "published_match",
+      "incident_ids": [
+        "kanagawa-election-web-20260207"
+      ],
+      "reason": "公式出典を掲載記録へ照合。"
+    },
+    {
+      "discovery_index": 109,
+      "organization": "NTP名古屋トヨペット",
+      "discovery_date": "2026-02-07",
+      "source_url": "https://nagoya.toyopet-dealer.jp/file/special/14701/4989/news/%E3%80%8C%E3%83%97%E3%83%AA%E3%82%A6%E3%82%B9%20%E3%83%AA%E3%82%B3%E3%83%BC%E3%83%AB%E6%A1%88%E5%86%85DM%E3%80%8D%E3%81%AB%E3%81%8A%E3%81%91%E3%82%8B%E5%80%8B%E4%BA%BA%E6%83%85%E5%A0%B1%E3%81%AE%E8%AA%A4%E9%80%81%E4%BB%98%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E3%81%8A%E8%A9%AB%E3%81%B3%E3%81%A8%E3%81%8A%E9%A1%98%E3%81%84.pdf",
+      "decision": "published_match",
+      "incident_ids": [
+        "ntp-recall-mail-20260207"
+      ],
+      "reason": "公式出典を掲載記録へ照合。"
+    },
+    {
+      "discovery_index": 110,
+      "organization": "ビューティガレージ",
+      "discovery_date": "2026-02-06",
+      "source_url": "https://www.beautygarage.co.jp/news/card-issue-list",
+      "decision": "discovery_only",
+      "incident_ids": [],
+      "reason": "索引の探索情報。別URLの既存事案・続報を含み、個別採否はこの行からは確定しない。"
+    },
+    {
+      "discovery_index": 111,
+      "organization": "柏市立小学校",
+      "discovery_date": "2026-02-06",
+      "source_url": "https://www.city.kashiwa.lg.jp/koho/pressrelease/r7houdou/2gatsu/r8020603.html",
+      "decision": "published_match",
+      "incident_ids": [
+        "kashiwa-school-plan-loss-20260206"
+      ],
+      "reason": "公式出典を掲載記録へ照合。"
+    },
+    {
+      "discovery_index": 112,
+      "organization": "総務省／三菱UFJリサーチ＆コンサルティング",
+      "discovery_date": "2026-02-06",
+      "source_url": "https://www.murc.jp/wp-content/uploads/2026/03/news_260319_01.pdf",
+      "decision": "published_match",
+      "incident_ids": [
+        "soumu-survey-display-20260206"
+      ],
+      "reason": "公式出典を掲載記録へ照合。"
+    },
+    {
+      "discovery_index": 113,
+      "organization": "新潟県／住宅・建築SDGs推進センター",
+      "discovery_date": "2026-02-06",
+      "source_url": "https://www.pref.niigata.lg.jp/uploaded/attachment/478631.pdf",
+      "decision": "published_match",
+      "incident_ids": [
+        "niigata-zeh-share-20260206"
+      ],
+      "reason": "公式出典を掲載記録へ照合。"
+    },
+    {
+      "discovery_index": 114,
+      "organization": "山口大学",
+      "discovery_date": "2026-02-06",
+      "source_url": "https://www.yamaguchi-u.ac.jp/news/47064/index.html",
+      "decision": "published_match",
+      "incident_ids": [
+        "yamaguchi-elementary-mail-20260206"
+      ],
+      "reason": "公式出典を掲載記録へ照合。"
+    },
+    {
+      "discovery_index": 115,
+      "organization": "アットホーム",
+      "discovery_date": "2026-02-05",
+      "source_url": "https://www.athome.co.jp/corporate/news/topics/oshirase-202602/",
+      "decision": "published_match",
+      "incident_ids": [
+        "athome-moving-20260205"
+      ],
+      "reason": "公式出典を掲載記録へ照合。"
+    },
+    {
+      "discovery_index": 116,
+      "organization": "サイバーエージェント／ドットマネー",
+      "discovery_date": "2026-02-04",
+      "source_url": "https://ameblo.jp/dotmoney/entry-12955635184.html",
+      "decision": "pending",
+      "incident_ids": [],
+      "reason": "原文の曜日表記と2026年の日付が一致しないため、公表年・日時の追加照合が必要。"
+    },
+    {
+      "discovery_index": 117,
+      "organization": "エフワン",
+      "discovery_date": "2026-02-04",
+      "source_url": "https://f-one.co.jp/_include/pdf/information20260204.pdf",
+      "decision": "pending",
+      "incident_ids": [],
+      "reason": "公式本文未取得。"
+    },
+    {
+      "discovery_index": 118,
+      "organization": "北都銀行",
+      "discovery_date": "2026-02-03",
+      "source_url": "https://www.hokutobank.co.jp/cms_source/data/hokuto/info/files/20260203-1.pdf",
+      "decision": "published_match",
+      "incident_ids": [
+        "hokutobank-document-loss-20260203"
+      ],
+      "reason": "公式出典を掲載記録へ照合。"
+    },
+    {
+      "discovery_index": 119,
+      "organization": "川崎市／かわさき市民活動センター",
+      "discovery_date": "2026-02-03",
+      "source_url": "https://www.city.kawasaki.jp/templates/prs/450/0000184412.html",
+      "decision": "published_match",
+      "incident_ids": [
+        "kawasaki-wakuwaku-sd-20260203"
+      ],
+      "reason": "公式出典を掲載記録へ照合。"
+    },
+    {
+      "discovery_index": 120,
+      "organization": "大阪市住之江区選挙管理委員会",
+      "discovery_date": "2026-02-03",
+      "source_url": "https://www.city.osaka.lg.jp/hodoshiryo/suminoe/0000672499.html",
+      "decision": "published_match",
+      "incident_ids": [
+        "osaka-suminoe-election-mail-20260203"
+      ],
+      "reason": "公式出典を掲載記録へ照合。"
+    },
+    {
+      "discovery_index": 121,
+      "organization": "鹿児島市（企業・団体間交流・出会いサポート事業）",
+      "discovery_date": "2026-02-03",
+      "source_url": "https://www.city.kagoshima.lg.jp/soumu/soumu/soumu/documents/roueikouhyou32.pdf",
+      "decision": "published_match",
+      "incident_ids": [
+        "kagoshima-match-mail-20260203"
+      ],
+      "reason": "公式出典を掲載記録へ照合。"
+    },
+    {
+      "discovery_index": 122,
+      "organization": "国立大学法人大阪教育大学",
+      "discovery_date": "2026-02-02",
+      "source_url": "https://osaka-kyoiku.ac.jp/news/detail.html?dispmid=5662&itemid=9548",
+      "decision": "published_match",
+      "incident_ids": [
+        "osaka-kyoiku-mail-20260202"
+      ],
+      "reason": "公式出典を掲載記録へ照合。"
+    },
+    {
+      "discovery_index": 123,
+      "organization": "流通科学大学",
+      "discovery_date": "2026-01-31",
+      "source_url": "https://dev.umds.ac.jp/?p=415710",
+      "decision": "pending",
+      "incident_ids": [],
+      "reason": "公式URLから本文を取得できず、報道日と対外公表日を区別できていない。"
+    },
+    {
+      "discovery_index": 124,
+      "organization": "株式会社インテグラル",
+      "discovery_date": "2026-01-30",
+      "source_url": "https://www.integralcorp.jp/information/20260130/",
+      "decision": "published_match",
+      "incident_ids": [
+        "integral-web-followup-20260417"
+      ],
+      "reason": "公式出典を掲載記録へ照合。"
+    },
+    {
+      "discovery_index": 125,
+      "organization": "株式会社ロジックベイン",
+      "discovery_date": "2026-01-30",
+      "source_url": "https://www.lvi.co.jp/company-news/2026/01/30/%E4%B8%8D%E6%AD%A3%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B-%E7%AC%AC2%E5%A0%B1-20260130/",
+      "decision": "published_match",
+      "incident_ids": [
+        "logicvein-20260817"
+      ],
+      "reason": "公式出典を掲載記録へ照合。"
+    },
+    {
+      "discovery_index": 126,
+      "organization": "株式会社カンバス",
+      "discovery_date": "2026-01-29",
+      "source_url": "https://canvass.co.jp/wp-content/uploads/2026/01/20260129_RansomwareReport.pdf",
+      "decision": "published_match",
+      "incident_ids": [
+        "canvass-ransom-20260129"
+      ],
+      "reason": "公式出典を掲載記録へ照合。"
+    },
+    {
+      "discovery_index": 127,
+      "organization": "新横浜グレイスホテル",
+      "discovery_date": "2026-01-27",
+      "source_url": "https://gracehotel.jp/news/details/6216/",
+      "decision": "published_match",
+      "incident_ids": [
+        "gracehotel-booking-20260127"
+      ],
+      "reason": "公式出典を掲載記録へ照合。"
+    },
+    {
+      "discovery_index": 128,
+      "organization": "兵庫県／NTTマーケティングアクトProCX",
+      "discovery_date": "2026-01-27",
+      "source_url": "https://web.pref.hyogo.lg.jp/kf15/press/20260127.html",
+      "decision": "published_match",
+      "incident_ids": [
+        "hyogo-medical-mail-20260127"
+      ],
+      "reason": "公式出典を掲載記録へ照合。"
+    },
+    {
+      "discovery_index": 129,
+      "organization": "ソフトバンク株式会社",
+      "discovery_date": "2026-01-27",
+      "source_url": "https://www.softbank.jp/corp/news/press/sbkk/2026/20260127_02/",
+      "decision": "published_match",
+      "incident_ids": [
+        "softbank-proxy-20260127"
+      ],
+      "reason": "公式出典を掲載記録へ照合。"
+    },
+    {
+      "discovery_index": 130,
+      "organization": "Authense法律事務所",
+      "discovery_date": "2026-01-26",
+      "source_url": "https://www.authense.jp/news/7096/",
+      "decision": "published_match",
+      "incident_ids": [
+        "authense-m365-20260126"
+      ],
+      "reason": "公式出典を掲載記録へ照合。"
+    },
+    {
+      "discovery_index": 131,
+      "organization": "茨城県国際交流協会",
+      "discovery_date": "2026-01-26",
+      "source_url": "https://www.ia-ibaraki.or.jp/post-8396/",
+      "decision": "published_match",
+      "incident_ids": [
+        "ibaraki-exchange-mail-20260126"
+      ],
+      "reason": "公式出典を掲載記録へ照合。"
+    },
+    {
+      "discovery_index": 132,
+      "organization": "株式会社インテリックス",
+      "discovery_date": "2026-01-26",
+      "source_url": "https://www.justcurtain.com/html/user_data/justcurtain_news2.pdf",
+      "decision": "published_match",
+      "incident_ids": [
+        "justcurtain-ec-20260126"
+      ],
+      "reason": "公式出典を掲載記録へ照合。"
+    },
+    {
+      "discovery_index": 133,
+      "organization": "株式会社ジーオーティー",
+      "discovery_date": "2026-01-26",
+      "source_url": "https://gotbb.jp/news.php?id=1",
+      "decision": "published_match",
+      "incident_ids": [
+        "got-reader-survey-20260126"
+      ],
+      "reason": "公式出典を掲載記録へ照合。"
+    },
+    {
+      "discovery_index": 134,
+      "organization": "嘉麻市",
+      "discovery_date": "2026-01-26",
+      "source_url": "https://www.city.kama.lg.jp/soshiki/0/41631.html",
+      "decision": "published_match",
+      "incident_ids": [
+        "kama-vacant-house-20260126"
+      ],
+      "reason": "公式出典を掲載記録へ照合。"
+    },
+    {
+      "discovery_index": 135,
+      "organization": "明治安田生命保険相互会社",
+      "discovery_date": "2026-01-26",
+      "source_url": "https://www.meijiyasuda.co.jp/profile/news/release/2025/pdf/20260126_01.pdf",
+      "decision": "outside_or_unconfirmed_personal_data",
+      "incident_ids": [],
+      "reason": "企業・代理店の業務情報と個人情報の区別が未解決。"
+    },
+    {
+      "discovery_index": 136,
+      "organization": "静岡県空港振興課",
+      "discovery_date": "2026-01-26",
+      "source_url": "https://www.pref.shizuoka.jp/_res/projects/default_project/_page_/001/081/423/202601pressrelease2.pdf",
+      "decision": "pending",
+      "incident_ids": [],
+      "reason": "同一PDFが別日・別課名でも索引されており、個別公表日と対象の照合が必要。"
+    },
+    {
+      "discovery_index": 137,
+      "organization": "柏市広報広聴課／医療公社管理課",
+      "discovery_date": "2026-01-23",
+      "source_url": "https://www.city.kashiwa.lg.jp/documents/42514/kouhou_kohyo.pdf",
+      "decision": "published_match",
+      "incident_ids": [
+        "kashiwa-limited-web-20260123"
+      ],
+      "reason": "公式出典を掲載記録へ照合。"
+    },
+    {
+      "discovery_index": 138,
+      "organization": "農林水産省",
+      "discovery_date": "2026-01-23",
+      "source_url": "https://www.maff.go.jp/j/press/kanbo/keiri/260123.html",
+      "decision": "published_match",
+      "incident_ids": [
+        "maff-payroll-mail-20260123"
+      ],
+      "reason": "公式出典を掲載記録へ照合。"
+    },
+    {
+      "discovery_index": 139,
+      "organization": "学校法人宮崎日本大学学園",
+      "discovery_date": "2026-01-23",
+      "source_url": "https://www.m-nichidai.com/news_school/%E3%82%B5%E3%83%9D%E3%83%BC%E3%83%88%E8%A9%90%E6%AC%BA%E4%BA%8B%E6%A1%88%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E3%81%94%E5%A0%B1%E5%91%8A/",
+      "decision": "published_match",
+      "incident_ids": [
+        "miyazaki-nichidai-scam-20260123"
+      ],
+      "reason": "公式出典を掲載記録へ照合。"
+    },
+    {
+      "discovery_index": 140,
+      "organization": "さいたま市",
+      "discovery_date": "2026-01-23",
+      "source_url": "https://www.city.saitama.lg.jp/006/014/008/003/014/010/p127346.html",
+      "decision": "outside_or_unconfirmed_personal_data",
+      "incident_ids": [],
+      "reason": "団体IDを個人情報として数えない。"
+    },
+    {
+      "discovery_index": 141,
+      "organization": "株式会社シンシア",
+      "discovery_date": "2026-01-22",
+      "source_url": "https://renatus-group.co.jp/wp-content/uploads/2026/01/20260122_news_company.pdf",
+      "decision": "pending",
+      "incident_ids": [],
+      "reason": "公式PDFから本文を抽出できず、個人情報の範囲と公表日を確認できない。"
+    },
+    {
+      "discovery_index": 142,
+      "organization": "名古屋市国際交流課",
+      "discovery_date": "2026-01-22",
+      "source_url": "https://www.city.nagoya.jp/houdou/pressr7/3002888/3003798.html",
+      "decision": "published_match",
+      "incident_ids": [
+        "nagoya-international-form-20260122"
+      ],
+      "reason": "公式出典を掲載記録へ照合。"
+    },
+    {
+      "discovery_index": 143,
+      "organization": "静岡県空港管理課空港調整室／委託先",
+      "discovery_date": "2026-01-22",
+      "source_url": "https://www.pref.shizuoka.jp/_res/projects/default_project/_page_/001/081/423/202601pressrelease2.pdf",
+      "decision": "discovery_only",
+      "incident_ids": [],
+      "reason": "索引の探索情報。別URLの既存事案・続報を含み、個別採否はこの行からは確定しない。"
+    },
+    {
+      "discovery_index": 144,
+      "organization": "株式会社cocoloni",
+      "discovery_date": "2026-01-21",
+      "source_url": "https://cocoloni.com/news/%E3%80%90%E9%87%8D%E8%A6%81%E3%81%AA%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B%E3%80%91%E4%B8%8D%E6%AD%A3%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E3%81%AB%E3%82%88%E3%82%8B%E3%83%A1%E3%83%BC%E3%83%AB%E3%82%A2/",
+      "decision": "discovery_only",
+      "incident_ids": [],
+      "reason": "索引の探索情報。別URLの既存事案・続報を含み、個別採否はこの行からは確定しない。"
+    },
+    {
+      "discovery_index": 145,
+      "organization": "江戸川区教育委員会",
+      "discovery_date": "2026-01-21",
+      "source_url": "https://www.city.edogawa.tokyo.jp/e004/kuseijoho/kohokocho/press/2026/01/0121.html",
+      "decision": "outside_or_unconfirmed_personal_data",
+      "incident_ids": [],
+      "reason": "公表対象は試験問題で、個人情報漏えいではない。"
+    },
+    {
+      "discovery_index": 146,
+      "organization": "順天堂大学医学部附属練馬病院",
+      "discovery_date": "2026-01-21",
+      "source_url": "https://hosp-nerima.juntendo.ac.jp/news/nid00005489.html",
+      "decision": "published_match",
+      "incident_ids": [
+        "juntendo-nerima-pc-20260121"
+      ],
+      "reason": "公式出典を掲載記録へ照合。"
+    },
+    {
+      "discovery_index": 147,
+      "organization": "株式会社トンボ飲料",
+      "discovery_date": "2026-01-20",
+      "source_url": "https://www.balance-b.jp/3192/",
+      "decision": "discovery_only",
+      "incident_ids": [],
+      "reason": "索引の探索情報。別URLの既存事案・続報を含み、個別採否はこの行からは確定しない。"
+    },
+    {
+      "discovery_index": 148,
+      "organization": "JR九州グループ",
+      "discovery_date": "2026-01-19",
+      "source_url": "https://www.jrkyushu.co.jp/news/__icsFiles/afieldfile/2026/01/19/20260119_noticeforthosewithexperienceworkingatjrkyushugroupcompanies.pdf",
+      "decision": "published_match",
+      "incident_ids": [
+        "jrkyushu-group-network-20260119"
+      ],
+      "reason": "公式出典を掲載記録へ照合。"
+    },
+    {
+      "discovery_index": 149,
+      "organization": "株式会社青山メイン企画",
+      "discovery_date": "2026-01-16",
+      "source_url": "https://www.amknet.jp/news/2026/03/10/2464/",
+      "decision": "discovery_only",
+      "incident_ids": [],
+      "reason": "索引の探索情報。別URLの既存事案・続報を含み、個別採否はこの行からは確定しない。"
+    },
+    {
+      "discovery_index": 150,
+      "organization": "株式会社ボンフォーム",
+      "discovery_date": "2026-01-16",
+      "source_url": "https://www.bonform.co.jp/ec_site/information/detail/137",
+      "decision": "published_match",
+      "incident_ids": [
+        "bonform-ec-followup-20260427"
+      ],
+      "reason": "公式出典を掲載記録へ照合。"
+    },
+    {
+      "discovery_index": 151,
+      "organization": "株式会社小田急リゾーツ（山のホテル）",
+      "discovery_date": "2026-01-15",
+      "source_url": "https://www.hakone-hoteldeyama.jp/news/316",
+      "decision": "published_match",
+      "incident_ids": [
+        "odakyu-yamano-hotel-20260115"
+      ],
+      "reason": "公式出典を掲載記録へ照合。"
+    },
+    {
+      "discovery_index": 152,
+      "organization": "旭川市",
+      "discovery_date": "2026-01-14",
+      "source_url": "https://www.city.asahikawa.hokkaido.jp/kurashi/135/189/190/d083235.html",
+      "decision": "published_match",
+      "incident_ids": [
+        "asahikawa-welfare-disposal-20260114"
+      ],
+      "reason": "公式出典を掲載記録へ照合。"
+    },
+    {
+      "discovery_index": 153,
+      "organization": "株式会社フラット・フィールド・オペレーションズ（関西エアポートワシントンホテル）",
+      "discovery_date": "2026-01-14",
+      "source_url": "https://washington-hotels.jp/kansai/information/16885/",
+      "decision": "published_match",
+      "incident_ids": [
+        "kansai-washington-booking-20260430"
+      ],
+      "reason": "公式出典を掲載記録へ照合。"
+    },
+    {
+      "discovery_index": 154,
+      "organization": "株式会社シーエーシー",
+      "discovery_date": "2026-01-13",
+      "source_url": "https://www.cac.co.jp/news/topics_260113/",
+      "decision": "published_match",
+      "incident_ids": [
+        "cac-academic-navi-20260113"
+      ],
+      "reason": "公式出典を掲載記録へ照合。"
+    },
+    {
+      "discovery_index": 155,
+      "organization": "公益財団法人まちみらい千代田",
+      "discovery_date": "2026-01-13",
+      "source_url": "https://www.mm-chiyoda.or.jp/news/18783.html",
+      "decision": "published_match",
+      "incident_ids": [
+        "mm-chiyoda-mail-20260113"
+      ],
+      "reason": "公式出典を掲載記録へ照合。"
+    },
+    {
+      "discovery_index": 156,
+      "organization": "大阪市住之江区",
+      "discovery_date": "2026-01-09",
+      "source_url": "https://www.city.osaka.lg.jp/hodoshiryo/somu/0000669659.html",
+      "decision": "published_match",
+      "incident_ids": [
+        "osaka-jan-bulk-1-20260109",
+        "osaka-jan-bulk-2-20260109",
+        "osaka-jan-bulk-3-20260109",
+        "osaka-jan-bulk-4-20260109",
+        "osaka-jan-bulk-6-20260109",
+        "osaka-jan-bulk-7-20260109",
+        "osaka-jan-bulk-8-20260109",
+        "osaka-jan-bulk-9-20260109",
+        "osaka-jan-bulk-10-20260109",
+        "osaka-jan-bulk-11-20260109",
+        "osaka-jan-bulk-12-20260109",
+        "osaka-jan-bulk-13-20260109"
+      ],
+      "reason": "公式出典を掲載記録へ照合。"
+    },
+    {
+      "discovery_index": 157,
+      "organization": "大阪市北区",
+      "discovery_date": "2026-01-09",
+      "source_url": "https://www.city.osaka.lg.jp/hodoshiryo/somu/0000669659.html",
+      "decision": "published_match",
+      "incident_ids": [
+        "osaka-jan-bulk-1-20260109",
+        "osaka-jan-bulk-2-20260109",
+        "osaka-jan-bulk-3-20260109",
+        "osaka-jan-bulk-4-20260109",
+        "osaka-jan-bulk-6-20260109",
+        "osaka-jan-bulk-7-20260109",
+        "osaka-jan-bulk-8-20260109",
+        "osaka-jan-bulk-9-20260109",
+        "osaka-jan-bulk-10-20260109",
+        "osaka-jan-bulk-11-20260109",
+        "osaka-jan-bulk-12-20260109",
+        "osaka-jan-bulk-13-20260109"
+      ],
+      "reason": "公式出典を掲載記録へ照合。"
+    },
+    {
+      "discovery_index": 158,
+      "organization": "大阪市こども青少年局",
+      "discovery_date": "2026-01-09",
+      "source_url": "https://www.city.osaka.lg.jp/hodoshiryo/somu/0000669659.html",
+      "decision": "published_match",
+      "incident_ids": [
+        "osaka-jan-bulk-1-20260109",
+        "osaka-jan-bulk-2-20260109",
+        "osaka-jan-bulk-3-20260109",
+        "osaka-jan-bulk-4-20260109",
+        "osaka-jan-bulk-6-20260109",
+        "osaka-jan-bulk-7-20260109",
+        "osaka-jan-bulk-8-20260109",
+        "osaka-jan-bulk-9-20260109",
+        "osaka-jan-bulk-10-20260109",
+        "osaka-jan-bulk-11-20260109",
+        "osaka-jan-bulk-12-20260109",
+        "osaka-jan-bulk-13-20260109"
+      ],
+      "reason": "公式出典を掲載記録へ照合。"
+    },
+    {
+      "discovery_index": 159,
+      "organization": "大阪市西淀川区",
+      "discovery_date": "2026-01-09",
+      "source_url": "https://www.city.osaka.lg.jp/hodoshiryo/somu/0000669659.html",
+      "decision": "published_match",
+      "incident_ids": [
+        "osaka-jan-bulk-1-20260109",
+        "osaka-jan-bulk-2-20260109",
+        "osaka-jan-bulk-3-20260109",
+        "osaka-jan-bulk-4-20260109",
+        "osaka-jan-bulk-6-20260109",
+        "osaka-jan-bulk-7-20260109",
+        "osaka-jan-bulk-8-20260109",
+        "osaka-jan-bulk-9-20260109",
+        "osaka-jan-bulk-10-20260109",
+        "osaka-jan-bulk-11-20260109",
+        "osaka-jan-bulk-12-20260109",
+        "osaka-jan-bulk-13-20260109"
+      ],
+      "reason": "公式出典を掲載記録へ照合。"
+    },
+    {
+      "discovery_index": 160,
+      "organization": "大阪市教育委員会",
+      "discovery_date": "2026-01-09",
+      "source_url": "https://www.city.osaka.lg.jp/hodoshiryo/somu/0000669659.html",
+      "decision": "published_match",
+      "incident_ids": [
+        "osaka-jan-bulk-1-20260109",
+        "osaka-jan-bulk-2-20260109",
+        "osaka-jan-bulk-3-20260109",
+        "osaka-jan-bulk-4-20260109",
+        "osaka-jan-bulk-6-20260109",
+        "osaka-jan-bulk-7-20260109",
+        "osaka-jan-bulk-8-20260109",
+        "osaka-jan-bulk-9-20260109",
+        "osaka-jan-bulk-10-20260109",
+        "osaka-jan-bulk-11-20260109",
+        "osaka-jan-bulk-12-20260109",
+        "osaka-jan-bulk-13-20260109"
+      ],
+      "reason": "公式出典を掲載記録へ照合。"
+    },
+    {
+      "discovery_index": 161,
+      "organization": "大阪市住吉区",
+      "discovery_date": "2026-01-09",
+      "source_url": "https://www.city.osaka.lg.jp/hodoshiryo/somu/0000669659.html",
+      "decision": "published_match",
+      "incident_ids": [
+        "osaka-jan-bulk-1-20260109",
+        "osaka-jan-bulk-2-20260109",
+        "osaka-jan-bulk-3-20260109",
+        "osaka-jan-bulk-4-20260109",
+        "osaka-jan-bulk-6-20260109",
+        "osaka-jan-bulk-7-20260109",
+        "osaka-jan-bulk-8-20260109",
+        "osaka-jan-bulk-9-20260109",
+        "osaka-jan-bulk-10-20260109",
+        "osaka-jan-bulk-11-20260109",
+        "osaka-jan-bulk-12-20260109",
+        "osaka-jan-bulk-13-20260109"
+      ],
+      "reason": "公式出典を掲載記録へ照合。"
+    },
+    {
+      "discovery_index": 162,
+      "organization": "大阪市財政局／福祉局",
+      "discovery_date": "2026-01-09",
+      "source_url": "https://www.city.osaka.lg.jp/hodoshiryo/somu/0000669659.html",
+      "decision": "published_match",
+      "incident_ids": [
+        "osaka-jan-bulk-1-20260109",
+        "osaka-jan-bulk-2-20260109",
+        "osaka-jan-bulk-3-20260109",
+        "osaka-jan-bulk-4-20260109",
+        "osaka-jan-bulk-6-20260109",
+        "osaka-jan-bulk-7-20260109",
+        "osaka-jan-bulk-8-20260109",
+        "osaka-jan-bulk-9-20260109",
+        "osaka-jan-bulk-10-20260109",
+        "osaka-jan-bulk-11-20260109",
+        "osaka-jan-bulk-12-20260109",
+        "osaka-jan-bulk-13-20260109"
+      ],
+      "reason": "公式出典を掲載記録へ照合。"
+    },
+    {
+      "discovery_index": 163,
+      "organization": "大阪市城東区",
+      "discovery_date": "2026-01-09",
+      "source_url": "https://www.city.osaka.lg.jp/hodoshiryo/somu/0000669659.html",
+      "decision": "published_match",
+      "incident_ids": [
+        "osaka-jan-bulk-1-20260109",
+        "osaka-jan-bulk-2-20260109",
+        "osaka-jan-bulk-3-20260109",
+        "osaka-jan-bulk-4-20260109",
+        "osaka-jan-bulk-6-20260109",
+        "osaka-jan-bulk-7-20260109",
+        "osaka-jan-bulk-8-20260109",
+        "osaka-jan-bulk-9-20260109",
+        "osaka-jan-bulk-10-20260109",
+        "osaka-jan-bulk-11-20260109",
+        "osaka-jan-bulk-12-20260109",
+        "osaka-jan-bulk-13-20260109"
+      ],
+      "reason": "公式出典を掲載記録へ照合。"
+    },
+    {
+      "discovery_index": 164,
+      "organization": "大阪市西成区",
+      "discovery_date": "2026-01-09",
+      "source_url": "https://www.city.osaka.lg.jp/hodoshiryo/somu/0000669659.html",
+      "decision": "published_match",
+      "incident_ids": [
+        "osaka-jan-bulk-1-20260109",
+        "osaka-jan-bulk-2-20260109",
+        "osaka-jan-bulk-3-20260109",
+        "osaka-jan-bulk-4-20260109",
+        "osaka-jan-bulk-6-20260109",
+        "osaka-jan-bulk-7-20260109",
+        "osaka-jan-bulk-8-20260109",
+        "osaka-jan-bulk-9-20260109",
+        "osaka-jan-bulk-10-20260109",
+        "osaka-jan-bulk-11-20260109",
+        "osaka-jan-bulk-12-20260109",
+        "osaka-jan-bulk-13-20260109"
+      ],
+      "reason": "公式出典を掲載記録へ照合。"
+    },
+    {
+      "discovery_index": 165,
+      "organization": "大阪市こども青少年局",
+      "discovery_date": "2026-01-09",
+      "source_url": "https://www.city.osaka.lg.jp/hodoshiryo/somu/0000669659.html",
+      "decision": "published_match",
+      "incident_ids": [
+        "osaka-jan-bulk-1-20260109",
+        "osaka-jan-bulk-2-20260109",
+        "osaka-jan-bulk-3-20260109",
+        "osaka-jan-bulk-4-20260109",
+        "osaka-jan-bulk-6-20260109",
+        "osaka-jan-bulk-7-20260109",
+        "osaka-jan-bulk-8-20260109",
+        "osaka-jan-bulk-9-20260109",
+        "osaka-jan-bulk-10-20260109",
+        "osaka-jan-bulk-11-20260109",
+        "osaka-jan-bulk-12-20260109",
+        "osaka-jan-bulk-13-20260109"
+      ],
+      "reason": "公式出典を掲載記録へ照合。"
+    },
+    {
+      "discovery_index": 166,
+      "organization": "大阪市教育委員会",
+      "discovery_date": "2026-01-09",
+      "source_url": "https://www.city.osaka.lg.jp/hodoshiryo/somu/0000669659.html",
+      "decision": "published_match",
+      "incident_ids": [
+        "osaka-jan-bulk-1-20260109",
+        "osaka-jan-bulk-2-20260109",
+        "osaka-jan-bulk-3-20260109",
+        "osaka-jan-bulk-4-20260109",
+        "osaka-jan-bulk-6-20260109",
+        "osaka-jan-bulk-7-20260109",
+        "osaka-jan-bulk-8-20260109",
+        "osaka-jan-bulk-9-20260109",
+        "osaka-jan-bulk-10-20260109",
+        "osaka-jan-bulk-11-20260109",
+        "osaka-jan-bulk-12-20260109",
+        "osaka-jan-bulk-13-20260109"
+      ],
+      "reason": "公式出典を掲載記録へ照合。"
+    },
+    {
+      "discovery_index": 167,
+      "organization": "大阪市市民局",
+      "discovery_date": "2026-01-09",
+      "source_url": "https://www.city.osaka.lg.jp/hodoshiryo/somu/0000669659.html",
+      "decision": "published_match",
+      "incident_ids": [
+        "osaka-jan-bulk-1-20260109",
+        "osaka-jan-bulk-2-20260109",
+        "osaka-jan-bulk-3-20260109",
+        "osaka-jan-bulk-4-20260109",
+        "osaka-jan-bulk-6-20260109",
+        "osaka-jan-bulk-7-20260109",
+        "osaka-jan-bulk-8-20260109",
+        "osaka-jan-bulk-9-20260109",
+        "osaka-jan-bulk-10-20260109",
+        "osaka-jan-bulk-11-20260109",
+        "osaka-jan-bulk-12-20260109",
+        "osaka-jan-bulk-13-20260109"
+      ],
+      "reason": "公式出典を掲載記録へ照合。"
+    },
+    {
+      "discovery_index": 168,
+      "organization": "四街道市防犯協会",
+      "discovery_date": "2026-01-09",
+      "source_url": "https://www.city.yotsukaido.chiba.jp/shisei/koho/houdou_kouhyou/2025houdou/20260109_houdou.html",
+      "decision": "published_match",
+      "incident_ids": [
+        "yotsukaido-crime-pc-20260109"
+      ],
+      "reason": "公式出典を掲載記録へ照合。"
+    },
+    {
+      "discovery_index": 169,
+      "organization": "沖縄県立看護大学",
+      "discovery_date": "2026-01-08",
+      "source_url": "https://www.okinawa-nurs.ac.jp/news/20514-2/",
+      "decision": "published_match",
+      "incident_ids": [
+        "okinawa-nursing-ransom-20260108"
+      ],
+      "reason": "公式出典を掲載記録へ照合。"
+    },
+    {
+      "discovery_index": 170,
+      "organization": "合同会社coastline（スマレジ連携外部アプリ）",
+      "discovery_date": "2026-01-08",
+      "source_url": "https://smaregi.jp/news/press/20260113.php",
+      "decision": "discovery_only",
+      "incident_ids": [],
+      "reason": "索引の探索情報。別URLの既存事案・続報を含み、個別採否はこの行からは確定しない。"
+    },
+    {
+      "discovery_index": 171,
+      "organization": "東京都公立大学法人（東京都立大学）",
+      "discovery_date": "2026-01-07",
+      "source_url": "https://www.houjin-tmu.ac.jp/news/news38235/",
+      "decision": "discovery_only",
+      "incident_ids": [],
+      "reason": "索引の探索情報。別URLの既存事案・続報を含み、個別採否はこの行からは確定しない。"
+    },
+    {
+      "discovery_index": 172,
+      "organization": "大阪ブルテオン／株式会社バーチャスクリエイト",
+      "discovery_date": "2026-01-07",
+      "source_url": "https://www.osaka-bluteon.com/news/2026/20260107_01.html",
+      "decision": "published_match",
+      "incident_ids": [
+        "osaka-bluteon-mail-20260107"
+      ],
+      "reason": "公式出典を掲載記録へ照合。"
+    },
+    {
+      "discovery_index": 173,
+      "organization": "株式会社エフエム東京（TOKYO FM）",
+      "discovery_date": "2026-01-06",
+      "source_url": "https://www.tfm.co.jp/company/about/ir/news/47630",
+      "decision": "published_match",
+      "incident_ids": [
+        "tokyofm-analytics-20260106"
+      ],
+      "reason": "公式出典を掲載記録へ照合。"
+    }
+  ],
+  "next_discovery_rows": [
+    {
+      "article_url": "https://www.security-next.com/180332",
+      "title": "包装資材通販サイトの侵害、決済アプリ改ざんで個人情報流出の可能性",
+      "article_date": "2026-01-30",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/180336",
+      "title": "海外法人が昨年末にランサム被害、年明け後判明 - 新光商事",
+      "article_date": "2026-01-30",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/180389",
+      "title": "患者情報含む医師私物PCが所在不明 - 順天堂大付属練馬病院",
+      "article_date": "2026-01-30",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/180324",
+      "title": "生活保護関連書類持ち帰り家庭ゴミとして処分、情報流出や未支給も - 旭川市",
+      "article_date": "2026-01-29",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/180249",
+      "title": "雑誌のアンケート回答者情報が流出した可能性 - DMMグループ出版社",
+      "article_date": "2026-01-29",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/180246",
+      "title": "「My SoftBank」上で個人情報など誤表示 - メールで取り違えも",
+      "article_date": "2026-01-28",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/179697",
+      "title": "戸籍届書をFAXで誤送信、宛先選択ミスで - 天草市",
+      "article_date": "2026-01-28",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/180252",
+      "title": "ハラスメント対策情報サイトが改ざん、個人情報流出は否定 - 厚労省",
+      "article_date": "2026-01-28",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/180112",
+      "title": "住民向け土石流異常通知メール、試験配信でメアド流出 - 静岡県",
+      "article_date": "2026-01-27",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/180200",
+      "title": "ゼロデイ攻撃の調査結果、一部流出もPW含まず - TOKAIコミュニケーションズ",
+      "article_date": "2026-01-27",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/180194",
+      "title": "結核健診の受診票が所在不明、庁内授受中に紛失 - 大阪市",
+      "article_date": "2026-01-27",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/180103",
+      "title": "サポート詐欺被害、個人情報含む業務用端末が遠隔操作 - 宮崎日大学園",
+      "article_date": "2026-01-27",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/180183",
+      "title": "カーテン通販サイトで決済アプリ改ざん - 個人情報流出の可能性",
+      "article_date": "2026-01-27",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/180107",
+      "title": "提出先に誤ったメアド、職員や家族の個人情報が第三者に - 農水省",
+      "article_date": "2026-01-26",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/180084",
+      "title": "クラウド用ネットワークに侵入、個人情報やシステム情報が流出か - STNet",
+      "article_date": "2026-01-26",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/180093",
+      "title": "サイトで障害、ランサム攻撃の可能性 - 学校図書館図書整備協会",
+      "article_date": "2026-01-26",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/180086",
+      "title": "サイバー攻撃で顧客情報が流出 - ザッパラスグループ会社",
+      "article_date": "2026-01-23",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/180005",
+      "title": "情報提供メールで誤送信、一部会員のメアド流出 - まちみらい千代田",
+      "article_date": "2026-01-23",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/180007",
+      "title": "個人情報8149件が流出、サーバに不正プログラム - プラ製品メーカー",
+      "article_date": "2026-01-23",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/179997",
+      "title": "プログラム不備で誤送信、メアド流出 - 横須賀商工会議所",
+      "article_date": "2026-01-22",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/179998",
+      "title": "「Apache Airflow」に情報漏洩の脆弱性 - アップデートで修正",
+      "article_date": "2026-01-22",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/180010",
+      "title": "ランサム被害で情報流出を確認、生産や納期に影響なし - トンボ飲料",
+      "article_date": "2026-01-22",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/179875",
+      "title": "JR九州グループ会社にサイバー攻撃 - 従業員情報流出の可能性",
+      "article_date": "2026-01-22",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/179647",
+      "title": "誤送信やSNS投稿など個人情報関連事故を公表 - 日本小児理学療法学会",
+      "article_date": "2026-01-21",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/179699",
+      "title": "予約管理システムから個人情報流出の可能性 - ダイワロイネットホテルズ",
+      "article_date": "2026-01-21",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/179886",
+      "title": "区立保育園で児童票が所在不明、誤廃棄か - 練馬区",
+      "article_date": "2026-01-20",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/179649",
+      "title": "ふるさと納税寄付者情報を返礼品提供事業者に誤送信 - 京都市",
+      "article_date": "2026-01-20",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/179761",
+      "title": "患者に差出人装うハガキ、情報流出を調査 - 糸島医師会病院",
+      "article_date": "2026-01-20",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/179517",
+      "title": "ミュージカル製作発表の観客申込フォームで設定ミス - 個人情報が流出",
+      "article_date": "2026-01-20",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/179884",
+      "title": "関係者向けの通知メールで誤送信、メアド流出 - 東村山市",
+      "article_date": "2026-01-20",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/179800",
+      "title": "事業所向けの案内メールで誤送信 - 高知市雇用創出促進協議会",
+      "article_date": "2026-01-19",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/179752",
+      "title": "サイト公開ファイルに助成金申請者約2000人分の個人情報 - 出雲市",
+      "article_date": "2026-01-19",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/179802",
+      "title": "ランサム被害で脅迫文、オンライン会議への誘導も - 不動産管理会社",
+      "article_date": "2026-01-19",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/179756",
+      "title": "地震後の園児帰宅希望募る保護者向けメールで誤送信 - 佐用町",
+      "article_date": "2026-01-16",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/179645",
+      "title": "アプリマーケットの連携アプリ経由で顧客情報流出の可能性 - スマレジ",
+      "article_date": "2026-01-16",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/177907",
+      "title": "フィッシング攻撃契機に不正アクセス - アーク東短オルタナティブ",
+      "article_date": "2026-01-16",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/179585",
+      "title": "医師が個人情報含む診察室内写真をSNS投稿 - 横浜市医師会",
+      "article_date": "2026-01-16",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/179703",
+      "title": "利用者向けのキャンペーン案内メールで誤送信 - 芸文社",
+      "article_date": "2026-01-15",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/179695",
+      "title": "LPガス配送の委託先がランサム被害 - ENEOSグループ会社",
+      "article_date": "2026-01-15",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/179652",
+      "title": "公園近隣世帯に配布した住宅地図に個人情報 - つくば市",
+      "article_date": "2026-01-15",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/179573",
+      "title": "個人情報含む書類を紛失、誤廃棄の可能性 - ホテルモントレ",
+      "article_date": "2026-01-15",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/179643",
+      "title": "笹だんご通販サイトの不正アクセス - 影響範囲が判明",
+      "article_date": "2026-01-14",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/179580",
+      "title": "奨学金貸付関連の個人情報含む書類が所在不明 - 茂原市",
+      "article_date": "2026-01-14",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/179568",
+      "title": "外部アプリ保有の会員情報が流出、原因など調査 - スマレジ",
+      "article_date": "2026-01-13",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/179577",
+      "title": "東京デフリンピックの審判員一覧や承諾書を紛失 - 都スポーツ文化事業団",
+      "article_date": "2026-01-13",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/179448",
+      "title": "廃棄物収集運搬の複数許可業者に個人情報を誤送信 - 名古屋市",
+      "article_date": "2026-01-09",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/179453",
+      "title": "委託先で個人情報含む書類を紛失、第三者の拾得で判明 - 川崎市",
+      "article_date": "2026-01-09",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/179507",
+      "title": "教務支援システムでランサム被害、情報流出など調査 - 沖縄県立看護大",
+      "article_date": "2026-01-09",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/179511",
+      "title": "約2000人分の公金納付書が所在不明、誤廃棄の可能性 - 三井住友銀",
+      "article_date": "2026-01-09",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/179450",
+      "title": "講師がサポート詐欺被害、個人情報含む私物PCが遠隔操作 - 群馬県",
+      "article_date": "2026-01-08",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/179446",
+      "title": "システムでランサム被害、受注や出荷に遅滞 - 興和江守",
+      "article_date": "2026-01-08",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/179456",
+      "title": "受託運営したセミナーでメールの誤送信が発生 - テレビ愛媛",
+      "article_date": "2026-01-08",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/179390",
+      "title": "クレカ決済データ2.5万件超をメールで店舗に誤送信 - 東急モールズD",
+      "article_date": "2026-01-07",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/179308",
+      "title": "個人情報含むPCを電車内に置き忘れ、データは暗号化 - 埼玉県",
+      "article_date": "2026-01-07",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/179378",
+      "title": "無関係企業に個人情報を誤送信、システム改修時に不具合 - ふるさと島根定住財団",
+      "article_date": "2026-01-07",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/179370",
+      "title": "外部クラウドからユーザー属性情報が流出、原因を調査 - TOKYO FM",
+      "article_date": "2026-01-07",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/179318",
+      "title": "システムにサイバー攻撃、患者情報など流出のおそれ - 徳島大病院",
+      "article_date": "2026-01-06",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/179278",
+      "title": "Node.js環境向けPDF生成ライブラリに脆弱性 - 情報漏洩のおそれ",
+      "article_date": "2026-01-06",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/179236",
+      "title": "年末にランサム被害、提供クラウドに支障なし - 関西総合システム",
+      "article_date": "2026-01-05",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/179114",
+      "title": "Teams設定ミスで個人情報含むファイルが学内閲覧可能に - 富山県大",
+      "article_date": "2026-01-05",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/179229",
+      "title": "海外出張中にPC盗難被害、遠隔からデータ消去 - 東大定量研",
+      "article_date": "2026-01-05",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/179223",
+      "title": "9店舗で未利用口座の印鑑票を紛失 - 旭川信金",
+      "article_date": "2026-01-05",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/179239",
+      "title": "小学校の学校連絡システムで個人情報含む文書を誤送信 - 柏市",
+      "article_date": "2026-01-05",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/181214",
+      "title": "廃棄PCや内蔵SSDが所在不明、内部に個人情報 - JR仙台病院",
+      "article_date": "2026-02-27",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/181455",
+      "title": "複数企業向けの同報メールで誤送信、件名にメアド - 佐賀県",
+      "article_date": "2026-02-27",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/181495",
+      "title": "再々委託先で記録媒体が所在不明、顧客情報含む可能性 - みずほ銀",
+      "article_date": "2026-02-27",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/181321",
+      "title": "第三者がファイル共有サーバにアクセス、情報流出の可能性 - 道路工業",
+      "article_date": "2026-02-27",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/181389",
+      "title": "元従業員が社外秘メールを社外関係者へ無断転送 - 日販グループHD",
+      "article_date": "2026-02-27",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/181449",
+      "title": "イベント申込フォームで設定ミス、個人情報が閲覧可能に - 東京都",
+      "article_date": "2026-02-26",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/181401",
+      "title": "委託先がイベント案内メールを誤送信、メアド流出 - 北杜市",
+      "article_date": "2026-02-26",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/181460",
+      "title": "環境省公開ファイルに経産省の個人情報 - 同一委託先でデータ混入",
+      "article_date": "2026-02-26",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/181331",
+      "title": "支援事業補助金の募集メールで誤送信 - 香川県観光協会",
+      "article_date": "2026-02-25",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/181329",
+      "title": "生徒の個人情報を飲酒後に紛失、中学校教諭を処分 - 川崎市",
+      "article_date": "2026-02-25",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/181323",
+      "title": "ECサイト管理画面に不正アクセス、一部顧客情報が流出 - NSバイオジャパン",
+      "article_date": "2026-02-25",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/181392",
+      "title": "成績票原本を誤廃棄、システム未登録でデータ消失 - 岡山大",
+      "article_date": "2026-02-25",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/181326",
+      "title": "小学校で児童の個人情報含む指導計画や記録簿を紛失 - 柏市",
+      "article_date": "2026-02-24",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/181268",
+      "title": "付属小学校説明会の申込者向けメールで誤送信 - 山口大",
+      "article_date": "2026-02-24",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/181266",
+      "title": "ランサム攻撃で業務用サーバから情報流出の可能性 - 美濃工業",
+      "article_date": "2026-02-24",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/180587",
+      "title": "市サイト上で個人情報含むファイルが認証なく閲覧可能に - 柏市",
+      "article_date": "2026-02-20",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/180392",
+      "title": "複数警察署で事件関係者の個人情報含む書類を紛失 - 福井県警",
+      "article_date": "2026-02-20",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/181165",
+      "title": "海外通販サイトに不正アクセス、会員情報流出の可能性 - BEENOS子会社",
+      "article_date": "2026-02-20",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/181217",
+      "title": "「SESマッチングサービス」のメルアカに不正アクセス - アデコ",
+      "article_date": "2026-02-20",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/181262",
+      "title": "サーバ内にバックドア、個人情報流出の可能性 - ケイ・ウノ",
+      "article_date": "2026-02-20",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/181263",
+      "title": "アドバンテストでランサム被害か - 影響や原因など調査",
+      "article_date": "2026-02-20",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/181117",
+      "title": "ホテル予約者にフィッシング攻撃、情報流出の可能性 - グリーンズ",
+      "article_date": "2026-02-19",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/180689",
+      "title": "フィッシング契機に端末不正操作、個人情報流出を確認 - 共立メンテナンス",
+      "article_date": "2026-02-19",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/181224",
+      "title": "患者の個人情報含む納品書を複数の取引先へ誤送信 - フクダ電子グループ会社",
+      "article_date": "2026-02-19",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/181173",
+      "title": "米国拠点でメルアカに不正アクセス - アダルトグッズメーカー",
+      "article_date": "2026-02-18",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/180982",
+      "title": "理工学部でSSD紛失、内部に調査で取得した個人情報 - 慶大",
+      "article_date": "2026-02-18",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/181155",
+      "title": "米当局、脆弱性悪用リストに4件追加 - ランサム対策製品の脆弱性も",
+      "article_date": "2026-02-18",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/181107",
+      "title": "児童の写真データ含む記憶媒体を紛失、返却し忘れ帰宅 - 川崎市",
+      "article_date": "2026-02-17",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/181114",
+      "title": "サーバがランサム感染、詳細は調査中 - 引抜鋼管メーカー",
+      "article_date": "2026-02-17",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/181104",
+      "title": "個人情報含む選挙関連の事務用文書を誤送付 - 大阪市住之江区選管",
+      "article_date": "2026-02-17",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/181100",
+      "title": "米子会社2社でランサム被害、従業員情報流出か - ハリマ化成グループ",
+      "article_date": "2026-02-17",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/180926",
+      "title": "非常勤講師が個人情報含む私物PCを置き忘れて紛失 - 札幌医科大",
+      "article_date": "2026-02-17",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/180980",
+      "title": "ランサム被害でファイル暗号化、影響など調査 - フィーチャ",
+      "article_date": "2026-02-17",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/181033",
+      "title": "衆院選の選挙人名簿照合用データ含むメディア5枚を紛失 - 狛江市",
+      "article_date": "2026-02-16",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/180834",
+      "title": "クラウド設定ミス、学内で学生の個人情報が閲覧可能に - 流通科学大",
+      "article_date": "2026-02-16",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/181039",
+      "title": "一部サーバでランサム感染、情報流出など調査 - ワシントンホテル",
+      "article_date": "2026-02-16",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/181036",
+      "title": "米子会社にサイバー攻撃、情報流出の可能性 - サカタのタネ",
+      "article_date": "2026-02-16",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/181031",
+      "title": "ランサム被害で患者情報流出、診療には影響なし - 日本医科大学武蔵小杉病院",
+      "article_date": "2026-02-16",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/180975",
+      "title": "クラウドに不正アクセス、個人情報流出の可能性 - マイナビ",
+      "article_date": "2026-02-13",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/180973",
+      "title": "リフト券システムがランサム被害、個人情報流出の可能性 - ガーラ湯沢",
+      "article_date": "2026-02-13",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/180911",
+      "title": "手荷物配送サービス予約システムに攻撃、個人情報流出の可能性 - JAL",
+      "article_date": "2026-02-13",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/180977",
+      "title": "公務員採用試験受験者の個人情報含む書類が所在不明 - 人事院",
+      "article_date": "2026-02-13",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/180921",
+      "title": "メール誤送信で婚活イベント参加者のメアドが流出 - 鹿児島市",
+      "article_date": "2026-02-12",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/180682",
+      "title": "引越し見積もりシステムで個人情報流出の可能性 - アットホーム",
+      "article_date": "2026-02-12",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/180830",
+      "title": "患者の個人情報含む書類を飲食店に置き忘れ、回収済み - 神戸海星病院",
+      "article_date": "2026-02-12",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/180825",
+      "title": "講師が商業施設で個人情報含む私物PC紛失 - 北海道武蔵女子短大",
+      "article_date": "2026-02-10",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/180752",
+      "title": "ウェブサーバにマルウェア、情報流出は否定 - アジア学院",
+      "article_date": "2026-02-10",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/180820",
+      "title": "ニッタイ工業の通販サイトで侵害 - 個人情報流出の可能性",
+      "article_date": "2026-02-10",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/180828",
+      "title": "県選管サイトに個人情報含むデータを誤掲載 - 神奈川県",
+      "article_date": "2026-02-10",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/180750",
+      "title": "ランサムウェア被害が判明、商品出荷に影響 - ペット用品会社",
+      "article_date": "2026-02-09",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/180745",
+      "title": "美容器具の卸売通販サイトで情報流出の可能性 - 詳細を調査",
+      "article_date": "2026-02-09",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/180693",
+      "title": "ランサムで情報流出の可能性、廃棄物処理などは通常稼働 - レナタス子会社",
+      "article_date": "2026-02-06",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/180634",
+      "title": "FW脆弱性を突く不正アクセス、VPN経由で侵入 - ロジックベイン",
+      "article_date": "2026-02-06",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/180697",
+      "title": "業務用携帯が所在不明、除雪時に流雪溝へ落下 - 大鰐町",
+      "article_date": "2026-02-06",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/180646",
+      "title": "会員サイトで個人情報を誤表示、CDN設定不備で - エバラ食品",
+      "article_date": "2026-02-06",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/180581",
+      "title": "M365アカウントに不正アクセス、メール大量送信 - 樟蔭女子大",
+      "article_date": "2026-02-06",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/180672",
+      "title": "「React Native CLI」や「SmarterMail」の脆弱性悪用に警戒を - ランサムでも",
+      "article_date": "2026-02-06",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/180642",
+      "title": "海外子会社でランサム被害、ファイル暗号化 - アルバック",
+      "article_date": "2026-02-05",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/180638",
+      "title": "情報共有システムで契約者の個人情報が閲覧可能に - JA共済",
+      "article_date": "2026-02-05",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/180088",
+      "title": "予約サイトに不正ログイン、個人情報が流出 - 関西エアポートワシントンホテル",
+      "article_date": "2026-02-04",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/180579",
+      "title": "7支店で整理口明細資料を紛失、誤廃棄の可能性 - 北都銀",
+      "article_date": "2026-02-04",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/180590",
+      "title": "2度にわたりメール誤送信、メアド2376件が流出 - 大教大",
+      "article_date": "2026-02-04",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/180519",
+      "title": "サーバ内の一部データが暗号化、情報流出の可能性 - 光栄",
+      "article_date": "2026-02-04",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/180575",
+      "title": "サーバでランサムウェア被害を確認、影響など調査 - 穴吹興産",
+      "article_date": "2026-02-04",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/180513",
+      "title": "委託先でメール誤送信、補助金申請者のメアド流出 - 兵庫県",
+      "article_date": "2026-02-03",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/180516",
+      "title": "空き家バンク登録物件ページに個人情報含むファイル - 嘉麻市",
+      "article_date": "2026-02-03",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/180509",
+      "title": "頭皮ケア製品のX公式アカウントに不正アクセス - 利用停止に",
+      "article_date": "2026-02-03",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/180427",
+      "title": "ボランティアにメール送信した申込書に個人情報 - 茨城県国際交流協会",
+      "article_date": "2026-02-02",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/182810",
+      "title": "子会社通販サイトの情報流出可能性、対象件数を特定 - 日創グループ",
+      "article_date": "2026-03-31",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/182648",
+      "title": "要配慮個人情報含むUSBメモリを紛失 - 増田医科器械",
+      "article_date": "2026-03-31",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/182786",
+      "title": "複数選挙区において選挙関係書類の誤廃棄が判明 - 神戸市",
+      "article_date": "2026-03-31",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/182532",
+      "title": "APIキーが外部流出、フィッシングメールの踏み台に - SaveExpats",
+      "article_date": "2026-03-30",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/182709",
+      "title": "消防本部で個人情報含む救急活動記録票を紛失 - 太田市",
+      "article_date": "2026-03-30",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/182707",
+      "title": "サーバがランサム感染、顧客情報流出の可能性 - ネクサスエナジー",
+      "article_date": "2026-03-30",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/182705",
+      "title": "委託先にサイバー攻撃、従業員などの個人情報流出の可能性 - ジョイフル",
+      "article_date": "2026-03-30",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/182598",
+      "title": "元職員が個人情報を持出、サークル勧誘に利用 - 横須賀市の病院",
+      "article_date": "2026-03-27",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/182652",
+      "title": "サーバデータが暗号化被害、内部に個人情報 - タカカツグループHD",
+      "article_date": "2026-03-27",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/182596",
+      "title": "障害復旧作業用HDDが所在不明、内部の生徒情報 - 浦添市",
+      "article_date": "2026-03-27",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/182535",
+      "title": "体験型サービスの会員向けメールで誤送信 - キリンビール",
+      "article_date": "2026-03-26",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/182565",
+      "title": "ランサム被害の調査を継続、受注や発送は再開 - メディカ出版",
+      "article_date": "2026-03-25",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/182053",
+      "title": "中学校で採点済み答案用紙のURLをメールで誤送信 - 小平市",
+      "article_date": "2026-03-25",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/182379",
+      "title": "自治体向け掲示板に個人情報含む資料を掲載 - 神奈川県",
+      "article_date": "2026-03-24",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/182408",
+      "title": "海外拠点従業員のメールアカウントに不正アクセス - サクラ工業",
+      "article_date": "2026-03-24",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/182473",
+      "title": "「Harbor」に脆弱性、初期PW未変更で不正アクセスのおそれ",
+      "article_date": "2026-03-24",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/182173",
+      "title": "教員名簿で年齢を削除せずにサイトで誤掲載 - 山形大",
+      "article_date": "2026-03-23",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/182302",
+      "title": "避難行動要支援者への同意書を誤送付、生成データに齟齬 - 伊丹市",
+      "article_date": "2026-03-23",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/182370",
+      "title": "委託先サーバから卒業生の個人情報が流出 - 国武大",
+      "article_date": "2026-03-23",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/182377",
+      "title": "個人情報を不正取得、漏洩した職員を懲戒免職 - 二本松市",
+      "article_date": "2026-03-23",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/182410",
+      "title": "倉庫管理システムに不正アクセス、関係者情報が流出か - マツダ",
+      "article_date": "2026-03-23",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/182374",
+      "title": "3.3万人宛てメールで誤送信、グループごとにメアド表示 - NHK",
+      "article_date": "2026-03-19",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/182296",
+      "title": "ランサム被害で個人情報流出、受注や出荷が停止 - メディカ出版",
+      "article_date": "2026-03-19",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/182372",
+      "title": "明星食品のInstagramアカウントが不正アクセス被害",
+      "article_date": "2026-03-19",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/182305",
+      "title": "企業向けセミナー申込者へのメールで誤送信 - 愛知県",
+      "article_date": "2026-03-18",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/182175",
+      "title": "個人情報含むUSBメモリを紛失、教頭を戒告処分 - 新潟県",
+      "article_date": "2026-03-18",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/182299",
+      "title": "患者の診療データ含むUSBメモリが所在不明 - 多根総合病院",
+      "article_date": "2026-03-18",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/182244",
+      "title": "ランサム被害で障害、出荷は再開 - 日本スウェージロックFST",
+      "article_date": "2026-03-18",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/182125",
+      "title": "申請関連書類が所在不明、オフィス転換工事後に判明 - 東京都",
+      "article_date": "2026-03-17",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/182170",
+      "title": "チャットアプリの従業員アカウントに不正アクセス - フィッシングに悪用",
+      "article_date": "2026-03-17",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/182241",
+      "title": "高校教員の個人情報含むメールを誤送信 - 香川県教委",
+      "article_date": "2026-03-17",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/182236",
+      "title": "元従業員が個人情報を退職後にダウンロード - ユナイテッドアローズ",
+      "article_date": "2026-03-17",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/182246",
+      "title": "サーバがランサム被害、影響など詳細を調査 - 丸高興業",
+      "article_date": "2026-03-17",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/182059",
+      "title": "システム設定不備で別事業者の売上精算書を誤送信 - 兵庫県",
+      "article_date": "2026-03-16",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/182047",
+      "title": "放課後児童クラブ職員が個人情報を一時紛失、帰宅途中に - 福岡市",
+      "article_date": "2026-03-16",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/181815",
+      "title": "地域生活支援システムで障害、個人情報が消失 - 東海村社会福祉協議会",
+      "article_date": "2026-03-16",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/182116",
+      "title": "個人情報含むメールを外部関係者へ誤送信 - 工業所有権情報・研修館",
+      "article_date": "2026-03-13",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/182051",
+      "title": "関係者向け事務連絡メールで誤送信 - 日本医療研究開発機構",
+      "article_date": "2026-03-12",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/181996",
+      "title": "研究室サーバに不正アクセス、学外サーバ侵害からの連鎖で - 東大",
+      "article_date": "2026-03-12",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/182045",
+      "title": "ランサム被害で第三者操作の形跡、個人情報流出か - 不動産管理会社",
+      "article_date": "2026-03-12",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/182013",
+      "title": "個人情報を誤送信、登録手順を誤り別事業者へ - 協会けんぽ",
+      "article_date": "2026-03-11",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/181750",
+      "title": "電子カルテシステムがランサム被害、個人情報が流出 - 静岡県の病院",
+      "article_date": "2026-03-11",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/181922",
+      "title": "ランサムウェア被害による情報流出を確認 - 穴吹ハウジングサービス",
+      "article_date": "2026-03-10",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/181807",
+      "title": "AWSアカウントに不正アクセス、スパム送信の踏み台に - つくるAI",
+      "article_date": "2026-03-10",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/181858",
+      "title": "職員アカウントがフィッシング被害、情報流出のおそれも - 日大",
+      "article_date": "2026-03-10",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/181926",
+      "title": "システムがランサム被害、詳細を調査 - ウチヤマHD",
+      "article_date": "2026-03-10",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/181758",
+      "title": "投票所へバイクで移動中、個人情報含む書類を紛失 - 高槻市",
+      "article_date": "2026-03-10",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/181610",
+      "title": "ECサイトで個人情報が表示、設定不備で - FABRIC TOKYO",
+      "article_date": "2026-03-09",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/181861",
+      "title": "市民活動支援センターの団体宛メールで誤送信 - 木更津市",
+      "article_date": "2026-03-09",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/181813",
+      "title": "校外学習先で生徒の個人情報含む書類を紛失 - 大阪府立高",
+      "article_date": "2026-03-09",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/181762",
+      "title": "業務用携帯電話を紛失、虚偽報告の職員を処分 - 長浜市",
+      "article_date": "2026-03-09",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/181855",
+      "title": "システム侵害による情報流出が判明、詳細を調査 - 村田製作所",
+      "article_date": "2026-03-09",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/181852",
+      "title": "水道スマートメーターの利用者情報が流出した可能性 - 都水道局",
+      "article_date": "2026-03-09",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/181615",
+      "title": "個人情報含む検体、検査機関への送付時に紛失 - 高知県",
+      "article_date": "2026-03-06",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/181755",
+      "title": "衆議院選挙の投票入場券100枚が所在不明 - 浦添市",
+      "article_date": "2026-03-05",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/181544",
+      "title": "約3.2万人分の雇用保険文書を誤廃棄、独自メモに誤り - 京都労働局",
+      "article_date": "2026-03-05",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/181676",
+      "title": "一部サーバがランサム被害、影響について調査 - MG石材",
+      "article_date": "2026-03-05",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/181671",
+      "title": "VPN経由で侵入、複数サーバがランサム被害 - 中央学院大",
+      "article_date": "2026-03-05",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/181502",
+      "title": "複数小中学校で同意なく個人情報をPTAへ提供 - 春日井市",
+      "article_date": "2026-03-05",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/181508",
+      "title": "個人情報を誤公開、マスキング処理前の作業データ - 静岡県",
+      "article_date": "2026-03-05",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/181451",
+      "title": "市サイトに住民の個人情報含むファイルを掲載 - 嘉麻市",
+      "article_date": "2026-03-04",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/181397",
+      "title": "個人情報含む書類が出先機関へ返送過程で所在不明に - 宮崎県",
+      "article_date": "2026-03-04",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/181613",
+      "title": "ランサム被害を確認、受託データや生産に影響なし - 山藤三陽印刷",
+      "article_date": "2026-03-04",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/181607",
+      "title": "委託先がランサム被害、一部プレゼント応募者情報が流出 - 京都新聞",
+      "article_date": "2026-03-03",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/181453",
+      "title": "個人情報含む書類を異なる金融機関へ誤送付 - 愛知のケーブルTV局",
+      "article_date": "2026-03-02",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/181386",
+      "title": "就職相談会の応募フォームに設定ミス、個人情報を閲覧可能に - 練馬区",
+      "article_date": "2026-03-02",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/181547",
+      "title": "システムから個人情報流出の可能性 - JAあきた北ライフサービス",
+      "article_date": "2026-03-02",
+      "review_status": "discovery_inventory"
+    },
+    {
+      "article_url": "https://www.security-next.com/181538",
+      "title": "医療機器保守用VPN経由でランサム攻撃、DB窃取 - 日医大武蔵小杉病院",
+      "article_date": "2026-03-02",
+      "review_status": "discovery_inventory"
+    }
+  ],
+  "scan_discovery_rows": [
+    {
+      "article_url": "https://s.netsecurity.ne.jp/article/2026/01/30/54522.html",
+      "title": "通行中の市民がごみステーションで生活保護受給者の申請書を発見 | ScanNetSecurity",
+      "source_urls": [
+        "https://www.city.asahikawa.hokkaido.jp/kurashi/135/189/190/d083235.html"
+      ]
+    },
+    {
+      "article_url": "https://s.netsecurity.ne.jp/article/2026/01/30/54521.html",
+      "title": "エネサンスホールディングスへのランサムウェア攻撃、北海道と神奈川県の LPガス配送にかかわる情報が漏えいした可能性 | ScanNetSecurity",
+      "source_urls": [
+        "https://x.gd/Zxmos",
+        "https://www.enessance.co.jp/hokkaido/topics/%e3%82%b7%e3%82%b9%e3%83%86%e3%83%a0%e9%9a%9c%e5%ae%b3%e3%81%ab%e9%96%a2%e3%81%99%e3%82%8b%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b%ef%bc%88%e7%ac%ac3%e5%a0%b1%ef%bc%89/",
+        "https://www.enessance.co.jp/kanto/topics/%e3%82%b7%e3%82%b9%e3%83%86%e3%83%a0%e9%9a%9c%e5%ae%b3%e3%81%ab%e9%96%a2%e3%81%99%e3%82%8b%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b%ef%bc%88%e7%ac%ac3%e5%a0%b1%ef%bc%89/"
+      ]
+    },
+    {
+      "article_url": "https://s.netsecurity.ne.jp/article/2026/01/30/54520.html",
+      "title": "TOKAIコミュニケーションズ「OneOffice Mail Solution」への不正アクセス、未発見だったサーバ機器の脆弱性を悪用 | ScanNetSecurity",
+      "source_urls": [
+        "https://www.tokai-com.co.jp/news/pdf/2026/20260123.pdf"
+      ]
+    },
+    {
+      "article_url": "https://s.netsecurity.ne.jp/article/2026/01/29/54510.html",
+      "title": "寄附金 Web 申請クラウドサービス「Academic Support Navi」へ不正アクセス、「個人データの漏えいが生じたおそれがある事態」として受け止め | ScanNetSecurity",
+      "source_urls": [
+        "https://www.cac.co.jp/news/topics_260113/"
+      ]
+    },
+    {
+      "article_url": "https://s.netsecurity.ne.jp/article/2026/01/29/54509.html",
+      "title": "資金流出 187 万 6,000 USドル（約 2 億 7,900万円）萩原電気グループ会社へ虚偽の送金指示 | ScanNetSecurity",
+      "source_urls": [
+        "https://ssl4.eir-parts.net/doc/7467/tdnet/2743305/00.pdf"
+      ]
+    },
+    {
+      "article_url": "https://s.netsecurity.ne.jp/article/2026/01/29/54508.html",
+      "title": "D style web でポイントの不正交換行為発生、一時的に停止 | ScanNetSecurity",
+      "source_urls": [
+        "https://dstyleweb.com/information/past/detail/217"
+      ]
+    },
+    {
+      "article_url": "https://s.netsecurity.ne.jp/article/2026/01/28/54498.html",
+      "title": "スマレジ・アプリマーケットで提供されていた外部アプリから氏名・電話番号が流出した可能性 | ScanNetSecurity",
+      "source_urls": [
+        "https://corp.smaregi.jp/news/press/20260113.php"
+      ]
+    },
+    {
+      "article_url": "https://s.netsecurity.ne.jp/article/2026/01/28/54497.html",
+      "title": "カンバスにランサムウェア攻撃、1 / 14 に認証制ソフト用のサーバが復旧 | ScanNetSecurity",
+      "source_urls": [
+        "https://canvass.co.jp/news/%E5%BD%93%E7%A4%BE%E3%81%B8%E3%81%AE%E3%83%A9%E3%83%B3%E3%82%B5%E3%83%A0%E3%82%A6%E3%82%A7%E3%82%A2%E6%94%BB%E6%92%83%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E4%B8%AD%E9%96%93%E5%A0%B1%E5%91%8A%EF%BC%881/",
+        "https://canvass.co.jp/news/%e3%82%b5%e3%83%bc%e3%83%90%e3%83%bc%e5%be%a9%e6%97%a7%e3%81%ae%e3%81%94%e5%a0%b1%e5%91%8a%ef%bc%881%e6%9c%8814%e6%97%a5%ef%bc%89/"
+      ]
+    },
+    {
+      "article_url": "https://s.netsecurity.ne.jp/article/2026/01/28/54496.html",
+      "title": "ケイ・ウノサイトで表示の不具合、不正な攻撃によりシステムの一部が操作された可能性 | ScanNetSecurity",
+      "source_urls": [
+        "https://www.k-uno.co.jp/news/20251230"
+      ]
+    },
+    {
+      "article_url": "https://s.netsecurity.ne.jp/article/2026/01/27/54485.html",
+      "title": "医師が診察室内で撮影した写真を SNS に投稿、患者の個人情報が判別可能な状態で拡散 | ScanNetSecurity",
+      "source_urls": [
+        "https://www.yokohama.kanagawa.med.or.jp/important/4545/"
+      ]
+    },
+    {
+      "article_url": "https://s.netsecurity.ne.jp/article/2026/01/27/54484.html",
+      "title": "4 名の東北大 ID を不正利用し情報機器に不正アクセス | ScanNetSecurity",
+      "source_urls": [
+        "https://www.tohoku.ac.jp/japanese/2025/12/news20251226-security.html"
+      ]
+    },
+    {
+      "article_url": "https://s.netsecurity.ne.jp/article/2026/01/27/54483.html",
+      "title": "向上高等学校の職員用グループウェアにランサムウェア攻撃、約 400 件の個人情報が流出した可能性 | ScanNetSecurity",
+      "source_urls": [
+        "https://www.kj.kojo.ed.jp/other_news/12332/"
+      ]
+    },
+    {
+      "article_url": "https://s.netsecurity.ne.jp/article/2026/01/26/54478.html",
+      "title": "懲戒解雇処分に ～ 阿波銀行の元職員、87,410 円着服と 666 件の顧客情報持ち出し | ScanNetSecurity",
+      "source_urls": [
+        "https://www.awabank.co.jp/kojin/news/2025/news20251224c/"
+      ]
+    },
+    {
+      "article_url": "https://s.netsecurity.ne.jp/article/2026/01/26/54477.html",
+      "title": "住友林業クレストへのサポート詐欺、個人情報が漏えいした可能性を完全に否定することができず | ScanNetSecurity",
+      "source_urls": [
+        "https://www.sumirin-crest.co.jp/news/pdf/20251223.pdf"
+      ]
+    },
+    {
+      "article_url": "https://s.netsecurity.ne.jp/article/2026/01/26/54476.html",
+      "title": "コスミックコーポレーション コーポレートサイトに不正アクセス、負荷が急激に高まり断続的に停止 | ScanNetSecurity",
+      "source_urls": [
+        "https://www.cosmic-jpn.co.jp/news/N-0000000019"
+      ]
+    },
+    {
+      "article_url": "https://s.netsecurity.ne.jp/article/2026/01/23/54468.html",
+      "title": "沖縄県立看護大学にランサムウェア攻撃、教務支援システムが利用できない状態に | ScanNetSecurity",
+      "source_urls": [
+        "https://www.okinawa-nurs.ac.jp/news/20514-2/"
+      ]
+    },
+    {
+      "article_url": "https://s.netsecurity.ne.jp/article/2026/01/23/54467.html",
+      "title": "スマレジの外部アプリベンダーが保有する会員データ流出 | ScanNetSecurity",
+      "source_urls": [
+        "https://corp.smaregi.jp/news/press/20260108.php"
+      ]
+    },
+    {
+      "article_url": "https://s.netsecurity.ne.jp/article/2026/01/23/54466.html",
+      "title": "興和江守でランサムウェア感染、取引先への受注出荷業務に遅滞 | ScanNetSecurity",
+      "source_urls": [
+        "https://www.emori.co.jp/wp-content/uploads/2026/01/information_20260107.pdf"
+      ]
+    },
+    {
+      "article_url": "https://s.netsecurity.ne.jp/article/2026/01/23/54465.html",
+      "title": "ドキュメント共有を装うフィッシングメール発信で認知 ～ 東京都立大学教員の Google アカウントに不正アクセス | ScanNetSecurity",
+      "source_urls": [
+        "https://www.tmu.ac.jp/news/topics/38267.html",
+        "https://www.tmu.ac.jp/news/topics/38274.html"
+      ]
+    },
+    {
+      "article_url": "https://s.netsecurity.ne.jp/article/2026/01/23/54464.html",
+      "title": "マイページへのアクセスが不可能に ～ カンバスにランサムウェア攻撃 | ScanNetSecurity",
+      "source_urls": [
+        "https://canvass.co.jp/news/%E5%BD%93%E7%A4%BE%E3%81%B8%E3%81%AE%E3%83%A9%E3%83%B3%E3%82%B5%E3%83%A0%E3%82%A6%E3%82%A7%E3%82%A2%E6%94%BB%E6%92%83%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E3%81%94%E5%A0%B1%E5%91%8A/"
+      ]
+    },
+    {
+      "article_url": "https://s.netsecurity.ne.jp/article/2026/01/22/54458.html",
+      "title": "不正アクセスや情報持ち出しの痕跡は確認されず ～ エフエム東京へのサイバー攻撃を指摘する SNS 投稿 | ScanNetSecurity",
+      "source_urls": [
+        "https://www.tfm.co.jp/company/about/ir/news/47630"
+      ]
+    },
+    {
+      "article_url": "https://s.netsecurity.ne.jp/article/2026/01/22/54457.html",
+      "title": "寄附金 Web 申請クラウドサービス「Academic Support Navi」に不正アクセス、全容解明には一定の時間要する見通し | ScanNetSecurity",
+      "source_urls": [
+        "https://www.cac.co.jp/news/topics_260105/"
+      ]
+    },
+    {
+      "article_url": "https://s.netsecurity.ne.jp/article/2026/01/22/54456.html",
+      "title": "ダイワロイネットホテルズ利用の Booking.com 宿泊予約情報管理システムに不正アクセス、フィッシングサイト誘導メッセージが配信された可能性 | ScanNetSecurity",
+      "source_urls": [
+        "https://www.daiwaroynet.jp/datas/files/2025/12/31/2ca5e918e344b14218ed48780baeffba12638f52.pdf"
+      ]
+    },
+    {
+      "article_url": "https://s.netsecurity.ne.jp/article/2026/01/22/54455.html",
+      "title": "狙われたのはサーバ負荷が高い福袋販売開始時 ～「五次元公式」にサイバー攻撃 | ScanNetSecurity",
+      "source_urls": [
+        "https://5ggen.jp/index/news/details/id/122.html"
+      ]
+    },
+    {
+      "article_url": "https://s.netsecurity.ne.jp/article/2026/01/21/54451.html",
+      "title": "社員用 VPN の認証不十分ほか ～ サイバー攻撃による情報漏えいで仏企業に 73 億円の制裁金 | ScanNetSecurity",
+      "source_urls": []
+    },
+    {
+      "article_url": "https://s.netsecurity.ne.jp/article/2026/01/21/54450.html",
+      "title": "関西総合システムにランサムウェア攻撃、クラウドサービスへの影響はなし | ScanNetSecurity",
+      "source_urls": [
+        "https://www.kisnet.co.jp/2025/12/29/3866/"
+      ]
+    },
+    {
+      "article_url": "https://s.netsecurity.ne.jp/article/2026/01/21/54449.html",
+      "title": "東京都教職員組合ウェブサイトで緊急メンテナンス | ScanNetSecurity",
+      "source_urls": [
+        "https://tokyouso.jp/maintenance.html"
+      ]
+    },
+    {
+      "article_url": "https://s.netsecurity.ne.jp/article/2026/01/21/54448.html",
+      "title": "代表取締役社長コメントも ～ Edv Path へのランサムウェア攻撃調査結果公表 | ScanNetSecurity",
+      "source_urls": [
+        "https://edufuture.co.jp/fusei-akusesu2/"
+      ]
+    },
+    {
+      "article_url": "https://s.netsecurity.ne.jp/article/2026/01/21/54447.html",
+      "title": "大崎市が情報公開により提供した PDF ファイルの黒塗り加工が特定の操作で除去可能 | ScanNetSecurity",
+      "source_urls": [
+        "https://www.city.osaki.miyagi.jp/shisei/soshikikarasagasu/somubu/somuka/kojinjyouhouhogo/3/21832.html"
+      ]
+    },
+    {
+      "article_url": "https://s.netsecurity.ne.jp/article/2026/01/20/54444.html",
+      "title": "リークサイトで取引先情報の公開を確認 ～ 東北新社グループ会社にランサムウェア攻撃 | ScanNetSecurity",
+      "source_urls": [
+        "https://omnibusjp.com/topics/?page=1#topic-101"
+      ]
+    },
+    {
+      "article_url": "https://s.netsecurity.ne.jp/article/2026/01/20/54443.html",
+      "title": "シスコのスパムメール隔離サーバの未知の脆弱性悪用 ～ 慶應義塾大学に不正アクセス | ScanNetSecurity",
+      "source_urls": [
+        "https://www.keio.ac.jp/ja/news/2025/12/26/27-171741/"
+      ]
+    },
+    {
+      "article_url": "https://s.netsecurity.ne.jp/article/2026/01/20/54442.html",
+      "title": "ホリプロ実施の「ミュージカル『ジキル&ハイド』製作発表オーディエンス募集」の申込受付用フォームで個人情報が閲覧可能に | ScanNetSecurity",
+      "source_urls": [
+        "https://new-horipro-stage-jp.s3.ap-northeast-1.amazonaws.com/uploads/2025/12/8596b67873257a06b1edc092a98a0e0e.pdf"
+      ]
+    },
+    {
+      "article_url": "https://s.netsecurity.ne.jp/article/2026/01/20/54441.html",
+      "title": "静岡県のセキュリティサービス提供事業者に不正アクセス | ScanNetSecurity",
+      "source_urls": [
+        "https://www.pref.shizuoka.jp/1078923.html"
+      ]
+    },
+    {
+      "article_url": "https://s.netsecurity.ne.jp/article/2026/01/19/54437.html",
+      "title": "仙台 DC と福岡 DC で物流システムを使用した商品出荷再開 ～ アスクルへのランサムウェア攻撃 [2025.12.25] | ScanNetSecurity",
+      "source_urls": [
+        "https://pdf.irpocket.com/C0032/hvir/JK91/fPxz.pdf"
+      ]
+    },
+    {
+      "article_url": "https://s.netsecurity.ne.jp/article/2026/01/19/54436.html",
+      "title": "生徒の個人情報を含むファイルが複数削除 ～ 群馬県の県立高校等でサポート詐欺被害 | ScanNetSecurity",
+      "source_urls": [
+        "https://www.pref.gunma.jp/site/houdou/737019.html"
+      ]
+    },
+    {
+      "article_url": "https://s.netsecurity.ne.jp/article/2026/01/19/54435.html",
+      "title": "アカウント乗っ取られ iPhone は初期化 ～ 業務用スマホにセキュリティ強化求める SMS が届き ID/PW 入力 | ScanNetSecurity",
+      "source_urls": [
+        "https://www.alcare.co.jp/news/information/20251225.html"
+      ]
+    },
+    {
+      "article_url": "https://s.netsecurity.ne.jp/article/2026/01/19/54434.html",
+      "title": "全ての書類が戻ったことを確認 ～ 川崎市内で紛失したカバンを第三者が届ける | ScanNetSecurity",
+      "source_urls": [
+        "https://www.city.kawasaki.jp/800/page/0000183278.html"
+      ]
+    },
+    {
+      "article_url": "https://s.netsecurity.ne.jp/article/2026/01/19/54433.html",
+      "title": "デンソーグループ内全従業員に Microsoft SharePoint Online 内のデータの閲覧・ダウンロード権限付与 | ScanNetSecurity",
+      "source_urls": [
+        "https://www.denso.com/jp/ja/-/media/secure-news/jp/ja/important-notice/20251225-01.pdf"
+      ]
+    },
+    {
+      "article_url": "https://s.netsecurity.ne.jp/article/2026/01/16/54428.html",
+      "title": "SSH サーバにブルートフォースアタック ～ 株式会社ウエーブへの不正アクセス調査結果 | ScanNetSecurity",
+      "source_urls": [
+        "https://ssl4.eir-parts.net/doc/7831/tdnet/2735368/00.pdf"
+      ]
+    },
+    {
+      "article_url": "https://s.netsecurity.ne.jp/article/2026/01/16/54427.html",
+      "title": "予約サイトへの不正アクセスは確認できず ～ ONOMICHI U2 HOTEL CYCLE の顧客にフィッシングメール送信 | ScanNetSecurity",
+      "source_urls": [
+        "https://onomichi-u2.com/information/20251225/",
+        "https://onomichi-u2.com/information/20250905/"
+      ]
+    },
+    {
+      "article_url": "https://s.netsecurity.ne.jp/article/2026/01/16/54426.html",
+      "title": "個人アカウントに紐づいたクラウドサービス上に業務用ファイル保管 | ScanNetSecurity",
+      "source_urls": [
+        "https://www.general.co.jp/news/558/",
+        "https://www.general.co.jp/news/545/",
+        "https://www.general.co.jp/news/547/",
+        "https://www.general.co.jp/news/554/"
+      ]
+    },
+    {
+      "article_url": "https://s.netsecurity.ne.jp/article/2026/01/16/54425.html",
+      "title": "スカパーJSAT の番組配信サーバに不正アクセス | ScanNetSecurity",
+      "source_urls": [
+        "https://www.skyperfectjsat.space/jp/news/20251224_1"
+      ]
+    },
+    {
+      "article_url": "https://s.netsecurity.ne.jp/article/2026/01/15/54419.html",
+      "title": "WOWOW WEB アカウントへの不正ログイン 注意呼びかけ | ScanNetSecurity",
+      "source_urls": [
+        "https://news.wowow.co.jp/2501.html",
+        "https://news.wowow.co.jp/2486.html"
+      ]
+    },
+    {
+      "article_url": "https://s.netsecurity.ne.jp/article/2026/01/15/54418.html",
+      "title": "「お手数ですが公開されていたサイト等 具体的にお知らせください」横須賀学院 ランサムウェア攻撃による情報流出 | ScanNetSecurity",
+      "source_urls": [
+        "https://www.yokosukagakuin.ac.jp/news/%e3%83%a9%e3%83%b3%e3%82%b5%e3%83%a0%e3%82%a6%e3%82%a7%e3%82%a2%e6%94%bb%e6%92%83%e3%81%ab%e3%82%88%e3%82%8b%e6%83%85%e5%a0%b1%e6%b5%81%e5%87%ba%e3%81%ab%e9%96%a2%e3%81%99%e3%82%8b%e3%81%8a%e8%a9%ab-3/",
+        "https://www.yokosukagakuin.ac.jp/news/%e3%83%a9%e3%83%b3%e3%82%b5%e3%83%a0%e3%82%a6%e3%82%a7%e3%82%a2%e6%94%bb%e6%92%83%e3%81%ab%e3%82%88%e3%82%8b%e6%83%85%e5%a0%b1%e6%b5%81%e5%87%ba%e3%81%ab%e9%96%a2%e3%81%99%e3%82%8b%e3%81%8a%e8%a9%ab-2/"
+      ]
+    },
+    {
+      "article_url": "https://s.netsecurity.ne.jp/article/2026/01/15/54417.html",
+      "title": "OCN メールアカウント乗っ取り被害、D style web で不正なポイント交換申請発生 | ScanNetSecurity",
+      "source_urls": [
+        "https://dstyleweb.com/information/past/detail/213"
+      ]
+    },
+    {
+      "article_url": "https://s.netsecurity.ne.jp/article/2026/01/15/54416.html",
+      "title": "LASSIC のネットワークにサイバー攻撃 | ScanNetSecurity",
+      "source_urls": [
+        "https://www.lassic.co.jp/wordpress/wp-content/uploads/2025/12/20251224_001.pdf",
+        "https://www.lassic.co.jp/info/20251111-info-2007869/",
+        "https://www.lassic.co.jp/info/20251114-info-2007875/",
+        "https://www.lassic.co.jp/info/20251121-info-2007893/"
+      ]
+    },
+    {
+      "article_url": "https://s.netsecurity.ne.jp/article/2026/01/15/54415.html",
+      "title": "富士フイルムメディカルに不正アクセス、約 59 万人分の医療従事者等の個人情報が漏えい | ScanNetSecurity",
+      "source_urls": [
+        "https://www.fujifilm.com/fms/ja/news/369"
+      ]
+    },
+    {
+      "article_url": "https://s.netsecurity.ne.jp/article/2026/01/15/54414.html",
+      "title": "「当社の IT 環境については安全であることを宣言いたします」美濃工業株式会社 | ScanNetSecurity",
+      "source_urls": [
+        "https://www.mino-in.co.jp/archives/news/%E3%82%B5%E3%82%A4%E3%83%90%E3%83%BC%E6%94%BB%E6%92%83%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E6%9C%80%E7%B5%82%E5%A0%B1%E5%91%8A-%E5%85%BC-%E5%AE%89%E5%85%A8%E5%AE%A3%E8%A8%80"
+      ]
+    },
+    {
+      "article_url": "https://s.netsecurity.ne.jp/article/2026/01/14/54407.html",
+      "title": "２０２５年総括 ほか [Scan PREMIUM Monthly Executive Summary 2025年12月度] | ScanNetSecurity",
+      "source_urls": [
+        "https://www.sighnt.com"
+      ]
+    },
+    {
+      "article_url": "https://s.netsecurity.ne.jp/article/2026/01/14/54405.html",
+      "title": "ギグワークスのサーバに不正アクセス | ScanNetSecurity",
+      "source_urls": [
+        "https://www.gig.co.jp/wp/wp-content/uploads/2025/12/news_20251223.pdf"
+      ]
+    },
+    {
+      "article_url": "https://s.netsecurity.ne.jp/article/2026/01/14/54404.html",
+      "title": "日本社宅サービスのメールヘッダ情報が漏えいした可能性 ～ TOKAIコミュニケーションズのメールサービスに不正アクセス | ScanNetSecurity",
+      "source_urls": [
+        "https://www.syataku.co.jp/wp-content/uploads/2025/12/news20251223.pdf"
+      ]
+    },
+    {
+      "article_url": "https://s.netsecurity.ne.jp/article/2026/01/14/54403.html",
+      "title": "徳島大学病院に不正アクセス、16,945 件の患者情報が漏えいした可能性 | ScanNetSecurity",
+      "source_urls": [
+        "https://www.tokushima-hosp.jp/news/info.html?news_id=1093"
+      ]
+    },
+    {
+      "article_url": "https://s.netsecurity.ne.jp/article/2026/01/13/54398.html",
+      "title": "宅地建物取引士証の交付時に誤った顔写真を貼り付け | ScanNetSecurity",
+      "source_urls": [
+        "https://www.metro.tokyo.lg.jp/information/press/2025/12/2025122303"
+      ]
+    },
+    {
+      "article_url": "https://s.netsecurity.ne.jp/article/2026/01/13/54397.html",
+      "title": "TOKAIコミュニケーションズ提供の「OneOffice Mail Solution」に不正アクセス、個人情報漏えいの可能性 | ScanNetSecurity",
+      "source_urls": [
+        "https://www.tokai-com.co.jp/news/pdf/2025/20251219.pdf",
+        "https://www.tokai-com.co.jp/news/pdf/2025/20251221.pdf",
+        "https://www.tokai-com.co.jp/news/pdf/2025/20251222.pdf",
+        "https://www.tokai-com.co.jp/news/pdf/2025/20251225.pdf"
+      ]
+    },
+    {
+      "article_url": "https://s.netsecurity.ne.jp/article/2026/01/13/54396.html",
+      "title": "ネット上で流出した疑いのある情報を確認 ～ FCLコンポーネント海外子会社への不正アクセス | ScanNetSecurity",
+      "source_urls": [
+        "https://www.fcl-components.com/resources/news/press-releases/2025/20251222.html"
+      ]
+    },
+    {
+      "article_url": "https://s.netsecurity.ne.jp/article/2026/01/13/54395.html",
+      "title": "みずほリースの発電事業投資に関するシステムに不正アクセス、現時点で業務への影響なし | ScanNetSecurity",
+      "source_urls": [
+        "https://www.mizuho-ls.co.jp/ja/news/news-7127478368803504974/main/0/link/260106.pdf"
+      ]
+    },
+    {
+      "article_url": "https://s.netsecurity.ne.jp/article/2026/01/09/54389.html",
+      "title": "「攻撃者の高い執念が感じられ」る 日本語版 EmEditor Web サイトのリンク改変 | ScanNetSecurity",
+      "source_urls": [
+        "https://jp.emeditor.com/general/%E3%80%90%E9%87%8D%E8%A6%81%E3%80%91emeditor-%E3%83%9B%E3%83%BC%E3%83%A0%E3%83%9A%E3%83%BC%E3%82%B8%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E4%B8%8D%E6%AD%A3%E3%83%AA%E3%83%B3%E3%82%AF%EF%BC%88%E3%83%9E/",
+        "https://x.com/Emurasoft/status/2006839392619684206"
+      ]
+    },
+    {
+      "article_url": "https://s.netsecurity.ne.jp/article/2026/01/09/54388.html",
+      "title": "複数名でマスキング処理を確認したが時間経過でインクが薄れて個人情報判読可能 | ScanNetSecurity",
+      "source_urls": [
+        "https://yoshimoto-lc.com/%e5%80%8b%e4%ba%ba%e6%83%85%e5%a0%b1%e6%bc%8f%e3%81%88%e3%81%84%e3%81%ab%e9%96%a2%e3%81%99%e3%82%8b%e3%81%94%e5%a0%b1%e5%91%8a%e3%81%ab%e3%81%a4%e3%81%84%e3%81%a6%e3%81%ae%e8%a8%82%e6%ad%a3/"
+      ]
+    },
+    {
+      "article_url": "https://s.netsecurity.ne.jp/article/2026/01/09/54387.html",
+      "title": "電子署名委託先に不正アクセス ～ 一般財団法人広島県環境保健協会 | ScanNetSecurity",
+      "source_urls": [
+        "https://www.kanhokyo.or.jp/?p=11761"
+      ]
+    },
+    {
+      "article_url": "https://s.netsecurity.ne.jp/article/2026/01/09/54386.html",
+      "title": "EmEditor「公式サイトからダウンロードしたお客様が被害に遭われた点に重い責任を感じて」いる | ScanNetSecurity",
+      "source_urls": [
+        "https://jp.emeditor.com/general/%E3%80%90%E9%87%8D%E8%A6%81%E3%80%91emeditor-%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%A9%E3%83%BC%E3%81%AE%E3%83%80%E3%82%A6%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%89%E5%B0%8E%E7%B7%9A%E3%81%AB-2/"
+      ]
+    },
+    {
+      "article_url": "https://s.netsecurity.ne.jp/article/2026/01/08/54377.html",
+      "title": "出張先 ロンドン キングスクロス駅前でノート PC 盗難被害 ～ 東京大学定量生命科学研究所 教員 | ScanNetSecurity",
+      "source_urls": [
+        "https://www.iqb.u-tokyo.ac.jp/news/251219-notice/"
+      ]
+    },
+    {
+      "article_url": "https://s.netsecurity.ne.jp/article/2026/01/08/54376.html",
+      "title": "JICA の再委託先 ジェイマックソフトのサーバに不正アクセス、漏えいの可能性は極めて低い | ScanNetSecurity",
+      "source_urls": [
+        "https://www.jica.go.jp/information/notice/2025/1219_01.html"
+      ]
+    },
+    {
+      "article_url": "https://s.netsecurity.ne.jp/article/2026/01/08/54375.html",
+      "title": "相場操縦の嫌疑 ～ 証券取引等監視委員会、株式会社L&H と同社代表取締役を東京地方検察庁に告発 | ScanNetSecurity",
+      "source_urls": [
+        "https://www.fsa.go.jp/sesc/news/c_2025/2025/20251218-1.html"
+      ]
+    },
+    {
+      "article_url": "https://s.netsecurity.ne.jp/article/2026/02/27/54722.html",
+      "title": "アサヒグループホールディングスへのランサムウェア攻撃、個人情報 115,513 件の漏えいを確認 | ScanNetSecurity",
+      "source_urls": [
+        "https://www.asahigroup-holdings.com/newsroom/detail/20260218-0101.html"
+      ]
+    },
+    {
+      "article_url": "https://s.netsecurity.ne.jp/article/2026/02/27/54721.html",
+      "title": "牧村にランサムウェア攻撃、主要業務システムの一部とメールシステムが復旧 | ScanNetSecurity",
+      "source_urls": [
+        "https://makimura.co.jp/cat-news/system-error-report/",
+        "https://makimura.co.jp/cat-news/information/"
+      ]
+    },
+    {
+      "article_url": "https://s.netsecurity.ne.jp/article/2026/02/27/54720.html",
+      "title": "穴吹ハウジングサービスへのランサムウェア攻撃、重要事項調査報告書ウェブ受付システム「J-Web/R」が利用できない状態に | ScanNetSecurity",
+      "source_urls": [
+        "https://www.anabuki-housing.co.jp/news/content.php?news_id=512",
+        "https://www.anabuki-housing.co.jp/news/content.php?news_id=513",
+        "https://www.anabuki-housing.co.jp/news/content.php?news_id=514"
+      ]
+    },
+    {
+      "article_url": "https://s.netsecurity.ne.jp/article/2026/02/27/54719.html",
+      "title": "フィーチャにランサムウェア攻撃、サーバ内の一部ファイルが暗号化 | ScanNetSecurity",
+      "source_urls": [
+        "https://ssl4.eir-parts.net/doc/4052/tdnet/2756203/00.pdf"
+      ]
+    },
+    {
+      "article_url": "https://s.netsecurity.ne.jp/article/2026/02/27/54718.html",
+      "title": "MG石材へのランサムウェア攻撃、一部サーバ内のファイルが暗号化 | ScanNetSecurity",
+      "source_urls": [
+        "https://mg-sekizai.jp/news/%e3%83%a9%e3%83%b3%e3%82%b5%e3%83%a0%e3%82%a6%e3%82%a7%e3%82%a2%e8%a2%ab%e5%ae%b3%e7%99%ba%e7%94%9f%e3%81%ae%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b/"
+      ]
+    },
+    {
+      "article_url": "https://s.netsecurity.ne.jp/article/2026/02/27/54717.html",
+      "title": "ジェックスへのランサムウェア攻撃、サーバを順次復旧し商品出荷開始 | ScanNetSecurity",
+      "source_urls": [
+        "https://www.gex-fp.co.jp/cms/wp-content/uploads/2026/02/260209_security-failure_v2.pdf"
+      ]
+    },
+    {
+      "article_url": "https://s.netsecurity.ne.jp/article/2026/02/26/54709.html",
+      "title": "穴吹興産にランサムウェア攻撃、主要業務に影響なし | ScanNetSecurity",
+      "source_urls": [
+        "https://www.anabuki.ne.jp/cms_upload/news/423/20260204_higaihassei.pdf"
+      ]
+    },
+    {
+      "article_url": "https://s.netsecurity.ne.jp/article/2026/02/26/54708.html",
+      "title": "Yahoo!ショッピングの休店ページで外部公開を前提としていない業務地住所を誤表示 | ScanNetSecurity",
+      "source_urls": [
+        "https://www.lycorp.co.jp/ja/privacy-security/announcement/020088/"
+      ]
+    },
+    {
+      "article_url": "https://s.netsecurity.ne.jp/article/2026/02/26/54707.html",
+      "title": "ビューティガレージECサイトに不正アクセス、クレジットカード決済の利用を一時停止し調査 | ScanNetSecurity",
+      "source_urls": [
+        "https://www.beautygarage.co.jp/wp/wp-content/uploads/%E3%81%8A%E5%AE%A2%E6%A7%98%E3%81%AE%E5%80%8B%E4%BA%BA%E6%83%85%E5%A0%B1%E6%BC%8F%E6%B4%A9%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B%E3%81%A8%E3%81%8A%E8%A9%AB%E3%81%B3.pdf"
+      ]
+    },
+    {
+      "article_url": "https://s.netsecurity.ne.jp/article/2026/02/25/54700.html",
+      "title": "ジェックスにランサムウェア攻撃、商品の出荷を停止 | ScanNetSecurity",
+      "source_urls": [
+        "https://www.gex-fp.co.jp/cms/wp-content/uploads/2026/02/260206_security-failure_v1.pdf",
+        "https://www.gex-fp.co.jp/news/%e3%80%90%e9%87%8d%e8%a6%81%e3%80%91%e3%82%b7%e3%82%b9%e3%83%86%e3%83%a0%e3%83%a1%e3%83%b3%e3%83%86%e3%83%8a%e3%83%b3%e3%82%b9%e3%81%ab%e4%bc%b4%e3%81%86%e3%82%b5%e3%83%bc%e3%83%93%e3%82%b9%e4%b8%80/"
+      ]
+    },
+    {
+      "article_url": "https://s.netsecurity.ne.jp/article/2026/02/25/54699.html",
+      "title": "光栄に不正アクセス、サーバ内の一部が暗号化 | ScanNetSecurity",
+      "source_urls": [
+        "https://www.kabkouei.co.jp/pdf/250130.pdf"
+      ]
+    },
+    {
+      "article_url": "https://s.netsecurity.ne.jp/article/2026/02/25/54698.html",
+      "title": "ハリマ化成グループの米国子会社にランサムウェア攻撃 | ScanNetSecurity",
+      "source_urls": [
+        "https://www.harima.co.jp/newsroom/2026/0213130000.html"
+      ]
+    },
+    {
+      "article_url": "https://s.netsecurity.ne.jp/article/2026/02/25/54697.html",
+      "title": "香川県高松市のタカラスタンダード四国支店内のシステムへ不正アクセス ～ 情報漏えいの可能性はない | ScanNetSecurity",
+      "source_urls": [
+        "https://www.takara-standard.co.jp/files/parts/20260203.pdf"
+      ]
+    },
+    {
+      "article_url": "https://s.netsecurity.ne.jp/article/2026/02/25/54692.html",
+      "title": "アデコ「SESマッチングサービス」のメールアカウントに不正アクセス、スパムメールを送信 | ScanNetSecurity",
+      "source_urls": [
+        "https://www.adeccogroup.jp/pressroom/2026/0205"
+      ]
+    },
+    {
+      "article_url": "https://s.netsecurity.ne.jp/article/2026/02/24/54688.html",
+      "title": "BECではなくサポート詐欺で2億5,000万円資金流出 ～ 同社グループ役職員が関与した事実は認められない | ScanNetSecurity",
+      "source_urls": [
+        "https://data.swcms.net/file/shinwa-jp/ja/topics/auto_20260209551512/pdfFile.pdf",
+        "https://data.swcms.net/file/shinwa-jp/ja/topics/auto_20251225526337/pdfFile.pdf"
+      ]
+    },
+    {
+      "article_url": "https://s.netsecurity.ne.jp/article/2026/02/24/54687.html",
+      "title": "道路工業のファイル共有サーバに不正アクセス、情報漏えいの可能性を否定することはできず | ScanNetSecurity",
+      "source_urls": [
+        "https://www.dorokogyo.co.jp/topics/5555/"
+      ]
+    },
+    {
+      "article_url": "https://s.netsecurity.ne.jp/article/2026/02/24/54686.html",
+      "title": "アルバック韓国連結子会社にランサムウェア攻撃、サーバ及びパソコン内の各種ファイルが暗号化 | ScanNetSecurity",
+      "source_urls": [
+        "https://www.ulvac.co.jp/news/20260203a/"
+      ]
+    },
+    {
+      "article_url": "https://s.netsecurity.ne.jp/article/2026/02/24/54685.html",
+      "title": "マイナビが利用するクラウドサービスに不正アクセス、ユーザー及び取引先担当者の個人情報が流出した可能性 | ScanNetSecurity",
+      "source_urls": [
+        "https://www.mynavi.jp/topics/post_52080.html"
+      ]
+    },
+    {
+      "article_url": "https://s.netsecurity.ne.jp/article/2026/02/24/54684.html",
+      "title": "会長社長が報酬1割自主返納、元従業員が社外秘含むメールを社外に無断転送 ～ 約5年 65社 295件 | ScanNetSecurity",
+      "source_urls": [
+        "https://www.nippan.co.jp/wp-content/uploads/2026/02/20260213.pdf"
+      ]
+    },
+    {
+      "article_url": "https://s.netsecurity.ne.jp/article/2026/02/20/54677.html",
+      "title": "信和、サイバー攻撃を受けた可能性のある事象を確認 | ScanNetSecurity",
+      "source_urls": [
+        "https://ir.shinwa-jp.com/ja/topics/topics3762955383015207430.html"
+      ]
+    },
+    {
+      "article_url": "https://s.netsecurity.ne.jp/article/2026/02/20/54676.html",
+      "title": "第三者が個人情報を閲覧しうる状態となり「BTCBOX」がサービス停止、関東財務局から報告徴求命令も | ScanNetSecurity",
+      "source_urls": [
+        "https://blog.btcbox.jp/archives/18696",
+        "https://blog.btcbox.jp/archives/18658",
+        "https://blog.btcbox.jp/archives/18662",
+        "https://blog.btcbox.jp/archives/18668"
+      ]
+    },
+    {
+      "article_url": "https://s.netsecurity.ne.jp/article/2026/02/20/54675.html",
+      "title": "PR TIMES で Microsoft365 関連ドメインへのプレスリリース配信の一部が送信失敗、メール送信サーバを切り替え復旧 | ScanNetSecurity",
+      "source_urls": [
+        "https://prtimes.jp/common/file/20260209_MAILincident_detail.pdf"
+      ]
+    },
+    {
+      "article_url": "https://s.netsecurity.ne.jp/article/2026/02/20/54674.html",
+      "title": "決算情報開示より前に誤って情報配信 ～ 決算説明動画の文字起こしや配信を委託した株式会社フィスコから | ScanNetSecurity",
+      "source_urls": [
+        "https://contents.xj-storage.jp/xcontents/AS08903/3ca77925/6bbc/4c12/b3ea/c040bd0e920d/140120260210554408.pdf"
+      ]
+    },
+    {
+      "article_url": "https://s.netsecurity.ne.jp/article/2026/02/20/54673.html",
+      "title": "ホソカワミクロン、サイバー攻撃を受けた可能性のある事象を確認 | ScanNetSecurity",
+      "source_urls": [
+        "https://www.hosokawamicron.co.jp/jp/news/2026/0203.html"
+      ]
+    },
+    {
+      "article_url": "https://s.netsecurity.ne.jp/article/2026/02/19/54665.html",
+      "title": "外部委託先が管理するサーバで大量のアクセスを検知、「まちエネ」の申込み・料金シミュレーションを一時停止 2/16 再開 | ScanNetSecurity",
+      "source_urls": [
+        "https://www.machi-ene.jp/announcement/20260130/4359/"
+      ]
+    },
+    {
+      "article_url": "https://s.netsecurity.ne.jp/article/2026/02/19/54664.html",
+      "title": "サイト配下に様々な商品を販売するページが生成 ～ 藤田鍍金工業に不正アクセス | ScanNetSecurity",
+      "source_urls": [
+        "https://fujita-mekki.jp/news/2601/"
+      ]
+    },
+    {
+      "article_url": "https://s.netsecurity.ne.jp/article/2026/02/19/54663.html",
+      "title": "CDN の設定漏れとキャンペーンページの不備が原因 ～「エバラ CLUB」で別の会員情報が表示される不具合 | ScanNetSecurity",
+      "source_urls": [
+        "https://www.ebarafoods.com/company/newsrelease_20260205_35.pdf",
+        "https://www.ebarafoods.com/company/newsrelease_20260123_34.pdf"
+      ]
+    },
+    {
+      "article_url": "https://s.netsecurity.ne.jp/article/2026/02/19/54662.html",
+      "title": "CI/CDツールに内在する脆弱性を悪用 ～ 学校法人アジア学院に不正アクセス | ScanNetSecurity",
+      "source_urls": [
+        "https://ari.ac.jp/system-failure-partial-service-suspension/"
+      ]
+    },
+    {
+      "article_url": "https://s.netsecurity.ne.jp/article/2026/02/19/54661.html",
+      "title": "不動産情報サイト アットホームに不正アクセス、「引越し見積もり」を利用した顧客の個人情報や加盟不動産会社の情報が漏えいした可能性 | ScanNetSecurity",
+      "source_urls": [
+        "https://www.athome.co.jp/corporate/news/topics/oshirase-202602/"
+      ]
+    },
+    {
+      "article_url": "https://s.netsecurity.ne.jp/article/2026/02/19/54660.html",
+      "title": "銀行窓口で約 5,000 万円を振込 ～ ベルトラの子会社で代表者を装った虚偽の送金指示 | ScanNetSecurity",
+      "source_urls": [
+        "https://corp.veltra.com/ja/ir/news/auto_20260206550268/pdfFile.pdf"
+      ]
+    },
+    {
+      "article_url": "https://s.netsecurity.ne.jp/article/2026/02/18/54652.html",
+      "title": "ガーラ湯沢にランサムウェア攻撃、リフト券発券システムで障害 | ScanNetSecurity",
+      "source_urls": [
+        "https://gala.co.jp/winter/pickup/60429/"
+      ]
+    },
+    {
+      "article_url": "https://s.netsecurity.ne.jp/article/2026/02/18/54651.html",
+      "title": "クラウドセキュリティ管理ツールで検知し発覚 ～ セゾンテクノロジーが利用するクラウドサービス上のストレージで個人情報が閲覧可能に | ScanNetSecurity",
+      "source_urls": [
+        "https://www.saison-technology.com/company/news/20260209_personal_information_leaked/"
+      ]
+    },
+    {
+      "article_url": "https://s.netsecurity.ne.jp/article/2026/02/18/54650.html",
+      "title": "ドーミーシニアの従業員が使用していた端末がフィッシングメールを起点に不正操作 | ScanNetSecurity",
+      "source_urls": [
+        "https://www.dormy-senior.com/news/12827/"
+      ]
+    },
+    {
+      "article_url": "https://s.netsecurity.ne.jp/article/2026/02/18/54649.html",
+      "title": "慶應義塾大学 理工学部 理工学研究科で個人情報含む SSD 紛失、データの管理体制が不十分であったことが原因 | ScanNetSecurity",
+      "source_urls": [
+        "https://www.st.keio.ac.jp/news/files/8b49a8bc9fd8370a319fa0421a0a2260.pdf"
+      ]
+    },
+    {
+      "article_url": "https://s.netsecurity.ne.jp/article/2026/02/18/54648.html",
+      "title": "医療機器保守用 VPN 装置から侵入 ～ 日本医科大学武蔵小杉病院にランサムウェア攻撃 | ScanNetSecurity",
+      "source_urls": [
+        "https://www.nms.ac.jp/kosugi-h/news/_28834.html",
+        "https://www.nms.ac.jp/kosugi-h/news/_28832.html",
+        "https://www.nms.ac.jp/kosugi-h/news/_28830.html"
+      ]
+    },
+    {
+      "article_url": "https://s.netsecurity.ne.jp/article/2026/02/17/54642.html",
+      "title": "コスミックコーポレーション コーポレートサイトへの不正アクセス、フレームワークの脆弱性によりシステム内に侵入 | ScanNetSecurity",
+      "source_urls": [
+        "https://www.cosmic-jpn.co.jp/news/N-0000000021"
+      ]
+    },
+    {
+      "article_url": "https://s.netsecurity.ne.jp/article/2026/02/17/54641.html",
+      "title": "カンバスにランサムウェア攻撃、フレームワークの脆弱性を利用して侵入された可能性が高いと推測 | ScanNetSecurity",
+      "source_urls": [
+        "https://canvass.co.jp/news/%e5%bc%8a%e7%a4%be%e3%82%b5%e3%83%bc%e3%83%90%e3%81%b8%e3%81%ae%e3%83%a9%e3%83%b3%e3%82%b5%e3%83%a0%e3%82%a6%e3%82%a7%e3%82%a2%e6%94%bb%e6%92%83%e3%81%ab%e9%96%a2%e3%81%99%e3%82%8b%e8%aa%bf%e6%9f%bb/"
+      ]
+    },
+    {
+      "article_url": "https://s.netsecurity.ne.jp/article/2026/02/17/54640.html",
+      "title": "日常業務への支障は発生しておらず ～ 新光商事 米国現地法人へのランサムウェア攻撃 | ScanNetSecurity",
+      "source_urls": [
+        "https://x.gd/Aaons"
+      ]
+    },
+    {
+      "article_url": "https://s.netsecurity.ne.jp/article/2026/02/17/54639.html",
+      "title": "懲戒解雇処分 フジテレビ元社員が取材情報や内部情報を競合他社に漏えい | ScanNetSecurity",
+      "source_urls": [
+        "https://www.fujitv.co.jp/company/news/20260128_411402632.pdf"
+      ]
+    },
+    {
+      "article_url": "https://s.netsecurity.ne.jp/article/2026/02/16/54630.html",
+      "title": "パッケージショップ.jp への不正アクセス、1,395名のカード情報が漏えい | ScanNetSecurity",
+      "source_urls": [
+        "https://www.package-shop.jp/upload/pdf/regarding_personal_information_leakage.pdf"
+      ]
+    },
+    {
+      "article_url": "https://s.netsecurity.ne.jp/article/2026/02/16/54629.html",
+      "title": "PR TIMES で Microsoft365 関連ドメインへのプレスリリース配信の一部が送信失敗、ブラックリスト解除を申請 | ScanNetSecurity",
+      "source_urls": [
+        "https://prtimes.jp/common/file/20260128_MAILincident.pdf"
+      ]
+    },
+    {
+      "article_url": "https://s.netsecurity.ne.jp/article/2026/02/16/54628.html",
+      "title": "スマレジ・アプリマーケット上の外部連携アプリへの不正アクセス、釜浅商店の会員情報が第三者に不正取得 | ScanNetSecurity",
+      "source_urls": [
+        "https://kama-asa.co.jp/blogs/news/info-20260127-1",
+        "https://kama-asa.co.jp/blogs/news/info-20260112-1"
+      ]
+    },
+    {
+      "article_url": "https://s.netsecurity.ne.jp/article/2026/02/16/54627.html",
+      "title": "My SoftBank ログイン時に他人の情報が表示、プロキシーサーバのソフトウェアの不具合が原因 | ScanNetSecurity",
+      "source_urls": [
+        "https://www.softbank.jp/corp/news/press/sbkk/2026/20260127_02/"
+      ]
+    },
+    {
+      "article_url": "https://s.netsecurity.ne.jp/article/2026/02/13/54619.html",
+      "title": "JAL「手荷物当日配送サービス」予約システムに不正アクセス、データの外部漏えいの有無について調査を進める | ScanNetSecurity",
+      "source_urls": [
+        "https://www.jal.co.jp/jp/ja/info/2026/other/260210/index.html"
+      ]
+    },
+    {
+      "article_url": "https://s.netsecurity.ne.jp/article/2026/02/13/54618.html",
+      "title": "厚生労働省運営「あかるい職場応援団」改ざん被害 | ScanNetSecurity",
+      "source_urls": [
+        "https://www.no-harassment.mhlw.go.jp/pdf/20260126_news.pdf"
+      ]
+    },
+    {
+      "article_url": "https://s.netsecurity.ne.jp/article/2026/02/13/54617.html",
+      "title": "伸栄産業社員が送信元の OneDrive ファイル共有を装うフィッシングメールに注意を呼びかけ | ScanNetSecurity",
+      "source_urls": [
+        "https://www.shine-san.co.jp/news/%E5%BD%93%E7%A4%BE%E7%A4%BE%E5%93%A1%E3%82%92%E8%A3%85%E3%81%A3%E3%81%9F%E3%83%95%E3%82%A3%E3%83%83%E3%82%B7%E3%83%B3%E3%82%B0%E3%83%A1%E3%83%BC%E3%83%AB%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%E3%81%AE/"
+      ]
+    },
+    {
+      "article_url": "https://s.netsecurity.ne.jp/article/2026/02/13/54616.html",
+      "title": "ジャストカーテンオンラインショップに不正アクセス、10,423 名のカード情報が漏えいした可能性 | ScanNetSecurity",
+      "source_urls": [
+        "https://www.justcurtain.com/html/user_data/justcurtain_news2.pdf"
+      ]
+    },
+    {
+      "article_url": "https://s.netsecurity.ne.jp/article/2026/02/13/54615.html",
+      "title": "THE BRIDGE で閲覧障害、「stream.ts」がダウンロードされるものの危険なファイルではない | ScanNetSecurity",
+      "source_urls": [
+        "https://thebridge.jp/2026/01/site-issue-202501"
+      ]
+    },
+    {
+      "article_url": "https://s.netsecurity.ne.jp/article/2026/02/12/54611.html",
+      "title": "クラウドファーストのLinuxマルウェアフレームワーク VoidLink ほか [Scan PREMIUM Monthly Executive Summary 2026年1月度] | ScanNetSecurity",
+      "source_urls": [
+        "https://www.sighnt.com"
+      ]
+    },
+    {
+      "article_url": "https://s.netsecurity.ne.jp/article/2026/02/12/54609.html",
+      "title": "公民館場所取り ～ シルバー人材センター元従事者が不正アクセス 約2年間で計15件 | ScanNetSecurity",
+      "source_urls": [
+        "https://www.city.saitama.lg.jp/006/014/008/003/014/010/p127346.html"
+      ]
+    },
+    {
+      "article_url": "https://s.netsecurity.ne.jp/article/2026/02/12/54608.html",
+      "title": "DMM グループのジーオーティーに不正アクセス、読者アンケート回答者の個人情報流出の可能性 | ScanNetSecurity",
+      "source_urls": [
+        "https://gotbb.jp/news.php?id=1"
+      ]
+    },
+    {
+      "article_url": "https://s.netsecurity.ne.jp/article/2026/02/12/54607.html",
+      "title": "VPN 機器のログから不正アクセスの痕跡 ～ 関西総合システムにランサムウェア攻撃 | ScanNetSecurity",
+      "source_urls": [
+        "https://www.kisnet.co.jp/2026/01/23/3909/"
+      ]
+    },
+    {
+      "article_url": "https://s.netsecurity.ne.jp/article/2026/02/12/54606.html",
+      "title": "メール誤送信で農林水産省 職員及びその家族 4,571 人分のマイナンバー含む情報漏えい | ScanNetSecurity",
+      "source_urls": [
+        "https://www.maff.go.jp/j/press/kanbo/keiri/260123.html"
+      ]
+    },
+    {
+      "article_url": "https://s.netsecurity.ne.jp/article/2026/02/10/54600.html",
+      "title": "シンシアにランサムウェア攻撃、システム障害が発生 | ScanNetSecurity",
+      "source_urls": [
+        "https://renatus-group.co.jp/news/260122/",
+        "https://renatus-group.co.jp/news/260129/"
+      ]
+    },
+    {
+      "article_url": "https://s.netsecurity.ne.jp/article/2026/02/10/54599.html",
+      "title": "東京都中小企業振興公社が運営する TOKYO UPGRADE SQUARE 公式サイトが改ざん被害 | ScanNetSecurity",
+      "source_urls": [
+        "https://www.tokyo-kosha.or.jp/topics/2601/0013.html"
+      ]
+    },
+    {
+      "article_url": "https://s.netsecurity.ne.jp/article/2026/02/10/54598.html",
+      "title": "テスト問題の一部を漏えい ～ 区立中学校教員が第 3 学年生徒と SNS を通じて私的やりとり | ScanNetSecurity",
+      "source_urls": [
+        "https://www.city.edogawa.tokyo.jp/e004/kuseijoho/kohokocho/press/2026/01/0121.html"
+      ]
+    },
+    {
+      "article_url": "https://s.netsecurity.ne.jp/article/2026/02/09/54589.html",
+      "title": "コバヤシのサーバに不正アクセス、不正に取得された情報が外部サイト上に公開 | ScanNetSecurity",
+      "source_urls": [
+        "https://www.kbjapan.co.jp/jpn/2026_1_21",
+        "https://www.kbjapan.co.jp/jpn/2025_12_12"
+      ]
+    },
+    {
+      "article_url": "https://s.netsecurity.ne.jp/article/2026/02/09/54588.html",
+      "title": "「パスワードは復号化が極めて困難な形式で管理」不正アクセスによるメールアドレス流出 | ScanNetSecurity",
+      "source_urls": [
+        "https://cocoloni.com/wp-content/uploads/2026/01/%E9%87%8D%E8%A6%81%E3%81%AA%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B.pdf"
+      ]
+    },
+    {
+      "article_url": "https://s.netsecurity.ne.jp/article/2026/02/09/54587.html",
+      "title": "STNet のネットワークに不正アクセス、企業・団体の担当者 20,846 名の個人情報が漏えいした可能性 | ScanNetSecurity",
+      "source_urls": [
+        "https://www.stnet.co.jp/news/oshirase_20260121.html"
+      ]
+    },
+    {
+      "article_url": "https://s.netsecurity.ne.jp/article/2026/02/09/54586.html",
+      "title": "Microsoft 社、大阪産業大学メールシステムをセキュリティ観点からブロックリストに登録 | ScanNetSecurity",
+      "source_urls": [
+        "https://www.osaka-sandai.ac.jp/news/information_science/60592/"
+      ]
+    },
+    {
+      "article_url": "https://s.netsecurity.ne.jp/article/2026/02/06/54579.html",
+      "title": "興和江守でランサムウェア感染、新たなネットワーク環境と新 PC を導入 | ScanNetSecurity",
+      "source_urls": [
+        "https://www.emori.co.jp/wp-content/uploads/2026/01/information_20260120.pdf"
+      ]
+    },
+    {
+      "article_url": "https://s.netsecurity.ne.jp/article/2026/02/06/54578.html",
+      "title": "トンボ飲料にランサムウェア攻撃、取引先に関する一部情報の流出を確認 | ScanNetSecurity",
+      "source_urls": [
+        "https://www.tombow-oem.jp/934/"
+      ]
+    },
+    {
+      "article_url": "https://s.netsecurity.ne.jp/article/2026/02/06/54577.html",
+      "title": "ホームページにアクセスできないため note で情報公開 ～ 学校図書館図書整備協会のシステムに障害発生 ランサムウェアの可能性が高いことが判明 | ScanNetSecurity",
+      "source_urls": [
+        "https://note.com/slba_note/n/n80881f13747c"
+      ]
+    },
+    {
+      "article_url": "https://s.netsecurity.ne.jp/article/2026/03/31/54943.html",
+      "title": "システムの脆弱性を悪用 ～ マツダがタイからの調達部品の倉庫業務に利用していた管理システムに不正アクセス | ScanNetSecurity",
+      "source_urls": [
+        "https://newsroom.mazda.com/ja/publicity/release/2026/202603/260319b.pdf"
+      ]
+    },
+    {
+      "article_url": "https://s.netsecurity.ne.jp/article/2026/03/31/54942.html",
+      "title": "ホテル日航プリンセス京都が利用する Expedia の管理者用アカウントに不正アクセス、カード情報入力を求める偽メッセージ送信 | ScanNetSecurity",
+      "source_urls": [
+        "https://www.princess-kyoto.co.jp/info/133371/"
+      ]
+    },
+    {
+      "article_url": "https://s.netsecurity.ne.jp/article/2026/03/31/54941.html",
+      "title": "ネクサスエナジーへのランサムウェア攻撃、ガソリンスタンド顧客の個人情報漏えいの恐れを否定できず | ScanNetSecurity",
+      "source_urls": [
+        "https://www.nexus-e.jp/news/%E5%BD%93%E7%A4%BE%E3%81%AB%E3%81%8A%E3%81%91%E3%82%8B%E3%83%A9%E3%83%B3%E3%82%B5%E3%83%A0%E3%82%A6%E3%82%A7%E3%82%A2%E6%84%9F%E6%9F%93%E8%A2%AB%E5%AE%B3%E3%81%A8%E5%80%8B%E4%BA%BA%E6%83%85%E5%A0%B1",
+        "https://www.nexus-e.jp/news/%e5%bd%93%e7%a4%be%e3%81%ab%e3%81%8a%e3%81%91%e3%82%8b%e3%83%a9%e3%83%b3%e3%82%b5%e3%83%a0%e3%82%a6%e3%82%a7%e3%82%a2%e6%84%9f%e6%9f%93%e8%a2%ab%e5%ae%b3%e3%81%a8%e5%af%be%e5%bf%9c%e7%8a%b6%e6%b3%81"
+      ]
+    },
+    {
+      "article_url": "https://s.netsecurity.ne.jp/article/2026/03/31/54940.html",
+      "title": "国交省「子育てエコホーム支援事業」サーバに不正アクセス、悪意のある不審なメール送信を確認 | ScanNetSecurity",
+      "source_urls": [
+        "https://kosodate-ecohome.mlit.go.jp/news/2026032301.html"
+      ]
+    },
+    {
+      "article_url": "https://s.netsecurity.ne.jp/article/2026/03/30/54932.html",
+      "title": "NICTが研究用途向けに公開した「音声合成用日本語複数話者音声コーパス」に公開対象外ファイルが含まれていたことが判明 | ScanNetSecurity",
+      "source_urls": [
+        "https://www.nict.go.jp/publicity/topics/2026/03/19-2.html"
+      ]
+    },
+    {
+      "article_url": "https://s.netsecurity.ne.jp/article/2026/03/30/54931.html",
+      "title": "国際武道大学の委託先に不正アクセス、卒業生 約120名の個人情報が漏えい | ScanNetSecurity",
+      "source_urls": [
+        "https://www.budo-u.ac.jp/news/2026/03/post_328.html"
+      ]
+    },
+    {
+      "article_url": "https://s.netsecurity.ne.jp/article/2026/03/30/54930.html",
+      "title": "キャンディルデザインにランサムウェア攻撃 事業遂行に影響なし | ScanNetSecurity",
+      "source_urls": [
+        "https://www.candeal-design.co.jp/news/2026/20260318/"
+      ]
+    },
+    {
+      "article_url": "https://s.netsecurity.ne.jp/article/2026/03/30/54929.html",
+      "title": "業務提携していた文教堂も被害に ～ 日販グループ 元従業員による情報漏えい | ScanNetSecurity",
+      "source_urls": [
+        "https://www.bunkyodo.co.jp/wp-content/uploads/2026/02/press20260216-1.pdf"
+      ]
+    },
+    {
+      "article_url": "https://s.netsecurity.ne.jp/article/2026/03/27/54924.html",
+      "title": "メディカ出版にランサムウェア攻撃、商品の受注・発送業務、問い合わせ窓口等の対応が停止 | ScanNetSecurity",
+      "source_urls": [
+        "https://www.medica.co.jp/_sys/wp-content/uploads/2026/03/260317_News-Release.pdf",
+        "https://www.medica.co.jp/news/information/3461/"
+      ]
+    },
+    {
+      "article_url": "https://s.netsecurity.ne.jp/article/2026/03/27/54923.html",
+      "title": "コスモスイニシアのメールアドレスに不正アクセス、無作為に選ばれた宛先へのスパムメール送信を確認 | ScanNetSecurity",
+      "source_urls": [
+        "https://www.cigr.co.jp/app/uploads/sites/6/2026/03/date-leakage_0317.pdf"
+      ]
+    },
+    {
+      "article_url": "https://s.netsecurity.ne.jp/article/2026/03/26/54915.html",
+      "title": "岩谷産業グループのシステムに不正アクセス | ScanNetSecurity",
+      "source_urls": [
+        "https://www.iwatani.co.jp/jpn/news/files/2026/20260316_news.pdf"
+      ]
+    },
+    {
+      "article_url": "https://s.netsecurity.ne.jp/article/2026/03/26/54914.html",
+      "title": "元従業員、クラウド → メール → 退職後DL の三段階で情報持ち出し | ScanNetSecurity",
+      "source_urls": [
+        "https://www.united-arrows.co.jp/news/15175/"
+      ]
+    },
+    {
+      "article_url": "https://s.netsecurity.ne.jp/article/2026/03/26/54913.html",
+      "title": "ニッタイ工業が運営する通販サイト「エヌ・トレーディング」への不正アクセス、個人情報 3,887 件が閲覧された可能性を完全に否定することは困難 | ScanNetSecurity",
+      "source_urls": [
+        "https://ssl4.eir-parts.net/doc/3440/tdnet/2776597/00.pdf"
+      ]
+    },
+    {
+      "article_url": "https://s.netsecurity.ne.jp/article/2026/03/26/54912.html",
+      "title": "タカカツグループホールディングスに不正なアクセス攻撃、個人情報が外部から閲覧できる状況に | ScanNetSecurity",
+      "source_urls": [
+        "https://www.takakatsu.co.jp/pdf/news_20260317.pdf"
+      ]
+    },
+    {
+      "article_url": "https://s.netsecurity.ne.jp/article/2026/03/25/54903.html",
+      "title": "日本スウェージロックFST にランサムウェア攻撃、電話・メール・FAX が繋がらない状況になるも順次出荷業務を再開 | ScanNetSecurity",
+      "source_urls": [
+        "https://x.gd/hJ934",
+        "https://www.japan.swagelok.com/whatsnew/system.outage.notification",
+        "https://www.japan.swagelok.com/whatsnew/system.outage.notification2",
+        "https://www.japan.swagelok.com/whatsnew/system.outage.notification3",
+        "https://www.japan.swagelok.com/whatsnew/system.outage.notification4"
+      ]
+    },
+    {
+      "article_url": "https://s.netsecurity.ne.jp/article/2026/03/25/54902.html",
+      "title": "河西工業 連結子会社へのサイバー攻撃、業務停止に至る被害は確認されず | ScanNetSecurity",
+      "source_urls": [
+        "https://contents.xj-storage.jp/xcontents/AS01130/f802bd9c/ddb6/45bf/8cd6/a56cfe48e48b/140120260312580841.pdf"
+      ]
+    },
+    {
+      "article_url": "https://s.netsecurity.ne.jp/article/2026/03/25/54901.html",
+      "title": "データの意図しない削除が発生し不正アクセスの可能性を公表 → プログラムの誤作動が原因であることが判明 | ScanNetSecurity",
+      "source_urls": [
+        "https://k-cr.jp/content/wp-content/uploads/2026/03/d556dbd509f4d42f7ac2ee88df698e87.pdf",
+        "https://k-cr.jp/content/wp-content/uploads/2026/03/160e3abf1c676ed19d7e65afa0ae223f-1.pdf",
+        "https://k-cr.jp/content/wp-content/uploads/2026/03/d2178ebca3e0ff9a37a0e8f93b63bfc6.pdf"
+      ]
+    },
+    {
+      "article_url": "https://s.netsecurity.ne.jp/article/2026/03/25/54900.html",
+      "title": "個人情報の漏えいがなかったことが判明 ～ 国立国会図書館 開発中システム 再委託先への不正アクセス | ScanNetSecurity",
+      "source_urls": [
+        "https://www.ndl.go.jp/news/fy2025/260311_01"
+      ]
+    },
+    {
+      "article_url": "https://s.netsecurity.ne.jp/article/2026/03/24/54892.html",
+      "title": "免職処分 ～ 市職員が特定の個人の住所等を検索し知人に伝達 | ScanNetSecurity",
+      "source_urls": [
+        "https://www.city.nihonmatsu.lg.jp/shisei/saiyou/page013866.html"
+      ]
+    },
+    {
+      "article_url": "https://s.netsecurity.ne.jp/article/2026/03/24/54891.html",
+      "title": "IPアドレス順 無差別攻撃の可能性 ～ 47CLUB へのランサムウェア攻撃 | ScanNetSecurity",
+      "source_urls": [
+        "https://47club-production.s3-ap-northeast-1.amazonaws.com/front/contents/images/corporate/pdf/47CLUBnotice_20260311.pdf",
+        "https://47club-production.s3-ap-northeast-1.amazonaws.com/front/contents/images/corporate/pdf/47CLUBnotice_20260206.pdf"
+      ]
+    },
+    {
+      "article_url": "https://s.netsecurity.ne.jp/article/2026/03/24/54890.html",
+      "title": "セゾンファンデックスの業務委託先青山メイン企画にランサムウェア攻撃 | ScanNetSecurity",
+      "source_urls": [
+        "https://www.fundex.co.jp/news/pdf/20260310_FUNDEX_notice.pdf"
+      ]
+    },
+    {
+      "article_url": "https://s.netsecurity.ne.jp/article/2026/03/24/54889.html",
+      "title": "ジョンソン・エンド・ジョンソンが研究助成金の申請に利用していたWebサイトが委託先のシステム経由で不正アクセス | ScanNetSecurity",
+      "source_urls": [
+        "https://www.jnj.co.jp/jjmkk/medical-information/medtech-research-grant/jj-medtech-research-grant-website-security-incident-report"
+      ]
+    },
+    {
+      "article_url": "https://s.netsecurity.ne.jp/article/2026/03/23/54883.html",
+      "title": "NHKでメール誤送信、計32,940人のメールアドレスが流出 | ScanNetSecurity",
+      "source_urls": [
+        "https://www.nhk.or.jp/info/pressrelease/assets/pdf/2025/20260318.pdf"
+      ]
+    },
+    {
+      "article_url": "https://s.netsecurity.ne.jp/article/2026/03/23/54882.html",
+      "title": "東京大学の研究室サーバに不正アクセス、個人情報や機微情報等の漏えいは現時点で確認されず | ScanNetSecurity",
+      "source_urls": [
+        "https://www.u-tokyo.ac.jp/focus/ja/articles/z1201_00007.html"
+      ]
+    },
+    {
+      "article_url": "https://s.netsecurity.ne.jp/article/2026/03/23/54881.html",
+      "title": "ウチヤマホールディングスにランサムウェア攻撃、現在も調査を継続 | ScanNetSecurity",
+      "source_urls": [
+        "https://www.uchiyama-gr.jp/ir/upload_file/tdnrelease/6059_20260309578176_P01_.pdf"
+      ]
+    },
+    {
+      "article_url": "https://s.netsecurity.ne.jp/article/2026/03/23/54880.html",
+      "title": "外部メール配信サービスの API キーが不正利用、メール 14 万件送信 | ScanNetSecurity",
+      "source_urls": [
+        "https://saveexpats.com/wp-content/uploads/2026/03/%E3%83%A1%E3%83%BC%E3%83%AB%E4%B8%8D%E6%AD%A3%E9%80%81%E4%BF%A1%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E3%81%8A%E8%A9%AB%E3%81%B3%E3%81%A8%E3%81%94%E5%A0%B1%E5%91%8A-1.pdf"
+      ]
+    },
+    {
+      "article_url": "https://s.netsecurity.ne.jp/article/2026/03/23/54879.html",
+      "title": "不審なファイルの設置を確認 ～ 歯科衛生士転職サイト「メグリー」に不正アクセス | ScanNetSecurity",
+      "source_urls": [
+        "https://www.whiteessence.co.jp/news/?action=detail&id=43"
+      ]
+    },
+    {
+      "article_url": "https://s.netsecurity.ne.jp/article/2026/03/19/54872.html",
+      "title": "ランサムウェア攻撃被害のシード・プランニング、東京都も業務を委託 | ScanNetSecurity",
+      "source_urls": [
+        "https://www.kyoiku.metro.tokyo.lg.jp/information/press/2026/03/2026030905"
+      ]
+    },
+    {
+      "article_url": "https://s.netsecurity.ne.jp/article/2026/03/19/54871.html",
+      "title": "村田製作所に不正アクセス、社外関係者に関する情報が不正に読み出された可能性 | ScanNetSecurity",
+      "source_urls": [
+        "https://corporate.murata.com/ja-jp/newsroom/news/company/general/2026/0306"
+      ]
+    },
+    {
+      "article_url": "https://s.netsecurity.ne.jp/article/2026/03/19/54870.html",
+      "title": "実在するクラウドサービスを装ったフィッシングメールによるアカウント乗っ取り、日本大学から不審メール321件送信 | ScanNetSecurity",
+      "source_urls": [
+        "https://www.crm.nihon-u.ac.jp/important/nurm/"
+      ]
+    },
+    {
+      "article_url": "https://s.netsecurity.ne.jp/article/2026/03/19/54869.html",
+      "title": "シード・プランニングにランサムウェア攻撃 | ScanNetSecurity",
+      "source_urls": [
+        "https://www.seedplanning.co.jp/news/6249/"
+      ]
+    },
+    {
+      "article_url": "https://s.netsecurity.ne.jp/article/2026/03/19/54868.html",
+      "title": "東山産業にランサムウェア攻撃、所轄警察署に被害届の提出準備 | ScanNetSecurity",
+      "source_urls": [
+        "https://www.higashiyama.com/783/"
+      ]
+    },
+    {
+      "article_url": "https://s.netsecurity.ne.jp/article/2026/03/18/54861.html",
+      "title": "取引先等に約 1,500件のなりすましメール送信 ～ ウェルス・マネジメントグループ会社社員のメールアカウントに不正アクセス | ScanNetSecurity",
+      "source_urls": [
+        "https://www.wealth-mngt.com/news/20260306"
+      ]
+    },
+    {
+      "article_url": "https://s.netsecurity.ne.jp/article/2026/03/18/54860.html",
+      "title": "役員報酬自主返納 ～ PGF生命 出向者 11名が 7代理店で 379件情報持ち出し | ScanNetSecurity",
+      "source_urls": [
+        "https://www.pgf-life.co.jp/hpcms/news/NB300.do?NID=2042"
+      ]
+    },
+    {
+      "article_url": "https://s.netsecurity.ne.jp/article/2026/03/18/54859.html",
+      "title": "スマレジ連携アプリへの不正アクセス、連携店舗の顧客情報 外部流出 | ScanNetSecurity",
+      "source_urls": [
+        "https://coastline.co.jp/%e4%b8%8d%e6%ad%a3%e3%82%a2%e3%82%af%e3%82%bb%e3%82%b9%e3%81%ab%e3%82%88%e3%82%8b%e5%80%8b%e4%ba%ba%e6%83%85%e5%a0%b1%e3%81%ae%e6%b5%81%e5%87%ba%e3%81%ab%e9%96%a2%e3%81%99%e3%82%8b%e6%9c%80%e7%b5%82/"
+      ]
+    },
+    {
+      "article_url": "https://s.netsecurity.ne.jp/article/2026/03/18/54858.html",
+      "title": "法人向けレンタルサーバ「CPI」に DDoS 攻撃 | ScanNetSecurity",
+      "source_urls": [
+        "https://www.cpi.ad.jp/support/maintenance/incident/2026-03-10/",
+        "https://www.cpi.ad.jp/support/maintenance/incident/2026-03-05-2/",
+        "https://www.cpi.ad.jp/support/maintenance/incident/2026-03-05/",
+        "https://www.cpi.ad.jp/support/maintenance/incident/2026-03-04/",
+        "https://www.cpi.ad.jp/support/maintenance/incident/2026-02-28/",
+        "https://www.cpi.ad.jp/support/maintenance/incident/2026-02-26/"
+      ]
+    },
+    {
+      "article_url": "https://s.netsecurity.ne.jp/article/2026/03/17/54853.html",
+      "title": "「＆Green」利用のメール配信システムでエラー、複数のメールが誤送信 | ScanNetSecurity",
+      "source_urls": [
+        "https://www.suntory.co.jp/flower/news/2026/03/post-39.html"
+      ]
+    },
+    {
+      "article_url": "https://s.netsecurity.ne.jp/article/2026/03/17/54852.html",
+      "title": "学内関係者のユーザアカウント悪用し VPN 経由で侵入 ～ 中央学院大学へのランサムウェア攻撃 | ScanNetSecurity",
+      "source_urls": [
+        "https://www.cgu.ac.jp/news/nid00001262.html",
+        "https://www.cgu.ac.jp/news/nid00001219.html",
+        "https://www.cgu.ac.jp/campuslife/course/portal.html"
+      ]
+    },
+    {
+      "article_url": "https://s.netsecurity.ne.jp/article/2026/03/17/54851.html",
+      "title": "侵入手口はリモートデスクトップソフト ～ トンボ飲料にランサムウェア攻撃 | ScanNetSecurity",
+      "source_urls": [
+        "https://www.tombow-b.jp/4029/"
+      ]
+    },
+    {
+      "article_url": "https://s.netsecurity.ne.jp/article/2026/03/17/54850.html",
+      "title": "税理士法人の Chatwork アカウントが乗っ取り被害、知人を装ったメッセージからフィッシングサイトへ誘導 | ScanNetSecurity",
+      "source_urls": [
+        "https://www.hagax.com/2026chatwork/"
+      ]
+    },
+    {
+      "article_url": "https://s.netsecurity.ne.jp/article/2026/03/16/54844.html",
+      "title": "白梅豊岡病院へのランサムウェア攻撃、ダークサイト上に利用者や家族等のフルデータを公開 | ScanNetSecurity",
+      "source_urls": [
+        "https://www.shiraume.or.jp/news/%E7%99%BD%E6%A2%85%E8%B1%8A%E5%B2%A1%E7%97%85%E9%99%A2%E3%81%B8%E3%81%AE%E3%82%B5%E3%82%A4%E3%83%90%E3%83%BC%E6%94%BB%E6%92%83%E3%81%AB%E3%82%88%E3%82%8B%E5%80%8B%E4%BA%BA%E6%83%85%E5%A0%B1%E6%BC%8F-3/"
+      ]
+    },
+    {
+      "article_url": "https://s.netsecurity.ne.jp/article/2026/03/16/54843.html",
+      "title": "穴吹ハウジングサービスへのランサムウェア攻撃、約 496,000 名分の個人情報が漏えいした可能性を否定できず | ScanNetSecurity",
+      "source_urls": [
+        "https://www.anabuki-housing.co.jp/news/content.php?news_id=521"
+      ]
+    },
+    {
+      "article_url": "https://s.netsecurity.ne.jp/article/2026/03/16/54842.html",
+      "title": "穴吹興産へのランサムウェア攻撃、リークサイトでの掲載を確認 | ScanNetSecurity",
+      "source_urls": [
+        "https://www.anabuki.ne.jp/cms_upload/news/427/20260311_higaihassei3.pdf",
+        "https://www.anabuki.ne.jp/cms_upload/news/425/20260212_higaihassei2.pdf"
+      ]
+    },
+    {
+      "article_url": "https://s.netsecurity.ne.jp/article/2026/03/16/54841.html",
+      "title": "Chatwork アカウントに不正アクセス、OAGコンサルティンググループ社員からの業務連絡を装った不審なメッセージを送信 | ScanNetSecurity",
+      "source_urls": [
+        "https://www.oag-group.co.jp/information/news/951/"
+      ]
+    },
+    {
+      "article_url": "https://s.netsecurity.ne.jp/article/2026/03/13/54835.html",
+      "title": "攻撃者グループのリークサイトで窃取されたと思われる情報が公開 ～ 西山製作所へのランサムウェア攻撃 | ScanNetSecurity",
+      "source_urls": [
+        "https://www.nishiyama-ss.co.jp/asset/pdf/20260305_CyberAttack2.pdf"
+      ]
+    },
+    {
+      "article_url": "https://s.netsecurity.ne.jp/article/2026/03/13/54834.html",
+      "title": "拾得物として届けられ回収 ～ 町田警察署職員が捜査書類の写し等が挟み込まれたメモ板を道路で一時紛失 | ScanNetSecurity",
+      "source_urls": [
+        "https://www.keishicho.metro.tokyo.lg.jp/about_mpd/shokai/ichiran/kankatsu/machida/index.files/202602.pdf"
+      ]
+    },
+    {
+      "article_url": "https://s.netsecurity.ne.jp/article/2026/03/13/54833.html",
+      "title": "山藤三陽印刷にランサムウェア攻撃、外部へのデータ送信を示す痕跡は確認されず | ScanNetSecurity",
+      "source_urls": [
+        "https://www.sando-sanyo.co.jp/contents/news/p0141.html",
+        "https://www.sando-sanyo.co.jp/contents/news/p0140.html",
+        "https://www.sando-sanyo.co.jp/contents/news/p0139.html"
+      ]
+    },
+    {
+      "article_url": "https://s.netsecurity.ne.jp/article/2026/03/13/54832.html",
+      "title": "つくるAI の AWS アカウントに不正アクセス、Amazon SES を不正に操作しフランス語圏のユーザーにフィッシングメール送信 | ScanNetSecurity",
+      "source_urls": [
+        "https://tsukuru-ai.co.jp/4967801",
+        "https://tsukuru-ai.co.jp/4961953"
+      ]
+    },
+    {
+      "article_url": "https://s.netsecurity.ne.jp/article/2026/03/12/54828.html",
+      "title": "ポーランド軍施設に中国製車両立入禁止／ドイツ鉄道 DDoS 攻撃で障害 ほか [Scan PREMIUM Monthly Executive Summary 2026年2月度] | ScanNetSecurity",
+      "source_urls": [
+        "https://www.sighnt.com"
+      ]
+    },
+    {
+      "article_url": "https://s.netsecurity.ne.jp/article/2026/03/12/54826.html",
+      "title": "個人情報流出のある誤送付は 11 件 ～ 横浜市立大学 令和 7 年度 第 3 四半期における事務処理ミスを公表 | ScanNetSecurity",
+      "source_urls": [
+        "https://www.yokohama-cu.ac.jp/news/2025/r7_3q_kohyo.html"
+      ]
+    },
+    {
+      "article_url": "https://s.netsecurity.ne.jp/article/2026/03/12/54825.html",
+      "title": "「地域生活支援システム」に入力された約 500 名分のデータが滅失、異なる場所に保存する設定を行っていたことが原因 | ScanNetSecurity",
+      "source_urls": [
+        "https://www.sekisho.co.jp/notice20260226"
+      ]
+    },
+    {
+      "article_url": "https://s.netsecurity.ne.jp/article/2026/03/12/54824.html",
+      "title": "じほうが利用するクラウドメールサービスに不正ログイン、アドレス帳に登録されたアドレスにフィッシングメール送信 | ScanNetSecurity",
+      "source_urls": [
+        "https://www.jiho.co.jp/blogs/information/20260226"
+      ]
+    },
+    {
+      "article_url": "https://s.netsecurity.ne.jp/article/2026/03/12/54823.html",
+      "title": "KAGOYA CLOUD VPS 一部サーバでの障害、ブラジルの IP アドレスからの攻撃的なアクセスが原因 | ScanNetSecurity",
+      "source_urls": [
+        "https://www.kagoya.jp/news/2026022634848/"
+      ]
+    },
+    {
+      "article_url": "https://s.netsecurity.ne.jp/article/2026/03/11/54816.html",
+      "title": "フォレンジック調査完了は 2026 年 3 月末頃を予定 ～ ビューティガレージECサイトに不正アクセス | ScanNetSecurity",
+      "source_urls": [
+        "https://x.gd/xtZbw",
+        "https://x.gd/3BOcs"
+      ]
+    },
+    {
+      "article_url": "https://s.netsecurity.ne.jp/article/2026/03/11/54815.html",
+      "title": "みずほリサーチ&テクノロジーズが経済産業省から受託したアンケート情報を混在して環境省に納品、ホームページで公開 | ScanNetSecurity",
+      "source_urls": [
+        "https://www.mizuho-rt.co.jp/company/release/2026/20260220_release_jp.pdf",
+        "https://www.meti.go.jp/policy/safety_security/industrial_safety/oshirase/2026/02/20260220-1.pdf",
+        "https://www.env.go.jp/press/press_03106.html"
+      ]
+    },
+    {
+      "article_url": "https://s.netsecurity.ne.jp/article/2026/03/11/54814.html",
+      "title": "JAあきた北ライフサービスに不正アクセス、個人情報が外部流出した可能性 | ScanNetSecurity",
+      "source_urls": [
+        "https://ja-akitakita-ls.jp/files/libs/783/202602211226496737.pdf"
+      ]
+    },
+    {
+      "article_url": "https://s.netsecurity.ne.jp/article/2026/03/11/54813.html",
+      "title": "美濃工業へのランサムウェア攻撃、個人情報が漏えいした可能性を完全に否定することはできない状況 | ScanNetSecurity",
+      "source_urls": [
+        "https://www.mino-in.co.jp/archives/news/%E3%80%90%E9%87%8D%E8%A6%81%E3%81%AA%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B%E3%80%91%E5%80%8B%E4%BA%BA%E6%83%85%E5%A0%B1%E6%BC%8F%E3%81%88%E3%81%84%E3%81%AE%E5%8F%AF%E8%83%BD%E6%80%A7%E3%81%AB%E9%96%A2"
+      ]
+    },
+    {
+      "article_url": "https://s.netsecurity.ne.jp/article/2026/03/10/54802.html",
+      "title": "厚生労働省初動対応チームの派遣を受け対応 ～ 白梅豊岡病院にランサムウェア攻撃 | ScanNetSecurity",
+      "source_urls": [
+        "https://www.shiraume.or.jp/news/%e7%99%bd%e6%a2%85%e8%b1%8a%e5%b2%a1%e7%97%85%e9%99%a2%e3%81%b8%e3%81%ae%e3%82%b5%e3%82%a4%e3%83%90%e3%83%bc%e6%94%bb%e6%92%83%e3%81%ab%e3%82%88%e3%82%8b%e5%80%8b%e4%ba%ba%e6%83%85%e5%a0%b1%e6%bc%8f-2/",
+        "https://www.shiraume.or.jp/news/%E7%99%BD%E6%A2%85%E8%B1%8A%E5%B2%A1%E7%97%85%E9%99%A2%E3%81%B8%E3%81%AE%E3%82%B5%E3%82%A4%E3%83%90%E3%83%BC%E6%94%BB%E6%92%83%E3%81%AB%E3%82%88%E3%82%8B%E5%80%8B%E4%BA%BA%E6%83%85%E5%A0%B1%E6%BC%8F/"
+      ]
+    },
+    {
+      "article_url": "https://s.netsecurity.ne.jp/article/2026/03/10/54801.html",
+      "title": "アドバンテストのネットワークに不正アクセス、ランサムウェア展開可能性 | ScanNetSecurity",
+      "source_urls": [
+        "https://www.advantest.com/ja/news/2026/20260219.html",
+        "https://www.advantest.com/ja/news/2026/20260216.html"
+      ]
+    },
+    {
+      "article_url": "https://s.netsecurity.ne.jp/article/2026/03/10/54800.html",
+      "title": "フィッシングで管理アカウント情報を窃取 ～ 「NSバイオジャパンオンラインショップ」に不正アクセス | ScanNetSecurity",
+      "source_urls": [
+        "https://nsbj.jp/information_leakage_20260218/",
+        "https://nsbj.jp/information_leakage_20260211/"
+      ]
+    },
+    {
+      "article_url": "https://s.netsecurity.ne.jp/article/2026/03/10/54799.html",
+      "title": "目的は暗号資産のマイニング等 ～ 寄附金Web申請クラウドサービス「Academic Support Navi」への不正アクセス | ScanNetSecurity",
+      "source_urls": [
+        "https://www.cac.co.jp/news/topics_260212/"
+      ]
+    },
+    {
+      "article_url": "https://s.netsecurity.ne.jp/article/2026/03/09/54789.html",
+      "title": "既知の脆弱性を悪用しサーバに侵入 ～ ブロードバンドタワーにサイバー攻撃 | ScanNetSecurity",
+      "source_urls": [
+        "https://www.bbtower.co.jp/ir/topics/docs/20260224.pdf",
+        "https://www.bbtower.co.jp/ir/topics/docs/20251219.pdf"
+      ]
+    },
+    {
+      "article_url": "https://s.netsecurity.ne.jp/article/2026/03/09/54788.html",
+      "title": "約13万人の患者情報が漏えい ～ 日本医科大学武蔵小杉病院へのランサムウェア攻撃 | ScanNetSecurity",
+      "source_urls": [
+        "https://www.nms.ac.jp/kosugi-h/news/_28850.html",
+        "https://www.nms.ac.jp/kosugi-h/news/_28836.html"
+      ]
+    }
+  ],
+  "report": "docs/research-2026-q1-deep-review.md",
+  "audit": "data/research-2026-q1-deep-review.json"
+}

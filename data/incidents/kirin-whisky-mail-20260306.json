@@ -1,0 +1,46 @@
+{
+  "id": "kirin-whisky-mail-20260306",
+  "organization": {
+    "name": "キリンビール",
+    "sector": "企業・団体"
+  },
+  "title": "ウイスキー会員のメールアドレス1,512件を誤送信",
+  "summary": "ウイスキー会員のメールアドレス1,512件を誤送信。",
+  "published_on": "2026-03-06",
+  "first_published_on": "2026-03-06",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "accident",
+  "cause": {
+    "category": "misdelivery",
+    "detail": "BCCで送るべき会員向け案内をTOで一斉送信した。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 1512,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "公表時点の対象規模。内数・重複・確度は注記参照。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.kirinholdings.com/jp/newsroom/release/2026/0306_03.html",
+      "type": "official",
+      "title": "ウイスキー会員のメールアドレス1,512件を誤送信",
+      "published_on": "2026-03-06",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

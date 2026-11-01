@@ -1,0 +1,50 @@
+{
+  "id": "juntendo-nerima-pc-20260121",
+  "organization": {
+    "name": "順天堂大学医学部附属練馬病院",
+    "sector": "教育・研究"
+  },
+  "title": "医師の私物PCを紛失し患者約50人の手術情報等に影響",
+  "summary": "医師の私物PCを紛失し患者約50人の手術情報等に影響。",
+  "published_on": "2026-01-21",
+  "first_published_on": "2026-01-21",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "lost",
+  "incident_type": "accident",
+  "cause": {
+    "category": "loss",
+    "detail": "医師が個人所有のパソコンを院内で紛失したとみられる。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 50,
+      "unit": "people",
+      "qualifier": "approximate",
+      "description": "公表時点の対象規模。内数・重複・確度は注記参照。"
+    }
+  ],
+  "data_types": [
+    "患者氏名",
+    "患者ID",
+    "生年月日",
+    "手術術式",
+    "手術部位写真"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://hosp-nerima.juntendo.ac.jp/news/nid00005489.html",
+      "type": "official",
+      "title": "医師の私物PCを紛失し患者約50人の手術情報等に影響",
+      "published_on": "2026-01-21",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": "パスワードあり。公表時点で外部流出は未確認。"
+}

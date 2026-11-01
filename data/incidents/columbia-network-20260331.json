@@ -1,0 +1,70 @@
+{
+  "id": "columbia-network-20260331",
+  "organization": {
+    "name": "日本コロムビア株式会社",
+    "sector": "企業・団体"
+  },
+  "title": "前年のサーバー侵害で従業員・家族・関係先の情報に閲覧のおそれ",
+  "summary": "前年のサーバー侵害で従業員・家族・関係先の情報に閲覧のおそれ。",
+  "published_on": "2026-03-31",
+  "first_published_on": "2025-08-08",
+  "publication_kind": "followup",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "vulnerability",
+    "detail": "ネットワーク機器の脆弱性を経由してサーバーへ侵入されたと説明。",
+    "certainty": "suspected"
+  },
+  "impact": [
+    {
+      "count": 3093,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "自社役員・従業員・元従業員と家族。"
+    },
+    {
+      "count": 152,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "関係会社の役職員。"
+    },
+    {
+      "count": 16,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "委託会社代表者。"
+    },
+    {
+      "count": 56,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "派遣会社担当者。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "電話番号",
+    "メールアドレス",
+    "生年月日",
+    "基礎年金番号",
+    "インボイス番号"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://columbia.jp/oshirase/info260331.html",
+      "type": "official",
+      "title": "前年のサーバー侵害で従業員・家族・関係先の情報に閲覧のおそれ",
+      "published_on": "2026-03-31",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": "社員・家族等3,093件、関係会社152件、委託会社代表者16件、派遣会社担当者56件。異なる区分を人数として合算しない。"
+}

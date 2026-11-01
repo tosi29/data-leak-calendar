@@ -16,22 +16,26 @@
   "leak_status": "confirmed",
   "incident_type": "accident",
   "cause": {
-    "category": "unknown",
-    "detail": "会員サイトのシステムトラブル。公表時点で原因調査中。",
-    "certainty": "unknown"
+    "category": "configuration",
+    "detail": "CDNのキャッシュ除外設定漏れとキャンペーンページの不備が重なった。",
+    "certainty": "confirmed"
   },
   "impact": [
     {
-      "count": null,
+      "count": 557,
       "unit": "records",
-      "qualifier": "unknown",
-      "description": "対象件数は未公表。"
+      "qualifier": "maximum",
+      "description": "他人に表示された可能性のある会員情報。"
     }
   ],
   "data_types": [
+    "メールアドレス",
     "氏名",
+    "性別",
+    "電話番号",
     "住所",
-    "電話番号"
+    "職業",
+    "生年月"
   ],
   "related_vendor": null,
   "sources": [
@@ -41,8 +45,21 @@
       "title": "エバラ食品工業株式会社の設定ミスによる情報漏えい（2026年1月23日）",
       "published_on": "2026-01-23",
       "checked_on": "2026-11-01"
+    },
+    {
+      "url": "https://www.ebarafoods.com/company/newsrelease_20260205_35.pdf",
+      "type": "official",
+      "title": "エバラCLUBの表示不具合（第2報）",
+      "published_on": "2026-02-05",
+      "checked_on": "2026-11-01"
     }
   ],
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-02-05",
+      "summary": "CDNのキャッシュ除外設定漏れとキャンペーンページ不備を確認。最大557件。",
+      "source_index": 1
+    }
+  ],
   "notes": "1月22日16時頃に確認しアクセスを停止。金融機関情報は保有していない。 初報または明記した公表資料時点の記録。今回取得した後続資料をすべて精査したものではない。"
 }

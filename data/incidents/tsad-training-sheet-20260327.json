@@ -1,0 +1,59 @@
+{
+  "id": "tsad-training-sheet-20260327",
+  "organization": {
+    "name": "東京都障害者スポーツ協会",
+    "sector": "企業・団体"
+  },
+  "title": "研修募集の公開ファイルに過去の申込者の個人情報が残存",
+  "summary": "研修募集の公開ファイルに過去の申込者の個人情報が残存。",
+  "published_on": "2026-03-27",
+  "first_published_on": "2026-03-27",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "exposed",
+  "incident_type": "accident",
+  "cause": {
+    "category": "redaction_error",
+    "detail": "募集用ファイルに過去の申込者が入力済みのシートを含めて公開した。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 366,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "過去の研修申込者。"
+    }
+  ],
+  "data_types": [
+    "生年月日",
+    "性別",
+    "住所",
+    "電話番号",
+    "メールアドレス",
+    "障害の有無",
+    "資格の有無"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://tsad-portal.com/tsad/topics/32515",
+      "type": "official",
+      "title": "研修募集の公開ファイルに過去の申込者の個人情報が残存",
+      "published_on": "2026-03-27",
+      "checked_on": "2026-11-01"
+    },
+    {
+      "url": "https://tsad-portal.com/wp-content/uploads/2026/03/2c5dd267e1d21bac232f2da7ed3ab633.pdf",
+      "type": "official",
+      "title": "公表資料（添付PDF）",
+      "published_on": "2026-03-27",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": "非表示シートが検索結果から閲覧可能。氏名は含まれない。"
+}

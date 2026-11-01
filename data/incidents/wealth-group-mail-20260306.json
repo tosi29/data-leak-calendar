@@ -1,0 +1,46 @@
+{
+  "id": "wealth-group-mail-20260306",
+  "organization": {
+    "name": "ウェルス・マネジメントグループ",
+    "sector": "企業・団体"
+  },
+  "title": "社員メールへの侵入で取引先等のアドレスに影響",
+  "summary": "社員メールへの侵入で取引先等のアドレスに影響。",
+  "published_on": "2026-03-06",
+  "first_published_on": "2026-03-06",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "credentials",
+    "detail": "グループ会社社員のメールアカウントが不正利用された。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "対象件数は未公表。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.wealth-mngt.com/news/20260306",
+      "type": "official",
+      "title": "社員メールへの侵入で取引先等のアドレスに影響",
+      "published_on": "2026-03-06",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": "約1,500は不審メール送信件数。アドレス以外の情報の漏えいは調査予定。"
+}

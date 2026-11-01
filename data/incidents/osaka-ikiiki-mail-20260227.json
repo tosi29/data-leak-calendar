@@ -1,0 +1,51 @@
+{
+  "id": "osaka-ikiiki-mail-20260227",
+  "organization": {
+    "name": "大阪市こども青少年局（児童いきいき放課後事業・入退室管理システム運用委託先）",
+    "sector": "自治体"
+  },
+  "title": "放課後事業の利用児童1,486人分の一覧を別運営事業者へ誤送信",
+  "summary": "放課後事業の利用児童1,486人分の一覧を別運営事業者へ誤送信。",
+  "published_on": "2026-02-27",
+  "first_published_on": "2026-02-27",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "accident",
+  "cause": {
+    "category": "misdelivery",
+    "detail": "利用者一覧の別シートに他事業者の管理する児童情報が残っていた。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 1486,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表時点の対象規模。内数・重複・確度は注記参照。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "ユーザナンバー",
+    "学年",
+    "運営事業者",
+    "活動室",
+    "施設コード"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.city.osaka.lg.jp/hodoshiryo/kodomo/0000674351.html",
+      "type": "official",
+      "title": "放課後事業の利用児童1,486人分の一覧を別運営事業者へ誤送信",
+      "published_on": "2026-02-27",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": "システム運用委託先が事業者3者へ送信。"
+}

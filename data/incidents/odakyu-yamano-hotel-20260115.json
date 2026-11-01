@@ -1,0 +1,46 @@
+{
+  "id": "odakyu-yamano-hotel-20260115",
+  "organization": {
+    "name": "株式会社小田急リゾーツ（山のホテル）",
+    "sector": "企業・団体"
+  },
+  "title": "山のホテルの予約者情報に第三者閲覧のおそれ",
+  "summary": "山のホテルの予約者情報に第三者閲覧のおそれ。",
+  "published_on": "2026-01-15",
+  "first_published_on": "2026-01-15",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "credentials",
+    "detail": "利用する宿泊予約サービスへの不正アクセスを調査。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "対象件数は未公表。"
+    }
+  ],
+  "data_types": [
+    "宿泊予約者の個人情報（詳細未公表）"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.hakone-hoteldeyama.jp/news/316",
+      "type": "official",
+      "title": "山のホテルの予約者情報に第三者閲覧のおそれ",
+      "published_on": "2026-01-15",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": "Booking.com経由の予約者にWhatsAppで偽メッセージ。予約サイト全体の侵害とは断定しない。"
+}

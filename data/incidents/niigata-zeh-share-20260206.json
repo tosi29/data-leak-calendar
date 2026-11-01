@@ -1,0 +1,47 @@
+{
+  "id": "niigata-zeh-share-20260206",
+  "organization": {
+    "name": "新潟県／住宅・建築SDGs推進センター",
+    "sector": "企業・団体"
+  },
+  "title": "講習会資料の共有先へ参加者名簿を誤保存",
+  "summary": "講習会資料の共有先へ参加者名簿を誤保存。",
+  "published_on": "2026-02-06",
+  "first_published_on": "2026-02-06",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "exposed",
+  "incident_type": "accident",
+  "cause": {
+    "category": "configuration",
+    "detail": "委託事業者がクラウド共有先へ名簿を含む事務局作業ファイルを誤保存した。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "対象件数は未公表。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "メールアドレス"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.pref.niigata.lg.jp/uploaded/attachment/478631.pdf",
+      "type": "official",
+      "title": "講習会資料の共有先へ参加者名簿を誤保存",
+      "published_on": "2026-02-06",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": "2月5日18時17分～18時30分に参加者が閲覧可能。受託者は住宅・建築SDGs推進センター。"
+}

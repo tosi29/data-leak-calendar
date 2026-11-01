@@ -1,0 +1,46 @@
+{
+  "id": "yahoo-store-address-20260213",
+  "organization": {
+    "name": "LINEヤフー",
+    "sector": "企業・団体"
+  },
+  "title": "Yahoo!ショッピング休店ページで非公開の業務地住所を誤表示",
+  "summary": "Yahoo!ショッピング休店ページで非公開の業務地住所を誤表示。",
+  "published_on": "2026-02-13",
+  "first_published_on": "2026-02-13",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "exposed",
+  "incident_type": "accident",
+  "cause": {
+    "category": "configuration",
+    "detail": "休店ページの表示仕様の不備で、外部公開を前提としない住所を表示した。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "対象件数は未公表。"
+    }
+  ],
+  "data_types": [
+    "出店者の業務地住所"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.lycorp.co.jp/ja/privacy-security/announcement/020088/",
+      "type": "official",
+      "title": "Yahoo!ショッピング休店ページで非公開の業務地住所を誤表示",
+      "published_on": "2026-02-13",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": "2024年10月28日～2025年10月30日の表示。企業住所のみでなく出店者の非公開情報として公表。対象数は未公表。"
+}

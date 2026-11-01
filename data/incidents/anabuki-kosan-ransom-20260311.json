@@ -1,0 +1,46 @@
+{
+  "id": "anabuki-kosan-ransom-20260311",
+  "organization": {
+    "name": "穴吹興産",
+    "sector": "企業・団体"
+  },
+  "title": "ランサムウェア被害で個人情報を含む情報の漏えいを確認",
+  "summary": "ランサムウェア被害で個人情報を含む情報の漏えいを確認。",
+  "published_on": "2026-03-11",
+  "first_published_on": null,
+  "publication_kind": "followup",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。具体的な侵入経路は未公表または調査中。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "対象件数は未公表。"
+    }
+  ],
+  "data_types": [
+    "個人情報（項目・範囲を調査中）"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.anabuki.ne.jp/cms_upload/news/427/20260311_higaihassei3.pdf",
+      "type": "official",
+      "title": "ランサムウェア被害で個人情報を含む情報の漏えいを確認",
+      "published_on": "2026-03-11",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": "第3報。2月4日の障害告知と区別し、個人情報漏えいを確認した3月11日の公表で掲載。カード情報は保有しない。"
+}

@@ -1,0 +1,46 @@
+{
+  "id": "sada-chart-sns-20260323",
+  "organization": {
+    "name": "佐田病院",
+    "sector": "企業・団体"
+  },
+  "title": "看護師が入院患者1人のカルテ画像をSNSへ掲載",
+  "summary": "看護師が入院患者1人のカルテ画像をSNSへ掲載。",
+  "published_on": "2026-03-23",
+  "first_published_on": "2026-03-23",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "improper_handling",
+  "cause": {
+    "category": "improper_sharing",
+    "detail": "看護師がSNSの限定公開機能で投稿し、第三者の投稿を通じて病院が把握した。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 1,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表時点の対象規模。内数・重複・確度は注記参照。"
+    }
+  ],
+  "data_types": [
+    "カルテ記載内容"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.sada.or.jp/wp-sada/wp-content/uploads/2026/03/20260323-2.pdf",
+      "type": "official",
+      "title": "看護師が入院患者1人のカルテ画像をSNSへ掲載",
+      "published_on": "2026-03-23",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

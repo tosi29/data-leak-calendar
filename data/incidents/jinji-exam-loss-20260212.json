@@ -1,0 +1,49 @@
+{
+  "id": "jinji-exam-loss-20260212",
+  "organization": {
+    "name": "人事院",
+    "sector": "企業・団体"
+  },
+  "title": "採用試験の身体検査等の検査票を庁内で紛失",
+  "summary": "採用試験の身体検査等の検査票を庁内で紛失。",
+  "published_on": "2026-02-12",
+  "first_published_on": "2026-02-12",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "lost",
+  "incident_type": "accident",
+  "cause": {
+    "category": "loss",
+    "detail": "受領後の保管・管理体制が不十分で、誤廃棄の可能性が高いと説明。",
+    "certainty": "suspected"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "対象件数は未公表。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "生年月日",
+    "性別",
+    "身体検査・身体測定・体力検査結果"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.jinji.go.jp/kouho_houdo/kisya/2506/00005_00002.html",
+      "type": "official",
+      "title": "採用試験の身体検査等の検査票を庁内で紛失",
+      "published_on": "2026-02-12",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": "2026年1月29日に所在不明を認識。国税専門官18人分等を含むが、総数は今回未確定。"
+}

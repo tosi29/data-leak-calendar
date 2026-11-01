@@ -1,0 +1,53 @@
+{
+  "id": "urasoe-minatogawa-hdd-20260313",
+  "organization": {
+    "name": "浦添市立港川中学校／浦添市教育委員会",
+    "sector": "教育・研究"
+  },
+  "title": "保守業者のHDD紛失で生徒・家族約9,100人の情報に影響",
+  "summary": "保守業者のHDD紛失で生徒・家族約9,100人の情報に影響。",
+  "published_on": "2026-03-13",
+  "first_published_on": "2026-03-13",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "lost",
+  "incident_type": "accident",
+  "cause": {
+    "category": "loss",
+    "detail": "校内の復旧作業でデータを退避した保守業者のHDDが所在不明となった。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 9100,
+      "unit": "people",
+      "qualifier": "approximate",
+      "description": "公表時点の対象規模。内数・重複・確度は注記参照。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "年齢",
+    "連絡先",
+    "健康状態",
+    "成績",
+    "写真",
+    "家庭調査票"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.city.urasoe.lg.jp/doc/2026031200033/",
+      "type": "official",
+      "title": "保守業者のHDD紛失で生徒・家族約9,100人の情報に影響",
+      "published_on": "2026-03-13",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": "暗号化・パスワードロックあり。職員名簿・写真等の詳細は調査中。"
+}

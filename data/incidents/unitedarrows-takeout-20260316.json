@@ -1,0 +1,51 @@
+{
+  "id": "unitedarrows-takeout-20260316",
+  "organization": {
+    "name": "ユナイテッドアローズ",
+    "sector": "企業・団体"
+  },
+  "title": "元従業員が取引先約1万人分の個人情報を持ち出し",
+  "summary": "元従業員が取引先約1万人分の個人情報を持ち出し。",
+  "published_on": "2026-03-16",
+  "first_published_on": "2026-03-16",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "improper_handling",
+  "cause": {
+    "category": "improper_sharing",
+    "detail": "退職前に個人メールへ外部連携リンクを送り、退職後に外部PCへダウンロードした。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 10000,
+      "unit": "people",
+      "qualifier": "approximate",
+      "description": "公表時点の対象規模。内数・重複・確度は注記参照。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "企業名",
+    "部署",
+    "電話番号",
+    "メールアドレス",
+    "事業場住所"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.united-arrows.co.jp/news/15175/",
+      "type": "official",
+      "title": "元従業員が取引先約1万人分の個人情報を持ち出し",
+      "published_on": "2026-03-16",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": "本人以外による閲覧・使用等を調査。転職先PCの確認は継続。3月17日追記を含む。"
+}

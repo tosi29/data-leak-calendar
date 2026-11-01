@@ -1,0 +1,55 @@
+{
+  "id": "sapmed-lecturer-pc-20260209",
+  "organization": {
+    "name": "札幌医科大学",
+    "sector": "教育・研究"
+  },
+  "title": "非常勤講師の私物PC紛失で学生88人の成績等に影響",
+  "summary": "非常勤講師の私物PC紛失で学生88人の成績等に影響。",
+  "published_on": "2026-02-09",
+  "first_published_on": "2026-02-09",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "lost",
+  "incident_type": "accident",
+  "cause": {
+    "category": "loss",
+    "detail": "商業施設のトイレへPC入りバッグを置き忘れ、PCが所在不明となった。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 88,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表時点の対象規模。内数・重複・確度は注記参照。"
+    }
+  ],
+  "data_types": [
+    "学籍番号",
+    "氏名",
+    "成績"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://web.sapmed.ac.jp/jp/news/press/dbvk0g0000000x2a.html",
+      "type": "official",
+      "title": "非常勤講師の私物PC紛失で学生88人の成績等に影響",
+      "published_on": "2026-02-09",
+      "checked_on": "2026-11-01"
+    },
+    {
+      "url": "https://web.sapmed.ac.jp/jp/news/press/dbvk0g0000000x2a-att/dbvk0g0000000x4e.pdf",
+      "type": "official",
+      "title": "公表資料（添付PDF）",
+      "published_on": "2026-02-09",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": "起動時の指紋認証あり。流出や不正利用は未確認。"
+}

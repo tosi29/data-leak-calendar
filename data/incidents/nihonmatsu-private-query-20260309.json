@@ -1,0 +1,46 @@
+{
+  "id": "nihonmatsu-private-query-20260309",
+  "organization": {
+    "name": "二本松市",
+    "sector": "自治体"
+  },
+  "title": "職員が住民記録を業務外検索し知人へ個人情報を伝達",
+  "summary": "職員が住民記録を業務外検索し知人へ個人情報を伝達。",
+  "published_on": "2026-03-09",
+  "first_published_on": "2026-03-09",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "improper_handling",
+  "cause": {
+    "category": "improper_sharing",
+    "detail": "職員が業務目的外に住民記録システムを検索し、知人へ伝達した。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "対象件数は未公表。"
+    }
+  ],
+  "data_types": [
+    "住所等の住民情報"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.city.nihonmatsu.lg.jp/shisei/saiyou/page013866.html",
+      "type": "official",
+      "title": "職員が住民記録を業務外検索し知人へ個人情報を伝達",
+      "published_on": "2026-03-09",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": "3月9日に議会・報道へ公表したと本文に明記。ページ更新日の11日とは区別。"
+}

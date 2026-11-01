@@ -1,0 +1,46 @@
+{
+  "id": "gracehotel-booking-20260127",
+  "organization": {
+    "name": "新横浜グレイスホテル",
+    "sector": "企業・団体"
+  },
+  "title": "宿泊予約者情報に第三者閲覧のおそれと偽メッセージ配信を公表",
+  "summary": "宿泊予約者情報に第三者閲覧のおそれと偽メッセージ配信を公表。",
+  "published_on": "2026-01-27",
+  "first_published_on": "2026-01-27",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "credentials",
+    "detail": "提携する予約サービスへの不正アクセスにより閲覧の可能性。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "対象件数は未公表。"
+    }
+  ],
+  "data_types": [
+    "宿泊予約者の個人情報（詳細未公表）"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://gracehotel.jp/news/details/6216/",
+      "type": "official",
+      "title": "宿泊予約者情報に第三者閲覧のおそれと偽メッセージ配信を公表",
+      "published_on": "2026-01-27",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": "Booking.com経由の一部予約者が対象。1月18日以降の問い合わせで確認。"
+}

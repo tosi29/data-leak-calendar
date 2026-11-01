@@ -2,30 +2,30 @@
   "id": "nict-voice-corpus-20260519",
   "organization": {
     "name": "情報通信研究機構（NICT）",
-    "sector": "企業・団体"
+    "sector": "研究機関"
   },
-  "title": "音声コーパスの誤公開について第二報を公表",
-  "summary": "人の呼称を含む音声ファイルを誤って公開し、一部アクセス元を特定できず調査を継続。",
-  "published_on": "2026-05-19",
+  "title": "音声コーパスの誤公開で話者115人の氏名等が漏えい",
+  "summary": "公開対象外のボイスチェック用音声ファイルを誤公開。第3報までの経過と対象者への通知完了を同じ事案へ統合。",
+  "published_on": "2026-03-19",
   "first_published_on": "2026-03-19",
-  "publication_kind": "followup",
-  "occurred_on": null,
-  "detected_on": null,
-  "updated_on": "2026-10-26",
+  "publication_kind": "initial",
+  "occurred_on": "2026-03-12",
+  "detected_on": "2026-03-13",
+  "updated_on": "2026-11-01",
   "verification": "official",
-  "leak_status": "exposed",
+  "leak_status": "confirmed",
   "incident_type": "accident",
   "cause": {
-    "category": "configuration",
-    "detail": "音声データの公開前の確認プロセスに不備。",
+    "category": "redaction_error",
+    "detail": "公開前の確認プロセスの不備で公開対象外の音声ファイルを含めた。",
     "certainty": "confirmed"
   },
   "impact": [
     {
-      "count": null,
-      "unit": "records",
-      "qualifier": "unknown",
-      "description": "対象人数・件数は未公表。"
+      "count": 115,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "対象となった話者"
     }
   ],
   "data_types": [
@@ -39,8 +39,57 @@
       "type": "official",
       "published_on": "2026-05-19",
       "checked_on": "2026-10-26"
+    },
+    {
+      "url": "https://www.nict.go.jp/publicity/topics/2026/03/19-2.html",
+      "type": "official",
+      "title": "音声コーパスの誤公開（第1報）",
+      "published_on": "2026-03-19",
+      "checked_on": "2026-11-01"
+    },
+    {
+      "url": "https://www.nict.go.jp/publicity/topics/2026/09/28-1.html",
+      "type": "official",
+      "title": "音声コーパスの誤った公開による情報漏えいとその対応に関するお知らせ（第3報）｜2026年｜NICT-情報通信研究機構",
+      "published_on": "2026-09-28",
+      "checked_on": "2026-11-01"
     }
   ],
-  "updates": [],
-  "notes": "最大12件はアクセス数であり人数・音声ファイル件数ではないため影響規模へ使用しない。"
+  "updates": [
+    {
+      "date": "2026-03-19",
+      "summary": "公開対象外の音声115人分の誤公開を公表。",
+      "source_index": 1
+    },
+    {
+      "date": "2026-05-19",
+      "source_index": 0,
+      "summary": "人の呼称を含む音声ファイルを誤って公開し、一部アクセス元を特定できず調査を継続。"
+    },
+    {
+      "date": "2026-09-28",
+      "summary": "話者の氏名等が含まれる音声データを誤公開した事案で、対象者全員への通知完了と調査状況を公表。",
+      "source_index": 2
+    }
+  ],
+  "notes": "氏名等の呼称を含む音声115人分。住所・連絡先・生年月日は含まれない。アクセス数を人数へ加算しない。",
+  "vendor_research": {
+    "checked_on": "2026-11-01",
+    "result": "not_identified",
+    "note": "音声収録業務の委託先への言及はありますが、ITシステムの開発・運用会社を示す記載は確認できませんでした。",
+    "source_checks": [
+      {
+        "source_index": 0,
+        "status": "reviewed"
+      },
+      {
+        "source_index": 1,
+        "status": "reviewed"
+      },
+      {
+        "source_index": 2,
+        "status": "reviewed"
+      }
+    ]
+  }
 }

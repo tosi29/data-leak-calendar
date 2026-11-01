@@ -1,0 +1,47 @@
+{
+  "id": "osaka-bluteon-mail-20260107",
+  "organization": {
+    "name": "大阪ブルテオン／株式会社バーチャスクリエイト",
+    "sector": "企業・団体"
+  },
+  "title": "ファンクラブ配送メールで別会員55人の氏名等を誤通知",
+  "summary": "ファンクラブ配送メールで別会員55人の氏名等を誤通知。",
+  "published_on": "2026-01-07",
+  "first_published_on": "2026-01-07",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "accident",
+  "cause": {
+    "category": "misdelivery",
+    "detail": "ファンクラブ事務局の発送データ作成時の不手際。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 55,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表時点の対象規模。内数・重複・確度は注記参照。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "ヤマト運輸の担当営業所名"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.osaka-bluteon.com/news/2026/20260107_01.html",
+      "type": "official",
+      "title": "ファンクラブ配送メールで別会員55人の氏名等を誤通知",
+      "published_on": "2026-01-07",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": "誤通知の受信者55人と氏名が流出した会員55人は区別し、110人とはしない。住所・電話・メールは対象外。"
+}

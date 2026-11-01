@@ -4,37 +4,44 @@
     "name": "日本医科大学武蔵小杉病院",
     "sector": "企業・団体"
   },
-  "title": "ナースコールシステムへの攻撃で患者約1万人の情報が漏えい",
-  "summary": "ナースコールシステムへの攻撃で患者約1万人の情報が漏えい。",
+  "title": "サイバー攻撃で患者約13万人・職員等約1,700人の情報が漏えい",
+  "summary": "保守用VPN装置から侵入され、ナースコールサーバーの情報が窃取・公開された。",
   "published_on": "2026-02-13",
   "first_published_on": "2026-02-13",
   "publication_kind": "initial",
-  "occurred_on": null,
+  "occurred_on": "2026-01-26",
   "detected_on": null,
   "updated_on": "2026-11-01",
   "verification": "official",
   "leak_status": "confirmed",
   "incident_type": "attack",
   "cause": {
-    "category": "unauthorized_access",
-    "detail": "第三者による不正アクセス。具体的な侵入経路は未公表または調査中。",
-    "certainty": "unknown"
+    "category": "vulnerability",
+    "detail": "医療機器保守用VPN装置の脆弱性を悪用して侵入された。",
+    "certainty": "confirmed"
   },
   "impact": [
     {
-      "count": 10000,
+      "count": 130000,
       "unit": "people",
       "qualifier": "approximate",
-      "description": "公表資料時点の対象規模。人数・件数を区別し、漏えいの確度は記録の状態を参照。"
+      "description": "外来・入院患者。"
+    },
+    {
+      "count": 1700,
+      "unit": "people",
+      "qualifier": "approximate",
+      "description": "職員・2021年以降の臨床実習医学生。患者との重複不明のため合算しない。"
     }
   ],
   "data_types": [
+    "患者ID",
+    "職員ID",
     "氏名",
     "性別",
     "住所",
     "電話番号",
-    "生年月日",
-    "患者ID"
+    "生年月日"
   ],
   "related_vendor": null,
   "sources": [
@@ -44,8 +51,21 @@
       "title": "日本医科大学武蔵小杉病院の不正アクセス・情報漏えい（2026年2月13日）",
       "published_on": "2026-02-13",
       "checked_on": "2026-11-01"
+    },
+    {
+      "url": "https://www.nms.ac.jp/kosugi-h/news/_28850.html",
+      "type": "official",
+      "title": "サイバー攻撃に関する第5報",
+      "published_on": "2026-02-27",
+      "checked_on": "2026-11-01"
     }
   ],
-  "updates": [],
-  "notes": "第1報時点の約1万人。後続の対象拡大は今回の数値へ自動適用していない。保守用VPN装置を侵入経路と確認。電子カルテ等の他システムの影響とは区別。 初報または明記した公表資料時点の記録。今回取得した後続資料をすべて精査したものではない。"
+  "updates": [
+    {
+      "date": "2026-02-27",
+      "summary": "患者約13万人、職員・実習生約1,700人に対象範囲を更新。VPN装置の脆弱性を悪用した侵入と公開を確認。",
+      "source_index": 1
+    }
+  ],
+  "notes": "2月27日第5報の対象範囲へ更新。患者カルテ・カード・マイナンバー情報の流出は未確認。"
 }

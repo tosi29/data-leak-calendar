@@ -22,10 +22,16 @@
   },
   "impact": [
     {
-      "count": null,
+      "count": 6,
       "unit": "records",
-      "qualifier": "unknown",
-      "description": "対象件数は未公表。"
+      "qualifier": "exact",
+      "description": "漏えい確認。"
+    },
+    {
+      "count": 43,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "連絡不能等で漏えいのリスクを否定できない件数。確認分とは区別。"
     }
   ],
   "data_types": [
@@ -42,8 +48,21 @@
       "title": "総務省の設定ミスによる情報漏えい（2026年2月6日）",
       "published_on": "2026-02-06",
       "checked_on": "2026-11-01"
+    },
+    {
+      "url": "https://www.murc.jp/wp-content/uploads/2026/03/news_260319_01.pdf",
+      "type": "official",
+      "title": "受託案件における漏えいの確認結果",
+      "published_on": "2026-03-19",
+      "checked_on": "2026-11-01"
     }
   ],
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-03-19",
+      "summary": "漏えい6件、漏えいのおそれ43件と確認。",
+      "source_index": 1
+    }
+  ],
   "notes": " 初報または明記した公表資料時点の記録。今回取得した後続資料をすべて精査したものではない。"
 }

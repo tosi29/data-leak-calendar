@@ -16,16 +16,22 @@
   "leak_status": "confirmed",
   "incident_type": "attack",
   "cause": {
-    "category": "unauthorized_access",
-    "detail": "第三者による不正アクセス。具体的な侵入経路は未公表または調査中。",
-    "certainty": "unknown"
+    "category": "configuration",
+    "detail": "バックエンドのデータベース環境におけるアクセス設定と運用管理体制の不備。",
+    "certainty": "confirmed"
   },
   "impact": [
     {
-      "count": null,
+      "count": 110359,
       "unit": "records",
-      "qualifier": "unknown",
-      "description": "対象件数は未公表。"
+      "qualifier": "exact",
+      "description": "3月最終報の氏名。"
+    },
+    {
+      "count": 100293,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "3月最終報の電話番号。氏名との重複を合算しない。"
     }
   ],
   "data_types": [
@@ -39,8 +45,21 @@
       "title": "合同会社coastlineの不正アクセス・情報漏えい（2026年1月10日）",
       "published_on": "2026-01-10",
       "checked_on": "2026-11-01"
+    },
+    {
+      "url": "https://coastline.co.jp/%e4%b8%8d%e6%ad%a3%e3%82%a2%e3%82%af%e3%82%bb%e3%82%b9%e3%81%ab%e3%82%88%e3%82%8b%e5%80%8b%e4%ba%ba%e6%83%85%e5%a0%b1%e3%81%ae%e6%b5%81%e5%87%ba%e3%81%ab%e9%96%a2%e3%81%99%e3%82%8b%e6%9c%80%e7%b5%82/",
+      "type": "official",
+      "title": "不正アクセスに関する最終報告",
+      "published_on": "2026-03-05",
+      "checked_on": "2026-11-01"
     }
   ],
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-03-05",
+      "summary": "外部流出を確認し、氏名110,359件・電話番号100,293件と公表。",
+      "source_index": 1
+    }
+  ],
   "notes": "公式HTMLの公開日時で1月10日を確認。スマレジ本体・公式アプリの侵害とは区別。 初報または明記した公表資料時点の記録。今回取得した後続資料をすべて精査したものではない。"
 }

@@ -1,0 +1,50 @@
+{
+  "id": "hirogin-metlife-20260318",
+  "organization": {
+    "name": "広島銀行",
+    "sector": "企業・団体"
+  },
+  "title": "保険会社出向者が被保険者88人の契約情報を出向元へ漏えい",
+  "summary": "保険会社出向者が被保険者88人の契約情報を出向元へ漏えい。",
+  "published_on": "2026-03-18",
+  "first_published_on": "2026-03-18",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "improper_handling",
+  "cause": {
+    "category": "improper_sharing",
+    "detail": "メットライフ生命からの出向者が2021年に契約情報を出向元へ提供した。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 88,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表時点の対象規模。内数・重複・確度は注記参照。"
+    }
+  ],
+  "data_types": [
+    "カナ氏名",
+    "保険会社名",
+    "商品名",
+    "保険料",
+    "払込方法"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.hirogin.co.jp/information/info260318-2/info260318-2.pdf",
+      "type": "official",
+      "title": "保険会社出向者が被保険者88人の契約情報を出向元へ漏えい",
+      "published_on": "2026-03-18",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

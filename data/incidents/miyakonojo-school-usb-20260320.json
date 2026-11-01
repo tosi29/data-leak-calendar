@@ -1,0 +1,46 @@
+{
+  "id": "miyakonojo-school-usb-20260320",
+  "organization": {
+    "name": "都城市教育委員会／市内小学校",
+    "sector": "教育・研究"
+  },
+  "title": "小学校教員が児童の前期成績を保存したUSBを紛失",
+  "summary": "小学校教員が児童の前期成績を保存したUSBを紛失。",
+  "published_on": "2026-03-20",
+  "first_published_on": "2026-03-20",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "lost",
+  "incident_type": "accident",
+  "cause": {
+    "category": "loss",
+    "detail": "公用USBの所在が分からなくなり、捜索しても発見できなかった。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "対象件数は未公表。"
+    }
+  ],
+  "data_types": [
+    "児童の成績"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.city.miyakonojo.miyazaki.jp/soshiki/59/83924.html",
+      "type": "official",
+      "title": "小学校教員が児童の前期成績を保存したUSBを紛失",
+      "published_on": "2026-03-20",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": "USBのロックとファイルのパスワードあり。3月13日の発覚と20日の公表を区別。"
+}

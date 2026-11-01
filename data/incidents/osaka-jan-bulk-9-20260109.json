@@ -1,0 +1,46 @@
+{
+  "id": "osaka-jan-bulk-9-20260109",
+  "organization": {
+    "name": "大阪市市民局",
+    "sector": "自治体"
+  },
+  "title": "住民票除票の写しの誤交付",
+  "summary": "住民票除票の写しの誤交付。",
+  "published_on": "2026-01-09",
+  "first_published_on": "2026-01-09",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "accident",
+  "cause": {
+    "category": "misdelivery",
+    "detail": "個人情報に係る事務処理誤りとして一括公表。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 1,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表時点の対象規模。内数・重複・確度は注記参照。"
+    }
+  ],
+  "data_types": [
+    "当該文書等に含まれる個人情報（詳細項目は非公表）"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.city.osaka.lg.jp/hodoshiryo/somu/0000669659.html",
+      "type": "official",
+      "title": "住民票除票の写しの誤交付",
+      "published_on": "2026-01-09",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": "1月9日一括公表の項番9。表の日付は市の報告・発生時速報日であり対外公表日とは区別。"
+}

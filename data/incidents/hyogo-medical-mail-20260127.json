@@ -1,0 +1,46 @@
+{
+  "id": "hyogo-medical-mail-20260127",
+  "organization": {
+    "name": "兵庫県／NTTマーケティングアクトProCX",
+    "sector": "企業・団体"
+  },
+  "title": "支援事業の補助金申請者65人のメールアドレスを誤送信",
+  "summary": "支援事業の補助金申請者65人のメールアドレスを誤送信。",
+  "published_on": "2026-01-27",
+  "first_published_on": "2026-01-27",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "accident",
+  "cause": {
+    "category": "misdelivery",
+    "detail": "委託先NTTマーケティングアクトProCXが宛先を非表示にせず一斉送信した。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 65,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表時点の対象規模。内数・重複・確度は注記参照。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://web.pref.hyogo.lg.jp/kf15/press/20260127.html",
+      "type": "official",
+      "title": "支援事業の補助金申請者65人のメールアドレスを誤送信",
+      "published_on": "2026-01-27",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": "1月21日送信。委託先の別事案と混同しない。"
+}

@@ -6,12 +6,12 @@
   },
   "title": "ウェブサイト侵害の調査で問い合わせ情報に漏えいのおそれ",
   "summary": "不正プログラムの実行記録があり、漏えい成功の記録はないものの可能性を否定できないと公表。",
-  "published_on": "2026-04-17",
-  "first_published_on": null,
-  "publication_kind": "followup",
+  "published_on": "2026-01-30",
+  "first_published_on": "2026-01-30",
+  "publication_kind": "initial",
   "occurred_on": null,
   "detected_on": "2026-01-23",
-  "updated_on": "2026-10-26",
+  "updated_on": "2026-11-01",
   "verification": "official",
   "leak_status": "suspected",
   "incident_type": "attack",
@@ -22,10 +22,10 @@
   },
   "impact": [
     {
-      "count": null,
+      "count": 5441,
       "unit": "records",
-      "qualifier": "unknown",
-      "description": "対象規模は未公表。"
+      "qualifier": "maximum",
+      "description": "1月30日公表時点の3サイト問い合わせ延べ件数。人数ではない。"
     }
   ],
   "data_types": [
@@ -44,8 +44,26 @@
       "type": "official",
       "published_on": "2026-04-17",
       "checked_on": "2026-10-26"
+    },
+    {
+      "url": "https://www.integralcorp.jp/information/20260130/",
+      "type": "official",
+      "title": "3サイトの問い合わせ情報最大5,441件に漏えいのおそれ",
+      "published_on": "2026-01-30",
+      "checked_on": "2026-11-01"
     }
   ],
-  "updates": [],
-  "notes": "初報は以前に存在するが正確な公表日は未特定。1月23日は発覚・対応日であり初報日へ転用しない。"
+  "updates": [
+    {
+      "date": "2026-01-30",
+      "summary": "3サイトの問い合わせ情報最大5,441件に漏えいのおそれ。",
+      "source_index": 1
+    },
+    {
+      "date": "2026-04-17",
+      "source_index": 0,
+      "summary": "後続資料による調査結果を反映。本文の状態・対象範囲はこの続報を保持。"
+    }
+  ],
+  "notes": "1月30日公表資料を追加。1月23日は発覚日。4月17日の最終調査結果を保持。"
 }

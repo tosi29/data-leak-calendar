@@ -1,0 +1,46 @@
+{
+  "id": "mm-chiyoda-mail-20260113",
+  "organization": {
+    "name": "公益財団法人まちみらい千代田",
+    "sector": "企業・団体"
+  },
+  "title": "マンション連絡会の会員89人のメールアドレスを誤送信",
+  "summary": "マンション連絡会の会員89人のメールアドレスを誤送信。",
+  "published_on": "2026-01-13",
+  "first_published_on": "2026-01-13",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "accident",
+  "cause": {
+    "category": "misdelivery",
+    "detail": "BCCではなく宛先欄へメールアドレスを入力して送信した。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 89,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表時点の対象規模。内数・重複・確度は注記参照。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.mm-chiyoda.or.jp/news/18783.html",
+      "type": "official",
+      "title": "マンション連絡会の会員89人のメールアドレスを誤送信",
+      "published_on": "2026-01-13",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": "1月9日に送信。会員以外への流出は未確認。"
+}

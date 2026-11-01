@@ -1,0 +1,48 @@
+{
+  "id": "hyogo-felissimo-mail-20260305",
+  "organization": {
+    "name": "兵庫県／フェリシモ（ひょうごッシモ）",
+    "sector": "企業・団体"
+  },
+  "title": "オンラインショップの精算書を誤送信し担当者37人の情報が漏えい",
+  "summary": "オンラインショップの精算書を誤送信し担当者37人の情報が漏えい。",
+  "published_on": "2026-03-05",
+  "first_published_on": "2026-03-05",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "accident",
+  "cause": {
+    "category": "misdelivery",
+    "detail": "委託先システムの設定不備で他事業者の精算書を添付した。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 37,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表時点の対象規模。内数・重複・確度は注記参照。"
+    }
+  ],
+  "data_types": [
+    "担当者氏名",
+    "売上金額",
+    "精算金額"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://web.pref.hyogo.lg.jp/sr16/20260305.html",
+      "type": "official",
+      "title": "オンラインショップの精算書を誤送信し担当者37人の情報が漏えい",
+      "published_on": "2026-03-05",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

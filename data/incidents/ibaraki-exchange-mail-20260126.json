@@ -1,0 +1,49 @@
+{
+  "id": "ibaraki-exchange-mail-20260126",
+  "organization": {
+    "name": "茨城県国際交流協会",
+    "sector": "企業・団体"
+  },
+  "title": "ボランティア募集メールに申込者1人の個人情報を誤添付",
+  "summary": "ボランティア募集メールに申込者1人の個人情報を誤添付。",
+  "published_on": "2026-01-26",
+  "first_published_on": "2026-01-26",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "accident",
+  "cause": {
+    "category": "misdelivery",
+    "detail": "個人情報入り申込書を誤って添付して11人へ送信した。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 1,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表時点の対象規模。内数・重複・確度は注記参照。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "電話番号",
+    "メールアドレス"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.ia-ibaraki.or.jp/post-8396/",
+      "type": "official",
+      "title": "ボランティア募集メールに申込者1人の個人情報を誤添付",
+      "published_on": "2026-01-26",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": "送信先11人を漏えい対象人数にしない。"
+}

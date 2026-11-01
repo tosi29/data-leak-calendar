@@ -1,0 +1,46 @@
+{
+  "id": "meti-env-mizuho-survey-20260220",
+  "organization": {
+    "name": "経済産業省・環境省・みずほリサーチ＆テクノロジーズ",
+    "sector": "企業・団体"
+  },
+  "title": "調査回答データを別の委託成果物へ混在させウェブで誤公開",
+  "summary": "調査回答データを別の委託成果物へ混在させウェブで誤公開。",
+  "published_on": "2026-02-20",
+  "first_published_on": "2026-02-20",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "exposed",
+  "incident_type": "accident",
+  "cause": {
+    "category": "redaction_error",
+    "detail": "受託者の誤作業で別事業の成果物に個人情報を混入させたまま環境省サイト等へ掲載した。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "対象件数は未公表。"
+    }
+  ],
+  "data_types": [
+    "アンケート回答に含まれる個人情報（詳細は対象者へ通知）"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.meti.go.jp/policy/safety_security/industrial_safety/oshirase/2026/02/20260220-1.pdf",
+      "type": "official",
+      "title": "調査回答データを別の委託成果物へ混在させウェブで誤公開",
+      "published_on": "2026-02-20",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": "共同発表を1件にまとめる。経済産業省の2013年調査のデータで、環境省の調査対象者情報ではない。"
+}

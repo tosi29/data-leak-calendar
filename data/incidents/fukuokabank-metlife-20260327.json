@@ -1,0 +1,49 @@
+{
+  "id": "fukuokabank-metlife-20260327",
+  "organization": {
+    "name": "福岡銀行",
+    "sector": "企業・団体"
+  },
+  "title": "保険会社出向者が顧客1,052人の契約情報を出向元へ漏えい",
+  "summary": "保険会社出向者が顧客1,052人の契約情報を出向元へ漏えい。",
+  "published_on": "2026-03-27",
+  "first_published_on": "2026-03-27",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "improper_handling",
+  "cause": {
+    "category": "improper_sharing",
+    "detail": "メットライフ生命からの出向者が銀行の契約情報を出向元へ渡した。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 1052,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表時点の対象規模。内数・重複・確度は注記参照。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "保険会社名",
+    "保険商品名",
+    "保険料"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.fukuokabank.co.jp/pdf/20260327_release.pdf",
+      "type": "official",
+      "title": "保険会社出向者が顧客1,052人の契約情報を出向元へ漏えい",
+      "published_on": "2026-03-27",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

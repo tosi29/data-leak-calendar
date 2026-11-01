@@ -1,0 +1,51 @@
+{
+  "id": "zetton-old-mail-20260327",
+  "organization": {
+    "name": "株式会社ゼットン",
+    "sector": "企業・団体"
+  },
+  "title": "旧メールシステムへの侵入で顧客情報18,553件に流出のおそれ",
+  "summary": "旧メールシステムへの侵入で顧客情報18,553件に流出のおそれ。",
+  "published_on": "2026-03-27",
+  "first_published_on": "2026-03-27",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "credentials",
+    "detail": "運用を終えた店舗の旧メールシステム2アカウントに不正アクセスされた。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 18553,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "公表時点の対象規模。内数・重複・確度は注記参照。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "電話番号",
+    "メールアドレス",
+    "アレルギー情報",
+    "予約内容"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.zetton.co.jp/news/20260327",
+      "type": "official",
+      "title": "旧メールシステムへの侵入で顧客情報18,553件に流出のおそれ",
+      "published_on": "2026-03-27",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

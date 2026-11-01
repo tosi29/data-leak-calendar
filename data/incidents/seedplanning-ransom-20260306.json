@@ -1,0 +1,46 @@
+{
+  "id": "seedplanning-ransom-20260306",
+  "organization": {
+    "name": "シード・プランニング",
+    "sector": "企業・団体"
+  },
+  "title": "ランサムウェア被害による個人情報流出の可能性を公表",
+  "summary": "ランサムウェア被害による個人情報流出の可能性を公表。",
+  "published_on": "2026-03-06",
+  "first_published_on": null,
+  "publication_kind": "followup",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。具体的な侵入経路は未公表または調査中。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "対象件数は未公表。"
+    }
+  ],
+  "data_types": [
+    "受託調査等の個人情報（具体的な範囲は委託元が別途公表）"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.seedplanning.co.jp/news/6249/",
+      "type": "official",
+      "title": "ランサムウェア被害による個人情報流出の可能性を公表",
+      "published_on": "2026-03-06",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": "3月2日に検知。初報タイトルは3月25日に個人情報流出の可能性を明記する表題へ変更された。取得本文は変更後。東京都等の公表対象と重複する。"
+}

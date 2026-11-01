@@ -1,0 +1,48 @@
+{
+  "id": "jrkyushu-group-network-20260119",
+  "organization": {
+    "name": "JR九州グループ",
+    "sector": "企業・団体"
+  },
+  "title": "グループ会社の従業員等14,638人の情報に漏えいのおそれ",
+  "summary": "グループ会社の従業員等14,638人の情報に漏えいのおそれ。",
+  "published_on": "2026-01-19",
+  "first_published_on": "2026-01-19",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。具体的な侵入経路は未公表または調査中。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": 14638,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表時点の対象規模。内数・重複・確度は注記参照。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "会社付与メールアドレス",
+    "PCログインID"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.jrkyushu.co.jp/news/__icsFiles/afieldfile/2026/01/19/20260119_noticeforthosewithexperienceworkingatjrkyushugroupcompanies.pdf",
+      "type": "official",
+      "title": "グループ会社の従業員等14,638人の情報に漏えいのおそれ",
+      "published_on": "2026-01-19",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": "JR九州本体を除くグループ58社の従業員・派遣・退職者。氏名等とログイン情報を別人数として加算しない。"
+}

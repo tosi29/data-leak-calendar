@@ -1,0 +1,50 @@
+{
+  "id": "asahikawa-welfare-disposal-20260114",
+  "organization": {
+    "name": "旭川市",
+    "sector": "自治体"
+  },
+  "title": "持ち帰った生活保護書類を家庭ごみへ廃棄し7人分の情報が流出",
+  "summary": "持ち帰った生活保護書類を家庭ごみへ廃棄し7人分の情報が流出。",
+  "published_on": "2026-01-14",
+  "first_published_on": "2026-01-14",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "improper_handling",
+  "cause": {
+    "category": "improper_sharing",
+    "detail": "職員が業務書類を自宅へ持ち帰り、ごみステーションへ廃棄した。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 7,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表時点の対象規模。内数・重複・確度は注記参照。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "生年月日",
+    "傷病名",
+    "生活保護申請・領収情報"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.city.asahikawa.hokkaido.jp/kurashi/135/189/190/d083235.html",
+      "type": "official",
+      "title": "持ち帰った生活保護書類を家庭ごみへ廃棄し7人分の情報が流出",
+      "published_on": "2026-01-14",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": "38書類が対象。7人と38件を合算しない。約180世帯は別途未支給等を調査する範囲で、漏えい人数ではない。"
+}

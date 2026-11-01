@@ -1,0 +1,48 @@
+{
+  "id": "btcbox-shared-material-20260205",
+  "organization": {
+    "name": "BTCボックス",
+    "sector": "企業・団体"
+  },
+  "title": "関係先で共有資料が第三者から閲覧可能になり顧客39人に影響",
+  "summary": "関係先で共有資料が第三者から閲覧可能になり顧客39人に影響。",
+  "published_on": "2026-02-05",
+  "first_published_on": "2026-02-05",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "exposed",
+  "incident_type": "accident",
+  "cause": {
+    "category": "configuration",
+    "detail": "新規取引を検討する関係先への資料共有過程で、関係先の取り扱いにより閲覧可能になった。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 39,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表時点の対象規模。内数・重複・確度は注記参照。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "電話番号",
+    "メールアドレス"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://blog.btcbox.jp/archives/18696",
+      "type": "official",
+      "title": "関係先で共有資料が第三者から閲覧可能になり顧客39人に影響",
+      "published_on": "2026-02-05",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": "暗号資産の不正流出や資産被害は未確認。"
+}

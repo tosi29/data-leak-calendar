@@ -1,0 +1,48 @@
+{
+  "id": "hokutobank-document-loss-20260203",
+  "organization": {
+    "name": "北都銀行",
+    "sector": "企業・団体"
+  },
+  "title": "7店舗で顧客推定2,855人分の整理口明細資料を紛失",
+  "summary": "7店舗で顧客推定2,855人分の整理口明細資料を紛失。",
+  "published_on": "2026-02-03",
+  "first_published_on": "2026-02-03",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "lost",
+  "incident_type": "accident",
+  "cause": {
+    "category": "loss",
+    "detail": "保存期間満了の別書類と混在して誤廃棄した可能性が高いと説明。",
+    "certainty": "suspected"
+  },
+  "impact": [
+    {
+      "count": 2855,
+      "unit": "people",
+      "qualifier": "approximate",
+      "description": "公表時点の対象規模。内数・重複・確度は注記参照。"
+    }
+  ],
+  "data_types": [
+    "カナ氏名",
+    "口座番号",
+    "残高"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.hokutobank.co.jp/cms_source/data/hokuto/info/files/20260203-1.pdf",
+      "type": "official",
+      "title": "7店舗で顧客推定2,855人分の整理口明細資料を紛失",
+      "published_on": "2026-02-03",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": "旧羽後銀行・旧秋田相互銀行時代の資料。現時点で外部流出・不正利用は未確認。"
+}

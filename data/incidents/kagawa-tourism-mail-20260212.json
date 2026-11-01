@@ -1,0 +1,46 @@
+{
+  "id": "kagawa-tourism-mail-20260212",
+  "organization": {
+    "name": "香川県観光協会",
+    "sector": "企業・団体"
+  },
+  "title": "県観光協会の担当者94人のメールアドレスを誤送信",
+  "summary": "県観光協会の担当者94人のメールアドレスを誤送信。",
+  "published_on": "2026-02-12",
+  "first_published_on": "2026-02-12",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "accident",
+  "cause": {
+    "category": "misdelivery",
+    "detail": "BCCではなくTOで補助金募集の案内を送信した。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 94,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表時点の対象規模。内数・重複・確度は注記参照。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.pref.kagawa.lg.jp/documents/59493/20260212_houdouteikyou.pdf",
+      "type": "official",
+      "title": "県観光協会の担当者94人のメールアドレスを誤送信",
+      "published_on": "2026-02-12",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

@@ -1,0 +1,53 @@
+{
+  "id": "whiteessence-meguree-20260306",
+  "organization": {
+    "name": "ホワイトエッセンス（歯科衛生士転職サイト「メグリー」）",
+    "sector": "企業・団体"
+  },
+  "title": "転職サイト「メグリー」への侵入で登録者情報に漏えいのおそれ",
+  "summary": "転職サイト「メグリー」への侵入で登録者情報に漏えいのおそれ。",
+  "published_on": "2026-03-06",
+  "first_published_on": "2026-03-06",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。具体的な侵入経路は未公表または調査中。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "対象件数は未公表。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "電話番号",
+    "メールアドレス",
+    "職歴",
+    "資格",
+    "ログインID",
+    "パスワード"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://whiteessence.co.jp/news/?action=detail&id=43&p=1",
+      "type": "official",
+      "title": "転職サイト「メグリー」への侵入で登録者情報に漏えいのおそれ",
+      "published_on": "2026-03-06",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": "2月18日に不審なファイル設置を確認。具体的な外部流出の形跡は未確認。"
+}

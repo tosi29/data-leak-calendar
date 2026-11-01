@@ -1,0 +1,47 @@
+{
+  "id": "nagoya-asfeel-mail-20260331",
+  "organization": {
+    "name": "名古屋市／アスフィール株式会社",
+    "sector": "企業・団体"
+  },
+  "title": "研修講師21人の情報を含むファイルを誤送信",
+  "summary": "研修講師21人の情報を含むファイルを誤送信。",
+  "published_on": "2026-03-31",
+  "first_published_on": "2026-03-31",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "accident",
+  "cause": {
+    "category": "misdelivery",
+    "detail": "委託先が送付先のメールアドレスを誤って送信した。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 21,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表時点の対象規模。内数・重複・確度は注記参照。"
+    }
+  ],
+  "data_types": [
+    "講師氏名",
+    "研修修了情報"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.city.nagoya.jp/houdou/pressr7/3002890/3004330.html",
+      "type": "official",
+      "title": "研修講師21人の情報を含むファイルを誤送信",
+      "published_on": "2026-03-31",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

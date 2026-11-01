@@ -6,12 +6,12 @@
   },
   "title": "ランサムウェア調査で受託業務等の個人情報に漏えいのおそれ",
   "summary": "3月9日の攻撃について調査結果を公表。ファイルサーバーの暗号化を確認したが、外部転送や情報流通は確認されていない。受託業務等の個人情報に漏えいのおそれがある。",
-  "published_on": "2026-06-12",
-  "first_published_on": null,
-  "publication_kind": "followup",
+  "published_on": "2026-03-17",
+  "first_published_on": "2026-03-17",
+  "publication_kind": "initial",
   "occurred_on": "2026-03-09",
   "detected_on": null,
-  "updated_on": "2026-10-25",
+  "updated_on": "2026-11-01",
   "verification": "official",
   "leak_status": "suspected",
   "incident_type": "attack",
@@ -63,8 +63,26 @@
       "title": "サイバー攻撃によるシステム障害発生について - 日本テレネット株式会社",
       "published_on": "2026-06-12",
       "checked_on": "2026-10-25"
+    },
+    {
+      "url": "https://www.nippon-tele.net/release/20260317_4599/",
+      "type": "official",
+      "title": "ランサムウェア被害で受託業務・従業員の情報にアクセスのおそれ",
+      "published_on": "2026-03-17",
+      "checked_on": "2026-11-01"
     }
   ],
-  "updates": [],
-  "notes": "CSS60.2万件、BPO40.4万件、顧客・取引先3.3万件、従業員・家族2,044件。区分間の重複不明のため独自の合計人数を作らない。"
+  "updates": [
+    {
+      "date": "2026-03-17",
+      "summary": "ランサムウェア被害で受託業務・従業員の情報にアクセスのおそれ。",
+      "source_index": 1
+    },
+    {
+      "date": "2026-06-12",
+      "source_index": 0,
+      "summary": "後続資料による調査結果を反映。本文の状態・対象範囲はこの続報を保持。"
+    }
+  ],
+  "notes": "CSS60.2万件、BPO40.4万件、顧客・取引先3.3万件、従業員・家族2,044件。区分間の重複不明のため独自の合計人数を作らない。 3月17日初報を追加。対象規模は6月12日の後続調査結果。"
 }

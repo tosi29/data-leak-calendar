@@ -1,0 +1,50 @@
+{
+  "id": "meijigakuin-teams-20260220",
+  "organization": {
+    "name": "明治学院大学",
+    "sector": "教育・研究"
+  },
+  "title": "Teams設定不備で学生の成績・履歴書等を含む922ファイルが学内閲覧可能に",
+  "summary": "Teams設定不備で学生の成績・履歴書等を含む922ファイルが学内閲覧可能に。",
+  "published_on": "2026-02-20",
+  "first_published_on": "2026-02-20",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "exposed",
+  "incident_type": "accident",
+  "cause": {
+    "category": "configuration",
+    "detail": "Teamsの共有範囲がチーム外の学内アカウント保持者に及んでいた。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 922,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "学内から閲覧可能だったファイル922件。人数ではない。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "学籍番号",
+    "メールアドレス",
+    "成績",
+    "履歴書記載事項"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.meijigakuin.ac.jp/news/05921.html",
+      "type": "official",
+      "title": "Teams設定不備で学生の成績・履歴書等を含む922ファイルが学内閲覧可能に",
+      "published_on": "2026-02-20",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": "922はファイル数で人数ではない。学生154人は閲覧した側の人数で被害人数ではない。"
+}

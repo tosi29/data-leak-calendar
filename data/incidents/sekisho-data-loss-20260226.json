@@ -1,0 +1,53 @@
+{
+  "id": "sekisho-data-loss-20260226",
+  "organization": {
+    "name": "関彰商事",
+    "sector": "企業・団体"
+  },
+  "title": "地域生活支援システムのバックアップ不備で約500人分の情報が滅失",
+  "summary": "地域生活支援システムのバックアップ不備で約500人分の情報が滅失。",
+  "published_on": "2026-02-26",
+  "first_published_on": "2026-02-26",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "lost",
+  "incident_type": "accident",
+  "cause": {
+    "category": "configuration",
+    "detail": "クラウド化時にバックアップ対象とは異なる保存先を設定し、障害後に復旧不能となった。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 500,
+      "unit": "people",
+      "qualifier": "approximate",
+      "description": "公表時点の対象規模。内数・重複・確度は注記参照。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "生年月日",
+    "性別",
+    "住所",
+    "電話番号",
+    "メールアドレス",
+    "相談記録",
+    "病歴"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.sekisho.co.jp/notice20260226",
+      "type": "official",
+      "title": "地域生活支援システムのバックアップ不備で約500人分の情報が滅失",
+      "published_on": "2026-02-26",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": "2025年9月26日～2026年2月6日の入力情報。委託元は東海村社会福祉協議会。外部流出・不正使用は未確認。"
+}

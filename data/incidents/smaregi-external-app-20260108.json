@@ -22,10 +22,16 @@
   },
   "impact": [
     {
-      "count": null,
+      "count": 136346,
       "unit": "records",
-      "qualifier": "unknown",
-      "description": "対象件数は未公表。"
+      "qualifier": "exact",
+      "description": "氏名。スマレジ1月13日公表時点。"
+    },
+    {
+      "count": 114951,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "電話番号。氏名と重複があるため合算しない。"
     }
   ],
   "data_types": [
@@ -39,8 +45,21 @@
       "title": "スマレジの不正アクセス・情報漏えい（2026年1月8日）",
       "published_on": "2026-01-08",
       "checked_on": "2026-11-01"
+    },
+    {
+      "url": "https://corp.smaregi.jp/news/press/20260113.php",
+      "type": "official",
+      "title": "外部アプリの個人情報流出（続報）",
+      "published_on": "2026-01-13",
+      "checked_on": "2026-11-01"
     }
   ],
-  "updates": [],
-  "notes": "スマレジ自社サーバーの流出は未確認。coastlineの公表と対象が重複する。9月のスマレジEC事案とは別件。 初報または明記した公表資料時点の記録。今回取得した後続資料をすべて精査したものではない。"
+  "updates": [
+    {
+      "date": "2026-01-13",
+      "summary": "連携8社の氏名136,346件、電話番号114,951件の影響を公表。",
+      "source_index": 1
+    }
+  ],
+  "notes": "スマレジ自社サーバーの流出は未確認。coastlineの公表と対象が重複する。9月のスマレジEC事案とは別件。 初報または明記した公表資料時点の記録。今回取得した後続資料をすべて精査したものではない。 1月13日の続報を追加。件数は当時の調査範囲で、提供元の3月最終報とは異なる。"
 }

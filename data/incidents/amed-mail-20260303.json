@@ -1,0 +1,46 @@
+{
+  "id": "amed-mail-20260303",
+  "organization": {
+    "name": "日本医療研究開発機構（AMED）",
+    "sector": "企業・団体"
+  },
+  "title": "研究開発関係者のメールアドレス459件を誤送信",
+  "summary": "研究開発関係者のメールアドレス459件を誤送信。",
+  "published_on": "2026-03-03",
+  "first_published_on": "2026-03-03",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "accident",
+  "cause": {
+    "category": "misdelivery",
+    "detail": "BCCではなくTOで一斉送信した。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 459,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "公表時点の対象規模。内数・重複・確度は注記参照。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.amed.go.jp/news/other/20260303.html",
+      "type": "official",
+      "title": "研究開発関係者のメールアドレス459件を誤送信",
+      "published_on": "2026-03-03",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": "うち279件が個人を特定しうるアドレス。内数のため合算しない。"
+}

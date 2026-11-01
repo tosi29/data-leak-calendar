@@ -1,0 +1,47 @@
+{
+  "id": "fukuoka-club-list-loss-20260303",
+  "organization": {
+    "name": "福岡市放課後児童クラブ",
+    "sector": "企業・団体"
+  },
+  "title": "新入会児童44人の手書き資料を帰宅途中に一時紛失",
+  "summary": "新入会児童44人の手書き資料を帰宅途中に一時紛失。",
+  "published_on": "2026-03-03",
+  "first_published_on": "2026-03-03",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "lost",
+  "incident_type": "accident",
+  "cause": {
+    "category": "loss",
+    "detail": "自宅作業のため持ち帰る途中で資料を紛失した。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 44,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表時点の対象規模。内数・重複・確度は注記参照。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "誕生日"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.city.fukuoka.lg.jp/shisei/kouhou-hodo/hodo-happyo/2025/documents/20260303hokagojidoculb_.pdf",
+      "type": "official",
+      "title": "新入会児童44人の手書き資料を帰宅途中に一時紛失",
+      "published_on": "2026-03-03",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": "3月2日に友人が駅付近で資料一式を発見。"
+}

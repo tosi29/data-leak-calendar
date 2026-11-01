@@ -1,0 +1,51 @@
+{
+  "id": "fundex-aoyama-20260310",
+  "organization": {
+    "name": "セゾンファンデックス",
+    "sector": "企業・団体"
+  },
+  "title": "賃貸管理委託先の侵害でリースバック契約者等の個人情報に影響",
+  "summary": "賃貸管理委託先の侵害でリースバック契約者等の個人情報に影響。",
+  "published_on": "2026-03-10",
+  "first_published_on": "2026-03-10",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。具体的な侵入経路は未公表または調査中。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "対象件数は未公表。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "生年月日",
+    "住所",
+    "電話番号",
+    "物件情報",
+    "緊急連絡先情報"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.fundex.co.jp/news/pdf/20260310_FUNDEX_notice.pdf",
+      "type": "official",
+      "title": "賃貸管理委託先の侵害でリースバック契約者等の個人情報に影響",
+      "published_on": "2026-03-10",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": "委託先は青山メイン企画。閲覧し得る状態を法令上の漏えいと評価する一方、実際の取得・不正使用は未確認で対象範囲は調査中。提供元公表と人数は合算しない。"
+}

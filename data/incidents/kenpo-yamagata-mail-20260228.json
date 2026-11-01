@@ -1,0 +1,47 @@
+{
+  "id": "kenpo-yamagata-mail-20260228",
+  "organization": {
+    "name": "全国健康保険協会山形支部（委託先）",
+    "sector": "企業・団体"
+  },
+  "title": "特定保健指導の委託先が加入者6人分の情報を別事業所へ誤送信",
+  "summary": "特定保健指導の委託先が加入者6人分の情報を別事業所へ誤送信。",
+  "published_on": "2026-02-28",
+  "first_published_on": "2026-02-28",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "accident",
+  "cause": {
+    "category": "misdelivery",
+    "detail": "対象者データの登録・照合手順を守らず別事業所のメールアドレスで送信した。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 6,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表時点の対象規模。内数・重複・確度は注記参照。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "勤務先等"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.kyoukaikenpo.or.jp/shibu/yamagata/disclosure/administrative_processing_error/r07/518.html",
+      "type": "official",
+      "title": "特定保健指導の委託先が加入者6人分の情報を別事業所へ誤送信",
+      "published_on": "2026-02-28",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

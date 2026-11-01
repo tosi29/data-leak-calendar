@@ -1,0 +1,49 @@
+{
+  "id": "komae-election-sd-20260213",
+  "organization": {
+    "name": "狛江市選挙管理委員会",
+    "sector": "企業・団体"
+  },
+  "title": "選挙人名簿照合用SDカード5枚を紛失",
+  "summary": "選挙人名簿照合用SDカード5枚を紛失。",
+  "published_on": "2026-02-13",
+  "first_published_on": "2026-02-13",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "lost",
+  "incident_type": "accident",
+  "cause": {
+    "category": "loss",
+    "detail": "選挙用品整理の過程で紛失または誤廃棄したと推測される。",
+    "certainty": "suspected"
+  },
+  "impact": [
+    {
+      "count": 69244,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表時点の対象規模。内数・重複・確度は注記参照。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "生年月日",
+    "性別"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.city.komae.tokyo.jp/index.cfm/4%2C142012%2C143%2Chtml",
+      "type": "official",
+      "title": "選挙人名簿照合用SDカード5枚を紛失",
+      "published_on": "2026-02-13",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": "全市69,244人を含むカード2枚と投票区別カード3枚。重複するため枚数倍や区別人数を加算しない。専用システム・パスワードで保護。"
+}
