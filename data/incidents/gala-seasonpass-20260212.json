@@ -1,0 +1,48 @@
+{
+  "id": "gala-seasonpass-20260212",
+  "organization": {
+    "name": "ガーラ湯沢",
+    "sector": "企業・団体"
+  },
+  "title": "シーズンパスポート購入者最大1,518人の情報に漏えいのおそれ",
+  "summary": "シーズンパスポート購入者最大1,518人の情報に漏えいのおそれ。",
+  "published_on": "2026-02-12",
+  "first_published_on": "2026-02-12",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。具体的な侵入経路は未公表または調査中。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": 1518,
+      "unit": "people",
+      "qualifier": "maximum",
+      "description": "公表資料時点の対象規模。人数・件数を区別し、漏えいの確度は記録の状態を参照。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "電話番号"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://gala.co.jp/cmsw/wp-content/uploads/2026/02/4d9ec3b44f7b4d83e237592fec8655f4.pdf",
+      "type": "official",
+      "title": "株式会社ガーラ湯沢の不正アクセス・情報漏えい（2026年2月12日）",
+      "published_on": "2026-02-12",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": "2020年12月16日～2026年2月1日の購入者。公表時点で持ち出し痕跡は未確認。外部アクセス用ルーターの設定不備を確認。 初報または明記した公表資料時点の記録。今回取得した後続資料をすべて精査したものではない。"
+}

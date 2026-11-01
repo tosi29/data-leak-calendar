@@ -1,0 +1,49 @@
+{
+  "id": "soumu-survey-display-20260206",
+  "organization": {
+    "name": "総務省",
+    "sector": "企業・団体"
+  },
+  "title": "放送コンテンツ取引調査で別の回答者の情報が表示",
+  "summary": "放送コンテンツ取引調査で別の回答者の情報が表示。",
+  "published_on": "2026-02-06",
+  "first_published_on": "2026-02-06",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "accident",
+  "cause": {
+    "category": "configuration",
+    "detail": "受託者が回答サイトのログイン管理設定を誤った。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "対象件数は未公表。"
+    }
+  ],
+  "data_types": [
+    "担当者氏名",
+    "電話番号",
+    "メールアドレス",
+    "企業情報を含む回答内容"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.soumu.go.jp/menu_news/s-news/01ryutsu04_02000246.html",
+      "type": "official",
+      "title": "総務省の設定ミスによる情報漏えい（2026年2月6日）",
+      "published_on": "2026-02-06",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": " 初報または明記した公表資料時点の記録。今回取得した後続資料をすべて精査したものではない。"
+}

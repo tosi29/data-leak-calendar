@@ -1,0 +1,48 @@
+{
+  "id": "eneos-globe-enesance-20260114",
+  "organization": {
+    "name": "ENEOSグローブエナジー",
+    "sector": "企業・団体"
+  },
+  "title": "LPガス配送委託先の被害で約1,300件の顧客情報に漏えいのおそれ",
+  "summary": "LPガス配送委託先の被害で約1,300件の顧客情報に漏えいのおそれ。",
+  "published_on": "2026-01-14",
+  "first_published_on": "2026-01-14",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。具体的な侵入経路は未公表または調査中。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": 1300,
+      "unit": "records",
+      "qualifier": "approximate",
+      "description": "公表資料時点の対象規模。人数・件数を区別し、漏えいの確度は記録の状態を参照。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "電話番号"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://eg-energy.jp/cms/wp-content/uploads/2026/01/a552f85ed8b37d04d022012899accefb.pdf",
+      "type": "official",
+      "title": "ENEOSグローブエナジー株式会社の不正アクセス・情報漏えい（2026年1月14日）",
+      "published_on": "2026-01-14",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": "エネサンス北海道・エネサンス関東への配送委託。北海道・神奈川県の一部。カード・口座・ガス料金は含まれない。 初報または明記した公表資料時点の記録。今回取得した後続資料をすべて精査したものではない。"
+}

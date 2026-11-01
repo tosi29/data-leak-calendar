@@ -11,7 +11,7 @@
   "publication_kind": "followup",
   "occurred_on": null,
   "detected_on": "2026-02-03",
-  "updated_on": "2026-05-21",
+  "updated_on": "2026-11-01",
   "verification": "official",
   "leak_status": "confirmed",
   "incident_type": "attack",
@@ -39,8 +39,15 @@
       "title": "情報漏えいに関する調査結果および今後の取り組みについて（第6報）",
       "published_on": "2026-05-21",
       "checked_on": "2026-10-27"
+    },
+    {
+      "url": "https://www.anabuki-housing.co.jp/news/content.php?news_id=512",
+      "type": "official",
+      "title": "株式会社穴吹ハウジングサービスの不正アクセス・情報漏えい（2026年2月3日）",
+      "published_on": "2026-02-03",
+      "checked_on": "2026-11-01"
     }
   ],
   "updates": [],
-  "notes": "公式本文を検索経由で確認。以前の最大約49万6千件から対象範囲を精査した数値であり追加被害として加算しない。"
+  "notes": "公式本文を検索経由で確認。以前の最大約49万6千件から対象範囲を精査した数値であり追加被害として加算しない。 2月3日の公式初報はランサムウェア被害と情報流出の調査段階。具体的な個人情報対象の公表がある既存の5月21日掲載を維持。"
 }

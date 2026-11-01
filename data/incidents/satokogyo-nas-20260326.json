@@ -1,0 +1,61 @@
+{
+  "id": "satokogyo-nas-20260326",
+  "organization": {
+    "name": "佐藤工業",
+    "sector": "企業・団体"
+  },
+  "title": "作業所NASの本人・緊急連絡先情報に漏えいのおそれ",
+  "summary": "作業所NASの本人・緊急連絡先情報に漏えいのおそれ。",
+  "published_on": "2026-03-26",
+  "first_published_on": "2026-03-26",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。具体的な侵入経路は未公表または調査中。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": 1850,
+      "unit": "records",
+      "qualifier": "approximate",
+      "description": "本人情報。"
+    },
+    {
+      "count": 1750,
+      "unit": "records",
+      "qualifier": "approximate",
+      "description": "緊急連絡先情報。"
+    }
+  ],
+  "data_types": [
+    "氏名・ふりがな",
+    "性別",
+    "職種",
+    "経験年数",
+    "生年月日",
+    "年齢",
+    "血液型",
+    "電話番号",
+    "住所",
+    "緊急連絡先・本人との関係"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.satokogyo.co.jp/up_data/1774410486.pdf",
+      "type": "official",
+      "title": "佐藤工業株式会社の不正アクセス・情報漏えい（2026年3月26日）",
+      "published_on": "2026-03-26",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": "作業所外からアクセスできる設定が侵入に関係したと推測。本人情報と緊急連絡先を人数として合算しない。 初報または明記した公表資料時点の記録。今回取得した後続資料をすべて精査したものではない。"
+}

@@ -1,0 +1,70 @@
+{
+  "id": "softbank-proxy-20260127",
+  "organization": {
+    "name": "ソフトバンク",
+    "sector": "企業・団体"
+  },
+  "title": "My SoftBank等で他人の情報表示・メッセージ誤配送が発生",
+  "summary": "My SoftBank等で他人の情報表示・メッセージ誤配送が発生。",
+  "published_on": "2026-01-27",
+  "first_published_on": "2026-01-27",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "accident",
+  "cause": {
+    "category": "configuration",
+    "detail": "プロキシーサーバーのソフトウェア不具合とネットワーク設定変更で、利用者を他人として取り扱う状態が発生。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 2019,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "My SoftBank等の認証事象。"
+    },
+    {
+      "count": 2209,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "MMS送信元の入れ替わり。"
+    },
+    {
+      "count": 1906,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "他人宛てMMSの受信。"
+    },
+    {
+      "count": 2241,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "＋メッセージのアカウント入れ替わり。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "生年月日",
+    "電話番号",
+    "契約内容",
+    "請求金額",
+    "メール・メッセージ情報"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.softbank.jp/corp/news/press/sbkk/2026/20260127_02/",
+      "type": "official",
+      "title": "ソフトバンク株式会社のセキュリティ事案（2026年1月27日）",
+      "published_on": "2026-01-27",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": "1月13～17日の4事象の影響はそれぞれ2,019件、2,209件、1,906件、2,241件。重複不明のため合算しない。13日以前も最大200件の影響を見積もる。 初報または明記した公表資料時点の記録。今回取得した後続資料をすべて精査したものではない。"
+}

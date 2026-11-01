@@ -1,0 +1,47 @@
+{
+  "id": "cocoloni-account-20260121",
+  "organization": {
+    "name": "cocoloni",
+    "sector": "企業・団体"
+  },
+  "title": "メールアドレスと暗号化済みパスワードが流出",
+  "summary": "メールアドレスと暗号化済みパスワードが流出。",
+  "published_on": "2026-01-21",
+  "first_published_on": "2026-01-21",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。具体的な侵入経路は未公表または調査中。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "対象件数は未公表。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス",
+    "暗号化済みパスワード"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://cocoloni.com/wp-content/uploads/2026/01/%E9%87%8D%E8%A6%81%E3%81%AA%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B.pdf",
+      "type": "official",
+      "title": "株式会社cocoloniの不正アクセス・情報漏えい（2026年1月21日）",
+      "published_on": "2026-01-21",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": "不正アクセス期間は2025年11月27日～12月13日。12月13日に流出の可能性を把握。 初報または明記した公表資料時点の記録。今回取得した後続資料をすべて精査したものではない。"
+}

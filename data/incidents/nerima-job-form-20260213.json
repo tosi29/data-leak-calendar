@@ -1,0 +1,49 @@
+{
+  "id": "nerima-job-form-20260213",
+  "organization": {
+    "name": "練馬区",
+    "sector": "自治体"
+  },
+  "title": "就活生イベントの応募者217人の情報が閲覧可能に",
+  "summary": "就活生イベントの応募者217人の情報が閲覧可能に。",
+  "published_on": "2026-02-13",
+  "first_published_on": "2026-02-13",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "exposed",
+  "incident_type": "accident",
+  "cause": {
+    "category": "configuration",
+    "detail": "応募フォームの設定誤りで他の応募者の情報が閲覧可能になった。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 217,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表資料時点の対象規模。人数・件数を区別し、漏えいの確度は記録の状態を参照。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "メールアドレス",
+    "居住市区町村",
+    "在学・就業状況"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.city.nerima.tokyo.jp/kusei/koho/hodo/r8/r802/20260213.files/20260213.pdf",
+      "type": "official",
+      "title": "練馬区の設定ミスによる情報漏えい（2026年2月13日）",
+      "published_on": "2026-02-13",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": "2月4日に発覚・設定修正。5日に応募者へ謝罪メール。 初報または明記した公表資料時点の記録。今回取得した後続資料をすべて精査したものではない。"
+}

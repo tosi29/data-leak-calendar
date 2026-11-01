@@ -1,0 +1,46 @@
+{
+  "id": "tombow-ransom-20260120",
+  "organization": {
+    "name": "トンボ飲料",
+    "sector": "企業・団体"
+  },
+  "title": "ランサムウェア被害で仕入先情報の流出を確認",
+  "summary": "ランサムウェア被害で仕入先情報の流出を確認。",
+  "published_on": "2026-01-20",
+  "first_published_on": "2026-01-20",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。具体的な侵入経路は未公表または調査中。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "対象件数は未公表。"
+    }
+  ],
+  "data_types": [
+    "仕入先の銀行口座情報"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.tombow-oem.jp/934/",
+      "type": "official",
+      "title": "株式会社トンボ飲料の不正アクセス・情報漏えい（2026年1月20日）",
+      "published_on": "2026-01-20",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": "1月15日に被害。仕入先情報の一部流出を確認し、口座情報の具体的な範囲等は調査中。販売先は含まれない。 初報または明記した公表資料時点の記録。今回取得した後続資料をすべて精査したものではない。"
+}

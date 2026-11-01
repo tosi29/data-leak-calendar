@@ -1,0 +1,49 @@
+{
+  "id": "got-reader-survey-20260126",
+  "organization": {
+    "name": "ジーオーティー",
+    "sector": "企業・団体"
+  },
+  "title": "成年漫画雑誌の読者アンケート情報に流出のおそれ",
+  "summary": "成年漫画雑誌の読者アンケート情報に流出のおそれ。",
+  "published_on": "2026-01-26",
+  "first_published_on": "2026-01-26",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。具体的な侵入経路は未公表または調査中。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "対象件数は未公表。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "性別",
+    "年齢"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://gotbb.jp/news.php?id=1",
+      "type": "official",
+      "title": "株式会社ジーオーティーの不正アクセス・情報漏えい（2026年1月26日）",
+      "published_on": "2026-01-26",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": "2016年4月～2025年6月の対象雑誌アンケート。データベース破損で復旧困難と説明。カード・銀行口座は取得していない。 初報または明記した公表資料時点の記録。今回取得した後続資料をすべて精査したものではない。"
+}

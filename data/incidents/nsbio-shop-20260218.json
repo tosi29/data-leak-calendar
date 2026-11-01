@@ -1,0 +1,52 @@
+{
+  "id": "nsbio-shop-20260218",
+  "organization": {
+    "name": "NSバイオジャパン",
+    "sector": "企業・団体"
+  },
+  "title": "管理アカウントへの不正アクセスで顧客情報40件が漏えい",
+  "summary": "管理アカウントへの不正アクセスで顧客情報40件が漏えい。",
+  "published_on": "2026-02-18",
+  "first_published_on": null,
+  "publication_kind": "followup",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "credentials",
+    "detail": "フィッシングで管理アカウントのログインID・パスワードが窃取された。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 40,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "公表資料時点の対象規模。人数・件数を区別し、漏えいの確度は記録の状態を参照。"
+    }
+  ],
+  "data_types": [
+    "顧客ID",
+    "氏名",
+    "郵便番号",
+    "住所",
+    "電話番号",
+    "メールアドレス",
+    "プライバシーポリシー同意状況"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://nsbj.jp/information_leakage_20260218/",
+      "type": "official",
+      "title": "NSバイオジャパン株式会社の不正アクセス・情報漏えい（2026年2月18日）",
+      "published_on": "2026-02-18",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": "第二報の18日公表、25日追記を確認。初報日は未特定。40件には本人重複の可能性。カード情報・会員ログインパスワードは対象外。 初報または明記した公表資料時点の記録。今回取得した後続資料をすべて精査したものではない。"
+}

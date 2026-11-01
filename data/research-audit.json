@@ -35230,6 +35230,87 @@
       ],
       "report": "docs/research-2026-11-01-week-review.md",
       "audit": "data/research-2026-11-01-week-review.json"
+    },
+    {
+      "checked_on": "2026-11-01",
+      "coverage_start": "2026-01-01",
+      "coverage_end": "2026-03-31",
+      "scope": "1～3月の初回遡及収集と掲載範囲拡張",
+      "stats": {
+        "baseline_incidents": 1817,
+        "added_incidents": 33,
+        "updated_incidents": 6,
+        "total_incidents": 1850,
+        "new_candidates": 1,
+        "pending_candidates": 75,
+        "reviewed_cases": 41,
+        "monthly_publications": {
+          "2026-01": 13,
+          "2026-02": 14,
+          "2026-03": 11
+        }
+      },
+      "added_incident_ids": [
+        "softbank-proxy-20260127",
+        "ja-kyosai-cross-access-20260127",
+        "got-reader-survey-20260126",
+        "ebara-club-display-20260123",
+        "cocoloni-account-20260121",
+        "tombow-ransom-20260120",
+        "eneos-globe-enesance-20260114",
+        "coastline-smaregi-app-20260110",
+        "smaregi-external-app-20260108",
+        "tmu-google-account-20260107",
+        "fabric-tokyo-display-20260219",
+        "nsbio-shop-20260218",
+        "nerima-job-form-20260213",
+        "tokyo-rekiken-form-20260213",
+        "nms-kosugi-ransom-20260213",
+        "harima-us-ransom-20260213",
+        "sekaimon-server-20260213",
+        "gala-seasonpass-20260212",
+        "mynavi-cloud-20260212",
+        "nittai-ntrading-20260209",
+        "saison-tech-storage-20260209",
+        "soumu-survey-display-20260206",
+        "beautygarage-card-concern-20260206",
+        "athome-moving-20260205",
+        "carstation-insurance-20260330",
+        "satokogyo-nas-20260326",
+        "osaka-marathon-volunteer-20260325",
+        "sakura-kogyo-phishing-20260320",
+        "budo-vendor-20260318",
+        "tokyo-water-seed-20260306",
+        "kanehara-rinken-20260303",
+        "shiraume-toyooka-ransom-20260303",
+        "kyoto-np-47club-20260302"
+      ],
+      "updated_incident_ids": [
+        "aoyama-main-ransom-20260406",
+        "bonform-ec-followup-20260427",
+        "kansai-washington-booking-20260430",
+        "medica-ransom-20260513",
+        "murata-it-followup-20260406",
+        "anabuki-housing-20260521"
+      ],
+      "new_candidate_ids": [
+        "q1-jal-20260210"
+      ],
+      "method": [
+        "2026年1月・2月・3月と個人情報漏えい／漏洩を組み合わせた検索から月別索引を探索。Seoryの月別13・16・12事案（計41事案）を公式出典へ遡って確認。",
+        "公式資料87 URLを取得。掲載判定では各事案の初回資料を読み、日付のないHTMLは公開日時メタデータも確認。後続87資料の全記述を精査したものではない。",
+        "既存記録との出典・組織・対象システムの重複を確認。5件は既存ID・後続調査結果を保って初報日へ移動し、1件は初報出典のみ補強。",
+        "本文の公表日を優先。東京都の2月13日資料をURL中の16日と混同せず、JA共済連もURLの26日ではなく27日を採用。"
+      ],
+      "limitations": [
+        "今回の初回収集は月別索引41事案が中心であり、1～3月の全事案の網羅を保証しない。特に誤送付・紛失等の小規模事故には追加調査の余地がある。",
+        "新規記録の状態・対象規模は明記した公表資料時点。取得した全続報や11月1日時点の最新状況までの網羅的な追跡ではない。",
+        "武蔵小杉病院は2月13日第1報時点の約1万人。後続の約13万人等を確認なしに混ぜない。スマレジは自社システムと外部アプリ提供元を区別し、両社の対象者を合算しない。",
+        "初報日不明のNSバイオジャパンは2月18日第2報として掲載。日本航空の2月公表は保存版が空本文で保留。丸高興業は3月HTMLの対象本文を確認できず既存7月掲載を維持。",
+        "Clipmasterの1～3月URLは取得できず。検索で見つかったScanNetSecurity等の記事日を公式公表日として大量転記しない。"
+      ],
+      "report": "docs/research-2026-q1.md",
+      "audit": "data/research-2026-q1.json"
     }
   ]
 }

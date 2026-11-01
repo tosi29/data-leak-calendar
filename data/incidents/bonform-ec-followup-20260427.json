@@ -6,12 +6,12 @@
   },
   "title": "通販サイト侵害でカード情報等に漏えいのおそれ",
   "summary": "決済ページの改ざんが判明し、カード決済利用者や会員情報への影響を公表。",
-  "published_on": "2026-04-27",
+  "published_on": "2026-01-16",
   "first_published_on": "2026-01-16",
-  "publication_kind": "followup",
+  "publication_kind": "initial",
   "occurred_on": "2021-03-25",
   "detected_on": "2026-01-14",
-  "updated_on": "2026-10-26",
+  "updated_on": "2026-11-01",
   "verification": "official",
   "leak_status": "suspected",
   "incident_type": "attack",
@@ -56,8 +56,15 @@
       "type": "official",
       "published_on": "2026-04-27",
       "checked_on": "2026-10-26"
+    },
+    {
+      "url": "https://www.bonform.co.jp/ec_site/information/detail/137",
+      "type": "official",
+      "title": "株式会社ボンフォームの不正アクセス・情報漏えい（2026年1月16日）",
+      "published_on": "2026-01-16",
+      "checked_on": "2026-11-01"
     }
   ],
   "updates": [],
-  "notes": "カードの人数・件数・会員内数を合算しない。対象期間は2021年3月25日〜2024年11月8日。購入に至らなかった入力分はカード番号を特定できていない。"
+  "notes": "カードの人数・件数・会員内数を合算しない。対象期間は2021年3月25日〜2024年11月8日。購入に至らなかった入力分はカード番号を特定できていない。 1～3月の収集範囲拡張により初報2026-01-16を確認し、掲載日を2026-04-27から変更。IDと後日の調査結果は保持。"
 }

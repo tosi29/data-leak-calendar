@@ -1,0 +1,47 @@
+{
+  "id": "sakura-kogyo-phishing-20260320",
+  "organization": {
+    "name": "サクラ工業",
+    "sector": "企業・団体"
+  },
+  "title": "フィッシングによるメール侵害で取引先等の情報に漏えいのおそれ",
+  "summary": "フィッシングによるメール侵害で取引先等の情報に漏えいのおそれ。",
+  "published_on": "2026-03-20",
+  "first_published_on": "2026-03-20",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "credentials",
+    "detail": "海外拠点社員がフィッシングメールをクリックしメールアカウントへ不正ログインされた。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "対象件数は未公表。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "メールアドレス"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.sakura-kogyo.co.jp/wp-content/uploads/2026/03/%E5%85%AC%E8%A1%A8%E6%96%871.pdf",
+      "type": "official",
+      "title": "サクラ工業株式会社の不正アクセス・情報漏えい（2026年3月20日）",
+      "published_on": "2026-03-20",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": "2025年の被害の調査結果を公表。ダークウェブ等への漏えいは確認されなかったが、漏えい可能性を否定したわけではない。 初報または明記した公表資料時点の記録。今回取得した後続資料をすべて精査したものではない。"
+}

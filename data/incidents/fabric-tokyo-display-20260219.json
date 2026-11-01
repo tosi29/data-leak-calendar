@@ -1,0 +1,46 @@
+{
+  "id": "fabric-tokyo-display-20260219",
+  "organization": {
+    "name": "FABRIC TOKYO",
+    "sector": "企業・団体"
+  },
+  "title": "ECサイトで別の顧客の情報が表示される不具合",
+  "summary": "ECサイトで別の顧客の情報が表示される不具合。",
+  "published_on": "2026-02-19",
+  "first_published_on": "2026-02-19",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "accident",
+  "cause": {
+    "category": "configuration",
+    "detail": "商品詳細ページのシステム設定不備。外部攻撃ではないと説明。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "対象件数は未公表。"
+    }
+  ],
+  "data_types": [
+    "顧客情報（具体的項目は未公表）"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://fabric-tokyo.com/news/show/20260219-to-all-customers",
+      "type": "official",
+      "title": "FABRIC TOKYOの設定ミスによる情報漏えい（2026年2月19日）",
+      "published_on": "2026-02-19",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": "2月18日18時30分頃～23時頃の約4時間30分。 初報または明記した公表資料時点の記録。今回取得した後続資料をすべて精査したものではない。"
+}

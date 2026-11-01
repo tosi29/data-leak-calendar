@@ -1,0 +1,48 @@
+{
+  "id": "ebara-club-display-20260123",
+  "organization": {
+    "name": "エバラ食品工業",
+    "sector": "企業・団体"
+  },
+  "title": "エバラCLUBで別の会員の個人情報を表示",
+  "summary": "エバラCLUBで別の会員の個人情報を表示。",
+  "published_on": "2026-01-23",
+  "first_published_on": "2026-01-23",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "accident",
+  "cause": {
+    "category": "unknown",
+    "detail": "会員サイトのシステムトラブル。公表時点で原因調査中。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "対象件数は未公表。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "電話番号"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.ebarafoods.com/company/newsrelease_20260123_34.pdf",
+      "type": "official",
+      "title": "エバラ食品工業株式会社の設定ミスによる情報漏えい（2026年1月23日）",
+      "published_on": "2026-01-23",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": "1月22日16時頃に確認しアクセスを停止。金融機関情報は保有していない。 初報または明記した公表資料時点の記録。今回取得した後続資料をすべて精査したものではない。"
+}

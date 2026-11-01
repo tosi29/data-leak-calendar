@@ -1,0 +1,46 @@
+{
+  "id": "harima-us-ransom-20260213",
+  "organization": {
+    "name": "ハリマ化成グループ（米国子会社）",
+    "sector": "企業・団体"
+  },
+  "title": "米国子会社への攻撃で従業員等14人の情報に流出のおそれ",
+  "summary": "米国子会社への攻撃で従業員等14人の情報に流出のおそれ。",
+  "published_on": "2026-02-13",
+  "first_published_on": "2026-02-13",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。具体的な侵入経路は未公表または調査中。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": 14,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表資料時点の対象規模。人数・件数を区別し、漏えいの確度は記録の状態を参照。"
+    }
+  ],
+  "data_types": [
+    "従業員・退職者の個人情報（詳細項目は未公表）"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.harima.co.jp/newsroom/2026/0213130000.html",
+      "type": "official",
+      "title": "Harima USA, Inc.、Harimatec Inc.の不正アクセス・情報漏えい（2026年2月13日）",
+      "published_on": "2026-02-13",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": "Harima USA・Harimatecの共同公表。2月3日に流出の可能性を確認。 初報または明記した公表資料時点の記録。今回取得した後続資料をすべて精査したものではない。"
+}

@@ -1,0 +1,50 @@
+{
+  "id": "budo-vendor-20260318",
+  "organization": {
+    "name": "国際武道大学",
+    "sector": "企業・団体"
+  },
+  "title": "IT保守委託先への攻撃で卒業生約120人の情報が漏えい",
+  "summary": "IT保守委託先への攻撃で卒業生約120人の情報が漏えい。",
+  "published_on": "2026-03-18",
+  "first_published_on": "2026-03-18",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。具体的な侵入経路は未公表または調査中。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": 120,
+      "unit": "people",
+      "qualifier": "approximate",
+      "description": "公表資料時点の対象規模。人数・件数を区別し、漏えいの確度は記録の状態を参照。"
+    }
+  ],
+  "data_types": [
+    "学籍番号",
+    "氏名・カナ",
+    "生年月日",
+    "電話番号",
+    "住所"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.budo-u.ac.jp/news/2026/03/post_328.html",
+      "type": "official",
+      "title": "国際武道大学の不正アクセス・情報漏えい（2026年3月18日）",
+      "published_on": "2026-03-18",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": "2019年度介護等体験履修者。2025年11月の委託先侵害後、2026年2月16日に大学へ流出報告。委託先名は未公表。 初報または明記した公表資料時点の記録。今回取得した後続資料をすべて精査したものではない。"
+}

@@ -1,0 +1,51 @@
+{
+  "id": "nms-kosugi-ransom-20260213",
+  "organization": {
+    "name": "日本医科大学武蔵小杉病院",
+    "sector": "企業・団体"
+  },
+  "title": "ナースコールシステムへの攻撃で患者約1万人の情報が漏えい",
+  "summary": "ナースコールシステムへの攻撃で患者約1万人の情報が漏えい。",
+  "published_on": "2026-02-13",
+  "first_published_on": "2026-02-13",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。具体的な侵入経路は未公表または調査中。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": 10000,
+      "unit": "people",
+      "qualifier": "approximate",
+      "description": "公表資料時点の対象規模。人数・件数を区別し、漏えいの確度は記録の状態を参照。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "性別",
+    "住所",
+    "電話番号",
+    "生年月日",
+    "患者ID"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.nms.ac.jp/kosugi-h/news/_28830.html",
+      "type": "official",
+      "title": "日本医科大学武蔵小杉病院の不正アクセス・情報漏えい（2026年2月13日）",
+      "published_on": "2026-02-13",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": "第1報時点の約1万人。後続の対象拡大は今回の数値へ自動適用していない。保守用VPN装置を侵入経路と確認。電子カルテ等の他システムの影響とは区別。 初報または明記した公表資料時点の記録。今回取得した後続資料をすべて精査したものではない。"
+}

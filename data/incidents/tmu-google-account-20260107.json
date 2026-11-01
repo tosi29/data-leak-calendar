@@ -1,0 +1,50 @@
+{
+  "id": "tmu-google-account-20260107",
+  "organization": {
+    "name": "東京都立大学",
+    "sector": "自治体"
+  },
+  "title": "教員のGoogleアカウントへの侵入で申込情報等に流出のおそれ",
+  "summary": "教員のGoogleアカウントへの侵入で申込情報等に流出のおそれ。",
+  "published_on": "2026-01-07",
+  "first_published_on": "2026-01-07",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。具体的な侵入経路は未公表または調査中。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": 180,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "公表資料時点の対象規模。人数・件数を区別し、漏えいの確度は記録の状態を参照。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "メールアドレス",
+    "所属機関",
+    "電話番号",
+    "メール本文・添付資料"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.houjin-tmu.ac.jp/wp/wp-content/uploads/2026/01/7ffad8ccf2c390a0654d9fd83f17104b.pdf",
+      "type": "official",
+      "title": "東京都公立大学法人の不正アクセス・情報漏えい（2026年1月7日）",
+      "published_on": "2026-01-07",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": "180件はイベント申込・アンケート回答。別に過去の送受信メール情報があり、総流出件数ではない。 初報または明記した公表資料時点の記録。今回取得した後続資料をすべて精査したものではない。"
+}

@@ -1,0 +1,49 @@
+{
+  "id": "kyoto-np-47club-20260302",
+  "organization": {
+    "name": "京都新聞COM",
+    "sector": "企業・団体"
+  },
+  "title": "プレゼント当選者の配送情報190件が委託先から漏えい",
+  "summary": "プレゼント当選者の配送情報190件が委託先から漏えい。",
+  "published_on": "2026-03-02",
+  "first_published_on": "2026-03-02",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。具体的な侵入経路は未公表または調査中。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": 190,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "公表資料時点の対象規模。人数・件数を区別し、漏えいの確度は記録の状態を参照。"
+    }
+  ],
+  "data_types": [
+    "郵便番号",
+    "住所",
+    "氏名",
+    "電話番号"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.kyoto-np.co.jp/articles/-/1662242",
+      "type": "official",
+      "title": "株式会社京都新聞COMの不正アクセス・情報漏えい（2026年3月2日）",
+      "published_on": "2026-03-02",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": "47CLUBへの2025年11月28日の攻撃。2024年のプレゼント3回分の当選者。提供元・他の委託組織と対象が重複する。 初報または明記した公表資料時点の記録。今回取得した後続資料をすべて精査したものではない。"
+}

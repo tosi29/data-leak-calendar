@@ -1,0 +1,53 @@
+{
+  "id": "sekaimon-server-20260213",
+  "organization": {
+    "name": "ショップエアライン（セカイモン）",
+    "sector": "企業・団体"
+  },
+  "title": "会員データベースへの不正アクセスで個人情報に流出のおそれ",
+  "summary": "会員データベースへの不正アクセスで個人情報に流出のおそれ。",
+  "published_on": "2026-02-13",
+  "first_published_on": "2026-02-13",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。具体的な侵入経路は未公表または調査中。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "対象件数は未公表。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "生年月日",
+    "性別",
+    "メールアドレス",
+    "電話番号",
+    "住所",
+    "カード番号下4桁・有効期限",
+    "ハッシュ化パスワード"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://beenos.com/news-center/detail/20260213_bns_info/",
+      "type": "official",
+      "title": "株式会社ショップエアラインの不正アクセス・情報漏えい（2026年2月13日）",
+      "published_on": "2026-02-13",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": "2月10日検知。カード番号全桁・セキュリティコードは保有していない。 初報または明記した公表資料時点の記録。今回取得した後続資料をすべて精査したものではない。"
+}

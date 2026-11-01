@@ -1,0 +1,55 @@
+{
+  "id": "nittai-ntrading-20260209",
+  "organization": {
+    "name": "ニッタイ工業（日創グループ）",
+    "sector": "企業・団体"
+  },
+  "title": "エヌ・トレーディングの会員情報・購入履歴に漏えいのおそれ",
+  "summary": "エヌ・トレーディングの会員情報・購入履歴に漏えいのおそれ。",
+  "published_on": "2026-02-09",
+  "first_published_on": "2026-02-09",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。具体的な侵入経路は未公表または調査中。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "対象件数は未公表。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "会社名",
+    "住所",
+    "電話番号",
+    "FAX番号",
+    "メールアドレス",
+    "性別",
+    "職業",
+    "生年月日",
+    "購入商品"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://ssl4.eir-parts.net/doc/3440/tdnet/2754068/00.pdf",
+      "type": "official",
+      "title": "ニッタイ工業株式会社の不正アクセス・情報漏えい（2026年2月9日）",
+      "published_on": "2026-02-09",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": "1月8日に不正ファイルを検知。カード・決済情報は外部決済会社が保持し対象外。 初報または明記した公表資料時点の記録。今回取得した後続資料をすべて精査したものではない。"
+}

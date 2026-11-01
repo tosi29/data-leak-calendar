@@ -1,0 +1,47 @@
+{
+  "id": "kanehara-rinken-20260303",
+  "organization": {
+    "name": "金原出版",
+    "sector": "企業・団体"
+  },
+  "title": "臨検国試オンラインのメールアドレス等160件が外部アクセス可能に",
+  "summary": "臨検国試オンラインのメールアドレス等160件が外部アクセス可能に。",
+  "published_on": "2026-03-03",
+  "first_published_on": "2026-03-03",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "exposed",
+  "incident_type": "accident",
+  "cause": {
+    "category": "configuration",
+    "detail": "テスト環境の一時ファイルを誤って本番環境へ配置した。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 160,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "公表資料時点の対象規模。人数・件数を区別し、漏えいの確度は記録の状態を参照。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス",
+    "ニックネーム"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.kanehara-shuppan.co.jp/news/?no=261",
+      "type": "official",
+      "title": "金原出版株式会社の設定ミスによる情報漏えい（2026年3月3日）",
+      "published_on": "2026-03-03",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": "2024年7月31日～2026年2月17日。7件の不正アクセス痕跡を確認。カード・パスワード・住所等は対象外。 初報または明記した公表資料時点の記録。今回取得した後続資料をすべて精査したものではない。"
+}

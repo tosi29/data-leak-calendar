@@ -1,0 +1,49 @@
+{
+  "id": "ja-kyosai-cross-access-20260127",
+  "organization": {
+    "name": "JA共済連",
+    "sector": "企業・団体"
+  },
+  "title": "他のJAの契約者等の個人情報が管理者から閲覧可能に",
+  "summary": "他のJAの契約者等の個人情報が管理者から閲覧可能に。",
+  "published_on": "2026-01-27",
+  "first_published_on": "2026-01-27",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "exposed",
+  "incident_type": "accident",
+  "cause": {
+    "category": "configuration",
+    "detail": "1月14日8時～9時20分、情報共有・管理システムの設定不備で他JAの管理者へ閲覧権限が及んだ。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "対象件数は未公表。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "生年月日",
+    "住所",
+    "メールアドレス"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.ja-kyosai.or.jp/info/2025/20260126.html",
+      "type": "official",
+      "title": "JA共済連の設定ミスによる情報漏えい（2026年1月27日）",
+      "published_on": "2026-01-27",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": "JA外への情報流出や情報保存等の二次被害は未確認。 初報または明記した公表資料時点の記録。今回取得した後続資料をすべて精査したものではない。"
+}

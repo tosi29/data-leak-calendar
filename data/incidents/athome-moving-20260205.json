@@ -1,0 +1,71 @@
+{
+  "id": "athome-moving-20260205",
+  "organization": {
+    "name": "アットホーム",
+    "sector": "企業・団体"
+  },
+  "title": "引越し見積もり管理システムへの侵入で顧客・取引先情報に漏えいのおそれ",
+  "summary": "引越し見積もり管理システムへの侵入で顧客・取引先情報に漏えいのおそれ。",
+  "published_on": "2026-02-05",
+  "first_published_on": "2026-02-05",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。具体的な侵入経路は未公表または調査中。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": 408,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "見積依頼者の情報。"
+    },
+    {
+      "count": 14,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "サービス契約取引先の登録情報。"
+    },
+    {
+      "count": 315,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "一部加盟不動産会社の登録情報。"
+    },
+    {
+      "count": 5143,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "その他の加盟会社情報。担当営業氏名等を含む。"
+    }
+  ],
+  "data_types": [
+    "氏名・ふりがな",
+    "メールアドレス",
+    "電話番号",
+    "住所",
+    "会社・担当者情報",
+    "FAX番号",
+    "免許番号",
+    "口座情報"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.athome.co.jp/corporate/news/topics/oshirase-202602/",
+      "type": "official",
+      "title": "アットホーム株式会社の不正アクセス・情報漏えい（2026年2月5日）",
+      "published_on": "2026-02-05",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": "利用者408件、取引先14件、加盟会社315件・5,143件で情報項目が異なる。企業情報を人数に換算しない。いえらぶ連携事案とは別件。 初報または明記した公表資料時点の記録。今回取得した後続資料をすべて精査したものではない。"
+}

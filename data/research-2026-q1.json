@@ -1,0 +1,537 @@
+{
+  "checked_on": "2026-11-01",
+  "coverage_start": "2026-01-01",
+  "coverage_end": "2026-03-31",
+  "scope": "1～3月の初回遡及収集と掲載範囲拡張",
+  "stats": {
+    "baseline_incidents": 1817,
+    "added_incidents": 33,
+    "updated_incidents": 6,
+    "total_incidents": 1850,
+    "new_candidates": 1,
+    "pending_candidates": 75,
+    "reviewed_cases": 41,
+    "monthly_publications": {
+      "2026-01": 13,
+      "2026-02": 14,
+      "2026-03": 11
+    }
+  },
+  "added_incident_ids": [
+    "softbank-proxy-20260127",
+    "ja-kyosai-cross-access-20260127",
+    "got-reader-survey-20260126",
+    "ebara-club-display-20260123",
+    "cocoloni-account-20260121",
+    "tombow-ransom-20260120",
+    "eneos-globe-enesance-20260114",
+    "coastline-smaregi-app-20260110",
+    "smaregi-external-app-20260108",
+    "tmu-google-account-20260107",
+    "fabric-tokyo-display-20260219",
+    "nsbio-shop-20260218",
+    "nerima-job-form-20260213",
+    "tokyo-rekiken-form-20260213",
+    "nms-kosugi-ransom-20260213",
+    "harima-us-ransom-20260213",
+    "sekaimon-server-20260213",
+    "gala-seasonpass-20260212",
+    "mynavi-cloud-20260212",
+    "nittai-ntrading-20260209",
+    "saison-tech-storage-20260209",
+    "soumu-survey-display-20260206",
+    "beautygarage-card-concern-20260206",
+    "athome-moving-20260205",
+    "carstation-insurance-20260330",
+    "satokogyo-nas-20260326",
+    "osaka-marathon-volunteer-20260325",
+    "sakura-kogyo-phishing-20260320",
+    "budo-vendor-20260318",
+    "tokyo-water-seed-20260306",
+    "kanehara-rinken-20260303",
+    "shiraume-toyooka-ransom-20260303",
+    "kyoto-np-47club-20260302"
+  ],
+  "updated_incident_ids": [
+    "aoyama-main-ransom-20260406",
+    "bonform-ec-followup-20260427",
+    "kansai-washington-booking-20260430",
+    "medica-ransom-20260513",
+    "murata-it-followup-20260406",
+    "anabuki-housing-20260521"
+  ],
+  "new_candidate_ids": [
+    "q1-jal-20260210"
+  ],
+  "method": [
+    "2026年1月・2月・3月と個人情報漏えい／漏洩を組み合わせた検索から月別索引を探索。Seoryの月別13・16・12事案（計41事案）を公式出典へ遡って確認。",
+    "公式資料87 URLを取得。掲載判定では各事案の初回資料を読み、日付のないHTMLは公開日時メタデータも確認。後続87資料の全記述を精査したものではない。",
+    "既存記録との出典・組織・対象システムの重複を確認。5件は既存ID・後続調査結果を保って初報日へ移動し、1件は初報出典のみ補強。",
+    "本文の公表日を優先。東京都の2月13日資料をURL中の16日と混同せず、JA共済連もURLの26日ではなく27日を採用。"
+  ],
+  "limitations": [
+    "今回の初回収集は月別索引41事案が中心であり、1～3月の全事案の網羅を保証しない。特に誤送付・紛失等の小規模事故には追加調査の余地がある。",
+    "新規記録の状態・対象規模は明記した公表資料時点。取得した全続報や11月1日時点の最新状況までの網羅的な追跡ではない。",
+    "武蔵小杉病院は2月13日第1報時点の約1万人。後続の約13万人等を確認なしに混ぜない。スマレジは自社システムと外部アプリ提供元を区別し、両社の対象者を合算しない。",
+    "初報日不明のNSバイオジャパンは2月18日第2報として掲載。日本航空の2月公表は保存版が空本文で保留。丸高興業は3月HTMLの対象本文を確認できず既存7月掲載を維持。",
+    "Clipmasterの1～3月URLは取得できず。検索で見つかったScanNetSecurity等の記事日を公式公表日として大量転記しない。"
+  ],
+  "checks": [
+    {
+      "decision": "added",
+      "incident_id": "softbank-proxy-20260127",
+      "index_url": "https://incidents.seory.co.jp/incidents/20260127-9292fa/",
+      "source_urls": [
+        "https://www.softbank.jp/corp/news/press/sbkk/2026/20260127_02/"
+      ],
+      "organization": "ソフトバンク",
+      "reason": "1月13～17日の4事象の影響はそれぞれ2,019件、2,209件、1,906件、2,241件。重複不明のため合算しない。13日以前も最大200件の影響を見積もる。 初報または明記した公表資料時点の記録。今回取得した後続資料をすべて精査したものではない。"
+    },
+    {
+      "decision": "added",
+      "incident_id": "ja-kyosai-cross-access-20260127",
+      "index_url": "https://incidents.seory.co.jp/incidents/20260127-47db2d/",
+      "source_urls": [
+        "https://www.ja-kyosai.or.jp/info/2025/20260126.html"
+      ],
+      "organization": "JA共済連",
+      "reason": "JA外への情報流出や情報保存等の二次被害は未確認。 初報または明記した公表資料時点の記録。今回取得した後続資料をすべて精査したものではない。"
+    },
+    {
+      "decision": "added",
+      "incident_id": "got-reader-survey-20260126",
+      "index_url": "https://incidents.seory.co.jp/incidents/20260126-d70a07/",
+      "source_urls": [
+        "https://gotbb.jp/news.php?id=1"
+      ],
+      "organization": "ジーオーティー",
+      "reason": "2016年4月～2025年6月の対象雑誌アンケート。データベース破損で復旧困難と説明。カード・銀行口座は取得していない。 初報または明記した公表資料時点の記録。今回取得した後続資料をすべて精査したものではない。"
+    },
+    {
+      "decision": "added",
+      "incident_id": "ebara-club-display-20260123",
+      "index_url": "https://incidents.seory.co.jp/incidents/20260123-bcb564/",
+      "source_urls": [
+        "https://www.ebarafoods.com/company/newsrelease_20260123_34.pdf",
+        "https://www.ebarafoods.com/company/newsrelease_20260205_35.pdf"
+      ],
+      "organization": "エバラ食品工業",
+      "reason": "1月22日16時頃に確認しアクセスを停止。金融機関情報は保有していない。 初報または明記した公表資料時点の記録。今回取得した後続資料をすべて精査したものではない。"
+    },
+    {
+      "decision": "added",
+      "incident_id": "cocoloni-account-20260121",
+      "index_url": "https://incidents.seory.co.jp/incidents/20260121-aaee71/",
+      "source_urls": [
+        "https://cocoloni.com/wp-content/uploads/2026/01/%E9%87%8D%E8%A6%81%E3%81%AA%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B.pdf"
+      ],
+      "organization": "cocoloni",
+      "reason": "不正アクセス期間は2025年11月27日～12月13日。12月13日に流出の可能性を把握。 初報または明記した公表資料時点の記録。今回取得した後続資料をすべて精査したものではない。"
+    },
+    {
+      "decision": "added",
+      "incident_id": "tombow-ransom-20260120",
+      "index_url": "https://incidents.seory.co.jp/incidents/20260120-a259a0/",
+      "source_urls": [
+        "https://www.tombow-oem.jp/934/",
+        "https://www.tombow-oem.jp/954/",
+        "https://www.tombow-oem.jp/966/"
+      ],
+      "organization": "トンボ飲料",
+      "reason": "1月15日に被害。仕入先情報の一部流出を確認し、口座情報の具体的な範囲等は調査中。販売先は含まれない。 初報または明記した公表資料時点の記録。今回取得した後続資料をすべて精査したものではない。"
+    },
+    {
+      "decision": "added",
+      "incident_id": "eneos-globe-enesance-20260114",
+      "index_url": "https://incidents.seory.co.jp/incidents/20260114-3b8d03/",
+      "source_urls": [
+        "https://eg-energy.jp/cms/wp-content/uploads/2026/01/a552f85ed8b37d04d022012899accefb.pdf"
+      ],
+      "organization": "ENEOSグローブエナジー",
+      "reason": "エネサンス北海道・エネサンス関東への配送委託。北海道・神奈川県の一部。カード・口座・ガス料金は含まれない。 初報または明記した公表資料時点の記録。今回取得した後続資料をすべて精査したものではない。"
+    },
+    {
+      "decision": "added",
+      "incident_id": "coastline-smaregi-app-20260110",
+      "index_url": "https://incidents.seory.co.jp/incidents/20260110-0dffa3/",
+      "source_urls": [
+        "https://coastline.co.jp/20260110argent_issue/",
+        "https://coastline.co.jp/%e4%b8%8d%e6%ad%a3%e3%82%a2%e3%82%af%e3%82%bb%e3%82%b9%e3%81%ab%e3%82%88%e3%82%8b%e5%80%8b%e4%ba%ba%e6%83%85%e5%a0%b1%e3%81%ae%e6%b5%81%e5%87%ba%e3%81%ab%e9%96%a2%e3%81%99%e3%82%8b%e6%9c%80%e7%b5%82/"
+      ],
+      "organization": "coastline",
+      "reason": "公式HTMLの公開日時で1月10日を確認。スマレジ本体・公式アプリの侵害とは区別。 初報または明記した公表資料時点の記録。今回取得した後続資料をすべて精査したものではない。"
+    },
+    {
+      "decision": "added",
+      "incident_id": "smaregi-external-app-20260108",
+      "index_url": "https://incidents.seory.co.jp/incidents/20260108-1edfc0/",
+      "source_urls": [
+        "https://smaregi.jp/news/maintenance/20260108.php",
+        "https://smaregi.jp/news/press/20260113.php",
+        "https://smaregi.jp/news/press/20260309.php"
+      ],
+      "organization": "スマレジ",
+      "reason": "スマレジ自社サーバーの流出は未確認。coastlineの公表と対象が重複する。9月のスマレジEC事案とは別件。 初報または明記した公表資料時点の記録。今回取得した後続資料をすべて精査したものではない。"
+    },
+    {
+      "decision": "added",
+      "incident_id": "tmu-google-account-20260107",
+      "index_url": "https://incidents.seory.co.jp/incidents/20260107-ba2474/",
+      "source_urls": [
+        "https://www.houjin-tmu.ac.jp/wp/wp-content/uploads/2026/01/7ffad8ccf2c390a0654d9fd83f17104b.pdf",
+        "https://www.houjin-tmu.ac.jp/wp/wp-content/uploads/2026/01/6433147da67b57131999acd3c07b45f5.pdf"
+      ],
+      "organization": "東京都立大学",
+      "reason": "180件はイベント申込・アンケート回答。別に過去の送受信メール情報があり、総流出件数ではない。 初報または明記した公表資料時点の記録。今回取得した後続資料をすべて精査したものではない。"
+    },
+    {
+      "decision": "added",
+      "incident_id": "fabric-tokyo-display-20260219",
+      "index_url": "https://incidents.seory.co.jp/incidents/20260219-5a31d6/",
+      "source_urls": [
+        "https://fabric-tokyo.com/news/show/20260219-to-all-customers"
+      ],
+      "organization": "FABRIC TOKYO",
+      "reason": "2月18日18時30分頃～23時頃の約4時間30分。 初報または明記した公表資料時点の記録。今回取得した後続資料をすべて精査したものではない。"
+    },
+    {
+      "decision": "added",
+      "incident_id": "nsbio-shop-20260218",
+      "index_url": "https://incidents.seory.co.jp/incidents/20260218-a9f1d5/",
+      "source_urls": [
+        "https://nsbj.jp/information_leakage_20260218/"
+      ],
+      "organization": "NSバイオジャパン",
+      "reason": "第二報の18日公表、25日追記を確認。初報日は未特定。40件には本人重複の可能性。カード情報・会員ログインパスワードは対象外。 初報または明記した公表資料時点の記録。今回取得した後続資料をすべて精査したものではない。"
+    },
+    {
+      "decision": "added",
+      "incident_id": "nerima-job-form-20260213",
+      "index_url": "https://incidents.seory.co.jp/incidents/20260213-e31679/",
+      "source_urls": [
+        "https://www.city.nerima.tokyo.jp/kusei/koho/hodo/r8/r802/20260213.files/20260213.pdf"
+      ],
+      "organization": "練馬区",
+      "reason": "2月4日に発覚・設定修正。5日に応募者へ謝罪メール。 初報または明記した公表資料時点の記録。今回取得した後続資料をすべて精査したものではない。"
+    },
+    {
+      "decision": "added",
+      "incident_id": "tokyo-rekiken-form-20260213",
+      "index_url": "https://incidents.seory.co.jp/incidents/20260213-ce76fe/",
+      "source_urls": [
+        "https://www.metro.tokyo.lg.jp/information/press/2026/02/2026021601"
+      ],
+      "organization": "東京都",
+      "reason": "受託者はホーン。2025年12月26日～2026年2月12日の申込者。URLの16日ではなく本文の13日公表を採用。 初報または明記した公表資料時点の記録。今回取得した後続資料をすべて精査したものではない。"
+    },
+    {
+      "decision": "added",
+      "incident_id": "nms-kosugi-ransom-20260213",
+      "index_url": "https://incidents.seory.co.jp/incidents/20260213-c68772/",
+      "source_urls": [
+        "https://www.nms.ac.jp/kosugi-h/news/_28830.html",
+        "https://www.nms.ac.jp/kosugi-h/news/_28832.html",
+        "https://www.nms.ac.jp/kosugi-h/news/_28834.html",
+        "https://www.nms.ac.jp/kosugi-h/news/_28836.html",
+        "https://www.nms.ac.jp/kosugi-h/news/_28850.html",
+        "https://www.nms.ac.jp/kosugi-h/news/_29782.html",
+        "https://www.nms.ac.jp/kosugi-h/news/_29818.html"
+      ],
+      "organization": "日本医科大学武蔵小杉病院",
+      "reason": "第1報時点の約1万人。後続の対象拡大は今回の数値へ自動適用していない。保守用VPN装置を侵入経路と確認。電子カルテ等の他システムの影響とは区別。 初報または明記した公表資料時点の記録。今回取得した後続資料をすべて精査したものではない。"
+    },
+    {
+      "decision": "added",
+      "incident_id": "harima-us-ransom-20260213",
+      "index_url": "https://incidents.seory.co.jp/incidents/20260213-63b097/",
+      "source_urls": [
+        "https://www.harima.co.jp/newsroom/2026/0213130000.html"
+      ],
+      "organization": "ハリマ化成グループ（米国子会社）",
+      "reason": "Harima USA・Harimatecの共同公表。2月3日に流出の可能性を確認。 初報または明記した公表資料時点の記録。今回取得した後続資料をすべて精査したものではない。"
+    },
+    {
+      "decision": "added",
+      "incident_id": "sekaimon-server-20260213",
+      "index_url": "https://incidents.seory.co.jp/incidents/20260213-506057/",
+      "source_urls": [
+        "https://beenos.com/news-center/detail/20260213_bns_info/",
+        "https://beenos.com/news-center/detail/20260313_bns_info/",
+        "https://beenos.com/news-center/press-release/20260423_bns_info/"
+      ],
+      "organization": "ショップエアライン（セカイモン）",
+      "reason": "2月10日検知。カード番号全桁・セキュリティコードは保有していない。 初報または明記した公表資料時点の記録。今回取得した後続資料をすべて精査したものではない。"
+    },
+    {
+      "decision": "added",
+      "incident_id": "gala-seasonpass-20260212",
+      "index_url": "https://incidents.seory.co.jp/incidents/20260212-e6e8f7/",
+      "source_urls": [
+        "https://gala.co.jp/cmsw/wp-content/uploads/2026/02/4d9ec3b44f7b4d83e237592fec8655f4.pdf"
+      ],
+      "organization": "ガーラ湯沢",
+      "reason": "2020年12月16日～2026年2月1日の購入者。公表時点で持ち出し痕跡は未確認。外部アクセス用ルーターの設定不備を確認。 初報または明記した公表資料時点の記録。今回取得した後続資料をすべて精査したものではない。"
+    },
+    {
+      "decision": "added",
+      "incident_id": "mynavi-cloud-20260212",
+      "index_url": "https://incidents.seory.co.jp/incidents/20260212-e5a156/",
+      "source_urls": [
+        "https://www.mynavi.jp/topics/post_52080.html"
+      ],
+      "organization": "マイナビ",
+      "reason": "提供サービスのサイト・データベース自体への不正アクセスではないと説明。 初報または明記した公表資料時点の記録。今回取得した後続資料をすべて精査したものではない。"
+    },
+    {
+      "decision": "added",
+      "incident_id": "nittai-ntrading-20260209",
+      "index_url": "https://incidents.seory.co.jp/incidents/20260209-dd84d3/",
+      "source_urls": [
+        "https://ssl4.eir-parts.net/doc/3440/tdnet/2754068/00.pdf",
+        "https://ssl4.eir-parts.net/doc/3440/tdnet/2776597/00.pdf"
+      ],
+      "organization": "ニッタイ工業（日創グループ）",
+      "reason": "1月8日に不正ファイルを検知。カード・決済情報は外部決済会社が保持し対象外。 初報または明記した公表資料時点の記録。今回取得した後続資料をすべて精査したものではない。"
+    },
+    {
+      "decision": "added",
+      "incident_id": "saison-tech-storage-20260209",
+      "index_url": "https://incidents.seory.co.jp/incidents/20260209-a25be7/",
+      "source_urls": [
+        "https://www.saison-technology.com/company/news/20260209_personal_information_leaked/"
+      ],
+      "organization": "セゾンテクノロジー",
+      "reason": "2021年1月28日～2026年1月21日に閲覧可能。申込書の件数で人数ではない。 初報または明記した公表資料時点の記録。今回取得した後続資料をすべて精査したものではない。"
+    },
+    {
+      "decision": "added",
+      "incident_id": "soumu-survey-display-20260206",
+      "index_url": "https://incidents.seory.co.jp/incidents/20260206-f21f7c/",
+      "source_urls": [
+        "https://www.soumu.go.jp/menu_news/s-news/01ryutsu04_02000246.html"
+      ],
+      "organization": "総務省",
+      "reason": " 初報または明記した公表資料時点の記録。今回取得した後続資料をすべて精査したものではない。"
+    },
+    {
+      "decision": "added",
+      "incident_id": "beautygarage-card-concern-20260206",
+      "index_url": "https://incidents.seory.co.jp/incidents/20260206-edc3f8/",
+      "source_urls": [
+        "https://www.beautygarage.co.jp/wp/wp-content/uploads/%E3%80%90%E7%AC%AC1%E5%A0%B1_%E7%B5%B1%E5%90%88%E7%89%88%E3%80%91%E3%82%AF%E3%83%AC%E3%82%B8%E3%83%83%E3%83%88%E3%82%AB%E3%83%BC%E3%83%89%E6%B1%BA%E6%B8%88%E3%81%AE%E4%B8%80%E6%99%82%E5%81%9C%E6%AD%A2%E3%81%8A%E3%82%88%E3%81%B3%E5%80%8B%E4%BA%BA%E6%83%85%E5%A0%B1%E6%BC%8F%E6%B4%A9%E6%87%B8%E5%BF%B5%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B%E3%81%A8%E3%81%8A%E8%A9%AB%E3%81%B3-3.pdf",
+        "https://www.beautygarage.co.jp/wp/wp-content/uploads/%E3%80%90%E7%AC%AC2%E5%A0%B1%E3%80%91%E3%82%AF%E3%83%AC%E3%82%B8%E3%83%83%E3%83%88%E3%82%AB%E3%83%BC%E3%83%89%E6%B1%BA%E6%B8%88%E5%81%9C%E6%AD%A2%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E7%8F%BE%E5%9C%A8%E3%81%AE%E7%8A%B6%E6%B3%81%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6.pdf",
+        "https://www.beautygarage.co.jp/wp/wp-content/uploads/%E3%80%90%E7%AC%AC3%E5%A0%B1%E3%80%91%E3%82%AF%E3%83%AC%E3%82%B8%E3%83%83%E3%83%88%E3%82%AB%E3%83%BC%E3%83%89%E6%B1%BA%E6%B8%88%E5%81%9C%E6%AD%A2%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E7%8F%BE%E5%9C%A8%E3%81%AE%E7%8A%B6%E6%B3%81%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6.pdf",
+        "https://www.beautygarage.co.jp/wp/wp-content/uploads/%E3%80%90%E7%AC%AC4%E5%A0%B1%E3%80%91%E3%82%AF%E3%83%AC%E3%82%B8%E3%83%83%E3%83%88%E3%82%AB%E3%83%BC%E3%83%89%E6%B1%BA%E6%B8%88%E5%81%9C%E6%AD%A2%E3%81%AB%E4%BC%B4%E3%81%86PayPay%E6%B1%BA%E6%B8%88%E5%B0%8E%E5%85%A5%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6.pdf",
+        "https://www.beautygarage.co.jp/wp/wp-content/uploads/%E3%80%90%E7%AC%AC5%E5%A0%B1%E3%80%91%E3%82%AF%E3%83%AC%E3%82%B8%E3%83%83%E3%83%88%E3%82%AB%E3%83%BC%E3%83%89%E6%B1%BA%E6%B8%88%E5%81%9C%E6%AD%A2%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E7%8F%BE%E5%9C%A8%E3%81%AE%E7%8A%B6%E6%B3%81%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6.pdf",
+        "https://www.beautygarage.co.jp/wp/wp-content/uploads/%E3%80%90%E7%AC%AC6%E5%A0%B1%E3%80%91%E3%82%AF%E3%83%AC%E3%82%B8%E3%83%83%E3%83%88%E3%82%AB%E3%83%BC%E3%83%89%E6%B1%BA%E6%B8%88%E5%81%9C%E6%AD%A2%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E7%8F%BE%E5%9C%A8%E3%81%AE%E7%8A%B6%E6%B3%81%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6.pdf"
+      ],
+      "organization": "ビューティガレージ",
+      "reason": "6日公表の20日内容統合版を確認。対象期間・件数は初報時点で未確定。10月の顧客情報流出とは別事案。 初報または明記した公表資料時点の記録。今回取得した後続資料をすべて精査したものではない。"
+    },
+    {
+      "decision": "added",
+      "incident_id": "athome-moving-20260205",
+      "index_url": "https://incidents.seory.co.jp/incidents/20260205-5f4ac1/",
+      "source_urls": [
+        "https://www.athome.co.jp/corporate/news/topics/oshirase-202602/",
+        "https://www.athome.co.jp/corporate/news/topics/oshirase-zokuhou-202602/"
+      ],
+      "organization": "アットホーム",
+      "reason": "利用者408件、取引先14件、加盟会社315件・5,143件で情報項目が異なる。企業情報を人数に換算しない。いえらぶ連携事案とは別件。 初報または明記した公表資料時点の記録。今回取得した後続資料をすべて精査したものではない。"
+    },
+    {
+      "decision": "added",
+      "incident_id": "carstation-insurance-20260330",
+      "index_url": "https://incidents.seory.co.jp/incidents/20260330-dac9d1/",
+      "source_urls": [
+        "https://web.archive.org/web/20260422145405id_/https://www.cocoselect.jp/event/%E5%80%8B%E4%BA%BA%E6%83%85%E5%A0%B1%E6%B5%81%E5%87%BA%E3%81%AE%E6%81%90%E3%82%8C%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E3%81%8A%E8%A9%AB%E3%81%B3%E3%81%A8%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B/"
+      ],
+      "organization": "カーステーション新潟",
+      "reason": "3月25日に判明。公式ページの保存版を確認。攻撃か操作ミスかを断定しない。 初報または明記した公表資料時点の記録。今回取得した後続資料をすべて精査したものではない。"
+    },
+    {
+      "decision": "added",
+      "incident_id": "satokogyo-nas-20260326",
+      "index_url": "https://incidents.seory.co.jp/incidents/20260326-5cd016/",
+      "source_urls": [
+        "https://www.satokogyo.co.jp/up_data/1774410486.pdf"
+      ],
+      "organization": "佐藤工業",
+      "reason": "作業所外からアクセスできる設定が侵入に関係したと推測。本人情報と緊急連絡先を人数として合算しない。 初報または明記した公表資料時点の記録。今回取得した後続資料をすべて精査したものではない。"
+    },
+    {
+      "decision": "added",
+      "incident_id": "osaka-marathon-volunteer-20260325",
+      "index_url": "https://incidents.seory.co.jp/incidents/20260325-92430e/",
+      "source_urls": [
+        "https://www.pref.osaka.lg.jp/hodo/fumin/o070110/prs_51155.html"
+      ],
+      "organization": "大阪マラソン組織委員会",
+      "reason": "3月16～18日。実閲覧を確認したページの対象は氏名・所属3,477人、連絡先付き18人。対象全員の全項目が閲覧されたという意味ではない。 初報または明記した公表資料時点の記録。今回取得した後続資料をすべて精査したものではない。"
+    },
+    {
+      "decision": "added",
+      "incident_id": "sakura-kogyo-phishing-20260320",
+      "index_url": "https://incidents.seory.co.jp/incidents/20260320-c47116/",
+      "source_urls": [
+        "https://www.sakura-kogyo.co.jp/wp-content/uploads/2026/03/%E5%85%AC%E8%A1%A8%E6%96%871.pdf"
+      ],
+      "organization": "サクラ工業",
+      "reason": "2025年の被害の調査結果を公表。ダークウェブ等への漏えいは確認されなかったが、漏えい可能性を否定したわけではない。 初報または明記した公表資料時点の記録。今回取得した後続資料をすべて精査したものではない。"
+    },
+    {
+      "decision": "added",
+      "incident_id": "budo-vendor-20260318",
+      "index_url": "https://incidents.seory.co.jp/incidents/20260318-24fbdd/",
+      "source_urls": [
+        "https://www.budo-u.ac.jp/news/2026/03/post_328.html"
+      ],
+      "organization": "国際武道大学",
+      "reason": "2019年度介護等体験履修者。2025年11月の委託先侵害後、2026年2月16日に大学へ流出報告。委託先名は未公表。 初報または明記した公表資料時点の記録。今回取得した後続資料をすべて精査したものではない。"
+    },
+    {
+      "decision": "added",
+      "incident_id": "tokyo-water-seed-20260306",
+      "index_url": "https://incidents.seory.co.jp/incidents/20260306-3e79a2/",
+      "source_urls": [
+        "https://www.waterworks.metro.tokyo.lg.jp/information/press/r8/03/2026030601"
+      ],
+      "organization": "東京都水道局",
+      "reason": "受託者クロス・マーケティング、協力会社シード・プランニング。スマートメーター利用者情報。公表時点で流出は未確認。 初報または明記した公表資料時点の記録。今回取得した後続資料をすべて精査したものではない。"
+    },
+    {
+      "decision": "added",
+      "incident_id": "kanehara-rinken-20260303",
+      "index_url": "https://incidents.seory.co.jp/incidents/20260303-6dc36b/",
+      "source_urls": [
+        "https://www.kanehara-shuppan.co.jp/news/?no=261",
+        "https://www.kanehara-shuppan.co.jp/news/?no=265"
+      ],
+      "organization": "金原出版",
+      "reason": "2024年7月31日～2026年2月17日。7件の不正アクセス痕跡を確認。カード・パスワード・住所等は対象外。 初報または明記した公表資料時点の記録。今回取得した後続資料をすべて精査したものではない。"
+    },
+    {
+      "decision": "added",
+      "incident_id": "shiraume-toyooka-ransom-20260303",
+      "index_url": "https://incidents.seory.co.jp/incidents/20260303-0d6341/",
+      "source_urls": [
+        "https://www.shiraume.or.jp/news/%e7%99%bd%e6%a2%85%e8%b1%8a%e5%b2%a1%e7%97%85%e9%99%a2%e3%81%b8%e3%81%ae%e3%82%b5%e3%82%a4%e3%83%90%e3%83%bc%e6%94%bb%e6%92%83%e3%81%ab%e3%82%88%e3%82%8b%e5%80%8b%e4%ba%ba%e6%83%85%e5%a0%b1%e6%bc%8f/",
+        "https://www.shiraume.or.jp/news/%e7%99%bd%e6%a2%85%e8%b1%8a%e5%b2%a1%e7%97%85%e9%99%a2%e3%81%b8%e3%81%ae%e3%82%b5%e3%82%a4%e3%83%90%e3%83%bc%e6%94%bb%e6%92%83%e3%81%ab%e3%82%88%e3%82%8b%e5%80%8b%e4%ba%ba%e6%83%85%e5%a0%b1%e6%bc%8f-2/",
+        "https://www.shiraume.or.jp/news/%e7%99%bd%e6%a2%85%e8%b1%8a%e5%b2%a1%e7%97%85%e9%99%a2%e3%81%b8%e3%81%ae%e3%82%b5%e3%82%a4%e3%83%90%e3%83%bc%e6%94%bb%e6%92%83%e3%81%ab%e3%82%88%e3%82%8b%e5%80%8b%e4%ba%ba%e6%83%85%e5%a0%b1%e6%bc%8f-3/",
+        "https://www.shiraume.or.jp/news/%e7%99%bd%e6%a2%85%e8%b1%8a%e5%b2%a1%e7%97%85%e9%99%a2%e3%81%b8%e3%81%ae%e3%82%b5%e3%82%a4%e3%83%90%e3%83%bc%e6%94%bb%e6%92%83%e3%81%ab%e3%82%88%e3%82%8b%e5%80%8b%e4%ba%ba%e6%83%85%e5%a0%b1%e6%bc%8f-4/"
+      ],
+      "organization": "白梅豊岡病院",
+      "reason": "3月1日に電子カルテ等の院内システムに被害。初報時点の可能性として記録。 初報または明記した公表資料時点の記録。今回取得した後続資料をすべて精査したものではない。"
+    },
+    {
+      "decision": "added",
+      "incident_id": "kyoto-np-47club-20260302",
+      "index_url": "https://incidents.seory.co.jp/incidents/20260302-13ab01/",
+      "source_urls": [
+        "https://www.kyoto-np.co.jp/articles/-/1662242"
+      ],
+      "organization": "京都新聞COM",
+      "reason": "47CLUBへの2025年11月28日の攻撃。2024年のプレゼント3回分の当選者。提供元・他の委託組織と対象が重複する。 初報または明記した公表資料時点の記録。今回取得した後続資料をすべて精査したものではない。"
+    },
+    {
+      "decision": "initial_date_restored",
+      "incident_id": "aoyama-main-ransom-20260406",
+      "index_url": "https://incidents.seory.co.jp/incidents/20260116-8016f4/",
+      "source_urls": [
+        "https://www.amknet.jp/news/2026/01/16/2442/",
+        "https://www.amknet.jp/news/2026/03/10/2464/",
+        "https://www.amknet.jp/news/2026/04/06/2492/",
+        "https://www.amknet.jp/news/2026/06/24/2584/"
+      ],
+      "organization": "青山メイン企画",
+      "reason": "管理物件所有者・入居者・保証人・取引先担当者・従業員等が対象の可能性。人数と全項目の流出は未確定。 1～3月の収集範囲拡張により初報2026-01-16を確認し、掲載日を2026-04-06から変更。IDと後日の調査結果は保持。"
+    },
+    {
+      "decision": "initial_date_restored",
+      "incident_id": "bonform-ec-followup-20260427",
+      "index_url": "https://incidents.seory.co.jp/incidents/20260116-6eb6bd/",
+      "source_urls": [
+        "https://www.bonform.co.jp/ec_site/information/detail/137",
+        "https://www.bonform.co.jp/ec_site/information/detail/140"
+      ],
+      "organization": "ボンフォーム",
+      "reason": "カードの人数・件数・会員内数を合算しない。対象期間は2021年3月25日〜2024年11月8日。購入に至らなかった入力分はカード番号を特定できていない。 1～3月の収集範囲拡張により初報2026-01-16を確認し、掲載日を2026-04-27から変更。IDと後日の調査結果は保持。"
+    },
+    {
+      "decision": "initial_date_restored",
+      "incident_id": "kansai-washington-booking-20260430",
+      "index_url": "https://incidents.seory.co.jp/incidents/20260114-54f79e/",
+      "source_urls": [
+        "https://washington-hotels.jp/kansai/information/16885/",
+        "https://washington-hotels.jp/kansai/information/20670/"
+      ],
+      "organization": "関西エアポートワシントンホテル（フラット・フィールド・オペレーションズ）",
+      "reason": "初報は1月14日。住所・メールアドレス・カード情報の漏えいはなかったと説明。ワシントンホテル株式会社のランサムウェア事案とは別。 1～3月の収集範囲拡張により初報2026-01-14を確認し、掲載日を2026-04-30から変更。IDと後日の調査結果は保持。"
+    },
+    {
+      "decision": "initial_date_restored",
+      "incident_id": "medica-ransom-20260513",
+      "index_url": "https://incidents.seory.co.jp/incidents/20260317-2f6cd9/",
+      "source_urls": [
+        "https://www.medica.co.jp/_sys/wp-content/uploads/2026/03/260317_News-Release.pdf",
+        "https://www.medica.co.jp/news/information/3476/",
+        "https://www.medica.co.jp/news/information/3479/",
+        "https://www.medica.co.jp/news/information/3544/"
+      ],
+      "organization": "メディカ出版",
+      "reason": "初報は収集開始前だが公表日未特定。公式本文の概算合計641,000人を採用し、月次まとめの77.2万件へ置き換えない。同一人物の重複を含む可能性あり。 2026年4月遡及調査で掲載日を2026-05-13から2026-04-09へ修正。ID・後続の対象規模と調査結果を保持。4月の77.2万件と5月調査の約64.1万人は時点・単位が異なる。最新の人数表示を4月の件数へ戻さない。 1～3月の収集範囲拡張により初報2026-03-17を確認し、掲載日を2026-04-09から変更。IDと後日の調査結果は保持。"
+    },
+    {
+      "decision": "initial_date_restored",
+      "incident_id": "murata-it-followup-20260406",
+      "index_url": "https://incidents.seory.co.jp/incidents/20260306-06f39d/",
+      "source_urls": [
+        "https://corporate.murata.com/ja-jp/newsroom/news/company/general/2026/0306",
+        "https://corporate.murata.com/ja-jp/newsroom/news/company/general/2026/0406",
+        "https://corporate.murata.com/ja-jp/newsroom/news/company/general/2026/0427"
+      ],
+      "organization": "村田製作所",
+      "reason": "初報日は今回の本文だけでは未特定。個人情報の不正取得は公式に確認済みだが、表示対象全件の窃取確定を意味しない。村田土地建物の保険情報に関する7月公表とは対象組織が異なる。 1～3月の収集範囲拡張により初報2026-03-06を確認し、掲載日を2026-04-06から変更。IDと後日の調査結果は保持。"
+    },
+    {
+      "decision": "existing_record_source_added",
+      "incident_id": "anabuki-housing-20260521",
+      "index_url": "https://incidents.seory.co.jp/incidents/20260203-ae6bda/",
+      "source_urls": [
+        "https://www.anabuki-housing.co.jp/news/content.php?news_id=512",
+        "https://www.anabuki-housing.co.jp/news/content.php?news_id=515",
+        "https://www.anabuki-housing.co.jp/news/content.php?news_id=518",
+        "https://www.anabuki-housing.co.jp/news/content.php?news_id=520",
+        "https://www.anabuki-housing.co.jp/news/content.php?news_id=521",
+        "https://www.anabuki-housing.co.jp/news/content.php?news_id=525",
+        "https://matsuyama-shijyu.com/news/entry-107.html",
+        "https://www.anabuki-housing.co.jp/news/content.php?news_id=528",
+        "https://www.anabuki-housing.co.jp/news/content.php?news_id=530"
+      ],
+      "organization": "株式会社穴吹ハウジングサービス（あなぶきハウジンググループ）",
+      "reason": "公式本文を検索経由で確認。以前の最大約49万6千件から対象範囲を精査した数値であり追加被害として加算しない。 2月3日の公式初報はランサムウェア被害と情報流出の調査段階。具体的な個人情報対象の公表がある既存の5月21日掲載を維持。"
+    },
+    {
+      "decision": "existing_record_retained",
+      "incident_id": "marutaka-ransom-20260729",
+      "reason": "3月13日のHTMLには個人情報の対象本文を確認できない。7月の具体的な公表を維持。",
+      "index_url": "https://incidents.seory.co.jp/incidents/20260729-9aa80c/",
+      "source_urls": [
+        "https://marutakakogyo.com/information/marutaka_info_20260313/",
+        "https://marutakakogyo.com/information/notice-ransomware-personal-information-20260729/",
+        "https://marutakakogyo.com/information/email-restart-notice-20260806/"
+      ],
+      "organization": "丸高興業"
+    },
+    {
+      "decision": "pending",
+      "candidate_id": "q1-jal-20260210",
+      "index_url": "https://incidents.seory.co.jp/incidents/20260210-561517/",
+      "source_urls": [
+        "https://web.archive.org/web/20260211224849id_/https://www.jal.co.jp/jp/ja/info/2026/other/260210/"
+      ]
+    }
+  ],
+  "report": "docs/research-2026-q1.md",
+  "audit": "data/research-2026-q1.json"
+}

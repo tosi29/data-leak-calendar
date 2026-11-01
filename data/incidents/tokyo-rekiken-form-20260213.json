@@ -1,0 +1,49 @@
+{
+  "id": "tokyo-rekiken-form-20260213",
+  "organization": {
+    "name": "東京都",
+    "sector": "自治体"
+  },
+  "title": "東京歴建Oh!クエストの申込者68人の情報が閲覧可能に",
+  "summary": "東京歴建Oh!クエストの申込者68人の情報が閲覧可能に。",
+  "published_on": "2026-02-13",
+  "first_published_on": "2026-02-13",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "exposed",
+  "incident_type": "accident",
+  "cause": {
+    "category": "configuration",
+    "detail": "受託者の申込フォーム閲覧権限の設定ミス。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 68,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表資料時点の対象規模。人数・件数を区別し、漏えいの確度は記録の状態を参照。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "ニックネーム",
+    "生年月日",
+    "メールアドレス"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.metro.tokyo.lg.jp/information/press/2026/02/2026021601",
+      "type": "official",
+      "title": "東京都の設定ミスによる情報漏えい（2026年2月13日）",
+      "published_on": "2026-02-13",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": "受託者はホーン。2025年12月26日～2026年2月12日の申込者。URLの16日ではなく本文の13日公表を採用。 初報または明記した公表資料時点の記録。今回取得した後続資料をすべて精査したものではない。"
+}

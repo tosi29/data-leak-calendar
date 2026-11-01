@@ -1,0 +1,47 @@
+{
+  "id": "beautygarage-card-concern-20260206",
+  "organization": {
+    "name": "ビューティガレージ",
+    "sector": "企業・団体"
+  },
+  "title": "ECサイトのクレジットカード情報に漏えいのおそれ",
+  "summary": "ECサイトのクレジットカード情報に漏えいのおそれ。",
+  "published_on": "2026-02-06",
+  "first_published_on": "2026-02-06",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。具体的な侵入経路は未公表または調査中。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "対象件数は未公表。"
+    }
+  ],
+  "data_types": [
+    "クレジットカード情報",
+    "その他の顧客情報（調査中）"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.beautygarage.co.jp/wp/wp-content/uploads/%E3%80%90%E7%AC%AC1%E5%A0%B1_%E7%B5%B1%E5%90%88%E7%89%88%E3%80%91%E3%82%AF%E3%83%AC%E3%82%B8%E3%83%83%E3%83%88%E3%82%AB%E3%83%BC%E3%83%89%E6%B1%BA%E6%B8%88%E3%81%AE%E4%B8%80%E6%99%82%E5%81%9C%E6%AD%A2%E3%81%8A%E3%82%88%E3%81%B3%E5%80%8B%E4%BA%BA%E6%83%85%E5%A0%B1%E6%BC%8F%E6%B4%A9%E6%87%B8%E5%BF%B5%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B%E3%81%A8%E3%81%8A%E8%A9%AB%E3%81%B3-3.pdf",
+      "type": "official",
+      "title": "株式会社ビューティガレージの不正アクセス・情報漏えい（2026年2月6日）",
+      "published_on": "2026-02-06",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": "6日公表の20日内容統合版を確認。対象期間・件数は初報時点で未確定。10月の顧客情報流出とは別事案。 初報または明記した公表資料時点の記録。今回取得した後続資料をすべて精査したものではない。"
+}

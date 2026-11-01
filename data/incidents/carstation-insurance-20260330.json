@@ -1,0 +1,49 @@
+{
+  "id": "carstation-insurance-20260330",
+  "organization": {
+    "name": "カーステーション新潟",
+    "sector": "企業・団体"
+  },
+  "title": "ココセレクトほけんの申込情報に流出のおそれ",
+  "summary": "ココセレクトほけんの申込情報に流出のおそれ。",
+  "published_on": "2026-03-30",
+  "first_published_on": "2026-03-30",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "unknown",
+  "cause": {
+    "category": "unknown",
+    "detail": "業務端末操作中の不正な誘導または不適切な操作の可能性を調査。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "対象件数は未公表。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "生年月日",
+    "住所",
+    "電話番号"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://web.archive.org/web/20260422145405id_/https://www.cocoselect.jp/event/%E5%80%8B%E4%BA%BA%E6%83%85%E5%A0%B1%E6%B5%81%E5%87%BA%E3%81%AE%E6%81%90%E3%82%8C%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E3%81%8A%E8%A9%AB%E3%81%B3%E3%81%A8%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B/",
+      "type": "official",
+      "title": "株式会社カーステーション新潟のセキュリティ事案（2026年3月30日）",
+      "published_on": "2026-03-30",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": "3月25日に判明。公式ページの保存版を確認。攻撃か操作ミスかを断定しない。 初報または明記した公表資料時点の記録。今回取得した後続資料をすべて精査したものではない。"
+}

@@ -1,0 +1,49 @@
+{
+  "id": "osaka-marathon-volunteer-20260325",
+  "organization": {
+    "name": "大阪マラソン組織委員会",
+    "sector": "自治体"
+  },
+  "title": "ボランティア登録者4,101人の情報が閲覧可能に",
+  "summary": "ボランティア登録者4,101人の情報が閲覧可能に。",
+  "published_on": "2026-03-25",
+  "first_published_on": "2026-03-25",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "exposed",
+  "incident_type": "accident",
+  "cause": {
+    "category": "configuration",
+    "detail": "閉鎖作業前にシステム構築会社が個人認証機能を誤ってオフにした。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 4101,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表資料時点の対象規模。人数・件数を区別し、漏えいの確度は記録の状態を参照。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "所属団体名",
+    "携帯電話番号",
+    "メールアドレス"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.pref.osaka.lg.jp/hodo/fumin/o070110/prs_51155.html",
+      "type": "official",
+      "title": "大阪マラソン組織委員会の設定ミスによる情報漏えい（2026年3月25日）",
+      "published_on": "2026-03-25",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": "3月16～18日。実閲覧を確認したページの対象は氏名・所属3,477人、連絡先付き18人。対象全員の全項目が閲覧されたという意味ではない。 初報または明記した公表資料時点の記録。今回取得した後続資料をすべて精査したものではない。"
+}
