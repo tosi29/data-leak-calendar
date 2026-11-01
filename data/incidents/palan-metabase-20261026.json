@@ -1,0 +1,54 @@
+{
+  "id": "palan-metabase-20261026",
+  "organization": {
+    "name": "palan",
+    "sector": "企業・団体"
+  },
+  "title": "Metabaseへの不正アクセスで利用者・応募者等の個人情報が流出",
+  "summary": "Metabaseへの不正アクセスで利用者・応募者等の個人情報が流出。",
+  "published_on": "2026-10-26",
+  "first_published_on": "2026-10-26",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-10-22",
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "vulnerability",
+    "detail": "データ分析ツールMetabaseの脆弱性を悪用し、不正な管理者アカウントが作成された。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 33348,
+      "unit": "people",
+      "qualifier": "maximum",
+      "description": "会員24,273人・キャンペーン7,225人・問い合わせ1,850人の延べ合計。区分間の重複を含む。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "メールアドレス",
+    "ハッシュ化パスワード",
+    "電話番号",
+    "会社名",
+    "プラン・決済金額・決済日",
+    "年齢層・性別・市区町村",
+    "アンケート・参加履歴",
+    "問い合わせ内容"
+  ],
+  "related_vendor": "Metabase",
+  "sources": [
+    {
+      "url": "https://palan.co.jp/news/20261026",
+      "type": "official",
+      "title": "Metabaseへの不正アクセスで利用者・応募者等の個人情報が流出",
+      "published_on": "2026-10-26",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": "平文パスワード・カード情報・銀行口座は対象外。侵入期間は8月9日～10月21日、個人情報の取得が確認された期間は10月16日まで。"
+}

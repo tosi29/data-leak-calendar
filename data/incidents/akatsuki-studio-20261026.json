@@ -1,0 +1,52 @@
+{
+  "id": "akatsuki-studio-20261026",
+  "organization": {
+    "name": "アカツキグループ",
+    "sector": "企業・団体"
+  },
+  "title": "グループ4社のStudioフォーム情報最大2,884件に漏えいのおそれ",
+  "summary": "グループ4社のStudioフォーム情報最大2,884件に漏えいのおそれ。",
+  "published_on": "2026-10-26",
+  "first_published_on": "2026-10-26",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-10-16",
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。具体的な侵入経路は未公表または調査中。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": 2884,
+      "unit": "records",
+      "qualifier": "maximum",
+      "description": "アカツキ425件、ソリューションズ936件、ベンチャーズ531件、メディアスタジオ992件の合計。"
+    }
+  ],
+  "data_types": [
+    "氏名・ふりがな",
+    "メールアドレス",
+    "電話番号",
+    "会社名",
+    "職種",
+    "問い合わせ内容",
+    "添付ファイル名"
+  ],
+  "related_vendor": "Studio株式会社",
+  "sources": [
+    {
+      "url": "https://aktsk.jp/news/77142/",
+      "type": "official",
+      "title": "グループ4社のStudioフォーム情報最大2,884件に漏えいのおそれ",
+      "published_on": "2026-10-26",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": "添付された履歴書等のファイル本体は対象外。9月30日～10月1日のアクセス、10月14日までの脆弱性の影響を調査。"
+}

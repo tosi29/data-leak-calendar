@@ -10,7 +10,7 @@
   "publication_kind": "followup",
   "occurred_on": null,
   "detected_on": "2026-10-05",
-  "updated_on": "2026-10-15",
+  "updated_on": "2026-11-01",
   "verification": "official",
   "incident_type": "attack",
   "leak_status": "suspected",
@@ -47,17 +47,34 @@
       "title": "銀のさら・釜寅・すし上等の登録情報漏えいの可能性",
       "published_on": "2026-10-13",
       "checked_on": "2026-10-15"
+    },
+    {
+      "url": "https://www.release.tdnet.info/inbs/140120261029558983.pdf",
+      "type": "official",
+      "title": "29日公表：システム障害による通期業績への影響を合理的に見積もれず、業績予想を取り下げ未定に変更。公式サイト・アプリ停止の一方、電話等で受注を継続。",
+      "published_on": "2026-10-29",
+      "checked_on": "2026-11-01"
     }
   ],
   "notes": "第3報を掲載。先行する障害告知の初報日は未確定。10月13日時点で漏えいの事実・範囲は未特定。家族や配送先の情報を含む可能性がある。サーバー運営会社は本文で社名を確認できずrelated_vendorは未設定。",
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-10-29",
+      "summary": "29日公表：システム障害による通期業績への影響を合理的に見積もれず、業績予想を取り下げ未定に変更。公式サイト・アプリ停止の一方、電話等で受注を継続。",
+      "source_index": 1
+    }
+  ],
   "vendor_research": {
-    "checked_on": "2026-10-15",
+    "checked_on": "2026-11-01",
     "result": "not_identified",
     "note": "サーバーホスティング事業者への言及はありますが社名は記載されていません。同時期の障害から基盤事業者を推定していません。",
     "source_checks": [
       {
         "source_index": 0,
+        "status": "reviewed"
+      },
+      {
+        "source_index": 1,
         "status": "reviewed"
       }
     ]

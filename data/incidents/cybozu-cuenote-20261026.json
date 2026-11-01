@@ -4,14 +4,14 @@
     "name": "サイボウズ株式会社",
     "sector": "企業・団体"
   },
-  "title": "各種お知らせの配信先アドレス等23,384件の漏えい",
-  "summary": "Cuenote FCへの不正アクセスにより、配信先のメールアドレス・会社名23,384件の漏えいを確認。",
+  "title": "Cuenoteの配信先情報23,392件の漏えいを確認",
+  "summary": "Cuenoteの配信先情報の漏えいを確認。28日21時43分に件数を23,384件から23,392件へ訂正し、氏名を対象項目に追加。",
   "published_on": "2026-10-26",
   "first_published_on": "2026-10-26",
   "publication_kind": "initial",
   "occurred_on": null,
   "detected_on": null,
-  "updated_on": "2026-10-28",
+  "updated_on": "2026-11-01",
   "verification": "official",
   "leak_status": "confirmed",
   "incident_type": "attack",
@@ -22,15 +22,16 @@
   },
   "impact": [
     {
-      "count": 23384,
+      "count": 23392,
       "unit": "records",
       "qualifier": "exact",
-      "description": "各種お知らせの配信先情報。"
+      "description": "28日21時43分の訂正後の配信先件数。訂正前は23,384件。"
     }
   ],
   "data_types": [
     "メールアドレス",
-    "会社名"
+    "会社名",
+    "氏名"
   ],
   "related_vendor": "ユミルリンク株式会社",
   "sources": [
@@ -44,15 +45,25 @@
     {
       "url": "https://topics.cybozu.co.jp/news/2026/10/28-19557.html",
       "type": "official",
-      "title": "配信先のメールアドレス・会社名23,384件の漏えいを確認。",
+      "title": "配信先情報の漏えいに関するご報告（件数・項目訂正、29日追記）",
       "published_on": "2026-10-28",
-      "checked_on": "2026-10-28"
+      "checked_on": "2026-11-01"
     }
   ],
   "updates": [
     {
       "date": "2026-10-28",
-      "summary": "配信先のメールアドレス・会社名23,384件の漏えいを確認。",
+      "summary": "28日の当初発表では配信先情報23,384件と説明。その後同日中に件数・項目を訂正。",
+      "source_index": 1
+    },
+    {
+      "date": "2026-10-28",
+      "summary": "28日21時43分訂正：対象件数を23,392件へ変更し、対象項目に氏名を追加。",
+      "source_index": 1
+    },
+    {
+      "date": "2026-10-29",
+      "summary": "29日15時15分から対象者に個別通知を開始。17時56分更新で案内。",
       "source_index": 1
     }
   ],

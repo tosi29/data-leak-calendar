@@ -1,0 +1,50 @@
+{
+  "id": "jprouso-mail-list-20261026",
+  "organization": {
+    "name": "日本郵政グループ労働組合",
+    "sector": "企業・団体"
+  },
+  "title": "旧メールマガジンの配信リストから個人情報の一部が流出",
+  "summary": "旧メールマガジンの配信リストから個人情報の一部が流出。",
+  "published_on": "2026-10-26",
+  "first_published_on": "2026-10-26",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。具体的な侵入経路は未公表または調査中。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "漏えいの可能性がある配信リストは4万件以上。実際の流出件数は未確定であり、4万件を確定値や上限として表示しない。"
+    }
+  ],
+  "data_types": [
+    "地方本部名",
+    "氏名",
+    "組合員番号",
+    "性別",
+    "メールアドレス"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.jprouso.or.jp/system/servlet/yusei.UserMain?method=show_detail&clause_id=18457",
+      "type": "official",
+      "title": "旧メールマガジンの配信リストから個人情報の一部が流出",
+      "published_on": "2026-10-26",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": "2019年まで利用したメールマガジンの配信リスト。サイト運営事業者名・侵入経路は未公表。"
+}

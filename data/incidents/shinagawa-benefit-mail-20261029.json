@@ -1,0 +1,46 @@
+{
+  "id": "shinagawa-benefit-mail-20261029",
+  "organization": {
+    "name": "品川区",
+    "sector": "自治体"
+  },
+  "title": "支援給付金の通知3件を誤送付",
+  "summary": "支援給付金の通知3件を誤送付。",
+  "published_on": "2026-10-29",
+  "first_published_on": "2026-10-29",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "accident",
+  "cause": {
+    "category": "misdelivery",
+    "detail": "通知書の送付先を誤った。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 3,
+      "unit": "documents",
+      "qualifier": "exact",
+      "description": "電力・ガス等価格高騰対策支援給付金に関する通知。"
+    }
+  ],
+  "data_types": [
+    "給付金通知の記載情報（詳細非公表）"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.city.shinagawa.tokyo.jp/kusei/press_release/1008314/1011935.html",
+      "type": "official",
+      "title": "支援給付金の通知3件を誤送付",
+      "published_on": "2026-10-29",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": "誤送付した通知を回収。具体的な情報項目・人数は公表から確定しない。"
+}

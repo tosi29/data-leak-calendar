@@ -1,0 +1,67 @@
+{
+  "id": "officecue-arara-20261030",
+  "organization": {
+    "name": "クリエイティブオフィスキュー",
+    "sector": "企業・団体"
+  },
+  "title": "ThankCUE+・coron web shopのメールアドレスへの影響を調査",
+  "summary": "ThankCUE+・coron web shopのメールアドレスへの影響を調査。",
+  "published_on": "2026-10-30",
+  "first_published_on": "2026-10-30",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "investigating",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。具体的な侵入経路は未公表または調査中。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "対象規模は未公表。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "株式会社ホットファクトリー",
+  "sources": [
+    {
+      "url": "https://www.office-cue.com/view.php?id=1840&c=info",
+      "type": "official",
+      "title": "ThankCUE+・coron web shopのメールアドレスへの影響を調査",
+      "published_on": "2026-10-30",
+      "checked_on": "2026-11-01"
+    },
+    {
+      "url": "https://www.office-cue.com/",
+      "type": "official",
+      "title": "公式インフォメーション一覧で公表日時を確認",
+      "published_on": "2026-10-30",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": "自社メールマガジンの利用者が流出対象に含まれるか調査中。公式トップのお知らせ一覧で30日15時45分の掲載を確認。",
+  "vendors": [
+    {
+      "name": "株式会社ホットファクトリー",
+      "role": "service",
+      "detail": "公表資料に記載されたサービスの提供・利用経路の関係会社。",
+      "source_index": 0
+    },
+    {
+      "name": "アララ株式会社",
+      "role": "service",
+      "detail": "公表資料に記載されたサービスの提供・利用経路の関係会社。",
+      "source_index": 0
+    }
+  ]
+}

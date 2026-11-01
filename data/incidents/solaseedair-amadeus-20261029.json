@@ -1,0 +1,60 @@
+{
+  "id": "solaseedair-amadeus-20261029",
+  "organization": {
+    "name": "ソラシドエア",
+    "sector": "企業・団体"
+  },
+  "title": "Amadeusの予約個人情報への不正アクセスの影響を調査",
+  "summary": "Amadeusの予約個人情報への不正アクセスの影響を調査。",
+  "published_on": "2026-10-29",
+  "first_published_on": "2026-10-29",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "investigating",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。具体的な侵入経路は未公表または調査中。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "対象規模は未公表。"
+    }
+  ],
+  "data_types": [
+    "予約に関する個人情報（詳細調査中）"
+  ],
+  "related_vendor": "Amadeus IT Group S.A.",
+  "sources": [
+    {
+      "url": "https://www.solaseedair.jp/info/2026/10/info-20261029.html",
+      "type": "official",
+      "title": "Amadeusの予約個人情報への不正アクセスの影響を調査",
+      "published_on": "2026-10-29",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": "ANA経由で利用するシステムに参照痕跡があるとの報告。自社の影響範囲の特定を継続。",
+  "vendors": [
+    {
+      "name": "Amadeus IT Group S.A.",
+      "role": "service",
+      "detail": "公表資料に記載されたサービスの提供・利用経路の関係会社。",
+      "source_index": 0
+    },
+    {
+      "name": "全日本空輸株式会社",
+      "role": "service",
+      "detail": "公表資料に記載されたサービスの提供・利用経路の関係会社。",
+      "source_index": 0
+    }
+  ]
+}

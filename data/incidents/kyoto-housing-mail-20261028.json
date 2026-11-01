@@ -1,0 +1,48 @@
+{
+  "id": "kyoto-housing-mail-20261028",
+  "organization": {
+    "name": "京都市住宅供給公社",
+    "sector": "自治体"
+  },
+  "title": "家賃催告書2通に別人の個人情報を印刷して誤送付",
+  "summary": "家賃催告書2通に別人の個人情報を印刷して誤送付。",
+  "published_on": "2026-10-28",
+  "first_published_on": "2026-10-28",
+  "publication_kind": "initial",
+  "occurred_on": "2026-10-19",
+  "detected_on": "2026-10-23",
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "accident",
+  "cause": {
+    "category": "misdelivery",
+    "detail": "印刷操作のミスと送付時の確認漏れが原因と推測され、詳細を検証中。",
+    "certainty": "suspected"
+  },
+  "impact": [
+    {
+      "count": 2,
+      "unit": "documents",
+      "qualifier": "exact",
+      "description": "別人の情報を裏面に印刷した催告書。回収対象36人全員が漏えい対象という意味ではない。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "家賃滞納額"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.city.kyoto.lg.jp/tokei/page/0000359729.html",
+      "type": "official",
+      "title": "家賃催告書2通に別人の個人情報を印刷して誤送付",
+      "published_on": "2026-10-28",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": "28日中に発送先36人全員の回収等対応を完了し、誤印刷は2通のみと確認。"
+}

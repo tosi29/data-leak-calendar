@@ -1,0 +1,56 @@
+{
+  "id": "taito-tsutaju-travelzip-20261026",
+  "organization": {
+    "name": "台東区大河ドラマ「べらぼう」活用推進協議会",
+    "sector": "自治体"
+  },
+  "title": "公開終了した観光サイトの問い合わせ者93人の情報が流出",
+  "summary": "公開終了した観光サイトの問い合わせ者93人の情報が流出。",
+  "published_on": "2026-10-26",
+  "first_published_on": "2026-10-26",
+  "publication_kind": "initial",
+  "occurred_on": "2026-10-22",
+  "detected_on": "2026-10-23",
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。具体的な侵入経路は未公表または調査中。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": 93,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "蔦重ゆかりの地 台東区の問い合わせ者。提供元のデータ件数とは異なる。"
+    }
+  ],
+  "data_types": [
+    "氏名・ふりがな",
+    "メールアドレス",
+    "住所",
+    "電話番号",
+    "問い合わせ内容"
+  ],
+  "related_vendor": "株式会社トラベルジップ",
+  "sources": [
+    {
+      "url": "https://www.city.taito.lg.jp/bunka_kanko/other/tsutaju.html",
+      "type": "official",
+      "title": "公開終了した観光サイトの問い合わせ者93人の情報が流出",
+      "published_on": "2026-10-26",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [
+    {
+      "date": "2026-10-29",
+      "summary": "29日に対象者へお詫びのメールを送付。",
+      "source_index": 0
+    }
+  ],
+  "notes": "3月12日に公開終了したサイトの保管データ。本文の経過で26日の対外公表を確認。29日更新を30日に掲載したページ。"
+}

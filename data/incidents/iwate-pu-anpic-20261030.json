@@ -1,0 +1,46 @@
+{
+  "id": "iwate-pu-anpic-20261030",
+  "organization": {
+    "name": "岩手県立大学",
+    "sector": "教育"
+  },
+  "title": "ANPICの登録メールアドレスに外部サービス経由の漏えいのおそれ",
+  "summary": "ANPICの登録メールアドレスに外部サービス経由の漏えいのおそれ。",
+  "published_on": "2026-10-30",
+  "first_published_on": "2026-10-30",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-10-29",
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。具体的な侵入経路は未公表または調査中。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": 5300,
+      "unit": "records",
+      "qualifier": "approximate",
+      "description": "令和8年度の登録メールアドレス数。過年度分が加わる可能性があり、流出確認件数・上限ではない。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "株式会社アバンセシステム",
+  "sources": [
+    {
+      "url": "https://www.iwate-pu.ac.jp/storage/website/2602-ad722587d7281f8ecf7f41df7db6c0be/page/hd-f5790ee1-cc0c-4e89-b748-39e521cb65f9/081030_ANPIC.pdf",
+      "type": "official",
+      "title": "ANPICの登録メールアドレスに外部サービス経由の漏えいのおそれ",
+      "published_on": "2026-10-30",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": "ANPICが利用する外部サービスで発生。外部サービス名は公表資料から特定しない。氏名・所属は対象外。"
+}

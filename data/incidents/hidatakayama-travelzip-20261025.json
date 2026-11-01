@@ -1,0 +1,64 @@
+{
+  "id": "hidatakayama-travelzip-20261025",
+  "organization": {
+    "name": "飛騨・高山観光コンベンション協会",
+    "sector": "企業・団体"
+  },
+  "title": "観光サイトの問い合わせ・視察申込情報449件が流出",
+  "summary": "観光サイトの問い合わせ・視察申込情報449件が流出。",
+  "published_on": "2026-10-25",
+  "first_published_on": "2026-10-25",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-10-23",
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。具体的な侵入経路は未公表または調査中。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": 449,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "協議会が確認した重複を除いた対象件数。提供元のテスト等を含む件数とは一致しない。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "会社名・担当者名",
+    "メールアドレス",
+    "電話番号",
+    "住所",
+    "問い合わせ・視察申込内容"
+  ],
+  "related_vendor": "株式会社トラベルジップ",
+  "sources": [
+    {
+      "url": "https://dmo-hidatakayama.com/news/417/",
+      "type": "official",
+      "title": "観光サイトの問い合わせ・視察申込情報449件が流出",
+      "published_on": "2026-10-25",
+      "checked_on": "2026-11-01"
+    },
+    {
+      "url": "https://dmo-hidatakayama.com/news/445/",
+      "type": "official",
+      "title": "対象者への個別通知を完了。",
+      "published_on": "2026-10-26",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [
+    {
+      "date": "2026-10-26",
+      "summary": "対象者への個別通知を完了。",
+      "source_index": 1
+    }
+  ],
+  "notes": "2024年2月21日～2026年2月6日の問い合わせ、2026年4月15日～7月1日の視察申込が対象。"
+}

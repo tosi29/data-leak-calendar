@@ -1,0 +1,59 @@
+{
+  "id": "ibank-wallet-cuenote-20261027",
+  "organization": {
+    "name": "iBankマーケティング",
+    "sector": "企業・団体"
+  },
+  "title": "Wallet+のメールアドレス261,855件が漏えい",
+  "summary": "Wallet+のメールアドレス261,855件が漏えい。",
+  "published_on": "2026-10-27",
+  "first_published_on": "2026-10-27",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。具体的な侵入経路は未公表または調査中。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": 261855,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "福岡銀行136,011件、十八親和銀行37,737件、八十二長野銀行88,107件。各銀行の公表分と重複。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "ユミルリンク株式会社",
+  "sources": [
+    {
+      "url": "https://www.ibank.co.jp/news/pdf/20261027_iBank_release.pdf",
+      "type": "official",
+      "title": "Wallet+のメールアドレス261,855件が漏えい",
+      "published_on": "2026-10-27",
+      "checked_on": "2026-11-01"
+    },
+    {
+      "url": "https://www.ibank.co.jp/news/pdf/20261029_iBank_release.pdf",
+      "type": "official",
+      "title": "29日続報で漏えいを確認し対象261,855件と登録銀行別の内訳を公表。",
+      "published_on": "2026-10-29",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [
+    {
+      "date": "2026-10-29",
+      "summary": "29日続報で漏えいを確認し対象261,855件と登録銀行別の内訳を公表。",
+      "source_index": 1
+    }
+  ],
+  "notes": "氏名・口座情報・パスワード・取引履歴は含まれない。Wallet+自体への不正アクセスとは区別。"
+}

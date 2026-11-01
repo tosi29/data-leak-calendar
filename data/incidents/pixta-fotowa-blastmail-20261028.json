@@ -1,0 +1,47 @@
+{
+  "id": "pixta-fotowa-blastmail-20261028",
+  "organization": {
+    "name": "ピクスタ（fotowa）",
+    "sector": "企業・団体"
+  },
+  "title": "fotowaの氏名・メールアドレス86,300件が漏えい",
+  "summary": "fotowaの氏名・メールアドレス86,300件が漏えい。",
+  "published_on": "2026-10-28",
+  "first_published_on": "2026-10-28",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-10-23",
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。具体的な侵入経路は未公表または調査中。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": 86300,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "公表時点の対象件数。精査により変動する可能性がある。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "メールアドレス"
+  ],
+  "related_vendor": "株式会社ラクスライトクラウド",
+  "sources": [
+    {
+      "url": "https://pixta.co.jp/news/2129",
+      "type": "official",
+      "title": "fotowaの氏名・メールアドレス86,300件が漏えい",
+      "published_on": "2026-10-28",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": "配信リスト履歴の残存で対象範囲が拡大。ID・パスワード・カード・住所・撮影予約内容は含まれない。"
+}

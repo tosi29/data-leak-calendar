@@ -1,0 +1,57 @@
+{
+  "id": "chuo-furusato-choice-20261027",
+  "organization": {
+    "name": "中央区",
+    "sector": "自治体"
+  },
+  "title": "ふるさとチョイス経由の寄附者情報への流出影響を公表",
+  "summary": "ふるさとチョイス経由の寄附者情報への流出影響を公表。",
+  "published_on": "2026-10-27",
+  "first_published_on": null,
+  "publication_kind": "followup",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。具体的な侵入経路は未公表または調査中。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "対象規模は未公表。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "メールアドレス",
+    "住所",
+    "電話番号",
+    "ハッシュ化パスワード",
+    "寄附控除試算額"
+  ],
+  "related_vendor": "株式会社トラストバンク",
+  "sources": [
+    {
+      "url": "https://www.city.chuo.lg.jp/a0006/kurashi/zeikin/furusato/furusatonozei_chuocity/hurusatotyoisuhuseiakusesunituite.html",
+      "type": "official",
+      "title": "ふるさとチョイス経由の寄附者情報への流出影響を公表",
+      "published_on": "2026-10-27",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [
+    {
+      "date": "2026-10-27",
+      "summary": "27日更新：追加流出項目の寄附履歴等については、区への寄附者に該当がないと事業者から報告。",
+      "source_index": 0
+    }
+  ],
+  "notes": "団体応援寄附事業の区外寄附者が対象。区保有の区民情報の流出とは異なる。27日更新では、23日に判明した追加項目（寄附履歴等）に区の寄附者は該当しないと説明。初報日は未確定。"
+}

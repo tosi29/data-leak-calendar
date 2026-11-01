@@ -1,0 +1,50 @@
+{
+  "id": "yamanashi-homecare-studio-20261029",
+  "organization": {
+    "name": "山梨県",
+    "sector": "自治体"
+  },
+  "title": "在宅医療研修会・相談事業のフォーム情報305件に漏えいのおそれ",
+  "summary": "在宅医療研修会・相談事業のフォーム情報305件に漏えいのおそれ。",
+  "published_on": "2026-10-29",
+  "first_published_on": "2026-10-29",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。具体的な侵入経路は未公表または調査中。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": 305,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "派遣相談59件、研修会54件・102件・90件の延べ合計。人数ではない。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "医療機関・所属先",
+    "メールアドレス",
+    "電話番号",
+    "問い合わせ内容"
+  ],
+  "related_vendor": "Studio株式会社",
+  "sources": [
+    {
+      "url": "https://www.pref.yamanashi.jp/release/imuka/0810/r8zaitakuiryokensyuukaiadobaizari.html",
+      "type": "official",
+      "title": "在宅医療研修会・相談事業のフォーム情報305件に漏えいのおそれ",
+      "published_on": "2026-10-29",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": "2024年4月～2026年9月末の申込・問い合わせ。他のフォームは対象外。"
+}

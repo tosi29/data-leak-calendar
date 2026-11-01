@@ -1,0 +1,52 @@
+{
+  "id": "travelzip-tourism-20261026",
+  "organization": {
+    "name": "トラベルジップ",
+    "sector": "企業・団体"
+  },
+  "title": "自治体観光サイトのデータベース等から個人情報が流出",
+  "summary": "自治体観光サイトのデータベース等から個人情報が流出。",
+  "published_on": "2026-10-26",
+  "first_published_on": null,
+  "publication_kind": "followup",
+  "occurred_on": null,
+  "detected_on": "2026-10-23",
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "vulnerability",
+    "detail": "管理画面の記事編集・画像アップロード機能の脆弱性から不正プログラムを設置・実行し、データベースとバックアップを取得された。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 7050,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "データ件数。管理アカウント・開発テストを含み、重複除外後は6,782件。実人数や自治体の公表人数とは異なる。"
+    }
+  ],
+  "data_types": [
+    "氏名・ふりがな",
+    "会社名",
+    "メールアドレス",
+    "住所",
+    "電話番号",
+    "問い合わせ内容",
+    "写真利用申請・視察申込内容"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://travelzip.jp/feature/6",
+      "type": "official",
+      "title": "自治体観光サイトのデータベース等から個人情報が流出",
+      "published_on": "2026-10-26",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": "確認できた第2報の26日17時30分更新で掲載。23日の自治体への報告を対外初報日とはしない。台東区・飛騨高山等の個別公表分と重複。PHPの公表脆弱性とは無関係と説明。"
+}

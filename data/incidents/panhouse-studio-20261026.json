@@ -1,0 +1,57 @@
+{
+  "id": "panhouse-studio-20261026",
+  "organization": {
+    "name": "パンハウス",
+    "sector": "企業・団体"
+  },
+  "title": "Studioの問い合わせ情報739人・延べ1,209件に漏えいのおそれ",
+  "summary": "Studioの問い合わせ情報739人・延べ1,209件に漏えいのおそれ。",
+  "published_on": "2026-10-26",
+  "first_published_on": "2026-10-26",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。具体的な侵入経路は未公表または調査中。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": 739,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "対象者数。延べ1,209件のフォーム回答に対応するため合算しない。"
+    },
+    {
+      "count": 1209,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "延べ回答件数。同一人物の複数回答を含む。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "会社名",
+    "メールアドレス",
+    "電話番号",
+    "部署・役職",
+    "問い合わせ内容"
+  ],
+  "related_vendor": "Studio株式会社",
+  "sources": [
+    {
+      "url": "https://panhouse.jp/news/2026-10-notice-001/",
+      "type": "official",
+      "title": "Studioの問い合わせ情報739人・延べ1,209件に漏えいのおそれ",
+      "published_on": "2026-10-26",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": "2024年9月～2026年9月の問い合わせに関する公表。新サイトへの移行後の扱いは公式通知を参照。パスワード・カード情報は保有しない。"
+}

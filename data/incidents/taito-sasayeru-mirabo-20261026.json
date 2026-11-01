@@ -1,0 +1,46 @@
+{
+  "id": "taito-sasayeru-mirabo-20261026",
+  "organization": {
+    "name": "台東区",
+    "sector": "自治体"
+  },
+  "title": "障害者支援アプリの登録メールアドレス197件が流出",
+  "summary": "障害者支援アプリの登録メールアドレス197件が流出。",
+  "published_on": "2026-10-26",
+  "first_published_on": "2026-10-26",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-10-23",
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "vulnerability",
+    "detail": "アカウント登録・権限管理の設計上の不備により不正な管理者権限が付与され、データがダウンロードされた。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 197,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "ささえ～るに登録されたメールアドレス。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "株式会社ミラボ",
+  "sources": [
+    {
+      "url": "https://www.city.taito.lg.jp/kenkohukusi/shogai/osirase/0000000000.html",
+      "type": "official",
+      "title": "障害者支援アプリの登録メールアドレス197件が流出",
+      "published_on": "2026-10-26",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": "氏名・住所・電話番号は含まれない。見出しの26日19時公表を採用しページ更新日27日と区別。"
+}

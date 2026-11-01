@@ -1,0 +1,48 @@
+{
+  "id": "sankeiliving-cuenote-20261030",
+  "organization": {
+    "name": "サンケイリビング新聞社",
+    "sector": "企業・団体"
+  },
+  "title": "Cuenoteの配信先情報に漏えいのおそれ",
+  "summary": "Cuenoteの配信先情報に漏えいのおそれ。",
+  "published_on": "2026-10-30",
+  "first_published_on": "2026-10-30",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。具体的な侵入経路は未公表または調査中。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "対象規模は未公表。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "メールアドレス",
+    "その他の配信先情報（調査中）"
+  ],
+  "related_vendor": "ユミルリンク株式会社",
+  "sources": [
+    {
+      "url": "https://oshirase.living.jp/news/20261030.html",
+      "type": "official",
+      "title": "Cuenoteの配信先情報に漏えいのおそれ",
+      "published_on": "2026-10-30",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": "20日には対象外と報告されたが26日に対象の可能性が判明。21日公表の自社サーバー侵害とは経路が異なり、関係は調査中。"
+}

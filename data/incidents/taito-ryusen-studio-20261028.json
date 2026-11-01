@@ -1,0 +1,50 @@
+{
+  "id": "taito-ryusen-studio-20261028",
+  "organization": {
+    "name": "台東区",
+    "sector": "自治体"
+  },
+  "title": "竜泉福祉センターの申込情報737件に漏えいのおそれ",
+  "summary": "竜泉福祉センターの申込情報737件に漏えいのおそれ。",
+  "published_on": "2026-10-28",
+  "first_published_on": "2026-10-28",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。具体的な侵入経路は未公表または調査中。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": 737,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "いきいきてらすの事業申込フォームの情報。"
+    }
+  ],
+  "data_types": [
+    "氏名・ふりがな",
+    "住所",
+    "メールアドレス",
+    "電話番号",
+    "性別"
+  ],
+  "related_vendor": "Studio株式会社",
+  "sources": [
+    {
+      "url": "https://www.city.taito.lg.jp/kenkohukusi/korei/ryusenfuseiaccess.html",
+      "type": "official",
+      "title": "竜泉福祉センターの申込情報737件に漏えいのおそれ",
+      "published_on": "2026-10-28",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": "フォーム利用を停止。確認された流出件数ではない。"
+}

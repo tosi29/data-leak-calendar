@@ -1,0 +1,46 @@
+{
+  "id": "kuwahara-blastmail-20261026",
+  "organization": {
+    "name": "桑原",
+    "sector": "企業・団体"
+  },
+  "title": "メール配信用に登録した個人情報に漏えいのおそれ",
+  "summary": "メール配信用に登録した個人情報に漏えいのおそれ。",
+  "published_on": "2026-10-26",
+  "first_published_on": "2026-10-26",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-10-23",
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。具体的な侵入経路は未公表または調査中。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "対象規模は未公表。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "株式会社ラクスライトクラウド",
+  "sources": [
+    {
+      "url": "https://www.kuwatechno.jp/archives/3451",
+      "type": "official",
+      "title": "メール配信用に登録した個人情報に漏えいのおそれ",
+      "published_on": "2026-10-26",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": "自社の登録情報も対象と報告。名刺交換・イベント・サービス登録等で取得した情報。登録項目として明記されたメールアドレスを記録。カード・パスワードは保有しない。"
+}

@@ -1,0 +1,53 @@
+{
+  "id": "iwaki-fc-blastmail-20261026",
+  "organization": {
+    "name": "いわきフィルム・コミッション協議会",
+    "sector": "企業・団体"
+  },
+  "title": "メール配信先の氏名・アドレスへの影響を調査",
+  "summary": "メール配信先の氏名・アドレスへの影響を調査。",
+  "published_on": "2026-10-26",
+  "first_published_on": "2026-10-26",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "investigating",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。具体的な侵入経路は未公表または調査中。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "対象規模は未公表。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "メールアドレス"
+  ],
+  "related_vendor": "株式会社ラクスライトクラウド",
+  "sources": [
+    {
+      "url": "https://iwaki-fc.jp/2026/news/8038/",
+      "type": "official",
+      "title": "メール配信先の氏名・アドレスへの影響を調査",
+      "published_on": "2026-10-26",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [
+    {
+      "date": "2026-10-30",
+      "summary": "30日更新：当協議会の情報の漏えいは確認されておらず、調査を継続。",
+      "source_index": 0
+    }
+  ],
+  "notes": "30日時点で当協議会の情報の漏えいは確認されていない。提供元の漏えいと当協議会の対象確認を区別。"
+}

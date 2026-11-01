@@ -11,7 +11,7 @@
   "publication_kind": "initial",
   "occurred_on": null,
   "detected_on": null,
-  "updated_on": "2026-10-20",
+  "updated_on": "2026-11-01",
   "verification": "official",
   "leak_status": "exposed",
   "incident_type": "accident",
@@ -44,8 +44,21 @@
       "title": "送り状注文機能での他利用者情報の閲覧可能状態",
       "published_on": "2026-10-13",
       "checked_on": "2026-10-20"
+    },
+    {
+      "url": "https://www.post.japanpost.jp/newsrelease/pressrelease/9641457061.html",
+      "type": "official",
+      "title": "27日6時に送り状注文・集荷依頼機能を再開。お試しIDの新規登録は引き続き停止。",
+      "published_on": "2026-10-27",
+      "checked_on": "2026-11-01"
     }
   ],
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-10-27",
+      "summary": "27日6時に送り状注文・集荷依頼機能を再開。お試しIDの新規登録は引き続き停止。",
+      "source_index": 1
+    }
+  ],
   "notes": "ダウンロード・利用の形跡は未確認。停止日は10月8日、公表日は10月13日。"
 }

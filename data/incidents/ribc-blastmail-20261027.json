@@ -1,0 +1,46 @@
+{
+  "id": "ribc-blastmail-20261027",
+  "organization": {
+    "name": "建築コスト管理システム研究所",
+    "sector": "企業・団体"
+  },
+  "title": "公共建築月間の案内先メールアドレスが漏えい",
+  "summary": "公共建築月間の案内先メールアドレスが漏えい。",
+  "published_on": "2026-10-27",
+  "first_published_on": "2026-10-27",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。具体的な侵入経路は未公表または調査中。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "対象規模は未公表。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "株式会社ラクスライトクラウド",
+  "sources": [
+    {
+      "url": "https://www.ribc.or.jp/news_release/2026/nr2026_0001.pdf",
+      "type": "official",
+      "title": "公共建築月間の案内先メールアドレスが漏えい",
+      "published_on": "2026-10-27",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": "10月6日配信の令和8年度公共建築月間記念行事の案内先リスト全件。会社名・担当者名等は登録していない。"
+}

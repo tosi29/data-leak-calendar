@@ -1,0 +1,46 @@
+{
+  "id": "okinawa-shimamaru-arara-20261029",
+  "organization": {
+    "name": "沖縄県（島まーる）",
+    "sector": "自治体"
+  },
+  "title": "島まーるの登録メールアドレス2,560件に漏えいのおそれ",
+  "summary": "島まーるの登録メールアドレス2,560件に漏えいのおそれ。",
+  "published_on": "2026-10-29",
+  "first_published_on": "2026-10-29",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。具体的な侵入経路は未公表または調査中。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": 2560,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "メール配信サービスに登録したアドレス件数。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "アララ株式会社",
+  "sources": [
+    {
+      "url": "https://www.pref.okinawa.lg.jp/kensei/shinko/1017087/1017118/1041801.html",
+      "type": "official",
+      "title": "島まーるの登録メールアドレス2,560件に漏えいのおそれ",
+      "published_on": "2026-10-29",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": "事業受託者は離島とのつながり促進事業共同企業体（代表：おきなわコークリエーション）。氏名は対象外。"
+}

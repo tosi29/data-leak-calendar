@@ -1,0 +1,71 @@
+{
+  "id": "apides-bownow-20261026",
+  "organization": {
+    "name": "アピデ",
+    "sector": "企業・団体"
+  },
+  "title": "BowNowの配信情報が流出し最大4,483件が対象",
+  "summary": "BowNowの配信情報が流出し最大4,483件が対象。",
+  "published_on": "2026-10-26",
+  "first_published_on": "2026-10-26",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。具体的な侵入経路は未公表または調査中。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": 4483,
+      "unit": "records",
+      "qualifier": "maximum",
+      "description": "2016年1月～2026年10月21日の対象情報。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "メールアドレス",
+    "会社名",
+    "住所",
+    "電話番号"
+  ],
+  "related_vendor": "クラウドサーカス株式会社",
+  "sources": [
+    {
+      "url": "https://www.apides.co.jp/news/261026.html",
+      "type": "official",
+      "title": "BowNowの配信情報が流出し最大4,483件が対象",
+      "published_on": "2026-10-26",
+      "checked_on": "2026-11-01"
+    },
+    {
+      "url": "https://www.apides.co.jp/",
+      "type": "official",
+      "title": "公式お知らせ一覧で26日公表を確認",
+      "published_on": "2026-10-26",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": "",
+  "vendors": [
+    {
+      "name": "クラウドサーカス株式会社",
+      "role": "service",
+      "detail": "公表資料に記載されたサービスの提供・利用経路の関係会社。",
+      "source_index": 0
+    },
+    {
+      "name": "株式会社ラクスライトクラウド",
+      "role": "service",
+      "detail": "公表資料に記載されたサービスの提供・利用経路の関係会社。",
+      "source_index": 0
+    }
+  ]
+}

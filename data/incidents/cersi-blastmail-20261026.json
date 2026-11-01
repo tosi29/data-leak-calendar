@@ -1,0 +1,47 @@
+{
+  "id": "cersi-blastmail-20261026",
+  "organization": {
+    "name": "企業環境リスク解決機構",
+    "sector": "企業・団体"
+  },
+  "title": "講習案内等のメール配信先の氏名・アドレスが漏えい",
+  "summary": "講習案内等のメール配信先の氏名・アドレスが漏えい。",
+  "published_on": "2026-10-26",
+  "first_published_on": "2026-10-26",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。具体的な侵入経路は未公表または調査中。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "対象規模は未公表。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "メールアドレス"
+  ],
+  "related_vendor": "株式会社ラクスライトクラウド",
+  "sources": [
+    {
+      "url": "https://kigkt.cersi.jp/ksb/news/2987/",
+      "type": "official",
+      "title": "講習案内等のメール配信先の氏名・アドレスが漏えい",
+      "published_on": "2026-10-26",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": "石綿講習会・産業廃棄物検定の申込内容と支払い情報は対象外。"
+}

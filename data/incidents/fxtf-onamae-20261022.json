@@ -1,0 +1,60 @@
+{
+  "id": "fxtf-onamae-20261022",
+  "organization": {
+    "name": "ゴールデンウェイ・ジャパン（FXTF）",
+    "sector": "企業・団体"
+  },
+  "title": "外部VPS経由で取引口座の認証情報が閲覧され不正取引が発生",
+  "summary": "外部VPS経由で取引口座の認証情報が閲覧され不正取引が発生。",
+  "published_on": "2026-10-22",
+  "first_published_on": "2026-10-22",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-10-22",
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。具体的な侵入経路は未公表または調査中。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "accounts",
+      "qualifier": "unknown",
+      "description": "複数のMT4口座で影響を確認。正確な件数は未公表。"
+    }
+  ],
+  "data_types": [
+    "ログインID",
+    "パスワード"
+  ],
+  "related_vendor": "GMOインターネット株式会社",
+  "sources": [
+    {
+      "url": "https://www.fxtrade.co.jp/2026-10-22/",
+      "type": "official",
+      "title": "外部VPS経由で取引口座の認証情報が閲覧され不正取引が発生",
+      "published_on": "2026-10-22",
+      "checked_on": "2026-11-01"
+    },
+    {
+      "url": "https://www.fxtrade.co.jp/2026-10-26/",
+      "type": "official",
+      "title": "複数のMT4口座で影響を確認。対象口座の取引を制限し本人確認後に順次対応。",
+      "published_on": "2026-10-26",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [
+    {
+      "date": "2026-10-26",
+      "summary": "複数のMT4口座で影響を確認。対象口座の取引を制限し本人確認後に順次対応。",
+      "source_index": 1
+    }
+  ],
+  "notes": "自社からの顧客データ流出とは区別。VPS利用者の認証情報閲覧と取引被害。"
+}

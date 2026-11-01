@@ -1,0 +1,64 @@
+{
+  "id": "saison-tokukai-benefit-20261028",
+  "organization": {
+    "name": "クレディセゾン（トク買）",
+    "sector": "企業・団体"
+  },
+  "title": "トク買の登録者29,465人の個人情報が漏えい",
+  "summary": "トク買の登録者29,465人の個人情報が漏えい。",
+  "published_on": "2026-10-28",
+  "first_published_on": "2026-10-28",
+  "publication_kind": "initial",
+  "occurred_on": "2026-10-14",
+  "detected_on": "2026-10-21",
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。具体的な侵入経路は未公表または調査中。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": 29465,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "退会済みを一部含む。調査継続により変動の可能性がある。"
+    }
+  ],
+  "data_types": [
+    "氏名・ふりがな",
+    "メールアドレス",
+    "入退会情報",
+    "決済処理用管理番号",
+    "決済連携用認証情報"
+  ],
+  "related_vendor": "株式会社ベネフィット・ワン",
+  "sources": [
+    {
+      "url": "https://www.saisoncard.co.jp/customer-support/information/20261028/",
+      "type": "official",
+      "title": "トク買の登録者29,465人の個人情報が漏えい",
+      "published_on": "2026-10-28",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": "ベネフィット・ワンの同事案の対象と重複。カード番号・有効期限・セキュリティコードは流出していない。26日に連携認証情報を変更し不正決済のリスクを遮断。スマート不動産投資の事案とは別。",
+  "vendors": [
+    {
+      "name": "株式会社ベネフィット・ワン",
+      "role": "service",
+      "detail": "公表資料に記載されたサービスの提供・利用経路の関係会社。",
+      "source_index": 0
+    },
+    {
+      "name": "株式会社フォレステック",
+      "role": "operations",
+      "detail": "ベネフィット・ワンの委託先としてトク買のシステムを管理。",
+      "source_index": 0
+    }
+  ]
+}

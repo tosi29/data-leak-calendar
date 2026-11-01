@@ -1,0 +1,61 @@
+{
+  "id": "micin-curon-20261027",
+  "organization": {
+    "name": "MICIN",
+    "sector": "企業・団体"
+  },
+  "title": "クロンの医療機関・患者アカウントへの不正アクセスで患者情報が漏えい",
+  "summary": "クロンの医療機関・患者アカウントへの不正アクセスで患者情報が漏えい。",
+  "published_on": "2026-10-27",
+  "first_published_on": "2026-10-27",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-10-23",
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "credentials",
+    "detail": "リスト型攻撃による認証情報の不正利用の可能性を調査。",
+    "certainty": "suspected"
+  },
+  "impact": [
+    {
+      "count": 73,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "3医療機関で漏えいが確認された患者。別に患者用14アカウントへの不正アクセスがあり、人数を合算しない。"
+    },
+    {
+      "count": 14,
+      "unit": "accounts",
+      "qualifier": "exact",
+      "description": "不正アクセスを確認した患者アカウント数。患者73人との重複は未確定。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "メールアドレス",
+    "電話番号",
+    "生年月日",
+    "住所",
+    "性別",
+    "カルテ番号・診察券番号",
+    "受診状況・医師メモ",
+    "受診者コード",
+    "処方箋画像・診療記録・利用履歴"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://micin.jp/news/14859/",
+      "type": "official",
+      "title": "クロンの医療機関・患者アカウントへの不正アクセスで患者情報が漏えい",
+      "published_on": "2026-10-27",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": "医療機関側は5施設6アカウントへの不正アクセスを確認。対象項目はアカウント・患者ごとに異なり、全員について全項目が漏えいしたという意味ではない。ID・パスワード・カード情報の漏えいは否定。"
+}

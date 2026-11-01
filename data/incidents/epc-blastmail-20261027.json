@@ -11,7 +11,7 @@
   "publication_kind": "followup",
   "occurred_on": null,
   "detected_on": null,
-  "updated_on": "2026-10-28",
+  "updated_on": "2026-11-01",
   "verification": "official",
   "leak_status": "investigating",
   "incident_type": "attack",
@@ -38,13 +38,18 @@
       "type": "official",
       "title": "3メールマガジンの配信先情報への影響を調査",
       "published_on": "2026-10-27",
-      "checked_on": "2026-10-28"
+      "checked_on": "2026-11-01"
     }
   ],
   "updates": [
     {
       "date": "2026-10-28",
       "summary": "12時時点で3メールマガジンの配信先漏えいは未確認と追記。調査を継続。",
+      "source_index": 0
+    },
+    {
+      "date": "2026-10-31",
+      "summary": "31日12時更新：対象の3種類のメール配信について漏えいは確認されておらず、引き続き調査。",
       "source_index": 0
     }
   ],

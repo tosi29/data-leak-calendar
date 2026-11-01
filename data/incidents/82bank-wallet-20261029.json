@@ -1,0 +1,60 @@
+{
+  "id": "82bank-wallet-20261029",
+  "organization": {
+    "name": "八十二長野銀行",
+    "sector": "企業・団体"
+  },
+  "title": "Wallet+の登録メールアドレス88,107件が漏えい",
+  "summary": "Wallet+の登録メールアドレス88,107件が漏えい。",
+  "published_on": "2026-10-29",
+  "first_published_on": "2026-10-29",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。具体的な侵入経路は未公表または調査中。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": 88107,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "当該銀行口座をWallet+に登録している利用者のアドレス件数。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "iBankマーケティング株式会社",
+  "sources": [
+    {
+      "url": "https://bank.82group.jp/news/2026/20261029.html",
+      "type": "official",
+      "title": "Wallet+の登録メールアドレス88,107件が漏えい",
+      "published_on": "2026-10-29",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": "iBankの公表総数の内訳にあたり、提供元・利用銀行の件数を合算しない。氏名・口座・パスワード・取引履歴は対象外。",
+  "vendors": [
+    {
+      "name": "iBankマーケティング株式会社",
+      "role": "service",
+      "detail": "公表資料に記載されたサービスの提供・利用経路の関係会社。",
+      "source_index": 0
+    },
+    {
+      "name": "ユミルリンク株式会社",
+      "role": "service",
+      "detail": "公表資料に記載されたサービスの提供・利用経路の関係会社。",
+      "source_index": 0
+    }
+  ]
+}

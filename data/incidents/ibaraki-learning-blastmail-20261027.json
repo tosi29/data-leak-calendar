@@ -1,0 +1,52 @@
+{
+  "id": "ibaraki-learning-blastmail-20261027",
+  "organization": {
+    "name": "茨城県教育委員会",
+    "sector": "自治体"
+  },
+  "title": "生涯学習情報メールの登録アドレスへの影響を調査",
+  "summary": "生涯学習情報メールの登録アドレスへの影響を調査。",
+  "published_on": "2026-10-27",
+  "first_published_on": "2026-10-27",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "investigating",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。具体的な侵入経路は未公表または調査中。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": 1390,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "9月30日時点の登録件数。漏えい確認件数ではない。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "株式会社ラクスライトクラウド",
+  "sources": [
+    {
+      "url": "https://www.gakusyu.pref.ibaraki.jp/plugin/blogs/show/339/2726/686",
+      "type": "official",
+      "title": "生涯学習情報メールの登録アドレスへの影響を調査",
+      "published_on": "2026-10-27",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [
+    {
+      "date": "2026-11-01",
+      "summary": "11月1日13時更新でも、県の登録情報の漏えいは確認されていない。引き続き調査。",
+      "source_index": 0
+    }
+  ],
+  "notes": "11月1日13時時点で自県情報の漏えい確認の報告はなく、調査継続。"
+}

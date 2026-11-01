@@ -1,0 +1,64 @@
+{
+  "id": "dcm-cuenote-20261027",
+  "organization": {
+    "name": "DCMホールディングス（DCM）",
+    "sector": "企業・団体"
+  },
+  "title": "マイボのメール配信用会員情報753,272人分が漏えい",
+  "summary": "マイボのメール配信用会員情報753,272人分が漏えい。",
+  "published_on": "2026-10-27",
+  "first_published_on": "2026-10-27",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-10-26",
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。具体的な侵入経路は未公表または調査中。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": 753272,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "29日時点の対象者。このうち422人はメールアドレス・会員IDのみで、総数に加算しない。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス",
+    "会員ID",
+    "氏名",
+    "性別",
+    "生年月",
+    "居住都道府県"
+  ],
+  "related_vendor": "ユミルリンク株式会社",
+  "sources": [
+    {
+      "url": "https://www.dcm-hc.co.jp/news/news_file/file/20261027news.pdf",
+      "type": "official",
+      "title": "マイボのメール配信用会員情報753,272人分が漏えい",
+      "published_on": "2026-10-27",
+      "checked_on": "2026-11-01"
+    },
+    {
+      "url": "https://www.dcm-hc.co.jp/news/news_file/file/20261030news.pdf",
+      "type": "official",
+      "title": "第2報で漏えい確認に変更し753,272人と公表。30日から対象者へ個別通知。",
+      "published_on": "2026-10-30",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [
+    {
+      "date": "2026-10-30",
+      "summary": "第2報で漏えい確認に変更し753,272人と公表。30日から対象者へ個別通知。",
+      "source_index": 1
+    }
+  ],
+  "notes": "13日公表の会員情報管理システム侵害とは別事案。パスワード・カード・ポイント残高・利用履歴は対象外。"
+}

@@ -1,0 +1,47 @@
+{
+  "id": "medianavi-blastmail-20261030",
+  "organization": {
+    "name": "メディアナビ",
+    "sector": "企業・団体"
+  },
+  "title": "メール配信先の氏名・アドレス約11万件が漏えい",
+  "summary": "メール配信先の氏名・アドレス約11万件が漏えい。",
+  "published_on": "2026-10-30",
+  "first_published_on": "2026-10-30",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。具体的な侵入経路は未公表または調査中。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": 110000,
+      "unit": "records",
+      "qualifier": "approximate",
+      "description": "配信停止済みの読者情報も含む。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "メールアドレス"
+  ],
+  "related_vendor": "株式会社ラクスライトクラウド",
+  "sources": [
+    {
+      "url": "https://www.medianavi.co.jp/info/info_20261030.html",
+      "type": "official",
+      "title": "メール配信先の氏名・アドレス約11万件が漏えい",
+      "published_on": "2026-10-30",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": "22日のサービス停止告知とは区別し、個人情報漏えいを公表した30日で掲載。23日報告受領、28日対象データ受領。住所・パスワード・カード・購入履歴は対象外。"
+}

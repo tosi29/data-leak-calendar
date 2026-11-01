@@ -1,0 +1,74 @@
+{
+  "id": "starflyer-amadeus-20261029",
+  "organization": {
+    "name": "スターフライヤー",
+    "sector": "企業・団体"
+  },
+  "title": "Amadeusで予約者の個人情報が参照された形跡",
+  "summary": "Amadeusで予約者の個人情報が参照された形跡。",
+  "published_on": "2026-10-29",
+  "first_published_on": "2026-10-29",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。具体的な侵入経路は未公表または調査中。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "対象規模は未公表。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "予約番号",
+    "搭乗日・区間・クラス",
+    "メールアドレス",
+    "電話番号",
+    "マイレージ番号",
+    "航空会社・便名",
+    "航空券番号",
+    "座席番号"
+  ],
+  "related_vendor": "Amadeus IT Group S.A.",
+  "sources": [
+    {
+      "url": "https://www.starflyer.jp/news/2026/news_20261029_info.html",
+      "type": "official",
+      "title": "Amadeusで予約者の個人情報が参照された形跡",
+      "published_on": "2026-10-29",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [
+    {
+      "date": "2026-10-30",
+      "summary": "30日更新で予約対象期間と参照された形跡のある情報項目を案内。対象者は引き続き確認中。",
+      "source_index": 0
+    }
+  ],
+  "notes": "2025年7月28日～2026年9月23日に予約した一部顧客。予約期間を攻撃期間としない。カード情報・パスワードは含まれない。",
+  "vendors": [
+    {
+      "name": "Amadeus IT Group S.A.",
+      "role": "service",
+      "detail": "公表資料に記載されたサービスの提供・利用経路の関係会社。",
+      "source_index": 0
+    },
+    {
+      "name": "全日本空輸株式会社",
+      "role": "service",
+      "detail": "公表資料に記載されたサービスの提供・利用経路の関係会社。",
+      "source_index": 0
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "id": "enigmo-cuenote-20261027",
+  "organization": {
+    "name": "エニグモ（BUYMA）",
+    "sector": "企業・団体"
+  },
+  "title": "Cuenoteの配信先情報に漏えいのおそれ",
+  "summary": "Cuenoteの配信先情報に漏えいのおそれ。",
+  "published_on": "2026-10-27",
+  "first_published_on": "2026-10-27",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "vulnerability",
+    "detail": "メール配信サービスの脆弱性を悪用し、エクスポート機能が不正利用された。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "対象規模は未公表。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス",
+    "その他の配信先情報（詳細調査中）"
+  ],
+  "related_vendor": "ユミルリンク株式会社",
+  "sources": [
+    {
+      "url": "https://enigmo.co.jp/wp-content/uploads/2026/10/PR_20261027_YML.pdf",
+      "type": "official",
+      "title": "Cuenoteの配信先情報に漏えいのおそれ",
+      "published_on": "2026-10-27",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": "アドレス帳のエクスポート痕跡を確認し流出の可能性が高いと説明。BUYMAの基幹システムへの影響はなく、決済情報・パスワードは保有しない。"
+}

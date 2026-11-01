@@ -1,0 +1,52 @@
+{
+  "id": "miyazaki-kikitabi-palan-20261027",
+  "organization": {
+    "name": "宮崎県",
+    "sector": "自治体"
+  },
+  "title": "キキタビ観光ガイドのアンケート情報551件が漏えい",
+  "summary": "キキタビ観光ガイドのアンケート情報551件が漏えい。",
+  "published_on": "2026-10-27",
+  "first_published_on": "2026-10-27",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-10-26",
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。具体的な侵入経路は未公表または調査中。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": 551,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "アンケート回答情報。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス",
+    "性別",
+    "年齢層",
+    "居住地域",
+    "認知経路",
+    "訪問歴",
+    "旅行目的"
+  ],
+  "related_vendor": "株式会社palan",
+  "sources": [
+    {
+      "url": "https://www.pref.miyazaki.lg.jp/kanko-suishin/press/2026/10/20261027100338.html",
+      "type": "official",
+      "title": "キキタビ観光ガイドのアンケート情報551件が漏えい",
+      "published_on": "2026-10-27",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": "みやざき神話さんぽ－キキタビ観光ガイド－の委託運用先で発生。"
+}

@@ -1,0 +1,46 @@
+{
+  "id": "echannel-hoikuis-arara-20261029",
+  "organization": {
+    "name": "e-CHANNEL（ほいくis）",
+    "sector": "企業・団体"
+  },
+  "title": "ほいくisのメールアドレスにアララ経由の漏えいのおそれ",
+  "summary": "ほいくisのメールアドレスにアララ経由の漏えいのおそれ。",
+  "published_on": "2026-10-29",
+  "first_published_on": "2026-10-29",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。具体的な侵入経路は未公表または調査中。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "対象規模は未公表。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "アララ株式会社",
+  "sources": [
+    {
+      "url": "https://hoiku-is.jp/job/news/news-145/",
+      "type": "official",
+      "title": "ほいくisのメールアドレスにアララ経由の漏えいのおそれ",
+      "published_on": "2026-10-29",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": "自社システムへの不正アクセスとは区別。件数は調査中。"
+}

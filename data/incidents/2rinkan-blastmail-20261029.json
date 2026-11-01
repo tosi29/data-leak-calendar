@@ -1,0 +1,53 @@
+{
+  "id": "2rinkan-blastmail-20261029",
+  "organization": {
+    "name": "2りんかんイエローハット",
+    "sector": "企業・団体"
+  },
+  "title": "メールマガジンのアドレス最大489,564人分が漏えい",
+  "summary": "メールマガジンのアドレス最大489,564人分が漏えい。",
+  "published_on": "2026-10-29",
+  "first_published_on": "2026-10-29",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。具体的な侵入経路は未公表または調査中。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": 489564,
+      "unit": "people",
+      "qualifier": "maximum",
+      "description": "メールマガジン配信希望者の最大対象範囲。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "株式会社ラクスライトクラウド",
+  "sources": [
+    {
+      "url": "https://2rinkan.jp/annai/20261028/",
+      "type": "official",
+      "title": "メールマガジンのアドレス最大489,564人分が漏えい",
+      "published_on": "2026-10-29",
+      "checked_on": "2026-11-01"
+    },
+    {
+      "url": "https://2rinkan.jp/",
+      "type": "official",
+      "title": "公式お知らせ一覧で29日掲載を確認",
+      "published_on": "2026-10-29",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": "公式一覧の掲載日29日を採用。本文URLの28日や第三者索引の日付だけで公表日を決めない。春の自社アプリ事案とは別。"
+}

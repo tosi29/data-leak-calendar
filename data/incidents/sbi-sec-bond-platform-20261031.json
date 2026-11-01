@@ -1,0 +1,47 @@
+{
+  "id": "sbi-sec-bond-platform-20261031",
+  "organization": {
+    "name": "SBI証券",
+    "sector": "企業・団体"
+  },
+  "title": "デジタル特典付き社債の購入者1,169人に情報漏えいのおそれ",
+  "summary": "デジタル特典付き社債の購入者1,169人に情報漏えいのおそれ。",
+  "published_on": "2026-10-31",
+  "first_published_on": "2026-10-31",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。具体的な侵入経路は未公表または調査中。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": 1169,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "近鉄グループホールディングス第135回社債の対象購入者。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "購入金額"
+  ],
+  "related_vendor": "株式会社NTTデータ",
+  "sources": [
+    {
+      "url": "https://www.sbisec.co.jp/ETGate/?OutSide=on&_ControlID=WPLETmgR001Control&_PageID=WPLETmgR001Mdtl30&_ActionID=DefaultAID&_DataStoreID=DSWPLETmgR001Control&getFlg=on&burl=search_home&cat1=home&cat2=info&dir=info&file=home_info261031_bond.html",
+      "type": "official",
+      "title": "デジタル特典付き社債の購入者1,169人に情報漏えいのおそれ",
+      "published_on": "2026-10-31",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": "外部委託先のデジタル証券プラットフォームで発生。発行体・他社の対象者と重複するため合算しない。証券口座番号・パスワードは対象外。"
+}

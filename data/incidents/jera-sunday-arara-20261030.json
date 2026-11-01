@@ -1,0 +1,46 @@
+{
+  "id": "jera-sunday-arara-20261030",
+  "organization": {
+    "name": "JERA",
+    "sector": "企業・団体"
+  },
+  "title": "サンデイのメール配信先アドレスへの影響を調査",
+  "summary": "サンデイのメール配信先アドレスへの影響を調査。",
+  "published_on": "2026-10-30",
+  "first_published_on": "2026-10-30",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "investigating",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。具体的な侵入経路は未公表または調査中。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "対象規模は未公表。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "アララ株式会社",
+  "sources": [
+    {
+      "url": "https://www.jera.co.jp/news/notice/20261030_2567",
+      "type": "official",
+      "title": "サンデイのメール配信先アドレスへの影響を調査",
+      "published_on": "2026-10-30",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": "自社の登録アドレスが流出対象か確認中。他の情報は配信先サービスに登録していない。PHP対応に伴う予防的なサービス停止を侵入原因としない。"
+}

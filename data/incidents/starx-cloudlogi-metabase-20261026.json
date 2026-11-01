@@ -1,0 +1,60 @@
+{
+  "id": "starx-cloudlogi-metabase-20261026",
+  "organization": {
+    "name": "スタークス",
+    "sector": "企業・団体"
+  },
+  "title": "クラウドロジ関連のMetabaseからAPIキーが漏えいし個人情報への影響も調査",
+  "summary": "クラウドロジ関連のMetabaseからAPIキーが漏えいし個人情報への影響も調査。",
+  "published_on": "2026-10-26",
+  "first_published_on": "2026-10-26",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。具体的な侵入経路は未公表または調査中。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "対象規模は未公表。"
+    }
+  ],
+  "data_types": [
+    "個人情報（詳細調査中）",
+    "APIキー"
+  ],
+  "related_vendor": "Metabase",
+  "sources": [
+    {
+      "url": "https://starx.co.jp/news/1024.html",
+      "type": "official",
+      "title": "クラウドロジ関連のMetabaseからAPIキーが漏えいし個人情報への影響も調査",
+      "published_on": "2026-10-26",
+      "checked_on": "2026-11-01"
+    },
+    {
+      "url": "https://starx.co.jp/news/1040.html",
+      "type": "official",
+      "title": "第2報でAPIキーの漏えいを確認。個人情報等の実際の漏えい有無・範囲は調査中。26日に個人情報保護委員会へ速報。",
+      "published_on": "2026-10-28",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [
+    {
+      "date": "2026-10-28",
+      "summary": "第2報でAPIキーの漏えいを確認。個人情報等の実際の漏えい有無・範囲は調査中。26日に個人情報保護委員会へ速報。",
+      "source_index": 1
+    }
+  ],
+  "notes": "APIキーは漏えい確認、個人情報は漏えいの可能性を調査中と区別。本番環境への侵入は確認されていない。"
+}

@@ -1,0 +1,46 @@
+{
+  "id": "shimatabi-arara-20261029",
+  "organization": {
+    "name": "おきなわコークリエーション（しまたび）",
+    "sector": "企業・団体"
+  },
+  "title": "しまたびのメールマガジン登録アドレスに漏えいのおそれ",
+  "summary": "しまたびのメールマガジン登録アドレスに漏えいのおそれ。",
+  "published_on": "2026-10-29",
+  "first_published_on": "2026-10-29",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-10-28",
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。具体的な侵入経路は未公表または調査中。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "対象規模は未公表。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "アララ株式会社",
+  "sources": [
+    {
+      "url": "https://shimatabi-rito.com/notice/post-9786/",
+      "type": "official",
+      "title": "しまたびのメールマガジン登録アドレスに漏えいのおそれ",
+      "published_on": "2026-10-29",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": "島まーるとは別のサービス利用者への公表。氏名・住所・電話・パスワード・カード情報は含まれない。対象アドレス・件数は調査中。"
+}

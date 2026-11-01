@@ -11,7 +11,7 @@
   "publication_kind": "initial",
   "occurred_on": null,
   "detected_on": "2026-10-11",
-  "updated_on": "2026-10-23",
+  "updated_on": "2026-11-01",
   "verification": "official",
   "incident_type": "attack",
   "leak_status": "suspected",
@@ -90,7 +90,7 @@
       "type": "official",
       "title": "SpeeCAN RAIDENへの不正アクセスに伴う一連の対応（第9報まで）",
       "published_on": "2026-10-13",
-      "checked_on": "2026-10-20"
+      "checked_on": "2026-11-01"
     },
     {
       "url": "https://raiden.site.ktaiwork.jp/wp-content/uploads/sites/2/2026/10/2026_10_19AccessIncident.pdf",
@@ -121,10 +121,20 @@
       "date": "2026-10-20",
       "summary": "第11報でNET119の対象を9,020件のメールアドレスに紐づく個人情報と更新。要配慮個人情報の漏洩はないと確認。第13報では報告代行を案内。",
       "source_index": 1
+    },
+    {
+      "date": "2026-10-26",
+      "summary": "26日第23報：同意を得た団体の個人情報保護委員会への代行報告を23日に実施。",
+      "source_index": 1
+    },
+    {
+      "date": "2026-10-30",
+      "summary": "30日第24報：SpeeCAN RAIDENスマホサイトにログイン時2段階認証機能を追加。",
+      "source_index": 1
     }
   ],
   "vendor_research": {
-    "checked_on": "2026-10-20",
+    "checked_on": "2026-11-01",
     "result": "not_identified",
     "note": "掲載出典と追加検索で、当該事案に関係する外部の開発・運用・サービス・基盤会社の社名と役割を特定できませんでした。",
     "source_checks": [

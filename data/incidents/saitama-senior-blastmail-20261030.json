@@ -1,0 +1,47 @@
+{
+  "id": "saitama-senior-blastmail-20261030",
+  "organization": {
+    "name": "埼玉県",
+    "sector": "自治体"
+  },
+  "title": "シニア活躍推進宣言企業約2,900社の担当者情報に漏えいのおそれ",
+  "summary": "シニア活躍推進宣言企業約2,900社の担当者情報に漏えいのおそれ。",
+  "published_on": "2026-10-30",
+  "first_published_on": "2026-10-30",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-10-30",
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。具体的な侵入経路は未公表または調査中。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": 2900,
+      "unit": "organizations",
+      "qualifier": "approximate",
+      "description": "登録企業の事業所数。個人の人数ではない。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "メールアドレス"
+  ],
+  "related_vendor": "株式会社ラクスライトクラウド",
+  "sources": [
+    {
+      "url": "https://www.pref.saitama.lg.jp/a0816/news/page/news2026103001.html",
+      "type": "official",
+      "title": "シニア活躍推進宣言企業約2,900社の担当者情報に漏えいのおそれ",
+      "published_on": "2026-10-30",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": "事業受託者がメール配信に利用。受託者名は未公表。"
+}

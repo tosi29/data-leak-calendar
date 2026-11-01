@@ -1,0 +1,54 @@
+{
+  "id": "phillip-digital-securities-20261031",
+  "organization": {
+    "name": "フィリップ・キャピタル証券",
+    "sector": "企業・団体"
+  },
+  "title": "デジタル証券プラットフォームから顧客162人の情報が漏えい",
+  "summary": "デジタル証券プラットフォームから顧客162人の情報が漏えい。",
+  "published_on": "2026-10-31",
+  "first_published_on": "2026-10-31",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-10-29",
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。具体的な侵入経路は未公表または調査中。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": 162,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "対象顧客総数。このうち100人の投資家登録情報、1人の住所等を含む。内訳を加算しない。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "取引数量・保有数量",
+    "居住国",
+    "取引日時",
+    "投資家ID",
+    "メールアドレス",
+    "生年月日",
+    "登録状態・登録日",
+    "住所"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.phillip.co.jp/information/news/11486",
+      "type": "official",
+      "title": "デジタル証券プラットフォームから顧客162人の情報が漏えい",
+      "published_on": "2026-10-31",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": "情報項目は対象者により異なる。銀行口座情報は登録していない。委託先名は公表資料から特定しない。"
+}

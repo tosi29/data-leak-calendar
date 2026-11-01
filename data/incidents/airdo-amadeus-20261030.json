@@ -1,0 +1,60 @@
+{
+  "id": "airdo-amadeus-20261030",
+  "organization": {
+    "name": "AIRDO",
+    "sector": "企業・団体"
+  },
+  "title": "Amadeusの予約情報で一部個人情報が参照された形跡",
+  "summary": "Amadeusの予約情報で一部個人情報が参照された形跡。",
+  "published_on": "2026-10-30",
+  "first_published_on": "2026-10-30",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "第三者による不正アクセス。具体的な侵入経路は未公表または調査中。",
+    "certainty": "unknown"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "対象規模は未公表。"
+    }
+  ],
+  "data_types": [
+    "予約に関する個人情報（詳細調査中）"
+  ],
+  "related_vendor": "Amadeus IT Group S.A.",
+  "sources": [
+    {
+      "url": "https://www.airdo.jp/news/2026/news-10716.html",
+      "type": "official",
+      "title": "Amadeusの予約情報で一部個人情報が参照された形跡",
+      "published_on": "2026-10-30",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": "ANA経由で利用する旅客サービスシステム。対象範囲・件数は確認中。他社の件数を流用しない。",
+  "vendors": [
+    {
+      "name": "Amadeus IT Group S.A.",
+      "role": "service",
+      "detail": "公表資料に記載されたサービスの提供・利用経路の関係会社。",
+      "source_index": 0
+    },
+    {
+      "name": "全日本空輸株式会社",
+      "role": "service",
+      "detail": "公表資料に記載されたサービスの提供・利用経路の関係会社。",
+      "source_index": 0
+    }
+  ]
+}
