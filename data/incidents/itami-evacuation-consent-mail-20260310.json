@@ -1,0 +1,61 @@
+{
+  "id": "itami-evacuation-consent-mail-20260310",
+  "organization": {
+    "name": "伊丹市",
+    "sector": "自治体"
+  },
+  "title": "避難行動要支援者の同意確認書で宛名と住所が不一致",
+  "summary": "避難行動要支援者の同意確認書で宛名と住所が不一致。",
+  "published_on": "2026-03-10",
+  "first_published_on": "2026-03-10",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "accident",
+  "cause": {
+    "category": "misdelivery",
+    "detail": "避難行動要支援者の同意確認書で宛名と住所が不一致。詳細は公表資料を参照。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 80,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "4月1日時点で市が示した漏えい疑い件数。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "性別",
+    "生年月日"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.city.itami.lg.jp/material/files/group/5/20260310press2.pdf",
+      "type": "official",
+      "title": "避難行動要支援者の同意確認書で宛名と住所が不一致",
+      "published_on": "2026-03-10",
+      "checked_on": "2026-11-01"
+    },
+    {
+      "url": "https://www.city.itami.lg.jp/SOSIKI/SOMU/KIKIKANRI/SAIGAINISONAETE/YOUHAIRYOSYA_HINANKOUDOUYOUSIENSYA_SIEN/47665.html",
+      "type": "official",
+      "title": "同意確認書の誤送付（4月1日時点の集計）",
+      "published_on": "2026-04-06",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [
+    {
+      "date": "2026-04-06",
+      "source_index": 1,
+      "summary": "返戻を除いた漏えい疑い件数を80件と公表。"
+    }
+  ],
+  "notes": "4月6日更新の市ページでは4月1日時点の漏えい疑い80件。発送総数3,447件、氏名・住所不一致2,133件、返戻2,053件と区別。人数と同一視しない。"
+}

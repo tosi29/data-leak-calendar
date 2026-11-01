@@ -8134,5 +8134,602 @@
     "source_urls": [
       "https://www.yakult.co.jp/maintenance/"
     ]
+  },
+  {
+    "candidate": {
+      "id": "oct22-review-sawara-library",
+      "organization": "福岡市早良図書館",
+      "reported_on": "2026-10-15",
+      "verification": "pending",
+      "reference_url": "https://www.security-next.com/191406",
+      "note": "2026年10月27日再調査：早良図書館の45件誤送信は報道で確認できるが、9月6日の送信・15日の発覚と対外公表日を結び付ける資料が未確認。10月の記事日を公表日にはしない。",
+      "reviewed_on": "2026-10-27",
+      "checked_urls": [
+        "https://www.security-next.com/191406"
+      ]
+    },
+    "reviewed_on": "2026-11-01",
+    "resolution": "published",
+    "incident_ids": [
+      "fukuoka-sawara-library-mail-20260916"
+    ],
+    "source_urls": [
+      "https://www.city.fukuoka.lg.jp/shisei/kouhou-hodo/hodo-happyo/2026/documents/20260916kojinjouhounoryuushutujiannituite.pdf"
+    ],
+    "reason": "既存掲載の対象・経緯を照合。同じ事案の確認待ち候補を解消。"
+  },
+  {
+    "candidate": {
+      "id": "may-review-8485cff410fd",
+      "organization": "キャンディル／キャンディルパートナーズ",
+      "reported_on": "2026-10-26",
+      "verification": "pending",
+      "reference_url": "https://www.candeal.co.jp/post_prnews/6095/",
+      "note": "2026年10月27日再調査：キャンディル関連の当該告知本文を取得できず、メンテナンス・障害から個人情報への影響を確定できない。",
+      "reviewed_on": "2026-10-27",
+      "checked_urls": [
+        "https://www.candeal.co.jp/post_prnews/6095/"
+      ]
+    },
+    "reviewed_on": "2026-11-01",
+    "resolution": "published",
+    "incident_ids": [
+      "candeal-ransom-final-20260512"
+    ],
+    "source_urls": [
+      "https://www.candeal.co.jp/post_prnews/6095/"
+    ],
+    "reason": "公表日と個人情報への影響を本文で照合し掲載。"
+  },
+  {
+    "candidate": {
+      "id": "may-review-b26835e8266e",
+      "organization": "交通指導員が小学校児童の登下校用名簿を紛失 - 名古屋市",
+      "reported_on": "2026-10-26",
+      "verification": "pending",
+      "reference_url": "https://www.security-next.com/184673",
+      "note": "2026年10月27日再調査：登下校用名簿の児童17名という報道は確認したが、4月23日の発覚とは別の市の公表日を裏付ける資料が未確認。",
+      "reviewed_on": "2026-10-27",
+      "checked_urls": [
+        "https://www.security-next.com/184673"
+      ]
+    },
+    "reviewed_on": "2026-11-01",
+    "resolution": "published",
+    "incident_ids": [
+      "nagoya-meito-school-list-loss-20260501"
+    ],
+    "source_urls": [
+      "https://www.city.nagoya.jp/houdou/3003942/3003944/3004575.html"
+    ],
+    "reason": "公表日と個人情報への影響を本文で照合し掲載。"
+  },
+  {
+    "candidate": {
+      "id": "may-review-d854b230868c",
+      "organization": "配達員がバイクで用水路に転落、郵便物が所在不明に - 郵便局",
+      "reported_on": "2026-10-26",
+      "verification": "pending",
+      "reference_url": "https://www.security-next.com/184478",
+      "note": "2026年10月27日再調査：バイク転落に伴う郵便物紛失の報道は確認したが、郵便局・日本郵便の当該公表日と対象の単位を確定できない。",
+      "reviewed_on": "2026-10-27",
+      "checked_urls": [
+        "https://www.security-next.com/184478"
+      ]
+    },
+    "reviewed_on": "2026-11-01",
+    "resolution": "published",
+    "incident_ids": [
+      "japanpost-hokuriku-canal-loss-20260427"
+    ],
+    "source_urls": [
+      "https://www.post.japanpost.jp/notification/pressrelease/2026/07_hokuriku/0427_01_01.pdf"
+    ],
+    "reason": "公表日と個人情報への影響を本文で照合し掲載。"
+  },
+  {
+    "candidate": {
+      "id": "may-review-94895e5df181",
+      "organization": "SNS公開のインタビュー動画に患者が映り込み - 大田記念病院",
+      "reported_on": "2026-10-26",
+      "verification": "pending",
+      "reference_url": "https://www.security-next.com/184742",
+      "note": "2026年10月27日再調査：SNS動画への患者映り込みに関する元の病院告知を確認できない。対象と同意の扱い、公表日を報道記事の日付だけから決めない。",
+      "reviewed_on": "2026-10-27",
+      "checked_urls": [
+        "https://www.security-next.com/184742"
+      ]
+    },
+    "reviewed_on": "2026-11-01",
+    "resolution": "published",
+    "incident_ids": [
+      "ota-hospital-recruit-video-20260501"
+    ],
+    "source_urls": [
+      "https://www.shouwa.or.jp/2026/05/01/%E5%80%8B%E4%BA%BA%E6%83%85%E5%A0%B1%E6%BC%8F%E6%B4%A9%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E3%81%8A%E8%A9%AB%E3%81%B3%E3%81%A8%E3%81%94%E5%A0%B1%E5%91%8A/"
+    ],
+    "reason": "既存掲載の対象・経緯を照合。同じ事案の確認待ち候補を解消。"
+  },
+  {
+    "candidate": {
+      "id": "may-review-3b244f2cca7c",
+      "organization": "生活保護相談者の個人情報含む記録票を紛失 - 熊本市",
+      "reported_on": "2026-10-26",
+      "verification": "pending",
+      "reference_url": "https://www.security-next.com/184471",
+      "note": "2026年10月27日再調査：生活保護相談の記録票紛失に対応する公表日・公式資料を確認できない。今回追加した心理相談予約簿220名の別事案と混同しない。",
+      "reviewed_on": "2026-10-27",
+      "checked_urls": [
+        "https://www.security-next.com/184471"
+      ]
+    },
+    "reviewed_on": "2026-11-01",
+    "resolution": "published",
+    "incident_ids": [
+      "kumamoto-nishi-welfare-record-loss-20260423"
+    ],
+    "source_urls": [
+      "https://www.city.kumamoto.jp/kiji00370582/index.html"
+    ],
+    "reason": "公表日と個人情報への影響を本文で照合し掲載。"
+  },
+  {
+    "candidate": {
+      "id": "may-review-69345bdf63d3",
+      "organization": "アルバイト応募者情報が流出、従業員SNS投稿で - 餃子専門店",
+      "reported_on": "2026-10-26",
+      "verification": "pending",
+      "reference_url": "https://www.security-next.com/184107",
+      "note": "2026年10月27日再調査：アルバイト応募者情報のSNS投稿に関する報道は確認したが、ダンダダン側の当該公表日を特定できない。",
+      "reviewed_on": "2026-10-27",
+      "checked_urls": [
+        "https://www.security-next.com/184107"
+      ]
+    },
+    "reviewed_on": "2026-11-01",
+    "resolution": "published",
+    "incident_ids": [
+      "dandadan-applicant-sns-20260502"
+    ],
+    "source_urls": [
+      "https://www.dandadan.jp/news/9118/"
+    ],
+    "reason": "公表日と個人情報への影響を本文で照合し掲載。"
+  },
+  {
+    "candidate": {
+      "id": "apr-review-fe41affea63b",
+      "organization": "制服の受け渡し連絡メールで誤送信 - カンコー学生服",
+      "reported_on": "2026-10-26",
+      "verification": "pending",
+      "reference_url": "https://www.security-next.com/183766",
+      "note": "2026年10月27日再調査：盛岡の制服受け渡し連絡533件の誤送信は報道で確認したが、3月28日の送信と対外公表日の関係が未確認。期間内かどうかを記事日から決めない。",
+      "reviewed_on": "2026-10-27",
+      "checked_urls": [
+        "https://www.security-next.com/183766"
+      ]
+    },
+    "reviewed_on": "2026-11-01",
+    "resolution": "published",
+    "incident_ids": [
+      "kanko-morioka-mail-20260409"
+    ],
+    "source_urls": [
+      "https://www.kanko-shop-morioka.com/"
+    ],
+    "reason": "既存掲載の対象・経緯を照合。同じ事案の確認待ち候補を解消。"
+  },
+  {
+    "candidate": {
+      "id": "apr-review-0d50cdefbc67",
+      "organization": "トリプル選挙の一部関係文書が所在不明 - 大阪市",
+      "reported_on": "2026-10-26",
+      "verification": "pending",
+      "reference_url": "https://www.security-next.com/183155",
+      "note": "2026年10月27日再調査：東淀川区の選挙関係文書31名分の紛失という報道を確認したが、2月18日の発覚とは別の公表日を特定できない。4月9日の記事日では期間内と確定できない。",
+      "reviewed_on": "2026-10-27",
+      "checked_urls": [
+        "https://www.security-next.com/183155"
+      ]
+    },
+    "reviewed_on": "2026-11-01",
+    "resolution": "published",
+    "incident_ids": [
+      "osaka-higashiyodogawa-election-loss-20260326"
+    ],
+    "source_urls": [
+      "https://www.city.osaka.lg.jp/hodoshiryo/higashiyodogawa/0000676256.html"
+    ],
+    "reason": "公表日と個人情報への影響を本文で照合し掲載。"
+  },
+  {
+    "candidate": {
+      "id": "apr-review-c01e2b1cfa6b",
+      "organization": "予約管理システムの管理者アカウントに不正アクセス - ホテルプリンセス京都",
+      "reported_on": "2026-10-26",
+      "verification": "pending",
+      "reference_url": "https://www.security-next.com/182845",
+      "note": "2026年10月27日再調査：ホテル日航プリンセス京都のExpedia予約管理アカウント侵害は報道で確認したが、3月2日の発生と対外公表日の区別が未確認。4月3日の記事日を公表日にはしない。",
+      "reviewed_on": "2026-10-27",
+      "checked_urls": [
+        "https://www.security-next.com/182845"
+      ]
+    },
+    "reviewed_on": "2026-11-01",
+    "resolution": "published",
+    "incident_ids": [
+      "princess-kyoto-expedia-20260319"
+    ],
+    "source_urls": [
+      "https://www.princess-kyoto.co.jp/info/133371/"
+    ],
+    "reason": "既存掲載の対象・経緯を照合。同じ事案の確認待ち候補を解消。"
+  },
+  {
+    "candidate": {
+      "id": "q1-jal-20260210",
+      "organization": "日本航空（2026年2月公表）",
+      "reported_on": "2026-02-10",
+      "verification": "pending",
+      "reference_url": "https://web.archive.org/web/20260211224849id_/https://www.jal.co.jp/jp/ja/info/2026/other/260210/",
+      "note": "保存版は空本文。個人情報の対象項目・公表日を一次本文で確定できず、10月のAmadeus事案と混同しない。",
+      "reviewed_on": "2026-11-01"
+    },
+    "reviewed_on": "2026-11-01",
+    "resolution": "published",
+    "incident_ids": [
+      "jal-sameday-baggage-investigation-20260210"
+    ],
+    "source_urls": [
+      "https://web.archive.org/web/20260211224849id_/https://www.jal.co.jp/jp/ja/info/2026/other/260210/",
+      "https://www.itmedia.co.jp/news/article/2602/17/1260217130/"
+    ],
+    "reason": "公表日と個人情報への影響を本文で照合し掲載。"
+  },
+  {
+    "candidate": {
+      "id": "q1-deep-014b9a880a78",
+      "organization": "門川町",
+      "reported_on": "2026-03-30",
+      "verification": "pending",
+      "reference_url": "https://www.town.kadogawa.lg.jp/administration/cat2/page005526.html",
+      "note": "USB紛失と児童情報は確認したが、対外公表日を本文から確定できない。 reported_onは探索索引の日付で、掲載用の公表日としては未確定。",
+      "reviewed_on": "2026-11-01",
+      "checked_urls": [
+        "https://www.town.kadogawa.lg.jp/administration/cat2/page005526.html"
+      ]
+    },
+    "reviewed_on": "2026-11-01",
+    "resolution": "published",
+    "incident_ids": [
+      "kadogawa-nursery-usb-loss-20260330"
+    ],
+    "source_urls": [
+      "https://www.town.kadogawa.lg.jp/administration/data/06b7a54761b1897eabe316bbda98fe86.pdf"
+    ],
+    "reason": "公表日と個人情報への影響を本文で照合し掲載。"
+  },
+  {
+    "candidate": {
+      "id": "q1-deep-04d4f29ccadc",
+      "organization": "ユタカ電業株式会社",
+      "reported_on": "2026-03-26",
+      "verification": "pending",
+      "reference_url": "https://yutaka-d.co.jp/information/news/000070.html",
+      "note": "Chatworkへの侵入と会話閲覧の可能性は公表されているが、個人情報の対象範囲が不明。 reported_onは探索索引の日付で、掲載用の公表日としては未確定。",
+      "reviewed_on": "2026-11-01",
+      "checked_urls": [
+        "https://yutaka-d.co.jp/information/news/000070.html"
+      ]
+    },
+    "reviewed_on": "2026-11-01",
+    "resolution": "published",
+    "incident_ids": [
+      "yutaka-chatwork-20260424"
+    ],
+    "source_urls": [
+      "https://yutaka-d.co.jp/information/news/000074.html",
+      "https://yutaka-d.co.jp/information/"
+    ],
+    "reason": "既存掲載の対象・経緯を照合。同じ事案の確認待ち候補を解消。"
+  },
+  {
+    "candidate": {
+      "id": "q1-deep-7ed5d8fc1d70",
+      "organization": "鳥取県／ジェイエムインテグラル",
+      "reported_on": "2026-03-12",
+      "verification": "pending",
+      "reference_url": "https://www.pref.tottori.lg.jp/322678.htm",
+      "note": "県の月次索引に掲載はあるが、個別公表資料を取得できない。 reported_onは探索索引の日付で、掲載用の公表日としては未確定。",
+      "reviewed_on": "2026-11-01",
+      "checked_urls": [
+        "https://www.pref.tottori.lg.jp/322678.htm"
+      ]
+    },
+    "reviewed_on": "2026-11-01",
+    "resolution": "published",
+    "incident_ids": [
+      "tottori-medical-dx-seminar-mail-20260323"
+    ],
+    "source_urls": [
+      "https://www.pref.tottori.lg.jp/secure/1421632/11fukushi_houkoku20260323.pdf"
+    ],
+    "reason": "公表日と個人情報への影響を本文で照合し掲載。"
+  },
+  {
+    "candidate": {
+      "id": "q1-deep-4c8c6b15293d",
+      "organization": "伊丹市",
+      "reported_on": "2026-03-10",
+      "verification": "pending",
+      "reference_url": "https://www.city.itami.lg.jp/SOSIKI/SOMU/KIKIKANRI/SAIGAINISONAETE/YOUHAIRYOSYA_HINANKOUDOUYOUSIENSYA_SIEN/47665.html",
+      "note": "現行ページは4月6日更新。3月10日の対外公表を裏づける資料が未確認。 reported_onは探索索引の日付で、掲載用の公表日としては未確定。",
+      "reviewed_on": "2026-11-01",
+      "checked_urls": [
+        "https://www.city.itami.lg.jp/SOSIKI/SOMU/KIKIKANRI/SAIGAINISONAETE/YOUHAIRYOSYA_HINANKOUDOUYOUSIENSYA_SIEN/47665.html"
+      ]
+    },
+    "reviewed_on": "2026-11-01",
+    "resolution": "published",
+    "incident_ids": [
+      "itami-evacuation-consent-mail-20260310"
+    ],
+    "source_urls": [
+      "https://www.city.itami.lg.jp/material/files/group/5/20260310press2.pdf"
+    ],
+    "reason": "公表日と個人情報への影響を本文で照合し掲載。"
+  },
+  {
+    "candidate": {
+      "id": "q1-deep-afe9cd419f40",
+      "organization": "ケイ・ウノ",
+      "reported_on": "2026-02-19",
+      "verification": "pending",
+      "reference_url": "https://www.daiwair.co.jp/td_download.cgi?c=259A&i=3160792",
+      "note": "公式本文未取得。 reported_onは探索索引の日付で、掲載用の公表日としては未確定。",
+      "reviewed_on": "2026-11-01",
+      "checked_urls": [
+        "https://www.daiwair.co.jp/td_download.cgi?c=259A&i=3160792"
+      ]
+    },
+    "reviewed_on": "2026-11-01",
+    "resolution": "published",
+    "incident_ids": [
+      "kuno-access-investigation-20260417"
+    ],
+    "source_urls": [
+      "https://www.k-uno.co.jp/news/20251230"
+    ],
+    "reason": "公表日と個人情報への影響を本文で照合し掲載。"
+  },
+  {
+    "candidate": {
+      "id": "q1-deep-3e8e97d98b59",
+      "organization": "高槻市",
+      "reported_on": "2026-02-18",
+      "verification": "pending",
+      "reference_url": "https://www.city.takatsuki.osaka.jp/uploaded/attachment/61527.pdf",
+      "note": "報道で選挙資料紛失は確認できるが、公式本文と対外公表日が未照合。 reported_onは探索索引の日付で、掲載用の公表日としては未確定。",
+      "reviewed_on": "2026-11-01",
+      "checked_urls": [
+        "https://www.city.takatsuki.osaka.jp/uploaded/attachment/61527.pdf"
+      ]
+    },
+    "reviewed_on": "2026-11-01",
+    "resolution": "published",
+    "incident_ids": [
+      "takatsuki-election-staff-list-loss-20260218"
+    ],
+    "source_urls": [
+      "https://www.city.takatsuki.osaka.jp/uploaded/attachment/61527.pdf"
+    ],
+    "reason": "公表日と個人情報への影響を本文で照合し掲載。"
+  },
+  {
+    "candidate": {
+      "id": "q1-deep-1a09e3c998d0",
+      "organization": "静岡県",
+      "reported_on": "2026-02-17",
+      "verification": "pending",
+      "reference_url": "https://www.pref.shizuoka.jp/_res/projects/default_project/_page_/001/081/423/202602pressrelease2.pdf",
+      "note": "公式本文未取得。 reported_onは探索索引の日付で、掲載用の公表日としては未確定。",
+      "reviewed_on": "2026-11-01",
+      "checked_urls": [
+        "https://www.pref.shizuoka.jp/_res/projects/default_project/_page_/001/081/423/202602pressrelease2.pdf"
+      ]
+    },
+    "reviewed_on": "2026-11-01",
+    "resolution": "published",
+    "incident_ids": [
+      "shizuoka-child-place-list-20260217"
+    ],
+    "source_urls": [
+      "https://www.pref.shizuoka.jp/_res/projects/default_project/_page_/001/081/423/202602pressrelease2.pdf"
+    ],
+    "reason": "公表日と個人情報への影響を本文で照合し掲載。"
+  },
+  {
+    "candidate": {
+      "id": "q1-deep-99b568ba3863",
+      "organization": "フクダライフテック東京（フクダ電子）",
+      "reported_on": "2026-02-09",
+      "verification": "pending",
+      "reference_url": "https://www.fukuda.co.jp/press/2026/pdf/260209.pdf",
+      "note": "公式本文未取得。 reported_onは探索索引の日付で、掲載用の公表日としては未確定。",
+      "reviewed_on": "2026-11-01",
+      "checked_urls": [
+        "https://www.fukuda.co.jp/press/2026/pdf/260209.pdf"
+      ]
+    },
+    "reviewed_on": "2026-11-01",
+    "resolution": "published",
+    "incident_ids": [
+      "fukuda-tokyo-patient-delivery-mail-20260209"
+    ],
+    "source_urls": [
+      "https://www.fukuda.co.jp/press/2026/pdf/260209.pdf"
+    ],
+    "reason": "公表日と個人情報への影響を本文で照合し掲載。"
+  },
+  {
+    "candidate": {
+      "id": "q1-deep-4674ef15562b",
+      "organization": "流通科学大学",
+      "reported_on": "2026-01-31",
+      "verification": "pending",
+      "reference_url": "https://dev.umds.ac.jp/?p=415710",
+      "note": "公式URLから本文を取得できず、報道日と対外公表日を区別できていない。 reported_onは探索索引の日付で、掲載用の公表日としては未確定。",
+      "reviewed_on": "2026-11-01",
+      "checked_urls": [
+        "https://dev.umds.ac.jp/?p=415710"
+      ]
+    },
+    "reviewed_on": "2026-11-01",
+    "resolution": "published",
+    "incident_ids": [
+      "umds-cloud-permissions-20260131"
+    ],
+    "source_urls": [
+      "https://dev.umds.ac.jp/?p=415710"
+    ],
+    "reason": "公表日と個人情報への影響を本文で照合し掲載。"
+  },
+  {
+    "candidate": {
+      "id": "year-recheck-a9a6321bf8f1",
+      "organization": "株式会社ポータス／釧路市教育委員会",
+      "reported_on": "2026-10-14",
+      "verification": "pending",
+      "reference_url": "https://www.portusinc.co.jp/update20261014/",
+      "note": "記事本文はPDF添付への案内のみ。影響範囲の照合が未完了。 reported_onは探索日付で、掲載用の公表日としては未確定。",
+      "reviewed_on": "2026-11-01",
+      "checked_urls": [
+        "https://www.portusinc.co.jp/update20261014/"
+      ]
+    },
+    "reviewed_on": "2026-11-01",
+    "resolution": "published",
+    "incident_ids": [
+      "portus-server-third-report-20261014"
+    ],
+    "source_urls": [
+      "https://www.portusinc.co.jp/sys/wp-content/themes/portus/images/news/%E5%BD%93%E7%A4%BE%E3%82%B5%E3%83%BC%E3%83%90%E3%83%BC%E3%81%B8%E3%81%AE%E4%B8%8D%E6%AD%A3%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E3%81%AB%E3%82%88%E3%82%8B%E6%83%85%E5%A0%B1%E6%BC%8F%E3%81%88%E3%81%84%E3%81%AE%E5%8F%AF%E8%83%BD%E6%80%A7%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B%E3%81%A8%E3%81%8A%E8%A9%AB%E3%81%B3%EF%BC%88%E7%AC%AC%EF%BC%93%E5%A0%B1%EF%BC%89.pdf"
+    ],
+    "reason": "公表日と個人情報への影響を本文で照合し掲載。"
+  },
+  {
+    "candidate": {
+      "id": "year-recheck-76db6c126605",
+      "organization": "JR札幌病院（北海道旅客鉄道株式会社）",
+      "reported_on": "2026-10-13",
+      "verification": "pending",
+      "reference_url": "https://www.jrhokkaido.co.jp/CM/Info/press/pdf/20261013_KO_JR-sapporobyouin_SNS.pdf",
+      "note": "PDFから本文を抽出できず、画像資料の確認が必要。 reported_onは探索日付で、掲載用の公表日としては未確定。",
+      "reviewed_on": "2026-11-01",
+      "checked_urls": [
+        "https://www.jrhokkaido.co.jp/CM/Info/press/pdf/20261013_KO_JR-sapporobyouin_SNS.pdf"
+      ]
+    },
+    "reviewed_on": "2026-11-01",
+    "resolution": "published",
+    "incident_ids": [
+      "jr-sapporo-hospital-patient-sns-20261013"
+    ],
+    "source_urls": [
+      "https://www.jrhokkaido.co.jp/CM/Info/press/pdf/20261013_KO_JR-sapporobyouin_SNS.pdf"
+    ],
+    "reason": "公表日と個人情報への影響を本文で照合し掲載。"
+  },
+  {
+    "candidate": {
+      "id": "year-recheck-8af0fd971d98",
+      "organization": "こしの都ネットワーク株式会社",
+      "reported_on": "2026-10-07",
+      "verification": "pending",
+      "reference_url": "https://koshinomiyako.jp/info/important/phishing-email2/",
+      "note": "本文の日付が抽出できず、公表日と続報日の確認が必要。 reported_onは探索日付で、掲載用の公表日としては未確定。",
+      "reviewed_on": "2026-11-01",
+      "checked_urls": [
+        "https://koshinomiyako.jp/info/important/phishing-email2/"
+      ]
+    },
+    "reviewed_on": "2026-11-01",
+    "resolution": "published",
+    "incident_ids": [
+      "koshinomiyako-mail-server-20261007"
+    ],
+    "source_urls": [
+      "https://koshinomiyako.jp/info/important/phishing-email2/"
+    ],
+    "reason": "公表日と個人情報への影響を本文で照合し掲載。"
+  },
+  {
+    "candidate": {
+      "id": "year-recheck-836da5cc8947",
+      "organization": "宇部市健康増進課／検診結果発送委託業者",
+      "reported_on": "2026-09-17",
+      "verification": "pending",
+      "reference_url": "https://www.city.ube.yamaguchi.jp/shisei/kouhou/kishahappyou/1008059/1030251/1030596.html",
+      "note": "抽出本文が索引に近く、個別事案の公表と対象範囲が未確定。 reported_onは探索日付で、掲載用の公表日としては未確定。",
+      "reviewed_on": "2026-11-01",
+      "checked_urls": [
+        "https://www.city.ube.yamaguchi.jp/shisei/kouhou/kishahappyou/1008059/1030251/1030596.html"
+      ]
+    },
+    "reviewed_on": "2026-11-01",
+    "resolution": "published",
+    "incident_ids": [
+      "ube-screening-result-mail-20260917"
+    ],
+    "source_urls": [
+      "https://www.city.ube.yamaguchi.jp/shisei/kouhou/kishahappyou/1008059/1030251/1030596.html"
+    ],
+    "reason": "公表日と個人情報への影響を本文で照合し掲載。"
+  },
+  {
+    "candidate": {
+      "id": "year-recheck-27314646eb60",
+      "organization": "岡山県危機管理課",
+      "reported_on": "2026-08-26",
+      "verification": "pending",
+      "reference_url": "https://www.pref.okayama.jp/site/presssystem/1053698.html",
+      "note": "添付PDFの内容確認が必要。 reported_onは探索日付で、掲載用の公表日としては未確定。",
+      "reviewed_on": "2026-11-01",
+      "checked_urls": [
+        "https://www.pref.okayama.jp/site/presssystem/1053698.html"
+      ]
+    },
+    "reviewed_on": "2026-11-01",
+    "resolution": "published",
+    "incident_ids": [
+      "okayama-disaster-plan-redaction-20260826"
+    ],
+    "source_urls": [
+      "https://www.pref.okayama.jp/uploaded/attachment/419826.pdf"
+    ],
+    "reason": "公表日と個人情報への影響を本文で照合し掲載。"
+  },
+  {
+    "candidate": {
+      "id": "year-recheck-e3934c75637a",
+      "organization": "堺市（市小学校）",
+      "reported_on": "2026-04-27",
+      "verification": "pending",
+      "reference_url": "https://www.city.sakai.lg.jp/shisei/koho/hodo/hodoteikyoshiryo/kakohodo/r8/r804/080427_02.html",
+      "note": "添付PDFの内容確認が必要。 reported_onは探索日付で、掲載用の公表日としては未確定。",
+      "reviewed_on": "2026-11-01",
+      "checked_urls": [
+        "https://www.city.sakai.lg.jp/shisei/koho/hodo/hodoteikyoshiryo/kakohodo/r8/r804/080427_02.html"
+      ]
+    },
+    "reviewed_on": "2026-11-01",
+    "resolution": "published",
+    "incident_ids": [
+      "sakai-ichi-school-record-mail-20260427"
+    ],
+    "source_urls": [
+      "https://www.city.sakai.lg.jp/shisei/koho/hodo/hodoteikyoshiryo/kakohodo/r8/r804/080427_02.files/0427_02.pdf"
+    ],
+    "reason": "公表日と個人情報への影響を本文で照合し掲載。"
   }
 ]

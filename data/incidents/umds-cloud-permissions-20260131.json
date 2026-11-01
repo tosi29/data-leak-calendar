@@ -1,0 +1,46 @@
+{
+  "id": "umds-cloud-permissions-20260131",
+  "organization": {
+    "name": "流通科学大学",
+    "sector": "教育・研究"
+  },
+  "title": "クラウドの設定ミスで学生の個人情報を含むファイルが学内で閲覧可能に",
+  "summary": "クラウドの設定ミスで学生の個人情報を含むファイルが学内で閲覧可能に。",
+  "published_on": "2026-01-31",
+  "first_published_on": "2026-01-31",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "exposed",
+  "incident_type": "accident",
+  "cause": {
+    "category": "configuration",
+    "detail": "クラウドの設定ミスで学生の個人情報を含むファイルが学内で閲覧可能に。詳細は公表資料を参照。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "対象規模は未公表。"
+    }
+  ],
+  "data_types": [
+    "学生の個人情報（詳細項目未公表）"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://dev.umds.ac.jp/?p=415710",
+      "type": "official",
+      "title": "クラウドの設定ミスで学生の個人情報を含むファイルが学内で閲覧可能に",
+      "published_on": "2026-01-31",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": "1月20日に判明し設定を修正。特定教職員だけに共有すべきファイルが学内アカウント保持者にも閲覧可能だった。学外からは閲覧できず、学外漏えい・悪用は未確認。検索サービスが返す公式ページ本文で公開日を確認。"
+}

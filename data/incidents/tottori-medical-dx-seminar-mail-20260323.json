@@ -1,0 +1,46 @@
+{
+  "id": "tottori-medical-dx-seminar-mail-20260323",
+  "organization": {
+    "name": "鳥取県",
+    "sector": "自治体"
+  },
+  "title": "医療DXセミナー申込者のメールアドレス65件を誤送信",
+  "summary": "医療DXセミナー申込者のメールアドレス65件を誤送信。",
+  "published_on": "2026-03-23",
+  "first_published_on": null,
+  "publication_kind": "unknown",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "accident",
+  "cause": {
+    "category": "misdelivery",
+    "detail": "医療DXセミナー申込者のメールアドレス65件を誤送信。詳細は公表資料を参照。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 65,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "公表された対象規模。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "ジェイエムインテグラル",
+  "sources": [
+    {
+      "url": "https://www.pref.tottori.lg.jp/secure/1421632/11fukushi_houkoku20260323.pdf",
+      "type": "official",
+      "title": "医療DXセミナー申込者のメールアドレス65件を誤送信",
+      "published_on": "2026-03-23",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": "3月23日付の議会委員会報告資料で確認。3月12日はセミナー開催日であり公表日には用いない。参加者92名と漏えいしたアドレス65件は区別。"
+}

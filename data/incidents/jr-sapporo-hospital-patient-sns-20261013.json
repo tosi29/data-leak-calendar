@@ -1,0 +1,46 @@
+{
+  "id": "jr-sapporo-hospital-patient-sns-20261013",
+  "organization": {
+    "name": "JR札幌病院",
+    "sector": "医療・福祉"
+  },
+  "title": "職員による患者に関する動画のSNS投稿を公表",
+  "summary": "職員による患者に関する動画のSNS投稿を公表。",
+  "published_on": "2026-10-13",
+  "first_published_on": "2026-10-13",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "exposed",
+  "incident_type": "improper_handling",
+  "cause": {
+    "category": "improper_sharing",
+    "detail": "職員による患者に関する動画のSNS投稿を公表。詳細は公表資料を参照。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "対象規模は未公表。"
+    }
+  ],
+  "data_types": [
+    "患者に関する動画"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.jrhokkaido.co.jp/CM/Info/press/pdf/20261013_KO_JR-sapporobyouin_SNS.pdf",
+      "type": "official",
+      "title": "職員による患者に関する動画のSNS投稿を公表",
+      "published_on": "2026-10-13",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": "公式の画像PDFを描画して日付・本文を目視確認。投稿内容の詳細・対象人数は公表されておらず、病院は事実関係を調査中。"
+}

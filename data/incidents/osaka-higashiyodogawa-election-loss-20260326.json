@@ -1,0 +1,47 @@
+{
+  "id": "osaka-higashiyodogawa-election-loss-20260326",
+  "organization": {
+    "name": "大阪市東淀川区",
+    "sector": "自治体"
+  },
+  "title": "選挙従事者31人分の出勤簿を紛失",
+  "summary": "選挙従事者31人分の出勤簿を紛失。",
+  "published_on": "2026-03-26",
+  "first_published_on": "2026-03-26",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "lost",
+  "incident_type": "accident",
+  "cause": {
+    "category": "loss",
+    "detail": "選挙従事者31人分の出勤簿を紛失。詳細は公表資料を参照。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 31,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表された対象規模。"
+    }
+  ],
+  "data_types": [
+    "氏名・姓",
+    "印影"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.city.osaka.lg.jp/hodoshiryo/higashiyodogawa/0000676256.html",
+      "type": "official",
+      "title": "選挙従事者31人分の出勤簿を紛失",
+      "published_on": "2026-03-26",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": "31人のうち22人は氏名、9人は姓のみ。2月18日の発覚日と3月26日の対外公表日を区別。"
+}

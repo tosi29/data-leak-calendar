@@ -1,0 +1,49 @@
+{
+  "id": "shizuoka-child-place-list-20260217",
+  "organization": {
+    "name": "静岡県",
+    "sector": "自治体"
+  },
+  "title": "こどもの居場所一覧表で公開同意のない運営者84人の情報を掲載",
+  "summary": "こどもの居場所一覧表で公開同意のない運営者84人の情報を掲載。",
+  "published_on": "2026-02-17",
+  "first_published_on": "2026-02-17",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "exposed",
+  "incident_type": "accident",
+  "cause": {
+    "category": "redaction_error",
+    "detail": "こどもの居場所一覧表で公開同意のない運営者84人の情報を掲載。詳細は公表資料を参照。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 84,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表された対象規模。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "電話番号",
+    "メールアドレス"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.pref.shizuoka.jp/_res/projects/default_project/_page_/001/081/423/202602pressrelease2.pdf",
+      "type": "official",
+      "title": "こどもの居場所一覧表で公開同意のない運営者84人の情報を掲載",
+      "published_on": "2026-02-17",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": "1月27日の更新時に作業用データを誤掲載し、29日に判明。資料内の2月17日提供を採用。直接取得できないため、検索サービスが返す公式PDFの該当本文で照合。"
+}

@@ -1,0 +1,48 @@
+{
+  "id": "nagoya-meito-school-list-loss-20260501",
+  "organization": {
+    "name": "名古屋市",
+    "sector": "自治体"
+  },
+  "title": "交通指導員が小学校1年生の下校名簿を紛失",
+  "summary": "交通指導員が小学校1年生の下校名簿を紛失。",
+  "published_on": "2026-05-01",
+  "first_published_on": "2026-05-01",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-04-23",
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "lost",
+  "incident_type": "accident",
+  "cause": {
+    "category": "loss",
+    "detail": "交通指導員が小学校1年生の下校名簿を紛失。詳細は公表資料を参照。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "対象規模は未公表。"
+    }
+  ],
+  "data_types": [
+    "氏名（ひらがな）",
+    "クラス",
+    "下校方面"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.city.nagoya.jp/houdou/3003942/3003944/3004575.html",
+      "type": "official",
+      "title": "交通指導員が小学校1年生の下校名簿を紛失",
+      "published_on": "2026-05-01",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": "4月23日に紛失に気付いた。人数17人は報道の数値で、今回確認した市の本文は人数を明記していないため件数へ採用しない。"
+}

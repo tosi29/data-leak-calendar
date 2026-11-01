@@ -1,0 +1,46 @@
+{
+  "id": "koshinomiyako-mail-server-20261007",
+  "organization": {
+    "name": "こしの都ネットワーク",
+    "sector": "企業・団体"
+  },
+  "title": "メールサーバーへの侵入でアドレス4,082件に不正アクセス",
+  "summary": "メールサーバーへの侵入でアドレス4,082件に不正アクセス。",
+  "published_on": "2026-10-07",
+  "first_published_on": null,
+  "publication_kind": "followup",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "メールサーバーへの侵入でアドレス4,082件に不正アクセス。詳細は公表資料を参照。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 4082,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "公表された対象規模。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://koshinomiyako.jp/info/important/phishing-email2/",
+      "type": "official",
+      "title": "メールサーバーへの侵入でアドレス4,082件に不正アクセス",
+      "published_on": "2026-10-07",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": "第2報。本文に日付表示がないため記事のdatePublishedとarticle:published_timeが一致する10月7日を確認。外部持ち出しを示すログは未確認。対象サーバーには氏名・住所・電話番号・ID・パスワード・カード情報は保存されていなかった。"
+}

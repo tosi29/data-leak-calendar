@@ -1,0 +1,50 @@
+{
+  "id": "okayama-disaster-plan-redaction-20260826",
+  "organization": {
+    "name": "岡山県危機管理課",
+    "sector": "自治体"
+  },
+  "title": "地区防災計画PDFの削除不備で24人の連絡先等が閲覧可能に",
+  "summary": "地区防災計画PDFの削除不備で24人の連絡先等が閲覧可能に。",
+  "published_on": "2026-08-26",
+  "first_published_on": "2026-08-26",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "exposed",
+  "incident_type": "accident",
+  "cause": {
+    "category": "redaction_error",
+    "detail": "地区防災計画PDFの削除不備で24人の連絡先等が閲覧可能に。詳細は公表資料を参照。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 24,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表された対象規模。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "携帯電話番号",
+    "電話番号",
+    "住所",
+    "メールアドレス（一部）"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.pref.okayama.jp/uploaded/attachment/419826.pdf",
+      "type": "official",
+      "title": "地区防災計画PDFの削除不備で24人の連絡先等が閲覧可能に",
+      "published_on": "2026-08-26",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": "2022年4月27日掲載のPDFに白文字のテキストが残存。コピーや氏名検索で表示でき、2026年8月21日に判明。メールアドレスは24人中2人の内数。"
+}

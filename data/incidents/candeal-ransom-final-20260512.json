@@ -1,0 +1,51 @@
+{
+  "id": "candeal-ransom-final-20260512",
+  "organization": {
+    "name": "キャンディルグループ",
+    "sector": "企業・団体"
+  },
+  "title": "ランサムウェア被害の最終調査で47,014件の情報に閲覧のおそれ",
+  "summary": "ランサムウェア被害の最終調査で47,014件の情報に閲覧のおそれ。",
+  "published_on": "2026-05-12",
+  "first_published_on": "2026-03-18",
+  "publication_kind": "followup",
+  "occurred_on": null,
+  "detected_on": "2026-03-11",
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "detail": "ランサムウェア被害の最終調査で47,014件の情報に閲覧のおそれ。詳細は公表資料を参照。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 47014,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "公表された対象規模。"
+    }
+  ],
+  "data_types": [
+    "会社名",
+    "氏名",
+    "郵便番号",
+    "住所",
+    "電話番号",
+    "メールアドレス"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.candeal.co.jp/post_prnews/6095/",
+      "type": "official",
+      "title": "ランサムウェア被害の最終調査で47,014件の情報に閲覧のおそれ",
+      "published_on": "2026-05-12",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": "3月11日に暗号化を確認。グループ全体47,014件のうちキャンディル919件は内数。外部流出の痕跡、不正利用による二次被害、攻撃者による情報公開は確認されていない。カード情報は含まれず、全項目を各レコードが含むとは限らない。"
+}

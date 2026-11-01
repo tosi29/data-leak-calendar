@@ -1,0 +1,53 @@
+{
+  "id": "kuno-access-investigation-20260417",
+  "organization": {
+    "name": "ケイ・ウノ",
+    "sector": "企業・団体"
+  },
+  "title": "不正アクセスの調査完了後も顧客情報の漏えい可能性を否定できず",
+  "summary": "不正アクセスの調査完了後も顧客情報の漏えい可能性を否定できず。",
+  "published_on": "2026-04-17",
+  "first_published_on": "2025-12-30",
+  "publication_kind": "followup",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "vulnerability",
+    "detail": "不正アクセスの調査完了後も顧客情報の漏えい可能性を否定できず。詳細は公表資料を参照。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "対象規模は未公表。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "ふりがな",
+    "住所",
+    "メールアドレス",
+    "電話番号",
+    "パスワード",
+    "購入履歴",
+    "申込・相談内容"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.k-uno.co.jp/news/20251230",
+      "type": "official",
+      "title": "不正アクセスの調査完了後も顧客情報の漏えい可能性を否定できず",
+      "published_on": "2026-04-17",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": "第2報の作成日は2月19日、現行版は4月17日更新。オンライン会員・ゲスト購入・デザイン提案・来店予約・問い合わせ等で対象期間と項目は異なる。流出の事実・不正利用・二次被害は未確認。カード情報の漏えい可能性は否定。直接取得に制限があるため、検索サービスが返す公式ページ本文で照合。"
+}

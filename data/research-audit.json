@@ -35752,6 +35752,90 @@
           "retained_id": "adachi-park-mail-20260824"
         }
       ]
+    },
+    {
+      "checked_on": "2026-11-01",
+      "scope": "既存の保留候補113件の更新・続報と掲載可否の再点検",
+      "stats": {
+        "baseline_incidents": 2057,
+        "baseline_candidates": 113,
+        "reviewed_candidates": 113,
+        "added_incidents": 21,
+        "resolved_by_publication": 21,
+        "resolved_as_existing": 5,
+        "excluded_candidates": 2,
+        "resolved_candidates": 28,
+        "pending_candidates": 85,
+        "total_incidents": 2078
+      },
+      "added_incident_ids": [
+        "candeal-ransom-final-20260512",
+        "nagoya-meito-school-list-loss-20260501",
+        "japanpost-hokuriku-canal-loss-20260427",
+        "kumamoto-nishi-welfare-record-loss-20260423",
+        "dandadan-applicant-sns-20260502",
+        "osaka-higashiyodogawa-election-loss-20260326",
+        "jal-sameday-baggage-investigation-20260210",
+        "kadogawa-nursery-usb-loss-20260330",
+        "tottori-medical-dx-seminar-mail-20260323",
+        "itami-evacuation-consent-mail-20260310",
+        "kuno-access-investigation-20260417",
+        "takatsuki-election-staff-list-loss-20260218",
+        "shizuoka-child-place-list-20260217",
+        "fukuda-tokyo-patient-delivery-mail-20260209",
+        "umds-cloud-permissions-20260131",
+        "portus-server-third-report-20261014",
+        "jr-sapporo-hospital-patient-sns-20261013",
+        "koshinomiyako-mail-server-20261007",
+        "ube-screening-result-mail-20260917",
+        "okayama-disaster-plan-redaction-20260826",
+        "sakai-ichi-school-record-mail-20260427"
+      ],
+      "resolved_candidate_ids": [
+        "may-review-8485cff410fd",
+        "may-review-b26835e8266e",
+        "may-review-d854b230868c",
+        "may-review-3b244f2cca7c",
+        "may-review-69345bdf63d3",
+        "apr-review-0d50cdefbc67",
+        "q1-jal-20260210",
+        "q1-deep-014b9a880a78",
+        "q1-deep-7ed5d8fc1d70",
+        "q1-deep-4c8c6b15293d",
+        "q1-deep-afe9cd419f40",
+        "q1-deep-3e8e97d98b59",
+        "q1-deep-1a09e3c998d0",
+        "q1-deep-99b568ba3863",
+        "q1-deep-4674ef15562b",
+        "year-recheck-a9a6321bf8f1",
+        "year-recheck-76db6c126605",
+        "year-recheck-8af0fd971d98",
+        "year-recheck-836da5cc8947",
+        "year-recheck-27314646eb60",
+        "year-recheck-e3934c75637a",
+        "oct22-review-sawara-library",
+        "may-review-94895e5df181",
+        "apr-review-fe41affea63b",
+        "apr-review-c01e2b1cfa6b",
+        "q1-deep-04d4f29ccadc",
+        "may-review-523b6606a6f1",
+        "year-recheck-dcfd5e41a551"
+      ],
+      "method": [
+        "既存の保留113件を全件個別検索し、候補の参照URLと過去の確認先148 URLを再取得。追加検索で得た資料、添付PDF、保存版も照合した。",
+        "検索結果の取得、URLの取得成功、該当する本文の確認を区別。存在しないページへの案内、ホームへの転送、空の本文を取得成功だけで掲載へ進めない。",
+        "本文の読めないPDFは描画して確認。JALの保存版はgzipを展開して初報を確認し、2月17日の続報報道と組み合わせて結論を更新した。",
+        "後日判明した対象範囲・漏えい否定を優先。同名組織でも別事案を統合せず、既存掲載との重複は対象・件数・経緯で照合。",
+        "検索経由で公式本文が返された案件は取得方法を注記。発生日、発覚日、開催日、記事日を公表日へ流用せず、初報と続報、人数と件数、内数を区別。"
+      ],
+      "limitations": [
+        "全113件に検索と参照先の再取得を実施したが、全件の公式本文や最新の全続報を確認できたという意味ではない。検索結果に追加資料が出ないことは続報不存在の証明ではない。",
+        "資料を取得できた場合も個人情報の対象・公表日が未確定なら保留。企業情報の流出だけで個人情報事案とはしない。",
+        "追加検索で取得した無関係な資料・索引も取得記録に含まれる。個別チェックに採否の根拠として明記した資料以外は本文精査済みとは扱わない。",
+        "市立奈良病院と旭化成は今回確認できた内容に基づく対象外。将来の公表で事実が変われば見直す。JALは初報の個人情報懸念に対する調査結果として漏えい否定の状態で掲載。"
+      ],
+      "report": "docs/research-2026-11-01-pending113-review.md",
+      "audit": "data/research-2026-11-01-pending113-review.json"
     }
   ]
 }

@@ -1,0 +1,48 @@
+{
+  "id": "fukuda-tokyo-patient-delivery-mail-20260209",
+  "organization": {
+    "name": "フクダライフテック東京／フクダ電子",
+    "sector": "企業・団体"
+  },
+  "title": "患者550人の情報を含む納品書PDFを複数の取引先へ誤送信",
+  "summary": "患者550人の情報を含む納品書PDFを複数の取引先へ誤送信。",
+  "published_on": "2026-02-09",
+  "first_published_on": "2026-02-09",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "accident",
+  "cause": {
+    "category": "misdelivery",
+    "detail": "患者550人の情報を含む納品書PDFを複数の取引先へ誤送信。詳細は公表資料を参照。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 550,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表された対象規模。"
+    }
+  ],
+  "data_types": [
+    "患者氏名",
+    "受診医療機関名",
+    "使用機器の型式名"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.fukuda.co.jp/press/2026/pdf/260209.pdf",
+      "type": "official",
+      "title": "患者550人の情報を含む納品書PDFを複数の取引先へ誤送信",
+      "published_on": "2026-02-09",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": "2月5日に判明。取消しできなかった10取引先には削除を依頼し確認済み。同じ納品書の重複送信であり550人を取引先数で倍加しない。直接取得に制限があるため、検索サービスが返す公式PDF全文で照合。"
+}

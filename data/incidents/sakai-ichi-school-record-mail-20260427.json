@@ -1,0 +1,53 @@
+{
+  "id": "sakai-ichi-school-record-mail-20260427",
+  "organization": {
+    "name": "堺市立市小学校",
+    "sector": "教育・研究"
+  },
+  "title": "別児童の園児指導要録を誤送付し12人の情報が漏えい",
+  "summary": "別児童の園児指導要録を誤送付し12人の情報が漏えい。",
+  "published_on": "2026-04-27",
+  "first_published_on": "2026-04-27",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "accident",
+  "cause": {
+    "category": "misdelivery",
+    "detail": "別児童の園児指導要録を誤送付し12人の情報が漏えい。詳細は公表資料を参照。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 12,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表された対象規模。"
+    }
+  ],
+  "data_types": [
+    "児童氏名",
+    "生年月日",
+    "性別",
+    "学級",
+    "整理番号",
+    "進学先",
+    "保護者氏名・住所",
+    "園長・担任氏名"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.city.sakai.lg.jp/shisei/koho/hodo/hodoteikyoshiryo/kakohodo/r8/r804/080427_02.files/0427_02.pdf",
+      "type": "official",
+      "title": "別児童の園児指導要録を誤送付し12人の情報が漏えい",
+      "published_on": "2026-04-27",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": "児童1人、保護者1人、こども園園長1人、担任9人の計12人。4月14日郵送、21日発覚、23日回収。児童だけの人数と総人数を区別。"
+}

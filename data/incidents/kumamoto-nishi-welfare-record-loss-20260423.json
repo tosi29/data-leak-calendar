@@ -1,0 +1,50 @@
+{
+  "id": "kumamoto-nishi-welfare-record-loss-20260423",
+  "organization": {
+    "name": "熊本市西区",
+    "sector": "自治体"
+  },
+  "title": "生活保護相談の記録票7件・14人分が所在不明に",
+  "summary": "生活保護相談の記録票7件・14人分が所在不明に。",
+  "published_on": "2026-04-23",
+  "first_published_on": "2026-04-23",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "lost",
+  "incident_type": "accident",
+  "cause": {
+    "category": "loss",
+    "detail": "生活保護相談の記録票7件・14人分が所在不明に。詳細は公表資料を参照。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 14,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表された対象規模。"
+    }
+  ],
+  "data_types": [
+    "住所",
+    "氏名",
+    "生年月日",
+    "電話番号",
+    "相談内容"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.city.kumamoto.jp/kiji00370582/index.html",
+      "type": "official",
+      "title": "生活保護相談の記録票7件・14人分が所在不明に",
+      "published_on": "2026-04-23",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": "課内供覧中に紛失。記録票7件は14人の内訳で合算しない。執務室外へ持ち出す書類ではなく、外部流出の可能性は低いと説明。誤廃棄は可能性であり確定しない。"
+}

@@ -1,0 +1,49 @@
+{
+  "id": "takatsuki-election-staff-list-loss-20260218",
+  "organization": {
+    "name": "高槻市選挙管理委員会",
+    "sector": "自治体"
+  },
+  "title": "投票所へ向かう職員が従事者12人の連絡先書類を紛失",
+  "summary": "投票所へ向かう職員が従事者12人の連絡先書類を紛失。",
+  "published_on": "2026-02-18",
+  "first_published_on": "2026-02-18",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "lost",
+  "incident_type": "accident",
+  "cause": {
+    "category": "loss",
+    "detail": "投票所へ向かう職員が従事者12人の連絡先書類を紛失。詳細は公表資料を参照。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 12,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表された対象規模。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所（一部）",
+    "所属（一部）",
+    "電話番号"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.city.takatsuki.osaka.jp/uploaded/attachment/61527.pdf",
+      "type": "official",
+      "title": "投票所へ向かう職員が従事者12人の連絡先書類を紛失",
+      "published_on": "2026-02-18",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": "2月8日、投票立会人2人と市職員10人の情報を含むかばんを紛失。10月のアルカディア関連事案とは別。直接取得は404のため、検索サービスが返す公式PDF全文で照合。"
+}

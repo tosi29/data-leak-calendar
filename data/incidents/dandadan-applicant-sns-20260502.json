@@ -1,0 +1,46 @@
+{
+  "id": "dandadan-applicant-sns-20260502",
+  "organization": {
+    "name": "ダンダダン",
+    "sector": "企業・団体"
+  },
+  "title": "フランチャイズ店舗の従業員が応募者の履歴書情報をSNSへ投稿",
+  "summary": "フランチャイズ店舗の従業員が応募者の履歴書情報をSNSへ投稿。",
+  "published_on": "2026-05-02",
+  "first_published_on": "2026-05-02",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "exposed",
+  "incident_type": "improper_handling",
+  "cause": {
+    "category": "improper_sharing",
+    "detail": "フランチャイズ店舗の従業員が応募者の履歴書情報をSNSへ投稿。詳細は公表資料を参照。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "対象規模は未公表。"
+    }
+  ],
+  "data_types": [
+    "履歴書に含まれる個人情報（詳細項目未公表）"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.dandadan.jp/news/9118/",
+      "type": "official",
+      "title": "フランチャイズ店舗の従業員が応募者の履歴書情報をSNSへ投稿",
+      "published_on": "2026-05-02",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": "投稿は削除済み。応募者への説明・謝罪を実施し、現時点で二次被害は確認されていない。"
+}

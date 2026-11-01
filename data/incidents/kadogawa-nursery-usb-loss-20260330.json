@@ -1,0 +1,55 @@
+{
+  "id": "kadogawa-nursery-usb-loss-20260330",
+  "organization": {
+    "name": "門川町",
+    "sector": "自治体"
+  },
+  "title": "保育所職員が園児の情報を含むUSBメモリを紛失",
+  "summary": "保育所職員が園児の情報を含むUSBメモリを紛失。",
+  "published_on": "2026-03-30",
+  "first_published_on": "2026-03-30",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-01",
+  "verification": "official",
+  "leak_status": "lost",
+  "incident_type": "accident",
+  "cause": {
+    "category": "loss",
+    "detail": "保育所職員が園児の情報を含むUSBメモリを紛失。詳細は公表資料を参照。",
+    "certainty": "confirmed"
+  },
+  "impact": [
+    {
+      "count": 9,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "ひらがな氏名と生年月日。"
+    },
+    {
+      "count": 11,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "クラス名とひらがな名。9人との重複は不明。"
+    }
+  ],
+  "data_types": [
+    "園児氏名（ひらがな）",
+    "生年月日",
+    "クラス名",
+    "要配慮個人情報"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.town.kadogawa.lg.jp/administration/data/06b7a54761b1897eabe316bbda98fe86.pdf",
+      "type": "official",
+      "title": "保育所職員が園児の情報を含むUSBメモリを紛失",
+      "published_on": "2026-03-30",
+      "checked_on": "2026-11-01"
+    }
+  ],
+  "updates": [],
+  "notes": "9人分の氏名・生年月日と11人分のクラス名・ひらがな名。両区分の重複関係が不明なため合算しない。要配慮情報の内容・人数は未公表。拾得したとの手紙にUSB自体は同封されていなかった。"
+}
