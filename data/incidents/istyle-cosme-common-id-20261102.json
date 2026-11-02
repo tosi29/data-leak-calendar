@@ -1,0 +1,56 @@
+{
+  "id": "istyle-cosme-common-id-20261102",
+  "organization": {
+    "name": "アイスタイル（@cosme共通ID）",
+    "sector": "IT・小売"
+  },
+  "title": "不正アクセスにより約300万人の会員情報が漏えい",
+  "summary": "不正アクセスにより約300万人の会員情報が漏えい。",
+  "published_on": "2026-11-02",
+  "first_published_on": "2026-11-02",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-10-28",
+  "updated_on": "2026-11-02",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "confirmed",
+    "detail": "第三者による不正アクセス。具体的な侵入経路は調査中または未公表。"
+  },
+  "impact": [
+    {
+      "count": 3000000,
+      "unit": "people",
+      "qualifier": "approximate",
+      "description": "公表された対象規模。"
+    }
+  ],
+  "data_types": [
+    "ユーザーID",
+    "ニックネーム",
+    "氏名（漢字・カナ）",
+    "郵便番号",
+    "住所",
+    "電話番号",
+    "メールアドレス",
+    "性別",
+    "生年月日",
+    "肌質",
+    "髪質"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.istyle.co.jp/news/info/2026/11/1102.html",
+      "type": "official",
+      "title": "不正アクセスにより約300万人の会員情報が漏えい",
+      "published_on": "2026-11-02",
+      "checked_on": "2026-11-02"
+    }
+  ],
+  "updates": [],
+  "notes": "10月28日に漏えいを確認。ユーザーIDは自動発番でログイン用ではない。ログインパスワード・カード情報は含まれない。侵害時点で会員なら現在の退会者も対象。11月6日までの個別通知完了を予定。9月のファイル公開設定ミスとは別件。二次被害は未確認。"
+}

@@ -1043,5 +1043,31 @@
       "https://www.pref.saitama.lg.jp/a0403/news/page/news2026082401.html",
       "https://www.pref.saitama.lg.jp/documents/286848/news2026082501.pdf"
     ]
+  },
+  {
+    "id": "nov01-smartnews-points-review",
+    "organization": "スマートニュース（11月1日公表の別事案）",
+    "reported_on": "2026-11-01",
+    "verification": "pending",
+    "reference_url": "https://about.smartnews.com/ja/news/2617.html",
+    "reviewed_on": "2026-11-02",
+    "checked_urls": [
+      "https://about.smartnews.com/ja/news/2617.html",
+      "https://about.smartnews.com/ja/news/2615.html"
+    ],
+    "note": "2026年11月2日調査：10月31日～11月1日の侵入とポイント・特典の不正操作を確認。利用者アカウント・広告関連情報への影響は調査中で、自然人の対象情報や漏えい範囲は未公表。10月22日の事案とは別と公式に明記。"
+  },
+  {
+    "id": "nov02-tvtokyo-mart-review",
+    "organization": "テレビ東京ダイレクト（テレ東マート）",
+    "reported_on": "2026-11-02",
+    "verification": "pending",
+    "reference_url": "https://www.tv-tokyo.co.jp/kaisha/pdf/20261102.pdf",
+    "reviewed_on": "2026-11-02",
+    "checked_urls": [
+      "https://www.tv-tokyo.co.jp/kaisha/pdf/20261102.pdf",
+      "https://tx-direct.co.jp/pdf/20261102.pdf"
+    ],
+    "note": "2026年11月2日調査：公式PDFで不正アクセスと11月2日3時53分のサイト緊急停止を確認。個人情報・カード情報の漏えいは現時点で未確認、影響範囲は調査中。自然人の対象・項目が具体化するまで保留。"
   }
 ]

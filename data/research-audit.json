@@ -35861,6 +35861,63 @@
       ],
       "report": "docs/research-2026-11-01-mcpack-review.md",
       "audit": "data/research-2026-11-01-mcpack-review.json"
+    },
+    {
+      "checked_on": "2026-11-02",
+      "checked_at": "2026-11-02T21:27:12+09:00",
+      "coverage_start": "2026-11-01",
+      "coverage_end": "2026-11-02",
+      "stats": {
+        "baseline_incidents": 2079,
+        "added_incidents": 9,
+        "updated_incidents": 5,
+        "total_incidents": 2088,
+        "added_by_publication_date": {
+          "2026-11-01": 1,
+          "2026-11-02": 8
+        },
+        "baseline_candidates": 84,
+        "new_candidates": 2,
+        "pending_candidates": 86
+      },
+      "added_incident_ids": [
+        "rainbowgate-web-exposure-20261101",
+        "nojima-member-server-20261102",
+        "prestige-pcs-roadservice-20261102",
+        "lifull-investment-securitize-20261102",
+        "muji-order-curtain-vendor-20261102",
+        "istyle-cosme-common-id-20261102",
+        "suntory-cloud-files-20261102",
+        "saitama-tuition-notice-mail-20261102",
+        "mleague-shop-members-20261102"
+      ],
+      "updated_incident_ids": [
+        "arara-message-20261028",
+        "fujicco-campaign-20261022",
+        "rakus-blastmail-20261021",
+        "review-20261023-f759073a3fad",
+        "onamae-desktop-20261023"
+      ],
+      "new_candidate_ids": [
+        "nov01-smartnews-points-review",
+        "nov02-tvtokyo-mart-review"
+      ],
+      "method": [
+        "11月1・2日と漏えい／漏洩・不正アクセス・誤送信・紛失を組み合わせ、日付表記・全角数字・令和表記も変えて検索。大型案件や転載サイトを除外した検索も併用した。",
+        "複数の公表索引を照合し、公開索引の11月1～2日付4行も確認。索引からMリーグ・テレ東マートを追加発見した。索引の更新日を組織の公表日とはみなさない。",
+        "公式HTML・PDF、同じ告知の公式配信本文、企業自身が配信したPR TIMESを照合。サントリーは直接取得が403のため検索サービスが返す公式本文で確認。",
+        "続報は既存IDへ統合し、公表日を維持。良品計画のカーテンとMUJIアプリ、アイスタイルの侵入と9月の公開ミス、SmartNewsの10月22日と11月1日の事案を区別した。",
+        "人数・メールアドレス件数・契約数・サーバー数・送信通数を区別。アララの各区分、サントリーの各対象群、委託先と利用企業の公表値は単純合算しない。"
+      ],
+      "limitations": [
+        "11月2日の調査時点までの公表を対象とし、当日の終了後までを含む網羅や漏れゼロを意味しない。",
+        "本掲載は個人情報への影響が公表本文で具体化しているもの。SmartNewsとテレ東マートの侵入・停止は確認したが個人情報の対象範囲が未公表のため確認待ち。漏えいなしと確定した扱いではない。",
+        "サントリーの本文は公式ページの検索経由。Mリーグは公式サイトの公開API、良品計画は企業自身のPR TIMES配信本文を使用。GMOの最初の侵入日・会見内容はTBSの報道に基づき、攻撃者の国・集団への帰属は確定事項として採用しない。",
+        "フジッコ第2報は14,594件と合計14,848人を併記。原文の単位・注記を保持し、矛盾を独自の計算で解消しない。",
+        "既存84件の保留全件を再調査したものではなく、今回新たに発見した2件を追加した。"
+      ],
+      "report": "docs/research-2026-11-02-nov01-02-update.md",
+      "audit": "data/research-2026-11-02-nov01-02-update.json"
     }
   ]
 }

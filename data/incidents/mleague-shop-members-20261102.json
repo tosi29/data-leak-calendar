@@ -1,0 +1,60 @@
+{
+  "id": "mleague-shop-members-20261102",
+  "organization": {
+    "name": "Mリーグ機構",
+    "sector": "スポーツ・団体"
+  },
+  "title": "公式サイト・ショップへの侵入で利用者9,502人の情報が漏えい",
+  "summary": "公式サイト・ショップへの侵入で利用者9,502人の情報が漏えい。",
+  "published_on": "2026-11-02",
+  "first_published_on": "2026-11-02",
+  "publication_kind": "initial",
+  "occurred_on": "2026-10-29",
+  "detected_on": "2026-10-29",
+  "updated_on": "2026-11-02",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "confirmed",
+    "detail": "第三者による不正アクセス。具体的な侵入経路は調査中または未公表。"
+  },
+  "impact": [
+    {
+      "count": 9502,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "公表された対象規模。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "電話番号",
+    "メールアドレス",
+    "ログインID",
+    "登録日",
+    "パスワードのハッシュ値",
+    "注文内容"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://m-league.jp/news/article/?id=article-8d1eb109-c366-444e-8525-c30a6e9ec8ff",
+      "type": "official",
+      "title": "公式サイト・ショップへの侵入で利用者9,502人の情報が漏えい",
+      "published_on": "2026-11-02",
+      "checked_on": "2026-11-02"
+    },
+    {
+      "url": "https://m-league.jp/api/news/article?id=article-8d1eb109-c366-444e-8525-c30a6e9ec8ff",
+      "type": "official",
+      "title": "同告知の公式配信本文",
+      "published_on": "2026-11-02",
+      "checked_on": "2026-11-02"
+    }
+  ],
+  "updates": [],
+  "notes": "2019年10月～2026年10月29日の利用者が対象で、非会員購入者を含む。ショップ9,497件と別の会員サイト5件。注文内容13,922件は人数へ加算しない。決済情報は当該システムで保有せず対象外。10月29日夜に検知・遮断し30日未明にサーバー停止。既存環境を廃止して再構築し、11月2日に試合日程等の掲載を再開。"
+}

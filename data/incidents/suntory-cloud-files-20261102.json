@@ -1,0 +1,87 @@
+{
+  "id": "suntory-cloud-files-20261102",
+  "organization": {
+    "name": "サントリーホールディングス／サントリービバレッジ＆フード",
+    "sector": "食品・飲料"
+  },
+  "title": "外部クラウドのファイル取得により従業員・応募者等の情報が漏えい",
+  "summary": "外部クラウドのファイル取得により従業員・応募者等の情報が漏えい。",
+  "published_on": "2026-11-02",
+  "first_published_on": "2026-11-02",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-10-28",
+  "updated_on": "2026-11-02",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "confirmed",
+    "detail": "第三者による不正アクセス。具体的な侵入経路は調査中または未公表。"
+  },
+  "impact": [
+    {
+      "count": 90000,
+      "unit": "people",
+      "qualifier": "approximate",
+      "description": "グループ・パートナー企業等の従業員。氏名・メールアドレス。"
+    },
+    {
+      "count": 7323,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "企業活動体験プログラム「マル・デ・シャイン」の2023年末時点登録者。メールアドレス。"
+    },
+    {
+      "count": 7173,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "2026年新卒採用ビジネス部門オープン選考応募者。氏名・メール・電話等。"
+    },
+    {
+      "count": 1097,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "ビバレッジソリューションの社用携帯2台のグループ・取引先従業員等の連絡先。"
+    },
+    {
+      "count": 324,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "モンテ物産・パートナー企業の従業員。氏名・メール・電話。"
+    },
+    {
+      "count": 96,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "井筒まい泉の宅配注文者・配送従業員。氏名・配送先位置情報。"
+    },
+    {
+      "count": 25,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "サントリーの取引先従業員。氏名・役職。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "メールアドレス",
+    "電話番号",
+    "採用応募者マイページ登録情報",
+    "配送先位置情報",
+    "役職"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.suntory.co.jp/note/detail/261102_008203.html",
+      "type": "official",
+      "title": "外部クラウドのファイル取得により従業員・応募者等の情報が漏えい",
+      "published_on": "2026-11-02",
+      "checked_on": "2026-11-02"
+    }
+  ],
+  "updates": [],
+  "notes": "7区分の対象者に重複の可能性があるため合算しない。区分により項目が異なる。社用携帯2台は端末数であり人数ではない。10月28日に異常を検知・遮断、29日に漏えいファイル内の個人情報を確認。カード等の決済情報は含まれず、不正利用は未確認。"
+}

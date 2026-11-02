@@ -1,0 +1,826 @@
+{
+  "checked_on": "2026-11-02",
+  "checked_at": "2026-11-02T21:27:12+09:00",
+  "coverage_start": "2026-11-01",
+  "coverage_end": "2026-11-02",
+  "stats": {
+    "baseline_incidents": 2079,
+    "added_incidents": 9,
+    "updated_incidents": 5,
+    "total_incidents": 2088,
+    "added_by_publication_date": {
+      "2026-11-01": 1,
+      "2026-11-02": 8
+    },
+    "baseline_candidates": 84,
+    "new_candidates": 2,
+    "pending_candidates": 86
+  },
+  "added_incident_ids": [
+    "rainbowgate-web-exposure-20261101",
+    "nojima-member-server-20261102",
+    "prestige-pcs-roadservice-20261102",
+    "lifull-investment-securitize-20261102",
+    "muji-order-curtain-vendor-20261102",
+    "istyle-cosme-common-id-20261102",
+    "suntory-cloud-files-20261102",
+    "saitama-tuition-notice-mail-20261102",
+    "mleague-shop-members-20261102"
+  ],
+  "updated_incident_ids": [
+    "arara-message-20261028",
+    "fujicco-campaign-20261022",
+    "rakus-blastmail-20261021",
+    "review-20261023-f759073a3fad",
+    "onamae-desktop-20261023"
+  ],
+  "new_candidate_ids": [
+    "nov01-smartnews-points-review",
+    "nov02-tvtokyo-mart-review"
+  ],
+  "method": [
+    "11月1・2日と漏えい／漏洩・不正アクセス・誤送信・紛失を組み合わせ、日付表記・全角数字・令和表記も変えて検索。大型案件や転載サイトを除外した検索も併用した。",
+    "複数の公表索引を照合し、公開索引の11月1～2日付4行も確認。索引からMリーグ・テレ東マートを追加発見した。索引の更新日を組織の公表日とはみなさない。",
+    "公式HTML・PDF、同じ告知の公式配信本文、企業自身が配信したPR TIMESを照合。サントリーは直接取得が403のため検索サービスが返す公式本文で確認。",
+    "続報は既存IDへ統合し、公表日を維持。良品計画のカーテンとMUJIアプリ、アイスタイルの侵入と9月の公開ミス、SmartNewsの10月22日と11月1日の事案を区別した。",
+    "人数・メールアドレス件数・契約数・サーバー数・送信通数を区別。アララの各区分、サントリーの各対象群、委託先と利用企業の公表値は単純合算しない。"
+  ],
+  "limitations": [
+    "11月2日の調査時点までの公表を対象とし、当日の終了後までを含む網羅や漏れゼロを意味しない。",
+    "本掲載は個人情報への影響が公表本文で具体化しているもの。SmartNewsとテレ東マートの侵入・停止は確認したが個人情報の対象範囲が未公表のため確認待ち。漏えいなしと確定した扱いではない。",
+    "サントリーの本文は公式ページの検索経由。Mリーグは公式サイトの公開API、良品計画は企業自身のPR TIMES配信本文を使用。GMOの最初の侵入日・会見内容はTBSの報道に基づき、攻撃者の国・集団への帰属は確定事項として採用しない。",
+    "フジッコ第2報は14,594件と合計14,848人を併記。原文の単位・注記を保持し、矛盾を独自の計算で解消しない。",
+    "既存84件の保留全件を再調査したものではなく、今回新たに発見した2件を追加した。"
+  ],
+  "search_queries": [
+    "情報漏えい 2026年11月2日 公表",
+    "不正アクセス 2026年11月1日 個人情報",
+    "個人情報 誤送信 紛失 2026年11月2日",
+    "2026 11 02 ランサムウェア 続報 漏えい",
+    "\"2026年11月2日\" \"漏えい\" -site:reddit.com",
+    "\"2026年11月1日\" \"漏えい\" -site:reddit.com",
+    "\"2026年11月2日\" \"不正アクセス\" -site:reddit.com",
+    "\"2026年11月2日\" \"誤送信\" OR \"紛失\" \"個人情報\"",
+    "\"2026年11月2日\" \"個人情報\" -site:reddit.com -site:joho-rouei.jp -site:note.com",
+    "\"2026年11月1日\" \"個人情報\" -site:reddit.com -site:joho-rouei.jp -site:note.com",
+    "\"2026/11/02\" \"漏洩\" OR \"漏えい\"",
+    "\"2026.11.02\" \"不正アクセス\" OR \"個人情報\"",
+    "site.smartnews.com \"2026年11月1日\" セキュリティ",
+    "site.istyle.co.jp \"2026\" \"11.02\" 不正アクセス",
+    "site.suntory.co.jp \"2026年11月2日\" \"漏えい\"",
+    "site.nojima.co.jp \"2026年11月2日\" \"不正アクセス\"",
+    "アイスタイル アットコスメ 2026 11月2日 不正アクセス 300万",
+    "良品計画 2026 11月2日 個人情報 お詫び",
+    "RainbowGate 不正アクセス 2026年11月1日 お知らせ",
+    "\"2026年11月2日\" \"漏えい\" -site:reddit.com -site:joho-rouei.jp -site:legalagent.co.jp -site:incident-radar.com -アララ -フジッコ -ブラストメール -サントリー -アイスタイル -ノジマ -GMO",
+    "\"令和8年11月2日\" \"個人情報\" \"漏\"",
+    "\"2026年11月２日\" \"個人情報\"",
+    "\"2026/11/2\" \"個人情報\" \"漏\"",
+    "\"2026年11月1日\" \"不正アクセス\" -スマートニュース -SmartNews -アララ -site:reddit.com",
+    "\"2026\" \"11月2日\" \"情報漏洩\" -site:reddit.com -site:joho-rouei.jp",
+    "\"2026年11月2日\" \"誤送付\" OR \"紛失\" -site:reddit.com",
+    "\"2026年11月2日\" \"不正アクセス\" -アララ -SmartNews -スマートニュース -アイスタイル -ノジマ -GMO -site:reddit.com -site:joho-rouei.jp",
+    "site.gmo.jp 2026 11 02 不正アクセス 会見",
+    "site.gmo.jp \"2026年11月2日\" \"デスクトップ\"",
+    "\"オーダーカーテン\" \"2026年11月2日\" \"件\"",
+    "\"2026年11月2日\" \"漏えい\" \"市\" -site:reddit.com -site:joho-rouei.jp -site:note.com -site:axsouken.com",
+    "\"2026年11月2日\" \"個人情報\" \"お詫び\" -ノジマ -アイスタイル -サントリー -フジッコ -site:reddit.com -site:joho-rouei.jp -site:note.com",
+    "\"2026年11月2日\" \"お名前.com\" site:internet.gmo",
+    "\"2026年11月2日\" \"お名前.com\" site:onamae-desktop.com",
+    "\"2026年11月2日\" \"不正アクセス\" site:prtimes.jp",
+    "\"2026年11月2日\" \"漏えい\" site:security-next.com",
+    "site.security-next.com \"2026/11/02\"",
+    "\"2026年11月2日\" \"個人情報\" \"紛失\" -site:reddit.com -site:joho-rouei.jp",
+    "\"2026年11月2日\" \"漏えい\" \"第2報\" -アララ -フジッコ -site:reddit.com",
+    "\"2026年11月2日\" \"不正アクセス\" \"お知らせ\" -GMO -アララ -ノジマ -サントリー -アイスタイル -site:reddit.com -site:joho-rouei.jp",
+    "Mリーグ 2026年11月2日 個人情報 9502",
+    "\"2026年11月2日\" \"漏えい\" \"第3報\"",
+    "\"2026年11月2日\" \"不正アクセス\" -site:reddit.com -site:note.com -site:joho-rouei.jp -アララ -GMO -ノジマ -アイスタイル -サントリー -スマートニュース -SmartNews -フジッコ -site:prtimes.jp",
+    "site.m-league.jp \"2026\" \"11月2日\" \"漏えい\"",
+    "site.m-league.jp \"9,502\"",
+    "site.m-league.jp \"不正アクセス\" \"漏えいについて\""
+  ],
+  "search_result_urls": [
+    "https://legalagent.co.jp/legal-lab/security-incidents/",
+    "https://incidents.seory.co.jp/",
+    "https://breachcheckjp.com/incidents/",
+    "https://www.caa.go.jp/notice/entry/047974/",
+    "https://incident-radar.com/archive/2026/",
+    "https://yosooi.jp/leak2026/",
+    "https://www.jpcert.or.jp/m/at/2026/at260030.html",
+    "https://xn--hdks0547bsub.com/",
+    "https://security-karte.jp/",
+    "https://incidentlog.jp/",
+    "https://axsouken.com/cases/security/japan-security-incidents-2026-11/",
+    "https://innovatopia.jp/cyber-security/cyber-security-news/119603/",
+    "https://www.cyber.go.jp/pdf/policy/infra/ransomrenrakukisairei.pdf",
+    "https://newsroom.mazda.com/ja/publicity/release/2026/202603/260319b.pdf",
+    "https://www.pref.shizuoka.jp/_res/projects/default_project/_page_/001/081/423/202603pressrelease3260423.pdf",
+    "https://www.jer.jp/themes/jer/pdf/notification_250610.pdf",
+    "https://www.jpcert.or.jp/qr/2026/QR_FY2025-Q4.pdf",
+    "https://www.jpcert.or.jp/present/2026/ICSSConf2026_01_JPCERTCC.pdf",
+    "https://www.reddit.com/r/newsokuexp/comments/1x7avig/%E6%97%A5%E7%B5%8C%E6%96%B0%E8%81%9E_%E3%82%AF%E3%83%A9%E3%82%A6%E3%83%89%E3%81%AB%E4%B8%8D%E6%AD%A3%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9_%E7%B4%84183%E4%B8%87%E4%BB%B6%E3%81%AE%E5%80%8B%E4%BA%BA%E6%83%85%E5%A0%B1%E6%B5%81%E5%87%BA/",
+    "https://www.reddit.com/r/newsokunomoral/comments/1wzskag/his%E5%AD%90%E4%BC%9A%E7%A4%BE%E3%81%8B%E3%82%89%E3%83%91%E3%82%B9%E3%83%9D%E3%83%BC%E3%83%88%E6%83%85%E5%A0%B1%E6%B5%81%E5%87%BA%E3%81%8B%E6%9C%80%E5%A4%A7627%E4%BA%BA%E5%88%86_%E6%98%A8%E5%B9%B4%E3%81%AE%E4%B8%8D%E6%AD%A3%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E3%82%92%E5%85%AC%E8%A1%A8/",
+    "https://www.reddit.com/r/r_kenmou/comments/1xb3izh/%E8%AD%A6%E5%AF%9F%E5%AE%98%E3%81%AE%E5%80%8B%E4%BA%BA%E6%83%85%E5%A0%B112%E4%B8%875000%E4%BB%B6%E6%B5%81%E5%87%BA_931948549/",
+    "https://www.reddit.com/r/newsokur/comments/1wdg2tn/%E3%83%A1%E3%83%B3%E3%83%84%E4%B8%B8%E6%BD%B0%E3%82%8C%E3%83%87%E3%82%B8%E3%82%BF%E3%83%AB%E5%BA%81%E3%81%8C%E4%B8%8D%E6%AD%A3%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E5%8F%97%E3%81%91%E5%80%8B%E4%BA%BA%E6%83%85%E5%A0%B1246%E4%B8%87%E4%BB%B6%E6%B5%81%E5%87%BA%E3%81%8B_%E7%84%A1%E6%A7%98%E3%81%AA%E9%86%9C%E6%85%8Bsns%E3%81%AB%E5%8E%B3%E3%81%97%E3%81%84%E5%A3%B0/",
+    "https://www.reddit.com/r/newsg/comments/1vt2io8/%E3%81%95%E3%81%8F%E3%82%89%E3%82%A4%E3%83%B3%E3%82%BF%E3%83%BC%E3%83%8D%E3%83%83%E3%83%88%E3%81%AB%E4%B8%8D%E6%AD%A3%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9_%E4%BC%9A%E5%93%A1%E6%83%85%E5%A0%B1136%E4%B8%87%E4%BB%B6%E3%81%AB%E5%BD%B1%E9%9F%BF%E3%81%8B/",
+    "https://www.reddit.com/r/newsokunomoral/comments/1wzu56x/%E3%83%87%E3%83%B3%E3%83%9E%E3%83%BC%E3%82%AF%E7%89%88%E3%83%9E%E3%82%A4%E3%83%8A%E3%83%B3%E3%83%90%E3%83%BC_880%E4%B8%87%E4%BA%BA%E5%88%86%E3%81%AB%E4%B8%8D%E6%AD%A3%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9/",
+    "https://www.reddit.com/r/r_kenmou/comments/1x1iesn/%E3%83%87%E3%82%B8%E3%82%BF%E3%83%AB%E5%BA%81%E5%80%8B%E4%BA%BA%E6%83%85%E5%A0%B124%E4%B8%876000%E4%BB%B6%E6%BC%8F%E6%B4%A9_237216734/",
+    "https://www.reddit.com/r/newsokunomoral/comments/1xftbu6/%E3%83%8F%E3%83%83%E3%82%AB%E3%83%BC%E9%9B%86%E5%9B%A3_gmo%E3%81%AB%E3%81%82%E3%81%99%E6%9C%9F%E9%99%90%E3%81%A7100%E4%B8%87%E3%83%89%E3%83%AB%E8%A6%81%E6%B1%82_%E9%A1%A7%E5%AE%A2%E8%84%85%E8%BF%AB%E3%82%82/",
+    "https://www.reddit.com/r/newsg/comments/1p6d3c0/%E5%9B%BD%E7%AB%8B%E5%9B%BD%E4%BC%9A%E5%9B%B3%E6%9B%B8%E9%A4%A8%E5%80%8B%E4%BA%BA%E6%83%85%E5%A0%B1%E3%81%AA%E3%81%A94%E4%B8%87%E4%BB%B6%E8%B6%85%E6%BC%8F%E3%81%88%E3%81%84%E3%81%AE%E5%8F%AF%E8%83%BD%E6%80%A7_%E6%96%B0%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E5%86%8D%E5%A7%94%E8%A8%97%E6%A5%AD%E8%80%85%E3%81%B8%E3%81%AE%E4%B8%8D%E6%AD%A3%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E3%81%A7/",
+    "https://www.reddit.com/r/newsokunomoral/comments/1wy0gcc/%E5%A4%A7%E5%92%8C%E8%A8%BC%E5%88%B8%E7%B4%8411%E4%B8%87%E4%BA%BA%E3%81%AE%E9%A1%A7%E5%AE%A2%E6%83%85%E5%A0%B1%E6%BC%8F%E3%81%88%E3%81%84%E3%81%8B_%E5%A7%94%E8%A8%97%E5%85%88%E3%81%AB%E4%B8%8D%E6%AD%A3%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9/",
+    "https://www.reddit.com/r/BakaNewsJP/comments/1wzk1gf/%E6%B0%91%E9%96%93%E4%BC%81%E6%A5%AD%E3%81%A7%E9%A0%BB%E7%99%BA%E3%81%99%E3%82%8B%E4%B8%8D%E6%AD%A3%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E3%81%AB%E3%82%88%E3%82%8B%E5%80%8B%E4%BA%BA%E6%83%85%E5%A0%B1%E3%81%AE%E6%B5%81%E5%87%BA%E4%BA%8B%E6%A1%88%E3%81%AB%E5%AF%BE%E3%81%97%E3%81%A6%E3%83%87%E3%82%B8%E3%82%BF%E3%83%AB%E5%BA%81%E8%87%AA%E5%88%86%E3%81%AE%E6%83%85%E5%A0%B1%E3%81%AF%E8%87%AA%E5%88%86%E3%81%A7%E5%AE%88%E3%82%8B%E3%81%A8%E3%81%84%E3%81%86/",
+    "https://www.reddit.com/r/r_kenmou/comments/1vsfkuz/%E5%9B%BD%E7%94%A3%E3%82%AF%E3%83%A9%E3%82%A6%E3%83%89%E3%81%95%E3%81%8F%E3%82%89%E3%82%A4%E3%83%B3%E3%82%BF%E3%83%BC%E3%83%8D%E3%83%83%E3%83%88%E5%85%A8%E9%A1%A7%E5%AE%A2%E3%81%AE%E6%83%85%E5%A0%B1136%E4%B8%87%E4%BB%B6%E3%81%8A%E6%BC%8F%E3%82%89%E3%81%97%E3%81%97%E3%81%9F%E5%8F%AF%E8%83%BD%E6%80%A7%E3%81%A8%E7%99%BA%E8%A1%A8_709039863/",
+    "https://incidentlog.jp/incidents/prestige-international-20261102",
+    "https://www.pref.saitama.lg.jp/f2204/news/page/news2026110201.html",
+    "https://internet.watch.impress.co.jp/docs/news/2153174.html",
+    "https://joho-rouei.jp/",
+    "https://security.entamec.com/data-breach/",
+    "https://incident-radar.com/",
+    "https://f.irbank.net/pdf/E33615/etc/S100Y91E.pdf",
+    "https://www.u-tokai.ac.jp/uploads/2026/02/8f619ff70dd54597ac4189dff04c9dea.pdf",
+    "https://www.meti.go.jp/shingikai/sankoshin/hoan_shohi/carbon_dioxide/ccs/pdf/002_02_00.pdf",
+    "https://www.tepco.co.jp/press/release/2026/pdf2/260406j0102.pdf",
+    "https://www.pref.gifu.lg.jp/uploaded/attachment/484118.pdf",
+    "https://www.city.sapporo.jp/shimin/koseki/mynumber/documents/20260409_goiken.pdf",
+    "https://www.fujicco.co.jp/newsrelease/archive/detail_2907.html",
+    "https://lifull.com/news/50881/",
+    "https://newsdig.tbs.co.jp/articles/withbloomberg/3056432?display=1",
+    "https://mtj.jiho.jp/news/trend/4389",
+    "https://jouhourouei.clipmaster.jp/",
+    "https://bankenjp.com/incidents/rainbowgate-2026-11",
+    "https://ai.itokoba.com/security-tier/updates/2026-11-02/",
+    "https://cybersecurity-jp.com/news/118060",
+    "https://c-techlab.jp/blog/data-breach-wave-autumn-2026/",
+    "https://cybersecurity-jp.com/news/118064",
+    "https://www.shimane-u.ac.jp/_files/00419987/20260414_1_00.pdf",
+    "https://www.midwife.or.jp/user/media/midwife/page/midwife/insurance/pdf02_202508.pdf",
+    "https://www.nsa-surf.org/members/wp-content/uploads/sites/10/2025/10/members_cmember2026.pdf",
+    "https://www.nihonbashi-hojinkai.or.jp/sample/pdf/2026-12-02.pdf",
+    "https://www.jal.co.jp/jp/ja/dom/campaign/shikoku/pdf_sites/shikoku_digitalcoupon_kiyaku_2026_feb.pdf",
+    "https://www.tmi.gr.jp/uploads/2025/12/18/TMI_China_News_November_2025.pdf",
+    "https://www.suntory.co.jp/note/detail/261102_008203.html",
+    "https://contents.online.nojima.co.jp/uncategorized/%E3%83%8E%E3%82%B8%E3%83%9E%E3%82%AA%E3%83%B3%E3%83%A9%E3%82%A4%E3%83%B3%E3%81%AE%E4%B8%8D%E6%AD%A3%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E3%81%AB%E4%BC%B4%E3%81%86%E5%80%8B%E4%BA%BA%E6%83%85%E5%A0%B1/",
+    "https://support.smartnews.com/hc/ja/articles/63832353795993-%E3%82%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%86%E3%82%A3%E4%B8%8A%E3%81%AE%E5%95%8F%E9%A1%8C%E3%81%B8%E3%81%AE%E5%AF%BE%E5%BF%9C%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6-%E7%B6%9A%E5%A0%B1-2026%E5%B9%B411%E6%9C%881%E6%97%A515%E6%99%82%E6%99%82%E7%82%B9",
+    "https://security.qutori.jp/companies.html",
+    "https://rouei-watch.vercel.app/",
+    "https://tsnmedia.org/smartnews-security-incident/",
+    "https://blogs.itmedia.co.jp/agile/2026/11/smartnews_unauthorized_access_20261102.html",
+    "https://news.livedoor.com/article/detail/32715355/",
+    "https://humanhacker.ai/media/summary/",
+    "https://skikkh.github.io/jp-security-announcement/breaches.html",
+    "https://www.tepco.co.jp/decommission/information/committee/roadmap_progress/pdf/2026/d260129_12-j.pdf",
+    "https://www.pref.fukui.lg.jp/doc/atom/r8_kisyahappyou_d/fil/2026_g05.pdf",
+    "https://www.jaea.go.jp/04/turuga/jturuga/press/2025/11/p251110.pdf",
+    "https://www2.jpx.co.jp/disc/39220/140120250714513980.pdf",
+    "https://www.istyle.co.jp/news/info/2026/11/1102.html",
+    "https://www.ryohin-keikaku.jp/news/articles/2026_1102_01",
+    "https://zawakabu.com/s/20261102-istyle-cosme-common-id-300man-leak/",
+    "https://jouhourouei.clipmaster.jp/sns",
+    "https://www.horimemo.online/news-sns/atcosme-jouhou-rouei/",
+    "https://manabinoba.blog/cosme-data-leak/",
+    "https://pirorin.com/suntory-cloud-personal-information-leak-20261102/",
+    "https://files.microcms-assets.io/assets/1abbce69114443b0af3672230990db72/d8bc5fa758384759ab9f41e893778ed5/260401_%E3%83%AA%E3%83%AA%E3%83%BC%E3%82%B9.pdf",
+    "https://files.microcms-assets.io/assets/1abbce69114443b0af3672230990db72/4fd3e3ebd1984a4f87baba48b58675a6/20250909_PrivacyPolicy.pdf",
+    "https://www.ryohin-keikaku.jp/ir/shareholders_meeting/46th_shareholders_meeting/241123_JP01.pdf",
+    "https://finance-frontend-pc-dist.west.edge.storage-yahoo.jp/disclosure/20241031/20241030506194.pdf",
+    "https://assets.ryohin-keikaku.jp/news/pdf/20240130_02_ujimattyacake.pdf",
+    "https://www.shinjoho.com/wp-content/uploads/2026/01/260128-package-shop-1.pdf",
+    "https://www.reddit.com/r/newsokunomoral/comments/1x3ylnb/%E4%BB%8A%E5%B9%B4%E3%81%AB%E3%81%AA%E3%81%A3%E3%81%A6%E4%BD%95%E5%9B%9E%E8%87%AA%E5%88%86%E3%81%AE%E5%80%8B%E4%BA%BA%E6%83%85%E5%A0%B1%E3%81%8C%E6%B5%81%E5%A4%B1%E3%81%97%E3%81%9F/",
+    "https://www.reddit.com/r/newsokuexp/comments/1wuhku8/e%E3%82%B9%E3%83%88%E3%82%A2%E3%83%BC%E3%81%AE%E6%BC%8F%E3%81%88%E3%81%84%E9%80%9A%E7%9F%A5%E3%81%8C%E6%9D%A5%E3%81%9F%E3%81%8C%E6%9C%AC%E6%96%87%E3%81%AB%E8%B3%BC%E5%85%A5%E5%85%88%E3%81%AE%E5%BA%97%E5%90%8D%E3%81%8C%E3%81%AA%E3%81%84%E5%90%8C%E3%81%98%E3%82%82%E3%81%AE%E5%B1%8A%E3%81%84%E3%81%9F%E4%BA%BA%E3%81%84%E3%82%8B/",
+    "https://www.reddit.com/r/newsokunomoral/comments/1xcxwko/%E3%81%93%E3%82%8C%E3%81%8B%E3%82%89%E3%81%AF%E3%82%AF%E3%83%A9%E3%82%A6%E3%83%89%E3%83%87%E3%82%B8%E3%82%BF%E3%83%AB%E5%BA%81%E3%81%AE%E3%81%8A%E5%95%8F%E5%90%88%E3%81%9B%E3%83%95%E3%82%A9%E3%83%BC%E3%83%A0%E5%85%A5%E5%8A%9B%E6%83%85%E5%A0%B1%E3%81%8C%E6%BC%8F%E3%81%88%E3%81%84%E3%81%97%E3%81%9F%E5%8F%AF%E8%83%BD%E6%80%A7/",
+    "https://www.reddit.com/r/newsokunomoral/comments/1wzijym/%E7%9B%B8%E6%AC%A1%E3%81%90%E4%B8%8D%E6%AD%A3%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E5%8F%A4%E5%B7%9D%E3%83%87%E3%82%B8%E3%82%BF%E3%83%AB%E7%9B%B8%E3%81%8C%E6%B3%A8%E6%84%8F%E5%96%9A%E8%B5%B7_%E8%87%AA%E5%88%86%E3%81%AE%E6%83%85%E5%A0%B1%E3%81%AF%E8%87%AA%E5%88%86%E3%81%A7%E5%AE%88%E3%82%8B/",
+    "https://www.reddit.com/r/newsg/comments/1wupung/%E4%BD%90%E5%B7%9D%E6%80%A5%E4%BE%BF%E3%81%AE%E8%8D%B7%E7%89%A9%E8%BF%BD%E8%B7%A1%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9%E3%81%AB%E4%B8%8D%E6%AD%A3%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9_%E5%88%A9%E7%94%A8%E3%82%92%E4%B8%80%E9%83%A8%E5%88%B6%E9%99%90/",
+    "https://www.reddit.com/r/newsokunomoral/comments/1x7lao4/%E5%80%8B%E4%BA%BA%E6%83%85%E5%A0%B1%E6%B5%81%E5%87%BA%E3%81%97%E3%81%A6%E3%82%8B%E3%81%AE%E3%81%AF%E7%A7%81%E3%81%9F%E3%81%A1%E6%B6%88%E8%B2%BB%E8%80%85%E3%81%A7%E3%81%82%E3%82%8B%E6%9C%AC%E5%90%8D%E3%81%A8%E9%9B%BB%E8%A9%B1%E7%95%AA%E5%8F%B7%E3%81%AF%E9%9A%A0%E3%81%9B/",
+    "https://www.reddit.com/r/newsokuexp/comments/1x9u6pe/%E9%98%AA%E6%80%A5%E9%98%AA%E7%A5%9E%E7%99%BE%E8%B2%A8%E5%BA%97%E3%81%AA%E3%81%A9%E3%81%AE%E5%85%B1%E9%80%9Aid%E3%81%BB%E3%81%BC%E5%85%A8%E4%BC%9A%E5%93%A1%E5%88%86%E6%BC%8F%E3%81%88%E3%81%84_%E7%B4%84126%E4%B8%87%E4%BB%B6_%E4%BA%88%E7%B4%84%E3%82%B5%E3%82%A4%E3%83%88%E3%81%AB%E4%B8%8D%E6%AD%A3%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9/",
+    "https://zh.wikipedia.org/wiki/%E7%84%A1%E5%8D%B0%E8%89%AF%E5%93%81",
+    "https://www.reddit.com/r/BakaNewsJP/comments/1x1qcbb/%E3%81%84%E3%82%8D%E3%82%93%E3%81%AA%E4%BC%81%E6%A5%AD%E3%81%8C%E6%9C%80%E8%BF%91%E7%99%BA%E7%94%9F%E3%81%97%E3%81%9F%E5%80%8B%E4%BA%BA%E6%83%85%E5%A0%B1%E6%BC%8F%E6%B4%A9%E3%82%92%E5%85%AC%E8%A1%A8%E3%81%97%E3%81%A6%E3%81%84%E3%82%8B%E4%B8%AD10%E3%81%8B%E6%9C%88%E5%89%8D%E3%81%AE%E6%BC%8F%E6%B4%A9%E4%BA%8B%E6%A1%88%E3%82%92%E3%81%93%E3%81%AE%E3%82%BF%E3%82%A4%E3%83%9F%E3%83%B3%E3%82%B0%E3%81%A7%E5%85%AC%E8%A1%A8%E3%81%97%E3%81%9F/",
+    "https://www.reddit.com/r/newsokunomoral/comments/1x1ez1i/%E6%83%85%E5%A0%B1%E6%BC%8F%E6%B4%A9%E4%B8%8D%E6%AD%A3%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9tier%E8%A1%A82026/",
+    "https://laws.e-gov.go.jp/law/415AC0000000057/20261102_508AC0000000062",
+    "https://www.city.akishima.lg.jp/shisei/kojinjyoho/1008707.html",
+    "https://news.livedoor.com/article/detail/32708067/",
+    "https://regbase.jp/updates/agency/ppc",
+    "https://sakata-engineer.work/2026/11/01/japan-cyber-attack-damage-summary-2026-11-01/",
+    "https://www.data-max.co.jp/article/87762",
+    "https://humanhacker.ai/media/summary/industry/it/",
+    "https://www.city.kashiwa.lg.jp/documents/42514/kouhou_kohyo.pdf",
+    "https://www.kanto.npa.go.jp/disclosure/keimu-kojinjyouhoukaijiseikyu20251127.pdf",
+    "https://www.iams.or.jp/wp-content/uploads/45fb500fd3ac43f7d42809a56d8d0c1c.pdf",
+    "https://www.ogb.go.jp/-/media/Files/OGB/Keisan/move/kobo/260212_01/01_R8koubo.pdf",
+    "https://jiii.or.jp/topics/2026/file/forensic.pdf",
+    "https://newsdig.tbs.co.jp/articles/withbloomberg/3057248?display=1",
+    "https://www.itmedia.co.jp/news/article/2611/02/2000002806/",
+    "https://news.livedoor.com/article/detail/32714419/",
+    "https://k-tai.watch.impress.co.jp/docs/news/2153147.html",
+    "https://news.livedoor.com/article/detail/32702256/",
+    "https://innovatopia.jp/cyber-security/cyber-security-news/119659/",
+    "https://www.fnn.jp/articles/-/1144589",
+    "https://www.fnn.jp/articles/-/1143953",
+    "https://www.hotelgp-osaka.com/pdf/important_20260309.pdf?v=1",
+    "https://kabuyoho-sls-disclose.ifis.co.jp/9b1/140120250805530278.pdf",
+    "https://security.gmo.jp/security/conference/2026/assets/pdf/proposal.pdf",
+    "https://www.reddit.com/r/newsg/comments/1xgaww3/gmo%E3%81%AB79%E5%84%84%E5%86%86%E8%A6%81%E6%B1%82_%E3%82%B5%E3%82%A4%E3%83%90%E3%83%BC%E6%94%BB%E6%92%83%E8%80%85%E3%81%AE%E8%84%85%E8%BF%AB%E6%96%87%E3%82%92%E5%85%AC%E9%96%8B%E6%94%AF%E6%89%95%E3%81%84%E3%81%AF%E6%8B%92%E5%90%A6/",
+    "https://www.reddit.com/r/newsokunomoral/comments/1xfm3wv/gmo%E3%82%A4%E3%83%B3%E3%82%BF%E3%83%BC%E3%83%8D%E3%83%83%E3%83%88g%E6%A0%AA%E3%81%8C%E7%B6%9A%E8%90%BD%E3%82%B5%E3%82%A4%E3%83%90%E3%83%BC%E6%94%BB%E6%92%83%E8%A3%9C%E5%84%9F%E8%B2%A0%E6%8B%85%E6%87%B8%E5%BF%B5%E8%83%BD%E5%8B%95%E7%9A%84%E3%82%B5%E3%82%A4%E3%83%90%E3%83%BC%E9%98%B2%E5%BE%A1%E3%82%82%E8%A6%81%E8%AB%8B/",
+    "https://www.reddit.com/r/newsokunomoral/comments/1xd7aj8/%E3%81%8A%E3%80%87%E3%80%87%E3%83%89%E3%83%83%E3%83%88%E3%82%B3%E3%83%A0%E3%81%AB%E4%B8%8D%E6%AD%A3%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E3%81%97%E3%81%9F%E3%83%8F%E3%83%83%E3%82%AD%E3%83%B3%E3%82%B0%E3%83%81%E3%83%BC%E3%83%A0%E6%9B%B0%E3%81%8F%E6%9C%AC%E6%9D%A5%E7%9A%86%E6%A7%98%E3%81%AE%E5%8F%A3%E5%BA%A7%E3%82%92%E7%A0%B4%E5%A3%8A%E3%81%99%E3%82%8B%E6%84%8F%E5%9B%B3%E3%81%AF%E3%81%82%E3%82%8A%E3%81%BE%E3%81%9B%E3%82%93%E3%81%A7%E3%81%97%E3%81%9F/",
+    "https://www.reddit.com/r/r_kenmou/comments/1wyw3mf/%E5%8F%A4%E5%B7%9D%E3%83%87%E3%82%B8%E3%82%BF%E3%83%AB%E5%A4%A7%E8%87%A3%E4%B8%8D%E6%AD%A3%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E3%81%AB%E3%82%88%E3%82%8B%E6%83%85%E5%A0%B1%E6%B5%81%E5%87%BA%E3%81%8C%E8%B5%B7%E3%81%8D%E3%81%A6%E3%81%BE%E3%81%99%E3%81%8C%E3%82%B5%E3%82%A4%E3%83%90%E3%83%BC%E6%94%BB%E6%92%83%E3%81%AF%E4%BC%81%E6%A5%AD%E3%82%84%E7%B5%84%E7%B9%94%E3%81%A0%E3%81%91%E3%81%AE%E5%95%8F%E9%A1%8C%E3%81%A7%E3%81%AF%E3%81%AA%E3%81%84%E8%87%AA/",
+    "https://www.reddit.com/r/newsokunomoral/comments/1wyztz0/9%E6%9C%88%E6%9C%AB%E3%81%BE%E3%81%A7%E3%81%A7600%E4%BB%B6%E5%9B%BD%E5%86%85%E3%81%AE%E4%B8%8D%E6%AD%A3%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E6%9C%80%E5%A4%9A%E3%83%9A%E3%83%BC%E3%82%B9_%E7%9B%B8%E6%AC%A1%E3%81%90%E5%80%8B%E4%BA%BA%E6%83%85%E5%A0%B1%E6%BC%8F%E3%81%88%E3%81%84%E5%AF%BE%E7%AD%96%E6%80%A5%E5%8B%99/",
+    "https://s.cosme.net/announcement/17117",
+    "https://www.city.satsumasendai.lg.jp/kurashi_tetsuzuki/genshiryoku/kikikanri/21494.html",
+    "https://www.city.hiroshima.lg.jp/living/1035962/1021171/1054887.html",
+    "https://www.city.amagasaki.hyogo.jp/shisei/1001823/1044432.html",
+    "https://www.horimemo.online/news-sns/suntory-jouhou-rouei/",
+    "https://qbei.isotop.jp/archives/9867",
+    "https://www.city.sapporo.jp/shimin/koseki/mynumber/documents/20260409_00_zentougouban_1.pdf",
+    "https://cart.or.jp/wp-content/uploads/2026/06/2026%E5%B9%B4%E5%BA%A6%E7%A4%BE%E5%93%A1%E7%B7%8F%E4%BC%9A%E8%B3%87%E6%96%99.pdf",
+    "https://www.tenmaya.co.jp/okayama/pdf/20251101.pdf",
+    "https://www.city.kunitachi.tokyo.jp/material/files/group/1/20260105.pdf",
+    "https://okayama.coop/news/weeklycoop/higashi/2511-1.pdf",
+    "https://prtimes.jp/main/html/rd/p/000001878.000000987.html",
+    "https://prtimes.jp/main/html/rd/p/000000050.000178657.html",
+    "https://prtimes.jp/main/html/rd/p/000000144.000071489.html",
+    "https://prtimes.jp/main/html/rd/p/000000239.000040106.html",
+    "https://www.onamae-desktop.com/?btn_id=dc_payment_gm_logo_onamae-desktop",
+    "https://prtimes.jp/main/html/rd/p/000000209.000060050.html",
+    "https://prtimes.jp/main/html/rd/p/000000018.000165072.html",
+    "https://prtimes.jp/main/html/rd/p/000000189.000054657.html",
+    "https://prtimes.jp/main/html/rd/p/000000129.000015527.html",
+    "https://internet.gmo/",
+    "https://prtimes.jp/main/action.php?page=searchkey&run=html&search_word=%EF%BD%8F%EF%BD%90%EF%BD%94%EF%BD%89%EF%BD%8D",
+    "https://prtimes.jp/topics/keywords/%E8%A6%B3%E5%85%89%E5%BA%81",
+    "https://www.security-next.com/date/2026",
+    "https://www.lapsys.co.jp/topics/2026/10/post-379.html",
+    "https://www.pondaichi-act2.tech/arara-message-data-breach-2026/",
+    "https://satimo.org/2026/11/dcm-maibo-data-leak-2026/",
+    "https://www.nict.go.jp/publicity/latestnews/2026/index.html",
+    "https://imakoreda.com/873/",
+    "https://www.sechot.net/daily/2026-11-02",
+    "https://itdef.net/ja/learn/security-incidents-2026",
+    "https://www.rouei-navi.jp/",
+    "https://srkshiga.com/wp-content/themes/srkshiga_res/youkou/y2026/261128_shiga_1000m_meet_4th2.pdf",
+    "https://procurement.japanpost.jp/general/b00-10-20251209-0206.pdf",
+    "https://corp.shiseido.com/jp/ir/investors/pdf/preferential_2026_bcd.pdf",
+    "https://www.tokyo-gyosei.or.jp/inside/pdf/change01.pdf",
+    "https://gigazine.net/news/20261102-headline/",
+    "https://rocket-boys.co.jp/security-measures-lab/mleague-official-shop-9502-data-breach-personal-risks-20261102/",
+    "https://news.livedoor.com/article/detail/32709600/",
+    "https://www.f-marinos.com/pdf/2026_members_kiyaku.pdf",
+    "https://finance-frontend-pc-dist.west.edge.storage-yahoo.jp/disclosure/20250714/20250714513980.pdf",
+    "https://www.tokai.ac.jp/news/d7566ddb8eee16decc340e0a301ebee7f1221bea.pdf",
+    "https://www.ms-primary.com/news/ir/assets/20250502_minaoshihonpo2.pdf",
+    "https://egg.5ch.io/test/read.cgi/mj/1793536332/",
+    "https://www.pref.gifu.lg.jp/site/pressrelease/524450.html",
+    "https://security-portal.nisc.go.jp/guidance/pdf/law_handbook/law_handbook_2.pdf",
+    "https://www.mainichi.co.jp/info/news/20261028-2.html",
+    "https://www.digitalservice.metro.tokyo.lg.jp/information/press/2026/05/20260525",
+    "https://www.courts.go.jp/assets/hanrei/hanrei-pdf-92137.pdf",
+    "https://www.pref.mie.lg.jp/TOPICS/m0031300467.htm",
+    "https://www.jnsa.org/result/isms/seminar/2023/2023-003.pdf",
+    "https://www.mitsui-fc.co.jp/_assets/pdf/news/20250428.pdf",
+    "https://help.mapion.co.jp/maintenance20261009.html",
+    "https://www.rouei-navi.jp/today/",
+    "https://www.actv135.ne.jp/info/2026.6.27.info.php",
+    "https://town.shibecha.hokkaido.jp/kakuka/soumu/news/milmail_unauthorized_access.html"
+  ],
+  "watch_rows": [
+    {
+      "id": "istyle_cosme_20261102",
+      "date": "2026-11-02",
+      "name": "アイスタイル（「@cosme（アットコスメ）」）",
+      "industry": "情報通信・IT",
+      "damage": "情報漏えい",
+      "route": "原因未公表",
+      "impact": "@cosme共通IDの会員約300万人のユーザーID・ニックネーム・氏名（漢字・カナ）・郵便番号・住所・電話番号・メールアドレス・性別・生年月日・肌質・髪質が漏えいしました（11月2日時点）。退会済みでも不正アクセス時点で会員だった人を含みます。ログインパスワードとクレジットカード情報は含まれていないとしています。",
+      "article": null
+    },
+    {
+      "id": "mleague_20261102",
+      "date": "2026-11-02",
+      "name": "Mリーグ機構（Mリーグ公式サイト・公式オンラインショップ）",
+      "industry": "娯楽・スポーツ",
+      "damage": "情報漏えい",
+      "route": "原因未公表",
+      "impact": "公式オンラインショップと公式会員サイトの利用者9,502人の氏名・住所・電話番号などが漏えいしました（11月2日時点）。ショップの9,497件はメールアドレス・ログインID・登録日・パスワードのハッシュ値と、注文内容13,922件を含みます。クレジットカード等の決済情報はシステムで保有していません。",
+      "article": null
+    },
+    {
+      "id": "tvtokyo_mart_20261102",
+      "date": "2026-11-02",
+      "name": "テレビ東京ダイレクト（通販サイト「テレ東マート」）",
+      "industry": "小売・卸売",
+      "damage": "業務停止",
+      "route": "原因未公表",
+      "impact": "通販サイト「テレ東マート」で第三者による不正アクセスが確認され、11月2日午前3時53分にサイトを緊急停止しました。個人情報とクレジットカード情報の漏えいは11月2日時点で確認されておらず、影響範囲を調査中としています。",
+      "article": null
+    },
+    {
+      "id": "smartnews_points_20261101",
+      "date": "2026-11-01",
+      "name": "スマートニュース（ポイント・特典システム）",
+      "industry": "放送・出版・メディア",
+      "damage": "改ざん・乗っ取り",
+      "route": "原因未公表",
+      "impact": "ポイント・特典のシステムで第三者による不正な操作を確認し、ポイント交換を一時停止しています。利用者のアカウントへの影響と、広告関連のシステム・情報への影響は調査中としています（11月1日15時時点）。被害額・件数は未公表。",
+      "article": null
+    }
+  ],
+  "checks": [
+    {
+      "organization": "RainbowGate",
+      "decision": "added",
+      "source_urls": [
+        "https://www.rainbowgate.jp/%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B/%E4%B8%8D%E6%AD%A3%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E3%81%AB%E3%82%88%E3%82%8B%E5%80%8B%E4%BA%BA%E6%83%85%E5%A0%B1%E3%81%AE%E6%BC%8F%E3%81%88%E3%81%84%E7%AD%89%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B/"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "rainbowgate-web-exposure-20261101"
+      ]
+    },
+    {
+      "organization": "ノジマ（ノジマオンライン・中古スマホ買取サイト）",
+      "decision": "added",
+      "source_urls": [
+        "https://www.nojima.co.jp/wp-content/uploads/2026/11/fa47750556e505f2ddb83dc080a6420f.pdf"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "nojima-member-server-20261102"
+      ]
+    },
+    {
+      "organization": "プレステージ・インターナショナル／プレステージ・コアソリューション",
+      "decision": "added",
+      "source_urls": [
+        "https://www.release.tdnet.info/inbs/140120261102563007.pdf"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "prestige-pcs-roadservice-20261102"
+      ]
+    },
+    {
+      "organization": "LIFULL Investment（LIFULL不動産クラウドファンディング）",
+      "decision": "added",
+      "source_urls": [
+        "https://lifull.com/news/50881/"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "lifull-investment-securitize-20261102"
+      ]
+    },
+    {
+      "organization": "良品計画（無印良品オーダーカーテン）",
+      "decision": "added",
+      "source_urls": [
+        "https://prtimes.jp/main/html/rd/p/000001878.000000987.html"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "muji-order-curtain-vendor-20261102"
+      ]
+    },
+    {
+      "organization": "アイスタイル（@cosme共通ID）",
+      "decision": "added",
+      "source_urls": [
+        "https://www.istyle.co.jp/news/info/2026/11/1102.html"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "istyle-cosme-common-id-20261102"
+      ]
+    },
+    {
+      "organization": "サントリーホールディングス／サントリービバレッジ＆フード",
+      "decision": "added",
+      "source_urls": [
+        "https://www.suntory.co.jp/note/detail/261102_008203.html"
+      ],
+      "reason": "直接取得は403。検索サービスが返す公式本文で公表日・7区分の人数と対象項目を確認。",
+      "incident_ids": [
+        "suntory-cloud-files-20261102"
+      ],
+      "evidence_method": "indexed_official_body"
+    },
+    {
+      "organization": "埼玉県教育局",
+      "decision": "added",
+      "source_urls": [
+        "https://www.pref.saitama.lg.jp/f2204/news/page/news2026110201.html"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "saitama-tuition-notice-mail-20261102"
+      ]
+    },
+    {
+      "organization": "Mリーグ機構",
+      "decision": "added",
+      "source_urls": [
+        "https://m-league.jp/news/article/?id=article-8d1eb109-c366-444e-8525-c30a6e9ec8ff",
+        "https://m-league.jp/api/news/article?id=article-8d1eb109-c366-444e-8525-c30a6e9ec8ff"
+      ],
+      "reason": "公式ページの本文が動的配信のため、同サイトの公開APIの本文・日付を確認。",
+      "incident_ids": [
+        "mleague-shop-members-20261102"
+      ],
+      "evidence_method": "official_api_body"
+    },
+    {
+      "organization": "アララ（ペイクラウドホールディングス）",
+      "decision": "updated",
+      "source_urls": [
+        "https://contents.xj-storage.jp/xcontents/AS71226/e6ace155/ea42/43ba/912f/c114939990f0/140120261102562067.pdf"
+      ],
+      "reason": "契約企業環境97台での持ち出しと約7,700万件のメールアドレスへの影響を公表。既報の環境も3,386,187件と顧客データ最大411,827件に更新。",
+      "incident_ids": [
+        "arara-message-20261028"
+      ]
+    },
+    {
+      "organization": "フジッコ",
+      "decision": "updated",
+      "source_urls": [
+        "https://www.fujicco.co.jp/newsrelease/archive/detail_2907.html"
+      ],
+      "reason": "延べ約15,500件を14,594件へ訂正。同じ第2報は両キャンペーン応募254人を合わせた合計14,848人も併記しているため単位を区別。",
+      "incident_ids": [
+        "fujicco-campaign-20261022"
+      ]
+    },
+    {
+      "organization": "ラクスライトクラウド（ブラストメール）",
+      "decision": "updated",
+      "source_urls": [
+        "https://info.blastmail.jp/information_20261021.html"
+      ],
+      "reason": "前報以降、新たな漏えい判明なし。345契約で変動なく、本体は11月11日頃の再開を目指す。OEM版は未定、次回報告は11月3日予定。",
+      "incident_ids": [
+        "rakus-blastmail-20261021"
+      ]
+    },
+    {
+      "organization": "ラプラス・システム",
+      "decision": "updated",
+      "source_urls": [
+        "https://www.lapsys.co.jp/topics/2026/10/post-379.html"
+      ],
+      "reason": "提供元から当社管理の顧客個人情報の漏えいは現時点で未確認との報告を受領。調査は継続、L・eye監視画面のエラーメールは別配信系統。",
+      "incident_ids": [
+        "review-20261023-f759073a3fad"
+      ]
+    },
+    {
+      "organization": "GMOインターネット（お名前.com デスクトップクラウド）",
+      "decision": "updated",
+      "source_urls": [
+        "https://www.onamae-desktop.com/",
+        "https://newsdig.tbs.co.jp/articles/withbloomberg/3057248?display=1"
+      ],
+      "reason": "全プランのサーバー停止と再開時期未定を継続。現行システム基盤はそのまま再開せず、代替サービス・見舞金等を個別案内。",
+      "incident_ids": [
+        "onamae-desktop-20261023"
+      ]
+    },
+    {
+      "organization": "スマートニュース（11月1日公表の別事案）",
+      "decision": "pending",
+      "source_urls": [
+        "https://about.smartnews.com/ja/news/2617.html",
+        "https://about.smartnews.com/ja/news/2615.html"
+      ],
+      "reason": "10月31日～11月1日の侵入とポイント・特典の不正操作を確認。利用者アカウント・広告関連情報への影響は調査中で、自然人の対象情報や漏えい範囲は未公表。10月22日の事案とは別と公式に明記。",
+      "incident_ids": []
+    },
+    {
+      "organization": "テレビ東京ダイレクト（テレ東マート）",
+      "decision": "pending",
+      "source_urls": [
+        "https://www.tv-tokyo.co.jp/kaisha/pdf/20261102.pdf",
+        "https://tx-direct.co.jp/pdf/20261102.pdf"
+      ],
+      "reason": "公式PDFで不正アクセスと11月2日3時53分のサイト緊急停止を確認。個人情報・カード情報の漏えいは現時点で未確認、影響範囲は調査中。自然人の対象・項目が具体化するまで保留。",
+      "incident_ids": []
+    },
+    {
+      "organization": "尼崎市",
+      "decision": "excluded",
+      "source_urls": [
+        "https://www.city.amagasaki.hyogo.jp/shisei/1001823/1044432.html"
+      ],
+      "reason": "PHP脆弱性への予防対応で、不正アクセス・情報漏えいは発生していないと明記。",
+      "incident_ids": []
+    },
+    {
+      "organization": "薩摩川内市",
+      "decision": "excluded",
+      "source_urls": [
+        "https://www.city.satsumasendai.lg.jp/kurashi_tetsuzuki/genshiryoku/kikikanri/21494.html"
+      ],
+      "reason": "PHP脆弱性への対策停止。個別の個人情報漏えいを公表する資料ではない。",
+      "incident_ids": []
+    },
+    {
+      "organization": "広島市",
+      "decision": "excluded",
+      "source_urls": [
+        "https://www.city.hiroshima.lg.jp/living/1035962/1021171/1054887.html"
+      ],
+      "reason": "二次的犯罪への一般注意喚起。新たな個別漏えい事案ではない。",
+      "incident_ids": []
+    },
+    {
+      "organization": "IPA",
+      "decision": "excluded",
+      "source_urls": [
+        "https://prtimes.jp/main/html/rd/p/000000050.000178657.html"
+      ],
+      "reason": "被害者向け相談窓口の強化。IPA自体の個人情報漏えい公表ではない。",
+      "incident_ids": []
+    }
+  ],
+  "retrieval_checks": [
+    {
+      "url": "https://legalagent.co.jp/legal-lab/security-incidents/",
+      "status": "retrieved",
+      "final_url": "https://legalagent.co.jp/legal-lab/security-incidents/"
+    },
+    {
+      "url": "https://incidents.seory.co.jp/",
+      "status": "retrieved",
+      "final_url": "https://incidents.seory.co.jp/"
+    },
+    {
+      "url": "https://joho-rouei.jp/",
+      "status": "retrieved",
+      "final_url": "https://joho-rouei.jp/"
+    },
+    {
+      "url": "https://incidentlog.jp/incidents/prestige-international-20261102",
+      "status": "retrieved",
+      "final_url": "https://incidentlog.jp/incidents/prestige-international-20261102"
+    },
+    {
+      "url": "https://www.pref.saitama.lg.jp/f2204/news/page/news2026110201.html",
+      "status": "retrieved",
+      "final_url": "https://www.pref.saitama.lg.jp/f2204/news/page/news2026110201.html"
+    },
+    {
+      "url": "https://internet.watch.impress.co.jp/docs/news/2153174.html",
+      "status": "retrieved",
+      "final_url": "https://internet.watch.impress.co.jp/docs/news/2153174.html"
+    },
+    {
+      "url": "https://www.fujicco.co.jp/upload/pr_261027.pdf",
+      "status": "retrieved",
+      "final_url": "https://www.fujicco.co.jp/upload/pr_261027.pdf"
+    },
+    {
+      "url": "https://am.arara.com/news/2026102802",
+      "status": "retrieved",
+      "final_url": "https://am.arara.com/info/"
+    },
+    {
+      "url": "https://www.release.tdnet.info/inbs/140120261029558961.pdf",
+      "status": "retrieved",
+      "final_url": "https://www.release.tdnet.info/inbs/140120261029558961.pdf"
+    },
+    {
+      "url": "https://am.arara.com/news/2026103001",
+      "status": "retrieved",
+      "final_url": "https://am.arara.com/info/"
+    },
+    {
+      "url": "https://prtimes.jp/main/html/rd/p/000001877.000000987.html",
+      "status": "retrieved",
+      "final_url": "https://prtimes.jp/main/html/rd/p/000001877.000000987.html"
+    },
+    {
+      "url": "https://www.rakus.co.jp/news/2026/1021-3.html",
+      "status": "retrieved",
+      "final_url": "https://www.rakus.co.jp/news/2026/1021-3.html"
+    },
+    {
+      "url": "https://info.blastmail.jp/information_20261021.html",
+      "status": "retrieved",
+      "final_url": "https://info.blastmail.jp/information_20261021.html"
+    },
+    {
+      "url": "https://www.istyle.co.jp/news/info/2026/09/20260916-3.html",
+      "status": "retrieved",
+      "final_url": "https://www.istyle.co.jp/news/info/2026/09/20260916-3.html"
+    },
+    {
+      "url": "https://www.fujicco.co.jp/upload/pr_261022.pdf",
+      "status": "retrieved",
+      "final_url": "https://www.fujicco.co.jp/upload/pr_261022.pdf"
+    },
+    {
+      "url": "https://www.fujicco.co.jp/newsrelease/archive/detail_2902.html",
+      "status": "retrieved",
+      "final_url": "https://www.fujicco.co.jp/newsrelease/archive/detail_2902.html"
+    },
+    {
+      "url": "https://www.fujicco.co.jp/newsrelease/archive/detail_2907.html",
+      "status": "retrieved",
+      "final_url": "https://www.fujicco.co.jp/newsrelease/archive/detail_2907.html"
+    },
+    {
+      "url": "https://lifull.com/news/50881/",
+      "status": "retrieved",
+      "final_url": "https://lifull.com/news/50881/"
+    },
+    {
+      "url": "https://www.release.tdnet.info/inbs/140120261102563007.pdf",
+      "status": "retrieved",
+      "final_url": "https://www.release.tdnet.info/inbs/140120261102563007.pdf"
+    },
+    {
+      "url": "https://contents.xj-storage.jp/xcontents/AS71226/e6ace155/ea42/43ba/912f/c114939990f0/140120261102562067.pdf",
+      "status": "retrieved",
+      "final_url": "https://contents.xj-storage.jp/xcontents/AS71226/e6ace155/ea42/43ba/912f/c114939990f0/140120261102562067.pdf"
+    },
+    {
+      "url": "https://www.suntory.co.jp/note/detail/261102_008203.html",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.nojima.co.jp/wp-content/uploads/2026/11/fa47750556e505f2ddb83dc080a6420f.pdf",
+      "status": "retrieved",
+      "final_url": "https://www.nojima.co.jp/wp-content/uploads/2026/11/fa47750556e505f2ddb83dc080a6420f.pdf"
+    },
+    {
+      "url": "https://am.arara.com/info/news/",
+      "status": "retrieved",
+      "final_url": "https://am.arara.com/info/news/"
+    },
+    {
+      "url": "https://joho-rouei.jp/incident/2026-1563",
+      "status": "retrieved",
+      "final_url": "https://joho-rouei.jp/incident/2026-1563"
+    },
+    {
+      "url": "https://joho-rouei.jp/incident/2026-1560",
+      "status": "retrieved",
+      "final_url": "https://joho-rouei.jp/incident/2026-1560"
+    },
+    {
+      "url": "https://bankenjp.com/incidents/rainbowgate-2026-11",
+      "status": "retrieved",
+      "final_url": "https://bankenjp.com/incidents/rainbowgate-2026-11"
+    },
+    {
+      "url": "https://incidents.seory.co.jp/incidents/20261101-9be901/",
+      "status": "retrieved",
+      "final_url": "https://incidents.seory.co.jp/incidents/20261101-9be901/"
+    },
+    {
+      "url": "https://www.arara.com/dcms_media/other/arara_20261102__.pdf",
+      "status": "retrieved",
+      "final_url": "https://www.arara.com/dcms_media/other/arara_20261102__.pdf"
+    },
+    {
+      "url": "https://joho-rouei.jp/month/2026/11",
+      "status": "retrieved",
+      "final_url": "https://joho-rouei.jp/month/2026/11"
+    },
+    {
+      "url": "https://www.istyle.co.jp/news/info/2026/11/1102.html",
+      "status": "retrieved",
+      "final_url": "https://www.istyle.co.jp/news/info/2026/11/1102.html"
+    },
+    {
+      "url": "https://bankenjp.com/incidents/rainbowgate-2026-11#main",
+      "status": "retrieved",
+      "final_url": "https://bankenjp.com/incidents/rainbowgate-2026-11#main"
+    },
+    {
+      "url": "https://bankenjp.com/incidents/smartnews-2026-11",
+      "status": "retrieved",
+      "final_url": "https://bankenjp.com/incidents/smartnews-2026-11"
+    },
+    {
+      "url": "https://www.rainbowgate.jp/%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B/%E4%B8%8D%E6%AD%A3%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E3%81%AB%E3%82%88%E3%82%8B%E5%80%8B%E4%BA%BA%E6%83%85%E5%A0%B1%E3%81%AE%E6%BC%8F%E3%81%88%E3%81%84%E7%AD%89%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B/",
+      "status": "retrieved",
+      "final_url": "https://www.rainbowgate.jp/%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B/%E4%B8%8D%E6%AD%A3%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E3%81%AB%E3%82%88%E3%82%8B%E5%80%8B%E4%BA%BA%E6%83%85%E5%A0%B1%E3%81%AE%E6%BC%8F%E3%81%88%E3%81%84%E7%AD%89%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B/"
+    },
+    {
+      "url": "https://incidents.seory.co.jp/incidents/20261101-9be901/#main",
+      "status": "retrieved",
+      "final_url": "https://incidents.seory.co.jp/incidents/20261101-9be901/#main"
+    },
+    {
+      "url": "https://incidents.seory.co.jp/incidents/20261101-9be901/#src-s2",
+      "status": "retrieved",
+      "final_url": "https://incidents.seory.co.jp/incidents/20261101-9be901/#src-s2"
+    },
+    {
+      "url": "https://incidents.seory.co.jp/incidents/20261101-9be901/#src-s1",
+      "status": "retrieved",
+      "final_url": "https://incidents.seory.co.jp/incidents/20261101-9be901/#src-s1"
+    },
+    {
+      "url": "https://about.smartnews.com/ja/news/2617.html",
+      "status": "retrieved",
+      "final_url": "https://about.smartnews.com/ja/news/2617.html"
+    },
+    {
+      "url": "https://about.smartnews.com/ja/news/2615.html",
+      "status": "retrieved",
+      "final_url": "https://about.smartnews.com/ja/news/2615.html"
+    },
+    {
+      "url": "https://incidents.seory.co.jp/request/?incident=20261101-9be901",
+      "status": "retrieved",
+      "final_url": "https://incidents.seory.co.jp/request/?incident=20261101-9be901"
+    },
+    {
+      "url": "https://www.ryohin-keikaku.jp/news/articles/2026_1102_01",
+      "status": "unavailable",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://prtimes.jp/main/html/rd/p/000001878.000000987.html",
+      "status": "retrieved",
+      "final_url": "https://prtimes.jp/main/html/rd/p/000001878.000000987.html"
+    },
+    {
+      "url": "https://internet.gmo/news/",
+      "status": "retrieved",
+      "final_url": "https://internet.gmo/news/"
+    },
+    {
+      "url": "https://www.onamae-desktop.com/support/news/",
+      "status": "retrieved",
+      "final_url": "https://www.onamae-desktop.com/"
+    },
+    {
+      "url": "https://newsdig.tbs.co.jp/articles/withbloomberg/3057248?display=1",
+      "status": "retrieved",
+      "final_url": "https://newsdig.tbs.co.jp/articles/withbloomberg/3057248?display=1"
+    },
+    {
+      "url": "https://www.lapsys.co.jp/topics/2026/10/post-379.html",
+      "status": "retrieved",
+      "final_url": "https://www.lapsys.co.jp/topics/2026/10/post-379.html"
+    },
+    {
+      "url": "https://www.onamae-desktop.com/",
+      "status": "retrieved",
+      "final_url": "https://www.onamae-desktop.com/"
+    },
+    {
+      "url": "https://humanhacker.ai/media/summary/",
+      "status": "retrieved",
+      "final_url": "https://humanhacker.ai/media/summary/"
+    },
+    {
+      "url": "https://www.security-next.com/date/2026",
+      "status": "retrieved",
+      "final_url": "https://www.security-next.com/date/2026"
+    },
+    {
+      "url": "https://www.city.amagasaki.hyogo.jp/shisei/1001823/1044432.html",
+      "status": "retrieved",
+      "final_url": "https://www.city.amagasaki.hyogo.jp/shisei/1001823/1044432.html"
+    },
+    {
+      "url": "https://www.city.satsumasendai.lg.jp/kurashi_tetsuzuki/genshiryoku/kikikanri/21494.html",
+      "status": "retrieved",
+      "final_url": "https://www.city.satsumasendai.lg.jp/kurashi_tetsuzuki/genshiryoku/kikikanri/21494.html"
+    },
+    {
+      "url": "https://www.city.hiroshima.lg.jp/living/1035962/1021171/1054887.html",
+      "status": "retrieved",
+      "final_url": "https://www.city.hiroshima.lg.jp/living/1035962/1021171/1054887.html"
+    },
+    {
+      "url": "https://m-league.jp/news/article/?id=article-8d1eb109-c366-444e-8525-c30a6e9ec8ff",
+      "status": "retrieved",
+      "final_url": "https://m-league.jp/news/article/?id=article-8d1eb109-c366-444e-8525-c30a6e9ec8ff"
+    },
+    {
+      "url": "https://m-league.jp/api/news/article?id=article-8d1eb109-c366-444e-8525-c30a6e9ec8ff",
+      "status": "retrieved",
+      "final_url": "https://m-league.jp/api/news/article?id=article-8d1eb109-c366-444e-8525-c30a6e9ec8ff"
+    },
+    {
+      "url": "https://www.tv-tokyo.co.jp/kaisha/pdf/20261102.pdf",
+      "status": "retrieved",
+      "final_url": "https://www.tv-tokyo.co.jp/kaisha/pdf/20261102.pdf"
+    },
+    {
+      "url": "https://tx-direct.co.jp/pdf/20261102.pdf",
+      "status": "retrieved",
+      "final_url": "https://tx-direct.co.jp/pdf/20261102.pdf"
+    },
+    {
+      "url": "https://humanhacker.ai/data/summary-dashboard-121ed7f6cb.json",
+      "status": "retrieved",
+      "final_url": "https://humanhacker.ai/data/summary-dashboard-121ed7f6cb.json"
+    }
+  ],
+  "report": "docs/research-2026-11-02-nov01-02-update.md",
+  "audit": "data/research-2026-11-02-nov01-02-update.json"
+}

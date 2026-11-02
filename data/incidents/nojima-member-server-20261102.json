@@ -1,0 +1,54 @@
+{
+  "id": "nojima-member-server-20261102",
+  "organization": {
+    "name": "ノジマ（ノジマオンライン・中古スマホ買取サイト）",
+    "sector": "小売"
+  },
+  "title": "会員管理システムへの侵入で約700万件の会員情報が漏えい",
+  "summary": "会員管理システムへの侵入で約700万件の会員情報が漏えい。",
+  "published_on": "2026-11-02",
+  "first_published_on": "2026-11-02",
+  "publication_kind": "initial",
+  "occurred_on": "2026-11-01",
+  "detected_on": "2026-11-01",
+  "updated_on": "2026-11-02",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "confirmed",
+    "detail": "第三者による不正アクセス。具体的な侵入経路は調査中または未公表。"
+  },
+  "impact": [
+    {
+      "count": 7000000,
+      "unit": "records",
+      "qualifier": "approximate",
+      "description": "公表された対象規模。"
+    }
+  ],
+  "data_types": [
+    "氏名（漢字・カナ）",
+    "生年月日",
+    "性別",
+    "郵便番号",
+    "住所",
+    "電話番号",
+    "ログインID",
+    "暗号化パスワード",
+    "メールアドレス"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.nojima.co.jp/wp-content/uploads/2026/11/fa47750556e505f2ddb83dc080a6420f.pdf",
+      "type": "official",
+      "title": "会員管理システムへの侵入で約700万件の会員情報が漏えい",
+      "published_on": "2026-11-02",
+      "checked_on": "2026-11-02"
+    }
+  ],
+  "updates": [],
+  "notes": "11月1日に不正アクセスと外部漏えいを確認。原文の見出しは対象人数だが値は約700万件のため件単位で保持。退会者は含まれない。カード情報は保有していない。不正利用や二次被害は調査中。両対象サイトを停止し再開時期は未定。"
+}

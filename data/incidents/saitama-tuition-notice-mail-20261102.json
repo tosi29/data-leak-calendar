@@ -1,0 +1,46 @@
+{
+  "id": "saitama-tuition-notice-mail-20261102",
+  "organization": {
+    "name": "埼玉県教育局",
+    "sector": "自治体"
+  },
+  "title": "授業料・奨学金の保護者宛通知1件を別住所へ誤送付",
+  "summary": "授業料・奨学金の保護者宛通知1件を別住所へ誤送付。",
+  "published_on": "2026-11-02",
+  "first_published_on": "2026-11-02",
+  "publication_kind": "initial",
+  "occurred_on": "2026-10-19",
+  "detected_on": "2026-10-23",
+  "updated_on": "2026-11-02",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "accident",
+  "cause": {
+    "category": "misdelivery",
+    "certainty": "confirmed",
+    "detail": "委託先の宛先住所入力誤りにより別人へ発送。"
+  },
+  "impact": [
+    {
+      "count": 1,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "公表された対象規模。"
+    }
+  ],
+  "data_types": [
+    "保護者氏名"
+  ],
+  "related_vendor": "日東テクノブレーン",
+  "sources": [
+    {
+      "url": "https://www.pref.saitama.lg.jp/f2204/news/page/news2026110201.html",
+      "type": "official",
+      "title": "授業料・奨学金の保護者宛通知1件を別住所へ誤送付",
+      "published_on": "2026-11-02",
+      "checked_on": "2026-11-02"
+    }
+  ],
+  "updates": [],
+  "notes": "発送総数7,511件のうち1件。10月19日に発送し23日に判明。圧着ハガキは未開封で返却され、漏えい項目は宛名の保護者氏名。通知内容全体の流出とはしない。二次被害は未確認。"
+}

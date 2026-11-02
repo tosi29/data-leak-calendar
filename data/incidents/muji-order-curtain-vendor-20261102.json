@@ -1,0 +1,58 @@
+{
+  "id": "muji-order-curtain-vendor-20261102",
+  "organization": {
+    "name": "良品計画（無印良品オーダーカーテン）",
+    "sector": "小売"
+  },
+  "title": "再委託先サーバーへの侵入でオーダーカーテン顧客情報19,933件に流出のおそれ",
+  "summary": "再委託先サーバーへの侵入でオーダーカーテン顧客情報19,933件に流出のおそれ。",
+  "published_on": "2026-11-02",
+  "first_published_on": "2026-11-02",
+  "publication_kind": "initial",
+  "occurred_on": "2026-10-19",
+  "detected_on": "2026-10-28",
+  "updated_on": "2026-11-02",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "confirmed",
+    "detail": "第三者による不正アクセス。具体的な侵入経路は調査中または未公表。"
+  },
+  "impact": [
+    {
+      "count": 19933,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "公表された対象規模。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "電話番号",
+    "注文情報",
+    "配送先住所"
+  ],
+  "related_vendor": "MNインターファッション",
+  "sources": [
+    {
+      "url": "https://prtimes.jp/main/html/rd/p/000001878.000000987.html",
+      "type": "official",
+      "title": "再委託先サーバーへの侵入でオーダーカーテン顧客情報19,933件に流出のおそれ",
+      "published_on": "2026-11-02",
+      "checked_on": "2026-11-02"
+    }
+  ],
+  "updates": [],
+  "notes": "同一顧客の重複データを含む件数。2018年4月10日～2022年1月25日の注文が対象。10月28日に10月19日の侵入痕跡を確認。カード情報・メールアドレスは含まれず、現在の受注業務は別サーバーで運用。10月30日のMUJIアプリ事案とは別件。直接取得に制限がある企業サイトと同じ企業配信リリースの本文を確認。",
+  "vendors": [
+    {
+      "name": "ナノテック",
+      "role": "operations",
+      "detail": "MNインターファッションからシステム関連業務を再受託し、侵害されたサーバーを管理。",
+      "source_index": 0
+    }
+  ]
+}
