@@ -1,0 +1,62 @@
+{
+  "id": "ashita-team-laughr-survey-20261104",
+  "organization": {
+    "name": "あしたのチーム（ウェルネス・コミュニケーションズ子会社）",
+    "sector": "企業・団体"
+  },
+  "title": "あしたのサーベイのOEM提供元ラフールへの不正アクセスで顧客企業3社209名のストレスチェック結果等が取得",
+  "summary": "あしたのサーベイのOEM提供元ラフールへの不正アクセスで顧客企業3社209名のストレスチェック結果等が取得。",
+  "published_on": "2026-11-04",
+  "first_published_on": "2026-11-04",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-10-30",
+  "updated_on": "2026-11-05",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "OEM提供元ラフールが運営するサーベイシステム環境への不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 209,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "顧客企業3社の従業員。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "所属部署",
+    "従業員番号",
+    "ストレスチェック結果等"
+  ],
+  "related_vendor": "ラフール",
+  "sources": [
+    {
+      "url": "https://www.ashita-team.com/news/261104-2/",
+      "type": "official",
+      "title": "「あしたのサーベイ」提供元における不正アクセス及び情報漏えいに関するお知らせ",
+      "published_on": "2026-11-04",
+      "checked_on": "2026-11-08"
+    },
+    {
+      "url": "https://www.release.tdnet.info/inbs/140120261104564889.pdf",
+      "type": "official",
+      "title": "当社子会社が販売するサービスの提供元における不正アクセス及び情報漏えいに関するお知らせ（ウェルネス・コミュニケーションズ）",
+      "published_on": "2026-11-05",
+      "checked_on": "2026-11-08"
+    }
+  ],
+  "updates": [
+    {
+      "date": "2026-11-05",
+      "summary": "親会社ウェルネス・コミュニケーションズも適時開示。",
+      "source_index": 1
+    }
+  ],
+  "notes": "提供元からの報告に基づく範囲で変更の可能性あり。ストレスチェック結果は要配慮性の高い健康情報。"
+}

@@ -1,0 +1,50 @@
+{
+  "id": "saitama-park-asoview-20261106",
+  "organization": {
+    "name": "埼玉県（県営公園プール・こども動物自然公園）",
+    "sector": "自治体"
+  },
+  "title": "電子チケット販売委託先アソビューが使うアララへの不正アクセスで購入者情報に漏えいの可能性",
+  "summary": "電子チケット販売委託先アソビューが使うアララへの不正アクセスで購入者情報に漏えいの可能性。",
+  "published_on": "2026-11-06",
+  "first_published_on": "2026-11-06",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-11-05",
+  "updated_on": "2026-11-06",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "アララ株式会社のメール配信サービス「アララメッセージ」への第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "件数は未公表。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "性別",
+    "生年月日",
+    "電話番号",
+    "メールアドレス"
+  ],
+  "related_vendor": "埼玉県公園緑地協会／アソビュー／アララ株式会社",
+  "sources": [
+    {
+      "url": "https://www.pref.saitama.lg.jp/a1105/news/page/news2026110601.html",
+      "type": "official",
+      "title": "県営公園における電子チケット販売サービス（アソビュー）に係る個人情報漏えいの可能性について",
+      "published_on": "2026-11-06",
+      "checked_on": "2026-11-08"
+    }
+  ],
+  "updates": [],
+  "notes": "しらこばと・加須はなさき・川越公園のプールとこども動物自然公園の電子チケット購入者。アソビュー全体の件数とは合算しない。"
+}

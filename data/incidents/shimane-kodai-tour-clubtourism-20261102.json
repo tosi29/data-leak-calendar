@@ -1,0 +1,55 @@
+{
+  "id": "shimane-kodai-tour-clubtourism-20261102",
+  "organization": {
+    "name": "島根県",
+    "sector": "自治体"
+  },
+  "title": "ツアー委託先クラブツーリズムへの不正アクセスで応募者約150件に流出の可能性",
+  "summary": "ツアー委託先クラブツーリズムへの不正アクセスで応募者約150件に流出の可能性。",
+  "published_on": "2026-11-02",
+  "first_published_on": "2026-11-02",
+  "publication_kind": "initial",
+  "occurred_on": "2026-10-30",
+  "detected_on": null,
+  "updated_on": "2026-11-02",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "委託先クラブツーリズムのサーバーへの第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 150,
+      "unit": "records",
+      "qualifier": "approximate",
+      "description": "令和5～8年度のしまねの古代文化探訪ツアー応募者。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "国籍",
+    "性別",
+    "生年月日",
+    "年齢",
+    "住所",
+    "電話番号",
+    "メールアドレス",
+    "会員ID",
+    "緊急連絡先"
+  ],
+  "related_vendor": "クラブツーリズム",
+  "sources": [
+    {
+      "url": "https://www.pref.shimane.lg.jp/press_release/2026/fvlltw2tl4sn.html",
+      "type": "official",
+      "title": "「しまねの古代文化探訪ツアー企画造成業務」委託事業者への不正アクセスによる個人情報漏洩の可能性について",
+      "published_on": "2026-11-02",
+      "checked_on": "2026-11-08"
+    }
+  ],
+  "updates": [],
+  "notes": "クラブツーリズム自身の公表（約432万件）とは別記録。件数を合算しない。"
+}

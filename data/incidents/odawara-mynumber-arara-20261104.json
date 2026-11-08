@@ -1,0 +1,46 @@
+{
+  "id": "odawara-mynumber-arara-20261104",
+  "organization": {
+    "name": "小田原市",
+    "sector": "自治体"
+  },
+  "title": "マイナンバーカード交付予約の自動配信メールを担うアララへの不正アクセスで登録者情報に漏えいの可能性",
+  "summary": "マイナンバーカード交付予約の自動配信メールを担うアララへの不正アクセスで登録者情報に漏えいの可能性。",
+  "published_on": "2026-11-04",
+  "first_published_on": "2026-11-04",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-04",
+  "verification": "official",
+  "leak_status": "investigating",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "システム提供事業者TKCが利用するアララ株式会社のメール配信サービスへの第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "市の漏えい有無は確認中。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "TKC／アララ株式会社",
+  "sources": [
+    {
+      "url": "https://www.city.odawara.kanagawa.jp/field/tax-resi/resident/mynumber/p43342.html",
+      "type": "official",
+      "title": "「マイナンバーカード交付予約・管理システム」が使用する事業者への不正アクセス・個人情報漏えいの可能性",
+      "published_on": "2026-11-04",
+      "checked_on": "2026-11-08"
+    }
+  ],
+  "updates": [],
+  "notes": "マイナンバーは含まれない。TKC全体の最大約223万件に市の分が含まれるかは確認中。10月のRAIDEN事案とは別。"
+}

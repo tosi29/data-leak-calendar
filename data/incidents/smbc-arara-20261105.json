@@ -1,0 +1,46 @@
+{
+  "id": "smbc-arara-20261105",
+  "organization": {
+    "name": "三井住友銀行",
+    "sector": "企業・団体"
+  },
+  "title": "アララメッセージへの不正アクセスでメール配信に使ったメールアドレス227,216件が漏えい",
+  "summary": "アララメッセージへの不正アクセスでメール配信に使ったメールアドレス227,216件が漏えい。",
+  "published_on": "2026-11-05",
+  "first_published_on": "2026-11-05",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-11-02",
+  "updated_on": "2026-11-05",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "アララ株式会社のメール配信サービスへの第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 227216,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "主に法人顧客向け、一部個人事業主向けの配信先メールアドレス。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "アララ株式会社",
+  "sources": [
+    {
+      "url": "https://www.smbc.co.jp/news/pdf/j20261105_02.pdf",
+      "type": "official",
+      "title": "メール配信委託先への不正アクセスによる情報漏えいについて",
+      "published_on": "2026-11-05",
+      "checked_on": "2026-11-08"
+    }
+  ],
+  "updates": [],
+  "notes": "10月28日は漏えい未確認との報告だったが11月2日に漏えいを確認。口座番号・暗証番号等は含まれない。"
+}

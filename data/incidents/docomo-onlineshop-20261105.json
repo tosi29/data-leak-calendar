@@ -1,0 +1,94 @@
+{
+  "id": "docomo-onlineshop-20261105",
+  "organization": {
+    "name": "NTTドコモ（ドコモオンラインショップ・My docomo）",
+    "sector": "企業・団体"
+  },
+  "title": "ドコモオンラインショップ・My docomoへの不正アクセスで顧客情報最大約30万件が流出",
+  "summary": "ドコモオンラインショップとMy docomoへの外部からの不正アクセスで、氏名・住所・連絡先・本人確認書類の番号・契約情報等、最大約30万件の顧客情報の流出を確認。",
+  "published_on": "2026-11-05",
+  "first_published_on": "2026-11-05",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-11-04",
+  "updated_on": "2026-11-06",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "外部からの不正アクセス。侵入経路は調査中。"
+  },
+  "impact": [
+    {
+      "count": 300000,
+      "unit": "records",
+      "qualifier": "maximum_approximate",
+      "description": "流出した顧客情報の件数。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "生年月日",
+    "住所",
+    "電話番号",
+    "メールアドレス",
+    "本人確認書類の番号",
+    "携帯電話番号",
+    "契約情報",
+    "料金プラン等",
+    "法定代理人情報（一部）",
+    "勤務先情報（一部）",
+    "口座情報（一部）"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.docomo.ne.jp/info/notice/page/261105_02_m.html",
+      "type": "official",
+      "title": "【お詫び】ドコモオンラインショップ、My docomoの緊急メンテナンス実施について（11月5日午前9時00分時点）",
+      "published_on": "2026-11-05",
+      "checked_on": "2026-11-08"
+    },
+    {
+      "url": "https://www.docomo.ne.jp/info/notice/page/261105_03_m.html",
+      "type": "official",
+      "title": "当社サーバーへの不正アクセスによるお客さま情報流出に関するお知らせ（第二報）",
+      "published_on": "2026-11-05",
+      "checked_on": "2026-11-08"
+    },
+    {
+      "url": "https://www.docomo.ne.jp/info/notice/page/261106_00_m.html",
+      "type": "official",
+      "title": "当社サーバーへの不正アクセスによるお客さま情報流出に関するお知らせ（第三報）",
+      "published_on": "2026-11-06",
+      "checked_on": "2026-11-08"
+    },
+    {
+      "url": "https://k-tai.watch.impress.co.jp/docs/news/2154506.html",
+      "type": "news",
+      "title": "ドコモ、不正アクセスで最大29.5万件の情報が流出（ケータイ Watch）",
+      "published_on": "2026-11-06",
+      "checked_on": "2026-11-08"
+    }
+  ],
+  "updates": [
+    {
+      "date": "2026-11-05",
+      "summary": "第二報。一部の顧客情報の流出を確認、最大約30万件。",
+      "source_index": 1
+    },
+    {
+      "date": "2026-11-06",
+      "summary": "流出項目の詳細を公表。全員分は氏名・生年月日・連絡先・本人確認書類の番号・契約情報等、一部は代理人情報・勤務先・口座情報・子育て応援プログラム情報。新たな流出は未確認、緊急メンテナンスは継続。",
+      "source_index": 2
+    },
+    {
+      "date": "2026-11-06",
+      "summary": "11月6日夜の会見の報道。最大294,839回線（個人204,157・法人90,682）。11月4日に大量アクセスを検知し、同日18時10分に特定の攻撃経路を遮断して流出が止まったと説明。複数システムの連携の仕組みが悪用されたとされる。",
+      "source_index": 3
+    }
+  ],
+  "notes": "11月5日午前1時5分頃から緊急メンテナンスで各種手続きを停止。公式の件数表記は最大約30万件。回線数の内訳と遮断時刻は会見の報道値（二次資料）。カード番号・マイナンバーは流出していないと報道。9月のAmazon関連・10月のぷらら等の事案とは別。"
+}

@@ -1,0 +1,52 @@
+{
+  "id": "gmo-makeshop-arara-20261105",
+  "organization": {
+    "name": "GMOメイクショップ（メール配信プラス・MakeRepeater）",
+    "sector": "企業・団体"
+  },
+  "title": "アララメッセージへの不正アクセスでショップ会員・注文者のメールアドレス約1,260万件が流出",
+  "summary": "アララメッセージへの不正アクセスでショップ会員・注文者のメールアドレス約1,260万件が流出。",
+  "published_on": "2026-11-05",
+  "first_published_on": "2026-11-05",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-11-02",
+  "updated_on": "2026-11-05",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "アララ株式会社のメール配信サービス「アララメッセージ」への第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 12600000,
+      "unit": "records",
+      "qualifier": "approximate",
+      "description": "7月1日～10月28日にメール配信先に指定していた会員・注文者のメールアドレス。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "アララ株式会社",
+  "sources": [
+    {
+      "url": "https://www.makeshop.co.jp/news/info/2026-11-05_2/",
+      "type": "official",
+      "title": "（11/6更新）【重要】「メール配信プラス」「MakeRepeater」で利用する外部のメール配信サービスへの不正アクセスによる情報流出に関するお詫びとお知らせ",
+      "published_on": "2026-11-05",
+      "checked_on": "2026-11-08"
+    }
+  ],
+  "updates": [
+    {
+      "date": "2026-11-06",
+      "summary": "11月6日更新で対象期間（7月1日以降）を追記。",
+      "source_index": 0
+    }
+  ],
+  "notes": "makeshopを利用する各ショップの会員情報。makeshop本体への不正アクセスではない。パスワード・カード情報は含まれない。"
+}

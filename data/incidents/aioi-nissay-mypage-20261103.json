@@ -1,0 +1,66 @@
+{
+  "id": "aioi-nissay-mypage-20261103",
+  "organization": {
+    "name": "あいおいニッセイ同和損害保険",
+    "sector": "企業・団体"
+  },
+  "title": "ご契約者さま専用ページへの不正アクセスで顧客情報約44.4万件が漏えい",
+  "summary": "11月2日夜にご契約者さま専用ページへの不正アクセスを検知し関連サービスを停止。調査で保険証券番号・氏名・住所・連絡先等約44.4万件の漏えいを確認。",
+  "published_on": "2026-11-03",
+  "first_published_on": "2026-11-03",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-11-02",
+  "updated_on": "2026-11-06",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "ご契約者さま専用ページへの第三者による不正アクセス。原因はフォレンジック調査中。"
+  },
+  "impact": [
+    {
+      "count": 444000,
+      "unit": "records",
+      "qualifier": "approximate",
+      "description": "専用ページ登録顧客の漏えい件数（11月6日9時時点）。"
+    }
+  ],
+  "data_types": [
+    "保険証券番号",
+    "氏名",
+    "住所",
+    "電話番号",
+    "メールアドレス",
+    "専用ページID",
+    "カード名義・番号下4桁（3件）",
+    "口座名義・口座番号の一部（19件）"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.aioinissaydowa.co.jp/info/notice_dtl.aspx?notice_id=2026110300001",
+      "type": "official",
+      "title": "不正アクセス検知に伴う一部サービスの一時停止について",
+      "published_on": "2026-11-03",
+      "checked_on": "2026-11-08"
+    },
+    {
+      "url": "https://www.aioinissaydowa.co.jp/corporate/about/news/pdf/2026/news_2026110601531.pdf",
+      "type": "official",
+      "title": "当社システムへの不正アクセスに伴う情報漏えいについて",
+      "published_on": "2026-11-06",
+      "checked_on": "2026-11-08"
+    }
+  ],
+  "updates": [
+    {
+      "date": "2026-11-06",
+      "summary": "影響調査で情報漏えいを確認。約44.4万件。カード番号全桁・セキュリティコード・口座番号全桁・暗証番号は漏えいしていない。要配慮個人情報は含まれない。",
+      "source_index": 1
+    }
+  ],
+  "notes": "11月3日はサービス一時停止の告知で、6日に漏えいを公表。同日の三井住友海上の同種ページの事案とは別記録。"
+}

@@ -1,0 +1,44 @@
+{
+  "id": "itabashi-pay-arara-20261104",
+  "organization": {
+    "name": "板橋区（いたばしPay）",
+    "sector": "自治体"
+  },
+  "title": "いたばしPayが使うアララメッセージへの不正アクセスで登録情報への影響を確認中",
+  "summary": "いたばしPayが使うアララメッセージへの不正アクセスで登録情報への影響を確認中。",
+  "published_on": "2026-11-04",
+  "first_published_on": "2026-11-04",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-04",
+  "verification": "official",
+  "leak_status": "investigating",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "アララ株式会社のメール配信サービスへの第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "登録情報が流出対象に含まれるかは未判明。"
+    }
+  ],
+  "data_types": [],
+  "related_vendor": "アララ株式会社",
+  "sources": [
+    {
+      "url": "https://www.city.itabashi.tokyo.jp/bunka/1061832/1062076/1066763/1066767.html",
+      "type": "official",
+      "title": "外部メール配信サービスにおける不正アクセスの報道について",
+      "published_on": "2026-11-04",
+      "checked_on": "2026-11-08"
+    }
+  ],
+  "updates": [],
+  "notes": "実施主体は板橋区商店街振興組合連合会。現時点で情報流出は未確認。"
+}

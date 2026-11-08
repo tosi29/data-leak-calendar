@@ -1,0 +1,3335 @@
+{
+  "checked_on": "2026-11-08",
+  "checked_at": "2026-11-08T11:24:49+09:00",
+  "coverage_start": "2026-11-02",
+  "coverage_end": "2026-11-08",
+  "stats": {
+    "baseline_incidents": 2088,
+    "added_incidents": 193,
+    "updated_incidents": 45,
+    "total_incidents": 2281,
+    "added_by_publication_date": {
+      "2026-09-16": 1,
+      "2026-10-20": 1,
+      "2026-10-23": 3,
+      "2026-10-28": 2,
+      "2026-10-29": 2,
+      "2026-10-30": 1,
+      "2026-11-01": 1,
+      "2026-11-02": 47,
+      "2026-11-03": 22,
+      "2026-11-04": 39,
+      "2026-11-05": 49,
+      "2026-11-06": 23,
+      "2026-11-07": 2
+    },
+    "baseline_candidates": 86,
+    "new_candidates": 16,
+    "resolved_candidates": 3,
+    "pending_candidates": 99
+  },
+  "added_incident_ids": [
+    "takagikouji-ec-20260916",
+    "otera-oyatsu-blastmail-20261023",
+    "rvsta-blastmail-20261023",
+    "shibuya-facility-reservation-20261028",
+    "hibiya-kadan-cuenote-20261028",
+    "smartnews-system-20261101",
+    "yamanashi-fuji-asoview-20261104",
+    "rikuden-hokulink-arara-20261102",
+    "miyako-hotels-arara-20261102",
+    "netdreamers-uma36-20261102",
+    "ucoop-repica-20261102",
+    "shimane-bussan-ec-card-20261102",
+    "shimane-kodai-tour-clubtourism-20261102",
+    "jtbpublishing-kumamon-palan-20261102",
+    "odakyu-travel-arara-20261102",
+    "lifecorp-app-stuffing-20261102",
+    "lifecorp-netsuper-arara-20261106",
+    "ryugin-repica-20261102",
+    "osakagas-fitdish-arara-20261102",
+    "axa-direct-pcs-20261102",
+    "fanplus-ticketplus-arara-20261102",
+    "marui-securitize-bond-20261102",
+    "mitsui-direct-pcs-20261102",
+    "mitsui-direct-web-20261105",
+    "valuegolf-hitoriyoyaku-20261102",
+    "kinkos-arara-20261102",
+    "gmopg-lifecard-vpreca-20261102",
+    "eneos-carlease-pcs-20261102",
+    "jada-expense-system-20261102",
+    "maisen-cloud-files-20261102",
+    "zaif-arara-20261102",
+    "cbcloud-pickgo-20261102",
+    "tkc-arara-20261102",
+    "utsunomiya-eshinsei-arara-20261102",
+    "kawasaki-ekawasaki-arara-20261102",
+    "himeji-portal-arara-20261102",
+    "mn-interfashion-muji-curtain-20261102",
+    "kobe-np-arara-20261102",
+    "wills-netmile-20261102",
+    "subway-arara-20261102",
+    "fancrew-api-20261102",
+    "asoview-arara-20261103",
+    "aioi-nissay-mypage-20261103",
+    "camel-coffee-kaldi-arara-20261103",
+    "demaecan-pickgo-20261103",
+    "okayama-mailmag-arara-20261103",
+    "seijoishii-arara-20261103",
+    "kyoto-ohigashisan-mail-20261103",
+    "kyoto-artpass-asoview-arara-20261106",
+    "kyoto-senior-point-sagawa-20261106",
+    "yokohama-rubber-arara-20261103",
+    "yokohama-eshinsei-arara-20261103",
+    "stcousair-arara-20261103",
+    "seven-eleven-7now-pickgo-20261103",
+    "dennys-app-migration-20261103",
+    "toyohashi-mynumber-arara-20261103",
+    "msins-mypage-20261103",
+    "ekitan-arara-20261103",
+    "osaka-gyosei-online-arara-20261103",
+    "otsu-mynumber-arara-20261103",
+    "solaseedair-mail-arara-20261104",
+    "chobirich-arara-20261104",
+    "odawara-mynumber-arara-20261104",
+    "navc-reservegate-20261104",
+    "itabashi-pay-arara-20261104",
+    "saison-muji-card-20261104",
+    "ja-kyosai-pcs-20261104",
+    "duskin-dduet-repica-20261104",
+    "shippio-platform-20261104",
+    "monteroza-arara-20261104",
+    "boatrace-telebote-arara-20261104",
+    "workman-arara-20261104",
+    "sumitomo-rd-datax-arara-20261104",
+    "plenus-hottomotto-arara-20261104",
+    "matsudo-online-arara-20261104",
+    "koriyama-online-arara-20261104",
+    "hasegawa-repica-20261104",
+    "nomura-ir-kikan-navi-20261104",
+    "osiro-community-20261104",
+    "tosho-kaikan-reservegate-20261104",
+    "dentsusoken-facere-20261104",
+    "iij-iijmio-arara-20261104",
+    "gains-getchu-20261104",
+    "uchicomi-ransomware-20261104",
+    "soumu-ict-japan-arara-20261104",
+    "axel-entermedia-arara-20261104",
+    "kracie-kampoful-repica-20261104",
+    "smt-members-arara-20261104",
+    "ashita-team-laughr-survey-20261104",
+    "odawara-hospital-actmedical-20261105",
+    "hokuyo-superarca-smbccf-20261105",
+    "suzuka-mynumber-arara-20261105",
+    "nissan-fs-pcs-20261105",
+    "kakaku-arara-20261105",
+    "edogawa-mynumber-arara-20261105",
+    "sushiro-staff-portal-20261105",
+    "fukuokabank-smbccf-20261105",
+    "gmo-ps-martialarts-arara-20261105",
+    "matsui-arara-20261105",
+    "mitsuifudosan-andbiz-arara-20261105",
+    "konaka-samantha-repica-20261105",
+    "hatoya-pcs-20261105",
+    "euglena-akyrise-ec-20261105",
+    "euglena-akyrise-arara-20261105",
+    "euglena-akyrise-sagawa-20261105",
+    "kyuden-td-meter-20261105",
+    "asahi-life-arara-20261105",
+    "ntt-tp-repica-20261105",
+    "smbc-arara-20261105",
+    "kamogawa-furusato-choice-20261105",
+    "okinawa-churashima-asoview-20261105",
+    "epsilon-datax-repica-20261105",
+    "smbccf-guarantee-system-20261105",
+    "18shinwa-smbccf-20261105",
+    "18shinwa-local-coin-arara-20261105",
+    "japanpost-pickgo-20261105",
+    "terrada-arara-20261105",
+    "tokiomarine-direct-mypage-20261105",
+    "docomo-onlineshop-20261105",
+    "ecoco-order-csv-20261105",
+    "gmo-makeshop-arara-20261105",
+    "gmo-makeshop-studio-20261105",
+    "ths-unicolle-20261105",
+    "sompo-japan-pcs-20261105",
+    "toyama-shoene-arara-20261105",
+    "ibaraki-taberou-arara-20261105",
+    "jnsa-check-service-20261106",
+    "saitama-park-asoview-20261106",
+    "saitama-hike-cycle-arara-20261106",
+    "tottoribank-smbccf-20261106",
+    "gogin-smbccf-20261106",
+    "resona-group-smbccf-20261106",
+    "plm-pacific-league-arara-20261106",
+    "plm-marines-smartphone-site-20261106",
+    "mizkan-365-20261106",
+    "msa-life-mypage-20261106",
+    "chuo-alps-reservegate-20261106",
+    "2rinkan-pcs-20261106",
+    "teamspirit-dev-server-20261106",
+    "sendai-mynumber-arara-20261106",
+    "doutor-online-shop-20261106",
+    "signaltalk-maru-jan-20261107",
+    "tsukaeru-portal-20261107",
+    "takarakuji-official-login-20261106",
+    "irisplaza-cloud-20261029",
+    "aidma-mamaworks-20261020",
+    "cosmo-energy-ir-arara-20261106",
+    "tomakomai-mynumber-arara-20261105",
+    "maniwa-manicoin-arara-20261104",
+    "kantei-arara-20261104",
+    "jdl-arara-20261104",
+    "shiftworks-arara-20261104",
+    "artpass-inventit-arara-20261104",
+    "infomart-arara-20261104",
+    "sasebo-ecoin-arara-20261104",
+    "jyoseikan-arara-20261103",
+    "belc-arara-20261029",
+    "nishitetsu-hotels-arara-20261102",
+    "fukui-np-passport-repica-20261102",
+    "tochigibank-arara-20261102",
+    "setagaya-pay-arara-20261102",
+    "vendome-yamada-arara-20261102",
+    "bradelis-arara-20261102",
+    "parismiki-am-arara-20261102",
+    "tribeck-arara-20261102",
+    "erismedia-arara-20261102",
+    "odk-solutions-arara-20261102",
+    "will-realestate-arara-20261030",
+    "cocoheli-arara-20261105",
+    "umanity-arara-20261103",
+    "netbk-smbccf-20261105",
+    "tsukubabank-smbccf-20261105",
+    "chugin-smbccf-20261105",
+    "kumamotobank-smbccf-20261105",
+    "himegin-smbccf-20261105",
+    "dhbk-smbccf-20261105",
+    "hirogin-smbccf-20261105",
+    "mos-web-repica-20261104",
+    "kamakura-shirts-repica-20261104",
+    "golfnetwork-repica-20261103",
+    "ryobi-bus-repica-20261102",
+    "ucc-comsbi-20261102",
+    "coffeestyle-ucc-comsbi-20261102",
+    "tokai-coop-repica-20261103",
+    "sbc-app-20261106",
+    "miyazaki-smart-shinsei-arara-20261105",
+    "hamada-syuzou-repica-20261106",
+    "takanezawa-mynumber-arara-20261103",
+    "minamiaizu-mynumber-arara-20261105",
+    "kurihara-smart-shinsei-arara-20261106",
+    "biccamera-group-arara-20261102",
+    "sonysonpo-pcs-20261102",
+    "tokyo-water-hdd-loss-20261023"
+  ],
+  "updated_incident_ids": [
+    "media4u-sms-20260714",
+    "applynow-20260909",
+    "rohto-20260915",
+    "azas-suloop-20260918",
+    "bookoff-20261009",
+    "dcm-myvo-20261013",
+    "iwaicosmo-tradeworks-20261016",
+    "kanagawa-venture-studio-20261019",
+    "trustbank-furusato-attack-20261020",
+    "jetro-web-20261019",
+    "nttpc-cuenote-20261020",
+    "onamae-desktop-20261023",
+    "sweep-f977b189a011-20261023",
+    "sweep-8247bb3fc8bc-20261023",
+    "taito-tsutaju-travelzip-20261026",
+    "jr-ex-smart-ex-20261026",
+    "doutor-employees-20261026",
+    "basic-ferret-one-20261027",
+    "sourcenext-cuenote-20261027",
+    "2rinkan-blastmail-20261029",
+    "consortium-osaka-20261028",
+    "moi-twitcasting-20261028",
+    "clubnets-cnpoint-20261029",
+    "ntt-smile-ecomegane-20261029",
+    "echannel-hoikuis-arara-20261029",
+    "arara-message-20261028",
+    "sonybank-digital-platform-20261030",
+    "yakult-website-20261026",
+    "jera-sunday-arara-20261030",
+    "sankeiliving-cuenote-20261030",
+    "ryohin-muji-app-20261030",
+    "club-tourism-reservations-20261031",
+    "kintetsu-bond-platform-20261031",
+    "yamanashi-fuji-japanticket-20261030",
+    "sbi-sec-bond-platform-20261031",
+    "mufg-ms-bond-platform-20261031",
+    "prestige-pcs-roadservice-20261102",
+    "daiichikosho-20261008",
+    "helpfeel-gyazo-20260916",
+    "sweep-df09153b5641-20261018",
+    "sweep-706aabd2fb0b-20261023",
+    "studio-cloud-20261016",
+    "arcadia-raiden-20261013",
+    "jprouso-mail-list-20261026",
+    "rakus-blastmail-20261021"
+  ],
+  "new_candidate_ids": [
+    "nov02-segafave-allnet-review",
+    "nov02-sunstage-belluna-notice-review",
+    "nov03-ensapia-hange-review",
+    "nov04-jaccs-pcs-review",
+    "nov04-intage-survey-review",
+    "nov04-inventit-mobiconnect-review",
+    "nov04-motex-website-review",
+    "nov05-fdma-anpi-review",
+    "nov05-toyo-univ-account-review",
+    "nov05-surugaya-affiliate-review",
+    "nov05-morinaga-affiliates-review",
+    "nov05-porsche-pcs-review",
+    "nov06-belluna-collection-review",
+    "nov06-jsps-eapplication-review",
+    "nov02-abc-fururabo-review",
+    "nov05-kddi-au-bicycle-pcs-review"
+  ],
+  "resolved_candidate_ids": [
+    "week-nov1-hibiya",
+    "nov01-smartnews-points-review",
+    "oct31-update-irisplaza"
+  ],
+  "method": [
+    "2つの公表索引（2026年11月の月別一覧と11月2日以降に更新された事案の詳細ページ204件、別索引の11月2～7日付58行）を起点に、詳細ページの一次情報URLを抽出して公式HTML・PDFを直接取得し、本文で日付・対象・件数を照合した。",
+    "第3の公表索引（11月2～6日付）と、アララ メッセージ影響組織の一覧（68組織）、SMBCコンシューマーファイナンス提携銀行のまとめ（14行）を突き合わせ、2つの索引に載っていない公表を補った。報道一覧（Security NEXTの11月2～6日の見出し）からも紛失・公開ミス系を確認した。",
+    "11月2～8日と不正アクセス・漏えい・流出・誤送付・紛失を組み合わせた検索、アララ／プレステージ・コアソリューション／SMBCコンシューマーファイナンス／CBcloud／repica経由の利用組織名での個別検索を行った。",
+    "続報は既存IDへ統合し、公表日を維持。初報が11月1日以前で未収録だったもの（ママワークス10月20日、ベルク10月29日、アイリスプラザ10月29日、ウィル10月30日、おてらおやつクラブ・リバスタ10月23日、渋谷区・日比谷花壇10月28日、高木糀商店9月16日、東京都水道局HDD10月23日）は本来の公表日で追加した。",
+    "委託先事故は委託元・受託先・提供元の公表をそれぞれ記録し、件数は合算しない。同じ組織が同じ告知で独立した複数事案を公表した場合（ユーグレナ3件、パ・リーグ2件）は事案ごとに分けた。",
+    "メールアドレス件数・人数・契約数・アカウント登録数（母数）を区別。自治体の電子申請等の利用者登録数は漏えい件数として扱わない。",
+    "JavaScriptで本文を描画するページ（Studio製サイト等）は、ページに埋め込まれた本文データから確認した。直接取得がボット対策で拒否された公式ページは取得ツール経由で再試行した。"
+  ],
+  "limitations": [
+    "11月8日午前の調査時点までの公表を対象とし、11月7・8日（週末）分は索引の更新が少なく網羅性が低い。漏れゼロを意味しない。",
+    "アララ メッセージ・repica、TKCのメール送信、SMBCコンシューマーファイナンス、プレステージ・コアソリューション経由の利用組織・自治体の公表は数が多く、確認できたものに限る。とくにTKC経由の市町村告知、SMBCCF提携の紀陽銀行・荘内銀行・あいち銀行・大垣共立銀行、福岡市・亀山市などは公式本文を特定・取得できず未収録。",
+    "ビックカメラ・コジマ・ソフマップは公式告知を取得できず報道で確認した二次資料扱い。ドコモの回線数内訳と遮断時刻、良品計画の11月6日更新は公式本文を取得できず、前者は報道値、後者は未反映。",
+    "サンステージ、ベルーナ、ジャックス、ポルシェ、駿河屋、朝日放送テレビ（ふるラボ）、さとふる第2報、KDDI（au自転車サポート）は公式本文が403・タイムアウト等で取得できず、確認待ちに残した。",
+    "セガ フェイブ、インテージ、エンセイピア、MOTEX、森永乳業関係会社、日本学術振興会、消防庁、東洋大学、インヴェンティット（mobiconnect）は侵入・停止を確認したが、自然人の対象情報・範囲が未公表のため確認待ち。漏えいなしと確定した扱いではない。",
+    "ユーグレナ（akyrise）の項目・件数は公式本文で画像表示のため未取得。公表索引の件数は採用していない。",
+    "既存の確認待ち候補を全件再調査したものではない。期間外で報道により存在を把握した奈良県の業務用USBメモリ紛失、さいたま市民医療センターの手術画像記録媒体紛失は公式本文を確認しておらず未収録。"
+  ],
+  "search_queries": [
+    "不正アクセス 個人情報 漏えい お知らせ 2026年11月4日",
+    "個人情報 漏えい お詫び 2026年11月6日",
+    "不正アクセス 個人情報 漏えい お詫び 2026年11月7日",
+    "個人情報 漏えいのおそれ お知らせ 2026年11月8日",
+    "\"2026年11月7日\" 不正アクセス OR 漏えい OR 流出 お知らせ",
+    "誤送信 個人情報 市 2026年11月 お詫び メール 誤って",
+    "\"令和8年11月\" 個人情報 誤送付 OR 紛失 OR 誤送信 報道発表",
+    "個人情報 紛失 2026年11月5日 OR 2026年11月6日 お詫び 書類",
+    "site:security-next.com 2026/11 誤送信 OR 誤送付 OR 紛失",
+    "さとふる Cuenote FC 不正アクセス 第2報 5,868名",
+    "サンステージ ベルーナノーティス 不正アクセス 46,497名",
+    "ビックカメラ コジマ ソフマップ アララ メールアドレス 約1,490万件 お詫び",
+    "朝日放送テレビ ふるラボ 不正ログイン 会員8名 お詫び",
+    "ママワークス 個人情報漏えいの可能性 2026年10月20日 アイドマ・ホールディングス 不正アクセス",
+    "モスフードサービス モスWEB会員 repica 751万 メールアドレス 流出 お詫び",
+    "AIRDO 外部メール配信システム 不正アクセス メールアドレス 673,920件",
+    "ドコモSMTBネット銀行 カードローン 保証会社 不正アクセス 122,635人",
+    "ARTPASS インヴェンティット メールマガジン 配信 アララ 不正アクセス お詫び 約100万件",
+    "鎌倉シャツ メールマガジン repica 流出 約16万件 お詫び",
+    "ゴルフネットワークプラス repica メールアドレス 209,460件",
+    "コープぎふ コープあいち コープみえ 東海コープ repica メールアドレス 160,751件",
+    "両備バス メルマガ repica メールアドレス 43,221件 流出",
+    "UCC上島珈琲 COMSBI ソニックムーブ 不正アクセス メールアドレス 5,529件",
+    "SBC信越放送 SBCアプリ ポイントサービス 不正アクセス 約1万4,000件",
+    "株式会社ウィル アララメッセージ メールアドレス 102,369件 流出",
+    "福岡市 マイナンバーカード交付予約 アララ TKC メールアドレス 漏えい 2026年11月5日",
+    "宮崎市 スマート申請システム デンサン TKC アララ 39,412人",
+    "ユーグレナ akyrise ECサイト 不正アクセス 最大約90万件 ログイン情報 49万件",
+    "プレステージ・コアソリューション 不正アクセス ロードサービス 委託 お客さま情報 お知らせ 2026年11月 損保 自動車",
+    "KDDI au自転車サポート 委託先 不正アクセス お知らせ 2026年11月",
+    "東京都水道局 ハードディスク 紛失 1,932人 用地 2026年",
+    "奈良県 USBメモリ 所在不明 医薬品医療機器 363人 2026",
+    "福岡県働きやすい介護職場認証制度 申請用ファイル 個人情報 183人 閲覧可能",
+    "静岡県 県立学校 生徒指導要録 所在不明 566人 2026年",
+    "さいたま市民医療センター 手術画像 記録媒体 紛失 お詫び 2026",
+    "ドコモ 情報流出 294,839回線 会見 11月6日 原因 保守"
+  ],
+  "search_result_urls": [
+    "https://incidents.seory.co.jp/monthly/2026-11/",
+    "https://incidents.seory.co.jp/incidents.json",
+    "https://legalagent.co.jp/legal-lab/security-incidents/",
+    "https://satimo.org/2026/10/data-breach-list-2026/",
+    "https://jouhourouei.clipmaster.jp/chains/auto-210b353b",
+    "https://rocket-boys.co.jp/security-measures-lab/smbc_cf_guarantee_bank_affected_14_institutions_roundup_20261106_updated/",
+    "https://www.security-next.com/"
+  ],
+  "watch_rows": [],
+  "checks": [
+    {
+      "organization": "高木糀商店",
+      "decision": "added",
+      "source_urls": [
+        "https://www.takagikouji.com/topics/1044/",
+        "https://www.takagikouji.com/topics/1052/"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "takagikouji-ec-20260916"
+      ]
+    },
+    {
+      "organization": "おてらおやつクラブ",
+      "decision": "added",
+      "source_urls": [
+        "https://otera-oyatsu.club/2026/10/kojin-joho/",
+        "https://otera-oyatsu.club/2026/11/kojin-joho2/"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "otera-oyatsu-blastmail-20261023"
+      ]
+    },
+    {
+      "organization": "リバスタ",
+      "decision": "added",
+      "source_urls": [
+        "https://www.rvsta.co.jp/news/20261023/",
+        "https://www.rvsta.co.jp/news/20261028/",
+        "https://www.rvsta.co.jp/news/20261105/"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "rvsta-blastmail-20261023"
+      ]
+    },
+    {
+      "organization": "渋谷区",
+      "decision": "added",
+      "source_urls": [
+        "https://www.city.shibuya.tokyo.jp/kusei/koho/shibuya-portal/unauthorized_access_202610.html"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "shibuya-facility-reservation-20261028"
+      ]
+    },
+    {
+      "organization": "日比谷花壇",
+      "decision": "added",
+      "source_urls": [
+        "https://hibiya.co.jp/news/post20261028-1/",
+        "https://hibiya.co.jp/news/post20271104/"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "hibiya-kadan-cuenote-20261028"
+      ]
+    },
+    {
+      "organization": "スマートニュース",
+      "decision": "added",
+      "source_urls": [
+        "https://about.smartnews.com/ja/news/2617.html",
+        "https://about.smartnews.com/ja/news/2619.html",
+        "https://about.smartnews.com/ja/news/2623.html"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "smartnews-system-20261101"
+      ]
+    },
+    {
+      "organization": "山梨県",
+      "decision": "added",
+      "source_urls": [
+        "https://www.pref.yamanashi.jp/fujisan/20261104/20261104tsuukouyoyakuryuusyutu.html"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "yamanashi-fuji-asoview-20261104"
+      ]
+    },
+    {
+      "organization": "北陸電力",
+      "decision": "added",
+      "source_urls": [
+        "https://www.rikuden.co.jp/press/attach/26110201.pdf"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "rikuden-hokulink-arara-20261102"
+      ]
+    },
+    {
+      "organization": "近鉄・都ホテルズ",
+      "decision": "added",
+      "source_urls": [
+        "https://www.miyakohotels.ne.jp/topic/information/238/"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "miyako-hotels-arara-20261102"
+      ]
+    },
+    {
+      "organization": "ネットドリーマーズ（競馬新聞デイリー馬三郎）",
+      "decision": "added",
+      "source_urls": [
+        "https://www.uma36.com/?pid=news_uma36alert"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "netdreamers-uma36-20261102"
+      ]
+    },
+    {
+      "organization": "生活協同組合ユーコープ",
+      "decision": "added",
+      "source_urls": [
+        "https://www.ucoop.or.jp/info/2026/info_34571.html"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "ucoop-repica-20261102"
+      ]
+    },
+    {
+      "organization": "島根県（委託先：島根県物産協会）",
+      "decision": "added",
+      "source_urls": [
+        "https://www.pref.shimane.lg.jp/press_release/2026/eubcg9i5kolv.html"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "shimane-bussan-ec-card-20261102"
+      ]
+    },
+    {
+      "organization": "島根県",
+      "decision": "added",
+      "source_urls": [
+        "https://www.pref.shimane.lg.jp/press_release/2026/fvlltw2tl4sn.html"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "shimane-kodai-tour-clubtourism-20261102"
+      ]
+    },
+    {
+      "organization": "JTBパブリッシング",
+      "decision": "added",
+      "source_urls": [
+        "https://jtbpublishing.co.jp/topics/CL000943"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "jtbpublishing-kumamon-palan-20261102"
+      ]
+    },
+    {
+      "organization": "小田急トラベル",
+      "decision": "added",
+      "source_urls": [
+        "https://www.odakyu-travel.co.jp/web/info_20261102.html",
+        "https://www.odakyu-travel.co.jp/web/info_20261106.html"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "odakyu-travel-arara-20261102"
+      ]
+    },
+    {
+      "organization": "ライフコーポレーション",
+      "decision": "added",
+      "source_urls": [
+        "https://www.lifecorp.jp/vc-files/pdf/newsrelease/others/20261102-1.pdf"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "lifecorp-app-stuffing-20261102"
+      ]
+    },
+    {
+      "organization": "ライフコーポレーション",
+      "decision": "added",
+      "source_urls": [
+        "https://www.lifecorp.jp/vc-files/pdf/newsrelease/others/20261106.pdf"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "lifecorp-netsuper-arara-20261106"
+      ]
+    },
+    {
+      "organization": "琉球銀行",
+      "decision": "added",
+      "source_urls": [
+        "https://www.ryugin.co.jp/corporate/news/100729/",
+        "https://www.ryugin.co.jp/corporate/news/100767/"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "ryugin-repica-20261102"
+      ]
+    },
+    {
+      "organization": "大阪ガス（FitDish）",
+      "decision": "added",
+      "source_urls": [
+        "https://www.osakagas.co.jp/company/press/pr2026/1828107_60967.html"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "osakagas-fitdish-arara-20261102"
+      ]
+    },
+    {
+      "organization": "アクサ損害保険",
+      "decision": "added",
+      "source_urls": [
+        "https://www.axa-direct.co.jp/company/official_info/announce/2026/261102.html"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "axa-direct-pcs-20261102"
+      ]
+    },
+    {
+      "organization": "Fanplus／チケットプラス",
+      "decision": "added",
+      "source_urls": [
+        "https://fanplus.co.jp/static/fanplus/information/arara_notice_20261102.pdf",
+        "https://fanplus.co.jp/static/fanplus/information/arara_notice_20261106.pdf"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "fanplus-ticketplus-arara-20261102"
+      ]
+    },
+    {
+      "organization": "丸井グループ",
+      "decision": "added",
+      "source_urls": [
+        "https://www.0101maruigroup.co.jp/nr/o-20-0zfdye"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "marui-securitize-bond-20261102"
+      ]
+    },
+    {
+      "organization": "三井ダイレクト損害保険",
+      "decision": "added",
+      "source_urls": [
+        "https://www.mitsui-direct.co.jp/information/20261102.html"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "mitsui-direct-pcs-20261102"
+      ]
+    },
+    {
+      "organization": "三井ダイレクト損害保険",
+      "decision": "added",
+      "source_urls": [
+        "https://www.mitsui-direct.co.jp/information/20261104.html",
+        "https://www.mitsui-direct.co.jp/information/20261106.html"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "mitsui-direct-web-20261105"
+      ]
+    },
+    {
+      "organization": "バリューゴルフ（1人予約ランド）",
+      "decision": "added",
+      "source_urls": [
+        "https://www.release.tdnet.info/inbs/140120261102563148.pdf"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "valuegolf-hitoriyoyaku-20261102"
+      ]
+    },
+    {
+      "organization": "キンコーズ・ジャパン",
+      "decision": "added",
+      "source_urls": [
+        "https://www.kinkos.co.jp/corporate/archives/news/261102/"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "kinkos-arara-20261102"
+      ]
+    },
+    {
+      "organization": "GMOペイメントゲートウェイ（ライフカード向け）",
+      "decision": "added",
+      "source_urls": [
+        "https://www.gmo-pg.com/news/news/info/2026/1102.html"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "gmopg-lifecard-vpreca-20261102"
+      ]
+    },
+    {
+      "organization": "ENEOS",
+      "decision": "added",
+      "source_urls": [
+        "https://www.eneos.co.jp/announcement/20261102.html",
+        "https://www.eneos.co.jp/announcement/20261104.html"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "eneos-carlease-pcs-20261102"
+      ]
+    },
+    {
+      "organization": "日本アンチ・ドーピング機構",
+      "decision": "added",
+      "source_urls": [
+        "https://www.playtruejapan.org/topics/2026/000805.html"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "jada-expense-system-20261102"
+      ]
+    },
+    {
+      "organization": "井筒まい泉",
+      "decision": "added",
+      "source_urls": [
+        "https://mai-sen.com/news/other/post-3030/"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "maisen-cloud-files-20261102"
+      ]
+    },
+    {
+      "organization": "Zaif",
+      "decision": "added",
+      "source_urls": [
+        "https://corp.zaif.jp/info/20261102-1",
+        "https://corp.zaif.jp/info/20261104-1"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "zaif-arara-20261102"
+      ]
+    },
+    {
+      "organization": "CBcloud（ピックゴー）",
+      "decision": "added",
+      "source_urls": [
+        "https://cb-cloud.com/news/AJZDw0h3",
+        "https://cb-cloud.com/news/MC7mDLUO"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "cbcloud-pickgo-20261102"
+      ]
+    },
+    {
+      "organization": "TKC",
+      "decision": "added",
+      "source_urls": [
+        "https://www.tkc.jp/news/2026/20261102_1/",
+        "https://www.tkc.jp/news/2026/20261102_2/",
+        "https://www.tkc.jp/news/2026/20261104/",
+        "https://www.tkc.jp/news/2026/20261104_1/",
+        "https://www.tkc.jp/news/2026/20261106_1/"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "tkc-arara-20261102"
+      ]
+    },
+    {
+      "organization": "宇都宮市",
+      "decision": "added",
+      "source_urls": [
+        "https://www.city.utsunomiya.lg.jp/shisei/service/1028655.html"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "utsunomiya-eshinsei-arara-20261102"
+      ]
+    },
+    {
+      "organization": "川崎市",
+      "decision": "added",
+      "source_urls": [
+        "https://www.city.kawasaki.jp/templates/prs/cmsfiles/contents/0000191/191378/huseiakusesu.pdf"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "kawasaki-ekawasaki-arara-20261102"
+      ]
+    },
+    {
+      "organization": "姫路市",
+      "decision": "added",
+      "source_urls": [
+        "https://www.city.himeji.lg.jp/shisei/0000034645.html",
+        "https://www.city.himeji.lg.jp/shisei/0000034662.html"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "himeji-portal-arara-20261102"
+      ]
+    },
+    {
+      "organization": "MNインターファッション",
+      "decision": "added",
+      "source_urls": [
+        "https://mn-interfashion.com/news/information/%e6%a0%aa%e5%bc%8f%e4%bc%9a%e7%a4%be%e8%89%af%e5%93%81%e8%a8%88%e7%94%bb%e3%81%ae%e3%82%aa%e3%83%bc%e3%83%80%e3%83%bc%e3%82%ab%e3%83%bc%e3%83%86%e3%83%b3%e3%81%ab%e9%96%a2%e3%81%99%e3%82%8b%e9%87%8d/"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "mn-interfashion-muji-curtain-20261102"
+      ]
+    },
+    {
+      "organization": "神戸新聞社（神戸新聞NEXT）",
+      "decision": "added",
+      "source_urls": [
+        "https://www.kobe-np.co.jp/news/information/202611/0020994385.shtml"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "kobe-np-arara-20261102"
+      ]
+    },
+    {
+      "organization": "ウィルズ（ネットマイル）",
+      "decision": "added",
+      "source_urls": [
+        "https://www.wills-net.co.jp/pdf/ir-news/uploads/e88675137464940b8b98c8c999d7c452f63571e7.pdf"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "wills-netmile-20261102"
+      ]
+    },
+    {
+      "organization": "WATAMI FAST CASUAL MANAGEMENT（サブウェイ）",
+      "decision": "added",
+      "source_urls": [
+        "https://subway.co.jp/news/20261102-1/",
+        "https://subway.co.jp/news/20261105-01/"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "subway-arara-20261102"
+      ]
+    },
+    {
+      "organization": "ファンくる",
+      "decision": "added",
+      "source_urls": [
+        "https://www.fancrew.co.jp/news/news-press-release/2611_maintenance.html",
+        "https://www.fancrew.co.jp/news/news-press-release/26114_maintenance.html"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "fancrew-api-20261102"
+      ]
+    },
+    {
+      "organization": "アソビュー",
+      "decision": "added",
+      "source_urls": [
+        "https://www.asoview.co.jp/news/articles/AyTdT_tX"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "asoview-arara-20261103"
+      ]
+    },
+    {
+      "organization": "あいおいニッセイ同和損害保険",
+      "decision": "added",
+      "source_urls": [
+        "https://www.aioinissaydowa.co.jp/info/notice_dtl.aspx?notice_id=2026110300001",
+        "https://www.aioinissaydowa.co.jp/corporate/about/news/pdf/2026/news_2026110601531.pdf"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "aioi-nissay-mypage-20261103"
+      ]
+    },
+    {
+      "organization": "キャメル珈琲（カルディ公式オンラインストア）",
+      "decision": "added",
+      "source_urls": [
+        "https://camelcoffee.jp/news/important/2026/002221.html"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "camel-coffee-kaldi-arara-20261103"
+      ]
+    },
+    {
+      "organization": "出前館",
+      "decision": "added",
+      "source_urls": [
+        "https://corporate.demae-can.co.jp/pr/info/20261103.html"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "demaecan-pickgo-20261103"
+      ]
+    },
+    {
+      "organization": "岡山県",
+      "decision": "added",
+      "source_urls": [
+        "https://www.pref.okayama.jp/uploaded/life/1064147_10315334_misc.pdf",
+        "https://www.pref.okayama.jp/uploaded/life/1064871_10321935_misc.pdf"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "okayama-mailmag-arara-20261103"
+      ]
+    },
+    {
+      "organization": "成城石井",
+      "decision": "added",
+      "source_urls": [
+        "https://corporate.seijoishii.com/blogs/notice/20261103"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "seijoishii-arara-20261103"
+      ]
+    },
+    {
+      "organization": "京都市（指定管理者：植彌加藤造園）",
+      "decision": "added",
+      "source_urls": [
+        "https://www.city.kyoto.lg.jp/kensetu/page/0000359897.html"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "kyoto-ohigashisan-mail-20261103"
+      ]
+    },
+    {
+      "organization": "京都市（京セラ美術館・元離宮二条城）",
+      "decision": "added",
+      "source_urls": [
+        "https://www.city.kyoto.lg.jp/bunshi/page/0000359980.html"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "kyoto-artpass-asoview-arara-20261106"
+      ]
+    },
+    {
+      "organization": "京都市",
+      "decision": "added",
+      "source_urls": [
+        "https://www.city.kyoto.lg.jp/hokenfukushi/page/0000359972.html"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "kyoto-senior-point-sagawa-20261106"
+      ]
+    },
+    {
+      "organization": "横浜ゴム",
+      "decision": "added",
+      "source_urls": [
+        "https://www.y-yokohama.com/release/pdf/2026110317mg002.pdf"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "yokohama-rubber-arara-20261103"
+      ]
+    },
+    {
+      "organization": "横浜市",
+      "decision": "added",
+      "source_urls": [
+        "https://www.city.yokohama.lg.jp/city-info/koho-kocho/press/somu/2026/1103denshishinsei.files/0001_20261103.pdf",
+        "https://www.city.yokohama.lg.jp/city-info/gyosei-kansa/yokohamadx/notice/notice20261106.html"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "yokohama-eshinsei-arara-20261103"
+      ]
+    },
+    {
+      "organization": "サンクゼール（St.Cousair）",
+      "decision": "added",
+      "source_urls": [
+        "https://www.stcousair.co.jp/company/news/36892"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "stcousair-arara-20261103"
+      ]
+    },
+    {
+      "organization": "セブン‐イレブン・ジャパン（7NOW）",
+      "decision": "added",
+      "source_urls": [
+        "https://www.sej.co.jp/company/important/185116.html"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "seven-eleven-7now-pickgo-20261103"
+      ]
+    },
+    {
+      "organization": "デニーズジャパン",
+      "decision": "added",
+      "source_urls": [
+        "https://www.dennys.jp/pdf/261103.pdf"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "dennys-app-migration-20261103"
+      ]
+    },
+    {
+      "organization": "豊橋市",
+      "decision": "added",
+      "source_urls": [
+        "https://www.city.toyohashi.lg.jp/40680.htm"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "toyohashi-mynumber-arara-20261103"
+      ]
+    },
+    {
+      "organization": "三井住友海上火災保険",
+      "decision": "added",
+      "source_urls": [
+        "https://www.ms-ins.com/information/2026/information_1103_1.pdf",
+        "https://www.ms-ins.com/news/fy2026/pdf/1106_1.pdf"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "msins-mypage-20261103"
+      ]
+    },
+    {
+      "organization": "駅探",
+      "decision": "added",
+      "source_urls": [
+        "https://ekitan.co.jp/corp/news/20261103-01/"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "ekitan-arara-20261103"
+      ]
+    },
+    {
+      "organization": "大阪市",
+      "decision": "added",
+      "source_urls": [
+        "https://www.city.osaka.lg.jp/hodoshiryo/ictsenryakushitsu/0000690714.html",
+        "https://www.city.osaka.lg.jp/hodoshiryo/ictsenryakushitsu/0000690751.html"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "osaka-gyosei-online-arara-20261103"
+      ]
+    },
+    {
+      "organization": "大津市",
+      "decision": "added",
+      "source_urls": [
+        "https://www.city.otsu.lg.jp/soshiki/010/1171/o/77542.html"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "otsu-mynumber-arara-20261103"
+      ]
+    },
+    {
+      "organization": "ソラシドエア",
+      "decision": "added",
+      "source_urls": [
+        "https://www.solaseedair.jp/info/2026/11/post-20260912.html"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "solaseedair-mail-arara-20261104"
+      ]
+    },
+    {
+      "organization": "ちょびリッチ",
+      "decision": "added",
+      "source_urls": [
+        "https://chobirich.co.jp/1sgvii4gv9/"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "chobirich-arara-20261104"
+      ]
+    },
+    {
+      "organization": "小田原市",
+      "decision": "added",
+      "source_urls": [
+        "https://www.city.odawara.kanagawa.jp/field/tax-resi/resident/mynumber/p43342.html"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "odawara-mynumber-arara-20261104"
+      ]
+    },
+    {
+      "organization": "ナバック（RESERVE GATE α）",
+      "decision": "added",
+      "source_urls": [
+        "https://www.navc2.co.jp/news_detail.php?id=44"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "navc-reservegate-20261104"
+      ]
+    },
+    {
+      "organization": "板橋区（いたばしPay）",
+      "decision": "added",
+      "source_urls": [
+        "https://www.city.itabashi.tokyo.jp/bunka/1061832/1062076/1066763/1066767.html"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "itabashi-pay-arara-20261104"
+      ]
+    },
+    {
+      "organization": "クレディセゾン（MUJI Card）",
+      "decision": "added",
+      "source_urls": [
+        "https://www.saisoncard.co.jp/customer-support/information/20261104/"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "saison-muji-card-20261104"
+      ]
+    },
+    {
+      "organization": "JA共済連",
+      "decision": "added",
+      "source_urls": [
+        "https://www.ja-kyosai.or.jp/info/2026/20261104-2.html"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "ja-kyosai-pcs-20261104"
+      ]
+    },
+    {
+      "organization": "ダスキン（DDuet）",
+      "decision": "added",
+      "source_urls": [
+        "https://www.duskin.co.jp/news/2026/pdf/261104_01.pdf"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "duskin-dduet-repica-20261104"
+      ]
+    },
+    {
+      "organization": "Shippio",
+      "decision": "added",
+      "source_urls": [
+        "https://www.shippio.io/news/20261104/",
+        "https://www.shippio.io/news/20261105/"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "shippio-platform-20261104"
+      ]
+    },
+    {
+      "organization": "モンテローザ",
+      "decision": "added",
+      "source_urls": [
+        "https://www.monteroza.co.jp/wp-content/uploads/2026/11/news261104mm.pdf"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "monteroza-arara-20261104"
+      ]
+    },
+    {
+      "organization": "BOATRACE振興会",
+      "decision": "added",
+      "source_urls": [
+        "https://www.boatrace-pr.jp/sp/site/release/2026/11/11924/"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "boatrace-telebote-arara-20261104"
+      ]
+    },
+    {
+      "organization": "ワークマン",
+      "decision": "added",
+      "source_urls": [
+        "https://www.release.tdnet.info/inbs/140120261103563387.pdf"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "workman-arara-20261104"
+      ]
+    },
+    {
+      "organization": "住友不動産",
+      "decision": "added",
+      "source_urls": [
+        "https://www.sumitomo-rd.co.jp/uploads/20261104_release.pdf"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "sumitomo-rd-datax-arara-20261104"
+      ]
+    },
+    {
+      "organization": "プレナス（ほっともっと）",
+      "decision": "added",
+      "source_urls": [
+        "https://www.plenus.co.jp/files/optionallink/00003434_file.pdf"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "plenus-hottomotto-arara-20261104"
+      ]
+    },
+    {
+      "organization": "松戸市",
+      "decision": "added",
+      "source_urls": [
+        "https://www.city.matsudo.chiba.jp/shisei/keikaku-kousou/digital/online-sinsei.html"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "matsudo-online-arara-20261104"
+      ]
+    },
+    {
+      "organization": "郡山市",
+      "decision": "added",
+      "source_urls": [
+        "https://www.city.koriyama.lg.jp/uploaded/attachment/132827.pdf"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "koriyama-online-arara-20261104"
+      ]
+    },
+    {
+      "organization": "はせがわ",
+      "decision": "added",
+      "source_urls": [
+        "https://www.release.tdnet.info/inbs/140120261104564321.pdf",
+        "https://www.release.tdnet.info/inbs/140120261105566324.pdf"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "hasegawa-repica-20261104"
+      ]
+    },
+    {
+      "organization": "野村インベスター・リレーションズ（機関Navi）",
+      "decision": "added",
+      "source_urls": [
+        "https://www.nomuraholdings.com/jp/news/topics/20261104.html",
+        "https://www.nomura-ir.co.jp/ja/news/news/news20261106/main/00/link/20261106.pdf"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "nomura-ir-kikan-navi-20261104"
+      ]
+    },
+    {
+      "organization": "オシロ（OSIRO）",
+      "decision": "added",
+      "source_urls": [
+        "https://osiro.it/news/14624"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "osiro-community-20261104"
+      ]
+    },
+    {
+      "organization": "東京都島嶼町村一部事務組合（島嶼会館）",
+      "decision": "added",
+      "source_urls": [
+        "https://www.tosho-kaikan.jp/information_notice.pdf",
+        "https://www.tosho-kaikan.jp/1105info.pdf"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "tosho-kaikan-reservegate-20261104"
+      ]
+    },
+    {
+      "organization": "電通総研（FACERE）",
+      "decision": "added",
+      "source_urls": [
+        "https://www.dentsusoken.com/news/topics/2026/1104_1.html"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "dentsusoken-facere-20261104"
+      ]
+    },
+    {
+      "organization": "インターネットイニシアティブ（IIJmio）",
+      "decision": "added",
+      "source_urls": [
+        "https://www.iij.ad.jp/news/information/2026/1104.html"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "iij-iijmio-arara-20261104"
+      ]
+    },
+    {
+      "organization": "ゲインズ（Getchu.com）",
+      "decision": "added",
+      "source_urls": [
+        "https://www.getchu.com/getchu/news20261104.html"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "gains-getchu-20261104"
+      ]
+    },
+    {
+      "organization": "ウチコミ",
+      "decision": "added",
+      "source_urls": [
+        "https://uchicomi.co.jp/news/647"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "uchicomi-ransomware-20261104"
+      ]
+    },
+    {
+      "organization": "総務省",
+      "decision": "added",
+      "source_urls": [
+        "https://www.soumu.go.jp/menu_news/s-news/01tsushin06_02000364.html"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "soumu-ict-japan-arara-20261104"
+      ]
+    },
+    {
+      "organization": "アクセルエンターメディア",
+      "decision": "added",
+      "source_urls": [
+        "https://www.axelentermedia.co.jp/notice_20261104.html",
+        "https://domotofc.jp/news/detail/pWE3yuPWNPsYuEyBaBJ3"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "axel-entermedia-arara-20261104"
+      ]
+    },
+    {
+      "organization": "クラシエ（クラシエ薬品「Kampoful Life」）",
+      "decision": "added",
+      "source_urls": [
+        "https://www.kracie.co.jp/release/10193700_3833.html"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "kracie-kampoful-repica-20261104"
+      ]
+    },
+    {
+      "organization": "松竹マルチプレックスシアターズ（SMT Members）",
+      "decision": "added",
+      "source_urls": [
+        "https://www.smt-cinema.com/news/detail/098788.html"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "smt-members-arara-20261104"
+      ]
+    },
+    {
+      "organization": "あしたのチーム（ウェルネス・コミュニケーションズ子会社）",
+      "decision": "added",
+      "source_urls": [
+        "https://www.ashita-team.com/news/261104-2/",
+        "https://www.release.tdnet.info/inbs/140120261104564889.pdf"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "ashita-team-laughr-survey-20261104"
+      ]
+    },
+    {
+      "organization": "小田原市立総合医療センター",
+      "decision": "added",
+      "source_urls": [
+        "https://www.city.odawara.kanagawa.jp/hospital/news_hp/p43360.html"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "odawara-hospital-actmedical-20261105"
+      ]
+    },
+    {
+      "organization": "北洋銀行",
+      "decision": "added",
+      "source_urls": [
+        "https://www.hokuyobank.co.jp/announcement/pdf/20261105_076991.pdf"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "hokuyo-superarca-smbccf-20261105"
+      ]
+    },
+    {
+      "organization": "鈴鹿市",
+      "decision": "added",
+      "source_urls": [
+        "https://www.city.suzuka.lg.jp/kurashi/koseki/1009629/1018245.html"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "suzuka-mynumber-arara-20261105"
+      ]
+    },
+    {
+      "organization": "日産フィナンシャルサービス",
+      "decision": "added",
+      "source_urls": [
+        "https://www.nissan-fs.co.jp/info_list/pdf/261105.pdf"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "nissan-fs-pcs-20261105"
+      ]
+    },
+    {
+      "organization": "カカクコム",
+      "decision": "added",
+      "source_urls": [
+        "https://prtimes.jp/main/html/rd/p/000001064.000001455.html"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "kakaku-arara-20261105"
+      ]
+    },
+    {
+      "organization": "江戸川区",
+      "decision": "added",
+      "source_urls": [
+        "https://www.city.edogawa.tokyo.jp/e004/kuseijoho/kohokocho/press/2026/11/1105.html"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "edogawa-mynumber-arara-20261105"
+      ]
+    },
+    {
+      "organization": "あきんどスシロー（FOOD & LIFE COMPANIES）",
+      "decision": "added",
+      "source_urls": [
+        "https://food-and-life.co.jp/corporate-news/31909"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "sushiro-staff-portal-20261105"
+      ]
+    },
+    {
+      "organization": "福岡銀行",
+      "decision": "added",
+      "source_urls": [
+        "https://www.fukuokabank.co.jp/announcement/important/y2026/1105.html"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "fukuokabank-smbccf-20261105"
+      ]
+    },
+    {
+      "organization": "GMOペイメントサービス（GMO後払い）",
+      "decision": "added",
+      "source_urls": [
+        "https://www.gmo-ps.com/news/20261105/"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "gmo-ps-martialarts-arara-20261105"
+      ]
+    },
+    {
+      "organization": "松井証券",
+      "decision": "added",
+      "source_urls": [
+        "https://www.matsui.co.jp/company/press/pdf/pr261105.pdf"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "matsui-arara-20261105"
+      ]
+    },
+    {
+      "organization": "三井不動産（&BIZ）",
+      "decision": "added",
+      "source_urls": [
+        "https://www.mitsuifudosan.co.jp/corporate/news/2026/1105/download/sonota/20261105.pdf"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "mitsuifudosan-andbiz-arara-20261105"
+      ]
+    },
+    {
+      "organization": "サマンサタバサジャパンリミテッド／バーンデストローズジャパンリミテッド（コナカ）",
+      "decision": "added",
+      "source_urls": [
+        "https://www.release.tdnet.info/inbs/140120261105565832.pdf"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "konaka-samantha-repica-20261105"
+      ]
+    },
+    {
+      "organization": "はとや",
+      "decision": "added",
+      "source_urls": [
+        "https://hatoya.co.jp/shop-infomation/20261105"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "hatoya-pcs-20261105"
+      ]
+    },
+    {
+      "organization": "ユーグレナ（akyrise）",
+      "decision": "added",
+      "source_urls": [
+        "https://www.euglena.jp/news/20261105-1/"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "euglena-akyrise-ec-20261105"
+      ]
+    },
+    {
+      "organization": "ユーグレナ（akyrise）",
+      "decision": "added",
+      "source_urls": [
+        "https://www.euglena.jp/news/20261105-1/"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "euglena-akyrise-arara-20261105"
+      ]
+    },
+    {
+      "organization": "ユーグレナ（akyrise）",
+      "decision": "added",
+      "source_urls": [
+        "https://www.euglena.jp/news/20261105-1/"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "euglena-akyrise-sagawa-20261105"
+      ]
+    },
+    {
+      "organization": "九州電力送配電",
+      "decision": "added",
+      "source_urls": [
+        "https://www.kyuden.co.jp/td/press/2026/261105.html"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "kyuden-td-meter-20261105"
+      ]
+    },
+    {
+      "organization": "朝日生命保険",
+      "decision": "added",
+      "source_urls": [
+        "https://www.asahi-life.co.jp/company/newsrelease/20261105.pdf"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "asahi-life-arara-20261105"
+      ]
+    },
+    {
+      "organization": "NTTタウンページ",
+      "decision": "added",
+      "source_urls": [
+        "https://www.ntt-tp.co.jp/news/other-news/notice261104.html"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "ntt-tp-repica-20261105"
+      ]
+    },
+    {
+      "organization": "三井住友銀行",
+      "decision": "added",
+      "source_urls": [
+        "https://www.smbc.co.jp/news/pdf/j20261105_02.pdf"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "smbc-arara-20261105"
+      ]
+    },
+    {
+      "organization": "鴨川市",
+      "decision": "added",
+      "source_urls": [
+        "https://www.city.kamogawa.lg.jp/site/furusatotax/46190.html"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "kamogawa-furusato-choice-20261105"
+      ]
+    },
+    {
+      "organization": "沖縄県（国営沖縄記念公園内施設）",
+      "decision": "added",
+      "source_urls": [
+        "https://www.pref.okinawa.lg.jp/machizukuri/park/1041852.html"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "okinawa-churashima-asoview-20261105"
+      ]
+    },
+    {
+      "organization": "GMOイプシロン",
+      "decision": "added",
+      "source_urls": [
+        "https://www.epsilon.jp/news/20261105.html"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "epsilon-datax-repica-20261105"
+      ]
+    },
+    {
+      "organization": "SMBCコンシューマーファイナンス",
+      "decision": "added",
+      "source_urls": [
+        "https://www.smbc-cf.com/news/data/2026/11/news_20261105.pdf"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "smbccf-guarantee-system-20261105"
+      ]
+    },
+    {
+      "organization": "十八親和銀行",
+      "decision": "added",
+      "source_urls": [
+        "https://www.18shinwabank.co.jp/announcement/important/y2026/13539683396aec34dc471ef20261105164844.html"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "18shinwa-smbccf-20261105"
+      ]
+    },
+    {
+      "organization": "十八親和銀行（MINAコイン・ゆでぴ）",
+      "decision": "added",
+      "source_urls": [
+        "https://www.18shinwabank.co.jp/announcement/important/y2026/1105.html"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "18shinwa-local-coin-arara-20261105"
+      ]
+    },
+    {
+      "organization": "日本郵便",
+      "decision": "added",
+      "source_urls": [
+        "https://www.post.japanpost.jp/newsrelease/pressrelease/414336381813.html"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "japanpost-pickgo-20261105"
+      ]
+    },
+    {
+      "organization": "寺田倉庫",
+      "decision": "added",
+      "source_urls": [
+        "https://www.terrada.co.jp/ja/news/17123/",
+        "https://www.post.japanpost.jp/newsrelease/pressrelease/1342644881.html"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "terrada-arara-20261105"
+      ]
+    },
+    {
+      "organization": "東京海上ダイレクト損害保険",
+      "decision": "added",
+      "source_urls": [
+        "https://www.e-design.net/docomo/information/2026/2026_11_05.html"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "tokiomarine-direct-mypage-20261105"
+      ]
+    },
+    {
+      "organization": "NTTドコモ（ドコモオンラインショップ・My docomo）",
+      "decision": "added",
+      "source_urls": [
+        "https://www.docomo.ne.jp/info/notice/page/261105_02_m.html",
+        "https://www.docomo.ne.jp/info/notice/page/261105_03_m.html",
+        "https://www.docomo.ne.jp/info/notice/page/261106_00_m.html",
+        "https://k-tai.watch.impress.co.jp/docs/news/2154506.html"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "docomo-onlineshop-20261105"
+      ]
+    },
+    {
+      "organization": "ecoco",
+      "decision": "added",
+      "source_urls": [
+        "https://ecoco.cloud/blogs/important/1",
+        "https://ecoco.cloud/blogs/important/2"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "ecoco-order-csv-20261105"
+      ]
+    },
+    {
+      "organization": "GMOメイクショップ（メール配信プラス・MakeRepeater）",
+      "decision": "added",
+      "source_urls": [
+        "https://www.makeshop.co.jp/news/info/2026-11-05_2/"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "gmo-makeshop-arara-20261105"
+      ]
+    },
+    {
+      "organization": "GMOメイクショップ（旧GMOメイクアプリ）",
+      "decision": "added",
+      "source_urls": [
+        "https://www.makeshop.co.jp/news/info/2026-11-05/"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "gmo-makeshop-studio-20261105"
+      ]
+    },
+    {
+      "organization": "ティーエッチエス（ユニコレ）",
+      "decision": "added",
+      "source_urls": [
+        "https://ths-fooduniform.jp/blog/articles/notice/18421/"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "ths-unicolle-20261105"
+      ]
+    },
+    {
+      "organization": "損害保険ジャパン",
+      "decision": "added",
+      "source_urls": [
+        "https://www.sompo-japan.co.jp/-/media/SJNK/files/news/2026/20261105_1.pdf"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "sompo-japan-pcs-20261105"
+      ]
+    },
+    {
+      "organization": "富山県",
+      "decision": "added",
+      "source_urls": [
+        "https://www.pref.toyama.jp/1705/kensei/kouhou/houdou/2026/1030_shoene.html"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "toyama-shoene-arara-20261105"
+      ]
+    },
+    {
+      "organization": "茨城県（茨城をたべようメールマガジン）",
+      "decision": "added",
+      "source_urls": [
+        "https://www.ibaraki-shokusai.net/info/detail/18481"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "ibaraki-taberou-arara-20261105"
+      ]
+    },
+    {
+      "organization": "日本ネットワークセキュリティ協会（情報セキュリティ理解度チェック）",
+      "decision": "added",
+      "source_urls": [
+        "https://www.jnsa.org/dl/annual/20261106.pdf"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "jnsa-check-service-20261106"
+      ]
+    },
+    {
+      "organization": "埼玉県（県営公園プール・こども動物自然公園）",
+      "decision": "added",
+      "source_urls": [
+        "https://www.pref.saitama.lg.jp/a1105/news/page/news2026110601.html"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "saitama-park-asoview-20261106"
+      ]
+    },
+    {
+      "organization": "埼玉県（SAITAMAハイク＆サイクルスタンプラリー）",
+      "decision": "added",
+      "source_urls": [
+        "https://www.pref.saitama.lg.jp/a0806/news/page/news2026110601.html"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "saitama-hike-cycle-arara-20261106"
+      ]
+    },
+    {
+      "organization": "鳥取銀行",
+      "decision": "added",
+      "source_urls": [
+        "https://www.tottoribank.co.jp/oshirase/pdf/2026-11-06.pdf"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "tottoribank-smbccf-20261106"
+      ]
+    },
+    {
+      "organization": "山陰合同銀行",
+      "decision": "added",
+      "source_urls": [
+        "https://www.gogin.co.jp/newsrelease/common/attachmentfile/attachmentfile-file-5028.pdf"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "gogin-smbccf-20261106"
+      ]
+    },
+    {
+      "organization": "りそな銀行／関西みらい銀行／みなと銀行",
+      "decision": "added",
+      "source_urls": [
+        "https://www.resona-gr.co.jp/holdings/news/newsrelease_c/2026/files/20261106_1k.pdf"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "resona-group-smbccf-20261106"
+      ]
+    },
+    {
+      "organization": "パシフィックリーグマーケティング／パ・リーグ5球団",
+      "decision": "added",
+      "source_urls": [
+        "https://www.pacificleague.jp/assets/pdf/pr261106_1.pdf"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "plm-pacific-league-arara-20261106"
+      ]
+    },
+    {
+      "organization": "パシフィックリーグマーケティング（千葉ロッテマリーンズ公式スマホサイト）",
+      "decision": "added",
+      "source_urls": [
+        "https://www.pacificleague.jp/assets/pdf/pr261106_1.pdf"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "plm-marines-smartphone-site-20261106"
+      ]
+    },
+    {
+      "organization": "Mizkan（ミツカン365）",
+      "decision": "added",
+      "source_urls": [
+        "https://www.mizkan.co.jp/file.jsp?id=2021_Renewal/files/pdf/emg/news/oshirase18.pdf"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "mizkan-365-20261106"
+      ]
+    },
+    {
+      "organization": "三井住友海上あいおい生命保険",
+      "decision": "added",
+      "source_urls": [
+        "https://www.msa-life.co.jp/news/assets/pdf/20261106_newsrelease_huseiausesukaizi.pdf"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "msa-life-mypage-20261106"
+      ]
+    },
+    {
+      "organization": "中央アルプス観光（ホテル千畳敷）",
+      "decision": "added",
+      "source_urls": [
+        "https://chuo-alps.com/%E5%A4%96%E9%83%A8%E4%BA%88%E7%B4%84%E7%AE%A1%E7%90%86%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E3%80%8C%E3%83%AA%E3%82%B6%E3%83%BC%E3%83%96%E3%82%B2%E3%83%BC%E3%83%88%E3%80%8D%E3%81%A7%E7%99%BA%E7%94%9F/"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "chuo-alps-reservegate-20261106"
+      ]
+    },
+    {
+      "organization": "2りんかんイエローハット",
+      "decision": "added",
+      "source_urls": [
+        "https://2rinkan.jp/annai/20261106/"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "2rinkan-pcs-20261106"
+      ]
+    },
+    {
+      "organization": "チームスピリット",
+      "decision": "added",
+      "source_urls": [
+        "https://corp.teamspirit.com/news/information/2026/11/2026_1106_01/"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "teamspirit-dev-server-20261106"
+      ]
+    },
+    {
+      "organization": "仙台市",
+      "decision": "added",
+      "source_urls": [
+        "https://www.city.sendai.jp/kosekijumin/20261106.html"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "sendai-mynumber-arara-20261106"
+      ]
+    },
+    {
+      "organization": "ドトールコーヒー（ドトール オンラインショップ）",
+      "decision": "added",
+      "source_urls": [
+        "https://www.doutor.co.jp/news/newsrelease/detail/20261106150715.html"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "doutor-online-shop-20261106"
+      ]
+    },
+    {
+      "organization": "シグナルトーク（Maru-Jan）",
+      "decision": "added",
+      "source_urls": [
+        "https://prtimes.jp/main/html/rd/p/000000136.000009867.html"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "signaltalk-maru-jan-20261107"
+      ]
+    },
+    {
+      "organization": "使えるねっと",
+      "decision": "added",
+      "source_urls": [
+        "https://www.tsukaeru.net/news/20261107/"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "tsukaeru-portal-20261107"
+      ]
+    },
+    {
+      "organization": "全国都道府県及び全指定都市（宝くじ公式サイト）",
+      "decision": "added",
+      "source_urls": [
+        "https://sorry.takarakuji-official.jp/Sorry-PlannedMaintenance.html"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "takarakuji-official-login-20261106"
+      ]
+    },
+    {
+      "organization": "アイリスプラザ（アイリスオーヤマ公式通販）",
+      "decision": "added",
+      "source_urls": [
+        "https://www.irisohyama.co.jp/news/2026/?date=1029",
+        "https://www.irisohyama.co.jp/news/2026/?date=1105"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "irisplaza-cloud-20261029"
+      ]
+    },
+    {
+      "organization": "アイドマ・ホールディングス（ママワークス）",
+      "decision": "added",
+      "source_urls": [
+        "https://mamaworks.jp/files/notice_20261020.pdf",
+        "https://mamaworks.jp/files/notice_20261104.pdf"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "aidma-mamaworks-20261020"
+      ]
+    },
+    {
+      "organization": "コスモエネルギーホールディングス",
+      "decision": "added",
+      "source_urls": [
+        "https://www.cosmo-energy.co.jp/ja/information/topics/2026/261106-01.html"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "cosmo-energy-ir-arara-20261106"
+      ]
+    },
+    {
+      "organization": "苫小牧市",
+      "decision": "added",
+      "source_urls": [
+        "https://www.city.tomakomai.hokkaido.jp/kurashi/mynumber/fusei.html"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "tomakomai-mynumber-arara-20261105"
+      ]
+    },
+    {
+      "organization": "真庭市（まにこいん）",
+      "decision": "added",
+      "source_urls": [
+        "https://manicoin.jp/news/9x7SOX2x"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "maniwa-manicoin-arara-20261104"
+      ]
+    },
+    {
+      "organization": "東京カンテイ",
+      "decision": "added",
+      "source_urls": [
+        "https://www.kantei.ne.jp/news/release/9612/"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "kantei-arara-20261104"
+      ]
+    },
+    {
+      "organization": "日本デジタル研究所（JDL）",
+      "decision": "added",
+      "source_urls": [
+        "https://www.jdl.co.jp/info/security-info202611.html"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "jdl-arara-20261104"
+      ]
+    },
+    {
+      "organization": "シフトワークス",
+      "decision": "added",
+      "source_urls": [
+        "https://sftworks.jp/notice/info_20261104.html"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "shiftworks-arara-20261104"
+      ]
+    },
+    {
+      "organization": "インヴェンティット（ARTPASS）",
+      "decision": "added",
+      "source_urls": [
+        "https://art.passes.jp/post/%E3%80%90%E9%87%8D%E8%A6%81%E3%80%91%E3%83%A1%E3%83%BC%E3%83%AB%E3%83%9E%E3%82%AC%E3%82%B8%E3%83%B3%E9%85%8D%E4%BF%A1%E6%A5%AD%E5%8B%99%E5%A7%94%E8%A8%97%E5%85%88%E3%81%B8%E3%81%AE%E4%B8%8D%E6%AD%A3%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E3%81%8A%E8%A9%AB%E3%81%B3%E3%81%A8%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "artpass-inventit-arara-20261104"
+      ]
+    },
+    {
+      "organization": "インフォマート",
+      "decision": "added",
+      "source_urls": [
+        "https://corp.infomart.co.jp/news/20261104_6211/"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "infomart-arara-20261104"
+      ]
+    },
+    {
+      "organization": "させぼeコイン（佐世保市）",
+      "decision": "added",
+      "source_urls": [
+        "https://saseboecoin.jp/news/news20261104"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "sasebo-ecoin-arara-20261104"
+      ]
+    },
+    {
+      "organization": "城西館",
+      "decision": "added",
+      "source_urls": [
+        "https://www.jyoseikan.co.jp/info/infosec261103/"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "jyoseikan-arara-20261103"
+      ]
+    },
+    {
+      "organization": "ベルク",
+      "decision": "added",
+      "source_urls": [
+        "https://www.belc.jp/news/20261029"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "belc-arara-20261029"
+      ]
+    },
+    {
+      "organization": "西鉄ホテルズ",
+      "decision": "added",
+      "source_urls": [
+        "https://nnr-h.com/news/FWi8X_hp"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "nishitetsu-hotels-arara-20261102"
+      ]
+    },
+    {
+      "organization": "福井新聞社（福井新聞パスポート）",
+      "decision": "added",
+      "source_urls": [
+        "https://www.fukuishimbun.co.jp/articles/-/2737551"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "fukui-np-passport-repica-20261102"
+      ]
+    },
+    {
+      "organization": "栃木銀行",
+      "decision": "added",
+      "source_urls": [
+        "https://www.tochigibank.co.jp/info/detail?id=3890",
+        "https://www.tochigibank.co.jp/showimage/pdf?fileNo=3648"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "tochigibank-arara-20261102"
+      ]
+    },
+    {
+      "organization": "世田谷区（せたがやPay）",
+      "decision": "added",
+      "source_urls": [
+        "https://www.city.setagaya.lg.jp/01004/36866.html",
+        "https://www.city.setagaya.lg.jp/01004/36870.html"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "setagaya-pay-arara-20261102"
+      ]
+    },
+    {
+      "organization": "ヴァンドームヤマダ",
+      "decision": "added",
+      "source_urls": [
+        "https://vendome.jp/plus_vendome/news/27694"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "vendome-yamada-arara-20261102"
+      ]
+    },
+    {
+      "organization": "ブラデリスニューヨーク（BRADELIS・Chut! INTIMATES）",
+      "decision": "added",
+      "source_urls": [
+        "https://www.bradelis.shop/f/news_261102",
+        "https://www.chut.jp/news/news_261102"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "bradelis-arara-20261102"
+      ]
+    },
+    {
+      "organization": "パリミキアセットマネジメント",
+      "decision": "added",
+      "source_urls": [
+        "https://pmam.co.jp/assets/2026/11/9c1514bdcc238ee499d66aed639aa1d9.pdf"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "parismiki-am-arara-20261102"
+      ]
+    },
+    {
+      "organization": "トライベック",
+      "decision": "added",
+      "source_urls": [
+        "https://www.tribeck.jp/newsrelease/2026/20261102.html",
+        "https://www.tribeck.jp/newsrelease/2026/20261104.html"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "tribeck-arara-20261102"
+      ]
+    },
+    {
+      "organization": "音楽雑誌「ERIS」編集部",
+      "decision": "added",
+      "source_urls": [
+        "https://erismedia.jp/%E3%80%90%E9%87%8D%E8%A6%81%E3%80%91%E3%83%A1%E3%83%BC%E3%83%AB%E3%83%9E%E3%82%AC%E3%82%B8%E3%83%B3%E9%85%8D%E4%BF%A1%E5%A7%94%E8%A8%97%E5%85%88%E3%81%B8%E3%81%AE%E4%B8%8D%E6%AD%A3%E3%82%A2%E3%82%AF-2/"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "erismedia-arara-20261102"
+      ]
+    },
+    {
+      "organization": "ODKソリューションズ",
+      "decision": "added",
+      "source_urls": [
+        "https://ssl4.eir-parts.net/doc/3839/ir_material8/289292/00.pdf",
+        "https://ssl4.eir-parts.net/doc/3839/ir_material8/289303/00.pdf",
+        "https://ssl4.eir-parts.net/doc/3839/ir_material8/289693/00.pdf"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "odk-solutions-arara-20261102"
+      ]
+    },
+    {
+      "organization": "ウィル",
+      "decision": "added",
+      "source_urls": [
+        "https://www.wills.co.jp/corp/news/1893/",
+        "https://www.wills.co.jp/corp/news/1894/",
+        "https://www.wills.co.jp/corp/news/1895/"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "will-realestate-arara-20261030"
+      ]
+    },
+    {
+      "organization": "AUTHENTIC JAPAN（ココヘリ）",
+      "decision": "added",
+      "source_urls": [
+        "https://www.cocoheli.com/news/suspicious-email"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "cocoheli-arara-20261105"
+      ]
+    },
+    {
+      "organization": "ウマニティ",
+      "decision": "added",
+      "source_urls": [
+        "https://umanity.jp/info.php?id=9672"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "umanity-arara-20261103"
+      ]
+    },
+    {
+      "organization": "ドコモSMTBネット銀行",
+      "decision": "added",
+      "source_urls": [
+        "https://www.netbk.co.jp/contents/company/info/2026/1105_006601.html"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "netbk-smbccf-20261105"
+      ]
+    },
+    {
+      "organization": "筑波銀行",
+      "decision": "added",
+      "source_urls": [
+        "https://www.tsukubabank.co.jp/cms/article/76ee6818987f5e1c31d22e2302d6e0e18688c745/"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "tsukubabank-smbccf-20261105"
+      ]
+    },
+    {
+      "organization": "中国銀行",
+      "decision": "added",
+      "source_urls": [
+        "https://www.chugin.co.jp/news/3583.html"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "chugin-smbccf-20261105"
+      ]
+    },
+    {
+      "organization": "熊本銀行",
+      "decision": "added",
+      "source_urls": [
+        "https://www.kumamotobank.co.jp/announcement/important/y2026/20261105josirase2.html"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "kumamotobank-smbccf-20261105"
+      ]
+    },
+    {
+      "organization": "愛媛銀行",
+      "decision": "added",
+      "source_urls": [
+        "https://www.himegin.co.jp/new_csr/pdf/20261105_1.pdf"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "himegin-smbccf-20261105"
+      ]
+    },
+    {
+      "organization": "第四北越銀行",
+      "decision": "added",
+      "source_urls": [
+        "https://www.dhbk.co.jp/important/1202858_2311.html"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "dhbk-smbccf-20261105"
+      ]
+    },
+    {
+      "organization": "広島銀行",
+      "decision": "added",
+      "source_urls": [
+        "https://www.hirogin.co.jp/information/info261105/info261105.pdf"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "hirogin-smbccf-20261105"
+      ]
+    },
+    {
+      "organization": "モスフードサービス（モスWEB会員）",
+      "decision": "added",
+      "source_urls": [
+        "https://www.mos.co.jp/company/pr_pdf/pr_261104_2.pdf"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "mos-web-repica-20261104"
+      ]
+    },
+    {
+      "organization": "メーカーズシャツ鎌倉（鎌倉シャツ）",
+      "decision": "added",
+      "source_urls": [
+        "https://yomukama.shirt.co.jp/5374"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "kamakura-shirts-repica-20261104"
+      ]
+    },
+    {
+      "organization": "ゴルフネットワーク（ゴルフネットワークプラス）",
+      "decision": "added",
+      "source_urls": [
+        "https://tv.golfnetwork.co.jp/news/detail/147"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "golfnetwork-repica-20261103"
+      ]
+    },
+    {
+      "organization": "両備バス",
+      "decision": "added",
+      "source_urls": [
+        "https://www.ryobi-holdings.jp/bus/news-kousoku/20261102/"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "ryobi-bus-repica-20261102"
+      ]
+    },
+    {
+      "organization": "UCC上島珈琲",
+      "decision": "added",
+      "source_urls": [
+        "https://www.ucc.co.jp/press/20261102.html"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "ucc-comsbi-20261102"
+      ]
+    },
+    {
+      "organization": "コーヒースタイルユーシーシー",
+      "decision": "added",
+      "source_urls": [
+        "https://www.coffeestyleucc.co.jp/news202610/"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "coffeestyle-ucc-comsbi-20261102"
+      ]
+    },
+    {
+      "organization": "東海コープ事業連合（コープぎふ・コープあいち・コープみえ）",
+      "decision": "added",
+      "source_urls": [
+        "https://www2.tcoop.or.jp/news/20261104_important.html"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "tokai-coop-repica-20261103"
+      ]
+    },
+    {
+      "organization": "SBC信越放送（SBCアプリ）",
+      "decision": "added",
+      "source_urls": [
+        "https://sbc21.co.jp/blogwp/sbcinfo/info/3465"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "sbc-app-20261106"
+      ]
+    },
+    {
+      "organization": "宮崎市",
+      "decision": "added",
+      "source_urls": [
+        "https://www.city.miyazaki.miyazaki.jp/city/public_relations/press_material/419117.html"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "miyazaki-smart-shinsei-arara-20261105"
+      ]
+    },
+    {
+      "organization": "濵田酒造",
+      "decision": "added",
+      "source_urls": [
+        "https://www.hamadasyuzou.co.jp/news/20261106.html"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "hamada-syuzou-repica-20261106"
+      ]
+    },
+    {
+      "organization": "高根沢町",
+      "decision": "added",
+      "source_urls": [
+        "https://www.town.takanezawa.tochigi.jp/information/2026-1103-0845-77.html"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "takanezawa-mynumber-arara-20261103"
+      ]
+    },
+    {
+      "organization": "南会津町",
+      "decision": "added",
+      "source_urls": [
+        "https://www.town.minamiaizu.lg.jp/official/soshikikarasagasu/sogoseisakuka/oshirase/1/4090.html"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "minamiaizu-mynumber-arara-20261105"
+      ]
+    },
+    {
+      "organization": "栗原市",
+      "decision": "added",
+      "source_urls": [
+        "https://www.kuriharacity.jp/w067/020/070/PAGE000000000000012648.html"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "kurihara-smart-shinsei-arara-20261106"
+      ]
+    },
+    {
+      "organization": "ビックカメラ／コジマ／ソフマップ",
+      "decision": "added",
+      "source_urls": [
+        "https://www.itmedia.co.jp/news/article/2611/04/2000002866/",
+        "https://www.biccamera.com/bc/c/info/report/sorry_20261102.jsp"
+      ],
+      "reason": "公式告知を取得できず、報道で発表日・件数・対象外情報を確認（二次資料）。",
+      "incident_ids": [
+        "biccamera-group-arara-20261102"
+      ]
+    },
+    {
+      "organization": "ソニー損害保険",
+      "decision": "added",
+      "source_urls": [
+        "https://from.sonysonpo.co.jp/topics/information/02112026_288508.html"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "sonysonpo-pcs-20261102"
+      ]
+    },
+    {
+      "organization": "東京都水道局",
+      "decision": "added",
+      "source_urls": [
+        "https://www.waterworks.metro.tokyo.lg.jp/information/press/r8/10/2026102301"
+      ],
+      "reason": "公式公表の本文・日付・対象を確認。",
+      "incident_ids": [
+        "tokyo-water-hdd-loss-20261023"
+      ]
+    },
+    {
+      "organization": "メディア4u",
+      "decision": "updated",
+      "source_urls": [
+        "https://www.release.tdnet.info/inbs/140120261102562358.pdf"
+      ],
+      "reason": "11月2日以降の続報を既存IDへ統合し、公表日を維持。",
+      "incident_ids": [
+        "media4u-sms-20260714"
+      ]
+    },
+    {
+      "organization": "株式会社ApplyNow",
+      "decision": "updated",
+      "source_urls": [
+        "https://applynow.co.jp/news/20261104"
+      ],
+      "reason": "11月2日以降の続報を既存IDへ統合し、公表日を維持。",
+      "incident_ids": [
+        "applynow-20260909"
+      ]
+    },
+    {
+      "organization": "ロート製薬",
+      "decision": "updated",
+      "source_urls": [
+        "https://www.rohto.co.jp/news/whatsnew/2026/1106_01"
+      ],
+      "reason": "11月2日以降の続報を既存IDへ統合し、公表日を維持。",
+      "incident_ids": [
+        "rohto-20260915"
+      ]
+    },
+    {
+      "organization": "JGC Digital（アザス・するーぷ）",
+      "decision": "updated",
+      "source_urls": [
+        "https://jgc-digital.com/topics/topics-3114/"
+      ],
+      "reason": "11月2日以降の続報を既存IDへ統合し、公表日を維持。",
+      "incident_ids": [
+        "azas-suloop-20260918"
+      ]
+    },
+    {
+      "organization": "ブックオフグループホールディングス",
+      "decision": "updated",
+      "source_urls": [
+        "https://www.release.tdnet.info/inbs/140120261106567372.pdf"
+      ],
+      "reason": "11月2日以降の続報を既存IDへ統合し、公表日を維持。",
+      "incident_ids": [
+        "bookoff-20261009"
+      ]
+    },
+    {
+      "organization": "DCMホールディングス（マイボフェローズ）",
+      "decision": "updated",
+      "source_urls": [
+        "https://www.dcm-hc.co.jp/news/news_file/file/20261102news02.pdf"
+      ],
+      "reason": "11月2日以降の続報を既存IDへ統合し、公表日を維持。",
+      "incident_ids": [
+        "dcm-myvo-20261013"
+      ]
+    },
+    {
+      "organization": "岩井コスモ証券",
+      "decision": "updated",
+      "source_urls": [
+        "https://www.release.tdnet.info/inbs/140120261102562920.pdf"
+      ],
+      "reason": "11月2日以降の続報を既存IDへ統合し、公表日を維持。",
+      "incident_ids": [
+        "iwaicosmo-tradeworks-20261016"
+      ]
+    },
+    {
+      "organization": "神奈川県",
+      "decision": "updated",
+      "source_urls": [
+        "https://www.pref.kanagawa.jp/docs/sr4/prs/r8837257.html"
+      ],
+      "reason": "11月2日以降の続報を既存IDへ統合し、公表日を維持。",
+      "incident_ids": [
+        "kanagawa-venture-studio-20261019"
+      ]
+    },
+    {
+      "organization": "トラストバンク（ふるさとチョイス）",
+      "decision": "updated",
+      "source_urls": [
+        "https://www.trustbank.co.jp/newsroom/newsrelease/news20261105/"
+      ],
+      "reason": "11月2日以降の続報を既存IDへ統合し、公表日を維持。",
+      "incident_ids": [
+        "trustbank-furusato-attack-20261020"
+      ]
+    },
+    {
+      "organization": "日本貿易振興機構（ジェトロ）",
+      "decision": "updated",
+      "source_urls": [
+        "https://www.jetro.go.jp/news/announcement/2026/d475b9fab8ba23e5.html"
+      ],
+      "reason": "11月2日以降の続報を既存IDへ統合し、公表日を維持。",
+      "incident_ids": [
+        "jetro-web-20261019"
+      ]
+    },
+    {
+      "organization": "NTTPCコミュニケーションズ",
+      "decision": "updated",
+      "source_urls": [
+        "https://www.nttpc.co.jp/press/info/2026/11/202611021600.html"
+      ],
+      "reason": "11月2日以降の続報を既存IDへ統合し、公表日を維持。",
+      "incident_ids": [
+        "nttpc-cuenote-20261020"
+      ]
+    },
+    {
+      "organization": "GMOインターネット（お名前.com デスクトップクラウド）",
+      "decision": "updated",
+      "source_urls": [
+        "https://www.onamae-desktop.com/",
+        "https://newsdig.tbs.co.jp/articles/withbloomberg/3057248?display=1",
+        "https://www.release.tdnet.info/inbs/140120261106567874.pdf"
+      ],
+      "reason": "11月2日以降の続報を既存IDへ統合し、公表日を維持。",
+      "incident_ids": [
+        "onamae-desktop-20261023"
+      ]
+    },
+    {
+      "organization": "MAGUS（ARTnews JAPAN）",
+      "decision": "updated",
+      "source_urls": [
+        "https://artnewsjapan.com/article/90648"
+      ],
+      "reason": "11月2日以降の続報を既存IDへ統合し、公表日を維持。",
+      "incident_ids": [
+        "sweep-f977b189a011-20261023"
+      ]
+    },
+    {
+      "organization": "NHK出版（みんなの趣味の園芸）",
+      "decision": "updated",
+      "source_urls": [
+        "https://news.nhk-book.co.jp/archives/35516"
+      ],
+      "reason": "11月2日以降の続報を既存IDへ統合し、公表日を維持。",
+      "incident_ids": [
+        "sweep-8247bb3fc8bc-20261023"
+      ]
+    },
+    {
+      "organization": "台東区大河ドラマ「べらぼう」活用推進協議会",
+      "decision": "updated",
+      "source_urls": [
+        "https://www.city.taito.lg.jp/bunka_kanko/other/tsutaju.html"
+      ],
+      "reason": "11月2日以降の続報を既存IDへ統合し、公表日を維持。",
+      "incident_ids": [
+        "taito-tsutaju-travelzip-20261026"
+      ]
+    },
+    {
+      "organization": "JR東海・JR西日本・JR九州",
+      "decision": "updated",
+      "source_urls": [
+        "https://www.westjr.co.jp/press/article/2026/11/05/items/261105_00_press_ex.pdf"
+      ],
+      "reason": "11月2日以降の続報を既存IDへ統合し、公表日を維持。",
+      "incident_ids": [
+        "jr-ex-smart-ex-20261026"
+      ]
+    },
+    {
+      "organization": "株式会社ドトールコーヒー",
+      "decision": "updated",
+      "source_urls": [
+        "https://www.doutor.co.jp/news/newsrelease/detail/20261106100836.html"
+      ],
+      "reason": "11月2日以降の続報を既存IDへ統合し、公表日を維持。",
+      "incident_ids": [
+        "doutor-employees-20261026"
+      ]
+    },
+    {
+      "organization": "株式会社ベーシック",
+      "decision": "updated",
+      "source_urls": [
+        "https://www.release.tdnet.info/inbs/140120261102562932.pdf"
+      ],
+      "reason": "11月2日以降の続報を既存IDへ統合し、公表日を維持。",
+      "incident_ids": [
+        "basic-ferret-one-20261027"
+      ]
+    },
+    {
+      "organization": "ソースネクスト",
+      "decision": "updated",
+      "source_urls": [
+        "https://www.sourcenext.com/support/i/2026/1105_info/"
+      ],
+      "reason": "11月2日以降の続報を既存IDへ統合し、公表日を維持。",
+      "incident_ids": [
+        "sourcenext-cuenote-20261027"
+      ]
+    },
+    {
+      "organization": "2りんかんイエローハット",
+      "decision": "updated",
+      "source_urls": [
+        "https://2rinkan.jp/annai/20261104/"
+      ],
+      "reason": "11月2日以降の続報を既存IDへ統合し、公表日を維持。",
+      "incident_ids": [
+        "2rinkan-blastmail-20261029"
+      ]
+    },
+    {
+      "organization": "大学コンソーシアム大阪",
+      "decision": "updated",
+      "source_urls": [
+        "https://www.consortium-osaka.gr.jp/storage/LYuXd3zExvdHYpkSc3GobJ6TnQH7U2PCyw1szpdy.pdf?1793856775"
+      ],
+      "reason": "11月2日以降の続報を既存IDへ統合し、公表日を維持。",
+      "incident_ids": [
+        "consortium-osaka-20261028"
+      ]
+    },
+    {
+      "organization": "モイ",
+      "decision": "updated",
+      "source_urls": [
+        "https://www.release.tdnet.info/inbs/140120261105565350.pdf"
+      ],
+      "reason": "11月2日以降の続報を既存IDへ統合し、公表日を維持。",
+      "incident_ids": [
+        "moi-twitcasting-20261028"
+      ]
+    },
+    {
+      "organization": "クラブネッツ",
+      "decision": "updated",
+      "source_urls": [
+        "https://www.clubnets.jp/infos/id/222"
+      ],
+      "reason": "11月2日以降の続報を既存IDへ統合し、公表日を維持。",
+      "incident_ids": [
+        "clubnets-cnpoint-20261029"
+      ]
+    },
+    {
+      "organization": "NTTスマイルエナジー",
+      "decision": "updated",
+      "source_urls": [
+        "https://nttse.com/news/pressrelease/2026/11-06/3292/"
+      ],
+      "reason": "11月2日以降の続報を既存IDへ統合し、公表日を維持。",
+      "incident_ids": [
+        "ntt-smile-ecomegane-20261029"
+      ]
+    },
+    {
+      "organization": "e-CHANNEL（ほいくis）",
+      "decision": "updated",
+      "source_urls": [
+        "https://hoiku-is.jp/notice/detail/3770/"
+      ],
+      "reason": "11月2日以降の続報を既存IDへ統合し、公表日を維持。",
+      "incident_ids": [
+        "echannel-hoikuis-arara-20261029"
+      ]
+    },
+    {
+      "organization": "アララ（ペイクラウドホールディングス）",
+      "decision": "updated",
+      "source_urls": [
+        "https://contents.xj-storage.jp/xcontents/AS71226/e6ace155/ea42/43ba/912f/c114939990f0/140120261102562067.pdf",
+        "https://www.release.tdnet.info/inbs/140120261106568143.pdf",
+        "https://www.release.tdnet.info/inbs/140120261106568259.pdf"
+      ],
+      "reason": "11月2日以降の続報を既存IDへ統合し、公表日を維持。",
+      "incident_ids": [
+        "arara-message-20261028"
+      ]
+    },
+    {
+      "organization": "ソニー銀行",
+      "decision": "updated",
+      "source_urls": [
+        "https://sonybank.jp/info/2026/1030-01.html"
+      ],
+      "reason": "11月2日以降の続報を既存IDへ統合し、公表日を維持。",
+      "incident_ids": [
+        "sonybank-digital-platform-20261030"
+      ]
+    },
+    {
+      "organization": "ヤクルト本社",
+      "decision": "updated",
+      "source_urls": [
+        "https://www.yakult.co.jp/maintenance/news/pdf/20261104.pdf"
+      ],
+      "reason": "11月2日以降の続報を既存IDへ統合し、公表日を維持。",
+      "incident_ids": [
+        "yakult-website-20261026"
+      ]
+    },
+    {
+      "organization": "JERA",
+      "decision": "updated",
+      "source_urls": [
+        "https://www.jera.co.jp/news/notice/20261102_2572",
+        "https://www.jera.co.jp/news/notice/20261107_2574"
+      ],
+      "reason": "11月2日以降の続報を既存IDへ統合し、公表日を維持。",
+      "incident_ids": [
+        "jera-sunday-arara-20261030"
+      ]
+    },
+    {
+      "organization": "サンケイリビング新聞社",
+      "decision": "updated",
+      "source_urls": [
+        "https://oshirase.living.jp/news/20261102.html"
+      ],
+      "reason": "11月2日以降の続報を既存IDへ統合し、公表日を維持。",
+      "incident_ids": [
+        "sankeiliving-cuenote-20261030"
+      ]
+    },
+    {
+      "organization": "良品計画",
+      "decision": "updated",
+      "source_urls": [
+        "https://www.release.tdnet.info/inbs/140120261104564546.pdf"
+      ],
+      "reason": "11月2日以降の続報を既存IDへ統合し、公表日を維持。",
+      "incident_ids": [
+        "ryohin-muji-app-20261030"
+      ]
+    },
+    {
+      "organization": "クラブツーリズム",
+      "decision": "updated",
+      "source_urls": [
+        "https://www.club-tourism.co.jp/jpn/news/2026/1106_1/"
+      ],
+      "reason": "11月2日以降の続報を既存IDへ統合し、公表日を維持。",
+      "incident_ids": [
+        "club-tourism-reservations-20261031"
+      ]
+    },
+    {
+      "organization": "近鉄グループホールディングス",
+      "decision": "updated",
+      "source_urls": [
+        "https://files.microcms-assets.io/assets/b5bb8ced8fa1487390ad071605410061/1aabda4d5acd40d2b20bebd8cca30b1c/20261102hd.pdf"
+      ],
+      "reason": "11月2日以降の続報を既存IDへ統合し、公表日を維持。",
+      "incident_ids": [
+        "kintetsu-bond-platform-20261031"
+      ]
+    },
+    {
+      "organization": "山梨県",
+      "decision": "updated",
+      "source_urls": [
+        "https://www.pref.yamanashi.jp/fujisan/261030.html"
+      ],
+      "reason": "11月2日以降の続報を既存IDへ統合し、公表日を維持。",
+      "incident_ids": [
+        "yamanashi-fuji-japanticket-20261030"
+      ]
+    },
+    {
+      "organization": "SBI証券",
+      "decision": "updated",
+      "source_urls": [
+        "https://www.sbisec.co.jp/ETGate/?OutSide=on&_ControlID=WPLETmgR001Control&_PageID=WPLETmgR001Mdtl30&_ActionID=DefaultAID&_DataStoreID=DSWPLETmgR001Control&getFlg=on&burl=search_home&cat1=home&cat2=info&dir=info&file=home_info261031_bond.html"
+      ],
+      "reason": "11月2日以降の続報を既存IDへ統合し、公表日を維持。",
+      "incident_ids": [
+        "sbi-sec-bond-platform-20261031"
+      ]
+    },
+    {
+      "organization": "三菱UFJモルガン・スタンレー証券",
+      "decision": "updated",
+      "source_urls": [
+        "https://www.sc.mufg.jp/company/news/inform/info20261031.html"
+      ],
+      "reason": "11月2日以降の続報を既存IDへ統合し、公表日を維持。",
+      "incident_ids": [
+        "mufg-ms-bond-platform-20261031"
+      ]
+    },
+    {
+      "organization": "プレステージ・インターナショナル／プレステージ・コアソリューション",
+      "decision": "updated",
+      "source_urls": [
+        "https://www.release.tdnet.info/inbs/140120261106566814.pdf",
+        "https://www.sompo-japan.co.jp/-/media/SJNK/files/news/2026/20261105_1.pdf"
+      ],
+      "reason": "11月2日以降の続報を既存IDへ統合し、公表日を維持。",
+      "incident_ids": [
+        "prestige-pcs-roadservice-20261102"
+      ]
+    },
+    {
+      "organization": "第一興商",
+      "decision": "updated",
+      "source_urls": [
+        "https://www.dkkaraoke.co.jp/news/newsletter/261106_1.html"
+      ],
+      "reason": "11月2日以降の続報を既存IDへ統合し、公表日を維持。",
+      "incident_ids": [
+        "daiichikosho-20261008"
+      ]
+    },
+    {
+      "organization": "株式会社Helpfeel",
+      "decision": "updated",
+      "source_urls": [
+        "https://corp.helpfeel.com/news/news-20261021"
+      ],
+      "reason": "11月2日以降の続報を既存IDへ統合し、公表日を維持。",
+      "incident_ids": [
+        "helpfeel-gyazo-20260916"
+      ]
+    },
+    {
+      "organization": "ビジネステック（足利市斎場予約システム）",
+      "decision": "updated",
+      "source_urls": [
+        "https://www.busitec.co.jp/news/20261105"
+      ],
+      "reason": "11月2日以降の続報を既存IDへ統合し、公表日を維持。",
+      "incident_ids": [
+        "sweep-df09153b5641-20261018"
+      ]
+    },
+    {
+      "organization": "アンドエスティHD",
+      "decision": "updated",
+      "source_urls": [
+        "https://www.andst-hd.co.jp/news/notice/entry-17245/"
+      ],
+      "reason": "11月2日以降の続報を既存IDへ統合し、公表日を維持。",
+      "incident_ids": [
+        "sweep-706aabd2fb0b-20261023"
+      ]
+    },
+    {
+      "organization": "Studio",
+      "decision": "updated",
+      "source_urls": [
+        "https://studio.design/ja/security/notice/2026-10-incident"
+      ],
+      "reason": "11月2日以降の続報を既存IDへ統合し、公表日を維持。",
+      "incident_ids": [
+        "studio-cloud-20261016"
+      ]
+    },
+    {
+      "organization": "アルカディア（SpeeCAN RAIDEN・NET119等）",
+      "decision": "updated",
+      "source_urls": [
+        "https://raiden.site.ktaiwork.jp/archives/4597"
+      ],
+      "reason": "11月2日以降の続報を既存IDへ統合し、公表日を維持。",
+      "incident_ids": [
+        "arcadia-raiden-20261013"
+      ]
+    },
+    {
+      "organization": "日本郵政グループ労働組合",
+      "decision": "updated",
+      "source_urls": [
+        "https://www.jprouso.or.jp/system/servlet/yusei.UserMain?method=show_detail&clause_id=18457"
+      ],
+      "reason": "11月2日以降の続報を既存IDへ統合し、公表日を維持。",
+      "incident_ids": [
+        "jprouso-mail-list-20261026"
+      ]
+    },
+    {
+      "organization": "ラクスライトクラウド（ブラストメール）",
+      "decision": "updated",
+      "source_urls": [
+        "https://info.blastmail.jp/information_20261021.html"
+      ],
+      "reason": "11月2日以降の続報を既存IDへ統合し、公表日を維持。",
+      "incident_ids": [
+        "rakus-blastmail-20261021"
+      ]
+    },
+    {
+      "organization": "セガ フェイブ（ALL.Net・Aime）",
+      "decision": "pending",
+      "source_urls": [
+        "https://www.segafave.co.jp/news/261102_1/"
+      ],
+      "reason": "ALL.Net・Aime関係サーバーへの不正アクセスと11月1日15時からのサービス停止を公式に確認。初期調査で顧客・取引先情報の流出は未確認、決済情報は当該サーバーに保有せず。自然人の対象情報・範囲が具体化するまで保留。",
+      "incident_ids": []
+    },
+    {
+      "organization": "サンステージ（ベルーナノーティス）",
+      "decision": "pending",
+      "source_urls": [
+        "https://www.belluna.co.jp/pdf/20261102sunstage.pdf",
+        "https://www.belluna.co.jp/pdf/20261105sunstage.pdf"
+      ],
+      "reason": "公表索引では申込サイトへの不正アクセスで最大19,853名、11月5日の第2報で最大46,497名の氏名・住所・口座情報等が閲覧・取得の可能性とされる。公式PDFは直接取得・取得ツールとも403で本文未確認のため保留。",
+      "incident_ids": []
+    },
+    {
+      "organization": "エンセイピア（ハンゲ）",
+      "decision": "pending",
+      "source_urls": [
+        "https://ensapia-tokyo.com/news/topics/id=21381/"
+      ],
+      "reason": "ハンゲのサーバーへの不正アクセスと全サービス停止を公式に確認。11月4日の第2報でIDとパスワードの流出痕跡は未確認、6日時点も影響範囲を調査中。個人情報への影響が具体化するまで保留。第1報URLは取得時に404。",
+      "incident_ids": []
+    },
+    {
+      "organization": "ジャックス（ロードサービス委託先）",
+      "decision": "pending",
+      "source_urls": [
+        "https://www.jaccs.co.jp/information/emerge/page_01196.html"
+      ],
+      "reason": "公表索引ではプレステージ・コアソリューション経由でCLUB AJカード等の顧客の個人情報が漏えいしたとされる。公式ページは直接取得・取得ツールとも403で本文未確認のため保留。",
+      "incident_ids": []
+    },
+    {
+      "organization": "インテージ（アンケートシステム）",
+      "decision": "pending",
+      "source_urls": [
+        "https://www.intage.co.jp/news/8967/"
+      ],
+      "reason": "アンケートシステムへの不正アクセスとシステム停止を公式に確認。現時点で個人情報・回答データの漏洩は未確認で、影響範囲を調査中。個人情報への影響が具体化するまで保留。",
+      "incident_ids": []
+    },
+    {
+      "organization": "インヴェンティット（mobiconnect）",
+      "decision": "pending",
+      "source_urls": [
+        "https://www.yourinventit.com/news/20261104/"
+      ],
+      "reason": "mobiconnectへの一連の攻撃で顧客がアップロードした一部ファイルの外部流出を公式に確認。ファイルに含まれる個人情報の有無・対象は本文に記載がなく、外部機関の調査予定。個人情報への影響が具体化するまで保留。ARTPASSのメール配信（アララ）の件は京都市の記録で扱う。",
+      "incident_ids": []
+    },
+    {
+      "organization": "エムオーテックス（京セラコミュニケーションシステム子会社）",
+      "decision": "pending",
+      "source_urls": [
+        "https://www.kccs.co.jp/news/important/2026/1104/"
+      ],
+      "reason": "MOTEXのWebサイトへの11月2日の不正アクセスとサイト停止を公式に確認。顧客情報の外部流出は現時点で未確認で調査中。個人情報への影響が具体化するまで保留。",
+      "incident_ids": []
+    },
+    {
+      "organization": "消防庁（安否情報システム）",
+      "decision": "pending",
+      "source_urls": [
+        "https://www.soumu.go.jp/main_content/001099907.pdf"
+      ],
+      "reason": "運用保守委託先の富士ソフトから安否情報システムへの第三者による不正アクセスの報告を受けたと公式に確認。現時点で個人情報の漏えいは未確認、サービスを停止し調査中。個人情報への影響が具体化するまで保留。",
+      "incident_ids": []
+    },
+    {
+      "organization": "東洋大学（アカウント不正アクセス）",
+      "decision": "pending",
+      "source_urls": [
+        "https://www.toyo.ac.jp/news/20261105-20479.html"
+      ],
+      "reason": "本学関係者の一部アカウントへの不正アクセスと、文部科学省・個人情報保護委員会への報告を公式に確認。影響範囲・対象情報は調査中で未公表のため保留。",
+      "incident_ids": []
+    },
+    {
+      "organization": "駿河屋（アフィリエイトシステム）",
+      "decision": "pending",
+      "source_urls": [
+        "https://www.suruga-ya.co.jp/ja/node/2544"
+      ],
+      "reason": "公表索引ではアフィリエイト登録者約5,500名の登録情報の書き換えと口座情報を含む登録情報の流出可能性とされる。公式ページは直接取得・取得ツールとも403（ボット対策）で本文未確認のため保留。",
+      "incident_ids": []
+    },
+    {
+      "organization": "森永乳業（関係会社ウェブサイト）",
+      "decision": "pending",
+      "source_urls": [
+        "https://www.morinagamilk.co.jp/assets/release/%E5%BD%93%E7%A4%BE%E9%96%A2%E4%BF%82%E4%BC%9A%E7%A4%BE%E3%81%AB%E3%81%8A%E3%81%91%E3%82%8B%E4%B8%8D%E6%AD%A3%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E7%99%BA%E7%94%9F%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B_1.pdf"
+      ],
+      "reason": "関係会社ウェブサイトへの11月4日の不正アクセスと同一サーバーの17社18サイトの一時閉鎖を公式に確認。個人情報の漏えいは現時点で未確認。影響が具体化するまで保留。",
+      "incident_ids": []
+    },
+    {
+      "organization": "ポルシェジャパン／ポルシェファイナンシャルサービスジャパン",
+      "decision": "pending",
+      "source_urls": [
+        "https://www.porsche.com/japan/jp/legal/notice/"
+      ],
+      "reason": "公表索引ではプレステージ・コアソリューションで顧客情報の一部が持ち出された可能性、範囲・人数は確認中とされる。公式ページは直接取得で403のため本文未確認、保留。",
+      "incident_ids": []
+    },
+    {
+      "organization": "ベルーナ（債権回収委託先のメール配信）",
+      "decision": "pending",
+      "source_urls": [
+        "https://www.belluna.co.jp/pdf/20261106cc.pdf"
+      ],
+      "reason": "公表索引では債権回収委託先の弁護士法人Martial Artsが使うメール配信システムからメールアドレスのみ1,519件、氏名・債権残高等を含む106件が流出とされる。公式PDFは403で本文未確認のため保留。",
+      "incident_ids": []
+    },
+    {
+      "organization": "日本学術振興会（電子申請システム）",
+      "decision": "pending",
+      "source_urls": [
+        "https://www.jsps.go.jp/j-news/2026/shinsei/index.html"
+      ],
+      "reason": "10月29日の電子申請システムへの不正アクセスとシステム停止を公式に確認。個人情報が保存されていない外部公開領域での発生で、現時点で個人情報の漏えいは未確認。影響が具体化するまで保留。",
+      "incident_ids": []
+    },
+    {
+      "organization": "朝日放送テレビ（ふるラボ）",
+      "decision": "pending",
+      "source_urls": [
+        "https://corp.asahi.co.jp/Portals/0/data/pdf/news/NR20261102TV_fururabo.pdf",
+        "https://www.city.kanoya.lg.jp/furusatonouzei/fururabo.html"
+      ],
+      "reason": "公表索引では不正に入手されたメールアドレスとパスワードによる不正ログインで会員8名の氏名・住所・カード情報の一部等が閲覧可能だったとされる。公式PDFは直接取得・取得ツールとも不可で本文未確認のため保留。",
+      "incident_ids": []
+    },
+    {
+      "organization": "KDDI（au自転車サポート）",
+      "decision": "pending",
+      "source_urls": [
+        "https://k-tai.watch.impress.co.jp/docs/news/2154147.html",
+        "https://www.nikkei.com/article/DGXZQOUC059NA0V01C26A1000000/"
+      ],
+      "reason": "報道ではロードサービス委託先プレステージ・コアソリューションへの不正アクセスで利用者の氏名・住所・電話番号・メールアドレス等が漏えいした可能性、対象件数は調査中とされる。KDDIの公式告知本文を特定できず保留。",
+      "incident_ids": []
+    },
+    {
+      "organization": "さとふる",
+      "decision": "pending",
+      "source_urls": [
+        "https://www.satofull.jp/static/information/images/20261027/satofull_20261027.pdf",
+        "https://www.satofull.jp/static/information/images/20261102/satofull_20261102.pdf"
+      ],
+      "reason": "公表索引に11月2日付の第2報PDFの記録があるが、公式PDFは直接取得・取得ツールとも応答なし。件数を公式本文で確認できず継続。",
+      "incident_ids": []
+    },
+    {
+      "organization": "テレビ東京ダイレクト（テレ東マート）",
+      "decision": "pending",
+      "source_urls": [
+        "https://www.tv-tokyo.co.jp/kaisha/pdf/20261102.pdf",
+        "https://tx-direct.co.jp/pdf/20261102.pdf",
+        "https://www.tv-tokyo.co.jp/kaisha/pdf/20261106.pdf"
+      ],
+      "reason": "11月6日の第2報で委託先の調査が完了し、個人情報・カード情報の外部漏えいと不正ログインは確認されなかったと公表。漏えい対象が具体化しないため掲載しない判断を継続。",
+      "incident_ids": []
+    },
+    {
+      "organization": "セカンドリテイリング",
+      "decision": "excluded",
+      "source_urls": [
+        "https://2nd-rtl.com/news/82189/"
+      ],
+      "reason": "10月15日の社内システムへの不正アクセスについて、個人情報・機密情報の外部漏洩は確認されていないと明記。サービス再開状況の更新のみ。",
+      "incident_ids": []
+    },
+    {
+      "organization": "明治学院大学（心理学部サイト）",
+      "decision": "excluded",
+      "source_urls": [
+        "https://www.meijigakuin.ac.jp/news/10265.html"
+      ],
+      "reason": "サイト改ざんで閲覧者に偽画面等が表示された可能性。個人情報の流出は確認されていないと明記され、保有個人情報の漏えい事案ではない。",
+      "incident_ids": []
+    },
+    {
+      "organization": "SHIPS CYCLE MARKET（外部アプリ開発元）",
+      "decision": "excluded",
+      "source_urls": [
+        "https://ships-cycle-market.jp/blogs/news/swym-security-notice-20261104"
+      ],
+      "reason": "外部アプリの不正プログラム読み込みの可能性の告知で、当店での不正活動の証拠は見つかっていないと説明。個人情報への影響は示されていない。",
+      "incident_ids": []
+    },
+    {
+      "organization": "IDCフロンティア・ソニックムーブ・ワサビ",
+      "decision": "excluded",
+      "source_urls": [
+        "https://www.idcf.jp/news/topics/20261027001",
+        "https://sonicmoov.com/news/xr5qdn-cnfsn",
+        "https://wasabi-inc.biz/help/news/20261106-01/"
+      ],
+      "reason": "既存記録の時点から個人情報に関する新しい事実がなく、続報として追加しなかった（ワサビは連携再開・トークン再取得の案内）。",
+      "incident_ids": [
+        "idcf-portal-20261014",
+        "sonicmoov-comsbi-20261026",
+        "wasabi-switch-20261016"
+      ]
+    }
+  ],
+  "retrieval_checks": [
+    {
+      "url": "https://www.satofull.jp/static/information/images/20261102/satofull_20261102.pdf",
+      "status": "unavailable",
+      "final_url": null
+    },
+    {
+      "url": "https://www.belluna.co.jp/pdf/20261102sunstage.pdf",
+      "status": "unavailable",
+      "final_url": null
+    },
+    {
+      "url": "https://www.belluna.co.jp/pdf/20261105sunstage.pdf",
+      "status": "unavailable",
+      "final_url": null
+    },
+    {
+      "url": "https://www.belluna.co.jp/pdf/20261106cc.pdf",
+      "status": "unavailable",
+      "final_url": null
+    },
+    {
+      "url": "https://www.jaccs.co.jp/information/emerge/page_01196.html",
+      "status": "unavailable",
+      "final_url": null
+    },
+    {
+      "url": "https://www.porsche.com/japan/jp/legal/notice/",
+      "status": "unavailable",
+      "final_url": null
+    },
+    {
+      "url": "https://www.suruga-ya.co.jp/ja/node/2544",
+      "status": "unavailable",
+      "final_url": null
+    },
+    {
+      "url": "https://corp.asahi.co.jp/Portals/0/data/pdf/news/NR20261102TV_fururabo.pdf",
+      "status": "unavailable",
+      "final_url": null
+    },
+    {
+      "url": "https://www.biccamera.com/bc/c/info/report/sorry_20261102.jsp",
+      "status": "unavailable",
+      "final_url": null
+    },
+    {
+      "url": "https://www.ryohin-keikaku.jp/news/articles/2026_1106_01",
+      "status": "unavailable",
+      "final_url": null
+    },
+    {
+      "url": "https://www.aichibank.co.jp/important_infomation/details/261105_02.html",
+      "status": "unavailable",
+      "final_url": null
+    },
+    {
+      "url": "https://city.kameyama.mie.jp/docs/2026110400033",
+      "status": "unavailable",
+      "final_url": null
+    },
+    {
+      "url": "https://finnovalley.jp/Uf6HSANO/20261104_01",
+      "status": "unavailable",
+      "final_url": null
+    },
+    {
+      "url": "https://www.euglena.jp/news/20261105-1/",
+      "status": "retrieved",
+      "final_url": "https://www.euglena.jp/news/20261105-1/"
+    },
+    {
+      "url": "https://www.city.toyohashi.lg.jp/40680.htm",
+      "status": "retrieved",
+      "final_url": "https://www.city.toyohashi.lg.jp/40680.htm"
+    },
+    {
+      "url": "https://hibiya.co.jp/news/post20261028-1/",
+      "status": "retrieved",
+      "final_url": "https://hibiya.co.jp/news/post20261028-1/"
+    },
+    {
+      "url": "https://www.wills.co.jp/corp/news/1895/",
+      "status": "retrieved",
+      "final_url": "https://www.wills.co.jp/corp/news/1895/"
+    }
+  ],
+  "report": "docs/research-2026-11-08-nov02-08-update.md",
+  "audit": "data/research-2026-11-08-nov02-08-update.json"
+}

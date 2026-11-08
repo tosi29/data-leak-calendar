@@ -11,7 +11,7 @@
   "publication_kind": "initial",
   "occurred_on": null,
   "detected_on": "2026-10-23",
-  "updated_on": "2026-10-27",
+  "updated_on": "2026-11-05",
   "verification": "official",
   "leak_status": "confirmed",
   "incident_type": "attack",
@@ -29,7 +29,8 @@
     }
   ],
   "data_types": [
-    "メールアドレス"
+    "メールアドレス",
+    "氏名（2023年5月以前の登録者）"
   ],
   "related_vendor": "ラクスライトクラウド",
   "sources": [
@@ -39,9 +40,22 @@
       "title": "ニュースレター登録者全員のメールアドレスが漏えい",
       "published_on": "2026-10-23",
       "checked_on": "2026-10-27"
+    },
+    {
+      "url": "https://artnewsjapan.com/article/90648",
+      "type": "official",
+      "title": "【11月5日更新】メールマガジン登録者のメールアドレス漏えいに関するお詫びとお知らせ",
+      "published_on": "2026-11-05",
+      "checked_on": "2026-11-08"
     }
   ],
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-11-05",
+      "summary": "ブラストメールの最新報告で、2023年5月以前の登録者は氏名も漏えいしていたと判明。",
+      "source_index": 1
+    }
+  ],
   "notes": "",
   "vendors": [
     {

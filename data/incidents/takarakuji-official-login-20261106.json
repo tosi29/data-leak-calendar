@@ -1,0 +1,46 @@
+{
+  "id": "takarakuji-official-login-20261106",
+  "organization": {
+    "name": "全国都道府県及び全指定都市（宝くじ公式サイト）",
+    "sector": "自治体"
+  },
+  "title": "宝くじ公式サイト・アプリへの不正ログインでパスワード変更と会員情報閲覧の可能性",
+  "summary": "宝くじ公式サイト・アプリへの不正ログインでパスワード変更と会員情報閲覧の可能性。",
+  "published_on": "2026-11-06",
+  "first_published_on": "2026-11-06",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-06",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "credentials",
+    "certainty": "suspected",
+    "detail": "外部で入手されたメールアドレスとパスワードの一覧を用いた不正ログインの可能性。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "対象会員数は未公表。"
+    }
+  ],
+  "data_types": [
+    "会員情報"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://sorry.takarakuji-official.jp/Sorry-PlannedMaintenance.html",
+      "type": "official",
+      "title": "宝くじ公式サイトおよび公式アプリの一時停止について",
+      "published_on": "2026-11-06",
+      "checked_on": "2026-11-08"
+    }
+  ],
+  "updates": [],
+  "notes": "一部の会員で意図しないパスワード変更と会員情報の閲覧の可能性を確認。サーバー・データベースへの侵入の形跡や会員データの流出は未確認。サイトとアプリを停止中で、売場販売は継続。"
+}

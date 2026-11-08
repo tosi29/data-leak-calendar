@@ -1,0 +1,47 @@
+{
+  "id": "toyama-shoene-arara-20261105",
+  "organization": {
+    "name": "富山県",
+    "sector": "自治体"
+  },
+  "title": "省エネ家電キャンペーンで使ったアララメッセージへの不正アクセスで利用者247件の氏名・メールアドレスに漏えいのおそれ",
+  "summary": "省エネ家電キャンペーンで使ったアララメッセージへの不正アクセスで利用者247件の氏名・メールアドレスに漏えいのおそれ。",
+  "published_on": "2026-11-05",
+  "first_published_on": "2026-11-05",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-05",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "アララ株式会社のメール配信サービス「アララメッセージ」への第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 247,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "9月28日に事務局からメールを送信した利用者。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "メールアドレス"
+  ],
+  "related_vendor": "JTB／アララ株式会社",
+  "sources": [
+    {
+      "url": "https://www.pref.toyama.jp/1705/kensei/kouhou/houdou/2026/1030_shoene.html",
+      "type": "official",
+      "title": "とやま省エネ家電購入応援キャンペーン第4弾で利用したメール配信サービスへの不正アクセスに伴う情報漏えいのおそれについて",
+      "published_on": "2026-11-05",
+      "checked_on": "2026-11-08"
+    }
+  ],
+  "updates": [],
+  "notes": "キャンペーン事務局はJTB富山支店に委託。漏えいの事実は調査中。"
+}

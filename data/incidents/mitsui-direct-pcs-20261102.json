@@ -1,0 +1,44 @@
+{
+  "id": "mitsui-direct-pcs-20261102",
+  "organization": {
+    "name": "三井ダイレクト損害保険",
+    "sector": "企業・団体"
+  },
+  "title": "ロードサービス委託先プレステージ・コアソリューションへの不正アクセスで顧客情報に漏えいのおそれ",
+  "summary": "ロードサービス委託先プレステージ・コアソリューションへの不正アクセスで顧客情報に漏えいのおそれ。",
+  "published_on": "2026-11-02",
+  "first_published_on": "2026-11-02",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-02",
+  "verification": "official",
+  "leak_status": "investigating",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "ロードサービス業務の委託先プレステージ・コアソリューションの業務システムへの第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "漏えいの有無・対象は調査中。"
+    }
+  ],
+  "data_types": [],
+  "related_vendor": "プレステージ・コアソリューション",
+  "sources": [
+    {
+      "url": "https://www.mitsui-direct.co.jp/information/20261102.html",
+      "type": "official",
+      "title": "業務委託先における不正アクセス被害に伴う情報漏えいのおそれについて",
+      "published_on": "2026-11-02",
+      "checked_on": "2026-11-08"
+    }
+  ],
+  "updates": [],
+  "notes": "11月4日に検知した自社Webサイトへの不正アクセス（約23.4万件）とは別の事案。"
+}

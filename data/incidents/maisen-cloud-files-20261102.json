@@ -1,0 +1,47 @@
+{
+  "id": "maisen-cloud-files-20261102",
+  "organization": {
+    "name": "井筒まい泉",
+    "sector": "企業・団体"
+  },
+  "title": "外部クラウドから宅配顧客・配送従業員96名の氏名・お届け先位置情報が漏えい",
+  "summary": "外部クラウドから宅配顧客・配送従業員96名の氏名・お届け先位置情報が漏えい。",
+  "published_on": "2026-11-02",
+  "first_published_on": "2026-11-02",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-10-28",
+  "updated_on": "2026-11-02",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "利用する外部クラウドサービスへの第三者による不正アクセスとファイルのダウンロード。"
+  },
+  "impact": [
+    {
+      "count": 96,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "宅配を注文した顧客と配送した従業員（11月1日時点）。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "お届け先の位置情報"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://mai-sen.com/news/other/post-3030/",
+      "type": "official",
+      "title": "外部クラウドサービスへの不正アクセスによる個人情報漏えいに関するお詫び",
+      "published_on": "2026-11-02",
+      "checked_on": "2026-11-08"
+    }
+  ],
+  "updates": [],
+  "notes": "親会社サントリーグループの同日公表の「まい泉96名」区分と同一対象。サントリーの記録と件数を合算しない。決済情報は含まれない。9月の別事案とは区別。"
+}

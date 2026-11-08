@@ -1,0 +1,60 @@
+{
+  "id": "tribeck-arara-20261102",
+  "organization": {
+    "name": "トライベック",
+    "sector": "企業・団体"
+  },
+  "title": "メール配信に使うアララへの不正アクセスで顧客の配信ログ61,213件が漏えい",
+  "summary": "メール配信に使うアララへの不正アクセスで顧客の配信ログ61,213件が漏えい。",
+  "published_on": "2026-11-02",
+  "first_published_on": "2026-11-02",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-04",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "アララ株式会社のメール配信サービスへの第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 61213,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "重複・テストメールを含む配信ログ件数。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス",
+    "差し込み文字列（氏名など）"
+  ],
+  "related_vendor": "アララ株式会社",
+  "sources": [
+    {
+      "url": "https://www.tribeck.jp/newsrelease/2026/20261102.html",
+      "type": "official",
+      "title": "アララ株式会社への不正アクセスに関するお知らせ",
+      "published_on": "2026-11-02",
+      "checked_on": "2026-11-08"
+    },
+    {
+      "url": "https://www.tribeck.jp/newsrelease/2026/20261104.html",
+      "type": "official",
+      "title": "アララ株式会社への不正アクセスによる個人情報漏えいに関するお詫びとお知らせについて",
+      "published_on": "2026-11-04",
+      "checked_on": "2026-11-08"
+    }
+  ],
+  "updates": [
+    {
+      "date": "2026-11-04",
+      "summary": "顧客情報の一部漏えいを確認。61,213件（重複・テストメール含む）、メールアドレスと差し込み文字列。",
+      "source_index": 1
+    }
+  ],
+  "notes": "bizoceanのサイト・会員情報は対象外。利用企業（コスモエネルギーHD等）の公表とは別記録。11月2日の告知本文は未確認。"
+}

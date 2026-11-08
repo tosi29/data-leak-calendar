@@ -1,0 +1,47 @@
+{
+  "id": "erismedia-arara-20261102",
+  "organization": {
+    "name": "音楽雑誌「ERIS」編集部",
+    "sector": "企業・団体"
+  },
+  "title": "メールマガジン配信に使うアララへの不正アクセスで読者のメールアドレス・登録名に流出の懸念",
+  "summary": "メールマガジン配信に使うアララへの不正アクセスで読者のメールアドレス・登録名に流出の懸念。",
+  "published_on": "2026-11-02",
+  "first_published_on": "2026-11-02",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-02",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "アララ株式会社のメール配信サービスへの第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "件数は未公表。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス",
+    "登録名"
+  ],
+  "related_vendor": "アララ株式会社",
+  "sources": [
+    {
+      "url": "https://erismedia.jp/%E3%80%90%E9%87%8D%E8%A6%81%E3%80%91%E3%83%A1%E3%83%BC%E3%83%AB%E3%83%9E%E3%82%AC%E3%82%B8%E3%83%B3%E9%85%8D%E4%BF%A1%E5%A7%94%E8%A8%97%E5%85%88%E3%81%B8%E3%81%AE%E4%B8%8D%E6%AD%A3%E3%82%A2%E3%82%AF-2/",
+      "type": "official",
+      "title": "【重要】メールマガジン配信委託先への不正アクセスに関するお詫びと注意喚起",
+      "published_on": "2026-11-02",
+      "checked_on": "2026-11-08"
+    }
+  ],
+  "updates": [],
+  "notes": "公表日は公表索引の記録。住所・電話番号・カード番号・パスワードは保有していない。"
+}

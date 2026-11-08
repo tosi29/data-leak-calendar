@@ -1,0 +1,59 @@
+{
+  "id": "yokohama-eshinsei-arara-20261103",
+  "organization": {
+    "name": "横浜市",
+    "sector": "自治体"
+  },
+  "title": "電子申請・届出システムのメール送信サービスへの不正アクセスで利用者のメールアドレスに漏えいの可能性",
+  "summary": "電子申請・届出システムのメール送信サービスへの不正アクセスで利用者のメールアドレスに漏えいの可能性。",
+  "published_on": "2026-11-03",
+  "first_published_on": "2026-11-03",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-11-01",
+  "updated_on": "2026-11-06",
+  "verification": "official",
+  "leak_status": "investigating",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "委託先TKCが利用するアララ株式会社のメール送信サービスへの第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 820000,
+      "unit": "accounts",
+      "qualifier": "approximate",
+      "description": "システムの利用者登録数（母数）。漏えい件数ではない。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "TKC／アララ株式会社",
+  "sources": [
+    {
+      "url": "https://www.city.yokohama.lg.jp/city-info/koho-kocho/press/somu/2026/1103denshishinsei.files/0001_20261103.pdf",
+      "type": "official",
+      "title": "横浜市電子申請・届出システムが使用するメール送信サービスにおける個人情報の漏えいの可能性について",
+      "published_on": "2026-11-03",
+      "checked_on": "2026-11-08"
+    },
+    {
+      "url": "https://www.city.yokohama.lg.jp/city-info/gyosei-kansa/yokohamadx/notice/notice20261106.html",
+      "type": "official",
+      "title": "電子申請・届出システムのメール送信サービスへの不正アクセスに伴う注意喚起",
+      "published_on": "2026-11-06",
+      "checked_on": "2026-11-08"
+    }
+  ],
+  "updates": [
+    {
+      "date": "2026-11-06",
+      "summary": "漏えいの可能性がある情報は利用者のメールアドレスのみと事業者から報告。市の利用者への影響の有無・対象は確認中。",
+      "source_index": 1
+    }
+  ],
+  "notes": "11月3日は利用者メールアドレス・利用者名などとしていた。約82万件はアカウント数で漏えい件数として集計しない。"
+}

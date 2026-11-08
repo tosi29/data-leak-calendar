@@ -1,0 +1,46 @@
+{
+  "id": "fukui-np-passport-repica-20261102",
+  "organization": {
+    "name": "福井新聞社（福井新聞パスポート）",
+    "sector": "企業・団体"
+  },
+  "title": "repicaへの不正アクセスでウェブ会員のメールアドレス11,084件が漏えい",
+  "summary": "repicaへの不正アクセスでウェブ会員のメールアドレス11,084件が漏えい。",
+  "published_on": "2026-11-02",
+  "first_published_on": "2026-11-02",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-11-02",
+  "updated_on": "2026-11-02",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "アララ株式会社のメール配信サービス「repica」への第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 11084,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "福井新聞パスポートの一部会員のメールアドレス。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "アララ株式会社",
+  "sources": [
+    {
+      "url": "https://www.fukuishimbun.co.jp/articles/-/2737551",
+      "type": "official",
+      "title": "【おわびとお知らせ】福井新聞パスポート会員の個人情報漏えいについて【第2報】",
+      "published_on": "2026-11-02",
+      "checked_on": "2026-11-08"
+    }
+  ],
+  "updates": [],
+  "notes": "氏名・住所・生年月日・カード情報・電話番号・口座番号・パスワード等は含まれない。11月5日に対象者へ連絡。"
+}

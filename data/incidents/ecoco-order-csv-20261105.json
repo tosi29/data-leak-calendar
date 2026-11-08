@@ -1,0 +1,64 @@
+{
+  "id": "ecoco-order-csv-20261105",
+  "organization": {
+    "name": "ecoco",
+    "sector": "企業・団体"
+  },
+  "title": "受注・出荷管理アカウントへの不正ログインで注文・発送情報がダウンロード",
+  "summary": "受注・出荷管理アカウントへの不正ログインで注文・発送情報がダウンロード。",
+  "published_on": "2026-11-05",
+  "first_published_on": "2026-11-05",
+  "publication_kind": "initial",
+  "occurred_on": "2026-11-02",
+  "detected_on": null,
+  "updated_on": "2026-11-06",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "credentials",
+    "certainty": "suspected",
+    "detail": "受注・出荷管理業務に利用するアカウントへの第三者の不正ログイン。経緯は調査中。"
+  },
+  "impact": [
+    {
+      "count": 8532,
+      "unit": "people",
+      "qualifier": "approximate",
+      "description": "11月6日時点の暫定集計による対象者候補。確定人数ではない。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "電話番号",
+    "メールアドレス",
+    "注文情報",
+    "発送情報"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://ecoco.cloud/blogs/important/1",
+      "type": "official",
+      "title": "【重要・第1報】お客様の個人情報漏洩に関するお詫びとお知らせ",
+      "published_on": "2026-11-05",
+      "checked_on": "2026-11-08"
+    },
+    {
+      "url": "https://ecoco.cloud/blogs/important/2",
+      "type": "official",
+      "title": "【重要・第2報】お客様の個人情報漏洩に関する調査状況のご報告とお詫び",
+      "published_on": "2026-11-06",
+      "checked_on": "2026-11-08"
+    }
+  ],
+  "updates": [
+    {
+      "date": "2026-11-06",
+      "summary": "第2報。9月2日～11月2日の公式ショップ・楽天市場店・TikTok Shop等の注文・発送情報がダウンロードされていた。暫定の対象者候補は8,532件。",
+      "source_index": 1
+    }
+  ],
+  "notes": "カード情報は含まれない。"
+}

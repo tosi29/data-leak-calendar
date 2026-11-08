@@ -1,0 +1,53 @@
+{
+  "id": "soumu-ict-japan-arara-20261104",
+  "organization": {
+    "name": "総務省",
+    "sector": "行政"
+  },
+  "title": "英文ニューズレター配信請負先アララへの不正アクセスで登録者のメールアドレス775件等が流出",
+  "summary": "英文ニューズレター配信請負先アララへの不正アクセスで登録者のメールアドレス775件等が流出。",
+  "published_on": "2026-11-04",
+  "first_published_on": "2026-11-04",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-04",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "vulnerability",
+    "certainty": "confirmed",
+    "detail": "請負先アララのWebサーバーの脆弱性を第三者に悪用されたこと等が原因とされる。"
+  },
+  "impact": [
+    {
+      "count": 775,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "ICT × Japan登録者のメールアドレス。"
+    },
+    {
+      "count": 21,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "上記のうち登録時に記入した氏名。内数。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス",
+    "氏名（21件）"
+  ],
+  "related_vendor": "アララ株式会社",
+  "sources": [
+    {
+      "url": "https://www.soumu.go.jp/menu_news/s-news/01tsushin06_02000364.html",
+      "type": "official",
+      "title": "英文ニューズレター配信業務請負先におけるメールアドレス等の情報流出",
+      "published_on": "2026-11-04",
+      "checked_on": "2026-11-08"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

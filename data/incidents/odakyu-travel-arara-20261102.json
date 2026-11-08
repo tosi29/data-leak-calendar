@@ -1,0 +1,59 @@
+{
+  "id": "odakyu-travel-arara-20261102",
+  "organization": {
+    "name": "小田急トラベル",
+    "sector": "企業・団体"
+  },
+  "title": "アララのメール配信サービスから会員のメールアドレス63,006件が流出",
+  "summary": "アララのメール配信サービスから会員のメールアドレス63,006件が流出。",
+  "published_on": "2026-11-02",
+  "first_published_on": "2026-11-02",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-11-02",
+  "updated_on": "2026-11-06",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "アララ株式会社のメール配信サービスへの第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 63006,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "10月10～30日にメールを配信した会員のメールアドレス。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "アララ株式会社",
+  "sources": [
+    {
+      "url": "https://www.odakyu-travel.co.jp/web/info_20261102.html",
+      "type": "official",
+      "title": "アララ株式会社で発生した不正アクセスに伴うメールアドレスの漏えいについて（第1報）",
+      "published_on": "2026-11-02",
+      "checked_on": "2026-11-08"
+    },
+    {
+      "url": "https://www.odakyu-travel.co.jp/web/info_20261106.html",
+      "type": "official",
+      "title": "アララ株式会社で発生した不正アクセスに伴うメールアドレスの漏えいについて（第2報）",
+      "published_on": "2026-11-06",
+      "checked_on": "2026-11-08"
+    }
+  ],
+  "updates": [
+    {
+      "date": "2026-11-06",
+      "summary": "対象のメール配信期間を10月8～29日から10月10～30日に訂正。件数63,006件とメールアドレスのみである点は変更なし。",
+      "source_index": 1
+    }
+  ],
+  "notes": "外部マーケティングツールからアララのサービスを経由して配信。メールアドレス以外は対象外との報告。"
+}

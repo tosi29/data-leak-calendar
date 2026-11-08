@@ -1,0 +1,51 @@
+{
+  "id": "jnsa-check-service-20261106",
+  "organization": {
+    "name": "日本ネットワークセキュリティ協会（情報セキュリティ理解度チェック）",
+    "sector": "企業・団体"
+  },
+  "title": "理解度チェックサービスへの不正アクセスで管理者・利用者の情報最大15,128件に漏えいの恐れ",
+  "summary": "理解度チェックサービスへの不正アクセスで管理者・利用者の情報最大15,128件に漏えいの恐れ。",
+  "published_on": "2026-11-06",
+  "first_published_on": "2026-11-06",
+  "publication_kind": "initial",
+  "occurred_on": "2026-10-30",
+  "detected_on": "2026-11-04",
+  "updated_on": "2026-11-06",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "情報セキュリティ理解度チェックサービスへの第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 15128,
+      "unit": "records",
+      "qualifier": "maximum",
+      "description": "管理者登録者と利用ユーザーの見込み件数。"
+    }
+  ],
+  "data_types": [
+    "管理者氏名",
+    "企業名",
+    "メールアドレス",
+    "組織所在地",
+    "利用者ID",
+    "パスワードのハッシュ値"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.jnsa.org/dl/annual/20261106.pdf",
+      "type": "official",
+      "title": "不正アクセスによる「情報セキュリティ理解度チェックサービス」からの利用者個人情報漏えいの恐れに関するお知らせ（第一報）",
+      "published_on": "2026-11-06",
+      "checked_on": "2026-11-08"
+    }
+  ],
+  "updates": [],
+  "notes": "対象サービスを停止し外部専門事業者と調査。件数・範囲は変動の可能性。"
+}

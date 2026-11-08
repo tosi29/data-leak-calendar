@@ -1,0 +1,59 @@
+{
+  "id": "ryugin-repica-20261102",
+  "organization": {
+    "name": "琉球銀行",
+    "sector": "企業・団体"
+  },
+  "title": "repicaから配信先メールアドレス96,477件が流出",
+  "summary": "repicaから配信先メールアドレス96,477件が流出。",
+  "published_on": "2026-11-02",
+  "first_published_on": "2026-11-02",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-11-02",
+  "updated_on": "2026-11-04",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "アララ株式会社のメール配信サービス「repica」への第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 96477,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "10月8～29日に配信したメールの宛先メールアドレス。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "アララ株式会社",
+  "sources": [
+    {
+      "url": "https://www.ryugin.co.jp/corporate/news/100729/",
+      "type": "official",
+      "title": "当行委託先提供のメール配信サービスへの不正アクセスによるお客さまメールアドレス流出について",
+      "published_on": "2026-11-02",
+      "checked_on": "2026-11-08"
+    },
+    {
+      "url": "https://www.ryugin.co.jp/corporate/news/100767/",
+      "type": "official",
+      "title": "当行委託先提供のメール配信サービスへの不正アクセスによるお客さまメールアドレス流出について（第2報）",
+      "published_on": "2026-11-04",
+      "checked_on": "2026-11-08"
+    }
+  ],
+  "updates": [
+    {
+      "date": "2026-11-04",
+      "summary": "第2報。提供元がアララのrepicaと明記し、流出件数を96,477件と公表。氏名・住所・口座情報・暗証番号等の流出は未確認。",
+      "source_index": 1
+    }
+  ],
+  "notes": "銀行システムへの不正アクセスではないと説明。"
+}

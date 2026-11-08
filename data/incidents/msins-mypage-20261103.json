@@ -1,0 +1,63 @@
+{
+  "id": "msins-mypage-20261103",
+  "organization": {
+    "name": "三井住友海上火災保険",
+    "sector": "企業・団体"
+  },
+  "title": "ご契約者さま専用ページへの不正アクセスで顧客情報約3.7万件が漏えい",
+  "summary": "ご契約者さま専用ページへの不正アクセスで顧客情報約3.7万件が漏えい。",
+  "published_on": "2026-11-03",
+  "first_published_on": "2026-11-03",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-11-02",
+  "updated_on": "2026-11-06",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "ご契約者さま専用ページへの第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 37000,
+      "unit": "records",
+      "qualifier": "approximate",
+      "description": "専用ページ登録顧客の漏えい件数（11月6日9時時点）。"
+    }
+  ],
+  "data_types": [
+    "保険証券番号",
+    "氏名",
+    "住所",
+    "電話番号",
+    "メールアドレス"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.ms-ins.com/information/2026/information_1103_1.pdf",
+      "type": "official",
+      "title": "不正アクセス検知に伴う一部サービスの一時停止について【更新】",
+      "published_on": "2026-11-03",
+      "checked_on": "2026-11-08"
+    },
+    {
+      "url": "https://www.ms-ins.com/news/fy2026/pdf/1106_1.pdf",
+      "type": "official",
+      "title": "当社システムへの不正アクセスに伴う情報漏えいについて",
+      "published_on": "2026-11-06",
+      "checked_on": "2026-11-08"
+    }
+  ],
+  "updates": [
+    {
+      "date": "2026-11-06",
+      "summary": "影響調査で情報漏えいを確認。約3.7万件、保険証券番号・氏名・住所・電話番号・メールアドレス等。カード情報・口座情報は含まれない。",
+      "source_index": 1
+    }
+  ],
+  "notes": "11月2日夜に検知し3日深夜に関連サービスを停止。7日時点も専用ページ等を停止中。5月の新件契約関連の別事案とは区別。あいおいニッセイ同和損保の同種事案とは別記録。"
+}

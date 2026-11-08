@@ -1,0 +1,49 @@
+{
+  "id": "mos-web-repica-20261104",
+  "organization": {
+    "name": "モスフードサービス（モスWEB会員）",
+    "sector": "企業・団体"
+  },
+  "title": "repicaへの不正アクセスでモスWEB会員のメールアドレス等7,517,087件が流出",
+  "summary": "repicaへの不正アクセスでモスWEB会員のメールアドレス等7,517,087件が流出。",
+  "published_on": "2026-11-04",
+  "first_published_on": "2026-11-04",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-11-04",
+  "updated_on": "2026-11-04",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "アララ株式会社のメール配信サービス「repica」への第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 7517087,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "モスWEB会員の情報件数。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス",
+    "年齢",
+    "性別",
+    "都道府県"
+  ],
+  "related_vendor": "アララ株式会社",
+  "sources": [
+    {
+      "url": "https://www.mos.co.jp/company/pr_pdf/pr_261104_2.pdf",
+      "type": "official",
+      "title": "委託先メール配信サービスへの不正アクセスによるお客様情報の流出に関するお詫びとお知らせ",
+      "published_on": "2026-11-04",
+      "checked_on": "2026-11-08"
+    }
+  ],
+  "updates": [],
+  "notes": "決済関連情報は含まれない。10月27日のSNSキャンペーンの事案とは別。"
+}

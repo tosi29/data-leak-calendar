@@ -1,0 +1,46 @@
+{
+  "id": "parismiki-am-arara-20261102",
+  "organization": {
+    "name": "パリミキアセットマネジメント",
+    "sector": "企業・団体"
+  },
+  "title": "メールマガジン等の配信に使うアララメッセージへの不正アクセスで電子交付サービス登録者のメールアドレスが流出",
+  "summary": "メールマガジン等の配信に使うアララメッセージへの不正アクセスで電子交付サービス登録者のメールアドレスが流出。",
+  "published_on": "2026-11-02",
+  "first_published_on": "2026-11-02",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-11-02",
+  "updated_on": "2026-11-02",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "アララ株式会社のメール配信サービスへの第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "件数は本文で確認できず。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "アララ株式会社",
+  "sources": [
+    {
+      "url": "https://pmam.co.jp/assets/2026/11/9c1514bdcc238ee499d66aed639aa1d9.pdf",
+      "type": "official",
+      "title": "当社利用メール配信サービスへの不正アクセスによるメールアドレス流出に関するお詫びとご報告",
+      "published_on": "2026-11-02",
+      "checked_on": "2026-11-08"
+    }
+  ],
+  "updates": [],
+  "notes": "10月28日は利用環境が対象外と確認していたが、11月2日の追加報告で対象と判明。"
+}

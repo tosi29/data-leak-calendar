@@ -1,0 +1,49 @@
+{
+  "id": "gmo-makeshop-studio-20261105",
+  "organization": {
+    "name": "GMOメイクショップ（旧GMOメイクアプリ）",
+    "sector": "企業・団体"
+  },
+  "title": "Studioへの不正アクセスで旧anectコーポレートサイトの問い合わせ情報に流出の可能性",
+  "summary": "Studioへの不正アクセスで旧anectコーポレートサイトの問い合わせ情報に流出の可能性。",
+  "published_on": "2026-11-05",
+  "first_published_on": "2026-11-05",
+  "publication_kind": "initial",
+  "occurred_on": "2026-09-30",
+  "detected_on": "2026-10-16",
+  "updated_on": "2026-11-05",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "vulnerability",
+    "certainty": "confirmed",
+    "detail": "Webサイト運営に利用するStudio株式会社のクラウド環境への不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "件数は未公表。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "会社名",
+    "メールアドレス",
+    "問い合わせ内容"
+  ],
+  "related_vendor": "Studio",
+  "sources": [
+    {
+      "url": "https://www.makeshop.co.jp/news/info/2026-11-05/",
+      "type": "official",
+      "title": "ノーコードWebサイトプラットフォーム「Studio」への不正アクセスに伴う、情報流出の可能性に関するお詫びとお知らせ",
+      "published_on": "2026-11-05",
+      "checked_on": "2026-11-08"
+    }
+  ],
+  "updates": [],
+  "notes": "2021年9月～2026年5月にお問い合わせフォームから送信された情報。同日のアララ経由の事案とは別。"
+}

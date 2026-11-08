@@ -1,0 +1,44 @@
+{
+  "id": "sonysonpo-pcs-20261102",
+  "organization": {
+    "name": "ソニー損害保険",
+    "sector": "企業・団体"
+  },
+  "title": "ロードサービス委託先プレステージ・コアソリューションへの不正アクセスで契約者情報への影響を確認中",
+  "summary": "ロードサービス委託先プレステージ・コアソリューションへの不正アクセスで契約者情報への影響を確認中。",
+  "published_on": "2026-11-02",
+  "first_published_on": "2026-11-02",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-02",
+  "verification": "official",
+  "leak_status": "investigating",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "ロードサービス委託先プレステージ・コアソリューションの業務システムへの第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "契約者情報の持ち出しの有無は委託先が確認中。"
+    }
+  ],
+  "data_types": [],
+  "related_vendor": "プレステージ・コアソリューション",
+  "sources": [
+    {
+      "url": "https://from.sonysonpo.co.jp/topics/information/02112026_288508.html",
+      "type": "official",
+      "title": "当社の委託会社の業務システムへの不正アクセスについて",
+      "published_on": "2026-11-02",
+      "checked_on": "2026-11-08"
+    }
+  ],
+  "updates": [],
+  "notes": "影響の可能性はロードサービスを同社に委託した案件のみ。ロードサービスデスクへの電話がつながりにくい状況。"
+}

@@ -1,0 +1,60 @@
+{
+  "id": "otera-oyatsu-blastmail-20261023",
+  "organization": {
+    "name": "おてらおやつクラブ",
+    "sector": "企業・団体"
+  },
+  "title": "ブラストメールへの不正アクセスでメールマガジン配信先リストが漏えい",
+  "summary": "ブラストメールへの不正アクセスでメールマガジン配信先リストが漏えい。",
+  "published_on": "2026-10-23",
+  "first_published_on": "2026-10-23",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-03",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "メール配信サービス「ブラストメール」への第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "配信先リスト全件とされるが件数は未公表。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "メールアドレス"
+  ],
+  "related_vendor": "ラクスライトクラウド",
+  "sources": [
+    {
+      "url": "https://otera-oyatsu.club/2026/10/kojin-joho/",
+      "type": "official",
+      "title": "外部メール配信サービスへの不正アクセスに伴う個人情報漏えいについて",
+      "published_on": "2026-10-23",
+      "checked_on": "2026-11-08"
+    },
+    {
+      "url": "https://otera-oyatsu.club/2026/11/kojin-joho2/",
+      "type": "official",
+      "title": "外部メール配信サービスへの不正アクセスに伴う個人情報漏えいについて（続報）",
+      "published_on": "2026-11-03",
+      "checked_on": "2026-11-08"
+    }
+  ],
+  "updates": [
+    {
+      "date": "2026-11-03",
+      "summary": "運営会社と連名で11月4日に個人情報保護委員会へ報告予定。管理画面が使えず対象者の確認に時間を要している。",
+      "source_index": 1
+    }
+  ],
+  "notes": "運営会社から配信先リスト全件の漏えい報告を受けた。対象者は確認中。"
+}

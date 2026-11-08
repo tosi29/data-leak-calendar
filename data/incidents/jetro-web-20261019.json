@@ -11,7 +11,7 @@
   "publication_kind": "initial",
   "occurred_on": null,
   "detected_on": null,
-  "updated_on": "2026-10-20",
+  "updated_on": "2026-11-06",
   "verification": "official",
   "leak_status": "confirmed",
   "incident_type": "attack",
@@ -25,7 +25,13 @@
       "count": 743,
       "unit": "records",
       "qualifier": "exact",
-      "description": "公表された対象規模。漏えい状況は本文を参照。"
+      "description": "10月19日公表の企業担当者等の件数。"
+    },
+    {
+      "count": 9413,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "11月6日続報で追加確認した142件・9,252件・19件の合計。"
     }
   ],
   "data_types": [
@@ -40,8 +46,21 @@
       "title": "ウェブサイトへの不正アクセスによる個人情報漏洩",
       "published_on": "2026-10-19",
       "checked_on": "2026-10-20"
+    },
+    {
+      "url": "https://www.jetro.go.jp/news/announcement/2026/d475b9fab8ba23e5.html",
+      "type": "official",
+      "title": "当機構ウェブサイトへの不正アクセスについて（続報）",
+      "published_on": "2026-11-06",
+      "checked_on": "2026-11-08"
     }
   ],
-  "updates": [],
-  "notes": ""
+  "updates": [
+    {
+      "date": "2026-11-06",
+      "summary": "新たにイベントカレンダー登録担当者142件、職員（退職者を含む）9,252件、保守会社・ページ制作会社の担当者19件の氏名・メールアドレス等の漏えいを確認。",
+      "source_index": 1
+    }
+  ],
+  "notes": "追加分は登録担当者142件、職員9,252件、保守会社等19件。10月19日の743件とは区分を分けて記録。"
 }

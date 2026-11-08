@@ -1,0 +1,84 @@
+{
+  "id": "smartnews-system-20261101",
+  "organization": {
+    "name": "スマートニュース",
+    "sector": "企業・団体"
+  },
+  "title": "システムへの不正アクセスでメディアパートナー・広告取引先担当者のメールアドレス等に漏えいの可能性",
+  "summary": "10月31日の運営システムへの不正アクセスでポイント・特典の不正操作を確認。11月6日、媒体社向けシステム担当者1,582件と広告取引先担当者207件のメールアドレス、ユーザー1,033件の内部IDが漏えいした可能性を公表。",
+  "published_on": "2026-11-01",
+  "first_published_on": "2026-11-01",
+  "publication_kind": "initial",
+  "occurred_on": "2026-10-31",
+  "detected_on": null,
+  "updated_on": "2026-11-06",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "運営システムへの第三者による不正アクセス。侵入経路は未公表。"
+  },
+  "impact": [
+    {
+      "count": 1582,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "メディアパートナー向けシステムの担当者・担当部署のメールアドレス。"
+    },
+    {
+      "count": 207,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "広告サービスの取引先担当者・担当部署のメールアドレス。"
+    },
+    {
+      "count": 1033,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "SmartNewsユーザーの内部ID（単体で個人を識別できないと説明）。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス",
+    "ユーザー内部ID"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://about.smartnews.com/ja/news/2617.html",
+      "type": "official",
+      "title": "セキュリティ上の問題への対応について",
+      "published_on": "2026-11-01",
+      "checked_on": "2026-11-08"
+    },
+    {
+      "url": "https://about.smartnews.com/ja/news/2619.html",
+      "type": "official",
+      "title": "セキュリティ上の問題への対応について（続報：一部機能の復旧）",
+      "published_on": "2026-11-02",
+      "checked_on": "2026-11-08"
+    },
+    {
+      "url": "https://about.smartnews.com/ja/news/2623.html",
+      "type": "official",
+      "title": "不正アクセスによる個人情報漏えいに関するお詫びとお知らせ",
+      "published_on": "2026-11-06",
+      "checked_on": "2026-11-08"
+    }
+  ],
+  "updates": [
+    {
+      "date": "2026-11-02",
+      "summary": "プッシュ通知を復旧、パーソナライズは順次復旧。ポイント交換と一部特典は停止継続。",
+      "source_index": 1
+    },
+    {
+      "date": "2026-11-06",
+      "summary": "媒体社向けシステム担当者1,582件・広告取引先担当者207件のメールアドレス、ユーザー1,033件の内部IDが漏えいした可能性。パスワード・カード情報は含まれない。",
+      "source_index": 2
+    }
+  ],
+  "notes": "10月22日公表の別事案とは別と公式に明記。11月1日時点は不正操作のみで個人情報の範囲が未公表のため確認待ちとしていたが、6日の具体化で初報日に収録。件数の区分を合算しない。"
+}

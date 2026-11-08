@@ -1,0 +1,46 @@
+{
+  "id": "workman-arara-20261104",
+  "organization": {
+    "name": "ワークマン",
+    "sector": "企業・団体"
+  },
+  "title": "アララメッセージへの不正アクセスでメールマガジン会員のメールアドレス最大約145万件が流出の可能性",
+  "summary": "アララメッセージへの不正アクセスでメールマガジン会員のメールアドレス最大約145万件が流出の可能性。",
+  "published_on": "2026-11-04",
+  "first_published_on": "2026-11-04",
+  "publication_kind": "initial",
+  "occurred_on": "2026-10-28",
+  "detected_on": null,
+  "updated_on": "2026-11-04",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "アララ株式会社のメール配信サービス「アララメッセージ」への第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 1450000,
+      "unit": "records",
+      "qualifier": "maximum_approximate",
+      "description": "メールマガジン会員のメールアドレス。精査中。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "アララ株式会社",
+  "sources": [
+    {
+      "url": "https://www.release.tdnet.info/inbs/140120261103563387.pdf",
+      "type": "official",
+      "title": "メール配信サービスへの不正アクセスによるメールアドレスの漏えいの可能性に関するお詫びとお知らせ",
+      "published_on": "2026-11-04",
+      "checked_on": "2026-11-08"
+    }
+  ],
+  "updates": [],
+  "notes": "アララの11月2日時点の報告書では持ち出しを確認とされる。氏名・住所・電話番号・カード情報は対象サーバーに保有していない。"
+}

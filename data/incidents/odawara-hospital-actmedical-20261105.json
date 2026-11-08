@@ -1,0 +1,50 @@
+{
+  "id": "odawara-hospital-actmedical-20261105",
+  "organization": {
+    "name": "小田原市立総合医療センター",
+    "sector": "自治体"
+  },
+  "title": "小児科診療予約システムの配信サービスへの不正アクセスで登録者約2万2千件に漏えいの可能性",
+  "summary": "小児科診療予約システムの配信サービスへの不正アクセスで登録者約2万2千件に漏えいの可能性。",
+  "published_on": "2026-11-05",
+  "first_published_on": "2026-11-05",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-05",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "小児科診療予約システムに使うケイティケイソリューションズの配信サービス「Actmedical」への不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 22000,
+      "unit": "records",
+      "qualifier": "approximate",
+      "description": "システム登録者。漏えいの事実は未確認。"
+    }
+  ],
+  "data_types": [
+    "診察券番号",
+    "氏名",
+    "生年月日",
+    "性別",
+    "電話番号"
+  ],
+  "related_vendor": "ケイティケイソリューションズ",
+  "sources": [
+    {
+      "url": "https://www.city.odawara.kanagawa.jp/hospital/news_hp/p43360.html",
+      "type": "official",
+      "title": "「小児科診療予約システム」に対する不正アクセスによる個人情報漏えいの可能性について",
+      "published_on": "2026-11-05",
+      "checked_on": "2026-11-08"
+    }
+  ],
+  "updates": [],
+  "notes": "影響はシステム提供事業者が調査中。"
+}

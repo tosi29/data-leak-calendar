@@ -1,0 +1,49 @@
+{
+  "id": "shimane-bussan-ec-card-20261102",
+  "organization": {
+    "name": "島根県（委託先：島根県物産協会）",
+    "sector": "自治体"
+  },
+  "title": "しまねのふるさと直送便の決済画面に不正ファイル、7人のカード情報に流出の可能性",
+  "summary": "しまねのふるさと直送便の決済画面に不正ファイル、7人のカード情報に流出の可能性。",
+  "published_on": "2026-11-02",
+  "first_published_on": "2026-11-02",
+  "publication_kind": "initial",
+  "occurred_on": "2026-08-13",
+  "detected_on": "2026-08-14",
+  "updated_on": "2026-11-02",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "vulnerability",
+    "certainty": "confirmed",
+    "detail": "EC-CUBEのAmazon Payプラグインの脆弱性から侵入され、不正な管理者アカウントの作成と決済画面の入力内容を読み取る不正ファイルの設置が行われた。"
+  },
+  "impact": [
+    {
+      "count": 7,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "8月13日15時30分頃～15日10時50分頃に決済画面を利用した人（うち購入6人）。"
+    }
+  ],
+  "data_types": [
+    "クレジットカード番号",
+    "有効期限",
+    "カード名義",
+    "セキュリティコード"
+  ],
+  "related_vendor": "島根県物産協会",
+  "sources": [
+    {
+      "url": "https://www.pref.shimane.lg.jp/press_release/2026/eubcg9i5kolv.html",
+      "type": "official",
+      "title": "一般財団法人 島根県物産協会 ECサイトへの不正アクセスによる個人情報漏洩の可能性について",
+      "published_on": "2026-11-02",
+      "checked_on": "2026-11-08"
+    }
+  ],
+  "updates": [],
+  "notes": "県が委託する物産観光館通信販売Webサイトの運営業務。保守業者の調査では外部流出を示す通信記録は未確認。11月1日時点で購入者6名のカード不正利用は未確認。"
+}

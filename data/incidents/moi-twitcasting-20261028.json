@@ -11,7 +11,7 @@
   "publication_kind": "initial",
   "occurred_on": "2026-10-28",
   "detected_on": "2026-10-28",
-  "updated_on": "2026-10-29",
+  "updated_on": "2026-11-05",
   "verification": "official",
   "leak_status": "confirmed",
   "incident_type": "attack",
@@ -55,6 +55,13 @@
       "title": "サーバーへの不正アクセス（第2報）",
       "published_on": "2026-10-29",
       "checked_on": "2026-10-29"
+    },
+    {
+      "url": "https://www.release.tdnet.info/inbs/140120261105565350.pdf",
+      "type": "official",
+      "title": "（経過報告）当社サーバーへの不正アクセスに関するお知らせ（第3報）およびサービスの再開について",
+      "published_on": "2026-11-05",
+      "checked_on": "2026-11-08"
     }
   ],
   "updates": [
@@ -62,6 +69,11 @@
       "date": "2026-10-29",
       "summary": "個人情報7件およびサーバーログへのアクセスを公表。",
       "source_index": 1
+    },
+    {
+      "date": "2026-11-05",
+      "summary": "第3報。7件以外の新たな個人情報の流出・悪用の痕跡は未確認。Web版を11月4日から段階的に再開し、ライブ配信は11月11日に全面再開予定。ログの精査は継続。",
+      "source_index": 2
     }
   ],
   "notes": "28日は停止・侵入の公表のみで掲載を見送っていたが、29日の具体的な個人情報へのアクセス確認により初報日に収録。カード番号・セキュリティコードは保持していない。大規模流出や本人確認書類の流出可能性は現段階で認められないと説明。"

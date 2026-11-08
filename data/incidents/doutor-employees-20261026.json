@@ -11,7 +11,7 @@
   "publication_kind": "initial",
   "occurred_on": null,
   "detected_on": "2026-10-20",
-  "updated_on": "2026-10-26",
+  "updated_on": "2026-11-06",
   "verification": "official",
   "leak_status": "suspected",
   "incident_type": "attack",
@@ -34,7 +34,13 @@
     "住所",
     "メールアドレス",
     "電話番号",
-    "銀行口座番号"
+    "銀行口座番号",
+    "従業員番号",
+    "性別",
+    "国籍情報",
+    "雇用条件",
+    "社会保険状況",
+    "保護者情報"
   ],
   "related_vendor": null,
   "sources": [
@@ -44,8 +50,21 @@
       "title": "4店舗の従業員・退職者951名の情報が流出した可能性",
       "published_on": "2026-10-26",
       "checked_on": "2026-10-27"
+    },
+    {
+      "url": "https://www.doutor.co.jp/news/newsrelease/detail/20261106100836.html",
+      "type": "official",
+      "title": "当社システムの一部に対する不正アクセスについて（更新版）",
+      "published_on": "2026-11-06",
+      "checked_on": "2026-11-08"
     }
   ],
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-11-06",
+      "summary": "更新版。検知日は10月20日。従業員番号・性別・国籍情報・雇用条件・就労情報・社会保険状況・保護者情報・銀行口座情報を漏えいのおそれがある項目に追加。",
+      "source_index": 1
+    }
+  ],
   "notes": ""
 }

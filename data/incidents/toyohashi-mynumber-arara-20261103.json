@@ -1,0 +1,46 @@
+{
+  "id": "toyohashi-mynumber-arara-20261103",
+  "organization": {
+    "name": "豊橋市",
+    "sector": "自治体"
+  },
+  "title": "マイナンバーカード交付予約システムが使うアララへの不正アクセスで予約者のメールアドレスに漏えいのおそれ",
+  "summary": "マイナンバーカード交付予約システムが使うアララへの不正アクセスで予約者のメールアドレスに漏えいのおそれ。",
+  "published_on": "2026-11-03",
+  "first_published_on": "2026-11-03",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-11-02",
+  "updated_on": "2026-11-03",
+  "verification": "official",
+  "leak_status": "investigating",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "システム提供事業者TKCが利用するアララ株式会社のメール配信サービスへの第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "件数は未公表。市の情報が含まれるかは調査中。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "TKC／アララ株式会社",
+  "sources": [
+    {
+      "url": "https://www.city.toyohashi.lg.jp/40680.htm",
+      "type": "official",
+      "title": "マイナンバーカード交付予約・管理システムにおける情報漏えいのおそれについて",
+      "published_on": "2026-11-03",
+      "checked_on": "2026-11-08"
+    }
+  ],
+  "updates": [],
+  "notes": "公表日は公表索引の記録。ページに掲載日の記載はなく、直接取得はブロックされ取得ツール経由で本文を確認。受取予約以外の手続予約は別システムで影響なし。"
+}

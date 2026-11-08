@@ -11,7 +11,7 @@
   "publication_kind": "initial",
   "occurred_on": null,
   "detected_on": null,
-  "updated_on": "2026-11-01",
+  "updated_on": "2026-11-02",
   "verification": "official",
   "leak_status": "suspected",
   "incident_type": "attack",
@@ -30,7 +30,9 @@
   ],
   "data_types": [
     "氏名",
-    "購入金額"
+    "購入金額",
+    "氏名（カタカナ）",
+    "メールアドレス"
   ],
   "related_vendor": "株式会社NTTデータ",
   "sources": [
@@ -40,8 +42,21 @@
       "title": "デジタル特典付き社債の購入者1,169人に情報漏えいのおそれ",
       "published_on": "2026-10-31",
       "checked_on": "2026-11-01"
+    },
+    {
+      "url": "https://www.sbisec.co.jp/ETGate/?OutSide=on&_ControlID=WPLETmgR001Control&_PageID=WPLETmgR001Mdtl30&_ActionID=DefaultAID&_DataStoreID=DSWPLETmgR001Control&getFlg=on&burl=search_home&cat1=home&cat2=info&dir=info&file=home_info261031_bond.html",
+      "type": "official",
+      "title": "当社が取り扱った社債に関する投資家情報の漏えいの可能性について（11月2日更新）",
+      "published_on": "2026-11-02",
+      "checked_on": "2026-11-08"
     }
   ],
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-11-02",
+      "summary": "漏えいした可能性のある情報をカナ氏名・メールアドレス・購入金額に更新。対象1,169名に変更なし。",
+      "source_index": 1
+    }
+  ],
   "notes": "外部委託先のデジタル証券プラットフォームで発生。発行体・他社の対象者と重複するため合算しない。証券口座番号・パスワードは対象外。"
 }

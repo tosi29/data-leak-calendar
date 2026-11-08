@@ -11,7 +11,7 @@
   "publication_kind": "initial",
   "occurred_on": null,
   "detected_on": "2026-10-26",
-  "updated_on": "2026-11-01",
+  "updated_on": "2026-11-04",
   "verification": "official",
   "leak_status": "confirmed",
   "incident_type": "attack",
@@ -22,10 +22,10 @@
   },
   "impact": [
     {
-      "count": 40000,
+      "count": 39505,
       "unit": "records",
-      "qualifier": "approximate",
-      "description": "30日適時開示の暫定件数。最終的な件数は確認中。"
+      "qualifier": "exact",
+      "description": "第3報で精査した漏えい件数（問い合わせフォーム31,781件、給食サイト会員5,698件、報道関係者問い合わせ1,613件、化粧品キャンペーン応募等を含む）。"
     }
   ],
   "data_types": [
@@ -37,7 +37,9 @@
     "問い合わせ内容",
     "職業・会社・部署等",
     "給食サイト登録パスワード（暗号化）",
-    "登録理由等"
+    "登録理由等",
+    "暗号化されたパスワード",
+    "購入商品"
   ],
   "related_vendor": null,
   "sources": [
@@ -54,6 +56,13 @@
       "title": "30日の適時開示で暫定約4万件と公表。対象4区分は維持し、最終件数は調査中。",
       "published_on": "2026-10-30",
       "checked_on": "2026-11-01"
+    },
+    {
+      "url": "https://www.yakult.co.jp/maintenance/news/pdf/20261104.pdf",
+      "type": "official",
+      "title": "当社ホームページへの不正アクセスによる個人情報漏えいに関するお詫びとお知らせ【第3報】",
+      "published_on": "2026-11-04",
+      "checked_on": "2026-11-08"
     }
   ],
   "updates": [
@@ -66,6 +75,11 @@
       "date": "2026-10-30",
       "summary": "30日の適時開示で暫定約4万件と公表。対象4区分は維持し、最終件数は調査中。",
       "source_index": 1
+    },
+    {
+      "date": "2026-11-04",
+      "summary": "第3報。精査で漏えいは39,505件と確認。化粧品キャンペーンのWeb応募者の情報も含まれていたと新たに確認。11月5日に専用窓口を開設し対象者へ順次メール連絡。",
+      "source_index": 2
     }
   ],
   "notes": "26日初報は顧客情報への影響調査中。30日第2報で約4万件を確認。問い合わせ対応社員の氏名も含む。カード・銀行口座情報は保持していない。 同日のメンテナンスページだけでは確認できなかった暫定件数を適時開示PDFで補完。"

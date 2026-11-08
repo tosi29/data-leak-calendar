@@ -1,0 +1,46 @@
+{
+  "id": "sumitomo-rd-datax-arara-20261104",
+  "organization": {
+    "name": "住友不動産",
+    "sector": "企業・団体"
+  },
+  "title": "メール配信委託先データXが使うアララへの不正アクセスで問い合わせ顧客のメールアドレス205,208件が流出",
+  "summary": "メール配信委託先データXが使うアララへの不正アクセスで問い合わせ顧客のメールアドレス205,208件が流出。",
+  "published_on": "2026-11-04",
+  "first_published_on": "2026-11-04",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-11-02",
+  "updated_on": "2026-11-04",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "アララ株式会社のメール配信サービスへの第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 205208,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "10月8～29日に配信のあった分譲住宅事業の問い合わせ顧客のメールアドレス。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "データX／アララ株式会社",
+  "sources": [
+    {
+      "url": "https://www.sumitomo-rd.co.jp/uploads/20261104_release.pdf",
+      "type": "official",
+      "title": "弊社委託先が利用するメール配信サービスへの不正アクセスによるメールアドレス流出についてのお詫び",
+      "published_on": "2026-11-04",
+      "checked_on": "2026-11-08"
+    }
+  ],
+  "updates": [],
+  "notes": "氏名・住所等は含まれない。9月の別事案とは区別。"
+}

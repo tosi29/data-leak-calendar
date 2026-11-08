@@ -1,0 +1,54 @@
+{
+  "id": "smbccf-guarantee-system-20261105",
+  "organization": {
+    "name": "SMBCコンシューマーファイナンス",
+    "sector": "企業・団体"
+  },
+  "title": "保証業務システムへの不正アクセスで顧客の個人情報最大320,118名分が外部送信",
+  "summary": "保証業務システムへの不正アクセスで顧客の個人情報最大320,118名分が外部送信。",
+  "published_on": "2026-11-05",
+  "first_published_on": "2026-11-05",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-11-02",
+  "updated_on": "2026-11-05",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "保証業務で使用するシステムへの第三者による不正アクセス。詳細は調査中。"
+  },
+  "impact": [
+    {
+      "count": 320118,
+      "unit": "people",
+      "qualifier": "maximum",
+      "description": "漏えいした顧客の人数。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "性別",
+    "生年月日",
+    "住所",
+    "電話番号",
+    "メールアドレス",
+    "運転免許証番号",
+    "勤務先情報（年収等）",
+    "契約情報（金融機関コード・顧客番号・保証額等）"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.smbc-cf.com/news/data/2026/11/news_20261105.pdf",
+      "type": "official",
+      "title": "当社保証システムへの不正アクセスによるお客さま情報の漏えいについて",
+      "published_on": "2026-11-05",
+      "checked_on": "2026-11-08"
+    }
+  ],
+  "updates": [],
+  "notes": "地方銀行・信用金庫・ネット銀行等の保証提携先のカードローン利用者・申込者が対象。本人確認書類画像は含まれない。提携金融機関（北洋・福岡・十八親和・鳥取・山陰合同・りそな等）の公表は別記録で件数を合算しない。"
+}

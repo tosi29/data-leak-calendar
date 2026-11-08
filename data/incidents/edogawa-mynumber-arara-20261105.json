@@ -1,0 +1,46 @@
+{
+  "id": "edogawa-mynumber-arara-20261105",
+  "organization": {
+    "name": "江戸川区",
+    "sector": "自治体"
+  },
+  "title": "マイナンバーカード交付予約の委託事業で使うアララメッセージへの不正アクセスで予約者のメールアドレスに漏えいの可能性",
+  "summary": "マイナンバーカード交付予約の委託事業で使うアララメッセージへの不正アクセスで予約者のメールアドレスに漏えいの可能性。",
+  "published_on": "2026-11-05",
+  "first_published_on": "2026-11-05",
+  "publication_kind": "initial",
+  "occurred_on": "2026-10-27",
+  "detected_on": "2026-11-02",
+  "updated_on": "2026-11-05",
+  "verification": "official",
+  "leak_status": "investigating",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "委託事業で利用するアララ株式会社のメール配信サービス「アララメッセージ」への第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "区の事業の情報が含まれるかは不明で受託者が調査中。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "アララ株式会社",
+  "sources": [
+    {
+      "url": "https://www.city.edogawa.tokyo.jp/e004/kuseijoho/kohokocho/press/2026/11/1105.html",
+      "type": "official",
+      "title": "区の委託事業における個人情報漏えいの可能性",
+      "published_on": "2026-11-05",
+      "checked_on": "2026-11-08"
+    }
+  ],
+  "updates": [],
+  "notes": "区は2021年から同サービスを利用。10月のStudio・9月のメール誤送信の事案とは別。"
+}

@@ -1,0 +1,59 @@
+{
+  "id": "hasegawa-repica-20261104",
+  "organization": {
+    "name": "はせがわ",
+    "sector": "企業・団体"
+  },
+  "title": "repicaへの不正アクセスで配信先メールアドレス305件が漏えい",
+  "summary": "repicaへの不正アクセスで配信先メールアドレス305件が漏えい。",
+  "published_on": "2026-11-04",
+  "first_published_on": "2026-11-04",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-11-02",
+  "updated_on": "2026-11-05",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "アララ株式会社のメール配信システム「repica」への第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 305,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "10月10～31日に配信したメールのメールアドレス。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "アララ株式会社",
+  "sources": [
+    {
+      "url": "https://www.release.tdnet.info/inbs/140120261104564321.pdf",
+      "type": "official",
+      "title": "当社委託先のメール配信サービスへの不正アクセスによる個人情報漏えいに関するお詫びとお知らせ（第1報）",
+      "published_on": "2026-11-04",
+      "checked_on": "2026-11-08"
+    },
+    {
+      "url": "https://www.release.tdnet.info/inbs/140120261105566324.pdf",
+      "type": "official",
+      "title": "同（第2報）",
+      "published_on": "2026-11-05",
+      "checked_on": "2026-11-08"
+    }
+  ],
+  "updates": [
+    {
+      "date": "2026-11-05",
+      "summary": "第2報。漏えいはメールアドレスのみで、対象は10月10～31日配信分の305件と確定。対象者に個別連絡。",
+      "source_index": 1
+    }
+  ],
+  "notes": "第1報は配信期間を10月8～29日としていた。"
+}

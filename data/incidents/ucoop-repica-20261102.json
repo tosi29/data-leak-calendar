@@ -1,0 +1,46 @@
+{
+  "id": "ucoop-repica-20261102",
+  "organization": {
+    "name": "生活協同組合ユーコープ",
+    "sector": "企業・団体"
+  },
+  "title": "repicaから配信先メールアドレス210,495件が流出",
+  "summary": "repicaから配信先メールアドレス210,495件が流出。",
+  "published_on": "2026-11-02",
+  "first_published_on": "2026-11-02",
+  "publication_kind": "initial",
+  "occurred_on": "2026-10-08",
+  "detected_on": null,
+  "updated_on": "2026-11-02",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "アララ株式会社のメール配信サービス「repica」への第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 210495,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "10月8～29日に配信のあったメールアドレス。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "アララ株式会社",
+  "sources": [
+    {
+      "url": "https://www.ucoop.or.jp/info/2026/info_34571.html",
+      "type": "official",
+      "title": "委託先における個人情報漏えいについて",
+      "published_on": "2026-11-02",
+      "checked_on": "2026-11-08"
+    }
+  ],
+  "updates": [],
+  "notes": "組合員に加え資料請求等で登録した未加入者を含む。メールアドレス以外は漏えいしていないと説明。"
+}

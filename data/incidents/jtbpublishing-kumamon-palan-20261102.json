@@ -1,0 +1,49 @@
+{
+  "id": "jtbpublishing-kumamon-palan-20261102",
+  "organization": {
+    "name": "JTBパブリッシング",
+    "sector": "企業・団体"
+  },
+  "title": "くまモンテクテクの委託先palanへの不正アクセスで参加申込者のメールアドレス等が漏えい",
+  "summary": "くまモンテクテクの委託先palanへの不正アクセスで参加申込者のメールアドレス等が漏えい。",
+  "published_on": "2026-11-02",
+  "first_published_on": "2026-11-02",
+  "publication_kind": "initial",
+  "occurred_on": "2026-08-09",
+  "detected_on": "2026-10-22",
+  "updated_on": "2026-11-02",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "vulnerability",
+    "certainty": "confirmed",
+    "detail": "委託先palanが社内で利用するデータ分析ツールの脆弱性を悪用した不正アクセス（8月9日～10月21日）。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "2025年1月16日～3月23日の参加申込者。件数は未公表。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス",
+    "居住地（県内外）",
+    "年代",
+    "性別"
+  ],
+  "related_vendor": "palan",
+  "sources": [
+    {
+      "url": "https://jtbpublishing.co.jp/topics/CL000943",
+      "type": "official",
+      "title": "ARスタンプラリー「くまモンテクテク」にご参加いただいた皆様へ",
+      "published_on": "2026-11-02",
+      "checked_on": "2026-11-08"
+    }
+  ],
+  "updates": [],
+  "notes": "熊本県から受託した2024年実施のARスタンプラリーの事務局業務。データの改ざん・削除は未確認。"
+}

@@ -1,0 +1,46 @@
+{
+  "id": "kantei-arara-20261104",
+  "organization": {
+    "name": "東京カンテイ",
+    "sector": "企業・団体"
+  },
+  "title": "メール配信に使うアララメッセージへの不正アクセスで配信先メールアドレスへの影響を確認中",
+  "summary": "メール配信に使うアララメッセージへの不正アクセスで配信先メールアドレスへの影響を確認中。",
+  "published_on": "2026-11-04",
+  "first_published_on": "2026-11-04",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-04",
+  "verification": "official",
+  "leak_status": "investigating",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "アララ株式会社のメール配信サービス「アララメッセージ」への第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "流出対象に含まれるかは確認できていない。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "アララ株式会社",
+  "sources": [
+    {
+      "url": "https://www.kantei.ne.jp/news/release/9612/",
+      "type": "official",
+      "title": "弊社委託先のメール配信サービスについて",
+      "published_on": "2026-11-04",
+      "checked_on": "2026-11-08"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

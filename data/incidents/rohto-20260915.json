@@ -4,32 +4,44 @@
     "name": "ロート製薬",
     "sector": "企業・団体"
   },
-  "title": "通信販売のお客様対応の通話音声・付随情報と顧客管理システムの情報を取得された可能性",
+  "title": "通信販売の電話システム経由で顧客2,797,545人の情報を不正取得",
   "published_on": "2026-09-11",
   "occurred_on": null,
-  "detected_on": null,
-  "updated_on": "2026-10-15",
+  "detected_on": "2026-09-10",
+  "updated_on": "2026-11-06",
   "first_published_on": "2026-09-11",
   "publication_kind": "initial",
   "verification": "official",
-  "leak_status": "suspected",
-  "summary": "通信販売のお客様対応の通話音声・付随情報と顧客管理システムの情報を取得された可能性。範囲と件数を調査中。",
+  "leak_status": "confirmed",
+  "summary": "通信販売の電話システムのアカウント情報が不正利用され、顧客管理システムの2,797,545人分と、一部にカード番号を含む通話音声データが不正取得された。",
   "impact": [
     {
-      "count": null,
+      "count": 2797545,
       "unit": "people",
-      "qualifier": "unknown",
-      "description": "対象規模は確認した出典に記載なし・調査中"
+      "qualifier": "exact",
+      "description": "顧客管理システムの漏えい等の対象人数。"
+    },
+    {
+      "count": 9715,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "カード番号・有効期限を含む通話音声データの対象人数。上記と合算しない。"
     }
   ],
   "data_types": [
     "通話音声",
-    "顧客管理情報"
+    "顧客管理情報",
+    "氏名",
+    "住所",
+    "電話番号",
+    "通話音声データ",
+    "クレジットカード番号",
+    "有効期限"
   ],
   "cause": {
-    "category": "unauthorized_access",
-    "detail": "第三者による不正アクセス。具体的な侵入手法は未公表。",
-    "certainty": "unknown"
+    "category": "credentials",
+    "certainty": "confirmed",
+    "detail": "通信販売のお客様対応に使う電話システムのアカウント情報が第三者に不正利用された。顧客管理システムの情報は電話システムを経由して取得された。"
   },
   "related_vendor": null,
   "sources": [
@@ -39,14 +51,26 @@
       "title": "当社システムにおける不正アクセスに関する調査状況について | ニュース | ロート製薬株式会社",
       "published_on": "2026-09-15",
       "checked_on": "2026-10-15"
+    },
+    {
+      "url": "https://www.rohto.co.jp/news/whatsnew/2026/1106_01",
+      "type": "official",
+      "title": "不正アクセスによるお客様の個人データ漏えいに関するお詫びとお知らせ",
+      "published_on": "2026-11-06",
+      "checked_on": "2026-11-08"
     }
   ],
-  "notes": "9月11日初報に対する調査状況の続報。",
+  "notes": "顧客管理システムの2,797,545人と、カード番号・有効期限を含む通話音声の9,715人は別区分で合算しない。通話音声は2025年9月10日～2026年9月5日のうち3期間。セキュリティコード・パスワードは取得・保存していない。",
   "updates": [
     {
       "date": "2026-09-15",
       "summary": "通話音声・顧客管理情報の取得の可能性を続報で説明。",
       "source_index": 0
+    },
+    {
+      "date": "2026-11-06",
+      "summary": "電話システムのアカウント情報が不正利用され、電話システムと顧客管理システムから情報が不正取得されたと確認。顧客管理システムの対象2,797,545人、カード番号・有効期限を含む通話音声の対象9,715人。",
+      "source_index": 1
     }
   ],
   "incident_type": "attack",
@@ -57,6 +81,10 @@
     "source_checks": [
       {
         "source_index": 0,
+        "status": "reviewed"
+      },
+      {
+        "source_index": 1,
         "status": "reviewed"
       }
     ]

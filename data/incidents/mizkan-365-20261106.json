@@ -1,0 +1,55 @@
+{
+  "id": "mizkan-365-20261106",
+  "organization": {
+    "name": "Mizkan（ミツカン365）",
+    "sector": "企業・団体"
+  },
+  "title": "コミュニティサイトへの不正アクセスで487名の会員情報が改ざん、うち29名の顧客ID・メールアドレスが漏えい",
+  "summary": "コミュニティサイトへの不正アクセスで487名の会員情報が改ざん、うち29名の顧客ID・メールアドレスが漏えい。",
+  "published_on": "2026-11-06",
+  "first_published_on": "2026-11-06",
+  "publication_kind": "initial",
+  "occurred_on": "2026-10-30",
+  "detected_on": "2026-11-02",
+  "updated_on": "2026-11-06",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "vulnerability",
+    "certainty": "confirmed",
+    "detail": "会員情報を変更する機能や画面表示の仕組みの不備を突かれ、不正なプログラムが仕込まれた。"
+  },
+  "impact": [
+    {
+      "count": 29,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "顧客ID・メールアドレスが漏えいした会員。"
+    },
+    {
+      "count": 487,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "ニックネーム・アイコンを改ざんされた会員（上記29名を含む）。"
+    }
+  ],
+  "data_types": [
+    "顧客ID",
+    "メールアドレス",
+    "特典交換回数",
+    "キャンペーン応募回数"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.mizkan.co.jp/file.jsp?id=2021_Renewal/files/pdf/emg/news/oshirase18.pdf",
+      "type": "official",
+      "title": "「ミツカン365」への不正アクセスに伴うお客様情報の改ざん・漏えいに関するお詫びとお知らせ",
+      "published_on": "2026-11-06",
+      "checked_on": "2026-11-08"
+    }
+  ],
+  "updates": [],
+  "notes": "パスワード・氏名・住所・電話番号・カード情報の漏えいは未確認。本サイトを停止し、公式通販等も予防的に停止。10月23日の問い合わせフォームの事案とは別。"
+}

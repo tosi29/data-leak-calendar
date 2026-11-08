@@ -11,7 +11,7 @@
   "publication_kind": "initial",
   "occurred_on": null,
   "detected_on": "2026-10-11",
-  "updated_on": "2026-11-01",
+  "updated_on": "2026-11-06",
   "verification": "official",
   "incident_type": "attack",
   "leak_status": "suspected",
@@ -98,6 +98,13 @@
       "title": "経過説明で設定ファイルの秘密鍵取得を経た不正ログインと内部情報取得を報告。10月11日23時40分に不正アクセスを検知したと説明。",
       "published_on": "2026-10-19",
       "checked_on": "2026-10-23"
+    },
+    {
+      "url": "https://raiden.site.ktaiwork.jp/archives/4597",
+      "type": "official",
+      "title": "弊社サービスへの不正アクセスに伴う一連の対応について（第25報・第26報）",
+      "published_on": "2026-11-06",
+      "checked_on": "2026-11-08"
     }
   ],
   "notes": "規模はいずれも推定最大件数で、サービス間・情報項目間・利用自治体との重複があるため合算しない。人数ではない。映像通報は対象外。初報PDFのファイル名は10月12日だが本文の10月13日を採用。 10月16日第11報でNET119の範囲を更新。要配慮個人情報は漏洩なしと確認。 経過説明で設定ファイルの秘密鍵取得を経た不正ログインと内部情報取得を報告。10月11日23時40分に不正アクセスを検知したと説明。",
@@ -131,6 +138,11 @@
       "date": "2026-10-30",
       "summary": "30日第24報：SpeeCAN RAIDENスマホサイトにログイン時2段階認証機能を追加。",
       "source_index": 1
+    },
+    {
+      "date": "2026-11-06",
+      "summary": "第25報（11月2日）で10月22～23日の不正メール配信の経過を公表。10月11～13日の侵入時に漏えいしたメール送信APIアカウントが総当たりで突破され、さらにURLパースコンフュージョン脆弱性で不正利用された。第26報（11月6日）でAPI連携機能を再開。",
+      "source_index": 3
     }
   ],
   "vendor_research": {
@@ -148,6 +160,10 @@
       },
       {
         "source_index": 2,
+        "status": "reviewed"
+      },
+      {
+        "source_index": 3,
         "status": "reviewed"
       }
     ]

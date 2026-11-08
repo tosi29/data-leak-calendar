@@ -1,0 +1,46 @@
+{
+  "id": "nishitetsu-hotels-arara-20261102",
+  "organization": {
+    "name": "西鉄ホテルズ",
+    "sector": "企業・団体"
+  },
+  "title": "メール配信に連携するアララメッセージへの不正アクセスで配信先メールアドレス20,560件が流出",
+  "summary": "メール配信に連携するアララメッセージへの不正アクセスで配信先メールアドレス20,560件が流出。",
+  "published_on": "2026-11-02",
+  "first_published_on": "2026-11-02",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-11-02",
+  "updated_on": "2026-11-02",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "アララ株式会社のメール配信サービスへの第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 20560,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "10月8～29日に配信されたメールのメールアドレス。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "アララ株式会社",
+  "sources": [
+    {
+      "url": "https://nnr-h.com/news/FWi8X_hp",
+      "type": "official",
+      "title": "メール配信サービスへの不正アクセスによる情報漏えいのお知らせとお詫び",
+      "published_on": "2026-11-02",
+      "checked_on": "2026-11-08"
+    }
+  ],
+  "updates": [],
+  "notes": "公表日は公表索引の記録。氏名等の会員情報・件名は含まれない。宿泊予約確認メール等は対象外。"
+}

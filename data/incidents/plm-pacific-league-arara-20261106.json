@@ -1,0 +1,46 @@
+{
+  "id": "plm-pacific-league-arara-20261106",
+  "organization": {
+    "name": "パシフィックリーグマーケティング／パ・リーグ5球団",
+    "sector": "企業・団体"
+  },
+  "title": "5球団のメール配信に使うアララメッセージへの不正アクセスで試合速報メルマガの配信先13,711件が流出",
+  "summary": "5球団のメール配信に使うアララメッセージへの不正アクセスで試合速報メルマガの配信先13,711件が流出。",
+  "published_on": "2026-11-06",
+  "first_published_on": "2026-11-06",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-10-28",
+  "updated_on": "2026-11-06",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "アララ株式会社のメール配信サービス「アララメッセージ」への第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 13711,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "試合速報メールマガジン等の配信先メールアドレス。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "アララ株式会社",
+  "sources": [
+    {
+      "url": "https://www.pacificleague.jp/assets/pdf/pr261106_1.pdf",
+      "type": "official",
+      "title": "不正アクセスによるお客様メールアドレス等流出のお詫びとお知らせ",
+      "published_on": "2026-11-06",
+      "checked_on": "2026-11-08"
+    }
+  ],
+  "updates": [],
+  "notes": "日本ハム・楽天・西武・ロッテ・ソフトバンクの5球団が利用。オリックスは同サービス不使用。同じ公表の千葉ロッテ公式スマホサイトへの不正アクセスとは別事案として記録。"
+}

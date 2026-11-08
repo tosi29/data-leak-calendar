@@ -1,0 +1,44 @@
+{
+  "id": "2rinkan-pcs-20261106",
+  "organization": {
+    "name": "2りんかんイエローハット",
+    "sector": "企業・団体"
+  },
+  "title": "ロードサービス委託先プレステージ・コアソリューションへの不正アクセスで顧客情報に漏えいの可能性",
+  "summary": "ロードサービス委託先プレステージ・コアソリューションへの不正アクセスで顧客情報に漏えいの可能性。",
+  "published_on": "2026-11-06",
+  "first_published_on": "2026-11-06",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-10-30",
+  "updated_on": "2026-11-06",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "2りんかんロードサービス等の委託先プレステージ・コアソリューションのシステムへの第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "対象項目・件数は委託先で特定・精査中。"
+    }
+  ],
+  "data_types": [],
+  "related_vendor": "プレステージ・コアソリューション",
+  "sources": [
+    {
+      "url": "https://2rinkan.jp/annai/20261106/",
+      "type": "official",
+      "title": "委託先「プレステージ・コアソリューション」への不正アクセスに伴う個人情報漏えいの可能性に関するお詫びとお知らせ",
+      "published_on": "2026-11-06",
+      "checked_on": "2026-11-08"
+    }
+  ],
+  "updates": [],
+  "notes": "2りんかんJACCSカード会員向けロードサービスを含む。10月29日のブラストメールの事案とは別。"
+}

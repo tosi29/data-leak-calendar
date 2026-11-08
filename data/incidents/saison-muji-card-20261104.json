@@ -1,0 +1,48 @@
+{
+  "id": "saison-muji-card-20261104",
+  "organization": {
+    "name": "クレディセゾン（MUJI Card）",
+    "sector": "企業・団体"
+  },
+  "title": "良品計画のシステムへの不正アクセスでMUJI Card約109万件のカード番号等に第三者がアクセスした可能性",
+  "summary": "良品計画のシステムへの不正アクセスでMUJI Card約109万件のカード番号等に第三者がアクセスした可能性。",
+  "published_on": "2026-11-04",
+  "first_published_on": "2026-11-04",
+  "publication_kind": "initial",
+  "occurred_on": "2026-10-29",
+  "detected_on": "2026-11-02",
+  "updated_on": "2026-11-04",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "連携先の良品計画のシステムへの第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 1090000,
+      "unit": "records",
+      "qualifier": "approximate",
+      "description": "過去に良品計画へ連携していたMUJI Card情報（退会者を含む）。"
+    }
+  ],
+  "data_types": [
+    "クレジットカード番号",
+    "MUJI Card ID",
+    "生年月日"
+  ],
+  "related_vendor": "良品計画",
+  "sources": [
+    {
+      "url": "https://www.saisoncard.co.jp/customer-support/information/20261104/",
+      "type": "official",
+      "title": "MUJI Card 会員情報の流出の可能性に関するお知らせとお詫び",
+      "published_on": "2026-11-04",
+      "checked_on": "2026-11-08"
+    }
+  ],
+  "updates": [],
+  "notes": "良品計画の公表（ryohin-muji-app-20261030）と同一対象のカード発行会社側の公表。件数を合算しない。自社システムへの不正アクセスは未確認。不正利用の監視を強化。"
+}

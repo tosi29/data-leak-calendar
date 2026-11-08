@@ -1,0 +1,51 @@
+{
+  "id": "fukuokabank-smbccf-20261105",
+  "organization": {
+    "name": "福岡銀行",
+    "sector": "企業・団体"
+  },
+  "title": "保証会社SMBCコンシューマーファイナンスの保証システムへの不正アクセスで顧客の個人情報が外部送信",
+  "summary": "保証会社SMBCコンシューマーファイナンスの保証システムへの不正アクセスで顧客の個人情報が外部送信。",
+  "published_on": "2026-11-05",
+  "first_published_on": "2026-11-05",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-05",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "保証会社SMBCコンシューマーファイナンスの保証業務システムへの第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "対象顧客・人数はSMBCCFが調査中。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "生年月日",
+    "住所",
+    "電話番号",
+    "勤務先情報",
+    "契約情報"
+  ],
+  "related_vendor": "SMBCコンシューマーファイナンス",
+  "sources": [
+    {
+      "url": "https://www.fukuokabank.co.jp/announcement/important/y2026/1105.html",
+      "type": "official",
+      "title": "SMBCコンシューマーファイナンス株式会社の保証システムへの不正アクセスによるお客さま情報の漏えいについて",
+      "published_on": "2026-11-05",
+      "checked_on": "2026-11-08"
+    }
+  ],
+  "updates": [],
+  "notes": "SMBCCFが保証するカードローン等の利用者・申込者が対象となる可能性。10月29日の電子地域通貨（Cuenote）の事案とは別。"
+}

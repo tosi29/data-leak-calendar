@@ -11,14 +11,14 @@
   "publication_kind": "initial",
   "occurred_on": null,
   "detected_on": null,
-  "updated_on": "2026-10-23",
+  "updated_on": "2026-11-02",
   "verification": "official",
   "leak_status": "confirmed",
   "incident_type": "attack",
   "cause": {
-    "category": "unauthorized_access",
-    "detail": "第三者による不正アクセス。具体的な侵入手法は調査中または未公表。",
-    "certainty": "confirmed"
+    "category": "configuration",
+    "certainty": "confirmed",
+    "detail": "委託先トレードワークスのシステムで、限定環境からのみ使うべき管理機能が設定上の不備で外部から利用できる状態だった。"
   },
   "impact": [
     {
@@ -47,6 +47,13 @@
       "title": "外部委託先への不正アクセスに伴うお客様情報の漏洩について（第2報）",
       "published_on": "2026-10-20",
       "checked_on": "2026-10-23"
+    },
+    {
+      "url": "https://www.release.tdnet.info/inbs/140120261102562920.pdf",
+      "type": "official",
+      "title": "（開示事項の経過）当社が提供するシステムへの不正アクセスに関するお知らせ（第3報）",
+      "published_on": "2026-11-02",
+      "checked_on": "2026-11-08"
     }
   ],
   "updates": [
@@ -54,6 +61,11 @@
       "date": "2026-10-20",
       "summary": "再調査で364名を追加確認し、対象を4,975名へ更新。新たな攻撃による追加漏えいではない。",
       "source_index": 1
+    },
+    {
+      "date": "2026-11-02",
+      "summary": "トレードワークス第3報。同社向けシステムの一部管理機能が設定不備で外部から利用できる状態だったことが原因。4,975名の漏えいの可能性に変更なし、他の提供先で同様の事象は未確認。",
+      "source_index": 2
     }
   ],
   "notes": "取引暗証番号は対象外。同日の売買管理システム攻撃による不正注文7口座（うち約定5口座）は漏えい人数に加算しない。公式検索収録本文を確認。直接取得は404。"

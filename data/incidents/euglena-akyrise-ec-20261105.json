@@ -1,0 +1,44 @@
+{
+  "id": "euglena-akyrise-ec-20261105",
+  "organization": {
+    "name": "ユーグレナ（akyrise）",
+    "sector": "企業・団体"
+  },
+  "title": "akyrise ECサイトへの不正アクセスで購入者の会員情報が漏えい",
+  "summary": "akyrise ECサイトへの不正アクセスで購入者の会員情報が漏えい。",
+  "published_on": "2026-11-05",
+  "first_published_on": "2026-11-05",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-11-04",
+  "updated_on": "2026-11-05",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "ECサイトへの外部からの不正アクセス。詳細は調査中。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "対象者・件数は調査中。"
+    }
+  ],
+  "data_types": [],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.euglena.jp/news/20261105-1/",
+      "type": "official",
+      "title": "akyrise（あきゅらいず）ECサイト等への不正アクセスに関するお知らせ",
+      "published_on": "2026-11-05",
+      "checked_on": "2026-11-08"
+    }
+  ],
+  "updates": [],
+  "notes": "同じ公表の委託先経由2事案（アララ・佐川急便）とは独立した事象と明記。情報項目は本文の画像で示され、テキストでは確認できない。直接取得はブロックされ取得ツール経由で確認。"
+}

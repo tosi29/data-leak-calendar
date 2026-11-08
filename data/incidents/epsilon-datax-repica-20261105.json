@@ -1,0 +1,46 @@
+{
+  "id": "epsilon-datax-repica-20261105",
+  "organization": {
+    "name": "GMOイプシロン",
+    "sector": "企業・団体"
+  },
+  "title": "マーケティングツール経由のrepicaへの不正アクセスで加盟店のメールアドレス24,645件が漏洩",
+  "summary": "マーケティングツール経由のrepicaへの不正アクセスで加盟店のメールアドレス24,645件が漏洩。",
+  "published_on": "2026-11-05",
+  "first_published_on": "2026-11-05",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-05",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "アララ株式会社のメール配信サービス「repica」への第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 24645,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "10月8～31日にメール配信した加盟店（契約手続き中を含む）のメールアドレス。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "データX／アララ株式会社",
+  "sources": [
+    {
+      "url": "https://www.epsilon.jp/news/20261105.html",
+      "type": "official",
+      "title": "アララ株式会社で発生した不正アクセスに伴うメールアドレス情報の漏洩について",
+      "published_on": "2026-11-05",
+      "checked_on": "2026-11-08"
+    }
+  ],
+  "updates": [],
+  "notes": "氏名・カード情報等は対象外。加盟店のエンドユーザーの情報は含まれないと説明。"
+}

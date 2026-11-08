@@ -1,0 +1,52 @@
+{
+  "id": "seven-eleven-7now-pickgo-20261103",
+  "organization": {
+    "name": "セブン‐イレブン・ジャパン（7NOW）",
+    "sector": "企業・団体"
+  },
+  "title": "7NOWの配達委託先CBcloud「ピックゴー」への不正アクセスで注文者情報169,151件が取得",
+  "summary": "7NOWの配達委託先CBcloud「ピックゴー」への不正アクセスで注文者情報169,151件が取得。",
+  "published_on": "2026-11-03",
+  "first_published_on": "2026-11-03",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-11-03",
+  "updated_on": "2026-11-03",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "一部の配達業務の委託先CBcloudが運営する「ピックゴー」への第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 169151,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "注文者（届け先）の情報。氏名（カナ）のみ164,180件、氏名・住所4,762件、氏名・住所・電話番号・郵便番号209件の合計。"
+    }
+  ],
+  "data_types": [
+    "氏名（カナ）",
+    "住所",
+    "電話番号",
+    "郵便番号",
+    "注文日",
+    "注文店舗",
+    "注文商品名"
+  ],
+  "related_vendor": "CBcloud",
+  "sources": [
+    {
+      "url": "https://www.sej.co.jp/company/important/185116.html",
+      "type": "official",
+      "title": "当社デリバリーサービス「7NOW」の委託先への不正アクセスに伴う、お客様情報の漏えいについてのお知らせとお詫び",
+      "published_on": "2026-11-03",
+      "checked_on": "2026-11-08"
+    }
+  ],
+  "updates": [],
+  "notes": "カード情報・ID・パスワードは漏えいしていない。7NOWは通常どおり稼働。CBcloud自身の公表とは別記録。"
+}

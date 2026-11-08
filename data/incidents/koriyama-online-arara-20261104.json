@@ -1,0 +1,46 @@
+{
+  "id": "koriyama-online-arara-20261104",
+  "organization": {
+    "name": "郡山市",
+    "sector": "自治体"
+  },
+  "title": "オンライン申請・マイナンバーカード交付予約のメール配信を担うアララへの不正アクセスで利用者のメールアドレスに漏えいの可能性",
+  "summary": "オンライン申請・マイナンバーカード交付予約のメール配信を担うアララへの不正アクセスで利用者のメールアドレスに漏えいの可能性。",
+  "published_on": "2026-11-04",
+  "first_published_on": "2026-11-04",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-11-02",
+  "updated_on": "2026-11-04",
+  "verification": "official",
+  "leak_status": "investigating",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "システム提供事業者TKCが利用するアララ株式会社のメール配信サービスへの第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "影響範囲は調査中。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "TKC／アララ株式会社",
+  "sources": [
+    {
+      "url": "https://www.city.koriyama.lg.jp/uploaded/attachment/132827.pdf",
+      "type": "official",
+      "title": "本市システムのメール配信機能を担う外部サービスへの不正アクセスについて",
+      "published_on": "2026-11-04",
+      "checked_on": "2026-11-08"
+    }
+  ],
+  "updates": [],
+  "notes": "市システム自体への不正アクセスは未確認。市の利用者の情報流出は確認されていない。"
+}

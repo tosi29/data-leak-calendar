@@ -11,7 +11,7 @@
   "publication_kind": "initial",
   "occurred_on": null,
   "detected_on": null,
-  "updated_on": "2026-11-01",
+  "updated_on": "2026-11-04",
   "verification": "official",
   "leak_status": "confirmed",
   "incident_type": "attack",
@@ -46,8 +46,21 @@
       "title": "公式お知らせ一覧で29日掲載を確認",
       "published_on": "2026-10-29",
       "checked_on": "2026-11-01"
+    },
+    {
+      "url": "https://2rinkan.jp/annai/20261104/",
+      "type": "official",
+      "title": "「ブラストメール」への不正アクセスに伴う個人情報漏えいのお詫びとお知らせ（第2報）",
+      "published_on": "2026-11-04",
+      "checked_on": "2026-11-08"
     }
   ],
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-11-04",
+      "summary": "第2報。メールマガジン配信希望者489,564名分のメールアドレスの漏えいを公表。個人情報保護委員会へ報告、所轄警察署へ相談し専用窓口を開設。",
+      "source_index": 2
+    }
+  ],
   "notes": "公式一覧の掲載日29日を採用。本文URLの28日や第三者索引の日付だけで公表日を決めない。春の自社アプリ事案とは別。"
 }

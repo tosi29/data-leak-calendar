@@ -1,0 +1,54 @@
+{
+  "id": "dhbk-smbccf-20261105",
+  "organization": {
+    "name": "第四北越銀行",
+    "sector": "企業・団体"
+  },
+  "title": "べんリーナ365の保証委託先SMBCコンシューマーファイナンスへの不正アクセスで顧客最大1,307名の情報が漏えい",
+  "summary": "べんリーナ365の保証委託先SMBCコンシューマーファイナンスへの不正アクセスで顧客最大1,307名の情報が漏えい。",
+  "published_on": "2026-11-05",
+  "first_published_on": "2026-11-05",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-05",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "保証会社SMBCコンシューマーファイナンスの保証業務システムへの第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 1307,
+      "unit": "people",
+      "qualifier": "maximum",
+      "description": "べんリーナ365の利用者等。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "性別",
+    "生年月日",
+    "住所",
+    "電話番号",
+    "メールアドレス",
+    "運転免許証番号",
+    "勤務先情報（年収等）",
+    "契約情報"
+  ],
+  "related_vendor": "SMBCコンシューマーファイナンス",
+  "sources": [
+    {
+      "url": "https://www.dhbk.co.jp/important/1202858_2311.html",
+      "type": "official",
+      "title": "個人向けローン「べんリーナ365」の保証業務に関する外部委託先への不正アクセスによるお客さま情報の漏えいについて",
+      "published_on": "2026-11-05",
+      "checked_on": "2026-11-08"
+    }
+  ],
+  "updates": [],
+  "notes": "SMBCCF全体の最大320,118名の内数で、他行の公表とも合算しない。本人確認書類画像は含まれない。"
+}

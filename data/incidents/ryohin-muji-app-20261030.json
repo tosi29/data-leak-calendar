@@ -4,14 +4,14 @@
     "name": "良品計画",
     "sector": "企業・団体"
   },
-  "title": "MUJIアプリの登録情報に流出のおそれ",
-  "summary": "MUJIアプリの登録情報に流出のおそれ。",
+  "title": "MUJIアプリ・ネットストアの会員情報最大約2,726万件とMUJI Card番号等に流出のおそれ",
+  "summary": "MUJIアプリへの不正アクセスで、アプリとネットストアの利用者のメールアドレス・生年月日等最大約2,726万件（うち約52万件は氏名・住所・電話番号も）、MUJI Card会員約109万件のカード番号等が外部からアクセスされた可能性。",
   "published_on": "2026-10-30",
   "first_published_on": "2026-10-30",
   "publication_kind": "initial",
   "occurred_on": null,
   "detected_on": null,
-  "updated_on": "2026-10-31",
+  "updated_on": "2026-11-04",
   "verification": "official",
   "leak_status": "suspected",
   "incident_type": "attack",
@@ -25,13 +25,36 @@
       "count": 27260000,
       "unit": "records",
       "qualifier": "maximum_approximate",
-      "description": "公表された対象規模。"
+      "description": "メールアドレス・生年月日・性別・会員ID。退会者を含む。"
+    },
+    {
+      "count": 520000,
+      "unit": "records",
+      "qualifier": "approximate",
+      "description": "上記のうち氏名・住所・電話番号も対象の件数（11月4日時点）。内数。"
+    },
+    {
+      "count": 1090000,
+      "unit": "records",
+      "qualifier": "approximate",
+      "description": "MUJI Card会員のカード番号（全桁）・MUJI Card ID・生年月日。合算しない。"
+    },
+    {
+      "count": 120,
+      "unit": "records",
+      "qualifier": "approximate",
+      "description": "カード登録者のカード番号の一部と名義。"
     }
   ],
   "data_types": [
     "メールアドレス",
     "生年月日",
-    "性別"
+    "性別",
+    "会員ID",
+    "氏名",
+    "住所",
+    "電話番号",
+    "クレジットカード番号"
   ],
   "related_vendor": null,
   "sources": [
@@ -41,8 +64,21 @@
       "title": "良品計画による発表：MUJIアプリにおけるお客様情報流出の可能性",
       "published_on": "2026-10-30",
       "checked_on": "2026-10-31"
+    },
+    {
+      "url": "https://www.release.tdnet.info/inbs/140120261104564546.pdf",
+      "type": "official",
+      "title": "情報流出の可能性に関するお知らせ",
+      "published_on": "2026-11-04",
+      "checked_on": "2026-11-08"
     }
   ],
-  "updates": [],
-  "notes": "退会者を含む。氏名・住所・電話番号・カード情報は対象外。外部流出や悪用の確認には至っていない。"
+  "updates": [
+    {
+      "date": "2026-11-04",
+      "summary": "対象に無印良品ネットストアの利用者も含むと判明。最大約2,726万件のうち約52万件は氏名・住所・電話番号も対象。2021年7月までに入会したMUJI Card会員約109万件のカード番号（全桁）・MUJI Card ID・生年月日、カード登録者約120件のカード番号の一部・名義にも外部からアクセスされた可能性。",
+      "source_index": 1
+    }
+  ],
+  "notes": "退会者を含む。MUJI Card約109万件のうち現時点で有効なカードは約34.5万件で、カード名義・有効期限・セキュリティコードは含まない。カード登録者約120件は番号の先頭6桁・下2桁と名義。区分を合算しない。11月2日公表のオーダーカーテン再委託先の事案とは別。"
 }

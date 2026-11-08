@@ -1,0 +1,46 @@
+{
+  "id": "kurihara-smart-shinsei-arara-20261106",
+  "organization": {
+    "name": "栗原市",
+    "sector": "自治体"
+  },
+  "title": "スマート申請システムの外部メール送信サービスへの不正アクセスで登録者のメールアドレスに漏えいのおそれ",
+  "summary": "スマート申請システムの外部メール送信サービスへの不正アクセスで登録者のメールアドレスに漏えいのおそれ。",
+  "published_on": "2026-11-06",
+  "first_published_on": "2026-11-06",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-06",
+  "verification": "official",
+  "leak_status": "investigating",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "システム提供事業者TKCが利用するアララ株式会社の外部メール送信サービスへの第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "町・市の利用者分が含まれるかは調査中。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "TKC／アララ株式会社",
+  "sources": [
+    {
+      "url": "https://www.kuriharacity.jp/w067/020/070/PAGE000000000000012648.html",
+      "type": "official",
+      "title": "【重要】スマート申請システムが利用する外部メール送信サービスへの不正アクセス及びメールアドレス漏えいのおそれについて",
+      "published_on": "2026-11-06",
+      "checked_on": "2026-11-08"
+    }
+  ],
+  "updates": [],
+  "notes": "ページの更新日11月6日を公表日とした（初出日は未確認）。"
+}

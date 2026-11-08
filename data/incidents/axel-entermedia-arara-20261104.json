@@ -1,0 +1,59 @@
+{
+  "id": "axel-entermedia-arara-20261104",
+  "organization": {
+    "name": "アクセルエンターメディア",
+    "sector": "企業・団体"
+  },
+  "title": "メール配信に使うアララへの不正アクセスで顧客のメールアドレス1,086,098件が流出",
+  "summary": "メール配信に使うアララへの不正アクセスで顧客のメールアドレス1,086,098件が流出。",
+  "published_on": "2026-11-04",
+  "first_published_on": "2026-11-04",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-10-30",
+  "updated_on": "2026-11-05",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "アララ株式会社のメール配信サービスへの第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 1086098,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "本サービスでメールを配信していた顧客のメールアドレス。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "アララ株式会社",
+  "sources": [
+    {
+      "url": "https://www.axelentermedia.co.jp/notice_20261104.html",
+      "type": "official",
+      "title": "委託先メール配信サービスへの不正アクセスに関するお詫びとお知らせ",
+      "published_on": "2026-11-04",
+      "checked_on": "2026-11-08"
+    },
+    {
+      "url": "https://domotofc.jp/news/detail/pWE3yuPWNPsYuEyBaBJ3",
+      "type": "official",
+      "title": "メール配信サービスへの不正アクセスによる個人情報漏えいに関するお詫びとお知らせ（DOMOTO OFFICIAL FAN CLUB）",
+      "published_on": "2026-11-05",
+      "checked_on": "2026-11-08"
+    }
+  ],
+  "updates": [
+    {
+      "date": "2026-11-05",
+      "summary": "運営するDOMOTO OFFICIAL FAN CLUBでも同件を告知。詳細は運営会社のお知らせで案内。",
+      "source_index": 1
+    }
+  ],
+  "notes": "その他の項目は調査中。パスワード・カード情報は対象外。各サイト・アーティスト側システムへの不正アクセスではない。ファンクラブ告知は本文の一部のみ取得。"
+}

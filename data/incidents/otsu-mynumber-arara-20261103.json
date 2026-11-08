@@ -1,0 +1,46 @@
+{
+  "id": "otsu-mynumber-arara-20261103",
+  "organization": {
+    "name": "大津市",
+    "sector": "自治体"
+  },
+  "title": "マイナンバーカード交付予約の委託先TKCが使うアララへの不正アクセスで予約者のメールアドレスに漏えいの可能性",
+  "summary": "マイナンバーカード交付予約の委託先TKCが使うアララへの不正アクセスで予約者のメールアドレスに漏えいの可能性。",
+  "published_on": "2026-11-03",
+  "first_published_on": "2026-11-03",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-03",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "システム提供事業者TKCが利用するアララ株式会社のメール配信サービスへの第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "件数は未公表。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "TKC／アララ株式会社",
+  "sources": [
+    {
+      "url": "https://www.city.otsu.lg.jp/soshiki/010/1171/o/77542.html",
+      "type": "official",
+      "title": "不正アクセスに伴うメールアドレス漏洩の可能性と一部サービスの停止について",
+      "published_on": "2026-11-03",
+      "checked_on": "2026-11-08"
+    }
+  ],
+  "updates": [],
+  "notes": "交付予約システムはマイナンバーを使用しておらず漏えいはない。予約完了メールは市から直接送信。"
+}

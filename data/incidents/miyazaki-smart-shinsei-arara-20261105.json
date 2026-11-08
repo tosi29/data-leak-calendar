@@ -1,0 +1,46 @@
+{
+  "id": "miyazaki-smart-shinsei-arara-20261105",
+  "organization": {
+    "name": "宮崎市",
+    "sector": "自治体"
+  },
+  "title": "スマート申請システムが使うアララへの不正アクセスで登録者のメールアドレスに流出の可能性",
+  "summary": "スマート申請システムが使うアララへの不正アクセスで登録者のメールアドレスに流出の可能性。",
+  "published_on": "2026-11-05",
+  "first_published_on": "2026-11-05",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-05",
+  "verification": "official",
+  "leak_status": "investigating",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "システム構築業者TKCが利用するアララ株式会社のメール配信サービスへの第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 39412,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "市の登録者数（個人35,405人・事業者4,007件）。流出件数ではない。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "デンサン／TKC／アララ株式会社",
+  "sources": [
+    {
+      "url": "https://www.city.miyazaki.miyazaki.jp/city/public_relations/press_material/419117.html",
+      "type": "official",
+      "title": "「スマート申請システム」の不正アクセスに伴うメールアドレスの流出及び注意喚起について",
+      "published_on": "2026-11-05",
+      "checked_on": "2026-11-08"
+    }
+  ],
+  "updates": [],
+  "notes": "公表日は公表索引の記録。市分の流出件数は調査中。登録者数は母数として扱う。"
+}

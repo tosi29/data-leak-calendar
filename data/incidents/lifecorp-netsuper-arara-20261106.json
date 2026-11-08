@@ -1,0 +1,48 @@
+{
+  "id": "lifecorp-netsuper-arara-20261106",
+  "organization": {
+    "name": "ライフコーポレーション",
+    "sector": "企業・団体"
+  },
+  "title": "ネットスーパーのメール配信再委託先アララ経由で会員133,330件のメールアドレス等に流出の可能性",
+  "summary": "ネットスーパーのメール配信再委託先アララ経由で会員133,330件のメールアドレス等に流出の可能性。",
+  "published_on": "2026-11-06",
+  "first_published_on": "2026-11-06",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-11-04",
+  "updated_on": "2026-11-06",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "アララ株式会社のメール配信サービスへの第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 133330,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "メール配信を許諾した（過去を含む）ネットスーパー会員。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス",
+    "郵便番号",
+    "会員登録日"
+  ],
+  "related_vendor": "富士通／アララ株式会社",
+  "sources": [
+    {
+      "url": "https://www.lifecorp.jp/vc-files/pdf/newsrelease/others/20261106.pdf",
+      "type": "official",
+      "title": "業務委託先が利用するメール配信サービスへの不正アクセスによるメールアドレス等の流出の可能性に関するお詫びとお知らせ",
+      "published_on": "2026-11-06",
+      "checked_on": "2026-11-08"
+    }
+  ],
+  "updates": [],
+  "notes": "委託先富士通の再委託先アララ。11月3日に連絡を受け4日に自社顧客の情報が含まれる可能性を確認。氏名・住所・電話番号・カード番号・ポイントカード番号・ID・パスワードは対象外。"
+}

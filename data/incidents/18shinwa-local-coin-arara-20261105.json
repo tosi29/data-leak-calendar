@@ -1,0 +1,46 @@
+{
+  "id": "18shinwa-local-coin-arara-20261105",
+  "organization": {
+    "name": "十八親和銀行（MINAコイン・ゆでぴ）",
+    "sector": "企業・団体"
+  },
+  "title": "電子地域通貨のメール配信に使うアララへの不正アクセスで利用者のメールアドレスに漏えいの可能性",
+  "summary": "電子地域通貨のメール配信に使うアララへの不正アクセスで利用者のメールアドレスに漏えいの可能性。",
+  "published_on": "2026-11-05",
+  "first_published_on": "2026-11-05",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-05",
+  "verification": "official",
+  "leak_status": "investigating",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "アララ株式会社のメール配信サービスへの第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "利用者の情報が含まれるかは確認中。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "フィノバレー／アララ株式会社",
+  "sources": [
+    {
+      "url": "https://www.18shinwabank.co.jp/announcement/important/y2026/1105.html",
+      "type": "official",
+      "title": "電子地域通貨「MINAコイン」「ゆでぴ」で利用する外部メール配信サービスへの不正アクセスによるメールアドレス漏えいの可能性について",
+      "published_on": "2026-11-05",
+      "checked_on": "2026-11-08"
+    }
+  ],
+  "updates": [],
+  "notes": "南島原市・大村市の地域通貨。システムベンダーフィノバレーがメール配信を委託。"
+}

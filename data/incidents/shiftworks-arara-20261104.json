@@ -1,0 +1,52 @@
+{
+  "id": "shiftworks-arara-20261104",
+  "organization": {
+    "name": "シフトワークス",
+    "sector": "企業・団体"
+  },
+  "title": "メール配信に使うアララへの不正アクセスで求職者・企業担当者のメールアドレス280,596件が漏えい",
+  "summary": "メール配信に使うアララへの不正アクセスで求職者・企業担当者のメールアドレス280,596件が漏えい。",
+  "published_on": "2026-11-04",
+  "first_published_on": "2026-11-04",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-11-03",
+  "updated_on": "2026-11-04",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "アララ株式会社のメール配信サービス「アララメッセージ」への第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 280596,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "求職者・利用企業担当者のメールアドレス（11月5日更新）。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "アララ株式会社",
+  "sources": [
+    {
+      "url": "https://sftworks.jp/notice/info_20261104.html",
+      "type": "official",
+      "title": "アララ株式会社で発生した不正アクセスに伴うメールアドレスの漏えいについて",
+      "published_on": "2026-11-04",
+      "checked_on": "2026-11-08"
+    }
+  ],
+  "updates": [
+    {
+      "date": "2026-11-05",
+      "summary": "11月5日に内容を更新。件数280,596件（公表索引では初報の最大461,437件から更新）。",
+      "source_index": 0
+    }
+  ],
+  "notes": "メールアドレス以外は漏えい対象外との報告。"
+}

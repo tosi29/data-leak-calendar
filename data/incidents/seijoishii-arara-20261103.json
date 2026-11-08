@@ -1,0 +1,46 @@
+{
+  "id": "seijoishii-arara-20261103",
+  "organization": {
+    "name": "成城石井",
+    "sector": "企業・団体"
+  },
+  "title": "成城石井.comのメールマガジン配信委託先アララへの不正アクセスで会員のメールアドレスが流出",
+  "summary": "成城石井.comのメールマガジン配信委託先アララへの不正アクセスで会員のメールアドレスが流出。",
+  "published_on": "2026-11-03",
+  "first_published_on": "2026-11-03",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-11-03",
+  "updated_on": "2026-11-03",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "アララ株式会社のメール配信サービス「アララメッセージ」への第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 168630,
+      "unit": "records",
+      "qualifier": "maximum",
+      "description": "流出対象となり得る会員メールアドレスの最大件数。流出件数は精査中。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "アララ株式会社",
+  "sources": [
+    {
+      "url": "https://corporate.seijoishii.com/blogs/notice/20261103",
+      "type": "official",
+      "title": "弊社委託先への不正アクセスによるメールアドレス流出に関するお知らせとお詫び",
+      "published_on": "2026-11-03",
+      "checked_on": "2026-11-08"
+    }
+  ],
+  "updates": [],
+  "notes": "11月3日にアララから会員メールアドレスが流出情報に含まれていたと報告。自社システム・オンラインショップへの不正侵入は未確認。"
+}

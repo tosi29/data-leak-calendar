@@ -1,0 +1,52 @@
+{
+  "id": "dennys-app-migration-20261103",
+  "organization": {
+    "name": "デニーズジャパン",
+    "sector": "企業・団体"
+  },
+  "title": "アプリ移行処理で第三者が認証情報を不正作成、一部会員の情報に漏えいの可能性",
+  "summary": "アプリ移行処理で第三者が認証情報を不正作成、一部会員の情報に漏えいの可能性。",
+  "published_on": "2026-11-03",
+  "first_published_on": "2026-11-03",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-10-30",
+  "updated_on": "2026-11-03",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "vulnerability",
+    "certainty": "suspected",
+    "detail": "旧アプリから新アプリへの移行に関するシステム処理で、第三者が認証情報を不正に作成し一部アカウントにアクセスできる状態になっていた。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "対象人数は調査中。"
+    }
+  ],
+  "data_types": [
+    "会員コード",
+    "メールアドレス",
+    "生年月日",
+    "性別",
+    "都道府県",
+    "お気に入り店舗",
+    "キッズバースデー"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.dennys.jp/pdf/261103.pdf",
+      "type": "official",
+      "title": "デニーズアプリへの不正アクセスに関するお知らせ",
+      "published_on": "2026-11-03",
+      "checked_on": "2026-11-08"
+    }
+  ],
+  "updates": [],
+  "notes": "個人情報取得処理の実行履歴はあるが、第三者とお客様自身の操作を区別できていない。確認できたのは10月7日のアクセス記録で、他期間は調査中。氏名・住所・電話番号・パスワード・カード情報は保持していない。"
+}

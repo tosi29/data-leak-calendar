@@ -1,0 +1,46 @@
+{
+  "id": "euglena-akyrise-sagawa-20261105",
+  "organization": {
+    "name": "ユーグレナ（akyrise）",
+    "sector": "企業・団体"
+  },
+  "title": "配送委託先が使う佐川急便の問い合わせサービスへの不正アクセスでお届け先情報に流出の可能性",
+  "summary": "配送委託先が使う佐川急便の問い合わせサービスへの不正アクセスでお届け先情報に流出の可能性。",
+  "published_on": "2026-11-05",
+  "first_published_on": "2026-11-05",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-10-01",
+  "updated_on": "2026-11-05",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "佐川急便の「お荷物問い合わせサービス」への第三者からの不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "対象範囲は確認中。"
+    }
+  ],
+  "data_types": [
+    "お届け先に関する個人情報の一部"
+  ],
+  "related_vendor": "佐川急便",
+  "sources": [
+    {
+      "url": "https://www.euglena.jp/news/20261105-1/",
+      "type": "official",
+      "title": "akyrise（あきゅらいず）ECサイト等への不正アクセスに関するお知らせ",
+      "published_on": "2026-11-05",
+      "checked_on": "2026-11-08"
+    }
+  ],
+  "updates": [],
+  "notes": "10月1日に委託先から報告を受けた。"
+}

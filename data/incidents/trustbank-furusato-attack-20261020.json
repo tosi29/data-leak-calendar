@@ -11,7 +11,7 @@
   "publication_kind": "initial",
   "occurred_on": null,
   "detected_on": null,
-  "updated_on": "2026-10-28",
+  "updated_on": "2026-11-05",
   "verification": "official",
   "leak_status": "confirmed",
   "incident_type": "attack",
@@ -58,6 +58,13 @@
       "title": "第4報：提携先の寄附・決済機能との連携を再開。提携先ごとに順次再開予定で、寄附者向け本体サイトは引き続き停止。",
       "published_on": "2026-10-28",
       "checked_on": "2026-10-28"
+    },
+    {
+      "url": "https://www.trustbank.co.jp/newsroom/newsrelease/news20261105/",
+      "type": "official",
+      "title": "「ふるさとチョイス」の再開について",
+      "published_on": "2026-11-05",
+      "checked_on": "2026-11-08"
     }
   ],
   "updates": [
@@ -70,6 +77,11 @@
       "date": "2026-10-28",
       "summary": "第4報：提携先の寄附・決済機能との連携を再開。提携先ごとに順次再開予定で、寄附者向け本体サイトは引き続き停止。",
       "source_index": 2
+    },
+    {
+      "date": "2026-11-05",
+      "summary": "11月6日12時からWeb版の寄附受付を再開。アプリ版・チョイスPayは準備完了後に再開予定。全会員のパスワードを無効化済み。",
+      "source_index": 3
     }
   ],
   "notes": "10月5日公表のAmazon Pay利用時の表示不具合とは別件。10月19日の停止告知と10月20日の流出公表を区別。件数は調査で変動し得る。"

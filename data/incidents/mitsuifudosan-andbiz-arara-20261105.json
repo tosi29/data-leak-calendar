@@ -1,0 +1,46 @@
+{
+  "id": "mitsuifudosan-andbiz-arara-20261105",
+  "organization": {
+    "name": "三井不動産（&BIZ）",
+    "sector": "企業・団体"
+  },
+  "title": "&BIZのメルマガ配信委託先が使うアララへの不正アクセスで登録メールアドレス133,323件が漏えい",
+  "summary": "&BIZのメルマガ配信委託先が使うアララへの不正アクセスで登録メールアドレス133,323件が漏えい。",
+  "published_on": "2026-11-05",
+  "first_published_on": "2026-11-05",
+  "publication_kind": "initial",
+  "occurred_on": "2026-10-27",
+  "detected_on": "2026-11-02",
+  "updated_on": "2026-11-05",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "アララ株式会社のメール配信サービスへの第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 133323,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "&BIZメールマガジン送信先のメールアドレス。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "アララ株式会社",
+  "sources": [
+    {
+      "url": "https://www.mitsuifudosan.co.jp/corporate/news/2026/1105/download/sonota/20261105.pdf",
+      "type": "official",
+      "title": "業務委託先の利用サービスへの不正アクセスによる「&BIZ」登録のメールアドレス情報の漏えいに関するお詫びとお知らせ",
+      "published_on": "2026-11-05",
+      "checked_on": "2026-11-08"
+    }
+  ],
+  "updates": [],
+  "notes": "氏名その他の個人情報は同システムで扱っておらず漏えいは未確認。9月の別事案とは区別。"
+}

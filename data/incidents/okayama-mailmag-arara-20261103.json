@@ -1,0 +1,65 @@
+{
+  "id": "okayama-mailmag-arara-20261103",
+  "organization": {
+    "name": "岡山県",
+    "sector": "自治体"
+  },
+  "title": "医療安全・感染症情報メールマガジンの登録者メールアドレス最大2,240件がアララ経由で流出",
+  "summary": "医療安全・感染症情報メールマガジンの登録者メールアドレス最大2,240件がアララ経由で流出。",
+  "published_on": "2026-11-03",
+  "first_published_on": "2026-11-03",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-07",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "アララ株式会社のメール配信サービス「アララメッセージ」への第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 2240,
+      "unit": "records",
+      "qualifier": "maximum",
+      "description": "県が登録・管理するメールアドレス件数。流出の詳細は運営事業者が調査中。"
+    },
+    {
+      "count": 22612,
+      "unit": "documents",
+      "qualifier": "exact",
+      "description": "11月7日公表の財団委託事業の案内メール送信件数（19,555件・3,057件）。漏えいの可能性で、件数はアドレス数ではない。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "アララ株式会社",
+  "sources": [
+    {
+      "url": "https://www.pref.okayama.jp/uploaded/life/1064147_10315334_misc.pdf",
+      "type": "official",
+      "title": "メールマガジン配信サービスへの不正アクセスに伴う登録者情報の流出について",
+      "published_on": "2026-11-03",
+      "checked_on": "2026-11-08"
+    },
+    {
+      "url": "https://www.pref.okayama.jp/uploaded/life/1064871_10321935_misc.pdf",
+      "type": "official",
+      "title": "アララ株式会社への不正アクセスに伴うメールアドレス漏えいの可能性について",
+      "published_on": "2026-11-07",
+      "checked_on": "2026-11-08"
+    }
+  ],
+  "updates": [
+    {
+      "date": "2026-11-07",
+      "summary": "岡山県産業振興財団に委託したおかやまテクノロジー展2026と企業成長研修の参加案内メール受信者のメールアドレスにも漏えいの可能性。予防的に注意喚起。",
+      "source_index": 1
+    }
+  ],
+  "notes": "県が登録しているのはメールアドレスのみ。11月7日分は送信件数で、漏えいの有無は調査中。"
+}

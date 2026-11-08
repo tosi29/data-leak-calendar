@@ -1,0 +1,46 @@
+{
+  "id": "takanezawa-mynumber-arara-20261103",
+  "organization": {
+    "name": "高根沢町",
+    "sector": "自治体"
+  },
+  "title": "マイナンバーカード交付予約のメール送信サービスへの不正アクセスで予約者のメールアドレスに漏えいのおそれ",
+  "summary": "マイナンバーカード交付予約のメール送信サービスへの不正アクセスで予約者のメールアドレスに漏えいのおそれ。",
+  "published_on": "2026-11-03",
+  "first_published_on": "2026-11-03",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-03",
+  "verification": "official",
+  "leak_status": "investigating",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "システム提供事業者TKCが利用するアララ株式会社の外部メール送信サービスへの第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "町・市の利用者分が含まれるかは調査中。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "TKC／アララ株式会社",
+  "sources": [
+    {
+      "url": "https://www.town.takanezawa.tochigi.jp/information/2026-1103-0845-77.html",
+      "type": "official",
+      "title": "【重要】マイナンバーカード交付予約受付で利用する外部メール送信サービスへの不正アクセスおよび個人情報漏えいのおそれについて",
+      "published_on": "2026-11-03",
+      "checked_on": "2026-11-08"
+    }
+  ],
+  "updates": [],
+  "notes": "公表日はURL上の掲載日。本文に11月4日の更新記載あり。"
+}

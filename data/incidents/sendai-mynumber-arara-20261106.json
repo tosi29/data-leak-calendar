@@ -1,0 +1,46 @@
+{
+  "id": "sendai-mynumber-arara-20261106",
+  "organization": {
+    "name": "仙台市",
+    "sector": "自治体"
+  },
+  "title": "マイナンバーカード交付予約システムが使うアララへの不正アクセスで予約者のメールアドレスに漏えいの可能性",
+  "summary": "マイナンバーカード交付予約システムが使うアララへの不正アクセスで予約者のメールアドレスに漏えいの可能性。",
+  "published_on": "2026-11-06",
+  "first_published_on": "2026-11-06",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-11-02",
+  "updated_on": "2026-11-06",
+  "verification": "official",
+  "leak_status": "investigating",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "システム運営事業者TKCが利用するアララ株式会社のメール配信サービスへの第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 12211,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "予約システムのメールアドレス登録数（母数）。漏えいの有無・件数は調査中。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "TKC／アララ株式会社",
+  "sources": [
+    {
+      "url": "https://www.city.sendai.jp/kosekijumin/20261106.html",
+      "type": "official",
+      "title": "メール配信サービスに対する不正アクセスによる個人情報漏えいの可能性について",
+      "published_on": "2026-11-06",
+      "checked_on": "2026-11-08"
+    }
+  ],
+  "updates": [],
+  "notes": "12,211件は登録数で漏えい件数として扱わない。"
+}

@@ -1,0 +1,47 @@
+{
+  "id": "tsukaeru-portal-20261107",
+  "organization": {
+    "name": "使えるねっと",
+    "sector": "企業・団体"
+  },
+  "title": "システムへの不正アクセスで契約管理ポータルの顧客情報が漏えい、暗号化パスワードの解読の可能性",
+  "summary": "システムへの不正アクセスで契約管理ポータルの顧客情報が漏えい、暗号化パスワードの解読の可能性。",
+  "published_on": "2026-11-07",
+  "first_published_on": "2026-11-07",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-11-06",
+  "updated_on": "2026-11-07",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "自社システムへの第三者による不正アクセス。侵入経路・発生期間は調査中。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "項目・閲覧取得範囲は調査中。"
+    }
+  ],
+  "data_types": [
+    "使えるポータルの登録情報",
+    "暗号化されたパスワード"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.tsukaeru.net/news/20261107/",
+      "type": "official",
+      "title": "【重要・速報】不正アクセスおよびお客様情報の漏えいに関するお詫びとご報告",
+      "published_on": "2026-11-07",
+      "checked_on": "2026-11-08"
+    }
+  ],
+  "updates": [],
+  "notes": "11月6日にサーバー異常を確認。カード情報はポータルで保管していない。共有サーバーの一部でも不正アクセスを確認し11月2日時点のバックアップから復元。影響を調査中のVPSは127件（侵入・漏えいの確認件数ではない）。"
+}

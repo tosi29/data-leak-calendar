@@ -1,0 +1,44 @@
+{
+  "id": "shibuya-facility-reservation-20261028",
+  "organization": {
+    "name": "渋谷区",
+    "sector": "自治体"
+  },
+  "title": "施設予約システムへの不正アクセスで利用者情報に流出の可能性",
+  "summary": "渋谷マイポータルと施設予約システムへの不正アクセスを検知。施設予約システムから利用者の個人情報が外部に流出した可能性を確認し、項目・対象者・件数は確認中。",
+  "published_on": "2026-10-28",
+  "first_published_on": "2026-10-28",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-06",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "vulnerability",
+    "certainty": "suspected",
+    "detail": "外部からの不正アクセス。関連して確認された脆弱性への対策を実施したと説明。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "施設予約システムの流出可能性がある項目・対象者・件数は確認中。"
+    }
+  ],
+  "data_types": [],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.city.shibuya.tokyo.jp/kusei/koho/shibuya-portal/unauthorized_access_202610.html",
+      "type": "official",
+      "title": "渋谷区のオンラインサービスに対する不正アクセスの検知について（第3報）",
+      "published_on": "2026-11-06",
+      "checked_on": "2026-11-08"
+    }
+  ],
+  "updates": [],
+  "notes": "初報は10月28日（公表索引の記録）。確認した本文は11月6日更新の第3報で、初報・第2報の本文は同じURLで上書き。渋谷マイポータルは漏えいの事実を確認せず再開。施設予約システムは書き換えられたデータをバックアップから復元し、一部消失した情報は再登録を依頼する場合がある。"
+}

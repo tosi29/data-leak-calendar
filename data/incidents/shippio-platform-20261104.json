@@ -1,0 +1,71 @@
+{
+  "id": "shippio-platform-20261104",
+  "organization": {
+    "name": "Shippio",
+    "sector": "企業・団体"
+  },
+  "title": "社内ツールの認証情報を悪用した不正アクセスで全顧客の会社情報が閲覧され書類約1,300件がダウンロード",
+  "summary": "社内業務ツールに保存されていた認証情報を使った不正アクセスで、全顧客の会社名・住所・電話番号やシップメント情報が閲覧され、書類ファイル約1,300件がダウンロードされた。ユーザーの氏名・メールアドレスも漏えい。",
+  "published_on": "2026-11-04",
+  "first_published_on": "2026-11-04",
+  "publication_kind": "initial",
+  "occurred_on": "2026-11-01",
+  "detected_on": "2026-11-02",
+  "updated_on": "2026-11-05",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "credentials",
+    "certainty": "confirmed",
+    "detail": "社内業務ツールに保存されていた認証情報を使った第三者の不正アクセス（11月1日19時30分頃～2日17時頃）。"
+  },
+  "impact": [
+    {
+      "count": 1300,
+      "unit": "documents",
+      "qualifier": "approximate",
+      "description": "実際にダウンロードされた書類ファイル数。"
+    },
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "ユーザーの氏名・メールアドレスの対象人数は未公表。"
+    }
+  ],
+  "data_types": [
+    "ユーザーの氏名",
+    "メールアドレス",
+    "会社名",
+    "住所",
+    "電話番号（会社）",
+    "シップメント情報",
+    "書類ファイル"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.shippio.io/news/20261104/",
+      "type": "official",
+      "title": "【重要】当社プラットフォームへの不正アクセスによる個人情報等の漏えいおよびサービス一時停止に関するお詫びとご報告",
+      "published_on": "2026-11-04",
+      "checked_on": "2026-11-08"
+    },
+    {
+      "url": "https://www.shippio.io/news/20261105/",
+      "type": "official",
+      "title": "【重要】当社プラットフォームのサービス再開および不正アクセスに関するご報告（第二報）",
+      "published_on": "2026-11-05",
+      "checked_on": "2026-11-08"
+    }
+  ],
+  "updates": [
+    {
+      "date": "2026-11-05",
+      "summary": "第二報。11月5日からサービスを順次再開し全ユーザーのパスワードをリセット。ユーザーの電話番号は保持されておらず漏えいしていなかったと訂正。社内共有ファイルの一部も閲覧・取得された。",
+      "source_index": 1
+    }
+  ],
+  "notes": "会社名・チーム名・住所・電話番号は全顧客分の閲覧を確認。システム上のデータの一部も損傷。"
+}

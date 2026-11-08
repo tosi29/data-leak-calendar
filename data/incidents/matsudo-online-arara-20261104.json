@@ -1,0 +1,46 @@
+{
+  "id": "matsudo-online-arara-20261104",
+  "organization": {
+    "name": "松戸市",
+    "sector": "自治体"
+  },
+  "title": "オンライン申請システムのメール配信に使うアララへの不正アクセスで利用者のメールアドレスに漏えいの可能性",
+  "summary": "オンライン申請システムのメール配信に使うアララへの不正アクセスで利用者のメールアドレスに漏えいの可能性。",
+  "published_on": "2026-11-04",
+  "first_published_on": "2026-11-04",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-04",
+  "verification": "official",
+  "leak_status": "investigating",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "システム提供事業者TKCが利用するアララ株式会社のメール配信サービスへの第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 136000,
+      "unit": "accounts",
+      "qualifier": "approximate",
+      "description": "利用者登録数（母数）。漏えいの有無・件数は調査中。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "TKC／アララ株式会社",
+  "sources": [
+    {
+      "url": "https://www.city.matsudo.chiba.jp/shisei/keikaku-kousou/digital/online-sinsei.html",
+      "type": "official",
+      "title": "松戸市オンライン申請システムの（利用者メールアドレス）情報漏えい事案等について（第一報）",
+      "published_on": "2026-11-04",
+      "checked_on": "2026-11-08"
+    }
+  ],
+  "updates": [],
+  "notes": "約13万6千件は利用者登録数で漏えい件数として集計しない。"
+}

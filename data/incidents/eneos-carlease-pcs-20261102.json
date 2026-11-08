@@ -1,0 +1,70 @@
+{
+  "id": "eneos-carlease-pcs-20261102",
+  "organization": {
+    "name": "ENEOS",
+    "sector": "企業・団体"
+  },
+  "title": "カーリース管理の委託先プレステージ・コアソリューションへの不正アクセスで契約者情報最大8,500件が漏洩",
+  "summary": "カーリース管理の委託先プレステージ・コアソリューションへの不正アクセスで契約者情報最大8,500件が漏洩。",
+  "published_on": "2026-11-02",
+  "first_published_on": "2026-11-02",
+  "publication_kind": "initial",
+  "occurred_on": "2026-10-29",
+  "detected_on": "2026-11-02",
+  "updated_on": "2026-11-04",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "委託先プレステージ・コアソリューションの業務システムへの第三者による不正アクセス（10月29～30日）。"
+  },
+  "impact": [
+    {
+      "count": 8500,
+      "unit": "records",
+      "qualifier": "maximum",
+      "description": "ENEOSカーリースの契約件数。"
+    },
+    {
+      "count": 14,
+      "unit": "records",
+      "qualifier": "maximum",
+      "description": "第2報で追加のENEOS Charge Plus法人会員の運転手等の個人情報。合算しない。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "生年月日",
+    "住所",
+    "電話番号",
+    "契約車両情報",
+    "契約情報"
+  ],
+  "related_vendor": "プレステージ・コアソリューション",
+  "sources": [
+    {
+      "url": "https://www.eneos.co.jp/announcement/20261102.html",
+      "type": "official",
+      "title": "カーリースの管理業務委託先システムへの不正アクセスによる個人情報漏洩について",
+      "published_on": "2026-11-02",
+      "checked_on": "2026-11-08"
+    },
+    {
+      "url": "https://www.eneos.co.jp/announcement/20261104.html",
+      "type": "official",
+      "title": "「ENEOSカーリース」および「ENEOS Charge Plus」法人会員向けサービスの管理業務委託先システムへの不正アクセスによる個人情報等の漏洩について【第2報】",
+      "published_on": "2026-11-04",
+      "checked_on": "2026-11-08"
+    }
+  ],
+  "updates": [
+    {
+      "date": "2026-11-04",
+      "summary": "第2報。同じ不正アクセスでENEOS Charge Plusの法人会員の情報も漏洩。運転手の氏名（カナ）・電話番号等の個人情報最大14件、法人用充電会員番号最大2,886件、法人名最大500件。",
+      "source_index": 1
+    }
+  ],
+  "notes": "自社システムへの不正アクセスではない。カード情報・口座情報・ログインパスワードは含まない。法人用充電会員番号・法人名は個人情報件数に含めない。委託先の公表件数とは範囲が異なる。"
+}

@@ -1,0 +1,51 @@
+{
+  "id": "smt-members-arara-20261104",
+  "organization": {
+    "name": "松竹マルチプレックスシアターズ（SMT Members）",
+    "sector": "企業・団体"
+  },
+  "title": "アララメッセージへの不正アクセスでSMT Members会員情報3,320,305件が流出",
+  "summary": "アララメッセージへの不正アクセスでSMT Members会員情報3,320,305件が流出。",
+  "published_on": "2026-11-04",
+  "first_published_on": "2026-11-04",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-04",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "アララ株式会社のメール配信サービスへの第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 3320305,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "SMT Membersの登録会員情報。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス",
+    "会員番号",
+    "氏名",
+    "性別",
+    "生年月日",
+    "住所の一部（郵便番号・都道府県・市区町村）"
+  ],
+  "related_vendor": "アララ株式会社",
+  "sources": [
+    {
+      "url": "https://www.smt-cinema.com/news/detail/098788.html",
+      "type": "official",
+      "title": "メール配信サービス「アララ メッセージ」への不正アクセスによるSMT Members会員情報の流出に関するお詫びとお知らせ",
+      "published_on": "2026-11-04",
+      "checked_on": "2026-11-08"
+    }
+  ],
+  "updates": [],
+  "notes": "10月29・30日は流出未確認と案内していたが、別環境への不正アクセスで11月2日に対象と報告を受けた。電話番号・パスワード・カード情報は含まれない。"
+}

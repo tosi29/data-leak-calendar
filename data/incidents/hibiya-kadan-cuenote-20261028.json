@@ -1,0 +1,66 @@
+{
+  "id": "hibiya-kadan-cuenote-20261028",
+  "organization": {
+    "name": "日比谷花壇",
+    "sector": "企業・団体"
+  },
+  "title": "Cuenote FCへの不正アクセスで法人顧客のメール配信用アドレス帳が取得",
+  "summary": "メール配信に使うCuenote FCへの不正アクセスで、日比谷公園本店のメール配信用アドレス帳5,287件（重複除くメールアドレス2,553件）が10月16日に外部へ取得された。",
+  "published_on": "2026-10-28",
+  "first_published_on": "2026-10-28",
+  "publication_kind": "initial",
+  "occurred_on": "2026-10-16",
+  "detected_on": null,
+  "updated_on": "2026-11-04",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "提供元ユミルリンクのCuenote FCへの第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 5287,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "日比谷公園本店のアドレス帳登録件数。"
+    },
+    {
+      "count": 2553,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "重複を除いたメールアドレス数。上記の内数。"
+    }
+  ],
+  "data_types": [
+    "会社名",
+    "メールアドレス"
+  ],
+  "related_vendor": "ユミルリンク",
+  "sources": [
+    {
+      "url": "https://hibiya.co.jp/news/post20261028-1/",
+      "type": "official",
+      "title": "当社利用サービスへの不正アクセスに伴う個人情報漏えいについて",
+      "published_on": "2026-10-28",
+      "checked_on": "2026-11-08"
+    },
+    {
+      "url": "https://hibiya.co.jp/news/post20271104/",
+      "type": "official",
+      "title": "【続報】当社利用サービスへの不正アクセスに伴う個人情報漏えいについて",
+      "published_on": "2026-11-04",
+      "checked_on": "2026-11-08"
+    }
+  ],
+  "updates": [
+    {
+      "date": "2026-11-04",
+      "summary": "提供元の10月30日追加報告で、日比谷公園本店のアドレス帳5,287件（重複除く2,553件）が10月16日14時17分～14時58分に不正取得されたと確認。",
+      "source_index": 1
+    }
+  ],
+  "notes": "第1報は法人顧客の会社名・メールアドレス等約5,000件に流出の可能性としていた。決済情報・電話番号は対象外。件数は被害を受けた顧客の実数ではないと説明。"
+}

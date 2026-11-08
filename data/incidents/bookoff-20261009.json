@@ -10,7 +10,7 @@
   "publication_kind": "initial",
   "occurred_on": "2026-10-04",
   "detected_on": "2026-10-06",
-  "updated_on": "2026-10-23",
+  "updated_on": "2026-11-06",
   "verification": "official",
   "incident_type": "attack",
   "leak_status": "confirmed",
@@ -43,9 +43,9 @@
     "ニックネーム"
   ],
   "cause": {
-    "category": "unauthorized_access",
-    "detail": "第三者による不正アクセス。具体的な侵入手法は未公表。",
-    "certainty": "unknown"
+    "category": "configuration",
+    "certainty": "confirmed",
+    "detail": "会員情報を取り扱うシステムの一部機能におけるアクセス制御上の問題を第三者に悪用された。"
   },
   "related_vendor": null,
   "sources": [
@@ -69,6 +69,13 @@
       "title": "第2報の一部訂正",
       "published_on": "2026-10-16",
       "checked_on": "2026-10-23"
+    },
+    {
+      "url": "https://www.release.tdnet.info/inbs/140120261106567372.pdf",
+      "type": "official",
+      "title": "不正アクセスによる個人情報漏えいに関するお詫びとお知らせ（第3報）",
+      "published_on": "2026-11-06",
+      "checked_on": "2026-11-08"
     }
   ],
   "notes": "不正取得期間は10月4日〜6日。人数は有効会員6,170,908人・退会会員212,371人。会員カードのみの利用者、決済・口座情報、宅配買取の本人確認書類画像等は対象外。情報の外部公開やポイント不正利用は公表時点で未確認。",
@@ -82,6 +89,11 @@
       "date": "2026-10-16",
       "summary": "対象項目に職業とニックネームを追記。件数・人数の変更はなし。",
       "source_index": 2
+    },
+    {
+      "date": "2026-11-06",
+      "summary": "第3報。会員情報を扱うシステムの一部機能のアクセス制御上の問題を悪用されたと原因を特定。影響範囲は第2報から変更なし。12月初旬に個人情報保護委員会へ確報予定。",
+      "source_index": 3
     }
   ],
   "vendor_research": {
@@ -99,6 +111,10 @@
       },
       {
         "source_index": 2,
+        "status": "reviewed"
+      },
+      {
+        "source_index": 3,
         "status": "reviewed"
       }
     ]

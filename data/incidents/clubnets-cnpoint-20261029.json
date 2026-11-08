@@ -11,14 +11,14 @@
   "publication_kind": "initial",
   "occurred_on": null,
   "detected_on": null,
-  "updated_on": "2026-10-31",
+  "updated_on": "2026-11-04",
   "verification": "official",
   "leak_status": "suspected",
   "incident_type": "attack",
   "cause": {
-    "category": "unauthorized_access",
-    "detail": "第三者による不正アクセス。侵入手口の詳細は未公表または調査中。",
-    "certainty": "unknown"
+    "category": "vulnerability",
+    "certainty": "confirmed",
+    "detail": "サテライトシステム上のアプリケーションの脆弱性を悪用したリモートコード実行攻撃。不正プログラムが設置されデータベースから抽出された可能性。"
   },
   "impact": [
     {
@@ -49,8 +49,21 @@
       "title": "CNポイント関連システムから会員情報が流出した可能性",
       "published_on": "2026-10-29",
       "checked_on": "2026-10-31"
+    },
+    {
+      "url": "https://www.clubnets.jp/infos/id/222",
+      "type": "official",
+      "title": "CNポイント サテライトシステムへの不正アクセスによる一部サービス停止および個人情報流出の可能性に関するお知らせ＜第2報＞",
+      "published_on": "2026-11-04",
+      "checked_on": "2026-11-08"
     }
   ],
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-11-04",
+      "summary": "第2報。アプリケーションの脆弱性を悪用したリモートコード実行攻撃で不正プログラムが設置され、DBから個人情報を含むデータが持ち出された可能性。10月30日に個人情報保護委員会等へ報告、停止中サービスは11月24日復旧予定。",
+      "source_index": 1
+    }
+  ],
   "notes": "異なるデータベース間の重複は不明のため合算しない。パスワード流出は未確認。"
 }

@@ -1,0 +1,46 @@
+{
+  "id": "stcousair-arara-20261103",
+  "organization": {
+    "name": "サンクゼール（St.Cousair）",
+    "sector": "企業・団体"
+  },
+  "title": "アララメッセージへの不正アクセスで会員のメールアドレス878,343件が漏えい",
+  "summary": "アララメッセージへの不正アクセスで会員のメールアドレス878,343件が漏えい。",
+  "published_on": "2026-11-03",
+  "first_published_on": "2026-11-03",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-11-03",
+  "updated_on": "2026-11-03",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "アララ株式会社のメール配信サービス「アララメッセージ」への第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 878343,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "10月30日以前に会員登録した顧客のメールアドレス。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "アララ株式会社",
+  "sources": [
+    {
+      "url": "https://www.stcousair.co.jp/company/news/36892",
+      "type": "official",
+      "title": "【お詫び】メール配信サービスへの不正アクセスによるお客様情報の漏えいについて",
+      "published_on": "2026-11-03",
+      "checked_on": "2026-11-08"
+    }
+  ],
+  "updates": [],
+  "notes": "メールアドレス以外の漏えい有無はアララと確認中。カード情報・パスワードは対象外。オンラインショップ・会員管理システムは影響なし。"
+}

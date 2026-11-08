@@ -1,0 +1,59 @@
+{
+  "id": "gains-getchu-20261104",
+  "organization": {
+    "name": "ゲインズ（Getchu.com）",
+    "sector": "企業・団体"
+  },
+  "title": "Getchu.comの会員管理システムへの不正アクセスで会員情報が流出の可能性",
+  "summary": "Getchu.comの会員管理システムへの不正アクセスで会員情報が流出の可能性。",
+  "published_on": "2026-11-04",
+  "first_published_on": "2026-11-04",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-10-28",
+  "updated_on": "2026-11-04",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "会員情報を管理するシステムへの第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "10月28日17時30分頃までの会員登録者。件数は未公表。"
+    }
+  ],
+  "data_types": [
+    "会員ID",
+    "メールアドレス",
+    "パスワード",
+    "氏名",
+    "郵便番号",
+    "住所",
+    "電話番号",
+    "支払口座情報（アフィリエイター会員）"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.getchu.com/getchu/news20261104.html",
+      "type": "official",
+      "title": "当社サイトへの不正アクセスによるお客様情報流出のお詫びとお知らせ",
+      "published_on": "2026-11-04",
+      "checked_on": "2026-11-08"
+    }
+  ],
+  "updates": [
+    {
+      "date": "2026-11-06",
+      "summary": "11月6日17時更新。アフィリエイター会員は支払口座情報（銀行名・支店名・口座種類・口座番号）の流出が判明。",
+      "source_index": 0
+    }
+  ],
+  "notes": "11月4日1時頃に遮断と安全確認を完了し、全会員のパスワードをリセット。カード情報は保持していない。DL.Getchu.com・Gyutto.comは影響なし。"
+}

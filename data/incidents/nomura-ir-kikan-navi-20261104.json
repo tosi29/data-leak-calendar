@@ -1,0 +1,68 @@
+{
+  "id": "nomura-ir-kikan-navi-20261104",
+  "organization": {
+    "name": "野村インベスター・リレーションズ（機関Navi）",
+    "sector": "企業・団体"
+  },
+  "title": "機関投資家向けIRサービス「機関Navi」への不正アクセスで利用者・元社員の情報が漏えい",
+  "summary": "機関投資家向けIRサービス「機関Navi」への不正アクセスで利用者・元社員の情報が漏えい。",
+  "published_on": "2026-11-04",
+  "first_published_on": "2026-11-04",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-11-02",
+  "updated_on": "2026-11-06",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "機関Naviのシステムへの第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 2000,
+      "unit": "records",
+      "qualifier": "approximate",
+      "description": "機関投資家・アナリスト等の情報。"
+    },
+    {
+      "count": 250,
+      "unit": "records",
+      "qualifier": "approximate",
+      "description": "元社員の情報。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "メールアドレス",
+    "電話番号",
+    "所属会社名・住所・役職・部署"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.nomuraholdings.com/jp/news/topics/20261104.html",
+      "type": "official",
+      "title": "機関投資家・アナリスト向けIR情報提供サービス「機関Navi」への不正アクセスおよび情報漏えいについて",
+      "published_on": "2026-11-04",
+      "checked_on": "2026-11-08"
+    },
+    {
+      "url": "https://www.nomura-ir.co.jp/ja/news/news/news20261106/main/00/link/20261106.pdf",
+      "type": "official",
+      "title": "同（第二報）",
+      "published_on": "2026-11-06",
+      "checked_on": "2026-11-08"
+    }
+  ],
+  "updates": [
+    {
+      "date": "2026-11-06",
+      "summary": "第二報。ダウンロードされたデータ等から、機関投資家・アナリスト等約2,000件と元社員約250件の漏えいを確認。同一サーバーのMIR@Iへの不正アクセスは未確認。",
+      "source_index": 1
+    }
+  ],
+  "notes": "公知情報である上場会社等の代表者氏名・役職も含まれるが件数に含めない。MIR@Iは予防的に停止。"
+}

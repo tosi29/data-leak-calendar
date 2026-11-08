@@ -1,0 +1,46 @@
+{
+  "id": "artpass-inventit-arara-20261104",
+  "organization": {
+    "name": "インヴェンティット（ARTPASS）",
+    "sector": "企業・団体"
+  },
+  "title": "ARTPASSのメルマガ配信委託先アララへの不正アクセスでメールアドレス最大約100万件が漏えい",
+  "summary": "ARTPASSのメルマガ配信委託先アララへの不正アクセスでメールアドレス最大約100万件が漏えい。",
+  "published_on": "2026-11-04",
+  "first_published_on": "2026-11-04",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-04",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "アララ株式会社のメール配信サービス「アララメッセージ」への第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 1000000,
+      "unit": "records",
+      "qualifier": "maximum_approximate",
+      "description": "メールマガジン配信用に登録していたメールアドレス。精査中。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "アララ株式会社",
+  "sources": [
+    {
+      "url": "https://art.passes.jp/post/%E3%80%90%E9%87%8D%E8%A6%81%E3%80%91%E3%83%A1%E3%83%BC%E3%83%AB%E3%83%9E%E3%82%AC%E3%82%B8%E3%83%B3%E9%85%8D%E4%BF%A1%E6%A5%AD%E5%8B%99%E5%A7%94%E8%A8%97%E5%85%88%E3%81%B8%E3%81%AE%E4%B8%8D%E6%AD%A3%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E3%81%8A%E8%A9%AB%E3%81%B3%E3%81%A8%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B",
+      "type": "official",
+      "title": "【重要】メールマガジン配信業務委託先への不正アクセスに関するお詫びとお知らせ",
+      "published_on": "2026-11-04",
+      "checked_on": "2026-11-08"
+    }
+  ],
+  "updates": [],
+  "notes": "公表日は公表索引の記録。当初は環境が保護され流出なしと説明されていた。氏名・住所・電話番号・カード情報・パスワード等は対象外。京都市（京セラ美術館）の公表とは別記録。mobiconnectの事案とは別。"
+}

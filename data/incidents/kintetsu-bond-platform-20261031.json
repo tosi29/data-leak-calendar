@@ -11,7 +11,7 @@
   "publication_kind": "initial",
   "occurred_on": null,
   "detected_on": null,
-  "updated_on": "2026-11-01",
+  "updated_on": "2026-11-02",
   "verification": "official",
   "leak_status": "suspected",
   "incident_type": "attack",
@@ -30,7 +30,9 @@
   ],
   "data_types": [
     "氏名",
-    "社債の購入金額"
+    "社債の購入金額",
+    "メールアドレス",
+    "氏名（カタカナ）"
   ],
   "related_vendor": "株式会社NTTデータ",
   "sources": [
@@ -40,8 +42,21 @@
       "title": "社債購入者情報2,678件に漏えいのおそれ",
       "published_on": "2026-10-31",
       "checked_on": "2026-11-01"
+    },
+    {
+      "url": "https://files.microcms-assets.io/assets/b5bb8ced8fa1487390ad071605410061/1aabda4d5acd40d2b20bebd8cca30b1c/20261102hd.pdf",
+      "type": "official",
+      "title": "【続報】外部サービスへの不正アクセスによる投資家様情報漏えいの可能性について",
+      "published_on": "2026-11-02",
+      "checked_on": "2026-11-08"
     }
   ],
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-11-02",
+      "summary": "続報。持ち出された可能性のある氏名はカタカナと判明し、メールアドレスも対象に追加。対象2,678件に変更なし。",
+      "source_index": 1
+    }
+  ],
   "notes": "NTTデータの委託先が提供するデジタル証券プラットフォームの事案。他の販売会社・発行会社の公表と対象が重複し得るため合算しない。30日に報告受領。証券口座番号・パスワードは保持していない。"
 }

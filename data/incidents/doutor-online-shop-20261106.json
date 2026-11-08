@@ -1,0 +1,56 @@
+{
+  "id": "doutor-online-shop-20261106",
+  "organization": {
+    "name": "ドトールコーヒー（ドトール オンラインショップ）",
+    "sector": "企業・団体"
+  },
+  "title": "通販サイト管理画面への不正アクセスで会員情報24,762件等が流出の可能性",
+  "summary": "通販サイト管理画面への不正アクセスで会員情報24,762件等が流出の可能性。",
+  "published_on": "2026-11-06",
+  "first_published_on": "2026-11-06",
+  "publication_kind": "initial",
+  "occurred_on": "2026-10-24",
+  "detected_on": "2026-10-28",
+  "updated_on": "2026-11-06",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "外部の第三者が通販サイトの管理画面に不正アクセスし、会員情報を出力・閲覧した。原因は調査中。"
+  },
+  "impact": [
+    {
+      "count": 24771,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "会員情報24,762件とお届け先情報9件の合計。"
+    }
+  ],
+  "data_types": [
+    "会員ID",
+    "氏名",
+    "会社名",
+    "住所",
+    "メールアドレス",
+    "電話番号",
+    "生年月日",
+    "性別",
+    "職業",
+    "購買情報",
+    "お届け先の氏名・都道府県"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.doutor.co.jp/news/newsrelease/detail/20261106150715.html",
+      "type": "official",
+      "title": "当社公式通販サイトにおける個人情報漏えいの可能性に関するお詫びとお知らせ",
+      "published_on": "2026-11-06",
+      "checked_on": "2026-11-08"
+    }
+  ],
+  "updates": [],
+  "notes": "10月28日に決済代行会社から不審な動きの連絡。開発・保守委託先が調査。ログインパスワード・カード情報は漏えいしていない。オンラインショップを停止し定期購入を休止。10月26日の従業員情報の事案とは別。"
+}

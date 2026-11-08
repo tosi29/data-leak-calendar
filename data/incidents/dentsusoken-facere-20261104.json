@@ -1,0 +1,44 @@
+{
+  "id": "dentsusoken-facere-20261104",
+  "organization": {
+    "name": "電通総研（FACERE）",
+    "sector": "企業・団体"
+  },
+  "title": "FACEREの特定企業環境でアクセス権限の設定不備により第三者が不正アクセス、個人情報に流出の可能性",
+  "summary": "FACEREの特定企業環境でアクセス権限の設定不備により第三者が不正アクセス、個人情報に流出の可能性。",
+  "published_on": "2026-11-04",
+  "first_published_on": "2026-11-04",
+  "publication_kind": "initial",
+  "occurred_on": "2026-09-10",
+  "detected_on": "2026-10-29",
+  "updated_on": "2026-11-04",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "configuration",
+    "certainty": "confirmed",
+    "detail": "特定企業の環境下で電通総研のアクセス権限の設定不備があり、保管データが第三者に閲覧可能な状態だった。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "対象件数・項目は未公表。"
+    }
+  ],
+  "data_types": [],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.dentsusoken.com/news/topics/2026/1104_1.html",
+      "type": "official",
+      "title": "【重要】当社サービスを利用する特定企業の環境下における個人情報流出の可能性に関するお知らせとお詫び",
+      "published_on": "2026-11-04",
+      "checked_on": "2026-11-08"
+    }
+  ],
+  "updates": [],
+  "notes": "他の利用企業の環境では11月3日時点で設定不備は見つかっていない。不正利用・二次被害は未確認。"
+}

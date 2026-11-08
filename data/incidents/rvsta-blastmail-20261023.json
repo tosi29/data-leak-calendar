@@ -1,0 +1,71 @@
+{
+  "id": "rvsta-blastmail-20261023",
+  "organization": {
+    "name": "リバスタ",
+    "sector": "企業・団体"
+  },
+  "title": "ブラストメールへの不正アクセスでe-reverse.comの配信先メールアドレス12万件が漏えい",
+  "summary": "ブラストメールへの不正アクセスで、電子マニフェストサービス「e-reverse.com」の配信先メールアドレス12万件の漏えいを確認。",
+  "published_on": "2026-10-23",
+  "first_published_on": "2026-10-23",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-05",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "メール配信サービス「ブラストメール」への第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 120000,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "e-reverse.comの配信先メールアドレス件数。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "ラクスライトクラウド",
+  "sources": [
+    {
+      "url": "https://www.rvsta.co.jp/news/20261023/",
+      "type": "official",
+      "title": "メール配信サービスへの不正アクセスに伴う情報漏えいに関するお知らせ",
+      "published_on": "2026-10-23",
+      "checked_on": "2026-11-08"
+    },
+    {
+      "url": "https://www.rvsta.co.jp/news/20261028/",
+      "type": "official",
+      "title": "メール配信サービス「ブラストメール」への不正アクセスに伴う情報漏えいに関するお詫びとお知らせ（第2報）",
+      "published_on": "2026-10-28",
+      "checked_on": "2026-11-08"
+    },
+    {
+      "url": "https://www.rvsta.co.jp/news/20261105/",
+      "type": "official",
+      "title": "メール配信サービス「ブラストメール」への不正アクセスに伴う情報漏えいに関するお詫びとお知らせ（第3報）",
+      "published_on": "2026-11-05",
+      "checked_on": "2026-11-08"
+    }
+  ],
+  "updates": [
+    {
+      "date": "2026-10-28",
+      "summary": "e-reverse.comの配信先メールアドレス12万件の漏えいを確認。氏名・パスワード等は含まない。",
+      "source_index": 1
+    },
+    {
+      "date": "2026-11-05",
+      "summary": "対象アドレスへのお詫びメール送信を完了。11月4日に提供元と連名で個人情報保護委員会へ報告。他サービスの配信先は提供元が調査中。",
+      "source_index": 2
+    }
+  ],
+  "notes": "第1報では項目・件数とも提供元が確認中としていた。氏名・社名・ユーザーID・パスワードは含まれない。"
+}

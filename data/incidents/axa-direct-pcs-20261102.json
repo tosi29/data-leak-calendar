@@ -1,0 +1,44 @@
+{
+  "id": "axa-direct-pcs-20261102",
+  "organization": {
+    "name": "アクサ損害保険",
+    "sector": "企業・団体"
+  },
+  "title": "ロードサービス委託先プレステージ・コアソリューションへの不正アクセスで顧客情報への影響を調査",
+  "summary": "ロードサービス委託先プレステージ・コアソリューションへの不正アクセスで顧客情報への影響を調査。",
+  "published_on": "2026-11-02",
+  "first_published_on": "2026-11-02",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-02",
+  "verification": "official",
+  "leak_status": "investigating",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "ロードサービス業務の委託先プレステージ・コアソリューションの業務システムへの第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "流出の有無・影響範囲は確認できていない。"
+    }
+  ],
+  "data_types": [],
+  "related_vendor": "プレステージ・コアソリューション",
+  "sources": [
+    {
+      "url": "https://www.axa-direct.co.jp/company/official_info/announce/2026/261102.html",
+      "type": "official",
+      "title": "ロードサービス提携業者への不正アクセスの発生に関するお知らせ（第1報）",
+      "published_on": "2026-11-02",
+      "checked_on": "2026-11-08"
+    }
+  ],
+  "updates": [],
+  "notes": "委託先のシステムに同社顧客の情報が含まれる。11月4日にページを更新（最終更新日表示）。委託先の最大約550万件とは合算しない。"
+}

@@ -1,0 +1,46 @@
+{
+  "id": "tokai-coop-repica-20261103",
+  "organization": {
+    "name": "東海コープ事業連合（コープぎふ・コープあいち・コープみえ）",
+    "sector": "企業・団体"
+  },
+  "title": "repicaへの不正アクセスで東海3生協の配信先メールアドレスが流出",
+  "summary": "repicaへの不正アクセスで東海3生協の配信先メールアドレスが流出。",
+  "published_on": "2026-11-03",
+  "first_published_on": "2026-11-03",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-03",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "アララ株式会社のメール配信サービス「repica」への第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "件数は本文で確認（公表索引では160,751件）。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "アララ株式会社",
+  "sources": [
+    {
+      "url": "https://www2.tcoop.or.jp/news/20261104_important.html",
+      "type": "official",
+      "title": "メール配信サービスにおけるメールアドレスの漏えいについて",
+      "published_on": "2026-11-03",
+      "checked_on": "2026-11-08"
+    }
+  ],
+  "updates": [],
+  "notes": "東海3生協が10月8～29日に配信したメールのアドレスが対象。組合員情報・注文情報のシステムへの侵入は未確認。共同公表を1記録とする。"
+}

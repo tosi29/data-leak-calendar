@@ -11,7 +11,7 @@
   "publication_kind": "initial",
   "occurred_on": null,
   "detected_on": null,
-  "updated_on": "2026-11-01",
+  "updated_on": "2026-11-06",
   "verification": "official",
   "leak_status": "confirmed",
   "incident_type": "attack",
@@ -22,10 +22,10 @@
   },
   "impact": [
     {
-      "count": null,
-      "unit": "records",
-      "qualifier": "unknown",
-      "description": "漏えいの可能性がある配信リストは4万件以上。実際の流出件数は未確定であり、4万件を確定値や上限として表示しない。"
+      "count": 27139,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "11月6日更新で公表された組合員の人数。"
     }
   ],
   "data_types": [
@@ -33,7 +33,8 @@
     "氏名",
     "組合員番号",
     "性別",
-    "メールアドレス"
+    "メールアドレス",
+    "生年月日"
   ],
   "related_vendor": null,
   "sources": [
@@ -43,8 +44,21 @@
       "title": "旧メールマガジンの配信リストから個人情報の一部が流出",
       "published_on": "2026-10-26",
       "checked_on": "2026-11-01"
+    },
+    {
+      "url": "https://www.jprouso.or.jp/system/servlet/yusei.UserMain?method=show_detail&clause_id=18457",
+      "type": "official",
+      "title": "【更新】組合員情報漏えいに関するお知らせとお詫び",
+      "published_on": "2026-11-06",
+      "checked_on": "2026-11-08"
     }
   ],
-  "updates": [],
-  "notes": "2019年まで利用したメールマガジンの配信リスト。サイト運営事業者名・侵入経路は未公表。"
+  "updates": [
+    {
+      "date": "2026-11-06",
+      "summary": "更新。委託業者のメールマガジン配信システムから組合員27,139名の地方本部名・氏名・組合員番号・性別・生年月日・メールアドレスが漏えい。10月29日に個人情報保護委員会へ報告。",
+      "source_index": 1
+    }
+  ],
+  "notes": "2019年頃まで運用した委託業者のメールマガジン配信システム。住所・電話番号・パスワード・口座情報・要配慮個人情報は含まれない。10月26日時点は配信リスト4万件以上の漏えいの可能性としていた。"
 }

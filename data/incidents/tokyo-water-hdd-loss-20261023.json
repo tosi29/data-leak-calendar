@@ -1,0 +1,48 @@
+{
+  "id": "tokyo-water-hdd-loss-20261023",
+  "organization": {
+    "name": "東京都水道局",
+    "sector": "自治体"
+  },
+  "title": "執務室のキャビネットから個人情報1,932名分を含む外付けHDD4台を紛失",
+  "summary": "執務室のキャビネットから個人情報1,932名分を含む外付けHDD4台を紛失。",
+  "published_on": "2026-10-23",
+  "first_published_on": "2026-10-23",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-10-02",
+  "updated_on": "2026-10-23",
+  "verification": "official",
+  "leak_status": "lost",
+  "incident_type": "accident",
+  "cause": {
+    "category": "loss",
+    "certainty": "confirmed",
+    "detail": "施錠管理されたキャビネットに収納箱のみが残り、HDD4台が見つからない。"
+  },
+  "impact": [
+    {
+      "count": 1932,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "企業・国・自治体関係者1,037名、地域住民等895名。大部分は氏名のみ。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所（一部）",
+    "電話番号（一部）"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.waterworks.metro.tokyo.lg.jp/information/press/r8/10/2026102301",
+      "type": "official",
+      "title": "個人情報を含む情報を記録した外付けハードディスクの紛失について",
+      "published_on": "2026-10-23",
+      "checked_on": "2026-11-08"
+    }
+  ],
+  "updates": [],
+  "notes": "当局所有用地の管理・活用に関する資料等。二次被害は未確認。10月26日公表の委託先社員による書類紛失（84軒分）とは別事案。報道で把握した未収録分として追加。"
+}

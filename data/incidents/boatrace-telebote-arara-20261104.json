@@ -1,0 +1,46 @@
+{
+  "id": "boatrace-telebote-arara-20261104",
+  "organization": {
+    "name": "BOATRACE振興会",
+    "sector": "企業・団体"
+  },
+  "title": "テレボート会員メールマガジン等の配信先メールアドレス最大684,772件が漏洩",
+  "summary": "テレボート会員メールマガジン等の配信先メールアドレス最大684,772件が漏洩。",
+  "published_on": "2026-11-04",
+  "first_published_on": "2026-11-04",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-11-03",
+  "updated_on": "2026-11-04",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "アララ株式会社のメール配信サービス「アララメッセージ」への第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 684772,
+      "unit": "records",
+      "qualifier": "maximum",
+      "description": "日本レジャーチャンネルが同環境で配信した別メールの宛先を含む最大数。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "日本レジャーチャンネル／アララ株式会社",
+  "sources": [
+    {
+      "url": "https://www.boatrace-pr.jp/sp/site/release/2026/11/11924/",
+      "type": "official",
+      "title": "テレボート会員メールマガジン等のメール配信サービスに対する不正アクセス及び情報漏洩に関するお詫びとお知らせ",
+      "published_on": "2026-11-04",
+      "checked_on": "2026-11-08"
+    }
+  ],
+  "updates": [],
+  "notes": "日本レジャーチャンネルを通じてアララメッセージを利用。氏名・住所等の漏洩はないと説明。"
+}

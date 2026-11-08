@@ -1,0 +1,59 @@
+{
+  "id": "tochigibank-arara-20261102",
+  "organization": {
+    "name": "栃木銀行",
+    "sector": "企業・団体"
+  },
+  "title": "メール配信サービスが使うアララのサーバーへの不正アクセスで顧客のメールアドレス約1,000件が流出",
+  "summary": "メール配信サービスが使うアララのサーバーへの不正アクセスで顧客のメールアドレス約1,000件が流出。",
+  "published_on": "2026-11-02",
+  "first_published_on": "2026-11-02",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-03",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "アララ株式会社のメール配信サービスへの第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 1000,
+      "unit": "records",
+      "qualifier": "approximate",
+      "description": "10月8～29日に当行から発信したメールの一部のメールアドレス。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "アララ株式会社",
+  "sources": [
+    {
+      "url": "https://www.tochigibank.co.jp/info/detail?id=3890",
+      "type": "official",
+      "title": "当行が利用するメール配信サービスへの不正アクセスによるお客さまメールアドレス流出について",
+      "published_on": "2026-11-02",
+      "checked_on": "2026-11-08"
+    },
+    {
+      "url": "https://www.tochigibank.co.jp/showimage/pdf?fileNo=3648",
+      "type": "official",
+      "title": "同（第2報）",
+      "published_on": "2026-11-03",
+      "checked_on": "2026-11-08"
+    }
+  ],
+  "updates": [
+    {
+      "date": "2026-11-03",
+      "summary": "第2報。流出は約1,000件のメールアドレスで、氏名・住所・口座情報・暗証番号等の流出は未確認。",
+      "source_index": 1
+    }
+  ],
+  "notes": ""
+}

@@ -1,0 +1,53 @@
+{
+  "id": "biccamera-group-arara-20261102",
+  "organization": {
+    "name": "ビックカメラ／コジマ／ソフマップ",
+    "sector": "企業・団体"
+  },
+  "title": "メール配信委託先アララへの不正アクセスでメールマガジン登録者のメールアドレス等約1,490万件に流出の可能性",
+  "summary": "メール配信委託先アララへの不正アクセスでメールマガジン登録者のメールアドレス等約1,490万件に流出の可能性。",
+  "published_on": "2026-11-02",
+  "first_published_on": "2026-11-02",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-04",
+  "verification": "secondary",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "メール配信を委託するアララ株式会社のメール配信システムへの第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 14900000,
+      "unit": "records",
+      "qualifier": "approximate",
+      "description": "3社合計の対象件数（報道値）。各社別の内訳は未確認。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "アララ株式会社",
+  "sources": [
+    {
+      "url": "https://www.itmedia.co.jp/news/article/2611/04/2000002866/",
+      "type": "news",
+      "title": "ビックカメラG、メールアドレスなど約1490万件漏えいの可能性 委託先への不正アクセスで（ITmedia NEWS）",
+      "published_on": "2026-11-04",
+      "checked_on": "2026-11-08"
+    },
+    {
+      "url": "https://www.biccamera.com/bc/c/info/report/sorry_20261102.jsp",
+      "type": "reference",
+      "title": "（公式告知：直接取得・取得ツールとも応答なし）",
+      "published_on": "2026-11-02",
+      "checked_on": "2026-11-08"
+    }
+  ],
+  "updates": [],
+  "notes": "公式告知は直接取得・取得ツールとも応答がなく、報道で発表日・件数・対象外情報を確認したため二次資料扱い。カード情報・通販サイトのログイン情報は対象外。3社連名の公表を1記録とする。"
+}

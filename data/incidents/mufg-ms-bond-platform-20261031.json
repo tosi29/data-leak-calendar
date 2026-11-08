@@ -11,7 +11,7 @@
   "publication_kind": "initial",
   "occurred_on": null,
   "detected_on": null,
-  "updated_on": "2026-11-01",
+  "updated_on": "2026-11-02",
   "verification": "official",
   "leak_status": "suspected",
   "incident_type": "attack",
@@ -30,7 +30,10 @@
   ],
   "data_types": [
     "氏名",
-    "社債の購入金額"
+    "社債の購入金額",
+    "氏名（カタカナ）",
+    "メールアドレス",
+    "購入金額"
   ],
   "related_vendor": "株式会社NTTデータ",
   "sources": [
@@ -40,8 +43,21 @@
       "title": "近鉄社債の購入顧客95名に情報漏えいのおそれ",
       "published_on": "2026-10-31",
       "checked_on": "2026-11-01"
+    },
+    {
+      "url": "https://www.sc.mufg.jp/company/news/inform/info20261031.html",
+      "type": "official",
+      "title": "【第二報】当社が取り扱った社債に関する投資家情報の漏えいの可能性について",
+      "published_on": "2026-11-02",
+      "checked_on": "2026-11-08"
     }
   ],
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-11-02",
+      "summary": "第二報。NTTデータ等の追加調査で、漏えいした可能性のある情報はカナ氏名・メールアドレス・購入金額との報告。",
+      "source_index": 1
+    }
+  ],
   "notes": "NTTデータの委託先が提供するデジタル証券プラットフォームの事案。他の販売会社・発行会社の公表と対象が重複し得るため合算しない。証券会社自体への侵入ではない。証券口座番号・パスワードは対象外。"
 }

@@ -1,0 +1,71 @@
+{
+  "id": "odk-solutions-arara-20261102",
+  "organization": {
+    "name": "ODKソリューションズ",
+    "sector": "企業・団体"
+  },
+  "title": "アララメッセージへの不正アクセスで大学生向けメルマガ登録メールアドレス791,551件が流出",
+  "summary": "アララメッセージへの不正アクセスで大学生向けメルマガ登録メールアドレス791,551件が流出。",
+  "published_on": "2026-11-02",
+  "first_published_on": "2026-11-02",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-06",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "アララ株式会社のメール配信サービスへの第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 791551,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "当社利用環境から流出が確認されたメールアドレス。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "アララ株式会社",
+  "sources": [
+    {
+      "url": "https://ssl4.eir-parts.net/doc/3839/ir_material8/289292/00.pdf",
+      "type": "official",
+      "title": "アララ株式会社で発生した不正アクセスにともなうメールアドレス漏えいについて",
+      "published_on": "2026-11-02",
+      "checked_on": "2026-11-08"
+    },
+    {
+      "url": "https://ssl4.eir-parts.net/doc/3839/ir_material8/289303/00.pdf",
+      "type": "official",
+      "title": "同（第2報）",
+      "published_on": "2026-11-03",
+      "checked_on": "2026-11-08"
+    },
+    {
+      "url": "https://ssl4.eir-parts.net/doc/3839/ir_material8/289693/00.pdf",
+      "type": "official",
+      "title": "【第3報】個別通知の開始について",
+      "published_on": "2026-11-06",
+      "checked_on": "2026-11-08"
+    }
+  ],
+  "updates": [
+    {
+      "date": "2026-11-03",
+      "summary": "第2報。当社利用環境からメールアドレス791,551件の流出を確認。",
+      "source_index": 1
+    },
+    {
+      "date": "2026-11-06",
+      "summary": "第3報。大学生向け・保護者向けメルマガ登録者への個別通知を開始。",
+      "source_index": 2
+    }
+  ],
+  "notes": "アララに登録していた項目はメールアドレスのみ。"
+}

@@ -1,0 +1,60 @@
+{
+  "id": "asoview-arara-20261103",
+  "organization": {
+    "name": "アソビュー",
+    "sector": "企業・団体"
+  },
+  "title": "アララメッセージへの不正アクセスで会員情報15,821,184件が流出",
+  "summary": "メール配信に使うアララメッセージへの不正アクセスで、預託していたアソビュー！会員のメールアドレス・氏名・電話番号・生年月日・チケット購入情報等15,821,184件が流出。",
+  "published_on": "2026-11-03",
+  "first_published_on": "2026-11-03",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-11-02",
+  "updated_on": "2026-11-03",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "アララ株式会社のメール配信サービス「アララメッセージ」への第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 15821184,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "本サービスでメールを配信した会員の情報件数。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス",
+    "会員ID",
+    "氏名",
+    "性別",
+    "生年月日",
+    "電話番号",
+    "郵便番号",
+    "居住地域",
+    "チケット購入・利用情報"
+  ],
+  "related_vendor": "アララ株式会社",
+  "sources": [
+    {
+      "url": "https://www.asoview.co.jp/news/articles/AyTdT_tX",
+      "type": "official",
+      "title": "委託先メール配信サービスへの不正アクセスに関するお詫びとお知らせ",
+      "published_on": "2026-11-03",
+      "checked_on": "2026-11-08"
+    }
+  ],
+  "updates": [
+    {
+      "date": "2026-11-06",
+      "summary": "11月6日追記。アララから対象者を受領し、11月5日19時時点で全対象者へメールで報告。",
+      "source_index": 0
+    }
+  ],
+  "notes": "本文はページ埋め込みデータで確認。パスワード・カード情報は預託しておらず対象外。アソビューを受託先とする自治体等（山梨県・埼玉県・沖縄県・京都市等）の公表は別記録で、件数を合算しない。"
+}

@@ -1,0 +1,59 @@
+{
+  "id": "marui-securitize-bond-20261102",
+  "organization": {
+    "name": "丸井グループ",
+    "sector": "企業・団体"
+  },
+  "title": "デジタル社債の管理委託先Securitize Japanへの不正アクセスで応募者最大9,086名の情報が漏えい",
+  "summary": "デジタル社債の管理委託先Securitize Japanへの不正アクセスで応募者最大9,086名の情報が漏えい。",
+  "published_on": "2026-11-02",
+  "first_published_on": "2026-11-02",
+  "publication_kind": "initial",
+  "occurred_on": "2026-10-29",
+  "detected_on": null,
+  "updated_on": "2026-11-02",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "デジタル社債の管理業務の委託先Securitize Japanのサーバーへの第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 9086,
+      "unit": "people",
+      "qualifier": "maximum",
+      "description": "デジタル社債の申込みでアカウントを作成した顧客。"
+    },
+    {
+      "count": 54,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "上記のうち銀行口座番号まで漏えいした可能性がある顧客。内数。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "電話番号",
+    "メールアドレス",
+    "生年月日",
+    "性別",
+    "銀行口座番号（一部）",
+    "投資口数"
+  ],
+  "related_vendor": "Securitize Japan",
+  "sources": [
+    {
+      "url": "https://www.0101maruigroup.co.jp/nr/o-20-0zfdye",
+      "type": "official",
+      "title": "デジタル社債の管理に関する外部委託先企業への不正アクセスによるお客さまの情報漏えいについて",
+      "published_on": "2026-11-02",
+      "checked_on": "2026-11-08"
+    }
+  ],
+  "updates": [],
+  "notes": "自社システムからの漏えいは未確認。カード情報は委託していない。ソニー銀行・LIFULL Investment等の同じ委託先に関する公表とは別記録で、件数を合算しない。"
+}

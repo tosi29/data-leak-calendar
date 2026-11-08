@@ -1,0 +1,46 @@
+{
+  "id": "valuegolf-hitoriyoyaku-20261102",
+  "organization": {
+    "name": "バリューゴルフ（1人予約ランド）",
+    "sector": "企業・団体"
+  },
+  "title": "1人予約ランドへの不正アクセスで利用者のログイン用メールアドレスが閲覧・取得の可能性",
+  "summary": "1人予約ランドへの不正アクセスで利用者のログイン用メールアドレスが閲覧・取得の可能性。",
+  "published_on": "2026-11-02",
+  "first_published_on": "2026-11-02",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-11-01",
+  "updated_on": "2026-11-02",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "第三者による不正アクセス。経路を遮断し不備を修正したと説明。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "件数は未公表。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.release.tdnet.info/inbs/140120261102563148.pdf",
+      "type": "official",
+      "title": "当社サービスへの不正アクセスに関するお知らせ（第一報）",
+      "published_on": "2026-11-02",
+      "checked_on": "2026-11-08"
+    }
+  ],
+  "updates": [],
+  "notes": "メールアドレス以外の登録情報（氏名等）は含まれないと説明。"
+}

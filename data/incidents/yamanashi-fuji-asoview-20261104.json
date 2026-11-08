@@ -1,0 +1,54 @@
+{
+  "id": "yamanashi-fuji-asoview-20261104",
+  "organization": {
+    "name": "山梨県",
+    "sector": "自治体"
+  },
+  "title": "富士山吉田ルート通行予約の受託企業アソビュー経由でアララの侵害の影響を調査",
+  "summary": "令和7・8年度の富士山吉田ルート通行予約システムの受託企業アソビューが使うアララメッセージへの不正アクセスで、同社会員情報15,821,184件の流出を確認。県のシステム利用者（最大計197,556人）が含まれるかは調査中。",
+  "published_on": "2026-11-04",
+  "first_published_on": "2026-11-04",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-11-03",
+  "updated_on": "2026-11-04",
+  "verification": "official",
+  "leak_status": "investigating",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "受託企業アソビューがメール配信に使うアララメッセージへの第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 197556,
+      "unit": "people",
+      "qualifier": "maximum",
+      "description": "令和7年度最大83,013人・令和8年度最大114,543人の合計。まとめ買いを含み実人数は少なくなる見込み。含まれるかは調査中。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス",
+    "電話番号",
+    "郵便番号",
+    "居住地域",
+    "会員ID",
+    "氏名",
+    "性別",
+    "生年月日",
+    "チケット購入・利用情報"
+  ],
+  "related_vendor": "アソビュー／アララ",
+  "sources": [
+    {
+      "url": "https://www.pref.yamanashi.jp/fujisan/20261104/20261104tsuukouyoyakuryuusyutu.html",
+      "type": "official",
+      "title": "令和7・8年度山梨県富士山吉田ルート通行予約システムに係る情報漏洩の可能性について",
+      "published_on": "2026-11-04",
+      "checked_on": "2026-11-08"
+    }
+  ],
+  "updates": [],
+  "notes": "15,821,184件はアソビュー全体で流出を確認した会員情報件数で、県の利用者数ではない。パスワード・カード番号は対象外。令和6年度のJapanTicketの事案とは別。"
+}

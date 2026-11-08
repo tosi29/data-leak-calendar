@@ -11,7 +11,7 @@
   "publication_kind": "initial",
   "occurred_on": null,
   "detected_on": "2026-10-28",
-  "updated_on": "2026-10-31",
+  "updated_on": "2026-11-06",
   "verification": "official",
   "leak_status": "suspected",
   "incident_type": "attack",
@@ -50,6 +50,13 @@
       "title": "データベースへの攻撃痕跡を確認し、施主・パートナー企業の連絡先とログイン情報に漏えいのおそれ。件数は精査中。",
       "published_on": "2026-10-30",
       "checked_on": "2026-10-31"
+    },
+    {
+      "url": "https://nttse.com/news/pressrelease/2026/11-06/3292/",
+      "type": "official",
+      "title": "「エコめがね」への不正アクセス調査状況について（2報）",
+      "published_on": "2026-11-06",
+      "checked_on": "2026-11-08"
     }
   ],
   "updates": [
@@ -57,6 +64,11 @@
       "date": "2026-10-30",
       "summary": "データベースへの攻撃痕跡を確認し、施主・パートナー企業の連絡先とログイン情報に漏えいのおそれ。件数は精査中。",
       "source_index": 1
+    },
+    {
+      "date": "2026-11-06",
+      "summary": "第2報。スマイルeポイントの管理番号・交換用URL等が読み取られ、デジタルギフトコード約14,000件（800万ポイント分）が不正交換された。氏名・住所等の個人情報の外部漏えいは現時点で未確認、調査継続。",
+      "source_index": 2
     }
   ],
   "notes": "29日初報では漏えい未確認。30日の続報で個人情報の対象項目と流出可能性を公表。検知時刻は続報の28日20時20分を採用。"

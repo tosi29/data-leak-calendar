@@ -8,15 +8,15 @@
   "published_on": "2026-09-09",
   "occurred_on": "2026-08-09",
   "detected_on": "2026-09-07",
-  "updated_on": "2026-10-15",
-  "leak_status": "suspected",
-  "summary": "採用管理サービスのデータベースへ不正アクセスがあり、応募者・企業担当者・契約者の情報が漏えいした可能性を公表。",
+  "updated_on": "2026-11-04",
+  "leak_status": "confirmed",
+  "summary": "データ分析ツールの脆弱性を悪用され、Interview Cloud・ApplyNow・ApplyNow Signのデータベースが一括取得された。最終報で対象は396,920人。",
   "impact": [
     {
-      "count": null,
-      "unit": "records",
-      "qualifier": "unknown",
-      "description": "全体の対象件数は調査中"
+      "count": 396920,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "最終報で確定した応募者・契約者・企業ユーザーの人数。"
     }
   ],
   "data_types": [
@@ -26,12 +26,18 @@
     "雇用契約情報",
     "個人番号",
     "基礎年金番号",
-    "銀行口座情報"
+    "銀行口座情報",
+    "生年月日",
+    "住所",
+    "選考情報",
+    "個人番号（一部）",
+    "口座情報（一部）",
+    "パスワードのハッシュ値"
   ],
   "cause": {
     "category": "vulnerability",
-    "detail": "社内のデータ分析ツールにある脆弱性を悪用した侵入。",
-    "certainty": "confirmed"
+    "certainty": "confirmed",
+    "detail": "社内利用のデータ分析ツールについて提供元が公表していた脆弱性を悪用され、管理者権限を取得された。接続されていた各サービスのDBが閲覧・一括取得された。"
   },
   "sources": [
     {
@@ -40,10 +46,23 @@
       "title": "子会社ApplyNowの個人情報漏えいに関するお知らせ（PDF）",
       "published_on": "2026-09-09",
       "checked_on": "2026-10-15"
+    },
+    {
+      "url": "https://applynow.co.jp/news/20261104",
+      "type": "official",
+      "title": "不正アクセスによる個人情報漏えいに関する調査結果および再発防止策のご報告（最終報）",
+      "published_on": "2026-11-04",
+      "checked_on": "2026-11-08"
     }
   ],
   "notes": "サービスにより対象項目が異なる。画像・PDF・面接動画の実体は対象外と発表。顧客企業による公表とは関連する同一の基盤事案。",
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-11-04",
+      "summary": "最終報。データ分析ツールの公表済み脆弱性を悪用され8月9日に侵入、9月7日にDBが一括取得された。応募者・契約者・企業ユーザー396,920人が対象。ApplyNow Signの一部は個人番号・口座情報等を含む。",
+      "source_index": 1
+    }
+  ],
   "first_published_on": "2026-09-09",
   "publication_kind": "initial",
   "verification": "official",
@@ -56,6 +75,10 @@
     "source_checks": [
       {
         "source_index": 0,
+        "status": "reviewed"
+      },
+      {
+        "source_index": 1,
         "status": "reviewed"
       }
     ]

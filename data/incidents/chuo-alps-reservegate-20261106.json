@@ -1,0 +1,46 @@
+{
+  "id": "chuo-alps-reservegate-20261106",
+  "organization": {
+    "name": "中央アルプス観光（ホテル千畳敷）",
+    "sector": "企業・団体"
+  },
+  "title": "外部予約管理システム「リザーブゲート」への不正アクセスで宿泊者情報の一部が閲覧・取得",
+  "summary": "外部予約管理システム「リザーブゲート」への不正アクセスで宿泊者情報の一部が閲覧・取得。",
+  "published_on": "2026-11-06",
+  "first_published_on": "2026-11-06",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-06",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "vulnerability",
+    "certainty": "confirmed",
+    "detail": "ナバックの外部予約管理システム「RESERVE GATE α」への第三者による不正アクセス（ナバックは脆弱性悪用と説明）。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "件数は未公表。"
+    }
+  ],
+  "data_types": [
+    "宿泊者情報"
+  ],
+  "related_vendor": "ナバック",
+  "sources": [
+    {
+      "url": "https://chuo-alps.com/%E5%A4%96%E9%83%A8%E4%BA%88%E7%B4%84%E7%AE%A1%E7%90%86%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E3%80%8C%E3%83%AA%E3%82%B6%E3%83%BC%E3%83%96%E3%82%B2%E3%83%BC%E3%83%88%E3%80%8D%E3%81%A7%E7%99%BA%E7%94%9F/",
+      "type": "official",
+      "title": "外部予約管理システムへの不正アクセスによる情報漏えいについてのお詫びとお願い",
+      "published_on": "2026-11-06",
+      "checked_on": "2026-11-08"
+    }
+  ],
+  "updates": [],
+  "notes": "過去の予約者・会員に公的機関を装う不審なメッセージが届いている。ナバックの公表とは別記録。"
+}

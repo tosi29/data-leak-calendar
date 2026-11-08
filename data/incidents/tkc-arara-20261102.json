@@ -1,0 +1,95 @@
+{
+  "id": "tkc-arara-20261102",
+  "organization": {
+    "name": "TKC",
+    "sector": "企業・団体"
+  },
+  "title": "メール配信委託先アララへの不正アクセスで顧客のメールアドレス最大2,230,812件が漏えい",
+  "summary": "メール配信委託先アララへの不正アクセスで顧客のメールアドレス最大2,230,812件が漏えい。",
+  "published_on": "2026-11-02",
+  "first_published_on": "2026-11-02",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-06",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "メール配信業務を委託するアララ株式会社の「アララメッセージ」への第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 2230812,
+      "unit": "records",
+      "qualifier": "maximum",
+      "description": "TKCのシステム利用者のメールアドレス。どの顧客・システムのアドレスかは分類中。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "アララ株式会社",
+  "sources": [
+    {
+      "url": "https://www.tkc.jp/news/2026/20261102_1/",
+      "type": "official",
+      "title": "メール配信委託先への不正アクセスによる情報漏えいの可能性について（第1報）",
+      "published_on": "2026-11-02",
+      "checked_on": "2026-11-08"
+    },
+    {
+      "url": "https://www.tkc.jp/news/2026/20261102_2/",
+      "type": "official",
+      "title": "メール配信委託先への不正アクセスによる情報漏えいに関する件（第2報）",
+      "published_on": "2026-11-02",
+      "checked_on": "2026-11-08"
+    },
+    {
+      "url": "https://www.tkc.jp/news/2026/20261104/",
+      "type": "official",
+      "title": "メール配信委託先への不正アクセスによる情報漏えいに関する件（第3報）",
+      "published_on": "2026-11-04",
+      "checked_on": "2026-11-08"
+    },
+    {
+      "url": "https://www.tkc.jp/news/2026/20261104_1/",
+      "type": "official",
+      "title": "アララ株式会社の「アララメッセージ」への不正アクセスによる情報漏えいの可能性に関するご報告（第4報）",
+      "published_on": "2026-11-04",
+      "checked_on": "2026-11-08"
+    },
+    {
+      "url": "https://www.tkc.jp/news/2026/20261106_1/",
+      "type": "official",
+      "title": "アララ株式会社の「アララメッセージ」への不正アクセスによる情報漏えいの可能性に関するご報告（第5報）",
+      "published_on": "2026-11-06",
+      "checked_on": "2026-11-08"
+    }
+  ],
+  "updates": [
+    {
+      "date": "2026-11-02",
+      "summary": "第2報。漏えい対象にTKCシステム利用者のメールアドレス最大2,230,812件が含まれると判明。",
+      "source_index": 1
+    },
+    {
+      "date": "2026-11-04",
+      "summary": "第3報。漏えいはメールアドレスのみで、メール本文・マイナンバー・市町村への申請情報等は漏えいしていないと確認。",
+      "source_index": 2
+    },
+    {
+      "date": "2026-11-04",
+      "summary": "第4報。アララから漏えいアドレスの提供を受け、顧客・システム別の分類に着手。",
+      "source_index": 3
+    },
+    {
+      "date": "2026-11-06",
+      "summary": "第5報。分類作業を継続。新たなメール送信基盤で各システムのメール送信を順次再開。",
+      "source_index": 4
+    }
+  ],
+  "notes": "会計事務所・企業・地方公共団体向けシステムが対象。10月30日には利用環境からの漏えいはないと報告されていたが、31日に環境を緊急停止。TKCを通じた各自治体の公表は別記録で、件数を合算しない。"
+}

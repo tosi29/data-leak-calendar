@@ -1,0 +1,46 @@
+{
+  "id": "osakagas-fitdish-arara-20261102",
+  "organization": {
+    "name": "大阪ガス（FitDish）",
+    "sector": "企業・団体"
+  },
+  "title": "FitDishのメール配信に使うアララ経由でメールアドレス34,489件が流出",
+  "summary": "FitDishのメール配信に使うアララ経由でメールアドレス34,489件が流出。",
+  "published_on": "2026-11-02",
+  "first_published_on": "2026-11-02",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-11-02",
+  "updated_on": "2026-11-02",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "アララ株式会社のメール配信サービスへの第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 34489,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "10月8～29日に配信されたメールアドレス。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "アララ株式会社",
+  "sources": [
+    {
+      "url": "https://www.osakagas.co.jp/company/press/pr2026/1828107_60967.html",
+      "type": "official",
+      "title": "当社委託先のメール配信サービスへの不正アクセスによるお客さま情報の流出について",
+      "published_on": "2026-11-02",
+      "checked_on": "2026-11-08"
+    }
+  ],
+  "updates": [],
+  "notes": "氏名・住所・電話番号・カード情報・購買データは含まない。"
+}

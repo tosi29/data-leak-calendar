@@ -1,0 +1,46 @@
+{
+  "id": "iij-iijmio-arara-20261104",
+  "organization": {
+    "name": "インターネットイニシアティブ（IIJmio）",
+    "sector": "企業・団体"
+  },
+  "title": "IIJmioのメール配信に使うアララへの不正アクセスで契約者のメールアドレス983,458件が漏えい",
+  "summary": "IIJmioのメール配信に使うアララへの不正アクセスで契約者のメールアドレス983,458件が漏えい。",
+  "published_on": "2026-11-04",
+  "first_published_on": "2026-11-04",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-04",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "アララ株式会社のメール配信サービスへの第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 983458,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "解約済みを含むIIJmio契約者のメールアドレス。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "アララ株式会社",
+  "sources": [
+    {
+      "url": "https://www.iij.ad.jp/news/information/2026/1104.html",
+      "type": "official",
+      "title": "当社が利用するメール配信サービスへの不正アクセスによるお客様情報の漏えいについて",
+      "published_on": "2026-11-04",
+      "checked_on": "2026-11-08"
+    }
+  ],
+  "updates": [],
+  "notes": "メールアドレスの一覧と属性情報の詳細はアララに確認中。カード情報はアララに連携していない。"
+}

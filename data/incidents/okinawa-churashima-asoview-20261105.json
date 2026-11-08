@@ -1,0 +1,49 @@
+{
+  "id": "okinawa-churashima-asoview-20261105",
+  "organization": {
+    "name": "沖縄県（国営沖縄記念公園内施設）",
+    "sector": "自治体"
+  },
+  "title": "指定管理者が使うアソビュー！経由のアララへの不正アクセスで首里城公園・美ら海水族館の利用者情報に流出の可能性",
+  "summary": "指定管理者が使うアソビュー！経由のアララへの不正アクセスで首里城公園・美ら海水族館の利用者情報に流出の可能性。",
+  "published_on": "2026-11-05",
+  "first_published_on": "2026-11-05",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-05",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "アララ株式会社のメール配信サービスへの第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "県施設の利用者の件数は未公表。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "メールアドレス",
+    "生年月日",
+    "チケット購入情報"
+  ],
+  "related_vendor": "沖縄美ら島財団／アソビュー／アララ株式会社",
+  "sources": [
+    {
+      "url": "https://www.pref.okinawa.lg.jp/machizukuri/park/1041852.html",
+      "type": "official",
+      "title": "外部メール配信サービス提供事業者への不正アクセスにより発生した個人情報漏えいについて（沖縄県国営沖縄記念公園内施設）",
+      "published_on": "2026-11-05",
+      "checked_on": "2026-11-08"
+    }
+  ],
+  "updates": [],
+  "notes": "アソビュー全体の流出（15,821,184件）に県施設の利用者が一部含まれる可能性。アソビューの記録と合算しない。11月6日にページ更新。"
+}

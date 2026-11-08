@@ -1,0 +1,46 @@
+{
+  "id": "infomart-arara-20261104",
+  "organization": {
+    "name": "インフォマート",
+    "sector": "企業・団体"
+  },
+  "title": "メール配信に使っていたアララメッセージから無料ユーザーのメールアドレス3,577件が流出",
+  "summary": "メール配信に使っていたアララメッセージから無料ユーザーのメールアドレス3,577件が流出。",
+  "published_on": "2026-11-04",
+  "first_published_on": "2026-11-04",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-11-03",
+  "updated_on": "2026-11-04",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "アララ株式会社のメール配信サービス「アララメッセージ」への第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 3577,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "BtoBプラットフォーム請求書の無料ユーザーのメールアドレス。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "アララ株式会社",
+  "sources": [
+    {
+      "url": "https://corp.infomart.co.jp/news/20261104_6211/",
+      "type": "official",
+      "title": "当社が利用していたメール配信サービスへの不正アクセスに伴う個人情報漏洩に関するお知らせとお詫び（第一報）",
+      "published_on": "2026-11-04",
+      "checked_on": "2026-11-08"
+    }
+  ],
+  "updates": [],
+  "notes": "最終配信日は2025年12月16日。当初は流出対象外との報告だった。自社システムへの不正アクセスは未確認。"
+}

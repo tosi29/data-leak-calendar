@@ -11,7 +11,7 @@
   "publication_kind": "initial",
   "occurred_on": null,
   "detected_on": null,
-  "updated_on": "2026-11-01",
+  "updated_on": "2026-11-02",
   "verification": "official",
   "leak_status": "suspected",
   "incident_type": "attack",
@@ -39,8 +39,21 @@
       "title": "ほいくisのメールアドレスにアララ経由の漏えいのおそれ",
       "published_on": "2026-10-29",
       "checked_on": "2026-11-01"
+    },
+    {
+      "url": "https://hoiku-is.jp/notice/detail/3770/",
+      "type": "official",
+      "title": "「ほいくis」「ほいくisお仕事探し」における外部委託先への不正アクセスに関する続報",
+      "published_on": "2026-11-02",
+      "checked_on": "2026-11-08"
     }
   ],
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-11-02",
+      "summary": "自社利用者の情報流出の有無・件数はアララが確認中。アララ第2報の追加不正アクセス・不審メール送信の対象ではないと報告を受けた。",
+      "source_index": 1
+    }
+  ],
   "notes": "自社システムへの不正アクセスとは区別。件数は調査中。"
 }

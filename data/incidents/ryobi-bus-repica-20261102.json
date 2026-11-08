@@ -1,0 +1,46 @@
+{
+  "id": "ryobi-bus-repica-20261102",
+  "organization": {
+    "name": "両備バス",
+    "sector": "企業・団体"
+  },
+  "title": "メール配信に使うrepicaへの不正アクセスで顧客のメールアドレス延べ43,221件が流出",
+  "summary": "メール配信に使うrepicaへの不正アクセスで顧客のメールアドレス延べ43,221件が流出。",
+  "published_on": "2026-11-02",
+  "first_published_on": "2026-11-02",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-11-02",
+  "updated_on": "2026-11-02",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "アララ株式会社のメール配信サービス「repica」への第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 43221,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "10月8～29日に配信のあった延べ件数。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "アララ株式会社",
+  "sources": [
+    {
+      "url": "https://www.ryobi-holdings.jp/bus/news-kousoku/20261102/",
+      "type": "official",
+      "title": "メールマガジン配信サービス提供元における不正アクセスに関するお知らせとお詫び",
+      "published_on": "2026-11-02",
+      "checked_on": "2026-11-08"
+    }
+  ],
+  "updates": [],
+  "notes": "氏名・住所・カード情報の漏えいはないとの報告。10月30日の両備グループの別事案とは区別。"
+}

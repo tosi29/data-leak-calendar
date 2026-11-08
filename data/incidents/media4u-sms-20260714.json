@@ -11,7 +11,7 @@
   "publication_kind": "initial",
   "occurred_on": null,
   "detected_on": null,
-  "updated_on": "2026-10-18",
+  "updated_on": "2026-11-02",
   "incident_type": "attack",
   "leak_status": "confirmed",
   "impact": [
@@ -46,10 +46,23 @@
       "type": "official",
       "published_on": "2026-07-17",
       "checked_on": "2026-10-18"
+    },
+    {
+      "url": "https://www.release.tdnet.info/inbs/140120261102562358.pdf",
+      "type": "official",
+      "title": "連結子会社における不正アクセスに関する調査完了のお知らせ（最終報）",
+      "published_on": "2026-11-02",
+      "checked_on": "2026-11-08"
     }
   ],
   "notes": "流出ファイル95,412件のうち、個人情報を含む可能性がある精査対象22,928件。実人数ではない。親会社ファブリカホールディングスの公表と共通。",
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-11-02",
+      "summary": "ファブリカHDが最終報。第三者機関の調査で内部調査と相違なく、漏えい範囲は初報の最大件数を超えない。パスワード・SMS配信先の電話番号等・決済情報の流出は未確認で、本件は収束と判断。",
+      "source_index": 2
+    }
+  ],
   "verification": "official",
   "related_vendor": null
 }

@@ -1,0 +1,46 @@
+{
+  "id": "japanpost-pickgo-20261105",
+  "organization": {
+    "name": "日本郵便",
+    "sector": "企業・団体"
+  },
+  "title": "集荷・配達委託先CBcloud「ピックゴー」への不正アクセスで顧客の名前3,763件が漏えい",
+  "summary": "集荷・配達委託先CBcloud「ピックゴー」への不正アクセスで顧客の名前3,763件が漏えい。",
+  "published_on": "2026-11-05",
+  "first_published_on": "2026-11-05",
+  "publication_kind": "initial",
+  "occurred_on": "2026-11-01",
+  "detected_on": "2026-11-04",
+  "updated_on": "2026-11-05",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "集荷・配達業務の委託先CBcloudの配車システム「ピックゴー」への第三者による不正アクセス（11月1日）。"
+  },
+  "impact": [
+    {
+      "count": 3763,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "姓名1,672件・姓のみ2,091件。"
+    }
+  ],
+  "data_types": [
+    "氏名（一部は姓のみ）"
+  ],
+  "related_vendor": "CBcloud",
+  "sources": [
+    {
+      "url": "https://www.post.japanpost.jp/newsrelease/pressrelease/414336381813.html",
+      "type": "official",
+      "title": "当社の委託先における不正アクセスによるお客さま情報の漏えいについて",
+      "published_on": "2026-11-05",
+      "checked_on": "2026-11-08"
+    }
+  ],
+  "updates": [],
+  "notes": "2025年12月～2026年3月と2026年9月にCBcloudが集荷・配達した荷物の一部。住所・電話番号は含まれない。"
+}

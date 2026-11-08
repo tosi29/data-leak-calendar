@@ -1,0 +1,47 @@
+{
+  "id": "saitama-hike-cycle-arara-20261106",
+  "organization": {
+    "name": "埼玉県（SAITAMAハイク＆サイクルスタンプラリー）",
+    "sector": "自治体"
+  },
+  "title": "スタンプラリー参加者へのメール配信に使うアララへの不正アクセスで氏名・メールアドレスに漏えいの可能性",
+  "summary": "スタンプラリー参加者へのメール配信に使うアララへの不正アクセスで氏名・メールアドレスに漏えいの可能性。",
+  "published_on": "2026-11-06",
+  "first_published_on": "2026-11-06",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-11-06",
+  "updated_on": "2026-11-06",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "アララ株式会社のメール配信サービス「アララメッセージ」への第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "対象者数は確認中。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "メールアドレス"
+  ],
+  "related_vendor": "アララ株式会社",
+  "sources": [
+    {
+      "url": "https://www.pref.saitama.lg.jp/a0806/news/page/news2026110601.html",
+      "type": "official",
+      "title": "「SAITAMAハイク＆サイクルスタンプラリー」参加者の個人情報漏えいの可能性について",
+      "published_on": "2026-11-06",
+      "checked_on": "2026-11-08"
+    }
+  ],
+  "updates": [],
+  "notes": "受託事業者から報告。同日の県営公園（アソビュー）の公表とは別事業。"
+}

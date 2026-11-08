@@ -1,0 +1,46 @@
+{
+  "id": "kobe-np-arara-20261102",
+  "organization": {
+    "name": "神戸新聞社（神戸新聞NEXT）",
+    "sector": "企業・団体"
+  },
+  "title": "アララメッセージへの不正アクセスでメールマガジン受信者のメールアドレス約4万件が漏えい",
+  "summary": "アララメッセージへの不正アクセスでメールマガジン受信者のメールアドレス約4万件が漏えい。",
+  "published_on": "2026-11-02",
+  "first_published_on": "2026-11-02",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-11-02",
+  "updated_on": "2026-11-02",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "アララ株式会社のメール配信サービス「アララメッセージ」への第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 40000,
+      "unit": "records",
+      "qualifier": "approximate",
+      "description": "メールマガジン受信者のメールアドレス。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "アララ株式会社",
+  "sources": [
+    {
+      "url": "https://www.kobe-np.co.jp/news/information/202611/0020994385.shtml",
+      "type": "official",
+      "title": "【お詫び】アララ社への不正アクセスによる情報流出およびメールサービス停止について",
+      "published_on": "2026-11-02",
+      "checked_on": "2026-11-08"
+    }
+  ],
+  "updates": [],
+  "notes": "全てのメールサービスを停止。影響範囲の情報提供をアララへ求めている。"
+}

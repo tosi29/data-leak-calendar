@@ -1,0 +1,52 @@
+{
+  "id": "utsunomiya-eshinsei-arara-20261102",
+  "organization": {
+    "name": "宇都宮市",
+    "sector": "自治体"
+  },
+  "title": "電子申請共通システムが使うアララメッセージへの不正アクセスで登録者のメールアドレスに漏えいのおそれ",
+  "summary": "電子申請共通システムが使うアララメッセージへの不正アクセスで登録者のメールアドレスに漏えいのおそれ。",
+  "published_on": "2026-11-02",
+  "first_published_on": "2026-11-02",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-11-02",
+  "updated_on": "2026-11-06",
+  "verification": "official",
+  "leak_status": "investigating",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "委託先TKCが利用するアララ株式会社の外部メール送信サービス「アララメッセージ」への第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 31000,
+      "unit": "people",
+      "qualifier": "approximate",
+      "description": "個人アカウントの登録者。漏えい情報に含まれるかは確認中。"
+    },
+    {
+      "count": 5800,
+      "unit": "organizations",
+      "qualifier": "approximate",
+      "description": "事業者アカウントの登録団体。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "TKC／アララ株式会社",
+  "sources": [
+    {
+      "url": "https://www.city.utsunomiya.lg.jp/shisei/service/1028655.html",
+      "type": "official",
+      "title": "電子申請共通システムが利用する外部メール送信サービスへの不正アクセス及び個人情報の漏えいのおそれについて（11月6日時点）",
+      "published_on": "2026-11-06",
+      "checked_on": "2026-11-08"
+    }
+  ],
+  "updates": [],
+  "notes": "11月2日時点ではメールアドレス・氏名・メール本文の漏えいのおそれとしていたが、4日にTKCからメールアドレスのみと連絡があり、6日時点の掲載で更新。市の利用者のアドレスが含まれるかは確認中。電子申請共通システム自体への不正アクセスは未確認。"
+}

@@ -1,0 +1,54 @@
+{
+  "id": "chugin-smbccf-20261105",
+  "organization": {
+    "name": "中国銀行",
+    "sector": "企業・団体"
+  },
+  "title": "カードローン等の保証会社SMBCコンシューマーファイナンスへの不正アクセスで顧客の個人情報が漏えい",
+  "summary": "カードローン等の保証会社SMBCコンシューマーファイナンスへの不正アクセスで顧客の個人情報が漏えい。",
+  "published_on": "2026-11-05",
+  "first_published_on": "2026-11-05",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-05",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "保証会社SMBCコンシューマーファイナンスの保証業務システムへの第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "対象人数は調査中。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "性別",
+    "生年月日",
+    "住所",
+    "電話番号",
+    "メールアドレス",
+    "運転免許証番号",
+    "勤務先情報（年収等）",
+    "契約情報"
+  ],
+  "related_vendor": "SMBCコンシューマーファイナンス",
+  "sources": [
+    {
+      "url": "https://www.chugin.co.jp/news/3583.html",
+      "type": "official",
+      "title": "外部保証会社における不正アクセスにともなう個人情報の漏えいおよびWeb申込受付の一時停止について",
+      "published_on": "2026-11-05",
+      "checked_on": "2026-11-08"
+    }
+  ],
+  "updates": [],
+  "notes": "カードローンコレカ・フリーローンが対象。Web申込受付を一時停止。 SMBCCF全体の最大320,118名の内数で、他行の公表とも合算しない。本人確認書類画像は含まれない。"
+}

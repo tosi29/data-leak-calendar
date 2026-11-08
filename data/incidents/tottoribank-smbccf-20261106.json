@@ -1,0 +1,54 @@
+{
+  "id": "tottoribank-smbccf-20261106",
+  "organization": {
+    "name": "鳥取銀行",
+    "sector": "企業・団体"
+  },
+  "title": "個人向けローン保証会社SMBCコンシューマーファイナンスへの不正アクセスで顧客情報が漏洩",
+  "summary": "個人向けローン保証会社SMBCコンシューマーファイナンスへの不正アクセスで顧客情報が漏洩。",
+  "published_on": "2026-11-06",
+  "first_published_on": "2026-11-06",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-06",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "保証会社SMBCコンシューマーファイナンスの保証業務システムへの第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "対象範囲は特定中。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "性別",
+    "生年月日",
+    "住所",
+    "電話番号",
+    "メールアドレス",
+    "運転免許証番号",
+    "勤務先情報（年収等）",
+    "契約情報"
+  ],
+  "related_vendor": "SMBCコンシューマーファイナンス",
+  "sources": [
+    {
+      "url": "https://www.tottoribank.co.jp/oshirase/pdf/2026-11-06.pdf",
+      "type": "official",
+      "title": "ＳＭＢＣコンシューマーファイナンス株式会社への不正アクセスによるお客さま情報の漏洩について",
+      "published_on": "2026-11-06",
+      "checked_on": "2026-11-08"
+    }
+  ],
+  "updates": [],
+  "notes": "項目はSMBCCFの公表に基づく。同社への保証依頼を停止。"
+}

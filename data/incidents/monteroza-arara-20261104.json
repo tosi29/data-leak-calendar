@@ -1,0 +1,53 @@
+{
+  "id": "monteroza-arara-20261104",
+  "organization": {
+    "name": "モンテローザ",
+    "sector": "企業・団体"
+  },
+  "title": "メルマガ配信委託先アララへの不正アクセスで会員のメールアドレス625,429件が流出のおそれ",
+  "summary": "メルマガ配信委託先アララへの不正アクセスで会員のメールアドレス625,429件が流出のおそれ。",
+  "published_on": "2026-11-04",
+  "first_published_on": "2026-11-04",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-11-02",
+  "updated_on": "2026-11-04",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "vulnerability",
+    "certainty": "confirmed",
+    "detail": "委託先アララのシステムの一部環境に存在したWebサーバーの脆弱性が悪用された。"
+  },
+  "impact": [
+    {
+      "count": 625429,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "委託先から報告を受けたメールアドレス数。"
+    },
+    {
+      "count": 31333,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "上記のうち生年月日等の任意登録情報を含むもの。内数。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス",
+    "生年月日等の任意登録情報"
+  ],
+  "related_vendor": "アララ株式会社",
+  "sources": [
+    {
+      "url": "https://www.monteroza.co.jp/wp-content/uploads/2026/11/news261104mm.pdf",
+      "type": "official",
+      "title": "委託先のメール配信サービスへの不正アクセスによる個人情報漏えいに関するお詫びとご報告",
+      "published_on": "2026-11-04",
+      "checked_on": "2026-11-08"
+    }
+  ],
+  "updates": [],
+  "notes": "アララは10月31日にサービス提供を中止。"
+}

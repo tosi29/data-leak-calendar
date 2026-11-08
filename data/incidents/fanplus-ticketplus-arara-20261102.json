@@ -1,0 +1,59 @@
+{
+  "id": "fanplus-ticketplus-arara-20261102",
+  "organization": {
+    "name": "Fanplus／チケットプラス",
+    "sector": "企業・団体"
+  },
+  "title": "アララメッセージへの不正アクセスでPlus member ID利用者のメールアドレス約443万件が漏えい",
+  "summary": "アララメッセージへの不正アクセスでPlus member ID利用者のメールアドレス約443万件が漏えい。",
+  "published_on": "2026-11-02",
+  "first_published_on": "2026-11-02",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-06",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "アララ株式会社のメール配信サービスへの第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 4430000,
+      "unit": "records",
+      "qualifier": "approximate",
+      "description": "アララの提供情報を自社管理情報と照合した現時点の概数。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "アララ株式会社",
+  "sources": [
+    {
+      "url": "https://fanplus.co.jp/static/fanplus/information/arara_notice_20261102.pdf",
+      "type": "official",
+      "title": "アララ株式会社で発生した不正アクセスに伴うメールアドレスの漏えいについて",
+      "published_on": "2026-11-02",
+      "checked_on": "2026-11-08"
+    },
+    {
+      "url": "https://fanplus.co.jp/static/fanplus/information/arara_notice_20261106.pdf",
+      "type": "official",
+      "title": "アララ株式会社で発生した不正アクセスに伴うメールアドレスの漏えいについて（第二報）",
+      "published_on": "2026-11-06",
+      "checked_on": "2026-11-08"
+    }
+  ],
+  "updates": [
+    {
+      "date": "2026-11-06",
+      "summary": "第二報。グループに関係する漏えいメールアドレスは約443万件（照合した現時点の概数）。他の情報の漏えい可能性は未確認。",
+      "source_index": 1
+    }
+  ],
+  "notes": "共同公表を1記録とする。グループ各サービスのシステムへの不正アクセスは未確認。10月1日公表のチケットプラスの別事案とは区別。"
+}

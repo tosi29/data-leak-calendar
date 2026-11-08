@@ -1,0 +1,51 @@
+{
+  "id": "navc-reservegate-20261104",
+  "organization": {
+    "name": "ナバック（RESERVE GATE α）",
+    "sector": "企業・団体"
+  },
+  "title": "宿泊予約システムRESERVE GATE αの脆弱性悪用で会員情報最大約35万件が漏えい",
+  "summary": "宿泊予約システムRESERVE GATE αの脆弱性悪用で会員情報最大約35万件が漏えい。",
+  "published_on": "2026-11-04",
+  "first_published_on": "2026-11-04",
+  "publication_kind": "initial",
+  "occurred_on": "2026-11-02",
+  "detected_on": null,
+  "updated_on": "2026-11-04",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "vulnerability",
+    "certainty": "confirmed",
+    "detail": "宿泊予約システム「RESERVE GATE α」の脆弱性をついた第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 350000,
+      "unit": "records",
+      "qualifier": "maximum_approximate",
+      "description": "RGαシステムの全会員情報。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "電話番号",
+    "メールアドレス",
+    "宿泊先ホテル名",
+    "チェックイン日"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.navc2.co.jp/news_detail.php?id=44",
+      "type": "official",
+      "title": "不正アクセスによる個人情報漏えいに関するお知らせとお詫び",
+      "published_on": "2026-11-04",
+      "checked_on": "2026-11-08"
+    }
+  ],
+  "updates": [],
+  "notes": "カード情報・パスワード等の漏えいは未確認。ホテル・予約サイトを装った不審メール等が実際に届いていると説明。同システムを使う宿泊施設（中央アルプス観光など）の公表は別記録。"
+}

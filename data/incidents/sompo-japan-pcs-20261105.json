@@ -1,0 +1,48 @@
+{
+  "id": "sompo-japan-pcs-20261105",
+  "organization": {
+    "name": "損害保険ジャパン",
+    "sector": "企業・団体"
+  },
+  "title": "自動車保険の問い合わせ受付委託先プレステージ・コアソリューションへの不正アクセスで顧客情報約6.5万件に漏えいの可能性",
+  "summary": "自動車保険の問い合わせ受付委託先プレステージ・コアソリューションへの不正アクセスで顧客情報約6.5万件に漏えいの可能性。",
+  "published_on": "2026-11-05",
+  "first_published_on": "2026-11-05",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-11-04",
+  "updated_on": "2026-11-05",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "configuration",
+    "certainty": "confirmed",
+    "detail": "委託先PCS社が運用するWebアプリケーションの「システムへのアクセス制御」と「認証情報の管理」に関する設定上の不備（PCS社の報告）。"
+  },
+  "impact": [
+    {
+      "count": 65000,
+      "unit": "records",
+      "qualifier": "approximate",
+      "description": "契約情報・問い合わせ履歴・ロードサービス手配履歴等。"
+    }
+  ],
+  "data_types": [
+    "契約情報",
+    "問い合わせ履歴",
+    "ロードサービス手配履歴"
+  ],
+  "related_vendor": "プレステージ・コアソリューション",
+  "sources": [
+    {
+      "url": "https://www.sompo-japan.co.jp/-/media/SJNK/files/news/2026/20261105_1.pdf",
+      "type": "official",
+      "title": "業務委託先システムへの不正アクセスによるお客さま情報漏えいに関するお詫びとお知らせ",
+      "published_on": "2026-11-05",
+      "checked_on": "2026-11-08"
+    }
+  ],
+  "updates": [],
+  "notes": "PCS社の業務システム「PremierNet2」への不正アクセス（10月29日検知）。カード情報は含まれない。"
+}

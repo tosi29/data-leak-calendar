@@ -1,0 +1,46 @@
+{
+  "id": "kyoto-artpass-asoview-arara-20261106",
+  "organization": {
+    "name": "京都市（京セラ美術館・元離宮二条城）",
+    "sector": "自治体"
+  },
+  "title": "チケット販売事業者が使うアララへの不正アクセスで施設利用者の情報に流出の可能性",
+  "summary": "チケット販売事業者が使うアララへの不正アクセスで施設利用者の情報に流出の可能性。",
+  "published_on": "2026-11-06",
+  "first_published_on": "2026-11-06",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-11-04",
+  "updated_on": "2026-11-06",
+  "verification": "official",
+  "leak_status": "investigating",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "アララ株式会社のメール配信サービス「アララメッセージ」への第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "影響範囲は調査中。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "インヴェンティット／アソビュー／アララ株式会社",
+  "sources": [
+    {
+      "url": "https://www.city.kyoto.lg.jp/bunshi/page/0000359980.html",
+      "type": "official",
+      "title": "不正アクセスによる京都市京セラ美術館及び元離宮二条城に係る個人情報流出の可能性",
+      "published_on": "2026-11-06",
+      "checked_on": "2026-11-08"
+    }
+  ],
+  "updates": [],
+  "notes": "ARTPASS運営のインヴェンティット、二条城のアソビュー、京セラ美術館メンバーシップのメール配信を受託するアララの各公表に基づく。市の管理情報の流出は未確認。各事業者の公表とは別記録。"
+}

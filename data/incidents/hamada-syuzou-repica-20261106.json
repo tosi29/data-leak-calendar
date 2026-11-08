@@ -1,0 +1,46 @@
+{
+  "id": "hamada-syuzou-repica-20261106",
+  "organization": {
+    "name": "濵田酒造",
+    "sector": "企業・団体"
+  },
+  "title": "メール案内サービスに使うrepicaへの不正アクセスで登録者のメールアドレス39,379件が対象",
+  "summary": "メール案内サービスに使うrepicaへの不正アクセスで登録者のメールアドレス39,379件が対象。",
+  "published_on": "2026-11-06",
+  "first_published_on": "2026-11-06",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-06",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "アララ株式会社のメール配信サービス「repica」への第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 39379,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "薩州赤兎馬メール案内サービス登録者のメールアドレス。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "アララ株式会社",
+  "sources": [
+    {
+      "url": "https://www.hamadasyuzou.co.jp/news/20261106.html",
+      "type": "official",
+      "title": "業務委託先への不正アクセスによるメールマガジン登録のお客様情報漏えいに関するお詫びとお知らせ",
+      "published_on": "2026-11-06",
+      "checked_on": "2026-11-08"
+    }
+  ],
+  "updates": [],
+  "notes": "対象はメールアドレスのみとアララが確認。"
+}

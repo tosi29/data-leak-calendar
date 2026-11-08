@@ -1,0 +1,58 @@
+{
+  "id": "teamspirit-dev-server-20261106",
+  "organization": {
+    "name": "チームスピリット",
+    "sector": "企業・団体"
+  },
+  "title": "開発用サーバーへの不正ログインと保管認証情報の悪用で顧客・従業員の個人情報28,824件が流出",
+  "summary": "開発用サーバーに不正ログインされ、保管されていた認証情報でクラウド環境からデータを取得された。契約企業の担当者・利用者や従業員等の個人情報28,824件（要配慮個人情報35件を含む）が流出。",
+  "published_on": "2026-11-06",
+  "first_published_on": "2026-11-06",
+  "publication_kind": "initial",
+  "occurred_on": "2026-10-27",
+  "detected_on": "2026-10-27",
+  "updated_on": "2026-11-06",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "credentials",
+    "certainty": "confirmed",
+    "detail": "開発用サーバーへの不正ログインと、同サーバーに保管されていた認証情報によるクラウド環境からのデータ取得。設定と情報管理の不備が重なったと説明。"
+  },
+  "impact": [
+    {
+      "count": 28824,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "重複を除いた個人情報件数。"
+    },
+    {
+      "count": 35,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "上記に含まれる要配慮個人情報。内数。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "メールアドレス",
+    "ログインID",
+    "勤怠記録の一部",
+    "社員番号",
+    "誕生日（月日）",
+    "要配慮個人情報（35件）"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://corp.teamspirit.com/news/information/2026/11/2026_1106_01/",
+      "type": "official",
+      "title": "不正アクセスによる情報漏えいに関するお詫びとお知らせ",
+      "published_on": "2026-11-06",
+      "checked_on": "2026-11-08"
+    }
+  ],
+  "updates": [],
+  "notes": "TeamSpirit本番環境の勤怠・工数データへの不正アクセスは未確認。未知の脆弱性によるものではないと説明。"
+}

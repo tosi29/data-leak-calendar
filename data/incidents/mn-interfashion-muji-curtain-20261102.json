@@ -1,0 +1,50 @@
+{
+  "id": "mn-interfashion-muji-curtain-20261102",
+  "organization": {
+    "name": "MNインターファッション",
+    "sector": "企業・団体"
+  },
+  "title": "無印良品オーダーカーテン業務の委託先ナノテックのサーバーへの不正アクセスで注文者情報19,933件に流出の可能性",
+  "summary": "無印良品オーダーカーテン業務の委託先ナノテックのサーバーへの不正アクセスで注文者情報19,933件に流出の可能性。",
+  "published_on": "2026-11-02",
+  "first_published_on": "2026-11-02",
+  "publication_kind": "initial",
+  "occurred_on": "2026-10-19",
+  "detected_on": "2026-10-28",
+  "updated_on": "2026-11-02",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "システム関連業務の委託先ナノテックが管理するサーバーへの第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 19933,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "2018年4月10日～2022年1月25日の注文者。同一顧客の重複を含む。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "電話番号",
+    "注文情報",
+    "配送情報"
+  ],
+  "related_vendor": "ナノテック",
+  "sources": [
+    {
+      "url": "https://mn-interfashion.com/news/information/%e6%a0%aa%e5%bc%8f%e4%bc%9a%e7%a4%be%e8%89%af%e5%93%81%e8%a8%88%e7%94%bb%e3%81%ae%e3%82%aa%e3%83%bc%e3%83%80%e3%83%bc%e3%82%ab%e3%83%bc%e3%83%86%e3%83%b3%e3%81%ab%e9%96%a2%e3%81%99%e3%82%8b%e9%87%8d/",
+      "type": "official",
+      "title": "株式会社良品計画のオーダーカーテンに関するお客さま情報の流出の可能性について",
+      "published_on": "2026-11-02",
+      "checked_on": "2026-11-08"
+    }
+  ],
+  "updates": [],
+  "notes": "良品計画の同日公表（muji-order-curtain-vendor-20261102）と同一対象の受託者側の公表。件数を合算しない。カード情報・メールアドレスは含まれない。現行の受注システムは別環境。"
+}

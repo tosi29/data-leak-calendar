@@ -8762,5 +8762,79 @@
       "https://web.archive.org/web/20261009160559id_/http://www.mcpack.co.jp/news/file/64ef5c4b14c0e7c2fb2e3d03823d13a74a2f9df1.pdf"
     ],
     "reason": "公式サイトの取得制限が続くため公開アーカイブを探索。初報・第2報・9月24日の公式PDF保存版を全て取得し、日付・対象・個人データの項目を原文で照合できたため保留を解消。"
+  },
+  {
+    "candidate": {
+      "id": "week-nov1-hibiya",
+      "organization": "日比谷花壇",
+      "reported_on": "2026-10-28",
+      "verification": "pending",
+      "reference_url": "https://hibiya.co.jp/news/post20261028-1/",
+      "note": "2026年11月1日再調査：公式URLの取得は証明書エラー、ブラウザー経由もタイムアウト。索引の要約だけでは漏えい範囲・公表日を確定しない。 今回も公表日・対象を確定する追加の本文を確認できず、元の未解決点を継続。",
+      "reviewed_on": "2026-11-01",
+      "checked_urls": [
+        "https://hibiya.co.jp/news/post20261028-1/"
+      ]
+    },
+    "reviewed_on": "2026-11-08",
+    "resolution": "published",
+    "incident_ids": [
+      "hibiya-kadan-cuenote-20261028"
+    ],
+    "source_urls": [
+      "https://hibiya.co.jp/news/post20261028-1/",
+      "https://hibiya.co.jp/news/post20271104/"
+    ],
+    "reason": "公式ページの本文を取得でき、第1報と11月4日の続報で日付・対象・件数を確認できたため保留を解消。"
+  },
+  {
+    "candidate": {
+      "id": "nov01-smartnews-points-review",
+      "organization": "スマートニュース（11月1日公表の別事案）",
+      "reported_on": "2026-11-01",
+      "verification": "pending",
+      "reference_url": "https://about.smartnews.com/ja/news/2617.html",
+      "reviewed_on": "2026-11-02",
+      "checked_urls": [
+        "https://about.smartnews.com/ja/news/2617.html",
+        "https://about.smartnews.com/ja/news/2615.html"
+      ],
+      "note": "2026年11月2日調査：10月31日～11月1日の侵入とポイント・特典の不正操作を確認。利用者アカウント・広告関連情報への影響は調査中で、自然人の対象情報や漏えい範囲は未公表。10月22日の事案とは別と公式に明記。"
+    },
+    "reviewed_on": "2026-11-08",
+    "resolution": "published",
+    "incident_ids": [
+      "smartnews-system-20261101"
+    ],
+    "source_urls": [
+      "https://about.smartnews.com/ja/news/2617.html",
+      "https://about.smartnews.com/ja/news/2619.html",
+      "https://about.smartnews.com/ja/news/2623.html"
+    ],
+    "reason": "11月6日の公式発表で漏えいの可能性がある個人情報の対象・件数が具体化したため保留を解消。"
+  },
+  {
+    "candidate": {
+      "id": "oct31-update-irisplaza",
+      "organization": "アイリスプラザ",
+      "reported_on": "2026-10-29",
+      "verification": "pending",
+      "reference_url": "https://www.irisohyama.co.jp/news/2026/?date=1029",
+      "note": "2026年11月1日再調査：10月29日の公式本文でもカード情報の漏えいは未確認、その他の影響範囲は調査中。",
+      "reviewed_on": "2026-11-01",
+      "checked_urls": [
+        "https://www.irisohyama.co.jp/news/2026/?date=1029"
+      ]
+    },
+    "reviewed_on": "2026-11-08",
+    "resolution": "published",
+    "incident_ids": [
+      "irisplaza-cloud-20261029"
+    ],
+    "source_urls": [
+      "https://www.irisohyama.co.jp/news/2026/?date=1029",
+      "https://www.irisohyama.co.jp/news/2026/?date=1105"
+    ],
+    "reason": "11月5日の第2報で漏えいの可能性がある個人情報の項目・人数が公式に示されたため保留を解消。"
   }
 ]

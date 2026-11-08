@@ -1,0 +1,49 @@
+{
+  "id": "plenus-hottomotto-arara-20261104",
+  "organization": {
+    "name": "プレナス（ほっともっと）",
+    "sector": "企業・団体"
+  },
+  "title": "ほっともっとのメルマガ配信サービスへの不正アクセスで会員情報最大約700万件が流出",
+  "summary": "ほっともっとのメルマガ配信サービスへの不正アクセスで会員情報最大約700万件が流出。",
+  "published_on": "2026-11-04",
+  "first_published_on": "2026-11-04",
+  "publication_kind": "initial",
+  "occurred_on": "2026-10-28",
+  "detected_on": "2026-11-02",
+  "updated_on": "2026-11-04",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "外部委託先が提供するメールマガジン配信サービスへの第三者による不正アクセス（10月28～31日）。"
+  },
+  "impact": [
+    {
+      "count": 7000000,
+      "unit": "records",
+      "qualifier": "maximum_approximate",
+      "description": "メールアドレス・氏名・生年月日・電話番号を含む会員情報。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス",
+    "氏名",
+    "生年月日",
+    "電話番号"
+  ],
+  "related_vendor": "外部委託先（メール配信サービス）",
+  "sources": [
+    {
+      "url": "https://www.plenus.co.jp/files/optionallink/00003434_file.pdf",
+      "type": "official",
+      "title": "外部委託先の提供する「ほっともっとのメールマガジン配信サービス」への不正アクセスと対応について",
+      "published_on": "2026-11-04",
+      "checked_on": "2026-11-08"
+    }
+  ],
+  "updates": [],
+  "notes": "委託先名は本文に明記されていないが、発生期間・全サービス停止はアララの公表と一致。カード情報は保有していない。ネット注文サービスへの影響は未確認。"
+}

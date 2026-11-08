@@ -11,7 +11,7 @@
   "publication_kind": "initial",
   "occurred_on": null,
   "detected_on": "2026-10-23",
-  "updated_on": "2026-10-27",
+  "updated_on": "2026-11-02",
   "verification": "official",
   "leak_status": "confirmed",
   "incident_type": "attack",
@@ -22,10 +22,10 @@
   },
   "impact": [
     {
-      "count": 127000,
+      "count": 126525,
       "unit": "records",
-      "qualifier": "approximate",
-      "description": "公表された対象規模。"
+      "qualifier": "exact",
+      "description": "提供元から報告された漏えい確認件数。"
     }
   ],
   "data_types": [
@@ -42,9 +42,22 @@
       "title": "メールマガジン会員情報約12万7千件が漏えい",
       "published_on": "2026-10-23",
       "checked_on": "2026-10-27"
+    },
+    {
+      "url": "https://news.nhk-book.co.jp/archives/35516",
+      "type": "official",
+      "title": "「みんなの趣味の園芸」メール配信サービスに関するお知らせとおわび（第3報）",
+      "published_on": "2026-11-02",
+      "checked_on": "2026-11-08"
     }
   ],
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-11-02",
+      "summary": "漏えい件数は126,525件。新たな漏えい判明はなし。11月2～4日に対象者へ個別メール。メール配信は停止継続。",
+      "source_index": 1
+    }
+  ],
   "notes": "",
   "vendors": [
     {

@@ -1,0 +1,54 @@
+{
+  "id": "gogin-smbccf-20261106",
+  "organization": {
+    "name": "山陰合同銀行",
+    "sector": "企業・団体"
+  },
+  "title": "ごうぎんポケットローンの保証会社SMBCコンシューマーファイナンスへの不正アクセスで契約者1,585名の情報が漏えい",
+  "summary": "ごうぎんポケットローンの保証会社SMBCコンシューマーファイナンスへの不正アクセスで契約者1,585名の情報が漏えい。",
+  "published_on": "2026-11-06",
+  "first_published_on": "2026-11-06",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-11-05",
+  "updated_on": "2026-11-06",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "保証会社SMBCコンシューマーファイナンスの保証業務システムへの第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 1585,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "2001～2006年に受け付けたごうぎんポケットローン等の契約者の一部。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "性別",
+    "生年月日",
+    "住所",
+    "電話番号",
+    "メールアドレス",
+    "運転免許証番号",
+    "勤務先情報（年収等）",
+    "契約情報"
+  ],
+  "related_vendor": "SMBCコンシューマーファイナンス",
+  "sources": [
+    {
+      "url": "https://www.gogin.co.jp/newsrelease/common/attachmentfile/attachmentfile-file-5028.pdf",
+      "type": "official",
+      "title": "ＳＭＢＣコンシューマーファイナンス株式会社の保証システムへの不正アクセスによるお客様情報の漏えいに関するご報告とお詫び",
+      "published_on": "2026-11-06",
+      "checked_on": "2026-11-08"
+    }
+  ],
+  "updates": [],
+  "notes": "2012年に取り扱いを終了した商品。本人確認書類画像は含まれない。9月の委託先PCの事案とは別。"
+}

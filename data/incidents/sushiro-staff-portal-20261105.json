@@ -1,0 +1,46 @@
+{
+  "id": "sushiro-staff-portal-20261105",
+  "organization": {
+    "name": "あきんどスシロー（FOOD & LIFE COMPANIES）",
+    "sector": "企業・団体"
+  },
+  "title": "アルバイト・パート従業員向けポータルへの不正ログインで従業員番号1,117件が流出",
+  "summary": "アルバイト・パート従業員向けポータルへの不正ログインで従業員番号1,117件が流出。",
+  "published_on": "2026-11-05",
+  "first_published_on": "2026-11-05",
+  "publication_kind": "initial",
+  "occurred_on": "2026-10-08",
+  "detected_on": "2026-10-30",
+  "updated_on": "2026-11-05",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "credentials",
+    "certainty": "confirmed",
+    "detail": "ポータルサイトの管理画面のパスワードが第三者に推測され、不正にログインされた。"
+  },
+  "impact": [
+    {
+      "count": 1117,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "退職者を含む従業員番号。"
+    }
+  ],
+  "data_types": [
+    "従業員番号"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://food-and-life.co.jp/corporate-news/31909",
+      "type": "official",
+      "title": "アルバイト・パート従業員向けポータルサイトへの不正アクセスによる従業員番号漏えいに関するお詫びとお知らせ",
+      "published_on": "2026-11-05",
+      "checked_on": "2026-11-08"
+    }
+  ],
+  "updates": [],
+  "notes": "流出は従業員番号のみで、単独で氏名・連絡先等の特定はできないと説明。個人情報保護委員会へ報告。"
+}

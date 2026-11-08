@@ -1,0 +1,54 @@
+{
+  "id": "resona-group-smbccf-20261106",
+  "organization": {
+    "name": "りそな銀行／関西みらい銀行／みなと銀行",
+    "sector": "企業・団体"
+  },
+  "title": "過去の保証提携先SMBCコンシューマーファイナンスへの不正アクセスで解約済みローン顧客5,935件の情報が漏えい",
+  "summary": "過去の保証提携先SMBCコンシューマーファイナンスへの不正アクセスで解約済みローン顧客5,935件の情報が漏えい。",
+  "published_on": "2026-11-06",
+  "first_published_on": "2026-11-06",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-06",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "保証会社SMBCコンシューマーファイナンスの保証業務システムへの第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 5935,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "解約済みのカードローン・フリーローン顧客。りそな139件・関西みらい5,793件・みなと3件。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "性別",
+    "生年月日",
+    "住所",
+    "電話番号",
+    "メールアドレス",
+    "運転免許証番号",
+    "勤務先情報（年収等）",
+    "契約情報"
+  ],
+  "related_vendor": "SMBCコンシューマーファイナンス",
+  "sources": [
+    {
+      "url": "https://www.resona-gr.co.jp/holdings/news/newsrelease_c/2026/files/20261106_1k.pdf",
+      "type": "official",
+      "title": "ＳＭＢＣコンシューマーファイナンス株式会社への不正アクセスによるお客さま情報の漏えいについて",
+      "published_on": "2026-11-06",
+      "checked_on": "2026-11-08"
+    }
+  ],
+  "updates": [],
+  "notes": "3行の共同公表を1記録とする。グループ各社のシステムへの不正アクセスではない。10月27日のCuenote経由の事案とは別。"
+}

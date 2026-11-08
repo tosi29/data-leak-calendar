@@ -1,0 +1,44 @@
+{
+  "id": "cocoheli-arara-20261105",
+  "organization": {
+    "name": "AUTHENTIC JAPAN（ココヘリ）",
+    "sector": "企業・団体"
+  },
+  "title": "会員へのメール配信に使うアララメッセージへの不正アクセスでココヘリ会員情報が流出",
+  "summary": "会員へのメール配信に使うアララメッセージへの不正アクセスでココヘリ会員情報が流出。",
+  "published_on": "2026-11-05",
+  "first_published_on": "2026-11-05",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-05",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "アララ株式会社のメール配信サービス「アララメッセージ」への第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "件数・項目は未公表。"
+    }
+  ],
+  "data_types": [],
+  "related_vendor": "アララ株式会社",
+  "sources": [
+    {
+      "url": "https://www.cocoheli.com/news/suspicious-email",
+      "type": "official",
+      "title": "外部メール配信サービスへの不正アクセスに伴う会員情報の流出について",
+      "published_on": "2026-11-05",
+      "checked_on": "2026-11-08"
+    }
+  ],
+  "updates": [],
+  "notes": "決済情報は含まれないとの報告。公表索引では10月30日に不審メールの注意喚起を掲載していたとされるが、本文で確認したのは11月5日掲載分。"
+}

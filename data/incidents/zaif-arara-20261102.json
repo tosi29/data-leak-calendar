@@ -1,0 +1,59 @@
+{
+  "id": "zaif-arara-20261102",
+  "organization": {
+    "name": "Zaif",
+    "sector": "企業・団体"
+  },
+  "title": "アララメッセージへの不正アクセスで顧客のメールアドレス380,536件が流出",
+  "summary": "アララメッセージへの不正アクセスで顧客のメールアドレス380,536件が流出。",
+  "published_on": "2026-11-02",
+  "first_published_on": "2026-11-02",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-11-02",
+  "updated_on": "2026-11-04",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "アララ株式会社のメール配信サービス「アララメッセージ」への第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 380536,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "重複を除いたメールアドレス件数。過去に登録したものを含み得る。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "アララ株式会社",
+  "sources": [
+    {
+      "url": "https://corp.zaif.jp/info/20261102-1",
+      "type": "official",
+      "title": "業務委託先（アララ株式会社）への不正アクセスに伴う情報流出の可能性について",
+      "published_on": "2026-11-02",
+      "checked_on": "2026-11-08"
+    },
+    {
+      "url": "https://corp.zaif.jp/info/20261104-1",
+      "type": "official",
+      "title": "業務委託先（アララ株式会社）への不正アクセスに伴う情報流出について（第2報）",
+      "published_on": "2026-11-04",
+      "checked_on": "2026-11-08"
+    }
+  ],
+  "updates": [
+    {
+      "date": "2026-11-04",
+      "summary": "第2報。2日夜に流出確認の報告を受け、件数は重複除き380,536件。メールアドレスのみで属性情報・本文は含まない。",
+      "source_index": 1
+    }
+  ],
+  "notes": "登録情報はメールアドレスのみ。自社システムへの不正アクセスは未確認。"
+}

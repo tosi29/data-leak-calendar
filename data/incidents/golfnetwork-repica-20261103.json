@@ -1,0 +1,46 @@
+{
+  "id": "golfnetwork-repica-20261103",
+  "organization": {
+    "name": "ゴルフネットワーク（ゴルフネットワークプラス）",
+    "sector": "企業・団体"
+  },
+  "title": "メールマガジン配信ツールが使うrepicaへの不正アクセスでメールアドレス209,460件が流出",
+  "summary": "メールマガジン配信ツールが使うrepicaへの不正アクセスでメールアドレス209,460件が流出。",
+  "published_on": "2026-11-03",
+  "first_published_on": "2026-11-03",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-11-02",
+  "updated_on": "2026-11-03",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "アララ株式会社のメール配信サービス「repica」への第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 209460,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "重複を含む可能性のあるメールアドレス件数。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "アララ株式会社",
+  "sources": [
+    {
+      "url": "https://tv.golfnetwork.co.jp/news/detail/147",
+      "type": "official",
+      "title": "メール配信サービスへの不正アクセスによるメールアドレス流出のお知らせとお詫び",
+      "published_on": "2026-11-03",
+      "checked_on": "2026-11-08"
+    }
+  ],
+  "updates": [],
+  "notes": "2021年のメールニュース配信システムの事案とは別。"
+}

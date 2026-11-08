@@ -1,0 +1,52 @@
+{
+  "id": "chobirich-arara-20261104",
+  "organization": {
+    "name": "ちょびリッチ",
+    "sector": "企業・団体"
+  },
+  "title": "アララメッセージへの不正アクセスで会員のメールアドレス1,348,525件が取得",
+  "summary": "アララメッセージへの不正アクセスで会員のメールアドレス1,348,525件が取得。",
+  "published_on": "2026-11-04",
+  "first_published_on": "2026-11-04",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-11-03",
+  "updated_on": "2026-11-04",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "アララ株式会社のメール配信サービス「アララメッセージ」への第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 1348525,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "第三者に取得されたと報告を受けたメールアドレス。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス",
+    "会員番号",
+    "ニックネーム",
+    "生年月日",
+    "性別",
+    "都道府県",
+    "保有ポイント数"
+  ],
+  "related_vendor": "アララ株式会社",
+  "sources": [
+    {
+      "url": "https://chobirich.co.jp/1sgvii4gv9/",
+      "type": "official",
+      "title": "委託先メール配信サービスへの不正アクセスに関するお詫びとお知らせ",
+      "published_on": "2026-11-04",
+      "checked_on": "2026-11-08"
+    }
+  ],
+  "updates": [],
+  "notes": "メールアドレス以外の会員番号・生年月日等は流出の可能性で項目の詳細は報告待ち。氏名・電話番号・パスワード・銀行口座情報は預けておらず対象外。自社システムからの漏えいは未確認。"
+}

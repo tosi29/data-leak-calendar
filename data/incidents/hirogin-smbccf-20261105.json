@@ -1,0 +1,54 @@
+{
+  "id": "hirogin-smbccf-20261105",
+  "organization": {
+    "name": "広島銀行",
+    "sector": "企業・団体"
+  },
+  "title": "保証会社SMBCコンシューマーファイナンスへの不正アクセスで顧客の個人情報が漏えい",
+  "summary": "保証会社SMBCコンシューマーファイナンスへの不正アクセスで顧客の個人情報が漏えい。",
+  "published_on": "2026-11-05",
+  "first_published_on": "2026-11-05",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-05",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "保証会社SMBCコンシューマーファイナンスの保証業務システムへの第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "対象人数は調査中。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "性別",
+    "生年月日",
+    "住所",
+    "電話番号",
+    "メールアドレス",
+    "運転免許証番号",
+    "勤務先情報（年収等）",
+    "契約情報"
+  ],
+  "related_vendor": "SMBCコンシューマーファイナンス",
+  "sources": [
+    {
+      "url": "https://www.hirogin.co.jp/information/info261105/info261105.pdf",
+      "type": "official",
+      "title": "ＳＭＢＣコンシューマーファイナンス株式会社の保証システムへの不正アクセスによる『お客さま情報の漏えい』について",
+      "published_on": "2026-11-05",
+      "checked_on": "2026-11-08"
+    }
+  ],
+  "updates": [],
+  "notes": "3月のメットライフ生命関連の事案とは別。 SMBCCF全体の最大320,118名の内数で、他行の公表とも合算しない。本人確認書類画像は含まれない。"
+}

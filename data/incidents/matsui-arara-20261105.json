@@ -1,0 +1,46 @@
+{
+  "id": "matsui-arara-20261105",
+  "organization": {
+    "name": "松井証券",
+    "sector": "企業・団体"
+  },
+  "title": "メール配信委託先アララへの不正アクセスで顧客のメールアドレス最大83万件が漏えい",
+  "summary": "メール配信委託先アララへの不正アクセスで顧客のメールアドレス最大83万件が漏えい。",
+  "published_on": "2026-11-05",
+  "first_published_on": "2026-11-05",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-11-05",
+  "updated_on": "2026-11-05",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "アララ株式会社のメール配信サービスへの第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 830000,
+      "unit": "records",
+      "qualifier": "maximum",
+      "description": "顧客のメールアドレス。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "アララ株式会社",
+  "sources": [
+    {
+      "url": "https://www.matsui.co.jp/company/press/pdf/pr261105.pdf",
+      "type": "official",
+      "title": "外部委託先への不正アクセスによるお客様のメールアドレス漏えいについて",
+      "published_on": "2026-11-05",
+      "checked_on": "2026-11-08"
+    }
+  ],
+  "updates": [],
+  "notes": "ログインID・パスワード・取引暗証番号・取引や資産・出金先口座の情報はアララに提供しておらず漏えいなし。"
+}

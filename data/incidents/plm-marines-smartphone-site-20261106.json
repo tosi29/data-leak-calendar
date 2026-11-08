@@ -1,0 +1,53 @@
+{
+  "id": "plm-marines-smartphone-site-20261106",
+  "organization": {
+    "name": "パシフィックリーグマーケティング（千葉ロッテマリーンズ公式スマホサイト）",
+    "sector": "企業・団体"
+  },
+  "title": "球団公式サイトの一部への不正アクセスで千葉ロッテ有料会員のメールアドレス11,875件等が流出",
+  "summary": "球団公式サイトの一部への不正アクセスで千葉ロッテ有料会員のメールアドレス11,875件等が流出。",
+  "published_on": "2026-11-06",
+  "first_published_on": "2026-11-06",
+  "publication_kind": "initial",
+  "occurred_on": "2026-10-30",
+  "detected_on": "2026-11-04",
+  "updated_on": "2026-11-06",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "PLMが管理する球団公式サイトの一部への第三者からの不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 11875,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "メールアドレス。"
+    },
+    {
+      "count": 37070,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "登録ニックネーム。メールアドレスと合算しない。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス",
+    "ニックネーム"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.pacificleague.jp/assets/pdf/pr261106_1.pdf",
+      "type": "official",
+      "title": "不正アクセスによるお客様メールアドレス等流出のお詫びとお知らせ",
+      "published_on": "2026-11-06",
+      "checked_on": "2026-11-08"
+    }
+  ],
+  "updates": [],
+  "notes": "千葉ロッテマリーンズ公式スマートフォンサイトの有料会員登録者。氏名・決済情報の流出はない。"
+}

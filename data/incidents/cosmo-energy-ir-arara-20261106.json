@@ -1,0 +1,46 @@
+{
+  "id": "cosmo-energy-ir-arara-20261106",
+  "organization": {
+    "name": "コスモエネルギーホールディングス",
+    "sector": "企業・団体"
+  },
+  "title": "IRメールマガジン配信に使う外部クラウド経由のアララへの不正アクセスで登録者のメールアドレスが漏えい",
+  "summary": "IRメールマガジン配信に使う外部クラウド経由のアララへの不正アクセスで登録者のメールアドレスが漏えい。",
+  "published_on": "2026-11-06",
+  "first_published_on": "2026-11-06",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-11-04",
+  "updated_on": "2026-11-06",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "アララ株式会社のメール配信サービスへの第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 220,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "IRメールマガジン登録者のメールアドレス。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "トライベック／アララ株式会社",
+  "sources": [
+    {
+      "url": "https://www.cosmo-energy.co.jp/ja/information/topics/2026/261106-01.html",
+      "type": "official",
+      "title": "外部クラウドサービスへの不正アクセスによるIRメールマガジン登録情報の漏えいに関するお詫びとお知らせ",
+      "published_on": "2026-11-06",
+      "checked_on": "2026-11-08"
+    }
+  ],
+  "updates": [],
+  "notes": "当初トライベックから対象外と報告されていたが、11月4日に漏えいの連絡。自社システムへの不正アクセスではない。"
+}

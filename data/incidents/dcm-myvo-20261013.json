@@ -11,7 +11,7 @@
   "publication_kind": "initial",
   "occurred_on": null,
   "detected_on": null,
-  "updated_on": "2026-10-20",
+  "updated_on": "2026-11-02",
   "verification": "official",
   "leak_status": "confirmed",
   "incident_type": "attack",
@@ -22,10 +22,10 @@
   },
   "impact": [
     {
-      "count": 419,
+      "count": 426,
       "unit": "people",
       "qualifier": "exact",
-      "description": "公表された対象規模。漏えい状況は本文を参照。"
+      "description": "11月2日追記で確定した漏えい確認人数。"
     }
   ],
   "data_types": [
@@ -42,8 +42,21 @@
       "title": "会員サービス「マイボ」の会員情報漏えい",
       "published_on": "2026-10-13",
       "checked_on": "2026-10-20"
+    },
+    {
+      "url": "https://www.dcm-hc.co.jp/news/news_file/file/20261102news02.pdf",
+      "type": "official",
+      "title": "会員サービス「マイボ」における不正アクセスによる会員情報の漏えいに関するお詫びとお知らせ（11月2日追記）",
+      "published_on": "2026-11-02",
+      "checked_on": "2026-11-08"
     }
   ],
-  "updates": [],
-  "notes": "氏名・住所・電話番号・パスワード・カード情報は含まれない。人数は継続精査中。"
+  "updates": [
+    {
+      "date": "2026-11-02",
+      "summary": "精査の結果、漏えいを確認した人数を419人から426人に確定。項目に変更なし。",
+      "source_index": 1
+    }
+  ],
+  "notes": "氏名・住所・電話番号・パスワード・カード情報は含まれない。10月27日公表のメール配信委託先の事案とは別。"
 }

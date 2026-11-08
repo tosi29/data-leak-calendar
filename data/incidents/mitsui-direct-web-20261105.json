@@ -1,0 +1,65 @@
+{
+  "id": "mitsui-direct-web-20261105",
+  "organization": {
+    "name": "三井ダイレクト損害保険",
+    "sector": "企業・団体"
+  },
+  "title": "Webサイトへの不正アクセスで見積・契約顧客の情報約23.4万件が漏えい",
+  "summary": "Webサイトへの不正アクセスで見積・契約顧客の情報約23.4万件が漏えい。",
+  "published_on": "2026-11-05",
+  "first_published_on": "2026-11-05",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-11-04",
+  "updated_on": "2026-11-06",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "第三者による自社Webサイトへの不正アクセス。原因はフォレンジック調査中。"
+  },
+  "impact": [
+    {
+      "count": 234000,
+      "unit": "records",
+      "qualifier": "approximate",
+      "description": "見積もり・契約をした顧客の漏えい件数（11月6日13時時点）。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "電話番号",
+    "生年月日",
+    "メールアドレス",
+    "車両情報",
+    "保険契約の条件・補償内容"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.mitsui-direct.co.jp/information/20261104.html",
+      "type": "official",
+      "title": "三井ダイレクト損保アプリのサービス一時停止について",
+      "published_on": "2026-11-05",
+      "checked_on": "2026-11-08"
+    },
+    {
+      "url": "https://www.mitsui-direct.co.jp/information/20261106.html",
+      "type": "official",
+      "title": "当社システムへの不正アクセスに伴うお客さま情報の漏えいについて",
+      "published_on": "2026-11-06",
+      "checked_on": "2026-11-08"
+    }
+  ],
+  "updates": [
+    {
+      "date": "2026-11-06",
+      "summary": "11月4日早朝に検知した自社Webサイトへの不正アクセスで、見積・契約顧客の情報約23.4万件の漏えいを公表。カード情報・口座情報・マイページのパスワードは含まない。Web・アプリの手続きは停止中。",
+      "source_index": 1
+    }
+  ],
+  "notes": "11月5日はアプリへの不審なアクセスによる一時停止の告知のみ。6日に漏えいを公表。プレステージ・コアソリューションの事案とは別。"
+}

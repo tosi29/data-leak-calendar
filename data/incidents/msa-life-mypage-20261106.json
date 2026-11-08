@@ -1,0 +1,49 @@
+{
+  "id": "msa-life-mypage-20261106",
+  "organization": {
+    "name": "三井住友海上あいおい生命保険",
+    "sector": "企業・団体"
+  },
+  "title": "グループ損保の契約者専用ページへの不正アクセスで生命保険契約情報約5,300件が漏えい",
+  "summary": "グループ損保の契約者専用ページへの不正アクセスで生命保険契約情報約5,300件が漏えい。",
+  "published_on": "2026-11-06",
+  "first_published_on": "2026-11-06",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-11-02",
+  "updated_on": "2026-11-06",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "グループの三井住友海上・あいおいニッセイ同和損保の「ご契約者さま専用ページ」への第三者からの不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 5300,
+      "unit": "records",
+      "qualifier": "approximate",
+      "description": "専用ページに同社の生命保険契約を表示するよう設定していた顧客の情報。"
+    }
+  ],
+  "data_types": [
+    "保険証券番号",
+    "氏名",
+    "生年月日",
+    "メールアドレス"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.msa-life.co.jp/news/assets/pdf/20261106_newsrelease_huseiausesukaizi.pdf",
+      "type": "official",
+      "title": "当社グループ会社への不正アクセスに伴う情報漏えいについて",
+      "published_on": "2026-11-06",
+      "checked_on": "2026-11-08"
+    }
+  ],
+  "updates": [],
+  "notes": "損保2社の記録（約3.7万件・約44.4万件）とは別記録で合算しない。"
+}

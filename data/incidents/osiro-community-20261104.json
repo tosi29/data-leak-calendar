@@ -1,0 +1,54 @@
+{
+  "id": "osiro-community-20261104",
+  "organization": {
+    "name": "オシロ（OSIRO）",
+    "sector": "企業・団体"
+  },
+  "title": "ログイン不要で会員ID・表示名が取得できる設定で外部者がアクセス、最大12,661人が対象",
+  "summary": "ログイン不要で会員ID・表示名が取得できる設定で外部者がアクセス、最大12,661人が対象。",
+  "published_on": "2026-11-04",
+  "first_published_on": "2026-11-04",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-10-19",
+  "updated_on": "2026-11-04",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "configuration",
+    "certainty": "confirmed",
+    "detail": "会員ID・表示名・アイコン画像URLが2017年5月の機能追加時からログインせずに利用できる設定になっており、外部者がアクセスした。"
+  },
+  "impact": [
+    {
+      "count": 12661,
+      "unit": "people",
+      "qualifier": "maximum",
+      "description": "2021年12月17日～2026年10月3日に登録・利用していた会員。"
+    },
+    {
+      "count": 1101,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "上記のうち本名が知られたおそれがある会員。内数。"
+    }
+  ],
+  "data_types": [
+    "会員ID",
+    "表示名",
+    "アイコン画像URL"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://osiro.it/news/14624",
+      "type": "official",
+      "title": "不正アクセスによる一部会員のID、表示名、アイコン画像URLの漏洩に関するご報告とお詫び",
+      "published_on": "2026-11-04",
+      "checked_on": "2026-11-08"
+    }
+  ],
+  "updates": [],
+  "notes": "表示名未設定の会員は登録時の氏名を表示する仕様。氏名・住所・メールアドレス・電話番号・生年月日・パスワード・カード番号等の登録情報は閲覧されていない。"
+}

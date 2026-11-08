@@ -11,7 +11,7 @@
   "publication_kind": "initial",
   "occurred_on": null,
   "detected_on": null,
-  "updated_on": "2026-10-28",
+  "updated_on": "2026-11-04",
   "verification": "official",
   "leak_status": "suspected",
   "incident_type": "attack",
@@ -50,6 +50,13 @@
       "title": "28日0時30分更新：個人情報保護委員会への連名報告の受付開始を11月上旬に予定すると案内。",
       "published_on": "2026-10-28",
       "checked_on": "2026-10-28"
+    },
+    {
+      "url": "https://studio.design/ja/security/notice/2026-10-incident",
+      "type": "official",
+      "title": "クラウド環境への不正アクセスに関するお知らせ・よくある質問（11月4日時点）",
+      "published_on": "2026-11-04",
+      "checked_on": "2026-11-08"
     }
   ],
   "updates": [
@@ -57,6 +64,11 @@
       "date": "2026-10-28",
       "summary": "28日0時30分更新：個人情報保護委員会への連名報告の受付開始を11月上旬に予定すると案内。",
       "source_index": 1
+    },
+    {
+      "date": "2026-11-04",
+      "summary": "個人情報保護委員会への連名報告の申込受付を11月18日23時59分まで実施。対象はフォーム機能等でStudioに保存した全ての個人データ。",
+      "source_index": 2
     }
   ],
   "notes": "公式本文をブラウザーで確認。全登録者が対象となる可能性があり件数精査中。フォームの添付ファイルはファイル名のみが対象。利用組織の公表件数と合算しない。"

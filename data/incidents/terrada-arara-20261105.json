@@ -1,0 +1,62 @@
+{
+  "id": "terrada-arara-20261105",
+  "organization": {
+    "name": "寺田倉庫",
+    "sector": "企業・団体"
+  },
+  "title": "メール配信に使うアララへの不正アクセスでTERRADA ID・minikura等の顧客情報に流出の可能性",
+  "summary": "メール配信に使うアララへの不正アクセスでTERRADA ID・minikura等の顧客情報に流出の可能性。",
+  "published_on": "2026-11-05",
+  "first_published_on": "2026-11-05",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-05",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "アララ株式会社のメール配信サービスへの第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "件数は未公表。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス",
+    "氏名",
+    "会員ID",
+    "メールの件名・本文"
+  ],
+  "related_vendor": "アララ株式会社",
+  "sources": [
+    {
+      "url": "https://www.terrada.co.jp/ja/news/17123/",
+      "type": "official",
+      "title": "【重要なお知らせ】委託先（アララ株式会社）メール配信サービスへの不正アクセスに関するお知らせ",
+      "published_on": "2026-11-05",
+      "checked_on": "2026-11-08"
+    },
+    {
+      "url": "https://www.post.japanpost.jp/newsrelease/pressrelease/1342644881.html",
+      "type": "official",
+      "title": "当社共同運営事業者の委託先のメール配信サービスにおける情報漏えいのおそれについて（日本郵便）",
+      "published_on": "2026-11-05",
+      "checked_on": "2026-11-08"
+    }
+  ],
+  "updates": [
+    {
+      "date": "2026-11-05",
+      "summary": "共同運営する日本郵便も防災ゆうストレージ利用者のメールアドレス・氏名・会員ID・メール件名・本文の漏えいのおそれを公表。",
+      "source_index": 1
+    }
+  ],
+  "notes": "複数サービスの顧客を対象にセキュリティインシデントとして認定。保管品の入出庫情報・決済情報・住所は連携対象外。防災ゆうストレージは日本郵便との共同運営のため1記録にまとめた。"
+}

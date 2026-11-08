@@ -1,0 +1,56 @@
+{
+  "id": "gmo-ps-martialarts-arara-20261105",
+  "organization": {
+    "name": "GMOペイメントサービス（GMO後払い）",
+    "sector": "企業・団体"
+  },
+  "title": "委託先弁護士法人が使うアララメッセージへの不正アクセスで顧客情報最大106,997件が漏洩",
+  "summary": "委託先弁護士法人が使うアララメッセージへの不正アクセスで顧客情報最大106,997件が漏洩。",
+  "published_on": "2026-11-05",
+  "first_published_on": "2026-11-05",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-05",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "アララ株式会社のメール配信サービスへの第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 101226,
+      "unit": "records",
+      "qualifier": "maximum",
+      "description": "メールアドレスのみの件数。"
+    },
+    {
+      "count": 5771,
+      "unit": "records",
+      "qualifier": "maximum",
+      "description": "メールアドレス・氏名・請求金額・請求内容等を含む件数。上記と合わせ最大106,997件。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス",
+    "氏名",
+    "請求金額",
+    "請求内容",
+    "問い合わせ番号"
+  ],
+  "related_vendor": "弁護士法人Martial Arts／アララ株式会社",
+  "sources": [
+    {
+      "url": "https://www.gmo-ps.com/news/20261105/",
+      "type": "official",
+      "title": "アララ株式会社で発生した不正アクセスに伴う個人情報の漏洩について",
+      "published_on": "2026-11-05",
+      "checked_on": "2026-11-08"
+    }
+  ],
+  "updates": [],
+  "notes": "7月20日～10月30日に委託先からメール配信の対象となった顧客。"
+}

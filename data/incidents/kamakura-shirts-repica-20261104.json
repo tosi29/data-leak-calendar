@@ -1,0 +1,46 @@
+{
+  "id": "kamakura-shirts-repica-20261104",
+  "organization": {
+    "name": "メーカーズシャツ鎌倉（鎌倉シャツ）",
+    "sector": "企業・団体"
+  },
+  "title": "メールマガジン配信に使うrepicaへの不正アクセスでメールアドレス約16万件が流出の可能性",
+  "summary": "メールマガジン配信に使うrepicaへの不正アクセスでメールアドレス約16万件が流出の可能性。",
+  "published_on": "2026-11-04",
+  "first_published_on": "2026-11-04",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-04",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "アララ株式会社のメール配信サービス「repica」への第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 160000,
+      "unit": "records",
+      "qualifier": "approximate",
+      "description": "10月8～29日の配信分のメールアドレス。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "アララ株式会社",
+  "sources": [
+    {
+      "url": "https://yomukama.shirt.co.jp/5374",
+      "type": "official",
+      "title": "【緊急・重要なお知らせ】メール配信システムからのメールアドレス流出に関するご報告とお詫び",
+      "published_on": "2026-11-04",
+      "checked_on": "2026-11-08"
+    }
+  ],
+  "updates": [],
+  "notes": "公式ブログ「読む、鎌倉シャツ」の告知。メールアドレスのみ。"
+}

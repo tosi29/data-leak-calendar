@@ -1,0 +1,66 @@
+{
+  "id": "aidma-mamaworks-20261020",
+  "organization": {
+    "name": "アイドマ・ホールディングス（ママワークス）",
+    "sector": "企業・団体"
+  },
+  "title": "ママワークスのシステム設定の脆弱性を突いた不正アクセスで会員の個人情報に漏えいの可能性",
+  "summary": "警察から会員名簿とされるデータがネット上にアップロードされていると報告を受け調査した結果、システム設定の脆弱性による不正アクセスで会員の登録情報が漏えいした可能性を確認。",
+  "published_on": "2026-10-20",
+  "first_published_on": "2026-10-20",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-10-01",
+  "updated_on": "2026-11-04",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "configuration",
+    "certainty": "confirmed",
+    "detail": "ママワークスの運営に用いるシステムの設定に脆弱性があり、第三者による不正アクセスが行われた。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "対象人数は未公表。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "生年月日",
+    "性別",
+    "電話番号",
+    "住所",
+    "メールアドレス",
+    "職務経歴",
+    "パスワードのハッシュ値"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://mamaworks.jp/files/notice_20261020.pdf",
+      "type": "official",
+      "title": "「ママワークス」における個人情報漏えいに関するご報告とお詫び",
+      "published_on": "2026-10-20",
+      "checked_on": "2026-11-08"
+    },
+    {
+      "url": "https://mamaworks.jp/files/notice_20261104.pdf",
+      "type": "official",
+      "title": "退会済み会員等の個人情報の削除対応についてのご報告",
+      "published_on": "2026-11-04",
+      "checked_on": "2026-11-08"
+    }
+  ],
+  "updates": [
+    {
+      "date": "2026-11-04",
+      "summary": "11月3日退会分までの退会済み会員等の登録情報を物理削除。既に取得された可能性がある情報の回収にはならないと説明。",
+      "source_index": 1
+    }
+  ],
+  "notes": "10月1日に専門調査会社の調査で原因を確認し、警察から報告された名簿データが実際の会員名簿の可能性があると判断。今回の収集で未収録だったため追加。"
+}

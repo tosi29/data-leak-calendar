@@ -11,7 +11,7 @@
   "publication_kind": "initial",
   "occurred_on": null,
   "detected_on": null,
-  "updated_on": "2026-10-28",
+  "updated_on": "2026-11-05",
   "verification": "official",
   "leak_status": "suspected",
   "incident_type": "attack",
@@ -22,14 +22,19 @@
   },
   "impact": [
     {
-      "count": null,
+      "count": 142669,
       "unit": "records",
-      "qualifier": "unknown",
-      "description": "対象情報。人数・件数の公表がない場合は不明。"
+      "qualifier": "exact",
+      "description": "重複を除いたメールアドレス数。"
     }
   ],
   "data_types": [
-    "メールアドレス等"
+    "メールアドレス等",
+    "メールアドレス",
+    "注文番号",
+    "商品名",
+    "ユーザーID",
+    "シリアル番号"
   ],
   "related_vendor": "ユミルリンク",
   "sources": [
@@ -39,9 +44,22 @@
       "title": "Cuenote FCに登録した顧客情報が流出した可能性",
       "published_on": "2026-10-27",
       "checked_on": "2026-10-28"
+    },
+    {
+      "url": "https://www.sourcenext.com/support/i/2026/1105_info/",
+      "type": "official",
+      "title": "メール配信サービス「Cuenote FC」への不正アクセスによるお客様情報流出に関するお詫びとお知らせ（第二報）",
+      "published_on": "2026-11-05",
+      "checked_on": "2026-11-08"
     }
   ],
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-11-05",
+      "summary": "提供元の調査結果を受け、流出した可能性のある顧客情報は142,669件（重複を除くメールアドレス数）。メールアドレス・注文番号・商品名・ユーザーID等。氏名・住所・電話番号・パスワード・カード情報は対象外。",
+      "source_index": 1
+    }
+  ],
   "notes": "10月15日公表の自社サイトへの不正アクセスとは別で関連なしと明記。パスワード・カード情報は登録していない。同じ提供元の事案や他の利用組織と対象が重複し得るため、被害人数・件数として単純合算しない。",
   "vendors": [
     {

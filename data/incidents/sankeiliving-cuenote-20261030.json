@@ -11,7 +11,7 @@
   "publication_kind": "initial",
   "occurred_on": null,
   "detected_on": null,
-  "updated_on": "2026-11-01",
+  "updated_on": "2026-11-02",
   "verification": "official",
   "leak_status": "suspected",
   "incident_type": "attack",
@@ -22,16 +22,23 @@
   },
   "impact": [
     {
-      "count": null,
+      "count": 4812,
       "unit": "records",
-      "qualifier": "unknown",
-      "description": "対象規模は未公表。"
+      "qualifier": "exact",
+      "description": "アドレス帳4冊分の延べ件数。"
+    },
+    {
+      "count": 4725,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "メールアドレスのユニーク数。上記の内数。"
     }
   ],
   "data_types": [
     "氏名",
     "メールアドレス",
-    "その他の配信先情報（調査中）"
+    "その他の配信先情報（調査中）",
+    "ID"
   ],
   "related_vendor": "ユミルリンク株式会社",
   "sources": [
@@ -41,8 +48,21 @@
       "title": "Cuenoteの配信先情報に漏えいのおそれ",
       "published_on": "2026-10-30",
       "checked_on": "2026-11-01"
+    },
+    {
+      "url": "https://oshirase.living.jp/news/20261102.html",
+      "type": "official",
+      "title": "業務委託先への不正アクセスによる当社お客様情報の漏えいに関するお知らせとお詫び（第二報）",
+      "published_on": "2026-11-02",
+      "checked_on": "2026-11-08"
     }
   ],
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-11-02",
+      "summary": "第二報。Cuenote FCのアドレス帳4冊分が外部に持ち出された可能性。延べ4,812件（メールアドレスのユニーク数4,725件）、メールアドレス・氏名・ID。",
+      "source_index": 1
+    }
+  ],
   "notes": "20日には対象外と報告されたが26日に対象の可能性が判明。21日公表の自社サーバー侵害とは経路が異なり、関係は調査中。"
 }

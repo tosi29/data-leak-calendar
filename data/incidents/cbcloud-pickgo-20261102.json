@@ -1,0 +1,67 @@
+{
+  "id": "cbcloud-pickgo-20261102",
+  "organization": {
+    "name": "CBcloud（ピックゴー）",
+    "sector": "企業・団体"
+  },
+  "title": "ピックゴー法人向けサービスへの不正アクセスで荷主・ドライバーの情報に流出の可能性",
+  "summary": "ピックゴー法人向けサービスへの不正アクセスで荷主・ドライバーの情報に流出の可能性。",
+  "published_on": "2026-11-02",
+  "first_published_on": "2026-11-02",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-11-01",
+  "updated_on": "2026-11-03",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "法人向けサービスへの第三者による不正アクセス。経路は未公表。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "件数は未公表。範囲は個社ごとに異なる。"
+    }
+  ],
+  "data_types": [
+    "法人名",
+    "担当者氏名",
+    "住所",
+    "電話番号",
+    "メールアドレス",
+    "発注情報",
+    "集荷先・お届け先情報",
+    "ドライバーの氏名・電話番号・車両番号",
+    "配送中の位置情報"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://cb-cloud.com/news/AJZDw0h3",
+      "type": "official",
+      "title": "「ピックゴー」への不正アクセス及び個人情報流出の可能性について（第1報）",
+      "published_on": "2026-11-02",
+      "checked_on": "2026-11-08"
+    },
+    {
+      "url": "https://cb-cloud.com/news/MC7mDLUO",
+      "type": "official",
+      "title": "「ピックゴー」への不正アクセス及び個人情報流出の可能性について（第2報）",
+      "published_on": "2026-11-03",
+      "checked_on": "2026-11-08"
+    }
+  ],
+  "updates": [
+    {
+      "date": "2026-11-03",
+      "summary": "第2報。流出の可能性がある範囲を特定。法人名・担当者情報、発注情報（集荷先・お届け先の氏名・住所・電話番号）、担当ドライバーの氏名・電話番号・車両番号・位置情報等。決済情報・ログインパスワードは対象外。国外からのアクセスを一部制限。",
+      "source_index": 1
+    }
+  ],
+  "notes": "本文はページ埋め込みデータから確認。配送委託元（セブン‐イレブン・ジャパン、出前館、日本郵便等）の公表は別記録で件数を合算しない。"
+}

@@ -1,0 +1,46 @@
+{
+  "id": "duskin-dduet-repica-20261104",
+  "organization": {
+    "name": "ダスキン（DDuet）",
+    "sector": "企業・団体"
+  },
+  "title": "repicaへの不正アクセスで会員サイトDDuetの登録メールアドレス657,886件が漏洩",
+  "summary": "repicaへの不正アクセスで会員サイトDDuetの登録メールアドレス657,886件が漏洩。",
+  "published_on": "2026-11-04",
+  "first_published_on": "2026-11-04",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-11-02",
+  "updated_on": "2026-11-04",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "アララ株式会社のメール配信サービス「repica」への第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 657886,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "DDuet登録会員のメールアドレス（一部他サイト登録分を含む）。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "アララ株式会社",
+  "sources": [
+    {
+      "url": "https://www.duskin.co.jp/news/2026/pdf/261104_01.pdf",
+      "type": "official",
+      "title": "メール配信サービス提供事業者への不正アクセスによるお客様メールアドレス漏洩に関するお知らせとお詫び",
+      "published_on": "2026-11-04",
+      "checked_on": "2026-11-08"
+    }
+  ],
+  "updates": [],
+  "notes": "氏名・住所・カード情報等は含まれない。"
+}

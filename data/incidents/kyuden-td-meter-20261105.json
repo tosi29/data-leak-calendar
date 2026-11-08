@@ -1,0 +1,48 @@
+{
+  "id": "kyuden-td-meter-20261105",
+  "organization": {
+    "name": "九州電力送配電",
+    "sector": "企業・団体"
+  },
+  "title": "システムへの不正アクセスで電力量情報4,139件に漏えいの可能性",
+  "summary": "システムへの不正アクセスで電力量情報4,139件に漏えいの可能性。",
+  "published_on": "2026-11-05",
+  "first_published_on": "2026-11-05",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-10-30",
+  "updated_on": "2026-11-05",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "一部システムへの不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 4139,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "使用電力量・売電電力量と供給・受電地点特定番号。"
+    }
+  ],
+  "data_types": [
+    "使用電力量",
+    "売電電力量",
+    "供給地点特定番号"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.kyuden.co.jp/td/press/2026/261105.html",
+      "type": "official",
+      "title": "当社システムへの不正アクセスによる電力量情報の漏えいの可能性及び一部サービスの停止について",
+      "published_on": "2026-11-05",
+      "checked_on": "2026-11-08"
+    }
+  ],
+  "updates": [],
+  "notes": "氏名・住所・電話番号・メールアドレス・口座情報等の契約情報は含まれない。個人情報保護法に基づき対象者へ個別通知予定。電力量・料金照会サービスを停止。6月の別事案とは区別。"
+}

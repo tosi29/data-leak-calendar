@@ -1,0 +1,46 @@
+{
+  "id": "sasebo-ecoin-arara-20261104",
+  "organization": {
+    "name": "させぼeコイン（佐世保市）",
+    "sector": "自治体"
+  },
+  "title": "させぼeコインの自動送信メールに使うアララへの不正アクセスで登録情報への影響を確認中",
+  "summary": "させぼeコインの自動送信メールに使うアララへの不正アクセスで登録情報への影響を確認中。",
+  "published_on": "2026-11-04",
+  "first_published_on": "2026-11-04",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-04",
+  "verification": "official",
+  "leak_status": "investigating",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "アララ株式会社のメール配信サービス「アララメッセージ」への第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "流出対象に含まれるかは未判明。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "アララ株式会社",
+  "sources": [
+    {
+      "url": "https://saseboecoin.jp/news/news20261104",
+      "type": "official",
+      "title": "外部メール配信サービスへの不正アクセスについて（させぼeコイン）",
+      "published_on": "2026-11-04",
+      "checked_on": "2026-11-08"
+    }
+  ],
+  "updates": [],
+  "notes": "10月のRAIDEN事案とは別。"
+}

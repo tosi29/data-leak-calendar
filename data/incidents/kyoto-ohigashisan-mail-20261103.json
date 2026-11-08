@@ -1,0 +1,44 @@
+{
+  "id": "kyoto-ohigashisan-mail-20261103",
+  "organization": {
+    "name": "京都市（指定管理者：植彌加藤造園）",
+    "sector": "自治体"
+  },
+  "title": "東本願寺前市民緑地のメールアカウントが不正利用され保存メール中の利用者情報に流出の可能性",
+  "summary": "東本願寺前市民緑地のメールアカウントが不正利用され保存メール中の利用者情報に流出の可能性。",
+  "published_on": "2026-11-03",
+  "first_published_on": "2026-11-03",
+  "publication_kind": "initial",
+  "occurred_on": "2026-10-30",
+  "detected_on": null,
+  "updated_on": "2026-11-03",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "credentials",
+    "certainty": "confirmed",
+    "detail": "指定管理者が運用する施設のメールアカウントの認証情報が第三者に不正利用され、迷惑メールが送信された。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "保存メールに含まれる施設利用者。件数は未公表。"
+    }
+  ],
+  "data_types": [],
+  "related_vendor": "植彌加藤造園",
+  "sources": [
+    {
+      "url": "https://www.city.kyoto.lg.jp/kensetu/page/0000359897.html",
+      "type": "official",
+      "title": "東本願寺前市民緑地のメールアカウントの不正利用及び個人情報漏洩の可能性",
+      "published_on": "2026-11-03",
+      "checked_on": "2026-11-08"
+    }
+  ],
+  "updates": [],
+  "notes": "10月30日18時ごろから不正送信、31日6時ごろ停止。現時点で個人情報の流出は未確認。"
+}

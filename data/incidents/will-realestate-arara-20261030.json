@@ -1,0 +1,78 @@
+{
+  "id": "will-realestate-arara-20261030",
+  "organization": {
+    "name": "ウィル",
+    "sector": "企業・団体"
+  },
+  "title": "メールマガジン配信に使うアララメッセージへの不正アクセスで配信先メールアドレス102,369件が流出",
+  "summary": "メールマガジン配信に使うアララメッセージへの不正アクセスで配信先メールアドレス102,369件が流出。",
+  "published_on": "2026-10-30",
+  "first_published_on": "2026-10-30",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-06",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "アララ株式会社のメール配信サービス「アララメッセージ」への第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 102369,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "重複を含むメールアドレス件数。人数ではない。"
+    },
+    {
+      "count": 1,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "メール本文の一部に含まれていた氏名。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス",
+    "氏名（1名分）"
+  ],
+  "related_vendor": "アララ株式会社",
+  "sources": [
+    {
+      "url": "https://www.wills.co.jp/corp/news/1893/",
+      "type": "official",
+      "title": "アララ株式会社への不正アクセスに伴うメールアドレス流出の可能性について",
+      "published_on": "2026-10-30",
+      "checked_on": "2026-11-08"
+    },
+    {
+      "url": "https://www.wills.co.jp/corp/news/1894/",
+      "type": "official",
+      "title": "同（第2報）",
+      "published_on": "2026-11-04",
+      "checked_on": "2026-11-08"
+    },
+    {
+      "url": "https://www.wills.co.jp/corp/news/1895/",
+      "type": "official",
+      "title": "【第3報】アララ株式会社への不正アクセスに伴うお客様情報の流出について",
+      "published_on": "2026-11-06",
+      "checked_on": "2026-11-08"
+    }
+  ],
+  "updates": [
+    {
+      "date": "2026-11-04",
+      "summary": "第2報。アララ第2報を受け、氏名等の顧客情報も流出（おそれを含む）との連絡。",
+      "source_index": 1
+    },
+    {
+      "date": "2026-11-06",
+      "summary": "第3報。登録顧客の情報が含まれていたと確認。メールアドレス102,369件（重複含む）と本文中の氏名1名分。",
+      "source_index": 2
+    }
+  ],
+  "notes": "不動産のウィル（兵庫）。ポイントサービスのウィルズとは別会社。カード番号・口座・電話番号・生年月日・パスワードは登録していない。第3報の本文は取得ツール経由で確認。"
+}

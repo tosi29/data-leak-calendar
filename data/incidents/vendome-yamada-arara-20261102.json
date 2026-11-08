@@ -1,0 +1,46 @@
+{
+  "id": "vendome-yamada-arara-20261102",
+  "organization": {
+    "name": "ヴァンドームヤマダ",
+    "sector": "企業・団体"
+  },
+  "title": "メルマガ配信に使うアララのメール送信サーバーから会員のメールアドレスが漏えいの可能性",
+  "summary": "メルマガ配信に使うアララのメール送信サーバーから会員のメールアドレスが漏えいの可能性。",
+  "published_on": "2026-11-02",
+  "first_published_on": "2026-11-02",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-11-02",
+  "updated_on": "2026-11-02",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "アララ株式会社のメール配信サービスへの第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "件数は未公表。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "アララ株式会社",
+  "sources": [
+    {
+      "url": "https://vendome.jp/plus_vendome/news/27694",
+      "type": "official",
+      "title": "不正アクセスによるメールマガジン会員さまのメールアドレス漏えいの可能性に関するお知らせとお詫び",
+      "published_on": "2026-11-02",
+      "checked_on": "2026-11-08"
+    }
+  ],
+  "updates": [],
+  "notes": "10月8～29日のメールマガジン配信対象のメールアドレスのみ。"
+}

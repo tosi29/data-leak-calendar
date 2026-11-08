@@ -9,23 +9,23 @@
   "published_on": "2026-09-18",
   "occurred_on": null,
   "detected_on": "2026-09-16",
-  "updated_on": "2026-10-15",
+  "updated_on": "2026-11-02",
   "first_published_on": "2026-09-18",
   "publication_kind": "initial",
   "verification": "official",
   "leak_status": "confirmed",
   "impact": [
     {
-      "count": 40000,
-      "unit": "accounts",
-      "qualifier": "approximate",
-      "description": "アザス"
+      "count": 24705,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "アザスの確定人数（うちメールアドレスを含む7,618名）。"
     },
     {
-      "count": 20000,
-      "unit": "accounts",
-      "qualifier": "approximate",
-      "description": "するーぷ"
+      "count": 20489,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "するーぷの確定人数。"
     }
   ],
   "data_types": [
@@ -56,10 +56,23 @@
       "title": "不正アクセスによる個人情報流出に関するお知らせとお詫び - するーぷ | “ちょっといい”ことを習慣にする衣類回収サービス",
       "published_on": "2026-09-18",
       "checked_on": "2026-10-15"
+    },
+    {
+      "url": "https://jgc-digital.com/topics/topics-3114/",
+      "type": "official",
+      "title": "【確報】不正アクセスによる個人情報漏えいに関するお知らせとお詫び（調査結果のご報告）",
+      "published_on": "2026-11-02",
+      "checked_on": "2026-11-08"
     }
   ],
   "notes": "同社の同日検知・同一ツールに関する2サービスの公表を1記録にまとめた。項目はサービスで異なる。アカウント数を人数に換算しない。",
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-11-02",
+      "summary": "確報。対象人数をアザス24,705名（うちメールアドレスを含む7,618名）、するーぷ20,489名、合計45,194名と確定。第1報のアカウント数約6万件から重複・ダミーデータを除去。",
+      "source_index": 2
+    }
+  ],
   "incident_type": "attack",
   "vendor_research": {
     "checked_on": "2026-10-15",
@@ -72,6 +85,10 @@
       },
       {
         "source_index": 1,
+        "status": "reviewed"
+      },
+      {
+        "source_index": 2,
         "status": "reviewed"
       }
     ]

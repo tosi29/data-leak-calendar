@@ -1,0 +1,59 @@
+{
+  "id": "setagaya-pay-arara-20261102",
+  "organization": {
+    "name": "世田谷区（せたがやPay）",
+    "sector": "自治体"
+  },
+  "title": "せたがやPayのメール配信システムへの不正アクセスで登録情報の漏えいを確認",
+  "summary": "せたがやPayのメール配信システムへの不正アクセスで登録情報の漏えいを確認。",
+  "published_on": "2026-11-02",
+  "first_published_on": "2026-11-02",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-04",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "アララ株式会社のメール配信サービスへの第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 594799,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "システムベンダーが利用する環境全体のメールアドレス件数（せたがやPayを含む）。区分の内訳は確認中。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "アララ株式会社",
+  "sources": [
+    {
+      "url": "https://www.city.setagaya.lg.jp/01004/36866.html",
+      "type": "official",
+      "title": "せたがやPayのメール配信システムへの不正アクセスによる情報漏えいの可能性について",
+      "published_on": "2026-11-02",
+      "checked_on": "2026-11-08"
+    },
+    {
+      "url": "https://www.city.setagaya.lg.jp/01004/36870.html",
+      "type": "official",
+      "title": "せたがやPayのメール配信システムへの不正アクセスによる情報漏えいについて（第2報）",
+      "published_on": "2026-11-04",
+      "checked_on": "2026-11-08"
+    }
+  ],
+  "updates": [
+    {
+      "date": "2026-11-04",
+      "summary": "第2報。せたがやPay利用環境を含む登録情報の漏えいを確認。環境全体で594,799件のメールアドレス、区の具体的件数は確認中。",
+      "source_index": 1
+    }
+  ],
+  "notes": "実施主体は世田谷区商店街振興組合連合会。594,799件はベンダー環境全体の件数で、フィノバレーの公表件数と同じ値。他の地域通貨と重複するため合算しない。"
+}

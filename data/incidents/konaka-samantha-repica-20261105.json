@@ -1,0 +1,46 @@
+{
+  "id": "konaka-samantha-repica-20261105",
+  "organization": {
+    "name": "サマンサタバサジャパンリミテッド／バーンデストローズジャパンリミテッド（コナカ）",
+    "sector": "企業・団体"
+  },
+  "title": "repicaへの不正アクセスで公式オンラインショップ等の登録メールアドレス434,414件が流出",
+  "summary": "repicaへの不正アクセスで公式オンラインショップ等の登録メールアドレス434,414件が流出。",
+  "published_on": "2026-11-05",
+  "first_published_on": "2026-11-05",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-05",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "アララ株式会社の外部サービス「repica」への第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 434414,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "サマンサタバサ・バーンデストローズ・フィットハウスの公式オンラインショップとアプリの登録メールアドレス。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "アララ株式会社",
+  "sources": [
+    {
+      "url": "https://www.release.tdnet.info/inbs/140120261105565832.pdf",
+      "type": "official",
+      "title": "連結子会社のメール配信サービス提供元への不正アクセスによるメールアドレスの漏えいに関するお知らせ（コナカ）",
+      "published_on": "2026-11-05",
+      "checked_on": "2026-11-08"
+    }
+  ],
+  "updates": [],
+  "notes": "親会社コナカの適時開示。氏名・住所・電話番号・パスワード・カード情報等の流出は未確認。"
+}

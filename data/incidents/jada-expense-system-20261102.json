@@ -1,0 +1,59 @@
+{
+  "id": "jada-expense-system-20261102",
+  "organization": {
+    "name": "日本アンチ・ドーピング機構",
+    "sector": "企業・団体"
+  },
+  "title": "経費管理システムの脆弱性を悪用され登録者1,792名の個人情報が取得",
+  "summary": "経費管理システムの脆弱性を悪用され登録者1,792名の個人情報が取得。",
+  "published_on": "2026-11-02",
+  "first_published_on": "2026-11-02",
+  "publication_kind": "initial",
+  "occurred_on": "2026-10-25",
+  "detected_on": null,
+  "updated_on": "2026-11-02",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "vulnerability",
+    "certainty": "confirmed",
+    "detail": "経費管理システムの一部機能に、ログインを経ずに登録情報を取得できる脆弱性があり、第三者に利用された。"
+  },
+  "impact": [
+    {
+      "count": 1792,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "システムに登録されていたドーピング検査員・講師・役職員等。"
+    },
+    {
+      "count": 594,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "取引先の名称。個人情報件数と合算しない。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "ふりがな",
+    "生年月日",
+    "住所",
+    "電話番号",
+    "メールアドレス",
+    "DCO認定番号",
+    "精算経路情報"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.playtruejapan.org/topics/2026/000805.html",
+      "type": "official",
+      "title": "経費管理システムへの不正アクセスによる個人情報漏えいに関するお知らせとお詫び",
+      "published_on": "2026-11-02",
+      "checked_on": "2026-11-08"
+    }
+  ],
+  "updates": [],
+  "notes": "カード情報・銀行口座情報、アスリートの検査関連・居場所・TUE情報は含まれない。10月29日から対象者へ個別連絡。"
+}

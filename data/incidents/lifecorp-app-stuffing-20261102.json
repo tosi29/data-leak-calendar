@@ -1,0 +1,53 @@
+{
+  "id": "lifecorp-app-stuffing-20261102",
+  "organization": {
+    "name": "ライフコーポレーション",
+    "sector": "企業・団体"
+  },
+  "title": "ライフ公式アプリへの大量の認証試行で298件の顧客情報が閲覧された可能性",
+  "summary": "ライフ公式アプリへの大量の認証試行で298件の顧客情報が閲覧された可能性。",
+  "published_on": "2026-11-02",
+  "first_published_on": "2026-11-02",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-10-30",
+  "updated_on": "2026-11-02",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "credentials",
+    "certainty": "suspected",
+    "detail": "大量かつ自動的な認証の試行と考えられる不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 298,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "閲覧された可能性がある顧客の件数。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "生年月日",
+    "住所",
+    "郵便番号",
+    "電話番号",
+    "電子マネー残高",
+    "ポイントカード番号",
+    "ポイント残高"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.lifecorp.jp/vc-files/pdf/newsrelease/others/20261102-1.pdf",
+      "type": "official",
+      "title": "第三者による不正アクセスに伴う個人情報漏えいの可能性に関するお詫びとお知らせ",
+      "published_on": "2026-11-02",
+      "checked_on": "2026-11-08"
+    }
+  ],
+  "updates": [],
+  "notes": "LC JCBカードのカード番号は漏えいしていない。アプリはカード情報を保持しない。11月6日のネットスーパーのメール配信委託先の事案とは別。"
+}

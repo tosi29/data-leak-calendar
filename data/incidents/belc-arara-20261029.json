@@ -1,0 +1,59 @@
+{
+  "id": "belc-arara-20261029",
+  "organization": {
+    "name": "ベルク",
+    "sector": "企業・団体"
+  },
+  "title": "メール配信サービス（アララ）への不正アクセスでメールアドレス786,739件と一部氏名が流出",
+  "summary": "メール配信サービス（アララ）への不正アクセスでメールアドレス786,739件と一部氏名が流出。",
+  "published_on": "2026-10-29",
+  "first_published_on": "2026-10-29",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-03",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "アララ株式会社のメール配信サービス「アララメッセージ」への第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 786739,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "メールアドレス。"
+    },
+    {
+      "count": 2352,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "お届けパック利用者の一部の氏名。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス",
+    "氏名（一部）"
+  ],
+  "related_vendor": "アララ株式会社",
+  "sources": [
+    {
+      "url": "https://www.belc.jp/news/20261029",
+      "type": "official",
+      "title": "【11月3日追記】［重要なお知らせ］メール配信サービスへの不正アクセスに伴う個人情報流出の調査結果について",
+      "published_on": "2026-11-03",
+      "checked_on": "2026-11-08"
+    }
+  ],
+  "updates": [
+    {
+      "date": "2026-11-03",
+      "summary": "11月3日追記。調査の結果、メールアドレス786,739件とお届けパック利用者の一部の氏名2,352件の流出を確認。",
+      "source_index": 0
+    }
+  ],
+  "notes": "10月29日に不正アクセスを告知（同ページに掲載）。住所・電話番号・生年月日・パスワード・決済情報は登録していない。今回の収集で未収録だったため追加。"
+}
