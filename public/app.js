@@ -7,7 +7,8 @@ const dateLabel = date => date ? date.replaceAll('-', '.') : '不明・未公表
 const kindLabel = {initial:'初報',followup:'期間内の続報',unknown:'初報日未確認'};
 const shortStatus = {confirmed:'漏えい・取得を確認',suspected:'漏えいの可能性',investigating:'漏えい有無を調査中',exposed:'外部から閲覧可能',lost:'紛失',ruled_out:'漏えいを否定',improper_sharing:'同意のない第三者提供'};
 const fields = ['query','month','status','classification','vendor'];
-let data, candidates = [], selectedDate = '';
+const PAGE = 50;
+let data, candidates = [], selectedDate = '', results = [], shown = PAGE, listKey = '';
 function options(id, entries) {
   for (const [value, label] of entries) { const option = document.createElement('option'); option.value = value; option.textContent = label; $(id).append(option); }
 }
@@ -20,7 +21,7 @@ function setupCategories() {
   };
   $('category-buttons').innerHTML = ['accident', 'attack', 'improper_handling', 'unknown'].map(type => {
     const count = data.incidents.filter(item => item.incident_type === type).length;
-    return `<button type="button" class="category-button" data-type="${type}" aria-pressed="false"><span class="category-label">${escape(incidentTypeLabels[type])}</span><span class="category-count">${count}<small>件</small></span><span class="category-description">${descriptions[type]}</span></button>`;
+    return `<button type="button" class="category-button" data-type="${type}" aria-pressed="false"><span class="category-label">${escape(incidentTypeLabels[type])}</span><span class="category-count">${count}<small>件</small></span><span class="category-share" style="--share:${count / data.incidents.length}" aria-hidden="true"></span><span class="category-description">${descriptions[type]}</span></button>`;
   }).join('');
   $('all-types').disabled = false;
   function selectType(type) {
@@ -83,9 +84,29 @@ function renderCalendar(items) {
     if (next && !next.disabled) next.focus();
   });
 }
+function moreLabel() {
+  const rest = results.length - shown;
+  $('more-bar').hidden = rest <= 0;
+  $('show-all').hidden = rest <= PAGE;
+  $('more').textContent = rest > PAGE ? `さらに${PAGE}件を表示` : `残り${rest}件を表示`;
+  $('show-all').textContent = `すべて表示（残り${rest}件）`;
+}
+function renderList() {
+  $('incident-list').innerHTML = results.slice(0, shown).map(incidentHTML).join('');
+  moreLabel();
+}
+function showMore(count = PAGE) {
+  const next = results.slice(shown, shown + count);
+  $('incident-list').insertAdjacentHTML('beforeend', next.map(incidentHTML).join(''));
+  shown += count;
+  moreLabel();
+  if (next.length) $(next[0].id).querySelector('summary').focus();
+}
 function render() {
   const base = filterIncidents(data.incidents,filters());
-  const results = selectedDate ? base.filter(i => i.published_on === selectedDate) : base;
+  results = selectedDate ? base.filter(i => i.published_on === selectedDate) : base;
+  const key = JSON.stringify([filters(), selectedDate]);
+  if (key !== listKey) { listKey = key; shown = PAGE; }
   renderCalendar(base);
   const year = $('year').value;
   renderImpactChart($('impact-chart'), base, {
@@ -98,11 +119,12 @@ function render() {
   }
   $('all-types').setAttribute('aria-pressed', String(!filters().incident_type));
   $('type-breakdown').textContent = '表示中の内訳：' + Object.entries(incidentTypeLabels).map(([key, label]) => `${label} ${results.filter(i => i.incident_type === key).length}件`).join(' ／ ');
-  $('incident-list').innerHTML = results.map(incidentHTML).join('');
+  renderList();
   $('result-count').textContent = `${results.length} / ${data.incidents.length}`;
   const conditions = fields.filter(id => $(id).value).map(id => id === 'query' ? `「${$(id).value}」` : $(id).selectedOptions[0].textContent);
   $('filter-summary').textContent = `${selectedDate ? dateLabel(selectedDate)+' の公表 · ' : ''}${results.length}件を表示 · ${conditions.length ? conditions.join(' / ') : 'すべての事案'} · 公表日の新しい順`;
   $('empty').hidden = results.length > 0;
+  $('reset').hidden = !conditions.length && !selectedDate;
   const params = new URLSearchParams();
   for(const [key,value] of Object.entries(filters())) if(value) params.set(key,value);
   if(selectedDate) params.set('date',selectedDate);
@@ -113,7 +135,9 @@ function openHash() {
   const id = decodeURIComponent(location.hash.slice(1));
   const item = data.incidents.find(i => i.id === id);
   if(!item) return;
-  if(!$(id)){for(const field of fields) $(field).value='';selectedDate='';render();}
+  if(!results.includes(item)){for(const field of fields) $(field).value='';selectedDate='';render();}
+  const index = results.indexOf(item);
+  if(index >= shown){shown = Math.ceil((index + 1) / PAGE) * PAGE;renderList();}
   $(id).open=true;
   $(id).scrollIntoView({block:'start'});
 }
@@ -151,7 +175,9 @@ try {
   $('filters').addEventListener('submit',event=>event.preventDefault());
   for(const field of fields) $(field).addEventListener(field==='query'?'input':'change',()=>{selectedDate='';render();});
   $('year').addEventListener('change',()=>{selectedDate='';render();});
-  $('reset').addEventListener('click',()=>{for(const field of fields) $(field).value='';selectedDate='';render();});
+  $('more').addEventListener('click',()=>showMore());
+  $('show-all').addEventListener('click',()=>showMore(results.length - shown));
+  $('reset').addEventListener('click',()=>{for(const field of fields) $(field).value='';selectedDate='';render();$('query').focus();});
   $('heatmap').addEventListener('click',event=>{const button=event.target.closest('[data-date]');if(!button)return;const date=button.dataset.date;selectedDate=selectedDate===date?'':date;render();$('heatmap').querySelector(`[data-date="${date}"]`)?.focus();});
   window.addEventListener('hashchange',openHash);
   setupCategories();
@@ -162,6 +188,9 @@ try {
   if (firstActive && scroller.scrollWidth > scroller.clientWidth) {
     scroller.scrollLeft = firstActive.getBoundingClientRect().left - scroller.getBoundingClientRect().left - 38;
   }
+  // Show the latest months first when the chart is wider than the screen.
+  const plot = document.querySelector('.impact-plot');
+  plot.scrollLeft = plot.scrollWidth;
   try {
     const response = await fetch('./data/candidates.json');
     if(!response.ok) throw new Error();

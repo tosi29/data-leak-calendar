@@ -26,34 +26,59 @@ export function impactSeries(items, {unit = 'records', start, end}) {
   return {months, series, omitted, totals: months.map((_, i) => series.reduce((sum, row) => sum + row.values[i], 0))};
 }
 const esc = value => String(value).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-function color(id) {
-  let hash = 0;
-  for (const c of id) hash = (hash * 31 + c.charCodeAt(0)) >>> 0;
-  return `hsl(${hash % 360} 48% ${35 + (hash % 20)}%)`;
+// Same order as the category cards; segments are grouped by type within a month.
+const typeOrder = ['accident', 'attack', 'improper_handling', 'unknown'];
+const compact = value => new Intl.NumberFormat('ja-JP', {notation:'compact', maximumFractionDigits:1}).format(value);
+function bindTooltip(root) {
+  if (root.dataset.tooltip) return;
+  root.dataset.tooltip = 'bound';
+  const plot = root.querySelector('.impact-plot'), tip = root.querySelector('.impact-tooltip');
+  const show = target => {
+    const segment = target?.closest?.('[data-tip]');
+    if (!segment) { tip.hidden = true; return; }
+    const [org, amount, date] = JSON.parse(segment.dataset.tip);
+    tip.innerHTML = `<strong>${esc(org)}</strong><span>${esc(amount)}</span><small>公表 ${esc(date)}</small>`;
+    tip.hidden = false;
+    const box = segment.getBoundingClientRect(), frame = root.getBoundingClientRect();
+    const x = Math.min(Math.max(box.left + box.width / 2 - frame.left, 90), frame.width - 90);
+    tip.style.left = `${x}px`;
+    tip.style.top = `${box.top - frame.top}px`;
+  };
+  plot.addEventListener('pointerover', event => show(event.target));
+  plot.addEventListener('pointerleave', () => { tip.hidden = true; });
+  plot.addEventListener('focusin', event => show(event.target));
+  plot.addEventListener('focusout', () => { tip.hidden = true; });
+  plot.addEventListener('scroll', () => { tip.hidden = true; });
 }
 export function renderImpactChart(root, items, options) {
   const {months, series, totals, omitted} = impactSeries(items, options);
   const unit = unitLabels[options.unit];
-  const width = Math.max(680, months.length * 100 + 100), height = 330;
-  const left = 90, top = 30, bottom = 285, plotHeight = bottom - top;
+  const width = Math.max(680, months.length * 100 + 100), height = 340;
+  const left = 70, top = 40, bottom = 295, plotHeight = bottom - top;
   const max = Math.max(1, ...totals), step = (width - left - 20) / Math.max(1, months.length);
-  let svg = `<svg viewBox="0 0 ${width} ${height}" width="${width}" height="${height}" role="img" aria-label="公表された対象規模の月別積み上げグラフ。案件の詳細は下の事案一覧。">`;
+  let svg = `<svg viewBox="0 0 ${width} ${height}" width="${width}" height="${height}" role="img" aria-label="公表された対象規模の月別積み上げグラフ。案件の詳細は下の事案一覧。"><defs><pattern id="impact-hatch" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="6" height="6" class="hatch-base"/><line x1="0" y1="0" x2="0" y2="6" class="hatch-line"/></pattern></defs>`;
   for (let i = 0; i <= 4; i++) {
     const y = bottom - plotHeight * i / 4;
-    svg += `<line x1="${left}" x2="${width-20}" y1="${y}" y2="${y}" stroke="#e3e5dd"/><text x="${left-8}" y="${y+4}" text-anchor="end">${new Intl.NumberFormat('ja-JP', {notation:'compact', maximumFractionDigits:1}).format(max*i/4)}</text>`;
+    svg += `<line class="grid-line" x1="${left}" x2="${width-20}" y1="${y}" y2="${y}"/><text x="${left-10}" y="${y+4}" text-anchor="end">${compact(max*i/4)}</text>`;
   }
+  const ordered = [...series].sort((a, b) => typeOrder.indexOf(a.item.incident_type) - typeOrder.indexOf(b.item.incident_type));
   months.forEach((month, i) => {
     let sum = 0;
-    for (const row of series) {
+    const x = left + i * step + step * .2, w = step * .6;
+    for (const row of ordered) {
       const value = row.values[i];
       if (!value) continue;
       const h = value / max * plotHeight, y = bottom - (sum + value) / max * plotHeight;
-      svg += `<a href="#${esc(row.item.id)}"><rect x="${left+i*step+step*.18}" y="${y}" width="${step*.64}" height="${h}" fill="${color(row.item.id)}"><title>${esc(row.item.organization.name)}：${esc(formatImpact(row.amount))}（公表 ${row.item.published_on}）</title></rect></a>`;
+      const tip = JSON.stringify([row.item.organization.name, formatImpact(row.amount), row.item.published_on.replaceAll('-', '.')]);
+      svg += `<a href="#${esc(row.item.id)}" data-tip="${esc(tip)}" aria-label="${esc(row.item.organization.name)}：${esc(formatImpact(row.amount))}"><rect class="segment type-${esc(row.item.incident_type)}${h < 4 ? ' thin' : ''}" x="${x}" y="${y}" width="${w}" height="${Math.max(h, 1)}"/></a>`;
       sum += value;
     }
-    svg += `<text x="${left+(i+.5)*step}" y="310" text-anchor="middle"><title>${month}：参考合計 ${totals[i].toLocaleString('ja-JP')}${unit}${month === options.end.slice(0,7) ? `（${options.end.slice(8)}日まで）` : ''}</title>${month}</text>`;
+    if (totals[i]) svg += `<text class="bar-total" x="${x + w / 2}" y="${bottom - totals[i] / max * plotHeight - 8}" text-anchor="middle">${compact(totals[i])}</text>`;
+    svg += `<text x="${left+(i+.5)*step}" y="${bottom + 24}" text-anchor="middle"><title>${month}：参考合計 ${totals[i].toLocaleString('ja-JP')}${unit}${month === options.end.slice(0,7) ? `（${options.end.slice(8)}日まで）` : ''}</title>${Number(month.slice(5))}月</text>`;
   });
   svg += '</svg>';
+  root.querySelector('.impact-tooltip').hidden = true;
   root.querySelector('.impact-plot').innerHTML = series.length ? svg : '<p class="empty">この単位・条件で集計できる対象規模はありません。</p>';
   root.querySelector('.impact-summary').textContent = `${series.length}案件を集計 · 単位：${unit} · 除外：数値なし／別単位 ${omitted.unknown}件、同単位の内訳が複数 ${omitted.multiple}件、漏えい否定 ${omitted.ruledOut}件`;
+  bindTooltip(root);
 }
