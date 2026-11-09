@@ -1,0 +1,51 @@
+{
+  "id": "pal-gmo-atobarai-20261106",
+  "organization": {
+    "name": "パル（PAL CLOSET）",
+    "sector": "企業・団体"
+  },
+  "title": "GMO後払い等の委託先Martial Artsが使うアララへの不正アクセスで利用者516件の情報が漏洩",
+  "summary": "GMO後払い等の委託先Martial Artsが使うアララへの不正アクセスで利用者516件の情報が漏洩。",
+  "published_on": "2026-11-06",
+  "first_published_on": "2026-11-06",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-06",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "GMO後払いの提供元GMOペイメントサービスの委託先・弁護士法人Martial Artsが利用するアララメッセージへの第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 516,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "2026年7月20日～10月30日のメール配信対象。GMO後払い388件（メールのみ364・氏名等含む24）、ゆるパル払い128件（同125・3）。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス",
+    "氏名",
+    "請求金額",
+    "請求内容",
+    "問い合わせ番号",
+    "通知内容"
+  ],
+  "related_vendor": "GMOペイメントサービス",
+  "sources": [
+    {
+      "url": "https://www.palcloset.jp/display/article/detail/?acd=261106all_004&b=&bg=outlet",
+      "type": "official",
+      "title": "外部メール配信サービスへの不正アクセスによるお客様情報漏洩に関するお詫びとお知らせ",
+      "published_on": "2026-11-06",
+      "checked_on": "2026-11-09"
+    }
+  ],
+  "updates": [],
+  "notes": "合計は内訳から算出。"
+}

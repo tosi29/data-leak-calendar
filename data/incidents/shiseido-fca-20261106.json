@@ -1,0 +1,52 @@
+{
+  "id": "shiseido-fca-20261106",
+  "organization": {
+    "name": "資生堂",
+    "sector": "企業・団体"
+  },
+  "title": "オンライン肌測定システム「FCA」への不正アクセスで顧客2,515件の問診・肌測定結果等が漏えい",
+  "summary": "オンライン肌測定システム「FCA」への不正アクセスで顧客2,515件の問診・肌測定結果等が漏えい。",
+  "published_on": "2026-11-06",
+  "first_published_on": "2026-11-06",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-10-27",
+  "updated_on": "2026-11-06",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "肌測定サービスで使用するオンライン肌測定システム「Facial Condition Analyzer（FCA）」への外部の第三者による不正アクセス（10月27日確認）。システム内の情報が改ざんされ、データが持ち出された。"
+  },
+  "impact": [
+    {
+      "count": 2515,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "調査継続中。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "メールアドレス",
+    "年齢",
+    "性別",
+    "会員ID",
+    "問診データ",
+    "肌測定結果（日時を含む）"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://corp.shiseido.com/jp/notice/20261106.html",
+      "type": "official",
+      "title": "当社肌測定システムへの不正アクセスによる個人情報漏えいに関するお詫びとお知らせ",
+      "published_on": "2026-11-06",
+      "checked_on": "2026-11-09"
+    }
+  ],
+  "updates": [],
+  "notes": "顔画像データは含まれない。漏えいが確認されたSHISEIDO等のサービスのほか、FCAを使うクレ・ド・ポー ボーテ、イプサ等の肌測定も予防停止。"
+}

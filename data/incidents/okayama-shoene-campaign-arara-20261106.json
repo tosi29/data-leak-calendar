@@ -1,0 +1,53 @@
+{
+  "id": "okayama-shoene-campaign-arara-20261106",
+  "organization": {
+    "name": "岡山県（省エネ家電購入・住宅断熱リフォーム応援キャンペーン）",
+    "sector": "自治体"
+  },
+  "title": "キャンペーン事務局JTBが使うアララへの不正アクセスで利用者のメールアドレス最大約1,100件に流出の可能性",
+  "summary": "キャンペーン事務局JTBが使うアララへの不正アクセスで利用者のメールアドレス最大約1,100件に流出の可能性。",
+  "published_on": "2026-11-06",
+  "first_published_on": "2026-11-06",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-06",
+  "verification": "official",
+  "leak_status": "investigating",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "キャンペーン事務局（JTB）がメール送信に使うアララ株式会社のメール配信サービスへの不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 1100,
+      "unit": "records",
+      "qualifier": "maximum_approximate",
+      "description": "2026年9月28日にポイント交換コード再発行のメールを受けた利用者。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "アララ株式会社",
+  "sources": [
+    {
+      "url": "https://www.pref.okayama.jp/site/presssystem/1064690.html",
+      "type": "official",
+      "title": "おかやま省エネ家電購入・住宅断熱リフォーム応援キャンペーンにおけるメールアドレス漏えいの可能性について",
+      "published_on": "2026-11-06",
+      "checked_on": "2026-11-09"
+    },
+    {
+      "url": "https://www.pref.okayama.jp/uploaded/life/1064690_10321381_misc.pdf",
+      "type": "official",
+      "title": "お知らせ",
+      "published_on": "2026-11-06",
+      "checked_on": "2026-11-09"
+    }
+  ],
+  "updates": [],
+  "notes": "氏名等は含まれない。漏えいの有無は調査中。"
+}

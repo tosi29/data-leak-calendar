@@ -1,0 +1,53 @@
+{
+  "id": "okinawa-hitorioya-arara-20261106",
+  "organization": {
+    "name": "沖縄県（ひとり親家庭暮らし応援事業）",
+    "sector": "自治体"
+  },
+  "title": "受託事業者が使うアララへの不正アクセスで事業利用者のメールアドレス217件が流出",
+  "summary": "受託事業者が使うアララへの不正アクセスで事業利用者のメールアドレス217件が流出。",
+  "published_on": "2026-11-06",
+  "first_published_on": "2026-11-06",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-06",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "業務委託先J・G共同企業体が利用するアララ株式会社のメール配信サービスへの第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 217,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "2026年10月6日配信のクーポンURL再発行メールの受信者。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "アララ株式会社",
+  "sources": [
+    {
+      "url": "https://www.pref.okinawa.jp/kyoiku/kosodate/1008226/1036501/1036531/1041859.html",
+      "type": "official",
+      "title": "「沖縄県ひとり親家庭暮らし応援事業」外部メール配信サービス提供事業者への不正アクセスにより発生した個人情報漏えいに関するお知らせ",
+      "published_on": "2026-11-06",
+      "checked_on": "2026-11-09"
+    },
+    {
+      "url": "https://okinawa-hitorioya-kurashi-ouen.jp/noticeDetail.php?id=12",
+      "type": "official",
+      "title": "【続報】アララ株式会社への不正アクセスによるメールアドレス漏洩に関するお詫びとご報告",
+      "published_on": "2026-11-06",
+      "checked_on": "2026-11-09"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

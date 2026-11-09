@@ -4,12 +4,12 @@
     "name": "大阪市（児童いきいき放課後事業）",
     "sector": "自治体"
   },
-  "title": "3活動室のサポート詐欺で児童・保護者等の情報が閲覧可能に",
+  "title": "活動室のサポート詐欺で児童・保護者等の情報が閲覧可能に（4活動室）",
   "summary": "委託先施設のパソコンが遠隔操作され、最大2,272人の情報が閲覧可能になっていた。外部送信の痕跡は確認されていない。",
   "published_on": "2026-09-30",
   "occurred_on": null,
   "detected_on": null,
-  "updated_on": "2026-10-15",
+  "updated_on": "2026-11-09",
   "first_published_on": "2026-09-30",
   "publication_kind": "initial",
   "verification": "official",
@@ -20,6 +20,12 @@
       "unit": "people",
       "qualifier": "maximum",
       "description": "児童1,261人、保護者953人、職員58人"
+    },
+    {
+      "count": 415,
+      "unit": "people",
+      "qualifier": "maximum",
+      "description": "11月9日公表の活動室Dで閲覧可能だった人数。上記と別。"
     }
   ],
   "data_types": [
@@ -42,10 +48,23 @@
       "title": "大阪市：報道発表資料　児童いきいき放課後事業運営・管理事業者における個人情報の漏えいの可能性について",
       "published_on": "2026-09-30",
       "checked_on": "2026-10-15"
+    },
+    {
+      "url": "https://www.city.osaka.lg.jp/hodoshiryo/kodomo/0000690861.html",
+      "type": "official",
+      "title": "児童いきいき放課後事業運営・管理事業者における個人情報の漏えいの可能性について（第2報）",
+      "published_on": "2026-11-09",
+      "checked_on": "2026-11-09"
     }
   ],
   "notes": "児童のうち114人の要配慮情報を含む。公表内の3活動室の被害を1記録として扱う。",
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-11-09",
+      "summary": "別の活動室Dでも9月18日に職員がサポート詐欺で遠隔操作アプリをインストールしていたことが判明。約3分29秒の操作・閲覧の形跡があり、最大415名の個人情報が閲覧可能だった。外部送信の痕跡は確認されていない。",
+      "source_index": 1
+    }
+  ],
   "incident_type": "attack",
   "vendor_research": {
     "checked_on": "2026-10-15",
@@ -54,6 +73,10 @@
     "source_checks": [
       {
         "source_index": 0,
+        "status": "reviewed"
+      },
+      {
+        "source_index": 1,
         "status": "reviewed"
       }
     ]

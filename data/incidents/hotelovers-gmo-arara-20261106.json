@@ -1,0 +1,46 @@
+{
+  "id": "hotelovers-gmo-arara-20261106",
+  "organization": {
+    "name": "ホテラバ",
+    "sector": "企業・団体"
+  },
+  "title": "GMOマーケティングコネクトの配信基盤アララへの不正アクセスでカラコン通販顧客のメールアドレス1,578,779件が流出",
+  "summary": "GMOマーケティングコネクトの配信基盤アララへの不正アクセスでカラコン通販顧客のメールアドレス1,578,779件が流出。",
+  "published_on": "2026-11-06",
+  "first_published_on": "2026-11-06",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-06",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "メール配信に利用する「GMOマーケティングコネクト」の配信基盤を提供するアララ株式会社のシステムへの不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 1578779,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "2026年11月5日時点。メールアドレスの件数で人数とは一致しない。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "GMOコマース",
+  "sources": [
+    {
+      "url": "https://hotelovers.co.jp/news/3630",
+      "type": "official",
+      "title": "メール配信サービスへの不正アクセスによるメールアドレス流出に関するお詫びとお知らせ",
+      "published_on": "2026-11-06",
+      "checked_on": "2026-11-09"
+    }
+  ],
+  "updates": [],
+  "notes": "氏名・住所・電話番号・パスワード・カード情報は対象外。"
+}

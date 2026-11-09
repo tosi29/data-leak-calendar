@@ -1,0 +1,53 @@
+{
+  "id": "okayama-otex-arara-20261107",
+  "organization": {
+    "name": "岡山県（委託先 岡山県産業振興財団）",
+    "sector": "自治体"
+  },
+  "title": "OTEX・企業成長研修の案内メールに使うアララへの不正アクセスで延べ22,612件のメールアドレスに漏えいの可能性",
+  "summary": "OTEX・企業成長研修の案内メールに使うアララへの不正アクセスで延べ22,612件のメールアドレスに漏えいの可能性。",
+  "published_on": "2026-11-07",
+  "first_published_on": "2026-11-07",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-07",
+  "verification": "official",
+  "leak_status": "investigating",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "県が委託する岡山県産業振興財団の案内メール配信に使うアララ株式会社のメール配信サービスへの不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 22612,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "送信件数の合計（OTEX2026 19,555件、企業成長研修 3,057件）。漏えいの有無は調査中。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "アララ株式会社",
+  "sources": [
+    {
+      "url": "https://www.pref.okayama.jp/site/presssystem/1064871.html",
+      "type": "official",
+      "title": "アララ株式会社への不正アクセスに伴うメールアドレス漏えいの可能性について",
+      "published_on": "2026-11-07",
+      "checked_on": "2026-11-09"
+    },
+    {
+      "url": "https://www.pref.okayama.jp/page/1064879.html",
+      "type": "official",
+      "title": "アララ株式会社への不正アクセスに伴うメールアドレス漏えいの可能性について！",
+      "published_on": "2026-11-07",
+      "checked_on": "2026-11-09"
+    }
+  ],
+  "updates": [],
+  "notes": "予防的な注意喚起。企業成長研修の件数は公表索引の値で、県ページでは本文途中まで確認。"
+}

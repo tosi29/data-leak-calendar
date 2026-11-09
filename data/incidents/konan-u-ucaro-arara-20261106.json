@@ -1,0 +1,46 @@
+{
+  "id": "konan-u-ucaro-arara-20261106",
+  "organization": {
+    "name": "甲南大学",
+    "sector": "教育・研究"
+  },
+  "title": "受験ポータルUCAROの運営会社が使うアララへの不正アクセスで2023～2026年度入試の登録メールアドレスが流出の疑い",
+  "summary": "受験ポータルUCAROの運営会社が使うアララへの不正アクセスで2023～2026年度入試の登録メールアドレスが流出の疑い。",
+  "published_on": "2026-11-06",
+  "first_published_on": "2026-11-06",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-06",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "受験ポータル「UCARO」運営のODKソリューションズがメールマガジン配信に利用するアララメッセージへの不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "件数は未公表。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "ODKソリューションズ",
+  "sources": [
+    {
+      "url": "https://www.konan-u.ac.jp/news/archives/58522",
+      "type": "official",
+      "title": "外部事業者が利用するメール配信サービスへの不正アクセスに伴うメールアドレス流出について",
+      "published_on": "2026-11-06",
+      "checked_on": "2026-11-09"
+    }
+  ],
+  "updates": [],
+  "notes": "氏名等・出願データは含まれない。ODKソリューションズの記録とは件数を合算しない。"
+}

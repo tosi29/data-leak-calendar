@@ -1,0 +1,72 @@
+{
+  "id": "johas-gifu-sanpo-20261028",
+  "organization": {
+    "name": "労働者健康安全機構（岐阜産業保健総合支援センター）",
+    "sector": "行政・公的機関"
+  },
+  "title": "メール・Webサーバーへの不正アクセスで研修申込者等3,058名分の情報が漏えい、最大8,074名分に可能性",
+  "summary": "メール・Webサーバーへの不正アクセスで研修申込者等3,058名分の情報が漏えい、最大8,074名分に可能性。",
+  "published_on": "2026-10-28",
+  "first_published_on": "2026-10-28",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-10-27",
+  "updated_on": "2026-11-06",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "岐阜産業保健総合支援センターが契約するメール・Webサービスのサーバーへの第三者による不正アクセス（10月27日確認）。同センターのドメインから外部の政府機関サイトへの不正登録等の攻撃も試行。"
+  },
+  "impact": [
+    {
+      "count": 3058,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "漏えいを確認したメールアドレス等。"
+    },
+    {
+      "count": 8074,
+      "unit": "people",
+      "qualifier": "maximum",
+      "description": "漏えいの可能性がある最大人数。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "生年月日",
+    "性別",
+    "勤務先・所在地・電話番号",
+    "メールアドレス",
+    "医籍番号（産業医研修）",
+    "問い合わせ内容",
+    "メール内容・添付ファイル"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.johas.go.jp/news/gifusanpo-unauthorizedaccess/",
+      "type": "official",
+      "title": "岐阜産業保健総合支援センターへの不正アクセスについて",
+      "published_on": "2026-10-28",
+      "checked_on": "2026-11-09"
+    },
+    {
+      "url": "https://www.johas.go.jp/wp-content/uploads/2026/11/R8personal-information-leak.pdf",
+      "type": "official",
+      "title": "岐阜産業保健総合支援センターへの不正アクセス及び個人情報等の漏えいについて",
+      "published_on": "2026-11-06",
+      "checked_on": "2026-11-09"
+    }
+  ],
+  "updates": [
+    {
+      "date": "2026-11-06",
+      "summary": "研修受付管理システム内の情報やメールマガジン配信先等の漏えいを公表。3,058名分の漏えいを確認し、最大8,074名分に漏えいの可能性。",
+      "source_index": 1
+    }
+  ],
+  "notes": "初報はメールアカウントの不正利用とホームページ停止の告知。PDFの公表日は公表索引の値。"
+}

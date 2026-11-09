@@ -675,8 +675,8 @@
     "reported_on": "2026-10-26",
     "verification": "pending",
     "reference_url": "https://dearcare.almediaweb.jp/maintenance/maintenance.html",
-    "note": "2026年11月1日再調査：10月28日の第2報を確認。コード改ざん等を調査しており、自然人の対象・項目と漏えい範囲が未確定。",
-    "reviewed_on": "2026-11-01",
+    "note": "2026年11月1日再調査：10月28日の第2報を確認。コード改ざん等を調査しており、自然人の対象・項目と漏えい範囲が未確定。 2026年11月9日再調査：第三報で調査が終了し、個人情報の外部流出は確認されなかったと公表。掲載しない判断。",
+    "reviewed_on": "2026-11-09",
     "checked_urls": [
       "https://dearcare.almediaweb.jp/maintenance/maintenance.html"
     ]
@@ -747,8 +747,8 @@
     "reported_on": "2026-10-27",
     "verification": "pending",
     "reference_url": "https://www.satofull.jp/static/information/images/20261027/satofull_20261027.pdf",
-    "note": "2026年11月1日再調査：公式PDFは取得できず、自治体の再掲には注意喚起や自自治体が対象外の説明が混在。提供元の個人情報の対象項目・公表内容を一次資料で再確認する必要がある。 今回も公表日・対象を確定する追加の本文を確認できず、元の未解決点を継続。 2026年11月8日再調査：公表索引に11月2日付の第2報PDFの記録があるが、公式PDFは直接取得・取得ツールとも応答なし。件数を公式本文で確認できず継続。",
-    "reviewed_on": "2026-11-08",
+    "note": "2026年11月1日再調査：公式PDFは取得できず、自治体の再掲には注意喚起や自自治体が対象外の説明が混在。提供元の個人情報の対象項目・公表内容を一次資料で再確認する必要がある。 今回も公表日・対象を確定する追加の本文を確認できず、元の未解決点を継続。 2026年11月8日再調査：公表索引に11月2日付の第2報PDFの記録があるが、公式PDFは直接取得・取得ツールとも応答なし。件数を公式本文で確認できず継続。 2026年11月9日再調査：第2報PDFは取得ツールでもタイムアウト。",
+    "reviewed_on": "2026-11-09",
     "checked_urls": [
       "https://www.satofull.jp/static/information/images/20261027/satofull_20261027.pdf",
       "https://www.satofull.jp/static/information/images/20261102/satofull_20261102.pdf"
@@ -1041,11 +1041,11 @@
     "reported_on": "2026-11-02",
     "verification": "pending",
     "reference_url": "https://www.segafave.co.jp/news/261102_1/",
-    "reviewed_on": "2026-11-08",
+    "reviewed_on": "2026-11-09",
     "checked_urls": [
       "https://www.segafave.co.jp/news/261102_1/"
     ],
-    "note": "2026年11月8日調査：ALL.Net・Aime関係サーバーへの不正アクセスと11月1日15時からのサービス停止を公式に確認。初期調査で顧客・取引先情報の流出は未確認、決済情報は当該サーバーに保有せず。自然人の対象情報・範囲が具体化するまで保留。"
+    "note": "2026年11月8日調査：ALL.Net・Aime関係サーバーへの不正アクセスと11月1日15時からのサービス停止を公式に確認。初期調査で顧客・取引先情報の流出は未確認、決済情報は当該サーバーに保有せず。自然人の対象情報・範囲が具体化するまで保留。 2026年11月9日再調査：続報なし。"
   },
   {
     "id": "nov02-sunstage-belluna-notice-review",
@@ -1053,12 +1053,12 @@
     "reported_on": "2026-11-02",
     "verification": "pending",
     "reference_url": "https://www.belluna.co.jp/pdf/20261102sunstage.pdf",
-    "reviewed_on": "2026-11-08",
+    "reviewed_on": "2026-11-09",
     "checked_urls": [
       "https://www.belluna.co.jp/pdf/20261102sunstage.pdf",
       "https://www.belluna.co.jp/pdf/20261105sunstage.pdf"
     ],
-    "note": "2026年11月8日調査：公表索引では申込サイトへの不正アクセスで最大19,853名、11月5日の第2報で最大46,497名の氏名・住所・口座情報等が閲覧・取得の可能性とされる。公式PDFは直接取得・取得ツールとも403で本文未確認のため保留。"
+    "note": "2026年11月8日調査：公表索引では申込サイトへの不正アクセスで最大19,853名、11月5日の第2報で最大46,497名の氏名・住所・口座情報等が閲覧・取得の可能性とされる。公式PDFは直接取得・取得ツールとも403で本文未確認のため保留。 2026年11月9日再調査：公式PDFは取得ツールでも403。"
   },
   {
     "id": "nov03-ensapia-hange-review",
@@ -1066,11 +1066,11 @@
     "reported_on": "2026-11-03",
     "verification": "pending",
     "reference_url": "https://ensapia-tokyo.com/news/topics/id=21381/",
-    "reviewed_on": "2026-11-08",
+    "reviewed_on": "2026-11-09",
     "checked_urls": [
       "https://ensapia-tokyo.com/news/topics/id=21381/"
     ],
-    "note": "2026年11月8日調査：ハンゲのサーバーへの不正アクセスと全サービス停止を公式に確認。11月4日の第2報でIDとパスワードの流出痕跡は未確認、6日時点も影響範囲を調査中。個人情報への影響が具体化するまで保留。第1報URLは取得時に404。"
+    "note": "2026年11月8日調査：ハンゲのサーバーへの不正アクセスと全サービス停止を公式に確認。11月4日の第2報でIDとパスワードの流出痕跡は未確認、6日時点も影響範囲を調査中。個人情報への影響が具体化するまで保留。第1報URLは取得時に404。 2026年11月9日再調査：11月6日20時更新の第3報も全サービス停止中で、個人情報への影響は未公表。"
   },
   {
     "id": "nov04-jaccs-pcs-review",
@@ -1078,11 +1078,11 @@
     "reported_on": "2026-11-04",
     "verification": "pending",
     "reference_url": "https://www.jaccs.co.jp/information/emerge/page_01196.html",
-    "reviewed_on": "2026-11-08",
+    "reviewed_on": "2026-11-09",
     "checked_urls": [
       "https://www.jaccs.co.jp/information/emerge/page_01196.html"
     ],
-    "note": "2026年11月8日調査：公表索引ではプレステージ・コアソリューション経由でCLUB AJカード等の顧客の個人情報が漏えいしたとされる。公式ページは直接取得・取得ツールとも403で本文未確認のため保留。"
+    "note": "2026年11月8日調査：公表索引ではプレステージ・コアソリューション経由でCLUB AJカード等の顧客の個人情報が漏えいしたとされる。公式ページは直接取得・取得ツールとも403で本文未確認のため保留。 2026年11月9日再調査：公式ページは取得ツールでも403。"
   },
   {
     "id": "nov04-intage-survey-review",
@@ -1090,11 +1090,12 @@
     "reported_on": "2026-11-04",
     "verification": "pending",
     "reference_url": "https://www.intage.co.jp/news/8967/",
-    "reviewed_on": "2026-11-08",
+    "reviewed_on": "2026-11-09",
     "checked_urls": [
-      "https://www.intage.co.jp/news/8967/"
+      "https://www.intage.co.jp/news/8967/",
+      "https://www.intage.co.jp/news/9006/"
     ],
-    "note": "2026年11月8日調査：アンケートシステムへの不正アクセスとシステム停止を公式に確認。現時点で個人情報・回答データの漏洩は未確認で、影響範囲を調査中。個人情報への影響が具体化するまで保留。"
+    "note": "2026年11月8日調査：アンケートシステムへの不正アクセスとシステム停止を公式に確認。現時点で個人情報・回答データの漏洩は未確認で、影響範囲を調査中。個人情報への影響が具体化するまで保留。 2026年11月9日再調査：11月6日の第2報で、モニター・回答者の個人情報漏えいは発生しておらず、閲覧されたのは調査票のプレビュー画面のみと公表。漏えい対象がないため掲載しない判断。"
   },
   {
     "id": "nov04-inventit-mobiconnect-review",
@@ -1102,23 +1103,11 @@
     "reported_on": "2026-11-04",
     "verification": "pending",
     "reference_url": "https://www.yourinventit.com/news/20261104/",
-    "reviewed_on": "2026-11-08",
+    "reviewed_on": "2026-11-09",
     "checked_urls": [
       "https://www.yourinventit.com/news/20261104/"
     ],
-    "note": "2026年11月8日調査：mobiconnectへの一連の攻撃で顧客がアップロードした一部ファイルの外部流出を公式に確認。ファイルに含まれる個人情報の有無・対象は本文に記載がなく、外部機関の調査予定。個人情報への影響が具体化するまで保留。ARTPASSのメール配信（アララ）の件は京都市の記録で扱う。"
-  },
-  {
-    "id": "nov04-motex-website-review",
-    "organization": "エムオーテックス（京セラコミュニケーションシステム子会社）",
-    "reported_on": "2026-11-04",
-    "verification": "pending",
-    "reference_url": "https://www.kccs.co.jp/news/important/2026/1104/",
-    "reviewed_on": "2026-11-08",
-    "checked_urls": [
-      "https://www.kccs.co.jp/news/important/2026/1104/"
-    ],
-    "note": "2026年11月8日調査：MOTEXのWebサイトへの11月2日の不正アクセスとサイト停止を公式に確認。顧客情報の外部流出は現時点で未確認で調査中。個人情報への影響が具体化するまで保留。"
+    "note": "2026年11月8日調査：mobiconnectへの一連の攻撃で顧客がアップロードした一部ファイルの外部流出を公式に確認。ファイルに含まれる個人情報の有無・対象は本文に記載がなく、外部機関の調査予定。個人情報への影響が具体化するまで保留。ARTPASSのメール配信（アララ）の件は京都市の記録で扱う。 2026年11月9日再調査：続報なし。"
   },
   {
     "id": "nov05-fdma-anpi-review",
@@ -1126,11 +1115,11 @@
     "reported_on": "2026-11-05",
     "verification": "pending",
     "reference_url": "https://www.soumu.go.jp/main_content/001099907.pdf",
-    "reviewed_on": "2026-11-08",
+    "reviewed_on": "2026-11-09",
     "checked_urls": [
       "https://www.soumu.go.jp/main_content/001099907.pdf"
     ],
-    "note": "2026年11月8日調査：運用保守委託先の富士ソフトから安否情報システムへの第三者による不正アクセスの報告を受けたと公式に確認。現時点で個人情報の漏えいは未確認、サービスを停止し調査中。個人情報への影響が具体化するまで保留。"
+    "note": "2026年11月8日調査：運用保守委託先の富士ソフトから安否情報システムへの第三者による不正アクセスの報告を受けたと公式に確認。現時点で個人情報の漏えいは未確認、サービスを停止し調査中。個人情報への影響が具体化するまで保留。 2026年11月9日再調査：続報なし。"
   },
   {
     "id": "nov05-toyo-univ-account-review",
@@ -1138,11 +1127,11 @@
     "reported_on": "2026-11-05",
     "verification": "pending",
     "reference_url": "https://www.toyo.ac.jp/news/20261105-20479.html",
-    "reviewed_on": "2026-11-08",
+    "reviewed_on": "2026-11-09",
     "checked_urls": [
       "https://www.toyo.ac.jp/news/20261105-20479.html"
     ],
-    "note": "2026年11月8日調査：本学関係者の一部アカウントへの不正アクセスと、文部科学省・個人情報保護委員会への報告を公式に確認。影響範囲・対象情報は調査中で未公表のため保留。"
+    "note": "2026年11月8日調査：本学関係者の一部アカウントへの不正アクセスと、文部科学省・個人情報保護委員会への報告を公式に確認。影響範囲・対象情報は調査中で未公表のため保留。 2026年11月9日再調査：続報なし。"
   },
   {
     "id": "nov05-surugaya-affiliate-review",
@@ -1150,11 +1139,11 @@
     "reported_on": "2026-11-05",
     "verification": "pending",
     "reference_url": "https://www.suruga-ya.co.jp/ja/node/2544",
-    "reviewed_on": "2026-11-08",
+    "reviewed_on": "2026-11-09",
     "checked_urls": [
       "https://www.suruga-ya.co.jp/ja/node/2544"
     ],
-    "note": "2026年11月8日調査：公表索引ではアフィリエイト登録者約5,500名の登録情報の書き換えと口座情報を含む登録情報の流出可能性とされる。公式ページは直接取得・取得ツールとも403（ボット対策）で本文未確認のため保留。"
+    "note": "2026年11月8日調査：公表索引ではアフィリエイト登録者約5,500名の登録情報の書き換えと口座情報を含む登録情報の流出可能性とされる。公式ページは直接取得・取得ツールとも403（ボット対策）で本文未確認のため保留。 2026年11月9日再調査：公式ページは取得ツールでも403。"
   },
   {
     "id": "nov05-morinaga-affiliates-review",
@@ -1162,23 +1151,11 @@
     "reported_on": "2026-11-05",
     "verification": "pending",
     "reference_url": "https://www.morinagamilk.co.jp/assets/release/%E5%BD%93%E7%A4%BE%E9%96%A2%E4%BF%82%E4%BC%9A%E7%A4%BE%E3%81%AB%E3%81%8A%E3%81%91%E3%82%8B%E4%B8%8D%E6%AD%A3%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E7%99%BA%E7%94%9F%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B_1.pdf",
-    "reviewed_on": "2026-11-08",
+    "reviewed_on": "2026-11-09",
     "checked_urls": [
       "https://www.morinagamilk.co.jp/assets/release/%E5%BD%93%E7%A4%BE%E9%96%A2%E4%BF%82%E4%BC%9A%E7%A4%BE%E3%81%AB%E3%81%8A%E3%81%91%E3%82%8B%E4%B8%8D%E6%AD%A3%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E7%99%BA%E7%94%9F%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B_1.pdf"
     ],
-    "note": "2026年11月8日調査：関係会社ウェブサイトへの11月4日の不正アクセスと同一サーバーの17社18サイトの一時閉鎖を公式に確認。個人情報の漏えいは現時点で未確認。影響が具体化するまで保留。"
-  },
-  {
-    "id": "nov05-porsche-pcs-review",
-    "organization": "ポルシェジャパン／ポルシェファイナンシャルサービスジャパン",
-    "reported_on": "2026-11-05",
-    "verification": "pending",
-    "reference_url": "https://www.porsche.com/japan/jp/legal/notice/",
-    "reviewed_on": "2026-11-08",
-    "checked_urls": [
-      "https://www.porsche.com/japan/jp/legal/notice/"
-    ],
-    "note": "2026年11月8日調査：公表索引ではプレステージ・コアソリューションで顧客情報の一部が持ち出された可能性、範囲・人数は確認中とされる。公式ページは直接取得で403のため本文未確認、保留。"
+    "note": "2026年11月8日調査：関係会社ウェブサイトへの11月4日の不正アクセスと同一サーバーの17社18サイトの一時閉鎖を公式に確認。個人情報の漏えいは現時点で未確認。影響が具体化するまで保留。 2026年11月9日再調査：続報なし。"
   },
   {
     "id": "nov06-belluna-collection-review",
@@ -1186,11 +1163,11 @@
     "reported_on": "2026-11-06",
     "verification": "pending",
     "reference_url": "https://www.belluna.co.jp/pdf/20261106cc.pdf",
-    "reviewed_on": "2026-11-08",
+    "reviewed_on": "2026-11-09",
     "checked_urls": [
       "https://www.belluna.co.jp/pdf/20261106cc.pdf"
     ],
-    "note": "2026年11月8日調査：公表索引では債権回収委託先の弁護士法人Martial Artsが使うメール配信システムからメールアドレスのみ1,519件、氏名・債権残高等を含む106件が流出とされる。公式PDFは403で本文未確認のため保留。"
+    "note": "2026年11月8日調査：公表索引では債権回収委託先の弁護士法人Martial Artsが使うメール配信システムからメールアドレスのみ1,519件、氏名・債権残高等を含む106件が流出とされる。公式PDFは403で本文未確認のため保留。 2026年11月9日再調査：公式PDFは引き続き403で本文未確認。"
   },
   {
     "id": "nov06-jsps-eapplication-review",
@@ -1198,36 +1175,47 @@
     "reported_on": "2026-11-06",
     "verification": "pending",
     "reference_url": "https://www.jsps.go.jp/j-news/2026/shinsei/index.html",
-    "reviewed_on": "2026-11-08",
+    "reviewed_on": "2026-11-09",
     "checked_urls": [
       "https://www.jsps.go.jp/j-news/2026/shinsei/index.html"
     ],
-    "note": "2026年11月8日調査：10月29日の電子申請システムへの不正アクセスとシステム停止を公式に確認。個人情報が保存されていない外部公開領域での発生で、現時点で個人情報の漏えいは未確認。影響が具体化するまで保留。"
+    "note": "2026年11月8日調査：10月29日の電子申請システムへの不正アクセスとシステム停止を公式に確認。個人情報が保存されていない外部公開領域での発生で、現時点で個人情報の漏えいは未確認。影響が具体化するまで保留。 2026年11月9日再調査：新たな公表はなく、個人情報の漏えいは確認されていない状態が継続。"
   },
   {
-    "id": "nov02-abc-fururabo-review",
-    "organization": "朝日放送テレビ（ふるラボ）",
-    "reported_on": "2026-11-02",
+    "id": "nov09-meijiza-online-ticket-review",
+    "organization": "明治座（明治座オンラインチケット）",
+    "reported_on": "2026-11-09",
     "verification": "pending",
-    "reference_url": "https://corp.asahi.co.jp/Portals/0/data/pdf/news/NR20261102TV_fururabo.pdf",
-    "reviewed_on": "2026-11-08",
+    "reference_url": "https://www.meijiza.co.jp/news/2026_1109/",
+    "reviewed_on": "2026-11-09",
     "checked_urls": [
-      "https://corp.asahi.co.jp/Portals/0/data/pdf/news/NR20261102TV_fururabo.pdf",
-      "https://www.city.kanoya.lg.jp/furusatonouzei/fururabo.html"
+      "https://www.meijiza.co.jp/news/2026_1109/"
     ],
-    "note": "2026年11月8日調査：公表索引では不正に入手されたメールアドレスとパスワードによる不正ログインで会員8名の氏名・住所・カード情報の一部等が閲覧可能だったとされる。公式PDFは直接取得・取得ツールとも不可で本文未確認のため保留。"
+    "note": "2026年11月9日調査：オンラインチケットが使用するサービスへの不正アクセスで11月9日未明からサービスを一時停止と公式に確認。個人情報への影響は記載がなく、対象が具体化するまで保留。"
   },
   {
-    "id": "nov05-kddi-au-bicycle-pcs-review",
-    "organization": "KDDI（au自転車サポート）",
+    "id": "nov09-pointtown-cuenote-review",
+    "organization": "GMOメディア（ポイントタウン）",
     "reported_on": "2026-11-05",
     "verification": "pending",
-    "reference_url": "https://k-tai.watch.impress.co.jp/docs/news/2154147.html",
-    "reviewed_on": "2026-11-08",
+    "reference_url": "https://www.pointtown.com/information/434",
+    "reviewed_on": "2026-11-09",
     "checked_urls": [
-      "https://k-tai.watch.impress.co.jp/docs/news/2154147.html",
-      "https://www.nikkei.com/article/DGXZQOUC059NA0V01C26A1000000/"
+      "https://www.pointtown.com/information/434",
+      "https://www.gmo.media/archives/8703/"
     ],
-    "note": "2026年11月8日調査：報道ではロードサービス委託先プレステージ・コアソリューションへの不正アクセスで利用者の氏名・住所・電話番号・メールアドレス等が漏えいした可能性、対象件数は調査中とされる。KDDIの公式告知本文を特定できず保留。"
+    "note": "2026年11月9日調査：ポイントタウンの告知でCuenote FCへの不正アクセスにより一部会員のメールアドレスと会員IDの漏えいを確認。公表日はページ上で特定できず、詳細ページ（GMOメディア）は本文を取得できないため保留。reported_onは公表索引の日付。"
+  },
+  {
+    "id": "nov09-travelko-arara-review",
+    "organization": "オープンドア（トラベルコ、メール配信委託先アララ）",
+    "reported_on": "2026-11-04",
+    "verification": "pending",
+    "reference_url": "https://www.opendoor.co.jp/shared/pdf/20261109_info.pdf",
+    "reviewed_on": "2026-11-09",
+    "checked_urls": [
+      "https://www.opendoor.co.jp/shared/pdf/20261109_info.pdf"
+    ],
+    "note": "2026年11月9日調査：11月9日の公表で、11月4日に同社サイトでアララ事案を告知済みと記載。11月4日の告知本文は未特定。ウェブサイトへの不正アクセス（別事案）は掲載済み。"
   }
 ]

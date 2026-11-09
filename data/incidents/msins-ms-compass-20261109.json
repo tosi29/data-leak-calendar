@@ -1,0 +1,55 @@
+{
+  "id": "msins-ms-compass-20261109",
+  "organization": {
+    "name": "三井住友海上火災保険（MSコンパス）",
+    "sector": "企業・団体"
+  },
+  "title": "中堅・中小企業向け情報提供サイト「MSコンパス」への不正アクセスで会員・セミナー申込者等の情報約2.3万件が漏えい",
+  "summary": "中堅・中小企業向け情報提供サイト「MSコンパス」への不正アクセスで会員・セミナー申込者等の情報約2.3万件が漏えい。",
+  "published_on": "2026-11-09",
+  "first_published_on": "2026-11-09",
+  "publication_kind": "initial",
+  "occurred_on": "2026-11-02",
+  "detected_on": "2026-11-02",
+  "updated_on": "2026-11-09",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "11月2～3日に「MSコンパス」への不正アクセスを検知。原因は外部専門機関と調査中。"
+  },
+  "impact": [
+    {
+      "count": 23000,
+      "unit": "records",
+      "qualifier": "approximate",
+      "description": "11月9日9時時点。会員（個人・法人）、2023年11月～2026年11月のセミナー申込者、問い合わせフォーム利用者。"
+    }
+  ],
+  "data_types": [
+    "法人名",
+    "法人番号",
+    "役職",
+    "氏名",
+    "メールアドレス",
+    "電話番号",
+    "業種",
+    "本社住所・本社以外の住所",
+    "売上高",
+    "従業員数"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.ms-ins.com/news/fy2026/pdf/1109_2.pdf",
+      "type": "official",
+      "title": "ＭＳコンパスへの不正アクセスに伴う情報漏えいについて",
+      "published_on": "2026-11-09",
+      "checked_on": "2026-11-09"
+    }
+  ],
+  "updates": [],
+  "notes": "11月3日に一部アクセス制御、11月6日にサイト全体を一時閉鎖。クレジットカード・口座情報は含まれない。"
+}

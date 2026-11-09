@@ -1,0 +1,52 @@
+{
+  "id": "tokorozawa-marathon-iplass-20261106",
+  "organization": {
+    "name": "所沢市（所沢シティマラソン大会）",
+    "sector": "自治体"
+  },
+  "title": "エントリー受付業者が使う電通総研「iPLAss」への不正アクセスで大会申込者等178名分が閲覧・取得された可能性",
+  "summary": "エントリー受付業者が使う電通総研「iPLAss」への不正アクセスで大会申込者等178名分が閲覧・取得された可能性。",
+  "published_on": "2026-11-06",
+  "first_published_on": "2026-11-06",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-06",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "エントリー受付業者ローソンエンタテインメントの「LAWSON DO! SPORTS」で利用する電通総研のシステム「iPLAss」への第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 178,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "第37回大会の申込者89件と緊急連絡先89件。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "性別",
+    "住所",
+    "生年月日",
+    "電話番号",
+    "メールアドレス",
+    "緊急連絡先（氏名・電話番号）"
+  ],
+  "related_vendor": "ローソンエンタテインメント",
+  "sources": [
+    {
+      "url": "https://www.city.tokorozawa.saitama.jp/tokoronews/press/r8/11gatu/sports.html",
+      "type": "official",
+      "title": "第37回所沢シティマラソン大会エントリー受付業者における個人情報の漏えいについて（11月6日発表）",
+      "published_on": "2026-11-06",
+      "checked_on": "2026-11-09"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

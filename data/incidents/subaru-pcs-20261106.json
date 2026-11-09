@@ -1,0 +1,50 @@
+{
+  "id": "subaru-pcs-20261106",
+  "organization": {
+    "name": "SUBARU",
+    "sector": "企業・団体"
+  },
+  "title": "コールセンター業務委託先プレステージ・コアソリューションへの不正アクセスで受付記録最大228,734件が漏えいの可能性",
+  "summary": "コールセンター業務委託先プレステージ・コアソリューションへの不正アクセスで受付記録最大228,734件が漏えいの可能性。",
+  "published_on": "2026-11-06",
+  "first_published_on": "2026-11-06",
+  "publication_kind": "initial",
+  "occurred_on": "2026-10-29",
+  "detected_on": null,
+  "updated_on": "2026-11-06",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "ロードサービス等の受付・手配業務の委託先プレステージ・コアソリューションの業務システムへの第三者による不正アクセス（10月29日検知、30日停止）。"
+  },
+  "impact": [
+    {
+      "count": 228734,
+      "unit": "records",
+      "qualifier": "maximum",
+      "description": "11月6日時点の報告。コールセンターでの受付件数で、個人情報の件数とは異なる。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "電話番号",
+    "車両情報（車種・車両登録番号等）",
+    "ロードサービスの受付・手配に関する情報"
+  ],
+  "related_vendor": "プレステージ・コアソリューション",
+  "sources": [
+    {
+      "url": "https://www.subaru.co.jp/pdf/info/2026_1106_2026-11-06-135049.pdf",
+      "type": "official",
+      "title": "不正アクセスによる個人情報漏えいについて",
+      "published_on": "2026-11-06",
+      "checked_on": "2026-11-09"
+    }
+  ],
+  "updates": [],
+  "notes": "カード情報は含まれない。2017年のサービスキャンペーン用専用コールセンターの情報を含む。プレステージ・インターナショナルの公表とは件数を合算しない。"
+}

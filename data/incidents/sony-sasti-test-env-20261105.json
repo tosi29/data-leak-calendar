@@ -1,0 +1,59 @@
+{
+  "id": "sony-sasti-test-env-20261105",
+  "organization": {
+    "name": "ソニー少額短期保険",
+    "sector": "企業・団体"
+  },
+  "title": "契約管理システムの開発・テスト環境への不正アクセスでテストデータ内の従業員等108件の個人情報が漏えい",
+  "summary": "契約管理システムの開発・テスト環境への不正アクセスでテストデータ内の従業員等108件の個人情報が漏えい。",
+  "published_on": "2026-11-05",
+  "first_published_on": "2026-11-05",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-06",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "契約管理システムの開発・テスト環境が第三者による不正アクセスを受けた。本番環境への攻撃は成立していない。"
+  },
+  "impact": [
+    {
+      "count": 108,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "テストデータに含まれた同社・委託先・再委託先の従業員（退職者含む）の情報。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "性別",
+    "生年月日",
+    "メールアドレス",
+    "郵便番号",
+    "住所",
+    "電話番号"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.sonyfg.co.jp/ja/notice/article/261106_01.pdf",
+      "type": "official",
+      "title": "従業員情報の漏えいについて",
+      "published_on": "2026-11-06",
+      "checked_on": "2026-11-09"
+    },
+    {
+      "url": "https://news.sony-sasti.jp/40fa96f8d0d480d09128e1ce03f46702",
+      "type": "reference",
+      "title": "不正アクセスによる個人情報漏えいについて",
+      "published_on": "2026-11-05",
+      "checked_on": "2026-11-09"
+    }
+  ],
+  "updates": [],
+  "notes": "本文はソニーフィナンシャルグループのPDFで確認。同社サイトの告知（公表索引で11月5日付）は本文未確認。顧客情報の取得は確認されていない。カード・口座情報・マイナンバーは対象外。"
+}

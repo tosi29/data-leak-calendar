@@ -1,0 +1,47 @@
+{
+  "id": "jrwest-hotels-kaijo-bestsearch-20261106",
+  "organization": {
+    "name": "JR西日本ホテルズ",
+    "sector": "企業・団体"
+  },
+  "title": "宴会・会議室予約サービス「会場ベストサーチ」の開発・検証環境への不正アクセスで問い合わせ者の情報に漏えいの可能性",
+  "summary": "宴会・会議室予約サービス「会場ベストサーチ」の開発・検証環境への不正アクセスで問い合わせ者の情報に漏えいの可能性。",
+  "published_on": "2026-11-06",
+  "first_published_on": "2026-11-06",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-06",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "宴会・会議室の予約問い合わせサービス「会場ベストサーチ」を運営するアイデアログが管理する開発・検証環境の一部への第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "件数・影響範囲はアイデアログが調査中。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "連絡先等"
+  ],
+  "related_vendor": "アイデアログ",
+  "sources": [
+    {
+      "url": "https://jrwest-hotels.jp/news/2192/",
+      "type": "official",
+      "title": "「会場ベストサーチ」の管理システムへの不正アクセスに伴う個人情報漏えいの可能性について",
+      "published_on": "2026-11-06",
+      "checked_on": "2026-11-09"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

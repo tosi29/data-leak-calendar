@@ -1,0 +1,50 @@
+{
+  "id": "raksul-upload-system-20261109",
+  "organization": {
+    "name": "ラクスル",
+    "sector": "企業・団体"
+  },
+  "title": "データ入稿処理システムへの不正アクセスで印刷データ等に含まれる個人情報に流出のおそれ",
+  "summary": "データ入稿処理システムへの不正アクセスで印刷データ等に含まれる個人情報に流出のおそれ。",
+  "published_on": "2026-11-09",
+  "first_published_on": "2026-11-09",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-11-08",
+  "updated_on": "2026-11-09",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "credentials",
+    "certainty": "unknown",
+    "detail": "「ラクスル」のデータ入稿処理システムの認証情報が不正に取得され、保管データの一部に外部からアクセスできる状態にあった。11月8日0時20分頃に発覚。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "対象件数は集計中。"
+    }
+  ],
+  "data_types": [
+    "入稿された印刷データ・請求書・Web郵便等に記載された氏名",
+    "会社名",
+    "住所",
+    "電話番号",
+    "メールアドレス"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://corp.raksul.com/news/press/261109_unauthorized-access/",
+      "type": "official",
+      "title": "当社システムへの不正アクセスによる個人情報漏えいのおそれについて",
+      "published_on": "2026-11-09",
+      "checked_on": "2026-11-09"
+    }
+  ],
+  "updates": [],
+  "notes": "11月8日から入稿を伴う一部サービスを停止。10月の「Studio」経由の事案（raksul-studio-20261016）とは別。"
+}

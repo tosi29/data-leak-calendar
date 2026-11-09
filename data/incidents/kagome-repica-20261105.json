@@ -1,0 +1,46 @@
+{
+  "id": "kagome-repica-20261105",
+  "organization": {
+    "name": "カゴメ",
+    "sector": "企業・団体"
+  },
+  "title": "業務用メールマガジンの配信に使うrepicaへの不正アクセスで登録メールアドレス11,065件が流出",
+  "summary": "業務用メールマガジンの配信に使うrepicaへの不正アクセスで登録メールアドレス11,065件が流出。",
+  "published_on": "2026-11-05",
+  "first_published_on": "2026-11-05",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-05",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "メールマガジン配信に使うサービス「repica」の提供元アララ株式会社のサーバーへの第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 11065,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "2026年10月13日に業務用メールマガジンを配信したメールアドレス。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "アララ株式会社",
+  "sources": [
+    {
+      "url": "https://www.kagome.co.jp/s3-contents/notification/20261105040010.pdf",
+      "type": "official",
+      "title": "カゴメ業務用商品をご利用のお客様向けメールマガジンの登録メールアドレスの流出と当社の対応について",
+      "published_on": "2026-11-05",
+      "checked_on": "2026-11-09"
+    }
+  ],
+  "updates": [],
+  "notes": "会社名・氏名・住所・電話番号の流出は確認されていない。デジタル社債の事案（kagome-bond-platform-20261031）とは別。"
+}

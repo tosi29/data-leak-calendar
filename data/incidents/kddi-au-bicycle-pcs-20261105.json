@@ -1,0 +1,44 @@
+{
+  "id": "kddi-au-bicycle-pcs-20261105",
+  "organization": {
+    "name": "KDDI（au自転車サポート）",
+    "sector": "企業・団体"
+  },
+  "title": "au自転車サポートの委託先プレステージ・コアソリューションへの不正アクセスで利用者情報に漏えいの可能性",
+  "summary": "au自転車サポートの委託先プレステージ・コアソリューションへの不正アクセスで利用者情報に漏えいの可能性。",
+  "published_on": "2026-11-05",
+  "first_published_on": "2026-11-05",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-05",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "委託先プレステージ・コアソリューションの業務システムへの第三者による不正アクセス（10月29日検知）。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "影響範囲は委託先で調査中。"
+    }
+  ],
+  "data_types": [],
+  "related_vendor": "プレステージ・コアソリューション",
+  "sources": [
+    {
+      "url": "https://www.au.com/information/notice_mobile/service/2026-012/",
+      "type": "official",
+      "title": "当社委託先プレステージ・コアソリューションへの不正アクセスによる「au自転車サポート」のお客さま情報の漏えいの可能性について",
+      "published_on": "2026-11-05",
+      "checked_on": "2026-11-09"
+    }
+  ],
+  "updates": [],
+  "notes": "11月2日にPCSから報告。同社がPCSに提供した情報にパスワード・カード・口座・本人確認情報は含まれない。"
+}

@@ -1,0 +1,46 @@
+{
+  "id": "mercury-cointrade-repica-20261106",
+  "organization": {
+    "name": "マーキュリー（CoinTrade）",
+    "sector": "企業・団体"
+  },
+  "title": "委託先が使うアララのrepicaへの不正アクセスでCoinTrade関連のメールアドレス88,289件が流出",
+  "summary": "委託先が使うアララのrepicaへの不正アクセスでCoinTrade関連のメールアドレス88,289件が流出。",
+  "published_on": "2026-11-06",
+  "first_published_on": "2026-11-06",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-06",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "委託先が利用するアララのメールシステム「repica」への不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 88289,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "重複を除く。CoinTrade未利用者のアドレスを含む可能性。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "アララ株式会社",
+  "sources": [
+    {
+      "url": "https://media.ceres-inc.jp/news/2026/11/20261106_v2-1.pdf",
+      "type": "official",
+      "title": "【重要】不正アクセスに伴う個人情報漏えいに関するお知らせ（PDF）",
+      "published_on": "2026-11-06",
+      "checked_on": "2026-11-09"
+    }
+  ],
+  "updates": [],
+  "notes": "親会社セレスの公表で確認。パスワード等の認証情報は含まれない。"
+}

@@ -1,0 +1,52 @@
+{
+  "id": "idom-pcs-roadservice-20261106",
+  "organization": {
+    "name": "IDOM",
+    "sector": "企業・団体"
+  },
+  "title": "ロードサービス委託先プレステージ・コアソリューションへの不正アクセスで利用者情報694件が漏えい",
+  "summary": "ロードサービス委託先プレステージ・コアソリューションへの不正アクセスで利用者情報694件が漏えい。",
+  "published_on": "2026-11-06",
+  "first_published_on": "2026-11-06",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-10-29",
+  "updated_on": "2026-11-06",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "ロードサービス等の受付・手配業務の委託先プレステージ・コアソリューションの業務システムへの第三者による不正アクセス（10月29日検知、30日停止）。"
+  },
+  "impact": [
+    {
+      "count": 694,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "コピーされたデータのうち同社に関係する漏えいの疑いがあるデータ。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "電話番号",
+    "メールアドレス",
+    "車両情報（登録番号・車台番号等）",
+    "事故・故障の受付に関する情報",
+    "金融機関の口座に関する情報（一部）"
+  ],
+  "related_vendor": "プレステージ・コアソリューション",
+  "sources": [
+    {
+      "url": "https://idom-inc.com/news/press/20261106-38772.html",
+      "type": "official",
+      "title": "委託先における個人情報の漏えいに関するお詫びとお知らせ",
+      "published_on": "2026-11-06",
+      "checked_on": "2026-11-09"
+    }
+  ],
+  "updates": [],
+  "notes": "同じ告知のLENDY債権回収の事案は別記録。カード情報は確認されていない。"
+}

@@ -1,0 +1,44 @@
+{
+  "id": "yurihonjo-shibata-ransom-20261106",
+  "organization": {
+    "name": "由利本荘市",
+    "sector": "自治体"
+  },
+  "title": "測量設計の委託先柴田工事調査へのランサムウェア攻撃で委託業務2件の個人情報に漏えいのおそれ",
+  "summary": "測量設計の委託先柴田工事調査へのランサムウェア攻撃で委託業務2件の個人情報に漏えいのおそれ。",
+  "published_on": "2026-11-06",
+  "first_published_on": "2026-11-06",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-06",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "測量設計業務等の委託先・柴田工事調査（湯沢市）へのランサムウェア攻撃（2026年9月20日）。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "令和3～8年度発注の家屋等事前調査・補償調査2件。詳細は調査中。"
+    }
+  ],
+  "data_types": [],
+  "related_vendor": "柴田工事調査",
+  "sources": [
+    {
+      "url": "https://www.city.yurihonjo.lg.jp/1000002/1001867/1001932/1010291/1014011.html",
+      "type": "official",
+      "title": "個人情報の漏えいの恐れと注意喚起について",
+      "published_on": "2026-11-06",
+      "checked_on": "2026-11-09"
+    }
+  ],
+  "updates": [],
+  "notes": "流出・不正利用の事実は確認されていない。"
+}

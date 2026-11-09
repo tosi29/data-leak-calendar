@@ -1,0 +1,51 @@
+{
+  "id": "idom-lendy-20261106",
+  "organization": {
+    "name": "IDOM（委託先 LENDY債権回収）",
+    "sector": "企業・団体"
+  },
+  "title": "債権回収委託先LENDY債権回収のシステムに第三者が不正登録してログイン、顧客1,663件の情報が閲覧",
+  "summary": "債権回収委託先LENDY債権回収のシステムに第三者が不正登録してログイン、顧客1,663件の情報が閲覧。",
+  "published_on": "2026-11-06",
+  "first_published_on": "2026-11-06",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-10-30",
+  "updated_on": "2026-11-06",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "configuration",
+    "certainty": "unknown",
+    "detail": "債権回収業務の委託先LENDY債権回収のシステムに、許可を受けていない第三者が利用者登録を行ってログインし、保管情報を閲覧（10月30日判明）。ダウンロードの可能性もある。"
+  },
+  "impact": [
+    {
+      "count": 1663,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "同社に関係する債権の回収対象の顧客。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "電話番号",
+    "メールアドレス",
+    "交渉履歴",
+    "システムに登録されていたその他の情報"
+  ],
+  "related_vendor": "LENDY債権回収",
+  "sources": [
+    {
+      "url": "https://idom-inc.com/news/press/20261106-38772.html#lendy",
+      "type": "official",
+      "title": "委託先における個人情報の漏えいに関するお詫びとお知らせ（LENDY債権回収株式会社における事案）",
+      "published_on": "2026-11-06",
+      "checked_on": "2026-11-09"
+    }
+  ],
+  "updates": [],
+  "notes": "本人確認書類・カード情報は含まれない。"
+}

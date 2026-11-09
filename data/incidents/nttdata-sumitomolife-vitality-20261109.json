@@ -1,0 +1,51 @@
+{
+  "id": "nttdata-sumitomolife-vitality-20261109",
+  "organization": {
+    "name": "NTTデータ",
+    "sector": "企業・団体"
+  },
+  "title": "住友生命から受託するVitality申込サービスへの不正アクセスで利用者約8万名の個人情報が漏えい",
+  "summary": "住友生命から受託するVitality申込サービスへの不正アクセスで利用者約8万名の個人情報が漏えい。",
+  "published_on": "2026-11-09",
+  "first_published_on": "2026-11-09",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-11-02",
+  "updated_on": "2026-11-09",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "住友生命から構築・運用を受託する「住友生命Vitality体験版・企業型」「Vitalityスマート」の申込サービスへの第三者による不正アクセス（11月2日確認）。原因は調査中。"
+  },
+  "impact": [
+    {
+      "count": 80000,
+      "unit": "people",
+      "qualifier": "approximate",
+      "description": "うち一部マスキング済みカード番号は約1,000名。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "電話番号",
+    "生年月日",
+    "メールアドレス",
+    "クレジットカード番号（一部マスキング済み）"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.nttdata.com/global/ja/news/release/2026/110900/",
+      "type": "official",
+      "title": "当社受託システムにおける個人情報漏えいについて",
+      "published_on": "2026-11-09",
+      "checked_on": "2026-11-09"
+    }
+  ],
+  "updates": [],
+  "notes": "11月3日に外部からのアクセスを遮断しサービスを一時停止。委託元・住友生命の公表は別記録。"
+}

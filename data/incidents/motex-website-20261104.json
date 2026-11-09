@@ -1,0 +1,62 @@
+{
+  "id": "motex-website-20261104",
+  "organization": {
+    "name": "京セラコミュニケーションシステム（エムオーテックス）",
+    "sector": "企業・団体"
+  },
+  "title": "MOTEXのWebサイト用サーバーへの不正アクセスで顧客の会社名・氏名・メールアドレス等に漏えいの可能性",
+  "summary": "MOTEXのWebサイト用サーバーへの不正アクセスで顧客の会社名・氏名・メールアドレス等に漏えいの可能性。",
+  "published_on": "2026-11-04",
+  "first_published_on": "2026-11-04",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-11-02",
+  "updated_on": "2026-11-06",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "子会社エムオーテックスのWebサイトを運用するサーバーへの第三者による不正アクセス（11月2日確認）。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "件数は調査中。"
+    }
+  ],
+  "data_types": [
+    "会社名",
+    "氏名",
+    "メールアドレス",
+    "電話番号"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.kccs.co.jp/news/important/2026/1104/",
+      "type": "official",
+      "title": "【重要なお知らせ】当社子会社Webサイトへの不正アクセスについて",
+      "published_on": "2026-11-04",
+      "checked_on": "2026-11-09"
+    },
+    {
+      "url": "https://www.kccs.co.jp/news/important/2026/1106/",
+      "type": "official",
+      "title": "【重要なお知らせ】当社子会社Webサイトへの不正アクセスについて（第2報）",
+      "published_on": "2026-11-06",
+      "checked_on": "2026-11-09"
+    }
+  ],
+  "updates": [
+    {
+      "date": "2026-11-06",
+      "summary": "第2報。調査の結果、顧客情報（会社名・氏名・メールアドレス・電話番号等）が外部に漏えいした可能性が判明。",
+      "source_index": 1
+    }
+  ],
+  "notes": "LANSCOPE製品は別環境で影響なし。コーポレートサイト・サポートサイト等5サイトを停止。"
+}

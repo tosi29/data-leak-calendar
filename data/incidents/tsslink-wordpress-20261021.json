@@ -1,0 +1,71 @@
+{
+  "id": "tsslink-wordpress-20261021",
+  "organization": {
+    "name": "ティエスエスリンク",
+    "sector": "企業・団体"
+  },
+  "title": "WordPressプラグインの脆弱性を悪用されウェブサイトの問い合わせ約160件・ログイン認証情報約250件に漏えいの可能性",
+  "summary": "WordPressプラグインの脆弱性を悪用されウェブサイトの問い合わせ約160件・ログイン認証情報約250件に漏えいの可能性。",
+  "published_on": "2026-10-21",
+  "first_published_on": "2026-10-21",
+  "publication_kind": "initial",
+  "occurred_on": "2026-06-12",
+  "detected_on": "2026-10-13",
+  "updated_on": "2026-11-06",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "vulnerability",
+    "certainty": "unknown",
+    "detail": "外部委託で運用するウェブサイトの管理に使うWordPressプラグインの脆弱性が悪用された（2026年6月12日～10月13日）。"
+  },
+  "impact": [
+    {
+      "count": 160,
+      "unit": "records",
+      "qualifier": "approximate",
+      "description": "問い合わせ・評価版申込フォームの送信。"
+    },
+    {
+      "count": 250,
+      "unit": "accounts",
+      "qualifier": "approximate",
+      "description": "製品サポート・評価版ダウンロードサイトのログイン認証情報。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "メールアドレス",
+    "電話番号",
+    "会社名・部署名",
+    "保守ユーザーID",
+    "問い合わせ内容・添付ファイル",
+    "ログイン用パスワード"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.tsslk.jp/wp-content/uploads/2026/11/notice-security-incident-20261021-1st.pdf",
+      "type": "official",
+      "title": "当社ウェブサイトへの不正アクセスに関するお詫びとお知らせ",
+      "published_on": "2026-10-21",
+      "checked_on": "2026-11-09"
+    },
+    {
+      "url": "https://www.tsslk.jp/news/info/security_notice_202610/",
+      "type": "official",
+      "title": "当社ウェブサイトへの不正アクセスに関する調査報告書（最終報告書）",
+      "published_on": "2026-11-06",
+      "checked_on": "2026-11-09"
+    }
+  ],
+  "updates": [
+    {
+      "date": "2026-11-06",
+      "summary": "最終報告書を公表。ログ欠損等で漏えい・改ざんの有無を全て確定できないと説明。",
+      "source_index": 1
+    }
+  ],
+  "notes": "取得を示す確定的な証拠はないが、記録欠損のため否定できないと公表。"
+}

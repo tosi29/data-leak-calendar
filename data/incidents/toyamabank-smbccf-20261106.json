@@ -1,0 +1,44 @@
+{
+  "id": "toyamabank-smbccf-20261106",
+  "organization": {
+    "name": "富山銀行",
+    "sector": "企業・団体"
+  },
+  "title": "ポケットローンの保証会社SMBCコンシューマーファイナンスへの不正アクセスで顧客情報が漏えい",
+  "summary": "ポケットローンの保証会社SMBCコンシューマーファイナンスへの不正アクセスで顧客情報が漏えい。",
+  "published_on": "2026-11-06",
+  "first_published_on": "2026-11-06",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-06",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "保証会社SMBCコンシューマーファイナンスの保証業務システムへの第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "対象者・項目は同社と確認中。"
+    }
+  ],
+  "data_types": [],
+  "related_vendor": "SMBCコンシューマーファイナンス",
+  "sources": [
+    {
+      "url": "https://www.toyamabank.co.jp/pages/oshirase/2026/20261106.pdf",
+      "type": "official",
+      "title": "SMBCコンシューマーファイナンス株式会社に対する不正アクセスによるお客さま情報の漏えいについて",
+      "published_on": "2026-11-06",
+      "checked_on": "2026-11-09"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

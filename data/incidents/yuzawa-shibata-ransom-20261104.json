@@ -1,0 +1,48 @@
+{
+  "id": "yuzawa-shibata-ransom-20261104",
+  "organization": {
+    "name": "湯沢市",
+    "sector": "自治体"
+  },
+  "title": "測量業務の委託先柴田工事調査へのランサムウェア攻撃で土地所有者等の情報延べ2,256件に漏えいのおそれ",
+  "summary": "測量業務の委託先柴田工事調査へのランサムウェア攻撃で土地所有者等の情報延べ2,256件に漏えいのおそれ。",
+  "published_on": "2026-11-04",
+  "first_published_on": "2026-11-04",
+  "publication_kind": "initial",
+  "occurred_on": "2026-09-20",
+  "detected_on": null,
+  "updated_on": "2026-11-04",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "測量設計業務等の委託先・柴田工事調査（湯沢市）へのランサムウェア攻撃（2026年9月20日）。"
+  },
+  "impact": [
+    {
+      "count": 2256,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "延べ件数（11月4日報告時）。令和3年度以降の地籍調査・用地測量業務等。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "電話番号"
+  ],
+  "related_vendor": "柴田工事調査",
+  "sources": [
+    {
+      "url": "https://www.city-yuzawa.jp/soshiki/14/6597.html",
+      "type": "official",
+      "title": "市が業務委託している民間事業者への不正アクセスに伴う個人情報漏えいの恐れと注意喚起について",
+      "published_on": "2026-11-04",
+      "checked_on": "2026-11-09"
+    }
+  ],
+  "updates": [],
+  "notes": "同社は9月にシステム障害を公表。大仙市・由利本荘市・横手市も同社事案を公表。"
+}

@@ -1,0 +1,53 @@
+{
+  "id": "yojiya-member-api-20261109",
+  "organization": {
+    "name": "よーじやグループ",
+    "sector": "企業・団体"
+  },
+  "title": "会員情報管理システムのAPIを不正利用され会員131,557名の個人情報が取得",
+  "summary": "会員情報管理システムのAPIを不正利用され会員131,557名の個人情報が取得。",
+  "published_on": "2026-11-09",
+  "first_published_on": "2026-11-09",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-11-07",
+  "updated_on": "2026-11-09",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "credentials",
+    "certainty": "unknown",
+    "detail": "会員情報管理システムの会員情報取得APIを、外部の第三者がAPI認証キーを用いて不正に利用（11月7日未明に確認）。認証キー流出経路は調査中。"
+  },
+  "impact": [
+    {
+      "count": 131557,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "確認済み件数。潜在的な最大件数は134,344名。"
+    }
+  ],
+  "data_types": [
+    "氏名・フリガナ",
+    "住所",
+    "電話番号",
+    "生年月日",
+    "性別",
+    "メールアドレス",
+    "会員番号",
+    "購買統計情報"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.yojiya.co.jp/261109-01",
+      "type": "official",
+      "title": "【重要】当社システムへの不正アクセスによる個人情報流出に関するお詫びとお知らせ（第一報）",
+      "published_on": "2026-11-09",
+      "checked_on": "2026-11-09"
+    }
+  ],
+  "updates": [],
+  "notes": "カード情報・ログインパスワードは保持しておらず対象外。"
+}

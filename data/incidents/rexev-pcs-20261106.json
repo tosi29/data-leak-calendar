@@ -1,0 +1,53 @@
+{
+  "id": "rexev-pcs-20261106",
+  "organization": {
+    "name": "REXEV",
+    "sector": "企業・団体"
+  },
+  "title": "カスタマーセンター委託先プレステージ・コアソリューションへの不正アクセスで問い合わせ記録547件が流出",
+  "summary": "カスタマーセンター委託先プレステージ・コアソリューションへの不正アクセスで問い合わせ記録547件が流出。",
+  "published_on": "2026-11-06",
+  "first_published_on": "2026-11-06",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-10-29",
+  "updated_on": "2026-11-06",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "ロードサービス等の受付・手配業務の委託先プレステージ・コアソリューションの業務システムへの第三者による不正アクセス（10月29日検知、30日停止）。"
+  },
+  "impact": [
+    {
+      "count": 547,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "11月4日時点。カーシェアリングのカスタマーセンターへの問い合わせ記録数で実人数とは異なる場合がある。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "電話番号",
+    "問い合わせ内容",
+    "住所（一部）",
+    "メールアドレス（一部）",
+    "予約・利用情報（一部）",
+    "車両情報（一部）",
+    "事故・故障等に関する情報（一部）"
+  ],
+  "related_vendor": "プレステージ・コアソリューション",
+  "sources": [
+    {
+      "url": "https://rexev.co.jp/2026/11/06/post-15282/",
+      "type": "official",
+      "title": "カスタマーセンター業務委託先システムへの不正アクセスによる個人情報漏えいについて",
+      "published_on": "2026-11-06",
+      "checked_on": "2026-11-09"
+    }
+  ],
+  "updates": [],
+  "notes": "eemoカーシェアリング等。口座・カード情報・ログインパスワードの流出は確認されていない。"
+}

@@ -1,0 +1,70 @@
+{
+  "id": "sharefull-admin-system-20261109",
+  "organization": {
+    "name": "シェアフル",
+    "sector": "企業・団体"
+  },
+  "title": "スキマバイトアプリの社内管理システムへの不正アクセスで個人アカウント最大約750万件と求人企業約7,500社の情報に流出の可能性",
+  "summary": "スキマバイトアプリの社内管理システムへの不正アクセスで個人アカウント最大約750万件と求人企業約7,500社の情報に流出の可能性。",
+  "published_on": "2026-11-09",
+  "first_published_on": "2026-11-09",
+  "publication_kind": "initial",
+  "occurred_on": "2026-11-04",
+  "detected_on": "2026-11-05",
+  "updated_on": "2026-11-09",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "11月4日23時30分頃、社内管理システムに外部の第三者が不正アクセス。翌5日9時45分頃に検知し、14時までに経路を遮断。"
+  },
+  "impact": [
+    {
+      "count": 7500000,
+      "unit": "accounts",
+      "qualifier": "maximum_approximate",
+      "description": "流出の可能性がある情報を含む個人アカウント。"
+    },
+    {
+      "count": 7500,
+      "unit": "organizations",
+      "qualifier": "maximum_approximate",
+      "description": "求人企業。"
+    }
+  ],
+  "data_types": [
+    "氏名・氏名カナ",
+    "電話番号",
+    "メールアドレス",
+    "住所",
+    "生年月日",
+    "給与振込用銀行口座情報",
+    "顔写真URL",
+    "緊急連絡先",
+    "在留資格関連情報",
+    "アカウント属性情報",
+    "求人企業の会社名・担当者情報",
+    "営業管理データの一部"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://sharefull.com/information/9480/",
+      "type": "official",
+      "title": "社内管理システムへの不正アクセスによる個人情報および法人情報流出の可能性に関するお詫びとお知らせ",
+      "published_on": "2026-11-09",
+      "checked_on": "2026-11-09"
+    },
+    {
+      "url": "https://sharefull.com/information/9489/",
+      "type": "official",
+      "title": "社内管理システムへの不正アクセスによる情報流出の可能性に関するお詫びとご報告",
+      "published_on": "2026-11-09",
+      "checked_on": "2026-11-09"
+    }
+  ],
+  "updates": [],
+  "notes": "口座の暗証番号・パスワード、給与・ポイント情報、契約・就業データ、本人確認書類画像、マイナンバー、カード情報は対象外。"
+}

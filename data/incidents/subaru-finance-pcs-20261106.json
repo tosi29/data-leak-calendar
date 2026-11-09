@@ -1,0 +1,50 @@
+{
+  "id": "subaru-finance-pcs-20261106",
+  "organization": {
+    "name": "スバルファイナンス",
+    "sector": "企業・団体"
+  },
+  "title": "SUBARU安心ホットラインの委託先プレステージ・コアソリューションへの不正アクセスで顧客情報最大3,117件が漏えい",
+  "summary": "SUBARU安心ホットラインの委託先プレステージ・コアソリューションへの不正アクセスで顧客情報最大3,117件が漏えい。",
+  "published_on": "2026-11-06",
+  "first_published_on": "2026-11-06",
+  "publication_kind": "initial",
+  "occurred_on": "2026-10-29",
+  "detected_on": null,
+  "updated_on": "2026-11-06",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "ロードサービス等の受付・手配業務の委託先プレステージ・コアソリューションの業務システムへの第三者による不正アクセス（10月29日検知、30日停止）。"
+  },
+  "impact": [
+    {
+      "count": 3117,
+      "unit": "records",
+      "qualifier": "maximum",
+      "description": "SUBARU安心ホットラインでロードサービスを手配した顧客。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "電話番号",
+    "車両情報（車種・車両登録番号等）",
+    "ロードサービスの受付・手配に関する情報"
+  ],
+  "related_vendor": "プレステージ・コアソリューション",
+  "sources": [
+    {
+      "url": "https://sfc.subaru.co.jp/topics/20261105175142/",
+      "type": "official",
+      "title": "外部システムへの不正アクセスに関するお知らせ",
+      "published_on": "2026-11-06",
+      "checked_on": "2026-11-09"
+    }
+  ],
+  "updates": [],
+  "notes": "カード・銀行口座情報・パスワードは含まれない。"
+}

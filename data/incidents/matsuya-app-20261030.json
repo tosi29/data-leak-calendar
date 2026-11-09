@@ -11,7 +11,7 @@
   "publication_kind": "initial",
   "occurred_on": null,
   "detected_on": "2026-10-28",
-  "updated_on": "2026-10-31",
+  "updated_on": "2026-11-06",
   "verification": "official",
   "leak_status": "confirmed",
   "incident_type": "attack",
@@ -52,8 +52,21 @@
       "title": "公式アプリ管理システムから会員・配送先情報が漏えい",
       "published_on": "2026-10-30",
       "checked_on": "2026-10-31"
+    },
+    {
+      "url": "https://www.matsuyafoods.co.jp/_static/info/261106_info.pdf",
+      "type": "official",
+      "title": "お客様情報の漏洩に関するお詫びと補償内容について",
+      "published_on": "2026-11-06",
+      "checked_on": "2026-11-09"
     }
   ],
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-11-06",
+      "summary": "11月4日調査時点の内訳を公表。会員IDと氏名のみ約223万件、会員ID・氏名・電話番号・配達先住所約11万件、会員ID・氏名・電話番号・都道府県・生年月日・性別・メールアドレス・ポイント残高2,000件。対象者に11月4日付でメール送付。",
+      "source_index": 1
+    }
+  ],
   "notes": "2区分を合算しない。パスワード等はアプリ登録情報区分。カード情報は保持していない。"
 }

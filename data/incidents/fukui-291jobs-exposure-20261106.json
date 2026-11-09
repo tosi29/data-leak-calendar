@@ -1,0 +1,53 @@
+{
+  "id": "fukui-291jobs-exposure-20261106",
+  "organization": {
+    "name": "福井県（291JOBS）",
+    "sector": "自治体"
+  },
+  "title": "就職支援サイト「291JOBS」の保守委託先の設定誤りで登録者368人分の履歴書等が閲覧可能に",
+  "summary": "就職支援サイト「291JOBS」の保守委託先の設定誤りで登録者368人分の履歴書等が閲覧可能に。",
+  "published_on": "2026-11-06",
+  "first_published_on": "2026-11-06",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-10-29",
+  "updated_on": "2026-11-06",
+  "verification": "official",
+  "leak_status": "exposed",
+  "incident_type": "accident",
+  "cause": {
+    "category": "configuration",
+    "certainty": "unknown",
+    "detail": "保守委託先システム研究所の設定誤りにより、登録者がアップロードしたファイルがインターネットから閲覧可能な状態だった（10月29日に登録者からの連絡で判明）。"
+  },
+  "impact": [
+    {
+      "count": 368,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "閲覧可能だった864ファイル分。うち実際にクリックされたのは10人分14ファイル。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "電話番号",
+    "メールアドレス",
+    "性別",
+    "生年月日",
+    "職務経歴",
+    "顔写真"
+  ],
+  "related_vendor": "システム研究所",
+  "sources": [
+    {
+      "url": "https://www.pref.fukui.lg.jp/doc/wakatei/291jobs20261106.html",
+      "type": "official",
+      "title": "「２９１ＪＯＢＳ」における個人情報の漏えいに関するお詫びについて",
+      "published_on": "2026-11-06",
+      "checked_on": "2026-11-09"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

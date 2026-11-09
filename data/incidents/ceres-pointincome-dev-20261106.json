@@ -1,0 +1,60 @@
+{
+  "id": "ceres-pointincome-dev-20261106",
+  "organization": {
+    "name": "セレス（ポイントインカム）",
+    "sector": "企業・団体"
+  },
+  "title": "開発環境への不正アクセスでテスト用に保管していた会員情報約11,100名分が閲覧された可能性",
+  "summary": "開発環境への不正アクセスでテスト用に保管していた会員情報約11,100名分が閲覧された可能性。",
+  "published_on": "2026-11-06",
+  "first_published_on": "2026-11-06",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-10-29",
+  "updated_on": "2026-11-06",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "システム開発環境への外部からの不正アクセス（10月29日検知）。テスト・検証用に保管していた過去時点の会員情報が閲覧された可能性。"
+  },
+  "impact": [
+    {
+      "count": 11100,
+      "unit": "people",
+      "qualifier": "approximate",
+      "description": "2025年11月15日時点のバックアップデータ。ほかに端末ID4件。"
+    }
+  ],
+  "data_types": [
+    "ニックネーム",
+    "メールアドレス",
+    "暗号化されたパスワード",
+    "暗号化された秘密の質問",
+    "生年月日",
+    "保有ポイント数",
+    "電話番号（16名）",
+    "口座名義（1名）"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://next.ceres-inc.jp/news/detail/20261106-2/",
+      "type": "official",
+      "title": "【重要】不正アクセスに伴う個人情報漏えいに関するお知らせ",
+      "published_on": "2026-11-06",
+      "checked_on": "2026-11-09"
+    },
+    {
+      "url": "https://media.ceres-inc.jp/news/2026/11/20261106_v2-1.pdf",
+      "type": "official",
+      "title": "【重要】不正アクセスに伴う個人情報漏えいに関するお知らせ（PDF）",
+      "published_on": "2026-11-06",
+      "checked_on": "2026-11-09"
+    }
+  ],
+  "updates": [],
+  "notes": "本番環境への侵入は確認されていない。対象アカウントのパスワードを強制リセット。子会社マーキュリーのrepica経由の事案は別記録。"
+}

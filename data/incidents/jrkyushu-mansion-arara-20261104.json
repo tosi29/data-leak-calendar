@@ -1,0 +1,47 @@
+{
+  "id": "jrkyushu-mansion-arara-20261104",
+  "organization": {
+    "name": "九州旅客鉄道（分譲マンション）",
+    "sector": "企業・団体"
+  },
+  "title": "メールマガジン配信委託先が使うアララへの不正アクセスで分譲マンション来場者等のメールアドレス最大約13,000件に漏洩の可能性",
+  "summary": "メールマガジン配信委託先が使うアララへの不正アクセスで分譲マンション来場者等のメールアドレス最大約13,000件に漏洩の可能性。",
+  "published_on": "2026-11-04",
+  "first_published_on": "2026-11-04",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-04",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "メールマガジン配信業務の委託事業者が利用するアララ株式会社のメール配信サービスへの不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 13000,
+      "unit": "records",
+      "qualifier": "maximum_approximate",
+      "description": "分譲マンションのモデルルーム来場者・資料請求者のうちメールマガジン配信先。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "メールアドレス"
+  ],
+  "related_vendor": "アララ株式会社",
+  "sources": [
+    {
+      "url": "https://www.jrkyushu.co.jp/common/inc/news/newtopics/__icsFiles/afieldfile/2026/11/04/20261104_info_data_breach.pdf",
+      "type": "official",
+      "title": "メール配信サービスの提携先（アララ社）への不正アクセスに伴う電子メールアドレス等の漏洩の可能性について",
+      "published_on": "2026-11-04",
+      "checked_on": "2026-11-09"
+    }
+  ],
+  "updates": [],
+  "notes": "住所・電話番号は対象外。メールログデータの閲覧・取得の可能性を否定できないと公表。"
+}

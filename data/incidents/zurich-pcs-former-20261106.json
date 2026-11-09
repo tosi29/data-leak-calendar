@@ -1,0 +1,44 @@
+{
+  "id": "zurich-pcs-former-20261106",
+  "organization": {
+    "name": "チューリッヒ保険会社",
+    "sector": "企業・団体"
+  },
+  "title": "旧ロードサービス委託先プレステージ・コアソリューションへの不正アクセスで委託当時の顧客情報が漏えい",
+  "summary": "旧ロードサービス委託先プレステージ・コアソリューションへの不正アクセスで委託当時の顧客情報が漏えい。",
+  "published_on": "2026-11-06",
+  "first_published_on": "2026-11-06",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-06",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "2026年1月31日まで委託していたプレステージ・コアソリューションの業務システムへの第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "2026年1月31日までに委託したロードサービス案件の顧客。件数は委託先で調査中。"
+    }
+  ],
+  "data_types": [],
+  "related_vendor": "プレステージ・コアソリューション",
+  "sources": [
+    {
+      "url": "https://www.zurich.co.jp/aboutus/news/news/2026/1106/",
+      "type": "official",
+      "title": "当社の委託先の業務システムに対する不正アクセスについて",
+      "published_on": "2026-11-06",
+      "checked_on": "2026-11-09"
+    }
+  ],
+  "updates": [],
+  "notes": "漏えい項目は未公表。"
+}

@@ -1,0 +1,55 @@
+{
+  "id": "stepgolf-business-system-20261107",
+  "organization": {
+    "name": "ステップゴルフ",
+    "sector": "企業・団体"
+  },
+  "title": "業務・予約システムへの不正アクセスでDBバックアップ等が流出、会員等の口座情報を含む最大21.5万件に漏えいの可能性",
+  "summary": "業務・予約システムへの不正アクセスでDBバックアップ等が流出、会員等の口座情報を含む最大21.5万件に漏えいの可能性。",
+  "published_on": "2026-11-07",
+  "first_published_on": "2026-11-07",
+  "publication_kind": "initial",
+  "occurred_on": "2026-10-23",
+  "detected_on": "2026-11-05",
+  "updated_on": "2026-11-07",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "業務システム・予約システムへの第三者による不正アクセス。11月5日に異常を検知し、10月23日・25日にもアクセスがあり個人情報を含むDBのバックアップファイル等が外部に漏えいした可能性が極めて高い。"
+  },
+  "impact": [
+    {
+      "count": 215000,
+      "unit": "records",
+      "qualifier": "maximum",
+      "description": "データベース上の登録件数で対象人数ではない。無料体験申込者と現・元会員。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "生年月日",
+    "電話番号",
+    "メールアドレス",
+    "口座振替情報（金融機関名・支店名・口座番号・口座名義）",
+    "契約状況・予約履歴・購入履歴",
+    "レッスンカルテ",
+    "顔写真",
+    "要配慮個人情報"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.stepgolf.co.jp/news/261107",
+      "type": "official",
+      "title": "当社業務システムへの不正アクセスによる個人情報漏えいのおそれに関するお詫びとご報告（第一報）",
+      "published_on": "2026-11-07",
+      "checked_on": "2026-11-09"
+    }
+  ],
+  "updates": [],
+  "notes": "銀行口座情報は暗号化されていない状態で保管。カード情報・本人確認書類は保有しておらず対象外。"
+}

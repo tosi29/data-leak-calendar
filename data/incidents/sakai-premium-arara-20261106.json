@@ -1,0 +1,53 @@
+{
+  "id": "sakai-premium-arara-20261106",
+  "organization": {
+    "name": "堺市（さかいプレミアム商品券2026）",
+    "sector": "自治体"
+  },
+  "title": "受託事業者が使うアララへの不正アクセスでプレミアム商品券当選者約29万件・参加店舗約2,600件のメールアドレス等に漏えいのおそれ",
+  "summary": "受託事業者が使うアララへの不正アクセスでプレミアム商品券当選者約29万件・参加店舗約2,600件のメールアドレス等に漏えいのおそれ。",
+  "published_on": "2026-11-06",
+  "first_published_on": "2026-11-06",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-06",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "商品券事業（実施主体は堺商工会議所）の受託事業者JTB・EVENTIFY・ギフトパッド事業共同体が利用するアララのメール配信サービスへの第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 290000,
+      "unit": "records",
+      "qualifier": "maximum_approximate",
+      "description": "商品券当選者のメールアドレス・氏名。"
+    },
+    {
+      "count": 2600,
+      "unit": "records",
+      "qualifier": "maximum_approximate",
+      "description": "参加店舗のメールアドレス。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス",
+    "氏名"
+  ],
+  "related_vendor": "アララ株式会社",
+  "sources": [
+    {
+      "url": "https://www.city.sakai.lg.jp/sangyo/shienyuushi/shien/premium.files/premium.pdf",
+      "type": "official",
+      "title": "不正アクセスに伴う情報漏えいのおそれについて",
+      "published_on": "2026-11-06",
+      "checked_on": "2026-11-09"
+    }
+  ],
+  "updates": [],
+  "notes": "2026年7月1日以降の配信で記録されたアドレス等。事業運営システムへの不正アクセスは確認されていない。"
+}

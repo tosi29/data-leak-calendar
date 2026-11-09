@@ -4,28 +4,46 @@
     "name": "ソニー生命保険",
     "sector": "企業・団体"
   },
-  "title": "代理店システムへの不正アクセスによる保険契約情報漏えい",
+  "title": "契約者専用サイト等への不正アクセスでメディケア生命契約約38.5万件と自社契約約290万件等の情報が漏えい",
   "summary": "ソニー生命の契約者専用サイト等への不正アクセスで、同社が代理店として扱うメディケア生命の契約者・被保険者情報約38.5万件が漏えい。",
   "published_on": "2026-10-28",
   "first_published_on": "2026-10-28",
   "publication_kind": "initial",
   "occurred_on": null,
   "detected_on": null,
-  "updated_on": "2026-10-29",
+  "updated_on": "2026-11-09",
   "verification": "official",
   "leak_status": "confirmed",
   "incident_type": "attack",
   "cause": {
     "category": "unauthorized_access",
-    "detail": "第三者による不正アクセス。侵入手口の詳細は調査中。",
-    "certainty": "unknown"
+    "certainty": "unknown",
+    "detail": "ご契約者さま専用サイト「お客さまWEBサービス」などのシステムへの第三者による不正アクセス（10月27日判明）。詳細は調査中。"
   },
   "impact": [
     {
       "count": 385000,
       "unit": "records",
       "qualifier": "approximate",
-      "description": "ソニー生命が募集したメディケア生命契約の情報。両社の公表は同じ対象。"
+      "description": "ソニー生命が代理店として取り扱ったメディケア生命契約の情報。"
+    },
+    {
+      "count": 2900000,
+      "unit": "records",
+      "qualifier": "approximate",
+      "description": "11月9日に判明した自社の保険契約の情報。解約等で終了した契約を含む。"
+    },
+    {
+      "count": 12500,
+      "unit": "records",
+      "qualifier": "approximate",
+      "description": "従業員のメールアドレス・社員番号。"
+    },
+    {
+      "count": 780,
+      "unit": "records",
+      "qualifier": "approximate",
+      "description": "代理店募集人のメールアドレス・募集人番号。"
     }
   ],
   "data_types": [
@@ -35,7 +53,9 @@
     "住所",
     "電話番号",
     "証券番号",
-    "契約内容"
+    "契約内容",
+    "代理店募集人のメールアドレス・募集人番号",
+    "従業員のメールアドレス・社員番号"
   ],
   "related_vendor": null,
   "sources": [
@@ -45,8 +65,28 @@
       "title": "保険代理店のシステムへの不正アクセスに伴うお客さま情報の漏えいについて",
       "published_on": "2026-10-28",
       "checked_on": "2026-10-29"
+    },
+    {
+      "url": "https://www.sonylife.co.jp/info/popup/261028_oshirase2.pdf",
+      "type": "official",
+      "title": "【重要】当社システムに対する不正アクセスの発生および情報漏えいに関するお詫び",
+      "published_on": "2026-10-28",
+      "checked_on": "2026-11-09"
+    },
+    {
+      "url": "https://www.sonylife.co.jp/info/popup/261109_oshirase.pdf",
+      "type": "official",
+      "title": "【重要】当社システムに対する不正アクセスの発生および情報漏えいに関するお詫びとお知らせ（第二報）",
+      "published_on": "2026-11-09",
+      "checked_on": "2026-11-09"
     }
   ],
-  "updates": [],
-  "notes": "メディケア生命の当事者公式資料で確認。ソニー生命の直接PDFはTLS接続失敗のため本文未確認であり、確認済み出典には含めない。マイナンバー・カード・保険料振替口座は対象外。提供元や他の利用組織の公表と対象が重複し得るため単純合算しない。"
+  "updates": [
+    {
+      "date": "2026-11-09",
+      "summary": "第二報。同じ不正アクセスで自社の保険契約約290万件（証券番号・氏名・住所・電話番号等。解約済み含む）、代理店募集人約780件、従業員約12,500件（メールアドレス・番号）の漏えいを新たに確認。要配慮個人情報・マイナンバー・カード・口座・メールアドレス（契約者分）は含まれない。",
+      "source_index": 2
+    }
+  ],
+  "notes": "10月28日の公表本文と11月9日の第二報を公式PDFで確認。マイナンバー・カード・口座情報は対象外。メディケア生命の公表（medicarelife-sonylife-20261028）と38.5万件は同じ対象。区分ごとの件数を合算しない。"
 }

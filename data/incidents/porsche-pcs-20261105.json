@@ -1,0 +1,44 @@
+{
+  "id": "porsche-pcs-20261105",
+  "organization": {
+    "name": "ポルシェジャパン／ポルシェファイナンシャルサービスジャパン",
+    "sector": "企業・団体"
+  },
+  "title": "ロードサービス・事故受付の委託先プレステージ・コアソリューションへの不正アクセスで顧客情報の一部が持ち出された可能性",
+  "summary": "ロードサービス・事故受付の委託先プレステージ・コアソリューションへの不正アクセスで顧客情報の一部が持ち出された可能性。",
+  "published_on": "2026-11-05",
+  "first_published_on": "2026-11-05",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-05",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "委託先プレステージ・コアソリューションの業務システムへの第三者による不正アクセス（10月29日検知）。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "対象人数・項目は確認中。"
+    }
+  ],
+  "data_types": [],
+  "related_vendor": "プレステージ・コアソリューション",
+  "sources": [
+    {
+      "url": "https://www.porsche.com/japan/jp/legal/notice/",
+      "type": "official",
+      "title": "業務委託先への不正アクセスについて",
+      "published_on": "2026-11-05",
+      "checked_on": "2026-11-09"
+    }
+  ],
+  "updates": [],
+  "notes": "ロードサービス利用者とポルシェ自動車保険の事故受付利用者が対象。委託先システム全体の項目は氏名・住所・電話番号・メールアドレス・車両情報・受付情報・口座情報（一部）だが、同社顧客の項目は未特定。カード情報の漏えいは確認されていない。本文は取得ツールで確認。"
+}

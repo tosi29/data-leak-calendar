@@ -1,0 +1,61 @@
+{
+  "id": "nitori-system-20261109",
+  "organization": {
+    "name": "ニトリホールディングス",
+    "sector": "企業・団体"
+  },
+  "title": "システムへの不正アクセスで個人会員・購入者・法人会員の情報最大3,762万件に流出の可能性",
+  "summary": "システムへの不正アクセスで個人会員・購入者・法人会員の情報最大3,762万件に流出の可能性。",
+  "published_on": "2026-11-09",
+  "first_published_on": "2026-11-09",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-11-06",
+  "updated_on": "2026-11-09",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "当社が管理するシステムへの第三者による不正アクセス。11月6日に判明し、10月中旬～下旬にもアクセスの可能性。侵入経路は調査中。"
+  },
+  "impact": [
+    {
+      "count": 37620000,
+      "unit": "records",
+      "qualifier": "maximum",
+      "description": "個人会員・購入者・法人会員の情報とニトリネット・ECモール公式ショップの注文データ。情報の組み合わせは顧客ごとに異なる。"
+    }
+  ],
+  "data_types": [
+    "会員番号",
+    "氏名・フリガナ",
+    "メールアドレス",
+    "住所",
+    "電話番号",
+    "生年月日",
+    "性別",
+    "法人会員の会社名・部署名・代表者氏名・担当者情報",
+    "ニトリネット・ECモール公式ショップの注文データ"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.nitorihd.co.jp/news/items/2b702dbe4d438f7fef74945d68e5bd27.pdf",
+      "type": "official",
+      "title": "当社システムへの不正アクセスによる個人情報漏えいの可能性に関するお詫びとお知らせ",
+      "published_on": "2026-11-09",
+      "checked_on": "2026-11-09"
+    },
+    {
+      "url": "https://www.release.tdnet.info/inbs/140120261109569598.pdf",
+      "type": "official",
+      "title": "当社システムへの不正アクセスによる個人情報漏えいの可能性に関するお詫びとお知らせ（適時開示）",
+      "published_on": "2026-11-09",
+      "checked_on": "2026-11-09"
+    }
+  ],
+  "updates": [],
+  "notes": "ログインパスワード・クレジットカード情報は対象外。件数はログ解析中で変動の可能性。適時開示の本文は未取得で、公式PDFで確認。"
+}

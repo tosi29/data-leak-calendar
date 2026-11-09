@@ -8836,5 +8836,123 @@
       "https://www.irisohyama.co.jp/news/2026/?date=1105"
     ],
     "reason": "11月5日の第2報で漏えいの可能性がある個人情報の項目・人数が公式に示されたため保留を解消。"
+  },
+  {
+    "candidate": {
+      "id": "nov04-motex-website-review",
+      "organization": "エムオーテックス（京セラコミュニケーションシステム子会社）",
+      "reported_on": "2026-11-04",
+      "verification": "pending",
+      "reference_url": "https://www.kccs.co.jp/news/important/2026/1104/",
+      "reviewed_on": "2026-11-08",
+      "checked_urls": [
+        "https://www.kccs.co.jp/news/important/2026/1104/"
+      ],
+      "note": "2026年11月8日調査：MOTEXのWebサイトへの11月2日の不正アクセスとサイト停止を公式に確認。顧客情報の外部流出は現時点で未確認で調査中。個人情報への影響が具体化するまで保留。"
+    },
+    "reviewed_on": "2026-11-09",
+    "resolution": "published",
+    "incident_ids": [
+      "motex-website-20261104"
+    ],
+    "source_urls": [
+      "https://www.kccs.co.jp/news/important/2026/1104/",
+      "https://www.kccs.co.jp/news/important/2026/1106/"
+    ],
+    "reason": "11月6日の第2報で顧客情報（会社名・氏名・メールアドレス・電話番号等）の漏えいの可能性が公式に示されたため保留を解消。"
+  },
+  {
+    "candidate": {
+      "id": "nov05-porsche-pcs-review",
+      "organization": "ポルシェジャパン／ポルシェファイナンシャルサービスジャパン",
+      "reported_on": "2026-11-05",
+      "verification": "pending",
+      "reference_url": "https://www.porsche.com/japan/jp/legal/notice/",
+      "reviewed_on": "2026-11-08",
+      "checked_urls": [
+        "https://www.porsche.com/japan/jp/legal/notice/"
+      ],
+      "note": "2026年11月8日調査：公表索引ではプレステージ・コアソリューションで顧客情報の一部が持ち出された可能性、範囲・人数は確認中とされる。公式ページは直接取得で403のため本文未確認、保留。"
+    },
+    "reviewed_on": "2026-11-09",
+    "resolution": "published",
+    "incident_ids": [
+      "porsche-pcs-20261105"
+    ],
+    "source_urls": [
+      "https://www.porsche.com/japan/jp/legal/notice/"
+    ],
+    "reason": "取得ツールで公式本文を確認でき、委託先PCSからの顧客情報持ち出しの可能性が示されたため保留を解消。"
+  },
+  {
+    "candidate": {
+      "id": "nov02-abc-fururabo-review",
+      "organization": "朝日放送テレビ（ふるラボ）",
+      "reported_on": "2026-11-02",
+      "verification": "pending",
+      "reference_url": "https://corp.asahi.co.jp/Portals/0/data/pdf/news/NR20261102TV_fururabo.pdf",
+      "reviewed_on": "2026-11-08",
+      "checked_urls": [
+        "https://corp.asahi.co.jp/Portals/0/data/pdf/news/NR20261102TV_fururabo.pdf",
+        "https://www.city.kanoya.lg.jp/furusatonouzei/fururabo.html"
+      ],
+      "note": "2026年11月8日調査：公表索引では不正に入手されたメールアドレスとパスワードによる不正ログインで会員8名の氏名・住所・カード情報の一部等が閲覧可能だったとされる。公式PDFは直接取得・取得ツールとも不可で本文未確認のため保留。"
+    },
+    "reviewed_on": "2026-11-09",
+    "resolution": "published",
+    "incident_ids": [
+      "abc-fururabo-login-20261104"
+    ],
+    "source_urls": [
+      "https://www.city.kanoya.lg.jp/furusatonouzei/fururabo.html"
+    ],
+    "reason": "同社PDFは未取得だが、寄附先自治体（鹿屋市）の公式告知で不正ログインと寄附履歴の閲覧可能状態を確認したため掲載。件数は未採用。"
+  },
+  {
+    "candidate": {
+      "id": "nov05-kddi-au-bicycle-pcs-review",
+      "organization": "KDDI（au自転車サポート）",
+      "reported_on": "2026-11-05",
+      "verification": "pending",
+      "reference_url": "https://k-tai.watch.impress.co.jp/docs/news/2154147.html",
+      "reviewed_on": "2026-11-08",
+      "checked_urls": [
+        "https://k-tai.watch.impress.co.jp/docs/news/2154147.html",
+        "https://www.nikkei.com/article/DGXZQOUC059NA0V01C26A1000000/"
+      ],
+      "note": "2026年11月8日調査：報道ではロードサービス委託先プレステージ・コアソリューションへの不正アクセスで利用者の氏名・住所・電話番号・メールアドレス等が漏えいした可能性、対象件数は調査中とされる。KDDIの公式告知本文を特定できず保留。"
+    },
+    "reviewed_on": "2026-11-09",
+    "resolution": "published",
+    "incident_ids": [
+      "kddi-au-bicycle-pcs-20261105"
+    ],
+    "source_urls": [
+      "https://www.au.com/information/notice_mobile/service/2026-012/"
+    ],
+    "reason": "KDDIの公式告知を特定し、委託先PCSへの不正アクセスによる漏えいの可能性を本文で確認したため保留を解消。"
+  },
+  {
+    "candidate": {
+      "id": "nov09-yokote-shibata-review",
+      "organization": "横手市（委託先 柴田工事調査）",
+      "reported_on": "2026-11-04",
+      "verification": "pending",
+      "reference_url": "https://satimo.org/2026/10/data-breach-list-2026/",
+      "reviewed_on": "2026-11-09",
+      "checked_urls": [
+        "https://satimo.org/2026/10/data-breach-list-2026/"
+      ],
+      "note": "2026年11月9日調査：公表索引で柴田工事調査へのランサムウェア攻撃に関し横手市が延べ約1,300人の漏えいのおそれを公表とされるが、市の公式本文を特定できず保留。"
+    },
+    "reviewed_on": "2026-11-09",
+    "resolution": "published",
+    "incident_ids": [
+      "yokote-shibata-ransom-20261105"
+    ],
+    "source_urls": [
+      "https://www.city.yokote.lg.jp/shigoto/1001164/1001361/1013864.html"
+    ],
+    "reason": "公表索引から横手市の公式告知を特定し、延べ約1,300人・委託業務12件を本文で確認したため保留を解消。"
   }
 ]

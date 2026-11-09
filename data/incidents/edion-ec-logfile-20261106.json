@@ -1,0 +1,61 @@
+{
+  "id": "edion-ec-logfile-20261106",
+  "organization": {
+    "name": "エディオン",
+    "sector": "企業・団体"
+  },
+  "title": "ECサイトのログファイル格納領域への不正アクセスで顧客情報に漏洩の可能性",
+  "summary": "ECサイトのログファイル格納領域への不正アクセスで顧客情報に漏洩の可能性。",
+  "published_on": "2026-11-06",
+  "first_published_on": "2026-11-06",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-11-05",
+  "updated_on": "2026-11-06",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "vulnerability",
+    "certainty": "unknown",
+    "detail": "ECサイトのログファイルを格納したサーバー領域の一部に、システムの脆弱性を突いた外部からの不正アクセス（11月5日18時30分頃確認）。"
+  },
+  "impact": [
+    {
+      "count": 4131,
+      "unit": "people",
+      "qualifier": "maximum",
+      "description": "複数の情報が紐づいた状態で記録されたログの対象。"
+    },
+    {
+      "count": 9554,
+      "unit": "people",
+      "qualifier": "maximum",
+      "description": "注文情報のログの対象。重複があり実人数は合計13,685名を下回る。"
+    }
+  ],
+  "data_types": [
+    "氏名（漢字・カナ）",
+    "メールアドレス",
+    "電話番号",
+    "生年月日",
+    "性別",
+    "住所",
+    "お客様番号",
+    "注文番号・注文金額",
+    "クレジットカードの有効期限",
+    "ギフトカード番号"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.edion.co.jp/system/files/news-release/pdf/ja/2026-11/20261106_pr_1.pdf",
+      "type": "official",
+      "title": "当社ECサイトへの不正アクセスによる個人情報漏洩の可能性に関するお詫びとお知らせ",
+      "published_on": "2026-11-06",
+      "checked_on": "2026-11-09"
+    }
+  ],
+  "updates": [],
+  "notes": "顧客データベース本体への不正アクセスは確認されていない。カード番号・ログインパスワードは含まれない。"
+}

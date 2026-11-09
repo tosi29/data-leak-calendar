@@ -1,0 +1,48 @@
+{
+  "id": "fwdlife-fwdnavi-20261109",
+  "organization": {
+    "name": "FWD生命保険",
+    "sector": "企業・団体"
+  },
+  "title": "代理店向けシステム「FWD navi」に募集人アカウントで不正ログイン、契約情報最大9,000件が閲覧可能に",
+  "summary": "代理店向けシステム「FWD navi」に募集人アカウントで不正ログイン、契約情報最大9,000件が閲覧可能に。",
+  "published_on": "2026-11-09",
+  "first_published_on": "2026-11-09",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-11-07",
+  "updated_on": "2026-11-09",
+  "verification": "official",
+  "leak_status": "exposed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "credentials",
+    "certainty": "unknown",
+    "detail": "第三者が代理店の募集人アカウントを不正に利用して「FWD navi」にログイン（11月7日確認）。"
+  },
+  "impact": [
+    {
+      "count": 9000,
+      "unit": "records",
+      "qualifier": "maximum",
+      "description": "11月9日19時時点。閲覧可能な状態となった契約情報。"
+    }
+  ],
+  "data_types": [
+    "契約者名",
+    "被保険者名",
+    "契約情報"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.fwdlife.co.jp/system-information/",
+      "type": "official",
+      "title": "【更新】代理店向けシステム「FWD navi」への不正アクセスに伴うお客さま情報の漏えいについて",
+      "published_on": "2026-11-09",
+      "checked_on": "2026-11-09"
+    }
+  ],
+  "updates": [],
+  "notes": "本文はページ埋め込みデータから確認。カード番号・マイナンバーの漏えいは確認されていない。不正な契約変更はないと公表。"
+}

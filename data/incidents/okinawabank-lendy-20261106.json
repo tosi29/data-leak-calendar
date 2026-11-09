@@ -1,0 +1,51 @@
+{
+  "id": "okinawabank-lendy-20261106",
+  "organization": {
+    "name": "沖縄銀行",
+    "sector": "企業・団体"
+  },
+  "title": "個人ローン督促の委託先LENDY債権回収のシステムに不正作成アカウントでログイン、顧客211名の交渉記録等に流出の可能性",
+  "summary": "個人ローン督促の委託先LENDY債権回収のシステムに不正作成アカウントでログイン、顧客211名の交渉記録等に流出の可能性。",
+  "published_on": "2026-11-06",
+  "first_published_on": "2026-11-06",
+  "publication_kind": "initial",
+  "occurred_on": "2026-10-30",
+  "detected_on": null,
+  "updated_on": "2026-11-06",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "configuration",
+    "certainty": "unknown",
+    "detail": "督促業務の委託先LENDY債権回収の「交渉記録チェックシステム」に、第三者が不正に作成したアカウントでログインし交渉記録等を閲覧（10月30日発生）。"
+  },
+  "impact": [
+    {
+      "count": 211,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "個人ローン「チェキット」の督促対象顧客。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "メールアドレス",
+    "電話番号",
+    "代理人名（弁護士名等）",
+    "金額（返済相談額等）",
+    "交渉内容"
+  ],
+  "related_vendor": "LENDY債権回収",
+  "sources": [
+    {
+      "url": "https://www.okinawa-bank.co.jp/news_release/2026110600037/file_contents/nr.pdf",
+      "type": "official",
+      "title": "個人情報の漏えいに関するお詫びとお知らせ",
+      "published_on": "2026-11-06",
+      "checked_on": "2026-11-09"
+    }
+  ],
+  "updates": [],
+  "notes": "IDOMの公表（idom-lendy-20261106）と同じ委託先の事案で、件数は合算しない。"
+}

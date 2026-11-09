@@ -1,0 +1,46 @@
+{
+  "id": "msi-store-makerepeater-arara-20261106",
+  "organization": {
+    "name": "MSIストア",
+    "sector": "企業・団体"
+  },
+  "title": "MakeRepeater経由で使うアララへの不正アクセスで会員・購入者のメールアドレスに漏えいのおそれ",
+  "summary": "MakeRepeater経由で使うアララへの不正アクセスで会員・購入者のメールアドレスに漏えいのおそれ。",
+  "published_on": "2026-11-06",
+  "first_published_on": "2026-11-06",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-06",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "メール配信サービス「MakeRepeater」（GMOメイクショップ）が利用するアララ株式会社のメール配信システムへの不正アクセス（10月27～31日）。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "2026年7月1日以降に送信されたメールアドレス。件数は未公表。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "GMOメイクショップ",
+  "sources": [
+    {
+      "url": "https://jpstore.msi.com/new/2026-11-06-172139.html",
+      "type": "official",
+      "title": "【重要】外部メール配信サービスへの不正アクセスによる、お客さまのメールアドレス漏えいのおそれに関するお詫びとお知らせ",
+      "published_on": "2026-11-06",
+      "checked_on": "2026-11-09"
+    }
+  ],
+  "updates": [],
+  "notes": "ページはEUC-JPで取得し本文を確認。カード情報・パスワードは対象外。"
+}

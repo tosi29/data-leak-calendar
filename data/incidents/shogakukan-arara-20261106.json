@@ -1,0 +1,56 @@
+{
+  "id": "shogakukan-arara-20261106",
+  "organization": {
+    "name": "小学館",
+    "sector": "企業・団体"
+  },
+  "title": "メール配信に使うアララへの不正アクセスで小学館ID等の会員情報1,993,665件に漏えいのおそれ",
+  "summary": "メール配信に使うアララへの不正アクセスで小学館ID等の会員情報1,993,665件に漏えいのおそれ。",
+  "published_on": "2026-11-06",
+  "first_published_on": "2026-11-06",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-06",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "利用するアララ株式会社のメール配信システムへの第三者による不正アクセスとサーバーへの侵入。"
+  },
+  "impact": [
+    {
+      "count": 1993665,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "小学館IDなどの会員情報。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス",
+    "生年月日",
+    "性別",
+    "ニックネーム"
+  ],
+  "related_vendor": "アララ株式会社",
+  "sources": [
+    {
+      "url": "https://www.shogakukan.co.jp/news/477708",
+      "type": "official",
+      "title": "業務委託先への不正アクセスによる情報漏えいについて",
+      "published_on": "2026-11-06",
+      "checked_on": "2026-11-09"
+    },
+    {
+      "url": "https://www.shogakukan.co.jp/storage/files/article/2026/261106%E3%80%8C%E3%82%A2%E3%83%A9%E3%83%A9%E7%A4%BE%E3%80%8D%E3%81%B8%E3%81%AE%20%20%E4%B8%8D%E6%AD%A3%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E3%81%AB%E3%82%88%E3%82%8B%E5%80%8B%E4%BA%BA%E6%83%85%E5%A0%B1%E6%BC%8F%E3%81%88%E3%81%84%E3%81%AE%E3%81%8A%E3%81%9D%E3%82%8C%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E3%81%8A%E8%A9%AB%E3%81%B2%E3%82%99%E3%81%A8%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B.pdf",
+      "type": "official",
+      "title": "弊社が委託する外部メール配信サービス会社「アララ社」への不正アクセスによる個人情報漏えいのおそれに関するお詫びとお知らせ",
+      "published_on": "2026-11-06",
+      "checked_on": "2026-11-09"
+    }
+  ],
+  "updates": [],
+  "notes": "11月2日にアララから利用環境が対象との連絡、11月5日に漏えいデータの分析結果の追加報告。10月28日に会員情報の連携を停止。カード情報は対象外。仮登録者・現会員以外を含む可能性。子会社MERYの公表は別記録。"
+}

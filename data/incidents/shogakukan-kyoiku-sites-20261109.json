@@ -1,0 +1,56 @@
+{
+  "id": "shogakukan-kyoiku-sites-20261109",
+  "organization": {
+    "name": "小学館（みんなの教育技術・みんなの幼児と保育）",
+    "sector": "企業・団体"
+  },
+  "title": "「みんなの教育技術」「みんなの幼児と保育」の脆弱性を突かれ小学館ID会員情報に漏えいのおそれ",
+  "summary": "「みんなの教育技術」「みんなの幼児と保育」の脆弱性を突かれ小学館ID会員情報に漏えいのおそれ。",
+  "published_on": "2026-11-09",
+  "first_published_on": "2026-11-09",
+  "publication_kind": "initial",
+  "occurred_on": "2026-07-17",
+  "detected_on": "2026-10-27",
+  "updated_on": "2026-11-09",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "vulnerability",
+    "certainty": "unknown",
+    "detail": "2026年7月17日～8月25日に両サイトのシステムに脆弱性があり、その期間に第三者の不正アクセスを受けていたことが10月27日に判明。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "両サイトにログインしたことのある「小学館ID」会員。件数は未公表。"
+    }
+  ],
+  "data_types": [
+    "小学館IDの会員識別用コード",
+    "認証用トークン",
+    "ニックネーム",
+    "性別",
+    "年齢",
+    "職業",
+    "都道府県",
+    "好きな作家・ジャンル",
+    "有料記事の購入履歴",
+    "子どもの氏名・ふりがな・生年月日",
+    "メールアドレス（ニックネームとして登録した場合）"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://kyoiku.sho.jp/news/470901/",
+      "type": "official",
+      "title": "「みんなの教育技術」「みんなの幼児と保育」不正アクセスおよび会員情報漏えいのおそれについて",
+      "published_on": "2026-11-09",
+      "checked_on": "2026-11-09"
+    }
+  ],
+  "updates": [],
+  "notes": "会員本人の氏名・住所・電話番号・生年月日、カード情報、小学館IDのパスワードは対象外。アララ経由の小学館の事案（11月6日）とは別。"
+}

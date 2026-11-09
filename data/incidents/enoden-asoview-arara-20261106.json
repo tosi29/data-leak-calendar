@@ -1,0 +1,44 @@
+{
+  "id": "enoden-asoview-arara-20261106",
+  "organization": {
+    "name": "江ノ島電鉄",
+    "sector": "企業・団体"
+  },
+  "title": "チケット販売に使うアソビューのメール配信委託先アララへの不正アクセスで会員情報の一部が流出",
+  "summary": "チケット販売に使うアソビューのメール配信委託先アララへの不正アクセスで会員情報の一部が流出。",
+  "published_on": "2026-11-06",
+  "first_published_on": "2026-11-06",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-06",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "電子チケット購入アプリ「アソビュー！」の運営事業者アソビューが利用するアララのメール配信サービスへの不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "件数は未公表。"
+    }
+  ],
+  "data_types": [],
+  "related_vendor": "アソビュー",
+  "sources": [
+    {
+      "url": "https://www.enoden.co.jp/corporate-news/20261106-1/",
+      "type": "official",
+      "title": "電子チケット購入アプリ「アソビュー！」における不正アクセスについて",
+      "published_on": "2026-11-06",
+      "checked_on": "2026-11-09"
+    }
+  ],
+  "updates": [],
+  "notes": "江の島シーキャンドル等のチケット購入者。詳細はアソビューの公表を参照とする。アソビューの記録とは件数を合算しない。"
+}

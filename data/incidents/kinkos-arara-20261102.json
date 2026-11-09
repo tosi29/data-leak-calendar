@@ -4,14 +4,14 @@
     "name": "キンコーズ・ジャパン",
     "sector": "企業・団体"
   },
-  "title": "アララメッセージへの不正アクセスでスマートメンバーシップ会員のメールアドレスが流出",
+  "title": "アララメッセージへの不正アクセスでスマートメンバーシップ会員266,395件のメールアドレス・氏名等が流出",
   "summary": "アララメッセージへの不正アクセスでスマートメンバーシップ会員のメールアドレスが流出。",
   "published_on": "2026-11-02",
   "first_published_on": "2026-11-02",
   "publication_kind": "initial",
   "occurred_on": null,
   "detected_on": null,
-  "updated_on": "2026-11-02",
+  "updated_on": "2026-11-09",
   "verification": "official",
   "leak_status": "confirmed",
   "incident_type": "attack",
@@ -22,14 +22,20 @@
   },
   "impact": [
     {
-      "count": null,
+      "count": 266395,
       "unit": "records",
-      "qualifier": "unknown",
-      "description": "件数は確認中。"
+      "qualifier": "exact",
+      "description": "スマートメンバーシップ会員のメールアドレス。うち262,875件は氏名等も流出。"
     }
   ],
   "data_types": [
-    "メールアドレス"
+    "メールアドレス",
+    "氏名",
+    "生年月日",
+    "会員証番号",
+    "会員ステージ",
+    "よく利用する店舗",
+    "会員登録日時"
   ],
   "related_vendor": "アララ株式会社",
   "sources": [
@@ -39,8 +45,21 @@
       "title": "メール配信サービス「アララメッセージ」への不正アクセスによるお客様のメールアドレス流出に関するお詫びとお知らせ（第一報）",
       "published_on": "2026-11-02",
       "checked_on": "2026-11-08"
+    },
+    {
+      "url": "https://www.kinkos.co.jp/corporate/archives/news/20261109/",
+      "type": "official",
+      "title": "メール配信サービス「アララメッセージ」への不正アクセスによるお客様情報流出に関するお詫びとお知らせ（第二報）",
+      "published_on": "2026-11-09",
+      "checked_on": "2026-11-09"
     }
   ],
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-11-09",
+      "summary": "第二報。アララからの追加報告で、スマートメンバーシップ会員のメールアドレス266,395件の流出を確認。うち262,875件は氏名・生年月日・会員証番号・会員ステージ・よく利用する店舗・会員登録日時も流出。",
+      "source_index": 1
+    }
+  ],
   "notes": "アララ第1報時点では対象外との回答だったが、11月2日の第2報で対象範囲が拡大し流出を確認。氏名など他の登録情報の流出は現時点で未確認。"
 }

@@ -1,0 +1,46 @@
+{
+  "id": "fujio-gmo-commerce-arara-20261106",
+  "organization": {
+    "name": "フジオフードシステム",
+    "sector": "企業・団体"
+  },
+  "title": "GMOコマースが使うアララへの不正アクセスで串家物語等の会員メールアドレス316,668件が流出",
+  "summary": "GMOコマースが使うアララへの不正アクセスで串家物語等の会員メールアドレス316,668件が流出。",
+  "published_on": "2026-11-06",
+  "first_published_on": "2026-11-06",
+  "publication_kind": "initial",
+  "occurred_on": "2026-10-28",
+  "detected_on": null,
+  "updated_on": "2026-11-06",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "会員向けメール配信業務の委託先GMOコマースが利用するアララ株式会社のメール配信システムへの不正アクセス（10月28～31日）。"
+  },
+  "impact": [
+    {
+      "count": 316668,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "串家物語316,651件、デリスデュパレ17件。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "GMOコマース",
+  "sources": [
+    {
+      "url": "https://fujiogroup.com/company/news/2026/11/post-287.html",
+      "type": "official",
+      "title": "【重要】メール配信サービスへの不正アクセスによるお客様のメールアドレス流出に関するお知らせとお詫び",
+      "published_on": "2026-11-06",
+      "checked_on": "2026-11-09"
+    }
+  ],
+  "updates": [],
+  "notes": "本文は画像掲載で、画像を確認。氏名・住所・電話番号・パスワード・カード情報は対象外。"
+}

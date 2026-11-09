@@ -1,0 +1,51 @@
+{
+  "id": "kohnan-bicycle-pcs-20261106",
+  "organization": {
+    "name": "コーナン商事",
+    "sector": "企業・団体"
+  },
+  "title": "自転車あんしんプランのロードサービス事業者プレステージ・コアソリューションへの不正アクセスで利用者949件の情報が漏洩",
+  "summary": "自転車あんしんプランのロードサービス事業者プレステージ・コアソリューションへの不正アクセスで利用者949件の情報が漏洩。",
+  "published_on": "2026-11-06",
+  "first_published_on": "2026-11-06",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-06",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "「コーナン自転車あんしんプラン」のロードサービス提供に関わる委託先プレステージ・コアソリューションの業務システムへの第三者による不正アクセス（10月29日検知、30日停止）。"
+  },
+  "impact": [
+    {
+      "count": 949,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "精査中。プラン契約者のうちロードサービス利用者。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "電話番号",
+    "メールアドレス",
+    "車両に関する情報",
+    "ロードサービスの受付に関する情報"
+  ],
+  "related_vendor": "プレステージ・コアソリューション",
+  "sources": [
+    {
+      "url": "https://www.hc-kohnan.com/wprnw/wp-content/uploads/2026/11/%E3%80%8C%E3%82%B3%E3%83%BC%E3%83%8A%E3%83%B3%E8%87%AA%E8%BB%A2%E8%BB%8A%E3%81%82%E3%82%93%E3%81%97%E3%82%93%E3%83%97%E3%83%A9%E3%83%B3%E3%80%8D%E6%A5%AD%E5%8B%99%E5%86%8D%E5%A7%94%E8%A8%97%E5%85%88%E3%81%B8%E3%81%AE%E4%B8%8D%E6%AD%A3%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E3%81%AB%E3%82%88%E3%82%8B%E3%81%8A%E5%AE%A2%E6%A7%98%E6%83%85%E5%A0%B1%E6%BC%8F%E6%B4%A9%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E3%81%8A%E8%A9%AB%E3%81%B3%E3%81%A8%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B.pdf",
+      "type": "official",
+      "title": "「コーナン自転車あんしんプラン」業務再委託先への不正アクセスによるお客様情報漏洩に関するお詫びとお知らせ",
+      "published_on": "2026-11-06",
+      "checked_on": "2026-11-09"
+    }
+  ],
+  "updates": [],
+  "notes": "同社管理システムへの不正アクセスは確認されていない。"
+}

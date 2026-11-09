@@ -1,0 +1,50 @@
+{
+  "id": "msins-pcs-roadservice-20261109",
+  "organization": {
+    "name": "三井住友海上火災保険",
+    "sector": "企業・団体"
+  },
+  "title": "ロードサービス委託先プレステージ・コアソリューションへの不正アクセスで自動車保険の顧客情報約22.8万件が漏えい",
+  "summary": "ロードサービス委託先プレステージ・コアソリューションへの不正アクセスで自動車保険の顧客情報約22.8万件が漏えい。",
+  "published_on": "2026-11-09",
+  "first_published_on": "2026-11-09",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-10-29",
+  "updated_on": "2026-11-09",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "一部の自動車保険のロードサービス業務等の委託先プレステージ・コアソリューションの業務システムへの第三者による不正アクセス（10月29日検知）。"
+  },
+  "impact": [
+    {
+      "count": 228000,
+      "unit": "records",
+      "qualifier": "approximate",
+      "description": "11月9日9時時点。一部の自動車保険の顧客。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "電話番号",
+    "車両情報（登録番号・車台番号等）",
+    "事故・故障の受付に関する情報"
+  ],
+  "related_vendor": "プレステージ・コアソリューション",
+  "sources": [
+    {
+      "url": "https://www.ms-ins.com/news/fy2026/pdf/1109_1.pdf",
+      "type": "official",
+      "title": "業務委託先への不正アクセスに伴う情報漏えいについて",
+      "published_on": "2026-11-09",
+      "checked_on": "2026-11-09"
+    }
+  ],
+  "updates": [],
+  "notes": "11月4日にPCSから報告。クレジットカード情報・口座情報は含まれない。同社の契約者専用ページ（11月3日公表）、MSコンパス（11月9日公表）とは別事案。"
+}

@@ -1,0 +1,46 @@
+{
+  "id": "asobisystem-fanplus-arara-20261107",
+  "organization": {
+    "name": "アソビシステム",
+    "sector": "企業・団体"
+  },
+  "title": "ファンクラブサイト運営のFanplusが使うアララメッセージへの不正アクセスで所属アーティストサイト会員のメールアドレスが漏えい",
+  "summary": "ファンクラブサイト運営のFanplusが使うアララメッセージへの不正アクセスで所属アーティストサイト会員のメールアドレスが漏えい。",
+  "published_on": "2026-11-07",
+  "first_published_on": "2026-11-07",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-07",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "ファンクラブサイト運営会社Fanplusが利用するアララのメール配信サービス「アララメッセージ」への第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "2026年10月31日時点でメールマガジン（有料・無料）に登録のメールアドレス。件数は未公表。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "Fanplus",
+  "sources": [
+    {
+      "url": "https://asobisystem.com/news/77602/",
+      "type": "official",
+      "title": "外部メール配信サービスへの不正アクセスについて",
+      "published_on": "2026-11-07",
+      "checked_on": "2026-11-09"
+    }
+  ],
+  "updates": [],
+  "notes": "きゃりーぱみゅぱみゅ、KAWAII LAB.、FRUITS ZIPPER等11サイト。Fanplus／チケットプラスの公表とは件数を合算しない。"
+}

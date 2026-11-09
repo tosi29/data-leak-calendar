@@ -11,7 +11,7 @@
   "publication_kind": "initial",
   "occurred_on": null,
   "detected_on": "2026-11-04",
-  "updated_on": "2026-11-06",
+  "updated_on": "2026-11-09",
   "verification": "official",
   "leak_status": "confirmed",
   "incident_type": "attack",
@@ -71,6 +71,20 @@
       "title": "ドコモ、不正アクセスで最大29.5万件の情報が流出（ケータイ Watch）",
       "published_on": "2026-11-06",
       "checked_on": "2026-11-08"
+    },
+    {
+      "url": "https://www.docomo.ne.jp/info/notice/page/261108_00_m.html",
+      "type": "official",
+      "title": "ahamoサイトの緊急メンテナンス完了について",
+      "published_on": "2026-11-08",
+      "checked_on": "2026-11-09"
+    },
+    {
+      "url": "https://www.docomo.ne.jp/info/notice/page/261109_00_m.html",
+      "type": "official",
+      "title": "【お詫び】ドコモオンラインショップ、My docomoの緊急メンテナンス実施について/当社サーバーへの不正アクセスによるお客さま情報流出に関するお知らせ（第四報：11月9日 午後5時30分時点）",
+      "published_on": "2026-11-09",
+      "checked_on": "2026-11-09"
     }
   ],
   "updates": [
@@ -88,6 +102,16 @@
       "date": "2026-11-06",
       "summary": "11月6日夜の会見の報道。最大294,839回線（個人204,157・法人90,682）。11月4日に大量アクセスを検知し、同日18時10分に特定の攻撃経路を遮断して流出が止まったと説明。複数システムの連携の仕組みが悪用されたとされる。",
       "source_index": 3
+    },
+    {
+      "date": "2026-11-08",
+      "summary": "予防的に停止していたahamoサイトの安全性を確認し再開。",
+      "source_index": 4
+    },
+    {
+      "date": "2026-11-09",
+      "summary": "第四報。不正アクセス経路への対策を講じ、11月9日15時頃から一部を除きMy docomoの手続きを順次再開。ドコモオンラインショップ等は緊急メンテナンス継続。原因・侵入経路・流出範囲は調査中。",
+      "source_index": 5
     }
   ],
   "notes": "11月5日午前1時5分頃から緊急メンテナンスで各種手続きを停止。公式の件数表記は最大約30万件。回線数の内訳と遮断時刻は会見の報道値（二次資料）。カード番号・マイナンバーは流出していないと報道。9月のAmazon関連・10月のぷらら等の事案とは別。"

@@ -1,0 +1,46 @@
+{
+  "id": "yamaguchi-buchieco-arara-20261106",
+  "organization": {
+    "name": "山口県（ぶちエコやまぐち省エネ家電等購入支援キャンペーン）",
+    "sector": "自治体"
+  },
+  "title": "キャンペーン事務局が使うアララメッセージへの不正アクセスで利用者・参加店舗のメールアドレスに漏えいのおそれ",
+  "summary": "キャンペーン事務局が使うアララメッセージへの不正アクセスで利用者・参加店舗のメールアドレスに漏えいのおそれ。",
+  "published_on": "2026-11-06",
+  "first_published_on": "2026-11-06",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-06",
+  "verification": "official",
+  "leak_status": "investigating",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "キャンペーン事務局（JTB・ギフトパッド共同企業体）が一斉通知に使うアララメッセージへの第三者による不正アクセス（10月27～28日）。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "漏えいの有無・件数は調査中。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "アララ株式会社",
+  "sources": [
+    {
+      "url": "https://buchieco-yamaguchi-shoene.jp/news/29",
+      "type": "official",
+      "title": "【注意喚起】メール配信サービス「アララメッセージ」への不正アクセスに伴うメールアドレスの漏えいのおそれについて",
+      "published_on": "2026-11-06",
+      "checked_on": "2026-11-09"
+    }
+  ],
+  "updates": [],
+  "notes": "事務局がアララに提供した情報はメールアドレスのみ。"
+}

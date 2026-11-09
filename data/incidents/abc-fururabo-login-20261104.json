@@ -1,0 +1,46 @@
+{
+  "id": "abc-fururabo-login-20261104",
+  "organization": {
+    "name": "朝日放送テレビ（ふるラボ）",
+    "sector": "企業・団体"
+  },
+  "title": "ふるさと納税サイト「ふるラボ」の会員アカウントに不正ログイン、一部会員の寄附履歴が閲覧可能に",
+  "summary": "ふるさと納税サイト「ふるラボ」の会員アカウントに不正ログイン、一部会員の寄附履歴が閲覧可能に。",
+  "published_on": "2026-11-04",
+  "first_published_on": null,
+  "publication_kind": "unknown",
+  "occurred_on": null,
+  "detected_on": "2026-10-20",
+  "updated_on": "2026-11-04",
+  "verification": "official",
+  "leak_status": "exposed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "credentials",
+    "certainty": "unknown",
+    "detail": "「ふるラボ」の会員アカウントへの第三者による不正ログイン（10月20日判明）。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "件数は同社公表本文で未確認。"
+    }
+  ],
+  "data_types": [
+    "寄附履歴"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.city.kanoya.lg.jp/furusatonouzei/fururabo.html",
+      "type": "official",
+      "title": "ふるさと納税サイト「ふるラボ」における不正ログインによる寄附履歴の流出について",
+      "published_on": "2026-11-04",
+      "checked_on": "2026-11-09"
+    }
+  ],
+  "updates": [],
+  "notes": "朝日放送テレビの公式PDFは取得できず、寄附先自治体（鹿屋市）の公式告知で概要を確認。同社の初報日（公表索引では11月2日）は未確認のため、鹿屋市の掲載日を公表日とした。鹿屋市への寄附1件が含まれる。公表索引の「会員8名」は未採用。"
+}
