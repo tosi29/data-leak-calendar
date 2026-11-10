@@ -1,0 +1,67 @@
+{
+  "id": "istyle-cuenote-20261023",
+  "organization": {
+    "name": "アイスタイル（Cuenote FC）",
+    "sector": "企業・団体"
+  },
+  "title": "メール配信に使う「Cuenote FC」への不正アクセスで配信先約280万人のメールアドレスとアドレス帳約8,000人分が漏えい",
+  "summary": "メール配信に使う「Cuenote FC」への不正アクセスで配信先約280万人のメールアドレスとアドレス帳約8,000人分が漏えい。",
+  "published_on": "2026-10-23",
+  "first_published_on": "2026-10-23",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-09",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "vulnerability",
+    "certainty": "confirmed",
+    "detail": "ユミルリンクが運営する「Cuenote FC」のプログラムの脆弱性を利用した不正アクセスとデータの持ち出し。"
+  },
+  "impact": [
+    {
+      "count": 2800000,
+      "unit": "people",
+      "qualifier": "approximate",
+      "description": "2026年10月14日午前5時頃以降のメール配信先の一部（取引先を含む）。メールアドレス。"
+    },
+    {
+      "count": 8000,
+      "unit": "people",
+      "qualifier": "approximate",
+      "description": "10月16日時点でアドレス帳に登録されていた人の一部。一部は氏名・所属会社等を含む。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス",
+    "氏名",
+    "所属会社・部署名"
+  ],
+  "related_vendor": "ユミルリンク",
+  "sources": [
+    {
+      "url": "https://www.istyle.co.jp/news/info/2026/10/20261023.html",
+      "type": "official",
+      "title": "【お知らせ】メール配信システム「Cuenote FC」への不正アクセスについて",
+      "published_on": "2026-10-23",
+      "checked_on": "2026-11-10"
+    },
+    {
+      "url": "https://www.istyle.co.jp/news/info/2026/11/1109-2.html",
+      "type": "official",
+      "title": "メール配信システム「Cuenote FC」への不正アクセスによる情報漏えいに関するお詫び（第二報）",
+      "published_on": "2026-11-09",
+      "checked_on": "2026-11-10"
+    }
+  ],
+  "updates": [
+    {
+      "date": "2026-11-09",
+      "summary": "第二報。データベースへの不正アクセスで配信先約280万人のメールアドレス、アドレス帳への不正アクセスで約8,000人分（一部は氏名・所属会社等）の漏えいを確認。",
+      "source_index": 1
+    }
+  ],
+  "notes": "@cosme共通IDの約300万人事案（11月2日公表）とは別。カード情報は保持していない。"
+}

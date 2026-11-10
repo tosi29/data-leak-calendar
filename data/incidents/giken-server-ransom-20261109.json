@@ -1,0 +1,52 @@
+{
+  "id": "giken-server-ransom-20261109",
+  "organization": {
+    "name": "技研製作所",
+    "sector": "企業・団体"
+  },
+  "title": "業務用サーバーへのランサムウェアを含む不正アクセスでユーザー・従業員等約3,200名の情報に漏えいのおそれ",
+  "summary": "業務用サーバーへのランサムウェアを含む不正アクセスでユーザー・従業員等約3,200名の情報に漏えいのおそれ。",
+  "published_on": "2026-11-09",
+  "first_published_on": "2026-11-09",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-11-05",
+  "updated_on": "2026-11-09",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "業務用サーバー1台へのランサムウェアを含む外部からの不正アクセス。11月5日に異常を確認し6日に外部接続を遮断。"
+  },
+  "impact": [
+    {
+      "count": 3200,
+      "unit": "people",
+      "qualifier": "approximate",
+      "description": "ユーザー・指定工場の担当者（海外企業を含む）とグループ従業員。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "会社名",
+    "部署・役職",
+    "メールアドレス",
+    "電話番号",
+    "社員番号",
+    "顧客支援システムのログインID・暗号化パスワード"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.giken.com/ja/news/notices/notice_20261109/",
+      "type": "official",
+      "title": "当社サーバーへの不正アクセスによる個人情報漏えいのおそれに関するお知らせとお詫び（第1報）",
+      "published_on": "2026-11-09",
+      "checked_on": "2026-11-10"
+    }
+  ],
+  "updates": [],
+  "notes": "カード情報・銀行口座・マイナンバーは含まれない。"
+}

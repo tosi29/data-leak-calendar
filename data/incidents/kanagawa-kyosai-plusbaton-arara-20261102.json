@@ -1,0 +1,52 @@
+{
+  "id": "kanagawa-kyosai-plusbaton-arara-20261102",
+  "organization": {
+    "name": "神奈川県市町村職員共済組合（委託先 ティーペック「plus Baton」）",
+    "sector": "団体・組合"
+  },
+  "title": "相談事業の委託先ティーペックの「plus Baton」メール配信に使うアララへの不正アクセスでメールアドレスが流出",
+  "summary": "相談事業の委託先ティーペックの「plus Baton」メール配信に使うアララへの不正アクセスでメールアドレスが流出。",
+  "published_on": "2026-11-02",
+  "first_published_on": "2026-11-02",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-09",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "委託先ティーペックの「plus Baton」がデータXの「b-dash」を通じて使うアララ株式会社のメール配信サービスへの不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 234753,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "plus Baton全体の対象件数（2026年10月8日～29日配信分）。共済組合の利用者以外を含む。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "アララ株式会社",
+  "sources": [
+    {
+      "url": "https://www.kanagawa-kyosai.jp/pop/detail712",
+      "type": "official",
+      "title": "こころとからだの相談事業Webサイト「plus Baton」メール配信サービスにおける個人情報の流出について【追記】",
+      "published_on": "2026-11-02",
+      "checked_on": "2026-11-10"
+    }
+  ],
+  "updates": [
+    {
+      "date": "2026-11-09",
+      "summary": "委託事業者から、plus Baton全体で234,753件（10月8日～29日配信分）のメールアドレスが対象と報告。対象者へ11月9日にメール通知。",
+      "source_index": 0
+    }
+  ],
+  "notes": "メール件名・本文・氏名・相談情報の流出は確認されていない。"
+}

@@ -11,7 +11,7 @@
   "publication_kind": "initial",
   "occurred_on": null,
   "detected_on": "2026-11-03",
-  "updated_on": "2026-11-03",
+  "updated_on": "2026-11-09",
   "verification": "official",
   "leak_status": "confirmed",
   "incident_type": "attack",
@@ -22,10 +22,10 @@
   },
   "impact": [
     {
-      "count": null,
+      "count": 18439,
       "unit": "records",
-      "qualifier": "unknown",
-      "description": "件数は確認中。"
+      "qualifier": "exact",
+      "description": "運行情報メールのメールアドレス。"
     }
   ],
   "data_types": [
@@ -39,8 +39,21 @@
       "title": "【重要】メール配信サービス提供会社への不正アクセスによる情報流出に関するお詫びとお知らせ(第一信)",
       "published_on": "2026-11-03",
       "checked_on": "2026-11-08"
+    },
+    {
+      "url": "https://ekitan.co.jp/corp/news/20261109-01/",
+      "type": "official",
+      "title": "【重要】メール配信サービス提供会社への不正アクセスによる情報流出に関するお詫びとお知らせ(第二信)",
+      "published_on": "2026-11-09",
+      "checked_on": "2026-11-10"
     }
   ],
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-11-09",
+      "summary": "第二信。スマートフォンサイト「駅探★乗換案内」の運行情報メールのメールアドレス18,439件の流出を確認。それ以外の保有情報の流出はない。",
+      "source_index": 1
+    }
+  ],
   "notes": "10月29日時点では影響なしとの回答だったが、11月3日午後に流出の報告を受けた。"
 }

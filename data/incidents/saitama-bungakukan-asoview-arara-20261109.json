@@ -1,0 +1,46 @@
+{
+  "id": "saitama-bungakukan-asoview-arara-20261109",
+  "organization": {
+    "name": "埼玉県（県立さいたま文学館）",
+    "sector": "自治体"
+  },
+  "title": "電子チケット販売を委託するアソビューのメール配信に使うアララへの不正アクセスで利用者情報に漏えいの可能性",
+  "summary": "電子チケット販売を委託するアソビューのメール配信に使うアララへの不正アクセスで利用者情報に漏えいの可能性。",
+  "published_on": "2026-11-09",
+  "first_published_on": "2026-11-09",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-09",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "指定管理者ケイミックスパブリックビジネスが電子チケット販売を委託するアソビューが会員向けメール配信に使う「アララメッセージ」への第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "件数は調査中。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "アソビュー",
+  "sources": [
+    {
+      "url": "https://www.pref.saitama.lg.jp/f2216/news/page/news2026110901.html",
+      "type": "official",
+      "title": "県立さいたま文学館における電子チケット販売サービス（アソビュー）に係る個人情報漏えいの可能性について",
+      "published_on": "2026-11-09",
+      "checked_on": "2026-11-10"
+    }
+  ],
+  "updates": [],
+  "notes": "電子チケット販売は現在利用休止中。対象情報の詳細はアソビューの公表を参照するとしている。"
+}

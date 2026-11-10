@@ -11,9 +11,9 @@
   "publication_kind": "initial",
   "occurred_on": null,
   "detected_on": "2026-11-05",
-  "updated_on": "2026-11-06",
+  "updated_on": "2026-11-10",
   "verification": "official",
-  "leak_status": "suspected",
+  "leak_status": "confirmed",
   "incident_type": "attack",
   "cause": {
     "category": "vulnerability",
@@ -32,6 +32,12 @@
       "unit": "people",
       "qualifier": "maximum",
       "description": "注文情報のログの対象。重複があり実人数は合計13,685名を下回る。"
+    },
+    {
+      "count": 556,
+      "unit": "records",
+      "qualifier": "maximum",
+      "description": "改ざんされたPC向け決済画面でのカード情報の新規入力回数。漏洩の可能性。"
     }
   ],
   "data_types": [
@@ -44,7 +50,10 @@
     "お客様番号",
     "注文番号・注文金額",
     "クレジットカードの有効期限",
-    "ギフトカード番号"
+    "ギフトカード番号",
+    "ギフトカードPIN・利用履歴",
+    "ログインID・パスワード",
+    "クレジットカード番号・セキュリティコード"
   ],
   "related_vendor": null,
   "sources": [
@@ -54,8 +63,21 @@
       "title": "当社ECサイトへの不正アクセスによる個人情報漏洩の可能性に関するお詫びとお知らせ",
       "published_on": "2026-11-06",
       "checked_on": "2026-11-09"
+    },
+    {
+      "url": "https://www.release.tdnet.info/inbs/140120261110571388.pdf",
+      "type": "official",
+      "title": "当社ECサイトへの不正アクセスに伴う個人情報の漏洩およびサービスの停止について",
+      "published_on": "2026-11-10",
+      "checked_on": "2026-11-10"
     }
   ],
-  "updates": [],
-  "notes": "顧客データベース本体への不正アクセスは確認されていない。カード番号・ログインパスワードは含まれない。"
+  "updates": [
+    {
+      "date": "2026-11-10",
+      "summary": "第2報（11月9日公表、11月10日適時開示）。ログからカード情報最大5件、エディオンギフトカード5,360枚の番号・PIN・利用履歴、ログインID・パスワード最大1,141名分も判明。別途、決済関連処理が改ざんされ11月4日19時過ぎからPC向け決済画面で入力されたカード情報（最大556回）が漏洩した可能性。11月7日22時からECサイト等を緊急停止。",
+      "source_index": 1
+    }
+  ],
+  "notes": "顧客データベース本体への不正アクセスは確認されていない。初報ではカード番号・ログインパスワードは含まれないとしていたが、第2報で訂正。第2報のギフトカード5,360枚とログインID・パスワード最大1,141名分は、同じログの対象と重なり得るため規模に加えていない。"
 }

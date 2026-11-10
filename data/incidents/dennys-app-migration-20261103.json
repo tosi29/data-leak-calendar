@@ -11,9 +11,9 @@
   "publication_kind": "initial",
   "occurred_on": null,
   "detected_on": "2026-10-30",
-  "updated_on": "2026-11-03",
+  "updated_on": "2026-11-09",
   "verification": "official",
-  "leak_status": "suspected",
+  "leak_status": "confirmed",
   "incident_type": "attack",
   "cause": {
     "category": "vulnerability",
@@ -22,10 +22,16 @@
   },
   "impact": [
     {
-      "count": null,
+      "count": 3298,
       "unit": "people",
-      "qualifier": "unknown",
-      "description": "対象人数は調査中。"
+      "qualifier": "exact",
+      "description": "個人情報が漏えいした客（重複除く）。"
+    },
+    {
+      "count": 5590,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "不正アクセスが確認された客。上記を含む。"
     }
   ],
   "data_types": [
@@ -45,8 +51,21 @@
       "title": "デニーズアプリへの不正アクセスに関するお知らせ",
       "published_on": "2026-11-03",
       "checked_on": "2026-11-08"
+    },
+    {
+      "url": "https://www.dennys.jp/pdf/261109.pdf",
+      "type": "official",
+      "title": "デニーズアプリへの不正アクセスに関するお詫びとお知らせ（第二報）",
+      "published_on": "2026-11-09",
+      "checked_on": "2026-11-10"
     }
   ],
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-11-09",
+      "summary": "第二報。不正アクセスが確認された客5,590名、個人情報が漏えいした客3,298名（重複除く）が確定。会員コード2,851件、メールアドレス19件、生年月日・性別・都道府県538件など。",
+      "source_index": 1
+    }
+  ],
   "notes": "個人情報取得処理の実行履歴はあるが、第三者とお客様自身の操作を区別できていない。確認できたのは10月7日のアクセス記録で、他期間は調査中。氏名・住所・電話番号・パスワード・カード情報は保持していない。"
 }

@@ -1,0 +1,65 @@
+{
+  "id": "lawson-ent-entago-dosports-20261104",
+  "organization": {
+    "name": "ローソンエンタテインメント（エンタGO・LAWSON DO! SPORTS）",
+    "sector": "企業・団体"
+  },
+  "title": "電通総研の「FACERE」「iPLAss」への不正アクセスでエンタGO最大12,196名とLAWSON DO! SPORTS 27,908名分の情報に漏洩の可能性",
+  "summary": "電通総研の「FACERE」「iPLAss」への不正アクセスでエンタGO最大12,196名とLAWSON DO! SPORTS 27,908名分の情報に漏洩の可能性。",
+  "published_on": "2026-11-04",
+  "first_published_on": "2026-11-04",
+  "publication_kind": "initial",
+  "occurred_on": "2026-09-10",
+  "detected_on": "2026-11-02",
+  "updated_on": "2026-11-06",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "configuration",
+    "certainty": "confirmed",
+    "detail": "電通総研が提供する「FACERE」と開発基盤「iPLAss」の、電通総研が保持・運用するアクセス権限の初期構築時の設定不備を突いた不正アクセス。エンタGOは2026年9月10日、LAWSON DO! SPORTSは11月1日早朝～2日午前。"
+  },
+  "impact": [
+    {
+      "count": 12196,
+      "unit": "people",
+      "qualifier": "maximum",
+      "description": "エンタGO利用者。第三者に閲覧された可能性。"
+    },
+    {
+      "count": 27908,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "LAWSON DO! SPORTSの個人情報を含むパスワード付きZIPファイル全57件分。漏洩した可能性。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "電話番号",
+    "メールアドレス",
+    "性別",
+    "生年月日",
+    "予約内容",
+    "大会エントリー時の体調等のアンケート情報"
+  ],
+  "related_vendor": "電通総研",
+  "sources": [
+    {
+      "url": "https://www.ent.lawson.co.jp/wp/wp-content/uploads/2026/11/20261104.pdf",
+      "type": "official",
+      "title": "「エンタ GO」および「LAWSON DO! SPORTS」における第三者による不正アクセスに関するお詫びとお知らせ",
+      "published_on": "2026-11-04",
+      "checked_on": "2026-11-10"
+    }
+  ],
+  "updates": [
+    {
+      "date": "2026-11-06",
+      "summary": "未確認だったファイル1件を確認し、LAWSON DO! SPORTSの対象を全57ファイル27,908名分に更新（11月4日時点は56件25,858名分）。",
+      "source_index": 0
+    }
+  ],
+  "notes": "同社システムへの不正アクセスは確認されていない。カード情報等の決済情報とパスワードは保持していない。"
+}

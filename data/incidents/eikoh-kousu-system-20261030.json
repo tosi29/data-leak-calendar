@@ -1,0 +1,62 @@
+{
+  "id": "eikoh-kousu-system-20261030",
+  "organization": {
+    "name": "栄光（栄光ゼミナール）",
+    "sector": "企業・団体"
+  },
+  "title": "工数管理システムへの機械的な不正ログインで従業員・委託先のアカウント情報95件が漏洩",
+  "summary": "工数管理システムへの機械的な不正ログインで従業員・委託先のアカウント情報95件が漏洩。",
+  "published_on": "2026-10-30",
+  "first_published_on": "2026-10-30",
+  "publication_kind": "initial",
+  "occurred_on": "2026-10-14",
+  "detected_on": "2026-10-19",
+  "updated_on": "2026-11-09",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "credentials",
+    "certainty": "confirmed",
+    "detail": "不正に入手したアカウント情報を使った外部からの機械的なログイン試行と、アクセス制限の設定不十分が原因。10月14日18時頃に発生し、10月19日に発覚。"
+  },
+  "impact": [
+    {
+      "count": 95,
+      "unit": "accounts",
+      "qualifier": "exact",
+      "description": "従業員（一部退職者を含む）と業務委託先2社のアカウント。うち実在する個人は90件、5件はテストID等。"
+    }
+  ],
+  "data_types": [
+    "ログインID",
+    "パスワードのハッシュ値",
+    "氏名",
+    "業務用メールアドレス"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.eikoh.co.jp/news/news-2/p222291/",
+      "type": "official",
+      "title": "工数管理システムへの不正アクセスについて（第一報）",
+      "published_on": "2026-10-30",
+      "checked_on": "2026-11-10"
+    },
+    {
+      "url": "https://www.eikoh.co.jp/news/news-2/p222696/",
+      "type": "official",
+      "title": "工数管理システムへの不正アクセスについて（第二報）",
+      "published_on": "2026-11-09",
+      "checked_on": "2026-11-10"
+    }
+  ],
+  "updates": [
+    {
+      "date": "2026-11-09",
+      "summary": "第二報。95件のアカウント情報の漏洩が確定（実在する個人は90件）。委託先を1社から2社に訂正。漏洩したユーザー名がZ会グループの共通ログイン基盤「Z-IDシステム」への不正アクセスに使われた。システムは利用を終了。",
+      "source_index": 1
+    }
+  ],
+  "notes": "生徒・保護者の個人情報は含まれない。Z会のZ-ID事案と関連。"
+}

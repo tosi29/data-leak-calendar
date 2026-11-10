@@ -11,21 +11,27 @@
   "publication_kind": "initial",
   "occurred_on": "2026-10-30",
   "detected_on": "2026-11-01",
-  "updated_on": "2026-11-04",
+  "updated_on": "2026-11-09",
   "verification": "official",
   "leak_status": "confirmed",
   "incident_type": "attack",
   "cause": {
     "category": "vulnerability",
     "certainty": "confirmed",
-    "detail": "会員情報取得APIの脆弱性を突いた第三者の不正なアクセス（10月30日10時52分～31日19時45分）。"
+    "detail": "会員登録フロー中に使う参照Web API（1エンドポイント）のプログラムの脆弱性を突いた会員情報取得APIへの不正アクセス。"
   },
   "impact": [
+    {
+      "count": 4217663,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "直接会員1,030,741件とパートナー連携会員3,186,922件の合計。"
+    },
     {
       "count": 1030741,
       "unit": "records",
       "qualifier": "exact",
-      "description": "モニター会員（退会者は含まない）。"
+      "description": "ファンくる直接会員。上記の内数。"
     }
   ],
   "data_types": [
@@ -52,6 +58,13 @@
       "title": "【重要】不正アクセスによる情報漏洩に関するお詫びとシステム一時停止のお知らせ（第二報）",
       "published_on": "2026-11-04",
       "checked_on": "2026-11-08"
+    },
+    {
+      "url": "https://www.fancrew.co.jp/news/news-press-release/26119_news.html",
+      "type": "official",
+      "title": "【重要】不正アクセスに関する情報漏洩に関するお詫びとお知らせ（第三報）",
+      "published_on": "2026-11-09",
+      "checked_on": "2026-11-10"
     }
   ],
   "updates": [
@@ -59,6 +72,11 @@
       "date": "2026-11-04",
       "summary": "第二報。10月30～31日に会員情報取得APIへの不正アクセスで1,030,741件が漏洩。不正ログインやポイントの不正交換は未確認。メンテナンスは11月5日11時までの予定。",
       "source_index": 1
+    },
+    {
+      "date": "2026-11-09",
+      "summary": "第三報。流出確定件数は直接会員1,030,741件とパートナー連携会員3,186,922件の合計4,217,663件。会員登録フローの参照Web API（1エンドポイント）の脆弱性が原因。11月5日にサービスを再開。",
+      "source_index": 2
     }
   ],
   "notes": "8月の不正ログイン事案（fancrew-20260824）とは別。"

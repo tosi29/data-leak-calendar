@@ -1,0 +1,53 @@
+{
+  "id": "kyoto-bunka-teket-20261109",
+  "organization": {
+    "name": "京都市（文化芸術企画課所管施設等）",
+    "sector": "自治体"
+  },
+  "title": "所管施設等が使う電子チケット「teket」への不正アクセスで利用者の個人情報が流出",
+  "summary": "所管施設等が使う電子チケット「teket」への不正アクセスで利用者の個人情報が流出。",
+  "published_on": "2026-11-09",
+  "first_published_on": "2026-11-09",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-09",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "電子チケット販売・管理サービス「teket」を運営する株式会社teketのシステムへの第三者による不正アクセス。侵入経路は調査中。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "teketで申込・購入した利用者。件数は未公表。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "メールアドレス",
+    "生年月日",
+    "年齢",
+    "性別",
+    "住所",
+    "電話番号",
+    "チケット情報"
+  ],
+  "related_vendor": "teket",
+  "sources": [
+    {
+      "url": "https://www.city.kyoto.lg.jp/bunshi/page/0000360015.html",
+      "type": "official",
+      "title": "京都市文化芸術企画課が所管する施設等で利用している電子チケット販売・管理サービス『teket（テケト）』への不正アクセスによる個人情報流出",
+      "published_on": "2026-11-09",
+      "checked_on": "2026-11-10"
+    }
+  ],
+  "updates": [],
+  "notes": "teketの公表では全会員の氏名・メールアドレスと、登録・購入状況に応じたその他の項目が流出対象。主催者分の件数は未公表。"
+}

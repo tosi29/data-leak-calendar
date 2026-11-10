@@ -1,0 +1,59 @@
+{
+  "id": "gakken-arara-20261105",
+  "organization": {
+    "name": "学研ホールディングス（グループ17社）",
+    "sector": "企業・団体"
+  },
+  "title": "委託先アララのメール配信サービスへの不正アクセスでグループ17社の顧客情報793,060件が漏えい",
+  "summary": "委託先アララのメール配信サービスへの不正アクセスでグループ17社の顧客情報793,060件が漏えい。",
+  "published_on": "2026-11-05",
+  "first_published_on": "2026-11-05",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-09",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "グループのメール配信等を委託するアララ株式会社のメール配信サービスへの第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 793060,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "グループ17社の合計。主にメールアドレス。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "アララ株式会社",
+  "sources": [
+    {
+      "url": "https://www.gakken.co.jp/ja/news/20269370289940467.html",
+      "type": "official",
+      "title": "委託先メール配信サービスへの不正アクセスによる個人情報漏えいに関するお知らせとお詫び（第１報）",
+      "published_on": "2026-11-05",
+      "checked_on": "2026-11-10"
+    },
+    {
+      "url": "https://www.gakken.co.jp/ja/news/20269370289940468.html",
+      "type": "official",
+      "title": "委託先メール配信サービスへの不正アクセスによる個人情報漏えいに関するお知らせとお詫び（第2報）",
+      "published_on": "2026-11-09",
+      "checked_on": "2026-11-10"
+    }
+  ],
+  "updates": [
+    {
+      "date": "2026-11-09",
+      "summary": "第2報。グループ17社（学研ホールディングス、Gakken、学研メディカルサポート、桐原書店、文理、学研ココファン等）で合計793,060件の漏えいを確認。主にメールアドレスで、要配慮個人情報・カード番号は含まれない。",
+      "source_index": 1
+    }
+  ],
+  "notes": "第1報は件数未記載。各社のサービスへの影響は順次各社サイトで案内予定。"
+}

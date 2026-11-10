@@ -1,0 +1,70 @@
+{
+  "id": "sanko-techno-vietnam-ransom-20260828",
+  "organization": {
+    "name": "サンコーテクノ（ベトナム子会社）",
+    "sector": "企業・団体"
+  },
+  "title": "ベトナム子会社へのランサムウェア攻撃で関係者約908名と取引先約1,348社の情報がダークウェブで公開",
+  "summary": "ベトナム子会社へのランサムウェア攻撃で関係者約908名と取引先約1,348社の情報がダークウェブで公開。",
+  "published_on": "2026-08-28",
+  "first_published_on": "2026-08-28",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-08-25",
+  "updated_on": "2026-11-10",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "configuration",
+    "certainty": "confirmed",
+    "detail": "ネットワーク機器の設定不備を通じた第三者の不正アクセスとランサムウェアで、子会社SANKO FASTEM (VIETNAM)の社内サーバーのデータが暗号化・窃取された。"
+  },
+  "impact": [
+    {
+      "count": 908,
+      "unit": "people",
+      "qualifier": "approximate",
+      "description": "子会社の役員・従業員・取引先担当者・採用応募者等898名と、当社・グループ会社の役員・従業員10名。概数で重複を含む場合がある。"
+    },
+    {
+      "count": 1348,
+      "unit": "organizations",
+      "qualifier": "approximate",
+      "description": "ベトナムの取引先。概数で重複を含む場合がある。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "電話番号",
+    "メールアドレス",
+    "身分証明書類",
+    "取引先情報（会社名・住所・電話番号）"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www2.jpx.co.jp/disc/34350/140120260828527717.pdf",
+      "type": "official",
+      "title": "海外連結子会社におけるランサムウェア被害の発生に関するお知らせ",
+      "published_on": "2026-08-28",
+      "checked_on": "2026-11-10"
+    },
+    {
+      "url": "https://www.release.tdnet.info/inbs/140120261110571505.pdf",
+      "type": "official",
+      "title": "海外連結子会社におけるランサムウェア被害の発生に関するお知らせ（最終報）",
+      "published_on": "2026-11-10",
+      "checked_on": "2026-11-10"
+    }
+  ],
+  "updates": [
+    {
+      "date": "2026-11-10",
+      "summary": "最終報。ネットワーク機器の設定不備による不正アクセスと判明。漏えいしたデータがダークウェブ上で公開され、関係者約908名と取引先約1,348社の情報が含まれることを確認。",
+      "source_index": 1
+    }
+  ],
+  "notes": "初報は暗号化被害のみで個人情報の記載なし。"
+}

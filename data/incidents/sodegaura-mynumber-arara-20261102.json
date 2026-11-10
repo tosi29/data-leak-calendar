@@ -1,0 +1,52 @@
+{
+  "id": "sodegaura-mynumber-arara-20261102",
+  "organization": {
+    "name": "袖ケ浦市",
+    "sector": "自治体"
+  },
+  "title": "マイナンバーカード交付予約システムが使う外部メール配信サービスへの不正アクセスで登録メールアドレスに漏えいの可能性",
+  "summary": "マイナンバーカード交付予約システムが使う外部メール配信サービスへの不正アクセスで登録メールアドレスに漏えいの可能性。",
+  "published_on": "2026-11-02",
+  "first_published_on": "2026-11-02",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-05",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "マイナンバーカード交付予約・管理システムの提供事業者TKCがメール送信に使うアララ株式会社のメール配信サービスへの第三者による不正アクセス。予約システム自体への不正アクセスはない。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "範囲・件数は調査中。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "TKC／アララ株式会社",
+  "sources": [
+    {
+      "url": "https://www.city.sodegaura.lg.jp/soshiki/shimin/mynumber-incident.html",
+      "type": "official",
+      "title": "(11月5日第2報)マイナンバーカード交付予約システムが利用する外部メール配信サービスへの不正アクセスによる情報漏えいの可能性について",
+      "published_on": "2026-11-05",
+      "checked_on": "2026-11-10"
+    }
+  ],
+  "updates": [
+    {
+      "date": "2026-11-05",
+      "summary": "第2報。TKCの調査で漏えいの対象はメールアドレスのみと判明。対象アドレスは調査中。",
+      "source_index": 0
+    }
+  ],
+  "notes": "第1報は11月2日時点。同一ページで更新されている。"
+}

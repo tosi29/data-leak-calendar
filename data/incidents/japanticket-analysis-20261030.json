@@ -11,7 +11,7 @@
   "publication_kind": "initial",
   "occurred_on": null,
   "detected_on": "2026-10-28",
-  "updated_on": "2026-10-31",
+  "updated_on": "2026-11-10",
   "verification": "official",
   "leak_status": "confirmed",
   "incident_type": "attack",
@@ -46,6 +46,12 @@
       "checked_on": "2026-10-31"
     }
   ],
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-11-10",
+      "summary": "更新。最大約26.4万件の予約・注文データ（実人数とは異なる）を精査中。対象情報に国・地域と備考欄の記入内容を追加。対象者への個別連絡を開始し、警察に被害届を提出。",
+      "source_index": 0
+    }
+  ],
   "notes": "URL中は29日だが本文の公表日は30日。9月15日以前の持ち出しの可能性があり、16日以降の持ち出し記録は未確認。カード下4桁を含めカード情報は対象外。利用施設側の発表と対象者が重複する。"
 }

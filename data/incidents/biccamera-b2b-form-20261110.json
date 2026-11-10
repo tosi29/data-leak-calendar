@@ -1,0 +1,56 @@
+{
+  "id": "biccamera-b2b-form-20261110",
+  "organization": {
+    "name": "ビックカメラ（法人顧客向けお問い合わせフォーム）",
+    "sector": "企業・団体"
+  },
+  "title": "法人向けサイトのお問い合わせフォームの設定不備を突いた不正アクセスで担当者情報等133,039件が漏えい",
+  "summary": "法人向けサイトのお問い合わせフォームの設定不備を突いた不正アクセスで担当者情報等133,039件が漏えい。",
+  "published_on": "2026-11-10",
+  "first_published_on": "2026-11-10",
+  "publication_kind": "initial",
+  "occurred_on": "2026-11-05",
+  "detected_on": null,
+  "updated_on": "2026-11-10",
+  "verification": "secondary",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "configuration",
+    "certainty": "confirmed",
+    "detail": "法人専用ビックカメラ.comのお問い合わせフォームの潜在的な設定不備を突いた不正アクセス（11月5～6日）。11月6日14時15分にフォームを閉鎖。"
+  },
+  "impact": [
+    {
+      "count": 133039,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "お問い合わせフォームの登録件数。人数・社数ではない。"
+    }
+  ],
+  "data_types": [
+    "会社名",
+    "部署名",
+    "担当者名",
+    "メールアドレス"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.biccamera.co.jp/pdf/news/2026/20261110.pdf",
+      "type": "official",
+      "title": "法人顧客向けお問い合わせフォームにおける情報漏えいに関するお詫びとお知らせ",
+      "published_on": "2026-11-10",
+      "checked_on": "2026-11-10"
+    },
+    {
+      "url": "https://rocket-boys.co.jp/security-measures-lab/20261110_biccamera_b2b_contact_form_133039_data_breach/",
+      "type": "news",
+      "title": "ビックカメラ、法人向け問い合わせフォームから13万3,039件の個人情報漏洩-設定不備を狙う不正アクセス（セキュリティ対策Lab）",
+      "published_on": "2026-11-10",
+      "checked_on": "2026-11-10"
+    }
+  ],
+  "updates": [],
+  "notes": "公式PDFは取得できず報道で内容を確認した二次資料扱い。取引履歴・金額・口座情報は含まれない。アララ事案とは別。"
+}

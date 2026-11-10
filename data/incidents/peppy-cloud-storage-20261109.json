@@ -1,0 +1,48 @@
+{
+  "id": "peppy-cloud-storage-20261109",
+  "organization": {
+    "name": "PEPPY（ペピイ・ペピイベット）",
+    "sector": "企業・団体"
+  },
+  "title": "クラウドのデータ保管領域への不正アクセスでデータが削除され、動物病院6,503軒の請求書関連情報に流出の可能性",
+  "summary": "クラウドのデータ保管領域への不正アクセスでデータが削除され、動物病院6,503軒の請求書関連情報に流出の可能性。",
+  "published_on": "2026-11-09",
+  "first_published_on": "2026-11-09",
+  "publication_kind": "initial",
+  "occurred_on": "2026-11-03",
+  "detected_on": "2026-11-04",
+  "updated_on": "2026-11-09",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "credentials",
+    "certainty": "suspected",
+    "detail": "クラウド上のデータ保管領域への第三者による不正アクセス。不正アクセスに使われた認証情報を無効化。"
+  },
+  "impact": [
+    {
+      "count": 6503,
+      "unit": "organizations",
+      "qualifier": "exact",
+      "description": "ペピイベットの請求書関連データ等の対象となる可能性がある動物病院（退会を含む）。"
+    }
+  ],
+  "data_types": [
+    "動物病院名",
+    "代表者名",
+    "住所"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://peppy.co.jp/%E5%BD%93%E7%A4%BE%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E3%81%B8%E3%81%AE%E4%B8%8D%E6%AD%A3%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E3%81%8A%E8%A9%AB%E3%81%B3%E3%81%A8/",
+      "type": "official",
+      "title": "【重要】当社システムへの不正アクセスに関するお詫びとサービス再開のお知らせ",
+      "published_on": "2026-11-09",
+      "checked_on": "2026-11-10"
+    }
+  ],
+  "updates": [],
+  "notes": "商品画像・請求書関連データ・利用者投稿画像等が削除され、7月22日以降の投稿画像は復元不能。外部への持ち出しは未確認。会員・注文データベースへの不正アクセスの痕跡はない。11月7日に通販サイトを再開。"
+}

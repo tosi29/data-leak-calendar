@@ -1,0 +1,53 @@
+{
+  "id": "torei-teket-20261109",
+  "organization": {
+    "name": "東京冷機工業",
+    "sector": "企業・団体"
+  },
+  "title": "イベント等の申込受付に使う「teket」への不正アクセスで申込者の個人情報が流出",
+  "summary": "イベント等の申込受付に使う「teket」への不正アクセスで申込者の個人情報が流出。",
+  "published_on": "2026-11-09",
+  "first_published_on": "2026-11-09",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-09",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "電子チケット販売・管理サービス「teket」を運営する株式会社teketのシステムへの第三者による不正アクセス。侵入経路は調査中。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "teketで申込・購入した利用者。件数は未公表。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "メールアドレス",
+    "生年月日",
+    "年齢",
+    "性別",
+    "住所",
+    "電話番号",
+    "チケット情報"
+  ],
+  "related_vendor": "teket",
+  "sources": [
+    {
+      "url": "https://www.to-rei.jp/news/%E5%BC%8A%E7%A4%BE%E5%88%A9%E7%94%A8%E3%81%AE%E9%9B%BB%E5%AD%90%E3%83%81%E3%82%B1%E3%83%83%E3%83%88%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9%E3%80%8Cteket%E3%80%8D%E3%81%B8%E3%81%AE-%E4%B8%8D%E6%AD%A3/",
+      "type": "official",
+      "title": "弊社利用の電子チケットサービス「teket」への不正アクセスによる個人情報流出について（第一報）",
+      "published_on": "2026-11-09",
+      "checked_on": "2026-11-10"
+    }
+  ],
+  "updates": [],
+  "notes": "teketの公表では全会員の氏名・メールアドレスと、登録・購入状況に応じたその他の項目が流出対象。主催者分の件数は未公表。"
+}

@@ -11,14 +11,14 @@
   "publication_kind": "initial",
   "occurred_on": "2026-10-15",
   "detected_on": null,
-  "updated_on": "2026-10-27",
+  "updated_on": "2026-11-09",
   "verification": "official",
   "leak_status": "suspected",
   "incident_type": "attack",
   "cause": {
-    "category": "credentials",
-    "detail": "Z-IDシステムへの不正ログインとパスワードリセット機能を利用した変更。認証情報入手方法は未公表。",
-    "certainty": "unknown"
+    "category": "vulnerability",
+    "certainty": "confirmed",
+    "detail": "Z-IDシステムの認証基盤システムの脆弱性を悪用したパスワードリセット機能への機械的アクセス。栄光の工数管理システムから漏洩したユーザー名等が使われた。"
   },
   "impact": [
     {
@@ -31,7 +31,8 @@
   "data_types": [
     "氏名",
     "メールアドレス",
-    "Z-ID"
+    "Z-ID",
+    "申込日情報"
   ],
   "related_vendor": null,
   "sources": [
@@ -41,8 +42,21 @@
       "title": "Z-IDの13アカウントに不正ログイン",
       "published_on": "2026-10-19",
       "checked_on": "2026-10-27"
+    },
+    {
+      "url": "https://www.zkai.co.jp/post-121607/",
+      "type": "official",
+      "title": "【重要なお知らせ・Ｚ会】「Z-IDシステム」への不正アクセスに関する最終報告とお詫び",
+      "published_on": "2026-11-09",
+      "checked_on": "2026-11-10"
     }
   ],
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-11-09",
+      "summary": "最終報告。10月14日未明～15日未明にパスワードリセット機能へ機械的アクセス953件、13件のパスワードが不正に変更された。認証基盤システムの脆弱性を悪用され、栄光の工数管理システムから漏洩したユーザー名等が使われた。13名の氏名・Z-ID・メールアドレス等が閲覧された可能性。サーバー・データベースへの侵入はない。",
+      "source_index": 1
+    }
+  ],
   "notes": ""
 }

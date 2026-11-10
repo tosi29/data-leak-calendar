@@ -1,0 +1,47 @@
+{
+  "id": "tokyo-tcvb-arara-20261110",
+  "organization": {
+    "name": "東京都（東京観光財団）",
+    "sector": "自治体"
+  },
+  "title": "東京観光財団の委託事業者が使うアララへの不正アクセスでスタンプラリー参加者のメールアドレス等134件が漏えい",
+  "summary": "東京観光財団の委託事業者が使うアララへの不正アクセスでスタンプラリー参加者のメールアドレス等134件が漏えい。",
+  "published_on": "2026-11-10",
+  "first_published_on": "2026-11-10",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-10",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "東京観光財団の委託事業者が使うメール配信サービス「アララ メッセージ」への不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 134,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "東京多摩ハイクスタンプラリー・東京11島ホッピングスタンプラリーのアンケート・当選案内用。メールアドレスのみ132件、氏名とメールアドレス2件。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス",
+    "氏名"
+  ],
+  "related_vendor": "アララ株式会社",
+  "sources": [
+    {
+      "url": "https://www.metro.tokyo.lg.jp/information/press/2026/11/2026111005",
+      "type": "official",
+      "title": "メール配信サービスへの不正アクセスによる個人情報の漏えいについて",
+      "published_on": "2026-11-10",
+      "checked_on": "2026-11-10"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

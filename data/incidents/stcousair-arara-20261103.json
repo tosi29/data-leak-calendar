@@ -11,7 +11,7 @@
   "publication_kind": "initial",
   "occurred_on": null,
   "detected_on": "2026-11-03",
-  "updated_on": "2026-11-03",
+  "updated_on": "2026-11-09",
   "verification": "official",
   "leak_status": "confirmed",
   "incident_type": "attack",
@@ -39,8 +39,21 @@
       "title": "【お詫び】メール配信サービスへの不正アクセスによるお客様情報の漏えいについて",
       "published_on": "2026-11-03",
       "checked_on": "2026-11-08"
+    },
+    {
+      "url": "https://www.stcousair.co.jp/company/news/36903",
+      "type": "official",
+      "title": "【第2報】【お詫び】メール配信サービスへの不正アクセスによるお客様情報の漏えいについて",
+      "published_on": "2026-11-09",
+      "checked_on": "2026-11-10"
     }
   ],
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-11-09",
+      "summary": "第2報。アララの調査で漏えいした情報はメールアドレスのみと確定。件数878,343件に変更なし（うち客878,316件、配信確認用等の当社アドレス27件）。",
+      "source_index": 1
+    }
+  ],
   "notes": "メールアドレス以外の漏えい有無はアララと確認中。カード情報・パスワードは対象外。オンラインショップ・会員管理システムは影響なし。"
 }

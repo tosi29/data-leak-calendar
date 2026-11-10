@@ -1078,11 +1078,11 @@
     "reported_on": "2026-11-04",
     "verification": "pending",
     "reference_url": "https://www.jaccs.co.jp/information/emerge/page_01196.html",
-    "reviewed_on": "2026-11-09",
+    "reviewed_on": "2026-11-10",
     "checked_urls": [
       "https://www.jaccs.co.jp/information/emerge/page_01196.html"
     ],
-    "note": "2026年11月8日調査：公表索引ではプレステージ・コアソリューション経由でCLUB AJカード等の顧客の個人情報が漏えいしたとされる。公式ページは直接取得・取得ツールとも403で本文未確認のため保留。 2026年11月9日再調査：公式ページは取得ツールでも403。"
+    "note": "2026年11月8日調査：公表索引ではプレステージ・コアソリューション経由でCLUB AJカード等の顧客の個人情報が漏えいしたとされる。公式ページは直接取得・取得ツールとも403で本文未確認のため保留。 2026年11月9日再調査：公式ページは取得ツールでも403。 2026年11月10日再調査：公表索引ではCLUB AJカードのカード番号が対象に含まれていたとの11月9日更新があるが、公式ページは引き続き403で本文未確認。"
   },
   {
     "id": "nov04-intage-survey-review",
@@ -1187,11 +1187,12 @@
     "reported_on": "2026-11-09",
     "verification": "pending",
     "reference_url": "https://www.meijiza.co.jp/news/2026_1109/",
-    "reviewed_on": "2026-11-09",
+    "reviewed_on": "2026-11-10",
     "checked_urls": [
-      "https://www.meijiza.co.jp/news/2026_1109/"
+      "https://www.meijiza.co.jp/news/2026_1109/",
+      "https://www.meijiza.co.jp/news/2026_1109_02/"
     ],
-    "note": "2026年11月9日調査：オンラインチケットが使用するサービスへの不正アクセスで11月9日未明からサービスを一時停止と公式に確認。個人情報への影響は記載がなく、対象が具体化するまで保留。"
+    "note": "2026年11月9日調査：オンラインチケットが使用するサービスへの不正アクセスで11月9日未明からサービスを一時停止と公式に確認。個人情報への影響は記載がなく、対象が具体化するまで保留。 2026年11月10日再調査：全サービスを再開し影響範囲を調査中と公表（11月9日付「サービス再開のお知らせ」）。個人情報への影響は引き続き記載がなく保留。"
   },
   {
     "id": "nov09-pointtown-cuenote-review",
@@ -1217,5 +1218,29 @@
       "https://www.opendoor.co.jp/shared/pdf/20261109_info.pdf"
     ],
     "note": "2026年11月9日調査：11月9日の公表で、11月4日に同社サイトでアララ事案を告知済みと記載。11月4日の告知本文は未特定。ウェブサイトへの不正アクセス（別事案）は掲載済み。"
+  },
+  {
+    "id": "nov10-kitakyushu-mynumber-arara-review",
+    "organization": "北九州市（マイナンバーカード交付予約・管理システム）",
+    "reported_on": "2026-11-09",
+    "verification": "pending",
+    "reference_url": "https://www.city.kitakyushu.lg.jp/contents/14900233_00004.html",
+    "reviewed_on": "2026-11-10",
+    "checked_urls": [
+      "https://www.city.kitakyushu.lg.jp/contents/14900233_00004.html"
+    ],
+    "note": "2026年11月10日調査：公表索引ではTKCのマイナンバーカード交付予約・管理システムが使うアララへの不正アクセスで利用者のメールアドレスに漏えいの可能性と11月9日に公表とされるが、市の公式ページは404で本文未確認のため保留。"
+  },
+  {
+    "id": "nov10-nagakute-mynumber-arara-review",
+    "organization": "長久手市（マイナンバーカード交付予約システム）",
+    "reported_on": "2026-11-10",
+    "verification": "pending",
+    "reference_url": "https://www.city.nagakute.lg.jp/soshiki/somubu/shiminka/1/1/mynumber/28224.html",
+    "reviewed_on": "2026-11-10",
+    "checked_urls": [
+      "https://www.city.nagakute.lg.jp/soshiki/somubu/shiminka/1/1/mynumber/28224.html"
+    ],
+    "note": "2026年11月10日調査：検索結果ではマイナンバーカード交付予約システムのメールアドレス流出を告知するページとされるが、直接取得・取得ツールともアクセス制限で本文を確認できず、公表日・対象も未確認のため保留。"
   }
 ]

@@ -1,0 +1,53 @@
+{
+  "id": "tef-smilesports-teket-20261108",
+  "organization": {
+    "name": "東京都スポーツ文化事業団（スマイルスポーツ事業）",
+    "sector": "企業・団体"
+  },
+  "title": "スマイルスポーツ事業の申込みに使う「teket」への不正アクセスで登録者の個人情報が漏えい",
+  "summary": "スマイルスポーツ事業の申込みに使う「teket」への不正アクセスで登録者の個人情報が漏えい。",
+  "published_on": "2026-11-08",
+  "first_published_on": "2026-11-08",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-08",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "電子チケット販売・管理サービス「teket」を運営する株式会社teketのシステムへの第三者による不正アクセス。侵入経路は調査中。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "teketで申込・購入した利用者。件数は未公表。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "メールアドレス",
+    "生年月日",
+    "年齢",
+    "性別",
+    "住所",
+    "電話番号",
+    "チケット情報"
+  ],
+  "related_vendor": "teket",
+  "sources": [
+    {
+      "url": "https://tef.or.jp/news/teket-1.html",
+      "type": "official",
+      "title": "スマイルスポーツ事業が利用している電子チケット販売サービス「teket」における個人情報漏えいについて（初報）",
+      "published_on": "2026-11-08",
+      "checked_on": "2026-11-10"
+    }
+  ],
+  "updates": [],
+  "notes": "teketの公表では全会員の氏名・メールアドレスと、登録・購入状況に応じたその他の項目が流出対象。主催者分の件数は未公表。"
+}

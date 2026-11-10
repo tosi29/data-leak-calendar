@@ -1,0 +1,46 @@
+{
+  "id": "ill-repica-20261104",
+  "organization": {
+    "name": "アイル",
+    "sector": "企業・団体"
+  },
+  "title": "メールマガジン配信サービス（データX）が使うアララの「repica」への不正アクセスでメールアドレス42,285件が漏えい",
+  "summary": "メールマガジン配信サービス（データX）が使うアララの「repica」への不正アクセスでメールアドレス42,285件が漏えい。",
+  "published_on": "2026-11-04",
+  "first_published_on": "2026-11-04",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-04",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "データXのメールマガジン配信サービスが配信の一部に使うアララ株式会社の配信システム「repica」への不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 42285,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "配信に使用したメールアドレス。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "データX／アララ株式会社",
+  "sources": [
+    {
+      "url": "https://www.ill.co.jp/info/261104/",
+      "type": "official",
+      "title": "当社利用のメール配信システムへの不正アクセスによる、メールアドレス漏えいについて",
+      "published_on": "2026-11-04",
+      "checked_on": "2026-11-10"
+    }
+  ],
+  "updates": [],
+  "notes": "件名・本文・氏名は含まれない。当社システムの顧客情報・取引情報の漏えいは確認されていない。"
+}

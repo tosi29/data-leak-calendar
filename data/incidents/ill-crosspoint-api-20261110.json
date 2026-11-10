@@ -1,0 +1,57 @@
+{
+  "id": "ill-crosspoint-api-20261110",
+  "organization": {
+    "name": "アイル（CROSS POINT）",
+    "sector": "企業・団体"
+  },
+  "title": "顧客管理システム「CROSS POINT」導入企業1社で流出したAPIキーを悪用され会員情報が取得",
+  "summary": "顧客管理システム「CROSS POINT」導入企業1社で流出したAPIキーを悪用され会員情報が取得。",
+  "published_on": "2026-11-10",
+  "first_published_on": "2026-11-10",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-11-07",
+  "updated_on": "2026-11-10",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "credentials",
+    "certainty": "confirmed",
+    "detail": "導入企業1社の正規のAPI認証キーが外部に流出し、会員情報取得APIを通じて会員情報が不正に取得された。11月7日未明に検知。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "導入企業1社の一部会員。件数は未公表。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "生年月日",
+    "性別",
+    "郵便番号",
+    "住所",
+    "電話番号",
+    "携帯電話番号",
+    "メールアドレス",
+    "会員番号",
+    "会員ランク情報",
+    "保有ポイント情報",
+    "リアル店舗カード番号"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.ill.co.jp/info/261110/",
+      "type": "official",
+      "title": "当社提供の「CROSS POINT」への不正アクセスに関するお詫びと、緊急メンテナンスによるセキュリティ強化について",
+      "published_on": "2026-11-10",
+      "checked_on": "2026-11-10"
+    }
+  ],
+  "updates": [],
+  "notes": "他の利用企業での漏えいの痕跡はない。11月9日に全利用企業のAPIキーを無効化・再発行。カード情報・ログインパスワードは保持していない。導入企業名は未公表。"
+}

@@ -1,0 +1,57 @@
+{
+  "id": "mitsuihome-club-comsbi-20261109",
+  "organization": {
+    "name": "三井ホーム（三井ホーム倶楽部）",
+    "sector": "企業・団体"
+  },
+  "title": "元LINE機能委託先ソニックムーブの「COMSBI」への不正アクセスでオーナーのメールアドレス4件が漏洩、LINEプロフィール情報にもおそれ",
+  "summary": "元LINE機能委託先ソニックムーブの「COMSBI」への不正アクセスでオーナーのメールアドレス4件が漏洩、LINEプロフィール情報にもおそれ。",
+  "published_on": "2026-11-09",
+  "first_published_on": "2026-11-09",
+  "publication_kind": "initial",
+  "occurred_on": "2026-10-23",
+  "detected_on": null,
+  "updated_on": "2026-11-09",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "credentials",
+    "certainty": "confirmed",
+    "detail": "元業務委託先ソニックムーブのシステム基盤「COMSBI」の管理画面に不正入手した認証情報でログインされ、管理画面の不備を使ってサーバーの認証情報が取得された（10月23日）。"
+  },
+  "impact": [
+    {
+      "count": 4,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "LINEのステータスメッセージ欄に公開されていたメールアドレス。"
+    },
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "10月29日時点で公式アカウントに友だち登録していたオーナーのLINEプロフィール情報（漏洩のおそれ）。人数は未公表。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス",
+    "LINEユーザーID",
+    "表示名",
+    "プロフィール画像",
+    "ステータスメッセージ",
+    "言語設定"
+  ],
+  "related_vendor": "ソニックムーブ",
+  "sources": [
+    {
+      "url": "https://www.mitsuihomeclub.com/notice/detail.php?id=50&type=im",
+      "type": "official",
+      "title": "【重要】弊社LINE機能委託先への不正アクセスによる個人情報漏洩のおそれに関するお知らせとお詫び",
+      "published_on": "2026-11-09",
+      "checked_on": "2026-11-10"
+    }
+  ],
+  "updates": [],
+  "notes": "基幹顧客データベースへの不正アクセスではない。氏名・住所・電話番号・工事番号・問い合わせ内容の流出は確認されていない。"
+}

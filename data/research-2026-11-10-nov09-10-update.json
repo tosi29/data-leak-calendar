@@ -1,0 +1,159 @@
+{
+  "checked_on": "2026-11-10",
+  "checked_at": "2026-11-10T21:30:00+09:00",
+  "coverage_start": "2026-11-09",
+  "coverage_end": "2026-11-10",
+  "stats": {
+    "baseline_incidents": 2359,
+    "added_incidents": 44,
+    "updated_incidents": 11,
+    "total_incidents": 2403,
+    "added_by_publication_date": {
+      "2026-08-28": 1,
+      "2026-10-21": 2,
+      "2026-10-23": 1,
+      "2026-10-28": 1,
+      "2026-10-30": 1,
+      "2026-11-02": 2,
+      "2026-11-04": 3,
+      "2026-11-05": 2,
+      "2026-11-06": 1,
+      "2026-11-08": 6,
+      "2026-11-09": 19,
+      "2026-11-10": 5
+    },
+    "baseline_candidates": 98,
+    "new_candidates": 2,
+    "resolved_candidates": 0,
+    "pending_candidates": 100
+  },
+  "added_incident_ids": [
+    "aeon-group-web-20261021",
+    "aeon-st-gift-system-20261110",
+    "baystars-teket-20261109",
+    "biccamera-b2b-form-20261110",
+    "chibakogyo-bank-arara-20261106",
+    "edotokyo-dentogeinosai-teket-20261109",
+    "eikoh-kousu-system-20261030",
+    "gakken-arara-20261105",
+    "giken-server-ransom-20261109",
+    "iga-mynumber-arara-20261105",
+    "ill-crosspoint-api-20261110",
+    "ill-repica-20261104",
+    "istyle-cuenote-20261023",
+    "jarl-hamfair-teket-20261109",
+    "jtu-lawson-dosports-20261109",
+    "kanagawa-kyosai-plusbaton-arara-20261102",
+    "kanagawa-rekoten-teket-20261109",
+    "kanagawa-u-auth-20261109",
+    "kurogane-ransom-20261028",
+    "kyoto-bunka-teket-20261109",
+    "kyoto-modern-kenchikusai-teket-20261108",
+    "lafool-survey-old-system-20261109",
+    "lawson-ent-entago-dosports-20261104",
+    "lfc-teket-20261108",
+    "matsuyama-yushi-teket-20261109",
+    "mesquare-teket-20261109",
+    "mitsuihome-club-comsbi-20261109",
+    "nagoya-phil-teket-20261109",
+    "nishiwaki-mail-arara-20261104",
+    "ohme-marathon-iplass-20261109",
+    "peppy-cloud-storage-20261109",
+    "ppt-teket-20261109",
+    "saitama-bungakukan-asoview-arara-20261109",
+    "sankeiliving-server-20261021",
+    "sanko-techno-vietnam-ransom-20260828",
+    "sapporo-ssc-teket-20261108",
+    "sesion-suginami-teket-20261108",
+    "shima-mynumber-arara-20261109",
+    "sodegaura-mynumber-arara-20261102",
+    "soft99-onlineshop-20261110",
+    "tef-smilesports-teket-20261108",
+    "tokyo-tcvb-arara-20261110",
+    "torei-teket-20261109",
+    "tsukuba-expocenter-teket-20261108"
+  ],
+  "updated_incident_ids": [
+    "dennys-app-migration-20261103",
+    "edion-ec-logfile-20261106",
+    "ekitan-arara-20261103",
+    "fancrew-api-20261102",
+    "japanticket-analysis-20261030",
+    "kantei-arara-20261104",
+    "manbo-arara-20261109",
+    "navc-reservegate-20261104",
+    "stcousair-arara-20261103",
+    "sweep-257f76fc3c8d-20261019",
+    "tkc-arara-20261102"
+  ],
+  "new_candidate_ids": [
+    "nov10-kitakyushu-mynumber-arara-review",
+    "nov10-nagakute-mynumber-arara-review"
+  ],
+  "resolved_candidate_ids": [],
+  "method": [
+    "前回調査（11月9日22時58分）以降を対象に、3つの公表索引（JSON形式の事案一覧で11月8日以降に公表・更新された行、別索引の11月8～10日付行、第3の索引の11月9～10日付行）と、2026年11月10日更新の事案データベース（11月8日以降に公表・更新された行と個別ページ）から一次情報URLを抽出し、既存の掲載JSON・確認待ち候補・照合記録の出典URLと組織名で照合した。",
+    "未照合の公式HTML・PDFを直接取得して本文で日付・対象・件数を確認した。",
+    "11月9～10日の公表を中心に、不正アクセス・漏えい・ランサムウェア、アララ／プレステージ・コアソリューション／TKC経由の利用組織名で検索し、報道記事一覧から未収録の組織を抽出した。",
+    "teket利用団体の告知は、アソビュー経由の自治体告知と同じく利用組織の公表として、索引で確認できた公式告知を個別に追加した。",
+    "索引で更新日が新しくなった過去の公表（イオン10月21日、サンコーテクノ8月28日、サンケイリビング新聞社10月21日、アイスタイル10月23日、栄光10月30日、黒金化成10月28日）も、未収録だったため本来の公表日で追加した。",
+    "続報は既存IDへ統合した。委託先事故は委託元・受託先・提供元の公表をそれぞれ記録し、件数は合算しない。"
+  ],
+  "limitations": [
+    "11月10日夜の調査時点までの公表を対象とし、11月10日分は索引への反映途中で網羅性が低い。漏れゼロを意味しない。",
+    "teket利用団体、アララ、TKC、ローソンエンタテインメント（LAWSON DO! SPORTS）経由の利用組織の公表は確認できたものに限る。前回までに見送った富士桜カントリー倶楽部等のteket利用主催者は未追加。",
+    "ビックカメラ（法人向けフォーム）の公式PDFは取得できず、報道で確認した二次資料扱い。ジャックスの公式ページは引き続き403、北九州市は404、長久手市はアクセス制限で本文未確認。",
+    "電力・ガス取引監視等委員会のサイトへの不正アクセスは消費者の個人情報を含まないと報じられ、事業者情報の流出も未確認のため掲載・候補とも対象外。京王電鉄の11月10日開示は半期報告書の提出期限延長で個人情報の続報ではない。キングプリンターズの最終報告は顧客情報への不正アクセスなし、イグレックスの更新は補償案内で、いずれも追加していない。",
+    "既存の確認待ち候補を全件再調査したものではない。"
+  ],
+  "search_queries": [
+    "不正アクセス 個人情報 漏えい お詫び 2026年11月10日",
+    "アララ 不正アクセス メールアドレス 流出 お知らせ 11月10日",
+    "個人情報 誤送信 OR 紛失 OR 流出 お詫び 2026年11月10日 市",
+    "\"2026年11月10日\" 不正アクセス お知らせ 情報流出 第一報",
+    "ランサムウェア 被害 お知らせ 2026年11月10日 個人情報",
+    "プレステージ・コアソリューション 不正アクセス 当社お客様情報 11月10日",
+    "千葉興業銀行 メールアドレス 171,260件 流出",
+    "ローソンエンタテインメント エンタGO LAWSON DO! SPORTS 不正アクセス お詫び 27,908",
+    "エイル CROSS POINT APIキー 不正 会員情報 2026年11月10日",
+    "電力・ガス取引監視等委員会 ウェブサイト 不正アクセス 2026年11月",
+    "北九州市 マイナンバーカード 交付予約 アララ メールアドレス 漏えい"
+  ],
+  "search_result_urls": [
+    "https://incidents.seory.co.jp/incidents.json",
+    "https://satimo.org/2026/10/data-breach-list-2026/",
+    "https://legalagent.co.jp/legal-lab/security-incidents/",
+    "https://jouhourouei.clipmaster.jp/data/incidents.json",
+    "https://scan.netsecurity.ne.jp/category/incident/incident/latest/",
+    "https://rocket-boys.co.jp/security-measures-lab/"
+  ],
+  "retrieval_checks": [
+    {
+      "url": "https://www.biccamera.co.jp/pdf/news/2026/20261110.pdf",
+      "status": "unavailable",
+      "final_url": null
+    },
+    {
+      "url": "https://www.jaccs.co.jp/information/emerge/page_01196.html",
+      "status": "unavailable",
+      "final_url": null
+    },
+    {
+      "url": "https://www.city.kitakyushu.lg.jp/contents/14900233_00004.html",
+      "status": "unavailable",
+      "final_url": null
+    },
+    {
+      "url": "https://www.city.nagakute.lg.jp/soshiki/somubu/shiminka/1/1/mynumber/28224.html",
+      "status": "unavailable",
+      "final_url": null
+    },
+    {
+      "url": "https://www.edion.co.jp/system/files/news-release/pdf/ja/2026-11/20261109_pr_1_0.pdf",
+      "status": "unavailable",
+      "final_url": "https://www.release.tdnet.info/inbs/140120261110571388.pdf"
+    }
+  ],
+  "report": "docs/research-2026-11-10-nov09-10-update.md",
+  "audit": "data/research-2026-11-10-nov09-10-update.json"
+}

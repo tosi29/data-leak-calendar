@@ -1,0 +1,46 @@
+{
+  "id": "shima-mynumber-arara-20261109",
+  "organization": {
+    "name": "志摩市",
+    "sector": "自治体"
+  },
+  "title": "マイナンバーカード交付予約・管理システムの提供事業者TKCが使うアララへの不正アクセスで利用者情報に漏えいの可能性",
+  "summary": "マイナンバーカード交付予約・管理システムの提供事業者TKCが使うアララへの不正アクセスで利用者情報に漏えいの可能性。",
+  "published_on": "2026-11-09",
+  "first_published_on": "2026-11-09",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-09",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "マイナンバーカード交付予約・管理システムの提供事業者TKCがメール送信に使うアララ株式会社のメール配信サービスへの第三者による不正アクセス。予約システム自体への不正アクセスはない。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "本市の利用者情報の流出有無は調査中。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "オフィスメーション／TKC／アララ株式会社",
+  "sources": [
+    {
+      "url": "https://www.city.shima.mie.jp/kakuka/shiminseikatsubu/shiminka/9885.html",
+      "type": "official",
+      "title": "不正アクセスに伴う情報漏えいの可能性と一部サービスの停止",
+      "published_on": "2026-11-09",
+      "checked_on": "2026-11-10"
+    }
+  ],
+  "updates": [],
+  "notes": "受託事業者オフィスメーションを通じて報告。予約完了・確認メールの送信を停止。公表日は公表索引の掲載日。ページの更新日は11月10日。"
+}

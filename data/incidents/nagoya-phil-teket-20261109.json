@@ -1,0 +1,53 @@
+{
+  "id": "nagoya-phil-teket-20261109",
+  "organization": {
+    "name": "名古屋フィルハーモニー交響楽団",
+    "sector": "企業・団体"
+  },
+  "title": "チケット販売に使う「teket」への不正アクセスによる情報流出を受け、teketでの公演チケット販売を停止",
+  "summary": "チケット販売に使う「teket」への不正アクセスによる情報流出を受け、teketでの公演チケット販売を停止。",
+  "published_on": "2026-11-09",
+  "first_published_on": "2026-11-09",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-09",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "電子チケット販売・管理サービス「teket」を運営する株式会社teketのシステムへの第三者による不正アクセス。侵入経路は調査中。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "teketで申込・購入した利用者。件数は未公表。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "メールアドレス",
+    "生年月日",
+    "年齢",
+    "性別",
+    "住所",
+    "電話番号",
+    "チケット情報"
+  ],
+  "related_vendor": "teket",
+  "sources": [
+    {
+      "url": "https://www.nagoya-phil.or.jp/news/news_2026_11_09_140047",
+      "type": "official",
+      "title": "teketにおける不正アクセスに伴う情報流出について",
+      "published_on": "2026-11-09",
+      "checked_on": "2026-11-10"
+    }
+  ],
+  "updates": [],
+  "notes": "teketのサービス停止で5公演のteket販売が停止。当団の購入者が流出対象かは個別に記載なし。 teketの公表では全会員の氏名・メールアドレスと、登録・購入状況に応じたその他の項目が流出対象。主催者分の件数は未公表。"
+}

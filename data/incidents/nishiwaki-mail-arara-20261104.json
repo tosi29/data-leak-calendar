@@ -1,0 +1,46 @@
+{
+  "id": "nishiwaki-mail-arara-20261104",
+  "organization": {
+    "name": "西脇市",
+    "sector": "自治体"
+  },
+  "title": "市のメール配信サービスとマイナンバーカード交付予約システムの配信委託先アララへの不正アクセスで登録メールアドレスに漏えいの可能性",
+  "summary": "市のメール配信サービスとマイナンバーカード交付予約システムの配信委託先アララへの不正アクセスで登録メールアドレスに漏えいの可能性。",
+  "published_on": "2026-11-04",
+  "first_published_on": "2026-11-04",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-04",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "ウイングアークNEX（西脇市メール配信サービス）とTKC（マイナンバーカード交付予約システム）が配信に使うアララ株式会社への第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "件数は調査中。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "ウイングアークNEX／TKC／アララ株式会社",
+  "sources": [
+    {
+      "url": "https://www.city.nishiwaki.lg.jp/jyuyo_oshirase/31654.html",
+      "type": "official",
+      "title": "委託先における不正アクセスに伴うメールアドレス漏えいの可能性と一部サービスの停止について",
+      "published_on": "2026-11-04",
+      "checked_on": "2026-11-10"
+    }
+  ],
+  "updates": [],
+  "notes": "公表日はページの更新日。マイナンバーは使用していない。メール配信機能は一時停止。"
+}

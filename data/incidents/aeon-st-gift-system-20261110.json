@@ -1,0 +1,48 @@
+{
+  "id": "aeon-st-gift-system-20261110",
+  "organization": {
+    "name": "イオンスマートテクノロジー",
+    "sector": "企業・団体"
+  },
+  "title": "ギフト承りシステムへの不正アクセスで「イオンの夏ギフト」承り4店舗分の個人情報414件が流出",
+  "summary": "ギフト承りシステムへの不正アクセスで「イオンの夏ギフト」承り4店舗分の個人情報414件が流出。",
+  "published_on": "2026-11-10",
+  "first_published_on": "2026-11-10",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-10-20",
+  "updated_on": "2026-11-10",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "一部Webサイトへの第三者による不正アクセスで、システム内に保存されていた個人情報を含むファイルが流出。10月20日に検知。"
+  },
+  "impact": [
+    {
+      "count": 414,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "2024年度「イオンの夏ギフト」承りのうち4店舗分（イオンスタイル津田沼North、イオン東札幌店、マックスバリュ篠原橋東店、ダイエー浦安駅前店）。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "電話番号"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.aeon-st.co.jp/news/20261110_security-notice/AST261110.pdf",
+      "type": "official",
+      "title": "第三者による不正アクセスに伴う個人情報の流出に関するお詫びとお知らせ",
+      "published_on": "2026-11-10",
+      "checked_on": "2026-11-10"
+    }
+  ],
+  "updates": [],
+  "notes": "イオングループの一部Webサイトへの不正アクセス（10月21日公表）の個社公表。カード情報・メールアドレスは含まれない。"
+}

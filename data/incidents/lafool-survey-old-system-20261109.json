@@ -1,0 +1,50 @@
+{
+  "id": "lafool-survey-old-system-20261109",
+  "organization": {
+    "name": "ラフール（ラフールサーベイ）",
+    "sector": "企業・団体"
+  },
+  "title": "サーベイサービスの旧システムのファイル保管領域から182社・24,232名分の従業員情報等が取得",
+  "summary": "サーベイサービスの旧システムのファイル保管領域から182社・24,232名分の従業員情報等が取得。",
+  "published_on": "2026-11-09",
+  "first_published_on": "2026-11-09",
+  "publication_kind": "initial",
+  "occurred_on": "2026-07-24",
+  "detected_on": "2026-10-27",
+  "updated_on": "2026-11-09",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "credentials",
+    "certainty": "confirmed",
+    "detail": "エンジニアがプログラムに書き込んだアクセスキーを含むテスト用実行環境のイメージから認証情報が悪用され、旧システムのファイル保管領域から7月24日～10月25日にファイルが取得された。"
+  },
+  "impact": [
+    {
+      "count": 24232,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "182社の利用企業の従業員。今後の調査で変わる可能性。"
+    }
+  ],
+  "data_types": [
+    "従業員番号",
+    "氏名",
+    "所属部署",
+    "サーベイの回答と結果",
+    "ストレスチェックの結果・回答、医師による面談・面接指導の記録（一部。要配慮個人情報）"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://corp.lafool.co.jp/news/information/172/",
+      "type": "official",
+      "title": "「ラフールサーベイ」旧システムへの不正アクセスに関するお知らせとお詫び 〜現在ご利用中のシステムへの影響はございません〜",
+      "published_on": "2026-11-09",
+      "checked_on": "2026-11-10"
+    }
+  ],
+  "updates": [],
+  "notes": "個人情報を含むファイルの取得は7月24日と8月8日。7月30日に新システムへ移行済みで現行システムへの影響はない。他社を通じて提供するサービスを含む。"
+}

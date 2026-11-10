@@ -1,0 +1,65 @@
+{
+  "id": "sankeiliving-server-20261021",
+  "organization": {
+    "name": "サンケイリビング新聞社",
+    "sector": "企業・団体"
+  },
+  "title": "自社サーバーへの不正アクセスでWeb会員等の個人情報最大約172万件に漏えいの可能性",
+  "summary": "自社サーバーへの不正アクセスでWeb会員等の個人情報最大約172万件に漏えいの可能性。",
+  "published_on": "2026-10-21",
+  "first_published_on": "2026-10-21",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-10-16",
+  "updated_on": "2026-11-09",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "運営するWebサイトへの第三者による不正アクセス。10月16日に確認。"
+  },
+  "impact": [
+    {
+      "count": 1720000,
+      "unit": "records",
+      "qualifier": "maximum_approximate",
+      "description": "リビングWeb・シティリビングWeb・まちっと等のWeb会員（退会者を含む）やアンケートシステム利用者等。重複を含み人数ではない。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "電話番号",
+    "生年月日",
+    "性別",
+    "メールアドレス",
+    "ハッシュ化されたパスワード"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.sankeiliving.co.jp/news/20261021.html",
+      "type": "official",
+      "title": "当社サーバーへの不正アクセスによる個人情報漏えいの可能性とサービスの一時停止に関するお詫びとお知らせ（第一報）",
+      "published_on": "2026-10-21",
+      "checked_on": "2026-11-10"
+    },
+    {
+      "url": "https://www.sankeiliving.co.jp/news/20261109.html",
+      "type": "official",
+      "title": "当社サーバーへの不正アクセスによる個人情報漏えいの可能性に関するお詫びとお知らせ（第二報）",
+      "published_on": "2026-11-09",
+      "checked_on": "2026-11-10"
+    }
+  ],
+  "updates": [
+    {
+      "date": "2026-11-09",
+      "summary": "第二報。外部へ漏えいした可能性のある個人情報は最大約172万件（重複・退会者を含む）。業務委託元の団体・企業の事業に関する個人情報も含む。",
+      "source_index": 1
+    }
+  ],
+  "notes": "受託事業の委託元（自治体等）の公表は別記録。Cuenote FC経由の配信先事案（10月30日公表）とは別。カード情報は預かっていない。"
+}

@@ -1,0 +1,56 @@
+{
+  "id": "soft99-onlineshop-20261110",
+  "organization": {
+    "name": "ソフト99コーポレーション（公式オンラインショップ）",
+    "sector": "企業・団体"
+  },
+  "title": "公式オンラインショップの問い合わせフォームの画像添付機能を悪用した不正アクセスで会員・購入者136,968人の情報に漏えいの可能性",
+  "summary": "公式オンラインショップの問い合わせフォームの画像添付機能を悪用した不正アクセスで会員・購入者136,968人の情報に漏えいの可能性。",
+  "published_on": "2026-11-10",
+  "first_published_on": "2026-11-10",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-11-05",
+  "updated_on": "2026-11-10",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "vulnerability",
+    "certainty": "confirmed",
+    "detail": "問い合わせフォームの画像添付機能からプログラムファイルがアップロードされ、外部から命令を送り込めるファイルが置かれてサーバー内の調査や設定ファイルの読み取りが行われた。11月5日に委託先から連絡。"
+  },
+  "impact": [
+    {
+      "count": 136968,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "2026年11月5日までに会員登録・購入した顧客。対象会員と件数の詳細は確認中。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "メールアドレス",
+    "電話番号",
+    "生年月日",
+    "性別",
+    "購買情報",
+    "お届け先情報",
+    "クレジットカード番号下4桁",
+    "カード有効期限",
+    "カード名義人"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.release.tdnet.info/inbs/140120261110571360.pdf",
+      "type": "official",
+      "title": "ソフト９９公式オンラインショップへの不正アクセスによる個人情報漏えいの可能性に関するお詫びとお知らせ",
+      "published_on": "2026-11-10",
+      "checked_on": "2026-11-10"
+    }
+  ],
+  "updates": [],
+  "notes": "オンラインショップを停止。11月9日に個人情報保護委員会へ報告。"
+}

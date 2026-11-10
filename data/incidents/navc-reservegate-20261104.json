@@ -11,7 +11,7 @@
   "publication_kind": "initial",
   "occurred_on": "2026-11-02",
   "detected_on": null,
-  "updated_on": "2026-11-04",
+  "updated_on": "2026-11-09",
   "verification": "official",
   "leak_status": "confirmed",
   "incident_type": "attack",
@@ -22,10 +22,10 @@
   },
   "impact": [
     {
-      "count": 350000,
+      "count": 320720,
       "unit": "records",
-      "qualifier": "maximum_approximate",
-      "description": "RGαシステムの全会員情報。"
+      "qualifier": "exact",
+      "description": "RGα全体の会員情報。漏えいした可能性。"
     }
   ],
   "data_types": [
@@ -34,7 +34,13 @@
     "電話番号",
     "メールアドレス",
     "宿泊先ホテル名",
-    "チェックイン日"
+    "チェックイン日",
+    "氏名カナ",
+    "携帯電話番号",
+    "FAX番号",
+    "生年月日",
+    "性別",
+    "勤務先情報"
   ],
   "related_vendor": null,
   "sources": [
@@ -44,8 +50,21 @@
       "title": "不正アクセスによる個人情報漏えいに関するお知らせとお詫び",
       "published_on": "2026-11-04",
       "checked_on": "2026-11-08"
+    },
+    {
+      "url": "https://navc2.co.jp/news_detail.php?id=46",
+      "type": "official",
+      "title": "不正アクセスによる個人情報漏えいに関するお知らせとお詫び（第二報）",
+      "published_on": "2026-11-09",
+      "checked_on": "2026-11-10"
     }
   ],
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-11-09",
+      "summary": "第二報。RGα全体で320,720件の会員情報が漏えいした可能性（1施設あたり1～43,274件）。氏名カナ・携帯電話番号・FAX番号・生年月日・性別・勤務先情報も対象に追加。11月6日16時からサーバーを停止し、11月23日まで復旧作業。漏えい情報を悪用したフィッシングメールを確認。",
+      "source_index": 1
+    }
+  ],
   "notes": "カード情報・パスワード等の漏えいは未確認。ホテル・予約サイトを装った不審メール等が実際に届いていると説明。同システムを使う宿泊施設（中央アルプス観光など）の公表は別記録。"
 }

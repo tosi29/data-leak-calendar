@@ -1,0 +1,46 @@
+{
+  "id": "chibakogyo-bank-arara-20261106",
+  "organization": {
+    "name": "千葉興業銀行",
+    "sector": "企業・団体"
+  },
+  "title": "メール配信に使うアララへの不正アクセスで顧客のメールアドレス171,260件が流出",
+  "summary": "メール配信に使うアララへの不正アクセスで顧客のメールアドレス171,260件が流出。",
+  "published_on": "2026-11-06",
+  "first_published_on": "2026-11-06",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-11-02",
+  "updated_on": "2026-11-06",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "メール配信に利用する外部サービスの提供元アララ株式会社への第三者による不正アクセス。11月2日に連絡を受けた。"
+  },
+  "impact": [
+    {
+      "count": 171260,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "2026年10月8日～29日に当行から配信したメールの宛先の一部。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "アララ株式会社",
+  "sources": [
+    {
+      "url": "https://www.chibakogyo-bank.co.jp/news/important/of_ja_important_2.html",
+      "type": "official",
+      "title": "当行委託先提供のメール配信サービスへの不正アクセスによるお客さまメールアドレスの流出について",
+      "published_on": "2026-11-06",
+      "checked_on": "2026-11-10"
+    }
+  ],
+  "updates": [],
+  "notes": "氏名・住所・口座番号・暗証番号・パスワード・カード情報は含まれない。"
+}
