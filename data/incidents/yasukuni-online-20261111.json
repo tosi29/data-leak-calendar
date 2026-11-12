@@ -1,0 +1,48 @@
+{
+  "id": "yasukuni-online-20261111",
+  "organization": {
+    "name": "靖國神社",
+    "sector": "企業・団体"
+  },
+  "title": "オンライン授与品・頒布品サイトへの不正アクセスで登録利用者約14,500件の氏名・メールアドレス等が漏洩",
+  "summary": "オンライン授与品・頒布品サイトへの不正アクセスで登録利用者約14,500件の氏名・メールアドレス等が漏洩。",
+  "published_on": "2026-11-11",
+  "first_published_on": "2026-11-11",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-10-28",
+  "updated_on": "2026-11-11",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "運営するオンライン授与品・頒布品サイトへの外部からの不正アクセス。原因はサイト管理会社と調査中。"
+  },
+  "impact": [
+    {
+      "count": 14500,
+      "unit": "records",
+      "qualifier": "approximate",
+      "description": "同サイトの登録利用者。調査中で今後変わり得る。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "メールアドレス",
+    "パスワード情報（ハッシュ値等）"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.yasukuni.or.jp/news_detail.html?id=734",
+      "type": "official",
+      "title": "靖國神社オンライン授与品・頒布品サイトへの不正アクセスによる個人情報漏洩のお詫びとお知らせ",
+      "published_on": "2026-11-11",
+      "checked_on": "2026-11-12"
+    }
+  ],
+  "updates": [],
+  "notes": "クレジットカード決済は決済代行会社経由。"
+}

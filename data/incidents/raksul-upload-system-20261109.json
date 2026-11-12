@@ -11,7 +11,7 @@
   "publication_kind": "initial",
   "occurred_on": null,
   "detected_on": "2026-11-08",
-  "updated_on": "2026-11-09",
+  "updated_on": "2026-11-12",
   "verification": "official",
   "leak_status": "suspected",
   "incident_type": "attack",
@@ -43,8 +43,21 @@
       "title": "当社システムへの不正アクセスによる個人情報漏えいのおそれについて",
       "published_on": "2026-11-09",
       "checked_on": "2026-11-09"
+    },
+    {
+      "url": "https://corp.raksul.com/news/press/261112_unauthorized-access2/",
+      "type": "official",
+      "title": "当社システムへの不正アクセスによる個人情報漏えいのおそれについて（第2報）",
+      "published_on": "2026-11-12",
+      "checked_on": "2026-11-12"
     }
   ],
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-11-12",
+      "summary": "第2報。認証情報が不正に取得され、11月7日3時頃から8日1時頃までアクセスできたデータのうち読み取りの可能性がある範囲を特定。DM発送用の宛名リストは対象外。",
+      "source_index": 1
+    }
+  ],
   "notes": "11月8日から入稿を伴う一部サービスを停止。10月の「Studio」経由の事案（raksul-studio-20261016）とは別。"
 }

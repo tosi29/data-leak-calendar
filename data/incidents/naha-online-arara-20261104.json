@@ -1,0 +1,59 @@
+{
+  "id": "naha-online-arara-20261104",
+  "organization": {
+    "name": "那覇市",
+    "sector": "自治体"
+  },
+  "title": "オンライン申請システムが使うアララのメール送信サービスへの不正アクセスで利用者のメールアドレス15,700件が流出",
+  "summary": "オンライン申請システムが使うアララのメール送信サービスへの不正アクセスで利用者のメールアドレス15,700件が流出。",
+  "published_on": "2026-11-04",
+  "first_published_on": "2026-11-04",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-11",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "TKCが提供するオンライン申請システムのメール送信に使うアララ株式会社の「アララメッセージ」への第三者による不正アクセス。システム自体への不正アクセスはない。"
+  },
+  "impact": [
+    {
+      "count": 15700,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "オンライン申請システム利用者のメールアドレス（利用登録者数約8.2万件）。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "アララ株式会社",
+  "sources": [
+    {
+      "url": "https://www.city.naha.okinawa.jp/admin/kaikaku/1008233/1004100/1013242.html",
+      "type": "official",
+      "title": "那覇市オンライン申請システムにおける外部メール送信サービスへの不正アクセスに伴う影響について",
+      "published_on": "2026-11-04",
+      "checked_on": "2026-11-12"
+    },
+    {
+      "url": "https://www.city.naha.okinawa.jp/admin/kaikaku/1008233/1004100/1013273.html",
+      "type": "official",
+      "title": "那覇市オンライン申請システムにおける外部メール送信サービスへの不正アクセスによるメールアドレス流出について",
+      "published_on": "2026-11-11",
+      "checked_on": "2026-11-12"
+    }
+  ],
+  "updates": [
+    {
+      "date": "2026-11-11",
+      "summary": "流出したメールアドレスは15,700件と公表。メール本文・マイナンバー・申請情報は漏えいしていない。",
+      "source_index": 1
+    }
+  ],
+  "notes": ""
+}

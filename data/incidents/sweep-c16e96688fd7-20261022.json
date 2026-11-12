@@ -11,7 +11,7 @@
   "publication_kind": "initial",
   "occurred_on": null,
   "detected_on": null,
-  "updated_on": "2026-10-27",
+  "updated_on": "2026-11-10",
   "verification": "official",
   "leak_status": "confirmed",
   "incident_type": "attack",
@@ -22,10 +22,10 @@
   },
   "impact": [
     {
-      "count": 253000,
-      "unit": "people",
-      "qualifier": "maximum_approximate",
-      "description": "公表された対象規模。"
+      "count": 245347,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "新潟日報パスポート会員の個人情報。"
     }
   ],
   "data_types": [
@@ -50,6 +50,13 @@
       "title": "当社会員の個人情報漏えいについて（第3報）",
       "published_on": "2026-10-23",
       "checked_on": "2026-10-27"
+    },
+    {
+      "url": "https://www.niigata-nippo.co.jp/articles/-/940084",
+      "type": "official",
+      "title": "【お詫びとお知らせ】株式会社ラクスライトクラウドへの不正アクセスに伴う当社会員の個人情報漏えいについて(第６報）",
+      "published_on": "2026-11-10",
+      "checked_on": "2026-11-12"
     }
   ],
   "updates": [
@@ -57,6 +64,11 @@
       "date": "2026-10-23",
       "summary": "にいがた鮭プロジェクト会員約7,000人は現時点の確認済み流出対象に含まれないと説明。",
       "source_index": 1
+    },
+    {
+      "date": "2026-11-10",
+      "summary": "第6報。10月22日以降の新たな漏えいはなく、漏えいは「新潟日報パスポート会員」245,347件で確定。",
+      "source_index": 2
     }
   ],
   "notes": "初報がさらに早いことを確認できないため、取得した第2報の初回公開10月22日を採用。鮭プロ会員約7,000人は確認済み人数へ加算しない。",

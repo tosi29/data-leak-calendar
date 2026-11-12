@@ -1,0 +1,60 @@
+{
+  "id": "oita-kosodate-blastmail-20261021",
+  "organization": {
+    "name": "大分県（おおいた子育て応援パスポート）",
+    "sector": "自治体"
+  },
+  "title": "委託先QTmediaが使う「ブラストメール」への不正アクセスで子育て応援パスポート登録者8,218件の情報が漏えい",
+  "summary": "委託先QTmediaが使う「ブラストメール」への不正アクセスで子育て応援パスポート登録者8,218件の情報が漏えい。",
+  "published_on": "2026-10-21",
+  "first_published_on": "2026-10-21",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-12",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "ウェブサイト運営を受託するQTmediaが利用するラクスライトクラウドの「ブラストメール」への第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 8218,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "漏えいが確認された登録者情報。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス",
+    "市町村名"
+  ],
+  "related_vendor": "株式会社ラクスライトクラウド",
+  "sources": [
+    {
+      "url": "https://www.pref.oita.jp/soshiki/12520/kosodateouen-passport.html",
+      "type": "official",
+      "title": "「おおいた子育て応援パスポート」の登録者情報の漏えい可能性について",
+      "published_on": "2026-10-21",
+      "checked_on": "2026-11-12"
+    },
+    {
+      "url": "https://www.pref.oita.jp/soshiki/12520/kosodateouen-passport3.html",
+      "type": "official",
+      "title": "【第３報】「おおいた子育て応援パスポート」メール配信サービスへの不正アクセスによる個人情報の漏えいの調査結果について",
+      "published_on": "2026-11-12",
+      "checked_on": "2026-11-12"
+    }
+  ],
+  "updates": [
+    {
+      "date": "2026-11-12",
+      "summary": "第3報。8,218件の漏えいを確認。氏名は登録されていない。",
+      "source_index": 1
+    }
+  ],
+  "notes": ""
+}

@@ -11,7 +11,7 @@
   "publication_kind": "initial",
   "occurred_on": "2026-10-23",
   "detected_on": "2026-11-05",
-  "updated_on": "2026-11-07",
+  "updated_on": "2026-11-10",
   "verification": "official",
   "leak_status": "suspected",
   "incident_type": "attack",
@@ -38,7 +38,8 @@
     "契約状況・予約履歴・購入履歴",
     "レッスンカルテ",
     "顔写真",
-    "要配慮個人情報"
+    "要配慮個人情報",
+    "銀行口座情報"
   ],
   "related_vendor": null,
   "sources": [
@@ -48,8 +49,21 @@
       "title": "当社業務システムへの不正アクセスによる個人情報漏えいのおそれに関するお詫びとご報告（第一報）",
       "published_on": "2026-11-07",
       "checked_on": "2026-11-09"
+    },
+    {
+      "url": "https://www.stepgolf.co.jp/news/261110",
+      "type": "official",
+      "title": "当社業務システムへの不正アクセスによる個人情報漏えいのおそれに関するお詫びとご報告（第二報）",
+      "published_on": "2026-11-10",
+      "checked_on": "2026-11-12"
     }
   ],
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-11-10",
+      "summary": "第二報。漏えいした可能性があるのは個人情報114,605件、顔写真107,781件、銀行口座情報12,707件（口座情報は暗号化されていなかった）。対象データは最大21.5万件（11月12日補足）。",
+      "source_index": 1
+    }
+  ],
   "notes": "銀行口座情報は暗号化されていない状態で保管。カード情報・本人確認書類は保有しておらず対象外。"
 }

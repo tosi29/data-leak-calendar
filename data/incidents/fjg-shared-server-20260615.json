@@ -1,0 +1,62 @@
+{
+  "id": "fjg-shared-server-20260615",
+  "organization": {
+    "name": "ファクトリージャパングループ（社内共有ファイルサーバー）",
+    "sector": "企業・団体"
+  },
+  "title": "社内共有ファイルサーバーへの不正アクセスで約25万4千件の個人情報に流出の可能性",
+  "summary": "社内共有ファイルサーバーへの不正アクセスで約25万4千件の個人情報に流出の可能性。",
+  "published_on": "2026-06-15",
+  "first_published_on": "2026-06-15",
+  "publication_kind": "initial",
+  "occurred_on": "2026-06-07",
+  "detected_on": "2026-06-10",
+  "updated_on": "2026-11-10",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "6月7日20時頃からの社内共有ファイルサーバーへの第三者による侵入。"
+  },
+  "impact": [
+    {
+      "count": 254000,
+      "unit": "records",
+      "qualifier": "approximate",
+      "description": "名寄せ後の対象データ。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "電話番号",
+    "メールアドレス"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://factoryjapan.jp/resources/files/0615.pdf",
+      "type": "official",
+      "title": "弊社サーバーへの不正アクセスによるお詫びとお知らせ",
+      "published_on": "2026-06-15",
+      "checked_on": "2026-11-12"
+    },
+    {
+      "url": "https://factoryjapan.jp/wp/wp-content/uploads/2026/11/FJG_261106.pdf",
+      "type": "official",
+      "title": "弊社サーバーへの不正アクセスによるお詫びとお知らせ（第二報）",
+      "published_on": "2026-11-10",
+      "checked_on": "2026-11-12"
+    }
+  ],
+  "updates": [
+    {
+      "date": "2026-11-10",
+      "summary": "第二報。フォレンジック調査で外部流出の痕跡は確認されなかったが可能性は否定できない。対象は名寄せ後約25万4千件。",
+      "source_index": 1
+    }
+  ],
+  "notes": "8月4日公表のPeakManager経由の事案とは別記録。"
+}

@@ -1,0 +1,46 @@
+{
+  "id": "kyuden-weev-arara-20261110",
+  "organization": {
+    "name": "九州電力（weev）",
+    "sector": "電力"
+  },
+  "title": "EVカーシェア「weev」のメールマガジン委託先が使うアララへの不正アクセスで会員のメールアドレス978件が漏えい",
+  "summary": "EVカーシェア「weev」のメールマガジン委託先が使うアララへの不正アクセスで会員のメールアドレス978件が漏えい。",
+  "published_on": "2026-11-10",
+  "first_published_on": "2026-11-10",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-10",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "「weev」のメールマガジン配信業務の委託先が利用するアララ株式会社のメール配信サービスへの不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 978,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "一部のweev会員のメールアドレス。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "アララ株式会社",
+  "sources": [
+    {
+      "url": "https://www.kyuden.co.jp/press/2026/h261110-1.html",
+      "type": "official",
+      "title": "メール配信サービス事業者（アララ株式会社）への不正アクセスに伴う当社EVカーシェアサービス「weev」会員さまのメールアドレス漏えいについて",
+      "published_on": "2026-11-10",
+      "checked_on": "2026-11-12"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

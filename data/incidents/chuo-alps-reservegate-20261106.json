@@ -11,7 +11,7 @@
   "publication_kind": "initial",
   "occurred_on": null,
   "detected_on": null,
-  "updated_on": "2026-11-06",
+  "updated_on": "2026-11-11",
   "verification": "official",
   "leak_status": "confirmed",
   "incident_type": "attack",
@@ -29,7 +29,10 @@
     }
   ],
   "data_types": [
-    "宿泊者情報"
+    "宿泊者情報",
+    "氏名カナ",
+    "携帯電話番号",
+    "性別"
   ],
   "related_vendor": "ナバック",
   "sources": [
@@ -39,8 +42,21 @@
       "title": "外部予約管理システムへの不正アクセスによる情報漏えいについてのお詫びとお願い",
       "published_on": "2026-11-06",
       "checked_on": "2026-11-08"
+    },
+    {
+      "url": "https://chuo-alps.com/%e5%a4%96%e9%83%a8%e4%ba%88%e7%b4%84%e7%ae%a1%e7%90%86%e3%82%b7%e3%82%b9%e3%83%86%e3%83%a0%e3%81%b8%e3%81%ae%e4%b8%8d%e6%ad%a3%e3%82%a2%e3%82%af%e3%82%bb%e3%82%b9%e3%81%ab%e3%82%88%e3%82%8b%e6%83%85/",
+      "type": "official",
+      "title": "外部予約管理システムへの不正アクセスによる情報漏えいに関するお知らせ（第二報）",
+      "published_on": "2026-11-11",
+      "checked_on": "2026-11-12"
     }
   ],
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-11-11",
+      "summary": "第二報。ナバックの報告で氏名カナ・携帯電話番号・FAX番号・生年月日・性別・勤務先が対象項目に追加（ホテルはFAX番号・生年月日・勤務先を保持していない）。11月23日までシステムを全面停止。",
+      "source_index": 1
+    }
+  ],
   "notes": "過去の予約者・会員に公的機関を装う不審なメッセージが届いている。ナバックの公表とは別記録。"
 }

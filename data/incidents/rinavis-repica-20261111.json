@@ -1,0 +1,46 @@
+{
+  "id": "rinavis-repica-20261111",
+  "organization": {
+    "name": "リナビス",
+    "sector": "企業・団体"
+  },
+  "title": "メールマガジン等の配信に使うアララ「repica」への不正アクセスでメールアドレス158,960件が漏洩",
+  "summary": "メールマガジン等の配信に使うアララ「repica」への不正アクセスでメールアドレス158,960件が漏洩。",
+  "published_on": "2026-11-11",
+  "first_published_on": "2026-11-11",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-11",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "メール配信に利用するアララ株式会社のメール配信サービス「repica」への第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 158960,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "2026年10月8日～29日に配信したメールの宛先メールアドレス。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "アララ株式会社",
+  "sources": [
+    {
+      "url": "https://rinavis.com/f/notice_20261111",
+      "type": "official",
+      "title": "【重要】業務委託先への不正アクセスによるメールアドレス漏洩に関するお詫び",
+      "published_on": "2026-11-11",
+      "checked_on": "2026-11-12"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

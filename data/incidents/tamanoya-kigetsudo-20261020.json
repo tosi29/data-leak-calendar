@@ -1,0 +1,71 @@
+{
+  "id": "tamanoya-kigetsudo-20261020",
+  "organization": {
+    "name": "燦ホールディングス（たまのや・喜月堂セレオ）",
+    "sector": "企業・団体"
+  },
+  "title": "孫会社たまのや・喜月堂セレオの公式ホームページへの不正アクセスで供花・供物の購入者等の個人情報に流出の可能性",
+  "summary": "孫会社たまのや・喜月堂セレオの公式ホームページへの不正アクセスで供花・供物の購入者等の個人情報に流出の可能性。",
+  "published_on": "2026-10-20",
+  "first_published_on": "2026-10-20",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-09-10",
+  "updated_on": "2026-11-11",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "公式ホームページのシステムへの第三者による不正アクセス。9月10日（たまのや）と11日（喜月堂セレオ）に確認。"
+  },
+  "impact": [
+    {
+      "count": 10401,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "供花・供物の注文客（氏名・住所・電話番号・メールアドレス・注文内容）。"
+    },
+    {
+      "count": 833,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "問い合わせ者（氏名・住所・電話番号・メールアドレス・性別・問い合わせ内容）。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "電話番号",
+    "メールアドレス",
+    "注文内容",
+    "性別",
+    "問い合わせ内容"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://contents.xj-storage.jp/xcontents/AS01914/343ada8f/6f4a/46bc/949d/1e662b4d79ff/140120261020553567.pdf",
+      "type": "official",
+      "title": "連結子会社（孫会社）における不正アクセスの発生及び個人情報漏えいの可能性に関するお知らせ",
+      "published_on": "2026-10-20",
+      "checked_on": "2026-11-12"
+    },
+    {
+      "url": "https://contents.xj-storage.jp/xcontents/AS01914/c8775c12/9059/4480/9f9c/5fda833645cf/140120261111573411.pdf",
+      "type": "official",
+      "title": "連結子会社（孫会社）における不正アクセスの発生及び個人情報漏えいの可能性に関するお知らせ（続報）",
+      "published_on": "2026-11-11",
+      "checked_on": "2026-11-12"
+    }
+  ],
+  "updates": [
+    {
+      "date": "2026-11-11",
+      "summary": "続報。データ精査で対象件数（10,401件と833件）を公表。流出の事実は確認されていない。",
+      "source_index": 1
+    }
+  ],
+  "notes": ""
+}

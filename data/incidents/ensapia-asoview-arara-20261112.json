@@ -1,0 +1,52 @@
+{
+  "id": "ensapia-asoview-arara-20261112",
+  "organization": {
+    "name": "ENSAPIA Tokyo（アソビュー）",
+    "sector": "企業・団体"
+  },
+  "title": "チケット販売委託先アソビューがメール配信を委託するアララへの不正アクセスで顧客の会員情報等に漏えいの可能性",
+  "summary": "チケット販売委託先アソビューがメール配信を委託するアララへの不正アクセスで顧客の会員情報等に漏えいの可能性。",
+  "published_on": "2026-11-12",
+  "first_published_on": "2026-11-12",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-12",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "チケット販売委託先アソビュー株式会社がメール配信を委託するアララ株式会社のシステムへの第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "アソビュー経由でチケットを購入した客の情報。アソビュー全体の対象は会員情報15,821,184件。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス",
+    "氏名",
+    "性別",
+    "生年月日",
+    "電話番号",
+    "住所",
+    "チケット購入・利用履歴"
+  ],
+  "related_vendor": "アララ株式会社",
+  "sources": [
+    {
+      "url": "https://ensapia-tokyo.com/news/topics/id=21395/",
+      "type": "official",
+      "title": "外部委託先企業における個人情報漏えいの可能性に関するお知らせ",
+      "published_on": "2026-11-12",
+      "checked_on": "2026-11-12"
+    }
+  ],
+  "updates": [],
+  "notes": "同じ告知のオープンロジ事案は別記録。"
+}

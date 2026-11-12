@@ -1,0 +1,46 @@
+{
+  "id": "kawajun-keyuca-arara-20261111",
+  "organization": {
+    "name": "河淳（ケユカオンラインショップ メールマガジン）",
+    "sector": "企業・団体"
+  },
+  "title": "メールマガジン配信に使う「アララメッセージ」への不正アクセスで会員のメールアドレス1,214,183件が流出",
+  "summary": "メールマガジン配信に使う「アララメッセージ」への不正アクセスで会員のメールアドレス1,214,183件が流出。",
+  "published_on": "2026-11-11",
+  "first_published_on": "2026-11-11",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-11",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "メールマガジン配信に利用していたアララ株式会社の「アララメッセージ」への外部の第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 1214183,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "2026年7月1日～10月28日にメールマガジンを受信していた人のメールアドレス。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "アララ株式会社",
+  "sources": [
+    {
+      "url": "https://www.kawajun.co.jp/news/keyuca/notification-of-unauthorized-access-20261111-2/",
+      "type": "official",
+      "title": "アララ社の不正アクセスによるケユカオンラインショップメールマガジン 会員様メールアドレスの流出に関するお詫びとお願い",
+      "published_on": "2026-11-11",
+      "checked_on": "2026-11-12"
+    }
+  ],
+  "updates": [],
+  "notes": "10月29日の連絡では対象外とされたが、11月7日にアララから流出の報告を受けた。KEYUCA事業の委託先ナノテックへの不正アクセスとは別事案。"
+}

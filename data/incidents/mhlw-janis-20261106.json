@@ -1,0 +1,57 @@
+{
+  "id": "mhlw-janis-20261106",
+  "organization": {
+    "name": "厚生労働省（薬剤耐性菌発生動向調査システム）",
+    "sector": "国・公的機関"
+  },
+  "title": "委託先JIHSが運営する薬剤耐性菌発生動向調査システムへのサイバー攻撃で最大21,023名分の利用者情報に漏えいの可能性",
+  "summary": "委託先JIHSが運営する薬剤耐性菌発生動向調査システムへのサイバー攻撃で最大21,023名分の利用者情報に漏えいの可能性。",
+  "published_on": "2026-11-06",
+  "first_published_on": "2026-11-06",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-12",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "運営を委託する国立健康危機管理研究機構（JIHS）のシステムへのサイバー攻撃で、Webサーバー上に情報を抜き取るプログラムが配置・実行された可能性。"
+  },
+  "impact": [
+    {
+      "count": 21023,
+      "unit": "people",
+      "qualifier": "maximum",
+      "description": "登録された医療機関の責任者・担当者。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "職名",
+    "電話番号",
+    "メールアドレス",
+    "病院名・所在地",
+    "耐性菌情報"
+  ],
+  "related_vendor": "国立健康危機管理研究機構",
+  "sources": [
+    {
+      "url": "https://janis.mhlw.go.jp/",
+      "type": "official",
+      "title": "薬剤耐性菌発生動向調査システムに係る個人情報等の漏えい疑いについて（2026年11月12日更新）",
+      "published_on": "2026-11-06",
+      "checked_on": "2026-11-12"
+    }
+  ],
+  "updates": [
+    {
+      "date": "2026-11-12",
+      "summary": "更新。最大21,023名分の利用者情報と病院情報・耐性菌情報が漏えいした可能性。",
+      "source_index": 0
+    }
+  ],
+  "notes": "院内感染対策サーベイランス（JANIS）のサイトは停止中。"
+}

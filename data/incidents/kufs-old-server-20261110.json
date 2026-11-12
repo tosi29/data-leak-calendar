@@ -1,0 +1,53 @@
+{
+  "id": "kufs-old-server-20261110",
+  "organization": {
+    "name": "京都外国語大学",
+    "sector": "教育・研究"
+  },
+  "title": "旧ホームページサーバーへの不正アクセスで申込みフォーム等の個人情報5,376人分が外部から取得され得る状態",
+  "summary": "旧ホームページサーバーへの不正アクセスで申込みフォーム等の個人情報5,376人分が外部から取得され得る状態。",
+  "published_on": "2026-11-10",
+  "first_published_on": "2026-11-10",
+  "publication_kind": "initial",
+  "occurred_on": "2026-10-21",
+  "detected_on": null,
+  "updated_on": "2026-11-10",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "suspected",
+    "detail": "以前ホームページを公開していた旧サーバーへの第三者による不正アクセスで不正なプログラムが置かれた。10月21日に不正アクセス開始。"
+  },
+  "impact": [
+    {
+      "count": 5376,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "主に2000～2017年に申込みフォーム等で受け付けた人（重複を除く）。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "電話番号",
+    "メールアドレス",
+    "学籍番号",
+    "勤務先",
+    "在籍校",
+    "学年"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.kufs.ac.jp/cms_image/file/file_1794271641.pdf",
+      "type": "official",
+      "title": "本学旧ホームページサーバーへの不正アクセスによる個人情報漏えいのおそれに関するお知らせとお詫び",
+      "published_on": "2026-11-10",
+      "checked_on": "2026-11-12"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

@@ -11,7 +11,7 @@
   "publication_kind": "initial",
   "occurred_on": null,
   "detected_on": "2026-11-06",
-  "updated_on": "2026-11-07",
+  "updated_on": "2026-11-11",
   "verification": "official",
   "leak_status": "confirmed",
   "incident_type": "attack",
@@ -40,8 +40,21 @@
       "title": "【重要・速報】不正アクセスおよびお客様情報の漏えいに関するお詫びとご報告",
       "published_on": "2026-11-07",
       "checked_on": "2026-11-08"
+    },
+    {
+      "url": "https://www.tsukaeru.net/news/20261111/",
+      "type": "official",
+      "title": "【重要・第2報】社内システムへの不正アクセスに関する調査・対応状況について",
+      "published_on": "2026-11-11",
+      "checked_on": "2026-11-12"
     }
   ],
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-11-11",
+      "summary": "11月9日・11日（第2報）。客の登録情報を管理する社内システムへの不正アクセスを確認。対象範囲・項目・件数、実際の持ち出し範囲は調査中。",
+      "source_index": 1
+    }
+  ],
   "notes": "11月6日にサーバー異常を確認。カード情報はポータルで保管していない。共有サーバーの一部でも不正アクセスを確認し11月2日時点のバックアップから復元。影響を調査中のVPSは127件（侵入・漏えいの確認件数ではない）。"
 }

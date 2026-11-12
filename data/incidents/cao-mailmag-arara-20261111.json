@@ -1,0 +1,48 @@
+{
+  "id": "cao-mailmag-arara-20261111",
+  "organization": {
+    "name": "内閣府",
+    "sector": "国・公的機関"
+  },
+  "title": "利用するアララのメール配信サービスへの不正アクセスでメールマガジン利用者のメールアドレス62,863件が漏えい",
+  "summary": "利用するアララのメール配信サービスへの不正アクセスでメールマガジン利用者のメールアドレス62,863件が漏えい。",
+  "published_on": "2026-11-11",
+  "first_published_on": "2026-11-11",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-11",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "アララ株式会社が提供するメール配信サービスのWebサーバの脆弱性及びシステム環境の問題に起因した第三者の不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 62863,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "14のメールマガジン等のメールアドレス（運用管理用テストデータ104件を含む）。重複を除くと61,751件。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス",
+    "氏名（一部）",
+    "性別・年齢層・職業等の登録項目（おそれ）"
+  ],
+  "related_vendor": "アララ株式会社",
+  "sources": [
+    {
+      "url": "https://www.cao.go.jp/others/csi/security/20261111notice.pdf",
+      "type": "official",
+      "title": "内閣府が利用するメール配信サービスにおける個人情報漏えい及びメールマガジンの配信停止について",
+      "published_on": "2026-11-11",
+      "checked_on": "2026-11-12"
+    }
+  ],
+  "updates": [],
+  "notes": "メールマガジン登録時の氏名（ニックネーム）・性別・職業等は漏えいのおそれとしてアララが調査中。"
+}

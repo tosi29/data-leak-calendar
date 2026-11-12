@@ -1,0 +1,46 @@
+{
+  "id": "tpu-anpic-arara-20261110",
+  "organization": {
+    "name": "富山県立大学",
+    "sector": "教育・研究"
+  },
+  "title": "安否確認サービス「ANPIC」が使うアララのメール配信サービスへの不正アクセスで学生・教職員のメールアドレスが漏えい",
+  "summary": "安否確認サービス「ANPIC」が使うアララのメール配信サービスへの不正アクセスで学生・教職員のメールアドレスが漏えい。",
+  "published_on": "2026-11-10",
+  "first_published_on": "2026-11-10",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-10",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "安否確認サービス「ANPIC」がメール送信に使うアララ株式会社の「アララメッセージ」への第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "2026年7月1日～10月31日にANPICから送信された学生・教職員のメールアドレス。件数は未公表。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "アララ株式会社",
+  "sources": [
+    {
+      "url": "https://www.pu-toyama.ac.jp/tpu/wp-content/uploads/2026/11/bf304e0fdebab04ebfedd9902f0f79aa.pdf",
+      "type": "official",
+      "title": "外部サービスへの不正アクセスによるメールアドレス漏えいについて",
+      "published_on": "2026-11-10",
+      "checked_on": "2026-11-12"
+    }
+  ],
+  "updates": [],
+  "notes": "大学自体のネットワーク・システムへの不正アクセスではない。"
+}

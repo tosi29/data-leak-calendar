@@ -11,7 +11,7 @@
   "publication_kind": "initial",
   "occurred_on": "2026-11-03",
   "detected_on": null,
-  "updated_on": "2026-11-05",
+  "updated_on": "2026-11-10",
   "verification": "official",
   "leak_status": "suspected",
   "incident_type": "attack",
@@ -51,6 +51,13 @@
       "title": "【重要】お客様の個人情報漏えいに関するお詫びとお知らせ",
       "published_on": "2026-11-05",
       "checked_on": "2026-11-08"
+    },
+    {
+      "url": "https://www.tosho-kaikan.jp/1110_info.pdf",
+      "type": "official",
+      "title": "【重要】お客様の個人情報漏えいの可能性に関するお知らせと注意喚起",
+      "published_on": "2026-11-10",
+      "checked_on": "2026-11-12"
     }
   ],
   "updates": [
@@ -58,6 +65,11 @@
       "date": "2026-11-05",
       "summary": "ナバックからの報告で件数を3,021件と公表。",
       "source_index": 1
+    },
+    {
+      "date": "2026-11-10",
+      "summary": "ナバックの第二報を受けた続報。漏えいした情報を悪用したとみられるフィッシングメールに注意を呼びかけ。",
+      "source_index": 2
     }
   ],
   "notes": "島嶼会館を装った不審なメールの送信を確認。ナバック自身の公表とは別記録。"

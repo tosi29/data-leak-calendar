@@ -1,0 +1,46 @@
+{
+  "id": "sanjo-kettou-arara-20261111",
+  "organization": {
+    "name": "三条市",
+    "sector": "自治体"
+  },
+  "title": "「じぶんで血糖チェック」のメール配信サービス（アララ）への不正アクセスで利用者のメールアドレスに漏えいの可能性",
+  "summary": "「じぶんで血糖チェック」のメール配信サービス（アララ）への不正アクセスで利用者のメールアドレスに漏えいの可能性。",
+  "published_on": "2026-11-11",
+  "first_published_on": "2026-11-11",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-11",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "生活習慣病予防事業「じぶんで血糖チェック」で使うアララ株式会社のメール配信サービスへの不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "「じぶんで血糖チェック」利用者のメールアドレス。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "アララ株式会社",
+  "sources": [
+    {
+      "url": "https://www.city.sanjo.niigata.jp/material/files/group/17/HP.pdf",
+      "type": "official",
+      "title": "メール配信サービスへの不正アクセスによる情報漏えいの可能性について",
+      "published_on": "2026-11-11",
+      "checked_on": "2026-11-12"
+    }
+  ],
+  "updates": [],
+  "notes": "委託事業者は日本生命保険相互会社等。株式会社Welbyが影響範囲を調査中。"
+}

@@ -11,9 +11,9 @@
   "publication_kind": "initial",
   "occurred_on": null,
   "detected_on": null,
-  "updated_on": "2026-10-23",
+  "updated_on": "2026-11-12",
   "verification": "official",
-  "leak_status": "suspected",
+  "leak_status": "ruled_out",
   "incident_type": "attack",
   "cause": {
     "category": "unauthorized_access",
@@ -40,8 +40,21 @@
       "title": "ブラストメールへの不正アクセスで医師情報に漏えいのおそれ",
       "published_on": "2026-10-23",
       "checked_on": "2026-10-27"
+    },
+    {
+      "url": "https://www.tohohd.co.jp/news/files/261112.pdf",
+      "type": "official",
+      "title": "当社子会社における情報漏洩の可能性に関するお知らせ（続報）",
+      "published_on": "2026-11-12",
+      "checked_on": "2026-11-12"
     }
   ],
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-11-12",
+      "summary": "続報。eヘルスケアが保有していた顧客情報・配信先情報に外部への漏洩を示す痕跡や事実はなく、漏洩には至らなかった。",
+      "source_index": 1
+    }
+  ],
   "notes": "確認済み288契約に当該契約IDは含まれないが、調査で変動する可能性があり流出なしと確定していない。約1,000件は約8,000件の内数。病院なび等本体の侵害とは区別し、エンタッチの別事案とも区別する。"
 }

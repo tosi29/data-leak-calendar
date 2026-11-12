@@ -1242,5 +1242,41 @@
       "https://www.city.nagakute.lg.jp/soshiki/somubu/shiminka/1/1/mynumber/28224.html"
     ],
     "note": "2026年11月10日調査：検索結果ではマイナンバーカード交付予約システムのメールアドレス流出を告知するページとされるが、直接取得・取得ツールともアクセス制限で本文を確認できず、公表日・対象も未確認のため保留。"
+  },
+  {
+    "id": "nov12-chikugo-website-review",
+    "organization": "筑後市（市公式ホームページ）",
+    "reported_on": "2026-11-10",
+    "verification": "pending",
+    "reference_url": "https://www.city.chikugo.lg.jp/shisei/_6166/_1882/_32180.html",
+    "reviewed_on": "2026-11-12",
+    "checked_urls": [
+      "https://www.city.chikugo.lg.jp/shisei/_6166/_1882/_32180.html"
+    ],
+    "note": "2026年11月12日調査：市公式ホームページへの不正アクセスで11月4日から閉鎖し、11月10日に再開。個人情報の漏えいの有無と対象範囲は調査継続中で、対象となる個人情報の種類も未公表のため保留。"
+  },
+  {
+    "id": "nov12-securenavi-notion-review",
+    "organization": "SecureNavi（Notionの委託先Fireworks AIへの不正アクセス）",
+    "reported_on": "2026-11-11",
+    "verification": "pending",
+    "reference_url": "https://secure-navi-inc.jp/news/news_20261111",
+    "reviewed_on": "2026-11-12",
+    "checked_urls": [
+      "https://secure-navi-inc.jp/news/news_20261111"
+    ],
+    "note": "2026年11月12日調査：公式ページは本文をスクリプトで描画し、題名（クラウドサービスの委託先への不正アクセスに伴う顧客に関する情報漏えいの可能性、第一報）のみ確認。対象情報・件数を本文で確認できないため保留。"
+  },
+  {
+    "id": "nov12-palma-webservice-review",
+    "organization": "パルマ（運営するWebサービス）",
+    "reported_on": "2026-11-10",
+    "verification": "pending",
+    "reference_url": "https://www.palma.jp/news/2794/",
+    "reviewed_on": "2026-11-12",
+    "checked_urls": [
+      "https://www.palma.jp/news/2794/"
+    ],
+    "note": "2026年11月12日調査：運営するWebサービスへの不正アクセスの痕跡を確認し、影響範囲と情報漏えいの有無を調査中と公表。対象サービス・個人情報への影響は未記載のため保留。"
   }
 ]

@@ -1,0 +1,47 @@
+{
+  "id": "sevenbank-residence-card-20261111",
+  "organization": {
+    "name": "セブン銀行",
+    "sector": "金融"
+  },
+  "title": "在留カード提出サイト等への不正アクセスで最大150件程度の在留カード券面情報に漏洩の可能性",
+  "summary": "在留カード提出サイト等への不正アクセスで最大150件程度の在留カード券面情報に漏洩の可能性。",
+  "published_on": "2026-11-11",
+  "first_published_on": "2026-11-11",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-11-09",
+  "updated_on": "2026-11-11",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "在留外国人口座保有者向け在留カード提出サイトと口座解約受付サイトへの第三者による不正アクセス。11月9日に確認。"
+  },
+  "impact": [
+    {
+      "count": 150,
+      "unit": "records",
+      "qualifier": "maximum_approximate",
+      "description": "在留カード提出サイトで保有していた在留カードの券面情報。"
+    }
+  ],
+  "data_types": [
+    "在留カード券面情報",
+    "口座解約申込情報"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.sevenbank.co.jp/support/info_notice127.html",
+      "type": "official",
+      "title": "当社システムへの不正アクセスによるお客さま情報の漏洩について",
+      "published_on": "2026-11-11",
+      "checked_on": "2026-11-12"
+    }
+  ],
+  "updates": [],
+  "notes": "口座解約受付サイトは2026年10月16日～11月9日の手続き者が対象。"
+}

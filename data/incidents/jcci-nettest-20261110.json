@@ -1,0 +1,67 @@
+{
+  "id": "jcci-nettest-20261110",
+  "organization": {
+    "name": "日本商工会議所",
+    "sector": "団体・組合"
+  },
+  "title": "ネット試験の試験管理システムへの不正アクセスで最大約98万人分（約197万件）の受験者情報に漏えいの可能性",
+  "summary": "ネット試験の試験管理システムへの不正アクセスで最大約98万人分（約197万件）の受験者情報に漏えいの可能性。",
+  "published_on": "2026-11-10",
+  "first_published_on": "2026-11-10",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-11-04",
+  "updated_on": "2026-11-10",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "vulnerability",
+    "certainty": "suspected",
+    "detail": "外部サーバー（試験管理システム）への不正アクセスで11月1日に不正なプログラムが設置された。11月4日深夜に脆弱性対策を実施。"
+  },
+  "impact": [
+    {
+      "count": 980000,
+      "unit": "people",
+      "qualifier": "maximum_approximate",
+      "description": "2022年4月1日～2026年11月4日のネット試験受験者。"
+    },
+    {
+      "count": 1970000,
+      "unit": "records",
+      "qualifier": "approximate",
+      "description": "受験者情報の件数。上記と同じ対象。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "フリガナ",
+    "性別",
+    "生年月日",
+    "合否結果",
+    "試験得点",
+    "メールアドレス",
+    "電話番号",
+    "住所"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.jcci.or.jp/news/news/2026/1110170000.html",
+      "type": "official",
+      "title": "商工会議所ネット試験管理システムへの不正アクセスによる受験者情報（個人情報）漏えいの可能性について",
+      "published_on": "2026-11-10",
+      "checked_on": "2026-11-12"
+    },
+    {
+      "url": "https://www.kentei.ne.jp/51816",
+      "type": "official",
+      "title": "商工会議所ネット試験管理システムへの不正アクセスによる受験者情報（個人情報）漏えいの可能性について",
+      "published_on": "2026-11-10",
+      "checked_on": "2026-11-12"
+    }
+  ],
+  "updates": [],
+  "notes": "メールアドレス・電話番号・住所は任意入力項目。"
+}

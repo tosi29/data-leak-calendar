@@ -1,0 +1,48 @@
+{
+  "id": "sourcenext-ir-form-20261110",
+  "organization": {
+    "name": "ソースネクスト（株主・投資家向けお問い合わせフォーム）",
+    "sector": "企業・団体"
+  },
+  "title": "IR向けお問い合わせフォームの設定不備で他の人の入力内容137件が第三者から閲覧可能な状態",
+  "summary": "IR向けお問い合わせフォームの設定不備で他の人の入力内容137件が第三者から閲覧可能な状態。",
+  "published_on": "2026-11-10",
+  "first_published_on": "2026-11-10",
+  "publication_kind": "initial",
+  "occurred_on": "2026-06-07",
+  "detected_on": "2026-11-09",
+  "updated_on": "2026-11-10",
+  "verification": "official",
+  "leak_status": "exposed",
+  "incident_type": "accident",
+  "cause": {
+    "category": "configuration",
+    "certainty": "confirmed",
+    "detail": "フォームの設定不備で、送信後の画面に他の人の入力内容を閲覧できるリンクが表示されていた。外部からの不正アクセスではない。"
+  },
+  "impact": [
+    {
+      "count": 137,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "2026年6月7日～11月9日の問い合わせ（企業・団体の担当者53件を含む）。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス",
+    "氏名",
+    "問い合わせ内容"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.sourcenext.com/support/i/2026/1110_info/",
+      "type": "official",
+      "title": "「株主・投資家の皆様からのお問い合わせフォーム」における、お客様情報の閲覧可能状態に関するお詫びとお知らせ",
+      "published_on": "2026-11-10",
+      "checked_on": "2026-11-12"
+    }
+  ],
+  "updates": [],
+  "notes": "外部からの指摘で判明。"
+}

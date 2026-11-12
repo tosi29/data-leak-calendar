@@ -1,0 +1,47 @@
+{
+  "id": "kirin-ownly-20261110",
+  "organization": {
+    "name": "キリンビール・キリンビバレッジ",
+    "sector": "企業・団体"
+  },
+  "title": "キャンペーンで使った外部ツール「OWNLY」への不正アクセスで参加者情報1,825件（うち個人情報329件）が漏えい",
+  "summary": "キャンペーンで使った外部ツール「OWNLY」への不正アクセスで参加者情報1,825件（うち個人情報329件）が漏えい。",
+  "published_on": "2026-11-10",
+  "first_published_on": "2026-11-10",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-11-06",
+  "updated_on": "2026-11-10",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "キャンペーンで使用していたスマートシェア株式会社の外部ツール「OWNLY」への第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 329,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "個人を特定できるLINEの表示名。参加者情報1,825件の内数。"
+    }
+  ],
+  "data_types": [
+    "LINEの表示名",
+    "Xのユーザー名"
+  ],
+  "related_vendor": "スマートシェア株式会社",
+  "sources": [
+    {
+      "url": "https://www.kirinholdings.com/jp/newsroom/release/2026/1110_03.pdf",
+      "type": "official",
+      "title": "業務委託先への不正アクセスによるお客様情報漏えいに関するお詫びとお知らせ",
+      "published_on": "2026-11-10",
+      "checked_on": "2026-11-12"
+    }
+  ],
+  "updates": [],
+  "notes": "2021～2023年の37キャンペーンが対象。共同公表のため1記録。スマートシェアの公表は既存の別記録。"
+}

@@ -1,0 +1,66 @@
+{
+  "id": "onescloset-20261105",
+  "organization": {
+    "name": "フレイトリンクスジャパン（One'sCloset）",
+    "sector": "企業・団体"
+  },
+  "title": "クラウドサービス「One'sCloset」のサーバーへの不正アクセスで約167万件（約129万人）の顧客情報とEC連携APIキーが漏洩",
+  "summary": "クラウドサービス「One'sCloset」のサーバーへの不正アクセスで約167万件（約129万人）の顧客情報とEC連携APIキーが漏洩。",
+  "published_on": "2026-11-05",
+  "first_published_on": "2026-11-05",
+  "publication_kind": "initial",
+  "occurred_on": "2026-11-02",
+  "detected_on": null,
+  "updated_on": "2026-11-12",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "2026年11月2日0時頃からサーバー環境への第三者による不正アクセス。不正なプログラムが実行されデータベースの情報が取得された。"
+  },
+  "impact": [
+    {
+      "count": 1290000,
+      "unit": "people",
+      "qualifier": "approximate",
+      "description": "名寄せ後の推計顧客数。"
+    },
+    {
+      "count": 1670000,
+      "unit": "records",
+      "qualifier": "approximate",
+      "description": "全利用事業者分の対象データ。上記と同じ対象。"
+    }
+  ],
+  "data_types": [
+    "顧客情報",
+    "EC連携API接続キー"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://ones-closet.com/page/incident/2611-1",
+      "type": "official",
+      "title": "【重要】不正アクセスによる情報漏洩の可能性およびシステム障害に関するお詫びとご報告（第一報）",
+      "published_on": "2026-11-05",
+      "checked_on": "2026-11-12"
+    },
+    {
+      "url": "https://ones-closet.com/page/incident/2611-2",
+      "type": "official",
+      "title": "【重要・第二報】不正アクセスによる個人情報およびEC連携API接続キーの漏洩に関するご報告とお詫び",
+      "published_on": "2026-11-12",
+      "checked_on": "2026-11-12"
+    }
+  ],
+  "updates": [
+    {
+      "date": "2026-11-12",
+      "summary": "第二報。個人情報とEC連携API接続キーの漏洩を確認。対象は約167万件、名寄せ後約129万人。",
+      "source_index": 1
+    }
+  ],
+  "notes": ""
+}

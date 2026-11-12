@@ -1,0 +1,50 @@
+{
+  "id": "openlogi-system-20261111",
+  "organization": {
+    "name": "オープンロジ",
+    "sector": "企業・団体"
+  },
+  "title": "物流システムへの不正アクセスで2026年4月8日～11月8日の出荷データに含まれるお届け先の個人情報が外部に持ち出された",
+  "summary": "物流システムへの不正アクセスで2026年4月8日～11月8日の出荷データに含まれるお届け先の個人情報が外部に持ち出された。",
+  "published_on": "2026-11-11",
+  "first_published_on": "2026-11-11",
+  "publication_kind": "initial",
+  "occurred_on": "2026-11-08",
+  "detected_on": null,
+  "updated_on": "2026-11-11",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "2026年11月8～9日の外部の第三者による自社システムへの不正アクセス。11月9日に経路を遮断し、国外からのアクセス制限等を実施。原因は調査中。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "2026年4月8日～11月8日に依頼された出荷データのお届け先情報。範囲と件数は調査中。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "電話番号",
+    "メールアドレス",
+    "購入商品情報"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://corp.openlogi.com/news/notice/notice-20261111/",
+      "type": "official",
+      "title": "【重要】当社システムへの不正アクセスによる個人情報漏えいに関するお詫びとお知らせ",
+      "published_on": "2026-11-11",
+      "checked_on": "2026-11-12"
+    }
+  ],
+  "updates": [],
+  "notes": "クレジットカード番号は保有しておらず対象外。荷主事業者の各公表は別記録。"
+}

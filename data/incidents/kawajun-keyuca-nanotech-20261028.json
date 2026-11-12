@@ -1,0 +1,63 @@
+{
+  "id": "kawajun-keyuca-nanotech-20261028",
+  "organization": {
+    "name": "河淳（KEYUCA）",
+    "sector": "企業・団体"
+  },
+  "title": "KEYUCA事業の委託先ナノテックが管理するサーバーへの不正アクセスで受注システムから最大77,105件の個人情報が漏えい",
+  "summary": "KEYUCA事業の委託先ナノテックが管理するサーバーへの不正アクセスで受注システムから最大77,105件の個人情報が漏えい。",
+  "published_on": "2026-10-28",
+  "first_published_on": "2026-10-28",
+  "publication_kind": "initial",
+  "occurred_on": "2026-10-21",
+  "detected_on": "2026-10-21",
+  "updated_on": "2026-11-11",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "vulnerability",
+    "certainty": "confirmed",
+    "detail": "システムの開発・運用委託先株式会社ナノテックが管理するサーバーで、ウェブアプリケーションの脆弱性を悪用して不正なプログラムが設置された。"
+  },
+  "impact": [
+    {
+      "count": 77105,
+      "unit": "records",
+      "qualifier": "maximum",
+      "description": "家具・カーテン注文客の一部（最大530件）や名入れ依頼客等の合計。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "電話番号",
+    "性別",
+    "注文情報"
+  ],
+  "related_vendor": "株式会社ナノテック",
+  "sources": [
+    {
+      "url": "https://www.kawajun.co.jp/news/keyuca/notification-of-unauthorized-access-20261028/",
+      "type": "official",
+      "title": "【重要】「カーテン見積もりイージーオーダーシステム」「壁面収納シミュレーションシステム」一時停止と不正アクセスに関するお知らせ",
+      "published_on": "2026-10-28",
+      "checked_on": "2026-11-12"
+    },
+    {
+      "url": "https://www.kawajun.co.jp/news/keyuca/notification-of-unauthorized-access-20261111/",
+      "type": "official",
+      "title": "当社システムへの不正アクセスによる個人情報漏えいに関するお知らせとお詫び（第2報）",
+      "published_on": "2026-11-11",
+      "checked_on": "2026-11-12"
+    }
+  ],
+  "updates": [
+    {
+      "date": "2026-11-11",
+      "summary": "第2報。11月9日に外部専門機関の調査で個人情報の漏えいを確認。最大77,105件。",
+      "source_index": 1
+    }
+  ],
+  "notes": "同じ委託先の事案として良品計画等の公表が既存記録にある。"
+}

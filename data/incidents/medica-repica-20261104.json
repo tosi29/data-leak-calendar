@@ -1,0 +1,59 @@
+{
+  "id": "medica-repica-20261104",
+  "organization": {
+    "name": "メディカ出版",
+    "sector": "企業・団体"
+  },
+  "title": "マーケティングシステム提供元データXが使うアララ「repica」への不正アクセスで配信先メールアドレス168,194件が流出",
+  "summary": "マーケティングシステム提供元データXが使うアララ「repica」への不正アクセスで配信先メールアドレス168,194件が流出。",
+  "published_on": "2026-11-04",
+  "first_published_on": "2026-11-04",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-10",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "マーケティングシステムを提供する株式会社データXが利用するアララ株式会社のメール配信サービス「repica」への第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 168194,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "2026年10月8日～29日に配信したメールの宛先メールアドレス。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "アララ株式会社",
+  "sources": [
+    {
+      "url": "https://www.medica.co.jp/news/information/3854/",
+      "type": "official",
+      "title": "メール配信サービスへの不正アクセスによる個人情報流出について",
+      "published_on": "2026-11-04",
+      "checked_on": "2026-11-12"
+    },
+    {
+      "url": "https://www.medica.co.jp/news/information/3858/",
+      "type": "official",
+      "title": "【第2報】弊社委託先メール配信サービスへの不正アクセスによる個人情報流出について",
+      "published_on": "2026-11-10",
+      "checked_on": "2026-11-12"
+    }
+  ],
+  "updates": [
+    {
+      "date": "2026-11-10",
+      "summary": "第2報。流出対象は168,194件と公表。流出はメールアドレスのみ。",
+      "source_index": 1
+    }
+  ],
+  "notes": ""
+}

@@ -11,7 +11,7 @@
   "publication_kind": "initial",
   "occurred_on": null,
   "detected_on": null,
-  "updated_on": "2026-11-04",
+  "updated_on": "2026-11-11",
   "verification": "official",
   "leak_status": "confirmed",
   "incident_type": "attack",
@@ -29,7 +29,8 @@
     }
   ],
   "data_types": [
-    "メールアドレス"
+    "メールアドレス",
+    "氏名"
   ],
   "related_vendor": "アララ株式会社",
   "sources": [
@@ -41,6 +42,12 @@
       "checked_on": "2026-11-08"
     }
   ],
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-11-11",
+      "summary": "11月11日更新。983,458件のうち氏名も併せて漏えいした件数は1,213件。",
+      "source_index": 0
+    }
+  ],
   "notes": "メールアドレスの一覧と属性情報の詳細はアララに確認中。カード情報はアララに連携していない。"
 }

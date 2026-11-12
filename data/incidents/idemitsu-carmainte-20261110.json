@@ -1,0 +1,46 @@
+{
+  "id": "idemitsu-carmainte-20261110",
+  "organization": {
+    "name": "出光興産（idemitsu カーメンテ予約）",
+    "sector": "企業・団体"
+  },
+  "title": "「idemitsu カーメンテ予約」への不正アクセスで利用者の個人情報の一部に漏洩の可能性",
+  "summary": "「idemitsu カーメンテ予約」への不正アクセスで利用者の個人情報の一部に漏洩の可能性。",
+  "published_on": "2026-11-10",
+  "first_published_on": "2026-11-10",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-11-09",
+  "updated_on": "2026-11-10",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "「idemitsu カーメンテ予約」（旧PIT in plus）への第三者による不正アクセス。11月9日に判明。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "本サービスの利用者。対象・範囲は調査中。"
+    }
+  ],
+  "data_types": [
+    "個人情報（項目は調査中）"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.idemitsu.com/jp/information/2026/261110.pdf",
+      "type": "official",
+      "title": "「idemitsu カーメンテ予約」への不正アクセスによる個人情報漏洩の可能性",
+      "published_on": "2026-11-10",
+      "checked_on": "2026-11-12"
+    }
+  ],
+  "updates": [],
+  "notes": "11月10日からサービスを一時停止。"
+}

@@ -1,0 +1,51 @@
+{
+  "id": "odakyu-studio-20261111",
+  "organization": {
+    "name": "小田急電鉄（いちのいち・TORANOTE・NEUU）",
+    "sector": "企業・団体"
+  },
+  "title": "Webサイト制作サービス「Studio」への不正アクセスで3サービスのフォーム送信情報に流出の可能性",
+  "summary": "Webサイト制作サービス「Studio」への不正アクセスで3サービスのフォーム送信情報に流出の可能性。",
+  "published_on": "2026-11-11",
+  "first_published_on": "2026-11-11",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-11",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "vulnerability",
+    "certainty": "suspected",
+    "detail": "一部サービスのWebサイトで利用する「Studio」への第三者による不正アクセス。Studio社が脆弱性を修正済み。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "いちのいち約550件、NEUU約50件、TORANOTEは確認中。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "電話番号",
+    "メールアドレス",
+    "住所（一部）",
+    "会社名・所属",
+    "問い合わせ内容"
+  ],
+  "related_vendor": "STUDIO株式会社",
+  "sources": [
+    {
+      "url": "https://www.odakyu.jp/support/makhce0000003mqi-att/makhce0000003mqp.pdf",
+      "type": "official",
+      "title": "当社サービスにおけるお客さま情報の流出可能性について（お詫び）",
+      "published_on": "2026-11-11",
+      "checked_on": "2026-11-12"
+    }
+  ],
+  "updates": [],
+  "notes": "「いちのいち」は10月16日にサービスサイトで公表済み。"
+}

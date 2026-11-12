@@ -11,7 +11,7 @@
   "publication_kind": "initial",
   "occurred_on": null,
   "detected_on": "2026-11-02",
-  "updated_on": "2026-11-04",
+  "updated_on": "2026-11-11",
   "verification": "official",
   "leak_status": "confirmed",
   "incident_type": "attack",
@@ -46,6 +46,13 @@
       "title": "当行委託先提供のメール配信サービスへの不正アクセスによるお客さまメールアドレス流出について（第2報）",
       "published_on": "2026-11-04",
       "checked_on": "2026-11-08"
+    },
+    {
+      "url": "https://www.ryugin.co.jp/corporate/news/100841/",
+      "type": "official",
+      "title": "当行委託先提供のメール配信サービスへの不正アクセスによるお客さまメールアドレス流出について（第3報）",
+      "published_on": "2026-11-11",
+      "checked_on": "2026-11-12"
     }
   ],
   "updates": [
@@ -53,6 +60,11 @@
       "date": "2026-11-04",
       "summary": "第2報。提供元がアララのrepicaと明記し、流出件数を96,477件と公表。氏名・住所・口座情報・暗証番号等の流出は未確認。",
       "source_index": 1
+    },
+    {
+      "date": "2026-11-11",
+      "summary": "第3報。流出したメールアドレスは96,477件（10月8日～29日の配信分）で変更なし。",
+      "source_index": 2
     }
   ],
   "notes": "銀行システムへの不正アクセスではないと説明。"

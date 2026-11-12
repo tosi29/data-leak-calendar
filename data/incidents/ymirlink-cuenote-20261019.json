@@ -11,7 +11,7 @@
   "publication_kind": "initial",
   "occurred_on": null,
   "detected_on": "2026-10-16",
-  "updated_on": "2026-10-26",
+  "updated_on": "2026-11-11",
   "verification": "official",
   "leak_status": "confirmed",
   "incident_type": "attack",
@@ -22,16 +22,16 @@
   },
   "impact": [
     {
-      "count": 51628280,
+      "count": 47864147,
       "unit": "records",
       "qualifier": "exact",
-      "description": "Cuenote FCの漏えいのおそれがある延べ情報件数。16システムは件数を調査中で増加の可能性あり。"
+      "description": "Cuenote FCの配信先情報（延べ）。"
     },
     {
       "count": 190,
       "unit": "records",
       "qualifier": "exact",
-      "description": "Cuenote BASEで閲覧可能だった契約者情報。FCの流出確認と区別する。"
+      "description": "企業名・氏名・電話番号・メールアドレス。"
     }
   ],
   "data_types": [
@@ -59,6 +59,13 @@
       "title": "当社システムへの不正なアクセスに関するご報告（第二報）",
       "published_on": "2026-10-26",
       "checked_on": "2026-10-26"
+    },
+    {
+      "url": "https://www.release.tdnet.info/inbs/140120261111572569.pdf",
+      "type": "official",
+      "title": "当社システムへの不正なアクセスに関するご報告（第三報）",
+      "published_on": "2026-11-11",
+      "checked_on": "2026-11-12"
     }
   ],
   "updates": [
@@ -66,6 +73,11 @@
       "date": "2026-10-26",
       "summary": "FCのデータ出力確認が49システム、対象規模が延べ51,628,280件へ拡大。BASEの契約者情報190件が閲覧可能だったことも公表。",
       "source_index": 1
+    },
+    {
+      "date": "2026-11-11",
+      "summary": "第三報。Cuenote FCの49システムで情報漏洩。配信先情報は延べ47,864,147件で確定（第二報の最大試算約5,162万件から重複等を除外）。",
+      "source_index": 2
     }
   ],
   "notes": "FCはデータ出力を確認しているが、51,628,280件は公表上の漏えいのおそれがある延べ件数で実人数ではない。BASEの190件は閲覧可能状態として区別し合算しない。個人情報の不特定多数への公開・不正利用は未確認。"

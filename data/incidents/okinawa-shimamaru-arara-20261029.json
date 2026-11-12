@@ -11,9 +11,9 @@
   "publication_kind": "initial",
   "occurred_on": null,
   "detected_on": null,
-  "updated_on": "2026-11-01",
+  "updated_on": "2026-11-11",
   "verification": "official",
-  "leak_status": "suspected",
+  "leak_status": "confirmed",
   "incident_type": "attack",
   "cause": {
     "category": "unauthorized_access",
@@ -22,10 +22,10 @@
   },
   "impact": [
     {
-      "count": 2560,
+      "count": 2400,
       "unit": "records",
       "qualifier": "exact",
-      "description": "メール配信サービスに登録したアドレス件数。"
+      "description": "島まーる会員のメールアドレス。"
     }
   ],
   "data_types": [
@@ -41,6 +41,12 @@
       "checked_on": "2026-11-01"
     }
   ],
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-11-11",
+      "summary": "第2報。アララの調査結果で流出件数は2,400件（第1報の対象2,560件から確定）。",
+      "source_index": 0
+    }
+  ],
   "notes": "事業受託者は離島とのつながり促進事業共同企業体（代表：おきなわコークリエーション）。氏名は対象外。"
 }

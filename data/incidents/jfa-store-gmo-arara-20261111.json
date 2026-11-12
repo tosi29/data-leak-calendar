@@ -1,0 +1,46 @@
+{
+  "id": "jfa-store-gmo-arara-20261111",
+  "organization": {
+    "name": "日本サッカー協会（JFA STORE）",
+    "sector": "企業・団体"
+  },
+  "title": "JFA STOREの後払い決済を提供するGMOペイメントサービスの委託先が使うアララへの不正アクセスでメールアドレス11件が漏えい",
+  "summary": "JFA STOREの後払い決済を提供するGMOペイメントサービスの委託先が使うアララへの不正アクセスでメールアドレス11件が漏えい。",
+  "published_on": "2026-11-11",
+  "first_published_on": "2026-11-11",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-11",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "GMOペイメントサービスの委託先が利用するアララ株式会社のメール配信サービスへの不正アクセス。アララのWebサーバーの脆弱性等が関係。"
+  },
+  "impact": [
+    {
+      "count": 11,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "「GMO後払い」を利用した客のメールアドレス。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "アララ株式会社",
+  "sources": [
+    {
+      "url": "https://www.jfa.jp/about_jfa/news/00037015/",
+      "type": "official",
+      "title": "JFA STOREで「GMO後払い」をご利用のお客様の情報への不正アクセスに関するご報告",
+      "published_on": "2026-11-11",
+      "checked_on": "2026-11-12"
+    }
+  ],
+  "updates": [],
+  "notes": "JFAおよびJFA STOREのシステムへの不正アクセスではない。"
+}

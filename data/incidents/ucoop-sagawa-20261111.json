@@ -1,0 +1,48 @@
+{
+  "id": "ucoop-sagawa-20261111",
+  "organization": {
+    "name": "ユーコープ（おうちCO-OP）",
+    "sector": "団体・組合"
+  },
+  "title": "佐川急便の「お荷物問い合わせサービス」への不正アクセスで佐川急便を利用したおうちCO-OPの配送情報に流出の可能性",
+  "summary": "佐川急便の「お荷物問い合わせサービス」への不正アクセスで佐川急便を利用したおうちCO-OPの配送情報に流出の可能性。",
+  "published_on": "2026-11-11",
+  "first_published_on": "2026-11-11",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-11",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "佐川急便株式会社の「お荷物問い合わせサービス」への第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "2026年9月30日から遡り約100日間に佐川急便を利用した配送。利用件数・人数は流出確認数ではない。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "電話番号"
+  ],
+  "related_vendor": "佐川急便株式会社",
+  "sources": [
+    {
+      "url": "https://www.ucoop.or.jp/info/2026/info_34598.html",
+      "type": "official",
+      "title": "佐川急便株式会社への不正アクセスに伴う個人情報流出の可能性について",
+      "published_on": "2026-11-11",
+      "checked_on": "2026-11-12"
+    }
+  ],
+  "updates": [],
+  "notes": "既存のユーコープ（repica）事案とは別事案。"
+}

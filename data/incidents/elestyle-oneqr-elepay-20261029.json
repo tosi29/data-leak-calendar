@@ -11,7 +11,7 @@
   "publication_kind": "initial",
   "occurred_on": "2026-10-25",
   "detected_on": "2026-10-25",
-  "updated_on": "2026-10-31",
+  "updated_on": "2026-11-11",
   "verification": "official",
   "leak_status": "suspected",
   "incident_type": "attack",
@@ -41,8 +41,21 @@
       "title": "加盟店の登録情報に不正取得のおそれ",
       "published_on": "2026-10-29",
       "checked_on": "2026-10-31"
+    },
+    {
+      "url": "https://elestyle.jp/20261111-report",
+      "type": "official",
+      "title": "当社システムへの不正アクセスに関する対応完了のご報告",
+      "published_on": "2026-11-11",
+      "checked_on": "2026-11-12"
     }
   ],
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-11-11",
+      "summary": "対応完了の報告。原因は管理システムの一部機能のアクセス制御の不備の悪用で、サーバーへの侵入はない。取得された可能性があるのは加盟店の管理画面アカウントのユーザー名・メールアドレス・システム内部識別子。",
+      "source_index": 1
+    }
+  ],
   "notes": "25日9時半頃～16時頃のアクセス。加盟店登録情報でありエンドユーザー情報・カード・口座・取引情報は対象外。サーバー侵入・管理画面の不正ログインは未確認。"
 }

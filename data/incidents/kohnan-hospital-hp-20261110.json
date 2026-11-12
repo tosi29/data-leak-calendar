@@ -1,0 +1,53 @@
+{
+  "id": "kohnan-hospital-hp-20261110",
+  "organization": {
+    "name": "広南会広南病院",
+    "sector": "医療機関"
+  },
+  "title": "ホームページへの不正アクセスで看護部お問い合わせフォーム利用者約124名の個人情報が漏洩",
+  "summary": "ホームページへの不正アクセスで看護部お問い合わせフォーム利用者約124名の個人情報が漏洩。",
+  "published_on": "2026-11-10",
+  "first_published_on": "2026-11-10",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-10-30",
+  "updated_on": "2026-11-10",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "病院ホームページへの不正アクセス。原因は管理委託先の外部専門会社が調査中。"
+  },
+  "impact": [
+    {
+      "count": 124,
+      "unit": "people",
+      "qualifier": "approximate",
+      "description": "2022年12月17日～2026年10月29日に看護部お問い合わせフォームを利用した人。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "生年月日",
+    "性別",
+    "メールアドレス",
+    "住所",
+    "電話番号",
+    "学校名",
+    "問い合わせ内容"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.kohnan-sendai.or.jp/news/patient/jyouhou.html",
+      "type": "official",
+      "title": "当院ホームページへの不正アクセスによる個人情報漏洩に関するご報告とお詫び（第１報）",
+      "published_on": "2026-11-10",
+      "checked_on": "2026-11-12"
+    }
+  ],
+  "updates": [],
+  "notes": "医療情報システムへの影響は確認されていない。"
+}

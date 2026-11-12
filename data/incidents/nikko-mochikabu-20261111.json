@@ -1,0 +1,53 @@
+{
+  "id": "nikko-mochikabu-20261111",
+  "organization": {
+    "name": "SMBC日興証券",
+    "sector": "金融"
+  },
+  "title": "持株会事務受託業務で使う持株会管理システムへの不正アクセスで最大56,487名の会員情報が漏えい",
+  "summary": "持株会事務受託業務で使う持株会管理システムへの不正アクセスで最大56,487名の会員情報が漏えい。",
+  "published_on": "2026-11-11",
+  "first_published_on": "2026-11-11",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-11-09",
+  "updated_on": "2026-11-11",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "持株会事務受託業務で使用するシステムへの第三者による不正アクセス。11月9日に確認。"
+  },
+  "impact": [
+    {
+      "count": 56487,
+      "unit": "people",
+      "qualifier": "maximum",
+      "description": "漏えい、またはその可能性がある持株会の会員。"
+    }
+  ],
+  "data_types": [
+    "持株会名",
+    "投資銘柄情報",
+    "会員識別番号",
+    "氏名",
+    "住所",
+    "配当金・諸税",
+    "持分残高",
+    "振替先口座情報"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.smbcnikko.co.jp/news/release/2026/pdf/261111_01.pdf",
+      "type": "official",
+      "title": "当社持株会管理システムへの不正アクセスによる個人情報の漏えいについて",
+      "published_on": "2026-11-11",
+      "checked_on": "2026-11-12"
+    }
+  ],
+  "updates": [],
+  "notes": "電話番号・メールアドレスはシステムに登録されておらず対象外。項目は会員ごとに異なる。"
+}

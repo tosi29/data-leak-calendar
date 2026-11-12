@@ -1,0 +1,51 @@
+{
+  "id": "sapporo-shortfest-teket-20261110",
+  "organization": {
+    "name": "札幌国際短編映画祭",
+    "sector": "企業・団体"
+  },
+  "title": "オンラインチケット決済に使ってきた「teket」への不正アクセスによる情報流出でチケット販売を変更",
+  "summary": "オンラインチケット決済に使ってきた「teket」への不正アクセスによる情報流出でチケット販売を変更。",
+  "published_on": "2026-11-10",
+  "first_published_on": "2026-11-10",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-10",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "電子チケット販売・管理サービス「teket」を運営する株式会社teketのシステムへの第三者による不正アクセス。侵入経路は調査中。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "teketで申込・購入した利用者。件数は未公表。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "メールアドレス",
+    "生年月日",
+    "住所",
+    "電話番号",
+    "チケット情報"
+  ],
+  "related_vendor": "株式会社teket",
+  "sources": [
+    {
+      "url": "https://sapporoshortfest.jp/page_news_jp/teket-owabi/",
+      "type": "official",
+      "title": "酔っ払いプログラム、テケトでチケット購入済みの方へ",
+      "published_on": "2026-11-10",
+      "checked_on": "2026-11-12"
+    }
+  ],
+  "updates": [],
+  "notes": "teketの公表では全会員の氏名・メールアドレスと、登録・購入状況に応じたその他の項目が流出対象。"
+}

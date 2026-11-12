@@ -1,0 +1,59 @@
+{
+  "id": "tradewaltz-20261110",
+  "organization": {
+    "name": "トレードワルツ（TradeWaltz）",
+    "sector": "企業・団体"
+  },
+  "title": "外部委託事業者のサーバーから窃取されたアクセスキーによる不正アクセスで貿易書類130件が漏洩",
+  "summary": "外部委託事業者のサーバーから窃取されたアクセスキーによる不正アクセスで貿易書類130件が漏洩。",
+  "published_on": "2026-11-10",
+  "first_published_on": "2026-11-10",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-11-10",
+  "updated_on": "2026-11-12",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "credentials",
+    "certainty": "confirmed",
+    "detail": "資本関係のない外部委託事業者が運用するサーバーが攻撃を受け、保管されていたシステム管理用アクセスキーが悪用された。"
+  },
+  "impact": [
+    {
+      "count": 130,
+      "unit": "documents",
+      "qualifier": "exact",
+      "description": "氏名・イニシャルを含む貿易書類。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "イニシャル",
+    "貿易書類"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.tradewaltz.com/news/13816/",
+      "type": "official",
+      "title": "【重要】不正アクセスの検知およびサービス一時停止のお知らせ（第9報更新）",
+      "published_on": "2026-11-12",
+      "checked_on": "2026-11-12"
+    }
+  ],
+  "updates": [
+    {
+      "date": "2026-11-11",
+      "summary": "貿易書類130件の漏洩を確認。原因は外部委託事業者のサーバーに保管されたアクセスキーの悪用。",
+      "source_index": 0
+    },
+    {
+      "date": "2026-11-12",
+      "summary": "第9報。漏洩対象の範囲特定を完了し、対象の顧客に個別連絡。",
+      "source_index": 0
+    }
+  ],
+  "notes": ""
+}

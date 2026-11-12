@@ -11,7 +11,7 @@
   "publication_kind": "initial",
   "occurred_on": null,
   "detected_on": "2026-10-29",
-  "updated_on": "2026-11-06",
+  "updated_on": "2026-11-10",
   "verification": "official",
   "leak_status": "confirmed",
   "incident_type": "attack",
@@ -22,10 +22,10 @@
   },
   "impact": [
     {
-      "count": 547,
+      "count": 517,
       "unit": "records",
       "qualifier": "exact",
-      "description": "11月4日時点。カーシェアリングのカスタマーセンターへの問い合わせ記録数で実人数とは異なる場合がある。"
+      "description": "客の氏名（姓のみとフルネームが混在）。第一報の547件から訂正。"
     }
   ],
   "data_types": [
@@ -46,8 +46,21 @@
       "title": "カスタマーセンター業務委託先システムへの不正アクセスによる個人情報漏えいについて",
       "published_on": "2026-11-06",
       "checked_on": "2026-11-09"
+    },
+    {
+      "url": "https://rexev.co.jp/2026/11/10/post-15310/",
+      "type": "official",
+      "title": "カスタマーセンター業務委託先システムへの不正アクセスによる個人情報漏えいについて （第二報）",
+      "published_on": "2026-11-10",
+      "checked_on": "2026-11-12"
     }
   ],
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-11-10",
+      "summary": "第二報。精査の結果、氏名の件数を547件から517件に訂正（17件は入力ミスによる誤登録等）。",
+      "source_index": 1
+    }
+  ],
   "notes": "eemoカーシェアリング等。口座・カード情報・ログインパスワードの流出は確認されていない。"
 }

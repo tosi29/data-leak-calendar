@@ -11,9 +11,9 @@
   "publication_kind": "initial",
   "occurred_on": null,
   "detected_on": null,
-  "updated_on": "2026-11-06",
+  "updated_on": "2026-11-11",
   "verification": "official",
-  "leak_status": "investigating",
+  "leak_status": "ruled_out",
   "incident_type": "attack",
   "cause": {
     "category": "unauthorized_access",
@@ -39,8 +39,21 @@
       "title": "不正アクセスによる一部情報漏えいの可能性について",
       "published_on": "2026-11-06",
       "checked_on": "2026-11-09"
+    },
+    {
+      "url": "https://www.webmoney.jp/news/2026/18261.html",
+      "type": "official",
+      "title": "不正アクセスによる一部情報漏えいと今後の対応について",
+      "published_on": "2026-11-11",
+      "checked_on": "2026-11-12"
     }
   ],
-  "updates": [],
-  "notes": "不正利用の懸念がある一部のプリペイド番号を利用制限し、一部サービスを一時停止。"
+  "updates": [
+    {
+      "date": "2026-11-11",
+      "summary": "続報。外部委託先が運用するWebMoneyシステムから一部のプリペイド番号が漏えいしていたことが判明し、該当番号を利用停止。客の個人情報の漏えいはないと公表。",
+      "source_index": 1
+    }
+  ],
+  "notes": "不正利用の懸念がある一部のプリペイド番号を利用制限し、一部サービスを一時停止。 11月11日の続報で個人情報の漏えいは否定。漏えいしたプリペイド番号は個人情報ではない。"
 }

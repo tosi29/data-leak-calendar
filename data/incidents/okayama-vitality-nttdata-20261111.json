@@ -1,0 +1,48 @@
+{
+  "id": "okayama-vitality-nttdata-20261111",
+  "organization": {
+    "name": "岡山県（おかやまVitalityウォーク）",
+    "sector": "自治体"
+  },
+  "title": "住友生命が業務委託するNTTデータのシステムへの不正アクセスで「おかやまVitalityウォーク」参加者25件の情報が漏えい",
+  "summary": "住友生命が業務委託するNTTデータのシステムへの不正アクセスで「おかやまVitalityウォーク」参加者25件の情報が漏えい。",
+  "published_on": "2026-11-11",
+  "first_published_on": "2026-11-11",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-11",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "住友生命が関連業務を委託する株式会社NTTデータのシステムへの第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 25,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "漢字氏名・カナ氏名・生年月日・Vitality会員番号。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "生年月日",
+    "Vitality会員番号"
+  ],
+  "related_vendor": "株式会社NTTデータ",
+  "sources": [
+    {
+      "url": "https://www.pref.okayama.lg.jp/site/presssystem/1065566.html",
+      "type": "official",
+      "title": "おかやまVitalityウォークにおける情報漏えいについて",
+      "published_on": "2026-11-11",
+      "checked_on": "2026-11-12"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

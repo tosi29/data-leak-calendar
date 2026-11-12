@@ -1,0 +1,48 @@
+{
+  "id": "tabiiro-arara-20261110",
+  "organization": {
+    "name": "旅色トラベル",
+    "sector": "企業・団体"
+  },
+  "title": "「旅色」のメール配信に使っていた「アララメッセージ」への不正アクセスで会員のメールアドレス53,304件と一部の会員登録情報が流出",
+  "summary": "「旅色」のメール配信に使っていた「アララメッセージ」への不正アクセスで会員のメールアドレス53,304件と一部の会員登録情報が流出。",
+  "published_on": "2026-11-10",
+  "first_published_on": "2026-11-10",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-10",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "メール配信業務に利用していたアララ株式会社の「アララメッセージ」への第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 53304,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "会員のメールアドレス（重複を除く）。うち44,531件は会員登録情報の一部も流出。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス",
+    "ユーザー名（ニックネーム）",
+    "会員登録情報の一部"
+  ],
+  "related_vendor": "アララ株式会社",
+  "sources": [
+    {
+      "url": "https://tabiiro.jp/information/arara_notice_20261110.pdf",
+      "type": "official",
+      "title": "メールアドレス等流出に関するお詫びとお知らせ",
+      "published_on": "2026-11-10",
+      "checked_on": "2026-11-12"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

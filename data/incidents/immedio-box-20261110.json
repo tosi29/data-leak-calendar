@@ -1,0 +1,47 @@
+{
+  "id": "immedio-box-20261110",
+  "organization": {
+    "name": "immedio（immedio Box）",
+    "sector": "企業・団体"
+  },
+  "title": "クラウドストレージの動画ファイル一覧が外部から取得され利用企業の動画に映る個人データに漏えいのおそれ",
+  "summary": "クラウドストレージの動画ファイル一覧が外部から取得され利用企業の動画に映る個人データに漏えいのおそれ。",
+  "published_on": "2026-11-10",
+  "first_published_on": "2026-11-10",
+  "publication_kind": "initial",
+  "occurred_on": "2026-11-05",
+  "detected_on": "2026-11-05",
+  "updated_on": "2026-11-10",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "11月5日早朝からの外部の不審なアクセスで、利用企業がアップロードした動画のファイル一覧（URLを含む）が複数回取得された。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "images",
+      "qualifier": "unknown",
+      "description": "immedio Boxに保存された動画。約18時間閲覧可能な状態だった。"
+    }
+  ],
+  "data_types": [
+    "動画に映る人物の容姿・音声",
+    "氏名"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.immedio.io/news/page-5162/",
+      "type": "official",
+      "title": "【第一報】immedio Boxにおける動画ファイルURL情報の取得に関するお知らせとお詫び",
+      "published_on": "2026-11-10",
+      "checked_on": "2026-11-12"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

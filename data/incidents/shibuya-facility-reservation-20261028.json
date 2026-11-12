@@ -11,9 +11,9 @@
   "publication_kind": "initial",
   "occurred_on": null,
   "detected_on": null,
-  "updated_on": "2026-11-06",
+  "updated_on": "2026-11-10",
   "verification": "official",
-  "leak_status": "suspected",
+  "leak_status": "confirmed",
   "incident_type": "attack",
   "cause": {
     "category": "vulnerability",
@@ -22,10 +22,10 @@
   },
   "impact": [
     {
-      "count": null,
-      "unit": "people",
-      "qualifier": "unknown",
-      "description": "施設予約システムの流出可能性がある項目・対象者・件数は確認中。"
+      "count": 218,
+      "unit": "accounts",
+      "qualifier": "exact",
+      "description": "個人情報の漏えいが確認された施設予約システムの利用者アカウント。"
     }
   ],
   "data_types": [],
@@ -39,6 +39,12 @@
       "checked_on": "2026-11-08"
     }
   ],
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-11-10",
+      "summary": "第4報。個人情報の漏えいが確認された利用者アカウントは218件（ログインID170件、メールアドレス158件、氏名・住所・生年月日22件）。うち217件が改ざん。",
+      "source_index": 0
+    }
+  ],
   "notes": "初報は10月28日（公表索引の記録）。確認した本文は11月6日更新の第3報で、初報・第2報の本文は同じURLで上書き。渋谷マイポータルは漏えいの事実を確認せず再開。施設予約システムは書き換えられたデータをバックアップから復元し、一部消失した情報は再登録を依頼する場合がある。"
 }

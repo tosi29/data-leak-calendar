@@ -1,0 +1,46 @@
+{
+  "id": "smartvalue-kurumabase-arara-20261111",
+  "organization": {
+    "name": "スマートバリュー（Kuruma Base）",
+    "sector": "企業・団体"
+  },
+  "title": "「Kuruma Base」のメール配信に連携するアララのメール配信エンジンへの不正アクセスでメールアドレス9,173件が漏えい",
+  "summary": "「Kuruma Base」のメール配信に連携するアララのメール配信エンジンへの不正アクセスでメールアドレス9,173件が漏えい。",
+  "published_on": "2026-11-11",
+  "first_published_on": "2026-11-11",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-11",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "ウイングアークNEXのメール配信サービス「SMART L-Gov ALERT」と連携するアララ株式会社の「アララメッセージ」への不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 9173,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "「Kuruma Base」に登録されていたメールアドレス。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "アララ株式会社",
+  "sources": [
+    {
+      "url": "https://www.smartvalue.ad.jp/news/11186/",
+      "type": "official",
+      "title": "アララ株式会社のメール配信エンジンへの不正アクセスに伴う、メールアドレス漏えいに関するお詫びとご報告",
+      "published_on": "2026-11-11",
+      "checked_on": "2026-11-12"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

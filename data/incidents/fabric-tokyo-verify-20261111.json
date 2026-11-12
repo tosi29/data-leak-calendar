@@ -1,0 +1,48 @@
+{
+  "id": "fabric-tokyo-verify-20261111",
+  "organization": {
+    "name": "FABRIC TOKYO",
+    "sector": "企業・団体"
+  },
+  "title": "外部委託先から流出した可能性が高いアクセスキーで検証用システムに不正アクセスされ過去の予約データ699名分が閲覧・取得の可能性",
+  "summary": "外部委託先から流出した可能性が高いアクセスキーで検証用システムに不正アクセスされ過去の予約データ699名分が閲覧・取得の可能性。",
+  "published_on": "2026-11-11",
+  "first_published_on": "2026-11-11",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-11-02",
+  "updated_on": "2026-11-11",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "credentials",
+    "certainty": "unknown",
+    "detail": "検証用システムで使用していたアクセスキーが外部委託先から流出した可能性が高く、第三者に悪用された。流出経路は調査中。"
+  },
+  "impact": [
+    {
+      "count": 699,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "2021年5月～7月の予約データに含まれていた客。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "メールアドレス",
+    "電話番号"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://fabric-tokyo.com/news/show/20261111-to-all-customers",
+      "type": "official",
+      "title": "一部システムへの不正アクセスに伴う個人情報流出の可能性について",
+      "published_on": "2026-11-11",
+      "checked_on": "2026-11-12"
+    }
+  ],
+  "updates": [],
+  "notes": "会員登録・購入システムとは異なり、通常の会員情報・購入情報は対象外。"
+}

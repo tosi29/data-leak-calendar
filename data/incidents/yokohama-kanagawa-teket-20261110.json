@@ -1,0 +1,49 @@
+{
+  "id": "yokohama-kanagawa-teket-20261110",
+  "organization": {
+    "name": "横浜市（神奈川区）",
+    "sector": "自治体"
+  },
+  "title": "清掃イベントの受託事業者Gabが申込受付に使った「teket」への不正アクセスで参加申込者約120件の情報に漏えいの可能性",
+  "summary": "清掃イベントの受託事業者Gabが申込受付に使った「teket」への不正アクセスで参加申込者約120件の情報に漏えいの可能性。",
+  "published_on": "2026-11-10",
+  "first_published_on": "2026-11-10",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-10",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "電子チケット販売・管理サービス「teket」を運営する株式会社teketのシステムへの第三者による不正アクセス。侵入経路は調査中。"
+  },
+  "impact": [
+    {
+      "count": 120,
+      "unit": "records",
+      "qualifier": "approximate",
+      "description": "清掃イベント参加申込でteketに会員登録した氏名・住所・メールアドレス・電話番号。漏えいの事実は未確認。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "メールアドレス",
+    "電話番号"
+  ],
+  "related_vendor": "株式会社teket",
+  "sources": [
+    {
+      "url": "https://www.city.yokohama.lg.jp/city-info/koho-kocho/press/kanagawa/2026/1110shigen.files/0008_20261110.pdf",
+      "type": "official",
+      "title": "電子チケットサービス「teket」への不正アクセスについて",
+      "published_on": "2026-11-10",
+      "checked_on": "2026-11-12"
+    }
+  ],
+  "updates": [],
+  "notes": "企画・運営の受託事業者は株式会社Gab。"
+}
