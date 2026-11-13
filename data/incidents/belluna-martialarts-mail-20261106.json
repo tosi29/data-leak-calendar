@@ -1,0 +1,56 @@
+{
+  "id": "belluna-martialarts-mail-20261106",
+  "organization": {
+    "name": "ベルーナ（債権回収委託先）",
+    "sector": "企業・団体"
+  },
+  "title": "債権回収の委託先弁護士法人Martial Artsが使うメール配信システムへの不正アクセスで顧客1,625件の情報が流出",
+  "summary": "債権回収の委託先弁護士法人Martial Artsが使うメール配信システムへの不正アクセスで顧客1,625件の情報が流出。",
+  "published_on": "2026-11-06",
+  "first_published_on": "2026-11-06",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-06",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "債権回収を委託する弁護士法人Martial Artsが利用するメール配信システムへの第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 1519,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "メールアドレスが流出した顧客。"
+    },
+    {
+      "count": 106,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "メールアドレス・氏名・債権残高・顧客番号・注文情報が流出した顧客。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス",
+    "氏名",
+    "債権残高",
+    "顧客番号",
+    "注文情報"
+  ],
+  "related_vendor": "弁護士法人Martial Arts",
+  "sources": [
+    {
+      "url": "https://www.belluna.co.jp/pdf/20261106cc.pdf",
+      "type": "official",
+      "title": "委託先「弁護士法人 Martial Arts」が利用するメール配信システムへの不正アクセスに関するお詫びとお知らせ",
+      "published_on": "2026-11-06",
+      "checked_on": "2026-11-13"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

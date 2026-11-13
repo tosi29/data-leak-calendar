@@ -1,0 +1,48 @@
+{
+  "id": "kiyokawaya-ectencho-20261111",
+  "organization": {
+    "name": "清川屋",
+    "sector": "企業・団体"
+  },
+  "title": "在庫管理システム「まとまるEC店長」への不正アクセスで公式通販サイト等の注文情報が流出、最大392件に可能性",
+  "summary": "在庫管理システム「まとまるEC店長」への不正アクセスで公式通販サイト等の注文情報が流出、最大392件に可能性。",
+  "published_on": "2026-11-11",
+  "first_published_on": "2026-11-11",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-11",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "利用する在庫管理システム「まとまるEC店長」のサーバー内で注文情報を照会する不審なプログラムが見つかり、第三者による不正アクセスで注文情報の一部が流出。"
+  },
+  "impact": [
+    {
+      "count": 392,
+      "unit": "records",
+      "qualifier": "maximum",
+      "description": "情報流出の可能性がある最大件数。実際に流出した件数は調査中。"
+    }
+  ],
+  "data_types": [
+    "注文日時",
+    "注文番号",
+    "注文者のメールアドレス"
+  ],
+  "related_vendor": "株式会社ブランジスタソリューション",
+  "sources": [
+    {
+      "url": "https://www.kiyokawaya.co.jp/information/6545/",
+      "type": "official",
+      "title": "【重要】不正アクセスによる情報流出に関するお詫びとお知らせ（第一報）",
+      "published_on": "2026-11-11",
+      "checked_on": "2026-11-13"
+    }
+  ],
+  "updates": [],
+  "notes": "注文情報を使った不審な返金案内メールを確認。クレジットカード情報は保持していない。"
+}

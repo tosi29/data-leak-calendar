@@ -1,0 +1,47 @@
+{
+  "id": "yeny-api-20261112",
+  "organization": {
+    "name": "Yeny",
+    "sector": "企業・団体"
+  },
+  "title": "API接続設定の不備を突いた不正アクセスでultra payカード等の会員の電話番号と会員IDが漏えい",
+  "summary": "API接続設定の不備を突いた不正アクセスでultra payカード等の会員の電話番号と会員IDが漏えい。",
+  "published_on": "2026-11-12",
+  "first_published_on": "2026-11-12",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-12",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "configuration",
+    "certainty": "confirmed",
+    "detail": "接続する事業者からの不審なAPIコールをきっかけに調査し、API接続設定の不備により会員情報の一部が漏えいしたことを確認。"
+  },
+  "impact": [
+    {
+      "count": 1332505,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "電話番号と会員ID（退会者を含む）。"
+    }
+  ],
+  "data_types": [
+    "電話番号",
+    "会員ID"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://yeny.jp/pressrelease/1547/",
+      "type": "official",
+      "title": "不正アクセスによる会員情報の漏えいに関するお詫びとお知らせ",
+      "published_on": "2026-11-12",
+      "checked_on": "2026-11-13"
+    }
+  ],
+  "updates": [],
+  "notes": "クレジットカード番号等の決済情報の漏えいは確認されていない。"
+}

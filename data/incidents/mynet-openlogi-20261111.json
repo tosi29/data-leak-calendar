@@ -1,0 +1,48 @@
+{
+  "id": "mynet-openlogi-20261111",
+  "organization": {
+    "name": "マイネット",
+    "sector": "企業・団体"
+  },
+  "title": "一部サービスで利用する物流プラットフォーム「オープンロジ」への不正アクセスで配送用データ累計25件が対象となる可能性",
+  "summary": "一部サービスで利用する物流プラットフォーム「オープンロジ」への不正アクセスで配送用データ累計25件が対象となる可能性。",
+  "published_on": "2026-11-11",
+  "first_published_on": "2026-11-11",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-11",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "商品の保管・発送業務の委託先である株式会社オープンロジのシステムへの第三者による不正アクセス（2026年11月8日～9日）。"
+  },
+  "impact": [
+    {
+      "count": 25,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "グループが「オープンロジ」で取り扱った配送用データの累計件数。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "電話番号"
+  ],
+  "related_vendor": "株式会社オープンロジ",
+  "sources": [
+    {
+      "url": "https://www.mynet.co.jp/news/info/251111",
+      "type": "official",
+      "title": "【重要】「オープンロジ」不正アクセスに伴う影響調査のお知らせ",
+      "published_on": "2026-11-11",
+      "checked_on": "2026-11-13"
+    }
+  ],
+  "updates": [],
+  "notes": "クレジットカード情報は含まれない。"
+}

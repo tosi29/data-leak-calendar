@@ -1,0 +1,46 @@
+{
+  "id": "japanpost-posukuma-tonariwa-20261111",
+  "organization": {
+    "name": "日本郵便（LINEアカウント「郵便局[ぽすくま]」）",
+    "sector": "企業・団体"
+  },
+  "title": "委託先電通デジタルの「TONARIWA」への不正アクセスでLINEアカウント「郵便局[ぽすくま]」のアンケート回答等に情報漏えいのおそれ",
+  "summary": "委託先電通デジタルの「TONARIWA」への不正アクセスでLINEアカウント「郵便局[ぽすくま]」のアンケート回答等に情報漏えいのおそれ。",
+  "published_on": "2026-11-11",
+  "first_published_on": "2026-11-11",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-11",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "LINEアカウント運営業務の一部を委託する株式会社電通デジタルが提供するマーケティングプラットフォーム「TONARIWA」への第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "アンケート実施・回答内容の管理等に使う「TONARIWA」上の情報。件数は未公表。"
+    }
+  ],
+  "data_types": [
+    "アンケート回答内容"
+  ],
+  "related_vendor": "株式会社電通デジタル",
+  "sources": [
+    {
+      "url": "https://www.post.japanpost.jp/newsrelease/pressrelease/685401036.html",
+      "type": "official",
+      "title": "LINEアカウント「郵便局[ぽすくま]」で利用する当社委託先のマーケティングプラットフォームにおける不正アクセスによる情報漏えいのおそれについて",
+      "published_on": "2026-11-11",
+      "checked_on": "2026-11-13"
+    }
+  ],
+  "updates": [],
+  "notes": "不正取得と悪用は確認されていない。11月11日14時20分頃から緊急メンテナンス。"
+}

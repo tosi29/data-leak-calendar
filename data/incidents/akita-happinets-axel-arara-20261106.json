@@ -1,0 +1,60 @@
+{
+  "id": "akita-happinets-axel-arara-20261106",
+  "organization": {
+    "name": "秋田ノーザンハピネッツ",
+    "sector": "企業・団体"
+  },
+  "title": "ファンクラブ業務の委託先アクセルエンターメディアの再委託先アララへの不正アクセスで会員41名の情報が流出",
+  "summary": "ファンクラブ業務の委託先アクセルエンターメディアの再委託先アララへの不正アクセスで会員41名の情報が流出。",
+  "published_on": "2026-11-06",
+  "first_published_on": "2026-11-06",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-11",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "ファンクラブ関連業務の委託先株式会社アクセルエンターメディアのメール配信業務の再委託先であるアララ株式会社のシステムへの不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 41,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "メールアドレスのみ39名、メールアドレスと氏名2名。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス",
+    "氏名"
+  ],
+  "related_vendor": "アララ株式会社",
+  "sources": [
+    {
+      "url": "https://northern-happinets.com/news/detail/id=23087",
+      "type": "official",
+      "title": "【重要】ファンクラブ「クラブハピネッツ」会員メールアドレス漏洩に関するお詫びとお知らせ",
+      "published_on": "2026-11-06",
+      "checked_on": "2026-11-13"
+    },
+    {
+      "url": "https://northern-happinets.com/news/detail/id=23104",
+      "type": "official",
+      "title": "【重要】ファンクラブ「クラブハピネッツ」会員個人情報漏洩に関するお知らせとお詫び（調査結果）",
+      "published_on": "2026-11-11",
+      "checked_on": "2026-11-13"
+    }
+  ],
+  "updates": [
+    {
+      "date": "2026-11-11",
+      "summary": "調査結果。最大9,530名としていた対象のうち、流出は41名（メールアドレスのみ39名、メールアドレスと氏名2名）と判明。",
+      "source_index": 1
+    }
+  ],
+  "notes": ""
+}

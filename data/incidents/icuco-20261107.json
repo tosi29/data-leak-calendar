@@ -1,0 +1,59 @@
+{
+  "id": "icuco-20261107",
+  "organization": {
+    "name": "icuco（icuco book・icuco touch&care）",
+    "sector": "企業・団体"
+  },
+  "title": "「icuco book」「icuco touch&care」で個人情報を含む一部のファイルが外部から閲覧可能な状態となり第三者のアクセスを確認",
+  "summary": "「icuco book」「icuco touch&care」で個人情報を含む一部のファイルが外部から閲覧可能な状態となり第三者のアクセスを確認。",
+  "published_on": "2026-11-07",
+  "first_published_on": "2026-11-07",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-08",
+  "verification": "official",
+  "leak_status": "exposed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "configuration",
+    "certainty": "unknown",
+    "detail": "個人情報を含む一部のファイルが外部から閲覧可能な状態となっており、第三者によるアクセスを確認。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "個人情報への影響範囲は調査中。"
+    }
+  ],
+  "data_types": [
+    "個人情報を含むファイル"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.icuco.co.jp/LxwOiU5O/Udzu7lfC",
+      "type": "official",
+      "title": "【重要】個人情報漏えいの可能性に関するお知らせとお詫び",
+      "published_on": "2026-11-07",
+      "checked_on": "2026-11-13"
+    },
+    {
+      "url": "https://www.icuco.co.jp/LxwOiU5O/5t4Qkjp9",
+      "type": "official",
+      "title": "【重要】「icuco book」「icuco touch&care」サービス再開のお知らせ",
+      "published_on": "2026-11-08",
+      "checked_on": "2026-11-13"
+    }
+  ],
+  "updates": [
+    {
+      "date": "2026-11-08",
+      "summary": "アクセス遮断、権限見直し、脆弱性修正などを行いサービス再開を案内。個人情報への影響範囲は調査継続。",
+      "source_index": 1
+    }
+  ],
+  "notes": "本文はスクリプト描画のため、ページ内のデータから確認した。銀行口座情報の漏えいは確認されていない。"
+}

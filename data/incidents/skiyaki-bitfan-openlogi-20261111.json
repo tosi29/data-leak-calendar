@@ -1,0 +1,46 @@
+{
+  "id": "skiyaki-bitfan-openlogi-20261111",
+  "organization": {
+    "name": "SKIYAKI（Bitfan）",
+    "sector": "企業・団体"
+  },
+  "title": "「Bitfan」の保管・発送業務の委託先オープンロジへの不正アクセスで出荷データのお届け先情報が影響を受けた可能性",
+  "summary": "「Bitfan」の保管・発送業務の委託先オープンロジへの不正アクセスで出荷データのお届け先情報が影響を受けた可能性。",
+  "published_on": "2026-11-11",
+  "first_published_on": "2026-11-11",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-11",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "商品の保管・発送業務の委託先である株式会社オープンロジのシステムへの第三者による不正アクセス（2026年11月8日～9日）。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "対象となる情報・範囲・件数は確認中。"
+    }
+  ],
+  "data_types": [
+    "お届け先の個人情報"
+  ],
+  "related_vendor": "株式会社オープンロジ",
+  "sources": [
+    {
+      "url": "https://skiyaki.com/contents/1126864",
+      "type": "official",
+      "title": "業務委託先（株式会社オープンロジ）への不正アクセスによる個人情報流出に関するお知らせとお詫び【第一報】",
+      "published_on": "2026-11-11",
+      "checked_on": "2026-11-13"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

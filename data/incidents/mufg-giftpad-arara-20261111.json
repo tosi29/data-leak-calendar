@@ -1,0 +1,46 @@
+{
+  "id": "mufg-giftpad-arara-20261111",
+  "organization": {
+    "name": "三菱UFJフィナンシャル・グループ",
+    "sector": "企業・団体"
+  },
+  "title": "株主向け電子ギフト業務の委託先ギフトパッドが使うアララのメール配信システムへの不正アクセスで株主のメールアドレス20,000件が漏洩",
+  "summary": "株主向け電子ギフト業務の委託先ギフトパッドが使うアララのメール配信システムへの不正アクセスで株主のメールアドレス20,000件が漏洩。",
+  "published_on": "2026-11-11",
+  "first_published_on": "2026-11-11",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-11",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "電子ギフト贈呈業務の委託先株式会社ギフトパッドが利用したアララ株式会社のメール配信システムへの第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 20000,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "2026年7月に電子ギフトの当選メールを受信した株主のメールアドレス。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "アララ株式会社",
+  "sources": [
+    {
+      "url": "https://www.mufg.jp/dam/pressrelease/2026/pdf/news-20261111-001_ja.pdf",
+      "type": "official",
+      "title": "当社の委託先が利用したメール配信システムへの不正アクセスについて",
+      "published_on": "2026-11-11",
+      "checked_on": "2026-11-13"
+    }
+  ],
+  "updates": [],
+  "notes": "ギフトパッドの公表件数（144,364件）の内数とみられ、合算しない。"
+}

@@ -11,7 +11,7 @@
   "publication_kind": "initial",
   "occurred_on": "2026-10-23",
   "detected_on": null,
-  "updated_on": "2026-11-02",
+  "updated_on": "2026-11-12",
   "verification": "official",
   "leak_status": "confirmed",
   "incident_type": "attack",
@@ -38,12 +38,20 @@
       "unit": "records",
       "qualifier": "exact",
       "description": "メールアドレス。"
+    },
+    {
+      "count": 175372,
+      "unit": "people",
+      "qualifier": "maximum",
+      "description": "第2報。LINEプロフィール情報が取得されたおそれのある友だち登録者（10月23日時点）。"
     }
   ],
   "data_types": [
     "LINEユーザーID",
     "LINEニックネーム",
-    "メールアドレス"
+    "メールアドレス",
+    "プロフィール画像",
+    "ステータスメッセージ"
   ],
   "related_vendor": "ソニックムーブ",
   "sources": [
@@ -53,8 +61,21 @@
       "title": "【重要】外部サービス提供元における不正アクセスに関するお詫びとお知らせ",
       "published_on": "2026-11-02",
       "checked_on": "2026-11-08"
+    },
+    {
+      "type": "official",
+      "checked_on": "2026-11-13",
+      "url": "https://www.coffeestyleucc.co.jp/news2611/",
+      "title": "【重要】外部サービス提供元における不正アクセスに関するお詫びとお知らせ（第2報）",
+      "published_on": "2026-11-12"
     }
   ],
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-11-12",
+      "summary": "第2報。取得された認証情報が悪用されると、2026年10月23日～25日に友だち登録状態だった最大175,372人のLINEプロフィール情報（ユーザーID・ニックネーム・プロフィール画像・ステータスメッセージ・言語設定）を取得できる状態だったと判明し、取得のおそれを公表。",
+      "source_index": 1
+    }
+  ],
   "notes": "UCCカフェメルカード等の利用者。項目ごとの件数で合算しない。UCC上島珈琲の公表とは別記録。"
 }

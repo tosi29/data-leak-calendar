@@ -1,0 +1,46 @@
+{
+  "id": "miyako-onlineshop-arara-20261113",
+  "organization": {
+    "name": "近鉄・都ホテルズ（都ホテルオンラインショップ）",
+    "sector": "企業・団体"
+  },
+  "title": "オンラインショップの運営委託先が使うアララのメール配信サービスへの不正アクセスでメールアドレス16件が漏えい",
+  "summary": "オンラインショップの運営委託先が使うアララのメール配信サービスへの不正アクセスでメールアドレス16件が漏えい。",
+  "published_on": "2026-11-13",
+  "first_published_on": "2026-11-13",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-13",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "「都ホテルオンラインショップ」の運営委託先が利用するアララ株式会社のメール配信サービスへの第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 16,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "2026年7月1日～10月28日に同サイトからのメールを受信した客のメールアドレス。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "アララ株式会社",
+  "sources": [
+    {
+      "url": "https://www.miyakohotels.ne.jp/topic/information/241/",
+      "type": "official",
+      "title": "【都ホテルオンラインショップ】業務委託先におけるメール配信サービスへの不正アクセスによるメールアドレス漏えいに関するお詫びとお知らせ",
+      "published_on": "2026-11-13",
+      "checked_on": "2026-11-13"
+    }
+  ],
+  "updates": [],
+  "notes": "11月2日公表の「都プラス」の事案とは別記録。"
+}

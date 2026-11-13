@@ -1,0 +1,47 @@
+{
+  "id": "kitakyushu-seisouchu-teket-20261112",
+  "organization": {
+    "name": "北九州市（清走中 北九州編）",
+    "sector": "自治体"
+  },
+  "title": "ごみ拾いイベントの受託事業者Gabが申込受付に使った「teket」への不正アクセスで申込代表者117名の情報に漏えいの可能性",
+  "summary": "ごみ拾いイベントの受託事業者Gabが申込受付に使った「teket」への不正アクセスで申込代表者117名の情報に漏えいの可能性。",
+  "published_on": "2026-11-12",
+  "first_published_on": "2026-11-12",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-12",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "企画・運営の受託事業者株式会社Gabが参加申込の受付に使用した電子チケットサービス「teket」への不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 117,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "イベント申込代表者。影響範囲は調査中で変動の可能性。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "メールアドレス"
+  ],
+  "related_vendor": "株式会社teket",
+  "sources": [
+    {
+      "url": "https://www.city.kitakyushu.lg.jp/contents/008_00014.html",
+      "type": "official",
+      "title": "「清走中 Episode2」",
+      "published_on": "2026-11-12",
+      "checked_on": "2026-11-13"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

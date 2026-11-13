@@ -11,9 +11,9 @@
   "publication_kind": "initial",
   "occurred_on": null,
   "detected_on": "2026-11-10",
-  "updated_on": "2026-11-11",
+  "updated_on": "2026-11-12",
   "verification": "official",
-  "leak_status": "suspected",
+  "leak_status": "confirmed",
   "incident_type": "attack",
   "cause": {
     "category": "credentials",
@@ -42,8 +42,21 @@
       "title": "当社が提供する「TONARIWA」における不正アクセスに伴う個人情報漏えいの可能性に関するお詫びとご報告",
       "published_on": "2026-11-11",
       "checked_on": "2026-11-12"
+    },
+    {
+      "type": "official",
+      "checked_on": "2026-11-13",
+      "url": "https://www.dentsudigital.co.jp/news/updates/services/2026-1112-001112",
+      "title": "【第二報】当社が提供する「TONARIWA」における不正アクセスに伴う個人情報漏えいに関するお詫びとご報告",
+      "published_on": "2026-11-12"
     }
   ],
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-11-12",
+      "summary": "第二報。システム基盤内の一部データの外部持ち出しを示すログを確認し、導入企業2社で個人情報の漏えいを確認。件数は特定中で、その他の導入企業は検証中。",
+      "source_index": 1
+    }
+  ],
   "notes": "クレジットカード情報・金融機関口座情報は対象外。"
 }

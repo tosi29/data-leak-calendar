@@ -1,0 +1,48 @@
+{
+  "id": "timetree-notion-fireworks-20261112",
+  "organization": {
+    "name": "TimeTree",
+    "sector": "企業・団体"
+  },
+  "title": "Notion社のAI処理委託先Fireworks AIへの不正アクセスでアンケート協力者・取引先担当者等の個人情報を含むやり取りに漏えいの可能性",
+  "summary": "Notion社のAI処理委託先Fireworks AIへの不正アクセスでアンケート協力者・取引先担当者等の個人情報を含むやり取りに漏えいの可能性。",
+  "published_on": "2026-11-12",
+  "first_published_on": "2026-11-12",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-12",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "Notion Labs, Inc.がAI機能の処理を委託するFireworks AI社への第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "従業員とNotion AIのやり取りの一部。件数は未公表。"
+    }
+  ],
+  "data_types": [
+    "アンケート・インタビュー協力者の個人情報",
+    "取引先担当者の個人情報",
+    "役員・従業員の個人情報"
+  ],
+  "related_vendor": "Fireworks AI",
+  "sources": [
+    {
+      "url": "https://timetreeapp.com/intl/ja/newsroom/2026-11-12/announce",
+      "type": "official",
+      "title": "【お詫びとお知らせ】当社が業務で利用する外部サービスにおける不正アクセスに伴う情報漏えいの可能性について",
+      "published_on": "2026-11-12",
+      "checked_on": "2026-11-13"
+    }
+  ],
+  "updates": [],
+  "notes": "TimeTreeのアプリ・Webサービスの登録情報は対象外。"
+}

@@ -11,7 +11,7 @@
   "publication_kind": "initial",
   "occurred_on": null,
   "detected_on": "2026-10-14",
-  "updated_on": "2026-10-31",
+  "updated_on": "2026-11-12",
   "verification": "official",
   "leak_status": "suspected",
   "incident_type": "attack",
@@ -39,7 +39,9 @@
     "登録作品の閲覧パスワード",
     "IPアドレス・SNSプロフィール",
     "決済サービス顧客ID",
-    "アンケート回答・通知内容"
+    "アンケート回答・通知内容",
+    "応募時の自由記述",
+    "健康状態に関する記述"
   ],
   "related_vendor": null,
   "sources": [
@@ -49,8 +51,21 @@
       "title": "分析ツール経由の侵入で会員・取引先等の情報に漏えいのおそれ",
       "published_on": "2026-10-30",
       "checked_on": "2026-10-31"
+    },
+    {
+      "type": "official",
+      "checked_on": "2026-11-13",
+      "url": "https://vook.co.jp/664",
+      "title": "不正アクセスによる個人情報漏えいの可能性に関するお詫びとお知らせ【第二報】",
+      "published_on": "2026-11-12"
     }
   ],
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-11-12",
+      "summary": "第二報。以前運営していた「Vook求人」の応募者でアカウント削除済みの人も対象と判明。応募時の自由記述（健康状態に関する記述を含む）と期限切れのパスワード再設定用文字列も対象項目に追加。",
+      "source_index": 1
+    }
+  ],
   "notes": "会員ログインパスワードは対象外だが、登録作品の閲覧パスワードは対象。両者を区別。ツール名は未公表。"
 }

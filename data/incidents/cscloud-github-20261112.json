@@ -1,0 +1,49 @@
+{
+  "id": "cscloud-github-20261112",
+  "organization": {
+    "name": "サイバーセキュリティクラウド",
+    "sector": "企業・団体"
+  },
+  "title": "従業員のGitHub認証情報の流出と不審なアクセスで開発環境に保存していた顧客の企業名・氏名・メールアドレス等に漏えいのおそれ",
+  "summary": "従業員のGitHub認証情報の流出と不審なアクセスで開発環境に保存していた顧客の企業名・氏名・メールアドレス等に漏えいのおそれ。",
+  "published_on": "2026-11-12",
+  "first_published_on": "2026-11-12",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-12",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "credentials",
+    "certainty": "confirmed",
+    "detail": "従業員が業務で使用していたGitHubの認証情報1件が外部に流出し、当該認証情報を使用した第三者によるとみられる不審なアクセスを確認。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "漏えいのおそれがある個人情報の範囲と対象者は調査中。"
+    }
+  ],
+  "data_types": [
+    "企業名",
+    "氏名",
+    "メールアドレス",
+    "通信関連情報"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.release.tdnet.info/inbs/140120261112575882.pdf",
+      "type": "official",
+      "title": "当社開発環境における情報漏えいのおそれに関するお知らせとお詫び（第一報）",
+      "published_on": "2026-11-12",
+      "checked_on": "2026-11-13"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

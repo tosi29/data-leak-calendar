@@ -1,0 +1,50 @@
+{
+  "id": "azarashi-seaparadise-openlogi-20261111",
+  "organization": {
+    "name": "アザラシシーパラダイス公式グッズショップ",
+    "sector": "企業・団体"
+  },
+  "title": "出荷・配送業務の委託先オープンロジへの不正アクセスで一部のお客様のお届け先情報が外部に持ち出された",
+  "summary": "出荷・配送業務の委託先オープンロジへの不正アクセスで一部のお客様のお届け先情報が外部に持ち出された。",
+  "published_on": "2026-11-11",
+  "first_published_on": "2026-11-11",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-11",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "商品の保管・発送業務の委託先である株式会社オープンロジのシステムへの第三者による不正アクセス（2026年11月8日～9日）。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "2026年4月8日～11月8日に出荷手配を行った注文の一部のお届け先情報。件数は未公表。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "電話番号",
+    "メールアドレス",
+    "購入商品の情報"
+  ],
+  "related_vendor": "株式会社オープンロジ",
+  "sources": [
+    {
+      "url": "https://azarashiseal.kawaiishop.jp/p/00003",
+      "type": "official",
+      "title": "【重要】配送委託先（株式会社オープンロジ）への不正アクセスによるお届け先情報漏えいに関するお詫びとお知らせ",
+      "published_on": "2026-11-11",
+      "checked_on": "2026-11-13"
+    }
+  ],
+  "updates": [],
+  "notes": "索引ではオホーツク・ガリンコタワーの公表として掲載。"
+}

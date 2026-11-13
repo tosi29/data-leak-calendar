@@ -1,0 +1,46 @@
+{
+  "id": "imh-sol-arara-20261112",
+  "organization": {
+    "name": "三越伊勢丹ヒューマン・ソリューションズ",
+    "sector": "企業・団体"
+  },
+  "title": "アルバイトへのお仕事情報配信に使うアララのメール配信サービスへの不正アクセスでメールアドレス2,511件が流出",
+  "summary": "アルバイトへのお仕事情報配信に使うアララのメール配信サービスへの不正アクセスでメールアドレス2,511件が流出。",
+  "published_on": "2026-11-12",
+  "first_published_on": "2026-11-12",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-12",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "お仕事情報の配信に利用するアララ株式会社のメール配信サービスへの第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 2511,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "2026年7月1日～10月31日の配信ログに記録されていたメールアドレス。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "アララ株式会社",
+  "sources": [
+    {
+      "url": "https://www.imh-sol.co.jp/news/news/N261112.html",
+      "type": "official",
+      "title": "外部委託先への不正アクセスによるメールアドレス流出に関するお知らせとお詫び",
+      "published_on": "2026-11-12",
+      "checked_on": "2026-11-13"
+    }
+  ],
+  "updates": [],
+  "notes": "氏名・電話番号等は含まれない。"
+}

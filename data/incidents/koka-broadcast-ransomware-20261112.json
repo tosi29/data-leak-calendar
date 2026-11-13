@@ -1,0 +1,47 @@
+{
+  "id": "koka-broadcast-ransomware-20261112",
+  "organization": {
+    "name": "甲賀市（音声放送システム）",
+    "sector": "自治体"
+  },
+  "title": "音声放送システムのサーバーへのランサムウェア攻撃で音声放送端末機の設置者の氏名または事業所名に漏えいの可能性",
+  "summary": "音声放送システムのサーバーへのランサムウェア攻撃で音声放送端末機の設置者の氏名または事業所名に漏えいの可能性。",
+  "published_on": "2026-11-12",
+  "first_published_on": "2026-11-12",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-12",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "音声放送システムのサーバーへの不正アクセスによるランサムウェア攻撃。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "音声放送端末機の設置者。件数は未公表。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "事業所名"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.city.koka.lg.jp/item/45076.htm",
+      "type": "official",
+      "title": "地域情報基盤施設（音声放送システム）への不正アクセスについて",
+      "published_on": "2026-11-12",
+      "checked_on": "2026-11-13"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

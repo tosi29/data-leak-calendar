@@ -1,0 +1,50 @@
+{
+  "id": "third-notion-fireworks-20261111",
+  "organization": {
+    "name": "THIRD",
+    "sector": "企業・団体"
+  },
+  "title": "Notion社のAI処理委託先Fireworks AIへの不正アクセスで取引先担当者の氏名・連絡先等を含むNotion AIのやり取りの記録に流出のおそれ",
+  "summary": "Notion社のAI処理委託先Fireworks AIへの不正アクセスで取引先担当者の氏名・連絡先等を含むNotion AIのやり取りの記録に流出のおそれ。",
+  "published_on": "2026-11-11",
+  "first_published_on": "2026-11-11",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-11",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "Notion Labs, Inc.がAI機能の処理を委託するFireworks AI社への第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "2026年10月5日～23日に作成されたNotion AIのやり取りの記録の一部。件数は調査中。"
+    }
+  ],
+  "data_types": [
+    "会社名",
+    "氏名",
+    "電話番号",
+    "メールアドレス",
+    "事業所住所"
+  ],
+  "related_vendor": "Fireworks AI",
+  "sources": [
+    {
+      "url": "https://third-inc.co.jp/posts/20261111",
+      "type": "official",
+      "title": "当社が利用するクラウドサービスの委託先への不正アクセスに伴う、AI機能での入力情報の流出のおそれに関するお知らせとお詫び（第一報）",
+      "published_on": "2026-11-11",
+      "checked_on": "2026-11-13"
+    }
+  ],
+  "updates": [],
+  "notes": "本文はスクリプト描画のため、ページ内のデータから確認した。"
+}

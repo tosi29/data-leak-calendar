@@ -1,0 +1,52 @@
+{
+  "id": "gomme-makeshop-arara-20261106",
+  "organization": {
+    "name": "マキヒロシゲアトリエ（gomme公式オンラインショップ）",
+    "sector": "企業・団体"
+  },
+  "title": "ECプラットフォーム「makeshop」のメールマガジン配信に使う「アララメッセージ」への不正アクセスでメールアドレス2,585件が流出",
+  "summary": "ECプラットフォーム「makeshop」のメールマガジン配信に使う「アララメッセージ」への不正アクセスでメールアドレス2,585件が流出。",
+  "published_on": "2026-11-06",
+  "first_published_on": "2026-11-06",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-13",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "ECプラットフォーム「makeshop」がメールマガジン配信に利用するアララ株式会社の「アララメッセージ」への第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 2585,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "2026年7月1日～10月28日にメール配信の送信先として指定していた会員・注文者のメールアドレス。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "アララ株式会社",
+  "sources": [
+    {
+      "url": "https://gomme.xsrv.jp/blog/%E3%80%90%E9%87%8D%E8%A6%81%E3%80%91%E5%A4%96%E9%83%A8%E3%83%A1%E3%83%BC%E3%83%AB%E9%85%8D%E4%BF%A1%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9%E3%81%B8%E3%81%AE%E4%B8%8D%E6%AD%A3%E3%82%A2%E3%82%AF%E3%82%BB/",
+      "type": "official",
+      "title": "【重要】外部メール配信サービスへの不正アクセスによる情報漏洩の可能性に関するお詫びとお知らせ",
+      "published_on": "2026-11-13",
+      "checked_on": "2026-11-13"
+    }
+  ],
+  "updates": [
+    {
+      "date": "2026-11-13",
+      "summary": "続報。流出対象のメールアドレスを2,585件と確認。パスワードとクレジットカード情報は対象外。",
+      "source_index": 0
+    }
+  ],
+  "notes": "同じページに11月6日付の初報と11月13日付の続報を掲載。"
+}

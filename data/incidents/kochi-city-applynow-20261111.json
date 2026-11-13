@@ -1,0 +1,50 @@
+{
+  "id": "kochi-city-applynow-20261111",
+  "organization": {
+    "name": "高知市（職員採用資格試験）",
+    "sector": "自治体"
+  },
+  "title": "録画動画面接サービスの提供元ApplyNowへの不正アクセスで職員採用試験の受験者1,464件の個人情報が漏えい",
+  "summary": "録画動画面接サービスの提供元ApplyNowへの不正アクセスで職員採用試験の受験者1,464件の個人情報が漏えい。",
+  "published_on": "2026-11-11",
+  "first_published_on": "2026-11-11",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-11",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "録画動画面接サービスを提供する株式会社ApplyNowが保有する個人情報への第三者による不正アクセス（2026年9月7日に検知）。"
+  },
+  "impact": [
+    {
+      "count": 1464,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "令和3・4・6・8年度の職員採用資格試験で録画動画面接を利用した受験者。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "フリガナ",
+    "メールアドレス",
+    "電話番号",
+    "生年月日"
+  ],
+  "related_vendor": "株式会社ApplyNow",
+  "sources": [
+    {
+      "url": "https://www.city.kochi.kochi.jp/site/syokuin-saiyo/2026rokugafusei.html",
+      "type": "official",
+      "title": "職員採用資格試験受験者の個人情報の漏えいについて",
+      "published_on": "2026-11-11",
+      "checked_on": "2026-11-13"
+    }
+  ],
+  "updates": [],
+  "notes": "録画動画と選考内容・合否結果は対象外。ApplyNowの公表（既存記録）と件数が重なる。"
+}

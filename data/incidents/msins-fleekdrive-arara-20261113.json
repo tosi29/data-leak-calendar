@@ -1,0 +1,46 @@
+{
+  "id": "msins-fleekdrive-arara-20261113",
+  "organization": {
+    "name": "三井住友海上火災保険（Fleekdrive）",
+    "sector": "企業・団体"
+  },
+  "title": "ドライブレコーダー映像の共有に使う「Fleekdrive」の配信委託先アララへの不正アクセスで顧客のメールアドレス約1.5万件が漏えい",
+  "summary": "ドライブレコーダー映像の共有に使う「Fleekdrive」の配信委託先アララへの不正アクセスで顧客のメールアドレス約1.5万件が漏えい。",
+  "published_on": "2026-11-13",
+  "first_published_on": "2026-11-13",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-13",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "vulnerability",
+    "certainty": "confirmed",
+    "detail": "オンラインストレージ「Fleekdrive」を提供する株式会社Fleekdriveがメール配信業務を委託するアララ株式会社への不正アクセス（Webサーバーの脆弱性の悪用）。"
+  },
+  "impact": [
+    {
+      "count": 15000,
+      "unit": "records",
+      "qualifier": "approximate",
+      "description": "2026年7月1日～10月30日にFleekdriveの配信メールを受信した顧客のメールアドレス。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "アララ株式会社",
+  "sources": [
+    {
+      "url": "https://www.ms-ins.com/news/fy2026/pdf/1113_1.pdf",
+      "type": "official",
+      "title": "アララ社の不正アクセスに伴う情報漏えいについて",
+      "published_on": "2026-11-13",
+      "checked_on": "2026-11-13"
+    }
+  ],
+  "updates": [],
+  "notes": "Fleekdriveの公表件数（91,374件）と重なる。"
+}

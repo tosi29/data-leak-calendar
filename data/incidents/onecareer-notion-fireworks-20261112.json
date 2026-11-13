@@ -1,0 +1,47 @@
+{
+  "id": "onecareer-notion-fireworks-20261112",
+  "organization": {
+    "name": "ワンキャリア",
+    "sector": "企業・団体"
+  },
+  "title": "Notion社のAI処理委託先Fireworks AIへの不正アクセスで最大約2,300件の個人情報を含むNotion AIのチャット履歴に流出の可能性",
+  "summary": "Notion社のAI処理委託先Fireworks AIへの不正アクセスで最大約2,300件の個人情報を含むNotion AIのチャット履歴に流出の可能性。",
+  "published_on": "2026-11-12",
+  "first_published_on": "2026-11-12",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-12",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "Notion Labs, Inc.がAI機能の処理を委託するFireworks AI社への第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 2300,
+      "unit": "records",
+      "qualifier": "maximum_approximate",
+      "description": "Notion AIのチャット履歴に含まれていた個人情報。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "連絡先"
+  ],
+  "related_vendor": "Fireworks AI",
+  "sources": [
+    {
+      "url": "https://onecareer.co.jp/news/information/261112/",
+      "type": "official",
+      "title": "外部サービス「Notion」のAI機能における情報流出の可能性に関するお知らせとお詫び（第一報）",
+      "published_on": "2026-11-12",
+      "checked_on": "2026-11-13"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

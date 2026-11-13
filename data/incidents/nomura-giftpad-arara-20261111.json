@@ -1,0 +1,46 @@
+{
+  "id": "nomura-giftpad-arara-20261111",
+  "organization": {
+    "name": "野村ホールディングス",
+    "sector": "企業・団体"
+  },
+  "title": "電子ギフト提供業務の委託先ギフトパッドが使うアララのメール配信システムへの不正アクセスで株主のメールアドレス約13,500件が漏えい",
+  "summary": "電子ギフト提供業務の委託先ギフトパッドが使うアララのメール配信システムへの不正アクセスで株主のメールアドレス約13,500件が漏えい。",
+  "published_on": "2026-11-11",
+  "first_published_on": "2026-11-11",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-11",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "電子ギフト提供業務の委託先株式会社ギフトパッドが利用するアララ株式会社のメール配信システムへの第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 13500,
+      "unit": "records",
+      "qualifier": "approximate",
+      "description": "2026年7月8日に配信した議決権行使に伴う電子ギフト案内メールの宛先メールアドレス。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "アララ株式会社",
+  "sources": [
+    {
+      "url": "https://www.nomuraholdings.com/jp/news/topics/20261111.html",
+      "type": "official",
+      "title": "電子ギフト提供業務の委託先に関する情報漏えいについて",
+      "published_on": "2026-11-11",
+      "checked_on": "2026-11-13"
+    }
+  ],
+  "updates": [],
+  "notes": "ギフトパッドの公表件数の内数とみられ、合算しない。"
+}

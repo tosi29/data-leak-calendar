@@ -1,0 +1,85 @@
+{
+  "id": "ensapia-hange-20261103",
+  "organization": {
+    "name": "エンセイピア（ハンゲ）",
+    "sector": "企業・団体"
+  },
+  "title": "オンラインゲームポータル「ハンゲ」のサーバーへの不正アクセスでハッシュ化パスワード61,962件やメールアドレス等が漏えい",
+  "summary": "オンラインゲームポータル「ハンゲ」のサーバーへの不正アクセスでハッシュ化パスワード61,962件やメールアドレス等が漏えい。",
+  "published_on": "2026-11-03",
+  "first_published_on": "2026-11-03",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-13",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "『ハンゲ（hange）』サーバーへの第三者による不正アクセス（2026年11月3日に検知）。"
+  },
+  "impact": [
+    {
+      "count": 61962,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "ハンゲ会員情報のハッシュ化されたパスワード。"
+    },
+    {
+      "count": 51025,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "ハンゲ会員情報のメールアドレス。"
+    },
+    {
+      "count": 2994,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "氏名・住所・郵便番号・電話番号。"
+    },
+    {
+      "count": 2961,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "決済時のクレジットカード番号の一部（マスク処理済み）。"
+    }
+  ],
+  "data_types": [
+    "ハッシュ化されたパスワード",
+    "メールアドレス",
+    "生年月日",
+    "氏名",
+    "住所",
+    "電話番号",
+    "外部サービスID",
+    "クレジットカード番号の一部",
+    "セキュリティコード"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://ensapia-tokyo.com/news/topics/id=21381/",
+      "type": "official",
+      "title": "オンラインゲームポータルサイト『ハンゲ（hange）』不正アクセスへの対応状況 (第3報)",
+      "published_on": "2026-11-06",
+      "checked_on": "2026-11-13"
+    },
+    {
+      "url": "https://ensapia-tokyo.com/news/topics/id=21412/",
+      "type": "official",
+      "title": "オンラインゲームポータルサイト『ハンゲ（hange）』不正アクセスについて(第4報)",
+      "published_on": "2026-11-13",
+      "checked_on": "2026-11-13"
+    }
+  ],
+  "updates": [
+    {
+      "date": "2026-11-13",
+      "summary": "第4報。個人情報の一部の漏えいを確認。ハッシュ化パスワード61,962件、メールアドレス51,025件、生年月日28,251件、氏名・住所・電話番号2,994件、外部サービスIDのメールアドレス36,545件、マスク済みカード番号2,961件、セキュリティコード6件など。",
+      "source_index": 1
+    }
+  ],
+  "notes": "初報（11月3日23時）と第2報（11月4日）は第3報のページに併記。項目ごとの件数で合算しない。"
+}

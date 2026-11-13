@@ -1,0 +1,59 @@
+{
+  "id": "avanti-staff-arara-20261106",
+  "organization": {
+    "name": "アヴァンティスタッフ",
+    "sector": "企業・団体"
+  },
+  "title": "スタッフ向け案内・お仕事紹介メールに使うアララのメール配信サービスへの不正アクセスでメールアドレスのみ78,310件と氏名付き12件が漏えい",
+  "summary": "スタッフ向け案内・お仕事紹介メールに使うアララのメール配信サービスへの不正アクセスでメールアドレスのみ78,310件と氏名付き12件が漏えい。",
+  "published_on": "2026-11-06",
+  "first_published_on": "2026-11-06",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-11",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "スタッフ向け案内やお仕事紹介メールで利用するアララ株式会社のメール配信サービスへの第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 78310,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "メールアドレスのみ。同一メールアドレスの重複を含む。"
+    },
+    {
+      "count": 12,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "氏名とメールアドレス。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス",
+    "氏名"
+  ],
+  "related_vendor": "アララ株式会社",
+  "sources": [
+    {
+      "url": "https://www.avantistaff.com/staff/topics/detail/139",
+      "type": "official",
+      "title": "当社委託先が提供するメール配信サービスにおける情報漏えいについて（第２報）",
+      "published_on": "2026-11-11",
+      "checked_on": "2026-11-13"
+    }
+  ],
+  "updates": [
+    {
+      "date": "2026-11-11",
+      "summary": "第2報。メールアドレスのみ78,310件、氏名とメールアドレス12件の漏えいを確認。就業スタッフ向け安否確認システムへの影響は確認中。",
+      "source_index": 0
+    }
+  ],
+  "notes": "初報は2026年11月6日（第2報の本文で確認）。"
+}

@@ -1,0 +1,59 @@
+{
+  "id": "yamagata-mailmag-blastmail-20261022",
+  "organization": {
+    "name": "山形県（山形県メールマガジン）",
+    "sector": "自治体"
+  },
+  "title": "メールマガジン配信サービス「ブラストメール」の運営企業への不正アクセスで県の2つのメールマガジンに情報漏えいの恐れ",
+  "summary": "メールマガジン配信サービス「ブラストメール」の運営企業への不正アクセスで県の2つのメールマガジンに情報漏えいの恐れ。",
+  "published_on": "2026-10-22",
+  "first_published_on": "2026-10-22",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-12",
+  "verification": "official",
+  "leak_status": "ruled_out",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "配信サービス「ブラストメール」を運営する株式会社ラクスライトクラウドのシステムへの不審なアクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "県が運用する2つのメールマガジンの登録者。件数は未公表。"
+    }
+  ],
+  "data_types": [
+    "メールマガジン登録情報"
+  ],
+  "related_vendor": "株式会社ラクスライトクラウド",
+  "sources": [
+    {
+      "url": "https://www.pref.yamagata.jp/020026/press/mailmagazine_press.html",
+      "type": "official",
+      "title": "〔注意喚起情報〕山形県メールマガジン配信サービス運営企業への不正アクセスを受けた対応について",
+      "published_on": "2026-10-22",
+      "checked_on": "2026-11-13"
+    },
+    {
+      "url": "https://www.pref.yamagata.jp/020026/press/20261112_mailmagazine_press.html",
+      "type": "official",
+      "title": "山形県メールマガジン配信サービス運営企業への不正アクセスに係る調査結果について",
+      "published_on": "2026-11-12",
+      "checked_on": "2026-11-13"
+    }
+  ],
+  "updates": [
+    {
+      "date": "2026-11-12",
+      "summary": "調査結果。県運用分に関する情報漏えいは確認されなかった。",
+      "source_index": 1
+    }
+  ],
+  "notes": ""
+}

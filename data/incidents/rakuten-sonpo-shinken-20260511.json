@@ -1,0 +1,50 @@
+{
+  "id": "rakuten-sonpo-shinken-20260511",
+  "organization": {
+    "name": "楽天損害保険",
+    "sector": "企業・団体"
+  },
+  "title": "運送保険の事故調査の委託先新日本検定協会へのサイバー攻撃で荷主等の個人情報に漏えいの可能性",
+  "summary": "運送保険の事故調査の委託先新日本検定協会へのサイバー攻撃で荷主等の個人情報に漏えいの可能性。",
+  "published_on": "2026-05-11",
+  "first_published_on": "2026-05-11",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-05-11",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "運送保険の事故調査業務の委託先一般財団法人新日本検定協会へのサイバー攻撃（2025年11月26日発生）。サーバー内データの暗号化とファイル転送ツールの実行痕跡を確認。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "2019年～2024年の事故調査で取得した荷主等の個人情報。件数は未公表。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "電話番号",
+    "メールアドレス",
+    "会社名"
+  ],
+  "related_vendor": "一般財団法人新日本検定協会",
+  "sources": [
+    {
+      "url": "https://www.rakuten-sonpo.co.jp/news/tabid/85/Default.aspx?itemid=806&dispmid=3392",
+      "type": "official",
+      "title": "業務委託先における不正アクセス被害に伴う情報漏えいの可能性について",
+      "published_on": "2026-05-11",
+      "checked_on": "2026-11-13"
+    }
+  ],
+  "updates": [],
+  "notes": "外部への漏えいや不正利用は確認されていない。クレジットカード・銀行口座情報は含まれない。"
+}

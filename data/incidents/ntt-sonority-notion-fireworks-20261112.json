@@ -1,0 +1,47 @@
+{
+  "id": "ntt-sonority-notion-fireworks-20261112",
+  "organization": {
+    "name": "NTTソノリティ",
+    "sector": "企業・団体"
+  },
+  "title": "Notion社のAI処理委託先Fireworks AIへの不正アクセスでNotion AIへの入力文章と応答の一部に流出の可能性",
+  "summary": "Notion社のAI処理委託先Fireworks AIへの不正アクセスでNotion AIへの入力文章と応答の一部に流出の可能性。",
+  "published_on": "2026-11-12",
+  "first_published_on": "2026-11-12",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-12",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "Notion Labs, Inc.がAI機能の処理を委託するFireworks AI社への第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "2026年10月5日～24日のNotion AIとのやり取りの記録の一部。件数は調査中。"
+    }
+  ],
+  "data_types": [
+    "Notion AIへの入力文章",
+    "AIの回答"
+  ],
+  "related_vendor": "Fireworks AI",
+  "sources": [
+    {
+      "url": "https://ntt-sonority.com/blogs/news/261112-2",
+      "type": "official",
+      "title": "当社が利用するクラウドサービス「Notion」の委託先への不正アクセスに伴う、AI機能での入力情報の流出の可能性に関するお知らせとお詫び（第一報）",
+      "published_on": "2026-11-12",
+      "checked_on": "2026-11-13"
+    }
+  ],
+  "updates": [],
+  "notes": "11月11日（日本時間）にNotion社から通知を受けた。"
+}

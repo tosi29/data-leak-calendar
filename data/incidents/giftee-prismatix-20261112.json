@@ -1,0 +1,46 @@
+{
+  "id": "giftee-prismatix-20261112",
+  "organization": {
+    "name": "ギフティ（giftee）",
+    "sector": "企業・団体"
+  },
+  "title": "会員管理・ログイン認証に使う「prismatix」への不正アクセスで個人向けサービス「giftee」の会員情報の一部に漏えいの可能性",
+  "summary": "会員管理・ログイン認証に使う「prismatix」への不正アクセスで個人向けサービス「giftee」の会員情報の一部に漏えいの可能性。",
+  "published_on": "2026-11-12",
+  "first_published_on": "2026-11-12",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-12",
+  "verification": "official",
+  "leak_status": "investigating",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "会員情報の管理とログイン認証に利用するプリズマティクス株式会社の「prismatix」への第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "漏えいの有無と影響範囲は調査中。"
+    }
+  ],
+  "data_types": [
+    "会員情報"
+  ],
+  "related_vendor": "プリズマティクス株式会社",
+  "sources": [
+    {
+      "url": "https://giftee.co.jp/press/news/info20261112/",
+      "type": "official",
+      "title": "外部サービスへの不正アクセスに伴う個人向けサービス「giftee」の一時停止に関するお知らせ",
+      "published_on": "2026-11-12",
+      "checked_on": "2026-11-13"
+    }
+  ],
+  "updates": [],
+  "notes": "11月11日22時頃から主要機能を停止。10月22日公表のブラストメール事案とは別記録。"
+}

@@ -1,0 +1,59 @@
+{
+  "id": "toyama-shukatsu-line-blastmail-20261022",
+  "organization": {
+    "name": "富山県（就活ラインとやま・ヤングジョブとやま）",
+    "sector": "自治体"
+  },
+  "title": "メール配信に使う「ブラストメール」への不正アクセスで就活ラインとやまの登録者・登録企業等の情報に漏洩のおそれ",
+  "summary": "メール配信に使う「ブラストメール」への不正アクセスで就活ラインとやまの登録者・登録企業等の情報に漏洩のおそれ。",
+  "published_on": "2026-10-22",
+  "first_published_on": "2026-10-22",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-12",
+  "verification": "official",
+  "leak_status": "ruled_out",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "メール配信システム「ブラストメール」（株式会社ラクスライトクラウド運営）への外部の第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "就活ラインとやまの登録者・登録企業とヤングジョブとやまの登録企業。件数は未公表。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "株式会社ラクスライトクラウド",
+  "sources": [
+    {
+      "url": "https://www.pref.toyama.jp/130321/sangyou/roudou/roudoukoyou/08uij.html",
+      "type": "official",
+      "title": "就活ラインとやま及びヤングジョブとやまのメール配信に利用するシステムへの不正アクセスに伴う情報漏洩のおそれについて",
+      "published_on": "2026-10-22",
+      "checked_on": "2026-11-13"
+    },
+    {
+      "url": "https://shukatsu-line.pref.toyama.lg.jp/news/293",
+      "type": "official",
+      "title": "（情報漏洩等は確認されませんでした）メール配信システム「ブラストメール」の不正アクセス事案について",
+      "published_on": "2026-11-12",
+      "checked_on": "2026-11-13"
+    }
+  ],
+  "updates": [
+    {
+      "date": "2026-11-12",
+      "summary": "調査完了。就活ラインとやまのメルマガ配信に係る登録情報の漏洩や不正閲覧を示す事実は確認されなかった。",
+      "source_index": 1
+    }
+  ],
+  "notes": "県のページは2026年10月22日更新。"
+}

@@ -1,0 +1,48 @@
+{
+  "id": "namerikawa-icuco-20261112",
+  "organization": {
+    "name": "滑川市（市立保育所）",
+    "sector": "自治体"
+  },
+  "title": "保育所の午睡チェックセンサーの委託先icucoのシステムへの不正アクセスで園児27名の氏名等に流出の可能性",
+  "summary": "保育所の午睡チェックセンサーの委託先icucoのシステムへの不正アクセスで園児27名の氏名等に流出の可能性。",
+  "published_on": "2026-11-12",
+  "first_published_on": "2026-11-12",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-12",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "市立保育所2か所で利用する午睡チェックセンサーの外部委託先icuco株式会社のシステムへの第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 27,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "午睡チェックセンサーを利用していた園児。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "生年月日",
+    "性別"
+  ],
+  "related_vendor": "icuco株式会社",
+  "sources": [
+    {
+      "url": "https://www.city.namerikawa.toyama.jp/soshiki/24/1/11688.html",
+      "type": "official",
+      "title": "外部委託先のシステムへの不正アクセスに伴う情報漏えいの可能性について",
+      "published_on": "2026-11-12",
+      "checked_on": "2026-11-13"
+    }
+  ],
+  "updates": [],
+  "notes": "住所・電話番号・メールアドレス・口座情報は含まれない。"
+}

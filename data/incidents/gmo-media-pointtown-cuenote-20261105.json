@@ -1,0 +1,47 @@
+{
+  "id": "gmo-media-pointtown-cuenote-20261105",
+  "organization": {
+    "name": "GMOメディア（ポイントタウン）",
+    "sector": "企業・団体"
+  },
+  "title": "メールマガジン配信に使う「Cuenote FC」への不正アクセスでポイントタウンの一部会員のメールアドレスと会員IDが漏えい",
+  "summary": "メールマガジン配信に使う「Cuenote FC」への不正アクセスでポイントタウンの一部会員のメールアドレスと会員IDが漏えい。",
+  "published_on": "2026-11-05",
+  "first_published_on": "2026-11-05",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-05",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "メールマガジン配信に利用するユミルリンク株式会社の「Cuenote FC」への第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "一部の会員。件数は未公表。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス",
+    "会員ID"
+  ],
+  "related_vendor": "ユミルリンク株式会社",
+  "sources": [
+    {
+      "url": "https://www.pointtown.com/information/434",
+      "type": "official",
+      "title": "メール配信サービスへの不正アクセスに関するお知らせ",
+      "published_on": "2026-11-05",
+      "checked_on": "2026-11-13"
+    }
+  ],
+  "updates": [],
+  "notes": "詳細ページ（GMOメディア）は本文を取得できず、ポイントタウンの告知で確認。"
+}

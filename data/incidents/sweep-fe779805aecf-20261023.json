@@ -11,9 +11,9 @@
   "publication_kind": "initial",
   "occurred_on": null,
   "detected_on": null,
-  "updated_on": "2026-10-27",
+  "updated_on": "2026-11-13",
   "verification": "official",
-  "leak_status": "suspected",
+  "leak_status": "ruled_out",
   "incident_type": "attack",
   "cause": {
     "category": "unauthorized_access",
@@ -43,9 +43,22 @@
       "title": "メールマガジン配信先情報が漏えいした可能性",
       "published_on": "2026-10-23",
       "checked_on": "2026-10-27"
+    },
+    {
+      "type": "official",
+      "checked_on": "2026-11-13",
+      "url": "https://www.release.tdnet.info/inbs/140120261113579653.pdf",
+      "title": "（開示事項の経過）「ブラストメール」への不正アクセスに伴う情報漏えいの可能性に関する調査結果のお知らせ",
+      "published_on": "2026-11-13"
     }
   ],
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-11-13",
+      "summary": "調査結果（最終報告）。配信先として登録していた氏名・メールアドレス・生年月日・性別・地域は外部に持ち出されていない。持ち出されたのは個人を特定できないシステム上の管理番号（読者ナンバー・配信ナンバー）のみ。",
+      "source_index": 1
+    }
+  ],
   "notes": "仮会員はメールアドレスのみ。正確な対象件数は精査中。",
   "vendors": [
     {

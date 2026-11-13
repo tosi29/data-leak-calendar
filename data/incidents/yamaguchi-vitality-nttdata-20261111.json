@@ -1,0 +1,49 @@
+{
+  "id": "yamaguchi-vitality-nttdata-20261111",
+  "organization": {
+    "name": "山口県（やまぐちVitalityウォーク）",
+    "sector": "自治体"
+  },
+  "title": "住友生命がシステム関連業務を委託するNTTデータのシステムへの不正アクセスで「やまぐちVitalityウォーク」申込者42名の情報が漏えい",
+  "summary": "住友生命がシステム関連業務を委託するNTTデータのシステムへの不正アクセスで「やまぐちVitalityウォーク」申込者42名の情報が漏えい。",
+  "published_on": "2026-11-11",
+  "first_published_on": "2026-11-11",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-11",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "住友生命がシステム関連業務を委託する株式会社NTTデータのシステムへの不正アクセス（2026年11月2日に確認）。"
+  },
+  "impact": [
+    {
+      "count": 42,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "申込者3,065名のうち情報が漏えいした人数。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "カナ氏名",
+    "生年月日",
+    "Vitality会員番号"
+  ],
+  "related_vendor": "株式会社NTTデータ",
+  "sources": [
+    {
+      "url": "https://www.pref.yamaguchi.lg.jp/press/369833.html",
+      "type": "official",
+      "title": "住友生命Vitalityの仕組みを利用した「やまぐちVitalityウォーク」申込者の個人情報の漏えいについて",
+      "published_on": "2026-11-11",
+      "checked_on": "2026-11-13"
+    }
+  ],
+  "updates": [],
+  "notes": "住友生命・NTTデータの公表（既存記録）と件数が重なる。"
+}

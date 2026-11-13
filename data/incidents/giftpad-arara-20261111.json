@@ -1,0 +1,46 @@
+{
+  "id": "giftpad-arara-20261111",
+  "organization": {
+    "name": "ギフトパッド",
+    "sector": "企業・団体"
+  },
+  "title": "一部のメール配信業務で使う「アララメッセージ」への不正アクセスで預託していたメールアドレス144,364件が漏えい",
+  "summary": "一部のメール配信業務で使う「アララメッセージ」への不正アクセスで預託していたメールアドレス144,364件が漏えい。",
+  "published_on": "2026-11-11",
+  "first_published_on": "2026-11-11",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-11",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "一部のメール配信業務で利用するアララ株式会社の「アララメッセージ」への第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 144364,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "2026年7月1日以降の配信ログに記録されていたメールアドレス。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "アララ株式会社",
+  "sources": [
+    {
+      "url": "https://corp.giftpad.co.jp/article_source/data/news/detail/2026/253.html",
+      "type": "official",
+      "title": "メール配信委託先への不正アクセスによる情報漏えいについて",
+      "published_on": "2026-11-11",
+      "checked_on": "2026-11-13"
+    }
+  ],
+  "updates": [],
+  "notes": "三菱UFJフィナンシャル・グループ、野村ホールディングス、百十四銀行などの株主向け電子ギフト案内メールの宛先を含む。"
+}

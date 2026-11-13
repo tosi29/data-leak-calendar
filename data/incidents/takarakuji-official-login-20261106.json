@@ -11,7 +11,7 @@
   "publication_kind": "initial",
   "occurred_on": null,
   "detected_on": null,
-  "updated_on": "2026-11-06",
+  "updated_on": "2026-11-11",
   "verification": "official",
   "leak_status": "suspected",
   "incident_type": "attack",
@@ -39,8 +39,21 @@
       "title": "宝くじ公式サイトおよび公式アプリの一時停止について",
       "published_on": "2026-11-06",
       "checked_on": "2026-11-08"
+    },
+    {
+      "type": "official",
+      "checked_on": "2026-11-13",
+      "url": "https://www.takarakuji-preliminary.jp/newsrelease_20261111.pdf",
+      "title": "宝くじ公式サイトおよび公式アプリの一時停止について（2026年11月11日更新）",
+      "published_on": "2026-11-11"
     }
   ],
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-11-11",
+      "summary": "更新。一部の会員で第三者による不正ログインがあり、パスワード変更に加えて会員情報が閲覧された可能性を確認。リスト型攻撃の可能性があり、対象者には個別にメールで連絡。サーバー・データベースへの侵入と会員データの流出は未確認。",
+      "source_index": 1
+    }
+  ],
   "notes": "一部の会員で意図しないパスワード変更と会員情報の閲覧の可能性を確認。サーバー・データベースへの侵入の形跡や会員データの流出は未確認。サイトとアプリを停止中で、売場販売は継続。"
 }

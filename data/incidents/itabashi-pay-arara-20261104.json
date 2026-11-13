@@ -4,16 +4,16 @@
     "name": "板橋区（いたばしPay）",
     "sector": "自治体"
   },
-  "title": "いたばしPayが使うアララメッセージへの不正アクセスで登録情報への影響を確認中",
-  "summary": "いたばしPayが使うアララメッセージへの不正アクセスで登録情報への影響を確認中。",
+  "title": "いたばしPayのシステム委託会社が使うアララメッセージへの不正アクセスで利用者・加盟店のメールアドレス114,987件が漏えい",
+  "summary": "いたばしPayのシステム委託会社が使うアララメッセージへの不正アクセスで利用者・加盟店のメールアドレス114,987件が漏えい。",
   "published_on": "2026-11-04",
   "first_published_on": "2026-11-04",
   "publication_kind": "initial",
   "occurred_on": null,
   "detected_on": null,
-  "updated_on": "2026-11-04",
+  "updated_on": "2026-11-12",
   "verification": "official",
-  "leak_status": "investigating",
+  "leak_status": "confirmed",
   "incident_type": "attack",
   "cause": {
     "category": "unauthorized_access",
@@ -22,13 +22,15 @@
   },
   "impact": [
     {
-      "count": null,
+      "count": 114987,
       "unit": "records",
-      "qualifier": "unknown",
-      "description": "登録情報が流出対象に含まれるかは未判明。"
+      "qualifier": "exact",
+      "description": "利用者と加盟店舗のメールアドレス。"
     }
   ],
-  "data_types": [],
+  "data_types": [
+    "メールアドレス"
+  ],
   "related_vendor": "アララ株式会社",
   "sources": [
     {
@@ -37,8 +39,21 @@
       "title": "外部メール配信サービスにおける不正アクセスの報道について",
       "published_on": "2026-11-04",
       "checked_on": "2026-11-08"
+    },
+    {
+      "type": "official",
+      "checked_on": "2026-11-13",
+      "url": "https://www.city.itabashi.tokyo.jp/bunka/1061832/1062076/1066763/1066938.html",
+      "title": "外部メール配信サービスにおける不正アクセスの報道について(第2報 令和8年11月12日更新)",
+      "published_on": "2026-11-12"
     }
   ],
-  "updates": [],
-  "notes": "実施主体は板橋区商店街振興組合連合会。現時点で情報流出は未確認。"
+  "updates": [
+    {
+      "date": "2026-11-12",
+      "summary": "第2報。システム委託会社フィノバレーが使う「アララメッセージ」から利用者と加盟店のメールアドレス114,987件の漏えいを確認。",
+      "source_index": 1
+    }
+  ],
+  "notes": "実施主体は板橋区商店街振興組合連合会。システム委託会社は株式会社フィノバレー。メールアドレス以外は対象外。"
 }

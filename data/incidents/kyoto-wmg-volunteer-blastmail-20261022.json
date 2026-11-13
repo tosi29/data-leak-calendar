@@ -1,0 +1,60 @@
+{
+  "id": "kyoto-wmg-volunteer-blastmail-20261022",
+  "organization": {
+    "name": "京都府・京都市（ワールドマスターズゲームズ2027関西 京都エリア）",
+    "sector": "自治体"
+  },
+  "title": "ボランティア募集の委託先関広が使う「ブラストメール」への不正アクセスで応募代表者288件の氏名・メールアドレスが持ち出された可能性",
+  "summary": "ボランティア募集の委託先関広が使う「ブラストメール」への不正アクセスで応募代表者288件の氏名・メールアドレスが持ち出された可能性。",
+  "published_on": "2026-10-22",
+  "first_published_on": "2026-10-22",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-12",
+  "verification": "official",
+  "leak_status": "ruled_out",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "ボランティア募集管理等業務の委託先株式会社関広が利用していた株式会社ラクスライトクラウドの「ブラストメール」のサーバーへの不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 288,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "2026年10月15日までに応募した代表者の氏名・メールアドレス。調査で漏洩はなかったと判明。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "メールアドレス"
+  ],
+  "related_vendor": "株式会社ラクスライトクラウド",
+  "sources": [
+    {
+      "url": "https://www.city.kyoto.lg.jp/bunshi/page/0000359579.html",
+      "type": "official",
+      "title": "「ワールドマスターズゲームズ2027関西」京都エリアのボランティア募集にかかる不正アクセスによる個人情報漏洩の可能性",
+      "published_on": "2026-10-22",
+      "checked_on": "2026-11-13"
+    },
+    {
+      "url": "https://www.pref.kyoto.jp/press/documents/2026111210.pdf",
+      "type": "official",
+      "title": "不正アクセス事案の調査結果（「ワールドマスターズゲームズ2027関西」京都エリアのボランティア募集）",
+      "published_on": "2026-11-12",
+      "checked_on": "2026-11-13"
+    }
+  ],
+  "updates": [
+    {
+      "date": "2026-11-12",
+      "summary": "調査結果。ラクスライトクラウドの外部専門機関による調査で、応募代表者の個人情報288件の漏洩はなかったことが判明。",
+      "source_index": 1
+    }
+  ],
+  "notes": "初報は10月22日の府・市の報道発表（調査結果資料で確認）。市のページは11月12日付で掲載。"
+}

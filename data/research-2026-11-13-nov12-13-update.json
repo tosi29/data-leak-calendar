@@ -1,0 +1,182 @@
+{
+  "checked_on": "2026-11-13",
+  "checked_at": "2026-11-13T17:35:00+09:00",
+  "coverage_start": "2026-11-12",
+  "coverage_end": "2026-11-13",
+  "stats": {
+    "baseline_incidents": 2474,
+    "added_incidents": 62,
+    "updated_incidents": 8,
+    "total_incidents": 2536,
+    "added_by_publication_date": {
+      "2026-05-11": 1,
+      "2026-10-22": 3,
+      "2026-10-23": 1,
+      "2026-11-02": 1,
+      "2026-11-03": 1,
+      "2026-11-04": 1,
+      "2026-11-05": 2,
+      "2026-11-06": 4,
+      "2026-11-07": 1,
+      "2026-11-09": 1,
+      "2026-11-11": 21,
+      "2026-11-12": 21,
+      "2026-11-13": 4
+    },
+    "baseline_candidates": 103,
+    "new_candidates": 3,
+    "resolved_candidates": 8,
+    "pending_candidates": 98
+  },
+  "added_incident_ids": [
+    "aioi-fleekdrive-arara-20261113",
+    "akita-happinets-axel-arara-20261106",
+    "avanti-staff-arara-20261106",
+    "azarashi-seaparadise-openlogi-20261111",
+    "belluna-martialarts-mail-20261106",
+    "bijyu-otabe-makerepeater-arara-20261111",
+    "booklive-credential-stuffing-20261112",
+    "cscloud-github-20261112",
+    "ensapia-hange-20261103",
+    "fany-ticket-arara-20261111",
+    "fleekdrive-arara-20261109",
+    "fujiya-familytown-arara-20261112",
+    "giftee-prismatix-20261112",
+    "giftpad-arara-20261111",
+    "gmo-media-pointtown-cuenote-20261105",
+    "gomme-makeshop-arara-20261106",
+    "hyakujushi-giftpad-arara-20261112",
+    "icuco-20261107",
+    "imh-sol-arara-20261112",
+    "japanpost-posukuma-tonariwa-20261111",
+    "kewpie-group-arara-20261112",
+    "kitakyushu-mynumber-arara-20261111",
+    "kitakyushu-seisouchu-teket-20261112",
+    "kiyokawaya-ectencho-20261111",
+    "kochi-city-applynow-20261111",
+    "koka-broadcast-ransomware-20261112",
+    "kyoto-ack-artpass-arara-20261111",
+    "kyoto-recurrent-center-blastmail-20261023",
+    "kyoto-wmg-volunteer-blastmail-20261022",
+    "lrm-notion-fireworks-20261111",
+    "macromill-monitor-20261112",
+    "maizuru-vitality-nttdata-20261111",
+    "miyako-onlineshop-arara-20261113",
+    "msins-fleekdrive-arara-20261113",
+    "mufg-giftpad-arara-20261111",
+    "mutsu-mynumber-arara-20261111",
+    "mynet-openlogi-20261111",
+    "namerikawa-icuco-20261112",
+    "nikkei-research-notion-fireworks-20261112",
+    "nomura-giftpad-arara-20261111",
+    "ntt-sonority-notion-fireworks-20261112",
+    "onecareer-notion-fireworks-20261112",
+    "opendoor-travelko-arara-20261104",
+    "paletteproject-openlogi-20261111",
+    "rakuten-sonpo-shinken-20260511",
+    "sanfrecce-tss-arara-20261112",
+    "sdr-ebidan-fanplus-arara-20261105",
+    "securenavi-notion-fireworks-20261111",
+    "skiyaki-bitfan-openlogi-20261111",
+    "spwn-balus-openlogi-20261112",
+    "sunstage-belluna-notice-20261102",
+    "tgg-arara-20261111",
+    "third-notion-fireworks-20261111",
+    "timetree-notion-fireworks-20261112",
+    "tokyo-gas-honkan-arara-20261112",
+    "toyama-shukatsu-line-blastmail-20261022",
+    "usmh-ignica-20261112",
+    "vega-lowya-ectencho-20261113",
+    "weathernews-sorashop-openlogi-20261112",
+    "yamagata-mailmag-blastmail-20261022",
+    "yamaguchi-vitality-nttdata-20261111",
+    "yeny-api-20261112"
+  ],
+  "updated_incident_ids": [
+    "coffeestyle-ucc-comsbi-20261102",
+    "dentsu-digital-tonariwa-20261111",
+    "itabashi-pay-arara-20261104",
+    "ja-kyosai-pcs-20261104",
+    "okayama-mailmag-arara-20261103",
+    "sweep-fe779805aecf-20261023",
+    "takarakuji-official-login-20261106",
+    "vook-analysis-20261030"
+  ],
+  "new_candidate_ids": [
+    "nov13-plaid-karte-review",
+    "nov13-qoo10-review",
+    "nov13-wakao-review"
+  ],
+  "resolved_candidate_ids": [
+    "may-review-55872cb90009",
+    "nov02-sunstage-belluna-notice-review",
+    "nov03-ensapia-hange-review",
+    "nov06-belluna-collection-review",
+    "nov09-pointtown-cuenote-review",
+    "nov09-travelko-arara-review",
+    "nov10-kitakyushu-mynumber-arara-review",
+    "nov12-securenavi-notion-review"
+  ],
+  "method": [
+    "前回調査（11月12日23時）以降を対象に、JSON形式の2索引で11月11日以降に公表・更新された行、別の2索引の11月10～13日付行、11月11～13日の適時開示一覧から一次情報URLを抽出し、既存の掲載JSON・確認待ち候補・照合記録の出典URLと組織名で照合した。",
+    "未照合の公式HTML・PDFを直接取得して本文で日付・対象・件数を確認した。スクリプト描画のページはページ内のデータから本文を確認した。",
+    "確認待ち103件の参照先と確認済みURLを全件再取得し、公表索引の最新データと組織名で照合した。",
+    "続報は既存IDへ統合した。委託先事故は委託元・受託先・提供元の公表をそれぞれ記録し、件数は合算しない。"
+  ],
+  "limitations": [
+    "11月13日夕方の調査時点までの公表を対象とし、11月12～13日分は索引への反映途中で網羅性が低い。漏れゼロを意味しない。",
+    "ジャックス・駿河屋（403）、長久手市（アクセス制限）、さとふる（応答なし）は今回も本文を確認できなかった。",
+    "まい泉（個人情報の漏えい未確認）、栃木県（個人情報を保有しない）、Cocolive・GMOあおぞらネット銀行・Sake World（前回と同じ理由）は対象外。"
+  ],
+  "search_result_urls": [
+    "https://incidents.seory.co.jp/incidents.json",
+    "https://jouhourouei.clipmaster.jp/data/incidents.json",
+    "https://legalagent.co.jp/legal-lab/security-incidents/",
+    "https://satimo.org/2026/10/data-breach-list-2026/",
+    "https://www.release.tdnet.info/inbs/I_list_001_20261113.html"
+  ],
+  "retrieval_checks": [
+    {
+      "url": "https://www.qoo10.jp/gmkt.inc/Main/PopupNotice.aspx?nid=6246",
+      "status": "unavailable",
+      "final_url": null
+    },
+    {
+      "url": "https://www.jaccs.co.jp/information/emerge/page_01196.html",
+      "status": "unavailable",
+      "final_url": null
+    },
+    {
+      "url": "https://www.suruga-ya.co.jp/ja/node/2544",
+      "status": "unavailable",
+      "final_url": null
+    },
+    {
+      "url": "https://www.city.nagakute.lg.jp/soshiki/somubu/shiminka/1/1/mynumber/28224.html",
+      "status": "unavailable",
+      "final_url": null
+    },
+    {
+      "url": "https://www.satofull.jp/static/information/images/20261027/satofull_20261027.pdf",
+      "status": "unavailable",
+      "final_url": null
+    },
+    {
+      "url": "https://www.ec-tencho.jp/info/access/report/index.html",
+      "status": "unavailable",
+      "final_url": null
+    },
+    {
+      "url": "https://third-inc.co.jp/posts/20261111",
+      "status": "partial",
+      "final_url": null
+    },
+    {
+      "url": "https://www.icuco.co.jp/LxwOiU5O/Udzu7lfC",
+      "status": "partial",
+      "final_url": null
+    }
+  ],
+  "report": "docs/research-2026-11-13-nov12-13-update.md",
+  "audit": "data/research-2026-11-13-nov12-13-update.json"
+}

@@ -8954,5 +8954,191 @@
       "https://www.city.yokote.lg.jp/shigoto/1001164/1001361/1013864.html"
     ],
     "reason": "公表索引から横手市の公式告知を特定し、延べ約1,300人・委託業務12件を本文で確認したため保留を解消。"
+  },
+  {
+    "candidate": {
+      "id": "may-review-55872cb90009",
+      "organization": "楽天損害保険",
+      "reported_on": "2026-10-26",
+      "verification": "pending",
+      "reference_url": "https://www.rakuten-sonpo.co.jp/news/tabid/85/Default.aspx?itemid=806&dispmid=753",
+      "note": "2026年11月1日再調査：楽天損保の5月11日付告知一覧は確認できるが、新日本検定協会に関する当該発表本文を取得できない。対象情報・範囲を一覧や他事案から補わない。 今回も公表日・対象を確定する追加の本文を確認できず、元の未解決点を継続。",
+      "reviewed_on": "2026-11-01",
+      "checked_urls": [
+        "https://www.rakuten-sonpo.co.jp/news/tabid/85/Default.aspx?itemid=806&dispmid=753"
+      ]
+    },
+    "reviewed_on": "2026-11-13",
+    "resolution": "published",
+    "incident_ids": [
+      "rakuten-sonpo-shinken-20260511"
+    ],
+    "source_urls": [
+      "https://www.rakuten-sonpo.co.jp/news/tabid/85/Default.aspx?itemid=806&dispmid=3392"
+    ],
+    "reason": "お知らせ一覧から当該告知の詳細ページを特定し、新日本検定協会への攻撃による荷主等の個人情報の漏えいの可能性と5月11日の公表日を本文で確認したため掲載。"
+  },
+  {
+    "candidate": {
+      "id": "nov02-sunstage-belluna-notice-review",
+      "organization": "サンステージ（ベルーナノーティス）",
+      "reported_on": "2026-11-02",
+      "verification": "pending",
+      "reference_url": "https://www.belluna.co.jp/pdf/20261102sunstage.pdf",
+      "reviewed_on": "2026-11-09",
+      "checked_urls": [
+        "https://www.belluna.co.jp/pdf/20261102sunstage.pdf",
+        "https://www.belluna.co.jp/pdf/20261105sunstage.pdf"
+      ],
+      "note": "2026年11月8日調査：公表索引では申込サイトへの不正アクセスで最大19,853名、11月5日の第2報で最大46,497名の氏名・住所・口座情報等が閲覧・取得の可能性とされる。公式PDFは直接取得・取得ツールとも403で本文未確認のため保留。 2026年11月9日再調査：公式PDFは取得ツールでも403。"
+    },
+    "reviewed_on": "2026-11-13",
+    "resolution": "published",
+    "incident_ids": [
+      "sunstage-belluna-notice-20261102"
+    ],
+    "source_urls": [
+      "https://www.belluna.co.jp/pdf/20261105sunstage.pdf"
+    ],
+    "reason": "前回403だった公式PDF（第1報・第2報）を取得でき、最大46,497名の対象と情報項目を本文で確認したため掲載。"
+  },
+  {
+    "candidate": {
+      "id": "nov03-ensapia-hange-review",
+      "organization": "エンセイピア（ハンゲ）",
+      "reported_on": "2026-11-03",
+      "verification": "pending",
+      "reference_url": "https://ensapia-tokyo.com/news/topics/id=21381/",
+      "reviewed_on": "2026-11-09",
+      "checked_urls": [
+        "https://ensapia-tokyo.com/news/topics/id=21381/"
+      ],
+      "note": "2026年11月8日調査：ハンゲのサーバーへの不正アクセスと全サービス停止を公式に確認。11月4日の第2報でIDとパスワードの流出痕跡は未確認、6日時点も影響範囲を調査中。個人情報への影響が具体化するまで保留。第1報URLは取得時に404。 2026年11月9日再調査：11月6日20時更新の第3報も全サービス停止中で、個人情報への影響は未公表。"
+    },
+    "reviewed_on": "2026-11-13",
+    "resolution": "published",
+    "incident_ids": [
+      "ensapia-hange-20261103"
+    ],
+    "source_urls": [
+      "https://ensapia-tokyo.com/news/topics/id=21412/"
+    ],
+    "reason": "11月13日の第4報で個人情報の一部の漏えいと項目別件数が公表されたため掲載。"
+  },
+  {
+    "candidate": {
+      "id": "nov06-belluna-collection-review",
+      "organization": "ベルーナ（債権回収委託先のメール配信）",
+      "reported_on": "2026-11-06",
+      "verification": "pending",
+      "reference_url": "https://www.belluna.co.jp/pdf/20261106cc.pdf",
+      "reviewed_on": "2026-11-09",
+      "checked_urls": [
+        "https://www.belluna.co.jp/pdf/20261106cc.pdf"
+      ],
+      "note": "2026年11月8日調査：公表索引では債権回収委託先の弁護士法人Martial Artsが使うメール配信システムからメールアドレスのみ1,519件、氏名・債権残高等を含む106件が流出とされる。公式PDFは403で本文未確認のため保留。 2026年11月9日再調査：公式PDFは引き続き403で本文未確認。"
+    },
+    "reviewed_on": "2026-11-13",
+    "resolution": "published",
+    "incident_ids": [
+      "belluna-martialarts-mail-20261106"
+    ],
+    "source_urls": [
+      "https://www.belluna.co.jp/pdf/20261106cc.pdf"
+    ],
+    "reason": "前回403だった公式PDFを取得でき、流出件数（1,519件と106件）と項目を本文で確認したため掲載。"
+  },
+  {
+    "candidate": {
+      "id": "nov09-pointtown-cuenote-review",
+      "organization": "GMOメディア（ポイントタウン）",
+      "reported_on": "2026-11-05",
+      "verification": "pending",
+      "reference_url": "https://www.pointtown.com/information/434",
+      "reviewed_on": "2026-11-09",
+      "checked_urls": [
+        "https://www.pointtown.com/information/434",
+        "https://www.gmo.media/archives/8703/"
+      ],
+      "note": "2026年11月9日調査：ポイントタウンの告知でCuenote FCへの不正アクセスにより一部会員のメールアドレスと会員IDの漏えいを確認。公表日はページ上で特定できず、詳細ページ（GMOメディア）は本文を取得できないため保留。reported_onは公表索引の日付。"
+    },
+    "reviewed_on": "2026-11-13",
+    "resolution": "published",
+    "incident_ids": [
+      "gmo-media-pointtown-cuenote-20261105"
+    ],
+    "source_urls": [
+      "https://www.pointtown.com/information/434"
+    ],
+    "reason": "ポイントタウンの告知本文に2026年11月5日19時50分の掲載日時と漏えいの確認が記載されていたため掲載。件数は未公表。"
+  },
+  {
+    "candidate": {
+      "id": "nov09-travelko-arara-review",
+      "organization": "オープンドア（トラベルコ、メール配信委託先アララ）",
+      "reported_on": "2026-11-04",
+      "verification": "pending",
+      "reference_url": "https://www.opendoor.co.jp/shared/pdf/20261109_info.pdf",
+      "reviewed_on": "2026-11-09",
+      "checked_urls": [
+        "https://www.opendoor.co.jp/shared/pdf/20261109_info.pdf"
+      ],
+      "note": "2026年11月9日調査：11月9日の公表で、11月4日に同社サイトでアララ事案を告知済みと記載。11月4日の告知本文は未特定。ウェブサイトへの不正アクセス（別事案）は掲載済み。"
+    },
+    "reviewed_on": "2026-11-13",
+    "resolution": "published",
+    "incident_ids": [
+      "opendoor-travelko-arara-20261104"
+    ],
+    "source_urls": [
+      "https://www.opendoor.co.jp/shared/pdf/20261104_info.pdf"
+    ],
+    "reason": "公表索引から11月4日付の告知PDFを特定し、メールアドレス318,495件の流出を本文で確認したため掲載。"
+  },
+  {
+    "candidate": {
+      "id": "nov10-kitakyushu-mynumber-arara-review",
+      "organization": "北九州市（マイナンバーカード交付予約・管理システム）",
+      "reported_on": "2026-11-09",
+      "verification": "pending",
+      "reference_url": "https://www.city.kitakyushu.lg.jp/contents/14900233_00004.html",
+      "reviewed_on": "2026-11-10",
+      "checked_urls": [
+        "https://www.city.kitakyushu.lg.jp/contents/14900233_00004.html"
+      ],
+      "note": "2026年11月10日調査：公表索引ではTKCのマイナンバーカード交付予約・管理システムが使うアララへの不正アクセスで利用者のメールアドレスに漏えいの可能性と11月9日に公表とされるが、市の公式ページは404で本文未確認のため保留。"
+    },
+    "reviewed_on": "2026-11-13",
+    "resolution": "published",
+    "incident_ids": [
+      "kitakyushu-mynumber-arara-20261111"
+    ],
+    "source_urls": [
+      "https://www.city.kitakyushu.lg.jp/contents/14900233_00004.html"
+    ],
+    "reason": "前回404だった市のページを取得でき、漏えいの可能性と対象情報を本文で確認したため掲載。掲載日はページの更新日。"
+  },
+  {
+    "candidate": {
+      "id": "nov12-securenavi-notion-review",
+      "organization": "SecureNavi（Notionの委託先Fireworks AIへの不正アクセス）",
+      "reported_on": "2026-11-11",
+      "verification": "pending",
+      "reference_url": "https://secure-navi-inc.jp/news/news_20261111",
+      "reviewed_on": "2026-11-12",
+      "checked_urls": [
+        "https://secure-navi-inc.jp/news/news_20261111"
+      ],
+      "note": "2026年11月12日調査：公式ページは本文をスクリプトで描画し、題名（クラウドサービスの委託先への不正アクセスに伴う顧客に関する情報漏えいの可能性、第一報）のみ確認。対象情報・件数を本文で確認できないため保留。"
+    },
+    "reviewed_on": "2026-11-13",
+    "resolution": "published",
+    "incident_ids": [
+      "securenavi-notion-fireworks-20261111"
+    ],
+    "source_urls": [
+      "https://secure-navi-inc.jp/news/news_20261111"
+    ],
+    "reason": "スクリプト描画ページ内のデータから本文を復元し、顧客の会社名・担当者氏名等の漏えいのおそれを確認したため掲載。"
   }
 ]

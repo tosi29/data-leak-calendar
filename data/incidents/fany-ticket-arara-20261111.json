@@ -1,0 +1,46 @@
+{
+  "id": "fany-ticket-arara-20261111",
+  "organization": {
+    "name": "FANYチケット",
+    "sector": "企業・団体"
+  },
+  "title": "一部のメール配信に使った「アララメッセージ」への不正アクセスで利用者のメールアドレス3,960件が流出",
+  "summary": "一部のメール配信に使った「アララメッセージ」への不正アクセスで利用者のメールアドレス3,960件が流出。",
+  "published_on": "2026-11-11",
+  "first_published_on": "2026-11-11",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-11",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "一部の特定メール配信に利用したアララ株式会社の「アララメッセージ」への第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 3960,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "2026年7月3日～9月28日に同ツール経由のメールを受信した客のメールアドレス。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "アララ株式会社",
+  "sources": [
+    {
+      "url": "https://ticket.fany.lol/notice/3410",
+      "type": "official",
+      "title": "【重要】FANYチケットにおける一部メール配信委託先への不正アクセスに伴う個人情報流出に関するご報告とお詫び・注意喚起",
+      "published_on": "2026-11-11",
+      "checked_on": "2026-11-13"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

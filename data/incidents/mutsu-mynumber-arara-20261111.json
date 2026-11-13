@@ -1,0 +1,46 @@
+{
+  "id": "mutsu-mynumber-arara-20261111",
+  "organization": {
+    "name": "むつ市",
+    "sector": "自治体"
+  },
+  "title": "マイナンバーカード交付予約・管理システムのメール送信に使う「アララメッセージ」への不正アクセスで利用者のメールアドレスに漏えいの可能性",
+  "summary": "マイナンバーカード交付予約・管理システムのメール送信に使う「アララメッセージ」への不正アクセスで利用者のメールアドレスに漏えいの可能性。",
+  "published_on": "2026-11-11",
+  "first_published_on": "2026-11-11",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-11",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "予約システムのメール送信機能に利用するアララ株式会社の「アララメッセージ」への第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "予約時にメールアドレスを登録した利用者。件数は調査中。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "アララ株式会社",
+  "sources": [
+    {
+      "url": "https://www.city.mutsu.lg.jp/kurashi/mynumber/2026-1111-1733-39.html",
+      "type": "official",
+      "title": "メール配信サービスに対する不正アクセスによる個人情報漏えいの可能性について",
+      "published_on": "2026-11-11",
+      "checked_on": "2026-11-13"
+    }
+  ],
+  "updates": [],
+  "notes": "マイナンバーの漏えいはない。"
+}
