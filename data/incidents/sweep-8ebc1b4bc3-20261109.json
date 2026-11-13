@@ -1,0 +1,48 @@
+{
+  "id": "sweep-8ebc1b4bc3-20261109",
+  "organization": {
+    "name": "大阪市（大阪歴史博物館）",
+    "sector": "自治体"
+  },
+  "title": "チケット販売・申込に使う「teket」への不正アクセスでチケット購入者等の情報に流出の可能性",
+  "summary": "チケット販売・申込に使う「teket」への不正アクセスでチケット購入者等の情報に流出の可能性。",
+  "published_on": "2026-11-09",
+  "first_published_on": "2026-11-09",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-09",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "電子チケット販売・管理サービス「teket」を運営する株式会社teketのシステムへの第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "大阪歴史博物館の講座等でteketを利用した人。件数は確認中。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "メールアドレス",
+    "チケット情報"
+  ],
+  "related_vendor": "株式会社teket",
+  "sources": [
+    {
+      "url": "https://www.city.osaka.lg.jp/hodoshiryo/keizaisenryaku/0000691211.html",
+      "type": "official",
+      "title": "大阪市：報道発表資料 大阪歴史博物館において利用する電子チケット販売・管理サービスでの情報漏えいの可能性について（第1報）",
+      "published_on": "2026-11-09",
+      "checked_on": "2026-11-13"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

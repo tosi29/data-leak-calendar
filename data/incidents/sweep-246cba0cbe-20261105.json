@@ -1,0 +1,50 @@
+{
+  "id": "sweep-246cba0cbe-20261105",
+  "organization": {
+    "name": "横浜銀行",
+    "sector": "企業・団体"
+  },
+  "title": "ローン保証会社SMBCコンシューマーファイナンスへの不正アクセスで利用者・申込者の情報が漏えい",
+  "summary": "ローン保証会社SMBCコンシューマーファイナンスへの不正アクセスで利用者・申込者の情報が漏えい。",
+  "published_on": "2026-11-05",
+  "first_published_on": "2026-11-05",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-05",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "ローンの保証会社SMBCコンシューマーファイナンスの保証業務システムへの第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "件数は未公表または調査中。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "生年月日",
+    "住所",
+    "電話番号",
+    "契約情報"
+  ],
+  "related_vendor": "SMBCコンシューマーファイナンス",
+  "sources": [
+    {
+      "url": "https://ssl4.eir-parts.net/doc/7186/ir_material33/289484/00.pdf",
+      "type": "official",
+      "title": "不正アクセスによるお客さま情報の漏えいについて",
+      "published_on": "2026-11-05",
+      "checked_on": "2026-11-13"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

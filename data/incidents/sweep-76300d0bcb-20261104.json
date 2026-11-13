@@ -1,0 +1,46 @@
+{
+  "id": "sweep-76300d0bcb-20261104",
+  "organization": {
+    "name": "ボートレースまるがめ",
+    "sector": "企業・団体"
+  },
+  "title": "日本レジャーチャンネル経由で使う「アララメッセージ」への不正アクセスで会員のメールアドレス759件が流出",
+  "summary": "日本レジャーチャンネル経由で使う「アララメッセージ」への不正アクセスで会員のメールアドレス759件が流出。",
+  "published_on": "2026-11-04",
+  "first_published_on": "2026-11-04",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-04",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "日本レジャーチャンネルがメール配信に利用するアララ株式会社の「アララメッセージ」への第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 759,
+      "unit": "records",
+      "qualifier": "maximum",
+      "description": "メールアドレス。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "日本レジャーチャンネル／アララ株式会社",
+  "sources": [
+    {
+      "url": "https://www.marugameboat.jp/asp/marugame/00info/info.php?type=4#184",
+      "type": "official",
+      "title": "メール配信サービスに対する不正アクセス及び情報漏洩に関するお詫びとお知らせ",
+      "published_on": "2026-11-04",
+      "checked_on": "2026-11-13"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

@@ -1,0 +1,46 @@
+{
+  "id": "sweep-ceecb1c136-20261104",
+  "organization": {
+    "name": "大阪コロナホテル",
+    "sector": "企業・団体"
+  },
+  "title": "予約管理システム「RESERVE GATE α」への不正アクセスで宿泊予約会員の個人情報が漏えいした可能性",
+  "summary": "予約管理システム「RESERVE GATE α」への不正アクセスで宿泊予約会員の個人情報が漏えいした可能性。",
+  "published_on": "2026-11-04",
+  "first_published_on": "2026-11-04",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-04",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "委託先株式会社ナバックの予約管理システム「RESERVE GATE α」への第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "件数は未公表。"
+    }
+  ],
+  "data_types": [
+    "宿泊予約会員の個人情報"
+  ],
+  "related_vendor": "株式会社ナバック",
+  "sources": [
+    {
+      "url": "https://www.osakacoronahotel.jp/topics/2026/122103/",
+      "type": "official",
+      "title": "【重要なお知らせ】委託先システムへの不正アクセスによる個人情報流出の可能性とお詫び・ご注意のお願い",
+      "published_on": "2026-11-04",
+      "checked_on": "2026-11-13"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

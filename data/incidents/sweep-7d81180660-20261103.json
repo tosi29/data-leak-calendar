@@ -1,0 +1,46 @@
+{
+  "id": "sweep-7d81180660-20261103",
+  "organization": {
+    "name": "AKASE GROUP（マスターウォール）",
+    "sector": "企業・団体"
+  },
+  "title": "メール配信サービス「repica」への不正アクセスで配信先のメールアドレス52,735件が流出",
+  "summary": "メール配信サービス「repica」への不正アクセスで配信先のメールアドレス52,735件が流出。",
+  "published_on": "2026-11-03",
+  "first_published_on": "2026-11-03",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-03",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "メール配信に利用するアララ株式会社の「repica」への第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 52735,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "2026年10月8日～29日に配信したメールのメールアドレス。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "アララ株式会社",
+  "sources": [
+    {
+      "url": "https://www.masterwal.jp/news/list/0/detail/2411",
+      "type": "official",
+      "title": "【重要】当社利用のメール配信サービス「repica」への不正アクセスに伴うメールアドレス流出に関するお詫びとお知らせ",
+      "published_on": "2026-11-03",
+      "checked_on": "2026-11-13"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

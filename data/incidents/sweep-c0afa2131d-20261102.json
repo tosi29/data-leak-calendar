@@ -1,0 +1,46 @@
+{
+  "id": "sweep-c0afa2131d-20261102",
+  "organization": {
+    "name": "志木市",
+    "sector": "自治体"
+  },
+  "title": "マイナンバーカード交付予約システムの受託業者が使う外部メール送信システムへの不正アクセスで利用者のメールアドレスに漏えいの可能性",
+  "summary": "マイナンバーカード交付予約システムの受託業者が使う外部メール送信システムへの不正アクセスで利用者のメールアドレスに漏えいの可能性。",
+  "published_on": "2026-11-02",
+  "first_published_on": "2026-11-02",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-02",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "マイナンバーカード交付予約管理システムの受託業者が利用する外部メール送信システム（アララ）への第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "市の利用者分の件数は未公表。受託業者全体では最大2,230,812件。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "アララ株式会社",
+  "sources": [
+    {
+      "url": "https://www.city.shiki.lg.jp/soshiki/13/44759.html",
+      "type": "official",
+      "title": "不正アクセスによるマイナンバーカード交付予約システムに係るメールアドレス漏えいの可能性について",
+      "published_on": "2026-11-02",
+      "checked_on": "2026-11-13"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

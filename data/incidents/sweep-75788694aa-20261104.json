@@ -1,0 +1,46 @@
+{
+  "id": "sweep-75788694aa-20261104",
+  "organization": {
+    "name": "春日部市",
+    "sector": "自治体"
+  },
+  "title": "安心安全情報メール「かすかべ」の配信事業者への不正アクセスで登録者のメールアドレスが流出",
+  "summary": "安心安全情報メール「かすかべ」の配信事業者への不正アクセスで登録者のメールアドレスが流出。",
+  "published_on": "2026-11-04",
+  "first_published_on": "2026-11-04",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-04",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "メール配信サービスの外部事業者への第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 17481,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "10月末現在の登録件数。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.city.kasukabe.lg.jp/soshikikarasagasu/citysaleskohoka/gyomuannai/5/39086.html",
+      "type": "official",
+      "title": "安心安全情報メール「かすかべ」の不正アクセスに伴うメールアドレスの流出について",
+      "published_on": "2026-11-04",
+      "checked_on": "2026-11-13"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

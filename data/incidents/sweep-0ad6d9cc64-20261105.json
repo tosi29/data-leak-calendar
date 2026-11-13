@@ -1,0 +1,46 @@
+{
+  "id": "sweep-0ad6d9cc64-20261105",
+  "organization": {
+    "name": "楽天証券",
+    "sector": "企業・団体"
+  },
+  "title": "ミンカブ・ジ・インフォノイドの配信委託先アララへの不正アクセスでメールアドレス2,109件に漏えいの可能性",
+  "summary": "ミンカブ・ジ・インフォノイドの配信委託先アララへの不正アクセスでメールアドレス2,109件に漏えいの可能性。",
+  "published_on": "2026-11-05",
+  "first_published_on": "2026-11-05",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-05",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "メール配信に利用するアララ株式会社のメール配信サービスへの第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 2109,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "メールアドレス。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "アララ株式会社",
+  "sources": [
+    {
+      "url": "https://www.rakuten-sec.co.jp/web/info/info20261105-01.html",
+      "type": "official",
+      "title": "委託先への不正アクセスによるメールアドレスの漏えいの可能性について",
+      "published_on": "2026-11-05",
+      "checked_on": "2026-11-13"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

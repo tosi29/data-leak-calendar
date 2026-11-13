@@ -1,0 +1,46 @@
+{
+  "id": "sweep-c893eb88f7-20261105",
+  "organization": {
+    "name": "GMOコマース",
+    "sector": "企業・団体"
+  },
+  "title": "メール配信に使うアララのサービスへの不正アクセスでメールアドレスが流出",
+  "summary": "メール配信に使うアララのサービスへの不正アクセスでメールアドレスが流出。",
+  "published_on": "2026-11-05",
+  "first_published_on": "2026-11-05",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-05",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "メール配信に利用するアララ株式会社のメール配信サービスへの第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "件数は未公表または調査中。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "アララ株式会社",
+  "sources": [
+    {
+      "url": "https://www.gmo-c.jp/info/%E5%BD%93%E7%A4%BE%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9%E3%81%A7%E5%88%A9%E7%94%A8%E3%81%99%E3%82%8B%E5%A4%96%E9%83%A8%E3%81%AE%E3%83%A1%E3%83%BC%E3%83%AB%E9%85%8D%E4%BF%A1%E3%82%B5%E3%83%BC%E3%83%93/",
+      "type": "official",
+      "title": "当社サービスで利用する外部のメール配信サービスへの不正アクセスによる情報流出に関するお詫びとお知らせ – GMOコマース株式会社",
+      "published_on": "2026-11-05",
+      "checked_on": "2026-11-13"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

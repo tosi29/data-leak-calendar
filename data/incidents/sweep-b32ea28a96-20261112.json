@@ -1,0 +1,46 @@
+{
+  "id": "sweep-b32ea28a96-20261112",
+  "organization": {
+    "name": "東大阪市（電子申請システム）",
+    "sector": "自治体"
+  },
+  "title": "電子申請システムの提供事業者が使う外部メール配信サービスへの不正アクセスで利用者の情報に漏えいの可能性",
+  "summary": "電子申請システムの提供事業者が使う外部メール配信サービスへの不正アクセスで利用者の情報に漏えいの可能性。",
+  "published_on": "2026-11-12",
+  "first_published_on": "2026-11-12",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-12",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "電子申請システムの提供事業者が利用する外部メール配信サービスへの第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "漏えいの有無を含め確認中。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "アララ株式会社",
+  "sources": [
+    {
+      "url": "https://www.city.higashiosaka.lg.jp/0000045459.html",
+      "type": "official",
+      "title": "東大阪市電子申請システムでの情報漏えいのおそれについて",
+      "published_on": "2026-11-12",
+      "checked_on": "2026-11-13"
+    }
+  ],
+  "updates": [],
+  "notes": "公表索引では11月4日公表とされるが、確認できたページは更新後の版のため、本文の更新日を掲載日とした。"
+}

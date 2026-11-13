@@ -1,0 +1,46 @@
+{
+  "id": "sweep-189e520785-20261103",
+  "organization": {
+    "name": "岩見沢市",
+    "sector": "自治体"
+  },
+  "title": "メール配信サービスの提供元ウイングアークNEXが使うアララへの不正アクセスで登録者のメールアドレスが流出",
+  "summary": "メール配信サービスの提供元ウイングアークNEXが使うアララへの不正アクセスで登録者のメールアドレスが流出。",
+  "published_on": "2026-11-03",
+  "first_published_on": "2026-11-03",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-03",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "メール配信サービスの提供事業者ウイングアークNEXが利用するアララ株式会社のサービスへの第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "件数は未公表または調査中。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "ウイングアークNEX／アララ株式会社",
+  "sources": [
+    {
+      "url": "https://www.city.iwamizawa.hokkaido.jp/material/files/group/1/20261103-2.pdf",
+      "type": "official",
+      "title": "不正アクセスによる個人情報の流出について",
+      "published_on": "2026-11-03",
+      "checked_on": "2026-11-13"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

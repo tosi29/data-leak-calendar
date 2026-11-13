@@ -1,0 +1,46 @@
+{
+  "id": "sweep-bd222b536d-20261109",
+  "organization": {
+    "name": "リロクラブ",
+    "sector": "企業・団体"
+  },
+  "title": "販売するサービスのOEM提供元ラフールへの不正アクセスで顧客企業33社の4,741人の情報が漏えい",
+  "summary": "販売するサービスのOEM提供元ラフールへの不正アクセスで顧客企業33社の4,741人の情報が漏えい。",
+  "published_on": "2026-11-09",
+  "first_published_on": "2026-11-09",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-09",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "販売するサービスのOEM提供元株式会社ラフールへの第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 4741,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "顧客企業33社の利用者。"
+    }
+  ],
+  "data_types": [
+    "個人情報"
+  ],
+  "related_vendor": "株式会社ラフール",
+  "sources": [
+    {
+      "url": "https://www.reloclub.jp/news/20261109",
+      "type": "official",
+      "title": "【お詫び】当社が販売するサービスの提供元における不正アクセスおよび情報漏えいについてのお詫びとご報告",
+      "published_on": "2026-11-09",
+      "checked_on": "2026-11-13"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

@@ -1,0 +1,48 @@
+{
+  "id": "sweep-2dbe93a0ec-20261108",
+  "organization": {
+    "name": "倉敷市玉島市民交流センター",
+    "sector": "企業・団体"
+  },
+  "title": "チケット販売・申込に使う「teket」への不正アクセスでチケット購入者等の情報が流出",
+  "summary": "チケット販売・申込に使う「teket」への不正アクセスでチケット購入者等の情報が流出。",
+  "published_on": "2026-11-08",
+  "first_published_on": "2026-11-08",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-08",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "電子チケット販売・管理サービス「teket」を運営する株式会社teketのシステムへの第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "件数は未公表または調査中。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "メールアドレス",
+    "チケット情報"
+  ],
+  "related_vendor": "株式会社teket",
+  "sources": [
+    {
+      "url": "https://www.tamashima-cec.jp/archives/10401/",
+      "type": "official",
+      "title": "【重要】インターネット販売サイト「teket」への不正アクセスによる情報流出に関するお詫びとお知らせ",
+      "published_on": "2026-11-08",
+      "checked_on": "2026-11-13"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

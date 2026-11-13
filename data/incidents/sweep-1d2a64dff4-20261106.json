@@ -1,0 +1,46 @@
+{
+  "id": "sweep-1d2a64dff4-20261106",
+  "organization": {
+    "name": "G.Mコーポレーション",
+    "sector": "企業・団体"
+  },
+  "title": "メール配信サービス「repica」への不正アクセスで配信先のメールアドレス31,855件が流出",
+  "summary": "メール配信サービス「repica」への不正アクセスで配信先のメールアドレス31,855件が流出。",
+  "published_on": "2026-11-06",
+  "first_published_on": "2026-11-06",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-06",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "メール配信に利用するアララ株式会社の「repica」への第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 31855,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "メールアドレス。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "アララ株式会社",
+  "sources": [
+    {
+      "url": "https://xs620092.xsrv.jp/blog/2026/11/06/elinfo2611/",
+      "type": "official",
+      "title": "外部メール配信サービスへの不正アクセスによるメールアドレス流出に関するお詫びとお知らせ – ELECTRON ONLINE SHOP",
+      "published_on": "2026-11-06",
+      "checked_on": "2026-11-13"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

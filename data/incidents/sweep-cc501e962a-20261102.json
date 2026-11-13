@@ -1,0 +1,46 @@
+{
+  "id": "sweep-cc501e962a-20261102",
+  "organization": {
+    "name": "志摩市",
+    "sector": "自治体"
+  },
+  "title": "ふるさと納税サイト「さとふる」のメール配信サービスへの不正アクセスで寄附者情報183件が漏えい",
+  "summary": "ふるさと納税サイト「さとふる」のメール配信サービスへの不正アクセスで寄附者情報183件が漏えい。",
+  "published_on": "2026-11-02",
+  "first_published_on": "2026-11-02",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-02",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "「さとふる」が利用するメール配信サービス（Cuenote FC）への第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 183,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "市への寄附に関する件数。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "株式会社さとふる／ユミルリンク株式会社",
+  "sources": [
+    {
+      "url": "https://www.city.shima.mie.jp/shisei/furusato_nozei/9862.html",
+      "type": "official",
+      "title": "「さとふる」メール配信サービスへの不正アクセスによる情報漏えいについて",
+      "published_on": "2026-11-02",
+      "checked_on": "2026-11-13"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

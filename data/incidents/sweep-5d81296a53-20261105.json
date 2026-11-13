@@ -1,0 +1,46 @@
+{
+  "id": "sweep-5d81296a53-20261105",
+  "organization": {
+    "name": "フジテレビジョン",
+    "sector": "企業・団体"
+  },
+  "title": "メール配信に使うアララのサービスへの不正アクセスでメールアドレス26,273件が流出",
+  "summary": "メール配信に使うアララのサービスへの不正アクセスでメールアドレス26,273件が流出。",
+  "published_on": "2026-11-05",
+  "first_published_on": "2026-11-05",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-05",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "メール配信に利用するアララ株式会社のメール配信サービスへの第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 26273,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "メール配信サービスに登録されていた人数。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "アララ株式会社",
+  "sources": [
+    {
+      "url": "https://www.fujitv.co.jp/company/news/r20261105_30885221.pdf",
+      "type": "official",
+      "title": "アララ株式会社で発生した不正アクセスに伴う個人情報の漏えいについて",
+      "published_on": "2026-11-05",
+      "checked_on": "2026-11-13"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

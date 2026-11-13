@@ -1,0 +1,46 @@
+{
+  "id": "sweep-56e3ab35e4-20261102",
+  "organization": {
+    "name": "近畿大学（大学コンソーシアム大阪）",
+    "sector": "教育・研究"
+  },
+  "title": "大学コンソーシアム大阪が運営するWebシステムへの不正アクセスで学生延べ789人の個人情報に漏えいの恐れ",
+  "summary": "大学コンソーシアム大阪が運営するWebシステムへの不正アクセスで学生延べ789人の個人情報に漏えいの恐れ。",
+  "published_on": "2026-11-02",
+  "first_published_on": "2026-11-02",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-02",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "特定非営利活動法人大学コンソーシアム大阪が運営するWebシステムへの第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 789,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "延べ人数。"
+    }
+  ],
+  "data_types": [
+    "学生の個人情報"
+  ],
+  "related_vendor": "特定非営利活動法人大学コンソーシアム大阪",
+  "sources": [
+    {
+      "url": "https://www.kindai.ac.jp/news-pr/important/2026/11/052115.html",
+      "type": "official",
+      "title": "特定非営利活動法人 大学コンソーシアム大阪が運営するWebシステムへの不正アクセスによる学生等の個人情報漏えいの恐れについて",
+      "published_on": "2026-11-02",
+      "checked_on": "2026-11-13"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

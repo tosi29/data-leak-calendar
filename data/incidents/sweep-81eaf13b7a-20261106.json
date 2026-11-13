@@ -1,0 +1,46 @@
+{
+  "id": "sweep-81eaf13b7a-20261106",
+  "organization": {
+    "name": "滋賀大学",
+    "sector": "教育・研究"
+  },
+  "title": "安否確認サービス「ANPIC」が使う「アララメッセージ」への不正アクセスで学生・教職員のメールアドレスに漏えいの可能性",
+  "summary": "安否確認サービス「ANPIC」が使う「アララメッセージ」への不正アクセスで学生・教職員のメールアドレスに漏えいの可能性。",
+  "published_on": "2026-11-06",
+  "first_published_on": "2026-11-06",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-06",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "安否確認サービス「ANPIC」がメール配信に使うアララ株式会社の「アララメッセージ」への第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "件数は未公表または調査中。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "ANPIC／アララ株式会社",
+  "sources": [
+    {
+      "url": "https://www.shiga-u.ac.jp/48359/",
+      "type": "official",
+      "title": "安否確認システム（ANPIC）に関連するメールアドレスの漏えいについて – 滋賀大学",
+      "published_on": "2026-11-06",
+      "checked_on": "2026-11-13"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

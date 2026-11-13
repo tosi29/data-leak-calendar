@@ -1,0 +1,46 @@
+{
+  "id": "sweep-2beccab58d-20261104",
+  "organization": {
+    "name": "西宮市（にしのみやスマート申請）",
+    "sector": "自治体"
+  },
+  "title": "「にしのみやスマート申請」が使うメール配信サービスへの不正アクセスで利用者の個人情報に漏えいの可能性",
+  "summary": "「にしのみやスマート申請」が使うメール配信サービスへの不正アクセスで利用者の個人情報に漏えいの可能性。",
+  "published_on": "2026-11-04",
+  "first_published_on": "2026-11-04",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-04",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "株式会社TKCがメール送信に再委託するアララ株式会社の「アララメッセージ」への第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "件数は調査中（利用者登録数154,146件）。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "TKC／アララ株式会社",
+  "sources": [
+    {
+      "url": "https://www.nishi.or.jp/shisei/koho/kishahappyoshiryo/2026/202611/R081104_suma-toshin.html",
+      "type": "official",
+      "title": "「にしのみやスマート申請」が使用するメール配信サービスにおける 個人情報の漏えいの可能性について（第1報）",
+      "published_on": "2026-11-04",
+      "checked_on": "2026-11-13"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

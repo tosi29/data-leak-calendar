@@ -1,0 +1,46 @@
+{
+  "id": "sweep-c2cafec903-20261104",
+  "organization": {
+    "name": "飛騨信用組合（さるぼぼコイン）",
+    "sector": "企業・団体"
+  },
+  "title": "地域通貨アプリの委託先フィノバレーが使う「アララメッセージ」への不正アクセスで利用者のメールアドレスが漏えい",
+  "summary": "地域通貨アプリの委託先フィノバレーが使う「アララメッセージ」への不正アクセスで利用者のメールアドレスが漏えい。",
+  "published_on": "2026-11-04",
+  "first_published_on": "2026-11-04",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-04",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "地域通貨アプリのシステム委託先株式会社フィノバレーがメール配信に使うアララ株式会社の「アララメッセージ」への不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "件数は未公表または調査中。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "株式会社フィノバレー／アララ株式会社",
+  "sources": [
+    {
+      "url": "https://www.hidashin.co.jp/storage/001/202611/261104_news.pdf",
+      "type": "official",
+      "title": "不正アクセスによるお客さま情報漏えいについて",
+      "published_on": "2026-11-04",
+      "checked_on": "2026-11-13"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

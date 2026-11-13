@@ -1,0 +1,46 @@
+{
+  "id": "sweep-657432b54b-20261102",
+  "organization": {
+    "name": "パン・パシフィック・インターナショナルホールディングス",
+    "sector": "企業・団体"
+  },
+  "title": "デジタル証券プラットフォーム「Securitize」への不正アクセスで顧客情報の漏えいの有無を調査",
+  "summary": "デジタル証券プラットフォーム「Securitize」への不正アクセスで顧客情報の漏えいの有無を調査。",
+  "published_on": "2026-11-02",
+  "first_published_on": "2026-11-02",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-02",
+  "verification": "official",
+  "leak_status": "investigating",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "デジタル証券のプラットフォーム「Securitize」への第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "漏えいの可能性の有無と対象者は調査中。"
+    }
+  ],
+  "data_types": [
+    "顧客情報"
+  ],
+  "related_vendor": "Securitize",
+  "sources": [
+    {
+      "url": "https://ppih.co.jp/news/pdf/4e630f1d37e8a69c0c33fa66a61c74ee.pdf",
+      "type": "official",
+      "title": "当社が発行したデジタル社債管理システムへの不正アクセスの発生に関するお詫びとお知",
+      "published_on": "2026-11-02",
+      "checked_on": "2026-11-13"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

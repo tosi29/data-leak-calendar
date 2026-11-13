@@ -1,0 +1,46 @@
+{
+  "id": "sweep-17419e3f63-20261106",
+  "organization": {
+    "name": "神奈川県（県立川崎工科高等学校）",
+    "sector": "教育・研究"
+  },
+  "title": "学校からの一斉メールで宛先を他の受信者に見える状態で送信し34名のメールアドレスが流出",
+  "summary": "学校からの一斉メールで宛先を他の受信者に見える状態で送信し34名のメールアドレスが流出。",
+  "published_on": "2026-11-06",
+  "first_published_on": "2026-11-06",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-06",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "accident",
+  "cause": {
+    "category": "misdelivery",
+    "certainty": "unknown",
+    "detail": "一斉メールの送信時に受信者が他の受信者のメールアドレスを見られる状態で送信。"
+  },
+  "impact": [
+    {
+      "count": 34,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "メールを受信した人。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.pref.kanagawa.jp/docs/dc4/prs/r9227677.html",
+      "type": "official",
+      "title": "県立川崎工科高等学校におけるメールアドレスの流出について",
+      "published_on": "2026-11-06",
+      "checked_on": "2026-11-13"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

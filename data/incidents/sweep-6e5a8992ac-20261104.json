@@ -1,0 +1,48 @@
+{
+  "id": "sweep-6e5a8992ac-20261104",
+  "organization": {
+    "name": "香川県教育委員会",
+    "sector": "自治体"
+  },
+  "title": "会計検査の調整で転送したファイルに教職員179人分の個人情報が含まれ県内市町等へ送付",
+  "summary": "会計検査の調整で転送したファイルに教職員179人分の個人情報が含まれ県内市町等へ送付。",
+  "published_on": "2026-11-04",
+  "first_published_on": "2026-11-04",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-04",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "accident",
+  "cause": {
+    "category": "misdelivery",
+    "certainty": "unknown",
+    "detail": "会計検査院から送付されたファイルを県内8市9町等へメールで転送した際、添付ファイルに個人情報が含まれていた。"
+  },
+  "impact": [
+    {
+      "count": 179,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "産前産後休暇・育児休業等の教職員の情報。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "勤務先学校名",
+    "休暇期間等"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.pref.kagawa.lg.jp/documents/64477/20261104_kyoisomu_houdouteikyou.pdf",
+      "type": "official",
+      "title": "香川県教育委員会事務局総務課における所管する行政機関以外の行政機関への個人情報の提供について",
+      "published_on": "2026-11-04",
+      "checked_on": "2026-11-13"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

@@ -1,0 +1,46 @@
+{
+  "id": "sweep-4b7d66b1f4-20261113",
+  "organization": {
+    "name": "箱根町（スマート申請システム）",
+    "sector": "自治体"
+  },
+  "title": "スマート申請システムのメール配信に使う「アララメッセージ」への不正アクセスで確定申告相談の予約者の個人情報に漏えいの可能性",
+  "summary": "スマート申請システムのメール配信に使う「アララメッセージ」への不正アクセスで確定申告相談の予約者の個人情報に漏えいの可能性。",
+  "published_on": "2026-11-13",
+  "first_published_on": "2026-11-13",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-13",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "株式会社TKCがメール送信に再委託するアララ株式会社の「アララメッセージ」への第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "件数は未公表。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "TKC／アララ株式会社",
+  "sources": [
+    {
+      "url": "https://www.town.hakone.kanagawa.jp/www/contents/1793778869713/index.html",
+      "type": "official",
+      "title": "スマート申請システム（確定申告相談の予約）への不正アクセスに伴う対応について（令和8年11月13日更新）",
+      "published_on": "2026-11-13",
+      "checked_on": "2026-11-13"
+    }
+  ],
+  "updates": [],
+  "notes": "公表索引では11月4日公表とされるが、確認できたページは更新後の版のため、本文の更新日を掲載日とした。"
+}

@@ -1,0 +1,47 @@
+{
+  "id": "sweep-6b244f3d3a-20261105",
+  "organization": {
+    "name": "グローバー",
+    "sector": "企業・団体"
+  },
+  "title": "自社システムへの不正アクセスで飲食店の店舗名・店長氏名等に流出の可能性",
+  "summary": "自社システムへの不正アクセスで飲食店の店舗名・店長氏名等に流出の可能性。",
+  "published_on": "2026-11-05",
+  "first_published_on": "2026-11-05",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-05",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "自社システムへの第三者による不正アクセス（2026年10月30日に確認）。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "流出の有無と範囲は調査中。"
+    }
+  ],
+  "data_types": [
+    "店舗名",
+    "店長の氏名"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.globar.co.jp/news/category-news/2026/11/05/1842/",
+      "type": "official",
+      "title": "当社システムへの不正アクセスに関するお知らせ",
+      "published_on": "2026-11-05",
+      "checked_on": "2026-11-13"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

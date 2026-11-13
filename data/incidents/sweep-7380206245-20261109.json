@@ -1,0 +1,48 @@
+{
+  "id": "sweep-7380206245-20261109",
+  "organization": {
+    "name": "京都市芸術文化協会 京都芸術センター",
+    "sector": "企業・団体"
+  },
+  "title": "チケット販売・申込に使う「teket」への不正アクセスでチケット購入者等の情報が流出",
+  "summary": "チケット販売・申込に使う「teket」への不正アクセスでチケット購入者等の情報が流出。",
+  "published_on": "2026-11-09",
+  "first_published_on": "2026-11-09",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-09",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "電子チケット販売・管理サービス「teket」を運営する株式会社teketのシステムへの第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "件数は未公表または調査中。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "メールアドレス",
+    "チケット情報"
+  ],
+  "related_vendor": "株式会社teket",
+  "sources": [
+    {
+      "url": "https://www.kac.or.jp/news/%E3%80%90%E3%81%8A%E8%A9%AB%E3%81%B3%E3%81%A8%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B%EF%BC%88%E7%AC%AC%E4%B8%80%E5%A0%B1%EF%BC%89%E3%80%91%E9%9B%BB%E5%AD%90%E3%83%81%E3%82%B1%E3%83%83%E3%83%88%E8%B2%A9/",
+      "type": "official",
+      "title": "【お詫びとお知らせ（第一報）】電子チケット販売・管理サービス『teket』への不正アクセスによる情報流出に関して",
+      "published_on": "2026-11-09",
+      "checked_on": "2026-11-13"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

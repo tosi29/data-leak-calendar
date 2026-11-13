@@ -1,0 +1,47 @@
+{
+  "id": "sweep-5689d92f79-20261104",
+  "organization": {
+    "name": "松江市",
+    "sector": "自治体"
+  },
+  "title": "チケット販売のアソビューが使うアララへの不正アクセスでアソビュー会員の情報に流出の可能性",
+  "summary": "チケット販売のアソビューが使うアララへの不正アクセスでアソビュー会員の情報に流出の可能性。",
+  "published_on": "2026-11-04",
+  "first_published_on": "2026-11-04",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-04",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "チケット販売を担うアソビュー株式会社がメール配信に使うアララ株式会社の「アララメッセージ」への第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "件数は未公表または調査中。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス",
+    "会員情報"
+  ],
+  "related_vendor": "アソビュー／アララ",
+  "sources": [
+    {
+      "url": "https://www.city.matsue.lg.jp/soshikikarasagasu/matsueshiyakusho/oshirase_joho/26816.html",
+      "type": "official",
+      "title": "「アソビュー!」が利用しているメール配信サービス「アララメッセージ」における不正アクセス",
+      "published_on": "2026-11-04",
+      "checked_on": "2026-11-13"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

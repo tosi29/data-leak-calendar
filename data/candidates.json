@@ -1216,5 +1216,305 @@
       "https://www.wakao.co.jp/news/%e3%80%90%e9%87%8d%e8%a6%81%e3%80%91%e5%bd%93%e7%a4%be%e3%82%b5%e3%83%bc%e3%83%90%e3%83%bc%e3%81%b8%e3%81%ae%e4%b8%8d%e6%ad%a3%e3%82%a2%e3%82%af%e3%82%bb%e3%82%b9%ef%bc%88%e3%82%b5%e3%82%a4%e3%83%90/"
     ],
     "note": "2026年11月13日調査：11月10日の社内サーバーへの不正アクセスを公表し、問い合わせ・採用応募フォームを停止。個人情報への影響は記載がないため保留。"
+  },
+  {
+    "id": "nov13-sweep-t009",
+    "organization": "合気会",
+    "reported_on": "2026-11-02",
+    "verification": "pending",
+    "reference_url": "https://aikikai.or.jp/single/?news_id=592",
+    "reviewed_on": "2026-11-13",
+    "checked_urls": [
+      "https://aikikai.or.jp/single/?news_id=592"
+    ],
+    "note": "2026年11月13日調査：11月分の公表索引の再照合で見つかった未収録行。公式本文は確認できたが、ページに公表日の記載がなく、第三者の索引の日付だけでは掲載日を決められない。索引の規模：非公表"
+  },
+  {
+    "id": "nov13-sweep-t012",
+    "organization": "恵庭市（アララ メッセージ不正アクセス）",
+    "reported_on": "2026-11-02",
+    "verification": "pending",
+    "reference_url": "https://www.city.eniwa.hokkaido.jp/soshikikarasagasu/kikakushinkoubu/kohoka/koho_kocho/homepage/23814.html",
+    "reviewed_on": "2026-11-13",
+    "checked_urls": [
+      "https://www.city.eniwa.hokkaido.jp/soshikikarasagasu/kikakushinkoubu/kohoka/koho_kocho/homepage/23814.html"
+    ],
+    "note": "2026年11月13日調査：11月分の公表索引の再照合で見つかった未収録行。公式ページを取得できず（HTTP 404）本文未確認。索引の規模：調査中"
+  },
+  {
+    "id": "nov13-sweep-t034",
+    "organization": "三芳町（TKC再委託先 アララ メッセージへの不正アクセス）",
+    "reported_on": "2026-11-04",
+    "verification": "pending",
+    "reference_url": "https://www.town.saitama-miyoshi.lg.jp/life/mynumber/huseiakusesu.html",
+    "reviewed_on": "2026-11-13",
+    "checked_urls": [
+      "https://www.town.saitama-miyoshi.lg.jp/life/mynumber/huseiakusesu.html"
+    ],
+    "note": "2026年11月13日調査：11月分の公表索引の再照合で見つかった未収録行。公式本文は確認できたが、ページに公表日の記載がなく、第三者の索引の日付だけでは掲載日を決められない。索引の規模：資料に明記なし"
+  },
+  {
+    "id": "nov13-sweep-t053",
+    "organization": "武蔵村山市（TKC再委託先 アララ メッセージへの不正アクセス）",
+    "reported_on": "2026-11-04",
+    "verification": "pending",
+    "reference_url": "https://www.city.musashimurayama.lg.jp/kurashi/todoke/1022763.html",
+    "reviewed_on": "2026-11-13",
+    "checked_urls": [
+      "https://www.city.musashimurayama.lg.jp/kurashi/todoke/1022763.html"
+    ],
+    "note": "2026年11月13日調査：11月分の公表索引の再照合で見つかった未収録行。公式ページを取得できず（HTTP 404）本文未確認。索引の規模：調査中"
+  },
+  {
+    "id": "nov13-sweep-t061",
+    "organization": "茂木町（TKC再委託先 アララ メッセージへの不正アクセス）",
+    "reported_on": "2026-11-04",
+    "verification": "pending",
+    "reference_url": "https://www.town.motegi.tochigi.jp/motegi/nextpage.php?cd=8711&syurui=2",
+    "reviewed_on": "2026-11-13",
+    "checked_urls": [
+      "https://www.town.motegi.tochigi.jp/motegi/nextpage.php?cd=8711&syurui=2"
+    ],
+    "note": "2026年11月13日調査：11月分の公表索引の再照合で見つかった未収録行。公式本文は確認できたが、ページに公表日の記載がなく、第三者の索引の日付だけでは掲載日を決められない。索引の規模：60件（オンライン申請システム利用登録者）"
+  },
+  {
+    "id": "nov13-sweep-t066",
+    "organization": "長野県信用組合（ホームページ運用保守の委託業者のサーバー経由の不正アクセス）",
+    "reported_on": "2026-11-04",
+    "verification": "pending",
+    "reference_url": "https://www.naganokenshin.jp/topics/1462",
+    "reviewed_on": "2026-11-13",
+    "checked_urls": [
+      "https://www.naganokenshin.jp/topics/1462"
+    ],
+    "note": "2026年11月13日調査：11月分の公表索引の再照合で見つかった未収録行。公式ページを取得できず（スクリプト描画等で本文が空）本文未確認。索引の規模：入力フォームのデータ2,923件（個人情報を含む件数は調査中）"
+  },
+  {
+    "id": "nov13-sweep-t071",
+    "organization": "龍ケ崎市（TKC再委託先 アララ メッセージへの不正アクセス）",
+    "reported_on": "2026-11-04",
+    "verification": "pending",
+    "reference_url": "https://www.city.ryugasaki.ibaraki.jp/kurashi/todokede/tetsuduki/20261104132101909.html",
+    "reviewed_on": "2026-11-13",
+    "checked_urls": [
+      "https://www.city.ryugasaki.ibaraki.jp/kurashi/todokede/tetsuduki/20261104132101909.html"
+    ],
+    "note": "2026年11月13日調査：11月分の公表索引の再照合で見つかった未収録行。公式ページを取得できず（HTTP 404）本文未確認。索引の規模：調査中（本市の利用者が含まれるか確認中）"
+  },
+  {
+    "id": "nov13-sweep-t088",
+    "organization": "松本大学（ANPICが利用する アララ メッセージへの不正アクセス）",
+    "reported_on": "2026-11-05",
+    "verification": "pending",
+    "reference_url": "https://www.matsumoto-u.ac.jp/news2026/11/37140.php",
+    "reviewed_on": "2026-11-13",
+    "checked_urls": [
+      "https://www.matsumoto-u.ac.jp/news2026/11/37140.php"
+    ],
+    "note": "2026年11月13日調査：11月分の公表索引の再照合で見つかった未収録行。公式本文は確認できたが、ページに公表日の記載がなく、第三者の索引の日付だけでは掲載日を決められない。索引の規模：非公表"
+  },
+  {
+    "id": "nov13-sweep-t100",
+    "organization": "音更町（アララ メッセージ不正アクセス）",
+    "reported_on": "2026-11-05",
+    "verification": "pending",
+    "reference_url": "https://www.town.otofuke.hokkaido.jp/kurashi/mynumber/kojinjyouhou.html",
+    "reviewed_on": "2026-11-13",
+    "checked_urls": [
+      "https://www.town.otofuke.hokkaido.jp/kurashi/mynumber/kojinjyouhou.html"
+    ],
+    "note": "2026年11月13日調査：11月分の公表索引の再照合で見つかった未収録行。公式本文は確認できたが、ページに公表日の記載がなく、第三者の索引の日付だけでは掲載日を決められない。索引の規模：最大8,217件（調査中）"
+  },
+  {
+    "id": "nov13-sweep-t115",
+    "organization": "札幌市生涯学習センター ちえりあ（指定管理者 札幌市生涯学習振興財団、teket不正アクセス）",
+    "reported_on": "2026-11-08",
+    "verification": "pending",
+    "reference_url": "http://chieria.slp.or.jp/news/2026/2026-1108-1923-18.html",
+    "reviewed_on": "2026-11-13",
+    "checked_urls": [
+      "http://chieria.slp.or.jp/news/2026/2026-1108-1923-18.html"
+    ],
+    "note": "2026年11月13日調査：11月分の公表索引の再照合で見つかった未収録行。公式本文は確認できたが、ページに公表日の記載がなく、第三者の索引の日付だけでは掲載日を決められない。索引の規模：非公表（teket会員のうちゆりかごコンサートのチケット購入者）"
+  },
+  {
+    "id": "nov13-sweep-t128",
+    "organization": "新潟県教職員互助会（受託事業者が利用した teket への不正アクセス）",
+    "reported_on": "2026-11-09",
+    "verification": "pending",
+    "reference_url": "https://www.sinkyogo.com/%E4%BA%92%E5%8A%A9%E4%BC%9A%E3%81%8B%E3%82%89%E3%81%AE%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B-1/%E5%A0%B1%E9%81%93%E7%99%BA%E8%A1%A8/",
+    "reviewed_on": "2026-11-13",
+    "checked_urls": [
+      "https://www.sinkyogo.com/%E4%BA%92%E5%8A%A9%E4%BC%9A%E3%81%8B%E3%82%89%E3%81%AE%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B-1/%E5%A0%B1%E9%81%93%E7%99%BA%E8%A1%A8/"
+    ],
+    "note": "2026年11月13日調査：11月分の公表索引の再照合で見つかった未収録行。公式本文は確認できたが、ページに公表日の記載がなく、第三者の索引の日付だけでは掲載日を決められない。索引の規模：最大3,058件（2事業の申込人数の計で、teketの利用者はこのうちの一部。詳"
+  },
+  {
+    "id": "nov13-sweep-t130",
+    "organization": "横浜市ふるさと歴史財団（teket不正アクセス）",
+    "reported_on": "2026-11-09",
+    "verification": "pending",
+    "reference_url": "https://www.yokohama-history.org/yokohama-history/937/",
+    "reviewed_on": "2026-11-13",
+    "checked_urls": [
+      "https://www.yokohama-history.org/yokohama-history/937/"
+    ],
+    "note": "2026年11月13日調査：11月分の公表索引の再照合で見つかった未収録行。公式本文は確認できたが、ページに公表日の記載がなく、第三者の索引の日付だけでは掲載日を決められない。索引の規模：資料に明記なし"
+  },
+  {
+    "id": "nov13-sweep-t138",
+    "organization": "豊明市（TKC再委託先 アララ メッセージへの不正アクセス）",
+    "reported_on": "2026-11-02",
+    "verification": "pending",
+    "reference_url": "https://www.city.toyoake.lg.jp/24893.htm",
+    "reviewed_on": "2026-11-13",
+    "checked_urls": [
+      "https://www.city.toyoake.lg.jp/24893.htm"
+    ],
+    "note": "2026年11月13日調査：11月分の公表索引の再照合で見つかった未収録行。公式ページを取得できず（HTTP 403）本文未確認。索引の規模：調査中"
+  },
+  {
+    "id": "nov13-sweep-t144",
+    "organization": "大垣共立銀行（SMBCコンシューマーファイナンス保証システム不正アクセス）",
+    "reported_on": "2026-11-05",
+    "verification": "pending",
+    "reference_url": "https://www.okb.co.jp/archive/2026/20261105-03.html",
+    "reviewed_on": "2026-11-13",
+    "checked_urls": [
+      "https://www.okb.co.jp/archive/2026/20261105-03.html"
+    ],
+    "note": "2026年11月13日調査：11月分の公表索引の再照合で見つかった未収録行。公式本文は確認できたが、ページに公表日の記載がなく、第三者の索引の日付だけでは掲載日を決められない。索引の規模：非公表"
+  },
+  {
+    "id": "nov13-sweep-t147",
+    "organization": "荘内銀行（SMBCコンシューマーファイナンス保証システム不正アクセス）",
+    "reported_on": "2026-11-05",
+    "verification": "pending",
+    "reference_url": "https://www.shonai.co.jp/cms_source/data/shonai/info/files/info20261105_2.pdf",
+    "reviewed_on": "2026-11-13",
+    "checked_urls": [
+      "https://www.shonai.co.jp/cms_source/data/shonai/info/files/info20261105_2.pdf"
+    ],
+    "note": "2026年11月13日調査：11月分の公表索引の再照合で見つかった未収録行。公式ページを取得できず（HTTP 404）本文未確認。索引の規模：非公表（対象者を特定中）"
+  },
+  {
+    "id": "nov13-sweep-t154",
+    "organization": "福井県（アソビュー経由 アララ メッセージ不正アクセス）",
+    "reported_on": "2026-11-03",
+    "verification": "pending",
+    "reference_url": "https://9a35b2b1.viewer.kintoneapp.com/public/6e133df0cc08a00aef428e6666f487d089e042a376168a0bb18ee201250b5952/detail/def50200bf24d663eda958f22780acc0f259a7fa280230be76c94395bc2dcc6518ce56e18ff2fec9c44e50dbf3102491344b16533161216060da3f6566ea7a88272016edbdb41f12c12caf33242dc423a9e2b1f0c9f8d1761450950abca1d866fd1922e060c8ccc52a9dd4d6556987822a32549afa088e5242fe8ba2df35fb1b4797ca216dabe6d0eac10409bfefd7245de86df958939ceab4",
+    "reviewed_on": "2026-11-13",
+    "checked_urls": [
+      "https://9a35b2b1.viewer.kintoneapp.com/public/6e133df0cc08a00aef428e6666f487d089e042a376168a0bb18ee201250b5952/detail/def50200bf24d663eda958f22780acc0f259a7fa280230be76c94395bc2dcc6518ce56e18ff2fec9c44e50dbf3102491344b16533161216060da3f6566ea7a88272016edbdb41f12c12caf33242dc423a9e2b1f0c9f8d1761450950abca1d866fd1922e060c8ccc52a9dd4d6556987822a32549afa088e5242fe8ba2df35fb1b4797ca216dabe6d0eac10409bfefd7245de86df958939ceab4"
+    ],
+    "note": "2026年11月13日調査：11月分の公表索引の再照合で見つかった未収録行。公式ページを取得できず（スクリプト描画等で本文が空）本文未確認。索引の規模：精査中（アソビューの15,821,184件の内数）"
+  },
+  {
+    "id": "nov13-sweep-t156",
+    "organization": "佐野市（TKC再委託先 アララ メッセージへの不正アクセス）",
+    "reported_on": "2026-11-04",
+    "verification": "pending",
+    "reference_url": "https://www.city.sano.lg.jp/jyuyonaoshirase/29300.html",
+    "reviewed_on": "2026-11-13",
+    "checked_urls": [
+      "https://www.city.sano.lg.jp/jyuyonaoshirase/29300.html"
+    ],
+    "note": "2026年11月13日調査：11月分の公表索引の再照合で見つかった未収録行。公式ページを取得できず（HTTP 404）本文未確認。索引の規模：調査中"
+  },
+  {
+    "id": "nov13-sweep-t157",
+    "organization": "堺市（TKC再委託先 アララ メッセージへの不正アクセス）",
+    "reported_on": "2026-11-04",
+    "verification": "pending",
+    "reference_url": "https://www.city.sakai.lg.jp/shisei/gyosei/it/20261104_denshishinsei.html",
+    "reviewed_on": "2026-11-13",
+    "checked_urls": [
+      "https://www.city.sakai.lg.jp/shisei/gyosei/it/20261104_denshishinsei.html"
+    ],
+    "note": "2026年11月13日調査：11月分の公表索引の再照合で見つかった未収録行。公式ページを取得できず（HTTP 404）本文未確認。索引の規模：メールアドレス 最大約29万件"
+  },
+  {
+    "id": "nov13-sweep-t159",
+    "organization": "岡崎市（TKC再委託先 アララ メッセージへの不正アクセス）",
+    "reported_on": "2026-11-04",
+    "verification": "pending",
+    "reference_url": "https://www.city.okazaki.lg.jp/shisei/koho/1006195/1006358/1017062/1017558.html",
+    "reviewed_on": "2026-11-13",
+    "checked_urls": [
+      "https://www.city.okazaki.lg.jp/shisei/koho/1006195/1006358/1017062/1017558.html"
+    ],
+    "note": "2026年11月13日調査：11月分の公表索引の再照合で見つかった未収録行。公式ページを取得できず（HTTP 403）本文未確認。索引の規模：非公表（件数確認中）"
+  },
+  {
+    "id": "nov13-sweep-t164",
+    "organization": "GMOメディア（Studio不正アクセス）",
+    "reported_on": "2026-11-05",
+    "verification": "pending",
+    "reference_url": "https://www.gmo.media/archives/8695/",
+    "reviewed_on": "2026-11-13",
+    "checked_urls": [
+      "https://www.gmo.media/archives/8695/"
+    ],
+    "note": "2026年11月13日調査：11月分の公表索引の再照合で見つかった未収録行。公式ページを取得できず（スクリプト描画等で本文が空）本文未確認。索引の規模：非公表"
+  },
+  {
+    "id": "nov13-sweep-t168",
+    "organization": "尾花沢市（アララ メッセージ不正アクセス）",
+    "reported_on": "2026-11-05",
+    "verification": "pending",
+    "reference_url": "https://www.city.obanazawa.yamagata.jp/news/4612",
+    "reviewed_on": "2026-11-13",
+    "checked_urls": [
+      "https://www.city.obanazawa.yamagata.jp/news/4612"
+    ],
+    "note": "2026年11月13日調査：11月分の公表索引の再照合で見つかった未収録行。公式ページを取得できず（HTTP 404）本文未確認。索引の規模：971件（スマート申請システム967件、マイナンバーカード交付予約・管理システム"
+  },
+  {
+    "id": "nov13-sweep-t177",
+    "organization": "岡崎市（teket不正アクセス）",
+    "reported_on": "2026-11-09",
+    "verification": "pending",
+    "reference_url": "https://www.city.okazaki.lg.jp/shisei/koho/1006195/1006358/1017062/1017625.html",
+    "reviewed_on": "2026-11-13",
+    "checked_urls": [
+      "https://www.city.okazaki.lg.jp/shisei/koho/1006195/1006358/1017062/1017625.html"
+    ],
+    "note": "2026年11月13日調査：11月分の公表索引の再照合で見つかった未収録行。公式ページを取得できず（HTTP 302）本文未確認。索引の規模：件数確認中"
+  },
+  {
+    "id": "nov13-sweep-nara-usb",
+    "organization": "奈良県（業務用USBメモリの所在不明）",
+    "reported_on": "2026-11-05",
+    "verification": "pending",
+    "reference_url": "https://www.security-next.com/191606",
+    "reviewed_on": "2026-11-13",
+    "checked_urls": [
+      "https://www.security-next.com/191606"
+    ],
+    "note": "2026年11月13日調査：報道（Security NEXT）で医薬品医療機器関係の業務用USBメモリの所在不明を把握したが、県の公式発表を検索で特定できず。"
+  },
+  {
+    "id": "nov13-sweep-saitama-mc",
+    "organization": "さいたま市民医療センター（手術画像の記録媒体紛失）",
+    "reported_on": "2026-11-07",
+    "verification": "pending",
+    "reference_url": "https://www.security-next.com/192393",
+    "reviewed_on": "2026-11-13",
+    "checked_urls": [
+      "https://www.security-next.com/192393"
+    ],
+    "note": "2026年11月13日調査：報道（Security NEXT）で手術画像を保存した記録媒体の紛失を把握したが、病院の公式発表を検索で特定できず。"
+  },
+  {
+    "id": "nov13-sweep-imari-file",
+    "organization": "伊万里市（中学校の学習記録ファイル紛失）",
+    "reported_on": "2026-11-09",
+    "verification": "pending",
+    "reference_url": "https://www.security-next.com/192347",
+    "reviewed_on": "2026-11-13",
+    "checked_urls": [
+      "https://www.security-next.com/192347"
+    ],
+    "note": "2026年11月13日調査：報道（佐賀新聞・NHK・Security NEXT）で1学年分の学習記録ファイル紛失を把握。発覚は9月30日で10月上旬の報道があり、市の公式発表日と本文は未確認。"
   }
 ]

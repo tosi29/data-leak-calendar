@@ -1,0 +1,46 @@
+{
+  "id": "sweep-7869129968-20261109",
+  "organization": {
+    "name": "テレビ新広島",
+    "sector": "企業・団体"
+  },
+  "title": "メール配信に使うアララのサービスへの不正アクセスでメールアドレス5,192件が流出",
+  "summary": "メール配信に使うアララのサービスへの不正アクセスでメールアドレス5,192件が流出。",
+  "published_on": "2026-11-09",
+  "first_published_on": "2026-11-09",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-09",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "メール配信に利用するアララ株式会社のメール配信サービスへの第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 5192,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "メールアドレス。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "アララ株式会社",
+  "sources": [
+    {
+      "url": "https://www.tss-tv.co.jp/archives/001/202611/eb9986e10c858c3cf330dfcf4591f89631da65960e177becec25b50252774a40.pdf",
+      "type": "official",
+      "title": "お客様情報の漏えいに関するお詫びとお知らせ",
+      "published_on": "2026-11-09",
+      "checked_on": "2026-11-13"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

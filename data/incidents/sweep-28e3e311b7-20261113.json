@@ -1,0 +1,46 @@
+{
+  "id": "sweep-28e3e311b7-20261113",
+  "organization": {
+    "name": "加古川市（かこがわオンライン申請システム）",
+    "sector": "自治体"
+  },
+  "title": "オンライン申請システムが使う「アララメッセージ」への不正アクセスで利用者のメールアドレス12,806件が漏えい",
+  "summary": "オンライン申請システムが使う「アララメッセージ」への不正アクセスで利用者のメールアドレス12,806件が漏えい。",
+  "published_on": "2026-11-13",
+  "first_published_on": "2026-11-13",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-13",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "株式会社TKCがメール送信に再委託するアララ株式会社の「アララメッセージ」への第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 12806,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "2026年7月1日～10月31日の利用者のメールアドレス。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "TKC／アララ株式会社",
+  "sources": [
+    {
+      "url": "https://www.city.kakogawa.lg.jp/soshikikarasagasu/kikakubu/jouhouseisakuka/onlineshinsei/51343.html",
+      "type": "official",
+      "title": "かこがわオンライン申請システムにおいて利用するメール配信サービスへの第三者不正アクセスについて",
+      "published_on": "2026-11-13",
+      "checked_on": "2026-11-13"
+    }
+  ],
+  "updates": [],
+  "notes": "公表索引では11月6日公表とされるが、確認できたページは更新後の版のため、本文の更新日を掲載日とした。"
+}

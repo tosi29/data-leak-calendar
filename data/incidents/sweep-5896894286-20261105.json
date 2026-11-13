@@ -1,0 +1,46 @@
+{
+  "id": "sweep-5896894286-20261105",
+  "organization": {
+    "name": "GMO TECH",
+    "sector": "企業・団体"
+  },
+  "title": "Webサイト制作サービス「Studio」への不正アクセスで自社サイトのフォーム送信情報等に流出の可能性",
+  "summary": "Webサイト制作サービス「Studio」への不正アクセスで自社サイトのフォーム送信情報等に流出の可能性。",
+  "published_on": "2026-11-05",
+  "first_published_on": "2026-11-05",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-05",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "Webサイト制作サービス「Studio」を提供するStudio株式会社への第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "件数は未公表または調査中。"
+    }
+  ],
+  "data_types": [
+    "フォーム送信情報"
+  ],
+  "related_vendor": "Studio株式会社",
+  "sources": [
+    {
+      "url": "https://gmotech.jp/news_release/?p=13481",
+      "type": "official",
+      "title": "ノーコードWebサイトプラットフォーム「Studio」への不正アクセスに伴う、情報流出の可能性に関するお詫びとお知らせ",
+      "published_on": "2026-11-05",
+      "checked_on": "2026-11-13"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

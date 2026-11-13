@@ -1,0 +1,46 @@
+{
+  "id": "sweep-aef5b4ca5b-20261105",
+  "organization": {
+    "name": "松江市（松江市公式LINE）",
+    "sector": "自治体"
+  },
+  "title": "公式LINEの連携サービス「COMSBI」への不正アクセスで松江市公式LINE登録情報に流出のおそれ",
+  "summary": "公式LINEの連携サービス「COMSBI」への不正アクセスで松江市公式LINE登録情報に流出のおそれ。",
+  "published_on": "2026-11-05",
+  "first_published_on": "2026-11-05",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-05",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "LINE連携サービス「COMSBI」の提供元システムへの第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "件数は未公表。"
+    }
+  ],
+  "data_types": [
+    "LINE登録情報"
+  ],
+  "related_vendor": "株式会社ソニックムーブ（COMSBI）",
+  "sources": [
+    {
+      "url": "https://www.city.matsue.lg.jp/soshikikarasagasu/matsueshiyakusho/oshirase_joho/26821.html",
+      "type": "official",
+      "title": "不正アクセスによる個人情報の流出のおそれについて（松江市公式LINE登録情報）",
+      "published_on": "2026-11-05",
+      "checked_on": "2026-11-13"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

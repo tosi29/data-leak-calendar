@@ -1,0 +1,46 @@
+{
+  "id": "sweep-c878720c3a-20261112",
+  "organization": {
+    "name": "花巻市（マイナンバーカード交付予約・管理システム）",
+    "sector": "自治体"
+  },
+  "title": "マイナンバーカード交付予約・管理システムの外部メール送信サービスへの不正アクセスで予約者の個人情報に漏えいの可能性",
+  "summary": "マイナンバーカード交付予約・管理システムの外部メール送信サービスへの不正アクセスで予約者の個人情報に漏えいの可能性。",
+  "published_on": "2026-11-12",
+  "first_published_on": "2026-11-12",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-12",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "株式会社TKCがメール送信に再委託するアララ株式会社の「アララメッセージ」への第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "件数は本文で確認できず。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "TKC／アララ株式会社",
+  "sources": [
+    {
+      "url": "https://www.city.hanamaki.iwate.jp/kurashi/todokede/mynumber/1026220.html",
+      "type": "official",
+      "title": "「マイナンバーカード交付予約・管理システム」の外部メール送信サービスへの不正アクセス及び個人情報漏えいの可能性について",
+      "published_on": "2026-11-12",
+      "checked_on": "2026-11-13"
+    }
+  ],
+  "updates": [],
+  "notes": "公表索引では11月4日公表とされるが、確認できたページは更新後の版のため、本文の更新日を掲載日とした。"
+}

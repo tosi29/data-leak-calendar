@@ -1,0 +1,47 @@
+{
+  "id": "sweep-8cd34a3ba9-20261106",
+  "organization": {
+    "name": "堺商工会議所",
+    "sector": "企業・団体"
+  },
+  "title": "プレミアム商品券事業の受託事業者が使うアララへの不正アクセスで当選者約29万件・参加店舗約2,600件のメールアドレス等に漏えいのおそれ",
+  "summary": "プレミアム商品券事業の受託事業者が使うアララへの不正アクセスで当選者約29万件・参加店舗約2,600件のメールアドレス等に漏えいのおそれ。",
+  "published_on": "2026-11-06",
+  "first_published_on": "2026-11-06",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-06",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "プレミアム商品券事業の受託事業者が利用するアララ株式会社のメール配信サービスへの不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 290000,
+      "unit": "records",
+      "qualifier": "maximum_approximate",
+      "description": "当選者のメールアドレス等（最大約）。ほかに参加店舗最大約2,600件。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス",
+    "氏名"
+  ],
+  "related_vendor": "アララ株式会社",
+  "sources": [
+    {
+      "url": "https://sakaicci.or.jp/wp/wp-content/uploads/syouhinken.pdf",
+      "type": "official",
+      "title": "不正アクセスに伴う情報漏えいのおそれについて",
+      "published_on": "2026-11-06",
+      "checked_on": "2026-11-13"
+    }
+  ],
+  "updates": [],
+  "notes": "堺市の公表（既存記録）と同じ事業で、件数を合算しない。"
+}

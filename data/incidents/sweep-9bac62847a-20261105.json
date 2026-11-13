@@ -1,0 +1,47 @@
+{
+  "id": "sweep-9bac62847a-20261105",
+  "organization": {
+    "name": "鎌倉プリンスホテル",
+    "sector": "企業・団体"
+  },
+  "title": "チケット販売のアソビューが使うアララへの不正アクセスでアソビュー会員の情報に流出の可能性",
+  "summary": "チケット販売のアソビューが使うアララへの不正アクセスでアソビュー会員の情報に流出の可能性。",
+  "published_on": "2026-11-05",
+  "first_published_on": "2026-11-05",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-05",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "チケット販売を担うアソビュー株式会社がメール配信に使うアララ株式会社の「アララメッセージ」への第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "件数は未公表または調査中。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス",
+    "会員情報"
+  ],
+  "related_vendor": "アソビュー／アララ",
+  "sources": [
+    {
+      "url": "https://www.princehotels.co.jp/file.jsp?id=528480",
+      "type": "official",
+      "title": "個人情報漏えいの可能性に関するお知らせ",
+      "published_on": "2026-11-05",
+      "checked_on": "2026-11-13"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

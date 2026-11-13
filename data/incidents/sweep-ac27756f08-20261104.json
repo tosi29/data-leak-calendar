@@ -1,0 +1,46 @@
+{
+  "id": "sweep-ac27756f08-20261104",
+  "organization": {
+    "name": "砥部町",
+    "sector": "自治体"
+  },
+  "title": "メールマガジン配信サービス事業者の配信システムからメールアドレスが外部へ流出",
+  "summary": "メールマガジン配信サービス事業者の配信システムからメールアドレスが外部へ流出。",
+  "published_on": "2026-11-04",
+  "first_published_on": "2026-11-04",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-04",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "メールマガジン配信に利用する外部事業者の配信システムへの不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "件数は調査中。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.town.tobe.ehime.jp/soshikikarasagasu/chiikishinkouka/koho/5970.html",
+      "type": "official",
+      "title": "【重要なお知らせ】メールマガジン（メール配信サービス）の一時停止",
+      "published_on": "2026-11-04",
+      "checked_on": "2026-11-13"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

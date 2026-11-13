@@ -1,0 +1,46 @@
+{
+  "id": "sweep-3a08495cc9-20261104",
+  "organization": {
+    "name": "トーホーキャッシュアンドキャリー（A-プライスオンラインショップ）",
+    "sector": "企業・団体"
+  },
+  "title": "メール配信サービスへの不正アクセスでA-プライスオンラインショップ会員のメールアドレスが流出",
+  "summary": "メール配信サービスへの不正アクセスでA-プライスオンラインショップ会員のメールアドレスが流出。",
+  "published_on": "2026-11-04",
+  "first_published_on": "2026-11-04",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-04",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "メール配信に利用するアララ株式会社の「repica」への第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "件数は本文で確認できず。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "アララ株式会社",
+  "sources": [
+    {
+      "url": "https://tcc.to-ho.co.jp/news/news_r081104.html",
+      "type": "official",
+      "title": "メール配信サービスへの不正アクセスによるA-プライスオンラインショップ会員様メールアドレスの流出に関するお知らせ",
+      "published_on": "2026-11-04",
+      "checked_on": "2026-11-13"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

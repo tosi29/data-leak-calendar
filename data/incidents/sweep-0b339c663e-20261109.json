@@ -1,0 +1,48 @@
+{
+  "id": "sweep-0b339c663e-20261109",
+  "organization": {
+    "name": "武蔵野音楽大学",
+    "sector": "教育・研究"
+  },
+  "title": "チケット販売・申込に使う「teket」への不正アクセスでチケット購入者等の情報が流出",
+  "summary": "チケット販売・申込に使う「teket」への不正アクセスでチケット購入者等の情報が流出。",
+  "published_on": "2026-11-09",
+  "first_published_on": "2026-11-09",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-09",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "電子チケット販売・管理サービス「teket」を運営する株式会社teketのシステムへの第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "件数は未公表または調査中。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "メールアドレス",
+    "チケット情報"
+  ],
+  "related_vendor": "株式会社teket",
+  "sources": [
+    {
+      "url": "https://www.musashino-music.ac.jp/news/info/2026-11-09/",
+      "type": "official",
+      "title": "【重要・続報】本学が利用するチケット販売システム「teket」の不正アクセスによる個人情報流出とサービス停止について",
+      "published_on": "2026-11-09",
+      "checked_on": "2026-11-13"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

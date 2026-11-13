@@ -1,0 +1,46 @@
+{
+  "id": "sweep-211dbda0d1-20261105",
+  "organization": {
+    "name": "沖縄県（おきなわ省エネ家電購入応援キャンペーン）",
+    "sector": "自治体"
+  },
+  "title": "おきなわ省エネ家電購入応援キャンペーン事務局が使うアララへの不正アクセスで申請者のメールアドレス503件に漏洩の可能性",
+  "summary": "おきなわ省エネ家電購入応援キャンペーン事務局が使うアララへの不正アクセスで申請者のメールアドレス503件に漏洩の可能性。",
+  "published_on": "2026-11-05",
+  "first_published_on": "2026-11-05",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-05",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "メール配信に利用するアララ株式会社のメール配信サービスへの第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 503,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "キャンペーンの一部申請者の個人メールアドレス。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "アララ株式会社",
+  "sources": [
+    {
+      "url": "https://okinawa-shoene.jp/oshirase_syousai.php?id=18",
+      "type": "official",
+      "title": "お知らせ詳細 おきなわ省エネ家電購入応援キャンペーン",
+      "published_on": "2026-11-05",
+      "checked_on": "2026-11-13"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

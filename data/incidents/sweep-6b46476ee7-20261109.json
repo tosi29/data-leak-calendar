@@ -1,0 +1,46 @@
+{
+  "id": "sweep-6b46476ee7-20261109",
+  "organization": {
+    "name": "四国クリエイト協会",
+    "sector": "企業・団体"
+  },
+  "title": "Webサイトへの不正アクセスでお問い合わせフォームの送信情報146件（92人）に漏えいのおそれ",
+  "summary": "Webサイトへの不正アクセスでお問い合わせフォームの送信情報146件（92人）に漏えいのおそれ。",
+  "published_on": "2026-11-09",
+  "first_published_on": "2026-11-09",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-09",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "Webサイトへの第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 146,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "フォーム送信件数（送信者92人）。"
+    }
+  ],
+  "data_types": [
+    "フォーム送信情報"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.sk-create.jp/archives/9323",
+      "type": "official",
+      "title": "不正アクセスによる個人情報漏えいのおそれに関するお知らせとお詫び",
+      "published_on": "2026-11-09",
+      "checked_on": "2026-11-13"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

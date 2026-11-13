@@ -1,0 +1,46 @@
+{
+  "id": "sweep-8935d1bdd0-20261110",
+  "organization": {
+    "name": "ドリーム・アーツ",
+    "sector": "企業・団体"
+  },
+  "title": "委託先immedioの「immedio Box」への不正アクセスで講演動画の情報に漏えいの可能性",
+  "summary": "委託先immedioの「immedio Box」への不正アクセスで講演動画の情報に漏えいの可能性。",
+  "published_on": "2026-11-10",
+  "first_published_on": "2026-11-10",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-10",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "委託先immedioのクラウドストレージ「immedio Box」への第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "件数は未公表。"
+    }
+  ],
+  "data_types": [
+    "講演動画"
+  ],
+  "related_vendor": "immedio",
+  "sources": [
+    {
+      "url": "https://www.dreamarts.co.jp/news/information/inf261110/",
+      "type": "official",
+      "title": "弊社委託先における不正アクセスによる講演動画の情報漏洩の可能性について",
+      "published_on": "2026-11-10",
+      "checked_on": "2026-11-13"
+    }
+  ],
+  "updates": [],
+  "notes": "immedioの公表（既存記録）と同じ事案。"
+}

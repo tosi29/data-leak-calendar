@@ -1,0 +1,49 @@
+{
+  "id": "sweep-e99a33ee03-20261104",
+  "organization": {
+    "name": "SBI損害保険",
+    "sector": "企業・団体"
+  },
+  "title": "ロードサービスの委託先プレステージ・コアソリューションへの不正アクセスで利用者情報に漏えいの可能性",
+  "summary": "ロードサービスの委託先プレステージ・コアソリューションへの不正アクセスで利用者情報に漏えいの可能性。",
+  "published_on": "2026-11-04",
+  "first_published_on": "2026-11-04",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-04",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "ロードサービスの業務委託先株式会社プレステージ・コアソリューションのシステムへの第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "件数は未公表または調査中。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "電話番号",
+    "車両情報"
+  ],
+  "related_vendor": "株式会社プレステージ・コアソリューション",
+  "sources": [
+    {
+      "url": "https://www.sbisonpo.co.jp/company/information/2026/1104.html",
+      "type": "official",
+      "title": "当社の業務委託先における不正アクセスについて",
+      "published_on": "2026-11-04",
+      "checked_on": "2026-11-13"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

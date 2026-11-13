@@ -1,0 +1,46 @@
+{
+  "id": "sweep-a19c0a7736-20261104",
+  "organization": {
+    "name": "諫早市",
+    "sector": "自治体"
+  },
+  "title": "TKCのシステムのメール送信に使う「アララメッセージ」への不正アクセスで利用者のメールアドレスに漏えいの可能性",
+  "summary": "TKCのシステムのメール送信に使う「アララメッセージ」への不正アクセスで利用者のメールアドレスに漏えいの可能性。",
+  "published_on": "2026-11-04",
+  "first_published_on": "2026-11-04",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-04",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "システム提供事業者株式会社TKCがメール送信に再委託するアララ株式会社の「アララメッセージ」への第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 21383,
+      "unit": "records",
+      "qualifier": "maximum",
+      "description": "メールアドレス。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "TKC／アララ株式会社",
+  "sources": [
+    {
+      "url": "https://www.city.isahaya.nagasaki.jp/soshiki/42/51075.html",
+      "type": "official",
+      "title": "【重要】「マイナンバーカード交付予約・管理システム」のメール配信サービスにおける不正アクセスによる個人情報漏えいの可能性",
+      "published_on": "2026-11-04",
+      "checked_on": "2026-11-13"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

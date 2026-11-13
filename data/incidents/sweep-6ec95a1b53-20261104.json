@@ -1,0 +1,46 @@
+{
+  "id": "sweep-6ec95a1b53-20261104",
+  "organization": {
+    "name": "日本レジャーチャンネル",
+    "sector": "企業・団体"
+  },
+  "title": "メール配信に使う「アララメッセージ」への不正アクセスで会員のメールアドレス684,772件が流出",
+  "summary": "メール配信に使う「アララメッセージ」への不正アクセスで会員のメールアドレス684,772件が流出。",
+  "published_on": "2026-11-04",
+  "first_published_on": "2026-11-04",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-04",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "メール配信に利用するアララ株式会社の「アララメッセージ」への第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 684772,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "メールアドレス。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "アララ株式会社",
+  "sources": [
+    {
+      "url": "https://www.jlc.ne.jp/2026/11/4818/",
+      "type": "official",
+      "title": "弊社が委託したメール配信サービスに対する不正アクセス及び情報漏洩に関するお詫びとお知らせ",
+      "published_on": "2026-11-04",
+      "checked_on": "2026-11-13"
+    }
+  ],
+  "updates": [],
+  "notes": "BOATRACE振興会の公表（既存記録）と件数が重なる。"
+}

@@ -1,0 +1,52 @@
+{
+  "id": "sweep-5ce8182659-20261104",
+  "organization": {
+    "name": "日本福祉大学",
+    "sector": "教育・研究"
+  },
+  "title": "メールマガジン配信と安否確認システムで使うアララのメール配信システムへの不正アクセスでメールアドレスが流出",
+  "summary": "メールマガジン配信と安否確認システムで使うアララのメール配信システムへの不正アクセスでメールアドレスが流出。",
+  "published_on": "2026-11-04",
+  "first_published_on": "2026-11-04",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-04",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "メールマガジン配信サービスと安否確認システムが経由するアララ株式会社のメール配信システムへの不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 50041,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "メールマガジン配信サービスの配信分（確認中の件数）。"
+    },
+    {
+      "count": 5613,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "安否確認システムの登録分（確認中の件数）。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "アララ株式会社",
+  "sources": [
+    {
+      "url": "https://www.n-fukushi.ac.jp/about/news/2026/11/04/d42f534ec77c81eebdf6bfc40ec400e88bf63a67.html",
+      "type": "official",
+      "title": "外部サービスへの不正アクセスに伴う個人情報の漏えい等について",
+      "published_on": "2026-11-04",
+      "checked_on": "2026-11-13"
+    }
+  ],
+  "updates": [],
+  "notes": "公式ページは直接取得できず、取得ツールで本文を確認。"
+}

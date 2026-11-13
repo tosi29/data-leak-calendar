@@ -1,0 +1,46 @@
+{
+  "id": "sweep-367aeb49ec-20261105",
+  "organization": {
+    "name": "アサヒメタルファイン",
+    "sector": "企業・団体"
+  },
+  "title": "GMOメイクショップ経由で使う「アララメッセージ」への不正アクセスで会員のメールアドレス4,610件に流出の可能性",
+  "summary": "GMOメイクショップ経由で使う「アララメッセージ」への不正アクセスで会員のメールアドレス4,610件に流出の可能性。",
+  "published_on": "2026-11-05",
+  "first_published_on": "2026-11-05",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-05",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "ECプラットフォームのGMOメイクショップがメール配信に利用するアララ株式会社の「アララメッセージ」への第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 4610,
+      "unit": "records",
+      "qualifier": "maximum",
+      "description": "メールアドレス。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "GMOメイクショップ／アララ株式会社",
+  "sources": [
+    {
+      "url": "https://www.asahimetalfine.com/news/860",
+      "type": "official",
+      "title": "（11/9更新）当社が利用するメール配信サービスへの不正アクセスによる情報漏えいの可能性について",
+      "published_on": "2026-11-05",
+      "checked_on": "2026-11-13"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

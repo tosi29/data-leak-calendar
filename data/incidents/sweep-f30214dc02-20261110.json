@@ -1,0 +1,46 @@
+{
+  "id": "sweep-f30214dc02-20261110",
+  "organization": {
+    "name": "伊勢市（マイナンバーカード交付予約管理システム）",
+    "sector": "自治体"
+  },
+  "title": "マイナンバーカード交付予約管理システムのメール送信に使う「アララメッセージ」への不正アクセスでメールアドレスに漏えいの可能性",
+  "summary": "マイナンバーカード交付予約管理システムのメール送信に使う「アララメッセージ」への不正アクセスでメールアドレスに漏えいの可能性。",
+  "published_on": "2026-11-10",
+  "first_published_on": "2026-11-10",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-10",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "株式会社TKCがメール送信に再委託するアララ株式会社の「アララメッセージ」への第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "件数は本文で確認できず。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "TKC／アララ株式会社",
+  "sources": [
+    {
+      "url": "https://www.city.ise.mie.jp/kurashi/koseki/mynumber/1021053.html",
+      "type": "official",
+      "title": "マイナンバーカード交付予約管理システムの不正アクセスに伴うメールアドレス漏えいの可能性とメール配信サービスの停止",
+      "published_on": "2026-11-10",
+      "checked_on": "2026-11-13"
+    }
+  ],
+  "updates": [],
+  "notes": "公表索引では11月5日公表とされるが、確認できたページは更新後の版のため、本文の更新日を掲載日とした。"
+}

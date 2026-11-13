@@ -1,0 +1,47 @@
+{
+  "id": "sweep-125129c6ba-20261106",
+  "organization": {
+    "name": "秋田県立美術館",
+    "sector": "企業・団体"
+  },
+  "title": "チケット販売のアソビューが使うアララへの不正アクセスでアソビュー会員の情報に流出の可能性",
+  "summary": "チケット販売のアソビューが使うアララへの不正アクセスでアソビュー会員の情報に流出の可能性。",
+  "published_on": "2026-11-06",
+  "first_published_on": "2026-11-06",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-06",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "チケット販売を担うアソビュー株式会社がメール配信に使うアララ株式会社の「アララメッセージ」への第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "件数は未公表または調査中。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス",
+    "会員情報"
+  ],
+  "related_vendor": "アソビュー／アララ",
+  "sources": [
+    {
+      "url": "https://www.akita-museum-of-art.jp/contents/contents_show.php?serial_no=390&contents_id=2",
+      "type": "official",
+      "title": "電子チケット販売会社「アソビュー株式会社」が利用する外部メール配信サービスへの不正アクセスによる個人情報漏えいの可能性について 秋田県立美術館 -",
+      "published_on": "2026-11-06",
+      "checked_on": "2026-11-13"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

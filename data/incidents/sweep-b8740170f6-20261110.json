@@ -1,0 +1,46 @@
+{
+  "id": "sweep-b8740170f6-20261110",
+  "organization": {
+    "name": "大村市（ゆでぴ）",
+    "sector": "自治体"
+  },
+  "title": "デジタル地域通貨アプリ「ゆでぴ」のメール配信に使う「アララメッセージ」への不正アクセスで利用者のメールアドレス等に流出の可能性",
+  "summary": "デジタル地域通貨アプリ「ゆでぴ」のメール配信に使う「アララメッセージ」への不正アクセスで利用者のメールアドレス等に流出の可能性。",
+  "published_on": "2026-11-10",
+  "first_published_on": "2026-11-10",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-10",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "デジタル地域通貨アプリ「ゆでぴ」のメール配信に利用する外部サービス「アララメッセージ」への第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "件数は未公表。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "株式会社フィノバレー／アララ株式会社",
+  "sources": [
+    {
+      "url": "https://www.city.omura.nagasaki.jp/digital/kurashi/dx/shiawase/yudepi_fuseiacsess.html",
+      "type": "official",
+      "title": "「ゆでぴ」が利用する外部メール配信サービスへの不正アクセスに伴う注意喚起（令和8年11月10日17時現在）",
+      "published_on": "2026-11-10",
+      "checked_on": "2026-11-13"
+    }
+  ],
+  "updates": [],
+  "notes": "公表索引では11月5日公表とされるが、確認できたページは更新後の版のため、本文の更新日を掲載日とした。"
+}

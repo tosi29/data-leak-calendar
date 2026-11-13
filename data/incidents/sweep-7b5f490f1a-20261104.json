@@ -1,0 +1,46 @@
+{
+  "id": "sweep-7b5f490f1a-20261104",
+  "organization": {
+    "name": "交通新聞社",
+    "sector": "企業・団体"
+  },
+  "title": "メール配信サービス「repica」への不正アクセスで配信先のメールアドレス8,817件が流出",
+  "summary": "メール配信サービス「repica」への不正アクセスで配信先のメールアドレス8,817件が流出。",
+  "published_on": "2026-11-04",
+  "first_published_on": "2026-11-04",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-04",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "メール配信に利用するアララ株式会社の「repica」への第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 8817,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "メールアドレス。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "アララ株式会社",
+  "sources": [
+    {
+      "url": "https://www.kotsu.co.jp/information/2026/post_58.html",
+      "type": "official",
+      "title": "弊社メール配信委託先への不正アクセスによるメールアドレス流出に関するお知らせとお詫びについて",
+      "published_on": "2026-11-04",
+      "checked_on": "2026-11-13"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

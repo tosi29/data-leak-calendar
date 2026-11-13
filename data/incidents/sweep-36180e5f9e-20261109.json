@@ -1,0 +1,46 @@
+{
+  "id": "sweep-36180e5f9e-20261109",
+  "organization": {
+    "name": "古河電工健康保険組合",
+    "sector": "企業・団体"
+  },
+  "title": "委託先ティーペックの「plus Baton」のメール配信に使うアララへの不正アクセスで会員のメールアドレスが流出",
+  "summary": "委託先ティーペックの「plus Baton」のメール配信に使うアララへの不正アクセスで会員のメールアドレスが流出。",
+  "published_on": "2026-11-09",
+  "first_published_on": "2026-11-09",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-09",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "健康相談の委託先ティーペック株式会社の健康情報サービス「plus Baton」のメール配信に使うアララ株式会社のシステムへの不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "件数は未公表または調査中。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "ティーペック株式会社／アララ株式会社",
+  "sources": [
+    {
+      "url": "https://www.furukawadenko-kenpo.com/2026/11/09/%E5%81%A5%E5%BA%B7%E6%83%85%E5%A0%B1%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9%E3%80%8Cplus-baton%E3%80%8D%E3%81%AE%E3%83%A1%E3%83%BC%E3%83%AB%E3%82%A2%E3%83%89%E3%83%AC%E3%82%B9%E6%B5%81%E5%87%BA%E3%81%AB/",
+      "type": "official",
+      "title": "健康情報サービス「plus Baton」のメールアドレス流出について",
+      "published_on": "2026-11-09",
+      "checked_on": "2026-11-13"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

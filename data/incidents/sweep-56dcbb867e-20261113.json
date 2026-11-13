@@ -1,0 +1,46 @@
+{
+  "id": "sweep-56dcbb867e-20261113",
+  "organization": {
+    "name": "東久留米市（マイナンバーカード交付予約システム）",
+    "sector": "自治体"
+  },
+  "title": "マイナンバーカード交付予約システムが使う「アララメッセージ」への不正アクセスで予約者のメールアドレス約2,800件が漏えい",
+  "summary": "マイナンバーカード交付予約システムが使う「アララメッセージ」への不正アクセスで予約者のメールアドレス約2,800件が漏えい。",
+  "published_on": "2026-11-13",
+  "first_published_on": "2026-11-13",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-13",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "株式会社TKCがメール送信に再委託するアララ株式会社の「アララメッセージ」への第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 2800,
+      "unit": "records",
+      "qualifier": "approximate",
+      "description": "2026年6月下旬～10月31日に予約した人のメールアドレス。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "TKC／アララ株式会社",
+  "sources": [
+    {
+      "url": "https://www.city.higashikurume.lg.jp/shisei/joho/1005146/1029998.html",
+      "type": "official",
+      "title": "【重要】マイナンバーカード交付および電子証明書更新予約受付で利用する外部メール送信サービスへの不正アクセスおよび個人情報漏えいの可能性について",
+      "published_on": "2026-11-13",
+      "checked_on": "2026-11-13"
+    }
+  ],
+  "updates": [],
+  "notes": "公表索引では11月4日公表とされるが、確認できたページは更新後の版のため、本文の更新日を掲載日とした。"
+}

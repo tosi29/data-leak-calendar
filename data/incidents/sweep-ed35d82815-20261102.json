@@ -1,0 +1,47 @@
+{
+  "id": "sweep-ed35d82815-20261102",
+  "organization": {
+    "name": "福井市",
+    "sector": "自治体"
+  },
+  "title": "公文書開示請求等で一部開示した文書の黒塗り不備などで延べ1,628人・132法人の情報が漏えい・漏えいのおそれ",
+  "summary": "公文書開示請求等で一部開示した文書の黒塗り不備などで延べ1,628人・132法人の情報が漏えい・漏えいのおそれ。",
+  "published_on": "2026-11-02",
+  "first_published_on": "2026-11-02",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-02",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "accident",
+  "cause": {
+    "category": "redaction_error",
+    "certainty": "unknown",
+    "detail": "公文書開示請求等に対する一部開示文書で、非開示とすべき情報の処理に不備。"
+  },
+  "impact": [
+    {
+      "count": 1628,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "延べ人数。ほかに132法人、事案41件。"
+    }
+  ],
+  "data_types": [
+    "個人情報",
+    "法人情報"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.city.fukui.lg.jp/sisei/kisoku/koukai/kaizibunsyo_rouei.html",
+      "type": "official",
+      "title": "公文書開示請求等における一部開示文書の情報漏えい等について",
+      "published_on": "2026-11-02",
+      "checked_on": "2026-11-13"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}
