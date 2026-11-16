@@ -1,0 +1,53 @@
+{
+  "id": "hue-blastmail-20261022",
+  "organization": {
+    "name": "広島経済大学",
+    "sector": "教育・研究"
+  },
+  "title": "メールマガジン配信に使う「ブラストメール」への不正アクセスで配信先情報の漏えいの有無を確認、のちに漏えいなしと判明",
+  "summary": "メールマガジン配信に使う「ブラストメール」への不正アクセスで配信先情報の漏えいの有無を確認、のちに漏えいなしと判明。",
+  "published_on": "2026-10-22",
+  "first_published_on": "2026-10-22",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-11",
+  "verification": "official",
+  "leak_status": "ruled_out",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "メールマガジン配信に使う株式会社ラクスライトクラウドの「ブラストメール」への第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "「ご家族の方向けメールマガジン」「キャリアアッププログラム通信」の配信先情報（氏名・メールアドレス）。調査で漏えいはなかったと確認。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "メールアドレス"
+  ],
+  "related_vendor": "株式会社ラクスライトクラウド",
+  "sources": [
+    {
+      "url": "https://www.hue.ac.jp/news/info/b06vtg0000000a13.html",
+      "type": "official",
+      "title": "本学が利用するメール配信サービスへの不正アクセスについて（第2報）",
+      "published_on": "2026-11-11",
+      "checked_on": "2026-11-16"
+    }
+  ],
+  "updates": [
+    {
+      "date": "2026-11-11",
+      "summary": "第2報。運営会社の調査で配信先情報（氏名・メールアドレス）の漏えいは一切なかったことを確認。",
+      "source_index": 0
+    }
+  ],
+  "notes": "第1報（10月22日）は第2報と同じページで確認。"
+}

@@ -1516,5 +1516,103 @@
       "https://www.security-next.com/192347"
     ],
     "note": "2026年11月13日調査：報道（佐賀新聞・NHK・Security NEXT）で1学年分の学習記録ファイル紛失を把握。発覚は9月30日で10月上旬の報道があり、市の公式発表日と本文は未確認。"
+  },
+  {
+    "id": "nov16-keisei-skyliner-review",
+    "organization": "京成電鉄（スカイライナー座席予約システム）",
+    "reported_on": "2026-11-13",
+    "verification": "pending",
+    "reference_url": "https://www.keisei.co.jp/cms/files/keisei/MASTER/0110/qWTY2f7x.pdf",
+    "reviewed_on": "2026-11-16",
+    "checked_urls": [
+      "https://www.keisei.co.jp/cms/files/keisei/MASTER/0110/qWTY2f7x.pdf",
+      "https://www.keisei.co.jp/cms/files/keisei/MASTER/0110/OVIfkjTf.pdf"
+    ],
+    "note": "2026年11月16日調査：公表索引では11月11日深夜の不正アクセスでチケットレスサービス顧客の最大約337万件が取得された可能性とされるが、索引に載った公式PDF2件がいずれも404で、ニュース一覧からも本文を確認できないため保留。"
+  },
+  {
+    "id": "nov16-chiikawa-kuji-openlogi-review",
+    "organization": "ちいかわマーケット ちいかわくじ（オープンロジ）",
+    "reported_on": "2026-11-13",
+    "verification": "pending",
+    "reference_url": "https://online-kuji.chiikawamarket.jp/store/notification/92483fef-e205-427f-8b4d-8c26b0f6d1db",
+    "reviewed_on": "2026-11-16",
+    "checked_urls": [
+      "https://online-kuji.chiikawamarket.jp/store/notification/92483fef-e205-427f-8b4d-8c26b0f6d1db"
+    ],
+    "note": "2026年11月16日調査：公表索引ではオープンロジへの不正アクセスでお届け先の情報が持ち出されたとされるが、告知ページはスクリプト描画で本文を取得できず保留。"
+  },
+  {
+    "id": "nov16-spa-kuji-openlogi-review",
+    "organization": "扶桑社（SPA!オンラインくじストア、オープンロジ）",
+    "reported_on": "2026-11-13",
+    "verification": "pending",
+    "reference_url": "https://spa-kuji.jp/store/notification/db05d652-3065-4bda-99e4-94b1fcadba80",
+    "reviewed_on": "2026-11-16",
+    "checked_urls": [
+      "https://spa-kuji.jp/store/notification/db05d652-3065-4bda-99e4-94b1fcadba80"
+    ],
+    "note": "2026年11月16日調査：公表索引では運営委託先アカツキの再委託先オープンロジへの不正アクセスで出荷データが持ち出されたとされるが、告知ページはスクリプト描画で本文を取得できず保留。"
+  },
+  {
+    "id": "nov16-rihga-arara-review",
+    "organization": "ロイヤルホテル（オンラインショップ、アララ）",
+    "reported_on": "2026-11-13",
+    "verification": "pending",
+    "reference_url": "https://www.rihga.co.jp/hubfs/assets/pdf/group/notice-20261113.pdf",
+    "reviewed_on": "2026-11-16",
+    "checked_urls": [
+      "https://www.rihga.co.jp/hubfs/assets/pdf/group/notice-20261113.pdf"
+    ],
+    "note": "2026年11月16日調査：公表索引ではGMOメイクショップの再委託先アララへの不正アクセスでメールアドレス約8,000件が漏えいとされるが、公式PDFは画像で本文を機械的に読み取れず保留。"
+  },
+  {
+    "id": "nov16-keio-notion-review",
+    "organization": "慶應義塾（Notion AIの委託先Fireworks AI）",
+    "reported_on": "2026-11-13",
+    "verification": "pending",
+    "reference_url": "https://www.keio.ac.jp/ja/news/20261113-news/",
+    "reviewed_on": "2026-11-16",
+    "checked_urls": [
+      "https://www.keio.ac.jp/ja/news/20261113-news/"
+    ],
+    "note": "2026年11月16日調査：Notion社から利用環境が影響を受けた可能性の通知を受けたと公表。個人情報への影響は具体的に記載がなく保留。"
+  },
+  {
+    "id": "nov16-findy-notion-review",
+    "organization": "ファインディ（Notion AIの委託先Fireworks AI）",
+    "reported_on": "2026-11-13",
+    "verification": "pending",
+    "reference_url": "https://findy.co.jp/4650/",
+    "reviewed_on": "2026-11-16",
+    "checked_urls": [
+      "https://findy.co.jp/4650/"
+    ],
+    "note": "2026年11月16日調査：Notion AIのチャット記録が漏えいした可能性を公表。個人情報が含まれるかを含めて調査中のため保留。"
+  },
+  {
+    "id": "nov16-pokepay-review",
+    "organization": "ポケットチェンジ（Pokepay Enterprise）",
+    "reported_on": "2026-11-14",
+    "verification": "pending",
+    "reference_url": "https://pokepay.jp/ja/entries/142",
+    "reviewed_on": "2026-11-16",
+    "checked_urls": [
+      "https://pokepay.jp/ja/entries/142",
+      "https://pokepay.jp/ja/entries/143"
+    ],
+    "note": "2026年11月16日調査：Pokepay（Enterprise）への不正アクセスで全サービスを停止と公表。影響範囲は調査中で個人情報への影響は未記載のため保留。同日停止した大学生協電子マネー・ハチペイ・めぶくPay・ふくアプリも個人情報への影響が未公表で対象外とした。北区（ほくペイ）は加盟店の申込情報が取得された可能性を公表したため掲載。"
+  },
+  {
+    "id": "nov16-eicoh-review",
+    "organization": "エイコー（ランサムウェア）",
+    "reported_on": "2026-11-13",
+    "verification": "pending",
+    "reference_url": "https://eicoh.com/news/detail/127",
+    "reviewed_on": "2026-11-16",
+    "checked_urls": [
+      "https://eicoh.com/news/detail/127"
+    ],
+    "note": "2026年11月16日調査：11月9日のランサムウェア被害を公表。情報の外部流出の有無は調査中で、個人情報への影響は未記載のため保留。"
   }
 ]

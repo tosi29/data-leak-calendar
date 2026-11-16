@@ -8,32 +8,37 @@
   "published_on": "2026-10-05",
   "occurred_on": null,
   "detected_on": null,
-  "updated_on": "2026-10-15",
+  "updated_on": "2026-11-16",
   "first_published_on": null,
   "publication_kind": "unknown",
-  "verification": "secondary",
-  "leak_status": "suspected",
+  "verification": "official",
+  "leak_status": "confirmed",
   "summary": "システム障害に伴い、在学生・卒業生約13万人の情報が流出したおそれを公表。",
   "impact": [
     {
-      "count": 130000,
+      "count": 170000,
       "unit": "people",
       "qualifier": "approximate",
-      "description": "対象人数"
+      "description": "委託先NECが管理するクラウドストレージから漏えいした学生・教職員のID・氏名・メールアドレス・生年月日等。うち約1,400名分は銀行口座番号・健康関連情報・パスポート画像などを含む。"
     }
   ],
   "data_types": [
-    "氏名",
-    "住所",
+    "ID",
+    "パスポート画像",
     "メールアドレス",
-    "学生証写真"
+    "住所",
+    "健康関連情報",
+    "学生証写真",
+    "氏名",
+    "生年月日",
+    "銀行口座番号"
   ],
   "cause": {
-    "category": "unknown",
-    "detail": "参照した報道では侵入原因の詳細は不明。",
-    "certainty": "unknown"
+    "category": "credentials",
+    "certainty": "confirmed",
+    "detail": "委託先NECの再委託先の端末とNECが管理するクラウドストレージから窃取されたアカウント情報・パスワードを悪用され、大学システムに侵入されてランサムウェア攻撃を受けた。"
   },
-  "related_vendor": null,
+  "related_vendor": "日本電気株式会社（NEC）",
   "sources": [
     {
       "url": "https://www.toonippo.co.jp/articles/-/2376777",
@@ -41,20 +46,51 @@
       "title": "大阪公立大、約１３万人情報流出の恐れ｜全国のニュース｜Web東奥",
       "published_on": "2026-10-05",
       "checked_on": "2026-10-15"
+    },
+    {
+      "url": "https://www.omu.ac.jp/news/12123",
+      "type": "official",
+      "title": "本学情報基盤システムにおける障害の発生について【第6報】",
+      "published_on": "2026-11-13",
+      "checked_on": "2026-11-16"
     }
   ],
-  "notes": "",
-  "updates": [],
+  "notes": "当初は報道で約13万人の流出のおそれとされていた。",
+  "updates": [
+    {
+      "date": "2026-11-13",
+      "summary": "第6報。NECのクラウドストレージから学生・教職員約17万名分の個人情報が漏えいしたと公表。大学の情報システムからの漏えいは明確には確認されていないが可能性は否定できない。",
+      "source_index": 1
+    }
+  ],
   "incident_type": "unknown",
   "vendor_research": {
-    "checked_on": "2026-10-15",
-    "result": "not_identified",
-    "note": "掲載出典と追加検索で、当該事案に関係する外部の開発・運用・サービス・基盤会社の社名と役割を特定できませんでした。",
+    "checked_on": "2026-11-16",
+    "result": "identified",
+    "note": "第6報で情報基盤システムの構築・運用保守の委託先としてNECを確認。再委託先の社名は未公表。",
     "source_checks": [
       {
         "source_index": 0,
         "status": "reviewed"
+      },
+      {
+        "source_index": 1,
+        "status": "reviewed"
       }
     ]
-  }
+  },
+  "vendors": [
+    {
+      "name": "日本電気株式会社（NEC）",
+      "role": "development",
+      "detail": "大学の情報基盤システムの構築業務の委託先。",
+      "source_index": 1
+    },
+    {
+      "name": "日本電気株式会社（NEC）",
+      "role": "operations",
+      "detail": "情報基盤システムの運用保守業務の委託先。再委託先の端末とNEC管理のクラウドストレージから認証情報が窃取された。",
+      "source_index": 1
+    }
+  ]
 }

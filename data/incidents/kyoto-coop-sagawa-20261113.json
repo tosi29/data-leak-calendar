@@ -1,0 +1,49 @@
+{
+  "id": "kyoto-coop-sagawa-20261113",
+  "organization": {
+    "name": "京都生活協同組合",
+    "sector": "団体・組合"
+  },
+  "title": "佐川急便の「お荷物問い合わせサービス」への不正アクセスで集荷を利用した組合員318名の情報が対象の可能性",
+  "summary": "佐川急便の「お荷物問い合わせサービス」への不正アクセスで集荷を利用した組合員318名の情報が対象の可能性。",
+  "published_on": "2026-11-13",
+  "first_published_on": "2026-11-13",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-13",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "佐川急便株式会社の「お荷物問い合わせサービス」への第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 318,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "カタログ企画「スクロール」の衣料品回収キットで佐川急便の集荷を利用した組合員の氏名・住所・電話番号・メールアドレス。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "電話番号",
+    "メールアドレス"
+  ],
+  "related_vendor": "佐川急便株式会社",
+  "sources": [
+    {
+      "url": "https://www.kyoto.coop/topics/2026/11/post-3237.html",
+      "type": "official",
+      "title": "【宅配】佐川急便株式会社への不正アクセスに伴う個人情報流出の可能性について",
+      "published_on": "2026-11-13",
+      "checked_on": "2026-11-16"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

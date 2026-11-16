@@ -1,0 +1,60 @@
+{
+  "id": "appleworld-rikisha-20261113",
+  "organization": {
+    "name": "アップルワールド（Rikisha Easy REZ!）",
+    "sector": "企業・団体"
+  },
+  "title": "旅行会社向け予約手配システムへの不正アクセスで予約情報最大582,024件やカード情報最大39件が流出したおそれ",
+  "summary": "旅行会社向け予約手配システムへの不正アクセスで予約情報最大582,024件やカード情報最大39件が流出したおそれ。",
+  "published_on": "2026-11-13",
+  "first_published_on": "2026-11-13",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-13",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "旅行会社向け予約手配システム「Rikisha Easy REZ!」のサーバーへの第三者による不正アクセス。不正なプログラムの設置やファイルの改ざんがあった。"
+  },
+  "impact": [
+    {
+      "count": 582024,
+      "unit": "records",
+      "qualifier": "maximum",
+      "description": "旅行者の予約情報。"
+    },
+    {
+      "count": 13834,
+      "unit": "people",
+      "qualifier": "maximum",
+      "description": "旅行会社（最大3,542社）の担当者の情報。"
+    },
+    {
+      "count": 39,
+      "unit": "records",
+      "qualifier": "maximum",
+      "description": "侵入期間中に決済画面で入力されたクレジットカード情報。"
+    }
+  ],
+  "data_types": [
+    "予約情報",
+    "氏名",
+    "クレジットカード情報"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://appleworld.co.jp/news/cp6xtywu279",
+      "type": "official",
+      "title": "当社が運営する旅行会社様向け予約手配システム「Rikisha Easy REZ!」への不正アクセスによる個人情報流出のおそれに関するお詫びとお知らせ",
+      "published_on": "2026-11-13",
+      "checked_on": "2026-11-16"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

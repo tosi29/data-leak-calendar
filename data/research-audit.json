@@ -33821,6 +33821,24 @@
           ]
         }
       ]
+    },
+    {
+      "checked_on": "2026-11-16",
+      "scope": "11月13～16日の調査で公式第6報を取得した事案のベンダー情報を更新",
+      "vendor_review_updates": [
+        {
+          "incident_id": "osaka-metropolitan-20261005",
+          "checked_on": "2026-11-16",
+          "queries": [
+            "https://www.omu.ac.jp/news/12123"
+          ],
+          "result": "identified",
+          "note": "第6報で情報基盤システムの構築・運用保守の委託先としてNECを確認。",
+          "additional_source_urls": [
+            "https://www.omu.ac.jp/news/12123"
+          ]
+        }
+      ]
     }
   ],
   "daily_updates": [
@@ -37135,6 +37153,204 @@
       "retrieval_checks": [],
       "report": "docs/research-2026-11-13-november-sweep.md",
       "audit": "data/research-2026-11-13-november-sweep.json"
+    },
+    {
+      "checked_on": "2026-11-16",
+      "checked_at": "2026-11-16T23:59:00+09:00",
+      "coverage_start": "2026-11-13",
+      "coverage_end": "2026-11-16",
+      "stats": {
+        "baseline_incidents": 2691,
+        "added_incidents": 90,
+        "updated_incidents": 6,
+        "total_incidents": 2781,
+        "added_by_publication_date": {
+          "2026-10-22": 2,
+          "2026-10-23": 1,
+          "2026-11-04": 1,
+          "2026-11-05": 1,
+          "2026-11-11": 2,
+          "2026-11-12": 2,
+          "2026-11-13": 71,
+          "2026-11-14": 7,
+          "2026-11-15": 3
+        },
+        "baseline_candidates": 123,
+        "new_candidates": 8,
+        "resolved_candidates": 0,
+        "pending_candidates": 131
+      },
+      "added_incident_ids": [
+        "ageless-notion-fireworks-20261113",
+        "algo-artis-notion-fireworks-20261113",
+        "appleworld-rikisha-20261113",
+        "asahikawa-mynumber-arara-20261113",
+        "athome-chintai-kanri-20261113",
+        "atlas-confit-20261114",
+        "atomi-teket-20261114",
+        "axa-myaxa-20261112",
+        "batten-store-openlogi-20261114",
+        "brave-group-openlogi-20261113",
+        "caffarel-yamamoto-arara-20261113",
+        "cao-okinawa41-20261113",
+        "chiba-chipass-20261113",
+        "chukyo-univ-anpic-arara-20261113",
+        "corona-onlinestore-arara-20261113",
+        "fabrica-notion-fireworks-20261113",
+        "forstartups-notion-fireworks-20261113",
+        "gfs-member-site-20261113",
+        "gfs-tatsujin-20261113",
+        "giants-clubgiants-20261113",
+        "goq-system-20261112",
+        "hachinohe-mynumber-arara-20261113",
+        "hachioji-heritage-comsbi-20261113",
+        "hanshin-tigers-teket-20261113",
+        "harvestwalk-comsbi-20261114",
+        "hepco-kirameku-arara-20261113",
+        "hiroshima-gas-ryomo-20261113",
+        "honda-giftpad-arara-20261113",
+        "hue-blastmail-20261022",
+        "human-adjust-comsbi-20261113",
+        "iore-notion-fireworks-20261113",
+        "ja-hareoka-arara-20261113",
+        "jrk-shoji-arara-20261113",
+        "kakogawa-mynumber-arara-20261113",
+        "kashiwa-sukusuku-arara-20261105",
+        "kashiwara-hanamaru-arara-20261113",
+        "kawasaki-nanbu-market-teket-20261114",
+        "keihan-comsbi-20261114",
+        "kintetsu-re-paradis-comsbi-20261113",
+        "kita-hokupay-20261115",
+        "kobe-ekobe-arara-20261113",
+        "kose-maison-20261113",
+        "kyogei-teket-20261113",
+        "kyoto-coop-sagawa-20261113",
+        "lakeel-aws-20261111",
+        "lifull-comsbi-20261113",
+        "lightblue-notion-fireworks-20261113",
+        "ls-support-notion-fireworks-20261113",
+        "medianavi-old-webserver-20261113",
+        "mitsui-direct-fleekdrive-arara-20261113",
+        "moka-tkc-arara-20261104",
+        "monex-account-opening-20261113",
+        "mtg-style-comsbi-20261113",
+        "nakatani-fudosan-20261113",
+        "nara-mynumber-arara-20261113",
+        "neowing-20261113",
+        "niigata-kankyo-mail-emz-20261113",
+        "nikken-notion-fireworks-20261113",
+        "nissan-pcs-20261113",
+        "osaka-food-support-mail-20261113",
+        "osaka-food-support-system-20261113",
+        "osaka-naniwa-study-arara-20261113",
+        "osomalo-makeshop-arara-20261115",
+        "paiza-staging-20261113",
+        "reman-bourbon-arara-20261113",
+        "rvsta-notion-fireworks-20261113",
+        "ryobi-busvision-arara-20261113",
+        "sakai-food-support-20261113",
+        "sanco-busvision-arara-20261113",
+        "select-hotels-temairazu-arara-20261113",
+        "smtb-fleekdrive-arara-20261113",
+        "snowpeak-20261113",
+        "sogo-unicom-arara-20261113",
+        "taito-geibun-teket-20261113",
+        "teac-store-arara-20261113",
+        "thecoo-openlogi-20261113",
+        "tokyo-babysitter-training-20261113",
+        "towelmuseum-goq-20261114",
+        "tv-komatsu-comsbi-20261113",
+        "tvtokyo-direct-openlogi-20261113",
+        "uds-blastmail-20261022",
+        "vivion-notion-fireworks-20261113",
+        "xleague-comsbi-20261115",
+        "yamada-denki-reform-20261113",
+        "yamazen-bizcom-20261113",
+        "yamazen-corporate-site-20261111",
+        "ycc-milke-blastmail-20261023",
+        "ymfg-jimotto-arara-20261113",
+        "ytc-kempo-notion-fireworks-20261113",
+        "zeals-notion-fireworks-20261113"
+      ],
+      "updated_incident_ids": [
+        "axa-direct-pcs-20261102",
+        "bandai-logipal-20261026",
+        "kawasaki-ekawasaki-arara-20261102",
+        "osaka-metropolitan-20261005",
+        "smartshare-ownly-20261027",
+        "yokohama-eshinsei-arara-20261103"
+      ],
+      "new_candidate_ids": [
+        "nov16-keisei-skyliner-review",
+        "nov16-chiikawa-kuji-openlogi-review",
+        "nov16-spa-kuji-openlogi-review",
+        "nov16-rihga-arara-review",
+        "nov16-keio-notion-review",
+        "nov16-findy-notion-review",
+        "nov16-pokepay-review",
+        "nov16-eicoh-review"
+      ],
+      "resolved_candidate_ids": [],
+      "method": [
+        "前回調査（11月13日18時）以降を対象に、JSON形式の2索引で11月13日以降に公表・更新された行と11月13～16日の適時開示一覧から一次情報URLを抽出し、既存の掲載JSON・確認待ち候補・照合記録の出典URLと組織名で照合した。",
+        "未照合の公式HTML・PDF約200件を一括取得し、索引の公表日と件数が本文に現れるかを機械的に照合した。一致しない件数・日付は本文を個別に読んで確認した。",
+        "続報は既存IDへ統合した。委託先事故は委託元・受託先・提供元の公表をそれぞれ記録し、件数は合算しない。"
+      ],
+      "limitations": [
+        "11月16日夜の調査時点までの公表を対象とし、11月14～16日分は索引への反映途中で網羅性が低い。漏れゼロを意味しない。",
+        "京成電鉄（公式PDFが404）、ちいかわくじ・SPA!くじ（スクリプト描画）、ロイヤルホテル（画像PDF）は本文を確認できず確認待ちとした。",
+        "大学生協電子マネー（各大学生協）、ハチペイ、めぶくPay、ふくアプリ、Pokepay、渋谷区・国民生活センター（デジタルアーツ）、prismatix、RightTouch、ジーニー、SynaBiz、Cocolive、ECADソリューションズ、沖縄タイムス・共同通信・日本室内楽振興財団（ブラストメール）は個人情報への影響が公表されていない、または漏えいなしのため対象外。"
+      ],
+      "search_result_urls": [
+        "https://incidents.seory.co.jp/incidents.json",
+        "https://jouhourouei.clipmaster.jp/data/incidents.json",
+        "https://www.release.tdnet.info/inbs/I_list_001_20261113.html",
+        "https://www.release.tdnet.info/inbs/I_list_001_20261116.html"
+      ],
+      "retrieval_checks": [
+        {
+          "url": "https://www.keisei.co.jp/cms/files/keisei/MASTER/0110/qWTY2f7x.pdf",
+          "status": "unavailable",
+          "final_url": null
+        },
+        {
+          "url": "https://www.keisei.co.jp/cms/files/keisei/MASTER/0110/OVIfkjTf.pdf",
+          "status": "unavailable",
+          "final_url": null
+        },
+        {
+          "url": "https://info.monex.co.jp/news/2026/20261020_04.html",
+          "status": "unavailable",
+          "final_url": null
+        },
+        {
+          "url": "https://info.monex.co.jp/press/pdf/press2026_11_13_monex_pr.pdf",
+          "status": "unavailable",
+          "final_url": null
+        },
+        {
+          "url": "https://www.ecad-sol.com/news/20261113/",
+          "status": "unavailable",
+          "final_url": null
+        },
+        {
+          "url": "https://online-kuji.chiikawamarket.jp/store/notification/92483fef-e205-427f-8b4d-8c26b0f6d1db",
+          "status": "partial",
+          "final_url": null
+        },
+        {
+          "url": "https://spa-kuji.jp/store/notification/db05d652-3065-4bda-99e4-94b1fcadba80",
+          "status": "partial",
+          "final_url": null
+        },
+        {
+          "url": "https://www.rihga.co.jp/hubfs/assets/pdf/group/notice-20261113.pdf",
+          "status": "partial",
+          "final_url": null
+        }
+      ],
+      "report": "docs/research-2026-11-16-nov13-16-update.md",
+      "audit": "data/research-2026-11-16-nov13-16-update.json"
     }
   ]
 }

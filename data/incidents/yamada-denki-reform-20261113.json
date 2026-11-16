@@ -1,0 +1,49 @@
+{
+  "id": "yamada-denki-reform-20261113",
+  "organization": {
+    "name": "ヤマダデンキ（リフォーム管理システム）",
+    "sector": "企業・団体"
+  },
+  "title": "リフォーム管理システムへの不正アクセスで営業記録最大350万件への影響を調査",
+  "summary": "リフォーム管理システムへの不正アクセスで営業記録最大350万件への影響を調査。",
+  "published_on": "2026-11-13",
+  "first_published_on": "2026-11-13",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-13",
+  "verification": "official",
+  "leak_status": "investigating",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "リフォーム管理システムへの第三者からの不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 3500000,
+      "unit": "records",
+      "qualifier": "maximum",
+      "description": "氏名・住所・電話番号・リフォーム実施履歴などの営業記録。外部への流出は調査中。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "電話番号",
+    "リフォーム実施履歴"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.yamada-holdings.jp/ir/press/2026/261113_2.pdf",
+      "type": "official",
+      "title": "当社リフォーム管理システムへの不正アクセスについて",
+      "published_on": "2026-11-13",
+      "checked_on": "2026-11-16"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

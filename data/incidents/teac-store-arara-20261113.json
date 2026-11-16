@@ -1,0 +1,46 @@
+{
+  "id": "teac-store-arara-20261113",
+  "organization": {
+    "name": "ティアック（ティアックストア）",
+    "sector": "企業・団体"
+  },
+  "title": "公式オンラインショップのメール配信に使う「アララメッセージ」への不正アクセスでメールアドレス14,190件が流出",
+  "summary": "公式オンラインショップのメール配信に使う「アララメッセージ」への不正アクセスでメールアドレス14,190件が流出。",
+  "published_on": "2026-11-13",
+  "first_published_on": "2026-11-13",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-13",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "GMOメイクショップの「MakeRepeater」「メール配信プラス」が使うアララの「アララメッセージ」への不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 14190,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "メールアドレス（MakeRepeater 7,140件、メール配信プラス 7,050件。2026年7月1日～10月28日の配信分）。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "アララ株式会社",
+  "sources": [
+    {
+      "url": "https://www.release.tdnet.info/inbs/140120261113579636.pdf",
+      "type": "official",
+      "title": "当社オンラインショップの外部メール配信サービスへの不正アクセスによるメールアドレス流出について",
+      "published_on": "2026-11-13",
+      "checked_on": "2026-11-16"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

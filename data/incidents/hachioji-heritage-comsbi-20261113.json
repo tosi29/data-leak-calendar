@@ -1,0 +1,49 @@
+{
+  "id": "hachioji-heritage-comsbi-20261113",
+  "organization": {
+    "name": "八王子市（八王子日本遺産PRキャンペーン）",
+    "sector": "自治体"
+  },
+  "title": "令和4年度「八王子日本遺産PRキャンペーン」で使った「COMSBI」への不正アクセスで参加者最大1,947件の情報が漏えいした可能性",
+  "summary": "令和4年度「八王子日本遺産PRキャンペーン」で使った「COMSBI」への不正アクセスで参加者最大1,947件の情報が漏えいした可能性。",
+  "published_on": "2026-11-13",
+  "first_published_on": "2026-11-13",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-13",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "令和4年度事業の再委託先が利用していたソニックムーブのLINE連携サービス「COMSBI」への不正アクセス。本来削除されるべき参加者情報が残っていた。"
+  },
+  "impact": [
+    {
+      "count": 1947,
+      "unit": "records",
+      "qualifier": "maximum",
+      "description": "参加者の氏名・住所・電話番号・LINEアカウント情報等。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "電話番号",
+    "LINEアカウント情報"
+  ],
+  "related_vendor": "株式会社ソニックムーブ",
+  "sources": [
+    {
+      "url": "https://www.city.hachioji.tokyo.jp/kankobunka/008/p038447.html",
+      "type": "official",
+      "title": "令和4年度事業「八王子日本遺産PRキャンペーン」における利用者の個人情報漏えいの可能性について（第1報）",
+      "published_on": "2026-11-13",
+      "checked_on": "2026-11-16"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

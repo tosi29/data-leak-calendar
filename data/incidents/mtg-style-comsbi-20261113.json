@@ -1,0 +1,53 @@
+{
+  "id": "mtg-style-comsbi-20261113",
+  "organization": {
+    "name": "MTG（「Style」ショップLINE公式アカウント）",
+    "sector": "企業・団体"
+  },
+  "title": "「Style」ショップLINE公式アカウントで使う「COMSBI」への不正アクセスで会員登録情報最大26,757件などが漏えいした可能性",
+  "summary": "「Style」ショップLINE公式アカウントで使う「COMSBI」への不正アクセスで会員登録情報最大26,757件などが漏えいした可能性。",
+  "published_on": "2026-11-13",
+  "first_published_on": "2026-11-13",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-13",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "ポイント・クーポン機能に使うソニックムーブのLINE連携サービス「COMSBI（SaaS版）」への不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 26757,
+      "unit": "records",
+      "qualifier": "maximum",
+      "description": "会員登録情報。"
+    },
+    {
+      "count": 54465,
+      "unit": "records",
+      "qualifier": "maximum",
+      "description": "LINE友だち情報（会員登録情報と重なる人を含む）。"
+    }
+  ],
+  "data_types": [
+    "会員登録情報",
+    "LINE友だち情報"
+  ],
+  "related_vendor": "株式会社ソニックムーブ",
+  "sources": [
+    {
+      "url": "https://www.mtg.gr.jp/news/detail/2026/11/article_2682.html",
+      "type": "official",
+      "title": "「Style」ショップLINE公式アカウントの外部サービス提供元における不正アクセスの発生について",
+      "published_on": "2026-11-13",
+      "checked_on": "2026-11-16"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

@@ -11,7 +11,7 @@
   "publication_kind": "initial",
   "occurred_on": null,
   "detected_on": "2026-10-21",
-  "updated_on": "2026-10-26",
+  "updated_on": "2026-11-16",
   "verification": "official",
   "leak_status": "suspected",
   "incident_type": "attack",
@@ -22,10 +22,16 @@
   },
   "impact": [
     {
-      "count": null,
+      "count": 387895,
       "unit": "records",
-      "qualifier": "unknown",
-      "description": "一番くじONLINEの配送情報。対象件数は調査中。"
+      "qualifier": "exact",
+      "description": "一番くじONLINEの配送情報（2025年1月22日～2026年10月22日に商品発送があった顧客の氏名・住所・電話番号）。"
+    },
+    {
+      "count": 25632,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "一番くじ倶楽部キャンペーンの配送情報（2019年1月1日～2026年10月22日に賞品発送があった一部の顧客）。一番くじONLINEと重複の可能性。"
     }
   ],
   "data_types": [
@@ -41,9 +47,22 @@
       "title": "株式会社バンダイロジパルへの不正アクセスについてのお知らせ（第1報）",
       "published_on": "2026-10-26",
       "checked_on": "2026-10-27"
+    },
+    {
+      "url": "https://bandai-a.akamaihd.net/corp/press/100001500720464.pdf",
+      "type": "official",
+      "title": "株式会社バンダイロジパルへの不正アクセスについてのお知らせ（第2報）",
+      "published_on": "2026-11-16",
+      "checked_on": "2026-11-16"
     }
   ],
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-11-16",
+      "summary": "第2報。漏洩した可能性がある配送情報を一番くじONLINE 387,895件、一番くじ倶楽部キャンペーン25,632件と公表。11月17日から対象者へ順次通知。",
+      "source_index": 1
+    }
+  ],
   "notes": "3社共同公表を1記録とする。10月22日に配送情報格納サーバーへの侵入痕跡と漏えいの疑いを把握し、26日に公表。クレジットカード情報は含まず、不正使用等も未確認。10月のバンダイナムコグループの別システム・別サービスの事案とは区別する。",
   "vendors": [
     {

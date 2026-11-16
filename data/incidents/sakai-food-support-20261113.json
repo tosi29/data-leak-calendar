@@ -1,0 +1,46 @@
+{
+  "id": "sakai-food-support-20261113",
+  "organization": {
+    "name": "堺市（子ども・大学生等への食費支援事業）",
+    "sector": "自治体"
+  },
+  "title": "大阪府と共同実施の食費支援事業で受託事業者の外部メール配信サービスへの不正アクセスにより申請者のメールアドレスが漏えいしたおそれ",
+  "summary": "大阪府と共同実施の食費支援事業で受託事業者の外部メール配信サービスへの不正アクセスにより申請者のメールアドレスが漏えいしたおそれ。",
+  "published_on": "2026-11-13",
+  "first_published_on": "2026-11-13",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-13",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "大阪府と共同実施した事業で、大阪府の受託事業者が使う外部メール配信サービス等への第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "事業申請者のメールアドレス。漏えいの有無・件数は大阪府が調査中。申請システムから漏えいした本人確認書類画像12名分に堺市民は含まれない。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.city.sakai.lg.jp/shisei/koho/hodo/hodoteikyoshiryo/kakohodo/r8/r811/081113_05.files/1113_05.pdf",
+      "type": "official",
+      "title": "「大阪府子ども・大学生等への食費支援事業」における情報漏えいのおそれについて",
+      "published_on": "2026-11-13",
+      "checked_on": "2026-11-16"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

@@ -1,0 +1,50 @@
+{
+  "id": "tvtokyo-direct-openlogi-20261113",
+  "organization": {
+    "name": "テレビ東京ダイレクト・テレビ東京（テレ東オンラインくじ）",
+    "sector": "企業・団体"
+  },
+  "title": "「テレ東オンラインくじ」の運営委託先アカツキが使うオープンロジへの不正アクセスでお届け先2,350件の情報が漏えい",
+  "summary": "「テレ東オンラインくじ」の運営委託先アカツキが使うオープンロジへの不正アクセスでお届け先2,350件の情報が漏えい。",
+  "published_on": "2026-11-13",
+  "first_published_on": "2026-11-13",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-13",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "「テレ東オンラインくじ」の運営委託先アカツキが商品発送を委託するオープンロジへの不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 2350,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "お届け先の氏名・住所・電話番号・商品情報（2026年11月13日時点）。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "電話番号",
+    "メールアドレス",
+    "商品情報"
+  ],
+  "related_vendor": "株式会社オープンロジ",
+  "sources": [
+    {
+      "url": "https://www.tv-tokyo.co.jp/kaisha/pdf/20261113.pdf",
+      "type": "official",
+      "title": "「テレ東オンラインくじ」における個人情報漏えいについて",
+      "published_on": "2026-11-13",
+      "checked_on": "2026-11-16"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

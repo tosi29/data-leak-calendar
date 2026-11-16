@@ -11,9 +11,9 @@
   "publication_kind": "initial",
   "occurred_on": null,
   "detected_on": "2026-11-01",
-  "updated_on": "2026-11-06",
+  "updated_on": "2026-11-13",
   "verification": "official",
-  "leak_status": "investigating",
+  "leak_status": "confirmed",
   "incident_type": "attack",
   "cause": {
     "category": "unauthorized_access",
@@ -22,10 +22,10 @@
   },
   "impact": [
     {
-      "count": 820000,
-      "unit": "accounts",
-      "qualifier": "approximate",
-      "description": "システムの利用者登録数（母数）。漏えい件数ではない。"
+      "count": 117489,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "電子申請・届出システムの利用者のメールアドレス。"
     }
   ],
   "data_types": [
@@ -46,6 +46,13 @@
       "title": "電子申請・届出システムのメール送信サービスへの不正アクセスに伴う注意喚起",
       "published_on": "2026-11-06",
       "checked_on": "2026-11-08"
+    },
+    {
+      "url": "https://www.city.yokohama.lg.jp/city-info/koho-kocho/press/somu/2026/1113denshishinsei.html",
+      "type": "official",
+      "title": "横浜市電子申請・届出システムが使用するメール送信サービスにおける利用者メールアドレスの漏えいについて",
+      "published_on": "2026-11-13",
+      "checked_on": "2026-11-16"
     }
   ],
   "updates": [
@@ -53,7 +60,12 @@
       "date": "2026-11-06",
       "summary": "漏えいの可能性がある情報は利用者のメールアドレスのみと事業者から報告。市の利用者への影響の有無・対象は確認中。",
       "source_index": 1
+    },
+    {
+      "date": "2026-11-13",
+      "summary": "委託事業者から利用者のメールアドレス117,489件の漏えいを確認したと報告。",
+      "source_index": 2
     }
   ],
-  "notes": "11月3日は利用者メールアドレス・利用者名などとしていた。約82万件はアカウント数で漏えい件数として集計しない。"
+  "notes": "11月3日は利用者メールアドレス・利用者名などとしていた。当初掲載した約82万件は利用者登録数（母数）。"
 }

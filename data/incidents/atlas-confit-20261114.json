@@ -1,0 +1,49 @@
+{
+  "id": "atlas-confit-20261114",
+  "organization": {
+    "name": "アトラス（Confit）",
+    "sector": "企業・団体"
+  },
+  "title": "学術大会向けシステム「Confit」への不正アクセスで63学会の発表者情報約10,000件が取得された",
+  "summary": "学術大会向けシステム「Confit」への不正アクセスで63学会の発表者情報約10,000件が取得された。",
+  "published_on": "2026-11-14",
+  "first_published_on": "2026-11-14",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-14",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "学術大会向けシステム「Confit」の発表データ収集公開機能への第三者のサイバー攻撃による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 10000,
+      "unit": "records",
+      "qualifier": "approximate",
+      "description": "63学会の演題名・発表者氏名・所属情報・メールアドレス。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "所属",
+    "メールアドレス",
+    "演題名"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.atlas.jp/news/2026-11-14",
+      "type": "official",
+      "title": "Confit への不正アクセスに関するお知らせとお詫び（第1報）",
+      "published_on": "2026-11-14",
+      "checked_on": "2026-11-16"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

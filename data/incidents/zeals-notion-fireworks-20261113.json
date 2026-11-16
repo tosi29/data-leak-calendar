@@ -1,0 +1,47 @@
+{
+  "id": "zeals-notion-fireworks-20261113",
+  "organization": {
+    "name": "ZEALS",
+    "sector": "企業・団体"
+  },
+  "title": "Notion AIの処理委託先Fireworks AIへの不正アクセスで取引先76件・従業員39件の情報にアクセスされた可能性",
+  "summary": "Notion AIの処理委託先Fireworks AIへの不正アクセスで取引先76件・従業員39件の情報にアクセスされた可能性。",
+  "published_on": "2026-11-13",
+  "first_published_on": "2026-11-13",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-13",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "業務で利用するNotionのAI機能（Notion AI）の処理委託先Fireworks AIの環境への第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 115,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "取引先の情報76件と従業員の情報39件。"
+    }
+  ],
+  "data_types": [
+    "取引先情報",
+    "従業員情報"
+  ],
+  "related_vendor": "Fireworks AI",
+  "sources": [
+    {
+      "url": "https://zeals.ai/news/20261113",
+      "type": "official",
+      "title": "当社が利用するNotionの委託先における不正アクセスに伴う情報漏えいのおそれについて",
+      "published_on": "2026-11-13",
+      "checked_on": "2026-11-16"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

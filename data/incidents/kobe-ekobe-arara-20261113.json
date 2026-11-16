@@ -1,0 +1,46 @@
+{
+  "id": "kobe-ekobe-arara-20261113",
+  "organization": {
+    "name": "神戸市（e-KOBE）",
+    "sector": "自治体"
+  },
+  "title": "電子申請システム「e-KOBE」のメール配信に使う「アララメッセージ」への不正アクセスで利用者のメールアドレス85,707件が漏えい",
+  "summary": "電子申請システム「e-KOBE」のメール配信に使う「アララメッセージ」への不正アクセスで利用者のメールアドレス85,707件が漏えい。",
+  "published_on": "2026-11-13",
+  "first_published_on": "2026-11-13",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-13",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "メール配信に使われるアララ株式会社の「アララメッセージ」への第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 85707,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "2026年7月1日～10月31日配信分の利用者メールアドレス。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "アララ株式会社",
+  "sources": [
+    {
+      "url": "https://www.city.kobe.lg.jp/a32541/893242339895.html",
+      "type": "official",
+      "title": "電子申請システム「e-KOBE」のメール配信サービスにおける情報漏えい",
+      "published_on": "2026-11-13",
+      "checked_on": "2026-11-16"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

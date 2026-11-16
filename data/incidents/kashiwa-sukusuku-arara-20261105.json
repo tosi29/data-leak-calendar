@@ -1,0 +1,52 @@
+{
+  "id": "kashiwa-sukusuku-arara-20261105",
+  "organization": {
+    "name": "柏市（すくすくメールかしわ等）",
+    "sector": "自治体"
+  },
+  "title": "子育て関連のメール配信サービスで使う「アララメッセージ」への不正アクセスで登録者のメールアドレス6,928件が漏えい",
+  "summary": "子育て関連のメール配信サービスで使う「アララメッセージ」への不正アクセスで登録者のメールアドレス6,928件が漏えい。",
+  "published_on": "2026-11-05",
+  "first_published_on": "2026-11-05",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-13",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "メール配信サービスの運営委託先ウイングアークNEXが利用するアララのメール配信エンジン「アララメッセージ」への第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 6928,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "メールアドレス（すくすくメールかしわ4,991件、ひとり親サポートメール1,337件、子育ておしごとメール600件）。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "アララ株式会社",
+  "sources": [
+    {
+      "url": "https://www.city.kashiwa.lg.jp/hoikuunei/haguhagu/fuseiaccess.html",
+      "type": "official",
+      "title": "メール配信サービス(「すくすくメールかしわ」、「ひとり親サポートメール」及び「子育ておしごとメール」)で使用するシステムへの不正アクセス事案の発生及び個人情報漏えいについて",
+      "published_on": "2026-11-13",
+      "checked_on": "2026-11-16"
+    }
+  ],
+  "updates": [
+    {
+      "date": "2026-11-13",
+      "summary": "運営委託事業者から本市の登録情報の外部漏えいが確認されたとの報告。メールアドレス6,928件。",
+      "source_index": 0
+    }
+  ],
+  "notes": "11月5日午前10時に漏えいの可能性を市ホームページで公表したことを、11月13日更新のページで確認。"
+}

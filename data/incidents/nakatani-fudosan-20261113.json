@@ -1,0 +1,46 @@
+{
+  "id": "nakatani-fudosan-20261113",
+  "organization": {
+    "name": "中谷不動産・中谷住宅",
+    "sector": "企業・団体"
+  },
+  "title": "社内ファイルサーバーへの不正アクセスで影響を調査、個人情報保護委員会へ報告",
+  "summary": "社内ファイルサーバーへの不正アクセスで影響を調査、個人情報保護委員会へ報告。",
+  "published_on": "2026-11-13",
+  "first_published_on": "2026-11-13",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-13",
+  "verification": "official",
+  "leak_status": "investigating",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "社内ファイルサーバーへの第三者による不正アクセス。11月9日にシステム障害として公表していた。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "社内ファイルサーバー上の情報。外部への公開は確認されておらず、被害状況を調査中。個人情報保護委員会へ報告済み。"
+    }
+  ],
+  "data_types": [
+    "社内ファイルサーバー上の情報"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://wmp3-cf.njc-web.jp/users/4137/files/829505/6af6e37be84c0.pdf",
+      "type": "official",
+      "title": "弊社社内ファイルサーバーへの不正アクセスについて",
+      "published_on": "2026-11-13",
+      "checked_on": "2026-11-16"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

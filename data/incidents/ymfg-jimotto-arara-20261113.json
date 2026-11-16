@@ -1,0 +1,46 @@
+{
+  "id": "ymfg-jimotto-arara-20261113",
+  "organization": {
+    "name": "山口フィナンシャルグループ・地域商社やまぐち（jimotto）",
+    "sector": "企業・団体"
+  },
+  "title": "ECサイト「jimotto」で使う「MakeRepeater」の配信先アララへの不正アクセスで会員のメールアドレス3,287件が流出",
+  "summary": "ECサイト「jimotto」で使う「MakeRepeater」の配信先アララへの不正アクセスで会員のメールアドレス3,287件が流出。",
+  "published_on": "2026-11-13",
+  "first_published_on": "2026-11-13",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-13",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "メール配信に使われるアララ株式会社の「アララメッセージ」への第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 3287,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "2026年7月1日～10月28日にメールマガジンを配信した会員のメールアドレス。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "アララ株式会社",
+  "sources": [
+    {
+      "url": "https://www.ymfg.co.jp/files/51d89ee4528ae712edae0c14902afdb29ae9c9212eedf9dc82918b45aa1e265c",
+      "type": "official",
+      "title": "業務委託先への不正アクセスによるお客様情報流出に関するお詫びとお知らせ",
+      "published_on": "2026-11-13",
+      "checked_on": "2026-11-16"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

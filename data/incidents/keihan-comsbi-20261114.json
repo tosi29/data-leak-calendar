@@ -1,0 +1,54 @@
+{
+  "id": "keihan-comsbi-20261114",
+  "organization": {
+    "name": "京阪ホールディングス（グループ4社の公式LINEアカウント）",
+    "sector": "企業・団体"
+  },
+  "title": "グループ4社の公式LINEアカウントで使う「COMSBI」への不正アクセスで友だち登録者の情報が流出した可能性",
+  "summary": "グループ4社の公式LINEアカウントで使う「COMSBI」への不正アクセスで友だち登録者の情報が流出した可能性。",
+  "published_on": "2026-11-14",
+  "first_published_on": "2026-11-14",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-14",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "グループ4社の公式LINEアカウントで利用するソニックムーブの「COMSBI」への第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "アカウントごとにLINEの表示名・プロフィール画像・ユーザーIDが最大26,914～90,550名、一部アカウントで氏名・住所・電話番号・生年月日等が最大28,000名など。アカウント間の重複があり合算しない。"
+    }
+  ],
+  "data_types": [
+    "LINE表示名",
+    "プロフィール画像",
+    "LINEユーザーID",
+    "氏名",
+    "住所",
+    "電話番号",
+    "メールアドレス",
+    "生年月日",
+    "性別"
+  ],
+  "related_vendor": "株式会社ソニックムーブ",
+  "sources": [
+    {
+      "url": "https://www.keihan.co.jp/corporate/info/release/assets/261114_keihan-holdings.pdf",
+      "type": "official",
+      "title": "当社グループ会社が利用するLINE公式アカウントの外部サービスへの不正アクセスについて",
+      "published_on": "2026-11-14",
+      "checked_on": "2026-11-16"
+    }
+  ],
+  "updates": [],
+  "notes": "対象は京阪電気鉄道、京阪流通システムズ（京都タワーサンド・枚方モール）、京阪百貨店、京阪ホテルズ＆リゾーツの各アカウント。"
+}

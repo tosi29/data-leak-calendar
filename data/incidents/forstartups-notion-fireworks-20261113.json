@@ -1,0 +1,47 @@
+{
+  "id": "forstartups-notion-fireworks-20261113",
+  "organization": {
+    "name": "フォースタートアップス",
+    "sector": "企業・団体"
+  },
+  "title": "Notion AIの処理委託先Fireworks AIへの不正アクセスでチャット履歴に含まれる個人情報最大約1,900件が流出した可能性",
+  "summary": "Notion AIの処理委託先Fireworks AIへの不正アクセスでチャット履歴に含まれる個人情報最大約1,900件が流出した可能性。",
+  "published_on": "2026-11-13",
+  "first_published_on": "2026-11-13",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-13",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "業務で利用するNotionのAI機能（Notion AI）の処理委託先Fireworks AIの環境への第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 1900,
+      "unit": "records",
+      "qualifier": "maximum_approximate",
+      "description": "2026年10月5日～24日のNotion AIチャット履歴に含まれる自社サービスの利用者等の個人情報。"
+    }
+  ],
+  "data_types": [
+    "Notion AIの会話記録",
+    "氏名"
+  ],
+  "related_vendor": "Fireworks AI",
+  "sources": [
+    {
+      "url": "https://www.forstartups.com/news/20261113",
+      "type": "official",
+      "title": "外部サービス「Notion」のAI機能における情報流出の可能性に関するお知らせ",
+      "published_on": "2026-11-13",
+      "checked_on": "2026-11-16"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

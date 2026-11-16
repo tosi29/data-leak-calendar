@@ -1,0 +1,53 @@
+{
+  "id": "kakogawa-mynumber-arara-20261113",
+  "organization": {
+    "name": "加古川市（マイナンバーカード交付予約・管理システム）",
+    "sector": "自治体"
+  },
+  "title": "マイナンバーカード交付予約システムのメール配信に使う「アララメッセージ」への不正アクセスで利用者のメールアドレスが漏えい",
+  "summary": "マイナンバーカード交付予約システムのメール配信に使う「アララメッセージ」への不正アクセスで利用者のメールアドレスが漏えい。",
+  "published_on": "2026-11-13",
+  "first_published_on": "2026-11-13",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-13",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "システム提供事業者TKCが使うアララのメール配信サービス「アララメッセージ」への不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "システム利用者のメールアドレス。件数は未記載。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "アララ株式会社",
+  "sources": [
+    {
+      "url": "https://www.city.kakogawa.lg.jp/kinkyu/51393.html",
+      "type": "official",
+      "title": "不正アクセスによるメールアドレスの漏えいについて／加古川市",
+      "published_on": "2026-11-13",
+      "checked_on": "2026-11-16"
+    },
+    {
+      "url": "https://www.city.kakogawa.lg.jp/soshikikarasagasu/shiminbu/siminka/koseki_jyumin_inkan/banngoucard/mynumbercardcenter/51390.html",
+      "type": "official",
+      "title": "マイナンバーカード交付予約・管理システムにおいて利用するメール配信サービスへの第三者不正アクセスについて／加古川市",
+      "published_on": "2026-11-13",
+      "checked_on": "2026-11-16"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

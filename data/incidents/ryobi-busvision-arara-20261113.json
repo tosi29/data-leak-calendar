@@ -1,0 +1,46 @@
+{
+  "id": "ryobi-busvision-arara-20261113",
+  "organization": {
+    "name": "両備システムズ（Bus-Vision）",
+    "sector": "企業・団体"
+  },
+  "title": "バスロケーションシステム「Bus-Vision」のメール配信に使う「アララメッセージ」への不正アクセスでメールアドレス639件が漏えい",
+  "summary": "バスロケーションシステム「Bus-Vision」のメール配信に使う「アララメッセージ」への不正アクセスでメールアドレス639件が漏えい。",
+  "published_on": "2026-11-13",
+  "first_published_on": "2026-11-13",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-13",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "メール配信に使われるアララ株式会社の「アララメッセージ」への第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 639,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "Bus-Visionのメール配信に登録された一部のメールアドレス。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "アララ株式会社",
+  "sources": [
+    {
+      "url": "https://www.ryobi.co.jp/news/2026/20261113",
+      "type": "official",
+      "title": "メール配信委託先への不正アクセスによる情報漏えいについて（お知らせとお詫び）",
+      "published_on": "2026-11-13",
+      "checked_on": "2026-11-16"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

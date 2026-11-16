@@ -1,0 +1,46 @@
+{
+  "id": "osomalo-makeshop-arara-20261115",
+  "organization": {
+    "name": "OSOMALO",
+    "sector": "企業・団体"
+  },
+  "title": "makeshopの委託先アララの「アララメッセージ」への不正アクセスでメールマガジン送信先のメールアドレスが流出",
+  "summary": "makeshopの委託先アララの「アララメッセージ」への不正アクセスでメールマガジン送信先のメールアドレスが流出。",
+  "published_on": "2026-11-15",
+  "first_published_on": "2026-11-15",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-15",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "メール配信に使われるアララ株式会社の「アララメッセージ」への第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "2026年7月1日～10月28日にメールマガジンの送信先に指定したメールアドレス。件数は未記載。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "アララ株式会社",
+  "sources": [
+    {
+      "url": "https://osomalo.com/view/news/20261115001852",
+      "type": "official",
+      "title": "【お詫び】メール配信サービス（外部システム）への不正アクセスによるメールアドレス流出について",
+      "published_on": "2026-11-15",
+      "checked_on": "2026-11-16"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

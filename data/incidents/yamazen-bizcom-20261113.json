@@ -1,0 +1,46 @@
+{
+  "id": "yamazen-bizcom-20261113",
+  "organization": {
+    "name": "山善（山善ビズコム）",
+    "sector": "企業・団体"
+  },
+  "title": "「山善ビズコム」のカートシステムの不備を突いた不正アクセスで顧客49名の登録情報が取得された",
+  "summary": "「山善ビズコム」のカートシステムの不備を突いた不正アクセスで顧客49名の登録情報が取得された。",
+  "published_on": "2026-11-13",
+  "first_published_on": "2026-11-13",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-13",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "vulnerability",
+    "certainty": "confirmed",
+    "detail": "法人向け通販サイト「山善ビズコム」が利用するカートシステムの一部機能の不備を突いた不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 49,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "一般会員47名、ゲスト購入者2名の登録情報。"
+    }
+  ],
+  "data_types": [
+    "登録情報"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://yamazenbizcom.jp/topics_detail.html?info_id=7894",
+      "type": "official",
+      "title": "システムへの不正アクセスに関するお詫びとお知らせ",
+      "published_on": "2026-11-13",
+      "checked_on": "2026-11-16"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

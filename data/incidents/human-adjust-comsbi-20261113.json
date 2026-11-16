@@ -1,0 +1,56 @@
+{
+  "id": "human-adjust-comsbi-20261113",
+  "organization": {
+    "name": "ヒューマンアジャスト",
+    "sector": "企業・団体"
+  },
+  "title": "利用する「COMSBI」への不正アクセスで利用者最大58,510人・LINE友だち最大116,518人の情報が漏えいした可能性",
+  "summary": "利用する「COMSBI」への不正アクセスで利用者最大58,510人・LINE友だち最大116,518人の情報が漏えいした可能性。",
+  "published_on": "2026-11-13",
+  "first_published_on": "2026-11-13",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-13",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "credentials",
+    "certainty": "confirmed",
+    "detail": "利用するソニックムーブのクラウドサービス「COMSBI（SaaS版）」で同社の社内用アカウントの認証情報が不正に取得され、不正アクセスを受けた。"
+  },
+  "impact": [
+    {
+      "count": 58510,
+      "unit": "people",
+      "qualifier": "maximum",
+      "description": "利用者の氏名・住所・生年月日等。"
+    },
+    {
+      "count": 116518,
+      "unit": "people",
+      "qualifier": "maximum",
+      "description": "LINE公式アカウントの友だちの表示名・ユーザーID等。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "生年月日",
+    "LINE表示名",
+    "LINEユーザーID"
+  ],
+  "related_vendor": "株式会社ソニックムーブ",
+  "sources": [
+    {
+      "url": "https://www.release.tdnet.info/inbs/140120261113579962.pdf",
+      "type": "official",
+      "title": "外部クラウドサービスへの不正アクセスによる個人情報漏えいの可能性に関するお知らせ",
+      "published_on": "2026-11-13",
+      "checked_on": "2026-11-16"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

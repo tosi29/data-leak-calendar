@@ -1,0 +1,50 @@
+{
+  "id": "osaka-food-support-system-20261113",
+  "organization": {
+    "name": "大阪府（子ども・大学生等への食費支援事業 申請システム）",
+    "sector": "自治体"
+  },
+  "title": "食費支援事業の申請システムへの不正アクセスで本人確認書類画像12名分が漏えい",
+  "summary": "食費支援事業の申請システムへの不正アクセスで本人確認書類画像12名分が漏えい。",
+  "published_on": "2026-11-13",
+  "first_published_on": "2026-11-13",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-13",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "vulnerability",
+    "certainty": "confirmed",
+    "detail": "委託事業者が保守管理する申請システムの脆弱性を悪用した第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 12,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "本人確認書類として提出された画像ファイル（申請者・対象者6組。氏名・住所・生年月日・顔写真など）。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "生年月日",
+    "顔写真",
+    "本人確認書類画像"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.pref.osaka.lg.jp/hodo/fumin/o090010/prs_51051.html",
+      "type": "official",
+      "title": "「大阪府子ども・大学生等への食費支援事業」に対する不正アクセスについて／大阪府（おおさかふ）ホームページ [Osaka Prefectural Government]",
+      "published_on": "2026-11-13",
+      "checked_on": "2026-11-16"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

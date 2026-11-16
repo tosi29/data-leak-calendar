@@ -1,0 +1,53 @@
+{
+  "id": "monex-account-opening-20261113",
+  "organization": {
+    "name": "マネックス証券（口座開設システム）",
+    "sector": "企業・団体"
+  },
+  "title": "外部委託先が管理する口座開設システムへの不正アクセスでメールアドレス最大113万件と本人確認書類画像1,592件が漏えいしたおそれ",
+  "summary": "外部委託先が管理する口座開設システムへの不正アクセスでメールアドレス最大113万件と本人確認書類画像1,592件が漏えいしたおそれ。",
+  "published_on": "2026-11-13",
+  "first_published_on": "2026-11-13",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-13",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "外部委託先が運営・管理する一部の口座開設システムへの第三者による不正アクセス（2026年10月18日に試みを確認）。"
+  },
+  "impact": [
+    {
+      "count": 1130000,
+      "unit": "records",
+      "qualifier": "maximum",
+      "description": "2019年10月16日以降にオンライン口座開設申込で登録されたメールアドレス（重複・未完了を含む）。"
+    },
+    {
+      "count": 1592,
+      "unit": "images",
+      "qualifier": "exact",
+      "description": "本人確認書類の画像データ。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス",
+    "本人確認書類画像"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://prtimes.jp/main/html/rd/p/000000595.000005159.html",
+      "type": "official",
+      "title": "外部委託先が運営・管理する一部の口座開設システムへの不正アクセスによる個人情報漏えいに関するお詫びとお知らせ",
+      "published_on": "2026-11-13",
+      "checked_on": "2026-11-16"
+    }
+  ],
+  "updates": [],
+  "notes": "10月20日に口座開設受付の停止を公表していた（公式ページはアクセス拒否で本文未確認）。口座番号・パスワードは漏えいしていない。"
+}

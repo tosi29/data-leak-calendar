@@ -1,0 +1,49 @@
+{
+  "id": "taito-geibun-teket-20261113",
+  "organization": {
+    "name": "台東区芸術文化財団",
+    "sector": "企業・団体"
+  },
+  "title": "「ようこそ！クラシック」のチケット販売に使った「teket」への不正アクセスで購入者の個人情報が流出",
+  "summary": "「ようこそ！クラシック」のチケット販売に使った「teket」への不正アクセスで購入者の個人情報が流出。",
+  "published_on": "2026-11-13",
+  "first_published_on": "2026-11-13",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-13",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "電子チケット販売・管理サービス「teket」のサーバーへの第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "「ようこそ！クラシック」（2026年1月24日開催）でteketを使って購入した会員の氏名・メールアドレス・生年月日・住所・電話番号等。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "メールアドレス",
+    "住所",
+    "電話番号"
+  ],
+  "related_vendor": "株式会社teket",
+  "sources": [
+    {
+      "url": "https://www.taitogeibun.net/oshirase/news/19951/",
+      "type": "official",
+      "title": "電子チケット販売・管理サービス「teket」運営事業者への不正アクセスによる個人情報の流出について",
+      "published_on": "2026-11-13",
+      "checked_on": "2026-11-16"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

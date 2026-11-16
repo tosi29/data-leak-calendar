@@ -1,0 +1,47 @@
+{
+  "id": "ycc-milke-blastmail-20261023",
+  "organization": {
+    "name": "YCC県民文化ホール指定管理者（ミルケ倶楽部）",
+    "sector": "企業・団体"
+  },
+  "title": "「ミルケ倶楽部」のメール配信に使う「ブラストメール」への不正アクセスで指定管理者の担当者情報が漏えい、会員情報は漏えいなし",
+  "summary": "「ミルケ倶楽部」のメール配信に使う「ブラストメール」への不正アクセスで指定管理者の担当者情報が漏えい、会員情報は漏えいなし。",
+  "published_on": "2026-10-23",
+  "first_published_on": "2026-10-23",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-10-23",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "「ミルケ倶楽部」のメール配信に使っていた株式会社ラクスライトクラウドの「ブラストメール」への不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "共同事業体の契約者情報（担当者氏名・担当者メールアドレス等）。会員の配信先リストは漏えいがないことを確認。"
+    }
+  ],
+  "data_types": [
+    "担当者氏名",
+    "メールアドレス"
+  ],
+  "related_vendor": "株式会社ラクスライトクラウド",
+  "sources": [
+    {
+      "url": "https://www.yamanashi-kbh.jp/news/10807/",
+      "type": "official",
+      "title": "【重要】「ミルケ倶楽部」における外部メール配信サービスへの不正アクセスに伴う弊社情報の漏えいとメール配信の一時停止について",
+      "published_on": "2026-10-23",
+      "checked_on": "2026-11-16"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

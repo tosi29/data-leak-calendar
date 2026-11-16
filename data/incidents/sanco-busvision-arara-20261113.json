@@ -1,0 +1,46 @@
+{
+  "id": "sanco-busvision-arara-20261113",
+  "organization": {
+    "name": "三重交通（Bus-Vision）",
+    "sector": "企業・団体"
+  },
+  "title": "バスロケーションシステム「Bus-Vision」の運営会社が使う「アララメッセージ」への不正アクセスでメールアドレス196件が漏えい",
+  "summary": "バスロケーションシステム「Bus-Vision」の運営会社が使う「アララメッセージ」への不正アクセスでメールアドレス196件が漏えい。",
+  "published_on": "2026-11-13",
+  "first_published_on": "2026-11-13",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-13",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "Bus-Vision（運営 両備システムズ）がメール配信に使うアララの「アララメッセージ」への不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 196,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "メールアドレス。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "アララ株式会社",
+  "sources": [
+    {
+      "url": "https://www.sanco.co.jp/sancowp/images/company_261113.pdf",
+      "type": "official",
+      "title": "バスロケーションシステム「Bus-Vision」メール配信サービスにおけるメールアドレスの漏えいについて",
+      "published_on": "2026-11-13",
+      "checked_on": "2026-11-16"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

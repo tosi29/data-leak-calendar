@@ -1,0 +1,63 @@
+{
+  "id": "axa-myaxa-20261112",
+  "organization": {
+    "name": "アクサ損害保険（MyAXA）",
+    "sector": "企業・団体"
+  },
+  "title": "お客さま専用マイページ「MyAXA」への不正アクセスで顧客情報約59万7千件に漏洩の可能性",
+  "summary": "お客さま専用マイページ「MyAXA」への不正アクセスで顧客情報約59万7千件に漏洩の可能性。",
+  "published_on": "2026-11-12",
+  "first_published_on": "2026-11-12",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-13",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "お客さま専用マイページ「MyAXA」への第三者による不正アクセス（11月9日に確認）。"
+  },
+  "impact": [
+    {
+      "count": 597000,
+      "unit": "records",
+      "qualifier": "approximate",
+      "description": "不正アクセスの対象となった可能性のある件数（氏名・住所・生年月日・メールアドレス・電話番号）。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "生年月日",
+    "メールアドレス",
+    "電話番号"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.axa-direct.co.jp/company/official_info/announce/2026/261112.html",
+      "type": "official",
+      "title": "当社のお客さま専用マイページ「MyAXA」への不正アクセスに関するお知らせ（第1報）",
+      "published_on": "2026-11-12",
+      "checked_on": "2026-11-16"
+    },
+    {
+      "url": "https://www.axa-direct.co.jp/company/official_info/announce/2026/261113.html",
+      "type": "official",
+      "title": "当社のお客さま専用マイページ「MyAXA」およびロードサービス委託先への不正アクセスに伴うお客さまの情報漏洩に関するお詫びとお知らせ（第2報）",
+      "published_on": "2026-11-13",
+      "checked_on": "2026-11-16"
+    }
+  ],
+  "updates": [
+    {
+      "date": "2026-11-13",
+      "summary": "第2報。MyAXAの対象件数約59万7千件と項目を公表。ロードサービス委託先の事案とあわせて報告。",
+      "source_index": 1
+    }
+  ],
+  "notes": ""
+}

@@ -1,0 +1,47 @@
+{
+  "id": "gfs-tatsujin-20261113",
+  "organization": {
+    "name": "GFS Education（GFS監修 投資の達人講座）",
+    "sector": "企業・団体"
+  },
+  "title": "「GFS監修 投資の達人講座」への不正アクセスで一部の顧客の氏名とメールアドレスが読み出された",
+  "summary": "「GFS監修 投資の達人講座」への不正アクセスで一部の顧客の氏名とメールアドレスが読み出された。",
+  "published_on": "2026-11-13",
+  "first_published_on": "2026-11-13",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-13",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "vulnerability",
+    "certainty": "confirmed",
+    "detail": "ウェブサイト「GFS監修 投資の達人講座」のシステムの脆弱性を突く不正アクセス（2026年11月1日～2日）。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "一部の顧客の氏名・メールアドレス。件数は未記載。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "メールアドレス"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://gfse.jp/incident-20261113-1/",
+      "type": "official",
+      "title": "「GFS監修 投資の達人講座」への不正アクセスによる個人情報漏えいに関するお詫びとお知らせ",
+      "published_on": "2026-11-13",
+      "checked_on": "2026-11-16"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

@@ -1,0 +1,71 @@
+{
+  "id": "moka-tkc-arara-20261104",
+  "organization": {
+    "name": "真岡市（真岡市オンライン申請システム）",
+    "sector": "自治体"
+  },
+  "title": "オンライン申請システムの提供事業者TKCが使う「アララメッセージ」への不正アクセスでメールアドレス3,343件が漏えい",
+  "summary": "オンライン申請システムの提供事業者TKCが使う「アララメッセージ」への不正アクセスでメールアドレス3,343件が漏えい。",
+  "published_on": "2026-11-04",
+  "first_published_on": "2026-11-04",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-13",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "オンライン申請システムの提供事業者TKCがメール配信を委託するアララの「アララメッセージ」への第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 3343,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "メールアドレス（TKCの報告）。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "アララ株式会社",
+  "sources": [
+    {
+      "url": "https://www.city.moka.lg.jp/kakuka/digital_senryaku/oshirase/27550.html",
+      "type": "official",
+      "title": "真岡市オンライン申請システムに関連する個人情報の漏えいの可能性について（第1報）／真岡市公式ホームページ",
+      "published_on": "2026-11-04",
+      "checked_on": "2026-11-16"
+    },
+    {
+      "url": "https://www.city.moka.lg.jp/kakuka/digital_senryaku/oshirase/27588.html",
+      "type": "official",
+      "title": "真岡市オンライン申請システムに関連する個人情報の漏えいの可能性について（第4報）／真岡市公式ホームページ",
+      "published_on": "2026-11-12",
+      "checked_on": "2026-11-16"
+    },
+    {
+      "url": "https://www.city.moka.lg.jp/kinkyu/27594.html",
+      "type": "official",
+      "title": "真岡市オンライン申請システムに関連する個人情報の漏えいの可能性について（第5報）／真岡市公式ホームページ",
+      "published_on": "2026-11-13",
+      "checked_on": "2026-11-16"
+    }
+  ],
+  "updates": [
+    {
+      "date": "2026-11-12",
+      "summary": "第4報。第3報の「漏えいなし」を訂正。",
+      "source_index": 1
+    },
+    {
+      "date": "2026-11-13",
+      "summary": "第5報。TKCから市のメールアドレス3,343件の漏えいの報告。",
+      "source_index": 2
+    }
+  ],
+  "notes": ""
+}

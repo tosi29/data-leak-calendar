@@ -1,0 +1,46 @@
+{
+  "id": "select-hotels-temairazu-arara-20261113",
+  "organization": {
+    "name": "セレクトホテルズグループ",
+    "sector": "企業・団体"
+  },
+  "title": "宿泊予約管理システム「TEMAIRAZU」の注意喚起メール配信委託先アララへの不正アクセスで顧客のメールアドレスが流出",
+  "summary": "宿泊予約管理システム「TEMAIRAZU」の注意喚起メール配信委託先アララへの不正アクセスで顧客のメールアドレスが流出。",
+  "published_on": "2026-11-13",
+  "first_published_on": "2026-11-13",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-13",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "「TEMAIRAZU」の提供元手間いらずが注意喚起メールの配信を委託するアララへの不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "10月7日以降に注意喚起メールを送った顧客のメールアドレス。件数は未記載。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "アララ株式会社",
+  "sources": [
+    {
+      "url": "https://shsg.jp/news/371/",
+      "type": "official",
+      "title": "【重要なお知らせ】注意喚起メール配信サービスにおける不正アクセスについて",
+      "published_on": "2026-11-13",
+      "checked_on": "2026-11-16"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

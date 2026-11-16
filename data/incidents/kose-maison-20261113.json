@@ -1,0 +1,48 @@
+{
+  "id": "kose-maison-20261113",
+  "organization": {
+    "name": "コーセー（Maison KOSÉ）",
+    "sector": "企業・団体"
+  },
+  "title": "「Maison KOSÉ」の店頭体験・レッスン予約システムのアクセス制御の不備を突いた不正アクセスで顧客の個人情報28,098件が漏えい",
+  "summary": "「Maison KOSÉ」の店頭体験・レッスン予約システムのアクセス制御の不備を突いた不正アクセスで顧客の個人情報28,098件が漏えい。",
+  "published_on": "2026-11-13",
+  "first_published_on": "2026-11-13",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-13",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "configuration",
+    "certainty": "confirmed",
+    "detail": "Maison KOSÉ銀座・表参道の店頭体験・レッスン予約システムのアクセス制御の不備が悪用された不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 28098,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "同システムで予約した顧客の個人情報（過去の店頭イベントを含む）。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "連絡先",
+    "予約情報"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://koseholdings.co.jp/ja/kose/urgent/10275/",
+      "type": "official",
+      "title": "Maison KOSÉ銀座およびMaison KOSÉ表参道の店頭体験・レッスン予約システムをご利用のお客さまの個人情報漏えいに関するお詫びとお知らせ",
+      "published_on": "2026-11-13",
+      "checked_on": "2026-11-16"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

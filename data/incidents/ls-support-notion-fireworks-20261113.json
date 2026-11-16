@@ -1,0 +1,49 @@
+{
+  "id": "ls-support-notion-fireworks-20261113",
+  "organization": {
+    "name": "エルズサポート",
+    "sector": "企業・団体"
+  },
+  "title": "Notion AIの処理委託先Fireworks AIへの不正アクセスで顧客情報最大約300件が流出した可能性",
+  "summary": "Notion AIの処理委託先Fireworks AIへの不正アクセスで顧客情報最大約300件が流出した可能性。",
+  "published_on": "2026-11-13",
+  "first_published_on": "2026-11-13",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-13",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "業務で利用するNotionのAI機能（Notion AI）の処理委託先Fireworks AIの環境への第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 300,
+      "unit": "records",
+      "qualifier": "maximum_approximate",
+      "description": "従業員がNotion AIに入力した顧客の氏名・住所・電話番号・保証番号などを含む情報。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "電話番号",
+    "保証番号"
+  ],
+  "related_vendor": "Fireworks AI",
+  "sources": [
+    {
+      "url": "https://www.ls-support.co.jp/news/1616-2/",
+      "type": "official",
+      "title": "当社が利用するクラウドサービスの委託先への不正アクセスに伴う、お客様情報漏えいの可能性に関するお知らせ（第一報）",
+      "published_on": "2026-11-13",
+      "checked_on": "2026-11-16"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

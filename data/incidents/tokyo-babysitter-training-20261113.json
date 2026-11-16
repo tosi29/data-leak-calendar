@@ -1,0 +1,47 @@
+{
+  "id": "tokyo-babysitter-training-20261113",
+  "organization": {
+    "name": "東京都（ベビーシッター向けオンライン研修）",
+    "sector": "自治体"
+  },
+  "title": "ベビーシッター向けオンライン研修の受託事業者が申込者185名の一覧ファイルのリンクを受講者に送付",
+  "summary": "ベビーシッター向けオンライン研修の受託事業者が申込者185名の一覧ファイルのリンクを受講者に送付。",
+  "published_on": "2026-11-13",
+  "first_published_on": "2026-11-13",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-13",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "accident",
+  "cause": {
+    "category": "misdelivery",
+    "certainty": "confirmed",
+    "detail": "受託事業者ポピンズプロフェッショナルがレポート提出状況の連絡メールに、申込者一覧ファイルへの閲覧可能なリンクを入れて受講者に送付した。"
+  },
+  "impact": [
+    {
+      "count": 185,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "申込者の氏名・所属事業者名。閲覧可能となった受講者は127名。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "所属事業者名"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.metro.tokyo.lg.jp/information/press/2026/11/2026111323",
+      "type": "official",
+      "title": "個人情報の漏えいについて",
+      "published_on": "2026-11-13",
+      "checked_on": "2026-11-16"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

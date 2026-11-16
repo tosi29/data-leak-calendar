@@ -1,0 +1,50 @@
+{
+  "id": "batten-store-openlogi-20261114",
+  "organization": {
+    "name": "合同会社HANGAER（BATTEN Store）",
+    "sector": "企業・団体"
+  },
+  "title": "発送業務の委託先オープンロジへの不正アクセスでストア取扱分のお届け先の情報が漏えいした可能性",
+  "summary": "発送業務の委託先オープンロジへの不正アクセスでストア取扱分のお届け先の情報が漏えいした可能性。",
+  "published_on": "2026-11-14",
+  "first_published_on": "2026-11-14",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-14",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "商品の発送業務を委託する株式会社オープンロジのシステムへの第三者による不正アクセス（2026年11月8日～9日）。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "出荷データに含まれるお届け先の情報。件数は未記載。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "電話番号",
+    "メールアドレス",
+    "商品情報"
+  ],
+  "related_vendor": "株式会社オープンロジ",
+  "sources": [
+    {
+      "url": "https://store.battengirls.com/blogs/newstopics/202611info",
+      "type": "official",
+      "title": "【お知らせとお詫び】発送業務委託先(オープンロジ)への不正アクセスに伴う個人情報漏えいの可能性について",
+      "published_on": "2026-11-14",
+      "checked_on": "2026-11-16"
+    }
+  ],
+  "updates": [],
+  "notes": "対象は2026年4月8日～11月8日に出荷を依頼したデータ。クレジットカード情報は含まれない。"
+}

@@ -1,0 +1,56 @@
+{
+  "id": "kawasaki-nanbu-market-teket-20261114",
+  "organization": {
+    "name": "川崎市（南部市場）",
+    "sector": "自治体"
+  },
+  "title": "南部市場の指定管理者がイベント募集に使った「teket」への不正アクセスで応募者の氏名・メールアドレス等が流出",
+  "summary": "南部市場の指定管理者がイベント募集に使った「teket」への不正アクセスで応募者の氏名・メールアドレス等が流出。",
+  "published_on": "2026-11-14",
+  "first_published_on": "2026-11-14",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-14",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "電子チケット販売・管理サービス「teket」のサーバーへの第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 193,
+      "unit": "people",
+      "qualifier": "maximum",
+      "description": "指定管理者川崎市場管理が主催した5イベントの申込人数。流出範囲はteketが調査中。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "メールアドレス",
+    "住所",
+    "電話番号"
+  ],
+  "related_vendor": "株式会社teket",
+  "sources": [
+    {
+      "url": "https://www.city.kawasaki.jp/templates/prs/280/0000191739.html",
+      "type": "official",
+      "title": "電子チケット販売・管理サービス「teket（テケト）」への 不正アクセスに伴う南部市場イベント参加者の個人情報の流出について",
+      "published_on": "2026-11-14",
+      "checked_on": "2026-11-16"
+    },
+    {
+      "url": "https://www.city.kawasaki.jp/templates/prs/cmsfiles/contents/0000191/191739/houdou.pdf",
+      "type": "official",
+      "title": "電子チケット販売・管理サービス「teket（テケト）」への不正アクセスに伴う南部市場イベント参加者の個人情報の流出について（報道発表資料）",
+      "published_on": "2026-11-14",
+      "checked_on": "2026-11-16"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

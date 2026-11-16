@@ -1,0 +1,48 @@
+{
+  "id": "gfs-member-site-20261113",
+  "organization": {
+    "name": "GFS Education（GFS会員サイト）",
+    "sector": "企業・団体"
+  },
+  "title": "「GFS会員サイト」への不正アクセスで会員ら約11万人分の氏名や本人確認書類画像などが漏えい・漏えいのおそれ",
+  "summary": "「GFS会員サイト」への不正アクセスで会員ら約11万人分の氏名や本人確認書類画像などが漏えい・漏えいのおそれ。",
+  "published_on": "2026-11-13",
+  "first_published_on": "2026-11-13",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-13",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "vulnerability",
+    "certainty": "confirmed",
+    "detail": "GFS会員サイトの画像アップロード機能の脆弱性を悪用した不正アクセス。データベースの情報や画像ファイルが持ち出された。"
+  },
+  "impact": [
+    {
+      "count": 110000,
+      "unit": "people",
+      "qualifier": "approximate",
+      "description": "会員らの氏名や本人確認書類の画像など（漏えいまたはそのおそれ）。うちマイナンバーカード裏面の画像84人分。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "本人確認書類画像",
+    "マイナンバーカード画像"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://gfse.jp/incident-20261113-2/",
+      "type": "official",
+      "title": "「GFS会員サイト」への不正アクセスによる個人情報漏えいに関するお詫びとお知らせ",
+      "published_on": "2026-11-13",
+      "checked_on": "2026-11-16"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

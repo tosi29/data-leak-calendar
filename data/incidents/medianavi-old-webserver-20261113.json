@@ -1,0 +1,47 @@
+{
+  "id": "medianavi-old-webserver-20261113",
+  "organization": {
+    "name": "メディアナビ",
+    "sector": "企業・団体"
+  },
+  "title": "旧Webサーバーの公開領域に残っていた申込フォーム等の受付内容4,132件が閲覧できる状態",
+  "summary": "旧Webサーバーの公開領域に残っていた申込フォーム等の受付内容4,132件が閲覧できる状態。",
+  "published_on": "2026-11-13",
+  "first_published_on": "2026-11-13",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-13",
+  "verification": "official",
+  "leak_status": "exposed",
+  "incident_type": "accident",
+  "cause": {
+    "category": "configuration",
+    "certainty": "confirmed",
+    "detail": "2026年11月11日まで使っていたWebサーバーの公開領域に2001～2005年の申込フォーム等の受付内容のファイルが残り、URLを直接指定すると閲覧できる状態だった。"
+  },
+  "impact": [
+    {
+      "count": 4132,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "氏名・メールアドレスなど（メールアドレスの重複を除く。確認中）。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "メールアドレス"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.medianavi.co.jp/info/info_20261113.html",
+      "type": "official",
+      "title": "【重要】弊社Webサーバーに保存されていたお客様情報が外部から閲覧できる状態になっていたことに関するお詫びとお知らせ",
+      "published_on": "2026-11-13",
+      "checked_on": "2026-11-16"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

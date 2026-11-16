@@ -1,0 +1,49 @@
+{
+  "id": "atomi-teket-20261114",
+  "organization": {
+    "name": "跡見学園中学校高等学校",
+    "sector": "教育・研究"
+  },
+  "title": "2024年度文化祭の入場予約に使った「teket」への不正アクセスで受験生・保護者の情報が流出した可能性",
+  "summary": "2024年度文化祭の入場予約に使った「teket」への不正アクセスで受験生・保護者の情報が流出した可能性。",
+  "published_on": "2026-11-14",
+  "first_published_on": "2026-11-14",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-14",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "電子チケット販売・管理サービス「teket」のサーバーへの第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "2024年度文化祭の受験生・保護者の入場予約情報。対象に含まれるかを確認中。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "メールアドレス",
+    "住所",
+    "電話番号"
+  ],
+  "related_vendor": "株式会社teket",
+  "sources": [
+    {
+      "url": "https://www.atomi.ac.jp/jh/news/detail/8710/",
+      "type": "official",
+      "title": "【重要】電子チケットサービス「teket」への不正アクセスによる個人情報流出のおそれに関するお詫びとお知らせ",
+      "published_on": "2026-11-14",
+      "checked_on": "2026-11-16"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

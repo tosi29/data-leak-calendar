@@ -1,0 +1,47 @@
+{
+  "id": "ytc-kempo-notion-fireworks-20261113",
+  "organization": {
+    "name": "ヤマトグループ健康保険組合",
+    "sector": "団体・組合"
+  },
+  "title": "業務委託先ホワイトヘルスケアが使うNotion AIの委託先への不正アクセスで問い合わせ者14件の氏名・メールアドレス等が流出した可能性",
+  "summary": "業務委託先ホワイトヘルスケアが使うNotion AIの委託先への不正アクセスで問い合わせ者14件の氏名・メールアドレス等が流出した可能性。",
+  "published_on": "2026-11-13",
+  "first_published_on": "2026-11-13",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-13",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "業務で利用するNotionのAI機能（Notion AI）の処理委託先Fireworks AIの環境への第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 14,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "ホワイトヘルスケアの問い合わせ窓口に連絡した人の氏名・メールアドレス等。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "メールアドレス"
+  ],
+  "related_vendor": "Fireworks AI",
+  "sources": [
+    {
+      "url": "https://www.ytckempo.or.jp/asp/news2/news.asp?articleid=193876",
+      "type": "official",
+      "title": "当組合が利用するクラウドサービスの委託先への不正アクセスに伴う、AI機能での入力情報の流出の可能性に関するお知らせ",
+      "published_on": "2026-11-13",
+      "checked_on": "2026-11-16"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

@@ -1,0 +1,46 @@
+{
+  "id": "harvestwalk-comsbi-20261114",
+  "organization": {
+    "name": "おやまゆうえんハーヴェストウォーク（LINEミニアプリ）",
+    "sector": "企業・団体"
+  },
+  "title": "LINEミニアプリ向け外部システムへの不正アクセスでミニアプリ会員の個人情報などが漏えい",
+  "summary": "LINEミニアプリ向け外部システムへの不正アクセスでミニアプリ会員の個人情報などが漏えい。",
+  "published_on": "2026-11-14",
+  "first_published_on": "2026-11-14",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-14",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "施設のLINEミニアプリ向け外部システム（提供元 ソニックムーブ）への第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "LINEミニアプリ会員の個人情報など。該当者は調査中。"
+    }
+  ],
+  "data_types": [
+    "LINEミニアプリ会員情報"
+  ],
+  "related_vendor": "株式会社ソニックムーブ",
+  "sources": [
+    {
+      "url": "https://harvestwalk.com/others/8777/",
+      "type": "official",
+      "title": "【重要】LINEミニアプリ会員情報流出に関するお詫びとお知らせ",
+      "published_on": "2026-11-14",
+      "checked_on": "2026-11-16"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

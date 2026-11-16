@@ -1,0 +1,59 @@
+{
+  "id": "lakeel-aws-20261111",
+  "organization": {
+    "name": "ラキール",
+    "sector": "企業・団体"
+  },
+  "title": "AWS環境のアクセスキー窃取による不正アクセスで顧客1社の従業員等140名分の個人情報が漏えい",
+  "summary": "AWS環境のアクセスキー窃取による不正アクセスで顧客1社の従業員等140名分の個人情報が漏えい。",
+  "published_on": "2026-11-11",
+  "first_published_on": "2026-11-11",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-13",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "configuration",
+    "certainty": "confirmed",
+    "detail": "ソースコード管理システムのサーバーのアクセス制御の設定不足を突かれ、AWS環境で使うアクセスキーが窃取された。"
+  },
+  "impact": [
+    {
+      "count": 140,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "顧客1社の環境の従業員等の個人情報。"
+    }
+  ],
+  "data_types": [
+    "従業員情報"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.lakeel.com/ja/news-event/news/detail_20261111.html",
+      "type": "official",
+      "title": "当社AWS環境への不正アクセスに関するお知らせとお詫び",
+      "published_on": "2026-11-11",
+      "checked_on": "2026-11-16"
+    },
+    {
+      "url": "https://www.lakeel.com/ja/news-event/news/detail_20261113.html",
+      "type": "official",
+      "title": "【第2報】当社AWS環境への不正アクセスに関するお知らせとお詫び",
+      "published_on": "2026-11-13",
+      "checked_on": "2026-11-16"
+    }
+  ],
+  "updates": [
+    {
+      "date": "2026-11-13",
+      "summary": "第2報。ほかの一部の顧客環境でも不正アクセスの形跡があり調査中。",
+      "source_index": 1
+    }
+  ],
+  "notes": ""
+}

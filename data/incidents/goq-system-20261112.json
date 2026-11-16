@@ -1,0 +1,63 @@
+{
+  "id": "goq-system-20261112",
+  "organization": {
+    "name": "GoQSystem",
+    "sector": "企業・団体"
+  },
+  "title": "通販一元管理システム「GoQSystem」への不正アクセスで注文者・お届け先4,367,390名の情報を含む注文データが持ち出された",
+  "summary": "通販一元管理システム「GoQSystem」への不正アクセスで注文者・お届け先4,367,390名の情報を含む注文データが持ち出された。",
+  "published_on": "2026-11-12",
+  "first_published_on": "2026-11-12",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-13",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "vulnerability",
+    "certainty": "confirmed",
+    "detail": "自社システムに設置していたお問い合わせフォームの脆弱性を悪用した外部の第三者による不正アクセス（2026年11月10日～11日）。"
+  },
+  "impact": [
+    {
+      "count": 4367390,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "注文データに含まれる個人情報の人数（注文4,984,595件、対象店舗1,694社）。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "電話番号",
+    "メールアドレス",
+    "注文情報"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://goq.co.jp/security-incident.html",
+      "type": "official",
+      "title": "【重要】当社システムへの不正アクセスによる個人情報漏えいに関するお詫びとお知らせ",
+      "published_on": "2026-11-12",
+      "checked_on": "2026-11-16"
+    },
+    {
+      "url": "https://goq.co.jp/security-incident-2.html",
+      "type": "official",
+      "title": "【重要】当社システムへの不正アクセスによる個人情報漏えいに関するお詫びとお知らせ（第二報：対象規模および今後の対応について）",
+      "published_on": "2026-11-13",
+      "checked_on": "2026-11-16"
+    }
+  ],
+  "updates": [
+    {
+      "date": "2026-11-13",
+      "summary": "第二報。対象規模（1,694社、注文4,984,595件、4,367,390名）と原因（お問い合わせフォームの脆弱性）を公表。",
+      "source_index": 1
+    }
+  ],
+  "notes": ""
+}

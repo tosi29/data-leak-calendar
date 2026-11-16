@@ -1,0 +1,49 @@
+{
+  "id": "chiba-chipass-20261113",
+  "organization": {
+    "name": "千葉県（子育て応援！チーパス事業）",
+    "sector": "自治体"
+  },
+  "title": "チーパス事業の受託企業のサーバーへの不正アクセスで協賛事業者7件の担当者情報などが漏えいした可能性",
+  "summary": "チーパス事業の受託企業のサーバーへの不正アクセスで協賛事業者7件の担当者情報などが漏えいした可能性。",
+  "published_on": "2026-11-13",
+  "first_published_on": "2026-11-13",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-13",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "協賛店拡大業務を委託しているサンケイリビング新聞社のサーバーへの第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 7,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "特設フォームに登録した事業者の事業所名・担当者氏名・メールアドレス・電話番号など。"
+    }
+  ],
+  "data_types": [
+    "事業所名",
+    "担当者氏名",
+    "メールアドレス",
+    "電話番号"
+  ],
+  "related_vendor": "株式会社サンケイリビング新聞社",
+  "sources": [
+    {
+      "url": "https://www.pref.chiba.lg.jp/kosodate/press/2026/chi-pass-jouhou.html",
+      "type": "official",
+      "title": "県の事業を受託する企業のサーバーに対する不正アクセスによる個人情報等の漏えいの可能性について／千葉県",
+      "published_on": "2026-11-13",
+      "checked_on": "2026-11-16"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

@@ -1,0 +1,49 @@
+{
+  "id": "hanshin-tigers-teket-20261113",
+  "organization": {
+    "name": "阪神タイガース",
+    "sector": "企業・団体"
+  },
+  "title": "野球教室イベントの応募フォームに使った「teket」への不正アクセスで参加申込者最大155件の情報が流出した可能性",
+  "summary": "野球教室イベントの応募フォームに使った「teket」への不正アクセスで参加申込者最大155件の情報が流出した可能性。",
+  "published_on": "2026-11-13",
+  "first_published_on": "2026-11-13",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-13",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "電子チケット販売・管理サービス「teket」のサーバーへの第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 155,
+      "unit": "records",
+      "qualifier": "maximum",
+      "description": "参加申込者の氏名・メールアドレス・住所など。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "メールアドレス",
+    "住所",
+    "電話番号"
+  ],
+  "related_vendor": "株式会社teket",
+  "sources": [
+    {
+      "url": "https://hanshintigers.jp/news/topics/info_11402.html",
+      "type": "official",
+      "title": "お客様情報の外部流出に関するお知らせとお詫びについて ～電子チケットサービス『teket』会員情報の外部流出について～",
+      "published_on": "2026-11-13",
+      "checked_on": "2026-11-16"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

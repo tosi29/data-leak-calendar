@@ -1,0 +1,47 @@
+{
+  "id": "iore-notion-fireworks-20261113",
+  "organization": {
+    "name": "イオレ",
+    "sector": "企業・団体"
+  },
+  "title": "Notion AIの処理委託先Fireworks AIへの不正アクセスで取引先担当者の氏名などが流出した可能性",
+  "summary": "Notion AIの処理委託先Fireworks AIへの不正アクセスで取引先担当者の氏名などが流出した可能性。",
+  "published_on": "2026-11-13",
+  "first_published_on": "2026-11-13",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-13",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "業務で利用するNotionのAI機能（Notion AI）の処理委託先Fireworks AIの環境への第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 40,
+      "unit": "records",
+      "qualifier": "maximum",
+      "description": "取引先担当者の氏名・メールアドレス等を含む情報（精査中）。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "メールアドレス"
+  ],
+  "related_vendor": "Fireworks AI",
+  "sources": [
+    {
+      "url": "https://www.release.tdnet.info/inbs/140120261113580244.pdf",
+      "type": "official",
+      "title": "当社が利用するクラウドサービスの委託先への不正アクセスに伴う情報流出の可能性に関するお知らせ",
+      "published_on": "2026-11-13",
+      "checked_on": "2026-11-16"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

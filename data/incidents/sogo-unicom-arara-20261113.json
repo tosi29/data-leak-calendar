@@ -1,0 +1,46 @@
+{
+  "id": "sogo-unicom-arara-20261113",
+  "organization": {
+    "name": "綜合ユニコム",
+    "sector": "企業・団体"
+  },
+  "title": "メールマガジン配信に使う「MakeRepeater」経由の「アララメッセージ」への不正アクセスでメールアドレス24,259件が漏えい",
+  "summary": "メールマガジン配信に使う「MakeRepeater」経由の「アララメッセージ」への不正アクセスでメールアドレス24,259件が漏えい。",
+  "published_on": "2026-11-13",
+  "first_published_on": "2026-11-13",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-13",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "メール配信に使われるアララ株式会社の「アララメッセージ」への第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 24259,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "2026年7月1日～10月28日にMakeRepeaterから配信した送信先メールアドレス。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "アララ株式会社",
+  "sources": [
+    {
+      "url": "https://www.sogo-unicom.co.jp/news261113/",
+      "type": "official",
+      "title": "【重要】外部メール配信サービスへの不正アクセスに関するお知らせとお詫び",
+      "published_on": "2026-11-13",
+      "checked_on": "2026-11-16"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

@@ -1,0 +1,49 @@
+{
+  "id": "athome-chintai-kanri-20261113",
+  "organization": {
+    "name": "アットホーム（賃貸管理システム）",
+    "sector": "企業・団体"
+  },
+  "title": "「賃貸管理システム」の管理サイトへの不正アクセスで入居者・オーナー等6,901件の個人情報が漏えいした可能性",
+  "summary": "「賃貸管理システム」の管理サイトへの不正アクセスで入居者・オーナー等6,901件の個人情報が漏えいした可能性。",
+  "published_on": "2026-11-13",
+  "first_published_on": "2026-11-13",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-13",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "credentials",
+    "certainty": "suspected",
+    "detail": "不動産会社向け「賃貸管理システム」の管理サイトへの第三者による不正アクセス・不正ログイン（2026年11月9日）。"
+  },
+  "impact": [
+    {
+      "count": 6901,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "加盟不動産会社が登録した入居者・オーナー・取引先などの氏名・生年月日・住所・契約情報など（詳細は調査中）。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "生年月日",
+    "住所",
+    "契約情報"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.athome.co.jp/corporate/news/topics/oshirase-202611/",
+      "type": "official",
+      "title": "「賃貸管理システム」の管理サイトへの不正アクセスによる個人情報漏えいの可能性に関するお詫びとご報告",
+      "published_on": "2026-11-13",
+      "checked_on": "2026-11-16"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

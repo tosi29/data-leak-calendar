@@ -11,9 +11,9 @@
   "publication_kind": "initial",
   "occurred_on": null,
   "detected_on": "2026-10-31",
-  "updated_on": "2026-11-02",
+  "updated_on": "2026-11-14",
   "verification": "official",
-  "leak_status": "investigating",
+  "leak_status": "confirmed",
   "incident_type": "attack",
   "cause": {
     "category": "unauthorized_access",
@@ -22,13 +22,15 @@
   },
   "impact": [
     {
-      "count": 320000,
-      "unit": "accounts",
-      "qualifier": "approximate",
-      "description": "オンライン手続かわさきの利用者数（個人・事業者のアカウント数）。漏えい対象の件数ではない。"
+      "count": 66451,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "e-KAWASAKIから送信した通知メールの宛先メールアドレス（11月13日のTKCの報告）。"
     }
   ],
-  "data_types": [],
+  "data_types": [
+    "メールアドレス"
+  ],
   "related_vendor": "TKC／アララ株式会社",
   "sources": [
     {
@@ -37,8 +39,21 @@
       "title": "オンライン手続かわさきの外部メール送信サービスへの不正アクセスに伴う影響について",
       "published_on": "2026-11-02",
       "checked_on": "2026-11-08"
+    },
+    {
+      "url": "https://www.city.kawasaki.jp/170/page/0000191359.html",
+      "type": "official",
+      "title": "オンライン手続かわさきの利用について（一部手続の再開）",
+      "published_on": "2026-11-14",
+      "checked_on": "2026-11-16"
     }
   ],
-  "updates": [],
-  "notes": "個人情報等の流出は調査中。緊急メンテナンスで新規登録等を停止。約32万件は母数であり漏えい件数として集計しない。"
+  "updates": [
+    {
+      "date": "2026-11-14",
+      "summary": "11月13日にTKCから66,451件のメールアドレスが漏えいした旨の報告。新規利用者登録等を再開。",
+      "source_index": 1
+    }
+  ],
+  "notes": "緊急メンテナンスで新規登録等を一時停止。当初掲載した約32万件は利用者数（母数）。"
 }

@@ -1,0 +1,49 @@
+{
+  "id": "towelmuseum-goq-20261114",
+  "organization": {
+    "name": "一広（タオル美術館公式オンラインショップ）",
+    "sector": "企業・団体"
+  },
+  "title": "受注管理システム「GoQSystem」への不正アクセスで顧客の注文情報が持ち出された",
+  "summary": "受注管理システム「GoQSystem」への不正アクセスで顧客の注文情報が持ち出された。",
+  "published_on": "2026-11-14",
+  "first_published_on": "2026-11-14",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-14",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "vulnerability",
+    "certainty": "confirmed",
+    "detail": "注文処理に使う受注管理システム「GoQSystem」の運営会社サーバーへの不正アクセス（同社のお問い合わせフォームの脆弱性）。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "2025年7月以降の注文者・お届け先の情報。件数は確認中。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "電話番号",
+    "注文情報"
+  ],
+  "related_vendor": "株式会社GoQSystem",
+  "sources": [
+    {
+      "url": "https://towelmuseum-shop.jp/blogs/news/important-notice-20261114",
+      "type": "official",
+      "title": "お客さま情報の漏えいに関するお詫びとお知らせ",
+      "published_on": "2026-11-14",
+      "checked_on": "2026-11-16"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

@@ -1,0 +1,50 @@
+{
+  "id": "lifull-comsbi-20261113",
+  "organization": {
+    "name": "LIFULL（LIFULL HOME'S会員向けLINE公式アカウント）",
+    "sector": "企業・団体"
+  },
+  "title": "会員向けLINE公式アカウントで使う「COMSBI」への不正アクセスで最大2,479名の情報が漏えい",
+  "summary": "会員向けLINE公式アカウントで使う「COMSBI」への不正アクセスで最大2,479名の情報が漏えい。",
+  "published_on": "2026-11-13",
+  "first_published_on": "2026-11-13",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-13",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "credentials",
+    "certainty": "confirmed",
+    "detail": "ソニックムーブのLINE連携サービス「COMSBI（SaaS版）」に同社の社内用アカウントで第三者がアクセスし、複数企業の情報を取得した。"
+  },
+  "impact": [
+    {
+      "count": 2479,
+      "unit": "people",
+      "qualifier": "maximum",
+      "description": "LINE公式アカウントの友だちのLINE情報とキャンペーンのプレゼント送付先情報の一部（11月12日時点）。"
+    }
+  ],
+  "data_types": [
+    "LINE表示名",
+    "LINEユーザーID",
+    "氏名",
+    "住所",
+    "電話番号"
+  ],
+  "related_vendor": "株式会社ソニックムーブ",
+  "sources": [
+    {
+      "url": "https://lifull.com/news/51097/",
+      "type": "official",
+      "title": "LINE公式アカウントで利用する外部サービスへの不正アクセスに関するお詫びとお知らせ",
+      "published_on": "2026-11-13",
+      "checked_on": "2026-11-16"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

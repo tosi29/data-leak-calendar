@@ -1,0 +1,46 @@
+{
+  "id": "chukyo-univ-anpic-arara-20261113",
+  "organization": {
+    "name": "中京大学（安否確認システムANPIC）",
+    "sector": "教育・研究"
+  },
+  "title": "安否確認システム「ANPIC」がメール送信に使う「アララメッセージ」への不正アクセスで学生・教職員のメールアドレス17,498件が漏えい",
+  "summary": "安否確認システム「ANPIC」がメール送信に使う「アララメッセージ」への不正アクセスで学生・教職員のメールアドレス17,498件が漏えい。",
+  "published_on": "2026-11-13",
+  "first_published_on": "2026-11-13",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-13",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "安否確認システム「ANPIC」（運営 アバンセシステム）がメール送信に使うアララの「アララメッセージ」への不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 17498,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "学生・教職員のメールアドレス。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "アララ株式会社",
+  "sources": [
+    {
+      "url": "https://www.chukyo-u.ac.jp/media/images/20261113chukyouniversity.pdf",
+      "type": "official",
+      "title": "安否確認システムで利用する外部サービスへの不正アクセスによるメールアドレスの漏えいについて",
+      "published_on": "2026-11-13",
+      "checked_on": "2026-11-16"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

@@ -1,0 +1,52 @@
+{
+  "id": "xleague-comsbi-20261115",
+  "organization": {
+    "name": "日本社会人アメリカンフットボール協会（Xリーグ公式LINEアカウント）",
+    "sector": "企業・団体"
+  },
+  "title": "LINE公式アカウントで使う「COMSBI」への不正アクセスで友だち登録者最大13,126件の情報が漏えい",
+  "summary": "LINE公式アカウントで使う「COMSBI」への不正アクセスで友だち登録者最大13,126件の情報が漏えい。",
+  "published_on": "2026-11-15",
+  "first_published_on": "2026-11-15",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-15",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "credentials",
+    "certainty": "confirmed",
+    "detail": "LINE公式アカウントの運用に使うソニックムーブの「COMSBI（SaaS版）」で、同社の運用・サポート用アカウントの認証情報が第三者に不正に取得され、その認証情報でアクセスされた。"
+  },
+  "impact": [
+    {
+      "count": 13126,
+      "unit": "records",
+      "qualifier": "maximum",
+      "description": "LINE公式アカウントの友だち情報（表示名・ユーザーID等）。うち一部に生年月日・性別・住所・氏名・メールアドレスを含む（11月14日時点の最大値）。"
+    }
+  ],
+  "data_types": [
+    "LINE表示名",
+    "LINEユーザーID",
+    "生年月日",
+    "性別",
+    "住所",
+    "氏名",
+    "メールアドレス"
+  ],
+  "related_vendor": "株式会社ソニックムーブ",
+  "sources": [
+    {
+      "url": "https://www.xleague.jp/news/unauthorized-access",
+      "type": "official",
+      "title": "外部サービスへの不正アクセスによる個人情報漏えいに関するお詫びとお知らせ",
+      "published_on": "2026-11-15",
+      "checked_on": "2026-11-16"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

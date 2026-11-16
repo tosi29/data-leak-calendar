@@ -1,0 +1,48 @@
+{
+  "id": "nissan-pcs-20261113",
+  "organization": {
+    "name": "日産自動車",
+    "sector": "企業・団体"
+  },
+  "title": "ロードサービス等の委託先プレステージ・コアソリューションへの不正アクセスで利用者74件の情報が漏えい",
+  "summary": "ロードサービス等の委託先プレステージ・コアソリューションへの不正アクセスで利用者74件の情報が漏えい。",
+  "published_on": "2026-11-13",
+  "first_published_on": "2026-11-13",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-13",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "ロードサービス等の業務委託先プレステージ・コアソリューションの業務システム「PremierNet2」への第三者による不正アクセス（10月29日）。"
+  },
+  "impact": [
+    {
+      "count": 74,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "CIMA・FUGA・SKYLINEサポートプログラムの利用者の一部68件とエクストレイル リコール専用窓口の利用者の一部6件（11月6日時点の委託先の報告）。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "電話番号",
+    "車両情報"
+  ],
+  "related_vendor": "株式会社プレステージ・コアソリューション",
+  "sources": [
+    {
+      "url": "https://www3.nissan.co.jp/siteinfo/information_261113.html",
+      "type": "official",
+      "title": "業務委託先システムへの不正アクセスによる個人情報漏えいに関するお詫びとお知らせ",
+      "published_on": "2026-11-13",
+      "checked_on": "2026-11-16"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

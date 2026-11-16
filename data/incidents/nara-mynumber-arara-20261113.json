@@ -1,0 +1,46 @@
+{
+  "id": "nara-mynumber-arara-20261113",
+  "organization": {
+    "name": "奈良市（マイナンバーカード交付予約・管理システム）",
+    "sector": "自治体"
+  },
+  "title": "マイナンバーカード交付予約システムのメール配信に使う「アララメッセージ」への不正アクセスで予約者のメールアドレス1,617件が漏えい",
+  "summary": "マイナンバーカード交付予約システムのメール配信に使う「アララメッセージ」への不正アクセスで予約者のメールアドレス1,617件が漏えい。",
+  "published_on": "2026-11-13",
+  "first_published_on": "2026-11-13",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-13",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "システム提供事業者TKCがメール配信に使うアララの「アララメッセージ」への不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 1617,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "メールアドレス。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "アララ株式会社",
+  "sources": [
+    {
+      "url": "https://www.city.nara.lg.jp/site/mynamber/278953.html",
+      "type": "official",
+      "title": "「マイナンバーカード交付予約・管理システム」に係るメールアドレスの漏えいについて",
+      "published_on": "2026-11-13",
+      "checked_on": "2026-11-16"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

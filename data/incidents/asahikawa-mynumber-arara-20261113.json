@@ -1,0 +1,46 @@
+{
+  "id": "asahikawa-mynumber-arara-20261113",
+  "organization": {
+    "name": "旭川市（マイナンバーカード交付予約・管理システム）",
+    "sector": "自治体"
+  },
+  "title": "マイナンバーカード交付予約システムの受付完了メールに使う「アララメッセージ」への不正アクセスで予約者のメールアドレス792件が漏えい",
+  "summary": "マイナンバーカード交付予約システムの受付完了メールに使う「アララメッセージ」への不正アクセスで予約者のメールアドレス792件が漏えい。",
+  "published_on": "2026-11-13",
+  "first_published_on": "2026-11-13",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-13",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "TKCの「マイナンバーカード交付予約・管理システム」が受付完了メールの送信に使うアララの「アララメッセージ」への不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 792,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "メールアドレス。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "アララ株式会社",
+  "sources": [
+    {
+      "url": "https://www.city.asahikawa.hokkaido.jp/kurashi/101/110/d085076.html",
+      "type": "official",
+      "title": "メール配信サービスに対する不正アクセスによる個人情報の漏えいについて",
+      "published_on": "2026-11-13",
+      "checked_on": "2026-11-16"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

@@ -1,0 +1,56 @@
+{
+  "id": "kintetsu-re-paradis-comsbi-20261113",
+  "organization": {
+    "name": "近鉄不動産（パラディ学園前）",
+    "sector": "企業・団体"
+  },
+  "title": "「パラディ学園前」のLINE公式アカウントで使う「COMSBI」への不正アクセスで友だち情報最大3,716件などが漏えい",
+  "summary": "「パラディ学園前」のLINE公式アカウントで使う「COMSBI」への不正アクセスで友だち情報最大3,716件などが漏えい。",
+  "published_on": "2026-11-13",
+  "first_published_on": "2026-11-13",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-13",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "商業施設「パラディ学園前」のLINE配信業務の委託先が使うソニックムーブの「COMSBI（SaaS版）」への不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 3716,
+      "unit": "records",
+      "qualifier": "maximum",
+      "description": "LINE公式アカウントの友だち情報（表示名・プロフィール画像・ユーザー識別子）。"
+    },
+    {
+      "count": 137,
+      "unit": "records",
+      "qualifier": "maximum",
+      "description": "利用者の住所・性別。"
+    }
+  ],
+  "data_types": [
+    "LINE表示名",
+    "プロフィール画像",
+    "LINEユーザー識別子",
+    "住所",
+    "性別"
+  ],
+  "related_vendor": "株式会社ソニックムーブ",
+  "sources": [
+    {
+      "url": "https://www.kintetsu-re.co.jp/r/pdf/261113.pdf",
+      "type": "official",
+      "title": "「パラディ学園前」LINE公式アカウントにおける情報漏えいについて",
+      "published_on": "2026-11-13",
+      "checked_on": "2026-11-16"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

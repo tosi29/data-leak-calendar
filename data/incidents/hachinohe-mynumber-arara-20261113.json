@@ -1,0 +1,46 @@
+{
+  "id": "hachinohe-mynumber-arara-20261113",
+  "organization": {
+    "name": "八戸市（マイナンバーカード交付予約・管理システム）",
+    "sector": "自治体"
+  },
+  "title": "マイナンバーカード交付予約システムのメール配信に使う「アララメッセージ」への不正アクセスで登録されたメールアドレスに漏えいの可能性",
+  "summary": "マイナンバーカード交付予約システムのメール配信に使う「アララメッセージ」への不正アクセスで登録されたメールアドレスに漏えいの可能性。",
+  "published_on": "2026-11-13",
+  "first_published_on": "2026-11-13",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-13",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "マイナンバーカード交付予約・管理システムがメール配信に使うアララの「アララメッセージ」への不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "登録されたメールアドレス。件数は調査中。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "アララ株式会社",
+  "sources": [
+    {
+      "url": "https://www.city.hachinohe.aomori.jp/kurashi_tetsuzuki/koseki_juminhyo/mynumber/27016.html",
+      "type": "official",
+      "title": "メール配信サービスに対する不正アクセスによる個人情報漏えいの可能性について／八戸市",
+      "published_on": "2026-11-13",
+      "checked_on": "2026-11-16"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

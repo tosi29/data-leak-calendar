@@ -1,0 +1,47 @@
+{
+  "id": "nikken-notion-fireworks-20261113",
+  "organization": {
+    "name": "日建グループ",
+    "sector": "企業・団体"
+  },
+  "title": "Notion AIの処理委託先Fireworks AIへの不正アクセスで従業員の入力文章とAIの回答の一部が漏えい",
+  "summary": "Notion AIの処理委託先Fireworks AIへの不正アクセスで従業員の入力文章とAIの回答の一部が漏えい。",
+  "published_on": "2026-11-13",
+  "first_published_on": "2026-11-13",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-13",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "業務で利用するNotionのAI機能（Notion AI）の処理委託先Fireworks AIの環境への第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "業務情報のほか取引先の担当者名などを含むNotion AIの入力・回答。件数は未記載。"
+    }
+  ],
+  "data_types": [
+    "Notion AIの会話記録",
+    "取引先担当者名"
+  ],
+  "related_vendor": "Fireworks AI",
+  "sources": [
+    {
+      "url": "https://www.nikken.jp/ja/news/news/20261113j.html",
+      "type": "official",
+      "title": "日建グループ各社が利用するクラウドサービス（Notion AI）における情報漏えいに関するお知らせ",
+      "published_on": "2026-11-13",
+      "checked_on": "2026-11-16"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

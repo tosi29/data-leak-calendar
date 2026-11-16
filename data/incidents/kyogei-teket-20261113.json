@@ -1,0 +1,49 @@
+{
+  "id": "kyogei-teket-20261113",
+  "organization": {
+    "name": "教育芸術社",
+    "sector": "企業・団体"
+  },
+  "title": "過去のセミナー等のチケット販売に使った「teket」への不正アクセスで会員情報の一部が流出した可能性",
+  "summary": "過去のセミナー等のチケット販売に使った「teket」への不正アクセスで会員情報の一部が流出した可能性。",
+  "published_on": "2026-11-13",
+  "first_published_on": "2026-11-13",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-13",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "電子チケット販売・管理サービス「teket」のサーバーへの第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "teketで申込・購入した利用者の情報。件数は未記載。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "メールアドレス",
+    "住所",
+    "電話番号"
+  ],
+  "related_vendor": "株式会社teket",
+  "sources": [
+    {
+      "url": "https://www.kyogei.co.jp/261113teket_incident/",
+      "type": "official",
+      "title": "電子チケットサービス「teket（テケト）」への不正アクセスによる情報漏洩の可能性について",
+      "published_on": "2026-11-13",
+      "checked_on": "2026-11-16"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}
