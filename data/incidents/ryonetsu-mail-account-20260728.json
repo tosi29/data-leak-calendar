@@ -1,0 +1,59 @@
+{
+  "id": "ryonetsu-mail-account-20260728",
+  "organization": {
+    "name": "菱熱",
+    "sector": "企業・団体"
+  },
+  "title": "社員1名のメールアカウントの不正使用でメールサーバーに侵入され、受信メールに含まれる顧客の個人情報が漏洩した可能性",
+  "summary": "社員1名のメールアカウントの不正使用でメールサーバーに侵入され、受信メールに含まれる顧客の個人情報が漏洩した可能性。",
+  "published_on": "2026-07-28",
+  "first_published_on": "2026-07-28",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-16",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "credentials",
+    "certainty": "confirmed",
+    "detail": "社員1名がフィッシングメールにパスワードを入力し、海外の第三者にメールアカウントを不正使用されメールサーバーに侵入された。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "当該社員の受信メールに含まれる顧客。対象者は特定済みで件数は未公表。"
+    }
+  ],
+  "data_types": [
+    "受信メールに含まれる個人情報"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.ryonetsu.co.jp/news/detail/5bcf55e7-106c-4349-86e0-d6be0ae8ea22",
+      "type": "official",
+      "title": "弊社メールアカウントの不正使用に関するお詫びとご報告",
+      "published_on": "2026-07-28",
+      "checked_on": "2026-11-18"
+    },
+    {
+      "url": "https://www.ryonetsu.co.jp/news/detail/43953f0b-a26e-4ef6-9a75-ce035a0f8b61",
+      "type": "official",
+      "title": "海外からの当社メールアカウントへの不正アクセスに関する御詫びとご報告(7月28日プレス最終報)",
+      "published_on": "2026-11-16",
+      "checked_on": "2026-11-18"
+    }
+  ],
+  "updates": [
+    {
+      "date": "2026-11-16",
+      "summary": "警察の捜査結果を受け、当該社員の受信メールが漏洩した可能性があるとして、対象顧客を特定し11月16日以降に個別通知すると公表。",
+      "source_index": 1
+    }
+  ],
+  "notes": "7月28日の第一報は不正メール送信の公表で、個人情報への影響は11月16日の続報で具体化。"
+}

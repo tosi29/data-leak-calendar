@@ -1,0 +1,46 @@
+{
+  "id": "eniwa-mail-arara-20261117",
+  "organization": {
+    "name": "恵庭市（恵庭市メール配信サービス）",
+    "sector": "自治体"
+  },
+  "title": "防災情報などのメール配信サービスで使う「アララメッセージ」への不正アクセスで本登録・配信歴のあるメールアドレスが漏えい",
+  "summary": "防災情報などのメール配信サービスで使う「アララメッセージ」への不正アクセスで本登録・配信歴のあるメールアドレスが漏えい。",
+  "published_on": "2026-11-17",
+  "first_published_on": "2026-11-17",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-17",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "メール配信に使われるアララ株式会社の「アララメッセージ」への第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 2111,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "2026年7月1日～10月31日に本登録され配信歴があるメールアドレス。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "株式会社サイネックス／アララ株式会社",
+  "sources": [
+    {
+      "url": "https://www.city.eniwa.hokkaido.jp/soshikikarasagasu/kikakushinkoubu/kohoka/koho_kocho/mailservice/23821.html",
+      "type": "official",
+      "title": "メール配信サービスへの不正アクセスによる情報の漏えいについて",
+      "published_on": "2026-11-17",
+      "checked_on": "2026-11-18"
+    }
+  ],
+  "updates": [],
+  "notes": "公表索引では11月2日に第一報（公式ページは現在404）。取得できた本文は11月17日更新の版のため、更新日を掲載日とした。"
+}

@@ -4,16 +4,16 @@
     "name": "西宮市（にしのみやスマート申請）",
     "sector": "自治体"
   },
-  "title": "「にしのみやスマート申請」が使うメール配信サービスへの不正アクセスで利用者の個人情報に漏えいの可能性",
-  "summary": "「にしのみやスマート申請」が使うメール配信サービスへの不正アクセスで利用者の個人情報に漏えいの可能性。",
+  "title": "「にしのみやスマート申請」が使うメール配信サービスへの不正アクセスで利用者のメールアドレス25,115件が漏えい",
+  "summary": "「にしのみやスマート申請」が使うメール配信サービスへの不正アクセスで利用者のメールアドレス25,115件が漏えい。",
   "published_on": "2026-11-04",
   "first_published_on": "2026-11-04",
   "publication_kind": "initial",
   "occurred_on": null,
   "detected_on": null,
-  "updated_on": "2026-11-04",
+  "updated_on": "2026-11-16",
   "verification": "official",
-  "leak_status": "suspected",
+  "leak_status": "confirmed",
   "incident_type": "attack",
   "cause": {
     "category": "unauthorized_access",
@@ -22,10 +22,10 @@
   },
   "impact": [
     {
-      "count": null,
+      "count": 25115,
       "unit": "records",
-      "qualifier": "unknown",
-      "description": "件数は調査中（利用者登録数154,146件）。"
+      "qualifier": "exact",
+      "description": "2026年7月1日～10月31日に「にしのみやスマート申請」からメールを受信したメールアドレス（利用者登録数154,146件）。"
     }
   ],
   "data_types": [
@@ -39,8 +39,21 @@
       "title": "「にしのみやスマート申請」が使用するメール配信サービスにおける 個人情報の漏えいの可能性について（第1報）",
       "published_on": "2026-11-04",
       "checked_on": "2026-11-13"
+    },
+    {
+      "url": "https://www.nishi.or.jp/shisei/koho/kishahappyoshiryo/2026/202611/R081116_suma-toshin.files/R081116_suma-toshinsei2.pdf",
+      "type": "official",
+      "title": "個人情報の漏えいについて（最終報）",
+      "published_on": "2026-11-16",
+      "checked_on": "2026-11-18"
     }
   ],
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-11-16",
+      "summary": "最終報で利用者のメールアドレス25,115件の漏えいを確認。",
+      "source_index": 1
+    }
+  ],
   "notes": ""
 }

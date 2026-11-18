@@ -11,7 +11,7 @@
   "publication_kind": "initial",
   "occurred_on": null,
   "detected_on": "2026-11-04",
-  "updated_on": "2026-11-05",
+  "updated_on": "2026-11-16",
   "verification": "official",
   "leak_status": "confirmed",
   "incident_type": "attack",
@@ -37,8 +37,21 @@
       "title": "akyrise（あきゅらいず）ECサイト等への不正アクセスに関するお知らせ",
       "published_on": "2026-11-05",
       "checked_on": "2026-11-08"
+    },
+    {
+      "url": "https://www.euglena.jp/news/20261116-1/",
+      "type": "official",
+      "title": "【第二報】第三者による不正アクセスに伴う化粧品ブランド「akyrise（あきゅらいず）」の会員情報漏えいに関するお詫びとお知らせ",
+      "published_on": "2026-11-16",
+      "checked_on": "2026-11-18"
     }
   ],
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-11-16",
+      "summary": "第二報で、第一報の最大90万件を区分ごとに整理し、漏えいした情報を確定したと公表（件数の表は画像）。",
+      "source_index": 1
+    }
+  ],
   "notes": "同じ公表の委託先経由2事案（アララ・佐川急便）とは独立した事象と明記。情報項目は本文の画像で示され、テキストでは確認できない。直接取得はブロックされ取得ツール経由で確認。"
 }

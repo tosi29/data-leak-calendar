@@ -1,0 +1,46 @@
+{
+  "id": "benesse-karte-20261117",
+  "organization": {
+    "name": "ベネッセコーポレーション",
+    "sector": "企業・団体"
+  },
+  "title": "利用分析やお知らせ配信に使う「KARTE」への不正アクセスで進研ゼミなど一部サービスが連携していたデータが流出",
+  "summary": "利用分析やお知らせ配信に使う「KARTE」への不正アクセスで進研ゼミなど一部サービスが連携していたデータが流出。",
+  "published_on": "2026-11-17",
+  "first_published_on": "2026-11-17",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-17",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "利用するプレイドのマーケティングツール「KARTE」への第三者による不正アクセス（プレイドはサーバーの脆弱性の悪用と公表）。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "進研ゼミ入会申込サイト、まいにちのたまひよ等でKARTEに連携していた情報。対象者・項目は精査中。"
+    }
+  ],
+  "data_types": [
+    "KARTEに連携していた利用者情報"
+  ],
+  "related_vendor": "株式会社プレイド",
+  "sources": [
+    {
+      "url": "https://company.benesse.co.jp/notice/005.html",
+      "type": "official",
+      "title": "弊社の利用するWEBサービス「KARTE」への不正アクセスによる情報漏洩のお詫びとお知らせ",
+      "published_on": "2026-11-17",
+      "checked_on": "2026-11-18"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

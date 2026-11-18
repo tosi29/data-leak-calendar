@@ -1,0 +1,53 @@
+{
+  "id": "optage-mineo-karte-20261116",
+  "organization": {
+    "name": "オプテージ（mineo）",
+    "sector": "企業・団体"
+  },
+  "title": "メール配信等を委託するプレイドの「KARTE」への不正アクセスでmineo利用者のメールアドレスなどが漏えいした可能性",
+  "summary": "メール配信等を委託するプレイドの「KARTE」への不正アクセスでmineo利用者のメールアドレスなどが漏えいした可能性。",
+  "published_on": "2026-11-16",
+  "first_published_on": "2026-11-16",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-16",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "利用するプレイドのマーケティングツール「KARTE」への第三者による不正アクセス（プレイドはサーバーの脆弱性の悪用と公表）。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "提供していた顧客情報。件数は調査中。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "株式会社プレイド",
+  "sources": [
+    {
+      "url": "https://optage.co.jp/press/2026/press_14.html",
+      "type": "official",
+      "title": "株式会社プレイドで発生した不正アクセスに伴うお客さま情報漏えいの可能性について",
+      "published_on": "2026-11-16",
+      "checked_on": "2026-11-18"
+    },
+    {
+      "url": "https://support.mineo.jp/news/1908/",
+      "type": "official",
+      "title": "株式会社プレイドで発生した不正アクセスに伴うお客さま情報漏えいの可能性について",
+      "published_on": "2026-11-16",
+      "checked_on": "2026-11-18"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

@@ -1,0 +1,63 @@
+{
+  "id": "daiwa-living-droomnavi-20261116",
+  "organization": {
+    "name": "大和リビング（D-ROOM NAVI）",
+    "sector": "企業・団体"
+  },
+  "title": "仲介会社向けサイト「D-ROOM NAVI」への不正アクセスで取引先・従業員の情報とアカウント情報が漏えい",
+  "summary": "仲介会社向けサイト「D-ROOM NAVI」への不正アクセスで取引先・従業員の情報とアカウント情報が漏えい。",
+  "published_on": "2026-11-16",
+  "first_published_on": "2026-11-16",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-16",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "仲介会社向けサイト「D-ROOM NAVI」への不正アクセス（11月10日に確認）。"
+  },
+  "impact": [
+    {
+      "count": 65472,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "取引先（77,033件）。"
+    },
+    {
+      "count": 16450,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "従業員（19,696件）。"
+    },
+    {
+      "count": 143923,
+      "unit": "accounts",
+      "qualifier": "exact",
+      "description": "D-ROOM NAVIのアカウント情報（ほかに一時保有アカウント情報13,927件）。"
+    }
+  ],
+  "data_types": [
+    "取引先の名称・部署名",
+    "メールアドレス",
+    "電話番号",
+    "初期パスワード",
+    "社員番号",
+    "氏名"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.daiwaliving.co.jp/cms/wp-content/uploads/2026/11/20261116.pdf",
+      "type": "official",
+      "title": "当社システムへの不正アクセスおよび一部情報の漏えいに関するお詫びとお知らせ",
+      "published_on": "2026-11-16",
+      "checked_on": "2026-11-18"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

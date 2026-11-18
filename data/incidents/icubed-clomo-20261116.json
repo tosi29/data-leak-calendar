@@ -1,0 +1,60 @@
+{
+  "id": "icubed-clomo-20261116",
+  "organization": {
+    "name": "アイキューブドシステムズ（CLOMO MDM）",
+    "sector": "企業・団体"
+  },
+  "title": "サービス運用システムへの不正アクセスで顧客がCLOMO MDMに登録していた情報の一部が流出",
+  "summary": "サービス運用システムへの不正アクセスで顧客がCLOMO MDMに登録していた情報の一部が流出。",
+  "published_on": "2026-11-16",
+  "first_published_on": "2026-11-16",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-16",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "CLOMO MDM等を運用するシステムへの第三者による不正アクセス（11月2日に不審なアクセスを確認）。侵入経路は非公表。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "顧客がCLOMO MDMに登録していた情報の一部。項目・件数・顧客数は非公表。"
+    }
+  ],
+  "data_types": [
+    "CLOMO MDMの登録情報"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.release.tdnet.info/inbs/140120261116580960.pdf",
+      "type": "official",
+      "title": "当社システムへの不正アクセス及び情報漏えいに関するお知らせ",
+      "published_on": "2026-11-16",
+      "checked_on": "2026-11-18"
+    },
+    {
+      "url": "https://www.icubedsystems.com/news/post_20261116/",
+      "type": "official",
+      "title": "当社システムへの不正アクセス及び情報漏えいに関するお知らせ",
+      "published_on": "2026-11-16",
+      "checked_on": "2026-11-18"
+    },
+    {
+      "url": "https://www.icubedsystems.com/news/incident-faq/",
+      "type": "official",
+      "title": "当社への不正アクセスに関するよくあるご質問",
+      "published_on": "2026-11-16",
+      "checked_on": "2026-11-18"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

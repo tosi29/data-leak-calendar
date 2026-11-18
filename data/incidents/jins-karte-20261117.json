@@ -1,0 +1,49 @@
+{
+  "id": "jins-karte-20261117",
+  "organization": {
+    "name": "ジンズ（JINS会員）",
+    "sector": "企業・団体"
+  },
+  "title": "メールマガジン配信等を委託する「KARTE」への不正アクセスでJINS会員約1,829万アカウントの会員ID・メールアドレス・姓などが漏えい",
+  "summary": "メールマガジン配信等を委託する「KARTE」への不正アクセスでJINS会員約1,829万アカウントの会員ID・メールアドレス・姓などが漏えい。",
+  "published_on": "2026-11-17",
+  "first_published_on": "2026-11-17",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-17",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "利用するプレイドのマーケティングツール「KARTE」への第三者による不正アクセス（プレイドはサーバーの脆弱性の悪用と公表）。"
+  },
+  "impact": [
+    {
+      "count": 18290000,
+      "unit": "accounts",
+      "qualifier": "approximate",
+      "description": "会員登録されているアカウント数（漏えいの可能性がある件数の上限）。"
+    }
+  ],
+  "data_types": [
+    "会員ID",
+    "メールアドレス",
+    "姓",
+    "生年月日"
+  ],
+  "related_vendor": "株式会社プレイド",
+  "sources": [
+    {
+      "url": "https://www.release.tdnet.info/inbs/140120261117582109.pdf",
+      "type": "official",
+      "title": "当社子会社の委託先に対する不正アクセスによる個人情報漏えいに関するお詫びとお知らせ",
+      "published_on": "2026-11-17",
+      "checked_on": "2026-11-18"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

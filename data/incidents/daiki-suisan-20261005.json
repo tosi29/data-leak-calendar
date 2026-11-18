@@ -8,7 +8,7 @@
   "published_on": "2026-10-05",
   "occurred_on": null,
   "detected_on": "2026-09-15",
-  "updated_on": "2026-10-15",
+  "updated_on": "2026-11-16",
   "first_published_on": "2026-10-05",
   "publication_kind": "initial",
   "verification": "official",
@@ -43,10 +43,23 @@
       "title": "大起水産：個人情報に関する公表資料",
       "published_on": "2026-10-05",
       "checked_on": "2026-10-15"
+    },
+    {
+      "url": "https://www.daiki-suisan.co.jp/files/optionallink/00000171_file.pdf",
+      "type": "official",
+      "title": "不正アクセスによる個人情報漏えいのおそれに関する調査結果および再発防止策について",
+      "published_on": "2026-11-16",
+      "checked_on": "2026-11-18"
     }
   ],
   "notes": "10月6日追記で端末別の任意登録項目を説明。すべての人に全項目があるわけではない。",
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-11-16",
+      "summary": "第三者機関の調査結果を公表。個人情報が外部へ流出した明確な痕跡は確認されなかったが、流出の可能性は否定できないと結論。",
+      "source_index": 1
+    }
+  ],
   "incident_type": "attack",
   "vendor_research": {
     "checked_on": "2026-10-15",
@@ -55,6 +68,10 @@
     "source_checks": [
       {
         "source_index": 0,
+        "status": "reviewed"
+      },
+      {
+        "source_index": 1,
         "status": "reviewed"
       }
     ]

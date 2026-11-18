@@ -1,0 +1,51 @@
+{
+  "id": "nissin-comsbi-20261116",
+  "organization": {
+    "name": "日清食品（LINE公式アカウント「日清食品キャンペーン」）",
+    "sector": "企業・団体"
+  },
+  "title": "委託先が使う「COMSBI」への不正アクセスでLINE友だち情報1,374,157件とキャンペーン当選者543件の個人情報が漏えい",
+  "summary": "委託先が使う「COMSBI」への不正アクセスでLINE友だち情報1,374,157件とキャンペーン当選者543件の個人情報が漏えい。",
+  "published_on": "2026-11-16",
+  "first_published_on": "2026-11-16",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-16",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "LINE公式アカウントの運用に使うソニックムーブの「COMSBI（SaaS版）」への不正アクセス（同社の社内用アカウントの認証情報が不正利用された）。"
+  },
+  "impact": [
+    {
+      "count": 1374157,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "LINE友だち情報（当選者情報543件はこの内数）。"
+    }
+  ],
+  "data_types": [
+    "LINEユーザーID",
+    "LINE表示名",
+    "プロフィール画像URL",
+    "氏名",
+    "住所",
+    "電話番号"
+  ],
+  "related_vendor": "株式会社ソニックムーブ",
+  "sources": [
+    {
+      "url": "https://www.nissin.com/jp/company/news/13997/",
+      "type": "official",
+      "title": "外部サービスへの不正アクセスによる 個人情報漏えいに関するお知らせとお詫び",
+      "published_on": "2026-11-16",
+      "checked_on": "2026-11-18"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

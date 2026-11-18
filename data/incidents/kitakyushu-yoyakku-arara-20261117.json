@@ -1,0 +1,46 @@
+{
+  "id": "kitakyushu-yoyakku-arara-20261117",
+  "organization": {
+    "name": "北九州市（公共施設予約サービス「よやっQ北九州」）",
+    "sector": "自治体"
+  },
+  "title": "公共施設予約サービスが使う「アララメッセージ」への不正アクセスで通知メールを受信した利用者のメールアドレス2,063件が漏えい",
+  "summary": "公共施設予約サービスが使う「アララメッセージ」への不正アクセスで通知メールを受信した利用者のメールアドレス2,063件が漏えい。",
+  "published_on": "2026-11-17",
+  "first_published_on": "2026-11-17",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-17",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "メール配信に使われるアララ株式会社の「アララメッセージ」への第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 2063,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "2026年7月1日～10月28日に通知メールを受信した利用者のメールアドレス。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "アララ株式会社",
+  "sources": [
+    {
+      "url": "https://www.city.kitakyushu.lg.jp/contents/337_00134.html",
+      "type": "official",
+      "title": "不正アクセスにより個人情報が漏えいした事案について（公共施設予約サービス「よやっQ（く）北九州」）",
+      "published_on": "2026-11-17",
+      "checked_on": "2026-11-18"
+    }
+  ],
+  "updates": [],
+  "notes": "公表索引では11月9日の掲載とされるが、取得できた本文は11月17日更新の版で初出日を確認できないため、更新日を掲載日とした。"
+}

@@ -1,0 +1,46 @@
+{
+  "id": "docomo-finance-karte-20261117",
+  "organization": {
+    "name": "ドコモ・ファイナンス",
+    "sector": "企業・団体"
+  },
+  "title": "利用する「KARTE」への不正アクセスで同サービス上で管理していた顧客の個人情報等が漏えいした可能性",
+  "summary": "利用する「KARTE」への不正アクセスで同サービス上で管理していた顧客の個人情報等が漏えいした可能性。",
+  "published_on": "2026-11-17",
+  "first_published_on": "2026-11-17",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-17",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "利用するプレイドのマーケティングツール「KARTE」への第三者による不正アクセス（プレイドはサーバーの脆弱性の悪用と公表）。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "KARTE上で管理していた顧客の個人情報等。項目・件数は未公表。"
+    }
+  ],
+  "data_types": [
+    "顧客の個人情報"
+  ],
+  "related_vendor": "株式会社プレイド",
+  "sources": [
+    {
+      "url": "https://finance.docomo.ne.jp/member/news/release261117.pdf",
+      "type": "official",
+      "title": "個人情報漏えいの可能性に伴う当社対応について",
+      "published_on": "2026-11-17",
+      "checked_on": "2026-11-18"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

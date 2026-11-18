@@ -11,9 +11,9 @@
   "publication_kind": "followup",
   "occurred_on": "2026-09-26",
   "detected_on": null,
-  "updated_on": "2026-11-01",
+  "updated_on": "2026-11-17",
   "verification": "official",
-  "leak_status": "investigating",
+  "leak_status": "suspected",
   "incident_type": "attack",
   "cause": {
     "category": "unauthorized_access",
@@ -53,6 +53,13 @@
       "title": "ランサムウェア攻撃に伴う個人情報漏えいの可能性",
       "published_on": "2026-10-21",
       "checked_on": "2026-10-22"
+    },
+    {
+      "url": "https://www.release.tdnet.info/inbs/140120261116581333.pdf",
+      "type": "official",
+      "title": "2026年度第２四半期 事業進捗説明会資料",
+      "published_on": "2026-11-17",
+      "checked_on": "2026-11-18"
     }
   ],
   "updates": [
@@ -60,6 +67,11 @@
       "date": "2026-10-30",
       "summary": "30日公表：9月26日のランサムウェア被害で決算業務が遅れ、中間決算発表を11月10日から12月上旬予定へ延期。漏えい範囲の新たな確定とは区別。",
       "source_index": 1
+    },
+    {
+      "date": "2026-11-17",
+      "summary": "事業進捗説明資料で個人情報の漏洩の可能性を確認したとし、11月下旬に個人情報保護委員会へ確報を報告予定と公表。",
+      "source_index": 3
     }
   ],
   "notes": "第3報を掲載し初報日は未確定。攻撃者の主張と情報公開の報告であり、内容の真正性や個人情報の流出確認とは区別する。既存候補の障害だけの発表とは異なり、当該続報は個人情報への影響調査を明記。 週次再点検で同じ第3報を扱う報道版の記録 keio-railway-20261021 を統合。"

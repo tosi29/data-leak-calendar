@@ -1,0 +1,50 @@
+{
+  "id": "mtg-goq-20261116",
+  "organization": {
+    "name": "MTG（ECモール店舗）",
+    "sector": "企業・団体"
+  },
+  "title": "ECモール店舗の管理に使う「GoQSystem」への不正アクセスでソーシャルギフトのお届け先15,033名の情報が漏えい",
+  "summary": "ECモール店舗の管理に使う「GoQSystem」への不正アクセスでソーシャルギフトのお届け先15,033名の情報が漏えい。",
+  "published_on": "2026-11-16",
+  "first_published_on": "2026-11-16",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-16",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "vulnerability",
+    "certainty": "confirmed",
+    "detail": "受注管理システム「GoQSystem」の運営会社サーバーへの不正アクセス（同社のお問い合わせフォームの脆弱性の悪用）。"
+  },
+  "impact": [
+    {
+      "count": 15033,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "ソーシャルギフト機能を使ったお届け先。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "電話番号",
+    "メールアドレス",
+    "注文内容"
+  ],
+  "related_vendor": "株式会社GoQSystem",
+  "sources": [
+    {
+      "url": "https://www.mtg.gr.jp/news/detail/2026/11/article_2683.html",
+      "type": "official",
+      "title": "一部ECモール内MTGショップの外部サービス提供元における不正アクセスの発生について",
+      "published_on": "2026-11-16",
+      "checked_on": "2026-11-18"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

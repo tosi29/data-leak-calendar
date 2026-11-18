@@ -1,0 +1,59 @@
+{
+  "id": "kawanaka-shoyu-arara-20261111",
+  "organization": {
+    "name": "川中醤油（通販サイト）",
+    "sector": "企業・団体"
+  },
+  "title": "メールマガジン等の配信委託先アララの「アララメッセージ」への不正アクセスで顧客のメールアドレス13,233件が流出",
+  "summary": "メールマガジン等の配信委託先アララの「アララメッセージ」への不正アクセスで顧客のメールアドレス13,233件が流出。",
+  "published_on": "2026-11-11",
+  "first_published_on": "2026-11-11",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-16",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "メール配信に使われるアララ株式会社の「アララメッセージ」への第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 13233,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "2026年7月1日～10月28日にメール配信の送信先としていたメールアドレス。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "アララ株式会社",
+  "sources": [
+    {
+      "url": "https://www.kawanaka-shouyu.net/view/news/20261111151049",
+      "type": "official",
+      "title": "【重要】11月16日更新メール配信サービスへの不正アクセスによる情報流出の可能性に関するお詫びとお知らせ",
+      "published_on": "2026-11-11",
+      "checked_on": "2026-11-18"
+    },
+    {
+      "url": "https://www.kawanaka-shouyu.net/view/news/20261116090504",
+      "type": "official",
+      "title": "【重要】11月16日 メール配信サービスへの不正アクセスによる情報流出に関するお詫びとお知らせ",
+      "published_on": "2026-11-16",
+      "checked_on": "2026-11-18"
+    }
+  ],
+  "updates": [
+    {
+      "date": "2026-11-16",
+      "summary": "流出件数（13,233件）を公表。",
+      "source_index": 1
+    }
+  ],
+  "notes": ""
+}

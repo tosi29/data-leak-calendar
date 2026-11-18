@@ -1,0 +1,56 @@
+{
+  "id": "yokosuka-mores-comsbi-20261116",
+  "organization": {
+    "name": "横浜岡田屋（横須賀モアーズシティLINE公式アカウント）",
+    "sector": "企業・団体"
+  },
+  "title": "キャンペーンで使った「COMSBI」への不正アクセスでLINE友だち情報13,583件とスタンプラリーのアンケート情報2,841名分が漏えい",
+  "summary": "キャンペーンで使った「COMSBI」への不正アクセスでLINE友だち情報13,583件とスタンプラリーのアンケート情報2,841名分が漏えい。",
+  "published_on": "2026-11-16",
+  "first_published_on": "2026-11-16",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-16",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "LINE公式アカウントの運用に使うソニックムーブの「COMSBI（SaaS版）」への不正アクセス（同社の社内用アカウントの認証情報が不正利用された）。"
+  },
+  "impact": [
+    {
+      "count": 13583,
+      "unit": "records",
+      "qualifier": "maximum",
+      "description": "LINE友だち情報（重複を含む）。"
+    },
+    {
+      "count": 2841,
+      "unit": "people",
+      "qualifier": "maximum",
+      "description": "LINEスタンプラリーキャンペーンのアンケート情報。"
+    }
+  ],
+  "data_types": [
+    "LINE表示名",
+    "プロフィール画像",
+    "LINEユーザーID",
+    "住所（町名まで）",
+    "生年月日"
+  ],
+  "related_vendor": "株式会社ソニックムーブ",
+  "sources": [
+    {
+      "url": "https://yokosuka-mores.jp/eventinfo/detail/?cd=001454",
+      "type": "official",
+      "title": "外部サービス提供元における不正アクセスに関するお詫びとお知らせ",
+      "published_on": "2026-11-16",
+      "checked_on": "2026-11-18"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

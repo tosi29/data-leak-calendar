@@ -1,0 +1,55 @@
+{
+  "id": "layerx-notion-fireworks-20261116",
+  "organization": {
+    "name": "LayerX",
+    "sector": "企業・団体"
+  },
+  "title": "Notion AIの処理委託先Fireworks AIへの不正アクセスで取引先担当者2,070件・採用候補者133件の情報を含む入力内容が流出した可能性",
+  "summary": "Notion AIの処理委託先Fireworks AIへの不正アクセスで取引先担当者2,070件・採用候補者133件の情報を含む入力内容が流出した可能性。",
+  "published_on": "2026-11-16",
+  "first_published_on": "2026-11-16",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-16",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "業務で利用するNotionのAI機能（Notion AI）の処理委託先Fireworks AIの環境への第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 2070,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "取引先担当者の情報。"
+    },
+    {
+      "count": 133,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "採用活動の候補者の情報。"
+    }
+  ],
+  "data_types": [
+    "Notion AIの会話記録",
+    "氏名",
+    "メールアドレス",
+    "電話番号"
+  ],
+  "related_vendor": "Fireworks AI",
+  "sources": [
+    {
+      "url": "https://layerx.co.jp/news/202611161636/",
+      "type": "official",
+      "title": "外部委託先への不正アクセスに伴う、情報の漏えいの可能性に関するお知らせ",
+      "published_on": "2026-11-16",
+      "checked_on": "2026-11-18"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

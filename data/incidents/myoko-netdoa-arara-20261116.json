@@ -1,0 +1,46 @@
+{
+  "id": "myoko-netdoa-arara-20261116",
+  "organization": {
+    "name": "妙高市（四季彩館みょうこう）",
+    "sector": "自治体"
+  },
+  "title": "四季彩館みょうこうで使う寺岡精工「netDoA」が利用する「アララメッセージ」への不正アクセスで生産者のメールアドレス178件が漏えい",
+  "summary": "四季彩館みょうこうで使う寺岡精工「netDoA」が利用する「アララメッセージ」への不正アクセスで生産者のメールアドレス178件が漏えい。",
+  "published_on": "2026-11-16",
+  "first_published_on": "2026-11-16",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-16",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "メール配信に使われるアララ株式会社の「アララメッセージ」への第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 178,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "生産者のメールアドレス（11月15日時点）。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "株式会社寺岡精工／アララ株式会社",
+  "sources": [
+    {
+      "url": "https://www.city.myoko.niigata.jp/docs/87513.html",
+      "type": "official",
+      "title": "不正アクセスによるメールアドレスの漏えいについて",
+      "published_on": "2026-11-16",
+      "checked_on": "2026-11-18"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

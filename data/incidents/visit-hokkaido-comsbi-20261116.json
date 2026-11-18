@@ -1,0 +1,57 @@
+{
+  "id": "visit-hokkaido-comsbi-20261116",
+  "organization": {
+    "name": "北海道観光機構（LINE公式アカウント「HOKKAIDO LOVE！」）",
+    "sector": "企業・団体"
+  },
+  "title": "LINE公式アカウントで使う「COMSBI」への不正アクセスで友だち情報最大63,708件とキャンペーン応募者最大14名の情報が漏えい",
+  "summary": "LINE公式アカウントで使う「COMSBI」への不正アクセスで友だち情報最大63,708件とキャンペーン応募者最大14名の情報が漏えい。",
+  "published_on": "2026-11-16",
+  "first_published_on": "2026-11-16",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-16",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "credentials",
+    "certainty": "confirmed",
+    "detail": "LINE公式アカウントの運用に使うソニックムーブの「COMSBI（SaaS版）」に、第三者が同社の社内用アカウントの認証情報を不正に使ってアクセス。"
+  },
+  "impact": [
+    {
+      "count": 63708,
+      "unit": "records",
+      "qualifier": "maximum",
+      "description": "LINE友だち情報（重複を含む）。"
+    },
+    {
+      "count": 14,
+      "unit": "people",
+      "qualifier": "maximum",
+      "description": "キャンペーン応募者の氏名・電話番号・住所。"
+    }
+  ],
+  "data_types": [
+    "LINE表示名",
+    "プロフィール画像",
+    "LINEユーザーID",
+    "氏名",
+    "電話番号",
+    "住所"
+  ],
+  "related_vendor": "株式会社ソニックムーブ",
+  "sources": [
+    {
+      "url": "https://www.visit-hokkaido.jp/asset/company/comsbi%28261116_1900%29",
+      "type": "official",
+      "title": "【お詫びとお知らせ】当機構LINE公式アカウントに関する個人情報の流出について",
+      "published_on": "2026-11-16",
+      "checked_on": "2026-11-18"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

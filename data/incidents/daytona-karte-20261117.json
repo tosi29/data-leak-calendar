@@ -1,0 +1,57 @@
+{
+  "id": "daytona-karte-20261117",
+  "organization": {
+    "name": "デイトナ・インターナショナル（Daytona Park）",
+    "sector": "企業・団体"
+  },
+  "title": "公式通販サイト・アプリで使う「KARTE」への不正アクセスで会員情報約97万件が漏えい",
+  "summary": "公式通販サイト・アプリで使う「KARTE」への不正アクセスで会員情報約97万件が漏えい。",
+  "published_on": "2026-11-17",
+  "first_published_on": "2026-11-17",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-17",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "利用するプレイドのマーケティングツール「KARTE」への第三者による不正アクセス（プレイドはサーバーの脆弱性の悪用と公表）。"
+  },
+  "impact": [
+    {
+      "count": 970000,
+      "unit": "records",
+      "qualifier": "approximate",
+      "description": "Daytona Parkの会員情報（同じ客の重複を含む場合あり）。"
+    },
+    {
+      "count": 149,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "子会社Innovation Studioの「+PLUS MIRROR」利用者の情報。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "メールアドレス",
+    "性別",
+    "生年月日",
+    "年齢",
+    "会員ID"
+  ],
+  "related_vendor": "株式会社プレイド",
+  "sources": [
+    {
+      "url": "https://daytonajp.com/news/3821/",
+      "type": "official",
+      "title": "業務委託先への不正アクセスによる個人情報漏えいに関するお詫びとお知らせ(第一報)",
+      "published_on": "2026-11-17",
+      "checked_on": "2026-11-18"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

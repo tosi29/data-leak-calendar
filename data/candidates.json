@@ -893,10 +893,12 @@
     "reported_on": "2026-09-30",
     "verification": "pending",
     "reference_url": "https://www.ikegami.co.jp/news/detail/573/",
-    "note": "2026年11月1日再調査：9月30日の公式本文では企業資料の掲載を調査中。自然人の情報への影響範囲はなお未確定。 2026年11月13日再調査：参照先の再取得と公表索引の照合で、公表日・対象を確定する新しい本文は確認できず継続。",
-    "reviewed_on": "2026-11-13",
+    "note": "2026年11月1日再調査：9月30日の公式本文では企業資料の掲載を調査中。自然人の情報への影響範囲はなお未確定。 2026年11月13日再調査：参照先の再取得と公表索引の照合で、公表日・対象を確定する新しい本文は確認できず継続。 2026年11月18日再調査：10月30日・11月13日の決算発表延期の開示を確認したが、個人情報への影響の記載はなく継続。",
+    "reviewed_on": "2026-11-18",
     "checked_urls": [
-      "https://www.ikegami.co.jp/news/detail/573/"
+      "https://www.ikegami.co.jp/news/detail/573/",
+      "https://www.release.tdnet.info/inbs/140120261030561851.pdf",
+      "https://www.release.tdnet.info/inbs/140120261113579913.pdf"
     ]
   },
   {
@@ -933,18 +935,6 @@
     "reviewed_on": "2026-11-13",
     "checked_urls": [
       "https://www.sunmesse.co.jp/news/file/20260908171625.pdf"
-    ]
-  },
-  {
-    "id": "year-recheck-3900d38bfe32",
-    "organization": "株式会社菱熱",
-    "reported_on": "2026-07-28",
-    "verification": "pending",
-    "reference_url": "https://www.ryonetsu.co.jp/news/detail/5bcf55e7-106c-4349-86e0-d6be0ae8ea22",
-    "note": "2026年11月1日再調査：7月28日の公式告知では不正メール送信を確認。個人情報の漏えい有無・対象の具体化は未確認。 2026年11月13日再調査：参照先の再取得と公表索引の照合で、公表日・対象を確定する新しい本文は確認できず継続。",
-    "reviewed_on": "2026-11-13",
-    "checked_urls": [
-      "https://www.ryonetsu.co.jp/news/detail/5bcf55e7-106c-4349-86e0-d6be0ae8ea22"
     ]
   },
   {
@@ -1029,11 +1019,12 @@
     "reported_on": "2026-11-02",
     "verification": "pending",
     "reference_url": "https://www.segafave.co.jp/news/261102_1/",
-    "reviewed_on": "2026-11-13",
+    "reviewed_on": "2026-11-18",
     "checked_urls": [
-      "https://www.segafave.co.jp/news/261102_1/"
+      "https://www.segafave.co.jp/news/261102_1/",
+      "https://www.segafave.co.jp/news/261116_1/"
     ],
-    "note": "2026年11月8日調査：ALL.Net・Aime関係サーバーへの不正アクセスと11月1日15時からのサービス停止を公式に確認。初期調査で顧客・取引先情報の流出は未確認、決済情報は当該サーバーに保有せず。自然人の対象情報・範囲が具体化するまで保留。 2026年11月9日再調査：続報なし。 2026年11月13日再調査：続報なし。グループ会社セガのアララ経由の事案は既存記録で扱う。"
+    "note": "2026年11月8日調査：ALL.Net・Aime関係サーバーへの不正アクセスと11月1日15時からのサービス停止を公式に確認。初期調査で顧客・取引先情報の流出は未確認、決済情報は当該サーバーに保有せず。自然人の対象情報・範囲が具体化するまで保留。 2026年11月9日再調査：続報なし。 2026年11月13日再調査：続報なし。グループ会社セガのアララ経由の事案は既存記録で扱う。 2026年11月18日再調査：11月16日の第二報は一部サービスの復旧の案内で、個人情報への影響の記載はなく継続。"
   },
   {
     "id": "nov04-jaccs-pcs-review",
@@ -1182,18 +1173,6 @@
     "note": "2026年11月12日調査：運営するWebサービスへの不正アクセスの痕跡を確認し、影響範囲と情報漏えいの有無を調査中と公表。対象サービス・個人情報への影響は未記載のため保留。 2026年11月13日再調査：告知本文に変更なし。影響範囲と漏えいの有無は調査中のまま。"
   },
   {
-    "id": "nov13-plaid-karte-review",
-    "organization": "プレイド（KARTE）",
-    "reported_on": "2026-11-13",
-    "verification": "pending",
-    "reference_url": "https://www.release.tdnet.info/inbs/140120261113580181.pdf",
-    "reviewed_on": "2026-11-13",
-    "checked_urls": [
-      "https://www.release.tdnet.info/inbs/140120261113580181.pdf"
-    ],
-    "note": "2026年11月13日調査：「KARTE」への第三者からの不正アクセスを検知し全プロジェクトのサービスを停止と公表。個人情報への影響は記載がないため保留。"
-  },
-  {
     "id": "nov13-qoo10-review",
     "organization": "eBay Japan（Qoo10）",
     "reported_on": "2026-11-12",
@@ -1228,18 +1207,6 @@
       "https://aikikai.or.jp/single/?news_id=592"
     ],
     "note": "2026年11月13日調査：11月分の公表索引の再照合で見つかった未収録行。公式本文は確認できたが、ページに公表日の記載がなく、第三者の索引の日付だけでは掲載日を決められない。索引の規模：非公表"
-  },
-  {
-    "id": "nov13-sweep-t012",
-    "organization": "恵庭市（アララ メッセージ不正アクセス）",
-    "reported_on": "2026-11-02",
-    "verification": "pending",
-    "reference_url": "https://www.city.eniwa.hokkaido.jp/soshikikarasagasu/kikakushinkoubu/kohoka/koho_kocho/homepage/23814.html",
-    "reviewed_on": "2026-11-13",
-    "checked_urls": [
-      "https://www.city.eniwa.hokkaido.jp/soshikikarasagasu/kikakushinkoubu/kohoka/koho_kocho/homepage/23814.html"
-    ],
-    "note": "2026年11月13日調査：11月分の公表索引の再照合で見つかった未収録行。公式ページを取得できず（HTTP 404）本文未確認。索引の規模：調査中"
   },
   {
     "id": "nov13-sweep-t034",
@@ -1422,18 +1389,6 @@
     "note": "2026年11月13日調査：11月分の公表索引の再照合で見つかった未収録行。公式ページを取得できず（HTTP 404）本文未確認。索引の規模：調査中"
   },
   {
-    "id": "nov13-sweep-t157",
-    "organization": "堺市（TKC再委託先 アララ メッセージへの不正アクセス）",
-    "reported_on": "2026-11-04",
-    "verification": "pending",
-    "reference_url": "https://www.city.sakai.lg.jp/shisei/gyosei/it/20261104_denshishinsei.html",
-    "reviewed_on": "2026-11-13",
-    "checked_urls": [
-      "https://www.city.sakai.lg.jp/shisei/gyosei/it/20261104_denshishinsei.html"
-    ],
-    "note": "2026年11月13日調査：11月分の公表索引の再照合で見つかった未収録行。公式ページを取得できず（HTTP 404）本文未確認。索引の規模：メールアドレス 最大約29万件"
-  },
-  {
     "id": "nov13-sweep-t159",
     "organization": "岡崎市（TKC再委託先 アララ メッセージへの不正アクセス）",
     "reported_on": "2026-11-04",
@@ -1523,12 +1478,13 @@
     "reported_on": "2026-11-13",
     "verification": "pending",
     "reference_url": "https://www.keisei.co.jp/cms/files/keisei/MASTER/0110/qWTY2f7x.pdf",
-    "reviewed_on": "2026-11-16",
+    "reviewed_on": "2026-11-18",
     "checked_urls": [
       "https://www.keisei.co.jp/cms/files/keisei/MASTER/0110/qWTY2f7x.pdf",
-      "https://www.keisei.co.jp/cms/files/keisei/MASTER/0110/OVIfkjTf.pdf"
+      "https://www.keisei.co.jp/cms/files/keisei/MASTER/0110/OVIfkjTf.pdf",
+      "https://www.keisei.co.jp/cms/files/keisei/MASTER/0110/TpXAnIV6.pdf"
     ],
-    "note": "2026年11月16日調査：公表索引では11月11日深夜の不正アクセスでチケットレスサービス顧客の最大約337万件が取得された可能性とされるが、索引に載った公式PDF2件がいずれも404で、ニュース一覧からも本文を確認できないため保留。"
+    "note": "2026年11月16日調査：公表索引では11月11日深夜の不正アクセスでチケットレスサービス顧客の最大約337万件が取得された可能性とされるが、索引に載った公式PDF2件がいずれも404で、ニュース一覧からも本文を確認できないため保留。 2026年11月18日再調査：公表索引に載った別の公式PDF（TpXAnIV6.pdf）も本文を取得できず継続。"
   },
   {
     "id": "nov16-chiikawa-kuji-openlogi-review",
@@ -1614,5 +1570,66 @@
       "https://eicoh.com/news/detail/127"
     ],
     "note": "2026年11月16日調査：11月9日のランサムウェア被害を公表。情報の外部流出の有無は調査中で、個人情報への影響は未記載のため保留。"
+  },
+  {
+    "id": "nov18-radiko-karte-review",
+    "organization": "radiko（KARTE）",
+    "reported_on": "2026-11-17",
+    "verification": "pending",
+    "reference_url": "https://radiko.jp/#!/info/2818",
+    "reviewed_on": "2026-11-18",
+    "checked_urls": [
+      "https://radiko.jp/#!/info/2818"
+    ],
+    "note": "2026年11月18日調査：公表索引ではKARTEへの不正アクセスで利用者を識別する番号が読み出されたとされるが、お知らせページはスクリプト描画で本文を取得できず保留。"
+  },
+  {
+    "id": "nov18-misumi-karte-review",
+    "organization": "ミスミグループ本社（KARTE）",
+    "reported_on": "2026-11-17",
+    "verification": "pending",
+    "reference_url": "https://www.misumi.co.jp/news/news_261117",
+    "reviewed_on": "2026-11-18",
+    "checked_urls": [
+      "https://www.misumi.co.jp/news/news_261117"
+    ],
+    "note": "2026年11月18日調査：公表索引ではKARTEへの不正アクセスで顧客の氏名・所属約14万件が漏えいとされるが、公式ページがアクセス拒否で本文を取得できず保留。"
+  },
+  {
+    "id": "nov18-mbl-cloud-review",
+    "organization": "医学生物学研究所（委託先のクラウドサービス）",
+    "reported_on": "2026-11-16",
+    "verification": "pending",
+    "reference_url": "https://www.mbl.co.jp/company/info_list/20261116.html",
+    "reviewed_on": "2026-11-18",
+    "checked_urls": [
+      "https://www.mbl.co.jp/company/info_list/20261116.html"
+    ],
+    "note": "2026年11月18日調査：公表索引では委託先が運営するクラウドサービスの不正利用で氏名・勤務先・メールアドレスが取得された可能性とされるが、公式ページの本文を取得できず保留。"
+  },
+  {
+    "id": "nov18-duskin-misdo-review",
+    "organization": "ダスキン（ミスドネットオーダー）",
+    "reported_on": "2026-11-17",
+    "verification": "pending",
+    "reference_url": "https://www.misterdonut.jp/topics/pdf/rs_261117.pdf",
+    "reviewed_on": "2026-11-18",
+    "checked_urls": [
+      "https://www.misterdonut.jp/topics/pdf/rs_261116.pdf",
+      "https://www.misterdonut.jp/topics/pdf/rs_261117.pdf"
+    ],
+    "note": "2026年11月18日調査：「ミスドネットオーダー」への11月15日の不正アクセスとサービス停止を公表。個人情報への影響は記載がなく保留。"
+  },
+  {
+    "id": "nov18-osaki-ransomware-review",
+    "organization": "大崎電気工業（ランサムウェア）",
+    "reported_on": "2026-11-18",
+    "verification": "pending",
+    "reference_url": "https://www.release.tdnet.info/inbs/140120261118582902.pdf",
+    "reviewed_on": "2026-11-18",
+    "checked_urls": [
+      "https://www.release.tdnet.info/inbs/140120261118582902.pdf"
+    ],
+    "note": "2026年11月18日調査：ランサムウェアによる生産停止を公表。データ流出の可能性は調査中で、個人情報への影響は記載がなく保留。"
   }
 ]

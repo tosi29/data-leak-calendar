@@ -1,0 +1,46 @@
+{
+  "id": "sapporo-station-lottery-20261117",
+  "organization": {
+    "name": "札幌駅総合開発（アピア・札幌ステラプレイスのクリスマス抽選会）",
+    "sector": "企業・団体"
+  },
+  "title": "抽選システムのサービス提供事業者への不正アクセスでテスト中の社員のメールアドレスが閲覧された可能性、抽選会を中止",
+  "summary": "抽選システムのサービス提供事業者への不正アクセスでテスト中の社員のメールアドレスが閲覧された可能性、抽選会を中止。",
+  "published_on": "2026-11-17",
+  "first_published_on": "2026-11-17",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-17",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "抽選システムのサービス提供事業者での不正アクセス（事業者名は資料に記載なし）。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "テスト環境で試験を行っていた社員のメールアドレス。件数は未公表。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.jr-tower.com/assets/pdf/pressrelease_20261117_01.pdf",
+      "type": "official",
+      "title": "クリスマス抽選会「WISHXMAS2026」の中止について",
+      "published_on": "2026-11-17",
+      "checked_on": "2026-11-18"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

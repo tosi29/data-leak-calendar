@@ -1,0 +1,46 @@
+{
+  "id": "world-karte-20261117",
+  "organization": {
+    "name": "ワールド（ワールドオンラインストア・ティンパンアレイ）",
+    "sector": "企業・団体"
+  },
+  "title": "利用する「KARTE」への不正アクセスで「ワールドオンラインストア」と子会社の会員に関する情報の一部が漏えい",
+  "summary": "利用する「KARTE」への不正アクセスで「ワールドオンラインストア」と子会社の会員に関する情報の一部が漏えい。",
+  "published_on": "2026-11-17",
+  "first_published_on": "2026-11-17",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-17",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "利用するプレイドのマーケティングツール「KARTE」への第三者による不正アクセス（プレイドはサーバーの脆弱性の悪用と公表）。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "KARTEに保管していた会員に関する情報。項目・件数・範囲は確認中。"
+    }
+  ],
+  "data_types": [
+    "会員情報"
+  ],
+  "related_vendor": "株式会社プレイド",
+  "sources": [
+    {
+      "url": "https://corp.world.co.jp/news/company/2026/15602/",
+      "type": "official",
+      "title": "当社グループが利用する「KARTE」への不正アクセスに伴う情報漏えいに関するお知らせ",
+      "published_on": "2026-11-17",
+      "checked_on": "2026-11-18"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

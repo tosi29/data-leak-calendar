@@ -1,0 +1,46 @@
+{
+  "id": "saitama-nenrinpic-mail-20261116",
+  "organization": {
+    "name": "埼玉県（ねんりんピック大会ボランティア運営等業務の委託事業者）",
+    "sector": "自治体"
+  },
+  "title": "委託事業者がボランティア563人へのメールを他の宛先が見える状態で送信",
+  "summary": "委託事業者がボランティア563人へのメールを他の宛先が見える状態で送信。",
+  "published_on": "2026-11-16",
+  "first_published_on": "2026-11-16",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-16",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "accident",
+  "cause": {
+    "category": "misdelivery",
+    "certainty": "confirmed",
+    "detail": "委託事業者が20人ずつ29回に分けたメールを、グループ内全員のメールアドレスが表示される状態で送信した。"
+  },
+  "impact": [
+    {
+      "count": 563,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "大会ボランティア。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.pref.saitama.lg.jp/b0617/news/page/news20261116.html",
+      "type": "official",
+      "title": "電子メール送付時における個人情報の流出について",
+      "published_on": "2026-11-16",
+      "checked_on": "2026-11-18"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

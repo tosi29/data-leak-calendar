@@ -1,0 +1,46 @@
+{
+  "id": "hldc-notion-fireworks-20261116",
+  "organization": {
+    "name": "ハートランド・データ",
+    "sector": "企業・団体"
+  },
+  "title": "Notion AIの処理委託先Fireworks AIへの不正アクセスで顧客の社名・担当者名を含む可能性のあるプロンプト等の一部が流出した可能性",
+  "summary": "Notion AIの処理委託先Fireworks AIへの不正アクセスで顧客の社名・担当者名を含む可能性のあるプロンプト等の一部が流出した可能性。",
+  "published_on": "2026-11-16",
+  "first_published_on": "2026-11-16",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-16",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "業務で利用するNotionのAI機能（Notion AI）の処理委託先Fireworks AIの環境への第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "Notion AIのやり取りの記録。顧客の社名・担当者名を含む可能性。件数は確認中。"
+    }
+  ],
+  "data_types": [
+    "Notion AIの会話記録"
+  ],
+  "related_vendor": "Fireworks AI",
+  "sources": [
+    {
+      "url": "https://hldc.co.jp/news/security-notice-ai-leak/",
+      "type": "official",
+      "title": "当社が利用するクラウドサービスの委託先への不正アクセスに伴う、 AI機能に入力された情報流出の可能性について",
+      "published_on": "2026-11-16",
+      "checked_on": "2026-11-18"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

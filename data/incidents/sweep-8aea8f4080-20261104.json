@@ -11,7 +11,7 @@
   "publication_kind": "initial",
   "occurred_on": null,
   "detected_on": null,
-  "updated_on": "2026-11-04",
+  "updated_on": "2026-11-17",
   "verification": "official",
   "leak_status": "confirmed",
   "incident_type": "attack",
@@ -22,10 +22,10 @@
   },
   "impact": [
     {
-      "count": null,
+      "count": 4703,
       "unit": "records",
-      "qualifier": "unknown",
-      "description": "件数は調査中（登録者数5,364人）。"
+      "qualifier": "exact",
+      "description": "2026年7月1日～10月31日に本サービスからメールを受信したメールアドレス（登録者数5,364人）。"
     }
   ],
   "data_types": [
@@ -39,8 +39,21 @@
       "title": "柏崎市が利用するメール配信サービスにおいて情報漏えいが確認されました",
       "published_on": "2026-11-04",
       "checked_on": "2026-11-13"
+    },
+    {
+      "url": "https://www.city.kashiwazaki.lg.jp/shiseijoho/koho/hodohappyo/2026release/202611/50751.html",
+      "type": "official",
+      "title": "柏崎市メール配信サービスにおける情報漏えいについてお知らせします（第二報）（令和8(2026)年11月17日報道発表）",
+      "published_on": "2026-11-17",
+      "checked_on": "2026-11-18"
     }
   ],
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-11-17",
+      "summary": "第二報で利用者のメールアドレス4,703件の漏えいを公表。",
+      "source_index": 1
+    }
+  ],
   "notes": ""
 }

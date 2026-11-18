@@ -1,0 +1,51 @@
+{
+  "id": "heiwado-comsbi-20261117",
+  "organization": {
+    "name": "平和堂（CoCoRo Plus等のLINE公式アカウント）",
+    "sector": "企業・団体"
+  },
+  "title": "LINE公式アカウントの運用に使う「COMSBI」への不正アクセスで友だち登録者最大328,976名の表示名・性別・生年月などが流出",
+  "summary": "LINE公式アカウントの運用に使う「COMSBI」への不正アクセスで友だち登録者最大328,976名の表示名・性別・生年月などが流出。",
+  "published_on": "2026-11-17",
+  "first_published_on": "2026-11-17",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-17",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "LINE公式アカウントの運用に使うソニックムーブの「COMSBI（SaaS版）」への不正アクセス（同社の社内用アカウントの認証情報が不正利用された）。"
+  },
+  "impact": [
+    {
+      "count": 328976,
+      "unit": "people",
+      "qualifier": "maximum",
+      "description": "2026年11月10日までに友だち登録をした客。"
+    }
+  ],
+  "data_types": [
+    "LINE表示名",
+    "プロフィール画像",
+    "LINEユーザーID",
+    "性別",
+    "生年月",
+    "郵便番号・都道府県・市区町村"
+  ],
+  "related_vendor": "株式会社ソニックムーブ",
+  "sources": [
+    {
+      "url": "https://www.heiwado.jp/news/2026/1117_shop.html",
+      "type": "official",
+      "title": "弊社LINE公式アカウントの運用に利用する外部サービスへの不正アクセスに関するお詫びとお知らせ",
+      "published_on": "2026-11-17",
+      "checked_on": "2026-11-18"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

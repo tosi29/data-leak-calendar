@@ -1,0 +1,54 @@
+{
+  "id": "infomart-karte-20261117",
+  "organization": {
+    "name": "インフォマート",
+    "sector": "企業・団体"
+  },
+  "title": "サービス向上等に使う「KARTE」への不正アクセスで連携していた顧客の情報最大2,735,267件と従業員のメールアドレス31件が流出",
+  "summary": "サービス向上等に使う「KARTE」への不正アクセスで連携していた顧客の情報最大2,735,267件と従業員のメールアドレス31件が流出。",
+  "published_on": "2026-11-17",
+  "first_published_on": "2026-11-17",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-17",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "利用するプレイドのマーケティングツール「KARTE」への第三者による不正アクセス（プレイドはサーバーの脆弱性の悪用と公表）。"
+  },
+  "impact": [
+    {
+      "count": 2735267,
+      "unit": "records",
+      "qualifier": "maximum",
+      "description": "KARTEへ連携していた顧客の情報（社内システム上のユーザー識別子、企業所在地・勤務地の都道府県など）の総数。"
+    },
+    {
+      "count": 31,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "従業員のメールアドレス。"
+    }
+  ],
+  "data_types": [
+    "ユーザー識別子（内部ID）",
+    "都道府県",
+    "メールアドレス"
+  ],
+  "related_vendor": "株式会社プレイド",
+  "sources": [
+    {
+      "url": "https://corp.infomart.co.jp/news/20261117_6219/",
+      "type": "official",
+      "title": "当社が利用するクラウドサービス「KARTE」への不正アクセスに伴う情報流出に関するお知らせとお詫び（第一報）",
+      "published_on": "2026-11-17",
+      "checked_on": "2026-11-18"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

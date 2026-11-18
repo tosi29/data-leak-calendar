@@ -10,7 +10,7 @@
   "publication_kind": "unknown",
   "occurred_on": "2026-10-02",
   "detected_on": "2026-10-05",
-  "updated_on": "2026-10-28",
+  "updated_on": "2026-11-18",
   "verification": "official",
   "incident_type": "attack",
   "leak_status": "confirmed",
@@ -45,6 +45,30 @@
       "unit": "records",
       "qualifier": "approximate",
       "description": "旅行保険情報に流出のおそれ。約119,000名分。既報と合算しない。"
+    },
+    {
+      "count": 1166,
+      "unit": "people",
+      "qualifier": "approximate",
+      "description": "第4報で判明した予約情報の流出（予約1,045件。うち15名はパスポート情報）。既報と合算しない。"
+    },
+    {
+      "count": 1166,
+      "unit": "people",
+      "qualifier": "approximate",
+      "description": "第4報で判明した予約情報の流出（予約1,045件。うち15名はパスポート情報）。既報と合算しない。"
+    },
+    {
+      "count": 1166,
+      "unit": "people",
+      "qualifier": "approximate",
+      "description": "第4報で判明した予約情報の流出（予約1,045件。うち15名はパスポート情報）。既報と合算しない。"
+    },
+    {
+      "count": 1166,
+      "unit": "people",
+      "qualifier": "approximate",
+      "description": "第4報で判明した予約情報の流出（予約1,045件。うち15名はパスポート情報）。既報と合算しない。"
     }
   ],
   "data_types": [
@@ -91,6 +115,13 @@
       "title": "第3報：旧バックアップから返金先口座情報32,341件の流出を確認。マスキング済みカード・旅行保険情報にも流出のおそれ。",
       "published_on": "2026-10-28",
       "checked_on": "2026-10-28"
+    },
+    {
+      "url": "https://www.release.tdnet.info/inbs/140120261118582686.pdf",
+      "type": "official",
+      "title": "不正アクセスによるお客様情報の流出に関するお詫びとお知らせ（第4報）",
+      "published_on": "2026-11-18",
+      "checked_on": "2026-11-18"
     }
   ],
   "notes": "10月8日に漏えい通知メールの案内があるが、各事象の初報との対応を確定できないため詳細公表日の10月9日を掲載。3事象の規模を合算しない。パスポート画像は対象外。カード情報対象外の説明は第2報で訂正。発生期間は10月2〜4日。パスポート番号の流出は否定。 第3報の口座情報は2022年3月～2024年5月の登録分。カード約93.6万件は通常一部桁が伏せられているが名義欄に全桁番号を誤入力した12件を含む。有効期限・セキュリティコードは含まれない。第2報のカード情報とは別区分。",
@@ -104,6 +135,11 @@
       "date": "2026-10-28",
       "summary": "第3報：旧バックアップから返金先口座情報32,341件の流出を確認。マスキング済みカード・旅行保険情報にも流出のおそれ。",
       "source_index": 2
+    },
+    {
+      "date": "2026-11-18",
+      "summary": "第4報。予約関連機能の不正利用で予約1,045件・約1,166名の情報（国際航空券予約15名のパスポート情報を含む）が流出したと公表。",
+      "source_index": 3
     }
   ],
   "vendor_research": {
@@ -124,6 +160,10 @@
         "source_index": 2,
         "status": "reviewed",
         "note": "続報本文を確認。新たな外部会社の社名・役割の特定なし。"
+      },
+      {
+        "source_index": 3,
+        "status": "reviewed"
       }
     ]
   }

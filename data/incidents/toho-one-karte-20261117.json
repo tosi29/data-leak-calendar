@@ -1,0 +1,49 @@
+{
+  "id": "toho-one-karte-20261117",
+  "organization": {
+    "name": "東宝（TOHO-ONE）",
+    "sector": "企業・団体"
+  },
+  "title": "「TOHO-ONE」で使う「KARTE」への不正アクセスで会員番号・年代・性別・都道府県が流出した疑い",
+  "summary": "「TOHO-ONE」で使う「KARTE」への不正アクセスで会員番号・年代・性別・都道府県が流出した疑い。",
+  "published_on": "2026-11-17",
+  "first_published_on": "2026-11-17",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-17",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "利用するプレイドのマーケティングツール「KARTE」への第三者による不正アクセス（プレイドはサーバーの脆弱性の悪用と公表）。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "TOHO-ONEのサービス開始以降にログインした会員。件数は調査中。"
+    }
+  ],
+  "data_types": [
+    "会員番号",
+    "年代",
+    "性別",
+    "都道府県"
+  ],
+  "related_vendor": "株式会社プレイド",
+  "sources": [
+    {
+      "url": "https://www.toho-one.com/notifications/2026/20261117_01",
+      "type": "official",
+      "title": "「TOHO-ONE」で利用している「KARTE」への不正アクセスに伴う会員情報流出の可能性に関するお詫びとお知らせ",
+      "published_on": "2026-11-17",
+      "checked_on": "2026-11-18"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

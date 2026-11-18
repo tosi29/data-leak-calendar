@@ -1,0 +1,46 @@
+{
+  "id": "studist-karte-20261116",
+  "organization": {
+    "name": "スタディスト",
+    "sector": "企業・団体"
+  },
+  "title": "利用する「KARTE」への不正アクセスで連携していた情報の一部が漏えいの対象に含まれると報告",
+  "summary": "利用する「KARTE」への不正アクセスで連携していた情報の一部が漏えいの対象に含まれると報告。",
+  "published_on": "2026-11-16",
+  "first_published_on": "2026-11-16",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-16",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "利用するプレイドのマーケティングツール「KARTE」への第三者による不正アクセス（プレイドはサーバーの脆弱性の悪用と公表）。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "KARTEに連携していた情報。範囲・項目・対象者は調査中。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "株式会社プレイド",
+  "sources": [
+    {
+      "url": "https://studist.jp/news/news_20261116",
+      "type": "official",
+      "title": "外部サービス「KARTE」への不正アクセスに関するお知らせ（第一報）",
+      "published_on": "2026-11-16",
+      "checked_on": "2026-11-18"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

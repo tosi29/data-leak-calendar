@@ -4,16 +4,16 @@
     "name": "岡山県（省エネ家電購入・住宅断熱リフォーム応援キャンペーン）",
     "sector": "自治体"
   },
-  "title": "キャンペーン事務局JTBが使うアララへの不正アクセスで利用者のメールアドレス最大約1,100件に流出の可能性",
-  "summary": "キャンペーン事務局JTBが使うアララへの不正アクセスで利用者のメールアドレス最大約1,100件に流出の可能性。",
+  "title": "キャンペーン事務局JTBが使うアララへの不正アクセスで利用者のメールアドレス1,045件が漏えい",
+  "summary": "キャンペーン事務局JTBが使うアララへの不正アクセスで利用者のメールアドレス1,045件が漏えい。",
   "published_on": "2026-11-06",
   "first_published_on": "2026-11-06",
   "publication_kind": "initial",
   "occurred_on": null,
   "detected_on": null,
-  "updated_on": "2026-11-06",
+  "updated_on": "2026-11-18",
   "verification": "official",
-  "leak_status": "investigating",
+  "leak_status": "confirmed",
   "incident_type": "attack",
   "cause": {
     "category": "unauthorized_access",
@@ -22,10 +22,10 @@
   },
   "impact": [
     {
-      "count": 1100,
+      "count": 1045,
       "unit": "records",
-      "qualifier": "maximum_approximate",
-      "description": "2026年9月28日にポイント交換コード再発行のメールを受けた利用者。"
+      "qualifier": "exact",
+      "description": "2026年9月28日にポイント交換コード再発行のメールを受けた利用者のメールアドレス。"
     }
   ],
   "data_types": [
@@ -46,8 +46,35 @@
       "title": "お知らせ",
       "published_on": "2026-11-06",
       "checked_on": "2026-11-09"
+    },
+    {
+      "url": "https://www.pref.okayama.jp/site/presssystem/1066439.html",
+      "type": "official",
+      "title": "おかやま省エネ家電購入・住宅断熱リフォーム応援キャンペーンにおけるメールアドレス漏えいについて（続報）",
+      "published_on": "2026-11-18",
+      "checked_on": "2026-11-18"
+    },
+    {
+      "url": "https://www.pref.okayama.jp/uploaded/life/1066439_10337948_misc.pdf",
+      "type": "official",
+      "title": "メールアドレス漏えいについて（続報）",
+      "published_on": "2026-11-18",
+      "checked_on": "2026-11-18"
+    },
+    {
+      "url": "https://www.pref.okayama.lg.jp/page/1064820.html",
+      "type": "official",
+      "title": "おかやま省エネ家電購入・住宅断熱リフォーム応援キャンペーンにおけるメールアドレス漏えいについて（続報）",
+      "published_on": "2026-11-18",
+      "checked_on": "2026-11-18"
     }
   ],
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-11-18",
+      "summary": "続報で利用者のメールアドレス1,045件の漏えいを確認。",
+      "source_index": 2
+    }
+  ],
   "notes": "氏名等は含まれない。漏えいの有無は調査中。"
 }

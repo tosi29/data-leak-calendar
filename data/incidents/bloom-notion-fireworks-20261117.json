@@ -1,0 +1,48 @@
+{
+  "id": "bloom-notion-fireworks-20261117",
+  "organization": {
+    "name": "Bloom",
+    "sector": "企業・団体"
+  },
+  "title": "Notion AIの処理委託先Fireworks AIへの不正アクセスで取引先担当者や選考候補者の情報を含む対話ログ292件が流出した可能性",
+  "summary": "Notion AIの処理委託先Fireworks AIへの不正アクセスで取引先担当者や選考候補者の情報を含む対話ログ292件が流出した可能性。",
+  "published_on": "2026-11-17",
+  "first_published_on": "2026-11-17",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-17",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "業務で利用するNotionのAI機能（Notion AI）の処理委託先Fireworks AIの環境への第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 292,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "影響対象の対話ログ（全2,170件中）。取引先担当者の名字89名、選考候補者・入社者27名、社内関係者29名などを含む。"
+    }
+  ],
+  "data_types": [
+    "Notion AIの対話記録",
+    "氏名（名字）",
+    "業務上の連絡先"
+  ],
+  "related_vendor": "Fireworks AI",
+  "sources": [
+    {
+      "url": "https://www.blm.co.jp/news-261117.html",
+      "type": "official",
+      "title": "外部サービス「Notion」のAI機能における情報流出のおそれに関するお知らせとお詫び",
+      "published_on": "2026-11-17",
+      "checked_on": "2026-11-18"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

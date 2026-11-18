@@ -11,7 +11,7 @@
   "publication_kind": "initial",
   "occurred_on": null,
   "detected_on": null,
-  "updated_on": "2026-11-16",
+  "updated_on": "2026-11-17",
   "verification": "official",
   "leak_status": "suspected",
   "incident_type": "attack",
@@ -22,10 +22,10 @@
   },
   "impact": [
     {
-      "count": null,
-      "unit": "records",
-      "qualifier": "unknown",
-      "description": "加盟店の申込情報（代表者の生年月日・住所・電話番号・メールアドレス・振込先銀行口座情報）。利用者の個人情報の漏えいは確認されていない。"
+      "count": 801,
+      "unit": "organizations",
+      "qualifier": "exact",
+      "description": "漏えいの可能性がある加盟店舗（代表者の生年月日・住所・電話番号・メールアドレス・振込先口座情報等の申込情報）。"
     }
   ],
   "data_types": [
@@ -43,8 +43,21 @@
       "title": "ほくペイサービスの不正アクセス",
       "published_on": "2026-11-15",
       "checked_on": "2026-11-16"
+    },
+    {
+      "url": "https://www.city.kita.lg.jp/city-information/pr/1011994/1026930/1027065.html",
+      "type": "official",
+      "title": "【2026年11月17日】ほくペイサービスへの不正アクセス被害について",
+      "published_on": "2026-11-17",
+      "checked_on": "2026-11-18"
     }
   ],
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-11-17",
+      "summary": "続報で漏えいの可能性がある加盟店舗数を801店舗と公表。利用者の個人情報の漏えいは確認されていない。",
+      "source_index": 1
+    }
+  ],
   "notes": "同じ日に大学生協電子マネー、ハチペイ、めぶくPay、ふくアプリなどもサービスを停止したが、個人情報への影響が公表されていないため掲載していない。"
 }

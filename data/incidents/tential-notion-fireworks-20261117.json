@@ -1,0 +1,49 @@
+{
+  "id": "tential-notion-fireworks-20261117",
+  "organization": {
+    "name": "TENTIAL",
+    "sector": "企業・団体"
+  },
+  "title": "Notion AIの処理委託先Fireworks AIへの不正アクセスで顧客・取引先・従業員の個人情報を含むチャット履歴の一部が流出した可能性",
+  "summary": "Notion AIの処理委託先Fireworks AIへの不正アクセスで顧客・取引先・従業員の個人情報を含むチャット履歴の一部が流出した可能性。",
+  "published_on": "2026-11-17",
+  "first_published_on": "2026-11-17",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-17",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "業務で利用するNotionのAI機能（Notion AI）の処理委託先Fireworks AIの環境への第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "Notion AIのチャット履歴に含まれる個人情報。件数は調査中。"
+    }
+  ],
+  "data_types": [
+    "Notion AIの会話記録",
+    "氏名",
+    "メールアドレス",
+    "電話番号"
+  ],
+  "related_vendor": "Fireworks AI",
+  "sources": [
+    {
+      "url": "https://corp.tential.jp/news/20261117002/",
+      "type": "official",
+      "title": "当社が利用するクラウドサービスの委託先への不正アクセスによる情報流出の可能性に関するお知らせ",
+      "published_on": "2026-11-17",
+      "checked_on": "2026-11-18"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

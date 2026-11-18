@@ -1,0 +1,48 @@
+{
+  "id": "itokin-karte-20261117",
+  "organization": {
+    "name": "イトキン（イトキンオンラインストア）",
+    "sector": "企業・団体"
+  },
+  "title": "メール配信に使う「KARTE」への不正アクセスでオンラインストア会員のメールアドレス・会員番号・生年月日が漏えい",
+  "summary": "メール配信に使う「KARTE」への不正アクセスでオンラインストア会員のメールアドレス・会員番号・生年月日が漏えい。",
+  "published_on": "2026-11-17",
+  "first_published_on": "2026-11-17",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-17",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "利用するプレイドのマーケティングツール「KARTE」への第三者による不正アクセス（プレイドはサーバーの脆弱性の悪用と公表）。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "会員の情報。件数は確認中。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス",
+    "会員番号",
+    "生年月日"
+  ],
+  "related_vendor": "株式会社プレイド",
+  "sources": [
+    {
+      "url": "https://www.itokin.com/news/important/karte.html",
+      "type": "official",
+      "title": "外部メール配信サービス「KARTE」への不正アクセスに伴うお客様情報の漏えいに関するお詫びとご報告",
+      "published_on": "2026-11-17",
+      "checked_on": "2026-11-18"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

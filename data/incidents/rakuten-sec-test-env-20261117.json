@@ -1,0 +1,55 @@
+{
+  "id": "rakuten-sec-test-env-20261117",
+  "organization": {
+    "name": "楽天証券（テスト環境）",
+    "sector": "金融"
+  },
+  "title": "テスト環境のシステムへの第三者による不正アクセスで最大約447万口座の氏名・住所・出金先口座などが漏えいしたおそれ",
+  "summary": "テスト環境のシステムへの第三者による不正アクセスで最大約447万口座の氏名・住所・出金先口座などが漏えいしたおそれ。",
+  "published_on": "2026-11-17",
+  "first_published_on": "2026-11-17",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-17",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "テスト環境のシステムへの第三者による不正アクセス（11月11日に漏えいのおそれ、11月16日に検知）。原因は調査中。"
+  },
+  "impact": [
+    {
+      "count": 4470000,
+      "unit": "accounts",
+      "qualifier": "maximum_approximate",
+      "description": "氏名・住所・電話番号・出金先口座・年収等を含む口座。部店・お客様コードとログインIDは最大約1,125万口座。"
+    }
+  ],
+  "data_types": [
+    "部店・お客様コード",
+    "ログインID",
+    "氏名",
+    "生年月日",
+    "住所",
+    "電話番号",
+    "メールアドレス",
+    "勤務先",
+    "出金先口座",
+    "年収・金融資産"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.rakuten-sec.co.jp/web/info/info20261117-02.html",
+      "type": "official",
+      "title": "当社お客様の情報漏えいの可能性に関するお詫びとお知らせ",
+      "published_on": "2026-11-17",
+      "checked_on": "2026-11-18"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

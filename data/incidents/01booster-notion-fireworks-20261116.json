@@ -1,0 +1,46 @@
+{
+  "id": "01booster-notion-fireworks-20261116",
+  "organization": {
+    "name": "ゼロワンブースター",
+    "sector": "企業・団体"
+  },
+  "title": "Notion AIの処理委託先Fireworks AIへの不正アクセスで顧客の情報を含むおそれのある入力・応答記録の一部が漏えいした可能性",
+  "summary": "Notion AIの処理委託先Fireworks AIへの不正アクセスで顧客の情報を含むおそれのある入力・応答記録の一部が漏えいした可能性。",
+  "published_on": "2026-11-16",
+  "first_published_on": "2026-11-16",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-16",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "業務で利用するNotionのAI機能（Notion AI）の処理委託先Fireworks AIの環境への第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "Notion AIのやり取りの記録。顧客の情報を含むおそれ。件数は調査中。"
+    }
+  ],
+  "data_types": [
+    "Notion AIの会話記録"
+  ],
+  "related_vendor": "Fireworks AI",
+  "sources": [
+    {
+      "url": "https://01booster.co.jp/news/media/5128",
+      "type": "official",
+      "title": "当社が利用するクラウドサービスの委託先への不正アクセスに伴う、AI機能への入力情報の漏えいの可能性に関するお知らせ（第一報）",
+      "published_on": "2026-11-16",
+      "checked_on": "2026-11-18"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

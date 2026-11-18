@@ -1,0 +1,49 @@
+{
+  "id": "kirin-hd-notion-fireworks-20261117",
+  "organization": {
+    "name": "キリンホールディングス",
+    "sector": "企業・団体"
+  },
+  "title": "Notion AIの処理委託先Fireworks AIへの不正アクセスで従業員・新卒採用応募者・取引先従業員260名の情報を含む対話内容の一部が漏えい",
+  "summary": "Notion AIの処理委託先Fireworks AIへの不正アクセスで従業員・新卒採用応募者・取引先従業員260名の情報を含む対話内容の一部が漏えい。",
+  "published_on": "2026-11-17",
+  "first_published_on": "2026-11-17",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-17",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "業務で利用するNotionのAI機能（Notion AI）の処理委託先Fireworks AIの環境への第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 260,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "従業員230名・新卒採用応募者22名・取引先従業員8名。"
+    }
+  ],
+  "data_types": [
+    "Notion AIの対話記録",
+    "氏名",
+    "社用電話番号",
+    "社用メールアドレス"
+  ],
+  "related_vendor": "Fireworks AI",
+  "sources": [
+    {
+      "url": "https://www.kirinholdings.com/jp/newsroom/release/2026/1117_03.pdf",
+      "type": "official",
+      "title": "情報漏えいに関するお詫びとお知らせ",
+      "published_on": "2026-11-17",
+      "checked_on": "2026-11-18"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

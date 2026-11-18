@@ -1,0 +1,50 @@
+{
+  "id": "soft99-goq-20261117",
+  "organization": {
+    "name": "ソフト99コーポレーション",
+    "sector": "企業・団体"
+  },
+  "title": "受注・発送管理を委託する「GoQSystem」への不正アクセスで注文3,728件、注文者・お届け先3,813人の情報が漏えい",
+  "summary": "受注・発送管理を委託する「GoQSystem」への不正アクセスで注文3,728件、注文者・お届け先3,813人の情報が漏えい。",
+  "published_on": "2026-11-17",
+  "first_published_on": "2026-11-17",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-17",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "vulnerability",
+    "certainty": "confirmed",
+    "detail": "受注管理システム「GoQSystem」の運営会社サーバーへの不正アクセス（同社のお問い合わせフォームの脆弱性の悪用）。"
+  },
+  "impact": [
+    {
+      "count": 3813,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "注文者・お届け先（注文3,728件：楽天2,594件、Yahoo!ショッピング1,082件、公式ショップ52件）。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "電話番号",
+    "メールアドレス",
+    "注文内容"
+  ],
+  "related_vendor": "株式会社GoQSystem",
+  "sources": [
+    {
+      "url": "https://www.release.tdnet.info/inbs/140120261117582082.pdf",
+      "type": "official",
+      "title": "業務委託企業への不正アクセスによる個人情報漏えいに関するお詫びとお知らせ",
+      "published_on": "2026-11-17",
+      "checked_on": "2026-11-18"
+    }
+  ],
+  "updates": [],
+  "notes": "11月10日公表の公式オンラインショップへの不正アクセス（別記録）とは別事案。"
+}

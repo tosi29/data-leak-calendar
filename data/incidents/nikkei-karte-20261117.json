@@ -1,0 +1,49 @@
+{
+  "id": "nikkei-karte-20261117",
+  "organization": {
+    "name": "日本経済新聞社",
+    "sector": "企業・団体"
+  },
+  "title": "マーケティングに使う「KARTE」への不正アクセスで日経電子版利用者のメールアドレス・電話番号などが漏洩した可能性（元に戻せない処理済み）",
+  "summary": "マーケティングに使う「KARTE」への不正アクセスで日経電子版利用者のメールアドレス・電話番号などが漏洩した可能性（元に戻せない処理済み）。",
+  "published_on": "2026-11-17",
+  "first_published_on": "2026-11-17",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-17",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "利用するプレイドのマーケティングツール「KARTE」への第三者による不正アクセス（プレイドはサーバーの脆弱性の悪用と公表）。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "日経電子版利用者の情報。元のデータに戻せない処理をしていた。件数は未公表。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス",
+    "電話番号",
+    "性別",
+    "生年月"
+  ],
+  "related_vendor": "株式会社プレイド",
+  "sources": [
+    {
+      "url": "https://www.nikkei.co.jp/nikkeiinfo/news/information/1574.html",
+      "type": "official",
+      "title": "委託先外部サービスへの不正アクセスに伴う個人情報漏洩の可能性について",
+      "published_on": "2026-11-17",
+      "checked_on": "2026-11-18"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

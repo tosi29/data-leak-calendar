@@ -11,7 +11,7 @@
   "publication_kind": "initial",
   "occurred_on": null,
   "detected_on": null,
-  "updated_on": "2026-11-05",
+  "updated_on": "2026-11-16",
   "verification": "official",
   "leak_status": "confirmed",
   "incident_type": "attack",
@@ -39,8 +39,21 @@
       "title": "業務委託先への不正アクセスに伴う当社サービスをご利用いただいているお客さまのメールアドレス漏えいについて",
       "published_on": "2026-11-05",
       "checked_on": "2026-11-08"
+    },
+    {
+      "url": "https://prtimes.jp/main/html/rd/p/000001070.000001455.html",
+      "type": "official",
+      "title": "「業務委託先への不正アクセスに伴う当社サービスをご利用いただいているお客さまのメールアドレス漏えいについて」に関する個別ご案内開始のお知らせ",
+      "published_on": "2026-11-16",
+      "checked_on": "2026-11-18"
     }
   ],
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-11-16",
+      "summary": "対象者への個別案内を開始したと公表。",
+      "source_index": 1
+    }
+  ],
   "notes": "企業自身のPR TIMES配信本文で確認。サービス別の内訳表は本文テキストで取得できず。メール本文は対象外。"
 }

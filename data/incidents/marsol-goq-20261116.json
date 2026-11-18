@@ -1,0 +1,50 @@
+{
+  "id": "marsol-goq-20261116",
+  "organization": {
+    "name": "マルソルオンラインショップ（楽天市場・Yahoo!ショッピング・au PAY マーケット）",
+    "sector": "企業・団体"
+  },
+  "title": "受注管理に使う「GoQSystem」への不正アクセスで注文718件分の注文者・お届け先の情報が漏えい",
+  "summary": "受注管理に使う「GoQSystem」への不正アクセスで注文718件分の注文者・お届け先の情報が漏えい。",
+  "published_on": "2026-11-16",
+  "first_published_on": "2026-11-16",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-16",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "vulnerability",
+    "certainty": "confirmed",
+    "detail": "受注管理システム「GoQSystem」の運営会社サーバーへの不正アクセス（同社のお問い合わせフォームの脆弱性の悪用）。"
+  },
+  "impact": [
+    {
+      "count": 718,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "対象注文（楽天市場687件、Yahoo!ショッピング29件、au PAY マーケット2件の合計）。人数は未公表。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "電話番号",
+    "メールアドレス",
+    "注文内容"
+  ],
+  "related_vendor": "株式会社GoQSystem",
+  "sources": [
+    {
+      "url": "https://www.rakuten.co.jp/marsol-morishita/contents/202611_goqsystem/",
+      "type": "official",
+      "title": "【重要】GoQSystemへの不正アクセスによる個人情報漏えいのお詫びとお知らせ",
+      "published_on": "2026-11-16",
+      "checked_on": "2026-11-18"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

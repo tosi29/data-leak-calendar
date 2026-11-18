@@ -1,0 +1,46 @@
+{
+  "id": "yamaguchi-boe-leber-arara-20261116",
+  "organization": {
+    "name": "山口県教育委員会（健康観察アプリ「LEBER」）",
+    "sector": "自治体"
+  },
+  "title": "委託事業者リーバーが学校等へのメール配信に使うアララのサービスへの不正アクセスで県教委担当者と学校のメールアドレス73件が漏えい",
+  "summary": "委託事業者リーバーが学校等へのメール配信に使うアララのサービスへの不正アクセスで県教委担当者と学校のメールアドレス73件が漏えい。",
+  "published_on": "2026-11-16",
+  "first_published_on": "2026-11-16",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-16",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "メール配信に使われるアララ株式会社の「アララメッセージ」への第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 73,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "県教委担当者2件・学校登録アドレス71件。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "株式会社リーバー／アララ株式会社",
+  "sources": [
+    {
+      "url": "https://www.pref.yamaguchi.lg.jp/press/370416.html",
+      "type": "official",
+      "title": "県教委が全県立学校に導入した「心の健康観察アプリ」に関するメールアドレスの漏えいについて",
+      "published_on": "2026-11-16",
+      "checked_on": "2026-11-18"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

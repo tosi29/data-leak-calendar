@@ -1,0 +1,46 @@
+{
+  "id": "hayashima-wingarc-arara-20261116",
+  "organization": {
+    "name": "早島町（早島町メール配信サービス）",
+    "sector": "自治体"
+  },
+  "title": "提供事業者ウイングアークNEXが使う「アララメッセージ」への不正アクセスで登録メールアドレス829件が流出",
+  "summary": "提供事業者ウイングアークNEXが使う「アララメッセージ」への不正アクセスで登録メールアドレス829件が流出。",
+  "published_on": "2026-11-16",
+  "first_published_on": "2026-11-16",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-16",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "メール配信に使われるアララ株式会社の「アララメッセージ」への第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 829,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "早島町メール配信サービスの登録メールアドレス（退会者5件を含む）。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "ウイングアークNEX株式会社／アララ株式会社",
+  "sources": [
+    {
+      "url": "https://www.town.hayashima.lg.jp/gyosei_joho/koho/koho/6181.html",
+      "type": "official",
+      "title": "早島町メール配信サービス（メールマガジン）に対する不正アクセスによるメールアドレスの流出について",
+      "published_on": "2026-11-16",
+      "checked_on": "2026-11-18"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

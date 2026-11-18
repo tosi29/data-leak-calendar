@@ -1,0 +1,50 @@
+{
+  "id": "niigata-chokuso-goq-20261116",
+  "organization": {
+    "name": "新潟県（新潟直送計画、委託先クーネルワーク）",
+    "sector": "自治体"
+  },
+  "title": "管理運営の委託先が使う「GoQSystem」への不正アクセスで楽天市場「新潟直送計画」の注文者・お届け先3,457名の情報が持ち出された可能性",
+  "summary": "管理運営の委託先が使う「GoQSystem」への不正アクセスで楽天市場「新潟直送計画」の注文者・お届け先3,457名の情報が持ち出された可能性。",
+  "published_on": "2026-11-16",
+  "first_published_on": "2026-11-16",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-16",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "vulnerability",
+    "certainty": "confirmed",
+    "detail": "受注管理システム「GoQSystem」の運営会社サーバーへの不正アクセス（同社のお問い合わせフォームの脆弱性の悪用）。"
+  },
+  "impact": [
+    {
+      "count": 3457,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "現時点で漏えいの可能性がある対象者（影響範囲は確認中）。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "電話番号",
+    "メールアドレス",
+    "注文内容"
+  ],
+  "related_vendor": "株式会社GoQSystem",
+  "sources": [
+    {
+      "url": "https://www.pref.niigata.lg.jp/sec/sangyoseisaku/niigata-shop-incident.html",
+      "type": "official",
+      "title": "楽天市場内「新潟県公式ショップ 新潟直送計画」にて使用する受注管理システムへの不正アクセスについて（第一報）",
+      "published_on": "2026-11-16",
+      "checked_on": "2026-11-18"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

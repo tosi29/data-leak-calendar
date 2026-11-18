@@ -1,0 +1,46 @@
+{
+  "id": "tsukuba-leber-arara-20261116",
+  "organization": {
+    "name": "つくば市教育局（健康観察アプリ「LEBER」）",
+    "sector": "自治体"
+  },
+  "title": "健康観察アプリ「LEBER」の提供事業者リーバーが使うメール配信サービスへの不正アクセスで利用者のメールアドレス12,975件が漏えい",
+  "summary": "健康観察アプリ「LEBER」の提供事業者リーバーが使うメール配信サービスへの不正アクセスで利用者のメールアドレス12,975件が漏えい。",
+  "published_on": "2026-11-16",
+  "first_published_on": "2026-11-16",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-16",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "メール配信に使われるアララ株式会社の「アララメッセージ」への第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 12975,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "メール配信サービスに登録していた利用者のメールアドレス。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "株式会社リーバー／アララ株式会社",
+  "sources": [
+    {
+      "url": "https://www.city.tsukuba.lg.jp/kosodate/oshirase/30209.html",
+      "type": "official",
+      "title": "健康観察アプリ「LEBER（リーバー）」で利用していたメール配信サービスへの不正アクセスによるメールアドレ漏えいについて",
+      "published_on": "2026-11-16",
+      "checked_on": "2026-11-18"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

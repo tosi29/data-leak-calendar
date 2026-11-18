@@ -4,16 +4,16 @@
     "name": "岡山県（委託先 岡山県産業振興財団）",
     "sector": "自治体"
   },
-  "title": "OTEX・企業成長研修の案内メールに使うアララへの不正アクセスで延べ22,612件のメールアドレスに漏えいの可能性",
-  "summary": "OTEX・企業成長研修の案内メールに使うアララへの不正アクセスで延べ22,612件のメールアドレスに漏えいの可能性。",
+  "title": "OTEX・企業成長研修の案内メールに使うアララへの不正アクセスでメールアドレス延べ22,532件が漏えい",
+  "summary": "OTEX・企業成長研修の案内メールに使うアララへの不正アクセスでメールアドレス延べ22,532件が漏えい。",
   "published_on": "2026-11-07",
   "first_published_on": "2026-11-07",
   "publication_kind": "initial",
   "occurred_on": null,
   "detected_on": null,
-  "updated_on": "2026-11-07",
+  "updated_on": "2026-11-18",
   "verification": "official",
-  "leak_status": "investigating",
+  "leak_status": "confirmed",
   "incident_type": "attack",
   "cause": {
     "category": "unauthorized_access",
@@ -22,10 +22,10 @@
   },
   "impact": [
     {
-      "count": 22612,
+      "count": 22532,
       "unit": "records",
       "qualifier": "exact",
-      "description": "送信件数の合計（OTEX2026 19,555件、企業成長研修 3,057件）。漏えいの有無は調査中。"
+      "description": "漏えいしたメールアドレス（OTEX2026 19,524件、企業成長研修3,008件）。"
     }
   ],
   "data_types": [
@@ -46,8 +46,35 @@
       "title": "アララ株式会社への不正アクセスに伴うメールアドレス漏えいの可能性について！",
       "published_on": "2026-11-07",
       "checked_on": "2026-11-09"
+    },
+    {
+      "url": "https://www.pref.okayama.jp/site/presssystem/1066538.html",
+      "type": "official",
+      "title": "Request Rejected",
+      "published_on": "2026-11-18",
+      "checked_on": "2026-11-18"
+    },
+    {
+      "url": "https://www.pref.okayama.jp/uploaded/life/1066538_10337531_misc.pdf",
+      "type": "official",
+      "title": "アララ株式会社への不正アクセスに伴うメールアドレス漏えいについて（続報）",
+      "published_on": "2026-11-18",
+      "checked_on": "2026-11-18"
+    },
+    {
+      "url": "https://www.pref.okayama.lg.jp/page/1066539.html",
+      "type": "official",
+      "title": "アララ株式会社への不正アクセスに伴うメールアドレス漏えいについて（続報）",
+      "published_on": "2026-11-18",
+      "checked_on": "2026-11-18"
     }
   ],
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-11-18",
+      "summary": "続報で漏えいの事実を確認。OTEX2026 19,524件、企業成長研修3,008件のメールアドレスが漏えい。",
+      "source_index": 2
+    }
+  ],
   "notes": "予防的な注意喚起。企業成長研修の件数は公表索引の値で、県ページでは本文途中まで確認。"
 }

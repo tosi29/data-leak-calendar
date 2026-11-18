@@ -1,0 +1,57 @@
+{
+  "id": "feiler-comsbi-20261116",
+  "organization": {
+    "name": "フェイラージャパン（抽選用LINEアカウント）",
+    "sector": "企業・団体"
+  },
+  "title": "抽選用LINEアカウントで使う「COMSBI」への不正アクセスで友だち情報最大764,429件と抽選申込者最大147,164名の氏名・住所等が漏えい",
+  "summary": "抽選用LINEアカウントで使う「COMSBI」への不正アクセスで友だち情報最大764,429件と抽選申込者最大147,164名の氏名・住所等が漏えい。",
+  "published_on": "2026-11-16",
+  "first_published_on": "2026-11-16",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-16",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "credentials",
+    "certainty": "confirmed",
+    "detail": "抽選用LINEアカウントの運用に使うソニックムーブの「COMSBI（SaaS版）」に、第三者が同社の社内用アカウントの認証情報を不正に使ってログイン。"
+  },
+  "impact": [
+    {
+      "count": 764429,
+      "unit": "records",
+      "qualifier": "maximum",
+      "description": "抽選用LINEアカウントの友だち情報。"
+    },
+    {
+      "count": 147164,
+      "unit": "people",
+      "qualifier": "maximum",
+      "description": "LINE抽選申込サービス登録者の氏名・電話番号・住所（友だち情報の内数）。"
+    }
+  ],
+  "data_types": [
+    "LINE表示名",
+    "プロフィール画像",
+    "LINEユーザーID",
+    "氏名",
+    "電話番号",
+    "住所"
+  ],
+  "related_vendor": "株式会社ソニックムーブ",
+  "sources": [
+    {
+      "url": "https://www.feiler-jp.com/information/detail/277",
+      "type": "official",
+      "title": "外部委託先への不正アクセスによるお客様情報の漏えいに関するお詫びとお知らせ",
+      "published_on": "2026-11-16",
+      "checked_on": "2026-11-18"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

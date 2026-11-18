@@ -1,0 +1,51 @@
+{
+  "id": "cover-hololive-openlogi-20261117",
+  "organization": {
+    "name": "カバー（hololive production OFFICIAL SHOP）",
+    "sector": "企業・団体"
+  },
+  "title": "2025年6月まで出荷を委託したオープンロジのシステムへの不正アクセスで出荷データ約300件の情報が漏えい",
+  "summary": "2025年6月まで出荷を委託したオープンロジのシステムへの不正アクセスで出荷データ約300件の情報が漏えい。",
+  "published_on": "2026-11-17",
+  "first_published_on": "2026-11-17",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-17",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "物流代行サービスを提供するオープンロジのシステムへの第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 300,
+      "unit": "records",
+      "qualifier": "approximate",
+      "description": "2022年9月1日～2024年11月25日に出荷を依頼した一部の出荷データ。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "電話番号",
+    "メールアドレス",
+    "注文番号",
+    "購入金額"
+  ],
+  "related_vendor": "株式会社オープンロジ",
+  "sources": [
+    {
+      "url": "https://shop.hololivepro.com/blogs/news/shipping_openlogi_databreach_20261117",
+      "type": "official",
+      "title": "過去の出荷委託先への不正アクセスに伴うお客様情報の漏えいに関するお詫びとお知らせ",
+      "published_on": "2026-11-17",
+      "checked_on": "2026-11-18"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

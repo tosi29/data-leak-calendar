@@ -1,0 +1,46 @@
+{
+  "id": "libcon-notion-fireworks-20261117",
+  "organization": {
+    "name": "リブ・コンサルティング",
+    "sector": "企業・団体"
+  },
+  "title": "Notion AIの処理委託先Fireworks AIへの不正アクセスで業務の情報が入力された対話データが影響を受けた可能性、顧客情報の有無を精査中",
+  "summary": "Notion AIの処理委託先Fireworks AIへの不正アクセスで業務の情報が入力された対話データが影響を受けた可能性、顧客情報の有無を精査中。",
+  "published_on": "2026-11-17",
+  "first_published_on": "2026-11-17",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-17",
+  "verification": "official",
+  "leak_status": "investigating",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "業務で利用するNotionのAI機能（Notion AI）の処理委託先Fireworks AIの環境への第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "2026年10月5日～24日にNotion AIに入力されたデータと応答。顧客の企業名・担当者氏名が含まれるかは精査中。"
+    }
+  ],
+  "data_types": [
+    "Notion AIの会話記録"
+  ],
+  "related_vendor": "Fireworks AI",
+  "sources": [
+    {
+      "url": "https://www.libcon.co.jp/topics/notice20261117/",
+      "type": "official",
+      "title": "【第一報】クラウドサービス「Notion AI」の外部委託先における情報漏えい事案に関する当社への影響と調査状況について",
+      "published_on": "2026-11-17",
+      "checked_on": "2026-11-18"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

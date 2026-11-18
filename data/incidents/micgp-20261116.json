@@ -1,0 +1,49 @@
+{
+  "id": "micgp-20261116",
+  "organization": {
+    "name": "エムアイシー総合企画（メルパラ・Jメール）",
+    "sector": "企業・団体"
+  },
+  "title": "運営するサービスへの不正アクセスで会員情報やクレジットカード情報が影響を受けた可能性、範囲を調査中",
+  "summary": "運営するサービスへの不正アクセスで会員情報やクレジットカード情報が影響を受けた可能性、範囲を調査中。",
+  "published_on": "2026-11-16",
+  "first_published_on": "2026-11-16",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-16",
+  "verification": "official",
+  "leak_status": "investigating",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "運営する「メルパラ」「Jメール」のシステムへの第三者による不正アクセス。Webサイトの一部画面への不正なプログラムの設置を含む。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "影響範囲を調査中。"
+    }
+  ],
+  "data_types": [
+    "会員情報",
+    "電話番号",
+    "メールアドレス",
+    "クレジットカード情報"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.micgp.co.jp/notice/20261116/",
+      "type": "official",
+      "title": "当社サービスにおける不正アクセスに関するお詫びとご報告（第一報）",
+      "published_on": "2026-11-16",
+      "checked_on": "2026-11-18"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

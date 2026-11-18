@@ -1,0 +1,46 @@
+{
+  "id": "okamura-shokuhin-arara-20261116",
+  "organization": {
+    "name": "オカムラ食品工業（ポートオンラインショップ）",
+    "sector": "企業・団体"
+  },
+  "title": "GMOメイクショップ「MakeRepeater」が使う「アララメッセージ」への不正アクセスで閉店したオンラインショップの顧客のメールアドレス8,197件が流出",
+  "summary": "GMOメイクショップ「MakeRepeater」が使う「アララメッセージ」への不正アクセスで閉店したオンラインショップの顧客のメールアドレス8,197件が流出。",
+  "published_on": "2026-11-16",
+  "first_published_on": "2026-11-16",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-16",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "GMOメイクショップのメール配信サービス「MakeRepeater」が連携するアララの「アララメッセージ」への第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 8197,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "2026年7月1日～10月28日にメールマガジンの配信先に指定されていたメールアドレス。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "GMOメイクショップ／アララ株式会社",
+  "sources": [
+    {
+      "url": "https://www.okamurashokuhin.co.jp/news/detail/?id=85ycqv7yx5",
+      "type": "official",
+      "title": "メール配信委託先が利用する外部サービスへの不正アクセスによる情報流出に関するお詫びとお知らせ",
+      "published_on": "2026-11-16",
+      "checked_on": "2026-11-18"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

@@ -11,7 +11,7 @@
   "publication_kind": "initial",
   "occurred_on": null,
   "detected_on": null,
-  "updated_on": "2026-11-09",
+  "updated_on": "2026-11-18",
   "verification": "official",
   "leak_status": "suspected",
   "incident_type": "attack",
@@ -42,8 +42,33 @@
       "title": "個人情報漏洩に関するお詫びとお知らせ",
       "published_on": "2026-11-09",
       "checked_on": "2026-11-10"
+    },
+    {
+      "url": "https://www.kanagawa-u.ac.jp/news/article0101_04981",
+      "type": "official",
+      "title": "個人情報漏洩に関するお詫びとお知らせ 第2報",
+      "published_on": "2026-11-10",
+      "checked_on": "2026-11-18"
+    },
+    {
+      "url": "https://www.kanagawa-u.ac.jp/news/article0101_05028",
+      "type": "official",
+      "title": "個人情報漏洩に関するお詫びとお知らせ 第3報",
+      "published_on": "2026-11-18",
+      "checked_on": "2026-11-18"
     }
   ],
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-11-10",
+      "summary": "第2報（11月13日更新）を公表。",
+      "source_index": 1
+    },
+    {
+      "date": "2026-11-18",
+      "summary": "第3報を公表。",
+      "source_index": 2
+    }
+  ],
   "notes": "jindai.jpのパスワードは漏洩していない。認証基盤は学外からの接続を停止し、11月中に更新・パスワード一斉変更の予定。"
 }

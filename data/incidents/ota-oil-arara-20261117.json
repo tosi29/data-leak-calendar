@@ -1,0 +1,46 @@
+{
+  "id": "ota-oil-arara-20261117",
+  "organization": {
+    "name": "太田油脂",
+    "sector": "企業・団体"
+  },
+  "title": "メールマガジン配信に使うGMOメイクショップ「MakeRepeater」が連携する「アララメッセージ」への不正アクセスでメールマガジン会員のメールアドレス6,312件が漏えい",
+  "summary": "メールマガジン配信に使うGMOメイクショップ「MakeRepeater」が連携する「アララメッセージ」への不正アクセスでメールマガジン会員のメールアドレス6,312件が漏えい。",
+  "published_on": "2026-11-17",
+  "first_published_on": "2026-11-17",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-17",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "GMOメイクショップのメール配信サービス「MakeRepeater」が連携するアララの「アララメッセージ」への第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 6312,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "メールアドレス（メールマガジン会員12,167名のうち）。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "GMOメイクショップ／アララ株式会社",
+  "sources": [
+    {
+      "url": "https://ota-oil.co.jp/topic/9876/",
+      "type": "official",
+      "title": "当社が利用するメール配信サービスへの不正アクセスに伴う個人情報漏えいに関するお詫びとお知らせ",
+      "published_on": "2026-11-17",
+      "checked_on": "2026-11-18"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

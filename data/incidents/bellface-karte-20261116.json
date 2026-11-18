@@ -1,0 +1,48 @@
+{
+  "id": "bellface-karte-20261116",
+  "organization": {
+    "name": "ベルフェイス（bellSalesAI）",
+    "sector": "企業・団体"
+  },
+  "title": "サポートサイト等で使う「KARTE」への不正アクセスでbellSalesAI利用顧客の氏名・メールアドレスなどが漏洩",
+  "summary": "サポートサイト等で使う「KARTE」への不正アクセスでbellSalesAI利用顧客の氏名・メールアドレスなどが漏洩。",
+  "published_on": "2026-11-16",
+  "first_published_on": "2026-11-16",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-16",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "利用するプレイドのマーケティングツール「KARTE」への第三者による不正アクセス（プレイドはサーバーの脆弱性の悪用と公表）。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "KARTE Datahub上で管理していた利用顧客の情報。件数は未公表。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "メールアドレス",
+    "サービス上のイベント情報"
+  ],
+  "related_vendor": "株式会社プレイド",
+  "sources": [
+    {
+      "url": "https://bellface.co.jp/news/8195/",
+      "type": "official",
+      "title": "【11/18更新】当社が利用する「KARTE」への不正アクセスに伴う情報漏洩に関するお詫びとご報告",
+      "published_on": "2026-11-16",
+      "checked_on": "2026-11-18"
+    }
+  ],
+  "updates": [],
+  "notes": "11月16日に漏洩の可能性として公表し、11月18日の更新で外部への漏洩を確認。"
+}

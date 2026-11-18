@@ -11,28 +11,28 @@
   "publication_kind": "initial",
   "occurred_on": null,
   "detected_on": "2026-10-08",
-  "updated_on": "2026-10-15",
+  "updated_on": "2026-11-18",
   "verification": "official",
   "incident_type": "attack",
-  "leak_status": "suspected",
+  "leak_status": "confirmed",
   "impact": [
     {
-      "count": 323000,
+      "count": 322531,
       "unit": "records",
-      "qualifier": "maximum",
-      "description": "メールアドレス"
+      "qualifier": "exact",
+      "description": "メールアドレス。"
     },
     {
-      "count": 362000,
+      "count": 361598,
       "unit": "records",
-      "qualifier": "maximum",
-      "description": "クレジットカード情報の一部"
+      "qualifier": "exact",
+      "description": "ウェブ決済に関わるクレジットカード情報の一部（名義・有効期限・下3～4桁）。"
     },
     {
       "count": 122,
       "unit": "records",
-      "qualifier": "maximum",
-      "description": "Enterprise・Educationの担当窓口名と連絡先"
+      "qualifier": "exact",
+      "description": "Enterprise・Educationの運営担当窓口名と連絡先メールアドレス。"
     }
   ],
   "data_types": [
@@ -64,6 +64,13 @@
       "title": "【第二報】NewsPicksのお客様の個人情報漏洩の可能性に関するお詫びとお知らせ",
       "published_on": "2026-10-09",
       "checked_on": "2026-10-14"
+    },
+    {
+      "url": "https://corp.newspicks.com/info/20261118",
+      "type": "official",
+      "title": "【調査結果のご報告】NewsPicksで発生した不正アクセスによる個人情報漏洩について",
+      "published_on": "2026-11-18",
+      "checked_on": "2026-11-18"
     }
   ],
   "notes": "公式HTMLに埋め込まれた初報・第二報の本文を照合。項目別件数を実人数に換算・合算しない。カード番号の全体・セキュリティコードは保管しておらず、パスワード漏えいも確認されていない。",
@@ -72,12 +79,17 @@
       "date": "2026-10-09",
       "summary": "第二報で漏えいの可能性がある情報の項目別最大想定件数を公表。",
       "source_index": 1
+    },
+    {
+      "date": "2026-11-18",
+      "summary": "調査結果を公表し、漏洩した情報と件数を確定（メールアドレス322,531件、氏名58,754件、クレジットカード情報の一部361,598件ほか）。",
+      "source_index": 2
     }
   ],
   "vendor_research": {
-    "checked_on": "2026-10-15",
-    "result": "unavailable",
-    "note": "掲載出典の本文を今回取得できず、追加検索でも役割と会社名を確認できませんでした。「社名非公表」と断定した結果ではありません。",
+    "checked_on": "2026-11-18",
+    "result": "not_identified",
+    "note": "2026年11月18日に追加した公式続報の本文を確認したが、被害システムの開発・運用・提供ベンダーの社名と役割は記載されていない。",
     "source_checks": [
       {
         "source_index": 0,
@@ -86,6 +98,10 @@
       {
         "source_index": 1,
         "status": "unavailable"
+      },
+      {
+        "source_index": 2,
+        "status": "reviewed"
       }
     ]
   }

@@ -1,0 +1,74 @@
+{
+  "id": "musashino-cci-blastmail-20261027",
+  "organization": {
+    "name": "武蔵野商工会議所",
+    "sector": "団体・組合"
+  },
+  "title": "メール配信サービス「ブラストメール」への不正アクセスで同所の契約者情報（担当者名・連絡先など）が漏えい、読者情報は漏えいなし",
+  "summary": "メール配信サービス「ブラストメール」への不正アクセスで同所の契約者情報（担当者名・連絡先など）が漏えい、読者情報は漏えいなし。",
+  "published_on": "2026-10-27",
+  "first_published_on": "2026-10-27",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-17",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "メール配信サービス「ブラストメール」（ラクスライトクラウド）への第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "同所の契約者情報（会社名・担当者名・電話番号・メールアドレス等）。読者情報は漏えいしていない。"
+    }
+  ],
+  "data_types": [
+    "担当者名",
+    "電話番号",
+    "メールアドレス",
+    "契約・支払履歴"
+  ],
+  "related_vendor": "株式会社ラクスライトクラウド",
+  "sources": [
+    {
+      "url": "https://www.musashino-cci.or.jp/latest_information/2026102761888/",
+      "type": "official",
+      "title": "【重要】メール配信サービス「ブラストメール」への不正アクセスに伴う個人情報漏洩の可能性について",
+      "published_on": "2026-10-27",
+      "checked_on": "2026-11-18"
+    },
+    {
+      "url": "https://www.musashino-cci.or.jp/latest_information/2026102961924/",
+      "type": "official",
+      "title": "【続報】「ブラストメール」への不正アクセスに伴う個人情報漏洩の可能性について",
+      "published_on": "2026-10-29",
+      "checked_on": "2026-11-18"
+    },
+    {
+      "url": "https://www.musashino-cci.or.jp/latest_information/2026111762186/",
+      "type": "official",
+      "title": "【ご報告】メール配信サービス「ブラストメール」不正アクセス事案に関する最終調査結果について",
+      "published_on": "2026-11-17",
+      "checked_on": "2026-11-18"
+    }
+  ],
+  "updates": [
+    {
+      "date": "2026-10-29",
+      "summary": "運営会社から契約者情報のみが持ち出されたと報告を受けたと公表。",
+      "source_index": 1
+    },
+    {
+      "date": "2026-11-17",
+      "summary": "最終調査結果で契約者情報の漏えいを確認、読者情報等は漏えいなし。",
+      "source_index": 2
+    }
+  ],
+  "notes": ""
+}

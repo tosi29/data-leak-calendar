@@ -1,0 +1,49 @@
+{
+  "id": "axscom-notion-fireworks-20261116",
+  "organization": {
+    "name": "佐藤総合計画",
+    "sector": "企業・団体"
+  },
+  "title": "Notion AIの処理委託先Fireworks AIへの不正アクセスで一部の取引先の氏名等を含む入力内容が漏えいした可能性",
+  "summary": "Notion AIの処理委託先Fireworks AIへの不正アクセスで一部の取引先の氏名等を含む入力内容が漏えいした可能性。",
+  "published_on": "2026-11-16",
+  "first_published_on": "2026-11-16",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-16",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "業務で利用するNotionのAI機能（Notion AI）の処理委託先Fireworks AIの環境への第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "業務情報と一部取引先の会社名・所属・氏名等。範囲は精査中。"
+    }
+  ],
+  "data_types": [
+    "Notion AIの会話記録",
+    "会社名",
+    "所属",
+    "氏名"
+  ],
+  "related_vendor": "Fireworks AI",
+  "sources": [
+    {
+      "url": "https://www.axscom.jp/topics/news/7971/",
+      "type": "official",
+      "title": "弊社が利用するクラウドサービス（Notion AI）における情報漏えいに関するお知らせ",
+      "published_on": "2026-11-16",
+      "checked_on": "2026-11-18"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

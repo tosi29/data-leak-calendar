@@ -1,0 +1,49 @@
+{
+  "id": "akikatsu-db-20261117",
+  "organization": {
+    "name": "空き家活用",
+    "sector": "企業・団体"
+  },
+  "title": "データベースの接続元制限の設定不備で最大290,664件の個人情報を含む記録が外部から接続できる状態だった、漏えいのおそれ",
+  "summary": "データベースの接続元制限の設定不備で最大290,664件の個人情報を含む記録が外部から接続できる状態だった、漏えいのおそれ。",
+  "published_on": "2026-11-17",
+  "first_published_on": "2026-11-17",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-07-14",
+  "updated_on": "2026-11-17",
+  "verification": "official",
+  "leak_status": "exposed",
+  "incident_type": "accident",
+  "cause": {
+    "category": "configuration",
+    "certainty": "confirmed",
+    "detail": "データベースの接続元を制限する設定に不備があり、許可していない外部の接続元から接続・認証を試みられる状態だった（7月14日発見・修正）。"
+  },
+  "impact": [
+    {
+      "count": 290664,
+      "unit": "records",
+      "qualifier": "maximum",
+      "description": "元の記録の件数（AKIDAS関連275,270件、自治体受託・協定関連2,670件など）。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "電話番号",
+    "メールアドレス"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://corporate.aki-katsu.co.jp/news/server-security-notice-20261117",
+      "type": "official",
+      "title": "当社利用サーバーの接続制限設定不備について お知らせとお詫び",
+      "published_on": "2026-11-17",
+      "checked_on": "2026-11-18"
+    }
+  ],
+  "updates": [],
+  "notes": "接続・操作の記録がなく、漏えいのおそれがあるものとして公表。不正閲覧を裏付ける事実は確認されていない。"
+}

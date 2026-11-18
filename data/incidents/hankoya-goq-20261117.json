@@ -1,0 +1,56 @@
+{
+  "id": "hankoya-goq-20261117",
+  "organization": {
+    "name": "ハンコヤストア（楽天市場店）",
+    "sector": "企業・団体"
+  },
+  "title": "受注管理を委託する「GoQSystem」への不正アクセスで注文56,031件、約56,000名の情報が漏えい",
+  "summary": "受注管理を委託する「GoQSystem」への不正アクセスで注文56,031件、約56,000名の情報が漏えい。",
+  "published_on": "2026-11-17",
+  "first_published_on": "2026-11-17",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-17",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "vulnerability",
+    "certainty": "confirmed",
+    "detail": "受注管理システム「GoQSystem」の運営会社サーバーへの不正アクセス（同社のお問い合わせフォームの脆弱性の悪用）。"
+  },
+  "impact": [
+    {
+      "count": 56031,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "注文。"
+    },
+    {
+      "count": 56000,
+      "unit": "people",
+      "qualifier": "approximate",
+      "description": "注文者と届け先の合計。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "電話番号",
+    "メールアドレス",
+    "注文内容"
+  ],
+  "related_vendor": "株式会社GoQSystem",
+  "sources": [
+    {
+      "url": "https://www.rakuten.co.jp/hankoya-shop/contents/goqinformation/",
+      "type": "official",
+      "title": "【重要】GoQSystemへの不正アクセスによる個人情報漏えいのお詫びとお知らせ",
+      "published_on": "2026-11-17",
+      "checked_on": "2026-11-18"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

@@ -1,0 +1,50 @@
+{
+  "id": "alti-teket-20261116",
+  "organization": {
+    "name": "京都府立府民ホール「アルティ」",
+    "sector": "自治体・公共施設"
+  },
+  "title": "主催公演のチケット販売に使う「teket」への不正アクセスで会員の個人情報の一部が流出",
+  "summary": "主催公演のチケット販売に使う「teket」への不正アクセスで会員の個人情報の一部が流出。",
+  "published_on": "2026-11-16",
+  "first_published_on": "2026-11-16",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-16",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "電子チケット販売・管理サービス「teket」のサーバーへの第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "2026年12月の主催公演のチケット購入者。件数は未公表。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "メールアドレス",
+    "生年月日",
+    "住所",
+    "電話番号"
+  ],
+  "related_vendor": "株式会社teket",
+  "sources": [
+    {
+      "url": "https://www.alti.org/upload/upfile_24.pdf",
+      "type": "official",
+      "title": "【重要】当館主催事業で利用するチケット販売システム「teket」の不正アクセスによる個人情報流出とサービス停止について",
+      "published_on": "2026-11-16",
+      "checked_on": "2026-11-18"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

@@ -1,0 +1,52 @@
+{
+  "id": "sanyo-shokai-karte-20261117",
+  "organization": {
+    "name": "三陽商会（SANYO MEMBERSHIP・ECOALF・Paul Stuart・LOVELESS）",
+    "sector": "企業・団体"
+  },
+  "title": "委託先プレイドの「KARTE」への不正アクセスで顧客データのうち個人情報を含む一部が漏えい",
+  "summary": "委託先プレイドの「KARTE」への不正アクセスで顧客データのうち個人情報を含む一部が漏えい。",
+  "published_on": "2026-11-17",
+  "first_published_on": "2026-11-17",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-17",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "利用するプレイドのマーケティングツール「KARTE」への第三者による不正アクセス（プレイドはサーバーの脆弱性の悪用と公表）。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "顧客データ。件数はプレイドが精査中。過去に運営したECサイトの利用者の氏名・連絡先も漏えいした可能性。"
+    }
+  ],
+  "data_types": [
+    "都道府県コード",
+    "性別",
+    "生年月日",
+    "購入ブランド・店舗名",
+    "氏名",
+    "メールアドレス",
+    "電話番号"
+  ],
+  "related_vendor": "株式会社プレイド",
+  "sources": [
+    {
+      "url": "https://www.sanyo-shokai.co.jp/important/2026/11/17-1301.html",
+      "type": "official",
+      "title": "委託先事業者「株式会社プレイド」への不正アクセスによる個人情報漏えいに関するお詫びとお知らせ",
+      "published_on": "2026-11-17",
+      "checked_on": "2026-11-18"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

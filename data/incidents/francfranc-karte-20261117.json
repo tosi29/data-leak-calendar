@@ -1,0 +1,56 @@
+{
+  "id": "francfranc-karte-20261117",
+  "organization": {
+    "name": "Francfranc",
+    "sector": "企業・団体"
+  },
+  "title": "利用する「KARTE」への不正アクセスで会員情報最大約598万件と公式EC購入履歴が流出した可能性",
+  "summary": "利用する「KARTE」への不正アクセスで会員情報最大約598万件と公式EC購入履歴が流出した可能性。",
+  "published_on": "2026-11-17",
+  "first_published_on": "2026-11-17",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-17",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "利用するプレイドのマーケティングツール「KARTE」への第三者による不正アクセス（プレイドはサーバーの脆弱性の悪用と公表）。"
+  },
+  "impact": [
+    {
+      "count": 5980000,
+      "unit": "records",
+      "qualifier": "maximum_approximate",
+      "description": "会員情報。"
+    },
+    {
+      "count": 4000000,
+      "unit": "records",
+      "qualifier": "maximum_approximate",
+      "description": "公式ECサイトの購入履歴に関するデータ。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "生年月日",
+    "ユーザーID",
+    "都道府県・市区町村",
+    "購入履歴"
+  ],
+  "related_vendor": "株式会社プレイド",
+  "sources": [
+    {
+      "url": "https://www.francfranc.co.jp/news/2026/qa3pcqeqbdc7",
+      "type": "official",
+      "title": "Francfrancにおけるお客さま情報流出の可能性について",
+      "published_on": "2026-11-17",
+      "checked_on": "2026-11-18"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

@@ -1,0 +1,47 @@
+{
+  "id": "open-bizrobo-20261118",
+  "organization": {
+    "name": "オープン（BizRobo!mini）",
+    "sector": "企業・団体"
+  },
+  "title": "サービスを運用するクラウド環境への不正アクセスで約560社・約1,000アカウントの認証IDとパスワードを保存する認証サーバーが侵害",
+  "summary": "サービスを運用するクラウド環境への不正アクセスで約560社・約1,000アカウントの認証IDとパスワードを保存する認証サーバーが侵害。",
+  "published_on": "2026-11-18",
+  "first_published_on": "2026-11-18",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-18",
+  "verification": "official",
+  "leak_status": "investigating",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "サービスを運用するクラウド環境への第三者による不正アクセス（11月12日）。"
+  },
+  "impact": [
+    {
+      "count": 1000,
+      "unit": "accounts",
+      "qualifier": "approximate",
+      "description": "BizRobo!mini利用顧客（約560社）の認証IDとパスワード。他サーバーの影響は調査中。"
+    }
+  ],
+  "data_types": [
+    "認証ID",
+    "パスワード"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.release.tdnet.info/inbs/140120261117582184.pdf",
+      "type": "official",
+      "title": "当社連結子会社のクラウド環境への不正アクセスに関するお知らせ",
+      "published_on": "2026-11-18",
+      "checked_on": "2026-11-18"
+    }
+  ],
+  "updates": [],
+  "notes": "親会社オープングループの11月18日の適時開示。オープン社は個人情報保護委員会へ報告。"
+}

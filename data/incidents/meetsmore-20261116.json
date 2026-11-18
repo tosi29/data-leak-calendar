@@ -1,0 +1,57 @@
+{
+  "id": "meetsmore-20261116",
+  "organization": {
+    "name": "ミツモア",
+    "sector": "企業・団体"
+  },
+  "title": "不正ログインと空き状況表示機能の脆弱性の悪用で事業者の予定に登録された依頼者情報など最大36万6,850件が取得された",
+  "summary": "不正ログインと空き状況表示機能の脆弱性の悪用で事業者の予定に登録された依頼者情報など最大36万6,850件が取得された。",
+  "published_on": "2026-11-16",
+  "first_published_on": "2026-11-16",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-16",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "credentials",
+    "certainty": "confirmed",
+    "detail": "外部で入手されたとみられるIDとパスワードによる不正ログイン（201アカウント）と、空き状況表示機能の脆弱性の悪用。"
+  },
+  "impact": [
+    {
+      "count": 366850,
+      "unit": "records",
+      "qualifier": "maximum",
+      "description": "脆弱性の悪用で取得された事業者の予定に登録された情報。"
+    },
+    {
+      "count": 201,
+      "unit": "accounts",
+      "qualifier": "exact",
+      "description": "不正ログインが成立したアカウント。"
+    }
+  ],
+  "data_types": [
+    "住所",
+    "電話番号",
+    "氏名",
+    "メールアドレス",
+    "依頼内容",
+    "オンライン会議URL"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://company.meetsmore.com/page/notice-20261116",
+      "type": "official",
+      "title": "不正アクセスによる個人情報漏えいに関するお詫びとお知らせ",
+      "published_on": "2026-11-16",
+      "checked_on": "2026-11-18"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

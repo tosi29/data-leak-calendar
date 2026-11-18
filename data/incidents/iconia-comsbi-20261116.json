@@ -1,0 +1,60 @@
+{
+  "id": "iconia-comsbi-20261116",
+  "organization": {
+    "name": "アイコニア・ホスピタリティ（運営施設のLINE公式アカウント）",
+    "sector": "企業・団体"
+  },
+  "title": "運営施設5つのLINE公式アカウントで使う「COMSBI」への不正アクセスで利用者の氏名・電話番号などの一部が漏えい",
+  "summary": "運営施設5つのLINE公式アカウントで使う「COMSBI」への不正アクセスで利用者の氏名・電話番号などの一部が漏えい。",
+  "published_on": "2026-11-16",
+  "first_published_on": "2026-11-16",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-17",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "LINE公式アカウントの運用に使うソニックムーブの「COMSBI（SaaS版）」への不正アクセス（同社の社内用アカウントの認証情報が不正利用された）。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "亀の井ホテル、スパリゾートハワイアンズ等5施設のLINE公式アカウント利用者。件数は未公表。"
+    }
+  ],
+  "data_types": [
+    "LINE表示名",
+    "プロフィール画像",
+    "LINEユーザーID",
+    "氏名",
+    "電話番号",
+    "メールアドレス",
+    "生年月日",
+    "住所"
+  ],
+  "related_vendor": "株式会社ソニックムーブ",
+  "sources": [
+    {
+      "url": "https://www.iconia.co.jp/ja/news-information-leak-alert-20261116",
+      "type": "official",
+      "title": "【重要】LINE公式アカウントシステム「COMSBI」への不正アクセスによる個人情報漏えいに関するお詫びとお知らせ",
+      "published_on": "2026-11-16",
+      "checked_on": "2026-11-18"
+    },
+    {
+      "url": "https://www.hawaiians.co.jp/news/4244/",
+      "type": "official",
+      "title": "【重要】LINE公式アカウントシステム「COMSBI」への不正アクセスによる個人情報漏えいに関するお詫びとお知らせ",
+      "published_on": "2026-11-17",
+      "checked_on": "2026-11-18"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

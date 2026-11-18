@@ -1,0 +1,47 @@
+{
+  "id": "alpen-karte-20261117",
+  "organization": {
+    "name": "アルペン（Alpen Online）",
+    "sector": "企業・団体"
+  },
+  "title": "メールマガジン配信などに使う「KARTE」への不正アクセスでECサイト「Alpen Online」の顧客の氏名・メールアドレス86,494件が漏えい",
+  "summary": "メールマガジン配信などに使う「KARTE」への不正アクセスでECサイト「Alpen Online」の顧客の氏名・メールアドレス86,494件が漏えい。",
+  "published_on": "2026-11-17",
+  "first_published_on": "2026-11-17",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-17",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "利用するプレイドのマーケティングツール「KARTE」への第三者による不正アクセス（プレイドはサーバーの脆弱性の悪用と公表）。"
+  },
+  "impact": [
+    {
+      "count": 86494,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "Alpen Onlineにログインしたことがある顧客の情報。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "メールアドレス"
+  ],
+  "related_vendor": "株式会社プレイド",
+  "sources": [
+    {
+      "url": "https://store.alpen-group.jp/corporate/news/files/pdf/6e42f9dfe660cb08b2c43664b1e512c6_1.pdf",
+      "type": "official",
+      "title": "個人情報漏えいに関するお知らせ",
+      "published_on": "2026-11-17",
+      "checked_on": "2026-11-18"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

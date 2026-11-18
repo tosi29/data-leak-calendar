@@ -1,0 +1,50 @@
+{
+  "id": "bex-notion-fireworks-20261116",
+  "organization": {
+    "name": "b-ex",
+    "sector": "企業・団体"
+  },
+  "title": "Notion AIの処理委託先Fireworks AIへの不正アクセスでチャット履歴に記載された顧客・取引先・従業員等最大約680名の個人情報が閲覧・取得された可能性",
+  "summary": "Notion AIの処理委託先Fireworks AIへの不正アクセスでチャット履歴に記載された顧客・取引先・従業員等最大約680名の個人情報が閲覧・取得された可能性。",
+  "published_on": "2026-11-16",
+  "first_published_on": "2026-11-16",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-16",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "業務で利用するNotionのAI機能（Notion AI）の処理委託先Fireworks AIの環境への第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 680,
+      "unit": "people",
+      "qualifier": "maximum_approximate",
+      "description": "顧客・取引先約460名、従業員等約220名。"
+    }
+  ],
+  "data_types": [
+    "Notion AIの会話記録",
+    "氏名",
+    "住所",
+    "電話番号",
+    "メールアドレス"
+  ],
+  "related_vendor": "Fireworks AI",
+  "sources": [
+    {
+      "url": "https://www.b-exgroup.com/news/notice/post-7.html",
+      "type": "official",
+      "title": "外部委託先への不正アクセスに伴う個人情報の漏えいの可能性について",
+      "published_on": "2026-11-16",
+      "checked_on": "2026-11-18"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

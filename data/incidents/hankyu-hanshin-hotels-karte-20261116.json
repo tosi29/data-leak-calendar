@@ -1,0 +1,50 @@
+{
+  "id": "hankyu-hanshin-hotels-karte-20261116",
+  "organization": {
+    "name": "阪急阪神ホテルズ（メンバーズクラブ）",
+    "sector": "企業・団体"
+  },
+  "title": "会員へのメール配信に使う「KARTE」への不正アクセスでメンバーズクラブ会員の情報最大331,586件が漏えい",
+  "summary": "会員へのメール配信に使う「KARTE」への不正アクセスでメンバーズクラブ会員の情報最大331,586件が漏えい。",
+  "published_on": "2026-11-16",
+  "first_published_on": "2026-11-16",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-16",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "利用するプレイドのマーケティングツール「KARTE」への第三者による不正アクセス（プレイドはサーバーの脆弱性の悪用と公表）。"
+  },
+  "impact": [
+    {
+      "count": 331586,
+      "unit": "records",
+      "qualifier": "maximum",
+      "description": "主にメンバーズクラブ会員の情報（精査で減少の可能性）。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "年齢",
+    "住所",
+    "電話番号",
+    "メールアドレス"
+  ],
+  "related_vendor": "株式会社プレイド",
+  "sources": [
+    {
+      "url": "https://www.hankyu-hotel.com/topics/2026/GPDetailPage",
+      "type": "official",
+      "title": "【お詫びとお知らせ】当社が利用するコミュニケーションツール「KARTE」への 不正アクセスによる個人情報の漏えいについて",
+      "published_on": "2026-11-16",
+      "checked_on": "2026-11-18"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

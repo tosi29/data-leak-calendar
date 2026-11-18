@@ -1,0 +1,46 @@
+{
+  "id": "aikawa-wingarc-arara-20261117",
+  "organization": {
+    "name": "愛川町（愛川町メール配信サービス）",
+    "sector": "自治体"
+  },
+  "title": "システム提供元ウイングアークNEXが使う「アララメッセージ」への不正アクセスで登録者のメールアドレス5,541件が流出",
+  "summary": "システム提供元ウイングアークNEXが使う「アララメッセージ」への不正アクセスで登録者のメールアドレス5,541件が流出。",
+  "published_on": "2026-11-17",
+  "first_published_on": "2026-11-17",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-17",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "メール配信に使われるアララ株式会社の「アララメッセージ」への第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 5541,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "2026年7月1日～10月31日に本登録され配信歴があるメールアドレス。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "ウイングアークNEX株式会社／アララ株式会社",
+  "sources": [
+    {
+      "url": "http://www.town.aikawa.kanagawa.jp/info/kouhou_kouchou/19290.html",
+      "type": "official",
+      "title": "愛川町メール配信サービスにおける委託先メール配信サービスへの不正アクセスによるメールアドレス流出に関するお詫びとお知らせ",
+      "published_on": "2026-11-17",
+      "checked_on": "2026-11-18"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

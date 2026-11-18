@@ -11,7 +11,7 @@
   "publication_kind": "initial",
   "occurred_on": "2026-11-08",
   "detected_on": null,
-  "updated_on": "2026-11-11",
+  "updated_on": "2026-11-17",
   "verification": "official",
   "leak_status": "confirmed",
   "incident_type": "attack",
@@ -25,7 +25,7 @@
       "count": null,
       "unit": "records",
       "qualifier": "unknown",
-      "description": "2026年4月8日～11月8日に依頼された出荷データのお届け先情報。範囲と件数は調査中。"
+      "description": "2026年4月8日～11月8日、2017年10月27日～2024年11月25日（一部）、2026年11月9日に依頼された出荷データのお届け先情報。件数は未公表。"
     }
   ],
   "data_types": [
@@ -43,8 +43,21 @@
       "title": "【重要】当社システムへの不正アクセスによる個人情報漏えいに関するお詫びとお知らせ",
       "published_on": "2026-11-11",
       "checked_on": "2026-11-12"
+    },
+    {
+      "url": "https://corp.openlogi.com/news/notice/notice-20261117/",
+      "type": "official",
+      "title": "【重要】当社システムへの不正アクセスによる個人情報漏えいに関するお詫びとお知らせ（第2報）",
+      "published_on": "2026-11-17",
+      "checked_on": "2026-11-18"
     }
   ],
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-11-17",
+      "summary": "第2報。対象期間に2017年10月27日～2024年11月25日と2026年11月9日の出荷データ（一部）を追加し、お届け先の氏名・住所・電話番号・メールアドレス・商品情報等の漏えいを確認。",
+      "source_index": 1
+    }
+  ],
   "notes": "クレジットカード番号は保有しておらず対象外。荷主事業者の各公表は別記録。"
 }

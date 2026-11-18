@@ -1,0 +1,46 @@
+{
+  "id": "kg-joho-karte-20261117",
+  "organization": {
+    "name": "KG情報",
+    "sector": "企業・団体"
+  },
+  "title": "「賃貸スタイル」などで使う「KARTE」への不正アクセスで検証用環境のテストデータに含まれる従業員の情報が漏えい",
+  "summary": "「賃貸スタイル」などで使う「KARTE」への不正アクセスで検証用環境のテストデータに含まれる従業員の情報が漏えい。",
+  "published_on": "2026-11-17",
+  "first_published_on": "2026-11-17",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-17",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "利用するプレイドのマーケティングツール「KARTE」への第三者による不正アクセス（プレイドはサーバーの脆弱性の悪用と公表）。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "検証用環境のテストデータに含まれていた従業員の情報。顧客の個人情報の漏えいは確認されていない。"
+    }
+  ],
+  "data_types": [
+    "従業員の情報"
+  ],
+  "related_vendor": "株式会社プレイド",
+  "sources": [
+    {
+      "url": "https://www.kg-net.co.jp/upload/Ir/2026_11/ZBGZieF2x98Mr6cm4Wv7EwI58qzAAHZYmZdOwWts.pdf",
+      "type": "official",
+      "title": "当社への影響と調査状況について（第一報）",
+      "published_on": "2026-11-17",
+      "checked_on": "2026-11-18"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

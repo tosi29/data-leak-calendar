@@ -1,0 +1,50 @@
+{
+  "id": "takarabelmont-karte-20261117",
+  "organization": {
+    "name": "タカラベルモント（BEAUTY CITY・TB WEB ORDER）",
+    "sector": "企業・団体"
+  },
+  "title": "メール配信等に使う「KARTE」への不正アクセスで会員制オンラインストアとサロン向け発注サイトの顧客情報の一部が漏えいした可能性",
+  "summary": "メール配信等に使う「KARTE」への不正アクセスで会員制オンラインストアとサロン向け発注サイトの顧客情報の一部が漏えいした可能性。",
+  "published_on": "2026-11-17",
+  "first_published_on": "2026-11-17",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-17",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "利用するプレイドのマーケティングツール「KARTE」への第三者による不正アクセス（プレイドはサーバーの脆弱性の悪用と公表）。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "両サービスの顧客情報。範囲・件数は確認中。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "メールアドレス",
+    "生年月日",
+    "性別",
+    "サロン名"
+  ],
+  "related_vendor": "株式会社プレイド",
+  "sources": [
+    {
+      "url": "https://www.takarabelmont.com/info_2026111701/",
+      "type": "official",
+      "title": "【重要】BEAUTY CITY／TB WEB ORDERにおける情報漏えいの可能性について（第一報）",
+      "published_on": "2026-11-17",
+      "checked_on": "2026-11-18"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

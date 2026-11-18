@@ -1,0 +1,59 @@
+{
+  "id": "sakai-eshinsei-tkc-arara-20261105",
+  "organization": {
+    "name": "堺市（堺市電子申請システム）",
+    "sector": "自治体"
+  },
+  "title": "電子申請システムの提供事業者TKCが使うメール配信サービスへの不正アクセスで利用者のメールアドレス64,073件が漏えい",
+  "summary": "電子申請システムの提供事業者TKCが使うメール配信サービスへの不正アクセスで利用者のメールアドレス64,073件が漏えい。",
+  "published_on": "2026-11-05",
+  "first_published_on": "2026-11-05",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-17",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "メール配信に使われるアララ株式会社の「アララメッセージ」への第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 64073,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "2026年7月1日～10月31日に本システムからメールを受信した利用者のメールアドレス（11月5日時点の公表は最大約29万件）。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "TKC／アララ株式会社",
+  "sources": [
+    {
+      "url": "https://www.city.sakai.lg.jp/shisei/koho/hodo/hodoteikyoshiryo/kakohodo/r8/r811/081105_06.files/1105_06.pdf",
+      "type": "official",
+      "title": "不正アクセスに伴う情報漏えいのおそれについて",
+      "published_on": "2026-11-05",
+      "checked_on": "2026-11-18"
+    },
+    {
+      "url": "https://www.city.sakai.lg.jp/shisei/koho/hodo/hodoteikyoshiryo/kakohodo/r8/r811/081117_02.files/1117_02.pdf",
+      "type": "official",
+      "title": "不正アクセスに伴う情報漏えいについて",
+      "published_on": "2026-11-17",
+      "checked_on": "2026-11-18"
+    }
+  ],
+  "updates": [
+    {
+      "date": "2026-11-17",
+      "summary": "システム提供事業者TKCの報告で利用者のメールアドレス64,073件の漏えいを確認。",
+      "source_index": 1
+    }
+  ],
+  "notes": "公表索引に載った11月4日の市ホームページの告知は404で、11月5日の報道提供資料を掲載日とした。"
+}

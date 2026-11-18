@@ -11,7 +11,7 @@
   "publication_kind": "initial",
   "occurred_on": null,
   "detected_on": null,
-  "updated_on": "2026-11-05",
+  "updated_on": "2026-11-18",
   "verification": "official",
   "leak_status": "confirmed",
   "incident_type": "attack",
@@ -22,10 +22,10 @@
   },
   "impact": [
     {
-      "count": null,
+      "count": 8132,
       "unit": "people",
-      "qualifier": "unknown",
-      "description": "対象顧客・人数はSMBCCFが調査中。"
+      "qualifier": "exact",
+      "description": "SMBCCFが保証するカードローン等の申込者（2005年1月～2021年3月）。"
     }
   ],
   "data_types": [
@@ -44,8 +44,21 @@
       "title": "SMBCコンシューマーファイナンス株式会社の保証システムへの不正アクセスによるお客さま情報の漏えいについて",
       "published_on": "2026-11-05",
       "checked_on": "2026-11-08"
+    },
+    {
+      "url": "https://www.fukuokabank.co.jp/announcement/important/y2026/20261118.html",
+      "type": "official",
+      "title": "SMBCコンシューマーファイナンス株式会社の保証システムへの不正アクセスによるお客さま情報の漏えいについて（第2報）",
+      "published_on": "2026-11-18",
+      "checked_on": "2026-11-18"
     }
   ],
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-11-18",
+      "summary": "第2報で対象者を8,132名（2005年1月～2021年3月の申込者の一部）と公表。",
+      "source_index": 1
+    }
+  ],
   "notes": "SMBCCFが保証するカードローン等の利用者・申込者が対象となる可能性。10月29日の電子地域通貨（Cuenote）の事案とは別。"
 }

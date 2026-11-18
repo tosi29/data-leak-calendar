@@ -1,0 +1,51 @@
+{
+  "id": "alpine-pcs-20261116",
+  "organization": {
+    "name": "アルピーヌ・ジャポン（ルノー・アルピーヌのロードサービス）",
+    "sector": "企業・団体"
+  },
+  "title": "ロードサービスの委託先プレステージ・コアソリューションの業務システムへの不正アクセスで登録顧客102,000名の個人データが持ち出された",
+  "summary": "ロードサービスの委託先プレステージ・コアソリューションの業務システムへの不正アクセスで登録顧客102,000名の個人データが持ち出された。",
+  "published_on": "2026-11-16",
+  "first_published_on": "2026-11-16",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-16",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "ロードサービス業務の委託先プレステージ・コアソリューションの業務システムへの第三者による不正アクセス（10月29日）。"
+  },
+  "impact": [
+    {
+      "count": 102000,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "ロードサービスに登録された顧客。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "電話番号",
+    "メールアドレス",
+    "車両情報",
+    "口座情報"
+  ],
+  "related_vendor": "株式会社プレステージ・コアソリューション",
+  "sources": [
+    {
+      "url": "https://www.alpinecars.jp/news/ajinfo2611/",
+      "type": "official",
+      "title": "外部事業者における個人情報漏えいに関するお知らせとお詫び",
+      "published_on": "2026-11-16",
+      "checked_on": "2026-11-18"
+    }
+  ],
+  "updates": [],
+  "notes": "同じお知らせで公表されたニュースレター（アララ「repica」）の事案は別記録。"
+}

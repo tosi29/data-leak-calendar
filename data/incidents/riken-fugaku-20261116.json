@@ -1,0 +1,57 @@
+{
+  "id": "riken-fugaku-20261116",
+  "organization": {
+    "name": "理化学研究所（計算科学研究センター）",
+    "sector": "教育・研究"
+  },
+  "title": "「富岳」の稼働状況ダッシュボードを足がかりにした内部ネットワークへの侵入で利用者最大4,597名の情報やファイルが持ち出された・可能性",
+  "summary": "「富岳」の稼働状況ダッシュボードを足がかりにした内部ネットワークへの侵入で利用者最大4,597名の情報やファイルが持ち出された・可能性。",
+  "published_on": "2026-11-16",
+  "first_published_on": "2026-11-16",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-16",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "インターネットに公開していた「富岳」の稼働状況ダッシュボードを足がかりに運用系の内部ネットワークへ侵入し複数のサーバーを不正操作。侵入方法は調査中。"
+  },
+  "impact": [
+    {
+      "count": 4597,
+      "unit": "people",
+      "qualifier": "maximum",
+      "description": "「富岳」登録利用者最大4,222名、「理究」登録利用者最大375名。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "メールアドレス",
+    "ID",
+    "ホームディレクトリのファイル",
+    "外部システムへの認証情報"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.riken.jp/pr/news/2026/20261116_2/index.html",
+      "type": "official",
+      "title": "スーパーコンピュータ「富岳」および「理究（りきゅう）」への不正アクセスによる個人情報漏えいの可能性について",
+      "published_on": "2026-11-16",
+      "checked_on": "2026-11-18"
+    },
+    {
+      "url": "https://www.r-ccs.riken.jp/outreach/topics/20261116-1/index.html",
+      "type": "official",
+      "title": "スーパーコンピュータ「富岳」および「理究（りきゅう）」への不正アクセスによる個人情報漏えいの可能性について",
+      "published_on": "2026-11-16",
+      "checked_on": "2026-11-18"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

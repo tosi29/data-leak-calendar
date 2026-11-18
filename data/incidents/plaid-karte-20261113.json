@@ -1,0 +1,67 @@
+{
+  "id": "plaid-karte-20261113",
+  "organization": {
+    "name": "プレイド（KARTE）",
+    "sector": "企業・団体"
+  },
+  "title": "マーケティングツール「KARTE」のサーバーの脆弱性を悪用した不正アクセスで利用企業のアカウントのメールアドレス79,249件と利用企業が取り込んだ情報が漏えい",
+  "summary": "マーケティングツール「KARTE」のサーバーの脆弱性を悪用した不正アクセスで利用企業のアカウントのメールアドレス79,249件と利用企業が取り込んだ情報が漏えい。",
+  "published_on": "2026-11-13",
+  "first_published_on": "2026-11-13",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-16",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "vulnerability",
+    "certainty": "confirmed",
+    "detail": "第三者が同社サーバーの脆弱性を悪用し、システムやデータベースの接続用認証情報を取得して不正にアクセス（2026年11月13日未明）。"
+  },
+  "impact": [
+    {
+      "count": 79249,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "KARTEのアカウントとして登録されているメールアドレス。利用企業が取り込んだデータ（個人情報を含む可能性）の件数は調査中。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス",
+    "利用企業がKARTEに取り込んだ顧客データ"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.release.tdnet.info/inbs/140120261113580181.pdf",
+      "type": "official",
+      "title": "当社サービスへの不正アクセスに関するお知らせ",
+      "published_on": "2026-11-13",
+      "checked_on": "2026-11-18"
+    },
+    {
+      "url": "https://plaid.co.jp/news/20261116/",
+      "type": "official",
+      "title": "不正アクセスによる個人情報を含む可能性のある情報等の漏えいに関するお詫びとお知らせ",
+      "published_on": "2026-11-16",
+      "checked_on": "2026-11-18"
+    },
+    {
+      "url": "https://www.release.tdnet.info/inbs/140120261116581661.pdf",
+      "type": "official",
+      "title": "不正アクセスによる個人情報を含む可能性のある情報の漏えいに関するお詫びとお知らせ",
+      "published_on": "2026-11-16",
+      "checked_on": "2026-11-18"
+    }
+  ],
+  "updates": [
+    {
+      "date": "2026-11-16",
+      "summary": "利用企業から預かる情報のうち個人情報を含む可能性のある一部の情報とKARTEアカウントのメールアドレス79,249件の漏えいを確認したと公表。",
+      "source_index": 1
+    }
+  ],
+  "notes": "11月13日の初報はサービス停止と不正アクセスの公表で、個人情報への影響は11月16日に公表。利用企業の公表はそれぞれ別記録とし、件数は合算しない。"
+}

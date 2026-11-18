@@ -1,0 +1,46 @@
+{
+  "id": "mutsu-keiyaku-mail-20261116",
+  "organization": {
+    "name": "むつ市（財務部契約課）",
+    "sector": "自治体"
+  },
+  "title": "入札参加資格者への一斉メールでBCCを使わず送信し、464社に他社のメールアドレスが表示された",
+  "summary": "入札参加資格者への一斉メールでBCCを使わず送信し、464社に他社のメールアドレスが表示された。",
+  "published_on": "2026-11-16",
+  "first_published_on": "2026-11-16",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-16",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "accident",
+  "cause": {
+    "category": "misdelivery",
+    "certainty": "confirmed",
+    "detail": "入札参加資格者500社への一斉送信で、BCC欄ではなくTO欄にすべての送信先を設定した。"
+  },
+  "impact": [
+    {
+      "count": 143,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "氏名等により個人を識別し得るメールアドレス（配信先464社）。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.city.mutsu.lg.jp/government/koho/files/puresuriri-su.pdf",
+      "type": "official",
+      "title": "電子メールの宛先設定誤りについて",
+      "published_on": "2026-11-16",
+      "checked_on": "2026-11-18"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

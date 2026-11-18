@@ -1,0 +1,49 @@
+{
+  "id": "nagano-kensyu-google-20261116",
+  "organization": {
+    "name": "長野県（健康福祉部）",
+    "sector": "自治体"
+  },
+  "title": "研修講師のGoogleアカウントへの不正アクセスで研修会参加予定者365名の名簿が閲覧された可能性",
+  "summary": "研修講師のGoogleアカウントへの不正アクセスで研修会参加予定者365名の名簿が閲覧された可能性。",
+  "published_on": "2026-11-16",
+  "first_published_on": "2026-11-16",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-16",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "県が研修会の講師を依頼した者のGoogleアカウントへの外部からの不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 365,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "令和4～8年度の研修会参加予定者。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "所属",
+    "職名",
+    "職種"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.pref.nagano.lg.jp/kaigo-shien/happyou/20261116press.html",
+      "type": "official",
+      "title": "県事業において講師依頼した者のGoogleアカウントへの不正アクセスに伴う個人情報漏えいの可能性について",
+      "published_on": "2026-11-16",
+      "checked_on": "2026-11-18"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

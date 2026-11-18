@@ -1,0 +1,50 @@
+{
+  "id": "ciw-kojoworks-karte-20261116",
+  "organization": {
+    "name": "コンフィデンス・インターワークス（工場ワークス）",
+    "sector": "企業・団体"
+  },
+  "title": "メール・LINE配信に使う「KARTE」への不正アクセスで会員データの一部が閲覧・取得された可能性",
+  "summary": "メール・LINE配信に使う「KARTE」への不正アクセスで会員データの一部が閲覧・取得された可能性。",
+  "published_on": "2026-11-16",
+  "first_published_on": "2026-11-16",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-16",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "利用するプレイドのマーケティングツール「KARTE」への第三者による不正アクセス（プレイドはサーバーの脆弱性の悪用と公表）。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "KARTEに連携していた会員データ。件数・項目は精査中。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "メールアドレス",
+    "電話番号",
+    "生年月日",
+    "住所"
+  ],
+  "related_vendor": "株式会社プレイド",
+  "sources": [
+    {
+      "url": "https://ciw.jp/news/2819/",
+      "type": "official",
+      "title": "【重要】外部委託先システムへの不正アクセスに伴う、会員情報漏洩に関するお知らせとお詫び（第一報）",
+      "published_on": "2026-11-16",
+      "checked_on": "2026-11-18"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

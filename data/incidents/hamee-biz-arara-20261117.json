@@ -1,0 +1,46 @@
+{
+  "id": "hamee-biz-arara-20261117",
+  "organization": {
+    "name": "Hamee（HameeBiz）",
+    "sector": "企業・団体"
+  },
+  "title": "卸販売サイトのメール配信に使うGMOメイクショップ「MakeRepeater」が使う「アララメッセージ」への不正アクセスでメールアドレス298件が流出",
+  "summary": "卸販売サイトのメール配信に使うGMOメイクショップ「MakeRepeater」が使う「アララメッセージ」への不正アクセスでメールアドレス298件が流出。",
+  "published_on": "2026-11-17",
+  "first_published_on": "2026-11-17",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-17",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "GMOメイクショップのメール配信サービス「MakeRepeater」が連携するアララの「アララメッセージ」への第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 298,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "預かっていたメールアドレス。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "GMOメイクショップ／アララ株式会社",
+  "sources": [
+    {
+      "url": "https://hamee.co.jp/news/vQ14AKQe",
+      "type": "official",
+      "title": "HameeBizのメール配信に利用していた外部サービスへの不正アクセスに関するお詫びとお知らせ",
+      "published_on": "2026-11-17",
+      "checked_on": "2026-11-18"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

@@ -1,0 +1,49 @@
+{
+  "id": "infcurion-notion-fireworks-20261118",
+  "organization": {
+    "name": "インフキュリオン",
+    "sector": "企業・団体"
+  },
+  "title": "Notion社の委託先への不正アクセスで取引先担当者・採用応募者・従業員の氏名等232件を含む情報が漏えい",
+  "summary": "Notion社の委託先への不正アクセスで取引先担当者・採用応募者・従業員の氏名等232件を含む情報が漏えい。",
+  "published_on": "2026-11-18",
+  "first_published_on": "2026-11-18",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-18",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "業務で利用するNotionのAI機能（Notion AI）の処理委託先Fireworks AIの環境への第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 232,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "取引先担当者、採用選考の応募者、従業員の氏名・電話番号・メールアドレス等。"
+    }
+  ],
+  "data_types": [
+    "Notion AIの会話記録",
+    "氏名",
+    "電話番号",
+    "メールアドレス"
+  ],
+  "related_vendor": "Fireworks AI",
+  "sources": [
+    {
+      "url": "https://www.release.tdnet.info/inbs/140120261117582347.pdf",
+      "type": "official",
+      "title": "外部委託先への不正アクセスに伴う情報漏えいに関するお知らせ",
+      "published_on": "2026-11-18",
+      "checked_on": "2026-11-18"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

@@ -1,0 +1,53 @@
+{
+  "id": "hanwa-otori-ds-20261117",
+  "organization": {
+    "name": "阪和鳳自動車学校",
+    "sector": "企業・団体"
+  },
+  "title": "委託先が構築した入学事前登録フォームの管理画面の不備を悪用した不正アクセスで登録者5,226名の情報が持ち出された",
+  "summary": "委託先が構築した入学事前登録フォームの管理画面の不備を悪用した不正アクセスで登録者5,226名の情報が持ち出された。",
+  "published_on": "2026-11-17",
+  "first_published_on": "2026-11-17",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-17",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "configuration",
+    "certainty": "confirmed",
+    "detail": "委託先が構築した入学事前登録フォームのシステムに外部から管理画面に入れる不備があり、悪用された。"
+  },
+  "impact": [
+    {
+      "count": 5226,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "2025年7月1日～2026年9月11日の登録者。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "フリガナ",
+    "性別",
+    "生年月日",
+    "住所",
+    "電話番号",
+    "メールアドレス",
+    "勤務先・学校名"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.hanwaotori.co.jp/kinkyurenraku/4018/",
+      "type": "official",
+      "title": "入学事前登録フォームにおける個人情報流出に関するお知らせとお詫び",
+      "published_on": "2026-11-17",
+      "checked_on": "2026-11-18"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

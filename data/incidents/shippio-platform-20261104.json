@@ -11,7 +11,7 @@
   "publication_kind": "initial",
   "occurred_on": "2026-11-01",
   "detected_on": "2026-11-02",
-  "updated_on": "2026-11-05",
+  "updated_on": "2026-11-16",
   "verification": "official",
   "leak_status": "confirmed",
   "incident_type": "attack",
@@ -58,6 +58,13 @@
       "title": "【重要】当社プラットフォームのサービス再開および不正アクセスに関するご報告（第二報）",
       "published_on": "2026-11-05",
       "checked_on": "2026-11-08"
+    },
+    {
+      "url": "https://www.shippio.io/news/20261116/",
+      "type": "official",
+      "title": "【重要】当社プラットフォームへの不正アクセスに関するご報告（第三報）",
+      "published_on": "2026-11-16",
+      "checked_on": "2026-11-18"
     }
   ],
   "updates": [
@@ -65,6 +72,11 @@
       "date": "2026-11-05",
       "summary": "第二報。11月5日からサービスを順次再開し全ユーザーのパスワードをリセット。ユーザーの電話番号は保持されておらず漏えいしていなかったと訂正。社内共有ファイルの一部も閲覧・取得された。",
       "source_index": 1
+    },
+    {
+      "date": "2026-11-16",
+      "summary": "第三報。詳細なログ解析の結果を反映し、取得された情報の範囲を更新。",
+      "source_index": 2
     }
   ],
   "notes": "会社名・チーム名・住所・電話番号は全顧客分の閲覧を確認。システム上のデータの一部も損傷。"

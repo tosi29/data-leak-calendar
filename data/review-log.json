@@ -9140,5 +9140,99 @@
       "https://secure-navi-inc.jp/news/news_20261111"
     ],
     "reason": "スクリプト描画ページ内のデータから本文を復元し、顧客の会社名・担当者氏名等の漏えいのおそれを確認したため掲載。"
+  },
+  {
+    "candidate": {
+      "id": "year-recheck-3900d38bfe32",
+      "organization": "株式会社菱熱",
+      "reported_on": "2026-07-28",
+      "verification": "pending",
+      "reference_url": "https://www.ryonetsu.co.jp/news/detail/5bcf55e7-106c-4349-86e0-d6be0ae8ea22",
+      "note": "2026年11月1日再調査：7月28日の公式告知では不正メール送信を確認。個人情報の漏えい有無・対象の具体化は未確認。 2026年11月13日再調査：参照先の再取得と公表索引の照合で、公表日・対象を確定する新しい本文は確認できず継続。",
+      "reviewed_on": "2026-11-13",
+      "checked_urls": [
+        "https://www.ryonetsu.co.jp/news/detail/5bcf55e7-106c-4349-86e0-d6be0ae8ea22"
+      ]
+    },
+    "reviewed_on": "2026-11-18",
+    "resolution": "published",
+    "incident_ids": [
+      "ryonetsu-mail-account-20260728"
+    ],
+    "source_urls": [
+      "https://www.ryonetsu.co.jp/news/detail/43953f0b-a26e-4ef6-9a75-ce035a0f8b61"
+    ],
+    "reason": "11月16日の最終報で、当該社員の受信メールに含まれる顧客の個人情報が漏洩した可能性と対象者への個別通知を公表したため掲載。"
+  },
+  {
+    "candidate": {
+      "id": "nov13-plaid-karte-review",
+      "organization": "プレイド（KARTE）",
+      "reported_on": "2026-11-13",
+      "verification": "pending",
+      "reference_url": "https://www.release.tdnet.info/inbs/140120261113580181.pdf",
+      "reviewed_on": "2026-11-13",
+      "checked_urls": [
+        "https://www.release.tdnet.info/inbs/140120261113580181.pdf"
+      ],
+      "note": "2026年11月13日調査：「KARTE」への第三者からの不正アクセスを検知し全プロジェクトのサービスを停止と公表。個人情報への影響は記載がないため保留。"
+    },
+    "reviewed_on": "2026-11-18",
+    "resolution": "published",
+    "incident_ids": [
+      "plaid-karte-20261113"
+    ],
+    "source_urls": [
+      "https://plaid.co.jp/news/20261116/",
+      "https://www.release.tdnet.info/inbs/140120261116581661.pdf"
+    ],
+    "reason": "11月16日の続報でKARTEアカウントのメールアドレス79,249件と利用企業が取り込んだ個人情報を含む可能性のある情報の漏えいを公表したため掲載。"
+  },
+  {
+    "candidate": {
+      "id": "nov13-sweep-t012",
+      "organization": "恵庭市（アララ メッセージ不正アクセス）",
+      "reported_on": "2026-11-02",
+      "verification": "pending",
+      "reference_url": "https://www.city.eniwa.hokkaido.jp/soshikikarasagasu/kikakushinkoubu/kohoka/koho_kocho/homepage/23814.html",
+      "reviewed_on": "2026-11-13",
+      "checked_urls": [
+        "https://www.city.eniwa.hokkaido.jp/soshikikarasagasu/kikakushinkoubu/kohoka/koho_kocho/homepage/23814.html"
+      ],
+      "note": "2026年11月13日調査：11月分の公表索引の再照合で見つかった未収録行。公式ページを取得できず（HTTP 404）本文未確認。索引の規模：調査中"
+    },
+    "reviewed_on": "2026-11-18",
+    "resolution": "published",
+    "incident_ids": [
+      "eniwa-mail-arara-20261117"
+    ],
+    "source_urls": [
+      "https://www.city.eniwa.hokkaido.jp/soshikikarasagasu/kikakushinkoubu/kohoka/koho_kocho/mailservice/23821.html"
+    ],
+    "reason": "11月17日更新の市ページでメールアドレス2,111件の漏えいを確認したため掲載。"
+  },
+  {
+    "candidate": {
+      "id": "nov13-sweep-t157",
+      "organization": "堺市（TKC再委託先 アララ メッセージへの不正アクセス）",
+      "reported_on": "2026-11-04",
+      "verification": "pending",
+      "reference_url": "https://www.city.sakai.lg.jp/shisei/gyosei/it/20261104_denshishinsei.html",
+      "reviewed_on": "2026-11-13",
+      "checked_urls": [
+        "https://www.city.sakai.lg.jp/shisei/gyosei/it/20261104_denshishinsei.html"
+      ],
+      "note": "2026年11月13日調査：11月分の公表索引の再照合で見つかった未収録行。公式ページを取得できず（HTTP 404）本文未確認。索引の規模：メールアドレス 最大約29万件"
+    },
+    "reviewed_on": "2026-11-18",
+    "resolution": "published",
+    "incident_ids": [
+      "sakai-eshinsei-tkc-arara-20261105"
+    ],
+    "source_urls": [
+      "https://www.city.sakai.lg.jp/shisei/koho/hodo/hodoteikyoshiryo/kakohodo/r8/r811/081105_06.files/1105_06.pdf",
+      "https://www.city.sakai.lg.jp/shisei/koho/hodo/hodoteikyoshiryo/kakohodo/r8/r811/081117_02.files/1117_02.pdf"
+    ],
+    "reason": "11月5日と11月17日の報道提供資料（PDF）を取得し、メールアドレス64,073件の漏えいを確認したため掲載。"
   }
 ]

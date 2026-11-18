@@ -1,0 +1,46 @@
+{
+  "id": "rococo-arara-20261116",
+  "organization": {
+    "name": "ロココ",
+    "sector": "企業・団体"
+  },
+  "title": "メール配信委託先アララのサービスへの不正アクセスで顧客のメールアドレス105,731件が漏えい",
+  "summary": "メール配信委託先アララのサービスへの不正アクセスで顧客のメールアドレス105,731件が漏えい。",
+  "published_on": "2026-11-16",
+  "first_published_on": "2026-11-16",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-16",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "メール配信に使われるアララ株式会社の「アララメッセージ」への第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 105731,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "2026年7月1日～10月31日の配信に使われたメールアドレス（重複を除く）。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "アララ株式会社",
+  "sources": [
+    {
+      "url": "https://www.rococo.co.jp/news/20261113/",
+      "type": "official",
+      "title": "委託先メール配信サービスへの不正アクセスによる個人情報漏洩に関するお詫びとお知らせ",
+      "published_on": "2026-11-16",
+      "checked_on": "2026-11-18"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

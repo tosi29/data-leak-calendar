@@ -1,0 +1,52 @@
+{
+  "id": "rizap-karte-20261117",
+  "organization": {
+    "name": "RIZAP（chocoZAP・ZAP ID）",
+    "sector": "企業・団体"
+  },
+  "title": "一部のWebサービスで使う「KARTE」への不正アクセスでZAP ID登録者のメールアドレス最大約432万件などが漏えいした可能性",
+  "summary": "一部のWebサービスで使う「KARTE」への不正アクセスでZAP ID登録者のメールアドレス最大約432万件などが漏えいした可能性。",
+  "published_on": "2026-11-17",
+  "first_published_on": "2026-11-17",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-17",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "利用するプレイドのマーケティングツール「KARTE」への第三者による不正アクセス（プレイドはサーバーの脆弱性の悪用と公表）。"
+  },
+  "impact": [
+    {
+      "count": 4320000,
+      "unit": "records",
+      "qualifier": "maximum_approximate",
+      "description": "ZAP ID登録者のメールアドレス（重複を含む。うち氏名を含むもの最大約6万件）。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス",
+    "氏名",
+    "会員ID",
+    "性別",
+    "年代",
+    "都道府県",
+    "LINE連携用の識別番号"
+  ],
+  "related_vendor": "株式会社プレイド",
+  "sources": [
+    {
+      "url": "https://chocozap.jp/info/25114",
+      "type": "official",
+      "title": "【お詫び】外部サービス「KARTE」への不正アクセスによる個人情報漏えいの可能性および一部サービスの一時停止について",
+      "published_on": "2026-11-17",
+      "checked_on": "2026-11-18"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

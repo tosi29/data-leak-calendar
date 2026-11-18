@@ -4,16 +4,16 @@
     "name": "大阪府（大阪府行政オンラインシステム）",
     "sector": "自治体"
   },
-  "title": "行政オンラインシステムの提供事業者が使う外部メール配信サービスへの不正アクセスで利用者の情報に漏えいのおそれ",
-  "summary": "行政オンラインシステムの提供事業者が使う外部メール配信サービスへの不正アクセスで利用者の情報に漏えいのおそれ。",
+  "title": "行政オンラインシステムの提供事業者が使う外部メール配信サービスへの不正アクセスで利用者のメールアドレス107,804件が漏えい",
+  "summary": "行政オンラインシステムの提供事業者が使う外部メール配信サービスへの不正アクセスで利用者のメールアドレス107,804件が漏えい。",
   "published_on": "2026-11-04",
   "first_published_on": "2026-11-04",
   "publication_kind": "initial",
   "occurred_on": null,
   "detected_on": null,
-  "updated_on": "2026-11-04",
+  "updated_on": "2026-11-16",
   "verification": "official",
-  "leak_status": "suspected",
+  "leak_status": "confirmed",
   "incident_type": "attack",
   "cause": {
     "category": "unauthorized_access",
@@ -22,10 +22,10 @@
   },
   "impact": [
     {
-      "count": null,
+      "count": 107804,
       "unit": "records",
-      "qualifier": "unknown",
-      "description": "件数は未公表。"
+      "qualifier": "exact",
+      "description": "2026年7月1日～10月31日に本システムから通知メールを送信したメールアドレス。"
     }
   ],
   "data_types": [
@@ -39,8 +39,21 @@
       "title": "大阪府行政オンラインシステムでの情報漏えいのおそれについて",
       "published_on": "2026-11-04",
       "checked_on": "2026-11-13"
+    },
+    {
+      "url": "https://www.pref.osaka.lg.jp/hodo/fumin/o050180/prs_00002.html",
+      "type": "official",
+      "title": "大阪府行政オンラインシステムでの情報漏えいについて",
+      "published_on": "2026-11-16",
+      "checked_on": "2026-11-18"
     }
   ],
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-11-16",
+      "summary": "利用者のメールアドレス107,804件の漏えいを確認。",
+      "source_index": 1
+    }
+  ],
   "notes": "大阪市の行政オンラインシステムの公表（既存記録）とは別記録。"
 }

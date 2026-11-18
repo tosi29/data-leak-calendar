@@ -1,0 +1,49 @@
+{
+  "id": "kaunet-karte-20261117",
+  "organization": {
+    "name": "カウネット（カウネット・おうちカウネット）",
+    "sector": "企業・団体"
+  },
+  "title": "告知やメール案内に使う「KARTE」への不正アクセスで顧客のメールアドレス・顧客番号・電話番号・顧客名称が漏えい",
+  "summary": "告知やメール案内に使う「KARTE」への不正アクセスで顧客のメールアドレス・顧客番号・電話番号・顧客名称が漏えい。",
+  "published_on": "2026-11-17",
+  "first_published_on": "2026-11-17",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-17",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "利用するプレイドのマーケティングツール「KARTE」への第三者による不正アクセス（プレイドはサーバーの脆弱性の悪用と公表）。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "KARTEに登録していた顧客情報。件数はプレイドが精査中。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス",
+    "顧客番号",
+    "電話番号",
+    "顧客名称"
+  ],
+  "related_vendor": "株式会社プレイド",
+  "sources": [
+    {
+      "url": "https://www.kokuyo.com/news/important/20261117/",
+      "type": "official",
+      "title": "【カウネット】株式会社プレイドで発生した不正アクセスに伴うメールアドレス等の漏えいについて",
+      "published_on": "2026-11-17",
+      "checked_on": "2026-11-18"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

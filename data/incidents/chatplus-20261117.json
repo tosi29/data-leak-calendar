@@ -1,0 +1,46 @@
+{
+  "id": "chatplus-20261117",
+  "organization": {
+    "name": "チャットプラス",
+    "sector": "企業・団体"
+  },
+  "title": "「ChatPlus」等で使うWebサーバーへの不正アクセスで利用企業から預かる個人データが閲覧・取得された可能性",
+  "summary": "「ChatPlus」等で使うWebサーバーへの不正アクセスで利用企業から預かる個人データが閲覧・取得された可能性。",
+  "published_on": "2026-11-17",
+  "first_published_on": "2026-11-17",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-17",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "「ChatPlus」「AI AgentPlus」「FAQPlus」で利用する一部のWebサーバーへの外部からの不正アクセス（11月13日、17日に検知）。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "サービス利用者から預かる個人データ。影響範囲は調査中。"
+    }
+  ],
+  "data_types": [
+    "利用者から預かる個人データ"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.release.tdnet.info/inbs/140120261117582334.pdf",
+      "type": "official",
+      "title": "当社サービスに対する不正アクセスに関するお知らせ（第一報）",
+      "published_on": "2026-11-17",
+      "checked_on": "2026-11-18"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

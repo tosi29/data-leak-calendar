@@ -1,0 +1,63 @@
+{
+  "id": "caitech-karte-20261117",
+  "organization": {
+    "name": "カイテク",
+    "sector": "企業・団体"
+  },
+  "title": "2025年1月まで利用した「KARTE」への不正アクセスで、契約終了後も残っていた登録ワーカーのメールアドレス27,530件などが流出",
+  "summary": "2025年1月まで利用した「KARTE」への不正アクセスで、契約終了後も残っていた登録ワーカーのメールアドレス27,530件などが流出。",
+  "published_on": "2026-11-17",
+  "first_published_on": "2026-11-17",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-18",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "2025年1月末まで利用したプレイドの「KARTE」への第三者による不正アクセス。契約終了後90日以内に消去される取り決めだった情報が残っていた。"
+  },
+  "impact": [
+    {
+      "count": 27530,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "2023年2月1日～2025年1月31日の登録ワーカーのメールアドレス。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス",
+    "ユーザーID",
+    "性別",
+    "生年月日",
+    "都道府県"
+  ],
+  "related_vendor": "株式会社プレイド",
+  "sources": [
+    {
+      "url": "https://corp.caitech.co.jp/news/notice261117/",
+      "type": "official",
+      "title": "過去の委託先における不正アクセスによる個人情報流出に関するお知らせとお詫び",
+      "published_on": "2026-11-17",
+      "checked_on": "2026-11-18"
+    },
+    {
+      "url": "https://corp.caitech.co.jp/news/notice261118/",
+      "type": "official",
+      "title": "(続報)過去の委託先における不正アクセスに関する調査結果のお知らせ",
+      "published_on": "2026-11-18",
+      "checked_on": "2026-11-18"
+    }
+  ],
+  "updates": [
+    {
+      "date": "2026-11-18",
+      "summary": "続報。受領データの精査で流出した個人情報はメールアドレス27,530件と確認。ユーザーID・性別・生年月日等はメールアドレスと紐づかない状態で流出し、姓名は流出していない。",
+      "source_index": 1
+    }
+  ],
+  "notes": ""
+}

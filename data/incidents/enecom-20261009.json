@@ -10,17 +10,17 @@
   "publication_kind": "initial",
   "occurred_on": null,
   "detected_on": "2026-10-06",
-  "updated_on": "2026-10-15",
+  "updated_on": "2026-11-16",
   "verification": "official",
   "incident_type": "attack",
-  "leak_status": "suspected",
+  "leak_status": "confirmed",
   "summary": "複数ファイルの外部流出の形跡を確認。顧客情報が含まれた可能性があり調査中。",
   "impact": [
     {
-      "count": null,
+      "count": 2940,
       "unit": "records",
-      "qualifier": "unknown",
-      "description": "顧客情報の対象範囲を調査中"
+      "qualifier": "exact",
+      "description": "顧客・社員等の氏名・勤務先・所属・メールアドレス・電話番号等（うち社員情報1,838件）。"
     }
   ],
   "data_types": [
@@ -39,10 +39,23 @@
       "title": "社内ネットワークへの不正アクセスと顧客情報流出の可能性",
       "published_on": "2026-10-09",
       "checked_on": "2026-10-15"
+    },
+    {
+      "url": "https://www.enecom.co.jp/information/4121/",
+      "type": "official",
+      "title": "当社社内ネットワークへの不正アクセスに関する調査完了および対策実施について",
+      "published_on": "2026-11-16",
+      "checked_on": "2026-11-18"
     }
   ],
   "notes": "メガ・エッグの顧客情報流出は現時点で未確認。サービス提供への影響はないと公表。",
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-11-16",
+      "summary": "調査完了を公表。流出した個人情報は2,940件（うち社員情報1,838件）で、メガ・エッグ等の顧客情報の流出は確認されていない。",
+      "source_index": 1
+    }
+  ],
   "vendor_research": {
     "checked_on": "2026-10-15",
     "result": "not_identified",
@@ -50,6 +63,10 @@
     "source_checks": [
       {
         "source_index": 0,
+        "status": "reviewed"
+      },
+      {
+        "source_index": 1,
         "status": "reviewed"
       }
     ]

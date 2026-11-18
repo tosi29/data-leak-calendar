@@ -1,0 +1,47 @@
+{
+  "id": "campfire-karte-20261117",
+  "organization": {
+    "name": "CAMPFIRE",
+    "sector": "企業・団体"
+  },
+  "title": "メール配信などに使う「KARTE」への不正アクセスで連携していた会員のユーザーID・メールアドレス等が漏えい",
+  "summary": "メール配信などに使う「KARTE」への不正アクセスで連携していた会員のユーザーID・メールアドレス等が漏えい。",
+  "published_on": "2026-11-17",
+  "first_published_on": "2026-11-17",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-17",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "利用するプレイドのマーケティングツール「KARTE」への第三者による不正アクセス（プレイドはサーバーの脆弱性の悪用と公表）。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "KARTEの紐付けテーブルに取り込まれた会員情報。件数は未公表。"
+    }
+  ],
+  "data_types": [
+    "ユーザーID",
+    "メールアドレス"
+  ],
+  "related_vendor": "株式会社プレイド",
+  "sources": [
+    {
+      "url": "https://campfire.co.jp/press/2026/11/17/campfire/",
+      "type": "official",
+      "title": "メール配信システム「KARTE」への不正アクセスに関するご報告",
+      "published_on": "2026-11-17",
+      "checked_on": "2026-11-18"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

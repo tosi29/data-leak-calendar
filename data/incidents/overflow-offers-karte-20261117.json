@@ -1,0 +1,49 @@
+{
+  "id": "overflow-offers-karte-20261117",
+  "organization": {
+    "name": "overflow（Offers）",
+    "sector": "企業・団体"
+  },
+  "title": "2023年12月まで連携していた「KARTE」への不正アクセスでプレイドのサーバーに残っていたOffers会員情報最大29,950件が漏えい",
+  "summary": "2023年12月まで連携していた「KARTE」への不正アクセスでプレイドのサーバーに残っていたOffers会員情報最大29,950件が漏えい。",
+  "published_on": "2026-11-17",
+  "first_published_on": "2026-11-17",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-17",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "利用するプレイドのマーケティングツール「KARTE」への第三者による不正アクセス（プレイドはサーバーの脆弱性の悪用と公表）。"
+  },
+  "impact": [
+    {
+      "count": 29950,
+      "unit": "records",
+      "qualifier": "maximum",
+      "description": "ワーカー・企業担当者の会員情報（重複を含む。人数は確認中）。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "メールアドレス",
+    "生年月日",
+    "会員番号"
+  ],
+  "related_vendor": "株式会社プレイド",
+  "sources": [
+    {
+      "url": "https://offers.jp/notice_karte_incident",
+      "type": "official",
+      "title": "外部サービスへの不正アクセスによる個人情報の漏えいについて（お詫び）",
+      "published_on": "2026-11-17",
+      "checked_on": "2026-11-18"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

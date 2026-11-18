@@ -1,0 +1,46 @@
+{
+  "id": "shiroi-wingarc-arara-20261117",
+  "organization": {
+    "name": "白井市（しろいメール配信サービス）",
+    "sector": "自治体"
+  },
+  "title": "委託先ウイングアークNEXが使う「アララメッセージ」への不正アクセスでメール配信サービスの登録メールアドレス5,065件が漏えい",
+  "summary": "委託先ウイングアークNEXが使う「アララメッセージ」への不正アクセスでメール配信サービスの登録メールアドレス5,065件が漏えい。",
+  "published_on": "2026-11-17",
+  "first_published_on": "2026-11-17",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-17",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "メール配信に使われるアララ株式会社の「アララメッセージ」への第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 5065,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "2026年7月1日～10月31日に本登録され配信歴があるメールアドレス。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "ウイングアークNEX株式会社／アララ株式会社",
+  "sources": [
+    {
+      "url": "https://www.city.shiroi.chiba.jp/soshiki/seisaku/keiei/kis005/18730.html",
+      "type": "official",
+      "title": "しろいメール配信サービスにおける情報漏えい事案について",
+      "published_on": "2026-11-17",
+      "checked_on": "2026-11-18"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}
