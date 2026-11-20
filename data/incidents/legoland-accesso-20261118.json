@@ -1,0 +1,52 @@
+{
+  "id": "legoland-accesso-20261118",
+  "organization": {
+    "name": "LEGOLAND Japan（年間パスポート）",
+    "sector": "企業・団体"
+  },
+  "title": "年間パスポート販売に使うaccesso社のプラットフォームの脆弱性を突いた不正アクセスで購入者約15万人の個人情報が漏えいした可能性",
+  "summary": "年間パスポート販売に使うaccesso社のプラットフォームの脆弱性を突いた不正アクセスで購入者約15万人の個人情報が漏えいした可能性。",
+  "published_on": "2026-11-18",
+  "first_published_on": "2026-11-18",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-18",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "vulnerability",
+    "certainty": "confirmed",
+    "detail": "年間パスポートの販売に利用するaccesso Technology Group, plcのプラットフォームの脆弱性を第三者が悪用した。"
+  },
+  "impact": [
+    {
+      "count": 150000,
+      "unit": "people",
+      "qualifier": "approximate",
+      "description": "年間パスポート購入者（有効期限切れを含む）。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "生年月日",
+    "性別",
+    "住所",
+    "メールアドレス",
+    "電話番号",
+    "年間パスポートのバーコード番号"
+  ],
+  "related_vendor": "accesso Technology Group, plc",
+  "sources": [
+    {
+      "url": "https://www.legoland.jp/operation/news/news-release/news20261118/",
+      "type": "official",
+      "title": "年間パスポートご購入者様の個人情報への不正アクセスに関するお詫びとお知らせ",
+      "published_on": "2026-11-18",
+      "checked_on": "2026-11-20"
+    }
+  ],
+  "updates": [],
+  "notes": "9月25日公表のホテル予約プラットフォームの事案は別記録。"
+}

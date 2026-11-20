@@ -1,0 +1,51 @@
+{
+  "id": "antlers-openlogi-20261118",
+  "organization": {
+    "name": "鹿島アントラーズ・エフ・シー",
+    "sector": "企業・団体"
+  },
+  "title": "物流委託先オープンロジのシステムへの不正アクセスでオンラインストア等の配送先40,844人の情報が流出",
+  "summary": "物流委託先オープンロジのシステムへの不正アクセスでオンラインストア等の配送先40,844人の情報が流出。",
+  "published_on": "2026-11-18",
+  "first_published_on": "2026-11-18",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-18",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "商品配送等を委託する株式会社オープンロジのシステムへの第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 40844,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "オンラインストアの商品配送と会員向けシーズンブック発送に利用した届け先。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "電話番号",
+    "メールアドレス",
+    "注文商品",
+    "注文ID"
+  ],
+  "related_vendor": "株式会社オープンロジ",
+  "sources": [
+    {
+      "url": "https://www.antlers.co.jp/blogs/news/261118ytxj2u",
+      "type": "official",
+      "title": "オープンロジ社への不正アクセスによる個人情報流出に関するお詫びとお知らせ",
+      "published_on": "2026-11-18",
+      "checked_on": "2026-11-20"
+    }
+  ],
+  "updates": [],
+  "notes": "対象期間は2017年10月27日～2024年11月25日と2026年4月8日～11月9日。"
+}

@@ -1,0 +1,146 @@
+{
+  "checked_on": "2026-11-20",
+  "checked_at": "2026-11-20T23:59:00+09:00",
+  "coverage_start": "2026-11-18",
+  "coverage_end": "2026-11-20",
+  "stats": {
+    "baseline_incidents": 2903,
+    "added_incidents": 42,
+    "updated_incidents": 14,
+    "total_incidents": 2945,
+    "added_by_publication_date": {
+      "2026-11-12": 1,
+      "2026-11-13": 1,
+      "2026-11-14": 1,
+      "2026-11-17": 1,
+      "2026-11-18": 24,
+      "2026-11-19": 13,
+      "2026-11-20": 1
+    },
+    "baseline_candidates": 132,
+    "new_candidates": 5,
+    "resolved_candidates": 1,
+    "pending_candidates": 136
+  },
+  "added_incident_ids": [
+    "tribeau-clinic-admin-20261119",
+    "sbc-medical-web-db-20261119",
+    "schoo-swing-20261119",
+    "schoo-karte-20261118",
+    "layerx-karte-20261119",
+    "mufg-nicos-popay-karte-20261119",
+    "kose-addiction-karte-20261119",
+    "rumoi-gis-malware-20261119",
+    "timee-karte-20261119",
+    "ls-support-chatplus-20261119",
+    "sride-karte-20261119",
+    "mosh-karte-20261119",
+    "kyash-internal-tool-20261119",
+    "sharp-cocoro-karte-20261119",
+    "jp-mirai-portal-20261118",
+    "mutb-karte-20261118",
+    "antlers-openlogi-20261118",
+    "sankei-digital-karte-20261118",
+    "chuo-lookmee-karte-20261118",
+    "ishikawa-nowa-nec-20261118",
+    "wealthnavi-karte-20261118",
+    "basefood-karte-20261118",
+    "kabucom-karte-20261118",
+    "sms-karte-20261118",
+    "agileware-backup-20261118",
+    "terilogy-cloudtriage-20261118",
+    "jleague-karte-20261118",
+    "mhlw-drug-supply-20261118",
+    "rokkatei-online-20261118",
+    "sendai-mail-incrave-20261118",
+    "mufg-bank-karte-20261118",
+    "hachioji-teket-20261118",
+    "legoland-accesso-20261118",
+    "toyota-wallet-karte-20261118",
+    "ame-kaze-pocketmarche-karte-20261118",
+    "omds-karte-20261118",
+    "aircloset-karte-20261118",
+    "stripe-intl-karte-20261117",
+    "pocketchange-pokepay-20261114",
+    "keisei-skyliner-20261113",
+    "ishibashi-arara-20261112",
+    "infcurion-wallet-station-20261120"
+  ],
+  "updated_incident_ids": [
+    "campfire-karte-20261117",
+    "morisawa-karte-20261117",
+    "bellface-karte-20261116",
+    "keihan-comsbi-20261114",
+    "giants-clubgiants-20261113",
+    "neowing-20261113",
+    "tsukaeru-portal-20261107",
+    "optage-mineo-karte-20261116",
+    "nojima-member-server-20261102",
+    "plaid-karte-20261113",
+    "nulab-cacoo-20261116",
+    "temairazu-20260928",
+    "daytona-blastmail-20261022",
+    "iore-notion-fireworks-20261113"
+  ],
+  "new_candidate_ids": [
+    "nov20-tokyo-japanticket-review",
+    "nov20-tokyo-arara-review",
+    "nov20-uniformnext-karte-review",
+    "nov20-ensapia-notion-review",
+    "nov20-hi-smarriage-review"
+  ],
+  "resolved_candidate_ids": [
+    "nov16-keisei-skyliner-review"
+  ],
+  "method": [
+    "前回調査（11月18日夜）以降を対象に、JSON形式の2索引で11月18日以降に公表・更新された行と11月18～20日の適時開示一覧から一次情報URLを抽出し、既存の掲載JSON・確認待ち候補・照合記録の出典URLと組織名で照合した。",
+    "未照合の公式HTML・PDF約90件を一括取得し、取得できなかったページ（仙台市、ユニフォームネクスト、ENSAPIA Tokyo）はヘッドレスブラウザーで再取得した。本文を個別に読んで件数・状態・公表日を確認した。",
+    "続報は既存IDへ統合した。KARTE（プレイド）・オープンロジ・アララ・teket・COMSBIの利用組織の公表は提供元の公表と別に記録し、件数は合算しない。"
+  ],
+  "limitations": [
+    "11月20日夜の調査時点までの公表を対象とし、11月19～20日分は索引への反映途中で網羅性が低い。KARTE利用企業の公表は続いており、漏れゼロを意味しない。",
+    "索引のうち1つは11月18日以降の新規行がなく、主に残る1索引と適時開示に依拠した。",
+    "既存の確認待ち候補は、今回の索引に続報が載ったもの以外は再調査していない。"
+  ],
+  "search_result_urls": [
+    "https://incidents.seory.co.jp/incidents.json",
+    "https://jouhourouei.clipmaster.jp/data/incidents.json",
+    "https://www.release.tdnet.info/inbs/I_list_001_20261118.html",
+    "https://www.release.tdnet.info/inbs/I_list_002_20261118.html",
+    "https://www.release.tdnet.info/inbs/I_list_001_20261119.html",
+    "https://www.release.tdnet.info/inbs/I_list_002_20261119.html",
+    "https://www.release.tdnet.info/inbs/I_list_003_20261119.html",
+    "https://www.release.tdnet.info/inbs/I_list_001_20261120.html",
+    "https://www.release.tdnet.info/inbs/I_list_002_20261120.html",
+    "https://www.release.tdnet.info/inbs/I_list_003_20261120.html"
+  ],
+  "retrieval_checks": [
+    {
+      "url": "https://www.metro.tokyo.lg.jp/information/press/2026/11/2026111801",
+      "status": "unavailable",
+      "final_url": null
+    },
+    {
+      "url": "https://www.metro.tokyo.lg.jp/information/press/2026/11/2026111819",
+      "status": "unavailable",
+      "final_url": null
+    },
+    {
+      "url": "https://www.uniformnext.com/info/20261118/",
+      "status": "unavailable",
+      "final_url": null
+    },
+    {
+      "url": "https://ensapia-tokyo.com/news/topics/id=21432/",
+      "status": "unavailable",
+      "final_url": null
+    },
+    {
+      "url": "https://www.release.tdnet.info/inbs/140120261008548235.pdf",
+      "status": "unavailable",
+      "final_url": null
+    }
+  ],
+  "report": "docs/research-2026-11-20-nov18-20-update.md",
+  "audit": "data/research-2026-11-20-nov18-20-update.json"
+}

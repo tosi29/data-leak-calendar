@@ -1,0 +1,54 @@
+{
+  "id": "schoo-karte-20261118",
+  "organization": {
+    "name": "Schoo（KARTE）",
+    "sector": "企業・団体"
+  },
+  "title": "お知らせ表示等に使う「KARTE」への不正アクセスで法人管理者のメールアドレス27,088件と会員番号等60,000件が漏えい",
+  "summary": "お知らせ表示等に使う「KARTE」への不正アクセスで法人管理者のメールアドレス27,088件と会員番号等60,000件が漏えい。",
+  "published_on": "2026-11-18",
+  "first_published_on": "2026-11-18",
+  "publication_kind": "initial",
+  "occurred_on": "2026-11-13",
+  "detected_on": null,
+  "updated_on": "2026-11-18",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "利用するプレイドのマーケティングツール「KARTE」への第三者による不正アクセス（プレイドはデータ取得用の公開経路の脆弱性の悪用と公表）。"
+  },
+  "impact": [
+    {
+      "count": 27088,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "Schoo for Business管理ツールの管理者のメールアドレス。"
+    },
+    {
+      "count": 60000,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "Schoo会員の会員番号、年齢層、メール受信設定の有無、キャンペーン管理用の番号。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス",
+    "会員番号",
+    "年齢層"
+  ],
+  "related_vendor": "株式会社プレイド",
+  "sources": [
+    {
+      "url": "https://prtimes.jp/main/html/rd/p/000000385.000006391.html",
+      "type": "official",
+      "title": "当社が利用する外部サービスへの不正アクセスによるお客様情報漏えいに関するお詫びとお知らせ",
+      "published_on": "2026-11-18",
+      "checked_on": "2026-11-20"
+    }
+  ],
+  "updates": [],
+  "notes": "Schoo公式のPR TIMES配信を出典とした。"
+}

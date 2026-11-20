@@ -1,0 +1,91 @@
+{
+  "id": "pocketchange-pokepay-20261114",
+  "organization": {
+    "name": "ポケットチェンジ（PocketChange・Pokepay）",
+    "sector": "企業・団体"
+  },
+  "title": "システムへの不正アクセスでPocketChange利用者のパスポート番号やPokepay利用者・加盟店の情報が漏洩",
+  "summary": "システムへの不正アクセスでPocketChange利用者のパスポート番号やPokepay利用者・加盟店の情報が漏洩。",
+  "published_on": "2026-11-14",
+  "first_published_on": "2026-11-14",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-19",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "同社が提供するシステムの一部への第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 31462,
+      "unit": "records",
+      "qualifier": "maximum",
+      "description": "PocketChange利用者（氏名、電話番号またはメールアドレス、会員番号。うちパスポート番号最大24,086件）。"
+    },
+    {
+      "count": 116361,
+      "unit": "records",
+      "qualifier": "maximum",
+      "description": "Pokepay（Enterprise）利用者のアカウント登録情報の一部（2021年9月23日以前登録分）。"
+    },
+    {
+      "count": 820,
+      "unit": "records",
+      "qualifier": "maximum",
+      "description": "発行体の加盟店情報（代表者氏名、生年月日、住所、電話番号、メールアドレス、銀行口座情報）。"
+    },
+    {
+      "count": 1206,
+      "unit": "records",
+      "qualifier": "maximum",
+      "description": "提供終了済みの特定事業向けシステムのログ内の利用者情報。"
+    },
+    {
+      "count": 58,
+      "unit": "records",
+      "qualifier": "maximum",
+      "description": "同システムのエラーログ内のクレジットカード情報（番号・名義人名）。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "電話番号",
+    "メールアドレス",
+    "パスポート番号",
+    "住所",
+    "生年月日",
+    "銀行口座情報",
+    "クレジットカード番号",
+    "ギフト券のコード・PIN"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://pokepay.jp/ja/entries/142",
+      "type": "official",
+      "title": "【重要】不正アクセスの確認に伴うサービス一時停止のお知らせ（第一報）",
+      "published_on": "2026-11-14",
+      "checked_on": "2026-11-20"
+    },
+    {
+      "url": "https://about.pocket-change.jp/news/2026-unauthorized-access-notice",
+      "type": "official",
+      "title": "当社システムへの不正アクセスに関するお詫びとご報告",
+      "published_on": "2026-11-19",
+      "checked_on": "2026-11-20"
+    }
+  ],
+  "updates": [
+    {
+      "date": "2026-11-19",
+      "summary": "漏洩した個人情報と件数を公表。",
+      "source_index": 1
+    }
+  ],
+  "notes": "11月14日の第一報はPokepay（Enterprise）のサービス一時停止の告知で、漏洩の内容は11月19日に公表。各件数は重複を含む。"
+}

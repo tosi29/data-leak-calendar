@@ -4,16 +4,16 @@
     "name": "デイトナ",
     "sector": "企業・団体"
   },
-  "title": "メール配信先の担当者情報が漏えいした可能性",
-  "summary": "DIOS登録取引先と2026年茶ミーティング出展社の配信先情報が対象。デイトナ分の漏えいは未確認。",
+  "title": "メール配信サービスへの不正アクセスで配信先の担当者情報に漏えいの可能性、最終調査で漏洩は確認されず",
+  "summary": "DIOS登録取引先と2026年茶ミーティング出展社の配信先情報が対象。11月19日の最終調査結果で、デイトナが登録していた情報の漏洩は確認されなかった。",
   "published_on": "2026-10-22",
   "first_published_on": "2026-10-22",
   "publication_kind": "initial",
   "occurred_on": null,
   "detected_on": null,
-  "updated_on": "2026-10-25",
+  "updated_on": "2026-11-19",
   "verification": "official",
-  "leak_status": "suspected",
+  "leak_status": "ruled_out",
   "incident_type": "attack",
   "cause": {
     "category": "unauthorized_access",
@@ -42,9 +42,22 @@
       "title": "メール配信先の担当者情報が漏えいした可能性",
       "published_on": "2026-10-22",
       "checked_on": "2026-10-25"
+    },
+    {
+      "url": "https://www.release.tdnet.info/inbs/140120261119583259.pdf",
+      "type": "official",
+      "title": "（開示事項の経過）メール配信サービスへの不正アクセスに伴う個人情報漏洩の可能性に関する最終調査結果についてお知らせ",
+      "published_on": "2026-11-19",
+      "checked_on": "2026-11-20"
     }
   ],
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-11-19",
+      "summary": "運営会社の調査結果を受け、同社が登録していた顧客情報の漏洩は確認されなかったと公表。",
+      "source_index": 1
+    }
+  ],
   "notes": "公式ページの検索収録本文で日付・対象情報を確認。直接取得は403。DIOSの受発注・在庫照会は別システムで影響なし。",
   "vendors": [
     {

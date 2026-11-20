@@ -8,7 +8,7 @@
   "published_on": "2026-09-28",
   "occurred_on": null,
   "detected_on": null,
-  "updated_on": "2026-10-15",
+  "updated_on": "2026-11-20",
   "first_published_on": "2026-09-28",
   "publication_kind": "initial",
   "verification": "official",
@@ -16,10 +16,10 @@
   "summary": "予約管理システムへの不正アクセスを確認。宿泊者情報を閲覧・取得された可能性があり、不審な予約関連メッセージとの関係を調査中。",
   "impact": [
     {
-      "count": null,
+      "count": 1000000,
       "unit": "people",
-      "qualifier": "unknown",
-      "description": "対象規模は確認した出典に記載なし・調査中"
+      "qualifier": "maximum_approximate",
+      "description": "第三者に閲覧または取得された可能性のある宿泊予約情報の対象者（最終報告）。"
     }
   ],
   "data_types": [
@@ -39,10 +39,23 @@
       "title": "手間いらず：個人情報に関する公表資料",
       "published_on": "2026-09-28",
       "checked_on": "2026-10-15"
+    },
+    {
+      "url": "https://www.release.tdnet.info/inbs/140120261120584383.pdf",
+      "type": "official",
+      "title": "（開示事項の経過）「当社システムへの不正アクセスに関する調査結果のご報告（最終報告）」の公表について",
+      "published_on": "2026-11-20",
+      "checked_on": "2026-11-20"
     }
   ],
   "notes": "",
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-11-20",
+      "summary": "最終報告で、閲覧・取得された可能性のある宿泊予約者は最大約100万人（従来の最大約445万人から修正）と公表。一部宿泊施設の管理画面の認証情報も取得されたおそれ。",
+      "source_index": 1
+    }
+  ],
   "incident_type": "attack",
   "vendor_research": {
     "checked_on": "2026-10-15",
@@ -51,6 +64,10 @@
     "source_checks": [
       {
         "source_index": 0,
+        "status": "reviewed"
+      },
+      {
+        "source_index": 1,
         "status": "reviewed"
       }
     ]

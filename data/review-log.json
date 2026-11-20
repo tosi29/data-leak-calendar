@@ -9234,5 +9234,31 @@
       "https://www.city.sakai.lg.jp/shisei/koho/hodo/hodoteikyoshiryo/kakohodo/r8/r811/081117_02.files/1117_02.pdf"
     ],
     "reason": "11月5日と11月17日の報道提供資料（PDF）を取得し、メールアドレス64,073件の漏えいを確認したため掲載。"
+  },
+  {
+    "candidate": {
+      "id": "nov16-keisei-skyliner-review",
+      "organization": "京成電鉄（スカイライナー座席予約システム）",
+      "reported_on": "2026-11-13",
+      "verification": "pending",
+      "reference_url": "https://www.keisei.co.jp/cms/files/keisei/MASTER/0110/qWTY2f7x.pdf",
+      "reviewed_on": "2026-11-18",
+      "checked_urls": [
+        "https://www.keisei.co.jp/cms/files/keisei/MASTER/0110/qWTY2f7x.pdf",
+        "https://www.keisei.co.jp/cms/files/keisei/MASTER/0110/OVIfkjTf.pdf",
+        "https://www.keisei.co.jp/cms/files/keisei/MASTER/0110/TpXAnIV6.pdf"
+      ],
+      "note": "2026年11月16日調査：公表索引では11月11日深夜の不正アクセスでチケットレスサービス顧客の最大約337万件が取得された可能性とされるが、索引に載った公式PDF2件がいずれも404で、ニュース一覧からも本文を確認できないため保留。 2026年11月18日再調査：公表索引に載った別の公式PDF（TpXAnIV6.pdf）も本文を取得できず継続。"
+    },
+    "reviewed_on": "2026-11-20",
+    "resolution": "published",
+    "incident_ids": [
+      "keisei-skyliner-20261113"
+    ],
+    "source_urls": [
+      "https://www.keisei.co.jp/cms/files/keisei/MASTER/0110/nWeYDLzk.pdf",
+      "https://www.keisei.co.jp/cms/files/keisei/MASTER/0110/YWIXoWZU.pdf"
+    ],
+    "reason": "公表索引に載った別の公式PDF（11月13日付・16日追記版と18日付）を取得し、最大約337万件の顧客情報が取得された可能性を確認したため掲載。"
   }
 ]

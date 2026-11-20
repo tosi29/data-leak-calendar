@@ -1,0 +1,57 @@
+{
+  "id": "tribeau-clinic-admin-20261119",
+  "organization": {
+    "name": "トリビュー",
+    "sector": "企業・団体"
+  },
+  "title": "美容医療予約サービス「トリビュー」のクリニック向け管理アプリへの不正ログインで湘南美容クリニック等の予約者19,445人の情報が流出",
+  "summary": "美容医療予約サービス「トリビュー」のクリニック向け管理アプリへの不正ログインで湘南美容クリニック等の予約者19,445人の情報が流出。",
+  "published_on": "2026-11-19",
+  "first_published_on": "2026-11-19",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-11-16",
+  "updated_on": "2026-11-19",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "credentials",
+    "certainty": "confirmed",
+    "detail": "第三者が湘南美容クリニックおよびリッツ美容外科東京院の管理アプリケーションのアカウントに不正ログインした。認証に成功した経緯は調査中。"
+  },
+  "impact": [
+    {
+      "count": 12641,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "予約のみの方（うち3人はクリニックとのメッセージ内容・生年月日・性別も対象）。"
+    },
+    {
+      "count": 6804,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "施術まで受けた方（施術内容・施術金額を含む）。"
+    }
+  ],
+  "data_types": [
+    "氏名カナ",
+    "電話番号",
+    "年齢",
+    "希望施術",
+    "施術内容・施術金額",
+    "クリニックとのメッセージ内容（3人）"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://corp.tribeau.jp/1338/",
+      "type": "official",
+      "title": "「トリビュー」管理アプリケーションへの不正アクセスによる個人情報流出のお詫びとお知らせ",
+      "published_on": "2026-11-19",
+      "checked_on": "2026-11-20"
+    }
+  ],
+  "updates": [],
+  "notes": "SBCメディカルグループの公表にも同じ人数が経営支援先56院の予約情報として記載されている。"
+}

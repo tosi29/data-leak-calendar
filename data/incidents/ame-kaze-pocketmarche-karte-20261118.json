@@ -1,0 +1,56 @@
+{
+  "id": "ame-kaze-pocketmarche-karte-20261118",
+  "organization": {
+    "name": "雨風太陽（ポケットマルシェ）",
+    "sector": "企業・団体"
+  },
+  "title": "会員管理・案内に使う「KARTE」への不正アクセスでポケットマルシェ会員のメールアドレス等が漏えい",
+  "summary": "会員管理・案内に使う「KARTE」への不正アクセスでポケットマルシェ会員のメールアドレス等が漏えい。",
+  "published_on": "2026-11-18",
+  "first_published_on": "2026-11-18",
+  "publication_kind": "initial",
+  "occurred_on": "2026-11-13",
+  "detected_on": null,
+  "updated_on": "2026-11-18",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "利用するプレイドのマーケティングツール「KARTE」への第三者による不正アクセス（プレイドはデータ取得用の公開経路の脆弱性の悪用と公表）。"
+  },
+  "impact": [
+    {
+      "count": 944885,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "消費者ユーザー（退会者を含む）。"
+    },
+    {
+      "count": 10164,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "生産者・生産者サブアカウントユーザー（退会者を含む）。"
+    }
+  ],
+  "data_types": [
+    "会員ID",
+    "メールアドレス",
+    "メール配信可否",
+    "ニックネーム",
+    "生産者氏名"
+  ],
+  "related_vendor": "株式会社プレイド",
+  "sources": [
+    {
+      "url": "https://poke-m.com/announcements/905",
+      "type": "official",
+      "title": "外部サービス「KARTE」への不正アクセスによる個人情報漏えいに関するお詫びとお知らせ",
+      "published_on": "2026-11-18",
+      "checked_on": "2026-11-20"
+    }
+  ],
+  "updates": [],
+  "notes": "メールアドレスは退会者・変更重複分を含め959,452件。"
+}

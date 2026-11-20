@@ -1,0 +1,49 @@
+{
+  "id": "timee-karte-20261119",
+  "organization": {
+    "name": "タイミー",
+    "sector": "企業・団体"
+  },
+  "title": "「KARTE」への不正アクセスで求人事業者の担当者最大226,662人のメールアドレス等が漏えい",
+  "summary": "「KARTE」への不正アクセスで求人事業者の担当者最大226,662人のメールアドレス等が漏えい。",
+  "published_on": "2026-11-19",
+  "first_published_on": "2026-11-19",
+  "publication_kind": "initial",
+  "occurred_on": "2026-11-13",
+  "detected_on": null,
+  "updated_on": "2026-11-19",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "利用するプレイドのマーケティングツール「KARTE」への第三者による不正アクセス（プレイドはデータ取得用の公開経路の脆弱性の悪用と公表）。"
+  },
+  "impact": [
+    {
+      "count": 226662,
+      "unit": "people",
+      "qualifier": "maximum",
+      "description": "求人事業者の担当者（メールアドレス226,662件、姓または名93,862件、電話番号19,289件、顧客管理ID227,561件）。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス",
+    "姓または名",
+    "電話番号",
+    "顧客管理ID"
+  ],
+  "related_vendor": "株式会社プレイド",
+  "sources": [
+    {
+      "url": "https://corp.timee.co.jp/news/detail-7442/",
+      "type": "official",
+      "title": "当社委託先システムへの不正アクセスに伴う、「タイミー」ご利用事業者様の一部情報漏えいについて",
+      "published_on": "2026-11-19",
+      "checked_on": "2026-11-20"
+    }
+  ],
+  "updates": [],
+  "notes": "求職者（ワーカー）の情報は含まれないとしている。"
+}

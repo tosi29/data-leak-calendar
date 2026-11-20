@@ -1,0 +1,53 @@
+{
+  "id": "kabucom-karte-20261118",
+  "organization": {
+    "name": "三菱UFJ eスマート証券",
+    "sector": "企業・団体"
+  },
+  "title": "案内業務を委託する「KARTE」への不正アクセスで証券口座番号約6万件と年齢約10.5万件が漏えい",
+  "summary": "案内業務を委託する「KARTE」への不正アクセスで証券口座番号約6万件と年齢約10.5万件が漏えい。",
+  "published_on": "2026-11-18",
+  "first_published_on": "2026-11-18",
+  "publication_kind": "initial",
+  "occurred_on": "2026-11-13",
+  "detected_on": null,
+  "updated_on": "2026-11-18",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "利用するプレイドのマーケティングツール「KARTE」への第三者による不正アクセス（プレイドはデータ取得用の公開経路の脆弱性の悪用と公表）。"
+  },
+  "impact": [
+    {
+      "count": 60000,
+      "unit": "records",
+      "qualifier": "approximate",
+      "description": "証券口座番号（他の情報と紐づかない状態）。"
+    },
+    {
+      "count": 105000,
+      "unit": "records",
+      "qualifier": "approximate",
+      "description": "年齢（他の情報と紐づかない状態）。"
+    }
+  ],
+  "data_types": [
+    "証券口座番号",
+    "年齢"
+  ],
+  "related_vendor": "株式会社プレイド",
+  "sources": [
+    {
+      "url": "https://kabu.com/company/pressrelease/20261118_1.html",
+      "type": "official",
+      "title": "（お知らせ）当社委託先が提供するサービスへの不正アクセスについて",
+      "published_on": "2026-11-18",
+      "checked_on": "2026-11-20"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

@@ -1,0 +1,47 @@
+{
+  "id": "wealthnavi-karte-20261118",
+  "organization": {
+    "name": "ウェルスナビ",
+    "sector": "企業・団体"
+  },
+  "title": "案内表示に使う「KARTE」への不正アクセスで約91万人の識別コードと都道府県が漏えい",
+  "summary": "案内表示に使う「KARTE」への不正アクセスで約91万人の識別コードと都道府県が漏えい。",
+  "published_on": "2026-11-18",
+  "first_published_on": "2026-11-18",
+  "publication_kind": "initial",
+  "occurred_on": "2026-11-13",
+  "detected_on": null,
+  "updated_on": "2026-11-18",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "利用するプレイドのマーケティングツール「KARTE」への第三者による不正アクセス（プレイドはデータ取得用の公開経路の脆弱性の悪用と公表）。"
+  },
+  "impact": [
+    {
+      "count": 910000,
+      "unit": "people",
+      "qualifier": "approximate",
+      "description": "顧客の識別コード（システムで生成した約40桁の文字列）と都道府県。"
+    }
+  ],
+  "data_types": [
+    "識別コード",
+    "都道府県"
+  ],
+  "related_vendor": "株式会社プレイド",
+  "sources": [
+    {
+      "url": "https://corp.wealthnavi.com/news/info/861",
+      "type": "official",
+      "title": "当社委託先への不正アクセスについて",
+      "published_on": "2026-11-18",
+      "checked_on": "2026-11-20"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

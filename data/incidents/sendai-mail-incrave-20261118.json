@@ -1,0 +1,61 @@
+{
+  "id": "sendai-mail-incrave-20261118",
+  "organization": {
+    "name": "仙台市（仙台市メール配信サービス）",
+    "sector": "自治体"
+  },
+  "title": "委託先のメール配信サービスへの不正アクセスで登録者のメールアドレス30,002件と暗号化パスワード等が漏えい、88件に不正ログイン",
+  "summary": "委託先のメール配信サービスへの不正アクセスで登録者のメールアドレス30,002件と暗号化パスワード等が漏えい、88件に不正ログイン。",
+  "published_on": "2026-11-18",
+  "first_published_on": "2026-11-18",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-18",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "委託先インクレイブ株式会社が運営する仙台市メール配信サービスへの第三者による不正アクセス。暗号化されたパスワードの一部が解析された。"
+  },
+  "impact": [
+    {
+      "count": 30002,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "登録者のメールアドレス。"
+    },
+    {
+      "count": 26614,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "暗号化されたパスワード。"
+    },
+    {
+      "count": 88,
+      "unit": "accounts",
+      "qualifier": "exact",
+      "description": "不正ログインを確認した利用者アカウント。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス",
+    "暗号化されたパスワード",
+    "配信メールの件名・本文・添付ファイル",
+    "居住区・生年月日・子の生年月日（範囲調査中）"
+  ],
+  "related_vendor": "インクレイブ株式会社",
+  "sources": [
+    {
+      "url": "https://www.city.sendai.jp/ict-kikaku/kisha/20261118.html",
+      "type": "official",
+      "title": "仙台市メール配信サービスにおける個人情報の漏えいについて",
+      "published_on": "2026-11-18",
+      "checked_on": "2026-11-20"
+    }
+  ],
+  "updates": [],
+  "notes": "会員の属性情報、変更履歴、ログイン履歴の漏えいの可能性は調査中。ページはスクリプト描画のためヘッドレスブラウザーで本文を確認。"
+}

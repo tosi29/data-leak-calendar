@@ -1,0 +1,46 @@
+{
+  "id": "jp-mirai-portal-20261118",
+  "organization": {
+    "name": "JP-MIRAI",
+    "sector": "企業・団体"
+  },
+  "title": "ポータルの脆弱性を突いた不正アクセスで外国人相談者13人の相談書類・データが不正取得",
+  "summary": "ポータルの脆弱性を突いた不正アクセスで外国人相談者13人の相談書類・データが不正取得。",
+  "published_on": "2026-11-18",
+  "first_published_on": "2026-11-18",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-11-17",
+  "updated_on": "2026-11-18",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "vulnerability",
+    "certainty": "confirmed",
+    "detail": "JP-MIRAIポータルのシステム上の脆弱性が悪用された。"
+  },
+  "impact": [
+    {
+      "count": 13,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "JP-MIRAIアシスト利用者（外国人相談者）が相談の過程で提供した書類やデータの一部。"
+    }
+  ],
+  "data_types": [
+    "相談時に提供された書類・データ"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://jp-mirai.org/news-ja/20261118/",
+      "type": "official",
+      "title": "不正アクセスによる利用者情報漏えいに関するお詫びとお知らせ",
+      "published_on": "2026-11-18",
+      "checked_on": "2026-11-20"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

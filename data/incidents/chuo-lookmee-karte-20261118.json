@@ -1,0 +1,49 @@
+{
+  "id": "chuo-lookmee-karte-20261118",
+  "organization": {
+    "name": "中央区（区立幼稚園のルクミー）",
+    "sector": "自治体"
+  },
+  "title": "区立幼稚園で使う「ルクミー」の提供元ユニファが利用する「KARTE」への不正アクセスで保護者の氏名・メールアドレス等が漏えい",
+  "summary": "区立幼稚園で使う「ルクミー」の提供元ユニファが利用する「KARTE」への不正アクセスで保護者の氏名・メールアドレス等が漏えい。",
+  "published_on": "2026-11-18",
+  "first_published_on": "2026-11-18",
+  "publication_kind": "initial",
+  "occurred_on": "2026-11-13",
+  "detected_on": null,
+  "updated_on": "2026-11-18",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "利用するプレイドのマーケティングツール「KARTE」への第三者による不正アクセス（プレイドはデータ取得用の公開経路の脆弱性の悪用と公表）。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "区立幼稚園でルクミーを利用した保護者と施設。件数は未公表。"
+    }
+  ],
+  "data_types": [
+    "保護者の氏名",
+    "保護者のメールアドレス",
+    "施設のメールアドレス",
+    "園ID"
+  ],
+  "related_vendor": "株式会社プレイド",
+  "sources": [
+    {
+      "url": "https://www.city.chuo.lg.jp/a0049/gakumu/rukumi/20261118.html",
+      "type": "official",
+      "title": "保育ICTサービス「ルクミーシステム」における不正アクセスに関するお知らせ",
+      "published_on": "2026-11-18",
+      "checked_on": "2026-11-20"
+    }
+  ],
+  "updates": [],
+  "notes": "ユニファの公表は別記録。お子さまの写真・保育記録・連絡帳の漏えいは確認されていないとしている。"
+}

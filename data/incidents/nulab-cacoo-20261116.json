@@ -11,7 +11,7 @@
   "publication_kind": "initial",
   "occurred_on": null,
   "detected_on": null,
-  "updated_on": "2026-11-18",
+  "updated_on": "2026-11-20",
   "verification": "official",
   "leak_status": "confirmed",
   "incident_type": "attack",
@@ -76,6 +76,13 @@
       "title": "当社サービス「Cacoo」における不正アクセスに関する現在の状況について（第二報）",
       "published_on": "2026-11-18",
       "checked_on": "2026-11-18"
+    },
+    {
+      "url": "https://www.release.tdnet.info/inbs/140120261120584334.pdf",
+      "type": "official",
+      "title": "当社サービス「Cacoo」の再開の目処および不正アクセスに関する現在の状況について（第三報）",
+      "published_on": "2026-11-20",
+      "checked_on": "2026-11-20"
     }
   ],
   "updates": [
@@ -83,6 +90,11 @@
       "date": "2026-11-18",
       "summary": "第二報で現在の状況を公表。",
       "source_index": 3
+    },
+    {
+      "date": "2026-11-20",
+      "summary": "第三報で流出・流出のおそれがある情報は第二報の3項目から増えていないと公表。11月24～27日の再開を予定。",
+      "source_index": 4
     }
   ],
   "notes": ""

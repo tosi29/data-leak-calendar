@@ -1,0 +1,51 @@
+{
+  "id": "ls-support-chatplus-20261119",
+  "organization": {
+    "name": "エルズサポート（ChatPlus）",
+    "sector": "企業・団体"
+  },
+  "title": "問い合わせ用チャット「ChatPlus」の提供会社への不正アクセスでチャット入力内容の個人情報最大約5,500人分が流出した可能性",
+  "summary": "問い合わせ用チャット「ChatPlus」の提供会社への不正アクセスでチャット入力内容の個人情報最大約5,500人分が流出した可能性。",
+  "published_on": "2026-11-19",
+  "first_published_on": "2026-11-19",
+  "publication_kind": "initial",
+  "occurred_on": "2026-11-13",
+  "detected_on": null,
+  "updated_on": "2026-11-19",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "チャットサービス「ChatPlus」を提供するチャットプラス株式会社のシステムへの第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 5500,
+      "unit": "people",
+      "qualifier": "maximum_approximate",
+      "description": "チャットで問い合わせた顧客（うち配慮を要する情報を含む63人）。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "物件名・部屋番号",
+    "電話番号",
+    "メールアドレス",
+    "健康に関する情報",
+    "福祉制度の受給状況"
+  ],
+  "related_vendor": "チャットプラス株式会社",
+  "sources": [
+    {
+      "url": "https://www.ls-support.co.jp/news/20261119",
+      "type": "official",
+      "title": "当社が利用するチャットサービスの提供会社への不正アクセスに伴う、お客様情報漏えいの可能性に関するお知らせ（第一報）",
+      "published_on": "2026-11-19",
+      "checked_on": "2026-11-20"
+    }
+  ],
+  "updates": [],
+  "notes": "同社のNotion AI（Fireworks AI）関連の公表は別記録。"
+}

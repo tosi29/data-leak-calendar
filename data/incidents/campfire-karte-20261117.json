@@ -4,14 +4,14 @@
     "name": "CAMPFIRE",
     "sector": "企業・団体"
   },
-  "title": "メール配信などに使う「KARTE」への不正アクセスで連携していた会員のユーザーID・メールアドレス等が漏えい",
-  "summary": "メール配信などに使う「KARTE」への不正アクセスで連携していた会員のユーザーID・メールアドレス等が漏えい。",
+  "title": "メール配信などに使う「KARTE」への不正アクセスで会員5,819,779件のメールアドレス・ハッシュ化されたユーザーIDが漏えい",
+  "summary": "メール配信などに使う「KARTE」への不正アクセスで会員5,819,779件のメールアドレス・ハッシュ化されたユーザーIDが漏えい。",
   "published_on": "2026-11-17",
   "first_published_on": "2026-11-17",
   "publication_kind": "initial",
   "occurred_on": null,
   "detected_on": null,
-  "updated_on": "2026-11-17",
+  "updated_on": "2026-11-18",
   "verification": "official",
   "leak_status": "confirmed",
   "incident_type": "attack",
@@ -22,15 +22,15 @@
   },
   "impact": [
     {
-      "count": null,
+      "count": 5819779,
       "unit": "records",
-      "qualifier": "unknown",
-      "description": "KARTEの紐付けテーブルに取り込まれた会員情報。件数は未公表。"
+      "qualifier": "exact",
+      "description": "2026年11月11日までに会員登録を行った顧客のメールアドレスとハッシュ化されたユーザーID。"
     }
   ],
   "data_types": [
-    "ユーザーID",
-    "メールアドレス"
+    "メールアドレス",
+    "ハッシュ化されたユーザーID"
   ],
   "related_vendor": "株式会社プレイド",
   "sources": [
@@ -40,8 +40,21 @@
       "title": "メール配信システム「KARTE」への不正アクセスに関するご報告",
       "published_on": "2026-11-17",
       "checked_on": "2026-11-18"
+    },
+    {
+      "url": "https://campfire.co.jp/press/2026/11/18/campfire/",
+      "type": "official",
+      "title": "メール配信システム「KARTE」への不正アクセスに関するご報告（第二報）",
+      "published_on": "2026-11-18",
+      "checked_on": "2026-11-20"
     }
   ],
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-11-18",
+      "summary": "第二報で対象を2026年11月11日までの会員登録者5,819,779件（メールアドレス・ハッシュ化されたユーザーID）と公表。",
+      "source_index": 1
+    }
+  ],
   "notes": ""
 }

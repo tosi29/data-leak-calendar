@@ -4,14 +4,14 @@
     "name": "読売巨人軍（CLUB GIANTS）",
     "sector": "企業・団体"
   },
-  "title": "公式ファンクラブ「CLUB GIANTS」の会員管理システムへのサイバー攻撃で会員のメールアドレス807,030件が流出",
-  "summary": "公式ファンクラブ「CLUB GIANTS」の会員管理システムへのサイバー攻撃で会員のメールアドレス807,030件が流出。",
+  "title": "公式ファンクラブ「CLUB GIANTS」の会員管理システムへのサイバー攻撃で会員のメールアドレス807,030件と氏名・住所等の一部が流出",
+  "summary": "公式ファンクラブ「CLUB GIANTS」の会員管理システムへのサイバー攻撃で会員のメールアドレス807,030件と氏名・住所等の一部が流出。",
   "published_on": "2026-11-13",
   "first_published_on": "2026-11-13",
   "publication_kind": "initial",
   "occurred_on": null,
   "detected_on": null,
-  "updated_on": "2026-11-13",
+  "updated_on": "2026-11-19",
   "verification": "official",
   "leak_status": "confirmed",
   "incident_type": "attack",
@@ -25,11 +25,23 @@
       "count": 807030,
       "unit": "records",
       "qualifier": "exact",
-      "description": "会員のメールアドレス。メールアドレス以外の流出がないか調査中。"
+      "description": "会員のメールアドレス。"
+    },
+    {
+      "count": 16998,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "氏名（ほか住所12,831件、電話番号15,434件、性別1,664件、生年月日1,665件、ハッシュ化パスワード274件）。"
     }
   ],
   "data_types": [
-    "メールアドレス"
+    "メールアドレス",
+    "氏名",
+    "住所",
+    "電話番号",
+    "性別",
+    "生年月日",
+    "ハッシュ化されたパスワード"
   ],
   "related_vendor": null,
   "sources": [
@@ -39,8 +51,21 @@
       "title": "サイバー攻撃によるメールアドレス流出に関するお詫びとお知らせ",
       "published_on": "2026-11-13",
       "checked_on": "2026-11-16"
+    },
+    {
+      "url": "https://www.giants.jp/news/31858/",
+      "type": "official",
+      "title": "サイバー攻撃によるメールアドレス流出に関するお詫びとお知らせ（第２報）",
+      "published_on": "2026-11-19",
+      "checked_on": "2026-11-20"
     }
   ],
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-11-19",
+      "summary": "第2報で氏名16,998件、住所12,831件、電話番号15,434件、性別1,664件、生年月日1,665件、ハッシュ化パスワード274件の流出も判明と公表。",
+      "source_index": 1
+    }
+  ],
   "notes": ""
 }

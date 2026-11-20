@@ -11,7 +11,7 @@
   "publication_kind": "initial",
   "occurred_on": null,
   "detected_on": null,
-  "updated_on": "2026-11-13",
+  "updated_on": "2026-11-20",
   "verification": "official",
   "leak_status": "suspected",
   "incident_type": "attack",
@@ -40,8 +40,21 @@
       "title": "当社が利用するクラウドサービスの委託先への不正アクセスに伴う情報流出の可能性に関するお知らせ",
       "published_on": "2026-11-13",
       "checked_on": "2026-11-16"
+    },
+    {
+      "url": "https://www.release.tdnet.info/inbs/140120261120584265.pdf",
+      "type": "official",
+      "title": "【開示事項の経過】外部サービス「Notion」のAI機能において発生したセキュリティインシデントに関するお知らせ（第二報・終報）",
+      "published_on": "2026-11-20",
+      "checked_on": "2026-11-20"
     }
   ],
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-11-20",
+      "summary": "終報で、対象の取引先担当者・従業員・退職者への個別報告を11月18日までに完了したと公表。",
+      "source_index": 1
+    }
+  ],
   "notes": ""
 }

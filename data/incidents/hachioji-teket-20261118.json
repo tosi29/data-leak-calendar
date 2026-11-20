@@ -1,0 +1,47 @@
+{
+  "id": "hachioji-teket-20261118",
+  "organization": {
+    "name": "八王子市（たにぞうファミリーコンサート）",
+    "sector": "自治体"
+  },
+  "title": "日野市と共同開催のコンサートのチケット販売に使う「teket」への不正アクセスで申込者の氏名・メールアドレスが漏えい",
+  "summary": "日野市と共同開催のコンサートのチケット販売に使う「teket」への不正アクセスで申込者の氏名・メールアドレスが漏えい。",
+  "published_on": "2026-11-18",
+  "first_published_on": "2026-11-09",
+  "publication_kind": "followup",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-18",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "電子チケット販売・管理サービス「teket」への第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "コンサートの申込者。件数は確認中。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "メールアドレス"
+  ],
+  "related_vendor": "株式会社teket",
+  "sources": [
+    {
+      "url": "https://www.city.hachioji.tokyo.jp/shisei/001/001/009/001/p033364_d/fil/081118t.pdf",
+      "type": "official",
+      "title": "「たにぞうファミリーコンサート」申込者の個人情報漏えいについて",
+      "published_on": "2026-11-18",
+      "checked_on": "2026-11-20"
+    }
+  ],
+  "updates": [],
+  "notes": "資料によれば八王子市と日野市は11月9日にホームページでお知らせを掲載済み。確認できたのは11月18日のニュースリリースのため同日を掲載日とした。契約者の日野市の公表は別記録。"
+}

@@ -1,0 +1,62 @@
+{
+  "id": "infcurion-wallet-station-20261120",
+  "organization": {
+    "name": "インフキュリオン（Wallet Station）",
+    "sector": "企業・団体"
+  },
+  "title": "ウォレットプラットフォーム「Wallet Station」への不正アクセスで一部提供先の利用者の個人情報最大約25万件が漏えい",
+  "summary": "ウォレットプラットフォーム「Wallet Station」への不正アクセスで一部提供先の利用者の個人情報最大約25万件が漏えい。",
+  "published_on": "2026-11-20",
+  "first_published_on": "2026-11-20",
+  "publication_kind": "initial",
+  "occurred_on": "2026-11-19",
+  "detected_on": "2026-11-19",
+  "updated_on": "2026-11-20",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "vulnerability",
+    "certainty": "suspected",
+    "detail": "「Wallet Station」への大量アクセスによる第三者の不正アクセス。脆弱性対策パッチを緊急適用した。"
+  },
+  "impact": [
+    {
+      "count": 250000,
+      "unit": "records",
+      "qualifier": "maximum_approximate",
+      "description": "一部提供先のサービス利用者の会員情報、決済手段・取引履歴、加盟店情報。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "生年月日",
+    "電話番号",
+    "性別",
+    "メールアドレス",
+    "パスワード",
+    "口座情報",
+    "ポイント残高",
+    "取引履歴",
+    "加盟店情報"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.release.tdnet.info/inbs/140120261120583076.pdf",
+      "type": "official",
+      "title": "「Wallet Station」への不正アクセスによる個人情報漏えいに関するお詫びとお知らせ",
+      "published_on": "2026-11-20",
+      "checked_on": "2026-11-20"
+    },
+    {
+      "url": "https://www.release.tdnet.info/inbs/140120261120584369.pdf",
+      "type": "official",
+      "title": "「Wallet Station」への不正アクセスによる個人情報漏えいに関するお詫びと緊急点検の実施について（第２報）",
+      "published_on": "2026-11-20",
+      "checked_on": "2026-11-20"
+    }
+  ],
+  "updates": [],
+  "notes": "影響を受けた提供先向けの提供を停止し、その他の提供先も緊急点検を実施。11月18日公表のNotion AI（Fireworks AI）関連の事案は別記録。"
+}

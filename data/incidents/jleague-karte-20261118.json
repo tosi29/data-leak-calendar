@@ -1,0 +1,52 @@
+{
+  "id": "jleague-karte-20261118",
+  "organization": {
+    "name": "Ｊリーグ（Ｊリーグチケット・J.League Fantasy Card）",
+    "sector": "企業・団体"
+  },
+  "title": "情報案内に使う「KARTE」への不正アクセスでチケットサイト等の利用者情報2,383,073件などが漏えい",
+  "summary": "情報案内に使う「KARTE」への不正アクセスでチケットサイト等の利用者情報2,383,073件などが漏えい。",
+  "published_on": "2026-11-18",
+  "first_published_on": "2026-11-18",
+  "publication_kind": "initial",
+  "occurred_on": "2026-11-13",
+  "detected_on": null,
+  "updated_on": "2026-11-18",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "利用するプレイドのマーケティングツール「KARTE」への第三者による不正アクセス（プレイドはデータ取得用の公開経路の脆弱性の悪用と公表）。"
+  },
+  "impact": [
+    {
+      "count": 2383073,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "Ｊリーグチケット・WEリーグチケット（うちWEリーグ14件）。システム内部のユーザー識別子を中心とした情報。"
+    },
+    {
+      "count": 543,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "J.League Fantasy Card。"
+    }
+  ],
+  "data_types": [
+    "ユーザー識別子"
+  ],
+  "related_vendor": "株式会社プレイド",
+  "sources": [
+    {
+      "url": "https://www.jleague.jp/news/article/35384/",
+      "type": "official",
+      "title": "Ｊリーグ公式サービスで利用する外部ウェブツールへの不正アクセスについて",
+      "published_on": "2026-11-18",
+      "checked_on": "2026-11-20"
+    }
+  ],
+  "updates": [],
+  "notes": "氏名、ログインパスワード、クレジットカード情報は含まれないとしている。退会者も対象。"
+}

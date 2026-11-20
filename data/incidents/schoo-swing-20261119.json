@@ -1,0 +1,49 @@
+{
+  "id": "schoo-swing-20261119",
+  "organization": {
+    "name": "Schoo（Schoo Swing）",
+    "sector": "企業・団体"
+  },
+  "title": "学習管理システム「Schoo Swing」の機能の不備を突いた不正アクセスで教員9人と学校代表者77人の情報が漏えい",
+  "summary": "学習管理システム「Schoo Swing」の機能の不備を突いた不正アクセスで教員9人と学校代表者77人の情報が漏えい。",
+  "published_on": "2026-11-19",
+  "first_published_on": "2026-11-19",
+  "publication_kind": "initial",
+  "occurred_on": "2026-11-14",
+  "detected_on": "2026-11-14",
+  "updated_on": "2026-11-19",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "vulnerability",
+    "certainty": "confirmed",
+    "detail": "体験用の共通アカウントでログインした第三者が、他校の情報取得を防ぐ制御の不備がある機能を直接操作して他校の情報を取得した。"
+  },
+  "impact": [
+    {
+      "count": 86,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "1校の教員9人（氏名、ふりがな、ニックネーム、メールアドレス）と77校の代表者（代表者名、学校の所在地・電話番号）。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "メールアドレス",
+    "学校代表者名",
+    "学校の所在地・電話番号"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.release.tdnet.info/inbs/140120261119583325.pdf",
+      "type": "official",
+      "title": "当社が提供する「Schoo Swing」への不正アクセスに関するお詫びとお知らせ",
+      "published_on": "2026-11-19",
+      "checked_on": "2026-11-20"
+    }
+  ],
+  "updates": [],
+  "notes": "一部の学校情報の書き換えも確認し、復元済みとしている。"
+}

@@ -1,0 +1,65 @@
+{
+  "id": "sms-karte-20261118",
+  "organization": {
+    "name": "エス・エム・エス（エイチエ・ナース専科 就職）",
+    "sector": "企業・団体"
+  },
+  "title": "「KARTE」への不正アクセスで「エイチエ」「ナース専科 就職」等の会員情報が漏えいした可能性",
+  "summary": "「KARTE」への不正アクセスで「エイチエ」「ナース専科 就職」等の会員情報が漏えいした可能性。",
+  "published_on": "2026-11-18",
+  "first_published_on": "2026-11-18",
+  "publication_kind": "initial",
+  "occurred_on": "2026-11-13",
+  "detected_on": null,
+  "updated_on": "2026-11-18",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "利用するプレイドのマーケティングツール「KARTE」への第三者による不正アクセス（プレイドはデータ取得用の公開経路の脆弱性の悪用と公表）。"
+  },
+  "impact": [
+    {
+      "count": 191039,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "氏名、メールアドレス、電話番号、住所、生年月日等（重複を含む）。"
+    },
+    {
+      "count": 197985,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "電話番号、生年月日、年齢、会員ID等（重複を含む）。"
+    },
+    {
+      "count": 95480,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "ナース専科 就職の都道府県、生年月日、性別、会員ID（重複を含む）。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "ニックネーム",
+    "メールアドレス",
+    "電話番号",
+    "住所",
+    "生年月日",
+    "性別",
+    "会員ID"
+  ],
+  "related_vendor": "株式会社プレイド",
+  "sources": [
+    {
+      "url": "https://www.bm-sms.co.jp/news-info/info_20261118/",
+      "type": "official",
+      "title": "当社委託先システムへの不正アクセスに伴う、情報漏えいに関するお詫びとお知らせ（第一報）",
+      "published_on": "2026-11-18",
+      "checked_on": "2026-11-20"
+    }
+  ],
+  "updates": [],
+  "notes": "191,039件と197,985件は「エイチエ」「エイチエ 転職」のサービス別の件数。"
+}

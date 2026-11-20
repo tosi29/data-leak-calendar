@@ -1,0 +1,66 @@
+{
+  "id": "stripe-intl-karte-20261117",
+  "organization": {
+    "name": "ストライプインターナショナル（メチャカリ・STRIPE CLUB）",
+    "sector": "企業・団体"
+  },
+  "title": "「KARTE」への不正アクセスでメチャカリとSTRIPE CLUBの会員ID・メールアドレス等が漏えい",
+  "summary": "「KARTE」への不正アクセスでメチャカリとSTRIPE CLUBの会員ID・メールアドレス等が漏えい。",
+  "published_on": "2026-11-17",
+  "first_published_on": "2026-11-17",
+  "publication_kind": "initial",
+  "occurred_on": "2026-11-13",
+  "detected_on": null,
+  "updated_on": "2026-11-18",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "利用するプレイドのマーケティングツール「KARTE」への第三者による不正アクセス（プレイドはデータ取得用の公開経路の脆弱性の悪用と公表）。"
+  },
+  "impact": [
+    {
+      "count": 30678,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "メチャカリの会員ID（うちメールアドレスを含むデータ190件）。"
+    },
+    {
+      "count": 150069,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "STRIPE CLUBのメールアドレス・会員IDを含むデータ（詳細調査中）。"
+    }
+  ],
+  "data_types": [
+    "会員ID",
+    "メールアドレス"
+  ],
+  "related_vendor": "株式会社プレイド",
+  "sources": [
+    {
+      "url": "https://www.stripe-intl.com/news/2026/1117-02/",
+      "type": "official",
+      "title": "当社が利用する外部サービスへの不正アクセスに伴う個人情報漏えいのおそれについて（第一報）",
+      "published_on": "2026-11-17",
+      "checked_on": "2026-11-20"
+    },
+    {
+      "url": "https://www.stripe-intl.com/news/2026/1118-01/",
+      "type": "official",
+      "title": "当社が利用する外部サービスへの不正アクセスに伴う個人情報漏えいについて（第二報）",
+      "published_on": "2026-11-18",
+      "checked_on": "2026-11-20"
+    }
+  ],
+  "updates": [
+    {
+      "date": "2026-11-18",
+      "summary": "第二報でメチャカリの対象を会員ID30,678件（うちメールアドレスを含む190件、氏名0件）と確認。STRIPE CLUBは150,069件を調査中。",
+      "source_index": 1
+    }
+  ],
+  "notes": "第一報は漏えいのおそれとして公表。件数はレコード数で人数ではない。開発・検証用データ586件はテスト用アカウントのみ。STRIPE CLUBは2026年6月に利用を終了していたがデータが残存していた。"
+}

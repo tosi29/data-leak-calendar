@@ -1,0 +1,46 @@
+{
+  "id": "toyota-wallet-karte-20261118",
+  "organization": {
+    "name": "トヨタファイナンシャルサービス（TOYOTA Wallet）",
+    "sector": "企業・団体"
+  },
+  "title": "TOYOTA Walletで使う「KARTE」への不正アクセスでお客様番号約12万件が漏えいした可能性",
+  "summary": "TOYOTA Walletで使う「KARTE」への不正アクセスでお客様番号約12万件が漏えいした可能性。",
+  "published_on": "2026-11-18",
+  "first_published_on": "2026-11-18",
+  "publication_kind": "initial",
+  "occurred_on": "2026-11-13",
+  "detected_on": null,
+  "updated_on": "2026-11-18",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "利用するプレイドのマーケティングツール「KARTE」への第三者による不正アクセス（プレイドはデータ取得用の公開経路の脆弱性の悪用と公表）。"
+  },
+  "impact": [
+    {
+      "count": 120000,
+      "unit": "records",
+      "qualifier": "approximate",
+      "description": "社内管理用の「お客様番号」（ログインIDではない）。"
+    }
+  ],
+  "data_types": [
+    "お客様番号"
+  ],
+  "related_vendor": "株式会社プレイド",
+  "sources": [
+    {
+      "url": "https://tscubic.com/toyota-wallet/information/2026/20261118-01/",
+      "type": "official",
+      "title": "株式会社プレイドが提供する「KARTE」への不正アクセス事案に関するお詫びとお知らせ",
+      "published_on": "2026-11-18",
+      "checked_on": "2026-11-20"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

@@ -1,0 +1,46 @@
+{
+  "id": "terilogy-cloudtriage-20261118",
+  "organization": {
+    "name": "テリロジーサービスウェア（CloudTriage）",
+    "sector": "企業・団体"
+  },
+  "title": "クラウド監視サービス「CloudTriage」の管理基盤への不正アクセスで6社のアカウントに不審なセッション、情報漏洩の可能性を否定できず",
+  "summary": "クラウド監視サービス「CloudTriage」の管理基盤への不正アクセスで6社のアカウントに不審なセッション、情報漏洩の可能性を否定できず。",
+  "published_on": "2026-11-18",
+  "first_published_on": "2026-11-18",
+  "publication_kind": "initial",
+  "occurred_on": "2026-11-09",
+  "detected_on": "2026-11-10",
+  "updated_on": "2026-11-18",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "「CloudTriage」の管理基盤への第三者による不正アクセスと試行。"
+  },
+  "impact": [
+    {
+      "count": 6,
+      "unit": "accounts",
+      "qualifier": "exact",
+      "description": "不審なセッション記録が確認された顧客用アカウント（6社）。監視情報や登録メールアドレス等の閲覧・取得は確認されていない。"
+    }
+  ],
+  "data_types": [
+    "登録メールアドレス等"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://terilogy-sw.com/wp-content/uploads/2026/11/20261118_service_info.pdf",
+      "type": "official",
+      "title": "当社が提供するクラウドサービスへの不正アクセスに関するお知らせ",
+      "published_on": "2026-11-18",
+      "checked_on": "2026-11-20"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

@@ -4,16 +4,16 @@
     "name": "オプテージ（mineo）",
     "sector": "企業・団体"
   },
-  "title": "メール配信等を委託するプレイドの「KARTE」への不正アクセスでmineo利用者のメールアドレスなどが漏えいした可能性",
-  "summary": "メール配信等を委託するプレイドの「KARTE」への不正アクセスでmineo利用者のメールアドレスなどが漏えいした可能性。",
+  "title": "メール配信等を委託するプレイドの「KARTE」への不正アクセスでmineo利用者のメールアドレスなど最大142万件が漏えい",
+  "summary": "メール配信等を委託するプレイドの「KARTE」への不正アクセスでmineo利用者のメールアドレスなど最大142万件が漏えい。",
   "published_on": "2026-11-16",
   "first_published_on": "2026-11-16",
   "publication_kind": "initial",
   "occurred_on": null,
   "detected_on": null,
-  "updated_on": "2026-11-16",
+  "updated_on": "2026-11-18",
   "verification": "official",
-  "leak_status": "suspected",
+  "leak_status": "confirmed",
   "incident_type": "attack",
   "cause": {
     "category": "unauthorized_access",
@@ -22,14 +22,16 @@
   },
   "impact": [
     {
-      "count": null,
+      "count": 1420000,
       "unit": "records",
-      "qualifier": "unknown",
-      "description": "提供していた顧客情報。件数は調査中。"
+      "qualifier": "maximum_approximate",
+      "description": "mineoの契約者と2020年1月以降の解約者の一部。"
     }
   ],
   "data_types": [
-    "メールアドレス"
+    "メールアドレス",
+    "都道府県",
+    "オプション契約の開始日"
   ],
   "related_vendor": "株式会社プレイド",
   "sources": [
@@ -46,8 +48,21 @@
       "title": "株式会社プレイドで発生した不正アクセスに伴うお客さま情報漏えいの可能性について",
       "published_on": "2026-11-16",
       "checked_on": "2026-11-18"
+    },
+    {
+      "url": "https://optage.co.jp/press/2026/press_15.html",
+      "type": "official",
+      "title": "株式会社プレイドで発生した不正アクセスに伴うお客さま情報漏えいに関するお詫びとお知らせ",
+      "published_on": "2026-11-18",
+      "checked_on": "2026-11-20"
     }
   ],
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-11-18",
+      "summary": "続報で対象を最大142万件（メールアドレス、都道府県、一部オプションの契約開始日）と公表。",
+      "source_index": 2
+    }
+  ],
   "notes": ""
 }

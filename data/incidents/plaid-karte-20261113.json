@@ -11,7 +11,7 @@
   "publication_kind": "initial",
   "occurred_on": null,
   "detected_on": null,
-  "updated_on": "2026-11-16",
+  "updated_on": "2026-11-20",
   "verification": "official",
   "leak_status": "confirmed",
   "incident_type": "attack",
@@ -54,6 +54,13 @@
       "title": "不正アクセスによる個人情報を含む可能性のある情報の漏えいに関するお詫びとお知らせ",
       "published_on": "2026-11-16",
       "checked_on": "2026-11-18"
+    },
+    {
+      "url": "https://www.release.tdnet.info/inbs/140120261119583758.pdf",
+      "type": "official",
+      "title": "「KARTE」への不正アクセスに関する調査結果およびサービス再開の見通しのお知らせ",
+      "published_on": "2026-11-20",
+      "checked_on": "2026-11-20"
     }
   ],
   "updates": [
@@ -61,6 +68,11 @@
       "date": "2026-11-16",
       "summary": "利用企業から預かる情報のうち個人情報を含む可能性のある一部の情報とKARTEアカウントのメールアドレス79,249件の漏えいを確認したと公表。",
       "source_index": 1
+    },
+    {
+      "date": "2026-11-20",
+      "summary": "調査結果で、連携データ570社、エンドユーザーの解析データ487社、キャッシュ409社、外部連携の認証情報754社が対象と公表。営業活動等で提供された連絡先45,816件の漏えいも確認。",
+      "source_index": 3
     }
   ],
   "notes": "11月13日の初報はサービス停止と不正アクセスの公表で、個人情報への影響は11月16日に公表。利用企業の公表はそれぞれ別記録とし、件数は合算しない。"

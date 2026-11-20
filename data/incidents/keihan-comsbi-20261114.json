@@ -4,16 +4,16 @@
     "name": "京阪ホールディングス（グループ4社の公式LINEアカウント）",
     "sector": "企業・団体"
   },
-  "title": "グループ4社の公式LINEアカウントで使う「COMSBI」への不正アクセスで友だち登録者の情報が流出した可能性",
-  "summary": "グループ4社の公式LINEアカウントで使う「COMSBI」への不正アクセスで友だち登録者の情報が流出した可能性。",
+  "title": "グループ各社の公式LINEアカウントで使う「COMSBI」への不正アクセスで友だち登録者214,639名の情報が流出",
+  "summary": "グループ各社の公式LINEアカウントで使う「COMSBI」への不正アクセスで友だち登録者214,639名の情報が流出。",
   "published_on": "2026-11-14",
   "first_published_on": "2026-11-14",
   "publication_kind": "initial",
   "occurred_on": null,
   "detected_on": null,
-  "updated_on": "2026-11-14",
+  "updated_on": "2026-11-20",
   "verification": "official",
-  "leak_status": "suspected",
+  "leak_status": "confirmed",
   "incident_type": "attack",
   "cause": {
     "category": "unauthorized_access",
@@ -22,10 +22,10 @@
   },
   "impact": [
     {
-      "count": null,
+      "count": 214639,
       "unit": "people",
-      "qualifier": "unknown",
-      "description": "アカウントごとにLINEの表示名・プロフィール画像・ユーザーIDが最大26,914～90,550名、一部アカウントで氏名・住所・電話番号・生年月日等が最大28,000名など。アカウント間の重複があり合算しない。"
+      "qualifier": "exact",
+      "description": "アカウント間の重複を除いた対象者数。大半はLINEの表示名・ユーザーID等で、一部アカウントでは氏名・電話番号・メールアドレス・住所・生年月日・性別も流出。"
     }
   ],
   "data_types": [
@@ -47,8 +47,21 @@
       "title": "当社グループ会社が利用するLINE公式アカウントの外部サービスへの不正アクセスについて",
       "published_on": "2026-11-14",
       "checked_on": "2026-11-16"
+    },
+    {
+      "url": "https://www.keihan.co.jp/corporate/info/release/assets/261120_keihan-holdings.pdf",
+      "type": "official",
+      "title": "【お詫び】お客さま情報の流出に関するお詫びとお知らせ（確定報）",
+      "published_on": "2026-11-20",
+      "checked_on": "2026-11-20"
     }
   ],
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-11-20",
+      "summary": "確定報で各アカウントの流出項目と人数を公表。重複を除いた対象者は合計214,639名。",
+      "source_index": 1
+    }
+  ],
   "notes": "対象は京阪電気鉄道、京阪流通システムズ（京都タワーサンド・枚方モール）、京阪百貨店、京阪ホテルズ＆リゾーツの各アカウント。"
 }

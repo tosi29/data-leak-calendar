@@ -11,7 +11,7 @@
   "publication_kind": "initial",
   "occurred_on": null,
   "detected_on": null,
-  "updated_on": "2026-11-17",
+  "updated_on": "2026-11-19",
   "verification": "official",
   "leak_status": "confirmed",
   "incident_type": "attack",
@@ -41,8 +41,21 @@
       "title": "当社委託先サービスへの不正アクセスによる個人情報漏洩に関するお詫びとお知らせ",
       "published_on": "2026-11-17",
       "checked_on": "2026-11-18"
+    },
+    {
+      "url": "https://www.morisawa.co.jp/about/news/19311",
+      "type": "official",
+      "title": "当社委託先サービスへの不正アクセスによる個人情報漏洩に関するお詫びとお知らせ（第二報）",
+      "published_on": "2026-11-19",
+      "checked_on": "2026-11-20"
     }
   ],
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-11-19",
+      "summary": "第二報で件数は変わらず、対象範囲にMorisawa ID登録者と退会者を含むと更新。氏名・メールアドレス・ユーザーID以外の個人情報も漏洩の可能性が判明。",
+      "source_index": 1
+    }
+  ],
   "notes": ""
 }

@@ -1,0 +1,53 @@
+{
+  "id": "agileware-backup-20261118",
+  "organization": {
+    "name": "アジャイルウェア",
+    "sector": "企業・団体"
+  },
+  "title": "検証用サーバーの脆弱性を起点とした不正アクセスで問い合わせ対応用・社内管理用システムのバックアップの一部が外部送信",
+  "summary": "検証用サーバーの脆弱性を起点とした不正アクセスで問い合わせ対応用・社内管理用システムのバックアップの一部が外部送信。",
+  "published_on": "2026-11-18",
+  "first_published_on": "2026-11-18",
+  "publication_kind": "initial",
+  "occurred_on": "2026-11-14",
+  "detected_on": "2026-11-14",
+  "updated_on": "2026-11-20",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "vulnerability",
+    "certainty": "confirmed",
+    "detail": "期間限定で外部公開していた検証用サーバーの脆弱性を起点に社内用サーバーの認証情報が取得され、データ保管領域のバックアップの一部（約148MB）が外部に送信された。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "2021年1月以前のバックアップに情報が含まれる顧客と、サポート等で預かったデータベースに含まれる顧客の取引先・利用者等。送信された情報は特定できていない。"
+    }
+  ],
+  "data_types": [
+    "顧客担当者の連絡先",
+    "顧客から預かったデータ（個人情報を含む場合あり）"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://agileware.jp/news/info/2026_1118/",
+      "type": "official",
+      "title": "【重要】弊社サーバへの不正アクセスによる情報漏えいに関するお詫びとお知らせ（第二報）",
+      "published_on": "2026-11-20",
+      "checked_on": "2026-11-20"
+    }
+  ],
+  "updates": [
+    {
+      "date": "2026-11-20",
+      "summary": "第二報で送信データ量（約148MB）と、サポート等で預かった顧客以外の個人情報もバックアップに含まれることを公表。",
+      "source_index": 0
+    }
+  ],
+  "notes": "第一報は11月18日。同じページに第二報が追記された。Lychee Redmineの顧客環境への侵入は確認されていないとしている。"
+}

@@ -1,0 +1,48 @@
+{
+  "id": "mufg-bank-karte-20261118",
+  "organization": {
+    "name": "三菱UFJ銀行",
+    "sector": "企業・団体"
+  },
+  "title": "案内業務を委託する「KARTE」への不正アクセスで顧客の性別・年齢・居住地域約650万件が漏えい",
+  "summary": "案内業務を委託する「KARTE」への不正アクセスで顧客の性別・年齢・居住地域約650万件が漏えい。",
+  "published_on": "2026-11-18",
+  "first_published_on": "2026-11-18",
+  "publication_kind": "initial",
+  "occurred_on": "2026-11-13",
+  "detected_on": null,
+  "updated_on": "2026-11-18",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "利用するプレイドのマーケティングツール「KARTE」への第三者による不正アクセス（プレイドはデータ取得用の公開経路の脆弱性の悪用と公表）。"
+  },
+  "impact": [
+    {
+      "count": 6500000,
+      "unit": "records",
+      "qualifier": "approximate",
+      "description": "顧客の性別、年齢、居住地域（都道府県または政令指定都市）。"
+    }
+  ],
+  "data_types": [
+    "性別",
+    "年齢",
+    "居住地域"
+  ],
+  "related_vendor": "株式会社プレイド",
+  "sources": [
+    {
+      "url": "https://www.bk.mufg.jp/news/news2026/pdf/news1118.pdf",
+      "type": "official",
+      "title": "当行委託先が提供するサービスへの不正アクセスについて",
+      "published_on": "2026-11-18",
+      "checked_on": "2026-11-20"
+    }
+  ],
+  "updates": [],
+  "notes": "第三者が顧客を特定できる情報や連絡するための情報は含まれないとしている。"
+}

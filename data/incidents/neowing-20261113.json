@@ -4,31 +4,47 @@
     "name": "ネオ・ウィング（Neowing・CDJapan）",
     "sector": "企業・団体"
   },
-  "title": "ECサイトのシステムへの不正アクセスによる改ざんでクレジットカード情報285件が漏えいした可能性",
-  "summary": "ECサイトのシステムへの不正アクセスによる改ざんでクレジットカード情報285件が漏えいした可能性。",
+  "title": "ECサイトのSQLインジェクションと決済画面の改ざんで会員情報791,111名分と過去のカード情報360,538件などが漏えい",
+  "summary": "ECサイトのSQLインジェクションと決済画面の改ざんで会員情報791,111名分と過去のカード情報360,538件などが漏えい。",
   "published_on": "2026-11-13",
   "first_published_on": "2026-11-13",
   "publication_kind": "initial",
   "occurred_on": null,
   "detected_on": null,
-  "updated_on": "2026-11-13",
+  "updated_on": "2026-11-18",
   "verification": "official",
-  "leak_status": "suspected",
+  "leak_status": "confirmed",
   "incident_type": "attack",
   "cause": {
-    "category": "unauthorized_access",
-    "certainty": "unknown",
-    "detail": "同社システムへの外部からの不正アクセスによるデータ改ざん。"
+    "category": "vulnerability",
+    "certainty": "confirmed",
+    "detail": "ECサイトの商品画像ページのSQLインジェクションの脆弱性を突かれ、データベースから情報が流出し、カード入力画面にスキミングコードが設置された。"
   },
   "impact": [
     {
-      "count": 285,
+      "count": 791111,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "2002年4月4日～2018年3月3日にカード登録履歴のある会員（氏名、メールアドレス、電話番号、市区町村までの住所）。"
+    },
+    {
+      "count": 360538,
       "unit": "records",
       "qualifier": "exact",
-      "description": "2026年11月9日12時～11日17時に新規登録・変更されたクレジットカード情報。"
+      "description": "データベースから流出したクレジットカード情報（番号、有効期限、名義人。すべて有効期限切れ）。"
+    },
+    {
+      "count": 1241,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "改ざんされた決済画面の表示件数（うちカード情報の送信操作490件）。"
     }
   ],
   "data_types": [
+    "氏名",
+    "メールアドレス",
+    "電話番号",
+    "住所（市区町村まで）",
     "クレジットカード情報"
   ],
   "related_vendor": null,
@@ -46,8 +62,21 @@
       "title": "Notice Regarding the Potential Leakage of Personal Information (Initial Report)",
       "published_on": "2026-11-13",
       "checked_on": "2026-11-16"
+    },
+    {
+      "url": "https://www.neowing.co.jp/info/20261118_c",
+      "type": "official",
+      "title": "（第2報）当社ECサイトへの不正アクセスによる個人情報漏えいに関するお詫びとお知らせ",
+      "published_on": "2026-11-18",
+      "checked_on": "2026-11-20"
     }
   ],
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-11-18",
+      "summary": "第2報でSQLインジェクションによるデータベースからの一括流出（会員791,111名分、うち2018年以前のカード情報360,538件）と、決済画面の改ざんによる対象1,241件（うち送信操作490件）を公表。",
+      "source_index": 2
+    }
+  ],
   "notes": ""
 }

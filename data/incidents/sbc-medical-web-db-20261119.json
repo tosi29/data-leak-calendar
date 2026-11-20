@@ -1,0 +1,95 @@
+{
+  "id": "sbc-medical-web-db-20261119",
+  "organization": {
+    "name": "SBCメディカルグループ（湘南美容クリニック等）",
+    "sector": "企業・団体"
+  },
+  "title": "管理・運用するウェブサイトのデータベースへの不正アクセスで顧客約162万人の氏名・連絡先・パスワード等と職員情報が不正取得",
+  "summary": "管理・運用するウェブサイトのデータベースへの不正アクセスで顧客約162万人の氏名・連絡先・パスワード等と職員情報が不正取得。",
+  "published_on": "2026-11-19",
+  "first_published_on": "2026-11-19",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-11-16",
+  "updated_on": "2026-11-19",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "SBCメディカルグループ株式会社が管理・運用するウェブサイトのシステム内のデータベースへの第三者による不正アクセス。経路は調査中。"
+  },
+  "impact": [
+    {
+      "count": 1624000,
+      "unit": "people",
+      "qualifier": "approximate",
+      "description": "個人情報（氏名、性別、電話番号、メールアドレス、パスワード、住所、生年月日、診察券番号、会員ID等。2010～2023年）。"
+    },
+    {
+      "count": 255416,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "アフィリエイト広告等を通じた予約申込情報。"
+    },
+    {
+      "count": 217769,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "ウェブの問い合わせフォーム経由の相談内容（うちクレジットカード情報14人、いずれも決済不可）。"
+    },
+    {
+      "count": 4513,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "モニター施術に関する情報（画像の保存ファイル名を含む）。"
+    },
+    {
+      "count": 15007,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "直接送付された口コミ情報。"
+    },
+    {
+      "count": 20000,
+      "unit": "accounts",
+      "qualifier": "approximate",
+      "description": "グループと経営支援先医療機関の職員のアカウント情報（氏名、ID、パスワード等）。うち459人は銀行口座・年金関連情報・源泉徴収票等も対象。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "性別",
+    "電話番号",
+    "メールアドレス",
+    "パスワード",
+    "住所",
+    "生年月日",
+    "診察券番号",
+    "予約申込内容",
+    "問い合わせ内容",
+    "施術内容",
+    "クレジットカード情報（14人）",
+    "職員の銀行口座・年金関連情報"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://sbc-holdings.com/ja/news/605",
+      "type": "official",
+      "title": "お客さま情報への不正アクセスに関するお詫びとご報告",
+      "published_on": "2026-11-19",
+      "checked_on": "2026-11-20"
+    },
+    {
+      "url": "https://ir.sbc-holdings.com/ja/sbc-medical-group-reports-cybersecurity-incidents-in-japan/",
+      "type": "official",
+      "title": "SBC Medical Group、日本国内で発生した情報セキュリティ上のインシデントについてお知らせ",
+      "published_on": "2026-11-19",
+      "checked_on": "2026-11-20"
+    }
+  ],
+  "updates": [],
+  "notes": "米国上場の親会社の公表（米国時間11月18日、日本時間19日）。各項目の人数は重複を含み得るため合算しない。同じ公表に記載の「トリビュー」管理画面への不正ログイン（予約者19,445人）は運営会社トリビューの記録を参照。電子カルテや予約サイト（mySBC）の情報の取得は確認されていないとしている。"
+}

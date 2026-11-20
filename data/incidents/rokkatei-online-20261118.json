@@ -1,0 +1,49 @@
+{
+  "id": "rokkatei-online-20261118",
+  "organization": {
+    "name": "六花亭（六花亭オンラインショップ）",
+    "sector": "企業・団体"
+  },
+  "title": "オンラインショップの決済画面の改ざんでクレジットカード情報約8,000件が流出した可能性",
+  "summary": "オンラインショップの決済画面の改ざんでクレジットカード情報約8,000件が流出した可能性。",
+  "published_on": "2026-11-18",
+  "first_published_on": "2026-11-18",
+  "publication_kind": "initial",
+  "occurred_on": "2026-10-21",
+  "detected_on": "2026-11-18",
+  "updated_on": "2026-11-18",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "第三者の不正アクセスにより決済画面のプログラムが改ざんされ、入力情報が外部に送信される状態だった。"
+  },
+  "impact": [
+    {
+      "count": 8000,
+      "unit": "records",
+      "qualifier": "approximate",
+      "description": "2026年10月21日21時から11月18日11時までに決済画面でカード情報を入力した顧客。"
+    }
+  ],
+  "data_types": [
+    "クレジットカード番号",
+    "有効期限",
+    "カード名義人",
+    "セキュリティコード"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.rokkatei.co.jp/news/info/20261118-25760/",
+      "type": "official",
+      "title": "「六花亭オンラインショップ」への不正アクセスによる個人情報流出の可能性に関するお詫びとお知らせ",
+      "published_on": "2026-11-18",
+      "checked_on": "2026-11-20"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

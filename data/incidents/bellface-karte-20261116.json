@@ -11,7 +11,7 @@
   "publication_kind": "initial",
   "occurred_on": null,
   "detected_on": null,
-  "updated_on": "2026-11-16",
+  "updated_on": "2026-11-18",
   "verification": "official",
   "leak_status": "confirmed",
   "incident_type": "attack",
@@ -41,8 +41,21 @@
       "title": "【11/18更新】当社が利用する「KARTE」への不正アクセスに伴う情報漏洩に関するお詫びとご報告",
       "published_on": "2026-11-16",
       "checked_on": "2026-11-18"
+    },
+    {
+      "url": "https://bellface.co.jp/news/8217/",
+      "type": "official",
+      "title": "当社が利用する「KARTE」への不正アクセスに伴う情報漏洩に関するお詫びとご報告（第2報）",
+      "published_on": "2026-11-18",
+      "checked_on": "2026-11-20"
     }
   ],
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-11-18",
+      "summary": "第2報で、KARTE上で削除済みのデータも対象となり、過去の利用顧客や社員と接点のあった方の一部も含まれると公表。11月19日以降に個別連絡。",
+      "source_index": 1
+    }
+  ],
   "notes": "11月16日に漏洩の可能性として公表し、11月18日の更新で外部への漏洩を確認。"
 }

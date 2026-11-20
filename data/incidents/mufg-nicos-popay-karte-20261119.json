@@ -1,0 +1,46 @@
+{
+  "id": "mufg-nicos-popay-karte-20261119",
+  "organization": {
+    "name": "三菱UFJニコス（PO PAY）",
+    "sector": "企業・団体"
+  },
+  "title": "「PO PAY」の案内業務を委託する「KARTE」への不正アクセスで利用者250件のクレジットカード区分情報が漏えい",
+  "summary": "「PO PAY」の案内業務を委託する「KARTE」への不正アクセスで利用者250件のクレジットカード区分情報が漏えい。",
+  "published_on": "2026-11-19",
+  "first_published_on": "2026-11-19",
+  "publication_kind": "initial",
+  "occurred_on": "2026-11-13",
+  "detected_on": null,
+  "updated_on": "2026-11-19",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "利用するプレイドのマーケティングツール「KARTE」への第三者による不正アクセス（プレイドはデータ取得用の公開経路の脆弱性の悪用と公表）。"
+  },
+  "impact": [
+    {
+      "count": 250,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "PO PAY利用者の登録クレジットカードの区分（提携カードか否か）。個人を特定できる情報は含まないとしている。"
+    }
+  ],
+  "data_types": [
+    "クレジットカードの区分情報"
+  ],
+  "related_vendor": "株式会社プレイド",
+  "sources": [
+    {
+      "url": "https://info.cr.mufg.jp/news/down2.php?attach_id=1101&category=1&page=1&seq=11207",
+      "type": "official",
+      "title": "当社委託先が提供するサービスへの不正アクセスについて",
+      "published_on": "2026-11-19",
+      "checked_on": "2026-11-20"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}
