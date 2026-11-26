@@ -1,0 +1,49 @@
+{
+  "id": "sweep-d3e0400ebe-20261112",
+  "organization": {
+    "name": "キッズレーション",
+    "sector": "企業・団体"
+  },
+  "title": "商品の出荷業務を委託するオープンロジの倉庫管理システムが第三者の不正アクセスを受け、委託先へ連携していた出荷データの一部が外部に持ち出されたことが確認された",
+  "summary": "商品の出荷業務を委託するオープンロジの倉庫管理システムが第三者の不正アクセスを受け、委託先へ連携していた出荷データの一部が外部に持ち出されたことが確認された。不正利用の被害は確認されていない。対象の客には登録メールアドレスへ順次連絡する。 対象情報：2026年4月8日〜11月8日の出荷データに含まれるお届け先の氏名、住所、電話番号、メールアドレス（登録がある場合）、商品情報（商品名、数量等）など。",
+  "published_on": "2026-11-12",
+  "first_published_on": "2026-11-12",
+  "publication_kind": "initial",
+  "occurred_on": "2026-11-08",
+  "detected_on": null,
+  "updated_on": "2026-11-12",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "商品の出荷業務を委託するオープンロジの倉庫管理システムが第三者の不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 2350,
+      "unit": "records",
+      "qualifier": "maximum_approximate",
+      "description": "最大約2,350件（重複を含む）。"
+    }
+  ],
+  "data_types": [
+    "住所",
+    "電話番号",
+    "メールアドレス",
+    "商品情報"
+  ],
+  "related_vendor": "株式会社オープンロジ",
+  "sources": [
+    {
+      "url": "https://www.kidslation.jp/blogs/news/20261112",
+      "type": "official",
+      "title": "当社ECサイト「キッズレーション」の委託先システムへの不正アクセスに伴う、 お客様情報の漏えいについてのお詫びとお知らせ – Kidslation",
+      "published_on": "2026-11-12",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

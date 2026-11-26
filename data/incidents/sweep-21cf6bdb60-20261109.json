@@ -1,0 +1,47 @@
+{
+  "id": "sweep-21cf6bdb60-20261109",
+  "organization": {
+    "name": "侶丹（kaene）",
+    "sector": "企業・団体"
+  },
+  "title": "在庫・売上管理に使う「One'sCloset」への不正アクセスで、kaeneの顧客の個人情報が漏えいした可能性",
+  "summary": "在庫・売上管理に使う「One'sCloset」で第三者による不正アクセスが発生し、同システムに保存されていた個人情報と外部ECシステムとの連携に使う接続キーが漏えいしたと運営会社から報告を受け、kaene の顧客の個人情報も漏えいした可能性がある。漏えいの可能性を確認できた顧客には個別にメールで知らせている。 対象情報：購入者の氏名、届け先の氏名・住所・電話番号など。",
+  "published_on": "2026-11-09",
+  "first_published_on": "2026-11-09",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-09",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "在庫・売上管理に使う「One'sCloset」で第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "非公表（確認中）。"
+    }
+  ],
+  "data_types": [
+    "購入者の氏名",
+    "届け先の氏名・住所・電話番号"
+  ],
+  "related_vendor": "One'sCloset",
+  "sources": [
+    {
+      "url": "https://kaene.jp/blogs/topics_kaene/personal-data-incident-notice",
+      "type": "official",
+      "title": "【重要】お客様の個人情報が漏えいした可能性に関するお詫びとお知らせ",
+      "published_on": "2026-11-09",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

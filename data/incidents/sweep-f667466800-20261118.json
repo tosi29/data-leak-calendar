@@ -1,0 +1,47 @@
+{
+  "id": "sweep-f667466800-20261118",
+  "organization": {
+    "name": "ウェルカム（HAY オンラインストア）",
+    "sector": "企業・団体"
+  },
+  "title": "2025年6月末に契約を終えた「KARTE」にデータが残っており、プレイドへの不正アクセスで顧客の個人情報の一部が漏えいした",
+  "summary": "2025年6月末に契約を終えた「KARTE」にデータが残っており、プレイドへの不正アクセスで顧客の個人情報の一部が漏えいした。プレイドに要因の報告と 対象情報：2023年3月10日〜2025年6月30日に HAY オンラインストアを利用した顧客の一部の氏名、メールアドレス、会員IDなど。",
+  "published_on": "2026-11-18",
+  "first_published_on": "2026-11-18",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-11-15",
+  "updated_on": "2026-11-18",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "2025年6月末に契約を終えた「KARTE」にデータが残っており、プレイドへの不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "最大9,890件（実際の件数は調査中）。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス",
+    "会員ID"
+  ],
+  "related_vendor": "株式会社プレイド",
+  "sources": [
+    {
+      "url": "https://www.hay-japan.com/topics_detail.html?info_id=8782",
+      "type": "official",
+      "title": "【重要】お客さまサービス（KARTE）における個人情報漏洩に関するお詫びとお知らせ（11月25日更新）",
+      "published_on": "2026-11-18",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

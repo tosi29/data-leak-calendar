@@ -1,0 +1,47 @@
+{
+  "id": "sweep-1ec14850b5-20261117",
+  "organization": {
+    "name": "伊勢原市",
+    "sector": "自治体"
+  },
+  "title": "「いせはらくらし安心メール」の配信サービスを提供するウイングアークNEXから、システムエンジンを担うアララで第三者の不正アクセスが発生し、登録情報が外部に漏えいしていたと報告を受けた",
+  "summary": "「いせはらくらし安心メール」の配信サービスを提供するウイングアークNEXから、システムエンジンを担うアララで第三者の不正アクセスが発生し、登録情報が外部に漏えいしていたと報告を受けた。配信サービスは10月30日から止めており、復旧時期は未定。 対象情報：2026年7月1日〜10月31日に登録され、メール配信歴がある利用者のメールアドレス。",
+  "published_on": "2026-11-17",
+  "first_published_on": "2026-11-17",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-17",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "「いせはらくらし安心メール」の配信サービスを提供するウイングアークNEXから、システムエンジンを担うアララで第三者の不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 14698,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "メールアドレス 14,698件。"
+    }
+  ],
+  "data_types": [
+    "2026年7月1日〜10月31日に登録され",
+    "メール配信歴がある利用者のメールアドレス"
+  ],
+  "related_vendor": "アララ株式会社",
+  "sources": [
+    {
+      "url": "https://www.city.isehara.kanagawa.jp/docs/2026103000028/",
+      "type": "official",
+      "title": "「いせはらくらし安心メール」配信サービスへの不正アクセスによるメールアドレスの流出について | 伊勢原市",
+      "published_on": "2026-11-17",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

@@ -9260,5 +9260,213 @@
       "https://www.keisei.co.jp/cms/files/keisei/MASTER/0110/YWIXoWZU.pdf"
     ],
     "reason": "公表索引に載った別の公式PDF（11月13日付・16日追記版と18日付）を取得し、最大約337万件の顧客情報が取得された可能性を確認したため掲載。"
+  },
+  {
+    "candidate": {
+      "id": "nov13-sweep-t138",
+      "organization": "豊明市（TKC再委託先 アララ メッセージへの不正アクセス）",
+      "reported_on": "2026-11-02",
+      "verification": "pending",
+      "reference_url": "https://www.city.toyoake.lg.jp/24893.htm",
+      "reviewed_on": "2026-11-13",
+      "checked_urls": [
+        "https://www.city.toyoake.lg.jp/24893.htm"
+      ],
+      "note": "2026年11月13日調査：11月分の公表索引の再照合で見つかった未収録行。公式ページを取得できず（HTTP 403）本文未確認。索引の規模：調査中"
+    },
+    "reviewed_on": "2026-11-26",
+    "resolution": "published",
+    "incident_ids": [
+      "toyoake-mynumber-arara-20261102"
+    ],
+    "source_urls": [
+      "https://www.city.toyoake.lg.jp/24893.htm"
+    ],
+    "reason": "2026年11月26日の再取得で公式本文を確認でき、公表日・対象情報を本文で照合できたため掲載。"
+  },
+  {
+    "candidate": {
+      "id": "nov13-sweep-t159",
+      "organization": "岡崎市（TKC再委託先 アララ メッセージへの不正アクセス）",
+      "reported_on": "2026-11-04",
+      "verification": "pending",
+      "reference_url": "https://www.city.okazaki.lg.jp/shisei/koho/1006195/1006358/1017062/1017558.html",
+      "reviewed_on": "2026-11-13",
+      "checked_urls": [
+        "https://www.city.okazaki.lg.jp/shisei/koho/1006195/1006358/1017062/1017558.html"
+      ],
+      "note": "2026年11月13日調査：11月分の公表索引の再照合で見つかった未収録行。公式ページを取得できず（HTTP 403）本文未確認。索引の規模：非公表（件数確認中）"
+    },
+    "reviewed_on": "2026-11-26",
+    "resolution": "published",
+    "incident_ids": [
+      "okazaki-mynumber-arara-20261104"
+    ],
+    "source_urls": [
+      "https://www.city.okazaki.lg.jp/shisei/koho/1006195/1006358/1017062/1017558.html"
+    ],
+    "reason": "2026年11月26日の再取得で公式本文を確認でき、公表日・対象情報を本文で照合できたため掲載。"
+  },
+  {
+    "candidate": {
+      "id": "nov13-sweep-t177",
+      "organization": "岡崎市（teket不正アクセス）",
+      "reported_on": "2026-11-09",
+      "verification": "pending",
+      "reference_url": "https://www.city.okazaki.lg.jp/shisei/koho/1006195/1006358/1017062/1017625.html",
+      "reviewed_on": "2026-11-13",
+      "checked_urls": [
+        "https://www.city.okazaki.lg.jp/shisei/koho/1006195/1006358/1017062/1017625.html"
+      ],
+      "note": "2026年11月13日調査：11月分の公表索引の再照合で見つかった未収録行。公式ページを取得できず（HTTP 302）本文未確認。索引の規模：件数確認中"
+    },
+    "reviewed_on": "2026-11-26",
+    "resolution": "published",
+    "incident_ids": [
+      "okazaki-teket-20261109"
+    ],
+    "source_urls": [
+      "https://www.city.okazaki.lg.jp/shisei/koho/1006195/1006358/1017062/1017625.html"
+    ],
+    "reason": "2026年11月26日の再取得で公式本文を確認でき、公表日・対象情報を本文で照合できたため掲載。"
+  },
+  {
+    "candidate": {
+      "id": "nov20-uniformnext-karte-review",
+      "organization": "ユニフォームネクスト（KARTE）",
+      "reported_on": "2026-11-18",
+      "verification": "pending",
+      "reference_url": "https://www.uniformnext.com/info/20261118/",
+      "reviewed_on": "2026-11-20",
+      "checked_urls": [
+        "https://www.uniformnext.com/info/20261118/"
+      ],
+      "note": "2026年11月20日調査：公表索引ではKARTEへの不正アクセスで顧客の会社名・氏名・メールアドレス等最大1,701,006件の漏えいとされるが、公式ページが直接取得・ヘッドレスブラウザーとも403で本文未確認のため保留。"
+    },
+    "reviewed_on": "2026-11-26",
+    "resolution": "published",
+    "incident_ids": [
+      "uniformnext-karte-20261118"
+    ],
+    "source_urls": [
+      "https://www.uniformnext.com/info/20261118/"
+    ],
+    "reason": "2026年11月26日の再取得で公式本文を確認でき、公表日・対象情報を本文で照合できたため掲載。"
+  },
+  {
+    "candidate": {
+      "id": "nov20-tokyo-japanticket-review",
+      "organization": "東京都（Tokyo Tokyo Delicious Museum 鮨握り体験の予約）",
+      "reported_on": "2026-11-18",
+      "verification": "pending",
+      "reference_url": "https://www.metro.tokyo.lg.jp/information/press/2026/11/2026111801",
+      "reviewed_on": "2026-11-20",
+      "checked_urls": [
+        "https://www.metro.tokyo.lg.jp/information/press/2026/11/2026111801"
+      ],
+      "note": "2026年11月20日調査：公表索引では予約サービスの外部分析ツールへの不正アクセスで予約者の氏名・メールアドレス・電話番号・国籍・アレルギー情報97件の漏えいとされるが、都のサイトが計画メンテナンス中で本文未確認のため保留。"
+    },
+    "reviewed_on": "2026-11-26",
+    "resolution": "published",
+    "incident_ids": [
+      "tokyo-ttdm-japanticket-20261117"
+    ],
+    "source_urls": [
+      "https://www.metro.tokyo.lg.jp/information/press/2026/11/2026111801"
+    ],
+    "reason": "2026年11月26日の再取得で公式本文を確認でき、公表日・対象情報を本文で照合できたため掲載。"
+  },
+  {
+    "candidate": {
+      "id": "nov20-tokyo-arara-review",
+      "organization": "東京都（賃貸住宅断熱・再エネ推進コンシェルジュ事業、アララメッセージ）",
+      "reported_on": "2026-11-18",
+      "verification": "pending",
+      "reference_url": "https://www.metro.tokyo.lg.jp/information/press/2026/11/2026111819",
+      "reviewed_on": "2026-11-20",
+      "checked_urls": [
+        "https://www.metro.tokyo.lg.jp/information/press/2026/11/2026111819"
+      ],
+      "note": "2026年11月20日調査：公表索引ではアララメッセージへの不正アクセスでメールアドレス320件の漏えいとされるが、都のサイトが計画メンテナンス中で本文未確認のため保留。"
+    },
+    "reviewed_on": "2026-11-26",
+    "resolution": "published",
+    "incident_ids": [
+      "tokyo-env-concierge-arara-20261118"
+    ],
+    "source_urls": [
+      "https://www.metro.tokyo.lg.jp/information/press/2026/11/2026111819"
+    ],
+    "reason": "2026年11月26日の再取得で公式本文を確認でき、公表日・対象情報を本文で照合できたため掲載。"
+  },
+  {
+    "candidate": {
+      "id": "nov13-sweep-t144",
+      "organization": "大垣共立銀行（SMBCコンシューマーファイナンス保証システム不正アクセス）",
+      "reported_on": "2026-11-05",
+      "verification": "pending",
+      "reference_url": "https://www.okb.co.jp/archive/2026/20261105-03.html",
+      "reviewed_on": "2026-11-13",
+      "checked_urls": [
+        "https://www.okb.co.jp/archive/2026/20261105-03.html"
+      ],
+      "note": "2026年11月13日調査：11月分の公表索引の再照合で見つかった未収録行。公式本文は確認できたが、ページに公表日の記載がなく、第三者の索引の日付だけでは掲載日を決められない。索引の規模：非公表"
+    },
+    "reviewed_on": "2026-11-26",
+    "resolution": "published",
+    "incident_ids": [
+      "okb-smbccf-20261105"
+    ],
+    "source_urls": [
+      "https://www.okb.co.jp/assets/pdf/archive/2026/20261105-03.pdf"
+    ],
+    "reason": "2026年11月26日の再取得で公式本文を確認でき、公表日・対象情報を本文で照合できたため掲載。"
+  },
+  {
+    "candidate": {
+      "id": "nov13-sweep-t061",
+      "organization": "茂木町（TKC再委託先 アララ メッセージへの不正アクセス）",
+      "reported_on": "2026-11-04",
+      "verification": "pending",
+      "reference_url": "https://www.town.motegi.tochigi.jp/motegi/nextpage.php?cd=8711&syurui=2",
+      "reviewed_on": "2026-11-13",
+      "checked_urls": [
+        "https://www.town.motegi.tochigi.jp/motegi/nextpage.php?cd=8711&syurui=2"
+      ],
+      "note": "2026年11月13日調査：11月分の公表索引の再照合で見つかった未収録行。公式本文は確認できたが、ページに公表日の記載がなく、第三者の索引の日付だけでは掲載日を決められない。索引の規模：60件（オンライン申請システム利用登録者）"
+    },
+    "reviewed_on": "2026-11-26",
+    "resolution": "published",
+    "incident_ids": [
+      "motegi-tkc-arara-20261104"
+    ],
+    "source_urls": [
+      "https://www.town.motegi.tochigi.jp/motegi/nextpage.php?cd=8718&syurui=2"
+    ],
+    "reason": "2026年11月26日の再取得で公式本文を確認でき、公表日・対象情報を本文で照合できたため掲載。"
+  },
+  {
+    "candidate": {
+      "id": "nov16-pokepay-review",
+      "organization": "ポケットチェンジ（Pokepay Enterprise）",
+      "reported_on": "2026-11-14",
+      "verification": "pending",
+      "reference_url": "https://pokepay.jp/ja/entries/142",
+      "reviewed_on": "2026-11-16",
+      "checked_urls": [
+        "https://pokepay.jp/ja/entries/142",
+        "https://pokepay.jp/ja/entries/143"
+      ],
+      "note": "2026年11月16日調査：Pokepay（Enterprise）への不正アクセスで全サービスを停止と公表。影響範囲は調査中で個人情報への影響は未記載のため保留。同日停止した大学生協電子マネー・ハチペイ・めぶくPay・ふくアプリも個人情報への影響が未公表で対象外とした。北区（ほくペイ）は加盟店の申込情報が取得された可能性を公表したため掲載。"
+    },
+    "reviewed_on": "2026-11-26",
+    "resolution": "published",
+    "incident_ids": [
+      "pocketchange-pokepay-20261114"
+    ],
+    "source_urls": [
+      "https://about.pocket-change.jp/news/2026-unauthorized-access-notice"
+    ],
+    "reason": "2026年11月19日にポケットチェンジが漏洩した個人情報と影響範囲を公表し、既存の掲載（pocketchange-pokepay-20261114）へ反映済みのため候補から外す。"
   }
 ]

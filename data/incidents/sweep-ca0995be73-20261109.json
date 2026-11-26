@@ -1,0 +1,50 @@
+{
+  "id": "sweep-ca0995be73-20261109",
+  "organization": {
+    "name": "京都文教大学",
+    "sector": "企業・団体"
+  },
+  "title": "大学が主催するイベントの参加申込受付に利用する外部サービス「teket」が第三者の不正アクセスを受けて個人情報が流出し、イベントの申込者も流出対象に含まれる可能性がある",
+  "summary": "大学が主催するイベントの参加申込受付に利用する外部サービス「teket」が第三者の不正アクセスを受けて個人情報が流出し、イベントの申込者も流出対象に含まれる可能性がある。具体的な影響範囲は確認中。 対象情報：氏名、メールアドレス、一部利用者の住所、電話番号、生年月日等。",
+  "published_on": "2026-11-09",
+  "first_published_on": "2026-11-09",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-09",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "大学が主催するイベントの参加申込受付に利用する外部サービス「teket」が第三者の不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "調査中。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "メールアドレス",
+    "一部利用者の住所",
+    "電話番号",
+    "生年月日"
+  ],
+  "related_vendor": "株式会社teket",
+  "sources": [
+    {
+      "url": "https://www.cyber.kbu.ac.jp/kbu/whatnew/2026/11/sn_20261109.html",
+      "type": "official",
+      "title": "【重要なお知らせ】舞台探訪ウォーク受付サービスにおける不正アクセスおよび個人情報流出について | 京都文教大学",
+      "published_on": "2026-11-09",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

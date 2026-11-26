@@ -1,0 +1,52 @@
+{
+  "id": "uniformnext-karte-20261118",
+  "organization": {
+    "name": "ユニフォームネクスト",
+    "sector": "企業・団体"
+  },
+  "title": "Web接客・メール配信等に使う「KARTE」への不正アクセスで顧客最大1,701,006件の会社名・氏名・メールアドレス等が漏えい",
+  "summary": "Web接客やメール配信等に利用するプレイドの「KARTE」が第三者の不正アクセスを受け、同サービスに連携していた顧客の登録情報の一部が外部に漏えいした。対象は2026年11月13日までにユニフォームネクストと運営ECサイトを利用した顧客最大1,701,006件で、会社名・氏名・メールアドレス・電話番号・郵便番号・職種・業種が含まれる。ログインパスワード、カード情報、口座情報、住所は含まれない。",
+  "published_on": "2026-11-18",
+  "first_published_on": "2026-11-18",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-11-13",
+  "updated_on": "2026-11-18",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "Web接客・メール配信等に利用する株式会社プレイドの「KARTE」のサーバーへの第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 1701006,
+      "unit": "records",
+      "qualifier": "maximum",
+      "description": "会社名、氏名、メールアドレス、電話番号、郵便番号、職種、業種。"
+    }
+  ],
+  "data_types": [
+    "会社名",
+    "氏名",
+    "メールアドレス",
+    "電話番号",
+    "郵便番号",
+    "職種",
+    "業種"
+  ],
+  "related_vendor": "株式会社プレイド",
+  "sources": [
+    {
+      "url": "https://www.uniformnext.com/info/20261118/",
+      "type": "official",
+      "title": "【重要なお知らせとお詫び】外部委託先（KARTE）への不正アクセスに伴う個人情報漏えいについて",
+      "published_on": "2026-11-18",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

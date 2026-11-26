@@ -1,0 +1,50 @@
+{
+  "id": "tokyo-ttdm-japanticket-20261117",
+  "organization": {
+    "name": "東京都（Tokyo Tokyo Delicious Museum 鮨握り体験の予約）",
+    "sector": "自治体"
+  },
+  "title": "鮨握り体験の予約に使ったJapanticketの予約サービスの外部分析ツールへの不正アクセスで、予約者97件の氏名・アレルギー情報等が漏えい",
+  "summary": "東京都等が開催するTokyo Tokyo Delicious Museumで利用していたJapanticketの予約サービスの外部分析ツールが不正アクセスを受け、2025年と2026年の鮨握り体験「鮨 東京-Sushi TOKYO-」の予約時に収集した氏名・メールアドレス・電話番号・国籍・アレルギー情報97件の漏えいが確認された。",
+  "published_on": "2026-11-17",
+  "first_published_on": "2026-11-17",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-17",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "予約サービスの提供事業者Japanticketが使う外部分析ツールへの不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 97,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "鮨握り体験の予約時に収集した氏名、メールアドレス、電話番号、国籍、アレルギー情報。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "メールアドレス",
+    "電話番号",
+    "国籍",
+    "アレルギー情報"
+  ],
+  "related_vendor": "株式会社Japanticket",
+  "sources": [
+    {
+      "url": "https://www.metro.tokyo.lg.jp/information/press/2026/11/2026111801",
+      "type": "official",
+      "title": "予約サービスの外部分析ツールへの不正アクセスによる個人情報の漏えいについて",
+      "published_on": "2026-11-17",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

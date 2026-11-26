@@ -1,0 +1,49 @@
+{
+  "id": "sweep-4478168860-20261111",
+  "organization": {
+    "name": "イノフィス（マッスルスーツ公式ストア）",
+    "sector": "企業・団体"
+  },
+  "title": "業務委託先オープンロジへの不正アクセスで出荷データが外部に持ち出されたと公表されたことを受け、公式ストアの顧客の個人情報が漏えいした可能性があると公表した",
+  "summary": "業務委託先オープンロジへの不正アクセスで出荷データが外部に持ち出されたと公表されたことを受け、公式ストアの顧客の個人情報が漏えいした可能性があると公表した。 対象情報：委託先オープンロジに出荷を依頼した商品のお届け先の氏名、住所、電話番号、メールアドレス、商品情報（商品名・数量等）。",
+  "published_on": "2026-11-11",
+  "first_published_on": "2026-11-11",
+  "publication_kind": "initial",
+  "occurred_on": "2026-11-08",
+  "detected_on": null,
+  "updated_on": "2026-11-11",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "業務委託先オープンロジへの不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "資料に明記なし。"
+    }
+  ],
+  "data_types": [
+    "住所",
+    "電話番号",
+    "メールアドレス",
+    "商品情報"
+  ],
+  "related_vendor": "株式会社オープンロジ",
+  "sources": [
+    {
+      "url": "https://shop.musclesuit.co.jp/blogs/%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B/%E9%87%8D%E8%A6%81-%E6%A5%AD%E5%8B%99%E5%A7%94%E8%A8%97%E5%85%88-%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BE%E3%82%AA%E3%83%BC%E3%83%97%E3%83%B3%E3%83%AD%E3%82%B8-%E3%81%B8%E3%81%AE%E4%B8%8D%E6%AD%A3%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E3%81%AB%E3%82%88%E3%82%8B%E5%80%8B%E4%BA%BA%E6%83%85%E5%A0%B1%E6%BC%8F%E6%B4%A9%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B%E3%81%A8%E3%81%8A%E8%A9%AB%E3%81%B3",
+      "type": "official",
+      "title": "【重要】業務委託先（株式会社オープンロジ）への不正アクセスによる個人情報漏洩に関するお知らせとお詫び – マッスルスーツ公式ストア｜腰の負担を軽減するパワーアシストスーツ",
+      "published_on": "2026-11-11",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

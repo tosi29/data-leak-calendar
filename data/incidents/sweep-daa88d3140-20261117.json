@@ -1,0 +1,50 @@
+{
+  "id": "sweep-daa88d3140-20261117",
+  "organization": {
+    "name": "シブヤテレビジョン（AIR JAM WEB STORE）",
+    "sector": "企業・団体"
+  },
+  "title": "受注管理に利用する GoQSystem がお問い合わせフォームの脆弱性を悪用した不正アクセスを受け、当サイトの顧客情報の一部も漏えいの対象に含まれていることが判明した",
+  "summary": "受注管理に利用する GoQSystem がお問い合わせフォームの脆弱性を悪用した不正アクセスを受け、当サイトの顧客情報の一部も漏えいの対象に含まれていることが判明した。 対象情報：注文者・届け先の氏名、住所、電話番号、注文者のメールアドレス、注文内容（商品名など）。",
+  "published_on": "2026-11-17",
+  "first_published_on": "2026-11-17",
+  "publication_kind": "initial",
+  "occurred_on": "2026-11-10",
+  "detected_on": "2026-11-15",
+  "updated_on": "2026-11-17",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "受注管理に利用する GoQSystem がお問い合わせフォームの脆弱性を悪用した不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "精査中。"
+    }
+  ],
+  "data_types": [
+    "注文者・届け先の氏名",
+    "住所",
+    "電話番号",
+    "注文者のメールアドレス",
+    "注文内容"
+  ],
+  "related_vendor": "株式会社GoQSystem",
+  "sources": [
+    {
+      "url": "https://airjam-store.com/blogs/%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B9/important-notice1117",
+      "type": "official",
+      "title": "外部委託先への不正アクセスに伴うお客様情報漏えいの可能性について – AIR JAM WEB STORE",
+      "published_on": "2026-11-17",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

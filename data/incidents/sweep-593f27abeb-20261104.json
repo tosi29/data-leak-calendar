@@ -1,0 +1,44 @@
+{
+  "id": "sweep-593f27abeb-20261104",
+  "organization": {
+    "name": "猪名川町",
+    "sector": "自治体"
+  },
+  "title": "交付予約・管理システムの提供事業者TKCの委託先アララへの不正アクセスで、予約者のメールアドレスが漏えいした可能性",
+  "summary": "町が運用する「マイナンバーカード交付予約・管理システム」の提供事業者 TKC から、メール配信業務の委託先アララが第三者の不正アクセスを受け、カード受け取りを予約した住民のメールアドレスが漏えいした可能性があると報告を受けた。システムのメール通知機能（予約完了メール・予約日前日のリマインドメール）を緊急停止し、11月9日の追記で、予約完了メールの送信機能は新たなメール送信基盤を構築して11月10日に再開する予定とした。メール本文、氏名や住所等の漏えいは確認されておらず、システムは個人番号を使用していない。 対象情報：マイナンバーカードの受取等予約時に登録したメールアドレス。",
+  "published_on": "2026-11-04",
+  "first_published_on": "2026-11-04",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-04",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "町が運用する「マイナンバーカード交付予約・管理システム」の提供事業者 TKC から、メール配信業務の委託先アララが第三者の不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "非公表。"
+    }
+  ],
+  "data_types": [],
+  "related_vendor": "アララ株式会社",
+  "sources": [
+    {
+      "url": "https://www.town.inagawa.lg.jp/important_news/10410.html",
+      "type": "official",
+      "title": "「マイナンバーカード交付予約サイト」不正アクセスに伴うメールアドレス漏洩の可能性について／猪名川町",
+      "published_on": "2026-11-04",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

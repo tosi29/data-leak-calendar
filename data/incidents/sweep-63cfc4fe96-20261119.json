@@ -1,0 +1,49 @@
+{
+  "id": "sweep-63cfc4fe96-20261119",
+  "organization": {
+    "name": "THK",
+    "sector": "企業・団体"
+  },
+  "title": "Webサイトの問い合わせ対応に利用する「ChatPlus」の提供元チャットプラスへの第三者の不正アクセスで、チャット機能で問い合わせた顧客の情報が流出した可能性がある",
+  "summary": "Webサイトの問い合わせ対応に利用する「ChatPlus」の提供元チャットプラスへの第三者の不正アクセスで、チャット機能で問い合わせた顧客の情報が流出した可能性がある。予防措置としてチャット機能を停止した。 対象情報：会社名、氏名、メールアドレス、チャットでの会話内容。",
+  "published_on": "2026-11-19",
+  "first_published_on": "2026-11-19",
+  "publication_kind": "initial",
+  "occurred_on": "2026-11-13",
+  "detected_on": "2026-11-17",
+  "updated_on": "2026-11-19",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "Webサイトの問い合わせ対応に利用する「ChatPlus」の提供元チャットプラスへの第三者の不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "調査中。"
+    }
+  ],
+  "data_types": [
+    "会社名",
+    "氏名",
+    "メールアドレス",
+    "チャットでの会話内容"
+  ],
+  "related_vendor": "チャットプラス株式会社",
+  "sources": [
+    {
+      "url": "https://www.thk.com/jp/ja/news/company/article-19112026-1.html",
+      "type": "official",
+      "title": "当社が利用するチャットサービスへの不正アクセスに伴う個人情報漏えいの可能性について ｜会社情報｜THKからのお知らせ｜THKオフィシャルウェブサイト",
+      "published_on": "2026-11-19",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

@@ -1,0 +1,46 @@
+{
+  "id": "sweep-c67eb97b5c-20261105",
+  "organization": {
+    "name": "すとぷり ふぁみりーくらぶ",
+    "sector": "企業・団体"
+  },
+  "title": "ファンクラブ（運営会社 Fanplus）がメールマガジン等の配信に使う外部メール配信サービス「アララメッセージ」（アララ）が第三者の不正アクセスを受け、メールアドレスの漏えいが確認された",
+  "summary": "ファンクラブ（運営会社 Fanplus）がメールマガジン等の配信に使う外部メール配信サービス「アララメッセージ」（アララ）が第三者の不正アクセスを受け、メールアドレスの漏えいが確認された。告知時点では会員のメールアドレスが漏えい対象に含まれるかは判明しておらず、影響範囲を確認中。 対象情報：メールアドレスなど。",
+  "published_on": "2026-11-05",
+  "first_published_on": "2026-11-05",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-05",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "ファンクラブ（運営会社 Fanplus）がメールマガジン等の配信に使う外部メール配信サービス「アララメッセージ」（アララ）が第三者の不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "非公表。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "アララ株式会社",
+  "sources": [
+    {
+      "url": "https://strawberryprince.stpr.com/news/detail/95369",
+      "type": "official",
+      "title": "【重要】外部メール配信サービスへの不正アクセスに関するお知らせとご注意｜ すとぷり｜すとぷり ふぁみりーくらぶ",
+      "published_on": "2026-11-05",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

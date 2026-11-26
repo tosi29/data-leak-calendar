@@ -1,0 +1,46 @@
+{
+  "id": "sweep-7a3d05513e-20261105",
+  "organization": {
+    "name": "コングレ（コングレスクエア日本橋）",
+    "sector": "企業・団体"
+  },
+  "title": "メールマガジン配信に使う「アララメッセージ」への不正アクセスでコングレスクエア日本橋の顧客のメールアドレス464件が流出",
+  "summary": "一部の事業（コングレスクエア日本橋）のメールマガジン配信に利用するアララのメール配信サービス「アララメッセージ」が第三者の不正アクセスを受け、アララのフォレンジック調査で、同社が利用していたサーバー環境から登録されていた顧客のメールアドレスが流出したと確認した。11月9日の更新で件数を464件とした。同サービスを使った送信は全面的に停止し、対象者には個別にメールで連絡する。当社の基幹システム・自社サーバーへの不正侵入・情報流出は確認されていない。 対象情報：メールアドレスのみ。",
+  "published_on": "2026-11-05",
+  "first_published_on": "2026-11-05",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-05",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "一部の事業（コングレスクエア日本橋）のメールマガジン配信に利用するアララのメール配信サービス「アララメッセージ」が第三者の不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 464,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "メールアドレス464件。"
+    }
+  ],
+  "data_types": [
+    "メールアドレスのみ"
+  ],
+  "related_vendor": "アララ株式会社",
+  "sources": [
+    {
+      "url": "https://www.congre.com/news/20261105/",
+      "type": "official",
+      "title": "メール配信サービス「アララメッセージ」への不正アクセスによるメールアドレス流出に関するお詫びとお知らせ | 株式会社コングレ",
+      "published_on": "2026-11-05",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

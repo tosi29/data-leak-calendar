@@ -1,0 +1,52 @@
+{
+  "id": "sweep-9e05a2cd12-20261118",
+  "organization": {
+    "name": "BONAVENTURA",
+    "sector": "企業・団体"
+  },
+  "title": "利用するプレイドの「KARTE」がサーバーの脆弱性を悪用されて不正アクセスを受け、連携していた顧客の情報が漏えいしたおそれがある",
+  "summary": "利用するプレイドの「KARTE」がサーバーの脆弱性を悪用されて不正アクセスを受け、連携していた顧客の情報が漏えいしたおそれがある。新たな情報送信を止め、連携用認証情報を無効化した。個人情報保護委員会への報告を進めている。 対象情報：メールアドレス、氏名、電話番号、住所、年齢、誕生日、性別など。",
+  "published_on": "2026-11-18",
+  "first_published_on": "2026-11-18",
+  "publication_kind": "initial",
+  "occurred_on": "2026-11-13",
+  "detected_on": "2026-11-15",
+  "updated_on": "2026-11-18",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "利用するプレイドの「KARTE」がサーバーの脆弱性を悪用されて不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 576742,
+      "unit": "records",
+      "qualifier": "maximum",
+      "description": "最大576,742件。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス",
+    "氏名",
+    "電話番号",
+    "住所",
+    "年齢",
+    "誕生日",
+    "性別"
+  ],
+  "related_vendor": "株式会社プレイド",
+  "sources": [
+    {
+      "url": "https://kr.bonaventura.shop/blogs/news/security-notice-1",
+      "type": "official",
+      "title": "【重要】当社が利用する外部サービスへの不正アクセスに伴う、お客様情報漏洩に関するお知らせ – BONAVENTURA (ボナベンチュラ)",
+      "published_on": "2026-11-18",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

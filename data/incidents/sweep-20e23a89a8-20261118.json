@@ -1,0 +1,47 @@
+{
+  "id": "sweep-20e23a89a8-20261118",
+  "organization": {
+    "name": "岩見沢市",
+    "sector": "自治体"
+  },
+  "title": "業務を委託した GIS北海道から、再委託先 リムゲートが使う情報機器でマルウェア「K2F」への感染が確認され、機器に保存されていた市の固定資産税に関する情報が漏えいした可能性があると報告を受けた",
+  "summary": "業務を委託した GIS北海道から、再委託先 リムゲートが使う情報機器でマルウェア「K2F」への感染が確認され、機器に保存されていた市の固定資産税に関する情報が漏えいした可能性があると報告を受けた。漏えい・不正利用は確認されていない。 対象情報：2022年1月1日現在の土地情報（土地所在地、現況地籍、現況地目、所有者、評価単価等）、家屋情報など。",
+  "published_on": "2026-11-18",
+  "first_published_on": "2026-11-18",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-18",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "業務を委託した GIS北海道から、再委託先 リムゲートが使う情報機器でマルウェア「K2F」への感染。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "土地情報 最大10,348筆、家屋情報 最大7,037棟。"
+    }
+  ],
+  "data_types": [
+    "2022年1月1日現在の土地情報",
+    "家屋情報"
+  ],
+  "related_vendor": "GIS北海道",
+  "sources": [
+    {
+      "url": "https://www.city.iwamizawa.hokkaido.jp/soshiki/zeimu/zei/2/3/18234.html",
+      "type": "official",
+      "title": "個人情報漏えいの可能性に関するお知らせ／岩見沢市ホームページ",
+      "published_on": "2026-11-18",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

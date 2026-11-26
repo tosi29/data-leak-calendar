@@ -1,0 +1,53 @@
+{
+  "id": "sweep-9d7e625ff6-20261110",
+  "organization": {
+    "name": "旅館山翠",
+    "sector": "企業・団体"
+  },
+  "title": "過去に宿泊予約で使っていたナバックのシステム「RESERVE GATE α」が第三者の不正アクセスを受け、ホームページ等から会員登録した客の個人情報が漏えいした可能性があるとナバックから連絡を受けた",
+  "summary": "過去に宿泊予約で使っていたナバックのシステム「RESERVE GATE α」が第三者の不正アクセスを受け、ホームページ等から会員登録した客の個人情報が漏えいした可能性があるとナバックから連絡を受けた。利用は解約済みだったが、システムの仕様で会員データが削除されずに残っていた。漏えいした情報を悪用したとみられる、警察の捜査協力を装った不審なメールが会員宛てに届いている。 対象情報：氏名（カナを含む）、住所・郵便番号、電話番号、FAX番号、メールアドレス、生年月日、性別、宿泊先施設名、チェックイン日、勤務先情報など。",
+  "published_on": "2026-11-10",
+  "first_published_on": "2026-11-10",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-10",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "過去に宿泊予約で使っていたナバックのシステム「RESERVE GATE α」が第三者の不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "非公表。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所・郵便番号",
+    "電話番号",
+    "FAX番号",
+    "メールアドレス",
+    "生年月日",
+    "性別",
+    "宿泊先施設名"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://oguni-sansui.com/news/?id=f1ef343037711f98b0815878",
+      "type": "official",
+      "title": "【重要】お客様の個人情報漏えいの可能性に関するお知らせと注意喚起｜旅館 山翠",
+      "published_on": "2026-11-10",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

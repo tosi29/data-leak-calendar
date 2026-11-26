@@ -1,0 +1,50 @@
+{
+  "id": "sweep-5a5ba847c1-20261115",
+  "organization": {
+    "name": "ナチュラルオーガニック（アロマ ルイボス naturalshopなごみ 楽天市場店）",
+    "sector": "企業・団体"
+  },
+  "title": "委託先「GoQSystem」の運営会社のサーバーが不正アクセスを受け、個人情報を含む注文データの一部が外部に漏えいした",
+  "summary": "委託先「GoQSystem」の運営会社のサーバーが不正アクセスを受け、個人情報を含む注文データの一部が外部に漏えいした。原因は運営会社のお問い合わせフォームの脆弱性とされる。11月12日に店舗側で認証キーを変更した。二次被害は確認されていない。 対象情報：氏名、住所、電話番号、メールアドレス、注文内容など。",
+  "published_on": "2026-11-15",
+  "first_published_on": "2026-11-15",
+  "publication_kind": "initial",
+  "occurred_on": "2026-11-10",
+  "detected_on": null,
+  "updated_on": "2026-11-15",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "委託先「GoQSystem」の運営会社のサーバーが不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "調査中。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "電話番号",
+    "メールアドレス",
+    "注文内容"
+  ],
+  "related_vendor": "株式会社GoQSystem",
+  "sources": [
+    {
+      "url": "https://www.rakuten.co.jp/nagomisabo/contents/Incident/",
+      "type": "official",
+      "title": "ナチュラルオーガニック（アロマ ルイボス naturalshopなごみ 楽天市場店）のお知らせ",
+      "published_on": "2026-11-15",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

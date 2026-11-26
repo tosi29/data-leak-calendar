@@ -1,0 +1,44 @@
+{
+  "id": "sweep-aa5fd43ae1-20261112",
+  "organization": {
+    "name": "ワッツ（Appeal）",
+    "sector": "企業・団体"
+  },
+  "title": "顧客向けメール配信に利用するデータXのサービスの配信基盤であるアララのシステム「repica」が第三者の不正アクセスを受け、配信のために登録されていた同社顧客のメールアドレスが外部に流出した",
+  "summary": "顧客向けメール配信に利用するデータXのサービスの配信基盤であるアララのシステム「repica」が第三者の不正アクセスを受け、配信のために登録されていた同社顧客のメールアドレスが外部に流出した。通販サイトへの不正アクセスではない。関係するメール配信機能を停止し、対象者には個別にメールで案内する。 対象情報：2026年10月8日〜10月29日に配信のあったメールアドレスのみ。",
+  "published_on": "2026-11-12",
+  "first_published_on": "2026-11-12",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-11-03",
+  "updated_on": "2026-11-12",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "顧客向けメール配信に利用するデータXのサービスの配信基盤であるアララのシステム「repica」が第三者の不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 38904,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "38,904件（メールアドレスの件数。11月11日時点、人数とは一致しない）。"
+    }
+  ],
+  "data_types": [],
+  "related_vendor": "アララ株式会社",
+  "sources": [
+    {
+      "url": "https://appeal-w.co.jp/data-breach",
+      "type": "official",
+      "title": "ワッツ（Appeal）のお知らせ",
+      "published_on": "2026-11-12",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

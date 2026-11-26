@@ -1,0 +1,46 @@
+{
+  "id": "sweep-951c67d0ed-20261116",
+  "organization": {
+    "name": "片倉工業（コクーンシティ公式LINE）",
+    "sector": "企業・団体"
+  },
+  "title": "商業施設「コクーンシティ」が2022年9月〜12月に利用したソニックムーブの「COMSBI（SaaS版）」が第三者の不正アクセスを受け、施設に関係するお客さま情報の一部が漏えいしたと報告を受けた",
+  "summary": "商業施設「コクーンシティ」が2022年9月〜12月に利用したソニックムーブの「COMSBI（SaaS版）」が第三者の不正アクセスを受け、施設に関係するお客さま情報の一部が漏えいしたと報告を受けた。利用終了時にデータが消去されず公式LINEとの連携も解除されていなかったため、利用終了後も情報が保存・記録されていた（提供元は同社の管理上の不備と説明）。公式LINEの連携解除と認証情報の更新を終えた。 対象情報：住所・生年月日（いずれもLINEユーザー識別子と紐付き）、公式LINEの友だちのLINE表示名・プロフィール画像のURL・LINEユーザー識別子など。",
+  "published_on": "2026-11-16",
+  "first_published_on": "2026-11-16",
+  "publication_kind": "initial",
+  "occurred_on": "2026-11-09",
+  "detected_on": null,
+  "updated_on": "2026-11-16",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "商業施設「コクーンシティ」が2022年9月〜12月に利用したソニックムーブの「COMSBI（SaaS版）」が第三者の不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "お客さま情報（住所・生年月日）最大1,417人、公式LINEの友だち情報 最大31,065件（重複を含む最大値、精査中）。"
+    }
+  ],
+  "data_types": [
+    "住所・生年月日"
+  ],
+  "related_vendor": "株式会社ソニックムーブ",
+  "sources": [
+    {
+      "url": "https://www.cocooncity.jp/event/detail/2927",
+      "type": "official",
+      "title": "過去に利用していた外部サービスへの不正アクセスによるお客さま情報の漏えいに関するお詫びとお知らせ：イベント＆ニュース｜コクーンシティ［COCOON CITY Saitama-Shintoshin］",
+      "published_on": "2026-11-16",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

@@ -1,0 +1,44 @@
+{
+  "id": "sweep-41eda3b5ed-20261104",
+  "organization": {
+    "name": "カタリバ",
+    "sector": "企業・団体"
+  },
+  "title": "ウェブサイト制作に使うクラウドサービス「Studio」（Studio 株式会社）のクラウド環境が不正アクセスを受け、4つのフォームに入力された情報が流出した可能性がある",
+  "summary": "ウェブサイト制作に使うクラウドサービス「Studio」（Studio 株式会社）のクラウド環境が不正アクセスを受け、4つのフォームに入力された情報が流出した可能性がある。悪用の報告は受けていない。クレジットカード情報とパスワードは預かっていない。 対象情報：「不登校支援フォーラム2025 お申込みフォーム」「全国高校生マイプロジェクトアワード2023 全国Summit 観覧お申込みフォーム」「ルールメイキング・サミット2023 観覧お申込みフォーム」「Rootsプロジェクト お問い合わせフォーム」の入力情報（氏名、メールアドレス、電話番号、所属など）。",
+  "published_on": "2026-11-04",
+  "first_published_on": "2026-11-04",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-10-16",
+  "updated_on": "2026-11-04",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "ウェブサイト制作に使うクラウドサービス「Studio」（Studio 株式会社）のクラウド環境が不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 1230,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "1,230件。"
+    }
+  ],
+  "data_types": [],
+  "related_vendor": "Studio株式会社",
+  "sources": [
+    {
+      "url": "https://www.katariba.or.jp/news/2026/11/04/53549/",
+      "type": "official",
+      "title": "NewsRelease／当団体が利用していたクラウドサービス「Studio」への不正アクセスによる、個人情報流出の可能性について | NPOカタリバからのお知らせ | 認定NPO法人カタリバ",
+      "published_on": "2026-11-04",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

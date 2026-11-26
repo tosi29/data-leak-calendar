@@ -1,0 +1,46 @@
+{
+  "id": "sweep-697239ad0a-20261118",
+  "organization": {
+    "name": "Rise UP（モアコンタクト）",
+    "sector": "企業・団体"
+  },
+  "title": "モアコンタクトが利用するプレイドの「KARTE」がサーバーの脆弱性を悪用されて不正アクセスを受け、KARTE に登録していた顧客情報の一部が流出した",
+  "summary": "モアコンタクトが利用するプレイドの「KARTE」がサーバーの脆弱性を悪用されて不正アクセスを受け、KARTE に登録していた顧客情報の一部が流出した。サイトと公式アプリから KARTE への接続を遮断した。 対象情報：KARTE に登録していた顧客情報の一部など。",
+  "published_on": "2026-11-18",
+  "first_published_on": "2026-11-18",
+  "publication_kind": "initial",
+  "occurred_on": "2026-11-13",
+  "detected_on": "2026-11-13",
+  "updated_on": "2026-11-18",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "モアコンタクトが利用するプレイドの「KARTE」がサーバーの脆弱性を悪用されて不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "確認中。"
+    }
+  ],
+  "data_types": [
+    "KARTE に登録していた顧客情報の一部"
+  ],
+  "related_vendor": "株式会社プレイド",
+  "sources": [
+    {
+      "url": "https://r-up.jp/news/2026-11-18-karte/",
+      "type": "official",
+      "title": "マーケティングツール「KARTE」への不正アクセスによるお客さま情報の流出に関するご報告 | 株式会社Rise UP (ライズアップ)",
+      "published_on": "2026-11-18",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

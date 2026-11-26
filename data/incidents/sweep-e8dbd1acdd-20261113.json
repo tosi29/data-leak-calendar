@@ -1,0 +1,44 @@
+{
+  "id": "sweep-e8dbd1acdd-20261113",
+  "organization": {
+    "name": "チョコレートデザイン（VANILLABEANS公式オンラインショップ）",
+    "sector": "企業・団体"
+  },
+  "title": "公式オンラインショップで使う「MakeRepeater」の委託先「アララメッセージ」への不正アクセスで会員・注文者のメールアドレス68,083件が流出",
+  "summary": "VANILLABEANS公式オンラインショップで利用する GMOメイクショップの「MakeRepeater」の委託先 アララの「アララメッセージ」が第三者の不正アクセスを受け、メール配信の送信先として指定されていた会員・注文者のメールアドレスが外部に流出した。ECサイトへの不正アクセスは確認されていない。アララのシステムでのメールマガジン配信を停止して別の配信システムに切り替え、個人情報保護委員会へはアララとの連名で報告する。 対象情報：2026年7月1日〜10月28日の配信で送信先として指定されていた会員・注文者のメールアドレスなど。",
+  "published_on": "2026-11-13",
+  "first_published_on": "2026-11-13",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-13",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "VANILLABEANS公式オンラインショップで利用する GMOメイクショップの「MakeRepeater」の委託先 アララの「アララメッセージ」が第三者の不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 68083,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "メールアドレス68,083件。"
+    }
+  ],
+  "data_types": [],
+  "related_vendor": "アララ株式会社",
+  "sources": [
+    {
+      "url": "https://www.vanillabeans.yokohama/view/news/20261113181131",
+      "type": "official",
+      "title": "【重要】外部メール配信サービスへの不正アクセスによるお客様情報流出に関するお詫びとお知らせ",
+      "published_on": "2026-11-13",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

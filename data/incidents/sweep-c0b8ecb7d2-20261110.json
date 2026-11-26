@@ -1,0 +1,48 @@
+{
+  "id": "sweep-c0b8ecb7d2-20261110",
+  "organization": {
+    "name": "リーバー",
+    "sector": "企業・団体"
+  },
+  "title": "メール配信に利用していたアララ「アララメッセージ」が第三者の不正アクセスを受け、メール配信に利用していた個人情報の一部が外部に漏えいしたとアララから報告を受けた",
+  "summary": "メール配信に利用していたアララ「アララメッセージ」が第三者の不正アクセスを受け、メール配信に利用していた個人情報の一部が外部に漏えいしたとアララから報告を受けた。ログイン情報を含む該当アカウントのパスワードをリセットした。同社システムへの不正アクセスは確認されていない。 対象情報：メールアドレスと同社サービスのログインID・パスワード2,181件、メールアドレスのみ19,276件など。",
+  "published_on": "2026-11-10",
+  "first_published_on": "2026-11-10",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-10",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "メール配信に利用していたアララ「アララメッセージ」が第三者の不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 21457,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "21,457件。"
+    }
+  ],
+  "data_types": [
+    "181件",
+    "メールアドレスのみ19",
+    "276件"
+  ],
+  "related_vendor": "アララ株式会社",
+  "sources": [
+    {
+      "url": "https://www.leber.jp/news/l_t8j3baxrf5/",
+      "type": "official",
+      "title": "（2026/11/13更新）メール配信委託先への不正アクセスによる個人情報漏えいに関するお知らせとお詫び | LEBER（リーバー） いつでもどこでも医師と相談、健康観察アプリとしての機能も充実しています。",
+      "published_on": "2026-11-10",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

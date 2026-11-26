@@ -1,0 +1,49 @@
+{
+  "id": "sweep-a1c145014e-20261112",
+  "organization": {
+    "name": "Melt Interface Technologies（旧 Diver-X）",
+    "sector": "企業・団体"
+  },
+  "title": "商品の保管・発送を委託しているオープンロジで第三者による不正アクセスが発生し、お届け先情報が外部に持ち出されたとの報告を受けた",
+  "summary": "商品の保管・発送を委託しているオープンロジで第三者による不正アクセスが発生し、お届け先情報が外部に持ち出されたとの報告を受けた。対象となる顧客には個別にメールで連絡する。 対象情報：2026年4月8日〜11月8日に商品を届けた顧客のお届け先の氏名、住所、電話番号、メールアドレス（登録がある場合）、届けた商品の情報（商品名、数量など）など。",
+  "published_on": "2026-11-12",
+  "first_published_on": "2026-11-12",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-12",
+  "verification": "official",
+  "leak_status": "investigating",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "商品の保管・発送を委託しているオープンロジで第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "非公表（2026年4月8日〜11月8日に同社から商品を届けた顧客）。"
+    }
+  ],
+  "data_types": [
+    "住所",
+    "電話番号",
+    "メールアドレス",
+    "届けた商品の情報"
+  ],
+  "related_vendor": "株式会社オープンロジ",
+  "sources": [
+    {
+      "url": "https://melt-interface-technologies.com/news/476/",
+      "type": "official",
+      "title": "【重要】配送委託先における不正アクセスに関するお知らせと注意喚起 | News | Melt Interface Technologies Inc.",
+      "published_on": "2026-11-12",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

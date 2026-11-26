@@ -1,0 +1,48 @@
+{
+  "id": "sweep-e41c614dde-20261117",
+  "organization": {
+    "name": "ベアーズ",
+    "sector": "企業・団体"
+  },
+  "title": "Web接客・メール配信等に利用するプレイドの「KARTE」がサーバーの脆弱性を悪用されて認証情報を不正に取得され、顧客情報が漏えいした",
+  "summary": "Web接客・メール配信等に利用するプレイドの「KARTE」がサーバーの脆弱性を悪用されて認証情報を不正に取得され、顧客情報が漏えいした。KARTE の利用を止め、連携する外部サービスへのアクセスを遮断し、認証情報を無効化した。 対象情報：一部の顧客の顧客ID、メールアドレス、電話番号など。",
+  "published_on": "2026-11-17",
+  "first_published_on": "2026-11-17",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-17",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "Web接客・メール配信等に利用するプレイドの「KARTE」がサーバーの脆弱性を悪用されて認証情報を不正に取得され、顧客情報が漏えいした。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "資料に明記なし（一部の顧客）。"
+    }
+  ],
+  "data_types": [
+    "一部の顧客の顧客ID",
+    "メールアドレス",
+    "電話番号"
+  ],
+  "related_vendor": "株式会社プレイド",
+  "sources": [
+    {
+      "url": "https://www.happy-bears.com/news/detail35884/",
+      "type": "official",
+      "title": "メール配信サービス提供事業者への不正アクセスによる お客様情報漏洩に関するお詫びとお知らせ",
+      "published_on": "2026-11-17",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

@@ -1,0 +1,44 @@
+{
+  "id": "sweep-425c0333f1-20261111",
+  "organization": {
+    "name": "米沢市",
+    "sector": "自治体"
+  },
+  "title": "「二十歳のつどい」の入場管理に令和4〜8年度に使った電子チケットサービス teket が第三者の不正アクセスを受け、参加者のメールアドレスが漏えいしたおそれがある",
+  "summary": "「二十歳のつどい」の入場管理に令和4〜8年度に使った電子チケットサービス teket が第三者の不正アクセスを受け、参加者のメールアドレスが漏えいしたおそれがある。参加者への影響の有無と件数は運営事業者に確認中で、悪用の被害は確認されていない。 対象情報：電子チケットの発券時に teket に登録したメールアドレス。",
+  "published_on": "2026-11-11",
+  "first_published_on": "2026-11-11",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-11",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "「二十歳のつどい」の入場管理に令和4〜8年度に使った電子チケットサービス teket が第三者の不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "2,874人（推計）。"
+    }
+  ],
+  "data_types": [],
+  "related_vendor": "株式会社teket",
+  "sources": [
+    {
+      "url": "https://www.city.yonezawa.yamagata.jp/daiji/12094.html",
+      "type": "official",
+      "title": "ページがみつかりません／米沢市",
+      "published_on": "2026-11-11",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

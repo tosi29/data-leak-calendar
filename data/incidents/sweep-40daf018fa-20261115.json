@@ -1,0 +1,46 @@
+{
+  "id": "sweep-40daf018fa-20261115",
+  "organization": {
+    "name": "MATSUYACOSMETICS 2号店（楽天市場）",
+    "sector": "企業・団体"
+  },
+  "title": "受注・発送業務に利用する「GoQSystem」で第三者の不正アクセスが発生し、個人情報を含む注文情報の一部が外部に漏えいしたと報告を受けた",
+  "summary": "受注・発送業務に利用する「GoQSystem」で第三者の不正アクセスが発生し、個人情報を含む注文情報の一部が外部に漏えいしたと報告を受けた。 対象情報：個人情報を含む注文情報（項目は資料に明記なし）。",
+  "published_on": "2026-11-15",
+  "first_published_on": "2026-11-15",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-15",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "受注・発送業務に利用する「GoQSystem」で第三者の不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "資料に明記なし（対象者には個別に案内）。"
+    }
+  ],
+  "data_types": [
+    "個人情報を含む注文情報"
+  ],
+  "related_vendor": "株式会社GoQSystem",
+  "sources": [
+    {
+      "url": "https://www.rakuten.co.jp/matsuya-omatome/contents/goq202611/",
+      "type": "official",
+      "title": "MATSUYACOSMETICS 2号店（楽天市場）のお知らせ",
+      "published_on": "2026-11-15",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

@@ -1,0 +1,51 @@
+{
+  "id": "sweep-cb1aedaf97-20261113",
+  "organization": {
+    "name": "日本ペットフード（LINE公式アカウント「ビューティープロ公式」）",
+    "sector": "企業・団体"
+  },
+  "title": "委託先 ソニックムーブの「COMSBI」に、第三者が運用・サポート用アカウントの認証情報を不正に使ってログインし、LINE公式アカウント「ビューティープロ公式」の登録者の個人情報の一部を取得した",
+  "summary": "委託先 ソニックムーブの「COMSBI」に、第三者が運用・サポート用アカウントの認証情報を不正に使ってログインし、LINE公式アカウント「ビューティープロ公式」の登録者の個人情報の一部を取得した。対象者には LINE で順次連絡する。 対象情報：LINEの表示名・プロフィール画像・LINEユーザーID・ステータスメッセージ、都道府県、生年月、性別、氏名・メールアドレス（登録者）、住所・電話番号、ペットに関する情報・アンケート回答など。",
+  "published_on": "2026-11-13",
+  "first_published_on": "2026-11-13",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-13",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "委託先 ソニックムーブの「COMSBI」に、第三者が運用・サポート用アカウントの認証情報を不正に使ってログインし、LINE公式アカウント「ビューティープロ公式」の登録者の個人情報の一部を取得した。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "非公表。"
+    }
+  ],
+  "data_types": [
+    "都道府県",
+    "生年月",
+    "性別",
+    "氏名・メールアドレス",
+    "住所・電話番号",
+    "ペットに関する情報・アンケート回答"
+  ],
+  "related_vendor": "株式会社ソニックムーブ",
+  "sources": [
+    {
+      "url": "https://www.npf.co.jp/news/detail/33",
+      "type": "official",
+      "title": "当社LINE公式アカウントにご登録のお客様の個人情報漏えいに関するお知らせとお詫び | 日本ペットフード株式会社",
+      "published_on": "2026-11-13",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

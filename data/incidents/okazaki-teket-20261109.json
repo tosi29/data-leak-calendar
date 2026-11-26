@@ -1,0 +1,52 @@
+{
+  "id": "okazaki-teket-20261109",
+  "organization": {
+    "name": "岡崎市（家康行列の観覧席チケット）",
+    "sector": "自治体"
+  },
+  "title": "令和5年度家康行列の観覧席チケット販売を委託した「teket」への不正アクセスで、会員の氏名・住所等が漏えいした可能性",
+  "summary": "令和5年度家康行列の観覧席チケット販売を委託したteketの電子チケット販売・管理サービス「teket」の会員情報等を管理するシステムが不正アクセスを受け、保管されていた顧客情報の一部が第三者に流出したと11月8日に報告を受けた。市の販売分が含まれるかを含め調査中で、件数は確認中。",
+  "published_on": "2026-11-09",
+  "first_published_on": "2026-11-09",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-11-08",
+  "updated_on": "2026-11-09",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "チケット販売を委託した株式会社teketの「teket」の会員情報等を管理するシステムへの外部からの不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "「teket」会員登録時の入力情報。件数確認中。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "メールアドレス",
+    "生年月日",
+    "性別",
+    "住所",
+    "電話番号",
+    "チケット情報"
+  ],
+  "related_vendor": "株式会社teket",
+  "sources": [
+    {
+      "url": "https://www.city.okazaki.lg.jp/shisei/koho/1006195/1006358/1017062/1017625.html",
+      "type": "official",
+      "title": "「teket」の会員情報等を管理するシステムへの不正アクセスにより個人情報漏えいの可能性があることが判明しました。",
+      "published_on": "2026-11-09",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

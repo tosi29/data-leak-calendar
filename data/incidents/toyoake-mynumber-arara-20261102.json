@@ -1,0 +1,46 @@
+{
+  "id": "toyoake-mynumber-arara-20261102",
+  "organization": {
+    "name": "豊明市（マイナンバーカード交付予約システム）",
+    "sector": "自治体"
+  },
+  "title": "交付予約システムの委託先TKCが使う「アララメッセージ」への不正アクセスで、予約時に登録したメールアドレスが漏えいした可能性",
+  "summary": "マイナンバーカード交付予約システムの委託先TKCから、同システムが利用する外部メール配信サービス「アララメッセージ」のサーバーが第三者の不正アクセスを受け、個人情報が外部に漏えいした可能性があると報告を受けた。対象はマイナンバーカード受取・更新予約の際に登録したメールアドレスで、件数は調査中。",
+  "published_on": "2026-11-02",
+  "first_published_on": "2026-11-02",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-02",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "交付予約システムの委託先TKCが利用するアララ株式会社の「アララメッセージ」のサーバーへの第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "マイナンバーカード受取・更新予約の際に登録したメールアドレス。件数は調査中。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "TKC／アララ株式会社",
+  "sources": [
+    {
+      "url": "https://www.city.toyoake.lg.jp/24893.htm",
+      "type": "official",
+      "title": "【重要】マイナンバーカード交付予約システムにおける予約確認メール送信用サーバへの不正アクセスについて",
+      "published_on": "2026-11-02",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

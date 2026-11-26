@@ -1,0 +1,53 @@
+{
+  "id": "sweep-a426ecd2f5-20261112",
+  "organization": {
+    "name": "日宣（CCG for LINE）",
+    "sector": "企業・団体"
+  },
+  "title": "「CCG for LINE」の委託先が提供する「COMSBI」への不正アクセスで、導入先ケーブルテレビ局の利用者情報などの一部が漏えい",
+  "summary": "ケーブルテレビ局向けに提供する「CCG for LINE」のシステム委託先ソニックムーブの「COMSBI（SaaS版）」が第三者の不正アクセスを受け、導入先のケーブルテレビ局が管理する利用者の情報と、自社の社内確認用アカウントの情報の一部が外部に漏えいした。管理画面のログインパスワードは漏えいしていない。二次被害は確認されていない。 対象情報：利用者の氏名、電話番号、メールアドレス、住所、生年月日、性別など（局ごとに項目は異なる）、LINE公式アカウントの友だちの表示名、プロフィール画像、ステータスメッセージ、LINEユーザーIDなど。",
+  "published_on": "2026-11-12",
+  "first_published_on": "2026-11-12",
+  "publication_kind": "initial",
+  "occurred_on": "2026-11-09",
+  "detected_on": "2026-11-11",
+  "updated_on": "2026-11-12",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "ケーブルテレビ局向けに提供する「CCG for LINE」のシステム委託先ソニックムーブの「COMSBI（SaaS版）」が第三者の不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "資料に明記なし。"
+    }
+  ],
+  "data_types": [
+    "利用者の氏名",
+    "電話番号",
+    "メールアドレス",
+    "住所",
+    "生年月日",
+    "性別",
+    "LINE公式アカウントの友だちの表示名",
+    "プロフィール画像"
+  ],
+  "related_vendor": "株式会社ソニックムーブ",
+  "sources": [
+    {
+      "url": "https://nissenad.co.jp/news/202611121045/",
+      "type": "official",
+      "title": "システム委託先への不正アクセスによる情報漏えいについて | お知らせ | 株式会社日宣",
+      "published_on": "2026-11-12",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

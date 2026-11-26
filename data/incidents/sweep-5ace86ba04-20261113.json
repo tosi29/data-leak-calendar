@@ -1,0 +1,46 @@
+{
+  "id": "sweep-5ace86ba04-20261113",
+  "organization": {
+    "name": "近畿大学 通信教育部",
+    "sector": "企業・団体"
+  },
+  "title": "学内業務で使うNotion AIの処理委託先Fireworks AIへの不正アクセスで、通信教育部の利用環境も影響を受けた可能性",
+  "summary": "学内業務で利用する「Notion」の提供元 Notion社が AI 機能の処理の一部を委託していた Fireworks AI の環境が第三者の不正アクセスを受け、通信教育部の利用環境も影響を受けた可能性があると Notion社から通知を受けた（速報）。アカウント・保存データへの具体的な影響範囲を調査している。 対象情報：調査中（資料に記載なし）。",
+  "published_on": "2026-11-13",
+  "first_published_on": "2026-11-13",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-13",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "学内業務で利用する「Notion」の提供元 Notion社が AI 機能の処理の一部を委託していた Fireworks AI の環境が第三者の不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "調査中。"
+    }
+  ],
+  "data_types": [
+    "調査中"
+  ],
+  "related_vendor": "Fireworks AI",
+  "sources": [
+    {
+      "url": "https://www.kindai.ac.jp/tsushin/topics/2026/11/052267.html",
+      "type": "official",
+      "title": "通信教育部が利用するクラウドサービスの委託先における不正アクセスについて（速報） | TOPICS | 近畿大学通信教育部",
+      "published_on": "2026-11-13",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

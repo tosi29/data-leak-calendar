@@ -1,0 +1,47 @@
+{
+  "id": "sweep-f125c9603d-20261106",
+  "organization": {
+    "name": "カイテク",
+    "sector": "企業・団体"
+  },
+  "title": "メールマガジン配信に使うアララのメール配信サービスが第三者の不正アクセスを受け、登録していたワーカー・事業所の個人情報の一部が流出した",
+  "summary": "メールマガジン配信に使うアララのメール配信サービスが第三者の不正アクセスを受け、登録していたワーカー・事業所の個人情報の一部が流出した。11月5日にアララから確定通知を受け、同日個人情報保護委員会へ報告した。アララのサービスの利用を停止している。 対象情報：2026年7月1日以降の配信ログに記録されたメールアドレス 6,834件、氏名・当社管理用ID・メールアドレス 8件など。",
+  "published_on": "2026-11-06",
+  "first_published_on": "2026-11-06",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-06",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "メールマガジン配信に使うアララのメール配信サービスが第三者の不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 6842,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "6,842件（メールアドレスのみ 6,834件、氏名等を含む 8件）。"
+    }
+  ],
+  "data_types": [
+    "834件",
+    "氏名・当社管理用ID・メールアドレス 8件"
+  ],
+  "related_vendor": "アララ株式会社",
+  "sources": [
+    {
+      "url": "https://corp.caitech.co.jp/news/notice261106/",
+      "type": "official",
+      "title": "委託先メール配信サービスへの不正アクセスによる個人情報流出に関するお知らせとお詫び | カイテク株式会社",
+      "published_on": "2026-11-06",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

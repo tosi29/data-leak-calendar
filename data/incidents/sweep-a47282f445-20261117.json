@@ -1,0 +1,48 @@
+{
+  "id": "sweep-a47282f445-20261117",
+  "organization": {
+    "name": "Medii（医師向けプラットフォーム）",
+    "sector": "企業・団体"
+  },
+  "title": "医師向けプラットフォームで利用するプレイドの「KARTE」への不正アクセスの影響を受け、会員の勤務先医療機関名などの流出が確認された",
+  "summary": "医師向けプラットフォームで利用するプレイドの「KARTE」への不正アクセスの影響を受け、会員の勤務先医療機関名などの流出が確認された。アプリ会員の氏名・メールアドレス・生年月日などの登録情報の一部がKARTEに送られていた時期があり、プレイドが調査を続けている。自社のクラウド環境から情報が読み出された記録は確認されていない。 対象情報：勤務先医療機関名、都道府県、会員番号（流出を確認）など。",
+  "published_on": "2026-11-17",
+  "first_published_on": "2026-11-17",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-17",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "医師向けプラットフォームで利用するプレイドの「KARTE」への不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "非公表。"
+    }
+  ],
+  "data_types": [
+    "勤務先医療機関名",
+    "都道府県",
+    "会員番号"
+  ],
+  "related_vendor": "株式会社プレイド",
+  "sources": [
+    {
+      "url": "https://medii.jp/news/20261117",
+      "type": "official",
+      "title": "当社が利用する外部サービス「KARTE」（株式会社プレイド）への不正アクセスに関するお知らせ【2026年11月24日更新】| お知らせ | 株式会社Medii",
+      "published_on": "2026-11-17",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

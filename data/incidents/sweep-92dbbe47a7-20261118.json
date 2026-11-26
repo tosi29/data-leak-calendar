@@ -1,0 +1,44 @@
+{
+  "id": "sweep-92dbbe47a7-20261118",
+  "organization": {
+    "name": "スガツネ工業",
+    "sector": "企業・団体"
+  },
+  "title": "「有人チャット」の運営に利用するチャットプラスの「ChatPlus」で使う一部の Web サーバが第三者の不正アクセスを受け、同社が ChatPlus を通じて預かった個人情報が閲覧・取得された可能性がある",
+  "summary": "「有人チャット」の運営に利用するチャットプラスの「ChatPlus」で使う一部の Web サーバが第三者の不正アクセスを受け、同社が ChatPlus を通じて預かった個人情報が閲覧・取得された可能性がある。有人チャットを当面停止し、個人情報保護委員会などへの報告を進めている。「AIチャット」は別システムで影響はない。 対象情報：「ChatPlus」の利用を通じて預かった個人情報など。",
+  "published_on": "2026-11-18",
+  "first_published_on": "2026-11-18",
+  "publication_kind": "initial",
+  "occurred_on": "2026-11-13",
+  "detected_on": "2026-11-17",
+  "updated_on": "2026-11-18",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "「有人チャット」の運営に利用するチャットプラスの「ChatPlus」で使う一部の Web サーバが第三者の不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "調査中。"
+    }
+  ],
+  "data_types": [],
+  "related_vendor": "チャットプラス株式会社",
+  "sources": [
+    {
+      "url": "https://www.sugatsune.co.jp/pdf/20261118sugatsune_8c3f72a1d90e4b65.pdf",
+      "type": "official",
+      "title": "不正アクセスによる個人情報漏えいの可能性について",
+      "published_on": "2026-11-18",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

@@ -1,0 +1,47 @@
+{
+  "id": "sweep-066dc11f38-20261118",
+  "organization": {
+    "name": "産業経済新聞社・産経デジタル",
+    "sector": "企業・団体"
+  },
+  "title": "解約済みのプレイド「KARTE」（ZBAT! は2017〜2019年、産経ネットショップは2022〜2024年に契約）への不正アクセスで、契約期間中の利用者の情報が漏えいした",
+  "summary": "解約済みのプレイド「KARTE」（ZBAT! は2017〜2019年、産経ネットショップは2022〜2024年に契約）への不正アクセスで、契約期間中の利用者の情報が漏えいした。 対象情報：メールアドレス、氏名など。",
+  "published_on": "2026-11-18",
+  "first_published_on": "2026-11-18",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-11-15",
+  "updated_on": "2026-11-18",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "解約済みのプレイド「KARTE」（ZBAT! は2017〜2019年、産経ネットショップは2022〜2024年に契約）への不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "調査中。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス",
+    "氏名"
+  ],
+  "related_vendor": "株式会社プレイド",
+  "sources": [
+    {
+      "url": "https://www.sankei-digital.co.jp/topic-29896/",
+      "type": "official",
+      "title": "【お詫びとお知らせ】産経デジタルが契約していた業者への不正アクセスによる個人情報の漏洩について - 産経デジタル",
+      "published_on": "2026-11-18",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

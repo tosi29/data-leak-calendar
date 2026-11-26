@@ -1,0 +1,49 @@
+{
+  "id": "sweep-5c39e0ffe3-20261110",
+  "organization": {
+    "name": "講談社（ViVi公式LINE）",
+    "sector": "企業・団体"
+  },
+  "title": "ViVi が過去に利用していたLINE連携サービス「COMSBI」（運営 ソニックムーブ）で第三者の不正アクセスが発生し、ViVi公式LINEアカウントの認証情報（アクセストークン）が不正に取得された",
+  "summary": "ViVi が過去に利用していたLINE連携サービス「COMSBI」（運営 ソニックムーブ）で第三者の不正アクセスが発生し、ViVi公式LINEアカウントの認証情報（アクセストークン）が不正に取得された。10月27日に認証情報を更新するまでの間、友だち登録者のプロフィール情報が第三者に取得可能な状態だった。実際の取得の有無は特定できず、不正なメッセージ配信や二次被害は確認されていない。 対象情報：ViVi公式LINEの友だち登録者のLINEの表示名、LINEユーザーID、言語設定、プロフィール画像のURL、ステータスメッセージなど。",
+  "published_on": "2026-11-10",
+  "first_published_on": "2026-11-10",
+  "publication_kind": "initial",
+  "occurred_on": "2026-10-23",
+  "detected_on": null,
+  "updated_on": "2026-11-10",
+  "verification": "official",
+  "leak_status": "investigating",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "ViVi が過去に利用していたLINE連携サービス「COMSBI」（運営 ソニックムーブ）で第三者の不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 450000,
+      "unit": "records",
+      "qualifier": "maximum_approximate",
+      "description": "最大約45万件（友だち登録者のプロフィール情報）。"
+    }
+  ],
+  "data_types": [
+    "LINEユーザーID",
+    "言語設定",
+    "プロフィール画像のURL",
+    "ステータスメッセージ"
+  ],
+  "related_vendor": "株式会社ソニックムーブ",
+  "sources": [
+    {
+      "url": "https://www.vivi.tv/post496992",
+      "type": "official",
+      "title": "【重要】ViVi公式LINEにおける情報漏えいのおそれに関するお知らせとお詫び | ViVi",
+      "published_on": "2026-11-10",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

@@ -1,0 +1,58 @@
+{
+  "id": "sweep-c1d1687249-20261106",
+  "organization": {
+    "name": "PRIZMA",
+    "sector": "企業・団体"
+  },
+  "title": "メール配信業務を委託するアララの「アララメッセージ」のサーバー環境への不正アクセスで、一部の顧客のメールアドレスが外部に流出したことが確定した",
+  "summary": "メール配信業務を委託するアララの「アララメッセージ」のサーバー環境への不正アクセスで、一部の顧客のメールアドレスが外部に流出したことが確定した。11月13日の続報で、アララからの追加報告により会社名、氏名、電話番号、URL、業界も流出していたことが確定したと公表した。個人情報保護委員会に報告した。 対象情報：メールアドレス、会社名、氏名、電話番号、URL、業界など。",
+  "published_on": "2026-11-06",
+  "first_published_on": "2026-11-06",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-13",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "メール配信業務を委託するアララの「アララメッセージ」のサーバー環境への不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 248205,
+      "unit": "records",
+      "qualifier": "maximum",
+      "description": "メールアドレス最大248,205件。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス",
+    "会社名",
+    "氏名",
+    "電話番号",
+    "URL",
+    "業界"
+  ],
+  "related_vendor": "アララ株式会社",
+  "sources": [
+    {
+      "url": "https://www.prizma-link.com/news/WgbQk-3m",
+      "type": "official",
+      "title": "【重要】当社が利用する外部委託システムにおける情報セキュリティ・インシデントに関するお詫びとお知らせ | 株式会社PRIZMA | 専属PRパートナーとして、 包括的プロモーション戦略を提供する",
+      "published_on": "2026-11-06",
+      "checked_on": "2026-11-26"
+    },
+    {
+      "url": "https://www.prizma-link.com/news/N4ECSfar",
+      "type": "official",
+      "title": "【続報・重要】委託先システムへの不正アクセスに伴う漏えい対象項目の追加に関するお詫びとご報告 | 株式会社PRIZMA | 専属PRパートナーとして、 包括的プロモーション戦略を提供する",
+      "published_on": "2026-11-06",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

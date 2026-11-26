@@ -1,0 +1,48 @@
+{
+  "id": "sweep-3f394cac34-20261113",
+  "organization": {
+    "name": "シミックホールディングス（CCO Lab.・CMIC Trust）",
+    "sector": "企業・団体"
+  },
+  "title": "Notion社がAI機能の処理を委託していた第三者AIベンダーの環境への不正アクセスで、従業員が Notion AI に入力した情報の一部が外部に流出した可能性がある（第一報）",
+  "summary": "Notion社がAI機能の処理を委託していた第三者AIベンダーの環境への不正アクセスで、従業員が Notion AI に入力した情報の一部が外部に流出した可能性がある（第一報）。入力文と応答文の一部に個人情報や業務上のやり取りが含まれることを確認した。患者情報・有効なAPIキー等の認証情報は確認されていない。 対象情報：社員・関係者・顧客・取引先担当者等の氏名、メールアドレス、電話番号等、医療機関・自治体・大学・企業等の組織名と業務上のやり取り。",
+  "published_on": "2026-11-13",
+  "first_published_on": "2026-11-13",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-11-10",
+  "updated_on": "2026-11-13",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "Notion社がAI機能の処理を委託していた第三者AIベンダーの環境への不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "調査中。"
+    }
+  ],
+  "data_types": [
+    "社員・関係者・顧客・取引先担当者等の氏名",
+    "メールアドレス",
+    "電話番号"
+  ],
+  "related_vendor": "Fireworks AI",
+  "sources": [
+    {
+      "url": "https://www.cmicgroup.com/news/notice/2026/20261113/",
+      "type": "official",
+      "title": "クラウドサービス委託先への不正アクセスに伴う、AI機能での入力情報の流出の可能性に関するお知らせ（第一報） | ニュース＆イベント | シミックグループ - CMIC Group",
+      "published_on": "2026-11-13",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

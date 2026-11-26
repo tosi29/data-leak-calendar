@@ -1,0 +1,46 @@
+{
+  "id": "sweep-b3e9f402dd-20261112",
+  "organization": {
+    "name": "高槻市",
+    "sector": "自治体"
+  },
+  "title": "市立就学前児童施設などで導入している株式会社サテライトの「はなまる連絡帳」が利用する外部メール送信サービス（アララ）が第三者の不正アクセスを受け、利用者のメールアドレスが漏えいした可能性があるとの報告を受けた",
+  "summary": "市立就学前児童施設などで導入している株式会社サテライトの「はなまる連絡帳」が利用する外部メール送信サービス（アララ）が第三者の不正アクセスを受け、利用者のメールアドレスが漏えいした可能性があるとの報告を受けた。氏名・子どもの情報・メール本文・パスワード等は含まれていないとの報告。 対象情報：「はなまる連絡帳」に登録されたメールアドレス。",
+  "published_on": "2026-11-12",
+  "first_published_on": "2026-11-12",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-12",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "市立就学前児童施設などで導入している株式会社サテライトの「はなまる連絡帳」が利用する外部メール送信サービス（アララ）が第三者の不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "非公表。"
+    }
+  ],
+  "data_types": [
+    "「はなまる連絡帳」に登録されたメールアドレス"
+  ],
+  "related_vendor": "アララ株式会社",
+  "sources": [
+    {
+      "url": "https://www.city.takatsuki.osaka.jp/soshiki/43/189792.html",
+      "type": "official",
+      "title": "高槻市立就学前児童施設、市立学童保育室、見守り付き校庭開放で導入している外部メール送信サービスへの不正アクセスに伴うメールアドレス漏えいの可能性について - 高槻市ホームページ（保育幼稚園総務課）",
+      "published_on": "2026-11-12",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

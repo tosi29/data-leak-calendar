@@ -1,0 +1,57 @@
+{
+  "id": "sweep-cefbea408a-20260916",
+  "organization": {
+    "name": "Progate（社内システムのクラウド環境）",
+    "sector": "企業・団体"
+  },
+  "title": "試験運用していた社内システムのクラウド環境で、サービスアカウント鍵が第三者に不正利用され、多数の仮想サーバーが作成されて暗号資産のマイニングに使われた",
+  "summary": "試験運用していた社内システムのクラウド環境で、サービスアカウント鍵が第三者に不正利用され、多数の仮想サーバーが作成されて暗号資産のマイニングに使われた。鍵を含む秘密情報が実行イメージに含まれる構成で、権限も過大だった。学習サービス「Progate」などのユーザー情報は保存されておらず影響はない。 対象情報：当該システムの利用者の氏名、メールアドレス、GitHub等のアカウントID、利用期間中の開発活動に関する記録（ソースコード管理ツール上の活動履歴、チャットでの発言、AIツールとの対話内容など）、社内の業務ツールとの連携に用いる情報など。",
+  "published_on": "2026-09-16",
+  "first_published_on": "2026-09-16",
+  "publication_kind": "initial",
+  "occurred_on": "2026-09-09",
+  "detected_on": "2026-09-09",
+  "updated_on": "2026-11-10",
+  "verification": "official",
+  "leak_status": "investigating",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "試験運用していた社内システムのクラウド環境で、サービスアカウント鍵が第三者に不正利用され、多数の仮想サーバーが作成されて暗号資産のマイニングに使われた。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "非公表。"
+    }
+  ],
+  "data_types": [
+    "当該システムの利用者の氏名",
+    "メールアドレス",
+    "GitHub等のアカウントID",
+    "利用期間中の開発活動に関する記録",
+    "社内の業務ツールとの連携に用いる情報"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://progate.com/about/news/619",
+      "type": "official",
+      "title": "当社社内システムへの不正アクセス発生に関するお知らせとお詫び | プログラミングの入門なら基礎から学べるProgate[プロゲート]",
+      "published_on": "2026-09-16",
+      "checked_on": "2026-11-26"
+    },
+    {
+      "url": "https://progate.com/about/news/622",
+      "type": "official",
+      "title": "当社社内システムへの不正アクセスに関する調査結果のお知らせとお詫び | プログラミングの入門なら基礎から学べるProgate[プロゲート]",
+      "published_on": "2026-09-16",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

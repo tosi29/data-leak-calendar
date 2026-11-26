@@ -1,0 +1,44 @@
+{
+  "id": "sweep-fbfffdb7f4-20261118",
+  "organization": {
+    "name": "オンワードホールディングス（ウィゴー・オンワード樫山）",
+    "sector": "企業・団体"
+  },
+  "title": "連結子会社のウィゴーとオンワード樫山が利用するプレイドの「KARTE」で、同サービスに保管していた会員に関する情報の一部が漏えいの対象との連絡を受けた",
+  "summary": "連結子会社のウィゴーとオンワード樫山が利用するプレイドの「KARTE」で、同サービスに保管していた会員に関する情報の一部が漏えいの対象との連絡を受けた。該当サービスをネットワークから遮断した。 対象情報：2社が KARTE に保管していた会員に関する情報の一部（項目・範囲は確認中）。",
+  "published_on": "2026-11-18",
+  "first_published_on": "2026-11-18",
+  "publication_kind": "initial",
+  "occurred_on": "2026-11-13",
+  "detected_on": null,
+  "updated_on": "2026-11-18",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "連結子会社のウィゴーとオンワード樫山が利用するプレイドの「KARTE」で、同サービスに保管していた会員に関する情報の一部が漏えいの対象との連絡を受けた。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "確認中。"
+    }
+  ],
+  "data_types": [],
+  "related_vendor": "株式会社プレイド",
+  "sources": [
+    {
+      "url": "https://www.onward-hd.co.jp/release/2026/20261118.html",
+      "type": "official",
+      "title": "[重要] 委託先システム「KARTE」への不正アクセスに伴う情報漏えいに関するお詫びとお知らせ | ニュースリリース | オンワードホールディングス",
+      "published_on": "2026-11-18",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

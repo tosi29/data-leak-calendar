@@ -1142,11 +1142,11 @@
     "reported_on": "2026-11-10",
     "verification": "pending",
     "reference_url": "https://www.city.nagakute.lg.jp/soshiki/somubu/shiminka/1/1/mynumber/28224.html",
-    "reviewed_on": "2026-11-13",
+    "reviewed_on": "2026-11-26",
     "checked_urls": [
       "https://www.city.nagakute.lg.jp/soshiki/somubu/shiminka/1/1/mynumber/28224.html"
     ],
-    "note": "2026年11月10日調査：検索結果ではマイナンバーカード交付予約システムのメールアドレス流出を告知するページとされるが、直接取得・取得ツールともアクセス制限で本文を確認できず、公表日・対象も未確認のため保留。 2026年11月13日再調査：公式ページは今回もアクセス制限（リダイレクト超過）で本文未確認。"
+    "note": "2026年11月10日調査：検索結果ではマイナンバーカード交付予約システムのメールアドレス流出を告知するページとされるが、直接取得・取得ツールともアクセス制限で本文を確認できず、公表日・対象も未確認のため保留。 2026年11月13日再調査：公式ページは今回もアクセス制限（リダイレクト超過）で本文未確認。 2026年11月26日再調査：公式ページの本文を取得できた（TKC全体で最大2,230,812件のメールアドレス流出との報告）。ページには更新日（11月11日）のみで当初の公表日の記載がなく、市内の件数も未記載のため継続。"
   },
   {
     "id": "nov12-chikugo-website-review",
@@ -1233,18 +1233,6 @@
     "note": "2026年11月13日調査：11月分の公表索引の再照合で見つかった未収録行。公式ページを取得できず（HTTP 404）本文未確認。索引の規模：調査中"
   },
   {
-    "id": "nov13-sweep-t061",
-    "organization": "茂木町（TKC再委託先 アララ メッセージへの不正アクセス）",
-    "reported_on": "2026-11-04",
-    "verification": "pending",
-    "reference_url": "https://www.town.motegi.tochigi.jp/motegi/nextpage.php?cd=8711&syurui=2",
-    "reviewed_on": "2026-11-13",
-    "checked_urls": [
-      "https://www.town.motegi.tochigi.jp/motegi/nextpage.php?cd=8711&syurui=2"
-    ],
-    "note": "2026年11月13日調査：11月分の公表索引の再照合で見つかった未収録行。公式本文は確認できたが、ページに公表日の記載がなく、第三者の索引の日付だけでは掲載日を決められない。索引の規模：60件（オンライン申請システム利用登録者）"
-  },
-  {
     "id": "nov13-sweep-t066",
     "organization": "長野県信用組合（ホームページ運用保守の委託業者のサーバー経由の不正アクセス）",
     "reported_on": "2026-11-04",
@@ -1322,35 +1310,11 @@
     "reported_on": "2026-11-09",
     "verification": "pending",
     "reference_url": "https://www.yokohama-history.org/yokohama-history/937/",
-    "reviewed_on": "2026-11-13",
+    "reviewed_on": "2026-11-26",
     "checked_urls": [
       "https://www.yokohama-history.org/yokohama-history/937/"
     ],
-    "note": "2026年11月13日調査：11月分の公表索引の再照合で見つかった未収録行。公式本文は確認できたが、ページに公表日の記載がなく、第三者の索引の日付だけでは掲載日を決められない。索引の規模：資料に明記なし"
-  },
-  {
-    "id": "nov13-sweep-t138",
-    "organization": "豊明市（TKC再委託先 アララ メッセージへの不正アクセス）",
-    "reported_on": "2026-11-02",
-    "verification": "pending",
-    "reference_url": "https://www.city.toyoake.lg.jp/24893.htm",
-    "reviewed_on": "2026-11-13",
-    "checked_urls": [
-      "https://www.city.toyoake.lg.jp/24893.htm"
-    ],
-    "note": "2026年11月13日調査：11月分の公表索引の再照合で見つかった未収録行。公式ページを取得できず（HTTP 403）本文未確認。索引の規模：調査中"
-  },
-  {
-    "id": "nov13-sweep-t144",
-    "organization": "大垣共立銀行（SMBCコンシューマーファイナンス保証システム不正アクセス）",
-    "reported_on": "2026-11-05",
-    "verification": "pending",
-    "reference_url": "https://www.okb.co.jp/archive/2026/20261105-03.html",
-    "reviewed_on": "2026-11-13",
-    "checked_urls": [
-      "https://www.okb.co.jp/archive/2026/20261105-03.html"
-    ],
-    "note": "2026年11月13日調査：11月分の公表索引の再照合で見つかった未収録行。公式本文は確認できたが、ページに公表日の記載がなく、第三者の索引の日付だけでは掲載日を決められない。索引の規模：非公表"
+    "note": "2026年11月13日調査：11月分の公表索引の再照合で見つかった未収録行。公式本文は確認できたが、ページに公表日の記載がなく、第三者の索引の日付だけでは掲載日を決められない。索引の規模：資料に明記なし 2026年11月26日再調査：財団の公式ページ2件で、teketからお客様情報の一部が流出したとの報告を受けたことを確認したが、ページに公表日の記載がなく継続。"
   },
   {
     "id": "nov13-sweep-t147",
@@ -1370,11 +1334,11 @@
     "reported_on": "2026-11-03",
     "verification": "pending",
     "reference_url": "https://9a35b2b1.viewer.kintoneapp.com/public/6e133df0cc08a00aef428e6666f487d089e042a376168a0bb18ee201250b5952/detail/def50200bf24d663eda958f22780acc0f259a7fa280230be76c94395bc2dcc6518ce56e18ff2fec9c44e50dbf3102491344b16533161216060da3f6566ea7a88272016edbdb41f12c12caf33242dc423a9e2b1f0c9f8d1761450950abca1d866fd1922e060c8ccc52a9dd4d6556987822a32549afa088e5242fe8ba2df35fb1b4797ca216dabe6d0eac10409bfefd7245de86df958939ceab4",
-    "reviewed_on": "2026-11-13",
+    "reviewed_on": "2026-11-26",
     "checked_urls": [
       "https://9a35b2b1.viewer.kintoneapp.com/public/6e133df0cc08a00aef428e6666f487d089e042a376168a0bb18ee201250b5952/detail/def50200bf24d663eda958f22780acc0f259a7fa280230be76c94395bc2dcc6518ce56e18ff2fec9c44e50dbf3102491344b16533161216060da3f6566ea7a88272016edbdb41f12c12caf33242dc423a9e2b1f0c9f8d1761450950abca1d866fd1922e060c8ccc52a9dd4d6556987822a32549afa088e5242fe8ba2df35fb1b4797ca216dabe6d0eac10409bfefd7245de86df958939ceab4"
     ],
-    "note": "2026年11月13日調査：11月分の公表索引の再照合で見つかった未収録行。公式ページを取得できず（スクリプト描画等で本文が空）本文未確認。索引の規模：精査中（アソビューの15,821,184件の内数）"
+    "note": "2026年11月13日調査：11月分の公表索引の再照合で見つかった未収録行。公式ページを取得できず（スクリプト描画等で本文が空）本文未確認。索引の規模：精査中（アソビューの15,821,184件の内数） 2026年11月26日再調査：取得できた福井県のページは「291JOBS」の設定誤り（既存の掲載）で、本候補のアソビュー経由の事案の本文は今回も確認できず継続。"
   },
   {
     "id": "nov13-sweep-t156",
@@ -1387,18 +1351,6 @@
       "https://www.city.sano.lg.jp/jyuyonaoshirase/29300.html"
     ],
     "note": "2026年11月13日調査：11月分の公表索引の再照合で見つかった未収録行。公式ページを取得できず（HTTP 404）本文未確認。索引の規模：調査中"
-  },
-  {
-    "id": "nov13-sweep-t159",
-    "organization": "岡崎市（TKC再委託先 アララ メッセージへの不正アクセス）",
-    "reported_on": "2026-11-04",
-    "verification": "pending",
-    "reference_url": "https://www.city.okazaki.lg.jp/shisei/koho/1006195/1006358/1017062/1017558.html",
-    "reviewed_on": "2026-11-13",
-    "checked_urls": [
-      "https://www.city.okazaki.lg.jp/shisei/koho/1006195/1006358/1017062/1017558.html"
-    ],
-    "note": "2026年11月13日調査：11月分の公表索引の再照合で見つかった未収録行。公式ページを取得できず（HTTP 403）本文未確認。索引の規模：非公表（件数確認中）"
   },
   {
     "id": "nov13-sweep-t164",
@@ -1418,23 +1370,11 @@
     "reported_on": "2026-11-05",
     "verification": "pending",
     "reference_url": "https://www.city.obanazawa.yamagata.jp/news/4612",
-    "reviewed_on": "2026-11-13",
+    "reviewed_on": "2026-11-26",
     "checked_urls": [
       "https://www.city.obanazawa.yamagata.jp/news/4612"
     ],
-    "note": "2026年11月13日調査：11月分の公表索引の再照合で見つかった未収録行。公式ページを取得できず（HTTP 404）本文未確認。索引の規模：971件（スマート申請システム967件、マイナンバーカード交付予約・管理システム"
-  },
-  {
-    "id": "nov13-sweep-t177",
-    "organization": "岡崎市（teket不正アクセス）",
-    "reported_on": "2026-11-09",
-    "verification": "pending",
-    "reference_url": "https://www.city.okazaki.lg.jp/shisei/koho/1006195/1006358/1017062/1017625.html",
-    "reviewed_on": "2026-11-13",
-    "checked_urls": [
-      "https://www.city.okazaki.lg.jp/shisei/koho/1006195/1006358/1017062/1017625.html"
-    ],
-    "note": "2026年11月13日調査：11月分の公表索引の再照合で見つかった未収録行。公式ページを取得できず（HTTP 302）本文未確認。索引の規模：件数確認中"
+    "note": "2026年11月13日調査：11月分の公表索引の再照合で見つかった未収録行。公式ページを取得できず（HTTP 404）本文未確認。索引の規模：971件（スマート申請システム967件、マイナンバーカード交付予約・管理システム 2026年11月26日再調査：公表索引に載った尾花沢市の別ページはteketの事案（既存の掲載 obanazawa-teket-20261110）で、本候補のアララ事案の本文は今回も確認できず継続。"
   },
   {
     "id": "nov13-sweep-nara-usb",
@@ -1533,19 +1473,6 @@
     "note": "2026年11月16日調査：Notion AIのチャット記録が漏えいした可能性を公表。個人情報が含まれるかを含めて調査中のため保留。"
   },
   {
-    "id": "nov16-pokepay-review",
-    "organization": "ポケットチェンジ（Pokepay Enterprise）",
-    "reported_on": "2026-11-14",
-    "verification": "pending",
-    "reference_url": "https://pokepay.jp/ja/entries/142",
-    "reviewed_on": "2026-11-16",
-    "checked_urls": [
-      "https://pokepay.jp/ja/entries/142",
-      "https://pokepay.jp/ja/entries/143"
-    ],
-    "note": "2026年11月16日調査：Pokepay（Enterprise）への不正アクセスで全サービスを停止と公表。影響範囲は調査中で個人情報への影響は未記載のため保留。同日停止した大学生協電子マネー・ハチペイ・めぶくPay・ふくアプリも個人情報への影響が未公表で対象外とした。北区（ほくペイ）は加盟店の申込情報が取得された可能性を公表したため掲載。"
-  },
-  {
     "id": "nov16-eicoh-review",
     "organization": "エイコー（ランサムウェア）",
     "reported_on": "2026-11-13",
@@ -1620,42 +1547,6 @@
       "https://www.release.tdnet.info/inbs/140120261125586202.pdf"
     ],
     "note": "2026年11月18日調査：ランサムウェアによる生産停止を公表。データ流出の可能性は調査中で、個人情報への影響は記載がなく保留。 2026年11月20日再調査：第二報でVPN機器経由の侵入とダークウェブ上の技術情報の掲載を公表。個人情報の漏えいは確認されておらず継続。 2026年11月26日調査：11月25日の第三報で社内システムから外部のクラウド型ストレージへのデータ送信を確認したが、送信された情報の内容と範囲は調査中で個人情報への影響の記載がなく継続。"
-  },
-  {
-    "id": "nov20-tokyo-japanticket-review",
-    "organization": "東京都（Tokyo Tokyo Delicious Museum 鮨握り体験の予約）",
-    "reported_on": "2026-11-18",
-    "verification": "pending",
-    "reference_url": "https://www.metro.tokyo.lg.jp/information/press/2026/11/2026111801",
-    "reviewed_on": "2026-11-20",
-    "checked_urls": [
-      "https://www.metro.tokyo.lg.jp/information/press/2026/11/2026111801"
-    ],
-    "note": "2026年11月20日調査：公表索引では予約サービスの外部分析ツールへの不正アクセスで予約者の氏名・メールアドレス・電話番号・国籍・アレルギー情報97件の漏えいとされるが、都のサイトが計画メンテナンス中で本文未確認のため保留。"
-  },
-  {
-    "id": "nov20-tokyo-arara-review",
-    "organization": "東京都（賃貸住宅断熱・再エネ推進コンシェルジュ事業、アララメッセージ）",
-    "reported_on": "2026-11-18",
-    "verification": "pending",
-    "reference_url": "https://www.metro.tokyo.lg.jp/information/press/2026/11/2026111819",
-    "reviewed_on": "2026-11-20",
-    "checked_urls": [
-      "https://www.metro.tokyo.lg.jp/information/press/2026/11/2026111819"
-    ],
-    "note": "2026年11月20日調査：公表索引ではアララメッセージへの不正アクセスでメールアドレス320件の漏えいとされるが、都のサイトが計画メンテナンス中で本文未確認のため保留。"
-  },
-  {
-    "id": "nov20-uniformnext-karte-review",
-    "organization": "ユニフォームネクスト（KARTE）",
-    "reported_on": "2026-11-18",
-    "verification": "pending",
-    "reference_url": "https://www.uniformnext.com/info/20261118/",
-    "reviewed_on": "2026-11-20",
-    "checked_urls": [
-      "https://www.uniformnext.com/info/20261118/"
-    ],
-    "note": "2026年11月20日調査：公表索引ではKARTEへの不正アクセスで顧客の会社名・氏名・メールアドレス等最大1,701,006件の漏えいとされるが、公式ページが直接取得・ヘッドレスブラウザーとも403で本文未確認のため保留。"
   },
   {
     "id": "nov20-ensapia-notion-review",
@@ -1751,7 +1642,7 @@
     "checked_urls": [
       "https://www.catalog-gift.net/ringbell/rb-release.pdf"
     ],
-    "note": "2026年11月26日調査：公表索引では会員約72万人と非会員約177万人の情報が漏えいした可能性（11月20日第2報）とされるが、公式PDFとサイトが403で本文を確認できず保留。東京都の赤ちゃんファーストポイント交換サイトの公表では個人情報の漏えいは確認されていないとしている。"
+    "note": "2026年11月26日調査：公表索引では会員約72万人と非会員約177万人の情報が漏えいした可能性（11月20日第2報）とされるが、公式PDFとサイトが403で本文を確認できず保留。東京都の赤ちゃんファーストポイント交換サイトの公表では個人情報の漏えいは確認されていないとしている。 2026年11月26日再調査：公表索引の別の行でも公式PDFが出典だが、今回も403で本文を確認できず継続。"
   },
   {
     "id": "nov26-sagawa-tebura-review",
@@ -1860,5 +1751,210 @@
       "https://www.flypeach.com/application/files/3617/9515/4415/20261120_INFO_JP.pdf"
     ],
     "note": "2026年11月26日調査：公表索引ではメール配信委託先の「Cuenote FC」への不正アクセスで顧客情報8,997,106件とされるが、公式PDFが応答せず本文を確認できず保留。既存の掲載（peach-mail-20261009）との関係も未確認。"
+  },
+  {
+    "id": "nov26b-a8abe224a4-review",
+    "organization": "Creema（KARTE不正アクセス）",
+    "reported_on": "2026-11-18",
+    "verification": "pending",
+    "reference_url": "https://www.creema.jp/news/1573/detail",
+    "reviewed_on": "2026-11-26",
+    "checked_urls": [
+      "https://www.creema.jp/news/1573/detail"
+    ],
+    "note": "2026年11月26日調査：11月分の公表索引の再照合で見つかった未収録行。公表索引では「サービス運営に利用するプレイドの「KARTE」のサーバーが脆弱性を悪用されて不正アクセスを受け、KARTE に連携していた情報が外部に読み出された。アプリのプッシュ通知・ポップアッ」、規模は「資料に明記なし」とされるが、公式ページを取得できず（アクセス拒否・空本文等）本文未確認のため保留。"
+  },
+  {
+    "id": "nov26b-4f9765eb70-review",
+    "organization": "肥後銀行（KARTE不正アクセス）",
+    "reported_on": "2026-11-18",
+    "verification": "pending",
+    "reference_url": "https://www.higobank.co.jp/article/newsrelease/files/8fd2efd2f36acf7ffc3528883ab8c68ad28e69d4.pdf",
+    "reviewed_on": "2026-11-26",
+    "checked_urls": [
+      "https://www.higobank.co.jp/article/newsrelease/files/8fd2efd2f36acf7ffc3528883ab8c68ad28e69d4.pdf"
+    ],
+    "note": "2026年11月26日調査：11月分の公表索引の再照合で見つかった未収録行。公表索引では「肥後銀行アプリでのお知らせ配信に利用するプレイドの配信サービス「KARTE」が第三者の不正アクセスを受け、アプリ利用者の個人情報が外部に漏えいしたとプレイドから報告を受けた。KAR」、規模は「最大377,194件（お客さま管理番号・生年月日）」とされるが、公式ページを取得できず（アクセス拒否・空本文等）本文未確認のため保留。"
+  },
+  {
+    "id": "nov26b-de3f8e554f-review",
+    "organization": "ランドマーク（ユニフォームタウン、KARTE不正アクセス）",
+    "reported_on": "2026-11-18",
+    "verification": "pending",
+    "reference_url": "https://www.l-m.co.jp/karte_202611/",
+    "reviewed_on": "2026-11-26",
+    "checked_urls": [
+      "https://www.l-m.co.jp/karte_202611/"
+    ],
+    "note": "2026年11月26日調査：11月分の公表索引の再照合で見つかった未収録行。公表索引では「ユニフォーム通販「ユニフォームタウン」が利用するプレイドの「KARTE」への不正アクセスで、KARTE に連携していた顧客情報の一部が漏えいしたとプレイドから報告を受けた。データ連」、規模は「4,067レコード」とされるが、公式ページを取得できず（アクセス拒否・空本文等）本文未確認のため保留。"
+  },
+  {
+    "id": "nov26b-f9f68f8501-review",
+    "organization": "藤崎（FUJISAKI online、KARTE不正アクセス）",
+    "reported_on": "2026-11-18",
+    "verification": "pending",
+    "reference_url": "https://www.fujisaki.co.jp/event/post-35.html",
+    "reviewed_on": "2026-11-26",
+    "checked_urls": [
+      "https://www.fujisaki.co.jp/event/post-35.html"
+    ],
+    "note": "2026年11月26日調査：11月分の公表索引の再照合で見つかった未収録行。公表索引では「サービス改善のために利用するプレイドの外部サービスへの不正アクセスで、FUJISAKI online の会員情報の一部が外部に漏えいした。11月17日にプレイドから追加の情報を受け」、規模は「約75,000件（最大値）」とされるが、公式ページを取得できず（アクセス拒否・空本文等）本文未確認のため保留。"
+  },
+  {
+    "id": "nov26b-a1e1668b77-review",
+    "organization": "ニューロマジック（Notion の委託先 Fireworks AI への不正アクセス）",
+    "reported_on": "2026-11-16",
+    "verification": "pending",
+    "reference_url": "https://cdn.prod.website-files.com/658a8daf8b1487c1daf68f1b/6afa961f27e021fd8c0329ee_%E7%94%9F%E6%88%90AI%E3%82%B5%E3%83%BC%E3%83%92%E3%82%99%E3%82%B9%E3%81%AE%E5%86%8D%E5%A7%94%E8%A8%97%E5%85%88%E3%81%B8%E3%81%AE%E4%B8%8D%E6%AD%A3%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E3%81%AB%E8%B5%B7%E5%9B%A0%E3%81%99%E3%82%8B%E6%83%85%E5%A0%B1%E6%BC%8F%E3%81%88%E3%81%84%E3%81%AE%E5%8F%AF%E8%83%BD%E6%80%A7%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B%E3%81%A8%E3%81%8A%E8%A9%AB%E3%81%B2%E3%82%99.pdf",
+    "reviewed_on": "2026-11-26",
+    "checked_urls": [
+      "https://cdn.prod.website-files.com/658a8daf8b1487c1daf68f1b/6afa961f27e021fd8c0329ee_%E7%94%9F%E6%88%90AI%E3%82%B5%E3%83%BC%E3%83%92%E3%82%99%E3%82%B9%E3%81%AE%E5%86%8D%E5%A7%94%E8%A8%97%E5%85%88%E3%81%B8%E3%81%AE%E4%B8%8D%E6%AD%A3%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E3%81%AB%E8%B5%B7%E5%9B%A0%E3%81%99%E3%82%8B%E6%83%85%E5%A0%B1%E6%BC%8F%E3%81%88%E3%81%84%E3%81%AE%E5%8F%AF%E8%83%BD%E6%80%A7%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B%E3%81%A8%E3%81%8A%E8%A9%AB%E3%81%B2%E3%82%99.pdf"
+    ],
+    "note": "2026年11月26日調査：11月分の公表索引の再照合で見つかった未収録行。公表索引では「業務で利用する「Notion」の生成AI機能「Notion AI」に関し、提供元 Notion社の委託先 Fireworks AI社の開発用環境が第三者の不正侵入を受け、Notio」、規模は「従業員72名の Notion AI とのやり取りの記録7,045件（会話705件分）」とされるが、公式ページを取得できず（アクセス拒否・空本文等）本文未確認のため保留。"
+  },
+  {
+    "id": "nov26b-242c4be16d-review",
+    "organization": "増田住建（建材百貨店 楽天市場店、GoQSystem不正アクセス）",
+    "reported_on": "2026-11-15",
+    "verification": "pending",
+    "reference_url": "https://www.rakuten.co.jp/kenzaih/contents/261116/",
+    "reviewed_on": "2026-11-26",
+    "checked_urls": [
+      "https://www.rakuten.co.jp/kenzaih/contents/261116/"
+    ],
+    "note": "2026年11月26日調査：11月分の公表索引の再照合で見つかった未収録行。公表索引では「受注・配送管理に利用する GoQSystem への不正アクセスで、当店を利用した一部の顧客（3,380名）の注文情報が外部に漏えいしたことが確認された。」、規模は「3,380名」とされるが、公式ページを取得できず（アクセス拒否・空本文等）本文未確認のため保留。"
+  },
+  {
+    "id": "nov26b-6bc97429be-review",
+    "organization": "泉佐野市（教育総務課、サテライト「はなまる連絡帳」が利用する アララ メッセージへの不正アクセス）",
+    "reported_on": "2026-11-12",
+    "verification": "pending",
+    "reference_url": "https://www.city.izumisano.lg.jp/kakuka/kyoiku/kyoikusomu/menu/19420.html",
+    "reviewed_on": "2026-11-26",
+    "checked_urls": [
+      "https://www.city.izumisano.lg.jp/kakuka/kyoiku/kyoikusomu/menu/19420.html"
+    ],
+    "note": "2026年11月26日調査：11月分の公表索引の再照合で見つかった未収録行。公表索引では「「はなまる連絡帳」の運営会社サテライトがメール配信を委託していたアララのサービスが第三者の不正アクセスを受け、「はなまる連絡帳」からメールを送った宛先のメールアドレスが外部に流出し」、規模は「非公表（市内の件数の記載なし）」とされるが、公式ページを取得できず（アクセス拒否・空本文等）本文未確認のため保留。"
+  },
+  {
+    "id": "nov26b-df6a6f503f-review",
+    "organization": "二戸市（TKC が利用する アララ メッセージへの不正アクセス）",
+    "reported_on": "2026-11-11",
+    "verification": "pending",
+    "reference_url": "https://www.city.ninohe.lg.jp/info/4719",
+    "reviewed_on": "2026-11-26",
+    "checked_urls": [
+      "https://www.city.ninohe.lg.jp/info/4719"
+    ],
+    "note": "2026年11月26日調査：11月分の公表索引の再照合で見つかった未収録行。公表索引では「TKC 提供の交付予約・管理システムのメール配信委託先アララの「アララメッセージ」が不正アクセスを受け、受取予約をした人のメールアドレスが漏えいした可能性がある。アララの調査では漏」、規模は「240人分（可能性、対象者は調査中）」とされるが、公式ページを取得できず（アクセス拒否・空本文等）本文未確認のため保留。"
+  },
+  {
+    "id": "nov26b-bcb70daf21-review",
+    "organization": "楽天銀行（楽天銀行インバウンド決済サービス、委託先 ELESTYLE への不正アクセス）",
+    "reported_on": "2026-11-06",
+    "verification": "pending",
+    "reference_url": "https://www.rakuten-bank.co.jp/info/2026/261106.html",
+    "reviewed_on": "2026-11-26",
+    "checked_urls": [
+      "https://www.rakuten-bank.co.jp/info/2026/261106.html"
+    ],
+    "note": "2026年11月26日調査：11月分の公表索引の再照合で見つかった未収録行。公表索引では「「楽天銀行インバウンド決済サービス」のシステム委託先 ELESTYLE で第三者の不正アクセスが発生し、同サービスに加盟店登録している一部の個人事業主・法人のユーザー名とメールアド」、規模は「最大907件（加盟店の個人事業主・法人）」とされるが、公式ページを取得できず（アクセス拒否・空本文等）本文未確認のため保留。"
+  },
+  {
+    "id": "nov26b-ff6a52ed81-review",
+    "organization": "貝塚市（TKC 予約システムが利用する アララ メッセージへの不正アクセス）",
+    "reported_on": "2026-11-05",
+    "verification": "pending",
+    "reference_url": "https://www.city.kaizuka.lg.jp/juyona_oshirase/yakumailteisi.html",
+    "reviewed_on": "2026-11-26",
+    "checked_urls": [
+      "https://www.city.kaizuka.lg.jp/juyona_oshirase/yakumailteisi.html"
+    ],
+    "note": "2026年11月26日調査：11月分の公表索引の再照合で見つかった未収録行。公表索引では「予約システム提供事業者 TKC から、メール配信サービス提供事業者 アララが第三者の不正アクセスを受けたと報告を受けた。予約システム本体・データセンターへの不正アクセスは確認されて」、規模は「件数は資料に明記なし」とされるが、公式ページを取得できず（アクセス拒否・空本文等）本文未確認のため保留。"
+  },
+  {
+    "id": "nov26b-179397f247-review",
+    "organization": "めぶくグラウンド",
+    "reported_on": "2026-11-14",
+    "verification": "pending",
+    "reference_url": "https://www.mebukupay.com/notice",
+    "reviewed_on": "2026-11-26",
+    "checked_urls": [
+      "https://www.mebukupay.com/notice"
+    ],
+    "note": "2026年11月26日調査：利用者の個人情報の漏えいは確認されておらず、加盟店7社の店舗情報・担当者氏名等の扱い（漏えい確認か）を本文で確定できないため保留。"
+  },
+  {
+    "id": "nov26b-856e734db6-review",
+    "organization": "登別市",
+    "reported_on": "2026-11-13",
+    "verification": "pending",
+    "reference_url": "https://www.city.noboribetsu.lg.jp/article/2026110900014/",
+    "reviewed_on": "2026-11-26",
+    "checked_urls": [
+      "https://www.city.noboribetsu.lg.jp/article/2026110900014/",
+      "https://cms.city.noboribetsu.lg.jp/article/2026110900014/file_contents/tyokai.pdf"
+    ],
+    "note": "2026年11月26日調査：職員による権限外の閲覧を公表したが、閲覧された文書に個人情報が含まれるかが資料に明記されていないため保留。"
+  },
+  {
+    "id": "nov26b-0e27346ac5-review",
+    "organization": "クオリティソフト",
+    "reported_on": "2026-10-20",
+    "verification": "pending",
+    "reference_url": "https://www.qualitysoft.com/product/update/20261104-6148/",
+    "reviewed_on": "2026-11-26",
+    "checked_urls": [
+      "https://www.qualitysoft.com/product/update/20261104-6148/"
+    ],
+    "note": "2026年11月26日調査：「ISM CloudOne」の脆弱性を悪用した特定顧客への不正アクセスを公表したが、個人情報への影響が記載されていないため保留。"
+  },
+  {
+    "id": "nov26b-1900119320-review",
+    "organization": "しまむら（KARTE）",
+    "reported_on": "2026-11-17",
+    "verification": "pending",
+    "reference_url": "https://www.shimamura.gr.jp/assets-c/uploads/release20261117_Informationleak.pdf",
+    "reviewed_on": "2026-11-26",
+    "checked_urls": [
+      "https://www.shimamura.gr.jp/assets-c/uploads/release20261117_Informationleak.pdf"
+    ],
+    "note": "2026年11月26日調査：公表索引では「KARTE」への不正アクセスで公式アプリ・オンラインストア会員の生年月日・性別・都道府県・郵便番号約700万件と、家族の子の生年月約5万件が外部へ漏えいしたとされるが、公式PDFが403で本文を確認できず保留。"
+  },
+  {
+    "id": "nov26b-cd20d7cc20-review",
+    "organization": "SBI新生銀行（マネックス証券関連）",
+    "reported_on": "2026-11-18",
+    "verification": "pending",
+    "reference_url": "https://www.sbishinseibank.co.jp/info/news2611_monex.html",
+    "reviewed_on": "2026-11-26",
+    "checked_urls": [
+      "https://www.sbishinseibank.co.jp/info/news2611_monex.html"
+    ],
+    "note": "2026年11月26日調査：公表索引に11月18日付の行があるが、公式ページの本文を取得できず（空本文）、対象情報と規模を確認できないため保留。"
+  },
+  {
+    "id": "nov26b-06c7a77a68-review",
+    "organization": "東京ケーブルネットワーク（LINE公式アカウント、COMSBI）",
+    "reported_on": "2026-11-12",
+    "verification": "pending",
+    "reference_url": "https://www.tcn-catv.co.jp/news/detail/?itemid=1407&dispmid=735",
+    "reviewed_on": "2026-11-26",
+    "checked_urls": [
+      "https://www.tcn-catv.co.jp/news/detail/?itemid=1407&dispmid=735"
+    ],
+    "note": "2026年11月26日調査：公表索引では「CCG for LINE」を通じて利用する「COMSBI」への不正アクセスでLINE公式アカウント登録者の情報1,712件等が漏えいとされるが、公式サイトが11月21日から公開停止中で本文を確認できず保留。"
+  },
+  {
+    "id": "nov26b-5b0acef064-review",
+    "organization": "oricon ME（Deview）",
+    "reported_on": "2026-11-16",
+    "verification": "pending",
+    "reference_url": "https://www.oricon.jp/news/notice/11124/",
+    "reviewed_on": "2026-11-26",
+    "checked_urls": [
+      "https://www.oricon.jp/news/notice/11124/"
+    ],
+    "note": "2026年11月26日調査：公表索引ではオーディション情報サイト「Deview」への不正アクセスで会員26名の応募画像58ファイルに不審なアクセスがあったとされるが、公式ページがアクセス拒否で本文を確認できず保留。"
   }
 ]

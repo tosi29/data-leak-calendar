@@ -1,0 +1,44 @@
+{
+  "id": "sweep-bd02687136-20261112",
+  "organization": {
+    "name": "ドリーム・アーツ",
+    "sector": "企業・団体"
+  },
+  "title": "業務で使うNotion AIの処理委託先Fireworks AIへの不正アクセスで、従業員の入力に含まれる顧客の個人情報などが流出した可能性",
+  "summary": "利用するクラウドサービス「Notion」の AI 機能について、提供元 Notion から、委託先 Fireworks AI の環境への第三者の不正アクセスで従業員が入力した情報の一部が外部に流出した可能性があると報告を受け、顧客の個人情報などが流出した可能性がある。関係者に順次連絡する。 対象情報：2026年10月5日〜10月24日に Notion AI に入力したプロンプトと回答（参加者の個人情報を含むイベント関連情報、参加者の個人情報を含む商談議事録など）。",
+  "published_on": "2026-11-12",
+  "first_published_on": "2026-11-12",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-12",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "利用するクラウドサービス「Notion」の AI 機能について、提供元 Notion から、委託先 Fireworks AI の環境への第三者の不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "調査中（件数は資料に明記なし）。"
+    }
+  ],
+  "data_types": [],
+  "related_vendor": "Fireworks AI",
+  "sources": [
+    {
+      "url": "https://www.dreamarts.co.jp/news/information/inf261112/",
+      "type": "official",
+      "title": "「Notion AI」のインシデントに伴う個人情報流出の可能性について ｜ 株式会社ドリーム・アーツ｜DXの民主化で大企業が変わるニッポンが変わる",
+      "published_on": "2026-11-12",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

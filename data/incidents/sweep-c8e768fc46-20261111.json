@@ -1,0 +1,49 @@
+{
+  "id": "sweep-c8e768fc46-20261111",
+  "organization": {
+    "name": "freep（スタジオわさびSHOP）",
+    "sector": "企業・団体"
+  },
+  "title": "商品の保管・発送業務を委託するオープンロジのシステムが第三者の不正アクセスを受け、同社が預かる出荷データの一部に含まれるお届け先の個人情報などが外部に持ち出されたことをオープンロジが確認した",
+  "summary": "商品の保管・発送業務を委託するオープンロジのシステムが第三者の不正アクセスを受け、同社が預かる出荷データの一部に含まれるお届け先の個人情報などが外部に持ち出されたことをオープンロジが確認した。対象の顧客には特定でき次第、個別にメールで連絡する。11月11日時点で悪用・二次被害は確認されていない。 対象情報：2026年4月8日〜11月8日に同ショップがオープンロジへ発送を依頼した注文のお届け先の氏名、住所、電話番号、メールアドレス（登録がある場合）、商品情報（商品名、数量等）など。",
+  "published_on": "2026-11-11",
+  "first_published_on": "2026-11-11",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-11",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "商品の保管・発送業務を委託するオープンロジのシステムが第三者の不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "非公表（対象の顧客はオープンロジの調査報告をもとに特定）。"
+    }
+  ],
+  "data_types": [
+    "住所",
+    "電話番号",
+    "メールアドレス",
+    "商品情報"
+  ],
+  "related_vendor": "株式会社オープンロジ",
+  "sources": [
+    {
+      "url": "https://studiowasabi-shop.com/pages/info",
+      "type": "official",
+      "title": "お知らせ – スタジオわさびSHOP",
+      "published_on": "2026-11-11",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

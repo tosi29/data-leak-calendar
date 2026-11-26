@@ -1,0 +1,46 @@
+{
+  "id": "sweep-511b541f5b-20261112",
+  "organization": {
+    "name": "新国立劇場",
+    "sector": "企業・団体"
+  },
+  "title": "主催公演のチケット販売を一部委託する「アソビュー！」の運営会社 アソビューから、同社が利用するメール配信サービス（アララ提供）への不正アクセスで「アソビュー！」会員の個人情報の一部が外部に流出したと連絡を受けた",
+  "summary": "主催公演のチケット販売を一部委託する「アソビュー！」の運営会社 アソビューから、同社が利用するメール配信サービス（アララ提供）への不正アクセスで「アソビュー！」会員の個人情報の一部が外部に流出したと連絡を受けた。アソビューの発表では、11月5日19時時点で対象者全員へのメール連絡を終えている。問い合わせはアソビューの専用窓口で受け付ける。 対象情報：「アソビュー！」会員の個人情報の一部（項目はアソビューのお知らせを参照とし、劇場の資料に明記なし）。",
+  "published_on": "2026-11-12",
+  "first_published_on": "2026-11-12",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-12",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "主催公演のチケット販売を一部委託する「アソビュー！」の運営会社 アソビューから、同社が利用するメール配信サービス（アララ提供）への不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "非公表。"
+    }
+  ],
+  "data_types": [
+    "「アソビュー！」会員の個人情報の一部"
+  ],
+  "related_vendor": "アララ株式会社",
+  "sources": [
+    {
+      "url": "https://www.nntt.jac.go.jp/release/detail/23_032519.html",
+      "type": "official",
+      "title": "チケット予約サイト「アソビュー！」の個人情報流出に関するお知らせ | 新国立劇場",
+      "published_on": "2026-11-12",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

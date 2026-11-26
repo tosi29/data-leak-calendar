@@ -1,0 +1,49 @@
+{
+  "id": "sweep-6c7f9b21df-20261112",
+  "organization": {
+    "name": "One st.（公式サイト）",
+    "sector": "企業・団体"
+  },
+  "title": "物流委託先オープンロジへの不正アクセスで、2026年4月8日〜11月8日の出荷データの一部が外部へ持ち出された可能性があるとの報告を受け、当社顧客の情報も持ち出された可能性があると公表した",
+  "summary": "物流委託先オープンロジへの不正アクセスで、2026年4月8日〜11月8日の出荷データの一部が外部へ持ち出された可能性があるとの報告を受け、当社顧客の情報も持ち出された可能性があると公表した。 対象情報：委託先オープンロジに出荷を依頼した商品のお届け先の氏名、住所、電話番号、メールアドレス、商品情報（商品名・数量等）。",
+  "published_on": "2026-11-12",
+  "first_published_on": "2026-11-12",
+  "publication_kind": "initial",
+  "occurred_on": "2026-11-08",
+  "detected_on": null,
+  "updated_on": "2026-11-12",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "物流委託先オープンロジへの不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "資料に明記なし。"
+    }
+  ],
+  "data_types": [
+    "住所",
+    "電話番号",
+    "メールアドレス",
+    "商品情報"
+  ],
+  "related_vendor": "株式会社オープンロジ",
+  "sources": [
+    {
+      "url": "https://www.cosme-one-st.jp/blogs/%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B/%E7%89%A9%E6%B5%81%E5%A7%94%E8%A8%97%E5%85%88%E3%81%B8%E3%81%AE%E4%B8%8D%E6%AD%A3%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E3%81%AB%E4%BC%B4%E3%81%86%E3%81%8A%E5%AE%A2%E6%A7%98%E6%83%85%E5%A0%B1%E6%BC%8F%E3%81%88%E3%81%84%E3%81%AE%E5%8F%AF%E8%83%BD%E6%80%A7%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B%E3%81%A8%E3%81%8A%E8%A9%AB%E3%81%B3",
+      "type": "official",
+      "title": "物流委託先への不正アクセスに伴うお客様情報漏えいの可能性に関するお知らせとお詫び – One st. 公式サイト",
+      "published_on": "2026-11-12",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

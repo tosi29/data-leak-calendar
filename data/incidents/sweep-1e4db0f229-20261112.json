@@ -1,0 +1,53 @@
+{
+  "id": "sweep-1e4db0f229-20261112",
+  "organization": {
+    "name": "太田市（おおたスポーツ学校）",
+    "sector": "自治体"
+  },
+  "title": "市のスポーツ学校が利用する株式会社サテライトの連絡アプリ「はなまる連絡帳」で、メール配信業務の委託先アララが不正アクセスを受け、登録者のメールアドレスが漏えいした可能性があるとの報告を受けた",
+  "summary": "市のスポーツ学校が利用する株式会社サテライトの連絡アプリ「はなまる連絡帳」で、メール配信業務の委託先アララが不正アクセスを受け、登録者のメールアドレスが漏えいした可能性があるとの報告を受けた。サテライトは11月9日に別の配信事業者のシステムに切り替えて配信を再開している。 対象情報：メールアドレスのみ。",
+  "published_on": "2026-11-12",
+  "first_published_on": "2026-11-12",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-12",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "市のスポーツ学校が利用する株式会社サテライトの連絡アプリ「はなまる連絡帳」で、メール配信業務の委託先アララが不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 4500,
+      "unit": "records",
+      "qualifier": "approximate",
+      "description": "延べ約4,500件（2024年1月〜2026年10月の延べ登録者数、重複を含む）。"
+    }
+  ],
+  "data_types": [
+    "メールアドレスのみ"
+  ],
+  "related_vendor": "アララ株式会社",
+  "sources": [
+    {
+      "url": "https://www.city.ota.gunma.jp/page/1066356.html",
+      "type": "official",
+      "title": "【スポーツ学校】はなまる連絡帳アプリの不正アクセスに伴う個人情報漏洩の可能性及び注意喚起 - 太田市ホームページ（スポーツ学校担当）",
+      "published_on": "2026-11-12",
+      "checked_on": "2026-11-26"
+    },
+    {
+      "url": "https://www.ota-sports-academy.com/topics/i_etc/%e3%81%af%e3%81%aa%e3%81%be%e3%82%8b%e9%80%a3%e7%b5%a1%e5%b8%b3%e3%82%a2%e3%83%97%e3%83%aa%e3%81%ae%e4%b8%8d%e6%ad%a3%e3%82%a2%e3%82%af%e3%82%bb%e3%82%b9%e3%81%ab%e4%bc%b4%e3%81%86%e5%80%8b%e4%ba%ba/",
+      "type": "official",
+      "title": "はなまる連絡帳アプリの不正アクセスに伴う個人情報漏洩の可能性及び注意喚起 | おおたスポーツ学校【総合型地域スポーツクラブ】",
+      "published_on": "2026-11-12",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

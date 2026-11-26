@@ -1,0 +1,50 @@
+{
+  "id": "sweep-6dc07716f2-20261117",
+  "organization": {
+    "name": "ワールドツール（アストロプロダクツ 楽天市場店・Yahoo!ショッピング店）",
+    "sector": "企業・団体"
+  },
+  "title": "受注管理システム「GoQSystem」の運営会社のサーバーが第三者の不正アクセスを受け、両店舗の注文情報の一部が外部に漏えいした",
+  "summary": "受注管理システム「GoQSystem」の運営会社のサーバーが第三者の不正アクセスを受け、両店舗の注文情報の一部が外部に漏えいした。GoQSystem によるとお問い合わせフォームの脆弱性が悪用された。実店舗・公式オンラインショップ・アプリの会員・注文情報は対象外。11月20日の追記で件数を公表（対象期間は2026年10月12日〜11月11日としつつ確認中）。 対象情報：氏名、住所、電話番号、メールアドレス、注文内容など。",
+  "published_on": "2026-11-17",
+  "first_published_on": "2026-11-17",
+  "publication_kind": "initial",
+  "occurred_on": "2026-11-10",
+  "detected_on": null,
+  "updated_on": "2026-11-17",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "受注管理システム「GoQSystem」の運営会社のサーバーが第三者の不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 4118,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "注文4,118件・4,344名（楽天市場店3,520件、Yahoo!ショッピング店598件）。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "電話番号",
+    "メールアドレス",
+    "注文内容"
+  ],
+  "related_vendor": "株式会社GoQSystem",
+  "sources": [
+    {
+      "url": "https://www.astro-p.co.jp/information/detail/80",
+      "type": "official",
+      "title": "インフォメーション(詳細ページ) / 工具・DIY用品通販のアストロプロダクツ",
+      "published_on": "2026-11-17",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

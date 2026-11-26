@@ -1,0 +1,51 @@
+{
+  "id": "sweep-1fde8da193-20261102",
+  "organization": {
+    "name": "川口市",
+    "sector": "自治体"
+  },
+  "title": "施設予約システムの提供事業者ウイングアークNEXから、一部のメール配信機能を担うアララのメール配信サービスで不正アクセスが確認されサービスを一時停止すると連絡があった",
+  "summary": "施設予約システムの提供事業者ウイングアークNEXから、一部のメール配信機能を担うアララのメール配信サービスで不正アクセスが確認されサービスを一時停止すると連絡があった。抽選結果・期限・利用日のお知らせメールを停止。事実関係と影響範囲は両社が調査中。予約の申込み・確認はこれまでどおり使える。 対象情報：施設予約システム（ラクリザ）に登録していた団体・個人のメールアドレス。",
+  "published_on": "2026-11-02",
+  "first_published_on": "2026-11-02",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-09",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "施設予約システムの提供事業者ウイングアークNEXから、一部のメール配信機能を担うアララのメール配信サービスで不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "メールアドレス（件数は資料に明記なし）。"
+    }
+  ],
+  "data_types": [],
+  "related_vendor": "アララ株式会社",
+  "sources": [
+    {
+      "url": "https://www.city.kawaguchi.lg.jp/soshiki/01020/020/oshirase/53061.html",
+      "type": "official",
+      "title": "【重要なお知らせ】施設予約システムへの不正アクセスによる個人情報（メールアドレス）の漏洩について／川口市ホームページ",
+      "published_on": "2026-11-02",
+      "checked_on": "2026-11-26"
+    },
+    {
+      "url": "https://www.city.kawaguchi.lg.jp/juyo/53115.html",
+      "type": "official",
+      "title": "【重要なお知らせ】施設予約システムへの不正アクセスによる個人情報（メールアドレス）の漏洩について／川口市ホームページ",
+      "published_on": "2026-11-02",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

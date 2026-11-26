@@ -1,0 +1,44 @@
+{
+  "id": "sweep-fcae8c9000-20261118",
+  "organization": {
+    "name": "プラス（ジョインテックスカンパニー）",
+    "sector": "企業・団体"
+  },
+  "title": "委託先プレイドの「KARTE」が第三者の不正アクセスを受け、ジョインテックスカンパニーの4サービスの顧客情報の一部が漏えいした可能性があるとプレイドから報告を受けた",
+  "summary": "委託先プレイドの「KARTE」が第三者の不正アクセスを受け、ジョインテックスカンパニーの4サービスの顧客情報の一部が漏えいした可能性があるとプレイドから報告を受けた。同社が保有・管理するシステムへの不正アクセスは確認されていない。KARTEの利用を停止し、対象者には範囲が特定でき次第メール等で個別に案内する。 対象情報：JOINTEXはログインID・販売店名・担当者名・住所・メールアドレス、スマートオフィスは過去のキャンペーン対象者のメールアドレス、スマートスクール・スマート介護はログインID・メールアドレスなど。",
+  "published_on": "2026-11-18",
+  "first_published_on": "2026-11-18",
+  "publication_kind": "initial",
+  "occurred_on": "2026-11-13",
+  "detected_on": "2026-11-15",
+  "updated_on": "2026-11-18",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "委託先プレイドの「KARTE」が第三者の不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "延べ32,479件（JOINTEX 42件、スマートオフィス 1,176件、スマートスクール 21,071件、スマート介護 10,190件）。"
+    }
+  ],
+  "data_types": [],
+  "related_vendor": "株式会社プレイド",
+  "sources": [
+    {
+      "url": "https://www.plus.co.jp/news/202611/infoqmg2h0mviu/",
+      "type": "official",
+      "title": "【ジョインテックス】委託先事業者で発生した不正アクセスに伴うメールアドレス等の漏えいについて｜PLUS プラス株式会社／PLUSグループ",
+      "published_on": "2026-11-18",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

@@ -1,0 +1,46 @@
+{
+  "id": "sweep-295ec4e32f-20261118",
+  "organization": {
+    "name": "芝浦工業大学",
+    "sector": "企業・団体"
+  },
+  "title": "業務で利用する Notion の委託先 Fireworks AI が不正アクセスを受け、Notion AI のチャットの内容の一部が外部に漏えいしたおそれがある",
+  "summary": "業務で利用する Notion の委託先 Fireworks AI が不正アクセスを受け、Notion AI のチャットの内容の一部が外部に漏えいしたおそれがある。Notion 社と連携して調査中。 対象情報：Notion AI のチャットの内容の一部。",
+  "published_on": "2026-11-18",
+  "first_published_on": "2026-11-18",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-18",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "業務で利用する Notion の委託先 Fireworks AI が不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "調査中。"
+    }
+  ],
+  "data_types": [
+    "Notion AI のチャットの内容の一部"
+  ],
+  "related_vendor": "Fireworks AI",
+  "sources": [
+    {
+      "url": "https://www.shibaura-it.ac.jp/headline/detail/20261118-7070-001.html",
+      "type": "official",
+      "title": "本学が利用するクラウドサービス(Notion)の委託先への不正アクセスについて｜芝浦工業大学",
+      "published_on": "2026-11-18",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

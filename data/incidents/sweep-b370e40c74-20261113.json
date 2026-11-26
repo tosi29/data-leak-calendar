@@ -1,0 +1,44 @@
+{
+  "id": "sweep-b370e40c74-20261113",
+  "organization": {
+    "name": "HRBrain",
+    "sector": "企業・団体"
+  },
+  "title": "業務で使うNotion AIの処理委託先Fireworks AIへの不正アクセスで、Notion AIとのやり取りの記録の一部が流出した可能性",
+  "summary": "業務で利用する「Notion」の提供元 Notion社が AI 機能の処理を委託する Fireworks AI社の環境が第三者の不正アクセスを受け、同社の Notion 環境で Notion AI を利用した際のやり取りの記録の一部が外部に流出した可能性がある。Notion社のシステムと同社が提供するサービスのシステムへの不正アクセスではなく、各サービスは通常どおり利用できる。二次被害は確認されていない。 対象情報：2026年10月5日〜10月24日に作成された Notion AI への入力文章と AI の応答文の一部（顧客の会社名、担当者の氏名、相談時・打ち合わせ時に提示された内容を含む）など。",
+  "published_on": "2026-11-13",
+  "first_published_on": "2026-11-13",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-11-10",
+  "updated_on": "2026-11-13",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "業務で利用する「Notion」の提供元 Notion社が AI 機能の処理を委託する Fireworks AI社の環境が第三者の不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "調査中。"
+    }
+  ],
+  "data_types": [],
+  "related_vendor": "Fireworks AI",
+  "sources": [
+    {
+      "url": "https://www.hrbrain.co.jp/news/20261113/",
+      "type": "official",
+      "title": "【お詫びとお知らせ】当社が利用する「Notion AI」の委託先への不正アクセスによる情報流出の可能性について | 株式会社HRBrain",
+      "published_on": "2026-11-13",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

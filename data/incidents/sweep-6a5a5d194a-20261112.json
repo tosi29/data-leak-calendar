@@ -1,0 +1,44 @@
+{
+  "id": "sweep-6a5a5d194a-20261112",
+  "organization": {
+    "name": "ななしいんく（774inc.）",
+    "sector": "企業・団体"
+  },
+  "title": "グッズ販売の委託先 SPWN が商品の出荷・配送を委託しているオープンロジのシステムが不正アクセスを受け、一部の客のお届け先情報が外部へ流出した可能性があると SPWN から報告を受けた",
+  "summary": "グッズ販売の委託先 SPWN が商品の出荷・配送を委託しているオープンロジのシステムが不正アクセスを受け、一部の客のお届け先情報が外部へ流出した可能性があると SPWN から報告を受けた。同社と SPWN のシステムへの不正アクセスや、両社が保有する顧客データの流出は確認されていない。対象の客には SPWN から個別に連絡する。 対象情報：2026年4月8日〜11月8日に SPWN がオープンロジへ出荷を依頼した客のお届け先情報など。",
+  "published_on": "2026-11-12",
+  "first_published_on": "2026-11-12",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-12",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "グッズ販売の委託先 SPWN が商品の出荷・配送を委託しているオープンロジのシステムが不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "非公表。"
+    }
+  ],
+  "data_types": [],
+  "related_vendor": "株式会社オープンロジ",
+  "sources": [
+    {
+      "url": "https://www.774.ai/post/%E3%80%90%E9%87%8D%E8%A6%81%E3%80%91%E5%BD%93%E7%A4%BE%E3%82%B0%E3%83%83%E3%82%BA%E8%B2%A9%E5%A3%B2%E5%A7%94%E8%A8%97%E5%85%88%E3%81%AB%E3%81%8A%E3%81%91%E3%82%8B%E5%80%8B%E4%BA%BA%E6%83%85%E5%A0%B1%E6%BC%8F%E6%B4%A9%E3%81%AE%E5%8F%AF%E8%83%BD%E6%80%A7%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E3%81%8A%E8%A9%AB%E3%81%B3%E3%81%A8%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B",
+      "type": "official",
+      "title": "【重要】当社グッズ販売委託先における個人情報漏洩の可能性に関するお詫びとお知らせ",
+      "published_on": "2026-11-12",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

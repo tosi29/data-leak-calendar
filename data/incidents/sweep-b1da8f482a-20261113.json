@@ -1,0 +1,48 @@
+{
+  "id": "sweep-b1da8f482a-20261113",
+  "organization": {
+    "name": "オルトプラス",
+    "sector": "企業・団体"
+  },
+  "title": "業務で利用する「Notion」の提供元 Notion社の委託先が第三者の不正アクセスを受け、従業員が Notion AI に入力した情報の一部が外部に流出した可能性がある",
+  "summary": "業務で利用する「Notion」の提供元 Notion社の委託先が第三者の不正アクセスを受け、従業員が Notion AI に入力した情報の一部が外部に流出した可能性がある。同社が提供するサービスのシステムへの不正アクセスではない。客の個人情報と認証情報は含まれていない。 対象情報：社内会議の議事録（従業員等の氏名を含む）、自社タイトルのプロモーションに関する一部情報、社内文書の作成に関するやり取り。",
+  "published_on": "2026-11-13",
+  "first_published_on": "2026-11-13",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-11-10",
+  "updated_on": "2026-11-13",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "業務で利用する「Notion」の提供元 Notion社の委託先が第三者の不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "非公表（従業員8名分の Notion AI のチャット履歴。含まれる個人情報の件数は資料に明記なし）。"
+    }
+  ],
+  "data_types": [
+    "社内会議の議事録",
+    "自社タイトルのプロモーションに関する一部情報",
+    "社内文書の作成に関するやり取り"
+  ],
+  "related_vendor": "Fireworks AI",
+  "sources": [
+    {
+      "url": "https://www.altplus.co.jp/topics/other/20261113notion",
+      "type": "official",
+      "title": "Notion AIに入力した情報の流出の可能性に関するお知らせ | altplus corporate site",
+      "published_on": "2026-11-13",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

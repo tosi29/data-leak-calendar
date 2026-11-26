@@ -1,0 +1,47 @@
+{
+  "id": "sweep-87c9e9d777-20261118",
+  "organization": {
+    "name": "オートバックスセブン",
+    "sector": "企業・団体"
+  },
+  "title": "利用するプレイドの「KARTE」への第三者の不正アクセスで、オートバックス会員の情報の一部が漏えいした",
+  "summary": "利用するプレイドの「KARTE」への第三者の不正アクセスで、オートバックス会員の情報の一部が漏えいした。KARTE の利用を停止した。 対象情報：会員番号、IPアドレスなど。",
+  "published_on": "2026-11-18",
+  "first_published_on": "2026-11-18",
+  "publication_kind": "initial",
+  "occurred_on": "2026-11-13",
+  "detected_on": "2026-11-18",
+  "updated_on": "2026-11-18",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "利用するプレイドの「KARTE」への第三者の不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 1370000,
+      "unit": "records",
+      "qualifier": "approximate",
+      "description": "約137万件（現時点の調査結果）。"
+    }
+  ],
+  "data_types": [
+    "会員番号",
+    "IPアドレス"
+  ],
+  "related_vendor": "株式会社プレイド",
+  "sources": [
+    {
+      "url": "https://www.autobacs.co.jp/ja/information/info-20261118.html",
+      "type": "official",
+      "title": "外部委託先システムへの不正アクセスによるお客様情報の漏えいについて | TOPお知らせ | 株式会社オートバックスセブン",
+      "published_on": "2026-11-18",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

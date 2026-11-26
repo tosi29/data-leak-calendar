@@ -1,0 +1,46 @@
+{
+  "id": "sweep-f6ef2f8cd4-20261112",
+  "organization": {
+    "name": "大阪市 阿倍野区役所",
+    "sector": "企業・団体"
+  },
+  "title": "事業の委託先 イングが利用するアララのメール配信サービスが第三者の不正アクセスを受け、事業の利用者のメールアドレスが漏えいした",
+  "summary": "事業の委託先 イングが利用するアララのメール配信サービスが第三者の不正アクセスを受け、事業の利用者のメールアドレスが漏えいした。イングは別の配信方法に切り替えた。二次被害は確認されていない。 対象情報：イベント当選者245名のメールアドレス。",
+  "published_on": "2026-11-12",
+  "first_published_on": "2026-11-12",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-11-12",
+  "updated_on": "2026-11-12",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "事業の委託先 イングが利用するアララのメール配信サービスが第三者の不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 245,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "メールアドレス245名分。"
+    }
+  ],
+  "data_types": [
+    "イベント当選者245名のメールアドレス"
+  ],
+  "related_vendor": "アララ株式会社",
+  "sources": [
+    {
+      "url": "https://www.city.osaka.lg.jp/hodoshiryo/abeno/0000691524.html",
+      "type": "official",
+      "title": "大阪市：報道発表資料 「令和8年度阿倍野区小学生英語等支援事業」における個人情報の漏えいについて",
+      "published_on": "2026-11-12",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

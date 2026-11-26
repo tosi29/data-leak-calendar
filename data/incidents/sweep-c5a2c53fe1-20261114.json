@@ -1,0 +1,46 @@
+{
+  "id": "sweep-c5a2c53fe1-20261114",
+  "organization": {
+    "name": "産業経済新聞社",
+    "sector": "企業・団体"
+  },
+  "title": "同社のプロジェクトで取引先が利用する「Notion」の提供元の委託先 Fireworks AI社への不正アクセスで、同社のシステムに関する情報の一部が外部に流出した可能性がある",
+  "summary": "同社のプロジェクトで取引先が利用する「Notion」の提供元の委託先 Fireworks AI社への不正アクセスで、同社のシステムに関する情報の一部が外部に流出した可能性がある。11月13日夜に「産経iD」を一時停止し、安全性を確認して14日午前に再開した。外部への流出の有無は調査中。 対象情報：同社のシステムに関する情報の一部（個人情報の記載なし）。",
+  "published_on": "2026-11-14",
+  "first_published_on": "2026-11-14",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-11-13",
+  "updated_on": "2026-11-14",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "同社のプロジェクトで取引先が利用する「Notion」の提供元の委託先 Fireworks AI社への不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "非公表。"
+    }
+  ],
+  "data_types": [
+    "同社のシステムに関する情報の一部"
+  ],
+  "related_vendor": "Fireworks AI",
+  "sources": [
+    {
+      "url": "https://www.sankei.jp/wp-content/uploads/2026/11/%E5%BD%93%E7%A4%BE%E3%81%AE%E5%8F%96%E5%BC%95%E5%85%88%E3%81%8C%E5%88%A9%E7%94%A8%E3%81%99%E3%82%8B%E3%82%AF%E3%83%A9%E3%82%A6%E3%83%89%E3%83%84%E3%83%BC%E3%83%AB%E3%81%A7%E3%81%AE%E4%B8%8D%E6%AD%A3%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E3%81%8A%E3%82%88%E3%81%B3%E7%94%A3%E7%B5%8CiD%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9%E3%81%AE%E4%B8%80%E6%99%82%E5%81%9C%E6%AD%A2%EF%BC%88%E7%8F%BE%E5%9C%A8%E3%81%AF%E5%86%8D%E9%96%8B%EF%BC%89%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6.pdf",
+      "type": "official",
+      "title": "当社の取引先が利用するクラウドツールでの不正アクセスおよび",
+      "published_on": "2026-11-14",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

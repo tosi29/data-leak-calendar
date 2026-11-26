@@ -1,0 +1,46 @@
+{
+  "id": "okazaki-mynumber-arara-20261104",
+  "organization": {
+    "name": "岡崎市（マイナンバーカード交付予約・管理システム）",
+    "sector": "自治体"
+  },
+  "title": "交付予約・管理システムの提供元TKCが使うアララのメール送信サーバーへの不正アクセスで、予約時に登録したメールアドレスが漏えいした可能性",
+  "summary": "マイナンバーカード交付予約・管理システムの提供元TKCが予約時のメール送信に使うアララのサーバーが外部から不正アクセスを受け、マイナンバーカード受取予約の際に登録したメールアドレスが漏えいした可能性があると11月2日に報告を受けた。市の情報が含まれるかを含め調査中で、件数は確認中。",
+  "published_on": "2026-11-04",
+  "first_published_on": "2026-11-04",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-11-02",
+  "updated_on": "2026-11-04",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "交付予約・管理システムの提供元TKCが利用するアララ株式会社のメール送信サービスのサーバーへの外部からの不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "マイナンバーカード受取予約の際に登録したメールアドレス。件数確認中。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "TKC／アララ株式会社",
+  "sources": [
+    {
+      "url": "https://www.city.okazaki.lg.jp/shisei/koho/1006195/1006358/1017062/1017558.html",
+      "type": "official",
+      "title": "予約確認メール送信用サーバーへの不正アクセスにより個人情報漏えいの可能性があることが判明しました。",
+      "published_on": "2026-11-04",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

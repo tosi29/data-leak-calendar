@@ -1,0 +1,44 @@
+{
+  "id": "sweep-49c7c1da6c-20261113",
+  "organization": {
+    "name": "ナカシャクリエイテブ",
+    "sector": "企業・団体"
+  },
+  "title": "利用する外部サービス「Notion」の委託先 Fireworks AI が第三者の不正アクセスを受け、Notion AI のチャット履歴の一部が外部に流出した可能性がある（第一報）",
+  "summary": "利用する外部サービス「Notion」の委託先 Fireworks AI が第三者の不正アクセスを受け、Notion AI のチャット履歴の一部が外部に流出した可能性がある（第一報）。二次被害は確認されておらず、影響範囲・対象者は調査中。 対象情報：チャット履歴（入力内容・AI の回答）の一部に含まれる氏名・連絡先等の個人情報。",
+  "published_on": "2026-11-13",
+  "first_published_on": "2026-11-13",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-13",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "利用する外部サービス「Notion」の委託先 Fireworks AI が第三者の不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 100,
+      "unit": "records",
+      "qualifier": "approximate",
+      "description": "約100件（2026/11/12現在）。"
+    }
+  ],
+  "data_types": [],
+  "related_vendor": "Fireworks AI",
+  "sources": [
+    {
+      "url": "https://www.nakasha.co.jp/news/notion_ai.html",
+      "type": "official",
+      "title": "Notion AIの情報流出の可能性に関するお知らせとお詫び（第一報） | ナカシャクリエイテブ株式会社",
+      "published_on": "2026-11-13",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

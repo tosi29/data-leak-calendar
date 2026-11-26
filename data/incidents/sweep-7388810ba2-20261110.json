@@ -1,0 +1,44 @@
+{
+  "id": "sweep-7388810ba2-20261110",
+  "organization": {
+    "name": "司法協会",
+    "sector": "企業・団体"
+  },
+  "title": "千葉出張所の端末で第三者による不正アクセスを確認し、直ちに端末のインターネット接続を遮断した",
+  "summary": "千葉出張所の端末で第三者による不正アクセスを確認し、直ちに端末のインターネット接続を遮断した。保有する個人情報の一部が外部に漏えいしたおそれがある。個人情報保護委員会へ報告し、対象者には書面またはメールで案内する。二次被害は確認されていない。 対象情報：千葉出張所の口座に振り込んだ客が払込取扱票等に記載した氏名・住所・電話番号、千葉出張所とメールを送受信した人の氏名・メールアドレスなど。",
+  "published_on": "2026-11-10",
+  "first_published_on": "2026-11-10",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-10-15",
+  "updated_on": "2026-11-10",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "千葉出張所の端末で第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "非公表。"
+    }
+  ],
+  "data_types": [],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.jaj.or.jp/topics",
+      "type": "official",
+      "title": "トピックス | トピックス | 一般財団法人司法協会",
+      "published_on": "2026-11-10",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

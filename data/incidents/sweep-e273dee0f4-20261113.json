@@ -1,0 +1,44 @@
+{
+  "id": "sweep-e273dee0f4-20261113",
+  "organization": {
+    "name": "尼崎市",
+    "sector": "自治体"
+  },
+  "title": "オンライン申請ポータルサイトの委託先 TKC が利用するメール配信サービス「アララ メッセージ」が第三者の不正アクセスを受け、利用者のメールアドレスが外部に漏えいした",
+  "summary": "オンライン申請ポータルサイトの委託先 TKC が利用するメール配信サービス「アララ メッセージ」が第三者の不正アクセスを受け、利用者のメールアドレスが外部に漏えいした。 対象情報：2026年7月1日〜10月31日に各種手続きでシステムからのメールを受信したメールアドレス。",
+  "published_on": "2026-11-13",
+  "first_published_on": "2026-11-13",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-13",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "オンライン申請ポータルサイトの委託先 TKC が利用するメール配信サービス「アララ メッセージ」が第三者の不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 17064,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "メールアドレス17,064件。"
+    }
+  ],
+  "data_types": [],
+  "related_vendor": "アララ株式会社",
+  "sources": [
+    {
+      "url": "https://www.city.amagasaki.hyogo.jp/shisei/1026132/1026133.html",
+      "type": "official",
+      "title": "尼崎市オンライン申請ポータルサイト｜尼崎市公式ホームページ",
+      "published_on": "2026-11-13",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

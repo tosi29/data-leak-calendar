@@ -1,0 +1,49 @@
+{
+  "id": "sweep-3581d78e26-20261113",
+  "organization": {
+    "name": "東映アニメーション（オンラインくじ）",
+    "sector": "企業・団体"
+  },
+  "title": "オンラインくじの運営委託先アカツキが利用するオープンロジのシステムへの不正アクセスで、賞品（未出荷を含む）のお届け先情報が外部に持ち出され、11月13日に当サービスのデータが含まれることを確認した",
+  "summary": "オンラインくじの運営委託先アカツキが利用するオープンロジのシステムへの不正アクセスで、賞品（未出荷を含む）のお届け先情報が外部に持ち出され、11月13日に当サービスのデータが含まれることを確認した。 対象情報：委託先オープンロジに出荷を依頼した商品のお届け先の氏名、住所、電話番号、メールアドレス、商品情報（商品名・数量等）。",
+  "published_on": "2026-11-13",
+  "first_published_on": "2026-11-13",
+  "publication_kind": "initial",
+  "occurred_on": "2026-11-08",
+  "detected_on": null,
+  "updated_on": "2026-11-13",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "オンラインくじの運営委託先アカツキが利用するオープンロジのシステムへの不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 3358,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "3,358件（11/13時点）。"
+    }
+  ],
+  "data_types": [
+    "住所",
+    "電話番号",
+    "メールアドレス",
+    "商品情報"
+  ],
+  "related_vendor": "株式会社オープンロジ",
+  "sources": [
+    {
+      "url": "https://corp.toei-anim.co.jp/ja/press/press815000909226104953.html",
+      "type": "official",
+      "title": "物流委託先への不正アクセスによる個人情報漏えいに関するお詫びとお知らせ | プレスリリース | 東映アニメーション株式会社",
+      "published_on": "2026-11-13",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

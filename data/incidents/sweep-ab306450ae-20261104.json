@@ -1,0 +1,44 @@
+{
+  "id": "sweep-ab306450ae-20261104",
+  "organization": {
+    "name": "西東京市",
+    "sector": "自治体"
+  },
+  "title": "マイナンバーカード交付予約・管理システムの委託先 TKC がメール配信に使うアララの「アララメッセージ」が第三者の不正アクセスを受け、予約した市民のメールアドレスが漏えいした可能性があると TKC から報告を受けた",
+  "summary": "マイナンバーカード交付予約・管理システムの委託先 TKC がメール配信に使うアララの「アララメッセージ」が第三者の不正アクセスを受け、予約した市民のメールアドレスが漏えいした可能性があると TKC から報告を受けた。メール配信は停止中で、予約手続きは通常どおり行える。 対象情報：予約時にメールアドレスを登録した人のメールアドレスなど。",
+  "published_on": "2026-11-04",
+  "first_published_on": "2026-11-04",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-04",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "マイナンバーカード交付予約・管理システムの委託先 TKC がメール配信に使うアララの「アララメッセージ」が第三者の不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "調査中（件数の記載なし）。"
+    }
+  ],
+  "data_types": [],
+  "related_vendor": "アララ株式会社",
+  "sources": [
+    {
+      "url": "https://www.city.nishitokyo.lg.jp/kurasi/todokede/kojinninsho/fuseiakusesu.html",
+      "type": "official",
+      "title": "マイナンバーカード交付予約・管理システムで使用するメール配信サービスの提供事業者への不正アクセスによる個人情報漏えいの可能性について（11月4日午後1時現在） 西東京市Web",
+      "published_on": "2026-11-04",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

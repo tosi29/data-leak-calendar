@@ -1,0 +1,44 @@
+{
+  "id": "sweep-b9787f20f0-20261112",
+  "organization": {
+    "name": "能作（公式オンラインショップ）",
+    "sector": "企業・団体"
+  },
+  "title": "公式オンラインショップがメールマガジン等の配信に使うシステムの委託先、アララのメール配信サービス「アララメッセージ」が第三者の不正アクセスを受け、配信先に指定していた会員のメールアドレスが外部に流出した",
+  "summary": "公式オンラインショップがメールマガジン等の配信に使うシステムの委託先、アララのメール配信サービス「アララメッセージ」が第三者の不正アクセスを受け、配信先に指定していた会員のメールアドレスが外部に流出した。該当サービスでのメール配信は停止しており、ショップのサイトへの不正アクセスは確認されていない。 対象情報：2026年7月1日〜10月28日に配信したメールマガジンの送信先に指定していた会員のメールアドレスなど。",
+  "published_on": "2026-11-12",
+  "first_published_on": "2026-11-12",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-11-12",
+  "updated_on": "2026-11-12",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "公式オンラインショップがメールマガジン等の配信に使うシステムの委託先、アララのメール配信サービス「アララメッセージ」が第三者の不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 16547,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "メールアドレス16,547件。"
+    }
+  ],
+  "data_types": [],
+  "related_vendor": "アララ株式会社",
+  "sources": [
+    {
+      "url": "https://www.nousaku.co.jp/news/20261112/",
+      "type": "official",
+      "title": "【重要】外部メール配信サービスへの不正アクセスによる情報流出に関するお詫びとお知らせ | 株式会社 能作",
+      "published_on": "2026-11-12",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

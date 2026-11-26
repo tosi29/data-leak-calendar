@@ -1,0 +1,49 @@
+{
+  "id": "sweep-03496264d3-20261112",
+  "organization": {
+    "name": "三星ダイヤモンド工業（OZREE）",
+    "sector": "企業・団体"
+  },
+  "title": "商品発送の委託先オープンロジへの不正アクセスで、同社が漏えいを公表した出荷データに当社顧客のお届け先情報が含まれる可能性があり、対象者と件数を確認中（第一報）",
+  "summary": "商品発送の委託先オープンロジへの不正アクセスで、同社が漏えいを公表した出荷データに当社顧客のお届け先情報が含まれる可能性があり、対象者と件数を確認中（第一報）。 対象情報：委託先オープンロジに出荷を依頼した商品のお届け先の氏名、住所、電話番号、メールアドレス、商品情報（商品名・数量等）。",
+  "published_on": "2026-11-12",
+  "first_published_on": "2026-11-12",
+  "publication_kind": "initial",
+  "occurred_on": "2026-11-08",
+  "detected_on": null,
+  "updated_on": "2026-11-12",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "商品発送の委託先オープンロジへの不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "確定していない（第一報）。"
+    }
+  ],
+  "data_types": [
+    "住所",
+    "電話番号",
+    "メールアドレス",
+    "商品情報"
+  ],
+  "related_vendor": "株式会社オープンロジ",
+  "sources": [
+    {
+      "url": "https://www.mitsuboshidiamond.com/news/20261112-01/",
+      "type": "official",
+      "title": "商品発送委託先への不正アクセスに伴う、個人情報漏えいの可能性に関するお詫びとお知らせ（第一報） | 三星ダイヤモンド工業株式会社",
+      "published_on": "2026-11-12",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

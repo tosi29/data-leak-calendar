@@ -1,0 +1,53 @@
+{
+  "id": "sweep-ec3733ec48-20261112",
+  "organization": {
+    "name": "九電産業（こだわり九州いいものめぐり）",
+    "sector": "企業・団体"
+  },
+  "title": "メールマガジンの配信業務の委託先が利用するアララのサービスが第三者の不正アクセスを受け、ECサイトの顧客の個人情報が漏えいした",
+  "summary": "メールマガジンの配信業務の委託先が利用するアララのサービスが第三者の不正アクセスを受け、ECサイトの顧客の個人情報が漏えいした。同日の続報で、流出が確認されたのはメールアドレスのみで氏名の流出は確認されていないと公表した。配信を停止し、対象者には別の配信サービスで11月中をめどに個別に連絡する。 対象情報：メールアドレスなど。",
+  "published_on": "2026-11-12",
+  "first_published_on": "2026-11-12",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-11-12",
+  "updated_on": "2026-11-12",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "メールマガジンの配信業務の委託先が利用するアララのサービスが第三者の不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 6495,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "6,495人。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "アララ株式会社",
+  "sources": [
+    {
+      "url": "https://www.kyudensangyo.co.jp/new_pdf/1794458909.pdf",
+      "type": "official",
+      "title": "お知らせ 2026 年 11 月 12 日",
+      "published_on": "2026-11-12",
+      "checked_on": "2026-11-26"
+    },
+    {
+      "url": "https://www.kyudensangyo.co.jp/new_pdf/1794479552.pdf",
+      "type": "official",
+      "title": "メール配信サービス事業者（アララ株式会社）への不正アクセスによる",
+      "published_on": "2026-11-12",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

@@ -1,0 +1,47 @@
+{
+  "id": "sweep-34caaa2bd0-20261112",
+  "organization": {
+    "name": "伊丹市（公立就学前施設）",
+    "sector": "自治体"
+  },
+  "title": "公立就学前施設（幼稚園・こども園・保育所・あすぱる）の運営管理システムの提供元 icuco から、個人情報を含む一部のファイルが外部から閲覧可能な状態になっており、第三者の不正アクセスが確認されたと報告を受けた",
+  "summary": "公立就学前施設（幼稚園・こども園・保育所・あすぱる）の運営管理システムの提供元 icuco から、個人情報を含む一部のファイルが外部から閲覧可能な状態になっており、第三者の不正アクセスが確認されたと報告を受けた。流出の有無と影響範囲は調査中。提供元はアクセス遮断・アクセス制御と監視の強化を行った。二次被害の報告は受けていない。 対象情報：システムに登録した児童の氏名・性別・生年月日など、保護者の氏名・住所・電話番号・児童との続柄・メールアドレスなど、施設と保護者の連絡事項など。",
+  "published_on": "2026-11-12",
+  "first_published_on": "2026-11-12",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-11-07",
+  "updated_on": "2026-11-12",
+  "verification": "official",
+  "leak_status": "investigating",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "公立就学前施設（幼稚園・こども園・保育所・あすぱる）の運営管理システムの提供元 icuco から、個人情報を含む一部のファイルが外部から閲覧可能な状態になっており、第三者の不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "調査中。"
+    }
+  ],
+  "data_types": [
+    "システムに登録した児童の氏名・性別・生年月日",
+    "施設と保護者の連絡事項"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.city.itami.lg.jp/oshirase/50774.html",
+      "type": "official",
+      "title": "伊丹市が提供するサービスにかかる不正アクセスによる情報漏えいの可能性について（icuco book）／伊丹市",
+      "published_on": "2026-11-12",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

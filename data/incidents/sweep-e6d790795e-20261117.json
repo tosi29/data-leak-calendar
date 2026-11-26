@@ -1,0 +1,44 @@
+{
+  "id": "sweep-e6d790795e-20261117",
+  "organization": {
+    "name": "キリンビバレッジ（Wellstock）",
+    "sector": "企業・団体"
+  },
+  "title": "「Wellstock」会員専用サイトのEC関連サービスが使う「アララメッセージ」への不正アクセスで会員のメールアドレス154件が漏えい",
+  "summary": "「Wellstock」会員専用サイトのEC関連サービスの委託先 GMOメイクショップの「makeshop byGMO」が使うアララのメール配信サービス「アララメッセージ」が第三者の不正アクセスを受け、一部会員のメールアドレスの漏えいを確認した。同サービスでのメール配信は停止しており、二次被害は確認されていない。 対象情報：2026年7月1日〜10月28日に同サイトからのメールの送信先だったメールアドレスなど。",
+  "published_on": "2026-11-17",
+  "first_published_on": "2026-11-17",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-17",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "「Wellstock」会員専用サイトのEC関連サービスの委託先 GMOメイクショップの「makeshop byGMO」が使うアララのメール配信サービス「アララメッセージ」が第三者の不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 154,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "154件。"
+    }
+  ],
+  "data_types": [],
+  "related_vendor": "アララ株式会社",
+  "sources": [
+    {
+      "url": "https://www.kirinholdings.com/jp/newsroom/release/2026/1117_02.pdf",
+      "type": "official",
+      "title": "業務委託先への不正アクセスによる",
+      "published_on": "2026-11-17",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

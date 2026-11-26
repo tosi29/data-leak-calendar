@@ -1,0 +1,47 @@
+{
+  "id": "sweep-ef4e72bb2d-20261104",
+  "organization": {
+    "name": "ミサワ（unico のオーダーカーテン）",
+    "sector": "企業・団体"
+  },
+  "title": "オーダーカーテンの製造業務を委託するテキスタイルデポのシステム委託先ナノテックが管理するサーバーで不正アクセスが確認され、unico でオーダーカーテンを購入した客の情報の一部が外部に流出した可能性があると判明した",
+  "summary": "オーダーカーテンの製造業務を委託するテキスタイルデポのシステム委託先ナノテックが管理するサーバーで不正アクセスが確認され、unico でオーダーカーテンを購入した客の情報の一部が外部に流出した可能性があると判明した。当社の受注業務のサーバーは別の環境で運用しており、問題は確認されていない。不正利用の被害は確認されていない。 対象情報：2016年9月1日〜2026年10月25日にオーダーカーテンを購入した客の氏名、住所、電話番号など。",
+  "published_on": "2026-11-04",
+  "first_published_on": "2026-11-04",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-04",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "オーダーカーテンの製造業務を委託するテキスタイルデポのシステム委託先ナノテックが管理するサーバーで不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 170000,
+      "unit": "records",
+      "qualifier": "approximate",
+      "description": "約17万件（調査中）。"
+    }
+  ],
+  "data_types": [
+    "住所",
+    "電話番号"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.unico-fan.co.jp/blogs/news/info-2026-11-04",
+      "type": "official",
+      "title": "【重要なお知らせ】オーダーカーテンに関するお客さま情報の流出の可能性について – unico公式オンラインショップ",
+      "published_on": "2026-11-04",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

@@ -1,0 +1,60 @@
+{
+  "id": "sweep-426f2f19eb-20261030",
+  "organization": {
+    "name": "アキボウ（SHIFTAオンラインストア）",
+    "sector": "企業・団体"
+  },
+  "title": "SHIFTAオンラインストアで不正アクセスの痕跡を見つけ、サイト全体を停止して調査した",
+  "summary": "SHIFTAオンラインストアで不正アクセスの痕跡を見つけ、サイト全体を停止して調査した。11月10日の続報で、運営者向けシステムに保管していたデータが閲覧・取得された可能性を確認したと公表した。11月6日にはメールマガジンの配信を管理するアララから、配信希望者のメールアドレスが流出したと報告を受けた。11月2日に個人情報保護委員会へ報告している。 対象情報：会員（退会者を含む）の氏名、住所、電話番号、メールアドレス、性別、生年月日等、非会員購入者の氏名、住所、電話番号、メールアドレス、メールマガジン配信希望者のメールアドレスなど。",
+  "published_on": "2026-10-30",
+  "first_published_on": "2026-10-30",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-10",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "SHIFTAオンラインストアで不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "8,832人分（会員 7,817人、非会員 1,015人）。別にアララからの流出 3,580人。"
+    }
+  ],
+  "data_types": [
+    "会員の氏名",
+    "住所",
+    "電話番号",
+    "メールアドレス",
+    "性別",
+    "生年月日",
+    "非会員購入者の氏名",
+    "住所"
+  ],
+  "related_vendor": "アララ株式会社",
+  "sources": [
+    {
+      "url": "https://www.akibo.co.jp/news/pickup/2026103017.html",
+      "type": "official",
+      "title": "【重要】SHIFTAウェブサイト一時停止のお知らせ - お知らせ | 株式会社アキボウ",
+      "published_on": "2026-10-30",
+      "checked_on": "2026-11-26"
+    },
+    {
+      "url": "https://www.akibo.co.jp/news/pickup/2026111018.html",
+      "type": "official",
+      "title": "404 Not Found",
+      "published_on": "2026-10-30",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

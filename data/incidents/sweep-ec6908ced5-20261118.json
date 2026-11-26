@@ -1,0 +1,46 @@
+{
+  "id": "sweep-ec6908ced5-20261118",
+  "organization": {
+    "name": "ニュートリサポート",
+    "sector": "企業・団体"
+  },
+  "title": "利用する一元管理システム GoQSystem がお問い合わせフォームの脆弱性を悪用した不正アクセスを受け、注文データの一部が漏えいした",
+  "summary": "利用する一元管理システム GoQSystem がお問い合わせフォームの脆弱性を悪用した不正アクセスを受け、注文データの一部が漏えいした。 対象情報：注文データ（氏名、住所、電話番号、メールアドレス、注文内容など）。",
+  "published_on": "2026-11-18",
+  "first_published_on": "2026-11-18",
+  "publication_kind": "initial",
+  "occurred_on": "2026-11-10",
+  "detected_on": "2026-11-12",
+  "updated_on": "2026-11-18",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "利用する一元管理システム GoQSystem がお問い合わせフォームの脆弱性を悪用した不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 71,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "注文71件、70人（11月15日時点）。"
+    }
+  ],
+  "data_types": [
+    "注文データ"
+  ],
+  "related_vendor": "株式会社GoQSystem",
+  "sources": [
+    {
+      "url": "https://nutrient-support.co.jp/important/security-incident/",
+      "type": "official",
+      "title": "【重要】不正アクセスに伴う個人情報漏えいに関するご報告 ｜ 株式会社ニュートリサポート",
+      "published_on": "2026-11-18",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

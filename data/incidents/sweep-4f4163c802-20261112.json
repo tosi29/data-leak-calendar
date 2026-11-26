@@ -1,0 +1,49 @@
+{
+  "id": "sweep-4f4163c802-20261112",
+  "organization": {
+    "name": "謎組（幻境堂）",
+    "sector": "企業・団体"
+  },
+  "title": "一部商品の発送を委託するオープンロジへの不正アクセスで、幻境堂の顧客が影響を受ける可能性があるとして確認中",
+  "summary": "一部商品の発送を委託するオープンロジへの不正アクセスで、幻境堂の顧客が影響を受ける可能性があるとして確認中。 対象情報：委託先オープンロジに出荷を依頼した商品のお届け先の氏名、住所、電話番号、メールアドレス、商品情報（商品名・数量等）。",
+  "published_on": "2026-11-12",
+  "first_published_on": "2026-11-12",
+  "publication_kind": "initial",
+  "occurred_on": "2026-11-08",
+  "detected_on": null,
+  "updated_on": "2026-11-12",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "一部商品の発送を委託するオープンロジへの不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "確認中。"
+    }
+  ],
+  "data_types": [
+    "住所",
+    "電話番号",
+    "メールアドレス",
+    "商品情報"
+  ],
+  "related_vendor": "株式会社オープンロジ",
+  "sources": [
+    {
+      "url": "https://nazotoki-project.com/blog/%e7%89%a9%e6%b5%81%e5%a7%94%e8%a8%97%e5%85%88%e3%81%ab%e3%81%8a%e3%81%91%e3%82%8b%e4%b8%8d%e6%ad%a3%e3%82%a2%e3%82%af%e3%82%bb%e3%82%b9%e3%81%ab%e9%96%a2%e3%81%99%e3%82%8b%e3%81%8a%e7%9f%a5%e3%82%89/",
+      "type": "official",
+      "title": "体験型謎解きイベント企画制作 株式会社 謎組 | 物流委託先における不正アクセスに関するお知らせ",
+      "published_on": "2026-11-12",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

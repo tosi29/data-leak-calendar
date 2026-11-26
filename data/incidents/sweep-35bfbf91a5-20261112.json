@@ -1,0 +1,44 @@
+{
+  "id": "sweep-35bfbf91a5-20261112",
+  "organization": {
+    "name": "Carry On",
+    "sector": "企業・団体"
+  },
+  "title": "発送・物流業務の委託先 オープンロジのシステムが不正アクセスを受け、出荷データに含まれる顧客（お届け先を含む）の個人情報が外部に持ち出された",
+  "summary": "発送・物流業務の委託先 オープンロジのシステムが不正アクセスを受け、出荷データに含まれる顧客（お届け先を含む）の個人情報が外部に持ち出された。同社に関係する対象者数と範囲は調査中。 対象情報：2026年4月8日〜11月8日に出荷依頼されたデータのお届け先の氏名・住所・電話番号・メールアドレス（登録がある場合）・商品情報など。",
+  "published_on": "2026-11-12",
+  "first_published_on": "2026-11-12",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-12",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "発送・物流業務の委託先 オープンロジのシステムが不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "調査中。"
+    }
+  ],
+  "data_types": [],
+  "related_vendor": "株式会社オープンロジ",
+  "sources": [
+    {
+      "url": "https://carry0n.co.jp/20261112_01/",
+      "type": "official",
+      "title": "個人情報漏えいに関するお詫びとお知らせ | Carry On",
+      "published_on": "2026-11-12",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

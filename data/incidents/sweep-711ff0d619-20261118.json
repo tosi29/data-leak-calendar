@@ -1,0 +1,49 @@
+{
+  "id": "sweep-711ff0d619-20261118",
+  "organization": {
+    "name": "UPSIDER",
+    "sector": "企業・団体"
+  },
+  "title": "業務で利用する「Notion」の提供元 Notion社が AI 処理を委託する Fireworks AI社が第三者の不正アクセスを受け、従業員が Notion AI に入力した内容等が漏えいしたおそれがある",
+  "summary": "業務で利用する「Notion」の提供元 Notion社が AI 処理を委託する Fireworks AI社が第三者の不正アクセスを受け、従業員が Notion AI に入力した内容等が漏えいしたおそれがある。11月10日に Notion AI の利用を止めた。不正取得・利用の事実は確認されていない。個人情報保護委員会へ報告した。法人カード等のシステムからの流出はない。 対象情報：2026年10月5日〜10月24日に従業員が Notion AI に入力した内容と回答の一部に含まれる、取引先担当者の情報（氏名・メールアドレス・電話番号・住所等）、採用候補者の情報（氏名・メールアドレス等）、従業員・業務委託先・関係者の情報、業務上のやり取りに含まれる情報など。",
+  "published_on": "2026-11-18",
+  "first_published_on": "2026-11-18",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-11-10",
+  "updated_on": "2026-11-18",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "業務で利用する「Notion」の提供元 Notion社が AI 処理を委託する Fireworks AI社が第三者の不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 137,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "137名。"
+    }
+  ],
+  "data_types": [
+    "取引先担当者の情報",
+    "採用候補者の情報",
+    "従業員・業務委託先・関係者の情報",
+    "業務上のやり取りに含まれる情報"
+  ],
+  "related_vendor": "Fireworks AI",
+  "sources": [
+    {
+      "url": "https://corp-news.up-sider.com/261118-pr-1/",
+      "type": "official",
+      "title": "外部サービス「Notion」の委託先への不正アクセスに関するお知らせ - 株式会社UPSIDER｜挑戦者を支える世界的な金融プラットフォームを創る",
+      "published_on": "2026-11-18",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

@@ -1,0 +1,50 @@
+{
+  "id": "sweep-0ca2e8fac6-20261116",
+  "organization": {
+    "name": "ネセクト（ネセクト公式ショップ 楽天市場店）",
+    "sector": "企業・団体"
+  },
+  "title": "受注管理委託先 GoQSystem への不正アクセスで、楽天市場店の顧客の注文情報の一部が漏えいしたことを同社からの報告で確認した",
+  "summary": "受注管理委託先 GoQSystem への不正アクセスで、楽天市場店の顧客の注文情報の一部が漏えいしたことを同社からの報告で確認した。Amazon 店の注文情報の漏えいは確認されていない。 対象情報：注文者・届け先の氏名、住所、電話番号、メールアドレス、注文内容（注文により異なる）。",
+  "published_on": "2026-11-16",
+  "first_published_on": "2026-11-16",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-11-15",
+  "updated_on": "2026-11-16",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "受注管理委託先 GoQSystem への不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 1573,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "注文1,573件（楽天市場店）。"
+    }
+  ],
+  "data_types": [
+    "注文者・届け先の氏名",
+    "住所",
+    "電話番号",
+    "メールアドレス",
+    "注文内容"
+  ],
+  "related_vendor": "株式会社GoQSystem",
+  "sources": [
+    {
+      "url": "https://www.rakuten.co.jp/neshexst/contents/202611goqsystem/",
+      "type": "official",
+      "title": "ネセクト（ネセクト公式ショップ 楽天市場店）のお知らせ",
+      "published_on": "2026-11-16",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

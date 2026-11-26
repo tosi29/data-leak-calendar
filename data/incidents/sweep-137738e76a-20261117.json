@@ -1,0 +1,53 @@
+{
+  "id": "sweep-137738e76a-20261117",
+  "organization": {
+    "name": "集英社",
+    "sector": "企業・団体"
+  },
+  "title": "メールマガジンやプッシュ通知の配信に使う「KARTE」への不正アクセスで、一部メディア・サービスの配信が停止し影響を調査中",
+  "summary": "会員へのメールマガジンやアプリのプッシュ通知等の配信に利用するプレイドの「KARTE」が第三者の不正アクセスを受けて停止し、一部メディア・サービスでメールマガジン、商品の再入荷情報、コンビニ前払いの支払期限リマインドメール等を配信できない状態が続いている。会員の情報への影響はプレイドからの報告をもとに精査中。KARTE との連携に使っていた認証情報を無効化し、連携先の自社サービスへの不正なアクセスは確認されていない。 対象情報：調査中（クレジットカード情報は KARTE に預けていない）。",
+  "published_on": "2026-11-17",
+  "first_published_on": "2026-11-17",
+  "publication_kind": "initial",
+  "occurred_on": "2026-11-13",
+  "detected_on": null,
+  "updated_on": "2026-11-17",
+  "verification": "official",
+  "leak_status": "investigating",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "会員へのメールマガジンやアプリのプッシュ通知等の配信に利用するプレイドの「KARTE」が第三者の不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "調査中。"
+    }
+  ],
+  "data_types": [
+    "調査中"
+  ],
+  "related_vendor": "株式会社プレイド",
+  "sources": [
+    {
+      "url": "https://www.shueisha.co.jp/wp-content/uploads/2026/11/b985e138d872933dc2ccc3b83c3a53e9.pdf",
+      "type": "official",
+      "title": "メールマガジン等の配信停⽌に関するお詫びとお知らせ",
+      "published_on": "2026-11-17",
+      "checked_on": "2026-11-26"
+    },
+    {
+      "url": "https://sportiva.shueisha.co.jp/contents/information/2026/11/17/karte/",
+      "type": "official",
+      "title": "メールマガジン等の一時配信停止のお知らせ | web Sportiva (スポルティーバ)",
+      "published_on": "2026-11-17",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

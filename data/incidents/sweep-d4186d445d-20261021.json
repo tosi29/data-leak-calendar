@@ -1,0 +1,46 @@
+{
+  "id": "sweep-d4186d445d-20261021",
+  "organization": {
+    "name": "ワンビ",
+    "sector": "企業・団体"
+  },
+  "title": "利用するメール配信サービス「ブラストメール」（ラクスライトクラウド）で第三者の不正アクセスがあり、同社に登録しているワンビの契約者情報が持ち出された",
+  "summary": "利用するメール配信サービス「ブラストメール」（ラクスライトクラウド）で第三者の不正アクセスがあり、同社に登録しているワンビの契約者情報が持ち出された。ワンビが登録している配信先リストに影響があるかは調査中。 対象情報：ラクスライトクラウドに登録した契約者情報（会社名、担当者名、電話番号、メールアドレス、請求先メールアドレス、契約・支払履歴など）など。",
+  "published_on": "2026-10-21",
+  "first_published_on": "2026-10-21",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-11",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "利用するメール配信サービス「ブラストメール」（ラクスライトクラウド）で第三者の不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "非公表。"
+    }
+  ],
+  "data_types": [
+    "ラクスライトクラウドに登録した契約者情報"
+  ],
+  "related_vendor": "株式会社ラクスライトクラウド",
+  "sources": [
+    {
+      "url": "https://www.onebe.co.jp/news/detail.php?no=1792580530",
+      "type": "official",
+      "title": "ニュースリリース｜ワンビ株式会社",
+      "published_on": "2026-10-21",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

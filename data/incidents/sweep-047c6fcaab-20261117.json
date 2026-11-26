@@ -1,0 +1,50 @@
+{
+  "id": "sweep-047c6fcaab-20261117",
+  "organization": {
+    "name": "北野陶寿堂（使う・贈る 九谷焼専門店 陶らいふ）",
+    "sector": "企業・団体"
+  },
+  "title": "受注管理に利用する GoQSystem が脆弱性を悪用した不正アクセスを受け、当社オンラインショップの注文情報の一部が外部に漏えいしていたことが確認された",
+  "summary": "受注管理に利用する GoQSystem が脆弱性を悪用した不正アクセスを受け、当社オンラインショップの注文情報の一部が外部に漏えいしていたことが確認された。 対象情報：注文者・届け先の氏名、住所、電話番号、メールアドレス、注文内容など。",
+  "published_on": "2026-11-17",
+  "first_published_on": "2026-11-17",
+  "publication_kind": "initial",
+  "occurred_on": "2026-11-10",
+  "detected_on": null,
+  "updated_on": "2026-11-17",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "受注管理に利用する GoQSystem が脆弱性を悪用した不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 837,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "注文837件、813人（楽天市場・Yahoo!ショッピング・カラーミーショップの合計）。"
+    }
+  ],
+  "data_types": [
+    "注文者・届け先の氏名",
+    "住所",
+    "電話番号",
+    "メールアドレス",
+    "注文内容"
+  ],
+  "related_vendor": "株式会社GoQSystem",
+  "sources": [
+    {
+      "url": "https://www.rakuten.co.jp/toulife/contents/notice/",
+      "type": "official",
+      "title": "北野陶寿堂（使う・贈る 九谷焼専門店 陶らいふ）のお知らせ",
+      "published_on": "2026-11-17",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

@@ -1,0 +1,66 @@
+{
+  "id": "sweep-df4e91b20d-20261022",
+  "organization": {
+    "name": "長野県",
+    "sector": "自治体"
+  },
+  "title": "県の委託事業の受託事業者が利用するクラウドサービス「Studio」で、第三者が一部機能の脆弱性を悪用してクラウド環境に不正にアクセスし、データを外部から取得できる状態であった",
+  "summary": "県の委託事業の受託事業者が利用するクラウドサービス「Studio」で、第三者が一部機能の脆弱性を悪用してクラウド環境に不正にアクセスし、データを外部から取得できる状態であった。県機関の対象は3事業のフォームに入力された個人情報で、対象者には経過とおわびのメールを送った。受託事業者は管理パスワードの変更、共有プレビューURLとプラットフォーム上の個人情報の削除を行った。 対象情報：企業名、氏名、会社住所（デジタル化一貫支援）、電話番号、メールアドレス、問合せ内容、学校名・卒業予定年度（スカウト型マッチング）。",
+  "published_on": "2026-10-22",
+  "first_published_on": "2026-10-22",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-19",
+  "verification": "official",
+  "leak_status": "investigating",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "県の委託事業の受託事業者が利用するクラウドサービス「Studio」で、第三者が一部機能の脆弱性を悪用してクラウド環境に不正にアクセスし、データを外部から取得できる状態であった。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "341件（デジタル化一貫支援152件、賃上げ環境整備支援177件、スカウト型マッチング12件）。"
+    }
+  ],
+  "data_types": [
+    "企業名",
+    "氏名",
+    "会社住所",
+    "電話番号",
+    "メールアドレス",
+    "問合せ内容",
+    "学校名・卒業予定年度"
+  ],
+  "related_vendor": "Studio株式会社",
+  "sources": [
+    {
+      "url": "https://www.pref.nagano.lg.jp/rodokoyo/happyou/r081022_studio_huseiaccess.html",
+      "type": "official",
+      "title": "Studio株式会社で発生した不正アクセスに伴う個人情報漏えいの可能性について／長野県",
+      "published_on": "2026-10-22",
+      "checked_on": "2026-11-26"
+    },
+    {
+      "url": "https://www.pref.nagano.lg.jp/dx-infra/happyou/20261030press.html",
+      "type": "official",
+      "title": "長野県庁における情報インシデント案件発生とその対応状況について（第２報：令和８年10月30日現在）／長野県",
+      "published_on": "2026-10-22",
+      "checked_on": "2026-11-26"
+    },
+    {
+      "url": "https://www.pref.nagano.lg.jp/dx-infra/happyou/20261119press.html",
+      "type": "official",
+      "title": "長野県庁における情報インシデント案件発生とその対応状況について（令和８年11月19日現在）／長野県",
+      "published_on": "2026-10-22",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

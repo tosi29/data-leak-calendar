@@ -1,0 +1,46 @@
+{
+  "id": "sweep-891569873b-20261112",
+  "organization": {
+    "name": "鹿児島市（ふるさと納税・シティプロモーション戦略課）",
+    "sector": "自治体"
+  },
+  "title": "市のふるさと納税公式LINEの委託運営事業者を通じて使っているLINE配信ツール「COMSBI」の運営事業者ソニックムーブが第三者の不正アクセスを受け、公式LINEの友だち情報が漏えいした",
+  "summary": "市のふるさと納税公式LINEの委託運営事業者を通じて使っているLINE配信ツール「COMSBI」の運営事業者ソニックムーブが第三者の不正アクセスを受け、公式LINEの友だち情報が漏えいした。11月12日に委託運営事業者から市へ連絡があった。 対象情報：友だち登録者の氏名・生年月日・性別等。",
+  "published_on": "2026-11-12",
+  "first_published_on": "2026-11-12",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-12",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "市のふるさと納税公式LINEの委託運営事業者を通じて使っているLINE配信ツール「COMSBI」の運営事業者ソニックムーブが第三者の不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 231,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "231件。"
+    }
+  ],
+  "data_types": [
+    "友だち登録者の氏名・生年月日・性別"
+  ],
+  "related_vendor": "株式会社ソニックムーブ",
+  "sources": [
+    {
+      "url": "https://www.city.kagoshima.lg.jp/soumu/soumu/soumu/documents/roueikouhyou35.pdf",
+      "type": "official",
+      "title": "個人情報の漏えい等事案の個別公表",
+      "published_on": "2026-11-12",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

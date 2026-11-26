@@ -1,0 +1,49 @@
+{
+  "id": "sweep-3111c6d26f-20261112",
+  "organization": {
+    "name": "エフェクチュアル",
+    "sector": "企業・団体"
+  },
+  "title": "クラウドサービス内の内部APIの設定不備で外部から呼び出せる状態になっており、第三者の無差別な脆弱性スキャンでAPIが呼び出され、サービス利用者の情報の一部が取得された",
+  "summary": "クラウドサービス内の内部APIの設定不備で外部から呼び出せる状態になっており、第三者の無差別な脆弱性スキャンでAPIが呼び出され、サービス利用者の情報の一部が取得された。判明した日にAPIを停止し、個人情報保護委員会へ報告した。 対象情報：メールアドレス、システム内部のユーザーID、アカウントの状態、ログイン日時など。",
+  "published_on": "2026-11-12",
+  "first_published_on": "2026-11-12",
+  "publication_kind": "initial",
+  "occurred_on": "2026-06-30",
+  "detected_on": "2026-10-23",
+  "updated_on": "2026-11-12",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "accident",
+  "cause": {
+    "category": "configuration",
+    "certainty": "confirmed",
+    "detail": "クラウドサービス内の内部APIの設定。"
+  },
+  "impact": [
+    {
+      "count": 1348,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "1,348件（うち個人情報826件）。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス",
+    "システム内部のユーザーID",
+    "アカウントの状態",
+    "ログイン日時"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://effectual.co.jp/news/20261112/",
+      "type": "official",
+      "title": "弊社クラウドサービスにおける不正アクセスによる情報漏えいに関するお詫びとご報告 | 株式会社エフェクチュアル - Effectual Inc.",
+      "published_on": "2026-11-12",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

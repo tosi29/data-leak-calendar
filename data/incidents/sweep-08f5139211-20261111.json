@@ -1,0 +1,49 @@
+{
+  "id": "sweep-08f5139211-20261111",
+  "organization": {
+    "name": "D&DEPARTMENT PROJECT（工業用スチールシェルフの発送）",
+    "sector": "企業・団体"
+  },
+  "title": "発送を委託するオープンロジのシステムが不正アクセスを受け、同システムに登録しているお客さま情報の一部が外部に持ち出されたことが判明した",
+  "summary": "発送を委託するオープンロジのシステムが不正アクセスを受け、同システムに登録しているお客さま情報の一部が外部に持ち出されたことが判明した。漏えいの範囲と件数は確認中。 対象情報：委託先オープンロジに出荷を依頼した商品のお届け先の氏名、住所、電話番号、メールアドレス、商品情報（商品名・数量等）。",
+  "published_on": "2026-11-11",
+  "first_published_on": "2026-11-11",
+  "publication_kind": "initial",
+  "occurred_on": "2026-11-08",
+  "detected_on": null,
+  "updated_on": "2026-11-11",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "発送を委託するオープンロジのシステムが不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "資料に明記なし。"
+    }
+  ],
+  "data_types": [
+    "住所",
+    "電話番号",
+    "メールアドレス",
+    "商品情報"
+  ],
+  "related_vendor": "株式会社オープンロジ",
+  "sources": [
+    {
+      "url": "https://www.d-department.com/topics_detail.html?info_id=3784",
+      "type": "official",
+      "title": "D&DEPARTMENT PROJECT（工業用スチールシェルフの発送）のお知らせ",
+      "published_on": "2026-11-11",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

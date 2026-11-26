@@ -1,0 +1,46 @@
+{
+  "id": "sweep-dd7d622c05-20261117",
+  "organization": {
+    "name": "能美市",
+    "sector": "自治体"
+  },
+  "title": "「マイナンバー交付予約システム」と「ネットdeスマート申請」を運営するシステム研究所が利用するアララのメール配信サービス「アララメッセージ」への不正アクセスで、システムを利用したことがある人のメールアドレスが漏えいした",
+  "summary": "「マイナンバー交付予約システム」と「ネットdeスマート申請」を運営するシステム研究所が利用するアララのメール配信サービス「アララメッセージ」への不正アクセスで、システムを利用したことがある人のメールアドレスが漏えいした。「ネットdeスマート申請」は一時停止し、交付予約システムはメールの配信方法を変えて運用している。 対象情報：システムを利用したことがある人のメールアドレス（マイナンバーに紐づく個人情報ではない）。",
+  "published_on": "2026-11-17",
+  "first_published_on": "2026-11-17",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-17",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "「マイナンバー交付予約システム」と「ネットdeスマート申請」を運営するシステム研究所が利用するアララのメール配信サービス「アララメッセージ」への不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 758,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "メールアドレス 758件。"
+    }
+  ],
+  "data_types": [
+    "システムを利用したことがある人のメールアドレス"
+  ],
+  "related_vendor": "アララ株式会社",
+  "sources": [
+    {
+      "url": "https://www.city.nomi.ishikawa.jp/docs/7809.html",
+      "type": "official",
+      "title": "【重要】不正アクセスによるメールアドレス漏えいについて - 能美市",
+      "published_on": "2026-11-17",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

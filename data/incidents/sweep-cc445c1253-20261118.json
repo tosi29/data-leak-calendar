@@ -1,0 +1,49 @@
+{
+  "id": "sweep-cc445c1253-20261118",
+  "organization": {
+    "name": "双日商業開発（どこでも自販機）",
+    "sector": "企業・団体"
+  },
+  "title": "「どこでも自販機」の商品保管・出荷・配送を委託するオープンロジのシステムが不正アクセスを受け、顧客の個人情報が漏えいした可能性がある",
+  "summary": "「どこでも自販機」の商品保管・出荷・配送を委託するオープンロジのシステムが不正アクセスを受け、顧客の個人情報が漏えいした可能性がある。 対象情報：2026年4月8日〜11月8日の出荷依頼データの届け先の氏名、住所、電話番号、メールアドレス、商品情報（商品名・数量等）。",
+  "published_on": "2026-11-18",
+  "first_published_on": "2026-11-18",
+  "publication_kind": "initial",
+  "occurred_on": "2026-11-08",
+  "detected_on": null,
+  "updated_on": "2026-11-18",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "「どこでも自販機」の商品保管・出荷・配送を委託するオープンロジのシステムが不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "出荷データ74件の見込み（実際の漏えい件数は調査中）。"
+    }
+  ],
+  "data_types": [
+    "住所",
+    "電話番号",
+    "メールアドレス",
+    "商品情報"
+  ],
+  "related_vendor": "株式会社オープンロジ",
+  "sources": [
+    {
+      "url": "https://www.sojitz-sc.com/news/2026/11/18/1058/",
+      "type": "official",
+      "title": "【重要】物流委託先への不正アクセスによる個人情報漏えいの可能性に関するお詫びとお知らせ | ニュース | 双日商業開発株式会社｜Sojitz SC Corporation",
+      "published_on": "2026-11-18",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

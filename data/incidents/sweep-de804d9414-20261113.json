@@ -1,0 +1,44 @@
+{
+  "id": "sweep-de804d9414-20261113",
+  "organization": {
+    "name": "名鉄プロパティマネジメント（イチ＊ビル LINE公式アカウント）",
+    "sector": "企業・団体"
+  },
+  "title": "「イチ＊ビル」の LINE 公式アカウントの管理・運営の委託先が顧客管理に使うソニックムーブ「COMSBI」が第三者の不正アクセスを受け、同システムに保管されていた顧客情報が漏えいした",
+  "summary": "「イチ＊ビル」の LINE 公式アカウントの管理・運営の委託先が顧客管理に使うソニックムーブ「COMSBI」が第三者の不正アクセスを受け、同システムに保管されていた顧客情報が漏えいした。個人情報保護委員会へ届け出る。 対象情報：LINE 公式アカウントの登録者の LINE 表示名・プロフィール画像・LINE ユーザーID、「イチ＊ビル プラスメンバー」登録者の氏名・電話番号・メールアドレス・性別・生年月・住所（番地前まで）など。",
+  "published_on": "2026-11-13",
+  "first_published_on": "2026-11-13",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-11-11",
+  "updated_on": "2026-11-13",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "「イチ＊ビル」の LINE 公式アカウントの管理・運営の委託先が顧客管理に使うソニックムーブ「COMSBI」が第三者の不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 8100,
+      "unit": "records",
+      "qualifier": "maximum_approximate",
+      "description": "最大約8,100件（現時点。詳細はソニックムーブが確認中）。"
+    }
+  ],
+  "data_types": [],
+  "related_vendor": "株式会社ソニックムーブ",
+  "sources": [
+    {
+      "url": "https://ichibiru.jp/topics/topics-2317/",
+      "type": "official",
+      "title": "イチ＊ビル LINE公式アカウントにおける外部サービス「COMSBI」で発生した情報漏えいに関するご報告 | イチ＊ビル公式サイト 名鉄一宮直結",
+      "published_on": "2026-11-13",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

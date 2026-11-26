@@ -1,0 +1,46 @@
+{
+  "id": "sweep-815b9b9499-20261109",
+  "organization": {
+    "name": "海の中道海洋生態科学館（マリンワールド海の中道）",
+    "sector": "企業・団体"
+  },
+  "title": "チケット販売を委託するアソビューから、同社が利用する外部メール配信サービス（アララ提供）への不正アクセスにより「アソビュー！」の会員情報の一部が流出したと報告を受けた",
+  "summary": "チケット販売を委託するアソビューから、同社が利用する外部メール配信サービス（アララ提供）への不正アクセスにより「アソビュー！」の会員情報の一部が流出したと報告を受けた。問い合わせはアソビューの専用窓口で受け付けている。 対象情報：「アソビュー！」の会員情報の一部（項目・同館の購入者が含まれるかは資料に明記なし）。",
+  "published_on": "2026-11-09",
+  "first_published_on": "2026-11-09",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-09",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "チケット販売を委託するアソビューから、同社が利用する外部メール配信サービス（アララ提供）への不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "非公表。"
+    }
+  ],
+  "data_types": [
+    "「アソビュー！」の会員情報の一部"
+  ],
+  "related_vendor": "アララ株式会社",
+  "sources": [
+    {
+      "url": "https://marine-world.jp/news/post-9218/",
+      "type": "official",
+      "title": "【重要】アソビュー！会員情報流出に関するお知らせと注意喚起｜マリンワールド海の中道",
+      "published_on": "2026-11-09",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

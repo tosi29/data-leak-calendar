@@ -1,0 +1,46 @@
+{
+  "id": "sweep-55aa7d4071-20261104",
+  "organization": {
+    "name": "長泉町",
+    "sector": "自治体"
+  },
+  "title": "町が導入する「マイナンバーカード交付予約システム」（委託先 TKC）が使う外部メール送信サービス「アララメッセージ」が第三者の不正アクセスを受け、個人情報が外部に漏えいしたことが判明した",
+  "summary": "町が導入する「マイナンバーカード交付予約システム」（委託先 TKC）が使う外部メール送信サービス「アララメッセージ」が第三者の不正アクセスを受け、個人情報が外部に漏えいしたことが判明した。メール本文・マイナンバー・町への申請情報は漏えいしていないとアララから報告を受けている。TKC とアララが影響範囲を調査中。 対象情報：メールアドレスなど。",
+  "published_on": "2026-11-04",
+  "first_published_on": "2026-11-04",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-04",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "町が導入する「マイナンバーカード交付予約システム」（委託先 TKC）が使う外部メール送信サービス「アララメッセージ」が第三者の不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "資料に明記なし。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "アララ株式会社",
+  "sources": [
+    {
+      "url": "https://www.town.nagaizumi.lg.jp/soshiki/infostrategy/12295.html",
+      "type": "official",
+      "title": "各種サービスへの不正アクセス及び個人情報流出に関する注意喚起／長泉町",
+      "published_on": "2026-11-04",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

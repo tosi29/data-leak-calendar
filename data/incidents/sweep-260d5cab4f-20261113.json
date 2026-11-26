@@ -1,0 +1,46 @@
+{
+  "id": "sweep-260d5cab4f-20261113",
+  "organization": {
+    "name": "スリーシェイク",
+    "sector": "企業・団体"
+  },
+  "title": "Notion の委託先 Fireworks 社が第三者の不正アクセスを受け、Notion AI への入力と出力の履歴が外部に漏えいした可能性がある",
+  "summary": "Notion の委託先 Fireworks 社が第三者の不正アクセスを受け、Notion AI への入力と出力の履歴が外部に漏えいした可能性がある。範囲と取得の有無は Notion 社・Fireworks 社が調査中。 対象情報：従業員・求人応募者・取引先担当者に関する情報、顧客の会社名・担当者名・相談や打ち合わせの内容・支援の内容（作業の内容・契約の条件など）。",
+  "published_on": "2026-11-13",
+  "first_published_on": "2026-11-13",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-11-10",
+  "updated_on": "2026-11-13",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "Notion の委託先 Fireworks 社が第三者の不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 363,
+      "unit": "people",
+      "qualifier": "approximate",
+      "description": "約363名分（従業員・求人応募者・取引先担当者）。"
+    }
+  ],
+  "data_types": [
+    "従業員・求人応募者・取引先担当者に関する情報"
+  ],
+  "related_vendor": "Fireworks AI",
+  "sources": [
+    {
+      "url": "https://3-shake.com/notion-ai/",
+      "type": "official",
+      "title": "「Notion AI」のチャット履歴の漏えいのおそれに関するお詫びとお知らせ（第一報） | 3-shake",
+      "published_on": "2026-11-13",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

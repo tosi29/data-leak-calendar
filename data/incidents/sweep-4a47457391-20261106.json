@@ -1,0 +1,46 @@
+{
+  "id": "sweep-4a47457391-20261106",
+  "organization": {
+    "name": "福岡ソフトバンクホークス",
+    "sector": "企業・団体"
+  },
+  "title": "運営を担う VOLZ が利用していたアララのメール配信サービス「アララ メッセージ」への不正アクセスにより、「タカコレ」「タカコレくじ」を利用する一部の顧客のメールアドレス10,723件が流出した",
+  "summary": "運営を担う VOLZ が利用していたアララのメール配信サービス「アララ メッセージ」への不正アクセスにより、「タカコレ」「タカコレくじ」を利用する一部の顧客のメールアドレス10,723件が流出した。VOLZ は同サービスの利用を停止し、別の方式に切り替えた。その他の情報の流出の可能性は現時点で確認されていない。 対象情報：メールアドレス。",
+  "published_on": "2026-11-06",
+  "first_published_on": "2026-11-06",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-06",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "運営を担う VOLZ が利用していたアララのメール配信サービス「アララ メッセージ」への不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 10723,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "メールアドレス10,723件。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "アララ株式会社",
+  "sources": [
+    {
+      "url": "https://wing2.softbankhawks.co.jp/ex/hawks/news/261106_03/index.html",
+      "type": "official",
+      "title": "【プレスリリース】メール配信サービスへの不正アクセスによるお客様メールアドレスの流出について",
+      "published_on": "2026-11-06",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

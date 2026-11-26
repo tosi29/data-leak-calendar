@@ -1,0 +1,60 @@
+{
+  "id": "sweep-5d30466e8b-20261113",
+  "organization": {
+    "name": "八重洲地下街（ヤエチカ LINE公式アカウント）",
+    "sector": "企業・団体"
+  },
+  "title": "LINE公式アカウント「ヤエチカ（八重洲地下街）」の運用を委託するTOPPANが導入しているソニックムーブのLINE連携サービス「COMSBI SaaS版」が第三者の不正アクセスを受け、顧客情報の一部が漏えいした",
+  "summary": "LINE公式アカウント「ヤエチカ（八重洲地下街）」の運用を委託するTOPPANが導入しているソニックムーブのLINE連携サービス「COMSBI SaaS版」が第三者の不正アクセスを受け、顧客情報の一部が漏えいした。11月18日の第2報で、漏えいした項目を更新した。 対象情報：LINE友だち72,985名のLINEユーザーID、表示名、プロフィール画像URL、2025年4〜5月のアンケートに回答した11,687名は、ほかに郵便番号（町名までの住所に変換したもの）、生年月日、性別。",
+  "published_on": "2026-11-13",
+  "first_published_on": "2026-11-13",
+  "publication_kind": "initial",
+  "occurred_on": "2026-11-09",
+  "detected_on": "2026-11-11",
+  "updated_on": "2026-11-18",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "LINE公式アカウント「ヤエチカ（八重洲地下街）」の運用を委託するTOPPANが導入しているソニックムーブのLINE連携サービス「COMSBI SaaS版」が第三者の不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 72985,
+      "unit": "records",
+      "qualifier": "maximum",
+      "description": "最大72,985件（うちアンケート回答者11,687名）。"
+    }
+  ],
+  "data_types": [
+    "LINE友だち72",
+    "985名のLINEユーザーID",
+    "表示名",
+    "プロフィール画像URL",
+    "2025年4〜5月のアンケートに回答した11",
+    "687名は",
+    "ほかに郵便番号",
+    "生年月日"
+  ],
+  "related_vendor": "株式会社ソニックムーブ",
+  "sources": [
+    {
+      "url": "https://www.yaechika.com/information/391465/",
+      "type": "official",
+      "title": "【第１報】外部サービス提供元における不正アクセスに関するお詫びとお知らせ | ヤエチカ（八重洲地下街）| 東京駅",
+      "published_on": "2026-11-13",
+      "checked_on": "2026-11-26"
+    },
+    {
+      "url": "https://www.yaechika.com/information/392340/",
+      "type": "official",
+      "title": "【第２報】外部サービス提供元における不正アクセスに関するお詫びとお知らせ | ヤエチカ（八重洲地下街）| 東京駅",
+      "published_on": "2026-11-13",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

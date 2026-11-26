@@ -1,0 +1,51 @@
+{
+  "id": "sweep-654a9c157f-20261112",
+  "organization": {
+    "name": "Terravie（アドベンチャーワールドのチケット販売）",
+    "sector": "企業・団体"
+  },
+  "title": "メール配信に利用していたアララの「アララ メッセージ」が第三者の不正アクセスを受け、サーバーに保存されていた情報が流出した",
+  "summary": "メール配信に利用していたアララの「アララ メッセージ」が第三者の不正アクセスを受け、サーバーに保存されていた情報が流出した。11月7日にアララから 対象情報：2026年7月1日〜10月31日に同社からメールを送った客のメールアドレスなど。",
+  "published_on": "2026-11-12",
+  "first_published_on": "2026-11-12",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-12",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "メール配信に利用していたアララの「アララ メッセージ」が第三者の不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 5709,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "メールアドレス5,709件。"
+    }
+  ],
+  "data_types": [],
+  "related_vendor": "アララ株式会社",
+  "sources": [
+    {
+      "url": "https://terravie-app.com/page/%E3%83%A1%E3%83%BC%E3%83%AB%E9%85%8D%E4%BF%A1%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9%E3%81%B8%E3%81%AE%E4%B8%8D%E6%AD%A3%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E3%81%AB%E3%82%88%E3%82%8B%E3%81%8A%E5%AE%A2%E6%A7%98%E6%83%85%E5%A0%B1%E3%81%AE%E6%B5%81%E5%87%BA%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6",
+      "type": "official",
+      "title": "Terravie",
+      "published_on": "2026-11-12",
+      "checked_on": "2026-11-26"
+    },
+    {
+      "url": "https://www.aws-s.com/topics/detail?id=top4787",
+      "type": "official",
+      "title": "【重要】Terravieでのメール配信サービスへの不正アクセスによるお客様情報の流出について｜トピックス｜アドベンチャーワールド",
+      "published_on": "2026-11-12",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

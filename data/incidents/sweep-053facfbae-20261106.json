@@ -1,0 +1,49 @@
+{
+  "id": "sweep-053facfbae-20261106",
+  "organization": {
+    "name": "JIMOS",
+    "sector": "企業・団体"
+  },
+  "title": "債権回収業務を委託する弁護士法人マーシャルアーツが利用するアララのメール配信サービスが第三者の不正アクセスを受け、同法人に債権回収を委託した客の情報の一部が外部に流出したと11月4日に報告を受けた",
+  "summary": "債権回収業務を委託する弁護士法人マーシャルアーツが利用するアララのメール配信サービスが第三者の不正アクセスを受け、同法人に債権回収を委託した客の情報の一部が外部に流出したと11月4日に報告を受けた。通常の商品購入や当社からの督促状の送付だけでは対象にならない。 対象情報：メールアドレス、氏名、請求金額、請求内容等。",
+  "published_on": "2026-11-06",
+  "first_published_on": "2026-11-06",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-06",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "債権回収業務を委託する弁護士法人マーシャルアーツが利用するアララのメール配信サービスが第三者の不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 1207,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "1,207件（メールアドレスのみ 1,112件、それ以外の情報も 95件。重複を含む可能性あり）。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス",
+    "氏名",
+    "請求金額",
+    "請求内容"
+  ],
+  "related_vendor": "アララ株式会社",
+  "sources": [
+    {
+      "url": "https://www.jimos.co.jp/release/621/",
+      "type": "official",
+      "title": "当社業務委託先における不正アクセスによる個人情報漏えいに関するお知らせ - 株式会社JIMOS（ジモス）",
+      "published_on": "2026-11-06",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

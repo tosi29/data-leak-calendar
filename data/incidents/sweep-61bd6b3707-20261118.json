@@ -1,0 +1,46 @@
+{
+  "id": "sweep-61bd6b3707-20261118",
+  "organization": {
+    "name": "トーセイ・コミュニティ",
+    "sector": "企業・団体"
+  },
+  "title": "ホームページのチャット機能の提供元チャットプラスの一部Webサーバーが外部の第三者の不正アクセスを受け、チャットを利用した顧客から預かった個人データが閲覧・取得された可能性がある",
+  "summary": "ホームページのチャット機能の提供元チャットプラスの一部Webサーバーが外部の第三者の不正アクセスを受け、チャットを利用した顧客から預かった個人データが閲覧・取得された可能性がある。 対象情報：チャット利用時に預かった個人データ（項目は資料に明記なし）。",
+  "published_on": "2026-11-18",
+  "first_published_on": "2026-11-18",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-18",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "ホームページのチャット機能の提供元チャットプラスの一部Webサーバーが外部の第三者の不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "調査中。"
+    }
+  ],
+  "data_types": [
+    "チャット利用時に預かった個人データ"
+  ],
+  "related_vendor": "チャットプラス株式会社",
+  "sources": [
+    {
+      "url": "https://www.tosei-com.co.jp/news/detail/75",
+      "type": "official",
+      "title": "【重要】ChatPlus （チャットプラス株式会社）への不正アクセスによる個人情報漏洩の可能性に関するお詫びと注意喚起について | トーセイ・コミュニティ株式会社",
+      "published_on": "2026-11-18",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

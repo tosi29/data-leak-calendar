@@ -1,0 +1,52 @@
+{
+  "id": "sweep-85d6c382eb-20261118",
+  "organization": {
+    "name": "AZ.MARKET エージーマーケット（楽天市場店）",
+    "sector": "企業・団体"
+  },
+  "title": "受注・出荷業務で利用する GoQSystem がお問い合わせフォームの脆弱性を悪用した不正アクセスを受け、注文データの一部が持ち出されたと報告を受けた",
+  "summary": "受注・出荷業務で利用する GoQSystem がお問い合わせフォームの脆弱性を悪用した不正アクセスを受け、注文データの一部が持ち出されたと報告を受けた。 対象情報：注文者・届け先の氏名、フリガナ、住所、電話番号、メールアドレス、注文者の生年月日・性別、備考欄などの入力内容（注文により異なる）。",
+  "published_on": "2026-11-18",
+  "first_published_on": "2026-11-18",
+  "publication_kind": "initial",
+  "occurred_on": "2026-11-10",
+  "detected_on": null,
+  "updated_on": "2026-11-18",
+  "verification": "official",
+  "leak_status": "investigating",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "受注・出荷業務で利用する GoQSystem がお問い合わせフォームの脆弱性を悪用した不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "件数の記載なし。"
+    }
+  ],
+  "data_types": [
+    "注文者・届け先の氏名",
+    "フリガナ",
+    "住所",
+    "電話番号",
+    "メールアドレス",
+    "注文者の生年月日・性別",
+    "備考欄などの入力内容"
+  ],
+  "related_vendor": "株式会社GoQSystem",
+  "sources": [
+    {
+      "url": "https://www.rakuten.co.jp/import-garden/contents/goq20261118/",
+      "type": "official",
+      "title": "AZ.MARKET エージーマーケット（楽天市場店）のお知らせ",
+      "published_on": "2026-11-18",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

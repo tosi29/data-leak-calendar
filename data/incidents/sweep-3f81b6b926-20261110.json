@@ -1,0 +1,47 @@
+{
+  "id": "sweep-3f81b6b926-20261110",
+  "organization": {
+    "name": "豊田合成（ハンドボールチーム 豊田合成ブルーファルコン名古屋）",
+    "sector": "企業・団体"
+  },
+  "title": "リーグHのチケット販売サイト「teket」でシステムメンテナンスが続き、チケット購入と購入済みチケットのQRコード表示ができない",
+  "summary": "リーグHのチケット販売サイト「teket」でシステムメンテナンスが続き、チケット購入と購入済みチケットのQRコード表示ができない。teketの説明として、購入者の氏名・メールアドレス等とシリアルコード・クーポンコードの流出を確認したと掲載している。 対象情報：購入者の氏名・メールアドレス等、シリアルコード・クーポンコードなど。",
+  "published_on": "2026-11-10",
+  "first_published_on": "2026-11-10",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-10",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "リーグHのチケット販売サイト「teket」でシステムメンテナンスが続き、チケット購入と購入済みチケットのQRコード表示ができない。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "資料に明記なし。"
+    }
+  ],
+  "data_types": [
+    "購入者の氏名・メールアドレス",
+    "シリアルコード・クーポンコード"
+  ],
+  "related_vendor": "株式会社teket",
+  "sources": [
+    {
+      "url": "https://www.toyoda-gosei.co.jp/sports/handball/topics/detail.php?id=1035",
+      "type": "official",
+      "title": "【重要】teketのシステムメンテナンスについて ｜ 最新情報 ｜ 豊田合成ハンドボールチーム【ブルーファルコン】",
+      "published_on": "2026-11-10",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

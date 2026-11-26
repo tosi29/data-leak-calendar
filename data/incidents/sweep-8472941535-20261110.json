@@ -1,0 +1,46 @@
+{
+  "id": "sweep-8472941535-20261110",
+  "organization": {
+    "name": "イオン九州",
+    "sector": "企業・団体"
+  },
+  "title": "メールマガジン配信の委託先が利用するアララの「repica」が第三者の不正アクセスを受け、流出した情報に公式オンラインショップ会員のメールアドレスが含まれていた",
+  "summary": "メールマガジン配信の委託先が利用するアララの「repica」が第三者の不正アクセスを受け、流出した情報に公式オンラインショップ会員のメールアドレスが含まれていた。自社システム・オンラインショップへの不正アクセスは確認されていない。 対象情報：メールアドレスなど。",
+  "published_on": "2026-11-10",
+  "first_published_on": "2026-11-10",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-10",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "メールマガジン配信の委託先が利用するアララの「repica」が第三者の不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 68324,
+      "unit": "records",
+      "qualifier": "maximum",
+      "description": "最大68,324件。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "アララ株式会社",
+  "sources": [
+    {
+      "url": "https://www.aeon-kyushu.info/files/optionallink/00000779_file.pdf",
+      "type": "official",
+      "title": "弊社が利用するメール配信サービスへの不正アクセスによる",
+      "published_on": "2026-11-10",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

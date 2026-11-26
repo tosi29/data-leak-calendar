@@ -1,0 +1,46 @@
+{
+  "id": "sweep-6d6b0fc758-20261112",
+  "organization": {
+    "name": "パーソルキャリア",
+    "sector": "企業・団体"
+  },
+  "title": "doda のLINE公式アカウントの運用に使う電通デジタルの「TONARIWA」が第三者の不正アクセスを受け、同サービス上で保持していた情報が外部に漏えいした可能性がある",
+  "summary": "doda のLINE公式アカウントの運用に使う電通デジタルの「TONARIWA」が第三者の不正アクセスを受け、同サービス上で保持していた情報が外部に漏えいした可能性がある。同社システムへの不正アクセスは確認されておらず、インターネット上への公開・拡散も確認されていない。doda のLINE公式アカウントの運用を停止している。 対象情報：「TONARIWA」上で保持していた情報など。",
+  "published_on": "2026-11-12",
+  "first_published_on": "2026-11-12",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-12",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "doda のLINE公式アカウントの運用に使う電通デジタルの「TONARIWA」が第三者の不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "非公表。"
+    }
+  ],
+  "data_types": [
+    "「TONARIWA」上で保持していた情報"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.persol-career.co.jp/info/20261112_2370/",
+      "type": "official",
+      "title": "外部委託先への不正アクセスによるお客様情報漏えいの可能性について | パーソルキャリア - PERSOL CAREER",
+      "published_on": "2026-11-12",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

@@ -1,0 +1,50 @@
+{
+  "id": "sweep-895aeb7abc-20261117",
+  "organization": {
+    "name": "天秤や（通販サイト）",
+    "sector": "企業・団体"
+  },
+  "title": "通販サイトの受注一元管理システム（GoQSystem 提供）への外部からの不正アクセスで、顧客情報が漏えいした可能性が判明した",
+  "summary": "通販サイトの受注一元管理システム（GoQSystem 提供）への外部からの不正アクセスで、顧客情報が漏えいした可能性が判明した。連携システムの利用を止め、手作業の受注・出荷に切り替えた。 対象情報：氏名、住所、電話番号、メールアドレス、注文内容。",
+  "published_on": "2026-11-17",
+  "first_published_on": "2026-11-17",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-17",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "通販サイトの受注一元管理システム（GoQSystem 提供）への外部からの不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "調査中。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "電話番号",
+    "メールアドレス",
+    "注文内容"
+  ],
+  "related_vendor": "株式会社GoQSystem",
+  "sources": [
+    {
+      "url": "https://www.tenbin-ya.co.jp/information/news/2026/11/17/170/",
+      "type": "official",
+      "title": "当社通販サイトの受注一元管理システムにおけるお客さま情報漏えいの可能性に関するお知らせ - 岐阜のおみやげは天秤や",
+      "published_on": "2026-11-17",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

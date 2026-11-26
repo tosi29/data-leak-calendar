@@ -1,0 +1,49 @@
+{
+  "id": "sweep-6e4efc79b5-20261118",
+  "organization": {
+    "name": "セーフィー（グループ3社）",
+    "sector": "企業・団体"
+  },
+  "title": "グループ3社が社内業務で使うNotion AIの処理委託先Fireworks AIへの不正アクセスで、従業員の入力内容と回答の一部が流出した可能性",
+  "summary": "セーフィーとグループ会社（セーフィーフィールドワークス、セーフィーセキュリティ）が社内業務で利用する「Notion」の提供元 Notion社の委託先 Fireworks AI社の環境が不正アクセスを受け、従業員が Notion AI に入力した内容と回答の一部が流出した可能性がある。同社のシステムへの不正アクセスではなく、クラウド録画サービス「Safie」とカメラ映像データ・アカウント情報・支払い情報は対象外。11月13日に個人情報保護委員会へ速報した。 対象情報：Notion社の AI 利用状況の分析機能（Insights）で使われた Notion AI のやり取りの記録に含まれる取引先担当者の氏名、会社名、メールアドレス、住所、電話番号。",
+  "published_on": "2026-11-18",
+  "first_published_on": "2026-11-18",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-11-10",
+  "updated_on": "2026-11-18",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "セーフィーとグループ会社（セーフィーフィールドワークス、セーフィーセキュリティ）が社内業務で利用する「Notion」の提供元 Notion社の委託先 Fireworks AI社の環境が不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "非公表（記録の性質上、対象者数の特定は困難）。"
+    }
+  ],
+  "data_types": [
+    "会社名",
+    "メールアドレス",
+    "住所",
+    "電話番号"
+  ],
+  "related_vendor": "Fireworks AI",
+  "sources": [
+    {
+      "url": "https://safie.co.jp/news/5207/",
+      "type": "official",
+      "title": "当社が利用する業務用クラウドサービスの委託先における不正アクセスと個人情報流出の可能性に関するお知らせとお詫び | セーフィー株式会社 - Safie Inc.",
+      "published_on": "2026-11-18",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

@@ -1,0 +1,46 @@
+{
+  "id": "sweep-4b63dbb6fa-20261117",
+  "organization": {
+    "name": "トライアルホールディングス（SU-PAY）",
+    "sector": "企業・団体"
+  },
+  "title": "子会社 SU-PAY がアプリでのお知らせに利用するプレイドの「KARTE」が第三者の不正アクセスを受け、会員に関する情報の一部が漏えいした",
+  "summary": "子会社 SU-PAY がアプリでのお知らせに利用するプレイドの「KARTE」が第三者の不正アクセスを受け、会員に関する情報の一部が漏えいした。11月18日16時時点で、氏名・メールアドレス等の漏えいは判明していない。 対象情報：SU-PAY会員IDなど。",
+  "published_on": "2026-11-17",
+  "first_published_on": "2026-11-17",
+  "publication_kind": "initial",
+  "occurred_on": "2026-11-13",
+  "detected_on": "2026-11-15",
+  "updated_on": "2026-11-17",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "子会社 SU-PAY がアプリでのお知らせに利用するプレイドの「KARTE」が第三者の不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "SU-PAY会員ID 60,000件（11月18日16時時点）。"
+    }
+  ],
+  "data_types": [
+    "SU-PAY会員ID"
+  ],
+  "related_vendor": "株式会社プレイド",
+  "sources": [
+    {
+      "url": "https://trial-holdings.inc/news/release/3590/",
+      "type": "official",
+      "title": "当社が利用する外部サービス「KARTE」への不正アクセスに伴う 一部会員情報漏えいに関するお知らせ(第一報) | トライアルホールディングス",
+      "published_on": "2026-11-17",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

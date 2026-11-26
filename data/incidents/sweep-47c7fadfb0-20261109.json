@@ -1,0 +1,44 @@
+{
+  "id": "sweep-47c7fadfb0-20261109",
+  "organization": {
+    "name": "unbanked（金価格メール）",
+    "sector": "企業・団体"
+  },
+  "title": "メールマガジン等の配信を委託するアララのメール配信サーバーが第三者の不正アクセスを受け、当社が利用するサーバー環境からデータが持ち出され、登録者のメールアドレスが外部に流出した",
+  "summary": "メールマガジン等の配信を委託するアララのメール配信サーバーが第三者の不正アクセスを受け、当社が利用するサーバー環境からデータが持ち出され、登録者のメールアドレスが外部に流出した。アララの第1報・第2報の時点では対象外とされていたが、調査範囲の拡大で判明した。アララのシステムを使った配信は全面的に停止している。 対象情報：メールマガジン「金価格メール」登録者のメールアドレスなど。",
+  "published_on": "2026-11-09",
+  "first_published_on": "2026-11-09",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-09",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "メールマガジン等の配信を委託するアララのメール配信サーバーが第三者の不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 3453,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "3,453件。"
+    }
+  ],
+  "data_types": [],
+  "related_vendor": "アララ株式会社",
+  "sources": [
+    {
+      "url": "https://unbanked.jp/news_release/10588.html",
+      "type": "official",
+      "title": "メール配信委託先サーバーへの不正アクセスに伴うメールアドレス流出に関するお詫びとお知らせ – unbanked",
+      "published_on": "2026-11-09",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

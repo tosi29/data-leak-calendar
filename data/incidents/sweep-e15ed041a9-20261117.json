@@ -1,0 +1,50 @@
+{
+  "id": "sweep-e15ed041a9-20261117",
+  "organization": {
+    "name": "Mother's Industry（mizuiro ind online boutique）",
+    "sector": "企業・団体"
+  },
+  "title": "受注管理業務に利用する GoQSystem への不正アクセスで、顧客の個人情報の一部が外部に漏えいしたことが判明した",
+  "summary": "受注管理業務に利用する GoQSystem への不正アクセスで、顧客の個人情報の一部が外部に漏えいしたことが判明した。 対象情報：注文者・届け先の氏名、住所、電話番号、メールアドレス、注文内容（顧客により異なる）。",
+  "published_on": "2026-11-17",
+  "first_published_on": "2026-11-17",
+  "publication_kind": "initial",
+  "occurred_on": "2026-11-10",
+  "detected_on": null,
+  "updated_on": "2026-11-17",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "受注管理業務に利用する GoQSystem への不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "調査中。"
+    }
+  ],
+  "data_types": [
+    "注文者・届け先の氏名",
+    "住所",
+    "電話番号",
+    "メールアドレス",
+    "注文内容"
+  ],
+  "related_vendor": "株式会社GoQSystem",
+  "sources": [
+    {
+      "url": "https://mizuiroind.jp/blogs/information/261117_infomation",
+      "type": "official",
+      "title": "【重要】一部個人情報漏えいに関するお詫びとお知らせ – mizuiro ind",
+      "published_on": "2026-11-17",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

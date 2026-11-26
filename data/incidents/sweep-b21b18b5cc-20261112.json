@@ -1,0 +1,44 @@
+{
+  "id": "sweep-b21b18b5cc-20261112",
+  "organization": {
+    "name": "建設業振興基金",
+    "sector": "企業・団体"
+  },
+  "title": "財団がメール誤送信防止に利用するデジタルアーツのサービスの運用環境・社内環境に不正アクセスがあり、財団が送信したメールが第三者に閲覧された可能性があるとの報告を受けた",
+  "summary": "財団がメール誤送信防止に利用するデジタルアーツのサービスの運用環境・社内環境に不正アクセスがあり、財団が送信したメールが第三者に閲覧された可能性があるとの報告を受けた。同社の発表では11月5日正午時点で外部への持ち出しは確認されていない。11月10日に個人情報保護委員会へ報告。 対象情報：2026年1月から2026年10月15日までに財団が送信したメール。",
+  "published_on": "2026-11-12",
+  "first_published_on": "2026-11-12",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-12",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "財団がメール誤送信。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "非公表。"
+    }
+  ],
+  "data_types": [],
+  "related_vendor": "デジタルアーツ株式会社",
+  "sources": [
+    {
+      "url": "https://www.kensetsu-kikin.or.jp/news/710/",
+      "type": "official",
+      "title": "デジタルアーツ株式会社への不正アクセスについて｜お知らせ｜一般財団法人 建設業振興基金",
+      "published_on": "2026-11-12",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

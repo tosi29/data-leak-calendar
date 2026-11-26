@@ -1,0 +1,48 @@
+{
+  "id": "sweep-8c1afe128f-20261113",
+  "organization": {
+    "name": "テオリア・テクノロジーズ",
+    "sector": "企業・団体"
+  },
+  "title": "業務で利用する「Notion」の提供元 Notion社の委託先 Fireworks社が第三者の不正アクセスを受け、従業員が業務で Notion AI とやり取りした情報の一部が外部に漏えいした可能性がある",
+  "summary": "業務で利用する「Notion」の提供元 Notion社の委託先 Fireworks社が第三者の不正アクセスを受け、従業員が業務で Notion AI とやり取りした情報の一部が外部に漏えいした可能性がある。漏えいした可能性のある情報に取引先などの関係者の個人情報が含まれていた。二次被害は確認されていない。 対象情報：取引先など関係者の氏名、法人名・所属・役職、メールアドレス等の連絡先など。",
+  "published_on": "2026-11-13",
+  "first_published_on": "2026-11-13",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-11-11",
+  "updated_on": "2026-11-13",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "業務で利用する「Notion」の提供元 Notion社の委託先 Fireworks社が第三者の不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "調査中。"
+    }
+  ],
+  "data_types": [
+    "取引先など関係者の氏名",
+    "法人名・所属・役職",
+    "メールアドレス等の連絡先"
+  ],
+  "related_vendor": "Fireworks AI",
+  "sources": [
+    {
+      "url": "https://theoriatec.com/news/20261113",
+      "type": "official",
+      "title": "当社が利用するクラウドサービスの委託先への不正アクセスに伴う、個人情報の漏えいの可能性に関するお知らせ｜テオリア・テクノロジーズ株式会社",
+      "published_on": "2026-11-13",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

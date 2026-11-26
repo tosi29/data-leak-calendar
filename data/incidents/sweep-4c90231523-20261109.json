@@ -1,0 +1,47 @@
+{
+  "id": "sweep-4c90231523-20261109",
+  "organization": {
+    "name": "ジェームスアンドコー（JAMES & CO.）",
+    "sector": "企業・団体"
+  },
+  "title": "業務システムとして使う「One'sCloset」への不正アクセスで、同社の顧客の個人情報が漏えいした可能性",
+  "summary": "業務システムとして使う「One'sCloset」のサーバー環境で第三者の不正アクセスが確認され、同システムのデータベースに保存されていた個人情報と外部ECシステムとの連携に使う API 接続キーが漏えいしたことが分かり、同社の顧客の個人情報も漏えいした可能性がある。実際に持ち出された情報と個々の客が対象に含まれるかは調査中で、対象の客には個別にメールで知らせる。 対象情報：購入者の氏名、メールアドレスなど。",
+  "published_on": "2026-11-09",
+  "first_published_on": "2026-11-09",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-09",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "業務システムとして使う「One'sCloset」のサーバー環境で第三者の不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "非公表（同社分は確認中。One'sCloset 全体で総レコード約167万件・名寄せ後約129万人）。"
+    }
+  ],
+  "data_types": [
+    "購入者の氏名",
+    "メールアドレス"
+  ],
+  "related_vendor": "One'sCloset",
+  "sources": [
+    {
+      "url": "https://shop.james-co.jp/blogs/%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B9/%E9%87%8D%E8%A6%81-%E5%80%8B%E4%BA%BA%E6%83%85%E5%A0%B1%E6%BC%8F%E6%B4%A9%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E3%81%8A%E8%A9%AB%E3%81%B3%E3%81%A8%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B",
+      "type": "official",
+      "title": "【重要】個人情報漏洩に関するお詫びとお知らせ",
+      "published_on": "2026-11-09",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

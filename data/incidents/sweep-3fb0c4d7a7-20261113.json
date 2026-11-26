@@ -1,0 +1,47 @@
+{
+  "id": "sweep-3fb0c4d7a7-20261113",
+  "organization": {
+    "name": "ダイニー",
+    "sector": "企業・団体"
+  },
+  "title": "Notion AI の委託先 Fireworks AI社が不正アクセスを受け、従業員などが Notion AI に入力した内容の一部が流出した可能性がある（第一報）",
+  "summary": "Notion AI の委託先 Fireworks AI社が不正アクセスを受け、従業員などが Notion AI に入力した内容の一部が流出した可能性がある（第一報）。11月12日に会話記録の確認を終え、対応が必要な加盟店と取引先に連絡した。第三者による取得は確認されておらず、自社サービスのシステム・データベースには及んでいない。 対象情報：業務に関する内容、一部の加盟店の契約・利用に関する情報。",
+  "published_on": "2026-11-13",
+  "first_published_on": "2026-11-13",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-11-10",
+  "updated_on": "2026-11-13",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "Notion AI の委託先 Fireworks AI社が不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "非公表。"
+    }
+  ],
+  "data_types": [
+    "業務に関する内容",
+    "一部の加盟店の契約・利用に関する情報"
+  ],
+  "related_vendor": "Fireworks AI",
+  "sources": [
+    {
+      "url": "https://dinii.jp/news/info/notion-ai-incident/",
+      "type": "official",
+      "title": "Notion 社の委託先への不正アクセスに伴う情報流出の可能性について（第一報）（26.11.13） | 株式会社ダイニー",
+      "published_on": "2026-11-13",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

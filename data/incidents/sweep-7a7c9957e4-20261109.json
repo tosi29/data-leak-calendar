@@ -1,0 +1,46 @@
+{
+  "id": "sweep-7a7c9957e4-20261109",
+  "organization": {
+    "name": "ファインシード（MultiPost）",
+    "sector": "企業・団体"
+  },
+  "title": "利用していたアララのメール配信サービスへの第三者の不正アクセスについて同社から調査結果の報告を受け、MultiPost の一部利用者のメールアドレスの流出を確認した",
+  "summary": "利用していたアララのメール配信サービスへの第三者の不正アクセスについて同社から調査結果の報告を受け、MultiPost の一部利用者のメールアドレスの流出を確認した。対象者へ11/9 に個別に連絡。同じ日に、同社の「BLove」は流出なしと公表した。 対象情報：メールアドレスなど。",
+  "published_on": "2026-11-09",
+  "first_published_on": "2026-11-09",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-09",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "利用していたアララのメール配信サービスへの第三者の不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 37,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "37件。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "アララ株式会社",
+  "sources": [
+    {
+      "url": "https://fineseed.net/%e3%80%90%e9%87%8d%e8%a6%81%e3%80%91multipost%e3%81%ab%e3%81%8a%e3%81%91%e3%82%8b%e6%83%85%e5%a0%b1%e6%bc%8f%e6%b4%a9%e3%81%ab%e9%96%a2%e3%81%99%e3%82%8b%e8%aa%bf%e6%9f%bb%e7%b5%90%e6%9e%9c%e3%81%ae/",
+      "type": "official",
+      "title": "【重要】MultiPostにおける情報漏洩に関する調査結果のお知らせとお詫び | 株式会社ファインシード",
+      "published_on": "2026-11-09",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

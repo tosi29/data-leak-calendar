@@ -1,0 +1,48 @@
+{
+  "id": "progate-notion-fireworks-20261117",
+  "organization": {
+    "name": "Progate",
+    "sector": "企業・団体"
+  },
+  "title": "業務で使うNotion AIの処理委託先への不正アクセスで、入力内容に含まれる利用者・取引先担当者・役職員約110名の氏名等が流出した可能性",
+  "summary": "業務で利用する「Notion」の提供元がAI機能の処理を委託していた事業者の環境が第三者の不正アクセスを受け、役職員がNotion AIに入力した内容とAIの回答の記録の一部（2026年10月5日〜10月23日分）が外部に流出した可能性がある。一部の利用者、取引先担当者、役職員約110名の氏名・所属・メールアドレス等が含まれる。パスワードは含まれない。",
+  "published_on": "2026-11-17",
+  "first_published_on": "2026-11-17",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-11-11",
+  "updated_on": "2026-11-17",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "Notion社がAI機能の処理を委託していた事業者（Fireworks AI）の環境への第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 110,
+      "unit": "people",
+      "qualifier": "approximate",
+      "description": "一部の利用者、取引先担当者および役職員。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "所属",
+    "メールアドレス"
+  ],
+  "related_vendor": "Fireworks AI",
+  "sources": [
+    {
+      "url": "https://progate.com/about/news/623",
+      "type": "official",
+      "title": "当社が利用するクラウドサービスにおける不正アクセスに伴う、情報流出の可能性に関するお知らせとお詫び",
+      "published_on": "2026-11-17",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

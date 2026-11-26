@@ -1,0 +1,50 @@
+{
+  "id": "sweep-88d5ff19fd-20261116",
+  "organization": {
+    "name": "ダルク（La.kurasu 楽天市場店）",
+    "sector": "企業・団体"
+  },
+  "title": "受注管理に利用する GoQSystem への不正アクセスで、同システムに預けていた当店の注文データの一部が漏えい対象となった",
+  "summary": "受注管理に利用する GoQSystem への不正アクセスで、同システムに預けていた当店の注文データの一部が漏えい対象となった。 対象情報：注文者・届け先の氏名、住所、電話番号、メールアドレス、注文内容など。",
+  "published_on": "2026-11-16",
+  "first_published_on": "2026-11-16",
+  "publication_kind": "initial",
+  "occurred_on": "2026-11-10",
+  "detected_on": null,
+  "updated_on": "2026-11-16",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "受注管理に利用する GoQSystem への不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "件数の記載なし。"
+    }
+  ],
+  "data_types": [
+    "注文者・届け先の氏名",
+    "住所",
+    "電話番号",
+    "メールアドレス",
+    "注文内容"
+  ],
+  "related_vendor": "株式会社GoQSystem",
+  "sources": [
+    {
+      "url": "https://www.rakuten.co.jp/la-kurasu/contents/security-incident/",
+      "type": "official",
+      "title": "ダルク（La.kurasu 楽天市場店）のお知らせ",
+      "published_on": "2026-11-16",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

@@ -1,0 +1,46 @@
+{
+  "id": "sweep-41d9d9b14f-20261118",
+  "organization": {
+    "name": "auフィナンシャルサービス（au PAY カード）",
+    "sector": "企業・団体"
+  },
+  "title": "利用するプレイドの「KARTE」が第三者の不正アクセスを受け、同サービス上で管理する顧客の個人情報等の一部が外部に漏えいした可能性があると公表した",
+  "summary": "利用するプレイドの「KARTE」が第三者の不正アクセスを受け、同サービス上で管理する顧客の個人情報等の一部が外部に漏えいした可能性があると公表した。プレイドとのデータ連携を止め、連携用の認証情報を無効化した。影響範囲はプレイドと確認を進めている。 対象情報：KARTE 上で管理する顧客の個人情報等の一部など。",
+  "published_on": "2026-11-18",
+  "first_published_on": "2026-11-18",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-18",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "利用するプレイドの「KARTE」が第三者の不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "非公表（調査中）。"
+    }
+  ],
+  "data_types": [
+    "KARTE 上で管理する顧客の個人情報等の一部"
+  ],
+  "related_vendor": "株式会社プレイド",
+  "sources": [
+    {
+      "url": "https://www.kddi-fs.com/contents/important/1027.html",
+      "type": "official",
+      "title": "当社が利用する外部システム「KARTE」への 不正アクセスによる個人情報漏えいの可能性について｜au PAY カード",
+      "published_on": "2026-11-18",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

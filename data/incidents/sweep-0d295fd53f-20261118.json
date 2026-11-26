@@ -1,0 +1,48 @@
+{
+  "id": "sweep-0d295fd53f-20261118",
+  "organization": {
+    "name": "USEN TRUST（U-NEXT HOLDINGS グループ）",
+    "sector": "企業・団体"
+  },
+  "title": "同社が管理するシステムが第三者の不正アクセスを受け、家賃保証サービスに事業用物件の申込みをした顧客の情報の一部が外部から閲覧され、流出した可能性がある",
+  "summary": "同社が管理するシステムが第三者の不正アクセスを受け、家賃保証サービスに事業用物件の申込みをした顧客の情報の一部が外部から閲覧され、流出した可能性がある。システムの一部に外部から不正な手段でアクセスできる箇所があり、第三者に悪用された。10月28日から対象者と取扱店に個別に連絡していたが、連絡が取れない顧客がいるため公表した。対策は完了し、個人情報保護委員会への報告と警察への届け出を行った。住居用物件の申込みは影響がなく、被害は確認されていない。 対象情報：申込番号、申込み対象物件の建物名・部屋番号（区画番号等）、申込者名など。",
+  "published_on": "2026-11-18",
+  "first_published_on": "2026-11-18",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-18",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "同社が管理するシステムが第三者の不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 32075,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "32,075件（事業用物件の申込み）。"
+    }
+  ],
+  "data_types": [
+    "申込番号",
+    "申込み対象物件の建物名・部屋番号",
+    "申込者名"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://usen-trust.co.jp/news/info/post-31.html",
+      "type": "official",
+      "title": "不正アクセスによるお客様情報流出の可能性に関するお詫びとお知らせ｜お知らせ｜株式会社USEN TRUST",
+      "published_on": "2026-11-18",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

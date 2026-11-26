@@ -1,0 +1,50 @@
+{
+  "id": "sweep-005f1e58ad-20261117",
+  "organization": {
+    "name": "Lib Work（e土地net）",
+    "sector": "企業・団体"
+  },
+  "title": "運営する土地情報検索サイト「e土地net」で第三者の不正アクセスが疑われる事象を確認し、同日サイトの一般公開を停止した",
+  "summary": "運営する土地情報検索サイト「e土地net」で第三者の不正アクセスが疑われる事象を確認し、同日サイトの一般公開を停止した。サイトは外部運営委託先が管理するサーバー上で運用し、個人情報を含むデータベースも同サーバーに保管していた。漏えいの有無と対象の範囲・人数は調査中。 対象情報：パスワード、サイトで管理する氏名、住所、電話番号、メールアドレス。",
+  "published_on": "2026-11-17",
+  "first_published_on": "2026-11-17",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-10-22",
+  "updated_on": "2026-11-17",
+  "verification": "official",
+  "leak_status": "investigating",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "運営する土地情報検索サイト「e土地net」で第三者の不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "調査中。"
+    }
+  ],
+  "data_types": [
+    "パスワード",
+    "サイトで管理する氏名",
+    "住所",
+    "電話番号",
+    "メールアドレス"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.libwork.co.jp/newsrelease/?id=80966",
+      "type": "official",
+      "title": "ニュース | 注文住宅は熊本・福岡・大分・佐賀・千葉のハウスメーカー【リブワーク】",
+      "published_on": "2026-11-17",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

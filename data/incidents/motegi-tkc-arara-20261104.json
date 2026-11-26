@@ -1,0 +1,52 @@
+{
+  "id": "motegi-tkc-arara-20261104",
+  "organization": {
+    "name": "茂木町（スマート申請システム）",
+    "sector": "自治体"
+  },
+  "title": "オンライン申請システムが使う「アララメッセージ」への不正アクセスで、通知メールのメールアドレス65件が漏えい",
+  "summary": "町が導入するTKCのオンライン申請システム（スマート申請システム）が受付完了通知等の送信に使う「アララメッセージ」が第三者の不正アクセスを受け、町のシステムから送信した通知メールのメールアドレスが漏えいした。11月4日に第1報、11日に第2報を公表し、20日の第3報で漏えい件数を65件と公表した。メールアドレス以外は含まれない。",
+  "published_on": "2026-11-04",
+  "first_published_on": "2026-11-04",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-11-02",
+  "updated_on": "2026-11-20",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "オンライン申請システムを提供するTKCが利用するアララ株式会社の「アララメッセージ」への第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 65,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "スマート申請システムから送信した通知メールのメールアドレス。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "TKC／アララ株式会社",
+  "sources": [
+    {
+      "url": "https://www.town.motegi.tochigi.jp/motegi/nextpage.php?cd=8718&syurui=2",
+      "type": "official",
+      "title": "【第3報:重要】オンライン申請システムが利用する外部メール送信サービスへの不正アクセスによる個人情報の漏えいについて（調査結果）",
+      "published_on": "2026-11-20",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [
+    {
+      "date": "2026-11-20",
+      "summary": "第3報で、漏えいの対象となったメールアドレスを65件と公表し、対象者へ個別に通知。",
+      "source_index": 0
+    }
+  ],
+  "notes": "11月4日の第1報・11日の第2報の本文は未取得。公表日は第3報の経緯欄に記載された第1報の日付。"
+}

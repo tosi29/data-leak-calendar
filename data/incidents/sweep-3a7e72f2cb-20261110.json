@@ -1,0 +1,49 @@
+{
+  "id": "sweep-3a7e72f2cb-20261110",
+  "organization": {
+    "name": "SN Japan（SNJ STORE）",
+    "sector": "企業・団体"
+  },
+  "title": "出荷・在庫管理に使う「One's Closet」への不正アクセスで、保存していた個人情報とAPI接続キーが漏えい",
+  "summary": "商品の出荷・在庫管理に使う外部業務管理システム「One's Closet」のサーバー環境で第三者の不正アクセスが確認され、同システムのデータベースに保存していた個人情報と、外部ECシステムとの連携に使う API 接続キーが外部に漏えいした。個々の客の情報が対象に含まれるかは調査中。 対象情報：購入者名、配送先名、配送先住所、配送先電話番号（メールアドレス・クレジットカード情報は同システムに保存されていない）。",
+  "published_on": "2026-11-10",
+  "first_published_on": "2026-11-10",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-10",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "商品の出荷・在庫管理に使う外部業務管理システム「One's Closet」のサーバー環境で第三者の不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "非公表（調査中）。"
+    }
+  ],
+  "data_types": [
+    "購入者名",
+    "配送先名",
+    "配送先住所",
+    "配送先電話番号"
+  ],
+  "related_vendor": "One'sCloset",
+  "sources": [
+    {
+      "url": "https://snj-store.com/blogs/news/20261110",
+      "type": "official",
+      "title": "【重要】個人情報漏洩に関するお詫びとお知らせ – SNJ STORE",
+      "published_on": "2026-11-10",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

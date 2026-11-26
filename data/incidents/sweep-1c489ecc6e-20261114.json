@@ -1,0 +1,47 @@
+{
+  "id": "sweep-1c489ecc6e-20261114",
+  "organization": {
+    "name": "ケーブルテレビ（栃木・館林・結城・筑西、LINE公式アカウント）",
+    "sector": "企業・団体"
+  },
+  "title": "LINE公式アカウントで利用するソニックムーブの「COMSBI（SaaS版）」への不正アクセスで、LINE公式アカウントの登録者の個人情報の一部が外部に漏えいした",
+  "summary": "LINE公式アカウントで利用するソニックムーブの「COMSBI（SaaS版）」への不正アクセスで、LINE公式アカウントの登録者の個人情報の一部が外部に漏えいした。不正利用の被害は確認されていない。 対象情報：LINEの表示名・プロフィール画像のURL・LINEユーザーID、アンケート回答内容（利用中のサービス・家族構成など）、ブロック・友だち解除した人を含むなど。",
+  "published_on": "2026-11-14",
+  "first_published_on": "2026-11-14",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-14",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "LINE公式アカウントで利用するソニックムーブの「COMSBI（SaaS版）」への不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "非公表。"
+    }
+  ],
+  "data_types": [
+    "アンケート回答内容",
+    "ブロック・友だち解除した人を含む"
+  ],
+  "related_vendor": "株式会社ソニックムーブ",
+  "sources": [
+    {
+      "url": "https://www.cc9.jp/news/13680/",
+      "type": "official",
+      "title": "【重要】当社LINE公式アカウントに対する不正アクセスの発生について – ケーブルテレビ株式会社（栃木・館林・結城・筑西）",
+      "published_on": "2026-11-14",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

@@ -1,0 +1,46 @@
+{
+  "id": "sweep-7cb92c8b43-20261118",
+  "organization": {
+    "name": "ロイヤルカナン ジャポン（マイ ロイヤルカナン）",
+    "sector": "企業・団体"
+  },
+  "title": "利用するプレイドの「KARTE」への不正アクセスで、顧客情報の一部が漏えいした可能性があるとプレイドから報告を受けた",
+  "summary": "利用するプレイドの「KARTE」への不正アクセスで、顧客情報の一部が漏えいした可能性があるとプレイドから報告を受けた。影響範囲を確認している。 対象情報：E-Mailアドレス。",
+  "published_on": "2026-11-18",
+  "first_published_on": "2026-11-18",
+  "publication_kind": "initial",
+  "occurred_on": "2026-11-13",
+  "detected_on": null,
+  "updated_on": "2026-11-18",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "利用するプレイドの「KARTE」への不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "E-Mailアドレス 延べ126,211名分（プレイドからの報告。詳細は確定していない）。"
+    }
+  ],
+  "data_types": [
+    "E-Mailアドレス"
+  ],
+  "related_vendor": "株式会社プレイド",
+  "sources": [
+    {
+      "url": "https://www.royalcanin.com/jp-shop/top-news/2611-information-leak-notice",
+      "type": "official",
+      "title": "ロイヤルカナン ジャポン（マイ ロイヤルカナン）のお知らせ",
+      "published_on": "2026-11-18",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

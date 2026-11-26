@@ -1,0 +1,49 @@
+{
+  "id": "sweep-ad822c47b8-20261112",
+  "organization": {
+    "name": "homeal（家族向け冷凍宅配サービス）",
+    "sector": "企業・団体"
+  },
+  "title": "商品の保管・発送を委託するオープンロジのシステムが不正アクセスを受け、2026年4月8日〜11月8日に発送した荷物のお届け先情報が外部に持ち出されたと報告を受けた",
+  "summary": "商品の保管・発送を委託するオープンロジのシステムが不正アクセスを受け、2026年4月8日〜11月8日に発送した荷物のお届け先情報が外部に持ち出されたと報告を受けた。 対象情報：委託先オープンロジに出荷を依頼した商品のお届け先の氏名、住所、電話番号、メールアドレス、商品情報（商品名・数量等）。",
+  "published_on": "2026-11-12",
+  "first_published_on": "2026-11-12",
+  "publication_kind": "initial",
+  "occurred_on": "2026-11-08",
+  "detected_on": null,
+  "updated_on": "2026-11-12",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "商品の保管・発送を委託するオープンロジのシステムが不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "資料に明記なし。"
+    }
+  ],
+  "data_types": [
+    "住所",
+    "電話番号",
+    "メールアドレス",
+    "商品情報"
+  ],
+  "related_vendor": "株式会社オープンロジ",
+  "sources": [
+    {
+      "url": "https://homeal.co.jp/blogs/news/oshirase_261112",
+      "type": "official",
+      "title": "【重要】配送委託先への不正アクセスによるお客さま情報の漏えいについて（お詫びとお願い） – homeal ホーミール 家族向け冷凍宅配サービス",
+      "published_on": "2026-11-12",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

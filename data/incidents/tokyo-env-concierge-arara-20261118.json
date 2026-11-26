@@ -1,0 +1,46 @@
+{
+  "id": "tokyo-env-concierge-arara-20261118",
+  "organization": {
+    "name": "東京都（賃貸住宅 断熱・再エネ推進コンシェルジュ事業）",
+    "sector": "自治体"
+  },
+  "title": "賃貸住宅オーナー支援サイトで使う「アララ メッセージ」への不正アクセスで、配信記録のメールアドレス320件が漏えい",
+  "summary": "東京都環境局が運営する賃貸住宅オーナー支援サイトで利用するメール配信サービス「アララ メッセージ」が不正アクセスを受け、オーナーやコンシェルジュ事業者の登録時等に配信したメールの配信記録（メールアドレス320件、うち個人を特定できる可能性のあるもの148件）の漏えいが確認された。",
+  "published_on": "2026-11-18",
+  "first_published_on": "2026-11-18",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-18",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "メール配信に利用するアララ株式会社の「アララ メッセージ」への不正アクセス（同社はWebサーバーの脆弱性とシステム環境の問題が原因と発表）。"
+  },
+  "impact": [
+    {
+      "count": 320,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "メールアドレス（うち個人を特定できる可能性のあるもの148件）。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "アララ株式会社",
+  "sources": [
+    {
+      "url": "https://www.metro.tokyo.lg.jp/information/press/2026/11/2026111819",
+      "type": "official",
+      "title": "メール配信サービスへの不正アクセスによる個人情報の漏えいについて",
+      "published_on": "2026-11-18",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

@@ -1,0 +1,44 @@
+{
+  "id": "sweep-ed9ee308d5-20261116",
+  "organization": {
+    "name": "清和（PACKAGE LINK）",
+    "sector": "企業・団体"
+  },
+  "title": "ウェブサイトの利便性向上のために利用しているプレイド「KARTE」の管理サーバーへの第三者の不正アクセスで同サービスが停止した",
+  "summary": "ウェブサイトの利便性向上のために利用しているプレイド「KARTE」の管理サーバーへの第三者の不正アクセスで同サービスが停止した。直ちに同サービスとのネットワークを遮断し、自社システムへの不正アクセスは確認されていない。情報の流出範囲と原因はプレイドが調査中。",
+  "published_on": "2026-11-16",
+  "first_published_on": "2026-11-16",
+  "publication_kind": "initial",
+  "occurred_on": "2026-11-13",
+  "detected_on": null,
+  "updated_on": "2026-11-18",
+  "verification": "official",
+  "leak_status": "investigating",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "ウェブサイトの利便性向上のために利用しているプレイド「KARTE」の管理サーバーへの第三者の不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "調査中。"
+    }
+  ],
+  "data_types": [],
+  "related_vendor": "株式会社プレイド",
+  "sources": [
+    {
+      "url": "https://www.seiwa-p.co.jp/shop/t/t1448/",
+      "type": "official",
+      "title": "OAgT[rX̕sANZXɂeɂāi2026.11.18XVj: bށEނPACKAGE LINKipbP[WNj a",
+      "published_on": "2026-11-16",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

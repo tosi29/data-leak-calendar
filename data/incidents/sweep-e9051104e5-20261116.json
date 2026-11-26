@@ -1,0 +1,50 @@
+{
+  "id": "sweep-e9051104e5-20261116",
+  "organization": {
+    "name": "小島食品工業（おつまみギャラリー伊万里 楽天市場店）",
+    "sector": "企業・団体"
+  },
+  "title": "受注管理に利用する GoQSystem への不正アクセスで、個人情報を含む注文データの一部が外部へ流出したと公表された",
+  "summary": "受注管理に利用する GoQSystem への不正アクセスで、個人情報を含む注文データの一部が外部へ流出したと公表された。当店の対象範囲・件数は調査中。 対象情報：注文者・届け先の氏名、住所、電話番号、メールアドレス、注文内容など。",
+  "published_on": "2026-11-16",
+  "first_published_on": "2026-11-16",
+  "publication_kind": "initial",
+  "occurred_on": "2026-11-10",
+  "detected_on": null,
+  "updated_on": "2026-11-16",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "受注管理に利用する GoQSystem への不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "調査中。"
+    }
+  ],
+  "data_types": [
+    "注文者・届け先の氏名",
+    "住所",
+    "電話番号",
+    "メールアドレス",
+    "注文内容"
+  ],
+  "related_vendor": "株式会社GoQSystem",
+  "sources": [
+    {
+      "url": "https://www.rakuten.co.jp/otsumami-gallery/contents/goqsystem_20261116/",
+      "type": "official",
+      "title": "小島食品工業（おつまみギャラリー伊万里 楽天市場店）のお知らせ",
+      "published_on": "2026-11-16",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

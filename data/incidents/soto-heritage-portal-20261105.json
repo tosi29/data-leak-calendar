@@ -1,0 +1,63 @@
+{
+  "id": "soto-heritage-portal-20261105",
+  "organization": {
+    "name": "日本遺産「桑都物語」推進協議会（ポータルサイト）",
+    "sector": "自治体"
+  },
+  "title": "ポータルサイトへの不正ログインと不正プログラムの設置で、お問い合わせフォームに入力された法人代表者の氏名等2件が外部送信された可能性",
+  "summary": "事務局を八王子市が務める協議会のポータルサイトで、管理者権限のアカウントによる不正ログインと不正なプログラムの設置があり、2026年10月29日・30日に受信したお問い合わせ2件の法人代表者氏名・郵便番号・所在地・電話番号・問い合わせ内容が外部送信された可能性がある。10月28日以前の問い合わせ65件の外部流出は確認されていない。",
+  "published_on": "2026-11-05",
+  "first_published_on": "2026-11-05",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-11-02",
+  "updated_on": "2026-11-12",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "credentials",
+    "certainty": "confirmed",
+    "detail": "管理者権限のアカウントによる不正ログインと不正なプログラムの設置（認証情報の取得経路は特定に至っていない）。"
+  },
+  "impact": [
+    {
+      "count": 2,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "お問い合わせフォームに入力された法人の代表者氏名・所在地等。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "郵便番号",
+    "所在地",
+    "電話番号",
+    "問い合わせ内容"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.city.hachioji.tokyo.jp/shisei/001/001/009/001/p033364_d/fil/081105a.pdf",
+      "type": "official",
+      "title": "日本遺産「桑都物語」ポータルサイトにおける不正アクセス及びお問い合わせ情報の外部送信の可能性について（第一報）",
+      "published_on": "2026-11-05",
+      "checked_on": "2026-11-26"
+    },
+    {
+      "url": "https://www.city.hachioji.tokyo.jp/shisei/001/001/009/001/p033364_d/fil/081112b.pdf",
+      "type": "official",
+      "title": "日本遺産「桑都物語」ポータルサイトにおける不正アクセス及びお問い合わせ情報の外部送信の可能性について（第二報）",
+      "published_on": "2026-11-12",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [
+    {
+      "date": "2026-11-12",
+      "summary": "第二報で、認証情報の取得経路は特定に至っていないとし、再発防止策を公表。",
+      "source_index": 1
+    }
+  ],
+  "notes": ""
+}

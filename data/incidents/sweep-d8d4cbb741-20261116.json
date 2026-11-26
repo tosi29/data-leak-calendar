@@ -1,0 +1,50 @@
+{
+  "id": "sweep-d8d4cbb741-20261116",
+  "organization": {
+    "name": "アリオン（アロマルーム 楽天市場店）",
+    "sector": "企業・団体"
+  },
+  "title": "受注管理に利用する GoQSystem で不正アクセスによる個人情報漏えい事案が起き、当社も対象事業者である旨の連絡を受けた",
+  "summary": "受注管理に利用する GoQSystem で不正アクセスによる個人情報漏えい事案が起き、当社も対象事業者である旨の連絡を受けた。対象の顧客と件数は確認中。 対象情報：注文者・届け先の氏名、住所、電話番号、メールアドレス、注文内容など。",
+  "published_on": "2026-11-16",
+  "first_published_on": "2026-11-16",
+  "publication_kind": "initial",
+  "occurred_on": "2026-11-10",
+  "detected_on": null,
+  "updated_on": "2026-11-16",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "受注管理に利用する GoQSystem で不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "確認中。"
+    }
+  ],
+  "data_types": [
+    "注文者・届け先の氏名",
+    "住所",
+    "電話番号",
+    "メールアドレス",
+    "注文内容"
+  ],
+  "related_vendor": "株式会社GoQSystem",
+  "sources": [
+    {
+      "url": "https://www.rakuten.co.jp/aroma-room/contents/20261116_goqsystem/",
+      "type": "official",
+      "title": "アリオン（アロマルーム 楽天市場店）のお知らせ",
+      "published_on": "2026-11-16",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

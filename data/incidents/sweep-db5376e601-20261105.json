@@ -1,0 +1,46 @@
+{
+  "id": "sweep-db5376e601-20261105",
+  "organization": {
+    "name": "貝塚市",
+    "sector": "自治体"
+  },
+  "title": "配信サービス提供先 ウイングアークNEX のシステムエンジンを担うアララへの第三者の不正アクセスについて報告を受け、「こ・あ・らメール」の配信を停止した",
+  "summary": "配信サービス提供先 ウイングアークNEX のシステムエンジンを担うアララへの第三者の不正アクセスについて報告を受け、「こ・あ・らメール」の配信を停止した。登録メールアドレスが漏えいしたかは不明で、両社が影響範囲を調査している。 対象情報：「こ・あ・らメール」に登録されたメールアドレス（漏えいの有無は不明）。",
+  "published_on": "2026-11-05",
+  "first_published_on": "2026-11-05",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-05",
+  "verification": "official",
+  "leak_status": "investigating",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "配信サービス提供先 ウイングアークNEX のシステムエンジンを担うアララへの第三者の不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "件数は資料に明記なし。"
+    }
+  ],
+  "data_types": [
+    "「こ・あ・らメール」に登録されたメールアドレス"
+  ],
+  "related_vendor": "アララ株式会社",
+  "sources": [
+    {
+      "url": "https://www.city.kaizuka.lg.jp/juyona_oshirase/haishinteishi.html",
+      "type": "official",
+      "title": "エラー",
+      "published_on": "2026-11-05",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

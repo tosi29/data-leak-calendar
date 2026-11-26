@@ -1,0 +1,47 @@
+{
+  "id": "sweep-de1085146e-20261113",
+  "organization": {
+    "name": "テクノア",
+    "sector": "企業・団体"
+  },
+  "title": "社内業務で利用する「Notion」の提供元 Notion社の委託先 Fireworks AI が第三者の不正アクセスを受け、従業員と Notion AI とのやりとりの一部が外部に漏えいした可能性がある（第一報）",
+  "summary": "社内業務で利用する「Notion」の提供元 Notion社の委託先 Fireworks AI が第三者の不正アクセスを受け、従業員と Notion AI とのやりとりの一部が外部に漏えいした可能性がある（第一報）。同社が提供するシステム・サービスへの影響はない。 対象情報：2026年10月5日〜10月24日に従業員が Notion AI に入力した文章と回答の一部、取引先の会社名・担当者名、打ち合わせの内容などを含む可能性（ページ・データベース・添付ファイルなどは影響なしと Notion社が報告）。",
+  "published_on": "2026-11-13",
+  "first_published_on": "2026-11-13",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-11-10",
+  "updated_on": "2026-11-13",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "社内業務で利用する「Notion」の提供元 Notion社の委託先 Fireworks AI が第三者の不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "非公表（件数の記載なし）。"
+    }
+  ],
+  "data_types": [
+    "取引先の会社名・担当者名",
+    "打ち合わせの内容などを含む可能性"
+  ],
+  "related_vendor": "Fireworks AI",
+  "sources": [
+    {
+      "url": "https://www.technoa.co.jp/news/20261113",
+      "type": "official",
+      "title": "当社が利用するクラウドサービスの委託先への 不正アクセスに関するお知らせ（第一報）",
+      "published_on": "2026-11-13",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

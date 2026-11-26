@@ -1,0 +1,50 @@
+{
+  "id": "sweep-50eb0fde03-20261117",
+  "organization": {
+    "name": "関東食糧（満店プロ市場 楽天市場店・Yahoo!ショッピング店）",
+    "sector": "企業・団体"
+  },
+  "title": "EC サイトの受注管理に利用する GoQSystem のシステムが不正アクセスを受け、楽天市場店・Yahoo!ショッピング店の顧客の一部の個人情報が外部へ流出したことが判明した",
+  "summary": "EC サイトの受注管理に利用する GoQSystem のシステムが不正アクセスを受け、楽天市場店・Yahoo!ショッピング店の顧客の一部の個人情報が外部へ流出したことが判明した。 対象情報：氏名、住所、電話番号、メールアドレス、注文内容。",
+  "published_on": "2026-11-17",
+  "first_published_on": "2026-11-17",
+  "publication_kind": "initial",
+  "occurred_on": "2026-11-10",
+  "detected_on": null,
+  "updated_on": "2026-11-17",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "EC サイトの受注管理に利用する GoQSystem のシステムが不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "件数の記載なし。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "電話番号",
+    "メールアドレス",
+    "注文内容"
+  ],
+  "related_vendor": "株式会社GoQSystem",
+  "sources": [
+    {
+      "url": "https://www.kanto-syokuryo.co.jp/archives/7512",
+      "type": "official",
+      "title": "弊社ECサイトご利用のお客様の個人情報漏えいに関するお知らせとお詫び(第一報) | 関東食糧株式会社",
+      "published_on": "2026-11-17",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

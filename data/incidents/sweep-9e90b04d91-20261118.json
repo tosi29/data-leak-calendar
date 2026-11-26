@@ -1,0 +1,50 @@
+{
+  "id": "sweep-9e90b04d91-20261118",
+  "organization": {
+    "name": "エン",
+    "sector": "企業・団体"
+  },
+  "title": "利用するプレイドの「KARTE」が第三者の不正アクセスを受け、登録していた会員情報の一部が漏えいした",
+  "summary": "利用するプレイドの「KARTE」が第三者の不正アクセスを受け、登録していた会員情報の一部が漏えいした。外部連携を止めて認証情報を無効化し、対象者へ個別に連絡した。個人情報保護委員会へ報告済み。 対象情報：エン転職はユーザーID、性別、年齢、住所、ミドルの転職は企業アカウントのメールアドレスなど。",
+  "published_on": "2026-11-18",
+  "first_published_on": "2026-11-18",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-18",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "利用するプレイドの「KARTE」が第三者の不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "エン転職 求職者情報 545件、ミドルの転職 企業情報 12,474件（11月18日時点）。"
+    }
+  ],
+  "data_types": [
+    "エン転職はユーザーID",
+    "性別",
+    "年齢",
+    "住所",
+    "ミドルの転職は企業アカウントのメールアドレス"
+  ],
+  "related_vendor": "株式会社プレイド",
+  "sources": [
+    {
+      "url": "https://corp.en-japan.com/newsrelease/2026/46717.html",
+      "type": "official",
+      "title": "当社が利用する外部サービス「KARTE」への不正アクセスによるお客様情報の漏えいに関するお詫びとお知らせ | エン株式会社（en Inc.）",
+      "published_on": "2026-11-18",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

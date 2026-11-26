@@ -1,0 +1,44 @@
+{
+  "id": "sweep-b480d7df72-20261118",
+  "organization": {
+    "name": "年金積立金管理運用独立行政法人（GPIF）",
+    "sector": "企業・団体"
+  },
+  "title": "GPIF がメール誤送信防止に利用するデジタルアーツのクラウドサービスの運用環境等が不正アクセスを受け、役職員が業務で送信したメールのメールアドレスの一部が第三者に閲覧された可能性がある",
+  "summary": "GPIF がメール誤送信防止に利用するデジタルアーツのクラウドサービスの運用環境等が不正アクセスを受け、役職員が業務で送信したメールのメールアドレスの一部が第三者に閲覧された可能性がある。11月18日に件数を確認した。同社からは11月17日時点で情報の持ち出し・悪用は確認されていないと報告を受けている。11月16日に個人情報保護委員会へ報告した。 対象情報：2026年3月30日〜10月12日に GPIF から送信されたメールのメールアドレスなど。",
+  "published_on": "2026-11-18",
+  "first_published_on": "2026-11-18",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-18",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "GPIF がメール誤送信。"
+  },
+  "impact": [
+    {
+      "count": 8859,
+      "unit": "records",
+      "qualifier": "maximum",
+      "description": "最大8,859件（メールアドレス）。"
+    }
+  ],
+  "data_types": [],
+  "related_vendor": "デジタルアーツ株式会社",
+  "sources": [
+    {
+      "url": "https://www.gpif.go.jp/topics/release/release_20261118.pdf",
+      "type": "official",
+      "title": "情報セキュリティサービスの提供事業者に対する不正アクセスについて",
+      "published_on": "2026-11-18",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

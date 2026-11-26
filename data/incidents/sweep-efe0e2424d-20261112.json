@@ -1,0 +1,53 @@
+{
+  "id": "sweep-efe0e2424d-20261112",
+  "organization": {
+    "name": "千葉興業銀行",
+    "sector": "企業・団体"
+  },
+  "title": "保証会社SMBCコンシューマーファイナンスの保証業務システムが第三者の不正アクセスを受け、両商品を契約した一部の顧客の個人情報が漏えいしたと同社から報告を受けた",
+  "summary": "保証会社SMBCコンシューマーファイナンスの保証業務システムが第三者の不正アクセスを受け、両商品を契約した一部の顧客の個人情報が漏えいしたと同社から報告を受けた。現時点で不正利用は確認されていない。 対象情報：運転免許証番号、勤務先情報（電話番号、年収等）、2002年3月〜2014年1月に申し込み、承諾となった顧客の一部の氏名、性別、生年月日、住所、電話番号、メールアドレス、契約情報（金融機関コード、顧客番号、保証額、保証開始日等）など。",
+  "published_on": "2026-11-12",
+  "first_published_on": "2026-11-12",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-11-05",
+  "updated_on": "2026-11-12",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "保証会社SMBCコンシューマーファイナンスの保証業務システムが第三者の不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 3398,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "3,398名。"
+    }
+  ],
+  "data_types": [
+    "運転免許証番号",
+    "勤務先情報",
+    "2002年3月〜2014年1月に申し込み",
+    "承諾となった顧客の一部の氏名",
+    "性別",
+    "生年月日",
+    "住所",
+    "電話番号"
+  ],
+  "related_vendor": "SMBCコンシューマーファイナンス",
+  "sources": [
+    {
+      "url": "https://www.chibakogyo-bank.co.jp/news/important/of_ja_important_2_1.html",
+      "type": "official",
+      "title": "SMBCコンシューマーファイナンス株式会社の保証システムへの不正アクセスによるお客さま情報の漏えいについて | 株式会社千葉興業銀行",
+      "published_on": "2026-11-12",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

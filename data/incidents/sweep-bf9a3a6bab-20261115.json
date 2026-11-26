@@ -1,0 +1,50 @@
+{
+  "id": "sweep-bf9a3a6bab-20261115",
+  "organization": {
+    "name": "rutsch（足と靴の店ルッチェ 楽天市場店・Yahoo!ショッピング店）",
+    "sector": "企業・団体"
+  },
+  "title": "受注・発送業務に利用する GoQSystem が脆弱性を悪用した不正アクセスを受け、当店の注文情報の一部が外部に漏えいしていたことが確認された",
+  "summary": "受注・発送業務に利用する GoQSystem が脆弱性を悪用した不正アクセスを受け、当店の注文情報の一部が外部に漏えいしていたことが確認された。 対象情報：注文者・届け先の氏名、住所、電話番号、メールアドレス、注文内容など。",
+  "published_on": "2026-11-15",
+  "first_published_on": "2026-11-15",
+  "publication_kind": "initial",
+  "occurred_on": "2026-11-10",
+  "detected_on": null,
+  "updated_on": "2026-11-15",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "受注・発送業務に利用する GoQSystem が脆弱性を悪用した不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "注文966件（楽天市場944件、Yahoo!ショッピング22件）、957人。"
+    }
+  ],
+  "data_types": [
+    "注文者・届け先の氏名",
+    "住所",
+    "電話番号",
+    "メールアドレス",
+    "注文内容"
+  ],
+  "related_vendor": "株式会社GoQSystem",
+  "sources": [
+    {
+      "url": "https://store.shopping.yahoo.co.jp/rutsch/a1dabdc5cd.html",
+      "type": "official",
+      "title": "【重要】お客様の個人情報漏えいに関するお詫びとお知らせ - ルッチェ - 通販 - Yahoo!ショッピング",
+      "published_on": "2026-11-15",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

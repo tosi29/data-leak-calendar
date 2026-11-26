@@ -1,0 +1,50 @@
+{
+  "id": "sweep-08f14cfc5e-20261112",
+  "organization": {
+    "name": "baton",
+    "sector": "企業・団体"
+  },
+  "title": "物流業務を委託するオープンロジのシステムが2026年11月8日から9日にかけて第三者の不正アクセスを受け、出荷データの一部が外部へ持ち出された",
+  "summary": "物流業務を委託するオープンロジのシステムが2026年11月8日から9日にかけて第三者の不正アクセスを受け、出荷データの一部が外部へ持ち出された。同社が2026年4月8日〜11月8日に依頼した出荷データが対象で、「QurioStore」の利用者のほか、同社から商品を届けた個人と企業・団体の担当者の情報も影響を受けた可能性がある。二次被害は確認されていない。 対象情報：お届け先の氏名、住所、電話番号、メールアドレス（登録がある場合）、商品情報（商品名・数量等）など。",
+  "published_on": "2026-11-12",
+  "first_published_on": "2026-11-12",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-12",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "物流業務を委託するオープンロジのシステムが2026年11月8日から9日にかけて第三者の不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "非公表（オープンロジが調査中）。"
+    }
+  ],
+  "data_types": [
+    "お届け先の氏名",
+    "住所",
+    "電話番号",
+    "メールアドレス",
+    "商品情報"
+  ],
+  "related_vendor": "株式会社オープンロジ",
+  "sources": [
+    {
+      "url": "https://quriostore.com/blogs/news/openlogi-security-notice",
+      "type": "official",
+      "title": "【重要】物流業務委託先（株式会社オープンロジ）における不正アクセスによる個人情報漏えいに関するお知らせ – QurioStore",
+      "published_on": "2026-11-12",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

@@ -1,0 +1,48 @@
+{
+  "id": "sweep-f4f9308f80-20261117",
+  "organization": {
+    "name": "MOSH",
+    "sector": "企業・団体"
+  },
+  "title": "Notion の委託先 Fireworks AI 社のシステムが不正アクセスを受け、従業員が2026年10月5日〜10月24日に Notion AI に入力した内容と応答の一部が漏えいしたおそれがある",
+  "summary": "Notion の委託先 Fireworks AI 社のシステムが不正アクセスを受け、従業員が2026年10月5日〜10月24日に Notion AI に入力した内容と応答の一部が漏えいしたおそれがある。個人情報保護委員会に報告した。 対象情報：クリエイター名・取引に関する情報（一部は売上・取引条件、銀行口座情報の一部、メールアドレス）、ゲストの氏名・取引に関する情報、応募者の氏名・選考に関する情報など。",
+  "published_on": "2026-11-17",
+  "first_published_on": "2026-11-17",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-11-10",
+  "updated_on": "2026-11-17",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "Notion の委託先 Fireworks AI 社のシステムが不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "クリエイター66名、ゲスト10名、採用応募者2名。"
+    }
+  ],
+  "data_types": [
+    "クリエイター名・取引に関する情報",
+    "ゲストの氏名・取引に関する情報",
+    "応募者の氏名・選考に関する情報"
+  ],
+  "related_vendor": "Fireworks AI",
+  "sources": [
+    {
+      "url": "https://mosh.jp/news/20261117-2",
+      "type": "official",
+      "title": "当社が社内で利用する業務ツールの提供事業者の委託先への不正アクセスに伴う、お客様情報の漏えいのおそれに関するお詫びとお知らせ",
+      "published_on": "2026-11-17",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

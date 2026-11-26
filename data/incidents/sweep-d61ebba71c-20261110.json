@@ -1,0 +1,46 @@
+{
+  "id": "sweep-d61ebba71c-20261110",
+  "organization": {
+    "name": "群馬県教育文化事業団",
+    "sector": "企業・団体"
+  },
+  "title": "主催事業の観覧申込みに使っている電子チケット販売サービス「teket」が外部から不正アクセスを受け、客の情報の一部が第三者に流出したと teket から報告を受けた",
+  "summary": "主催事業の観覧申込みに使っている電子チケット販売サービス「teket」が外部から不正アクセスを受け、客の情報の一部が第三者に流出したと teket から報告を受けた。teket で販売中のイベントは予定どおり開催し、申込済みの人は購入完了メールの提示で入場できる。teket を使って開催した過去の事業は2025年9月〜2026年9月の6件（星空コンサート、グリーンコンサート2025、第13回GUNMAマンガ・アニメフェスタ関連のトークショー2件、県民芸術祭50周年記念「アートライブ」）。 対象情報：teket に登録された客の情報の一部（項目は資料に明記なし。teket の発表を確かめるよう案内）。",
+  "published_on": "2026-11-10",
+  "first_published_on": "2026-11-10",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-10",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "主催事業の観覧申込みに使っている電子チケット販売サービス「teket」が外部から不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "資料に明記なし。"
+    }
+  ],
+  "data_types": [
+    "teket に登録された客の情報の一部"
+  ],
+  "related_vendor": "株式会社teket",
+  "sources": [
+    {
+      "url": "https://www1.gunmabunkazigyodan.or.jp/12187.html",
+      "type": "official",
+      "title": "電子チケット販売サービス「teket」への不正アクセスおよびイベント開催に関するご案内 ｜公益財団法人群馬県教育文化事業団",
+      "published_on": "2026-11-10",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

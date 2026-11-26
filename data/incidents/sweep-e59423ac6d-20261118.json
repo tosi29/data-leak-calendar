@@ -1,0 +1,47 @@
+{
+  "id": "sweep-e59423ac6d-20261118",
+  "organization": {
+    "name": "東京都 スタートアップ戦略推進本部",
+    "sector": "自治体"
+  },
+  "title": "コンソーシアムの事務局業務の受託事業者が、会員団体の担当者に事務連絡のメールを分割して送った際、一部の送信先452名のメールアドレスを BCC ではなく CC 欄に入れて送った",
+  "summary": "コンソーシアムの事務局業務の受託事業者が、会員団体の担当者に事務連絡のメールを分割して送った際、一部の送信先452名のメールアドレスを BCC ではなく CC 欄に入れて送った。担当者がダブルチェックの手続を省いていた。対象者全員にメールと電話で謝罪し、メールの削除を依頼した。二次被害はない。 対象情報：会員団体の担当者のメールアドレス、氏名など。",
+  "published_on": "2026-11-18",
+  "first_published_on": "2026-11-18",
+  "publication_kind": "initial",
+  "occurred_on": "2026-11-16",
+  "detected_on": "2026-11-17",
+  "updated_on": "2026-11-18",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "accident",
+  "cause": {
+    "category": "misdelivery",
+    "certainty": "confirmed",
+    "detail": "コンソーシアムの事務局業務の受託事業者が、会員団体の担当者に事務連絡のメールを分割して送った際、一部の送信先452名のメールアドレスを BCC ではなく CC 欄に入れて送った。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "317団体の担当者452名（メールアドレス。うち341名は氏名も）。"
+    }
+  ],
+  "data_types": [
+    "会員団体の担当者のメールアドレス",
+    "氏名"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.metro.tokyo.lg.jp/information/press/2026/11/2026111811",
+      "type": "official",
+      "title": "個人情報の漏えいについて|11月|都庁総合ホームページ",
+      "published_on": "2026-11-18",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

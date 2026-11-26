@@ -1,0 +1,46 @@
+{
+  "id": "sweep-0b5477b3c7-20261118",
+  "organization": {
+    "name": "日本リカー（Your Cellar）",
+    "sector": "企業・団体"
+  },
+  "title": "「Your Cellar」のEC関連サービスが使う「アララメッセージ」への不正アクセスで顧客のメールアドレス2,245件が漏えい",
+  "summary": "オンラインショップ「Your Cellar」のEC関連サービスの委託先 GMOメイクショップの「makeshop byGMO」が使うアララのメール配信サービス「アララメッセージ」が第三者の不正アクセスを受け、一部の顧客のメールアドレスの漏えいを確認した。同サービスでのメール配信は停止しており、二次被害は確認されていない。 対象情報：会員登録者・ゲスト購入者のメールアドレスなど。",
+  "published_on": "2026-11-18",
+  "first_published_on": "2026-11-18",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-18",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "オンラインショップ「Your Cellar」のEC関連サービスの委託先 GMOメイクショップの「makeshop byGMO」が使うアララのメール配信サービス「アララメッセージ」が第三者の不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 2245,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "2,245件。"
+    }
+  ],
+  "data_types": [
+    "会員登録者・ゲスト購入者のメールアドレス"
+  ],
+  "related_vendor": "アララ株式会社",
+  "sources": [
+    {
+      "url": "https://www.kirinholdings.com/jp/newsroom/release/2026/1118_03.pdf",
+      "type": "official",
+      "title": "業務委託先への不正アクセスによる",
+      "published_on": "2026-11-18",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

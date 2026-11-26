@@ -1,0 +1,47 @@
+{
+  "id": "sweep-e47b8bdbbe-20261118",
+  "organization": {
+    "name": "高砂市（市立こども園）",
+    "sector": "自治体"
+  },
+  "title": "市立公立こども園で使う「ルクミー」を提供するユニファから、同社が案内配信・利用状況分析に利用する外部サービス「KARTE」（プレイド提供）が第三者の不正アクセスを受け、登録されている情報の一部が流出したと報告を受けた",
+  "summary": "市立公立こども園で使う「ルクミー」を提供するユニファから、同社が案内配信・利用状況分析に利用する外部サービス「KARTE」（プレイド提供）が第三者の不正アクセスを受け、登録されている情報の一部が流出したと報告を受けた。KARTE との連携は停止し、詳細はユニファがプレイドと調査中。 対象情報：ルクミーを利用した保護者のメールアドレス・氏名、子の生年月日など。",
+  "published_on": "2026-11-18",
+  "first_published_on": "2026-11-18",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-18",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "市立公立こども園で使う「ルクミー」を提供するユニファから、同社が案内配信・利用状況分析に利用する外部サービス「KARTE」（プレイド提供）が第三者の不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "非公表。"
+    }
+  ],
+  "data_types": [
+    "ルクミーを利用した保護者のメールアドレス・氏名",
+    "子の生年月日"
+  ],
+  "related_vendor": "株式会社プレイド",
+  "sources": [
+    {
+      "url": "https://www.city.takasago.lg.jp/soshikikarasagasu/yojihoikuka/14445.html",
+      "type": "official",
+      "title": "高砂市（市立こども園）のお知らせ",
+      "published_on": "2026-11-18",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

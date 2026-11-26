@@ -1,0 +1,46 @@
+{
+  "id": "unifa-oproarts-arara-20261111",
+  "organization": {
+    "name": "ユニファ（請求書類のメール送付）",
+    "sector": "企業・団体"
+  },
+  "title": "請求書類のメール送付に使う「oproarts Drive」のメール配信基盤アララへの不正アクセスで、送付先のメールアドレス3,974件が漏えい",
+  "summary": "請求書類のメール送付に利用するオプロの「oproarts Drive」（Fleekdrive基盤）のメール配信に使われていたアララの「アララ メッセージ」が第三者の不正アクセスを受け、請求書類を送った宛先のメールアドレス3,974件が外部へ漏えいした。請求書類の内容は漏えいしていないとしている。",
+  "published_on": "2026-11-11",
+  "first_published_on": "2026-11-11",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-11-09",
+  "updated_on": "2026-11-11",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "請求書類のメール送付に使う「oproarts Drive」（基盤はFleekdrive）のメール配信に使われていたアララ株式会社の「アララ メッセージ」への第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 3974,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "請求書類を送付した宛先のメールアドレス。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "アララ株式会社",
+  "sources": [
+    {
+      "url": "https://unifa-e.com/news/info/20261111-info_news",
+      "type": "official",
+      "title": "請求書類のメール送付に利用している外部サービスへの不正アクセスに関するお知らせ",
+      "published_on": "2026-11-11",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

@@ -1,0 +1,46 @@
+{
+  "id": "sweep-78af3db9e3-20261113",
+  "organization": {
+    "name": "ソーシャルPLUS",
+    "sector": "企業・団体"
+  },
+  "title": "Notion AI の処理を担う Fireworks AI社のシステムが第三者の不正アクセスを受け、従業員が Notion AI とやりとりした記録の一部が外部に流出した可能性がある",
+  "summary": "Notion AI の処理を担う Fireworks AI社のシステムが第三者の不正アクセスを受け、従業員が Notion AI とやりとりした記録の一部が外部に流出した可能性がある。含まれる情報と件数を精査し、個人情報保護委員会などへ報告した。自社サービスのシステムのデータは対象外。 対象情報：Notion AI とのやりとりの記録の一部など。",
+  "published_on": "2026-11-13",
+  "first_published_on": "2026-11-13",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-11-11",
+  "updated_on": "2026-11-13",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "Notion AI の処理を担う Fireworks AI社のシステムが第三者の不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "調査中。"
+    }
+  ],
+  "data_types": [
+    "Notion AI とのやりとりの記録の一部"
+  ],
+  "related_vendor": "Fireworks AI",
+  "sources": [
+    {
+      "url": "https://www.socialplus.jp/newsrelease/20261113",
+      "type": "official",
+      "title": "外部サービス「Notion」のAI機能の委託先への不正アクセスに関するお知らせ（当社提供サービスへの影響はありません） | ソーシャルログイン / ID連携の導入・実装支援サービス「ソーシャルPLUS」",
+      "published_on": "2026-11-13",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

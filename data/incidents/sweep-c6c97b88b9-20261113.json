@@ -1,0 +1,47 @@
+{
+  "id": "sweep-c6c97b88b9-20261113",
+  "organization": {
+    "name": "LegalOn Technologies",
+    "sector": "企業・団体"
+  },
+  "title": "Notion社が Notion AI の利用状況の分析機能（Insights）に使っていた Fireworks社のサービスへの不正アクセスで、Notion AI のやり取りの記録の一部が流出した可能性がある",
+  "summary": "Notion社が Notion AI の利用状況の分析機能（Insights）に使っていた Fireworks社のサービスへの不正アクセスで、Notion AI のやり取りの記録の一部が流出した可能性がある。含まれる情報の内容と範囲を精査している。自社製品のシステムは影響を受けていない。 対象情報：Notion AI のやり取りの記録に含まれる顧客・取引先の会社名、担当者の氏名、メールアドレス等。",
+  "published_on": "2026-11-13",
+  "first_published_on": "2026-11-13",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-11-11",
+  "updated_on": "2026-11-13",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "Notion社が Notion AI の利用状況の分析機能（Insights）に使っていた Fireworks社のサービスへの不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "調査中。"
+    }
+  ],
+  "data_types": [
+    "担当者の氏名",
+    "メールアドレス"
+  ],
+  "related_vendor": "Fireworks AI",
+  "sources": [
+    {
+      "url": "https://legalontech.jp/11330/",
+      "type": "official",
+      "title": "--><!--",
+      "published_on": "2026-11-13",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

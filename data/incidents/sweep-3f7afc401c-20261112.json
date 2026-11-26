@@ -1,0 +1,49 @@
+{
+  "id": "sweep-3f7afc401c-20261112",
+  "organization": {
+    "name": "アソビズム（城とドラゴン ECサイト）",
+    "sector": "企業・団体"
+  },
+  "title": "物流業務の委託先オープンロジのシステムへの不正アクセスで、ECサイトの商品のお届け先の個人情報が外部に持ち出されたと同社が公表した",
+  "summary": "物流業務の委託先オープンロジのシステムへの不正アクセスで、ECサイトの商品のお届け先の個人情報が外部に持ち出されたと同社が公表した。対象の範囲と件数は委託先と調査中。 対象情報：委託先オープンロジに出荷を依頼した商品のお届け先の氏名、住所、電話番号、メールアドレス、商品情報（商品名・数量等）。",
+  "published_on": "2026-11-12",
+  "first_published_on": "2026-11-12",
+  "publication_kind": "initial",
+  "occurred_on": "2026-11-08",
+  "detected_on": null,
+  "updated_on": "2026-11-12",
+  "verification": "official",
+  "leak_status": "investigating",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "物流業務の委託先オープンロジのシステムへの不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "調査中。"
+    }
+  ],
+  "data_types": [
+    "住所",
+    "電話番号",
+    "メールアドレス",
+    "商品情報"
+  ],
+  "related_vendor": "株式会社オープンロジ",
+  "sources": [
+    {
+      "url": "https://news.asobism.co.jp/social/shirodora/news/news_261112/",
+      "type": "official",
+      "title": "【重要】物流業務委託先への不正アクセスによる個人情報漏えいに関するお詫びとお知らせ | News | 城とドラゴン (城ドラ)公式サイト | アソビズム",
+      "published_on": "2026-11-12",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

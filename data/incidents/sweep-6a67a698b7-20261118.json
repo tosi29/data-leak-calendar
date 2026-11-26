@@ -1,0 +1,47 @@
+{
+  "id": "sweep-6a67a698b7-20261118",
+  "organization": {
+    "name": "SIRE（ECHOES）",
+    "sector": "企業・団体"
+  },
+  "title": "メール配信等に利用するプレイドの「KARTE」への第三者の不正アクセスで、同社が KARTE に連携していた ECHOES 会員の情報の一部が漏えいした",
+  "summary": "メール配信等に利用するプレイドの「KARTE」への第三者の不正アクセスで、同社が KARTE に連携していた ECHOES 会員の情報の一部が漏えいした。認証情報を無効化・切り替え、東京都に報告した。 対象情報：メールアドレス（全員）、氏名・住所・電話番号など。",
+  "published_on": "2026-11-18",
+  "first_published_on": "2026-11-18",
+  "publication_kind": "initial",
+  "occurred_on": "2026-11-13",
+  "detected_on": null,
+  "updated_on": "2026-11-18",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "メール配信等に利用するプレイドの「KARTE」への第三者の不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 30000,
+      "unit": "records",
+      "qualifier": "maximum_approximate",
+      "description": "最大約3万件（重複の可能性があり精査で減る可能性あり）。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス",
+    "氏名・住所・電話番号"
+  ],
+  "related_vendor": "株式会社プレイド",
+  "sources": [
+    {
+      "url": "https://pro-open-s301echoes.s3.ap-northeast-1.amazonaws.com/pdf/20261118.pdf",
+      "type": "official",
+      "title": "スによる会員情報漏洩に関するお知らせとお詫び",
+      "published_on": "2026-11-18",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

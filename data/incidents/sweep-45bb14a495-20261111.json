@@ -1,0 +1,52 @@
+{
+  "id": "sweep-45bb14a495-20261111",
+  "organization": {
+    "name": "グレイ・パーカー・サービス",
+    "sector": "企業・団体"
+  },
+  "title": "物流サービスの提供事業者オープンロジのシステムが不正アクセスを受け、同社が保有する出荷データに含まれるお届け先の個人情報などが外部に持ち出された",
+  "summary": "物流サービスの提供事業者オープンロジのシステムが不正アクセスを受け、同社が保有する出荷データに含まれるお届け先の個人情報などが外部に持ち出された。対象は同社運営の4店舗（ちいかわくじ、ナガノくじ、mofusandくじ、グレイ・パーカー・サービス オンラインくじストア）。対象者には購入時のメールアドレスへ順次連絡する。 対象情報：お届け先の氏名・住所・電話番号、購入元ストア名、商品の数量、追跡番号、注文番号（引き換え番号）、配送データの連携日時、出荷日など。",
+  "published_on": "2026-11-11",
+  "first_published_on": "2026-11-11",
+  "publication_kind": "initial",
+  "occurred_on": "2026-11-08",
+  "detected_on": "2026-11-10",
+  "updated_on": "2026-11-11",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "物流サービスの提供事業者オープンロジのシステムが不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "非公表（2026年4月8日〜11月8日にオープンロジへ出荷を依頼したデータ）。"
+    }
+  ],
+  "data_types": [
+    "お届け先の氏名・住所・電話番号",
+    "購入元ストア名",
+    "商品の数量",
+    "追跡番号",
+    "注文番号",
+    "配送データの連携日時",
+    "出荷日"
+  ],
+  "related_vendor": "株式会社オープンロジ",
+  "sources": [
+    {
+      "url": "https://grayparkaservice.com/blogs/info/%E3%81%8A%E8%A9%AB%E3%81%B3%E3%81%A8%E3%81%94%E5%A0%B1%E5%91%8A-%E7%89%A9%E6%B5%81%E4%BA%8B%E6%A5%AD%E8%80%85%E3%81%B8%E3%81%AE%E4%B8%8D%E6%AD%A3%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E3%81%AB%E3%82%88%E3%82%8B%E5%80%8B%E4%BA%BA%E6%83%85%E5%A0%B1%E6%BC%8F%E3%81%88%E3%81%84%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6",
+      "type": "official",
+      "title": "【お詫びとご報告】物流事業者への不正アクセスによる個人情報漏えいについて – グレイ・パーカー・サービス",
+      "published_on": "2026-11-11",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

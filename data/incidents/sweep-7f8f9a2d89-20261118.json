@@ -1,0 +1,49 @@
+{
+  "id": "sweep-7f8f9a2d89-20261118",
+  "organization": {
+    "name": "東広島市（公立保育施設）",
+    "sector": "自治体"
+  },
+  "title": "保育施設で使う「ルクミー」の運営者ユニファが利用する「KARTE」への不正アクセスで、施設と保護者の情報の一部が漏えいした可能性",
+  "summary": "公立保育施設と一部の民間保育施設で使う「ルクミー」の運営者ユニファが利用する外部ツール「KARTE」が第三者の不正アクセスを受け、ルクミーを利用していた施設と保護者の情報の一部が外部へ漏えいした可能性があるとユニファから報告を受けた。不審なメールへの注意を呼びかけている。 対象情報：施設のメールアドレス、ログインに使う識別番号、保護者のメールアドレス・氏名、子の生年月日など。",
+  "published_on": "2026-11-18",
+  "first_published_on": "2026-11-18",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-18",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "公立保育施設と一部の民間保育施設で使う「ルクミー」の運営者ユニファが利用する外部ツール「KARTE」が第三者の不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "非公表。"
+    }
+  ],
+  "data_types": [
+    "施設のメールアドレス",
+    "ログインに使う識別番号",
+    "保護者のメールアドレス・氏名",
+    "子の生年月日"
+  ],
+  "related_vendor": "株式会社プレイド",
+  "sources": [
+    {
+      "url": "https://www.city.higashihiroshima.lg.jp/soshiki/kodomomirai/2/7/46466.html",
+      "type": "official",
+      "title": "「ルクミー」外部サービスへの不正アクセスによる個人情報の流出に伴う注意喚起（11/18更新）／東広島市ホームページ",
+      "published_on": "2026-11-18",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

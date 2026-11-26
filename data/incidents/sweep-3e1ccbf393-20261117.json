@@ -1,0 +1,49 @@
+{
+  "id": "sweep-3e1ccbf393-20261117",
+  "organization": {
+    "name": "ハピキャン（ハピキャンストア）",
+    "sector": "企業・団体"
+  },
+  "title": "ハピキャンストアの配送業務委託先オープンロジへの不正アクセスで、当社のお届け先情報が外部に持ち出されたとの報告を受けた",
+  "summary": "ハピキャンストアの配送業務委託先オープンロジへの不正アクセスで、当社のお届け先情報が外部に持ち出されたとの報告を受けた。対象は2026年4月8日〜11月8日に出荷を依頼した「ハピキャンバスケット」。 対象情報：委託先オープンロジに出荷を依頼した商品のお届け先の氏名、住所、電話番号、メールアドレス、商品情報（商品名・数量等）。",
+  "published_on": "2026-11-17",
+  "first_published_on": "2026-11-17",
+  "publication_kind": "initial",
+  "occurred_on": "2026-11-08",
+  "detected_on": null,
+  "updated_on": "2026-11-17",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "ハピキャンストアの配送業務委託先オープンロジへの不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "資料に明記なし。"
+    }
+  ],
+  "data_types": [
+    "住所",
+    "電話番号",
+    "メールアドレス",
+    "商品情報"
+  ],
+  "related_vendor": "株式会社オープンロジ",
+  "sources": [
+    {
+      "url": "https://happycamper.jp/20084147/",
+      "type": "official",
+      "title": "【重要】お客様情報の漏えいに関するお知らせ - ハピキャン｜キャンプ・アウトドア情報メディア",
+      "published_on": "2026-11-17",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

@@ -1,0 +1,49 @@
+{
+  "id": "sweep-9378460fd9-20261112",
+  "organization": {
+    "name": "RECEPTIONIST",
+    "sector": "企業・団体"
+  },
+  "title": "業務で使うNotion AIの処理委託先Fireworks AIへの不正アクセスで、社外の方53名分などを含むやり取りの記録が流出した可能性",
+  "summary": "業務で利用する「Notion」の AI 機能の処理を Notion社が委託していた Fireworks AI社の環境が第三者の不正アクセスを受け、従業員が Notion AI を利用した際のやり取りの記録の一部が外部に流出した可能性がある。第三者による取得の有無は確定していないが、流出したものとみなして対応している。同社サービス（RECEPTIONIST、調整アポ、予約ルームズなど）のシステムと登録データは影響を受けていない。対象者には個別に連絡し、個人情報保護委員会に報告する。不正利用は確認されていない。 対象情報：2026年10月5日〜10月23日の Notion AI でのやり取りの記録の一部に含まれる社外の方53名分の氏名、会社名、電話番号、メールアドレス、問い合わせの内容等（対象者により異なる）と従業員の情報など。",
+  "published_on": "2026-11-12",
+  "first_published_on": "2026-11-12",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-12",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "業務で利用する「Notion」の AI 機能の処理を Notion社が委託していた Fireworks AI社の環境が第三者の不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "社外の方53名分（ほかに従業員の情報）。"
+    }
+  ],
+  "data_types": [
+    "会社名",
+    "電話番号",
+    "メールアドレス",
+    "問い合わせの内容等と従業員の情報"
+  ],
+  "related_vendor": "Fireworks AI",
+  "sources": [
+    {
+      "url": "https://receptionist.co.jp/news/20261112-notice",
+      "type": "official",
+      "title": "当社が利用するクラウドサービスの委託先への不正アクセスによる情報流出の可能性に関するお知らせ｜株式会社RECEPTIONIST",
+      "published_on": "2026-11-12",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

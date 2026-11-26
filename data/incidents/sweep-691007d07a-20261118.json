@@ -1,0 +1,46 @@
+{
+  "id": "sweep-691007d07a-20261118",
+  "organization": {
+    "name": "ミツモア",
+    "sector": "企業・団体"
+  },
+  "title": "「ミツモア」のメールマガジン・LINE 配信などに利用するプレイドの「KARTE」が、サーバーの脆弱性を悪用した不正アクセスを受け、KARTE に連携していた顧客情報の一部が外部に漏えいした",
+  "summary": "「ミツモア」のメールマガジン・LINE 配信などに利用するプレイドの「KARTE」が、サーバーの脆弱性を悪用した不正アクセスを受け、KARTE に連携していた顧客情報の一部が外部に漏えいした。自社システムへの不正アクセスは確認されておらず、連携用の認証情報を無効化し、KARTE への連携を停止した。11月18日に総務省へ報告し、対象者へのメール連絡を始めた。11月16日公表の自社システムへの不正アクセスとは別の事案。 対象情報：氏名・メールアドレス・電話番号・生年月日のいずれか、会員ごとの識別番号・都道府県など。",
+  "published_on": "2026-11-18",
+  "first_published_on": "2026-11-18",
+  "publication_kind": "initial",
+  "occurred_on": "2026-11-13",
+  "detected_on": "2026-11-13",
+  "updated_on": "2026-11-18",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "「ミツモア」のメールマガジン・LINE 配信などに利用するプレイドの「KARTE」が、サーバーの脆弱性を悪用した不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "氏名・メールアドレス・電話番号・生年月日のいずれかを含む60,000人、識別番号・都道府県のみ3,398,469人。"
+    }
+  ],
+  "data_types": [
+    "会員ごとの識別番号・都道府県"
+  ],
+  "related_vendor": "株式会社プレイド",
+  "sources": [
+    {
+      "url": "https://company.meetsmore.com/page/notice-20261118-karte",
+      "type": "official",
+      "title": "業務委託先のクラウドサービス「KARTE」への不正アクセスによる個人情報漏えいに関するお詫びとお知らせ（11月25日追記）",
+      "published_on": "2026-11-18",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}
