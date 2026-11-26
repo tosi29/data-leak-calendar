@@ -11,7 +11,7 @@
   "publication_kind": "initial",
   "occurred_on": null,
   "detected_on": null,
-  "updated_on": "2026-10-20",
+  "updated_on": "2026-11-24",
   "verification": "official",
   "leak_status": "confirmed",
   "incident_type": "attack",
@@ -39,8 +39,21 @@
       "title": "外部連携APIサーバーからのバス予約情報流出",
       "published_on": "2026-10-15",
       "checked_on": "2026-10-20"
+    },
+    {
+      "url": "https://secure.j-bus.co.jp/hon/News?code=1",
+      "type": "official",
+      "title": "発車オ～ライネット お知らせ一覧 - 発車オーライネット - 発車オ～ライネット",
+      "published_on": "2026-11-24",
+      "checked_on": "2026-11-26"
     }
   ],
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-11-24",
+      "summary": "第二報で、別件としてIDとパスワードによる不正ログインが約28万アカウントで成功していたことを確認したが、閲覧などの操作の形跡はないと公表。",
+      "source_index": 1
+    }
+  ],
   "notes": "対象人数欄は原文で5,614件と表記されているため、人数へ無条件に読み替えない。"
 }

@@ -1551,11 +1551,12 @@
     "reported_on": "2026-11-13",
     "verification": "pending",
     "reference_url": "https://eicoh.com/news/detail/127",
-    "reviewed_on": "2026-11-16",
+    "reviewed_on": "2026-11-26",
     "checked_urls": [
-      "https://eicoh.com/news/detail/127"
+      "https://eicoh.com/news/detail/127",
+      "https://eicoh.com/news/detail/129"
     ],
-    "note": "2026年11月16日調査：11月9日のランサムウェア被害を公表。情報の外部流出の有無は調査中で、個人情報への影響は未記載のため保留。"
+    "note": "2026年11月16日調査：11月9日のランサムウェア被害を公表。情報の外部流出の有無は調査中で、個人情報への影響は未記載のため保留。 2026年11月26日調査：11月24日の第2報で攻撃者による保有情報の一部の開示を確認したと公表したが、個人情報への影響は記載がなく継続。"
   },
   {
     "id": "nov18-radiko-karte-review",
@@ -1612,12 +1613,13 @@
     "reported_on": "2026-11-18",
     "verification": "pending",
     "reference_url": "https://www.release.tdnet.info/inbs/140120261118582902.pdf",
-    "reviewed_on": "2026-11-20",
+    "reviewed_on": "2026-11-26",
     "checked_urls": [
       "https://www.release.tdnet.info/inbs/140120261118582902.pdf",
-      "https://www.release.tdnet.info/inbs/140120261120584422.pdf"
+      "https://www.release.tdnet.info/inbs/140120261120584422.pdf",
+      "https://www.release.tdnet.info/inbs/140120261125586202.pdf"
     ],
-    "note": "2026年11月18日調査：ランサムウェアによる生産停止を公表。データ流出の可能性は調査中で、個人情報への影響は記載がなく保留。 2026年11月20日再調査：第二報でVPN機器経由の侵入とダークウェブ上の技術情報の掲載を公表。個人情報の漏えいは確認されておらず継続。"
+    "note": "2026年11月18日調査：ランサムウェアによる生産停止を公表。データ流出の可能性は調査中で、個人情報への影響は記載がなく保留。 2026年11月20日再調査：第二報でVPN機器経由の侵入とダークウェブ上の技術情報の掲載を公表。個人情報の漏えいは確認されておらず継続。 2026年11月26日調査：11月25日の第三報で社内システムから外部のクラウド型ストレージへのデータ送信を確認したが、送信された情報の内容と範囲は調査中で個人情報への影響の記載がなく継続。"
   },
   {
     "id": "nov20-tokyo-japanticket-review",
@@ -1678,5 +1680,185 @@
       "https://www.release.tdnet.info/inbs/140120261120583955.pdf"
     ],
     "note": "2026年11月20日調査：連結子会社が運営するオンライン結婚相談所「スマリッジ」への不正アクセスとサービス停止を公表。個人情報漏えいの有無は調査中で、影響が記載されていないため保留。"
+  },
+  {
+    "id": "nov26-tower-records-review",
+    "organization": "タワーレコード（タワーレコードオンライン）",
+    "reported_on": "2026-11-21",
+    "verification": "pending",
+    "reference_url": "https://tower.jp/",
+    "reviewed_on": "2026-11-26",
+    "checked_urls": [
+      "https://tower.jp/"
+    ],
+    "note": "2026年11月26日調査：公表索引ではECサイトへの不正アクセスでメンバーズ登録者の個人情報約1,100万件（ログイン情報10,214,652件、会員情報2,784,514件、配送先情報776,953件）の流出を確認とされるが、公式サイトが503応答で本文を確認できず保留。"
+  },
+  {
+    "id": "nov26-suntory-wellness-karte-review",
+    "organization": "サントリーウエルネス（Comado、KARTE）",
+    "reported_on": "2026-11-19",
+    "verification": "pending",
+    "reference_url": "https://www.suntory-kenko.com/information/273/",
+    "reviewed_on": "2026-11-26",
+    "checked_urls": [
+      "https://www.suntory-kenko.com/information/273/"
+    ],
+    "note": "2026年11月26日調査：公表索引ではアプリ「Comado」の連携情報最大947,667件が漏えいとされるが、公式ページが応答せず本文を確認できず保留。"
+  },
+  {
+    "id": "nov26-jaccs-wallet-station-review",
+    "organization": "ジャックス（SPLIE・ハウスPay、Wallet Station）",
+    "reported_on": "2026-11-20",
+    "verification": "pending",
+    "reference_url": "https://www.jaccs.co.jp/information/emerge/page_01212.html",
+    "reviewed_on": "2026-11-26",
+    "checked_urls": [
+      "https://www.jaccs.co.jp/information/emerge/page_01212.html"
+    ],
+    "note": "2026年11月26日調査：公表索引では業務委託先インフキュリオンの「Wallet Station」への不正アクセスの影響とされるが、公式ページが403で本文を確認できず保留。"
+  },
+  {
+    "id": "nov26-mercedes-pcs-review",
+    "organization": "メルセデス・ベンツ日本（24時間ツーリングサポート）",
+    "reported_on": "2026-11-20",
+    "verification": "pending",
+    "reference_url": "https://www.mercedes-benz.co.jp/passengercars/brand/notification/261120-information.html",
+    "reviewed_on": "2026-11-26",
+    "checked_urls": [
+      "https://www.mercedes-benz.co.jp/passengercars/brand/notification/261120-information.html"
+    ],
+    "note": "2026年11月26日調査：公表索引では委託先プレステージ・コアソリューションへの不正アクセスで顧客情報約18,000件が漏えいとされるが、公式ページが403で本文を確認できず保留。"
+  },
+  {
+    "id": "nov26-nippon-shinyaku-comsbi-review",
+    "organization": "日本新薬（WINZONE公式LINE、COMSBI）",
+    "reported_on": "2026-11-20",
+    "verification": "pending",
+    "reference_url": "https://www.nippon-shinyaku.co.jp/news/news.php?id=3856",
+    "reviewed_on": "2026-11-26",
+    "checked_urls": [
+      "https://www.nippon-shinyaku.co.jp/news/news.php?id=3856"
+    ],
+    "note": "2026年11月26日調査：公表索引では「COMSBI」への不正アクセスで最大40,921名のLINE表示名等が漏えいとされるが、公式ページが406で本文を確認できず保留。"
+  },
+  {
+    "id": "nov26-ringbell-online-review",
+    "organization": "リンベル（公式オンラインストア）",
+    "reported_on": "2026-11-13",
+    "verification": "pending",
+    "reference_url": "https://www.catalog-gift.net/ringbell/rb-release.pdf",
+    "reviewed_on": "2026-11-26",
+    "checked_urls": [
+      "https://www.catalog-gift.net/ringbell/rb-release.pdf"
+    ],
+    "note": "2026年11月26日調査：公表索引では会員約72万人と非会員約177万人の情報が漏えいした可能性（11月20日第2報）とされるが、公式PDFとサイトが403で本文を確認できず保留。東京都の赤ちゃんファーストポイント交換サイトの公表では個人情報の漏えいは確認されていないとしている。"
+  },
+  {
+    "id": "nov26-sagawa-tebura-review",
+    "organization": "佐川急便（手荷物一時預かりのWeb事前予約）",
+    "reported_on": "2026-11-20",
+    "verification": "pending",
+    "reference_url": "https://www2.sagawa-exp.co.jp/information/detail/438/",
+    "reviewed_on": "2026-11-26",
+    "checked_urls": [
+      "https://www2.sagawa-exp.co.jp/information/detail/438/"
+    ],
+    "note": "2026年11月26日調査：公表索引では予約13,059件の氏名・電話番号等が流出した可能性とされるが、公式ページはスクリプト描画で本文を取得できず保留。"
+  },
+  {
+    "id": "nov26-ncsol-pcs-review",
+    "organization": "日本カーソリューションズ（委託先プレステージ・コアソリューション）",
+    "reported_on": "2026-11-02",
+    "verification": "pending",
+    "reference_url": "https://www.ncsol.co.jp/cms/wp-content/uploads/2026/11/20261119_Itakusaki-unauthorized-access-jyouhouRouei_2nd.pdf",
+    "reviewed_on": "2026-11-26",
+    "checked_urls": [
+      "https://www.ncsol.co.jp/cms/wp-content/uploads/2026/11/20261119_Itakusaki-unauthorized-access-jyouhouRouei_2nd.pdf"
+    ],
+    "note": "2026年11月26日調査：公表索引では契約情報約48万件などが持ち出されたとされるが、公式PDFがTLS証明書の検証エラーで取得できず保留。"
+  },
+  {
+    "id": "nov26-taka-tkc-arara-review",
+    "organization": "多可町（TKC再委託先アララメッセージ）",
+    "reported_on": "2026-11-04",
+    "verification": "pending",
+    "reference_url": "https://www.town.taka.lg.jp/information/detail/id=43585",
+    "reviewed_on": "2026-11-26",
+    "checked_urls": [
+      "https://www.town.taka.lg.jp/information/detail/id=43585"
+    ],
+    "note": "2026年11月26日調査：公表索引ではメールアドレス578件が流出とされるが、町のサイトがTLS証明書の検証エラーで取得できず保留。"
+  },
+  {
+    "id": "nov26-snapdish-openlogi-review",
+    "organization": "スナップディッシュ（モニター商品の発送、オープンロジ）",
+    "reported_on": "2026-11-11",
+    "verification": "pending",
+    "reference_url": "https://corp.snapdish.jp/notice-20261119/",
+    "reviewed_on": "2026-11-26",
+    "checked_urls": [
+      "https://corp.snapdish.jp/notice-20261119/"
+    ],
+    "note": "2026年11月26日調査：公表索引ではオープンロジへの不正アクセスでお届け先情報が流出とされるが、公式ページが403で本文を確認できず保留。"
+  },
+  {
+    "id": "nov26-rakuten-goq-shops-review",
+    "organization": "楽天市場の店舗（SSS・クラフトカフェ・豚職人工房 ぶぅーぶー・ヤトゴルフ・プラスワーカー・ピアリビング、GoQSystem）",
+    "reported_on": "2026-11-19",
+    "verification": "pending",
+    "reference_url": "https://www.rakuten.co.jp/craftcafe/contents/goq_202611/",
+    "reviewed_on": "2026-11-26",
+    "checked_urls": [
+      "https://www.rakuten.co.jp/craftcafe/contents/goq_202611/"
+    ],
+    "note": "2026年11月26日調査：公表索引では各店舗がGoQSystemへの不正アクセスによる注文情報の漏えいを公表したとされるが、楽天市場の店舗ページがアクセス拒否で本文を確認できず保留。"
+  },
+  {
+    "id": "nov26-infonet-infocms-review",
+    "organization": "インフォネット（infoCMS共用サーバー）",
+    "reported_on": "2026-11-22",
+    "verification": "pending",
+    "reference_url": "https://www.e-infonet.jp/news/detail.html?itemid=1067&dispmid=594",
+    "reviewed_on": "2026-11-26",
+    "checked_urls": [
+      "https://www.e-infonet.jp/news/detail.html?itemid=1067&dispmid=594"
+    ],
+    "note": "2026年11月26日調査：共用サーバーへの不正アクセスの痕跡と顧客サイトの公開停止を公表。個人情報への影響は調査中で記載がないため保留。"
+  },
+  {
+    "id": "nov26-culture-ex-datacenter-review",
+    "organization": "カルチュア・エクスペリエンス（データセンター）",
+    "reported_on": "2026-11-20",
+    "verification": "pending",
+    "reference_url": "https://cl-ex.co.jp/2026/11/20/2513/",
+    "reviewed_on": "2026-11-26",
+    "checked_urls": [
+      "https://cl-ex.co.jp/2026/11/20/2513/"
+    ],
+    "note": "2026年11月26日調査：データセンター内の一部システムへの不正アクセスで一部情報が漏えいした可能性を公表。TSUTAYAの一般顧客の個人情報は保持しておらず、個人情報への影響が記載されていないため保留。"
+  },
+  {
+    "id": "nov26-daiei-blastmail-review",
+    "organization": "大栄環境（ブラストメール）",
+    "reported_on": "2026-10-22",
+    "verification": "pending",
+    "reference_url": "https://www.dinsgr.co.jp/news/news_no800/index",
+    "reviewed_on": "2026-11-26",
+    "checked_urls": [
+      "https://www.dinsgr.co.jp/news/news_no800/index"
+    ],
+    "note": "2026年11月26日調査：ブラストメールへの不正アクセスに関し、メールマガジン配信先リストの漏えい有無を委託先と調査中と公表。漏えいの有無が未確定のため保留。"
+  },
+  {
+    "id": "nov26-peach-cuenote-review",
+    "organization": "Peach Aviation（Cuenote FC）",
+    "reported_on": "2026-11-20",
+    "verification": "pending",
+    "reference_url": "https://www.flypeach.com/application/files/3617/9515/4415/20261120_INFO_JP.pdf",
+    "reviewed_on": "2026-11-26",
+    "checked_urls": [
+      "https://www.flypeach.com/application/files/3617/9515/4415/20261120_INFO_JP.pdf"
+    ],
+    "note": "2026年11月26日調査：公表索引ではメール配信委託先の「Cuenote FC」への不正アクセスで顧客情報8,997,106件とされるが、公式PDFが応答せず本文を確認できず保留。既存の掲載（peach-mail-20261009）との関係も未確認。"
   }
 ]

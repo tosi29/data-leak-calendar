@@ -1,0 +1,59 @@
+{
+  "id": "bellezza-cs-card-20260611",
+  "organization": {
+    "name": "CSマーケティング（ベレッツァ）",
+    "sector": "企業・団体"
+  },
+  "title": "通販サイト「ベレッツァ」への不正アクセスで決済アプリケーションが改ざんされ、クレジットカード情報3,633件が漏洩した可能性",
+  "summary": "通販サイト「ベレッツァ」への不正アクセスで決済アプリケーションが改ざんされ、クレジットカード情報3,633件が漏洩した可能性。",
+  "published_on": "2026-06-11",
+  "first_published_on": "2026-06-11",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-06-08",
+  "updated_on": "2026-11-24",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "vulnerability",
+    "certainty": "confirmed",
+    "detail": "システムの脆弱性を突かれ決済アプリケーションが改ざんされた。"
+  },
+  "impact": [
+    {
+      "count": 3633,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "2018年7月4日～2025年3月27日にカード決済をした顧客。"
+    }
+  ],
+  "data_types": [
+    "クレジットカード情報"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.bellezza-cs.com/article/notice/1978/",
+      "type": "official",
+      "title": "不正アクセスによるシステム侵害発生のお詫びとお知らせ",
+      "published_on": "2026-06-11",
+      "checked_on": "2026-11-26"
+    },
+    {
+      "url": "https://www.bellezza-cs.com/article/notice/2135/",
+      "type": "official",
+      "title": "不正アクセスによる 個人情報漏えいに関するお詫びとお知らせ",
+      "published_on": "2026-11-24",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [
+    {
+      "date": "2026-11-24",
+      "summary": "調査結果を公表し、カード情報3,633件の漏洩の可能性を発表。",
+      "source_index": 1
+    }
+  ],
+  "notes": ""
+}

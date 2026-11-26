@@ -11,7 +11,7 @@
   "publication_kind": "initial",
   "occurred_on": "2026-11-19",
   "detected_on": "2026-11-19",
-  "updated_on": "2026-11-20",
+  "updated_on": "2026-11-25",
   "verification": "official",
   "leak_status": "confirmed",
   "incident_type": "attack",
@@ -55,8 +55,28 @@
       "title": "「Wallet Station」への不正アクセスによる個人情報漏えいに関するお詫びと緊急点検の実施について（第２報）",
       "published_on": "2026-11-20",
       "checked_on": "2026-11-20"
+    },
+    {
+      "url": "https://www.release.tdnet.info/inbs/140120261122584562.pdf",
+      "type": "official",
+      "title": "「Wallet Station」への不正アクセスによる個人情報漏えいに関するお詫びと",
+      "published_on": "2026-11-22",
+      "checked_on": "2026-11-26"
+    },
+    {
+      "url": "https://www.release.tdnet.info/inbs/140120261125586210.pdf",
+      "type": "official",
+      "title": "「Wallet Station」への不正アクセスに関する提供先のサービス再開状況について",
+      "published_on": "2026-11-25",
+      "checked_on": "2026-11-26"
     }
   ],
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-11-25",
+      "summary": "11月22日と25日の適時開示で、提供先への影響と対応状況の続報を公表。",
+      "source_index": 3
+    }
+  ],
   "notes": "影響を受けた提供先向けの提供を停止し、その他の提供先も緊急点検を実施。11月18日公表のNotion AI（Fireworks AI）関連の事案は別記録。"
 }

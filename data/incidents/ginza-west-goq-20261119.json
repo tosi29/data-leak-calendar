@@ -1,0 +1,50 @@
+{
+  "id": "ginza-west-goq-20261119",
+  "organization": {
+    "name": "銀座ウエスト（オンライン通販・楽天市場店）",
+    "sector": "企業・団体"
+  },
+  "title": "受注管理システム「GoQSystem」への不正アクセスで注文4,521件、5,783人分の情報が持ち出された",
+  "summary": "受注管理システム「GoQSystem」への不正アクセスで注文4,521件、5,783人分の情報が持ち出された。",
+  "published_on": "2026-11-19",
+  "first_published_on": "2026-11-19",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-19",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "受注管理に使う「GoQSystem」への第三者による不正アクセス（GoQSystemは問い合わせフォームの脆弱性の悪用と公表）。"
+  },
+  "impact": [
+    {
+      "count": 5783,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "注文4,521件（オンライン通販3,812件、楽天709件）の注文者・届け先。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "電話番号",
+    "メールアドレス",
+    "注文内容"
+  ],
+  "related_vendor": "株式会社GoQSystem",
+  "sources": [
+    {
+      "url": "https://www.ginza-west.com/hpgen/HPB/entries/274.html",
+      "type": "official",
+      "title": "【重要】弊社が利用する外部受注管理システムへの不正アクセスに関するお知らせとお詫び 銀座ウエスト",
+      "published_on": "2026-11-19",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

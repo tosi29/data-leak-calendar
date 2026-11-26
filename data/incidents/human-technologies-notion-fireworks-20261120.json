@@ -1,0 +1,49 @@
+{
+  "id": "human-technologies-notion-fireworks-20261120",
+  "organization": {
+    "name": "ヒューマンテクノロジーズ",
+    "sector": "企業・団体"
+  },
+  "title": "Notion AIの処理を担うFireworks AIへの不正アクセスで従業員10名と採用候補者5名の情報を含む利用記録の一部が流出",
+  "summary": "Notion AIの処理を担うFireworks AIへの不正アクセスで従業員10名と採用候補者5名の情報を含む利用記録の一部が流出。",
+  "published_on": "2026-11-20",
+  "first_published_on": "2026-11-20",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-20",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "Notion AIの処理を担う委託先Fireworks AIへの第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 15,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "従業員10名（氏名・メールアドレス）、採用候補者5名（氏名・職歴）。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "メールアドレス",
+    "職歴",
+    "チャット記録"
+  ],
+  "related_vendor": "Fireworks AI（Notionの委託先）",
+  "sources": [
+    {
+      "url": "https://www.h-t.co.jp/news/216",
+      "type": "official",
+      "title": "【お詫びとお知らせ】当社が利用するクラウドサービスの委託先における不正アクセスについて",
+      "published_on": "2026-11-20",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

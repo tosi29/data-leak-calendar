@@ -1,0 +1,46 @@
+{
+  "id": "plusm-makerepeater-arara-20261119",
+  "organization": {
+    "name": "プラスエム（PlusM Online Shop）",
+    "sector": "企業・団体"
+  },
+  "title": "メールマガジン配信に使う「MakeRepeater」が連携する「アララメッセージ」への不正アクセスで会員のメールアドレス1,309件が漏えい",
+  "summary": "メールマガジン配信に使う「MakeRepeater」が連携する「アララメッセージ」への不正アクセスで会員のメールアドレス1,309件が漏えい。",
+  "published_on": "2026-11-19",
+  "first_published_on": "2026-11-19",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-19",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "メール配信に使われるアララの「アララメッセージ」への第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 1309,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "2026年7月1日～10月28日に配信先に指定されたメールアドレス。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "アララ株式会社",
+  "sources": [
+    {
+      "url": "https://www.plusm-online.jp/view/news/20261119192130",
+      "type": "official",
+      "title": "【重要】メール配信サービスへの不正アクセスによる情報流出に関するお詫びとお知らせ",
+      "published_on": "2026-11-19",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

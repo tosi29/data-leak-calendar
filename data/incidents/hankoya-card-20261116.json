@@ -1,0 +1,66 @@
+{
+  "id": "hankoya-card-20261116",
+  "organization": {
+    "name": "ハンコヤドットコム",
+    "sector": "企業・団体"
+  },
+  "title": "サービスシステムへの不正アクセスで決済画面が改ざんされ、入力されたクレジットカード情報8,220件等が漏えいした可能性",
+  "summary": "サービスシステムへの不正アクセスで決済画面が改ざんされ、入力されたクレジットカード情報8,220件等が漏えいした可能性。",
+  "published_on": "2026-11-16",
+  "first_published_on": "2026-11-16",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-11-12",
+  "updated_on": "2026-11-19",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "サービスシステムへの第三者による不正アクセスと決済画面の改ざん。"
+  },
+  "impact": [
+    {
+      "count": 8220,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "第2報で判明したクレジットカード情報（カード番号、名義人、有効期限、セキュリティコード）。会員・注文者の氏名・住所等も対象。"
+    }
+  ],
+  "data_types": [
+    "クレジットカード情報",
+    "氏名",
+    "住所",
+    "電話番号",
+    "メールアドレス",
+    "生年月日",
+    "ログインID",
+    "ハッシュ化されたパスワード"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.hankoya.org/contents/press/20261116.html",
+      "type": "official",
+      "title": "当社システムへの不正アクセスおよび個人情報漏えいの可能性に関するお詫びとお知らせ（初報）",
+      "published_on": "2026-11-16",
+      "checked_on": "2026-11-26"
+    },
+    {
+      "url": "https://www.hankoya.org/contents/press/20261119.html",
+      "type": "official",
+      "title": "当社システムへの不正アクセスおよび個人情報漏えいの可能性に関するお詫びとお知らせ（第2報）",
+      "published_on": "2026-11-19",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [
+    {
+      "date": "2026-11-19",
+      "summary": "決済画面の改ざんによりカード情報が外部へ送信される状態だったと判明し、件数を公表。",
+      "source_index": 1
+    }
+  ],
+  "notes": "GoQSystem経由の注文情報流出（ハンコヤドットコムのモール店舗）とは別の事案。"
+}

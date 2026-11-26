@@ -1,0 +1,48 @@
+{
+  "id": "recruit-ring-karte-20261120",
+  "organization": {
+    "name": "リクルート（新規事業提案制度「Ring」）",
+    "sector": "企業・団体"
+  },
+  "title": "「Ring」のWebサイトのログ解析に使う「KARTE」への不正アクセスで参加者等21,900件の氏名・メールアドレス等が漏えいした可能性",
+  "summary": "「Ring」のWebサイトのログ解析に使う「KARTE」への不正アクセスで参加者等21,900件の氏名・メールアドレス等が漏えいした可能性。",
+  "published_on": "2026-11-20",
+  "first_published_on": "2026-11-20",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-20",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "利用するプレイドのマーケティングツール「KARTE」への第三者による不正アクセス（プレイドはデータ取得用の公開経路の脆弱性の悪用と公表）。"
+  },
+  "impact": [
+    {
+      "count": 21900,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "11月20日時点。氏名・メールアドレス・会社名933件、メールアドレス8,679件、氏名12,288件。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "メールアドレス",
+    "会社名"
+  ],
+  "related_vendor": "株式会社プレイド",
+  "sources": [
+    {
+      "url": "https://www.recruit.co.jp/newsroom/pressrelease/2026/1120_149528.html",
+      "type": "official",
+      "title": "外部サービス「KARTE」への不正アクセスに伴う個人情報漏えいの可能性に関するお詫びとお知らせ",
+      "published_on": "2026-11-20",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

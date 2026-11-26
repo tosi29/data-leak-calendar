@@ -1,0 +1,66 @@
+{
+  "id": "ffg-industries-analytics-20261119",
+  "organization": {
+    "name": "ふくおかフィナンシャルグループ（FFGインダストリーズ、福岡銀行・十八親和銀行）",
+    "sector": "企業・団体"
+  },
+  "title": "グループ会社が受発注システム等の集計に使う外部事業者運用のデータ分析ツールへの不正アクセスで、取引先1,221先の担当者情報等が漏えいした可能性",
+  "summary": "グループ会社が受発注システム等の集計に使う外部事業者運用のデータ分析ツールへの不正アクセスで、取引先1,221先の担当者情報等が漏えいした可能性。",
+  "published_on": "2026-11-19",
+  "first_published_on": "2026-11-19",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-19",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "外部事業者が設置・運用していたデータ分析ツールへの第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 1221,
+      "unit": "organizations",
+      "qualifier": "exact",
+      "description": "接続先データベースに情報があった取引先等。企業情報、担当者の氏名・メールアドレス・電話番号、面談記録等。"
+    }
+  ],
+  "data_types": [
+    "企業情報",
+    "担当者氏名",
+    "メールアドレス",
+    "電話番号",
+    "面談記録",
+    "ログインID",
+    "パスワードのハッシュ値"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.fukuokabank.co.jp/announcement/important/y2026/20261119.html",
+      "type": "official",
+      "title": "ふくおかフィナンシャルグループのグループ会社が利用するシステムにおける情報漏えいの可能性について",
+      "published_on": "2026-11-19",
+      "checked_on": "2026-11-26"
+    },
+    {
+      "url": "https://www.18shinwabank.co.jp/announcement/important/y2026/1119.html",
+      "type": "official",
+      "title": "ふくおかフィナンシャルグループのグループ会社が利用するシステムにおける情報漏えいの可能性について",
+      "published_on": "2026-11-19",
+      "checked_on": "2026-11-26"
+    },
+    {
+      "url": "https://www.fukuoka-fg.com/news_info_pdf/2026/20261119_release.pdf",
+      "type": "official",
+      "title": "情報漏えいの可能性について",
+      "published_on": "2026-11-19",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

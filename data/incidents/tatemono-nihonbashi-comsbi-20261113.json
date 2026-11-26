@@ -1,0 +1,49 @@
+{
+  "id": "tatemono-nihonbashi-comsbi-20261113",
+  "organization": {
+    "name": "東京建物（東京建物日本橋ビル就業者向けLINE公式アカウント）",
+    "sector": "企業・団体"
+  },
+  "title": "就業者向けLINE公式アカウントの会員登録等に使う委託先の「COMSBI」への不正アクセスで会員最大490名の氏名・電話番号等が漏えい",
+  "summary": "就業者向けLINE公式アカウントの会員登録等に使う委託先の「COMSBI」への不正アクセスで会員最大490名の氏名・電話番号等が漏えい。",
+  "published_on": "2026-11-13",
+  "first_published_on": "2026-11-13",
+  "publication_kind": "initial",
+  "occurred_on": "2026-11-09",
+  "detected_on": "2026-11-11",
+  "updated_on": "2026-11-13",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "LINE公式アカウントの運用に使うソニックムーブの「COMSBI」への第三者による不正アクセス（不正取得された認証情報の使用）。"
+  },
+  "impact": [
+    {
+      "count": 490,
+      "unit": "people",
+      "qualifier": "maximum",
+      "description": "会員の氏名、電話番号、メールアドレス、LINEの表示名など。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "電話番号",
+    "メールアドレス",
+    "LINE表示名"
+  ],
+  "related_vendor": "株式会社ソニックムーブ",
+  "sources": [
+    {
+      "url": "https://tatemono.com/news/images/01a41350900ea0f5dbe89e50d8ff699e.pdf",
+      "type": "official",
+      "title": "当社が利用する委託先システムへの不正アクセスによるお客様情報の漏えいに関するお詫びとお知らせ",
+      "published_on": "2026-11-13",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

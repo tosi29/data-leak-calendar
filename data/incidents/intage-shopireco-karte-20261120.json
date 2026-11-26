@@ -1,0 +1,50 @@
+{
+  "id": "intage-shopireco-karte-20261120",
+  "organization": {
+    "name": "インテージ（ショピレコ）",
+    "sector": "企業・団体"
+  },
+  "title": "アプリの通知等に使う「KARTE」への不正アクセスで「ショピレコ」利用者204,516人の識別ID・生年月・性別等が漏えい",
+  "summary": "アプリの通知等に使う「KARTE」への不正アクセスで「ショピレコ」利用者204,516人の識別ID・生年月・性別等が漏えい。",
+  "published_on": "2026-11-20",
+  "first_published_on": "2026-11-20",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-11-13",
+  "updated_on": "2026-11-20",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "利用するプレイドのマーケティングツール「KARTE」への第三者による不正アクセス（プレイドはデータ取得用の公開経路の脆弱性の悪用と公表）。"
+  },
+  "impact": [
+    {
+      "count": 204516,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "精査中。識別ID、生年月、年齢、性別コード、居住都道府県コードなど。"
+    }
+  ],
+  "data_types": [
+    "識別ID",
+    "生年月",
+    "年齢",
+    "性別",
+    "都道府県"
+  ],
+  "related_vendor": "株式会社プレイド",
+  "sources": [
+    {
+      "url": "https://www.intage.co.jp/news/9137/",
+      "type": "official",
+      "title": "弊社が利用する「KARTE」への不正アクセスについて - 市場調査・マーケティングリサーチなら株式会社インテージ",
+      "published_on": "2026-11-20",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

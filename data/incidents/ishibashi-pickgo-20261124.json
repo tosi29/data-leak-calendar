@@ -1,0 +1,46 @@
+{
+  "id": "ishibashi-pickgo-20261124",
+  "organization": {
+    "name": "石橋楽器店（エクスプレス買取）",
+    "sector": "企業・団体"
+  },
+  "title": "買取品の引き取りに使うCBcloudの「ピックゴー」への不正アクセスで利用者39件の氏名が流出",
+  "summary": "買取品の引き取りに使うCBcloudの「ピックゴー」への不正アクセスで利用者39件の氏名が流出。",
+  "published_on": "2026-11-24",
+  "first_published_on": "2026-11-24",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-24",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "スポット集配サービス「ピックゴー」への第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 39,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "2025年12月11日～2026年10月26日の利用者の氏名。"
+    }
+  ],
+  "data_types": [
+    "氏名"
+  ],
+  "related_vendor": "CBcloud株式会社",
+  "sources": [
+    {
+      "url": "https://www.ishibashi.co.jp/ec/sp/20261124/",
+      "type": "official",
+      "title": "【重要】スポット配送サービス（外部委託システム）への不正アクセスによる個人情報流出に関するお詫びとお知らせ",
+      "published_on": "2026-11-24",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

@@ -1,0 +1,46 @@
+{
+  "id": "world-chatplus-20261120",
+  "organization": {
+    "name": "ワールド（グループ）",
+    "sector": "企業・団体"
+  },
+  "title": "グループが使うチャットプラスのサーバーへの不正アクセスで、預かる個人データが閲覧・取得された可能性",
+  "summary": "グループが使うチャットプラスのサーバーへの不正アクセスで、預かる個人データが閲覧・取得された可能性。",
+  "published_on": "2026-11-20",
+  "first_published_on": "2026-11-20",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-20",
+  "verification": "official",
+  "leak_status": "investigating",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "問い合わせ用チャット「ChatPlus」の提供元チャットプラスへの第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "グループの情報が対象に含まれるかを含め確認中。"
+    }
+  ],
+  "data_types": [
+    "チャット入力情報"
+  ],
+  "related_vendor": "チャットプラス株式会社",
+  "sources": [
+    {
+      "url": "https://corp.world.co.jp/news/company/2026/15637/",
+      "type": "official",
+      "title": "当社グループが利用するチャットプラス株式会社のサービスへの不正アクセスに伴う情報漏えいの可能性に関するお知らせ",
+      "published_on": "2026-11-20",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

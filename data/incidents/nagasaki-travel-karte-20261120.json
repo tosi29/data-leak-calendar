@@ -1,0 +1,49 @@
+{
+  "id": "nagasaki-travel-karte-20261120",
+  "organization": {
+    "name": "長崎国際観光コンベンション協会（travel nagasaki）",
+    "sector": "企業・団体"
+  },
+  "title": "長崎市公式観光サイトで使っていた「KARTE」への不正アクセスで廃止済み機能の登録者情報48件が漏えい",
+  "summary": "長崎市公式観光サイトで使っていた「KARTE」への不正アクセスで廃止済み機能の登録者情報48件が漏えい。",
+  "published_on": "2026-11-20",
+  "first_published_on": "2026-11-20",
+  "publication_kind": "initial",
+  "occurred_on": "2026-11-13",
+  "detected_on": null,
+  "updated_on": "2026-11-20",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "利用するプレイドのマーケティングツール「KARTE」への第三者による不正アクセス（プレイドはデータ取得用の公開経路の脆弱性の悪用と公表）。"
+  },
+  "impact": [
+    {
+      "count": 48,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "登録者の氏名、メールアドレス、生年月日、性別。ほかに事前テスト用の登録者情報47件。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "メールアドレス",
+    "生年月日",
+    "性別"
+  ],
+  "related_vendor": "株式会社プレイド",
+  "sources": [
+    {
+      "url": "https://www.at-nagasaki.jp/news/1467",
+      "type": "official",
+      "title": "【お詫び】長崎市公式観光サイト「travel nagasaki」における個人情報の漏えいについて",
+      "published_on": "2026-11-20",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

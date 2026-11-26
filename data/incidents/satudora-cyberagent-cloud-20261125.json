@@ -1,0 +1,49 @@
+{
+  "id": "satudora-cyberagent-cloud-20261125",
+  "organization": {
+    "name": "サツドラ（LINE公式アカウント）",
+    "sector": "企業・団体"
+  },
+  "title": "アプリの開発・運用委託先が開発環境のクラウド保管領域に誤って公開設定で置いたファイルが取得され、友だち229,026件のメールアドレス等が流出",
+  "summary": "アプリの開発・運用委託先が開発環境のクラウド保管領域に誤って公開設定で置いたファイルが取得され、友だち229,026件のメールアドレス等が流出。",
+  "published_on": "2026-11-25",
+  "first_published_on": "2026-11-25",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-25",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "accident",
+  "cause": {
+    "category": "configuration",
+    "certainty": "confirmed",
+    "detail": "委託先サイバーエージェントが開発環境のクラウドの保管領域に個人情報を含むファイルを誤って公開設定で置いていた。"
+  },
+  "impact": [
+    {
+      "count": 229026,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "LINE公式アカウントの友だちのメールアドレス・生年月日・名・EZOCA番号など。第三者による取得を9回確認。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス",
+    "生年月日",
+    "名",
+    "EZOCA番号"
+  ],
+  "related_vendor": "株式会社サイバーエージェント",
+  "sources": [
+    {
+      "url": "https://satudora.co.jp/news/ps_information_1125",
+      "type": "official",
+      "title": "個人情報の流出に関するお詫びとお知らせ - サツドラ",
+      "published_on": "2026-11-25",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

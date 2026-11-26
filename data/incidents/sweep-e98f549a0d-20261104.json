@@ -11,7 +11,7 @@
   "publication_kind": "initial",
   "occurred_on": null,
   "detected_on": null,
-  "updated_on": "2026-11-04",
+  "updated_on": "2026-11-24",
   "verification": "official",
   "leak_status": "confirmed",
   "incident_type": "attack",
@@ -39,8 +39,21 @@
       "title": "メール配信サービスへの不正アクセスによるお客さまメールアドレス流出について",
       "published_on": "2026-11-04",
       "checked_on": "2026-11-13"
+    },
+    {
+      "url": "https://www.shikokubank.co.jp/info/post_208.html",
+      "type": "official",
+      "title": "「Mikatano」サービスで利用する外部サービスにおけるメールアドレス流出について",
+      "published_on": "2026-11-24",
+      "checked_on": "2026-11-26"
     }
   ],
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-11-24",
+      "summary": "続報で、流出の経路はマネーフォワードエックスの「Mikatano」がお知らせ表示に使うプレイドの「KARTE」への不正アクセスと判明したと公表。",
+      "source_index": 1
+    }
+  ],
   "notes": ""
 }

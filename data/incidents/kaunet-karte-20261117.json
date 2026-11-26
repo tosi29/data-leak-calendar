@@ -11,7 +11,7 @@
   "publication_kind": "initial",
   "occurred_on": null,
   "detected_on": null,
-  "updated_on": "2026-11-17",
+  "updated_on": "2026-11-24",
   "verification": "official",
   "leak_status": "confirmed",
   "incident_type": "attack",
@@ -22,10 +22,10 @@
   },
   "impact": [
     {
-      "count": null,
+      "count": 300525,
       "unit": "records",
-      "qualifier": "unknown",
-      "description": "KARTEに登録していた顧客情報。件数はプレイドが精査中。"
+      "qualifier": "exact",
+      "description": "重複を除いた件数。「カウネット」「おうちカウネット」の顧客のメールアドレス・顧客番号・電話番号。"
     }
   ],
   "data_types": [
@@ -42,8 +42,28 @@
       "title": "【カウネット】株式会社プレイドで発生した不正アクセスに伴うメールアドレス等の漏えいについて",
       "published_on": "2026-11-17",
       "checked_on": "2026-11-18"
+    },
+    {
+      "url": "https://kokuyo.life/news/important/20261117/",
+      "type": "official",
+      "title": "【カウネット】株式会社プレイドで発生した不正アクセスに伴うメールアドレス等の漏えいについて",
+      "published_on": "2026-11-17",
+      "checked_on": "2026-11-26"
+    },
+    {
+      "url": "https://www.kokuyo.com/news/important/20261124/",
+      "type": "official",
+      "title": "【カウネット】株式会社プレイドで発生した不正アクセスに伴うメールアドレス等の漏えいについて（第2報）",
+      "published_on": "2026-11-24",
+      "checked_on": "2026-11-26"
     }
   ],
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-11-24",
+      "summary": "続報で、漏えいは重複を除き300,525件と公表。",
+      "source_index": 2
+    }
+  ],
   "notes": ""
 }

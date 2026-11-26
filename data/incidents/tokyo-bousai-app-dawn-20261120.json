@@ -1,0 +1,57 @@
+{
+  "id": "tokyo-bousai-app-dawn-20261120",
+  "organization": {
+    "name": "東京都（東京都防災アプリ）",
+    "sector": "自治体"
+  },
+  "title": "防災アプリの問合せフォームに使う提供事業者ドーンのシステムへの不正アクセスで過去の問い合わせ189件が漏えい",
+  "summary": "防災アプリの問合せフォームに使う提供事業者ドーンのシステムへの不正アクセスで過去の問い合わせ189件が漏えい。",
+  "published_on": "2026-11-20",
+  "first_published_on": "2026-11-20",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-20",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "vulnerability",
+    "certainty": "confirmed",
+    "detail": "提供事業者ドーンの問合せシステム（FreeScout）の脆弱性の悪用。"
+  },
+  "impact": [
+    {
+      "count": 189,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "2024年3月2日～2025年4月29日の問い合わせ。メールアドレス、氏名、問い合わせ本文、アプリID、端末情報、画面のスナップショット。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス",
+    "氏名",
+    "問い合わせ内容",
+    "アプリID",
+    "端末情報"
+  ],
+  "related_vendor": "株式会社ドーン",
+  "sources": [
+    {
+      "url": "https://www.metro.tokyo.lg.jp/information/press/2026/11/2026112016",
+      "type": "official",
+      "title": "東京都防災アプリへの不正アクセスによる個人情報の漏えいについて",
+      "published_on": "2026-11-20",
+      "checked_on": "2026-11-26"
+    },
+    {
+      "url": "https://www.dawn-corp.co.jp/wp-content/uploads/2026/11/67f3f14d0a230196564b6bf69a8e99c2.pdf",
+      "type": "official",
+      "title": "当社受託業務における個人情報の漏えいに関するお詫びと個人情報保",
+      "published_on": "2026-11-20",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

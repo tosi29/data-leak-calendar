@@ -1,0 +1,49 @@
+{
+  "id": "nagasaki-city-travel-karte-20261120",
+  "organization": {
+    "name": "長崎市（観光サイト「travel nagasaki」）",
+    "sector": "自治体"
+  },
+  "title": "運営を委託する観光サイトで使っていた「KARTE」への不正アクセスで登録者情報48件が漏えい",
+  "summary": "運営を委託する観光サイトで使っていた「KARTE」への不正アクセスで登録者情報48件が漏えい。",
+  "published_on": "2026-11-20",
+  "first_published_on": "2026-11-20",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-20",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "利用するプレイドのマーケティングツール「KARTE」への第三者による不正アクセス（プレイドはデータ取得用の公開経路の脆弱性の悪用と公表）。"
+  },
+  "impact": [
+    {
+      "count": 48,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "登録者の氏名、メールアドレス、生年月日、性別。ほかに事前テスト用47件（重複を含む）。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "メールアドレス",
+    "生年月日",
+    "性別"
+  ],
+  "related_vendor": "株式会社プレイド",
+  "sources": [
+    {
+      "url": "https://www.city.nagasaki.lg.jp/uploaded/life/96127_635168_misc.pdf",
+      "type": "official",
+      "title": "・「travel nagasaki」サイト上に本件のお知らせとお詫びを掲載。",
+      "published_on": "2026-11-20",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

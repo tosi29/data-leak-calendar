@@ -1,0 +1,47 @@
+{
+  "id": "igaku-shoin-karte-20261125",
+  "organization": {
+    "name": "医学書院（医学書院WEBサイト・医学書院UNITAS）",
+    "sector": "企業・団体"
+  },
+  "title": "利用する「KARTE」への不正アクセスで暗号化されたユーザー識別子最大40件程度と行動ログが漏えいした可能性",
+  "summary": "利用する「KARTE」への不正アクセスで暗号化されたユーザー識別子最大40件程度と行動ログが漏えいした可能性。",
+  "published_on": "2026-11-25",
+  "first_published_on": "2026-11-25",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-25",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "利用するプレイドのマーケティングツール「KARTE」への第三者による不正アクセス（プレイドはデータ取得用の公開経路の脆弱性の悪用と公表）。"
+  },
+  "impact": [
+    {
+      "count": 40,
+      "unit": "records",
+      "qualifier": "maximum_approximate",
+      "description": "暗号化されたユーザー識別子（最大40件程度）と行動ログ。氏名などは含まない。"
+    }
+  ],
+  "data_types": [
+    "ユーザー識別子",
+    "行動ログ"
+  ],
+  "related_vendor": "株式会社プレイド",
+  "sources": [
+    {
+      "url": "https://www.igaku-shoin.co.jp/news/y2026/1125",
+      "type": "official",
+      "title": "【重要なお知らせ】当社が利用する「KARTE」への不正アクセスに関するお知らせ",
+      "published_on": "2026-11-25",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

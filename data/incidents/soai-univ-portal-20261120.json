@@ -1,0 +1,46 @@
+{
+  "id": "soai-univ-portal-20261120",
+  "organization": {
+    "name": "相愛大学（Universal Passport RX）",
+    "sector": "教育・研究"
+  },
+  "title": "ポータルサイトを公開していたサーバーへの不正アクセスでサーバー内の個人情報が漏えいした可能性",
+  "summary": "ポータルサイトを公開していたサーバーへの不正アクセスでサーバー内の個人情報が漏えいした可能性。",
+  "published_on": "2026-11-20",
+  "first_published_on": "2026-11-20",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-20",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "ポータルサイトを公開していたサーバーへの第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "調査中。"
+    }
+  ],
+  "data_types": [
+    "調査中"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.soai.ac.jp/information/news/2026/11/post-259.html",
+      "type": "official",
+      "title": "本学ポータルサイトへの不正アクセスによる個人情報漏えいの可能性に関するお知らせとお詫び",
+      "published_on": "2026-11-20",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

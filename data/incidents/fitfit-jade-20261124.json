@@ -1,0 +1,51 @@
+{
+  "id": "fitfit-jade-20261124",
+  "organization": {
+    "name": "fitfit（公式サイト）",
+    "sector": "企業・団体"
+  },
+  "title": "公式サイトの運営に使うジェイドグループのECサイト運営システムへの不正アクセスで会員の氏名・住所・暗号化されたパスワード等が流出",
+  "summary": "公式サイトの運営に使うジェイドグループのECサイト運営システムへの不正アクセスで会員の氏名・住所・暗号化されたパスワード等が流出。",
+  "published_on": "2026-11-24",
+  "first_published_on": "2026-11-24",
+  "publication_kind": "initial",
+  "occurred_on": "2026-11-22",
+  "detected_on": "2026-11-24",
+  "updated_on": "2026-11-24",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "ECサイト運営を担うジェイドグループのシステムへの第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "件数の記載なし。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "電話番号",
+    "メールアドレス",
+    "生年月日",
+    "暗号化されたパスワード"
+  ],
+  "related_vendor": "株式会社ジェイドグループ",
+  "sources": [
+    {
+      "url": "https://fitfit.jp/cont/20261124",
+      "type": "official",
+      "title": "【重要】fitfit会員情報の流出に関するお詫びとパスワード再設定のお願い -fitfit(フィットフィット) オフィシャルサイト",
+      "published_on": "2026-11-24",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

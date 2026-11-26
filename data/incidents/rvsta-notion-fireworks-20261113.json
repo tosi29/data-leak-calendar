@@ -11,9 +11,9 @@
   "publication_kind": "initial",
   "occurred_on": null,
   "detected_on": null,
-  "updated_on": "2026-11-13",
+  "updated_on": "2026-11-20",
   "verification": "official",
-  "leak_status": "suspected",
+  "leak_status": "confirmed",
   "incident_type": "attack",
   "cause": {
     "category": "unauthorized_access",
@@ -22,10 +22,10 @@
   },
   "impact": [
     {
-      "count": null,
-      "unit": "records",
-      "qualifier": "unknown",
-      "description": "Notion AIの会話記録に含まれる個人情報。件数は調査中。"
+      "count": 133,
+      "unit": "organizations",
+      "qualifier": "maximum",
+      "description": "影響を受けた取引先企業。個人情報の対象者数は調査中。"
     }
   ],
   "data_types": [
@@ -40,8 +40,21 @@
       "title": "クラウドサービス「Notion」の委託先への不正アクセスに伴う情報漏えいの可能性に関するお詫びとお知らせ（第1報）",
       "published_on": "2026-11-13",
       "checked_on": "2026-11-16"
+    },
+    {
+      "url": "https://www.rvsta.co.jp/news/20261120-2/",
+      "type": "official",
+      "title": "クラウドサービス「Notion」の委託先への不正アクセスに伴う情報漏えいに関するお詫びとお知らせ（第2報）",
+      "published_on": "2026-11-20",
+      "checked_on": "2026-11-26"
     }
   ],
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-11-20",
+      "summary": "第2報で、2026年10月5～24日の従業員とNotion AIとの記録の一部の漏えいを11月16日に確認したと公表。影響を受けた取引先企業は最大133社で、個人情報の対象者数は調査中。",
+      "source_index": 1
+    }
+  ],
   "notes": ""
 }

@@ -1,0 +1,50 @@
+{
+  "id": "pet-medical-support-20261124",
+  "organization": {
+    "name": "ペットメディカルサポート",
+    "sector": "企業・団体"
+  },
+  "title": "業務委託先が管理するサーバーへの不正アクセスで資料請求者最大約21万件の氏名・住所等が漏えいした可能性",
+  "summary": "業務委託先が管理するサーバーへの不正アクセスで資料請求者最大約21万件の氏名・住所等が漏えいした可能性。",
+  "published_on": "2026-11-24",
+  "first_published_on": "2026-11-24",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-11-12",
+  "updated_on": "2026-11-24",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "業務委託先が管理するサーバーへの第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 210000,
+      "unit": "records",
+      "qualifier": "maximum_approximate",
+      "description": "2015年3月22日～2019年10月23日に資料請求をした顧客の氏名・生年月日・住所・電話番号・メールアドレスなど。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "生年月日",
+    "住所",
+    "電話番号",
+    "メールアドレス"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://pshoken.co.jp/imp/261124.html",
+      "type": "official",
+      "title": "不正アクセスによるお客さま情報漏えいの可能性に関するお詫びとお知らせ",
+      "published_on": "2026-11-24",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

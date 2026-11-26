@@ -1,0 +1,46 @@
+{
+  "id": "soranoyu-temairazu-arara-20261119",
+  "organization": {
+    "name": "三栄メンテナンス（成田空港温泉 空の湯）",
+    "sector": "企業・団体"
+  },
+  "title": "宿泊予約管理システム提供元の手間いらずが通知業務を委託するアララへの不正アクセスで顧客のメールアドレスが漏えい",
+  "summary": "宿泊予約管理システム提供元の手間いらずが通知業務を委託するアララへの不正アクセスで顧客のメールアドレスが漏えい。",
+  "published_on": "2026-11-19",
+  "first_published_on": "2026-11-19",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-11-10",
+  "updated_on": "2026-11-19",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "メール配信に使われるアララの「アララメッセージ」への第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "宿泊予約の顧客のメールアドレス。件数の記載なし。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "アララ株式会社",
+  "sources": [
+    {
+      "url": "https://soranoyu.com/news/22523.html",
+      "type": "official",
+      "title": "個人情報漏洩事案に関する追加のご報告",
+      "published_on": "2026-11-19",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

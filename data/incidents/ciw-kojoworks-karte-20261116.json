@@ -11,9 +11,9 @@
   "publication_kind": "initial",
   "occurred_on": null,
   "detected_on": null,
-  "updated_on": "2026-11-16",
+  "updated_on": "2026-11-25",
   "verification": "official",
-  "leak_status": "suspected",
+  "leak_status": "confirmed",
   "incident_type": "attack",
   "cause": {
     "category": "unauthorized_access",
@@ -22,10 +22,10 @@
   },
   "impact": [
     {
-      "count": null,
+      "count": 129331,
       "unit": "records",
-      "qualifier": "unknown",
-      "description": "KARTEに連携していた会員データ。件数・項目は精査中。"
+      "qualifier": "exact",
+      "description": "「工場ワークス」の会員情報。"
     }
   ],
   "data_types": [
@@ -43,8 +43,21 @@
       "title": "【重要】外部委託先システムへの不正アクセスに伴う、会員情報漏洩に関するお知らせとお詫び（第一報）",
       "published_on": "2026-11-16",
       "checked_on": "2026-11-18"
+    },
+    {
+      "url": "https://ciw.jp/news/2852/",
+      "type": "official",
+      "title": "【重要】外部委託先システムへの不正アクセスに伴う、会員情報漏洩に関するお知らせとお詫び（第二報）",
+      "published_on": "2026-11-25",
+      "checked_on": "2026-11-26"
     }
   ],
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-11-25",
+      "summary": "第二報で、第三者に閲覧・取得された会員情報は129,331件と公表。",
+      "source_index": 1
+    }
+  ],
   "notes": ""
 }

@@ -1,0 +1,48 @@
+{
+  "id": "pixiv-fanbox-openlogi-20261120",
+  "organization": {
+    "name": "ピクシブ（pixivFANBOX）",
+    "sector": "企業・団体"
+  },
+  "title": "過去に発送代行を委託していたオープンロジへの不正アクセスで「pixivFANBOX」企画のお届け先情報30件が漏えい",
+  "summary": "過去に発送代行を委託していたオープンロジへの不正アクセスで「pixivFANBOX」企画のお届け先情報30件が漏えい。",
+  "published_on": "2026-11-20",
+  "first_published_on": "2026-11-20",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-11-16",
+  "updated_on": "2026-11-20",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "物流業務を委託するオープンロジのシステムへの第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 30,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "現時点。2017年10月～2022年5月頃に発送を委託した一部企画・キャンペーンのお届け先情報。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "電話番号"
+  ],
+  "related_vendor": "株式会社オープンロジ",
+  "sources": [
+    {
+      "url": "https://www.pixiv.co.jp/2026/11/20/163000",
+      "type": "official",
+      "title": "過去の物流委託先「オープンロジ」への不正アクセスに伴う、お客様情報の漏えいについてお詫びとお知らせ（第一報） - ピクシブ株式会社",
+      "published_on": "2026-11-20",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

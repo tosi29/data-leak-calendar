@@ -1,0 +1,50 @@
+{
+  "id": "omura-lookmee-karte-20261120",
+  "organization": {
+    "name": "大村市（市立こども園・保育所のルクミー）",
+    "sector": "自治体"
+  },
+  "title": "市立こども園・保育所で使う「ルクミー」の提供元ユニファが利用する「KARTE」への不正アクセスで登録情報が流出",
+  "summary": "市立こども園・保育所で使う「ルクミー」の提供元ユニファが利用する「KARTE」への不正アクセスで登録情報が流出。",
+  "published_on": "2026-11-20",
+  "first_published_on": "2026-11-20",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-20",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "利用するプレイドのマーケティングツール「KARTE」への第三者による不正アクセス（プレイドはデータ取得用の公開経路の脆弱性の悪用と公表）。"
+  },
+  "impact": [
+    {
+      "count": 389,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "ルクミーに登録されている児童数（卒園児などを含む）。"
+    }
+  ],
+  "data_types": [
+    "保護者氏名",
+    "メールアドレス",
+    "児童の生年月日",
+    "施設のメールアドレス",
+    "ログインID"
+  ],
+  "related_vendor": "株式会社プレイド",
+  "sources": [
+    {
+      "url": "http://www.city.omura.nagasaki.jp/kanri/kenko/kosodate/hoikujo/koritsu/lookme.html",
+      "type": "official",
+      "title": "大村市／「ルクミー」が利用する外部ツールへの不正アクセスに伴う個人情報の流出について",
+      "published_on": "2026-11-20",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

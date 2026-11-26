@@ -1,0 +1,62 @@
+{
+  "id": "infomart-notion-fireworks-20261113",
+  "organization": {
+    "name": "インフォマート",
+    "sector": "企業・団体"
+  },
+  "title": "Notion AIの処理委託先Fireworks AIへの不正アクセスで、従業員が入力したチャット履歴に含まれる顧客・取引先の情報84件と従業員の情報77件が流出した可能性",
+  "summary": "Notion AIの処理委託先Fireworks AIへの不正アクセスで、従業員が入力したチャット履歴に含まれる顧客・取引先の情報84件と従業員の情報77件が流出した可能性。",
+  "published_on": "2026-11-13",
+  "first_published_on": "2026-11-13",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-20",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "Notion AIの処理を担う委託先Fireworks AIへの第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 84,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "顧客・取引先の情報（11月20日公表）。ほかに従業員の情報77件（氏名、部署名、メールアドレス）。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "部署名",
+    "メールアドレス",
+    "チャット履歴"
+  ],
+  "related_vendor": "Fireworks AI（Notionの委託先）",
+  "sources": [
+    {
+      "url": "https://corp.infomart.co.jp/news/20261113_6215/",
+      "type": "official",
+      "title": "当社が利用するクラウドサービスの委託先への不正アクセスに伴う情報流出の可能性に関するお知らせとお詫び（第一報）",
+      "published_on": "2026-11-13",
+      "checked_on": "2026-11-26"
+    },
+    {
+      "url": "https://corp.infomart.co.jp/news/20261120_6221/",
+      "type": "official",
+      "title": "当社が利用するクラウドサービスの委託先への不正アクセスに伴う情報流出の可能性に関するお知らせとお詫び（第二報）",
+      "published_on": "2026-11-20",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [
+    {
+      "date": "2026-11-20",
+      "summary": "続報で顧客・取引先の情報84件、従業員の情報77件と公表。",
+      "source_index": 1
+    }
+  ],
+  "notes": ""
+}

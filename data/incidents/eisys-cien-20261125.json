@@ -1,0 +1,46 @@
+{
+  "id": "eisys-cien-20261125",
+  "organization": {
+    "name": "エイシス（Ci-en）",
+    "sector": "企業・団体"
+  },
+  "title": "クリエイター支援サービス「Ci-en」のシステムの不備を突いた不正アクセスでクリエイターの取引に関する個人情報が流出した可能性が高い",
+  "summary": "クリエイター支援サービス「Ci-en」のシステムの不備を突いた不正アクセスでクリエイターの取引に関する個人情報が流出した可能性が高い。",
+  "published_on": "2026-11-25",
+  "first_published_on": "2026-11-25",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-25",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "vulnerability",
+    "certainty": "unknown",
+    "detail": "システムの不備を突いた第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "件数の記載なし。"
+    }
+  ],
+  "data_types": [
+    "取引に関する個人情報"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.eisys.co.jp/news/1795",
+      "type": "official",
+      "title": "Ci-enにおける個人情報漏えいの可能性に関するお詫びとお知らせ - 株式会社エイシス",
+      "published_on": "2026-11-25",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

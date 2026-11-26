@@ -1,0 +1,46 @@
+{
+  "id": "nara-karte-20261120",
+  "organization": {
+    "name": "奈良県（職員研修システム・オンライン学習促進事業）",
+    "sector": "自治体"
+  },
+  "title": "委託先事業者が使う「KARTE」への不正アクセスで職員研修システム等のメールアドレス40件が漏えい",
+  "summary": "委託先事業者が使う「KARTE」への不正アクセスで職員研修システム等のメールアドレス40件が漏えい。",
+  "published_on": "2026-11-20",
+  "first_published_on": "2026-11-20",
+  "publication_kind": "initial",
+  "occurred_on": "2026-11-13",
+  "detected_on": "2026-11-18",
+  "updated_on": "2026-11-20",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "利用するプレイドのマーケティングツール「KARTE」への第三者による不正アクセス（プレイドはデータ取得用の公開経路の脆弱性の悪用と公表）。"
+  },
+  "impact": [
+    {
+      "count": 40,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "県職員19件、研修申込企業の担当者19件、県の所属メールアドレス2件。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "株式会社プレイド",
+  "sources": [
+    {
+      "url": "https://www.pref.nara.lg.jp/n026/p155038.html",
+      "type": "official",
+      "title": "県の委託事業で利用するクラウドサービスへの不正アクセスによるメールアドレスの漏えいについて / 奈良県",
+      "published_on": "2026-11-20",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

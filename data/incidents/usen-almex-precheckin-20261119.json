@@ -1,0 +1,49 @@
+{
+  "id": "usen-almex-precheckin-20261119",
+  "organization": {
+    "name": "USEN-ALMEX（PreCheck-in）",
+    "sector": "企業・団体"
+  },
+  "title": "オンライン事前チェックイン「PreCheck-in」のシステム連携用APIへの不正アクセスで26施設の予約者283件の情報が閲覧・流出した可能性が高い",
+  "summary": "オンライン事前チェックイン「PreCheck-in」のシステム連携用APIへの不正アクセスで26施設の予約者283件の情報が閲覧・流出した可能性が高い。",
+  "published_on": "2026-11-19",
+  "first_published_on": "2026-11-19",
+  "publication_kind": "initial",
+  "occurred_on": "2026-11-14",
+  "detected_on": "2026-11-15",
+  "updated_on": "2026-11-19",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "「PreCheck-in」のシステム連携用APIへの第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 283,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "26施設の予約者情報。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "電話番号",
+    "メールアドレス"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://usen-almex.jp/news/release/20261119.html",
+      "type": "official",
+      "title": "オンライン事前チェックインサービス「PreCheck-in」 不正アクセスによる個人情報流出の可能性に関するお詫びとお知らせ",
+      "published_on": "2026-11-19",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

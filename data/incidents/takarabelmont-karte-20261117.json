@@ -11,9 +11,9 @@
   "publication_kind": "initial",
   "occurred_on": null,
   "detected_on": null,
-  "updated_on": "2026-11-17",
+  "updated_on": "2026-11-19",
   "verification": "official",
-  "leak_status": "suspected",
+  "leak_status": "confirmed",
   "incident_type": "attack",
   "cause": {
     "category": "unauthorized_access",
@@ -22,10 +22,16 @@
   },
   "impact": [
     {
-      "count": null,
+      "count": 16408,
       "unit": "records",
-      "qualifier": "unknown",
-      "description": "両サービスの顧客情報。範囲・件数は確認中。"
+      "qualifier": "exact",
+      "description": "BEAUTY CITYの氏名、メールアドレス、生年月日、性別、年齢など。"
+    },
+    {
+      "count": 16011,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "TB WEB ORDERのサロン名、メールアドレスなど。"
     }
   ],
   "data_types": [
@@ -43,8 +49,21 @@
       "title": "【重要】BEAUTY CITY／TB WEB ORDERにおける情報漏えいの可能性について（第一報）",
       "published_on": "2026-11-17",
       "checked_on": "2026-11-18"
+    },
+    {
+      "url": "https://www.takarabelmont.com/info_20261119-01/",
+      "type": "official",
+      "title": "【重要】「BEAUTY CITY」および「TB WEB ORDER」におけるお客様情報漏えいに関するお詫びとお知らせ - タカラベルモント",
+      "published_on": "2026-11-19",
+      "checked_on": "2026-11-26"
     }
   ],
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-11-19",
+      "summary": "続報で、BEAUTY CITY 16,408件（うち退会済み4件）とTB WEB ORDER 16,011件の漏えいを公表。",
+      "source_index": 1
+    }
+  ],
   "notes": ""
 }

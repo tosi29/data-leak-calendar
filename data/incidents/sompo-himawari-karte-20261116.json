@@ -1,0 +1,67 @@
+{
+  "id": "sompo-himawari-karte-20261116",
+  "organization": {
+    "name": "SOMPOひまわり生命保険（MYひまわり・aruku）",
+    "sector": "企業・団体"
+  },
+  "title": "アプリで使う「KARTE」への不正アクセスで「MYひまわり」6万件と「aruku with SOMPOひまわり生命」26万件の内部管理用ID等が漏えい",
+  "summary": "アプリで使う「KARTE」への不正アクセスで「MYひまわり」6万件と「aruku with SOMPOひまわり生命」26万件の内部管理用ID等が漏えい。",
+  "published_on": "2026-11-16",
+  "first_published_on": "2026-11-16",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-19",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "利用するプレイドのマーケティングツール「KARTE」への第三者による不正アクセス（プレイドはデータ取得用の公開経路の脆弱性の悪用と公表）。"
+  },
+  "impact": [
+    {
+      "count": 60000,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "「MYひまわり」の内部管理用ID・メール配信承諾フラグ。"
+    },
+    {
+      "count": 260000,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "「aruku with SOMPOひまわり生命」の内部管理用ID・任意入力の生年月日・性別など。"
+    }
+  ],
+  "data_types": [
+    "内部管理用ID",
+    "生年月日",
+    "性別"
+  ],
+  "related_vendor": "株式会社プレイド",
+  "sources": [
+    {
+      "url": "https://www.himawari-life.co.jp/-/media/himawari/files/company/news/2026/a-01-2026-11-16.pdf?la=ja-JP",
+      "type": "official",
+      "title": "当社サービスの一部機能の利用停止について",
+      "published_on": "2026-11-16",
+      "checked_on": "2026-11-26"
+    },
+    {
+      "url": "https://www.himawari-life.co.jp/-/media/himawari/files/company/news/2026/a-02-2026-11-19.pdf?la=ja-JP",
+      "type": "official",
+      "title": "当社委託先への不正アクセスによるお客さま情報の漏えいについて",
+      "published_on": "2026-11-19",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [
+    {
+      "date": "2026-11-19",
+      "summary": "漏えいした情報と件数を公表。",
+      "source_index": 1
+    }
+  ],
+  "notes": "11月16日の初報はKARTE停止に伴うアプリ機能の停止の案内。"
+}

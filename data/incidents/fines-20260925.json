@@ -8,15 +8,15 @@
   "published_on": "2026-09-25",
   "occurred_on": null,
   "detected_on": "2026-09-22",
-  "updated_on": "2026-10-15",
+  "updated_on": "2026-11-20",
   "leak_status": "confirmed",
   "summary": "予約システムへの不正アクセスと情報漏えいを速報として公表。予約者情報153万6,322件を影響範囲として示した。",
   "impact": [
     {
-      "count": 1536322,
+      "count": 1542254,
       "unit": "records",
       "qualifier": "exact",
-      "description": "速報で公表された対象件数"
+      "description": "店舗ごとの登録件数。顧客の氏名、電話番号、メールアドレス、住所、生年月日、予約内容、店舗が記録した顧客メモなど。ほかに顧客1名のメールアドレス。"
     }
   ],
   "data_types": [
@@ -37,10 +37,30 @@
       "title": "予約システムへの不正アクセスによる情報漏えい（速報）",
       "published_on": "2026-09-25",
       "checked_on": "2026-10-15"
+    },
+    {
+      "url": "https://e-tenki.co.jp/news/%E5%BC%8A%E7%A4%BE%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E3%81%B8%E3%81%AE%E4%B8%8D%E6%AD%A3%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E3%81%AB%E3%82%88%E3%82%8B%E6%83%85%E5%A0%B1%E6%BC%8F%E3%81%88%E3%81%84/",
+      "type": "official",
+      "title": "弊社システムへの不正アクセスによる情報漏えいについてのお詫びとお知らせ【速報】（2026年10月29日追記済）",
+      "published_on": "2026-09-25",
+      "checked_on": "2026-11-26"
+    },
+    {
+      "url": "https://e-tenki.co.jp/news/reserve-system-incident-final/",
+      "type": "official",
+      "title": "弊社システムへの不正アクセスによる個人情報の漏えいについて（第2報：調査結果のご報告）",
+      "published_on": "2026-11-20",
+      "checked_on": "2026-11-26"
     }
   ],
   "notes": "情報漏えいとして公表されているが、影響範囲の特定は継続中。件数は最終確定値ではない。",
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-11-20",
+      "summary": "第2報で調査結果を公表。2026年10月6～7日と2024年12月～2025年5月にも不正アクセスがあったと判明し、対象は店舗ごとの登録件数で1,542,254件。",
+      "source_index": 2
+    }
+  ],
   "first_published_on": "2026-09-25",
   "publication_kind": "initial",
   "verification": "official",
@@ -53,6 +73,14 @@
     "source_checks": [
       {
         "source_index": 0,
+        "status": "reviewed"
+      },
+      {
+        "source_index": 1,
+        "status": "reviewed"
+      },
+      {
+        "source_index": 2,
         "status": "reviewed"
       }
     ]

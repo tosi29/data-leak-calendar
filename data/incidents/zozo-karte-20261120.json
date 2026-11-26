@@ -1,0 +1,66 @@
+{
+  "id": "zozo-karte-20261120",
+  "organization": {
+    "name": "ZOZO（ZOZOTOWN・WEAR by ZOZO）",
+    "sector": "企業・団体"
+  },
+  "title": "利用する「KARTE」への不正アクセスでZOZOTOWN約1,518万人とWEAR by ZOZO約1,393万人の会員ID・年齢・性別等が漏えい",
+  "summary": "利用する「KARTE」への不正アクセスでZOZOTOWN約1,518万人とWEAR by ZOZO約1,393万人の会員ID・年齢・性別等が漏えい。",
+  "published_on": "2026-11-20",
+  "first_published_on": "2026-11-20",
+  "publication_kind": "initial",
+  "occurred_on": "2026-11-13",
+  "detected_on": null,
+  "updated_on": "2026-11-20",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "利用するプレイドのマーケティングツール「KARTE」への第三者による不正アクセス（プレイドはデータ取得用の公開経路の脆弱性の悪用と公表）。"
+  },
+  "impact": [
+    {
+      "count": 15180000,
+      "unit": "people",
+      "qualifier": "approximate",
+      "description": "ZOZOTOWN（退会者含む）の会員ID・年齢・性別・郵便番号。うち約4.7万人はログイン名・メールアドレス・電話番号も対象。"
+    },
+    {
+      "count": 13930000,
+      "unit": "people",
+      "qualifier": "approximate",
+      "description": "WEAR by ZOZOの会員ID・年齢・性別。"
+    },
+    {
+      "count": 24000,
+      "unit": "people",
+      "qualifier": "approximate",
+      "description": "ZOZOTOWN出店ブランド担当者の会員ID・企業名・氏名。"
+    }
+  ],
+  "data_types": [
+    "会員ID",
+    "年齢",
+    "性別",
+    "郵便番号",
+    "ログイン名",
+    "メールアドレス",
+    "電話番号",
+    "氏名",
+    "企業名"
+  ],
+  "related_vendor": "株式会社プレイド",
+  "sources": [
+    {
+      "url": "https://corp.zozo.com/information/20261120-482917/",
+      "type": "official",
+      "title": "当社利用の外部サービス「KARTE」への不正アクセスについて - 株式会社ZOZO",
+      "published_on": "2026-11-20",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

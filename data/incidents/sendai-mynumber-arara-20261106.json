@@ -11,9 +11,9 @@
   "publication_kind": "initial",
   "occurred_on": null,
   "detected_on": "2026-11-02",
-  "updated_on": "2026-11-06",
+  "updated_on": "2026-11-25",
   "verification": "official",
-  "leak_status": "investigating",
+  "leak_status": "confirmed",
   "incident_type": "attack",
   "cause": {
     "category": "unauthorized_access",
@@ -22,10 +22,10 @@
   },
   "impact": [
     {
-      "count": 12211,
+      "count": 4185,
       "unit": "records",
       "qualifier": "exact",
-      "description": "予約システムのメールアドレス登録数（母数）。漏えいの有無・件数は調査中。"
+      "description": "2026年7月～10月に予約完了メールなどを送った利用者のメールアドレス。"
     }
   ],
   "data_types": [
@@ -39,8 +39,21 @@
       "title": "メール配信サービスに対する不正アクセスによる個人情報漏えいの可能性について",
       "published_on": "2026-11-06",
       "checked_on": "2026-11-08"
+    },
+    {
+      "url": "https://www.city.sendai.jp/kosekijumin/20261125_2.html",
+      "type": "official",
+      "title": "メール配信サービスに対する不正アクセスによる個人情報漏えいについて",
+      "published_on": "2026-11-25",
+      "checked_on": "2026-11-26"
     }
   ],
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-11-25",
+      "summary": "続報で、2026年7月～10月に予約完了メールなどを送った利用者のメールアドレス4,185件の漏えいが判明したと公表。",
+      "source_index": 1
+    }
+  ],
   "notes": "12,211件は登録数で漏えい件数として扱わない。"
 }

@@ -11,9 +11,9 @@
   "publication_kind": "initial",
   "occurred_on": null,
   "detected_on": null,
-  "updated_on": "2026-11-12",
+  "updated_on": "2026-11-19",
   "verification": "official",
-  "leak_status": "investigating",
+  "leak_status": "confirmed",
   "incident_type": "attack",
   "cause": {
     "category": "unauthorized_access",
@@ -22,10 +22,10 @@
   },
   "impact": [
     {
-      "count": null,
+      "count": 126,
       "unit": "records",
-      "qualifier": "unknown",
-      "description": "漏えいの有無と影響範囲は調査中。"
+      "qualifier": "exact",
+      "description": "改ざんされたログイン画面に入力されたメールアドレス・パスワード。ほかに会員情報やログに記録されたメールアドレスの一部も対象。"
     }
   ],
   "data_types": [
@@ -39,8 +39,21 @@
       "title": "外部サービスへの不正アクセスに伴う個人向けサービス「giftee」の一時停止に関するお知らせ",
       "published_on": "2026-11-12",
       "checked_on": "2026-11-13"
+    },
+    {
+      "url": "https://giftee.co.jp/press/news/info20261119/",
+      "type": "official",
+      "title": "【第3報】外部サービスへの不正アクセスに伴う個人向けサービス「giftee」の個人情報漏えいおよび漏えいのおそれについて",
+      "published_on": "2026-11-19",
+      "checked_on": "2026-11-26"
     }
   ],
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-11-19",
+      "summary": "続報で、改ざんされたログイン画面に入力されたメールアドレス・パスワード126件などが取得されたと公表。",
+      "source_index": 1
+    }
+  ],
   "notes": "11月11日22時頃から主要機能を停止。10月22日公表のブラストメール事案とは別記録。"
 }

@@ -1,0 +1,46 @@
+{
+  "id": "pal-palcloset-karte-20261119",
+  "organization": {
+    "name": "パル（PAL CLOSET）",
+    "sector": "企業・団体"
+  },
+  "title": "「PAL CLOSET」の通知等に使う「KARTE」への不正アクセスで顧客を識別する番号などが流出したおそれ",
+  "summary": "「PAL CLOSET」の通知等に使う「KARTE」への不正アクセスで顧客を識別する番号などが流出したおそれ。",
+  "published_on": "2026-11-19",
+  "first_published_on": "2026-11-19",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-19",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "利用するプレイドのマーケティングツール「KARTE」への第三者による不正アクセス（プレイドはデータ取得用の公開経路の脆弱性の悪用と公表）。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "件数は精査中。"
+    }
+  ],
+  "data_types": [
+    "顧客識別番号"
+  ],
+  "related_vendor": "株式会社プレイド",
+  "sources": [
+    {
+      "url": "https://www.palcloset.jp/display/article/detail/?acd=261118all_004&b=",
+      "type": "official",
+      "title": "弊社が利用するサービス「KARTE」への不正アクセスによるお客様情報漏洩に関するお詫びとお知らせ",
+      "published_on": "2026-11-19",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

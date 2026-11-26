@@ -1,0 +1,48 @@
+{
+  "id": "kubell-storage-secure-samba-20261120",
+  "organization": {
+    "name": "kubellストレージ（セキュアSAMBA）",
+    "sector": "企業・団体"
+  },
+  "title": "「セキュアSAMBA」の一部環境で管理用ページが設定不備で閲覧可能となり、ユーザーID・パスワード等が漏えいしたおそれ",
+  "summary": "「セキュアSAMBA」の一部環境で管理用ページが設定不備で閲覧可能となり、ユーザーID・パスワード等が漏えいしたおそれ。",
+  "published_on": "2026-11-20",
+  "first_published_on": "2026-11-20",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-11-19",
+  "updated_on": "2026-11-20",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "accident",
+  "cause": {
+    "category": "configuration",
+    "certainty": "confirmed",
+    "detail": "稼働確認用の管理ページが設定の不備でインターネットから閲覧できる状態だった。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "accounts",
+      "qualifier": "unknown",
+      "description": "件数は非公表。"
+    }
+  ],
+  "data_types": [
+    "ユーザーID",
+    "パスワード",
+    "ログイン状態の識別情報"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.kubell-storage.com/news/2026/11/samba.html",
+      "type": "official",
+      "title": "「セキュアSAMBA」における利用者情報の漏えいのおそれに関するお詫びとお知らせ",
+      "published_on": "2026-11-20",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

@@ -1,0 +1,50 @@
+{
+  "id": "dawn-freescout-20261120",
+  "organization": {
+    "name": "ドーン（東京都防災アプリの問合せシステム）",
+    "sector": "企業・団体"
+  },
+  "title": "東京都防災アプリの問合せシステム「FreeScout」の脆弱性を突いた不正アクセスで問い合わせ内容189件が流出",
+  "summary": "東京都防災アプリの問合せシステム「FreeScout」の脆弱性を突いた不正アクセスで問い合わせ内容189件が流出。",
+  "published_on": "2026-11-20",
+  "first_published_on": "2026-11-20",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-20",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "vulnerability",
+    "certainty": "confirmed",
+    "detail": "問合せシステム「FreeScout」について11月7日に公表された脆弱性の悪用。"
+  },
+  "impact": [
+    {
+      "count": 189,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "問い合わせのメールアドレス、本文に含まれる氏名、アプリID、端末情報、添付のスナップショットなど。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス",
+    "氏名",
+    "問い合わせ内容",
+    "アプリID",
+    "端末情報"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.dawn-corp.co.jp/wp-content/uploads/2026/11/67f3f14d0a230196564b6bf69a8e99c2.pdf",
+      "type": "official",
+      "title": "当社受託業務における個人情報の漏えいに関するお詫びと個人情報保",
+      "published_on": "2026-11-20",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

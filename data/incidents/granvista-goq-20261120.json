@@ -1,0 +1,50 @@
+{
+  "id": "granvista-goq-20261120",
+  "organization": {
+    "name": "グランビスタ ホテル＆リゾート（鴨川シーワールド・神戸須磨シーワールドのオンラインショップ）",
+    "sector": "企業・団体"
+  },
+  "title": "Yahoo!ショッピングの受注業務等に使う「GoQSystem」への不正アクセスで注文者・届け先の情報815件が流出",
+  "summary": "Yahoo!ショッピングの受注業務等に使う「GoQSystem」への不正アクセスで注文者・届け先の情報815件が流出。",
+  "published_on": "2026-11-20",
+  "first_published_on": "2026-11-20",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-20",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "受注管理に使う「GoQSystem」への第三者による不正アクセス（GoQSystemは問い合わせフォームの脆弱性の悪用と公表）。"
+  },
+  "impact": [
+    {
+      "count": 815,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "オルカショップ155件、神戸須磨シーワールドオンラインショップ660件。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "電話番号",
+    "メールアドレス",
+    "注文内容"
+  ],
+  "related_vendor": "株式会社GoQSystem",
+  "sources": [
+    {
+      "url": "https://www.granvista.co.jp/news/detail/1434",
+      "type": "official",
+      "title": "委託先システムへの不正アクセスによる個人情報漏えいについてのお詫びとお知らせ",
+      "published_on": "2026-11-20",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

@@ -1,0 +1,50 @@
+{
+  "id": "palsystem-karte-20261125",
+  "organization": {
+    "name": "パルシステム",
+    "sector": "企業・団体"
+  },
+  "title": "注文サイトやアプリのお知らせ機能を委託する「KARTE」への不正アクセスで組合員番号・誕生月・性別等1,997,972件が漏えい",
+  "summary": "注文サイトやアプリのお知らせ機能を委託する「KARTE」への不正アクセスで組合員番号・誕生月・性別等1,997,972件が漏えい。",
+  "published_on": "2026-11-25",
+  "first_published_on": "2026-11-25",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-25",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "利用するプレイドのマーケティングツール「KARTE」への第三者による不正アクセス（プレイドはデータ取得用の公開経路の脆弱性の悪用と公表）。"
+  },
+  "impact": [
+    {
+      "count": 1997972,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "組合員番号、配達事業所名、誕生月、性別、ニックネームなど。氏名・住所・電話番号・メールアドレスは含まない。"
+    }
+  ],
+  "data_types": [
+    "組合員番号",
+    "配達事業所名",
+    "誕生月",
+    "性別",
+    "ニックネーム"
+  ],
+  "related_vendor": "株式会社プレイド",
+  "sources": [
+    {
+      "url": "https://information.pal-system.co.jp/press/20261125-incident/",
+      "type": "official",
+      "title": "当会委託先が提供するサービスへの不正アクセスに伴う一部情報の漏えいについて",
+      "published_on": "2026-11-25",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

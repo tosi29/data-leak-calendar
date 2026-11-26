@@ -11,7 +11,7 @@
   "publication_kind": "initial",
   "occurred_on": "2026-11-13",
   "detected_on": null,
-  "updated_on": "2026-11-18",
+  "updated_on": "2026-11-25",
   "verification": "official",
   "leak_status": "confirmed",
   "incident_type": "attack",
@@ -53,6 +53,20 @@
       "title": "当社が利用する外部サービスへの不正アクセスに伴う個人情報漏えいについて（第二報）",
       "published_on": "2026-11-18",
       "checked_on": "2026-11-20"
+    },
+    {
+      "url": "https://www.stripe-intl.com/news/2026/1120-01/",
+      "type": "official",
+      "title": "当社が利用する外部サービスへの不正アクセスに伴う個人情報漏えいについて（第三報）",
+      "published_on": "2026-11-20",
+      "checked_on": "2026-11-26"
+    },
+    {
+      "url": "https://www.stripe-intl.com/news/2026/1125-01/",
+      "type": "official",
+      "title": "当社が利用する外部サービスへの不正アクセスに伴う個人情報漏えいについて(第四報)",
+      "published_on": "2026-11-25",
+      "checked_on": "2026-11-26"
     }
   ],
   "updates": [
@@ -60,6 +74,11 @@
       "date": "2026-11-18",
       "summary": "第二報でメチャカリの対象を会員ID30,678件（うちメールアドレスを含む190件、氏名0件）と確認。STRIPE CLUBは150,069件を調査中。",
       "source_index": 1
+    },
+    {
+      "date": "2026-11-25",
+      "summary": "第四報で、メチャカリの会員IDのみを含むデータが追加で漏えい対象と判明し、新たな個別通知の対象者は31名と公表。",
+      "source_index": 3
     }
   ],
   "notes": "第一報は漏えいのおそれとして公表。件数はレコード数で人数ではない。開発・検証用データ586件はテスト用アカウントのみ。STRIPE CLUBは2026年6月に利用を終了していたがデータが残存していた。"

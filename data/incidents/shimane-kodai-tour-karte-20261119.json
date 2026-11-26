@@ -1,0 +1,49 @@
+{
+  "id": "shimane-kodai-tour-karte-20261119",
+  "organization": {
+    "name": "島根県（しまねの古代文化探訪ツアー）",
+    "sector": "自治体"
+  },
+  "title": "ツアー委託先クラブツーリズムが使う「KARTE」への不正アクセスで応募者約150件の会員番号・性別・生年月日等が漏えいした可能性",
+  "summary": "ツアー委託先クラブツーリズムが使う「KARTE」への不正アクセスで応募者約150件の会員番号・性別・生年月日等が漏えいした可能性。",
+  "published_on": "2026-11-19",
+  "first_published_on": "2026-11-19",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-19",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "利用するプレイドのマーケティングツール「KARTE」への第三者による不正アクセス（プレイドはデータ取得用の公開経路の脆弱性の悪用と公表）。"
+  },
+  "impact": [
+    {
+      "count": 150,
+      "unit": "records",
+      "qualifier": "approximate",
+      "description": "令和5～8年度のツアー応募者の会員番号・顧客番号、性別、年齢、生年月日など。"
+    }
+  ],
+  "data_types": [
+    "会員番号",
+    "性別",
+    "年齢",
+    "生年月日"
+  ],
+  "related_vendor": "株式会社プレイド",
+  "sources": [
+    {
+      "url": "https://www.pref.shimane.lg.jp/press_release/2026/kmi67hes4b7v.html",
+      "type": "official",
+      "title": "「しまねの古代文化探訪ツアー企画造成業務」委託事業者が利用しているシステムへの不正アクセスによる個人情報漏洩の可能性について",
+      "published_on": "2026-11-19",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": "同じツアーで11月2日に公表された委託先クラブツーリズムへの不正アクセスとは別の事案。"
+}

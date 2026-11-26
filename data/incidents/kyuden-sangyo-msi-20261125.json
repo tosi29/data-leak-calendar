@@ -1,0 +1,50 @@
+{
+  "id": "kyuden-sangyo-msi-20261125",
+  "organization": {
+    "name": "九電産業（損害保険代理店）",
+    "sector": "企業・団体"
+  },
+  "title": "代理店を務める三井住友海上火災保険のシステムへの不正アクセスで一部顧客の氏名・住所・保険証券番号等の漏えいが確認された",
+  "summary": "代理店を務める三井住友海上火災保険のシステムへの不正アクセスで一部顧客の氏名・住所・保険証券番号等の漏えいが確認された。",
+  "published_on": "2026-11-25",
+  "first_published_on": "2026-11-25",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-25",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "代理店として利用する三井住友海上火災保険のシステムへの第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "件数の記載なし。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "電話番号",
+    "メールアドレス",
+    "保険証券番号"
+  ],
+  "related_vendor": "三井住友海上火災保険株式会社",
+  "sources": [
+    {
+      "url": "https://www.kyudensangyo.co.jp/new_pdf/1795587780.pdf",
+      "type": "official",
+      "title": "お客さま情報漏えいに関するお詫びとお知らせ",
+      "published_on": "2026-11-25",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

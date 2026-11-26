@@ -1,0 +1,46 @@
+{
+  "id": "digital-gss-fileshare-20261120",
+  "organization": {
+    "name": "デジタル庁（ガバメントソリューションサービスのファイル共有）",
+    "sector": "国・公的機関"
+  },
+  "title": "GSSのファイル共有サービスで正規の共有相手先以外からのアクセスがあり、個人情報を含む可能性のあるファイルの一部が漏えいした可能性",
+  "summary": "GSSのファイル共有サービスで正規の共有相手先以外からのアクセスがあり、個人情報を含む可能性のあるファイルの一部が漏えいした可能性。",
+  "published_on": "2026-11-20",
+  "first_published_on": "2026-11-20",
+  "publication_kind": "initial",
+  "occurred_on": "2026-07-30",
+  "detected_on": "2026-11-12",
+  "updated_on": "2026-11-20",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "ファイル共有サービスへの正規の共有相手先以外からのアクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "documents",
+      "qualifier": "unknown",
+      "description": "アップロードされていたファイルの一部。個人情報が含まれることも想定されるとしている。"
+    }
+  ],
+  "data_types": [
+    "ファイル（個人情報を含む可能性）"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.digital.go.jp/press/a966ee61-478c-4194-8f13-f97599fae986",
+      "type": "official",
+      "title": "ガバメントソリューションサービスで提供しているファイル共有サービス上のファイルの漏えいの可能性について",
+      "published_on": "2026-11-20",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

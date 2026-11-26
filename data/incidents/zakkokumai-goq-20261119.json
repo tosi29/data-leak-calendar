@@ -1,0 +1,50 @@
+{
+  "id": "zakkokumai-goq-20261119",
+  "organization": {
+    "name": "雑穀米本舗",
+    "sector": "企業・団体"
+  },
+  "title": "受注管理システム「GoQSystem」への不正アクセスで各モール店舗等の注文14,264件、14,400人分の情報が流出",
+  "summary": "受注管理システム「GoQSystem」への不正アクセスで各モール店舗等の注文14,264件、14,400人分の情報が流出。",
+  "published_on": "2026-11-19",
+  "first_published_on": "2026-11-19",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-19",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "受注管理に使う「GoQSystem」への第三者による不正アクセス（GoQSystemは問い合わせフォームの脆弱性の悪用と公表）。"
+  },
+  "impact": [
+    {
+      "count": 14400,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "楽天市場・au PAY マーケット・Yahoo!ショッピング・Qoo10・Shopify・LINEギフトの注文14,264件。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "電話番号",
+    "メールアドレス",
+    "注文内容"
+  ],
+  "related_vendor": "株式会社GoQSystem",
+  "sources": [
+    {
+      "url": "https://zakkokumaihonpo.com/2026/11/19/20261119/",
+      "type": "official",
+      "title": "【重要】受注管理システムへの不正アクセスによる個人情報漏えいに関するお知らせとお詫び - 雑穀米本舗",
+      "published_on": "2026-11-19",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

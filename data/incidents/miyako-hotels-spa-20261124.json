@@ -1,0 +1,46 @@
+{
+  "id": "miyako-hotels-spa-20261124",
+  "organization": {
+    "name": "近鉄・都ホテルズ（志摩観光ホテル ザ ベイスイート「eau SPA」）",
+    "sector": "企業・団体"
+  },
+  "title": "スパの運営委託先が使う顧客管理システムへの不正アクセスでスパ利用客の個人情報が漏えいした可能性",
+  "summary": "スパの運営委託先が使う顧客管理システムへの不正アクセスでスパ利用客の個人情報が漏えいした可能性。",
+  "published_on": "2026-11-24",
+  "first_published_on": "2026-11-24",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-24",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "スパ運営委託先ザ・デイ・スパ・オペレーションが使うバルテックの顧客管理システムへの第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "範囲と件数は確認中。"
+    }
+  ],
+  "data_types": [
+    "個人情報（詳細確認中）"
+  ],
+  "related_vendor": "株式会社バルテック",
+  "sources": [
+    {
+      "url": "https://www.miyakohotels.ne.jp/topic/information/245/",
+      "type": "official",
+      "title": "【志摩観光ホテル】 スパの業務委託先におけるお客様情報漏えいに関するお詫びとお知らせ",
+      "published_on": "2026-11-24",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

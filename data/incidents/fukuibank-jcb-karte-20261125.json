@@ -1,0 +1,46 @@
+{
+  "id": "fukuibank-jcb-karte-20261125",
+  "organization": {
+    "name": "福井銀行（iica JCBカード）",
+    "sector": "企業・団体"
+  },
+  "title": "「iica JCBカード」に関連してJCBが使う「KARTE」への不正アクセスで顧客への案内を識別する管理コード値が漏えいした可能性",
+  "summary": "「iica JCBカード」に関連してJCBが使う「KARTE」への不正アクセスで顧客への案内を識別する管理コード値が漏えいした可能性。",
+  "published_on": "2026-11-25",
+  "first_published_on": "2026-11-25",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-25",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "利用するプレイドのマーケティングツール「KARTE」への第三者による不正アクセス（プレイドはデータ取得用の公開経路の脆弱性の悪用と公表）。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "JCB社内の管理コード値。件数の記載なし。"
+    }
+  ],
+  "data_types": [
+    "管理コード値"
+  ],
+  "related_vendor": "株式会社プレイド",
+  "sources": [
+    {
+      "url": "https://www.fukuibank.co.jp/info/docs/jcb_info_20261125.html",
+      "type": "official",
+      "title": "株式会社ジェーシービーが利用する外部システム「KARTE」への不正アクセスによる個人情報漏えいの可能性について",
+      "published_on": "2026-11-25",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

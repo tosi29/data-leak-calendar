@@ -1,0 +1,49 @@
+{
+  "id": "okinawa-shimakutuba-studio-20261120",
+  "organization": {
+    "name": "沖縄県（令和5年度しまくとぅばイベント開催等事業）",
+    "sector": "自治体"
+  },
+  "title": "委託先がイベントサイト作成に使ったStudioのクラウド環境への不正アクセスで問い合わせフォームの入力情報6名分が漏えいした可能性",
+  "summary": "委託先がイベントサイト作成に使ったStudioのクラウド環境への不正アクセスで問い合わせフォームの入力情報6名分が漏えいした可能性。",
+  "published_on": "2026-11-20",
+  "first_published_on": "2026-11-20",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-20",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "委託先がホームページ作成に使ったStudioのクラウド環境への外部からの不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 6,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "氏名、電話番号、メールアドレス、問い合わせ内容。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "電話番号",
+    "メールアドレス",
+    "問い合わせ内容"
+  ],
+  "related_vendor": "Studio株式会社",
+  "sources": [
+    {
+      "url": "https://www.pref.okinawa.lg.jp/bunkakoryu/bunkageijutsu/1009556/1042134.html",
+      "type": "official",
+      "title": "「令和5年度しまくとぅばイベント開催等事業委託業務」委託先に対する不正アクセスによる情報漏えいの可能性について",
+      "published_on": "2026-11-20",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

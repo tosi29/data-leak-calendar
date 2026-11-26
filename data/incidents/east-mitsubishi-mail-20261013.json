@@ -11,7 +11,7 @@
   "publication_kind": "initial",
   "occurred_on": null,
   "detected_on": null,
-  "updated_on": "2026-10-31",
+  "updated_on": "2026-11-20",
   "verification": "official",
   "leak_status": "confirmed",
   "incident_type": "attack",
@@ -49,6 +49,20 @@
       "title": "第2報：侵入されたメールアカウントに顧客情報24,480件が保存されていた。持ち出しの痕跡は未確認。",
       "published_on": "2026-10-30",
       "checked_on": "2026-10-31"
+    },
+    {
+      "url": "https://www.east-mitsubishi-motor-sales.com/custom/%e5%bd%93%e7%a4%be%e7%a4%be%e5%93%a1%e3%81%ae%e3%83%a1%e3%83%bc%e3%83%ab%e3%82%a2%e3%82%ab%e3%82%a6%e3%83%b3%e3%83%88%e3%81%b8%e3%81%ae%e4%b8%8d%e6%ad%a3%e3%82%a2%e3%82%af%e3%82%bb%e3%82%b9%e3%81%ab/",
+      "type": "official",
+      "title": "当社社員のメールアカウントへの不正アクセスによるなりすましメール送信に関するお知らせとお詫び – 東日本三菱自動車販売株式会社",
+      "published_on": "2026-10-13",
+      "checked_on": "2026-11-26"
+    },
+    {
+      "url": "https://www.east-mitsubishi-motor-sales.com/custom/fuseiaccess3/",
+      "type": "official",
+      "title": "当社社員のメールアカウントへの不正アクセスに関するお知らせとお詫び（第3報･最終報） – 東日本三菱自動車販売株式会社",
+      "published_on": "2026-11-20",
+      "checked_on": "2026-11-26"
     }
   ],
   "updates": [
@@ -56,6 +70,11 @@
       "date": "2026-10-30",
       "summary": "第2報：侵入されたメールアカウントに顧客情報24,480件が保存されていた。持ち出しの痕跡は未確認。",
       "source_index": 1
+    },
+    {
+      "date": "2026-11-20",
+      "summary": "最終報で、外部専門機関の調査の結果、顧客の個人情報24,480件が外部に持ち出された記録は確認されなかったと公表。パスワードの入手経路は特定できなかった。",
+      "source_index": 3
     }
   ],
   "notes": "住所・電話番号・銀行口座・カード情報は対象外。初報のなりすましメール825件は送信件数であり、顧客情報の件数とは異なる。"

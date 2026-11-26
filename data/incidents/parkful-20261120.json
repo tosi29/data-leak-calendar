@@ -1,0 +1,48 @@
+{
+  "id": "parkful-20261120",
+  "organization": {
+    "name": "パークフル（PARKFUL・PARKFUL Watch・PARKFUL Rental）",
+    "sector": "企業・団体"
+  },
+  "title": "システムの脆弱性を突いた不正アクセスでアプリ利用者のメールアドレスなど計130件が流出",
+  "summary": "システムの脆弱性を突いた不正アクセスでアプリ利用者のメールアドレスなど計130件が流出。",
+  "published_on": "2026-11-20",
+  "first_published_on": "2026-11-20",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-20",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "vulnerability",
+    "certainty": "unknown",
+    "detail": "システムの一部の脆弱性を突いた外部からの不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 130,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "PARKFULアプリ・管理ユーザー・Watchユーザーのメールアドレス、PARKFUL Rental申請者の担当者氏名・電話番号など。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス",
+    "氏名",
+    "電話番号"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://parkful.net/2026/11/security-notice/",
+      "type": "official",
+      "title": "個人情報漏えいに関するお詫びとお知らせ",
+      "published_on": "2026-11-20",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

@@ -1,0 +1,46 @@
+{
+  "id": "isetan-beauty-karte-20261119",
+  "organization": {
+    "name": "三越伊勢丹（ISETAN BEAUTY online）",
+    "sector": "企業・団体"
+  },
+  "title": "「ISETAN BEAUTY online」で使う「KARTE」への不正アクセスでWEBの会員番号などが漏えいした可能性",
+  "summary": "「ISETAN BEAUTY online」で使う「KARTE」への不正アクセスでWEBの会員番号などが漏えいした可能性。",
+  "published_on": "2026-11-19",
+  "first_published_on": "2026-11-19",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-19",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "利用するプレイドのマーケティングツール「KARTE」への第三者による不正アクセス（プレイドはデータ取得用の公開経路の脆弱性の悪用と公表）。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "WEBの会員番号など。その他の項目と件数は調査中。"
+    }
+  ],
+  "data_types": [
+    "会員番号"
+  ],
+  "related_vendor": "株式会社プレイド",
+  "sources": [
+    {
+      "url": "https://www.imhds.co.jp/corporate/news-release/article301.html",
+      "type": "official",
+      "title": "【重要なお知らせ】㈱三越伊勢丹が利用する「KARTE」への不正アクセスに伴う 情報漏えいに関するお知らせ",
+      "published_on": "2026-11-19",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

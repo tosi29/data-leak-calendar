@@ -1,0 +1,50 @@
+{
+  "id": "vitabrid-karte-20261119",
+  "organization": {
+    "name": "ビタブリッドジャパン",
+    "sector": "企業・団体"
+  },
+  "title": "約5年前に個人情報を扱う機能の利用を終えた「KARTE」に残っていた顧客11,590名分の氏名・メールアドレス等が漏えい",
+  "summary": "約5年前に個人情報を扱う機能の利用を終えた「KARTE」に残っていた顧客11,590名分の氏名・メールアドレス等が漏えい。",
+  "published_on": "2026-11-19",
+  "first_published_on": "2026-11-19",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-19",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "利用するプレイドのマーケティングツール「KARTE」への第三者による不正アクセス（プレイドはデータ取得用の公開経路の脆弱性の悪用と公表）。"
+  },
+  "impact": [
+    {
+      "count": 11590,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "2020年10月以前に公式ECサイトに登録した顧客の一部。"
+    }
+  ],
+  "data_types": [
+    "会員ID",
+    "メールアドレス",
+    "氏名",
+    "生年月日",
+    "郵便番号"
+  ],
+  "related_vendor": "株式会社プレイド",
+  "sources": [
+    {
+      "url": "https://vitabrid.co.jp/contents/customer202611/",
+      "type": "official",
+      "title": "外部サービス「KARTE（カルテ）」への不正アクセスに伴うお客さま情報の漏えいに関するお詫びとお知らせ",
+      "published_on": "2026-11-19",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

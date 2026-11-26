@@ -1,0 +1,47 @@
+{
+  "id": "livepass-graphy-20261120",
+  "organization": {
+    "name": "livepass",
+    "sector": "企業・団体"
+  },
+  "title": "動画配信基盤「Graphy」の脆弱性を悪用して窃取された認証情報で管理画面やクラウド環境に不正アクセスされ、13,313件の情報が流出",
+  "summary": "動画配信基盤「Graphy」の脆弱性を悪用して窃取された認証情報で管理画面やクラウド環境に不正アクセスされ、13,313件の情報が流出。",
+  "published_on": "2026-11-20",
+  "first_published_on": "2026-11-20",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-20",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "vulnerability",
+    "certainty": "confirmed",
+    "detail": "動画配信基盤「Graphy」の脆弱性を悪用してサーバー内の認証情報が窃取され、管理画面やクラウド環境に不正アクセスされた。"
+  },
+  "impact": [
+    {
+      "count": 13313,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "取引先と動画を視聴した人の個人情報を含む情報。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "メールアドレス"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.livepass.jp/news-list/2026-11-20",
+      "type": "official",
+      "title": "【重要】不正アクセスによる個人情報の漏えいに関するお詫びとご報告",
+      "published_on": "2026-11-20",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

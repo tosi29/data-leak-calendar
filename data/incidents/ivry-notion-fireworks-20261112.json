@@ -1,0 +1,55 @@
+{
+  "id": "ivry-notion-fireworks-20261112",
+  "organization": {
+    "name": "IVRy",
+    "sector": "企業・団体"
+  },
+  "title": "業務で使うNotion AIの処理委託先Fireworks AIへの不正アクセスで、入力内容に含まれる取引先担当者75件などの情報が漏えい",
+  "summary": "業務で使うNotion AIの処理委託先Fireworks AIへの不正アクセスで、入力内容に含まれる取引先担当者75件などの情報が漏えい。",
+  "published_on": "2026-11-12",
+  "first_published_on": "2026-11-12",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-11-10",
+  "updated_on": "2026-11-12",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "Notion AIの処理を担う委託先Fireworks AIへの第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 75,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "11月20日更新。取引先担当者の氏名・メールアドレス・電話番号の一部または全部。ほかに採用候補者12件、識別子4件。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "メールアドレス",
+    "電話番号",
+    "職歴"
+  ],
+  "related_vendor": "Fireworks AI（Notionの委託先）",
+  "sources": [
+    {
+      "url": "https://ivry.jp/corporate/news/4wu8ght2l2/",
+      "type": "official",
+      "title": "当社が利用するグループウェア提供事業者における不正アクセスに伴う、情報漏えいに関するお詫び",
+      "published_on": "2026-11-12",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [
+    {
+      "date": "2026-11-20",
+      "summary": "追加精査で取引先担当者の件数を33件から75件に更新。",
+      "source_index": 0
+    }
+  ],
+  "notes": ""
+}

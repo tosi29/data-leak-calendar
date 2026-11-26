@@ -1,0 +1,58 @@
+{
+  "id": "marui-epos-karte-20261120",
+  "organization": {
+    "name": "丸井グループ（エポスカード・丸井）",
+    "sector": "企業・団体"
+  },
+  "title": "グループ会社が使う「KARTE」への不正アクセスでマルイウェブチャネル利用者約883万件の氏名・メールアドレス等とエポスカード会員約850万件の顧客管理番号等が漏えい",
+  "summary": "グループ会社が使う「KARTE」への不正アクセスでマルイウェブチャネル利用者約883万件の氏名・メールアドレス等とエポスカード会員約850万件の顧客管理番号等が漏えい。",
+  "published_on": "2026-11-20",
+  "first_published_on": "2026-11-20",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-20",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "利用するプレイドのマーケティングツール「KARTE」への第三者による不正アクセス（プレイドはデータ取得用の公開経路の脆弱性の悪用と公表）。"
+  },
+  "impact": [
+    {
+      "count": 8830000,
+      "unit": "records",
+      "qualifier": "approximate",
+      "description": "マルイウェブチャネル利用者等の氏名・性別・生年月日・メールアドレス・顧客管理番号。"
+    },
+    {
+      "count": 8500000,
+      "unit": "records",
+      "qualifier": "approximate",
+      "description": "エポスカード会員（退会者含む）の顧客管理番号・性別。うち約6万件は氏名・年齢・年収・キャッシング限度額も漏れた可能性。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "性別",
+    "生年月日",
+    "メールアドレス",
+    "顧客管理番号",
+    "年収",
+    "キャッシング限度額"
+  ],
+  "related_vendor": "株式会社プレイド",
+  "sources": [
+    {
+      "url": "https://www.0101maruigroup.co.jp/nr/26_1120_1",
+      "type": "official",
+      "title": "当社グループが利用するマーケティング支援ツール「KARTE」への不正アクセスによるお客さまの個人情報の一部漏えいについて",
+      "published_on": "2026-11-20",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

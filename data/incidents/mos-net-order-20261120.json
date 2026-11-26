@@ -1,0 +1,48 @@
+{
+  "id": "mos-net-order-20261120",
+  "organization": {
+    "name": "モスフードサービス（モスのネット注文）",
+    "sector": "企業・団体"
+  },
+  "title": "「モスのネット注文」の管理システムへの断続的な不正アクセスで注文時の入力情報最大10万件が漏えいした痕跡",
+  "summary": "「モスのネット注文」の管理システムへの断続的な不正アクセスで注文時の入力情報最大10万件が漏えいした痕跡。",
+  "published_on": "2026-11-20",
+  "first_published_on": "2026-11-20",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-20",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "「モスのネット注文」の管理システムへの第三者による断続的な不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 100000,
+      "unit": "records",
+      "qualifier": "maximum",
+      "description": "2025年4月以降の利用者の一部。10月11日以降に管理画面上で表示された件数。氏名・電話番号・メールアドレス等。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "電話番号",
+    "メールアドレス"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.mos.jp/topics/past/20261120_1/",
+      "type": "official",
+      "title": "【重要】「モスのネット注文」管理システムへの不正アクセスによるお客さま情報の漏洩に関するお知らせとお詫び",
+      "published_on": "2026-11-20",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

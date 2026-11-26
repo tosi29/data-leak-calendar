@@ -1,0 +1,59 @@
+{
+  "id": "bestco-system-20261121",
+  "organization": {
+    "name": "ベストコ",
+    "sector": "企業・団体"
+  },
+  "title": "利用するシステムへの不正アクセスで在籍者最大50,196件の保護者・子どもの氏名や成績、口座番号等と過去の問い合わせ情報が漏えいした可能性",
+  "summary": "利用するシステムへの不正アクセスで在籍者最大50,196件の保護者・子どもの氏名や成績、口座番号等と過去の問い合わせ情報が漏えいした可能性。",
+  "published_on": "2026-11-21",
+  "first_published_on": "2026-11-21",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-11-20",
+  "updated_on": "2026-11-21",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "利用するシステムへの第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 50196,
+      "unit": "records",
+      "qualifier": "maximum",
+      "description": "2026年11月20日までの在籍者情報。保護者・子どもの氏名、住所、電話番号、成績、口座番号、教育情報アプリのID/パスワードなど。"
+    },
+    {
+      "count": 95937,
+      "unit": "records",
+      "qualifier": "maximum",
+      "description": "過去の問い合わせ情報。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "電話番号",
+    "メールアドレス",
+    "成績",
+    "口座番号",
+    "ID",
+    "パスワード"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://bestco.jp/news/74/",
+      "type": "official",
+      "title": "【お詫びとご報告】不正アクセスによる個人情報漏洩の可能性について",
+      "published_on": "2026-11-21",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

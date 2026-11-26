@@ -1,0 +1,52 @@
+{
+  "id": "merpay-merchant-login-20261120",
+  "organization": {
+    "name": "メルペイ（加盟店アカウント）",
+    "sector": "企業・団体"
+  },
+  "title": "リスト型攻撃とみられる不正ログインで加盟店10店のアカウントに入られ、加盟店情報と顧客の取引情報計13名分が閲覧・取得された可能性",
+  "summary": "リスト型攻撃とみられる不正ログインで加盟店10店のアカウントに入られ、加盟店情報と顧客の取引情報計13名分が閲覧・取得された可能性。",
+  "published_on": "2026-11-20",
+  "first_published_on": "2026-11-20",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-20",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "credentials",
+    "certainty": "suspected",
+    "detail": "リスト型攻撃とみられる不正ログイン。"
+  },
+  "impact": [
+    {
+      "count": 13,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "加盟店情報11名分、顧客の取引情報2名分。"
+    }
+  ],
+  "data_types": [
+    "口座情報",
+    "氏名",
+    "メールアドレス",
+    "電話番号",
+    "生年月日",
+    "住所",
+    "取引情報"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://jp.merpay.com/news/2026/11/202611_merpay/",
+      "type": "official",
+      "title": "「メルペイ加盟店サービス」への不正ログインによる一部情報等の閲覧・取得の可能性について - 株式会社メルペイ",
+      "published_on": "2026-11-20",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

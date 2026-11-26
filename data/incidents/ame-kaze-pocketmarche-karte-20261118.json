@@ -11,7 +11,7 @@
   "publication_kind": "initial",
   "occurred_on": "2026-11-13",
   "detected_on": null,
-  "updated_on": "2026-11-18",
+  "updated_on": "2026-11-25",
   "verification": "official",
   "leak_status": "confirmed",
   "incident_type": "attack",
@@ -49,8 +49,21 @@
       "title": "外部サービス「KARTE」への不正アクセスによる個人情報漏えいに関するお詫びとお知らせ",
       "published_on": "2026-11-18",
       "checked_on": "2026-11-20"
+    },
+    {
+      "url": "https://poke-m.com/announcements/909",
+      "type": "official",
+      "title": "【お知らせ】外部サービス「KARTE」からの個人情報漏えいの対応状況ご報告・メールマガジン再開のご案内",
+      "published_on": "2026-11-25",
+      "checked_on": "2026-11-26"
     }
   ],
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-11-25",
+      "summary": "続報で、新たに消費者・生産者31名の漏えいがプレイドから報告されたと公表（内容は調査中）。",
+      "source_index": 1
+    }
+  ],
   "notes": "メールアドレスは退会者・変更重複分を含め959,452件。"
 }

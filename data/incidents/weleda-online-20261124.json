@@ -1,0 +1,58 @@
+{
+  "id": "weleda-online-20261124",
+  "organization": {
+    "name": "ヴェレダ公式オンラインショップ",
+    "sector": "企業・団体"
+  },
+  "title": "公式オンラインショップの脆弱性を突いた改ざんで個人情報198,792件とクレジットカード情報45,689件が漏えいした可能性",
+  "summary": "公式オンラインショップの脆弱性を突いた改ざんで個人情報198,792件とクレジットカード情報45,689件が漏えいした可能性。",
+  "published_on": "2026-11-24",
+  "first_published_on": "2026-11-24",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-06-30",
+  "updated_on": "2026-11-24",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "vulnerability",
+    "certainty": "confirmed",
+    "detail": "サイトのシステムの脆弱性を突いた第三者による不正アクセスと改ざん。"
+  },
+  "impact": [
+    {
+      "count": 198792,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "2021年10月1日～2026年6月30日の会員・注文者・配送先の氏名、住所、メールアドレス、電話番号など。"
+    },
+    {
+      "count": 45689,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "同期間のクレジットカード決済者のカード名義・番号・有効期限・セキュリティコード。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "メールアドレス",
+    "電話番号",
+    "性別",
+    "誕生日",
+    "クレジットカード情報"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://weleda-notice-static-apne1.s3.ap-northeast-1.amazonaws.com/news/20261116.html",
+      "type": "official",
+      "title": "弊社が運営する「ヴェレダ 公式オンラインショップ」への不正アクセスによる情報漏えいに関するお詫びとお知らせ",
+      "published_on": "2026-11-24",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": "2026年6月30日に警視庁から連絡を受けて判明。"
+}

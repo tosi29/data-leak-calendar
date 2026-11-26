@@ -11,9 +11,9 @@
   "publication_kind": "initial",
   "occurred_on": null,
   "detected_on": null,
-  "updated_on": "2026-11-17",
+  "updated_on": "2026-11-24",
   "verification": "official",
-  "leak_status": "suspected",
+  "leak_status": "confirmed",
   "incident_type": "attack",
   "cause": {
     "category": "unauthorized_access",
@@ -22,10 +22,10 @@
   },
   "impact": [
     {
-      "count": null,
-      "unit": "people",
-      "qualifier": "unknown",
-      "description": "TOHO-ONEのサービス開始以降にログインした会員。件数は調査中。"
+      "count": 3470217,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "「TOHO-ONE」会員の会員番号・年代・都道府県・性別。"
     }
   ],
   "data_types": [
@@ -42,8 +42,28 @@
       "title": "「TOHO-ONE」で利用している「KARTE」への不正アクセスに伴う会員情報流出の可能性に関するお詫びとお知らせ",
       "published_on": "2026-11-17",
       "checked_on": "2026-11-18"
+    },
+    {
+      "url": "https://www.toho.co.jp/company/2026/1117-pr-1.pdf",
+      "type": "official",
+      "title": "不正アクセスに伴う会員情報流出の可能性に関するお詫びとお知らせ",
+      "published_on": "2026-11-17",
+      "checked_on": "2026-11-26"
+    },
+    {
+      "url": "https://www.toho.co.jp/company/2026/1124-pr-1.pdf",
+      "type": "official",
+      "title": "不正アクセスに伴う会員情報流出に関するお詫びとお知らせ（続報）",
+      "published_on": "2026-11-24",
+      "checked_on": "2026-11-26"
     }
   ],
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-11-24",
+      "summary": "続報で、会員番号・年代・都道府県・性別の情報3,470,217件の流出を確認したと公表。",
+      "source_index": 2
+    }
+  ],
   "notes": ""
 }

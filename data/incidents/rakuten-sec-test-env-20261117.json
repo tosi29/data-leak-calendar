@@ -11,9 +11,9 @@
   "publication_kind": "initial",
   "occurred_on": null,
   "detected_on": null,
-  "updated_on": "2026-11-17",
+  "updated_on": "2026-11-24",
   "verification": "official",
-  "leak_status": "suspected",
+  "leak_status": "confirmed",
   "incident_type": "attack",
   "cause": {
     "category": "unauthorized_access",
@@ -22,10 +22,16 @@
   },
   "impact": [
     {
-      "count": 4470000,
+      "count": 4410000,
+      "unit": "records",
+      "qualifier": "approximate",
+      "description": "氏名・生年月日・住所・電話番号などを含む個人情報（約322万口座と口座未開設者約119万件。重複の可能性）。"
+    },
+    {
+      "count": 11980000,
       "unit": "accounts",
-      "qualifier": "maximum_approximate",
-      "description": "氏名・住所・電話番号・出金先口座・年収等を含む口座。部店・お客様コードとログインIDは最大約1,125万口座。"
+      "qualifier": "approximate",
+      "description": "部店・お客様コードとログインIDのみ。"
     }
   ],
   "data_types": [
@@ -48,8 +54,28 @@
       "title": "当社お客様の情報漏えいの可能性に関するお詫びとお知らせ",
       "published_on": "2026-11-17",
       "checked_on": "2026-11-18"
+    },
+    {
+      "url": "https://www.rakuten-sec.co.jp/web/company/newsrelease/pdf/press2026111901.pdf",
+      "type": "official",
+      "title": "金融庁による報告徴求命令の受領について",
+      "published_on": "2026-11-19",
+      "checked_on": "2026-11-26"
+    },
+    {
+      "url": "https://www.rakuten-sec.co.jp/web/info/info20261124-04.html",
+      "type": "official",
+      "title": "当社お客様の情報漏えいに関するお詫びとお知らせ（第2報）",
+      "published_on": "2026-11-24",
+      "checked_on": "2026-11-26"
     }
   ],
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-11-24",
+      "summary": "第2報で、氏名・生年月日・住所・電話番号などを含む個人情報の漏えいが約441万件（うち口座未開設者約119万件）、部店・お客様コードとログインIDに限った漏えいが約1,198万口座と公表。11月19日には金融庁から報告徴求命令を受けたと公表。",
+      "source_index": 2
+    }
+  ],
   "notes": ""
 }

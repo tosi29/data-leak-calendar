@@ -1,0 +1,50 @@
+{
+  "id": "iida-shoten-goq-20261119",
+  "organization": {
+    "name": "飯田商店（骨取り魚の飯田商店）",
+    "sector": "企業・団体"
+  },
+  "title": "「GoQSystem」への不正アクセスでオンラインショップと電話注文の注文449件の情報が漏えい",
+  "summary": "「GoQSystem」への不正アクセスでオンラインショップと電話注文の注文449件の情報が漏えい。",
+  "published_on": "2026-11-19",
+  "first_published_on": "2026-11-19",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-19",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "受注管理に使う「GoQSystem」への第三者による不正アクセス（GoQSystemは問い合わせフォームの脆弱性の悪用と公表）。"
+  },
+  "impact": [
+    {
+      "count": 449,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "注文件数（人数とは異なる）。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "電話番号",
+    "メールアドレス",
+    "注文内容"
+  ],
+  "related_vendor": "株式会社GoQSystem",
+  "sources": [
+    {
+      "url": "https://yamagoiida.co.jp/news/%e3%80%90%e9%87%8d%e8%a6%81%e3%80%91goqsystem%e3%81%b8%e3%81%ae%e4%b8%8d%e6%ad%a3%e3%82%a2%e3%82%af%e3%82%bb%e3%82%b9%e3%81%ab%e3%82%88%e3%82%8b%e5%80%8b%e4%ba%ba%e6%83%85%e5%a0%b1%e6%bc%8f%e3%81%88/",
+      "type": "official",
+      "title": "【重要】GoQSystemへの不正アクセスによる個人情報漏えいのお詫びとお知らせ - 飯田商店",
+      "published_on": "2026-11-19",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

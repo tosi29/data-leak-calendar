@@ -1,0 +1,48 @@
+{
+  "id": "mjs-ma-partners-network-20261124",
+  "organization": {
+    "name": "MJS M&Aパートナーズ",
+    "sector": "企業・団体"
+  },
+  "title": "社内ネットワークへの不正アクセスで役職員の認証情報の一部が取得され、顧客・取引先の担当者情報やM&Aの預かり資料が漏えいした可能性",
+  "summary": "社内ネットワークへの不正アクセスで役職員の認証情報の一部が取得され、顧客・取引先の担当者情報やM&Aの預かり資料が漏えいした可能性。",
+  "published_on": "2026-11-24",
+  "first_published_on": "2026-11-24",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-11-06",
+  "updated_on": "2026-11-24",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "ファイアウォール機器に不審な管理者アカウント等が作られた社内ネットワークへの不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "organizations",
+      "qualifier": "unknown",
+      "description": "最大数千社分の情報が漏えいした可能性を否定できないとしている。"
+    }
+  ],
+  "data_types": [
+    "担当者情報",
+    "M&A関連資料",
+    "認証情報"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://mmap.co.jp/news/news_20261124/",
+      "type": "official",
+      "title": "不正アクセスによる情報漏えいの可能性に関するお詫びとお知らせ",
+      "published_on": "2026-11-24",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

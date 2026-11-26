@@ -1,0 +1,49 @@
+{
+  "id": "susanoo-magic-karte-20261120",
+  "organization": {
+    "name": "バンダイナムコ島根スサノオマジック",
+    "sector": "企業・団体"
+  },
+  "title": "利用する「KARTE」への不正アクセスで顧客664件の氏名・生年月日・住所・性別が漏えい",
+  "summary": "利用する「KARTE」への不正アクセスで顧客664件の氏名・生年月日・住所・性別が漏えい。",
+  "published_on": "2026-11-20",
+  "first_published_on": "2026-11-20",
+  "publication_kind": "initial",
+  "occurred_on": "2026-11-13",
+  "detected_on": "2026-11-15",
+  "updated_on": "2026-11-20",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "利用するプレイドのマーケティングツール「KARTE」への第三者による不正アクセス（プレイドはデータ取得用の公開経路の脆弱性の悪用と公表）。"
+  },
+  "impact": [
+    {
+      "count": 664,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "現時点の件数。プレイドからの最終確定報は11月24日を目処としている。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "生年月日",
+    "住所",
+    "性別"
+  ],
+  "related_vendor": "株式会社プレイド",
+  "sources": [
+    {
+      "url": "https://www.susanoo-m.com/news/detail/id=21277",
+      "type": "official",
+      "title": "【重要】外部サービス「KARTE」への不正アクセスに伴うお客様情報漏洩に関するお詫びとお知らせ",
+      "published_on": "2026-11-20",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

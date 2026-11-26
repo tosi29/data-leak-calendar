@@ -1,0 +1,47 @@
+{
+  "id": "nissuicon-notion-fireworks-20261119",
+  "organization": {
+    "name": "日水コン",
+    "sector": "企業・団体"
+  },
+  "title": "Notion AIの処理委託先Fireworks AIへの不正アクセスで従業員のチャット記録の一部が漏えいした可能性",
+  "summary": "Notion AIの処理委託先Fireworks AIへの不正アクセスで従業員のチャット記録の一部が漏えいした可能性。",
+  "published_on": "2026-11-19",
+  "first_published_on": "2026-11-19",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-19",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "Notion AIの処理を担う委託先Fireworks AIへの第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "2026年9月10日～10月23日の入力内容とAIの回答の一部。社内業務と顧客の業務・案件に関する情報。"
+    }
+  ],
+  "data_types": [
+    "チャット記録",
+    "業務情報"
+  ],
+  "related_vendor": "Fireworks AI（Notionの委託先）",
+  "sources": [
+    {
+      "url": "https://www.nissuicon.co.jp/news/20261119.html",
+      "type": "official",
+      "title": "外部サービスにおける情報漏えいの可能性に関する当社対応状況のお知らせ",
+      "published_on": "2026-11-19",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

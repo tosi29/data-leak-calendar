@@ -1,0 +1,57 @@
+{
+  "id": "mlit-nintei-shinsei-20261120",
+  "organization": {
+    "name": "国土交通省（建築基準法「構造方法等の認定」申請システム）",
+    "sector": "国・公的機関"
+  },
+  "title": "大臣認定の申請システムへの外部からの不正操作で申請図書の情報が漏えいし、申請者の代表者・担当者の氏名等を含む",
+  "summary": "大臣認定の申請システムへの外部からの不正操作で申請図書の情報が漏えいし、申請者の代表者・担当者の氏名等を含む。",
+  "published_on": "2026-11-20",
+  "first_published_on": "2026-11-20",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-20",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "申請システムへの外部からの不正操作。"
+  },
+  "impact": [
+    {
+      "count": 6,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "申請者に関するもの（法人代表者の氏名・役職、担当者の氏名・部署・電話番号）。ほかに申請内容に関するもの18件。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "役職",
+    "部署",
+    "電話番号",
+    "申請内容"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.mlit.go.jp/report/press/house05_hh_001376.html",
+      "type": "official",
+      "title": "報道発表資料：建築基準法に基づく「構造方法等の認定」の申請を行うシステムにおける申請に関する図書情報の漏洩について - 国土交通省",
+      "published_on": "2026-11-20",
+      "checked_on": "2026-11-26"
+    },
+    {
+      "url": "https://www.mlit.go.jp/report/press/content/002047302.pdf",
+      "type": "official",
+      "title": "申請に関する図書情報の漏洩について",
+      "published_on": "2026-11-20",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

@@ -1,0 +1,48 @@
+{
+  "id": "outletplaza-ec-20261125",
+  "organization": {
+    "name": "アウトレットプラザ（アウトレットプラザ・プレミアムアウトレットプラザ）",
+    "sector": "企業・団体"
+  },
+  "title": "運営するECサイトへの不正アクセスで会員情報を含むデータの一部が外部に流出",
+  "summary": "運営するECサイトへの不正アクセスで会員情報を含むデータの一部が外部に流出。",
+  "published_on": "2026-11-25",
+  "first_published_on": "2026-11-25",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-25",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "ECサイトへの外部の第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "人数は調査中。氏名・住所・電話番号などが含まれる可能性。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "電話番号"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.outletplaza.co.jp/index.php?pg=information&get=176",
+      "type": "official",
+      "title": "【重要】不正アクセスによる個人情報漏えいに関するお詫びとお知らせ : アウトレットプラザ",
+      "published_on": "2026-11-25",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

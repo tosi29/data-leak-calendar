@@ -1,0 +1,48 @@
+{
+  "id": "phoneappli-qant-karte-20261120",
+  "organization": {
+    "name": "PHONE APPLI",
+    "sector": "企業・団体"
+  },
+  "title": "カスタマーサイトを委託するRightTouchの「QANT Web」の基盤「KARTE」への不正アクセスで顧客の識別ID等約126,600件が漏えいした恐れ",
+  "summary": "カスタマーサイトを委託するRightTouchの「QANT Web」の基盤「KARTE」への不正アクセスで顧客の識別ID等約126,600件が漏えいした恐れ。",
+  "published_on": "2026-11-20",
+  "first_published_on": "2026-11-20",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-20",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "利用するプレイドのマーケティングツール「KARTE」への第三者による不正アクセス（プレイドはデータ取得用の公開経路の脆弱性の悪用と公表）。"
+  },
+  "impact": [
+    {
+      "count": 126600,
+      "unit": "records",
+      "qualifier": "approximate",
+      "description": "ユーザー識別ID、顧客管理番号、契約プラン・オプション、管理権限の有無など。"
+    }
+  ],
+  "data_types": [
+    "ユーザー識別ID",
+    "顧客管理番号",
+    "契約情報"
+  ],
+  "related_vendor": "株式会社プレイド",
+  "sources": [
+    {
+      "url": "https://phoneappli.net/2026/11/20261120-news.html",
+      "type": "official",
+      "title": "外部委託先への不正アクセスについて（初報）",
+      "published_on": "2026-11-20",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

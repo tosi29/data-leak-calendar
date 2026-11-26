@@ -1,0 +1,50 @@
+{
+  "id": "mitani-goq-20261120",
+  "organization": {
+    "name": "三谷商事（見てね価格）",
+    "sector": "企業・団体"
+  },
+  "title": "受注管理に使う「GoQSystem」への不正アクセスで注文5,104件の注文者・届け先情報が持ち出された",
+  "summary": "受注管理に使う「GoQSystem」への不正アクセスで注文5,104件の注文者・届け先情報が持ち出された。",
+  "published_on": "2026-11-20",
+  "first_published_on": "2026-11-20",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-20",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "受注管理に使う「GoQSystem」への第三者による不正アクセス（GoQSystemは問い合わせフォームの脆弱性の悪用と公表）。"
+  },
+  "impact": [
+    {
+      "count": 5104,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "2024年1月8日～2026年11月11日の注文の一部（Yahoo!ショッピング1,839件、楽天市場など）。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "電話番号",
+    "メールアドレス",
+    "注文内容"
+  ],
+  "related_vendor": "株式会社GoQSystem",
+  "sources": [
+    {
+      "url": "https://www.mitani-corp.co.jp/release/%E5%A4%96%E9%83%A8%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9%E6%8F%90%E4%BE%9B%E5%85%83%E3%81%B8%E3%81%AE%E4%B8%8D%E6%AD%A3%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E3%81%AB%E3%82%88%E3%82%8B%E5%80%8B%E4%BA%BA%E6%83%85%E5%A0%B1%E6%B5%81%E5%87%BA%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E3%81%8A%E8%A9%AB%E3%81%B3%E3%81%A8%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B_2026%E5%B9%B411%E6%9C%8820%E6%97%A5.pdf",
+      "type": "official",
+      "title": "外部サービス提供元への不正アクセスによる個⼈情報流出に関するお詫びとお知らせ",
+      "published_on": "2026-11-20",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

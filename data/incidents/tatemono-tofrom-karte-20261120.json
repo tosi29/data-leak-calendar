@@ -1,0 +1,48 @@
+{
+  "id": "tatemono-tofrom-karte-20261120",
+  "organization": {
+    "name": "東京建物（TOFROM App for workers）",
+    "sector": "企業・団体"
+  },
+  "title": "委託先の「KARTE」への不正アクセスでアプリ登録者最大4,235件の氏名・メールアドレス・勤務先等が漏えい",
+  "summary": "委託先の「KARTE」への不正アクセスでアプリ登録者最大4,235件の氏名・メールアドレス・勤務先等が漏えい。",
+  "published_on": "2026-11-20",
+  "first_published_on": "2026-11-20",
+  "publication_kind": "initial",
+  "occurred_on": "2026-11-13",
+  "detected_on": null,
+  "updated_on": "2026-11-20",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "利用するプレイドのマーケティングツール「KARTE」への第三者による不正アクセス（プレイドはデータ取得用の公開経路の脆弱性の悪用と公表）。"
+  },
+  "impact": [
+    {
+      "count": 4235,
+      "unit": "records",
+      "qualifier": "maximum",
+      "description": "氏名（フリガナ含む）、メールアドレス、勤務先の会社名・部署名など。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "メールアドレス",
+    "勤務先"
+  ],
+  "related_vendor": "株式会社プレイド",
+  "sources": [
+    {
+      "url": "https://tatemono.com/news/images/fc4526c302ceff0b7afeddbe3040588a.pdf",
+      "type": "official",
+      "title": "当社が利用する委託先システムへの不正アクセスによるお客様情報の漏えいに関するお詫びとお知らせ",
+      "published_on": "2026-11-20",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

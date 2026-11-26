@@ -1,0 +1,46 @@
+{
+  "id": "nanchiku-arara-20261119",
+  "organization": {
+    "name": "ナンチク（鹿児島のお肉屋さん）",
+    "sector": "企業・団体"
+  },
+  "title": "ECサイトが使う「アララメッセージ」への不正アクセスで会員・注文者のメールアドレス2,280件が漏えい",
+  "summary": "ECサイトが使う「アララメッセージ」への不正アクセスで会員・注文者のメールアドレス2,280件が漏えい。",
+  "published_on": "2026-11-19",
+  "first_published_on": "2026-11-19",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-19",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "メール配信に使われるアララの「アララメッセージ」への第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 2280,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "2026年7月1日～10月28日に配信先に指定されたメールアドレス。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "アララ株式会社",
+  "sources": [
+    {
+      "url": "https://www.nanchiku.co.jp/news/19673/",
+      "type": "official",
+      "title": "不正アクセスによるお客様メールアドレス流出のお詫びとお知らせ - 株式会社ナンチク",
+      "published_on": "2026-11-19",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

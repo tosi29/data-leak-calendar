@@ -1,0 +1,46 @@
+{
+  "id": "wowworld-server-20261120",
+  "organization": {
+    "name": "WOW WORLD",
+    "sector": "企業・団体"
+  },
+  "title": "サービスの運用に使う一部サーバーへの不正アクセスでクライアント企業4社の情報延べ約49,000件が持ち出された",
+  "summary": "サービスの運用に使う一部サーバーへの不正アクセスでクライアント企業4社の情報延べ約49,000件が持ち出された。",
+  "published_on": "2026-11-20",
+  "first_published_on": "2026-11-20",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-20",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "メール配信などのサービスの運用に使う一部サーバーへの第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 49000,
+      "unit": "records",
+      "qualifier": "approximate",
+      "description": "11月20日15時時点。クライアント企業4社分、重複の可能性あり。メールアドレス等。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.wow-world.co.jp/release/001621.html",
+      "type": "official",
+      "title": "当社サービスの一部サーバーへの不正アクセスによる情報漏えいに関するお詫びとお知らせ（第一報）",
+      "published_on": "2026-11-20",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

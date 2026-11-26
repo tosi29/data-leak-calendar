@@ -1,0 +1,50 @@
+{
+  "id": "kyoritsu-biyo-hp-20261124",
+  "organization": {
+    "name": "共立美容外科",
+    "sector": "医療機関"
+  },
+  "title": "ホームページのサーバーへの不正アクセスでお問い合わせ・予約フォームから連絡した2,736名の氏名・相談内容等が持ち出された",
+  "summary": "ホームページのサーバーへの不正アクセスでお問い合わせ・予約フォームから連絡した2,736名の氏名・相談内容等が持ち出された。",
+  "published_on": "2026-11-24",
+  "first_published_on": "2026-11-24",
+  "publication_kind": "initial",
+  "occurred_on": "2026-11-16",
+  "detected_on": "2026-11-20",
+  "updated_on": "2026-11-24",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "ホームページのサーバーへの第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 2736,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "2024年8月～11月にフォームから連絡した人の氏名・生年月日・電話番号・メールアドレス・相談内容など。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "生年月日",
+    "電話番号",
+    "メールアドレス",
+    "相談内容"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.kyoritsu-biyo.com/news/20261124/",
+      "type": "official",
+      "title": "当院ホームページへの不正アクセスによる個人情報の漏えいについて（お詫びとお知らせ）",
+      "published_on": "2026-11-24",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

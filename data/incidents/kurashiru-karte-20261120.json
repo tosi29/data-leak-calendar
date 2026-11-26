@@ -1,0 +1,55 @@
+{
+  "id": "kurashiru-karte-20261120",
+  "organization": {
+    "name": "クラシル（レシチャレ・クラシルチラシ）",
+    "sector": "企業・団体"
+  },
+  "title": "連携していた「KARTE」への不正アクセスで「レシチャレ」利用者最大約32万件のユーザーID等と「クラシルチラシ」取引先のメールアドレス等が漏えい",
+  "summary": "連携していた「KARTE」への不正アクセスで「レシチャレ」利用者最大約32万件のユーザーID等と「クラシルチラシ」取引先のメールアドレス等が漏えい。",
+  "published_on": "2026-11-20",
+  "first_published_on": "2026-11-20",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-20",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "利用するプレイドのマーケティングツール「KARTE」への第三者による不正アクセス（プレイドはデータ取得用の公開経路の脆弱性の悪用と公表）。"
+  },
+  "impact": [
+    {
+      "count": 320000,
+      "unit": "records",
+      "qualifier": "maximum_approximate",
+      "description": "「レシチャレ」利用者のユーザーID、利用店舗名・おすすめ商品名等。"
+    },
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "「クラシルチラシ」の管理画面等で登録された取引先のメールアドレス・会社名等。"
+    }
+  ],
+  "data_types": [
+    "ユーザーID",
+    "利用店舗名",
+    "メールアドレス",
+    "会社名"
+  ],
+  "related_vendor": "株式会社プレイド",
+  "sources": [
+    {
+      "url": "https://kurashiru.co.jp/news/update/d8yg20boxz",
+      "type": "official",
+      "title": "当社が利用する外部サービスへの不正アクセスに伴う情報の漏えいに関するお詫びとお知らせ",
+      "published_on": "2026-11-20",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

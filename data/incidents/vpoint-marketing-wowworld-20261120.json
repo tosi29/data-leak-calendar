@@ -1,0 +1,46 @@
+{
+  "id": "vpoint-marketing-wowworld-20261120",
+  "organization": {
+    "name": "Vポイントマーケティング",
+    "sector": "企業・団体"
+  },
+  "title": "元委託先WOW WORLDのサーバーへの不正アクセスで、削除済みとされたデータに含まれるメールアドレス9,313件が漏えい",
+  "summary": "元委託先WOW WORLDのサーバーへの不正アクセスで、削除済みとされたデータに含まれるメールアドレス9,313件が漏えい。",
+  "published_on": "2026-11-20",
+  "first_published_on": "2026-11-20",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-20",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "過去にメール配信を委託していたWOW WORLDの作業用サーバーへの第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 9313,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "2020年の「【Tポイント】Q＆Aメール」送付対象者のメールアドレス。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "株式会社WOW WORLD",
+  "sources": [
+    {
+      "url": "https://www.vpoint.co.jp/news/20261120_2532/",
+      "type": "official",
+      "title": "元業務委託先への不正アクセスによるお客さまのメールアドレス漏えいに関するお詫びとお知らせ",
+      "published_on": "2026-11-20",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

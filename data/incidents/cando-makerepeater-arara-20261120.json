@@ -1,0 +1,53 @@
+{
+  "id": "cando-makerepeater-arara-20261120",
+  "organization": {
+    "name": "キャンドゥ（Can★Doネットショップ）",
+    "sector": "企業・団体"
+  },
+  "title": "メールマガジン配信に使う「MakeRepeater」が連携する「アララメッセージ」への不正アクセスでメールアドレス19,830件が漏えい",
+  "summary": "メールマガジン配信に使う「MakeRepeater」が連携する「アララメッセージ」への不正アクセスでメールアドレス19,830件が漏えい。",
+  "published_on": "2026-11-20",
+  "first_published_on": "2026-11-20",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-20",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "メール配信に使われるアララの「アララメッセージ」への第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 19830,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "メールマガジン配信先のメールアドレスなど。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "アララ株式会社",
+  "sources": [
+    {
+      "url": "https://www.cando-web.co.jp/news/important/detail_001036",
+      "type": "official",
+      "title": "【重要】弊社が利用するメール配信サービスへの不正アクセスによるお客さまメールアドレス流出に関するお詫びとお知らせ",
+      "published_on": "2026-11-20",
+      "checked_on": "2026-11-26"
+    },
+    {
+      "url": "https://www.cando-web.co.jp/news/76b3d65fd34baf4af139bcf41cd19c0f8bbeeb5a.pdf",
+      "type": "official",
+      "title": "お客さまメールアドレス流出に関するお詫びとお知らせ",
+      "published_on": "2026-11-20",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

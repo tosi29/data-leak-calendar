@@ -11,7 +11,7 @@
   "publication_kind": "initial",
   "occurred_on": null,
   "detected_on": null,
-  "updated_on": "2026-11-06",
+  "updated_on": "2026-11-20",
   "verification": "official",
   "leak_status": "confirmed",
   "incident_type": "attack",
@@ -22,10 +22,10 @@
   },
   "impact": [
     {
-      "count": null,
+      "count": 20,
       "unit": "people",
-      "qualifier": "unknown",
-      "description": "対象範囲は特定中。"
+      "qualifier": "exact",
+      "description": "同社保証のカードローンを契約した顧客。"
     }
   ],
   "data_types": [
@@ -47,8 +47,21 @@
       "title": "ＳＭＢＣコンシューマーファイナンス株式会社への不正アクセスによるお客さま情報の漏洩について",
       "published_on": "2026-11-06",
       "checked_on": "2026-11-08"
+    },
+    {
+      "url": "https://www.tottoribank.co.jp/oshirase/pdf/2026-11-20.pdf",
+      "type": "official",
+      "title": "不正アクセスによるお客さま情報の漏洩について（第 2 報）",
+      "published_on": "2026-11-20",
+      "checked_on": "2026-11-26"
     }
   ],
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-11-20",
+      "summary": "第2報で、SMBCコンシューマーファイナンス保証のカードローンを契約した顧客20名の情報の漏えいを公表。",
+      "source_index": 1
+    }
+  ],
   "notes": "項目はSMBCCFの公表に基づく。同社への保証依頼を停止。"
 }

@@ -1,0 +1,61 @@
+{
+  "id": "pasona-tonariwa-20261113",
+  "organization": {
+    "name": "パソナ（人材紹介・再就職支援）",
+    "sector": "企業・団体"
+  },
+  "title": "求職者とのLINE連絡に使う電通デジタルの「TONARIWA」への不正アクセスで人材紹介・再就職支援の利用者約104万件の個人情報が漏えい",
+  "summary": "求職者とのLINE連絡に使う電通デジタルの「TONARIWA」への不正アクセスで人材紹介・再就職支援の利用者約104万件の個人情報が漏えい。",
+  "published_on": "2026-11-13",
+  "first_published_on": "2026-11-13",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-17",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "求職者とのLINE連絡に使う電通デジタルのシステム「TONARIWA」への第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 1040000,
+      "unit": "records",
+      "qualifier": "approximate",
+      "description": "人材紹介事業と再就職支援事業の利用者の氏名（フリガナ）、電話番号、生年月日など。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "電話番号",
+    "生年月日"
+  ],
+  "related_vendor": "株式会社電通デジタル",
+  "sources": [
+    {
+      "url": "https://www.pasonacareer.jp/info/20261113t/",
+      "type": "official",
+      "title": "当社利用の外部システムにおける個人情報漏えいについて",
+      "published_on": "2026-11-13",
+      "checked_on": "2026-11-26"
+    },
+    {
+      "url": "https://www.pasonacareer.jp/info/20261117t/",
+      "type": "official",
+      "title": "当社利用の外部システムにおける個人情報漏えいについて（第二報）",
+      "published_on": "2026-11-17",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [
+    {
+      "date": "2026-11-17",
+      "summary": "電通デジタルから提供されたデータとの照合で約104万件の漏えいを確認。",
+      "source_index": 1
+    }
+  ],
+  "notes": ""
+}

@@ -1,0 +1,51 @@
+{
+  "id": "nagashima-ohno-web-systems-20261120",
+  "organization": {
+    "name": "長島・大野・常松法律事務所",
+    "sector": "企業・団体"
+  },
+  "title": "外部ベンダ提供の共通基盤を使う会員制サイトなど4つのシステムの脆弱性を突いた不正アクセスで登録者の個人情報が漏えい",
+  "summary": "外部ベンダ提供の共通基盤を使う会員制サイトなど4つのシステムの脆弱性を突いた不正アクセスで登録者の個人情報が漏えい。",
+  "published_on": "2026-11-20",
+  "first_published_on": "2026-11-20",
+  "publication_kind": "initial",
+  "occurred_on": "2026-11-09",
+  "detected_on": "2026-11-10",
+  "updated_on": "2026-11-20",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "vulnerability",
+    "certainty": "unknown",
+    "detail": "外部ベンダが提供する共通基盤システムの脆弱性に起因する不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "Legal Lounge、OB/OG向けサイト、弁護士採用サイト、一斉メール配信システムの登録情報。件数は第一報で未記載。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "所属先",
+    "部署",
+    "役職",
+    "メールアドレス",
+    "パスワードのハッシュ値"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.nagashima.com/topics/topic20261120/",
+      "type": "official",
+      "title": "会員制サイトおよび一斉メール配信システムに対する不正アクセスによる個人情報の漏えいに関するお知らせとお詫び（第一報）",
+      "published_on": "2026-11-20",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

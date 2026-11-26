@@ -1,0 +1,53 @@
+{
+  "id": "mercari-notion-fireworks-20261121",
+  "organization": {
+    "name": "メルカリ（グループ）",
+    "sector": "企業・団体"
+  },
+  "title": "Notion AIの処理委託先Fireworks AIへの不正アクセスで、入力記録に含まれる顧客1,522名分や取引先・応募者等の個人情報が流出した可能性",
+  "summary": "Notion AIの処理委託先Fireworks AIへの不正アクセスで、入力記録に含まれる顧客1,522名分や取引先・応募者等の個人情報が流出した可能性。",
+  "published_on": "2026-11-21",
+  "first_published_on": "2026-11-21",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-21",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "Notion AIの処理を担う委託先Fireworks AIへの第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 3796,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "顧客1,522名、取引先担当者571名、採用応募者169名、派遣社員・業務委託先・退職者1,534名。"
+    }
+  ],
+  "data_types": [
+    "お客さま識別番号",
+    "氏名",
+    "住所",
+    "電話番号",
+    "メールアドレス",
+    "生年月日",
+    "問い合わせ内容",
+    "選考情報"
+  ],
+  "related_vendor": "Fireworks AI（Notionの委託先）",
+  "sources": [
+    {
+      "url": "https://about.mercari.com/press/news/articles/20261120_incidentreport/",
+      "type": "official",
+      "title": "当社グループが利用するクラウドサービスの委託先への不正アクセスによる情報流出の可能性について",
+      "published_on": "2026-11-21",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": "公式発表は11月20日付の記事URLで、公表日は索引の11月21日とした。"
+}

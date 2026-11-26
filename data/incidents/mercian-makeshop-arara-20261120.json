@@ -1,0 +1,53 @@
+{
+  "id": "mercian-makeshop-arara-20261120",
+  "organization": {
+    "name": "メルシャン（シャトー・メルシャン online）",
+    "sector": "企業・団体"
+  },
+  "title": "EC関連の委託先GMOメイクショップが使う「アララメッセージ」への不正アクセスで会員・購入者のメールアドレス8,781件が漏えい",
+  "summary": "EC関連の委託先GMOメイクショップが使う「アララメッセージ」への不正アクセスで会員・購入者のメールアドレス8,781件が漏えい。",
+  "published_on": "2026-11-20",
+  "first_published_on": "2026-11-20",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-11-19",
+  "updated_on": "2026-11-20",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "メール配信に使われるアララの「アララメッセージ」への第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": 8781,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "会員登録者・ゲスト購入者のメールアドレス。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス"
+  ],
+  "related_vendor": "アララ株式会社",
+  "sources": [
+    {
+      "url": "https://www.kirinholdings.com/jp/newsroom/release/2026/1120_02.pdf",
+      "type": "official",
+      "title": "お客様情報漏えいに関するお詫びとお知らせ（第 4 報）",
+      "published_on": "2026-11-20",
+      "checked_on": "2026-11-26"
+    },
+    {
+      "url": "https://chateaumercian.jp/view/news/20261120154756",
+      "type": "official",
+      "title": "業務委託先への不正アクセスによるお客様情報漏えいに関するお詫",
+      "published_on": "2026-11-20",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

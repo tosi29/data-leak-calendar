@@ -11,8 +11,8 @@
   "publication_kind": "initial",
   "occurred_on": null,
   "detected_on": "2026-11-06",
-  "updated_on": "2026-11-08",
-  "verification": "secondary",
+  "updated_on": "2026-11-19",
+  "verification": "official",
   "leak_status": "confirmed",
   "incident_type": "attack",
   "cause": {
@@ -22,10 +22,16 @@
   },
   "impact": [
     {
-      "count": null,
-      "unit": "people",
-      "qualifier": "unknown",
-      "description": "全会員の氏名・メールアドレス。件数は精査中。"
+      "count": 3092473,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "メールアドレス。"
+    },
+    {
+      "count": 2249280,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "氏名。ほかに生年月日、住所、電話番号、チケット情報など。"
     }
   ],
   "data_types": [
@@ -53,8 +59,28 @@
       "title": "ドコモ系電子チケット「teket」で情報流出 サービス全面停止（Impress Watch）",
       "published_on": "2026-11-08",
       "checked_on": "2026-11-09"
+    },
+    {
+      "url": "https://corporate.teket.jp/news/2026-11-incident",
+      "type": "official",
+      "title": "teket(テケト)における不正アクセスに関するご案内",
+      "published_on": "2026-11-19",
+      "checked_on": "2026-11-26"
+    },
+    {
+      "url": "https://corporate.teket.jp/news/2026-11-incident/02",
+      "type": "official",
+      "title": "株式会社teket（テケト）",
+      "published_on": "2026-11-19",
+      "checked_on": "2026-11-26"
     }
   ],
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-11-19",
+      "summary": "第二報で、流出した情報はメールアドレス3,092,473件、氏名2,249,280件などと公表。",
+      "source_index": 3
+    }
+  ],
   "notes": "公式ページは本文をスクリプトで描画し直接取得できず、報道で内容を確認した二次資料扱い。生年月日以降の項目は登録・購入した会員のみ。"
 }

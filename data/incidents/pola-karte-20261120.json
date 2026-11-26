@@ -1,0 +1,47 @@
+{
+  "id": "pola-karte-20261120",
+  "organization": {
+    "name": "ポーラ",
+    "sector": "企業・団体"
+  },
+  "title": "利用する「KARTE」への不正アクセスで顧客56,349件の氏名とPOLA IDが流出",
+  "summary": "利用する「KARTE」への不正アクセスで顧客56,349件の氏名とPOLA IDが流出。",
+  "published_on": "2026-11-20",
+  "first_published_on": "2026-11-20",
+  "publication_kind": "initial",
+  "occurred_on": "2026-11-13",
+  "detected_on": "2026-11-15",
+  "updated_on": "2026-11-20",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "利用するプレイドのマーケティングツール「KARTE」への第三者による不正アクセス（プレイドはデータ取得用の公開経路の脆弱性の悪用と公表）。"
+  },
+  "impact": [
+    {
+      "count": 56349,
+      "unit": "records",
+      "qualifier": "exact",
+      "description": "氏名、ポーラ固有の管理用ID（POLA ID）など。住所・電話番号・メールアドレス等は含まない。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "管理用ID"
+  ],
+  "related_vendor": "株式会社プレイド",
+  "sources": [
+    {
+      "url": "https://www.pola.co.jp/notice/unauthorized-access-20261120/index.html",
+      "type": "official",
+      "title": "【重要】外部委託先への不正アクセスに伴うお客さま情報の流出について",
+      "published_on": "2026-11-20",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

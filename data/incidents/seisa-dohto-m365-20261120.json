@@ -1,0 +1,51 @@
+{
+  "id": "seisa-dohto-m365-20261120",
+  "organization": {
+    "name": "星槎道都大学",
+    "sector": "教育・研究"
+  },
+  "title": "教職員1名のMicrosoft 365アカウントへの不正ログインで閲覧されたメール20件と添付資料に含まれる学生等135名の情報が漏えいしたおそれ",
+  "summary": "教職員1名のMicrosoft 365アカウントへの不正ログインで閲覧されたメール20件と添付資料に含まれる学生等135名の情報が漏えいしたおそれ。",
+  "published_on": "2026-11-20",
+  "first_published_on": "2026-11-20",
+  "publication_kind": "initial",
+  "occurred_on": "2026-08-16",
+  "detected_on": "2026-09-22",
+  "updated_on": "2026-11-20",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "credentials",
+    "certainty": "unknown",
+    "detail": "教職員1名のMicrosoft 365アカウントへの第三者による不正ログイン（2026年8月16日～9月24日）。"
+  },
+  "impact": [
+    {
+      "count": 135,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "学生103名、教職員29名、学外の方3名。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "学籍番号",
+    "出席状況",
+    "メールアドレス",
+    "所属",
+    "電話番号"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.seisadohto.ac.jp/information?detail_no=9541",
+      "type": "official",
+      "title": "新着情報｜星槎道都大学",
+      "published_on": "2026-11-20",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": "9月22日から事象を公表していたが、個人情報の漏えいのおそれは11月20日の調査結果で公表。"
+}

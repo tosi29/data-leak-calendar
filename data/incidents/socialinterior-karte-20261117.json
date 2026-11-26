@@ -11,7 +11,7 @@
   "publication_kind": "initial",
   "occurred_on": null,
   "detected_on": null,
-  "updated_on": "2026-11-17",
+  "updated_on": "2026-11-19",
   "verification": "official",
   "leak_status": "confirmed",
   "incident_type": "attack",
@@ -22,10 +22,10 @@
   },
   "impact": [
     {
-      "count": 29194,
+      "count": 28517,
       "unit": "records",
       "qualifier": "exact",
-      "description": "KARTEに連携していた会員情報。"
+      "description": "第一報の29,194件から訂正。氏名、メールアドレス、LINEユーザーID。"
     }
   ],
   "data_types": [
@@ -41,8 +41,21 @@
       "title": "【重要】外部サービス「KARTE」への不正アクセスに伴うお客様情報漏えいのお詫びとご報告（2026年11月17日10時00分更新）",
       "published_on": "2026-11-17",
       "checked_on": "2026-11-18"
+    },
+    {
+      "url": "https://subsclife.com/feature/2026111602",
+      "type": "official",
+      "title": "【第三報】外部サービス「KARTE」への不正アクセスに伴うお客様情報漏えいのお詫びとご報告（2026年11月25日17時30分更新）",
+      "published_on": "2026-11-19",
+      "checked_on": "2026-11-26"
     }
   ],
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-11-19",
+      "summary": "続報で、件数を第一報の29,194件から28,517件に訂正。",
+      "source_index": 1
+    }
+  ],
   "notes": ""
 }

@@ -1,0 +1,51 @@
+{
+  "id": "ga-tech-renosy-karte-20261120",
+  "organization": {
+    "name": "GA technologies（RENOSY）",
+    "sector": "企業・団体"
+  },
+  "title": "「RENOSY」で使う「KARTE」への不正アクセスで会員のメールアドレス・生年月日・性別等が流出",
+  "summary": "「RENOSY」で使う「KARTE」への不正アクセスで会員のメールアドレス・生年月日・性別等が流出。",
+  "published_on": "2026-11-20",
+  "first_published_on": "2026-11-20",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-20",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "利用するプレイドのマーケティングツール「KARTE」への第三者による不正アクセス（プレイドはデータ取得用の公開経路の脆弱性の悪用と公表）。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "「RENOSY」会員の一部。件数は精査中。"
+    }
+  ],
+  "data_types": [
+    "メールアドレス",
+    "生年月日",
+    "年齢",
+    "性別",
+    "都道府県",
+    "識別番号"
+  ],
+  "related_vendor": "株式会社プレイド",
+  "sources": [
+    {
+      "url": "https://www.ga-tech.co.jp/news/qehozmfnf4ycy8ti/",
+      "type": "official",
+      "title": "当社サービス「RENOSY」で利用する外部サービス「KARTE」への不正アクセスに伴う情報流出に関するお知らせ",
+      "published_on": "2026-11-20",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

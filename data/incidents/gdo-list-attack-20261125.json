@@ -1,0 +1,49 @@
+{
+  "id": "gdo-list-attack-20261125",
+  "organization": {
+    "name": "ゴルフダイジェスト・オンライン",
+    "sector": "企業・団体"
+  },
+  "title": "リスト型攻撃の可能性が高い不正ログインで会員1,001件の会員情報変更画面が閲覧された可能性",
+  "summary": "リスト型攻撃の可能性が高い不正ログインで会員1,001件の会員情報変更画面が閲覧された可能性。",
+  "published_on": "2026-11-25",
+  "first_published_on": "2026-11-25",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-25",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "credentials",
+    "certainty": "suspected",
+    "detail": "リスト型攻撃とみられる不正ログイン。"
+  },
+  "impact": [
+    {
+      "count": 1001,
+      "unit": "accounts",
+      "qualifier": "exact",
+      "description": "氏名・住所・電話番号やカード番号の一部などが表示される画面。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "電話番号",
+    "カード番号の一部"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://company.golfdigest.co.jp/brand/news/2026112501.html",
+      "type": "official",
+      "title": "不正ログインによるお客様情報の流出に関するお詫びとお知らせ",
+      "published_on": "2026-11-25",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

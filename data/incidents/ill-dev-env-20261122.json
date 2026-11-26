@@ -1,0 +1,49 @@
+{
+  "id": "ill-dev-env-20261122",
+  "organization": {
+    "name": "アイル（SaaS系サービスの開発・検証環境）",
+    "sector": "企業・団体"
+  },
+  "title": "SaaS系サービスの開発・検証環境への不正アクセスで取引先担当者情報や連携テストに含まれた会員・注文情報の一部が取得された",
+  "summary": "SaaS系サービスの開発・検証環境への不正アクセスで取引先担当者情報や連携テストに含まれた会員・注文情報の一部が取得された。",
+  "published_on": "2026-11-22",
+  "first_published_on": "2026-11-22",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": "2026-11-18",
+  "updated_on": "2026-11-22",
+  "verification": "official",
+  "leak_status": "confirmed",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "開発・検証用の環境への第三者による不正アクセス。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "records",
+      "qualifier": "unknown",
+      "description": "件数は調査中。本番環境への侵入は確認されていない。"
+    }
+  ],
+  "data_types": [
+    "取引先担当者情報",
+    "会員情報",
+    "注文情報",
+    "API認証情報"
+  ],
+  "related_vendor": null,
+  "sources": [
+    {
+      "url": "https://www.ill.co.jp/info/261122/",
+      "type": "official",
+      "title": "当社SaaS系サービスの検証環境への不正アクセスによる情報漏えいに関するお詫びとお知らせ",
+      "published_on": "2026-11-22",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": "11月10日に公表したCROSS POINT連携APIの件とは関連がないとしている。"
+}

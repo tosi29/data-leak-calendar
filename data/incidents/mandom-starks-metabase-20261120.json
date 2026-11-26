@@ -1,0 +1,52 @@
+{
+  "id": "mandom-starks-metabase-20261120",
+  "organization": {
+    "name": "マンダム（マンダムオンラインショップ）",
+    "sector": "企業・団体"
+  },
+  "title": "物流委託先スタークスが使うデータ分析ツール「Metabase」の脆弱性を悪用した不正アクセスで注文者36,671名の情報が漏えいした可能性が高い",
+  "summary": "物流委託先スタークスが使うデータ分析ツール「Metabase」の脆弱性を悪用した不正アクセスで注文者36,671名の情報が漏えいした可能性が高い。",
+  "published_on": "2026-11-20",
+  "first_published_on": "2026-11-20",
+  "publication_kind": "initial",
+  "occurred_on": null,
+  "detected_on": null,
+  "updated_on": "2026-11-20",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "vulnerability",
+    "certainty": "confirmed",
+    "detail": "物流委託先スタークスがクラウドロジに関連して使っていたデータ分析ツール（Metabase）のソフトウェアの脆弱性の悪用。"
+  },
+  "impact": [
+    {
+      "count": 36671,
+      "unit": "people",
+      "qualifier": "exact",
+      "description": "2013年11月～2025年10月の注文者。氏名、住所、電話番号、メールアドレス、生年月日、性別、注文情報。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "住所",
+    "電話番号",
+    "メールアドレス",
+    "生年月日",
+    "性別",
+    "注文情報"
+  ],
+  "related_vendor": "スタークス株式会社",
+  "sources": [
+    {
+      "url": "https://www.mandom.co.jp/release/2026112001.html",
+      "type": "official",
+      "title": "業務委託先への不正アクセスによるお客さま情報漏えいの可能性に関するお詫びとお知らせ",
+      "published_on": "2026-11-20",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}

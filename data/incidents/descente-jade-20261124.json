@@ -1,0 +1,50 @@
+{
+  "id": "descente-jade-20261124",
+  "organization": {
+    "name": "デサント（DESCENTE STORE オンライン）",
+    "sector": "企業・団体"
+  },
+  "title": "オンラインストアの運営委託先ジェイドグループの管理システムへのサイバー攻撃でCLUB DESCENTE会員の氏名・連絡先等が漏えいした可能性",
+  "summary": "オンラインストアの運営委託先ジェイドグループの管理システムへのサイバー攻撃でCLUB DESCENTE会員の氏名・連絡先等が漏えいした可能性。",
+  "published_on": "2026-11-24",
+  "first_published_on": "2026-11-24",
+  "publication_kind": "initial",
+  "occurred_on": "2026-11-23",
+  "detected_on": null,
+  "updated_on": "2026-11-24",
+  "verification": "official",
+  "leak_status": "suspected",
+  "incident_type": "attack",
+  "cause": {
+    "category": "unauthorized_access",
+    "certainty": "unknown",
+    "detail": "運営委託先ジェイドグループの管理システムへのサイバー攻撃（不正アクセス）。"
+  },
+  "impact": [
+    {
+      "count": null,
+      "unit": "people",
+      "qualifier": "unknown",
+      "description": "件数の記載なし。"
+    }
+  ],
+  "data_types": [
+    "氏名",
+    "メールアドレス",
+    "電話番号",
+    "住所",
+    "生年月日"
+  ],
+  "related_vendor": "株式会社ジェイドグループ",
+  "sources": [
+    {
+      "url": "https://www.descente.co.jp/jp/important/261124imp/",
+      "type": "official",
+      "title": "【重要なお知らせ】不正アクセスによる個人情報漏えいの可能性に関するお詫びとお知らせ - DESCENTE LTD.",
+      "published_on": "2026-11-24",
+      "checked_on": "2026-11-26"
+    }
+  ],
+  "updates": [],
+  "notes": ""
+}
